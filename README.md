@@ -174,14 +174,35 @@ Her arc is "growing admiration for primitive human ingenuity."
 ```
 
 ```
-Let's brainstorm the Jink-Theodore relationship.
+Let's brainstorm Jink's recklessness and what it costs.
+They're the scout — youngest, androgynous, wild curly hair, fastest flyer.
+Their arc is "learning actions in the past have weight."
+- Why the recklessness? (youth? invincibility? never faced real consequences before?)
+- Breaking protocol with Theodore — impulse? loneliness? curiosity? all three?
+- What does "actions have weight" mean for someone who's never had permanence?
+- Their relationship with the squad (the kid everyone protects and everyone is frustrated by)
+- Their voice: fast, casual, quips when it's not appropriate — but when do they go quiet?
+```
+
+```
+Let's brainstorm Theodore's inner world and what "something better" means.
+He's the human ally — 12-13, tinker's apprentice, sandy-brown hair, clever hands.
+His arc is "wants fairies to be magical; learns they're something better."
+- His life before the fairies (alone? overlooked? what does Cribbage's workshop mean to him?)
+- What does he think fairies ARE when he first meets Jink? What story is he telling himself?
+- The disillusionment: when does he realize they're soldiers, not magical beings?
+- What "something better" means — what replaces the fairy tale in his mind?
+- His voice: Victorian earnest, formal, tinker's vocabulary — but how does he talk to Jink vs. Sable?
+```
+
+```
+Let's brainstorm the Jink-Theodore relationship as a cross-reference.
 Jink is the reckless scout who makes unauthorized first contact.
 Theodore is the tinker's apprentice who wants fairies to be magical.
-- Why does Jink break protocol? (impulse? loneliness? curiosity?)
-- What does Theodore offer that the squad can't? (wonder? a different perspective?)
 - How does their bond evolve across 12 issues?
-- The moment Theodore learns they're soldiers, not fairies — how does he process that?
+- What does each offer the other that no one else can?
 - Their voice contrast: Jink is fast/casual, Theodore is earnest/Victorian
+- The moment Theodore learns they're soldiers, not fairies — how does Jink handle that?
 ```
 
 ```
