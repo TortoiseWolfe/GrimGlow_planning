@@ -222,7 +222,101 @@ arc summary, voice notes, and key moments across the 12-issue run.
 Save to characters/wiki/sable.md.
 ```
 
-Repeat `/wiki` for Wren, Jink, Thresh, Luma, and Theodore.
+```
+/wiki
+```
+
+```
+Create a canonical character profile for Wren, the squad's engineer.
+Sources: characters/GrimGlow_Character_Prompts.md, docs/GrimGlow_Story_Bible.md,
+comic/GrimGlow_Volume1_Plot_Outline.md, and the brainstorming notes in world-building/.
+Include: full name/rank, physical description, personality, backstory, relationships,
+arc summary ("growing admiration for primitive human ingenuity"), voice notes
+(technical vocabulary, dry humor, talks to machines), and key moments:
+the clockwork cathedral in Issue 5, the lighthouse lens swap in Issue 7,
+the feedback pulse against the Titan in Issue 10, and the disarm walkthrough
+she gives Theodore in Issue 12.
+Save to characters/wiki/wren.md.
+```
+
+```
+/wiki
+```
+
+```
+Create a canonical character profile for Jink, the squad's scout.
+Sources: characters/GrimGlow_Character_Prompts.md, docs/GrimGlow_Story_Bible.md,
+comic/GrimGlow_Volume1_Plot_Outline.md, and the brainstorming notes in world-building/.
+Include: full name/rank, physical description (androgynous, wild curly hair, uses they/them),
+personality, backstory, relationships (especially the bond with Theodore),
+arc summary ("learning actions in the past have weight"), voice notes
+(fast, casual, irreverent — but serious when it counts), and key moments:
+unauthorized first contact in Issue 3, exhilaration vs. squad tension in Issues 2 and 5,
+the Titan sighting from the lighthouse in Issue 7, fury at Sable's lie in Issue 9,
+and the rooftop conversation with Theodore in Issue 11.
+Save to characters/wiki/jink.md.
+```
+
+```
+/wiki
+```
+
+```
+Create a canonical character profile for Thresh, the squad's soldier.
+Sources: characters/GrimGlow_Character_Prompts.md, docs/GrimGlow_Story_Bible.md,
+comic/GrimGlow_Volume1_Plot_Outline.md, and the brainstorming notes in world-building/.
+Include: full name/rank, physical description (broad, copper-red buzz cut, heavy armor),
+personality, backstory, relationships (especially with Sable),
+arc summary ("brave in the future, terrified in the past — fights afraid"),
+voice notes (blunt, military shorthand, fear leaks through in silence and word choice),
+and key moments: confident competence in the Issue 1 future opening,
+fear surfacing during the cat encounter in Issue 2, exposed overwatch in Issue 5,
+the boot near-miss in Issue 7, the encounter with the gentle child in Issue 8,
+and the breakthrough combat against the Titan in Issue 10 — afraid and fighting anyway.
+Save to characters/wiki/thresh.md.
+```
+
+```
+/wiki
+```
+
+```
+Create a canonical character profile for Luma, the squad's medic and scientist.
+Sources: characters/GrimGlow_Character_Prompts.md, docs/GrimGlow_Story_Bible.md,
+comic/GrimGlow_Volume1_Plot_Outline.md, and the brainstorming notes in world-building/.
+Include: full name/rank, physical description (South Asian, braided hair with luminous filament,
+holographic lenses), personality, backstory, relationships (especially the investigation
+partnership with Theodore), arc summary ("sees the paradox first; most tempted to stay"),
+voice notes (precise, observational, asks questions that sound casual but aren't),
+and key moments: the fairy glyph discovery in Issue 4, Titan traces and waistcoat-pocket
+investigation in Issue 6, the church cache and "STAY" in Issue 8,
+connecting the dots for the squad in Issues 9 and 11, and delivering the full
+paradox revelation in Issue 12 — the convergence point is the stories humanity tells.
+Save to characters/wiki/luma.md.
+```
+
+```
+/wiki
+```
+
+```
+Create a canonical character profile for Theodore Edmund Hartley, the human ally.
+Sources: characters/GrimGlow_Character_Prompts.md, docs/GrimGlow_Story_Bible.md,
+comic/GrimGlow_Volume1_Plot_Outline.md, and the brainstorming notes in world-building/.
+Include: full name, age (12-13), physical description (sandy-brown hair, hazel eyes,
+oil-stained clever hands, brass gear ring, worn waistcoat), personality, backstory
+(apprentice to Mr. Cribbage, alone, resourceful, overlooked), relationships
+(especially the bond with Jink, the investigation partnership with Luma,
+and the complicated trust with Sable), arc summary ("wants fairies to be magical;
+learns they're something better"), voice notes (period-appropriate Victorian English,
+earnest, formal, tinker's vocabulary), and key moments: glimpsing the falling star
+in Issue 1, finding the shard and meeting Jink in Issue 3, the charging cradle
+demonstration in Issue 4, the terrible-liar diversion in Issue 5, guiding Luma
+through old streets in Issues 6 and 8, the rooftop conversation with Jink in Issue 11,
+and disarming the final Titan device with clockwork hands in Issue 12 —
+then writing the first fairy tale alone by candlelight.
+Save to characters/wiki/theodore.md.
+```
 
 ---
 
