@@ -112,7 +112,7 @@ Reference the component list from comic/GrimGlow_Volume1_Plot_Outline.md.
 
 ```
 Let's brainstorm Titan biology and culture for GrimGlow.
-The Story Bible says they're from a low-gravity world with oil-on-water iridescent cloaking.
+The Story Bible says they use oil-on-water iridescent cloaking and brain-plug humans as foot soldiers.
 I need to explore:
 - Their physiology (how big are they relative to humans? how do they move?)
 - Their cloaking mechanics (not invisibility but "wrongness" — what does that mean in practice?)

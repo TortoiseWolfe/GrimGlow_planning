@@ -363,6 +363,29 @@ The shaking hands are all of these at once. Scientific excitement, personal drea
 - The prior operatives who stayed — does Luma identify with them? Fear becoming them?
 - <AI>Is there a moment where Luma considers NOT sharing the synthesis — because if she keeps it to herself, the squad might still find a way home, and she'd lose the only argument for staying?</AI>
 
+### The Evolutionary Fork — A New Layer (PLANTED, Vol 2 resolution)
+
+When scanning a brain-plugged human, Luma notices something that unsettles her: the physiological changes — dark veins, iridescent eyes, bone density shifts, nervous system alterations — map directly to ogre physiology in the squad's medical databases. The brain-plugging process isn't just controlling humans. It's the early stage of what eventually becomes full ogre biology in the far future.
+
+<hidden>The brain-plugging process is the ORIGIN of the ogre species. Repeated across multiple convergence points through history, the physiological changes accumulate across generations. The dark veins, the iridescent eyes, the oily skin — these are early-stage markers of what eventually becomes full ogre biology. "These are... they look like early-stage ogres." The Titans aren't using an existing slave race. They're CREATING one, from humanity, across centuries of convergence point interventions.
+
+If the squad stops the process here, they don't just save these Victorian humans. They potentially erase the entire ogre army from the future timeline — or at minimum, disrupt one branch of the species' engineered evolution.</hidden>
+
+**In Volume 1:** Luma notices the resemblance. She files it, doesn't share it with the squad. It's a seed, not a revelation. — LOCKED (ogre origin brainstorm)
+
+This gives Luma a devastating new dimension to her temptation to stay:
+- The stakes aren't just fairy tales and cultural mythology
+- The stakes are the future shape of an entire species
+- Intervening here could reshape the entire future conflict
+- But acknowledging this means staying even longer — which is exactly what Luma already wants
+
+<AI>Planting moments:
+- Issue 8 (What Luma Found) — she's already making revelations. Adding the ogre biology notice here risks overcrowding.
+- Issue 10 (The Titan) — first close encounter with a brain-plugged human. She scans it during or after the encounter. This is the natural moment.
+- Issue 11 (Convergence) — quieter issue, more room to process. But less dramatically immediate.</AI>
+
+**Cross-reference:** ogre origin brainstorm (`world-building/brainstorm-ogre-origin.md`) — full evolutionary fork details
+
 ---
 
 ## 4. Voice — Questions as Instruments
@@ -486,4 +509,4 @@ Does Luma explain her findings to Theodore? Does he understand? The boy who carr
 
 ---
 
-*This document is a working brainstorm. All `<AI>` tagged suggestions are proposals for consideration, not decisions. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Plot Outline, Script Prompts, Character Prompts, Character Turnarounds, Sable backstory brainstorm, Wren technology brainstorm, Jink recklessness brainstorm, Theodore inner world brainstorm, Thresh fear arc brainstorm, and temporal mechanics brainstorm.*
+*This document is a working brainstorm. All `<AI>` tagged suggestions are proposals for consideration, not decisions. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Plot Outline, Script Prompts, Character Prompts, Character Turnarounds, Sable backstory brainstorm, Wren technology brainstorm, Jink recklessness brainstorm, Theodore inner world brainstorm, Thresh fear arc brainstorm, temporal mechanics brainstorm, and ogre origin brainstorm.*

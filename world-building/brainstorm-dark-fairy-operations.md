@@ -13,26 +13,26 @@
 - **Open questions** = unresolved decisions preserved for future sessions
 - **Canon references** point to existing GrimGlow design documents
 
-This document covers the Titan operational footprint in London: how many dark fairy commanders and ogre foot soldiers are deployed, where they operate, and whether their devices are visible to humans. It draws primarily from the Titan biology/culture brainstorm, the Volume 1 Plot Outline (Issues 10-12), and the steampunk tech rules brainstorm.
+This document covers the Titan operational footprint in London: how many dark fairy commanders and ogre foot soldiers (brain-plugged humans — Victorian civilians implanted with Titan tech devices) are deployed, where they operate, and whether their devices are visible to humans. It draws primarily from the Titan biology/culture brainstorm, the Volume 1 Plot Outline (Issues 10-12), and the steampunk tech rules brainstorm.
 
 ---
 
 ## 1. Commander Count & Deployment
 
-**Locked decision:** The Titans are a two-tier faction — dark fairy commanders (diverged species, same as the squad) directing ogre foot soldiers (subjugated slave race). (Titan Biology & Culture brainstorm)
+**Locked decision:** The Titans are a two-tier faction — dark fairy commanders (diverged species, same as the squad) directing ogre foot soldiers (brain-plugged humans — Victorian civilians implanted with Titan tech devices at the base of the skull, overriding their volition). (Titan Biology & Culture brainstorm)
 
-"The operation in London is run by a small number of dark fairy commanders directing a small number of ogre soldiers." (Titan Biology & Culture brainstorm, Section 5)
+"The operation in London is run by a small number of dark fairy commanders directing a small number of brain-plugged human soldiers." (Titan Biology & Culture brainstorm, Section 5)
 
 3 in London — LOCKED. One per operation zone (Bermondsey industrial, Wapping docks, telegraph network). They are the planners, not the muscle. (Locked in Titan Biology & Culture brainstorm)
 
-Each commander manages a section of the operation and directs assigned ogres. (Titan Biology & Culture brainstorm, Section 5)
+Each commander manages a section of the operation and directs assigned brain-plugged humans. (Titan Biology & Culture brainstorm, Section 5)
 
 The three operation zones map to the squad's triangular operating area (Fairy-Scale Geography brainstorm):
 - **Bermondsey / Southwark** (south) — Factory district. Titan bio-traces in basement, claw marks (Plot Outline, Issue 6). "Europe's largest leather industry: eleven tanneries along Long Lane. Warehouses, wharves, food processing." (Fairy-Scale Geography brainstorm)
 - **Wapping / Limehouse** (east) — Docklands. Giant brick warehouses, waterfront. (Fairy-Scale Geography brainstorm)
 - **Telegraph infrastructure** — Distributed across London. Relay stations, branch offices, Central Telegraph Office at St Martin's-le-Grand. (Steampunk Tech Rules brainstorm)
 
-<hidden>Alt-Sable leads. She runs the London operation the way our Sable runs the squad — with tactical precision, strategic patience, and hard calls. But her "squad" is subjugated ogres, not trusted companions. Every parallel between her command style and Sable's is a mirror that cuts. She assigns sectors, manages resources, adjusts strategy when the squad disrupts operations. She is competent and dangerous precisely because she thinks like Sable. (Titan Biology & Culture brainstorm)</hidden>
+<hidden>Alt-Sable leads. She runs the London operation the way our Sable runs the squad — with tactical precision, strategic patience, and hard calls. But her "squad" is brain-plugged human victims, not trusted companions. Every parallel between her command style and Sable's is a mirror that cuts. She assigns sectors, manages resources, adjusts strategy when the squad disrupts operations. She is competent and dangerous precisely because she thinks like Sable. (Titan Biology & Culture brainstorm)</hidden>
 
 **Commander communication:** <AI>Inverted fairy communication protocol. Encrypted, short-range. The dark fairy commanders must be within operational distance to coordinate — they can't communicate across London instantly. This creates vulnerability: isolating one commander from the others degrades the operation's coordination. (Titan Biology & Culture brainstorm)</AI>
 
@@ -45,24 +45,24 @@ The three operation zones map to the squad's triangular operating area (Fairy-Sc
 
 ---
 
-## 2. Ogre Count & Roles
+## 2. Brain-Plugged Human Count & Roles
 
-5 in London — LOCKED. Flexible deployment, 1-2 per commander. The guarded device in Issue 12 has at least one ogre defender. (Locked in Titan Biology & Culture brainstorm)
+5 in London — LOCKED. Flexible deployment, 1-2 per commander. The guarded device in Issue 12 has at least one brain-plugged human defender. (Locked in Titan Biology & Culture brainstorm)
 
-Ogres follow dark fairy commander directives. They execute physical tasks: guarding installations, patrolling zones, pursuing the squad when directed, maintaining devices under commander supervision. (Titan Biology & Culture brainstorm, Section 5)
+Brain-plugged humans follow dark fairy commander directives via the Titan tech device implanted at the base of the skull. The device overrides the victim's volition and relays the commander's instructions directly to the human's nervous system. They execute physical tasks: guarding installations, patrolling zones, pursuing the squad when directed, maintaining devices under commander supervision. The victims retain their physical abilities and learned skills — a dock worker retains a dock worker's strength, a telegraph operator retains a telegraph operator's knowledge — but their will is not their own. (Titan Biology & Culture brainstorm, Section 5)
 
-<AI>Limited autonomous decision-making. An ogre left without orders defaults to patrol and defend behavior — predictable enough for the squad to exploit. An ogre under direct command is far more dangerous because the dark fairy commander adapts in real time. (Titan Biology & Culture brainstorm)</AI>
+<AI>A brain-plugged human without active commands enters a confused fugue state — standing still, wandering aimlessly, or attempting to return to familiar locations. Not dangerous, but not themselves. This is exploitable: if the squad can isolate a victim from their commander's signal, the human doesn't fight — they drift. A brain-plugged human under direct command is far more dangerous because the dark fairy commander adapts in real time, using the human's body with precision the victim themselves might not possess. (Titan Biology & Culture brainstorm)</AI>
 
-**Commander-to-ogre control:** <AI>Direct neural command (dark fairy tech control interface) for immediate tactical orders. The ogre responds instantly — turn, pursue, hold, withdraw. This looks like the ogre acting on its own, but it's being directed. Subsonic signaling for broader directives — patrol this area, guard this location, report movement. Lower bandwidth but works at range. (Titan Biology & Culture brainstorm)</AI>
+**Commander-to-victim control:** <AI>The Titan device at the base of the skull relays commands directly to the human's nervous system. For immediate tactical orders — turn, pursue, hold, withdraw — the commander operates the human's body in real time. This looks like the human acting on their own, but they're being puppeteered. For broader directives — patrol this area, guard this location — the device can maintain a low-level behavioral loop without constant commander attention. The human moves, watches, responds to stimuli, but there's something *off* about them: too regular, too patient, eyes that don't quite track naturally. (Titan Biology & Culture brainstorm)</AI>
 
-The guarded device in Issue 12: "A guarded device. Titan drone overwhelms Thresh." (Script Prompts, Issue 12). The Plot Outline says "One of the Titan devices is guarded" and "Thresh is overwhelmed." Note: the Script Prompts use the term "Titan drone" — this may be an ogre under direct commander control, or a separate designation. Term is unresolved.
+The guarded device in Issue 12: "A guarded device. Titan drone overwhelms Thresh." (Script Prompts, Issue 12). The Plot Outline says "One of the Titan devices is guarded" and "Thresh is overwhelmed." Note: the Script Prompts use the term "Titan drone" — this is now understood as a brain-plugged human under tight, direct commander control. The commander is actively puppeteering the victim during this encounter, making them far more responsive and dangerous than a victim on a behavioral loop.
 
 ### Open Questions
 
-- Ogre-to-commander ratio: if 2-3 commanders and 3-5 ogres, is it roughly 1:2?
-- Can ogres be redeployed between zones, or are they fixed to a commander?
-- What happens if a commander is incapacitated — do assigned ogres revert to default patrol/defend, or freeze?
-- "Titan drone" (Script Prompts, Issue 12) — is this an ogre, or a separate automated unit? The term appears only in the Issue 12 script prompt.
+- Victim-to-commander ratio: if 2-3 commanders and 3-5 brain-plugged humans, is it roughly 1:2?
+- Can brain-plugged humans be redeployed between zones, or does each commander maintain their own set of victims?
+- What happens if a commander is incapacitated — the Titan device likely goes into standby, and the human enters a fugue state (wandering, still, confused). They don't fight. They don't serve. They just... stop being directed. How long before the device releases entirely, if ever?
+- "Titan drone" (Script Prompts, Issue 12) — now understood as a brain-plugged human under tight direct commander control, not a separate unit type. The term may persist in-universe as squad shorthand before they understand what the "ogres" actually are.
 
 ---
 
@@ -144,18 +144,16 @@ The squad drives it off via Wren's feedback pulse: "Wren rigs a feedback pulse t
 "Not defeated — inconvenienced. And now it knows they're here." (Plot Outline, Issue 10)
 
 **Force disposition (Issue 10):**
-- One Titan physically present, modifying equipment. Described as enormous — consistent with an ogre ("the size of a building" relative to the squad).
-- The description "a technician, not a brute" is notable — ogres are generally characterized as muscle, not technicians. This is either an ogre performing a technical task under direct commander control, or a detail that complicates the two-tier model.
+- One brain-plugged human physically present, modifying equipment. Described as enormous — any human is building-sized relative to the four-inch squad.
+- The description "a technician, not a brute" is now **resolved by the brain-plug concept.** This is a brain-plugged **telegraph worker** — someone who already knows the equipment intimately. The dark fairy commander provides direction and purpose; the human victim provides the technical knowledge and trained hands. The commander doesn't need to understand telegraph machinery — the puppeteered worker already does. This is the horror of the brain-plug system: it doesn't just enslave bodies, it harvests expertise.
 
-<AI>Possible readings:
+<AI>The "technician, not a brute" reading:
 
-1. **Ogre under direct neural command.** A dark fairy commander is guiding the ogre's hands in real time — the "technician" behavior is the commander acting through the ogre. The ogre's own cognition wouldn't produce this precision.
+The brain-plugged telegraph worker moves with purpose and precision because they *are* a technician — or were, before the device was implanted. The commander selected this victim specifically for their skills. The worker's hands know the equipment. Their muscle memory navigates the relay panels. The commander supplies the alien device and the directive; the human supplies the competence to install it correctly. This is why the cloaking flickers — the commander is splitting attention between maintaining the cloak and directing the installation through the victim.
 
-2. **Ogre with specific training.** Some ogres can be trained for technical tasks (device installation) even without real-time direction. The commander pre-programmed the procedure; the ogre executes it mechanically.
+This resolves what was previously a complication in the two-tier model. "Ogres" are not a separate species with limited cognition — they are humans with all their human capabilities, controlled. A brain-plugged soldier fights like a soldier. A brain-plugged engineer works like an engineer. The commanders select victims to match operational needs.</AI>
 
-3. **The "size of a building" is relative.** At fairy scale, even a dark fairy commander would be enormous to them — wait, no. Dark fairies are fairy-sized (~4 inches). The Titan in Issue 10 is genuinely building-sized relative to the squad, which means it's an ogre.</AI>
-
-**Open question:** Is a dark fairy commander nearby during the Issue 10 encounter, observing? Or is the ogre operating on pre-set instructions?
+**Open question:** Is a dark fairy commander physically nearby during the Issue 10 encounter, directing the victim in real time? Or can the Titan device relay commands at range? The precision of the installation suggests real-time direction, but the commander may be concealed elsewhere in the building.
 
 ### Issue 11 — "Convergence"
 
@@ -188,23 +186,23 @@ Squad deployment (canon):
 - **Theodore** — streets; reaches the last device
 
 Titan deployment (partially canon, partially open):
-- At least one ogre ("Titan drone") guarding one device — the one that overwhelms Thresh
+- At least one brain-plugged human ("Titan drone") guarding one device — the one that overwhelms Thresh
 - Other devices appear unguarded or lightly defended
 
 <AI>Possible force map:
 
-- **Guarded device (Thresh's target):** 1 ogre under direct commander control. This is the trap — the commanders anticipated the squad might find the network.
-- **Other devices:** Unguarded or with passive defenses (automated alarms, Titan tech traps). The small number of ogres means they can't guard everything.
-- **Commander positions:** At least one commander directing the guarding ogre. Others may be observing from concealment or managing other zones.
+- **Guarded device (Thresh's target):** 1 brain-plugged human under tight, direct commander control. The commander is actively puppeteering this victim — faster reactions, coordinated movement, no fugue-state gaps. This is the trap — the commanders anticipated the squad might find the network.
+- **Other devices:** Unguarded or with passive defenses (automated alarms, Titan tech traps). The small number of brain-plugged victims means they can't guard everything.
+- **Commander positions:** At least one commander directing the guarding victim in real time. Others may be observing from concealment or managing other zones.
 - **Theodore's device:** In a human-accessible relay station. Unguarded because the Titans didn't anticipate a human ally who could operate at human scale on their behalf.</AI>
 
-<hidden>Where is alt-Sable during the climax? She is likely the commander directing the ogre that overwhelms Thresh — the one who anticipated the squad's approach. She runs this like Sable would: identify the most likely threat vector (Thresh, the squad's heavy hitter) and concentrate force there. Whether she reveals herself in Issue 12 or remains hidden for future volumes is an open decision.</hidden>
+<hidden>Where is alt-Sable during the climax? She is likely the commander directing the brain-plugged human that overwhelms Thresh — the one who anticipated the squad's approach. She runs this like Sable would: identify the most likely threat vector (Thresh, the squad's heavy hitter) and concentrate force there. Whether she reveals herself in Issue 12 or remains hidden for future volumes is an open decision.</hidden>
 
 ### Open Questions
 
 - **Total device count:** How many devices are in the network? The squad splits across the city, but the exact number of targets is unstated. Must be at least 3-4 (enough to require full squad deployment plus Theodore).
-- **Is the Issue 10 Titan an ogre?** Size says yes. "Technician, not a brute" complicates it. Likely an ogre under direct commander control.
-- **"Titan drone" (Issue 12):** Is this the same type of entity as the Issue 10 Titan? Is "drone" a narrative term for a commander-directed ogre, or a distinct unit type?
+- **Is the Issue 10 Titan a brain-plugged human?** Size says yes (any human is enormous at fairy scale). "Technician, not a brute" is now resolved: the victim is a telegraph worker whose technical expertise is being exploited by the commander.
+- **"Titan drone" (Issue 12):** Now understood as a brain-plugged human under tight direct commander control. "Drone" may persist as squad shorthand before they learn the truth about the victims.
 - **Does alt-Sable engage directly in Issue 12?** Or does she remain hidden, preserving the reveal for Volume 2?
 - **Failsafe mechanism:** What does the failsafe do if devices are disabled sequentially? Alert the commanders? Destroy evidence? Accelerate the temporal nudge? Trigger a backup operation?
 - **Post-operation:** "The Titan network in this city is neutralized. Not destroyed — the Titans will adapt, rebuild, try again." (Plot Outline, Issue 12). What does the Titan response look like? Do they redeploy from other cities? Escalate to direct engagement?
@@ -213,13 +211,14 @@ Titan deployment (partially canon, partially open):
 
 ## Cross-References
 
-- **Titan Biology & Culture** (`world-building/brainstorm-titan-biology-culture.md`) — Two-tier structure, commander/ogre dynamics, communication methods, alt-Sable reveal
+- **Ogre Origin** (`world-building/brainstorm-ogre-origin.md`) — Brain-plug concept, Titan device implantation process, victim selection, fugue state behavior, changeling folklore connection
+- **Titan Biology & Culture** (`world-building/brainstorm-titan-biology-culture.md`) — Two-tier structure, commander/victim dynamics, communication methods, alt-Sable reveal
 - **Fairy-Scale Geography** (`world-building/brainstorm-fairy-scale-geography.md`) — The three operation zones (Clerkenwell, Bermondsey, Wapping), Titan threat zones, squad operating area
 - **Steampunk Tech Rules** (`world-building/brainstorm-steampunk-tech-rules.md`) — Telegraph network topology, Titan device placement, relay stations, how Wren counters the devices, visual language for the device
 - **Volume 1 Plot Outline** (`comic/GrimGlow_Volume1_Plot_Outline.md`) — Issues 10-12 canon beats, device discovery, network revelation, the operation, Theodore's disarm
 - **Volume 1 Script Prompts** (`comic/GrimGlow_Volume1_Script_Prompts.md`) — Issue 10-12 page budgets, "sickly amber-black light" description, "Titan drone" term, "technician not a brute"
-- **Story Bible** (`docs/GrimGlow_Story_Bible.md`) — Titan visual language ("dark mirror," oil-on-water iridescence, shadow and organic), three-layer plot structure
+- **Story Bible** (`docs/GrimGlow_Story_Bible.md`) — Titan visual language ("dark mirror," oil-on-water iridescence, shadow and organic), three-layer plot structure, brain-plug concept in enemy overview
 
 ---
 
-*This document is a working brainstorm. The two-tier Titan faction structure (dark fairy commanders + ogre foot soldiers), the temporal nudge engine concept, and the Issue 10-12 plot beats are LOCKED canon from existing documents. Additionally LOCKED in this session: commander count (3 in London), ogre count (5 in London), device visibility (hidden inside equipment, fairy-scale only), and the sickly amber-black light visibility (fairy scale / fairy tech only). `<hidden>` tagged content is author-only information for later story reveals. Source documents: Story Bible, Volume 1 Plot Outline, Volume 1 Script Prompts, Titan Biology & Culture brainstorm, Fairy-Scale Geography brainstorm, Steampunk Tech Rules brainstorm.*
+*This document is a working brainstorm. The two-tier Titan faction structure (dark fairy commanders + brain-plugged human foot soldiers), the temporal nudge engine concept, and the Issue 10-12 plot beats are LOCKED canon from existing documents. Additionally LOCKED in this session: commander count (3 in London), brain-plugged human count (5 in London), device visibility (hidden inside equipment, fairy-scale only), and the sickly amber-black light visibility (fairy scale / fairy tech only). `<hidden>` tagged content is author-only information for later story reveals. Source documents: Story Bible, Volume 1 Plot Outline, Volume 1 Script Prompts, Titan Biology & Culture brainstorm, Fairy-Scale Geography brainstorm, Steampunk Tech Rules brainstorm, Ogre Origin brainstorm.*

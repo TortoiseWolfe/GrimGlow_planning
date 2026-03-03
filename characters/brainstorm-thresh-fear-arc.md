@@ -132,6 +132,22 @@ Theodore is the child-shaped version of everything Thresh fears — enormous, un
 
 <AI>The Issue 8 child encounter might reframe Theodore for Thresh. Before Issue 8, Theodore is a useful giant who Thresh tolerates while being viscerally aware of the danger. After Issue 8 — after a child's gentleness stops Thresh cold — Theodore might become something else. Not less dangerous. But the danger might stop being the only thing Thresh sees.</AI>
 
+### Fighting People, Not Monsters
+
+The Titan faction's foot soldiers are brain-plugged humans — Victorian civilians implanted with Titan tech devices by the dark fairy commanders, controlled as near-zombies. — LOCKED (ogre origin brainstorm)
+
+This adds a new dimension to Thresh's fear. The "ogres" aren't alien monsters from a distant world. They're people. Dock workers. Telegraph operators. A clockmaker. The enemy wears human faces.
+
+- In the future, Thresh was brave fighting a clear enemy. Here, the enemy is the population they're supposed to be protecting.
+- "Brave in the future, terrified in the past" now includes: terrified because you can't fight the enemy without hurting innocents
+- The scale terror is preserved — brain-plugged humans are still enormous from the squad's 4-inch perspective — but the moral terror is new
+- The Issue 10 combat breakthrough gains weight: "training wins" against an enemy that might be someone's father, someone's master, someone Theodore knows
+
+<AI>How this intersects with the existing fear arc:
+- Does fighting brain-plugged humans feel different from fighting alien Titans? The dark fairy commanders are still alien — but the foot soldiers are victims. Thresh the soldier knows how to fight enemies. Does Thresh know how to fight victims?
+- The Issue 8 child encounter might resonate differently knowing the ogres are people too. The child reached out a hand. The brain-plugged humans were once people who reached out hands.
+- "I don't want to stay. I'll stay." gains another layer — staying means fighting an enemy that wears the faces of the people you're trying to save.</AI>
+
 ### Open Questions — What Terrifies Him
 
 - Is the fear purely situational (this world is terrifying) or does it reveal something about who Thresh was before?
@@ -457,4 +473,4 @@ The voice arc: confidence → compression → silence → combat speech → hone
 
 ---
 
-*This document is a working brainstorm. All `<AI>` tagged suggestions are proposals for consideration, not decisions. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Plot Outline, Script Prompts, Character Prompts, Character Turnarounds, Sable backstory brainstorm, Jink recklessness brainstorm, Wren technology brainstorm, Theodore inner world brainstorm, and temporal mechanics brainstorm.*
+*This document is a working brainstorm. All `<AI>` tagged suggestions are proposals for consideration, not decisions. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Plot Outline, Script Prompts, Character Prompts, Character Turnarounds, Sable backstory brainstorm, Jink recklessness brainstorm, Wren technology brainstorm, Theodore inner world brainstorm, temporal mechanics brainstorm, and ogre origin brainstorm.*

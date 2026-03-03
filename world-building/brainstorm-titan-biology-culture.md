@@ -12,13 +12,13 @@
 - **`<hidden>` tagged text** = author-only information for later reveal; characters and readers do not know this yet
 - **Open questions** = unresolved decisions preserved for future sessions
 - **Canon references** point to existing GrimGlow design documents
-- **Locked decision:** The "Titans" are a **two-tier faction** — dark fairy commanders (diverged species, same as the squad) directing ogre foot soldiers (subjugated slave race from a low-gravity world). This is no longer open.
+- **Locked decision:** The "Titans" are a **two-tier faction** — dark fairy commanders (diverged species, same as the squad) directing ogre foot soldiers (brain-plugged humans — Victorian civilians implanted with Titan tech devices). The two-tier faction structure is no longer open.
 
 ---
 
 ## 1. Physiology
 
-The "Titans" are not a single species. They are a faction: dark fairy commanders directing ogre foot soldiers. The two have completely different biologies.
+The "Titans" are not a single species. They are a faction: dark fairy commanders directing ogre foot soldiers. The commanders are alien dark fairies; the ogre "foot soldiers" are brain-plugged humans.
 
 ### 1a. Dark Fairy Commanders
 
@@ -35,77 +35,61 @@ The "Titans" are not a single species. They are a faction: dark fairy commanders
 
 **Why they're hidden:** The squad — and the reader — initially perceives only ogres. The dark fairy commanders stay behind the scenes. <AI>The discovery that there are fairy-sized beings directing the ogres is a mid-story revelation. The discovery of WHO leads them is a late-story devastation.</AI>
 
-### 1b. Ogre Foot Soldiers
+### 1b. Ogre Foot Soldiers (Brain-Plugged Humans)
 
-**What they are:** A separate species from a low-gravity world, subjugated by the dark fairy civilization. They are the "Titans" as the squad initially understands them — the enormous, clawed, terrifying physical presences.
+**What they are:** Not aliens. Not a separate species. Ogres are **brain-plugged Victorian humans** — ordinary civilians who have been implanted with a small Titan tech device by dark fairy commanders. Under the device's influence, they operate as near-zombies: obedient, tireless, and terrifying to the squad because they are human-sized. They are the "Titans" as the squad initially understands them — the enormous, cloaked, terrifying physical presences.
 
-**All existing canon about Titan physiology applies to ogres:**
+**The device:** A fairy-scale Titan tech implant — small enough for a dark fairy commander to carry and install. Placed on or near the back of the victim's neck while they sleep. The device interfaces with the human nervous system and suppresses autonomous will, replacing it with a command layer controlled by the nearest dark fairy commander. The victim does not wake during installation. They rise the next day and simply... report to work. Then they don't come home.
 
-- From a low-gravity world (Story Bible)
-- Enormous — "the size of a building" relative to the 4-inch squad (Plot Outline, Issue 10)
-- Have claws — leave claw marks in brick, "too high for any animal" (Plot Outline, Issue 6), and in telegraph equipment (Issue 10)
-- Leave biological residue — "Titan bio-trace" detectable by Luma's scanner (Plot Outline, Issue 6)
-- To humans, appear as "shadows that move when they shouldn't, the shape in the fog" and "figures seen in fog, too large, too still" (Story Bible; Plot Outline, Issue 6)
+**Visual effects of brain-plugging — LOCKED:**
+- Dark veins spreading outward from the implant site at the back of the neck, visible on skin
+- Iridescent eyes — the oil-on-water sheen of Titan tech visible in the iris
+- An oily sheen on exposed skin, faint but present, following the dark fairy visual language
+- The longer the implantation, the more pronounced the effects. Early-stage victims might pass for ill; long-term victims are visibly *wrong*
+
+**Victim selection — LOCKED:**
+- Dark fairy commanders target victims for **infrastructure access.** They need bodies that can go where the operation requires without raising suspicion.
+- Telegraph workers (access to communication lines — the primary target)
+- Factory hands (access to industrial machinery and materials)
+- Dock laborers (access to shipping routes and warehouses)
+- The victims are chosen for their jobs, not their bodies. A telegraph operator brain-plugged last Tuesday still knows the telegraph office layout, still has the keys, still walks the same route to work. The dark fairies exploit existing human infrastructure through its own workers.
 
 ### Ogre Size Relative to Humans
 
-The squad perceives an ogre as "the size of a building." At 4 inches tall, a normal human (5'8" = 68 inches) is already 17x their height. So how big are ogres to *humans*?
+No alien size calculation is needed. A brain-plugged human IS enormous relative to the squad. At 4 inches tall, a normal human (5'8" = 68 inches) is already **17x the squad's height** — a terrifying giant, the size of a building from their perspective.
 
-The claw marks are "too high for any animal" but ogres pass through human-built structures (inside the telegraph office, Issue 10; a basement, Issue 6). They fit through doorways and corridors — or at least into ground-floor rooms.
+The squad perceives an ogre as "the size of a building" because that is what a human looks like at fairy scale. The claw marks "too high for any animal" are explained by the device's effects on the victim's hands — nails thicken, darken, and harden under prolonged implantation, capable of scoring brick. Ogres pass through human-built structures naturally (inside the telegraph office, Issue 10; a basement, Issue 6) because they ARE human. They fit through doorways because the doorways were built for them.
 
-<AI>Size options:
-- **7-8 feet tall:** Large enough to be monstrous but small enough to move through Victorian architecture. "Too large to be human" when glimpsed in fog. Claw marks high on walls make sense. This is the most practical option for gameplay.
-- **9-10+ feet:** More dramatically "enormous" but creates architecture problems. Would need to duck through doors, couldn't fit in some spaces. More terrifying but more constrained.
-- **Variable:** Ogres can compress or extend their bodies (low-gravity species might have flexible skeletal structure). Standing height vs. crouched hunting posture could differ significantly.</AI>
+To other humans, brain-plugged victims appear as "shadows that move when they shouldn't, the shape in the fog" and "figures seen in fog, too large, too still" (Story Bible; Plot Outline, Issue 6) — not because they are larger than human, but because the cloaking field deployed on them warps perception. They are human-shaped but *wrong.* The brain refuses to process them normally.
 
-### Low-Gravity World Implications
+### Titan Tech Signature
 
-A species evolved in low gravity and operating in Earth's 1G would experience:
+Luma detects "Titan bio-trace" with her scanner (Issue 6). This is NOT alien biology — it is the energy signature of the Titan tech device interfacing with the human nervous system. The device emits a low-level field that Luma's fairy-tech scanner reads as a dark, inverted signal.
 
-- **Structural strain:** Their skeletal/structural system evolved for less load. On Earth, they're carrying more weight than their bodies were designed for.
-- **Movement:** Slower, more deliberate. Each step costs more energy. They conserve motion — they don't run when they can stalk. They don't chase when they can ambush.
-- **Posture:** <AI>The 1G oppression likely forces a hunched or crouching posture on Earth — the "wrongness" of their silhouette partly comes from a body held at unnatural angles under gravity. Dark fairy tech may partially compensate (exoskeletal support or anti-gravity elements in the cloaking system), allowing near-normal movement but at an energy cost.</AI>
-- **Strength:** Paradox — muscles evolved for low-G are *weaker* per unit mass, but if the species is significantly larger than humans, absolute strength could still be formidable. They're not fast, but what they grip, they hold.
-- **Sound:** Heavy footfalls even when trying to be quiet. The weight they're not built for lands hard. <AI>This could explain the subsonic vibration in the environmental cues — you feel an ogre approaching before you hear or see it. A low rumble through the floor.</AI>
+The signature has two components:
+- **Device emission:** The implant itself radiates on inverted fairy-tech frequencies. Luma can detect this at range, though it reads as a dark blot on her scanner — presence without detail.
+- **Biological interference:** The device's interaction with human neurochemistry produces a secondary signature — an oily energetic residue left on surfaces the victim touches. This is the "bio-trace" found in the basement (Issue 6) and telegraph office (Issue 10). It is not alien. It is human biology corrupted by Titan tech.
 
-### Ogre Body Structure
+Important distinction: The Titan tech signature identifies BRAIN-PLUGGED HUMAN presence, not dark fairy presence. Dark fairies would leave fairy-type signatures — which Luma might initially misread as her own squad's contamination or sensor echoes. This is how the dark fairy commanders stay hidden.
 
-Canon gives us: claws, size, biological residue. Everything else is open.
+### Brain-Plug Movement
 
-<AI>Suggested physical characteristics:
-- **Limbs:** Long, disproportionate to human standards. Arms that reach too far. Fingers too many or too long, ending in claws hard enough to score brick. The "wrongness" of their silhouette starts with proportions that don't match any Earth creature.
-- **Skin/surface:** Something that interacts with the dark fairy cloaking fields deployed on them. Not scales, not fur — a surface that refracts light oddly even without the cloaking active. The oil-on-water iridescence might be partially biological.
-- **Eyes:** Adapted to different light conditions (low-gravity world might have different stellar radiation). They may see in spectra humans can't.
-- **Voice/sound production:** The "heavy silence" and subsonic vibration from the environmental cues suggest they operate in frequencies below human hearing range.</AI>
+How a brain-plugged human moves through Victorian London:
 
-### Bio-Trace
+- **Purposeful but wrong:** They walk where their commander directs. The movement is human in mechanics but inhuman in quality — no hesitation, no idle gestures, no looking around. A brain-plugged dock worker walks to the telegraph office with perfect efficiency and zero curiosity. Bystanders notice something off but cannot name it.
+- **Familiar routes, unfamiliar hours:** Brain-plugged victims use the same streets and buildings they always did — but at wrong times. A telegraph operator inside the office at 3 AM. A factory hand walking the docks at midnight. The uncanny recognition is part of the horror: that IS Tom from the telegraph office. But Tom doesn't blink anymore.
+- **Environmental presence:** They are human-sized but cloaked. Floorboards creak under normal human weight. Doors open and close. The environment reacts to a human body even when the cloaking field hides it. The subsonic *wrongness* comes from the cloaking field, not alien mass.
+- **Endurance:** The device suppresses fatigue signals. Brain-plugged humans operate longer than a normal person could — but the body still accumulates damage. A victim active for days without rest shows tremors, pallor, bleeding from the nose. The device drives the body past its limits. <AI>This creates windows of opportunity for the squad — a brain-plugged human pushed too hard physically degrades, and the cloaking field weakens as the body's bioelectric signals become erratic.</AI>
 
-Luma detects "Titan bio-trace" with her scanner (Issue 6). This is ogre biology — a chemical or energetic signature from an alien species.
+### The Brain-Plugging
 
-<AI>The bio-trace could be:
-- A chemical residue — ogre biology uses compounds not found in Earth's biosphere. A faint oily film with an iridescent sheen (consistent with oil-on-water visual language).
-- An energetic signature — ogre bodies emit or absorb energy in patterns Luma's fairy-tech scanner can detect.
-- Both — a physical residue that also carries an energy signature.
+How do fairy-sized beings enslave human giants?
 
-Important distinction: Bio-trace identifies OGRE presence, not dark fairy presence. Dark fairies would leave fairy-type signatures — which Luma might initially misread as her own squad's contamination or sensor echoes. This is how the dark fairy commanders stay hidden.</AI>
-
-### Ogre Movement on Earth
-
-How a low-gravity species navigates Victorian London:
-
-- **Deliberate:** Every movement is purposeful. No wasted energy. They plan before they move — or more precisely, their dark fairy commanders plan for them.
-- **Silent ambition, loud reality:** They try to be quiet but 1G makes them heavier than they want to be. <AI>Floorboards creak. Brick dust falls. The environment reacts to their mass even when their cloaking hides their form.</AI>
-- **Vertical challenge:** Stairs and upper floors are harder in higher gravity. They prefer ground level and basements — which is where traces are found (Issue 6: basement; Issue 10: ground-floor telegraph office).
-- **Endurance:** <AI>Ogres tire faster than they would at home. Dark fairy tech compensates partially, but energy expenditure for cloaking + movement + gravity compensation = heavy power drain. This creates windows of opportunity for the squad — ogres need to rest, and their cloaking degrades when they're exhausted.</AI>
-
-### The Subjugation
-
-How did fairy-sized beings conquer a species of giants?
-
-- Technology. The same technological sophistication that makes the squad formidable despite their size — but turned toward domination instead of cooperation.
-- <AI>Possible methods: neural control implants (dark fairy tech embedded in ogre physiology), conditioned obedience over generations, chemical dependency (ogres need something only dark fairy tech provides), or a combination. The cloaking fields on ogres may double as control mechanisms — the dark fairies literally hold the ogres' invisibility hostage.</AI>
-- The ogres' homeworld was the low-gravity world mentioned in canon. The dark fairies found them, conquered them, and weaponized them.
-- <AI>Do ogres have individual will? Options: (a) Fully controlled — biological puppets, no inner life. Horrifying but simplifies morality. (b) Suppressed will — individuals exist under the control layer. Sympathetic. Creates the possibility of an ogre breaking free. (c) Willing servants — generations of conditioning have produced loyal soldiers who believe in the dark fairy cause. Complicit. Most complex.</AI>
+- **Scale advantage works in reverse.** The dark fairy commanders are 4 inches tall. A sleeping human cannot detect, let alone resist, a fairy-sized operative placing a fairy-sized device on the back of their neck. The installation is performed at night. The victim never knows.
+- **The device does the rest.** Once active, the implant suppresses the victim's autonomous will and opens a command channel to the installing commander. The process takes minutes. The victim sleeps through it. They wake changed.
+- **Selection is strategic.** Commanders observe potential victims for days before installation — mapping their routines, their workplace access, their social connections. A victim whose absence would be immediately noticed is poor choice. A dock laborer who lives alone and works irregular shifts is ideal.
+- **Reversibility — LOCKED:** The brain-plugging is mostly reversible. If the device is removed, the victim recovers — but they return "simpler." Memory gaps. Emotional flatness. Difficulty with complex tasks they once performed easily. The longer the implantation, the greater the simplification. They are alive, they are themselves, but something has been worn away. The device does not destroy the person; it *erodes* them.
+- **Suppressed will — LOCKED:** Beneath the command layer, the victim's consciousness persists in a diminished state. They are not empty shells. They are people screaming behind glass. Under extreme stress or when the command signal weakens, fragments of the original personality surface — a brain-plugged telegraph worker might unconsciously tap out a message in Morse, or a dock laborer might hesitate at the door of his own home. These moments are brief and involuntary.
 
 ---
 
@@ -125,7 +109,7 @@ The cloaking system is built by the dark fairy commanders and deployed on ogres.
 
 This means:
 - **Dark fairies have their own cloaking.** Fairy-scale cloaking on fairy-sized beings — much harder to detect than ogre-scale cloaking. An ogre cloaked in a room causes environmental effects; a dark fairy cloaked in the same room might be virtually undetectable.
-- **Ogre cloaking is imperfect because it's harder to cloak something that large.** The "wrongness" is partly a scaling problem — dark fairy cloaking was designed for fairy-sized operatives and has to work much harder to hide a 7-8 foot creature.
+- **Ogre cloaking is imperfect because it's harder to cloak something that large.** The "wrongness" is partly a scaling problem — dark fairy cloaking was designed for fairy-sized operatives and has to work much harder to hide a full-sized human (5-6 feet). The ratio between a 4-inch fairy and a human-sized target is enormous; the field must cover a volume thousands of times larger than it was designed for.
 - <AI>The squad's fairy cloaking (their suits) is to dark fairy cloaking as a flashlight is to a flashlight held behind a dark filter — same mechanism, opposite output. One adds structured light; the other subtracts it.</AI>
 
 ### Why "Wrong" Instead of "Invisible"
@@ -189,7 +173,7 @@ The feedback pulse works because fairy tech and dark fairy tech share the same u
 - **Movement degrades it:** Standing still = near-invisible. Walking = shimmer. Running = clearly visible. Matches the "too still" folklore. Ogres are deliberate because movement costs them concealment.
 - **Energy cost:** Cloaking drains power. Extended operations = weaker cloaking. The telegraph station stakeout may have already thinned the field before the squad arrived.
 - **Rain/water:** Water interacting with the cloaking field makes it visible — droplets hanging in midair, rain parting around the ogre's shape. Ties into the geography brainstorm's weather system.
-- **Scale problem:** Cloaking a 7-8 foot ogre is inherently harder than cloaking a 4-inch fairy. The dark fairy commanders' personal cloaking would be much more reliable.</AI>
+- **Scale problem:** Cloaking a human-sized brain-plugged victim is inherently harder than cloaking a 4-inch fairy. The dark fairy commanders' personal cloaking would be much more reliable.</AI>
 
 ---
 
@@ -214,7 +198,7 @@ The fairy species split. One branch became the squad's civilization — built on
 - An ideological split about what "civilization" means. Scale and power vs. precision and cooperation. The dark fairies looked outward — conquest, expansion, domination of other species. The squad's civilization looked inward — refinement, understanding, connection.
 - The discovery of convergence points may have caused the split. One side wanted to preserve the timeline's natural flow. The other saw an opportunity to *shape* it.</AI>
 
-The dark fairy branch conquered the ogres' low-gravity homeworld — the first proof that their philosophy of dominance "worked." They weaponized an entire species. Their civilization runs on subjugation.
+The dark fairy branch developed the brain-plugging technology to conscript local populations at convergence points — the first proof that their philosophy of dominance "worked." They weaponized the native inhabitants of every era they touched. Their civilization runs on subjugation.
 
 The squad's branch recoiled from this. The temporal cold war began as a disagreement about the future and became a war when the dark fairies started actively rewriting history to ensure their branch wins.
 
@@ -260,17 +244,17 @@ The dark fairies and the squad are the same species, diverged. This is not a met
 The "dark mirror" principle is literal at every level:
 - **Technology:** Light/geometric vs. shadow/organic — same physics, opposite application
 - **Society:** Cooperation/equality vs. dominance/subjugation
-- **Military:** Trusted squad vs. commanded slaves
+- **Military:** Trusted squad vs. brain-plugged conscripts
 - **Leadership:** <hidden>Sable vs. alternate Sable — same competence, opposite philosophy</hidden>
 
-### The Ogre Subjugation
+### The Brain-Plugging
 
-The dark fairy civilization conquered the ogre homeworld — a low-gravity planet with a species of large, physically powerful but technologically primitive beings. The conquest was the dark fairies' defining act: proof that their philosophy of dominance produces results.
+The dark fairy civilization's defining act is not the conquest of a distant world — it is the enslavement of the local population at every convergence point they touch. In Victorian London, ordinary humans are brain-plugged: implanted with Titan tech devices while they sleep, converted into obedient foot soldiers who still wear their own faces.
 
 The ogres are:
-- **Soldiers, not allies.** They follow orders. Whether through neural control, conditioning, chemical dependency, or generations of servitude, the ogres serve.
-- **The visible threat.** When humans see "Tall Ones" in the fog, they see ogres. When the squad detects "Titan" activity, they initially detect ogres. The dark fairy commanders stay hidden behind their muscle.
-- **The tragic element.** <AI>If ogres retain some individual will — suppressed beneath the control layer — they are victims of the same civilization that opposes the squad. The dark fairies' evil isn't just that they fight the squad's timeline; it's that they built their power on enslaving another species. This gives the squad moral clarity: they're not just fighting for their timeline. They're fighting against what their species became when it chose wrong.</AI>
+- **Soldiers, not allies.** They follow orders through the brain-plug's command layer. The device suppresses autonomous will and replaces it with dark fairy directives. The human body obeys; the human mind is buried.
+- **The visible threat.** When humans see "Tall Ones" in the fog, they see their own neighbors — cloaked, altered, moving wrong. When the squad detects "Titan" activity, they initially detect brain-plugged humans. The dark fairy commanders stay hidden behind their conscripted muscle.
+- **The tragic element — LOCKED.** Ogres ARE the victims, confirmed. They retain suppressed will under the device — individuals exist beneath the control layer, diminished but present. The dark fairies' evil is not just that they fight the squad's timeline; it is that they built their power on enslaving the very people the squad is trying to protect. This gives the squad moral clarity AND moral anguish: every ogre they fight is a person. Every victory against an ogre is a battle won against someone who did not choose to be the enemy.
 
 ### Why the Tech Mirrors So Precisely
 
@@ -285,7 +269,7 @@ The disruption compatibility (Wren's feedback pulse scrambles cloaking) exists b
 
 The squad's understanding of the enemy deepens through the story:
 
-1. **Initial assumption:** The "Titans" are large alien creatures with advanced cloaking (ogres only)
+1. **Initial assumption:** The "Titans" are large creatures with advanced cloaking — the squad does not initially realize they are looking at brain-plugged humans (ogres only)
 2. **Growing suspicion:** The intelligence behind Titan operations is too sophisticated for the ogres they've observed. <AI>Wren notices the temporal nudge engines show design principles she recognizes — not alien engineering, but *fairy* engineering with different aesthetic choices. She'd say something like: "This isn't alien. This is us. Backwards."</AI>
 3. **The revelation:** Dark fairy commanders exist. Same species. Fairy-scale. Running the operation.
 4. <hidden>**The devastation:** The dark fairy leader is an alternate Sable. The mirror is personal. Every tactical instinct, every command decision, every hard call — Sable recognizes her own patterns in the enemy's strategy. She's been fighting herself.</hidden>
@@ -294,7 +278,7 @@ The squad's understanding of the enemy deepens through the story:
 
 The two-tier faction structure creates layered emotional stakes:
 
-- **Ogres:** Physical terror. The monster in the fog. The "things that go bump in the night." <AI>Players feel fear when ogres are near — subsonic rumble, flickering lights, the body-horror of a too-large shape that shouldn't exist.</AI>
+- **Ogres:** Physical terror AND moral horror. The monster in the fog is someone's father, someone's coworker, someone Theodore might recognize. <AI>Players feel fear when ogres are near — flickering lights, the wrongness of a cloaked human form — and then feel sick when they realize what they're looking at. The body-horror is not alien anatomy; it is a familiar human shape moving with unfamiliar purpose.</AI>
 - **Dark fairies:** Existential horror. "We could have become this." The civilizational mirror. <AI>Players feel dread when they realize the enemy is directed by beings just like them.</AI>
 - <hidden>**Alt-Sable:** Personal horror. Sable faces a version of herself who made different choices. This is the most intimate kind of villain — not a monster, not an alien, but a mirror.</hidden>
 
@@ -304,26 +288,26 @@ The two-tier faction structure creates layered emotional stakes:
 
 ### Two-Tier Structure
 
-The operation in London is run by a small number of dark fairy commanders directing a small number of ogre soldiers.
+The operation in London is run by a small number of dark fairy commanders directing a small number of brain-plugged human operatives.
 
 **Dark Fairy Commanders:**
 - 3 in London — LOCKED. One per operation zone (Bermondsey industrial, Wapping docks, telegraph network). Few enough to stay hidden. They are the planners, not the muscle.
 - Communicate with each other using dark fairy tech — inverted fairy communication frequencies. <AI>Subsonic for ogre commands; encrypted tech-channel for commander-to-commander. The squad might intercept ogre commands but not understand the commander channel until they realize it's inverted fairy protocol.</AI>
 - Each commander manages a section of the operation and directs assigned ogres
 
-<hidden>Alt-Sable leads. She runs the London operation the way our Sable runs the squad — with tactical precision, strategic patience, and hard calls. But her "squad" is subjugated ogres, not trusted companions. Every parallel between her command style and Sable's is a mirror that cuts. She assigns sectors, manages resources, adjusts strategy when the squad disrupts operations. She is competent and dangerous precisely because she thinks like Sable.</hidden>
+<hidden>Alt-Sable leads. She runs the London operation the way our Sable runs the squad — with tactical precision, strategic patience, and hard calls. But her "squad" is brain-plugged humans, not trusted companions. Every parallel between her command style and Sable's is a mirror that cuts. She assigns sectors, manages resources, adjusts strategy when the squad disrupts operations. She is competent and dangerous precisely because she thinks like Sable.</hidden>
 
-**Ogre Foot Soldiers:**
+**Ogre Foot Soldiers (Brain-Plugged Humans):**
 - 5 in London — LOCKED. Flexible deployment across three zones, 1-2 per commander. Provides security for key installations (telegraph stations, device locations). The guarded device in Issue 12 has at least one ogre defender.
-- Follow dark fairy commander directives
-- Execute physical tasks: guarding installations, patrolling zones, pursuing the squad when directed, maintaining devices under commander supervision
-- <AI>Limited autonomous decision-making. An ogre left without orders defaults to patrol and defend behavior — predictable enough for the squad to exploit. An ogre under direct command is far more dangerous because the dark fairy commander adapts in real time.</AI>
+- Operate through the brain-plug command layer: dark fairy commanders issue directives through the Titan tech device, and the victim's body executes. The human does not choose to obey; the device bypasses choice.
+- Execute physical tasks: guarding installations, patrolling zones, pursuing the squad when directed, maintaining devices under commander supervision. They retain the skills and knowledge of their former lives — a telegraph worker brain-plugged into guard duty still knows how to operate the telegraph.
+- <AI>Limited autonomous decision-making. A brain-plugged human without active commands enters a confused fugue state — standing still, repeating the last directive in a loop, or drifting toward familiar locations (home, workplace). This is predictable enough for the squad to exploit. A brain-plugged human under direct command is far more dangerous because the dark fairy commander adapts in real time, and the human body responds with full physical capability.</AI>
 
 ### Communication Methods
 
-**Commander to ogre:**
-- <AI>Direct neural command (dark fairy tech control interface) for immediate tactical orders. The ogre responds instantly — turn, pursue, hold, withdraw. This looks like the ogre acting on its own, but it's being directed.
-- Subsonic signaling for broader directives — patrol this area, guard this location, report movement. Lower bandwidth but works at range.</AI>
+**Commander to ogre (brain-plug channel):**
+- <AI>Direct neural command through the Titan tech device for immediate tactical orders. The brain-plugged human responds instantly — turn, pursue, hold, withdraw. This looks like the person acting on their own, but they're being directed through the implant.
+- The device also relays sensory data back to the commander — the brain-plugged victim's eyes and ears become remote sensors. A commander perched on a rooftop can see through their operative's eyes. This is why ogres sometimes pause and look around in patterns that serve no purpose for THEM — they're being used as cameras.</AI>
 
 **Commander to commander:**
 - <AI>Inverted fairy communication protocol. Encrypted, short-range. The dark fairy commanders must be within operational distance to coordinate — they can't communicate across London instantly. This creates vulnerability: isolating one commander from the others degrades the operation's coordination.</AI>
@@ -345,18 +329,34 @@ This is the dark fairy commanders adapting, not the ogres. The ogres execute; th
 
 ---
 
+## 6. The Evolutionary Fork
+
+<hidden>**The brain-plugging process is the origin of the future ogre species.**
+
+The dark fairy civilization has been brain-plugging local populations at convergence points across history — not just Victorian London, but every era they have touched. The Titan tech device, left in place long enough, does not merely suppress the host's will. It rewrites their biology. Over generations, the descendants of brain-plugged humans — those who were implanted, partially recovered, and then had children — carry cumulative changes: thickened bone structure, altered neurochemistry, a latent susceptibility to the command frequency.
+
+Across centuries of convergence points, these changes compound. The "ogre species" that exists in the far future — the low-gravity-world giants referenced in the original timeline briefings — are the END PRODUCT of brain-plugging, not the beginning. They were never aliens. They were always human. Changed, generation by generation, by Titan tech until they became something else entirely.
+
+**Luma's discovery:** In Vol 1, Luma detects anomalies in the Titan tech signature that she cannot explain. The energy pattern from brain-plugged humans contains biological markers she recognizes — not from human biology textbooks, but from future ogre biology files in her medical database. She is seeing early-stage ogre biology in these Victorian workers. The connection is too fragmentary for her to articulate in Vol 1 — she logs it as an anomaly, a footnote in her scanner data. But the seed is planted.
+
+**Vol 2 resolution:** The full revelation — that the ogre species was *manufactured* by the dark fairy civilization through centuries of brain-plugging — reframes the entire temporal cold war. The dark fairies did not find and conquer a convenient alien slave race. They CREATED one, slowly, from the people they were supposed to be nudging. The ogre homeworld is not an alien planet; it is a future colony where the descendants of brain-plugged humans were relocated after they diverged far enough from baseline humanity to be unrecognizable. The "low-gravity world" is an artificial habitat built to house what the dark fairies made.
+
+This is the darkest mirror: the squad's civilization observed and preserved. The dark fairies consumed and transformed. They turned people into tools across geological time.</hidden>
+
+---
+
 ## Open Questions
 
-### Ogre Biology (reduced from original)
-- Exact size relative to humans — 7-8 feet (practical) or 9-10 feet (dramatic)?
-- Do ogres eat, sleep, tire? (Affects gameplay windows)
-- Do they bleed? What color? (Visual feedback for combat encounters)
-- How many limbs? (Bipedal assumed from "figures in fog" but not confirmed)
+### Brain-Plug Mechanics
+- **Device removal:** How is the device safely removed? Can Wren reverse-engineer it, or does removal require Luma's medical expertise? Is there a risk of neurological damage from improper removal? (Affects gameplay: can the squad "save" ogres mid-mission, or only after the mission?)
+- **Degree of simplification:** How "simple" does a recovered human return? Can they still work? Recognize family? The spectrum from "slightly dulled" to "needs permanent care" determines the emotional weight of every rescue.
+- **Duration and recovery:** Does length of implantation affect recovery? A victim plugged for a week vs. a victim plugged for months vs. the "Tall Ones" who have been under for generations — are the generational cases recoverable at all?
+- **Recognition:** Can Theodore recognize a brain-plugged person before learning the cause? Does he notice that the telegraph operator looks wrong — the dark veins, the iridescent eyes — and mistake it for illness before the squad explains what he's seeing?
 
-### Ogre Agency
-- Do ogres have individual will beneath the control? (Affects morality and narrative potential)
-- Can an ogre be "freed" from dark fairy control? (Potential story beat — an ogre ally?)
-- <AI>If ogres can be freed, what happens? Do they become passive? Confused? Grateful? Vengeful toward their masters? This is rich narrative territory for later volumes.</AI>
+### Ogre Agency (LOCKED — suppressed will confirmed)
+- Beneath the command layer, individuals persist. What triggers moments of surfacing? Extreme stress? Proximity to loved ones? Weakened command signal?
+- Can the squad exploit the suppressed will — speak to the person beneath the device? Would this create tactical vulnerability or emotional devastation?
+- <AI>If a brain-plugged victim is freed during the story, the aftermath is rich narrative territory. They remember everything — being directed, being used, the inability to stop their own body. The horror is not what was done TO them but what was done THROUGH them. A freed telegraph worker who remembers guarding the dark fairy installation while his hands maintained devices he didn't understand. This is Vol 2+ material, but the seeds are planted in Vol 1.</AI>
 
 ### Dark Fairy Specifics
 - How different do dark fairies look from the squad physically? (Identical? Subtly altered? Visibly corrupted?)
@@ -378,4 +378,4 @@ This is the dark fairy commanders adapting, not the ogres. The ogres execute; th
 
 ---
 
-*This document is a working brainstorm. The two-tier faction structure (dark fairy commanders + ogre foot soldiers), the diverged-species model, the commander count (3 in London), and the ogre count (5 in London) are LOCKED decisions. All `<AI>` tagged suggestions are proposals for consideration. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Product Design Requirements, Volume 1 Plot Outline, fairy-scale geography brainstorm, and steampunk tech rules brainstorm.*
+*This document is a working brainstorm. The two-tier faction structure (dark fairy commanders + ogre foot soldiers), the diverged-species model, the commander count (3 in London), and the ogre count (5 in London) are LOCKED decisions. The original concept of ogres as an alien slave species from a low-gravity world is **REJECTED** — ogres are now brain-plugged Victorian humans implanted with Titan tech devices. Visual effects (dark veins, iridescent eyes, oily sheen), victim selection criteria (infrastructure access), and reversibility (mostly reversible, victims return "simpler") are LOCKED. All `<AI>` tagged suggestions are proposals for consideration. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Product Design Requirements, Volume 1 Plot Outline, fairy-scale geography brainstorm, and steampunk tech rules brainstorm.*

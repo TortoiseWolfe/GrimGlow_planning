@@ -316,6 +316,37 @@ Issue 12: Theodore writes the fairy tale.
 
 ---
 
+## 6. Mr. Cribbage — Brain-Plugged
+
+### What's Established
+
+Theodore's clockmaker master, Mr. Cribbage, is brain-plugged by the dark fairy commanders. Cribbage was targeted because his workshop sits near telegraph infrastructure the Titans are corrupting. — LOCKED (ogre origin brainstorm)
+
+The brain-plugging process: a small Titan tech device (fairy-scale), placed on the back of the neck while the victim sleeps. The victim becomes a controlled near-zombie — dark veins spreading from the implant site, iridescent sheen in the eyes, oily skin, subtly wrong movement. The process is mostly reversible, but recovered humans return as a "simpler" version of themselves — slower cognition, memory gaps, emotional flatness, diminished fine motor skills. — LOCKED (ogre origin brainstorm)
+
+### What This Means for Theodore
+
+- The man who dismissed Theodore, took credit for his work, and treated him as invisible becomes a shambling, iridescent-eyed puppet
+- Theodore has to reconcile his resentment with the horror of seeing Cribbage reduced to this
+- The power dynamic inverts completely — the master who didn't need Theodore now genuinely needs his help
+- Victorian observers would say Cribbage was "taken by the fairies" — which feeds the fairy tale echo: people stolen by dark forces and brought back... changed
+
+<AI>Possible beats:
+- Theodore notices Cribbage acting strangely before learning the cause — the wrongness builds slowly
+- Theodore is the one who has to help remove the device (guided by Wren via comm link)
+- After recovery, Cribbage is "simpler" — and Theodore sees the man he resented become someone who genuinely needs his help
+- Cribbage might not remember the period of control. He doesn't know what was done to him or who saved him.
+- The "simpler" Cribbage might lose his clockmaking precision — a craftsman who can no longer craft. What does that mean for the workshop? For Theodore's apprenticeship?</AI>
+
+### Open Questions — Cribbage
+
+- Does Cribbage's brain-plugging happen on-page or off? Do we see it happen, or does Theodore discover the result?
+- Does Theodore need fairy guidance to spot the device? At human scale it's tiny, hidden under hair.
+- Cribbage's recovery: does he recover enough to continue as Theodore's master? Or is the relationship permanently altered?
+- How does this connect to Theodore's Issue 12 writing? The fairy tale he writes now includes a changeling story — a man "taken" and returned diminished.
+
+---
+
 ## Open Questions
 
 ### Family
@@ -349,4 +380,4 @@ Issue 12: Theodore writes the fairy tale.
 
 ---
 
-*This document is a working brainstorm. All `<AI>` tagged suggestions are proposals for consideration, not decisions. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Plot Outline, Script Prompts, Character Prompts, Character Turnarounds, Sable backstory brainstorm, Jink recklessness brainstorm, and temporal mechanics brainstorm.*
+*This document is a working brainstorm. All `<AI>` tagged suggestions are proposals for consideration, not decisions. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Plot Outline, Script Prompts, Character Prompts, Character Turnarounds, Sable backstory brainstorm, Jink recklessness brainstorm, temporal mechanics brainstorm, and ogre origin brainstorm.*

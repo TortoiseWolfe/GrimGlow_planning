@@ -31,18 +31,18 @@ concept-art/           — Character concept art (.png)
 
 ## Key Characters
 
-| Character | Role | Visual Key | Arc |
-|-----------|------|------------|-----|
-| **Sable** | Captain | Dark brown skin, silver-white cropped hair, authority | Command without a chain of command |
-| **Wren** | Engineer | East Asian, messy hair knot, oil-stained suit | Growing admiration for "primitive" human ingenuity |
-| **Jink** | Scout | Young, androgynous, wild curly hair, fastest flyer | Learning actions in the past have weight |
-| **Thresh** | Soldier | Broad, copper-red buzz cut, heavy armor | Brave in the future, terrified in the past — fights afraid |
-| **Luma** | Medic/Scientist | South Asian, braided hair, holographic lenses | Sees the paradox first; most tempted to stay |
-| **Theodore** | Human ally | Victorian boy, 12-13, tinker's apprentice | Wants fairies to be magical; learns they're something better |
+| Character | Role | Suit Color | Visual Key | Arc |
+|-----------|------|------------|------------|-----|
+| **Sable** | Captain | Silver (command) | Dark brown skin, silver-white cropped hair, authority | Command without a chain of command |
+| **Wren** | Engineer | Copper metallic | East Asian, messy black hair knot, oil-stained suit | Growing admiration for "primitive" human ingenuity |
+| **Jink** | Scout | Emerald metallic | Young, androgynous, bright golden blonde curly hair, fastest flyer | Learning actions in the past have weight |
+| **Thresh** | Soldier | Ruby/crimson metallic | Broad, copper-red buzz cut, heavy armor | Brave in the future, terrified in the past — fights afraid |
+| **Luma** | Medic/Scientist | Sapphire/violet metallic | South Asian, braided hair, holographic lenses | Sees the paradox first; most tempted to stay |
+| **Theodore** | Human ally | — | Victorian boy, 12-13, tinker's apprentice | Wants fairies to be magical; learns they're something better |
 
 ## Visual Language Rules
 
-- **Fairy tech:** Structured holographic light — translucent, prismatic, geometric edges. Not sparkle, but "light trapped in geometry." Reads as runes/magic to Victorian eyes.
+- **Fairy tech:** Structured holographic light — translucent, prismatic, geometric edges. Not sparkle, but "light trapped in geometry." Reads as runes/magic to Victorian eyes. Suits are department-coded in jewel-tone metallics (silver, copper, emerald, ruby, sapphire) with matching holographic accent glow.
 - **Steampunk world:** Heavy, warm-toned, dense. Brass, copper, gaslight, smoke. Everything is two environments: human-scale and fairy-scale.
 - **Titans:** Dark mirror of fairy tech. Oil-on-water iridescence, shadow that moves wrong. Cloaking is not invisibility but *wrongness*.
 - **Degradation arc:** Suits start pristine silver and accumulate soot/damage across the story. Holographic elements still glow through grime. This is the core visual metaphor.

@@ -10,11 +10,15 @@ This is a genuinely strong concept. The "future tech reads as magic" inversion i
 
 ## The Enemy & The Stakes
 
-The enemy is from a low-gravity world. They're enormous. In the future, size differences between species are trivially managed by technology and diplomacy. But when both sides crash in the steampunk past, stripped of that infrastructure, the war suddenly maps onto something ancient and mythic. Your soldiers look like fairies. The enemy looks like giants. Ogres. Demons.
+The enemy faction uses dark fairy commanders — beings the same size as the squad, a diverged branch of their own species — who implant Titan tech devices in sleeping humans, brain-plugging them into controlled foot soldiers. The device goes in at the base of the skull. The victim's will is overridden; their body, their skills, their knowledge become tools of the commander. To the four-inch squad, any human is enormous. A brain-plugged dock worker is as terrifying as any alien giant. A brain-plugged soldier is a nightmare.
+
+Your soldiers look like fairies. The enemy's victims look like giants. Ogres. Demons. The dark fairy commanders themselves are invisible puppet-masters — fairy-sized, cloaked, pulling strings from the shadows.
 
 The temporal cold war becomes the origin of fairy tales.
 
-That gives you an incredible thematic engine. The steampunk humans aren't just bystanders — they're witnesses, and the stories they tell about what they see will ripple forward through centuries of folklore. Which means every visible action the fairies or their enemies take in the past has two consequences: the physical effect on the timeline, and the narrative effect on human mythology. Your characters aren't just trying not to break history. They're accidentally writing it.
+And the brain-plugged humans who are eventually released or whose devices fail? They come back *wrong* — confused, diminished, missing time, their personalities flattened. The people who knew them say they were "taken" and returned as something less. The origin of changeling stories. People stolen by dark forces and brought back... changed.
+
+That gives you an incredible thematic engine. The steampunk humans aren't just bystanders — they're witnesses *and* victims, and the stories they tell about what they see will ripple forward through centuries of folklore. Which means every visible action the fairies or their enemies take in the past has two consequences: the physical effect on the timeline, and the narrative effect on human mythology. Your characters aren't just trying not to break history. They're accidentally writing it.
 
 As for what the war is about: consider that both sides have discovered the timeline has convergence points — moments where small changes cascade into civilizational-scale outcomes. The steampunk era is one of them. The industrial revolution is the hinge where technology either branches toward the fairies' future or the Titans' future. The cold war was both sides probing these convergence points, gathering intelligence, nudging carefully. It went hot because someone made a move on a major one. The fairies' squad was deployed to this convergence point, got shot down in transit, and crashed right into the most contested moment in temporal history — except now they're stranded with no backup and no comms.
 
@@ -34,7 +38,7 @@ The one who has to actually fix the ship, which means she must engage with the s
 
 ### Jink — The Scout
 
-Youngest on the squad, fast, reckless, the best flyer. The name is a military aviation term — a jink is a sudden, sharp evasive maneuver — earned as a callsign by the squad's most unpredictable pilot. Jink is the one who finds the steampunk boy, and against all protocol, makes contact. Jink treats the past like an adventure, which makes them both the most fun character and the most dangerous one. Their arc is learning that actions in the past aren't a game — they have weight.
+Youngest on the squad, fast, reckless, the best flyer. Bright golden blonde curly hair, lean androgynous build, emerald suit. The name is a military aviation term — a jink is a sudden, sharp evasive maneuver — earned as a callsign by the squad's most unpredictable pilot. Jink is the one who finds the steampunk boy, and against all protocol, makes contact. Jink treats the past like an adventure, which makes them both the most fun character and the most dangerous one. Their arc is learning that actions in the past aren't a game — they have weight.
 
 ### Thresh — The Soldier
 
@@ -54,9 +58,23 @@ A tinker's apprentice, maybe twelve or thirteen, clever with his hands, overlook
 
 Should feel like light trapped in geometry. Holographic elements that are translucent, prismatic, with clean vector-like edges — think less "sparkle" and more "structured luminescence." Their wing-packs should look like dragonfly wings rendered in light, with visible geometric scaffolding. When they use tools or interfaces, the holograms should manifest as floating glyphs and rotating shapes — a visual language that reads as runes to steampunk observers.
 
+### Department Color Coding
+
+Suits are department-coded in jewel-tone metallics, inspired by Star Trek's uniform color system. The metallic shimmer quality is shared across all suits, but each department has a distinct hue. Holographic accent lights (joints, wing-pack seams, emitters) glow in a matching tone. Sable's silver is the command standard — the other four departments are variations from this base.
+
+| Department | Character | Suit Hue | Accent Glow |
+|------------|-----------|----------|-------------|
+| Command | Sable | Silver | Cool blue-white |
+| Engineering | Wren | Copper metallic | Warm copper-gold |
+| Reconnaissance | Jink | Emerald metallic | Emerald/green |
+| Security | Thresh | Ruby/crimson metallic | Red/crimson |
+| Science/Medical | Luma | Sapphire/violet metallic | Blue-violet |
+
+Victorian observers name the squad by their colors — "the silver fairy," "the copper fairy," "the green fairy," "the red fairy," "the blue fairy" — feeding directly into the fairy tale echo theme.
+
 ### The Degradation Arc
 
-Their suits start pristine silver, almost mirror-like. As they spend time in the past, they accumulate soot, oil, scratches. But here's the visual trick — the holographic elements still glow through the grime. So a fairy who's been in the past for weeks looks like a soot-covered figure with light bleeding through the cracks. That's a gorgeous image, and it tells the story of their situation visually: future beauty being slowly consumed by the past, but not yet extinguished.
+Their suits start pristine in their department color — silver, copper, emerald, ruby, or sapphire — with a metallic shimmer. As they spend time in the past, they accumulate soot, oil, scratches. But here's the visual trick — the holographic elements still glow through the grime, and the department color shows through beneath the dirt. So a fairy who's been in the past for weeks looks like a soot-covered figure with colored light bleeding through the cracks. That's a gorgeous image, and it tells the story of their situation visually: future beauty being slowly consumed by the past, but not yet extinguished.
 
 ### Steampunk World
 
