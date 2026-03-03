@@ -307,14 +307,14 @@ The two-tier faction structure creates layered emotional stakes:
 The operation in London is run by a small number of dark fairy commanders directing a small number of ogre soldiers.
 
 **Dark Fairy Commanders:**
-- <AI>2-3 in London. Enough to cover the operation zones (Bermondsey industrial, Wapping docks, telegraph network) but few enough to stay hidden. They are the planners, not the muscle.</AI>
+- 3 in London — LOCKED. One per operation zone (Bermondsey industrial, Wapping docks, telegraph network). Few enough to stay hidden. They are the planners, not the muscle.
 - Communicate with each other using dark fairy tech — inverted fairy communication frequencies. <AI>Subsonic for ogre commands; encrypted tech-channel for commander-to-commander. The squad might intercept ogre commands but not understand the commander channel until they realize it's inverted fairy protocol.</AI>
 - Each commander manages a section of the operation and directs assigned ogres
 
 <hidden>Alt-Sable leads. She runs the London operation the way our Sable runs the squad — with tactical precision, strategic patience, and hard calls. But her "squad" is subjugated ogres, not trusted companions. Every parallel between her command style and Sable's is a mirror that cuts. She assigns sectors, manages resources, adjusts strategy when the squad disrupts operations. She is competent and dangerous precisely because she thinks like Sable.</hidden>
 
 **Ogre Foot Soldiers:**
-- <AI>3-5 in London. Enough to cover the operation zones and provide security for key installations (telegraph stations, device locations). The guarded device in Issue 12 has at least one ogre defender.</AI>
+- 5 in London — LOCKED. Flexible deployment across three zones, 1-2 per commander. Provides security for key installations (telegraph stations, device locations). The guarded device in Issue 12 has at least one ogre defender.
 - Follow dark fairy commander directives
 - Execute physical tasks: guarding installations, patrolling zones, pursuing the squad when directed, maintaining devices under commander supervision
 - <AI>Limited autonomous decision-making. An ogre left without orders defaults to patrol and defend behavior — predictable enough for the squad to exploit. An ogre under direct command is far more dangerous because the dark fairy commander adapts in real time.</AI>
@@ -378,4 +378,4 @@ This is the dark fairy commanders adapting, not the ogres. The ogres execute; th
 
 ---
 
-*This document is a working brainstorm. The two-tier faction structure (dark fairy commanders + ogre foot soldiers) and the diverged-species model are LOCKED decisions. All `<AI>` tagged suggestions are proposals for consideration. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Product Design Requirements, Volume 1 Plot Outline, fairy-scale geography brainstorm, and steampunk tech rules brainstorm.*
+*This document is a working brainstorm. The two-tier faction structure (dark fairy commanders + ogre foot soldiers), the diverged-species model, the commander count (3 in London), and the ogre count (5 in London) are LOCKED decisions. All `<AI>` tagged suggestions are proposals for consideration. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Product Design Requirements, Volume 1 Plot Outline, fairy-scale geography brainstorm, and steampunk tech rules brainstorm.*

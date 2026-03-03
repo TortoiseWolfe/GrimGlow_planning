@@ -243,19 +243,21 @@ These three are named in the Plot Outline and must not change:
 
 ### The "Long List" — Expanding Canon
 
-The Plot Outline says Wren's list is "long" and each item is "a mission." Only three are dramatized as full heist issues. The rest happen between issues or are referenced in passing. <AI>The expanded list below fills the gaps with period-accurate components mapped to real London locations. These are suggestions — the creator decides which are canon.</AI>
+The full 12-component list is LOCKED. Components #1-3 are canon (Plot Outline). Components #4-12 are now locked as canon.
+
+The Plot Outline says Wren's list is "long" and each item is "a mission." Only three are dramatized as full heist issues. The rest happen between issues or are referenced in passing. The expanded list below fills the gaps with period-accurate components mapped to real London locations — LOCKED as canon.
 
 | # | Component | Ship System | Victorian Source | Probable Location | Adaptation Challenge |
 |---|-----------|------------|-----------------|-------------------|---------------------|
-| 4 | <AI>Copper conductor wire (high purity)</AI> | <AI>Internal wiring / signal pathways</AI> | <AI>Electrical workshop or telegraph stores</AI> | <AI>GPO warehouse, St Martin's-le-Grand area</AI> | <AI>Victorian copper is 99.9% pure (electrolytic refining). Near-sufficient; Wren trims and reshapes</AI> |
-| 5 | <AI>Spring steel mainspring</AI> | <AI>Tensioning element in drive system</AI> | <AI>Watchmaker's supplies</AI> | <AI>Clerkenwell — dedicated spring-maker's workshop (real trade specialization)</AI> | <AI>Steel quality is close but alloy is wrong. Wren heat-treats with fairy tech to compensate</AI> |
-| 6 | <AI>Glass vacuum vessel</AI> | <AI>Containment chamber for energy core</AI> | <AI>Scientific instrument maker / glassblower</AI> | <AI>Hatton Garden area (adjacent to Clerkenwell, precision instrument trades)</AI> | <AI>Victorian glass has impurities. Wren selects the clearest specimen, uses holographic scanning to find the best section</AI> |
-| 7 | <AI>Jewel bearings (synthetic ruby)</AI> | <AI>Low-friction pivot points in drive assembly</AI> | <AI>Jeweller's workshop</AI> | <AI>Clerkenwell / Hatton Garden (jewellery quarter)</AI> | <AI>Verneuil synthetic rubies (1883) are close enough. Wren is surprised this exists at all</AI> |
-| 8 | <AI>Rubber insulation compound</AI> | <AI>Electrical insulation for power couplings</AI> | <AI>Vulcanization workshop</AI> | <AI>Bermondsey (industrial district)</AI> | <AI>Vulcanized rubber is adequate for low-frequency insulation. Not ideal but workable</AI> |
-| 9 | <AI>Brass pressure fitting</AI> | <AI>Sealed junction in fluid/gas system</AI> | <AI>Steam engine parts supplier</AI> | <AI>Bermondsey / Southwark (industrial foundries)</AI> | <AI>Victorian brass machining is precise enough. Thread pitch needs minor modification</AI> |
-| 10 | <AI>Phosphor-bronze bushings</AI> | <AI>Bearing surfaces in rotating assemblies</AI> | <AI>Marine engine supplier</AI> | <AI>Wapping dockyard suppliers</AI> | <AI>Marine-grade phosphor-bronze has the lowest friction coefficient available. Wren approves</AI> |
-| 11 | <AI>Chemical reagents (mercury, zinc, sulfuric acid)</AI> | <AI>Battery / power cell reconditioning</AI> | <AI>Apothecary / chemist</AI> | <AI>Any High Street chemist, but purity matters — possibly the Royal Institution stores</AI> | <AI>Theodore could acquire these openly (boy running errands for a chemist isn't suspicious)</AI> |
-| 12 | <AI>Fine silver wire</AI> | <AI>Holographic emitter contacts</AI> | <AI>Silversmith or jeweller</AI> | <AI>Clerkenwell / Hatton Garden</AI> | <AI>Silver is silver — this is the one material that requires zero adaptation. Wren finds this ironic</AI> |
+| 4 | Copper conductor wire (high purity) | Internal wiring / signal pathways | Electrical workshop or telegraph stores | GPO warehouse, St Martin's-le-Grand area | Victorian copper is 99.9% pure (electrolytic refining). Near-sufficient; Wren trims and reshapes |
+| 5 | Spring steel mainspring | Tensioning element in drive system | Watchmaker's supplies | Clerkenwell — dedicated spring-maker's workshop (real trade specialization) | Steel quality is close but alloy is wrong. Wren heat-treats with fairy tech to compensate |
+| 6 | Glass vacuum vessel | Containment chamber for energy core | Scientific instrument maker / glassblower | Hatton Garden area (adjacent to Clerkenwell, precision instrument trades) | Victorian glass has impurities. Wren selects the clearest specimen, uses holographic scanning to find the best section |
+| 7 | Jewel bearings (synthetic ruby) | Low-friction pivot points in drive assembly | Jeweller's workshop | Clerkenwell / Hatton Garden (jewellery quarter) | Verneuil synthetic rubies (1883) are close enough. Wren is surprised this exists at all |
+| 8 | Rubber insulation compound | Electrical insulation for power couplings | Vulcanization workshop | Bermondsey (industrial district) | Vulcanized rubber is adequate for low-frequency insulation. Not ideal but workable |
+| 9 | Brass pressure fitting | Sealed junction in fluid/gas system | Steam engine parts supplier | Bermondsey / Southwark (industrial foundries) | Victorian brass machining is precise enough. Thread pitch needs minor modification |
+| 10 | Phosphor-bronze bushings | Bearing surfaces in rotating assemblies | Marine engine supplier | Wapping dockyard suppliers | Marine-grade phosphor-bronze has the lowest friction coefficient available. Wren approves |
+| 11 | Chemical reagents (mercury, zinc, sulfuric acid) | Battery / power cell reconditioning | Apothecary / chemist | Any High Street chemist, but purity matters — possibly the Royal Institution stores | Theodore could acquire these openly (boy running errands for a chemist isn't suspicious) |
+| 12 | Fine silver wire | Holographic emitter contacts | Silversmith or jeweller | Clerkenwell / Hatton Garden | Silver is silver — this is the one material that requires zero adaptation. Wren finds this ironic |
 
 ### The Adaptation Problem
 
@@ -500,7 +502,7 @@ The telegraph is the most narratively important technology in GrimGlow. It serve
 - How does Titan tech visually interact with Victorian machinery? Corruption? Parasitism?
 
 ### The Telegraph
-- Is the Titan nudge engine visible to humans or only detectable with fairy scanners?
+- ~~Is the Titan nudge engine visible to humans or only detectable with fairy scanners?~~ RESOLVED: Hidden inside equipment, light visible only at fairy scale.
 - Do the Titans have operatives maintaining the devices, or are they autonomous?
 - After the devices are neutralized in Issue 12, what happens to the telegraph network? Does it return to normal?
 

@@ -117,9 +117,9 @@ The timeline is genuinely contested. The squad's choices matter. They could fail
 - **Weakness:** If the loop is truly open, it's not really a causal loop — it's just time travel with branching futures. The "were we always supposed to be here?" question loses its paradox teeth. It becomes "we happened to be here, and we chose to make the best of it."
 - **The cop-out problem:** If free will is absolute, the paradox layer is just set dressing. There's no real philosophical weight.
 
-**Model C — The Loop Is Real But Not Deterministic**
+**Model C — The Loop Is Real But Not Deterministic** — LOCKED
 
-<AI>The middle position: the causal loop exists but has *slack.* The squad was always going to crash here. Stories about fairies were always going to arise. But the CONTENT of those stories, the SHAPE of the mythology, the BALANCE between wonder and fear — that's where choice lives.
+The middle position: the causal loop exists but has *slack.* The squad was always going to crash here. Stories about fairies were always going to arise. But the CONTENT of those stories, the SHAPE of the mythology, the BALANCE between wonder and fear — that's where choice lives.
 
 The loop guarantees: fairy-like beings appear in 1885 London, and humans tell stories about them.
 The loop does NOT guarantee: which stories win.
@@ -136,7 +136,9 @@ This means:
 This avoids both cop-outs:
 - Not "we did the thing we were always going to do" (determinism)
 - Not "we just happened to be here" (no paradox)
-- Instead: "We were always going to be here. What that means is up to us."</AI>
+- Instead: "We were always going to be here. What that means is up to us."
+
+*Models A (Closed/Deterministic) and B (Open/Free Will) are rejected. Model C preserves both the paradox and agency.*
 
 ### How the Dark Fairies Interact With the Loop
 
@@ -170,7 +172,7 @@ The word is deliberately ambiguous. It could be:
 
 **A plea** — the most emotional reading. A lone operative, centuries in the past, knowing they'll never go home, carving a single word as their last message. Not an order. Not a warning. Just: stay. Please. It matters.
 
-<AI>All four readings can coexist. The word is ambiguous BECAUSE the situation is all of these things at once. An order that became a realization that became a warning that became a plea. The operative who carved it might have meant all four. Luma's shaking hands are because she can read all four meanings simultaneously.</AI>
+All four readings coexist — LOCKED. The word is ambiguous BECAUSE the situation is all of these things at once. An order that became a realization that became a warning that became a plea. The operative who carved it might have meant all four. Luma's shaking hands are because she can read all four meanings simultaneously.
 
 ### The Prior Operatives — Who Were They?
 
@@ -288,9 +290,9 @@ The resolution works if it meets three conditions:
 
 3. **The choice is informed but not certain.** Luma's synthesis is compelling but not proof. The squad is betting on a theory. They're choosing to believe the paradox is real because the alternative — leaving and potentially erasing the future — is too dangerous. Faith, not certainty.
 
-<AI>The emotional shape of the resolution:
+The emotional shape of the resolution — LOCKED:
 
-**Luma** presents the synthesis. Her voice is steady. She's been building to this for issues. She lays out the evidence: the glyphs, the cache, the folklore, the pamphlet, the two mythologies. She says: "The convergence point isn't the telegraph. It's the stories. It's us."
+**Luma** presents the synthesis. She's been building to this for issues. She lays out the evidence: the glyphs, the cache, the folklore, the pamphlet, the two mythologies. She says: "The convergence point isn't the telegraph. It's the stories. It's us." But she presents with visible doubt — she knows the synthesis is convenient, knows she can't fully separate her desire to stay from the evidence that says they should. The rigor is real. The torment is real. Both are visible.
 
 **Wren** pushes back. She's an engineer — she wants mechanism, not metaphor. "That's not how technology works. Stories don't build civilizations." But even as she argues, she's thinking about the telegraph — how information shapes what gets built. She argued herself into understanding the Titan strategy. Now she's doing it again.
 
@@ -302,7 +304,7 @@ The resolution works if it meets three conditions:
 
 **Theodore** doesn't hear this conversation. He's in his workshop, by candlelight, writing a story about his friends. He doesn't know he's writing mythology. He doesn't know the weight of what he's doing. He's just a boy who met fairies, and he wants to tell someone.
 
-The volume ends. The question "were we always supposed to be here?" is answered not with certainty but with choice: "We're here. We're staying. And that has to be enough."</AI>
+The volume ends. The question "were we always supposed to be here?" is answered not with certainty but with choice: "We're here. We're staying. And that has to be enough."
 
 ### What the Resolution Does NOT Resolve
 
@@ -325,7 +327,7 @@ The fairy tales are real. They always were. The squad just didn't know they were
 ## Open Questions
 
 ### Loop Mechanics
-- Which model for the causal loop? (Closed, open, or Model C — "the loop is real but not deterministic"?)
+- ~~Which model for the causal loop?~~ RESOLVED — Model C locked.
 - Does the loop self-correct? (If the squad does something "wrong," does the timeline nudge them back?)
 - <AI>Can the squad *feel* the loop? Are there moments where a choice feels inevitable — not forced, but as if the universe leans toward it? A soft determinism that they sense but can never prove?</AI>
 
@@ -358,4 +360,4 @@ The fairy tales are real. They always were. The squad just didn't know they were
 
 ---
 
-*This document is a working brainstorm. All `<AI>` tagged suggestions are proposals for consideration, not decisions. `<hidden>` tagged content is author-only information for later story reveals. The three temporal models (closed, open, Model C) are all presented — none is locked. Canon anchors are drawn from: Story Bible, Volume 1 Plot Outline, Volume 1 Script Prompts, fairy-scale geography brainstorm, steampunk tech rules brainstorm, and Titan biology/culture brainstorm.*
+*This document is a working brainstorm. LOCKED decisions: Model C (slack with choice-windows) as the temporal model; "STAY" four-reading coexistence as deliberate ambiguity; Issue 12 squad responses (emotional shape of the resolution). Remaining `<AI>` tagged suggestions are proposals for consideration. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Volume 1 Plot Outline, Volume 1 Script Prompts, fairy-scale geography brainstorm, steampunk tech rules brainstorm, and Titan biology/culture brainstorm.*

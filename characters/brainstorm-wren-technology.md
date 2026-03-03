@@ -278,7 +278,7 @@ The arc is: she starts by separating findings from feelings. She ends by recogni
 - The telegraph argument she lost to herself — is this explicit (she says "I already proved this") or implicit (she goes quiet and the reader connects it)?
 
 ### Voice
-- Does she have a verbal tic or habit? <AI>Possible: she quantifies things. "Three minutes." "Point-one tolerance." "Twelve components." She puts numbers on things because numbers are clean.</AI>
+- Does she have a verbal tic or habit? **Quantifying tic.** She quantifies things. "Three minutes." "Point-one tolerance." "Twelve components." She puts numbers on things because numbers are clean. — LOCKED
 - Does she speak differently to Theodore than to the squad? <AI>She might simplify — not condescendingly, but practically. She explains things to Theodore the way a good engineer explains to a non-specialist: accurately but without jargon. This would contrast with how she talks to the squad (shorthand, assumptions of shared knowledge).</AI>
 - Her Issue 12 argument with Luma — how long does it last? Does she give in quickly (she already knows) or does she fight it (she doesn't want to know)?
 

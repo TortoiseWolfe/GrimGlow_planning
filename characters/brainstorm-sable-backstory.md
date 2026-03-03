@@ -242,9 +242,9 @@ Sable's voice is defined by what she DOESN'T say as much as what she does.
 - **Silence as communication.** She uses silence deliberately. Not answering is a command decision. The squad has learned to read her silences.
 
 <AI>Vocabulary cues:
-- Military register. "Position." "Confirm." "Execute." "Hold." Not jargon-heavy, but the structure of military communication.
-- No contractions when in command mode. "Do not" rather than "don't." "We will" rather than "we'll." The formality is the mask.
-- Contractions appear when the mask slips. The shift from "do not" to "don't" is a tell.</AI>
+- Military register. "Position." "Confirm." "Execute." "Hold." Not jargon-heavy, but the structure of military communication.</AI>
+
+**Contraction tell.** No contractions when in command mode. "Do not" rather than "don't." "We will" rather than "we'll." The formality is the mask. Contractions appear when the mask slips. The shift from "do not" to "don't" is a tell. — LOCKED
 
 ### When the Mask Slips
 

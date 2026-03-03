@@ -209,6 +209,8 @@ Luma visits the church cache one more time. She sits with the corroded wing-pack
 
 The squad was sent here because the mission *is* being here. Being seen. Being the fairies in the stories. The prior operatives knew. That's why they stayed.
 
+**The squad responds.** Luma presents with rigor and visible doubt — she knows the synthesis is convenient, knows she can't fully separate her desire to stay from the evidence. Wren pushes back: "Stories don't build civilizations." But she's already proved Luma's point — the telegraph carries information that shapes development. Jink: "So we're not stuck here. We're *needed* here." Thresh: "I don't want to stay. I'll stay."
+
 **Sable's response is quiet.** She looks at her squad — battered, soot-covered, holographic light bleeding through the grime. They look like fairy tales. They always did.
 
 **Final scene:** Theodore, in his workshop, by candlelight. He's writing. Not a report, not a letter — a *story.* About tiny luminous people with wings of light, who fell from the sky and fought monsters in the fog. He doesn't know he's writing mythology. He thinks he's writing about his friends.
