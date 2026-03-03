@@ -379,10 +379,7 @@ This gives Luma a devastating new dimension to her temptation to stay:
 - Intervening here could reshape the entire future conflict
 - But acknowledging this means staying even longer — which is exactly what Luma already wants
 
-<AI>Planting moments:
-- Issue 8 (What Luma Found) — she's already making revelations. Adding the ogre biology notice here risks overcrowding.
-- Issue 10 (The Titan) — first close encounter with a brain-plugged human. She scans it during or after the encounter. This is the natural moment.
-- Issue 11 (Convergence) — quieter issue, more room to process. But less dramatically immediate.</AI>
+**Luma notices the ogre-biology markers in Issue 10** — LOCKED. First close encounter with a brain-plugged human during "The Titan." She scans during or after the encounter. Natural moment — she's in investigation mode with scanner access. She files it, doesn't share. Seed planted for Volume 2.
 
 **Cross-reference:** ogre origin brainstorm (`world-building/brainstorm-ogre-origin.md`) — full evolutionary fork details
 

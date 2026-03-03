@@ -163,12 +163,12 @@ The Issue 4 meeting is where the fairy tale shatters. Theodore enters the wall c
 
 ### Does It Happen All at Once?
 
-Canon puts the disillusionment in Issue 4. But:
+**In stages** — LOCKED. Issue 4 is a crack, not a break. The memory wipe debate shakes him, but he recovers — partially. The full weight builds across Issues 4-9 as he sees more of the squad's military reality. The fairy tale doesn't die all at once.
 
-<AI>It might have cracks before Issue 4:
-- Issue 3: Jink's soot-streaked suit. The tear patched with copper wire. The damage is visible — this isn't a pristine fairy. Theodore might notice this and explain it away: fairies are wild, fairies get dirty, fairies fight monsters. The damage fits the fairy tale if he lets it.
-- Issue 3: Jink's language. "Modern-feeling, quick, casual." Not how fairy tales sound. Theodore might find this charming rather than wrong — his fairy speaks strangely, which is part of the magic.
-- The crack becomes a break in Issue 4. One fairy can be explained. Five soldiers arguing about protocol cannot.</AI>
+Cracks before Issue 4:
+- Issue 3: Jink's soot-streaked suit. The tear patched with copper wire. The damage is visible — this isn't a pristine fairy. Theodore notices but explains it away: fairies are wild, fairies get dirty, fairies fight monsters.
+- Issue 3: Jink's language. "Modern-feeling, quick, casual." Not how fairy tales sound. Theodore finds this charming rather than wrong.
+- The crack becomes wider in Issue 4. One fairy can be explained. Five soldiers arguing about protocol cannot. But it takes until Issue 9 (Sable's secret) for the fairy tale framework to fully break.
 
 ### What Theodore Does with the Loss
 
