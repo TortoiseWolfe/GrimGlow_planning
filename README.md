@@ -76,9 +76,14 @@ Brainstorm ──→ Document ──→ Style Guide ──→ Write ──→ Cr
 
 ---
 
-## Phase 1: World Building
+## ~~Phase 1: World Building~~ ✓
 
 Use `cw-brainstorming` to explore and capture world rules before committing them to wiki pages. Brainstorming notes stay skeletal — AI suggestions are tagged, nothing is locked in.
+
+**Output:** Brainstorming notes saved to `world-building/` directory.
+
+<details>
+<summary>Archived — prompts used in prior sessions</summary>
 
 ```
 /bs
@@ -135,15 +140,18 @@ that sent them back. I need to work out:
 Reference the three-layer plot in docs/GrimGlow_Story_Bible.md.
 ```
 
-**Output:** Save brainstorming notes to `world-building/` directory as working markdown files.
+</details>
 
 ---
 
-## Phase 2: Character Development
+## ~~Phase 2: Character Development~~ ✓
 
-Start with brainstorming to deepen backstories and voice, then formalize into wiki-style profiles.
+Brainstormed backstories and voice, then formalized into wiki-style profiles for all six main characters.
 
-### Brainstorm Character Depth
+**Output:** Brainstorm notes in `characters/brainstorm-*.md`; wiki pages in `characters/wiki/` (sable, wren, jink, thresh, luma, theodore).
+
+<details>
+<summary>Archived — brainstorm prompts used in prior sessions</summary>
 
 ```
 /bs
@@ -226,9 +234,10 @@ She sees the paradox first and is most tempted to remain in the past.
 - Her voice: precise, observational, asks questions that sound casual but aren't
 ```
 
-### Formalize as Wiki Pages
+</details>
 
-Once brainstorming is solid, create canonical character profiles:
+<details>
+<summary>Archived — wiki page prompts used in prior sessions</summary>
 
 ```
 /wiki
@@ -339,11 +348,18 @@ then writing the first fairy tale alone by candlelight.
 Save to characters/wiki/theodore.md.
 ```
 
+</details>
+
 ---
 
-## Phase 3: Style Guide Creation
+## ~~Phase 3: Style Guide Creation~~ ✓
 
-Create a GrimGlow prose style that Claude can follow consistently. This skill analyzes existing writing and produces AI-directed style instructions.
+Created a GrimGlow prose style guide using `cw-style-skill-creator`. The guide covers prose texture, dual lighting, scale contrast, degradation arc, fairy tech, Titan description, and all six character voices.
+
+**Output:** `style-guide.md` at repo root.
+
+<details>
+<summary>Archived — prompt used in prior session</summary>
 
 ```
 Use the cw-style-skill-creator skill to create a GrimGlow prose style guide.
@@ -366,6 +382,8 @@ The style should capture:
 
 Output as a style guide markdown file at style-guide.md.
 ```
+
+</details>
 
 ---
 
@@ -558,14 +576,373 @@ Style: style-guide.md
 
 Prioritized checklist of content to develop:
 
+- [x] **Character profiles (main six)** — Wiki pages for Sable, Wren, Jink, Thresh, Luma, Theodore (`characters/wiki/`)
+- [x] **GrimGlow style guide** — Prose style skill derived from Story Bible visual language (`style-guide.md`)
+- [ ] **Secondary character profiles** — See tier list below
 - [ ] **World wiki pages** — Locations (London at fairy scale, the wreckage, Theodore's workshop), tech systems (fairy tech rules, steampunk tech rules), faction lore (Titans, prior operatives)
-- [ ] **Character profiles** — Deep backstory + voice guide for Sable, Wren, Jink, Thresh, Luma, Theodore
-- [ ] **GrimGlow style guide** — Prose style skill derived from Story Bible visual language
 - [ ] **Comic Issue 1 script** — Full 22-page script; test the entire pipeline end-to-end
 - [ ] **Phase 1 dialogue trees** — Ink scripts for the browser prologue (squad conversations, Theodore discovery)
 - [ ] **Comic Issues 2-12 scripts** — Remaining 11 issues, one at a time through the write/critique/revise cycle
 - [ ] **NPC system prompts** — Ollama personality prompts for Phase 2 (Theodore 7B, ambient NPCs 3B)
 - [ ] **Lore articles** — In-world documents (Theodore's journal entries, squad mission logs, Titan field reports)
+
+### Secondary Characters — Not Yet Covered
+
+Characters identified across brainstorm files, Plot Outline, and Script Prompts that do not yet have wiki pages or dedicated profiles.
+
+**Tier 1 — Named characters with on-page arcs (need wiki pages)**
+
+| Character | Role | States | Key Sources |
+|-----------|------|--------|-------------|
+| **Mr. Cribbage** | Theodore's clockmaker master; dismissive, competent, unkind | Normal → brain-plugged → recovered-but-diminished | `brainstorm-ogre-origin.md`, `brainstorm-theodore-inner-world.md`, `wiki/theodore.md` |
+| **Alt-Sable (Dark Sable)** | Leader of dark fairy commanders; alternate-timeline Sable | Hidden in Vol 1; reveal planned for future volume | `brainstorm-titan-biology-culture.md`, `brainstorm-dark-fairy-operations.md`, `wiki/sable.md` (hidden layer) |
+| **Theodore's Father** | Runs a printing press; present in London but absent from Theodore's daily life | Normal only | `brainstorm-theodore-inner-world.md`, `wiki/theodore.md` |
+| **The Folklorist** | University academic who collects sightings; publishes pamphlet *"The Stories They Tell"* | Normal only | Plot Outline Issues 10-11, Script Prompts |
+
+**Tier 2 — Unnamed but narratively significant (need profiles or lore entries)**
+
+| Character | Role | Key Appearance |
+|-----------|------|----------------|
+| **Dark fairy commanders (2-3)** | Subordinate commanders directing brain-plugged humans | `brainstorm-dark-fairy-operations.md` |
+| **Brain-plugged humans (~5)** | Titan foot soldiers — telegraph operator, factory hand, dock laborer, others | `brainstorm-ogre-origin.md` |
+| **The Child** | Young child who reaches toward Thresh without fear | Issue 8 — Thresh's arc turning point |
+| **The Clockmaker (Clerkenwell)** | High-end shop owner; discovers "brownie" handprint in oil | Issue 5 — first fairy tale echo generated |
+| **The Journalist** | Newspaper reporter who records sightings and the "telegraph demon" | Issues 7, 10 — bridges oral folklore to print |
+| **The Lighthouse Keeper** | Witnesses "dancing lights" in the gallery | Issue 7 |
+| **The Lamplighter** | First civilian witness; sees will-o'-the-wisps in gutter | Issue 2 |
+| **Prior Operatives** | Previous fairy teams at convergence point; left cache and "STAY" | Issues 4, 6, 8 (evidence); backstory across volumes |
+
+**Tier 3 — Background/referenced (brief mentions sufficient)**
+
+| Character | Role |
+|-----------|------|
+| Theodore's Mother | Deceased before story; era-appropriate causes |
+| Theodore's Grandmother | Deceased; source of fairy tales; storytelling voice Theodore inherits (Issue 9) |
+| The Clockmaker's Wife | Hears brownie story |
+| Harbor Authority men | Dismiss lighthouse keeper's report |
+| The Child's Parent | Calls child away from Thresh |
+| Theodore's friends/peers | Repeat his fairy stories; folklore propagation chain |
+
+### Secondary Character Development Prompts
+
+#### Tier 1 — Brainstorm + Wiki
+
+**Mr. Cribbage**
+
+```
+/bs
+```
+
+```
+Let's brainstorm Mr. Cribbage for GrimGlow — Theodore's clockmaker master.
+He needs three states across Volume 1:
+
+1. NORMAL: "Competent but unkind in a mundane way — dismissive, impatient, uninterested
+   in Theodore's cleverness." What makes him specifically unkind? Not villainous — mundanely
+   crushing. He takes credit for Theodore's fixes. He's skilled but cold. What's his workshop
+   like? His daily rhythm? His reputation in the neighborhood?
+
+2. BRAIN-PLUGGED: The dark fairy commanders implant him because his shop sits near telegraph
+   infrastructure the Titans are corrupting. What does brain-plugging look like from the outside?
+   Dark veins from the implant site, iridescent eyes, oily skin sheen, movement that lacks
+   natural micro-adjustments. How does Theodore discover what happened to Cribbage?
+   The power dynamic inverts completely — the master who dismissed Theodore now needs his help.
+
+3. RECOVERED: "Comes back wrong — confused, diminished, missing time, personality flattened."
+   The origin of changeling stories. What specifically is lost? Fine motor skills (a clockmaker
+   who can't hold a tool)? Memory gaps? Emotional flatness? Does he remember Theodore differently?
+
+Reference characters/brainstorm-theodore-inner-world.md, world-building/brainstorm-ogre-origin.md,
+and characters/wiki/theodore.md for existing material on Cribbage.
+```
+
+```
+/wiki
+```
+
+```
+Create a canonical character profile for Mr. Cribbage, Theodore's clockmaker master.
+Sources: world-building/brainstorm-ogre-origin.md, characters/brainstorm-theodore-inner-world.md,
+characters/wiki/theodore.md, comic/GrimGlow_Volume1_Plot_Outline.md, and the Cribbage brainstorm.
+Include: physical description, personality, workshop details, relationship with Theodore,
+three states (normal, brain-plugged, recovered-but-diminished), the changeling echo,
+and his role in the convergence point (his shop's proximity to telegraph infrastructure).
+Save to characters/wiki/cribbage.md.
+```
+
+**Alt-Sable (Dark Sable)**
+
+```
+/bs
+```
+
+```
+Let's brainstorm Alt-Sable — the dark fairy commander who leads the Titan operation in London.
+She is an alternate-timeline version of Sable who "made the opposite choices at every fork —
+dominance over cooperation, control over trust, power over connection."
+
+I need to explore:
+- The dark mirror principle at every level: light/geometric vs. shadow/organic tech,
+  cooperation vs. dominance, trusted squad vs. brain-plugged conscripts
+- Her command style — how does it parallel Sable's? Same tactical precision, same patience,
+  same hard calls — but her "squad" is brain-plugged humans, not trusted companions
+- What choices diverged? At what fork did Alt-Sable choose power over connection?
+- Her appearance — does she look like Sable? Is the resemblance immediately visible or
+  subtle enough to miss? What does her suit look like (dark mirror of command silver)?
+- Her presence in Volume 1 — she's hidden, but her tactical patterns mirror Sable's.
+  Does Sable sense something familiar about the enemy commander's decisions?
+- The Volume 2+ reveal — when Sable discovers the mirror, every Volume 1 decision recontextualizes
+
+Reference world-building/brainstorm-titan-biology-culture.md,
+world-building/brainstorm-dark-fairy-operations.md,
+and characters/wiki/sable.md (hidden layer section) for existing material.
+```
+
+```
+/wiki
+```
+
+```
+Create a canonical character profile for Alt-Sable (Dark Sable), the dark fairy commander.
+Sources: world-building/brainstorm-titan-biology-culture.md,
+world-building/brainstorm-dark-fairy-operations.md, characters/wiki/sable.md (hidden layer),
+and the Alt-Sable brainstorm.
+Include: identity, physical description (dark mirror of Sable), command style,
+the divergence point, her London operation, parallels with Sable's Volume 1 decisions,
+relationship to the brain-plugged human network, and the planned reveal.
+Mark Volume 2+ content clearly. Use <hidden> tags for spoiler material.
+Save to characters/wiki/alt-sable.md.
+```
+
+**Theodore's Father**
+
+```
+/bs
+```
+
+```
+Let's brainstorm Theodore's father for GrimGlow.
+He runs a printing press in London. Present in the city but absent from daily life.
+"Not absent by choice — absent by circumstance."
+
+I need to explore:
+- His printing operation — what does he print? Broadsheets? Pamphlets? Commercial jobs?
+  Where is the press located relative to Cribbage's workshop and the squad's territory?
+- The absence — mother died (childbirth or disease), father couldn't manage a child and a press.
+  Theodore apprenticed to Cribbage for practical reasons. How often do they see each other?
+  Is there warmth when they do, or has distance calcified?
+- His name — Theodore Edmund Hartley carries parental aspiration. What kind of man names
+  his son that? Someone with ambitions his station hasn't delivered on yet.
+- The convergence mechanism — Theodore's fairy tale + his father's press = printed myth
+  that can survive centuries. Does Theodore bring the story to his father? Does the father
+  print it? This is the propagation engine for the entire convergence point.
+- Theodore's grandmother (his father's mother?) — source of the fairy tales Theodore inherited.
+  What was the father's relationship with her stories? Did he dismiss them or treasure them?
+
+Reference characters/brainstorm-theodore-inner-world.md and characters/wiki/theodore.md
+for existing material.
+```
+
+```
+/wiki
+```
+
+```
+Create a canonical character profile for Theodore's father (name TBD from brainstorm).
+Sources: characters/brainstorm-theodore-inner-world.md, characters/wiki/theodore.md,
+and the father brainstorm.
+Include: name, occupation (printing press operator), physical description,
+personality, relationship with Theodore, the absence and its causes,
+the printing press as convergence mechanism, connection to the grandmother's fairy tales.
+Save to characters/wiki/theodore-father.md.
+```
+
+**The Folklorist**
+
+```
+/bs
+```
+
+```
+Let's brainstorm the Folklorist for GrimGlow — the university academic who codifies
+the fairy tales into permanent published form.
+
+He appears in Issues 10-11 and his pamphlet "The Stories They Tell" shares the volume's title.
+I need to explore:
+- Who is he? Victorian folklorist at a London university — what discipline?
+  (Folklore studies were genuinely emerging in the 1880s — the Folk-Lore Society was founded 1878.)
+- His methodology — does he collect accounts scientifically? Interview witnesses?
+  Compile newspaper clippings? What draws him to these specific sightings?
+- The pamphlet — what does it contain? How is it organized? Fairy sightings (brownies,
+  dancing lights, will-o'-the-wisps) alongside monster sightings (the telegraph demon,
+  shadows that move wrong, the Tall Ones). Two mythologies in one publication.
+- His significance — he transforms scattered oral and journalistic folklore into
+  permanent, academically legitimized text. "The mythology is setting like concrete."
+  He is the mechanism by which ephemeral stories become durable culture.
+- Does he ever encounter the squad directly? Or does he only work from secondhand accounts?
+- His relationship to the convergence point — if Theodore's fairy tale is the origin story,
+  the Folklorist's pamphlet is the academic legitimization that makes it survive.
+
+Reference comic/GrimGlow_Volume1_Plot_Outline.md (Issues 10-11)
+and comic/GrimGlow_Volume1_Script_Prompts.md for existing mentions.
+```
+
+```
+/wiki
+```
+
+```
+Create a canonical character profile for the Folklorist.
+Sources: comic/GrimGlow_Volume1_Plot_Outline.md, comic/GrimGlow_Volume1_Script_Prompts.md,
+and the Folklorist brainstorm.
+Include: name (from brainstorm), university affiliation, physical description,
+methodology, the pamphlet "The Stories They Tell" (contents, publication, impact),
+his role in the folklore codification chain, and his significance to the convergence point.
+Save to characters/wiki/folklorist.md.
+```
+
+#### Tier 2 — Brainstorm + Lore Entries
+
+**Dark Fairy Commanders**
+
+```
+/bs
+```
+
+```
+Let's brainstorm the dark fairy commander faction for GrimGlow.
+Alt-Sable leads, but there are 2-3 subordinate commanders in the London operation.
+These are fairy-sized beings from the diverged Titan civilization who direct
+brain-plugged human foot soldiers.
+
+I need to explore:
+- How many commanders total? What are their specializations?
+  (One for each Titan operation zone? Telegraph, industrial, waterfront?)
+- Their relationship to Alt-Sable — do they serve willingly? Are they also alternate-timeline
+  versions of someone? Or are they a different class of operative?
+- Their tech — inverted fairy tech. What does their communication protocol look like?
+  Encrypted, short-range, shadow-frequency? How do they control the brain-plugged humans?
+- Their visibility in Volume 1 — mostly hidden behind their human muscle.
+  When do they become visible? Do any of them encounter the squad directly?
+- Their cloaking — the same "wrongness" as the Titans, or something subtler at fairy scale?
+
+Reference world-building/brainstorm-dark-fairy-operations.md
+and world-building/brainstorm-titan-biology-culture.md for existing material.
+Output to world-building/ as a brainstorm file.
+```
+
+**Brain-Plugged Humans / Ogre Origin**
+
+```
+/bs
+```
+
+```
+Let's brainstorm the brain-plugged humans as individual characters for GrimGlow.
+There are approximately 5 in the London operation. Each was a person before the device
+went in at the base of the skull.
+
+I need to explore:
+- Who are they specifically? A telegraph operator, a factory hand, a dock laborer —
+  what were their lives before? Names? Families? The horror is that they were people.
+- The brain-plugging process — what does it look like? The device goes in at the base of
+  the skull. The victim's will is overridden. Dark veins spread from the implant site.
+  Eyes develop an iridescent sheen. Skin takes on an oily quality. Movement loses
+  the micro-adjustments of natural motion.
+- Control states — direct command (real-time puppeteering), standing orders (patrol loops),
+  or uncontrolled fugue (when signal is lost). What happens in each state?
+- The changeling echo — "people stolen by dark forces and brought back... changed."
+  When released or when devices fail, they come back wrong. What specifically is lost?
+- The ogre origin — Luma notices the physiological changes map to ogre physiology
+  in the squad's medical databases. The Titans aren't using an existing slave race.
+  They're creating one from humanity across centuries. This is seed material for Volume 2.
+- Cribbage as the specific case study — the named brain-plugged human Theodore knows.
+
+Reference world-building/brainstorm-ogre-origin.md for extensive existing material.
+Output to world-building/ as a brainstorm file.
+```
+
+**Victorian Witness Chain**
+
+```
+/bs
+```
+
+```
+Let's brainstorm the Victorian witness chain for GrimGlow — the humans who see the squad
+and the Titans and generate the folklore that becomes the convergence point.
+
+The chain runs: squad actions → human witnesses → oral retelling → journalism → academic
+codification → printing → permanent mythology. I need to develop each link:
+
+1. THE LAMPLIGHTER (Issue 2) — First witness. Sees will-o'-the-wisps in a rain gutter.
+   Crosses himself. Tells someone at the pub. What kind of man? Superstitious? Practical?
+   Does he believe what he saw or rationalize it?
+
+2. THE CLOCKMAKER (Issue 5) — Clerkenwell shop owner, not Cribbage. Finds a tiny handprint
+   in oil on his workbench. Tells his wife a brownie visited. Leaves out a saucer of milk.
+   What kind of man leaves milk for a brownie? Educated? Traditional? Charmed?
+
+3. THE LIGHTHOUSE KEEPER (Issue 7) — Reports dancing lights in the gallery to harbor authority.
+   Harbor men dismiss it as drink. What kind of man makes an official report about fairy lights?
+   Conscientious? Stubborn? Does he know how it sounds?
+
+4. THE JOURNALIST (Issues 7, 10) — Notes down the keeper's report. Later writes about the
+   "telegraph demon." Bridges oral folklore to print media. What paper? What beat?
+   Sensationalist or earnest? Does he believe any of it?
+
+5. THE CHILD (Issue 8) — Younger than Theodore. Wanders into Thresh's alley. Sees Thresh
+   and isn't afraid. Reaches out a hand. Parent calls them away. Does the child tell anyone?
+   Does this become a story? "I saw a tiny red knight in the alley."
+
+6. THEODORE'S FRIENDS (ongoing) — Peers who hear Theodore's accounts and repeat them.
+   Childhood folklore transmission — the most unreliable and the most durable.
+
+How do these individual sightings compound into a cultural phenomenon that the Folklorist
+can collect? What's the tipping point where scattered stories become shared mythology?
+
+Reference comic/GrimGlow_Volume1_Plot_Outline.md for all witness appearances.
+Output to world-building/ as a brainstorm file.
+```
+
+**Prior Operatives**
+
+```
+/bs
+```
+
+```
+Let's brainstorm the prior operatives for GrimGlow — the previous fairy teams sent
+to the convergence point before the current squad.
+
+The evidence chain: old fairy glyphs across London (Issue 4), a sealed church basement
+cache containing a corroded wing-pack, a dead data core, and the carved word "STAY" (Issue 8).
+Sable's mission file references "prior insertions — none of whom reported back" (Issue 9).
+
+I need to explore:
+- How many teams? One? Several across centuries? A single long-lived operative?
+- When were they sent? Decades before the squad? Centuries? The church foundation legends
+  suggest the "good folk" were present when the church was built — how old is that?
+- What was their mission? The same as the squad's (intervention at the convergence point)?
+  Or reconnaissance that evolved into something else?
+- Why didn't they report back? Did they choose to stay? Were they ordered to? Did they die?
+  The word "STAY" has four readings: confirmation, horror, self-portrait, evidence.
+- What happened to them physically? The corroded wing-pack and dead data core suggest
+  they lived and died here. Are there descendants? Bones? Other caches?
+- The fairy glyphs at human height — someone was communicating with humans. Who? Why?
+  Was this an earlier version of the Theodore relationship?
+- How does this connect to the local folklore about "the good folk" blessing the church site?
+  The prior operatives ARE the old fairy tales, just as the current squad is the new ones.
+
+Reference comic/GrimGlow_Volume1_Plot_Outline.md (Issues 4, 6, 8, 9),
+world-building/brainstorm-temporal-mechanics.md,
+and characters/brainstorm-luma-temptation.md for existing material.
+Output to world-building/ as a brainstorm file.
+```
+
+#### Tier 3
+
+Tier 3 characters (Theodore's mother, grandmother, clockmaker's wife, harbor men, child's parent, Theodore's peers) are developed organically within the Tier 1 and Tier 2 brainstorms above — no dedicated prompts needed.
 
 ---
 
