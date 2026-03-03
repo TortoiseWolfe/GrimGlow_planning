@@ -18,7 +18,7 @@
 ## Canon Anchors — What's Already Established
 
 **Identity:**
-- Late teens/early twenties, lean androgynous build, light brown skin, wild dark curly hair (Character Prompts, Turnarounds)
+- Late teens/early twenties, lean androgynous build, light brown skin, wild bright golden blonde curly hair, emerald metallic suit (Character Prompts, Turnarounds)
 - Uses they/them pronouns (Script Prompts)
 - Callsign: "a jink is a military aviation term — a sudden, sharp evasive maneuver — earned as a callsign by the squad's most unpredictable pilot" (Story Bible)
 - "Built for speed and agility" — long limbs, narrow waist (Turnarounds)
