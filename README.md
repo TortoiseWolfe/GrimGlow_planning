@@ -17,10 +17,13 @@ docs/
   GrimGlow_Story_Bible.md              — Core IP: concept, characters, visual language, three-layer plot
   GrimGlow_Product_Design_Requirements.md — Unity game tech design: AI, scale, stealth/combat, rendering
   GrimGlow_Two_Phase_Development_Plan.md  — Phase 1 Three.js browser → Phase 2 Unity PC game
+  style-guide.md                       — Prose style guide for consistent narrative voice
 
 characters/
   GrimGlow_Character_Prompts.md        — Painterly art prompts (Sable, Wren, Jink, Thresh, Luma, Theodore)
   GrimGlow_Character_Turnarounds.md    — Meshy.ai 3D model reference sheets
+  wiki/                                — Canonical character reference pages (one per character)
+  brainstorms/                         — Working brainstorm documents (14 files)
 
 comic/
   GrimGlow_Volume1_Plot_Outline.md     — 12-issue plot outline, three-act structure
@@ -28,11 +31,14 @@ comic/
   GrimGlow_Volume1_Issue_Prompts.md    — Cover/key moment art prompts per issue
 
 concept-art/
-  GrimGlow_Concept_Sable.png
-  GrimGlow_Concept_Wren.png
-  GrimGlow_Concept_Jink.png
-  GrimGlow_Concept_Thresh.png
-  GrimGlow_Concept_Luma.png
+  Sable/, Wren/, Jink/, Thresh/, Luma/, Theodore/ — Per-character concept art + turnarounds
+  reference/                           — Historical reference photos
+
+world-building/
+  meshy-environment-prompts.md         — 142 Meshy.ai 3D component prompts (21 sections)
+  maps/                                — Booth, Goad, Stanford, LIDAR heightmap data
+  reference-photos/                    — Victorian London reference photographs
+  brainstorms/                         — Working brainstorm documents (11 files)
 
 CLAUDE.md                              — Project instructions for Claude Code
 ```
@@ -148,7 +154,7 @@ Reference the three-layer plot in docs/GrimGlow_Story_Bible.md.
 
 Brainstormed backstories and voice, then formalized into wiki-style profiles for all six main characters.
 
-**Output:** Brainstorm notes in `characters/brainstorm-*.md`; wiki pages in `characters/wiki/` (sable, wren, jink, thresh, luma, theodore).
+**Output:** Brainstorm notes in `characters/brainstorms/brainstorm-*.md`; wiki pages in `characters/wiki/` (sable, wren, jink, thresh, luma, theodore).
 
 <details>
 <summary>Archived — brainstorm prompts used in prior sessions</summary>
@@ -356,7 +362,7 @@ Save to characters/wiki/theodore.md.
 
 Created a GrimGlow prose style guide using `cw-style-skill-creator`. The guide covers prose texture, dual lighting, scale contrast, degradation arc, fairy tech, Titan description, and all six character voices.
 
-**Output:** `style-guide.md` at repo root.
+**Output:** `docs/style-guide.md` at repo root.
 
 <details>
 <summary>Archived — prompt used in prior session</summary>
@@ -380,7 +386,7 @@ The style should capture:
   Jink: fast/reckless, Thresh: military bluntness masking fear, Luma: precise observation,
   Theodore: Victorian earnestness)
 
-Output as a style guide markdown file at style-guide.md.
+Output as a style guide markdown file at docs/style-guide.md.
 ```
 
 </details>
@@ -404,7 +410,7 @@ Reference:
 - docs/GrimGlow_Story_Bible.md for visual language and character voices
 - comic/GrimGlow_Volume1_Plot_Outline.md for plot beats
 - characters/GrimGlow_Character_Prompts.md for visual descriptions
-- style-guide.md for prose style
+- docs/style-guide.md for prose style
 
 Page budget:
 - Pages 1-4: Future spaceship, routine mission, ambush, temporal corridor collapse
@@ -491,7 +497,7 @@ For longer prose or scripts that need systematic improvement, use the 6-phase pr
 Run the prose revision pipeline on comic/scripts/issue-01-descent.md.
 This is a comic script for a painterly, textured IP.
 Priority areas: dialogue voice distinction, visual description density,
-and consistency with the GrimGlow style guide at style-guide.md.
+and consistency with the GrimGlow style guide at docs/style-guide.md.
 ```
 
 The pipeline runs six phases automatically:
@@ -550,7 +556,7 @@ Develop the GrimGlow novelization of Volume 1 (Issues 1-12).
 Source material: comic/GrimGlow_Volume1_Plot_Outline.md
 Character references: characters/GrimGlow_Character_Prompts.md
 World rules: docs/GrimGlow_Story_Bible.md
-Style: style-guide.md
+Style: docs/style-guide.md
 ```
 
 ---
@@ -577,7 +583,7 @@ Style: style-guide.md
 Prioritized checklist of content to develop:
 
 - [x] **Character profiles (main six)** — Wiki pages for Sable, Wren, Jink, Thresh, Luma, Theodore (`characters/wiki/`)
-- [x] **GrimGlow style guide** — Prose style skill derived from Story Bible visual language (`style-guide.md`)
+- [x] **GrimGlow style guide** — Prose style skill derived from Story Bible visual language (`docs/style-guide.md`)
 - [ ] **Secondary character profiles** — See tier list below
 - [ ] **World wiki pages** — Locations (London at fairy scale, the wreckage, Theodore's workshop), tech systems (fairy tech rules, steampunk tech rules), faction lore (Titans, prior operatives)
 - [ ] **Comic Issue 1 script** — Full 22-page script; test the entire pipeline end-to-end
@@ -652,7 +658,7 @@ He needs three states across Volume 1:
    The origin of changeling stories. What specifically is lost? Fine motor skills (a clockmaker
    who can't hold a tool)? Memory gaps? Emotional flatness? Does he remember Theodore differently?
 
-Reference characters/brainstorm-theodore-inner-world.md, world-building/brainstorm-ogre-origin.md,
+Reference characters/brainstorms/brainstorm-theodore-inner-world.md, world-building/brainstorms/brainstorm-ogre-origin.md,
 and characters/wiki/theodore.md for existing material on Cribbage.
 ```
 
@@ -662,7 +668,7 @@ and characters/wiki/theodore.md for existing material on Cribbage.
 
 ```
 Create a canonical character profile for Mr. Cribbage, Theodore's clockmaker master.
-Sources: world-building/brainstorm-ogre-origin.md, characters/brainstorm-theodore-inner-world.md,
+Sources: world-building/brainstorms/brainstorm-ogre-origin.md, characters/brainstorms/brainstorm-theodore-inner-world.md,
 characters/wiki/theodore.md, comic/GrimGlow_Volume1_Plot_Outline.md, and the Cribbage brainstorm.
 Include: physical description, personality, workshop details, relationship with Theodore,
 three states (normal, brain-plugged, recovered-but-diminished), the changeling echo,
@@ -693,8 +699,8 @@ I need to explore:
   Does Sable sense something familiar about the enemy commander's decisions?
 - The Volume 2+ reveal — when Sable discovers the mirror, every Volume 1 decision recontextualizes
 
-Reference world-building/brainstorm-titan-biology-culture.md,
-world-building/brainstorm-dark-fairy-operations.md,
+Reference world-building/brainstorms/brainstorm-titan-biology-culture.md,
+world-building/brainstorms/brainstorm-dark-fairy-operations.md,
 and characters/wiki/sable.md (hidden layer section) for existing material.
 ```
 
@@ -704,8 +710,8 @@ and characters/wiki/sable.md (hidden layer section) for existing material.
 
 ```
 Create a canonical character profile for Alt-Sable (Dark Sable), the dark fairy commander.
-Sources: world-building/brainstorm-titan-biology-culture.md,
-world-building/brainstorm-dark-fairy-operations.md, characters/wiki/sable.md (hidden layer),
+Sources: world-building/brainstorms/brainstorm-titan-biology-culture.md,
+world-building/brainstorms/brainstorm-dark-fairy-operations.md, characters/wiki/sable.md (hidden layer),
 and the Alt-Sable brainstorm.
 Include: identity, physical description (dark mirror of Sable), command style,
 the divergence point, her London operation, parallels with Sable's Volume 1 decisions,
@@ -739,7 +745,7 @@ I need to explore:
 - Theodore's grandmother (his father's mother?) — source of the fairy tales Theodore inherited.
   What was the father's relationship with her stories? Did he dismiss them or treasure them?
 
-Reference characters/brainstorm-theodore-inner-world.md and characters/wiki/theodore.md
+Reference characters/brainstorms/brainstorm-theodore-inner-world.md and characters/wiki/theodore.md
 for existing material.
 ```
 
@@ -749,7 +755,7 @@ for existing material.
 
 ```
 Create a canonical character profile for Theodore's father (name TBD from brainstorm).
-Sources: characters/brainstorm-theodore-inner-world.md, characters/wiki/theodore.md,
+Sources: characters/brainstorms/brainstorm-theodore-inner-world.md, characters/wiki/theodore.md,
 and the father brainstorm.
 Include: name, occupation (printing press operator), physical description,
 personality, relationship with Theodore, the absence and its causes,
@@ -826,8 +832,8 @@ I need to explore:
   When do they become visible? Do any of them encounter the squad directly?
 - Their cloaking — the same "wrongness" as the Titans, or something subtler at fairy scale?
 
-Reference world-building/brainstorm-dark-fairy-operations.md
-and world-building/brainstorm-titan-biology-culture.md for existing material.
+Reference world-building/brainstorms/brainstorm-dark-fairy-operations.md
+and world-building/brainstorms/brainstorm-titan-biology-culture.md for existing material.
 Output to world-building/ as a brainstorm file.
 ```
 
@@ -858,7 +864,7 @@ I need to explore:
   They're creating one from humanity across centuries. This is seed material for Volume 2.
 - Cribbage as the specific case study — the named brain-plugged human Theodore knows.
 
-Reference world-building/brainstorm-ogre-origin.md for extensive existing material.
+Reference world-building/brainstorms/brainstorm-ogre-origin.md for extensive existing material.
 Output to world-building/ as a brainstorm file.
 ```
 
@@ -935,8 +941,8 @@ I need to explore:
   The prior operatives ARE the old fairy tales, just as the current squad is the new ones.
 
 Reference comic/GrimGlow_Volume1_Plot_Outline.md (Issues 4, 6, 8, 9),
-world-building/brainstorm-temporal-mechanics.md,
-and characters/brainstorm-luma-temptation.md for existing material.
+world-building/brainstorms/brainstorm-temporal-mechanics.md,
+and characters/brainstorms/brainstorm-luma-temptation.md for existing material.
 Output to world-building/ as a brainstorm file.
 ```
 

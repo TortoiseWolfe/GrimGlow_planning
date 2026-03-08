@@ -238,9 +238,9 @@ This gives Luma a devastating new dimension to her temptation to stay. The stake
 - Script Prompts (`comic/GrimGlow_Volume1_Script_Prompts.md`) -- Voice guidance, dialogue notes per issue
 - Character Prompts (`characters/GrimGlow_Character_Prompts.md`) -- Action pose description
 - Character Turnarounds (`characters/GrimGlow_Character_Turnarounds.md`) -- Clean and mid-mission visual descriptions
-- Luma Temptation brainstorm (`characters/brainstorm-luma-temptation.md`) -- Temptation arc, evidence accumulation, motivated reasoning, voice
-- Squad Voice Tics brainstorm (`characters/brainstorm-squad-voice-tics.md`) -- "But what if--" qualifying questions, three-verb arc
-- Suit Color Coding brainstorm (`characters/brainstorm-suit-color-coding.md`) -- Sapphire/violet department color, fairy tale echo naming
-- Sable Backstory brainstorm (`characters/brainstorm-sable-backstory.md`) -- Sable/Luma parallel puzzle dynamic
-- Theodore Inner World brainstorm (`characters/brainstorm-theodore-inner-world.md`) -- Investigation partnership
-- Ogre Origin brainstorm (`world-building/brainstorm-ogre-origin.md`) -- Evolutionary fork, brain-plugged human biology
+- Luma Temptation brainstorm (`characters/brainstorms/brainstorm-luma-temptation.md`) -- Temptation arc, evidence accumulation, motivated reasoning, voice
+- Squad Voice Tics brainstorm (`characters/brainstorms/brainstorm-squad-voice-tics.md`) -- "But what if--" qualifying questions, three-verb arc
+- Suit Color Coding brainstorm (`characters/brainstorms/brainstorm-suit-color-coding.md`) -- Sapphire/violet department color, fairy tale echo naming
+- Sable Backstory brainstorm (`characters/brainstorms/brainstorm-sable-backstory.md`) -- Sable/Luma parallel puzzle dynamic
+- Theodore Inner World brainstorm (`characters/brainstorms/brainstorm-theodore-inner-world.md`) -- Investigation partnership
+- Ogre Origin brainstorm (`world-building/brainstorms/brainstorm-ogre-origin.md`) -- Evolutionary fork, brain-plugged human biology

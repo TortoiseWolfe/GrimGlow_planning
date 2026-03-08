@@ -213,13 +213,13 @@ Open questions:
 
 | Document | Relevance |
 |----------|-----------|
-| `world-building/brainstorm-steampunk-tech-rules.md` | Full component list (Section 2), adaptation process (Section 5), Wren's interaction spectrum (Section 3), toolkit degradation |
+| `world-building/brainstorms/brainstorm-steampunk-tech-rules.md` | Full component list (Section 2), adaptation process (Section 5), Wren's interaction spectrum (Section 3), toolkit degradation |
 | `comic/GrimGlow_Volume1_Plot_Outline.md` | Heist issue details (5, 7, 10), ship status quotes, Theodore's role, degradation arc |
 | `comic/GrimGlow_Volume1_Script_Prompts.md` | Specific heist page breakdowns, Wren's component list scene (Issue 2), Theodore diversion details |
-| `characters/brainstorm-wren-technology.md` | Admiration arc beats, three-tier reaction spectrum, voice, toolkit choices |
-| `characters/brainstorm-theodore-inner-world.md` | Theodore's workshop context, Cribbage relationship, errand patterns, two-workshop background |
-| `characters/brainstorm-jink-theodore-relationship.md` | Theodore's role in acquisition, charging cradle, growing operational value |
-| `world-building/brainstorm-fairy-scale-geography.md` | Location details for Clerkenwell, Trinity Buoy Wharf, telegraph infrastructure |
+| `characters/brainstorms/brainstorm-wren-technology.md` | Admiration arc beats, three-tier reaction spectrum, voice, toolkit choices |
+| `characters/brainstorms/brainstorm-theodore-inner-world.md` | Theodore's workshop context, Cribbage relationship, errand patterns, two-workshop background |
+| `characters/brainstorms/brainstorm-jink-theodore-relationship.md` | Theodore's role in acquisition, charging cradle, growing operational value |
+| `world-building/brainstorms/brainstorm-fairy-scale-geography.md` | Location details for Clerkenwell, Trinity Buoy Wharf, telegraph infrastructure |
 
 ---
 

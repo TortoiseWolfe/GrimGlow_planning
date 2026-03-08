@@ -211,10 +211,10 @@ Titan deployment (partially canon, partially open):
 
 ## Cross-References
 
-- **Ogre Origin** (`world-building/brainstorm-ogre-origin.md`) — Brain-plug concept, Titan device implantation process, victim selection, fugue state behavior, changeling folklore connection
-- **Titan Biology & Culture** (`world-building/brainstorm-titan-biology-culture.md`) — Two-tier structure, commander/victim dynamics, communication methods, alt-Sable reveal
-- **Fairy-Scale Geography** (`world-building/brainstorm-fairy-scale-geography.md`) — The three operation zones (Clerkenwell, Bermondsey, Wapping), Titan threat zones, squad operating area
-- **Steampunk Tech Rules** (`world-building/brainstorm-steampunk-tech-rules.md`) — Telegraph network topology, Titan device placement, relay stations, how Wren counters the devices, visual language for the device
+- **Ogre Origin** (`world-building/brainstorms/brainstorm-ogre-origin.md`) — Brain-plug concept, Titan device implantation process, victim selection, fugue state behavior, changeling folklore connection
+- **Titan Biology & Culture** (`world-building/brainstorms/brainstorm-titan-biology-culture.md`) — Two-tier structure, commander/victim dynamics, communication methods, alt-Sable reveal
+- **Fairy-Scale Geography** (`world-building/brainstorms/brainstorm-fairy-scale-geography.md`) — The three operation zones (Clerkenwell, Bermondsey, Wapping), Titan threat zones, squad operating area
+- **Steampunk Tech Rules** (`world-building/brainstorms/brainstorm-steampunk-tech-rules.md`) — Telegraph network topology, Titan device placement, relay stations, how Wren counters the devices, visual language for the device
 - **Volume 1 Plot Outline** (`comic/GrimGlow_Volume1_Plot_Outline.md`) — Issues 10-12 canon beats, device discovery, network revelation, the operation, Theodore's disarm
 - **Volume 1 Script Prompts** (`comic/GrimGlow_Volume1_Script_Prompts.md`) — Issue 10-12 page budgets, "sickly amber-black light" description, "Titan drone" term, "technician not a brute"
 - **Story Bible** (`docs/GrimGlow_Story_Bible.md`) — Titan visual language ("dark mirror," oil-on-water iridescence, shadow and organic), three-layer plot structure, brain-plug concept in enemy overview

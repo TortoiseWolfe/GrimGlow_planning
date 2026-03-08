@@ -217,9 +217,9 @@ Jink's reckless contact does not just create a friendship. It creates the founda
 - Script Prompts (`comic/GrimGlow_Volume1_Script_Prompts.md`) -- Voice guidance, dialogue notes, emotional resonance notes
 - Character Prompts (`characters/GrimGlow_Character_Prompts.md`) -- Action pose description
 - Character Turnarounds (`characters/GrimGlow_Character_Turnarounds.md`) -- Clean and mid-mission visual descriptions
-- Jink Recklessness brainstorm (`characters/brainstorm-jink-recklessness.md`) -- Recklessness origins, weight sequence, collecting, hidden significance
-- Jink-Theodore Relationship brainstorm (`characters/brainstorm-jink-theodore-relationship.md`) -- Bond arc, what each offers, voice contrast, hidden symmetry
-- Squad Voice Tics brainstorm (`characters/brainstorm-squad-voice-tics.md`) -- "Okay but" filler, verbal habits
-- Suit Color Coding brainstorm (`characters/brainstorm-suit-color-coding.md`) -- Emerald metallic department color
-- Sable Backstory brainstorm (`characters/brainstorm-sable-backstory.md`) -- Sable/Jink authority tension
-- Theodore Inner World brainstorm (`characters/brainstorm-theodore-inner-world.md`) -- Theodore register shifts with Jink
+- Jink Recklessness brainstorm (`characters/brainstorms/brainstorm-jink-recklessness.md`) -- Recklessness origins, weight sequence, collecting, hidden significance
+- Jink-Theodore Relationship brainstorm (`characters/brainstorms/brainstorm-jink-theodore-relationship.md`) -- Bond arc, what each offers, voice contrast, hidden symmetry
+- Squad Voice Tics brainstorm (`characters/brainstorms/brainstorm-squad-voice-tics.md`) -- "Okay but" filler, verbal habits
+- Suit Color Coding brainstorm (`characters/brainstorms/brainstorm-suit-color-coding.md`) -- Emerald metallic department color
+- Sable Backstory brainstorm (`characters/brainstorms/brainstorm-sable-backstory.md`) -- Sable/Jink authority tension
+- Theodore Inner World brainstorm (`characters/brainstorms/brainstorm-theodore-inner-world.md`) -- Theodore register shifts with Jink

@@ -209,10 +209,10 @@ The telegraph argument she lost to herself: In Issue 12, Wren pushes back on Lum
 - Script Prompts (`comic/GrimGlow_Volume1_Script_Prompts.md`) -- Voice guidance, dialogue notes per issue
 - Character Prompts (`characters/GrimGlow_Character_Prompts.md`) -- Action pose description
 - Character Turnarounds (`characters/GrimGlow_Character_Turnarounds.md`) -- Clean and mid-mission visual descriptions
-- Wren Technology brainstorm (`characters/brainstorm-wren-technology.md`) -- Admiration arc, three-tier reaction spectrum, voice, paradox layer
-- Squad Voice Tics brainstorm (`characters/brainstorm-squad-voice-tics.md`) -- Quantifying tic, diagnostic narration
-- Suit Color Coding brainstorm (`characters/brainstorm-suit-color-coding.md`) -- Copper metallic department color
-- Steampunk Tech Rules brainstorm (`world-building/brainstorm-steampunk-tech-rules.md`) -- Three-tier reaction spectrum, adaptation process
-- Ship Repair Chain brainstorm (`world-building/brainstorm-ship-repair-chain.md`) -- Component list, heist logistics, repair milestones
-- Sable Backstory brainstorm (`characters/brainstorm-sable-backstory.md`) -- Sable/Wren authority tension
-- Theodore Inner World brainstorm (`characters/brainstorm-theodore-inner-world.md`) -- Theodore/Wren technical bond
+- Wren Technology brainstorm (`characters/brainstorms/brainstorm-wren-technology.md`) -- Admiration arc, three-tier reaction spectrum, voice, paradox layer
+- Squad Voice Tics brainstorm (`characters/brainstorms/brainstorm-squad-voice-tics.md`) -- Quantifying tic, diagnostic narration
+- Suit Color Coding brainstorm (`characters/brainstorms/brainstorm-suit-color-coding.md`) -- Copper metallic department color
+- Steampunk Tech Rules brainstorm (`world-building/brainstorms/brainstorm-steampunk-tech-rules.md`) -- Three-tier reaction spectrum, adaptation process
+- Ship Repair Chain brainstorm (`world-building/brainstorms/brainstorm-ship-repair-chain.md`) -- Component list, heist logistics, repair milestones
+- Sable Backstory brainstorm (`characters/brainstorms/brainstorm-sable-backstory.md`) -- Sable/Wren authority tension
+- Theodore Inner World brainstorm (`characters/brainstorms/brainstorm-theodore-inner-world.md`) -- Theodore/Wren technical bond

@@ -71,6 +71,10 @@ Father is alive, runs a printing press. Works long hours. Present in the city bu
 
 Theodore's grandmother told him fairy tales -- the source of his fairy mythology, the frame he puts around Jink when they meet. In Issue 9 he tells the squad "a story his grandmother told him -- about a fairy queen who sent her knights on a quest, but the quest was a riddle, and the answer was that they were already where they needed to be." The fairy tales are inheritance. They are what Theodore has left of her. (Source: Plot Outline, Issue 9; Theodore Inner World brainstorm)
 
+### The Shoe-Shine Alcove
+
+Theodore earns extra pennies shining shoes from a tiny recessed alcove at street level, beneath a grocer's shop front on a Clerkenwell side street. He sits on an upturned crate at pavement height -- invisible to the adult world, but eye-level with the cast-iron storm drain grate beside him. This is the first contact point: Theodore notices faint blue-white light in the drain, hears sounds too deliberate to be rats, and eventually sees a tiny armored figure staring up at him through the iron bars. He discovers the fairies not because he is chosen, but because he is the only person in London who sits at drain-grate height for hours at a time. The alcove is semi-private -- recessed into the building facade -- so Theodore can lean toward the grate and whisper without passers-by noticing. (Source: Theodore Shoe-Shine brainstorm; visual reference: "The Smallest Shop in London" c. 1900)
+
 ### The Two Workshops
 
 Theodore moves between two worlds of making. Cribbage's clockshop: clocks, mechanisms, precision -- one makes time. His father's printing press: words, ink, paper, type -- the other makes stories. Both are vocabularies of making. The two workshops converge in Theodore at Issue 12, when his clockwork hands disarm the device and then he writes the story. (Source: Theodore Inner World brainstorm)
@@ -249,7 +253,7 @@ The hidden symmetry with Jink: Jink's unauthorized contact with Theodore in Issu
 - Script Prompts (`comic/GrimGlow_Volume1_Script_Prompts.md`) -- Voice guidance, dialogue notes per issue
 - Character Prompts (`characters/GrimGlow_Character_Prompts.md`) -- Action pose description
 - Character Turnarounds (`characters/GrimGlow_Character_Turnarounds.md`) -- Physical reference sheet
-- Theodore Inner World brainstorm (`characters/brainstorm-theodore-inner-world.md`) -- Backstory, personality, arc, voice, "something better"
-- Jink-Theodore Relationship brainstorm (`characters/brainstorm-jink-theodore-relationship.md`) -- Bond progression, what each offers, hidden symmetry
-- Squad Voice Tics brainstorm (`characters/brainstorm-squad-voice-tics.md`) -- Mechanical metaphors, register shifts, storytelling voice
-- Ogre Origin brainstorm (`world-building/brainstorm-ogre-origin.md`) -- Theodore and Mr. Cribbage
+- Theodore Inner World brainstorm (`characters/brainstorms/brainstorm-theodore-inner-world.md`) -- Backstory, personality, arc, voice, "something better"
+- Jink-Theodore Relationship brainstorm (`characters/brainstorms/brainstorm-jink-theodore-relationship.md`) -- Bond progression, what each offers, hidden symmetry
+- Squad Voice Tics brainstorm (`characters/brainstorms/brainstorm-squad-voice-tics.md`) -- Mechanical metaphors, register shifts, storytelling voice
+- Ogre Origin brainstorm (`world-building/brainstorms/brainstorm-ogre-origin.md`) -- Theodore and Mr. Cribbage

@@ -238,8 +238,8 @@ The full scope of this -- that brain-plugging is the origin of an entire species
 - Script Prompts (`comic/GrimGlow_Volume1_Script_Prompts.md`) -- Voice guidance, silence beats, "the silence IS the character beat"
 - Character Prompts (`characters/GrimGlow_Character_Prompts.md`) -- Action pose description
 - Character Turnarounds (`characters/GrimGlow_Character_Turnarounds.md`) -- Clean and mid-mission visual descriptions
-- Thresh Fear Arc brainstorm (`characters/brainstorm-thresh-fear-arc.md`) -- Comprehensive fear arc, manifestation, turning points
-- Squad Voice Tics brainstorm (`characters/brainstorm-squad-voice-tics.md`) -- Late joke, compression, operational vocabulary
-- Suit Color Coding brainstorm (`characters/brainstorm-suit-color-coding.md`) -- Ruby/crimson metallic department color
-- Sable Backstory brainstorm (`characters/brainstorm-sable-backstory.md`) -- Sable/Thresh dynamic
-- Ogre Origin Lore brainstorm (`world-building/brainstorm-ogre-origin-lore.md`) -- Brain-plugged humans, moral dimension of combat
+- Thresh Fear Arc brainstorm (`characters/brainstorms/brainstorm-thresh-fear-arc.md`) -- Comprehensive fear arc, manifestation, turning points
+- Squad Voice Tics brainstorm (`characters/brainstorms/brainstorm-squad-voice-tics.md`) -- Late joke, compression, operational vocabulary
+- Suit Color Coding brainstorm (`characters/brainstorms/brainstorm-suit-color-coding.md`) -- Ruby/crimson metallic department color
+- Sable Backstory brainstorm (`characters/brainstorms/brainstorm-sable-backstory.md`) -- Sable/Thresh dynamic
+- Ogre Origin Lore brainstorm (`world-building/brainstorms/brainstorm-ogre-origin-lore.md`) -- Brain-plugged humans, moral dimension of combat

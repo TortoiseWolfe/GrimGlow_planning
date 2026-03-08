@@ -143,8 +143,8 @@ This reinforces the Volume 1 theme: the squad isn't just the origin of fairy sto
 - Evolutionary fork: planted in Vol 1, resolved in Vol 2
 
 **Cross-references:**
-- Titan Biology & Culture (`world-building/brainstorm-titan-biology-culture.md`) — two-tier faction, dark fairy commanders unchanged
-- Dark Fairy Operations (`world-building/brainstorm-dark-fairy-operations.md`) — ogre deployment, control mechanics
-- Theodore's Inner World (`characters/brainstorm-theodore-inner-world.md`) — Cribbage relationship
-- Luma's Temptation (`characters/brainstorm-luma-temptation.md`) — evolutionary fork observation
-- Thresh's Fear Arc (`characters/brainstorm-thresh-fear-arc.md`) — fighting people, not aliens
+- Titan Biology & Culture (`world-building/brainstorms/brainstorm-titan-biology-culture.md`) — two-tier faction, dark fairy commanders unchanged
+- Dark Fairy Operations (`world-building/brainstorms/brainstorm-dark-fairy-operations.md`) — ogre deployment, control mechanics
+- Theodore's Inner World (`characters/brainstorms/brainstorm-theodore-inner-world.md`) — Cribbage relationship
+- Luma's Temptation (`characters/brainstorms/brainstorm-luma-temptation.md`) — evolutionary fork observation
+- Thresh's Fear Arc (`characters/brainstorms/brainstorm-thresh-fear-arc.md`) — fighting people, not aliens

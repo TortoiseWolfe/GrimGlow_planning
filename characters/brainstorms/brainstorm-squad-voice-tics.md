@@ -322,13 +322,13 @@ Operational reports — shortest exchanges, most information. "Both brief. Sable
 | Document | What It Provides |
 |----------|-----------------|
 | `comic/GrimGlow_Volume1_Script_Prompts.md` | Dialogue Notes for all 12 issues — primary voice canon |
-| `characters/brainstorm-sable-backstory.md` | Section 5: Voice, contraction tell, silence, mask slips |
-| `characters/brainstorm-wren-technology.md` | Section 4: Voice, diagnostics, humor, machine-talk |
-| `characters/brainstorm-jink-recklessness.md` | Section 5: Voice, speed, fragments, nicknames, silence |
-| `characters/brainstorm-jink-theodore-relationship.md` | Section 3: Voice contrast, culture clash, shared vocabulary |
-| `characters/brainstorm-thresh-fear-arc.md` | Section 5: Voice, compression, operational vocabulary, negatives |
-| `characters/brainstorm-luma-temptation.md` | Section 4: Voice, questions as instruments, three-verb arc |
-| `characters/brainstorm-theodore-inner-world.md` | Section 5: Voice, Victorian speech, trade vocabularies, register shifts |
+| `characters/brainstorms/brainstorm-sable-backstory.md` | Section 5: Voice, contraction tell, silence, mask slips |
+| `characters/brainstorms/brainstorm-wren-technology.md` | Section 4: Voice, diagnostics, humor, machine-talk |
+| `characters/brainstorms/brainstorm-jink-recklessness.md` | Section 5: Voice, speed, fragments, nicknames, silence |
+| `characters/brainstorms/brainstorm-jink-theodore-relationship.md` | Section 3: Voice contrast, culture clash, shared vocabulary |
+| `characters/brainstorms/brainstorm-thresh-fear-arc.md` | Section 5: Voice, compression, operational vocabulary, negatives |
+| `characters/brainstorms/brainstorm-luma-temptation.md` | Section 4: Voice, questions as instruments, three-verb arc |
+| `characters/brainstorms/brainstorm-theodore-inner-world.md` | Section 5: Voice, Victorian speech, trade vocabularies, register shifts |
 | `docs/GrimGlow_Story_Bible.md` | Character descriptions, voice baselines |
 
 ---

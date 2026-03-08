@@ -381,7 +381,7 @@ This gives Luma a devastating new dimension to her temptation to stay:
 
 **Luma notices the ogre-biology markers in Issue 10** — LOCKED. First close encounter with a brain-plugged human during "The Titan." She scans during or after the encounter. Natural moment — she's in investigation mode with scanner access. She files it, doesn't share. Seed planted for Volume 2.
 
-**Cross-reference:** ogre origin brainstorm (`world-building/brainstorm-ogre-origin.md`) — full evolutionary fork details
+**Cross-reference:** ogre origin brainstorm (`world-building/brainstorms/brainstorm-ogre-origin.md`) — full evolutionary fork details
 
 ---
 

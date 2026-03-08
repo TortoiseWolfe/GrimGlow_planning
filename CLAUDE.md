@@ -15,18 +15,33 @@ docs/                  — Authoritative design documents (.md)
   Story_Bible          — Core IP: concept, characters, visual language, three-layer plot (Survival, Enemy, Paradox). Read this first.
   Product_Design_Requirements — Unity game tech design: AI architecture, scale system, stealth/combat, rendering.
   Two_Phase_Development_Plan  — Phase 1 Three.js browser prologue → Phase 2 Unity PC game. Shared Meshy.ai asset pipeline.
+  style-guide          — Prose style guide for consistent narrative voice across all documents.
 
 characters/            — Character reference prompts (.md)
   Character_Prompts    — Mid-mission painterly art prompts (Sable, Wren, Jink, Thresh, Luma, Theodore).
   Character_Turnarounds — Meshy.ai 3D model reference sheets. Clean suit + mid-mission variants, wing-pack detail sheet.
+  wiki/                — Canonical character reference pages (one per character).
+  brainstorms/         — Working brainstorm documents for character development and relationships.
 
 comic/                 — Volume 1 comic production files (.md)
   Volume1_Plot_Outline   — 12-issue plot outline, three-act structure, per-issue breakdowns, character arcs, fairy tale echoes.
   Volume1_Script_Prompts — Full 22-page script generation prompts for all 12 issues. Feed alongside reference docs for complete scripts.
   Volume1_Issue_Prompts  — Painterly cover/key moment art prompts per issue.
 
-concept-art/           — Character concept art (.png)
-  Concept_Sable, Concept_Wren, Concept_Jink, Concept_Thresh, Concept_Luma
+concept-art/           — Character concept art and turnarounds (.png/.jpg)
+  Sable/               — Concept art + turnarounds for Sable
+  Wren/                — Concept art + turnarounds for Wren
+  Jink/                — Concept art + turnarounds for Jink
+  Thresh/              — Concept art + turnarounds for Thresh
+  Luma/                — Concept art + turnarounds for Luma
+  Theodore/            — Turnarounds for Theodore
+  reference/           — Historical reference photos
+
+world-building/        — World design, 3D asset prompts, and reference maps
+  meshy-environment-prompts — 142 Meshy.ai 3D component prompts across 21 sections (buildings, NPCs, terrain, etc).
+  maps/                — Historical maps: Booth poverty maps, Goad fire insurance plans, LIDAR heightmaps.
+  reference-photos/    — Victorian London reference photographs.
+  brainstorms/         — Working brainstorm documents for world-building and lore.
 ```
 
 ## Key Characters

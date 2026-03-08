@@ -225,8 +225,8 @@ This revelation belongs to a future volume. Volume 1 groundwork: the intelligenc
 - Script Prompts (`comic/GrimGlow_Volume1_Script_Prompts.md`) -- Voice guidance, dialogue notes per issue
 - Character Prompts (`characters/GrimGlow_Character_Prompts.md`) -- Action pose description
 - Character Turnarounds (`characters/GrimGlow_Character_Turnarounds.md`) -- Clean and mid-mission visual descriptions
-- Sable Backstory brainstorm (`characters/brainstorm-sable-backstory.md`) -- Internal life, squad dynamics, mission file arc
-- Squad Voice Tics brainstorm (`characters/brainstorm-squad-voice-tics.md`) -- Contraction tell, verbal habits
-- Suit Color Coding brainstorm (`characters/brainstorm-suit-color-coding.md`) -- Command silver, department system
-- Titan Biology & Culture brainstorm (`world-building/brainstorm-titan-biology-culture.md`) -- Alt-Sable hidden layer
-- Dark Fairy Operations brainstorm (`world-building/brainstorm-dark-fairy-operations.md`) -- Alt-Sable command parallels
+- Sable Backstory brainstorm (`characters/brainstorms/brainstorm-sable-backstory.md`) -- Internal life, squad dynamics, mission file arc
+- Squad Voice Tics brainstorm (`characters/brainstorms/brainstorm-squad-voice-tics.md`) -- Contraction tell, verbal habits
+- Suit Color Coding brainstorm (`characters/brainstorms/brainstorm-suit-color-coding.md`) -- Command silver, department system
+- Titan Biology & Culture brainstorm (`world-building/brainstorms/brainstorm-titan-biology-culture.md`) -- Alt-Sable hidden layer
+- Dark Fairy Operations brainstorm (`world-building/brainstorms/brainstorm-dark-fairy-operations.md`) -- Alt-Sable command parallels
