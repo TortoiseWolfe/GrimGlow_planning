@@ -24,7 +24,7 @@ Soldier of the fairy squad stranded in 1885 London. The squad's heavy hitter -- 
 
 ## Physical Description
 
-Broad-shouldered and muscular, the most physically imposing member of the squad. Pale skin, square jaw, strong brow. Copper-red hair in a tight military buzz cut. Rigid military posture in clean state; by mid-mission, "standing at attention but with slightly less rigid posture -- shoulders fractionally hunched, weight subtly shifted." (Source: Character Prompts; Character Turnarounds)
+A woman with a broad-shouldered, muscular, strong athletic build -- the most physically imposing member of the squad. Clearly female: defined cheekbones, firm jaw, intense determined eyes, strong but feminine features. Pale skin, copper-red hair in a tight military buzz cut. She reads as a tough, powerful woman -- not masculine, but formidable. Rigid military posture in clean state; by mid-mission, "standing at attention but with slightly less rigid posture -- shoulders fractionally hunched, weight subtly shifted." (Source: Character Prompts; Character Turnarounds)
 
 ### Suit -- Clean State
 

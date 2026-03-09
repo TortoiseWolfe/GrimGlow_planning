@@ -18,7 +18,7 @@
 ## Canon Anchors — What's Already Established
 
 **Identity:**
-- Broad-shouldered, muscular, pale skin, square jaw, copper-red hair in a tight military buzz cut (Character Prompts, Turnarounds)
+- A woman, broad-shouldered, muscular with strong athletic female build, pale skin, defined cheekbones, firm jaw, copper-red hair in a tight military buzz cut. Clearly female but formidable. (Character Prompts, Turnarounds)
 - Most heavily armored of the squad — angular pauldrons, reinforced chest plate, vambrace-style forearm guards (Turnarounds)
 - Compact rifle magnetically clamped to back, short-range sidearm at thigh, heavy utility belt with charge packs (Turnarounds)
 - Mid-mission posture: "standing at attention but with slightly less rigid posture — shoulders fractionally hunched, weight subtly shifted" (Turnarounds)
