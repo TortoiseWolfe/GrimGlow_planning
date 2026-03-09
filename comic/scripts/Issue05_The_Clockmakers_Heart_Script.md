@@ -66,6 +66,8 @@ The wall-cavity camp between timber beams — the squad's established base. Dama
 
 ### PAGE 1 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -153,6 +155,8 @@ Painterly illustrated style, rich detail. Extreme close-up at eye level, tight o
 ---
 
 ### PAGE 2 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col narrow
 
 *Page layout: Top tier — two equal panels. Middle — one full-width panel. Bottom tier — two panels (narrow left, wide right).*
 
@@ -244,6 +248,8 @@ Painterly illustrated style, rich detail. Medium shot from a slight high angle i
 
 ### PAGE 3 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — two equal panels. Bottom — one full-width panel.*
 
 #### Panel 1 — Full width, widescreen
@@ -325,6 +331,8 @@ The squad travels four blocks north across Victorian rooftops — a fairy-scale 
 ---
 
 ### PAGE 4 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — three equal panels. Bottom — one full-width panel.*
 
@@ -413,6 +421,8 @@ Painterly illustrated style, rich detail. Dramatic bird's-eye view looking strai
 
 ### PAGE 5 (5 panels)
 
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
+
 *Page layout: Top tier — two panels (wide left, narrow right). Middle — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Wide, left (two-thirds width)
@@ -491,7 +501,7 @@ Painterly illustrated style, rich detail. Medium shot at eye level of a tiny bro
 **Dialogue:**
 - SABLE: "Luma, I have eyes on the shop. Jink is on the sign bracket. Thresh is climbing to overwatch."
 - LUMA (via comms): "Copy. All vitals holding steady."
-- SABLE: "Wren, you're clear to approach."
+- SABLE: "Wren, you are clear to approach."
 **Lighting:** Grey-blue dusk. Chimney pot base in shadow. Sable's silver suit catches faint amber from the shop window across the street — a distant warm reflection. The street below is a canyon of growing gaslight.
 
 ```text
@@ -501,6 +511,8 @@ Painterly illustrated style, rich detail. Medium shot from a slight low angle of
 ---
 
 ### PAGE 6 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom — one full-width widescreen panel.*
 
@@ -573,6 +585,8 @@ Painterly illustrated style, rich detail. Wide widescreen tracking shot of a tin
 ---
 
 ### PAGE 7 (5 panels)
+
+**Layout:** 4-row: full-width / 2-col / full-width / narrow
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel. Final panel — narrow footer.*
 
@@ -670,6 +684,8 @@ The grandfather clock's interior mechanism at fairy scale — based on Meshy pro
 ---
 
 ### PAGE 8 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
@@ -771,6 +787,8 @@ Painterly illustrated style, rich detail. Wide shot from a slight low angle — 
 
 ### PAGE 9 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col narrow / 2-col
+
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — two panels (narrow left, wide right). Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width, widescreen
@@ -861,6 +879,8 @@ Painterly illustrated style, rich detail. Close-up at eye level, split compositi
 
 ### PAGE 10 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier — one full-width panel. Middle — one full-width widescreen panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width
@@ -939,6 +959,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level from inside a
 ---
 
 ### PAGE 11 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
@@ -1092,6 +1114,8 @@ Wren is inside the clock mechanism. She has navigated to the target gear but has
 
 ### PAGE 12 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col narrow
+
 *Page layout: Top tier -- one full-width panel (tall, one-third page height). Middle tier -- one full-width panel. Bottom tier -- two panels (wide left, narrow right).*
 
 #### Panel 1 -- Full width, top (tall)
@@ -1161,6 +1185,8 @@ Painterly illustrated style, rich detail. Extreme close-up of an enormous human 
 ---
 
 ### PAGE 13 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col narrow
 
 *Page layout: Top tier -- two equal panels. Middle tier -- one full-width panel (tall). Bottom tier -- two panels (narrow left, wide right).*
 
@@ -1250,6 +1276,8 @@ Painterly illustrated style, rich detail. Medium close-up inside a fairy-scale w
 
 ### PAGE 14 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- one full-width panel.*
 
 #### Panel 1 -- Full width, top
@@ -1331,6 +1359,8 @@ The clockmaker's shop has two zones: the front area (display cases, a counter, s
 ---
 
 ### PAGE 15 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top tier -- one full-width panel. Middle tier -- three equal panels. Bottom tier -- one full-width panel.*
 
@@ -1422,6 +1452,8 @@ Painterly illustrated style, rich detail. Human-scale medium wide shot of a Vict
 
 ### PAGE 16 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier -- one full-width panel (tall). Middle tier -- two equal panels. Bottom tier -- one full-width panel.*
 
 #### Panel 1 -- Full width, top (tall)
@@ -1495,6 +1527,8 @@ Painterly illustrated style, rich detail. Wide split-composition panel. LEFT HAL
 ---
 
 ### PAGE 17 (5 panels)
+
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
 
 *Page layout: Top tier -- two panels (wide left, narrow right). Middle tier -- one full-width panel. Bottom tier -- two equal panels.*
 
@@ -1585,6 +1619,8 @@ Painterly illustrated style, rich detail. Fairy-scale medium shot inside a clock
 
 ### PAGE 18 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier -- one full-width panel (tall). Middle tier -- one full-width panel. Bottom tier -- two equal panels.*
 
 #### Panel 1 -- Full width, top (tall)
@@ -1665,6 +1701,8 @@ Transition from the clockmaker's warm amber to the cooler tones of exterior nigh
 
 ### PAGE 19 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- one full-width panel.*
 
 #### Panel 1 -- Full width, top
@@ -1740,6 +1778,8 @@ Painterly illustrated style, rich detail. Wide fairy-scale shot inside a wall-ca
 
 ### PAGE 20 (3 panels)
 
+**Layout:** 3 stacked full-width horizontal strips
+
 *Page layout: Vertical thirds -- three panels stacked, each full-width.*
 
 #### Panel 1 -- Full width, top third
@@ -1802,6 +1842,8 @@ Morning light. The clockmaker's workshop, now seen in daylight for the first tim
 ---
 
 ### PAGE 21 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- two panels (wide left, narrow right).*
 
@@ -1898,6 +1940,8 @@ Camp at night. The primary light sources are Wren's dual holographic schematics 
 ---
 
 ### PAGE 22 (3 panels)
+
+**Layout:** 2-row: full-width / 2-col narrow
 
 *Page layout: Top two-thirds -- one tall panel. Bottom third -- two panels (wide left, narrow right).*
 

@@ -70,6 +70,8 @@ Cribbage's workshop is a cramped, cluttered space on a Clerkenwell side street. 
 
 ### PAGE 1 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -152,6 +154,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of Theodore's fa
 ---
 
 ### PAGE 2 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col narrow
 
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel (the key beat). Bottom tier — two panels (narrow left, wide right).*
 
@@ -238,6 +242,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level of a Victoria
 
 ### PAGE 3 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -306,6 +312,8 @@ Painterly illustrated style, rich detail. Wide shot from a high angle looking do
 ---
 
 ### PAGE 4 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — three equal panels. Bottom tier — one full-width panel.*
 
@@ -391,6 +399,8 @@ Painterly illustrated style, rich detail. Medium close-up at eye level of Theodo
 
 ### PAGE 5 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -471,6 +481,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level of Theodore w
 ---
 
 ### PAGE 6 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col
 
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel (key beat). Bottom tier — two equal panels.*
 
@@ -568,6 +580,8 @@ At fairy scale (Jink's perspective), the workbench surface is a vast plateau. A 
 
 ### PAGE 7 (5 panels)
 
+**Layout:** 3-row: full-width / full-width / 3-col
+
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel (the reveal). Bottom tier — three equal panels.*
 
 #### Panel 1 — Full width
@@ -655,6 +669,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level showing Theod
 
 ### PAGE 8 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width panel (scale reversal). Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
 #### Panel 1 — Full width (SCALE REVERSAL)
@@ -738,6 +754,8 @@ Painterly illustrated style, rich detail. Medium shot at a slight high angle sho
 ---
 
 ### PAGE 9 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col narrow
 
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel. Bottom tier — two panels (wide left, narrow right).*
 
@@ -826,6 +844,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of Jink's face i
 
 ### PAGE 10 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -896,6 +916,8 @@ Painterly illustrated style, rich detail. Wide medium shot from a low angle on t
 ---
 
 ### PAGE 11 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col
 
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
@@ -1000,6 +1022,8 @@ Cribbage's workshop at night. Theodore has returned after hours. The space is cr
 
 ### PAGE 12 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- one full-width panel.*
 
 #### Panel 1 -- Full width
@@ -1067,6 +1091,8 @@ Painterly illustrated style, rich detail. Wide shot from the side at eye level. 
 ---
 
 ### PAGE 13 (4 panels)
+
+**Layout:** 3-row: 2-col narrow / full-width / full-width
 
 *Page layout: Top tier -- two panels (wide left, narrow right). Middle tier -- one full-width panel. Bottom tier -- one full-width panel.*
 
@@ -1137,6 +1163,8 @@ Painterly illustrated style, rich detail. Medium shot from workbench level, low 
 ---
 
 ### PAGE 14 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col
 
 *Page layout: Top tier -- two equal panels. Middle tier -- one full-width panel. Bottom tier -- two equal panels.*
 
@@ -1230,6 +1258,8 @@ Painterly illustrated style, rich detail. Medium shot from a slight low angle at
 
 ### PAGE 15 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- one full-width panel.*
 
 #### Panel 1 -- Full width
@@ -1308,6 +1338,8 @@ Painterly illustrated style, rich detail. Medium close-up in profile, both chara
 
 ### PAGE 16 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier -- one full-width panel. Middle tier -- one full-width panel. Bottom tier -- two equal panels.*
 
 #### Panel 1 -- Full width
@@ -1378,6 +1410,8 @@ Painterly illustrated style, rich detail. Close-up of a Victorian boy's face -- 
 ---
 
 ### PAGE 17 (4 panels)
+
+**Layout:** Full-page splash with 3 inset panels
 
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- one full-width panel.*
 
@@ -1459,6 +1493,8 @@ Same workshop, same workbench, but the light has changed everything. Objects tha
 
 ### PAGE 18 (3 panels -- SPLASH-DOMINANT LAYOUT)
 
+**Layout:** Full-page splash with 2 inset panels in lower corners
+
 *Page layout: Full-page splash panel with two inset panels in the lower corners.*
 
 #### Panel 1 -- FULL PAGE SPLASH
@@ -1512,6 +1548,8 @@ Painterly illustrated style, rich detail. Close-up from slightly below of a tiny
 ---
 
 ### PAGE 19 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- one full-width panel.*
 
@@ -1583,6 +1621,8 @@ Painterly illustrated style, rich detail. Wide shot from a medium high angle. A 
 ---
 
 ### PAGE 20 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- one full-width panel.*
 
@@ -1667,6 +1707,8 @@ The wall cavity camp from Issue 2 -- between timber beams, accessed through the 
 
 ### PAGE 21 (4 panels)
 
+**Layout:** 3-row: full-width / 2-col narrow / full-width
+
 *Page layout: Top tier -- one full-width panel. Middle tier -- two panels (wide left, narrow right). Bottom tier -- one full-width panel.*
 
 #### Panel 1 -- Full width
@@ -1747,6 +1789,8 @@ A Victorian street in Clerkenwell. Morning. Working-class neighbourhood: narrow 
 ---
 
 ### PAGE 22 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- two panels (wide left, narrow right).*
 

@@ -63,6 +63,8 @@ The confrontation happens on a narrow wooden beam in the wall cavity, away from 
 
 ### PAGE 1 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width panel (establishing). Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -144,6 +146,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of Sable's face,
 ---
 
 ### PAGE 2 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col
 
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
@@ -229,6 +233,8 @@ Painterly illustrated style, rich detail. Medium close-up at eye level of Sable'
 
 ### PAGE 3 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top — one full-width panel. Middle tier — two equal panels. Bottom — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -299,6 +305,8 @@ Painterly illustrated style, rich detail. Medium two-shot, straight on, symmetri
 ---
 
 ### PAGE 4 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle — two equal panels. Bottom — one full-width widescreen panel.*
 
@@ -384,6 +392,8 @@ The full squad is gathered. Wren has woken them. They assemble on the main beam 
 
 ### PAGE 5 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier — one full-width panel. Middle — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width
@@ -452,6 +462,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of Sable's face 
 ---
 
 ### PAGE 6 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — three equal panels. Bottom — one full-width panel.*
 
@@ -538,6 +550,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level. Sable stands
 
 ### PAGE 7 (4 panels)
 
+**Layout:** 2×2 grid
+
 *Page layout: Top — two equal panels. Bottom — two equal panels. A grid: methodical, like Sable's briefing.*
 
 #### Panel 1 — Half width, top left
@@ -605,6 +619,8 @@ Painterly illustrated style, rich detail. Medium shot from a slight low angle sh
 ---
 
 ### PAGE 8 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top — one full-width panel. Middle tier — three equal panels (character reactions). Bottom — one full-width panel.*
 
@@ -691,6 +707,8 @@ Painterly illustrated style, rich detail. Medium wide group shot at eye level. F
 
 ### PAGE 9 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top — one full-width panel. Middle — one full-width panel. Bottom — two equal panels.*
 
 #### Panel 1 — Full width
@@ -760,6 +778,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of Jink. Light b
 ---
 
 ### PAGE 10 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top — one full-width panel. Middle — two equal panels. Bottom — one full-width panel. This page closes the revelation sequence.*
 
@@ -837,6 +857,8 @@ The squad remains in the main camp space but the physical arrangement has shifte
 ---
 
 ### PAGE 11 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top — one full-width panel. Middle tier — three equal panels (Jink, Thresh, Luma). Bottom — one full-width panel.*
 
@@ -926,6 +948,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level. The squ
 
 ### PAGE 12 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top — one full-width widescreen panel. Middle — two equal panels. Bottom — one full-width panel.*
 
 #### Panel 1 — Full width, widescreen
@@ -994,6 +1018,8 @@ Painterly illustrated style, rich detail. Wide shot at eye level with a slight p
 ---
 
 ### PAGE 13 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top — one full-width panel. Middle tier — three equal panels. Bottom — one full-width panel.*
 
@@ -1078,6 +1104,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly elevated ang
 
 ### PAGE 14 (4 panels)
 
+**Layout:** 2×2 grid
+
 *Page layout: Top — two equal panels. Bottom — two equal panels. Grid format — four equal windows into four separate characters.*
 
 #### Panel 1 — Half width, top left
@@ -1142,6 +1170,8 @@ Painterly illustrated style, rich detail. Medium close-up at eye level. Sable si
 ---
 
 ### PAGE 15 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top — one full-width widescreen panel (environmental establishing). Middle — two equal panels. Bottom — one full-width panel.*
 
@@ -1209,6 +1239,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level. Thresh at th
 ---
 
 ### PAGE 16 (4 panels)
+
+**Layout:** 3-row: full-width / full-width / 2-col
 
 *Page layout: Top — one full-width panel. Middle — one full-width panel. Bottom — two equal panels. The page that closes the squad reaction and transitions to aftermath.*
 
@@ -1286,6 +1318,8 @@ Page 22: Night. Single data module light — cold blue-white uplight on Sable's 
 
 ### PAGE 17 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top — one full-width widescreen panel. Middle — two equal panels. Bottom — one full-width panel.*
 
 #### Panel 1 — Full width, widescreen
@@ -1351,6 +1385,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level from ins
 ---
 
 ### PAGE 18 (4 panels)
+
+**Layout:** 4-row: full-width / 2-col / full-width / panel
 
 *Page layout: Top — one full-width panel. Middle — two equal panels. Bottom — one full-width panel.*
 
@@ -1420,6 +1456,8 @@ Painterly illustrated style, rich detail. Wide shot along the main beam toward t
 
 ### PAGE 19 (SPLASH PAGE — single panel)
 
+**Layout:** Full-page splash
+
 *Full-page splash. This is the emotional turn of the issue — Theodore's fairy tale as a visual and narrative event.*
 
 #### Panel 1 — Full page
@@ -1439,6 +1477,8 @@ Painterly illustrated style, rich detail. Full-page splash, slightly elevated an
 ---
 
 ### PAGE 20 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top — one full-width widescreen panel. Middle — two equal panels. Bottom — one full-width panel. Theodore's fairy tale fills the page. The visual language shifts toward storybook warmth.*
 
@@ -1508,6 +1548,8 @@ Painterly illustrated style, rich detail. Medium wide shot inside the camp, all 
 
 ### PAGE 21 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top — one full-width panel. Middle — one full-width panel. Bottom — two equal panels.*
 
 #### Panel 1 — Full width
@@ -1574,6 +1616,8 @@ Painterly illustrated style, rich detail. Close-up from a slight low angle, fair
 ---
 
 ### PAGE 22 (3 panels)
+
+**Layout:** 3 stacked full-width horizontal strips
 
 *Page layout: Top — one full-width panel. Middle — one full-width panel. Bottom — one full-width panel (final image). Three panels, simple, descending into isolation.*
 

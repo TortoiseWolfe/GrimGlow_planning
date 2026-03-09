@@ -63,6 +63,8 @@ The rain gutter from Issue 1's final scene. A lead-lined half-round channel (4.5
 
 ### PAGE 1 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
 #### Panel 1 — Full width
@@ -153,6 +155,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level with a s
 
 ### PAGE 2 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -198,7 +202,7 @@ Painterly illustrated style, rich detail. Medium shot at eye level, over-the-sho
 **Action:** Sable assesses the route and makes the decision. One hand rests on the gutter lip — a low wall at fairy scale. She turns back to the squad. The decision is made.
 **Expression:** Resolved. The weight of command in a world where everything can kill them. She's not afraid — she doesn't have that luxury. But the tightness around her eyes says she knows what she's asking.
 **Dialogue:**
-- SABLE: "Thresh, you're on point. Wren, call the route. Jink — stay grounded until I say otherwise."
+- SABLE: "Thresh, you are on point. Wren, call the route. Jink — stay grounded until I say otherwise."
 - JINK (off-panel): "Copy."
 - SABLE: "Luma, rear guard. Eyes on everything."
 **Lighting:** Grey morning sky behind her, backlighting her silhouette slightly. The silver suit catches what little ambient light there is. The cracked shoulder fractures glow faint blue-white — suit systems still active beneath the damage.
@@ -238,6 +242,8 @@ The crossing begins vertically — the squad descends from rooftop to street via
 ---
 
 ### PAGE 3 (5 panels)
+
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
 
 *Page layout: Top tier — two panels (wide left, narrow right). Middle — one full-width panel. Bottom tier — two equal panels.*
 
@@ -325,6 +331,8 @@ Painterly illustrated style, rich detail. POV shot looking back over a shoulder 
 ---
 
 ### PAGE 4 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — three equal panels. Bottom tier — one full-width panel.*
 
@@ -414,6 +422,8 @@ Painterly illustrated style, rich detail. Extreme low worm's-eye angle looking s
 ---
 
 ### PAGE 5 (5 panels)
+
+**Layout:** Full-page splash with 4 inset panels
 
 *Page layout: Top tier — one full-width splash panel. Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
@@ -508,6 +518,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level with a s
 
 ### PAGE 6 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col narrow / 2-col
+
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (narrow left, wide right). Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width
@@ -585,7 +597,7 @@ Painterly illustrated style, rich detail. Medium shot from the side, dynamic mot
 **Expression:** Thresh: determined, focused on the climb, fear managed through action. Wren: pragmatic, reading the brick face. Sable: patient under Luma's care, eyes on Jink's distant glow. Luma: working, always working, scanner active.
 **Dialogue:**
 - LUMA: "Hold still. This will seal in ten seconds."
-- SABLE: "We don't have ten seconds."
+- SABLE: "We do not have ten seconds."
 - LUMA: "You have ten seconds. The street will wait."
 **Lighting:** Grey rain light. Luma's blue-violet medical scanner casts structured light on Sable's palm — the only warm-cool contrast on the wall. In the distant rain, Jink's emerald glow is a faint streak of green light against the grey. The squad's other holographic accents — silver, copper, ruby — glow faintly through rain and grime on the dark wet brick.
 
@@ -600,6 +612,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level. Four fi
 ## SECTION 2: THE CROSSING (Pages 3-10) — continued
 
 ### PAGE 7 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
@@ -689,6 +703,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level. Four fi
 ---
 
 ### PAGE 8 (6 panels)
+
+**Layout:** 5-row: full-width / narrow / half + narrow / narrow / 2-col
 
 *Page layout: Top tier — one full-width panel. Middle tier — three panels (narrow left, wide center, narrow right). Bottom tier — two equal panels.*
 
@@ -798,6 +814,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly elevated ang
 
 ### PAGE 9 (5 panels)
 
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
+
 *Page layout: Top tier — two panels (wide left, narrow right). Middle — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Wide, top left (two-thirds width)
@@ -889,6 +907,8 @@ Painterly illustrated style, rich detail. Low angle looking upward from inside a
 
 ### PAGE 10 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -950,7 +970,7 @@ Painterly illustrated style, rich detail. Medium shot from a low angle. Three fi
 **Action:** A brief shelter. The squad takes thirty seconds. The doorstep overhang gives them cover from the rain for the first time in pages. The relief is physical — they're soaked through, exhausted, battered. But through the alley, in the distance, Sable can see the back of the buildings that form the courtyard. They're close.
 **Expression:** Jink: sitting, unusually quiet, the exhilaration fading into fatigue. Thresh: eyes closed, just breathing, letting the stone wall hold her up. Luma: scanning Thresh, concern hidden behind data. Wren: already looking down the alley, wanting to move. Sable: seeing the destination, calculating the last stretch.
 **Dialogue:**
-- SABLE: "Through the alley. Fifty feet. Then we're there."
+- SABLE: "Through the alley. Fifty feet. Then we are there."
 - WREN: "Finally."
 - SABLE: "Thirty seconds. Drink, check your gear. Then we move."
 **Lighting:** Sheltered from rain — muted grey ambient light under the overhang. Rain-light bright beyond the edge. Faint suit accents glow in the sheltered space — five points of colour huddled together.
@@ -988,6 +1008,8 @@ A narrow courtyard behind a row of terraced buildings — accessible through the
 ---
 
 ### PAGE 11 (5 panels)
+
+**Layout:** 3-row: full-width / full-width / 3-col
 
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel. Bottom tier — three panels (equal width).*
 
@@ -1082,6 +1104,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level. Four tiny fi
 
 ### PAGE 12 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -1170,6 +1194,8 @@ Painterly illustrated style, rich detail. Medium shot from a slight high angle. 
 
 ### PAGE 13 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width, top
@@ -1241,6 +1267,8 @@ Painterly illustrated style, rich detail. Medium close-up at eye level. Thresh's
 ---
 
 ### PAGE 14 (4 panels)
+
+**Layout:** 3-row: full-width / full-width / 2-col
 
 *Page layout: Top tier — one full-width panel (THE LIST). Middle — one full-width panel. Bottom tier — two equal panels.*
 
@@ -1339,6 +1367,8 @@ The wall cavity is a stud bay between the inner plaster wall and the outer brick
 
 ### PAGE 15 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
 #### Panel 1 — Full width, top
@@ -1414,7 +1444,7 @@ Painterly illustrated style, rich detail. Close-up from a slight high angle. Han
 **Action:** The base comes together. The squad works with the efficiency of trained soldiers establishing a forward position. Each person has claimed a zone — Wren's work area, Luma's medical station, equipment triage, the entrance approach.
 **Expression:** (Seen at distance) The body language of people settling into a space — not comfortable, not resigned, but adapting. Making do. The military version of nesting.
 **Dialogue:**
-- SABLE: "This is home until we're not here anymore. Treat it accordingly."
+- SABLE: "This is home until we are not here anymore. Treat it accordingly."
 **Lighting:** Full dual lighting in the cavity. Warm amber from the power cell at center. Cool blue-white from the perimeter lines at the entrance. Department-colour suit accents — silver, copper, emerald, ruby, sapphire-violet — glowing faintly at seams throughout the space. Deep shadows between the timber beams. Intimate, claustrophobic, alive.
 
 ```text
@@ -1424,6 +1454,8 @@ Painterly illustrated style, rich detail. Medium wide shot from a slight low ang
 ---
 
 ### PAGE 16 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col narrow
 
 *Page layout: Top tier — two equal panels. Middle — one full-width panel. Bottom tier — two panels (wide left, narrow right).*
 
@@ -1515,6 +1547,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of a threaded ir
 ---
 
 ### PAGE 17 (5 panels)
+
+**Layout:** Top banner + 2×2 grid below
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two equal panels.*
 
@@ -1608,6 +1642,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of hands in a co
 
 ### PAGE 18 (4 panels)
 
+**Layout:** 2-row: 2-col narrow / 2-col
+
 *Page layout: Top tier — two panels (wide left, narrow right). Bottom — two panels (half and half), taller than the top tier — this is a quieter page, giving the character moments room to breathe.*
 
 #### Panel 1 — Wide, top left (two-thirds width)
@@ -1674,6 +1710,8 @@ Painterly illustrated style, rich detail. Medium close-up at eye level, a two-sh
 ---
 
 ### PAGE 19 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top — one full-width panel. Middle tier — two equal panels. Bottom — one full-width panel.*
 
@@ -1761,6 +1799,8 @@ Sable has moved to the far end of the wall cavity, away from the sleeping squad.
 
 ### PAGE 20 (3 panels)
 
+**Layout:** 3 stacked full-width horizontal strips
+
 *Page layout: Three panels stacked vertically, each occupying one-third of the page. Tall, narrow framing — the vertical format emphasizes the isolation and the sense of Sable being enclosed, trapped with information she can't share.*
 
 #### Panel 1 — Full width, top third
@@ -1818,6 +1858,8 @@ Painterly illustrated style, rich detail. Extreme close-up, straight on, vertica
 
 ### PAGE 21 (2 panels)
 
+**Layout:** 2 stacked full-width horizontal strips
+
 *Page layout: Two panels stacked vertically, each occupying half the page. Taller than standard panels — giving Sable's private reaction room to register.*
 
 #### Panel 1 — Full width, top half
@@ -1872,6 +1914,8 @@ A working-class Victorian pub — the kind found on every Clerkenwell corner. Sm
 ---
 
 ### PAGE 22 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top — one full-width panel. Middle — two equal panels. Bottom — one full-width panel.*
 

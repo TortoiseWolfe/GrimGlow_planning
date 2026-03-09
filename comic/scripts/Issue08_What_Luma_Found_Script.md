@@ -67,6 +67,8 @@ The squad's wall-cavity camp, now well-established — gear stowed in organized 
 
 ### PAGE 1 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -150,6 +152,8 @@ Painterly illustrated style, rich detail. Close-up at eye level on Wren's face. 
 
 ### PAGE 2 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -222,6 +226,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly low angle. T
 
 ### PAGE 3 (4 panels)
 
+**Layout:** 3-row: 2-col / full-width / narrow
+
 *Page layout: Top tier — two equal panels. Bottom tier — one full-width panel. Bottom strip — one narrow horizontal panel.*
 
 #### Panel 1 — Half width, left
@@ -231,9 +237,9 @@ Painterly illustrated style, rich detail. Wide shot from a slightly low angle. T
 **Action:** Sable briefs Luma on what to look for. Her instructions are too specific — she mentions sealed lower levels, foundation-era construction, areas that would have been inaccessible since the church was built.
 **Expression:** Sable: the commander briefing an officer, but something in her eyes — a flicker of guilt, quickly suppressed. Luma: attentive, professional, not catching the subtext.
 **Dialogue:**
-- SABLE: "If there's a sealed lower level — foundation-era, pre-church construction — that's where you'll find what you're looking for. Focus there."
+- SABLE: "If there is a sealed lower level — foundation-era, pre-church construction — that is where you will find what you are looking for. Focus there."
 - LUMA: "How do you know there's a—"
-- SABLE: "I don't. I'm extrapolating from your data. Go."
+- SABLE: "I do not. I am extrapolating from your data. Go."
 **Lighting:** Blue-violet from the fading holographic display. Warm gaslight growing dominant as the presentation ends.
 
 ```text
@@ -293,6 +299,8 @@ Painterly illustrated style, rich detail. Extreme close-up at eye level, tight f
 ---
 
 ### PAGE 4 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
@@ -368,6 +376,8 @@ Nighttime alley. A single warm gaslight at the far end provides the dominant ill
 ---
 
 ### PAGE 5 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — three equal panels. Bottom tier — one full-width panel.*
 
@@ -449,6 +459,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly high angle l
 
 ### PAGE 6 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -521,6 +533,8 @@ This section transitions through three lighting environments as Luma and Theodor
 ---
 
 ### PAGE 7 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
@@ -610,6 +624,8 @@ Painterly illustrated style, rich detail. Close-up at eye level on a stone linte
 
 ### PAGE 8 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width
@@ -681,6 +697,8 @@ Painterly illustrated style, rich detail. Close-up from a slight high angle. Lum
 
 ### PAGE 9 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -750,6 +768,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly low angle �
 ---
 
 ### PAGE 10 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col narrow
 
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel. Bottom tier — two panels (narrow left, wide right).*
 
@@ -838,6 +858,8 @@ Painterly illustrated style, rich detail. Medium shot from a slight low angle. L
 
 ### PAGE 11 (4 panels) — THE CACHE REVEAL
 
+**Layout:** Full-page splash with 3 inset panels
+
 *Page layout: Full-page splash panel with three inset panels.*
 
 #### Panel 1 — FULL PAGE SPLASH (background)
@@ -911,6 +933,8 @@ Painterly illustrated style, rich detail. Close-up on a hand reaching toward a d
 
 ### PAGE 12 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -982,6 +1006,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly high angle. 
 
 ### PAGE 13 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width
@@ -1051,6 +1077,8 @@ Painterly illustrated style, rich detail. Medium shot from a slight low angle. T
 ---
 
 ### PAGE 14 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
@@ -1126,6 +1154,8 @@ Return to Thresh's alley. Night has deepened — the gaslight is warmer, the sha
 
 ### PAGE 15 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width
@@ -1189,6 +1219,8 @@ Painterly illustrated style, rich detail. Close-up at eye level on the child's f
 ---
 
 ### PAGE 16 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom — one full-width panel.*
 
@@ -1256,6 +1288,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly elevated ang
 
 ### PAGE 17 (3 panels)
 
+**Layout:** 3 stacked full-width horizontal strips
+
 *Page layout: Top — one full-width panel. Middle — one full-width panel. Bottom — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -1306,6 +1340,8 @@ Painterly illustrated style, rich detail. Wide shot from a low angle. Thresh res
 ---
 
 ### PAGE 18 (3 panels)
+
+**Layout:** 3 stacked full-width horizontal strips
 
 *Page layout: Top — one full-width panel. Middle — one full-width panel. Bottom — one full-width panel. (Three equal-height horizontal panels — a quiet rhythm.)*
 
@@ -1364,6 +1400,8 @@ Transitional sequence. Pages 19-20: Night streets, fog, gaslight — Theodore re
 ---
 
 ### PAGE 19 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
@@ -1433,6 +1471,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly high angle. 
 
 ### PAGE 20 (4 panels)
 
+**Layout:** 3-row: 2-col / full-width / full-width
+
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Half width, left
@@ -1501,6 +1541,8 @@ Painterly illustrated style, rich detail. Close-up from a slight high angle. Lum
 ---
 
 ### PAGE 21 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
@@ -1573,6 +1615,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly high angle l
 ---
 
 ### PAGE 22 (4 panels) — FAIRY TALE ECHO
+
+**Layout:** 3-row: full-width / full-width / 2-col
 
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 

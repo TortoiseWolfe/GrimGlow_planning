@@ -70,6 +70,8 @@ The recon vessel is small and functional — a military working space, not a spe
 
 ### PAGE 1 (6 panels)
 
+**Layout:** 2-row: full-width / narrow
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — three equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -175,6 +177,8 @@ Painterly illustrated style, rich detail. Close-up from a slight low angle, tigh
 
 ### PAGE 2 (5 panels)
 
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
+
 *Page layout: Top tier — two panels (wide left, narrow right). Middle — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Wide, left (two-thirds width)
@@ -261,6 +265,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of Luma, head ti
 ---
 
 ### PAGE 3 (6 panels)
+
+**Layout:** 3-row: full-width / 3-col / 2-col
 
 *Page layout: Top — one full-width panel (the impact). Middle tier — three panels (the chaos). Bottom tier — two panels (the ship breaking apart). The panel borders on this page should be fractured/jagged — the layout itself conveys the violence.*
 
@@ -365,6 +371,8 @@ Painterly illustrated style, rich detail. Extreme close-up at 135mm, straight on
 
 ### PAGE 4 (4 panels)
 
+**Layout:** Full-page splash with 3 inset panels
+
 *Page layout: Full page is essentially one cascading sequence — top panel wide, second panel wide, third panel thin horizontal strip, fourth panel splash (bottom two-thirds of page). The page reads as a descent — falling from the corridor into the past.*
 
 #### Panel 1 — Full width, top quarter
@@ -450,6 +458,8 @@ This is the first time we see the world from human eyes. Pages 1-4 were entirely
 
 ### PAGE 5 (4 panels)
 
+**Layout:** Top banner + 3-col below
+
 *Page layout: Top half — one full-width establishing panel. Bottom half — three panels (two-thirds left, one-third right stacked into two panels).*
 
 #### Panel 1 — Full width, top half
@@ -515,6 +525,8 @@ Painterly illustrated style, rich detail. Close-up from a slight high angle, loo
 ---
 
 ### PAGE 6 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col narrow
 
 *Page layout: Top tier — two panels (half and half). Middle — one full-width panel. Bottom tier — two panels (wide left, narrow right).*
 
@@ -614,6 +626,8 @@ The wreckage is scattered through this gutter: sections of dark angular hull pla
 
 ### PAGE 7 (5 panels)
 
+**Layout:** 5-row: full-width / narrow / half + narrow / narrow / full-width
+
 *Page layout: Top tier -- one full-width widescreen panel (shallow, wide -- the gutter as canyon). Middle tier -- three panels (narrow left, wide center, narrow right). Bottom tier -- one full-width panel.*
 
 #### Panel 1 -- Full width, widescreen (shallow depth, maximum width)
@@ -700,6 +714,8 @@ Painterly illustrated style, rich detail. Wide bird's-eye shot from a slightly e
 ---
 
 ### PAGE 8 (5 panels)
+
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
 
 *Page layout: Top tier -- two panels (wide left, narrow right). Middle tier -- one full-width panel. Bottom tier -- two equal panels.*
 
@@ -792,6 +808,8 @@ Painterly illustrated style, rich detail. Medium shot from a slight high angle. 
 
 ### PAGE 9 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier -- one full-width widescreen panel (the scale reveal). Middle tier -- two equal panels. Bottom tier -- two panels (narrow left, wide right).*
 
 #### Panel 1 -- Full width, widescreen (shallow depth, maximum width -- THE SCALE REVEAL)
@@ -878,6 +896,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level, looking
 ---
 
 ### PAGE 10 (5 panels)
+
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
 
 *Page layout: Top tier -- two panels (narrow left, wide right). Middle tier -- one full-width panel. Bottom tier -- two equal panels.*
 
@@ -967,6 +987,8 @@ Painterly illustrated style, rich detail. Medium shot from a slight low angle. S
 
 ### PAGE 11 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- two panels (wide left, narrow right).*
 
 #### Panel 1 -- Full width, top
@@ -1053,6 +1075,8 @@ Painterly illustrated style, rich detail. Extreme close-up at eye level. Wren's 
 
 ### PAGE 12 (4 panels)
 
+**Layout:** Full-page splash with 3 inset panels
+
 *Page layout: This is the key visual page of the section -- Jink's POV of the city from above. Top half -- one massive panel (half-page splash, widescreen). Bottom tier -- three panels (one-third each). The top splash needs room to breathe -- this is the money shot.*
 
 #### Panel 1 -- Full width, half-page splash (JINK'S POV -- THE CITY FROM ABOVE)
@@ -1120,6 +1144,8 @@ Painterly illustrated style, rich detail. Close-up from slightly below eye level
 ---
 
 ### PAGE 13 (5 panels)
+
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
 
 *Page layout: Top tier -- two panels (wide left, narrow right). Middle tier -- one full-width panel. Bottom tier -- two equal panels.*
 
@@ -1206,6 +1232,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level. Sable stands
 ---
 
 ### PAGE 14 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier -- one full-width panel. Middle tier -- two equal panels. Bottom tier -- one full-width widescreen panel (the section closer -- echoes the final splash of the issue).*
 
@@ -1299,6 +1327,8 @@ City sounds at fairy scale: church bells are thunder. A distant train whistle is
 
 ### PAGE 15 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -1383,6 +1413,8 @@ Painterly illustrated style, rich detail. Extreme close-up at 135mm, eye level. 
 ---
 
 ### PAGE 16 (5 panels)
+
+**Layout:** Single narrow panel
 
 *Page layout: Top tier — three equal panels. Bottom tier — two panels (narrow left, wide right).*
 
@@ -1469,6 +1501,8 @@ Painterly illustrated style, rich detail. Wide shot at 28mm, eye level, cross-se
 
 ### PAGE 17 (5 panels)
 
+**Layout:** 3-row: full-width / full-width / 3-col
+
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel (the verdict). Bottom tier — three equal panels (reactions begin).*
 
 #### Panel 1 — Full width, top
@@ -1554,6 +1588,8 @@ Painterly illustrated style, rich detail. Medium close-up at eye level of Thresh
 
 ### PAGE 18 (4 panels)
 
+**Layout:** 2-row: 2-col / 2-col narrow
+
 *Page layout: Top half — two panels (equal width). Bottom half — two panels (wide left, narrow right).*
 
 #### Panel 1 — Half width, top left
@@ -1621,6 +1657,8 @@ Painterly illustrated style, rich detail. Extreme close-up at 135mm, eye level. 
 ---
 
 ### PAGE 19 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom — one full-width panel.*
 
@@ -1691,6 +1729,8 @@ Painterly illustrated style, rich detail. Wide shot from directly above, bird's-
 ---
 
 ### PAGE 20 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width cinematic panel. Middle tier — two equal panels. Bottom — one full-width panel.*
 
@@ -1779,6 +1819,8 @@ Sable has moved to the far end of the gutter, near a chimney stack that provides
 
 ### PAGE 21 (4 panels)
 
+**Layout:** 4-row: panel / panel / panel / panel
+
 *Page layout: Four equal vertical panels side by side — a progression strip. Intimate, claustrophobic, the tightest framing in the issue. Each panel is a quarter of the page width but full height.*
 
 #### Panel 1 — Quarter width, far left
@@ -1855,6 +1897,8 @@ Full dual lighting at its most balanced and beautiful. This is the image that de
 ---
 
 ### PAGE 22 (1 panel)
+
+**Layout:** Full-page splash
 
 *Page layout: Full page. No borders. The image bleeds to all edges.*
 

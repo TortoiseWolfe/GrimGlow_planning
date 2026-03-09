@@ -63,6 +63,8 @@ The courtyard behind a row of Clerkenwell buildings — the crash site from Issu
 
 ### PAGE 1 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -149,6 +151,8 @@ Painterly illustrated style, rich detail. Medium shot of a Victorian boy of twel
 
 ### PAGE 2 (5 panels)
 
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
+
 *Page layout: Top tier — two panels (wide left, narrow right). Middle — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Wide, top left (two-thirds width)
@@ -232,6 +236,8 @@ Painterly illustrated style, rich detail. Close-up of a woman's face, approximat
 ---
 
 ### PAGE 3 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — three equal panels. Bottom tier — one full-width panel.*
 
@@ -318,6 +324,8 @@ Painterly illustrated style, rich detail. Wide shot from outside a brick wall at
 ---
 
 ### PAGE 4 (4 panels)
+
+**Layout:** 3-row: full-width / full-width / 2-col
 
 *Page layout: Top tier — one full-width panel. Middle — one full-width panel. Bottom tier — two equal panels.*
 
@@ -406,6 +414,8 @@ Jink leads Theodore around to the building's entrance and up to the back room. T
 
 ### PAGE 5 (5 panels) — SPLASH + REVEAL
 
+**Layout:** Full-page splash with 4 inset panels
+
 *Page layout: Full splash page with inset panels. Main image fills the page. Three narrow inset panels along the left edge, vertically stacked.*
 
 #### Panel 1 — FULL SPLASH (background image, full page)
@@ -470,6 +480,8 @@ Painterly illustrated style, rich detail. Close-up of a wiry woman approximately
 
 ### PAGE 6 (5 panels)
 
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
+
 *Page layout: Top tier — two panels (wide left, narrow right). Middle — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Wide, top left (two-thirds width)
@@ -514,7 +526,7 @@ Painterly illustrated style, rich detail. Close-up of a lean androgynous face ap
 **Expression:** (At this distance, body language over facial detail.) Sable: pivoting from anger to command. Jink: defensive but listening. Thresh: alert, tense, eyes on the gap. Wren: calculating, patient. Luma: data-gathering, fascinated.
 **Dialogue:**
 - SABLE: "This is a containment problem. We have two options."
-- SABLE: "We relocate. Abandon this position, find a new camp, disappear. He has no way to follow if we don't want to be found."
+- SABLE: "We relocate. Abandon this position, find a new camp, disappear. He has no way to follow if we do not want to be found."
 - WREN (arms still crossed, calm): "And the second option?"
 **Lighting:** Cool blue-white camp light. Theodore's warm silhouette visible through the gap above. Department-colored glows from individual suit nodes create subtle color variation — silver, copper, emerald, crimson, sapphire.
 
@@ -556,6 +568,8 @@ Painterly illustrated style, rich detail. Slight high angle, looking down at a V
 ---
 
 ### PAGE 7 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
@@ -646,6 +660,8 @@ Painterly illustrated style, rich detail. Medium shot inside a wall cavity camp.
 
 ### PAGE 8 (4 panels)
 
+**Layout:** 3-row: 2-col / full-width / wide
+
 *Page layout: Top tier — two equal panels. Bottom tier — one full-width panel plus one wide panel.*
 
 #### Panel 1 — Half width, top left
@@ -654,9 +670,9 @@ Painterly illustrated style, rich detail. Medium shot inside a wall cavity camp.
 **Camera:** 65mm. Sable's reaction to Wren's argument. She hears the logic. She is a good enough commander to recognize a valid tactical assessment. But she has not yielded — her body language remains rigid, her hand still near (though no longer on) the memory-wipe device. She is looking at Wren with the expression of someone who agrees with the analysis but hates the conclusion.
 **Expression:** Resistance warring with reason. Jaw still tight. But her eyes have shifted — the fury is receding, replaced by the harder work of accepting a situation she did not choose.
 **Dialogue:**
-- SABLE: "He's a civilian child. In a city full of people he talks to. We put our survival in his hands and he tells one friend — ONE — and we're done."
+- SABLE: "He is a civilian child. In a city full of people he talks to. We put our survival in his hands and he tells one friend — ONE — and we are done."
 - WREN (off-panel): "He hasn't told anyone yet."
-- SABLE: "You don't know that."
+- SABLE: "You do not know that."
 **Lighting:** Cool blue-white camp light on Sable's face. Her silver suit reflects the light, the soot bloom dark against the metallic surface.
 
 ```text
@@ -717,6 +733,8 @@ Painterly illustrated style, rich detail. Medium shot from above at human scale.
 ---
 
 ### PAGE 9 (5 panels) — THE AUDITION
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top — one full-width panel (WIDE). Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
@@ -807,6 +825,8 @@ Painterly illustrated style, rich detail. Medium wide shot inside a wall cavity 
 
 ### PAGE 10 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col narrow / 2-col
+
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (wide left, narrow right). Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width, top
@@ -895,6 +915,8 @@ Painterly illustrated style, rich detail. Medium close-up of a wiry woman approx
 ---
 
 ### PAGE 11 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — three equal panels. Bottom tier — one full-width panel.*
 
@@ -999,6 +1021,8 @@ The squad camp in the wall void between timber beams. Rough-hewn oak beams form 
 
 ### PAGE 12 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -1072,6 +1096,8 @@ Painterly illustrated style, rich detail. Wide shot at eye level, split composit
 ---
 
 ### PAGE 13 (5 panels)
+
+**Layout:** 3-row: full-width / full-width / 3-col
 
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel. Bottom tier — three equal panels.*
 
@@ -1158,6 +1184,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of a young andro
 
 ### PAGE 14 (4 panels)
 
+**Layout:** 3-row: 2-col / full-width / full-width
+
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel. Bottom tier — one full-width panel.*
 
 #### Panel 1 — One-half width, left
@@ -1235,6 +1263,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level at fairy scal
 
 ### PAGE 15 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -1303,6 +1333,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level at fairy
 ---
 
 ### PAGE 16 (4 panels)
+
+**Layout:** 3-row: full-width / 2-col narrow / full-width
 
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (wide left, narrow right). Bottom tier — one full-width panel.*
 
@@ -1389,6 +1421,8 @@ The brick wall adjacent to the squad's camp — the same wall they have been liv
 
 ### PAGE 17 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -1457,6 +1491,8 @@ Painterly illustrated style, rich detail. Wide shot at eye level at fairy scale.
 ---
 
 ### PAGE 18 (4 panels)
+
+**Layout:** 3-row: 2-col / full-width / full-width
 
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel. Bottom tier — one full-width panel.*
 
@@ -1528,6 +1564,8 @@ Painterly illustrated style, rich detail. Wide shot at fairy scale, pulling back
 ---
 
 ### PAGE 19 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
@@ -1611,6 +1649,8 @@ Clerkenwell streets at dusk. Narrow Victorian streets, sooty London stock brick,
 
 ### PAGE 20 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -1677,6 +1717,8 @@ Painterly illustrated style, rich detail. Wide shot from a high angle looking do
 ---
 
 ### PAGE 21 (4 panels)
+
+**Layout:** 3-row: full-width / full-width / 2-col
 
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
@@ -1757,6 +1799,8 @@ The squad camp, late night. The others sleep — or at least are in their rest p
 ---
 
 ### PAGE 22 (4 panels)
+
+**Layout:** 3-row: full-width / full-width / 2-col narrow
 
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel. Bottom tier — two panels (wide left, narrow right).*
 

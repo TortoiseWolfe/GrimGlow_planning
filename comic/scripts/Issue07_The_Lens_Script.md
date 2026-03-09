@@ -71,6 +71,8 @@ The wall-cavity camp is established from Issues 4-6 — between timber beams, ro
 
 ### PAGE 1 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (equal width). Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -164,6 +166,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of a tiny lean a
 
 ### PAGE 2 (5 panels)
 
+**Layout:** 3-row: 2-col / full-width / 2-col narrow
+
 *Page layout: Top tier — two panels (equal width). Middle tier — one full-width panel. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Half width, left
@@ -254,6 +258,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of a tiny woman 
 ---
 
 ### PAGE 3 (5 panels)
+
+**Layout:** Top banner + 2×2 grid below
 
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — two panels (equal width). Bottom tier — two panels (equal width).*
 
@@ -355,6 +361,8 @@ Pages 6-7: Late afternoon transitioning toward dusk. Theodore and Jink on the wa
 
 ### PAGE 4 (4 panels)
 
+**Layout:** Top banner + 3-col below
+
 *Page layout: Top tier — one full-width panel. Bottom three-quarters — three panels in a stepped arrangement (left tall, center medium, right short), creating a visual descent into the shop interior.*
 
 #### Panel 1 — Full width
@@ -429,6 +437,8 @@ Painterly illustrated style, rich detail. Close-up on hands at a shop counter �
 
 ### PAGE 5 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (equal width). Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -501,6 +511,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly high angle s
 ---
 
 ### PAGE 6 (5 panels)
+
+**Layout:** 3-row: 2-col / full-width / 2-col narrow
 
 *Page layout: Top tier — two panels (equal width). Middle tier — one full-width panel. Bottom tier — two panels (wide left, narrow right).*
 
@@ -594,6 +606,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level, fairy scale.
 
 ### PAGE 7 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — one full-width panel. Bottom tier — two panels (equal width).*
 
 #### Panel 1 — Full width, widescreen
@@ -622,7 +636,7 @@ Painterly illustrated style, rich detail. Wide widescreen establishing shot at e
 - SABLE: "Jink — advance recon. Circle the lighthouse, confirm the keeper's position. Thresh — base of the pier, overwatch. Luma — comms relay, hold here with Theodore."
 - SABLE: "Wren and I approach from the waterline. Up the exterior. Into the lamp room during the keeper's sleep cycle."
 - WREN: "And if the keeper wakes up?"
-- SABLE: "He doesn't."
+- SABLE: "He does not."
 **Lighting:** Deep shadow from the bollard. Faint holographic glow from each suit — department colors bleeding through grime. The lighthouse beam sweeps past in the background, briefly illuminating the stone quay surface near them. Jink's deployed wings cast emerald prismatic light.
 
 ```text
@@ -672,6 +686,8 @@ Night waterfront. The near-miss occurs on the open quay near active cargo operat
 ---
 
 ### PAGE 8 (5 panels)
+
+**Layout:** 2-row: full-width / narrow
 
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (wide left, narrow right). Bottom tier — two panels (narrow left, wide right).*
 
@@ -761,6 +777,8 @@ Painterly illustrated style, rich detail. Medium wide shot from a slight high an
 
 ### PAGE 9 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (equal width). Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -841,6 +859,8 @@ The lighthouse heist operates on the keeper's lamp cycle. The ambient light is t
 ---
 
 ### PAGE 10 (5 panels)
+
+**Layout:** Top banner + 2×2 grid below
 
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (equal width). Bottom tier — two panels (equal width).*
 
@@ -933,6 +953,8 @@ Painterly illustrated style, rich detail. Close-up at eye level, fairy scale. A 
 ---
 
 ### PAGE 11 (5 panels)
+
+**Layout:** Full-page splash with 4 inset panels
 
 *Page layout: Top tier — one full-width splash-height panel (half the page). Bottom half — four panels in a 2x2 grid.*
 
@@ -1091,6 +1113,8 @@ The lighthouse mechanism level is a cathedral of engineering at fairy scale. The
 
 ### PAGE 12 (4 panels)
 
+**Layout:** 4-row: full-width / panel / panel / full-width
+
 *Page layout: Top tier — one full-width panel (tall, one-third page height). Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width, tall
@@ -1161,6 +1185,8 @@ Painterly illustrated style, rich detail. Wide shot from a slightly elevated ang
 ---
 
 ### PAGE 13 (5 panels)
+
+**Layout:** 4-row: 2-col narrow / full-width / panel / panel
 
 *Page layout: Top tier — two panels (wide left, narrow right). Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
@@ -1249,6 +1275,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level. A tiny woman
 
 ### PAGE 14 (4 panels)
 
+**Layout:** 4-row: full-width / panel / panel / full-width
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel (wide, shorter).*
 
 #### Panel 1 — Full width
@@ -1322,6 +1350,8 @@ Painterly illustrated style, rich detail. Medium wide at eye level. Inside a lig
 
 ### PAGE 15 (4 panels)
 
+**Layout:** 4-row: panel / panel / full-width / panel
+
 *Page layout: Top tier — two equal panels. Bottom tier — one full-width panel (tall). Plus one inset panel bottom-right.*
 
 #### Panel 1 — Left half
@@ -1388,6 +1418,8 @@ Painterly illustrated style, rich detail. Close-up inset panel. A tiny woman's f
 ---
 
 ### PAGE 16 (4 panels)
+
+**Layout:** 5-row: full-width / panel / panel / full-width / panel
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel (transitional).*
 
@@ -1468,6 +1500,8 @@ Jink returns to the gallery for a final visual sweep before extraction. Standard
 
 ### PAGE 17 — FULL-PAGE PANEL (1 panel)
 
+**Layout:** Full-page splash
+
 *Page layout: Full-page panel. This is the SIGHTING — the key visual moment of Issue 7. Give it the full page.*
 
 #### Panel 1 — Full page
@@ -1499,6 +1533,8 @@ Warm amber lighthouse beam. Cool emerald wing-light. And the void on the far ban
 ---
 
 ### PAGE 18 (5 panels)
+
+**Layout:** 4-row: full-width / 2-col narrow / full-width / full-width
 
 *Page layout: Top tier — one full-width panel (narrow, beat panel). Second tier — two panels (wide left, narrow right). Third tier — one full-width panel. Bottom tier — one narrow full-width panel.*
 
@@ -1586,6 +1622,8 @@ Painterly illustrated style, rich detail. Medium wide at eye level. Inside a lig
 
 ### PAGE 19 (4 panels)
 
+**Layout:** 4-row: full-width / panel / panel / full-width
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -1665,6 +1703,8 @@ The wall-cavity camp. The squad has returned from the lighthouse operation. The 
 ---
 
 ### PAGE 20 (5 panels)
+
+**Layout:** 5-row: full-width / narrow / half + narrow / narrow / full-width
 
 *Page layout: Top tier — one full-width panel. Middle tier — three panels (narrow-wide-narrow). Bottom tier — one full-width panel.*
 
@@ -1755,6 +1795,8 @@ Painterly illustrated style, rich detail. Medium wide at eye level. Five tiny fi
 ---
 
 ### PAGE 21 (5 panels)
+
+**Layout:** 3-row: 2-col narrow / full-width / 2-col narrow
 
 *Page layout: A grid of five panels — irregular, each character isolated in their own frame. Top tier — two panels (wide left, narrow right). Middle tier — one full-width panel. Bottom tier — two panels (narrow left, wide right).*
 
@@ -1848,6 +1890,8 @@ A harborside morning scene. The lighthouse keeper has come down from his tower a
 ---
 
 ### PAGE 22 (4 panels)
+
+**Layout:** 3-row: full-width / 2-col narrow / full-width
 
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (wide left, narrow right). Bottom tier — one full-width panel.*
 

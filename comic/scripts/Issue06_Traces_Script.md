@@ -65,6 +65,8 @@ The wall-cavity camp between timber beams. The squad is assembled for a briefing
 
 ### PAGE 1 (5 panels)
 
+**Layout:** 4-row: full-width / panel / panel / 2-col narrow
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -152,6 +154,8 @@ Painterly illustrated style, rich detail. Close-up at eye level, tight framing o
 
 ### PAGE 2 (5 panels)
 
+**Layout:** 3-row: banner / 3-col center / footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — three equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -237,6 +241,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level. Two tin
 
 ### PAGE 3 (4 panels)
 
+**Layout:** 3-row: panel / panel / 2-col narrow
+
 *Page layout: Top tier — two equal panels. Bottom tier — one wide panel (two-thirds) and one narrow panel (one-third).*
 
 #### Panel 1 — Left half
@@ -315,6 +321,8 @@ Theodore moves through his city — the streets he knows, the neighborhoods he n
 ---
 
 ### PAGE 4 (5 panels)
+
+**Layout:** 4-row: full-width / panel / panel / 2-col narrow
 
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
@@ -398,6 +406,8 @@ Painterly illustrated style, rich detail. Extreme close-up, a view through holog
 ---
 
 ### PAGE 5 (5 panels)
+
+**Layout:** 5-row: panel / panel / full-width / panel / panel
 
 *Page layout: Top tier — two equal panels. Middle — one full-width panel. Bottom tier — two equal panels.*
 
@@ -488,6 +498,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level. A Victorian 
 
 ### PAGE 6 (4 panels)
 
+**Layout:** 4-row: full-width / panel / panel / full-width
+
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — two equal panels. Bottom — one full-width panel.*
 
 #### Panel 1 — Full width, widescreen
@@ -556,6 +568,8 @@ Painterly illustrated style, rich detail. Wide shot at eye level. A Victorian bo
 ---
 
 ### PAGE 7 (5 panels)
+
+**Layout:** 4-row: 2-col narrow / full-width / panel / panel
 
 *Page layout: Top tier — two panels (wide left, narrow right). Middle — one full-width panel. Bottom tier — two equal panels.*
 
@@ -644,6 +658,8 @@ Painterly illustrated style, rich detail. Medium wide shot from a low angle, loo
 
 ### PAGE 8 (4 panels)
 
+**Layout:** 4-row: full-width / full-width / panel / panel
+
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width, widescreen
@@ -716,6 +732,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level, looking past
 ---
 
 ### PAGE 9 (4 panels)
+
+**Layout:** 3-row: full-width / wide + narrow / wide
 
 *Page layout: Top tier — one full-width panel. Bottom — three panels in a wide row (wide left, narrow center, wide right).*
 
@@ -790,6 +808,8 @@ Painterly illustrated style, rich detail. Medium close-up at eye level. A Victor
 
 ### PAGE 10 (4 panels)
 
+**Layout:** 4-row: full-width / full-width / panel / panel
+
 *Page layout: Top tier — one full-width panel. Middle — one full-width widescreen panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width
@@ -856,6 +876,8 @@ Painterly illustrated style, rich detail. Close-up at eye level. A boy's hand on
 ---
 
 ### PAGE 11 (5 panels)
+
+**Layout:** 4-row: full-width / panel / panel / full-width
 
 *Page layout: Top — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
@@ -928,6 +950,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level, a drama
 ---
 
 ### PAGE 12 (5 panels)
+
+**Layout:** 4-row: full-width / 2-col narrow / full-width / narrow
 
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (narrow left, wide right). Bottom tier — one full-width panel, then a narrow continuation panel below.*
 
@@ -1087,6 +1111,8 @@ A stone cellar beneath a residential building in the investigation area. Barrel-
 
 ### PAGE 13 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — two equal panels. Bottom — one full-width panel.*
 
 #### Panel 1 — Full width, widescreen
@@ -1158,6 +1184,8 @@ Painterly illustrated style, rich detail. Wide shot at eye level of a tiny human
 ---
 
 ### PAGE 14 (4 panels)
+
+**Layout:** 3-row: full-width / full-width / 2-col
 
 *Page layout: Top tier — one full-width panel. Middle tier — one half-page panel. Bottom — two equal panels.*
 
@@ -1232,6 +1260,8 @@ Painterly illustrated style, rich detail. Extreme close-up at eye level of Luma'
 
 ### PAGE 15 (4 panels)
 
+**Layout:** 3-row: 2-col / full-width / full-width
+
 *Page layout: Top tier — two equal panels. Middle — one full-width panel. Bottom — one full-width panel.*
 
 #### Panel 1 — Half width, left
@@ -1302,6 +1332,8 @@ Painterly illustrated style, rich detail. Medium shot from a slight high angle �
 ---
 
 ### PAGE 16 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom — one full-width panel.*
 
@@ -1386,6 +1418,8 @@ The wall-cavity camp between timber beams — the same space from the briefing s
 
 ### PAGE 17 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width, widescreen
@@ -1456,6 +1490,8 @@ Painterly illustrated style, rich detail. Medium close-up from a slight low angl
 
 ### PAGE 18 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom — one full-width widescreen panel.*
 
 #### Panel 1 — Full width
@@ -1524,6 +1560,8 @@ Painterly illustrated style, rich detail. Wide widescreen shot from a wall gap l
 ---
 
 ### PAGE 19 (4 panels)
+
+**Layout:** 3-row: full-width / full-width / 2-col
 
 *Page layout: Top tier — one full-width panel. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
@@ -1606,6 +1644,8 @@ Narrow Victorian streets in the investigation area — the same neighborhood fro
 
 ### PAGE 20 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width widescreen panel. Middle — two equal panels. Bottom — one full-width panel.*
 
 #### Panel 1 — Full width, widescreen
@@ -1677,6 +1717,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level of a Vic
 ---
 
 ### PAGE 21 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle — two equal panels. Bottom — one full-width panel.*
 
@@ -1762,6 +1804,8 @@ Theodore's garret room above the workshop. Attic space — sloped ceiling follow
 ---
 
 ### PAGE 22 (5 panels)
+
+**Layout:** 4-row: full-width / 2-col / half + narrow / panel
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one half-width panel + one half-page final panel.*
 

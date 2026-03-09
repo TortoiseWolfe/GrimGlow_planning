@@ -67,6 +67,8 @@ Dawn. The squad deploys from the wall cavity camp to their assigned positions ac
 
 ### PAGE 1 (6 panels)
 
+**Layout:** 2-row: full-width / narrow
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — three equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -168,6 +170,8 @@ Painterly illustrated style, rich detail. Medium shot at eye level from street p
 
 ### PAGE 2 (4 panels)
 
+**Layout:** Top banner + 3-col below
+
 *Page layout: Full-width top panel, then three equal panels across the bottom two-thirds — a rapid deployment montage strip.*
 
 #### Panel 1 — Full width
@@ -248,6 +252,8 @@ The operation is underway. Four Titan devices across the city, four squad member
 ---
 
 ### PAGE 3 (5 panels)
+
+**Layout:** 4-row: 2-col narrow / full-width / panel / panel
 
 *Page layout: Top tier — two panels (wide left, narrow right). Middle — one full-width panel. Bottom tier — two equal panels.*
 
@@ -335,6 +341,8 @@ Painterly illustrated style, rich detail. Medium shot from a dynamic angle. A ti
 
 ### PAGE 4 (5 panels)
 
+**Layout:** 4-row: full-width / panel / panel / 2-col narrow
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
 #### Panel 1 — Full width
@@ -420,6 +428,8 @@ Painterly illustrated style, rich detail. Medium wide shot. A tiny figure in deg
 
 ### PAGE 5 (4 panels)
 
+**Layout:** Top banner + 3-col below
+
 *Page layout: Top — one full-width panel. Bottom — three equal panels across.*
 
 #### Panel 1 — Full width
@@ -488,6 +498,8 @@ Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded
 ---
 
 ### PAGE 6 (4 panels)
+
+**Layout:** 2×2 grid
 
 *Page layout: Two equal panels top, two equal panels bottom — a grid of simultaneous check-ins.*
 
@@ -561,6 +573,8 @@ Painterly illustrated style, rich detail. Close-up of a holographic display — 
 
 ### PAGE 7 (4 panels)
 
+**Layout:** Top banner + 3-col below
+
 *Page layout: One full-width top panel, three equal panels bottom.*
 
 #### Panel 1 — Full width
@@ -632,6 +646,8 @@ Painterly illustrated style, rich detail. Medium close-up. A tiny figure in degr
 ---
 
 ### PAGE 8 (4 panels)
+
+**Layout:** 3-row: 2-col / full-width / panel
 
 *Page layout: Top — two equal panels. Bottom — one full-width panel transitioning to Section 3. One inset panel bottom-right.*
 
@@ -714,6 +730,8 @@ The operation was succeeding. Now it fails. One of the four basement devices was
 
 ### PAGE 9 (5 panels)
 
+**Layout:** Full-page splash with 4 inset panels
+
 *Page layout: SPLASH — one massive panel filling the top two-thirds. Three panels across the bottom third.*
 
 #### Panel 1 — SPLASH (top two-thirds)
@@ -784,6 +802,8 @@ Painterly illustrated style, rich detail. Close-up. A Victorian boy of twelve or
 ---
 
 ### PAGE 10 (5 panels)
+
+**Layout:** 4-row: full-width / panel / panel / 2-col narrow
 
 *Page layout: Top tier — one full-width action panel. Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
@@ -872,6 +892,8 @@ Painterly illustrated style, rich detail. Medium wide shot. A crimson energy bol
 
 ### PAGE 11 (4 panels)
 
+**Layout:** Top banner + 3-col below
+
 *Page layout: Top — one full-width panel. Bottom — three equal panels.*
 
 #### Panel 1 — Full width
@@ -945,6 +967,8 @@ Painterly illustrated style, rich detail. Medium shot. A Victorian boy pulls ope
 ---
 
 ### PAGE 12 (4 panels)
+
+**Layout:** Top banner + 3-col below
 
 *Page layout: One full-width top panel. Three panels across the bottom — transitioning into Section 4.*
 
@@ -1025,6 +1049,8 @@ Theodore disarms the Titan hub device. This is the climax of the issue's action 
 ---
 
 ### PAGE 13 (5 panels)
+
+**Layout:** 4-row: full-width / panel / panel / 2-col narrow
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
@@ -1114,6 +1140,8 @@ Painterly illustrated style, rich detail. Medium wide shot. A Victorian London s
 
 ### PAGE 14 (4 panels)
 
+**Layout:** 2×2 grid
+
 *Page layout: Top — two equal panels. Bottom — two equal panels. A steady, rhythmic grid for the countdown.*
 
 #### Panel 1 — Half width, top left
@@ -1185,6 +1213,8 @@ Painterly illustrated style, rich detail. Close-up. A boy's oil-stained fingers 
 
 ### PAGE 15 (4 panels)
 
+**Layout:** Full-page splash with 3 inset panels
+
 *Page layout: Full-width SPLASH top (two-thirds page). Three panels across the bottom third.*
 
 #### Panel 1 — SPLASH (top two-thirds)
@@ -1253,6 +1283,8 @@ Painterly illustrated style, rich detail. Medium shot. A tiny figure in maximum-
 ---
 
 ### PAGE 16 (4 panels)
+
+**Layout:** 3-row: full-width / half + narrow / 2-col narrow
 
 *Page layout: Top — one full-width panel. Bottom — three panels (wide left, narrow center, narrow right). Transitional page — operation aftermath into the revelation.*
 
@@ -1334,6 +1366,8 @@ Luma delivers the synthesis she's been building across eight issues. This is the
 ---
 
 ### PAGE 17 (5 panels)
+
+**Layout:** Full-page splash with 4 inset panels
 
 *Page layout: SPLASH — one massive panel filling the top half. Four panels in a 2x2 grid across the bottom half.*
 
@@ -1420,6 +1454,8 @@ Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded
 
 ### PAGE 18 (4 panels)
 
+**Layout:** 2-col top + full-width footer
+
 *Page layout: Top — two equal panels. Bottom — one full-width panel spanning the page. This is the core revelation.*
 
 #### Panel 1 — Half width, top left
@@ -1472,6 +1508,8 @@ Painterly illustrated style, rich detail. Wide shot. The interior of a Victorian
 ---
 
 ### PAGE 19 (3 panels)
+
+**Layout:** 2-row: full-width / 2-col narrow
 
 *Page layout: One full-width panel top. Two panels bottom (wide left, narrow right). Quiet transition from revelation to acknowledgment.*
 
@@ -1534,6 +1572,8 @@ Sable's response to the revelation. This is not a speech. This is not a command.
 
 ### PAGE 20 (3 panels)
 
+**Layout:** 3 stacked full-width horizontal strips
+
 *Page layout: One full-width panel top (half page). One full-width panel middle (one-third page). One narrow horizontal strip at bottom.*
 
 #### Panel 1 — Full width, top (half page)
@@ -1593,6 +1633,8 @@ Night. Hours after the operation. The squad is not in this scene — their absen
 ---
 
 ### PAGE 21 (4 panels)
+
+**Layout:** Top banner + 3-col below
 
 *Page layout: Full-width establishing panel top. Three panels across the middle and bottom — the camera closing in progressively toward the final page.*
 
@@ -1657,6 +1699,8 @@ Painterly illustrated style, rich detail. Close-up. A boy's right hand holds a s
 ---
 
 ### PAGE 22 (3 panels)
+
+**Layout:** 3 stacked full-width horizontal strips
 
 *Page layout: One medium panel top (one-third page). One large panel middle (half page). One narrow horizontal strip at bottom — the FINAL PANEL. The camera closes progressively to the final image: pen, paper, words, candlelight.*
 

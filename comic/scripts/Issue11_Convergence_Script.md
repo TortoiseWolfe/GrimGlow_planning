@@ -71,6 +71,8 @@ Morning after the Titan encounter. The squad is gathered at the main briefing ar
 
 ### PAGE 1 (5 panels)
 
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Full width
@@ -155,6 +157,8 @@ Painterly illustrated style, rich detail. Close-up from a slight high angle of L
 
 ### PAGE 2 (5 panels)
 
+**Layout:** 3-row: banner / 3-col center / footer
+
 *Page layout: Top tier — one full-width panel (Wren's telegraph map). Middle tier — three equal panels (squad reactions). Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -237,6 +241,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level. Wren st
 
 ### PAGE 3 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle — two equal panels. Bottom — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -305,6 +311,8 @@ Painterly illustrated style, rich detail. Medium wide shot from a slight low ang
 ---
 
 ### PAGE 4 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top — one full-width panel. Middle — two equal panels. Bottom — one full-width panel.*
 
@@ -375,6 +383,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level. Five ti
 ---
 
 ### PAGE 5 (4 panels)
+
+**Layout:** 3-row: full-width / full-width / 2-col
 
 *Page layout: Top — one full-width panel. Middle — one full-width panel. Bottom — two equal panels.*
 
@@ -450,6 +460,8 @@ The grey daylight from the wall gap grows stronger as morning progresses. Wren's
 
 ### PAGE 6 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top — one full-width panel (SABLE'S DECISION). Middle — one full-width panel. Bottom — two equal panels.*
 
 #### Panel 1 — Full width
@@ -517,6 +529,8 @@ Painterly illustrated style, rich detail. Medium close-up at eye level of Sable 
 ---
 
 ### PAGE 7 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top — one full-width panel. Middle tier — three equal panels. Bottom — one full-width panel.*
 
@@ -602,6 +616,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level. Five ti
 
 ### PAGE 8 (4 panels)
 
+**Layout:** 3-row: 2-col / full-width / full-width
+
 *Page layout: Top — two equal panels. Bottom — one full-width panel. Final bottom strip — one full-width thin panel.*
 
 #### Panel 1 — Half width, left
@@ -677,6 +693,8 @@ Full daylight now — warm amber from the growing sun mixing with the cool grey 
 ---
 
 ### PAGE 9 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top — one full-width panel (Theodore arrives). Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
@@ -762,6 +780,8 @@ Painterly illustrated style, rich detail. Close-up detail shot. An enormous oil-
 ---
 
 ### PAGE 10 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
@@ -853,6 +873,8 @@ Painterly illustrated style, rich detail. Close-up in profile of Sable's face. D
 
 ### PAGE 11 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top — one full-width panel. Middle — one full-width panel. Bottom — two equal panels.*
 
 #### Panel 1 — Full width
@@ -924,6 +946,8 @@ Painterly illustrated style, rich detail. Close-up of Jink looking toward the wa
 Night. The character moments take place after dark — the squad has spent the afternoon preparing, and now the night before the operation stretches ahead. The dominant palette is moonlight (cold blue-white from above) and gaslight (warm amber from below/distance). The Jink/Theodore rooftop scene uses the most balanced dual-lighting in the volume — neither warm nor cool dominates. Jink's wing-pack seam glow provides the only fairy-tech light, a faint emerald accent that marks them as other. Luma's church cache scene returns to the cold scanner-light-on-stone palette from Issue 8. Thresh's weapon check uses a single warm gaslight source through the wall gap. Sable's file-closing is lit by the data module's final glow — then darkness.
 
 ### PAGE 12 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top tier — one full-width establishing panel. Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
@@ -1008,6 +1032,8 @@ Painterly illustrated style, rich detail. Close-up of Theodore's face turning to
 ---
 
 ### PAGE 13 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col narrow / 2-col
 
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (narrow left, wide right). Bottom tier — two equal panels.*
 
@@ -1096,6 +1122,8 @@ Painterly illustrated style, rich detail. Close-up detail shot. An enormous hand
 
 ### PAGE 14 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top — one full-width panel (the KEY panel of the issue). Middle — one full-width panel. Bottom — two equal panels.*
 
 #### Panel 1 — Full width (KEY PANEL — emotional centerpiece of the volume)
@@ -1168,6 +1196,8 @@ Painterly illustrated style, rich detail. Close-up of Theodore's face looking do
 ---
 
 ### PAGE 15 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top tier — one full-width panel (Luma at the church). Middle tier — two equal panels. Bottom tier — two panels (narrow left, wide right).*
 
@@ -1251,6 +1281,8 @@ Painterly illustrated style, rich detail. Medium shot. A broad-shouldered woman 
 
 ### PAGE 16 (4 panels)
 
+**Layout:** 3-row: 2-col / full-width / full-width
+
 *Page layout: Top — two equal panels. Middle — one full-width panel. Bottom — one full-width panel.*
 
 #### Panel 1 — Half width, left
@@ -1323,6 +1355,8 @@ Pre-dawn transitioning to dawn. The camp in the hours before the operation — t
 ---
 
 ### PAGE 17 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col / 2-col narrow
 
 *Page layout: Top — one full-width panel (gearing-up montage establishing). Middle tier — two equal panels. Bottom tier — two panels (wide left, narrow right).*
 
@@ -1408,6 +1442,8 @@ Painterly illustrated style, rich detail. Close-up of Luma adjusting her hologra
 
 ### PAGE 18 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top — one full-width panel. Middle — one full-width panel. Bottom — two equal panels.*
 
 #### Panel 1 — Full width
@@ -1472,6 +1508,8 @@ Painterly illustrated style, rich detail. Medium shot through a gap in brickwork
 ---
 
 ### PAGE 19 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top — one full-width panel. Middle — two equal panels. Bottom — one full-width panel.*
 
@@ -1547,6 +1585,8 @@ Painterly illustrated style, rich detail. Wide shot. Five tiny figures at a gap 
 ---
 
 ### PAGE 20 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top — one full-width panel. Middle — two equal panels. Bottom — one full-width panel.*
 
@@ -1625,6 +1665,8 @@ Page 21: Night. The camp in darkness after the preparations, before the dawn dep
 
 ### PAGE 21 (3 panels)
 
+**Layout:** 3 stacked full-width horizontal strips
+
 *Page layout: Top — one full-width panel (tall). Middle — one full-width panel (tall). Bottom — one full-width panel (standard). Three panels, vertical emphasis, the night stretching.*
 
 #### Panel 1 — Full width, tall
@@ -1675,6 +1717,8 @@ Painterly illustrated style, rich detail. Close-up of Sable's face in near-darkn
 ---
 
 ### PAGE 22 (4 panels)
+
+**Layout:** 3-row: full-width / full-width / 2-col narrow
 
 *Page layout: Top — one full-width panel. Middle — one full-width panel. Bottom — two panels (wide left, narrow right — FINAL PANEL).*
 

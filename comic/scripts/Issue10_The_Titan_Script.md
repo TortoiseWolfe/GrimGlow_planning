@@ -80,6 +80,8 @@ The wall cavity camp, familiar from Issues 4-9. But the atmosphere is wrong — 
 
 ### PAGE 1 (5 panels)
 
+**Layout:** 3-row: banner / 3-col center / footer
+
 *Page layout: Top tier — one full-width establishing panel. Middle tier — three equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -166,6 +168,8 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level showing 
 
 ### PAGE 2 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — two equal panels. Bottom tier — one full-width widescreen panel.*
 
 #### Panel 1 — Full width, widescreen
@@ -235,6 +239,8 @@ Painterly illustrated style, rich detail. Wide widescreen shot, slightly elevate
 ---
 
 ### PAGE 3 (5 panels)
+
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
 
 *Page layout: Top tier — two panels (wide left, narrow right). Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
@@ -325,6 +331,8 @@ Painterly illustrated style, rich detail. Medium close-up at eye level of Sable,
 
 ### PAGE 4 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -396,6 +404,8 @@ Painterly illustrated style, rich detail. Wide shot from behind a group of five 
 ---
 
 ### PAGE 5 (5 panels)
+
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
 
 *Page layout: Top tier — two panels (narrow left, wide right). Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
@@ -484,6 +494,8 @@ Painterly illustrated style, rich detail. Close-up at eye level of Sable's face,
 
 ### PAGE 6 (4 panels)
 
+**Layout:** 4-row: full-width / 2-col / full-width / panel
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -553,6 +565,8 @@ Painterly illustrated style, rich detail. Wide dramatic shot from the squad's po
 
 ### PAGE 7 — FULL-PAGE SPLASH
 
+**Layout:** Full-page splash
+
 *Page layout: Single image. The Titan reveal.*
 
 #### Panel 1 — Full page
@@ -585,6 +599,8 @@ The telegraph operating floor becomes a battlefield. At fairy scale, the telegra
 ---
 
 ### PAGE 8 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top tier — one full-width widescreen action panel. Middle tier — three equal panels. Bottom tier — one full-width panel.*
 
@@ -672,6 +688,8 @@ Painterly illustrated style, rich detail. Wide dynamic action shot across a dark
 
 ### PAGE 9 (5 panels)
 
+**Layout:** 3-row: 2-col narrow / full-width / 2-col
+
 *Page layout: Top tier — two panels (wide left, narrow right). Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Two-thirds width, left
@@ -757,6 +775,8 @@ Painterly illustrated style, rich detail. Close-up from a slight high angle of t
 
 ### PAGE 10 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -814,7 +834,7 @@ Painterly illustrated style, rich detail. Medium shot from a low angle of Thresh
 **Action:** All five squad members engaged in coordinated harassment of the Titan. They cannot hurt it, but they can slow it.
 **Expression:** Various — fear, determination, focus. The unity is in action, not expression.
 **Dialogue:**
-- SABLE: "Wren, you're quiet. Tell me you're thinking."
+- SABLE: "Wren, you are quiet. Tell me you are thinking."
 - WREN (off-panel): "I'm thinking."
 **Lighting:** Full chaotic combat palette — emerald wing-strobe, crimson and silver-blue weapons fire, sapphire scanner fragments, amber-black device glow, dark iridescence. Beautiful and terrible.
 
@@ -825,6 +845,8 @@ Painterly illustrated style, rich detail. Wide shot at eye level across the enti
 ---
 
 ### PAGE 11 (5 panels)
+
+**Layout:** 3-row: full-width / 2-col narrow / 2-col
 
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (narrow left, wide right). Bottom tier — two equal panels.*
 
@@ -914,6 +936,8 @@ Painterly illustrated style, rich detail. Dynamic action shot from a low angle. 
 
 ### PAGE 12 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width, widescreen
@@ -984,6 +1008,8 @@ Painterly illustrated style, rich detail. Wide shot from behind Thresh at ground
 
 ### PAGE 13 (5 panels)
 
+**Layout:** 3-row: 2-col / full-width / 2-col narrow
+
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel. Bottom tier — two panels (wide left, narrow right).*
 
 #### Panel 1 — Half width, left
@@ -1009,7 +1035,7 @@ Painterly illustrated style, rich detail. Medium shot at eye level of Thresh in 
 **Action:** Sable steps out of cover to join the forward fight. Not because Thresh needs saving, but because Thresh shouldn't fight alone.
 **Expression:** Commander's recognition. And something that might be the beginning of atonement for the secrets she kept.
 **Dialogue:**
-- SABLE: "Jink, flank left. Luma, keep feeding us the gap timing. Thresh — I'm with you."
+- SABLE: "Jink, flank left. Luma, keep feeding us the gap timing. Thresh — I am with you."
 **Lighting:** Silver-blue holographic glow recovering at her suit seams as she moves into the fight. Warm amber-black glow ahead.
 
 ```text
@@ -1069,6 +1095,8 @@ Painterly illustrated style, rich detail. Extreme close-up at eye level of two h
 ---
 
 ### PAGE 14 (4 panels)
+
+**Layout:** 3-row: full-width / 2-col narrow / full-width
 
 *Page layout: Top tier — one full-width action panel. Middle tier — two panels (narrow left, wide right). Bottom tier — one full-width panel.*
 
@@ -1146,6 +1174,8 @@ The telegraph apparatus becomes the focal point of light — Wren's copper-gold 
 ---
 
 ### PAGE 15 (5 panels)
+
+**Layout:** 3-row: banner / 3-col center / footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — three equal panels. Bottom tier — one full-width panel.*
 
@@ -1233,6 +1263,8 @@ Painterly illustrated style, rich detail. Wide dramatic shot of the entire teleg
 
 ### PAGE 16 (4 panels)
 
+**Layout:** 3-row: full-width / full-width / 2-col
+
 *Page layout: Top tier — one full-width widescreen panel. Middle tier — one full-width panel. Bottom tier — two equal panels.*
 
 #### Panel 1 — Full width, widescreen
@@ -1305,6 +1337,8 @@ Painterly illustrated style, rich detail. Medium close-up at eye level of Wren c
 ---
 
 ### PAGE 17 (4 panels)
+
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
 
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
@@ -1386,6 +1420,8 @@ Grey dawn transitioning to morning light — overcast, cold, the color drained f
 
 ### PAGE 18 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -1461,6 +1497,8 @@ Painterly illustrated style, rich detail. Wide exterior shot of the Victorian st
 
 ### PAGE 19 (4 panels)
 
+**Layout:** 3-row: 2-col / full-width / full-width
+
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Half width, left
@@ -1531,6 +1569,8 @@ Painterly illustrated style, rich detail. Wide morning exterior shot of a Victor
 
 ### PAGE 20 (4 panels)
 
+**Layout:** 3-row: full-width banner / 2-col center / full-width footer
+
 *Page layout: Top tier — one full-width panel. Middle tier — two equal panels. Bottom tier — one full-width panel.*
 
 #### Panel 1 — Full width
@@ -1594,7 +1634,7 @@ Painterly illustrated style, rich detail. Close-up two-shot of Luma and Thresh. 
 **Action:** Sable processes the strategic implications.
 **Expression:** The weight of command added to the weight of knowledge.
 **Dialogue:**
-- SABLE: "Titans aren't raiders. They're architects. They've been shaping things from the inside." *(beat)* "We can't just repair the ship and leave."
+- SABLE: "Titans are not raiders. They are architects. They have been shaping things from the inside." *(beat)* "We cannot just repair the ship and leave."
 - WREN (off-panel): "No."
 - SABLE: "We have to stop them."
 **Lighting:** Grey daylight through the wall gap, silhouetting Sable. Camp light behind her — the depleted warmth of recovering fairy technology.
@@ -1606,6 +1646,8 @@ Painterly illustrated style, rich detail. Medium wide shot of Sable standing at 
 ---
 
 ### PAGE 21 (4 panels)
+
+**Layout:** 6-row: full-width / 2-col narrow / full-width / 2-col / full-width / full-width
 
 *Page layout: Top tier — one full-width panel. Middle tier — two panels (narrow left, wide right). Bottom tier — one full-width panel.*
 
@@ -1673,6 +1715,8 @@ Painterly illustrated style, rich detail. Wide shot from outside a workshop wind
 ---
 
 ### PAGE 22 — DUAL FAIRY TALE ECHO (4 panels)
+
+**Layout:** 3-row: 2-col top / full-width center / full-width footer
 
 *Page layout: Top tier — two equal panels. Middle tier — one full-width panel. Bottom tier — one full-width panel.*
 
