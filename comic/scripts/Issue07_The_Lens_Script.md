@@ -119,7 +119,7 @@ Painterly illustrated style, rich detail. Medium close-up at eye level of a tiny
 - WREN: "Single keeper. Night shift. He tends the lamp and sleeps in the watch room below."
 - SABLE: "Pattern?"
 - WREN: "Clockwork. He checks the lamp every two hours. We have a ninety-minute window between rounds."
-**Lighting:** The copper-gold schematic reflects off Sable's pewter-grey suit. Warm amber from above catches her silver-white hair. Her face is half in the schematic light, half in shadow.
+**Lighting:** The copper-gold schematic reflects off Sable's silver suit, its sheen soot-bloomed to pewter at the shoulders. Warm amber from above catches her silver-white hair. Her face is half in the schematic light, half in shadow.
 
 ```text
 Painterly illustrated style, rich detail. Medium shot at eye level of a tiny woman approximately four inches tall with dark brown skin, sharp angular features, and close-cropped silver-white hair. Her metallic silver suit is dulled to pewter-grey with soot bloom across the right shoulder, a tension-wear crease visible at the collar. Arms folded, posture rigid, looking at an off-panel holographic projection but not at the person presenting it. Expression is controlled professional distance — attentive but emotionally removed, a commander carrying something unseen. Copper-gold holographic light from the schematic reflects off her pewter suit from the left. Warm amber light from above catches her silver-white hair. Half her face in structured geometric light, half in shadow. Oil paint texture, visible brushwork, authority worn thin.
@@ -577,7 +577,7 @@ Painterly illustrated style, rich detail. Medium wide shot from a low fairy-scal
 #### Panel 5 — Narrow, right (one-third width)
 
 **Shot:** Medium shot, eye level, fairy scale
-**Camera:** 50mm. Sable, standing apart from the lens inspection, looking toward the lighthouse. The beam sweeps past in the background — a bar of amber light that briefly illuminates her pewter-grey suit before passing. She's calculating, measuring, preparing. But there's a remove — she's running the operation correctly without being present in it.
+**Camera:** 50mm. Sable, standing apart from the lens inspection, looking toward the lighthouse. The beam sweeps past in the background — a bar of amber light that briefly illuminates her silver suit, dulled to pewter by accumulated soot, before passing. She's calculating, measuring, preparing. But there's a remove — she's running the operation correctly without being present in it.
 **Action:** Sable watches the lighthouse beam's rotation, timing it. One hand at her earpiece, checking comms.
 **Expression:** Professional focus over emotional distance. The commander doing her job, nothing more.
 **Dialogue:**

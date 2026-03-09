@@ -476,14 +476,14 @@ Painterly illustrated style, rich detail. Medium wide shot at eye level with a c
 #### Panel 2 — One-third width, left
 
 **Shot:** Close-up, eye level
-**Camera:** 85mm. Thresh. Reading the display. Silent. Arms still crossed but the grip on their own forearms has tightened — the only visible sign of reaction. The information is landing as threat assessment.
+**Camera:** 85mm. Thresh. Reading the display. Silent. Arms still crossed but the grip on her own forearms has tightened — the only visible sign of reaction. The information is landing as threat assessment.
 **Action:** Thresh absorbs. Says nothing. The operational vocabulary is running internally — threat, exposure, compromised — but nothing comes out.
 **Expression:** Jaw tight, eyes moving across the text. Processing threat, not information.
 **Dialogue:** None.
 **Lighting:** Blue-white from the display. The dented crimson armor catches the light, the scratches across the chest plate visible.
 
 ```text
-Painterly illustrated style, rich detail. Close-up at eye level of Thresh. Broad-shouldered, muscular, pale skin, defined cheekbones, firm jaw, copper-red buzz cut. Arms crossed with the grip on their own forearms visibly tightened — the only sign of reaction. Jaw tight, eyes moving, processing threat. Silent. Their crimson metallic suit is dented at the left pauldron, a long scratch across the chest plate catching blue-white holographic light from the display. Expression is contained — fear compressed past silence into operational assessment. Oil paint texture, visible brushwork, silence as reaction.
+Painterly illustrated style, rich detail. Close-up at eye level of Thresh. Broad-shouldered, muscular, pale skin, defined cheekbones, firm jaw, copper-red buzz cut. Arms crossed with the grip on her own forearms visibly tightened — the only sign of reaction. Jaw tight, eyes moving, processing threat. Silent. Her crimson metallic suit is dented at the left pauldron, a long scratch across the chest plate catching blue-white holographic light from the display. Expression is contained — fear compressed past silence into operational assessment. Oil paint texture, visible brushwork, silence as reaction.
 ```
 
 ---
@@ -661,14 +661,14 @@ Painterly illustrated style, rich detail. Close-up at eye level of Sable's face.
 #### Panel 4 — One-third width, right
 
 **Shot:** Close-up, eye level
-**Camera:** 85mm. Thresh. Still silent. But now the arms have uncrossed and one hand rests on the compact rifle at their hip — not drawing it, not threatening. A reflex. Threat response to emotional distress, channeled into the only familiar gesture available.
+**Camera:** 85mm. Thresh. Still silent. But now the arms have uncrossed and one hand rests on the compact rifle at her hip — not drawing it, not threatening. A reflex. Threat response to emotional distress, channeled into the only familiar gesture available.
 **Action:** Thresh's hand finds the weapon. Unconscious. The fear-response default.
 **Expression:** Stone. Compressed past expression. The eyes are somewhere else.
 **Dialogue:** None.
 **Lighting:** Blue-white from the display. The dented crimson armor is dark in the shadows.
 
 ```text
-Painterly illustrated style, rich detail. Close-up at eye level of Thresh. Broad-shouldered, pale skin, defined cheekbones, copper-red buzz cut. Expression is stone — compressed past expression, eyes somewhere else. One hand has moved to rest on the compact rifle at their hip — not drawing, not threatening, an unconscious reflex. The fear-response default channeled into the only familiar gesture. Their crimson metallic suit is dented and scratched, dark in the shadows with blue-white holographic light catching only the edges. Oil paint texture, visible brushwork, silence and withdrawal.
+Painterly illustrated style, rich detail. Close-up at eye level of Thresh. Broad-shouldered, pale skin, defined cheekbones, copper-red buzz cut. Expression is stone — compressed past expression, eyes somewhere else. One hand has moved to rest on the compact rifle at her hip — not drawing, not threatening, an unconscious reflex. The fear-response default channeled into the only familiar gesture. Her crimson metallic suit is dented and scratched, dark in the shadows with blue-white holographic light catching only the edges. Oil paint texture, visible brushwork, silence and withdrawal.
 ```
 
 ---
@@ -714,7 +714,7 @@ Painterly illustrated style, rich detail. Medium shot at eye level. Sable stands
 **Shot:** Medium wide, eye level, group reaction
 **Camera:** 35mm. The squad receiving this final layer. The information is complex and incomplete — a mission they cannot define, at a convergence point whose mechanism they cannot identify, following operatives who never came home. The weight of the unknown.
 **Action:** Luma speaks first. Her question reframes the information.
-**Expression:** Luma: the "what if" building visibly. Wren: thinking hard. Jink: still angry but listening despite themselves. Thresh: still half-turned away but their head has angled back — they're listening too.
+**Expression:** Luma: the "what if" building visibly. Wren: thinking hard. Jink: still angry but listening despite themselves. Thresh: still half-turned away but her head has angled back — she's listening too.
 **Dialogue:**
 - LUMA: "Cultural vector. What if the convergence point is not technology? Not an event? What if it is something the people of this era believe?"
 - WREN: "That is a significant leap from corrupted data, Luma."
@@ -722,7 +722,7 @@ Painterly illustrated style, rich detail. Medium shot at eye level. Sable stands
 **Lighting:** Blue-white display light. Luma's lenses glow as she processes.
 
 ```text
-Painterly illustrated style, rich detail. Medium wide shot at eye level. Five figures on beams around the holographic display, receiving the final layer of revelation. Luma leans forward on her lower cross-timber, holographic lenses glowing blue-violet, hands gesturing as she speaks — the question that reframes everything. Wren stands with arms crossed, thinking hard, expression skeptical but engaged. Jink is still rigid with anger but their head is tilted — listening despite themselves. Thresh is half-turned away but the angle of their head shows they are listening. Sable stands by the display, watching Luma make the connection she could not. The blue-white holographic data scrolls between them all. Oil paint texture, visible brushwork, the first glimmer of understanding amid the wreckage of trust.
+Painterly illustrated style, rich detail. Medium wide shot at eye level. Five figures on beams around the holographic display, receiving the final layer of revelation. Luma leans forward on her lower cross-timber, holographic lenses glowing blue-violet, hands gesturing as she speaks — the question that reframes everything. Wren stands with arms crossed, thinking hard, expression skeptical but engaged. Jink is still rigid with anger but their head is tilted — listening despite themselves. Thresh is half-turned away but the angle of her head shows she is listening. Sable stands by the display, watching Luma make the connection she could not. The blue-white holographic data scrolls between them all. Oil paint texture, visible brushwork, the first glimmer of understanding amid the wreckage of trust.
 ```
 
 ---
@@ -813,7 +813,7 @@ Painterly illustrated style, rich detail. Close-up at eye level of Wren. East As
 #### Panel 4 — Full width
 
 **Shot:** Wide shot, slightly elevated angle
-**Camera:** 28mm. The full group. The revelation is complete. The holographic display is still active but no one is looking at it — they are looking at each other, or not looking at each other. The body language tells the story: Sable stands alone near the display. Jink has turned partially away. Thresh has fully turned their back. Luma sits with the dead data core, eyes down. Wren stands in the center, the only one facing forward. Five people in a room who were a unit ten minutes ago and are now five individuals.
+**Camera:** 28mm. The full group. The revelation is complete. The holographic display is still active but no one is looking at it — they are looking at each other, or not looking at each other. The body language tells the story: Sable stands alone near the display. Jink has turned partially away. Thresh has fully turned her back. Luma sits with the dead data core, eyes down. Wren stands in the center, the only one facing forward. Five people in a room who were a unit ten minutes ago and are now five individuals.
 **Action:** The aftermath begins. No one moves to leave yet. But the fracture is visible.
 **Expression:** (At distance) Each figure in their own posture of processing. The holographic display scrolls on, unread.
 **Dialogue:**
@@ -877,15 +877,15 @@ Painterly illustrated style, rich detail. Close-up at eye level of Jink, stopped
 #### Panel 3 — One-third width, center
 
 **Shot:** Medium shot, eye level
-**Camera:** 65mm. Thresh. They have retreated to the farthest point of the main beam, near a timber upright. Their back is partially against the wood. Weapon still at hip, hand still resting on it. They watch the argument from distance.
-**Action:** Thresh says one thing. It is the most they will say this entire issue.
+**Camera:** 65mm. Thresh. She has retreated to the farthest point of the main beam, near a timber upright. Her back is partially against the wood. Weapon still at hip, hand still resting on it. She watches the argument from distance.
+**Action:** Thresh says one thing. It is the most she will say this entire issue.
 **Expression:** Stone. The compression is total. But the single line lands like a depth charge.
 **Dialogue:**
 - THRESH: "Exposed."
 **Lighting:** Dim — Thresh has retreated from the display's light. Only edge-light catches the crimson armor.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot at eye level. Thresh has retreated to the farthest end of the main beam, back partially against a timber upright. Broad-shouldered, pale skin, copper-red buzz cut, dented and scratched crimson armored suit. One hand rests on the compact rifle at their hip. They watch the argument from distance. Expression is stone — total compression. A single word from the shadows. Dim lighting — Thresh has retreated from the display's blue-white illumination. Only edge-light catches the crimson armor, the dented pauldron, the scratched chest plate. The timber upright behind them casts Thresh into partial shadow. Oil paint texture, visible brushwork, withdrawal into darkness.
+Painterly illustrated style, rich detail. Medium shot at eye level. Thresh has retreated to the farthest end of the main beam, back partially against a timber upright. Broad-shouldered, pale skin, copper-red buzz cut, dented and scratched crimson armored suit. One hand rests on the compact rifle at her hip. She watches the argument from distance. Expression is stone — total compression. A single word from the shadows. Dim lighting — Thresh has retreated from the display's blue-white illumination. Only edge-light catches the crimson armor, the dented pauldron, the scratched chest plate. The timber upright behind her casts Thresh into partial shadow. Oil paint texture, visible brushwork, withdrawal into darkness.
 ```
 
 ---
@@ -1098,14 +1098,14 @@ Painterly illustrated style, rich detail. Medium close-up at eye level. Jink sit
 #### Panel 2 — Half width, top right
 
 **Shot:** Medium close-up, eye level
-**Camera:** 65mm. Thresh, in the far shadows of the camp. Sitting with their back to the main space, weapon across their lap — the default position. But the weapon isn't being checked or cleaned. It just sits there. Thresh stares at the timber wall in front of them.
-**Action:** Thresh has withdrawn into the compression that has been their mode since Issue 2. But this is a new kind of compression — not fear of the environment but something closer to existential fatigue. The mission they risked their life for was something else entirely.
+**Camera:** 65mm. Thresh, in the far shadows of the camp. Sitting with her back to the main space, weapon across her lap — the default position. But the weapon isn't being checked or cleaned. It just sits there. Thresh stares at the timber wall in front of her.
+**Action:** Thresh has withdrawn into the compression that has been her mode since Issue 2. But this is a new kind of compression — not fear of the environment but something closer to existential fatigue. The mission she risked her life for was something else entirely.
 **Expression:** Vacant. The operational vocabulary has run out of words. Staring at wood grain.
 **Dialogue:** None.
 **Lighting:** Near-darkness. Only the faintest crimson from the suit's stuttering holographic edge-nodes. The shadows are deep.
 
 ```text
-Painterly illustrated style, rich detail. Medium close-up at eye level. Thresh sits in the far shadows of the camp, back to the main space, weapon across their lap untouched. Broad-shouldered, pale skin, copper-red buzz cut barely visible in the dimness. They stare at the timber wall in front of them — wood grain, nails, dust. Expression is vacant — beyond operational vocabulary, beyond compression, into something empty. Their crimson armored suit's holographic edge-nodes stutter faintly, the only light in near-darkness — crimson pulses on scratched armor. The weapon sits across their lap, not being cleaned, not being checked. Just there. Oil paint texture, visible brushwork, withdrawal past silence into absence.
+Painterly illustrated style, rich detail. Medium close-up at eye level. Thresh sits in the far shadows of the camp, back to the main space, weapon across her lap untouched. Broad-shouldered, pale skin, copper-red buzz cut barely visible in the dimness. She stares at the timber wall in front of her — wood grain, nails, dust. Expression is vacant — beyond operational vocabulary, beyond compression, into something empty. Her crimson armored suit's holographic edge-nodes stutter faintly, the only light in near-darkness — crimson pulses on scratched armor. The weapon sits across her lap, not being cleaned, not being checked. Just there. Oil paint texture, visible brushwork, withdrawal past silence into absence.
 ```
 
 ---
@@ -1195,7 +1195,7 @@ Painterly illustrated style, rich detail. Medium shot at eye level of Jink lying
 #### Panel 4 — Full width
 
 **Shot:** Medium shot, eye level, Thresh
-**Camera:** 50mm. Thresh has moved — they are now at the camp's far perimeter, near a holographic marker that pulses weakly. They stand in their habitual overwatch position: facing outward, weapon ready, scanning for threats. The military default when everything else fails. The body knows what to do when the mind cannot.
+**Camera:** 50mm. Thresh has moved — she is now at the camp's far perimeter, near a holographic marker that pulses weakly. She stands in her habitual overwatch position: facing outward, weapon ready, scanning for threats. The military default when everything else fails. The body knows what to do when the mind cannot.
 **Action:** Thresh reverts to function. It is not recovery — it is reflex. The soldier does what soldiers do when there is nothing else: they stand watch.
 **Expression:** Eyes scanning. Jaw set. The fear and the mission confusion compressed into the only thing that still makes sense — perimeter defense.
 **Dialogue:**
@@ -1203,7 +1203,7 @@ Painterly illustrated style, rich detail. Medium shot at eye level of Jink lying
 **Lighting:** Dim holographic perimeter marker pulsing weak blue-white. Morning grey filtering through timber. Crimson suit nodes in steady, dim rhythm.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot at eye level. Thresh at the camp's far perimeter, standing in an overwatch position near a weakly pulsing holographic perimeter marker. Broad-shouldered, pale skin, copper-red buzz cut, dented crimson armored suit. Weapon ready, scanning outward for threats. The military default when everything else has failed — the body knowing what to do when the mind cannot. Expression is operational: eyes scanning, jaw set, everything compressed into the one function that still makes sense. The weak blue-white holographic perimeter marker pulses beside them. Morning grey filters through the timber spaces. The crimson suit's holographic edge-nodes pulse in steady, dim rhythm. Oil paint texture, visible brushwork, reflex as survival.
+Painterly illustrated style, rich detail. Medium shot at eye level. Thresh at the camp's far perimeter, standing in an overwatch position near a weakly pulsing holographic perimeter marker. Broad-shouldered, pale skin, copper-red buzz cut, dented crimson armored suit. Weapon ready, scanning outward for threats. The military default when everything else has failed — the body knowing what to do when the mind cannot. Expression is operational: eyes scanning, jaw set, everything compressed into the one function that still makes sense. The weak blue-white holographic perimeter marker pulses beside her. Morning grey filters through the timber spaces. The crimson suit's holographic edge-nodes pulse in steady, dim rhythm. Oil paint texture, visible brushwork, reflex as survival.
 ```
 
 ---
@@ -1477,7 +1477,7 @@ Painterly illustrated style, rich detail. Close-up at eye level of Jink listenin
 #### Panel 3 — Half width, right
 
 **Shot:** Close-up, eye level
-**Camera:** 85mm. Thresh, still at the perimeter, still facing outward — but their head is fully turned now. They are listening. The expression has shifted from stone to something more vulnerable — the operational vocabulary has no framework for a fairy tale. Thresh is hearing something the soldier part of them cannot process, and for once, the fear is quiet.
+**Camera:** 85mm. Thresh, still at the perimeter, still facing outward — but her head is fully turned now. She is listening. The expression has shifted from stone to something more vulnerable — the operational vocabulary has no framework for a fairy tale. Thresh is hearing something the soldier part of her cannot process, and for once, the fear is quiet.
 **Action:** Thresh listens. The story reaches through the compression.
 **Expression:** Unguarded. For a brief moment, the soldier has stepped aside and the person is visible.
 **Dialogue:**
@@ -1485,7 +1485,7 @@ Painterly illustrated style, rich detail. Close-up at eye level of Jink listenin
 **Lighting:** Warm amber from the wall gap, catching the side of Thresh's face. The crimson armor glows warm rather than its usual harsh red.
 
 ```text
-Painterly illustrated style, rich detail. Close-up at eye level of Thresh, head fully turned toward the storyteller, still at the perimeter but listening. Broad-shouldered, pale skin, copper-red buzz cut catching warm amber light. Their expression is unguarded — the operational vocabulary has no framework for fairy tales, the soldier has stepped aside, the person visible briefly. The fear is quiet. Warm amber gaslight from the wall gap catches the side of their face. Their crimson armored suit glows warm rather than its usual harsh red — the amber light transforming the cold crimson into something gentler. Oil paint texture, visible brushwork, armor made warm by candlelight.
+Painterly illustrated style, rich detail. Close-up at eye level of Thresh, head fully turned toward the storyteller, still at the perimeter but listening. Broad-shouldered, pale skin, copper-red buzz cut catching warm amber light. Her expression is unguarded — the operational vocabulary has no framework for fairy tales, the soldier has stepped aside, the person visible briefly. The fear is quiet. Warm amber gaslight from the wall gap catches the side of her face. Her crimson armored suit glows warm rather than its usual harsh red — the amber light transforming the cold crimson into something gentler. Oil paint texture, visible brushwork, armor made warm by candlelight.
 ```
 
 ---

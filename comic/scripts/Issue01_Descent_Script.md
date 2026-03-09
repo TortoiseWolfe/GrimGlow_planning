@@ -79,7 +79,7 @@ The recon vessel is small and functional — a military working space, not a spe
 **Action:** The ship moves through the corridor. It's routine — no urgency, no drama. The vessel looks small against the vast corridor.
 **Expression:** N/A (exterior)
 **Dialogue:**
-- CAPTION: *"Temporal corridor seven. Inbound to convergence point C-1885."*
+- CAPTION: *"Temporal corridor seven. Inbound to convergence point C-1886."*
 - SABLE (from inside, tail from ship): "Final approach in four minutes. Kit check."
 **Lighting:** Cool prismatic light from the corridor walls illuminating the ship's hull. Blue-white from the ship's own running lights. No warm sources.
 
@@ -370,7 +370,7 @@ Painterly illustrated style, rich detail. Extreme close-up at 135mm, straight on
 #### Panel 1 — Full width, top quarter
 
 **Shot:** Ultra-wide establishing, straight on
-**Camera:** 18mm. The ship bursting through the collapsing temporal corridor. The vessel is trailing fire and fragments — pieces of hull tearing away, holographic shards scattering like embers. The corridor behind them is imploding — geometric light structure folding in on itself. Ahead, through a ragged tear in the corridor wall, is darkness — the night sky of 1885.
+**Camera:** 18mm. The ship bursting through the collapsing temporal corridor. The vessel is trailing fire and fragments — pieces of hull tearing away, holographic shards scattering like embers. The corridor behind them is imploding — geometric light structure folding in on itself. Ahead, through a ragged tear in the corridor wall, is darkness — the night sky of 1886.
 **Action:** The ship punches through. It's not flying — it's falling, tumbling, out of control. Pieces break off. The corridor collapses behind them. They're committed.
 **Expression:** N/A (exterior wide)
 **Dialogue:**
@@ -378,7 +378,7 @@ Painterly illustrated style, rich detail. Extreme close-up at 135mm, straight on
 **Lighting:** Intense prismatic light from the dying corridor behind. White-hot drive flare from the ship's engines. Ahead — darkness. The contrast between the overwhelming light behind and the dark sky ahead is the visual key.
 
 ```text
-Painterly illustrated style, rich detail. Ultra-wide establishing shot at 18mm, straight on. A compact angular military spacecraft bursts through the collapsing wall of a temporal corridor — the vessel tumbles out of control, trailing fire and fragments, pieces of dark hull tearing away, holographic shards scattering behind it like geometric embers of blue-white and prismatic light. The temporal corridor behind the ship implodes — its hexagonal geometric light structure folds in on itself, a tunnel of structured prismatic light collapsing and dying in violent cascading distortion. Ahead of the ship, through a ragged tear in the corridor wall, lies darkness — the deep blue-black night sky of 1885, vast and empty and waiting. The ship is visibly damaged: hull panels torn away, conduits exposed, trailing debris in a long arc. White-hot drive flare blazes from the ship's engines. The overwhelming prismatic light behind contrasts against the pure darkness ahead — the future dying, the past opening. Oil paint texture, visible brushwork, catastrophic momentum and point of no return.
+Painterly illustrated style, rich detail. Ultra-wide establishing shot at 18mm, straight on. A compact angular military spacecraft bursts through the collapsing wall of a temporal corridor — the vessel tumbles out of control, trailing fire and fragments, pieces of dark hull tearing away, holographic shards scattering behind it like geometric embers of blue-white and prismatic light. The temporal corridor behind the ship implodes — its hexagonal geometric light structure folds in on itself, a tunnel of structured prismatic light collapsing and dying in violent cascading distortion. Ahead of the ship, through a ragged tear in the corridor wall, lies darkness — the deep blue-black night sky of 1886, vast and empty and waiting. The ship is visibly damaged: hull panels torn away, conduits exposed, trailing debris in a long arc. White-hot drive flare blazes from the ship's engines. The overwhelming prismatic light behind contrasts against the pure darkness ahead — the future dying, the past opening. Oil paint texture, visible brushwork, catastrophic momentum and point of no return.
 ```
 
 ---
@@ -422,7 +422,7 @@ Painterly illustrated style, rich detail. Extreme wide bird's-eye shot at 18mm, 
 **Action:** The falling star crosses the London sky. This is the image that every human witness will remember. The street is empty except for the gaslight and the shadows — the witnesses come on the next page.
 **Expression:** N/A (cityscape)
 **Dialogue:**
-- CAPTION: *"London, 1885."*
+- CAPTION: *"London, 1886."*
 **Lighting:** Warm amber gaslight from below — the gas lamp, the warm glow from windows. Cool prismatic light from above — the falling star, streaking fire. The two light worlds meet for the first time. This is the moment the dual-lighting visual language of the series begins.
 
 ```text
@@ -438,10 +438,10 @@ Painterly illustrated style, rich detail. Dramatic low angle at 24mm wide, looki
 ## SECTION 2: THE FALL (Pages 5–6)
 
 ### Lighting Baseline
-All warm. This section belongs to the Victorian world — gaslight, candlelight, firelight from windows. The ONLY cool light is the falling star streak, which is transient and alien. Once the star fades, the world returns to pure amber warmth. This section establishes what "normal" looks like in 1885 London before the squad's presence introduces permanent cool light. The mood is quiet, nighttime, a city settling — and then something extraordinary crosses the sky.
+All warm. This section belongs to the Victorian world — gaslight, candlelight, firelight from windows. The ONLY cool light is the falling star streak, which is transient and alien. Once the star fades, the world returns to pure amber warmth. This section establishes what "normal" looks like in 1886 London before the squad's presence introduces permanent cool light. The mood is quiet, nighttime, a city settling — and then something extraordinary crosses the sky.
 
 ### Historical Mood
-London, January 1885. Gordon has fallen at Khartoum. The Empire is uneasy. The streets are not confident — there's an anxiety in the fog, a city that's already processing loss. The falling star lands on people who are primed to see portents because the world already feels uncertain. (See witness chain brainstorm, Section 8.)
+London, November 1886. Gordon fell at Khartoum the previous year. The Empire is uneasy. The streets are not confident — there's an anxiety in the fog, a city that's already processing loss. The falling star lands on people who are primed to see portents because the world already feels uncertain. (See witness chain brainstorm, Section 8.)
 
 ### Perspective Shift
 This is the first time we see the world from human eyes. Pages 1-4 were entirely fairy-scale. Now we're on the street, at human size, watching the sky. The page turn from Page 4 to Page 5 is the biggest tonal shift in the issue — from chaos and destruction to quiet and gaslight. The reader needs to feel the stillness before the star.
@@ -1701,7 +1701,7 @@ Painterly illustrated style, rich detail. Wide shot from directly above, bird's-
 **Action:** The city at night. This is the world they have to survive in. Every gaslit street is a canyon. Every building is a mountain. Every human is a titan. The beauty is real and the danger is real and they are the same thing.
 **Expression:** N/A (cityscape)
 **Dialogue:**
-- CAPTION: *"London. 1885. Population: four million, eight hundred thousand."*
+- CAPTION: *"London. 1886. Population: four million, eight hundred thousand."*
 - CAPTION: *"And five."*
 **Lighting:** Entirely warm from the city — amber gaslight, golden fog-glow, the warm amber pinpricks of the distant train. The cool light is behind the viewer (the squad's camp). The city is all warmth, all amber, all vast. It doesn't know they're here.
 

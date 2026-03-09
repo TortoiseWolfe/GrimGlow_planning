@@ -1067,7 +1067,7 @@ Painterly illustrated style, rich detail. Close-up of a Victorian boy's face in 
 **Shot:** Medium shot — Wren on the rooftop, coaching
 **Camera:** 50mm. Wren on the telegraph station rooftop, her full holographic display active — she's tracking Theodore's progress through the data feed from Jink's relay. Her hands move through the holographic display, highlighting the next node, anticipating complications, guiding from a distance. She is coaching a boy through alien technology using the language of gears and springs.
 **Action:** Wren coaches. The engineer who learned to admire human ingenuity is now relying on it to save the mission.
-**Expression:** Intense focus and — beneath it — something like pride. The boy is good. The boy's training is good. The past isn't primitive. It's capable.
+**Expression:** Intense focus — and then, mid-coaching, her hands stop. She is no longer directing the display. She is listening. Theodore has just named what her technology does in the language of a clockmaker's shop, and something in her face goes still — not the engineer's mask, not calculation. The same look she wore at the clockmaker's window in Issue 5: wonder she didn't plan to feel, arriving without permission.
 **Dialogue:**
 - WREN (radio): "Fifth node is the tricky one. It's load-bearing — the network routes through it. When you pull it, the device may pulse. Don't let go. Ride the pulse, then twist and extract."
 - THEODORE (radio): "Like the main escapement wheel in a longcase clock. It kicks when you disengage it."
@@ -1075,7 +1075,7 @@ Painterly illustrated style, rich detail. Close-up of a Victorian boy's face in 
 **Lighting:** Copper-gold holographic display filling the space around her. Morning rooftop light. Her expression in the copper glow.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot. A tiny figure in maximum-degradation copper suit stands on a Victorian rooftop, surrounded by an expanded copper-gold holographic display — schematics, data feeds, the Titan device's internals rendered in geometric light. Her hands move through the display, highlighting nodes, tracking progress, guiding from a distance. East Asian features, wiry build, dark hair in messy knot, expression of intense focus with something beneath it — pride, recognition, respect. The copper-gold holographic light fills the space around her, the morning sky behind. Oil paint texture, visible brushwork, the engineer who learned to trust the past.
+Painterly illustrated style, rich detail. Medium shot. A tiny figure in maximum-degradation copper suit stands on a Victorian rooftop, surrounded by an expanded copper-gold holographic display — schematics, data feeds, the Titan device's internals rendered in geometric light. Her hands have stilled mid-gesture — fingers no longer moving through the schematics, arms dropped fractionally, the display cycling on without her direction. East Asian features, wiry build, dark hair in messy knot — her face turned slightly toward where Theodore's voice is coming from, expression open and unguarded: not the engineer's focused mask but something rarer, the look of someone stopped in their tracks by a boy naming a gear. The copper-gold holographic light fills the space around her, cycling unattended, the morning sky behind. Oil paint texture, visible brushwork, the engineer who forgot, for one beat, that she was the one who knew more.
 ```
 
 ---

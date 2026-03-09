@@ -712,7 +712,7 @@ Painterly illustrated style, rich detail. Close-up from an extreme low angle on 
 **Expression:** Full grin. Bright eyes. Delighted to be seen.
 **Dialogue:**
 - JINK: "Definitely not a trick of the light."
-**Lighting:** Emerald holographic glow from Jink's suit, warm amber from the candle catching the soot-streaked emerald metallic surface. The thimble behind catches both lights.
+**Lighting:** Emerald holographic glow from Jink's suit, warm amber from the candle catching the emerald metallic surface, soot-streaked across the chest. The thimble behind catches both lights.
 
 ```text
 Painterly illustrated style, rich detail. Medium close-up at eye level at fairy scale. A lean androgynous figure approximately four inches tall has stopped and turned toward the viewer, arms spread wide in a "here I am" gesture. Light brown skin, wild bright golden blonde curly hair, emerald metallic suit with a soot streak across the chest and minor scuffs. Holographic accents glow clean emerald at collar, wrists, and spine seams. Their grin is wide and bright-eyed — delighted to be seen. Behind them, a steel thimble looms like a metal dome, its dimpled surface catching both warm amber candlelight and cool emerald holographic glow. Oil paint texture, visible brushwork, the fearless reveal.
