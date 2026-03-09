@@ -10,7 +10,7 @@ This is a genuinely strong concept. The "future tech reads as magic" inversion i
 
 ## The Enemy & The Stakes
 
-The enemy faction uses dark fairy commanders — beings the same size as the squad, a diverged branch of their own species — who implant Titan tech devices in sleeping humans, brain-plugging them into controlled foot soldiers. The device goes in at the base of the skull. The victim's will is overridden; their body, their skills, their knowledge become tools of the commander. To the four-inch squad, any human is enormous. A brain-plugged dock worker is as terrifying as any alien giant. A brain-plugged soldier is a nightmare.
+The enemy faction uses dark fairy commanders — beings the same size as the squad, from the same civilization but a failed future iteration of the timeline — who implant Titan tech devices in sleeping humans, brain-plugging them into controlled foot soldiers. The device goes in at the base of the skull. The victim's will is overridden; their body, their skills, their knowledge become tools of the commander. To the four-inch squad, any human is enormous. A brain-plugged dock worker is as terrifying as any alien giant. A brain-plugged soldier is a nightmare.
 
 Your soldiers look like fairies. The enemy's victims look like giants. Ogres. Demons. The dark fairy commanders themselves are invisible puppet-masters — fairy-sized, cloaked, pulling strings from the shadows.
 

@@ -229,36 +229,35 @@ If Option B: the father's relationship with his mother's fairy tales becomes a k
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### Identity
-- What is the father's name? <AI>Edmund Hartley is the strongest option — Theodore Edmund carries the father's name. Other options: George, William, Henry — common Victorian working-class names.</AI>
-- How old is he? <AI>Late 30s to early 40s — old enough to have an established press, young enough that the mother's death was relatively recent (within the last 5-7 years).</AI>
-- What does he look like? Does Theodore resemble him?
+- **Arthur Hartley** — LOCKED (established at top of document).
+- **Late 30s** — LOCKED. Old enough to have an established press, young enough that the mother's death was relatively recent (within 5-7 years). Not yet worn down — tired but not broken.
+- **Theodore resembles him** — LOCKED. Sandy-brown hair (where Theodore gets it), ink-stained hands (mirroring Theodore's oil-stained hands), similar narrow face. The resemblance is physical and vocational — both Hartley men are marked by their trades.
 
 ### The Absence
-- How old was Theodore when apprenticed to Cribbage? <AI>7-8 is historically typical for apprenticeship. If the mother died when Theodore was 5-6, there may have been a year or two with the grandmother before the apprenticeship.</AI>
-- Does the father feel guilt? Does he rationalize? Or has he genuinely not considered that Theodore might be unhappy?
-- Has the father ever checked on how Cribbage treats Theodore? Would he intervene if he knew?
+- **Theodore apprenticed to Cribbage at 7-8** — LOCKED. Mother died when Theodore was ~5-6. A year or two with the paternal grandmother before the apprenticeship. Three departures in sequence: mother, grandmother, daily presence of father.
+- **The father feels quiet guilt he doesn't examine closely** — LOCKED. He tells himself he made the right decision. He doesn't interrogate that belief because the alternative — that he could have tried harder — is unbearable. Not a bad man. A tired man who chose the path of least resistance and called it responsibility.
+- **He asks occasionally, takes Theodore's "fine" at face value** — LOCKED. He's checked on Cribbage's treatment in passing — a question during Sunday visits. Theodore says fine. The father believes it because he needs to. If he knew Cribbage took credit for Theodore's work, he'd be angry. But he doesn't ask the right questions.
 
 ### The Press
-- What is the press called? Does it have a name/sign? <AI>"Hartley & Son" — the "& Son" being aspirational rather than current. Or just "Hartley Press" or "E. Hartley, Printer."</AI>
-- How many employees? One journeyman? An apprentice of his own? Or is it truly a one-man operation?
-- What is the press's financial condition? Stable? Struggling? The difference affects whether the father could have kept Theodore with him if he'd tried harder.
+- **"A. Hartley, Printer"** — LOCKED. Plain sign, no pretension. The "& Son" would be aspirational but Arthur isn't the type — he names what is, not what he wishes.
+- **One-man operation** — LOCKED. No journeyman, no apprentice of his own. He does everything: typesetting, printing, cleaning, deliveries. This is why Theodore couldn't stay — one man running a press alone has no time or attention for a child.
+- **Stable-but-tight finances** — LOCKED. The press pays its way. There's work — handbills, trade cards, invoices, pamphlets. Not prosperous, not struggling. The father could have kept Theodore if he'd hired help, but hiring help would have made the finances precarious. He chose security over presence.
 
 ### Volume 1 Appearance
-- Does the father appear on-page? <AI>Options: (a) No — he's background, mentioned but not seen, preserving the absence. (b) One scene — a Sunday visit, brief and warm and insufficient, establishing the relationship for later payoff. (c) He appears in the final pages — Theodore walking to the press after writing the fairy tale, the story folded in his pocket. This gives the father his moment without requiring full development in Volume 1.</AI>
-- If he appears, which issue? <AI>Issue 3 (Theodore's introduction — showing his world before the fairies) or Issue 12 (the convergence — Theodore bringing the story to the press).</AI>
+- **Father does NOT appear on-page in Volume 1** — LOCKED. He's background — mentioned but not seen. Theodore refers to Sunday visits in passing. The press is established as a location (the folklorist's pamphlet is printed there). The father gets his dramatic moment in Volume 2 when Theodore brings the fairy tale to be printed.
 
 ### The Convergence
-- Does Theodore bring the story to the press in Volume 1, or is that Volume 2?
-- Does the folklorist use the father's press for the pamphlet?
-- <AI>If the folklorist uses the father's press AND Theodore eventually brings his fairy tale to the same press, the father becomes the physical nexus of the convergence — two streams of mythology flowing through his hands without his knowledge. Does this make the father a target for alt-Sable in Volume 2?</AI>
+- **Theodore brings the story to the press in Volume 2, not Volume 1** — LOCKED. Volume 1 ends with writing. Volume 2 opens with printing. The press is planted in Volume 1 (via the folklorist's pamphlet) and activated in Volume 2 (via Theodore's fairy tale).
+- **The folklorist uses Arthur Hartley's press for the pamphlet** — LOCKED. The press is the physical nexus where both convergence tracks cross. The father prints the folklorist's pamphlet (institutional track) without knowing its significance. Later he prints Theodore's fairy tale (personal track) without knowing its significance. Two streams of mythology flow through his hands.
+- **Whether this makes the father a target for alt-Sable is a Volume 2 question** — deferred. Not relevant to Volume 1 planning.
 
 ### The Grandmother
-- Maternal or paternal? (Affects the fairy tale inheritance path)
-- Still alive, or passed?
-- Did she live long enough to overlap with Theodore's apprenticeship?
+- **Paternal (the father's mother)** — LOCKED. The fairy tales pass through the father's line: grandmother told stories, father runs a press, Theodore inherits both. The convergence mechanism is hereditary.
+- **Passed before the story begins** — LOCKED. Her death was another loss in Theodore's sequence — mother, then grandmother, then daily life with father. The fairy tales are what Theodore has left of her.
+- **She overlapped briefly with Theodore's apprenticeship** — LOCKED. She was alive for the first year or so after Theodore was placed with Cribbage. She visited, told him stories, kept the connection alive. Then she died, and Theodore was truly alone. The fairy tales are her last gift.
 
 ---
 

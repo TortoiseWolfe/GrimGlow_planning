@@ -98,13 +98,13 @@ Key visual elements from the photo:
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
-- **Which street?** Specific Clerkenwell side street for the shoe-shine alcove. Should be on the squad's underground navigation route.
-- **Does Cribbage know?** Does Cribbage know Theodore shines shoes, or is it hidden? If known, does he disapprove (wasting time) or not care?
-- **Does the alcove appear in the comic?** Is first contact shown happening here, or is this game/expanded canon?
-- **Does Theodore name the spot?** A personal name for his alcove would add character.
-- **What's above?** The specific shop above the alcove — grocer (like the photo), or something else that adds narrative flavor?
+- **Street not specified** — deferred to comic/game production. A Clerkenwell side street on the squad's underground navigation route. The specific address is a production detail, not a narrative decision.
+- **Cribbage knows and doesn't care** — LOCKED. He's aware Theodore earns extra pennies. Indifferent as long as apprentice duties are met. The indifference is itself characterization.
+- **Game/expanded canon primarily** — LOCKED. Comic first contact happens in the workshop per existing canon (Plot Outline Issue 3: "caught in the open on Theodore's workbench"). The shoe-shine spot is where Theodore first SEES the lights in the storm drain — the sightings that prime him to recognize Jink in the workshop. The drain-light sightings set up the workshop encounter; they don't replace it.
+- **Theodore doesn't name the spot** — LOCKED. It's just his spot. The absence of a name is character — it's too ordinary to name. Everything else in his life is named for him (the apprenticeship, the workshop, the trade). This is just a niche with a crate.
+- **A grocer's shop above** — LOCKED. Consistent with the reference photo. The grocer tolerates Theodore because the shoe-shine boy brings foot traffic.
 
 ---
 

@@ -123,13 +123,13 @@ This reinforces the Volume 1 theme: the squad isn't just the origin of fairy sto
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
-- **Device removal mechanics:** Does Wren need to build a tool? Can Luma's medical scanner help? Is it dangerous to remove improperly?
-- **Can Theodore spot the device?** At human scale it's tiny, hidden under hair. Does he need fairy guidance to find it?
-- **How many of the 5 brain-plugged humans survive Volume 1?** Are some killed in the operation (Issues 11-12)? Is that a moral cost the squad carries?
-- **Does Cribbage's brain-plugging happen on-page or off?** Do we see it happen, or does Theodore discover the result?
-- **Cribbage's recovery:** Does he recover enough to continue as Theodore's master? Or is the relationship permanently altered?
+- **Device removal mechanics:** Device removal requires fairy guidance — Wren directs the procedure, Theodore's hands do the physical work (his fingers are the right scale for human anatomy; the squad is too small). Improper removal is dangerous: neural damage, possibly fatal. Luma's medical scanner confirms device location and monitors the host's vitals during removal, but the extraction itself is mechanical, not medical. — LOCKED (consistent with Cribbage brainstorm)
+- **Theodore spotting the device:** Theodore spots the device with fairy guidance. Wren via comm link tells him what to look for — location on the neck, visual signature (dark iridescence beneath the hairline). Without fairy guidance, the device is effectively invisible to human eyes. — LOCKED
+- **Volume 1 survivor count:** Only Cribbage is recovered in Volume 1. — LOCKED. The other 4 brain-plugged humans (Tom Alcott, Billy Marsh, Walter Gedge, Henry Cowell) are not recovered in Volume 1; their fates are Volume 2 material. No brain-plugged victims die in the Volume 1 climax — the moral weight is in the changeling recovery, not death. — LOCKED
+- **Cribbage's brain-plugging — on-page or off:** Cribbage's brain-plugging happens off-page. Theodore discovers the result — the wrongness in Cribbage's behavior is the reveal, not the implantation itself. — LOCKED
+- **Cribbage's recovery:** Relationship permanently altered. Cribbage recovers but returns "simpler" — he can't run the business alone. Theodore, who was once the dismissed apprentice, becomes the person Cribbage depends on. The power dynamic inverts completely. Cribbage doesn't remember the period of control. — LOCKED
 
 ---
 

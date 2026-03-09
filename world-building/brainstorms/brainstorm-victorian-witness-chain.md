@@ -347,30 +347,59 @@ Alt-Sable, if she understands this (open question, Temporal Mechanics brainstorm
 
 ---
 
-## Open Questions
+## 8. Historical Military Context — London, 1885
+
+The witnesses exist in a London shaped by active imperial conflict. This is not peacetime England — it's a city processing military anxiety, recent humiliation, and visible veteran poverty. The military backdrop doesn't drive the plot but provides authentic texture for how witnesses interpret what they see.
+
+### The Dominant Event: The Fall of Khartoum (January 26, 1885)
+
+General Charles Gordon was killed when Khartoum fell to Mahdist rebels. The relief column arrived two days too late. Gordon was a celebrity soldier — his death was a national shock that dominated London newspapers for months. Prime Minister Gladstone was called "MOG" (Murderer of Gordon) and his government nearly collapsed. If the story takes place any time after January 1885, the Fall of Khartoum is what people are talking about. — LOCKED
+
+### Recent Conflicts Producing Veterans on London's Streets
+
+- **Sudan/Egypt campaigns (1882-1885)** — The freshest. Soldiers who fought at Tel el-Kebir (1882) and Abu Klea (January 1885) would be recently returned. — LOCKED
+- **First Boer War (1880-81)** — Britain *lost* this one, a national humiliation. Veterans carry bitterness over a war the public preferred to forget. — LOCKED
+- **Second Afghan War (1878-80)** — Another difficult colonial campaign with heavy casualties. — LOCKED
+- **Anglo-Zulu War (1879)** — Isandlwana and Rorke's Drift were only six years prior. The most famous Victorian military disaster and its most famous last stand, both within living memory. — LOCKED
+- **Third Anglo-Burmese War (November 1885)** — Active during the story's timeframe. Britain invades Upper Burma, overthrows the king, and begins a decade-long guerrilla war. Depending on exact story dates, this may be in the newspapers alongside the fairy sightings. — LOCKED
+
+### Veteran Poverty and Visibility
+
+Victorian veteran care was terrible. Discharged soldiers received minimal pensions and no rehabilitation. The Booth poverty maps already in the reference folder show exactly where destitute veterans lived — the dark blue and black streets of Clerkenwell, Bermondsey, and Wapping. Ex-soldiers worked as lamplighters, night watchmen, dock laborers, and street hawkers. They were visible in the neighborhoods where the squad operates. — LOCKED
+
+### How This Flavors the Witnesses
+
+- **George Arkwright** (lighthouse keeper) — His description already references "a friend from the service." Arkwright is ex-Royal Navy — a common career path into lighthouse keeping. His meticulous log-filing, his rigid "that's the job" mentality, and his deep resentment when the harbor authority dismisses his report all carry the weight of a man trained by military service to trust procedure and documentation. His "friend from the service" is a former shipmate. — LOCKED
+- **The pub** — When Jack Hobday tells his will-o'-the-wisp story, the pub contains men who have seen real violence — Sudan, the Transvaal, Afghanistan. A veteran's reaction to "strange lights" is different from a civilian's. He's less likely to panic, more likely to file it under "things I can't explain" alongside what he saw in the field. The "older man" at the pub who says his grandmother told similar stories may himself carry service experience that makes him take folklore more seriously — men who have been to the edges of the Empire have encountered local spirit traditions and know that communities build mythology around real threats. — LOCKED
+- **The atmosphere** — London in 1885 is not confident. It's anxious. Gordon is dead, the Empire is overstretched, the economy is uncertain. The fairy sightings land in a city that's already uneasy. People are primed to see portents because the world already feels unstable. This doesn't cause the folklore — the squad's actions cause the folklore — but the anxious atmosphere means the stories propagate faster and stick harder than they would in a stable, confident city. — LOCKED
+
+---
+
+## Locked Decisions (formerly Open Questions)
 
 ### Individual Witnesses
-- Are the suggested names right? Does the lamplighter need to be named on-page, or is he just "the lamplighter"?
-- Does the clockmaker (Pemberton) appear again, or is he a single-issue witness?
-- <AI>Does Arkwright the lighthouse keeper ever encounter the folklorist? As one of the few witnesses with official documentation, he'd be a prime interview subject.</AI>
-- Does the journalist (Voss) appear on-page in Issue 10, or is his presence implied by the newspaper column?
+- **Witness names:** Correct as established. Jack Hobday (lamplighter), Mr. Pemberton (clockmaker), George Arkwright (lighthouse keeper), Charles Penny (journalist). — LOCKED
+- **On-page presentation:** Witnesses appear as single panels — one panel per witness in their introduction issue. They are not developed characters; they are structural spine elements. The lamplighter is "the lamplighter" in narration but named Jack Hobday if dialogue requires it. — LOCKED
+- **Pemberton reappearance:** Single-issue witness. The brownie story propagates through the wives' network without Pemberton appearing again. — LOCKED
+- **Arkwright and the folklorist:** Arkwright does NOT meet the folklorist directly. The folklorist collects accounts secondhand — through harbor authority records, neighborhood interviews, and newspaper clippings. This is established in the folklorist brainstorm (the folklorist is a collector of transmitted accounts, not a firsthand interviewer of every witness). — LOCKED
+- **Journalist on-page:** Charles Penny appears in Issue 10 as a single panel — pinning articles to a board alongside the folklorist's clippings. His presence is visual, not dialogue-heavy. — LOCKED
 
 ### The Child
-- Is the child named? Do they appear again?
-- Does the child's account reach the folklorist through the neighborhood network?
-- <AI>Does the child ever see Thresh again? A second encounter would be devastating for Thresh — the child remembers him. "You came back!"</AI>
+- **Named:** The Issue 8 child is NOT named. — LOCKED
+- **Reappearance:** The child does NOT appear again. The encounter is self-contained. Its power is in its singularity — one moment, one reach of a hand, devastating for Thresh precisely because it can never be repeated. — LOCKED
+- **Account reaching the folklorist:** The child's account reaches the neighborhood network through Option B (parent indulges, tells neighbor). Whether it reaches the folklorist specifically is unimportant — it feeds the ambient folklore layer, not the documented chain. — LOCKED
 
 ### Theodore's Friends
-- How many friends? Named or unnamed?
-- Do any of Theodore's friends see the squad directly, or only hear Theodore's accounts?
-- <AI>Does the skeptic friend ever witness something that converts him? The moment the skeptic becomes a believer is a powerful narrative beat — but it might dilute Theodore's unique role as the human bridge.</AI>
+- **Number and names:** 2-3 unnamed boys from the neighborhood. Working-class children from the streets around Cribbage's workshop. They do not need names — Theodore is the named character in this dynamic. — LOCKED
+- **Direct witness:** Theodore's friends hear Theodore's stories but do NOT witness the squad directly. Theodore's account spreads through word of mouth, gaining the telephone-game distortions described in Section 6. The friends are transmission vectors, not witnesses. — LOCKED
+- **No skeptic subplot:** No skeptic friend who converts. This would dilute Theodore's unique role as the human bridge. Theodore is the only child who sees and knows the squad. His friends believe or don't — either way, they carry the story. — LOCKED
 
 ### The Chain
-- Does the dark mythology (monster stories) have its own witness chain? <AI>The "Tall Ones" folklore is generations old — pre-existing. The telegraph demon adds a new monster story. Do the monster witnesses have their own pub-to-newspaper-to-folklorist chain, parallel to the fairy one?</AI>
-- <AI>Does anyone in the chain connect the fairy sightings to the monster sightings before the folklorist? Does a pub regular say "first the lights, now the demons — something's happening"?</AI>
-- What's the total number of witnesses by Issue 12? <AI>The named witnesses (lamplighter, clockmaker, keeper, child, Theodore's friends) are the ones we see. But the falling star in Issue 1 was seen by "multiple witnesses across the city." The total number of people who've seen something by Issue 12 might be in the dozens. The folklorist's pamphlet collects "recent sightings" — plural, widespread enough to fill a pamphlet.</AI>
+- **Dark mythology witness chain:** Yes. The dark mythology DOES have a parallel witness chain. People who saw the "Tall Ones," had nightmares, felt the wrongness — these feed the monster mythology alongside fairy sightings. The "Tall Ones" folklore is generations old (pre-existing from prior dark fairy operatives); the telegraph demon adds a new monster story through the same pub-to-newspaper channels. — LOCKED
+- **Connecting fairy and monster sightings:** No one connects fairy sightings to monster sightings before the folklorist. That is his unique contribution — seeing the pattern where others see unrelated events. Pub regulars may sense "something's happening" but do not draw the explicit connection. — LOCKED
+- **Total witnesses by Issue 12:** Dozens of incidental sightings (the falling star alone was seen by multiple witnesses across the city). But the named chain (Hobday, Pemberton, Arkwright, Penny, the child, Theodore's friends) is the structural spine. The folklorist's pamphlet collects "recent sightings" — plural, widespread enough to fill a pamphlet — drawing on both the named witnesses and the ambient sightings. — LOCKED
 
-### Volume 2 and Beyond
-- Do any witnesses appear in Volume 2?
-- <AI>The lamplighter, walking his rounds, sees something AGAIN — this time, not lights in a gutter but the aftermath of the Issue 12 operation. Broken equipment, scorch marks, residue. He's the first and last civilian witness of the volume. Bookend structure.</AI>
-- Does the witness chain extend beyond London in Volume 2?
+### Deferred to Volume 2
+- Whether witnesses reappear in Volume 2 (including lamplighter bookend). — Deferred.
+- Whether the child has a second encounter with Thresh. — Deferred.
+- Whether the witness chain extends beyond London. — Deferred.

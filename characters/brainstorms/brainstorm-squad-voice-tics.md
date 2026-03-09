@@ -55,12 +55,12 @@ Open question. Canon does not specify whether Sable uses rank, first name, or bo
 - Issue 9 final page: "For the first time, her expression isn't commander or burden-carrier. She's lost." (Script Prompts, Issue 9)
 - Issue 12: "Something quiet." Not performing command — just Sable looking at her people. (Script Prompts, Issue 12)
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- Does she have a specific catchphrase or verbal tic?
-- Does she use humor? Ever? Canon shows no humor from Sable. Is this deliberate absence or a very dry, very rare wit? (Sable backstory brainstorm, Open Questions)
-- How does she address each squad member — rank? first name? Does it change across the arc?
-- What does her voice sound like to Theodore? (He's 12-13 and she's four inches tall.) (Sable backstory brainstorm, Open Questions)
+- **No catchphrase or verbal tic** — LOCKED. The ABSENCE of tics is the character. She's too controlled for unconscious habits. The contraction tell (already LOCKED) is the closest — and it's a tell, not a tic.
+- **Very rare, very dry humor** — LOCKED. One wry observation in Issue 12, after the squad decides to stay. Not a joke — an observation that happens to be dry. It surprises everyone because they've never heard it. The rarity IS the impact.
+- **Last names in command mode, first names when personal** — LOCKED. The shift is a tell, like contractions. "Thresh, take position" vs. a quiet "Thresh" when checking in. Theodore is always "Theodore" — she never shortens it to "Theo" (that's Jink's).
+- **Authority that transcends scale** — LOCKED. Four inches tall but sounds like the tallest person in the room. Theodore instinctively addresses her as "ma'am." The authority is in the voice structure, not the volume.
 
 ---
 
@@ -94,12 +94,12 @@ Open question. Canon does not specify whether Sable uses rank, first name, or bo
 
 <AI>**Understatement as humor.** Wren doesn't make jokes. But she says things that are funny because of how flat they are. A ship that's functionally destroyed: "It's fixable." A mechanism that almost killed her: "That gear runs fast." The humor is in the gap between what she says and what it cost. (Wren technology brainstorm, Section 4, AI suggestion)</AI>
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- Does she use technical jargon that others don't understand?
-- Victorian-tech vocabulary vs. future-tech vocabulary — does she develop a split register?
-- Does she have a specific verbal tic or habit beyond quantifying? (Wren technology brainstorm, Open Questions)
-- Does she speak differently to Theodore than to the squad? <AI>She might simplify — not condescendingly but practically. Accurately but without jargon. (Wren technology brainstorm, Open Questions, AI suggestion)</AI>
+- **Technical jargon constantly** — LOCKED. She forgets others don't share her vocabulary. Jink makes fun of it. The jargon is both future-tech and increasingly Victorian-tech as her fascination arc develops.
+- **Split register develops across the arc** — LOCKED. By Issue 7 ("elegant"), she's mixing Victorian technical terms into future vocabulary. The split register IS the fascination made audible.
+- **Machine-characterization as second verbal habit** — LOCKED. Beyond quantifying, she talks about machines the way others talk about people: "This clock is honest." "The telegraph is elegant." She attributes qualities to mechanisms because she reads character in engineering choices.
+- **Simplifies for Theodore — practically, not condescendingly** — LOCKED. Accurately but without jargon. She explains the way a good engineer explains to a non-specialist. With the squad: shorthand, assumed shared knowledge.
 
 ---
 
@@ -138,12 +138,12 @@ Canon gives one explicit silence: Issue 11 rooftop — "Jink, for the first time
 - Issue 9: After the fury at Sable, when the squad fractures and everyone retreats — nothing funny to say.
 - Issue 11: The rooftop. Jink speaking slowly for once, in complete sentences, saying something that matters. (Jink recklessness brainstorm, Section 5, AI suggestion)</AI>
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- What specific future slang does Jink use? How much? Does it confuse Theodore?
-- Does Jink code-switch between squad banter and talking to Theodore?
-- Does anyone else use "Theo," or is it Jink's alone?
-- The Issue 11 rooftop voice — is it Jink stripped of performance? Or a new register they haven't used before? (Jink recklessness brainstorm, Open Questions)
+- **Future slang: 1-2 expressions per issue, not constant** — LOCKED. Enough to confuse Theodore occasionally. Feels natural, not constructed. Specific slang terms are a scripting-level detail, not a design decision.
+- **No code-switching** — LOCKED. Jink speaks the same way to everyone. The casualness is who they are, not an affectation. The only voice change is the Issue 11 rooftop.
+- **"Theo" is Jink's alone** — LOCKED. No one else uses it. The nickname is a claim of closeness. Theodore never asks anyone else to use it.
+- **Issue 11 rooftop: Jink stripped of performance** — LOCKED. The same person without the shield. Complete sentences for the first time. Not a new register — the real one, finally uncovered.
 
 ---
 
@@ -187,12 +187,12 @@ Canon gives one explicit silence: Issue 11 rooftop — "Jink, for the first time
 
 <AI>"I don't want to stay. I'll stay." — If this line stands, it's the arc in six words. The first sentence is the fear, stated aloud without tactical cover. The second is the soldier. (Thresh fear arc brainstorm, Section 5, AI suggestion from temporal mechanics brainstorm)</AI>
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- Does Thresh use military jargon more than others?
-- What does Thresh sound like before vs. after Issue 10?
-- What is the first sentence Thresh speaks after the Issue 10 combat breakthrough?
-- Does Thresh have a verbal tic? <AI>Possible: threat-checking as verbal habit — "Check your six." "Eyes up." Or: trailing off, starting a sentence and stopping, the fear cutting the thought short. (Thresh fear arc brainstorm, Open Questions, AI suggestion)</AI>
+- **More military jargon than anyone** — LOCKED. Operational vocabulary is the only register available when fear is active. "Contact." "Position." "Clear." The professional language is the containment.
+- **Before Issue 10: compressed/operational. After: same brevity, different weight** — LOCKED. Before, short sentences are fear squeezed through a filter. After, short sentences are a soldier who has found that the training holds. The compression doesn't change — what it's compressing does.
+- **First sentence after Issue 10 breakthrough: "Contact. Engaging."** — LOCKED. A tactical call, not a personal statement. Training speaks before the person does. The significance is that it's two sentences instead of silence.
+- **Verbal tic: threat-checking** — LOCKED. "Check your six." "Eyes up." The military scan vocalized. The combat version of nervous fidgeting — but functional. The squad takes the checks seriously because Thresh's threat assessment has been the most accurate all volume.
 
 ---
 
@@ -225,13 +225,13 @@ Canon gives one explicit silence: Issue 11 rooftop — "Jink, for the first time
 
 **Shift from asking to stating.** The Issue 12 synthesis would be the longest sustained speech from Luma in the volume. Every other time she asks. Here she tells. The change in mode IS the arc beat. (Luma temptation brainstorm, Section 4)
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- When does Luma stop asking and start stating? Is there a specific issue where the shift happens?
-- Does she ask different kinds of questions — medical vs. investigative vs. philosophical?
-- How much does the squad notice that Luma's questions have purpose? Does anyone call it out?
-- When Luma talks Thresh down from the spiral (Issue 7) — what register does she use? Medical? Personal? Does she ask questions even then? (Luma temptation brainstorm, Open Questions)
-- <AI>Does Luma talk to herself while working? Does she narrate her investigation quietly, the way Wren might narrate diagnostics? (Luma temptation brainstorm, Open Questions, AI suggestion)</AI>
+- **Stops asking in Issue 12** — LOCKED. The shift is gradual (questions narrow from casual to loaded across Issues 4-11) but the STATE CHANGE is Issue 12 when she states instead of asks. The synthesis is the longest sustained speech from Luma in the volume. Every other time she asks; here she tells.
+- **Three kinds of questions: medical, investigative, philosophical** — LOCKED. Medical (to Thresh): "What's your breathing?" Investigative (to Theodore): "When did the Tall Ones stories start?" Philosophical (to the squad): "What if we were supposed to be here?" The type tells you what mode she's in.
+- **Wren notices first** — LOCKED. Wren reads systems, and Luma's questioning IS a system. Wren notices around Issue 9, when Luma's questions become visibly directed. No one calls it out directly — the recognition is in exchanged glances, not dialogue.
+- **Thresh talk-down (Issue 7): medical first, then personal** — LOCKED. Starts with the medic's steady diagnostic voice ("Your breathing — match mine"). Transitions to something quieter and personal ("You're here. You're standing. That's enough."). She asks questions even here — because questions give Thresh something to answer, which means something to DO.
+- **Quiet self-narration while working** — LOCKED. Barely audible. The investigation vocalized for her own benefit. Different from Wren's machine-talking — Luma is narrating observations, not addressing mechanisms.
 
 ---
 
@@ -269,13 +269,13 @@ Canon gives one explicit silence: Issue 11 rooftop — "Jink, for the first time
 
 <AI>Over time, Theodore and Jink develop a shared vocabulary — small borrowings in both directions. Theodore might pick up one of Jink's future expressions. Jink might start saying something Theodore taught them. The shared language is the friendship made audible. (Jink-Theodore relationship brainstorm, Section 3, AI suggestion)</AI>
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- Does Theodore have a stammer or verbal tic when nervous?
-- Does he narrate his observations? (Tinker's habit of describing what he sees mechanically?)
-- How does he address each squad member?
-- The writing voice in Issue 12 — how close is it to the grandmother's storytelling voice vs. Theodore's own? (Theodore inner world brainstorm, Open Questions)
-- Does Theodore pick up fairy vocabulary or future slang from Jink?
+- **No stammer. Goes quiet when nervous** — LOCKED. The mechanical metaphor: "the works seize up." Silence, not stuttering. The fear response mirrors Thresh's compression — fewer words, not broken words.
+- **Narrates observations quietly** — LOCKED. The tinker's habit: "Fourteen teeth. Crown gear. Worn on the leading edge." He does it unconsciously — describing what he sees mechanically. The narration is how he processes the world.
+- **Addresses Sable as "ma'am," first names for everyone else by Issue 5** — LOCKED. He never uses callsigns. "Jink" is the callsign the squad uses, but to Theodore it's just a name.
+- **Issue 12 writing: grandmother's cadence, Theodore's content** — LOCKED. A fusion, not imitation. See brainstorm-theodore-inner-world.md for full detail.
+- **Picks up 1-2 expressions from Jink** — LOCKED. Not enough to sound different — enough to show the connection. The borrowed words are markers of how far the friendship has come.
 
 ---
 

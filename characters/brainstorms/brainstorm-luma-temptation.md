@@ -156,12 +156,12 @@ Does studying the past keep her from experiencing it? The pressed flower suggest
 
 But the scanner might be the barrier that falls. As the investigation deepens, does Luma stop scanning and start looking? Is there a moment where the lenses come off and she just sees?</AI>
 
-### Open Questions — What Draws Her
+### Locked Decisions — What Draws Her
 
-- Is the fascination general (everything) or does it focus over time?
-- What specifically in the future does Luma compare 1885 to? What's missing from the future that 1885 has?
-- Does she keep a log? Formal research notes? Or is the investigation more intuitive?
-- <AI>The pressed flower — when did she collect it? What kind is it? Does it mean something specific, or is it the first thing she reached for?</AI>
+- **Starts general, focuses over the arc** — LOCKED. Issues 1-4: everything (the curiosity is unfocused, genuinely omnivorous). Issues 5-7: biological and cultural evidence (the investigation narrows). By Issue 8: specifically tracking the paradox.
+- **What the future lacks: unpredictability** — LOCKED. The future is structured, known, optimized. 1885 is chaotic, messy, alive. Luma doesn't have a word for what draws her — the closest is "surprise." Things grow where they shouldn't. People believe things that aren't efficient. The disorder is beautiful.
+- **Formal research notes on her scanner's data storage** — LOCKED. But the notes get less formal over time — observations bleed into reflections. By Issue 8, she's writing things that aren't science. The log is the investigation becoming personal.
+- **The pressed flower: a wild violet, collected during the Issue 6 investigation with Theodore** — LOCKED. Growing from a crack in a wall. She didn't plan to collect it. She reached for it before thinking. The first purely personal act — not science, not evidence, just beauty.
 
 ---
 
@@ -244,13 +244,13 @@ The leap from "our technology was here centuries ago" to "we are the fairy tales
 
 This is why she's the one who sees it. She's the squad member who LOOKS at the world, not just scans it.</AI>
 
-### Open Questions — Evidence
+### Locked Decisions — Evidence
 
-- When does Luma first suspect the causal loop specifically? (After "STAY"? During the fairy tale echoes? Only when she maps everything in Issue 12?)
-- Does she keep formal research notes? Is there a Luma document in the story?
-- The Issue 11 return to the cache — what does she DO there? Scan again? Or just sit?
-- Does Luma tell Theodore what she's finding? He's her investigation partner from Issue 6 on.
-- <AI>Does the scanner ever show her something she doesn't understand until later? An anomalous reading she dismisses that turns out to be the key?</AI>
+- **Causal loop hypothesis forms after "STAY" (Issue 8)** — LOCKED. Before that: anomalies. After "STAY": hypothesis. Between Issues 8-11: testing. Issue 12: conviction. The hypothesis crystallizes at "STAY" because the message is personal — someone stood where she's standing and made a choice.
+- **Research notes on scanner storage** — LOCKED. Cross-reference: Section 1 locked decisions above.
+- **Issue 11 cache return: both** — LOCKED. She scans again (new calibrations, looking for things she missed). And then she sits. In the presence of someone who felt what she feels. The scan is science. The sitting is not.
+- **Shares general findings with Theodore, not the full hypothesis** — LOCKED. He's her sounding board during the Issue 6+ partnership. Theodore knows she's finding evidence of "people like us" being here before. But the causal loop hypothesis and the full synthesis — she keeps that until Issue 12 when she presents to the squad. Theodore gets the pieces; the squad gets the picture.
+- **No anomalous reading she misses** — LOCKED. Luma doesn't make investigative errors. The tension is in what she CHOOSES to pursue, not what she fails to see. The motivated reasoning question is about direction, not competence.
 
 ---
 
@@ -356,12 +356,12 @@ What Luma sees in "STAY" (all four readings coexist — LOCKED, per temporal mec
 
 The shaking hands are all of these at once. Scientific excitement, personal dread, ethical weight, and the recognition that the person who carved this word felt exactly what she feels right now.
 
-### Open Questions — Ethics
+### Locked Decisions — Ethics
 
-- ~~Does Luma present the ambiguity to the squad, or does she present the synthesis as certain?~~ RESOLVED — she presents with rigor AND visible torment. The doubt is visible.
-- ~~Does she acknowledge the motivated reasoning problem, or leave it for others to raise?~~ RESOLVED — she knows. Whether she states it aloud or others read it on her face is a scripting decision.
-- The prior operatives who stayed — does Luma identify with them? Fear becoming them?
-- <AI>Is there a moment where Luma considers NOT sharing the synthesis — because if she keeps it to herself, the squad might still find a way home, and she'd lose the only argument for staying?</AI>
+- ~~Does Luma present the ambiguity to the squad, or does she present the synthesis as certain?~~ RESOLVED — she presents with rigor AND visible torment.
+- ~~Does she acknowledge the motivated reasoning problem, or leave it for others to raise?~~ RESOLVED — she knows. Scripting decision whether stated or read.
+- **Identifies with AND fears becoming the prior operatives** — LOCKED. Both simultaneously. She sees the prior operative as predecessor and warning. "They stayed and died alone" is the nightmare version of her own temptation. She carries this in Volume 2.
+- **One moment of considering withholding the synthesis** — LOCKED. Brief. The thought crosses her mind: if she keeps it to herself, the squad might find a way home. She could stay while they leave. The thought is immediately shameful and she dismisses it. But it happened. The moment is important because it proves the temptation is real, not theoretical.
 
 ### The Evolutionary Fork — A New Layer (PLANTED, Vol 2 resolution)
 
@@ -468,41 +468,41 @@ The waistcoat pocket scene (Issue 6) would have a specific intimacy — the phys
 
 Does Luma explain her findings to Theodore? Does he understand? The boy who carries fairy tales in his head might process the paradox differently from the scientist who mapped it — and Luma might learn from his framework (narrative) as much as he learns from hers (evidence).</AI>
 
-### Open Questions — Voice
+### Locked Decisions — Voice
 
-- Does Luma have a verbal habit? **"But what if--" qualifying questions.** "But what if--" as a signature move. Or: echoing what someone says back as a question, reframing their statement as inquiry. — LOCKED
-- How much does the squad notice that Luma's questions have purpose? Does anyone call it out?
-- The Issue 12 synthesis — does she rehearse it? Or does it emerge naturally from the evidence?
-- When Luma talks Thresh down from the spiral (Issue 7) — what register does she use? Medical? Personal? Does she ask questions even then?
-- <AI>Does Luma talk to herself while working? Does she narrate her investigation quietly, the way Wren might narrate diagnostics? (Wren brainstorm suggests Wren vocalizes work: "come on," "there," "hold." Does Luma have an equivalent?)</AI>
+- **"But what if--" qualifying questions** — LOCKED (unchanged).
+- **Wren notices the purposeful questioning first, around Issue 9** — LOCKED. Wren reads systems; Luma's questioning IS a system. No one calls it out directly. The recognition is in exchanged glances, not dialogue. Cross-reference: squad voice tics brainstorm.
+- **Issue 12 synthesis emerges naturally** — LOCKED. Not rehearsed. The evidence has been building for issues. The presentation is organized because Luma has been organizing it internally. But the delivery is not performed — the emotional weight is visible. The steadiness is professional discipline, not preparation.
+- **Thresh talk-down: medical first, then personal** — LOCKED. Cross-reference: squad voice tics brainstorm and Thresh fear arc brainstorm for full detail.
+- **Quiet self-narration while working** — LOCKED. Barely audible. The investigation vocalized for her own benefit. Different from Wren's machine-talking — Luma narrates observations, not mechanisms.
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### The Temptation
-- Is there a specific moment where the temptation to stay becomes conscious? Or is it always present from Issue 1?
-- Does Luma ever say "I want to stay" aloud before the paradox gives her a reason?
-- How does the temptation affect her investigation? Does she pursue evidence that supports staying more aggressively than evidence that doesn't?
-- <AI>Is there a thing in 1885 that Luma falls in love with — not the city, not the era, but a specific thing? The pressed flower? A particular view from Theodore's pocket? A sound? The specificity would ground the temptation in sensory experience rather than abstraction.</AI>
+- **Conscious in Issue 6, during the waistcoat pocket scene** — LOCKED. She's in Theodore's pocket, looking at the city from fairy height, and she thinks: "I could stay." The thought surprises her. Before this: the fascination is present but not named.
+- **Never says "I want to stay" aloud before the synthesis** — LOCKED. The desire is private until the Issue 12 synthesis gives her cover. Saying it before the evidence would sound like abandoning the mission. Saying it after sounds like following the evidence.
+- **Investigation affected by temptation, compensated by rigor** — LOCKED. She's aware of her own bias (already LOCKED: recognizes the ambiguity). She compensates by being MORE rigorous, not less. The investigation is thorough because she's afraid of her own motivation. Cross-reference: ethics section above.
+- **Specific thing she falls in love with: the wild violet** — LOCKED. Cross-reference: Section 1 locked decisions above. A single living thing growing where it shouldn't.
 
 ### The Investigation
-- Does Luma have a hypothesis before Issue 8, or does "STAY" create one?
-- What does she tell the squad between Issues 4-8? She presents findings in Issue 8 — but does she share interim data?
-- The dead data core from the cache — can she extract anything from it? (If so, what? If not, what does the silence of it mean to her?)
-- <AI>Does the investigation change how she sees her own technology? Her scanner is the same tech that generated the glyphs centuries ago. She's using the tool of the people who came before her. Does she notice this?</AI>
+- **No hypothesis before "STAY"** — LOCKED. Cross-reference: evidence section above. Before Issue 8: anomalies. After "STAY": hypothesis.
+- **Shares interim data selectively** — LOCKED. She shares glyph findings (Issue 4 onward) with the squad — enough to justify the investigation, not enough to alarm. The Issue 8 presentation (cache, "STAY") is the first comprehensive briefing.
+- **Dead data core: can't extract data** — LOCKED. Too degraded. The silence is evidence of duration — whoever was here stayed long enough for their tech to die. Decades, maybe centuries. What the core doesn't say is as significant as what it might have.
+- **Notices her scanner is the same technology as the glyphs** — LOCKED. Issue 6 area, while scanning a glyph. A quiet beat. Same tech, centuries apart. She doesn't share this observation. It's too personal — it means she belongs to the same story.
 
 ### Relationships
-- Does the Luma-Theodore partnership develop into something like mentorship? Or is it more egalitarian?
-- Does Luma confide in anyone about the temptation before the synthesis?
-- After Issue 9 (Sable's secret revealed) — does Luma reprocess Sable's earlier behavior? Does she realize the "too controlled" reaction meant Sable already knew?
-- <AI>Does Luma ever examine Sable with her scanner? Not medically — but does the medic's diagnostic reflex extend to reading the captain's stress? Luma might see things about Sable's condition that Sable doesn't share.</AI>
+- **Luma-Theodore: egalitarian, not mentorship** — LOCKED. Two people who like figuring things out. He teaches her about the streets; she teaches him about evidence. Mutual education.
+- **Does not confide about the temptation** — LOCKED. Not until the synthesis gives her a framework. The temptation is private because admitting it would look like abandoning the mission.
+- **Reprocesses Sable after Issue 9** — LOCKED. First to connect Sable's "too controlled" Issue 8 reaction with the Issue 9 revelation. Realizes Sable already knew. The reprocessing happens between Issues 9-11 — visible in how Luma looks at Sable differently, not in dialogue.
+- **Reads Sable's stress markers reflexively** — LOCKED. The medic's diagnostic reflex. She sees things about Sable's condition that Sable doesn't share — elevated stress, sleep deprivation, the physical cost of the secret. She doesn't act on it unless medically necessary. The data sits in her awareness like everything else.
 
 ### The Paradox and the Person
-- Does the paradox change who Luma is, or does it reveal who she always was?
-- After the synthesis: does Luma feel vindicated or burdened?
-- The prior operative who carved "STAY" — does Luma think about them as a person? Or only as evidence?
-- <AI>If the squad stays: Luma is the one who recommended it. If things go wrong — if the dark fairies win, if the squad dies, if the synthesis was wrong — the responsibility is hers. Does she feel that weight?</AI>
+- **Reveals who Luma always was** — LOCKED. She was always the one who would want to stay. The paradox gives the desire a reason that isn't selfish.
+- **Both vindicated and burdened** — LOCKED. Vindicated by the evidence. Burdened by the responsibility. Cannot fully celebrate because the motivated reasoning question never goes away. She carries this weight into Volume 2.
+- **Prior operative: starts as evidence, becomes a person** — LOCKED. Issue 8: "STAY" is a data point. Issue 11 (sitting in the cache): a person who chose what she's choosing. By Issue 12: the template. "They did this. It cost them everything. It worked."
+- **Feels the weight of responsibility if wrong** — LOCKED. The squad is trusting her analysis. If the synthesis is wrong — if the dark fairies win, if staying was a mistake — the responsibility is hers. She knows this. It doesn't stop her from presenting. But it shapes how she presents: with rigor and visible doubt.
 
 ---
 

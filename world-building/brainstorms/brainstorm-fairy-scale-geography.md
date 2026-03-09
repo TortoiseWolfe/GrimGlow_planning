@@ -70,11 +70,11 @@ At fairy scale: a 4-inch character covers roughly 1/18th of a human stride per s
 - Wires routed overhead on poles (outside city center), building-to-building across rooftops (dense areas), and in underground earthenware ducts (key routes)
 - Both overhead and underground systems coexisted on the same streets
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- Exact street address for Cribbage's workshop? <AI>Possibilities: Sekforde Street (quiet, residential-mixed), Aylesbury Street (workshop-heavy), or off St John's Square (near the old priory gatehouse — atmospheric)</AI>
-- Does the squad crash in Clerkenwell (close to Theodore) or further away (requiring an early journey to establish scale)?
-- Tower Bridge is under construction 1886-1894 — do we set the story before or during construction? <AI>During construction is more interesting: massive scaffolding, construction works, a half-built bridge as a landmark and potential level</AI>
+- **Cribbage's workshop location:** On a Clerkenwell side street within the precision trades cluster. Specific street address deferred to production. — LOCKED
+- **Squad crash location:** The squad crashes in Clerkenwell, near Theodore's orbit. The convergence guarantees proximity — the loop places fairy-like beings where the human ally already lives. — LOCKED
+- **Tower Bridge:** Under active construction. Construction began 1881, completed 1894 — in 1885 it is a massive scaffolded construction site. Half-built bridge serves as a landmark and potential level. — LOCKED
 
 ---
 
@@ -259,12 +259,12 @@ Each route type rated for: **speed**, **visibility risk**, **weather vulnerabili
 - **Gaslight grid:** Street lamp patterns as a reference grid from rooftop altitude. Spacing reveals neighborhood boundaries (dense lamps = affluent street; sparse = poor).
 - **Theodore's knowledge:** He knows the streets, the old buildings, which structures predate the current era (Plot Outline, Issue 8). He is the squad's local guide for any ground-level or historical navigation.
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- Do they establish named routes? ("The Gutter Run," "The Pipe Road," etc.)
-- Does Jink map the city from the air and maintain route intelligence?
-- Do they mark routes with fairy glyphs — and is that what the old glyphs Luma finds *are*? <AI>This would tie the navigation system directly into the paradox layer: the prior operatives left a route map, and the squad is following paths marked centuries ago by their own people.</AI>
-- How do they cross the Thames? <AI>Options: under a bridge (dangerous, exposed, long); inside a bridge structure (if accessible); riding a barge (hitchhiking via Theodore or independently); through the new Tower Subway (pedestrian tunnel, opened 1870, foot traffic by the 1880s); through sewer outfalls (Bazalgette's system discharges into the Thames — the tunnels lead right to the river edge)</AI>
+- **Named routes:** Yes. The squad establishes named routes as a practical necessity ("The Gutter Run," "The Pipe Road," etc.). Specific route names deferred to production/script. — LOCKED
+- **Jink's route intelligence:** Yes. Jink maps the city from the air and maintains route intelligence — this is the scout's core role. — LOCKED
+- **Fairy glyph route markers:** Yes. The squad marks routes with fairy glyphs, and this IS what the old glyphs Luma finds in Issue 4 are — prior operative route markers. This ties the navigation system directly into the paradox layer: the prior operatives left a route map, and the squad is following paths marked centuries ago by their own people. Luma's discovery of the glyphs is her first evidence of prior insertions. — LOCKED
+- **Thames crossing:** Via sewer outfalls connecting to Bazalgette's main sewers. The interceptor sewers run east-west parallel to the Thames, and sewer outfalls discharge into the river — the tunnels lead right to the water's edge. This is the primary north-south transit route at fairy scale. — LOCKED
 
 ---
 
@@ -524,34 +524,32 @@ Every flame is magnified at fairy scale:
 
 ---
 
-## Open Questions for Future Sessions
+## Locked Decisions (formerly Open Questions for Future Sessions)
 
 ### Geography
-- Exact crash location — which rooftop in which neighborhood?
-- Does the operating area expand over the 12-issue arc or stay fixed?
-- Are there areas of London the squad discovers are "already mapped" by prior operatives?
+- **Crash location:** Clerkenwell rooftop, near Theodore's orbit. Specific rooftop deferred to production. — LOCKED (see Section 1)
+- **Operating area expansion:** The operating area expands over the 12-issue arc — starting tight around Clerkenwell (Issues 1-5), extending to Bermondsey/Southwark (Issue 6), Wapping/Limehouse (Issue 7), and across the full triangle by Act III. This is already implicit in the Plot Outline's geographic progression. — LOCKED
+- **Prior operative mapping:** Yes — areas of London are "already mapped" by prior operatives via glyph route markers. This is established in the navigation section above and connects to Luma's Issue 4 discovery. — LOCKED
 
 ### Navigation
-- Named routes? A squad shorthand for their regular paths?
-- Do they build infrastructure (rope bridges, signal markers, supply caches)?
-- How does Jink's scouting translate into route intelligence for the team?
-- Thames crossing method?
+- **Named routes and infrastructure:** Resolved above (Section 2h). Named routes: yes. Infrastructure (signal markers, supply caches): yes, layered with prior operative markers. Rope bridges: deferred to production/gameplay. — LOCKED
+- **Jink's scouting and Thames crossing:** Resolved above (Section 2h). — LOCKED
 
 ### Threat Ecology
-- Do they ever ally with or domesticate any animals? <AI>A trained mouse as a mount/pack animal? Historically possible — Victorian mouse fancying was a real hobby. A friendly mouse in the wall-void network.</AI>
-- Rat territorial borders — do these shift? Can the squad exploit rat-territory conflicts?
-- Do Titans interact with animals? (animals flee Titan presence — is this exploitable?)
+- **Animal alliances/domestication:** No domestication in Volume 1. Animals are hazards and environmental features, not allies. Deferred to Volume 2/game for potential development. — LOCKED
+- **Rat territorial conflicts:** Exploitable by scout — Jink can trigger territorial disputes as distractions. Specific mechanics deferred to gameplay design. — LOCKED
+- **Titans and animals:** Animals flee Titan presence. This is exploitable as an early warning system — sudden rat evacuation of a sewer section or cats bolting from an alley signals Titan proximity. Already established in the Threat Ecology section (Section 4) environmental cues. — LOCKED
 
 ### Weather
-- How does holographic tech interact with water/rain specifically?
-- Suit thermoregulation failure timeline — when does cold become a factor?
-- Does the story span enough calendar time for seasonal weather variation?
+- **Rain and holographic tech:** Rain does not damage holographic elements but reduces their visibility — water scatters and refracts the structured light, making projections erratic and dim. Suits are waterproof (future military tech). Specific interaction mechanics deferred to production. — LOCKED
+- **Suit thermoregulation:** Suits maintain internal temperature for weeks before degradation begins to affect thermal regulation. Not a Volume 1 concern — the story spans weeks-to-months, and thermal failure falls late in the degradation arc. Deferred to production for specific timeline. — LOCKED
+- **Seasonal variation:** The story takes place over weeks-to-months within 1885. No major seasonal shift occurs within Volume 1. Deferred. — LOCKED
 
 ### Scale Physics
-- Falling damage — at 4 inches, terminal velocity is much lower. Can they survive falls that would kill a human? <AI>Square-cube law: a 4-inch creature has much less mass relative to air resistance. They might survive falls from significant heights, landing hard but alive. This would make verticality less lethal and more viable as a gameplay mechanic — jumping/falling as intentional movement.</AI>
-- Water surface tension — at their scale, water behaves differently. Can they walk on very calm water surfaces? Probably not at 4 inches, but water beading and surface tension effects would be visible and relevant.
-- Sound — do they hear differently? Higher frequencies more prominent?
+- **Falling damage:** Survivable from much greater heights at 4-inch scale due to the square-cube law — lower terminal velocity relative to body mass means hard landings but not lethal ones from heights that would kill a human. This makes verticality a viable movement strategy. Specific mechanics deferred to production/gameplay. — LOCKED
+- **Water surface tension:** Significant at 4-inch scale. Surface tension effects are visible and relevant — characters can briefly walk on puddle surfaces before breaking through. Deferred to production/gameplay for specific mechanics. — LOCKED
+- **Sound perception:** Human speech is deeper and louder at fairy scale — like standing next to a loudspeaker. Higher frequencies are more prominent in their hearing range. Specific audio design deferred to production. — LOCKED
 
 ---
 
-*This document is a working brainstorm. All `<AI>` tagged suggestions are proposals for consideration, not decisions. Canon anchors are drawn from: Story Bible, Product Design Requirements, Volume 1 Plot Outline, and Volume 1 Script Prompts.*
+*This document is a working brainstorm. All open questions have been resolved — see "Locked Decisions" sections throughout. Remaining `<AI>` tagged text in body sections represents incorporated context, not unresolved proposals. Canon anchors are drawn from: Story Bible, Product Design Requirements, Volume 1 Plot Outline, and Volume 1 Script Prompts.*

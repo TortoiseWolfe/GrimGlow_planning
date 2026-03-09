@@ -339,33 +339,33 @@ The dead data core in the cache might contain information about other convergenc
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
-### Team Structure
-- How large were the prior teams? <AI>2-4 operatives each — reconnaissance-scale, not a full combat squad like Sable's five?</AI>
-- Did they have the same role structure (captain, engineer, scout, soldier, medic)?
-- Were they all from the same civilization as the squad, or from earlier iterations of that civilization?
+### Team Structure — LOCKED
+- **Team size:** 2-3 operatives each — small reconnaissance-scale teams, not a full combat squad like Sable's five. — LOCKED
+- **Role structure:** Teams had similar role structures, reconnaissance-heavy (observer, technician, and sometimes a third). Not the full five-role spread of the current squad. — LOCKED
+- **Civilization:** All from the same civilization as the squad — same fairy species, different centuries of deployment. — LOCKED
 
-### The Cache
-- Can Wren or Luma extract anything from the dead data core? <AI>Even fragments — a partial map, a name, a date — would transform the prior operatives from abstraction to reality.</AI>
-- Are there other caches elsewhere in London? Did the prior operatives mark multiple stash locations?
-- The corroded wing-pack — whose was it? The last operative's, or was it stored as a relic by a later team?
+### The Cache — LOCKED
+- **Dead data core:** Cannot extract data — too degraded. Power cells exhausted centuries ago, storage medium has physically deteriorated beyond recovery. — LOCKED (consistent with Luma brainstorm)
+- **Other caches:** Other caches are possible (each team may have established smaller supply stashes marked by glyphs), but none are discovered in Volume 1. — LOCKED
+- **Corroded wing-pack:** Belonged to the last surviving operative of the most recent (third) team. Not stored as a relic — it was worn until it failed. The skeleton of struts is what remains after holographic components degraded and metal corroded over ~120-140 years. — LOCKED
 
-### The Glyphs
-- How many glyphs are there across London? Are they all from the same era, or can Luma date them to different deployment periods?
-- The simplified human-facing glyph — what does it say? What was the prior operative trying to communicate to a human?
-- Do the glyph locations map to anything meaningful? <AI>If they map to the Titan operation zones, it means the prior operatives were surveilling the same targets the squad is now.</AI>
+### The Glyphs — LOCKED
+- **Glyph dating:** Luma can date glyphs to different deployment periods — the oldest (Tudor-era) are nearly illegible, the most recent (Georgian) are still sharp. This is part of how the relay model becomes visible to her. — LOCKED
+- **Human-facing glyph meaning:** A simple protective ward — translates roughly as "watched" or "guarded." The prior operative was telling their human ally: you are under fairy protection. This directly feeds the brownie tradition of household guardianship. — LOCKED
+- **Glyph locations:** Partially overlap with Titan operation zones — both sides were active at the same convergence point. The prior operatives were surveilling the same targets the squad now faces. — LOCKED
 
-### The Human Allies
-- Did each prior team have a "Theodore" — a human ally?
-- Are there surviving traces of those relationships? Letters? Carvings? Family stories?
-- The brownie tradition — is this specifically the legacy of prior operative-human relationships?
+### The Human Allies — LOCKED
+- **Each team had a human ally figure** — an "earlier Theodore." The fairy-human friendship pattern repeats across centuries. The loop guarantees fairy-human contact at each deployment. — LOCKED (already established in Section 1)
+- **Surviving traces of those relationships:** Deferred to Volume 2.
+- **Brownie tradition:** IS specifically the legacy of prior operative-human relationships. The folklore of helpful house spirits who do small favors and expect a saucer of milk is an accurate (if distorted) description of fairy-human coexistence across centuries. — LOCKED
 
-### Volume 1 and Beyond
-- Does any of this become visible to the reader before Issue 4, or is the prior operative thread entirely Luma's discovery?
-- Does Sable know more than "prior insertions, none reported back"? <AI>Her "too controlled" reaction in Issue 8 suggests she might have additional intelligence — or at minimum, she'd been expecting what Luma found.</AI>
-- <hidden>Does the dead data core become a Volume 2 plot engine? If Wren can restore it, it could contain mission logs, maps of other convergence points, or intelligence about the dark fairy operation that predates the current conflict by centuries.</hidden>
-- <AI>The prior operatives' graves (if they exist) — four-inch-tall bones in a church basement. If Luma finds them, does she bury them? Does she mark them? The gesture of a soldier honoring the soldiers who came before.</AI>
+### Volume 1 and Beyond — LOCKED
+- **No prior operative thread before Issue 4.** Luma's glyph discovery in Issue 4 is the introduction of this thread. No earlier foreshadowing. — LOCKED
+- **Sable's knowledge:** Sable knows only "prior insertions, none reported back" from a classified file fragment. Her "too controlled" reaction in Issue 8 is because she'd been expecting physical confirmation of what the file mentioned — not because she has additional intelligence. She knows the fact; Luma discovers the meaning. — LOCKED
+- <hidden>**Dead data core as Volume 2 plot engine:** Deferred to Volume 2. If Wren can restore even fragments, it could contain mission logs, maps of other convergence points, or intelligence about the dark fairy operation that predates the current conflict by centuries.</hidden>
+- **Luma marking graves:** Deferred to Volume 2.
 
 ---
 

@@ -1,7 +1,7 @@
 # Titan Biology and Culture
 
 *Working brainstorm — game design foundation*
-*Status: Active brainstorm, partially locked*
+*Status: Active brainstorm, all open questions locked*
 
 ---
 
@@ -10,9 +10,9 @@
 - **Untagged text** = stated by the creator or established in existing canon documents
 - **`<AI>` tagged text** = AI-generated suggestions for consideration
 - **`<hidden>` tagged text** = author-only information for later reveal; characters and readers do not know this yet
-- **Open questions** = unresolved decisions preserved for future sessions
+- **Locked decisions (formerly open questions)** = resolved; items deferred to Volume 2 or production are marked explicitly
 - **Canon references** point to existing GrimGlow design documents
-- **Locked decision:** The "Titans" are a **two-tier faction** — dark fairy commanders (diverged species, same as the squad) directing ogre foot soldiers (brain-plugged humans — Victorian civilians implanted with Titan tech devices). The two-tier faction structure is no longer open.
+- **Locked decision:** The "Titans" are a **two-tier faction** — dark fairy commanders (same species as the squad, from a failed future iteration of the timeline) directing ogre foot soldiers (brain-plugged humans — Victorian civilians implanted with Titan tech devices). The two-tier faction structure is no longer open. (Origin updated: Alt-Sable brainstorm — LOCKED.)
 
 ---
 
@@ -22,7 +22,7 @@ The "Titans" are not a single species. They are a faction: dark fairy commanders
 
 ### 1a. Dark Fairy Commanders
 
-**What they are:** Same species as Sable's squad. From the opposing branch of the timeline — the future where the civilization chose dominance over cooperation. Fairy-sized (approximately 4 inches, like the squad).
+**What they are:** Same species as Sable's squad. Same civilization, from a failed future iteration of the timeline — alt-Sable IS our Sable, older, who came back after cooperation failed and the squad died. The "dominance over cooperation" philosophy is not cultural inheritance but learned behavior earned through catastrophic loss. (See Alt-Sable brainstorm, Origin — LOCKED. SUPERSEDES previous "opposing branch" framing.) Fairy-sized (approximately 4 inches, like the squad).
 
 **The divergence is visible.** Dark fairies are recognizably the same species but altered by their civilization's different path:
 
@@ -31,7 +31,7 @@ The "Titans" are not a single species. They are a faction: dark fairy commanders
 - **Physical condition:** <AI>Options: (a) Physically identical to the squad under the armor — the divergence is cultural, not biological. Seeing a dark fairy unmasked would be like looking in a mirror. (b) Subtly modified — their civilization pursued genetic enhancement alongside technological divergence. Slightly sharper features, darker coloring, something *almost right* but wrong. The uncanny valley of meeting yourself.</AI>
 - **Numbers in London:** Small. <AI>2-3 dark fairy commanders running the entire operation. They are the strategists, not the muscle. They direct, plan, and coordinate. They rarely expose themselves.</AI>
 
-<hidden>The leader of the dark fairy commanders is an alternate-timeline version of Sable. She made the opposite choices at every fork — dominance over cooperation, control over trust, power over connection. She is what Sable becomes if she stops believing in her squad. The reveal is devastating because Sable recognizes herself.</hidden>
+<hidden>The leader of the dark fairy commanders IS our Sable — older, from a failed future iteration of the timeline. She lived through the full loop: trusted her squad, chose cooperation, stayed, fought the story war. It wasn't enough. Her squad died. She came back with two survivors to try different methods — control instead of trust. She doesn't see herself as evil; she sees herself as the version of Sable who survived by accepting what the evidence showed her. The reveal is devastating because Sable sees her own face, aged, and knows: this is what happens after everything she believes in fails. (Alt-Sable brainstorm, Origin — LOCKED.)</hidden>
 
 **Why they're hidden:** The squad — and the reader — initially perceives only ogres. The dark fairy commanders stay behind the scenes. <AI>The discovery that there are fairy-sized beings directing the ogres is a mid-story revelation. The discovery of WHO leads them is a late-story devastation.</AI>
 
@@ -345,36 +345,33 @@ This is the darkest mirror: the squad's civilization observed and preserved. The
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
-### Brain-Plug Mechanics
-- **Device removal:** How is the device safely removed? Can Wren reverse-engineer it, or does removal require Luma's medical expertise? Is there a risk of neurological damage from improper removal? (Affects gameplay: can the squad "save" ogres mid-mission, or only after the mission?)
-- **Degree of simplification:** How "simple" does a recovered human return? Can they still work? Recognize family? The spectrum from "slightly dulled" to "needs permanent care" determines the emotional weight of every rescue.
-- **Duration and recovery:** Does length of implantation affect recovery? A victim plugged for a week vs. a victim plugged for months vs. the "Tall Ones" who have been under for generations — are the generational cases recoverable at all?
-- **Recognition:** Can Theodore recognize a brain-plugged person before learning the cause? Does he notice that the telegraph operator looks wrong — the dark veins, the iridescent eyes — and mistake it for illness before the squad explains what he's seeing?
+### Brain-Plug Mechanics — LOCKED
+- **Device removal:** Requires fairy guidance and human hands — Wren directs, Theodore operates. Cross-reference Cribbage brainstorm. The device is fairy-scale tech; fairy expertise identifies the correct removal sequence, but the physical extraction requires human-scale fingers. Neither can do it alone. — LOCKED
+- **Degree of simplification:** "Simplification" recovery is a spectrum. Short-duration victims recover more fully; long-duration victims retain more damage. Henry Cowell (longest implanted) is the most diminished — he recognizes his name and his children but cannot navigate the building he walked for decades. All victims can recognize family; not all can resume their former work. — LOCKED
+- **Duration and recovery:** Duration vs. recovery correlation is roughly linear but with a floor — some function always returns. No victim is rendered a permanent vegetative state. The minimum recovery includes recognition of self, loved ones, and familiar places. Fine motor skills and cognitive complexity are what erode with duration. Generational cases (the "Tall Ones" who have been under for centuries at other convergence points) are a Volume 2 question. — LOCKED
+- **Recognition:** Theodore CAN recognize brain-plugged signs — behavioral, not physical. Cribbage's behavioral changes (the wrongness, the stopped clocks, the standing in the dark) are what alert him. Theodore does not diagnose the cause; he recognizes that something is deeply wrong with a person he knows. The squad provides the explanation. — LOCKED
 
-### Ogre Agency (LOCKED — suppressed will confirmed)
-- Beneath the command layer, individuals persist. What triggers moments of surfacing? Extreme stress? Proximity to loved ones? Weakened command signal?
-- Can the squad exploit the suppressed will — speak to the person beneath the device? Would this create tactical vulnerability or emotional devastation?
-- <AI>If a brain-plugged victim is freed during the story, the aftermath is rich narrative territory. They remember everything — being directed, being used, the inability to stop their own body. The horror is not what was done TO them but what was done THROUGH them. A freed telegraph worker who remembers guarding the dark fairy installation while his hands maintained devices he didn't understand. This is Vol 2+ material, but the seeds are planted in Vol 1.</AI>
+### Ogre Agency — LOCKED
+- **Suppressed will surfaces at moments of extreme emotional stimulus** — a name, a familiar voice, a habitual action. The Morse-tapping telegraph worker, the dock laborer hesitating at his own door, the watchman sitting down after weeks of walking. These are involuntary, brief, and heartbreaking. — LOCKED
+- **Squad cannot exploit suppressed will tactically in Volume 1.** They witness it. They are moved by it. But they cannot speak to the person beneath the device or use the surfacing moments strategically. This is a Volume 2 capability — deferred. — LOCKED
 
-### Dark Fairy Specifics
-- How different do dark fairies look from the squad physically? (Identical? Subtly altered? Visibly corrupted?)
-- What is the dark fairy equivalent of each squad role? <AI>Do they mirror the squad's specializations? A dark Wren who builds the nudge engines? A dark Jink who scouts? Or has their civilization moved past individual roles toward something more hierarchical?</AI>
+### Dark Fairy Specifics — LOCKED
+- **Dark fairies look identical to our fairies but visibly aged and weathered** — same species, centuries of wear. The divergence is temporal (they have lived longer, harder lives) not biological. Seeing a dark fairy unmasked is like looking at yourself decades from now after everything went wrong. — LOCKED
+- **Dark fairy equivalent roles are not a clean mirror.** Only alt-Wren maps directly (she builds the nudge engines, same engineering mind applied to dark purposes). The third commander is a non-mirror role — not an alt-Jink or alt-Thresh but someone with no direct squad equivalent, reinforcing that the dark fairy operation is a different organizational model, not a shadow copy. — LOCKED
 
-### The Schism
-- When did the species split? How far in the future? (Affects how different the two branches have become)
-- Was there a specific event, or a gradual divergence? <AI>A single decision point is more dramatic. A gradual drift is more realistic. Both work — the single event mirrors the "convergence point" concept from the temporal cold war.</AI>
-- Do the dark fairies remember being "us"? Or has enough time passed that the connection is historical, not personal?
+### The Schism — LOCKED
+- **The schism is not a schism.** It is the same civilization from after it failed. Alt-Sable IS our Sable from a failed future iteration of the timeline. The dark fairies are not a separate branch — they are the same people, further down a road where cooperation was tried and lost. The "when" is not a historical split point; it is a future that hasn't happened yet for our squad. — LOCKED (supersedes all "opposing branch" framing in this document)
 
-### Cloaking
-- Can the squad develop a reliable dark fairy detector? (Currently they only detect ogres)
-- Does dark fairy cloaking interact differently with fairy holographic tech than ogre cloaking does? (Smaller field, same physics, different behavior?)
+### Cloaking — LOCKED
+- **Cloaking detection:** Wren develops partial dark fairy detection capability in late Volume 1. Not reliable — intermittent, context-dependent, prone to false readings. Full reliable detection is a Volume 2 development. — LOCKED
+- Dark fairy cloaking interaction differences with fairy holographic tech — deferred to Volume 2.
 
-### Cross-Reference: Gameplay
-- Ogre encounters escalate (surveillance → interference → confrontation). What does a dark fairy encounter look like?
-- How does the player learn to distinguish ogre-directed behavior (predictable) from commander-directed behavior (adaptive)?
-- <AI>The difficulty curve maps to the two-tier structure: early game you fight ogres on autopilot (easier). Mid game you fight ogres under commander direction (harder, adaptive). Late game you face a dark fairy commander directly (hardest — same size, same capabilities, same tactical thinking).</AI>
+### Cross-Reference: Gameplay — Deferred to Production
+- Dark fairy encounter design (what a face-to-face looks like) — deferred to Volume 2 narrative and production.
+- Player learning curve for distinguishing ogre-directed vs. commander-directed behavior — deferred to production (gameplay design).
+- Difficulty curve mapping to two-tier structure — deferred to production (gameplay design).
 
 ---
 

@@ -206,17 +206,17 @@ No contractions in command mode. "Do not" rather than "don't." "We will" rather 
 
 ## Hidden Layer
 
-<hidden>The leader of the dark fairy commanders in London is an alternate-timeline version of Sable. She made the opposite choices at every fork -- dominance over cooperation, control over trust, power over connection. She is what Sable becomes if she stops believing in her squad.
+<hidden>The leader of the dark fairy commanders in London IS Sable -- older, from a failed future iteration of the timeline. She lived through the full loop: trusted her squad, chose cooperation at every fork, stayed at the convergence point, fought the story war. It wasn't enough. The fairy tales lost. Her squad died. She came back with two survivors to try different methods -- control instead of trust.
 
-Alt-Sable runs the London operation the way Sable runs the squad -- with tactical precision, strategic patience, and hard calls. But her "squad" is brain-plugged humans, not trusted companions. Every parallel between her command style and Sable's is a mirror.
+Alt-Sable runs the London operation the way Sable runs the squad -- with tactical precision, strategic patience, and hard calls. But her "squad" is brain-plugged humans, not trusted companions. Every parallel between her command style and Sable's cuts deeper now: she IS Sable, with more experience and fewer constraints. She knows exactly how this squad fights because she once commanded one.
 
-Sable's command decisions are mirrored by alt-Sable's decisions throughout Volume 1. The reader does not see this yet. Sable does not see this yet. When she eventually discovers the mirror, every decision in Volume 1 will recontextualize.
+Sable's command decisions are replayed by alt-Sable throughout Volume 1. The reader does not see this yet. Sable does not see this yet. When she discovers the truth, every Volume 1 decision doesn't just change meaning -- it becomes a replay. The Issue 9 break, the choice to stay, "they look like fairy tales" -- alt-Sable did all of it first.
 
-The reveal is devastating because Sable recognizes herself. The "dark mirror" principle is literal at every level: light/geometric vs. shadow/organic technology, cooperation vs. dominance, trusted squad vs. brain-plugged conscripts, Sable vs. alternate Sable -- same competence, opposite philosophy.
+The reveal is devastating because Sable sees her own face, aged, and knows: she was ME. She did everything I'm doing. She believed everything I believe. And it didn't work. The question that breaks her: "If cooperation failed in the original timeline, why should it work this time?"
 
-This revelation belongs to a future volume. Volume 1 groundwork: the intelligence behind Titan operations mirrors Sable's own tactical instincts. Does she sense something familiar about the dark fairy commander's patterns before she knows who she is fighting?
+This revelation belongs to a future volume. Volume 1 groundwork: the intelligence behind Titan operations mirrors Sable's own tactical instincts -- because it IS her own tactical instincts.
 
-(Source: Titan Biology & Culture brainstorm; Dark Fairy Operations brainstorm)</hidden>
+(Source: Alt-Sable brainstorm, Origin -- LOCKED; Titan Biology & Culture brainstorm; Dark Fairy Operations brainstorm)</hidden>
 
 ## References
 

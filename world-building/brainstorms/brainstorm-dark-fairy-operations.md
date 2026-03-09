@@ -1,7 +1,7 @@
 # Dark Fairy Operations: Numbers, Deployment, and Device Visibility
 
 *Working brainstorm — operational planning for Issues 10-12*
-*Status: Active brainstorm, partially locked*
+*Status: All sections locked. Open questions resolved or deferred.*
 
 ---
 
@@ -10,7 +10,7 @@
 - **Untagged text** = stated by the creator or established in existing canon documents
 - **`<AI>` tagged text** = AI-generated suggestions for consideration
 - **`<hidden>` tagged text** = author-only information for later reveal; characters and readers do not know this yet
-- **Open questions** = unresolved decisions preserved for future sessions
+- **Locked Decisions (formerly Open Questions)** = resolved decisions; some deferred to Volume 2 or production
 - **Canon references** point to existing GrimGlow design documents
 
 This document covers the Titan operational footprint in London: how many dark fairy commanders and ogre foot soldiers (brain-plugged humans — Victorian civilians implanted with Titan tech devices) are deployed, where they operate, and whether their devices are visible to humans. It draws primarily from the Titan biology/culture brainstorm, the Volume 1 Plot Outline (Issues 10-12), and the steampunk tech rules brainstorm.
@@ -19,7 +19,7 @@ This document covers the Titan operational footprint in London: how many dark fa
 
 ## 1. Commander Count & Deployment
 
-**Locked decision:** The Titans are a two-tier faction — dark fairy commanders (diverged species, same as the squad) directing ogre foot soldiers (brain-plugged humans — Victorian civilians implanted with Titan tech devices at the base of the skull, overriding their volition). (Titan Biology & Culture brainstorm)
+**Locked decision:** The Titans are a two-tier faction — dark fairy commanders (same species as the squad, from a failed future iteration of the timeline) directing ogre foot soldiers (brain-plugged humans — Victorian civilians implanted with Titan tech devices at the base of the skull, overriding their volition). (Titan Biology & Culture brainstorm; Alt-Sable brainstorm, Origin — LOCKED)
 
 "The operation in London is run by a small number of dark fairy commanders directing a small number of brain-plugged human soldiers." (Titan Biology & Culture brainstorm, Section 5)
 
@@ -32,16 +32,16 @@ The three operation zones map to the squad's triangular operating area (Fairy-Sc
 - **Wapping / Limehouse** (east) — Docklands. Giant brick warehouses, waterfront. (Fairy-Scale Geography brainstorm)
 - **Telegraph infrastructure** — Distributed across London. Relay stations, branch offices, Central Telegraph Office at St Martin's-le-Grand. (Steampunk Tech Rules brainstorm)
 
-<hidden>Alt-Sable leads. She runs the London operation the way our Sable runs the squad — with tactical precision, strategic patience, and hard calls. But her "squad" is brain-plugged human victims, not trusted companions. Every parallel between her command style and Sable's is a mirror that cuts. She assigns sectors, manages resources, adjusts strategy when the squad disrupts operations. She is competent and dangerous precisely because she thinks like Sable. (Titan Biology & Culture brainstorm)</hidden>
+<hidden>Alt-Sable leads. She IS our Sable — older, from a failed future iteration of the timeline where cooperation was tried and lost. She runs the London operation the way our Sable runs the squad — with tactical precision, strategic patience, and hard calls. But her "squad" is brain-plugged human victims, not trusted companions. Every parallel between her command style and Sable's cuts deeper because she IS Sable, with decades more experience. She knows exactly how this squad fights because she once commanded one. She is competent and dangerous because she doesn't just think like Sable — she IS Sable. (Alt-Sable brainstorm, Origin — LOCKED. SUPERSEDES "diverged civilization" framing.)</hidden>
 
 **Commander communication:** <AI>Inverted fairy communication protocol. Encrypted, short-range. The dark fairy commanders must be within operational distance to coordinate — they can't communicate across London instantly. This creates vulnerability: isolating one commander from the others degrades the operation's coordination. (Titan Biology & Culture brainstorm)</AI>
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- Exact number of commanders: is it 2 or 3?
-- Is one commander dedicated solely to the telegraph network operation, or does the telegraph work overlap with a geographic zone?
-- Do commanders rotate between zones or hold fixed assignments?
-- How close must commanders be to coordinate? What is "operational distance"?
+- **Commander count:** 3 in London — LOCKED (established above).
+- **Telegraph zone overlap:** The telegraph operation overlaps with the geographic zone commander. The telegraph infrastructure is distributed, so its commander also manages a geographic territory. No dedicated telegraph-only commander.
+- **Zone assignments:** Commanders hold fixed assignments — operational consistency over rotation. Each commander knows their zone's terrain, routines, and installed devices intimately.
+- **Communication range:** City-wide through the brain-plugged relay network. Commanders are not limited to short-range direct communication; the 5 brain-plugged humans serve as relay nodes, bouncing signals across zones. Without relays, each commander is limited to neighborhood range. With the relay chain intact, coordination spans London.
 
 ---
 
@@ -57,12 +57,12 @@ Brain-plugged humans follow dark fairy commander directives via the Titan tech d
 
 The guarded device in Issue 12: "A guarded device. Titan drone overwhelms Thresh." (Script Prompts, Issue 12). The Plot Outline says "One of the Titan devices is guarded" and "Thresh is overwhelmed." Note: the Script Prompts use the term "Titan drone" — this is now understood as a brain-plugged human under tight, direct commander control. The commander is actively puppeteering the victim during this encounter, making them far more responsive and dangerous than a victim on a behavioral loop.
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- Victim-to-commander ratio: if 2-3 commanders and 3-5 brain-plugged humans, is it roughly 1:2?
-- Can brain-plugged humans be redeployed between zones, or does each commander maintain their own set of victims?
-- What happens if a commander is incapacitated — the Titan device likely goes into standby, and the human enters a fugue state (wandering, still, confused). They don't fight. They don't serve. They just... stop being directed. How long before the device releases entirely, if ever?
-- "Titan drone" (Script Prompts, Issue 12) — now understood as a brain-plugged human under tight direct commander control, not a separate unit type. The term may persist in-universe as squad shorthand before they understand what the "ogres" actually are.
+- **Victim-to-commander ratio:** 1-2 victims per commander, totaling 5 — LOCKED. Flexible deployment across the three zones.
+- **Redeployment:** Victims can be redeployed between zones. Commanders share the brain-plugged relay network; a victim is not permanently bonded to one commander. Any commander can direct any victim within communication range.
+- **Commander incapacitation:** If a commander is incapacitated, victims in their zone go dormant — not freed. The Titan devices stay active but without direction. The humans enter a fugue state (standing still, wandering, confused) but are not released. The device does not disengage on its own. Recovery requires external intervention (Wren's technical skill, as with Cribbage in Issue 12).
+- **"Titan drone" terminology:** Squad shorthand for brain-plugged humans under tight, direct commander control. The term persists in-universe before the squad understands the victims' true nature. Not a separate unit type.
 
 ---
 
@@ -119,13 +119,13 @@ Canon establishes that Theodore physically disarms a device with his hands. This
 - Wren's role is identifying which connections matter — she reads the device's function through her scanner (over holographic comm link) and translates into instructions Theodore can execute physically
 - The device is small relative to Theodore (it's built by fairy-sized beings for fairy-scale installation) but not too small to handle — perhaps the size of a pocket watch or fist-sized component</AI>
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- Can Wren scan for the devices remotely, or does the squad need line-of-sight?
-- Is the "sickly amber-black light" a Titan-tech signature (always present) or cloaking residue (only when active)?
-- Does the device disguise itself, or rely on being hidden inside machinery?
-- What does the device look like to Theodore when he finds it? Does he recognize it as "wrong" or does Wren have to point it out?
-- After the network is neutralized (Issue 12), what physical evidence remains? Do the devices self-destruct or go inert?
+- **Wren's scanning range:** Wren needs line-of-sight to scan devices at fairy scale. Her scanner can detect the inverted-frequency signature, but only when she can physically approach the machinery housing the device. No remote detection across the city.
+- **Amber-black light:** Active-only. The sickly amber-black light is emitted when the device is receiving commands or actively nudging telegraph signals. When dormant (no active commander direction), the device is inert and produces no visible emission. This is consistent with the fairy-scale-only visibility lock above.
+- **Device concealment:** Devices hide inside Victorian machinery — parasitic attachment to telegraph relay mechanisms, cable junctions, and signal repeaters. No active camouflage or self-disguise. They rely entirely on physical concealment within existing equipment.
+- **Theodore's perception:** Theodore sees a small dark object at the base of the relay mechanism that doesn't belong — faintly iridescent, like an oil slick on metal. He recognizes it as *wrong* (a tinker's apprentice knows what belongs inside a machine and what doesn't), but Wren identifies which connections to sever and talks him through the disarm sequence.
+- **Post-neutralization evidence:** Devices go inert, not self-destruct. After the network is neutralized, the devices remain in place as dead hardware — dark, non-emitting, but physically present inside the telegraph equipment. No self-destruct mechanism. They are evidence, but evidence that looks like an unrecognizable component to anyone without fairy-tech scanners.
 
 ---
 
@@ -198,14 +198,14 @@ Titan deployment (partially canon, partially open):
 
 <hidden>Where is alt-Sable during the climax? She is likely the commander directing the brain-plugged human that overwhelms Thresh — the one who anticipated the squad's approach. She runs this like Sable would: identify the most likely threat vector (Thresh, the squad's heavy hitter) and concentrate force there. Whether she reveals herself in Issue 12 or remains hidden for future volumes is an open decision.</hidden>
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- **Total device count:** How many devices are in the network? The squad splits across the city, but the exact number of targets is unstated. Must be at least 3-4 (enough to require full squad deployment plus Theodore).
-- **Is the Issue 10 Titan a brain-plugged human?** Size says yes (any human is enormous at fairy scale). "Technician, not a brute" is now resolved: the victim is a telegraph worker whose technical expertise is being exploited by the commander.
-- **"Titan drone" (Issue 12):** Now understood as a brain-plugged human under tight direct commander control. "Drone" may persist as squad shorthand before they learn the truth about the victims.
-- **Does alt-Sable engage directly in Issue 12?** Or does she remain hidden, preserving the reveal for Volume 2?
-- **Failsafe mechanism:** What does the failsafe do if devices are disabled sequentially? Alert the commanders? Destroy evidence? Accelerate the temporal nudge? Trigger a backup operation?
-- **Post-operation:** "The Titan network in this city is neutralized. Not destroyed — the Titans will adapt, rebuild, try again." (Plot Outline, Issue 12). What does the Titan response look like? Do they redeploy from other cities? Escalate to direct engagement?
+- **Total device count:** 5 devices in the network — one per brain-plugged victim. Each victim was used to install one device at a telegraph node in their zone. This gives the squad 5 targets requiring full deployment (Wren disarms at least one, Thresh guards one, Jink takes one, Theodore reaches the last, Sable coordinates).
+- **Issue 10 Titan identity:** Yes — the Issue 10 Titan is a brain-plugged telegraph worker. LOCKED. "Technician, not a brute" is resolved: the victim's technical expertise is being exploited by the commander directing them. The commander selected this victim specifically for their knowledge of telegraph equipment.
+- **"Titan drone" (Issue 12):** Squad shorthand for brain-plugged humans under tight direct commander control. Not a separate unit type. The term persists in-universe before the squad understands the victims' true nature.
+- **Alt-Sable's engagement in Issue 12:** Deferred — Volume 2 structural decision. Whether alt-Sable reveals herself during the Issue 12 climax or remains hidden for the Volume 2 reveal is left open for the Volume 2 brainstorm.
+- **Failsafe mechanism:** Deferred to production/gameplay design. The failsafe's specific behavior (alert, accelerate, backup) will be determined during scripting and gameplay integration. The narrative requirement is established: disabling devices individually triggers the failsafe, forcing simultaneous neutralization.
+- **Post-operation Titan response:** Deferred — Volume 2 structural decision. The Titans' adaptation, redeployment, and escalation are Volume 2 plot elements.
 
 ---
 
@@ -221,4 +221,4 @@ Titan deployment (partially canon, partially open):
 
 ---
 
-*This document is a working brainstorm. The two-tier Titan faction structure (dark fairy commanders + brain-plugged human foot soldiers), the temporal nudge engine concept, and the Issue 10-12 plot beats are LOCKED canon from existing documents. Additionally LOCKED in this session: commander count (3 in London), brain-plugged human count (5 in London), device visibility (hidden inside equipment, fairy-scale only), and the sickly amber-black light visibility (fairy scale / fairy tech only). `<hidden>` tagged content is author-only information for later story reveals. Source documents: Story Bible, Volume 1 Plot Outline, Volume 1 Script Prompts, Titan Biology & Culture brainstorm, Fairy-Scale Geography brainstorm, Steampunk Tech Rules brainstorm, Ogre Origin brainstorm.*
+*This document is fully locked. The two-tier Titan faction structure (dark fairy commanders + brain-plugged human foot soldiers), the temporal nudge engine concept, and the Issue 10-12 plot beats are LOCKED canon from existing documents. Additionally LOCKED: commander count (3 in London), brain-plugged human count (5 in London), device count (5, one per victim), device visibility (hidden inside equipment, fairy-scale only), sickly amber-black light visibility (fairy scale / fairy tech only, active-only emission), communication range (city-wide via brain-plugged relay network), zone assignments (fixed), device post-neutralization state (inert, not self-destruct), Issue 10 Titan identity (brain-plugged telegraph worker). Items deferred to Volume 2: alt-Sable's direct engagement in Issue 12, post-operation Titan response. Items deferred to production: failsafe mechanism specifics. `<hidden>` tagged content is author-only information for later story reveals. Source documents: Story Bible, Volume 1 Plot Outline, Volume 1 Script Prompts, Titan Biology & Culture brainstorm, Fairy-Scale Geography brainstorm, Steampunk Tech Rules brainstorm, Ogre Origin brainstorm.*

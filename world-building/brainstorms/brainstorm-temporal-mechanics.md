@@ -324,40 +324,36 @@ The fairy tales are real. They always were. The squad just didn't know they were
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### Loop Mechanics
 - ~~Which model for the causal loop?~~ RESOLVED — Model C locked.
-- Does the loop self-correct? (If the squad does something "wrong," does the timeline nudge them back?)
-- <AI>Can the squad *feel* the loop? Are there moments where a choice feels inevitable — not forced, but as if the universe leans toward it? A soft determinism that they sense but can never prove?</AI>
+- **Loop self-correction:** The loop does NOT self-correct if the squad does something "wrong." The slack in Model C allows variation — wrong choices have consequences that persist. The loop guarantees fairy-like beings at the convergence; it does not guarantee success. The squad can genuinely fail to generate strong enough mythology, and the dark fairies can genuinely win. — LOCKED
+- **Feeling the loop:** The squad cannot feel the loop. They are inside it — it feels like free will because it IS free will within constraints. There are no moments of "soft determinism" or the universe leaning. The philosophical weight comes from the READER seeing the loop while the characters experience only choice. — LOCKED
 
 ### The Feedback Channels
-- Are stories the ONLY thing that feeds back, or do tech artifacts and physical traces also contribute?
-- Does the folklorist's pamphlet matter more than Theodore's personal story, or vice versa?
-- <AI>What about the ABSENCE of stories? If the squad prevented a sighting, does that gap in the mythology also feed forward? Is silence as consequential as narrative?</AI>
+- **Stories as primary channel:** Stories are the PRIMARY feedback channel but not the only one. Tech artifacts (the corroded wing-pack, the cache) and physical traces (glyphs, route markers) also persist across centuries and contribute to the convergence. But canon emphasizes "what humanity believes" — artifacts matter less than the stories ABOUT the artifacts. — LOCKED
+- **Pamphlet vs. Theodore's story:** Both matter — different functions. The folklorist's pamphlet provides institutional authority (academic codification, cultural framework). Theodore's personal story provides emotional resonance (the heart of the mythology). Neither dominates; together they are stronger than either alone. — LOCKED
+- **Absence of stories:** Yes. Absence of stories DOES feed forward. Silence at a convergence point weakens the fairy mythology branch. A prevented sighting is a missed node in the compounding mechanism. This is why every fairy tale echo in the 12-issue sequence matters — each one reinforces the mythology's durability. — LOCKED
 
 ### Prior Operatives
-- How many teams were sent? Over what timespan?
-- Did any survive long enough to assimilate into Victorian society?
-- Did they have contact with the dark fairies/ogres of their era?
-- Are the route glyphs from multiple teams or one?
-- <AI>Is there a prior operative's descendant still in London? A family that has carried a "fairy blessing" tradition for centuries, not knowing it's literal?</AI>
-
-### Dark Fairy Temporal Strategy
-- Do the dark fairies understand the loop the same way the squad does?
-- <hidden>Does alt-Sable know the mythology is the convergence mechanism? If so, her strategy would target the stories directly — not just the telegraph but the storytellers.</hidden>
-- Are the dark fairies also part of the loop? (Their presence generates monster mythology — are they "supposed" to be here too?)
+- **Number of teams:** 3 teams over approximately 300-400 years (relay model). Each team stayed as long as they could, leaving information for the next. — LOCKED
+- **Human ally figures:** Each prior team had a human ally figure — a Theodore equivalent for their era. This is how the "good folk" church legends accumulated across centuries. — LOCKED
+- **Glyph route markers:** From multiple teams, layered across centuries. The glyphs are a cumulative knowledge base, not a single team's work. This is why Luma finds varying ages and styles in the markings. — LOCKED
+- **Dark fairy contact:** The dark fairies ARE part of the loop. Monster mythology is as "guaranteed" as fairy mythology — the loop produces both. Which dominates is the contested space. The dark fairies understand the loop differently than the squad — alt-Sable understands it through bitter experience, not theory. — LOCKED
+- **Prior operative descendants/assimilation:** Deferred to Volume 2. Whether any team member survived long enough to assimilate into the local population is a Volume 2 question.
+- <hidden>Alt-Sable's direct targeting of storytellers as a strategy — established but deferred to Volume 2 reveal.</hidden>
 
 ### The Paradox and Free Will
-- Does the game explore this mechanically? (Player choices that feel free but loop back to the same narrative events?)
-- How does the Phase 1 browser game (Issues 1-3) introduce the paradox? (The falling star, the will-o'-the-wisps, Theodore telling friends — these are the first fairy tales being written)
-- <AI>Could the game's save system be narratively framed as temporal mechanics? Reloading a save isn't breaking immersion — it's the timeline self-correcting.</AI>
+- **Gameplay paradox mechanics:** Deferred to production. Whether player choices loop back to the same narrative events is a game design question for Phase 2 (Unity).
+- **Phase 1 browser game paradox introduction:** Deferred to production. The falling star, the will-o'-the-wisps, and Theodore telling friends are the first fairy tales being written — the paradox is present but not yet visible to the player.
+- **Save system as temporal mechanics:** Deferred to production. An interesting framing possibility but a gameplay design decision, not a narrative one.
 
 ### Theodore
-- Does Theodore ever learn the full truth? (That his friends are from the future, not fairyland?)
-- His story is the first fairy tale. Does he write more?
-- <AI>If Theodore's story survives centuries and eventually reaches the fairy civilization as a historical document, then Theodore is — unknowingly — the most important human in the timeline. The boy who wrote the founding myth of a civilization. This is an extraordinary weight for a 12-year-old character to carry, and he never knows.</AI>
+- **Theodore unknowingly writes the founding myth** — LOCKED (already established in Theodore wiki and inner-world brainstorm hidden layer). Theodore is, unknowingly, the most important human in the timeline.
+- **Whether Theodore learns the full truth:** Deferred to Volume 2. In Volume 1, Theodore believes his friends are fairies. The reveal that they are future soldiers, not magical beings, is a potential Volume 2 beat.
+- **Whether Theodore writes more stories:** Deferred to Volume 2. Volume 1 ends with the first fairy tale. Whether it becomes a body of work is a sequel question.
 
 ---
 
-*This document is a working brainstorm. LOCKED decisions: Model C (slack with choice-windows) as the temporal model; "STAY" four-reading coexistence as deliberate ambiguity; Issue 12 squad responses (emotional shape of the resolution). Remaining `<AI>` tagged suggestions are proposals for consideration. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Volume 1 Plot Outline, Volume 1 Script Prompts, fairy-scale geography brainstorm, steampunk tech rules brainstorm, and Titan biology/culture brainstorm.*
+*This document is a working brainstorm. All open questions have been resolved — see "Locked Decisions" section. LOCKED decisions: Model C (slack with choice-windows) as the temporal model; "STAY" four-reading coexistence as deliberate ambiguity; Issue 12 squad responses (emotional shape of the resolution); loop mechanics, feedback channels, prior operatives, and dark fairy temporal strategy as detailed above. Remaining `<AI>` tagged text in body sections represents incorporated context, not unresolved proposals. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Story Bible, Volume 1 Plot Outline, Volume 1 Script Prompts, fairy-scale geography brainstorm, steampunk tech rules brainstorm, and Titan biology/culture brainstorm.*

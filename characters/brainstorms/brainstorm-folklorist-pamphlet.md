@@ -201,31 +201,28 @@ The folklorist's editorial choices — which accounts to include, how to frame t
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### Identity
-- What is his name?
-- How old is he? <AI>Young enough to still be building his career — 30s? — but old enough to be taken seriously as an academic?</AI>
-- Which university? <AI>UCL is the strongest option for 1885 folklore — secular, progressive, more likely to support a new discipline.</AI>
-- Does he have a family? Is he solitary and obsessive, or balanced?
+- **James Machen, early 30s, UCL, Folk-Lore Society** — LOCKED (established in Section 1). All identity questions resolved.
+- **Solitary and driven** — LOCKED. No family. The pamphlet is his life's work to date. He's the kind of academic who forgets to eat because the pattern in the data is more interesting. Not antisocial — just consumed. The sightings are the best material he's ever encountered and he knows it.
 
 ### The Pamphlet
-- Does it include illustrations? <AI>A woodcut or engraving of a "fairy light" based on witness descriptions would be powerful — the first visual representation of the squad's holographic tech as seen through Victorian eyes.</AI>
-- Does the pamphlet have a second printing? Does it spread beyond London?
-- How much does it cost? Who buys it?
+- **Illustrations: several woodcuts/engravings** — LOCKED (established in Section 3). The first visual representations of fairy tech and Titan presence through Victorian eyes.
+- **No second printing in Volume 1** — LOCKED. The first printing sells well in academic and literary circles but doesn't spread beyond London yet. Whether it gets a second printing is a Volume 2 question — the pamphlet's reach expanding is a possible convergence accelerator.
+- **Cost: a few pence. Audience: Folk-Lore Society members, UCL colleagues, London booksellers' stalls, curious general readers** — LOCKED. Accessible but not mass-market. It reaches the people who care about stories.
 
 ### Encounters
-- Does the folklorist interview Theodore, or only collect secondhand versions of Theodore's story?
-- Does he ever interview the lamplighter from Issue 2? The clockmaker from Issue 5?
-- Does he visit the neighborhoods where sightings occurred?
+- **The folklorist does NOT interview Theodore directly** — LOCKED. He collects secondhand versions of Theodore's stories from neighborhood witnesses — people Theodore has told. The folklorist is one degree removed, which is exactly how folklore works. The story he publishes is already a retelling of a retelling.
+- **He interviews neighborhood witnesses including the lamplighter (Issue 2 sighting area) and other street-level observers** — LOCKED. He visits the neighborhoods where sightings occurred. He talks to residents, workers, pub regulars. The clockmaker (Issue 5 area) is a possible interview subject but not confirmed — Cribbage's brain-plugging complicates that neighborhood's reliability.
+- **He visits sighting neighborhoods in person** — LOCKED. The Folk-Lore Society methodology emphasized collecting stories "from the lips of the people." He goes where the stories are told.
 
 ### Volume 1 and Beyond
-- Does he appear beyond Issues 10-11? Does he have any presence in Issue 12?
-- <AI>Does the folklorist attend the public events during the squad's final operation in Issue 12? If there are visible disturbances, does he witness anything firsthand?</AI>
-- Does he appear in Volume 2? <AI>If the convergence mechanism becomes more overt in Volume 2, the folklorist could evolve from background figure to significant player — a man who realizes the stories he collected aren't folklore at all.</AI>
+- **Appears in Issues 10-11 only** — LOCKED (established in Section 1). No presence in Issue 12. He doesn't witness the final operation firsthand — maintaining his academic distance is what gives the pamphlet authority.
+- **Volume 2 presence is deferred** — not decided for Volume 1 planning. The folklorist could evolve from background figure to significant player in Volume 2, but that's a Volume 2 decision.
 
 ### The Convergence
-- Does the folklorist use the father's press for the pamphlet? (Connection to Theodore Father brainstorm)
-- Does Luma ever read or encounter the pamphlet?
-- <AI>Does the folklorist ever notice the geographic clustering of sightings? If he maps them, he's accidentally mapping the squad's territory and Titan activity zones. Does that map survive?</AI>
-- <hidden>If alt-Sable targets storytellers and printers (raised as open question in Temporal Mechanics brainstorm), does the folklorist become a target in Volume 2? An academic who published the authoritative record of fairy sightings would be the single most dangerous person to the monster mythology's dominance.</hidden>
+- **Folklorist uses Arthur Hartley's press** — LOCKED (established in Section 1). The press is the physical nexus where both convergence tracks cross.
+- **Luma reads the pamphlet** — LOCKED (established in Section 1). A four-inch fairy soldier reading a pamphlet about fairy sightings. She's reading about herself, framed as folklore.
+- **He notices the geographic clustering but can't explain it** — LOCKED (established in Section 3). The fairy and monster sightings follow similar patterns. He flags this as an open question in the pamphlet. The pamphlet accidentally contains the evidence for the temporal war.
+- <hidden>**Whether the folklorist becomes a target for alt-Sable is a Volume 2 question** — deferred. The institutional track (pamphlet) is harder to kill than the personal track (Theodore's fairy tale). If alt-Sable understands the convergence mechanism, the folklorist is the single most dangerous person to the monster mythology's dominance. But this decision belongs to Volume 2 planning.</hidden>

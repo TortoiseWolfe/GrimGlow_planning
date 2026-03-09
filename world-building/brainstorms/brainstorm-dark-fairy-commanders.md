@@ -1,7 +1,7 @@
 # Dark Fairy Commanders — The Subordinate Faction
 
 *Working brainstorm — world-building / faction development*
-*Status: Active brainstorm, not finalized*
+*Status: All sections locked. Open questions resolved or deferred.*
 
 ---
 
@@ -10,7 +10,7 @@
 - **Untagged text** = stated by the creator or established in existing canon documents
 - **`<AI>` tagged text** = AI-generated suggestions for consideration
 - **`<hidden>` tagged text** = author-only information for later reveal
-- **Open questions** = unresolved decisions preserved for future sessions
+- **Locked Decisions (formerly Open Questions)** = resolved decisions; some deferred to Volume 2 or production
 - **Canon references** point to existing GrimGlow design documents
 
 ---
@@ -23,9 +23,9 @@
 - 5 brain-plugged humans total — LOCKED. Flexible deployment, 1-2 per commander. (Dark Fairy Operations brainstorm, Section 2)
 
 **What commanders are:**
-- Same species as the squad, from the diverged timeline — "the future where the civilization chose dominance over cooperation." (Titan Biology brainstorm, Section 1a)
+- Same species as the squad. Same civilization, from a failed future iteration of the timeline — alt-Sable IS our Sable, older, who lived through the loop's failure and came back with two survivors to try different methods. (Alt-Sable brainstorm, Origin — LOCKED. SUPERSEDES previous "diverged civilization" framing.)
 - Fairy-sized, approximately 4 inches. (Titan Biology brainstorm, Section 1a)
-- Suits use inverted aesthetic: "shadow trapped in organic patterns. The oil-on-water iridescence of Titan tech is what dark fairy armor looks like. Dark, shifting, refractive." (Titan Biology brainstorm, Section 1a)
+- Suits use degraded fairy aesthetic: the "oil-on-water iridescence" is what fairy tech becomes after centuries of operation and repurposing for control. Shadow trapped in organic patterns is corrupted fairy tech, not a separate tradition. (Alt-Sable brainstorm, Section 5)
 - "They are the planners, not the muscle. They direct, plan, and coordinate. They rarely expose themselves." (Titan Biology brainstorm, Section 1a)
 
 **Communication (partially developed):**
@@ -41,8 +41,8 @@
 
 **The mirror question (RESOLVED):**
 - **Partial mirror** — LOCKED. One subordinate commander mirrors a specific squad member (Wren — engineer vs. engineer, creation vs. control). The other doesn't mirror anyone, representing a role unique to the dark fairy hierarchy. One uncanny recognition. One alien encounter.
-- **Both commanders are alternate-timeline versions of specific people** — LOCKED. Not a different class of operative. They are products of the diverged civilization — dark-timeline versions of individuals. Only one maps recognizably to a squad member (Wren's counterpart). The other is from the same civilization but has no squad equivalent.
-- **Alt-Sable's name: "Sable" means the same thing in both civilizations but carries different weight** — LOCKED. In the squad's world, it's a name. In the dark fairy world, it's a rank or title. The shared name IS the horror.
+- **Both commanders are from the failed future timeline** — LOCKED. Alt-Wren survived from the original squad (mirrors our Wren — engineer vs. engineer, creation vs. control). The third commander has no squad equivalent and represents what alt-Sable's philosophy produces as a starting condition rather than a scar. (Alt-Sable brainstorm, Section 4. SUPERSEDES previous "products of the diverged civilization" framing.)
+- **Alt-Sable's name: "Sable" — it's literally the same person's name** — LOCKED. Not a parallel. Not a coincidence. She IS Sable, older, from a failed future. The shared name IS the horror because the name is the same person.
 
 **Discovery sequence (established):**
 - (1) Squad assumes only ogres → (2) intelligence too sophisticated for ogres alone → (3) discovers dark fairy commanders exist, same species → (4) discovers Alt-Sable's identity. Steps 1-2 in Volume 1, Step 3 late Vol 1 or early Vol 2, Step 4 Vol 2 climax. (Titan Biology brainstorm, Section 4; Alt-Sable brainstorm)
@@ -263,38 +263,42 @@ Yes, but they'd be less careful. Alt-Sable is disciplined enough to observe with
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### Identity
-- Do the subordinate commanders have names? <AI>Naming convention options: (a) They use names, like the squad does — personal identities from their civilization. (b) They use designations — functional labels rather than names, reflecting a civilization that values role over individual. (c) Alt-Sable uses a name; the subordinates use designations — reflecting her unique status as a mirror character vs. their role as institutional operatives.</AI>
-- What do they look like physically? <AI>Options from Titan Biology brainstorm: identical to squad under armor (divergence is cultural), subtly modified (genetic enhancement), or visibly different (the uncanny valley of meeting yourself). The subordinates' appearance might differ from alt-Sable's if she's an alternate-timeline Sable while they're generic dark fairy operatives.</AI>
-- Personality types — what makes each subordinate distinct beyond their operational role?
+
+- **Subordinate names:** The subordinate commanders don't have individual names in Volume 1. They are shadows, not characters yet — functionally present but narratively unindividuated. Volume 2 names them when they step into the foreground. In Volume 1 they are referred to by zone or function if referenced at all.
+- **Physical appearance:** Identical fairy species, subtly modified by centuries of operation. Same biological template as the squad, but visibly aged and weathered — the way alt-Sable shows the wear of decades more experience. The degradation is not genetic modification but the toll of prolonged field deployment: suits repaired and re-repaired, tech patched with improvised components, the physical markers of a mission that never ended. They look like what the squad would become given enough time.
+- **Personality types:** One subordinate mirrors Wren — alt-Wren, LOCKED. The third commander's personality is deferred to Volume 2. In Volume 1, subordinate commanders are defined by their operational behavior, not their individual characterization.
 
 ### The Mirror
-- Does one subordinate mirror a specific squad member? If so, which one?
-- <AI>If the mirror is Wren: the dark engineer who built the temporal nudge engines becomes Wren's personal antagonist in Volume 2. Wren's discovery that the tech is "us, backwards" gains a face. The dark Wren used the same skills to build control devices that our Wren uses to build tools of understanding. The horror is specific and technical: same knowledge, opposite application.</AI>
-- If no mirror: what makes the subordinates interesting as characters independent of the squad?
+
+- **Mirror assignment:** One subordinate mirrors Wren (alt-Wren) — LOCKED. Engineer vs. engineer, creation vs. control. Alt-Wren built and maintains the temporal nudge engines. Wren's "this is us, backwards" gains a face in Volume 2.
+- **Third commander:** Non-mirror — LOCKED. Not a counterpart to any squad member. Represents what alt-Sable's philosophy produces: a role unique to the dark fairy hierarchy, someone shaped by the mission rather than by a prior identity the squad would recognize. Characterization deferred to Volume 2.
 
 ### Command Dynamics
-- How does alt-Sable manage disagreement among the three?
-- <AI>Is there a subordinate who wants to escalate faster — who would have attacked the squad openly in Issue 10 rather than withdrawing? Does alt-Sable's patience feel like weakness to them? Internal tension creates tactical cracks the squad could exploit in Volume 2.</AI>
-- Has alt-Sable ever lost a subordinate commander? Were more than 3 sent originally?
+
+- **Disagreement management:** Alt-Sable doesn't tolerate disagreement — command by directive, not consensus. She has decades of operational experience and a strategic patience that the subordinates follow because the mission requires it, not because they're invited to weigh in.
+- **Internal tension:** Exists but is suppressed. Alt-Wren follows without conviction — she executes because she's a professional, but the gap between her engineering instincts and alt-Sable's directives creates a fault line that Volume 2 can exploit. The third commander's relationship to alt-Sable is deferred to Volume 2.
+- **Lost operatives:** Whether alt-Sable has lost other subordinate commanders (or arrived with more than 3) is deferred to Volume 2 backstory development.
 
 ### Communication
-- Exact operational range of commander-to-commander comms?
-- Can the squad jam the shadow-frequency channel once they discover it? <AI>If Wren can jam it, isolating the commanders becomes a viable tactical objective. If she can't, the commanders always coordinate — more dangerous but less interesting tactically.</AI>
-- Does the brain-plugged human relay system create a vulnerability the squad can exploit?
+
+- **Operational range:** City-wide through brain-plugged relay network. Consistent with Dark Fairy Operations brainstorm — the 5 brain-plugged humans serve as relay nodes, giving commanders London-wide coordination. Without relays, range drops to neighborhood scale.
+- **Squad jamming capability:** The squad can potentially jam shadow-frequency communication — deferred to Volume 2 capability development. Wren would need to identify the frequency first (possible in late Volume 1 after discovering the commander tier) and develop a countermeasure (Volume 2 tactical arc).
+- **Relay vulnerability:** Yes — the brain-plugged relay network is an exploitable vulnerability. Wren identifies this in the Issue 10-12 area: disrupting or freeing relay nodes degrades commander coordination. This is a key tactical insight that carries into Volume 2 planning.
 
 ### Cloaking
-- Can Wren develop a reliable dark fairy detector? <AI>The holographic interference pattern (fairy tech glitching near cloaked dark fairies) is the most promising detection mechanism — but it requires active fairy tech output, which reveals the squad's own position. Detection costs exposure. Observation has a price on both sides.</AI>
-- How does rain, fog, or snow interact with fairy-scale cloaking? <AI>At fairy scale, a raindrop is a significant physical object. Does a raindrop that strikes a cloaked commander splash on something invisible? Does fog condense on the cloaking field's surface, creating a tiny fairy-shaped outline of water droplets?</AI>
+
+- **Dark fairy detection:** Wren develops partial detection capability in late Volume 1 — scanner calibration after the first near-miss encounter with dark fairy tech signatures. Not reliable, not real-time, but enough to register anomalies that weren't detectable before. Full detection development is a Volume 2 arc.
+- **Weather interactions:** Deferred to production/gameplay design. The interaction of rain, fog, and snow with fairy-scale cloaking fields is a visual/mechanical detail to be resolved during game development and comic art direction.
 
 ### Volume 1 Seeds
-- Which specific moments in Volume 1 are retroactively commander-observation moments?
-- Does the Issue 12 climax leave any physical evidence of a fairy-scale presence near Thresh's ambush? <AI>A tiny boot print in industrial grime. A fairy-sized handhold mark on a pipe. Something that doesn't register as meaningful until the squad knows what to look for.</AI>
-- How explicit is Wren's "this is us, backwards" observation? Does it land as a major moment or a throwaway line?
+
+- **Retroactive commander moments:** Which specific Volume 1 moments are retroactively commander-observation scenes is a scripting decision — deferred to production. The framework is established (alt-Sable watching through brain-plugged eyes since Issue 1; subordinate commanders aware of squad activity in their zones), but specific panel/page placement is script-level detail.
+- **Physical evidence at Issue 12:** No physical evidence. The dark fairy commanders are too disciplined to leave traces at fairy scale. No boot prints, no handhold marks. Their operational security is the reason the squad doesn't discover their existence until Volume 2. If evidence existed, the squad would find it — they're that thorough.
+- **"This is us, backwards":** A FLAGGED moment — already LOCKED in the alt-Sable brainstorm. This is a major beat, not a throwaway line. Wren says it in the Issue 11 analysis sequence. It lands as an intellectual revelation that the squad doesn't fully understand yet. The full implication (same-species commanders, alt-Sable's identity) decompresses across Volume 2.
 
 ### Volume 2 and Beyond
-- When does the squad first encounter a dark fairy commander face-to-face?
-- <AI>The first face-to-face is the most important moment in the faction's arc. A squad member — at four inches tall — seeing another four-inch being for the first time since the crash. The same size. The same shape. But *wrong.* It's not a mirror yet (they don't know about alt-Sable). It's just the revelation that they aren't alone — and that the other beings like them are the enemy.</AI>
-- Does a subordinate commander defect, die, or get captured in Volume 2? <AI>A captured dark fairy commander would be the squad's first opportunity to interrogate someone from the other side. The intelligence value is enormous. But holding a prisoner when you're four inches tall and hiding in a Victorian city creates its own problems.</AI>
+
+- **All deferred.** The first face-to-face encounter between the squad and a dark fairy commander, subordinate fates (defection, death, capture), and the escalation of the faction conflict are Volume 2 structural decisions. Volume 1 establishes the framework; Volume 2 delivers the payoff.

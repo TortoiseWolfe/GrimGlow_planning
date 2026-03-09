@@ -260,27 +260,27 @@ The arc is: she starts by separating findings from feelings. She ends by recogni
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### Fascination
-- Does Wren keep a technical log? A record of Victorian mechanisms she's studied and adapted? <AI>If so, it becomes both an engineering document and, accidentally, a diary of her arc.</AI>
-- Which specific technology is her "favorite"? The clockwork (Issue 5 is where the crack opens) or the Fresnel lens (Issue 7 is where she says "elegant")? Or is it the Jacquard loom (the programmable system that seeds her entire civilization)?
-- Does she ever encounter a Victorian technology that SURPASSES fairy tech in some narrow dimension? <AI>Over-engineering might be the candidate — Victorian builders over-built for redundancy in ways fairy tech doesn't. Bazalgette's sewers, over-built to handle capacity decades away. Fairy tech is efficient; Victorian tech is durable. Different strengths.</AI>
+- **Wren keeps a technical log** — LOCKED. Started as engineering notes on Victorian mechanisms she's studied and adapted. Accidentally becomes a diary of her arc — she doesn't read it that way, but the entries shift from clinical assessment to something approaching admiration. The log exists on her scanner's storage.
+- **Favorite technology: the Fresnel lens (Issue 7)** — LOCKED. The clockwork (Issue 5) opened the door. The Fresnel lens is where she says "elegant" — the only aesthetic word she uses. That's the moment the engineer becomes something more. The Jacquard loom matters historically but she doesn't encounter it directly in Volume 1.
+- **Victorian tech surpasses fairy tech in one dimension: durability** — LOCKED. Victorian over-engineering provides redundancy fairy tech doesn't have. Bazalgette's sewers, built for capacity decades ahead. The repaired ship runs better in some ways because Victorian components are overbuilt. Fairy tech is efficient; Victorian tech is durable. Wren respects this deeply.
 
 ### Danger Threshold
-- Does Sable ever directly confront Wren about crossing the line? (Not just the human interaction policy, but Wren's growing attachment to Victorian methods?)
-- Does Wren teach Theodore anything she shouldn't? Or does Theodore figure things out on his own and she just... doesn't stop him?
-- The brass caliper on her suit — did she choose it, or was it the only option? <AI>The answer matters. If she chose it when fairy alternatives existed, that's characterization. If it was necessity, it's just logistics.</AI>
+- **Sable does not directly confront Wren** — LOCKED. Sable notes Wren's growing engagement but doesn't shut it down because Wren's Victorian adaptations are keeping the squad alive. The confrontation is implied — Sable's silence on the topic is its own commentary. Wren knows she's being watched and doesn't care.
+- **Theodore figures things out; Wren doesn't stop him** — LOCKED. She doesn't actively teach. Theodore observes, asks, experiments. Wren doesn't intervene. The distinction matters to Wren — she didn't violate protocol, she just... didn't intervene. The hair-splitting is the character.
+- **Brass caliper: started as necessity, became choice** — LOCKED. She had fairy alternatives by the time she stopped needing the caliper. She kept it. The keeping is the characterization — she chose Victorian when she didn't have to.
 
 ### Paradox Processing
-- Does Wren understand the paradox differently from Luma? Luma sees patterns; Wren sees systems. Do they reach the same conclusion through different reasoning?
-- Does Wren ever articulate the feedback-system metaphor, or does she just feel it without explaining it?
-- The telegraph argument she lost to herself — is this explicit (she says "I already proved this") or implicit (she goes quiet and the reader connects it)?
+- **Wren and Luma reach the same conclusion through different reasoning** — LOCKED. Luma sees the causal loop through evidence chains. Wren sees it through systems — the telegraph IS the feedback loop, the repair process IS the paradox. Wren's "this isn't alien, this is us — backwards" is the system-reading version of Luma's paradox synthesis. Different vocabulary, same truth.
+- **Implicit, not articulated** — LOCKED. Wren doesn't say "I already proved this." She goes quiet. The fight leaves her face. The "stories don't build civilizations" pushback in Issue 12 is Wren arguing against what she already knows. She loses the argument to herself. The reader connects it.
+- **Telegraph argument: same answer** — LOCKED. Implicit. She stops arguing. The squad sees the fight leave her. The brevity is the tell — Wren doesn't lose arguments slowly.
 
 ### Voice
-- Does she have a verbal tic or habit? **Quantifying tic.** She quantifies things. "Three minutes." "Point-one tolerance." "Twelve components." She puts numbers on things because numbers are clean. — LOCKED
-- Does she speak differently to Theodore than to the squad? <AI>She might simplify — not condescendingly, but practically. She explains things to Theodore the way a good engineer explains to a non-specialist: accurately but without jargon. This would contrast with how she talks to the squad (shorthand, assumptions of shared knowledge).</AI>
-- Her Issue 12 argument with Luma — how long does it last? Does she give in quickly (she already knows) or does she fight it (she doesn't want to know)?
+- **Quantifying tic** — LOCKED (unchanged).
+- **Simplifies for Theodore** — LOCKED. Accurately but without jargon. The way a good engineer explains to a non-specialist. With the squad: shorthand, assumed shared knowledge. With Theodore: practical precision. Cross-reference: squad voice tics brainstorm.
+- **Issue 12 argument: short** — LOCKED. Two or three exchanges, then she stops. She fights it, but she's already proved Luma's point. The brevity is the character — Wren doesn't lose arguments slowly.
 
 ---
 

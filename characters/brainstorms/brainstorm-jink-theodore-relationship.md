@@ -152,10 +152,10 @@ But the friendship isn't built on the extraordinary. It's built on the ordinary 
 
 ### What Changes When the Fairy Tale Breaks?
 
-Open questions:
-- Does what Jink offers change after Issue 4? Or does Theodore still experience it as wonder, just reframed?
-- Does what Theodore offers change? (Jink still isn't the kid around Theodore, fairy tale or not.)
-- <AI>The fairy tale breaking might not reduce what they offer each other — it might purify it. The wonder was partly illusion. What remains after illusion is stripped away is the real thing.</AI>
+Locked decisions:
+- **What Jink offers reframes but doesn't reduce** — LOCKED. Wonder becomes admiration. Delight becomes friendship. Same impulse, honest frame. Theodore still watches Jink fly with something that looks like wonder — it just isn't built on misunderstanding anymore.
+- **What Theodore offers doesn't change** — LOCKED. Jink still isn't the kid around Theodore. The relationship's structure survives the fairy tale because the fairy tale was never the foundation.
+- The fairy tale breaking purifies rather than diminishes. What remains after illusion is stripped away is the real thing.
 
 ---
 
@@ -219,10 +219,10 @@ The Theodore brainstorm explores the disillusionment from Theodore's perspective
 
 Canon doesn't tell us what Jink does during the moment Sable destroys the fairy tale. Sable says "this is not a story." Theodore absorbs it. But Jink is standing right there — the one who kept the fairy tale alive by not correcting it.
 
-Open questions:
-- Does Jink watch Theodore's face during Sable's speech?
-- Does Jink try to intervene? Soften it?
-- Does Jink feel responsible for the disillusionment? They built the fairy tale by not correcting it. Sable tore it down. Both of those are choices.
+Locked decisions:
+- **Jink watches Theodore's face during Sable's speech. Can't look away** — LOCKED. The guilt is in witnessing what they caused.
+- **Jink does NOT intervene** — LOCKED. Jink knows Sable is right. The guilt is in NOT intervening — in standing there while the thing they built gets taken apart. Silence, not protest.
+- **Jink feels responsible, mixed with relief** — LOCKED. The secret was a burden. Not paralyzing guilt — Jink doesn't do paralysis. But the responsibility is real and feeds the Issue 11 rooftop seriousness.
 
 <AI>Possible Jink reactions during the Issue 4 meeting:
 
@@ -258,28 +258,25 @@ Jink's reckless contact doesn't just create a friendship. It creates the foundat
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### The Bond
-- When does Jink start protecting Theodore instead of just enjoying him? <AI>Options: gradually (Issues 5-8 as stakes rise), suddenly (Issue 7 Titan sighting makes the danger real), or not until Issue 11 (the rooftop is the first protective act).</AI>
-- Does Theodore ever protect Jink? (He's a giant — does he ever physically shield them?)
-- Is there a moment of genuine conflict between them? (Not Jink-Sable conflict over Theodore, but Jink AND Theodore disagreeing?)
+- **Protection develops gradually, Issues 5-8** — LOCKED. An accumulation as stakes rise. Issue 7 is when Sable names it ("friends take risks for each other"). Cross-reference: Jink recklessness brainstorm.
+- **Theodore physically shields Jink once** — LOCKED. Issue 10 or 12 area — a reflexive shielding gesture during battle. Small, instinctive. The scale inversion made visible: the giant protecting the fairy. Not dramatic — just a hand curving around danger.
+- **No outright conflict between them in Volume 1** — LOCKED. The closest is the Issue 11 rooftop — a conflict about care (Jink says go, Theodore refuses), not disagreement. They're aligned enough that tensions come from external pressure (Sable, the mission), not from each other.
 
 ### Scale and Physicality
-- Where does Jink perch during conversations? <AI>Options: Theodore's workbench (at eye level), Theodore's shoulder (intimate, traveling), Theodore's palm (most vulnerable — Jink choosing to stand in a space that could close). Each location carries different emotional weight.</AI>
-- Does Jink ever fly to Theodore's eye level for important conversations? (The wing-pack display in Issue 3 sets this precedent.)
-- The rooftop in Issue 11 — is Jink on the rooftop edge while Theodore sits beside them? What's the physical staging?
+- **All three perching locations, at different emotional beats** — LOCKED. Workbench for business (Issues 4-5). Shoulder for traveling (Issues 6-8). Palm for the most vulnerable moments. Each location IS emotional weight.
+- **Jink flies to eye level for important conversations** — LOCKED. The Issue 3 wing-pack display sets the precedent. Jink hovers at Theodore's eye level when something matters. A deliberate choice — meeting Theodore where he is, not looking up.
+- **Issue 11 rooftop staging: Jink on the parapet, Theodore sitting on the roof surface beside them** — LOCKED. For once, their eyes are approximately level. The scale difference doesn't dominate. The physical equality mirrors the emotional equality of the conversation.
 
 ### Voice
-- Does Jink have a nickname for Theodore? <AI>"Theo" suggested in Jink brainstorm — "the nickname as a claim of closeness." Does anyone else use it?</AI>
-- Does Theodore have a name for Jink? (Or does he use the callsign like the squad does?)
-- The borrowed vocabulary — what specific words do they take from each other?
+- **"Theo" is Jink's exclusive nickname** — LOCKED. No one else uses it. Theodore never asks anyone to. The nickname is Jink's claim.
+- **Theodore calls Jink "Jink"** — LOCKED. Uses the callsign like the squad does. Never questions it or asks for a real name. (Whether Jink even has another name is a future question.)
+- **Borrowed vocabulary: present but not itemized** — LOCKED. The reader notices the borrowing happening across Issues 7-12 without a catalogue. Small words, shared cadences. Specific terms are a scripting decision.
 
 ### After Volume 1
-- Does the relationship continue to evolve? (Volume 1 ends with Theodore writing — is there more?)
-- Does Theodore ever learn what his fairy tale means for the timeline?
-- Does Jink ever read what Theodore wrote?
-- <AI>If Jink reads Theodore's fairy tale, what is Jink's reaction? The fairy tale Theodore writes is about "tiny luminous people with wings of light" — it's the fairy version, not the soldier version. Theodore chose to write Jink as a fairy. After everything, after learning the truth, Theodore still sees the fairy tale. For Jink, who learned that actions have weight, reading themselves as a fairy in a story they accidentally created might be the moment the arc completes.</AI>
+- All Volume 2 questions — **deferred**. The relationship continues to evolve. Whether Theodore learns the timeline significance, whether Jink reads the fairy tale — these are Volume 2 dramatic questions. Volume 1 ends with Theodore writing and Jink absent from the room. The absence is the point.
 
 ---
 

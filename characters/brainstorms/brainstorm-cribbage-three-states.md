@@ -206,26 +206,26 @@ In Issue 12, Theodore writes the fairy tale by candlelight. The Cribbage story i
 
 ---
 
-## Open Questions
+## Resolved Questions
 
 ### State 1 (Normal)
 - **Cribbage is thin and precise** — LOCKED. Narrow face, sharp eyes, ink-stained fingers. A man whose body matches his temperament — exact, angular, no excess.
 - **Cribbage is one of the five brain-plugged humans in the main Titan operation** — LOCKED. Not separate or additional. Targeted strategically because his workshop sits near telegraph infrastructure.
-- Does Theodore live in the workshop or elsewhere? Does Cribbage provide lodging as part of the apprenticeship?
-- Does Cribbage have a family of his own? A wife? Children? Or is he solitary?
-- How long has Theodore been apprenticed to Cribbage? <AI>Options: recently (still adjusting, the resentment is fresh) or years (the resentment is settled, habitual, part of the landscape of Theodore's life).</AI>
+- **Theodore lives in the workshop** — LOCKED. Cribbage provides lodging as part of the apprenticeship (standard Victorian arrangement). Theodore sleeps in the back room. The workshop belongs to Theodore after dark — this is when he tinkers, examines the shard, meets Jink.
+- **Cribbage is solitary — no wife, no children** — LOCKED. A bachelor clockmaker. The dismissiveness is temperament, not distraction. He's not overwhelmed by obligations — he's a man who doesn't see the boy in front of him.
+- **Theodore has been apprenticed 4-5 years (since age 7-8)** — LOCKED. The resentment is settled, habitual, part of the landscape of Theodore's life. Mother died when Theodore was ~5, paternal grandmother helped for a year or two, then he was apprenticed out. He's now 12-13.
 
 ### State 2 (Brain-Plugged)
-- Does the brain-plugging happen on-page or off? Do we see it happen, or does Theodore discover the result?
-- When exactly does Theodore discover Cribbage has been brain-plugged? Issue 10? Earlier?
-- Is Cribbage one of the five brain-plugged humans in the main Titan operation, or is his brain-plugging a separate, more personal discovery?
-- Does Cribbage, while brain-plugged, do anything that endangers Theodore? <AI>Options: Cribbage on standing orders might be patrolling the workshop perimeter. Theodore enters and brain-plugged Cribbage turns toward him — the master who dismissed him is now a threat. Or: Cribbage ignores Theodore entirely because Theodore isn't a relevant target, which is somehow worse than being threatened.</AI>
+- **Brain-plugging happens off-page — Theodore discovers the result** — LOCKED. More dramatic. The wrongness builds through the discovery sequence outlined in Section 2 (ticking stops, hands move wrong, eyes catch light wrong, dark veins at collar, silence).
+- **Theodore discovers Cribbage is brain-plugged in the Issue 9-10 area** — LOCKED. The wrongness builds across a few issues before Theodore connects it to the Titan threat.
+- ~~Is Cribbage one of the five?~~ — RESOLVED above. Yes, one of the five.
+- **Brain-plugged Cribbage ignores Theodore entirely** — LOCKED. He doesn't register Theodore as a relevant target. The master who dismissed Theodore now literally doesn't see him. The dismissal upgraded to total non-recognition — somehow worse than being threatened.
 
 ### State 3 (Recovered)
-- Does Cribbage recover enough to continue as Theodore's master? Or is the relationship permanently altered?
-- Does Cribbage know who saved him?
-- What happens to the workshop? Can Cribbage still run a business?
-- Does Cribbage appear in Volume 2? If so, in what state? <AI>The duration-dependent damage model suggests Cribbage would continue recovering slowly over months. By Volume 2, he might have regained some fine motor skill but remain emotionally flat — functional but diminished.</AI>
+- **Cribbage recovers but cannot run the business alone — Theodore stays by choice** — LOCKED. The relationship is permanently altered. Theodore becomes the capable one. He stays not from obligation but because he's learned what "choosing to stay" means from the squad. The same principle that makes the squad's decision meaningful makes Theodore's decision meaningful.
+- **Cribbage knows someone helped him but not who or how** — LOCKED. Memory gaps cover the period of control. He knows Theodore was there. He doesn't know the full truth.
+- **The workshop survives because Theodore runs it** — LOCKED. Cribbage can assist but lacks the fine motor precision for solo work. Theodore effectively becomes the clockmaker. The apprentice graduates by necessity.
+- **Cribbage appears briefly in Volume 2, slowly recovering** — LOCKED. Emotionally flat but gradually warming. By Volume 2 he may have regained some skill but remains a simpler version. He calls Theodore by name now — that's the change.
 
 ---
 

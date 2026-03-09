@@ -393,12 +393,12 @@ This hybrid is the visual signature of the squad's adaptation — the story of t
 
 **Canon anchor:** The degradation arc works both ways. The fairy ship is degrading from pristine future-tech toward a grimed, damaged state. The Victorian components bring warmth, weight, and solidity into the ship. The repaired ship is *both* future and past — neither pure.
 
-### Open Questions
+### Locked Decisions (formerly Open Questions)
 
-- Does Wren document her adaptations? A technical log that becomes a record of both her engineering and her arc?
-- Do some adaptations *improve* on the original fairy-tech design? (Victorian over-engineering providing durability the original lacked?)
-- Does the ship start to *look* more steampunk as more Victorian components are integrated? <AI>By Issue 12, the ship could be a 50/50 hybrid — half structured light, half brass and glass. A visual metaphor for the convergence itself.</AI>
-- Does Wren teach Theodore any fairy-tech principles? Does he begin to understand what he's helping build?
+- **Wren's technical log:** Deferred to production (scripting detail — may appear as character beat but not a design decision).
+- **Adaptations improving on originals:** Deferred to production (individual component drama, handled per-issue in scripting).
+- **Ship visual progression:** The ship accumulates Victorian components across the volume, becoming a visible hybrid. The exact ratio is a visual design/production decision. — Deferred to production.
+- **Wren teaching Theodore:** Theodore learns by doing, not by instruction. He understands what he's helping build in practical terms (which part goes where, what it does mechanically) but not in theoretical terms. Wren doesn't lecture — she directs. The understanding is in his hands, not his head. — LOCKED
 
 ---
 
@@ -479,32 +479,31 @@ The telegraph is the most narratively important technology in GrimGlow. It serve
 
 ---
 
-## Open Questions for Future Sessions
+## Locked Decisions (formerly Open Questions)
 
-### Tech Level
-- Exact year? 1885 pins the Welsbach mantle and puts Tower Bridge under construction. Is this locked?
-- Do Titans accelerate any specific technologies? If so, which ones and how visibly?
-- Is there a "tech boundary" — technologies that exist in GrimGlow's world that didn't exist in real 1885, due to Titan nudging?
+### Tech Level — LOCKED
+- **Year: 1885** — LOCKED. Pins the Welsbach mantle, puts Tower Bridge under construction, and places us one year before Hall-Heroult aluminum. Historically: the Fall of Khartoum (January 26, 1885) dominates the national mood; Sudan/Egypt, First Boer War, Zulu War, and Afghan War veterans are visible on London's streets; the Third Anglo-Burmese War begins in November. London is anxious, not confident. (Full military context in witness chain brainstorm, Section 8.)
+- **Titan acceleration:** Titans do nudge specific technologies. Telegraph acceleration is the primary mechanism in Volume 1 — they're steering information infrastructure, not physical machinery. Other nudges may exist but are not dramatized in Volume 1. — LOCKED
+- **Tech boundary:** Deferred to production (gameplay/level design concern — what the player encounters vs. real 1885 is a production-phase decision).
 
-### Component List
-- How many total components does Wren need? The Plot Outline dramatizes 3 (Issues 5, 7, 10). How many happen "off-screen" between issues?
-- Does each component map to a specific issue, or do some happen in montage?
-- Are any components *already available* in Theodore's workshop (reducing the heist count)?
+### Component List — LOCKED
+- **Total components: 12.** Three dramatized on-page as full heist issues (Issues 5, 7, 10). Nine acquired off-page or in montage between issues. — LOCKED
+- **Components already in Theodore's workshop:** Some are already available — small brass fittings, wire, and similar basic materials (the easy ones). These reduce early-story tension and let the dramatized heists focus on the genuinely difficult acquisitions. — LOCKED
 
 ### Wren's Arc
-- Does Wren ever build something *new* from Victorian materials (not just adapting for ship repair)?
-- Does she leave any fairy tech behind that influences Victorian engineering? (Paradox layer: does Wren accidentally *contribute* to the industrial revolution?)
-- Does she have a specific "Victorian technique" she adopts permanently — a method she takes back to the future?
+- **Builds something new:** Deferred to Volume 2 (whether Wren creates original technology from Victorian materials is a Volume 2 question).
+- **Leaves fairy tech behind:** Deferred to Volume 2 (paradox layer — whether Wren accidentally contributes to the industrial revolution is core Volume 2 material).
+- **Adopts Victorian technique permanently:** Deferred (minor character detail, resolved in scripting).
 
 ### Visual Design
-- How do holographic interfaces render on-screen when displayed over Victorian surfaces? Transparent overlay? Separate projection plane?
-- Does the hybrid ship aesthetic have a name? (The squad would nickname it something)
-- How does Titan tech visually interact with Victorian machinery? Corruption? Parasitism?
+- **Holographic rendering over Victorian surfaces:** Deferred to production (visual design/rendering decision for Three.js and Unity phases).
+- **Hybrid ship name:** Deferred to scripting (crew slang — emerges from character voice, not design bible).
+- **Titan tech interaction with Victorian machinery:** Parasitic/infection aesthetic — dark tendrils and oil-on-water iridescence wrapping around clean brass. The device looks *wrong* against the warm Victorian metal, like an organic growth on mechanical surfaces. — LOCKED
 
-### The Telegraph
-- ~~Is the Titan nudge engine visible to humans or only detectable with fairy scanners?~~ RESOLVED: Hidden inside equipment, light visible only at fairy scale.
-- Do the Titans have operatives maintaining the devices, or are they autonomous?
-- After the devices are neutralized in Issue 12, what happens to the telegraph network? Does it return to normal?
+### The Telegraph — LOCKED
+- **Titan nudge engine visibility:** Hidden inside equipment, visible only at fairy scale. — LOCKED (previously resolved)
+- **Titan operatives maintaining devices:** Deferred to Volume 2 (whether the devices are autonomous or maintained is not resolved in Volume 1's narrative).
+- **Telegraph aftermath after neutralization:** Deferred to Volume 2 (what happens to the network post-climax is sequel material).
 
 ---
 

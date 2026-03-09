@@ -1,7 +1,7 @@
 # Brain-Plugged Humans — The Five Victims of the London Operation
 
 *Working brainstorm — world-building / character development*
-*Status: Active brainstorm, not finalized*
+*Status: Active brainstorm, all open questions locked*
 
 ---
 
@@ -10,7 +10,7 @@
 - **Untagged text** = stated by the creator or established in existing canon documents
 - **`<AI>` tagged text** = AI-generated suggestions for consideration
 - **`<hidden>` tagged text** = author-only information for later reveal
-- **Open questions** = unresolved decisions preserved for future sessions
+- **Locked decisions (formerly open questions)** = resolved; items deferred to Volume 2 or production are marked explicitly
 - **Canon references** point to existing GrimGlow design documents
 
 This document develops the 5 brain-plugged humans as individual people — who they were before the device, how they function under control, and what they lose when freed. The mechanical framework is established in the Ogre Origin brainstorm. This document fills in the human cost.
@@ -346,30 +346,31 @@ Cribbage is different because Theodore recognizes him. The discovery might unfol
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
-### The Individual Victims
-- Are the suggested names right? Do any need to change to fit the story better?
-- Does every victim need a recovery scene, or is Cribbage the only on-page recovery?
-- <AI>Do any of the four non-Cribbage victims die during the Volume 1 climax? If the squad's operation in Issue 12 involves neutralizing guarded devices, and the guards are brain-plugged humans... does a brain-plugged human die in the operation? Is that a moral cost? "We saved the timeline but we lost one of the people we were trying to protect."</AI>
+### The Individual Victims — LOCKED
+- **Victim names are correct:** Cribbage, Tom Alcott, Billy Marsh, Walter Gedge, Henry Cowell. — LOCKED
+- **Only Cribbage gets a recovery scene in Volume 1.** — LOCKED. The other four remain plugged or their fate is unresolved at end of Volume 1. Cribbage's recovery — and its cost — is the emotional anchor. One detailed recovery carries more weight than five rushed ones.
+- **No victims die in the Volume 1 climax.** The moral weight of Issue 12 is changeling recovery, not death. The squad's operation neutralizes devices and disables the command structure; it does not kill the people they are trying to save. This preserves the moral clarity of the rescue and avoids cheapening the brain-plug horror with battlefield casualties. — LOCKED
 
-### The Process
-- Is installation ever shown on-page? <AI>Showing a dark fairy commander crawling across a sleeping human's body to install the device would be the most visceral horror moment in the series. The fairy-scale perspective makes it worse — the commander is small and precise, and the human is an unconscious landscape. But it might be more powerful to never show it — to let the result speak for itself.</AI>
-- What does the device look like up close? Theodore has to find and remove Cribbage's device — he needs to know what he's looking for.
+### The Process — LOCKED
+- **Installation is NOT shown on-page.** Brain-plugging happens off-page. — LOCKED (cross-reference Cribbage brainstorm). We see the result (wrong movement, dark veins, iridescent eyes) but never the act. The horror is in recognizing what has been done, not in watching it happen. Showing it would reduce the uncanny to the clinical.
+- **Device up close:** A small dark object, faintly iridescent like an oil slick, at the base of the skull under the hair. Partially embedded in the skin, filaments extending into tissue. When Theodore searches for it on Cribbage, he feels it before he sees it — a hard, warm lump where there should be smooth skin. — LOCKED
 
-### Control and Combat
-- When the squad fights a brain-plugged human in Issue 12, do they know it's a person? <AI>Options: (a) They know by this point — the moral weight is present during the fight. (b) They don't know yet — the revelation comes after. Option (a) makes Thresh's ambush more devastating: he's not overwhelmed by a monster. He's overwhelmed by a puppeted man. Option (b) delays the gut-punch but makes the aftershock worse.</AI>
-- Can the squad communicate with the suppressed will? Can they reach the person inside?
+### Control and Combat — LOCKED
+- **Squad does NOT know it's a person when first engaging a brain-plugged human in Issue 10.** The revelation that "ogres" are brain-plugged humans comes during or after the combat, adding to the horror. They fight what they believe is a Titan creature and discover it is a puppeted man. This sequence — fight, then revelation — maximizes the gut-punch. — LOCKED
+- **Squad cannot communicate with the suppressed will in Volume 1.** They witness moments of surfacing (involuntary fragments — the Morse tapping, the hesitation at a familiar door) but cannot reach the person inside deliberately. Reaching the suppressed will is a Volume 2 capability. — Deferred to Volume 2.
 
-### The Changeling
-- Does the community recognize the changeling pattern? <AI>Victorian London's working class would have folk knowledge of changelings. When Cribbage "comes back wrong," do the neighbors use the word? Does Theodore hear someone say "he's been changed by the fairies" and feel the weight of knowing how literally true that is?</AI>
-- How many victims are recovered in Volume 1? All five? Some? Only Cribbage?
+### The Changeling — LOCKED
+- **Community recognizes the changeling pattern.** — LOCKED. Victorian London's working class has folk knowledge of changelings. When Cribbage "comes back wrong," neighbors use the language they have: "taken by the fairies and brought back... changed." Theodore hears this and feels the weight of knowing how literally true it is. The folklore echo is explicit, not subtle — the story earns its fairy tale resonance by grounding it in a real community's real response.
+- **Only Cribbage is recovered in Volume 1.** — LOCKED. One recovery, fully explored, with all its cost and grief.
 
-### The Ogre Origin
-- When exactly does Luma notice the biological markers? Issue 10 (first close encounter) or Issue 11 (quieter, more room to process)?
-- Does Luma share this observation with anyone before Volume 2?
-- <AI>Does the evolutionary fork have implications for the recovered victims' children? If recovered brain-plugged humans have offspring who carry subtle changes... does that mean Cribbage's future children (if he has any) are part of the ogre lineage? Is every rescued victim simultaneously saved and permanently altered?</AI>
+### The Ogre Origin — LOCKED
+- **Luma notices the ogre-biology markers in Issue 10** — during or immediately after the first close scanner contact with a brain-plugged human. The data is anomalous enough to flag but too fragmentary to articulate. — LOCKED
+- **Luma does NOT share this observation before Volume 2.** She files it. She doesn't tell Sable because she doesn't know what to tell her yet. The seed is planted; the revelation waits. — LOCKED
+- Whether recovered victims' children carry epigenetic changes (the ogre lineage question) — deferred to Volume 2. The implication is seeded by Luma's scanner data but not explored in Volume 1.
 
-### Cross-Volume
-- Do any of the five victims appear in Volume 2?
-- <AI>Henry Cowell — the longest-implanted, most damaged victim — could be Volume 2's most tragic figure. A man who wanders the streets of London, not quite himself, not quite a changeling, not quite free. The community cares for him because that's what communities do. But they call him "bewitched Henry" and cross themselves when he passes.</AI>
+### Cross-Volume — Deferred to Volume 2
+- Fates of the other four victims (Tom Alcott, Billy Marsh, Walter Gedge, Henry Cowell) — deferred to Volume 2.
+- Henry Cowell as Volume 2's most tragic figure (longest implanted, most damaged, "bewitched Henry") — deferred to Volume 2.
+- Whether any of the five victims appear in Volume 2 — deferred to Volume 2.

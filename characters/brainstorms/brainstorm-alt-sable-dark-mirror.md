@@ -1,7 +1,7 @@
-# Alt-Sable — The Dark Mirror Commander
+# Alt-Sable — The Failed Future
 
 *Working brainstorm — character development*
-*Status: Active brainstorm, not finalized*
+*Status: Active brainstorm, partially locked*
 
 ---
 
@@ -13,285 +13,288 @@
 - **Open questions** = unresolved decisions preserved for future sessions
 - **Canon references** point to existing GrimGlow design documents
 
-**Note:** Most existing canon on Alt-Sable lives inside `<hidden>` tags in other documents (Sable wiki, Titan Biology brainstorm, Dark Fairy Operations brainstorm, Sable Backstory brainstorm). Those hidden decisions are treated as canon anchors here.
+---
+
+## Origin — LOCKED
+
+**Alt-Sable is our Sable.** Not a parallel-universe counterpart. Not a different person raised in a different civilization. She is Sable — older, from a future iteration of the timeline where the loop ran and cooperation failed.
+
+**What happened in the original timeline:**
+- The squad crashed in 1885 London. They did everything the current squad is doing — scavenged components, fought Titans, discovered the paradox, chose to stay.
+- The fairy tales weren't enough. The monster stories won. The convergence tipped toward the dark branch.
+- The squad died. Not all at once — over years, decades of fighting a losing story war. Alt-Sable watched it happen.
+- She and two survivors came back to the convergence point — earlier, with centuries of lead time — to try a different approach.
+
+**What she chose differently — and why:**
+- In the original timeline, she trusted her squad. She shared information. She let them make their own decisions. She chose cooperation at every fork. And it wasn't enough.
+- "Trusting the squad got people killed" is not abstract. It is literal. Her Jink, her Wren, her Thresh, her Luma — specific people she trusted, who died.
+- The lesson she took from the failure: trust is a vulnerability the enemy exploits. Cooperation requires people to choose correctly, and under enough pressure, people choose wrong. Control removes the variable.
+- She doesn't see herself as evil. She sees herself as the version of Sable who survived by accepting what the evidence showed her. She would pity our Sable's idealism — because she remembers having it, and she remembers what it cost.
+
+**This SUPERSEDES** the previous framing of "diverged civilization that chose dominance over cooperation." The dark fairy faction is not from a separate civilization. They are from the SAME civilization, from after it failed. The "dominance over cooperation" philosophy is not cultural inheritance — it's learned behavior, earned through catastrophic loss.
+
+**Compatibility with existing locks:**
+- 3 dark fairy commanders in London — LOCKED. Still holds. Alt-Sable brought two survivors with her.
+- "Sable" name shared — LOCKED. Works better: it's literally the same person's name.
+- Partial mirror: one subordinate mirrors Wren — LOCKED. Alt-Wren survived from the failed timeline.
+- Both subordinates are alternate-timeline versions — LOCKED. They're from the failed future, not a different civilization.
+- Model C temporal mechanics — LOCKED. The loop has slack. Alt-Sable is working within the loop, trying to change the content.
 
 ---
 
-## Canon Anchors — What's Already Established
+## 1. The Failed Timeline — What Went Wrong
 
-**Identity:**
-- "The leader of the dark fairy commanders in London is an alternate-timeline version of Sable." (Sable wiki, Hidden Layer; Titan Biology brainstorm, Section 1a)
-- "She made the opposite choices at every fork — dominance over cooperation, control over trust, power over connection." (Sable wiki, Hidden Layer)
-- "She is what Sable becomes if she stops believing in her squad." (Sable wiki, Hidden Layer; Titan Biology brainstorm, Section 1a)
-- Dark fairy commanders are "same species as Sable's squad. From the opposing branch of the timeline — the future where the civilization chose dominance over cooperation. Fairy-sized (approximately 4 inches, like the squad)." (Titan Biology brainstorm, Section 1a)
+The critical question: why did cooperation fail in the original run?
 
-**Motivation:**
-- "She believes she's doing what Sable can't — making the hard choices without sentiment. In her timeline, trusting the squad got people killed. Cooperation failed. She chose control because it was the only thing that worked. She doesn't see herself as evil — she sees herself as the version of Sable who survived by being honest about what power requires. She would pity our Sable's idealism if she could see it." (Titan Biology brainstorm, Section 3)
+<AI>The failure wasn't a single catastrophic event — it was erosion. The fairy tales accumulated but so did the monster stories. The squad held the convergence point but couldn't shift the balance permanently. Over years, the dark fairy operation (run by the original enemy in the first timeline) adapted faster than the squad could counter.
 
-**Command:**
-- "Alt-Sable runs the London operation the way our Sable runs the squad — with tactical precision, strategic patience, and hard calls. But her 'squad' is brain-plugged humans, not trusted companions. Every parallel between her command style and Sable's is a mirror that cuts." (Dark Fairy Operations brainstorm, Section 1; Titan Biology brainstorm, Section 5)
-- "She assigns sectors, manages resources, adjusts strategy when the squad disrupts operations. She is competent and dangerous precisely because she thinks like Sable." (Dark Fairy Operations brainstorm, Section 1)
-- 3 dark fairy commanders in London — LOCKED. One per operation zone (Bermondsey industrial, Wapping docks, telegraph network). (Titan Biology brainstorm, Section 5)
-- Alt-Sable leads the three. (Dark Fairy Operations brainstorm, Section 1)
+Possible failure points:
+- The squad lost members one by one over years of attrition. Each loss reduced their ability to generate fairy mythology and counter Titan operations.
+- Theodore grew up. The boy who found fairies became a man with responsibilities, and the fairy tales became childhood memories instead of living mythology.
+- The folklorist's pamphlet wasn't enough to create a lasting cultural shift. It was a curiosity, not a movement. The monster stories had more visceral power.
+- The convergence point tipped — slowly, then all at once. By the time alt-Sable understood what was happening, it was too late to reverse.
 
-**Appearance — established principles:**
-- Dark fairy suits: "Where the squad's suits are silver and holographic (light trapped in geometry), dark fairy suits use the inverse — shadow trapped in organic patterns. The oil-on-water iridescence of Titan tech is what dark fairy armor looks like. Dark, shifting, refractive." (Titan Biology brainstorm, Section 1a)
-- Dark fairy tech aesthetic: "organic where fairy tech is geometric, shadow where fairy tech is light, flowing where fairy tech has edges." (Titan Biology brainstorm, Section 1a)
-- Physical condition is an open question: either identical under the armor (divergence is cultural, not biological) or subtly modified by genetic enhancement (Titan Biology brainstorm, Section 1a)
+The deepest failure: cooperation DID work — for a while. It held the line. But it couldn't WIN. And in a war of attrition against an enemy that uses control instead of trust, "holding the line" eventually means "losing slowly." Alt-Sable's conclusion: the only way to win a story war is to control the stories directly. Not generate them and hope — control them.</AI>
 
-**Volume 1 groundwork:**
-- "Sable's command decisions are mirrored by alt-Sable's command decisions throughout Volume 1. The reader doesn't see this yet. Sable doesn't see this yet." (Sable wiki, Hidden Layer; Sable Backstory brainstorm)
-- "The intelligence behind Titan operations mirrors Sable's own tactical instincts." (Sable wiki, Hidden Layer)
-- Alt-Sable may be the commander directing the brain-plugged human that overwhelms Thresh in Issue 12 — "She runs this like Sable would: identify the most likely threat vector (Thresh, the squad's heavy hitter) and concentrate force there." (Dark Fairy Operations brainstorm, Section 4)
+### The Decision to Return
 
-**Reveal timing:**
-- "The reveal is devastating because Sable recognizes herself." (Titan Biology brainstorm, Section 1a)
-- "This revelation belongs to a future volume." (Sable wiki, Hidden Layer)
-- Discovery sequence: (1) Squad assumes "Titans" are large creatures; (2) Grows suspicious — intelligence too sophisticated; (3) Discovers dark fairy commanders exist — same species; (4) Discovers the leader is an alternate Sable. (Titan Biology brainstorm, Section 4)
+<AI>How did alt-Sable come back?
 
-**Open questions from existing brainstorms:**
-- "When does Sable first sense something familiar about the dark fairy commander's tactics? Does she recognize her own decision patterns before she knows who she's fighting?" (Sable Backstory brainstorm)
-- "What specific choice is the divergence point? What did alt-Sable choose differently?" (Sable Backstory brainstorm)
-- "How does Sable react when she discovers the mirror? Does she understand immediately, or does it take time?" (Sable Backstory brainstorm)
-- "How different do dark fairies look from the squad physically? Identical? Subtly altered? Visibly corrupted?" (Titan Biology brainstorm, Open Questions)
+Options:
+- The fairy civilization's temporal technology allows return to a convergence point, but at enormous cost. Alt-Sable used the last resources of a dying timeline to send herself back. There is no second chance after this one.
+- The temporal corridor that sent the original squad can be re-opened from the future — but only to the same convergence point. Alt-Sable arrived decades or centuries before the squad's crash, giving herself time to build an operation.
+- The prior operatives' "relay model" was partially her doing — she sent earlier teams to establish infrastructure before she arrived herself. (This would reframe the prior operatives significantly — are some of them her agents?)
+
+The most interesting option: alt-Sable arrived at the convergence point centuries before the squad's 1885 crash. She has been running her operation for hundreds of years, building infrastructure, brain-plugging humans, installing temporal nudge engines. The "Tall Ones" folklore that's "generations old" is partly HER operation's legacy. She has been fighting the story war from the control side for longer than the squad has been alive.
+
+This means the convergence point has been contested for centuries — but in the original timeline, the fairy side fought with trust and cooperation. Alt-Sable is now fighting from the SAME side but with opposite methods. She's not the original enemy. She's a new player who decided the original strategy was wrong.</AI>
 
 ---
 
-## 1. The Dark Mirror Principle — Every Level
+## 2. The Dark Mirror Principle — Reframed
 
-The mirror is literal, not metaphorical. It operates at every scale — technology, society, military structure, leadership, and the personal.
+The mirror is no longer "two civilizations, two philosophies." It is one person, two iterations of the same experience. Everything that was true about the mirror at a personal level is now MORE true — because it's not a parallel. It's a sequel.
 
-**Established mirrors:**
+**The mirror operates at every scale:**
 
-| Level | Sable's Branch | Alt-Sable's Branch |
-|-------|---------------|-------------------|
-| Technology | Light trapped in geometry — structured, prismatic, holographic | Shadow trapped in organic patterns — dark iridescence, oil-on-water, refractive |
-| Society | Cooperation, precision, miniaturization, communication | Dominance, power, subjugation, control |
-| Military | Trusted squad of 5, volunteer service, individual initiative | Brain-plugged conscripts, enslaved bodies, overridden will |
-| Leadership | Authority earned by trust — squad chooses to follow | Authority enforced by device — conscripts have no choice |
+| Level | Our Sable | Alt-Sable |
+|-------|-----------|-----------|
+| Philosophy | Trust. Let people choose. Accept the risk. | Control. Remove the choice. Remove the risk. |
+| Experience | Has not yet been tested to failure | Has been tested to failure and lost everything |
+| Method | Fairy tales — generate wonder, let stories spread organically | Temporal nudge engines — control information flow, suppress monster stories mechanically |
+| Squad | 5 trusted companions who choose to follow | Brain-plugged humans who have no choice + 2 broken survivors bound by shared trauma |
+| Emotional state | Carrying the burden of command — it costs her something | Carrying the weight of a dead timeline — it cost her everything |
+| Technology | Light trapped in geometry — structured, prismatic, holographic | The same technology, centuries older, modified for control rather than communication. The "oil-on-water iridescence" is what fairy tech becomes when it's been repurposed for dominance. |
 
-(Source: Titan Biology brainstorm, Section 4; Sable wiki, Hidden Layer)
+**The cruelest mirror:** Alt-Sable already tried everything our Sable is about to try. She trusted her squad. She shared the mission file. She chose to stay. She let Theodore write the fairy tale. She did it all. And it wasn't enough. Every choice our Sable makes in Volume 1, alt-Sable made first. The idealism isn't naive to her — it's the strategy she already proved fails.
 
-**Deeper mirror — daily behavior and micro-decisions:**
+**Daily behavior mirrors:**
 
-<AI>Possible parallels that cut:
-
-| Sable Does This | Alt-Sable Does This |
-|-----------------|-------------------|
-| Holds information back from the squad to protect morale (the mission file) | Holds no information from her operatives — they have no capacity to receive it. There is no morale to protect. |
-| Gives orders, not speeches. Short sentences. No elaboration. | Gives no orders aloud at all. Commands through the brain-plug channel. Her "squad" cannot hear her voice. |
-| Worries about Thresh's fear, Jink's recklessness, Wren's loyalty | Worries about none of this. Her operatives cannot fear, cannot disobey, cannot question. The silence is efficient and empty. |
-| Adapts reluctantly when control fails | Adapts instantly because control never fails. When an operative is disrupted, she redirects another. No negotiation. No persuasion. No cost. |
-| Carries the burden of command alone — isolation is the price of leadership | Carries no burden. Command without trust requires no vulnerability. But it also produces no loyalty. Alt-Sable has no one who would choose to follow her. |
-
-The mirror's cruelty: alt-Sable solved every problem Sable struggles with. Information management? No one to manage. Jink's protocol breach? Operatives can't breach protocol. Wren's confrontation? No one can confront her. Alt-Sable achieved the control Sable desperately wants — and it's a horror.</AI>
+| Sable Does This | Alt-Sable Does This | Why It's Worse Now |
+|---|---|---|
+| Holds information to protect morale | Commands through brain-plug — no morale to protect | She remembers when sharing information mattered. She stopped because she remembers the people she shared it with dying. |
+| Worries about Thresh's fear, Jink's recklessness | Her operatives cannot fear or disobey | She remembers worrying about her Thresh. Her Thresh is dead. The worry was justified. |
+| Carries the burden of command alone | Carries no burden — control requires no vulnerability | She carried the burden once. It broke her. She removed vulnerability because she knows what vulnerability costs. |
+| Adapts reluctantly when control fails | Adapts instantly — control never fails | She adapted reluctantly once. The adaptation was too slow. People died while she was processing the failure. Now she adapts instantly because she can't afford to feel it first. |
 
 ---
 
-## 2. Command Style — Parallel and Inverse
+## 3. Command Style
 
 ### The Parallels
 
-Same tactical precision, same patience, same hard calls. Alt-Sable is competent and dangerous precisely because she thinks like Sable. (Dark Fairy Operations brainstorm, Section 1)
+Same tactical precision, same patience, same hard calls. Alt-Sable is competent and dangerous precisely because she IS Sable — the same mind, with more experience and fewer constraints.
 
 - She assigns sectors, manages resources, adjusts strategy when disrupted
-- She identifies threat vectors and concentrates force (Thresh targeted in Issue 12)
+- She identifies threat vectors and concentrates force (Thresh targeted in Issue 12 — she knows Thresh is the heavy hitter because she COMMANDED a Thresh)
 - She runs a centuries-long operation requiring patience, adaptation, strategic restraint
 - She does not waste resources — 3 commanders and 5 brain-plugged humans running an operation across all of London
 
 ### The Inverse
 
-Her "squad" is brain-plugged humans, not trusted companions.
+Her "squad" is brain-plugged humans, not trusted companions. She chose this deliberately.
 
-<AI>What the inverse looks like in practice:
+<AI>The brain-plugging isn't ideology from a dark civilization. It's the methodology of someone who watched trusted companions die from their own choices.
 
-**Resource allocation:** Sable deploys squad members based on their strengths — Jink scouts because Jink is fast, Wren infiltrates because Wren is precise. Alt-Sable deploys brain-plugged humans based on their former occupations — the telegraph worker goes to the telegraph office because his hands already know the equipment. Same principle (match operative to task), opposite basis (capability they chose to develop vs. expertise harvested without consent).
+**Does she know their names?** She knows everything about them — their names, occupations, families. Because she IS Sable, and Sable always does intelligence thoroughly. She selected them personally. She watched them before planting the device. She knows everything about them and none of it matters operationally. The knowledge is clinical because she cannot afford personal investment in tools. She lost every person she invested in personally.
 
-**Loss calculation:** When Sable considers risk, she weighs the life of each squad member — Thresh overwhelmed is a crisis. When alt-Sable loses a brain-plugged operative, she replaces them. The operation pauses while a new victim is selected, scouted, and implanted. The loss is logistical, not personal.
+**How she handles setbacks:** She adapts with a grief that looks like efficiency. The centuries-long operation has been disrupted before — prior fairy squads were sent and she handled them. But this squad is different. This squad has something the others didn't: a version of her, younger, still believing in trust. Watching our Sable make the same choices she made, with the same hope she had — that's not a tactical assessment. That's a wound.</AI>
 
-**Communication:** Sable gives orders aloud. The squad hears her voice, reads her tone, interprets her silences. Alt-Sable commands through the neural interface. Her operatives receive instructions as impulses, not words. She has not spoken aloud to another person in... how long?
+### The Volume 1 Operational Map
 
-**Does she know their names?** Options:
-- She knows their names, their former occupations, their families — because intelligence requires information. She selected them personally. She watched them sleep before planting the device. She knows everything about them and none of it matters to her operationally. The knowledge is clinical, not personal.
-- She does not know their names. They are asset designations. This is more chilling but perhaps less interesting — the version who knows and doesn't care is the darker mirror of Sable, who knows and cares too much.</AI>
+<AI>
 
-### How She Handles Setbacks
+| Issue | What Happens | Alt-Sable's Decision |
+|---|---|---|
+| 1 | Squad crashes | She knows. She's been waiting for this. Prior squads came and she dealt with them. But this one... this one has HER. A younger her. She observes. She remembers. |
+| 6 | Squad finds Titan bio-traces in Bermondsey | She lets them find the edges, not the center. Same call she'd make. Same call she DID make, the first time. |
+| 7 | Jink spots a cloaked presence | She may have tightened patrols — same call our Sable makes after the Theodore exposure. She's watching Sable make the same decisions. |
+| 10 | Telegraph office encounter | Her brain-plugged operative is disrupted by Wren's feedback pulse. She adapts. She recognizes Wren's technique — because she worked alongside a Wren for years. |
+| 12 | Guarded device overwhelms Thresh | She anticipated the approach. She targeted Thresh — the heavy hitter. She knows exactly how to fight a squad she once commanded, because she knows every member's strengths and weaknesses. She TRAINED some of them. |
 
-Sable adapts reluctantly — each failure of control costs her something. Alt-Sable:
-
-<AI>Options:
-- Adapts instantly and without emotion. The feedback loop between "plan disrupted" and "new plan" has no emotional processing stage. This is what command looks like when you've removed trust from the equation — pure operational adaptation. Efficient. Inhuman.
-- Adapts with frustration, but the frustration is directed at the world, not at her operatives. She can't be angry at tools. She's angry at the problem. This gives her an internal life — she is not a robot, she is a person who chose to remove emotion from command and finds it creeping back in other ways.
-- Both. She adapts instantly on the surface but carries accumulated frustration. The centuries-long operation has been disrupted before. Prior squads were sent and none returned — the squad's civilization has been trying to stop her for generations and she keeps winning. This time something is different. This squad is better. And the reason it's better is that it has something hers doesn't: people who chose to be there.</AI>
-
----
-
-## 3. The Divergence — What Choices Split Them
-
-"She made the opposite choices at every fork." (Sable wiki, Hidden Layer)
-
-"In her timeline, trusting the squad got people killed. Cooperation failed. She chose control because it was the only thing that worked." (Titan Biology brainstorm, Section 3)
-
-### The Fork
-
-<AI>Options for the concrete divergence moment:
-
-**Option A — A single catastrophic event.** Alt-Sable had a squad once. She trusted them. She shared information. She let them make their own decisions. And they died — not despite her trust but because of it. A squad member made a choice she would have overridden, and people died. The lesson she learned: trust is a vulnerability. Control saves lives. The tragedy is that she's not wrong about what happened — she's wrong about what it means.
-
-**Option B — Accumulated choices.** No single moment. A hundred small forks where Sable's version chose connection and alt-Sable's version chose efficiency. Shared a meal with the squad vs. ate alone to maintain distance. Listened to a subordinate's fear vs. reassigned them to remove the weakness. Over time, the choices compound. One Sable builds a team. The other builds a machine.
-
-**Option C — The civilizational fork IS the personal fork.** Alt-Sable didn't diverge from our Sable at a personal moment. She diverged because her entire civilization diverged. She was raised in a culture that taught dominance as virtue. Her "opposite choices" weren't choices at all — they were the only options her world offered. She never had a Jink to break protocol and make contact. She never had a Theodore to prove civilians are allies. She never had a Wren to confront her. The tragedy isn't that she chose wrong — it's that she was never given the choice our Sable was given.
-
-Option C is the most devastating because it removes moral superiority. Sable can't say "I would never become that" — because in alt-Sable's circumstances, she would. The mirror isn't "what if you chose wrong." It's "what if you were never given the chance to choose right."</AI>
-
-### Does She Remember Being "Us"?
-
-<AI>Options:
-- The civilizations have been diverged long enough that alt-Sable has no personal memory of being "the same." The connection is historical, not personal. She knows the species share an origin the way a person knows about a distant ancestor. This makes the reveal about species recognition, not personal recognition.
-- The schism is recent enough that alt-Sable grew up hearing about the other branch. She was taught that the cooperation branch was weak, naive, doomed. Meeting our Sable would confirm her education — or shake it.
-- Alt-Sable has classified intelligence on our Sable specifically. The temporal cold war means both sides have files on each other's operatives. Alt-Sable was briefed on her counterpart before the mission. She knows who she's fighting. Sable doesn't.</AI>
-
----
-
-## 4. Appearance — The Dark Mirror Aesthetic
-
-### The Resemblance
-
-Same species, diverged civilization. The question: how visible is the resemblance?
-
-<AI>Options (from Titan Biology brainstorm, Section 1a):
-
-**Option A — Physically identical under the armor.** The divergence is cultural, not biological. Remove the suit and alt-Sable looks like Sable. Same dark brown skin, same angular features, same build. The only differences are choices — different hair, different bearing, different eyes (not the color, but what's behind them). This is the most devastating reveal because the mirror is literal. Sable looks at alt-Sable and sees her own face.
-
-**Option B — Subtly modified.** The dark fairy civilization pursued genetic enhancement alongside technological divergence. Slightly sharper features. Something almost right but wrong. The uncanny valley of meeting yourself. Alt-Sable looks like Sable the way a photograph looks like a painting of the same person — recognizable but unsettling.
-
-**Option A is stronger for the reveal.** If alt-Sable is visually identical, the horror is inescapable. There's no "she's different from me" escape hatch. The mirror is perfect.</AI>
-
-### The Suit — Dark Mirror of Command Silver
-
-Sable's suit: command silver, pristine and mirror-reflective, geometric panel lines, holographic emitter glowing pale blue-white, wing-pack seams faintly luminous. (Character Turnarounds; Sable wiki)
-
-<AI>Alt-Sable's suit — the inversion:
-
-- **Color:** Where command silver catches and reflects light, alt-Sable's suit absorbs it. Not black — that's too simple. Dark iridescent. The oil-on-water shimmer that defines all Titan tech, but refined to its purest form. Her suit is what Titan tech looks like when it's been made beautiful instead of just functional. The iridescence shifts — bruise-purple, deep petrol blue, black — depending on the angle. In darkness it disappears. In light it drinks the light.
-- **Texture:** Where Sable's suit has geometric panel lines like circuit paths, alt-Sable's suit has organic flowing lines — like veins, like roots, like branching rivers. The patterns move subtly, as if the suit is alive. This is the "organic where fairy tech is geometric" principle applied to personal armor.
-- **Emitter:** Where Sable has a holographic emitter near her left temple that projects pale blue-white geometric glyphs, alt-Sable has... what? The dark mirror. An emitter that projects shadow-glyphs — dark, refractive, visible as absence rather than presence. Her HUD is the negative image of Sable's.
-- **Wing-pack:** Same location (between shoulder blades), same form factor. But where Sable's wing-pack seams glow faintly blue-white, alt-Sable's seams pulse with the amber-black light of Titan tech. Her wings, when deployed, would be structured shadow — the same "light trapped in geometry" principle but inverted. Wings of organized darkness.
-- **Sidearm:** Sable's resembles a silver wand. Alt-Sable's would resemble... the thing the wand was meant to protect against. Dark, shifting, not reflecting light. A thorn. A fang.
-- **Degradation:** Sable's suit degrades beautifully — silver consumed by grime, light bleeding through. Does alt-Sable's suit degrade? Or does the operation's long duration mean it's already in a state beyond degradation — perfectly maintained by centuries of operational resources? The pristine dark suit against Sable's battered silver would be its own mirror: alt-Sable's mission is succeeding. Sable's is barely surviving.</AI>
-
-### Physical Details
-
-<AI>If going with Option A (identical under armor):
-- Same dark brown skin, same sharp angular features, same high cheekbones
-- Hair: a deliberate contrast choice. Sable's is close-cropped silver-white — "a deliberate choice, not age." Alt-Sable's could be: the same silver-white (the most disturbing — even their personal choices align), or its natural color (whatever that is — the silver-white was Sable's deliberate choice, and alt-Sable made a different one), or shaved entirely (no vanity, no personal expression — pure function)
-- Bearing: Sable carries herself with "authority that's costing her something." Alt-Sable carries herself with authority that costs nothing — because it's built on control, not trust. Same posture, same precision, but without the weight. This would be visible to someone who knows Sable well. The way she stands is the same but lighter — and that lightness is wrong.
-- Eyes: Same color. But what Sable's eyes show — the cost, the burden, the controlled emotion — alt-Sable's eyes don't. Hers are still. Not dead. Not cold. Just... decided. Everything was decided long ago.</AI>
-
----
-
-## 5. Volume 1 Presence — Hidden but Patterned
-
-Alt-Sable is never seen, named, or directly encountered in Volume 1. But she's there — directing the operation from behind the scenes.
-
-### Her Operational Decisions Across Volume 1
-
-<AI>Mapping alt-Sable's likely decisions against the plot:
-
-| Issue | What Happens | Alt-Sable's Likely Decision |
-|-------|-------------|---------------------------|
-| 1 | Squad crashes. Titans don't immediately respond. | She knows. She's been running this convergence point for years. A new squad arrival is a disruption she's handled before ("PRIOR — none reported back"). She doesn't panic. She observes. *Sable parallel: Issue 1, Sable assesses before acting.* |
-| 6 | Squad finds Titan bio-traces in Bermondsey basement | Alt-Sable's operation has left traces. She knows the fairy squad is investigating but doesn't intervene yet — let them find the edges, not the center. *Sable parallel: Sable compartmentalizes the mission file. Both are managing what the other side knows.* |
-| 7 | Jink spots a cloaked presence from the lighthouse | A brain-plugged human on patrol. Alt-Sable may have redeployed after the Bermondsey discovery — tightening the perimeter. *Sable parallel: Sable responds to the Jink-Theodore exposure by tightening protocols.* |
-| 10 | Telegraph office encounter. The "technician" is brain-plugging equipment. | Alt-Sable's direct operation. The brain-plugged telegraph worker is installing a nudge engine under her real-time direction. When Wren's feedback pulse disrupts cloaking, the operative is forced to withdraw. Alt-Sable adapts: the fairy squad is more capable than previous insertions. She escalates. *Sable parallel: Sable coordinates the squad's response with tactical precision. Same competence, opposite side.* |
-| 12 | Guarded device overwhelms Thresh. | Alt-Sable anticipated the squad's approach. She identified the most likely threat vector (Thresh, the heavy hitter) and concentrated force — a brain-plugged human under tight, direct command. *Sable parallel: Sable would do exactly this. Identify the strongest threat and neutralize it first.* |
-
-The pattern: alt-Sable makes the same tactical calls Sable would make. The difference is what she has to work with and what she's willing to sacrifice.</AI>
+</AI>
 
 ### Does Sable Sense Something Familiar?
 
-"When does Sable first sense something familiar about the dark fairy commander's tactics?" (Sable Backstory brainstorm, Open Questions)
-
 <AI>Possible moments of recognition in Volume 1:
 
-- **Issue 10 — The telegraph encounter.** After the engagement, the squad debriefs. Wren analyzes the tactical situation: the brain-plugged human was positioned to intercept interference, had fallback routes, was operating with more sophistication than a mindless drone. Sable might recognize the thinking but not name it. "That was disciplined." She says it like a professional assessment. She doesn't realize she's complimenting herself.
+- **Issue 10 — The telegraph encounter.** After the engagement, the squad debriefs. Wren analyzes the tactical situation: the brain-plugged human was positioned with sophistication beyond a mindless drone. Sable might recognize the thinking but not name it. "That was disciplined." She says it like a professional assessment. She doesn't realize she's complimenting herself.
 
-- **Issue 12 — Thresh's ambush.** The guarded device is a trap — someone anticipated the squad's approach and concentrated force at the right point. Sable, coordinating from the steeple, realizes the enemy commander made her call. The exact call she would have made. She feels it as tactical respect — a worthy opponent. She doesn't yet know why the respect feels personal.
+- **Issue 12 — Thresh's ambush.** The guarded device is a trap — someone anticipated the squad's approach and concentrated force at the right point. Sable, coordinating from the steeple, realizes the enemy commander made her call. The exact call she would have made. She feels it as tactical respect. She doesn't yet know why it feels personal.
 
-- **A quiet moment.** Between issues. Reviewing the operation's patterns. The way devices are placed — not random, but reflecting a commander who thinks about information flow, communication, control. The same things Sable thinks about. A moment where she says something like "Whoever is running this operation knows what they're doing" — and the reader, who knows the hidden layer, feels the chill.
+- **A quiet moment.** Between issues. Reviewing the operation's patterns. The way devices are placed reflects a commander who thinks about information flow, communication, control. The same things Sable thinks about. A moment where she says "Whoever is running this operation knows what they're doing" — and the reader, knowing the hidden layer, feels the chill.
 
 The recognition should be below conscious awareness in Volume 1. Sable senses a familiar intelligence but attributes it to generic military competence. The recontextualization happens in Volume 2 when she learns WHY it felt familiar.</AI>
 
 ---
 
-## 6. The Volume 2+ Reveal — Recontextualization
+## 4. The Broken Squad — The Two Subordinate Commanders
+
+3 dark fairy commanders in London — LOCKED. Alt-Sable brought two survivors from the failed timeline.
+
+### Alt-Wren — the surviving engineer — LOCKED (partial mirror: Wren)
+
+Alt-Wren survived because engineers are essential. She built the temporal nudge engines — the same brilliant engineer, directed by grief and necessity instead of curiosity. She is Wren's dark mirror not because she chose differently, but because she's what Wren becomes after decades of using her skills for control instead of creation. She designed the devices that brain-plug humans. She maintains the infrastructure. She is technically brilliant and morally hollowed out.
+
+<AI>Alt-Wren's relationship to alt-Sable:
+- Bound by shared trauma, not trust. They have been working together for centuries — longer than the original squad existed. The relationship has outlasted any other connection either of them has had.
+- Alt-Wren follows alt-Sable not because she agrees with the methods but because she has no alternative framework. The original plan failed. Alt-Sable's plan is the only remaining option. Alt-Wren doesn't believe in control — she tolerates it because she has no belief left.
+- When our Wren says "this isn't alien — this is us, backwards," alt-Wren is the specific face that observation will eventually gain. The engineer who built control devices instead of communication tools. Same skills. Same intelligence. Opposite application. The horror is technical and personal.</AI>
+
+### The Third Commander — no squad mirror — LOCKED (non-mirror)
+
+The third commander represents what alt-Sable's philosophy produces when it's the starting condition rather than the scar.
+
+<AI>Options for the third commander's origin:
+- **Recruited from a later deployment** — command sent another team, and alt-Sable intercepted them. One operative was turned to her cause (or broken by the reality of the convergence point). This person has never known the cooperation model. They only know alt-Sable's version.
+- **Trained by alt-Sable over centuries** — raised in the doctrine of control, never given the chance to develop trust. This person is what alt-Sable's philosophy looks like as a first principle, not a scar. They don't have regret because they never had the experience that generates regret.
+- **A prior operative who chose control** — one of the three prior deployment teams produced someone who reached a different interpretation of "STAY." Instead of "stay and be the fairy tale," they concluded "stay and CONTROL the outcome." Alt-Sable found them and recruited them.
+
+The third option is the most narratively rich — it connects the prior operatives thread to the dark fairy faction and means the convergence point has been producing both philosophies (cooperation and control) for centuries.</AI>
+
+---
+
+## 5. Appearance — The Same Face, Aged
+
+Alt-Sable is physically identical to our Sable because she IS Sable. The differences are time and experience.
+
+**Physical appearance — LOCKED:**
+- Same dark brown skin, same sharp angular features, same high cheekbones
+- Visibly older — late fifties or early sixties where our Sable reads as late thirties. Lines around the eyes and mouth. Not aged by weakness but by duration. She has been carrying this for a long time.
+- Hair: silver-white, like our Sable — but where our Sable's is "a deliberate choice, not age," alt-Sable's IS age. The same hair, arrived at by different paths. This is the smallest and cruelest detail of the mirror.
+- Bearing: Same military precision but without the strain. Our Sable's authority is "costing her something." Alt-Sable's authority cost her everything a long time ago. What's left is economical — no energy spent on suppressing emotion because the emotion has been processed into doctrine.
+- Eyes: Same color. What our Sable's eyes show — burden, controlled emotion, the cost of command — alt-Sable's eyes show something worse: recognition. She's looking at herself, twenty years younger, making choices she already knows the outcome of.
+
+### The Suit
+
+Alt-Sable's suit is not from a different aesthetic tradition. It is fairy tech — the same fairy tech — modified and degraded over centuries of operation. The "oil-on-water iridescence" and "organic patterns" are what fairy suits become when they've been operational for hundreds of years without proper maintenance, repurposed for control functions they weren't designed for.
+
+<AI>What this means visually:
+- The suit was once command silver, identical to our Sable's. Centuries of field modification have transformed it. The silver has darkened — not to black but to a shifting, refractive surface. The oil-on-water iridescence isn't an alien aesthetic; it's what happens to fairy suit material after centuries of exposure and modification.
+- The geometric panel lines have been overwritten by organic flowing patterns — like circuit paths that have been rerouted so many times they've lost their original geometry. The suit's internal systems have been modified for brain-plug control, and the external surface reflects the internal corruption.
+- The holographic emitter still works but projects differently — the same geometric base but darker, more compressed, optimized for command signals rather than communication. Shadow-glyphs are degraded fairy holograms, not a separate technology.
+- The wing-pack seams glow amber-black instead of blue-white — the power cells have been replaced or modified with whatever was available over centuries. The frequency has shifted.
+
+This is more horrifying than a separate aesthetic: it means the squad's own suits will eventually look like this if they stay long enough. The degradation arc has an endpoint, and it's alt-Sable's suit.</AI>
+
+---
+
+## 6. Volume 1 Presence — Watching Her Younger Self
+
+Alt-Sable is never seen, named, or directly encountered in Volume 1. But she's there — and she's not just running an operation. She's watching herself.
+
+<hidden>Every moment of Volume 1, alt-Sable is present. She has been at this convergence point for centuries. She knows the squad will crash. She has handled prior insertions — other fairy teams sent by command. But this time is different because this squad has HER.
+
+**What it means to watch yourself:**
+
+When alt-Sable observes our Sable checking the mission file in Issue 1, she remembers checking it herself. She knows what fragments Sable found. She knows the "reaction is severe" in Issue 6 — because she had the same reaction. She knows Sable will hide the file. She knows Wren will confront her in Issue 9. She knows the break is coming.
+
+She cannot intervene to prevent the break because the break is necessary. In the original timeline, the break led to the squad functioning better — trust replacing control. In the original timeline, that was the right call. It just wasn't enough to WIN.
+
+**The Issue 12 climax:**
+
+Alt-Sable directs the brain-plugged human that overwhelms Thresh. She targets Thresh because she KNOWS Thresh — commanded her, worried about her fear, watched her fight afraid. She knows exactly how Thresh fights and exactly how to counter it. The trap works because alt-Sable has decades of tactical experience with a Thresh.
+
+The cruelty: when our Sable coordinates from the steeple and recognizes the enemy commander's tactical thinking, she's recognizing her own thinking because it IS her own thinking. Alt-Sable made the same call Sable would make because she IS Sable. The recognition feels like respect for a worthy opponent. It's actually self-recognition, deferred.
+
+**The emotional weight:**
+
+Alt-Sable watches our Sable choose to stay in the Issue 12 resolution. She watches her younger self say "They look like fairy tales. They always did." And she remembers saying the same thing. She remembers the hope. She knows what comes after.
+
+Does she feel grief? Rage? Pity? Does watching her younger self choose hope make her regret abandoning it — or confirm that hope is beautiful and insufficient?</hidden>
+
+---
+
+## 7. The Volume 2+ Reveal — Recontextualization
 
 <hidden>
 
-### The Discovery
+### The Discovery Sequence (updated)
 
-The discovery sequence from the Titan Biology brainstorm (Section 4):
-1. Squad assumes "Titans" are large creatures (brain-plugged humans only)
-2. Growing suspicion — intelligence too sophisticated for ogres alone
-3. Revelation: dark fairy commanders exist. Same species. Fairy-scale.
-4. Devastation: the dark fairy leader is an alternate Sable
-
-Steps 1-2 happen across Volume 1. Step 3 is late Volume 1 or early Volume 2. Step 4 is a Volume 2 climax.
+1. Squad assumes "Titans" are large creatures (brain-plugged humans only) — Volume 1
+2. Growing suspicion — intelligence too sophisticated for ogres alone — Volume 1
+3. Revelation: dark fairy commanders exist. Same species. Fairy-scale. — late Vol 1 / early Vol 2
+4. One commander's tech is eerily familiar — alt-Wren's engineering matches our Wren's — Vol 2
+5. Devastation: the dark fairy leader is Sable. Not an alternate version. Not a mirror. HER. Older. From a future where everything she's doing right now already failed. — Vol 2 climax
 
 ### What Recontextualizes
 
-When Sable discovers the mirror, every Volume 1 decision changes meaning:
+When Sable discovers the truth, every Volume 1 decision doesn't just change meaning — it becomes a replay.
 
-- **The mission file.** Sable carried classified intelligence about "CONVERGENCE" and "PRIOR." Prior teams were sent and none returned. Alt-Sable is why none returned. The prior insertions failed because they were fighting someone who thinks exactly like their commander. The mission file isn't just classified intelligence — it's a record of alt-Sable's victories.
+- **The mission file.** Alt-Sable carried the same file. Made the same decision to hide it. Had the same break in her Issue 9. The classified intelligence about "PRIOR" — alt-Sable IS one of the priors, in a sense. She came back because the original mission wasn't enough.
 
-- **The Issue 9 break.** Sable broke because she couldn't command without information, couldn't fulfill her trained role. Alt-Sable never broke — because control doesn't require information-sharing, trust, or vulnerability. The break that nearly destroyed Sable's squad is the exact thing alt-Sable's philosophy was designed to prevent. Alt-Sable would look at the Issue 9 crisis and say: "This is why I chose control."
+- **The Issue 9 break.** Our Sable broke because she couldn't command without information. Alt-Sable had the same break — and then watched the improved trust-based squad STILL lose. The break that transforms our squad into a functioning unit is, in alt-Sable's experience, the beginning of a slower defeat.
 
-- **Theodore.** Sable wanted to wipe Theodore's memory. Alt-Sable would have brain-plugged him — made him useful instead of erasing him. Both responses treat the civilian as a problem to solve. Sable's arc was learning Theodore was an ally. Alt-Sable never has that arc. She sees humans as tools because her technology makes them tools.
+- **Theodore.** Our Sable wanted to wipe his memory. Alt-Sable had a Theodore — and he grew up, and the fairy tales became childhood memories, and it wasn't enough. Does alt-Sable brain-plug Theodores? Or does she leave them alone because she remembers loving one?
 
-- **Thresh's ambush (Issue 12).** Alt-Sable anticipated the squad's approach the way Sable would have anticipated an enemy's approach. The trap worked because alt-Sable thinks like Sable. The call that overwhelmed Thresh was Sable's own tactical instinct turned against her.
-
-- **The final operation's near-failure.** The squad nearly fails because the enemy commander is their equal. In Volume 2, Sable understands why — and has to face the question: if she's fighting herself, how does she win? The answer, if there is one, is that alt-Sable's weakness is the thing she removed: trust. The squad functions as a unit because they choose to. Alt-Sable's operatives function because they're forced to. Under pressure, choice holds. Force cracks. But Sable doesn't know this yet.
+- **"They look like fairy tales."** Alt-Sable said this. She remembers the moment. She believed it. And then the fairy tales lost the story war. The most hopeful line in Volume 1 is, for alt-Sable, the moment she remembers as the beginning of the end.
 
 ### Sable's Emotional Response
 
-Options:
-- **Recognition, then denial.** She sees the resemblance and refuses it. "That's not me." But it is, and she knows it. The denial buys time but not resolution.
-- **Recognition, then understanding.** She sees the resemblance and understands it immediately. The mirror is too precise to deny. The devastation is not confusion — it's clarity. She knows exactly what she's looking at and exactly how it happened.
-- **Recognition, then the question.** She sees the resemblance and asks: what choices would I have had to make differently to become that? And the answer — "none, if your world had been different" — is worse than any specific failing.
+The reveal is not "you're fighting your mirror." It's "you're fighting yourself, after everything you believe in failed."
 
-The reveal is devastating because Sable recognizes not just alt-Sable's tactics but her *values* — distorted, but traceable. Alt-Sable's control is Sable's compartmentalization taken to its logical end. Alt-Sable's brain-plugged operatives are Sable's "manage the squad" impulse with the humanity removed. Alt-Sable doesn't represent what Sable chose — she represents what Sable's instincts would produce without the squad to temper them.
+- Recognition is immediate. Sable sees her own face, aged. She knows.
+- The horror is not "how did I become that." The horror is "she was ME. She did everything I'm doing. She believed everything I believe. And it didn't work."
+- The question that breaks her: "If cooperation failed in the original timeline, why should it work this time?"
+- The answer, if there is one: because alt-Sable's interference has changed the conditions. The convergence point in THIS iteration is different — not just fairy tales vs. monster stories but also trust vs. control on the SAME SIDE. Alt-Sable's presence creates a variable the original timeline didn't have: a Sable who has already accepted the worst and is fighting from despair. Our Sable has to prove that hope is not just beautiful but sufficient. That's a harder fight than the original.
 
 </hidden>
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
-### Identity
-- Does alt-Sable have a name? Or is "Alt-Sable" a creator handle? <AI>Options: she has a different name in her civilization (the dark fairy branch uses different naming conventions), or she has the same name (Sable) — which makes the mirror literal even at the level of what she's called.</AI>
-- What is her rank in the dark fairy military? Equivalent to captain? Higher?
-- How old is she? Same age as Sable, or has the temporal war created age asymmetry?
+### The Failed Timeline
+- **Centuries have blurred specifics, but key memories are crystallized** — LOCKED. She remembers feelings more than details. She remembers every squad member's death precisely (crystallized by trauma) but can't recall routine days. The imprecision is important — she's operating from grief-sharpened memory, not perfect recall.
+- **Attrition, not a single battle** — LOCKED. The original squad died one by one, over months. The slow grinding of being four inches tall in a hostile world without enough support. Alt-Jink died first (reckless, young, took a risk that didn't work). Alt-Thresh died defending a position (fear turned to last-stand courage). Alt-Luma died last, staying behind to tend to the others. The specific deaths shape alt-Sable's specific grief — and her conviction that cooperation kills the people you love.
+- **Yes, a Theodore in the original timeline** — LOCKED. The loop has slack — guarantees a boy finds fairies, not which boy. His fairy tale happened. It wasn't enough. The story survived but the story war was lost in later centuries. Alt-Sable has seen Theodore's face before — a different boy, same role. Seeing OUR Theodore is recognition, not discovery.
+- **Control philosophy adopted AFTER the return, with centuries to reflect** — LOCKED. In the original timeline, alt-Sable tried cooperation until the end. The control philosophy grew from centuries of reflection after the squad died. She concluded cooperation was beautiful but insufficient. The philosophy is the product of grief processed over lifetimes, not a wartime decision.
 
-### The Other Two Commanders
-- Who are the other two dark fairy commanders? Do they mirror other squad members?
-- <AI>Options: (a) The other commanders are generic dark fairy operatives — no mirror relationship. Alt-Sable is the only personal mirror. (b) The other commanders mirror Wren and Luma specifically — a dark engineer running the telegraph operation, a dark scientist studying the convergence. This extends the mirror principle but risks diluting it. (c) One mirrors a squad member, the other doesn't — partial mirroring creates asymmetry that's more interesting than either extreme.</AI>
-- What is the command dynamic among the three? Does alt-Sable lead formally or informally?
+### The Return
+- **Temporal mechanism: not specified in Volume 1** — deferred. The how is a Volume 2 question.
+- **Arrived centuries before 1885** — LOCKED. Long enough to build the dark fairy operation, establish brain-plugging infrastructure, and position operatives. The operation's scale requires time.
+- **"Tall Ones" folklore: both original enemy AND alt-Sable's operation** — LOCKED. The original enemy generated some monster stories at earlier convergence points. Alt-Sable's operation amplified them. The current monster mythology is a mix of organic fear and deliberate manipulation.
 
-### The Divergence
-- Is the divergence moment a single event or civilizational drift?
-- Does alt-Sable know about our Sable specifically?
-- Does she have intelligence files on the squad?
-
-### Volume 1 Groundwork
-- Does alt-Sable appear in any form in Volume 1 — even a shadow, a glimpse, an unidentified scanner reading?
-- How much does Wren's "this isn't alien — this is us, backwards" observation land in Volume 1? Is it a throwaway line or a flagged moment?
-- Should the reader be able to guess the mirror before Volume 2? <AI>Options: (a) No — the reveal should be genuinely surprising. The hidden layer stays hidden. (b) Yes, for attentive readers — plant enough parallels that a reread reveals the pattern. "The enemy commander made the exact call Sable would have" repeated enough times that the mirror is visible in hindsight. Option (b) is stronger — the best reveals are ones the reader could have seen coming but didn't.</AI>
+### The Broken Squad
+- **Alt-Jink, alt-Thresh, alt-Luma all died (see above)** — LOCKED. Alt-Wren survived alongside alt-Sable. Two survivors out of five.
+- **Alt-Sable offered; alt-Wren chose to follow** — LOCKED. Not enthusiastically — with exhausted loyalty. Alt-Wren doesn't believe in the methods but has no alternative and can't abandon the only other survivor. The choice was real but the options weren't.
+- **Alt-Wren follows without agreement** — LOCKED. She follows because she has no alternative and because alt-Sable is the only person alive who remembers the same world she remembers. Loyalty to shared grief, not shared conviction.
+- **Third commander: not specified in Volume 1** — deferred. Options remain open per Section 4.
 
 ### The Reveal
-- When in Volume 2 does the reveal happen? <AI>Options: early (reframes all of Volume 2), mid (the midpoint reversal), late (the climactic revelation). Each changes the story structure.</AI>
-- Does Sable see alt-Sable's face? Or does she deduce the mirror from intelligence?
-- Does alt-Sable know Sable has discovered the truth? Does she *want* Sable to know?
+- **Volume 2 timing: deferred** — Volume 2 structural question.
+- **Alt-Sable wants the reveal** — LOCKED. The reveal is a recruitment attempt disguised as a confrontation: "I tried your way. It failed. Join me or watch it fail again." She believes the evidence will persuade because it persuaded her.
+- **Direct conversation: deferred to Volume 2** — the specific dialogue and staging are Volume 2 dramatic beats.
+
+### The Regret
+- **Regrets both methods AND failure, simultaneously** — LOCKED. She regrets that cooperation failed because she loved it. She regrets the brain-plugging because she knows the cost to victims. She does it anyway because she believes the alternative — a timeline where the fairy civilization is erased — is worse. The regret doesn't stop her. It makes her more precise. She cannot afford to waste suffering.
+- **Does not consider she might be wrong — not in Volume 1** — LOCKED. The certainty is load-bearing. If she allows doubt, centuries of suffering become purposeless. Whether Volume 2 cracks this certainty is a Volume 2 question — and one of the major dramatic tensions of the sequel.
+
+### Volume 1 Groundwork
+- **No direct appearance in Volume 1** — LOCKED. She's felt through the Titan operations: tactical decisions that read as eerily competent, as if the enemy knows exactly how the squad operates. The presence is strategic, not physical.
+- **"This is us — backwards" is a flagged moment, not a throwaway** — LOCKED. Wren's observation lingers. Other squad members exchange looks. The line is planted for rereading — in hindsight, it's the first explicit clue.
+- **Yes, attentive readers can guess the mirror before Volume 2** — LOCKED. The parallels are planted throughout: enemy tactics that mirror Sable's decisions, the dark fairy tech being degraded fairy tech (not a separate aesthetic), Wren's "this is us" observation. The best reveals are ones the reader could have seen coming but didn't.
 
 ---
 
-*This document is a working brainstorm. All `<AI>` tagged suggestions are proposals for consideration, not decisions. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors are drawn from: Sable wiki (Hidden Layer), Titan Biology & Culture brainstorm (Sections 1a, 3, 4, 5), Dark Fairy Operations brainstorm (Sections 1, 4), Sable Backstory brainstorm (Open Questions), and the Volume 1 Plot Outline.*
+*This document is a working brainstorm. LOCKED decisions: Alt-Sable's origin (our Sable from a failed future timeline); alt-Sable's physical appearance (same person, visibly aged); alt-Wren as one of the two subordinate commanders (surviving engineer from the failed timeline); the third commander as non-mirror. Previously locked decisions that still hold: 3 dark fairy commanders in London, "Sable" name shared, partial mirror (Wren). This document SUPERSEDES the previous framing of "diverged civilization that chose dominance over cooperation" — the dark fairy faction is from the SAME civilization, from after it failed. `<hidden>` tagged content is author-only information for later story reveals. Canon anchors drawn from: Sable wiki, Titan Biology brainstorm, Dark Fairy Operations brainstorm, Temporal Mechanics brainstorm, Dark Fairy Commanders brainstorm, Prior Operatives brainstorm.*

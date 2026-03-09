@@ -266,33 +266,32 @@ Canon gives one explicit silence: Issue 11 — "Jink, for the first time, is ser
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### Recklessness
-- Has Jink ever lost anything before this mission? (A friend? A previous mission gone wrong? Or genuinely nothing?)
-- Is the recklessness a personality trait or a coping mechanism? <AI>Both options work: pure personality is simpler and more fun; coping mechanism adds depth but risks over-psychologizing.</AI>
-- The collecting habit — what's in the satchel? <AI>Options: chimney tile, brass fitting, glass bead, bird feather, a button from Theodore's waistcoat. Each object is small, tactile, from a specific moment.</AI>
-- The leather bracelet — from Theodore? From a market? Found?
+- **Jink has never lost anything before this mission** — LOCKED. Genuinely nothing. This is the first time consequences are real. The recklessness isn't tested confidence; it's untested innocence.
+- **Personality trait, not coping mechanism** — LOCKED. Jink is genuinely wired for speed and risk. The deflective humor (quipping as shield) is a separate layer on top of baseline recklessness. Over-psychologizing the recklessness undermines the character — Jink's arc is about learning weight, not revealing hidden damage.
+- **Satchel contents: small tactile objects from specific moments** — LOCKED. Chimney tile from a good flight. Brass fitting from Theodore's workshop. Glass bead found in a gutter. A button from Theodore's waistcoat. Each one is a memory made physical. The collection grows across the volume.
+- **Leather bracelet: found during a flight** — LOCKED. Caught on a washing line or market stall. Pre-relationship souvenir. Not from Theodore — that would weight the object wrong. It's Jink's first "this world has things" artifact.
 
 ### Theodore
-- Does Jink understand what Theodore means to the timeline? (Before the paradox revelation?)
-- When does Jink start protecting Theodore instead of just enjoying him?
-- The fairy assumption — does it ever bother Jink that Theodore's friendship is partly built on a misunderstanding?
+- **Jink does NOT understand Theodore's timeline significance before the paradox revelation** — LOCKED. Values Theodore as a friend, not a convergence mechanism. The friendship is personal, not strategic.
+- **Protection develops gradually, Issues 5-8** — LOCKED. Not a single moment but an accumulation as stakes rise. The Issue 7 "friends take risks for each other" beat is when Sable names what Jink already feels.
+- **The fairy assumption bothers Jink briefly in Issue 9** — LOCKED. When furious about Sable's lies, Jink recognizes the parallel — the friendship was partly built on a misunderstanding too. Brief discomfort, not sustained guilt. The friendship survived the misunderstanding, which proves it was never the foundation.
 
 ### Squad
-- Does anyone in the squad understand WHY Jink is reckless, or do they just react to the behavior?
-- Does the Issue 7 Thresh-Jink alliance deepen? Or is it a one-time alignment?
-- How does Jink process Sable's lie in Issue 9 given that Jink was the first secret-keeper?
+- **No one articulates why Jink is reckless** — LOCKED. Luma suspects (she's sympathetic to the positive engagement with the past). The rest react to the behavior without understanding the root. It's not hidden or complex — they just see the surface because the surface is loud.
+- **Thresh-Jink alliance is a single moment of convergence, not a deepening alliance** — LOCKED. But it changes how they see each other. Thresh respects Jink's willingness to act. Jink remembers that Thresh agreed when it mattered. In Issue 12, Jink diverts to help Thresh — the callback.
+- **Issue 9 mirror: recognized later, not immediately** — LOCKED. Between Issues 9-11, Jink processes the hypocrisy (first secret-keeper, furious at Sable's secret). This recognition is part of what makes Jink serious on the rooftop — the weight of their own earlier choice becoming visible.
 
 ### Voice
-- Does Jink have a verbal tic? **"Okay but" / "yeah but" as filler.** Starting sentences with "okay but" or "yeah but" — the verbal equivalent of dodging. — LOCKED <AI>Or trailing off mid-sentence when something real surfaces.</AI>
-- How much future slang? <AI>Enough to confuse Theodore occasionally but not so much it reads as gibberish to the audience. The slang should feel natural, not constructed.</AI>
-- The Issue 11 rooftop voice — is it Jink stripped of performance? Or is it a new register they haven't used before?
+- **"Okay but" / "yeah but" as filler** — LOCKED (unchanged). Also: trailing off mid-sentence when something real surfaces. The quips stop; the sentence dies.
+- **Future slang: 1-2 expressions per issue** — LOCKED. Enough to confuse Theodore occasionally. Natural, not constructed. Specific terms are scripting-level detail.
+- **Issue 11 rooftop: Jink stripped of performance** — LOCKED. Complete sentences. Slow for once. The same person without the shield.
 
 ### Arc
-- Does the arc resolve or just begin? (Volume 1 is 12 issues — is "learning weight" a completed arc or the start of a longer one?)
-- Does Jink ever articulate what they've learned, or is it shown through changed behavior?
-- <AI>The Issue 12 line — "So we're not stuck here. We're *needed* here" — reframes the entire arc. Recklessness isn't the problem. Recklessness without understanding is the problem. Jink at the end still acts fast, still takes risks — but now they know what those risks cost and choose them anyway. That's not recklessness anymore. That's courage.</AI>
+- **Volume 1 arc COMPLETES "learning weight"** — LOCKED. The lesson is learned. Volume 2 explores what Jink does WITH the weight — responsibility, not recklessness. Not a cliffhanger; a transformation.
+- **Shown through changed behavior, never articulated** — LOCKED. The Issue 12 line "So we're not stuck here. We're needed here" is the closest — a reframe, not a lesson stated. Jink doesn't give speeches. The changed behavior IS the articulation.
 
 ---
 

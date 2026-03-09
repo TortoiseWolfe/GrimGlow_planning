@@ -338,45 +338,42 @@ The brain-plugging process: a small Titan tech device (fairy-scale), placed on t
 - Cribbage might not remember the period of control. He doesn't know what was done to him or who saved him.
 - The "simpler" Cribbage might lose his clockmaking precision — a craftsman who can no longer craft. What does that mean for the workshop? For Theodore's apprenticeship?</AI>
 
-### Open Questions — Cribbage
+### Locked Decisions — Cribbage
 
-- Does Cribbage's brain-plugging happen on-page or off? Do we see it happen, or does Theodore discover the result?
-- Does Theodore need fairy guidance to spot the device? At human scale it's tiny, hidden under hair.
-- Cribbage's recovery: does he recover enough to continue as Theodore's master? Or is the relationship permanently altered?
-- How does this connect to Theodore's Issue 12 writing? The fairy tale he writes now includes a changeling story — a man "taken" and returned diminished.
+- **Brain-plugging happens off-page** — LOCKED. Theodore discovers the result, not the act. The wrongness builds: Cribbage's behavior changes gradually before Theodore understands the cause. (See brainstorm-cribbage-three-states.md for full details.)
+- **Theodore needs Wren's guidance (via comm link) to locate and remove the device** — LOCKED. At human scale the device is tiny, hidden under hair at the base of the skull. Theodore's tinker's hands do the physical work; Wren provides the technical knowledge.
+- **Cribbage recovers but can't run the business alone. Theodore stays by choice** — LOCKED. The relationship inverts permanently — the dismissive master becomes someone who genuinely needs the apprentice. Theodore chooses to stay not from obligation but because the workshop is his.
+- **The changeling element appears in Theodore's Issue 12 writing** — LOCKED. A man "taken" and returned diminished enters the fairy tale naturally — Theodore is writing what he witnessed.
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### Family
-- How old was Theodore when his mother died?
-- Is the grandmother maternal? Is she still alive?
-- How does Theodore feel about his father? <AI>Options: resigned acceptance (this is just how things are), quiet resentment (he chose the press), understanding (Theodore knows the father had no other option).</AI>
-- Does the father appear in the volume? Or is he background — present in the city, absent from the story?
-- <AI>The father's printing press could become plot-relevant if Theodore brings his fairy tale to the press. Does this happen in Volume 1 or later?</AI>
+- **Mother died when Theodore was ~5-6** — LOCKED. Old enough to have memories of her, young enough that the memories are fragmentary. The loss is real but filtered through childhood.
+- **Grandmother is paternal (the father's mother), now passed** — LOCKED. This connects the fairy tales THROUGH the father's line — grandmother told stories, father runs a press, Theodore inherits both the stories and the knowledge of how to make them permanent. Three generations of Hartleys, each contributing a piece to the convergence mechanism.
+- **Theodore feels resigned acceptance toward his father** — LOCKED. Not resentful, not angry — just the way things are. A working-class boy in 1885 understands that providing a trade IS providing for a child. The loneliness is real, but Theodore doesn't blame his father for it.
+- **Father does NOT appear on-page in Volume 1** — LOCKED. He's background — present in the city, absent from the story. His press is established as a location; his relationship with Theodore is implied through the name, the printing vocabulary, the Sunday visits Theodore mentions in passing. The father gets his moment in Volume 2 when the press activates as convergence machinery.
+- **Theodore's fairy tale reaches the press in Volume 2, not Volume 1** — LOCKED. Volume 1 ends with the act of writing. Volume 2 opens with the act of printing. (See brainstorm-theodore-father-press.md.)
 
 ### The Fairy Tale
-- What specific fairy tales does the grandmother tell? (Beyond the Issue 9 knights-and-riddle story)
-- Does Theodore know the "Tall Ones" stories from his grandmother too, or are those neighborhood folklore?
-- When Theodore writes in Issue 12, is he conscious that it's a fairy tale? Or does he think he's writing a factual account?
-- <AI>The writing in Issue 12 could be: (a) a deliberate fairy tale — Theodore choosing the fairy tale form because it's the one he knows, (b) an attempt at truth that naturally takes fairy tale shape because that's how Theodore processes wonder, (c) a letter to someone (the grandmother? the father?) that becomes a story. Each changes the emotional register.</AI>
+- **Grandmother's fairy tales: traditional English fairy lore** — LOCKED. Helpful fae, trickster spirits, the fair folk who can be bargained with. Not specific titled stories — a living tradition passed through telling. The Issue 9 knights-and-riddle story is her most important specific tale, and it's enough.
+- **"Tall Ones" stories are neighborhood folklore, separate from grandmother's tales** — LOCKED. The grandmother's stories are intimate, familial, warm. The "Tall Ones" are street-level rumors — darker, more fearful, spread through pubs and markets. Theodore carries both traditions but treats them differently.
+- **Issue 12 writing: an attempt at truth that naturally takes fairy tale shape** — LOCKED. Theodore thinks he's writing about his friends. But fairy tale cadence is how he processes wonder — the grandmother's voice lives in his prose. He's not choosing the fairy tale form. It's choosing him. The result is a story that's simultaneously factual and mythological — exactly the kind of document that survives centuries.
 
 ### The Disillusionment
-- Does Theodore grieve the fairy tale, or does he move past it quickly?
-- Does he ever try to re-enchant them — fit the squad back into the fairy tale frame despite knowing better?
-- Is there a moment where Theodore is angry at the squad for not being what he wanted?
-- <AI>The most interesting possibility: Theodore never fully lets go of the fairy tale. He knows they're soldiers. He knows there's no magic. But in quiet moments — Jink in flight, Luma's scanner glowing, the holographic wings in candlelight — the fairy tale reasserts itself. Not as belief but as beauty. He can't help seeing them as magical even when he knows they're not. This is the seed of the story he writes in Issue 12 — he knows the truth and writes the fairy tale anyway, because both are real.</AI>
+- **Grief, then redirection** — LOCKED. Theodore loses the fairy tale and replaces it with something he knows how to do — be useful. The charging cradle he builds (Issue 4) is his audition. He can't be magical, but he can be competent. The transition from wonder to usefulness is Theodore choosing to matter on different terms.
+- **Theodore never fully lets go of the fairy tale** — LOCKED. He knows they're soldiers. He knows there's no magic. But in quiet moments — Jink in flight, Luma's scanner glowing, the holographic wings in candlelight — beauty reasserts itself. Not as belief but as perception. This is the seed of the story he writes in Issue 12: he knows the truth and writes the fairy tale anyway, because both are real.
+- **No anger beat** — LOCKED. Theodore is not an angry character. The disillusionment is sadness, then practical redirection. He never resents the squad for not being what he wanted — he adjusts what he wants.
 
 ### "Something Better"
-- When does Theodore articulate it to himself? Does he?
-- Does anyone in the squad know how Theodore sees them?
-- <AI>The rooftop in Issue 11: Jink tells Theodore to walk away. Theodore refuses. This might be the moment Theodore understands "something better" without naming it — someone is trying to protect him by pushing him away, and he chooses to stay. Choice over compulsion. Real over magical. That's "something better" in action, even if Theodore doesn't have the words.</AI>
+- **Theodore never articulates "something better" in words** — LOCKED. He lives it. The Issue 11 rooftop is where he understands it without naming it: Jink tells him to walk away, and he refuses. Choice over compulsion. Real over magical. That's "something better" in action. Theodore doesn't need the words — the choice IS the understanding.
+- **The squad doesn't know how Theodore sees them** — LOCKED. That's what makes the Issue 12 fairy tale a surprise (for Volume 2, when the story circulates). They don't know the boy is writing mythology about them. They don't know he sees them as something better than fairies.
 
 ### Voice
-- What Victorian-era verbal tics or speech patterns define Theodore? **Mechanical metaphors for emotional states.** "I'm wound too tight." "Something doesn't sit right in the works." He sees function, mechanism, craft — and applies it to feelings. — LOCKED <AI>Other possible markers: "I should think" as a qualifier, "properly" as emphasis ("properly frightened"), addressing adults as "sir" or "ma'am" reflexively.</AI>
-- Does Theodore's speech change after meeting the squad? (Picking up future expressions, becoming more confident?)
-- The writing voice in Issue 12 — how close is it to the grandmother's storytelling voice vs. Theodore's own?
+- **Mechanical metaphors for emotional states** — LOCKED (unchanged). "I'm wound too tight." "Something doesn't sit right in the works." He sees function, mechanism, craft — and applies it to feelings.
+- **Speech changes subtly after meeting the squad** — LOCKED. Not specific future expressions (Theodore wouldn't understand them), but confidence. He speaks more, with more authority, because someone is listening. The change is social, not linguistic.
+- **Issue 12 writing voice: grandmother's cadence, Theodore's content** — LOCKED. A fusion — the rhythm and register of oral fairy tale telling, applied to people Theodore knows personally. Not imitation of the grandmother. Evolution from her.
 
 ---
 

@@ -64,12 +64,12 @@ Sable gives orders, not speeches. She's clipped, precise, controlled. This sugge
 - A memorial — honoring someone or something. The color means something to her that isn't explained.
 - Simple aesthetics — she chose it because she wanted to. Not everything needs a trauma origin.</AI>
 
-### Open Questions — Career
+### Locked Decisions — Career
 
-- What rank structure does the fairy military use? (Sable has "rank insignia" — a geometric glyph on her collar. What does it signify?)
-- How long has she commanded THIS squad specifically?
-- Has she commanded other squads before?
-- <AI>Was this squad hand-picked by her, or was it assigned? If she picked them, her choices reveal what she values in people. If assigned, her adaptation to what she was given reveals her flexibility.</AI>
+- **Rank structure: not detailed in Volume 1** — deferred. The geometric glyph on her collar signifies command authority. Specific rank hierarchy is background, not narrative. Volume 2 can expand if needed.
+- **Two years commanding this squad** — LOCKED. Cross-reference: main Open Questions section below.
+- **One previous command, ended cleanly** — LOCKED. Cross-reference: main Open Questions section below.
+- **Squad was assigned, not hand-picked** — LOCKED. Sable adapted to what she was given. Her adaptation reveals flexibility — she doesn't need to choose the perfect team. She makes the team she has work. This matters for the crash: she's not leading people she selected for this situation. She's leading people she was given for a different mission entirely.
 
 ---
 
@@ -119,7 +119,7 @@ This is the arc's hinge point. What happens inside Sable:
 
 ### What She Doesn't Know
 
-<hidden>She doesn't know the dark fairy operation is led by an alternate version of herself. That revelation belongs to a future volume. But the groundwork is here: Sable's command decisions are mirrored by alt-Sable's command decisions throughout Volume 1. The reader doesn't see this yet. Sable doesn't see this yet. When she eventually does, every decision she made in Volume 1 will recontextualize.</hidden>
+<hidden>She doesn't know the dark fairy operation is led by herself — older, from a failed future iteration of the timeline. Alt-Sable lived through everything our Sable is experiencing: trusted her squad, chose cooperation, stayed, fought the story war. It wasn't enough. Her squad died. She came back to try control instead of trust. That revelation belongs to a future volume. But the groundwork is here: Sable's command decisions are replayed by alt-Sable's decisions throughout Volume 1 — because alt-Sable IS Sable and made the same calls first. The reader doesn't see this yet. Sable doesn't see this yet. When she does, every Volume 1 decision becomes a replay, not just a mirror. (Alt-Sable brainstorm, Origin — LOCKED.)</hidden>
 
 ---
 
@@ -266,30 +266,30 @@ The mask slips in specific moments across the volume:
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### Backstory
-- What is the fairy military's structure? (Rank, branch, culture)
-- How long has Sable commanded this specific squad?
-- What happened on her previous commands?
-- Why the silver-white hair? (Meaningful or aesthetic?)
-- Does she have relationships outside the military? (Family? Partner? Friends who aren't subordinates?)
-- <AI>What was she like before she was a commander? The military family suggests she was always heading here — but what did she want before duty took over?</AI>
+- **Fairy military structure: not detailed in Volume 1** — deferred. The squad is the unit that matters. Rank, branch, culture are background — mentioned in passing, not explored. Volume 2 can expand if needed.
+- **Two years commanding this squad** — LOCKED. Long enough to know them, short enough that the command relationship is still settling. The familiarity is professional, not intimate.
+- **One previous command, ended cleanly** — LOCKED. Standard rotation, not failure. This is her second command. The weight she carries isn't from a previous disaster; it's from the responsibility itself, amplified by the classified file.
+- **Silver-white hair: aesthetic, not meaningful** — LOCKED. Natural for the fairy species. Multiple hair colors exist in the population. Not a marker of anything — just how she looks.
+- **No active relationships outside the military** — LOCKED. Career officer from a military family. The military IS her social world. This is part of what makes the crash devastating — the chain of command was her entire relational infrastructure, and it's gone.
+- **Always wanted this** — LOCKED. Military family, career officer. The question "what would she be without duty?" doesn't have an answer, and that's the point. She never imagined an alternative. The absence of an alternative is the character.
 
 ### Internal Life
-- Does she doubt herself? (Canon shows confidence cracking, but is there a deeper layer of self-doubt beneath the training?)
-- What does she do when she's alone and not reading the mission file? (What does Sable's downtime look like in a world where downtime means sitting in a pipe wall?)
-- <AI>What is she afraid of? Not tactically — personally. What failure would break her?</AI>
+- **Doubts her judgment, not her capability** — LOCKED. Not "am I good enough?" but "am I making the right call?" The classified file is the epicenter — every decision is colored by information the squad doesn't have. The doubt is about whether withholding protects or manipulates.
+- **Downtime: she doesn't rest, she rotates** — LOCKED. Rereads the mission file. Checks on each squad member (the perimeter, Wren's repairs, Thresh's position). When there's truly nothing to do, she goes still — not relaxed, just stopped. The stillness is not peace. It's the absence of tasks.
+- **What would break her: losing a squad member** — LOCKED. Not failing the mission — losing someone. The classified file, the secret, the burden — all acceptable weight. A death on her watch is not.
 
 ### The Alt-Sable Mirror
-- <hidden>When does Sable first sense something familiar about the dark fairy commander's tactics? Does she recognize her own decision patterns before she knows who she's fighting?</hidden>
-- <hidden>What specific choice is the divergence point? What did alt-Sable choose differently? The Titan brainstorm says "dominance over cooperation" — but what was the concrete moment?</hidden>
-- <hidden>How does Sable react when she discovers the mirror? Does she understand immediately, or does it take time?</hidden>
+- <hidden>**Senses familiar tactics but doesn't connect them to herself in Volume 1** — LOCKED. The Titan operations feel eerily competent, as if the enemy knows how the squad operates. Sable notices but attributes it to intelligence gathering, not identity. The planted seed for Volume 2.</hidden>
+- <hidden>~~What specific choice is the divergence point?~~ RESOLVED — there is no divergence point. (Alt-Sable brainstorm, Origin — LOCKED.)</hidden>
+- <hidden>**Volume 2 question** — deferred. How she reacts to the mirror, whether she understands immediately — these are Volume 2 dramatic beats.</hidden>
 
 ### Voice
-- Does she use humor? Ever? (Canon shows no humor from Sable. Is this deliberate absence, or is there a very dry, very rare wit underneath?)
-- How does she address each squad member? (Rank? First name? Nickname? Does it change across the arc?)
-- What does her voice sound like to Theodore? (He's 12-13 and she's four inches tall. How does authority land across that scale gap?)
+- **Very rare, very dry humor** — LOCKED. One wry observation in Issue 12. Not a joke — an observation that happens to be dry. The rarity IS the impact. Cross-reference: squad voice tics brainstorm.
+- **Last names in command mode, first names when personal** — LOCKED. The shift is a tell, like contractions. Cross-reference: squad voice tics brainstorm.
+- **Authority that transcends scale** — LOCKED. Four inches tall, sounds like the tallest person in the room. Theodore instinctively addresses her as "ma'am." Cross-reference: squad voice tics brainstorm.
 
 ---
 

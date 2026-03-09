@@ -148,11 +148,11 @@ This adds a new dimension to Thresh's fear. The "ogres" aren't alien monsters fr
 - The Issue 8 child encounter might resonate differently knowing the ogres are people too. The child reached out a hand. The brain-plugged humans were once people who reached out hands.
 - "I don't want to stay. I'll stay." gains another layer — staying means fighting an enemy that wears the faces of the people you're trying to save.</AI>
 
-### Open Questions — What Terrifies Him
+### Locked Decisions — What Terrifies Her
 
-- Is the fear purely situational (this world is terrifying) or does it reveal something about who Thresh was before?
-- In the future, was Thresh genuinely brave or just never tested?
-- Does Thresh fear the Titans differently from the world itself? (The Titans are a trained enemy at wrong scale vs. the world which is an untrained environment at wrong scale)
+- **Both situational and revelatory** — LOCKED. The situation (this world is terrifying) reveals that the bravery was conditional — supported by extraction, comms, command infrastructure. The fear isn't new; it's the first honest reading of who Thresh is without the system.
+- **Brave, but institutional bravery** — LOCKED. Not untested — Thresh was genuinely courageous. But the courage was backed by infrastructure: backup, extraction, medical, chain of command. She was never brave ALONE. The past forces her to discover if the courage is personal or just procedural. Issue 10 answers: it's personal.
+- **Fears Titans differently from the world** — LOCKED. The world is passively dangerous (scale, weather, animals — everything can kill by accident). Titans are actively hunting them (something is TRYING to kill). Different survival responses: the world triggers hypervigilance; the Titans trigger combat readiness. Issue 7's "if Titans are here, running won't help" is fear doing the math on the active threat.
 
 ---
 
@@ -218,12 +218,12 @@ The suit tells the story the voice won't. Every scratch is a hit Thresh absorbed
 
 <AI>Visual idea: the holographic edge-lighting on Thresh's armor pulses in sync with fear. Canon says it pulses "like a heartbeat." Under stress, the pulse might quicken, flicker, or grow uneven — a tell that reads as magical malfunction to Victorian eyes but is actually a soldier's heart rate visible in light. The one panel on the right forearm that's "dark entirely" (Turnarounds) could be the first system to fail under sustained stress.</AI>
 
-### Open Questions — Manifestation
+### Locked Decisions — Manifestation
 
-- Does the squad discuss Thresh's fear, or is it the thing no one says aloud?
-- Does Luma have medical data showing what the fear does to Thresh physiologically? (She's the medic — does she monitor them?)
-- The "controlled spiral" in Issue 7 — what does Luma say to bring Thresh back? Medical language? Military? Personal?
-- <AI>Does Theodore notice before the squad acknowledges it? "He watches everything, notices details others miss" (Script Prompts, Issue 3). Theodore might see the trembling hands, the grip, the scan rate, and understand what they mean — a boy who has been frightened and alone recognizes it in others.</AI>
+- **The thing no one says aloud — until Luma, in Issue 7** — LOCKED. Before that: silent accommodations. Sable adjusts assignments. Jink doesn't joke about it. Wren avoids comment. The silence IS the accommodation. The squad knows. Nobody names it.
+- **Luma monitors all of them — she has Thresh's stress data** — LOCKED. Heart rate, cortisol, stress signatures from the suit's biometric feed. She doesn't share this with the squad. She shares it with Thresh during the Issue 7 talk-down. The data is medical, not gossip.
+- **Luma's talk-down: medical first, then personal** — LOCKED. Starts with the medic's steady diagnostic voice: "Your breathing — match mine." Transitions to something quieter and personal: "You're here. You're standing. That's enough." Questions give Thresh something to answer, something to DO. The talk-down is structured because structure is what Thresh needs — something external to hold onto.
+- **Theodore notices before anyone acknowledges it** — LOCKED. He sees the trembling hands, the grip, the scan rate. A boy who has been frightened and alone recognizes it in others. He doesn't say anything. He gives Thresh slightly more space when passing, moves more slowly around the squad. The accommodation is instinctive and silent.
 
 ---
 
@@ -367,12 +367,12 @@ From Thresh's position — the position of someone who is afraid every moment �
 - **Performance.** What if she's afraid too, and she's just better at hiding it? That would be both reassuring (I'm not alone) and terrifying (if even Sable is scared, how bad IS it?).
 - **The last wall.** As long as Sable is composed, the squad holds. If Sable breaks, everything breaks. Thresh might be watching Sable's composure the way a soldier watches fortifications — checking for cracks, not because they want them, but because they need to know they'll hold.</AI>
 
-### Open Questions — Sable
+### Locked Decisions — Sable
 
-- Does Thresh ever acknowledge the fear directly to Sable? Or is it the thing they both know and never name?
-- Does Sable adjust Thresh's assignments because of the fear? (Keeping him back from the most dangerous positions? Or deliberately putting him forward because holding back would confirm the fear?)
-- The Issue 10 moment — does Sable give Thresh the engagement order? Or does Thresh engage without orders? <AI>If Sable orders it: she trusts Thresh with the hardest task. If Thresh engages independently: the fear has been joined by something that doesn't wait for orders.</AI>
-- After Issue 9, does Thresh ever trust Sable's composure the same way again?
+- **Never acknowledged directly in words** — LOCKED. The thing they both know. Sable sees it. Thresh knows Sable sees it. Neither names it. "I don't want to stay. I'll stay." is the closest to direct acknowledgment, and even that is compressed past the fear rather than naming it.
+- **Sable gives structured assignments, not reduced ones** — LOCKED. She puts Thresh in positions where training can function — structured tasks, clear sectors, defined objectives. She doesn't hold Thresh back (that would confirm the fear) but she gives assignments where the infrastructure of the task provides the structure the world doesn't. The distinction between protecting and honoring.
+- **Sable gives the engagement order in Issue 10** — LOCKED. She trusts Thresh with the hardest task. This is the answer to "does she protect or honor?" — she honors. The order is itself an act of faith.
+- **Trust after Issue 9: different, not destroyed** — LOCKED. Not the old dependence on Sable's calm. Something new — trust in Sable's judgment, earned by the Issue 10 order. Sable sent Thresh into danger and Thresh came through. The trust rebuilt from action, not composure.
 
 ---
 
@@ -447,29 +447,29 @@ The voice arc: confidence → compression → silence → combat speech → hone
 
 ---
 
-## Open Questions
+## Locked Decisions (formerly Open Questions)
 
 ### The Fear
-- What specifically was Thresh's role before the crash? (Door-kicker is given. But what kind of operations? What was the support infrastructure that made it possible?)
-- Has Thresh been afraid before? Or is this genuinely the first time?
-- Does the fear ever reach a point where Thresh considers leaving the squad? (Not desertion — but breaking? A moment of "I can't do this" that has to be answered?)
-- The pigeon in Issue 2 — how does this scene play? <AI>Options: Thresh draws a weapon on a bird. Thresh freezes and someone else has to move them. Thresh deals with it but the others see what it cost. Each gives a different read on how the fear functions.</AI>
+- **Squad security lead — close protection and breach specialist** — LOCKED. Operations were short temporal insertions with full support infrastructure: extraction teams, medical evac, comms uplink, chain of command. Never stranded, never alone. The door-kicker role only works inside a system. Remove the system and the role collapses.
+- **Minor combat fear before, never sustained fear** — LOCKED. Normal pre-operation nerves, yes. Nothing like this. This is the first fear without an end date — not a mission that ends with extraction but an indefinite stranding where every day is threat assessment with no relief.
+- **One moment of near-breaking: Issue 9, after Sable's lie** — LOCKED. Not considering leaving the squad physically — but a mental break where the question "why am I doing this" has no answer. The last structural support (the captain's reliability) has cracked. The answer comes in Issue 10 when training takes over. The near-break makes the breakthrough real — Thresh doesn't fight from confidence but from having no other option and discovering the training holds.
+- **Pigeon in Issue 2: Thresh draws a weapon on a bird** — LOCKED. The squad sees. Nobody says anything. The silence IS the reaction. The scene plays as: weapon up, instant of readiness, recognition (it's a bird), weapon down. Three seconds. But the grip doesn't loosen. And Jink, for once, doesn't joke.
 
 ### The Transformation
-- Is the Issue 10 breakthrough a single moment or a process across the fight?
-- After Issue 10, is Thresh "better"? Or just functional in combat? (The fear might recede in combat contexts but remain in daily life)
-- The Issue 12 position — Thresh is overwhelmed and Jink diverts to help. Does this undermine the breakthrough? <AI>Not necessarily. Being overwhelmed isn't the same as being paralyzed. Thresh fights until overwhelmed. That's the arc — not invincibility, but action despite fear. Being overwhelmed is a tactical outcome, not a character failure.</AI>
+- **Process across the fight, not a single moment** — LOCKED. Issue 10 is a multi-page combat sequence. The breakthrough builds: first a defensive reaction (instinct), then positioning (training), then active engagement (choice). By the end of the fight, Thresh is fighting — not without fear, but through it. The process IS the arc.
+- **Functional in combat; daily life fear remains** — LOCKED. The transformation is specific, not general. Pigeons, scale, exposure — still frightening. But when the combat frame activates, training holds. The fear recedes in structured threat response and returns in unstructured daily existence. "Fighting afraid" is a combat state, not a personality cure.
+- **Issue 12 overwhelmed does NOT undermine the breakthrough** — LOCKED. Being overwhelmed is tactical, not characterological. Thresh fights until the numbers are too much. Action despite fear, not invincibility. Jink diverting to help is about loyalty, not failure.
 
 ### Squad Dynamics
-- Does the squad ever discuss Thresh's fear directly? Or is it managed through silences and accommodations?
-- Luma's role as the one who talks Thresh down (Issue 7) — does this create a specific Thresh-Luma dynamic?
-- <AI>Jink diverts to help Thresh in Issue 12 — the reckless one saves the afraid one. Cross-reference with Jink brainstorm: "They reach the same conclusion from opposite emotional positions." In Issue 12, they reach the same position from opposite arcs — Jink's recklessness becomes purposeful loyalty, Thresh's fear becomes functional courage.</AI>
-- Theodore noticing Thresh's trembling hands (Theodore brainstorm, AI suggestion) — does this go anywhere?
+- **Managed through silences and accommodations, not direct discussion** — LOCKED. Cross-reference: manifestation section above.
+- **Luma-Thresh dynamic: specific trust from the Issue 7 talk-down** — LOCKED. Thresh allows Luma closer than anyone else — physically (she's the medic) and emotionally (she's seen the worst of it). Not friendship exactly. The bond between patient and the one doctor who's honest with you.
+- **Jink-Thresh Issue 12 convergence from opposite arcs** — LOCKED. Jink's recklessness becomes purposeful loyalty. Thresh's fear becomes functional courage. They converge on the same position from opposite emotional directions — the callback to Issue 7 where they reached the same conclusion from opposite positions.
+- **Theodore's silent accommodation goes somewhere** — LOCKED. Theodore giving Thresh space, moving slowly. It's never named or discussed. But in Issue 12, when Theodore disarms the device, his steadiness near the squad under fire includes a specific moment of awareness toward Thresh — the accommodation has become care.
 
 ### Voice
-- Does Thresh have a verbal tic? <AI>Possible: threat-checking as verbal habit. "Check your six." "Eyes up." The military scan vocalized. Or: trailing off — starting a sentence and stopping, the fear cutting the thought short.</AI>
-- Does Thresh ever joke? **Late joke.** A single, very dry, very late joke — Issue 11 or 12, after the breakthrough. It would land like a thunderclap because no one has ever heard Thresh be funny. The humor itself would signal the change more than any dramatic speech. — LOCKED
-- The first sentence Thresh speaks after the Issue 10 combat breakthrough — what is it?
+- **Threat-checking as verbal tic** — LOCKED. "Check your six." "Eyes up." The military scan vocalized. Functional nervous habit — the squad takes the checks seriously because Thresh's threat assessment is the most accurate. Cross-reference: squad voice tics brainstorm.
+- **Late joke** — LOCKED (unchanged). Issue 11 or 12, after the breakthrough. Thunderclap impact.
+- **First sentence after Issue 10 breakthrough: "Contact. Engaging."** — LOCKED. A tactical call, not a personal statement. Training speaks before the person does. The significance is speech where silence used to be.
 
 ---
 
