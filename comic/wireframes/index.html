@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrimGlow Wireframes</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #1f2937;
+      color: #e5e7eb;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Sidebar */
+    nav {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 260px;
+      height: 100vh;
+      background: #111827;
+      border-right: 1px solid #374151;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      z-index: 50;
+      transition: transform 0.3s ease-out;
+    }
+
+    nav h1 {
+      padding: 16px 20px;
+      font-size: 16px;
+      border-bottom: 1px solid #374151;
+      color: #d4a574;
+      letter-spacing: 2px;
+    }
+
+    nav h1 span {
+      font-size: 11px;
+      color: #9ca3af;
+      letter-spacing: 0;
+      display: block;
+      margin-top: 2px;
+      font-weight: 400;
+    }
+
+    .issue-section {
+      border-bottom: 1px solid #374151;
+    }
+
+    .issue-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 16px;
+      cursor: pointer;
+      transition: background 0.15s;
+      user-select: none;
+    }
+
+    .issue-header:hover {
+      background: #1f2937;
+    }
+
+    .issue-header.active {
+      background: #1f2937;
+    }
+
+    .issue-num {
+      font-size: 11px;
+      font-weight: 700;
+      color: #d4a574;
+      min-width: 24px;
+    }
+
+    .issue-title {
+      font-size: 13px;
+      color: #d1d5db;
+      font-weight: 500;
+    }
+
+    .issue-header.active .issue-title {
+      color: #fff;
+    }
+
+    .issue-pages {
+      display: none;
+      padding: 0 8px 8px 8px;
+    }
+
+    .issue-section.expanded .issue-pages {
+      display: block;
+    }
+
+    .page-link {
+      display: block;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #9ca3af;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 4px;
+      border-left: 2px solid transparent;
+      transition: all 0.15s;
+    }
+
+    .page-link:hover {
+      color: #d1d5db;
+      background: #1f2937;
+    }
+
+    .page-link.active {
+      color: #fff;
+      border-left-color: #d4a574;
+      background: rgba(212, 165, 116, 0.1);
+    }
+
+    .overview-link {
+      font-weight: 600;
+      color: #d4a574;
+      margin-bottom: 2px;
+    }
+
+    .overview-link:hover {
+      color: #e8c49a;
+    }
+
+    /* Main content area */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      margin-left: 260px;
+      margin-bottom: 60px;
+      transition: margin-left 0.3s ease-out, margin-bottom 0.3s ease-out;
+    }
+
+    #viewer-container {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+      background: #2a2a2a;
+      cursor: grab;
+    }
+
+    #viewer-container.dragging {
+      cursor: grabbing;
+      user-select: none;
+    }
+
+    #viewer-container.dragging #viewer {
+      pointer-events: none;
+      transition: none;
+    }
+
+    #viewer {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform-origin: center center;
+    }
+
+    #viewer svg {
+      display: block;
+    }
+
+    /* Footer */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 260px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      background: #111827;
+      border-top: 1px solid #374151;
+      z-index: 200;
+      transition: transform 0.3s ease-out, left 0.3s ease-out;
+    }
+
+    .footer-left, .footer-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    footer button {
+      padding: 8px 16px;
+      background: #374151;
+      color: #e5e7eb;
+      border: 1px solid #4b5563;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.15s;
+      min-width: 80px;
+    }
+
+    footer button:hover:not(:disabled) {
+      background: #4b5563;
+      color: #fff;
+    }
+
+    footer button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    #current-info {
+      text-align: center;
+    }
+
+    #current-info .title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    #current-info .counter {
+      font-size: 11px;
+      color: #9ca3af;
+      margin-top: 2px;
+    }
+
+    /* Zoom controls */
+    .zoom-controls {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .zoom-controls button {
+      width: 30px;
+      height: 30px;
+      min-width: 30px;
+      padding: 0;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .zoom-display {
+      min-width: 44px;
+      text-align: center;
+      font-size: 11px;
+      color: #9ca3af;
+      cursor: pointer;
+    }
+
+    .zoom-display:hover {
+      color: #d4a574;
+    }
+
+    /* Mode toggle */
+    .mode-toggle {
+      display: flex;
+      border: 1px solid #4b5563;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .mode-toggle button {
+      padding: 6px 12px;
+      min-width: auto;
+      border: none;
+      border-radius: 0;
+      font-size: 11px;
+      font-weight: 600;
+      color: #9ca3af;
+      background: #374151;
+    }
+
+    .mode-toggle button.active {
+      background: #d4a574;
+      color: #111827;
+    }
+
+    .mode-toggle button:hover:not(.active):not(:disabled) {
+      color: #d1d5db;
+    }
+
+    .shortcut-hint {
+      font-size: 11px;
+      color: #6b7280;
+    }
+
+    /* Focus mode */
+    body.focus-mode nav {
+      transform: translateX(-100%);
+    }
+
+    body.focus-mode main {
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+
+    body.focus-mode footer {
+      left: 0;
+      transform: translateY(100%);
+    }
+
+    .focus-hint {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.8);
+      color: #9ca3af;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 12px;
+      opacity: 0;
+      transition: opacity 0.3s;
+      pointer-events: none;
+      z-index: 100;
+    }
+
+    body.focus-mode .focus-hint {
+      opacity: 1;
+    }
+
+    /* Scrollbar styling */
+    nav::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    nav::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    nav::-webkit-scrollbar-thumb {
+      background: #374151;
+      border-radius: 3px;
+    }
+
+    nav::-webkit-scrollbar-thumb:hover {
+      background: #4b5563;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>GRIMGLOW <span>Volume 1 Wireframes</span></h1>
+    <div id="issue-list"></div>
+  </nav>
+
+  <main>
+    <div id="viewer-container">
+      <div id="viewer"></div>
+    </div>
+
+    <footer>
+      <div class="footer-left">
+        <button id="prev">&larr; Prev</button>
+        <div class="zoom-controls">
+          <button id="zoom-out">&minus;</button>
+          <span class="zoom-display" id="zoom-display">100%</span>
+          <button id="zoom-in">+</button>
+        </div>
+        <div class="mode-toggle">
+          <button id="mode-overview">Overview</button>
+          <button id="mode-page" class="active">Page</button>
+        </div>
+        <span class="shortcut-hint">F: focus &middot; O: overview</span>
+      </div>
+      <div id="current-info">
+        <div class="title"></div>
+        <div class="counter"></div>
+      </div>
+      <div class="footer-right">
+        <button id="next">Next &rarr;</button>
+      </div>
+    </footer>
+  </main>
+
+  <div class="focus-hint">Press F or Escape to exit focus mode</div>
+
+  <script>
+    // ========================================
+    // DATA
+    // ========================================
+    const ISSUES = [
+      { num: 1,  dir: 'Issue01_Descent',                  title: 'Descent' },
+      { num: 2,  dir: 'Issue02_Small_World',               title: 'Small World' },
+      { num: 3,  dir: 'Issue03_The_Tinkers_Boy',           title: "The Tinker's Boy" },
+      { num: 4,  dir: 'Issue04_Useful_Giant',              title: 'Useful Giant' },
+      { num: 5,  dir: 'Issue05_The_Clockmakers_Heart',     title: "The Clockmaker's Heart" },
+      { num: 6,  dir: 'Issue06_Traces',                    title: 'Traces' },
+      { num: 7,  dir: 'Issue07_The_Lens',                  title: 'The Lens' },
+      { num: 8,  dir: 'Issue08_What_Luma_Found',           title: 'What Luma Found' },
+      { num: 9,  dir: 'Issue09_Sables_File',               title: "Sable's File" },
+      { num: 10, dir: 'Issue10_The_Titan',                 title: 'The Titan' },
+      { num: 11, dir: 'Issue11_Convergence',               title: 'Convergence' },
+      { num: 12, dir: 'Issue12_The_Stories_They_Tell',     title: 'The Stories They Tell' },
+    ];
+    const PAGES_PER_ISSUE = 22;
+
+    // ========================================
+    // STATE
+    // ========================================
+    const state = {
+      issueIndex: 0,
+      mode: 'page',       // 'overview' | 'page'
+      pageNum: 1,          // 1-22
+      zoom: 1,
+      panX: 0,
+      panY: 0,
+    };
+
+    const ZOOM_STEP = 0.15;
+    const ZOOM_MIN = 0.25;
+    const ZOOM_MAX = 3;
+
+    // ========================================
+    // DOM REFS
+    // ========================================
+    const viewer = document.getElementById('viewer');
+    const viewerContainer = document.getElementById('viewer-container');
+    const prevBtn = document.getElementById('prev');
+    const nextBtn = document.getElementById('next');
+    const titleEl = document.querySelector('#current-info .title');
+    const counterEl = document.querySelector('#current-info .counter');
+    const zoomInBtn = document.getElementById('zoom-in');
+    const zoomOutBtn = document.getElementById('zoom-out');
+    const zoomDisplay = document.getElementById('zoom-display');
+    const modeOverviewBtn = document.getElementById('mode-overview');
+    const modePageBtn = document.getElementById('mode-page');
+
+    // ========================================
+    // SAFE SVG INJECTION
+    // ========================================
+    /**
+     * Parse SVG text via DOMParser and inject the root <svg> element
+     * into the viewer using safe DOM methods (no innerHTML).
+     * Only allows SVG namespace elements — no scripts, no event handlers.
+     */
+    function safeInjectSVG(svgText, container) {
+      // Clear existing content safely
+      while (container.firstChild) {
+        container.removeChild(container.firstChild);
+      }
+
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(svgText, 'image/svg+xml');
+
+      // Check for parse errors
+      const parseError = doc.querySelector('parsererror');
+      if (parseError) {
+        const p = document.createElement('p');
+        p.style.cssText = 'color: #f87171; padding: 40px; text-align: center;';
+        p.textContent = 'SVG parse error';
+        container.appendChild(p);
+        return;
+      }
+
+      const svg = doc.documentElement;
+
+      // Strip any script elements or event handlers for safety
+      svg.querySelectorAll('script').forEach(function(el) { el.remove(); });
+      const allEls = svg.querySelectorAll('*');
+      allEls.forEach(function(el) {
+        var attrs = Array.from(el.attributes);
+        attrs.forEach(function(attr) {
+          if (attr.name.startsWith('on')) {
+            el.removeAttribute(attr.name);
+          }
+        });
+      });
+
+      // Import the sanitized SVG node into the current document and append
+      const imported = document.importNode(svg, true);
+      container.appendChild(imported);
+    }
+
+    // ========================================
+    // SIDEBAR
+    // ========================================
+    function buildSidebar() {
+      const list = document.getElementById('issue-list');
+      ISSUES.forEach(function(issue, idx) {
+        const section = document.createElement('div');
+        section.className = 'issue-section';
+        section.dataset.issueIndex = idx;
+
+        const header = document.createElement('div');
+        header.className = 'issue-header';
+
+        const numSpan = document.createElement('span');
+        numSpan.className = 'issue-num';
+        numSpan.textContent = '#' + issue.num;
+        header.appendChild(numSpan);
+
+        const titleSpan = document.createElement('span');
+        titleSpan.className = 'issue-title';
+        titleSpan.textContent = issue.title;
+        header.appendChild(titleSpan);
+
+        header.addEventListener('click', function() {
+          section.classList.toggle('expanded');
+        });
+
+        const pages = document.createElement('div');
+        pages.className = 'issue-pages';
+
+        // Overview link
+        const ovLink = document.createElement('a');
+        ovLink.className = 'page-link overview-link';
+        ovLink.textContent = 'Overview';
+        ovLink.addEventListener('click', function() {
+          state.issueIndex = idx;
+          state.mode = 'overview';
+          loadSVG();
+        });
+        pages.appendChild(ovLink);
+
+        // Page links
+        for (var p = 1; p <= PAGES_PER_ISSUE; p++) {
+          var link = document.createElement('a');
+          link.className = 'page-link';
+          link.textContent = 'Page ' + p;
+          link.dataset.pageNum = p;
+          (function(pageNum) {
+            link.addEventListener('click', function() {
+              state.issueIndex = idx;
+              state.mode = 'page';
+              state.pageNum = pageNum;
+              loadSVG();
+            });
+          })(p);
+          pages.appendChild(link);
+        }
+
+        section.appendChild(header);
+        section.appendChild(pages);
+        list.appendChild(section);
+      });
+    }
+
+    function updateSidebar() {
+      var sections = document.querySelectorAll('.issue-section');
+      sections.forEach(function(section, idx) {
+        var header = section.querySelector('.issue-header');
+        var links = section.querySelectorAll('.page-link');
+
+        if (idx === state.issueIndex) {
+          section.classList.add('expanded');
+          header.classList.add('active');
+        } else {
+          section.classList.remove('expanded');
+          header.classList.remove('active');
+        }
+
+        // Update active link
+        links.forEach(function(link, linkIdx) {
+          if (linkIdx === 0) {
+            // Overview link
+            link.classList.toggle('active',
+              idx === state.issueIndex && state.mode === 'overview');
+          } else {
+            // Page link (linkIdx 1 = page 1, etc.)
+            link.classList.toggle('active',
+              idx === state.issueIndex && state.mode === 'page' && state.pageNum === linkIdx);
+          }
+        });
+      });
+    }
+
+    // ========================================
+    // SVG LOADING
+    // ========================================
+    function buildPath() {
+      var issue = ISSUES[state.issueIndex];
+      if (state.mode === 'overview') {
+        return issue.dir + '/overview.svg';
+      }
+      var padded = String(state.pageNum).padStart(2, '0');
+      return issue.dir + '/page' + padded + '.svg';
+    }
+
+    function loadSVG() {
+      // Reset zoom/pan
+      state.zoom = 1;
+      state.panX = 0;
+      state.panY = 0;
+      updateTransform();
+
+      var path = buildPath();
+      fetch(path)
+        .then(function(r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.text();
+        })
+        .then(function(svgContent) {
+          safeInjectSVG(svgContent, viewer);
+          requestAnimationFrame(function() { fitToView(); });
+        })
+        .catch(function() {
+          while (viewer.firstChild) viewer.removeChild(viewer.firstChild);
+          var p = document.createElement('p');
+          p.style.cssText = 'color: #f87171; padding: 40px; text-align: center;';
+          p.textContent = 'Failed to load: ' + path;
+          viewer.appendChild(p);
+        });
+
+      updateUI();
+      updateSidebar();
+      updateHash();
+    }
+
+    function updateUI() {
+      var issue = ISSUES[state.issueIndex];
+
+      if (state.mode === 'overview') {
+        titleEl.textContent = 'Issue ' + issue.num + ' \u2014 ' + issue.title;
+        counterEl.textContent = 'Overview \u00B7 Issue ' + issue.num + ' of ' + ISSUES.length;
+      } else {
+        titleEl.textContent = 'Issue ' + issue.num + ' \u2014 ' + issue.title;
+        counterEl.textContent = 'Page ' + state.pageNum + ' of ' + PAGES_PER_ISSUE;
+      }
+
+      // Mode toggle
+      modeOverviewBtn.classList.toggle('active', state.mode === 'overview');
+      modePageBtn.classList.toggle('active', state.mode === 'page');
+
+      // Nav buttons
+      var atStart = state.issueIndex === 0 && state.mode === 'overview';
+      var atEnd = state.issueIndex === ISSUES.length - 1 &&
+                  state.mode === 'page' && state.pageNum === PAGES_PER_ISSUE;
+      prevBtn.disabled = atStart;
+      nextBtn.disabled = atEnd;
+
+      // Zoom display
+      zoomDisplay.textContent = Math.round(state.zoom * 100) + '%';
+      zoomInBtn.disabled = state.zoom >= ZOOM_MAX;
+      zoomOutBtn.disabled = state.zoom <= ZOOM_MIN;
+    }
+
+    // ========================================
+    // NAVIGATION
+    // ========================================
+    function goNext() {
+      if (state.mode === 'overview') {
+        state.mode = 'page';
+        state.pageNum = 1;
+      } else if (state.pageNum < PAGES_PER_ISSUE) {
+        state.pageNum++;
+      } else if (state.issueIndex < ISSUES.length - 1) {
+        state.issueIndex++;
+        state.mode = 'overview';
+      } else {
+        return;
+      }
+      loadSVG();
+    }
+
+    function goPrev() {
+      if (state.mode === 'page' && state.pageNum > 1) {
+        state.pageNum--;
+      } else if (state.mode === 'page' && state.pageNum === 1) {
+        state.mode = 'overview';
+      } else if (state.mode === 'overview' && state.issueIndex > 0) {
+        state.issueIndex--;
+        state.mode = 'page';
+        state.pageNum = PAGES_PER_ISSUE;
+      } else {
+        return;
+      }
+      loadSVG();
+    }
+
+    function goToIssue(idx) {
+      if (idx < 0 || idx >= ISSUES.length) return;
+      state.issueIndex = idx;
+      state.mode = 'overview';
+      loadSVG();
+    }
+
+    function toggleMode() {
+      if (state.mode === 'overview') {
+        state.mode = 'page';
+        state.pageNum = 1;
+      } else {
+        state.mode = 'overview';
+      }
+      loadSVG();
+    }
+
+    // ========================================
+    // DEEP LINKING
+    // ========================================
+    function stateToHash() {
+      var issue = ISSUES[state.issueIndex];
+      var num = String(issue.num).padStart(2, '0');
+      if (state.mode === 'overview') {
+        return 'Issue' + num + '/overview';
+      }
+      return 'Issue' + num + '/page' + String(state.pageNum).padStart(2, '0');
+    }
+
+    function hashToState(hash) {
+      var match = hash.match(/^Issue(\d{2})\/(overview|page(\d{2}))$/);
+      if (!match) return null;
+      var issueNum = parseInt(match[1], 10);
+      var issueIndex = ISSUES.findIndex(function(i) { return i.num === issueNum; });
+      if (issueIndex < 0) return null;
+      if (match[2] === 'overview') {
+        return { issueIndex: issueIndex, mode: 'overview', pageNum: 1 };
+      }
+      var pageNum = parseInt(match[3], 10);
+      if (pageNum < 1 || pageNum > PAGES_PER_ISSUE) return null;
+      return { issueIndex: issueIndex, mode: 'page', pageNum: pageNum };
+    }
+
+    function updateHash() {
+      var hash = stateToHash();
+      history.replaceState(null, '', '#' + hash);
+    }
+
+    // ========================================
+    // ZOOM / PAN
+    // ========================================
+    function updateTransform() {
+      viewer.style.transform = 'translate(-50%, -50%) translate(' + state.panX + 'px, ' + state.panY + 'px) scale(' + state.zoom + ')';
+    }
+
+    function setZoom(level) {
+      state.zoom = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, level));
+      updateTransform();
+      zoomDisplay.textContent = Math.round(state.zoom * 100) + '%';
+      zoomInBtn.disabled = state.zoom >= ZOOM_MAX;
+      zoomOutBtn.disabled = state.zoom <= ZOOM_MIN;
+    }
+
+    function fitToView() {
+      var svg = viewer.querySelector('svg');
+      if (!svg) return;
+
+      var svgWidth, svgHeight;
+      var viewBox = svg.getAttribute('viewBox');
+      if (viewBox) {
+        var parts = viewBox.split(/\s+|,/).map(Number);
+        svgWidth = parts[2];
+        svgHeight = parts[3];
+      } else {
+        svgWidth = parseFloat(svg.getAttribute('width')) || 400;
+        svgHeight = parseFloat(svg.getAttribute('height')) || 600;
+      }
+
+      var containerRect = viewerContainer.getBoundingClientRect();
+      var padding = 20;
+      var availableWidth = containerRect.width - (padding * 2);
+      var availableHeight = containerRect.height - (padding * 2);
+
+      var scaleX = availableWidth / svgWidth;
+      var scaleY = availableHeight / svgHeight;
+      var optimalZoom = Math.min(scaleX, scaleY, ZOOM_MAX);
+
+      state.zoom = Math.max(ZOOM_MIN, optimalZoom);
+      state.panX = 0;
+      state.panY = 0;
+      updateTransform();
+      zoomDisplay.textContent = Math.round(state.zoom * 100) + '%';
+      zoomInBtn.disabled = state.zoom >= ZOOM_MAX;
+      zoomOutBtn.disabled = state.zoom <= ZOOM_MIN;
+    }
+
+    // Resize debounce
+    var resizeTimeout;
+    window.addEventListener('resize', function() {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(function() { fitToView(); }, 150);
+    });
+
+    // Zoom buttons
+    zoomInBtn.addEventListener('click', function() { setZoom(state.zoom + ZOOM_STEP); });
+    zoomOutBtn.addEventListener('click', function() { setZoom(state.zoom - ZOOM_STEP); });
+    zoomDisplay.addEventListener('click', function() { fitToView(); });
+
+    // Mouse wheel zoom centered on cursor
+    viewerContainer.addEventListener('wheel', function(e) {
+      e.preventDefault();
+
+      var rect = viewerContainer.getBoundingClientRect();
+      var containerCenterX = rect.width / 2;
+      var containerCenterY = rect.height / 2;
+      var mouseX = e.clientX - rect.left;
+      var mouseY = e.clientY - rect.top;
+
+      var offsetX = mouseX - containerCenterX;
+      var offsetY = mouseY - containerCenterY;
+
+      var delta = e.deltaY > 0 ? -ZOOM_STEP : ZOOM_STEP;
+      var oldZoom = state.zoom;
+      var newZoom = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, state.zoom + delta));
+
+      if (newZoom !== oldZoom) {
+        var scale = newZoom / oldZoom;
+        state.panX = offsetX - (offsetX - state.panX) * scale;
+        state.panY = offsetY - (offsetY - state.panY) * scale;
+        state.zoom = newZoom;
+        updateTransform();
+        zoomDisplay.textContent = Math.round(state.zoom * 100) + '%';
+        zoomInBtn.disabled = state.zoom >= ZOOM_MAX;
+        zoomOutBtn.disabled = state.zoom <= ZOOM_MIN;
+      }
+    }, { passive: false });
+
+    // Drag pan
+    var isDragging = false;
+    var lastX, lastY;
+
+    viewerContainer.addEventListener('mousedown', function(e) {
+      if (e.button !== 0) return;
+      isDragging = true;
+      viewerContainer.classList.add('dragging');
+      lastX = e.clientX;
+      lastY = e.clientY;
+    });
+
+    viewerContainer.addEventListener('mousemove', function(e) {
+      if (!isDragging) return;
+      e.preventDefault();
+      state.panX += e.clientX - lastX;
+      state.panY += e.clientY - lastY;
+      lastX = e.clientX;
+      lastY = e.clientY;
+      updateTransform();
+    });
+
+    viewerContainer.addEventListener('mouseup', function() {
+      isDragging = false;
+      viewerContainer.classList.remove('dragging');
+    });
+
+    viewerContainer.addEventListener('mouseleave', function() {
+      isDragging = false;
+      viewerContainer.classList.remove('dragging');
+    });
+
+    // ========================================
+    // BUTTON HANDLERS
+    // ========================================
+    prevBtn.addEventListener('click', goPrev);
+    nextBtn.addEventListener('click', goNext);
+
+    modeOverviewBtn.addEventListener('click', function() {
+      if (state.mode !== 'overview') {
+        state.mode = 'overview';
+        loadSVG();
+      }
+    });
+
+    modePageBtn.addEventListener('click', function() {
+      if (state.mode !== 'page') {
+        state.mode = 'page';
+        loadSVG();
+      }
+    });
+
+    // Focus mode
+    function toggleFocusMode() {
+      document.body.classList.toggle('focus-mode');
+      setTimeout(function() { fitToView(); }, 350);
+    }
+
+    // ========================================
+    // KEYBOARD
+    // ========================================
+    document.addEventListener('keydown', function(e) {
+      // Focus mode
+      if (e.key === 'f' || e.key === 'F') {
+        e.preventDefault();
+        toggleFocusMode();
+        return;
+      }
+      if (e.key === 'Escape') {
+        if (document.body.classList.contains('focus-mode')) {
+          toggleFocusMode();
+          return;
+        }
+      }
+
+      // Overview toggle
+      if (e.key === 'o' || e.key === 'O') {
+        e.preventDefault();
+        toggleMode();
+        return;
+      }
+
+      // Issue jump (1-9 for issues 1-9)
+      if (!e.shiftKey && !e.ctrlKey && !e.altKey && !e.metaKey) {
+        var num = parseInt(e.key, 10);
+        if (num >= 1 && num <= 9) {
+          goToIssue(num - 1);
+          return;
+        }
+      }
+
+      // Navigation
+      if (e.key === 'ArrowLeft') {
+        goPrev();
+      } else if (e.key === 'ArrowRight') {
+        goNext();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        setZoom(state.zoom + ZOOM_STEP);
+      } else if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        setZoom(state.zoom - ZOOM_STEP);
+      } else if (e.key === '+' || e.key === '=') {
+        setZoom(state.zoom + ZOOM_STEP);
+      } else if (e.key === '-' || e.key === '_') {
+        setZoom(state.zoom - ZOOM_STEP);
+      } else if (e.key === '0') {
+        fitToView();
+      } else if (e.key === 'Home') {
+        e.preventDefault();
+        state.pageNum = 1;
+        state.mode = 'page';
+        loadSVG();
+      } else if (e.key === 'End') {
+        e.preventDefault();
+        state.pageNum = PAGES_PER_ISSUE;
+        state.mode = 'page';
+        loadSVG();
+      }
+    });
+
+    // ========================================
+    // HASH CHANGE
+    // ========================================
+    window.addEventListener('hashchange', function() {
+      var hash = window.location.hash.slice(1);
+      var parsed = hashToState(hash);
+      if (parsed) {
+        state.issueIndex = parsed.issueIndex;
+        state.mode = parsed.mode;
+        state.pageNum = parsed.pageNum;
+        loadSVG();
+      }
+    });
+
+    // ========================================
+    // INIT
+    // ========================================
+    buildSidebar();
+
+    // Parse initial hash or default to Issue 1, Page 1
+    var initialHash = window.location.hash.slice(1);
+    var initialState = hashToState(initialHash);
+    if (initialState) {
+      state.issueIndex = initialState.issueIndex;
+      state.mode = initialState.mode;
+      state.pageNum = initialState.pageNum;
+    }
+
+    loadSVG();
+  </script>
+</body>
+</html>
