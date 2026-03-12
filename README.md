@@ -956,3 +956,119 @@ Tier 3 characters (Theodore's mother, grandmother, clockmaker's wife, harbor men
 
 - [creative-writing-skills plugin](https://github.com/haowjy/creative-writing-skills) — cw-brainstorming, cw-prose-writing, cw-story-critique, cw-official-docs, cw-style-skill-creator
 - See `CLAUDE.md` for full project context, character tables, visual language rules, and tech stack details
+
+---
+
+## Local Comic Page Generation (ComfyUI + Docker)
+
+Generate panel art locally, then composite speech bubbles and text in post. No local model reliably renders dialogue text inside images — separate the art from the lettering.
+
+### Hardware Requirements
+
+| Tier | GPU | Best Model | Notes |
+|------|-----|-----------|-------|
+| 12GB+ VRAM | RTX 3060 12GB, RTX 4070, etc. | **Flux Dev** | Best coherence, good text for SFX |
+| 8GB VRAM | RTX 3070 Ti, RTX 3070, RTX 4060 | **SDXL** or **Flux Schnell (NF4 quantized)** | SDXL has most mature ControlNet/IP-Adapter ecosystem |
+| 6GB VRAM | RTX 3060, RTX 2060 | **SDXL (--lowvram)** | Slower but functional |
+
+### Docker Setup
+
+```bash
+# ComfyUI with NVIDIA GPU passthrough
+docker run -d --gpus all \
+  -p 8188:8188 \
+  -v $(pwd)/comfyui-data:/data \
+  --name comfyui \
+  ghcr.io/ai-dock/comfyui:latest
+```
+
+Access at `http://localhost:8188`.
+
+### Recommended Models & Extensions
+
+**Base model (pick one):**
+- SDXL 1.0 base + refiner (8GB safe) — `models/checkpoints/`
+- Flux Schnell NF4 (8GB with quantization) — `models/unet/`
+- Flux Dev (12GB+) — `models/unet/`
+
+**Character consistency:**
+- **IP-Adapter Plus (SDXL)** — feed character turnarounds from `concept-art/[Character]/` as reference
+- **IP-Adapter FaceID** — lock facial features across pages
+
+**Layout control:**
+- **ControlNet Canny/Lineart (SDXL)** — feed SVG wireframes from `comic/wireframes/` as panel layout guides
+- Convert wireframe SVGs to PNG first: `rsvg-convert -w 1024 input.svg -o input.png`
+
+**Style LoRAs (search CivitAI):**
+- Oil painting / painterly texture
+- Comic book panel layout
+- Victorian / steampunk atmosphere
+
+### Automated Pipeline (OpenClaw + Remotion + ComfyUI)
+
+If you have OpenClaw with Remotion already set up (e.g. for Twitch video rendering), it can orchestrate the full comic page pipeline — no manual compositing needed.
+
+```
+ComfyUI (panel art)  ──→  Remotion (composite + letter)  ──→  PNG/PDF pages
+   per panel                  per page                         print-ready
+```
+
+**Step 1 — ComfyUI generates panel art only (no text):**
+- OpenClaw triggers ComfyUI API per panel with scene description + IP-Adapter character ref + ControlNet layout
+- Negative prompt always includes: `text, speech bubble, lettering, words, caption, watermark`
+
+**Step 2 — Remotion React components compose each page:**
+- Panel grid layout (widths, positions, gutters from wireframe data)
+- AI-generated panel art placed into each grid cell
+- Speech bubbles with dialogue text, speaker-colored tails
+- SFX text ("KRAAANG", "CHUNK") with stylized fonts
+- Page numbers, issue titles
+
+**Step 3 — Remotion renders to PNG per page** (or batch PDF for print).
+
+All dialogue, speaker assignments, panel layouts, and page structure already exist in `generate_wireframes.py` — that's the data source for the Remotion components. OpenClaw orchestrates the handoff between ComfyUI and Remotion.
+
+**GIMP** is still useful for manual touch-ups on individual panels after the automated pass.
+
+
+### Prompt Formula (matches GrimGlow visual language)
+
+```
+[scene description from script], painterly style, oil paint texture, visible brushwork,
+[warm amber gaslight OR cool blue-white holographic light OR dual lighting contrast],
+steampunk Victorian London, brass and copper mechanical details,
+[character] wearing [suit color] metallic nano-fiber suit with holographic [accent color] glow,
+four-inch-tall figure against massive environment, extreme scale contrast,
+cinematic composition, dramatic lighting, rich detail
+--no text, speech bubble, lettering, words, caption, watermark, signature
+```
+
+**Suit color reference for prompts:**
+| Character | Suit | Holographic Accent | Hair |
+|-----------|------|--------------------|------|
+| Sable | silver metallic | silver-white glow | dark brown skin, silver-white cropped hair |
+| Wren | copper metallic | warm copper glow | East Asian, messy black hair knot, oil stains |
+| Jink | emerald metallic | green-gold glow | androgynous, bright golden blonde curly hair |
+| Thresh | ruby/crimson metallic | deep red glow | broad build, copper-red buzz cut, heavy armor |
+| Luma | sapphire/violet metallic | blue-violet glow | South Asian, long braided hair, holographic lenses |
+| Theodore | brown wool waistcoat | — | Victorian boy 12-13, tinker's apprentice |
+
+### Degradation Arc
+
+Suit condition changes across the 12-issue run — adjust prompts per issue:
+- **Issues 1-2:** Pristine suits, full holographic glow, clean metallic surfaces
+- **Issues 3-5:** Light soot, minor scuffs, holographic elements still bright
+- **Issues 6-8:** Visible damage, grime accumulation, glow persists through dirt
+- **Issues 9-11:** Heavy wear, cracked panels, soot-caked, holograms flicker but never die
+- **Issue 12:** Maximum degradation — "holographic light still glowing through grime" is the core visual metaphor
+
+### File Locations
+
+| Asset | Path | Use |
+|-------|------|-----|
+| SVG wireframes (layout guides) | `comic/wireframes/issue-NN/` | ControlNet input after PNG conversion |
+| Character turnarounds | `concept-art/[Character]/` | IP-Adapter reference images |
+| Character art prompts | `characters/GrimGlow_Character_Prompts.md` | Base prompt descriptions |
+| Issue scripts | `comic/scripts/` | Scene descriptions, dialogue, panel directions |
+| Plot outline | `comic/GrimGlow_Volume1_Plot_Outline.md` | Per-issue breakdown, mood, key moments |
+| Draft pages (reference) | `concept-art/comic-pages/issue-01/` | ChatGPT-generated rough drafts for visual reference |
