@@ -1055,12 +1055,16 @@ cinematic composition, dramatic lighting, rich detail
 
 ### Degradation Arc
 
-Suit condition changes across the 12-issue run — adjust prompts per issue:
-- **Issues 1-2:** Pristine suits, full holographic glow, clean metallic surfaces
-- **Issues 3-5:** Light soot, minor scuffs, holographic elements still bright
-- **Issues 6-8:** Visible damage, grime accumulation, glow persists through dirt
-- **Issues 9-11:** Heavy wear, cracked panels, soot-caked, holograms flicker but never die
-- **Issue 12:** Maximum degradation — "holographic light still glowing through grime" is the core visual metaphor
+Suit condition changes across the 12-issue run. Four turnaround reference phases are available per character — use the matching phase as IP-Adapter input:
+
+| Phase | Issues | Turnaround Variant | Holographic Nodes | Reference |
+|-------|--------|-------------------|-------------------|-----------|
+| **Pristine** | 1 | `Clean Suit` | All 5 bright | `concept-art/{Char}/views/{Char}_front.png` |
+| **Light Wear** | 2–5 | `Light Wear` | All 5 bright | `concept-art/{Char}/views/{Char}_light-wear_front.png` |
+| **Mid-Mission** | 6–8 | `Mid-Mission` | All 5 dimmed but visible | `concept-art/{Char}/views/{Char}_mid-mission_front.png` |
+| **Heavy Wear** | 9–12 | `Heavy Wear` | Flickering (some dark) | `concept-art/{Char}/views/{Char}_heavy-wear_front.png` |
+
+Degradation is **one-directional** — suits are never cleaned or restored. Improvised steampunk repairs (copper wire patches, scavenged Victorian materials) appear in Heavy Wear phase. The core visual metaphor: "holographic light still glowing through grime — future consumed by the past, not extinguished."
 
 ### File Locations
 

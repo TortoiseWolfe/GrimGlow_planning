@@ -9,6 +9,8 @@ hand-on-hip poses).
 Usage:
   python3 split_turnarounds.py                    # Process all 6 characters (clean suits)
   python3 split_turnarounds.py --variant mid-mission  # Process mid-mission turnarounds
+  python3 split_turnarounds.py --variant light-wear   # Process light-wear turnarounds
+  python3 split_turnarounds.py --variant heavy-wear   # Process heavy-wear turnarounds
   python3 split_turnarounds.py Sable Wren         # Process specific characters
   python3 split_turnarounds.py --source 2026-03-08 # Use a different turnaround date
   python3 split_turnarounds.py --debug             # Show detected gap positions
