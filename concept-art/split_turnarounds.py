@@ -7,7 +7,8 @@ turnarounds where figures are not evenly spaced (e.g. broader armor, braids,
 hand-on-hip poses).
 
 Usage:
-  python3 split_turnarounds.py                    # Process all 6 characters
+  python3 split_turnarounds.py                    # Process all 6 characters (clean suits)
+  python3 split_turnarounds.py --variant mid-mission  # Process mid-mission turnarounds
   python3 split_turnarounds.py Sable Wren         # Process specific characters
   python3 split_turnarounds.py --source 2026-03-08 # Use a different turnaround date
   python3 split_turnarounds.py --debug             # Show detected gap positions
@@ -24,20 +25,41 @@ CHARACTERS = ["Sable", "Wren", "Jink", "Thresh", "Luma", "Theodore"]
 SCRIPT_DIR = Path(__file__).parent
 
 
-def find_turnaround(character: str, source_date: str | None = None) -> Path | None:
-    """Find the turnaround image for a character, preferring the given date."""
+def find_turnaround(character: str, source_date: str | None = None,
+                    variant: str | None = None) -> Path | None:
+    """Find the turnaround image for a character, preferring the given date.
+
+    variant: None for clean suit, "mid-mission" for MidMission, etc.
+    """
     char_dir = SCRIPT_DIR / character
     if not char_dir.is_dir():
         return None
 
+    # Build the variant tag for filenames (e.g. "_MidMission")
+    variant_tag = f"_{''.join(w.capitalize() for w in variant.split('-'))}" if variant else ""
+
     if source_date:
-        dated = char_dir / f"GrimGlow_Turnaround_{character}_{source_date}.png"
+        dated = char_dir / f"GrimGlow_Turnaround_{character}{variant_tag}_{source_date}.png"
         if dated.exists():
             return dated
 
-    # Fall back: try 2026-03-09, then undated
-    for suffix in ["_2026-03-09.png", ".png"]:
-        candidate = char_dir / f"GrimGlow_Turnaround_{character}{suffix}"
+    # Search for any file matching the variant pattern
+    import glob
+    pattern = str(char_dir / f"GrimGlow_Turnaround_{character}{variant_tag}_*.png")
+    matches = sorted(glob.glob(pattern), reverse=True)  # newest date first
+
+    if variant:
+        # For variants, any match is good
+        if matches:
+            return Path(matches[0])
+    else:
+        # For clean suits, exclude files with variant tags (e.g. _MidMission_)
+        clean_matches = [m for m in matches
+                         if f"_Turnaround_{character}_20" in m]
+        if clean_matches:
+            return Path(clean_matches[0])
+        # Fall back to undated
+        candidate = char_dir / f"GrimGlow_Turnaround_{character}.png"
         if candidate.exists():
             return candidate
 
@@ -94,9 +116,40 @@ def find_gaps(img: Image.Image, debug: bool = False) -> list[int]:
     if in_gap:
         gaps.append((gap_start, w - margin, w - margin - gap_start))
 
-    # Sort by gap width descending, take top 3
-    gaps.sort(key=lambda g: g[2], reverse=True)
-    top_gaps = gaps[:3]
+    # Select the best 3 gaps by scoring all valid combinations.
+    # A good set of 3 gaps divides the image into 4 roughly equal sections
+    # using the widest available gaps.
+    from itertools import combinations
+
+    min_spacing = int(w * 0.12)
+    best_combo = None
+    best_score = float("inf")
+
+    for combo in combinations(gaps, 3):
+        mids = sorted((g[0] + g[1]) // 2 for g in combo)
+
+        # Reject if any two gaps too close
+        if any(mids[i+1] - mids[i] < min_spacing for i in range(2)):
+            continue
+
+        # Score: variance of 4 section widths (lower = more even)
+        sections = [mids[0], mids[1] - mids[0], mids[2] - mids[1], w - mids[2]]
+        avg = w / 4
+        evenness = sum((s - avg) ** 2 for s in sections)
+
+        # Bonus for wider gaps (subtract total gap width scaled down)
+        total_width = sum(g[2] for g in combo)
+        score = evenness - total_width * 10
+
+        if score < best_score:
+            best_score = score
+            best_combo = combo
+
+    if best_combo:
+        top_gaps = list(best_combo)
+    else:
+        # Fallback: widest 3
+        top_gaps = gaps[:3]
 
     # Sort by position left to right
     top_gaps.sort(key=lambda g: g[0])
@@ -113,7 +166,7 @@ def find_gaps(img: Image.Image, debug: bool = False) -> list[int]:
 
 
 def split_turnaround(image_path: Path, character: str, output_dir: Path,
-                     debug: bool = False) -> list[Path]:
+                     debug: bool = False, variant: str | None = None) -> list[Path]:
     """Split a turnaround sheet into 4 individual view images."""
     img = Image.open(image_path)
     w, h = img.size
@@ -131,12 +184,15 @@ def split_turnaround(image_path: Path, character: str, output_dir: Path,
     output_dir.mkdir(parents=True, exist_ok=True)
     outputs = []
 
+    # Prefix for variant views: e.g. "Sable_mid-mission_front.png"
+    prefix = f"{character}_{variant}_" if variant else f"{character}_"
+
     for i, view in enumerate(VIEWS):
         left = boundaries[i]
         right = boundaries[i + 1]
         cropped = img.crop((left, 0, right, h))
 
-        out_path = output_dir / f"{character}_{view}.png"
+        out_path = output_dir / f"{prefix}{view}.png"
         cropped.save(out_path, "PNG")
         outputs.append(out_path)
 
@@ -145,6 +201,7 @@ def split_turnaround(image_path: Path, character: str, output_dir: Path,
 
 def main():
     source_date = None
+    variant = None
     characters = []
     debug = False
 
@@ -153,6 +210,9 @@ def main():
     while i < len(args):
         if args[i] == "--source" and i + 1 < len(args):
             source_date = args[i + 1]
+            i += 2
+        elif args[i] == "--variant" and i + 1 < len(args):
+            variant = args[i + 1]
             i += 2
         elif args[i] == "--debug":
             debug = True
@@ -165,13 +225,14 @@ def main():
         characters = CHARACTERS
 
     for character in characters:
-        turnaround = find_turnaround(character, source_date)
+        turnaround = find_turnaround(character, source_date, variant=variant)
         if turnaround is None:
             print(f"  SKIP  {character} — no turnaround found")
             continue
 
         output_dir = SCRIPT_DIR / character / "views"
-        outputs = split_turnaround(turnaround, character, output_dir, debug=debug)
+        outputs = split_turnaround(turnaround, character, output_dir,
+                                   debug=debug, variant=variant)
 
         print(f"  SPLIT {character} ({turnaround.name})")
         for out in outputs:

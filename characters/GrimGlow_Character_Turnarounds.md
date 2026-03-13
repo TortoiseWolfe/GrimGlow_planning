@@ -14,11 +14,11 @@ Model reference sheets for 3D generation (Meshy.ai). Neutral background, even li
 | 4 | Thresh | Clean Suit | ✅ Done | `concept-art/Thresh/GrimGlow_Turnaround_Thresh_2026-03-09.png` |
 | 5 | Luma | Clean Suit | ✅ Done | `concept-art/Luma/GrimGlow_Turnaround_Luma_2026-03-09.png` |
 | 6 | Theodore | Standard | ✅ Done | `concept-art/Theodore/GrimGlow_Turnaround_Theodore.png` |
-| 7 | Sable | Mid-Mission | ☐ | |
-| 8 | Wren | Mid-Mission | ☐ | |
-| 9 | Jink | Mid-Mission | ☐ | |
-| 10 | Thresh | Mid-Mission | ☐ | |
-| 11 | Luma | Mid-Mission | ☐ | |
+| 7 | Sable | Mid-Mission | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_MidMission_2026-03-13.png` |
+| 8 | Wren | Mid-Mission | ✅ Done | `concept-art/Wren/GrimGlow_Turnaround_Wren_MidMission_2026-03-13.png` |
+| 9 | Jink | Mid-Mission | ✅ Done | `concept-art/Jink/GrimGlow_Turnaround_Jink_MidMission_2026-03-13.png` |
+| 10 | Thresh | Mid-Mission | ✅ Done | `concept-art/Thresh/GrimGlow_Turnaround_Thresh_MidMission_2026-03-13.png` |
+| 11 | Luma | Mid-Mission | ✅ Done | `concept-art/Luma/GrimGlow_Turnaround_Luma_MidMission_2026-03-13.png` |
 | 12 | Wing-Pack | Detail Sheet | ☐ | |
 | 13 | Cribbage | Normal | ☐ | |
 | 14 | Cribbage | Brain-Plugged | ☐ | |
@@ -34,7 +34,7 @@ Model reference sheets for 3D generation (Meshy.ai). Neutral background, even li
 | 24 | Walter Gedge | Normal | ☐ | |
 | 25 | Walter Gedge | Brain-Plugged | ☐ | |
 
-**Done: 6/25 — Remaining: 19 (4 days at 5/day)**
+**Done: 11/25 — Remaining: 14 (3 days at 5/day)**
 
 ### Generation Notes — READ BEFORE GENERATING
 
@@ -67,7 +67,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 > **Detail check:** ☐ 10+ blue-white holographic nodes visible ☐ Panel lines across all suit surfaces ☐ Distinct armor plates at shoulders/chest/forearms ☐ Wing-pack with glowing seams ☐ Sidearm holstered ☐ Brushed metallic texture, not smooth chrome ☐ Temple emitter glowing
 
-### ☐ Mid-Mission
+### ✅ Mid-Mission
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a relaxed military at-ease pose. Same character as clean version — woman, late thirties, sharp features, dark brown skin, close-cropped silver-white hair. Her command silver suit is now scuffed and streaked with soot along the arms and knees. Scratches across the right shoulder and left forearm expose a slightly darker underlayer. The suit still catches light on undamaged surfaces. A faint holographic heads-up display glows in pale blue geometric shapes near her left eye — small floating glyphs like luminous runes, semi-transparent. The wing-pack module between her shoulder blades is lightly scratched but intact, seams still glowing faintly. Sidearm at hip shows minor wear. The key visual: command silver consumed by grime but holographic light still bleeding through at joints, collar, wing-pack seams, and temple emitter. Future beauty degraded but not extinguished. Consistent proportions and damage placement across all four views.
@@ -85,7 +85,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 > **Detail check:** ☐ 8+ copper-gold holographic nodes visible ☐ Silver-metallic base with copper shimmer (not solid copper) ☐ Panel lines across all surfaces ☐ Forearm tool slots visible ☐ Chest projector lens glowing ☐ Tool belt with visible instruments ☐ Wing-pack antennae ☐ Brushed metallic texture
 
-### ☐ Mid-Mission
+### ✅ Mid-Mission
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright, arms slightly away from body. Same character as clean version — woman, early thirties, East Asian features, wiry build, dark hair in messy knot now looser with more strands escaped. Her copper suit is the most visibly worn of the squad. Oil stains darken both forearms from wrist to elbow. Soot and copper-colored dust coat her knees and shins. A scorch mark runs along her left shoulder — dark charring that has partially melted the suit surface. A small tear at her right hip has been patched with a strip of copper wire wound tightly around the suit material — steampunk repair on future tech. Despite the damage, warm copper-gold holographic light pulses faintly beneath the grime at her joints, collar seams, and the chest-mounted projector lens. Tool pouches are partially open, some tools missing, one replaced with a Victorian-era brass caliper jury-rigged into the magnetic mount. Wing-pack has one sensor antenna bent. The visual story: an engineer who has been working hard in hostile conditions, improvising with local materials. Consistent damage placement across all four views.
@@ -103,7 +103,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 > **Detail check:** ☐ 8+ emerald holographic nodes visible (brighter than other characters) ☐ Panel lines across all surfaces ☐ Flex panels at joints as distinct structural segments ☐ Wing-pack larger than others with bright emerald glow ☐ Satchel and signaling device visible ☐ Silver-metallic base with emerald shimmer ☐ Brushed metallic texture
 
-### ☐ Mid-Mission
+### ✅ Mid-Mission
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in the same loose casual stance. Same character as clean version — late teens/early twenties, lean androgynous build, light brown skin, wild bright golden blonde curly hair now flecked with soot and a bit more disheveled. Their emerald suit is soot-streaked across the chest and back — evidence of flying through chimney smoke. A visible tear along the right forearm has been patched with tightly wound copper wire, a rough field repair. The left knee panel is scraped and dull. Emerald holographic elements glow brightly through the grime, especially along the spine and wing-pack mount points — the flight systems run hot and burn through the soot layer. Wing-pack seams pulse with visible emerald light, brighter than any other squad member's degraded suit. The small satchel at the hip is stuffed and bulging — Jink collects things. A thin leather cord (scavenged, Victorian-era) is tied around one wrist as a bracelet — a souvenir. The visual story: a character who moves fast, gets dirty, and treats the damage as trophies. Consistent damage placement across all four views.
@@ -121,7 +121,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 > **Detail check:** ☐ 10+ crimson holographic nodes visible ☐ Clearly female face and build ☐ Heavy armor plates at shoulders/chest/forearms with visible thickness ☐ Angular pauldrons projecting outward ☐ Rifle on back + sidearm at thigh ☐ Panel lines and geometric patterns across all surfaces ☐ Matte armor plates vs. reflective base layer contrast ☐ Brushed metallic texture
 
-### ☐ Mid-Mission
+### ✅ Mid-Mission
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing at attention but with slightly less rigid posture — shoulders fractionally hunched, weight subtly shifted. Same character as clean version — a woman, broad-shouldered, muscular with strong athletic female build, pale skin, defined cheekbones, firm jaw, copper-red buzz cut. Their armored crimson suit is scuffed and dented. A long diagonal scratch runs across the chest plate from right shoulder to left hip — deep enough to show the darker underlayer. The left pauldron has a visible dent. Soot and grime darken the suit unevenly, heavier on the lower legs and arms. The crimson holographic edge-lighting on the armor plates pulses unevenly — some panels glow steady, others flicker, one on the right forearm is dark entirely, suggesting damage to the emitter beneath. Wing-pack casing has a crack along one edge, sealed with what appears to be a smear of dark adhesive. The rifle on the back has a chip in the stock. The overall impression is armor that has absorbed hits. The visual story: a soldier whose equipment shows the cost of protecting the squad. Consistent damage placement across all four views.
@@ -139,7 +139,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 > **Detail check:** ☐ 8+ blue-violet holographic nodes visible ☐ Holographic lenses hovering at eyes (gold-toned) ☐ Luminous filament in braid (blue-violet) ☐ Panel lines across all surfaces ☐ Medical scanner module on left forearm glowing ☐ Utility belt with visible instruments ☐ Wing-pack with sensor filaments ☐ Brushed metallic texture
 
-### ☐ Mid-Mission
+### ✅ Mid-Mission
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in the same relaxed natural pose. Same character as clean version — woman, late twenties, South Asian features, warm brown skin, large dark eyes, long braided dark hair with luminous filament still glowing. Holographic lenses still hovering in front of her eyes, still active. Her sapphire-violet suit is the least damaged of the squad — she hangs back from the front lines — but it is not clean. Dust coats her lightly overall. Ink stains mark her right hand and right forearm where she has been examining Victorian documents. A smudge of pollen or botanical residue on her left knee from kneeling to examine specimens. One sample pouch on her belt is open, a small pressed flower visible inside — she has been collecting. The luminous filament in her braid still pulses but slightly dimmer than clean state. Holographic lenses show a faint patina of atmospheric grime but remain functional. The medical scanner on her left forearm has a small crack in its projector housing but still glows blue-violet. The visual story: a scientist who has been exploring, not fighting. Her damage is curiosity, not combat. Consistent detail across all four views.
