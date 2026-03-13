@@ -106,7 +106,7 @@ def parse_script(filepath: Path) -> list[dict]:
         page_num: int
         panel_count: int
         layout: str
-        panels: list of {num, width_hint, shot, shot_abbr, dialogue, action}
+        panels: list of {num, width_hint, shot, shot_abbr, dialogue, action, art_prompt}
     """
     text = filepath.read_text(encoding="utf-8")
     lines = text.split("\n")
@@ -115,10 +115,27 @@ def parse_script(filepath: Path) -> list[dict]:
     current_page = None
     current_panel = None
     in_dialogue = False
+    in_art_prompt = False
+    art_prompt_lines = []
     i = 0
 
     while i < len(lines):
         line = lines[i]
+
+        # Capture art prompt lines (between ```text and ```)
+        if in_art_prompt:
+            stripped_fence = line.strip()
+            if stripped_fence == "```":
+                # Closing fence — store the captured art prompt
+                if current_panel is not None:
+                    current_panel["art_prompt"] = "\n".join(art_prompt_lines).strip()
+                in_art_prompt = False
+                art_prompt_lines = []
+                current_panel = None
+            else:
+                art_prompt_lines.append(line.rstrip())
+            i += 1
+            continue
 
         # Detect page header
         page_match = re.match(r"^### PAGE (\d+)", line)
@@ -167,6 +184,7 @@ def parse_script(filepath: Path) -> list[dict]:
                 "shot_abbr": "",
                 "dialogue": [],   # list of {speaker, text, type}
                 "action": "",
+                "art_prompt": "",
             }
             current_page["panels"].append(current_panel)
             in_dialogue = False
@@ -195,12 +213,22 @@ def parse_script(filepath: Path) -> list[dict]:
                 i += 1
                 continue
 
-            # End dialogue on next bold field, code fence, or horizontal rule
+            # End dialogue on next bold field or horizontal rule
             if stripped.startswith("**") and stripped.endswith("**"):
                 in_dialogue = False
-            if stripped.startswith("```") or stripped == "---":
+            if stripped.startswith("```text") or stripped.startswith("```\n") or stripped == "```":
                 in_dialogue = False
-                current_panel = None  # done with this panel's parseable fields
+                if stripped.startswith("```text"):
+                    # Opening art prompt fence — start capturing
+                    in_art_prompt = True
+                    art_prompt_lines = []
+                    i += 1
+                    continue
+                else:
+                    current_panel = None
+            if stripped == "---":
+                in_dialogue = False
+                current_panel = None
 
             # Parse dialogue lines
             if in_dialogue and stripped.startswith("- "):

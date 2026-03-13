@@ -1,0 +1,58 @@
+services:
+  comfyui:
+    image: yanwk/comfyui-boot:cu126-slim
+    container_name: grimglow-comfyui
+    init: true
+    ports:
+      - "127.0.0.1:8188:8188"
+    volumes:
+      # Main ComfyUI data (models, output, custom_nodes all live under /root/ComfyUI/)
+      - ./comfyui-data:/root
+      # Read-only access to GrimGlow assets for IP-Adapter and ControlNet
+      - ./concept-art:/mnt/character-refs:ro
+      - ./comic/wireframes:/mnt/wireframes:ro
+    environment:
+      - CLI_ARGS=--listen 0.0.0.0 --preview-method auto
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: "no"
+
+  # LoRA training via sd-scripts (GPU swap required — stop comfyui first)
+  kohya-trainer:
+    image: kohya-train:local
+    container_name: grimglow-kohya
+    init: true
+    volumes:
+      - ./training-data:/dataset
+      - ./comfyui-data/ComfyUI/models/loras:/output
+      - ./comfyui-data/ComfyUI/models/checkpoints:/checkpoints:ro
+      - ./toolkit:/toolkit:ro
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: "no"
+    profiles:
+      - training
+
+  # Wireframe viewer (existing, moved from comic/wireframes/)
+  wireframe-viewer:
+    image: node:22-bookworm-slim
+    init: true
+    ports:
+      - "127.0.0.1:3001:3001"
+    volumes:
+      - ./comic/wireframes:/app:ro
+    working_dir: /app
+    command: npx live-server --port=3001 --host=0.0.0.0
+    restart: "no"
+    profiles:
+      - viewer
