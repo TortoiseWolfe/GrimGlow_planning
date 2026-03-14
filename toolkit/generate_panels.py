@@ -78,7 +78,14 @@ FLUX_CLIP_L = "clip_l.safetensors"
 FLUX_T5XXL = "t5xxl_fp8_e4m3fn.safetensors"
 FLUX_VAE = "ae.safetensors"
 
-# Trigger words per character — prepended to prompts for text conditioning
+# Character LoRA — single multi-character model trained on all 6 characters.
+# Loaded conditionally at runtime (skipped if file not found in ComfyUI).
+LORA_MODEL = "grimglow_characters.safetensors"
+LORA_STRENGTH = 0.75
+LORA_AVAILABLE = False  # set at startup by check_lora()
+
+# Trigger words per character — prepended to prompts for text conditioning.
+# These activate the LoRA's per-character learning when the LoRA is loaded.
 CHARACTER_TRIGGERS = {
     "SABLE":    "grimglow_sable",
     "WREN":     "grimglow_wren",
@@ -87,6 +94,13 @@ CHARACTER_TRIGGERS = {
     "LUMA":     "grimglow_luma",
     "THEODORE": "grimglow_theodore",
 }
+
+# Negative prompt — reduces hallucinated extra figures and duplicates.
+# Flux-dev doesn't lean on negatives as hard as SDXL, but it still helps.
+NEGATIVE_PROMPT = (
+    "extra people, crowd, bystanders, duplicate figures, "
+    "multiple copies of same character"
+)
 
 # ---------------------------------------------------------------------------
 # Shot type → panel dimensions
@@ -98,11 +112,165 @@ LANDSCAPE_SHOTS = {"EST", "XWIDE", "WIDE"}
 # detail for IP-Adapter to help — it just pulls the reference figure into frame.
 SKIP_IPADAPTER_SHOTS = {"EST", "XWIDE"}
 
-def get_panel_dimensions(shot_abbr: str) -> tuple[int, int]:
-    """Return (width, height) for a panel based on shot type."""
+def get_panel_dimensions(shot_abbr: str, width_hint: str = "") -> tuple[int, int]:
+    """Return (width, height) for a panel based on layout width hint and shot type.
+
+    Matches panel generation size to the actual comic layout slot.
+    All dimensions are Flux-friendly multiples of 64.
+    """
+    hint = width_hint.lower()
+
+    # --- Full-page splash ---
+    if "full-page splash" in hint or "splash" in hint and "half" not in hint:
+        return 1024, 1536  # tall full-page
+
+    # --- Narrow strips (full width but very short) ---
+    if "narrow strip" in hint:
+        return 1536, 512  # wide cinematic strip
+
+    # --- Widescreen / letterbox ---
+    if "widescreen" in hint or "letterbox" in hint:
+        return 1536, 640  # ultra-wide
+
+    # --- Full width (standard height) ---
+    if "full width" in hint:
+        if "top half" in hint or "half-page" in hint:
+            return 1536, 768  # full width, tall
+        if "top quarter" in hint:
+            return 1536, 512  # full width, short
+        return 1536, 832  # full width, standard
+
+    # --- Two-thirds / Wide ---
+    if "two-thirds" in hint or "wide," in hint:
+        if shot_abbr in LANDSCAPE_SHOTS:
+            return 1024, 768
+        return 1024, 1216  # tall two-thirds
+
+    # --- Half width ---
+    if "half width" in hint or "half," in hint:
+        if shot_abbr in LANDSCAPE_SHOTS:
+            return 832, 640
+        return 768, 1024  # standard half
+
+    # --- One-third / Narrow ---
+    if "one-third" in hint or "narrow" in hint:
+        if shot_abbr in LANDSCAPE_SHOTS:
+            return 640, 512
+        return 512, 1024  # tall narrow
+
+    # --- Quarter width ---
+    if "quarter" in hint:
+        return 384, 1024  # very narrow vertical strip
+
+    # --- Fallback: use shot type ---
     if shot_abbr in LANDSCAPE_SHOTS:
         return 1216, 832  # landscape
-    return 832, 1216      # portrait (default)
+    return 832, 1216  # portrait (default)
+
+
+# ---------------------------------------------------------------------------
+# Prompt preparation — inject consistency guardrails
+# ---------------------------------------------------------------------------
+
+# --- Scale detection keywords ---
+# Direct fairy-scale mentions
+SCALE_KEYWORDS = [
+    "fairy scale", "fairy-scale", "four inch", "four-inch",
+    "gutter", "rain gutter", "rooftop", "chimney", "slate",
+    "tiles", "tile", "ledge", "lead flashing",
+]
+
+# Victorian environment terms — when a squad character is in this environment,
+# they must be fairy-scale (4 inches tall). Theodore and human witnesses are not.
+VICTORIAN_ENV_KEYWORDS = [
+    "cobblestone", "gaslight", "gas lamp", "church spire",
+    "victorian street", "london street", "chimney pot",
+    "terraced house", "alley", "workshop", "wreckage",
+]
+FAIRY_SCALE_CHARACTERS = {"SABLE", "WREN", "JINK", "THRESH", "LUMA"}
+
+# --- Canonical ship descriptions ---
+# Injected into ship-visible panels so Flux generates a consistent design.
+
+# Exterior: the ship as seen from outside
+SHIP_DESCRIPTION = (
+    "The vessel is a compact angular dark-hulled military recon ship "
+    "shaped like a predatory fish, blue-white light bleeding from hull seams "
+    "and viewports, conduit lines tracing the underbelly, narrow and functional."
+)
+SHIP_KEYWORDS = ["vessel", "spacecraft", "recon ship"]
+
+# Interior: the bridge/cockpit as seen from inside
+BRIDGE_DESCRIPTION = (
+    "The bridge interior resembles a submarine cockpit: compact, functional, "
+    "every surface purposeful. Narrow rectangular viewports (NOT round, NOT circular) "
+    "show the exterior. Holographic displays float at workstations in geometric "
+    "blue-white light. Overhead panels provide clinical white lighting. "
+    "The space is small and cramped, crew members close together."
+)
+# These are multi-word phrases to avoid false positives on wreckage descriptions
+# like "shattered console half-buried in debris" which mention "console" but
+# aren't bridge-interior scenes.
+BRIDGE_KEYWORDS = [
+    "bridge archway", "command station", "command console",
+    "engineering console", "workstation", "cockpit",
+    "jump seat",
+]
+
+
+def prepare_prompt(
+    art_prompt: str,
+    speakers: list[str],
+    shot_abbr: str,
+) -> str:
+    """Inject figure-count, scale, and ship-design guardrails into art prompts.
+
+    Called before build_workflow() to reduce ghost characters, scale drift,
+    and ship design inconsistency.
+    """
+    parts = [art_prompt]
+    prompt_lower = art_prompt.lower()
+
+    # --- Figure count enforcement (skip wide/establishing shots) ---
+    if shot_abbr not in SKIP_IPADAPTER_SHOTS:
+        n = len(speakers)
+        if n == 1:
+            parts.append("single figure only, no other people in frame")
+        elif n >= 2:
+            parts.append(
+                f"exactly {n} figures visible, no bystanders, "
+                "no background people"
+            )
+
+    # --- Scale reinforcement for fairy-scale scenes ---
+    needs_scale = False
+
+    # Check 1: direct fairy-scale environment keywords
+    if any(kw in prompt_lower for kw in SCALE_KEYWORDS):
+        needs_scale = True
+
+    # Check 2: squad character in Victorian environment
+    if not needs_scale and speakers:
+        has_fairy_char = any(s in FAIRY_SCALE_CHARACTERS for s in speakers)
+        has_victorian_env = any(kw in prompt_lower for kw in VICTORIAN_ENV_KEYWORDS)
+        if has_fairy_char and has_victorian_env:
+            needs_scale = True
+
+    if needs_scale and "four-inch-tall" not in prompt_lower:
+        parts.append(
+            "four-inch-tall miniature figure, fairy scale, "
+            "tiny against the enormous Victorian environment"
+        )
+
+    # --- Ship design consistency ---
+    if any(kw in prompt_lower for kw in SHIP_KEYWORDS):
+        parts.append(SHIP_DESCRIPTION)
+
+    # --- Bridge interior consistency ---
+    if any(kw in prompt_lower for kw in BRIDGE_KEYWORDS):
+        parts.append(BRIDGE_DESCRIPTION)
+
+    return " ".join(parts)
 
 
 # ---------------------------------------------------------------------------
@@ -122,6 +290,8 @@ def build_workflow(
 
     Returns the full prompt dict ready for /prompt endpoint.
     Flux uses T5-XXL for long text understanding — no 77-token limit.
+    When a character LoRA is available and a trigger word is active,
+    a LoraLoader node is inserted to activate per-character conditioning.
     """
     positive_text = f"{character_trigger}, {art_prompt}" if character_trigger else art_prompt
 
@@ -132,6 +302,25 @@ def build_workflow(
         "class_type": "UnetLoaderGGUF",
         "inputs": {"unet_name": FLUX_UNET},
     }
+
+    # Node 10: LoraLoader (conditional — only when LoRA available + character active)
+    use_lora = LORA_AVAILABLE and character_trigger is not None
+    if use_lora:
+        workflow["10"] = {
+            "class_type": "LoraLoader",
+            "inputs": {
+                "lora_name": LORA_MODEL,
+                "strength_model": LORA_STRENGTH,
+                "strength_clip": LORA_STRENGTH,
+                "model": ["1", 0],
+                "clip": ["2", 0],
+            },
+        }
+
+    # The model source for KSampler: LoRA output if loaded, else raw UNet
+    model_source = ["10", 0] if use_lora else ["1", 0]
+    # The CLIP source for text encoding: LoRA output if loaded, else raw CLIP
+    clip_source = ["10", 1] if use_lora else ["2", 0]
 
     # Node 2: DualCLIPLoader (CLIP-L + T5-XXL for Flux)
     workflow["2"] = {
@@ -148,7 +337,7 @@ def build_workflow(
         "class_type": "CLIPTextEncode",
         "inputs": {
             "text": positive_text,
-            "clip": ["2", 0],
+            "clip": clip_source,
         },
     }
 
@@ -156,8 +345,8 @@ def build_workflow(
     workflow["4"] = {
         "class_type": "CLIPTextEncode",
         "inputs": {
-            "text": "",
-            "clip": ["2", 0],
+            "text": NEGATIVE_PROMPT,
+            "clip": clip_source,
         },
     }
 
@@ -181,7 +370,7 @@ def build_workflow(
             "sampler_name": "euler",
             "scheduler": "simple",
             "denoise": 1.0,
-            "model": ["1", 0],
+            "model": model_source,
             "positive": ["3", 0],
             "negative": ["4", 0],
             "latent_image": ["5", 0],
@@ -273,6 +462,35 @@ def check_comfyui() -> bool:
         return False
 
 
+def check_lora() -> bool:
+    """Check if the character LoRA model is available in ComfyUI.
+
+    Queries the ComfyUI object_info endpoint for LoraLoader and checks
+    if our model appears in the available lora list. Falls back gracefully.
+    """
+    global LORA_AVAILABLE
+    try:
+        req = urllib.request.Request(f"{COMFYUI_URL}/object_info/LoraLoader")
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            info = json.loads(resp.read())
+        lora_list = (
+            info.get("LoraLoader", {})
+            .get("input", {})
+            .get("required", {})
+            .get("lora_name", [[]])[0]
+        )
+        if LORA_MODEL in lora_list:
+            LORA_AVAILABLE = True
+            print(f"LoRA: {LORA_MODEL} found")
+            return True
+        else:
+            print(f"LoRA: {LORA_MODEL} not found — generating without LoRA")
+            return False
+    except (urllib.error.URLError, OSError, KeyError, IndexError):
+        print(f"LoRA: could not query ComfyUI — generating without LoRA")
+        return False
+
+
 # ---------------------------------------------------------------------------
 # Script finder
 # ---------------------------------------------------------------------------
@@ -349,8 +567,9 @@ def generate_panels(
                 char_ref = None
                 speakers = []  # also prevents trigger word + LoRA loading
 
-            # Panel dimensions
-            width, height = get_panel_dimensions(panel["shot_abbr"])
+            # Panel dimensions — use layout width hint for proper sizing
+            width_hint = panel.get("width_hint", "")
+            width, height = get_panel_dimensions(panel["shot_abbr"], width_hint)
 
             # Deterministic seed
             seed = issue_num * 10000 + pnum * 100 + panel_num
@@ -363,7 +582,7 @@ def generate_panels(
 
             print(
                 f"  Page {pnum:2d} Panel {panel_num}: "
-                f"{panel['shot_abbr']:5s} {orientation:9s} "
+                f"{panel['shot_abbr']:5s} {width:4d}x{height:<4d} "
                 f"char={char_name:8s} seed={seed}"
             )
 
@@ -373,6 +592,9 @@ def generate_panels(
 
             # Character trigger word for LoRA activation
             char_trigger = CHARACTER_TRIGGERS.get(speakers[0]) if speakers else None
+
+            # Inject figure-count and scale guardrails
+            art_prompt = prepare_prompt(art_prompt, speakers, panel["shot_abbr"])
 
             # Build and submit workflow
             workflow = build_workflow(
@@ -425,6 +647,7 @@ def main():
             print("  Start it with: bash toolkit/gpu-swap.sh comfyui")
             sys.exit(1)
         print(f"ComfyUI: {COMFYUI_URL} ✓")
+        check_lora()
 
     generate_panels(
         issue_num=args.issue,

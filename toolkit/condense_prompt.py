@@ -29,27 +29,27 @@ SCRIPT_DIR = REPO_ROOT / "comic" / "scripts"
 
 CHARACTER_TAGS = {
     "SABLE": {
-        "identity": "woman, late 30s, (dark brown skin:1.3), silver-white cropped hair",
+        "identity": "woman, late 30s, dark brown skin, very short military-cropped silver-white hair",
         "suit": "silver metallic suit, blue-white holographic nodes",
     },
     "WREN": {
-        "identity": "woman, early 30s, East Asian, dark hair messy knot, wiry build",
+        "identity": "woman, early 30s, East Asian, dark hair in high messy bun, wiry build",
         "suit": "copper metallic suit, copper-gold holographic nodes",
     },
     "JINK": {
-        "identity": "young androgynous person, golden blonde curly hair, lean build",
+        "identity": "young adult late teens, androgynous, golden blonde curly hair, lean build",
         "suit": "emerald metallic suit, emerald holographic nodes",
     },
     "THRESH": {
-        "identity": "woman, broad muscular build, pale skin, copper-red buzz cut",
+        "identity": "muscular woman, powerful athletic build, pale skin, copper-red buzz cut",
         "suit": "ruby-crimson metallic suit, heavy armor plating, crimson nodes",
     },
     "LUMA": {
-        "identity": "woman, late 20s, South Asian, warm brown skin, braided dark hair",
+        "identity": "woman, late 20s, South Asian, warm brown skin, long dark hair in thick braid",
         "suit": "sapphire-violet metallic suit, holographic lenses",
     },
     "THEODORE": {
-        "identity": "boy, 12-13, slight, sandy-brown hair, hazel eyes",
+        "identity": "lanky pre-teen boy 12-13, sandy-brown hair, hazel eyes",
         "suit": "collarless shirt, leather waistcoat, patched trousers",
     },
 }

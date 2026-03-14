@@ -24,42 +24,42 @@ OUTPUT_DIR = REPO_ROOT / "training-data"
 CHARACTERS = {
     "sable": {
         "trigger": "grimglow_sable",
-        "identity": "woman, late 30s, dark brown skin, silver-white cropped hair",
+        "identity": "woman, late 30s, dark brown skin, very short military-cropped silver-white hair",
         "outfit": "silver metallic suit, blue-white holographic nodes",
         "turnaround": "Sable/GrimGlow_Turnaround_Sable_2026-03-09.png",
         "concept": "Sable/GrimGlow_Concept_Sable.png",
     },
     "wren": {
         "trigger": "grimglow_wren",
-        "identity": "woman, early 30s, East Asian, dark hair messy knot, wiry build",
+        "identity": "woman, early 30s, East Asian, dark hair in high messy bun, wiry build",
         "outfit": "copper metallic suit, copper-gold holographic nodes",
         "turnaround": "Wren/GrimGlow_Turnaround_Wren_2026-03-09.png",
         "concept": "Wren/GrimGlow_Concept_Wren.png",
     },
     "jink": {
         "trigger": "grimglow_jink",
-        "identity": "young androgynous person, golden blonde curly hair, lean build",
+        "identity": "young adult androgynous person, golden blonde curly hair, lean build",
         "outfit": "emerald metallic suit, emerald holographic nodes",
         "turnaround": "Jink/GrimGlow_Turnaround_Jink_2026-03-09.png",
         "concept": "Jink/GrimGlow_Concept_Jink.png",
     },
     "thresh": {
         "trigger": "grimglow_thresh",
-        "identity": "woman, broad muscular build, pale skin, copper-red buzz cut",
+        "identity": "muscular woman, powerful athletic build, pale skin, copper-red buzz cut",
         "outfit": "ruby-crimson metallic suit, heavy armor plating, crimson nodes",
         "turnaround": "Thresh/GrimGlow_Turnaround_Thresh_2026-03-09.png",
         "concept": "Thresh/GrimGlow_Concept_Thresh.png",
     },
     "luma": {
         "trigger": "grimglow_luma",
-        "identity": "woman, late 20s, South Asian, warm brown skin, braided dark hair",
+        "identity": "woman, late 20s, South Asian, warm brown skin, long dark hair in thick braid",
         "outfit": "sapphire-violet metallic suit, holographic lenses",
         "turnaround": "Luma/GrimGlow_Turnaround_Luma_2026-03-09.png",
         "concept": "Luma/GrimGlow_Concept_Luma.png",
     },
     "theodore": {
         "trigger": "grimglow_theodore",
-        "identity": "boy, 12-13, slight, sandy-brown hair, hazel eyes",
+        "identity": "lanky pre-teen boy, 12-13, sandy-brown hair, hazel eyes",
         "outfit": "collarless shirt, leather waistcoat, patched trousers",
         "turnaround": "Theodore/GrimGlow_Turnaround_Theodore_2026-03-08.png",
         "concept": None,  # no concept art
