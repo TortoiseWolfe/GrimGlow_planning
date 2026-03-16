@@ -1059,12 +1059,16 @@ Suit condition changes across the 12-issue run. Four turnaround reference phases
 
 | Phase | Issues | Turnaround Variant | Holographic Nodes | Reference |
 |-------|--------|-------------------|-------------------|-----------|
-| **Pristine** | 1 | `Clean Suit` | All 5 bright | `concept-art/{Char}/views/{Char}_front.png` |
-| **Light Wear** | 2–5 | `Light Wear` | All 5 bright | `concept-art/{Char}/views/{Char}_light-wear_front.png` |
-| **Mid-Mission** | 6–8 | `Mid-Mission` | All 5 dimmed but visible | `concept-art/{Char}/views/{Char}_mid-mission_front.png` |
-| **Heavy Wear** | 9–12 | `Heavy Wear` | Flickering (some dark) | `concept-art/{Char}/views/{Char}_heavy-wear_front.png` |
+| **Pristine** | 1 | `1a-CleanSuit` | All 5 bright | `concept-art/{Char}/views/{Char}_1-clean-suit_front.png` |
+| **Light Wear** | 2–5 | `2-LightWear` | All 5 bright | `concept-art/{Char}/views/{Char}_2-light-wear_front.png` |
+| **Mid-Mission** | 6–8 | `3a-MidMission` | All 5 dimmed but visible | `concept-art/{Char}/views/{Char}_3-mid-mission_front.png` |
+| **Heavy Wear** | 9–12 | `4-HeavyWear` | Flickering (some dark) | `concept-art/{Char}/views/{Char}_4-heavy-wear_front.png` |
+
+**Workflow:** Generate the Phase Comparison Strip for each character FIRST (establishes structural baseline), then generate individual turnarounds using the strip as reference.
 
 Degradation is **one-directional** — suits are never cleaned or restored. Improvised steampunk repairs (copper wire patches, scavenged Victorian materials) appear in Heavy Wear phase. The core visual metaphor: "holographic light still glowing through grime — future consumed by the past, not extinguished."
+
+Files with `a/b/c` suffixes (e.g., `1a-CleanSuit`, `1b-CleanSuit`) indicate multiple generation attempts — `a` = current best, `b`/`c` = earlier versions kept for reference.
 
 ### File Locations
 

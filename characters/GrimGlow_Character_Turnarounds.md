@@ -15,43 +15,48 @@ Model reference sheets for 3D generation (Meshy.ai). Neutral background, even li
 
 | # | Character | Variant | Status | File |
 |---|-----------|---------|--------|------|
-| 1 | Sable | Clean Suit (Issue 1) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_2026-03-09.png` |
-| 2 | Wren | Clean Suit (Issue 1) | ✅ Done | `concept-art/Wren/GrimGlow_Turnaround_Wren_2026-03-09.png` |
-| 3 | Jink | Clean Suit (Issue 1) | ✅ Done | `concept-art/Jink/GrimGlow_Turnaround_Jink_2026-03-09.png` |
-| 4 | Thresh | Clean Suit (Issue 1) | ✅ Done | `concept-art/Thresh/GrimGlow_Turnaround_Thresh_2026-03-09.png` |
-| 5 | Luma | Clean Suit (Issue 1) | ✅ Done | `concept-art/Luma/GrimGlow_Turnaround_Luma_2026-03-09.png` |
-| 6 | Theodore | Standard | ✅ Done | `concept-art/Theodore/GrimGlow_Turnaround_Theodore.png` |
-| 7 | Sable | Light Wear (Issues 2–5) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_LightWear_2026-03-15.png` |
-| 8 | Wren | Light Wear (Issues 2–5) | ☐ | |
-| 9 | Jink | Light Wear (Issues 2–5) | ☐ | |
-| 10 | Thresh | Light Wear (Issues 2–5) | ☐ | |
-| 11 | Luma | Light Wear (Issues 2–5) | ☐ | |
-| 12 | Sable | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_MidMission_2026-03-15.png` |
-| 13 | Wren | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Wren/GrimGlow_Turnaround_Wren_MidMission_2026-03-15.png` |
-| 14 | Jink | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Jink/GrimGlow_Turnaround_Jink_MidMission_2026-03-13.png` |
-| 15 | Thresh | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Thresh/GrimGlow_Turnaround_Thresh_MidMission_2026-03-13.png` |
-| 16 | Luma | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Luma/GrimGlow_Turnaround_Luma_MidMission_2026-03-13.png` |
-| 17 | Sable | Heavy Wear (Issues 9–12) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_HeavyWear_2026-03-15.png` |
-| 18 | Wren | Heavy Wear (Issues 9–12) | ☐ | |
-| 19 | Jink | Heavy Wear (Issues 9–12) | ☐ | |
-| 20 | Thresh | Heavy Wear (Issues 9–12) | ☐ | |
-| 21 | Luma | Heavy Wear (Issues 9–12) | ☐ | |
-| 22 | Wing-Pack | Detail Sheet | ☐ | |
-| 23 | Cribbage | Normal | ☐ | |
-| 24 | Cribbage | Brain-Plugged | ☐ | |
-| 25 | Cribbage | Recovered | ☐ | |
-| 26 | Alt-Sable | Clean Suit | ☐ | |
-| 27 | Alt-Sable | Operational | ☐ | |
-| 28 | Arthur Hartley | Standard | ☐ | |
-| 29 | James Machen | Standard | ☐ | |
-| 30 | Tom Alcott | Normal | ☐ | |
-| 31 | Tom Alcott | Brain-Plugged | ☐ | |
-| 32 | Billy Marsh | Normal | ☐ | |
-| 33 | Billy Marsh | Brain-Plugged | ☐ | |
-| 34 | Walter Gedge | Normal | ☐ | |
-| 35 | Walter Gedge | Brain-Plugged | ☐ | |
+| 1 | Sable | Phase Comparison Strip | ☐ | |
+| 2 | Wren | Phase Comparison Strip | ☐ | |
+| 3 | Jink | Phase Comparison Strip | ☐ | |
+| 4 | Thresh | Phase Comparison Strip | ☐ | |
+| 5 | Luma | Phase Comparison Strip | ☐ | |
+| 6 | Sable | Clean Suit (Issue 1) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_1a-CleanSuit_2026-03-09.png` |
+| 7 | Wren | Clean Suit (Issue 1) | ✅ Done | `concept-art/Wren/GrimGlow_Turnaround_Wren_1a-CleanSuit_2026-03-09.png` |
+| 8 | Jink | Clean Suit (Issue 1) | ✅ Done | `concept-art/Jink/GrimGlow_Turnaround_Jink_1a-CleanSuit_2026-03-09.png` |
+| 9 | Thresh | Clean Suit (Issue 1) | ✅ Done | `concept-art/Thresh/GrimGlow_Turnaround_Thresh_1a-CleanSuit_2026-03-09.png` |
+| 10 | Luma | Clean Suit (Issue 1) | ✅ Done | `concept-art/Luma/GrimGlow_Turnaround_Luma_1a-CleanSuit_2026-03-09.png` |
+| 11 | Theodore | Standard | ✅ Done | `concept-art/Theodore/GrimGlow_Turnaround_Theodore_a.png` |
+| 12 | Sable | Light Wear (Issues 2–5) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_2-LightWear_2026-03-15.png` |
+| 13 | Wren | Light Wear (Issues 2–5) | ☐ | |
+| 14 | Jink | Light Wear (Issues 2–5) | ☐ | |
+| 15 | Thresh | Light Wear (Issues 2–5) | ☐ | |
+| 16 | Luma | Light Wear (Issues 2–5) | ☐ | |
+| 17 | Sable | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_3a-MidMission_2026-03-15.png` |
+| 18 | Wren | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Wren/GrimGlow_Turnaround_Wren_3a-MidMission_2026-03-15.png` |
+| 19 | Jink | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Jink/GrimGlow_Turnaround_Jink_3-MidMission_2026-03-13.png` |
+| 20 | Thresh | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Thresh/GrimGlow_Turnaround_Thresh_3-MidMission_2026-03-13.png` |
+| 21 | Luma | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Luma/GrimGlow_Turnaround_Luma_3-MidMission_2026-03-13.png` |
+| 22 | Sable | Heavy Wear (Issues 9–12) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_4-HeavyWear_2026-03-15.png` |
+| 23 | Wren | Heavy Wear (Issues 9–12) | ☐ | |
+| 24 | Jink | Heavy Wear (Issues 9–12) | ☐ | |
+| 25 | Thresh | Heavy Wear (Issues 9–12) | ☐ | |
+| 26 | Luma | Heavy Wear (Issues 9–12) | ☐ | |
+| 27 | Wing-Pack | Detail Sheet | ☐ | |
+| 28 | Cribbage | Normal | ☐ | |
+| 29 | Cribbage | Brain-Plugged | ☐ | |
+| 30 | Cribbage | Recovered | ☐ | |
+| 31 | Alt-Sable | Clean Suit | ☐ | |
+| 32 | Alt-Sable | Operational | ☐ | |
+| 33 | Arthur Hartley | Standard | ☐ | |
+| 34 | James Machen | Standard | ☐ | |
+| 35 | Tom Alcott | Normal | ☐ | |
+| 36 | Tom Alcott | Brain-Plugged | ☐ | |
+| 37 | Billy Marsh | Normal | ☐ | |
+| 38 | Billy Marsh | Brain-Plugged | ☐ | |
+| 39 | Walter Gedge | Normal | ☐ | |
+| 40 | Walter Gedge | Brain-Plugged | ☐ | |
 
-**Done: 13/35 — Remaining: 22 (5 days at 5/day)**
+**Done: 13/40 — Remaining: 27 (6 days at 5/day)**
 
 ### Generation Notes — READ BEFORE GENERATING
 
@@ -76,7 +81,29 @@ Model reference sheets for 3D generation (Meshy.ai). Neutral background, even li
 
 ## Sable — The Captain
 
+### ☐ Phase Comparison Strip (Generate First)
+
+> **PURPOSE:** This strip establishes the suit's structural baseline across all 4 degradation phases. Generate this FIRST, then upload it alongside each individual turnaround prompt so the suit structure stays consistent.
+
+```
+Phase comparison reference strip for SABLE. Four versions of the same character in the same front-facing pose on a plain neutral gray background, arranged left to right. Even studio lighting, no dramatic shadows. Full body.
+
+CRITICAL: The underlying suit structure — panel lines, armor plate segments, holographic node positions (chest, both shoulders, both knees), equipment placement, surface texture — must be IDENTICAL across all four versions. Only the surface weathering changes.
+
+Woman, late thirties, sharp angular features, high cheekbones, dark brown skin, close-cropped silver-white hair. Athletic build, lean and precise. Command silver suit with brushed metallic finish, geometric panel lines like circuit paths, distinct armor plates at shoulders/chest/forearms, five pale blue-white holographic accent nodes (one chest, two shoulders, two knees), sidearm holstered at right hip, temple emitter near left eye, wing-pack stowed between shoulder blades.
+
+Left to right:
+1. PRISTINE: Command silver, factory-new, mirror-reflective. All 5 blue-white nodes bright. No damage. Full metallic sheen.
+2. LIGHT WEAR: Same suit. Faint water spots on shoulders, thin dust film dulling the finish, mud on boots, minor scuff on right forearm. All 5 nodes still bright.
+3. MID-MISSION: Same suit. Soot streaks along arms and knees, scratches across right shoulder exposing darker underlayer. Nodes dimmed by grime but glowing through it.
+4. HEAVY WEAR: Same suit. Pewter-dark with soot, deep gouge across left chest plate, cracked right shoulder plate sealed with adhesive, soot-caked knees. Chest and shoulder nodes glow dimly, left knee flickers, right knee dark.
+
+The four figures must show clear visual progression from pristine to heavily damaged, but the suit UNDERNEATH the damage must be identical in all four panels.
+```
+
 ### ✅ Clean Suit (Issue 1)
+
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 1 of the reference strip."
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a relaxed military at-ease pose, feet shoulder-width apart, hands clasped behind her back. She is a woman in her late thirties, approximately four inches tall in-world but depicted at full sheet scale for reference. Sharp angular features, high cheekbones, dark brown skin, close-cropped silver-white hair buzzed tight on the sides and slightly longer on top — a deliberate style choice, not age. Athletic build, lean and precise. IMPORTANT: Her suit is advanced military technology with complex visible engineering — NOT a smooth bodysuit. The command silver suit has a brushed metallic finish with visible micro-panel texture across the entire surface. Geometric panel lines trace the suit's surface like circuit paths — these are structural seam lines between distinct armor segments, visible on every surface. Distinct armor plates at both shoulders, chest, and forearms with slightly thicker, more matte finish than the reflective base suit layer. FIVE large, clearly visible holographic accent nodes glow pale blue-white: one prominent glowing disc centered on the chest, one on each shoulder pad, and one on each kneecap. Each node is a bright glowing circle the size of a coin — impossible to miss, even on a pristine suit. A compact holographic emitter sits near her left temple — a small silver disc with a geometric lens, glowing faintly blue-white. Her wing-pack is stowed as a compact angular module between her shoulder blades — a rectangular geometric form with beveled edges, approximately the size of her torso, with hairline seams that glow visibly with pale blue-white light. A sleek sidearm holstered at her right hip — smooth, elongated, no visible barrel, resembling a silver wand. Rank insignia on her left collar: a small geometric glyph etched in luminous blue. Slim utility belt with minimal pouches. The suit is pristine and undamaged but structurally complex — factory-new military technology, not a featureless chrome shell. Consistent proportions across all four views.
@@ -86,17 +113,23 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 ### ✅ Light Wear (Issues 2–5)
 
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 2 of the reference strip."
+
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a relaxed military at-ease pose. Same character as clean version — woman, late thirties, sharp features, dark brown skin, close-cropped silver-white hair. The suit retains all structural details from the clean version — same geometric panel lines, same armor plate segmentation at shoulders/chest/forearms, same brushed metallic texture, same five holographic accent nodes (chest, both shoulders, both knees), same sidearm holstered at hip, same temple emitter. The suit is no longer pristine but NOT heavily damaged. Light environmental wear only: faint water spots along the shoulders and upper arms from rain exposure. A thin film of London dust dulls the metallic finish slightly — the silver still catches light but reads matte rather than mirror-reflective. Mud spatters on both boots and lower shins. A minor scuff across the right forearm from the cat encounter — surface-level, no underlayer exposed. The hairline fractures from the crash in Issue 1 are still visible at the right shoulder as faint blue-white glowing seam lines. All five holographic accent nodes glow brightly — no dimming yet, full power. Wing-pack seams glow at full strength. The visual story: a pristine suit that has spent a few days in Victorian London — dusty and rain-spotted but structurally perfect. Consistent detail across all four views.
 ```
 
 ### ✅ Mid-Mission (Issues 6–8)
 
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 3 of the reference strip."
+
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a relaxed military at-ease pose. Same character as clean version — woman, late thirties, sharp features, dark brown skin, close-cropped silver-white hair. The suit retains all structural details from the clean version — same geometric panel lines, same armor plate segmentation at shoulders/chest/forearms, same brushed metallic texture, same five holographic accent nodes (chest, both shoulders, both knees) — now weathered over that structure. Her command silver suit is scuffed and streaked with soot along the arms and knees. Scratches across the right shoulder and left forearm expose a slightly darker underlayer. The suit still catches light on undamaged surfaces. A faint holographic heads-up display glows in pale blue geometric shapes near her left eye — small floating glyphs like luminous runes, semi-transparent. The wing-pack module between her shoulder blades is lightly scratched but intact, seams still glowing faintly. Sidearm at hip shows minor wear. All five holographic nodes are still visible — dimmed by grime but glowing through it, especially the large chest node. The key visual: command silver consumed by grime but holographic light still bleeding through at the nodes, wing-pack seams, and temple emitter. Future beauty degraded but not extinguished. Consistent proportions and damage placement across all four views.
 ```
 
 ### ✅ Heavy Wear (Issues 9–12)
+
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 4 of the reference strip."
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a relaxed military at-ease pose but with fractionally heavier shoulders — the posture of sustained command. Same character as clean version — woman, late thirties, sharp features, dark brown skin, close-cropped silver-white hair. The suit retains all structural details from the clean version — same geometric panel lines, same armor plate segmentation at shoulders/chest/forearms, same brushed metallic texture — now buried under heavy accumulated damage. Her command silver suit is pewter-dark with soot and grime — the original silver visible only in patches where contact has worn the grime away (inner elbows, waist where the belt sits). A deep gouge runs diagonally across the left chest plate — the underlayer visible as a dark line. The right shoulder plate has a hairline crack sealed with a smear of dark adhesive. Both knees are soot-caked almost black. The sidearm holster shows heavy wear. Wing-pack casing has multiple scratches and a sealed crack along one edge. Three of the five holographic nodes still glow — the chest node pulses steadily, both shoulder nodes are dimmed. The left knee node flickers intermittently. The right knee node is dark — emitter damaged. Temple emitter still functions, projecting a faint HUD. The visual story: a commander who has carried her squad through weeks in a hostile past — battered, soot-covered, but the light still bleeds through. Future consumed by the past, not extinguished. Consistent damage placement across all four views.
@@ -106,7 +139,29 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 ## Wren — The Engineer
 
+### ☐ Phase Comparison Strip (Generate First)
+
+> **PURPOSE:** This strip establishes the suit's structural baseline across all 4 degradation phases. Generate this FIRST, then upload it alongside each individual turnaround prompt so the suit structure stays consistent.
+
+```
+Phase comparison reference strip for WREN. Four versions of the same character in the same front-facing pose on a plain neutral gray background, arranged left to right. Even studio lighting, no dramatic shadows. Full body.
+
+CRITICAL: The underlying suit structure — panel lines, armor plate segments, holographic node positions (chest, both shoulders, both knees), equipment placement, surface texture — must be IDENTICAL across all four versions. Only the surface weathering changes.
+
+Woman, early thirties, East Asian features, oval face, wiry build. Dark black hair in a functional knot. IMPORTANT: Silver-metallic base suit with warm copper shimmer — NOT solid copper. Brushed metallic finish, geometric panel lines, reinforced forearm panels with recessed tool slots, chest-mounted holographic projector, five copper-gold holographic accent nodes (one chest projector, two shoulders, two knees), tool belt with instruments, wing-pack with two sensor antennae.
+
+Left to right:
+1. PRISTINE: Silver-copper shimmer, factory-new. All 5 copper-gold nodes bright. Tool slots clean, all pouches organized. Full metallic sheen.
+2. LIGHT WEAR: Same suit. Thin dust film, water spots on upper arms, first oil smudges at fingertips and wrist joints. All 5 nodes still bright.
+3. MID-MISSION: Same suit. Oil stains darken both forearm panels wrist to elbow, soot on knees, scorch mark on left shoulder, copper wire patch at right hip. Nodes dimmed but visible through grime.
+4. HEAVY WEAR: Same suit. Near-brown with accumulated oil, original shimmer visible only at inner elbows. Forearm tool slots caked, leather strap repair on left forearm, one wing-pack antenna broken. Chest node glows through grime, one shoulder steady, other flickers, both knee nodes dark.
+
+The four figures must show clear visual progression from pristine to heavily damaged, but the suit UNDERNEATH the damage must be identical in all four panels.
+```
+
 ### ✅ Clean Suit (Issue 1)
+
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 1 of the reference strip."
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a neutral pose, arms slightly away from body to show suit detail, palms open. She is a woman in her early thirties, approximately four inches tall in-world but depicted at full sheet scale. East Asian features, oval face, wiry build. Dark black hair pulled back in a functional knot at the back of her head, a few deliberately loose strands framing her face. IMPORTANT: Her suit is a silver-metallic base with a warm copper metallic shimmer — NOT solid copper. The copper tone is an iridescent layer over silver, shifting between silver and copper depending on the angle. The suit has complex visible engineering — NOT a smooth bodysuit. Brushed metallic finish with visible micro-panel texture across all surfaces. Geometric panel lines and seam paths visible everywhere. Reinforced forearm panels with recessed tool slots (visible rectangular recesses in the forearm armor). A chest-mounted holographic projector — a small circular lens centered on her sternum, glowing warm copper-gold even at rest. Magnetic attachment points on her thighs and hips — visible as small geometric hardpoints. FIVE large, clearly visible holographic accent nodes glow warm copper-gold: one prominent glowing disc at the chest projector, one on each shoulder pad, and one on each kneecap. Each node is a bright glowing circle — impossible to miss. Multiple slim tool pouches on a low-slung utility belt, fuller than Sable's — wrenches, probes, and scanner instruments visible in miniature. Her wing-pack is stowed between her shoulder blades, similar geometric module to Sable's but with two additional small antennae extending upward — sensor arrays for technical scanning. Wing-pack seams glow warm copper-gold. Distinct armor segments at shoulders and forearms with slightly different finish from base layer. The suit is pristine and undamaged but structurally complex — an engineer's working suit with every tool mount and sensor visible. Consistent proportions across all four views.
@@ -116,17 +171,23 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 ### ☐ Light Wear (Issues 2–5)
 
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 2 of the reference strip."
+
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a neutral pose, arms slightly away from body. Same character as clean version — woman, early thirties, East Asian features, wiry build, dark hair in messy knot still neat but beginning to loosen. The suit retains all structural details from the clean version — same silver-metallic base with copper shimmer (NOT solid copper), same geometric panel lines, same reinforced forearm panels with recessed tool slots, same brushed metallic texture, same five holographic accent nodes (chest projector, both shoulders, both knees), same wing-pack with sensor antennae. The suit is no longer pristine but NOT heavily damaged. Light environmental wear only: a thin film of London dust dulls the metallic finish — the silver-copper still catches light but reads less reflective. Water spots along the upper arms from rain. The first oil stains appear at the fingertips and wrist joints — light smudges from hands-on tinkering, not yet the deep forearm stains of later issues. Mud spatters on both boots. The tool belt pouches are all present and organized — tools intact. All five holographic accent nodes glow brightly at full power — no dimming yet. Wing-pack antennae straight and intact. The visual story: an engineer who has started working but whose suit still reads as mostly new — the first fingerprints of the past on future tech. Consistent detail across all four views.
 ```
 
 ### ✅ Mid-Mission (Issues 6–8)
 
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 3 of the reference strip."
+
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright, arms slightly away from body. Same character as clean version — woman, early thirties, East Asian features, wiry build, dark hair in messy knot now looser with more strands escaped. The suit retains all structural details from the clean version — same silver-metallic base with copper shimmer (NOT solid copper), same geometric panel lines, same reinforced forearm panels with recessed tool slots, same complex segmented armor plates, same brushed metallic texture, same five holographic accent nodes (chest projector, both shoulders, both knees) — now weathered over that structure. Her silver-copper suit is the most visibly worn of the squad. Oil stains darken both reinforced forearm panels from wrist to elbow, seeping into the recessed tool slots. Soot and copper-colored dust coat her knees and shins. A scorch mark runs along her left shoulder — dark charring that has partially melted the suit surface. A small tear at her right hip has been patched with a strip of copper wire wound tightly around the suit material — steampunk repair on future tech. Despite the damage, all five copper-gold holographic nodes still glow through the grime — the chest projector lens pulses warmly, shoulder and knee nodes are dimmed but visible. Tool pouches are partially open, some tools missing, one replaced with a Victorian-era brass caliper jury-rigged into the magnetic mount. Wing-pack has one sensor antenna bent. The visual story: an engineer who has been working hard in hostile conditions, improvising with local materials. Consistent damage placement across all four views.
 ```
 
 ### ☐ Heavy Wear (Issues 9–12)
+
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 4 of the reference strip."
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright, arms slightly away from body. Same character as clean version — woman, early thirties, East Asian features, wiry build, dark hair in messy knot now half-collapsed with loose strands framing her face. The suit retains all structural details from the clean version — same silver-metallic base with copper shimmer (NOT solid copper), same geometric panel lines, same reinforced forearm panels with recessed tool slots, same brushed metallic texture — now buried under the heaviest damage of any squad member. Her silver-copper suit is near-brown with accumulated oil and grime — the worst in the squad. The original silver-copper shimmer is only visible at the inner elbows and behind the knees where friction has worn the grime thin. Both forearm panels are darkened almost black with deep oil saturation — the recessed tool slots are caked with residue. The scorch mark on her left shoulder has expanded — a second char mark crosses it from a separate incident. The copper wire patch at her right hip is still there, now joined by a second improvised repair on the left forearm — a strip of Victorian-era leather strapping wound over a cracked panel. Multiple tool pouches are empty or jury-rigged with scavenged Victorian instruments — a brass caliper, a hand-wound spring, a glass lens. Wing-pack has one antenna fully broken off at the base, the other bent at an angle. Three of the five holographic nodes still glow — the chest projector pulses warmly through a layer of grime, one shoulder node is steady. The other shoulder node flickers. Both knee nodes are dark — buried under too much oil and soot for the emitters to read through. The visual story: an engineer who has been cannibalizing her own suit to keep the squad running — the most worn because she works the hardest. Future consumed by the past, but the chest projector still glows. Consistent damage placement across all four views.
@@ -136,7 +197,29 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 ## Jink — The Scout
 
+### ☐ Phase Comparison Strip (Generate First)
+
+> **PURPOSE:** This strip establishes the suit's structural baseline across all 4 degradation phases. Generate this FIRST, then upload it alongside each individual turnaround prompt so the suit structure stays consistent.
+
+```
+Phase comparison reference strip for JINK. Four versions of the same character in the same front-facing pose on a plain neutral gray background, arranged left to right. Even studio lighting, no dramatic shadows. Full body.
+
+CRITICAL: The underlying suit structure — panel lines, armor plate segments, holographic node positions (chest, both shoulders, both knees), equipment placement, surface texture — must be IDENTICAL across all four versions. Only the surface weathering changes.
+
+Late teens/early twenties, lean androgynous build, light brown skin, wild bright golden blonde curly hair. Emerald metallic shimmer over silver base, sleeker/lighter suit than others, flex panels at elbows/knees/waist, five emerald holographic accent nodes (brighter than other characters — more power to flight systems), satchel at left hip, signaling device at right, wing-pack slightly larger than others.
+
+Left to right:
+1. PRISTINE: Bright emerald shimmer, factory-new. All 5 emerald nodes bright (brightest of the squad). Satchel flat, empty. Full metallic sheen.
+2. LIGHT WEAR: Same suit. First soot streaks across chest and upper back from chimney smoke, light dust film, mud on boots, minor knee scuff. All 5 nodes still bright.
+3. MID-MISSION: Same suit. Soot-streaked chest and back, copper wire patch on right forearm tear, scraped left knee. Satchel stuffed and bulging. Leather cord bracelet on wrist. Nodes bright through grime.
+4. HEAVY WEAR: Same suit. Dark with chimney soot, second tear on left shin patched with Victorian canvas, satchel overflowing, two bracelets plus brass button on chest plate. Chest and shoulder nodes still bright, one knee dimmed, other flickers. Wing-pack seams show stress fractures.
+
+The four figures must show clear visual progression from pristine to heavily damaged, but the suit UNDERNEATH the damage must be identical in all four panels.
+```
+
 ### ✅ Clean Suit (Issue 1)
+
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 1 of the reference strip."
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a loose casual stance — weight on one leg, slight asymmetry suggesting restless energy even at rest. They are the youngest of the squad, late teens or early twenties, approximately four inches tall in-world but depicted at full sheet scale. Lean androgynous build, narrow waist, long limbs proportional to their body — built for speed and agility. Light brown skin, a shock of bright golden blonde curly hair kept short on the sides but wild and voluminous on top, falling slightly to one side. Bright dark eyes, sharp jawline, expressive mouth. IMPORTANT: Their metallic emerald suit has complex visible engineering — NOT a smooth bodysuit. The suit carries an emerald metallic shimmer over a silver-metallic base layer. Brushed metallic finish with visible micro-panel texture across all surfaces. The suit is sleeker and lighter than the others but still has geometric panel lines and seam paths tracing the surface. Visible flex panels at the elbows, knees, and waist — these are distinct structural segments with different material finish, allowing extreme range of motion. FIVE large, clearly visible holographic accent nodes glow emerald green: one prominent glowing disc centered on the chest, one on each shoulder pad, and one on each kneecap. Each node is a bright glowing circle — brighter than other characters due to more power routed to flight systems. Minimal utility belt — a small satchel at the left hip and a compact signaling device at the right. Their wing-pack is slightly larger than the others relative to body size, optimized for speed — the stowed module extends from between the shoulder blades down to the mid-back, with sharper angular geometry and four distinct wing-fold lines visible on the surface. Wing-pack seams glow bright emerald green. No weaponry visible. The suit is pristine and undamaged but structurally detailed — a high-performance flight suit with visible engineering at every joint and seam. Consistent proportions across all four views.
@@ -146,17 +229,23 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 ### ☐ Light Wear (Issues 2–5)
 
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 2 of the reference strip."
+
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in the same loose casual stance. Same character as clean version — late teens/early twenties, lean androgynous build, light brown skin, wild bright golden blonde curly hair still voluminous but with the first flecks of soot in it. The suit retains all structural details from the clean version — same silver-metallic base with emerald shimmer, same geometric panel lines, same flex panels at joints, same five emerald holographic accent nodes (chest, both shoulders, both knees), same wing-pack (larger than others), same satchel at left hip. The suit is no longer pristine but NOT heavily damaged. The first soot streaks appear across the chest and upper back — evidence of flying through chimney smoke during early scouting runs. Light dust film dulls the emerald shimmer slightly. Mud on both boots. A minor scuff on the right knee from a hard landing. The satchel is still flat and mostly empty. All five holographic accent nodes glow brightly — brighter than other characters, full power, no dimming. Wing-pack seams glow at full emerald intensity. The visual story: the fastest flyer has already started collecting London's soot — the first of the squad to show environmental marks because they go everywhere. Consistent detail across all four views.
 ```
 
 ### ✅ Mid-Mission (Issues 6–8)
 
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 3 of the reference strip."
+
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in the same loose casual stance. Same character as clean version — late teens/early twenties, lean androgynous build, light brown skin, wild bright golden blonde curly hair now flecked with soot and a bit more disheveled. The suit retains all structural details from the clean version — same geometric panel lines, same flex panels at joints, same five emerald holographic accent nodes (chest, both shoulders, both knees), same silver-metallic base with emerald shimmer — now weathered over that structure. Their emerald suit is soot-streaked across the chest and back — evidence of flying through chimney smoke. A visible tear along the right forearm has been patched with tightly wound copper wire, a rough field repair. The left knee panel is scraped and dull. Emerald holographic elements glow brightly through the grime, especially along the spine and wing-pack mount points — the flight systems run hot and burn through the soot layer. Wing-pack seams pulse with visible emerald light, brighter than any other squad member's degraded suit. The small satchel at the hip is stuffed and bulging — Jink collects things. A thin leather cord (scavenged, Victorian-era) is tied around one wrist as a bracelet — a souvenir. The visual story: a character who moves fast, gets dirty, and treats the damage as trophies. Consistent damage placement across all four views.
 ```
 
 ### ☐ Heavy Wear (Issues 9–12)
+
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 4 of the reference strip."
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in a loose stance but with less bounce — still restless but tired. Same character as clean version — late teens/early twenties, lean androgynous build, light brown skin, wild bright golden blonde curly hair now heavily flecked with soot and matted in places, losing some of its volume. The suit retains all structural details from the clean version — same geometric panel lines, same flex panels at joints, same silver-metallic base with emerald shimmer — now buried under heavy accumulated soot and damage. Their emerald suit is dark with chimney soot — heavy black streaks across the chest, back, and both legs. The original emerald shimmer shows through only at the inner arms and waist where movement keeps the soot thin. The right forearm tear is still patched with copper wire from mid-mission, now joined by a second tear on the left shin — patched with a strip of Victorian canvas stitched crudely through the suit material. The left knee panel is deeply scraped, the flex panel beneath exposed. Multiple new scuffs and scratches across both shoulders from tight passages. The satchel at the hip is overflowing — bits of scavenged Victorian ephemera poking out. Two leather cord bracelets now, plus a small brass button pinned to the chest plate. Wing-pack seams still glow emerald — brighter than any other squad member's, burning through the soot — but the wing-fold lines show stress fractures. Four of the five holographic nodes still glow — the chest node and both shoulders are bright (flight systems stay powered), one knee node is dimmed. The other knee node flickers. The visual story: the fastest scout has been everywhere and it shows — but the flight systems still burn hot and bright. Future consumed by the past, but not grounded yet. Consistent damage placement across all four views.
@@ -166,7 +255,29 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 ## Thresh — The Soldier
 
+### ☐ Phase Comparison Strip (Generate First)
+
+> **PURPOSE:** This strip establishes the suit's structural baseline across all 4 degradation phases. Generate this FIRST, then upload it alongside each individual turnaround prompt so the suit structure stays consistent.
+
+```
+Phase comparison reference strip for THRESH. Four versions of the same character in the same front-facing pose on a plain neutral gray background, arranged left to right. Even studio lighting, no dramatic shadows. Full body.
+
+CRITICAL: The underlying suit structure — panel lines, armor plate segments, holographic node positions (chest, both pauldrons, both knees), equipment placement, surface texture — must be IDENTICAL across all four versions. Only the surface weathering changes.
+
+Woman, broad-shouldered, muscular with strong athletic female build. Pale skin, defined cheekbones, firm jaw, copper-red buzz cut. MOST heavily armored suit — deep crimson metallic shimmer over silver base, angular pauldrons projecting outward, reinforced chest plate, vambrace forearm guards, five crimson holographic accent nodes (one chest, two pauldron edges, two knees), rifle magnetically clamped to back, sidearm at thigh, heavy utility belt.
+
+Left to right:
+1. PRISTINE: Deep crimson, factory-new. All 5 crimson nodes bright. Heavy armor pristine, angular pauldrons sharp-edged. Full metallic sheen.
+2. LIGHT WEAR: Same suit. Thin dust film, water spots on pauldrons, mud on boots and shin guards, minor scuff on left pauldron. Rifle stock lightly dusty. All 5 nodes still bright.
+3. MID-MISSION: Same suit. Diagonal scratch across chest plate shoulder-to-hip exposing underlayer, dented left pauldron, uneven soot. Wing-pack crack sealed with adhesive, chipped rifle stock. Nodes pulse unevenly, one forearm emitter dark.
+4. HEAVY WEAR: Same suit. Fresh parallel gouges on right chest from Titan drone, left pauldron partially collapsed, right vambrace cracked full-length. Soot-darkened, crimson visible only at plate edges. Chest and one pauldron node steady, other pauldron flickers, both knee nodes dark.
+
+The four figures must show clear visual progression from pristine to heavily damaged, but the suit UNDERNEATH the damage must be identical in all four panels.
+```
+
 ### ✅ Clean Suit (Issue 1)
+
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 1 of the reference strip."
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing at attention, shoulders square, arms at sides, feet together — rigid military posture. They are a woman, broad-shouldered and muscular with a strong athletic female build — the most physically imposing member of the squad, approximately four inches tall in-world but depicted at full sheet scale. Clearly female: defined cheekbones, firm jaw, intense determined eyes, strong but feminine features. Pale skin, copper-red hair in a tight military buzz cut. She reads as a tough, powerful woman — not masculine, but formidable. IMPORTANT: Their metallic ruby-crimson suit is the MOST heavily armored of the squad — this must be visually obvious. The suit has a deep crimson metallic shimmer over a silver-metallic base layer. Brushed metallic finish with dense panel lines and seam geometry across all surfaces. Heavy additional plating at the shoulders — angular pauldrons with raised geometric ridges that project outward, giving visual bulk. Reinforced chest plate — a thicker, more matte-finished breastplate with visible panel lines and geometric surface detail, distinct from the reflective base suit layer. Vambrace-style forearm guards that extend over the backs of the hands — solid, protective, with visible thickness. FIVE large, clearly visible holographic accent nodes glow crimson-red: one prominent glowing disc centered on the chest plate, one on each pauldron edge, and one on each kneecap. Each node is a bright glowing circle — impossible to miss even on heavy armor. Their wing-pack is compact and heavily shielded — a reinforced module with thicker casing than the others, built to survive impacts. Weapon: a compact rifle-like object magnetically clamped to the back, alongside the wing-pack — smooth elongated body, no visible barrel, geometric stock, resembling a strange crossbow to Victorian eyes. Secondary weapon: a short-range sidearm holstered at the thigh. Heavy utility belt with ammunition-like charge packs. This is visibly the heaviest, most armored, most military loadout of the squad. The suit is pristine but structurally complex — heavy combat armor, not a sleek bodysuit. Consistent proportions across all four views.
@@ -176,17 +287,23 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 ### ☐ Light Wear (Issues 2–5)
 
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 2 of the reference strip."
+
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing at attention with the same rigid military posture. Same character as clean version — a woman, broad-shouldered, muscular with strong athletic female build, pale skin, defined cheekbones, firm jaw, copper-red buzz cut. The suit retains all structural details from the clean version — same geometric panel lines, same heavy armor plate segmentation at shoulders/chest/forearms, same angular pauldrons, same five crimson holographic accent nodes (chest, both pauldrons, both knees), same brushed metallic texture, same rifle on back, same sidearm at thigh. The suit is no longer pristine but NOT heavily damaged. Light environmental wear only: a thin film of London dust dulls the crimson metallic finish slightly. Water spots along the shoulder pauldrons from rain. Mud on both boots and lower shin guards. A minor surface scuff across the left pauldron from the cat encounter in Issue 2 — the heavy armor absorbed it without structural damage. The rifle stock has a faint dust coating. All five holographic accent nodes glow brightly at full power — no dimming. The visual story: heavy combat armor that has spent a few days in a dirty environment — the heaviest suit picks up the least visible damage because it's built to take hits. Consistent detail across all four views.
 ```
 
 ### ✅ Mid-Mission (Issues 6–8)
 
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 3 of the reference strip."
+
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing at attention but with slightly less rigid posture — shoulders fractionally hunched, weight subtly shifted. Same character as clean version — a woman, broad-shouldered, muscular with strong athletic female build, pale skin, defined cheekbones, firm jaw, copper-red buzz cut. The suit retains all structural details from the clean version — same geometric panel lines, same heavy armor plate segmentation at shoulders/chest/forearms, same angular pauldrons, same five crimson holographic accent nodes (chest, both pauldrons, both knees), same brushed metallic texture — now weathered over that structure. Their armored crimson suit is scuffed and dented. A long diagonal scratch runs across the chest plate from right shoulder to left hip — deep enough to show the darker underlayer. The left pauldron has a visible dent. Soot and grime darken the suit unevenly, heavier on the lower legs and arms. The crimson holographic edge-lighting on the armor plates pulses unevenly — some panels glow steady, others flicker, one on the right forearm is dark entirely, suggesting damage to the emitter beneath. Wing-pack casing has a crack along one edge, sealed with what appears to be a smear of dark adhesive. The rifle on the back has a chip in the stock. The overall impression is armor that has absorbed hits. The visual story: a soldier whose equipment shows the cost of protecting the squad. Consistent damage placement across all four views.
 ```
 
 ### ☐ Heavy Wear (Issues 9–12)
+
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 4 of the reference strip."
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing at attention but visibly heavier in posture — shoulders slightly dropped, the rigid military bearing still there but strained. Same character as clean version — a woman, broad-shouldered, muscular with strong athletic female build, pale skin, defined cheekbones, firm jaw, copper-red buzz cut. The suit retains all structural details from the clean version — same geometric panel lines, same heavy armor plate segmentation, same angular pauldrons, same brushed metallic texture — now carrying the heaviest combat damage of the squad. Her crimson armor is dented, gouged, and soot-darkened. The long diagonal scratch across the chest plate from mid-mission is now joined by fresh gouges from the Titan drone encounter — deep parallel claw marks across the right side of the chest plate, exposing the dark underlayer. The left pauldron dent from mid-mission has deepened — a second impact in the same location has partially collapsed the pauldron edge. The right vambrace has a crack running its full length, sealed with dark adhesive. Soot and grime coat the suit heavily — the original crimson shows through only at the raised edges of armor plates where contact keeps them worn bright. The rifle stock is chipped and the magnetic clamp mount is slightly misaligned — the weapon sits at a fractional angle. Wing-pack casing crack has widened despite the adhesive seal — a visible gap. Two of the five holographic nodes still glow steady — the chest node pulses crimson, one pauldron node holds. The other pauldron node flickers rapidly. Both knee nodes are dark — the emitters beneath the heavy leg armor are damaged. The visual story: combat armor that has taken every hit meant for the squad — dented, gouged, nearly broken, but still standing between the team and the threat. Future consumed by the past, but the armor holds. Consistent damage placement across all four views.
@@ -196,7 +313,29 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 ## Luma — The Medic/Scientist
 
+### ☐ Phase Comparison Strip (Generate First)
+
+> **PURPOSE:** This strip establishes the suit's structural baseline across all 4 degradation phases. Generate this FIRST, then upload it alongside each individual turnaround prompt so the suit structure stays consistent.
+
+```
+Phase comparison reference strip for LUMA. Four versions of the same character in the same front-facing pose on a plain neutral gray background, arranged left to right. Even studio lighting, no dramatic shadows. Full body.
+
+CRITICAL: The underlying suit structure — panel lines, armor plate segments, holographic node positions (chest, both shoulders, both knees), equipment placement, surface texture — must be IDENTICAL across all four versions. Only the surface weathering changes.
+
+Woman, late twenties, South Asian features, warm brown skin, large dark eyes, long dark hair in a single braid threaded with luminous blue-violet filament. Holographic lenses hovering at eyes (gold-toned). Sapphire-violet suit with silver base, lighter/less armored than others, five blue-violet holographic accent nodes (one chest, two shoulders, two knees), medical scanner module on left forearm, utility belt with sample pouches, wing-pack with sensor filaments.
+
+Left to right:
+1. PRISTINE: Deep sapphire-violet shimmer, factory-new. All 5 blue-violet nodes bright. Lenses clean, braid filament bright. Scanner module glowing. All pouches organized.
+2. LIGHT WEAR: Same suit. Thin dust film, water spots, mud on boots. First ink stains on right fingertips, pollen smudge on left knee. All 5 nodes still bright. Lenses clean. Filament bright.
+3. MID-MISSION: Same suit. Light dust overall, ink stains on right hand and forearm, pollen on left knee, one sample pouch open with pressed flower. Scanner housing cracked but functional. Braid filament slightly dimmer. Lenses show faint grime patina. Nodes dimmed but visible.
+4. HEAVY WEAR: Same suit. Heavier dust coating muting violet shimmer, ink stains to mid-forearm, pollen on both knees, scuff on left shoulder, multiple pouches open/bulging. Scanner housing double-cracked and flickering. Braid filament notably dim. Lenses cracked with prismatic distortion. Chest and shoulder nodes dimmed, one knee flickers, other faint.
+
+The four figures must show clear visual progression from pristine to heavily damaged, but the suit UNDERNEATH the damage must be identical in all four panels.
+```
+
 ### ✅ Clean Suit (Issue 1)
+
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 1 of the reference strip."
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in a relaxed natural pose, head tilted very slightly as if observing something with interest, hands at sides with fingers slightly spread — an open, curious posture. She is a woman in her late twenties, approximately four inches tall in-world but depicted at full sheet scale. South Asian features, warm brown skin, large expressive dark eyes, a gentle rounded face. Her dark hair is long and worn in a single braid that falls over her right shoulder to mid-chest, threaded with a thin luminous filament that winds through the braid and pulses softly with blue-violet light — a combination of aesthetic and functional bio-monitor. Delicate holographic lenses hover just in front of her eyes — not physically attached, suspended by small emitters at her temples. The lenses are semi-transparent discs with faint geometric data patterns, resembling spectral spectacles. They glow softly with warm gold-toned light, distinct from the blue-violet of her suit's holographic accents — Luma's lenses are calibrated for biological scanning and read warmer. IMPORTANT: Her sapphire-violet suit has complex visible engineering — NOT a smooth bodysuit. The suit carries a deep sapphire metallic shimmer with violet undertones over a silver-metallic base layer. Brushed metallic finish with visible micro-panel texture across all surfaces. Geometric panel lines and seam paths trace the entire suit surface. Lighter and less armored than the others — designed for flexibility and sensitivity rather than protection — but still visibly segmented with distinct panel sections at shoulders, chest, and forearms. FIVE large, clearly visible holographic accent nodes glow blue-violet: one prominent glowing disc centered on the chest, one on each shoulder pad, and one on each kneecap. Each node is a bright glowing circle — impossible to miss. A medical/scanner module is mounted on her left forearm — a slim raised panel with a small holographic projector lens that glows blue-violet, capable of displaying biological readouts. Her utility belt carries specialized pouches for sample collection, medical supplies, and scanning instruments — visibly full and organized. Wing-pack is standard-sized, stowed, with a slightly different seam pattern — additional sensor filaments woven into the wing-fold lines for environmental data collection during flight, glowing blue-violet at the seams. No weapons visible. The suit is pristine and undamaged but structurally detailed — a scientist's field suit with every sensor and scanner mount visible. Consistent proportions across all four views.
@@ -206,17 +345,23 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 ### ☐ Light Wear (Issues 2–5)
 
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 2 of the reference strip."
+
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in the same relaxed natural pose. Same character as clean version — woman, late twenties, South Asian features, warm brown skin, large dark eyes, long braided dark hair with luminous filament still glowing at full brightness. Holographic lenses still hovering in front of her eyes, clean and fully functional. The suit retains all structural details from the clean version — same geometric panel lines, same armor plate segmentation, same five blue-violet holographic accent nodes (chest, both shoulders, both knees), same medical scanner module on left forearm, same brushed metallic texture, same utility belt with instruments. The suit is no longer pristine but NOT heavily damaged. Light environmental wear only: a thin film of London dust dulls the sapphire-violet metallic finish slightly. Water spots along the shoulders from rain. Mud on both boots. The first ink stains appear on her right fingertips — faint dark marks from handling Victorian documents and botanical specimens. A light smudge of pollen or dust on the left knee from kneeling to examine something on the ground. All sample pouches are organized and intact — the scientist is still methodical. All five holographic accent nodes glow brightly at full power — no dimming. Medical scanner module fully functional, glowing blue-violet. The visual story: a scientist who has started her fieldwork — careful, methodical, the lightest wear of the squad because she observes rather than charges in. Consistent detail across all four views.
 ```
 
 ### ✅ Mid-Mission (Issues 6–8)
 
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 3 of the reference strip."
+
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in the same relaxed natural pose. Same character as clean version — woman, late twenties, South Asian features, warm brown skin, large dark eyes, long braided dark hair with luminous filament still glowing. Holographic lenses still hovering in front of her eyes, still active. The suit retains all structural details from the clean version — same geometric panel lines, same armor plate segmentation, same five blue-violet holographic accent nodes (chest, both shoulders, both knees), same medical scanner module on left forearm, same brushed metallic texture — now weathered over that structure. Her sapphire-violet suit is the least damaged of the squad — she hangs back from the front lines — but it is not clean. Dust coats her lightly overall. Ink stains mark her right hand and right forearm where she has been examining Victorian documents. A smudge of pollen or botanical residue on her left knee from kneeling to examine specimens. One sample pouch on her belt is open, a small pressed flower visible inside — she has been collecting. The luminous filament in her braid still pulses but slightly dimmer than clean state. Holographic lenses show a faint patina of atmospheric grime but remain functional. The medical scanner on her left forearm has a small crack in its projector housing but still glows blue-violet. The visual story: a scientist who has been exploring, not fighting. Her damage is curiosity, not combat. Consistent detail across all four views.
 ```
 
 ### ☐ Heavy Wear (Issues 9–12)
+
+> **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 4 of the reference strip."
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in the same relaxed natural pose but with a weight to it — the curiosity is still there but tempered by what she knows. Same character as clean version — woman, late twenties, South Asian features, warm brown skin, large dark eyes, long braided dark hair with luminous filament still pulsing dimly. Holographic lenses still hovering in front of her eyes — functional but showing a visible patina of atmospheric grime, with a hairline crack across one lens that creates a slight prismatic distortion. The suit retains all structural details from the clean version — same geometric panel lines, same armor plate segmentation, same medical scanner module on left forearm, same brushed metallic texture — now weathered but still the least damaged of the squad. Her sapphire-violet suit is dusty and worn but not battered — she hangs back from combat. The overall dust coating is heavier now, muting the violet shimmer. Ink stains have spread from her right hand up to the mid-forearm — weeks of handling documents. Pollen residue marks both knees. A new scuff along the left shoulder from a close call she wasn't expecting. Multiple sample pouches are open or bulging — pressed flowers, mineral fragments, a folded document corner visible. The medical scanner's cracked projector housing from mid-mission now has a second crack — the holographic display flickers when projecting. The luminous filament in her braid is notably dimmer — still pulsing but the light is fainter, the bio-monitor running low on charge. Four of the five holographic nodes still glow — the chest node and both shoulder nodes are steady but dimmed. One knee node flickers. The other knee node is steady but faint. The visual story: the scientist who sees the paradox — her suit carries the evidence of discovery, not destruction. The least damaged because she studies the past rather than fighting it, but the most changed by what she's found. Future consumed by the past, but still observing. Consistent detail across all four views.
