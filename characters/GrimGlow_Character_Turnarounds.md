@@ -13,6 +13,8 @@ Model reference sheets for 3D generation (Meshy.ai). Neutral background, even li
 
 ### Generation Progress (ChatGPT free tier: 5 images/day)
 
+> **NOTE:** All existing turnaround images are now **reference only** — pre-strip renders with inconsistent suit structure across phases. The Phase Comparison Strips must be generated first to establish structural baselines, then all turnarounds will be re-generated using the strips as reference.
+
 | # | Character | Variant | Status | File |
 |---|-----------|---------|--------|------|
 | 1 | Sable | Phase Comparison Strip | ☐ | |
@@ -20,23 +22,23 @@ Model reference sheets for 3D generation (Meshy.ai). Neutral background, even li
 | 3 | Jink | Phase Comparison Strip | ☐ | |
 | 4 | Thresh | Phase Comparison Strip | ☐ | |
 | 5 | Luma | Phase Comparison Strip | ☐ | |
-| 6 | Sable | Clean Suit (Issue 1) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_1a-CleanSuit_2026-03-09.png` |
-| 7 | Wren | Clean Suit (Issue 1) | ✅ Done | `concept-art/Wren/GrimGlow_Turnaround_Wren_1a-CleanSuit_2026-03-09.png` |
-| 8 | Jink | Clean Suit (Issue 1) | ✅ Done | `concept-art/Jink/GrimGlow_Turnaround_Jink_1a-CleanSuit_2026-03-09.png` |
-| 9 | Thresh | Clean Suit (Issue 1) | ✅ Done | `concept-art/Thresh/GrimGlow_Turnaround_Thresh_1a-CleanSuit_2026-03-09.png` |
-| 10 | Luma | Clean Suit (Issue 1) | ✅ Done | `concept-art/Luma/GrimGlow_Turnaround_Luma_1a-CleanSuit_2026-03-09.png` |
-| 11 | Theodore | Standard | ✅ Done | `concept-art/Theodore/GrimGlow_Turnaround_Theodore_a.png` |
-| 12 | Sable | Light Wear (Issues 2–5) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_2-LightWear_2026-03-15.png` |
+| 6 | Sable | Clean Suit (Issue 1) | ☐ | |
+| 7 | Wren | Clean Suit (Issue 1) | ☐ | |
+| 8 | Jink | Clean Suit (Issue 1) | ☐ | |
+| 9 | Thresh | Clean Suit (Issue 1) | ☐ | |
+| 10 | Luma | Clean Suit (Issue 1) | ☐ | |
+| 11 | Theodore | Standard | ☐ | |
+| 12 | Sable | Light Wear (Issues 2–5) | ☐ | |
 | 13 | Wren | Light Wear (Issues 2–5) | ☐ | |
 | 14 | Jink | Light Wear (Issues 2–5) | ☐ | |
 | 15 | Thresh | Light Wear (Issues 2–5) | ☐ | |
 | 16 | Luma | Light Wear (Issues 2–5) | ☐ | |
-| 17 | Sable | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_3a-MidMission_2026-03-15.png` |
-| 18 | Wren | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Wren/GrimGlow_Turnaround_Wren_3a-MidMission_2026-03-15.png` |
-| 19 | Jink | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Jink/GrimGlow_Turnaround_Jink_3-MidMission_2026-03-13.png` |
-| 20 | Thresh | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Thresh/GrimGlow_Turnaround_Thresh_3-MidMission_2026-03-13.png` |
-| 21 | Luma | Mid-Mission (Issues 6–8) | ✅ Done | `concept-art/Luma/GrimGlow_Turnaround_Luma_3-MidMission_2026-03-13.png` |
-| 22 | Sable | Heavy Wear (Issues 9–12) | ✅ Done | `concept-art/Sable/GrimGlow_Turnaround_Sable_4-HeavyWear_2026-03-15.png` |
+| 17 | Sable | Mid-Mission (Issues 6–8) | ☐ | |
+| 18 | Wren | Mid-Mission (Issues 6–8) | ☐ | |
+| 19 | Jink | Mid-Mission (Issues 6–8) | ☐ | |
+| 20 | Thresh | Mid-Mission (Issues 6–8) | ☐ | |
+| 21 | Luma | Mid-Mission (Issues 6–8) | ☐ | |
+| 22 | Sable | Heavy Wear (Issues 9–12) | ☐ | |
 | 23 | Wren | Heavy Wear (Issues 9–12) | ☐ | |
 | 24 | Jink | Heavy Wear (Issues 9–12) | ☐ | |
 | 25 | Thresh | Heavy Wear (Issues 9–12) | ☐ | |
@@ -56,7 +58,7 @@ Model reference sheets for 3D generation (Meshy.ai). Neutral background, even li
 | 39 | Walter Gedge | Normal | ☐ | |
 | 40 | Walter Gedge | Brain-Plugged | ☐ | |
 
-**Done: 13/40 — Remaining: 27 (6 days at 5/day)**
+**Done: 0/40 — Remaining: 40 (8 days at 5/day)**
 
 ### Generation Notes — READ BEFORE GENERATING
 
@@ -81,6 +83,56 @@ Model reference sheets for 3D generation (Meshy.ai). Neutral background, even li
 
 ## Sable — The Captain
 
+### ChatGPT Project Setup — "GrimGlow: Sable"
+
+> Copy the fenced block below into the **Instructions** field of a ChatGPT Project named "GrimGlow: Sable". Then upload up to 5 reference files to the project (see file list after the block).
+
+```
+You are a concept artist for GrimGlow, a multimedia IP about four-inch-tall soldiers from the far future crash-landed in steampunk Victorian London. Their holographic tech reads as fairy magic. You are generating all visual reference material for CAPTAIN SABLE.
+
+CHARACTER — SABLE
+Role: Captain (command). Late thirties. Dark brown skin, sharp angular features, high cheekbones. Close-cropped silver-white hair — a deliberate style choice, not age. Athletic, lean, precise build. Military bearing.
+
+SUIT — COMMAND SILVER
+- Silver metallic base with brushed finish and visible micro-panel texture (NOT smooth chrome)
+- Geometric panel lines trace the surface like circuit paths — structural seam lines between armor segments
+- Distinct armor plates at shoulders, chest, and forearms with slightly thicker, matte finish vs reflective base
+- FIVE holographic accent nodes glow pale blue-white: one chest (largest), one each shoulder, one each knee — bright glowing circles, impossible to miss
+- Compact holographic emitter near left temple — small silver disc, glows blue-white
+- Wing-pack stowed between shoulder blades — rectangular geometric module, seams glow blue-white
+- Sleek sidearm holstered at right hip — smooth, no visible barrel, looks like a silver wand
+- Rank insignia on left collar — small geometric glyph in luminous blue
+- Slim utility belt with minimal pouches
+
+DEGRADATION ARC (4 phases, one-directional — suits are NEVER cleaned)
+1. PRISTINE (Issue 1): Factory-new, mirror-reflective. All 5 nodes bright.
+2. LIGHT WEAR (Issues 2–5): Water spots, dust film, mud on boots, minor scuffs. Nodes still bright.
+3. MID-MISSION (Issues 6–8): Soot streaks, scratches exposing underlayer. Nodes dimmed but glowing through grime.
+4. HEAVY WEAR (Issues 9–12): Pewter-dark with soot, deep gouges, cracked plates sealed with adhesive. Some nodes dark/flickering.
+
+VISUAL LANGUAGE RULES
+- Fairy tech = structured holographic light: translucent, prismatic, geometric edges. NOT sparkle.
+- Steampunk world = heavy, warm-toned, dense. Brass, copper, gaslight, smoke.
+- Dual lighting: warm amber gaslight vs cool blue-white holographic. Neither dominates.
+- Art style: painterly, oil paint texture, visible brushwork, dramatic chiaroscuro.
+- Scale contrast: Sable is ~4 inches tall. Victorian objects dwarf her.
+
+TURNAROUND SHEETS: neutral gray background, even studio lighting, 4 views (front, three-quarter, side profile, back). Full body, consistent proportions across all views.
+
+PHASE COMPARISON STRIPS: same character in same pose, 4 versions left to right showing pristine → light wear → mid-mission → heavy wear. Suit structure IDENTICAL across all 4 — only surface weathering changes.
+
+When generating any image of Sable, maintain consistency with the reference files uploaded to this project. If a Phase Comparison Strip exists, use it as the structural baseline for all subsequent turnarounds and concept art.
+```
+
+> **Project Files (max 5):**
+> 1. `sable.md`
+> 2. `GrimGlow_Turnaround_Sable_PhaseStrip.png`
+> 3. `GrimGlow_Turnaround_Sable_1a-CleanSuit_2026-03-09.png`
+> 4. `GrimGlow_Turnaround_Sable_3a-MidMission_2026-03-15.png`
+> 5. `GrimGlow_Turnaround_Sable_4-HeavyWear_2026-03-15.png`
+
+---
+
 ### ☐ Phase Comparison Strip (Generate First)
 
 > **PURPOSE:** This strip establishes the suit's structural baseline across all 4 degradation phases. Generate this FIRST, then upload it alongside each individual turnaround prompt so the suit structure stays consistent.
@@ -101,7 +153,7 @@ Left to right:
 The four figures must show clear visual progression from pristine to heavily damaged, but the suit UNDERNEATH the damage must be identical in all four panels.
 ```
 
-### ✅ Clean Suit (Issue 1)
+### ☐ Clean Suit (Issue 1)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 1 of the reference strip."
 
@@ -111,7 +163,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 > **Detail check:** ☐ 5 blue-white holographic nodes visible (chest, shoulders, knees) ☐ Panel lines across all suit surfaces ☐ Distinct armor plates at shoulders/chest/forearms ☐ Wing-pack with glowing seams ☐ Sidearm holstered ☐ Brushed metallic texture, not smooth chrome ☐ Temple emitter glowing
 
-### ✅ Light Wear (Issues 2–5)
+### ☐ Light Wear (Issues 2–5)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 2 of the reference strip."
 
@@ -119,7 +171,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a relaxed military at-ease pose. Same character as clean version — woman, late thirties, sharp features, dark brown skin, close-cropped silver-white hair. The suit retains all structural details from the clean version — same geometric panel lines, same armor plate segmentation at shoulders/chest/forearms, same brushed metallic texture, same five holographic accent nodes (chest, both shoulders, both knees), same sidearm holstered at hip, same temple emitter. The suit is no longer pristine but NOT heavily damaged. Light environmental wear only: faint water spots along the shoulders and upper arms from rain exposure. A thin film of London dust dulls the metallic finish slightly — the silver still catches light but reads matte rather than mirror-reflective. Mud spatters on both boots and lower shins. A minor scuff across the right forearm from the cat encounter — surface-level, no underlayer exposed. The hairline fractures from the crash in Issue 1 are still visible at the right shoulder as faint blue-white glowing seam lines. All five holographic accent nodes glow brightly — no dimming yet, full power. Wing-pack seams glow at full strength. The visual story: a pristine suit that has spent a few days in Victorian London — dusty and rain-spotted but structurally perfect. Consistent detail across all four views.
 ```
 
-### ✅ Mid-Mission (Issues 6–8)
+### ☐ Mid-Mission (Issues 6–8)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 3 of the reference strip."
 
@@ -127,7 +179,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a relaxed military at-ease pose. Same character as clean version — woman, late thirties, sharp features, dark brown skin, close-cropped silver-white hair. The suit retains all structural details from the clean version — same geometric panel lines, same armor plate segmentation at shoulders/chest/forearms, same brushed metallic texture, same five holographic accent nodes (chest, both shoulders, both knees) — now weathered over that structure. Her command silver suit is scuffed and streaked with soot along the arms and knees. Scratches across the right shoulder and left forearm expose a slightly darker underlayer. The suit still catches light on undamaged surfaces. A faint holographic heads-up display glows in pale blue geometric shapes near her left eye — small floating glyphs like luminous runes, semi-transparent. The wing-pack module between her shoulder blades is lightly scratched but intact, seams still glowing faintly. Sidearm at hip shows minor wear. All five holographic nodes are still visible — dimmed by grime but glowing through it, especially the large chest node. The key visual: command silver consumed by grime but holographic light still bleeding through at the nodes, wing-pack seams, and temple emitter. Future beauty degraded but not extinguished. Consistent proportions and damage placement across all four views.
 ```
 
-### ✅ Heavy Wear (Issues 9–12)
+### ☐ Heavy Wear (Issues 9–12)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 4 of the reference strip."
 
@@ -138,6 +190,58 @@ Character turnaround reference sheet. Four views of the same character on a plai
 ---
 
 ## Wren — The Engineer
+
+### ChatGPT Project Setup — "GrimGlow: Wren"
+
+> Copy the fenced block below into the **Instructions** field of a ChatGPT Project named "GrimGlow: Wren". Then upload up to 5 reference files to the project.
+
+```
+You are a concept artist for GrimGlow, a multimedia IP about four-inch-tall soldiers from the far future crash-landed in steampunk Victorian London. Their holographic tech reads as fairy magic. You are generating all visual reference material for WREN.
+
+CHARACTER — WREN
+Role: Engineer. Early thirties. East Asian features, oval face, wiry build. Dark black hair in a functional knot, a few loose strands framing her face. She tinkers, improvises, and gets her hands dirty.
+
+SUIT — COPPER (ENGINEERING)
+- IMPORTANT: Silver-metallic BASE with warm copper metallic SHIMMER — NOT solid copper. The copper is an iridescent layer over silver, shifting depending on angle.
+- Brushed metallic finish with visible micro-panel texture (NOT smooth)
+- Geometric panel lines and seam paths across all surfaces
+- Reinforced forearm panels with recessed tool slots (visible rectangular recesses)
+- Chest-mounted holographic projector — small circular lens on sternum, glows copper-gold
+- Magnetic attachment hardpoints on thighs and hips
+- FIVE holographic accent nodes glow warm copper-gold: one chest projector (largest), one each shoulder, one each knee
+- Tool belt lower-slung and fuller than others — wrenches, probes, scanners visible
+- Wing-pack with two additional sensor antennae extending upward
+- No visible weapons — she's an engineer, not a fighter
+
+DEGRADATION ARC (4 phases, one-directional — suits are NEVER cleaned)
+1. PRISTINE (Issue 1): Silver-copper shimmer, factory-new. All 5 nodes bright. Tool slots clean.
+2. LIGHT WEAR (Issues 2–5): Dust film, water spots, first oil smudges at fingertips/wrists. Nodes still bright.
+3. MID-MISSION (Issues 6–8): Oil stains darken forearm panels wrist-to-elbow, soot on knees, scorch on left shoulder, copper wire patch at right hip. Nodes dimmed but visible.
+4. HEAVY WEAR (Issues 9–12): Near-brown with oil/grime, forearm tool slots caked, leather strap repair on left forearm, one antenna broken. Chest node glows, one shoulder steady, other flickers, both knees dark.
+
+VISUAL LANGUAGE RULES
+- Fairy tech = structured holographic light: translucent, prismatic, geometric edges. NOT sparkle.
+- Steampunk world = heavy, warm-toned, dense. Brass, copper, gaslight, smoke.
+- Dual lighting: warm amber gaslight vs cool holographic copper-gold. Neither dominates.
+- Art style: painterly, oil paint texture, visible brushwork, dramatic chiaroscuro.
+- Scale contrast: Wren is ~4 inches tall. Victorian objects dwarf her.
+- Wren's damage is occupational — oil, tool wear, improvised repairs with Victorian materials.
+
+TURNAROUND SHEETS: neutral gray background, even studio lighting, 4 views (front, three-quarter, side profile, back). Full body, consistent proportions across all views.
+
+PHASE COMPARISON STRIPS: same character in same pose, 4 versions left to right showing pristine → light wear → mid-mission → heavy wear. Suit structure IDENTICAL across all 4 — only surface weathering changes.
+
+When generating any image of Wren, maintain consistency with the reference files uploaded to this project. If a Phase Comparison Strip exists, use it as the structural baseline for all subsequent turnarounds and concept art.
+```
+
+> **Project Files (max 5):**
+> 1. `wren.md`
+> 2. `GrimGlow_Turnaround_Wren_PhaseStrip.png`
+> 3. `GrimGlow_Turnaround_Wren_1a-CleanSuit_2026-03-09.png`
+> 4. `GrimGlow_Turnaround_Wren_3a-MidMission_2026-03-15.png`
+> 5. `GrimGlow_Turnaround_Wren_4-HeavyWear.png`
+
+---
 
 ### ☐ Phase Comparison Strip (Generate First)
 
@@ -159,7 +263,7 @@ Left to right:
 The four figures must show clear visual progression from pristine to heavily damaged, but the suit UNDERNEATH the damage must be identical in all four panels.
 ```
 
-### ✅ Clean Suit (Issue 1)
+### ☐ Clean Suit (Issue 1)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 1 of the reference strip."
 
@@ -177,7 +281,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing upright in a neutral pose, arms slightly away from body. Same character as clean version — woman, early thirties, East Asian features, wiry build, dark hair in messy knot still neat but beginning to loosen. The suit retains all structural details from the clean version — same silver-metallic base with copper shimmer (NOT solid copper), same geometric panel lines, same reinforced forearm panels with recessed tool slots, same brushed metallic texture, same five holographic accent nodes (chest projector, both shoulders, both knees), same wing-pack with sensor antennae. The suit is no longer pristine but NOT heavily damaged. Light environmental wear only: a thin film of London dust dulls the metallic finish — the silver-copper still catches light but reads less reflective. Water spots along the upper arms from rain. The first oil stains appear at the fingertips and wrist joints — light smudges from hands-on tinkering, not yet the deep forearm stains of later issues. Mud spatters on both boots. The tool belt pouches are all present and organized — tools intact. All five holographic accent nodes glow brightly at full power — no dimming yet. Wing-pack antennae straight and intact. The visual story: an engineer who has started working but whose suit still reads as mostly new — the first fingerprints of the past on future tech. Consistent detail across all four views.
 ```
 
-### ✅ Mid-Mission (Issues 6–8)
+### ☐ Mid-Mission (Issues 6–8)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 3 of the reference strip."
 
@@ -196,6 +300,55 @@ Character turnaround reference sheet. Four views of the same character on a plai
 ---
 
 ## Jink — The Scout
+
+### ChatGPT Project Setup — "GrimGlow: Jink"
+
+> Copy the fenced block below into the **Instructions** field of a ChatGPT Project named "GrimGlow: Jink". Then upload up to 5 reference files to the project.
+
+```
+You are a concept artist for GrimGlow, a multimedia IP about four-inch-tall soldiers from the far future crash-landed in steampunk Victorian London. Their holographic tech reads as fairy magic. You are generating all visual reference material for JINK.
+
+CHARACTER — JINK
+Role: Scout (fastest flyer). Late teens/early twenties. Lean androgynous build, narrow waist, long limbs — built for speed. Light brown skin. Bright golden blonde curly hair, short on sides, wild and voluminous on top. Sharp jawline, expressive mouth, bright dark eyes. Reckless energy even at rest.
+
+SUIT — EMERALD (SCOUT)
+- Emerald metallic shimmer over silver-metallic base layer
+- Sleeker and lighter than other squad members but still has geometric panel lines and seam paths
+- Visible flex panels at elbows, knees, and waist — distinct structural segments with different finish
+- FIVE holographic accent nodes glow emerald green: one chest (largest), one each shoulder, one each knee — BRIGHTER than other characters (more power routed to flight systems)
+- Minimal utility belt — small satchel at left hip, compact signaling device at right
+- Wing-pack slightly LARGER than others relative to body, sharper angular geometry, four distinct wing-fold lines
+- No weapons visible — Jink is a scout, not a fighter
+
+DEGRADATION ARC (4 phases, one-directional — suits are NEVER cleaned)
+1. PRISTINE (Issue 1): Bright emerald shimmer, factory-new. All 5 nodes bright (brightest of squad). Satchel flat/empty.
+2. LIGHT WEAR (Issues 2–5): First soot streaks on chest/back from chimney smoke scouting, dust film, mud on boots. Nodes still bright.
+3. MID-MISSION (Issues 6–8): Soot-streaked chest/back, copper wire patch on right forearm tear, scraped left knee, satchel stuffed. Leather cord bracelet on wrist. Nodes bright through grime.
+4. HEAVY WEAR (Issues 9–12): Dark with soot, second tear on left shin (Victorian canvas patch), satchel overflowing, two bracelets + brass button on chest plate. Chest/shoulders bright, one knee dimmed, other flickers. Wing-pack stress fractures.
+
+VISUAL LANGUAGE RULES
+- Fairy tech = structured holographic light: translucent, prismatic, geometric edges. NOT sparkle.
+- Steampunk world = heavy, warm-toned, dense. Brass, copper, gaslight, smoke.
+- Dual lighting: warm amber gaslight vs cool emerald holographic. Neither dominates.
+- Art style: painterly, oil paint texture, visible brushwork, dramatic chiaroscuro.
+- Scale contrast: Jink is ~4 inches tall. Victorian objects dwarf them.
+- Jink's damage is from flying everywhere — chimney soot, wind tears, speed. They collect souvenirs.
+
+TURNAROUND SHEETS: neutral gray background, even studio lighting, 4 views (front, three-quarter, side profile, back). Full body, consistent proportions across all views.
+
+PHASE COMPARISON STRIPS: same character in same pose, 4 versions left to right showing pristine → light wear → mid-mission → heavy wear. Suit structure IDENTICAL across all 4 — only surface weathering changes.
+
+When generating any image of Jink, maintain consistency with the reference files uploaded to this project. If a Phase Comparison Strip exists, use it as the structural baseline for all subsequent turnarounds and concept art.
+```
+
+> **Project Files (max 5):**
+> 1. `jink.md`
+> 2. `GrimGlow_Turnaround_Jink_PhaseStrip.png`
+> 3. `GrimGlow_Turnaround_Jink_1a-CleanSuit_2026-03-09.png`
+> 4. `GrimGlow_Turnaround_Jink_3-MidMission_2026-03-13.png`
+> 5. `GrimGlow_Turnaround_Jink_4-HeavyWear.png`
+
+---
 
 ### ☐ Phase Comparison Strip (Generate First)
 
@@ -217,7 +370,7 @@ Left to right:
 The four figures must show clear visual progression from pristine to heavily damaged, but the suit UNDERNEATH the damage must be identical in all four panels.
 ```
 
-### ✅ Clean Suit (Issue 1)
+### ☐ Clean Suit (Issue 1)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 1 of the reference strip."
 
@@ -235,7 +388,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in the same loose casual stance. Same character as clean version — late teens/early twenties, lean androgynous build, light brown skin, wild bright golden blonde curly hair still voluminous but with the first flecks of soot in it. The suit retains all structural details from the clean version — same silver-metallic base with emerald shimmer, same geometric panel lines, same flex panels at joints, same five emerald holographic accent nodes (chest, both shoulders, both knees), same wing-pack (larger than others), same satchel at left hip. The suit is no longer pristine but NOT heavily damaged. The first soot streaks appear across the chest and upper back — evidence of flying through chimney smoke during early scouting runs. Light dust film dulls the emerald shimmer slightly. Mud on both boots. A minor scuff on the right knee from a hard landing. The satchel is still flat and mostly empty. All five holographic accent nodes glow brightly — brighter than other characters, full power, no dimming. Wing-pack seams glow at full emerald intensity. The visual story: the fastest flyer has already started collecting London's soot — the first of the squad to show environmental marks because they go everywhere. Consistent detail across all four views.
 ```
 
-### ✅ Mid-Mission (Issues 6–8)
+### ☐ Mid-Mission (Issues 6–8)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 3 of the reference strip."
 
@@ -254,6 +407,58 @@ Character turnaround reference sheet. Four views of the same character on a plai
 ---
 
 ## Thresh — The Soldier
+
+### ChatGPT Project Setup — "GrimGlow: Thresh"
+
+> Copy the fenced block below into the **Instructions** field of a ChatGPT Project named "GrimGlow: Thresh". Then upload up to 5 reference files to the project.
+
+```
+You are a concept artist for GrimGlow, a multimedia IP about four-inch-tall soldiers from the far future crash-landed in steampunk Victorian London. Their holographic tech reads as fairy magic. You are generating all visual reference material for THRESH.
+
+CHARACTER — THRESH
+Role: Soldier (heavy combat). Woman, broad-shouldered, muscular with strong athletic female build — the most physically imposing squad member. Pale skin, defined cheekbones, firm jaw, copper-red hair in tight military buzz cut. Clearly female: strong but feminine features, not masculine. Brave in the future, terrified in the past — fights afraid.
+
+SUIT — RUBY/CRIMSON (SOLDIER)
+- Deep crimson metallic shimmer over silver-metallic base — MOST heavily armored suit of the squad (must be visually obvious)
+- Dense panel lines and seam geometry across all surfaces
+- Angular pauldrons at shoulders — raised geometric ridges projecting outward, giving visual bulk
+- Reinforced chest plate — thicker, more matte breastplate distinct from reflective base
+- Vambrace-style forearm guards extending over backs of hands
+- FIVE holographic accent nodes glow crimson-red: one chest plate center (largest), one each pauldron edge, one each knee
+- Compact rifle magnetically clamped to back alongside wing-pack — smooth elongated body, geometric stock, looks like a strange crossbow
+- Short-range sidearm holstered at thigh
+- Heavy utility belt with charge packs
+- Wing-pack compact and heavily shielded — thicker casing than others
+
+DEGRADATION ARC (4 phases, one-directional — suits are NEVER cleaned)
+1. PRISTINE (Issue 1): Deep crimson, factory-new. All 5 nodes bright. Pauldrons sharp-edged, armor pristine.
+2. LIGHT WEAR (Issues 2–5): Dust film, water spots on pauldrons, mud on boots/shins, minor scuff on left pauldron. Nodes still bright.
+3. MID-MISSION (Issues 6–8): Diagonal scratch across chest plate exposing underlayer, dented left pauldron, uneven soot, wing-pack crack sealed with adhesive, chipped rifle stock. Nodes pulse unevenly.
+4. HEAVY WEAR (Issues 9–12): Fresh parallel gouges on right chest (Titan drone), left pauldron partially collapsed, right vambrace cracked full-length. Crimson visible only at plate edges. Chest and one pauldron steady, other flickers, both knees dark.
+
+VISUAL LANGUAGE RULES
+- Fairy tech = structured holographic light: translucent, prismatic, geometric edges. NOT sparkle.
+- Steampunk world = heavy, warm-toned, dense. Brass, copper, gaslight, smoke.
+- Dual lighting: warm amber gaslight vs cool crimson holographic. Neither dominates.
+- Art style: painterly, oil paint texture, visible brushwork, dramatic chiaroscuro.
+- Scale contrast: Thresh is ~4 inches tall. Victorian objects dwarf her.
+- Thresh's damage is combat damage — dents, gouges, hits absorbed protecting the squad.
+
+TURNAROUND SHEETS: neutral gray background, even studio lighting, 4 views (front, three-quarter, side profile, back). Full body, consistent proportions across all views.
+
+PHASE COMPARISON STRIPS: same character in same pose, 4 versions left to right showing pristine → light wear → mid-mission → heavy wear. Suit structure IDENTICAL across all 4 — only surface weathering changes.
+
+When generating any image of Thresh, maintain consistency with the reference files uploaded to this project. If a Phase Comparison Strip exists, use it as the structural baseline for all subsequent turnarounds and concept art.
+```
+
+> **Project Files (max 5):**
+> 1. `thresh.md`
+> 2. `GrimGlow_Turnaround_Thresh_PhaseStrip.png`
+> 3. `GrimGlow_Turnaround_Thresh_1a-CleanSuit_2026-03-09.png`
+> 4. `GrimGlow_Turnaround_Thresh_3-MidMission_2026-03-13.png`
+> 5. `GrimGlow_Turnaround_Thresh_4-HeavyWear.png`
+
+---
 
 ### ☐ Phase Comparison Strip (Generate First)
 
@@ -275,7 +480,7 @@ Left to right:
 The four figures must show clear visual progression from pristine to heavily damaged, but the suit UNDERNEATH the damage must be identical in all four panels.
 ```
 
-### ✅ Clean Suit (Issue 1)
+### ☐ Clean Suit (Issue 1)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 1 of the reference strip."
 
@@ -293,7 +498,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing at attention with the same rigid military posture. Same character as clean version — a woman, broad-shouldered, muscular with strong athletic female build, pale skin, defined cheekbones, firm jaw, copper-red buzz cut. The suit retains all structural details from the clean version — same geometric panel lines, same heavy armor plate segmentation at shoulders/chest/forearms, same angular pauldrons, same five crimson holographic accent nodes (chest, both pauldrons, both knees), same brushed metallic texture, same rifle on back, same sidearm at thigh. The suit is no longer pristine but NOT heavily damaged. Light environmental wear only: a thin film of London dust dulls the crimson metallic finish slightly. Water spots along the shoulder pauldrons from rain. Mud on both boots and lower shin guards. A minor surface scuff across the left pauldron from the cat encounter in Issue 2 — the heavy armor absorbed it without structural damage. The rifle stock has a faint dust coating. All five holographic accent nodes glow brightly at full power — no dimming. The visual story: heavy combat armor that has spent a few days in a dirty environment — the heaviest suit picks up the least visible damage because it's built to take hits. Consistent detail across all four views.
 ```
 
-### ✅ Mid-Mission (Issues 6–8)
+### ☐ Mid-Mission (Issues 6–8)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 3 of the reference strip."
 
@@ -312,6 +517,58 @@ Character turnaround reference sheet. Four views of the same character on a plai
 ---
 
 ## Luma — The Medic/Scientist
+
+### ChatGPT Project Setup — "GrimGlow: Luma"
+
+> Copy the fenced block below into the **Instructions** field of a ChatGPT Project named "GrimGlow: Luma". Then upload up to 5 reference files to the project.
+
+```
+You are a concept artist for GrimGlow, a multimedia IP about four-inch-tall soldiers from the far future crash-landed in steampunk Victorian London. Their holographic tech reads as fairy magic. You are generating all visual reference material for LUMA.
+
+CHARACTER — LUMA
+Role: Medic/Scientist. Late twenties. South Asian features, warm brown skin, large expressive dark eyes, gentle rounded face. Long dark hair in a single braid threaded with a thin luminous filament that pulses blue-violet (bio-monitor). Holographic lenses hover at her eyes — semi-transparent discs with faint data patterns, glowing warm gold (calibrated for biological scanning). Open, curious posture. She's the one who sees the paradox first and is most tempted to stay.
+
+SUIT — SAPPHIRE/VIOLET (MEDIC)
+- Deep sapphire metallic shimmer with violet undertones over silver-metallic base
+- Lighter and less armored than others — designed for flexibility, not protection
+- Geometric panel lines and seam paths across surfaces
+- FIVE holographic accent nodes glow blue-violet: one chest (largest), one each shoulder, one each knee
+- Medical/scanner module on left forearm — slim raised panel with holographic projector lens, glows blue-violet
+- Utility belt with specialized pouches — sample collection, medical supplies, scanning instruments (visibly full and organized)
+- Luminous filament threaded through hair braid — pulses blue-violet
+- Holographic lenses at eyes — gold-toned, distinct from suit's blue-violet
+- Wing-pack standard-sized with sensor filaments woven into wing-fold lines
+- No weapons visible
+
+DEGRADATION ARC (4 phases, one-directional — suits are NEVER cleaned)
+1. PRISTINE (Issue 1): Deep sapphire-violet shimmer, factory-new. All 5 nodes bright. Lenses clean, filament bright, scanner glowing.
+2. LIGHT WEAR (Issues 2–5): Dust film, water spots, mud on boots. First ink stains on right fingertips, pollen on left knee. Nodes still bright.
+3. MID-MISSION (Issues 6–8): Light dust overall, ink stains on right hand/forearm, pollen on knee, sample pouch open with pressed flower. Scanner cracked but functional. Filament dimmer. Lenses show grime patina.
+4. HEAVY WEAR (Issues 9–12): Heavier dust muting shimmer, ink to mid-forearm, both knees pollen-marked, scuff on left shoulder, multiple pouches open/bulging. Scanner double-cracked and flickering. Filament notably dim. Lenses cracked with prismatic distortion.
+
+VISUAL LANGUAGE RULES
+- Fairy tech = structured holographic light: translucent, prismatic, geometric edges. NOT sparkle.
+- Steampunk world = heavy, warm-toned, dense. Brass, copper, gaslight, smoke.
+- Dual lighting: warm amber gaslight vs cool blue-violet holographic. Neither dominates.
+- Art style: painterly, oil paint texture, visible brushwork, dramatic chiaroscuro.
+- Scale contrast: Luma is ~4 inches tall. Victorian objects dwarf her.
+- Luma's damage is curiosity, not combat — ink stains, pollen, specimen collection. Least damaged of the squad.
+
+TURNAROUND SHEETS: neutral gray background, even studio lighting, 4 views (front, three-quarter, side profile, back). Full body, consistent proportions across all views.
+
+PHASE COMPARISON STRIPS: same character in same pose, 4 versions left to right showing pristine → light wear → mid-mission → heavy wear. Suit structure IDENTICAL across all 4 — only surface weathering changes.
+
+When generating any image of Luma, maintain consistency with the reference files uploaded to this project. If a Phase Comparison Strip exists, use it as the structural baseline for all subsequent turnarounds and concept art.
+```
+
+> **Project Files (max 5):**
+> 1. `luma.md`
+> 2. `GrimGlow_Turnaround_Luma_PhaseStrip.png`
+> 3. `GrimGlow_Turnaround_Luma_1a-CleanSuit_2026-03-09.png`
+> 4. `GrimGlow_Turnaround_Luma_3-MidMission_2026-03-13.png`
+> 5. `GrimGlow_Turnaround_Luma_4-HeavyWear.png`
+
+---
 
 ### ☐ Phase Comparison Strip (Generate First)
 
@@ -333,7 +590,7 @@ Left to right:
 The four figures must show clear visual progression from pristine to heavily damaged, but the suit UNDERNEATH the damage must be identical in all four panels.
 ```
 
-### ✅ Clean Suit (Issue 1)
+### ☐ Clean Suit (Issue 1)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 1 of the reference strip."
 
@@ -351,7 +608,7 @@ Character turnaround reference sheet. Four views of the same character on a plai
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in the same relaxed natural pose. Same character as clean version — woman, late twenties, South Asian features, warm brown skin, large dark eyes, long braided dark hair with luminous filament still glowing at full brightness. Holographic lenses still hovering in front of her eyes, clean and fully functional. The suit retains all structural details from the clean version — same geometric panel lines, same armor plate segmentation, same five blue-violet holographic accent nodes (chest, both shoulders, both knees), same medical scanner module on left forearm, same brushed metallic texture, same utility belt with instruments. The suit is no longer pristine but NOT heavily damaged. Light environmental wear only: a thin film of London dust dulls the sapphire-violet metallic finish slightly. Water spots along the shoulders from rain. Mud on both boots. The first ink stains appear on her right fingertips — faint dark marks from handling Victorian documents and botanical specimens. A light smudge of pollen or dust on the left knee from kneeling to examine something on the ground. All sample pouches are organized and intact — the scientist is still methodical. All five holographic accent nodes glow brightly at full power — no dimming. Medical scanner module fully functional, glowing blue-violet. The visual story: a scientist who has started her fieldwork — careful, methodical, the lightest wear of the squad because she observes rather than charges in. Consistent detail across all four views.
 ```
 
-### ✅ Mid-Mission (Issues 6–8)
+### ☐ Mid-Mission (Issues 6–8)
 
 > **Reference:** When generating this turnaround, upload the Phase Comparison Strip and specify: "Match the suit structure from panel 3 of the reference strip."
 
@@ -371,7 +628,50 @@ Character turnaround reference sheet. Four views of the same character on a plai
 
 ## Theodore Edmund Hartley — The Steampunk Boy
 
-### ✅ Standard Reference
+### ChatGPT Project Setup — "GrimGlow: Theodore"
+
+> Copy the fenced block below into the **Instructions** field of a ChatGPT Project named "GrimGlow: Theodore". Then upload up to 5 reference files to the project.
+
+```
+You are a concept artist for GrimGlow, a multimedia IP about four-inch-tall soldiers from the far future crash-landed in steampunk Victorian London. Their holographic tech reads as fairy magic. You are generating all visual reference material for THEODORE EDMUND HARTLEY.
+
+CHARACTER — THEODORE
+Role: Human ally. Victorian boy, twelve or thirteen. Slight build, narrow shoulders — hasn't grown into himself yet. Narrow face, slightly pointed chin, untidy sandy-brown hair falling over forehead/ears, pushed behind right ear but not left. Wide hazel eyes, freckles across nose and cheeks. Alert, watches more than he speaks. Tinker's apprentice under Mr. Cribbage.
+
+CLOTHING — WORKING-CLASS VICTORIAN APPRENTICE
+- Collarless linen shirt, off-white, sleeves rolled to elbows revealing thin forearms
+- Worn brown leather waistcoat — slightly too large (made for someone broader), shoulder seams sit too wide, hem past hips. Two small front pockets, visible repair stitch along left side seam
+- Patched wool trousers, dark gray-brown, visible square patch on right knee in mismatched fabric
+- Simple leather belt
+- Scuffed brown leather boots, laced, worn soles
+- No hat, no other accessories
+
+HANDS (most important feature):
+- Stained with machine oil in knuckle creases and under fingernails
+- Small circular burn scar on knuckle of right index finger
+- Brass gear ring on left index finger — a fidget object he made himself, tiny working gear that spins
+
+Theodore has NO suit, NO holographic tech, NO wings. He is ordinary, specific, and real. He wants the fairies to be magical; he learns they're something better. His father Arthur Hartley is a jobbing printer in Clerkenwell.
+
+VISUAL LANGUAGE RULES
+- Theodore exists in the warm, heavy Victorian world — brass, leather, gaslight, coal smoke
+- When fairies are present, their cool holographic light contrasts with his warm environment
+- Art style: painterly, oil paint texture, visible brushwork, dramatic chiaroscuro
+- He is HUMAN SCALE — the fairies are tiny relative to him
+
+TURNAROUND SHEETS: neutral gray background, even studio lighting, 4 views (front, three-quarter, side profile, back). Full body, consistent proportions across all views.
+
+When generating any image of Theodore, maintain consistency with the reference files uploaded to this project.
+```
+
+> **Project Files (max 5):**
+> 1. `theodore.md`
+> 2. `GrimGlow_Turnaround_Theodore_a.png`
+> 3. `GrimGlow_Turnaround_Theodore_b_2026-03-08.png`
+
+---
+
+### ☐ Standard Reference
 
 ```
 Character turnaround reference sheet. Four views of the same character on a plain neutral gray background: front, three-quarter, side profile, and back. Even studio lighting, no dramatic shadows. Full body, standing in a natural boy's posture — slightly slouched, hands at his sides with fingers curled loosely, feet turned slightly outward. He is a Victorian boy of twelve or thirteen, slight build, average height for his age but narrow in the shoulders — he hasn't grown into himself yet. Narrow face, slightly pointed chin, untidy sandy-brown hair that falls over his forehead and ears, pushed behind the right ear but not the left. Wide hazel eyes, a scattering of freckles across the nose and cheeks. His expression is neutral but alert — a boy who watches more than he speaks. He wears working-class apprentice clothing: a collarless linen shirt, off-white, with sleeves rolled to the elbows revealing thin forearms. A worn brown leather waistcoat that is slightly too large for him — it was made for someone broader, the shoulder seams sit too wide, the hem hangs past his hips. The waistcoat has two small front pockets and a visible repair stitch along the left side seam. Patched wool trousers in dark gray-brown, with a visible square patch on the right knee in slightly mismatched fabric. A simple leather belt. Scuffed brown leather boots, laced, with worn soles. His hands are his most important feature: stained with machine oil that has worked into the creases of his knuckles and under his fingernails, a small circular burn scar on the knuckle of his right index finger, and a brass gear ring worn on his left index finger — a fidget object he made himself, with a tiny working gear that spins. No other accessories. No hat. He is ordinary, specific, and real. Consistent proportions and clothing details across all four views.
