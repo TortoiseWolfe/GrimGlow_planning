@@ -137,16 +137,36 @@
       <path d="M130,100 Q126,160 138,210 L150,206 Q142,160 146,104 Z" fill="url(#p2p5hair)"/>
       <path d="M246,100 Q250,160 238,210 L226,206 Q234,160 230,104 Z" fill="url(#p2p5hair)"/>
 
-      <!-- Single thick braid pulled BACK (visible as a partial trunk emerging from behind head, draped over right shoulder). -->
-      <path d="M234,200 Q244,232 254,264 Q264,294 256,322 L240,322 Q246,294 240,264 Q230,232 224,202 Z" fill="url(#p2p5hair)"/>
-      <!-- Braid texture. -->
-      <path d="M230,212 Q242,215 252,212" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
-      <path d="M232,232 Q244,235 254,232" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
-      <path d="M234,252 Q246,255 256,252" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
-      <path d="M236,272 Q248,275 258,272" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
-      <path d="M238,292 Q250,295 260,292" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
-      <path d="M240,310 Q250,313 258,310" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
-      <ellipse cx="252" cy="328" rx="6" ry="3.5" fill="#0a0604"/>
+      <!-- THICK braid pulled BACK, draped over right shoulder per _templates/luma.svg lines 168-200.
+           Wider trunk + plait segments + highlights + double tie + tassel wisps. -->
+      <!-- Main trunk widened from 30px to 38px. -->
+      <path d="M222,200 Q236,232 256,266 Q268,300 258,332 L236,336 Q246,300 240,266 Q230,232 220,202 Z" fill="url(#p2p5hair)"/>
+      <!-- Inner shadow giving 3D form. -->
+      <path d="M230,218 Q244,248 252,278 Q258,308 252,328" fill="none" stroke="#040201" stroke-width="3" opacity="0.5"/>
+      <!-- Plait S-curve segments showing woven structure. -->
+      <g stroke="#040201" stroke-width="1.6" fill="none" opacity="0.9">
+        <path d="M222,222 Q238,225 254,222"/>
+        <path d="M224,236 Q240,233 256,236"/>
+        <path d="M226,250 Q242,253 258,250"/>
+        <path d="M228,264 Q244,261 258,264"/>
+        <path d="M230,278 Q246,281 260,278"/>
+        <path d="M232,292 Q246,289 258,292"/>
+        <path d="M234,306 Q246,309 256,306"/>
+        <path d="M236,320 Q246,317 254,320"/>
+      </g>
+      <!-- Highlight strands following the braid's twist. -->
+      <g stroke="#5a4030" stroke-width="0.9" fill="none" opacity="0.7">
+        <path d="M222,216 Q230,234 238,254"/>
+        <path d="M236,236 Q246,260 250,290"/>
+        <path d="M246,272 Q252,300 254,326"/>
+      </g>
+      <!-- Braid tie at tip (double-band). -->
+      <ellipse cx="248" cy="338" rx="11" ry="4.5" fill="#040201"/>
+      <ellipse cx="248" cy="337" rx="9" ry="2.5" fill="#1a0e08"/>
+      <!-- Tassel wisps below tie. -->
+      <path d="M242,342 L240,352" stroke="#0a0604" stroke-width="0.8" opacity="0.85"/>
+      <path d="M248,343 L248,354" stroke="#0a0604" stroke-width="0.8" opacity="0.85"/>
+      <path d="M254,342 L256,352" stroke="#0a0604" stroke-width="0.8" opacity="0.85"/>
 
       <!-- Blue-violet key catching face. -->
       <ellipse cx="188" cy="142" rx="50" ry="30" fill="#7a52d8" opacity="0.18"/>
