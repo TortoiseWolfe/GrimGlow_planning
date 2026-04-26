@@ -262,22 +262,47 @@
           <!-- Head shape (slight 3/4 angle since looking right). -->
           <ellipse cx="92" cy="98" rx="22" ry="28" fill="url(#p4skinTone)"/>
 
-          <!-- Curly blonde hair on top — wild, catching prismatic light. -->
-          <path d="M72,80 Q68,60 78,52 Q88,46 92,52 Q100,46 110,52 Q120,58 116,80 Q114,72 110,70 Q112,62 105,62 Q100,68 92,66 Q88,68 80,62 Q73,62 76,72 Q73,76 72,80 Z" fill="url(#p4hair)"/>
-          <circle cx="78" cy="60" r="5" fill="url(#p4hair)"/>
-          <circle cx="86" cy="54" r="6" fill="url(#p4hair)"/>
-          <circle cx="96" cy="54" r="6" fill="url(#p4hair)"/>
-          <circle cx="106" cy="60" r="5" fill="url(#p4hair)"/>
-          <circle cx="82" cy="66" r="4" fill="url(#p4hair)"/>
-          <circle cx="102" cy="66" r="4" fill="url(#p4hair)"/>
-          <!-- Highlight glints. -->
-          <circle cx="79" cy="56" r="1.3" fill="#fff5d8" opacity="0.85"/>
-          <circle cx="88" cy="50" r="1.5" fill="#fff5d8" opacity="0.9"/>
-          <circle cx="98" cy="50" r="1.3" fill="#fff5d8" opacity="0.85"/>
+          <!-- Curly blonde hair — multi-clump per template (jink.svg lines 196–231), scaled ~0.85 to head rx=22 ry=28. -->
+          <!-- Tight side coverage (short, hugs scalp). -->
+          <path d="M70,82 Q69,73 73,68 Q78,71 78,82 Z" fill="url(#p4hair)"/>
+          <path d="M114,82 Q115,73 111,68 Q106,71 106,82 Z" fill="url(#p4hair)"/>
+          <!-- Top scalp base. -->
+          <path d="M73,73 Q92,66 111,73 Q109,79 92,77 Q75,79 73,73 Z" fill="url(#p4hair)"/>
+          <!-- Front-row clumps (tallest). -->
+          <circle cx="80" cy="63" r="5" fill="url(#p4hair)"/>
+          <circle cx="87" cy="56" r="6" fill="url(#p4hair)"/>
+          <circle cx="96" cy="55" r="6.4" fill="url(#p4hair)"/>
+          <circle cx="105" cy="60" r="5" fill="url(#p4hair)"/>
+          <!-- Mid-row clumps. -->
+          <circle cx="75" cy="70" r="3.4" fill="url(#p4hair)"/>
+          <circle cx="83" cy="66" r="4.2" fill="url(#p4hair)" opacity="0.95"/>
+          <circle cx="92" cy="65" r="4.7" fill="url(#p4hair)" opacity="0.95"/>
+          <circle cx="100" cy="66" r="4.2" fill="url(#p4hair)" opacity="0.95"/>
+          <circle cx="109" cy="70" r="3.4" fill="url(#p4hair)"/>
+          <!-- Rim curls peeking up at top. -->
+          <circle cx="91" cy="50" r="2.6" fill="url(#p4hair)"/>
+          <circle cx="99" cy="50" r="2.6" fill="url(#p4hair)"/>
+          <!-- Dark separation between clumps so they READ as separate curls. -->
+          <g stroke="#5a3818" stroke-width="0.6" fill="none" opacity="0.7">
+            <path d="M85,63 Q83,67 81,69"/>
+            <path d="M91,59 Q93,63 95,59"/>
+            <path d="M101,59 Q101,63 100,66"/>
+            <path d="M79,69 Q81,73 85,73"/>
+            <path d="M96,69 Q97,73 100,71"/>
+          </g>
+          <!-- Highlight glints on curl tops. -->
+          <ellipse cx="81" cy="60" rx="1.4" ry="0.8" fill="#fff5d8" opacity="0.9"/>
+          <ellipse cx="88" cy="53" rx="1.5" ry="0.85" fill="#fff5d8" opacity="0.95"/>
+          <ellipse cx="97" cy="52" rx="1.5" ry="0.85" fill="#fff5d8" opacity="0.95"/>
+          <ellipse cx="105" cy="58" rx="1.4" ry="0.8" fill="#fff5d8" opacity="0.9"/>
+          <ellipse cx="92" cy="63" rx="1.2" ry="0.7" fill="#fff5d8" opacity="0.7"/>
+          <!-- Stray escaped curls at temples. -->
+          <path d="M75,72 Q72,77 70,82" fill="none" stroke="#a07820" stroke-width="0.7" stroke-linecap="round" opacity="0.85"/>
+          <path d="M109,72 Q112,77 114,82" fill="none" stroke="#a07820" stroke-width="0.7" stroke-linecap="round" opacity="0.85"/>
 
           <!-- Cool prismatic rim on hair (light from viewport on right). -->
-          <circle cx="106" cy="60" r="5" fill="#bfe4ff" opacity="0.35"/>
-          <circle cx="102" cy="66" r="4" fill="#bfe4ff" opacity="0.3"/>
+          <circle cx="105" cy="60" r="5" fill="#bfe4ff" opacity="0.3"/>
+          <circle cx="100" cy="66" r="4" fill="#bfe4ff" opacity="0.25"/>
 
           <!-- Eyes — looking sideways to the right (at viewport), restless. -->
           <ellipse cx="88" cy="98" rx="2.6" ry="1.3" fill="#1a0e08"/>
