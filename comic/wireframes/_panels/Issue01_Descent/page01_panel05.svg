@@ -104,17 +104,43 @@
     <line x1="120" y1="80" x2="154" y2="260" stroke="#2a3450" stroke-width="0.7" opacity="0.7"/>
     <line x1="374" y1="80" x2="340" y2="260" stroke="#2a3450" stroke-width="0.7" opacity="0.7"/>
 
+    <!-- DISTANT DOORWAY at back of corridor (bright spot — signals corridor recedes far). -->
+    <rect x="220" y="130" width="54" height="100" fill="#0a1228" opacity="0.85"/>
+    <rect x="226" y="138" width="42" height="84" fill="#1a2848" opacity="0.95"/>
+    <!-- Distant doorway light leak (soft blue-white from beyond). -->
+    <ellipse cx="247" cy="180" rx="32" ry="48" fill="#7c92ae" filter="url(#p5strongBloom)" opacity="0.5"/>
+    <ellipse cx="247" cy="180" rx="14" ry="22" fill="#a8b8d0" filter="url(#p5softBloom)" opacity="0.65"/>
+    <!-- Doorway frame outline. -->
+    <rect x="220" y="130" width="54" height="100" fill="none" stroke="#3a4a6a" stroke-width="0.8"/>
+
     <!-- Overhead corridor light strip (dim blue-white). -->
     <rect x="180" y="86" width="140" height="3" fill="#7c92ae" filter="url(#p5softBloom)" opacity="0.8"/>
+    <!-- Second light strip further back (smaller — perspective). -->
+    <rect x="220" y="116" width="54" height="2" fill="#7c92ae" filter="url(#p5softBloom)" opacity="0.65"/>
 
-    <!-- Wall plate seams (corridor depth). -->
+    <!-- Wall plate seams (corridor depth — additional perspective lines). -->
     <line x1="200" y1="80" x2="210" y2="260" stroke="#1a2238" stroke-width="0.6" opacity="0.7"/>
     <line x1="290" y1="80" x2="280" y2="260" stroke="#1a2238" stroke-width="0.6" opacity="0.7"/>
+    <line x1="170" y1="80" x2="184" y2="260" stroke="#1a2238" stroke-width="0.5" opacity="0.5"/>
+    <line x1="324" y1="80" x2="310" y2="260" stroke="#1a2238" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Receding ceiling perspective lines (orthogonal cross-bracing). -->
+    <line x1="120" y1="80" x2="180" y2="98" stroke="#2a3450" stroke-width="0.4" opacity="0.55"/>
+    <line x1="374" y1="80" x2="314" y2="98" stroke="#2a3450" stroke-width="0.4" opacity="0.55"/>
+    <line x1="180" y1="98" x2="220" y2="116" stroke="#2a3450" stroke-width="0.4" opacity="0.5"/>
+    <line x1="314" y1="98" x2="274" y2="116" stroke="#2a3450" stroke-width="0.4" opacity="0.5"/>
 
     <!-- Floor tiles. -->
     <path d="M154,260 L340,260 L494,364 L0,364 Z" fill="#15192a"/>
     <line x1="0" y1="364" x2="494" y2="364" stroke="#2a3450" stroke-width="0.5"/>
     <line x1="100" y1="320" x2="394" y2="320" stroke="#2a3450" stroke-width="0.4" opacity="0.55"/>
+    <!-- Additional floor seams to convey depth (closer to camera). -->
+    <line x1="50" y1="340" x2="444" y2="340" stroke="#2a3450" stroke-width="0.4" opacity="0.5"/>
+    <line x1="130" y1="288" x2="364" y2="288" stroke="#2a3450" stroke-width="0.35" opacity="0.5"/>
+    <line x1="148" y1="272" x2="346" y2="272" stroke="#2a3450" stroke-width="0.3" opacity="0.45"/>
+    <!-- Receding floor perspective lines (orthogonal). -->
+    <line x1="0" y1="364" x2="190" y2="260" stroke="#2a3450" stroke-width="0.4" opacity="0.45"/>
+    <line x1="494" y1="364" x2="304" y2="260" stroke="#2a3450" stroke-width="0.4" opacity="0.45"/>
   </g>
 
   <!-- ========================================================== -->
