@@ -1,0 +1,328 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 1 — Page 3 — Panel 6: ECU Wren's hand on emergency toggle</title>
+  <desc>Extreme close-up at 135mm, straight on. A hand slams down on a physical brass-and-steel emergency toggle switch (NOT holographic) — fingers wrapped tight, knuckles white. The hand wears the sleeve of a pristine metallic copper suit, holographic node at wrist glowing copper-gold faintly through the chaos. Industrial mechanical backup system. Red emergency light from above. White-hot drive-engaging flare bleeding inward from frame edges. WREN: "Brace for uncontrolled exit!" / SFX: **CHUNK** (the switch).</desc>
+
+  <defs>
+    <!-- Copper suit gradients (matching wren template). -->
+    <linearGradient id="p3p6copperSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e6e3dc"/>
+      <stop offset="20%" stop-color="#c2bfb6"/>
+      <stop offset="50%" stop-color="#9a968c"/>
+      <stop offset="80%" stop-color="#76726a"/>
+      <stop offset="100%" stop-color="#58544c"/>
+    </linearGradient>
+    <linearGradient id="p3p6copperHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="p3p6copperTrim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8a065"/>
+      <stop offset="50%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#8c4a18"/>
+    </linearGradient>
+    <linearGradient id="p3p6suitSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c261c"/>
+      <stop offset="100%" stop-color="#15110b"/>
+    </linearGradient>
+
+    <!-- Wren's east asian skin tone. -->
+    <linearGradient id="p3p6skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c39e"/>
+      <stop offset="50%" stop-color="#c89a72"/>
+      <stop offset="100%" stop-color="#8a6038"/>
+    </linearGradient>
+    <linearGradient id="p3p6knuckle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff0d8"/>
+      <stop offset="60%" stop-color="#e8c39e"/>
+      <stop offset="100%" stop-color="#a87a52"/>
+    </linearGradient>
+
+    <!-- Brass for the toggle housing. -->
+    <linearGradient id="p3p6brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="40%" stop-color="#c89030"/>
+      <stop offset="100%" stop-color="#5a3a10"/>
+    </linearGradient>
+    <linearGradient id="p3p6brassPlate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87830"/>
+      <stop offset="50%" stop-color="#7a5418"/>
+      <stop offset="100%" stop-color="#3a2208"/>
+    </linearGradient>
+
+    <!-- Steel for the toggle lever. -->
+    <linearGradient id="p3p6steel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dadde2"/>
+      <stop offset="50%" stop-color="#7a808a"/>
+      <stop offset="100%" stop-color="#2a2e36"/>
+    </linearGradient>
+
+    <!-- Copper-gold holographic emitter at wrist. -->
+    <radialGradient id="p3p6copperGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#f5a850" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#c8761e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p6copperCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#fff5d8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#f5a850" stop-opacity="0.55"/>
+    </radialGradient>
+
+    <!-- Red emergency wash from above. -->
+    <radialGradient id="p3p6redEmergency" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ff4060" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#dc2030" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3a0610" stop-opacity="0.2"/>
+    </radialGradient>
+
+    <!-- White-hot drive flare from frame edges. -->
+    <radialGradient id="p3p6flareTL" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#fff5d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff5d8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p6flareTR" cx="100%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#fff5d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff5d8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p6flareBL" cx="0%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#fff5d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff5d8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p6flareBR" cx="100%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#fff5d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fff5d8" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="p3p6bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="p3p6strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="p3p6dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dark industrial backdrop                             -->
+  <!-- ========================================================== -->
+  <g id="p3p6-bg">
+    <rect width="366" height="364" fill="#0a0408"/>
+    <rect width="366" height="364" fill="url(#p3p6redEmergency)"/>
+
+    <!-- Riveted bulkhead plate behind the switch (industrial detail). -->
+    <rect x="60" y="120" width="280" height="200" fill="url(#p3p6brassPlate)" opacity="0.65"/>
+    <rect x="60" y="120" width="280" height="200" fill="none" stroke="#3a2208" stroke-width="1.5"/>
+    <!-- Plate corner rivets. -->
+    <circle cx="74" cy="134" r="3" fill="#5a3a10"/>
+    <circle cx="74" cy="134" r="1.5" fill="#7a5418"/>
+    <circle cx="326" cy="134" r="3" fill="#5a3a10"/>
+    <circle cx="326" cy="134" r="1.5" fill="#7a5418"/>
+    <circle cx="74" cy="306" r="3" fill="#5a3a10"/>
+    <circle cx="74" cy="306" r="1.5" fill="#7a5418"/>
+    <circle cx="326" cy="306" r="3" fill="#5a3a10"/>
+    <circle cx="326" cy="306" r="1.5" fill="#7a5418"/>
+    <!-- Edge rivets. -->
+    <circle cx="200" cy="134" r="2.5" fill="#5a3a10"/>
+    <circle cx="200" cy="306" r="2.5" fill="#5a3a10"/>
+
+    <!-- Industrial labeling stencil on plate. -->
+    <text x="74" y="158" font-family="Impact, sans-serif" font-size="11" font-weight="900" fill="#3a2208" opacity="0.85" letter-spacing="2">EMERG. DRIVE</text>
+    <text x="74" y="296" font-family="Impact, sans-serif" font-size="9" font-weight="900" fill="#3a2208" opacity="0.75" letter-spacing="1.5">PULL DOWN — HOLD</text>
+
+    <!-- Hazard stripes on plate corners (red+yellow). -->
+    <g opacity="0.5">
+      <polygon points="60,170 90,170 80,184 60,184" fill="#ffe080"/>
+      <polygon points="80,184 100,184 90,196 70,196" fill="#dc2030"/>
+      <polygon points="90,196 110,196 100,210 80,210" fill="#ffe080"/>
+      <polygon points="270,210 290,210 300,196 280,196" fill="#dc2030"/>
+      <polygon points="280,196 300,196 310,184 290,184" fill="#ffe080"/>
+      <polygon points="290,184 310,184 320,170 300,170" fill="#dc2030"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: brass switch housing — central, dominating frame     -->
+  <!-- ========================================================== -->
+  <g id="p3p6-housing" filter="url(#p3p6dropShadow)">
+    <!-- Mounting plate (brass). -->
+    <rect x="120" y="180" width="160" height="100" rx="4" fill="url(#p3p6brass)"/>
+    <rect x="120" y="180" width="160" height="100" rx="4" fill="none" stroke="#3a2208" stroke-width="1.5"/>
+    <!-- Plate inner bevel. -->
+    <rect x="126" y="186" width="148" height="88" rx="2" fill="none" stroke="#fff5d8" stroke-width="0.7" opacity="0.55"/>
+    <!-- Plate screws. -->
+    <circle cx="132" cy="192" r="3" fill="#5a3a10"/>
+    <circle cx="132" cy="192" r="1.5" fill="#a87830"/>
+    <line x1="130" y1="190" x2="134" y2="194" stroke="#3a2208" stroke-width="0.7"/>
+    <circle cx="268" cy="192" r="3" fill="#5a3a10"/>
+    <circle cx="268" cy="192" r="1.5" fill="#a87830"/>
+    <line x1="266" y1="190" x2="270" y2="194" stroke="#3a2208" stroke-width="0.7"/>
+    <circle cx="132" cy="268" r="3" fill="#5a3a10"/>
+    <circle cx="132" cy="268" r="1.5" fill="#a87830"/>
+    <line x1="130" y1="266" x2="134" y2="270" stroke="#3a2208" stroke-width="0.7"/>
+    <circle cx="268" cy="268" r="3" fill="#5a3a10"/>
+    <circle cx="268" cy="268" r="1.5" fill="#a87830"/>
+    <line x1="266" y1="266" x2="270" y2="270" stroke="#3a2208" stroke-width="0.7"/>
+
+    <!-- Toggle base / pivot (brass cylinder). -->
+    <ellipse cx="200" cy="232" rx="22" ry="10" fill="url(#p3p6brass)"/>
+    <ellipse cx="200" cy="230" rx="22" ry="9" fill="none" stroke="#3a2208" stroke-width="0.8"/>
+    <ellipse cx="200" cy="230" rx="14" ry="4" fill="#3a2208" opacity="0.5"/>
+
+    <!-- Toggle lever (steel) — angled DOWN per "pulled down" position. -->
+    <g id="p3p6-lever">
+      <!-- Lever shaft (mid-throw, angling toward bottom of frame). -->
+      <path d="M194,230 L186,156 L208,156 L206,230 Z" fill="url(#p3p6steel)"/>
+      <path d="M194,230 L186,156 L208,156 L206,230 Z" fill="url(#p3p6copperHi)" opacity="0.55"/>
+      <!-- Lever shaft seam. -->
+      <line x1="200" y1="156" x2="200" y2="228" stroke="#1a1d22" stroke-width="0.7" opacity="0.85"/>
+
+      <!-- Lever cap / grip ball at top (where the hand grips). -->
+      <ellipse cx="197" cy="148" rx="20" ry="14" fill="url(#p3p6steel)"/>
+      <ellipse cx="197" cy="148" rx="20" ry="14" fill="none" stroke="#1a1d22" stroke-width="0.9"/>
+      <!-- Grip ball highlight. -->
+      <ellipse cx="190" cy="142" rx="6" ry="3" fill="#ffffff" opacity="0.65"/>
+      <!-- Grip texture rings. -->
+      <ellipse cx="197" cy="148" rx="14" ry="9" fill="none" stroke="#1a1d22" stroke-width="0.5" opacity="0.55"/>
+      <ellipse cx="197" cy="148" rx="8" ry="5" fill="none" stroke="#1a1d22" stroke-width="0.5" opacity="0.45"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: HAND — slamming down, fingers wrapped around grip    -->
+  <!-- 5 visible fingers + knuckles + nail highlights per quality-bar. -->
+  <!-- Hand comes from upper-left with copper-suit sleeve.          -->
+  <!-- ========================================================== -->
+  <g id="p3p6-hand" filter="url(#p3p6dropShadow)">
+
+    <!-- Copper suit sleeve coming in from upper-left. -->
+    <g id="p3p6-sleeve">
+      <!-- Forearm sleeve (cropped at frame edge). -->
+      <path d="M-10,40 Q40,30 90,60 Q120,80 152,108 L130,138 Q105,118 75,96 Q35,75 -10,80 Z" fill="url(#p3p6copperSuit)"/>
+      <path d="M-10,40 Q40,30 90,60 Q120,80 152,108 L130,138 Q105,118 75,96 Q35,75 -10,80 Z" fill="url(#p3p6copperHi)"/>
+      <!-- Plate seams on sleeve. -->
+      <line x1="20" y1="50" x2="60" y2="80" stroke="#2c261c" stroke-width="0.9" opacity="0.65"/>
+      <line x1="50" y1="42" x2="100" y2="78" stroke="#2c261c" stroke-width="0.7" opacity="0.55"/>
+      <!-- Copper trim line along sleeve edge. -->
+      <path d="M-10,46 Q42,38 90,66 Q118,82 148,110" fill="none" stroke="url(#p3p6copperTrim)" stroke-width="2.2" opacity="0.85"/>
+      <!-- Wrist cuff (where sleeve meets glove/hand). -->
+      <path d="M130,138 L152,108 L170,118 L154,150 Z" fill="url(#p3p6suitSeam)"/>
+      <path d="M130,138 L152,108 L170,118 L154,150 Z" fill="url(#p3p6copperHi)" opacity="0.4"/>
+      <!-- Wrist seam. -->
+      <line x1="135" y1="135" x2="156" y2="113" stroke="#15110b" stroke-width="0.9"/>
+
+      <!-- WRIST HOLOGRAPHIC EMITTER — copper-gold node faintly visible. -->
+      <g filter="url(#p3p6bloom)">
+        <ellipse cx="151" cy="128" rx="14" ry="6" fill="url(#p3p6copperGlow)" opacity="0.85"/>
+      </g>
+      <ellipse cx="151" cy="128" rx="9" ry="3.5" fill="url(#p3p6copperCore)" opacity="0.95"/>
+      <ellipse cx="151" cy="128" rx="5" ry="1.8" fill="#ffffff" opacity="0.85"/>
+    </g>
+
+    <!-- HAND BACK (the back of the hand, palm-down on grip). -->
+    <g id="p3p6-handback">
+      <!-- Main back-of-hand mass. -->
+      <path d="M148,140 Q170,128 196,124 Q220,124 232,138 L232,162 Q220,156 196,154 Q170,154 152,164 Z" fill="url(#p3p6skin)"/>
+      <path d="M148,140 Q170,128 196,124 Q220,124 232,138 L232,162 Q220,156 196,154 Q170,154 152,164 Z" fill="url(#p3p6knuckle)" opacity="0.55"/>
+
+      <!-- KNUCKLES (4 visible bumps across, white with strain). -->
+      <ellipse cx="168" cy="138" rx="6" ry="4" fill="url(#p3p6knuckle)"/>
+      <ellipse cx="166" cy="135" rx="3" ry="1.6" fill="#ffffff" opacity="0.85"/>
+      <ellipse cx="184" cy="132" rx="6.5" ry="4" fill="url(#p3p6knuckle)"/>
+      <ellipse cx="182" cy="129" rx="3" ry="1.6" fill="#ffffff" opacity="0.9"/>
+      <ellipse cx="200" cy="130" rx="6.5" ry="4" fill="url(#p3p6knuckle)"/>
+      <ellipse cx="198" cy="127" rx="3" ry="1.6" fill="#ffffff" opacity="0.9"/>
+      <ellipse cx="216" cy="134" rx="6" ry="4" fill="url(#p3p6knuckle)"/>
+      <ellipse cx="214" cy="131" rx="3" ry="1.6" fill="#ffffff" opacity="0.85"/>
+
+      <!-- Tendon ridges between knuckles (extensor tendons strained from grip). -->
+      <line x1="170" y1="148" x2="174" y2="160" stroke="#a87a52" stroke-width="0.8" opacity="0.7"/>
+      <line x1="186" y1="146" x2="188" y2="160" stroke="#a87a52" stroke-width="0.9" opacity="0.75"/>
+      <line x1="202" y1="144" x2="204" y2="160" stroke="#a87a52" stroke-width="0.9" opacity="0.75"/>
+      <line x1="218" y1="146" x2="220" y2="160" stroke="#a87a52" stroke-width="0.8" opacity="0.7"/>
+    </g>
+
+    <!-- FINGERS wrapped around the lever grip ball — visible curling around the cap. -->
+    <g id="p3p6-fingers">
+      <!-- Index finger curling around right side of grip. -->
+      <path d="M168,138 Q172,148 174,158 Q176,168 178,176 Q176,180 170,180 Q164,178 162,170 Q160,158 162,148 Q164,140 168,138 Z" fill="url(#p3p6skin)"/>
+      <path d="M170,168 Q174,170 176,168" fill="none" stroke="#7a5230" stroke-width="0.8" opacity="0.7"/>
+      <!-- Index nail highlight. -->
+      <ellipse cx="170" cy="178" rx="3.5" ry="1.5" fill="#fff0d8" opacity="0.7"/>
+
+      <!-- Middle finger. -->
+      <path d="M184,132 Q188,144 190,156 Q192,168 194,178 Q192,184 186,184 Q180,182 178,172 Q176,160 178,146 Q180,134 184,132 Z" fill="url(#p3p6skin)"/>
+      <path d="M186,168 Q190,170 194,168" fill="none" stroke="#7a5230" stroke-width="0.8" opacity="0.7"/>
+      <ellipse cx="186" cy="180" rx="4" ry="1.5" fill="#fff0d8" opacity="0.75"/>
+
+      <!-- Ring finger. -->
+      <path d="M200,130 Q204,142 206,154 Q208,166 210,176 Q208,182 202,182 Q196,180 194,170 Q192,158 194,144 Q196,132 200,130 Z" fill="url(#p3p6skin)"/>
+      <path d="M202,166 Q206,168 210,166" fill="none" stroke="#7a5230" stroke-width="0.8" opacity="0.7"/>
+      <ellipse cx="202" cy="178" rx="4" ry="1.5" fill="#fff0d8" opacity="0.75"/>
+
+      <!-- Pinky finger. -->
+      <path d="M216,134 Q220,144 222,154 Q224,162 226,170 Q224,176 218,176 Q214,174 212,166 Q210,156 212,146 Q214,136 216,134 Z" fill="url(#p3p6skin)"/>
+      <path d="M218,162 Q222,164 226,162" fill="none" stroke="#7a5230" stroke-width="0.8" opacity="0.7"/>
+      <ellipse cx="218" cy="172" rx="3.5" ry="1.4" fill="#fff0d8" opacity="0.7"/>
+
+      <!-- THUMB on the LEFT/NEAR side of grip ball. -->
+      <path d="M148,144 Q138,150 132,162 Q128,174 134,182 Q140,184 148,178 Q156,170 158,160 Q160,150 154,144 Q150,142 148,144 Z" fill="url(#p3p6skin)"/>
+      <path d="M138,170 Q142,174 148,172" fill="none" stroke="#7a5230" stroke-width="0.8" opacity="0.7"/>
+      <ellipse cx="138" cy="180" rx="3.5" ry="1.4" fill="#fff0d8" opacity="0.7"/>
+    </g>
+
+    <!-- Strain veins on hand back (subtle). -->
+    <g stroke="#a87a52" stroke-width="0.7" fill="none" opacity="0.4">
+      <path d="M170,150 Q180,148 200,150"/>
+      <path d="M195,148 Q210,150 225,150"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: white-hot drive flare — bleeding inward from edges    -->
+  <!-- ========================================================== -->
+  <g id="p3p6-flare">
+    <rect width="160" height="160" fill="url(#p3p6flareTL)" filter="url(#p3p6strongBloom)"/>
+    <rect x="206" y="0" width="160" height="160" fill="url(#p3p6flareTR)" filter="url(#p3p6strongBloom)"/>
+    <rect y="204" width="160" height="160" fill="url(#p3p6flareBL)" filter="url(#p3p6strongBloom)"/>
+    <rect x="206" y="204" width="160" height="160" fill="url(#p3p6flareBR)" filter="url(#p3p6strongBloom)"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue                                              -->
+  <!-- ========================================================== -->
+  <g id="p3p6-dialogue">
+    <!-- WREN balloon top-right (away from hand+lever subject in center). -->
+    <rect x="186" y="14" width="174" height="60" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="216,74 230,74 200,98" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="217" y1="74" x2="229" y2="74" stroke="#ffffff" stroke-width="3"/>
+    <text x="196" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="196" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Brace for uncontrolled</text>
+    <text x="196" y="66" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">exit!</text>
+
+    <!-- SFX **CHUNK** at toggle base, large, rotated. -->
+    <g id="p3p6-chunk">
+      <text x="220" y="280" font-family="Impact, sans-serif" font-size="42" font-weight="900" stroke="#1a0408" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" fill="#ffe080" transform="rotate(-6 220 280)">CHUNK</text>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: panel meta                                            -->
+  <!-- ========================================================== -->
+  <g id="p3p6-meta">
+    <text x="356" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">6</text>
+    <text x="360" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">ECU</text>
+  </g>
+
+</svg>
