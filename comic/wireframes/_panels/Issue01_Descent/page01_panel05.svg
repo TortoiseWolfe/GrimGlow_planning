@@ -277,15 +277,45 @@
         <!-- Head shape. -->
         <ellipse cx="22" cy="-8" rx="22" ry="28" fill="url(#p5skinTone)"/>
 
-        <!-- Hair: tall swept-back pomp + shaved sides (visible from back: short top swept back, undercut). -->
-        <!-- Shaved sides (back of skull). -->
-        <path d="M-2,-22 Q-2,-2 4,18 Q4,4 6,-14 Z" fill="url(#p5hair)" opacity="0.85"/>
-        <path d="M46,-22 Q46,-2 40,18 Q40,4 38,-14 Z" fill="url(#p5hair)" opacity="0.85"/>
-        <!-- Top swept back. -->
-        <path d="M2,-26 Q4,-44 22,-50 Q44,-46 46,-26 Q40,-32 22,-32 Q6,-32 2,-26 Z" fill="url(#p5hair)"/>
-        <!-- Hair waves (swept lines). -->
-        <path d="M6,-30 Q22,-42 40,-30" fill="none" stroke="#6a1a08" stroke-width="1" opacity="0.85"/>
-        <path d="M8,-20 Q22,-30 38,-20" fill="none" stroke="#a83012" stroke-width="0.7" opacity="0.6"/>
+        <!-- Hair: TALL swept-back pomp + shaved sides per _templates/thresh.svg.
+             3/4 back view, so the pomp's upswept volume rises above the head silhouette
+             and we see the back of it sweeping rearward. -->
+        <!-- SHAVED SIDES (very short, just stipple texture on skin around back of skull). -->
+        <path d="M-2,-22 Q-2,-2 4,18 Q4,4 6,-14 Z" fill="url(#p5hair)" opacity="0.55"/>
+        <path d="M46,-22 Q46,-2 40,18 Q40,4 38,-14 Z" fill="url(#p5hair)" opacity="0.55"/>
+        <!-- Stipple on shaved sides (suggesting buzzed-short hair). -->
+        <g stroke="#6a1a08" stroke-width="0.4" stroke-linecap="round" opacity="0.7">
+          <line x1="0" y1="-12" x2="1" y2="-9"/>
+          <line x1="2" y1="-6" x2="3" y2="-3"/>
+          <line x1="4" y1="-14" x2="5" y2="-11"/>
+          <line x1="6" y1="-8" x2="7" y2="-5"/>
+          <line x1="6" y1="-2" x2="7" y2="1"/>
+          <line x1="44" y1="-12" x2="43" y2="-9"/>
+          <line x1="42" y1="-6" x2="41" y2="-3"/>
+          <line x1="40" y1="-14" x2="39" y2="-11"/>
+          <line x1="38" y1="-8" x2="37" y2="-5"/>
+          <line x1="38" y1="-2" x2="37" y2="1"/>
+        </g>
+        <!-- POMP BASE where it meets the shaved sides. -->
+        <path d="M2,-26 Q22,-32 44,-26 Q46,-26 46,-22 Q42,-22 22,-26 Q4,-22 2,-22 Q2,-26 2,-26 Z" fill="url(#p5hair)"/>
+        <!-- TALL POMP sweeping up and BACK (key change — rises well above head silhouette). -->
+        <path d="M4,-26 Q6,-50 18,-58 Q34,-56 44,-46 Q48,-30 46,-26 Q42,-38 36,-46 Q24,-50 14,-44 Q6,-32 4,-26 Z" fill="url(#p5hair)"/>
+        <!-- Inner deeper-color shadow giving the pomp 3D form. -->
+        <path d="M10,-32 Q18,-44 34,-44 Q42,-38 44,-30 Q34,-40 24,-42 Q14,-40 10,-32 Z" fill="#6a1a08" opacity="0.55"/>
+        <!-- Individual lock streaks across the pomp showing direction (front→up→back). -->
+        <g stroke="#6a1a08" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.85">
+          <path d="M6,-30 Q16,-42 30,-44"/>
+          <path d="M10,-34 Q22,-46 38,-42"/>
+          <path d="M14,-38 Q28,-48 42,-38"/>
+          <path d="M18,-44 Q32,-50 44,-32"/>
+        </g>
+        <!-- Highlight strands on top of pomp (catching light). -->
+        <g stroke="#e8a05a" stroke-width="0.8" stroke-linecap="round" fill="none" opacity="0.85">
+          <path d="M14,-46 Q26,-52 38,-44"/>
+          <path d="M18,-50 Q30,-54 40,-46"/>
+        </g>
+        <!-- Sharp pomp tip catching the most light. -->
+        <path d="M22,-58 L28,-58 L30,-56 Q26,-54 22,-54 Z" fill="#d85020" opacity="0.85"/>
 
         <!-- 3/4 angle: only partial face visible (right side). -->
         <!-- Right ear. -->
