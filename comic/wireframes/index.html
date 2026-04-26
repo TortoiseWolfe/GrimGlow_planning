@@ -482,6 +482,55 @@
       // Import the sanitized SVG node into the current document and append
       const imported = document.importNode(svg, true);
       container.appendChild(imported);
+
+      // Composed page SVGs reference per-panel SVGs via <image xlink:href="_panels/...">.
+      // When the page is inlined into the parent document, those relative paths
+      // resolve against the document URL, which on GitHub Pages drops the project
+      // subpath (`/GrimGlow_planning/`). Inline each panel SVG into the parent
+      // by fetching it and replacing the <image> element with the panel's <svg>.
+      inlinePanelImages(imported);
+    }
+
+    /**
+     * Recursively replace any <image href> referencing a sibling SVG with the
+     * fetched SVG content inlined as a nested <svg> at the same x/y/width/height.
+     * Sandboxes via the same XML-namespace-only sanitization as safeInjectSVG.
+     */
+    function inlinePanelImages(rootSvg) {
+      var images = rootSvg.querySelectorAll('image');
+      images.forEach(function(img) {
+        var href = img.getAttribute('href') || img.getAttributeNS('http://www.w3.org/1999/xlink', 'href') || img.getAttribute('xlink:href');
+        if (!href || !href.endsWith('.svg')) return;
+
+        var x = img.getAttribute('x') || '0';
+        var y = img.getAttribute('y') || '0';
+        var w = img.getAttribute('width');
+        var h = img.getAttribute('height');
+
+        fetch(href)
+          .then(function(r) { return r.ok ? r.text() : null; })
+          .then(function(svgText) {
+            if (!svgText) return;
+            var doc = new DOMParser().parseFromString(svgText, 'image/svg+xml');
+            if (doc.querySelector('parsererror')) return;
+            var inner = doc.documentElement;
+            // Strip scripts / event handlers from the panel SVG.
+            inner.querySelectorAll('script').forEach(function(el) { el.remove(); });
+            inner.querySelectorAll('*').forEach(function(el) {
+              Array.from(el.attributes).forEach(function(a) {
+                if (a.name.startsWith('on')) el.removeAttribute(a.name);
+              });
+            });
+            // Position the inlined SVG where the <image> was.
+            inner.setAttribute('x', x);
+            inner.setAttribute('y', y);
+            if (w) inner.setAttribute('width', w);
+            if (h) inner.setAttribute('height', h);
+            var imported = document.importNode(inner, true);
+            img.parentNode.replaceChild(imported, img);
+          })
+          .catch(function() { /* leave broken-image placeholder if it fails */ });
+      });
     }
 
     // ========================================
