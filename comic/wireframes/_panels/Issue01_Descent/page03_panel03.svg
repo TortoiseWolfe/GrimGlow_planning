@@ -186,18 +186,30 @@
       <g id="p3p3-head">
         <ellipse cx="0" cy="-26" rx="26" ry="30" fill="url(#p3p3skin)"/>
 
-        <!-- Hair: high messy bun with strands. -->
-        <ellipse cx="0" cy="-58" rx="16" ry="14" fill="url(#p3p3hair)"/>
-        <ellipse cx="0" cy="-58" rx="12" ry="9" fill="#040201" opacity="0.6"/>
+        <!-- Hair: high messy bun per _templates/wren.svg — multi-loop overlapping mass + tie. -->
+        <!-- Smooth pulled-back side hair (tight). -->
+        <path d="M-22,-42 Q-24,-50 -18,-54 L-10,-54 Q-12,-46 -14,-42 Z" fill="url(#p3p3hair)"/>
+        <path d="M22,-42 Q24,-50 18,-54 L10,-54 Q12,-46 14,-42 Z" fill="url(#p3p3hair)"/>
+        <!-- Center scalp at the part. -->
+        <path d="M-12,-50 Q0,-56 12,-50 Q12,-44 0,-46 Q-12,-44 -12,-50 Z" fill="url(#p3p3hair)"/>
+        <line x1="0" y1="-54" x2="0" y2="-46" stroke="#040201" stroke-width="0.5" opacity="0.85"/>
+        <!-- Main bun mass. -->
+        <ellipse cx="0" cy="-66" rx="14" ry="10" fill="url(#p3p3hair)"/>
+        <!-- Loose loops giving messy texture. -->
+        <path d="M-10,-72 Q-4,-78 8,-76 Q14,-72 12,-66 Q4,-72 -10,-66 Z" fill="url(#p3p3hair)"/>
+        <path d="M-8,-62 Q4,-72 14,-70 Q16,-62 8,-58 Q-4,-60 -8,-62 Z" fill="url(#p3p3hair)" opacity="0.92"/>
+        <!-- Bun-tie compression ring. -->
+        <ellipse cx="0" cy="-56" rx="11" ry="3" fill="#0a0604" opacity="0.7"/>
+        <!-- Bun highlight strands. -->
+        <path d="M-8,-74 Q0,-78 8,-74" fill="none" stroke="#3a2818" stroke-width="0.6" opacity="0.65"/>
         <!-- Hair sides framing face. -->
         <path d="M-22,-42 Q-24,-20 -18,0 L-12,0 Q-18,-20 -16,-44 Z" fill="url(#p3p3hair)"/>
         <path d="M22,-42 Q24,-20 18,0 L12,0 Q18,-20 16,-44 Z" fill="url(#p3p3hair)"/>
-        <!-- Stray strands. -->
-        <path d="M-18,-50 Q-22,-58 -22,-66" fill="none" stroke="#040201" stroke-width="0.7"/>
-        <path d="M16,-50 Q22,-56 22,-64" fill="none" stroke="#040201" stroke-width="0.7"/>
-
-        <!-- Center part. -->
-        <line x1="0" y1="-54" x2="0" y2="-44" stroke="#040201" stroke-width="0.5"/>
+        <!-- Escaping temple strands (the "messy" detail). -->
+        <path d="M-16,-46 Q-22,-58 -22,-66" fill="none" stroke="#040201" stroke-width="0.8" stroke-linecap="round" opacity="0.85"/>
+        <path d="M-18,-40 Q-24,-50 -22,-58" fill="none" stroke="#040201" stroke-width="0.6" stroke-linecap="round" opacity="0.75"/>
+        <path d="M16,-46 Q22,-58 22,-66" fill="none" stroke="#040201" stroke-width="0.8" stroke-linecap="round" opacity="0.85"/>
+        <path d="M18,-40 Q24,-50 22,-58" fill="none" stroke="#040201" stroke-width="0.6" stroke-linecap="round" opacity="0.75"/>
 
         <!-- Copper uplight on lower face from console. -->
         <path d="M-22,-12 Q0,12 22,-12 Q22,8 0,16 Q-22,8 -22,-12 Z" fill="#f5a850" opacity="0.45"/>
