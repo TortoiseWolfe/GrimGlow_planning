@@ -246,24 +246,42 @@
       <!-- Head shape — slightly elongated due to top-down view. -->
       <ellipse cx="125" cy="120" rx="34" ry="42" fill="url(#p3skinTone)"/>
 
-      <!-- Top of head — high angle reveals more of the hair mass. -->
-      <ellipse cx="125" cy="100" rx="32" ry="22" fill="url(#p3hair)"/>
+      <!-- Hair: high messy bun ON TOP (visible as foreshortened mass from above) per wren.svg template,
+           plus tight pulled-back sides. Multi-layer overlapping wisps, NOT a smooth dome. -->
+      <!-- Smooth pulled-back side hair (tight against scalp). -->
+      <path d="M93,116 Q90,98 100,84 Q110,80 122,82 L122,108 Q104,106 95,116 Z" fill="url(#p3hair)"/>
+      <path d="M157,116 Q160,98 150,84 Q140,80 128,82 L128,108 Q146,106 155,116 Z" fill="url(#p3hair)"/>
+      <!-- Center scalp coverage at the part. -->
+      <path d="M100,90 Q125,76 150,90 Q150,100 125,96 Q100,100 100,90 Z" fill="url(#p3hair)"/>
+      <!-- Subtle center part. -->
+      <line x1="125" y1="80" x2="125" y2="98" stroke="#040201" stroke-width="0.6" opacity="0.7"/>
 
-      <!-- Hair — dark, parted center, pulled back tight. Top-down view emphasizes the part. -->
-      <line x1="125" y1="80" x2="125" y2="116" stroke="#040201" stroke-width="0.7" opacity="0.8"/>
-      <!-- Hair sweeping back from the part. -->
-      <path d="M93,108 Q98,90 125,82 Q152,90 157,108 Q150,98 125,92 Q100,98 93,108 Z" fill="url(#p3hair)"/>
-      <!-- Hair sides framing face. -->
-      <path d="M93,114 Q90,140 96,162 L102,160 Q98,140 100,118 Z" fill="url(#p3hair)"/>
-      <path d="M157,114 Q160,140 154,162 L148,160 Q152,140 150,118 Z" fill="url(#p3hair)"/>
+      <!-- HIGH MESSY BUN — main mass + overlapping wisps + bun-tie + highlights (per template). -->
+      <!-- Main bun mass (foreshortened upward — slightly squashed because high angle). -->
+      <ellipse cx="125" cy="64" rx="20" ry="13" fill="url(#p3hair)"/>
+      <!-- Loose loops giving messy texture. -->
+      <path d="M110,57 Q116,46 130,48 Q142,52 140,64 Q126,57 110,64 Z" fill="url(#p3hair)"/>
+      <path d="M114,68 Q124,53 140,55 Q145,67 134,75 Q122,72 114,68 Z" fill="url(#p3hair)" opacity="0.92"/>
+      <!-- Bun-tie compression ring. -->
+      <ellipse cx="125" cy="80" rx="15" ry="3.8" fill="#0a0604" opacity="0.7"/>
+      <!-- Bun highlight strands. -->
+      <path d="M114,54 Q125,49 138,54" fill="none" stroke="#3a2818" stroke-width="0.7" opacity="0.7"/>
+      <path d="M118,64 Q130,59 138,66" fill="none" stroke="#3a2818" stroke-width="0.6" opacity="0.6"/>
 
-      <!-- Knot at nape (small, visible from top angle as a bump at back of head). -->
-      <ellipse cx="125" cy="160" rx="14" ry="9" fill="url(#p3hair)"/>
-      <ellipse cx="125" cy="158" rx="11" ry="6" fill="#0a0604" opacity="0.6"/>
+      <!-- Side hair framing face below the part. -->
+      <path d="M93,116 Q90,140 96,162 L102,160 Q98,140 100,124 Z" fill="url(#p3hair)"/>
+      <path d="M157,116 Q160,140 154,162 L148,160 Q152,140 150,124 Z" fill="url(#p3hair)"/>
 
-      <!-- Stray strands. -->
-      <path d="M108,108 Q116,114 122,110" fill="none" stroke="#0a0604" stroke-width="0.7" opacity="0.85"/>
-      <path d="M128,110 Q136,114 142,108" fill="none" stroke="#0a0604" stroke-width="0.7" opacity="0.85"/>
+      <!-- Escaping strands at temples — the "messy" defining detail. -->
+      <path d="M99,86 Q90,72 87,58" fill="none" stroke="#0a0604" stroke-width="1.0" stroke-linecap="round" opacity="0.9"/>
+      <path d="M102,94 Q94,86 92,76" fill="none" stroke="#0a0604" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M151,86 Q160,72 163,58" fill="none" stroke="#0a0604" stroke-width="1.0" stroke-linecap="round" opacity="0.9"/>
+      <path d="M148,94 Q156,86 158,76" fill="none" stroke="#0a0604" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>
+      <!-- Stray flyaway across forehead. -->
+      <path d="M108,104 Q118,112 128,108 Q138,104 144,110" fill="none" stroke="#0a0604" stroke-width="0.9" opacity="0.85"/>
+      <!-- Wisps falling at sides of face. -->
+      <path d="M93,118 Q88,140 92,162" fill="none" stroke="#0a0604" stroke-width="0.7" opacity="0.8"/>
+      <path d="M157,118 Q162,140 158,162" fill="none" stroke="#0a0604" stroke-width="0.7" opacity="0.8"/>
 
       <!-- Cool blue rim from overhead (top of head). -->
       <ellipse cx="125" cy="92" rx="28" ry="12" fill="#bfe4ff" opacity="0.18"/>
