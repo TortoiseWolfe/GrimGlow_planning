@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 151" width="240" height="151">
+  <title>Issue 1 — Page 5 — Panel 3: Victorian woman first witness reaction</title>
+  <desc>Medium close-up at 65mm, eye level. Working-class Victorian woman on brick doorstep, heavy wool shawl pulled tight, head turned upward, eyes wide, mouth slightly open. Middle-aged, careworn, hair under simple bonnet. Warm amber from doorway behind her on one side; growing cool prismatic light from above (faint blue-white with violet edges) touching upturned face on the other side. Right hand moving toward chest beginning to cross herself. First moment cool alien light meets warm human face in the story.</desc>
+
+  <defs>
+    <!-- Sky gradient (deep night turning prismatic at top from approaching streak). -->
+    <linearGradient id="p5p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a8a" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#1a1438"/>
+      <stop offset="100%" stop-color="#15080a"/>
+    </linearGradient>
+
+    <!-- Doorway warm interior glow. -->
+    <radialGradient id="p5p3doorGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f5a850" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Cool prismatic light from above (just beginning to touch face). -->
+    <radialGradient id="p5p3coolLight" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#a8b8e8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Brick. -->
+    <linearGradient id="p5p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+
+    <!-- Wool shawl (heavy dark grey). -->
+    <linearGradient id="p5p3shawl" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a302a"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+
+    <!-- Skin (warm-amber lit from one side, cool-prismatic on the other). -->
+    <linearGradient id="p5p3skinWarm" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#f5b878"/>
+      <stop offset="100%" stop-color="#a87850"/>
+    </linearGradient>
+
+    <filter id="p5p3bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="p5p3softBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1"/>
+    </filter>
+    <filter id="p5p3dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- Background sky. -->
+  <rect width="240" height="151" fill="url(#p5p3sky)"/>
+
+  <!-- Cool prismatic wash from above (just barely beginning). -->
+  <rect width="240" height="80" fill="url(#p5p3coolLight)"/>
+
+  <!-- Brick wall behind her (left side). -->
+  <rect x="0" y="40" width="100" height="111" fill="url(#p5p3brick)"/>
+  <!-- Brick texture lines. -->
+  <g stroke="#0a0204" stroke-width="0.4" opacity="0.7">
+    <line x1="0" y1="60" x2="100" y2="60"/>
+    <line x1="0" y1="80" x2="100" y2="80"/>
+    <line x1="0" y1="100" x2="100" y2="100"/>
+    <line x1="0" y1="120" x2="100" y2="120"/>
+    <line x1="0" y1="140" x2="100" y2="140"/>
+    <line x1="20" y1="50" x2="20" y2="70"/>
+    <line x1="40" y1="70" x2="40" y2="90"/>
+    <line x1="60" y1="90" x2="60" y2="110"/>
+    <line x1="30" y1="110" x2="30" y2="130"/>
+    <line x1="70" y1="130" x2="70" y2="151"/>
+  </g>
+
+  <!-- Open doorway behind her (warm interior glow). -->
+  <g id="p5p3-door">
+    <!-- Door frame. -->
+    <rect x="0" y="48" width="48" height="103" fill="#0a0204"/>
+    <!-- Doorway opening (interior glow). -->
+    <rect x="6" y="56" width="36" height="95" fill="url(#p5p3doorGlow)" filter="url(#p5p3bloom)"/>
+    <rect x="10" y="60" width="28" height="40" fill="#fff5d8" opacity="0.65"/>
+    <rect x="12" y="62" width="24" height="36" fill="#ffe080" opacity="0.55"/>
+    <!-- Door frame edge highlight. -->
+    <line x1="48" y1="48" x2="48" y2="151" stroke="#5a2812" stroke-width="0.7"/>
+    <line x1="0" y1="48" x2="48" y2="48" stroke="#5a2812" stroke-width="0.7"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Victorian woman, careworn, looking up                 -->
+  <!-- ========================================================== -->
+  <g id="p5p3-woman" filter="url(#p5p3dropShadow)">
+    <!-- Body / shoulders draped in heavy wool shawl. -->
+    <path d="M80,118 Q70,148 80,151 L200,151 Q210,148 200,118 Q200,108 188,104 Q150,98 116,104 Q88,108 80,118 Z" fill="url(#p5p3shawl)"/>
+    <!-- Shawl drape lines (folds). -->
+    <path d="M88,118 Q96,135 100,148" fill="none" stroke="#0a0604" stroke-width="0.8" opacity="0.65"/>
+    <path d="M108,108 Q112,128 120,148" fill="none" stroke="#0a0604" stroke-width="0.8" opacity="0.65"/>
+    <path d="M165,108 Q170,128 175,148" fill="none" stroke="#0a0604" stroke-width="0.8" opacity="0.65"/>
+    <path d="M186,118 Q190,135 196,148" fill="none" stroke="#0a0604" stroke-width="0.8" opacity="0.65"/>
+    <!-- Shawl collar / fold under chin. -->
+    <path d="M120,100 Q140,96 160,100 L156,108 Q140,108 124,108 Z" fill="#1a1410"/>
+
+    <!-- Right arm/hand moving toward chest (the start of the cross). -->
+    <path d="M155,108 Q170,118 168,138 L160,138 Q158,128 150,118 Z" fill="url(#p5p3shawl)"/>
+    <!-- Hand at chest. -->
+    <ellipse cx="160" cy="135" rx="8" ry="6" fill="url(#p5p3skinWarm)"/>
+    <!-- Fingers (about to make sign of cross). -->
+    <line x1="156" y1="132" x2="158" y2="142" stroke="#7a4830" stroke-width="0.6"/>
+    <line x1="160" y1="130" x2="162" y2="142" stroke="#7a4830" stroke-width="0.6"/>
+    <line x1="164" y1="130" x2="166" y2="142" stroke="#7a4830" stroke-width="0.6"/>
+
+    <!-- Neck. -->
+    <path d="M132,86 L132,100 L148,100 L148,86 Z" fill="url(#p5p3skinWarm)"/>
+
+    <!-- Head (turned upward — chin up). -->
+    <ellipse cx="140" cy="68" rx="22" ry="24" fill="url(#p5p3skinWarm)"/>
+
+    <!-- COOL PRISMATIC LIGHT side (left side of face from viewer's POV — the alien light). -->
+    <path d="M118,68 Q120,46 140,42 L140,86 Q124,86 118,68 Z" fill="#bfe4ff" opacity="0.35"/>
+    <!-- Cool prismatic edge wash on cheek/nose. -->
+    <path d="M125,55 Q135,55 140,60 L140,68 Q130,72 125,68 Z" fill="#c8b8ff" opacity="0.45"/>
+
+    <!-- WARM AMBER side (right side from viewer = doorway side). -->
+    <path d="M140,42 Q160,46 162,68 Q160,86 140,86 Z" fill="#f5a850" opacity="0.32"/>
+
+    <!-- Simple bonnet (cloth pinned over hair). -->
+    <path d="M118,52 Q120,38 140,32 Q160,38 162,52 Q150,46 140,46 Q130,46 118,52 Z" fill="#1a1410"/>
+    <!-- Bonnet ribbon under chin. -->
+    <path d="M120,80 Q130,90 132,86" fill="none" stroke="#1a1410" stroke-width="1.4"/>
+    <path d="M160,80 Q150,90 148,86" fill="none" stroke="#1a1410" stroke-width="1.4"/>
+
+    <!-- Hair edge visible at temples. -->
+    <path d="M120,52 Q122,60 124,68" fill="none" stroke="#3a2010" stroke-width="0.8" opacity="0.85"/>
+    <path d="M160,52 Q158,60 156,68" fill="none" stroke="#3a2010" stroke-width="0.8" opacity="0.85"/>
+
+    <!-- EYES — wide, looking up, reflecting cool prismatic streak. -->
+    <ellipse cx="130" cy="62" rx="3" ry="2.2" fill="#ffffff"/>
+    <ellipse cx="148" cy="62" rx="3" ry="2.2" fill="#ffffff"/>
+    <!-- Pupils shifted UP (looking at sky). -->
+    <ellipse cx="130" cy="60" rx="1.4" ry="1.4" fill="#1a0e08"/>
+    <ellipse cx="148" cy="60" rx="1.4" ry="1.4" fill="#1a0e08"/>
+    <!-- Cool light reflection in eyes (the alien light hitting). -->
+    <ellipse cx="130.5" cy="59.5" rx="0.5" ry="0.4" fill="#bfe4ff"/>
+    <ellipse cx="148.5" cy="59.5" rx="0.5" ry="0.4" fill="#bfe4ff"/>
+
+    <!-- Eyebrows (lifted in startled recognition). -->
+    <path d="M124,54 Q130,52 136,55" fill="none" stroke="#1a0e08" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M142,55 Q148,52 154,54" fill="none" stroke="#1a0e08" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- Nose (in profile from below — small triangle). -->
+    <path d="M139,68 L137,76 Q140,78 142,76 L141,68 Z" fill="#7a4830" opacity="0.85"/>
+
+    <!-- Mouth (slightly open — the gasp of recognition). -->
+    <ellipse cx="140" cy="80" rx="3" ry="2" fill="#3a1810"/>
+  </g>
+</svg>

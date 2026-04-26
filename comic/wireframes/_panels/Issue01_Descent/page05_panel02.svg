@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 311" width="488" height="311">
+  <title>Issue 1 — Page 5 — Panel 2: Lamplighter Jack Hobday at his rounds</title>
+  <desc>Medium shot at 50mm, slight low angle. Jack Hobday — late 40s, weathered, heavy coat and flat cap — mid-action reaching up to gas lamp valve with long brass pole. Cast-iron gas lamp at top of frame, flame burning steady amber. Street behind fades into fog with distant amber gaslight points. Long shadow stretches behind him. Composition all verticals — lamp post, man, pole, terraced houses on either side. Entirely warm — amber, gold, orange. Rembrandt-style uplighting from below. Calm habitual focus.</desc>
+
+  <defs>
+    <!-- Sky / fog gradient. -->
+    <linearGradient id="p5p2sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1010"/>
+      <stop offset="60%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+
+    <!-- Distant fog. -->
+    <linearGradient id="p5p2fog" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#7a3818" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#a85020" stop-opacity="0.65"/>
+    </linearGradient>
+
+    <!-- Coat tone (heavy dark wool). -->
+    <linearGradient id="p5p2coat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="60%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#0a0604"/>
+    </linearGradient>
+
+    <!-- Skin (uplit warm from gaslight below). -->
+    <linearGradient id="p5p2skin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#f5a850"/>
+      <stop offset="50%" stop-color="#c87830"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+
+    <!-- Cobblestones (wet-looking). -->
+    <linearGradient id="p5p2cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+
+    <!-- Brass pole. -->
+    <linearGradient id="p5p2brass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3a10"/>
+      <stop offset="50%" stop-color="#c89030"/>
+      <stop offset="100%" stop-color="#5a3a10"/>
+    </linearGradient>
+
+    <!-- Iron lamp (cast iron, dark). -->
+    <linearGradient id="p5p2iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#3a1810"/>
+    </linearGradient>
+
+    <!-- Gas flame (warm amber-orange). -->
+    <radialGradient id="p5p2flame" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#ffe080" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#f5a850" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Lamp halo bloom. -->
+    <radialGradient id="p5p2lampHalo" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#f5a850" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="p5p2bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p5p2strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="p5p2dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: night sky + fog                                       -->
+  <!-- ========================================================== -->
+  <g id="p5p2-bg">
+    <rect width="488" height="311" fill="url(#p5p2sky)"/>
+    <!-- Distant fog rising from street level. -->
+    <rect y="160" width="488" height="151" fill="url(#p5p2fog)"/>
+    <!-- Distant gaslight points in fog (receding). -->
+    <ellipse cx="80" cy="220" rx="14" ry="6" fill="#c87830" opacity="0.45" filter="url(#p5p2bloom)"/>
+    <ellipse cx="80" cy="220" rx="6" ry="3" fill="#fff5d8" opacity="0.6"/>
+    <ellipse cx="408" cy="218" rx="14" ry="6" fill="#c87830" opacity="0.45" filter="url(#p5p2bloom)"/>
+    <ellipse cx="408" cy="218" rx="6" ry="3" fill="#fff5d8" opacity="0.6"/>
+    <ellipse cx="244" cy="200" rx="10" ry="4" fill="#c87830" opacity="0.35" filter="url(#p5p2bloom)"/>
+    <ellipse cx="244" cy="200" rx="4" ry="2" fill="#ffe080" opacity="0.55"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: terraced houses on both sides (silhouette).           -->
+  <!-- ========================================================== -->
+  <g id="p5p2-houses">
+    <!-- Left terraced building. -->
+    <rect x="0" y="60" width="120" height="180" fill="url(#p5p2coat)" opacity="0.9"/>
+    <line x1="120" y1="60" x2="120" y2="240" stroke="#0a0604" stroke-width="0.7"/>
+    <!-- Faint window glow. -->
+    <rect x="22" y="100" width="14" height="20" fill="#3a1810" opacity="0.85"/>
+    <rect x="60" y="160" width="14" height="20" fill="#3a1810" opacity="0.85"/>
+    <!-- Lit window (single warm point). -->
+    <rect x="92" y="120" width="12" height="16" fill="#fff5d8" opacity="0.85" filter="url(#p5p2bloom)"/>
+
+    <!-- Right terraced building. -->
+    <rect x="368" y="60" width="120" height="180" fill="url(#p5p2coat)" opacity="0.9"/>
+    <line x1="368" y1="60" x2="368" y2="240" stroke="#0a0604" stroke-width="0.7"/>
+    <rect x="396" y="120" width="14" height="20" fill="#3a1810" opacity="0.85"/>
+    <rect x="436" y="180" width="14" height="20" fill="#3a1810" opacity="0.85"/>
+    <!-- Lit window. -->
+    <rect x="376" y="100" width="12" height="16" fill="#fff5d8" opacity="0.7" filter="url(#p5p2bloom)"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: cobblestone street (foreground, wet)                  -->
+  <!-- ========================================================== -->
+  <g id="p5p2-street">
+    <path d="M120,240 L368,240 L488,311 L0,311 Z" fill="url(#p5p2cobble)"/>
+    <!-- Cobblestone texture (subtle curves). -->
+    <g stroke="#5a2810" stroke-width="0.5" fill="none" opacity="0.55">
+      <path d="M50,260 Q70,265 90,260"/>
+      <path d="M130,265 Q150,270 170,265"/>
+      <path d="M210,270 Q230,275 250,270"/>
+      <path d="M290,265 Q310,270 330,265"/>
+      <path d="M370,260 Q390,265 410,260"/>
+      <path d="M30,290 Q60,295 90,290"/>
+      <path d="M150,295 Q180,300 210,295"/>
+      <path d="M270,295 Q300,300 330,295"/>
+      <path d="M390,290 Q420,295 450,290"/>
+    </g>
+    <!-- Wet reflection of lamp (faint amber pool). -->
+    <ellipse cx="280" cy="270" rx="60" ry="12" fill="#c87830" opacity="0.25" filter="url(#p5p2bloom)"/>
+    <ellipse cx="280" cy="272" rx="32" ry="6" fill="#ffe080" opacity="0.4" filter="url(#p5p2bloom)"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: cast-iron gas lamp (top of frame, bright)             -->
+  <!-- ========================================================== -->
+  <g id="p5p2-lamp">
+    <!-- Lamp halo bloom (LARGE, dominates top of frame). -->
+    <ellipse cx="280" cy="50" rx="120" ry="60" fill="url(#p5p2lampHalo)" filter="url(#p5p2strongBloom)"/>
+
+    <!-- Lamp post extending up from out of frame (right of subject). -->
+    <rect x="270" y="0" width="6" height="80" fill="url(#p5p2iron)"/>
+    <!-- Cross-arm. -->
+    <rect x="240" y="20" width="40" height="3" fill="url(#p5p2iron)"/>
+    <!-- Lamp housing (lantern). -->
+    <path d="M240,24 L284,24 L292,40 L286,68 L238,68 L232,40 Z" fill="url(#p5p2iron)"/>
+    <path d="M240,24 L284,24 L292,40 L286,68 L238,68 L232,40 Z" fill="none" stroke="#0a0604" stroke-width="0.7"/>
+    <!-- Glass panes. -->
+    <rect x="244" y="32" width="36" height="32" fill="#fff5d8" opacity="0.4"/>
+    <line x1="262" y1="32" x2="262" y2="64" stroke="#1a0e08" stroke-width="0.5" opacity="0.85"/>
+    <line x1="244" y1="48" x2="280" y2="48" stroke="#1a0e08" stroke-width="0.5" opacity="0.85"/>
+    <!-- Decorative iron filigree on top. -->
+    <path d="M252,24 L256,16 L260,24" fill="none" stroke="#1a0e08" stroke-width="1"/>
+    <path d="M264,24 L268,14 L272,24" fill="none" stroke="#1a0e08" stroke-width="1"/>
+    <!-- Top cap. -->
+    <polygon points="260,8 268,8 272,16 256,16" fill="url(#p5p2iron)"/>
+
+    <!-- GAS FLAME inside lantern. -->
+    <ellipse cx="262" cy="48" rx="10" ry="14" fill="url(#p5p2flame)" filter="url(#p5p2bloom)"/>
+    <ellipse cx="262" cy="48" rx="5" ry="9" fill="#fff5d8" opacity="0.95"/>
+    <ellipse cx="262" cy="44" rx="2.5" ry="5" fill="#ffffff"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: brass pole (diagonal from lamp valve down to hand)    -->
+  <!-- ========================================================== -->
+  <g id="p5p2-pole">
+    <!-- The pole reaches from his right hand UP to the lamp valve. -->
+    <line x1="220" y1="180" x2="252" y2="32" stroke="url(#p5p2brass)" stroke-width="3" stroke-linecap="round"/>
+    <!-- Brass valve hook at lamp end. -->
+    <path d="M250,32 Q254,28 252,24 Q256,28 254,34" fill="none" stroke="#c89030" stroke-width="1.4"/>
+    <!-- Pole highlight (catches lamp light). -->
+    <line x1="221" y1="178" x2="253" y2="34" stroke="#fff5d8" stroke-width="0.6" opacity="0.65"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Jack Hobday — lamplighter figure                      -->
+  <!-- 7-head proportions, late 40s, heavy coat + flat cap.         -->
+  <!-- ========================================================== -->
+  <g id="p5p2-jack" filter="url(#p5p2dropShadow)">
+    <!-- Long shadow behind him stretching back-left. -->
+    <path d="M180,290 Q140,300 50,311 L80,311 L210,295 Z" fill="#0a0604" opacity="0.5"/>
+
+    <!-- Legs (heavy trousers, planted stance). -->
+    <path d="M188,238 Q184,260 188,290 L208,290 Q212,260 208,238 Z" fill="url(#p5p2coat)"/>
+    <path d="M212,238 Q216,260 220,290 L240,290 Q236,260 232,238 Z" fill="url(#p5p2coat)"/>
+    <!-- Boots. -->
+    <ellipse cx="198" cy="295" rx="14" ry="5" fill="#0a0604"/>
+    <ellipse cx="226" cy="295" rx="14" ry="5" fill="#0a0604"/>
+
+    <!-- Heavy coat torso (long down to knees). -->
+    <path d="M170,160 Q160,200 168,250 L248,250 Q256,200 246,160 Q240,150 208,150 Q176,150 170,160 Z" fill="url(#p5p2coat)"/>
+    <!-- Coat lapel (visible center seam). -->
+    <line x1="208" y1="152" x2="208" y2="248" stroke="#0a0604" stroke-width="1.2"/>
+    <!-- Coat buttons. -->
+    <circle cx="208" cy="180" r="2" fill="#3a2010"/>
+    <circle cx="208" cy="200" r="2" fill="#3a2010"/>
+    <circle cx="208" cy="220" r="2" fill="#3a2010"/>
+    <!-- Coat shoulder seams. -->
+    <path d="M170,160 Q190,148 208,150" fill="none" stroke="#0a0604" stroke-width="0.8"/>
+    <path d="M246,160 Q226,148 208,150" fill="none" stroke="#0a0604" stroke-width="0.8"/>
+
+    <!-- Right arm reaching UP holding pole. -->
+    <path d="M170,162 Q156,180 192,200 Q208,200 220,182 Q210,165 188,158 Z" fill="url(#p5p2coat)"/>
+    <!-- Hand on pole. -->
+    <ellipse cx="220" cy="180" rx="8" ry="6" fill="url(#p5p2skin)"/>
+    <!-- Fingers wrapped around pole (visible). -->
+    <line x1="216" y1="178" x2="216" y2="186" stroke="#5a2812" stroke-width="0.7"/>
+    <line x1="220" y1="176" x2="220" y2="184" stroke="#5a2812" stroke-width="0.7"/>
+    <line x1="224" y1="178" x2="224" y2="186" stroke="#5a2812" stroke-width="0.7"/>
+
+    <!-- Left arm at side. -->
+    <path d="M246,160 Q260,200 254,238 L240,238 Q238,200 234,160 Z" fill="url(#p5p2coat)"/>
+    <!-- Hand. -->
+    <ellipse cx="248" cy="240" rx="6" ry="5" fill="url(#p5p2skin)"/>
+
+    <!-- Neck collar. -->
+    <path d="M196,140 Q208,134 220,140 L220,150 L196,150 Z" fill="url(#p5p2coat)"/>
+
+    <!-- HEAD (uplit by lamp from above). -->
+    <g id="p5p2-head">
+      <!-- Head shape. -->
+      <ellipse cx="208" cy="118" rx="20" ry="24" fill="url(#p5p2skin)"/>
+
+      <!-- Flat cap. -->
+      <path d="M186,108 Q188,90 208,86 Q228,90 230,108 Q220,104 208,104 Q196,104 186,108 Z" fill="#1a0e08"/>
+      <!-- Cap brim (forward). -->
+      <path d="M186,108 Q188,114 200,116 L216,116 Q228,114 230,108 Q218,108 208,108 Q198,108 186,108 Z" fill="#0a0604"/>
+
+      <!-- Weathered features (uplit by amber gaslight from lamp above — strong shadows underneath). -->
+      <!-- Brow ridge (creates eye sockets). -->
+      <ellipse cx="200" cy="116" rx="5" ry="3" fill="#3a1810" opacity="0.85"/>
+      <ellipse cx="216" cy="116" rx="5" ry="3" fill="#3a1810" opacity="0.85"/>
+      <!-- Eyes (squinting, looking up at lamp). -->
+      <line x1="197" y1="118" x2="203" y2="118" stroke="#1a0e08" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="213" y1="118" x2="219" y2="118" stroke="#1a0e08" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Bushy eyebrows. -->
+      <path d="M194,114 Q200,112 206,114" fill="none" stroke="#1a0e08" stroke-width="2" stroke-linecap="round"/>
+      <path d="M210,114 Q216,112 222,114" fill="none" stroke="#1a0e08" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- Strong nose (Rembrandt uplighting throws nose shadow upward). -->
+      <path d="M208,118 L205,132 Q208,134 211,132 Z" fill="#5a2812"/>
+      <!-- Highlight on nose bridge. -->
+      <line x1="208" y1="120" x2="208" y2="130" stroke="#fff5d8" stroke-width="0.8" opacity="0.55"/>
+
+      <!-- Mustache (heavy, weathered working-class). -->
+      <path d="M198,134 Q202,138 208,138 Q214,138 218,134 Q216,140 208,141 Q200,140 198,134 Z" fill="#1a0e08"/>
+
+      <!-- Mouth (set, focused). -->
+      <line x1="204" y1="140" x2="212" y2="140" stroke="#5a2812" stroke-width="1"/>
+
+      <!-- Stubble shadow on chin/jaw. -->
+      <path d="M196,134 Q208,144 220,134 Q220,140 208,142 Q196,140 196,134 Z" fill="#3a1810" opacity="0.55"/>
+
+      <!-- Chin / jaw. -->
+      <path d="M198,138 Q208,146 218,138" fill="none" stroke="#3a1810" stroke-width="0.6" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

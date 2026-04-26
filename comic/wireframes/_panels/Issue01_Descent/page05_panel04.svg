@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 151" width="240" height="151">
+  <title>Issue 1 — Page 5 — Panel 4: Hand completing the sign of the cross</title>
+  <desc>Close-up at 85mm, slight high angle. Woman's hand completing the sign of the cross — fingers touching her left shoulder. Work-roughened fingers of a woman who scrubs and mends. Heavy wool shawl drapes the shoulder. Behind and above, out of focus, the prismatic streak blazes across the sky in brilliant blue-white and violet, geometric and alien, painting her shoulder and hand in cool light overwhelming the warm amber doorway glow. The contrast between the ancient human gesture and the alien light is the visual point. CAPTION: "A falling star."</desc>
+
+  <defs>
+    <!-- Sky gradient (cool prismatic from streak above). -->
+    <linearGradient id="p5p4skyChaos" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#5a3ad8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a0838"/>
+    </linearGradient>
+
+    <!-- Streak gradient (the falling star at peak brilliance). -->
+    <linearGradient id="p5p4streak" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#bfe4ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#c8b8ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Prismatic streak halo bloom. -->
+    <radialGradient id="p5p4streakBloom" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#bfe4ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Wool shawl (dark grey). -->
+    <linearGradient id="p5p4shawl" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a302a"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+
+    <!-- Hand skin (cool prismatic light overwhelming warm amber). -->
+    <linearGradient id="p5p4handCool" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dce4f0"/>
+      <stop offset="50%" stop-color="#a8b8d0"/>
+      <stop offset="100%" stop-color="#5a4030"/>
+    </linearGradient>
+
+    <!-- Warm doorway residue (still present but secondary). -->
+    <radialGradient id="p5p4warmResidue" cx="100%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5a850" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="p5p4bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="p5p4strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="p5p4dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Sky background — prismatic chaos from streak. -->
+  <rect width="240" height="151" fill="url(#p5p4skyChaos)"/>
+
+  <!-- Warm residue from doorway (bottom-right corner, secondary). -->
+  <rect width="240" height="151" fill="url(#p5p4warmResidue)" opacity="0.7"/>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: PRISMATIC STREAK — out of focus, blazing across sky   -->
+  <!-- ========================================================== -->
+  <g id="p5p4-streak" filter="url(#p5p4strongBloom)">
+    <!-- Bloom halo around streak. -->
+    <ellipse cx="120" cy="50" rx="180" ry="50" fill="url(#p5p4streakBloom)"/>
+    <!-- Main streak diagonal across upper portion of frame. -->
+    <path d="M-20,90 L260,10 L260,30 L-20,110 Z" fill="url(#p5p4streak)" opacity="0.95"/>
+    <!-- Inner brighter core. -->
+    <path d="M-20,75 L260,-5 L260,5 L-20,85 Z" fill="#ffffff" opacity="0.85"/>
+  </g>
+
+  <!-- Geometric alien edges along streak (the "structured light" signature). -->
+  <g id="p5p4-streak-geometry" opacity="0.85">
+    <polygon points="40,68 56,60 60,72 44,80" fill="none" stroke="#c8b8ff" stroke-width="0.8"/>
+    <polygon points="100,52 116,44 120,56 104,64" fill="none" stroke="#c8b8ff" stroke-width="0.8"/>
+    <polygon points="160,36 176,28 180,40 164,48" fill="none" stroke="#c8b8ff" stroke-width="0.8"/>
+    <!-- Tiny prismatic shards trailing. -->
+    <polygon points="20,90 26,86 28,92 22,96" fill="#bfe4ff" opacity="0.85"/>
+    <polygon points="80,72 86,68 88,74 82,78" fill="#bfe4ff" opacity="0.85"/>
+    <polygon points="140,56 146,52 148,58 142,62" fill="#bfe4ff" opacity="0.85"/>
+    <polygon points="200,40 206,36 208,42 202,46" fill="#bfe4ff" opacity="0.85"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: shoulder draped in heavy wool shawl                    -->
+  <!-- ========================================================== -->
+  <g id="p5p4-shoulder" filter="url(#p5p4dropShadow)">
+    <!-- Shawl mass takes lower-left portion (high angle looking down). -->
+    <path d="M0,80 Q40,76 100,80 Q140,84 180,90 L240,98 L240,151 L0,151 Z" fill="url(#p5p4shawl)"/>
+    <!-- Shawl folds. -->
+    <path d="M30,90 Q40,110 50,140" fill="none" stroke="#0a0604" stroke-width="0.9" opacity="0.7"/>
+    <path d="M80,88 Q90,110 100,140" fill="none" stroke="#0a0604" stroke-width="0.9" opacity="0.7"/>
+    <path d="M140,92 Q150,116 160,148" fill="none" stroke="#0a0604" stroke-width="0.9" opacity="0.7"/>
+    <path d="M200,100 Q210,120 220,148" fill="none" stroke="#0a0604" stroke-width="0.9" opacity="0.7"/>
+
+    <!-- COOL PRISMATIC LIGHT washing across shoulder (the alien light hitting). -->
+    <path d="M0,80 Q40,76 100,80 Q140,84 180,90 L180,110 Q120,98 60,100 L0,108 Z" fill="#bfe4ff" opacity="0.55" filter="url(#p5p4bloom)"/>
+    <path d="M30,82 Q80,78 130,82 Q160,86 178,90" fill="none" stroke="#bfe4ff" stroke-width="1" opacity="0.85"/>
+    <!-- Violet edge wash (geometric structured light). -->
+    <path d="M40,84 Q80,80 120,84 Q150,88 170,92" fill="none" stroke="#c8b8ff" stroke-width="0.7" opacity="0.7"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: HAND completing sign of cross — fingers touching      -->
+  <!-- left shoulder. Work-roughened. The ancient human gesture.    -->
+  <!-- ========================================================== -->
+  <g id="p5p4-hand" filter="url(#p5p4dropShadow)">
+    <!-- Wrist coming in from upper-right. -->
+    <path d="M150,70 Q170,60 200,55 Q220,52 240,55 L240,80 Q220,76 200,76 Q170,82 150,90 Z" fill="url(#p5p4handCool)"/>
+    <!-- Forearm sleeve edge (shawl's wool covering wrist). -->
+    <path d="M210,52 Q230,50 240,52 L240,68 Q220,68 210,70 Z" fill="url(#p5p4shawl)"/>
+
+    <!-- Hand back. -->
+    <path d="M120,80 Q140,72 160,72 L180,76 Q186,90 178,108 Q170,118 154,118 Q138,116 124,108 Q110,98 116,86 Q118,82 120,80 Z" fill="url(#p5p4handCool)"/>
+
+    <!-- KNUCKLES (visible cool-lit ridges). -->
+    <ellipse cx="142" cy="86" rx="5" ry="3" fill="#dce4f0" opacity="0.9"/>
+    <ellipse cx="156" cy="84" rx="5" ry="3" fill="#dce4f0" opacity="0.9"/>
+    <ellipse cx="170" cy="86" rx="5" ry="3" fill="#dce4f0" opacity="0.9"/>
+    <ellipse cx="180" cy="92" rx="4" ry="2.5" fill="#dce4f0" opacity="0.85"/>
+
+    <!-- FINGERS extended toward shoulder (touching it — the cross). -->
+    <!-- Index. -->
+    <path d="M124,88 Q116,98 108,108 Q104,116 110,118 Q116,116 122,108 Q128,100 130,92 Z" fill="url(#p5p4handCool)"/>
+    <ellipse cx="111" cy="116" rx="3" ry="1.3" fill="#dce4f0" opacity="0.85"/>
+    <!-- Middle (touching shoulder — the cross moment). -->
+    <path d="M138,94 Q130,108 124,124 Q120,134 128,138 Q136,136 140,124 Q146,114 148,100 Z" fill="url(#p5p4handCool)"/>
+    <ellipse cx="129" cy="136" rx="3.5" ry="1.4" fill="#dce4f0" opacity="0.9"/>
+    <!-- Ring. -->
+    <path d="M152,94 Q146,110 140,124 Q138,132 146,134 Q152,130 156,118 Q160,108 160,98 Z" fill="url(#p5p4handCool)"/>
+    <ellipse cx="146" cy="132" rx="3" ry="1.3" fill="#dce4f0" opacity="0.85"/>
+    <!-- Pinky (shorter). -->
+    <path d="M168,96 Q164,106 160,118 Q160,124 166,124 Q170,118 172,108 Q174,100 174,98 Z" fill="url(#p5p4handCool)"/>
+    <ellipse cx="166" cy="122" rx="2.4" ry="1.1" fill="#dce4f0" opacity="0.8"/>
+    <!-- Thumb folded back toward palm. -->
+    <path d="M120,82 Q108,84 100,90 Q96,98 104,98 Q114,94 120,90 Z" fill="url(#p5p4handCool)"/>
+
+    <!-- Cool light intensity on fingers (overwhelming amber). -->
+    <ellipse cx="145" cy="105" rx="40" ry="25" fill="#bfe4ff" opacity="0.18" filter="url(#p5p4bloom)"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: caption                                              -->
+  <!-- ========================================================== -->
+  <g id="p5p4-caption">
+    <rect x="6" y="8" width="120" height="28" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="14" y="22" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" font-style="italic" fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">A falling star.</text>
+  </g>
+</svg>
