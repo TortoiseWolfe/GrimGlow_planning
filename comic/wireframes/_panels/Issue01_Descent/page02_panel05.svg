@@ -242,12 +242,13 @@
   <!-- LAYER: dialogue (cut off mid-sentence — em-dash)            -->
   <!-- ========================================================== -->
   <g id="p2p5-dialogue">
-    <rect x="6" y="14" width="318" height="56" rx="6" fill="white" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
-    <polygon points="160,70 170,70 156,82" fill="white" stroke="#5a3ad8" stroke-width="2"/>
-    <line x1="159.5" y1="70" x2="170.5" y2="70" stroke="white" stroke-width="1.5"/>
-    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8">LUMA</text>
-    <text x="14" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Captain, I'm seeing something in the</text>
-    <text x="14" y="62" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">convergence data that—</text>
+    <!-- LUMA cut-off — top, narrow band above her head. Tail toward her face below. -->
+    <rect x="6" y="10" width="354" height="64" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="16" y="30" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="16" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Captain, I'm seeing something in the</text>
+    <text x="16" y="64" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">convergence data that—</text>
+    <polygon points="178,74 196,74 184,108" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="179" y1="74" x2="195" y2="74" stroke="#ffffff" stroke-width="3"/>
   </g>
 
   <!-- ========================================================== -->

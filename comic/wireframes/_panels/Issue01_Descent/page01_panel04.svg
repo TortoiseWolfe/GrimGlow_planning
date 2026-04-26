@@ -305,23 +305,26 @@
   <!-- ========================================================== -->
   <g id="p4-dialogue">
     <!-- Jink line 1, top. -->
-    <rect x="6" y="14" width="180" height="38" rx="6" fill="white" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
-    <polygon points="60,52 68,52 56,62" fill="white" stroke="#2ed078" stroke-width="2"/>
-    <line x1="59.5" y1="52" x2="68.5" y2="52" stroke="white" stroke-width="1.5"/>
-    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078">JINK</text>
-    <text x="14" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">How many of these have we done? Twelve?</text>
+    <!-- JINK opener — top, wraps onto two lines so balloon fits panel width. -->
+    <rect x="6" y="10" width="229" height="56" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="16" y="28" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="16" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">How many of these have we</text>
+    <text x="16" y="60" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">done? Twelve?</text>
+    <!-- Tail toward Jink (face is mid-frame around y=180). -->
+    <polygon points="120,66 134,66 116,98" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="121" y1="66" x2="133" y2="66" stroke="#ffffff" stroke-width="3"/>
 
-    <!-- Sable off-panel correction (no tail; off-panel pointer). -->
-    <rect x="148" y="62" width="86" height="38" rx="6" fill="white" stroke="#b0b0b0" stroke-width="2" stroke-dasharray="3,2" filter="url(#balloonShadow)"/>
-    <text x="156" y="80" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#b0b0b0">SABLE (O.P.)</text>
-    <text x="156" y="94" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Fourteen.</text>
+    <!-- SABLE (O.P.) — small, top-right corner of panel, dashed border for off-panel. -->
+    <rect x="143" y="76" width="92" height="40" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="151" y="94" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE (O.P.)</text>
+    <text x="151" y="110" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Fourteen.</text>
 
-    <!-- Jink line 2. -->
-    <rect x="6" y="280" width="180" height="38" rx="6" fill="white" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
-    <polygon points="60,318 68,318 56,328" fill="white" stroke="#2ed078" stroke-width="2"/>
-    <line x1="59.5" y1="318" x2="68.5" y2="318" stroke="white" stroke-width="1.5"/>
-    <text x="14" y="298" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078">JINK</text>
-    <text x="14" y="312" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">They're starting to blur.</text>
+    <!-- JINK line 2 — bottom-left, narrow. Tail toward Jink's mouth above. -->
+    <rect x="6" y="312" width="172" height="40" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="16" y="330" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="16" y="346" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">They're starting to blur.</text>
+    <polygon points="40,312 54,312 36,288" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="41" y1="312" x2="53" y2="312" stroke="#ffffff" stroke-width="3"/>
   </g>
 
   <!-- ========================================================== -->

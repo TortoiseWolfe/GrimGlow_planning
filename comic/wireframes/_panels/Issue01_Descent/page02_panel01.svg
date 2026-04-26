@@ -471,14 +471,16 @@
   <!-- LAYER: dialogue (Sable's mission brief)                     -->
   <!-- ========================================================== -->
   <g id="p2p1-dialogue">
-    <rect x="6" y="14" width="320" height="56" rx="6" fill="white" stroke="#b0b0b0" stroke-width="2" filter="url(#balloonShadow)"/>
-    <!-- Tail toward Sable's head. -->
-    <polygon points="306,70 314,70 320,80" fill="white" stroke="#b0b0b0" stroke-width="2"/>
-    <line x1="306" y1="70" x2="314" y2="70" stroke="white" stroke-width="1.5"/>
-    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#b0b0b0">SABLE</text>
-    <text x="14" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Standard reconnaissance protocol. In and out, minimal</text>
-    <text x="14" y="59" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">footprint. We observe the convergence point, tag the temporal</text>
-    <text x="14" y="72" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">markers, and extract. Nothing more.</text>
+    <!-- SABLE mission brief — top-left, four lines, line-height 16. -->
+    <rect x="6" y="10" width="370" height="92" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="16" y="30" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="16" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Standard reconnaissance protocol.</text>
+    <text x="16" y="66" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">In and out, minimal footprint. We observe</text>
+    <text x="16" y="82" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">the convergence point, tag the temporal</text>
+    <text x="16" y="98" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">markers, and extract. Nothing more.</text>
+    <!-- Tail down toward Sable's head (back-of-head visible right side, ~y=180). -->
+    <polygon points="346,102 364,102 374,140" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="347" y1="102" x2="363" y2="102" stroke="#ffffff" stroke-width="3"/>
   </g>
 
   <!-- ========================================================== -->

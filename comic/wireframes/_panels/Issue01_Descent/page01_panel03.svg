@@ -295,12 +295,15 @@
   <!-- LAYER: dialogue                                             -->
   <!-- ========================================================== -->
   <g id="p3-dialogue">
-    <rect x="6" y="14" width="225" height="52" rx="6" fill="white" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
-    <polygon points="80,66 90,66 76,76" fill="white" stroke="#c87a35" stroke-width="2"/>
-    <line x1="79.5" y1="66" x2="90.5" y2="66" stroke="white" stroke-width="1.5"/>
-    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35">WREN</text>
-    <text x="14" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Drive nominal. Ninety-seven</text>
-    <text x="14" y="60" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">percent field coherence. We're clean.</text>
+    <!-- WREN — top of panel, three-line wrap so text fits comfortably inside box. -->
+    <rect x="6" y="10" width="229" height="76" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="16" y="28" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="16" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Drive nominal. Ninety-seven</text>
+    <text x="16" y="62" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">percent field coherence.</text>
+    <text x="16" y="78" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">We're clean.</text>
+    <!-- Tail down toward Wren's head — emerges from balloon left-third, points to her face area. -->
+    <polygon points="86,86 102,86 80,118" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="87" y1="86" x2="101" y2="86" stroke="#ffffff" stroke-width="3"/>
   </g>
 
   <!-- ========================================================== -->
