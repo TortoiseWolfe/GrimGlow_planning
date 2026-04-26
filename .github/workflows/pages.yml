@@ -1,0 +1,58 @@
+name: Deploy wireframe preview to GitHub Pages
+
+# This workflow does not read any user-controlled GitHub event payload values
+# (no issue titles, PR bodies, commit messages, etc.) into shell commands.
+# All `run:` blocks contain hardcoded paths only — no script-injection surface.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'comic/wireframes/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stage site contents
+        run: |
+          mkdir -p _site
+          # Ship the wireframe viewer + every panel/page SVG to the site root.
+          # The existing comic/wireframes/index.html sidebar nav references
+          # ./Issue01_Descent/pageNN.svg paths, which already resolve correctly
+          # when comic/wireframes/ is the site root.
+          cp -r comic/wireframes/. _site/
+          # Drop dev-only artifacts — _review/ has the per-panel screenshot
+          # wrapper, generate_wireframes.py is the legacy batch script.
+          rm -rf _site/_review _site/__pycache__ _site/docker-compose.yml
+          rm -f _site/generate_wireframes.py
+          ls _site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
