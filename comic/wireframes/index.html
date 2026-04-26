@@ -498,16 +498,24 @@
      */
     function inlinePanelImages(rootSvg) {
       var images = rootSvg.querySelectorAll('image');
+      // Resolve panel hrefs against the directory of the index document so they
+      // include any project subpath (e.g. /GrimGlow_planning/) when deployed.
+      var basePath = location.pathname.replace(/\/[^\/]*$/, '/');
       images.forEach(function(img) {
         var href = img.getAttribute('href') || img.getAttributeNS('http://www.w3.org/1999/xlink', 'href') || img.getAttribute('xlink:href');
         if (!href || !href.endsWith('.svg')) return;
+        // Drop the broken <image> element immediately so its 404 fetch doesn't
+        // leave the placeholder visible while we wait for the inline replacement.
+        var placeholder = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        img.parentNode.replaceChild(placeholder, img);
 
         var x = img.getAttribute('x') || '0';
         var y = img.getAttribute('y') || '0';
         var w = img.getAttribute('width');
         var h = img.getAttribute('height');
+        var resolvedHref = href.startsWith('/') || /^https?:/i.test(href) ? href : basePath + href;
 
-        fetch(href)
+        fetch(resolvedHref)
           .then(function(r) { return r.ok ? r.text() : null; })
           .then(function(svgText) {
             if (!svgText) return;
@@ -527,9 +535,9 @@
             if (w) inner.setAttribute('width', w);
             if (h) inner.setAttribute('height', h);
             var imported = document.importNode(inner, true);
-            img.parentNode.replaceChild(imported, img);
+            placeholder.parentNode.replaceChild(imported, placeholder);
           })
-          .catch(function() { /* leave broken-image placeholder if it fails */ });
+          .catch(function() { /* leave empty placeholder if fetch fails */ });
       });
     }
 
