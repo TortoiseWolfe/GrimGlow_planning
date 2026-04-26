@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 1 — Page 2 — Panel 5: Luma fascination cut short — last moment of calm</title>
+  <desc>Close-up at eye level, 85mm. Luma head tilted slightly, holographic lenses display cascade of scrolling geometric data, reflected in eyes. Brow slightly furrowed, lips parting — about to ask a question she will not get to ask. Last moment of calm before the impact on Page 3. South Asian warm brown skin, single thick braid pulled back, pristine sapphire-violet suit. Blue-violet light from lenses casts structured patterns. Should feel like a held breath. LUMA: "Captain, I'm seeing something in the convergence data that—"</desc>
+
+  <defs>
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p2p5sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a690e8"/>
+      <stop offset="20%" stop-color="#7a62c8"/>
+      <stop offset="50%" stop-color="#523aa0"/>
+      <stop offset="80%" stop-color="#382475"/>
+      <stop offset="100%" stop-color="#1c1242"/>
+    </linearGradient>
+    <linearGradient id="p2p5sapphireHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dcd0ff" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="p2p5sapphireSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15083a"/>
+      <stop offset="100%" stop-color="#0a0420"/>
+    </linearGradient>
+    <linearGradient id="p2p5skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8956a"/>
+      <stop offset="50%" stop-color="#a87648"/>
+      <stop offset="100%" stop-color="#7a512a"/>
+    </linearGradient>
+    <linearGradient id="p2p5hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="60%" stop-color="#0e0604"/>
+      <stop offset="100%" stop-color="#040201"/>
+    </linearGradient>
+
+    <radialGradient id="p2p5violetCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#c8b8ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0.7"/>
+    </radialGradient>
+    <radialGradient id="p2p5violetGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#c8b8ff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#5a3ad8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1c1242" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="p2p5lensGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#c8b8ff" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <radialGradient id="p2p5ambient" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#2a3458" stop-opacity="0.65"/>
+      <stop offset="60%" stop-color="#15192a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0e18"/>
+    </radialGradient>
+    <radialGradient id="p2p5violetKey" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#7a52d8" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#3a1e88" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#15083a" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="p2p5bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p2p5softBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="p2p5strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="p2p5dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+
+    <symbol id="p2p5violetHex" viewBox="-10 -10 20 20" overflow="visible">
+      <polygon points="0,-9 7.8,-4.5 7.8,4.5 0,9 -7.8,4.5 -7.8,-4.5" fill="url(#p2p5violetGlow)" filter="url(#p2p5bloom)"/>
+      <polygon points="0,-7 6.1,-3.5 6.1,3.5 0,7 -6.1,3.5 -6.1,-3.5" fill="url(#p2p5violetCore)"/>
+      <polygon points="0,-4 3.5,-2 3.5,2 0,4 -3.5,2 -3.5,-2" fill="#ffffff" opacity="0.85"/>
+    </symbol>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: ambient bg                                           -->
+  <!-- ========================================================== -->
+  <g id="p2p5-bg">
+    <rect width="366" height="364" fill="#0a0e18"/>
+    <rect width="366" height="364" fill="url(#p2p5ambient)" opacity="0.85"/>
+    <rect width="366" height="364" fill="url(#p2p5violetKey)" opacity="0.7"/>
+
+    <!-- Subtle bg structure (out-of-focus bridge wall behind). -->
+    <line x1="0" y1="40" x2="366" y2="32" stroke="#2a3458" stroke-width="0.5" opacity="0.4"/>
+    <line x1="0" y1="60" x2="366" y2="50" stroke="#2a3458" stroke-width="0.4" opacity="0.3"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Luma — close-up upper body, head tilted              -->
+  <!-- ========================================================== -->
+  <g id="p2p5-luma" filter="url(#p2p5dropShadow)">
+
+    <!-- Upper torso. -->
+    <g id="p2p5-luma-torso">
+      <path d="M0,260 Q-10,310 0,364 L366,364 Q376,310 366,260 Q352,250 188,250 Q14,250 0,260 Z" fill="url(#p2p5sapphire)"/>
+      <path d="M0,260 Q-10,310 0,364 L366,364 Q376,310 366,260 Q352,250 188,250 Q14,250 0,260 Z" fill="url(#p2p5sapphireHi)"/>
+
+      <line x1="188" y1="252" x2="188" y2="364" stroke="#15083a" stroke-width="1.2" opacity="0.7"/>
+
+      <!-- Pectoral plate divisions. -->
+      <path d="M70,272 Q78,304 84,332 L76,332 Q70,304 70,272 Z" fill="#15083a" opacity="0.4"/>
+      <path d="M306,272 Q298,304 292,332 L300,332 Q306,304 306,272 Z" fill="#15083a" opacity="0.4"/>
+
+      <!-- Chest accent. -->
+      <use href="#p2p5violetHex" x="166" y="282" width="42" height="42"/>
+      <!-- Shoulder accents. -->
+      <use href="#p2p5violetHex" x="6" y="262" width="28" height="28"/>
+      <use href="#p2p5violetHex" x="338" y="262" width="28" height="28"/>
+    </g>
+
+    <!-- Neck. -->
+    <g id="p2p5-luma-neck">
+      <path d="M170,212 L170,255 L210,255 L210,212 Z" fill="url(#p2p5skin)"/>
+      <path d="M152,240 Q188,224 224,240 L218,260 L158,260 Z" fill="url(#p2p5sapphire)"/>
+      <line x1="188" y1="232" x2="188" y2="258" stroke="#15083a" stroke-width="1" opacity="0.6"/>
+    </g>
+
+    <!-- Head — tilted slightly (head-tilt motion of curiosity). -->
+    <g id="p2p5-luma-head" transform="rotate(-6 188 130)">
+      <ellipse cx="188" cy="130" rx="60" ry="76" fill="url(#p2p5skin)"/>
+
+      <!-- Hair: pulled fully back (smooth crown), center part. -->
+      <path d="M132,90 Q134,52 188,42 Q242,52 244,90 Q242,110 234,108 Q232,76 188,70 Q146,76 142,108 Q134,110 132,90 Z" fill="url(#p2p5hair)"/>
+      <line x1="188" y1="48" x2="188" y2="92" stroke="#040201" stroke-width="0.7" opacity="0.85"/>
+      <!-- Hair sides. -->
+      <path d="M130,100 Q126,160 138,210 L150,206 Q142,160 146,104 Z" fill="url(#p2p5hair)"/>
+      <path d="M246,100 Q250,160 238,210 L226,206 Q234,160 230,104 Z" fill="url(#p2p5hair)"/>
+
+      <!-- Single thick braid pulled BACK (visible as a partial trunk emerging from behind head, draped over right shoulder). -->
+      <path d="M234,200 Q244,232 254,264 Q264,294 256,322 L240,322 Q246,294 240,264 Q230,232 224,202 Z" fill="url(#p2p5hair)"/>
+      <!-- Braid texture. -->
+      <path d="M230,212 Q242,215 252,212" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
+      <path d="M232,232 Q244,235 254,232" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
+      <path d="M234,252 Q246,255 256,252" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
+      <path d="M236,272 Q248,275 258,272" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
+      <path d="M238,292 Q250,295 260,292" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
+      <path d="M240,310 Q250,313 258,310" fill="none" stroke="#040201" stroke-width="1.1" opacity="0.85"/>
+      <ellipse cx="252" cy="328" rx="6" ry="3.5" fill="#0a0604"/>
+
+      <!-- Blue-violet key catching face. -->
+      <ellipse cx="188" cy="142" rx="50" ry="30" fill="#7a52d8" opacity="0.18"/>
+
+      <!-- Geometric structured patterns reflected onto cheeks (data scrolling reflected from lenses). -->
+      <line x1="156" y1="148" x2="170" y2="142" stroke="#c8b8ff" stroke-width="0.7" opacity="0.55"/>
+      <line x1="160" y1="156" x2="174" y2="150" stroke="#c8b8ff" stroke-width="0.6" opacity="0.45"/>
+      <line x1="164" y1="164" x2="176" y2="158" stroke="#c8b8ff" stroke-width="0.5" opacity="0.4"/>
+      <line x1="206" y1="142" x2="220" y2="148" stroke="#c8b8ff" stroke-width="0.7" opacity="0.55"/>
+      <line x1="202" y1="150" x2="216" y2="156" stroke="#c8b8ff" stroke-width="0.6" opacity="0.45"/>
+      <line x1="200" y1="158" x2="212" y2="164" stroke="#c8b8ff" stroke-width="0.5" opacity="0.4"/>
+
+      <!-- HOLOGRAPHIC LENSES — bigger and richer than panel 6 of page 1, since this is fascination intensifying. -->
+      <!-- Outer bloom. -->
+      <g filter="url(#p2p5strongBloom)" opacity="0.9">
+        <ellipse cx="158" cy="130" rx="22" ry="13" fill="url(#p2p5violetGlow)"/>
+        <ellipse cx="218" cy="130" rx="22" ry="13" fill="url(#p2p5violetGlow)"/>
+      </g>
+
+      <!-- Lens 1 (left). -->
+      <ellipse cx="158" cy="130" rx="18" ry="10" fill="url(#p2p5lensGlow)" opacity="0.85"/>
+      <ellipse cx="158" cy="130" rx="18" ry="10" fill="none" stroke="#c8b8ff" stroke-width="0.7"/>
+      <!-- Lens content: cascade scrolling geometric data. -->
+      <g stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.85">
+        <rect x="144" y="123" width="8" height="3"/>
+        <rect x="154" y="123" width="14" height="3"/>
+        <rect x="170" y="123" width="2" height="3"/>
+        <rect x="144" y="128" width="14" height="3"/>
+        <rect x="160" y="128" width="6" height="3"/>
+        <rect x="168" y="128" width="4" height="3"/>
+        <rect x="144" y="133" width="6" height="3"/>
+        <rect x="152" y="133" width="20" height="3"/>
+        <rect x="144" y="138" width="14" height="3"/>
+        <rect x="160" y="138" width="12" height="3"/>
+      </g>
+      <!-- Glint. -->
+      <line x1="148" y1="124" x2="155" y2="124" stroke="#ffffff" stroke-width="0.7" opacity="0.85"/>
+
+      <!-- Lens 2 (right). -->
+      <ellipse cx="218" cy="130" rx="18" ry="10" fill="url(#p2p5lensGlow)" opacity="0.85"/>
+      <ellipse cx="218" cy="130" rx="18" ry="10" fill="none" stroke="#c8b8ff" stroke-width="0.7"/>
+      <g stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.85">
+        <rect x="204" y="123" width="8" height="3"/>
+        <rect x="214" y="123" width="14" height="3"/>
+        <rect x="230" y="123" width="2" height="3"/>
+        <rect x="204" y="128" width="14" height="3"/>
+        <rect x="220" y="128" width="6" height="3"/>
+        <rect x="228" y="128" width="4" height="3"/>
+        <rect x="204" y="133" width="6" height="3"/>
+        <rect x="212" y="133" width="20" height="3"/>
+        <rect x="204" y="138" width="14" height="3"/>
+        <rect x="220" y="138" width="12" height="3"/>
+      </g>
+      <line x1="208" y1="124" x2="215" y2="124" stroke="#ffffff" stroke-width="0.7" opacity="0.85"/>
+
+      <!-- Lens projection beam (subtle lines from lens to eye). -->
+      <line x1="158" y1="128" x2="166" y2="124" stroke="#c8b8ff" stroke-width="0.4" opacity="0.6"/>
+      <line x1="218" y1="128" x2="210" y2="124" stroke="#c8b8ff" stroke-width="0.4" opacity="0.6"/>
+
+      <!-- Eyes behind lenses — visible, with violet data reflected. -->
+      <ellipse cx="166" cy="128" rx="3.6" ry="1.7" fill="#1a0a04" opacity="0.65"/>
+      <ellipse cx="210" cy="128" rx="3.6" ry="1.7" fill="#1a0a04" opacity="0.65"/>
+      <!-- Violet glints in eyes — data reflection. -->
+      <ellipse cx="167" cy="127.7" rx="0.9" ry="0.6" fill="#c8b8ff"/>
+      <ellipse cx="211" cy="127.7" rx="0.9" ry="0.6" fill="#c8b8ff"/>
+      <!-- Subtle scrolling-data glint streaks across eye whites. -->
+      <line x1="164" y1="127" x2="170" y2="129" stroke="#c8b8ff" stroke-width="0.3" opacity="0.55"/>
+      <line x1="208" y1="127" x2="214" y2="129" stroke="#c8b8ff" stroke-width="0.3" opacity="0.55"/>
+
+      <!-- Brows — slightly furrowed (curiosity intensifying). -->
+      <path d="M148,114 Q160,112 174,114" fill="none" stroke="#0a0604" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M202,114 Q214,112 228,114" fill="none" stroke="#0a0604" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Slight furrow between brows. -->
+      <line x1="186" y1="118" x2="188" y2="124" stroke="#7a5230" stroke-width="0.5" opacity="0.7"/>
+      <line x1="190" y1="118" x2="188" y2="124" stroke="#7a5230" stroke-width="0.5" opacity="0.7"/>
+
+      <!-- Nose. -->
+      <path d="M188,140 L184,162 Q188,165 192,162 Z" fill="#5a3018" opacity="0.6"/>
+      <path d="M184,162 Q188,164 192,162" fill="none" stroke="#3a1a0a" stroke-width="0.5" opacity="0.55"/>
+
+      <!-- Mouth — LIPS PARTING (about to speak), small gap, lower lip slightly down. -->
+      <path d="M178,182 Q188,184 198,182" fill="none" stroke="#3a1a0a" stroke-width="1.3" stroke-linecap="round"/>
+      <path d="M180,184 Q188,189 196,184" fill="none" stroke="#3a1a0a" stroke-width="1.1" stroke-linecap="round"/>
+      <!-- Small inner mouth shadow (parting lips). -->
+      <ellipse cx="188" cy="186" rx="6" ry="2" fill="#1a0a04" opacity="0.55"/>
+
+      <!-- Chin. -->
+      <ellipse cx="188" cy="200" rx="11" ry="6" fill="url(#p2p5skin)"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue (cut off mid-sentence — em-dash)            -->
+  <!-- ========================================================== -->
+  <g id="p2p5-dialogue">
+    <rect x="6" y="14" width="318" height="56" rx="6" fill="white" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="160,70 170,70 156,82" fill="white" stroke="#5a3ad8" stroke-width="2"/>
+    <line x1="159.5" y1="70" x2="170.5" y2="70" stroke="white" stroke-width="1.5"/>
+    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8">LUMA</text>
+    <text x="14" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Captain, I'm seeing something in the</text>
+    <text x="14" y="62" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">convergence data that—</text>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: panel meta                                           -->
+  <!-- ========================================================== -->
+  <g id="p2p5-meta">
+    <text x="356" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#888" opacity="0.7">5</text>
+    <text x="360" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#888" opacity="0.6">CU</text>
+  </g>
+
+</svg>

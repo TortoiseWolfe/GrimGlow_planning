@@ -1,0 +1,298 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+  <title>Sable — Captain — Clean Suit (Pristine)</title>
+  <desc>Master template for the captain Sable. Silver department-coded armored suit, dark brown skin, silver-white close-cropped hair, hexagonal blue-white holographic accent nodes at shoulders/chest/abdomen/thighs/calves, sidearm holster right hip. Used as visual recipe for per-panel composition.</desc>
+
+  <defs>
+    <!-- Suit metal: pristine silver, mirror-reflective. Linear top-down for vertical body shading. -->
+    <linearGradient id="sableSuitMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8eaee"/>
+      <stop offset="20%" stop-color="#c4c8cf"/>
+      <stop offset="50%" stop-color="#9ba1aa"/>
+      <stop offset="80%" stop-color="#787f88"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+
+    <!-- Side highlight: catches light along left edge of plates. -->
+    <linearGradient id="sableSuitHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <!-- Plate seams / undersuit. -->
+    <linearGradient id="sableSuitSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e36"/>
+      <stop offset="100%" stop-color="#15171c"/>
+    </linearGradient>
+
+    <!-- Skin: dark brown with warm undertone. -->
+    <linearGradient id="sableSkinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5d3d2a"/>
+      <stop offset="50%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#3a2418"/>
+    </linearGradient>
+
+    <!-- Silver-white cropped hair. -->
+    <linearGradient id="sableHair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4f5f7"/>
+      <stop offset="60%" stop-color="#d4d6db"/>
+      <stop offset="100%" stop-color="#a8acb4"/>
+    </linearGradient>
+
+    <!-- Holographic accent core: blue-white. Used for hex nodes at shoulders/chest/etc. -->
+    <radialGradient id="sableHologramCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#bfe4ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0.7"/>
+    </radialGradient>
+
+    <!-- Holographic bloom around accent nodes. -->
+    <radialGradient id="sableHologramGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#5aa6dc" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Drop shadow under feet to ground figure. -->
+    <filter id="sableShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Bloom for holographic accents. -->
+    <filter id="sableHoloBloom" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <!-- Reusable hexagonal accent node (single instance, transformed where used). -->
+    <symbol id="sableHexNode" viewBox="-10 -10 20 20" overflow="visible">
+      <polygon points="0,-9 7.8,-4.5 7.8,4.5 0,9 -7.8,4.5 -7.8,-4.5" fill="url(#sableHologramGlow)" filter="url(#sableHoloBloom)"/>
+      <polygon points="0,-7 6.1,-3.5 6.1,3.5 0,7 -6.1,3.5 -6.1,-3.5" fill="url(#sableHologramCore)"/>
+      <polygon points="0,-4 3.5,-2 3.5,2 0,4 -3.5,2 -3.5,-2" fill="#ffffff" opacity="0.85"/>
+    </symbol>
+  </defs>
+
+  <!-- Neutral reference background — strip when embedding in panels. -->
+  <rect width="400" height="600" fill="#f5f5f7"/>
+
+  <!-- Ground shadow ellipse. -->
+  <ellipse cx="200" cy="582" rx="62" ry="6" fill="#000" opacity="0.22"/>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: figure (full character) — wear-state independent.   -->
+  <!-- ========================================================== -->
+  <g id="sable-figure" filter="url(#sableShadow)">
+
+    <!-- LAYER: legs (back-to-front: undersuit, plates, knee node, boots) -->
+    <g id="sable-legs">
+      <!-- Undersuit dark layer (visible at joints). -->
+      <path d="M170,360 L168,580 L196,580 L198,360 Z" fill="url(#sableSuitSeam)"/>
+      <path d="M202,360 L204,580 L232,580 L230,360 Z" fill="url(#sableSuitSeam)"/>
+
+      <!-- Thigh plate (left). -->
+      <path d="M168,360 Q166,400 168,442 L196,442 Q198,400 196,360 Z" fill="url(#sableSuitMetal)"/>
+      <path d="M168,360 Q166,400 168,442 L196,442 Q198,400 196,360 Z" fill="url(#sableSuitHighlight)"/>
+      <!-- Thigh plate (right). -->
+      <path d="M204,360 Q202,400 204,442 L230,442 Q232,400 230,360 Z" fill="url(#sableSuitMetal)"/>
+      <path d="M204,360 Q202,400 204,442 L230,442 Q232,400 230,360 Z" fill="url(#sableSuitHighlight)" opacity="0.5"/>
+
+      <!-- Knee joint shadow. -->
+      <rect x="168" y="442" width="28" height="6" fill="url(#sableSuitSeam)"/>
+      <rect x="204" y="442" width="26" height="6" fill="url(#sableSuitSeam)"/>
+
+      <!-- Calf plate (left). -->
+      <path d="M170,448 Q168,495 172,540 L194,540 Q198,495 196,448 Z" fill="url(#sableSuitMetal)"/>
+      <path d="M170,448 Q168,495 172,540 L194,540 Q198,495 196,448 Z" fill="url(#sableSuitHighlight)"/>
+      <!-- Calf plate (right). -->
+      <path d="M204,448 Q202,495 206,540 L228,540 Q232,495 230,448 Z" fill="url(#sableSuitMetal)"/>
+
+      <!-- Boots. -->
+      <path d="M168,540 Q166,560 172,575 L196,575 Q198,560 196,540 Z" fill="#3a3e46"/>
+      <path d="M168,540 Q166,560 172,575 L196,575 Q198,560 196,540 Z" fill="url(#sableSuitHighlight)" opacity="0.4"/>
+      <path d="M204,540 Q202,560 208,575 L228,575 Q232,560 230,540 Z" fill="#3a3e46"/>
+
+      <!-- Knee accent nodes (hexagonal). -->
+      <use href="#sableHexNode" x="182" y="445" width="14" height="14"/>
+      <use href="#sableHexNode" x="217" y="445" width="14" height="14"/>
+    </g>
+
+    <!-- LAYER: torso -->
+    <g id="sable-torso">
+      <!-- Hip / pelvis dark band. -->
+      <path d="M158,340 L242,340 L240,365 L160,365 Z" fill="url(#sableSuitSeam)"/>
+
+      <!-- Main chest plate. -->
+      <path d="M158,235 Q150,280 158,340 L242,340 Q250,280 242,235 Q236,228 200,228 Q164,228 158,235 Z" fill="url(#sableSuitMetal)"/>
+      <path d="M158,235 Q150,280 158,340 L242,340 Q250,280 242,235 Q236,228 200,228 Q164,228 158,235 Z" fill="url(#sableSuitHighlight)"/>
+
+      <!-- Sternum seam. -->
+      <line x1="200" y1="232" x2="200" y2="338" stroke="#2a2e36" stroke-width="1.2" opacity="0.7"/>
+
+      <!-- Pectoral plate divisions. -->
+      <path d="M170,250 Q175,275 178,295 L172,295 Q170,275 170,250 Z" fill="#2a2e36" opacity="0.35"/>
+      <path d="M230,250 Q225,275 222,295 L228,295 Q230,275 230,250 Z" fill="#2a2e36" opacity="0.35"/>
+
+      <!-- Abdominal segmentation lines. -->
+      <line x1="170" y1="305" x2="230" y2="305" stroke="#2a2e36" stroke-width="0.8" opacity="0.6"/>
+      <line x1="172" y1="320" x2="228" y2="320" stroke="#2a2e36" stroke-width="0.8" opacity="0.6"/>
+
+      <!-- Sidearm holster (right hip — viewer's left in front view). -->
+      <path d="M155,340 L150,372 L168,372 L168,340 Z" fill="#1d1f24"/>
+      <rect x="153" y="345" width="14" height="20" fill="#0a0a0c"/>
+      <circle cx="160" cy="368" r="2" fill="#5a606a"/>
+
+      <!-- Chest accent node (large hex, central). -->
+      <use href="#sableHexNode" x="186" y="262" width="28" height="28"/>
+
+      <!-- Shoulder accent nodes. -->
+      <use href="#sableHexNode" x="158" y="245" width="20" height="20"/>
+      <use href="#sableHexNode" x="222" y="245" width="20" height="20"/>
+
+      <!-- Lower-abdomen accent (small). -->
+      <use href="#sableHexNode" x="192" y="324" width="16" height="16"/>
+    </g>
+
+    <!-- LAYER: arms -->
+    <g id="sable-arms">
+      <!-- Left arm (viewer's left). -->
+      <path d="M148,238 Q132,275 130,318 L150,322 Q156,275 158,240 Z" fill="url(#sableSuitMetal)"/>
+      <path d="M148,238 Q132,275 130,318 L150,322 Q156,275 158,240 Z" fill="url(#sableSuitHighlight)"/>
+      <!-- Elbow joint. -->
+      <ellipse cx="140" cy="320" rx="14" ry="6" fill="url(#sableSuitSeam)"/>
+      <!-- Forearm. -->
+      <path d="M130,322 Q126,355 132,388 L152,388 Q150,355 150,322 Z" fill="url(#sableSuitMetal)"/>
+      <!-- Hand. -->
+      <ellipse cx="141" cy="395" rx="11" ry="9" fill="url(#sableSkinTone)"/>
+      <!-- Bicep accent. -->
+      <use href="#sableHexNode" x="135" y="265" width="14" height="14"/>
+      <!-- Wrist holographic emitter ring. -->
+      <ellipse cx="141" cy="386" rx="12" ry="3" fill="url(#sableHologramCore)" opacity="0.85"/>
+
+      <!-- Right arm (viewer's right) — held slightly forward, tactical pose. -->
+      <path d="M252,238 Q268,275 270,318 L250,322 Q244,275 242,240 Z" fill="url(#sableSuitMetal)"/>
+      <path d="M252,238 Q268,275 270,318 L250,322 Q244,275 242,240 Z" fill="url(#sableSuitHighlight)" opacity="0.4"/>
+      <ellipse cx="260" cy="320" rx="14" ry="6" fill="url(#sableSuitSeam)"/>
+      <path d="M270,322 Q274,355 268,388 L248,388 Q250,355 250,322 Z" fill="url(#sableSuitMetal)"/>
+      <ellipse cx="259" cy="395" rx="11" ry="9" fill="url(#sableSkinTone)"/>
+      <use href="#sableHexNode" x="251" y="265" width="14" height="14"/>
+      <ellipse cx="259" cy="386" rx="12" ry="3" fill="url(#sableHologramCore)" opacity="0.85"/>
+    </g>
+
+    <!-- LAYER: neck + head -->
+    <g id="sable-head">
+      <!-- Neck (skin) within suit collar. -->
+      <path d="M188,205 L188,232 L212,232 L212,205 Z" fill="url(#sableSkinTone)"/>
+      <!-- Suit collar plate (high gorget). -->
+      <path d="M178,222 Q200,212 222,222 L218,235 L182,235 Z" fill="url(#sableSuitMetal)"/>
+      <line x1="200" y1="218" x2="200" y2="234" stroke="#2a2e36" stroke-width="0.8" opacity="0.6"/>
+
+      <!-- Face / head shape. -->
+      <ellipse cx="200" cy="180" rx="28" ry="34" fill="url(#sableSkinTone)"/>
+
+      <!-- Jawline shadow. -->
+      <path d="M174,188 Q200,218 226,188 Q224,202 200,212 Q176,202 174,188 Z" fill="#2a1810" opacity="0.35"/>
+
+      <!-- Hair (silver-white, military buzz cut hugging the skull contour, NOT a dome). -->
+      <!-- Base scalp coverage — thin layer following the head curve, with visible hairline at temples. -->
+      <path d="M174,164 Q173,150 178,144 Q190,138 200,138 Q210,138 222,144 Q227,150 226,164 L223,164 Q221,151 200,148 Q179,151 177,164 Z" fill="url(#sableHair)"/>
+      <!-- Hairline edge stroke (the buzz-cut "shadow" where scalp meets skin). -->
+      <path d="M177,164 Q200,158 223,164" fill="none" stroke="#7a7d83" stroke-width="0.7" opacity="0.85"/>
+      <!-- Stippled buzz-cut texture: short flecks across the scalp suggesting clipped hair. -->
+      <g stroke="#c8cad0" stroke-width="0.6" stroke-linecap="round" opacity="0.7">
+        <line x1="184" y1="148" x2="185" y2="151"/>
+        <line x1="190" y1="144" x2="191" y2="147"/>
+        <line x1="196" y1="142" x2="197" y2="145"/>
+        <line x1="202" y1="142" x2="203" y2="145"/>
+        <line x1="208" y1="143" x2="209" y2="146"/>
+        <line x1="214" y1="146" x2="215" y2="149"/>
+        <line x1="220" y1="150" x2="221" y2="153"/>
+        <line x1="180" y1="154" x2="181" y2="157"/>
+        <line x1="186" y1="152" x2="187" y2="155"/>
+        <line x1="194" y1="150" x2="195" y2="153"/>
+        <line x1="200" y1="150" x2="201" y2="153"/>
+        <line x1="206" y1="150" x2="207" y2="153"/>
+        <line x1="214" y1="153" x2="215" y2="156"/>
+        <line x1="220" y1="156" x2="221" y2="159"/>
+        <line x1="182" y1="159" x2="183" y2="162"/>
+        <line x1="190" y1="158" x2="191" y2="161"/>
+        <line x1="200" y1="156" x2="201" y2="159"/>
+        <line x1="210" y1="158" x2="211" y2="161"/>
+        <line x1="218" y1="160" x2="219" y2="163"/>
+      </g>
+      <!-- Darker stipples for depth. -->
+      <g stroke="#9ea1a8" stroke-width="0.5" stroke-linecap="round" opacity="0.6">
+        <line x1="187" y1="150" x2="188" y2="153"/>
+        <line x1="193" y1="146" x2="194" y2="149"/>
+        <line x1="199" y1="146" x2="200" y2="149"/>
+        <line x1="205" y1="147" x2="206" y2="150"/>
+        <line x1="211" y1="148" x2="212" y2="151"/>
+        <line x1="217" y1="152" x2="218" y2="155"/>
+        <line x1="183" y1="156" x2="184" y2="159"/>
+        <line x1="197" y1="153" x2="198" y2="156"/>
+        <line x1="211" y1="155" x2="212" y2="158"/>
+        <line x1="187" y1="161" x2="188" y2="164"/>
+        <line x1="203" y1="159" x2="204" y2="162"/>
+        <line x1="215" y1="162" x2="216" y2="165"/>
+      </g>
+      <!-- Sideburn taper — fades to nothing at temple. -->
+      <line x1="174" y1="164" x2="175" y2="170" stroke="#9ea1a8" stroke-width="0.5" opacity="0.5"/>
+      <line x1="226" y1="164" x2="225" y2="170" stroke="#9ea1a8" stroke-width="0.5" opacity="0.5"/>
+
+      <!-- Eyes — focused, sharp. -->
+      <ellipse cx="190" cy="178" rx="3" ry="1.6" fill="#1a0e08"/>
+      <ellipse cx="210" cy="178" rx="3" ry="1.6" fill="#1a0e08"/>
+      <ellipse cx="190.6" cy="177.6" rx="0.6" ry="0.5" fill="#ffffff"/>
+      <ellipse cx="210.6" cy="177.6" rx="0.6" ry="0.5" fill="#ffffff"/>
+      <!-- Brows — slight angle for command/authority. -->
+      <path d="M184,172 Q190,170 196,172" fill="none" stroke="#15100b" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M204,172 Q210,170 216,172" fill="none" stroke="#15100b" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Nose. -->
+      <path d="M200,180 L198,192 Q200,194 202,192 Z" fill="#3a1f12" opacity="0.7"/>
+      <!-- Mouth — set, slightly firm. -->
+      <path d="M193,200 Q200,202 207,200" fill="none" stroke="#2a1006" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+
+  </g>
+
+  <!-- ============================================================== -->
+  <!-- LAYER: wear-state overlays (toggleable by visibility on use)    -->
+  <!-- Default state shown: clean. Others hidden via display="none".   -->
+  <!-- A panel SVG copies the figure group and toggles which overlay   -->
+  <!-- is active for that scene's degradation point.                   -->
+  <!-- ============================================================== -->
+
+  <g id="sable-wear-clean" display="inline">
+    <!-- No overlay — pristine baseline. -->
+  </g>
+
+  <g id="sable-wear-fresh-impact" display="none">
+    <!-- Issue 1 post-crash: cracked panel at right shoulder, hairline fractures glowing at seams, scuffs from the crash. -->
+    <path d="M242,238 L252,250 L246,265 L240,255 Z" fill="#1a1d22" opacity="0.85"/>
+    <line x1="248" y1="245" x2="258" y2="270" stroke="#bfe4ff" stroke-width="0.8" opacity="0.85"/>
+    <line x1="240" y1="268" x2="252" y2="285" stroke="#bfe4ff" stroke-width="0.6" opacity="0.65"/>
+    <!-- Scuff streaks on chest. -->
+    <path d="M170,300 Q180,308 195,304" fill="none" stroke="#3a2a1c" stroke-width="1.2" opacity="0.5"/>
+    <path d="M205,310 Q220,316 232,308" fill="none" stroke="#3a2a1c" stroke-width="1.0" opacity="0.45"/>
+  </g>
+
+  <g id="sable-wear-mid-mission" display="none">
+    <!-- Soot accumulation, some scratches, holographic accents still glow through grime. -->
+    <path d="M158,235 Q150,280 158,340 L242,340 Q250,280 242,235" fill="#1a0e06" opacity="0.18"/>
+    <path d="M168,360 L196,442 L168,442 Z" fill="#1a0e06" opacity="0.22"/>
+    <path d="M204,360 L230,442 L204,442 Z" fill="#1a0e06" opacity="0.22"/>
+    <line x1="172" y1="270" x2="190" y2="295" stroke="#2a1810" stroke-width="0.8" opacity="0.7"/>
+    <line x1="218" y1="280" x2="232" y2="305" stroke="#2a1810" stroke-width="0.6" opacity="0.6"/>
+    <path d="M180,395 Q190,398 200,395" fill="none" stroke="#2a1810" stroke-width="1.0" opacity="0.5"/>
+  </g>
+
+  <g id="sable-wear-heavy" display="none">
+    <!-- Late-Volume state: heavy soot, dent on left pauldron, multiple cracks, dimmed holographics. -->
+    <path d="M158,235 Q150,280 158,340 L242,340 Q250,280 242,235" fill="#0a0604" opacity="0.42"/>
+    <path d="M168,360 L196,442 L168,442 Z" fill="#0a0604" opacity="0.45"/>
+    <path d="M204,360 L230,442 L204,442 Z" fill="#0a0604" opacity="0.45"/>
+    <path d="M148,238 Q132,275 130,318" fill="none" stroke="#0a0604" stroke-width="6" opacity="0.5"/>
+    <path d="M158,242 L172,238 L168,250 Z" fill="#1a1d22"/>
+    <line x1="178" y1="262" x2="218" y2="295" stroke="#2a1810" stroke-width="0.9" opacity="0.85"/>
+    <line x1="210" y1="248" x2="225" y2="278" stroke="#2a1810" stroke-width="0.7" opacity="0.75"/>
+  </g>
+
+</svg>

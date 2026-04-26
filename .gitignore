@@ -3,3 +3,9 @@ __pycache__/
 
 # ComfyUI local data (models are multi-GB, output is generated art)
 comfyui-data/
+
+# Playwright screenshot output from per-panel review pipeline (regenerated on demand)
+screenshots/
+
+# Internal review scratch (HTML viewer wrapper + Python sweep scripts)
+comic/wireframes/_review/

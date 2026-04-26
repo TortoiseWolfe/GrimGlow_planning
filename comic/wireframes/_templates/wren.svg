@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+  <title>Wren — Engineer — Clean Suit (Pristine)</title>
+  <desc>Master template for the engineer Wren. Silver armored suit with copper-gold department accent nodes and trim, East Asian features, black hair in a low knot, utility belt with engineering tools, oil-stain detail on hands/forearms. Department: Engineering. Visual recipe for per-panel composition.</desc>
+
+  <defs>
+    <!-- Suit base: same silver alloy as Sable but with warmer undertone for engineer department feel. -->
+    <linearGradient id="wrenSuitMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e6e3dc"/>
+      <stop offset="20%" stop-color="#c2bfb6"/>
+      <stop offset="50%" stop-color="#9a968c"/>
+      <stop offset="80%" stop-color="#76726a"/>
+      <stop offset="100%" stop-color="#58544c"/>
+    </linearGradient>
+
+    <linearGradient id="wrenSuitHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="wrenSuitSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c261c"/>
+      <stop offset="100%" stop-color="#15110b"/>
+    </linearGradient>
+
+    <!-- Copper accent trim on plate edges. -->
+    <linearGradient id="wrenCopperTrim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8a065"/>
+      <stop offset="50%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#8c4a18"/>
+    </linearGradient>
+
+    <!-- Skin: East Asian warm-neutral mid tone. -->
+    <linearGradient id="wrenSkinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c39e"/>
+      <stop offset="50%" stop-color="#d4a87e"/>
+      <stop offset="100%" stop-color="#a87a52"/>
+    </linearGradient>
+
+    <!-- Black hair, low knot. -->
+    <linearGradient id="wrenHair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="60%" stop-color="#0e0a08"/>
+      <stop offset="100%" stop-color="#050302"/>
+    </linearGradient>
+
+    <!-- Oil stain on hands/forearms. -->
+    <radialGradient id="wrenOilStain" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Copper-gold holographic accent core (engineer department). -->
+    <radialGradient id="wrenHologramCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffe8c4" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#f5a850" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#c8761e" stop-opacity="0.7"/>
+    </radialGradient>
+
+    <radialGradient id="wrenHologramGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5a850" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#c8761e" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8c4a18" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="wrenShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+
+    <filter id="wrenHoloBloom" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <!-- Reusable circular copper accent node (Wren's are round, not hex — engineer fitting). -->
+    <symbol id="wrenCopperNode" viewBox="-10 -10 20 20" overflow="visible">
+      <circle r="9" fill="url(#wrenHologramGlow)" filter="url(#wrenHoloBloom)"/>
+      <circle r="6.5" fill="url(#wrenHologramCore)"/>
+      <circle r="2.8" fill="#fff5d8" opacity="0.9"/>
+    </symbol>
+  </defs>
+
+  <rect width="400" height="600" fill="#f5f5f7"/>
+  <ellipse cx="200" cy="582" rx="62" ry="6" fill="#000" opacity="0.22"/>
+
+  <g id="wren-figure" filter="url(#wrenShadow)">
+
+    <!-- LAYER: legs -->
+    <g id="wren-legs">
+      <path d="M170,360 L168,580 L196,580 L198,360 Z" fill="url(#wrenSuitSeam)"/>
+      <path d="M202,360 L204,580 L232,580 L230,360 Z" fill="url(#wrenSuitSeam)"/>
+
+      <path d="M168,360 Q166,400 168,442 L196,442 Q198,400 196,360 Z" fill="url(#wrenSuitMetal)"/>
+      <path d="M168,360 Q166,400 168,442 L196,442 Q198,400 196,360 Z" fill="url(#wrenSuitHighlight)"/>
+      <path d="M204,360 Q202,400 204,442 L230,442 Q232,400 230,360 Z" fill="url(#wrenSuitMetal)"/>
+      <path d="M204,360 Q202,400 204,442 L230,442 Q232,400 230,360 Z" fill="url(#wrenSuitHighlight)" opacity="0.5"/>
+
+      <!-- Copper trim along thigh seam. -->
+      <line x1="180" y1="365" x2="184" y2="438" stroke="url(#wrenCopperTrim)" stroke-width="1.4" opacity="0.75"/>
+      <line x1="216" y1="365" x2="220" y2="438" stroke="url(#wrenCopperTrim)" stroke-width="1.4" opacity="0.75"/>
+
+      <rect x="168" y="442" width="28" height="6" fill="url(#wrenSuitSeam)"/>
+      <rect x="204" y="442" width="26" height="6" fill="url(#wrenSuitSeam)"/>
+
+      <path d="M170,448 Q168,495 172,540 L194,540 Q198,495 196,448 Z" fill="url(#wrenSuitMetal)"/>
+      <path d="M170,448 Q168,495 172,540 L194,540 Q198,495 196,448 Z" fill="url(#wrenSuitHighlight)"/>
+      <path d="M204,448 Q202,495 206,540 L228,540 Q232,495 230,448 Z" fill="url(#wrenSuitMetal)"/>
+
+      <path d="M168,540 Q164,562 170,575 L196,575 Q198,560 196,540 Z" fill="#3a3128"/>
+      <path d="M168,540 Q164,562 170,575 L196,575 Q198,560 196,540 Z" fill="url(#wrenSuitHighlight)" opacity="0.4"/>
+      <path d="M204,540 Q202,560 208,575 L228,575 Q236,562 230,540 Z" fill="#3a3128"/>
+
+      <!-- Knee accent nodes (copper). -->
+      <use href="#wrenCopperNode" x="182" y="445" width="14" height="14"/>
+      <use href="#wrenCopperNode" x="217" y="445" width="14" height="14"/>
+    </g>
+
+    <!-- LAYER: torso -->
+    <g id="wren-torso">
+      <!-- Hip plate with utility belt. -->
+      <path d="M158,340 L242,340 L240,365 L160,365 Z" fill="url(#wrenSuitSeam)"/>
+
+      <!-- Main chest plate. -->
+      <path d="M158,235 Q150,280 158,340 L242,340 Q250,280 242,235 Q236,228 200,228 Q164,228 158,235 Z" fill="url(#wrenSuitMetal)"/>
+      <path d="M158,235 Q150,280 158,340 L242,340 Q250,280 242,235 Q236,228 200,228 Q164,228 158,235 Z" fill="url(#wrenSuitHighlight)"/>
+
+      <!-- Sternum copper accent strip. -->
+      <line x1="200" y1="232" x2="200" y2="338" stroke="url(#wrenCopperTrim)" stroke-width="2" opacity="0.85"/>
+
+      <!-- Pectoral plate divisions. -->
+      <path d="M170,250 Q175,275 178,295 L172,295 Q170,275 170,250 Z" fill="#2a261c" opacity="0.4"/>
+      <path d="M230,250 Q225,275 222,295 L228,295 Q230,275 230,250 Z" fill="#2a261c" opacity="0.4"/>
+
+      <!-- Plate edge copper trim around collar/upper chest. -->
+      <path d="M168,238 Q200,232 232,238" fill="none" stroke="url(#wrenCopperTrim)" stroke-width="1.3" opacity="0.85"/>
+
+      <!-- Abdominal plate seams. -->
+      <line x1="170" y1="305" x2="230" y2="305" stroke="#2a261c" stroke-width="0.8" opacity="0.6"/>
+      <line x1="172" y1="320" x2="228" y2="320" stroke="#2a261c" stroke-width="0.8" opacity="0.6"/>
+
+      <!-- Utility belt — characteristic engineer detail. -->
+      <rect x="156" y="345" width="88" height="14" fill="#1d1810"/>
+      <rect x="156" y="345" width="88" height="14" fill="url(#wrenCopperTrim)" opacity="0.4"/>
+      <!-- Belt pouches / tool holsters. -->
+      <rect x="162" y="350" width="12" height="18" fill="#2a1f12" rx="1"/>
+      <rect x="178" y="350" width="10" height="14" fill="#2a1f12" rx="1"/>
+      <rect x="212" y="350" width="10" height="14" fill="#2a1f12" rx="1"/>
+      <rect x="226" y="350" width="14" height="20" fill="#2a1f12" rx="1"/>
+      <!-- Small wrench/tool poking out. -->
+      <line x1="167" y1="345" x2="167" y2="338" stroke="#5a606a" stroke-width="1.5"/>
+      <rect x="165" y="334" width="4" height="4" fill="#787f88"/>
+
+      <!-- Chest accent node (large copper). -->
+      <use href="#wrenCopperNode" x="186" y="262" width="28" height="28"/>
+
+      <!-- Shoulder accent nodes (smaller copper). -->
+      <use href="#wrenCopperNode" x="158" y="245" width="20" height="20"/>
+      <use href="#wrenCopperNode" x="222" y="245" width="20" height="20"/>
+
+      <!-- Lower-abdomen accent. -->
+      <use href="#wrenCopperNode" x="192" y="324" width="14" height="14"/>
+    </g>
+
+    <!-- LAYER: arms -->
+    <g id="wren-arms">
+      <!-- Left arm (viewer's left). -->
+      <path d="M148,238 Q132,275 130,318 L150,322 Q156,275 158,240 Z" fill="url(#wrenSuitMetal)"/>
+      <path d="M148,238 Q132,275 130,318 L150,322 Q156,275 158,240 Z" fill="url(#wrenSuitHighlight)"/>
+      <ellipse cx="140" cy="320" rx="14" ry="6" fill="url(#wrenSuitSeam)"/>
+      <path d="M130,322 Q126,355 132,388 L152,388 Q150,355 150,322 Z" fill="url(#wrenSuitMetal)"/>
+      <!-- Hand with oil stain. -->
+      <ellipse cx="141" cy="395" rx="11" ry="9" fill="url(#wrenSkinTone)"/>
+      <ellipse cx="141" cy="395" rx="11" ry="9" fill="url(#wrenOilStain)"/>
+      <!-- Oil smudge streak on forearm. -->
+      <path d="M134,365 Q140,372 148,378" fill="none" stroke="#1a0e06" stroke-width="1.6" opacity="0.55"/>
+      <!-- Bicep accent. -->
+      <use href="#wrenCopperNode" x="135" y="265" width="14" height="14"/>
+      <ellipse cx="141" cy="386" rx="12" ry="3" fill="url(#wrenHologramCore)" opacity="0.85"/>
+
+      <!-- Right arm. -->
+      <path d="M252,238 Q268,275 270,318 L250,322 Q244,275 242,240 Z" fill="url(#wrenSuitMetal)"/>
+      <path d="M252,238 Q268,275 270,318 L250,322 Q244,275 242,240 Z" fill="url(#wrenSuitHighlight)" opacity="0.4"/>
+      <ellipse cx="260" cy="320" rx="14" ry="6" fill="url(#wrenSuitSeam)"/>
+      <path d="M270,322 Q274,355 268,388 L248,388 Q250,355 250,322 Z" fill="url(#wrenSuitMetal)"/>
+      <ellipse cx="259" cy="395" rx="11" ry="9" fill="url(#wrenSkinTone)"/>
+      <ellipse cx="259" cy="395" rx="11" ry="9" fill="url(#wrenOilStain)" opacity="0.7"/>
+      <use href="#wrenCopperNode" x="251" y="265" width="14" height="14"/>
+      <ellipse cx="259" cy="386" rx="12" ry="3" fill="url(#wrenHologramCore)" opacity="0.85"/>
+    </g>
+
+    <!-- LAYER: head -->
+    <g id="wren-head">
+      <path d="M188,205 L188,232 L212,232 L212,205 Z" fill="url(#wrenSkinTone)"/>
+      <path d="M178,222 Q200,212 222,222 L218,235 L182,235 Z" fill="url(#wrenSuitMetal)"/>
+      <line x1="200" y1="218" x2="200" y2="234" stroke="#2a261c" stroke-width="0.8" opacity="0.6"/>
+
+      <!-- Face. -->
+      <ellipse cx="200" cy="180" rx="27" ry="33" fill="url(#wrenSkinTone)"/>
+
+      <!-- Hair: high messy bun on top + smooth pulled-back sides + escaping strands. -->
+      <!-- Side hair tight against scalp, swept up toward crown. -->
+      <path d="M173,164 Q175,148 184,140 Q190,138 198,140 L198,160 Q186,158 178,164 Z" fill="url(#wrenHair)"/>
+      <path d="M227,164 Q225,148 216,140 Q210,138 202,140 L202,160 Q214,158 222,164 Z" fill="url(#wrenHair)"/>
+      <!-- Center scalp coverage (smooth, dark). -->
+      <path d="M180,150 Q200,138 220,150 Q220,160 200,156 Q180,160 180,150 Z" fill="url(#wrenHair)"/>
+      <!-- HIGH MESSY BUN at top of head — multiple overlapping wisps, not a smooth ellipse. -->
+      <g id="wren-bun">
+        <!-- Main bun mass. -->
+        <ellipse cx="200" cy="124" rx="16" ry="13" fill="url(#wrenHair)"/>
+        <!-- Loose loops/twists giving the messy texture. -->
+        <path d="M188,118 Q192,108 204,110 Q214,114 212,124 Q200,118 188,124 Z" fill="url(#wrenHair)"/>
+        <path d="M192,128 Q200,116 212,118 Q216,128 208,134 Q198,132 192,128 Z" fill="url(#wrenHair)" opacity="0.92"/>
+        <!-- Bun-tie ring (a hair tie's compression visible). -->
+        <ellipse cx="200" cy="136" rx="12" ry="3" fill="#0a0604" opacity="0.7"/>
+        <!-- Bun highlight strand. -->
+        <path d="M192,116 Q200,112 210,116" fill="none" stroke="#3a2818" stroke-width="0.7" opacity="0.7"/>
+        <path d="M194,124 Q204,120 210,126" fill="none" stroke="#3a2818" stroke-width="0.6" opacity="0.6"/>
+      </g>
+      <!-- Escaping strands at temples (the "messy" character defining detail). -->
+      <path d="M180,142 Q174,134 172,124" fill="none" stroke="#0a0604" stroke-width="0.9" stroke-linecap="round" opacity="0.9"/>
+      <path d="M182,148 Q176,144 174,138" fill="none" stroke="#0a0604" stroke-width="0.7" stroke-linecap="round" opacity="0.8"/>
+      <path d="M220,142 Q226,134 228,124" fill="none" stroke="#0a0604" stroke-width="0.9" stroke-linecap="round" opacity="0.9"/>
+      <path d="M218,148 Q224,144 226,138" fill="none" stroke="#0a0604" stroke-width="0.7" stroke-linecap="round" opacity="0.8"/>
+      <!-- Stray flyaway across forehead (the engineer's perpetual messiness). -->
+      <path d="M188,158 Q194,164 202,160 Q210,158 214,162" fill="none" stroke="#0a0604" stroke-width="0.8" opacity="0.85"/>
+      <!-- Wisps falling at sides of face. -->
+      <path d="M174,166 Q170,180 174,196" fill="none" stroke="#0a0604" stroke-width="0.7" opacity="0.8"/>
+      <path d="M226,166 Q230,180 226,196" fill="none" stroke="#0a0604" stroke-width="0.7" opacity="0.8"/>
+
+      <!-- Eyes — focused, observational engineer's gaze. -->
+      <ellipse cx="190" cy="178" rx="3" ry="1.4" fill="#1a0e08"/>
+      <ellipse cx="210" cy="178" rx="3" ry="1.4" fill="#1a0e08"/>
+      <ellipse cx="190.6" cy="177.7" rx="0.5" ry="0.4" fill="#ffffff"/>
+      <ellipse cx="210.6" cy="177.7" rx="0.5" ry="0.4" fill="#ffffff"/>
+      <!-- Brows — slightly drawn together (focused). -->
+      <path d="M184,172 Q190,171 196,173" fill="none" stroke="#15100b" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M204,173 Q210,171 216,172" fill="none" stroke="#15100b" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Nose. -->
+      <path d="M200,180 L198,192 Q200,194 202,192 Z" fill="#7a5230" opacity="0.55"/>
+      <!-- Mouth — closed, slight press of concentration. -->
+      <path d="M194,200 Q200,201 206,200" fill="none" stroke="#5a3018" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: wear-state overlays                                  -->
+  <!-- ========================================================== -->
+
+  <g id="wren-wear-clean" display="inline"/>
+
+  <g id="wren-wear-fresh-impact" display="none">
+    <!-- Issue 1 post-crash: oil from ship systems on forearms (per Asset Manifest). -->
+    <ellipse cx="141" cy="378" rx="14" ry="8" fill="#1a0e06" opacity="0.65"/>
+    <ellipse cx="259" cy="378" rx="14" ry="8" fill="#1a0e06" opacity="0.6"/>
+    <path d="M132,360 Q140,370 148,360" fill="none" stroke="#0a0604" stroke-width="1.4" opacity="0.7"/>
+    <!-- Scuff on chest. -->
+    <line x1="178" y1="280" x2="195" y2="295" stroke="#2a1810" stroke-width="1.2" opacity="0.65"/>
+  </g>
+
+  <g id="wren-wear-mid-mission" display="none">
+    <!-- Soot, more oil staining, plate scratches. -->
+    <path d="M158,235 Q150,280 158,340 L242,340 Q250,280 242,235" fill="#1a0e06" opacity="0.18"/>
+    <path d="M168,360 L196,442 L168,442 Z" fill="#1a0e06" opacity="0.22"/>
+    <path d="M204,360 L230,442 L204,442 Z" fill="#1a0e06" opacity="0.22"/>
+    <ellipse cx="141" cy="375" rx="16" ry="10" fill="#0a0604" opacity="0.7"/>
+    <ellipse cx="259" cy="375" rx="16" ry="10" fill="#0a0604" opacity="0.7"/>
+    <line x1="172" y1="270" x2="190" y2="295" stroke="#2a1810" stroke-width="0.9" opacity="0.7"/>
+    <line x1="218" y1="280" x2="232" y2="305" stroke="#2a1810" stroke-width="0.7" opacity="0.6"/>
+  </g>
+
+  <g id="wren-wear-heavy" display="none">
+    <path d="M158,235 Q150,280 158,340 L242,340 Q250,280 242,235" fill="#0a0604" opacity="0.42"/>
+    <path d="M168,360 L196,442 L168,442 Z" fill="#0a0604" opacity="0.45"/>
+    <path d="M204,360 L230,442 L204,442 Z" fill="#0a0604" opacity="0.45"/>
+    <ellipse cx="141" cy="375" rx="18" ry="12" fill="#040201" opacity="0.85"/>
+    <ellipse cx="259" cy="375" rx="18" ry="12" fill="#040201" opacity="0.85"/>
+    <line x1="178" y1="262" x2="218" y2="295" stroke="#2a1810" stroke-width="0.9" opacity="0.85"/>
+    <line x1="210" y1="248" x2="225" y2="278" stroke="#2a1810" stroke-width="0.7" opacity="0.75"/>
+  </g>
+
+</svg>

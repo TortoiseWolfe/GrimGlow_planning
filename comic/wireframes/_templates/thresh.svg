@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+  <title>Thresh — Soldier — Clean Suit (Pristine)</title>
+  <desc>Master template for the soldier Thresh. Crimson/ruby metallic suit with HEAVIER armor plating than other squad members (chunky pauldrons, reinforced torso/thigh plates), pale skin, dramatic copper-red swept-back hair (tall undercut/pomp), red holographic accent nodes, broad-shouldered powerful build, sidearm + rifle on back. Department: Security. Visual recipe for per-panel composition.</desc>
+
+  <defs>
+    <!-- Crimson/ruby suit metal. -->
+    <linearGradient id="threshSuitMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e85068"/>
+      <stop offset="20%" stop-color="#c83040"/>
+      <stop offset="50%" stop-color="#9a1a28"/>
+      <stop offset="80%" stop-color="#6a0e1a"/>
+      <stop offset="100%" stop-color="#3a0610"/>
+    </linearGradient>
+
+    <linearGradient id="threshSuitHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd0d8" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <linearGradient id="threshSuitSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a0810"/>
+      <stop offset="100%" stop-color="#150408"/>
+    </linearGradient>
+
+    <!-- Pale skin. -->
+    <linearGradient id="threshSkinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5dccc"/>
+      <stop offset="50%" stop-color="#e8c4ae"/>
+      <stop offset="100%" stop-color="#c89a82"/>
+    </linearGradient>
+
+    <!-- Copper-red hair. -->
+    <linearGradient id="threshHair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d85020"/>
+      <stop offset="50%" stop-color="#a83012"/>
+      <stop offset="100%" stop-color="#6a1a08"/>
+    </linearGradient>
+
+    <!-- Red holographic accent. -->
+    <radialGradient id="threshHologramCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#ffb0b8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#dc2030" stop-opacity="0.7"/>
+    </radialGradient>
+
+    <radialGradient id="threshHologramGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffb0b8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#dc2030" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3a0610" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="threshShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+
+    <filter id="threshHoloBloom" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <symbol id="threshHexNode" viewBox="-10 -10 20 20" overflow="visible">
+      <polygon points="0,-9 7.8,-4.5 7.8,4.5 0,9 -7.8,4.5 -7.8,-4.5" fill="url(#threshHologramGlow)" filter="url(#threshHoloBloom)"/>
+      <polygon points="0,-7 6.1,-3.5 6.1,3.5 0,7 -6.1,3.5 -6.1,-3.5" fill="url(#threshHologramCore)"/>
+      <polygon points="0,-4 3.5,-2 3.5,2 0,4 -3.5,2 -3.5,-2" fill="#ffffff" opacity="0.85"/>
+    </symbol>
+  </defs>
+
+  <rect width="400" height="600" fill="#f5f5f7"/>
+  <ellipse cx="200" cy="582" rx="72" ry="7" fill="#000" opacity="0.25"/>
+
+  <!-- Rifle barrel poking up from back, behind right shoulder. -->
+  <g id="thresh-back-rifle">
+    <rect x="245" y="180" width="6" height="60" fill="#1a1a1c"/>
+    <rect x="244" y="178" width="8" height="6" fill="#3a3a3e"/>
+  </g>
+
+  <g id="thresh-figure" filter="url(#threshShadow)">
+
+    <!-- LAYER: legs (heavier armor than others) -->
+    <g id="thresh-legs">
+      <path d="M166,360 L162,580 L196,580 L200,360 Z" fill="url(#threshSuitSeam)"/>
+      <path d="M204,360 L208,580 L238,580 L234,360 Z" fill="url(#threshSuitSeam)"/>
+
+      <!-- Thicker thigh plates. -->
+      <path d="M164,360 Q160,402 164,448 L198,448 Q202,402 198,360 Z" fill="url(#threshSuitMetal)"/>
+      <path d="M164,360 Q160,402 164,448 L198,448 Q202,402 198,360 Z" fill="url(#threshSuitHighlight)"/>
+      <path d="M204,360 Q200,402 204,448 L238,448 Q242,402 238,360 Z" fill="url(#threshSuitMetal)"/>
+      <path d="M204,360 Q200,402 204,448 L238,448 Q242,402 238,360 Z" fill="url(#threshSuitHighlight)" opacity="0.5"/>
+
+      <!-- Thigh armor segmentation. -->
+      <line x1="170" y1="385" x2="194" y2="385" stroke="#2a0810" stroke-width="0.8" opacity="0.55"/>
+      <line x1="208" y1="385" x2="232" y2="385" stroke="#2a0810" stroke-width="0.8" opacity="0.55"/>
+      <line x1="170" y1="415" x2="194" y2="415" stroke="#2a0810" stroke-width="0.8" opacity="0.55"/>
+      <line x1="208" y1="415" x2="232" y2="415" stroke="#2a0810" stroke-width="0.8" opacity="0.55"/>
+
+      <rect x="164" y="448" width="34" height="8" fill="url(#threshSuitSeam)"/>
+      <rect x="204" y="448" width="34" height="8" fill="url(#threshSuitSeam)"/>
+
+      <!-- Calf plates with armor ribs. -->
+      <path d="M166,456 Q162,500 168,540 L194,540 Q200,500 196,456 Z" fill="url(#threshSuitMetal)"/>
+      <path d="M166,456 Q162,500 168,540 L194,540 Q200,500 196,456 Z" fill="url(#threshSuitHighlight)"/>
+      <path d="M204,456 Q200,500 206,540 L232,540 Q238,500 234,456 Z" fill="url(#threshSuitMetal)"/>
+
+      <!-- Combat boots. -->
+      <path d="M164,540 Q160,562 168,575 L196,575 Q200,560 196,540 Z" fill="#1a0408"/>
+      <path d="M164,540 Q160,562 168,575 L196,575 Q200,560 196,540 Z" fill="url(#threshSuitHighlight)" opacity="0.4"/>
+      <path d="M204,540 Q200,560 208,575 L234,575 Q240,562 236,540 Z" fill="#1a0408"/>
+
+      <!-- Knee guard plates (extra armor). -->
+      <path d="M170,440 L194,440 L196,455 L168,455 Z" fill="url(#threshSuitMetal)"/>
+      <path d="M170,440 L194,440 L196,455 L168,455 Z" fill="url(#threshSuitHighlight)" opacity="0.7"/>
+      <path d="M208,440 L232,440 L234,455 L206,455 Z" fill="url(#threshSuitMetal)"/>
+
+      <use href="#threshHexNode" x="181" y="447" width="14" height="14"/>
+      <use href="#threshHexNode" x="221" y="447" width="14" height="14"/>
+    </g>
+
+    <!-- LAYER: torso (broad, heavily armored) -->
+    <g id="thresh-torso">
+      <path d="M154,340 L246,340 L244,365 L156,365 Z" fill="url(#threshSuitSeam)"/>
+
+      <!-- Wider, heavier chest plate. -->
+      <path d="M152,235 Q142,278 152,340 L248,340 Q258,278 248,235 Q240,225 200,225 Q160,225 152,235 Z" fill="url(#threshSuitMetal)"/>
+      <path d="M152,235 Q142,278 152,340 L248,340 Q258,278 248,235 Q240,225 200,225 Q160,225 152,235 Z" fill="url(#threshSuitHighlight)"/>
+
+      <!-- Heavy sternum reinforcement. -->
+      <path d="M196,228 L204,228 L206,338 L194,338 Z" fill="url(#threshSuitMetal)"/>
+      <path d="M196,228 L204,228 L206,338 L194,338 Z" fill="url(#threshSuitHighlight)" opacity="0.6"/>
+      <line x1="200" y1="228" x2="200" y2="338" stroke="#2a0810" stroke-width="0.8"/>
+
+      <!-- Pectoral armor plates with strong divisions. -->
+      <path d="M164,250 Q170,278 175,300 L168,302 Q162,278 162,250 Z" fill="#3a0610" opacity="0.55"/>
+      <path d="M236,250 Q230,278 225,300 L232,302 Q238,278 238,250 Z" fill="#3a0610" opacity="0.55"/>
+
+      <!-- Abdominal armor bands. -->
+      <line x1="166" y1="305" x2="234" y2="305" stroke="#2a0810" stroke-width="1.2" opacity="0.7"/>
+      <line x1="168" y1="320" x2="232" y2="320" stroke="#2a0810" stroke-width="1.2" opacity="0.7"/>
+      <line x1="170" y1="332" x2="230" y2="332" stroke="#2a0810" stroke-width="1.0" opacity="0.6"/>
+
+      <!-- Sidearm holster (right hip). -->
+      <path d="M150,340 L144,378 L168,378 L168,340 Z" fill="#0a0204"/>
+      <rect x="148" y="346" width="18" height="22" fill="#050102"/>
+      <circle cx="157" cy="372" r="2.2" fill="#3a3a3e"/>
+
+      <!-- Ammo pouches on belt. -->
+      <rect x="222" y="342" width="10" height="20" fill="#1a0408" rx="1"/>
+      <rect x="234" y="342" width="10" height="20" fill="#1a0408" rx="1"/>
+
+      <!-- Chest accent (large red hex). -->
+      <use href="#threshHexNode" x="184" y="262" width="32" height="32"/>
+
+      <!-- Shoulder pauldrons (big chunky armor). -->
+      <path d="M148,232 Q132,238 132,260 Q140,272 158,272 L162,250 Q160,235 148,232 Z" fill="url(#threshSuitMetal)"/>
+      <path d="M148,232 Q132,238 132,260 Q140,272 158,272 L162,250 Q160,235 148,232 Z" fill="url(#threshSuitHighlight)"/>
+      <path d="M252,232 Q268,238 268,260 Q260,272 242,272 L238,250 Q240,235 252,232 Z" fill="url(#threshSuitMetal)"/>
+      <path d="M252,232 Q268,238 268,260 Q260,272 242,272 L238,250 Q240,235 252,232 Z" fill="url(#threshSuitHighlight)" opacity="0.5"/>
+
+      <!-- Pauldron accent nodes. -->
+      <use href="#threshHexNode" x="142" y="248" width="20" height="20"/>
+      <use href="#threshHexNode" x="238" y="248" width="20" height="20"/>
+
+      <!-- Lower abdominal accent. -->
+      <use href="#threshHexNode" x="192" y="324" width="16" height="16"/>
+    </g>
+
+    <!-- LAYER: arms (thick, muscular) -->
+    <g id="thresh-arms">
+      <path d="M138,260 Q120,278 118,318 L142,322 Q148,278 152,262 Z" fill="url(#threshSuitMetal)"/>
+      <path d="M138,260 Q120,278 118,318 L142,322 Q148,278 152,262 Z" fill="url(#threshSuitHighlight)"/>
+      <ellipse cx="130" cy="320" rx="16" ry="7" fill="url(#threshSuitSeam)"/>
+      <path d="M118,322 Q114,355 122,388 L146,388 Q144,355 144,322 Z" fill="url(#threshSuitMetal)"/>
+      <ellipse cx="134" cy="397" rx="13" ry="10" fill="url(#threshSkinTone)"/>
+      <use href="#threshHexNode" x="125" y="285" width="14" height="14"/>
+      <ellipse cx="134" cy="386" rx="13" ry="3" fill="url(#threshHologramCore)" opacity="0.85"/>
+      <!-- Vambrace / forearm armor band. -->
+      <path d="M120,340 L144,340 L144,348 L120,348 Z" fill="#2a0810" opacity="0.7"/>
+
+      <path d="M262,260 Q280,278 282,318 L258,322 Q252,278 248,262 Z" fill="url(#threshSuitMetal)"/>
+      <path d="M262,260 Q280,278 282,318 L258,322 Q252,278 248,262 Z" fill="url(#threshSuitHighlight)" opacity="0.4"/>
+      <ellipse cx="270" cy="320" rx="16" ry="7" fill="url(#threshSuitSeam)"/>
+      <path d="M282,322 Q286,355 278,388 L254,388 Q256,355 256,322 Z" fill="url(#threshSuitMetal)"/>
+      <ellipse cx="266" cy="397" rx="13" ry="10" fill="url(#threshSkinTone)"/>
+      <use href="#threshHexNode" x="262" y="285" width="14" height="14"/>
+      <ellipse cx="266" cy="386" rx="13" ry="3" fill="url(#threshHologramCore)" opacity="0.85"/>
+      <path d="M256,340 L280,340 L280,348 L256,348 Z" fill="#2a0810" opacity="0.7"/>
+    </g>
+
+    <!-- LAYER: head (square jaw, broad neck, swept hair) -->
+    <g id="thresh-head">
+      <path d="M186,205 L186,232 L214,232 L214,205 Z" fill="url(#threshSkinTone)"/>
+      <!-- High armored gorget. -->
+      <path d="M174,222 Q200,210 226,222 L220,238 L180,238 Z" fill="url(#threshSuitMetal)"/>
+      <line x1="200" y1="218" x2="200" y2="234" stroke="#2a0810" stroke-width="0.9" opacity="0.65"/>
+
+      <!-- Head shape — strong jaw, broader. -->
+      <path d="M172,180 Q174,150 200,144 Q226,150 228,180 Q228,200 220,210 Q200,222 180,210 Q172,200 172,180 Z" fill="url(#threshSkinTone)"/>
+
+      <!-- Hair: tall swept-back pomp/undercut, dramatic. Shaved sides, voluminous top swept right. -->
+      <!-- Shaved sides (very short). -->
+      <!-- SHAVED SIDES (very short, just stipple texture on skin). -->
+      <path d="M172,168 Q173,156 178,150 L182,150 Q179,160 178,170 Z" fill="url(#threshHair)" opacity="0.55"/>
+      <path d="M228,168 Q227,156 222,150 L218,150 Q221,160 222,170 Z" fill="url(#threshHair)" opacity="0.55"/>
+      <!-- Stipple on shaved sides (suggesting buzzed-short hair). -->
+      <g stroke="#6a1a08" stroke-width="0.4" stroke-linecap="round" opacity="0.7">
+        <line x1="174" y1="158" x2="175" y2="161"/>
+        <line x1="176" y1="164" x2="177" y2="167"/>
+        <line x1="178" y1="156" x2="179" y2="159"/>
+        <line x1="180" y1="162" x2="181" y2="165"/>
+        <line x1="180" y1="168" x2="181" y2="171"/>
+        <line x1="226" y1="158" x2="225" y2="161"/>
+        <line x1="224" y1="164" x2="223" y2="167"/>
+        <line x1="222" y1="156" x2="221" y2="159"/>
+        <line x1="220" y1="162" x2="219" y2="165"/>
+        <line x1="220" y1="168" x2="219" y2="171"/>
+      </g>
+      <!-- TALL POMP — voluminous top swept up and back. Now extends well above the head silhouette. -->
+      <!-- Base of the pomp where it meets the shaved sides. -->
+      <path d="M180,150 Q200,144 220,150 Q224,150 226,154 Q224,156 220,154 Q200,148 180,154 Q176,156 174,154 Q176,150 180,150 Z" fill="url(#threshHair)"/>
+      <!-- Tall front sweep (the dramatic upswept volume — extends from forehead up and back). -->
+      <path d="M184,150 Q186,128 196,118 Q210,114 222,124 Q230,138 232,154 Q228,142 222,134 Q214,124 204,124 Q194,128 188,140 Q184,148 184,150 Z" fill="url(#threshHair)"/>
+      <!-- Inner deeper-color shadow giving the pomp 3D form. -->
+      <path d="M192,140 Q200,128 214,128 Q224,134 228,148 Q220,138 210,134 Q200,134 194,144 Z" fill="#6a1a08" opacity="0.55"/>
+      <!-- Individual lock streaks across the pomp showing direction (front-up-back). -->
+      <g stroke="#6a1a08" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.85">
+        <path d="M188,148 Q198,138 212,134"/>
+        <path d="M192,144 Q204,132 220,130"/>
+        <path d="M196,140 Q210,128 226,134"/>
+        <path d="M198,134 Q214,124 228,140"/>
+        <path d="M204,128 Q218,122 230,144"/>
+      </g>
+      <!-- Highlight strands on top of pomp (catching light). -->
+      <g stroke="#e8a05a" stroke-width="0.8" stroke-linecap="round" fill="none" opacity="0.85">
+        <path d="M196,128 Q210,122 224,134"/>
+        <path d="M200,124 Q214,120 226,128"/>
+      </g>
+      <!-- Sharp pomp tip (the highest point catching the most light). -->
+      <path d="M204,118 L210,114 L214,116 Q210,118 206,120 Z" fill="#d85020" opacity="0.85"/>
+
+      <!-- Scar across left brow (soldier detail). -->
+      <line x1="178" y1="170" x2="190" y2="174" stroke="#8a4830" stroke-width="0.9" opacity="0.8"/>
+
+      <!-- Eyes — intense, alert. -->
+      <ellipse cx="190" cy="180" rx="3" ry="1.5" fill="#1a0a04"/>
+      <ellipse cx="210" cy="180" rx="3" ry="1.5" fill="#1a0a04"/>
+      <ellipse cx="190.5" cy="179.7" rx="0.6" ry="0.4" fill="#ffffff"/>
+      <ellipse cx="210.5" cy="179.7" rx="0.6" ry="0.4" fill="#ffffff"/>
+      <!-- Brows — strong, slightly furrowed (military serious). -->
+      <path d="M183,173 Q190,170 197,173" fill="none" stroke="#6a1a08" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M203,173 Q210,170 217,173" fill="none" stroke="#6a1a08" stroke-width="1.6" stroke-linecap="round"/>
+      <!-- Strong nose. -->
+      <path d="M200,182 L197,194 Q200,196 203,194 Z" fill="#a8765a" opacity="0.65"/>
+      <!-- Mouth — set firm, pre-fear-arc confident. -->
+      <path d="M192,202 Q200,203 208,202" fill="none" stroke="#3a1006" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Square jaw shadow. -->
+      <path d="M180,200 Q200,218 220,200" fill="none" stroke="#a8765a" stroke-width="0.6" opacity="0.4"/>
+    </g>
+
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: wear-state overlays                                  -->
+  <!-- ========================================================== -->
+
+  <g id="thresh-wear-clean" display="inline"/>
+
+  <g id="thresh-wear-fresh-impact" display="none">
+    <!-- Issue 1 post-crash: armor dented at left pauldron (per Asset Manifest). -->
+    <path d="M132,238 L142,232 L138,250 L130,248 Z" fill="#1a0408" opacity="0.85"/>
+    <line x1="138" y1="245" x2="155" y2="265" stroke="#2a0810" stroke-width="1.2" opacity="0.7"/>
+    <line x1="178" y1="290" x2="195" y2="305" stroke="#2a0810" stroke-width="1.0" opacity="0.6"/>
+  </g>
+
+  <g id="thresh-wear-mid-mission" display="none">
+    <path d="M152,235 Q142,278 152,340 L248,340 Q258,278 248,235" fill="#1a0408" opacity="0.18"/>
+    <path d="M164,360 L198,448 L164,448 Z" fill="#1a0408" opacity="0.22"/>
+    <path d="M204,360 L238,448 L204,448 Z" fill="#1a0408" opacity="0.22"/>
+    <line x1="172" y1="270" x2="190" y2="295" stroke="#2a0810" stroke-width="0.9" opacity="0.7"/>
+    <line x1="218" y1="280" x2="232" y2="305" stroke="#2a0810" stroke-width="0.7" opacity="0.6"/>
+    <path d="M132,238 L142,232 L138,250 L130,248 Z" fill="#1a0408" opacity="0.7"/>
+  </g>
+
+  <g id="thresh-wear-heavy" display="none">
+    <path d="M152,235 Q142,278 152,340 L248,340 Q258,278 248,235" fill="#0a0204" opacity="0.42"/>
+    <path d="M164,360 L198,448 L164,448 Z" fill="#0a0204" opacity="0.45"/>
+    <path d="M204,360 L238,448 L204,448 Z" fill="#0a0204" opacity="0.45"/>
+    <path d="M132,238 L142,232 L138,250 L130,248 Z" fill="#0a0204" opacity="0.95"/>
+    <line x1="178" y1="262" x2="218" y2="295" stroke="#2a0810" stroke-width="0.9" opacity="0.85"/>
+    <line x1="210" y1="248" x2="225" y2="278" stroke="#2a0810" stroke-width="0.7" opacity="0.75"/>
+  </g>
+
+</svg>

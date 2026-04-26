@@ -1,0 +1,345 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 364" width="241" height="364">
+  <title>Issue 1 — Page 1 — Panel 2: Sable at command station, MCU</title>
+  <desc>Medium close-up of Sable at her command station. 50mm eye level. Pristine silver suit, dark brown skin, silver-white close-cropped hair, calm authority. One hand resting on console edge. Holographic corridor-telemetry display behind her with scrolling geometric glyphs in blue-white light. Cool blue-white from hologram + clinical white overhead. SABLE: "Wren, drive status."</desc>
+
+  <defs>
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <!-- Silver suit gradients (from sable template). -->
+    <linearGradient id="p2suitMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8eaee"/>
+      <stop offset="20%" stop-color="#c4c8cf"/>
+      <stop offset="50%" stop-color="#9ba1aa"/>
+      <stop offset="80%" stop-color="#787f88"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p2suitHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="p2suitSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e36"/>
+      <stop offset="100%" stop-color="#15171c"/>
+    </linearGradient>
+    <linearGradient id="p2skinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5d3d2a"/>
+      <stop offset="50%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#3a2418"/>
+    </linearGradient>
+    <linearGradient id="p2hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4f5f7"/>
+      <stop offset="60%" stop-color="#d4d6db"/>
+      <stop offset="100%" stop-color="#a8acb4"/>
+    </linearGradient>
+
+    <radialGradient id="p2hologramCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#bfe4ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0.7"/>
+    </radialGradient>
+    <radialGradient id="p2hologramGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#5aa6dc" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Bridge ambient: clinical white from above, hologram cool key from behind subject. -->
+    <radialGradient id="p2overheadKey" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#7c92ae" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1a2238" stop-opacity="0.9"/>
+    </radialGradient>
+
+    <!-- Holographic display panel: floating geometric data field. -->
+    <linearGradient id="p2holoDisplay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5aa6dc" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#bfe4ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0.18"/>
+    </linearGradient>
+
+    <filter id="p2bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p2softBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="p2dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+
+    <symbol id="p2hexNode" viewBox="-10 -10 20 20" overflow="visible">
+      <polygon points="0,-9 7.8,-4.5 7.8,4.5 0,9 -7.8,4.5 -7.8,-4.5" fill="url(#p2hologramGlow)" filter="url(#p2bloom)"/>
+      <polygon points="0,-7 6.1,-3.5 6.1,3.5 0,7 -6.1,3.5 -6.1,-3.5" fill="url(#p2hologramCore)"/>
+      <polygon points="0,-4 3.5,-2 3.5,2 0,4 -3.5,2 -3.5,-2" fill="#ffffff" opacity="0.85"/>
+    </symbol>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: bridge background — dark, clinical                   -->
+  <!-- ========================================================== -->
+  <g id="p2-bridge-bg">
+    <rect width="241" height="364" fill="#0a0e18"/>
+    <rect width="241" height="364" fill="url(#p2overheadKey)" opacity="0.55"/>
+
+    <!-- Ceiling panel light strips. -->
+    <rect x="0" y="0" width="241" height="14" fill="#1a2438"/>
+    <rect x="20" y="4" width="40" height="6" fill="#dce4f0" filter="url(#p2softBloom)" opacity="0.85"/>
+    <rect x="100" y="4" width="40" height="6" fill="#dce4f0" filter="url(#p2softBloom)" opacity="0.85"/>
+    <rect x="180" y="4" width="40" height="6" fill="#dce4f0" filter="url(#p2softBloom)" opacity="0.85"/>
+
+    <!-- Wall structural lines suggesting cramped military interior. -->
+    <line x1="0" y1="14" x2="241" y2="14" stroke="#2a3450" stroke-width="0.8" opacity="0.85"/>
+    <line x1="0" y1="80" x2="241" y2="80" stroke="#2a3450" stroke-width="0.5" opacity="0.65"/>
+    <line x1="40" y1="14" x2="40" y2="80" stroke="#2a3450" stroke-width="0.4" opacity="0.55"/>
+    <line x1="200" y1="14" x2="200" y2="80" stroke="#2a3450" stroke-width="0.4" opacity="0.55"/>
+
+    <!-- Console base / floor edge near foreground. -->
+    <rect x="0" y="320" width="241" height="44" fill="#15192a"/>
+    <line x1="0" y1="320" x2="241" y2="320" stroke="#2a3450" stroke-width="0.8" opacity="0.85"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: holographic display behind Sable                     -->
+  <!-- Floating geometric data field with scrolling glyphs.        -->
+  <!-- ========================================================== -->
+  <g id="p2-holo-display" transform="translate(20, 30)">
+    <!-- Outer holo bloom. -->
+    <rect x="-8" y="-8" width="216" height="160" fill="url(#p2hologramGlow)" filter="url(#p2bloom)" opacity="0.85"/>
+    <!-- Display frame. -->
+    <rect x="0" y="0" width="200" height="144" rx="4" fill="url(#p2holoDisplay)" opacity="0.85"/>
+    <rect x="0" y="0" width="200" height="144" rx="4" fill="none" stroke="#bfe4ff" stroke-width="0.7" opacity="0.85"/>
+
+    <!-- Corner brackets. -->
+    <path d="M-2,8 L-2,-2 L8,-2" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.95"/>
+    <path d="M192,-2 L202,-2 L202,8" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.95"/>
+    <path d="M-2,136 L-2,146 L8,146" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.95"/>
+    <path d="M192,146 L202,146 L202,136" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.95"/>
+
+    <!-- Telemetry header. -->
+    <rect x="6" y="6" width="80" height="9" fill="#bfe4ff" opacity="0.6"/>
+    <rect x="92" y="6" width="40" height="9" fill="#bfe4ff" opacity="0.4"/>
+    <rect x="138" y="6" width="56" height="9" fill="#bfe4ff" opacity="0.55"/>
+
+    <!-- Scrolling data rows — geometric glyph blocks. -->
+    <g stroke="#bfe4ff" stroke-width="0.6" fill="none" opacity="0.8">
+      <rect x="6" y="22" width="14" height="6"/>
+      <rect x="22" y="22" width="22" height="6"/>
+      <rect x="46" y="22" width="10" height="6"/>
+      <rect x="58" y="22" width="32" height="6"/>
+      <rect x="92" y="22" width="14" height="6"/>
+      <rect x="108" y="22" width="20" height="6"/>
+      <rect x="130" y="22" width="14" height="6"/>
+      <rect x="146" y="22" width="44" height="6"/>
+
+      <rect x="6" y="34" width="22" height="6"/>
+      <rect x="30" y="34" width="14" height="6"/>
+      <rect x="46" y="34" width="30" height="6"/>
+      <rect x="78" y="34" width="14" height="6"/>
+      <rect x="94" y="34" width="22" height="6"/>
+      <rect x="118" y="34" width="32" height="6"/>
+      <rect x="152" y="34" width="14" height="6"/>
+      <rect x="168" y="34" width="22" height="6"/>
+
+      <rect x="6" y="46" width="14" height="6"/>
+      <rect x="22" y="46" width="42" height="6"/>
+      <rect x="66" y="46" width="14" height="6"/>
+      <rect x="82" y="46" width="22" height="6"/>
+      <rect x="106" y="46" width="20" height="6"/>
+      <rect x="128" y="46" width="40" height="6"/>
+      <rect x="170" y="46" width="20" height="6"/>
+    </g>
+
+    <!-- Geometric glyph cluster (right side, larger glyphs — stylized fairy script). -->
+    <g stroke="#ffffff" stroke-width="0.8" fill="none" opacity="0.9">
+      <polygon points="120,68 132,68 138,76 132,84 120,84 114,76"/>
+      <polygon points="146,68 158,68 164,76 158,84 146,84 140,76"/>
+      <polygon points="172,68 184,68 190,76 184,84 172,84 166,76"/>
+      <line x1="124" y1="76" x2="128" y2="76"/>
+      <line x1="150" y1="74" x2="154" y2="78"/>
+      <line x1="176" y1="76" x2="180" y2="76"/>
+      <line x1="178" y1="72" x2="178" y2="80"/>
+    </g>
+
+    <!-- Waveform / signal trace (left side). -->
+    <path d="M6,98 L14,92 L20,104 L28,90 L36,108 L44,94 L52,102 L60,90 L68,106 L76,94 L84,100 L92,92 L100,104"
+          fill="none" stroke="#bfe4ff" stroke-width="1" opacity="0.95"/>
+
+    <!-- Numeric readouts. -->
+    <g stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.85">
+      <rect x="6" y="118" width="8" height="8"/>
+      <rect x="16" y="118" width="8" height="8"/>
+      <rect x="26" y="118" width="8" height="8"/>
+      <rect x="40" y="118" width="8" height="8"/>
+      <rect x="50" y="118" width="8" height="8"/>
+    </g>
+    <g stroke="#bfe4ff" stroke-width="0.5" fill="none" opacity="0.7">
+      <rect x="70" y="118" width="120" height="8"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Sable — MCU torso + head, calm authority pose        -->
+  <!-- Centered slightly low so head fills upper third of panel.   -->
+  <!-- ========================================================== -->
+  <g id="p2-sable" filter="url(#p2dropShadow)">
+
+    <!-- Torso (cropped at hip — MCU framing). -->
+    <g id="p2-sable-torso">
+      <!-- Console occlusion at bottom (one hand resting on console edge). -->
+      <path d="M50,260 Q40,300 60,360 L200,360 Q220,300 200,260 Q190,250 124,250 Q60,250 50,260 Z" fill="url(#p2suitMetal)"/>
+      <path d="M50,260 Q40,300 60,360 L200,360 Q220,300 200,260 Q190,250 124,250 Q60,250 50,260 Z" fill="url(#p2suitHighlight)"/>
+
+      <!-- Sternum seam. -->
+      <line x1="125" y1="252" x2="125" y2="358" stroke="#2a2e36" stroke-width="1.1" opacity="0.7"/>
+
+      <!-- Pectoral plate divisions. -->
+      <path d="M70,272 Q76,300 80,322 L74,322 Q70,300 70,272 Z" fill="#2a2e36" opacity="0.4"/>
+      <path d="M180,272 Q174,300 170,322 L176,322 Q180,300 180,272 Z" fill="#2a2e36" opacity="0.4"/>
+
+      <!-- Abdominal segmentation. -->
+      <line x1="72" y1="328" x2="178" y2="328" stroke="#2a2e36" stroke-width="0.7" opacity="0.55"/>
+      <line x1="74" y1="345" x2="176" y2="345" stroke="#2a2e36" stroke-width="0.7" opacity="0.55"/>
+
+      <!-- Chest accent node (centered). -->
+      <use href="#p2hexNode" x="106" y="282" width="38" height="38"/>
+      <!-- Shoulder accents. -->
+      <use href="#p2hexNode" x="50" y="262" width="26" height="26"/>
+      <use href="#p2hexNode" x="174" y="262" width="26" height="26"/>
+    </g>
+
+    <!-- Left arm raised partially across (hand resting on console). -->
+    <g id="p2-sable-arm-left">
+      <path d="M30,258 Q14,295 16,338 L46,344 Q52,300 56,260 Z" fill="url(#p2suitMetal)"/>
+      <path d="M30,258 Q14,295 16,338 L46,344 Q52,300 56,260 Z" fill="url(#p2suitHighlight)"/>
+      <ellipse cx="22" cy="338" rx="16" ry="6" fill="url(#p2suitSeam)"/>
+      <!-- Forearm extending forward to console. -->
+      <path d="M16,344 Q14,358 30,360 L60,360 Q60,348 46,344 Z" fill="url(#p2suitMetal)"/>
+      <!-- Hand. -->
+      <ellipse cx="64" cy="360" rx="14" ry="6" fill="url(#p2skinTone)"/>
+      <!-- Wrist holographic emitter. -->
+      <ellipse cx="46" cy="350" rx="12" ry="3" fill="url(#p2hologramCore)" opacity="0.85"/>
+    </g>
+
+    <!-- Right arm at side. -->
+    <g id="p2-sable-arm-right">
+      <path d="M218,258 Q234,295 232,338 L208,344 Q200,300 194,260 Z" fill="url(#p2suitMetal)"/>
+      <path d="M218,258 Q234,295 232,338 L208,344 Q200,300 194,260 Z" fill="url(#p2suitHighlight)" opacity="0.4"/>
+      <ellipse cx="226" cy="340" rx="14" ry="6" fill="url(#p2suitSeam)"/>
+    </g>
+
+    <!-- Neck + collar. -->
+    <g id="p2-sable-neck">
+      <path d="M110,225 L110,255 L140,255 L140,225 Z" fill="url(#p2skinTone)"/>
+      <path d="M96,247 Q124,234 152,247 L148,260 L100,260 Z" fill="url(#p2suitMetal)"/>
+      <line x1="125" y1="240" x2="125" y2="258" stroke="#2a2e36" stroke-width="0.9" opacity="0.65"/>
+    </g>
+
+    <!-- Head — calm, professional, focused on display. -->
+    <g id="p2-sable-head">
+      <!-- Head shape. -->
+      <ellipse cx="125" cy="180" rx="36" ry="46" fill="url(#p2skinTone)"/>
+
+      <!-- Jaw shadow. -->
+      <path d="M90,192 Q125,228 160,192 Q156,212 125,224 Q94,212 90,192 Z" fill="#2a1810" opacity="0.4"/>
+
+      <!-- Hair — silver-white military buzz cut hugging skull (NOT a dome). Centered cx=125 cy=180. Head ry=46, so hair top ~y=148, hair bottom ~y=180 hairline. -->
+      <!-- Base scalp coverage: thin layer at top of skull. -->
+      <path d="M93,168 Q92,148 100,140 Q114,132 125,132 Q136,132 150,140 Q158,148 157,168 L153,168 Q151,150 125,146 Q99,150 97,168 Z" fill="url(#p2hair)"/>
+      <!-- Hairline edge stroke (buzz-cut "shadow" where scalp meets skin). -->
+      <path d="M97,168 Q125,160 153,168" fill="none" stroke="#7a7d83" stroke-width="0.9" opacity="0.85"/>
+      <!-- Stippled buzz-cut texture (silver flecks across scalp). -->
+      <g stroke="#c8cad0" stroke-width="0.7" stroke-linecap="round" opacity="0.75">
+        <line x1="106" y1="148" x2="107" y2="151"/>
+        <line x1="113" y1="142" x2="114" y2="145"/>
+        <line x1="120" y1="138" x2="121" y2="141"/>
+        <line x1="127" y1="138" x2="128" y2="141"/>
+        <line x1="134" y1="140" x2="135" y2="143"/>
+        <line x1="141" y1="144" x2="142" y2="147"/>
+        <line x1="148" y1="150" x2="149" y2="153"/>
+        <line x1="100" y1="156" x2="101" y2="159"/>
+        <line x1="108" y1="152" x2="109" y2="155"/>
+        <line x1="117" y1="150" x2="118" y2="153"/>
+        <line x1="125" y1="148" x2="126" y2="151"/>
+        <line x1="133" y1="150" x2="134" y2="153"/>
+        <line x1="142" y1="153" x2="143" y2="156"/>
+        <line x1="150" y1="158" x2="151" y2="161"/>
+        <line x1="103" y1="162" x2="104" y2="165"/>
+        <line x1="115" y1="158" x2="116" y2="161"/>
+        <line x1="125" y1="156" x2="126" y2="159"/>
+        <line x1="135" y1="158" x2="136" y2="161"/>
+        <line x1="146" y1="162" x2="147" y2="165"/>
+      </g>
+      <!-- Darker stipples for depth. -->
+      <g stroke="#9ea1a8" stroke-width="0.5" stroke-linecap="round" opacity="0.65">
+        <line x1="110" y1="150" x2="111" y2="153"/>
+        <line x1="118" y1="146" x2="119" y2="149"/>
+        <line x1="125" y1="144" x2="126" y2="147"/>
+        <line x1="132" y1="146" x2="133" y2="149"/>
+        <line x1="140" y1="148" x2="141" y2="151"/>
+        <line x1="105" y1="160" x2="106" y2="163"/>
+        <line x1="125" y1="153" x2="126" y2="156"/>
+        <line x1="145" y1="160" x2="146" y2="163"/>
+      </g>
+      <!-- Sideburn taper. -->
+      <line x1="93" y1="168" x2="94" y2="174" stroke="#9ea1a8" stroke-width="0.5" opacity="0.5"/>
+      <line x1="157" y1="168" x2="156" y2="174" stroke="#9ea1a8" stroke-width="0.5" opacity="0.5"/>
+
+      <!-- Cool blue rim-light from holo display (left side of face). -->
+      <path d="M93,168 Q92,148 100,140 Q114,132 125,132 L125,146 Q108,150 97,168 Z" fill="#bfe4ff" opacity="0.18"/>
+      <path d="M89,160 Q90,180 96,200 Q104,212 110,224 L102,222 Q88,200 86,170 Z" fill="#bfe4ff" opacity="0.22"/>
+
+      <!-- Eyes — focused on display, slight angle of attention to viewer's left. -->
+      <ellipse cx="111" cy="178" rx="3.6" ry="1.8" fill="#1a0e08"/>
+      <ellipse cx="139" cy="178" rx="3.6" ry="1.8" fill="#1a0e08"/>
+      <ellipse cx="112" cy="177.7" rx="0.8" ry="0.6" fill="#ffffff"/>
+      <ellipse cx="140" cy="177.7" rx="0.8" ry="0.6" fill="#ffffff"/>
+
+      <!-- Brows. -->
+      <path d="M104,170 Q111,168 118,170" fill="none" stroke="#15100b" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M132,170 Q139,168 146,170" fill="none" stroke="#15100b" stroke-width="1.7" stroke-linecap="round"/>
+
+      <!-- Nose. -->
+      <path d="M125,180 L122,196 Q125,198 128,196 Z" fill="#3a1f12" opacity="0.7"/>
+      <!-- Mouth — slightly parted, mid-speech. -->
+      <path d="M116,206 Q125,209 134,206" fill="none" stroke="#2a1006" stroke-width="1.3" stroke-linecap="round"/>
+      <!-- Subtle lower lip line. -->
+      <path d="M118,209 Q125,210 132,209" fill="none" stroke="#5a3018" stroke-width="0.6" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: console foreground edge — hand resting on it         -->
+  <!-- ========================================================== -->
+  <g id="p2-console">
+    <!-- Console panel below right arm — small bank of indicator lights. -->
+    <rect x="0" y="350" width="241" height="14" fill="#1a1e2a"/>
+    <line x1="0" y1="350" x2="241" y2="350" stroke="#2a3450" stroke-width="0.7"/>
+    <circle cx="160" cy="358" r="1.5" fill="#bfe4ff" filter="url(#p2softBloom)"/>
+    <circle cx="180" cy="358" r="1.5" fill="#bfe4ff" filter="url(#p2softBloom)" opacity="0.6"/>
+    <circle cx="200" cy="358" r="1.5" fill="#bfe4ff" filter="url(#p2softBloom)" opacity="0.6"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue                                             -->
+  <!-- ========================================================== -->
+  <g id="p2-dialogue">
+    <rect x="6" y="14" width="116" height="40" rx="6" fill="white" stroke="#b0b0b0" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="60,54 68,54 56,64" fill="white" stroke="#b0b0b0" stroke-width="2"/>
+    <line x1="59.5" y1="54" x2="68.5" y2="54" stroke="white" stroke-width="1.5"/>
+    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#b0b0b0">SABLE</text>
+    <text x="14" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Wren, drive status.</text>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: panel meta                                           -->
+  <!-- ========================================================== -->
+  <g id="p2-meta">
+    <text x="230" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#888" opacity="0.7">2</text>
+    <text x="234" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#888" opacity="0.6">MCU</text>
+  </g>
+
+</svg>

@@ -1,0 +1,333 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 1 — Page 2 — Panel 4: Wren turns from console, flags subtle ripple</title>
+  <desc>Medium close-up at 65mm, slight low angle. Wren turns from her engineering console, one hand still touching a holographic readout displaying a waveform with a subtle bump in an otherwise smooth line. East Asian, wiry, dark hair in messy high knot, pristine copper-trim silver suit. Mildly interested NOT concerned — first subtle hint something is wrong. Copper-gold from display highlights the anomaly waveform. Blue-white ambient. Should not oversell the irregularity. WREN: "Hm. Corridor field's got a ripple at the exit point. Probably resonance scatter." / SABLE: "Probably?" / WREN: "Ninety-two percent it's nothing."</desc>
+
+  <defs>
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p2p4silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e6e3dc"/>
+      <stop offset="20%" stop-color="#c2bfb6"/>
+      <stop offset="50%" stop-color="#9a968c"/>
+      <stop offset="80%" stop-color="#76726a"/>
+      <stop offset="100%" stop-color="#58544c"/>
+    </linearGradient>
+    <linearGradient id="p2p4silverHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="p2p4silverSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c261c"/>
+      <stop offset="100%" stop-color="#15110b"/>
+    </linearGradient>
+    <linearGradient id="p2p4copperTrim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8a065"/>
+      <stop offset="50%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#8c4a18"/>
+    </linearGradient>
+    <linearGradient id="p2p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c39e"/>
+      <stop offset="50%" stop-color="#d4a87e"/>
+      <stop offset="100%" stop-color="#a87a52"/>
+    </linearGradient>
+    <linearGradient id="p2p4hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="60%" stop-color="#0e0a08"/>
+      <stop offset="100%" stop-color="#050302"/>
+    </linearGradient>
+
+    <radialGradient id="p2p4copperCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#f5a850" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#c8761e" stop-opacity="0.7"/>
+    </radialGradient>
+    <radialGradient id="p2p4copperGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5a850" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#c8761e" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8c4a18" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="p2p4holoCopper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86028" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#f5a850" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#c8761e" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <radialGradient id="p2p4ambient" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#7c92ae" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1a2238" stop-opacity="0.85"/>
+    </radialGradient>
+
+    <radialGradient id="p2p4copperKey" cx="60%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5a850" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#a86028" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="p2p4bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p2p4softBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="p2p4strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="p2p4dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+
+    <symbol id="p2p4copperNode" viewBox="-10 -10 20 20" overflow="visible">
+      <circle r="9" fill="url(#p2p4copperGlow)" filter="url(#p2p4bloom)"/>
+      <circle r="6.5" fill="url(#p2p4copperCore)"/>
+      <circle r="2.8" fill="#fff5d8" opacity="0.9"/>
+    </symbol>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: bridge bg                                            -->
+  <!-- ========================================================== -->
+  <g id="p2p4-bg">
+    <rect width="366" height="364" fill="#0a0e18"/>
+    <rect width="366" height="364" fill="url(#p2p4ambient)" opacity="0.55"/>
+
+    <!-- Ceiling. -->
+    <rect x="0" y="0" width="366" height="14" fill="#1a2438"/>
+    <rect x="40" y="3" width="60" height="6" fill="#dce4f0" filter="url(#p2p4softBloom)" opacity="0.8"/>
+    <rect x="200" y="3" width="60" height="6" fill="#dce4f0" filter="url(#p2p4softBloom)" opacity="0.8"/>
+
+    <!-- Wall structural lines. -->
+    <line x1="0" y1="14" x2="366" y2="14" stroke="#2a3450" stroke-width="0.7" opacity="0.85"/>
+    <line x1="0" y1="60" x2="366" y2="55" stroke="#2a3450" stroke-width="0.5" opacity="0.55"/>
+    <line x1="0" y1="100" x2="366" y2="98" stroke="#2a3450" stroke-width="0.4" opacity="0.45"/>
+
+    <!-- Console front edge. -->
+    <rect x="0" y="280" width="366" height="84" fill="#15192a"/>
+    <rect x="0" y="280" width="366" height="84" fill="url(#p2p4copperKey)" opacity="0.7"/>
+    <line x1="0" y1="280" x2="366" y2="280" stroke="#2a3450" stroke-width="0.8" opacity="0.85"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: holographic display with rippled waveform            -->
+  <!-- The KEY narrative element: subtle anomaly bump in waveform. -->
+  <!-- ========================================================== -->
+  <g id="p2p4-holo-display" transform="translate(190, 100)">
+    <!-- Outer copper bloom. -->
+    <ellipse cx="80" cy="50" rx="105" ry="80" fill="url(#p2p4copperGlow)" filter="url(#p2p4strongBloom)" opacity="0.85"/>
+
+    <!-- Display panel. -->
+    <rect x="0" y="0" width="160" height="100" fill="url(#p2p4holoCopper)" opacity="0.85" rx="3"/>
+    <rect x="0" y="0" width="160" height="100" fill="none" stroke="#fff5d8" stroke-width="0.7" opacity="0.85" rx="3"/>
+
+    <!-- Corner brackets. -->
+    <path d="M-2,8 L-2,-2 L8,-2" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.95"/>
+    <path d="M152,-2 L162,-2 L162,8" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.95"/>
+    <path d="M-2,92 L-2,102 L8,102" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.95"/>
+    <path d="M152,102 L162,102 L162,92" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.95"/>
+
+    <!-- Header label rows. -->
+    <rect x="6" y="6" width="60" height="6" fill="#fff5d8" opacity="0.7"/>
+    <rect x="72" y="6" width="40" height="6" fill="#fff5d8" opacity="0.5"/>
+    <rect x="118" y="6" width="36" height="6" fill="#fff5d8" opacity="0.55"/>
+
+    <!-- Waveform — mostly smooth with a subtle bump at exit point. -->
+    <!-- Background grid. -->
+    <line x1="6" y1="40" x2="154" y2="40" stroke="#fff5d8" stroke-width="0.3" opacity="0.35"/>
+    <line x1="6" y1="50" x2="154" y2="50" stroke="#fff5d8" stroke-width="0.3" opacity="0.45"/>
+    <line x1="6" y1="60" x2="154" y2="60" stroke="#fff5d8" stroke-width="0.3" opacity="0.35"/>
+
+    <!-- WAVEFORM (SUBTLE RIPPLE — this is the key narrative beat). -->
+    <path d="M6,52 L20,50 L34,52 L48,49 L62,52 L76,51 L90,52 L100,49 L108,55 L112,60 L116,55 L120,50 L128,52 L142,51 L154,52"
+          fill="none" stroke="#fff5d8" stroke-width="1.4" opacity="0.95"/>
+    <!-- Highlighted bump (where the ripple is). -->
+    <circle cx="112" cy="60" r="3" fill="#ffffff" opacity="0.85" filter="url(#p2p4softBloom)"/>
+    <!-- Annotation arrow + label pointing to the bump. -->
+    <line x1="112" y1="64" x2="120" y2="76" stroke="#fff5d8" stroke-width="0.7" opacity="0.85"/>
+    <rect x="115" y="76" width="32" height="12" fill="#fff5d8" opacity="0.25" stroke="#fff5d8" stroke-width="0.5"/>
+    <text x="118" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="6" fill="#fff5d8" opacity="0.95">RIPPLE</text>
+
+    <!-- Numeric readouts. -->
+    <g stroke="#fff5d8" stroke-width="0.5" fill="none" opacity="0.7">
+      <rect x="6" y="80" width="14" height="6"/>
+      <rect x="22" y="80" width="22" height="6"/>
+      <rect x="46" y="80" width="14" height="6"/>
+      <rect x="62" y="80" width="20" height="6"/>
+    </g>
+    <!-- "92%" highlight readout. -->
+    <rect x="100" y="80" width="36" height="10" fill="#f5a850" opacity="0.4"/>
+    <rect x="100" y="80" width="36" height="10" fill="none" stroke="#fff5d8" stroke-width="0.5"/>
+    <text x="105" y="88" font-family="Helvetica Neue, Arial, sans-serif" font-size="6" font-weight="800" fill="#fff5d8">92.0%</text>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Wren — MCU turning from console toward Sable          -->
+  <!-- Body slightly turned (3/4 view), one hand still on display. -->
+  <!-- ========================================================== -->
+  <g id="p2p4-wren" filter="url(#p2p4dropShadow)">
+
+    <!-- Torso (3/4 view, turned toward Sable on left). -->
+    <g id="p2p4-wren-torso">
+      <!-- Main chest plate. -->
+      <path d="M40,170 Q30,220 40,290 Q50,310 70,310 L160,310 Q180,310 188,290 Q198,220 188,170 Q176,158 110,158 Q50,160 40,170 Z" fill="url(#p2p4silver)"/>
+      <path d="M40,170 Q30,220 40,290 Q50,310 70,310 L160,310 Q180,310 188,290 Q198,220 188,170 Q176,158 110,158 Q50,160 40,170 Z" fill="url(#p2p4silverHi)"/>
+
+      <!-- Sternum copper. -->
+      <line x1="114" y1="160" x2="114" y2="306" stroke="url(#p2p4copperTrim)" stroke-width="2.2" opacity="0.85"/>
+
+      <!-- Pectoral plates. -->
+      <path d="M58,184 Q66,218 70,250 L62,250 Q56,218 56,184 Z" fill="#2a261c" opacity="0.45"/>
+      <path d="M170,184 Q162,218 158,250 L166,250 Q172,218 172,184 Z" fill="#2a261c" opacity="0.45"/>
+
+      <!-- Plate edge copper trim. -->
+      <path d="M56,170 Q114,162 172,170" fill="none" stroke="url(#p2p4copperTrim)" stroke-width="1.4" opacity="0.85"/>
+
+      <!-- Abdominal seams. -->
+      <line x1="58" y1="258" x2="170" y2="258" stroke="#2a261c" stroke-width="0.7" opacity="0.6"/>
+      <line x1="60" y1="278" x2="168" y2="278" stroke="#2a261c" stroke-width="0.7" opacity="0.6"/>
+
+      <!-- Chest accent. -->
+      <use href="#p2p4copperNode" x="94" y="190" width="40" height="40"/>
+      <!-- Shoulder accents. -->
+      <use href="#p2p4copperNode" x="40" y="170" width="28" height="28"/>
+      <use href="#p2p4copperNode" x="178" y="170" width="28" height="28"/>
+
+      <!-- Warm copper bottom glow (under-light from console). -->
+      <path d="M50,256 Q80,308 114,310 Q150,308 180,256 L186,308 L46,308 Z" fill="#f5a850" opacity="0.32"/>
+    </g>
+
+    <!-- Right arm — bent, hand still touching display (extended toward upper-right). -->
+    <g id="p2p4-wren-arm-touching">
+      <!-- Upper arm angled up and to the right. -->
+      <path d="M188,168 Q205,168 215,150 L222,160 Q210,182 196,190 Z" fill="url(#p2p4silver)"/>
+      <path d="M188,168 Q205,168 215,150 L222,160 Q210,182 196,190 Z" fill="url(#p2p4silverHi)"/>
+      <!-- Elbow. -->
+      <ellipse cx="216" cy="158" rx="10" ry="6" fill="url(#p2p4silverSeam)"/>
+      <!-- Forearm extending up and right (toward display). -->
+      <path d="M215,150 Q230,130 250,118 L256,128 Q244,148 222,158 Z" fill="url(#p2p4silver)"/>
+      <path d="M215,150 Q230,130 250,118 L256,128 Q244,148 222,158 Z" fill="url(#p2p4silverHi)"/>
+      <!-- Cuff lip. -->
+      <ellipse cx="252" cy="122" rx="9" ry="4" fill="url(#p2p4silverSeam)"/>
+      <!-- Hand reaching INTO the display field. -->
+      <path d="M250,118 Q265,108 280,108 Q286,114 282,124 Q272,134 258,128 Z" fill="url(#p2p4skin)"/>
+      <!-- Fingers. -->
+      <path d="M268,114 Q280,106 286,108 L286,114 Q278,116 270,118 Z" fill="url(#p2p4skin)"/>
+      <!-- Wrist holographic emitter. -->
+      <ellipse cx="252" cy="120" rx="8" ry="3" fill="url(#p2p4copperCore)" opacity="0.85"/>
+      <!-- Bicep accent. -->
+      <use href="#p2p4copperNode" x="200" y="172" width="14" height="14"/>
+      <!-- Hand intersection light spill (copper from display). -->
+      <ellipse cx="280" cy="118" rx="10" ry="6" fill="#fff5d8" opacity="0.55"/>
+    </g>
+
+    <!-- Left arm — at side, slightly bent (turned toward Sable). -->
+    <g id="p2p4-wren-arm-side">
+      <path d="M40,168 Q22,200 18,250 L40,254 Q44,210 50,170 Z" fill="url(#p2p4silver)"/>
+      <path d="M40,168 Q22,200 18,250 L40,254 Q44,210 50,170 Z" fill="url(#p2p4silverHi)"/>
+      <ellipse cx="28" cy="252" rx="12" ry="5" fill="url(#p2p4silverSeam)"/>
+      <path d="M18,250 Q14,288 22,316 L40,318 Q42,288 40,254 Z" fill="url(#p2p4silver)"/>
+      <ellipse cx="30" cy="324" rx="11" ry="9" fill="url(#p2p4skin)"/>
+      <use href="#p2p4copperNode" x="22" y="200" width="14" height="14"/>
+      <ellipse cx="30" cy="314" rx="12" ry="3" fill="url(#p2p4copperCore)" opacity="0.85"/>
+    </g>
+
+    <!-- Neck. -->
+    <g id="p2p4-wren-neck">
+      <path d="M94,134 L94,160 L122,160 L122,134 Z" fill="url(#p2p4skin)"/>
+      <path d="M82,154 Q108,144 134,154 L130,166 L86,166 Z" fill="url(#p2p4silver)"/>
+      <line x1="108" y1="148" x2="108" y2="164" stroke="#2a261c" stroke-width="0.8" opacity="0.6"/>
+    </g>
+
+    <!-- Head — turned slightly to LEFT (toward Sable), low angle, eyes intelligent and observational. -->
+    <g id="p2p4-wren-head">
+      <!-- Head shape (3/4 turn left, slight low angle). -->
+      <ellipse cx="100" cy="86" rx="36" ry="44" fill="url(#p2p4skin)"/>
+
+      <!-- Hair: high messy bun at top, parted center, hair pulled back. -->
+      <!-- Crown / sides. -->
+      <path d="M68,68 Q70,40 100,30 Q130,40 132,68 Q132,76 126,74 Q126,52 100,46 Q74,52 74,74 Q68,76 68,68 Z" fill="url(#p2p4hair)"/>
+      <!-- Center part. -->
+      <line x1="100" y1="40" x2="100" y2="68" stroke="#040201" stroke-width="0.6" opacity="0.85"/>
+
+      <!-- HIGH MESSY BUN at top of head. -->
+      <ellipse cx="100" cy="22" rx="18" ry="14" fill="url(#p2p4hair)"/>
+      <ellipse cx="96" cy="20" rx="10" ry="8" fill="url(#p2p4hair)" opacity="0.9"/>
+      <ellipse cx="106" cy="18" rx="8" ry="6" fill="url(#p2p4hair)" opacity="0.9"/>
+      <!-- Bun wrap detail. -->
+      <ellipse cx="100" cy="28" rx="14" ry="6" fill="#0a0604" opacity="0.55"/>
+      <!-- Stray strands escaping bun. -->
+      <path d="M82,18 Q80,12 76,8" fill="none" stroke="#040201" stroke-width="0.7" opacity="0.85"/>
+      <path d="M118,18 Q120,10 124,6" fill="none" stroke="#040201" stroke-width="0.7" opacity="0.85"/>
+      <path d="M88,30 Q92,26 90,20" fill="none" stroke="#040201" stroke-width="0.5" opacity="0.7"/>
+
+      <!-- Hair sides. -->
+      <path d="M68,72 Q66,110 74,134 L82,132 Q76,110 78,72 Z" fill="url(#p2p4hair)"/>
+      <path d="M132,72 Q134,110 126,134 L118,132 Q124,110 122,72 Z" fill="url(#p2p4hair)"/>
+      <!-- Stray side strand. -->
+      <path d="M76,74 Q80,84 78,96" fill="none" stroke="#0a0604" stroke-width="0.7" opacity="0.85"/>
+      <path d="M124,74 Q120,84 122,96" fill="none" stroke="#0a0604" stroke-width="0.7" opacity="0.85"/>
+
+      <!-- Cool blue rim (from above, ambient). -->
+      <ellipse cx="100" cy="40" rx="32" ry="12" fill="#bfe4ff" opacity="0.18"/>
+
+      <!-- Warm copper key (from console below). -->
+      <path d="M70,100 Q100,128 130,100 Q130,118 100,128 Q70,118 70,100 Z" fill="#f5a850" opacity="0.35"/>
+
+      <!-- Eyes — turned LEFT toward Sable, focused/observational. -->
+      <ellipse cx="86" cy="84" rx="3.4" ry="1.6" fill="#1a0e08"/>
+      <ellipse cx="112" cy="84" rx="3.4" ry="1.6" fill="#1a0e08"/>
+      <!-- Pupils slightly shifted left (looking at off-panel Sable). -->
+      <ellipse cx="84" cy="83.7" rx="0.7" ry="0.5" fill="#ffffff"/>
+      <ellipse cx="110" cy="83.7" rx="0.7" ry="0.5" fill="#ffffff"/>
+
+      <!-- Brows — slightly raised (mildly interested, NOT alarmed). -->
+      <path d="M80,76 Q86,73 92,76" fill="none" stroke="#0a0604" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M106,76 Q112,73 118,76" fill="none" stroke="#0a0604" stroke-width="1.4" stroke-linecap="round"/>
+
+      <!-- Nose. -->
+      <path d="M100,86 L97,98 Q100,100 103,98 Z" fill="#7a5230" opacity="0.6"/>
+
+      <!-- Mouth — slightly pursed (lips pressed, considering). -->
+      <path d="M93,108 Q100,109 107,108" fill="none" stroke="#5a3018" stroke-width="1.3" stroke-linecap="round"/>
+      <!-- Subtle lip line. -->
+      <path d="M95,111 Q100,112 105,111" fill="none" stroke="#3a1c08" stroke-width="0.5" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue                                             -->
+  <!-- ========================================================== -->
+  <g id="p2p4-dialogue">
+    <!-- Wren first. -->
+    <rect x="6" y="14" width="240" height="42" rx="6" fill="white" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="78,56 88,56 76,68" fill="white" stroke="#c87a35" stroke-width="2"/>
+    <line x1="77.5" y1="56" x2="88.5" y2="56" stroke="white" stroke-width="1.5"/>
+    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35">WREN</text>
+    <text x="14" y="47" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Hm. Corridor field's got a ripple at the exit point. Probably resonance scatter.</text>
+
+    <!-- Sable interjection. -->
+    <rect x="6" y="74" width="120" height="34" rx="6" fill="white" stroke="#b0b0b0" stroke-width="2" stroke-dasharray="3,2" filter="url(#balloonShadow)"/>
+    <text x="14" y="91" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#b0b0b0">SABLE (O.P.)</text>
+    <text x="14" y="103" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Probably?</text>
+
+    <!-- Wren reassurance. -->
+    <rect x="6" y="118" width="226" height="36" rx="6" fill="white" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="68,154 78,154 66,164" fill="white" stroke="#c87a35" stroke-width="2"/>
+    <line x1="67.5" y1="154" x2="78.5" y2="154" stroke="white" stroke-width="1.5"/>
+    <text x="14" y="135" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35">WREN</text>
+    <text x="14" y="148" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Ninety-two percent it's nothing.</text>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: panel meta                                           -->
+  <!-- ========================================================== -->
+  <g id="p2p4-meta">
+    <text x="356" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#888" opacity="0.7">4</text>
+    <text x="360" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#888" opacity="0.6">MCU</text>
+  </g>
+
+</svg>

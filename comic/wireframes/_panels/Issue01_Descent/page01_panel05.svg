@@ -1,0 +1,357 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 364" width="494" height="364">
+  <title>Issue 1 — Page 1 — Panel 5: Thresh at weapon rack in corridor (through bridge archway)</title>
+  <desc>Medium wide shot, 35mm, framed through a bridge archway looking into the corridor beyond. Thresh stands at a wall-mounted weapon rack, back partially to camera, running her hands along a compact rifle with practiced efficiency, checking the charge by feel. Calm competence. Pristine ruby-crimson suit with heavier armor plating at shoulders, chest, forearms. Pre-fear-arc confidence — completely in her element. Bridge archway frames composition. Corridor lighting dimmer than bridge — blue-white overhead with red-crimson accent lighting along weapon rack reflecting off ruby suit. THRESH: "Weapons green."</desc>
+
+  <defs>
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p5suitMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e85068"/>
+      <stop offset="20%" stop-color="#c83040"/>
+      <stop offset="50%" stop-color="#9a1a28"/>
+      <stop offset="80%" stop-color="#6a0e1a"/>
+      <stop offset="100%" stop-color="#3a0610"/>
+    </linearGradient>
+    <linearGradient id="p5suitHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd0d8" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="p5suitSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a0810"/>
+      <stop offset="100%" stop-color="#150408"/>
+    </linearGradient>
+    <linearGradient id="p5skinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5dccc"/>
+      <stop offset="50%" stop-color="#e8c4ae"/>
+      <stop offset="100%" stop-color="#c89a82"/>
+    </linearGradient>
+    <linearGradient id="p5hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d85020"/>
+      <stop offset="50%" stop-color="#a83012"/>
+      <stop offset="100%" stop-color="#6a1a08"/>
+    </linearGradient>
+
+    <radialGradient id="p5hologramCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#ffb0b8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#dc2030" stop-opacity="0.7"/>
+    </radialGradient>
+    <radialGradient id="p5hologramGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffb0b8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#dc2030" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3a0610" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Bridge interior (foreground frame). -->
+    <linearGradient id="p5bridgeFrame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2238"/>
+      <stop offset="100%" stop-color="#0a0e18"/>
+    </linearGradient>
+
+    <!-- Corridor beyond — slightly cooler, dimmer than bridge. -->
+    <radialGradient id="p5corridorAmbient" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#2a3a58" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#1a2238" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0a0e18"/>
+    </radialGradient>
+
+    <!-- Red-crimson rim lighting from weapon rack security zone. -->
+    <radialGradient id="p5securityRim" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#dc2030" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#9a1a28" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3a0610" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="p5rifleBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2a30"/>
+      <stop offset="50%" stop-color="#15161a"/>
+      <stop offset="100%" stop-color="#08090c"/>
+    </linearGradient>
+
+    <filter id="p5bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="p5softBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
+    <filter id="p5dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <symbol id="p5hexNode" viewBox="-10 -10 20 20" overflow="visible">
+      <polygon points="0,-9 7.8,-4.5 7.8,4.5 0,9 -7.8,4.5 -7.8,-4.5" fill="url(#p5hologramGlow)" filter="url(#p5bloom)"/>
+      <polygon points="0,-7 6.1,-3.5 6.1,3.5 0,7 -6.1,3.5 -6.1,-3.5" fill="url(#p5hologramCore)"/>
+      <polygon points="0,-4 3.5,-2 3.5,2 0,4 -3.5,2 -3.5,-2" fill="#ffffff" opacity="0.85"/>
+    </symbol>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: corridor (background, beyond archway)                -->
+  <!-- ========================================================== -->
+  <g id="p5-corridor">
+    <rect width="494" height="364" fill="#0a0e18"/>
+    <rect width="494" height="364" fill="url(#p5corridorAmbient)" opacity="0.9"/>
+
+    <!-- Corridor walls receding. -->
+    <path d="M120,80 L374,80 L340,260 L154,260 Z" fill="#1a2238" opacity="0.65"/>
+    <line x1="120" y1="80" x2="374" y2="80" stroke="#2a3450" stroke-width="0.8" opacity="0.85"/>
+    <line x1="154" y1="260" x2="340" y2="260" stroke="#2a3450" stroke-width="0.8" opacity="0.85"/>
+    <!-- Corridor side wall lines (perspective). -->
+    <line x1="120" y1="80" x2="154" y2="260" stroke="#2a3450" stroke-width="0.7" opacity="0.7"/>
+    <line x1="374" y1="80" x2="340" y2="260" stroke="#2a3450" stroke-width="0.7" opacity="0.7"/>
+
+    <!-- Overhead corridor light strip (dim blue-white). -->
+    <rect x="180" y="86" width="140" height="3" fill="#7c92ae" filter="url(#p5softBloom)" opacity="0.8"/>
+
+    <!-- Wall plate seams (corridor depth). -->
+    <line x1="200" y1="80" x2="210" y2="260" stroke="#1a2238" stroke-width="0.6" opacity="0.7"/>
+    <line x1="290" y1="80" x2="280" y2="260" stroke="#1a2238" stroke-width="0.6" opacity="0.7"/>
+
+    <!-- Floor tiles. -->
+    <path d="M154,260 L340,260 L494,364 L0,364 Z" fill="#15192a"/>
+    <line x1="0" y1="364" x2="494" y2="364" stroke="#2a3450" stroke-width="0.5"/>
+    <line x1="100" y1="320" x2="394" y2="320" stroke="#2a3450" stroke-width="0.4" opacity="0.55"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: weapon rack (mid-ground, behind/beside Thresh)       -->
+  <!-- Wall-mounted rack with rifles + sidearm slots.              -->
+  <!-- ========================================================== -->
+  <g id="p5-weapon-rack" transform="translate(264, 92)">
+    <!-- Rack frame. -->
+    <rect x="0" y="0" width="80" height="160" fill="#0a0a0c"/>
+    <rect x="0" y="0" width="80" height="160" fill="none" stroke="#2a2a30" stroke-width="0.7"/>
+    <!-- Inner shadow. -->
+    <rect x="3" y="3" width="74" height="154" fill="#040406"/>
+    <!-- Crimson security accent strip along rack edges. -->
+    <rect x="0" y="0" width="80" height="3" fill="#dc2030" filter="url(#p5softBloom)" opacity="0.75"/>
+    <rect x="0" y="157" width="80" height="3" fill="#dc2030" filter="url(#p5softBloom)" opacity="0.75"/>
+
+    <!-- Rifle slots — vertical rifles in rack. -->
+    <g id="p5-rack-rifles">
+      <!-- Rifle 1. -->
+      <rect x="10" y="10" width="6" height="120" fill="url(#p5rifleBody)"/>
+      <rect x="8" y="14" width="10" height="6" fill="#2a2a30"/>
+      <rect x="9" y="120" width="8" height="20" fill="#15161a"/>
+      <!-- Crimson charge indicator. -->
+      <circle cx="13" cy="22" r="1.5" fill="#dc2030" filter="url(#p5softBloom)"/>
+
+      <!-- Rifle 2 (Thresh is holding this one — partially out of slot). -->
+      <!-- Empty slot. -->
+      <rect x="22" y="10" width="6" height="120" fill="#020203" stroke="#1a1a1d" stroke-width="0.5"/>
+
+      <!-- Rifle 3. -->
+      <rect x="34" y="10" width="6" height="120" fill="url(#p5rifleBody)"/>
+      <rect x="32" y="14" width="10" height="6" fill="#2a2a30"/>
+      <rect x="33" y="120" width="8" height="20" fill="#15161a"/>
+      <circle cx="37" cy="22" r="1.5" fill="#dc2030" filter="url(#p5softBloom)"/>
+
+      <!-- Rifle 4. -->
+      <rect x="46" y="10" width="6" height="120" fill="url(#p5rifleBody)"/>
+      <rect x="44" y="14" width="10" height="6" fill="#2a2a30"/>
+      <rect x="45" y="120" width="8" height="20" fill="#15161a"/>
+      <circle cx="49" cy="22" r="1.5" fill="#dc2030" filter="url(#p5softBloom)"/>
+
+      <!-- Sidearm slots (smaller, lower right). -->
+      <rect x="60" y="14" width="14" height="22" fill="#040406" stroke="#1a1a1d" stroke-width="0.5"/>
+      <path d="M62,18 L72,18 L72,30 L66,32 L62,30 Z" fill="#15161a"/>
+      <rect x="60" y="40" width="14" height="22" fill="#040406" stroke="#1a1a1d" stroke-width="0.5"/>
+      <path d="M62,44 L72,44 L72,56 L66,58 L62,56 Z" fill="#15161a"/>
+    </g>
+
+    <!-- Rack labels (security designation glyphs). -->
+    <rect x="6" y="142" width="68" height="6" fill="#dc2030" opacity="0.7"/>
+    <rect x="6" y="150" width="40" height="3" fill="#9a1a28" opacity="0.65"/>
+
+    <!-- Crimson glow halo on adjacent wall + floor. -->
+    <ellipse cx="40" cy="80" rx="100" ry="120" fill="url(#p5securityRim)" filter="url(#p5bloom)"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Thresh — back partially to camera, examining rifle    -->
+  <!-- ========================================================== -->
+  <g id="p5-thresh" filter="url(#p5dropShadow)" transform="translate(186, 88)">
+
+    <!-- Rifle she's holding, angled across her body. -->
+    <g id="p5-rifle-held">
+      <rect x="42" y="80" width="6" height="100" fill="url(#p5rifleBody)" transform="rotate(-15 45 130)"/>
+      <rect x="38" y="76" width="14" height="8" fill="#2a2a30" transform="rotate(-15 45 80)"/>
+      <rect x="40" y="178" width="10" height="14" fill="#15161a" transform="rotate(-15 45 185)"/>
+      <!-- Charge indicator on her rifle (active). -->
+      <circle cx="35" cy="98" r="2" fill="#dc2030" filter="url(#p5softBloom)" transform="rotate(-15 45 100)"/>
+    </g>
+
+    <!-- Body — back partially to camera (3/4 back view). Wider silhouette. -->
+    <g id="p5-thresh-figure">
+
+      <!-- Legs (slightly wider stance). -->
+      <g id="p5-thresh-legs">
+        <path d="M-12,170 Q-16,210 -10,260 L18,262 Q22,210 18,170 Z" fill="url(#p5suitMetal)"/>
+        <path d="M-12,170 Q-16,210 -10,260 L18,262 Q22,210 18,170 Z" fill="url(#p5suitHighlight)" opacity="0.45"/>
+        <rect x="-12" y="262" width="32" height="6" fill="url(#p5suitSeam)"/>
+        <path d="M-10,268 Q-14,275 -8,276 L20,276 Q24,272 20,268 Z" fill="#1a0408"/>
+
+        <path d="M28,170 Q24,210 30,260 L60,262 Q64,210 60,170 Z" fill="url(#p5suitMetal)"/>
+        <path d="M28,170 Q24,210 30,260 L60,262 Q64,210 60,170 Z" fill="url(#p5suitHighlight)" opacity="0.4"/>
+        <rect x="28" y="262" width="34" height="6" fill="url(#p5suitSeam)"/>
+        <path d="M30,268 Q26,275 32,276 L62,276 Q66,272 62,268 Z" fill="#1a0408"/>
+      </g>
+
+      <!-- Torso — viewed from 3/4 back. Hip plate. -->
+      <g id="p5-thresh-torso">
+        <path d="M-18,168 L66,168 L62,178 L-14,178 Z" fill="url(#p5suitSeam)"/>
+
+        <!-- Back chest plate. -->
+        <path d="M-18,40 Q-26,90 -18,168 L66,168 Q74,90 66,40 Q58,32 24,32 Q-12,32 -18,40 Z" fill="url(#p5suitMetal)"/>
+        <path d="M-18,40 Q-26,90 -18,168 L66,168 Q74,90 66,40 Q58,32 24,32 Q-12,32 -18,40 Z" fill="url(#p5suitHighlight)" opacity="0.4"/>
+
+        <!-- Spinal armor reinforcement (back center). -->
+        <path d="M20,32 L28,32 L30,168 L18,168 Z" fill="url(#p5suitMetal)"/>
+        <path d="M20,32 L28,32 L30,168 L18,168 Z" fill="url(#p5suitHighlight)" opacity="0.5"/>
+        <line x1="24" y1="32" x2="24" y2="168" stroke="#2a0810" stroke-width="0.7"/>
+
+        <!-- Back armor segmentation lines. -->
+        <line x1="-14" y1="80" x2="62" y2="80" stroke="#2a0810" stroke-width="0.9" opacity="0.65"/>
+        <line x1="-14" y1="120" x2="62" y2="120" stroke="#2a0810" stroke-width="0.9" opacity="0.65"/>
+        <line x1="-14" y1="150" x2="62" y2="150" stroke="#2a0810" stroke-width="0.9" opacity="0.65"/>
+
+        <!-- Chunky back-of-shoulder pauldrons. -->
+        <path d="M-18,38 Q-32,46 -32,72 Q-22,82 -10,82 L-6,55 Q-10,40 -18,38 Z" fill="url(#p5suitMetal)"/>
+        <path d="M-18,38 Q-32,46 -32,72 Q-22,82 -10,82 L-6,55 Q-10,40 -18,38 Z" fill="url(#p5suitHighlight)" opacity="0.5"/>
+        <path d="M66,38 Q80,46 80,72 Q70,82 58,82 L54,55 Q58,40 66,38 Z" fill="url(#p5suitMetal)"/>
+        <path d="M66,38 Q80,46 80,72 Q70,82 58,82 L54,55 Q58,40 66,38 Z" fill="url(#p5suitHighlight)" opacity="0.4"/>
+
+        <!-- Back accent nodes (red glow visible from rear). -->
+        <use href="#p5hexNode" x="-22" y="56" width="20" height="20"/>
+        <use href="#p5hexNode" x="70" y="56" width="20" height="20"/>
+        <use href="#p5hexNode" x="20" y="100" width="22" height="22"/>
+
+        <!-- Sidearm holster on right hip (visible from this angle). -->
+        <path d="M58,170 L70,170 L72,205 L56,205 Z" fill="#0a0204"/>
+        <rect x="60" y="178" width="10" height="20" fill="#050102"/>
+      </g>
+
+      <!-- Right arm holding rifle (extended forward across body). -->
+      <g id="p5-thresh-arm-rifle">
+        <!-- Upper arm. -->
+        <path d="M58,42 Q72,80 60,116 L40,118 Q40,80 50,44 Z" fill="url(#p5suitMetal)"/>
+        <path d="M58,42 Q72,80 60,116 L40,118 Q40,80 50,44 Z" fill="url(#p5suitHighlight)"/>
+        <ellipse cx="50" cy="118" rx="14" ry="6" fill="url(#p5suitSeam)"/>
+        <!-- Forearm angled across to rifle. -->
+        <path d="M40,118 Q34,142 50,168 L70,162 Q70,140 60,118 Z" fill="url(#p5suitMetal)"/>
+        <path d="M40,118 Q34,142 50,168 L70,162 Q70,140 60,118 Z" fill="url(#p5suitHighlight)"/>
+        <!-- Hand on rifle grip. -->
+        <ellipse cx="58" cy="174" rx="13" ry="9" fill="url(#p5skinTone)"/>
+        <use href="#p5hexNode" x="51" y="62" width="14" height="14"/>
+        <ellipse cx="60" cy="158" rx="13" ry="3" fill="url(#p5hologramCore)" opacity="0.85"/>
+        <!-- Vambrace band. -->
+        <path d="M40,138 L62,138 L62,146 L40,146 Z" fill="#2a0810" opacity="0.7"/>
+      </g>
+
+      <!-- Left arm reaching out, hand on rifle barrel. -->
+      <g id="p5-thresh-arm-barrel">
+        <path d="M-12,42 Q-26,80 -14,116 L6,118 Q6,80 -4,44 Z" fill="url(#p5suitMetal)"/>
+        <path d="M-12,42 Q-26,80 -14,116 L6,118 Q6,80 -4,44 Z" fill="url(#p5suitHighlight)" opacity="0.45"/>
+        <ellipse cx="-4" cy="118" rx="14" ry="6" fill="url(#p5suitSeam)"/>
+        <!-- Forearm reaching forward to grip rifle barrel above. -->
+        <path d="M-14,118 Q-20,140 -10,156 L8,150 Q4,130 6,118 Z" fill="url(#p5suitMetal)"/>
+        <ellipse cx="-2" cy="150" rx="12" ry="8" fill="url(#p5skinTone)"/>
+        <use href="#p5hexNode" x="-7" y="62" width="14" height="14"/>
+        <ellipse cx="0" cy="142" rx="12" ry="3" fill="url(#p5hologramCore)" opacity="0.85"/>
+        <path d="M-14,138 L8,138 L8,146 L-14,146 Z" fill="#2a0810" opacity="0.7"/>
+      </g>
+
+      <!-- Neck — back of neck visible. -->
+      <g id="p5-thresh-neck">
+        <path d="M14,18 L14,42 L34,42 L34,18 Z" fill="url(#p5skinTone)"/>
+        <path d="M2,32 Q24,22 46,32 L42,46 L6,46 Z" fill="url(#p5suitMetal)"/>
+        <line x1="24" y1="28" x2="24" y2="44" stroke="#2a0810" stroke-width="0.8" opacity="0.7"/>
+      </g>
+
+      <!-- Head — 3/4 back view, partially turned. -->
+      <g id="p5-thresh-head">
+        <!-- Head shape. -->
+        <ellipse cx="22" cy="-8" rx="22" ry="28" fill="url(#p5skinTone)"/>
+
+        <!-- Hair: tall swept-back pomp + shaved sides (visible from back: short top swept back, undercut). -->
+        <!-- Shaved sides (back of skull). -->
+        <path d="M-2,-22 Q-2,-2 4,18 Q4,4 6,-14 Z" fill="url(#p5hair)" opacity="0.85"/>
+        <path d="M46,-22 Q46,-2 40,18 Q40,4 38,-14 Z" fill="url(#p5hair)" opacity="0.85"/>
+        <!-- Top swept back. -->
+        <path d="M2,-26 Q4,-44 22,-50 Q44,-46 46,-26 Q40,-32 22,-32 Q6,-32 2,-26 Z" fill="url(#p5hair)"/>
+        <!-- Hair waves (swept lines). -->
+        <path d="M6,-30 Q22,-42 40,-30" fill="none" stroke="#6a1a08" stroke-width="1" opacity="0.85"/>
+        <path d="M8,-20 Q22,-30 38,-20" fill="none" stroke="#a83012" stroke-width="0.7" opacity="0.6"/>
+
+        <!-- 3/4 angle: only partial face visible (right side). -->
+        <!-- Right ear. -->
+        <path d="M44,-6 Q48,-2 46,8 L42,8 Q40,-2 42,-6 Z" fill="url(#p5skinTone)"/>
+        <!-- Sliver of cheek + jaw. -->
+        <path d="M40,2 Q44,18 36,28 Q34,16 38,4 Z" fill="url(#p5skinTone)"/>
+
+        <!-- Eye visible in profile (right eye, focused down at rifle). -->
+        <ellipse cx="40" cy="-4" rx="2.5" ry="1.3" fill="#1a0a04"/>
+        <ellipse cx="40.4" cy="-3.7" rx="0.5" ry="0.3" fill="#ffffff"/>
+
+        <!-- Brow. -->
+        <path d="M36,-10 Q40,-12 44,-10" fill="none" stroke="#6a1a08" stroke-width="1.4" stroke-linecap="round"/>
+
+        <!-- Nose tip in profile. -->
+        <path d="M44,0 L46,4 L44,6 Z" fill="#a8765a" opacity="0.65"/>
+      </g>
+    </g>
+
+    <!-- Crimson rim-light catching her ruby suit (light from rack on her right). -->
+    <path d="M60,40 Q72,80 60,116 L70,118 Q80,80 70,42 Z" fill="#dc2030" opacity="0.32"/>
+    <path d="M62,140 Q72,170 60,180 L80,180 Q86,160 80,140 Z" fill="#dc2030" opacity="0.28"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: bridge archway (foreground frame)                    -->
+  <!-- ========================================================== -->
+  <g id="p5-archway">
+    <!-- Left wall + ceiling of bridge interior. -->
+    <path d="M0,0 L120,0 L120,80 L154,260 L154,364 L0,364 Z" fill="url(#p5bridgeFrame)"/>
+    <!-- Right wall. -->
+    <path d="M494,0 L374,0 L374,80 L340,260 L340,364 L494,364 Z" fill="url(#p5bridgeFrame)"/>
+    <!-- Top arch / lintel. -->
+    <path d="M120,0 L374,0 L374,80 Q247,68 120,80 Z" fill="url(#p5bridgeFrame)"/>
+
+    <!-- Archway inner edge highlight. -->
+    <path d="M120,80 Q247,68 374,80" fill="none" stroke="#3a4a6a" stroke-width="1" opacity="0.85"/>
+    <line x1="120" y1="80" x2="154" y2="260" stroke="#3a4a6a" stroke-width="1" opacity="0.85"/>
+    <line x1="374" y1="80" x2="340" y2="260" stroke="#3a4a6a" stroke-width="1" opacity="0.85"/>
+    <line x1="154" y1="260" x2="340" y2="260" stroke="#3a4a6a" stroke-width="0.7" opacity="0.65"/>
+
+    <!-- Bridge interior subtle indicator strip near arch (small light). -->
+    <rect x="160" y="74" width="40" height="2" fill="#bfe4ff" filter="url(#p5softBloom)" opacity="0.55"/>
+    <rect x="294" y="74" width="40" height="2" fill="#bfe4ff" filter="url(#p5softBloom)" opacity="0.55"/>
+
+    <!-- Bridge floor edge in foreground. -->
+    <line x1="0" y1="320" x2="494" y2="320" stroke="#3a4a6a" stroke-width="0.5" opacity="0.65"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue                                             -->
+  <!-- ========================================================== -->
+  <g id="p5-dialogue">
+    <rect x="376" y="296" width="110" height="40" rx="6" fill="white" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="404,336 412,336 400,346" fill="white" stroke="#dc2030" stroke-width="2"/>
+    <line x1="403.5" y1="336" x2="412.5" y2="336" stroke="white" stroke-width="1.5"/>
+    <text x="384" y="314" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030">THRESH</text>
+    <text x="384" y="328" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Weapons green.</text>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: panel meta                                           -->
+  <!-- ========================================================== -->
+  <g id="p5-meta">
+    <text x="484" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#888" opacity="0.7">5</text>
+    <text x="488" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#888" opacity="0.6">MW</text>
+  </g>
+
+</svg>

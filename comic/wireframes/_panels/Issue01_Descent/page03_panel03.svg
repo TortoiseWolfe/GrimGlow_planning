@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 364" width="241" height="364">
+  <title>Issue 1 — Page 3 — Panel 3: Wren grim focus, destroyed engineering console</title>
+  <desc>Medium shot 50mm, low angle looking up, 10° dutch tilt. Wren crouches at destroyed engineering console, hands moving fast through the wreckage of a holographic display fragmenting into chaotic copper-gold geometric shapes. Pulling data from chaos, reading instruments through violent distortion. Grim focus — lips pressed tight, eyes tracking fragmenting readouts. Copper-gold sparks shower from console mixing with red emergency strobing from above. Face lit from below by failing display. WREN: "Hull breach port side! Drive field's destabilizing — we're losing corridor integrity!"</desc>
+
+  <defs>
+    <linearGradient id="p3p3silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e6e3dc"/>
+      <stop offset="50%" stop-color="#9a968c"/>
+      <stop offset="100%" stop-color="#58544c"/>
+    </linearGradient>
+    <linearGradient id="p3p3silverHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="p3p3copperTrim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8a065"/>
+      <stop offset="50%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#8c4a18"/>
+    </linearGradient>
+    <linearGradient id="p3p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c39e"/>
+      <stop offset="100%" stop-color="#a87a52"/>
+    </linearGradient>
+    <linearGradient id="p3p3hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040201"/>
+    </linearGradient>
+
+    <radialGradient id="p3p3copperShard" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#c8761e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p3copperGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5a850" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8c4a18" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p3redStrobe" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ff4060" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#dc2030" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="p3p3ambient" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#5a1018" stop-opacity="0.65"/>
+      <stop offset="60%" stop-color="#1a0408" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#080204"/>
+    </radialGradient>
+    <radialGradient id="p3p3consoleKey" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#f5a850" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#a86028" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0a0204" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="p3p3bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p3p3strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="p3p3dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- 10° dutch tilt. -->
+  <g id="p3p3-cant" transform="rotate(-10 120 182)">
+
+    <!-- ========================================================== -->
+    <!-- LAYER: bridge bg                                            -->
+    <!-- ========================================================== -->
+    <g id="p3p3-bg">
+      <rect x="-50" y="-50" width="341" height="464" fill="#0a0204"/>
+      <rect x="-50" y="-50" width="341" height="464" fill="url(#p3p3ambient)" opacity="0.85"/>
+
+      <!-- Red strobe from above (failing emergency lighting). -->
+      <ellipse cx="120" cy="-30" rx="200" ry="80" fill="url(#p3p3redStrobe)" filter="url(#p3p3strongBloom)" opacity="0.7"/>
+
+      <!-- Buckled ceiling visible (low angle). -->
+      <path d="M-50,-50 L291,-50 L291,40 L240,55 L160,38 L80,55 L0,38 L-50,52 Z" fill="#1a0408"/>
+
+      <!-- Sparking conduit hanging loose. -->
+      <line x1="80" y1="50" x2="100" y2="80" stroke="#3a3a40" stroke-width="2"/>
+      <circle cx="100" cy="80" r="3" fill="#fff5d8" filter="url(#p3p3bloom)"/>
+      <circle cx="100" cy="80" r="1.5" fill="#ffffff"/>
+      <line x1="180" y1="55" x2="200" y2="90" stroke="#3a3a40" stroke-width="2"/>
+      <circle cx="200" cy="90" r="2" fill="#ff4060" filter="url(#p3p3bloom)"/>
+
+      <!-- Console (destroyed, sparking) bottom. -->
+      <rect x="-50" y="280" width="341" height="84" fill="#0a0204"/>
+      <rect x="-50" y="280" width="341" height="84" fill="url(#p3p3consoleKey)" opacity="0.85"/>
+      <line x1="-50" y1="280" x2="291" y2="280" stroke="#5a3018" stroke-width="0.8" opacity="0.85"/>
+      <!-- Console damage cracks. -->
+      <line x1="20" y1="280" x2="40" y2="320" stroke="#1a0e06" stroke-width="0.7"/>
+      <line x1="180" y1="290" x2="200" y2="340" stroke="#1a0e06" stroke-width="0.7"/>
+    </g>
+
+    <!-- ========================================================== -->
+    <!-- LAYER: HOLO display fragmenting                              -->
+    <!-- ========================================================== -->
+    <g id="p3p3-fragmenting-holo" transform="translate(120, 180)">
+      <!-- Outer wreckage bloom. -->
+      <ellipse cx="0" cy="0" rx="120" ry="80" fill="url(#p3p3copperGlow)" filter="url(#p3p3strongBloom)" opacity="0.85"/>
+
+      <!-- Shattered geometric shapes flying out. -->
+      <g filter="url(#p3p3bloom)">
+        <polygon points="-60,-30 -48,-36 -42,-22 -54,-16" fill="url(#p3p3copperShard)"/>
+        <polygon points="-30,-50 -16,-54 -10,-40 -24,-36" fill="url(#p3p3copperShard)"/>
+        <polygon points="20,-60 32,-56 36,-44 24,-40" fill="url(#p3p3copperShard)"/>
+        <polygon points="50,-40 62,-36 66,-22 54,-18" fill="url(#p3p3copperShard)"/>
+        <polygon points="60,10 72,6 76,20 64,24" fill="url(#p3p3copperShard)"/>
+        <polygon points="-70,30 -58,26 -54,40 -66,44" fill="url(#p3p3copperShard)"/>
+        <polygon points="-40,40 -28,36 -24,50 -36,54" fill="url(#p3p3copperShard)"/>
+        <polygon points="30,40 42,36 46,50 34,54" fill="url(#p3p3copperShard)"/>
+      </g>
+
+      <!-- Distorted waveform fragments mid-explosion. -->
+      <path d="M-80,-10 L-60,-14 L-50,4 L-30,-20 L-10,8 L10,-16 L30,4 L50,-12 L70,8" fill="none" stroke="#fff5d8" stroke-width="1.4" opacity="0.85"/>
+      <!-- Distorted second waveform. -->
+      <path d="M-70,30 L-50,18 L-30,40 L-10,22 L10,38 L30,18 L50,40 L70,22" fill="none" stroke="#fff5d8" stroke-width="1" opacity="0.65"/>
+
+      <!-- Trail lines from console up. -->
+      <line x1="0" y1="60" x2="-40" y2="-30" stroke="#fff5d8" stroke-width="0.8" opacity="0.65"/>
+      <line x1="0" y1="60" x2="20" y2="-40" stroke="#fff5d8" stroke-width="0.8" opacity="0.7"/>
+      <line x1="0" y1="60" x2="50" y2="-20" stroke="#fff5d8" stroke-width="0.6" opacity="0.55"/>
+      <line x1="0" y1="60" x2="-60" y2="-10" stroke="#fff5d8" stroke-width="0.6" opacity="0.55"/>
+
+      <!-- Sparks at console base. -->
+      <circle cx="-30" cy="60" r="3" fill="#ffffff" filter="url(#p3p3bloom)"/>
+      <circle cx="20" cy="58" r="2.5" fill="#ffffff" filter="url(#p3p3bloom)"/>
+      <circle cx="50" cy="62" r="2" fill="#fff5d8" filter="url(#p3p3bloom)"/>
+    </g>
+
+    <!-- ========================================================== -->
+    <!-- LAYER: WREN crouched at console                              -->
+    <!-- ========================================================== -->
+    <g id="p3p3-wren" filter="url(#p3p3dropShadow)" transform="translate(120, 200)">
+
+      <!-- Body crouched forward. -->
+      <path d="M-44,30 Q-48,80 -38,140 L40,140 Q50,80 44,30 Q36,18 0,18 Q-36,20 -44,30 Z" fill="url(#p3p3silver)"/>
+      <path d="M-44,30 Q-48,80 -38,140 L40,140 Q50,80 44,30 Q36,18 0,18 Q-36,20 -44,30 Z" fill="url(#p3p3silverHi)"/>
+
+      <!-- Sternum copper. -->
+      <line x1="0" y1="20" x2="0" y2="138" stroke="url(#p3p3copperTrim)" stroke-width="2" opacity="0.85"/>
+      <!-- Pectoral plates. -->
+      <path d="M-20,46 Q-16,78 -12,108 L-18,108 Q-22,78 -22,46 Z" fill="#2a261c" opacity="0.45"/>
+      <path d="M20,46 Q16,78 12,108 L18,108 Q22,78 22,46 Z" fill="#2a261c" opacity="0.45"/>
+      <!-- Plate edge copper trim. -->
+      <path d="M-22,32 Q0,24 22,32" fill="none" stroke="url(#p3p3copperTrim)" stroke-width="1.4" opacity="0.85"/>
+      <!-- Abdominal seams. -->
+      <line x1="-20" y1="115" x2="20" y2="115" stroke="#2a261c" stroke-width="0.7" opacity="0.6"/>
+
+      <!-- Chest accent (copper, glowing). -->
+      <circle cx="0" cy="60" r="9" fill="url(#p3p3copperShard)" filter="url(#p3p3bloom)"/>
+      <circle cx="0" cy="60" r="5" fill="#fff5d8"/>
+
+      <!-- Arms reaching forward into the console wreckage. -->
+      <g id="p3p3-arms-working">
+        <!-- Left arm extending forward and down. -->
+        <path d="M-42,32 Q-58,52 -58,90 L-46,98 Q-44,70 -38,38 Z" fill="url(#p3p3silver)"/>
+        <path d="M-58,90 Q-50,114 -28,128 L-12,118 Q-30,108 -46,98 Z" fill="url(#p3p3silver)"/>
+        <ellipse cx="-22" cy="128" rx="11" ry="8" fill="url(#p3p3skin)"/>
+        <!-- Wrist emitter (copper glow). -->
+        <ellipse cx="-30" cy="118" rx="14" ry="3" fill="url(#p3p3copperShard)" opacity="0.95"/>
+        <!-- Hand fingers (digging into holo). -->
+        <path d="M-22,126 L-14,124 L-18,134 Z" fill="url(#p3p3skin)"/>
+        <path d="M-26,128 L-18,128 L-22,138 Z" fill="url(#p3p3skin)"/>
+
+        <!-- Right arm same. -->
+        <path d="M42,32 Q58,52 58,90 L46,98 Q44,70 38,38 Z" fill="url(#p3p3silver)"/>
+        <path d="M58,90 Q50,114 28,128 L12,118 Q30,108 46,98 Z" fill="url(#p3p3silver)"/>
+        <ellipse cx="22" cy="128" rx="11" ry="8" fill="url(#p3p3skin)"/>
+        <ellipse cx="30" cy="118" rx="14" ry="3" fill="url(#p3p3copperShard)" opacity="0.95"/>
+        <path d="M22,126 L14,124 L18,134 Z" fill="url(#p3p3skin)"/>
+        <path d="M26,128 L18,128 L22,138 Z" fill="url(#p3p3skin)"/>
+      </g>
+
+      <!-- Neck. -->
+      <path d="M-10,-2 L-10,18 L10,18 L10,-2 Z" fill="url(#p3p3skin)"/>
+
+      <!-- Head — looking down at wreckage, intense focus. -->
+      <g id="p3p3-head">
+        <ellipse cx="0" cy="-26" rx="26" ry="30" fill="url(#p3p3skin)"/>
+
+        <!-- Hair: high messy bun with strands. -->
+        <ellipse cx="0" cy="-58" rx="16" ry="14" fill="url(#p3p3hair)"/>
+        <ellipse cx="0" cy="-58" rx="12" ry="9" fill="#040201" opacity="0.6"/>
+        <!-- Hair sides framing face. -->
+        <path d="M-22,-42 Q-24,-20 -18,0 L-12,0 Q-18,-20 -16,-44 Z" fill="url(#p3p3hair)"/>
+        <path d="M22,-42 Q24,-20 18,0 L12,0 Q18,-20 16,-44 Z" fill="url(#p3p3hair)"/>
+        <!-- Stray strands. -->
+        <path d="M-18,-50 Q-22,-58 -22,-66" fill="none" stroke="#040201" stroke-width="0.7"/>
+        <path d="M16,-50 Q22,-56 22,-64" fill="none" stroke="#040201" stroke-width="0.7"/>
+
+        <!-- Center part. -->
+        <line x1="0" y1="-54" x2="0" y2="-44" stroke="#040201" stroke-width="0.5"/>
+
+        <!-- Copper uplight on lower face from console. -->
+        <path d="M-22,-12 Q0,12 22,-12 Q22,8 0,16 Q-22,8 -22,-12 Z" fill="#f5a850" opacity="0.45"/>
+
+        <!-- Red rim from above on top of head. -->
+        <ellipse cx="0" cy="-58" rx="14" ry="4" fill="#ff4060" opacity="0.32"/>
+
+        <!-- Eyes — focused, tracking fragmenting readouts. -->
+        <ellipse cx="-9" cy="-26" rx="3" ry="1.4" fill="#1a0e08"/>
+        <ellipse cx="9" cy="-26" rx="3" ry="1.4" fill="#1a0e08"/>
+        <!-- Pupils slightly down. -->
+        <ellipse cx="-9" cy="-25" rx="0.8" ry="0.5" fill="#fff5d8"/>
+        <ellipse cx="9" cy="-25" rx="0.8" ry="0.5" fill="#fff5d8"/>
+
+        <!-- Brows drawn together (grim). -->
+        <path d="M-15,-34 Q-9,-37 -3,-34" fill="none" stroke="#0a0604" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M3,-34 Q9,-37 15,-34" fill="none" stroke="#0a0604" stroke-width="1.6" stroke-linecap="round"/>
+        <!-- Furrow. -->
+        <line x1="-1" y1="-30" x2="-1" y2="-22" stroke="#7a5230" stroke-width="0.5"/>
+        <line x1="1" y1="-30" x2="1" y2="-22" stroke="#7a5230" stroke-width="0.5"/>
+
+        <!-- Nose. -->
+        <path d="M0,-22 L-3,-12 Q0,-10 3,-12 Z" fill="#7a5230" opacity="0.6"/>
+        <!-- Mouth — pressed tight (lips compressed in focus). -->
+        <path d="M-6,-2 Q0,-1 6,-2" fill="none" stroke="#5a3018" stroke-width="1.4" stroke-linecap="round"/>
+        <line x1="-6" y1="0" x2="6" y2="0" stroke="#3a1c08" stroke-width="0.5"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue                                             -->
+  <!-- ========================================================== -->
+  <g id="p3p3-dialogue">
+    <rect x="6" y="14" width="226" height="68" rx="6" fill="white" stroke="#c87a35" stroke-width="2" opacity="0.95"/>
+    <polygon points="100,82 112,82 92,98" fill="white" stroke="#c87a35" stroke-width="1.5"/>
+    <line x1="100" y1="82" x2="112" y2="82" stroke="white" stroke-width="2"/>
+    <text x="14" y="32" font-family="Impact, sans-serif" font-size="13" font-weight="900" fill="#c87a35">WREN</text>
+    <text x="14" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#1a0408">Hull breach port side! Drive</text>
+    <text x="14" y="62" font-family="Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#1a0408">field's destabilizing — we're</text>
+    <text x="14" y="76" font-family="Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#1a0408">losing corridor integrity!</text>
+  </g>
+
+  <g id="p3p3-meta">
+    <text x="230" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="234" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">MED</text>
+  </g>
+
+</svg>

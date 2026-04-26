@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 364" width="238" height="364">
+  <title>Issue 1 — Page 2 — Panel 2: ECU Jink's hand drumming on knee</title>
+  <desc>Extreme close-up at eye level, 135mm. Hand drumming an impatient rhythm on a knee — fingers tapping. Pristine emerald metallic suit sleeve, wrist holographic emitter casts faint structured emerald-green geometric light across the fingers. Background soft, out of focus — prismatic temporal corridor visible through narrow rectangular viewport, blues and violets blurred into abstract luminous shapes. Tight detail, character-establishing insert. JINK (off-panel): "Observe. Tag. Extract. Just once I'd like a mission where something actually happens."</desc>
+
+  <defs>
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p2p2emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7dd9a0"/>
+      <stop offset="20%" stop-color="#4ab078"/>
+      <stop offset="50%" stop-color="#2a8a55"/>
+      <stop offset="80%" stop-color="#16633a"/>
+      <stop offset="100%" stop-color="#0a3a22"/>
+    </linearGradient>
+    <linearGradient id="p2p2emeraldHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8f5e4" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="p2p2emeraldSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#082818"/>
+      <stop offset="100%" stop-color="#03140c"/>
+    </linearGradient>
+
+    <linearGradient id="p2p2skinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4a575"/>
+      <stop offset="50%" stop-color="#b88758"/>
+      <stop offset="100%" stop-color="#8a6038"/>
+    </linearGradient>
+    <linearGradient id="p2p2skinHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0d8b0" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <radialGradient id="p2p2emeraldCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#a8f5c8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0.7"/>
+    </radialGradient>
+    <radialGradient id="p2p2emeraldGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a8f5c8" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0a3a22" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Out-of-focus corridor streak background. -->
+    <linearGradient id="p2p2streakBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1842" stop-opacity="0.95"/>
+      <stop offset="25%" stop-color="#3a4a8a" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#5a78c8" stop-opacity="0.85"/>
+      <stop offset="75%" stop-color="#3a4a8a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1a1842" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="p2p2blurStreak" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#80c8ff" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#a8c8f5" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#bfe4ff" stop-opacity="0.65"/>
+      <stop offset="70%" stop-color="#a8c8f5" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#80c8ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="p2p2prismStreak" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff80c8" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#80c8ff" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#a8ff80" stop-opacity="0.4"/>
+      <stop offset="75%" stop-color="#c880ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#80a8ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="p2p2heavyBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="p2p2bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p2p2softBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
+    <filter id="p2p2dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: out-of-focus corridor through viewport               -->
+  <!-- ========================================================== -->
+  <g id="p2p2-bg" filter="url(#p2p2heavyBlur)">
+    <rect width="238" height="364" fill="#0a0e18"/>
+
+    <!-- Suggestion of viewport frame (very blurry). -->
+    <rect x="40" y="20" width="160" height="200" fill="#1a2238" opacity="0.85"/>
+    <rect x="44" y="24" width="152" height="192" fill="url(#p2p2streakBg)"/>
+
+    <!-- Streak motion bands. -->
+    <rect x="44" y="40" width="152" height="6" fill="url(#p2p2blurStreak)" opacity="0.85"/>
+    <rect x="44" y="58" width="152" height="4" fill="url(#p2p2prismStreak)" opacity="0.7"/>
+    <rect x="44" y="78" width="152" height="6" fill="url(#p2p2blurStreak)" opacity="0.85"/>
+    <rect x="44" y="98" width="152" height="4" fill="url(#p2p2prismStreak)" opacity="0.65"/>
+    <rect x="44" y="118" width="152" height="6" fill="url(#p2p2blurStreak)" opacity="0.85"/>
+    <rect x="44" y="140" width="152" height="4" fill="url(#p2p2prismStreak)" opacity="0.7"/>
+    <rect x="44" y="160" width="152" height="6" fill="url(#p2p2blurStreak)" opacity="0.85"/>
+    <rect x="44" y="184" width="152" height="4" fill="url(#p2p2prismStreak)" opacity="0.65"/>
+  </g>
+
+  <!-- Blur halos that aren't blurred but subtle (from emitter spill). -->
+  <ellipse cx="120" cy="120" rx="80" ry="50" fill="url(#p2p2emeraldGlow)" opacity="0.18"/>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: knee + thigh (sharp foreground)                      -->
+  <!-- The knee fills the bottom of the frame.                     -->
+  <!-- ========================================================== -->
+  <g id="p2p2-knee" filter="url(#p2p2dropShadow)">
+    <!-- Thigh (rising up from bottom of frame, full emerald suit). -->
+    <path d="M0,260 Q-10,310 0,364 L238,364 Q248,310 238,260 Q230,250 119,250 Q8,250 0,260 Z" fill="url(#p2p2emerald)"/>
+    <path d="M0,260 Q-10,310 0,364 L238,364 Q248,310 238,260 Q230,250 119,250 Q8,250 0,260 Z" fill="url(#p2p2emeraldHi)"/>
+
+    <!-- Knee plate (visible kneecap form). -->
+    <ellipse cx="119" cy="270" rx="78" ry="20" fill="url(#p2p2emerald)"/>
+    <ellipse cx="119" cy="270" rx="78" ry="20" fill="url(#p2p2emeraldHi)" opacity="0.55"/>
+    <!-- Knee accent node (hex). -->
+    <g filter="url(#p2p2bloom)" opacity="0.85">
+      <polygon points="119,256 132,263 132,277 119,284 106,277 106,263" fill="url(#p2p2emeraldGlow)"/>
+    </g>
+    <polygon points="119,260 128,265 128,275 119,280 110,275 110,265" fill="url(#p2p2emeraldCore)"/>
+    <polygon points="119,265 124,267 124,273 119,275 114,273 114,267" fill="#ffffff" opacity="0.85"/>
+
+    <!-- Plate seams across thigh. -->
+    <line x1="0" y1="288" x2="238" y2="288" stroke="#082818" stroke-width="0.6" opacity="0.55"/>
+    <line x1="6" y1="304" x2="232" y2="304" stroke="#082818" stroke-width="0.6" opacity="0.5"/>
+    <line x1="119" y1="290" x2="119" y2="364" stroke="#082818" stroke-width="0.7" opacity="0.55"/>
+
+    <!-- Side suit highlight catching emitter light. -->
+    <path d="M40,260 Q35,310 50,360 L80,360 Q70,300 80,262 Z" fill="#a8f5c8" opacity="0.18"/>
+    <path d="M158,262 Q170,300 158,360 L188,360 Q200,310 196,260 Z" fill="#a8f5c8" opacity="0.15"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: forearm + hand drumming on knee                      -->
+  <!-- Hand comes in from upper-left, fingers tap on knee surface. -->
+  <!-- ========================================================== -->
+  <g id="p2p2-forearm-hand" filter="url(#p2p2dropShadow)">
+
+    <!-- Forearm (emerald suit sleeve, comes in at angle from upper-left). -->
+    <path d="M-10,140 Q40,160 105,210 L130,200 Q70,148 -10,120 Z" fill="url(#p2p2emerald)"/>
+    <path d="M-10,140 Q40,160 105,210 L130,200 Q70,148 -10,120 Z" fill="url(#p2p2emeraldHi)" opacity="0.65"/>
+
+    <!-- Sleeve plate seam. -->
+    <line x1="20" y1="142" x2="100" y2="200" stroke="#082818" stroke-width="0.7" opacity="0.65"/>
+    <line x1="14" y1="156" x2="92" y2="208" stroke="#082818" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- WRIST EMITTER — primary holographic source casting light forward onto knee/hand. -->
+    <g id="p2p2-wrist-emitter">
+      <!-- Outer bloom. -->
+      <ellipse cx="118" cy="206" rx="32" ry="14" fill="url(#p2p2emeraldGlow)" filter="url(#p2p2bloom)" opacity="0.95"/>
+      <!-- Emitter ring. -->
+      <ellipse cx="118" cy="206" rx="20" ry="6" fill="url(#p2p2emeraldCore)"/>
+      <ellipse cx="118" cy="206" rx="20" ry="6" fill="none" stroke="#ffffff" stroke-width="0.7"/>
+      <ellipse cx="118" cy="206" rx="14" ry="4" fill="#ffffff" opacity="0.9"/>
+      <!-- Geometric scaffolding around emitter. -->
+      <line x1="98" y1="206" x2="138" y2="206" stroke="#ffffff" stroke-width="0.5" opacity="0.8"/>
+      <line x1="118" y1="200" x2="118" y2="212" stroke="#ffffff" stroke-width="0.5" opacity="0.8"/>
+    </g>
+
+    <!-- Cuff lip / armor edge. -->
+    <path d="M100,210 Q118,222 138,210 L138,202 Q118,194 100,202 Z" fill="url(#p2p2emerald)"/>
+    <path d="M100,210 Q118,222 138,210 L138,202 Q118,194 100,202 Z" fill="url(#p2p2emeraldHi)" opacity="0.5"/>
+
+    <!-- HAND — back of hand visible, fingers curled and tapping. -->
+    <g id="p2p2-hand">
+      <!-- Hand mass (back of hand, knuckles up). -->
+      <path d="M120,212 Q140,210 160,222 Q176,238 178,260 Q176,275 162,275 Q140,266 124,254 Q108,242 110,225 Q112,215 120,212 Z" fill="url(#p2p2skinTone)"/>
+      <path d="M120,212 Q140,210 160,222 Q176,238 178,260 Q176,275 162,275 Q140,266 124,254 Q108,242 110,225 Q112,215 120,212 Z" fill="url(#p2p2skinHi)" opacity="0.5"/>
+
+      <!-- Knuckles (small ridges on top of hand). -->
+      <ellipse cx="138" cy="232" rx="4" ry="2.5" fill="#7a4f28" opacity="0.5"/>
+      <ellipse cx="148" cy="240" rx="4" ry="2.5" fill="#7a4f28" opacity="0.5"/>
+      <ellipse cx="156" cy="248" rx="4" ry="2.5" fill="#7a4f28" opacity="0.45"/>
+      <ellipse cx="162" cy="258" rx="3" ry="2" fill="#7a4f28" opacity="0.4"/>
+
+      <!-- Hand tendons (subtle highlight ridges). -->
+      <path d="M124,222 Q138,228 156,238" fill="none" stroke="#f0d8b0" stroke-width="0.8" opacity="0.5"/>
+      <path d="M124,228 Q140,238 160,248" fill="none" stroke="#f0d8b0" stroke-width="0.7" opacity="0.45"/>
+
+      <!-- FINGERS — tapping on knee surface. Captured mid-drum: 4 fingers at different heights. -->
+      <!-- Index finger (lifted up — mid-tap). -->
+      <g id="p2p2-finger-1">
+        <path d="M138,232 Q150,222 160,212 Q166,210 168,216 Q166,224 158,236 Q150,246 144,246 Q138,242 138,232 Z" fill="url(#p2p2skinTone)"/>
+        <path d="M138,232 Q150,222 160,212 Q166,210 168,216 Q166,224 158,236" fill="none" stroke="#f0d8b0" stroke-width="0.5" opacity="0.55"/>
+        <!-- Fingernail. -->
+        <ellipse cx="164" cy="216" rx="2" ry="3" fill="#f0d8b0" opacity="0.65"/>
+      </g>
+
+      <!-- Middle finger (tapping down — touching knee). -->
+      <g id="p2p2-finger-2">
+        <path d="M148,240 Q158,250 168,260 Q172,266 168,272 Q160,272 152,266 Q146,256 148,240 Z" fill="url(#p2p2skinTone)"/>
+        <ellipse cx="170" cy="268" rx="2.5" ry="2" fill="#f0d8b0" opacity="0.55"/>
+        <!-- Tap impact — tiny ripple on knee plate. -->
+        <ellipse cx="170" cy="276" rx="6" ry="1" fill="#a8f5c8" opacity="0.45"/>
+      </g>
+
+      <!-- Ring finger (mid-lift). -->
+      <g id="p2p2-finger-3">
+        <path d="M156,248 Q168,260 178,266 Q184,266 184,272 Q176,278 168,272 Q158,262 156,248 Z" fill="url(#p2p2skinTone)"/>
+        <ellipse cx="184" cy="270" rx="2.5" ry="2" fill="#f0d8b0" opacity="0.5"/>
+      </g>
+
+      <!-- Pinky (tapping down). -->
+      <g id="p2p2-finger-4">
+        <path d="M162,258 Q174,272 182,278 Q188,280 186,284 Q178,286 170,280 Q162,272 162,258 Z" fill="url(#p2p2skinTone)"/>
+        <ellipse cx="186" cy="282" rx="2" ry="1.5" fill="#f0d8b0" opacity="0.5"/>
+        <ellipse cx="188" cy="288" rx="5" ry="1" fill="#a8f5c8" opacity="0.4"/>
+      </g>
+
+      <!-- Motion-blur ghosting — subtle phantom finger shapes suggesting tap rhythm. -->
+      <g id="p2p2-motion-blur" opacity="0.4">
+        <path d="M150,240 Q160,250 170,258" fill="none" stroke="#b88758" stroke-width="0.7"/>
+        <path d="M158,250 Q168,260 178,266" fill="none" stroke="#b88758" stroke-width="0.6"/>
+        <path d="M164,260 Q174,272 182,278" fill="none" stroke="#b88758" stroke-width="0.5"/>
+      </g>
+    </g>
+
+    <!-- EMITTER LIGHT CASTING ON FINGERS — structured emerald geometric patterns. -->
+    <g id="p2p2-emerald-cast">
+      <!-- Geometric grid patterns thrown on fingers/hand (light projection). -->
+      <line x1="118" y1="212" x2="146" y2="234" stroke="#a8f5c8" stroke-width="0.5" opacity="0.55"/>
+      <line x1="124" y1="216" x2="152" y2="240" stroke="#a8f5c8" stroke-width="0.5" opacity="0.55"/>
+      <line x1="130" y1="220" x2="158" y2="246" stroke="#a8f5c8" stroke-width="0.5" opacity="0.5"/>
+      <line x1="136" y1="224" x2="164" y2="252" stroke="#a8f5c8" stroke-width="0.5" opacity="0.5"/>
+      <!-- Small hex projection. -->
+      <polygon points="148,234 154,237 154,243 148,246 142,243 142,237" fill="none" stroke="#a8f5c8" stroke-width="0.5" opacity="0.6"/>
+      <polygon points="160,250 166,253 166,259 160,262 154,259 154,253" fill="none" stroke="#a8f5c8" stroke-width="0.5" opacity="0.5"/>
+      <!-- Spill onto knee around tap points. -->
+      <ellipse cx="170" cy="276" rx="14" ry="3" fill="#a8f5c8" opacity="0.18"/>
+      <ellipse cx="186" cy="284" rx="12" ry="2.5" fill="#a8f5c8" opacity="0.15"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue (off-panel)                                 -->
+  <!-- ========================================================== -->
+  <g id="p2p2-dialogue">
+    <rect x="6" y="14" width="226" height="56" rx="6" fill="white" stroke="#2ed078" stroke-width="2" stroke-dasharray="3,2" filter="url(#balloonShadow)"/>
+    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078">JINK (O.P.)</text>
+    <text x="14" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Observe. Tag. Extract. Just once</text>
+    <text x="14" y="59" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">I'd like a mission where something</text>
+    <text x="14" y="72" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">actually happens.</text>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: panel meta                                           -->
+  <!-- ========================================================== -->
+  <g id="p2p2-meta">
+    <text x="228" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#888" opacity="0.7">2</text>
+    <text x="232" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#888" opacity="0.6">ECU</text>
+  </g>
+
+</svg>

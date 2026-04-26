@@ -1,0 +1,480 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 1 — Page 2 — Panel 3: Sable + Thresh face each other through bridge arch</title>
+  <desc>Medium two-shot, profile, 50mm. Sable on bridge side (left), Thresh in corridor opposite (right), framed by central archway. Sable in pristine silver suit gives a micro-nod of acknowledgment; she trusts this soldier completely. Thresh in pristine ruby-crimson suit at ease, broad-shouldered, copper-red buzz cut, micro-confident: a soldier radiating competence and calm. KEY "Thresh-was-confident" beat — pre-fear-arc baseline. Bridge blue-white on Sable's side meets corridor crimson on Thresh's — the two colors meeting in the archway between them, foreshadowing later division. THRESH: "Kit's locked. Good to drop." / SABLE: "Appreciated, Thresh."</desc>
+
+  <defs>
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <!-- Sable silver. -->
+    <linearGradient id="p2p3silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8eaee"/>
+      <stop offset="20%" stop-color="#c4c8cf"/>
+      <stop offset="50%" stop-color="#9ba1aa"/>
+      <stop offset="80%" stop-color="#787f88"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p2p3silverHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="p2p3silverSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e36"/>
+      <stop offset="100%" stop-color="#15171c"/>
+    </linearGradient>
+    <linearGradient id="p2p3sableHair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4f5f7"/>
+      <stop offset="60%" stop-color="#d4d6db"/>
+      <stop offset="100%" stop-color="#a8acb4"/>
+    </linearGradient>
+    <linearGradient id="p2p3sableSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5d3d2a"/>
+      <stop offset="50%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#3a2418"/>
+    </linearGradient>
+
+    <!-- Thresh ruby. -->
+    <linearGradient id="p2p3ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e85068"/>
+      <stop offset="20%" stop-color="#c83040"/>
+      <stop offset="50%" stop-color="#9a1a28"/>
+      <stop offset="80%" stop-color="#6a0e1a"/>
+      <stop offset="100%" stop-color="#3a0610"/>
+    </linearGradient>
+    <linearGradient id="p2p3rubyHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd0d8" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="p2p3rubySeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a0810"/>
+      <stop offset="100%" stop-color="#150408"/>
+    </linearGradient>
+    <linearGradient id="p2p3threshHair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d85020"/>
+      <stop offset="50%" stop-color="#a83012"/>
+      <stop offset="100%" stop-color="#6a1a08"/>
+    </linearGradient>
+    <linearGradient id="p2p3threshSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5dccc"/>
+      <stop offset="50%" stop-color="#e8c4ae"/>
+      <stop offset="100%" stop-color="#c89a82"/>
+    </linearGradient>
+
+    <radialGradient id="p2p3blueGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p2p3redGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffb0b8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a0610" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Bridge side ambient (left half, blue-white). -->
+    <radialGradient id="p2p3bridgeAmbient" cx="20%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#3a5a8a" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#1a2238" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0e18"/>
+    </radialGradient>
+
+    <!-- Corridor side ambient (right half, crimson-tinted). -->
+    <radialGradient id="p2p3corridorAmbient" cx="80%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#5a2030" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#2a0e16" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0204"/>
+    </radialGradient>
+
+    <filter id="p2p3bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="p2p3softBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
+    <filter id="p2p3strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="p2p3dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <symbol id="p2p3blueHex" viewBox="-10 -10 20 20" overflow="visible">
+      <polygon points="0,-9 7.8,-4.5 7.8,4.5 0,9 -7.8,4.5 -7.8,-4.5" fill="url(#p2p3blueGlow)" filter="url(#p2p3bloom)"/>
+      <polygon points="0,-7 6.1,-3.5 6.1,3.5 0,7 -6.1,3.5 -6.1,-3.5" fill="#bfe4ff"/>
+      <polygon points="0,-4 3.5,-2 3.5,2 0,4 -3.5,2 -3.5,-2" fill="#ffffff"/>
+    </symbol>
+    <symbol id="p2p3redHex" viewBox="-10 -10 20 20" overflow="visible">
+      <polygon points="0,-9 7.8,-4.5 7.8,4.5 0,9 -7.8,4.5 -7.8,-4.5" fill="url(#p2p3redGlow)" filter="url(#p2p3bloom)"/>
+      <polygon points="0,-7 6.1,-3.5 6.1,3.5 0,7 -6.1,3.5 -6.1,-3.5" fill="#ffb0b8"/>
+      <polygon points="0,-4 3.5,-2 3.5,2 0,4 -3.5,2 -3.5,-2" fill="#ffffff"/>
+    </symbol>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: split background — blue-white left, crimson right    -->
+  <!-- ========================================================== -->
+  <g id="p2p3-bg">
+    <rect width="742" height="364" fill="#0a0e18"/>
+    <rect x="0" y="0" width="371" height="364" fill="url(#p2p3bridgeAmbient)" opacity="0.85"/>
+    <rect x="371" y="0" width="371" height="364" fill="url(#p2p3corridorAmbient)" opacity="0.85"/>
+
+    <!-- Ceiling. -->
+    <rect x="0" y="0" width="742" height="14" fill="#1a2438"/>
+    <rect x="40" y="3" width="80" height="6" fill="#dce4f0" filter="url(#p2p3softBloom)" opacity="0.85"/>
+    <rect x="160" y="3" width="80" height="6" fill="#dce4f0" filter="url(#p2p3softBloom)" opacity="0.85"/>
+    <!-- Corridor ceiling (warmer). -->
+    <rect x="500" y="3" width="80" height="6" fill="#dc2030" filter="url(#p2p3softBloom)" opacity="0.5"/>
+    <rect x="620" y="3" width="80" height="6" fill="#dc2030" filter="url(#p2p3softBloom)" opacity="0.5"/>
+
+    <!-- Bridge wall structure (left). -->
+    <line x1="0" y1="14" x2="742" y2="14" stroke="#2a3450" stroke-width="0.7" opacity="0.85"/>
+    <line x1="0" y1="60" x2="280" y2="62" stroke="#2a3450" stroke-width="0.5" opacity="0.55"/>
+    <line x1="0" y1="100" x2="280" y2="102" stroke="#2a3450" stroke-width="0.4" opacity="0.45"/>
+
+    <!-- Corridor wall structure (right). -->
+    <line x1="462" y1="62" x2="742" y2="60" stroke="#2a0810" stroke-width="0.5" opacity="0.55"/>
+    <line x1="462" y1="102" x2="742" y2="100" stroke="#2a0810" stroke-width="0.4" opacity="0.45"/>
+
+    <!-- Bridge holographic display in background (left, blue-white). -->
+    <ellipse cx="120" cy="180" rx="100" ry="60" fill="url(#p2p3blueGlow)" filter="url(#p2p3strongBloom)" opacity="0.45"/>
+    <rect x="60" y="150" width="120" height="56" fill="#1a2438" opacity="0.65" rx="2"/>
+    <rect x="60" y="150" width="120" height="56" fill="none" stroke="#bfe4ff" stroke-width="0.5" opacity="0.7" rx="2"/>
+    <rect x="68" y="158" width="40" height="3" fill="#bfe4ff" opacity="0.55"/>
+    <rect x="112" y="158" width="60" height="3" fill="#bfe4ff" opacity="0.45"/>
+    <rect x="68" y="166" width="50" height="3" fill="#bfe4ff" opacity="0.45"/>
+    <rect x="122" y="166" width="50" height="3" fill="#bfe4ff" opacity="0.45"/>
+    <rect x="68" y="174" width="36" height="3" fill="#bfe4ff" opacity="0.4"/>
+    <rect x="108" y="174" width="64" height="3" fill="#bfe4ff" opacity="0.4"/>
+    <!-- Corner brackets. -->
+    <path d="M58,156 L58,150 L64,150" fill="none" stroke="#ffffff" stroke-width="0.7"/>
+    <path d="M176,150 L182,150 L182,156" fill="none" stroke="#ffffff" stroke-width="0.7"/>
+    <path d="M58,200 L58,206 L64,206" fill="none" stroke="#ffffff" stroke-width="0.7"/>
+    <path d="M176,206 L182,206 L182,200" fill="none" stroke="#ffffff" stroke-width="0.7"/>
+
+    <!-- Corridor weapon rack in background (right, ruby). -->
+    <rect x="600" y="130" width="80" height="120" fill="#0a0a0c"/>
+    <rect x="600" y="130" width="80" height="3" fill="#dc2030" filter="url(#p2p3softBloom)" opacity="0.8"/>
+    <rect x="600" y="247" width="80" height="3" fill="#dc2030" filter="url(#p2p3softBloom)" opacity="0.8"/>
+    <rect x="608" y="138" width="6" height="100" fill="#15161a"/>
+    <rect x="618" y="138" width="6" height="100" fill="#15161a"/>
+    <rect x="630" y="138" width="6" height="100" fill="#15161a"/>
+    <circle cx="611" cy="148" r="1.5" fill="#dc2030" filter="url(#p2p3softBloom)"/>
+    <circle cx="621" cy="148" r="1.5" fill="#dc2030" filter="url(#p2p3softBloom)"/>
+    <circle cx="633" cy="148" r="1.5" fill="#dc2030" filter="url(#p2p3softBloom)"/>
+    <ellipse cx="640" cy="180" rx="60" ry="80" fill="url(#p2p3redGlow)" filter="url(#p2p3strongBloom)" opacity="0.55"/>
+
+    <!-- Floor. -->
+    <path d="M0,310 L742,310 L742,364 L0,364 Z" fill="#15192a"/>
+    <line x1="0" y1="310" x2="742" y2="310" stroke="#2a3450" stroke-width="0.6" opacity="0.7"/>
+    <!-- Floor crimson tint on right side. -->
+    <path d="M371,310 L742,310 L742,364 L371,364 Z" fill="#2a0810" opacity="0.4"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: archway between them                                  -->
+  <!-- ========================================================== -->
+  <g id="p2p3-arch">
+    <!-- Left jamb. -->
+    <path d="M338,40 L362,40 L362,310 L338,310 Z" fill="#1a2238"/>
+    <path d="M338,40 L362,40 L362,310 L338,310 Z" fill="url(#p2p3silverHi)" opacity="0.4"/>
+    <line x1="338" y1="40" x2="338" y2="310" stroke="#3a4a6a" stroke-width="0.7"/>
+    <line x1="362" y1="40" x2="362" y2="310" stroke="#2a3450" stroke-width="0.6"/>
+    <!-- Right jamb. -->
+    <path d="M380,40 L404,40 L404,310 L380,310 Z" fill="#2a0e16"/>
+    <path d="M380,40 L404,40 L404,310 L380,310 Z" fill="url(#p2p3rubyHi)" opacity="0.4"/>
+    <line x1="380" y1="40" x2="380" y2="310" stroke="#5a2030" stroke-width="0.6"/>
+    <line x1="404" y1="40" x2="404" y2="310" stroke="#5a2030" stroke-width="0.7"/>
+
+    <!-- Top lintel arch. -->
+    <path d="M338,40 L404,40 L404,80 Q371,68 338,80 Z" fill="#1a2238"/>
+    <path d="M380,40 L404,40 L404,80 Q392,72 380,80 Z" fill="#2a0e16"/>
+
+    <!-- THE LIGHT MEETING POINT — blue spills onto Sable's side, red onto Thresh's — they overlap and blend in the threshold. -->
+    <rect x="362" y="40" width="18" height="270" fill="#0a0e18"/>
+    <!-- Blue rim from left side of arch. -->
+    <line x1="364" y1="40" x2="364" y2="310" stroke="#bfe4ff" stroke-width="0.7" filter="url(#p2p3softBloom)" opacity="0.85"/>
+    <!-- Red rim from right side of arch. -->
+    <line x1="378" y1="40" x2="378" y2="310" stroke="#ffb0b8" stroke-width="0.7" filter="url(#p2p3softBloom)" opacity="0.85"/>
+    <!-- Color blending in middle (purple-ish meeting). -->
+    <rect x="366" y="40" width="10" height="270" fill="url(#p2p3blueGlow)" opacity="0.25"/>
+    <rect x="366" y="40" width="10" height="270" fill="url(#p2p3redGlow)" opacity="0.25"/>
+
+    <!-- Top arch curve. -->
+    <path d="M338,80 Q371,68 404,80" fill="none" stroke="#3a4a6a" stroke-width="0.8"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Sable in profile (left, facing right toward arch)    -->
+  <!-- ========================================================== -->
+  <g id="p2p3-sable" filter="url(#p2p3dropShadow)" transform="translate(180, 64)">
+
+    <!-- Legs (profile view). -->
+    <g id="p2p3-sable-legs">
+      <!-- Front leg (closer to viewer). -->
+      <path d="M-28,180 Q-30,210 -24,250 L8,250 Q12,210 8,180 Z" fill="url(#p2p3silver)"/>
+      <path d="M-28,180 Q-30,210 -24,250 L8,250 Q12,210 8,180 Z" fill="url(#p2p3silverHi)"/>
+      <!-- Back leg (further). -->
+      <path d="M14,180 Q12,210 18,250 L42,250 Q46,210 42,180 Z" fill="url(#p2p3silver)"/>
+      <path d="M14,180 Q12,210 18,250 L42,250 Q46,210 42,180 Z" fill="url(#p2p3silverHi)" opacity="0.5"/>
+
+      <!-- Knee joints. -->
+      <rect x="-28" y="240" width="36" height="6" fill="url(#p2p3silverSeam)"/>
+      <rect x="14" y="240" width="32" height="6" fill="url(#p2p3silverSeam)"/>
+      <!-- Calf (front). -->
+      <path d="M-26,246 Q-28,272 -22,290 L6,290 Q12,272 6,246 Z" fill="url(#p2p3silver)"/>
+      <!-- Boots. -->
+      <path d="M-28,290 Q-30,300 -22,300 L6,300 Q12,295 6,290 Z" fill="#3a3e46"/>
+      <path d="M14,290 Q12,300 20,300 L44,300 Q48,295 42,290 Z" fill="#3a3e46"/>
+
+      <!-- Knee accent (front leg, hex). -->
+      <use href="#p2p3blueHex" x="-15" y="241" width="14" height="14"/>
+    </g>
+
+    <!-- Torso (profile, slight tilt forward — attentive listening posture). -->
+    <g id="p2p3-sable-torso">
+      <!-- Hip. -->
+      <path d="M-32,165 L48,165 L46,182 L-30,182 Z" fill="url(#p2p3silverSeam)"/>
+      <!-- Chest plate. -->
+      <path d="M-32,60 Q-38,110 -32,165 L48,165 Q56,110 48,60 Q38,52 8,52 Q-26,52 -32,60 Z" fill="url(#p2p3silver)"/>
+      <path d="M-32,60 Q-38,110 -32,165 L48,165 Q56,110 48,60 Q38,52 8,52 Q-26,52 -32,60 Z" fill="url(#p2p3silverHi)"/>
+      <!-- Sternum seam (visible from profile). -->
+      <line x1="6" y1="56" x2="6" y2="164" stroke="#2a2e36" stroke-width="0.9" opacity="0.7"/>
+      <!-- Pectoral plates. -->
+      <path d="M-22,76 Q-18,108 -16,128 L-22,128 Q-26,104 -26,76 Z" fill="#2a2e36" opacity="0.4"/>
+      <path d="M40,76 Q34,108 32,128 L40,128 Q42,104 42,76 Z" fill="#2a2e36" opacity="0.35"/>
+      <!-- Abdominal seams. -->
+      <line x1="-22" y1="135" x2="38" y2="135" stroke="#2a2e36" stroke-width="0.7" opacity="0.55"/>
+      <line x1="-20" y1="148" x2="36" y2="148" stroke="#2a2e36" stroke-width="0.7" opacity="0.55"/>
+
+      <!-- Sidearm holster (back hip). -->
+      <path d="M40,166 L52,166 L54,200 L42,200 Z" fill="#1d1f24"/>
+      <rect x="42" y="172" width="10" height="20" fill="#0a0a0c"/>
+
+      <!-- Chest accent (large hex, viewer-side of suit). -->
+      <use href="#p2p3blueHex" x="-8" y="86" width="28" height="28"/>
+      <!-- Front shoulder accent (visible in profile). -->
+      <use href="#p2p3blueHex" x="-32" y="68" width="22" height="22"/>
+      <!-- Lower-abdomen accent. -->
+      <use href="#p2p3blueHex" x="-2" y="148" width="14" height="14"/>
+    </g>
+
+    <!-- Arms — both at sides, professional command bearing. -->
+    <g id="p2p3-sable-arms">
+      <!-- Front arm at side. -->
+      <path d="M-40,62 Q-58,100 -54,150 L-32,154 Q-30,100 -32,64 Z" fill="url(#p2p3silver)"/>
+      <path d="M-40,62 Q-58,100 -54,150 L-32,154 Q-30,100 -32,64 Z" fill="url(#p2p3silverHi)"/>
+      <ellipse cx="-46" cy="152" rx="14" ry="6" fill="url(#p2p3silverSeam)"/>
+      <path d="M-54,150 Q-56,184 -50,212 L-30,212 Q-32,184 -32,154 Z" fill="url(#p2p3silver)"/>
+      <ellipse cx="-43" cy="220" rx="11" ry="9" fill="url(#p2p3sableSkin)"/>
+      <use href="#p2p3blueHex" x="-49" y="98" width="14" height="14"/>
+      <ellipse cx="-43" cy="210" rx="12" ry="3" fill="#bfe4ff" opacity="0.85"/>
+
+      <!-- Back arm (partially behind body). -->
+      <path d="M48,62 Q60,100 56,150 L40,154 Q40,100 38,64 Z" fill="url(#p2p3silver)"/>
+      <path d="M48,62 Q60,100 56,150 L40,154 Q40,100 38,64 Z" fill="url(#p2p3silverHi)" opacity="0.4"/>
+      <ellipse cx="52" cy="152" rx="11" ry="5" fill="url(#p2p3silverSeam)"/>
+      <path d="M56,150 Q58,180 52,206 L40,206 Q40,180 40,154 Z" fill="url(#p2p3silver)" opacity="0.85"/>
+      <ellipse cx="48" cy="214" rx="9" ry="7" fill="url(#p2p3sableSkin)"/>
+    </g>
+
+    <!-- Neck + collar. -->
+    <g id="p2p3-sable-neck">
+      <path d="M-2,30 L-2,52 L18,52 L18,30 Z" fill="url(#p2p3sableSkin)"/>
+      <path d="M-12,46 Q8,36 28,46 L24,58 L-8,58 Z" fill="url(#p2p3silver)"/>
+      <line x1="8" y1="42" x2="8" y2="56" stroke="#2a2e36" stroke-width="0.7" opacity="0.65"/>
+    </g>
+
+    <!-- Head (profile, looking right toward Thresh). -->
+    <g id="p2p3-sable-head">
+      <!-- Profile head shape: nose, brow, jaw, back of skull. -->
+      <path d="M-12,8 Q-14,-12 0,-22 Q22,-26 36,-16 Q42,-2 38,18 Q40,30 32,38 Q28,16 24,14 Q26,4 18,-2 L24,2 Q24,8 22,12 L18,16 L20,22 L14,28 L20,32 L4,32 Q-12,28 -12,8 Z" fill="url(#p2p3sableSkin)"/>
+
+      <!-- Hair (silver-white close cropped, profile silhouette). -->
+      <path d="M-13,2 Q-14,-18 0,-26 Q24,-32 38,-22 Q42,-12 40,-2 Q38,-12 34,-14 Q14,-22 -2,-18 Q-10,-12 -13,2 Z" fill="url(#p2p3sableHair)"/>
+      <path d="M-3,-22 Q12,-30 32,-22" fill="none" stroke="#9ea1a8" stroke-width="0.7" opacity="0.7"/>
+
+      <!-- Cool blue rim from arch on right side of face. -->
+      <path d="M30,2 Q40,12 38,28 Q32,30 28,18 Z" fill="#bfe4ff" opacity="0.35"/>
+
+      <!-- Eye (profile — single eye visible). -->
+      <ellipse cx="22" cy="6" rx="3" ry="1.6" fill="#1a0e08"/>
+      <ellipse cx="22.5" cy="5.7" rx="0.7" ry="0.5" fill="#ffffff"/>
+      <!-- Brow. -->
+      <path d="M16,-2 Q22,-4 28,-2" fill="none" stroke="#15100b" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Nose tip in profile. -->
+      <path d="M36,4 Q42,8 38,14 L34,14 Z" fill="#3a1f12"/>
+      <!-- Mouth corner — slight micro-acknowledgment nod, lips set. -->
+      <path d="M28,22 Q32,24 34,22" fill="none" stroke="#2a1006" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Thresh in profile (right, facing left toward arch)   -->
+  <!-- At ease, square shoulders, weapon holstered.                -->
+  <!-- ========================================================== -->
+  <g id="p2p3-thresh" filter="url(#p2p3dropShadow)" transform="translate(550, 60)">
+
+    <!-- Legs (slightly wider stance, at-ease posture). -->
+    <g id="p2p3-thresh-legs">
+      <!-- Front leg. -->
+      <path d="M-32,184 Q-36,216 -28,256 L8,256 Q14,216 8,184 Z" fill="url(#p2p3ruby)"/>
+      <path d="M-32,184 Q-36,216 -28,256 L8,256 Q14,216 8,184 Z" fill="url(#p2p3rubyHi)" opacity="0.45"/>
+      <!-- Back leg. -->
+      <path d="M14,184 Q10,216 16,256 L48,256 Q54,216 48,184 Z" fill="url(#p2p3ruby)"/>
+      <path d="M14,184 Q10,216 16,256 L48,256 Q54,216 48,184 Z" fill="url(#p2p3rubyHi)" opacity="0.4"/>
+
+      <!-- Knee plates (extra armor). -->
+      <path d="M-30,238 L8,238 L10,254 L-30,254 Z" fill="url(#p2p3ruby)"/>
+      <path d="M-30,238 L8,238 L10,254 L-30,254 Z" fill="url(#p2p3rubyHi)" opacity="0.7"/>
+      <path d="M16,238 L48,238 L52,254 L16,254 Z" fill="url(#p2p3ruby)"/>
+
+      <!-- Calf armor. -->
+      <path d="M-30,254 Q-34,278 -28,294 L8,294 Q14,278 10,254 Z" fill="url(#p2p3ruby)"/>
+      <path d="M16,254 Q12,278 18,294 L50,294 Q56,278 52,254 Z" fill="url(#p2p3ruby)"/>
+
+      <!-- Combat boots. -->
+      <path d="M-30,294 Q-34,304 -28,304 L10,304 Q14,300 10,294 Z" fill="#1a0408"/>
+      <path d="M16,294 Q14,304 20,304 L52,304 Q58,300 52,294 Z" fill="#1a0408"/>
+
+      <use href="#p2p3redHex" x="-14" y="244" width="14" height="14"/>
+      <use href="#p2p3redHex" x="30" y="244" width="14" height="14"/>
+    </g>
+
+    <!-- Torso (profile, broader silhouette). -->
+    <g id="p2p3-thresh-torso">
+      <path d="M-36,168 L52,168 L50,186 L-34,186 Z" fill="url(#p2p3rubySeam)"/>
+      <!-- Chest plate (heavy). -->
+      <path d="M-36,56 Q-44,108 -36,168 L52,168 Q60,108 52,56 Q42,46 8,46 Q-30,46 -36,56 Z" fill="url(#p2p3ruby)"/>
+      <path d="M-36,56 Q-44,108 -36,168 L52,168 Q60,108 52,56 Q42,46 8,46 Q-30,46 -36,56 Z" fill="url(#p2p3rubyHi)"/>
+
+      <!-- Sternum reinforcement. -->
+      <path d="M0,48 L14,48 L14,166 L0,166 Z" fill="url(#p2p3ruby)"/>
+      <path d="M0,48 L14,48 L14,166 L0,166 Z" fill="url(#p2p3rubyHi)" opacity="0.55"/>
+      <line x1="6" y1="48" x2="6" y2="166" stroke="#2a0810" stroke-width="0.7"/>
+
+      <!-- Pectoral plates. -->
+      <path d="M-26,74 Q-22,108 -18,130 L-26,130 Q-32,104 -32,74 Z" fill="#3a0610" opacity="0.55"/>
+      <path d="M44,74 Q40,108 36,130 L44,130 Q48,104 48,74 Z" fill="#3a0610" opacity="0.5"/>
+
+      <!-- Heavy abdominal armor bands. -->
+      <line x1="-26" y1="135" x2="44" y2="135" stroke="#2a0810" stroke-width="1.2" opacity="0.7"/>
+      <line x1="-24" y1="148" x2="42" y2="148" stroke="#2a0810" stroke-width="1.2" opacity="0.7"/>
+      <line x1="-22" y1="160" x2="40" y2="160" stroke="#2a0810" stroke-width="1" opacity="0.6"/>
+
+      <!-- Sidearm holster (front hip — facing Sable). -->
+      <path d="M-40,170 L-28,170 L-28,210 L-44,210 Z" fill="#0a0204"/>
+      <rect x="-38" y="178" width="10" height="22" fill="#050102"/>
+      <circle cx="-33" cy="204" r="2" fill="#3a3a3e"/>
+      <!-- Ammo pouches. -->
+      <rect x="32" y="172" width="10" height="22" fill="#1a0408" rx="1"/>
+      <rect x="44" y="172" width="10" height="22" fill="#1a0408" rx="1"/>
+
+      <!-- Chest accent (red hex, large, viewer-side). -->
+      <use href="#p2p3redHex" x="-12" y="80" width="32" height="32"/>
+
+      <!-- Pauldron (front shoulder, big chunky armor). -->
+      <path d="M-36,52 Q-52,58 -52,84 Q-44,96 -28,96 L-22,72 Q-26,54 -36,52 Z" fill="url(#p2p3ruby)"/>
+      <path d="M-36,52 Q-52,58 -52,84 Q-44,96 -28,96 L-22,72 Q-26,54 -36,52 Z" fill="url(#p2p3rubyHi)"/>
+      <use href="#p2p3redHex" x="-44" y="68" width="22" height="22"/>
+
+      <!-- Back pauldron (further). -->
+      <path d="M52,52 Q66,58 66,84 Q58,96 44,96 L42,72 Q46,54 52,52 Z" fill="url(#p2p3ruby)"/>
+      <path d="M52,52 Q66,58 66,84 Q58,96 44,96 L42,72 Q46,54 52,52 Z" fill="url(#p2p3rubyHi)" opacity="0.5"/>
+
+      <!-- Lower abdominal accent. -->
+      <use href="#p2p3redHex" x="-2" y="155" width="16" height="16"/>
+    </g>
+
+    <!-- Arms — at ease, hands relaxed at sides. -->
+    <g id="p2p3-thresh-arms">
+      <!-- Front arm. -->
+      <path d="M-44,60 Q-62,100 -56,148 L-32,150 Q-32,100 -32,62 Z" fill="url(#p2p3ruby)"/>
+      <path d="M-44,60 Q-62,100 -56,148 L-32,150 Q-32,100 -32,62 Z" fill="url(#p2p3rubyHi)"/>
+      <ellipse cx="-50" cy="150" rx="16" ry="7" fill="url(#p2p3rubySeam)"/>
+      <path d="M-56,148 Q-58,182 -52,212 L-32,212 Q-34,182 -32,150 Z" fill="url(#p2p3ruby)"/>
+      <ellipse cx="-46" cy="220" rx="13" ry="10" fill="url(#p2p3threshSkin)"/>
+      <use href="#p2p3redHex" x="-49" y="98" width="14" height="14"/>
+      <ellipse cx="-46" cy="208" rx="13" ry="3" fill="#ffb0b8" opacity="0.85"/>
+      <!-- Vambrace. -->
+      <path d="M-58,168 L-32,168 L-32,178 L-58,178 Z" fill="#2a0810" opacity="0.7"/>
+
+      <!-- Back arm. -->
+      <path d="M52,60 Q70,100 64,148 L48,150 Q48,100 46,62 Z" fill="url(#p2p3ruby)"/>
+      <path d="M52,60 Q70,100 64,148 L48,150 Q48,100 46,62 Z" fill="url(#p2p3rubyHi)" opacity="0.4"/>
+      <ellipse cx="58" cy="150" rx="14" ry="6" fill="url(#p2p3rubySeam)"/>
+      <path d="M64,148 Q66,180 60,210 L48,210 Q48,180 48,150 Z" fill="url(#p2p3ruby)" opacity="0.85"/>
+      <ellipse cx="56" cy="218" rx="11" ry="9" fill="url(#p2p3threshSkin)"/>
+    </g>
+
+    <!-- Neck — broader, gorget. -->
+    <g id="p2p3-thresh-neck">
+      <path d="M-4,28 L-4,52 L20,52 L20,28 Z" fill="url(#p2p3threshSkin)"/>
+      <path d="M-16,46 Q8,34 32,46 L28,58 L-12,58 Z" fill="url(#p2p3ruby)"/>
+      <line x1="8" y1="42" x2="8" y2="56" stroke="#2a0810" stroke-width="0.8" opacity="0.7"/>
+    </g>
+
+    <!-- Head (profile, looking left toward Sable). -->
+    <g id="p2p3-thresh-head">
+      <!-- Profile shape, square jaw and broader build. -->
+      <path d="M40,8 Q44,-14 30,-22 Q6,-28 -10,-22 Q-22,-12 -20,8 Q-26,18 -16,30 Q-14,8 -8,4 Q-12,-6 -2,-10 L-8,-2 Q-6,2 -2,4 L4,4 L0,8 L4,16 L-2,22 L4,30 L18,32 Q40,28 40,8 Z" fill="url(#p2p3threshSkin)"/>
+
+      <!-- Hair: tall swept-back pomp + shaved sides (profile shows the sweep). -->
+      <!-- Shaved side. -->
+      <path d="M-20,-2 Q-22,8 -18,18 Q-16,2 -14,-8 Z" fill="url(#p2p3threshHair)" opacity="0.85"/>
+      <!-- Top swept up and back. -->
+      <path d="M-12,-22 Q-2,-44 18,-46 Q40,-42 42,-22 Q40,-26 30,-30 Q12,-32 0,-26 Q-8,-22 -12,-22 Z" fill="url(#p2p3threshHair)"/>
+      <!-- Hair waves. -->
+      <path d="M-6,-30 Q12,-42 30,-32" fill="none" stroke="#6a1a08" stroke-width="1.1" opacity="0.85"/>
+      <path d="M0,-22 Q14,-32 30,-22" fill="none" stroke="#a83012" stroke-width="0.8" opacity="0.65"/>
+
+      <!-- Crimson rim from rack on right side of face. -->
+      <path d="M28,8 Q40,18 38,28 Q26,30 22,18 Z" fill="#dc2030" opacity="0.32"/>
+      <path d="M-14,2 Q-18,12 -14,18 Q-8,18 -10,4 Z" fill="#bfe4ff" opacity="0.25"/>
+      <!-- Bridge blue rim catches her face from arch side (left). -->
+
+      <!-- Eye (profile, single visible). -->
+      <ellipse cx="-8" cy="6" rx="2.5" ry="1.4" fill="#1a0a04"/>
+      <ellipse cx="-7.5" cy="5.7" rx="0.6" ry="0.4" fill="#ffffff"/>
+      <!-- Strong brow. -->
+      <path d="M-14,-2 Q-8,-4 -2,-2" fill="none" stroke="#6a1a08" stroke-width="1.6" stroke-linecap="round"/>
+      <!-- Scar across brow (soldier detail). -->
+      <line x1="-14" y1="-2" x2="-8" y2="0" stroke="#8a4830" stroke-width="0.7" opacity="0.85"/>
+      <!-- Strong nose (profile prominent). -->
+      <path d="M-22,4 L-26,12 L-22,16 L-18,14 Z" fill="#a8765a" opacity="0.85"/>
+      <!-- Mouth — slight dry-pro half-smile (confident, ready). -->
+      <path d="M-18,22 Q-12,24 -8,22" fill="none" stroke="#3a1006" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Square jaw. -->
+      <path d="M-4,28 Q4,32 14,30" fill="none" stroke="#a8765a" stroke-width="0.7" opacity="0.45"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue                                             -->
+  <!-- ========================================================== -->
+  <g id="p2p3-dialogue">
+    <!-- Thresh first ("Kit's locked..."). -->
+    <rect x="430" y="14" width="180" height="42" rx="6" fill="white" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="500,56 510,56 498,68" fill="white" stroke="#dc2030" stroke-width="2"/>
+    <line x1="499.5" y1="56" x2="510.5" y2="56" stroke="white" stroke-width="1.5"/>
+    <text x="438" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030">THRESH</text>
+    <text x="438" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Kit's locked. Good to drop.</text>
+
+    <!-- Sable ack. -->
+    <rect x="130" y="282" width="180" height="42" rx="6" fill="white" stroke="#b0b0b0" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="220,324 230,324 218,336" fill="white" stroke="#b0b0b0" stroke-width="2"/>
+    <line x1="219.5" y1="324" x2="230.5" y2="324" stroke="white" stroke-width="1.5"/>
+    <text x="138" y="300" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#b0b0b0">SABLE</text>
+    <text x="138" y="316" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Appreciated, Thresh.</text>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: panel meta                                           -->
+  <!-- ========================================================== -->
+  <g id="p2p3-meta">
+    <text x="730" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#888" opacity="0.7">3</text>
+    <text x="734" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#888" opacity="0.6">MED</text>
+  </g>
+
+</svg>

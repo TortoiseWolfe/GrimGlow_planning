@@ -1,0 +1,301 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 364" width="241" height="364">
+  <title>Issue 1 — Page 1 — Panel 6: Luma close-up with holographic lenses</title>
+  <desc>Close-up, slight low angle, 85mm. Luma's face and upper body, tight framing. Holographic lenses hover in front of her eyes — semi-transparent, glowing blue-violet, scrolling geometric data. One hand raised near chin in thinking gesture. Curiosity, intellectual engagement, faint smile. South Asian warm brown skin, single thick braid pulled fully back, sapphire-violet pristine suit. Blue-violet light from lenses casts structured patterns across face. LUMA: "The convergence data is extraordinary. The temporal density at this node..." / SABLE (off-panel): "Save it for the report, Luma." / LUMA: "...right."</desc>
+
+  <defs>
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p6suitMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a690e8"/>
+      <stop offset="20%" stop-color="#7a62c8"/>
+      <stop offset="50%" stop-color="#523aa0"/>
+      <stop offset="80%" stop-color="#382475"/>
+      <stop offset="100%" stop-color="#1c1242"/>
+    </linearGradient>
+    <linearGradient id="p6suitHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dcd0ff" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="p6suitSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15083a"/>
+      <stop offset="100%" stop-color="#0a0420"/>
+    </linearGradient>
+    <linearGradient id="p6skinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8956a"/>
+      <stop offset="50%" stop-color="#a87648"/>
+      <stop offset="100%" stop-color="#7a512a"/>
+    </linearGradient>
+    <linearGradient id="p6hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="60%" stop-color="#0e0604"/>
+      <stop offset="100%" stop-color="#040201"/>
+    </linearGradient>
+
+    <radialGradient id="p6hologramCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#c8b8ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0.7"/>
+    </radialGradient>
+    <radialGradient id="p6hologramGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#c8b8ff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#5a3ad8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1c1242" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Holographic lens gradient: translucent blue-violet with prismatic edge. -->
+    <linearGradient id="p6lensGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#c8b8ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0.65"/>
+    </linearGradient>
+
+    <!-- Bridge ambient (close-up — face fills frame, less environment). -->
+    <radialGradient id="p6ambient" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#2a3458" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#15192a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0e18"/>
+    </radialGradient>
+
+    <!-- Blue-violet key from lens display. -->
+    <radialGradient id="p6lensKey" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#7a52d8" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#3a1e88" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#15083a" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="p6bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p6softBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="p6strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="p6dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+
+    <symbol id="p6hexNode" viewBox="-10 -10 20 20" overflow="visible">
+      <polygon points="0,-9 7.8,-4.5 7.8,4.5 0,9 -7.8,4.5 -7.8,-4.5" fill="url(#p6hologramGlow)" filter="url(#p6bloom)"/>
+      <polygon points="0,-7 6.1,-3.5 6.1,3.5 0,7 -6.1,3.5 -6.1,-3.5" fill="url(#p6hologramCore)"/>
+      <polygon points="0,-4 3.5,-2 3.5,2 0,4 -3.5,2 -3.5,-2" fill="#ffffff" opacity="0.85"/>
+    </symbol>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: ambient bg                                           -->
+  <!-- ========================================================== -->
+  <g id="p6-bg">
+    <rect width="241" height="364" fill="#0a0e18"/>
+    <rect width="241" height="364" fill="url(#p6ambient)" opacity="0.85"/>
+    <!-- Blue-violet wash over scene (her department color dominates close-up). -->
+    <rect width="241" height="364" fill="url(#p6lensKey)" opacity="0.65"/>
+
+    <!-- Subtle background structure — out-of-focus bridge wall. -->
+    <line x1="0" y1="40" x2="241" y2="32" stroke="#2a3458" stroke-width="0.5" opacity="0.4"/>
+    <line x1="0" y1="60" x2="241" y2="50" stroke="#2a3458" stroke-width="0.4" opacity="0.3"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Luma — close-up upper body                           -->
+  <!-- Slight low angle (camera below eye line, looking up).       -->
+  <!-- ========================================================== -->
+  <g id="p6-luma" filter="url(#p6dropShadow)">
+
+    <!-- Upper torso (shoulders + chest cropped at lower frame). -->
+    <g id="p6-luma-torso">
+      <path d="M0,260 Q-10,310 0,364 L241,364 Q251,310 241,260 Q230,250 124,250 Q14,250 0,260 Z" fill="url(#p6suitMetal)"/>
+      <path d="M0,260 Q-10,310 0,364 L241,364 Q251,310 241,260 Q230,250 124,250 Q14,250 0,260 Z" fill="url(#p6suitHighlight)"/>
+
+      <!-- Sternum seam. -->
+      <line x1="124" y1="252" x2="124" y2="364" stroke="#15083a" stroke-width="1.2" opacity="0.7"/>
+
+      <!-- Pectoral plate divisions. -->
+      <path d="M40,272 Q48,304 54,332 L46,332 Q40,304 40,272 Z" fill="#15083a" opacity="0.4"/>
+      <path d="M210,272 Q202,304 196,332 L204,332 Q210,304 210,272 Z" fill="#15083a" opacity="0.4"/>
+
+      <!-- Chest accent (large). -->
+      <use href="#p6hexNode" x="104" y="280" width="40" height="40"/>
+      <!-- Shoulder accents. -->
+      <use href="#p6hexNode" x="6" y="262" width="28" height="28"/>
+      <use href="#p6hexNode" x="214" y="262" width="28" height="28"/>
+    </g>
+
+    <!-- Right arm — bent up, hand near chin (thinking gesture). -->
+    <g id="p6-luma-arm-thinking">
+      <!-- Upper arm angled inward. -->
+      <path d="M210,260 Q220,278 200,300 L180,290 Q188,270 196,258 Z" fill="url(#p6suitMetal)"/>
+      <path d="M210,260 Q220,278 200,300 L180,290 Q188,270 196,258 Z" fill="url(#p6suitHighlight)" opacity="0.4"/>
+      <!-- Elbow. -->
+      <ellipse cx="190" cy="296" rx="13" ry="6" fill="url(#p6suitSeam)"/>
+      <!-- Forearm angled up to chin. -->
+      <path d="M180,290 Q165,260 158,224 L142,232 Q150,268 168,300 Z" fill="url(#p6suitMetal)"/>
+      <path d="M180,290 Q165,260 158,224 L142,232 Q150,268 168,300 Z" fill="url(#p6suitHighlight)" opacity="0.5"/>
+      <!-- Hand near chin (open, slightly curled fingers). -->
+      <ellipse cx="148" cy="218" rx="13" ry="9" fill="url(#p6skinTone)"/>
+      <!-- Index finger touching chin. -->
+      <path d="M142,212 L138,206 L140,214 Z" fill="url(#p6skinTone)"/>
+      <!-- Wrist holographic emitter. -->
+      <ellipse cx="150" cy="232" rx="13" ry="3" fill="url(#p6hologramCore)" opacity="0.85"/>
+      <!-- Bicep accent. -->
+      <use href="#p6hexNode" x="194" y="268" width="16" height="16"/>
+    </g>
+
+    <!-- Left shoulder/arm partially visible. -->
+    <g id="p6-luma-arm-shoulder">
+      <path d="M30,260 Q14,280 8,304 L24,316 Q34,290 44,262 Z" fill="url(#p6suitMetal)"/>
+      <path d="M30,260 Q14,280 8,304 L24,316 Q34,290 44,262 Z" fill="url(#p6suitHighlight)"/>
+    </g>
+
+    <!-- Neck. -->
+    <g id="p6-luma-neck">
+      <path d="M104,212 L104,255 L144,255 L144,212 Z" fill="url(#p6skinTone)"/>
+      <path d="M88,240 Q124,224 160,240 L154,260 L94,260 Z" fill="url(#p6suitMetal)"/>
+      <line x1="124" y1="232" x2="124" y2="258" stroke="#15083a" stroke-width="1" opacity="0.6"/>
+    </g>
+
+    <!-- Head — close-up, slight low angle. -->
+    <g id="p6-luma-head">
+      <!-- Head shape (large, fills upper portion of frame). -->
+      <ellipse cx="124" cy="130" rx="58" ry="74" fill="url(#p6skinTone)"/>
+
+      <!-- Hair: pulled fully back, smooth top. Center part visible. -->
+      <path d="M70,90 Q72,52 124,42 Q176,52 178,90 Q176,110 168,108 Q166,76 124,70 Q82,76 80,108 Q72,110 70,90 Z" fill="url(#p6hair)"/>
+      <!-- Center part. -->
+      <line x1="124" y1="48" x2="124" y2="92" stroke="#040201" stroke-width="0.7" opacity="0.85"/>
+      <!-- Hair sides framing face. -->
+      <path d="M68,100 Q64,160 76,210 L88,206 Q80,160 84,104 Z" fill="url(#p6hair)"/>
+      <path d="M180,100 Q184,160 172,210 L160,206 Q168,160 164,104 Z" fill="url(#p6hair)"/>
+
+      <!-- THE BRAID: pulled fully back over right shoulder, partially visible behind head and over shoulder. -->
+      <!-- Braid trunk emerging from back of head, draping over right shoulder. -->
+      <path d="M168,200 Q176,230 188,260 Q196,290 188,322 L172,322 Q178,290 174,260 Q166,230 158,202 Z" fill="url(#p6hair)"/>
+      <!-- Braid texture rungs. -->
+      <path d="M164,210 Q174,213 184,210" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
+      <path d="M166,228 Q176,231 186,228" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
+      <path d="M168,246 Q178,249 188,246" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
+      <path d="M170,266 Q180,269 190,266" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
+      <path d="M172,286 Q182,289 192,286" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
+      <path d="M174,306 Q184,309 192,306" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
+      <!-- Braid highlight strand. -->
+      <path d="M170,210 Q176,250 180,290 Q182,316 178,322" fill="none" stroke="#3a2818" stroke-width="0.7" opacity="0.7"/>
+      <!-- Braid tip tie. -->
+      <ellipse cx="184" cy="328" rx="6" ry="3.5" fill="#0a0604"/>
+
+      <!-- Blue-violet key light catching face from lenses. -->
+      <ellipse cx="124" cy="142" rx="50" ry="30" fill="#7a52d8" opacity="0.18"/>
+      <!-- Geometric structured light pattern across cheeks (from lens display). -->
+      <line x1="94" y1="148" x2="106" y2="142" stroke="#c8b8ff" stroke-width="0.7" opacity="0.55"/>
+      <line x1="98" y1="156" x2="110" y2="150" stroke="#c8b8ff" stroke-width="0.6" opacity="0.45"/>
+      <line x1="142" y1="142" x2="154" y2="148" stroke="#c8b8ff" stroke-width="0.7" opacity="0.55"/>
+      <line x1="146" y1="150" x2="158" y2="156" stroke="#c8b8ff" stroke-width="0.6" opacity="0.45"/>
+
+      <!-- HOLOGRAPHIC LENSES — semi-transparent floating in front of eyes. -->
+      <!-- Outer bloom around lenses. -->
+      <g filter="url(#p6strongBloom)" opacity="0.85">
+        <ellipse cx="100" cy="130" rx="20" ry="12" fill="url(#p6hologramGlow)"/>
+        <ellipse cx="148" cy="130" rx="20" ry="12" fill="url(#p6hologramGlow)"/>
+      </g>
+
+      <!-- Lens 1 (right eye, viewer's left). -->
+      <ellipse cx="100" cy="130" rx="16" ry="9" fill="url(#p6lensGlow)" opacity="0.85"/>
+      <ellipse cx="100" cy="130" rx="16" ry="9" fill="none" stroke="#c8b8ff" stroke-width="0.7"/>
+      <!-- Lens content: scrolling geometric data. -->
+      <g stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.85">
+        <rect x="88" y="124" width="6" height="3"/>
+        <rect x="96" y="124" width="10" height="3"/>
+        <rect x="108" y="124" width="6" height="3"/>
+        <rect x="88" y="129" width="10" height="3"/>
+        <rect x="100" y="129" width="6" height="3"/>
+        <rect x="108" y="129" width="6" height="3"/>
+        <rect x="88" y="134" width="6" height="3"/>
+        <rect x="96" y="134" width="14" height="3"/>
+        <rect x="112" y="134" width="2" height="3"/>
+      </g>
+      <!-- Lens shine glint. -->
+      <line x1="92" y1="125" x2="98" y2="125" stroke="#ffffff" stroke-width="0.7" opacity="0.85"/>
+
+      <!-- Lens 2 (left eye, viewer's right). -->
+      <ellipse cx="148" cy="130" rx="16" ry="9" fill="url(#p6lensGlow)" opacity="0.85"/>
+      <ellipse cx="148" cy="130" rx="16" ry="9" fill="none" stroke="#c8b8ff" stroke-width="0.7"/>
+      <g stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.85">
+        <rect x="136" y="124" width="6" height="3"/>
+        <rect x="144" y="124" width="10" height="3"/>
+        <rect x="156" y="124" width="6" height="3"/>
+        <rect x="136" y="129" width="10" height="3"/>
+        <rect x="148" y="129" width="6" height="3"/>
+        <rect x="156" y="129" width="6" height="3"/>
+        <rect x="136" y="134" width="6" height="3"/>
+        <rect x="144" y="134" width="14" height="3"/>
+        <rect x="160" y="134" width="2" height="3"/>
+      </g>
+      <line x1="140" y1="125" x2="146" y2="125" stroke="#ffffff" stroke-width="0.7" opacity="0.85"/>
+
+      <!-- Lens projection beams (subtle lines from lenses to eyes). -->
+      <line x1="100" y1="128" x2="108" y2="125" stroke="#c8b8ff" stroke-width="0.4" opacity="0.6"/>
+      <line x1="148" y1="128" x2="140" y2="125" stroke="#c8b8ff" stroke-width="0.4" opacity="0.6"/>
+
+      <!-- Eyes behind lenses — visible as soft shapes through translucent lens. -->
+      <ellipse cx="108" cy="128" rx="3.4" ry="1.6" fill="#1a0a04" opacity="0.65"/>
+      <ellipse cx="140" cy="128" rx="3.4" ry="1.6" fill="#1a0a04" opacity="0.65"/>
+      <!-- Eye highlight — violet from lens. -->
+      <ellipse cx="109" cy="127.7" rx="0.8" ry="0.5" fill="#c8b8ff"/>
+      <ellipse cx="141" cy="127.7" rx="0.8" ry="0.5" fill="#c8b8ff"/>
+
+      <!-- Brows above lens edges. -->
+      <path d="M88,114 Q100,110 116,114" fill="none" stroke="#0a0604" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M132,114 Q148,110 160,114" fill="none" stroke="#0a0604" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- Nose. -->
+      <path d="M124,140 L120,162 Q124,165 128,162 Z" fill="#5a3018" opacity="0.6"/>
+      <path d="M120,162 Q124,164 128,162" fill="none" stroke="#3a1a0a" stroke-width="0.5" opacity="0.55"/>
+
+      <!-- Mouth — faint smile, slight upturn (curiosity). -->
+      <path d="M114,184 Q124,189 134,184" fill="none" stroke="#3a1a0a" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Slight cheek lift on right side. -->
+      <path d="M132,180 Q138,178 142,182" fill="none" stroke="#7a5230" stroke-width="0.5" opacity="0.55"/>
+
+      <!-- Chin (where her finger touches). -->
+      <ellipse cx="124" cy="200" rx="10" ry="6" fill="url(#p6skinTone)"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue                                             -->
+  <!-- ========================================================== -->
+  <g id="p6-dialogue">
+    <!-- Luma line 1 (top). -->
+    <rect x="6" y="14" width="208" height="52" rx="6" fill="white" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="80,66 90,66 76,76" fill="white" stroke="#5a3ad8" stroke-width="2"/>
+    <line x1="79.5" y1="66" x2="90.5" y2="66" stroke="white" stroke-width="1.5"/>
+    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8">LUMA</text>
+    <text x="14" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">The convergence data is</text>
+    <text x="14" y="60" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">extraordinary. The temporal density...</text>
+
+    <!-- Sable off-panel cut-off. -->
+    <rect x="36" y="84" width="186" height="40" rx="6" fill="white" stroke="#b0b0b0" stroke-width="2" stroke-dasharray="3,2" filter="url(#balloonShadow)"/>
+    <text x="44" y="102" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#b0b0b0">SABLE (O.P.)</text>
+    <text x="44" y="116" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Save it for the report, Luma.</text>
+
+    <!-- Luma capitulation. -->
+    <rect x="120" y="296" width="100" height="38" rx="6" fill="white" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="146,334 154,334 142,344" fill="white" stroke="#5a3ad8" stroke-width="2"/>
+    <line x1="145.5" y1="334" x2="154.5" y2="334" stroke="white" stroke-width="1.5"/>
+    <text x="128" y="314" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8">LUMA</text>
+    <text x="128" y="328" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">...right.</text>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: panel meta                                           -->
+  <!-- ========================================================== -->
+  <g id="p6-meta">
+    <text x="230" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#888" opacity="0.7">6</text>
+    <text x="234" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#888" opacity="0.6">CU</text>
+  </g>
+
+</svg>

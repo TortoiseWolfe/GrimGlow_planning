@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 364" width="241" height="364">
+  <title>Issue 1 — Page 3 — Panel 4: POV through cracked viewport, Titan glimpsed</title>
+  <desc>POV shot through cracking spacecraft viewport, 18mm ultra-wide. The viewport glass fractures in spiderweb pattern but holds. Through it, the temporal corridor outside is dying — once-stable hexagonal geometric light walls fracturing into violent churning prismatic distortion. In the distortion, BARELY visible, a massive dark shape — defined by the absence of light, absorbing the prismatic glow around it. Oil-on-water iridescence shimmers at the dark shape's edges. The shape is deliberately obscured — size and wrongness, nothing more. Cracking viewport frame creates frame-within-frame. THRESH (off-panel): "Contact in the corridor! Something's IN here with us!"</desc>
+
+  <defs>
+    <linearGradient id="p3p4corridorChaos" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1842" stop-opacity="0.95"/>
+      <stop offset="20%" stop-color="#5a3aa0" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#7a98d8" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#3a4a8a" stop-opacity="0.85"/>
+      <stop offset="80%" stop-color="#5a78c8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a1842" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="p3p4chaosGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#5a78c8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1842" stop-opacity="0.4"/>
+    </radialGradient>
+
+    <linearGradient id="p3p4prismChaos" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff80c8" stop-opacity="0.55"/>
+      <stop offset="20%" stop-color="#80c8ff" stop-opacity="0.65"/>
+      <stop offset="40%" stop-color="#a8ff80" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#ffe080" stop-opacity="0.55"/>
+      <stop offset="80%" stop-color="#c880ff" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#80a8ff" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <!-- Titan body: dark mass with oil-on-water iridescence. -->
+    <radialGradient id="p3p4titanBody" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#080408" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#040208" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#020104" stop-opacity="0.9"/>
+    </radialGradient>
+    <linearGradient id="p3p4titanIridescence" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a78c8" stop-opacity="0.45"/>
+      <stop offset="20%" stop-color="#a8ff80" stop-opacity="0.4"/>
+      <stop offset="40%" stop-color="#c880ff" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#ff80c8" stop-opacity="0.4"/>
+      <stop offset="80%" stop-color="#80c8ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#a8ff80" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <linearGradient id="p3p4viewport" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a40"/>
+      <stop offset="100%" stop-color="#1a1a20"/>
+    </linearGradient>
+
+    <filter id="p3p4bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="p3p4strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: ship interior frame around viewport (dark)            -->
+  <!-- ========================================================== -->
+  <g id="p3p4-interior">
+    <rect width="241" height="364" fill="#080408"/>
+
+    <!-- Viewport frame outline (chunky industrial). -->
+    <rect x="20" y="40" width="201" height="284" fill="url(#p3p4viewport)"/>
+    <!-- Frame corner bolts. -->
+    <circle cx="28" cy="48" r="2.5" fill="#1a1a20"/>
+    <circle cx="213" cy="48" r="2.5" fill="#1a1a20"/>
+    <circle cx="28" cy="316" r="2.5" fill="#1a1a20"/>
+    <circle cx="213" cy="316" r="2.5" fill="#1a1a20"/>
+    <!-- Mid-side bolts. -->
+    <circle cx="28" cy="180" r="2" fill="#1a1a20"/>
+    <circle cx="213" cy="180" r="2" fill="#1a1a20"/>
+
+    <!-- Frame inner highlight. -->
+    <rect x="20" y="40" width="201" height="284" fill="none" stroke="#5a5a60" stroke-width="0.5" opacity="0.55"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: viewport content (chaotic corridor + Titan)          -->
+  <!-- Inset viewBox represents what we see through the glass.    -->
+  <!-- ========================================================== -->
+  <g id="p3p4-viewport-content" clip-path="inset(40px 20px 40px 20px)">
+    <rect x="28" y="48" width="185" height="268" fill="url(#p3p4corridorChaos)"/>
+
+    <!-- Churning chaos in corridor. -->
+    <ellipse cx="120" cy="180" rx="120" ry="160" fill="url(#p3p4chaosGlow)" opacity="0.65"/>
+
+    <!-- Fragmenting hexagonal walls (broken pieces). -->
+    <g stroke="#a8c8f5" stroke-width="0.8" fill="none" opacity="0.65">
+      <polygon points="40,60 64,68 60,84 36,76"/>
+      <polygon points="180,60 204,68 200,84 176,76" transform="rotate(15 190 72)"/>
+      <polygon points="50,140 74,148 70,164 46,156" transform="rotate(-10 60 152)"/>
+      <polygon points="170,160 194,168 190,184 166,176" transform="rotate(20 180 172)"/>
+      <polygon points="40,260 64,268 60,284 36,276" transform="rotate(-25 50 272)"/>
+      <polygon points="180,280 204,288 200,304 176,296" transform="rotate(35 190 292)"/>
+    </g>
+
+    <!-- Prismatic chaos streaks. -->
+    <path d="M28,80 Q90,100 150,90 Q190,80 213,110" fill="none" stroke="url(#p3p4prismChaos)" stroke-width="3" opacity="0.85"/>
+    <path d="M28,140 Q70,160 130,150 Q180,140 213,170" fill="none" stroke="url(#p3p4prismChaos)" stroke-width="2" opacity="0.7"/>
+    <path d="M28,220 Q80,200 140,210 Q190,220 213,250" fill="none" stroke="url(#p3p4prismChaos)" stroke-width="3" opacity="0.85"/>
+    <path d="M28,290 Q60,310 130,300 Q190,290 213,310" fill="none" stroke="url(#p3p4prismChaos)" stroke-width="2" opacity="0.7"/>
+
+    <!-- Distorted speed lines converging chaotically. -->
+    <g stroke="#bfe4ff" stroke-width="0.6" fill="none" opacity="0.5">
+      <path d="M28,60 Q80,140 120,180"/>
+      <path d="M213,60 Q160,140 120,180"/>
+      <path d="M28,300 Q80,220 120,180"/>
+      <path d="M213,300 Q160,220 120,180"/>
+    </g>
+
+    <!-- ========================================================== -->
+    <!-- THE TITAN — massive dark shape, barely visible              -->
+    <!-- Defined by absence of light. Oil-on-water iridescence.      -->
+    <!-- ========================================================== -->
+    <g id="p3p4-titan">
+      <!-- Massive dark mass occupying upper-right portion of viewport. -->
+      <path d="M120,80 Q160,60 200,90 Q220,130 210,180 Q200,220 180,210 Q160,200 140,200 Q120,180 110,140 Q108,108 120,80 Z" fill="url(#p3p4titanBody)" opacity="0.92"/>
+      <!-- Inner darker mass. -->
+      <path d="M140,100 Q170,90 190,120 Q200,150 192,180 Q180,200 168,196 Q150,180 140,160 Q132,130 140,100 Z" fill="#020104" opacity="0.95"/>
+
+      <!-- OIL-ON-WATER IRIDESCENCE at edges (the only hint of surface). -->
+      <path d="M120,80 Q160,60 200,90" fill="none" stroke="url(#p3p4titanIridescence)" stroke-width="3" opacity="0.85"/>
+      <path d="M210,180 Q200,220 180,210" fill="none" stroke="url(#p3p4titanIridescence)" stroke-width="2.5" opacity="0.8"/>
+      <path d="M110,140 Q108,108 120,80" fill="none" stroke="url(#p3p4titanIridescence)" stroke-width="2" opacity="0.75"/>
+      <path d="M140,200 Q120,180 110,140" fill="none" stroke="url(#p3p4titanIridescence)" stroke-width="2" opacity="0.7"/>
+
+      <!-- Faint internal structure hints (predatory geometry). -->
+      <ellipse cx="170" cy="120" rx="10" ry="4" fill="url(#p3p4titanIridescence)" opacity="0.4"/>
+      <ellipse cx="155" cy="160" rx="6" ry="3" fill="url(#p3p4titanIridescence)" opacity="0.35"/>
+
+      <!-- Shadow swallows light around it (negative bloom). -->
+      <ellipse cx="160" cy="140" rx="60" ry="80" fill="#000" opacity="0.4" filter="url(#p3p4bloom)"/>
+    </g>
+
+    <!-- Embers and sparks scattering. -->
+    <circle cx="60" cy="100" r="2" fill="#bfe4ff" filter="url(#p3p4bloom)"/>
+    <circle cx="80" cy="220" r="2" fill="#c8b8ff" filter="url(#p3p4bloom)"/>
+    <circle cx="200" cy="240" r="1.5" fill="#fff5d8" filter="url(#p3p4bloom)"/>
+    <circle cx="50" cy="280" r="1.5" fill="#bfe4ff" filter="url(#p3p4bloom)"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: cracked viewport glass spiderweb (over chaos)        -->
+  <!-- ========================================================== -->
+  <g id="p3p4-cracks" stroke="#1a1a20" stroke-width="1.4" fill="none">
+    <!-- Central impact star. -->
+    <circle cx="100" cy="170" r="3" fill="#080408" stroke="#1a1a20" stroke-width="1.4"/>
+
+    <!-- Radiating cracks from impact point. -->
+    <line x1="100" y1="170" x2="40" y2="80"/>
+    <line x1="100" y1="170" x2="180" y2="60"/>
+    <line x1="100" y1="170" x2="210" y2="120"/>
+    <line x1="100" y1="170" x2="208" y2="220"/>
+    <line x1="100" y1="170" x2="160" y2="310"/>
+    <line x1="100" y1="170" x2="40" y2="290"/>
+    <line x1="100" y1="170" x2="28" y2="200"/>
+    <line x1="100" y1="170" x2="60" y2="60"/>
+
+    <!-- Secondary radiating fractures. -->
+    <line x1="100" y1="170" x2="200" y2="170" stroke-width="1"/>
+    <line x1="100" y1="170" x2="100" y2="80" stroke-width="1"/>
+    <line x1="100" y1="170" x2="160" y2="100" stroke-width="1"/>
+
+    <!-- Crosslinking cracks. -->
+    <line x1="50" y1="120" x2="80" y2="100" stroke-width="0.7"/>
+    <line x1="160" y1="100" x2="180" y2="140" stroke-width="0.7"/>
+    <line x1="60" y1="240" x2="100" y2="260" stroke-width="0.7"/>
+    <line x1="140" y1="240" x2="180" y2="260" stroke-width="0.7"/>
+    <line x1="80" y1="80" x2="120" y2="100" stroke-width="0.7"/>
+    <line x1="140" y1="60" x2="160" y2="100" stroke-width="0.7"/>
+
+    <!-- Highlight on crack edges (light catches). -->
+    <line x1="100" y1="170" x2="40" y2="80" stroke="#bfe4ff" stroke-width="0.4" opacity="0.55"/>
+    <line x1="100" y1="170" x2="180" y2="60" stroke="#bfe4ff" stroke-width="0.4" opacity="0.55"/>
+    <line x1="100" y1="170" x2="210" y2="120" stroke="#bfe4ff" stroke-width="0.4" opacity="0.55"/>
+    <line x1="100" y1="170" x2="208" y2="220" stroke="#bfe4ff" stroke-width="0.4" opacity="0.55"/>
+    <line x1="100" y1="170" x2="160" y2="310" stroke="#bfe4ff" stroke-width="0.4" opacity="0.55"/>
+    <line x1="100" y1="170" x2="40" y2="290" stroke="#bfe4ff" stroke-width="0.4" opacity="0.55"/>
+    <line x1="100" y1="170" x2="28" y2="200" stroke="#bfe4ff" stroke-width="0.4" opacity="0.55"/>
+    <line x1="100" y1="170" x2="60" y2="60" stroke="#bfe4ff" stroke-width="0.4" opacity="0.55"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue (Thresh off-panel)                          -->
+  <!-- ========================================================== -->
+  <g id="p3p4-dialogue">
+    <rect x="6" y="14" width="226" height="56" rx="6" fill="white" stroke="#dc2030" stroke-width="2" stroke-dasharray="3,2" opacity="0.95"/>
+    <text x="14" y="32" font-family="Impact, sans-serif" font-size="13" font-weight="900" fill="#dc2030">THRESH (O.P.)</text>
+    <text x="14" y="48" font-family="Impact, sans-serif" font-size="14" font-weight="900" fill="#1a0408">Contact in the corridor!</text>
+    <text x="14" y="62" font-family="Impact, sans-serif" font-size="14" font-weight="900" fill="#1a0408">Something's IN here with us!</text>
+  </g>
+
+  <g id="p3p4-meta">
+    <text x="230" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="234" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">POV</text>
+  </g>
+
+</svg>

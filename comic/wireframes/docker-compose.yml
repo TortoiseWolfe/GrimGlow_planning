@@ -2,8 +2,7 @@ services:
   viewer:
     image: node:22-bookworm-slim
     init: true
-    ports:
-      - "3001:3001"
+    network_mode: host
     volumes:
       - .:/app:ro
     working_dir: /app

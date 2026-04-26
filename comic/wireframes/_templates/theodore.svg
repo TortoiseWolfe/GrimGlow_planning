@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+  <title>Theodore — Human Ally — Tinker's Apprentice (Victorian, age 12-13)</title>
+  <desc>Master template for Theodore. Slight teen build, sandy-brown tousled hair, hazel eyes, freckles, oil-stained hands. Working-class Victorian clothes: off-white linen shirt with rolled sleeves, brown leather waistcoat, dark brown trousers, scuffed work boots, small leather belt pouch, brass gear/key pendant on thin cord. Used at human-scale alongside fairy-scale squad for dramatic scale contrast. Visual recipe for per-panel composition.</desc>
+
+  <defs>
+    <!-- Linen shirt: aged off-white, slight yellowing. -->
+    <linearGradient id="theoShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0e8d4"/>
+      <stop offset="50%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#b8a888"/>
+    </linearGradient>
+
+    <linearGradient id="theoShirtShadow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.22"/>
+    </linearGradient>
+
+    <!-- Leather waistcoat: warm brown, worn. -->
+    <linearGradient id="theoWaistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8a5a30"/>
+      <stop offset="50%" stop-color="#6a4220"/>
+      <stop offset="100%" stop-color="#3e2810"/>
+    </linearGradient>
+
+    <linearGradient id="theoWaistcoatHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c89a68" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- Trousers: dark grimy brown. -->
+    <linearGradient id="theoTrousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6a5238"/>
+      <stop offset="50%" stop-color="#4a3a24"/>
+      <stop offset="100%" stop-color="#2a2010"/>
+    </linearGradient>
+
+    <!-- Boot leather. -->
+    <linearGradient id="theoBoots" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0e06"/>
+    </linearGradient>
+
+    <!-- Skin: pale-warm Victorian boy. -->
+    <linearGradient id="theoSkinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8c0"/>
+      <stop offset="50%" stop-color="#e0c0a4"/>
+      <stop offset="100%" stop-color="#b89478"/>
+    </linearGradient>
+
+    <!-- Sandy-brown tousled hair. -->
+    <radialGradient id="theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="50%" stop-color="#8a6438"/>
+      <stop offset="100%" stop-color="#5a4020"/>
+    </radialGradient>
+
+    <!-- Brass for pendant/buttons. -->
+    <radialGradient id="theoBrass" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="60%" stop-color="#c89a38"/>
+      <stop offset="100%" stop-color="#785218"/>
+    </radialGradient>
+
+    <!-- Oil/dirt stain. -->
+    <radialGradient id="theoOilStain" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="theoShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="600" fill="#f5f5f7"/>
+  <ellipse cx="200" cy="582" rx="58" ry="6" fill="#000" opacity="0.22"/>
+
+  <g id="theo-figure" filter="url(#theoShadow)">
+
+    <!-- LAYER: legs (trousers + boots) -->
+    <g id="theo-legs">
+      <!-- Trousers, slightly baggy. -->
+      <path d="M170,375 Q166,450 168,535 L196,535 Q198,450 196,375 Z" fill="url(#theoTrousers)"/>
+      <path d="M170,375 Q166,450 168,535 L196,535 Q198,450 196,375 Z" fill="url(#theoShirtShadow)" opacity="0.4"/>
+      <path d="M204,375 Q202,450 204,535 L232,535 Q234,450 230,375 Z" fill="url(#theoTrousers)"/>
+      <path d="M204,375 Q202,450 204,535 L232,535 Q234,450 230,375 Z" fill="url(#theoShirtShadow)" opacity="0.3"/>
+
+      <!-- Trouser leg seams. -->
+      <line x1="183" y1="378" x2="182" y2="535" stroke="#1a0e06" stroke-width="0.8" opacity="0.55"/>
+      <line x1="218" y1="378" x2="219" y2="535" stroke="#1a0e06" stroke-width="0.8" opacity="0.55"/>
+
+      <!-- Cuffed pant bottoms. -->
+      <rect x="166" y="528" width="32" height="8" fill="#3a2a14"/>
+      <rect x="202" y="528" width="32" height="8" fill="#3a2a14"/>
+
+      <!-- Oil/grime stains on knees and shins. -->
+      <ellipse cx="183" cy="450" rx="14" ry="10" fill="url(#theoOilStain)"/>
+      <ellipse cx="219" cy="455" rx="12" ry="8" fill="url(#theoOilStain)"/>
+      <ellipse cx="180" cy="495" rx="8" ry="5" fill="url(#theoOilStain)" opacity="0.7"/>
+
+      <!-- Boots — scuffed leather work boots. -->
+      <path d="M164,535 Q160,560 168,580 L198,580 Q200,565 196,535 Z" fill="url(#theoBoots)"/>
+      <path d="M164,535 Q160,560 168,580 L198,580 Q200,565 196,535 Z" fill="url(#theoShirtShadow)" opacity="0.5"/>
+      <path d="M204,535 Q200,565 208,580 L232,580 Q238,560 234,535 Z" fill="url(#theoBoots)"/>
+      <!-- Boot laces / stitching. -->
+      <line x1="172" y1="545" x2="190" y2="545" stroke="#0a0604" stroke-width="0.6"/>
+      <line x1="172" y1="555" x2="190" y2="555" stroke="#0a0604" stroke-width="0.6"/>
+      <line x1="172" y1="565" x2="190" y2="565" stroke="#0a0604" stroke-width="0.6"/>
+      <line x1="210" y1="545" x2="228" y2="545" stroke="#0a0604" stroke-width="0.6"/>
+      <line x1="210" y1="555" x2="228" y2="555" stroke="#0a0604" stroke-width="0.6"/>
+      <line x1="210" y1="565" x2="228" y2="565" stroke="#0a0604" stroke-width="0.6"/>
+      <!-- Scuff highlights on toes. -->
+      <ellipse cx="180" cy="572" rx="6" ry="2" fill="#8a5a30" opacity="0.4"/>
+      <ellipse cx="220" cy="572" rx="6" ry="2" fill="#8a5a30" opacity="0.4"/>
+    </g>
+
+    <!-- LAYER: torso (shirt + waistcoat over) -->
+    <g id="theo-torso">
+      <!-- Shirt base, visible at sleeves and collar/below waistcoat. -->
+      <path d="M160,250 Q156,310 160,375 L240,375 Q244,310 240,250 Q234,242 200,242 Q166,242 160,250 Z" fill="url(#theoShirt)"/>
+      <path d="M160,250 Q156,310 160,375 L240,375 Q244,310 240,250 Q234,242 200,242 Q166,242 160,250 Z" fill="url(#theoShirtShadow)" opacity="0.6"/>
+
+      <!-- Waistcoat over shirt — narrower than shirt, V-neck open at top. -->
+      <path d="M170,260 L168,375 L232,375 L230,260 L218,265 L210,272 L200,280 L190,272 L182,265 Z" fill="url(#theoWaistcoat)"/>
+      <path d="M170,260 L168,375 L232,375 L230,260 L218,265 L210,272 L200,280 L190,272 L182,265 Z" fill="url(#theoWaistcoatHighlight)"/>
+
+      <!-- Waistcoat center button line + buttons. -->
+      <line x1="200" y1="280" x2="200" y2="375" stroke="#1a0e06" stroke-width="0.8" opacity="0.7"/>
+      <circle cx="200" cy="295" r="2.2" fill="url(#theoBrass)"/>
+      <circle cx="200" cy="315" r="2.2" fill="url(#theoBrass)"/>
+      <circle cx="200" cy="335" r="2.2" fill="url(#theoBrass)"/>
+      <circle cx="200" cy="355" r="2.2" fill="url(#theoBrass)"/>
+
+      <!-- Waistcoat lapels. -->
+      <path d="M180,265 Q176,295 178,335" fill="none" stroke="#3e2810" stroke-width="1.2" opacity="0.85"/>
+      <path d="M220,265 Q224,295 222,335" fill="none" stroke="#3e2810" stroke-width="1.2" opacity="0.85"/>
+
+      <!-- V-neck shirt opening showing skin. -->
+      <path d="M188,245 L200,278 L212,245 Z" fill="url(#theoSkinTone)"/>
+
+      <!-- Brass key/gear pendant on thin cord. -->
+      <line x1="195" y1="245" x2="200" y2="265" stroke="#3a2818" stroke-width="0.6"/>
+      <line x1="205" y1="245" x2="200" y2="265" stroke="#3a2818" stroke-width="0.6"/>
+      <!-- Pendant: small brass gear. -->
+      <circle cx="200" cy="268" r="3.5" fill="url(#theoBrass)"/>
+      <circle cx="200" cy="268" r="2" fill="none" stroke="#5a3818" stroke-width="0.5"/>
+      <!-- Tiny gear teeth. -->
+      <line x1="200" y1="264" x2="200" y2="262" stroke="#5a3818" stroke-width="0.6"/>
+      <line x1="200" y1="272" x2="200" y2="274" stroke="#5a3818" stroke-width="0.6"/>
+      <line x1="196" y1="268" x2="194" y2="268" stroke="#5a3818" stroke-width="0.6"/>
+      <line x1="204" y1="268" x2="206" y2="268" stroke="#5a3818" stroke-width="0.6"/>
+
+      <!-- Belt at waist with small leather pouch on right hip. -->
+      <rect x="168" y="370" width="64" height="6" fill="#3e2810"/>
+      <rect x="168" y="370" width="64" height="6" fill="url(#theoWaistcoatHighlight)" opacity="0.6"/>
+      <!-- Belt buckle. -->
+      <rect x="196" y="369" width="8" height="8" fill="url(#theoBrass)"/>
+      <rect x="198" y="371" width="4" height="4" fill="none" stroke="#5a3818" stroke-width="0.4"/>
+      <!-- Small leather belt pouch. -->
+      <path d="M218,376 L232,376 L234,395 L216,395 Z" fill="#3e2810"/>
+      <path d="M218,376 L232,376 L234,395 L216,395 Z" fill="url(#theoWaistcoatHighlight)" opacity="0.5"/>
+      <line x1="220" y1="384" x2="232" y2="384" stroke="#1a0e06" stroke-width="0.5"/>
+    </g>
+
+    <!-- LAYER: arms — shirt sleeves rolled up, exposing forearms with oil stains. -->
+    <g id="theo-arms">
+      <!-- Left arm. -->
+      <!-- Upper arm in shirt sleeve. -->
+      <path d="M156,250 Q142,285 142,320 L160,322 Q164,285 164,250 Z" fill="url(#theoShirt)"/>
+      <path d="M156,250 Q142,285 142,320 L160,322 Q164,285 164,250 Z" fill="url(#theoShirtShadow)" opacity="0.5"/>
+      <!-- Rolled sleeve cuff. -->
+      <rect x="140" y="318" width="22" height="6" fill="#b8a888"/>
+      <line x1="140" y1="320" x2="162" y2="320" stroke="#8a7858" stroke-width="0.5"/>
+      <!-- Forearm bare skin. -->
+      <path d="M142,324 Q140,355 144,388 L158,388 Q160,355 160,324 Z" fill="url(#theoSkinTone)"/>
+      <!-- Oil stains on forearm. -->
+      <ellipse cx="148" cy="350" rx="8" ry="4" fill="url(#theoOilStain)"/>
+      <ellipse cx="155" cy="370" rx="6" ry="3" fill="url(#theoOilStain)" opacity="0.7"/>
+      <!-- Hand. -->
+      <ellipse cx="151" cy="395" rx="10" ry="8" fill="url(#theoSkinTone)"/>
+      <ellipse cx="151" cy="395" rx="10" ry="8" fill="url(#theoOilStain)" opacity="0.6"/>
+
+      <!-- Right arm. -->
+      <path d="M244,250 Q258,285 258,320 L240,322 Q236,285 236,250 Z" fill="url(#theoShirt)"/>
+      <path d="M244,250 Q258,285 258,320 L240,322 Q236,285 236,250 Z" fill="url(#theoShirtShadow)" opacity="0.5"/>
+      <rect x="238" y="318" width="22" height="6" fill="#b8a888"/>
+      <line x1="238" y1="320" x2="260" y2="320" stroke="#8a7858" stroke-width="0.5"/>
+      <path d="M258,324 Q260,355 256,388 L242,388 Q240,355 240,324 Z" fill="url(#theoSkinTone)"/>
+      <ellipse cx="252" cy="350" rx="8" ry="4" fill="url(#theoOilStain)"/>
+      <ellipse cx="245" cy="370" rx="6" ry="3" fill="url(#theoOilStain)" opacity="0.7"/>
+      <ellipse cx="249" cy="395" rx="10" ry="8" fill="url(#theoSkinTone)"/>
+      <ellipse cx="249" cy="395" rx="10" ry="8" fill="url(#theoOilStain)" opacity="0.6"/>
+    </g>
+
+    <!-- LAYER: head — youthful, freckled, tousled hair -->
+    <g id="theo-head">
+      <!-- Neck. -->
+      <path d="M190,222 L190,245 L210,245 L210,222 Z" fill="url(#theoSkinTone)"/>
+
+      <!-- Head shape — slightly rounder/younger than adult fairies. -->
+      <ellipse cx="200" cy="195" rx="26" ry="32" fill="url(#theoSkinTone)"/>
+
+      <!-- Tousled bedhead — spikes sticking up at varied angles, messy bangs over forehead. -->
+      <!-- Base scalp coverage. -->
+      <path d="M174,178 Q170,158 178,148 Q190,140 200,140 Q210,140 222,148 Q230,158 226,178 L222,180 Q220,164 216,160 L184,160 Q180,164 178,180 Z" fill="url(#theoHair)"/>
+      <!-- INDIVIDUAL SPIKES — varied heights and angles, separated to show the tousled "just woke up" look. -->
+      <!-- Tall spikes pointing up-and-out. -->
+      <path d="M180,148 L178,128 L184,142 Z" fill="url(#theoHair)"/>
+      <path d="M188,142 L185,124 L192,138 Z" fill="url(#theoHair)"/>
+      <path d="M196,140 L195,122 L201,138 Z" fill="url(#theoHair)"/>
+      <path d="M204,140 L207,122 L210,138 Z" fill="url(#theoHair)"/>
+      <path d="M212,142 L216,126 L218,140 Z" fill="url(#theoHair)"/>
+      <path d="M218,148 L224,134 L222,150 Z" fill="url(#theoHair)"/>
+      <!-- Mid-row spikes (slightly behind/shorter). -->
+      <path d="M184,150 L182,138 L188,146 Z" fill="url(#theoHair)" opacity="0.95"/>
+      <path d="M194,144 L194,134 L198,144 Z" fill="url(#theoHair)" opacity="0.95"/>
+      <path d="M206,144 L208,134 L210,144 Z" fill="url(#theoHair)" opacity="0.95"/>
+      <path d="M214,150 L218,140 L218,150 Z" fill="url(#theoHair)" opacity="0.95"/>
+      <!-- FOREHEAD BANGS — clearly hanging down, irregular tips. -->
+      <path d="M180,168 L182,182 L186,170 Z" fill="url(#theoHair)"/>
+      <path d="M188,170 L190,184 L194,170 Z" fill="url(#theoHair)"/>
+      <path d="M198,170 L196,182 L202,170 Z" fill="url(#theoHair)"/>
+      <path d="M204,170 L208,184 L210,170 Z" fill="url(#theoHair)"/>
+      <path d="M214,170 L216,182 L218,170 Z" fill="url(#theoHair)"/>
+      <!-- Hair sides covering ears. -->
+      <path d="M174,180 Q170,200 176,216 L184,214 Q180,200 180,180 Z" fill="url(#theoHair)"/>
+      <path d="M226,180 Q230,200 224,216 L216,214 Q220,200 220,180 Z" fill="url(#theoHair)"/>
+      <!-- Stray flyaway behind the head (back of neck). -->
+      <path d="M178,182 L174,196" stroke="#5a4020" stroke-width="0.9" stroke-linecap="round" opacity="0.85"/>
+      <path d="M222,182 L226,196" stroke="#5a4020" stroke-width="0.9" stroke-linecap="round" opacity="0.85"/>
+      <!-- Highlight strands on top of spikes (catching sunlight). -->
+      <g stroke="#c8a878" stroke-width="0.7" stroke-linecap="round" opacity="0.85">
+        <line x1="186" y1="132" x2="186" y2="142"/>
+        <line x1="195" y1="128" x2="195" y2="138"/>
+        <line x1="207" y1="128" x2="207" y2="138"/>
+        <line x1="216" y1="132" x2="216" y2="142"/>
+      </g>
+      <!-- Dark separation lines between spikes (so they READ as separate, not a blob). -->
+      <g stroke="#3a2818" stroke-width="0.6" fill="none" opacity="0.65">
+        <line x1="184" y1="148" x2="186" y2="156"/>
+        <line x1="192" y1="144" x2="193" y2="152"/>
+        <line x1="201" y1="142" x2="202" y2="152"/>
+        <line x1="211" y1="143" x2="212" y2="152"/>
+        <line x1="219" y1="146" x2="218" y2="156"/>
+      </g>
+
+      <!-- Eyes — bright, curious hazel. -->
+      <ellipse cx="190" cy="192" rx="2.8" ry="1.6" fill="#3a2810"/>
+      <ellipse cx="210" cy="192" rx="2.8" ry="1.6" fill="#3a2810"/>
+      <ellipse cx="190.5" cy="191.5" rx="0.7" ry="0.5" fill="#ffffff"/>
+      <ellipse cx="210.5" cy="191.5" rx="0.7" ry="0.5" fill="#ffffff"/>
+      <!-- Brows. -->
+      <path d="M184,184 Q190,182 196,184" fill="none" stroke="#5a4020" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M204,184 Q210,182 216,184" fill="none" stroke="#5a4020" stroke-width="1.1" stroke-linecap="round"/>
+      <!-- Nose, slightly upturned (boyish). -->
+      <path d="M200,196 L198,206 Q200,208 202,206 Z" fill="#a8765a" opacity="0.6"/>
+      <!-- Mouth — slight wonder, slightly open. -->
+      <path d="M194,214 Q200,216 206,214" fill="none" stroke="#7a4020" stroke-width="1.1" stroke-linecap="round"/>
+      <!-- Freckles across nose and cheeks. -->
+      <circle cx="188" cy="200" r="0.7" fill="#a8765a" opacity="0.85"/>
+      <circle cx="192" cy="202" r="0.6" fill="#a8765a" opacity="0.8"/>
+      <circle cx="195" cy="198" r="0.7" fill="#a8765a" opacity="0.85"/>
+      <circle cx="205" cy="198" r="0.7" fill="#a8765a" opacity="0.85"/>
+      <circle cx="208" cy="202" r="0.6" fill="#a8765a" opacity="0.8"/>
+      <circle cx="212" cy="200" r="0.7" fill="#a8765a" opacity="0.85"/>
+      <circle cx="184" cy="204" r="0.5" fill="#a8765a" opacity="0.75"/>
+      <circle cx="216" cy="204" r="0.5" fill="#a8765a" opacity="0.75"/>
+      <!-- Slight cheek blush from cold/exertion. -->
+      <ellipse cx="183" cy="206" rx="5" ry="3" fill="#d8907a" opacity="0.3"/>
+      <ellipse cx="217" cy="206" rx="5" ry="3" fill="#d8907a" opacity="0.3"/>
+    </g>
+
+  </g>
+
+</svg>

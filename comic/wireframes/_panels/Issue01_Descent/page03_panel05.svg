@@ -1,0 +1,344 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 1 — Page 3 — Panel 5: Sable upright, anchor amid collapse</title>
+  <desc>Medium wide 24mm low angle from floor level — perspective of someone knocked down. Bridge in catastrophic failure: ceiling panels buckling, sparking conduits hanging loose. Sable stands fully upright (only person standing), braced against command console, iron command — compositional anchor of the image. Around her on floor: Wren on knees at sparking engineering console, still working; Luma crawling toward bulkhead medical kit; Jink tangled in jump seat harness straps. Red emergency dominant — blue-white nearly gone, only flickering dying holographic fragments. Bridge dark, lit almost entirely in harsh red. SABLE: "Wren — can we hold the corridor?" / WREN: "We're past holding. The corridor's collapsing. We need to punch through to the exit point NOW."</desc>
+
+  <defs>
+    <linearGradient id="p3p5silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8eaee"/>
+      <stop offset="50%" stop-color="#9ba1aa"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p3p5silverHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="p3p5copperSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e6e3dc"/>
+      <stop offset="50%" stop-color="#9a968c"/>
+      <stop offset="100%" stop-color="#58544c"/>
+    </linearGradient>
+    <linearGradient id="p3p5copperTrim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8a065"/>
+      <stop offset="100%" stop-color="#8c4a18"/>
+    </linearGradient>
+    <linearGradient id="p3p5sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a690e8"/>
+      <stop offset="50%" stop-color="#523aa0"/>
+      <stop offset="100%" stop-color="#1c1242"/>
+    </linearGradient>
+    <linearGradient id="p3p5emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7dd9a0"/>
+      <stop offset="100%" stop-color="#0a3a22"/>
+    </linearGradient>
+
+    <linearGradient id="p3p5darkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5d3d2a"/>
+      <stop offset="100%" stop-color="#3a2418"/>
+    </linearGradient>
+    <linearGradient id="p3p5asianSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c39e"/>
+      <stop offset="100%" stop-color="#a87a52"/>
+    </linearGradient>
+    <linearGradient id="p3p5southAsianSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8956a"/>
+      <stop offset="100%" stop-color="#7a512a"/>
+    </linearGradient>
+    <linearGradient id="p3p5lightBrownSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4a575"/>
+      <stop offset="100%" stop-color="#8a6038"/>
+    </linearGradient>
+
+    <radialGradient id="p3p5redAmbient" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ff4060" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#dc2030" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0408" stop-opacity="0.85"/>
+    </radialGradient>
+    <radialGradient id="p3p5redStrobe" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ff4060" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#dc2030" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p5flickerBlue" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p5flickerCopper" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#c8761e" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="p3p5bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p3p5strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="p3p5dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: bridge bg in collapse                                 -->
+  <!-- ========================================================== -->
+  <g id="p3p5-bg">
+    <rect width="366" height="364" fill="#0a0204"/>
+    <rect width="366" height="364" fill="url(#p3p5redAmbient)" opacity="0.85"/>
+
+    <!-- Multiple red strobe sources. -->
+    <ellipse cx="80" cy="40" rx="120" ry="60" fill="url(#p3p5redStrobe)" filter="url(#p3p5strongBloom)" opacity="0.7"/>
+    <ellipse cx="280" cy="40" rx="120" ry="60" fill="url(#p3p5redStrobe)" filter="url(#p3p5strongBloom)" opacity="0.7"/>
+
+    <!-- Buckled ceiling (low angle pushes ceiling up high). -->
+    <path d="M0,0 L366,0 L366,80 L300,95 L240,75 L180,90 L120,72 L60,90 L0,76 Z" fill="#1a0408"/>
+    <!-- Buckled ceiling cracks. -->
+    <line x1="120" y1="74" x2="140" y2="40" stroke="#3a3a40" stroke-width="0.7"/>
+    <line x1="240" y1="76" x2="220" y2="40" stroke="#3a3a40" stroke-width="0.7"/>
+
+    <!-- Sparking conduits hanging loose. -->
+    <line x1="60" y1="86" x2="80" y2="130" stroke="#3a3a40" stroke-width="2"/>
+    <circle cx="80" cy="130" r="3.5" fill="#fff5d8" filter="url(#p3p5bloom)"/>
+    <circle cx="80" cy="130" r="1.5" fill="#ffffff"/>
+    <line x1="180" y1="84" x2="200" y2="120" stroke="#3a3a40" stroke-width="2"/>
+    <circle cx="200" cy="120" r="3" fill="#ff4060" filter="url(#p3p5bloom)"/>
+    <line x1="300" y1="92" x2="280" y2="135" stroke="#3a3a40" stroke-width="2"/>
+    <circle cx="280" cy="135" r="2.5" fill="#fff5d8" filter="url(#p3p5bloom)"/>
+
+    <!-- Floor plate (heaved/uneven). -->
+    <path d="M0,260 L366,260 L366,364 L0,364 Z" fill="#0a0204"/>
+    <line x1="0" y1="260" x2="366" y2="262" stroke="#3a1410" stroke-width="0.7"/>
+    <!-- Floor cracks. -->
+    <line x1="80" y1="260" x2="120" y2="320" stroke="#1a0408" stroke-width="1.2"/>
+    <line x1="240" y1="262" x2="200" y2="330" stroke="#1a0408" stroke-width="1"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dying holographic fragments (background, faint)       -->
+  <!-- ========================================================== -->
+  <g id="p3p5-dying-holo">
+    <!-- Flickering blue fragments. -->
+    <ellipse cx="50" cy="180" rx="20" ry="14" fill="url(#p3p5flickerBlue)" filter="url(#p3p5bloom)" opacity="0.55"/>
+    <polygon points="40,178 56,182 50,194 36,190" fill="#bfe4ff" opacity="0.55"/>
+    <ellipse cx="320" cy="190" rx="18" ry="12" fill="url(#p3p5flickerBlue)" filter="url(#p3p5bloom)" opacity="0.45"/>
+    <!-- Flickering copper. -->
+    <ellipse cx="100" cy="200" rx="22" ry="14" fill="url(#p3p5flickerCopper)" filter="url(#p3p5bloom)" opacity="0.5"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: WREN on knees at engineering (foreground left)        -->
+  <!-- ========================================================== -->
+  <g id="p3p5-wren-kneel" filter="url(#p3p5dropShadow)" transform="translate(70, 230)">
+    <!-- Sparking console behind/above. -->
+    <rect x="-30" y="-50" width="80" height="20" fill="#0a0a0c"/>
+    <rect x="-30" y="-50" width="80" height="20" fill="url(#p3p5flickerCopper)" opacity="0.65"/>
+    <circle cx="0" cy="-44" r="2" fill="#fff5d8" filter="url(#p3p5bloom)"/>
+
+    <!-- Body kneeling. -->
+    <!-- Folded legs (kneeling). -->
+    <path d="M-22,30 Q-30,60 -32,80 L-12,80 Q-8,60 -10,30 Z" fill="url(#p3p5copperSuit)"/>
+    <path d="M10,30 Q12,60 32,80 L52,80 Q44,60 22,30 Z" fill="url(#p3p5copperSuit)"/>
+    <!-- Boots tucked. -->
+    <ellipse cx="-22" cy="86" rx="14" ry="5" fill="#3a3128"/>
+    <ellipse cx="42" cy="86" rx="14" ry="5" fill="#3a3128"/>
+
+    <!-- Torso (slightly leaned forward). -->
+    <path d="M-26,-30 Q-32,0 -26,30 L26,30 Q32,0 26,-30 Q22,-40 0,-40 Q-22,-38 -26,-30 Z" fill="url(#p3p5copperSuit)"/>
+    <path d="M-26,-30 Q-32,0 -26,30 L26,30 Q32,0 26,-30 Q22,-40 0,-40 Q-22,-38 -26,-30 Z" fill="url(#p3p5silverHi)" opacity="0.55"/>
+    <line x1="0" y1="-38" x2="0" y2="28" stroke="url(#p3p5copperTrim)" stroke-width="1.7" opacity="0.85"/>
+    <circle cx="0" cy="-12" r="5" fill="url(#p3p5flickerCopper)" filter="url(#p3p5bloom)"/>
+    <circle cx="0" cy="-12" r="2.5" fill="#fff5d8"/>
+
+    <!-- Arms reaching forward (still working). -->
+    <path d="M-28,-30 Q-44,-15 -42,4 L-28,8 Q-26,-12 -22,-26 Z" fill="url(#p3p5copperSuit)"/>
+    <path d="M-42,4 Q-30,18 -10,12 L-2,4 Q-18,4 -28,8 Z" fill="url(#p3p5copperSuit)"/>
+    <ellipse cx="-12" cy="14" rx="8" ry="5" fill="url(#p3p5asianSkin)"/>
+    <path d="M28,-30 Q44,-15 42,4 L28,8 Q26,-12 22,-26 Z" fill="url(#p3p5copperSuit)"/>
+    <path d="M42,4 Q30,18 10,12 L2,4 Q18,4 28,8 Z" fill="url(#p3p5copperSuit)"/>
+    <ellipse cx="12" cy="14" rx="8" ry="5" fill="url(#p3p5asianSkin)"/>
+
+    <!-- Neck. -->
+    <path d="M-9,-54 L-9,-40 L9,-40 L9,-54 Z" fill="url(#p3p5asianSkin)"/>
+    <!-- Head — tilted down, focused. -->
+    <ellipse cx="0" cy="-72" rx="18" ry="22" fill="url(#p3p5asianSkin)"/>
+    <!-- Hair knot. -->
+    <ellipse cx="0" cy="-92" rx="14" ry="11" fill="#0e0a08"/>
+    <ellipse cx="0" cy="-90" rx="10" ry="6" fill="#040201" opacity="0.6"/>
+    <!-- Hair sides. -->
+    <path d="M-16,-78 Q-14,-58 -10,-50 L-6,-50 Q-12,-58 -10,-78 Z" fill="#0e0a08"/>
+    <path d="M16,-78 Q14,-58 10,-50 L6,-50 Q12,-58 10,-78 Z" fill="#0e0a08"/>
+    <!-- Eyes (focused). -->
+    <ellipse cx="-6" cy="-70" rx="2" ry="1" fill="#1a0e08"/>
+    <ellipse cx="6" cy="-70" rx="2" ry="1" fill="#1a0e08"/>
+    <path d="M-10,-76 Q-6,-78 -2,-76" fill="none" stroke="#0a0604" stroke-width="1.2"/>
+    <path d="M2,-76 Q6,-78 10,-76" fill="none" stroke="#0a0604" stroke-width="1.2"/>
+    <!-- Mouth pressed. -->
+    <path d="M-5,-58 Q0,-57 5,-58" fill="none" stroke="#5a3018" stroke-width="1.1"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: LUMA crawling toward medical kit (right foreground)   -->
+  <!-- ========================================================== -->
+  <g id="p3p5-luma-crawl" filter="url(#p3p5dropShadow)" transform="translate(280, 290)">
+    <!-- Bulkhead medical kit on wall. -->
+    <rect x="40" y="-100" width="40" height="50" fill="#1a0408"/>
+    <rect x="42" y="-98" width="36" height="46" fill="#3a0610"/>
+    <!-- Red cross symbol. -->
+    <rect x="56" y="-86" width="8" height="22" fill="#dc2030"/>
+    <rect x="49" y="-79" width="22" height="8" fill="#dc2030"/>
+
+    <!-- Body crawling forward (low, on hands and knees). -->
+    <!-- Trailing legs. -->
+    <path d="M-30,30 Q-44,30 -56,20 L-50,8 Q-36,16 -22,18 Z" fill="url(#p3p5sapphire)"/>
+    <path d="M-44,32 Q-58,32 -70,22 L-64,10 Q-50,18 -36,20 Z" fill="url(#p3p5sapphire)"/>
+
+    <!-- Torso horizontal. -->
+    <path d="M-22,18 Q-30,4 -22,-12 Q-10,-18 16,-16 Q30,-4 26,16 L26,30 L-22,30 Z" fill="url(#p3p5sapphire)"/>
+    <path d="M-22,18 Q-30,4 -22,-12 Q-10,-18 16,-16 Q30,-4 26,16 L26,30 L-22,30 Z" fill="url(#p3p5silverHi)" opacity="0.5"/>
+    <circle cx="0" cy="0" r="5" fill="#c8b8ff" filter="url(#p3p5bloom)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="2.5" fill="#c8b8ff"/>
+
+    <!-- Arms reaching forward. -->
+    <path d="M16,-16 Q26,-32 38,-44 L46,-36 Q34,-26 22,-12 Z" fill="url(#p3p5sapphire)"/>
+    <path d="M38,-44 Q40,-58 36,-72 L26,-66 Q28,-54 30,-44 Z" fill="url(#p3p5sapphire)"/>
+    <ellipse cx="32" cy="-72" rx="6" ry="4" fill="url(#p3p5southAsianSkin)"/>
+
+    <!-- Other arm bracing. -->
+    <path d="M-22,-12 Q-32,-26 -28,-40 L-18,-36 Q-16,-22 -10,-12 Z" fill="url(#p3p5sapphire)"/>
+    <ellipse cx="-26" cy="-42" rx="5" ry="4" fill="url(#p3p5southAsianSkin)"/>
+
+    <!-- Head turned looking up at medical kit. -->
+    <ellipse cx="0" cy="-30" rx="15" ry="18" fill="url(#p3p5southAsianSkin)"/>
+    <!-- Hair pulled back. -->
+    <path d="M-12,-44 Q-10,-50 0,-52 Q10,-50 12,-44 Q12,-40 8,-40 Q6,-46 0,-48 Q-6,-46 -8,-40 Q-12,-40 -12,-44 Z" fill="#0e0604"/>
+    <!-- Cracked lenses still on. -->
+    <ellipse cx="-6" cy="-32" rx="6" ry="3" fill="#7a52d8" opacity="0.65"/>
+    <ellipse cx="6" cy="-32" rx="6" ry="3" fill="#7a52d8" opacity="0.65"/>
+    <line x1="-9" y1="-34" x2="-3" y2="-30" stroke="#040201" stroke-width="0.5"/>
+    <line x1="3" y1="-34" x2="9" y2="-30" stroke="#040201" stroke-width="0.5"/>
+    <!-- Mouth determined. -->
+    <path d="M-4,-22 Q0,-21 4,-22" fill="none" stroke="#3a1a0a" stroke-width="1"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: JINK tangled in jump seat harness (left mid-ground)   -->
+  <!-- ========================================================== -->
+  <g id="p3p5-jink-tangled" filter="url(#p3p5dropShadow)" transform="translate(160, 250)">
+    <!-- Wall-mounted jump seat. -->
+    <rect x="-30" y="20" width="60" height="3" fill="#1a1e26"/>
+    <!-- Tangled harness straps. -->
+    <line x1="-26" y1="-30" x2="-12" y2="20" stroke="#3a3a40" stroke-width="3"/>
+    <line x1="26" y1="-30" x2="12" y2="20" stroke="#3a3a40" stroke-width="3"/>
+    <line x1="-30" y1="-10" x2="30" y2="-10" stroke="#3a3a40" stroke-width="3"/>
+    <line x1="-20" y1="-20" x2="22" y2="0" stroke="#3a3a40" stroke-width="2"/>
+
+    <!-- Body in awkward position trying to free self. -->
+    <!-- Twisted legs. -->
+    <path d="M-14,20 Q-22,40 -16,60 L0,60 Q4,40 -2,20 Z" fill="url(#p3p5emerald)"/>
+    <path d="M2,20 Q14,38 22,56 L36,52 Q24,32 14,20 Z" fill="url(#p3p5emerald)" transform="rotate(15 12 38)"/>
+
+    <!-- Torso (twisted, struggling). -->
+    <path d="M-22,-30 Q-26,0 -20,20 L20,20 Q26,0 22,-30 Q18,-40 0,-40 Q-18,-38 -22,-30 Z" fill="url(#p3p5emerald)"/>
+    <path d="M-22,-30 Q-26,0 -20,20 L20,20 Q26,0 22,-30 Q18,-40 0,-40 Q-18,-38 -22,-30 Z" fill="url(#p3p5silverHi)" opacity="0.55"/>
+    <circle cx="0" cy="-10" r="5" fill="#a8f5c8" filter="url(#p3p5bloom)" opacity="0.85"/>
+    <circle cx="0" cy="-10" r="2.5" fill="#a8f5c8"/>
+
+    <!-- Arms — one fighting harness, one bracing. -->
+    <path d="M-22,-30 Q-36,-12 -34,4 L-24,8 Q-22,-10 -18,-26 Z" fill="url(#p3p5emerald)"/>
+    <path d="M-34,4 Q-30,-6 -22,-10 L-14,-4 Q-22,2 -24,8 Z" fill="url(#p3p5emerald)"/>
+    <ellipse cx="-20" cy="-12" rx="6" ry="4" fill="url(#p3p5lightBrownSkin)"/>
+
+    <path d="M22,-30 Q36,-12 34,4 L24,8 Q22,-10 18,-26 Z" fill="url(#p3p5emerald)"/>
+    <ellipse cx="32" cy="10" rx="6" ry="4" fill="url(#p3p5lightBrownSkin)"/>
+
+    <!-- Head — frustrated, looking down at harness. -->
+    <ellipse cx="0" cy="-54" rx="16" ry="20" fill="url(#p3p5lightBrownSkin)"/>
+    <!-- Curly blonde. -->
+    <circle cx="-10" cy="-72" r="4" fill="#f5d878"/>
+    <circle cx="-2" cy="-76" r="5" fill="#f5d878"/>
+    <circle cx="6" cy="-76" r="5" fill="#f5d878"/>
+    <circle cx="14" cy="-72" r="4" fill="#f5d878"/>
+    <!-- Eyes (annoyed). -->
+    <ellipse cx="-5" cy="-54" rx="2" ry="1" fill="#1a0e08"/>
+    <ellipse cx="5" cy="-54" rx="2" ry="1" fill="#1a0e08"/>
+    <path d="M-9,-60 Q-5,-62 -1,-60" fill="none" stroke="#5a3818" stroke-width="1.1"/>
+    <path d="M1,-60 Q5,-62 9,-60" fill="none" stroke="#5a3818" stroke-width="1.1"/>
+    <!-- Mouth grimace. -->
+    <path d="M-5,-44 Q0,-42 5,-44" fill="none" stroke="#3a1d10" stroke-width="1.2"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: SABLE — STANDING (the anchor)                         -->
+  <!-- Center-frame, fully upright, command bearing. Tallest figure. -->
+  <!-- ========================================================== -->
+  <g id="p3p5-sable-standing" filter="url(#p3p5dropShadow)" transform="translate(220, 100)">
+    <!-- Console she's braced against. -->
+    <rect x="-40" y="200" width="80" height="20" fill="#0a0a0c"/>
+
+    <!-- Strong upright body. -->
+    <!-- Legs strong, planted. -->
+    <path d="M-22,140 Q-26,180 -20,220 L0,220 Q4,180 0,140 Z" fill="url(#p3p5silver)"/>
+    <path d="M0,140 Q-4,180 0,220 L20,220 Q26,180 22,140 Z" fill="url(#p3p5silver)"/>
+
+    <!-- Torso erect, slight forward command lean. -->
+    <path d="M-30,40 Q-36,90 -28,140 L28,140 Q36,90 30,40 Q26,30 0,30 Q-26,30 -30,40 Z" fill="url(#p3p5silver)"/>
+    <path d="M-30,40 Q-36,90 -28,140 L28,140 Q36,90 30,40 Q26,30 0,30 Q-26,30 -30,40 Z" fill="url(#p3p5silverHi)"/>
+    <line x1="0" y1="32" x2="0" y2="138" stroke="#2a2e36" stroke-width="0.8"/>
+    <circle cx="0" cy="68" r="7" fill="url(#p3p5flickerBlue)" filter="url(#p3p5bloom)"/>
+    <circle cx="0" cy="68" r="3.5" fill="#bfe4ff"/>
+
+    <!-- Arm braced on console (hand gripping). -->
+    <path d="M-30,42 Q-46,80 -42,130 L-32,140 Q-30,90 -22,42 Z" fill="url(#p3p5silver)"/>
+    <ellipse cx="-36" cy="148" rx="9" ry="6" fill="url(#p3p5darkSkin)"/>
+
+    <!-- Other arm pointing/giving orders forward. -->
+    <path d="M30,42 Q46,60 50,90 L40,98 Q34,72 22,42 Z" fill="url(#p3p5silver)"/>
+    <path d="M50,90 Q60,82 78,68 L82,76 Q66,90 52,98 Z" fill="url(#p3p5silver)"/>
+    <ellipse cx="82" cy="70" rx="7" ry="5" fill="url(#p3p5darkSkin)"/>
+
+    <!-- Neck. -->
+    <path d="M-10,12 L-10,30 L10,30 L10,12 Z" fill="url(#p3p5darkSkin)"/>
+
+    <!-- Head — chin up, command bearing. -->
+    <ellipse cx="0" cy="-12" rx="18" ry="24" fill="url(#p3p5darkSkin)"/>
+    <!-- Silver-white cropped hair. -->
+    <path d="M-16,-30 Q-12,-44 0,-46 Q12,-44 16,-30 Q14,-26 12,-26 Q10,-38 0,-40 Q-10,-38 -12,-26 Q-14,-26 -16,-30 Z" fill="#d4d6db"/>
+    <!-- Red rim from ambient on right side of face. -->
+    <path d="M0,-36 Q18,-26 18,-12 Q12,-2 0,4 Z" fill="#dc2030" opacity="0.5"/>
+    <!-- Eyes — iron command, forward gaze. -->
+    <ellipse cx="-6" cy="-12" rx="2" ry="1.2" fill="#1a0e08"/>
+    <ellipse cx="6" cy="-12" rx="2" ry="1.2" fill="#1a0e08"/>
+    <ellipse cx="-5.7" cy="-12.2" rx="0.4" ry="0.3" fill="#ffffff"/>
+    <ellipse cx="6.3" cy="-12.2" rx="0.4" ry="0.3" fill="#ffffff"/>
+    <!-- Brows hard, set. -->
+    <path d="M-10,-19 Q-6,-21 -2,-19" fill="none" stroke="#15100b" stroke-width="1.5"/>
+    <path d="M2,-19 Q6,-21 10,-19" fill="none" stroke="#15100b" stroke-width="1.5"/>
+    <!-- Mouth shouting orders. -->
+    <ellipse cx="0" cy="0" rx="4" ry="3" fill="#1a0a04"/>
+    <path d="M-5,-2 Q0,1 5,-2" fill="none" stroke="#2a1006" stroke-width="1.1"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue                                             -->
+  <!-- ========================================================== -->
+  <g id="p3p5-dialogue">
+    <rect x="6" y="14" width="160" height="38" rx="6" fill="white" stroke="#b0b0b0" stroke-width="2" opacity="0.95"/>
+    <polygon points="120,52 130,52 116,64" fill="white" stroke="#b0b0b0" stroke-width="1.5"/>
+    <line x1="120" y1="52" x2="130" y2="52" stroke="white" stroke-width="2"/>
+    <text x="14" y="32" font-family="Impact, sans-serif" font-size="13" font-weight="900" fill="#b0b0b0">SABLE</text>
+    <text x="14" y="46" font-family="Impact, sans-serif" font-size="13" font-weight="900" fill="#1a0408">Wren — can we hold the corridor?</text>
+
+    <rect x="186" y="14" width="174" height="68" rx="6" fill="white" stroke="#c87a35" stroke-width="2" opacity="0.95"/>
+    <polygon points="232,82 244,82 224,98" fill="white" stroke="#c87a35" stroke-width="1.5"/>
+    <line x1="232" y1="82" x2="244" y2="82" stroke="white" stroke-width="2"/>
+    <text x="194" y="30" font-family="Impact, sans-serif" font-size="12" font-weight="900" fill="#c87a35">WREN</text>
+    <text x="194" y="44" font-family="Helvetica Neue, Arial, sans-serif" font-size="9.5" fill="#1a0408">We're past holding. The corridor's</text>
+    <text x="194" y="56" font-family="Helvetica Neue, Arial, sans-serif" font-size="9.5" fill="#1a0408">collapsing. We need to punch</text>
+    <text x="194" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="9.5" fill="#1a0408">through to the exit point NOW.</text>
+  </g>
+
+  <g id="p3p5-meta">
+    <text x="356" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">5</text>
+    <text x="360" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">MWIDE</text>
+  </g>
+
+</svg>

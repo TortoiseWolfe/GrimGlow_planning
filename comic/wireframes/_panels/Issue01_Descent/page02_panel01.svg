@@ -1,0 +1,492 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 364" width="494" height="364">
+  <title>Issue 1 — Page 2 — Panel 1: Bridge wide, OTS Sable, full squad</title>
+  <desc>Wide shot from slightly elevated angle, OTS Sable. Compact military bridge interior — submarine-cockpit cramped, narrow rectangular viewports, every surface functional. Sable foreground (back of silver-suited shoulder + back of silver-white cropped head). Wren at engineering console left in copper. Luma at science station right in sapphire-violet. Jink slouched in jump seat center-back in emerald. Through corridor archway behind, Thresh visible at weapon station in ruby. Multiple holographic displays float at varying heights — overlapping pools of department-colored geometric light: blue-white command, copper-gold engineering, blue-violet science. Professional routine. SABLE: "Standard reconnaissance protocol. In and out, minimal footprint. We observe the convergence point, tag the temporal markers, and extract. Nothing more."</desc>
+
+  <defs>
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <!-- Sable suit (back/shoulder) — silver. -->
+    <linearGradient id="p2p1silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8eaee"/>
+      <stop offset="20%" stop-color="#c4c8cf"/>
+      <stop offset="50%" stop-color="#9ba1aa"/>
+      <stop offset="80%" stop-color="#787f88"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p2p1silverHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="p2p1silverHair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4f5f7"/>
+      <stop offset="60%" stop-color="#d4d6db"/>
+      <stop offset="100%" stop-color="#a8acb4"/>
+    </linearGradient>
+    <linearGradient id="p2p1darkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5d3d2a"/>
+      <stop offset="50%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#3a2418"/>
+    </linearGradient>
+
+    <!-- Wren suit (small figure) — copper trim on silver base. -->
+    <linearGradient id="p2p1wrenSilver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e6e3dc"/>
+      <stop offset="40%" stop-color="#9a968c"/>
+      <stop offset="100%" stop-color="#58544c"/>
+    </linearGradient>
+    <linearGradient id="p2p1copperTrim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8a065"/>
+      <stop offset="50%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#8c4a18"/>
+    </linearGradient>
+
+    <!-- Jink emerald. -->
+    <linearGradient id="p2p1emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7dd9a0"/>
+      <stop offset="50%" stop-color="#2a8a55"/>
+      <stop offset="100%" stop-color="#0a3a22"/>
+    </linearGradient>
+    <radialGradient id="p2p1blondHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#fff2c4"/>
+      <stop offset="60%" stop-color="#d8a838"/>
+      <stop offset="100%" stop-color="#a07820"/>
+    </radialGradient>
+
+    <!-- Luma sapphire. -->
+    <linearGradient id="p2p1sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a690e8"/>
+      <stop offset="50%" stop-color="#523aa0"/>
+      <stop offset="100%" stop-color="#1c1242"/>
+    </linearGradient>
+
+    <!-- Thresh ruby (through arch, smallest). -->
+    <linearGradient id="p2p1ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e85068"/>
+      <stop offset="50%" stop-color="#9a1a28"/>
+      <stop offset="100%" stop-color="#3a0610"/>
+    </linearGradient>
+
+    <!-- Holographic accent cores by department. -->
+    <radialGradient id="p2p1blueGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p2p1copperGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5a850" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8c4a18" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p2p1emeraldGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a8f5c8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0a3a22" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p2p1violetGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#c8b8ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#15083a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p2p1redGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffb0b8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3a0610" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Bridge ambient — dark, complex. -->
+    <radialGradient id="p2p1ambient" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#2a3458" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#15192a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0e18"/>
+    </radialGradient>
+
+    <!-- Holographic display field (generic blue-white). -->
+    <linearGradient id="p2p1holoBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5aa6dc" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#bfe4ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="p2p1holoCopper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86028" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#f5a850" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#c8761e" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="p2p1holoViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1e88" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#c8b8ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0.18"/>
+    </linearGradient>
+
+    <filter id="p2p1bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p2p1softBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="p2p1strongBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="p2p1dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: bridge interior bg                                   -->
+  <!-- ========================================================== -->
+  <g id="p2p1-bridge">
+    <rect width="494" height="364" fill="#0a0e18"/>
+    <rect width="494" height="364" fill="url(#p2p1ambient)" opacity="0.85"/>
+
+    <!-- Ceiling. -->
+    <rect x="0" y="0" width="494" height="14" fill="#1a2438"/>
+    <rect x="40" y="3" width="60" height="6" fill="#dce4f0" filter="url(#p2p1softBloom)" opacity="0.85"/>
+    <rect x="220" y="3" width="60" height="6" fill="#dce4f0" filter="url(#p2p1softBloom)" opacity="0.85"/>
+    <rect x="400" y="3" width="60" height="6" fill="#dce4f0" filter="url(#p2p1softBloom)" opacity="0.85"/>
+
+    <!-- Wall panel structural lines (perspective receding to back). -->
+    <line x1="0" y1="14" x2="494" y2="14" stroke="#2a3450" stroke-width="0.7" opacity="0.85"/>
+    <line x1="0" y1="60" x2="100" y2="62" stroke="#2a3450" stroke-width="0.5" opacity="0.6"/>
+    <line x1="394" y1="62" x2="494" y2="60" stroke="#2a3450" stroke-width="0.5" opacity="0.6"/>
+
+    <!-- Narrow rectangular viewports along left and right walls (corridor visible as prismatic streaks). -->
+    <rect x="6" y="80" width="38" height="18" fill="#1a1842"/>
+    <rect x="8" y="82" width="34" height="14" fill="#3a5a8a" opacity="0.95"/>
+    <rect x="8" y="84" width="34" height="2" fill="#bfe4ff" opacity="0.85"/>
+    <rect x="8" y="89" width="34" height="2" fill="#a8c8f5" opacity="0.7"/>
+    <rect x="8" y="93" width="34" height="2" fill="#bfe4ff" opacity="0.85"/>
+
+    <rect x="450" y="80" width="38" height="18" fill="#1a1842"/>
+    <rect x="452" y="82" width="34" height="14" fill="#3a5a8a" opacity="0.95"/>
+    <rect x="452" y="84" width="34" height="2" fill="#bfe4ff" opacity="0.85"/>
+    <rect x="452" y="89" width="34" height="2" fill="#a8c8f5" opacity="0.7"/>
+    <rect x="452" y="93" width="34" height="2" fill="#bfe4ff" opacity="0.85"/>
+
+    <!-- Floor plate (foreground). -->
+    <path d="M0,310 L494,310 L494,364 L0,364 Z" fill="#15192a"/>
+    <line x1="0" y1="310" x2="494" y2="310" stroke="#2a3450" stroke-width="0.7" opacity="0.85"/>
+
+    <!-- Bridge archway in back wall (frame for Thresh). -->
+    <path d="M218,90 L276,90 L276,250 Q247,236 218,250 Z" fill="#0a0e18"/>
+    <path d="M218,90 L276,90 L276,250 Q247,236 218,250 Z" fill="none" stroke="#3a4a6a" stroke-width="0.8" opacity="0.85"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: holographic displays — overlapping pools of light    -->
+  <!-- ========================================================== -->
+  <g id="p2p1-holo-displays">
+    <!-- Engineering display (left, copper). -->
+    <ellipse cx="92" cy="200" rx="80" ry="55" fill="url(#p2p1copperGlow)" filter="url(#p2p1strongBloom)" opacity="0.7"/>
+    <rect x="50" y="172" width="84" height="56" fill="url(#p2p1holoCopper)" rx="3" opacity="0.85"/>
+    <rect x="50" y="172" width="84" height="56" fill="none" stroke="#fff5d8" stroke-width="0.6" opacity="0.85" rx="3"/>
+    <!-- Display content. -->
+    <rect x="56" y="178" width="40" height="6" fill="#fff5d8" opacity="0.5"/>
+    <rect x="56" y="188" width="22" height="4" fill="#fff5d8" opacity="0.7"/>
+    <rect x="82" y="188" width="14" height="4" fill="#fff5d8" opacity="0.5"/>
+    <rect x="100" y="188" width="28" height="4" fill="#fff5d8" opacity="0.6"/>
+    <rect x="56" y="198" width="32" height="4" fill="#fff5d8" opacity="0.55"/>
+    <rect x="92" y="198" width="36" height="4" fill="#fff5d8" opacity="0.5"/>
+    <!-- Waveform. -->
+    <path d="M56,212 L62,210 L66,216 L72,208 L78,218 L84,210 L90,214 L96,208 L102,216 L108,210 L114,212 L120,206 L128,214"
+          fill="none" stroke="#fff5d8" stroke-width="0.8" opacity="0.85"/>
+
+    <!-- Science display (right, violet). -->
+    <ellipse cx="408" cy="200" rx="80" ry="55" fill="url(#p2p1violetGlow)" filter="url(#p2p1strongBloom)" opacity="0.7"/>
+    <rect x="366" y="172" width="84" height="56" fill="url(#p2p1holoViolet)" rx="3" opacity="0.85"/>
+    <rect x="366" y="172" width="84" height="56" fill="none" stroke="#c8b8ff" stroke-width="0.6" opacity="0.85" rx="3"/>
+    <!-- Convergence-data visualization (concentric rings + nodes). -->
+    <circle cx="408" cy="200" r="18" fill="none" stroke="#c8b8ff" stroke-width="0.7" opacity="0.85"/>
+    <circle cx="408" cy="200" r="12" fill="none" stroke="#c8b8ff" stroke-width="0.6" opacity="0.7"/>
+    <circle cx="408" cy="200" r="6" fill="#c8b8ff" opacity="0.6"/>
+    <line x1="390" y1="200" x2="426" y2="200" stroke="#c8b8ff" stroke-width="0.5" opacity="0.55"/>
+    <line x1="408" y1="182" x2="408" y2="218" stroke="#c8b8ff" stroke-width="0.5" opacity="0.55"/>
+    <circle cx="396" cy="188" r="1.6" fill="#ffffff"/>
+    <circle cx="420" cy="188" r="1.6" fill="#ffffff"/>
+    <circle cx="396" cy="212" r="1.6" fill="#ffffff"/>
+    <circle cx="420" cy="212" r="1.6" fill="#ffffff"/>
+    <!-- Data text rows. -->
+    <rect x="372" y="178" width="40" height="4" fill="#c8b8ff" opacity="0.55"/>
+    <rect x="416" y="178" width="28" height="4" fill="#c8b8ff" opacity="0.45"/>
+    <rect x="372" y="222" width="72" height="4" fill="#c8b8ff" opacity="0.55"/>
+
+    <!-- Sable's command display (floats higher, center, blue-white). Partially obscured by her shoulder. -->
+    <ellipse cx="247" cy="148" rx="120" ry="40" fill="url(#p2p1blueGlow)" filter="url(#p2p1strongBloom)" opacity="0.55"/>
+    <rect x="180" y="124" width="134" height="44" fill="url(#p2p1holoBlue)" rx="3" opacity="0.78"/>
+    <rect x="180" y="124" width="134" height="44" fill="none" stroke="#bfe4ff" stroke-width="0.6" opacity="0.85" rx="3"/>
+    <rect x="186" y="130" width="60" height="4" fill="#bfe4ff" opacity="0.6"/>
+    <rect x="252" y="130" width="40" height="4" fill="#bfe4ff" opacity="0.45"/>
+    <rect x="186" y="138" width="34" height="3" fill="#bfe4ff" opacity="0.5"/>
+    <rect x="226" y="138" width="22" height="3" fill="#bfe4ff" opacity="0.5"/>
+    <rect x="254" y="138" width="50" height="3" fill="#bfe4ff" opacity="0.5"/>
+    <rect x="186" y="146" width="44" height="3" fill="#bfe4ff" opacity="0.45"/>
+    <rect x="234" y="146" width="22" height="3" fill="#bfe4ff" opacity="0.45"/>
+    <rect x="262" y="146" width="42" height="3" fill="#bfe4ff" opacity="0.45"/>
+    <!-- Scrolling glyph row. -->
+    <g stroke="#ffffff" stroke-width="0.5" fill="none" opacity="0.85">
+      <polygon points="200,156 208,156 212,160 208,164 200,164 196,160"/>
+      <polygon points="218,156 226,156 230,160 226,164 218,164 214,160"/>
+      <polygon points="236,156 244,156 248,160 244,164 236,164 232,160"/>
+      <polygon points="254,156 262,156 266,160 262,164 254,164 250,160"/>
+      <polygon points="272,156 280,156 284,160 280,164 272,164 268,160"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Wren at engineering console (mid-distance, small)    -->
+  <!-- ========================================================== -->
+  <g id="p2p1-wren" filter="url(#p2p1dropShadow)">
+    <!-- Console surface. -->
+    <rect x="22" y="244" width="138" height="66" fill="#0a0a0c"/>
+    <rect x="22" y="244" width="138" height="66" fill="url(#p2p1copperGlow)" opacity="0.45"/>
+    <line x1="22" y1="244" x2="160" y2="244" stroke="#2a261c" stroke-width="0.7" opacity="0.85"/>
+
+    <!-- Wren figure — small (whole body fits in ~60px tall). -->
+    <g transform="translate(72, 138)">
+      <!-- Legs. -->
+      <path d="M-8,80 Q-10,100 -8,120 L8,120 Q10,100 8,80 Z" fill="url(#p2p1wrenSilver)"/>
+      <path d="M14,80 Q12,100 14,120 L28,120 Q30,100 28,80 Z" fill="url(#p2p1wrenSilver)"/>
+      <!-- Boots. -->
+      <ellipse cx="0" cy="124" rx="10" ry="3" fill="#3a3128"/>
+      <ellipse cx="22" cy="124" rx="10" ry="3" fill="#3a3128"/>
+      <!-- Torso. -->
+      <path d="M-12,30 Q-16,55 -10,80 L30,80 Q36,55 32,30 Q28,24 10,24 Q-8,24 -12,30 Z" fill="url(#p2p1wrenSilver)"/>
+      <path d="M-12,30 Q-16,55 -10,80 L30,80 Q36,55 32,30 Q28,24 10,24 Q-8,24 -12,30 Z" fill="url(#p2p1silverHi)" opacity="0.5"/>
+      <line x1="10" y1="26" x2="10" y2="78" stroke="url(#p2p1copperTrim)" stroke-width="1.2" opacity="0.85"/>
+      <!-- Chest copper accent. -->
+      <circle cx="10" cy="44" r="4" fill="url(#p2p1copperGlow)" filter="url(#p2p1bloom)"/>
+      <circle cx="10" cy="44" r="2.5" fill="#fff5d8" opacity="0.95"/>
+      <!-- Arms reaching forward to console. -->
+      <path d="M-12,32 Q-22,55 -16,76 L-4,78 Q-2,55 -4,34 Z" fill="url(#p2p1wrenSilver)"/>
+      <path d="M32,32 Q42,55 36,76 L24,78 Q26,55 24,34 Z" fill="url(#p2p1wrenSilver)"/>
+      <ellipse cx="-12" cy="80" rx="6" ry="4" fill="url(#p2p1wrenSilver)"/>
+      <ellipse cx="32" cy="80" rx="6" ry="4" fill="url(#p2p1wrenSilver)"/>
+      <!-- Head. -->
+      <ellipse cx="10" cy="14" rx="13" ry="16" fill="#d4a87e"/>
+      <!-- Hair (knot at nape). -->
+      <path d="M-4,4 Q4,-4 10,-2 Q16,-4 24,4 Q22,12 10,8 Q-2,12 -4,4 Z" fill="#0e0a08"/>
+      <ellipse cx="10" cy="26" rx="6" ry="3" fill="#0e0a08"/>
+      <!-- Face hint (eyes, looking at console). -->
+      <circle cx="6" cy="14" r="1" fill="#1a0e08"/>
+      <circle cx="14" cy="14" r="1" fill="#1a0e08"/>
+    </g>
+
+    <!-- Engineering console glyphs on surface (foreground). -->
+    <rect x="32" y="252" width="20" height="6" fill="url(#p2p1copperGlow)" opacity="0.85"/>
+    <rect x="58" y="252" width="14" height="6" fill="#f5a850" opacity="0.75"/>
+    <rect x="78" y="252" width="32" height="6" fill="#f5a850" opacity="0.55"/>
+    <rect x="116" y="252" width="14" height="6" fill="#f5a850" opacity="0.75"/>
+    <rect x="32" y="266" width="98" height="3" fill="#c87a35" opacity="0.65"/>
+    <rect x="32" y="276" width="56" height="3" fill="#c87a35" opacity="0.55"/>
+    <rect x="92" y="276" width="38" height="3" fill="#c87a35" opacity="0.55"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Luma at science station (right, small)               -->
+  <!-- ========================================================== -->
+  <g id="p2p1-luma" filter="url(#p2p1dropShadow)">
+    <!-- Console. -->
+    <rect x="334" y="244" width="138" height="66" fill="#0a0a0c"/>
+    <rect x="334" y="244" width="138" height="66" fill="url(#p2p1violetGlow)" opacity="0.45"/>
+    <line x1="334" y1="244" x2="472" y2="244" stroke="#15083a" stroke-width="0.7" opacity="0.85"/>
+
+    <g transform="translate(404, 138)">
+      <!-- Legs. -->
+      <path d="M-8,80 Q-10,100 -8,120 L8,120 Q10,100 8,80 Z" fill="url(#p2p1sapphire)"/>
+      <path d="M14,80 Q12,100 14,120 L28,120 Q30,100 28,80 Z" fill="url(#p2p1sapphire)"/>
+      <ellipse cx="0" cy="124" rx="10" ry="3" fill="#1c1232"/>
+      <ellipse cx="22" cy="124" rx="10" ry="3" fill="#1c1232"/>
+      <!-- Torso. -->
+      <path d="M-12,30 Q-16,55 -10,80 L30,80 Q36,55 32,30 Q28,24 10,24 Q-8,24 -12,30 Z" fill="url(#p2p1sapphire)"/>
+      <path d="M-12,30 Q-16,55 -10,80 L30,80 Q36,55 32,30 Q28,24 10,24 Q-8,24 -12,30 Z" fill="url(#p2p1silverHi)" opacity="0.4"/>
+      <line x1="10" y1="26" x2="10" y2="78" stroke="#15083a" stroke-width="0.8" opacity="0.7"/>
+      <circle cx="10" cy="44" r="4" fill="url(#p2p1violetGlow)" filter="url(#p2p1bloom)"/>
+      <circle cx="10" cy="44" r="2.5" fill="#c8b8ff" opacity="0.95"/>
+      <!-- Arms forward to console. -->
+      <path d="M-12,32 Q-22,55 -16,76 L-4,78 Q-2,55 -4,34 Z" fill="url(#p2p1sapphire)"/>
+      <path d="M32,32 Q42,55 36,76 L24,78 Q26,55 24,34 Z" fill="url(#p2p1sapphire)"/>
+      <ellipse cx="-12" cy="80" rx="6" ry="4" fill="#a87648"/>
+      <ellipse cx="32" cy="80" rx="6" ry="4" fill="#a87648"/>
+      <!-- Head. -->
+      <ellipse cx="10" cy="14" rx="13" ry="16" fill="#a87648"/>
+      <!-- Hair (smooth crown). -->
+      <path d="M-3,4 Q5,-4 10,-2 Q15,-4 23,4 Q22,10 10,8 Q-2,10 -3,4 Z" fill="#0e0604"/>
+      <!-- Braid down right shoulder. -->
+      <path d="M22,8 Q26,30 28,55 Q30,75 26,82 L20,82 Q24,75 22,55 Q20,30 16,8 Z" fill="#0e0604"/>
+      <!-- Holographic visor over eyes. -->
+      <rect x="-2" y="11" width="24" height="5" rx="1" fill="#7a52d8" opacity="0.75"/>
+      <line x1="0" y1="13" x2="6" y2="13" stroke="#ffffff" stroke-width="0.5"/>
+      <line x1="14" y1="13" x2="20" y2="13" stroke="#ffffff" stroke-width="0.5"/>
+    </g>
+
+    <rect x="344" y="252" width="20" height="6" fill="url(#p2p1violetGlow)" opacity="0.85"/>
+    <rect x="370" y="252" width="14" height="6" fill="#c8b8ff" opacity="0.75"/>
+    <rect x="390" y="252" width="32" height="6" fill="#c8b8ff" opacity="0.55"/>
+    <rect x="428" y="252" width="14" height="6" fill="#c8b8ff" opacity="0.75"/>
+    <rect x="344" y="266" width="98" height="3" fill="#5a3ad8" opacity="0.65"/>
+    <rect x="344" y="276" width="56" height="3" fill="#5a3ad8" opacity="0.55"/>
+    <rect x="404" y="276" width="38" height="3" fill="#5a3ad8" opacity="0.55"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Jink slouched in jump seat (center-back, small)      -->
+  <!-- ========================================================== -->
+  <g id="p2p1-jink" filter="url(#p2p1dropShadow)">
+    <!-- Wall-mounted jump seat. -->
+    <rect x="180" y="258" width="60" height="3" fill="#1a1e26"/>
+    <rect x="180" y="258" width="60" height="3" fill="url(#p2p1silverHi)" opacity="0.4"/>
+    <!-- Bracket. -->
+    <rect x="178" y="252" width="3" height="6" fill="#2a3450"/>
+
+    <g transform="translate(210, 200)">
+      <!-- Legs (one drawn up, one dangling — slouched). -->
+      <!-- Drawn-up leg. -->
+      <path d="M-12,52 Q-22,40 -28,18 L-20,14 Q-12,32 -8,52 Z" fill="url(#p2p1emerald)"/>
+      <ellipse cx="-25" cy="20" rx="6" ry="3" fill="#0a3a22"/>
+      <path d="M-28,18 Q-32,40 -25,55 L-14,55 Q-12,40 -20,16 Z" fill="url(#p2p1emerald)"/>
+      <ellipse cx="-22" cy="58" rx="8" ry="3" fill="#0a2818"/>
+      <!-- Dangling leg. -->
+      <path d="M2,58 Q0,80 4,100 L18,100 Q20,80 18,58 Z" fill="url(#p2p1emerald)"/>
+      <path d="M4,100 Q2,118 8,134 L18,134 Q22,118 20,100 Z" fill="url(#p2p1emerald)"/>
+      <!-- Boot. -->
+      <path d="M2,134 Q0,142 6,148 L18,148 Q22,142 20,134 Z" fill="#0a2818"/>
+
+      <!-- Torso (slouched, leaned back into seat). -->
+      <path d="M-14,5 Q-18,30 -10,55 L24,55 Q30,40 32,5 Q28,-3 12,-3 Q-10,-2 -14,5 Z" fill="url(#p2p1emerald)"/>
+      <path d="M-14,5 Q-18,30 -10,55 L24,55 Q30,40 32,5 Q28,-3 12,-3 Q-10,-2 -14,5 Z" fill="url(#p2p1silverHi)" opacity="0.5"/>
+      <line x1="12" y1="-1" x2="10" y2="54" stroke="#082818" stroke-width="0.7" opacity="0.7"/>
+      <!-- Chest emerald accent. -->
+      <circle cx="10" cy="20" r="4" fill="url(#p2p1emeraldGlow)" filter="url(#p2p1bloom)"/>
+      <circle cx="10" cy="20" r="2.5" fill="#a8f5c8" opacity="0.95"/>
+
+      <!-- Arms (one drumming on knee, one at side). -->
+      <path d="M-14,7 Q-22,28 -22,46 L-12,46 Q-10,28 -10,8 Z" fill="url(#p2p1emerald)"/>
+      <path d="M-22,46 Q-26,55 -16,58 L-2,55 Q-2,52 -12,48 Z" fill="url(#p2p1emerald)"/>
+      <ellipse cx="-22" cy="58" rx="5" ry="3" fill="#b88758"/>
+      <path d="M32,7 Q40,28 38,52 L28,52 Q26,28 28,8 Z" fill="url(#p2p1emerald)"/>
+      <ellipse cx="32" cy="56" rx="5" ry="3" fill="#b88758"/>
+
+      <!-- Head — chin slightly down (bored slouch). -->
+      <ellipse cx="10" cy="-12" rx="13" ry="16" fill="#b88758"/>
+      <!-- Curly blonde hair on top. -->
+      <path d="M-3,-22 Q-3,-30 4,-32 Q12,-34 18,-32 Q24,-30 23,-22 Q21,-26 18,-26 Q14,-22 10,-24 Q6,-22 4,-26 Q-1,-26 -3,-22 Z" fill="url(#p2p1blondHair)"/>
+      <circle cx="3" cy="-26" r="3" fill="url(#p2p1blondHair)"/>
+      <circle cx="9" cy="-30" r="3.5" fill="url(#p2p1blondHair)"/>
+      <circle cx="15" cy="-30" r="3.5" fill="url(#p2p1blondHair)"/>
+      <circle cx="20" cy="-26" r="3" fill="url(#p2p1blondHair)"/>
+      <!-- Eyes (downcast/bored). -->
+      <circle cx="6" cy="-12" r="1" fill="#1a0e08"/>
+      <circle cx="14" cy="-12" r="1" fill="#1a0e08"/>
+      <!-- Smirk. -->
+      <path d="M6,-4 Q10,-2 14,-4" fill="none" stroke="#3a1d10" stroke-width="0.7" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Thresh through corridor archway (smallest, distant)  -->
+  <!-- ========================================================== -->
+  <g id="p2p1-thresh-distant" filter="url(#p2p1dropShadow)">
+    <!-- Corridor floor inside arch. -->
+    <path d="M218,250 Q247,236 276,250 L276,260 L218,260 Z" fill="#15192a"/>
+    <!-- Crimson rim glow inside arch. -->
+    <ellipse cx="247" cy="180" rx="32" ry="80" fill="url(#p2p1redGlow)" filter="url(#p2p1strongBloom)" opacity="0.6"/>
+
+    <g transform="translate(247, 134)">
+      <!-- Legs. -->
+      <path d="M-7,80 Q-9,98 -7,116 L7,116 Q9,98 7,80 Z" fill="url(#p2p1ruby)"/>
+      <path d="M11,80 Q9,98 11,116 L25,116 Q27,98 25,80 Z" fill="url(#p2p1ruby)"/>
+      <path d="M-9,116 Q-11,124 -5,128 L9,128 Q11,124 9,116 Z" fill="#1a0408"/>
+      <path d="M11,116 Q9,124 13,128 L27,128 Q29,124 25,116 Z" fill="#1a0408"/>
+      <!-- Torso (heavier silhouette). -->
+      <path d="M-14,28 Q-18,55 -12,80 L34,80 Q40,55 36,28 Q30,20 12,20 Q-10,20 -14,28 Z" fill="url(#p2p1ruby)"/>
+      <path d="M-14,28 Q-18,55 -12,80 L34,80 Q40,55 36,28 Q30,20 12,20 Q-10,20 -14,28 Z" fill="url(#p2p1silverHi)" opacity="0.45"/>
+      <!-- Chunky pauldrons. -->
+      <path d="M-14,26 Q-22,30 -22,42 Q-16,48 -10,48 L-8,32 Q-12,26 -14,26 Z" fill="url(#p2p1ruby)"/>
+      <path d="M36,26 Q44,30 44,42 Q38,48 32,48 L30,32 Q34,26 36,26 Z" fill="url(#p2p1ruby)"/>
+      <!-- Chest red accent. -->
+      <circle cx="11" cy="42" r="4" fill="url(#p2p1redGlow)" filter="url(#p2p1bloom)"/>
+      <circle cx="11" cy="42" r="2.5" fill="#ffb0b8" opacity="0.95"/>
+      <!-- Arms. -->
+      <path d="M-18,30 Q-26,55 -22,78 L-14,78 Q-12,55 -12,32 Z" fill="url(#p2p1ruby)"/>
+      <path d="M40,30 Q48,55 44,78 L36,78 Q34,55 34,32 Z" fill="url(#p2p1ruby)"/>
+      <ellipse cx="-18" cy="80" rx="5" ry="3" fill="#e8c4ae"/>
+      <ellipse cx="40" cy="80" rx="5" ry="3" fill="#e8c4ae"/>
+      <!-- Head. -->
+      <ellipse cx="11" cy="8" rx="11" ry="14" fill="#e8c4ae"/>
+      <!-- Copper-red swept hair. -->
+      <path d="M0,-2 Q3,-12 11,-14 Q19,-12 22,-2 Q22,4 18,2 Q14,-4 11,-2 Q8,-4 4,2 Q0,4 0,-2 Z" fill="#a83012"/>
+      <!-- Eyes (focused). -->
+      <circle cx="7" cy="9" r="0.9" fill="#1a0a04"/>
+      <circle cx="15" cy="9" r="0.9" fill="#1a0a04"/>
+    </g>
+
+    <!-- Weapon rack against corridor wall. -->
+    <rect x="262" y="140" width="14" height="80" fill="#0a0a0c"/>
+    <rect x="263" y="142" width="3" height="60" fill="#15161a"/>
+    <rect x="269" y="142" width="3" height="60" fill="#15161a"/>
+    <circle cx="264.5" cy="148" r="0.8" fill="#dc2030"/>
+    <circle cx="270.5" cy="148" r="0.8" fill="#dc2030"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: Sable foreground (OTS — back of head + shoulder)     -->
+  <!-- LARGE silhouette since she's the camera-side anchor.        -->
+  <!-- ========================================================== -->
+  <g id="p2p1-sable-ots" filter="url(#p2p1dropShadow)">
+    <!-- Right shoulder + upper back curving across foreground. -->
+    <path d="M340,364 Q310,300 330,232 Q360,200 410,200 Q470,210 494,232 L494,364 Z" fill="url(#p2p1silver)"/>
+    <path d="M340,364 Q310,300 330,232 Q360,200 410,200 Q470,210 494,232 L494,364 Z" fill="url(#p2p1silverHi)" opacity="0.65"/>
+
+    <!-- Pauldron seam. -->
+    <line x1="380" y1="216" x2="350" y2="280" stroke="#2a2e36" stroke-width="0.8" opacity="0.7"/>
+    <!-- Plate divisions on back. -->
+    <path d="M340,300 Q360,290 400,288 Q448,294 480,310" fill="none" stroke="#2a2e36" stroke-width="0.6" opacity="0.6"/>
+    <path d="M338,330 Q360,318 400,316 Q450,322 488,340" fill="none" stroke="#2a2e36" stroke-width="0.6" opacity="0.6"/>
+
+    <!-- Shoulder accent node visible from back. -->
+    <circle cx="368" cy="234" r="9" fill="url(#p2p1blueGlow)" filter="url(#p2p1bloom)"/>
+    <circle cx="368" cy="234" r="5" fill="#bfe4ff" opacity="0.95"/>
+    <circle cx="368" cy="234" r="2" fill="#ffffff"/>
+
+    <!-- Back of head + cropped hair (silver-white). -->
+    <ellipse cx="406" cy="178" rx="42" ry="50" fill="url(#p2p1darkSkin)"/>
+    <!-- Hair coverage. -->
+    <path d="M364,144 Q368,118 406,110 Q444,118 448,144 Q450,168 446,192 Q446,154 406,148 Q366,154 366,192 Q362,168 364,144 Z" fill="url(#p2p1silverHair)"/>
+    <!-- Hair texture lines (military buzz texture). -->
+    <path d="M376,144 Q406,134 436,144" fill="none" stroke="#9ea1a8" stroke-width="0.7" opacity="0.7"/>
+    <path d="M380,158 Q406,150 432,158" fill="none" stroke="#c8cad0" stroke-width="0.5" opacity="0.55"/>
+    <path d="M380,170 Q406,164 432,170" fill="none" stroke="#9ea1a8" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Subtle ear visible (right side from her POV = viewer's left). -->
+    <ellipse cx="368" cy="184" rx="4" ry="8" fill="url(#p2p1darkSkin)"/>
+    <path d="M368,180 Q372,178 372,184 L370,188 Q367,186 366,182 Z" fill="#3a2418"/>
+
+    <!-- Cool blue rim from holographic display catching back of head/shoulder. -->
+    <path d="M340,300 L350,200 L380,202 L368,310 Z" fill="#bfe4ff" opacity="0.18"/>
+
+    <!-- Collar / gorget seam. -->
+    <path d="M380,212 Q406,202 432,212 L428,224 L384,224 Z" fill="url(#p2p1silver)"/>
+    <line x1="406" y1="208" x2="406" y2="224" stroke="#2a2e36" stroke-width="0.7" opacity="0.65"/>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue (Sable's mission brief)                     -->
+  <!-- ========================================================== -->
+  <g id="p2p1-dialogue">
+    <rect x="6" y="14" width="320" height="56" rx="6" fill="white" stroke="#b0b0b0" stroke-width="2" filter="url(#balloonShadow)"/>
+    <!-- Tail toward Sable's head. -->
+    <polygon points="306,70 314,70 320,80" fill="white" stroke="#b0b0b0" stroke-width="2"/>
+    <line x1="306" y1="70" x2="314" y2="70" stroke="white" stroke-width="1.5"/>
+    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#b0b0b0">SABLE</text>
+    <text x="14" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Standard reconnaissance protocol. In and out, minimal</text>
+    <text x="14" y="59" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">footprint. We observe the convergence point, tag the temporal</text>
+    <text x="14" y="72" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">markers, and extract. Nothing more.</text>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: panel meta                                           -->
+  <!-- ========================================================== -->
+  <g id="p2p1-meta">
+    <text x="484" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#888" opacity="0.7">1</text>
+    <text x="488" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#888" opacity="0.6">WIDE</text>
+  </g>
+
+</svg>

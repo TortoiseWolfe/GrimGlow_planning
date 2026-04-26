@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 364" width="241" height="364">
+  <title>Issue 1 — Page 3 — Panel 2: Sable face, controlled fury</title>
+  <desc>Close-up at 85mm, canted 15° angle. Sable's face fills the frame, jaw set, eyes blazing with controlled fury (NOT fear yet — anger that something is interrupting her mission). Her pristine silver suit catches fractured light: red emergency strobing on right side of face, dying blue-white holographic fragments scattering on left. One hand grips command console knuckles tight; other reaches toward comm. Holographic nodes still glow faintly through chaos. Fragmenting geometric light shards in BG. SABLE: "All hands! Report! What hit us?"</desc>
+
+  <defs>
+    <linearGradient id="p3p2silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8eaee"/>
+      <stop offset="50%" stop-color="#9ba1aa"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p3p2silverHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="p3p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5d3d2a"/>
+      <stop offset="100%" stop-color="#3a2418"/>
+    </linearGradient>
+    <linearGradient id="p3p2hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4f5f7"/>
+      <stop offset="100%" stop-color="#a8acb4"/>
+    </linearGradient>
+
+    <radialGradient id="p3p2redStrobe" cx="100%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#ff4060" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#dc2030" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a0408" stop-opacity="0.85"/>
+    </radialGradient>
+    <radialGradient id="p3p2blueDying" cx="0%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#3a8ccc" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0a0e18" stop-opacity="0.55"/>
+    </radialGradient>
+    <radialGradient id="p3p2blueShard" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p2redGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ff4060" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#dc2030" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="p3p2bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p3p2dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- 15° canted dutch angle. -->
+  <g id="p3p2-cant" transform="rotate(-15 120 182)">
+
+    <!-- ========================================================== -->
+    <!-- LAYER: split bg — blue dying left, red strobing right       -->
+    <!-- ========================================================== -->
+    <g id="p3p2-bg">
+      <rect x="-100" y="-100" width="441" height="564" fill="#0a0408"/>
+      <rect x="-100" y="-100" width="271" height="564" fill="url(#p3p2blueDying)" opacity="0.85"/>
+      <rect x="120" y="-100" width="221" height="564" fill="url(#p3p2redStrobe)" opacity="0.85"/>
+
+      <!-- Strobing red glow source. -->
+      <ellipse cx="240" cy="50" rx="120" ry="80" fill="url(#p3p2redGlow)" filter="url(#p3p2bloom)" opacity="0.85"/>
+
+      <!-- Fragmenting blue shards (left side, dying). -->
+      <g filter="url(#p3p2bloom)">
+        <polygon points="20,40 32,36 36,48 24,52" fill="url(#p3p2blueShard)"/>
+        <polygon points="-10,80 4,76 8,90 -6,94" fill="url(#p3p2blueShard)"/>
+        <polygon points="40,140 54,134 60,148 46,154" fill="url(#p3p2blueShard)"/>
+        <polygon points="0,200 12,196 16,210 4,214" fill="url(#p3p2blueShard)"/>
+        <polygon points="-30,260 -16,256 -12,270 -26,274" fill="url(#p3p2blueShard)"/>
+        <polygon points="50,310 62,306 66,320 54,324" fill="url(#p3p2blueShard)"/>
+      </g>
+
+      <!-- Geometric debris lines. -->
+      <line x1="0" y1="50" x2="40" y2="80" stroke="#bfe4ff" stroke-width="0.7" opacity="0.6"/>
+      <line x1="-20" y1="120" x2="20" y2="150" stroke="#bfe4ff" stroke-width="0.6" opacity="0.55"/>
+      <line x1="20" y1="200" x2="60" y2="230" stroke="#bfe4ff" stroke-width="0.6" opacity="0.5"/>
+    </g>
+
+    <!-- ========================================================== -->
+    <!-- LAYER: SABLE face (large, fills frame)                       -->
+    <!-- ========================================================== -->
+    <g id="p3p2-sable" filter="url(#p3p2dropShadow)">
+
+      <!-- Shoulder/torso peeking up at bottom. -->
+      <path d="M-20,300 Q-30,360 -20,464 L260,464 Q270,360 260,300 Q240,290 120,290 Q0,290 -20,300 Z" fill="url(#p3p2silver)"/>
+      <path d="M-20,300 Q-30,360 -20,464 L260,464 Q270,360 260,300 Q240,290 120,290 Q0,290 -20,300 Z" fill="url(#p3p2silverHi)" opacity="0.45"/>
+      <line x1="120" y1="290" x2="120" y2="464" stroke="#2a2e36" stroke-width="0.9"/>
+      <!-- Chest accent (still glowing through chaos). -->
+      <circle cx="120" cy="320" r="9" fill="url(#p3p2blueShard)" filter="url(#p3p2bloom)"/>
+      <circle cx="120" cy="320" r="5" fill="#bfe4ff"/>
+
+      <!-- Hand gripping console (lower-left, knuckles white). -->
+      <g id="p3p2-hand-grip">
+        <path d="M-30,316 Q-40,330 -28,348 L0,360 Q14,344 -8,328 Z" fill="url(#p3p2skin)"/>
+        <!-- Knuckles white. -->
+        <circle cx="-8" cy="332" r="2.5" fill="#a8765a" opacity="0.7"/>
+        <circle cx="-2" cy="338" r="2.5" fill="#a8765a" opacity="0.7"/>
+        <circle cx="4" cy="346" r="2.5" fill="#a8765a" opacity="0.65"/>
+        <!-- Tendon highlights. -->
+        <line x1="-22" y1="328" x2="-2" y2="346" stroke="#f0d8b0" stroke-width="0.5" opacity="0.7"/>
+      </g>
+      <!-- Console edge. -->
+      <rect x="-30" y="346" width="280" height="20" fill="#0a0a0c"/>
+
+      <!-- Other arm reaching toward comm (visible at right). -->
+      <g id="p3p2-arm-comm">
+        <path d="M260,310 Q280,290 296,272 L286,266 Q272,284 252,308 Z" fill="url(#p3p2silver)"/>
+        <ellipse cx="294" cy="270" rx="9" ry="6" fill="url(#p3p2skin)"/>
+      </g>
+
+      <!-- Neck. -->
+      <path d="M104,260 L104,290 L138,290 L138,260 Z" fill="url(#p3p2skin)"/>
+
+      <!-- HEAD — fills frame. -->
+      <g id="p3p2-head">
+        <ellipse cx="120" cy="180" rx="80" ry="100" fill="url(#p3p2skin)"/>
+
+        <!-- Hair (silver-white close-cropped). -->
+        <path d="M58,142 Q62,90 120,80 Q178,90 182,142 Q182,156 174,154 Q170,118 120,112 Q70,118 66,154 Q58,156 58,142 Z" fill="url(#p3p2hair)"/>
+        <!-- Hair texture. -->
+        <path d="M70,144 Q120,128 170,144" fill="none" stroke="#9ea1a8" stroke-width="0.8" opacity="0.7"/>
+        <path d="M76,134 Q120,120 164,134" fill="none" stroke="#c8cad0" stroke-width="0.6" opacity="0.55"/>
+
+        <!-- Jaw shadow. -->
+        <path d="M70,200 Q120,250 170,200 Q166,228 120,250 Q74,228 70,200 Z" fill="#2a1810" opacity="0.4"/>
+
+        <!-- Cool blue rim left side. -->
+        <path d="M58,142 L66,154 L66,220 Q58,200 56,170 Z" fill="#bfe4ff" opacity="0.32"/>
+        <path d="M58,200 Q70,250 90,260 L60,260 Q44,222 50,180 Z" fill="#bfe4ff" opacity="0.22"/>
+
+        <!-- Red strobe on right side. -->
+        <path d="M120,116 L182,142 L182,200 Q160,210 120,250 Z" fill="#dc2030" opacity="0.4"/>
+        <path d="M180,200 Q170,240 150,258 L188,258 Q200,220 196,180 Z" fill="#dc2030" opacity="0.35"/>
+
+        <!-- EYES — blazing controlled fury. -->
+        <ellipse cx="92" cy="184" rx="6" ry="3" fill="#1a0e08"/>
+        <ellipse cx="148" cy="184" rx="6" ry="3" fill="#1a0e08"/>
+        <!-- Iris hint. -->
+        <ellipse cx="92" cy="183" rx="2.5" ry="1.5" fill="#3a1f12"/>
+        <ellipse cx="148" cy="183" rx="2.5" ry="1.5" fill="#3a1f12"/>
+        <!-- Highlight glints (blue from holo + red from strobe). -->
+        <ellipse cx="93" cy="183" rx="1.4" ry="0.9" fill="#bfe4ff"/>
+        <ellipse cx="149" cy="183" rx="1.4" ry="0.9" fill="#ff4060"/>
+
+        <!-- Brows — strong, drawn down (anger, focus). -->
+        <path d="M78,170 Q92,164 106,168" fill="none" stroke="#15100b" stroke-width="3" stroke-linecap="round"/>
+        <path d="M134,168 Q148,164 162,170" fill="none" stroke="#15100b" stroke-width="3" stroke-linecap="round"/>
+        <!-- Furrow between brows. -->
+        <line x1="118" y1="178" x2="116" y2="190" stroke="#3a1f12" stroke-width="0.8"/>
+        <line x1="122" y1="178" x2="124" y2="190" stroke="#3a1f12" stroke-width="0.8"/>
+
+        <!-- Nose. -->
+        <path d="M120,184 L114,206 Q120,210 126,206 Z" fill="#3a1f12" opacity="0.7"/>
+        <path d="M114,206 Q120,210 126,206" fill="none" stroke="#1a0e08" stroke-width="0.7"/>
+
+        <!-- Mouth — open mid-shout, jaw set. -->
+        <path d="M100,228 Q120,234 140,228" fill="none" stroke="#2a1006" stroke-width="2" stroke-linecap="round"/>
+        <path d="M104,232 Q120,242 136,232 Q120,238 104,232 Z" fill="#1a0a04"/>
+        <!-- Lower lip. -->
+        <path d="M108,242 Q120,246 132,242" fill="none" stroke="#5a3018" stroke-width="0.8"/>
+      </g>
+    </g>
+
+    <!-- Bright shrapnel passing close by. -->
+    <g filter="url(#p3p2bloom)">
+      <polygon points="80,60 92,56 96,68 84,72" fill="url(#p3p2blueShard)"/>
+      <polygon points="180,40 192,36 196,48 184,52" fill="url(#p3p2blueShard)"/>
+    </g>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue (NOT canted)                                 -->
+  <!-- ========================================================== -->
+  <g id="p3p2-dialogue">
+    <rect x="6" y="14" width="220" height="56" rx="6" fill="white" stroke="#b0b0b0" stroke-width="2" opacity="0.95"/>
+    <polygon points="100,70 112,70 92,86" fill="white" stroke="#b0b0b0" stroke-width="1.5"/>
+    <line x1="100" y1="70" x2="112" y2="70" stroke="white" stroke-width="2"/>
+    <text x="14" y="32" font-family="Impact, sans-serif" font-size="13" font-weight="900" fill="#b0b0b0">SABLE</text>
+    <text x="14" y="50" font-family="Impact, sans-serif" font-size="14" font-weight="900" fill="#1a0408">All hands! Report!</text>
+    <text x="14" y="64" font-family="Impact, sans-serif" font-size="14" font-weight="900" fill="#1a0408">What hit us?</text>
+  </g>
+
+  <!-- Panel meta. -->
+  <g id="p3p2-meta">
+    <text x="230" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="234" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">CU</text>
+  </g>
+
+</svg>

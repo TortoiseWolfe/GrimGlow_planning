@@ -1,0 +1,335 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 364" width="241" height="364">
+  <title>Issue 1 — Page 1 — Panel 4: Jink on jump seat, restless</title>
+  <desc>Medium shot, slight 5° dutch angle. Jink half-sitting on a minimal military jump seat, one leg drawn up, the other dangling, one hand drumming on knee. Looking sideways at a narrow rectangular wall-mounted viewport behind them where the temporal corridor rushes past in prismatic streaks. Restless, slight smirk, barely contained energy. Cool prismatic light from viewport casts shifting geometric patterns on emerald suit. Ambient blue-white overhead. JINK: "How many of these have we done? Twelve?" / SABLE (off-panel): "Fourteen." / JINK: "They're starting to blur."</desc>
+
+  <defs>
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p4suitMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7dd9a0"/>
+      <stop offset="20%" stop-color="#4ab078"/>
+      <stop offset="50%" stop-color="#2a8a55"/>
+      <stop offset="80%" stop-color="#16633a"/>
+      <stop offset="100%" stop-color="#0a3a22"/>
+    </linearGradient>
+    <linearGradient id="p4suitHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8f5e4" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="p4suitSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#082818"/>
+      <stop offset="100%" stop-color="#03140c"/>
+    </linearGradient>
+    <linearGradient id="p4skinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4a575"/>
+      <stop offset="50%" stop-color="#b88758"/>
+      <stop offset="100%" stop-color="#8a6038"/>
+    </linearGradient>
+    <radialGradient id="p4hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#fff2c4"/>
+      <stop offset="40%" stop-color="#f5d878"/>
+      <stop offset="80%" stop-color="#d8a838"/>
+      <stop offset="100%" stop-color="#a07820"/>
+    </radialGradient>
+
+    <radialGradient id="p4hologramCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#a8f5c8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0.7"/>
+    </radialGradient>
+    <radialGradient id="p4hologramGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a8f5c8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0a3a22" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Corridor streak gradient through viewport — prismatic motion blur. -->
+    <linearGradient id="p4corridorStreak" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1842" stop-opacity="0.95"/>
+      <stop offset="20%" stop-color="#5a78c8" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#bfe4ff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#a8c8f5" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#7a98d8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a1842" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="p4prismShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff80c8" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#80c8ff" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#a8ff80" stop-opacity="0.45"/>
+      <stop offset="80%" stop-color="#ffe080" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#c880ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="p4overheadKey" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#7c92ae" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a2238" stop-opacity="0.85"/>
+    </radialGradient>
+
+    <filter id="p4bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="p4softBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="p4dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+
+    <symbol id="p4hexNode" viewBox="-10 -10 20 20" overflow="visible">
+      <polygon points="0,-9 7.8,-4.5 7.8,4.5 0,9 -7.8,4.5 -7.8,-4.5" fill="url(#p4hologramGlow)" filter="url(#p4bloom)"/>
+      <polygon points="0,-7 6.1,-3.5 6.1,3.5 0,7 -6.1,3.5 -6.1,-3.5" fill="url(#p4hologramCore)"/>
+      <polygon points="0,-4 3.5,-2 3.5,2 0,4 -3.5,2 -3.5,-2" fill="#ffffff" opacity="0.85"/>
+    </symbol>
+  </defs>
+
+  <!-- Apply 5° dutch angle to the entire scene. -->
+  <g id="p4-dutch" transform="rotate(5 120 182)">
+
+    <!-- ========================================================== -->
+    <!-- LAYER: bridge bg                                            -->
+    <!-- ========================================================== -->
+    <g id="p4-bridge-bg">
+      <rect x="-30" y="-30" width="320" height="424" fill="#0a0e18"/>
+      <rect x="-30" y="-30" width="320" height="424" fill="url(#p4overheadKey)" opacity="0.5"/>
+
+      <!-- Ceiling. -->
+      <rect x="-30" y="-30" width="320" height="40" fill="#1a2438"/>
+      <rect x="40" y="-12" width="50" height="6" fill="#dce4f0" filter="url(#p4softBloom)" opacity="0.85"/>
+      <rect x="160" y="-12" width="50" height="6" fill="#dce4f0" filter="url(#p4softBloom)" opacity="0.85"/>
+
+      <!-- Wall structural lines. -->
+      <line x1="-30" y1="10" x2="290" y2="10" stroke="#2a3450" stroke-width="0.7" opacity="0.85"/>
+      <line x1="-30" y1="60" x2="290" y2="60" stroke="#2a3450" stroke-width="0.4" opacity="0.55"/>
+
+      <!-- Floor edge below. -->
+      <rect x="-30" y="320" width="320" height="74" fill="#15192a"/>
+      <line x1="-30" y1="320" x2="290" y2="320" stroke="#2a3450" stroke-width="0.7" opacity="0.85"/>
+    </g>
+
+    <!-- ========================================================== -->
+    <!-- LAYER: viewport — narrow rectangular window with corridor   -->
+    <!-- streaks rushing past. Behind Jink (slightly off to right).  -->
+    <!-- ========================================================== -->
+    <g id="p4-viewport" transform="translate(140, 50)">
+      <!-- Frame outer. -->
+      <rect x="-4" y="-4" width="98" height="120" fill="#1a2438"/>
+      <!-- Inner viewport pane. -->
+      <rect x="0" y="0" width="90" height="112" fill="url(#p4corridorStreak)"/>
+      <!-- Frame highlights. -->
+      <rect x="0" y="0" width="90" height="112" fill="none" stroke="#3a4a6a" stroke-width="0.7"/>
+      <!-- Bolt details. -->
+      <circle cx="-2" cy="-2" r="1.5" fill="#3a4a6a"/>
+      <circle cx="92" cy="-2" r="1.5" fill="#3a4a6a"/>
+      <circle cx="-2" cy="114" r="1.5" fill="#3a4a6a"/>
+      <circle cx="92" cy="114" r="1.5" fill="#3a4a6a"/>
+
+      <!-- Streak motion: prismatic streaks moving horizontally. -->
+      <rect x="0" y="6" width="90" height="3" fill="url(#p4prismShimmer)" opacity="0.85"/>
+      <rect x="0" y="22" width="90" height="2" fill="#bfe4ff" opacity="0.75"/>
+      <rect x="0" y="32" width="90" height="3" fill="url(#p4prismShimmer)" opacity="0.7"/>
+      <rect x="0" y="48" width="90" height="2" fill="#a8c8f5" opacity="0.7"/>
+      <rect x="0" y="58" width="90" height="2" fill="#bfe4ff" opacity="0.85"/>
+      <rect x="0" y="70" width="90" height="3" fill="url(#p4prismShimmer)" opacity="0.7"/>
+      <rect x="0" y="84" width="90" height="2" fill="#bfe4ff" opacity="0.75"/>
+      <rect x="0" y="98" width="90" height="3" fill="url(#p4prismShimmer)" opacity="0.85"/>
+
+      <!-- Geometric scaffolding hint visible in streaks. -->
+      <line x1="20" y1="0" x2="60" y2="112" stroke="#dce4f0" stroke-width="0.5" opacity="0.55"/>
+      <line x1="50" y1="0" x2="80" y2="112" stroke="#dce4f0" stroke-width="0.5" opacity="0.55"/>
+
+      <!-- Glow halo bleeding from viewport into bridge. -->
+      <rect x="-12" y="-12" width="114" height="138" fill="url(#p4hologramGlow)" filter="url(#p4bloom)" opacity="0.6"/>
+    </g>
+
+    <!-- Cool blue rim cast on adjacent wall from viewport. -->
+    <ellipse cx="120" cy="170" rx="90" ry="70" fill="#bfe4ff" opacity="0.1"/>
+
+    <!-- ========================================================== -->
+    <!-- LAYER: jump seat + Jink                                     -->
+    <!-- ========================================================== -->
+    <g id="p4-jumpseat-jink">
+
+      <!-- Minimal wall-mounted jump seat (folded down, slim). -->
+      <rect x="20" y="220" width="80" height="6" fill="#1a1e26"/>
+      <rect x="20" y="220" width="80" height="6" fill="url(#p4suitHighlight)" opacity="0.4"/>
+      <!-- Seat support struts to wall. -->
+      <line x1="22" y1="226" x2="22" y2="230" stroke="#3a4a6a" stroke-width="1"/>
+      <line x1="98" y1="226" x2="98" y2="230" stroke="#3a4a6a" stroke-width="1"/>
+      <!-- Wall-mount bracket. -->
+      <rect x="20" y="216" width="6" height="10" fill="#2a3450"/>
+
+      <g id="p4-jink" filter="url(#p4dropShadow)">
+
+        <!-- Right leg drawn up (foot on seat). -->
+        <g id="p4-jink-leg-up">
+          <!-- Thigh angled up + back. -->
+          <path d="M55,222 Q40,200 32,170 L48,164 Q60,196 70,222 Z" fill="url(#p4suitMetal)"/>
+          <path d="M55,222 Q40,200 32,170 L48,164 Q60,196 70,222 Z" fill="url(#p4suitHighlight)"/>
+          <!-- Knee bent (top of bend). -->
+          <ellipse cx="40" cy="168" rx="10" ry="6" fill="url(#p4suitSeam)"/>
+          <!-- Calf folded down to seat. -->
+          <path d="M32,170 Q22,200 30,220 L52,222 Q56,200 48,166 Z" fill="url(#p4suitMetal)"/>
+          <path d="M32,170 Q22,200 30,220 L52,222 Q56,200 48,166 Z" fill="url(#p4suitHighlight)" opacity="0.5"/>
+          <!-- Boot resting on seat. -->
+          <ellipse cx="38" cy="222" rx="14" ry="6" fill="#0a2818"/>
+          <!-- Knee accent. -->
+          <use href="#p4hexNode" x="36" y="178" width="14" height="14"/>
+        </g>
+
+        <!-- Left leg dangling. -->
+        <g id="p4-jink-leg-dangle">
+          <path d="M75,228 Q72,260 76,300 L96,300 Q98,260 95,228 Z" fill="url(#p4suitMetal)"/>
+          <path d="M75,228 Q72,260 76,300 L96,300 Q98,260 95,228 Z" fill="url(#p4suitHighlight)"/>
+          <rect x="76" y="300" width="20" height="4" fill="url(#p4suitSeam)"/>
+          <!-- Lower leg. -->
+          <path d="M76,304 Q74,330 80,348 L94,348 Q98,330 96,304 Z" fill="url(#p4suitMetal)"/>
+          <path d="M76,304 Q74,330 80,348 L94,348 Q98,330 96,304 Z" fill="url(#p4suitHighlight)" opacity="0.5"/>
+          <!-- Boot dangling. -->
+          <path d="M74,348 Q72,358 80,366 L94,366 Q98,358 96,348 Z" fill="#0a2818"/>
+          <!-- Knee accent. -->
+          <use href="#p4hexNode" x="83" y="306" width="12" height="12"/>
+        </g>
+
+        <!-- Torso — leaned slightly back, casual. -->
+        <g id="p4-jink-torso">
+          <path d="M64,140 Q58,180 62,222 L102,222 Q108,200 112,140 Q104,128 84,128 Q68,130 64,140 Z" fill="url(#p4suitMetal)"/>
+          <path d="M64,140 Q58,180 62,222 L102,222 Q108,200 112,140 Q104,128 84,128 Q68,130 64,140 Z" fill="url(#p4suitHighlight)"/>
+
+          <!-- Sternum seam. -->
+          <line x1="86" y1="132" x2="84" y2="220" stroke="#082818" stroke-width="1" opacity="0.7"/>
+
+          <!-- Pectoral plates. -->
+          <path d="M70,158 Q72,180 74,200 L70,200 Q68,180 68,158 Z" fill="#082818" opacity="0.4"/>
+          <path d="M104,158 Q102,180 100,200 L104,200 Q106,180 106,158 Z" fill="#082818" opacity="0.4"/>
+
+          <!-- Abdominal seams. -->
+          <line x1="68" y1="208" x2="106" y2="208" stroke="#082818" stroke-width="0.6" opacity="0.55"/>
+
+          <!-- Chest accent. -->
+          <use href="#p4hexNode" x="78" y="158" width="22" height="22"/>
+          <!-- Shoulder accents. -->
+          <use href="#p4hexNode" x="60" y="138" width="16" height="16"/>
+          <use href="#p4hexNode" x="100" y="138" width="16" height="16"/>
+
+          <!-- Cool prismatic light catching the suit (geometric patterns from viewport). -->
+          <path d="M64,140 L80,180 L70,200 L62,160 Z" fill="#bfe4ff" opacity="0.18"/>
+          <path d="M100,160 L110,200 L98,210 L94,180 Z" fill="#a8f5c8" opacity="0.15"/>
+        </g>
+
+        <!-- Right arm — drumming on knee. -->
+        <g id="p4-jink-arm-drum">
+          <!-- Upper arm angled down to knee. -->
+          <path d="M62,140 Q50,170 50,196 L66,200 Q70,170 70,142 Z" fill="url(#p4suitMetal)"/>
+          <path d="M62,140 Q50,170 50,196 L66,200 Q70,170 70,142 Z" fill="url(#p4suitHighlight)"/>
+          <ellipse cx="58" cy="198" rx="10" ry="4" fill="url(#p4suitSeam)"/>
+          <!-- Forearm angled across to knee. -->
+          <path d="M50,200 Q45,212 50,220 L70,222 Q66,210 66,202 Z" fill="url(#p4suitMetal)"/>
+          <!-- Hand on knee, fingers drumming. -->
+          <ellipse cx="48" cy="218" rx="8" ry="6" fill="url(#p4skinTone)"/>
+          <!-- Drumming finger lines (slight blur to suggest motion). -->
+          <line x1="44" y1="216" x2="40" y2="220" stroke="#5a3818" stroke-width="0.7" opacity="0.7"/>
+          <line x1="46" y1="218" x2="42" y2="222" stroke="#5a3818" stroke-width="0.7" opacity="0.6"/>
+          <use href="#p4hexNode" x="51" y="160" width="14" height="14"/>
+          <ellipse cx="50" cy="208" rx="10" ry="2.5" fill="url(#p4hologramCore)" opacity="0.85"/>
+        </g>
+
+        <!-- Left arm — relaxed at side. -->
+        <g id="p4-jink-arm-rest">
+          <path d="M110,140 Q120,170 120,200 L106,202 Q102,170 102,142 Z" fill="url(#p4suitMetal)"/>
+          <path d="M110,140 Q120,170 120,200 L106,202 Q102,170 102,142 Z" fill="url(#p4suitHighlight)" opacity="0.4"/>
+          <ellipse cx="114" cy="202" rx="10" ry="4" fill="url(#p4suitSeam)"/>
+          <path d="M120,200 Q124,225 120,242 L104,240 Q104,222 106,202 Z" fill="url(#p4suitMetal)"/>
+          <ellipse cx="112" cy="246" rx="9" ry="7" fill="url(#p4skinTone)"/>
+          <use href="#p4hexNode" x="106" y="160" width="14" height="14"/>
+          <ellipse cx="114" cy="232" rx="10" ry="2.5" fill="url(#p4hologramCore)" opacity="0.85"/>
+        </g>
+
+        <!-- Neck. -->
+        <g id="p4-jink-neck">
+          <path d="M80,118 L80,135 L98,135 L98,118 Z" fill="url(#p4skinTone)"/>
+          <path d="M70,128 Q88,118 106,128 L102,140 L74,140 Z" fill="url(#p4suitMetal)"/>
+          <line x1="89" y1="124" x2="89" y2="138" stroke="#082818" stroke-width="0.7" opacity="0.6"/>
+        </g>
+
+        <!-- Head — turned to look sideways at viewport (right). -->
+        <g id="p4-jink-head">
+          <!-- Head shape (slight 3/4 angle since looking right). -->
+          <ellipse cx="92" cy="98" rx="22" ry="28" fill="url(#p4skinTone)"/>
+
+          <!-- Curly blonde hair on top — wild, catching prismatic light. -->
+          <path d="M72,80 Q68,60 78,52 Q88,46 92,52 Q100,46 110,52 Q120,58 116,80 Q114,72 110,70 Q112,62 105,62 Q100,68 92,66 Q88,68 80,62 Q73,62 76,72 Q73,76 72,80 Z" fill="url(#p4hair)"/>
+          <circle cx="78" cy="60" r="5" fill="url(#p4hair)"/>
+          <circle cx="86" cy="54" r="6" fill="url(#p4hair)"/>
+          <circle cx="96" cy="54" r="6" fill="url(#p4hair)"/>
+          <circle cx="106" cy="60" r="5" fill="url(#p4hair)"/>
+          <circle cx="82" cy="66" r="4" fill="url(#p4hair)"/>
+          <circle cx="102" cy="66" r="4" fill="url(#p4hair)"/>
+          <!-- Highlight glints. -->
+          <circle cx="79" cy="56" r="1.3" fill="#fff5d8" opacity="0.85"/>
+          <circle cx="88" cy="50" r="1.5" fill="#fff5d8" opacity="0.9"/>
+          <circle cx="98" cy="50" r="1.3" fill="#fff5d8" opacity="0.85"/>
+
+          <!-- Cool prismatic rim on hair (light from viewport on right). -->
+          <circle cx="106" cy="60" r="5" fill="#bfe4ff" opacity="0.35"/>
+          <circle cx="102" cy="66" r="4" fill="#bfe4ff" opacity="0.3"/>
+
+          <!-- Eyes — looking sideways to the right (at viewport), restless. -->
+          <ellipse cx="88" cy="98" rx="2.6" ry="1.3" fill="#1a0e08"/>
+          <ellipse cx="100" cy="98" rx="2.6" ry="1.3" fill="#1a0e08"/>
+          <!-- Pupils shifted right (looking sideways). -->
+          <ellipse cx="89.5" cy="97.7" rx="0.7" ry="0.4" fill="#ffffff"/>
+          <ellipse cx="101.5" cy="97.7" rx="0.7" ry="0.4" fill="#ffffff"/>
+
+          <!-- Brows — slightly raised (impish). -->
+          <path d="M84,92 Q88,90 92,92" fill="none" stroke="#5a3818" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M96,92 Q100,90 104,92" fill="none" stroke="#5a3818" stroke-width="1.2" stroke-linecap="round"/>
+
+          <!-- Nose. -->
+          <path d="M94,100 L93,108 Q94,110 95,108 Z" fill="#7a4f28" opacity="0.55"/>
+          <!-- Mouth — slight smirk (corner up on right). -->
+          <path d="M88,114 Q94,118 102,113" fill="none" stroke="#3a1d10" stroke-width="1.2" stroke-linecap="round"/>
+        </g>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: dialogue (NOT rotated — keeps reading orientation)   -->
+  <!-- ========================================================== -->
+  <g id="p4-dialogue">
+    <!-- Jink line 1, top. -->
+    <rect x="6" y="14" width="180" height="38" rx="6" fill="white" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="60,52 68,52 56,62" fill="white" stroke="#2ed078" stroke-width="2"/>
+    <line x1="59.5" y1="52" x2="68.5" y2="52" stroke="white" stroke-width="1.5"/>
+    <text x="14" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078">JINK</text>
+    <text x="14" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">How many of these have we done? Twelve?</text>
+
+    <!-- Sable off-panel correction (no tail; off-panel pointer). -->
+    <rect x="148" y="62" width="86" height="38" rx="6" fill="white" stroke="#b0b0b0" stroke-width="2" stroke-dasharray="3,2" filter="url(#balloonShadow)"/>
+    <text x="156" y="80" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#b0b0b0">SABLE (O.P.)</text>
+    <text x="156" y="94" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">Fourteen.</text>
+
+    <!-- Jink line 2. -->
+    <rect x="6" y="280" width="180" height="38" rx="6" fill="white" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="60,318 68,318 56,328" fill="white" stroke="#2ed078" stroke-width="2"/>
+    <line x1="59.5" y1="318" x2="68.5" y2="318" stroke="white" stroke-width="1.5"/>
+    <text x="14" y="298" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078">JINK</text>
+    <text x="14" y="312" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" fill="#1a1a1a">They're starting to blur.</text>
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: panel meta                                           -->
+  <!-- ========================================================== -->
+  <g id="p4-meta">
+    <text x="230" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#888" opacity="0.7">4</text>
+    <text x="234" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#888" opacity="0.6">MED</text>
+  </g>
+
+</svg>

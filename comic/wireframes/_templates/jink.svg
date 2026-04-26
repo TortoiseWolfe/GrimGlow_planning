@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+  <title>Jink — Scout — Clean Suit (Pristine)</title>
+  <desc>Master template for the scout Jink. Emerald metallic suit (full department color, NOT silver base), bright golden-blonde curly hair, light brown skin, androgynous slim athletic build, emerald-white holographic accent nodes, dragonfly wing-pack at back with translucent emerald geometric lattice. Department: Reconnaissance. Visual recipe for per-panel composition.</desc>
+
+  <defs>
+    <!-- Emerald suit metal: rich green, mirror-reflective. -->
+    <linearGradient id="jinkSuitMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7dd9a0"/>
+      <stop offset="20%" stop-color="#4ab078"/>
+      <stop offset="50%" stop-color="#2a8a55"/>
+      <stop offset="80%" stop-color="#16633a"/>
+      <stop offset="100%" stop-color="#0a3a22"/>
+    </linearGradient>
+
+    <linearGradient id="jinkSuitHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8f5e4" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="jinkSuitSeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#082818"/>
+      <stop offset="100%" stop-color="#03140c"/>
+    </linearGradient>
+
+    <!-- Light brown skin. -->
+    <linearGradient id="jinkSkinTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4a575"/>
+      <stop offset="50%" stop-color="#b88758"/>
+      <stop offset="100%" stop-color="#8a6038"/>
+    </linearGradient>
+
+    <!-- Bright golden-blonde curly hair. -->
+    <radialGradient id="jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#fff2c4"/>
+      <stop offset="40%" stop-color="#f5d878"/>
+      <stop offset="80%" stop-color="#d8a838"/>
+      <stop offset="100%" stop-color="#a07820"/>
+    </radialGradient>
+
+    <!-- Emerald-white holographic accent core. -->
+    <radialGradient id="jinkHologramCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#a8f5c8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0.7"/>
+    </radialGradient>
+
+    <radialGradient id="jinkHologramGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a8f5c8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0a3a22" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Wing-pack lattice fill: translucent emerald, geometric. -->
+    <linearGradient id="jinkWingFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8f5c8" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0a3a22" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <filter id="jinkShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+
+    <filter id="jinkHoloBloom" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+
+    <!-- Emerald hex accent node. -->
+    <symbol id="jinkHexNode" viewBox="-10 -10 20 20" overflow="visible">
+      <polygon points="0,-9 7.8,-4.5 7.8,4.5 0,9 -7.8,4.5 -7.8,-4.5" fill="url(#jinkHologramGlow)" filter="url(#jinkHoloBloom)"/>
+      <polygon points="0,-7 6.1,-3.5 6.1,3.5 0,7 -6.1,3.5 -6.1,-3.5" fill="url(#jinkHologramCore)"/>
+      <polygon points="0,-4 3.5,-2 3.5,2 0,4 -3.5,2 -3.5,-2" fill="#ffffff" opacity="0.85"/>
+    </symbol>
+  </defs>
+
+  <rect width="400" height="600" fill="#f5f5f7"/>
+  <ellipse cx="200" cy="582" rx="58" ry="6" fill="#000" opacity="0.22"/>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: wing-pack (BEHIND figure) — dragonfly geometry        -->
+  <!-- ========================================================== -->
+  <g id="jink-wingpack-rear">
+    <!-- Upper wing pair, swept back behind shoulders. Translucent. -->
+    <!-- Left upper wing. -->
+    <path d="M158,250 Q120,235 80,265 Q60,290 80,310 Q120,290 158,278 Z" fill="url(#jinkWingFill)" stroke="#2ed078" stroke-width="0.8" opacity="0.85"/>
+    <!-- Wing internal lattice — geometric crossbeams. -->
+    <line x1="158" y1="258" x2="86" y2="282" stroke="#a8f5c8" stroke-width="0.5" opacity="0.6"/>
+    <line x1="158" y1="268" x2="92" y2="296" stroke="#a8f5c8" stroke-width="0.5" opacity="0.6"/>
+    <line x1="120" y1="248" x2="105" y2="305" stroke="#a8f5c8" stroke-width="0.5" opacity="0.55"/>
+    <line x1="100" y1="262" x2="110" y2="305" stroke="#a8f5c8" stroke-width="0.5" opacity="0.55"/>
+
+    <!-- Right upper wing. -->
+    <path d="M242,250 Q280,235 320,265 Q340,290 320,310 Q280,290 242,278 Z" fill="url(#jinkWingFill)" stroke="#2ed078" stroke-width="0.8" opacity="0.85"/>
+    <line x1="242" y1="258" x2="314" y2="282" stroke="#a8f5c8" stroke-width="0.5" opacity="0.6"/>
+    <line x1="242" y1="268" x2="308" y2="296" stroke="#a8f5c8" stroke-width="0.5" opacity="0.6"/>
+    <line x1="280" y1="248" x2="295" y2="305" stroke="#a8f5c8" stroke-width="0.5" opacity="0.55"/>
+    <line x1="300" y1="262" x2="290" y2="305" stroke="#a8f5c8" stroke-width="0.5" opacity="0.55"/>
+
+    <!-- Lower wing pair, smaller, slightly lower. -->
+    <path d="M160,295 Q130,290 105,318 Q90,338 110,348 Q140,335 162,318 Z" fill="url(#jinkWingFill)" stroke="#2ed078" stroke-width="0.7" opacity="0.7"/>
+    <line x1="160" y1="304" x2="115" y2="328" stroke="#a8f5c8" stroke-width="0.4" opacity="0.5"/>
+    <line x1="130" y1="296" x2="120" y2="338" stroke="#a8f5c8" stroke-width="0.4" opacity="0.5"/>
+
+    <path d="M240,295 Q270,290 295,318 Q310,338 290,348 Q260,335 238,318 Z" fill="url(#jinkWingFill)" stroke="#2ed078" stroke-width="0.7" opacity="0.7"/>
+    <line x1="240" y1="304" x2="285" y2="328" stroke="#a8f5c8" stroke-width="0.4" opacity="0.5"/>
+    <line x1="270" y1="296" x2="280" y2="338" stroke="#a8f5c8" stroke-width="0.4" opacity="0.5"/>
+  </g>
+
+  <g id="jink-figure" filter="url(#jinkShadow)">
+
+    <!-- LAYER: legs (slim scout build) -->
+    <g id="jink-legs">
+      <path d="M172,360 L170,580 L194,580 L196,360 Z" fill="url(#jinkSuitSeam)"/>
+      <path d="M204,360 L206,580 L230,580 L228,360 Z" fill="url(#jinkSuitSeam)"/>
+
+      <path d="M170,360 Q168,400 170,442 L194,442 Q196,400 194,360 Z" fill="url(#jinkSuitMetal)"/>
+      <path d="M170,360 Q168,400 170,442 L194,442 Q196,400 194,360 Z" fill="url(#jinkSuitHighlight)"/>
+      <path d="M206,360 Q204,400 206,442 L230,442 Q232,400 230,360 Z" fill="url(#jinkSuitMetal)"/>
+      <path d="M206,360 Q204,400 206,442 L230,442 Q232,400 230,360 Z" fill="url(#jinkSuitHighlight)" opacity="0.5"/>
+
+      <rect x="170" y="442" width="24" height="6" fill="url(#jinkSuitSeam)"/>
+      <rect x="206" y="442" width="24" height="6" fill="url(#jinkSuitSeam)"/>
+
+      <path d="M172,448 Q170,495 174,540 L192,540 Q196,495 194,448 Z" fill="url(#jinkSuitMetal)"/>
+      <path d="M172,448 Q170,495 174,540 L192,540 Q196,495 194,448 Z" fill="url(#jinkSuitHighlight)"/>
+      <path d="M206,448 Q204,495 208,540 L226,540 Q230,495 228,448 Z" fill="url(#jinkSuitMetal)"/>
+
+      <path d="M170,540 Q168,560 174,575 L194,575 Q196,560 194,540 Z" fill="#0a2818"/>
+      <path d="M170,540 Q168,560 174,575 L194,575 Q196,560 194,540 Z" fill="url(#jinkSuitHighlight)" opacity="0.4"/>
+      <path d="M206,540 Q204,560 210,575 L226,575 Q230,560 228,540 Z" fill="#0a2818"/>
+
+      <use href="#jinkHexNode" x="183" y="445" width="12" height="12"/>
+      <use href="#jinkHexNode" x="218" y="445" width="12" height="12"/>
+    </g>
+
+    <!-- LAYER: torso (slim, athletic) -->
+    <g id="jink-torso">
+      <path d="M162,340 L238,340 L236,365 L164,365 Z" fill="url(#jinkSuitSeam)"/>
+
+      <!-- Slim chest plate, less bulky than Sable. -->
+      <path d="M162,235 Q156,280 162,340 L238,340 Q244,280 238,235 Q234,228 200,228 Q166,228 162,235 Z" fill="url(#jinkSuitMetal)"/>
+      <path d="M162,235 Q156,280 162,340 L238,340 Q244,280 238,235 Q234,228 200,228 Q166,228 162,235 Z" fill="url(#jinkSuitHighlight)"/>
+
+      <line x1="200" y1="232" x2="200" y2="338" stroke="#082818" stroke-width="1" opacity="0.7"/>
+
+      <!-- Athletic chest segmentation. -->
+      <path d="M174,255 Q178,278 180,295 L176,295 Q174,275 174,255 Z" fill="#082818" opacity="0.4"/>
+      <path d="M226,255 Q222,278 220,295 L224,295 Q226,275 226,255 Z" fill="#082818" opacity="0.4"/>
+
+      <line x1="172" y1="305" x2="228" y2="305" stroke="#082818" stroke-width="0.7" opacity="0.55"/>
+      <line x1="174" y1="318" x2="226" y2="318" stroke="#082818" stroke-width="0.7" opacity="0.55"/>
+
+      <!-- Hip pouches (scout gear). -->
+      <rect x="160" y="345" width="14" height="20" fill="#0a2818" rx="1"/>
+      <rect x="226" y="345" width="14" height="20" fill="#0a2818" rx="1"/>
+
+      <!-- Chest accent (large). -->
+      <use href="#jinkHexNode" x="186" y="262" width="28" height="28"/>
+      <!-- Shoulder accents. -->
+      <use href="#jinkHexNode" x="160" y="245" width="20" height="20"/>
+      <use href="#jinkHexNode" x="220" y="245" width="20" height="20"/>
+      <!-- Hip accents. -->
+      <use href="#jinkHexNode" x="192" y="324" width="14" height="14"/>
+    </g>
+
+    <!-- LAYER: arms (lean, scout-fit) -->
+    <g id="jink-arms">
+      <path d="M152,238 Q138,275 136,318 L154,322 Q160,275 162,240 Z" fill="url(#jinkSuitMetal)"/>
+      <path d="M152,238 Q138,275 136,318 L154,322 Q160,275 162,240 Z" fill="url(#jinkSuitHighlight)"/>
+      <ellipse cx="145" cy="320" rx="12" ry="5" fill="url(#jinkSuitSeam)"/>
+      <path d="M136,322 Q134,355 138,388 L156,388 Q154,355 154,322 Z" fill="url(#jinkSuitMetal)"/>
+      <ellipse cx="146" cy="395" rx="10" ry="8" fill="url(#jinkSkinTone)"/>
+      <use href="#jinkHexNode" x="139" y="265" width="13" height="13"/>
+      <ellipse cx="146" cy="386" rx="11" ry="3" fill="url(#jinkHologramCore)" opacity="0.85"/>
+
+      <path d="M248,238 Q262,275 264,318 L246,322 Q240,275 238,240 Z" fill="url(#jinkSuitMetal)"/>
+      <path d="M248,238 Q262,275 264,318 L246,322 Q240,275 238,240 Z" fill="url(#jinkSuitHighlight)" opacity="0.4"/>
+      <ellipse cx="255" cy="320" rx="12" ry="5" fill="url(#jinkSuitSeam)"/>
+      <path d="M264,322 Q266,355 262,388 L244,388 Q246,355 246,322 Z" fill="url(#jinkSuitMetal)"/>
+      <ellipse cx="254" cy="395" rx="10" ry="8" fill="url(#jinkSkinTone)"/>
+      <use href="#jinkHexNode" x="248" y="265" width="13" height="13"/>
+      <ellipse cx="254" cy="386" rx="11" ry="3" fill="url(#jinkHologramCore)" opacity="0.85"/>
+    </g>
+
+    <!-- LAYER: head (androgynous features, bright curly blonde hair) -->
+    <g id="jink-head">
+      <path d="M190,205 L190,232 L210,232 L210,205 Z" fill="url(#jinkSkinTone)"/>
+      <path d="M180,222 Q200,212 220,222 L216,235 L184,235 Z" fill="url(#jinkSuitMetal)"/>
+      <line x1="200" y1="218" x2="200" y2="234" stroke="#082818" stroke-width="0.8" opacity="0.6"/>
+
+      <ellipse cx="200" cy="180" rx="26" ry="32" fill="url(#jinkSkinTone)"/>
+
+      <!-- Curly hair: short on sides, tall wild curls on top. Tight skull coverage at sides + scattered curl clumps at varied heights/sizes for genuine 3D tousle. -->
+      <!-- Tight side coverage (short, hugs scalp). -->
+      <path d="M174,160 Q173,150 178,144 Q184,148 184,160 Z" fill="url(#jinkHair)"/>
+      <path d="M226,160 Q227,150 222,144 Q216,148 216,160 Z" fill="url(#jinkHair)"/>
+      <!-- Top scalp base (so individual curls have something to anchor to). -->
+      <path d="M178,150 Q200,142 222,150 Q220,156 200,154 Q180,156 178,150 Z" fill="url(#jinkHair)"/>
+      <!-- INDIVIDUAL CURL CLUMPS — varied sizes, varied heights, varied positions. The tousle. -->
+      <!-- Front-row clumps (tallest, most visible). -->
+      <circle cx="186" cy="138" r="6" fill="url(#jinkHair)"/>
+      <circle cx="194" cy="130" r="7" fill="url(#jinkHair)"/>
+      <circle cx="204" cy="128" r="7.5" fill="url(#jinkHair)"/>
+      <circle cx="214" cy="134" r="6" fill="url(#jinkHair)"/>
+      <!-- Mid-row clumps (slightly behind, smaller). -->
+      <circle cx="180" cy="146" r="4" fill="url(#jinkHair)"/>
+      <circle cx="190" cy="142" r="5" fill="url(#jinkHair)" opacity="0.95"/>
+      <circle cx="200" cy="140" r="5.5" fill="url(#jinkHair)" opacity="0.95"/>
+      <circle cx="210" cy="142" r="5" fill="url(#jinkHair)" opacity="0.95"/>
+      <circle cx="220" cy="146" r="4" fill="url(#jinkHair)"/>
+      <!-- Rim curls peeking up at top. -->
+      <circle cx="198" cy="123" r="3" fill="url(#jinkHair)"/>
+      <circle cx="208" cy="123" r="3" fill="url(#jinkHair)"/>
+      <!-- Dark separation between clumps so they READ as separate curls, not a blob. -->
+      <g stroke="#5a3818" stroke-width="0.6" fill="none" opacity="0.7">
+        <path d="M192,138 Q190,142 188,144"/>
+        <path d="M199,134 Q201,138 203,134"/>
+        <path d="M210,134 Q210,138 209,141"/>
+        <path d="M186,144 Q188,148 192,148"/>
+        <path d="M204,144 Q205,148 208,146"/>
+      </g>
+      <!-- Highlight glints on curl tops (catching light). -->
+      <ellipse cx="187" cy="135" rx="1.6" ry="0.9" fill="#fff5d8" opacity="0.9"/>
+      <ellipse cx="195" cy="127" rx="1.8" ry="1" fill="#fff5d8" opacity="0.95"/>
+      <ellipse cx="205" cy="125" rx="1.8" ry="1" fill="#fff5d8" opacity="0.95"/>
+      <ellipse cx="214" cy="131" rx="1.6" ry="0.9" fill="#fff5d8" opacity="0.9"/>
+      <ellipse cx="200" cy="138" rx="1.4" ry="0.8" fill="#fff5d8" opacity="0.7"/>
+      <!-- Stray escaped curls at temples. -->
+      <path d="M180,148 Q177,154 175,160" fill="none" stroke="#a07820" stroke-width="0.8" stroke-linecap="round" opacity="0.85"/>
+      <path d="M220,148 Q223,154 225,160" fill="none" stroke="#a07820" stroke-width="0.8" stroke-linecap="round" opacity="0.85"/>
+
+      <!-- Eyes — bright, mischievous (Jink quips and grins). -->
+      <ellipse cx="190" cy="178" rx="3" ry="1.6" fill="#1a0e08"/>
+      <ellipse cx="210" cy="178" rx="3" ry="1.6" fill="#1a0e08"/>
+      <ellipse cx="190.6" cy="177.5" rx="0.7" ry="0.5" fill="#ffffff"/>
+      <ellipse cx="210.6" cy="177.5" rx="0.7" ry="0.5" fill="#ffffff"/>
+      <!-- Brows — slightly raised (impish). -->
+      <path d="M184,170 Q190,168 196,170" fill="none" stroke="#5a3818" stroke-width="1.3" stroke-linecap="round"/>
+      <path d="M204,170 Q210,168 216,170" fill="none" stroke="#5a3818" stroke-width="1.3" stroke-linecap="round"/>
+      <!-- Nose. -->
+      <path d="M200,180 L198,192 Q200,194 202,192 Z" fill="#7a4f28" opacity="0.55"/>
+      <!-- Mouth — slight smirk. -->
+      <path d="M193,200 Q198,203 207,199" fill="none" stroke="#3a1d10" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+
+  </g>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: wear-state overlays                                  -->
+  <!-- ========================================================== -->
+
+  <g id="jink-wear-clean" display="inline"/>
+
+  <g id="jink-wear-fresh-impact" display="none">
+    <!-- Issue 1 post-crash: minor scuffs, wing-pack functional. -->
+    <line x1="178" y1="290" x2="195" y2="305" stroke="#0a2810" stroke-width="1.1" opacity="0.65"/>
+    <line x1="208" y1="295" x2="222" y2="312" stroke="#0a2810" stroke-width="1.0" opacity="0.6"/>
+    <ellipse cx="170" cy="395" rx="6" ry="3" fill="#0a2810" opacity="0.6"/>
+  </g>
+
+  <g id="jink-wear-mid-mission" display="none">
+    <path d="M162,235 Q156,280 162,340 L238,340 Q244,280 238,235" fill="#0a0604" opacity="0.18"/>
+    <path d="M170,360 L194,442 L170,442 Z" fill="#0a0604" opacity="0.22"/>
+    <path d="M206,360 L230,442 L206,442 Z" fill="#0a0604" opacity="0.22"/>
+    <line x1="172" y1="270" x2="190" y2="295" stroke="#082010" stroke-width="0.8" opacity="0.65"/>
+    <line x1="218" y1="280" x2="232" y2="305" stroke="#082010" stroke-width="0.6" opacity="0.55"/>
+  </g>
+
+  <g id="jink-wear-heavy" display="none">
+    <path d="M162,235 Q156,280 162,340 L238,340 Q244,280 238,235" fill="#040201" opacity="0.42"/>
+    <path d="M170,360 L194,442 L170,442 Z" fill="#040201" opacity="0.45"/>
+    <path d="M206,360 L230,442 L206,442 Z" fill="#040201" opacity="0.45"/>
+    <line x1="178" y1="262" x2="218" y2="295" stroke="#080a06" stroke-width="0.9" opacity="0.85"/>
+    <line x1="210" y1="248" x2="225" y2="278" stroke="#080a06" stroke-width="0.7" opacity="0.75"/>
+  </g>
+
+</svg>
