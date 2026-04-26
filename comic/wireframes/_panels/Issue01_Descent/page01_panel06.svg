@@ -172,20 +172,36 @@
       <path d="M68,100 Q64,160 76,210 L88,206 Q80,160 84,104 Z" fill="url(#p6hair)"/>
       <path d="M180,100 Q184,160 172,210 L160,206 Q168,160 164,104 Z" fill="url(#p6hair)"/>
 
-      <!-- THE BRAID: pulled fully back over right shoulder, partially visible behind head and over shoulder. -->
-      <!-- Braid trunk emerging from back of head, draping over right shoulder. -->
-      <path d="M168,200 Q176,230 188,260 Q196,290 188,322 L172,322 Q178,290 174,260 Q166,230 158,202 Z" fill="url(#p6hair)"/>
-      <!-- Braid texture rungs. -->
-      <path d="M164,210 Q174,213 184,210" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
-      <path d="M166,228 Q176,231 186,228" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
-      <path d="M168,246 Q178,249 188,246" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
-      <path d="M170,266 Q180,269 190,266" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
-      <path d="M172,286 Q182,289 192,286" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
-      <path d="M174,306 Q184,309 192,306" fill="none" stroke="#040201" stroke-width="1.2" opacity="0.85"/>
-      <!-- Braid highlight strand. -->
-      <path d="M170,210 Q176,250 180,290 Q182,316 178,322" fill="none" stroke="#3a2818" stroke-width="0.7" opacity="0.7"/>
-      <!-- Braid tip tie. -->
-      <ellipse cx="184" cy="328" rx="6" ry="3.5" fill="#0a0604"/>
+      <!-- THE BRAID — THICK rope draped over right shoulder per _templates/luma.svg lines 168-200.
+           Scaled to this CU panel: ~36px wide so it READS as a thick rope, not a thin line. -->
+      <!-- Braid main trunk (wider than v1: 36px instead of 30px). -->
+      <path d="M158,200 Q172,230 192,260 Q200,290 192,332 L168,336 Q178,290 168,258 Q156,228 148,202 Z" fill="url(#p6hair)"/>
+      <!-- Inner shadow giving the braid 3D form. -->
+      <path d="M168,218 Q180,244 188,272 Q194,300 186,326" fill="none" stroke="#040201" stroke-width="3" opacity="0.5"/>
+      <!-- Braid PLAIT segments — alternating S-curves showing the woven structure. -->
+      <g stroke="#040201" stroke-width="1.6" fill="none" opacity="0.9">
+        <path d="M156,222 Q170,225 188,222"/>
+        <path d="M158,234 Q172,231 192,234"/>
+        <path d="M160,248 Q174,251 192,248"/>
+        <path d="M162,262 Q176,259 192,262"/>
+        <path d="M164,276 Q178,279 192,276"/>
+        <path d="M166,290 Q180,287 190,290"/>
+        <path d="M168,304 Q180,307 190,304"/>
+        <path d="M170,318 Q180,315 188,318"/>
+      </g>
+      <!-- Highlight strands following the braid's twist (catching light on the upper side). -->
+      <g stroke="#5a4030" stroke-width="0.9" fill="none" opacity="0.7">
+        <path d="M156,216 Q164,234 172,254"/>
+        <path d="M170,236 Q180,260 184,290"/>
+        <path d="M180,272 Q186,300 188,326"/>
+      </g>
+      <!-- Braid tie at the tip (small dark band wrapping the end). -->
+      <ellipse cx="180" cy="338" rx="11" ry="4.5" fill="#040201"/>
+      <ellipse cx="180" cy="337" rx="9" ry="2.5" fill="#1a0e08"/>
+      <!-- Tassel wisps escaping below the tie. -->
+      <path d="M174,342 L172,352" stroke="#0a0604" stroke-width="0.8" opacity="0.85"/>
+      <path d="M180,343 L180,354" stroke="#0a0604" stroke-width="0.8" opacity="0.85"/>
+      <path d="M186,342 L188,352" stroke="#0a0604" stroke-width="0.8" opacity="0.85"/>
 
       <!-- Blue-violet key light catching face from lenses. -->
       <ellipse cx="124" cy="142" rx="50" ry="30" fill="#7a52d8" opacity="0.18"/>
