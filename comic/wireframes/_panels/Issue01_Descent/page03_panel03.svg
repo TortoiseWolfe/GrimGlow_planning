@@ -60,6 +60,11 @@
     <filter id="p3p3dropShadow" x="-50%" y="-50%" width="200%" height="200%">
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.5"/>
     </filter>
+
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
   </defs>
 
   <!-- 10° dutch tilt. -->
@@ -227,13 +232,14 @@
   <!-- LAYER: dialogue                                             -->
   <!-- ========================================================== -->
   <g id="p3p3-dialogue">
-    <rect x="6" y="14" width="226" height="68" rx="6" fill="white" stroke="#c87a35" stroke-width="2" opacity="0.95"/>
-    <polygon points="100,82 112,82 92,98" fill="white" stroke="#c87a35" stroke-width="1.5"/>
+    <rect x="6" y="14" width="226" height="76" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="100,90 112,90 92,106" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="101" y1="90" x2="111" y2="90" stroke="#ffffff" stroke-width="3"/>
     <line x1="100" y1="82" x2="112" y2="82" stroke="white" stroke-width="2"/>
-    <text x="14" y="32" font-family="Impact, sans-serif" font-size="13" font-weight="900" fill="#c87a35">WREN</text>
-    <text x="14" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#1a0408">Hull breach port side! Drive</text>
-    <text x="14" y="62" font-family="Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#1a0408">field's destabilizing — we're</text>
-    <text x="14" y="76" font-family="Helvetica Neue, Arial, sans-serif" font-size="10.5" fill="#1a0408">losing corridor integrity!</text>
+    <text x="16" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="16" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Hull breach port side! Drive</text>
+    <text x="16" y="66" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">field's destabilizing — we're</text>
+    <text x="16" y="82" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">losing corridor integrity!</text>
   </g>
 
   <g id="p3p3-meta">

@@ -92,6 +92,11 @@
     <filter id="p3p1dropShadow" x="-50%" y="-50%" width="200%" height="200%">
       <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.45"/>
     </filter>
+
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
   </defs>
 
   <!-- Apply 25° dutch tilt to entire scene. -->
@@ -413,12 +418,13 @@
       <text x="82" y="98" font-family="Impact, sans-serif" font-size="72" font-weight="900" fill="#ffe080" stroke="none" transform="rotate(-8 82 98)">KRAAANG</text>
     </g>
 
-    <!-- Wren CONTACT—! shout balloon. -->
-    <rect x="568" y="32" width="160" height="42" rx="6" fill="white" stroke="#c87a35" stroke-width="2" opacity="0.95"/>
-    <polygon points="630,74 642,74 622,90" fill="white" stroke="#c87a35" stroke-width="1.5"/>
-    <line x1="630" y1="74" x2="642" y2="74" stroke="white" stroke-width="2"/>
-    <text x="576" y="50" font-family="Impact, sans-serif" font-size="13" font-weight="900" fill="#c87a35">WREN</text>
-    <text x="576" y="68" font-family="Impact, sans-serif" font-size="18" font-weight="900" fill="#1a0408">CONTACT—!</text>
+    <!-- Wren CONTACT—! shout balloon — per dialogue-style.md (Helvetica Neue, balloonShadow, 14/13pt).
+         Body bolder than baseline (700 weight) since it's a shout, but still spec-compliant. -->
+    <rect x="568" y="32" width="160" height="50" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="630,82 642,82 622,98" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="631" y1="82" x2="641" y2="82" stroke="#ffffff" stroke-width="3"/>
+    <text x="578" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="578" y="70" font-family="Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="800" fill="#1a0408">CONTACT—!</text>
   </g>
 
   <!-- ========================================================== -->

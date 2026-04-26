@@ -52,6 +52,11 @@
     <filter id="p3p4strongBloom" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="5"/>
     </filter>
+
+    <!-- Shared balloon drop shadow (dialogue-style.md). -->
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
   </defs>
 
   <!-- ========================================================== -->
@@ -185,10 +190,10 @@
   <!-- LAYER: dialogue (Thresh off-panel)                          -->
   <!-- ========================================================== -->
   <g id="p3p4-dialogue">
-    <rect x="6" y="14" width="226" height="56" rx="6" fill="white" stroke="#dc2030" stroke-width="2" stroke-dasharray="3,2" opacity="0.95"/>
-    <text x="14" y="32" font-family="Impact, sans-serif" font-size="13" font-weight="900" fill="#dc2030">THRESH (O.P.)</text>
-    <text x="14" y="48" font-family="Impact, sans-serif" font-size="14" font-weight="900" fill="#1a0408">Contact in the corridor!</text>
-    <text x="14" y="62" font-family="Impact, sans-serif" font-size="14" font-weight="900" fill="#1a0408">Something's IN here with us!</text>
+    <rect x="6" y="14" width="226" height="64" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="16" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH (O.P.)</text>
+    <text x="16" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Contact in the corridor!</text>
+    <text x="16" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Something's IN here with us!</text>
   </g>
 
   <g id="p3p4-meta">
