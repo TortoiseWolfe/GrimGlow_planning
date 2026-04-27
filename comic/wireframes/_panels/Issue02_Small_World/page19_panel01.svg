@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 340" width="742" height="340">
+  <title>Issue 2 — Page 19 — Panel 1: Human-scale street at night, building exterior, the gap invisible</title>
+  <desc>Wide 28mm human scale eye level. Narrow Victorian street night row terraced buildings London stock brick soot-stained three stories shuttered shop fronts ground level. Cast-iron gas lamp pavement warm amber across brick facade. One building unremarkable — gap where half-brick crumbled near ground level partially obscured cast-iron drainpipe. Insignificant maintenance defect. But deep inside gap barely visible faintest blue-white geometric — fairy light almost invisible. Empty street wet cobblestones reflect amber. Cat walks far pavement. Building holds secret city cannot see. CAPTION five soldiers from end of time hidden gap wall / CAPTION city walked past never looked down.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p19p1nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p19p1brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p19p1cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4a30"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <radialGradient id="p19p1lampGlow">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="80%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p19p1tinyBlue">
+      <stop offset="0%" stop-color="#a8d8f8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a4868" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p19p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p19p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p19p1deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG night sky. -->
+  <rect width="742" height="60" fill="url(#p19p1nightSky)"/>
+
+  <!-- Stars. -->
+  <g fill="#dce4f0" opacity="0.55">
+    <circle cx="80" cy="20" r="0.4"/>
+    <circle cx="200" cy="15" r="0.4"/>
+    <circle cx="380" cy="25" r="0.4"/>
+    <circle cx="500" cy="18" r="0.4"/>
+    <circle cx="640" cy="22" r="0.4"/>
+  </g>
+
+  <!-- BUILDING ROW — three terraced buildings, full height. -->
+  <rect x="0" y="60" width="742" height="220" fill="url(#p19p1brick)" stroke="#080404" stroke-width="0.85"/>
+  <!-- Building dividers. -->
+  <line x1="240" y1="60" x2="240" y2="280" stroke="#080404" stroke-width="1.4"/>
+  <line x1="500" y1="60" x2="500" y2="280" stroke="#080404" stroke-width="1.4"/>
+
+  <!-- Brick courses. -->
+  <g stroke="#080404" stroke-width="0.4" opacity="0.65">
+    <line x1="0" y1="80" x2="742" y2="80"/>
+    <line x1="0" y1="100" x2="742" y2="100"/>
+    <line x1="0" y1="120" x2="742" y2="120"/>
+    <line x1="0" y1="140" x2="742" y2="140"/>
+    <line x1="0" y1="160" x2="742" y2="160"/>
+    <line x1="0" y1="180" x2="742" y2="180"/>
+    <line x1="0" y1="200" x2="742" y2="200"/>
+    <line x1="0" y1="220" x2="742" y2="220"/>
+    <line x1="0" y1="240" x2="742" y2="240"/>
+  </g>
+
+  <!-- Soot streaks/staining. -->
+  <g fill="#080404" opacity="0.55">
+    <ellipse cx="60" cy="120" rx="20" ry="22"/>
+    <ellipse cx="320" cy="140" rx="22" ry="24"/>
+    <ellipse cx="560" cy="110" rx="18" ry="22"/>
+    <ellipse cx="140" cy="200" rx="18" ry="20"/>
+    <ellipse cx="420" cy="190" rx="16" ry="18"/>
+    <ellipse cx="640" cy="200" rx="20" ry="22"/>
+  </g>
+
+  <!-- WINDOWS upper stories — sash, mostly dark. -->
+  <g fill="#1a1010" stroke="#080404" stroke-width="0.7">
+    <!-- Building 1. -->
+    <rect x="40" y="80" width="40" height="50" rx="1"/>
+    <rect x="100" y="80" width="40" height="50" rx="1"/>
+    <rect x="160" y="80" width="40" height="50" rx="1"/>
+    <rect x="40" y="148" width="40" height="50" rx="1"/>
+    <rect x="100" y="148" width="40" height="50" rx="1"/>
+    <rect x="160" y="148" width="40" height="50" rx="1"/>
+    <!-- Building 2. -->
+    <rect x="270" y="80" width="40" height="50" rx="1"/>
+    <rect x="330" y="80" width="40" height="50" rx="1"/>
+    <rect x="390" y="80" width="40" height="50" rx="1"/>
+    <rect x="270" y="148" width="40" height="50" rx="1"/>
+    <rect x="330" y="148" width="40" height="50" rx="1"/>
+    <rect x="390" y="148" width="40" height="50" rx="1"/>
+    <!-- Building 3. -->
+    <rect x="530" y="80" width="40" height="50" rx="1"/>
+    <rect x="590" y="80" width="40" height="50" rx="1"/>
+    <rect x="650" y="80" width="40" height="50" rx="1"/>
+    <rect x="530" y="148" width="40" height="50" rx="1"/>
+    <rect x="590" y="148" width="40" height="50" rx="1"/>
+    <rect x="650" y="148" width="40" height="50" rx="1"/>
+  </g>
+  <!-- Sash window cross-bars. -->
+  <g stroke="#3a2010" stroke-width="0.5" opacity="0.85">
+    <line x1="60" y1="80" x2="60" y2="130"/>
+    <line x1="40" y1="105" x2="80" y2="105"/>
+    <line x1="120" y1="80" x2="120" y2="130"/>
+    <line x1="100" y1="105" x2="140" y2="105"/>
+    <line x1="180" y1="80" x2="180" y2="130"/>
+    <line x1="160" y1="105" x2="200" y2="105"/>
+    <line x1="290" y1="80" x2="290" y2="130"/>
+    <line x1="270" y1="105" x2="310" y2="105"/>
+    <line x1="350" y1="80" x2="350" y2="130"/>
+    <line x1="330" y1="105" x2="370" y2="105"/>
+    <line x1="410" y1="80" x2="410" y2="130"/>
+    <line x1="390" y1="105" x2="430" y2="105"/>
+    <line x1="550" y1="80" x2="550" y2="130"/>
+    <line x1="530" y1="105" x2="570" y2="105"/>
+    <line x1="610" y1="80" x2="610" y2="130"/>
+    <line x1="590" y1="105" x2="630" y2="105"/>
+    <line x1="670" y1="80" x2="670" y2="130"/>
+    <line x1="650" y1="105" x2="690" y2="105"/>
+  </g>
+  <!-- One window faintly lit. -->
+  <ellipse cx="400" cy="110" rx="14" ry="22" fill="#f5b860" opacity="0.45" filter="url(#p19p1bloom)"/>
+
+  <!-- Shop fronts (shuttered). -->
+  <g fill="#3a2818" stroke="#080404" stroke-width="0.85">
+    <rect x="20" y="220" width="200" height="60" rx="1"/>
+    <rect x="260" y="220" width="200" height="60" rx="1"/>
+    <rect x="520" y="220" width="200" height="60" rx="1"/>
+  </g>
+  <!-- Shutter slats. -->
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.85">
+    <line x1="20" y1="232" x2="220" y2="232"/>
+    <line x1="20" y1="244" x2="220" y2="244"/>
+    <line x1="20" y1="256" x2="220" y2="256"/>
+    <line x1="20" y1="268" x2="220" y2="268"/>
+    <line x1="260" y1="232" x2="460" y2="232"/>
+    <line x1="260" y1="244" x2="460" y2="244"/>
+    <line x1="260" y1="256" x2="460" y2="256"/>
+    <line x1="260" y1="268" x2="460" y2="268"/>
+    <line x1="520" y1="232" x2="720" y2="232"/>
+    <line x1="520" y1="244" x2="720" y2="244"/>
+    <line x1="520" y1="256" x2="720" y2="256"/>
+    <line x1="520" y1="268" x2="720" y2="268"/>
+  </g>
+
+  <!-- COBBLESTONE STREET. -->
+  <rect x="0" y="280" width="742" height="60" fill="url(#p19p1cobble)"/>
+  <g stroke="#080404" stroke-width="0.5" opacity="0.85">
+    <rect x="20" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="65" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="110" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="155" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="200" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="245" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="290" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="335" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="380" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="425" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="470" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="515" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="560" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="605" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="650" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="695" y="285" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="40" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="85" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="130" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="175" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="220" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="265" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="310" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="355" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="400" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="445" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="490" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="535" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="580" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="625" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="670" y="305" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="715" y="305" width="20" height="14" fill="#3a2818" rx="2"/>
+    <rect x="20" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="65" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="110" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="155" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="200" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="245" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="290" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="335" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="380" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="425" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="470" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="515" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="560" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="605" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="650" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+    <rect x="695" y="325" width="40" height="14" fill="#3a2818" rx="2"/>
+  </g>
+  <!-- Wet sheen. -->
+  <g fill="#a8b0bc" opacity="0.45" filter="url(#p19p1bloom)">
+    <ellipse cx="100" cy="295" rx="40" ry="2"/>
+    <ellipse cx="280" cy="312" rx="40" ry="2"/>
+    <ellipse cx="500" cy="295" rx="40" ry="2"/>
+    <ellipse cx="640" cy="312" rx="40" ry="2"/>
+  </g>
+  <!-- Amber sheen reflection from gas lamp. -->
+  <g fill="#f5b860" opacity="0.45" filter="url(#p19p1bloom)">
+    <ellipse cx="540" cy="295" rx="80" ry="3"/>
+    <ellipse cx="560" cy="315" rx="80" ry="3"/>
+  </g>
+
+  <!-- GAS LAMP on pavement. -->
+  <g id="p19p1-lamp">
+    <line x1="540" y1="280" x2="540" y2="80" stroke="#1a1010" stroke-width="2.5"/>
+    <rect x="534" y="60" width="12" height="22" rx="1" fill="#3a2010" stroke="#080404" stroke-width="0.5"/>
+    <rect x="530" y="48" width="20" height="14" rx="1" fill="#1a1010" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="540" cy="64" rx="200" ry="160" fill="url(#p19p1lampGlow)" filter="url(#p19p1deepBloom)" opacity="0.85"/>
+    <ellipse cx="540" cy="62" rx="3" ry="6" fill="#ffffff" filter="url(#p19p1strongBloom)" opacity="0.95"/>
+  </g>
+
+  <!-- DRAINPIPE running down beside the gap. -->
+  <rect x="290" y="100" width="14" height="180" fill="#1a1010" stroke="#080404" stroke-width="0.5"/>
+  <!-- Bracket. -->
+  <rect x="286" y="180" width="22" height="6" fill="#080404"/>
+
+  <!-- THE GAP — small dark hole in brickwork ground level (center building, near drainpipe). -->
+  <g id="p19p1-gap">
+    <rect x="320" y="262" width="14" height="18" fill="#080404" stroke="#1a0808" stroke-width="0.5"/>
+    <!-- FAINTEST blue glow inside gap (almost imperceptible). -->
+    <ellipse cx="327" cy="271" rx="6" ry="8" fill="url(#p19p1tinyBlue)" filter="url(#p19p1strongBloom)" opacity="0.65"/>
+    <circle cx="327" cy="271" r="1" fill="#a8d8f8" opacity="0.55" filter="url(#p19p1bloom)"/>
+  </g>
+
+  <!-- Cat walking far pavement. -->
+  <g id="p19p1-cat" transform="translate(660, 295)">
+    <path d="M-12,0 Q-8,-6 0,-6 Q8,-6 12,0 Q14,4 12,8 L-12,8 Q-14,4 -12,0 Z" fill="#1a0e08"/>
+    <path d="M-12,0 L-10,-2 L-8,0 L-12,0" fill="#1a0e08"/>
+    <path d="M8,-6 L10,-10 L12,-6" fill="#1a0e08"/>
+    <path d="M-8,-6 L-10,-10 L-6,-6" fill="#1a0e08"/>
+    <!-- Tail. -->
+    <path d="M12,4 Q18,2 20,-2" stroke="#1a0e08" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- DIALOGUE — CAPTIONS. -->
+  <g id="p19p1-cap1">
+    <rect x="14" y="14" width="380" height="40" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" font-style="italic" fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-style="italic" fill="#5a4a30">Five soldiers from the end of time, hidden in a gap in a wall.</text>
+  </g>
+  <g id="p19p1-cap2">
+    <rect x="14" y="62" width="380" height="40" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="24" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-style="italic" fill="#5a4a30">The city walked past them and never looked down.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p19p1-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">1</text>
+    <text x="738" y="332" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">SCALE RESET</text>
+  </g>
+</svg>
