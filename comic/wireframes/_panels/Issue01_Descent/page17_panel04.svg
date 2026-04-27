@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 450" width="247" height="450">
+  <title>Issue 1 — Page 17 — Panel 4: Wren calculating — close-up engineer's reflex</title>
+  <desc>CU eye level 85mm. Wren's face DOMINATES frame — past verdict into active calculation. Eyes move slightly running numbers. Faintest crease between brows. Copper-gold from suit holographic nodes catches cheekbones + oil stains on neck. Warm amber from city below adds second warm tone. Engineer's reflex — already rebuilding. The copper-gold light is her element. Hair UP in messy bun. WREN: "Everything. Precision gears, optical lenses, copper coils, a conductor matrix..." (she's already listing)</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p17p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1808"/>
+      <stop offset="100%" stop-color="#5a3010"/>
+    </linearGradient>
+    <radialGradient id="p17p4amber" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p17p4copperGold">
+      <stop offset="0%" stop-color="#f5b870" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3010" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p17p4copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#5a3010"/>
+    </linearGradient>
+    <filter id="p17p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p17p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p17p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG warm copper toned (her element). -->
+  <rect width="247" height="450" fill="url(#p17p4bg)"/>
+  <!-- Strong amber from below. -->
+  <ellipse cx="124" cy="450" rx="350" ry="280" fill="url(#p17p4amber)" filter="url(#p17p4deepBloom)" opacity="0.95"/>
+  <!-- Copper-gold ambient haze from suit nodes (her element). -->
+  <ellipse cx="124" cy="220" rx="200" ry="180" fill="url(#p17p4copperGold)" filter="url(#p17p4deepBloom)" opacity="0.55"/>
+
+  <!-- WREN FACE — dominant close-up. -->
+  <g id="p17p4-wren" transform="translate(124, 220)">
+
+    <!-- SUIT collar + shoulders extending below. -->
+    <path d="M-110,180 L-100,140 L-50,110 L-30,90 L30,90 L50,110 L100,140 L110,180 L110,250 L-110,250 Z" fill="url(#p17p4copper)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Copper accent seams. -->
+    <line x1="-50" y1="115" x2="-30" y2="92" stroke="#f5a868" stroke-width="0.8" opacity="0.85" filter="url(#p17p4bloom)"/>
+    <line x1="50" y1="115" x2="30" y2="92" stroke="#f5a868" stroke-width="0.8" opacity="0.85" filter="url(#p17p4bloom)"/>
+
+    <!-- HOLOGRAPHIC SUIT NODES on shoulders (script: copper-gold from suit's holographic nodes). -->
+    <ellipse cx="-50" cy="120" rx="6" ry="3.5" fill="#f5b870" filter="url(#p17p4bloom)" opacity="0.95"/>
+    <ellipse cx="50" cy="120" rx="6" ry="3.5" fill="#f5b870" filter="url(#p17p4bloom)" opacity="0.95"/>
+    <!-- Copper-gold halo around shoulder nodes. -->
+    <ellipse cx="-50" cy="120" rx="14" ry="9" fill="#f5b870" filter="url(#p17p4strongBloom)" opacity="0.55"/>
+    <ellipse cx="50" cy="120" rx="14" ry="9" fill="#f5b870" filter="url(#p17p4strongBloom)" opacity="0.55"/>
+    <!-- Throat-collar holo node. -->
+    <ellipse cx="0" cy="100" rx="5" ry="2.5" fill="#f5b870" filter="url(#p17p4bloom)" opacity="0.95"/>
+
+    <!-- NECK with OIL STAINS (script-specific). -->
+    <path d="M-26,40 L-30,90 L30,90 L26,40 Z" fill="#d8b088"/>
+    <!-- Oil stains on neck — dark smudges. -->
+    <g fill="#1a0a08" opacity="0.7">
+      <ellipse cx="-15" cy="55" rx="6" ry="3"/>
+      <ellipse cx="10" cy="65" rx="5" ry="2.5"/>
+      <ellipse cx="20" cy="80" rx="4" ry="2"/>
+    </g>
+    <!-- Subtle oil drip line. -->
+    <path d="M-15,55 Q-12,75 -10,90" stroke="#1a0a08" stroke-width="0.5" fill="none" opacity="0.55"/>
+    <!-- Copper-gold catch on neck (warm catches per script). -->
+    <ellipse cx="0" cy="65" rx="20" ry="15" fill="#f5a868" opacity="0.55" filter="url(#p17p4bloom)"/>
+
+    <!-- HEAD — large, dominant. -->
+    <ellipse cx="0" cy="-30" rx="80" ry="90" fill="#d8b088"/>
+
+    <!-- Copper-gold wash on RIGHT cheek + neck (script: copper-gold from suit's holographic nodes). -->
+    <ellipse cx="50" cy="20" rx="30" ry="32" fill="#f5b870" opacity="0.5" filter="url(#p17p4strongBloom)"/>
+    <!-- Mirror copper-gold catch on LEFT cheek (slightly less). -->
+    <ellipse cx="-50" cy="20" rx="28" ry="28" fill="#f5b870" opacity="0.4" filter="url(#p17p4strongBloom)"/>
+    <!-- Warm amber under-glow from city below (second warm tone per script). -->
+    <ellipse cx="0" cy="50" rx="60" ry="22" fill="#f5b860" opacity="0.45" filter="url(#p17p4bloom)"/>
+    <!-- Stronger warm tone on jaw underside. -->
+    <ellipse cx="0" cy="65" rx="48" ry="12" fill="#f5b860" opacity="0.55" filter="url(#p17p4bloom)"/>
+
+    <!-- HAIR UP IN MESSY BUN (script-specific: hair UP not loose). -->
+    <g>
+      <!-- Hair top + sides cap. -->
+      <path d="M-65,-70 Q-50,-92 -25,-100 Q0,-105 25,-100 Q50,-92 65,-70 L65,-40 L-65,-40 Z" fill="#0a0a14"/>
+      <!-- BUN at top-back of head (rising above crown). -->
+      <ellipse cx="0" cy="-110" rx="22" ry="14" fill="#0a0a14"/>
+      <ellipse cx="0" cy="-112" rx="14" ry="8" fill="#1a1018" opacity="0.7"/>
+      <!-- BUN-TIE ring. -->
+      <ellipse cx="0" cy="-100" rx="20" ry="3" fill="#3a2010" opacity="0.85"/>
+      <!-- Loose strands escaping (messy). -->
+      <g stroke="#0a0a14" stroke-width="0.7" fill="none">
+        <path d="M-15,-95 L-18,-78"/>
+        <path d="M15,-95 L18,-78"/>
+        <path d="M-25,-90 L-28,-60"/>
+        <path d="M25,-90 L28,-60"/>
+        <path d="M-8,-100 L-10,-65"/>
+        <path d="M8,-100 L10,-65"/>
+      </g>
+      <!-- Hair shine highlights. -->
+      <ellipse cx="0" cy="-120" rx="14" ry="2" fill="#3a2810" opacity="0.85"/>
+      <ellipse cx="0" cy="-95" rx="20" ry="1.5" fill="#3a2810" opacity="0.7"/>
+    </g>
+
+    <!-- FOREHEAD — faintest crease (script-specific: not distress, strain of problem). -->
+    <line x1="-2" y1="-55" x2="2" y2="-32" stroke="#3a1808" stroke-width="1.4"/>
+    <!-- Subtle additional crease line. -->
+    <line x1="-4" y1="-56" x2="-2" y2="-40" stroke="#3a1808" stroke-width="0.5" opacity="0.55"/>
+
+    <!-- BROW — set, but not hard. Calculation, not anger. -->
+    <path d="M-42,-26 Q-25,-34 -8,-28" stroke="#3a1808" stroke-width="2.5" fill="none"/>
+    <path d="M8,-28 Q25,-34 42,-26" stroke="#3a1808" stroke-width="2.5" fill="none"/>
+
+    <!-- EYES — moving slightly (running numbers per script). -->
+    <ellipse cx="-22" cy="-15" rx="14" ry="7" fill="#3a2010" opacity="0.7"/>
+    <ellipse cx="22" cy="-15" rx="14" ry="7" fill="#3a2010" opacity="0.7"/>
+    <path d="M-32,-15 Q-22,-9 -12,-15 Q-22,-21 -32,-15 Z" fill="#3a2010"/>
+    <path d="M12,-15 Q22,-9 32,-15 Q22,-21 12,-15 Z" fill="#3a2010"/>
+    <!-- Iris (looking slightly off-center — running numbers). -->
+    <ellipse cx="-19" cy="-13" rx="4" ry="3.5" fill="#1a0808"/>
+    <ellipse cx="25" cy="-13" rx="4" ry="3.5" fill="#1a0808"/>
+    <ellipse cx="-19" cy="-13" rx="2" ry="2" fill="#080404"/>
+    <ellipse cx="25" cy="-13" rx="2" ry="2" fill="#080404"/>
+    <!-- Copper-gold catch in both eyes. -->
+    <circle cx="-17" cy="-15" r="1.2" fill="#f5b870"/>
+    <circle cx="27" cy="-15" r="1.2" fill="#f5b870"/>
+
+    <!-- DEFINED CHEEKBONES — wiry per script. -->
+    <ellipse cx="-42" cy="14" rx="14" ry="6" fill="#a87850" opacity="0.55"/>
+    <ellipse cx="42" cy="14" rx="14" ry="6" fill="#a87850" opacity="0.55"/>
+    <!-- COPPER-GOLD CATCH on cheekbones (script-specific). -->
+    <ellipse cx="-42" cy="13" rx="12" ry="5" fill="#f5b870" opacity="0.65" filter="url(#p17p4bloom)"/>
+    <ellipse cx="42" cy="13" rx="12" ry="5" fill="#f5b870" opacity="0.65" filter="url(#p17p4bloom)"/>
+
+    <!-- NOSE shadow. -->
+    <path d="M-3,-5 L0,15 L-3,22" stroke="#3a1808" stroke-width="0.9" fill="none" opacity="0.85"/>
+    <ellipse cx="-3" cy="22" rx="2" ry="1" fill="#1a0808"/>
+    <ellipse cx="3" cy="22" rx="2" ry="1" fill="#1a0808"/>
+
+    <!-- LIPS — slightly parted (calculating). -->
+    <path d="M-14,40 Q0,42 16,40" stroke="#3a1810" stroke-width="2.5" fill="none"/>
+    <line x1="-14" y1="40" x2="16" y2="40" stroke="#1a0810" stroke-width="0.7"/>
+    <!-- Slight gap in lips (parted). -->
+    <ellipse cx="0" cy="42" rx="3" ry="0.7" fill="#1a0808"/>
+
+    <!-- JAWLINE definition. -->
+    <path d="M-66,40 Q-50,72 -25,88 L25,88 Q50,72 66,40" fill="none" stroke="#3a1808" stroke-width="1" opacity="0.7"/>
+
+    <!-- Chin catch (warm). -->
+    <ellipse cx="0" cy="65" rx="20" ry="6" fill="#f5b860" opacity="0.45" filter="url(#p17p4bloom)"/>
+  </g>
+
+  <!-- WREN dialogue (top of frame). -->
+  <g id="p17p4-dlg-wren">
+    <rect x="14" y="14" width="218" height="92" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Everything. Precision</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">gears, optical lenses,</text>
+    <text x="24" y="85" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">copper coils, conductor</text>
+    <text x="24" y="101" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">matrix...</text>
+    <path d="M118,106 L136,106 L128,160 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="118" y1="106" x2="136" y2="106" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p17p4-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="243" y="442" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WREN CALCULATING</text>
+  </g>
+</svg>

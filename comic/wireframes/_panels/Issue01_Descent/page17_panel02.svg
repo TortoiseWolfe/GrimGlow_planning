@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 360" width="742" height="360">
+  <title>Issue 1 — Page 17 — Panel 2: THE VERDICT — Wren delivers terminal diagnosis</title>
+  <desc>MCU shallow DOF 65mm. Wren standing up from open temporal drive housing center. Hands at sides, copper-gold diagnostic light fading from fingertips. Face lit FROM BELOW by dying blue-white shattered crystal inside housing. Behind her in soft focus: full squad gathered (Sable, Jink wing-pack folded, Thresh weapon holstered, Luma scanner). They've come together for the report. Sable directly behind Wren. Wren in COLD light. Squad in WARM amber. The divide is the visual thesis. Flat professional certain expression — technician delivering terminal diagnosis. WREN: "The temporal drive is destroyed. Not damaged. Destroyed. The crystal matrix is shattered past coherence threshold." / "I can't rebuild it. Not here. Not with anything in this era."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p17p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="p17p2warmAmber" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p17p2copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#5a3010"/>
+    </linearGradient>
+    <radialGradient id="p17p2copperGoldFade">
+      <stop offset="0%" stop-color="#f5b870" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3010" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p17p2dyingBlueWhite">
+      <stop offset="0%" stop-color="#dce4ff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#7af0ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a3050" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p17p2drive" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a0a8"/>
+      <stop offset="100%" stop-color="#3a3038"/>
+    </linearGradient>
+    <linearGradient id="p17p2gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5d860"/>
+      <stop offset="100%" stop-color="#a87830"/>
+    </linearGradient>
+    <filter id="p17p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p17p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p17p2deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="p17p2dofBlur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+
+  <!-- BG dark gutter. -->
+  <rect width="742" height="360" fill="url(#p17p2bg)"/>
+  <!-- Warm amber from below + sides (envelopes squad behind Wren). -->
+  <ellipse cx="371" cy="360" rx="450" ry="180" fill="url(#p17p2warmAmber)" filter="url(#p17p2deepBloom)" opacity="0.85"/>
+
+  <!-- BG SQUAD GATHERED behind Wren — soft focus, smaller, warm-amber-lit. -->
+
+  <!-- SABLE directly behind Wren (slight left, just over her shoulder). -->
+  <g id="p17p2-sable-bg" transform="translate(371, 290)" filter="url(#p17p2dofBlur)" opacity="0.75">
+    <!-- Body. -->
+    <path d="M-15,42 Q-18,5 -15,-15 L-7,-20 L8,-20 Q10,5 15,42 Z" fill="#a8b0c0" stroke="#080408" stroke-width="0.4"/>
+    <!-- Cracked right shoulder bleed. -->
+    <ellipse cx="14" cy="-18" rx="8" ry="5" fill="#dce4ff" opacity="0.85" filter="url(#p17p2bloom)"/>
+    <!-- Legs. -->
+    <path d="M-7,42 L-9,60" fill="none" stroke="#3a3a45" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M7,42 L9,60" fill="none" stroke="#3a3a45" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-30" rx="6" ry="6.5" fill="#5a3818"/>
+    <!-- Silver buzz. -->
+    <path d="M-5,-34 Q0,-37 5,-34 L5,-30 L-5,-30 Z" fill="#c8ccd4"/>
+    <!-- Amber catch on body (warm side). -->
+    <ellipse cx="0" cy="10" rx="14" ry="10" fill="#f5b860" opacity="0.4" filter="url(#p17p2bloom)"/>
+  </g>
+
+  <!-- JINK BG-LEFT — wing-pack folded. -->
+  <g id="p17p2-jink-bg" transform="translate(280, 295)" filter="url(#p17p2dofBlur)" opacity="0.7">
+    <path d="M-12,38 Q-14,5 -12,-12 L-6,-16 L7,-16 Q8,5 12,38 Z" fill="#2ed078" stroke="#080408" stroke-width="0.4"/>
+    <path d="M-7,38 L-9,55" fill="none" stroke="#0a4828" stroke-width="4" stroke-linecap="round"/>
+    <path d="M7,38 L9,55" fill="none" stroke="#0a4828" stroke-width="4" stroke-linecap="round"/>
+    <!-- Folded wing-pack hint. -->
+    <path d="M-10,-10 Q-13,5 -10,18" fill="none" stroke="#1a4830" stroke-width="2"/>
+    <path d="M10,-10 Q13,5 10,18" fill="none" stroke="#1a4830" stroke-width="2"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-26" rx="6" ry="6.5" fill="#e8c8a0"/>
+    <!-- Golden curls. -->
+    <g fill="#f5d860">
+      <circle cx="-3" cy="-32" r="1.8"/>
+      <circle cx="0" cy="-34" r="2"/>
+      <circle cx="3" cy="-32" r="1.8"/>
+      <circle cx="5" cy="-30" r="1.5"/>
+    </g>
+    <!-- Amber catch. -->
+    <ellipse cx="0" cy="8" rx="12" ry="8" fill="#f5b860" opacity="0.4" filter="url(#p17p2bloom)"/>
+  </g>
+
+  <!-- THRESH BG-RIGHT — weapon HOLSTERED at hip. -->
+  <g id="p17p2-thresh-bg" transform="translate(465, 295)" filter="url(#p17p2dofBlur)" opacity="0.7">
+    <path d="M-12,38 Q-14,5 -12,-12 L-6,-16 L7,-16 Q8,5 12,38 Z" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="0" cy="0" rx="11" ry="7" fill="#f54848" opacity="0.4" filter="url(#p17p2bloom)"/>
+    <path d="M-7,38 L-9,55" fill="none" stroke="#5a1018" stroke-width="4" stroke-linecap="round"/>
+    <path d="M7,38 L9,55" fill="none" stroke="#5a1018" stroke-width="4" stroke-linecap="round"/>
+    <!-- Holstered weapon at hip. -->
+    <rect x="9" y="6" width="8" height="3" rx="0.5" fill="#1a0810"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-26" rx="6" ry="6.5" fill="#d8a880"/>
+    <path d="M-5,-30 Q0,-34 5,-30 L5,-26 L-5,-26 Z" fill="#a83a18"/>
+    <!-- Amber catch. -->
+    <ellipse cx="0" cy="8" rx="12" ry="8" fill="#f5b860" opacity="0.4" filter="url(#p17p2bloom)"/>
+  </g>
+
+  <!-- LUMA BG-FAR-LEFT — scanner in hand. -->
+  <g id="p17p2-luma-bg" transform="translate(220, 300)" filter="url(#p17p2dofBlur)" opacity="0.7">
+    <path d="M-11,35 Q-13,5 -11,-12 L-6,-15 L6,-15 Q8,5 11,35 Z" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+    <path d="M-6,35 L-8,52" fill="none" stroke="#1a1058" stroke-width="4" stroke-linecap="round"/>
+    <path d="M6,35 L8,52" fill="none" stroke="#1a1058" stroke-width="4" stroke-linecap="round"/>
+    <!-- Scanner in hand. -->
+    <rect x="-18" y="2" width="6" height="4" rx="0.5" fill="#1a1058"/>
+    <ellipse cx="-15" cy="4" rx="1.5" ry="0.8" fill="#a890f0" opacity="0.85"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-25" rx="6" ry="6.5" fill="#a87850"/>
+    <!-- Dark hair w/ filament. -->
+    <path d="M-5,-29 Q0,-32 5,-29 L5,-25 L-5,-25 Z" fill="#1a1018"/>
+    <path d="M5,-25 Q7,-15 6,-5" fill="none" stroke="#1a1018" stroke-width="2" stroke-linecap="round"/>
+    <path d="M5,-25 Q7,-15 6,-5" fill="none" stroke="#a890f0" stroke-width="0.5" filter="url(#p17p2bloom)" opacity="0.85"/>
+    <!-- Amber catch. -->
+    <ellipse cx="0" cy="8" rx="12" ry="8" fill="#f5b860" opacity="0.35" filter="url(#p17p2bloom)"/>
+  </g>
+
+  <!-- TEMPORAL DRIVE HOUSING — open at bottom-center, in front of Wren. -->
+  <g id="p17p2-drive" transform="translate(371, 320)">
+    <!-- Hexagonal housing (split open, bottom-center). -->
+    <path d="M-50,0 L-30,20 L30,20 L50,0 L30,-12 L-30,-12 Z" fill="url(#p17p2drive)" stroke="#1a1818" stroke-width="1"/>
+    <!-- Upper half — broken open exposing chamber. -->
+    <path d="M-50,-2 L-40,-22 L-26,-30 L-10,-34" fill="none" stroke="#1a1818" stroke-width="1"/>
+    <path d="M50,-2 L40,-22 L26,-30 L10,-34" fill="none" stroke="#1a1818" stroke-width="1"/>
+    <!-- Gold seam ring (broken). -->
+    <path d="M-50,-2 L-30,-12 L30,-12 L50,-2" fill="none" stroke="url(#p17p2gold)" stroke-width="1.6" filter="url(#p17p2bloom)"/>
+
+    <!-- INTERNAL CHAMBER w/ DYING shattered crystal — light source for Wren's face. -->
+    <ellipse cx="0" cy="-6" rx="22" ry="13" fill="#0a1830" stroke="#1a1818" stroke-width="0.6"/>
+    <!-- DYING blue-white crystal core (script-specific). -->
+    <g>
+      <polygon points="-12,-2 -4,-12 0,-6 -8,4" fill="#7af0ff" opacity="0.85" filter="url(#p17p2bloom)"/>
+      <polygon points="-2,-12 6,-14 8,-4 0,-2" fill="#dce4ff" opacity="0.7" filter="url(#p17p2bloom)"/>
+      <polygon points="6,-6 14,-10 16,-2 8,2" fill="#7af0ff" opacity="0.65" filter="url(#p17p2bloom)"/>
+    </g>
+    <!-- BRIGHT BLUE-WHITE GLOW EMANATING UPWARD (lights Wren's face from below). -->
+    <ellipse cx="0" cy="-8" rx="44" ry="50" fill="url(#p17p2dyingBlueWhite)" filter="url(#p17p2deepBloom)" opacity="0.95"/>
+    <!-- Strong upward beam. -->
+    <ellipse cx="0" cy="-30" rx="20" ry="40" fill="#dce4ff" opacity="0.45" filter="url(#p17p2deepBloom)"/>
+  </g>
+
+  <!-- WREN — standing tall, hands at sides, close-up center. -->
+  <g id="p17p2-wren" transform="translate(371, 230)">
+
+    <!-- Body (standing straight, formal posture). -->
+    <path d="M-26,80 Q-32,15 -26,-30 L-12,-40 L12,-40 Q32,15 26,80 Z" fill="url(#p17p2copper)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Subtle copper seam glow. -->
+    <line x1="0" y1="-26" x2="0" y2="76" stroke="#f5a868" stroke-width="0.6" opacity="0.7" filter="url(#p17p2bloom)"/>
+    <line x1="-18" y1="-22" x2="-18" y2="60" stroke="#f5a868" stroke-width="0.5" opacity="0.55" filter="url(#p17p2bloom)"/>
+    <line x1="18" y1="-22" x2="18" y2="60" stroke="#f5a868" stroke-width="0.5" opacity="0.55" filter="url(#p17p2bloom)"/>
+    <!-- Hip belt. -->
+    <rect x="-22" y="74" width="44" height="6" fill="#3a1808" stroke="#080408" stroke-width="0.4"/>
+
+    <!-- Lower legs. -->
+    <path d="M-15,80 L-18,110" fill="none" stroke="#3a1808" stroke-width="9" stroke-linecap="round"/>
+    <path d="M15,80 L18,110" fill="none" stroke="#3a1808" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- Shoulder pads. -->
+    <ellipse cx="-26" cy="-28" rx="10" ry="5" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-26" cy="-30" rx="5" ry="2.5" fill="#f5a868" opacity="0.7"/>
+    <ellipse cx="26" cy="-28" rx="10" ry="5" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="26" cy="-30" rx="5" ry="2.5" fill="#f5a868" opacity="0.7"/>
+
+    <!-- BOTH ARMS AT SIDES — straightened, hands hanging. -->
+    <path d="M-26,-22 L-32,15 L-30,55" fill="none" stroke="url(#p17p2copper)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M26,-22 L32,15 L30,55" fill="none" stroke="url(#p17p2copper)" stroke-width="7" stroke-linecap="round"/>
+    <!-- Hands. -->
+    <ellipse cx="-30" cy="58" rx="6" ry="4" fill="#5a3010" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="30" cy="58" rx="6" ry="4" fill="#5a3010" stroke="#080408" stroke-width="0.4"/>
+    <!-- COPPER-GOLD DIAGNOSTIC LIGHT FADING from fingertips (script-specific). -->
+    <ellipse cx="-30" cy="58" rx="11" ry="7" fill="url(#p17p2copperGoldFade)" filter="url(#p17p2strongBloom)" opacity="0.65"/>
+    <ellipse cx="30" cy="58" rx="11" ry="7" fill="url(#p17p2copperGoldFade)" filter="url(#p17p2strongBloom)" opacity="0.65"/>
+    <!-- Tiny fading particles. -->
+    <g fill="#f5d860" opacity="0.55" filter="url(#p17p2bloom)">
+      <circle cx="-32" cy="65" r="0.6"/>
+      <circle cx="-28" cy="70" r="0.5"/>
+      <circle cx="-35" cy="62" r="0.5"/>
+      <circle cx="32" cy="65" r="0.6"/>
+      <circle cx="28" cy="70" r="0.5"/>
+      <circle cx="35" cy="62" r="0.5"/>
+    </g>
+
+    <!-- HEAD — flat, professional, certain. Lit FROM BELOW by dying crystal. -->
+    <ellipse cx="0" cy="-58" rx="14" ry="15" fill="#d8b088"/>
+
+    <!-- HAIR UP IN MESSY BUN (script-specific: hair UP not loose). -->
+    <g>
+      <!-- Hair top + sides. -->
+      <path d="M-12,-68 Q-2,-74 12,-72 Q14,-64 12,-58 L-12,-58 Z" fill="#0a0a14"/>
+      <!-- BUN at top. -->
+      <ellipse cx="0" cy="-78" rx="9" ry="6" fill="#0a0a14"/>
+      <ellipse cx="0" cy="-78" rx="6" ry="3.5" fill="#1a1018" opacity="0.7"/>
+      <!-- Bun-tie. -->
+      <ellipse cx="0" cy="-72" rx="8" ry="1.5" fill="#3a2810" opacity="0.85"/>
+      <!-- Loose strands escaping. -->
+      <path d="M-3,-74 L-2,-70" stroke="#0a0a14" stroke-width="0.6" fill="none"/>
+      <path d="M3,-74 L4,-70" stroke="#0a0a14" stroke-width="0.6" fill="none"/>
+      <path d="M-9,-68 L-12,-62" stroke="#0a0a14" stroke-width="0.5" fill="none"/>
+      <path d="M9,-68 L12,-62" stroke="#0a0a14" stroke-width="0.5" fill="none"/>
+      <!-- Highlight on hair. -->
+      <ellipse cx="0" cy="-80" rx="5" ry="1" fill="#3a2810" opacity="0.85"/>
+    </g>
+
+    <!-- Eyes — flat, professional. Look slightly down/forward. -->
+    <ellipse cx="-5" cy="-58" rx="2" ry="1.5" fill="#0a0a14"/>
+    <ellipse cx="6" cy="-58" rx="2" ry="1.5" fill="#0a0a14"/>
+    <circle cx="-5" cy="-58" r="0.5" fill="#7af0ff"/>
+    <circle cx="6" cy="-58" r="0.5" fill="#7af0ff"/>
+    <!-- Brow neutral, professional. -->
+    <path d="M-10,-64 Q-5,-65 -1,-64" stroke="#080404" stroke-width="0.9" fill="none"/>
+    <path d="M1,-64 Q5,-65 10,-64" stroke="#080404" stroke-width="0.9" fill="none"/>
+    <!-- Lips firm, neutral. -->
+    <line x1="-3" y1="-46" x2="6" y2="-46" stroke="#3a1810" stroke-width="1.1"/>
+    <!-- Defined cheekbones. -->
+    <ellipse cx="-9" cy="-52" rx="3" ry="1.5" fill="#a87850" opacity="0.55"/>
+    <ellipse cx="9" cy="-52" rx="3" ry="1.5" fill="#a87850" opacity="0.55"/>
+
+    <!-- DYING BLUE-WHITE LIGHTING WREN'S FACE FROM BELOW (script-specific: cold, clinical, final). -->
+    <!-- Cool catch on UNDERSIDE of jaw + chin. -->
+    <ellipse cx="0" cy="-44" rx="14" ry="3" fill="#dce4ff" opacity="0.85" filter="url(#p17p2bloom)"/>
+    <!-- Stronger catch on lower lip / chin. -->
+    <ellipse cx="0" cy="-46" rx="10" ry="2" fill="#7af0ff" opacity="0.7" filter="url(#p17p2bloom)"/>
+    <!-- Catch on neck. -->
+    <ellipse cx="0" cy="-38" rx="12" ry="2.5" fill="#dce4ff" opacity="0.65" filter="url(#p17p2bloom)"/>
+    <!-- Catch under eyes (lit from below). -->
+    <ellipse cx="-5" cy="-55" rx="3" ry="1" fill="#7af0ff" opacity="0.55" filter="url(#p17p2bloom)"/>
+    <ellipse cx="6" cy="-55" rx="3" ry="1" fill="#7af0ff" opacity="0.55" filter="url(#p17p2bloom)"/>
+    <!-- Catch at cheekbones. -->
+    <ellipse cx="-9" cy="-50" rx="3" ry="1" fill="#dce4ff" opacity="0.45" filter="url(#p17p2bloom)"/>
+    <ellipse cx="9" cy="-50" rx="3" ry="1" fill="#dce4ff" opacity="0.45" filter="url(#p17p2bloom)"/>
+    <!-- Glow on chest plate (from drive light). -->
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="#dce4ff" opacity="0.35" filter="url(#p17p2strongBloom)"/>
+  </g>
+
+  <!-- WREN dialogue — TWO BALLOONS for the verdict + the inability. -->
+  <g id="p17p2-dlg-wren-1">
+    <rect x="14" y="14" width="266" height="76" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">The temporal drive is</text>
+    <text x="24" y="67" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">destroyed. Not damaged.</text>
+    <text x="24" y="83" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#1a1a1a">Destroyed.</text>
+    <path d="M188,90 L206,90 L320,150 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="188" y1="90" x2="206" y2="90" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p17p2-dlg-wren-2">
+    <rect x="450" y="14" width="278" height="92" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="460" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="460" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Crystal matrix shattered</text>
+    <text x="460" y="67" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">past coherence threshold.</text>
+    <text x="460" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">I can't rebuild it. Not here.</text>
+    <text x="460" y="101" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">Not in this era.</text>
+    <path d="M540,106 L558,106 L420,170 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="540" y1="106" x2="558" y2="106" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p17p2-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="738" y="352" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">THE VERDICT</text>
+  </g>
+</svg>

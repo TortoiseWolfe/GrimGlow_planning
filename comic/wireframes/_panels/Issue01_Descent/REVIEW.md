@@ -2,15 +2,28 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 16 added, Setting the Camp/Section 4 continues).
+**Last update:** 2026-04-27 (Page 17 added — Issue 1 wireframe quality pass COMPLETE at 22/22 = 100%).
 
 ---
 
-## TL;DR — current state
+## 🎉 ISSUE 1 COMPLETE — 22/22 = 100% PAINTERLY
 
-**Pages 1–16 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 81 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P13P01–P13P05, P14P01–P14P04, P15P01–P15P05, P16P01–P16P05, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
+**ALL 22 PAGES of Issue 1 ("DESCENT") meet the quality bar** for hair, dialogue, anatomy, environment, and composition. 86 painterly panel files total (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P13P01–P13P05, P14P01–P14P04, P15P01–P15P05, P16P01–P16P05, P17P01–P17P05, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
 
-**Issue 1 first 16 pages CONTIGUOUS** — Pages 1-16 + Pages 18-22 all painterly. Section 4 building. Page 17 is the only middle-continuity gap — 1 page remaining (21/22 painterly = 95%).
+**All 5 sections of Issue 1 closed**:
+- Section 1 (THE FUTURE) — Pages 1-4
+- Section 2 (THE CRASH) — Pages 5-7
+- Section 3 (THE WRECKAGE) — Pages 8-14
+- Section 4 (FIRST NIGHT) — Pages 15-17 (Page 17 = THE VERDICT, emotional center)
+- Section 5 (CLIFFHANGER) — Pages 18-22 (Page 22 = IP-defining splash)
+
+Ready for downstream production: comic publication, Three.js prologue browser game (covers Issues 1-3), Unity full PC game.
+
+**Issues 2-12 still have script prompts only** — separate scope, not addressed by this pass.
+
+---
+
+## TL;DR — section-by-section quality summary
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -30,6 +43,8 @@
 
 **Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px.
 
+**Page 17 (THE VERDICT — Section 4 emotional center, FINAL PAGE)** — 5 panels, 1179px (banner / banner / 3-col). Rat encounter (mundane terror at impossible scale) → Wren delivers terminal diagnosis (cold light vs warm squad, visual thesis) → 3 reactions: Sable absorbs ("What do you need?") + Wren calculates ("Everything. Precision gears, optical lenses...") + Thresh silent (no dialogue, the loudest non-reaction).
+
 **Page 16 (Setting the Camp — Section 4 continues)** — 5 panels, 1179px (3-col top / narrow+wide bottom). Sable directs ops worm's-eye + Thresh perimeter w/ 7° dutch + Jink wing-pack launch w/ emerald contrails / Luma + enormous oak leaf cataloguing + wide cross-section gutter scene with squad working as military camp in absurd terrain.
 
 **Page 15 (First Night — Section 4 opener)** — 5 panels, 1179px (banner / 2-col / wide+narrow). Gutter establishing wide w/ 5 squad scattered + Thresh hypervigilant + Jink at lip with grin + Wren+Luma at temporal drive + crystal ECU. Caption: "The city does not know they are here." Sets first quiet moment after the chase.
@@ -44,7 +59,7 @@
 
 **Page 9 (THE SCALE REVEAL — opening Section 3 build)** — 5 panels, 1179px.
 
-**Page 17 of Issue 1 remains auto-generated stick-figure storyboard.** (1 page remaining of 22 = 21/22 painterly + 1/22 storyboard ≈ 95%.)
+**Issue 1 wireframe quality pass: COMPLETE.** No pages remain as stick-figure storyboards. (22/22 painterly = 100%.)
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -248,6 +263,101 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 17 — DONE (Section 4 emotional center — THE VERDICT — FINAL PAGE OF ISSUE 1)
+
+5 panels in 3 tiers (banner / banner / 3-col) summing to 1179px page-fill. The emotional center of the issue. Rat encounter establishes mundane-as-monstrous, then Wren delivers terminal diagnosis (cold light isolates her from the squad in warm), then 3 reactions: Sable's command resolve, Wren's engineer-reflex problem-solving, Thresh's loud silence.
+
+### P17P01 — Rat encounter, mundane terror at impossible scale (742×290)
+- ✅ MW eye-level along gutter floor 35mm
+- ✅ Massive RAT silhouette far end of channel — enormous at fairy scale (size of draft horse per script)
+- ✅ Backlit by warm amber city-glow from beyond gutter lip
+- ✅ Hunched body, low, with quick jerky-feel pose
+- ✅ Long naked tail dragging through soot on iron floor (script-specific)
+- ✅ Amber-red eye catching light w/ pupil slit (point of animal intelligence)
+- ✅ Coarse fur with amber spine highlights (script-specific)
+- ✅ Whiskers visible at snout
+- ✅ Ear back tipped up
+- ✅ Foot pads w/ claws hint
+- ✅ FG: Thresh weapon raised, stance wide, aiming
+- ✅ Crimson power-node glow on weapon (script-specific)
+- ✅ Sight glint
+- ✅ Sable hand RAISED palm-out HOLD signal (script-specific)
+- ✅ Cracked Sable shoulder bleeds bright (continuity)
+- ✅ Wreckage debris between squad and rat
+- ✅ Mundane-as-monstrous beat lands
+- ✅ THRESH: "Contact." SABLE: "Hold."
+
+### P17P02 — THE VERDICT (742×360) — emotional gut-punch
+- ✅ MCU shallow DOF 65mm
+- ✅ Wren standing tall in front of OPEN temporal drive housing center
+- ✅ Hands at sides
+- ✅ COPPER-GOLD diagnostic light fading from fingertips (script-specific) w/ tiny fading particles
+- ✅ DYING blue-white shattered crystal in chamber pours UPWARD onto Wren's face (script-specific)
+- ✅ Strong upward beam visible
+- ✅ Cool catches on UNDER-jaw, UNDER-eyes, neck, cheekbones (lit from below per script)
+- ✅ Behind her in soft focus: full squad gathered
+- ✅ Luma sapphire BG-far-left w/ scanner + filament glow
+- ✅ Jink emerald BG-left w/ wing-pack folded (small folded marks)
+- ✅ Sable BG-center-right (cracked shoulder bleeds bright)
+- ✅ Thresh BG-right (weapon HOLSTERED at hip per script)
+- ✅ Wren in COLD light. Squad in WARM amber. — VISUAL THESIS LANDS
+- ✅ Wren's hair UP in messy bun w/ bun-tie ring + escaping strands (script-specific: hair UP not loose)
+- ✅ Flat professional certain expression (technician delivering terminal diagnosis)
+- ✅ WREN: "The temporal drive is destroyed. Not damaged. Destroyed." (bold emphasis)
+- ✅ WREN: "Crystal matrix shattered past coherence threshold. I can't rebuild it. Not here. Not in this era." (italic on inability)
+
+### P17P03 — Sable absorbs verdict, battlefield of light (247×450)
+- ✅ Close-up slight low angle 85mm
+- ✅ Sable's face DOMINATES frame
+- ✅ Jaw set
+- ✅ Eyes narrowed fractionally (looking past viewer per script)
+- ✅ Muscle tightens at temple — visible bulge + line (script-specific)
+- ✅ Controlled devastation — brow furrow + tension line + lips firm
+- ✅ Cool blue-white from cracked panels catches jaw + temple from RIGHT (script-specific)
+- ✅ Warm amber from below from LEFT (script-specific)
+- ✅ Face is BATTLEFIELD OF LIGHT — dual catches everywhere on cheekbones, eyes, jaw
+- ✅ Cool catch in right eye, warm catch in left eye
+- ✅ Silver buzz w/ stipple, cool catch on right side of hair, warm catch on left
+- ✅ Cracked shoulder bleed bright at neckline (continuity)
+- ✅ Sharp cheekbones, defined jawline
+- ✅ Dark brown skin showing line of discipline holding against loss
+- ✅ SABLE: "What do you need?"
+
+### P17P04 — Wren calculating, copper-gold element (247×450)
+- ✅ CU eye level 85mm
+- ✅ Wren face DOMINATES frame
+- ✅ Past verdict into active calculation
+- ✅ Eyes moving slightly (off-center, running numbers per script)
+- ✅ FAINTEST CREASE between brows (visible thin line)
+- ✅ HAIR UP IN MESSY BUN w/ bun-tie ring + escaping strands (script-specific: hair UP not loose)
+- ✅ Wiry East Asian features
+- ✅ COPPER-GOLD from suit holographic nodes catches cheekbones (script-specific)
+- ✅ Holographic shoulder nodes glowing copper-gold
+- ✅ Throat-collar holo node visible
+- ✅ OIL STAINS visible on neck (script-specific)
+- ✅ Warm amber from city below adds second warm tone
+- ✅ Copper-gold ambient haze (her element — engineering, pragmatism)
+- ✅ Lips slightly parted (calculating)
+- ✅ Defined cheekbones
+- ✅ WREN: "Everything. Precision gears, optical lenses, copper coils, conductor matrix..." (italic on continuation — she's already listing)
+
+### P17P05 — Thresh silent, the loudest non-reaction (247×450)
+- ✅ MCU eye level 65mm
+- ✅ Slightly apart from group (alone in panel, not acting/reacting)
+- ✅ Weapon AT HIP (subdued power-node glow — not active)
+- ✅ Hands at sides
+- ✅ NO DIALOGUE — silence IS the beat (script-specific)
+- ✅ Surface composed (neutral brow + lips + mouth)
+- ✅ EYES EMPTY of confidence — NO catch-light, slightly dilated pupils, gone inward (script-specific)
+- ✅ SUBDUED ruby crimson + GENTLE warm amber (script: she's not the brightest thing — receding)
+- ✅ Body silhouette receding into dark BG
+- ✅ Ruby suit w/ DENTED left pauldron (continuity)
+- ✅ Faint crimson catch at jaw-collar nodes (subdued per script)
+- ✅ Copper-red buzz cap
+- ✅ The character beat: soldier with no words for a war she cannot fight
 
 ---
 

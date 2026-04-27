@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 290" width="742" height="290">
+  <title>Issue 1 — Page 17 — Panel 1: Rat encounter — mundane terror at impossible scale</title>
+  <desc>MW eye-level 35mm along gutter floor. Far end of channel: massive rat silhouette, enormous at fairy scale (size of draft horse). Backlit by warm amber city-glow. Long naked tail dragging through soot. 2 amber-red eyes catching light — points of animal intelligence. FG: Thresh weapon raised stance wide aiming, Sable hand raised "hold." Crimson nodes from Thresh suit cast red on weapon. Blue-white from Sable's cracked shoulder bleeds. Rat fur catches faint amber along spine. Mundane-as-monstrous beat. THRESH: "Contact." SABLE: "Hold."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p17p1floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p17p1wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </linearGradient>
+    <radialGradient id="p17p1amberBacklight" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p17p1ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="p17p1silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dce0e8"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <radialGradient id="p17p1blueWhiteCrack">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#7af0ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a3050" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p17p1crimsonNode">
+      <stop offset="0%" stop-color="#f54848" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a1018" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p17p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p17p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p17p1deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- Far gutter wall (back). -->
+  <rect width="742" height="160" fill="url(#p17p1wall)"/>
+  <!-- Slate seam tile lines (suggested). -->
+  <g stroke="#0a0810" stroke-width="0.4" opacity="0.55">
+    <line x1="0" y1="40" x2="742" y2="40"/>
+    <line x1="0" y1="80" x2="742" y2="80"/>
+    <line x1="0" y1="120" x2="742" y2="120"/>
+  </g>
+
+  <!-- Gutter floor. -->
+  <rect y="160" width="742" height="130" fill="url(#p17p1floor)"/>
+  <!-- Rim line where wall meets floor. -->
+  <line x1="0" y1="160" x2="742" y2="160" stroke="#080404" stroke-width="1.4"/>
+  <line x1="0" y1="160" x2="742" y2="160" stroke="#f5b860" stroke-width="1" opacity="0.5" filter="url(#p17p1bloom)"/>
+
+  <!-- WARM AMBER BACKLIGHT from far end (city glow beyond gutter lip per script). -->
+  <ellipse cx="700" cy="200" rx="280" ry="180" fill="url(#p17p1amberBacklight)" filter="url(#p17p1deepBloom)" opacity="0.95"/>
+  <!-- Amber glow beyond gutter lip (right edge). -->
+  <ellipse cx="742" cy="160" rx="60" ry="40" fill="#f5b860" opacity="0.55" filter="url(#p17p1strongBloom)"/>
+
+  <!-- Floor stipple texture (soot). -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="40" cy="220" r="2"/>
+    <circle cx="120" cy="240" r="1.5"/>
+    <circle cx="200" cy="260" r="1.5"/>
+    <circle cx="280" cy="240" r="1.5"/>
+    <circle cx="360" cy="270" r="1.5"/>
+    <circle cx="440" cy="250" r="1.5"/>
+    <circle cx="520" cy="270" r="1.5"/>
+  </g>
+  <!-- Dead leaves debris between squad and rat. -->
+  <g fill="#5a3018" opacity="0.85">
+    <path d="M150,255 Q160,248 175,258 Q170,270 158,268 Z"/>
+    <path d="M280,265 Q290,258 305,268 L295,278 Z"/>
+    <path d="M380,260 Q390,253 400,260 L392,270 Z"/>
+  </g>
+  <!-- Wreckage piece (small) middle-distance. -->
+  <g transform="translate(300, 265)">
+    <path d="M-8,0 L-4,4 L4,4 L8,0 L4,-3 L-4,-3 Z" fill="#5a606a" stroke="#1a1818" stroke-width="0.5"/>
+    <ellipse cx="0" cy="1" rx="6" ry="2" fill="#7af0f0" opacity="0.4" filter="url(#p17p1bloom)"/>
+  </g>
+
+  <!-- THE RAT — far end of gutter, enormous silhouette, backlit. -->
+  <g id="p17p1-rat" transform="translate(580, 200)">
+
+    <!-- Body (hunched, low, large mass). -->
+    <path d="M-90,40 Q-100,10 -80,-20 Q-50,-40 -10,-42 Q40,-44 70,-30 Q90,-10 95,15 Q90,40 70,48 Q30,54 -20,52 Q-60,50 -90,40 Z" fill="#1a0810"/>
+    <!-- Body bulk highlight (faint amber along spine). -->
+    <path d="M-50,-30 Q-10,-40 30,-38 Q60,-28 80,-12" fill="none" stroke="#a85820" stroke-width="2.5" opacity="0.55" filter="url(#p17p1bloom)"/>
+    <path d="M-30,-20 Q10,-30 40,-26" fill="none" stroke="#f5b860" stroke-width="1.4" opacity="0.4" filter="url(#p17p1bloom)"/>
+
+    <!-- Head (forward, low, snout protruding left toward squad). -->
+    <path d="M-90,40 Q-110,30 -130,20 Q-145,15 -150,5 Q-148,-2 -135,-5 Q-115,-8 -100,0 Q-90,12 -85,25" fill="#1a0810"/>
+    <!-- Snout tip. -->
+    <ellipse cx="-150" cy="2" rx="3" ry="2" fill="#3a1010"/>
+    <!-- Whiskers. -->
+    <g stroke="#3a1010" stroke-width="0.4" opacity="0.7">
+      <line x1="-150" y1="0" x2="-165" y2="-3"/>
+      <line x1="-150" y1="2" x2="-168" y2="2"/>
+      <line x1="-150" y1="5" x2="-165" y2="8"/>
+      <line x1="-148" y1="-3" x2="-160" y2="-8"/>
+    </g>
+    <!-- Ear (back). -->
+    <path d="M-80,-30 Q-78,-44 -65,-40 Q-60,-30 -68,-22 Z" fill="#1a0810"/>
+    <ellipse cx="-72" cy="-32" rx="3" ry="4" fill="#3a1010" opacity="0.85"/>
+
+    <!-- AMBER-RED EYES — 2 points of animal intelligence (script-specific). -->
+    <g>
+      <circle cx="-120" cy="-2" r="3" fill="#f54820" filter="url(#p17p1bloom)"/>
+      <circle cx="-120" cy="-2" r="1.4" fill="#ffaa30"/>
+      <!-- Pupil slit. -->
+      <ellipse cx="-120" cy="-2" rx="0.5" ry="2" fill="#080404"/>
+    </g>
+
+    <!-- Coarse fur texture (jerks of detail). -->
+    <g stroke="#080404" stroke-width="0.4" opacity="0.7" fill="none">
+      <line x1="-70" y1="-20" x2="-65" y2="-26"/>
+      <line x1="-50" y1="-30" x2="-45" y2="-36"/>
+      <line x1="-20" y1="-40" x2="-15" y2="-46"/>
+      <line x1="20" y1="-38" x2="25" y2="-44"/>
+      <line x1="50" y1="-30" x2="55" y2="-36"/>
+      <line x1="75" y1="-12" x2="80" y2="-18"/>
+      <line x1="-30" y1="20" x2="-25" y2="14"/>
+      <line x1="40" y1="30" x2="45" y2="24"/>
+    </g>
+
+    <!-- Legs (4 stubby). -->
+    <path d="M-60,48 L-58,68 L-55,80" fill="none" stroke="#1a0810" stroke-width="11" stroke-linecap="round"/>
+    <path d="M40,52 L42,72 L45,82" fill="none" stroke="#1a0810" stroke-width="11" stroke-linecap="round"/>
+    <!-- Foot pads (claws hint). -->
+    <ellipse cx="-55" cy="82" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="45" cy="84" rx="6" ry="2" fill="#080404"/>
+
+    <!-- LONG NAKED TAIL dragging through soot (script-specific). -->
+    <path d="M95,15 Q140,5 180,15 Q220,30 250,50 Q280,75 280,90" fill="none" stroke="#3a1010" stroke-width="6" stroke-linecap="round"/>
+    <!-- Tail amber catch (backlit). -->
+    <path d="M95,15 Q140,5 180,15 Q220,30 250,50" fill="none" stroke="#a85820" stroke-width="1.5" opacity="0.55" filter="url(#p17p1bloom)"/>
+    <!-- Tail segments. -->
+    <g stroke="#1a0408" stroke-width="0.5">
+      <line x1="120" y1="9" x2="125" y2="11"/>
+      <line x1="160" y1="11" x2="165" y2="14"/>
+      <line x1="200" y1="20" x2="205" y2="24"/>
+      <line x1="230" y1="38" x2="235" y2="43"/>
+      <line x1="260" y1="60" x2="265" y2="65"/>
+    </g>
+  </g>
+
+  <!-- THRESH (FG-LEFT, weapon raised aiming) — small but clear. -->
+  <g id="p17p1-thresh" transform="translate(150, 215)">
+
+    <!-- Body. -->
+    <path d="M-12,32 Q-14,5 -12,-12 L-6,-16 L7,-16 Q8,5 12,32 Z" fill="url(#p17p1ruby)" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="0" cy="0" rx="14" ry="10" fill="url(#p17p1crimsonNode)" filter="url(#p17p1strongBloom)" opacity="0.55"/>
+    <!-- Crimson seam glow. -->
+    <line x1="0" y1="-12" x2="0" y2="28" stroke="#f54848" stroke-width="0.6" filter="url(#p17p1bloom)" opacity="0.85"/>
+
+    <!-- Lower legs (wide stance per script). -->
+    <path d="M-8,32 L-14,55" fill="none" stroke="#5a1018" stroke-width="6" stroke-linecap="round"/>
+    <path d="M8,32 L14,55" fill="none" stroke="#5a1018" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-14" cy="56" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="14" cy="56" rx="6" ry="2" fill="#080404"/>
+    <!-- Warm amber on legs. -->
+    <path d="M-8,32 L-14,55" fill="none" stroke="#f5b860" stroke-width="2" stroke-linecap="round" opacity="0.4" filter="url(#p17p1bloom)"/>
+    <path d="M8,32 L14,55" fill="none" stroke="#f5b860" stroke-width="2" stroke-linecap="round" opacity="0.4" filter="url(#p17p1bloom)"/>
+
+    <!-- Shoulder pads. -->
+    <ellipse cx="-12" cy="-12" rx="6" ry="3" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+    <!-- Right pauldron dented. -->
+    <ellipse cx="12" cy="-12" rx="6" ry="3" fill="#a8182a" stroke="#080408" stroke-width="0.5"/>
+    <line x1="9" y1="-13" x2="15" y2="-10" stroke="#080404" stroke-width="0.5"/>
+
+    <!-- ARMS RAISED — both arms forward, weapon between them (aiming). -->
+    <path d="M-12,-5 L-2,8 L20,18" fill="none" stroke="url(#p17p1ruby)" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M12,-5 L18,5 L28,15" fill="none" stroke="url(#p17p1ruby)" stroke-width="4.5" stroke-linecap="round"/>
+
+    <!-- WEAPON — raised, pointing toward rat (right). -->
+    <g id="p17p1-weapon">
+      <!-- Receiver. -->
+      <rect x="14" y="14" width="22" height="6" rx="0.7" fill="#1a0810" stroke="#080404" stroke-width="0.5"/>
+      <!-- Barrel. -->
+      <rect x="34" y="16" width="14" height="3" fill="#3a1010" stroke="#080404" stroke-width="0.4"/>
+      <!-- Power node — bright crimson. -->
+      <circle cx="18" cy="17" r="1.6" fill="#f54848" filter="url(#p17p1bloom)"/>
+      <!-- Crimson light cast on weapon (script-specific). -->
+      <ellipse cx="30" cy="17" rx="14" ry="5" fill="#f54848" opacity="0.4" filter="url(#p17p1bloom)"/>
+      <!-- Sight glint. -->
+      <circle cx="22" cy="14" r="0.6" fill="#dce4ff"/>
+    </g>
+
+    <!-- HEAD (locked on, aiming). -->
+    <ellipse cx="0" cy="-22" rx="6" ry="6.5" fill="#d8a880"/>
+    <!-- Buzz cap. -->
+    <path d="M-5,-26 Q0,-30 5,-26 L5,-22 L-5,-22 Z" fill="#a83a18"/>
+    <!-- Eyes (locked forward, controlled aggression). -->
+    <ellipse cx="-2" cy="-22" rx="0.8" ry="0.6" fill="#1a0808"/>
+    <ellipse cx="2" cy="-22" rx="0.8" ry="0.6" fill="#1a0808"/>
+    <!-- Brow set hard. -->
+    <path d="M-4,-26 Q-1,-28 1,-26" stroke="#5a1808" stroke-width="0.7" fill="none"/>
+    <path d="M1,-26 Q3,-28 5,-26" stroke="#5a1808" stroke-width="0.7" fill="none"/>
+    <!-- Lips firm. -->
+    <line x1="-2" y1="-18" x2="3" y2="-18" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Crimson glow on jaw. -->
+    <ellipse cx="0" cy="-16" rx="5" ry="1" fill="#f54848" opacity="0.4" filter="url(#p17p1bloom)"/>
+  </g>
+
+  <!-- SABLE (FG-LEFT, beside Thresh) — hand RAISED in HOLD signal. -->
+  <g id="p17p1-sable" transform="translate(80, 215)">
+
+    <!-- Body. -->
+    <path d="M-12,32 Q-14,5 -12,-12 L-6,-16 L7,-16 Q8,5 12,32 Z" fill="url(#p17p1silver)" stroke="#080408" stroke-width="0.7"/>
+    <line x1="0" y1="-12" x2="0" y2="28" stroke="#dce4ff" stroke-width="0.6" filter="url(#p17p1bloom)" opacity="0.85"/>
+
+    <!-- Lower legs. -->
+    <path d="M-7,32 L-10,55" fill="none" stroke="#3a3a45" stroke-width="6" stroke-linecap="round"/>
+    <path d="M7,32 L10,55" fill="none" stroke="#3a3a45" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="56" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="10" cy="56" rx="6" ry="2" fill="#080404"/>
+    <!-- Warm amber on legs. -->
+    <path d="M-7,32 L-10,55" fill="none" stroke="#f5b860" stroke-width="2" stroke-linecap="round" opacity="0.4" filter="url(#p17p1bloom)"/>
+    <path d="M7,32 L10,55" fill="none" stroke="#f5b860" stroke-width="2" stroke-linecap="round" opacity="0.4" filter="url(#p17p1bloom)"/>
+
+    <!-- Shoulder pads. -->
+    <ellipse cx="-12" cy="-12" rx="6" ry="3" fill="#a8a8b0" stroke="#080408" stroke-width="0.4"/>
+    <!-- RIGHT shoulder CRACKED bleed bright (continuity). -->
+    <ellipse cx="12" cy="-12" rx="6" ry="3" fill="#a8a8b0" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="12" cy="-12" rx="11" ry="7" fill="url(#p17p1blueWhiteCrack)" filter="url(#p17p1strongBloom)" opacity="0.95"/>
+    <g stroke="#080408" stroke-width="0.6" fill="none">
+      <line x1="8" y1="-13" x2="16" y2="-10"/>
+      <line x1="10" y1="-15" x2="14" y2="-9"/>
+    </g>
+
+    <!-- LEFT arm at side. -->
+    <path d="M-12,-5 L-15,12 L-12,28" fill="none" stroke="url(#p17p1silver)" stroke-width="4.5" stroke-linecap="round"/>
+
+    <!-- RIGHT arm RAISED — palm-out HOLD signal toward Thresh (script-specific). -->
+    <path d="M12,-5 L18,-12 L22,-22 L20,-32" fill="none" stroke="url(#p17p1silver)" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Hand palm-out (open, fingers up). -->
+    <path d="M16,-34 Q20,-44 24,-34 L24,-30 L16,-30 Z" fill="#5a3818"/>
+    <!-- Fingers extended up. -->
+    <line x1="17" y1="-34" x2="17" y2="-42" stroke="#5a3818" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="20" y1="-36" x2="20" y2="-44" stroke="#5a3818" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="23" y1="-34" x2="23" y2="-42" stroke="#5a3818" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Thumb. -->
+    <line x1="16" y1="-32" x2="13" y2="-36" stroke="#5a3818" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- HEAD (calculating, looking at rat). -->
+    <ellipse cx="0" cy="-22" rx="6" ry="6.5" fill="#5a3818"/>
+    <!-- Silver buzz cap. -->
+    <path d="M-5,-26 Q0,-30 5,-26 L5,-22 L-5,-22 Z" fill="#c8ccd4"/>
+    <!-- Eyes. -->
+    <ellipse cx="-2" cy="-22" rx="0.8" ry="0.6" fill="#080404"/>
+    <ellipse cx="2" cy="-22" rx="0.8" ry="0.6" fill="#080404"/>
+    <!-- Brow set hard. -->
+    <path d="M-4,-26 Q-1,-28 1,-26" stroke="#3a2810" stroke-width="0.7" fill="none"/>
+    <path d="M1,-26 Q3,-28 5,-26" stroke="#3a2810" stroke-width="0.7" fill="none"/>
+    <!-- Lips firm. -->
+    <line x1="-2" y1="-18" x2="3" y2="-18" stroke="#3a1810" stroke-width="0.7"/>
+    <!-- Cool blue catch jaw. -->
+    <ellipse cx="0" cy="-16" rx="5" ry="1" fill="#dce4ff" opacity="0.55" filter="url(#p17p1bloom)"/>
+  </g>
+
+  <!-- THRESH dialogue. -->
+  <g id="p17p1-dlg-thresh">
+    <rect x="14" y="14" width="138" height="44" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Contact.</text>
+    <path d="M88,58 L106,58 L150,200 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="88" y1="58" x2="106" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE dialogue. -->
+  <g id="p17p1-dlg-sable">
+    <rect x="170" y="14" width="120" height="44" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="180" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="180" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Hold.</text>
+    <path d="M225,58 L243,58 L100,200 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="225" y1="58" x2="243" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p17p1-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="738" y="282" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">RAT ENCOUNTER</text>
+  </g>
+</svg>
