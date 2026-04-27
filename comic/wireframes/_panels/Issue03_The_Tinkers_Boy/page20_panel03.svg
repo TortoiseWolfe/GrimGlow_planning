@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 20 — Panel 3: Theodore CU after, gap empty</title>
+  <desc>CU 85mm Victorian boy's face straight on, looking at gap where Jink disappeared. Hazel eyes wide and still, looking at something no longer there. Dark gap visible behind him — empty. Workshop warm amber candlelight only — brass, wood, shadow. Emerald light gone. BUT in dilated pupils, faint ghost of green-white geometric light still lingers — afterimage of wings held in eyes. Expression still and resolved — wonder become knowledge. Not the same boy who walked in. No cool light remains except memory in eyes.</desc>
+
+  <defs>
+    <linearGradient id="p20p3nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#080200"/>
+    </linearGradient>
+    <radialGradient id="p20p3warmHalo" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#ff9028" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p20p3theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <linearGradient id="p20p3theoSkinWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ff9028" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="p20p3theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p20p3wallDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <filter id="p20p3bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p20p3deepBloom"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- BG — dim wall behind. -->
+  <rect width="366" height="364" fill="url(#p20p3nightBg)"/>
+  <ellipse cx="183" cy="180" rx="280" ry="240" fill="url(#p20p3warmHalo)" opacity="0.85"/>
+
+  <!-- Wall + dark gap visible behind Theodore. -->
+  <rect width="366" height="364" fill="url(#p20p3wallDark)" opacity="0.65"/>
+  <!-- The dark gap behind Theodore (at right edge, partial). -->
+  <rect x="320" y="240" width="46" height="80" fill="#020100"/>
+  <ellipse cx="343" cy="280" rx="22" ry="36" fill="#000" opacity="0.85"/>
+
+  <!-- Wood grain on wall. -->
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.45">
+    <line x1="0" y1="100" x2="40" y2="100"/>
+    <line x1="0" y1="280" x2="40" y2="280"/>
+    <line x1="320" y1="100" x2="366" y2="100"/>
+  </g>
+
+  <!-- ******** HEAD CU ******** -->
+  <g>
+    <ellipse cx="183" cy="200" rx="140" ry="160" fill="url(#p20p3theoSkin)"/>
+    <ellipse cx="183" cy="200" rx="140" ry="160" fill="url(#p20p3theoSkinWarm)" opacity="0.65"/>
+
+    <!-- Hair tousled. -->
+    <g fill="url(#p20p3theoHair)">
+      <path d="M62,100 Q56,30 150,8 Q210,-4 270,8 Q318,30 312,100 L304,110 Q288,28 250,16 L116,16 Q78,28 70,110 Z"/>
+      <path d="M70,4 L60,-44 L92,4 Z"/>
+      <path d="M104,-22 L90,-72 L132,-12 Z"/>
+      <path d="M148,-38 L156,-90 L186,-28 Z"/>
+      <path d="M198,-38 L228,-72 L222,-12 Z"/>
+      <path d="M236,-22 L274,-44 L260,4 Z"/>
+      <path d="M70,110 L74,150 L96,98 Z"/>
+      <path d="M110,128 L116,168 L138,116 Z"/>
+      <path d="M154,140 L160,180 L182,128 Z"/>
+      <path d="M196,140 L202,180 L224,128 Z"/>
+      <path d="M240,128 L246,168 L266,116 Z"/>
+    </g>
+
+    <!-- EYES — STILL, wide, dilated. Looking at the gap (slightly right). -->
+    <ellipse cx="120" cy="200" rx="26" ry="16" fill="#fff8e8"/>
+    <ellipse cx="120" cy="200" rx="26" ry="16" fill="none" stroke="#3a2810" stroke-width="1"/>
+    <ellipse cx="124" cy="200" rx="13" ry="13" fill="url(#p20p3theoHair)"/>
+    <!-- DILATED pupil. -->
+    <ellipse cx="124" cy="200" rx="9" ry="9" fill="#0a0604"/>
+    <!-- GHOST OF EMERALD WING-LIGHT in pupil (afterimage). -->
+    <g stroke="#a8ffd0" stroke-width="0.7" fill="none" opacity="0.65" filter="url(#p20p3bloom)">
+      <path d="M119,200 L124,196 L129,200 L124,204 Z"/>
+      <path d="M129,200 L132,198 L132,202 Z"/>
+    </g>
+    <ellipse cx="126" cy="197" rx="2" ry="1.4" fill="#a8ffd0" filter="url(#p20p3bloom)" opacity="0.55"/>
+    <!-- Bright catchlight. -->
+    <ellipse cx="125" cy="197" rx="1.4" ry="0.85" fill="#ffffff"/>
+
+    <ellipse cx="246" cy="200" rx="26" ry="16" fill="#fff8e8"/>
+    <ellipse cx="246" cy="200" rx="26" ry="16" fill="none" stroke="#3a2810" stroke-width="1"/>
+    <ellipse cx="250" cy="200" rx="13" ry="13" fill="url(#p20p3theoHair)"/>
+    <ellipse cx="250" cy="200" rx="9" ry="9" fill="#0a0604"/>
+    <g stroke="#a8ffd0" stroke-width="0.7" fill="none" opacity="0.65" filter="url(#p20p3bloom)">
+      <path d="M245,200 L250,196 L255,200 L250,204 Z"/>
+      <path d="M255,200 L258,198 L258,202 Z"/>
+    </g>
+    <ellipse cx="252" cy="197" rx="2" ry="1.4" fill="#a8ffd0" filter="url(#p20p3bloom)" opacity="0.55"/>
+    <ellipse cx="251" cy="197" rx="1.4" ry="0.85" fill="#ffffff"/>
+
+    <!-- Brows — level, soft (still resolved). -->
+    <path d="M94,170 Q120,162 146,170" fill="none" stroke="#3a2810" stroke-width="3" stroke-linecap="round"/>
+    <path d="M220,170 Q246,162 272,170" fill="none" stroke="#3a2810" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Nose. -->
+    <path d="M183,224 L163,290 Q183,300 203,290 Z" fill="#a8765a" opacity="0.55"/>
+    <ellipse cx="172" cy="284" rx="3.5" ry="2" fill="#3a2010"/>
+    <ellipse cx="194" cy="284" rx="3.5" ry="2" fill="#3a2010"/>
+
+    <!-- MOUTH — closed, firm, RESOLVED. -->
+    <path d="M148,328 Q183,332 218,328" fill="none" stroke="#5a3018" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Cheeks. -->
+    <ellipse cx="74" cy="240" rx="20" ry="14" fill="#ff9028" opacity="0.42"/>
+    <ellipse cx="292" cy="240" rx="20" ry="14" fill="#ff9028" opacity="0.42"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.95">
+      <circle cx="100" cy="248" r="1.4"/>
+      <circle cx="116" cy="258" r="1.2"/>
+      <circle cx="138" cy="248" r="1.4"/>
+      <circle cx="228" cy="248" r="1.4"/>
+      <circle cx="250" cy="258" r="1.2"/>
+      <circle cx="266" cy="248" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- No dialogue. -->
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 246,42"/>
+    <path d="M246,40 Q310,45 366,42"/>
+  </g>
+</svg>

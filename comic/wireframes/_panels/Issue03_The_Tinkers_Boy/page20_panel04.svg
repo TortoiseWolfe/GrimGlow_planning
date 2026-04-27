@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 20 — Panel 4: Theodore alone, candle burning down</title>
+  <desc>Wide 24mm high angle looking down. Victorian boy sits on workshop floor, back against workbench, knees drawn up, ALONE. Guttering candle on bench above casts long shadow across worn floorboards. Holds brass gear ring between thumb and forefinger, turning slowly. Workshop surrounds — cluttered workbenches, hanging tools, brass gears, half-assembled automaton on high shelf. Gap in floorboards near wall visible — dark, silent, empty. Sandy hair, collarless shirt, worn waistcoat, twelve-year-old holding biggest secret. Warm amber candlelight from above only. No cool light anywhere — fairy world has left.</desc>
+
+  <defs>
+    <linearGradient id="p20p4nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#080200"/>
+    </linearGradient>
+    <radialGradient id="p20p4candleGlow" cx="35%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p20p4floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p20p4bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p20p4theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <linearGradient id="p20p4theoSkinWarm" x1="0%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff9028" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ff9028" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p20p4theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p20p4shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcc8a8"/>
+      <stop offset="100%" stop-color="#7a6840"/>
+    </linearGradient>
+    <linearGradient id="p20p4vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p20p4ring" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1c08"/>
+    </radialGradient>
+    <radialGradient id="p20p4brass" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1c08"/>
+    </radialGradient>
+    <filter id="p20p4bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p20p4strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p20p4deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="742" height="364" fill="url(#p20p4nightBg)"/>
+  <ellipse cx="260" cy="80" rx="320" ry="200" fill="url(#p20p4candleGlow)" opacity="0.85"/>
+
+  <!-- Floor surface (top-down view, warm). -->
+  <rect width="742" height="364" fill="url(#p20p4floor)"/>
+  <!-- Wood grain top-down. -->
+  <g stroke="#1a0c04" stroke-width="0.55" opacity="0.55">
+    <line x1="80" y1="0" x2="80" y2="364"/>
+    <line x1="200" y1="0" x2="200" y2="364"/>
+    <line x1="380" y1="0" x2="380" y2="364"/>
+    <line x1="540" y1="0" x2="540" y2="364"/>
+    <line x1="660" y1="0" x2="660" y2="364"/>
+  </g>
+  <g stroke="#5a3018" stroke-width="0.4" opacity="0.45">
+    <path d="M0,60 Q371,64 742,60"/>
+    <path d="M0,200 Q371,196 742,200"/>
+    <path d="M0,340 Q371,344 742,340"/>
+  </g>
+
+  <!-- BENCH from above (left side of frame). -->
+  <g>
+    <rect x="0" y="20" width="220" height="80" fill="url(#p20p4bench)"/>
+    <line x1="0" y1="100" x2="220" y2="100" stroke="#1a0c04" stroke-width="2"/>
+    <!-- Tools strewn on bench. -->
+    <ellipse cx="60" cy="60" rx="14" ry="10" fill="url(#p20p4brass)"/>
+    <ellipse cx="120" cy="50" rx="22" ry="6" fill="url(#p20p4brass)"/>
+    <ellipse cx="180" cy="70" rx="10" ry="6" fill="url(#p20p4brass)"/>
+    <!-- Candle (top-down view, small flame). -->
+    <circle cx="100" cy="60" r="6" fill="#5a4828"/>
+    <ellipse cx="100" cy="60" rx="3" ry="3" fill="#ff9028" filter="url(#p20p4strongBloom)"/>
+    <ellipse cx="100" cy="60" rx="14" ry="14" fill="#ffd078" opacity="0.32" filter="url(#p20p4deepBloom)"/>
+  </g>
+
+  <!-- ******** THEODORE sitting on floor, back against bench (top-down) ******** -->
+  <g>
+    <!-- Long shadow stretching across floor (diagonal away from candle). -->
+    <ellipse cx="380" cy="220" rx="200" ry="40" fill="#000" opacity="0.55" transform="rotate(15 380 220)"/>
+
+    <!-- Body (top-down: knees drawn up, hunched, hands together). -->
+    <path d="M180,160 Q170,210 200,260 L300,290 Q360,300 400,290 L460,260 Q480,210 470,160 Q420,140 380,140 Q300,150 220,150 Z" fill="url(#p20p4vest)"/>
+    <!-- Shirt visible at neck/chest. -->
+    <ellipse cx="320" cy="180" rx="40" ry="22" fill="url(#p20p4shirt)"/>
+    <!-- Buttons row. -->
+    <circle cx="320" cy="170" r="2" fill="#1a0c04"/>
+    <circle cx="320" cy="184" r="2" fill="#1a0c04"/>
+    <circle cx="320" cy="198" r="2" fill="#1a0c04"/>
+
+    <!-- HEAD (top-down view — mostly hair with a sliver of forehead). -->
+    <ellipse cx="290" cy="130" rx="50" ry="46" fill="url(#p20p4theoHair)"/>
+    <!-- Hair tufts/spikes top-down. -->
+    <g fill="url(#p20p4theoHair)">
+      <ellipse cx="248" cy="110" rx="14" ry="14"/>
+      <ellipse cx="276" cy="92" rx="14" ry="14"/>
+      <ellipse cx="304" cy="92" rx="14" ry="14"/>
+      <ellipse cx="332" cy="110" rx="14" ry="14"/>
+      <ellipse cx="248" cy="148" rx="10" ry="14"/>
+      <ellipse cx="332" cy="148" rx="10" ry="14"/>
+    </g>
+    <!-- Hair shine (warm catch from above). -->
+    <g stroke="#ffd078" stroke-width="2" opacity="0.85" filter="url(#p20p4bloom)">
+      <line x1="260" y1="100" x2="260" y2="118"/>
+      <line x1="290" y1="86" x2="290" y2="104"/>
+      <line x1="320" y1="100" x2="320" y2="118"/>
+    </g>
+    <!-- Forehead/face peek. -->
+    <ellipse cx="290" cy="160" rx="22" ry="9" fill="url(#p20p4theoSkin)"/>
+    <ellipse cx="290" cy="160" rx="22" ry="9" fill="url(#p20p4theoSkinWarm)" opacity="0.55"/>
+
+    <!-- Knees drawn up (tops visible). -->
+    <ellipse cx="248" cy="240" rx="20" ry="22" fill="url(#p20p4vest)"/>
+    <ellipse cx="412" cy="240" rx="20" ry="22" fill="url(#p20p4vest)"/>
+
+    <!-- Hands together at front, holding gear ring. -->
+    <ellipse cx="330" cy="260" rx="22" ry="10" fill="url(#p20p4theoSkin)"/>
+    <ellipse cx="330" cy="260" rx="22" ry="10" fill="url(#p20p4theoSkinWarm)" opacity="0.45"/>
+    <!-- Fingers gripping ring. -->
+    <line x1="320" y1="252" x2="316" y2="248" stroke="url(#p20p4theoSkin)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="328" y1="248" x2="328" y2="244" stroke="url(#p20p4theoSkin)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="336" y1="248" x2="340" y2="244" stroke="url(#p20p4theoSkin)" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- BRASS GEAR RING held between fingers. -->
+    <ellipse cx="330" cy="250" rx="8" ry="5" fill="url(#p20p4ring)"/>
+    <ellipse cx="330" cy="250" rx="8" ry="5" fill="none" stroke="#1a0c04" stroke-width="0.4"/>
+    <ellipse cx="330" cy="250" rx="3" ry="2" fill="#3a1c08"/>
+    <!-- Gear teeth on ring. -->
+    <g fill="#a85820">
+      <rect x="322" y="248" width="2" height="2"/>
+      <rect x="338" y="248" width="2" height="2"/>
+      <rect x="329" y="244" width="2" height="2"/>
+      <rect x="329" y="252" width="2" height="2"/>
+    </g>
+    <!-- Warm catch on ring. -->
+    <ellipse cx="328" cy="248" rx="3" ry="1.4" fill="#fff0a8" filter="url(#p20p4bloom)" opacity="0.85"/>
+
+    <!-- Oil-stained fingers visible. -->
+    <ellipse cx="324" cy="262" rx="6" ry="2" fill="#1a0c04" opacity="0.65"/>
+  </g>
+
+  <!-- More tools/clutter around (workshop). -->
+  <g>
+    <!-- Hanging tools on far walls (right side). -->
+    <line x1="660" y1="40" x2="666" y2="120" stroke="#a85820" stroke-width="3"/>
+    <line x1="700" y1="40" x2="708" y2="100" stroke="#5a606a" stroke-width="3"/>
+    <line x1="722" y1="40" x2="730" y2="120" stroke="#a85820" stroke-width="3"/>
+
+    <!-- Half-assembled automaton on shelf (top right corner). -->
+    <rect x="600" y="0" width="120" height="40" fill="#3a2010"/>
+    <ellipse cx="640" cy="20" rx="20" ry="14" fill="url(#p20p4brass)" opacity="0.85"/>
+    <rect x="660" y="14" width="14" height="20" fill="#5a606a"/>
+    <ellipse cx="700" cy="22" rx="10" ry="10" fill="url(#p20p4brass)"/>
+  </g>
+
+  <!-- ******** THE GAP in floorboards — DARK, SILENT, EMPTY ******** -->
+  <g>
+    <!-- Far right of frame, near wall. -->
+    <rect x="640" y="240" width="60" height="40" fill="#020100"/>
+    <!-- Splintered edges. -->
+    <path d="M640,240 L645,236 L700,236 L700,240 Z" fill="#1a0c04"/>
+    <ellipse cx="670" cy="260" rx="22" ry="14" fill="#000" opacity="0.85"/>
+  </g>
+
+  <!-- CAPTION at bottom. -->
+  <g>
+    <rect x="14" y="296" width="402" height="44" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="316" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="500">CAPTION</text>
+  <text x="22" y="334" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#5a4a30" font-style="italic">He sat there until the candle burned down.</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q200,45 400,42"/>
+    <path d="M400,40 Q600,45 742,42"/>
+  </g>
+</svg>
