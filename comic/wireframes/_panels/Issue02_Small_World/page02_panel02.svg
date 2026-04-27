@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 360" width="366" height="360">
+  <title>Issue 2 — Page 2 — Panel 2: Wren OTS + holo diagnostic on drainpipe</title>
+  <desc>MS 50mm OTS Wren. Faces rooftop edge where massive cast iron drainpipe meets gutter. Pipe opening as TUNNEL MOUTH at fairy scale. Wren back to camera, copper-gold holographic geometric shapes float from forearm — structural diagram of pipe (joint connections, bracket positions, load estimates). Hair UP in messy bun, wiry build, copper suit w/ oil-stained forearms. Warm copper-gold light casts on dark iron pipe + lead gutter lining. Analytical posture, head tilted reading data. WREN multi-line + SABLE off check.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p2p2grey" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7e88"/>
+      <stop offset="100%" stop-color="#5a5e68"/>
+    </linearGradient>
+    <linearGradient id="p2p2pipe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="50%" stop-color="#3a3a45"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+    <radialGradient id="p2p2tunnelMouth" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#080a14" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#1a1820" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a3a45" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p2p2lead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <linearGradient id="p2p2copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#5a3010"/>
+    </linearGradient>
+    <radialGradient id="p2p2holoGold">
+      <stop offset="0%" stop-color="#f5d860" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a87830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3010" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p2p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p2p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p2p2deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- BG grey overcast morning. -->
+  <rect width="366" height="360" fill="url(#p2p2grey)"/>
+
+  <!-- LEAD GUTTER LINING — bottom strip (where Wren stands). -->
+  <g id="p2p2-gutter">
+    <rect y="280" width="366" height="80" fill="url(#p2p2lead)"/>
+    <line x1="0" y1="280" x2="366" y2="280" stroke="#080a14" stroke-width="1.4"/>
+    <!-- Rivets along seam. -->
+    <g fill="#0a0c10" opacity="0.85">
+      <circle cx="40" cy="296" r="1.4"/>
+      <circle cx="120" cy="296" r="1.4"/>
+      <circle cx="280" cy="296" r="1.4"/>
+      <circle cx="340" cy="296" r="1.4"/>
+    </g>
+    <!-- Patina stipple. -->
+    <g fill="#1a1c20" opacity="0.55">
+      <circle cx="50" cy="320" r="1"/>
+      <circle cx="150" cy="340" r="1"/>
+      <circle cx="320" cy="330" r="1"/>
+    </g>
+    <!-- COPPER-GOLD holographic light casts on lead lining (script-specific). -->
+    <ellipse cx="240" cy="290" rx="120" ry="22" fill="#f5b870" opacity="0.4" filter="url(#p2p2bloom)"/>
+  </g>
+
+  <!-- DRAINPIPE TUNNEL MOUTH — large opening filling right of frame at fairy scale (script: pipe opening as tunnel mouth). -->
+  <g id="p2p2-pipe-tunnel">
+    <!-- Pipe outer cylinder (right portion). -->
+    <rect x="200" y="0" width="166" height="280" fill="url(#p2p2pipe)"/>
+    <!-- Pipe joint mount where pipe meets gutter. -->
+    <rect x="200" y="270" width="166" height="14" rx="1" fill="#1a1820" stroke="#080a14" stroke-width="0.8"/>
+    <line x1="200" y1="276" x2="366" y2="276" stroke="#3a3a45" stroke-width="0.5"/>
+    <!-- TUNNEL MOUTH — dark interior visible as oval. -->
+    <ellipse cx="283" cy="270" rx="60" ry="20" fill="url(#p2p2tunnelMouth)"/>
+    <!-- Tunnel lip rim. -->
+    <ellipse cx="283" cy="270" rx="60" ry="20" fill="none" stroke="#0a0a14" stroke-width="2"/>
+    <!-- Inner mouth darkness. -->
+    <ellipse cx="283" cy="270" rx="50" ry="14" fill="#080408"/>
+    <!-- Tunnel mouth COPPER-GOLD CATCH (holo lighting interior rim per script). -->
+    <ellipse cx="283" cy="270" rx="58" ry="18" fill="none" stroke="#f5b870" stroke-width="1" opacity="0.65" filter="url(#p2p2bloom)"/>
+
+    <!-- Pipe edge highlights. -->
+    <line x1="202" y1="0" x2="202" y2="280" stroke="#5a606a" stroke-width="0.7" opacity="0.7"/>
+    <line x1="364" y1="0" x2="364" y2="280" stroke="#5a606a" stroke-width="0.7" opacity="0.7"/>
+    <line x1="283" y1="0" x2="283" y2="240" stroke="#7a7e88" stroke-width="1" opacity="0.55"/>
+
+    <!-- Bracket support visible on pipe. -->
+    <path d="M196,80 L206,78 L206,90 L196,92 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+    <path d="M362,78 L372,80 L372,92 L362,90 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+
+    <!-- Pipe rust streaks. -->
+    <g stroke="#3a1808" stroke-width="0.4" opacity="0.55">
+      <line x1="240" y1="20" x2="242" y2="260"/>
+      <line x1="320" y1="20" x2="318" y2="260"/>
+    </g>
+  </g>
+
+  <!-- WREN — back to camera, OTS perspective. Foreground subject. -->
+  <g id="p2p2-wren" transform="translate(120, 240)">
+
+    <!-- Lower legs. -->
+    <path d="M-15,40 L-18,80 L-22,108" fill="none" stroke="#5a3010" stroke-width="11" stroke-linecap="round"/>
+    <path d="M15,40 L18,80 L22,108" fill="none" stroke="#5a3010" stroke-width="11" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="110" rx="11" ry="3" fill="#080408"/>
+    <ellipse cx="22" cy="110" rx="11" ry="3" fill="#080408"/>
+
+    <!-- Thighs. -->
+    <path d="M-18,-5 L-15,40 L0,40" fill="url(#p2p2copper)" stroke="#080408" stroke-width="0.7"/>
+    <path d="M18,-5 L15,40 L0,40" fill="url(#p2p2copper)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Hip belt. -->
+    <rect x="-22" y="-10" width="44" height="8" fill="#3a1808" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- TORSO BACK VIEW (OTS — back facing camera). -->
+    <path d="M-32,-65 Q-38,-30 -28,-5 L28,-5 Q38,-30 32,-65 L14,-72 L-14,-72 Z" fill="url(#p2p2copper)" stroke="#080408" stroke-width="0.9"/>
+    <!-- Shoulder blades suggestion (back view). -->
+    <line x1="-15" y1="-50" x2="-15" y2="-15" stroke="#3a1808" stroke-width="0.5" opacity="0.55"/>
+    <line x1="15" y1="-50" x2="15" y2="-15" stroke="#3a1808" stroke-width="0.5" opacity="0.55"/>
+    <!-- Spine. -->
+    <line x1="0" y1="-60" x2="0" y2="-10" stroke="#080408" stroke-width="0.6" opacity="0.55"/>
+    <!-- Copper holo seam glow (faint per Issue 2 production note). -->
+    <line x1="0" y1="-60" x2="0" y2="-10" stroke="#f5a868" stroke-width="0.4" opacity="0.45" filter="url(#p2p2bloom)"/>
+
+    <!-- WATER SPOTS on shoulders. -->
+    <g fill="#080a14" opacity="0.55">
+      <circle cx="-22" cy="-55" r="1.4"/>
+      <circle cx="22" cy="-55" r="1.4"/>
+      <circle cx="-25" cy="-45" r="1"/>
+      <circle cx="25" cy="-45" r="1"/>
+    </g>
+
+    <!-- Shoulder pads. -->
+    <ellipse cx="-32" cy="-60" rx="11" ry="6" fill="#c87a35" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="-32" cy="-62" rx="6" ry="3" fill="#f5a868" opacity="0.55"/>
+    <ellipse cx="32" cy="-60" rx="11" ry="6" fill="#c87a35" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="32" cy="-62" rx="6" ry="3" fill="#f5a868" opacity="0.55"/>
+
+    <!-- LEFT arm down at side. -->
+    <path d="M-32,-50 L-38,-15 L-32,15" fill="none" stroke="url(#p2p2copper)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hand. -->
+    <ellipse cx="-32" cy="18" rx="6" ry="4" fill="#5a3010" stroke="#080408" stroke-width="0.4"/>
+    <!-- Oil-stained forearm (script-specific continuity). -->
+    <ellipse cx="-35" cy="-2" rx="4" ry="6" fill="#1a0a08" opacity="0.65"/>
+
+    <!-- RIGHT arm RAISED FORWARD — projecting holo from forearm. -->
+    <path d="M32,-50 L52,-30 L70,-15 L84,-5" fill="none" stroke="url(#p2p2copper)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Hand. -->
+    <ellipse cx="84" cy="-3" rx="6" ry="4" fill="#5a3010" stroke="#080408" stroke-width="0.4"/>
+    <!-- Oil stain on forearm. -->
+    <ellipse cx="68" cy="-15" rx="5" ry="3" fill="#1a0a08" opacity="0.65"/>
+    <!-- Wrist emitter (copper-gold node — script-specific). -->
+    <circle cx="74" cy="-10" r="3" fill="#f5d860" filter="url(#p2p2bloom)"/>
+    <ellipse cx="74" cy="-10" rx="6" ry="4" fill="#f5b870" opacity="0.65" filter="url(#p2p2bloom)"/>
+
+    <!-- HEAD — back of head, slight tilt right (reading data per script). -->
+    <ellipse cx="6" cy="-92" rx="14" ry="15" fill="#d8b088" transform="rotate(8 6 -92)"/>
+    <!-- HAIR UP in messy bun (script-specific). -->
+    <g transform="rotate(8 6 -92)">
+      <!-- Cap of hair. -->
+      <path d="M-8,-104 Q4,-110 18,-104 Q20,-96 18,-88 L-8,-88 Z" fill="#0a0a14"/>
+      <!-- BUN at top of head. -->
+      <ellipse cx="6" cy="-114" rx="9" ry="6" fill="#0a0a14"/>
+      <ellipse cx="6" cy="-114" rx="6" ry="3" fill="#1a1018" opacity="0.7"/>
+      <!-- Bun-tie. -->
+      <ellipse cx="6" cy="-108" rx="8" ry="1.5" fill="#3a2810" opacity="0.85"/>
+      <!-- Loose strands. -->
+      <path d="M-2,-110 L-3,-104" stroke="#0a0a14" stroke-width="0.6" fill="none"/>
+      <path d="M14,-110 L15,-104" stroke="#0a0a14" stroke-width="0.6" fill="none"/>
+      <path d="M-7,-100 L-9,-96" stroke="#0a0a14" stroke-width="0.5" fill="none"/>
+      <path d="M18,-100 L20,-94" stroke="#0a0a14" stroke-width="0.5" fill="none"/>
+      <!-- Hair shine. -->
+      <ellipse cx="6" cy="-116" rx="5" ry="1" fill="#3a2810" opacity="0.85"/>
+    </g>
+  </g>
+
+  <!-- HOLOGRAPHIC STRUCTURAL DIAGRAM — projecting from Wren's right wrist toward pipe. -->
+  <g id="p2p2-holo-diagram" filter="url(#p2p2bloom)">
+    <!-- Volumetric beam from wrist out into projection box. -->
+    <ellipse cx="240" cy="180" rx="80" ry="60" fill="url(#p2p2holoGold)" filter="url(#p2p2deepBloom)" opacity="0.65"/>
+
+    <!-- Wireframe pipe schematic (geometric simplified diagram). -->
+    <g stroke="#f5d860" stroke-width="0.9" fill="none" opacity="0.95">
+      <!-- Pipe vertical schema. -->
+      <line x1="220" y1="130" x2="220" y2="220"/>
+      <line x1="260" y1="130" x2="260" y2="220"/>
+      <line x1="220" y1="130" x2="260" y2="130"/>
+      <line x1="220" y1="220" x2="260" y2="220"/>
+      <!-- Joint markers (every "4ft"). -->
+      <ellipse cx="240" cy="150" rx="22" ry="3"/>
+      <ellipse cx="240" cy="180" rx="22" ry="3"/>
+      <ellipse cx="240" cy="210" rx="22" ry="3"/>
+      <!-- Bracket markers (every "6ft"). -->
+      <line x1="210" y1="155" x2="218" y2="155"/>
+      <line x1="262" y1="155" x2="270" y2="155"/>
+      <line x1="210" y1="195" x2="218" y2="195"/>
+      <line x1="262" y1="195" x2="270" y2="195"/>
+      <!-- Mortar warning indicator at top bracket (script: "wouldn't trust the mortar"). -->
+      <line x1="270" y1="155" x2="280" y2="148"/>
+      <line x1="276" y1="148" x2="284" y2="148"/>
+      <line x1="280" y1="146" x2="280" y2="154"/>
+    </g>
+
+    <!-- Diagnostic text glyphs. -->
+    <g font-family="Helvetica Neue, Arial, sans-serif" fill="#f5d860" opacity="0.95">
+      <text x="290" y="148" font-size="6" font-weight="600">!MORTAR</text>
+      <text x="290" y="180" font-size="6" font-weight="600">CAST IRON</text>
+      <text x="290" y="212" font-size="6" font-weight="600">JOINT 4FT</text>
+      <text x="200" y="226" font-size="6" font-weight="600" text-anchor="end">LOAD OK</text>
+    </g>
+    <!-- Scan-line dashed. -->
+    <g stroke="#f5d860" stroke-width="0.4" opacity="0.55" stroke-dasharray="2,1.5">
+      <line x1="200" y1="170" x2="280" y2="170"/>
+      <line x1="200" y1="200" x2="280" y2="200"/>
+    </g>
+  </g>
+
+  <!-- Copper-gold light cast onto dark pipe (script-specific: warm structured illumination on iron). -->
+  <ellipse cx="283" cy="200" rx="50" ry="60" fill="#f5b870" opacity="0.25" filter="url(#p2p2strongBloom)"/>
+
+  <!-- WREN dialogue 1. -->
+  <g id="p2p2-dlg-wren-1">
+    <rect x="14" y="14" width="220" height="60" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Cast iron. Joints every 4 ft.</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">Climbable.</text>
+    <path d="M120,74 L138,74 L130,180 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="74" x2="138" y2="74" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE off check. -->
+  <g id="p2p2-dlg-sable-off">
+    <rect x="240" y="14" width="116" height="44" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-dasharray="6,3" filter="url(#balloonShadow)"/>
+    <text x="250" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE (OFF)</text>
+    <text x="250" y="49" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Condition?</text>
+    <path d="M348,58 L362,58 L362,80 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- WREN reply 2 (lower). -->
+  <g id="p2p2-dlg-wren-2">
+    <rect x="14" y="304" width="200" height="48" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="321" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="338" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="500" font-style="italic" fill="#3a3030">Old. Don't trust top mortar.</text>
+    <path d="M120,304 L138,304 L130,260 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="304" x2="138" y2="304" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p2p2-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="362" y="352" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WREN HOLO DIAGNOSTIC</text>
+  </g>
+</svg>

@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 450" width="742" height="450">
+  <title>Issue 2 — Page 2 — Panel 4: Squad moves out — tactical formation toward drainpipe</title>
+  <desc>Wide bird's-eye 24mm tilted DOWN. Squad moving in tactical formation along gutter toward drainpipe at far end. Thresh on POINT (rifle forward), Wren behind, Sable center, Luma rear (head turned checking behind), Jink alongside (restless contained energy). Drainpipe TUNNEL MOUTH at far end (right). DEAD LEAVES like fallen trees on floor. TWIG like log. PIGEON FEATHER sprawls like collapsed tent. Slate cliff faces, chimney towers, vast grey sky. Distant amber gas-lamp = single warm point. SABLE: "Move out."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p2p4grey" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7e88"/>
+      <stop offset="100%" stop-color="#5a5e68"/>
+    </linearGradient>
+    <linearGradient id="p2p4lead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="p2p4slate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2830"/>
+      <stop offset="100%" stop-color="#1a1820"/>
+    </linearGradient>
+    <radialGradient id="p2p4tunnelMouth" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#080a14" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#1a1820" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a3a45" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p2p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p2p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- DUTCH-TILTED main composition (subtle 4° tilt for bird's-eye dynamism). -->
+  <g id="p2p4-dutch" transform="rotate(4 371 225)">
+
+    <!-- BG sky strip top + slate cliff face. -->
+    <rect x="-30" y="-30" width="802" height="510" fill="url(#p2p4grey)"/>
+
+    <!-- SLATE CLIFF FACE rising at top (script: slate tiles as cliff faces). -->
+    <g id="p2p4-slate-cliff">
+      <path d="M-30,0 L-30,80 L100,90 L260,80 L420,95 L600,80 L772,90 L772,0 Z" fill="url(#p2p4slate)" opacity="0.85"/>
+      <!-- Slate tile rows. -->
+      <g stroke="#0a0810" stroke-width="0.4" opacity="0.7">
+        <line x1="-30" y1="30" x2="772" y2="30"/>
+        <line x1="-30" y1="60" x2="772" y2="60"/>
+      </g>
+      <!-- Distant chimney towers (script: chimney stacks as towers). -->
+      <rect x="60" y="-30" width="14" height="60" fill="#1a1820" opacity="0.85"/>
+      <rect x="56" y="-30" width="22" height="3" fill="#0a0810"/>
+      <rect x="220" y="-30" width="14" height="60" fill="#1a1820" opacity="0.85"/>
+      <rect x="216" y="-30" width="22" height="3" fill="#0a0810"/>
+      <rect x="380" y="-30" width="14" height="60" fill="#1a1820" opacity="0.85"/>
+      <rect x="540" y="-30" width="14" height="60" fill="#1a1820" opacity="0.85"/>
+      <rect x="700" y="-30" width="14" height="60" fill="#1a1820" opacity="0.85"/>
+      <!-- Smoke wisps. -->
+      <ellipse cx="65" cy="-32" rx="14" ry="5" fill="#5a5860" opacity="0.55" filter="url(#p2p4bloom)"/>
+      <ellipse cx="225" cy="-32" rx="14" ry="5" fill="#5a5860" opacity="0.55" filter="url(#p2p4bloom)"/>
+      <ellipse cx="545" cy="-32" rx="14" ry="5" fill="#5a5860" opacity="0.55" filter="url(#p2p4bloom)"/>
+    </g>
+
+    <!-- GUTTER CHANNEL — bird's-eye, runs across mid-frame as broad highway. -->
+    <g id="p2p4-gutter">
+      <rect x="-30" y="100" width="802" height="280" fill="url(#p2p4lead)"/>
+      <!-- Riveted seams + rivets. -->
+      <g stroke="#0a0c10" stroke-width="0.5" opacity="0.85">
+        <line x1="100" y1="100" x2="95" y2="380"/>
+        <line x1="240" y1="100" x2="235" y2="380"/>
+        <line x1="380" y1="100" x2="380" y2="380"/>
+        <line x1="520" y1="100" x2="525" y2="380"/>
+        <line x1="660" y1="100" x2="665" y2="380"/>
+      </g>
+      <g fill="#0a0c10" opacity="0.85">
+        <circle cx="100" cy="140" r="2"/>
+        <circle cx="100" cy="240" r="2"/>
+        <circle cx="100" cy="340" r="2"/>
+        <circle cx="240" cy="180" r="2"/>
+        <circle cx="240" cy="280" r="2"/>
+        <circle cx="380" cy="140" r="2"/>
+        <circle cx="380" cy="240" r="2"/>
+        <circle cx="380" cy="340" r="2"/>
+        <circle cx="520" cy="180" r="2"/>
+        <circle cx="520" cy="280" r="2"/>
+      </g>
+      <!-- Patina stipple. -->
+      <g fill="#1a1c20" opacity="0.55">
+        <circle cx="40" cy="160" r="1.4"/>
+        <circle cx="160" cy="220" r="1.4"/>
+        <circle cx="320" cy="280" r="1.4"/>
+        <circle cx="450" cy="200" r="1.4"/>
+        <circle cx="580" cy="320" r="1.4"/>
+      </g>
+      <!-- Gutter lip (top edge). -->
+      <line x1="-30" y1="100" x2="772" y2="100" stroke="#080a14" stroke-width="1.4"/>
+      <!-- Gutter floor edge (bottom). -->
+      <line x1="-30" y1="380" x2="772" y2="380" stroke="#080a14" stroke-width="1"/>
+    </g>
+
+    <!-- SCALE PROPS in gutter — debris like fallen trees etc. -->
+    <g id="p2p4-debris">
+      <!-- DEAD LEAVES like FALLEN TREES (script-specific). -->
+      <g fill="#5a3018">
+        <path d="M120,260 Q140,250 170,265 Q175,280 165,288 Q140,295 120,285 Q108,272 120,260 Z"/>
+        <line x1="125" y1="265" x2="170" y2="280" stroke="#3a1808" stroke-width="0.5"/>
+        <line x1="135" y1="270" x2="160" y2="285" stroke="#3a1808" stroke-width="0.4"/>
+
+        <path d="M280,200 Q300,190 330,205 Q335,220 325,228 Q300,235 280,225 Q268,212 280,200 Z"/>
+        <line x1="285" y1="205" x2="330" y2="220" stroke="#3a1808" stroke-width="0.5"/>
+
+        <path d="M170,330 Q190,320 220,335 Q225,348 215,355 Q190,360 170,352 Q160,342 170,330 Z"/>
+        <line x1="175" y1="335" x2="220" y2="348" stroke="#3a1808" stroke-width="0.5"/>
+
+        <path d="M460,260 Q480,250 510,265 Q515,278 505,286 Q480,292 460,284 Q450,272 460,260 Z"/>
+        <line x1="465" y1="265" x2="510" y2="280" stroke="#3a1808" stroke-width="0.5"/>
+      </g>
+
+      <!-- TWIG like LOG (script-specific). -->
+      <g>
+        <path d="M340,330 Q400,325 460,340" fill="none" stroke="#3a1808" stroke-width="6" stroke-linecap="round"/>
+        <line x1="340" y1="330" x2="460" y2="340" stroke="#5a3018" stroke-width="1" opacity="0.85"/>
+        <!-- Twig knots. -->
+        <ellipse cx="380" cy="332" rx="3" ry="1.5" fill="#1a0a08"/>
+        <ellipse cx="430" cy="334" rx="3" ry="1.5" fill="#1a0a08"/>
+      </g>
+
+      <!-- PIGEON FEATHER sprawls like COLLAPSED TENT (script-specific). -->
+      <g transform="translate(580, 240) rotate(20)">
+        <!-- Feather shaft. -->
+        <path d="M-40,0 Q-20,-3 20,0 Q40,3 60,0" stroke="#3a3838" stroke-width="2" fill="none"/>
+        <!-- Feather barbs (one side). -->
+        <g stroke="#a8a8b0" stroke-width="0.6" fill="none" opacity="0.85">
+          <line x1="-30" y1="0" x2="-32" y2="-12"/>
+          <line x1="-22" y1="0" x2="-24" y2="-14"/>
+          <line x1="-14" y1="0" x2="-16" y2="-15"/>
+          <line x1="-6" y1="0" x2="-8" y2="-15"/>
+          <line x1="2" y1="0" x2="0" y2="-14"/>
+          <line x1="10" y1="0" x2="8" y2="-12"/>
+          <line x1="18" y1="0" x2="16" y2="-10"/>
+          <line x1="26" y1="0" x2="24" y2="-8"/>
+          <line x1="34" y1="0" x2="32" y2="-6"/>
+          <line x1="42" y1="0" x2="40" y2="-4"/>
+        </g>
+        <!-- Feather barbs (other side). -->
+        <g stroke="#a8a8b0" stroke-width="0.6" fill="none" opacity="0.85">
+          <line x1="-30" y1="0" x2="-32" y2="12"/>
+          <line x1="-22" y1="0" x2="-24" y2="14"/>
+          <line x1="-14" y1="0" x2="-16" y2="15"/>
+          <line x1="-6" y1="0" x2="-8" y2="15"/>
+          <line x1="2" y1="0" x2="0" y2="14"/>
+          <line x1="10" y1="0" x2="8" y2="12"/>
+          <line x1="18" y1="0" x2="16" y2="10"/>
+          <line x1="26" y1="0" x2="24" y2="8"/>
+          <line x1="34" y1="0" x2="32" y2="6"/>
+        </g>
+        <!-- Feather barb tip silhouette. -->
+        <path d="M-30,-12 Q-10,-16 10,-14 Q30,-12 42,-4" fill="#a8a8b0" opacity="0.4"/>
+        <path d="M-30,12 Q-10,16 10,14 Q30,12 42,4" fill="#a8a8b0" opacity="0.4"/>
+      </g>
+    </g>
+
+    <!-- DRAINPIPE TUNNEL MOUTH at far end (right side of gutter). -->
+    <g id="p2p4-tunnel-mouth">
+      <ellipse cx="700" cy="220" rx="40" ry="60" fill="url(#p2p4tunnelMouth)"/>
+      <ellipse cx="700" cy="220" rx="40" ry="60" fill="none" stroke="#0a0a14" stroke-width="2"/>
+      <ellipse cx="700" cy="220" rx="32" ry="48" fill="#080408"/>
+      <!-- Tunnel rim catch. -->
+      <ellipse cx="700" cy="220" rx="40" ry="60" fill="none" stroke="#3a3a45" stroke-width="1" opacity="0.85"/>
+    </g>
+
+    <!-- 5 SQUAD FIGURES in tactical formation moving toward drainpipe (right). Bird's-eye = small + foreshortened. -->
+
+    <!-- THRESH ON POINT (front, leading) — rifle forward. -->
+    <g id="p2p4-thresh" transform="translate(540, 240)">
+      <!-- Body. -->
+      <ellipse cx="0" cy="0" rx="11" ry="14" fill="#dc2030"/>
+      <ellipse cx="0" cy="0" rx="13" ry="16" fill="#f54848" opacity="0.4" filter="url(#p2p4bloom)"/>
+      <!-- Head. -->
+      <circle cx="0" cy="-14" r="5" fill="#d8a880"/>
+      <!-- Buzz. -->
+      <path d="M-4,-17 Q0,-19 4,-17 L4,-14 L-4,-14 Z" fill="#a83a18"/>
+      <!-- Rifle FORWARD (right, toward tunnel). -->
+      <path d="M5,2 L22,2" stroke="#1a0810" stroke-width="3.5" stroke-linecap="round"/>
+      <rect x="20" y="0" width="6" height="3" fill="#3a1010"/>
+      <!-- Power node faint. -->
+      <circle cx="10" cy="2.5" r="1" fill="#c84038"/>
+      <!-- Arms forward gripping. -->
+      <line x1="-5" y1="-2" x2="2" y2="0" stroke="#a8182a" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="5" y1="-2" x2="8" y2="0" stroke="#a8182a" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Walking legs (one forward). -->
+      <line x1="-3" y1="14" x2="-5" y2="22" stroke="#5a1018" stroke-width="3" stroke-linecap="round"/>
+      <line x1="3" y1="14" x2="6" y2="22" stroke="#5a1018" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- WREN behind Thresh — reading terrain. -->
+    <g id="p2p4-wren" transform="translate(450, 250)">
+      <ellipse cx="0" cy="0" rx="11" ry="14" fill="#c87a35"/>
+      <ellipse cx="0" cy="0" rx="13" ry="16" fill="#f5a868" opacity="0.4" filter="url(#p2p4bloom)"/>
+      <!-- Head. -->
+      <circle cx="0" cy="-14" r="5" fill="#d8b088"/>
+      <!-- Bun (hair UP). -->
+      <ellipse cx="0" cy="-19" rx="3.5" ry="2.5" fill="#0a0a14"/>
+      <!-- One hand on gutter wall. -->
+      <line x1="-8" y1="-2" x2="-16" y2="-8" stroke="#5a3010" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="8" y1="-2" x2="11" y2="0" stroke="#5a3010" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Walking legs. -->
+      <line x1="-3" y1="14" x2="-4" y2="22" stroke="#5a3010" stroke-width="3" stroke-linecap="round"/>
+      <line x1="3" y1="14" x2="5" y2="22" stroke="#5a3010" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- SABLE center. -->
+    <g id="p2p4-sable" transform="translate(360, 245)">
+      <ellipse cx="0" cy="0" rx="11" ry="14" fill="#a8b0c0"/>
+      <ellipse cx="0" cy="0" rx="13" ry="16" fill="#dce4ff" opacity="0.4" filter="url(#p2p4bloom)"/>
+      <!-- Cracked shoulder bleed bright. -->
+      <ellipse cx="9" cy="-4" rx="3" ry="2" fill="#dce4ff" opacity="0.85" filter="url(#p2p4bloom)"/>
+      <!-- Head. -->
+      <circle cx="0" cy="-14" r="5" fill="#5a3818"/>
+      <!-- Silver buzz. -->
+      <path d="M-4,-17 Q0,-19 4,-17 L4,-14 L-4,-14 Z" fill="#c8ccd4"/>
+      <!-- Arms at sides. -->
+      <line x1="-8" y1="-2" x2="-10" y2="6" stroke="#3a3a45" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="8" y1="-2" x2="10" y2="6" stroke="#3a3a45" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Walking legs. -->
+      <line x1="-3" y1="14" x2="-5" y2="22" stroke="#3a3a45" stroke-width="3" stroke-linecap="round"/>
+      <line x1="3" y1="14" x2="6" y2="22" stroke="#3a3a45" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- LUMA REAR — head turned looking back. -->
+    <g id="p2p4-luma" transform="translate(260, 250)">
+      <ellipse cx="0" cy="0" rx="11" ry="14" fill="#5a3ad8"/>
+      <ellipse cx="0" cy="0" rx="13" ry="16" fill="#a890f0" opacity="0.4" filter="url(#p2p4bloom)"/>
+      <!-- Head turned LEFT (looking back). -->
+      <circle cx="-4" cy="-14" r="5" fill="#a87850"/>
+      <!-- Hair w/ braid. -->
+      <path d="M-8,-17 Q-4,-19 0,-17 L0,-14 L-8,-14 Z" fill="#1a1018"/>
+      <!-- Sapphire filament along braid. -->
+      <line x1="0" y1="-14" x2="2" y2="-6" stroke="#a890f0" stroke-width="0.5" filter="url(#p2p4bloom)" opacity="0.85"/>
+      <!-- Arms. -->
+      <line x1="-8" y1="-2" x2="-12" y2="2" stroke="#1a1058" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="8" y1="-2" x2="11" y2="6" stroke="#1a1058" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Walking legs (more careful). -->
+      <line x1="-3" y1="14" x2="-4" y2="22" stroke="#1a1058" stroke-width="3" stroke-linecap="round"/>
+      <line x1="3" y1="14" x2="5" y2="22" stroke="#1a1058" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- JINK ALONGSIDE FORMATION — restless, hands flexing. -->
+    <g id="p2p4-jink" transform="translate(310, 320)">
+      <ellipse cx="0" cy="0" rx="10" ry="13" fill="#2ed078"/>
+      <ellipse cx="0" cy="0" rx="13" ry="16" fill="#7af0b0" opacity="0.4" filter="url(#p2p4bloom)"/>
+      <!-- Head. -->
+      <circle cx="0" cy="-14" r="5" fill="#e8c8a0"/>
+      <!-- Wild curls. -->
+      <g fill="#f5d860">
+        <circle cx="-3" cy="-19" r="2"/>
+        <circle cx="0" cy="-21" r="2.2"/>
+        <circle cx="3" cy="-19" r="2"/>
+      </g>
+      <!-- Hands flexing (slightly outstretched). -->
+      <line x1="-8" y1="-2" x2="-13" y2="2" stroke="#0a4828" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="8" y1="-2" x2="13" y2="2" stroke="#0a4828" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Walking legs. -->
+      <line x1="-3" y1="13" x2="-5" y2="22" stroke="#0a4828" stroke-width="3" stroke-linecap="round"/>
+      <line x1="3" y1="13" x2="6" y2="22" stroke="#0a4828" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- DISTANT GAS LAMP single warm amber point (script-specific). -->
+    <g fill="#f5b860" filter="url(#p2p4bloom)">
+      <circle cx="40" cy="100" r="2.5" opacity="0.85"/>
+    </g>
+    <ellipse cx="40" cy="100" rx="14" ry="6" fill="#f5b860" opacity="0.45" filter="url(#p2p4strongBloom)"/>
+
+  </g>
+
+  <!-- SABLE dialogue OUTSIDE rotation. -->
+  <g id="p2p4-dlg-sable">
+    <rect x="14" y="14" width="158" height="44" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Move out.</text>
+    <path d="M120,58 L138,58 L350,240 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="58" x2="138" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p2p4-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="738" y="442" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SQUAD MOVES OUT</text>
+  </g>
+</svg>

@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 290" width="742" height="290">
+  <title>Issue 2 — Page 2 — Panel 1: Worm's-eye brick cliff + drainpipe — vertiginous descent</title>
+  <desc>Wide 20mm worm's-eye UP at soot-blackened Victorian brick building rising 6 stories like cliff face. Cast iron drainpipe descends full height w/ bracket supports as ledges. Vibration ripples through brick (cart wheel rumble). Street base at bottom shows enormous movement: cobblestones + iron-rim cart wheel + amber gaslight glow. Grey overcast + warm amber gaslight catching lower brickwork + drainpipe highlights. SFX GRRRRRND + SHREEEEE. CAPTION: "Four blocks. At four inches tall, that's a mile."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p2p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7e88"/>
+      <stop offset="100%" stop-color="#5a5e68"/>
+    </linearGradient>
+    <linearGradient id="p2p1brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#1a1010"/>
+    </linearGradient>
+    <linearGradient id="p2p1pipe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="40%" stop-color="#3a3a45"/>
+      <stop offset="60%" stop-color="#3a3a45"/>
+      <stop offset="100%" stop-color="#1a1820"/>
+    </linearGradient>
+    <radialGradient id="p2p1amberStreet" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p2p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p2p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p2p1deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- Sky distant strip top (overcast). -->
+  <rect width="742" height="50" fill="url(#p2p1sky)"/>
+  <!-- Roofline edge (script: barely visible). -->
+  <line x1="0" y1="48" x2="742" y2="48" stroke="#1a1820" stroke-width="2"/>
+  <line x1="0" y1="50" x2="742" y2="50" stroke="#3a3a45" stroke-width="1" opacity="0.85"/>
+
+  <!-- BRICK BUILDING CLIFF FACE — full frame, soot-blackened, vast. -->
+  <rect x="0" y="48" width="742" height="240" fill="url(#p2p1brick)"/>
+
+  <!-- BRICK COURSES — horizontal mortar joints. Each brick = "size of a room" at fairy scale. -->
+  <g stroke="#5a3818" stroke-width="0.5" opacity="0.45">
+    <line x1="0" y1="80" x2="742" y2="80"/>
+    <line x1="0" y1="105" x2="742" y2="105"/>
+    <line x1="0" y1="130" x2="742" y2="130"/>
+    <line x1="0" y1="155" x2="742" y2="155"/>
+    <line x1="0" y1="180" x2="742" y2="180"/>
+    <line x1="0" y1="205" x2="742" y2="205"/>
+    <line x1="0" y1="230" x2="742" y2="230"/>
+    <line x1="0" y1="255" x2="742" y2="255"/>
+  </g>
+  <!-- BRICK VERTICAL JOINTS (staggered). -->
+  <g stroke="#5a3818" stroke-width="0.4" opacity="0.4">
+    <!-- Row 1 (y 48-80). -->
+    <line x1="60" y1="48" x2="60" y2="80"/>
+    <line x1="160" y1="48" x2="160" y2="80"/>
+    <line x1="260" y1="48" x2="260" y2="80"/>
+    <line x1="360" y1="48" x2="360" y2="80"/>
+    <line x1="460" y1="48" x2="460" y2="80"/>
+    <line x1="560" y1="48" x2="560" y2="80"/>
+    <line x1="660" y1="48" x2="660" y2="80"/>
+    <!-- Row 2 (y 80-105) staggered. -->
+    <line x1="110" y1="80" x2="110" y2="105"/>
+    <line x1="210" y1="80" x2="210" y2="105"/>
+    <line x1="310" y1="80" x2="310" y2="105"/>
+    <line x1="410" y1="80" x2="410" y2="105"/>
+    <line x1="510" y1="80" x2="510" y2="105"/>
+    <line x1="610" y1="80" x2="610" y2="105"/>
+    <line x1="710" y1="80" x2="710" y2="105"/>
+    <!-- Row 3 (y 105-130). -->
+    <line x1="60" y1="105" x2="60" y2="130"/>
+    <line x1="160" y1="105" x2="160" y2="130"/>
+    <line x1="260" y1="105" x2="260" y2="130"/>
+    <line x1="360" y1="105" x2="360" y2="130"/>
+    <line x1="460" y1="105" x2="460" y2="130"/>
+    <line x1="560" y1="105" x2="560" y2="130"/>
+    <line x1="660" y1="105" x2="660" y2="130"/>
+    <!-- Row 4 (y 130-155). -->
+    <line x1="110" y1="130" x2="110" y2="155"/>
+    <line x1="210" y1="130" x2="210" y2="155"/>
+    <line x1="310" y1="130" x2="310" y2="155"/>
+    <line x1="410" y1="130" x2="410" y2="155"/>
+    <line x1="510" y1="130" x2="510" y2="155"/>
+    <line x1="610" y1="130" x2="610" y2="155"/>
+    <line x1="710" y1="130" x2="710" y2="155"/>
+    <!-- Row 5 (y 155-180). -->
+    <line x1="60" y1="155" x2="60" y2="180"/>
+    <line x1="160" y1="155" x2="160" y2="180"/>
+    <line x1="260" y1="155" x2="260" y2="180"/>
+    <line x1="360" y1="155" x2="360" y2="180"/>
+    <line x1="460" y1="155" x2="460" y2="180"/>
+    <line x1="560" y1="155" x2="560" y2="180"/>
+    <line x1="660" y1="155" x2="660" y2="180"/>
+    <!-- Row 6 (y 180-205). -->
+    <line x1="110" y1="180" x2="110" y2="205"/>
+    <line x1="210" y1="180" x2="210" y2="205"/>
+    <line x1="310" y1="180" x2="310" y2="205"/>
+    <line x1="410" y1="180" x2="410" y2="205"/>
+    <line x1="510" y1="180" x2="510" y2="205"/>
+    <line x1="610" y1="180" x2="610" y2="205"/>
+    <line x1="710" y1="180" x2="710" y2="205"/>
+    <!-- Row 7 (y 205-230). -->
+    <line x1="60" y1="205" x2="60" y2="230"/>
+    <line x1="160" y1="205" x2="160" y2="230"/>
+    <line x1="260" y1="205" x2="260" y2="230"/>
+    <line x1="360" y1="205" x2="360" y2="230"/>
+    <line x1="460" y1="205" x2="460" y2="230"/>
+    <line x1="560" y1="205" x2="560" y2="230"/>
+    <line x1="660" y1="205" x2="660" y2="230"/>
+    <!-- Row 8 (y 230-255). -->
+    <line x1="110" y1="230" x2="110" y2="255"/>
+    <line x1="210" y1="230" x2="210" y2="255"/>
+    <line x1="310" y1="230" x2="310" y2="255"/>
+    <line x1="410" y1="230" x2="410" y2="255"/>
+    <line x1="510" y1="230" x2="510" y2="255"/>
+    <line x1="610" y1="230" x2="610" y2="255"/>
+    <line x1="710" y1="230" x2="710" y2="255"/>
+  </g>
+
+  <!-- Brick texture stippling (soot, weathering). -->
+  <g fill="#080404" opacity="0.55">
+    <circle cx="40" cy="120" r="0.7"/>
+    <circle cx="180" cy="170" r="0.7"/>
+    <circle cx="320" cy="150" r="0.7"/>
+    <circle cx="500" cy="180" r="0.7"/>
+    <circle cx="620" cy="140" r="0.7"/>
+    <circle cx="700" cy="220" r="0.7"/>
+    <circle cx="100" cy="200" r="0.7"/>
+    <circle cx="240" cy="220" r="0.7"/>
+  </g>
+
+  <!-- VIBRATION RIPPLE LINES through brick (cart wheel rumble). Concentric horizontal arcs. -->
+  <g id="p2p1-vibration-ripples" stroke="#dce4f0" stroke-width="0.6" fill="none" opacity="0.55" filter="url(#p2p1bloom)">
+    <ellipse cx="200" cy="280" rx="180" ry="22"/>
+    <ellipse cx="200" cy="280" rx="120" ry="14"/>
+    <ellipse cx="200" cy="280" rx="60" ry="8"/>
+    <ellipse cx="540" cy="280" rx="180" ry="22"/>
+    <ellipse cx="540" cy="280" rx="120" ry="14"/>
+    <ellipse cx="540" cy="280" rx="60" ry="8"/>
+  </g>
+
+  <!-- CAST IRON DRAINPIPE descends full height (left of center). -->
+  <g id="p2p1-drainpipe">
+    <rect x="280" y="48" width="36" height="240" fill="url(#p2p1pipe)"/>
+    <!-- Pipe edge highlights. -->
+    <line x1="282" y1="48" x2="282" y2="288" stroke="#5a606a" stroke-width="0.7" opacity="0.85"/>
+    <line x1="314" y1="48" x2="314" y2="288" stroke="#5a606a" stroke-width="0.7" opacity="0.85"/>
+    <!-- Centerline highlight. -->
+    <line x1="298" y1="48" x2="298" y2="288" stroke="#7a7e88" stroke-width="0.8" opacity="0.55"/>
+
+    <!-- SOCKET JOINTS (every "4 feet" — at fairy scale, repeated bands). -->
+    <g>
+      <!-- Joint 1 (top). -->
+      <rect x="276" y="78" width="44" height="6" rx="0.5" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+      <line x1="276" y1="80" x2="320" y2="80" stroke="#3a3a45" stroke-width="0.5"/>
+      <!-- Joint 2. -->
+      <rect x="276" y="128" width="44" height="6" rx="0.5" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+      <line x1="276" y1="130" x2="320" y2="130" stroke="#3a3a45" stroke-width="0.5"/>
+      <!-- Joint 3. -->
+      <rect x="276" y="178" width="44" height="6" rx="0.5" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+      <line x1="276" y1="180" x2="320" y2="180" stroke="#3a3a45" stroke-width="0.5"/>
+      <!-- Joint 4. -->
+      <rect x="276" y="228" width="44" height="6" rx="0.5" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+      <line x1="276" y1="230" x2="320" y2="230" stroke="#3a3a45" stroke-width="0.5"/>
+    </g>
+
+    <!-- BRACKET SUPPORTS (every "6 feet" — wider mounts). Sticking into wall. -->
+    <g id="p2p1-brackets">
+      <!-- Bracket 1. -->
+      <path d="M270,100 L280,98 L280,108 L270,110 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+      <path d="M316,98 L326,100 L326,110 L316,108 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+      <!-- Bracket 2. -->
+      <path d="M270,158 L280,156 L280,166 L270,168 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+      <path d="M316,156 L326,158 L326,168 L316,166 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+      <!-- Bracket 3. -->
+      <path d="M270,216 L280,214 L280,224 L270,226 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+      <path d="M316,214 L326,216 L326,226 L316,224 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+    </g>
+
+    <!-- Pipe rust/streaks. -->
+    <g stroke="#3a1808" stroke-width="0.4" opacity="0.55">
+      <line x1="288" y1="55" x2="290" y2="280"/>
+      <line x1="306" y1="60" x2="304" y2="280"/>
+    </g>
+
+    <!-- AMBER HIGHLIGHT on lower drainpipe (gaslight from below per script). -->
+    <rect x="280" y="220" width="36" height="68" fill="#a85820" opacity="0.4" filter="url(#p2p1bloom)"/>
+    <line x1="298" y1="220" x2="298" y2="288" stroke="#f5b860" stroke-width="0.8" opacity="0.7" filter="url(#p2p1bloom)"/>
+  </g>
+
+  <!-- STREET BASE at bottom — blur of enormous movement. -->
+  <g id="p2p1-street-base">
+    <rect y="270" width="742" height="20" fill="#080404"/>
+    <!-- Cobblestone hint. -->
+    <g stroke="#1a1010" stroke-width="0.5" opacity="0.85">
+      <line x1="40" y1="276" x2="42" y2="288"/>
+      <line x1="120" y1="278" x2="122" y2="288"/>
+      <line x1="380" y1="276" x2="382" y2="288"/>
+      <line x1="600" y1="278" x2="602" y2="288"/>
+    </g>
+    <!-- Iron-rim cart wheel hint (left). -->
+    <ellipse cx="80" cy="284" rx="34" ry="6" fill="#1a1010" opacity="0.85"/>
+    <ellipse cx="80" cy="284" rx="22" ry="3" fill="#3a1808" opacity="0.55"/>
+    <!-- Spoke marks. -->
+    <line x1="58" y1="284" x2="102" y2="284" stroke="#080404" stroke-width="0.5"/>
+    <line x1="80" y1="280" x2="80" y2="288" stroke="#080404" stroke-width="0.5"/>
+    <!-- Iron-rim cart wheel hint (right). -->
+    <ellipse cx="600" cy="286" rx="40" ry="7" fill="#1a1010" opacity="0.85"/>
+    <ellipse cx="600" cy="286" rx="26" ry="3.5" fill="#3a1808" opacity="0.55"/>
+    <line x1="574" y1="286" x2="626" y2="286" stroke="#080404" stroke-width="0.5"/>
+  </g>
+
+  <!-- AMBER GASLIGHT GLOW from street rises onto lower brickwork (script-specific). -->
+  <ellipse cx="371" cy="290" rx="500" ry="80" fill="url(#p2p1amberStreet)" filter="url(#p2p1deepBloom)" opacity="0.85"/>
+  <!-- Gas lamp hint left + right. -->
+  <g fill="#f5b860" filter="url(#p2p1bloom)">
+    <ellipse cx="160" cy="280" rx="6" ry="3" opacity="0.85"/>
+    <ellipse cx="540" cy="280" rx="6" ry="3" opacity="0.85"/>
+  </g>
+
+  <!-- SFX GRRRRRND (cart wheels) — left side, integrated with brick. -->
+  <g id="p2p1-sfx-grind">
+    <text x="60" y="200" font-family="Impact, Haettenschweiler, sans-serif" font-size="32" font-weight="900" stroke="#1a1010" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" fill="#a85820" transform="rotate(-5 60 200)" opacity="0.85">GRRRRRND</text>
+  </g>
+
+  <!-- SFX SHREEEEE (factory whistle) — right side. -->
+  <g id="p2p1-sfx-shree">
+    <text x="500" y="160" font-family="Impact, Haettenschweiler, sans-serif" font-size="32" font-weight="900" stroke="#1a1010" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" fill="#dce4f0" transform="rotate(7 500 160)" opacity="0.85">SHREEEEE</text>
+  </g>
+
+  <!-- CAPTION (parchment) top-center. -->
+  <g id="p2p1-caption">
+    <rect x="261" y="14" width="220" height="30" rx="3" fill="#f5ecd8" stroke="#5a4a30" stroke-width="1.2" filter="url(#balloonShadow)"/>
+    <text x="371" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" font-weight="500" fill="#5a4a30">"Four blocks. At four inches tall, that's a mile."</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p2p1-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="738" y="282" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">VERTIGINOUS DESCENT</text>
+  </g>
+</svg>

@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 360" width="366" height="360">
+  <title>Issue 2 — Page 2 — Panel 3: Sable MCU at gutter lip — assigns roles</title>
+  <desc>MCU 50mm low angle UP at Sable standing at gutter lip. WIND CATCHES silver-white hair (script-specific). Behind+below: roofscape falls away — slate tiles, chimney stacks, vertiginous drop to street. Cracked right shoulder hairline fractures glow faint blue-white (continuity). One hand rests on gutter lip. Looks back toward camera (toward squad). Resolved expression — tightness around eyes shows weight of command. Grey overcast sky behind, slight backlight on silhouette. SABLE assigns roles to squad.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p2p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7e88"/>
+      <stop offset="100%" stop-color="#5a5e68"/>
+    </linearGradient>
+    <linearGradient id="p2p3slate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2830"/>
+      <stop offset="100%" stop-color="#1a1820"/>
+    </linearGradient>
+    <linearGradient id="p2p3lead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <linearGradient id="p2p3silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a0a8b4"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <radialGradient id="p2p3crackBleed">
+      <stop offset="0%" stop-color="#dce4ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#7af0ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0a3050" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p2p3amberFar" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#a85820" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p2p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p2p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p2p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG SKY (grey overcast). -->
+  <rect width="366" height="360" fill="url(#p2p3sky)"/>
+
+  <!-- DISTANT ROOFSCAPE FALLING AWAY behind+below Sable (script-specific). -->
+  <g id="p2p3-roofscape">
+    <!-- Far chimney stacks. -->
+    <rect x="20" y="60" width="14" height="50" fill="#1a1820" opacity="0.85"/>
+    <rect x="60" y="50" width="16" height="60" fill="#1a1820" opacity="0.85"/>
+    <rect x="280" y="55" width="14" height="55" fill="#1a1820" opacity="0.85"/>
+    <rect x="320" y="60" width="14" height="50" fill="#1a1820" opacity="0.85"/>
+    <!-- Smoke wisps. -->
+    <ellipse cx="68" cy="42" rx="14" ry="5" fill="#5a5860" opacity="0.55" filter="url(#p2p3bloom)"/>
+    <ellipse cx="287" cy="48" rx="12" ry="4" fill="#5a5860" opacity="0.55" filter="url(#p2p3bloom)"/>
+
+    <!-- Slate roof tile plateau in mid-distance (falling away to street). -->
+    <path d="M0,140 L80,135 L160,150 L240,138 L320,148 L366,140 L366,260 L0,260 Z" fill="url(#p2p3slate)" opacity="0.85"/>
+    <!-- Tile detail. -->
+    <g stroke="#0a0810" stroke-width="0.4" opacity="0.7">
+      <line x1="0" y1="170" x2="366" y2="170"/>
+      <line x1="0" y1="200" x2="366" y2="200"/>
+      <line x1="0" y1="230" x2="366" y2="230"/>
+      <line x1="40" y1="170" x2="50" y2="200"/>
+      <line x1="120" y1="170" x2="130" y2="200"/>
+      <line x1="200" y1="170" x2="210" y2="200"/>
+      <line x1="280" y1="170" x2="290" y2="200"/>
+    </g>
+
+    <!-- Vertiginous drop toward street below. -->
+    <ellipse cx="183" cy="360" rx="220" ry="80" fill="url(#p2p3amberFar)" filter="url(#p2p3deepBloom)" opacity="0.85"/>
+    <!-- Distant pinprick gas-lamps along street horizon. -->
+    <g fill="#f5b860" filter="url(#p2p3bloom)">
+      <circle cx="60" cy="280" r="1.5" opacity="0.85"/>
+      <circle cx="180" cy="290" r="1.7" opacity="0.85"/>
+      <circle cx="300" cy="280" r="1.5" opacity="0.85"/>
+    </g>
+  </g>
+
+  <!-- GUTTER LIP foreground — low wall at fairy scale (script-specific). -->
+  <g id="p2p3-gutter-lip">
+    <path d="M-20,300 Q120,288 244,295 Q300,300 386,295 L386,360 L-20,360 Z" fill="url(#p2p3lead)"/>
+    <!-- Top edge. -->
+    <path d="M-20,300 Q120,288 244,295 Q300,300 386,295" fill="none" stroke="#080a14" stroke-width="1.4"/>
+    <!-- Faint amber rim catch. -->
+    <path d="M-20,300 Q120,288 244,295 Q300,300 386,295" fill="none" stroke="#a85820" stroke-width="0.9" opacity="0.55" filter="url(#p2p3bloom)"/>
+    <!-- Rivets. -->
+    <g fill="#080a14" opacity="0.85">
+      <circle cx="60" cy="298" r="1.6"/>
+      <circle cx="200" cy="295" r="1.6"/>
+      <circle cx="320" cy="298" r="1.6"/>
+    </g>
+    <!-- Patina. -->
+    <g fill="#1a1c20" opacity="0.55">
+      <circle cx="80" cy="320" r="1"/>
+      <circle cx="220" cy="340" r="1"/>
+      <circle cx="320" cy="330" r="1"/>
+    </g>
+  </g>
+
+  <!-- SABLE — looms at gutter lip, looking BACK toward camera (toward squad). MCU low angle. -->
+  <g id="p2p3-sable" transform="translate(180, 200)">
+
+    <!-- Lower legs going down off bottom (standing on gutter floor). -->
+    <path d="M-22,80 L-26,120 L-30,160" fill="none" stroke="#3a3a45" stroke-width="13" stroke-linecap="round"/>
+    <path d="M22,80 L26,120 L30,160" fill="none" stroke="#3a3a45" stroke-width="13" stroke-linecap="round"/>
+
+    <!-- Thighs. -->
+    <path d="M-22,30 L-22,80 L0,80" fill="url(#p2p3silver)" stroke="#080408" stroke-width="0.7"/>
+    <path d="M22,30 L22,80 L0,80" fill="url(#p2p3silver)" stroke="#080408" stroke-width="0.7"/>
+    <rect x="-22" y="24" width="44" height="9" fill="#3a3a45" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- TORSO. -->
+    <path d="M-30,-30 Q-35,5 -25,28 L25,28 Q35,5 30,-30 L13,-40 L-13,-40 Z" fill="url(#p2p3silver)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Suit chest seam glow (faint). -->
+    <line x1="0" y1="-26" x2="0" y2="22" stroke="#dce4ff" stroke-width="0.6" opacity="0.7" filter="url(#p2p3bloom)"/>
+    <line x1="-18" y1="-22" x2="-18" y2="18" stroke="#dce4ff" stroke-width="0.4" opacity="0.55" filter="url(#p2p3bloom)"/>
+    <line x1="18" y1="-22" x2="18" y2="18" stroke="#dce4ff" stroke-width="0.4" opacity="0.55" filter="url(#p2p3bloom)"/>
+
+    <!-- Water spots. -->
+    <g fill="#080a14" opacity="0.55">
+      <circle cx="-22" cy="-15" r="1.4"/>
+      <circle cx="22" cy="-15" r="1.4"/>
+      <circle cx="-15" cy="-5" r="0.8"/>
+      <circle cx="15" cy="-5" r="0.8"/>
+    </g>
+
+    <!-- LEFT shoulder. -->
+    <ellipse cx="-30" cy="-28" rx="11" ry="6" fill="#a8a8b0" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="-30" cy="-30" rx="6" ry="3" fill="#dce4ff" opacity="0.65"/>
+
+    <!-- RIGHT shoulder CRACKED w/ blue-white bleed (continuity). -->
+    <ellipse cx="30" cy="-28" rx="11" ry="6" fill="#a8a8b0" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="30" cy="-28" rx="16" ry="10" fill="url(#p2p3crackBleed)" filter="url(#p2p3strongBloom)" opacity="0.95"/>
+    <g stroke="#080408" stroke-width="0.7" fill="none">
+      <line x1="22" y1="-30" x2="36" y2="-22"/>
+      <line x1="26" y1="-26" x2="36" y2="-26"/>
+      <line x1="30" y1="-32" x2="32" y2="-22"/>
+    </g>
+    <g stroke="#dce4ff" stroke-width="0.6" filter="url(#p2p3bloom)" opacity="0.85">
+      <line x1="24" y1="-28" x2="34" y2="-23"/>
+      <line x1="30" y1="-32" x2="32" y2="-22"/>
+    </g>
+
+    <!-- LEFT arm RESTING ON GUTTER LIP (script-specific: one hand rests on gutter lip). -->
+    <path d="M-30,-22 L-50,5 L-70,30 L-90,52" fill="none" stroke="url(#p2p3silver)" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="-90" cy="56" rx="7" ry="4" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- RIGHT arm at side. -->
+    <path d="M30,-22 L36,8 L32,28" fill="none" stroke="url(#p2p3silver)" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="32" cy="30" rx="7" ry="4" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- HEAD turned slightly back toward camera (looking back at squad). -->
+    <ellipse cx="-2" cy="-62" rx="16" ry="17" fill="#5a3818" transform="rotate(-10 -2 -62)"/>
+
+    <!-- SILVER-WHITE CROPPED HAIR — buzz cap, WIND-CAUGHT (script-specific). -->
+    <g transform="rotate(-10 -2 -62)">
+      <path d="M-13,-74 Q-2,-80 4,-80 Q14,-80 13,-72 L13,-62 L-13,-62 Z" fill="#c8ccd4"/>
+      <!-- Wind-tousled stipple (some strands lifted). -->
+      <g fill="#a8acb4" opacity="0.85">
+        <circle cx="-8" cy="-76" r="0.7"/>
+        <circle cx="-3" cy="-78" r="0.7"/>
+        <circle cx="2" cy="-79" r="0.7"/>
+        <circle cx="7" cy="-78" r="0.7"/>
+        <circle cx="11" cy="-75" r="0.7"/>
+        <circle cx="-10" cy="-72" r="0.6"/>
+        <circle cx="-2" cy="-74" r="0.6"/>
+        <circle cx="6" cy="-72" r="0.6"/>
+      </g>
+      <!-- WIND-LIFTED short strands (script-specific: wind catches silver hair). -->
+      <g stroke="#c8ccd4" stroke-width="0.7" fill="none">
+        <path d="M-12,-78 Q-14,-82 -16,-78"/>
+        <path d="M11,-78 Q14,-83 16,-78"/>
+        <path d="M-7,-80 Q-9,-84 -7,-86"/>
+        <path d="M5,-80 Q7,-84 9,-86"/>
+      </g>
+      <!-- Hair wind motion lines. -->
+      <line x1="-16" y1="-76" x2="-22" y2="-78" stroke="#c8ccd4" stroke-width="0.4" opacity="0.55"/>
+      <line x1="16" y1="-76" x2="22" y2="-78" stroke="#c8ccd4" stroke-width="0.4" opacity="0.55"/>
+    </g>
+
+    <!-- Eyes (looking back toward camera, slightly resolved/concerned). -->
+    <ellipse cx="-7" cy="-60" rx="2" ry="1.4" fill="#080404" transform="rotate(-10 -2 -62)"/>
+    <ellipse cx="3" cy="-60" rx="2" ry="1.4" fill="#080404" transform="rotate(-10 -2 -62)"/>
+    <circle cx="-7" cy="-60" r="0.8" fill="#080404" transform="rotate(-10 -2 -62)"/>
+    <circle cx="3" cy="-60" r="0.8" fill="#080404" transform="rotate(-10 -2 -62)"/>
+    <!-- Catch-light. -->
+    <circle cx="-6" cy="-61" r="0.4" fill="#dce4ff" transform="rotate(-10 -2 -62)"/>
+    <circle cx="4" cy="-61" r="0.4" fill="#dce4ff" transform="rotate(-10 -2 -62)"/>
+
+    <!-- TIGHTNESS AROUND EYES (script: weight of command visible in eyes). -->
+    <path d="M-12,-58 Q-7,-58 -2,-58" stroke="#3a1810" stroke-width="0.7" fill="none" transform="rotate(-10 -2 -62)"/>
+    <path d="M-2,-58 Q3,-58 8,-58" stroke="#3a1810" stroke-width="0.7" fill="none" transform="rotate(-10 -2 -62)"/>
+    <!-- Tension lines. -->
+    <line x1="-13" y1="-58" x2="-15" y2="-54" stroke="#3a1810" stroke-width="0.4" transform="rotate(-10 -2 -62)"/>
+    <line x1="9" y1="-58" x2="11" y2="-54" stroke="#3a1810" stroke-width="0.4" transform="rotate(-10 -2 -62)"/>
+
+    <!-- Brow set hard. -->
+    <path d="M-10,-66 Q-5,-69 -1,-66" stroke="#3a2810" stroke-width="1.4" fill="none" transform="rotate(-10 -2 -62)"/>
+    <path d="M1,-66 Q5,-69 10,-66" stroke="#3a2810" stroke-width="1.4" fill="none" transform="rotate(-10 -2 -62)"/>
+
+    <!-- Cheekbones. -->
+    <ellipse cx="-10" cy="-55" rx="3.5" ry="1.6" fill="#3a2010" opacity="0.55" transform="rotate(-10 -2 -62)"/>
+    <ellipse cx="9" cy="-55" rx="3.5" ry="1.6" fill="#3a2010" opacity="0.55" transform="rotate(-10 -2 -62)"/>
+
+    <!-- Lips firm (resolved). -->
+    <line x1="-3" y1="-50" x2="6" y2="-50" stroke="#3a1810" stroke-width="1.4" transform="rotate(-10 -2 -62)"/>
+
+    <!-- Jaw definition. -->
+    <ellipse cx="-12" cy="-48" rx="3" ry="1.2" fill="#3a1810" opacity="0.55" transform="rotate(-10 -2 -62)"/>
+    <ellipse cx="11" cy="-48" rx="3" ry="1.2" fill="#3a1810" opacity="0.55" transform="rotate(-10 -2 -62)"/>
+
+    <!-- Cool blue-white catch from cracked panel on jaw + neck (continuity). -->
+    <ellipse cx="2" cy="-44" rx="11" ry="2.5" fill="#dce4ff" opacity="0.55" filter="url(#p2p3bloom)"/>
+  </g>
+
+  <!-- SABLE multi-line dialogue. -->
+  <g id="p2p3-dlg-sable">
+    <rect x="14" y="14" width="240" height="92" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Thresh, point. Wren, route.</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Jink, stay grounded.</text>
+    <text x="24" y="85" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">Luma, rear. Eyes on everything.</text>
+    <path d="M118,106 L136,106 L160,150 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="118" y1="106" x2="136" y2="106" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- JINK off response. -->
+  <g id="p2p3-dlg-jink-off">
+    <rect x="260" y="14" width="96" height="44" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-dasharray="6,3" filter="url(#balloonShadow)"/>
+    <text x="270" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK (OFF)</text>
+    <text x="270" y="49" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Copy.</text>
+    <path d="M338,58 L356,58 L362,80 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p2p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="362" y="352" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SABLE ASSIGNS ROLES</text>
+  </g>
+</svg>
