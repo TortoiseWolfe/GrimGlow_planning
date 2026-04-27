@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 17 — Panel 2: Wing-pack ECU deployment, tik-tik-tik</title>
+  <desc>ECU 85mm macro. Geometric module opening between tiny shoulder blades. Panels unfold like mechanical origami — precise, angular, beautiful. Translucent wing-surface extending, shimmering with emerald light, geometric lattice scaffolding visible within translucent membrane. NOT organic — engineered light caught in framework. Wing prismatic, shifting through emerald, teal, white. Clockwork-precise — panels rotating, locking, extending in sequence. Pure emerald holographic light radiates outward.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p17p2nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1a18"/>
+      <stop offset="100%" stop-color="#020a08"/>
+    </linearGradient>
+    <radialGradient id="p17p2emeraldRadiance" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="20%" stop-color="#a8ffd0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p17p2suitBack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <linearGradient id="p17p2module" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a4018"/>
+      <stop offset="50%" stop-color="#1a4828"/>
+      <stop offset="100%" stop-color="#0a2010"/>
+    </linearGradient>
+    <linearGradient id="p17p2wingMembrane" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a8868" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="p17p2prismaticEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a8ffd0"/>
+      <stop offset="33%" stop-color="#a8d8ff"/>
+      <stop offset="66%" stop-color="#a8ffd0"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="p17p2bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p17p2strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p17p2deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p17p2nightBg)"/>
+  <!-- MASSIVE radiance from module center. -->
+  <ellipse cx="183" cy="180" rx="280" ry="240" fill="url(#p17p2emeraldRadiance)" opacity="0.95" filter="url(#p17p2deepBloom)"/>
+
+  <!-- Suit back fragment (extreme close — only shoulder blades + module visible). -->
+  <g>
+    <!-- Tiny figure's back at huge magnification. -->
+    <path d="M0,260 Q100,250 183,250 Q266,250 366,260 L366,364 L0,364 Z" fill="url(#p17p2suitBack)"/>
+    <!-- Spine center. -->
+    <line x1="183" y1="250" x2="183" y2="364" stroke="#0a4018" stroke-width="2"/>
+    <!-- Soot streaks/grime. -->
+    <path d="M40,290 Q120,288 180,294 Q240,288 320,290 L320,330 L40,330 Z" fill="#1a0c04" opacity="0.65"/>
+    <!-- Holo accent dots scaled up. -->
+    <circle cx="183" cy="280" r="3" fill="#a8ffd0" filter="url(#p17p2bloom)"/>
+    <circle cx="183" cy="320" r="3" fill="#a8ffd0" filter="url(#p17p2bloom)"/>
+  </g>
+
+  <!-- ******** WING-PACK MODULE — DEPLOYING ******** -->
+  <g>
+    <!-- Module base. -->
+    <rect x="80" y="160" width="206" height="70" rx="6" fill="url(#p17p2module)"/>
+    <rect x="80" y="160" width="206" height="70" rx="6" fill="none" stroke="#0a4018" stroke-width="1.4"/>
+
+    <!-- Geometric panels OPENING — origami unfold. -->
+    <!-- Top-left panel rotated open (45 deg, locked). -->
+    <g>
+      <path d="M80,160 L150,90 L200,80 L160,140 L120,160 Z" fill="url(#p17p2module)" stroke="#a8ffd0" stroke-width="1.4" filter="url(#p17p2bloom)"/>
+      <!-- Internal seams glowing. -->
+      <line x1="100" y1="146" x2="148" y2="100" stroke="#a8ffd0" stroke-width="1" filter="url(#p17p2bloom)"/>
+      <line x1="125" y1="156" x2="170" y2="110" stroke="#a8ffd0" stroke-width="1" filter="url(#p17p2bloom)"/>
+    </g>
+    <!-- Top-right panel rotated open. -->
+    <g>
+      <path d="M286,160 L216,90 L166,80 L206,140 L246,160 Z" fill="url(#p17p2module)" stroke="#a8ffd0" stroke-width="1.4" filter="url(#p17p2bloom)"/>
+      <line x1="266" y1="146" x2="218" y2="100" stroke="#a8ffd0" stroke-width="1" filter="url(#p17p2bloom)"/>
+      <line x1="241" y1="156" x2="196" y2="110" stroke="#a8ffd0" stroke-width="1" filter="url(#p17p2bloom)"/>
+    </g>
+    <!-- Bottom-left panel partially open. -->
+    <g>
+      <path d="M80,230 L120,260 L156,240 L130,210 Z" fill="url(#p17p2module)" stroke="#a8ffd0" stroke-width="1" filter="url(#p17p2bloom)"/>
+    </g>
+    <!-- Bottom-right panel partially open. -->
+    <g>
+      <path d="M286,230 L246,260 L210,240 L236,210 Z" fill="url(#p17p2module)" stroke="#a8ffd0" stroke-width="1" filter="url(#p17p2bloom)"/>
+    </g>
+
+    <!-- CENTER spine seam OPEN with internal light gushing out. -->
+    <rect x="180" y="160" width="6" height="70" fill="#ffffff" filter="url(#p17p2strongBloom)"/>
+    <ellipse cx="183" cy="195" rx="14" ry="44" fill="#a8ffd0" opacity="0.85" filter="url(#p17p2strongBloom)"/>
+
+    <!-- Geometric internal lattice visible. -->
+    <g stroke="#ffffff" stroke-width="0.85" fill="none" opacity="0.85" filter="url(#p17p2bloom)">
+      <line x1="100" y1="180" x2="120" y2="220"/>
+      <line x1="120" y1="180" x2="140" y2="220"/>
+      <line x1="140" y1="180" x2="160" y2="220"/>
+      <line x1="206" y1="180" x2="226" y2="220"/>
+      <line x1="226" y1="180" x2="246" y2="220"/>
+      <line x1="246" y1="180" x2="266" y2="220"/>
+      <line x1="100" y1="200" x2="266" y2="200"/>
+      <line x1="100" y1="180" x2="266" y2="180"/>
+      <line x1="100" y1="220" x2="266" y2="220"/>
+    </g>
+  </g>
+
+  <!-- ******** WING SURFACES BEGINNING TO EXTEND ******** -->
+  <!-- Upper-left wing surface. -->
+  <g>
+    <path d="M150,90 L80,40 L40,30 L60,80 L100,110 L120,100 Z" fill="url(#p17p2wingMembrane)" opacity="0.85"/>
+    <!-- Geometric lattice within. -->
+    <g stroke="#ffffff" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#p17p2bloom)">
+      <line x1="40" y1="30" x2="120" y2="100"/>
+      <line x1="60" y1="50" x2="100" y2="90"/>
+      <line x1="80" y1="40" x2="80" y2="100"/>
+      <line x1="60" y1="30" x2="120" y2="80"/>
+    </g>
+    <!-- Prismatic edge. -->
+    <path d="M150,90 L80,40 L40,30" fill="none" stroke="url(#p17p2prismaticEdge)" stroke-width="2.5" filter="url(#p17p2strongBloom)"/>
+  </g>
+  <!-- Upper-right wing surface. -->
+  <g>
+    <path d="M216,90 L286,40 L326,30 L306,80 L266,110 L246,100 Z" fill="url(#p17p2wingMembrane)" opacity="0.85"/>
+    <g stroke="#ffffff" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#p17p2bloom)">
+      <line x1="326" y1="30" x2="246" y2="100"/>
+      <line x1="306" y1="50" x2="266" y2="90"/>
+      <line x1="286" y1="40" x2="286" y2="100"/>
+      <line x1="306" y1="30" x2="246" y2="80"/>
+    </g>
+    <path d="M216,90 L286,40 L326,30" fill="none" stroke="url(#p17p2prismaticEdge)" stroke-width="2.5" filter="url(#p17p2strongBloom)"/>
+  </g>
+
+  <!-- SFX motion lines/sparkles around module. -->
+  <g stroke="#a8ffd0" stroke-width="1.4" opacity="0.85" filter="url(#p17p2bloom)">
+    <line x1="40" y1="170" x2="60" y2="170"/>
+    <line x1="306" y1="170" x2="326" y2="170"/>
+    <line x1="120" y1="64" x2="100" y2="56"/>
+    <line x1="246" y1="64" x2="266" y2="56"/>
+  </g>
+  <g fill="#ffffff" filter="url(#p17p2bloom)">
+    <circle cx="60" cy="120" r="1.4"/>
+    <circle cx="306" cy="120" r="1.4"/>
+    <circle cx="183" cy="80" r="1.7"/>
+  </g>
+
+  <!-- DIALOGUE — SFX. -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="14" width="296" height="56" rx="10" fill="#fff8e8" stroke="#1a1a1a" stroke-width="1.4"/>
+    <path d="M58,70 L70,70 L60,88 Z" fill="#fff8e8" stroke="#1a1a1a" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="59.5" y1="70.5" x2="68" y2="70.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="34" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a">SFX</text>
+  <text x="22" y="54" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" font-weight="800" font-style="italic">tik-tik-tik-tik</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 246,42"/>
+    <path d="M246,40 Q310,45 366,42"/>
+  </g>
+</svg>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 17 — Panel 3: Theodore reaction face uplit by emerald</title>
+  <desc>MCU 65mm Theodore face lit FROM BELOW by emerald prismatic light. Sandy-brown hair catching green-white highlights, hazel eyes dilated reflecting geometric wing-shapes, mouth open, hands frozen, stopped breathing. Warm amber candlelight retreating; cool emerald winning, remaking features in green-white geometric brilliance. Shadows shift, warm amber retreats to edges of hair/jaw. Transcendent astonishment — face of someone seeing light that should not exist.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p17p3coolBg" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0a4018"/>
+      <stop offset="100%" stop-color="#020a08"/>
+    </linearGradient>
+    <radialGradient id="p17p3emeraldUplight" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="20%" stop-color="#a8ffd0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p17p3theoSkinCool" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a8ffd0"/>
+      <stop offset="40%" stop-color="#88c8a8"/>
+      <stop offset="80%" stop-color="#5a7858"/>
+      <stop offset="100%" stop-color="#3a5048"/>
+    </linearGradient>
+    <linearGradient id="p17p3warmEdge" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#ffd078" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p17p3theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8ffd0"/>
+      <stop offset="50%" stop-color="#5a7858"/>
+      <stop offset="100%" stop-color="#1a3828"/>
+    </radialGradient>
+    <filter id="p17p3bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p17p3deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG cool. -->
+  <rect width="366" height="364" fill="url(#p17p3coolBg)"/>
+  <!-- Strong uplight from below. -->
+  <ellipse cx="183" cy="364" rx="320" ry="280" fill="url(#p17p3emeraldUplight)" opacity="0.95" filter="url(#p17p3deepBloom)"/>
+
+  <!-- ******** HEAD CU lit from below ******** -->
+  <g>
+    <ellipse cx="183" cy="200" rx="140" ry="160" fill="url(#p17p3theoSkinCool)"/>
+    <!-- Tiny warm rim on top-right (warm retreating). -->
+    <ellipse cx="280" cy="100" rx="100" ry="120" fill="url(#p17p3warmEdge)" opacity="0.85"/>
+
+    <!-- Hair tousled — catching green-white highlights. -->
+    <g fill="url(#p17p3theoHair)">
+      <path d="M62,100 Q56,30 150,8 Q210,-4 270,8 Q318,30 312,100 L304,110 Q288,28 250,16 L116,16 Q78,28 70,110 Z"/>
+      <path d="M70,4 L60,-44 L92,4 Z"/>
+      <path d="M104,-22 L90,-72 L132,-12 Z"/>
+      <path d="M148,-38 L156,-90 L186,-28 Z"/>
+      <path d="M198,-38 L228,-72 L222,-12 Z"/>
+      <path d="M236,-22 L274,-44 L260,4 Z"/>
+    </g>
+    <!-- Green-white highlights on hair. -->
+    <g stroke="#a8ffd0" stroke-width="2" opacity="0.85" filter="url(#p17p3bloom)">
+      <line x1="78" y1="-22" x2="78" y2="-2"/>
+      <line x1="116" y1="-50" x2="116" y2="-12"/>
+      <line x1="166" y1="-66" x2="166" y2="-22"/>
+      <line x1="216" y1="-50" x2="216" y2="-12"/>
+      <line x1="252" y1="-22" x2="252" y2="-2"/>
+    </g>
+
+    <!-- EYES — DILATED, reflecting geometric wing-shapes. -->
+    <ellipse cx="120" cy="200" rx="26" ry="18" fill="#fff8e8"/>
+    <ellipse cx="120" cy="200" rx="26" ry="18" fill="none" stroke="#1a3828" stroke-width="1"/>
+    <ellipse cx="120" cy="200" rx="14" ry="14" fill="#5a7858"/>
+    <!-- DILATED pupil. -->
+    <ellipse cx="120" cy="200" rx="10" ry="10" fill="#0a0604"/>
+    <!-- GEOMETRIC WING-SHAPE REFLECTIONS in pupil. -->
+    <g stroke="#a8ffd0" stroke-width="1" fill="none" opacity="0.85">
+      <path d="M114,200 L118,196 L122,200 L118,204 Z"/>
+      <path d="M122,200 L126,196 L122,194 Z"/>
+    </g>
+    <!-- Bright catchlight. -->
+    <ellipse cx="124" cy="195" rx="3" ry="2" fill="#ffffff" filter="url(#p17p3bloom)"/>
+    <!-- Eye lashes (lower bright from uplight). -->
+    <path d="M94,188 Q120,180 146,188" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+    <path d="M94,216 Q120,222 146,216" fill="none" stroke="#a8ffd0" stroke-width="1.4" filter="url(#p17p3bloom)"/>
+
+    <ellipse cx="246" cy="200" rx="26" ry="18" fill="#fff8e8"/>
+    <ellipse cx="246" cy="200" rx="26" ry="18" fill="none" stroke="#1a3828" stroke-width="1"/>
+    <ellipse cx="246" cy="200" rx="14" ry="14" fill="#5a7858"/>
+    <ellipse cx="246" cy="200" rx="10" ry="10" fill="#0a0604"/>
+    <g stroke="#a8ffd0" stroke-width="1" fill="none" opacity="0.85">
+      <path d="M240,200 L244,196 L248,200 L244,204 Z"/>
+      <path d="M248,200 L252,196 L248,194 Z"/>
+    </g>
+    <ellipse cx="250" cy="195" rx="3" ry="2" fill="#ffffff" filter="url(#p17p3bloom)"/>
+    <path d="M220,188 Q246,180 272,188" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+    <path d="M220,216 Q246,222 272,216" fill="none" stroke="#a8ffd0" stroke-width="1.4" filter="url(#p17p3bloom)"/>
+
+    <!-- Brows raised high (transcendent astonishment). -->
+    <path d="M94,170 Q120,158 146,170" fill="none" stroke="#3a2810" stroke-width="3" stroke-linecap="round"/>
+    <path d="M220,170 Q246,158 272,170" fill="none" stroke="#3a2810" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Nose with green-white uplight on underside. -->
+    <path d="M183,224 L163,290 Q183,300 203,290 Z" fill="#5a7858"/>
+    <ellipse cx="183" cy="290" rx="20" ry="6" fill="#a8ffd0" opacity="0.85" filter="url(#p17p3bloom)"/>
+    <ellipse cx="172" cy="284" rx="3.5" ry="2" fill="#0a0604"/>
+    <ellipse cx="194" cy="284" rx="3.5" ry="2" fill="#0a0604"/>
+
+    <!-- MOUTH OPEN (stopped breathing). -->
+    <ellipse cx="183" cy="332" rx="22" ry="10" fill="#3a1408"/>
+    <path d="M167,328 L199,328 L199,336 L167,336 Z" fill="#fff8e8" opacity="0.55"/>
+    <line x1="175" y1="328" x2="175" y2="336" stroke="#a85820" stroke-width="0.4"/>
+    <line x1="183" y1="328" x2="183" y2="336" stroke="#a85820" stroke-width="0.4"/>
+    <line x1="191" y1="328" x2="191" y2="336" stroke="#a85820" stroke-width="0.4"/>
+    <!-- Cool uplight on lower lip. -->
+    <path d="M167,338 Q183,344 199,338" fill="none" stroke="#a8ffd0" stroke-width="2" filter="url(#p17p3bloom)"/>
+
+    <!-- Cheek + jaw uplight wash. -->
+    <ellipse cx="74" cy="280" rx="24" ry="20" fill="#a8ffd0" opacity="0.55" filter="url(#p17p3bloom)"/>
+    <ellipse cx="292" cy="280" rx="24" ry="20" fill="#a8ffd0" opacity="0.55" filter="url(#p17p3bloom)"/>
+
+    <!-- Freckles (cool now). -->
+    <g fill="#5a7858" opacity="0.95">
+      <circle cx="100" cy="248" r="1.4"/>
+      <circle cx="116" cy="258" r="1.2"/>
+      <circle cx="138" cy="248" r="1.4"/>
+      <circle cx="228" cy="248" r="1.4"/>
+      <circle cx="250" cy="258" r="1.2"/>
+      <circle cx="266" cy="248" r="1.4"/>
+    </g>
+
+    <!-- Geometric light patterns falling on cheekbones. -->
+    <g stroke="#ffffff" stroke-width="0.7" opacity="0.85" filter="url(#p17p3bloom)">
+      <line x1="86" y1="240" x2="100" y2="250"/>
+      <line x1="98" y1="232" x2="110" y2="242"/>
+      <line x1="266" y1="240" x2="280" y2="250"/>
+      <line x1="254" y1="232" x2="266" y2="242"/>
+    </g>
+  </g>
+
+  <!-- No dialogue (face is enough). -->
+
+  <!-- Brushwork. -->
+  <g stroke="#020a08" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 246,42"/>
+    <path d="M246,40 Q310,45 366,42"/>
+  </g>
+</svg>
