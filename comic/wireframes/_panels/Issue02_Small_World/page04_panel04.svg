@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 320" width="247" height="320">
+  <title>Issue 2 — Page 4 — Panel 4: Jink soaked grin near pipe top</title>
+  <desc>MS high angle DOWN at Jink near top of pipe. One hand gripping iron wall, other wiping rain from face. Grinning, bright-eyed, soaked. Wet golden curls plastered to forehead. Above: pipe opening circle of grey sky w/ rain pouring in (drops smashing walls + spray in all directions). Emerald light refracted prismatically through running water on suit. Joy in chaos. JINK + SABLE off + JINK reply.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <radialGradient id="p4p4pipeShaft" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#1a1820" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#080408" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="p4p4skyOpening" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#7a7e88" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#3a3e48" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a1820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p4p4emeraldGlow">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0a4828" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p4p4emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4828"/>
+    </linearGradient>
+    <filter id="p4p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p4p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p4p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark pipe interior. -->
+  <rect width="247" height="320" fill="url(#p4p4pipeShaft)"/>
+
+  <!-- PIPE OPENING ABOVE — circle of grey sky w/ rain (script-specific). -->
+  <g id="p4p4-pipe-opening">
+    <ellipse cx="124" cy="40" rx="90" ry="35" fill="url(#p4p4skyOpening)" filter="url(#p4p4deepBloom)"/>
+    <ellipse cx="124" cy="40" rx="90" ry="35" fill="none" stroke="#3a3a45" stroke-width="1" opacity="0.85"/>
+
+    <!-- RAIN POURING IN — individual fist-sized drops visible (script-specific). -->
+    <g id="p4p4-rain-drops">
+      <!-- Drops descending into pipe. -->
+      <ellipse cx="80" cy="60" rx="5" ry="7" fill="#a8b8c8" opacity="0.85" filter="url(#p4p4bloom)"/>
+      <ellipse cx="160" cy="80" rx="6" ry="8" fill="#a8b8c8" opacity="0.85" filter="url(#p4p4bloom)"/>
+      <ellipse cx="100" cy="100" rx="4" ry="6" fill="#a8b8c8" opacity="0.7" filter="url(#p4p4bloom)"/>
+      <ellipse cx="170" cy="120" rx="5" ry="7" fill="#a8b8c8" opacity="0.7" filter="url(#p4p4bloom)"/>
+      <ellipse cx="60" cy="130" rx="4" ry="6" fill="#a8b8c8" opacity="0.65" filter="url(#p4p4bloom)"/>
+      <!-- Highlights. -->
+      <circle cx="79" cy="58" r="1.5" fill="#dce4f0" opacity="0.85"/>
+      <circle cx="159" cy="78" r="1.7" fill="#dce4f0" opacity="0.85"/>
+      <circle cx="99" cy="98" r="1.2" fill="#dce4f0" opacity="0.85"/>
+      <!-- Trajectory streaks. -->
+      <line x1="80" y1="20" x2="80" y2="55" stroke="#a8b8c8" stroke-width="1" opacity="0.55" filter="url(#p4p4bloom)"/>
+      <line x1="160" y1="20" x2="160" y2="75" stroke="#a8b8c8" stroke-width="1" opacity="0.55" filter="url(#p4p4bloom)"/>
+      <line x1="100" y1="20" x2="100" y2="95" stroke="#a8b8c8" stroke-width="0.7" opacity="0.5" filter="url(#p4p4bloom)"/>
+    </g>
+
+    <!-- DROPS SMASHING WALLS w/ spray (script-specific). -->
+    <g id="p4p4-wall-impacts">
+      <!-- Splat on left wall. -->
+      <ellipse cx="40" cy="140" rx="14" ry="6" fill="#dce4f0" opacity="0.85" filter="url(#p4p4bloom)"/>
+      <g fill="#ffffff" opacity="0.85">
+        <circle cx="32" cy="135" r="1.2"/>
+        <circle cx="48" cy="138" r="1.2"/>
+        <circle cx="40" cy="125" r="1"/>
+      </g>
+      <!-- Splat on right wall. -->
+      <ellipse cx="208" cy="160" rx="14" ry="6" fill="#dce4f0" opacity="0.85" filter="url(#p4p4bloom)"/>
+      <g fill="#ffffff" opacity="0.85">
+        <circle cx="200" cy="155" r="1.2"/>
+        <circle cx="216" cy="158" r="1.2"/>
+        <circle cx="208" cy="145" r="1"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Pitted iron texture on walls. -->
+  <g fill="#080408" opacity="0.85">
+    <circle cx="30" cy="180" r="1.4"/>
+    <circle cx="220" cy="200" r="1.4"/>
+    <circle cx="40" cy="240" r="1.4"/>
+    <circle cx="210" cy="260" r="1.4"/>
+  </g>
+  <!-- Pipe curvature. -->
+  <g stroke="#1a1820" stroke-width="0.7" opacity="0.7">
+    <line x1="20" y1="80" x2="40" y2="320"/>
+    <line x1="227" y1="80" x2="207" y2="320"/>
+  </g>
+
+  <!-- WATER STREAMING DOWN walls (script-specific). -->
+  <g stroke="#7af0ff" stroke-width="0.6" opacity="0.85" filter="url(#p4p4bloom)">
+    <line x1="40" y1="140" x2="38" y2="320"/>
+    <line x1="208" y1="160" x2="210" y2="320"/>
+  </g>
+  <g stroke="#dce4f0" stroke-width="0.3" opacity="0.7">
+    <line x1="40" y1="140" x2="38" y2="320"/>
+    <line x1="208" y1="160" x2="210" y2="320"/>
+  </g>
+
+  <!-- JINK near pipe top (high-angle DOWN view from above). -->
+  <g id="p4p4-jink" transform="translate(124, 220)">
+
+    <!-- BIG EMERALD GLOW HALO. -->
+    <ellipse cx="0" cy="0" rx="60" ry="60" fill="url(#p4p4emeraldGlow)" filter="url(#p4p4deepBloom)" opacity="0.85"/>
+
+    <!-- Body (foreshortened from above — head + shoulders dominant). -->
+    <ellipse cx="0" cy="20" rx="32" ry="22" fill="url(#p4p4emerald)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Suit seam glow. -->
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#7af0b0" stroke-width="0.7" opacity="0.85" filter="url(#p4p4bloom)"/>
+
+    <!-- Shoulders. -->
+    <ellipse cx="-32" cy="14" rx="11" ry="6" fill="#2ed078" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="32" cy="14" rx="11" ry="6" fill="#2ed078" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- ARMS — one gripping wall, one wiping face. -->
+    <!-- Left arm gripping iron wall. -->
+    <path d="M-32,14 L-50,2 L-65,-8" fill="none" stroke="url(#p4p4emerald)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-65" cy="-10" rx="5" ry="3.5" fill="#e8c8a0"/>
+    <!-- Right arm wiping face. -->
+    <path d="M32,14 L18,-5 L8,-22" fill="none" stroke="url(#p4p4emerald)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="8" cy="-22" rx="5" ry="3.5" fill="#e8c8a0"/>
+
+    <!-- HEAD (foreshortened from above). -->
+    <ellipse cx="0" cy="-15" rx="14" ry="13" fill="#e8c8a0"/>
+
+    <!-- WET GOLDEN CURLS plastered to forehead (script-specific). -->
+    <g fill="#a87830">
+      <!-- Hair mass. -->
+      <path d="M-12,-25 Q-2,-30 12,-26 Q15,-20 12,-15 L-12,-15 Z"/>
+      <!-- Wet curl strands plastered down. -->
+      <path d="M-8,-25 Q-6,-18 -4,-12" stroke="#a87830" stroke-width="1.5" fill="none"/>
+      <path d="M-2,-28 Q-1,-22 0,-12" stroke="#a87830" stroke-width="1.5" fill="none"/>
+      <path d="M4,-28 Q5,-22 6,-12" stroke="#a87830" stroke-width="1.5" fill="none"/>
+      <path d="M9,-25 Q10,-18 12,-12" stroke="#a87830" stroke-width="1.5" fill="none"/>
+    </g>
+    <!-- Highlights on wet curls. -->
+    <g fill="#f5d860" opacity="0.85">
+      <ellipse cx="-3" cy="-26" rx="2" ry="0.8"/>
+      <ellipse cx="6" cy="-26" rx="2" ry="0.8"/>
+    </g>
+
+    <!-- WATER STREAMING down face/suit. -->
+    <g stroke="#7af0ff" stroke-width="0.7" opacity="0.85" filter="url(#p4p4bloom)">
+      <line x1="-9" y1="-15" x2="-12" y2="2"/>
+      <line x1="9" y1="-15" x2="12" y2="2"/>
+      <line x1="-2" y1="-12" x2="-2" y2="20"/>
+      <line x1="0" y1="-12" x2="0" y2="22"/>
+    </g>
+
+    <!-- EYES BRIGHT (script-specific). -->
+    <ellipse cx="-4" cy="-14" rx="2" ry="1.4" fill="#dce4f0"/>
+    <ellipse cx="4" cy="-14" rx="2" ry="1.4" fill="#dce4f0"/>
+    <ellipse cx="-4" cy="-14" rx="1.2" ry="1.2" fill="#1a3010"/>
+    <ellipse cx="4" cy="-14" rx="1.2" ry="1.2" fill="#1a3010"/>
+    <circle cx="-3" cy="-15" r="0.5" fill="#7af0b0"/>
+    <circle cx="5" cy="-15" r="0.5" fill="#7af0b0"/>
+    <!-- Brow lifted (joyful surprise). -->
+    <path d="M-7,-20 Q-3,-22 0,-20" stroke="#a87830" stroke-width="1" fill="none"/>
+    <path d="M0,-20 Q3,-22 7,-20" stroke="#a87830" stroke-width="1" fill="none"/>
+
+    <!-- BIG GRIN (script-specific). -->
+    <path d="M-7,-5 Q0,1 7,-5" stroke="#3a2010" stroke-width="1.4" fill="none"/>
+    <line x1="-7" y1="-5" x2="7" y2="-5" stroke="#dce4f0" stroke-width="0.6"/>
+    <!-- Cheeks raised (smile). -->
+    <ellipse cx="-9" cy="-7" rx="2.5" ry="1.5" fill="#d8804a" opacity="0.55"/>
+    <ellipse cx="9" cy="-7" rx="2.5" ry="1.5" fill="#d8804a" opacity="0.55"/>
+
+    <!-- PRISMATIC EMERALD LIGHT REFRACTED through water on suit (script-specific). -->
+    <g opacity="0.55" filter="url(#p4p4bloom)">
+      <ellipse cx="-15" cy="20" rx="14" ry="3" fill="#7af0b0"/>
+      <ellipse cx="15" cy="20" rx="14" ry="3" fill="#7af0b0"/>
+    </g>
+  </g>
+
+  <!-- JINK dialogue. -->
+  <g id="p4p4-dlg-jink-1">
+    <rect x="14" y="14" width="220" height="44" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">Best shower I've ever had!</text>
+    <path d="M118,58 L136,58 L120,200 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="118" y1="58" x2="136" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE off-panel (dashed). -->
+  <g id="p4p4-dlg-sable-off">
+    <rect x="14" y="244" width="220" height="40" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-dasharray="6,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="261" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE (OFF)</text>
+    <text x="24" y="277" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Jink. Focus.</text>
+    <path d="M14,270 L4,270 L0,280" fill="none" stroke="#5a606a" stroke-width="2" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- JINK reply (lower). -->
+  <g id="p4p4-dlg-jink-2">
+    <rect x="14" y="290" width="220" height="26" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="307" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="500" font-style="italic" fill="#1a1a1a">Focused! Happily focused!</text>
+    <path d="M120,290 L138,290 L130,260 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="290" x2="138" y2="290" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p4p4-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+  </g>
+</svg>

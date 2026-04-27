@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 320" width="247" height="320">
+  <title>Issue 2 — Page 4 — Panel 3: Thresh on ledge looking down — silent fear</title>
+  <desc>MCU slight low angle. Thresh crouched on socket joint ledge inside dark drainpipe, hands braced on edge, rifle slung across back. Looking DOWN into darkness. Reflection distorted in puddle on ledge — crimson suit + pale face + wide eyes. Eyes wide in darkness, jaw muscles working. Fear held in check through discipline. Crimson holo accents pulse faint like heartbeat. Darkness above + below. NO DIALOGUE — silence is the beat.</desc>
+
+  <defs>
+    <radialGradient id="p4p3pipeShaft" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#080408" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#1a1820" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3a3a45" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="p4p3crimsonGlow">
+      <stop offset="0%" stop-color="#f54848" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#c84038" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a1018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p4p3ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <radialGradient id="p4p3puddle" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#3a3a45" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#080408" stop-opacity="0.85"/>
+    </radialGradient>
+    <filter id="p4p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p4p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p4p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark pipe interior. -->
+  <rect width="247" height="320" fill="url(#p4p3pipeShaft)"/>
+
+  <!-- Pitted iron texture. -->
+  <g fill="#080408" opacity="0.85">
+    <circle cx="40" cy="60" r="1.4"/>
+    <circle cx="180" cy="80" r="1.4"/>
+    <circle cx="60" cy="120" r="1.4"/>
+    <circle cx="200" cy="140" r="1.4"/>
+    <circle cx="40" cy="190" r="1.2"/>
+    <circle cx="190" cy="200" r="1.2"/>
+  </g>
+
+  <!-- Pipe curvature lines (suggest interior). -->
+  <g stroke="#1a1820" stroke-width="0.7" opacity="0.7">
+    <line x1="20" y1="0" x2="40" y2="320"/>
+    <line x1="227" y1="0" x2="207" y2="320"/>
+  </g>
+
+  <!-- DARKNESS BELOW (pipe drops away). -->
+  <ellipse cx="124" cy="320" rx="120" ry="40" fill="#080408" filter="url(#p4p3deepBloom)"/>
+
+  <!-- SOCKET JOINT LEDGE (where Thresh crouches) — horizontal ring across mid-frame. -->
+  <g id="p4p3-ledge">
+    <ellipse cx="124" cy="220" rx="100" ry="14" fill="#3a3a45" stroke="#080408" stroke-width="0.7"/>
+    <ellipse cx="124" cy="220" rx="100" ry="14" fill="none" stroke="#5a606a" stroke-width="0.5" opacity="0.85"/>
+    <!-- Inner edge (where it drops). -->
+    <ellipse cx="124" cy="225" rx="80" ry="10" fill="#0a0408"/>
+    <!-- Subtle iron lip highlight. -->
+    <path d="M30,218 Q124,210 218,218" fill="none" stroke="#7a7e88" stroke-width="0.5" opacity="0.55"/>
+  </g>
+
+  <!-- PUDDLE on ledge (where Thresh's reflection appears). -->
+  <g id="p4p3-puddle">
+    <ellipse cx="180" cy="220" rx="32" ry="6" fill="url(#p4p3puddle)"/>
+    <ellipse cx="180" cy="220" rx="32" ry="6" fill="none" stroke="#5a606a" stroke-width="0.4" opacity="0.85"/>
+    <!-- Reflection — distorted Thresh face in puddle (script-specific). -->
+    <ellipse cx="180" cy="220" rx="14" ry="3" fill="#a8182a" opacity="0.55"/>
+    <!-- Pale face hint. -->
+    <ellipse cx="180" cy="219" rx="6" ry="1.5" fill="#d8a880" opacity="0.55"/>
+    <!-- Reflected eyes (wide). -->
+    <ellipse cx="178" cy="219" rx="0.7" ry="0.4" fill="#dce4f0" opacity="0.85"/>
+    <ellipse cx="182" cy="219" rx="0.7" ry="0.4" fill="#dce4f0" opacity="0.85"/>
+    <!-- Reflection shimmer/distortion. -->
+    <line x1="160" y1="218" x2="200" y2="218" stroke="#dce4f0" stroke-width="0.3" opacity="0.55"/>
+    <line x1="158" y1="222" x2="202" y2="222" stroke="#dce4f0" stroke-width="0.3" opacity="0.45"/>
+  </g>
+
+  <!-- THRESH crouched on ledge — looking DOWN. -->
+  <g id="p4p3-thresh" transform="translate(124, 200)">
+
+    <!-- Crimson glow halo (script-specific: pulses faint like heartbeat). -->
+    <ellipse cx="0" cy="0" rx="60" ry="50" fill="url(#p4p3crimsonGlow)" filter="url(#p4p3deepBloom)" opacity="0.85"/>
+
+    <!-- Crouched body (knees up close, leaning forward). -->
+    <ellipse cx="0" cy="10" rx="30" ry="20" fill="url(#p4p3ruby)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Crimson seam glow. -->
+    <line x1="0" y1="-5" x2="0" y2="25" stroke="#f54848" stroke-width="0.7" opacity="0.85" filter="url(#p4p3bloom)"/>
+
+    <!-- Shoulders. -->
+    <ellipse cx="-30" cy="-2" rx="11" ry="6" fill="#a8182a" stroke="#080408" stroke-width="0.5"/>
+    <!-- Dented LEFT pauldron. -->
+    <line x1="-34" y1="-5" x2="-26" y2="-1" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="30" cy="-2" rx="11" ry="6" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- Rifle slung across BACK (script-specific). -->
+    <rect x="-14" y="-15" width="28" height="4" rx="0.5" fill="#1a0810" transform="rotate(-15 -14 -15)"/>
+    <line x1="-14" y1="-15" x2="14" y2="-19" stroke="#3a1010" stroke-width="0.6" transform="rotate(-15 -14 -15)"/>
+
+    <!-- HANDS BRACED ON LEDGE EDGE (script-specific). -->
+    <path d="M-30,2 L-44,18 L-50,32" fill="none" stroke="url(#p4p3ruby)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M30,2 L44,18 L50,32" fill="none" stroke="url(#p4p3ruby)" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="-50" cy="34" rx="6" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="50" cy="34" rx="6" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- HEAD (looking DOWN — script-specific). -->
+    <ellipse cx="0" cy="-30" rx="14" ry="15" fill="#d8a880"/>
+
+    <!-- Buzz cap copper-red. -->
+    <path d="M-9,-40 Q0,-44 9,-40 L9,-30 L-9,-30 Z" fill="#a83a18"/>
+    <g fill="#5a1808" opacity="0.85">
+      <circle cx="-5" cy="-42" r="0.7"/>
+      <circle cx="-1" cy="-43" r="0.7"/>
+      <circle cx="3" cy="-44" r="0.7"/>
+      <circle cx="6" cy="-43" r="0.7"/>
+    </g>
+
+    <!-- WIDE EYES (script-specific: eyes wide in darkness). -->
+    <ellipse cx="-5" cy="-28" rx="2.5" ry="2" fill="#dce4f0"/>
+    <ellipse cx="5" cy="-28" rx="2.5" ry="2" fill="#dce4f0"/>
+    <!-- Iris contracted (small pupils). -->
+    <ellipse cx="-5" cy="-28" rx="1.5" ry="1.5" fill="#1a0808"/>
+    <ellipse cx="5" cy="-28" rx="1.5" ry="1.5" fill="#1a0808"/>
+    <ellipse cx="-5" cy="-28" rx="0.7" ry="0.7" fill="#080404"/>
+    <ellipse cx="5" cy="-28" rx="0.7" ry="0.7" fill="#080404"/>
+    <!-- Crimson catch in eyes. -->
+    <circle cx="-4" cy="-29" r="0.4" fill="#f54848"/>
+    <circle cx="6" cy="-29" r="0.4" fill="#f54848"/>
+
+    <!-- Brow set (held in check). -->
+    <path d="M-9,-37 Q-5,-40 -1,-37" stroke="#5a1808" stroke-width="1.4" fill="none"/>
+    <path d="M1,-37 Q5,-40 9,-37" stroke="#5a1808" stroke-width="1.4" fill="none"/>
+    <!-- Tension line between brows. -->
+    <line x1="0" y1="-35" x2="0" y2="-30" stroke="#3a1808" stroke-width="0.6" opacity="0.85"/>
+
+    <!-- Cheekbones. -->
+    <ellipse cx="-9" cy="-22" rx="3" ry="1.5" fill="#a87850" opacity="0.55"/>
+    <ellipse cx="9" cy="-22" rx="3" ry="1.5" fill="#a87850" opacity="0.55"/>
+    <!-- Crimson catch on cheekbones (faint). -->
+    <ellipse cx="-9" cy="-22" rx="2.5" ry="1.2" fill="#f54848" opacity="0.4"/>
+    <ellipse cx="9" cy="-22" rx="2.5" ry="1.2" fill="#f54848" opacity="0.4"/>
+
+    <!-- LIPS — pressed thin (controlled breathing). -->
+    <line x1="-3" y1="-15" x2="4" y2="-15" stroke="#3a1810" stroke-width="1.3"/>
+
+    <!-- JAW MUSCLES WORKING (script-specific). -->
+    <ellipse cx="-11" cy="-13" rx="3" ry="1.8" fill="#5a1808" opacity="0.7"/>
+    <ellipse cx="11" cy="-13" rx="3" ry="1.8" fill="#5a1808" opacity="0.7"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p4p3-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="243" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">THRESH SILENT FEAR</text>
+  </g>
+</svg>

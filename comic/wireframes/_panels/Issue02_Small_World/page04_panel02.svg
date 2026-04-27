@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 320" width="247" height="320">
+  <title>Issue 2 — Page 4 — Panel 2: Wren hands on iron + holo wrist diagnostic</title>
+  <desc>CU 85mm Wren's hands gripping pitted cast iron pipe wall. Copper sleeve, oil-stained forearm, fresh water beading on surface. Copper-gold holographic wrist diagnostic display showing pipe structural data (wall thickness, stress points). Water trickling across knuckles catches copper-gold glow. Near-dark interior. WREN: "Wall thickness drops at next joint. 50 yrs rain. Go slow."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p4p2dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <linearGradient id="p4p2copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#5a3010"/>
+    </linearGradient>
+    <radialGradient id="p4p2copperGold">
+      <stop offset="0%" stop-color="#f5d860" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a87830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3010" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p4p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p4p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG dark pipe interior. -->
+  <rect width="247" height="320" fill="url(#p4p2dark)"/>
+
+  <!-- Pitted iron texture across BG. -->
+  <g fill="#080408" opacity="0.85">
+    <circle cx="40" cy="80" r="1.4"/>
+    <circle cx="70" cy="120" r="1.6"/>
+    <circle cx="100" cy="180" r="1.4"/>
+    <circle cx="160" cy="100" r="1.6"/>
+    <circle cx="190" cy="160" r="1.4"/>
+    <circle cx="220" cy="220" r="1.4"/>
+    <circle cx="50" cy="250" r="1"/>
+    <circle cx="180" cy="280" r="1"/>
+  </g>
+  <!-- Iron seam vertical. -->
+  <line x1="124" y1="0" x2="124" y2="320" stroke="#080404" stroke-width="0.6" opacity="0.55"/>
+
+  <!-- COPPER-GOLD HOLO WRIST GLOW (script-specific: primary light source). -->
+  <ellipse cx="124" cy="160" rx="120" ry="100" fill="url(#p4p2copperGold)" filter="url(#p4p2strongBloom)" opacity="0.7"/>
+
+  <!-- HANDS gripping pipe wall — both reaching from bottom. Center frame. -->
+
+  <!-- LEFT HAND. -->
+  <g id="p4p2-left-hand" transform="translate(80, 200)">
+    <!-- Forearm/sleeve in copper. -->
+    <path d="M-32,120 L-12,80 L-2,40 L4,0" fill="none" stroke="url(#p4p2copper)" stroke-width="32" stroke-linecap="round"/>
+    <!-- Copper accent seam. -->
+    <line x1="-26" y1="115" x2="2" y2="5" stroke="#f5a868" stroke-width="0.7" opacity="0.7" filter="url(#p4p2bloom)"/>
+    <!-- OIL STAINS on forearm (script-specific continuity). -->
+    <g fill="#1a0a08" opacity="0.7">
+      <ellipse cx="-22" cy="100" rx="5" ry="3" transform="rotate(-30 -22 100)"/>
+      <ellipse cx="-12" cy="65" rx="4" ry="2.5" transform="rotate(-30 -12 65)"/>
+      <ellipse cx="-2" cy="35" rx="3.5" ry="2" transform="rotate(-30 -2 35)"/>
+    </g>
+    <!-- WATER BEADS on surface (script-specific). -->
+    <g fill="#7af0ff" opacity="0.85" filter="url(#p4p2bloom)">
+      <circle cx="-20" cy="90" r="1.2"/>
+      <circle cx="-8" cy="60" r="1.4"/>
+      <circle cx="2" cy="30" r="1.2"/>
+      <circle cx="-15" cy="75" r="1"/>
+      <circle cx="-5" cy="45" r="1"/>
+    </g>
+    <!-- Water highlight (specular). -->
+    <g fill="#dce4f0" opacity="0.85">
+      <circle cx="-20" cy="89" r="0.5"/>
+      <circle cx="-8" cy="58" r="0.6"/>
+      <circle cx="2" cy="29" r="0.5"/>
+    </g>
+
+    <!-- HAND palm + fingers gripping iron. -->
+    <g transform="translate(0, -10)">
+      <!-- Palm. -->
+      <path d="M-22,-30 Q-30,-50 -10,-60 Q10,-65 25,-55 Q35,-40 30,-20 Q22,-5 0,-2 Q-15,-8 -22,-30 Z" fill="#5a3818" stroke="#080408" stroke-width="0.7"/>
+      <!-- Fingers gripping (curled around invisible iron). -->
+      <path d="M5,-58 Q15,-70 25,-65 Q30,-55 22,-50" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+      <path d="M-2,-62 Q5,-72 15,-70 Q22,-65 18,-58" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+      <path d="M-12,-58 Q-5,-66 5,-64 Q12,-58 8,-52" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+      <path d="M-18,-50 Q-12,-56 -3,-54 Q3,-50 0,-44" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+      <!-- Thumb. -->
+      <path d="M-22,-30 Q-32,-22 -34,-14 Q-30,-8 -24,-12" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+      <!-- Knuckle definition. -->
+      <ellipse cx="20" cy="-50" rx="2" ry="1.5" fill="#3a1810" opacity="0.55"/>
+      <ellipse cx="13" cy="-58" rx="2" ry="1.5" fill="#3a1810" opacity="0.55"/>
+      <ellipse cx="3" cy="-58" rx="2" ry="1.5" fill="#3a1810" opacity="0.55"/>
+      <!-- WATER TRICKLE across knuckles (script-specific). -->
+      <path d="M-15,-55 Q0,-50 18,-58" stroke="#7af0ff" stroke-width="1.2" fill="none" opacity="0.85" filter="url(#p4p2bloom)"/>
+      <path d="M-15,-55 Q0,-50 18,-58" stroke="#dce4f0" stroke-width="0.4" fill="none"/>
+    </g>
+  </g>
+
+  <!-- RIGHT HAND (mirror, w/ HOLO WRIST DIAGNOSTIC). -->
+  <g id="p4p2-right-hand" transform="translate(170, 200)">
+    <!-- Forearm. -->
+    <path d="M32,120 L12,80 L2,40 L-4,0" fill="none" stroke="url(#p4p2copper)" stroke-width="32" stroke-linecap="round"/>
+    <line x1="26" y1="115" x2="-2" y2="5" stroke="#f5a868" stroke-width="0.7" opacity="0.7" filter="url(#p4p2bloom)"/>
+    <!-- Oil stains. -->
+    <g fill="#1a0a08" opacity="0.7">
+      <ellipse cx="22" cy="100" rx="5" ry="3" transform="rotate(30 22 100)"/>
+      <ellipse cx="12" cy="65" rx="4" ry="2.5" transform="rotate(30 12 65)"/>
+    </g>
+    <!-- Water beads. -->
+    <g fill="#7af0ff" opacity="0.85" filter="url(#p4p2bloom)">
+      <circle cx="20" cy="90" r="1.2"/>
+      <circle cx="8" cy="60" r="1.4"/>
+      <circle cx="-2" cy="30" r="1.2"/>
+    </g>
+
+    <!-- HOLO WRIST DIAGNOSTIC (script-specific) — visible at wrist. -->
+    <g id="p4p2-holo-wrist" transform="translate(2, 0)">
+      <!-- Wrist emitter band. -->
+      <ellipse cx="0" cy="0" rx="14" ry="4" fill="#1a1820" stroke="#080408" stroke-width="0.5"/>
+      <!-- Glowing emitter. -->
+      <ellipse cx="0" cy="0" rx="8" ry="2.5" fill="#f5d860" filter="url(#p4p2bloom)"/>
+      <!-- HOLO PROJECTION (geometric structural data above wrist). -->
+      <ellipse cx="0" cy="-30" rx="40" ry="22" fill="url(#p4p2copperGold)" filter="url(#p4p2strongBloom)" opacity="0.85"/>
+      <!-- Wireframe pipe schematic. -->
+      <g stroke="#f5d860" stroke-width="0.8" fill="none" opacity="0.95" filter="url(#p4p2bloom)">
+        <!-- Pipe vertical. -->
+        <line x1="-10" y1="-50" x2="-10" y2="-15"/>
+        <line x1="10" y1="-50" x2="10" y2="-15"/>
+        <line x1="-10" y1="-50" x2="10" y2="-50"/>
+        <line x1="-10" y1="-15" x2="10" y2="-15"/>
+        <!-- Joint marker. -->
+        <ellipse cx="0" cy="-32" rx="14" ry="2"/>
+        <!-- Stress indicator. -->
+        <line x1="-14" y1="-25" x2="14" y2="-25" stroke-dasharray="2,1"/>
+      </g>
+      <!-- Diagnostic glyphs. -->
+      <g font-family="Helvetica Neue, Arial, sans-serif" fill="#f5d860" opacity="0.95">
+        <text x="14" y="-50" font-size="6" font-weight="600">!STRESS</text>
+        <text x="-14" y="-15" font-size="6" font-weight="600" text-anchor="end">3.2mm</text>
+      </g>
+    </g>
+
+    <!-- HAND mirror. -->
+    <g transform="translate(0, -10)">
+      <!-- Palm. -->
+      <path d="M22,-30 Q30,-50 10,-60 Q-10,-65 -25,-55 Q-35,-40 -30,-20 Q-22,-5 0,-2 Q15,-8 22,-30 Z" fill="#5a3818" stroke="#080408" stroke-width="0.7"/>
+      <!-- Fingers gripping. -->
+      <path d="M-5,-58 Q-15,-70 -25,-65 Q-30,-55 -22,-50" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+      <path d="M2,-62 Q-5,-72 -15,-70 Q-22,-65 -18,-58" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+      <path d="M12,-58 Q5,-66 -5,-64 Q-12,-58 -8,-52" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+      <path d="M18,-50 Q12,-56 3,-54 Q-3,-50 0,-44" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+      <!-- Thumb. -->
+      <path d="M22,-30 Q32,-22 34,-14 Q30,-8 24,-12" fill="#5a3818" stroke="#080408" stroke-width="0.5"/>
+      <!-- Knuckles. -->
+      <ellipse cx="-20" cy="-50" rx="2" ry="1.5" fill="#3a1810" opacity="0.55"/>
+      <ellipse cx="-13" cy="-58" rx="2" ry="1.5" fill="#3a1810" opacity="0.55"/>
+      <ellipse cx="-3" cy="-58" rx="2" ry="1.5" fill="#3a1810" opacity="0.55"/>
+      <!-- Water trickle. -->
+      <path d="M15,-55 Q0,-50 -18,-58" stroke="#7af0ff" stroke-width="1.2" fill="none" opacity="0.85" filter="url(#p4p2bloom)"/>
+      <path d="M15,-55 Q0,-50 -18,-58" stroke="#dce4f0" stroke-width="0.4" fill="none"/>
+    </g>
+  </g>
+
+  <!-- WREN dialogue. -->
+  <g id="p4p2-dlg-wren">
+    <rect x="14" y="14" width="220" height="60" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Wall thins at next joint.</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">50 years of rain. Go slow.</text>
+    <path d="M118,74 L136,74 L160,170 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="118" y1="74" x2="136" y2="74" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p4p2-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="243" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WREN HANDS ECU</text>
+  </g>
+</svg>

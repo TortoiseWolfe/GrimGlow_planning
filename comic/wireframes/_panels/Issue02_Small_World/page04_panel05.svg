@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 500" width="742" height="500">
+  <title>Issue 2 — Page 4 — Panel 5: Worm's-eye UP through pipe waterfall — descent through rain</title>
+  <desc>Wide 20mm worm's-eye from pipe base looking UP through interior. Dark vertical tunnel receding to distant circle of grey sky at top. 5 squad as silhouettes + holo glows stacked vertically above. Water streams down curved iron walls, small waterfall forming at base. Prismatic refraction in water (5 department colors as thin lines on dark iron). Grey light from both openings (brighter above, dimmer below). The pipe interior is wet dark rainbow-streaked descent. SFX SHHHHHHH + CAPTION: "One block down. Three to go."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <radialGradient id="p4p5pipeShaft" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#5a5e68" stop-opacity="0.85"/>
+      <stop offset="20%" stop-color="#1a1820" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#080408" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="p4p5skyTop" cx="50%" cy="0%" r="50%">
+      <stop offset="0%" stop-color="#7a7e88" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3a3e48" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p4p5waterfallBase">
+      <stop offset="0%" stop-color="#5a606a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a3e48" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p4p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p4p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p4p5deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark pipe interior. -->
+  <rect width="742" height="500" fill="url(#p4p5pipeShaft)"/>
+
+  <!-- DISTANT CIRCLE OF GREY SKY at top (script-specific). -->
+  <ellipse cx="371" cy="0" rx="80" ry="40" fill="url(#p4p5skyTop)" filter="url(#p4p5deepBloom)"/>
+  <!-- Sky opening rim. -->
+  <ellipse cx="371" cy="0" rx="80" ry="30" fill="none" stroke="#5a606a" stroke-width="0.5" opacity="0.85"/>
+  <!-- Rain entering opening. -->
+  <g stroke="#a8b8c8" stroke-width="0.6" opacity="0.55" filter="url(#p4p5bloom)">
+    <line x1="340" y1="-10" x2="340" y2="20"/>
+    <line x1="370" y1="-15" x2="370" y2="20"/>
+    <line x1="400" y1="-10" x2="400" y2="20"/>
+    <line x1="350" y1="0" x2="350" y2="30"/>
+    <line x1="385" y1="-5" x2="385" y2="25"/>
+  </g>
+
+  <!-- PIPE WALLS converging upward (perspective). -->
+  <g id="p4p5-pipe-walls">
+    <!-- Left wall. -->
+    <path d="M0,0 L0,500 L240,500 L290,40 L0,40 Z" fill="#1a1820"/>
+    <path d="M0,0 L290,40 L290,30 L0,0 Z" fill="#080408"/>
+    <!-- Right wall. -->
+    <path d="M742,0 L742,500 L502,500 L452,40 L742,40 Z" fill="#1a1820"/>
+    <path d="M742,0 L452,40 L452,30 L742,0 Z" fill="#080408"/>
+
+    <!-- Pitted iron texture. -->
+    <g fill="#080408" opacity="0.85">
+      <circle cx="60" cy="120" r="1.6"/>
+      <circle cx="100" cy="200" r="1.6"/>
+      <circle cx="160" cy="320" r="1.4"/>
+      <circle cx="200" cy="420" r="1.4"/>
+      <circle cx="682" cy="120" r="1.6"/>
+      <circle cx="642" cy="200" r="1.6"/>
+      <circle cx="582" cy="320" r="1.4"/>
+      <circle cx="542" cy="420" r="1.4"/>
+      <circle cx="120" cy="280" r="1"/>
+      <circle cx="622" cy="280" r="1"/>
+    </g>
+
+    <!-- Vertical seams suggesting curve. -->
+    <g stroke="#080a14" stroke-width="0.7" opacity="0.85">
+      <line x1="80" y1="40" x2="160" y2="500"/>
+      <line x1="662" y1="40" x2="582" y2="500"/>
+    </g>
+  </g>
+
+  <!-- WATER STREAMING DOWN walls — 5 prismatic colored streams (script-specific). -->
+  <g id="p4p5-prismatic-streams" filter="url(#p4p5bloom)">
+    <!-- Silver stream. -->
+    <path d="M250,40 Q220,200 200,500" fill="none" stroke="#dce4ff" stroke-width="1.6" opacity="0.85"/>
+    <!-- Copper stream. -->
+    <path d="M280,40 Q260,200 250,500" fill="none" stroke="#f5a868" stroke-width="1.6" opacity="0.85"/>
+    <!-- Emerald stream. -->
+    <path d="M310,40 Q300,200 300,500" fill="none" stroke="#7af0b0" stroke-width="1.6" opacity="0.85"/>
+    <!-- Ruby stream. -->
+    <path d="M430,40 Q440,200 440,500" fill="none" stroke="#f54848" stroke-width="1.6" opacity="0.85"/>
+    <!-- Sapphire stream. -->
+    <path d="M460,40 Q470,200 490,500" fill="none" stroke="#a890f0" stroke-width="1.6" opacity="0.85"/>
+    <!-- Other water streams (unlit). -->
+    <g stroke="#7af0ff" stroke-width="0.7" opacity="0.55">
+      <path d="M340,40 Q330,250 330,500"/>
+      <path d="M380,40 Q380,250 370,500"/>
+      <path d="M400,40 Q410,250 410,500"/>
+    </g>
+  </g>
+
+  <!-- 5 SQUAD MEMBERS as silhouettes + holo glows stacked descending vertically (script-specific). -->
+  <!-- Smaller (further from camera) at top. -->
+
+  <!-- THRESH lowest (closest to camera/viewer). -->
+  <g id="p4p5-thresh" transform="translate(371, 280)">
+    <ellipse cx="0" cy="0" rx="18" ry="22" fill="#5a1018" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="0" cy="0" rx="26" ry="30" fill="#f54848" opacity="0.7" filter="url(#p4p5strongBloom)"/>
+    <!-- Dark silhouette inner. -->
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="#1a0408"/>
+  </g>
+
+  <!-- WREN above. -->
+  <g id="p4p5-wren" transform="translate(371, 200)">
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="#5a3010" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="0" cy="0" rx="22" ry="26" fill="#f5a868" opacity="0.65" filter="url(#p4p5strongBloom)"/>
+    <ellipse cx="0" cy="0" rx="11" ry="14" fill="#1a0a08"/>
+  </g>
+
+  <!-- SABLE above Wren. -->
+  <g id="p4p5-sable" transform="translate(371, 140)">
+    <ellipse cx="0" cy="0" rx="11" ry="14" fill="#3a3e48" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="0" cy="0" rx="17" ry="20" fill="#dce4ff" opacity="0.6" filter="url(#p4p5strongBloom)"/>
+    <ellipse cx="0" cy="0" rx="9" ry="11" fill="#080a14"/>
+    <!-- Cracked shoulder bleed bright (continuity). -->
+    <ellipse cx="6" cy="-3" rx="3" ry="2" fill="#dce4ff" opacity="0.85" filter="url(#p4p5bloom)"/>
+  </g>
+
+  <!-- LUMA above Sable. -->
+  <g id="p4p5-luma" transform="translate(371, 90)">
+    <ellipse cx="0" cy="0" rx="9" ry="11" fill="#1a1058" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="0" cy="0" rx="14" ry="16" fill="#a890f0" opacity="0.65" filter="url(#p4p5strongBloom)"/>
+    <ellipse cx="0" cy="0" rx="7" ry="9" fill="#080408"/>
+  </g>
+
+  <!-- JINK at top (smallest, furthest). -->
+  <g id="p4p5-jink" transform="translate(371, 50)">
+    <ellipse cx="0" cy="0" rx="7" ry="9" fill="#0a4828" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="0" cy="0" rx="11" ry="13" fill="#7af0b0" opacity="0.7" filter="url(#p4p5strongBloom)"/>
+    <ellipse cx="0" cy="0" rx="5" ry="7" fill="#080408"/>
+  </g>
+
+  <!-- WATERFALL BASE (where camera is — water spilling out at viewer). -->
+  <g id="p4p5-waterfall-base">
+    <!-- Pool/waterfall pour at bottom. -->
+    <ellipse cx="371" cy="490" rx="200" ry="40" fill="url(#p4p5waterfallBase)" filter="url(#p4p5deepBloom)" opacity="0.85"/>
+    <!-- Water surface ring. -->
+    <ellipse cx="371" cy="490" rx="180" ry="22" fill="#5a606a" opacity="0.85"/>
+    <ellipse cx="371" cy="490" rx="180" ry="22" fill="none" stroke="#7a7e88" stroke-width="0.5" opacity="0.85"/>
+    <!-- Spillover droplets. -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p4p5bloom)">
+      <circle cx="180" cy="495" r="2"/>
+      <circle cx="220" cy="498" r="1.6"/>
+      <circle cx="540" cy="498" r="1.6"/>
+      <circle cx="580" cy="495" r="2"/>
+      <circle cx="280" cy="500" r="1.4"/>
+      <circle cx="480" cy="500" r="1.4"/>
+    </g>
+    <!-- Water spreading on brick surface beyond (faint gleam). -->
+    <ellipse cx="371" cy="500" rx="350" ry="6" fill="#7a7e88" opacity="0.55"/>
+  </g>
+
+  <!-- SFX SHHHHHHH (continuous water sound). -->
+  <g id="p4p5-sfx-shhh">
+    <text x="100" y="450" font-family="Impact, Haettenschweiler, sans-serif" font-size="34" font-weight="900" stroke="#1a1820" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" fill="#7af0ff" transform="rotate(-5 100 450)" opacity="0.85">SHHHHHHH</text>
+  </g>
+
+  <!-- CAPTION (parchment). -->
+  <g id="p4p5-caption">
+    <rect x="14" y="14" width="220" height="30" rx="3" fill="#f5ecd8" stroke="#5a4a30" stroke-width="1.2" filter="url(#balloonShadow)"/>
+    <text x="124" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" font-weight="700" fill="#5a4a30">"One block down. Three to go."</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p4p5-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">5</text>
+    <text x="738" y="492" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">PIPE WATERFALL</text>
+  </g>
+</svg>

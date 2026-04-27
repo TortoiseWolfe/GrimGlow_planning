@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 2 — Page 4 — Panel 1: Squad descending pipe — vertical stack</title>
+  <desc>Wide 24mm vertical composition looking down pipe interior. 5 squad stacked vertically: Thresh lowest crouched on joint ledge looking down, Wren mid-climb, Sable next ledge, Luma climbing careful, Jink top silhouetted against grey rain-streaked sky circle. Water trickles down iron walls. 5 holo glows overlap on curved walls. WREN + SABLE + JINK dialogue.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <radialGradient id="p4p1pipeShaft" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#080408" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#1a1820" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3a3a45" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="p4p1skyOpening">
+      <stop offset="0%" stop-color="#5a5e68" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1a1820" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p4p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p4p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- BG dark pipe interior. -->
+  <rect width="742" height="280" fill="url(#p4p1pipeShaft)"/>
+
+  <!-- Pipe walls converging top + bottom (horizontal pipe view). -->
+  <rect width="742" height="40" y="0" fill="#0a0c10"/>
+  <rect width="742" height="40" y="240" fill="#0a0c10"/>
+
+  <!-- Vertical pipe segment lines (suggesting tunnel curve). -->
+  <g stroke="#1a1820" stroke-width="0.7" opacity="0.7">
+    <line x1="100" y1="40" x2="100" y2="240"/>
+    <line x1="220" y1="40" x2="220" y2="240"/>
+    <line x1="370" y1="40" x2="370" y2="240"/>
+    <line x1="520" y1="40" x2="520" y2="240"/>
+    <line x1="640" y1="40" x2="640" y2="240"/>
+  </g>
+
+  <!-- Pitted iron texture. -->
+  <g fill="#080408" opacity="0.85">
+    <circle cx="60" cy="80" r="1.4"/>
+    <circle cx="160" cy="120" r="1.4"/>
+    <circle cx="280" cy="180" r="1.4"/>
+    <circle cx="400" cy="100" r="1.4"/>
+    <circle cx="500" cy="160" r="1.4"/>
+    <circle cx="600" cy="200" r="1.4"/>
+    <circle cx="680" cy="120" r="1.4"/>
+  </g>
+
+  <!-- Water trickles down (vertical thin streams). -->
+  <g stroke="#7af0ff" stroke-width="0.5" opacity="0.55" filter="url(#p4p1bloom)">
+    <line x1="80" y1="40" x2="78" y2="240"/>
+    <line x1="180" y1="40" x2="182" y2="240"/>
+    <line x1="320" y1="40" x2="318" y2="240"/>
+    <line x1="440" y1="40" x2="442" y2="240"/>
+    <line x1="560" y1="40" x2="558" y2="240"/>
+    <line x1="680" y1="40" x2="682" y2="240"/>
+  </g>
+
+  <!-- 5 SQUAD MEMBERS as horizontal-stacked descending figures (because panel is wide horizontal but represents vertical pipe). Use horizontal layout left-to-right, but smaller scale = depth. -->
+  <!-- THRESH bottom (right end — lowest in pipe shaft). -->
+  <g id="p4p1-thresh" transform="translate(620, 140)">
+    <ellipse cx="0" cy="0" rx="22" ry="32" fill="#dc2030" stroke="#080408" stroke-width="0.7"/>
+    <ellipse cx="0" cy="0" rx="30" ry="40" fill="#f54848" opacity="0.65" filter="url(#p4p1strongBloom)"/>
+    <!-- Head looking down. -->
+    <ellipse cx="0" cy="-22" rx="9" ry="11" fill="#d8a880"/>
+    <path d="M-7,-30 Q0,-34 7,-30 L7,-22 L-7,-22 Z" fill="#a83a18"/>
+    <!-- Eyes. -->
+    <ellipse cx="-3" cy="-20" rx="1.4" ry="0.8" fill="#1a0808"/>
+    <ellipse cx="3" cy="-20" rx="1.4" ry="0.8" fill="#1a0808"/>
+    <!-- Brow set. -->
+    <path d="M-5,-26 Q-2,-28 1,-26" stroke="#5a1808" stroke-width="0.7" fill="none"/>
+    <!-- Crouched body w/ rifle slung. -->
+    <rect x="-12" y="-2" width="24" height="4" rx="0.5" fill="#1a0810" transform="rotate(-10 -12 -2)"/>
+    <!-- Arms bracing. -->
+    <line x1="-22" y1="0" x2="-30" y2="8" stroke="#a8182a" stroke-width="3" stroke-linecap="round"/>
+    <line x1="22" y1="0" x2="30" y2="8" stroke="#a8182a" stroke-width="3" stroke-linecap="round"/>
+    <!-- Joint ledge under feet. -->
+    <ellipse cx="0" cy="35" rx="40" ry="4" fill="#3a3a45" stroke="#080408" stroke-width="0.5"/>
+  </g>
+
+  <!-- WREN above Thresh (mid-climb). -->
+  <g id="p4p1-wren" transform="translate(490, 140)">
+    <ellipse cx="0" cy="0" rx="20" ry="28" fill="#c87a35" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="0" cy="0" rx="28" ry="36" fill="#f5a868" opacity="0.55" filter="url(#p4p1strongBloom)"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-20" rx="8" ry="10" fill="#d8b088"/>
+    <!-- Bun (hair UP). -->
+    <ellipse cx="0" cy="-26" rx="5" ry="3.5" fill="#0a0a14"/>
+    <ellipse cx="0" cy="-22" rx="5" ry="1" fill="#3a2810" opacity="0.85"/>
+    <!-- Eyes. -->
+    <ellipse cx="-2" cy="-19" rx="1.2" ry="0.7" fill="#0a0a14"/>
+    <ellipse cx="2" cy="-19" rx="1.2" ry="0.7" fill="#0a0a14"/>
+    <!-- Arms reaching to grip walls. -->
+    <line x1="-20" y1="-2" x2="-32" y2="-12" stroke="#5a3010" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20" y1="-2" x2="32" y2="-12" stroke="#5a3010" stroke-width="3" stroke-linecap="round"/>
+    <!-- Oil stains visible. -->
+    <ellipse cx="-26" cy="-8" rx="3" ry="2" fill="#1a0a08" opacity="0.7"/>
+    <ellipse cx="26" cy="-8" rx="3" ry="2" fill="#1a0a08" opacity="0.7"/>
+  </g>
+
+  <!-- SABLE next position. -->
+  <g id="p4p1-sable" transform="translate(370, 140)">
+    <ellipse cx="0" cy="0" rx="20" ry="28" fill="#a8b0c0" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="0" cy="0" rx="28" ry="36" fill="#dce4ff" opacity="0.4" filter="url(#p4p1strongBloom)"/>
+    <!-- Cracked shoulder bleed (continuity). -->
+    <ellipse cx="14" cy="-10" rx="7" ry="4" fill="#dce4ff" opacity="0.95" filter="url(#p4p1bloom)"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-20" rx="8" ry="10" fill="#5a3818"/>
+    <path d="M-6,-28 Q0,-31 6,-28 L6,-22 L-6,-22 Z" fill="#c8ccd4"/>
+    <!-- Eyes. -->
+    <ellipse cx="-2" cy="-19" rx="1.2" ry="0.7" fill="#080404"/>
+    <ellipse cx="2" cy="-19" rx="1.2" ry="0.7" fill="#080404"/>
+    <!-- Joint ledge under. -->
+    <ellipse cx="0" cy="32" rx="38" ry="4" fill="#3a3a45" stroke="#080408" stroke-width="0.5"/>
+    <!-- Arms. -->
+    <line x1="-20" y1="-2" x2="-30" y2="6" stroke="#3a3a45" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20" y1="-2" x2="30" y2="6" stroke="#3a3a45" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- LUMA above (climbing carefully). -->
+  <g id="p4p1-luma" transform="translate(250, 140)">
+    <ellipse cx="0" cy="0" rx="20" ry="28" fill="#5a3ad8" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="0" cy="0" rx="28" ry="36" fill="#a890f0" opacity="0.55" filter="url(#p4p1strongBloom)"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-20" rx="8" ry="10" fill="#a87850"/>
+    <path d="M-6,-26 Q0,-29 6,-26 L6,-22 L-6,-22 Z" fill="#1a1018"/>
+    <!-- Sapphire filament along braid. -->
+    <path d="M5,-22 Q7,-12 6,-3" stroke="#a890f0" stroke-width="0.5" fill="none" filter="url(#p4p1bloom)" opacity="0.85"/>
+    <!-- Holo lens. -->
+    <ellipse cx="-2" cy="-19" rx="1.5" ry="1" fill="#a890f0" opacity="0.85"/>
+    <ellipse cx="2" cy="-19" rx="1.5" ry="1" fill="#a890f0" opacity="0.55"/>
+    <!-- Cracked lens hint. -->
+    <line x1="1" y1="-20" x2="3" y2="-18" stroke="#080408" stroke-width="0.3"/>
+    <!-- Arms. -->
+    <line x1="-20" y1="-2" x2="-32" y2="-10" stroke="#1a1058" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20" y1="-2" x2="32" y2="-10" stroke="#1a1058" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- JINK at top (last in, silhouetted against rain sky). -->
+  <g id="p4p1-jink" transform="translate(120, 140)">
+    <!-- Background grey sky circle (pipe opening top). -->
+    <ellipse cx="0" cy="-50" rx="40" ry="20" fill="url(#p4p1skyOpening)" filter="url(#p4p1strongBloom)"/>
+    <!-- Rain streaks falling into circle. -->
+    <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.7">
+      <line x1="-20" y1="-65" x2="-20" y2="-45"/>
+      <line x1="-5" y1="-70" x2="-5" y2="-45"/>
+      <line x1="10" y1="-65" x2="10" y2="-45"/>
+      <line x1="22" y1="-68" x2="22" y2="-45"/>
+    </g>
+    <!-- Jink body. -->
+    <ellipse cx="0" cy="0" rx="20" ry="28" fill="#2ed078" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="0" cy="0" rx="28" ry="36" fill="#7af0b0" opacity="0.7" filter="url(#p4p1strongBloom)"/>
+    <!-- Head looking up at sky. -->
+    <ellipse cx="0" cy="-20" rx="8" ry="10" fill="#e8c8a0"/>
+    <!-- Wet curls (script: water following down). -->
+    <g fill="#f5d860">
+      <circle cx="-3" cy="-28" r="2.5"/>
+      <circle cx="0" cy="-30" r="2.8"/>
+      <circle cx="3" cy="-28" r="2.5"/>
+    </g>
+    <!-- Eyes looking up at rain. -->
+    <ellipse cx="-2" cy="-21" rx="1.2" ry="0.8" fill="#1a3010"/>
+    <ellipse cx="2" cy="-21" rx="1.2" ry="0.8" fill="#1a3010"/>
+    <!-- Slight grin. -->
+    <path d="M-2,-15 Q0,-13 3,-15" stroke="#3a2010" stroke-width="0.7" fill="none"/>
+    <!-- Arms gripping wall. -->
+    <line x1="-20" y1="-2" x2="-30" y2="-12" stroke="#0a4828" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20" y1="-2" x2="30" y2="-12" stroke="#0a4828" stroke-width="3" stroke-linecap="round"/>
+    <!-- Water drips from suit (script: water following him down). -->
+    <g fill="#7af0ff" opacity="0.7" filter="url(#p4p1bloom)">
+      <circle cx="-15" cy="20" r="1.4"/>
+      <circle cx="-5" cy="25" r="1.2"/>
+      <circle cx="10" cy="22" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- Reflected prismatic light streams on pipe walls (script-specific). -->
+  <g opacity="0.55" filter="url(#p4p1bloom)">
+    <line x1="60" y1="40" x2="60" y2="240" stroke="#7af0b0" stroke-width="0.4"/>
+    <line x1="200" y1="40" x2="200" y2="240" stroke="#a890f0" stroke-width="0.4"/>
+    <line x1="350" y1="40" x2="350" y2="240" stroke="#dce4ff" stroke-width="0.4"/>
+    <line x1="470" y1="40" x2="470" y2="240" stroke="#f5a868" stroke-width="0.4"/>
+    <line x1="600" y1="40" x2="600" y2="240" stroke="#f54848" stroke-width="0.4"/>
+  </g>
+
+  <!-- WREN dialogue. -->
+  <g id="p4p1-dlg-wren">
+    <rect x="14" y="14" width="220" height="44" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Next joint 3 lengths. Iron good left.</text>
+    <path d="M150,58 L168,58 L490,118 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="58" x2="168" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE dialogue. -->
+  <g id="p4p1-dlg-sable">
+    <rect x="260" y="14" width="200" height="44" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="270" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="270" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Jink. How's the water?</text>
+    <path d="M380,58 L398,58 L370,118 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="380" y1="58" x2="398" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- JINK dialogue. -->
+  <g id="p4p1-dlg-jink">
+    <rect x="488" y="14" width="240" height="44" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="498" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="498" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">Friendly. Following us down.</text>
+    <path d="M540,58 L558,58 L120,118 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="540" y1="58" x2="558" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p4p1-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="738" y="272" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">VERTICAL DESCENT</text>
+  </g>
+</svg>
