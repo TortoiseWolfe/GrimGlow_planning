@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 552" width="488" height="552">
+  <title>Issue 1 — Page 18 — Panel 3: Squad fractured after the verdict</title>
+  <desc>Medium wide at eye level (35mm). Squad in rain gutter after verdict, each processing separately. Sable in damaged silver suit stands at gutter lip with back to group, looking out over gaslit city. Wren in damaged copper suit crouches beside drive wreckage, hand resting possessively on housing. Luma in damaged sapphire-violet suit stands near Wren, scanner in hand. Thresh in damaged ruby suit stands apart, facing nothing, withdrawn. Jink in damaged emerald suit sits at gutter edge, facing cityscape. No one looks at anyone else. Five people, five responses. Warm amber from city right. Cool holographic accents fragmented through composition. SABLE: long command paragraph ending "...stay close."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p18p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="p18p3floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#180a08"/>
+    </linearGradient>
+    <radialGradient id="p18p3warmCity" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#c87830" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p18p3coolWreck" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p18p3silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bfc6d0"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p18p3copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0a060"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="p18p3sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a18a0"/>
+    </linearGradient>
+    <linearGradient id="p18p3ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="p18p3emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a5a30"/>
+    </linearGradient>
+    <filter id="p18p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p18p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Background. -->
+  <rect width="488" height="552" fill="#0a0408"/>
+
+  <!-- Curved gutter wall (back). -->
+  <path d="M0,80 Q244,55 488,80 L488,400 L0,400 Z" fill="url(#p18p3iron)"/>
+  <line x1="0" y1="120" x2="488" y2="100" stroke="#080404" stroke-width="0.8" opacity="0.7"/>
+  <line x1="0" y1="220" x2="488" y2="218" stroke="#080404" stroke-width="0.8" opacity="0.7"/>
+  <line x1="0" y1="320" x2="488" y2="318" stroke="#080404" stroke-width="0.8" opacity="0.7"/>
+
+  <!-- Iron rivets. -->
+  <g fill="#080404" opacity="0.85">
+    <circle cx="60" cy="125" r="2"/>
+    <circle cx="160" cy="105" r="2"/>
+    <circle cx="280" cy="100" r="2"/>
+    <circle cx="400" cy="115" r="2"/>
+    <circle cx="60" cy="225" r="2"/>
+    <circle cx="400" cy="220" r="2"/>
+    <circle cx="60" cy="325" r="2"/>
+    <circle cx="400" cy="322" r="2"/>
+  </g>
+
+  <!-- Soot streaks. -->
+  <g fill="#080404" opacity="0.55">
+    <path d="M40,80 Q44,180 38,360"/>
+    <path d="M180,90 Q184,180 178,360"/>
+    <path d="M310,90 Q314,180 308,360"/>
+    <path d="M450,80 Q454,180 448,360"/>
+  </g>
+
+  <!-- Warm city-glow from RIGHT side (the gutter edge / outer rim). -->
+  <ellipse cx="488" cy="280" rx="180" ry="320" fill="url(#p18p3warmCity)" filter="url(#p18p3strongBloom)" opacity="0.85"/>
+
+  <!-- Cool wreckage glow back-left (residual). -->
+  <ellipse cx="60" cy="350" rx="100" ry="80" fill="url(#p18p3coolWreck)" filter="url(#p18p3strongBloom)"/>
+
+  <!-- Floor. -->
+  <rect y="400" width="488" height="152" fill="url(#p18p3floor)"/>
+  <line x1="0" y1="400" x2="488" y2="400" stroke="#080404" stroke-width="1.2"/>
+
+  <!-- Coal sediment + debris on floor. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="40" cy="425" r="1.8"/>
+    <circle cx="120" cy="445" r="1.5"/>
+    <circle cx="200" cy="435" r="1.6"/>
+    <circle cx="280" cy="455" r="1.8"/>
+    <circle cx="360" cy="445" r="1.4"/>
+    <circle cx="440" cy="438" r="1.6"/>
+    <circle cx="80" cy="475" r="1.5"/>
+    <circle cx="180" cy="490" r="1.4"/>
+    <circle cx="320" cy="478" r="1.6"/>
+    <circle cx="400" cy="495" r="1.5"/>
+    <circle cx="60" cy="520" r="1.4"/>
+    <circle cx="220" cy="528" r="1.6"/>
+    <circle cx="380" cy="525" r="1.4"/>
+  </g>
+  <!-- Twigs. -->
+  <path d="M0,510 Q120,505 240,512" stroke="#3a1810" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M280,498 Q380,496 488,503" stroke="#3a1810" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <!-- Dead leaves. -->
+  <path d="M150,442 Q145,420 165,418 Q185,420 188,442 Q175,460 150,442 Z" fill="#5a3018" opacity="0.85"/>
+  <path d="M150,442 Q170,425 188,442" fill="none" stroke="#3a1808" stroke-width="0.8" opacity="0.7"/>
+
+  <!-- DRIVE WRECKAGE FOREGROUND-LEFT (where Wren crouches). -->
+  <g id="p18p3-wreckage" transform="translate(135, 400)">
+    <!-- Hull plating. -->
+    <path d="M-50,0 L-30,-50 L40,-65 L80,-30 L70,30 L-20,40 Z" fill="#1a1a24" stroke="#080808" stroke-width="0.8"/>
+    <path d="M-30,-50 L40,-65 L80,-30" fill="none" stroke="#3a3a4a" stroke-width="0.6" opacity="0.6"/>
+    <!-- Drive housing (cylindrical part Wren is touching). -->
+    <ellipse cx="20" cy="-40" rx="25" ry="14" fill="#2a2a38" stroke="#080808" stroke-width="0.6"/>
+    <ellipse cx="20" cy="-40" rx="18" ry="9" fill="#1a1a24"/>
+    <line x1="2" y1="-40" x2="38" y2="-40" stroke="#5a606a" stroke-width="0.6" opacity="0.7"/>
+    <!-- Sparks/leaks on wreckage. -->
+    <circle cx="-30" cy="-12" r="1.6" fill="#7ac8ff" filter="url(#p18p3bloom)" opacity="0.85"/>
+    <circle cx="50" cy="-20" r="1.4" fill="#bfe4ff" filter="url(#p18p3bloom)" opacity="0.85"/>
+    <line x1="-10" y1="0" x2="0" y2="10" stroke="#7ac8ff" stroke-width="1" filter="url(#p18p3bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ======= 5 SQUAD MEMBERS — fragmented composition ======= -->
+
+  <!-- SABLE — gutter lip far right, BACK to group, looking out at city. -->
+  <g id="p18p3-sable" transform="translate(440, 270)">
+    <!-- Body — back view (silhouette since back to group). -->
+    <path d="M-12,40 Q-15,5 -12,-15 L12,-15 Q15,5 12,40 Z" fill="url(#p18p3silver)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Cracked right shoulder leak (visible from back-right). -->
+    <ellipse cx="11" cy="-13" rx="4" ry="2.5" fill="#9ba1aa" stroke="#080408" stroke-width="0.4"/>
+    <line x1="9" y1="-13" x2="13" y2="-11" stroke="#7ac8ff" stroke-width="0.8" filter="url(#p18p3bloom)" opacity="0.95"/>
+    <!-- Arms at sides. -->
+    <path d="M-12,-5 L-16,18 L-15,38" fill="none" stroke="url(#p18p3silver)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M12,-5 L16,18 L15,38" fill="none" stroke="url(#p18p3silver)" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs standing. -->
+    <path d="M-7,40 L-10,68 L-12,90" fill="none" stroke="#5a606a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M7,40 L10,68 L12,90" fill="none" stroke="#5a606a" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-12" cy="90" rx="4" ry="2" fill="#1a0808"/>
+    <ellipse cx="12" cy="90" rx="4" ry="2" fill="#1a0808"/>
+    <!-- Head (back of head — silver-white buzz). -->
+    <ellipse cx="0" cy="-26" rx="8" ry="9" fill="#5a3018"/>
+    <path d="M-7,-32 Q0,-37 7,-32 L7,-22 L-7,-22 Z" fill="#e8eaee"/>
+    <g fill="#5a606a" opacity="0.6">
+      <circle cx="-3" cy="-32" r="0.4"/>
+      <circle cx="0" cy="-34" r="0.4"/>
+      <circle cx="3" cy="-32" r="0.4"/>
+    </g>
+    <!-- Warm uplighting from city ahead. -->
+    <ellipse cx="0" cy="-30" rx="9" ry="4" fill="#f5b860" opacity="0.4"/>
+  </g>
+
+  <!-- WREN — crouched beside drive wreckage, hand on housing (left of center). -->
+  <g id="p18p3-wren" transform="translate(180, 365)">
+    <!-- Body bent forward in crouch. -->
+    <path d="M-12,18 Q-16,-5 -10,-22 L18,-22 Q22,-5 18,18 Z" fill="url(#p18p3copper)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Damaged copper accents. -->
+    <ellipse cx="-10" cy="-20" rx="6" ry="3.5" fill="#c87a35" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="18" cy="-20" rx="6" ry="3.5" fill="#c87a35" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-10" cy="-21" rx="3" ry="1.5" fill="#f5c890" opacity="0.55"/>
+    <!-- One arm extended forward, hand resting on drive housing. -->
+    <path d="M-10,-8 L-30,-15 L-44,-25" fill="none" stroke="#c87a35" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="-44" cy="-25" rx="3" ry="2.5" fill="#e0c0a0"/>
+    <!-- Hydraulic stains on forearm. -->
+    <path d="M-22,-15 Q-30,-20 -38,-22" stroke="#1a0a08" stroke-width="1.4" fill="none" opacity="0.85"/>
+    <!-- Other arm braced on knee. -->
+    <path d="M18,-8 L26,8 L24,22" fill="none" stroke="#c87a35" stroke-width="4" stroke-linecap="round"/>
+    <!-- Crouched legs. -->
+    <path d="M-8,18 L-16,38 L-12,55" fill="none" stroke="#a86028" stroke-width="6" stroke-linecap="round"/>
+    <path d="M14,18 L22,38 L20,55" fill="none" stroke="#a86028" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-12" cy="55" rx="4" ry="2" fill="#1a0808"/>
+    <ellipse cx="20" cy="55" rx="4" ry="2" fill="#1a0808"/>
+    <!-- Head (East Asian, knot). -->
+    <ellipse cx="0" cy="-30" rx="8" ry="9" fill="#e0c0a0"/>
+    <ellipse cx="-2" cy="-36" rx="6.5" ry="4" fill="#0a0408"/>
+    <ellipse cx="3" cy="-38" rx="3" ry="3" fill="#0a0408"/>
+    <ellipse cx="-1" cy="-36" rx="4" ry="1.5" fill="none" stroke="#3a1810" stroke-width="0.7" opacity="0.9"/>
+    <!-- Wisps. -->
+    <path d="M-6,-30 Q-9,-25 -8,-22" fill="none" stroke="#0a0408" stroke-width="0.8" stroke-linecap="round"/>
+  </g>
+
+  <!-- LUMA — standing near Wren (center, scanner in hand). -->
+  <g id="p18p3-luma" transform="translate(255, 350)">
+    <path d="M-11,32 Q-13,5 -11,-15 L11,-15 Q13,5 11,32 Z" fill="url(#p18p3sapphire)" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="-10" cy="-12" rx="6" ry="3.5" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="10" cy="-12" rx="6" ry="3.5" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-10" cy="-13" rx="3.5" ry="1.5" fill="#a87af0" opacity="0.55"/>
+    <ellipse cx="10" cy="-13" rx="3.5" ry="1.5" fill="#a87af0" opacity="0.55"/>
+    <!-- Right arm holding scanner. -->
+    <path d="M11,-5 L22,5 L30,12" fill="none" stroke="#5a3ad8" stroke-width="4" stroke-linecap="round"/>
+    <rect x="28" y="9" width="10" height="7" rx="1" fill="#1a1828" stroke="#a87af0" stroke-width="0.6"/>
+    <rect x="29" y="11" width="8" height="2" fill="#a87af0" opacity="0.85"/>
+    <ellipse cx="33" cy="12" rx="6" ry="4" fill="#a87af0" filter="url(#p18p3bloom)" opacity="0.4"/>
+    <!-- Left arm at side. -->
+    <path d="M-11,-5 L-15,15 L-13,30" fill="none" stroke="#5a3ad8" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs standing. -->
+    <path d="M-6,32 L-9,55 L-10,75" fill="none" stroke="#3a2a8c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M6,32 L9,55 L10,75" fill="none" stroke="#3a2a8c" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="75" rx="4" ry="2" fill="#1a0808"/>
+    <ellipse cx="10" cy="75" rx="4" ry="2" fill="#1a0808"/>
+    <!-- Head with braid. -->
+    <ellipse cx="0" cy="-25" rx="8" ry="9" fill="#a87850"/>
+    <path d="M-7,-30 Q0,-34 7,-30 L7,-20 L-7,-20 Z" fill="#1a0a08"/>
+    <!-- Braid. -->
+    <path d="M5,-22 Q12,-12 16,2 Q18,15 14,25" fill="none" stroke="#1a0a08" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="14" cy="25" r="1.5" fill="#5a3a18"/>
+  </g>
+
+  <!-- THRESH — standing apart, far left, facing nothing. -->
+  <g id="p18p3-thresh" transform="translate(60, 360)">
+    <path d="M-13,30 Q-16,-5 -13,-22 L13,-22 Q16,-5 13,30 Z" fill="url(#p18p3ruby)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Right shoulder pad. -->
+    <ellipse cx="-13" cy="-20" rx="6.5" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-13" cy="-21" rx="4" ry="1.7" fill="#f54848" opacity="0.7"/>
+    <!-- LEFT pauldron with dent. -->
+    <ellipse cx="13" cy="-20" rx="6.5" ry="4" fill="#a8182a" stroke="#080408" stroke-width="0.5"/>
+    <path d="M9,-22 Q13,-15 17,-22" fill="#5a0808" stroke="#080408" stroke-width="0.5"/>
+    <!-- Arms at sides (no gesture, withdrawn). -->
+    <path d="M-13,-8 L-17,12 L-16,30" fill="none" stroke="url(#p18p3ruby)" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M13,-8 L17,12 L16,30" fill="none" stroke="url(#p18p3ruby)" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Legs standing. -->
+    <path d="M-7,30 L-12,55 L-14,80" fill="none" stroke="#a8182a" stroke-width="6.5" stroke-linecap="round"/>
+    <path d="M7,30 L12,55 L14,80" fill="none" stroke="#a8182a" stroke-width="6.5" stroke-linecap="round"/>
+    <ellipse cx="-14" cy="80" rx="4.5" ry="2" fill="#1a0808"/>
+    <ellipse cx="14" cy="80" rx="4.5" ry="2" fill="#1a0808"/>
+    <!-- Head (back of head/profile — facing nothing). -->
+    <ellipse cx="-2" cy="-32" rx="8" ry="9" fill="#d8a880"/>
+    <path d="M-9,-37 Q-3,-42 4,-39 L4,-29 L-9,-29 Z" fill="#a83a18"/>
+    <g fill="#5a1a08" opacity="0.85">
+      <circle cx="-5" cy="-39" r="0.5"/>
+      <circle cx="-1" cy="-40" r="0.5"/>
+      <circle cx="3" cy="-39" r="0.5"/>
+    </g>
+  </g>
+
+  <!-- JINK — sitting at gutter edge far right, facing cityscape (back of head visible). -->
+  <g id="p18p3-jink" transform="translate(380, 410)">
+    <path d="M-10,15 Q-13,-15 -10,-25 L10,-25 Q13,-15 10,15 Z" fill="url(#p18p3emerald)" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="-10" cy="-23" rx="5" ry="3" fill="#2ed078" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="10" cy="-23" rx="5" ry="3" fill="#2ed078" stroke="#080408" stroke-width="0.4"/>
+    <!-- Wing-pack folded. -->
+    <path d="M-5,-15 L-15,-12 L-15,-2 L-5,-5 Z" fill="#0a5a30" opacity="0.85"/>
+    <path d="M5,-15 L15,-12 L15,-2 L5,-5 Z" fill="#0a5a30" opacity="0.85"/>
+    <circle cx="-13" cy="-8" r="1.3" fill="#2ed078" filter="url(#p18p3bloom)" opacity="0.95"/>
+    <circle cx="13" cy="-8" r="1.3" fill="#2ed078" filter="url(#p18p3bloom)" opacity="0.95"/>
+    <!-- Arms braced behind. -->
+    <path d="M-10,-12 L-22,-6 L-26,2" fill="none" stroke="#2ed078" stroke-width="4" stroke-linecap="round"/>
+    <path d="M10,-12 L22,-6 L26,2" fill="none" stroke="#2ed078" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs hanging. -->
+    <path d="M-7,15 L-9,38 L-8,58" fill="none" stroke="#0a5a30" stroke-width="5" stroke-linecap="round"/>
+    <path d="M7,15 L9,38 L8,58" fill="none" stroke="#0a5a30" stroke-width="5" stroke-linecap="round"/>
+    <!-- Head (back/profile — facing cityscape). -->
+    <ellipse cx="0" cy="-36" rx="8" ry="9" fill="#d8b890"/>
+    <g fill="#f5d068">
+      <ellipse cx="0" cy="-43" rx="6" ry="4"/>
+      <ellipse cx="-5" cy="-40" rx="4" ry="3"/>
+      <ellipse cx="5" cy="-40" rx="4" ry="3"/>
+      <ellipse cx="-2" cy="-46" rx="3" ry="2.5"/>
+      <ellipse cx="2" cy="-46" rx="3" ry="2.5"/>
+    </g>
+    <!-- Warm uplighting catch. -->
+    <ellipse cx="0" cy="-38" rx="6" ry="3" fill="#f5b860" opacity="0.5"/>
+  </g>
+
+  <!-- SABLE long command balloon (top-left). Multi-line. -->
+  <g id="p18p3-dlg-sable">
+    <rect x="14" y="14" width="312" height="118" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Wren builds a list. Luma</text>
+    <text x="24" y="70" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">inventories medical supplies</text>
+    <text x="24" y="86" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">and suit power reserves.</text>
+    <text x="24" y="104" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Thresh, maintain watch. Jink...</text>
+    <text x="24" y="122" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" font-style="italic" fill="#1a1a1a">...stay close.</text>
+    <path d="M270,132 L290,132 L380,200 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="270" y1="132" x2="290" y2="132" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p18p3-meta">
+    <text x="478" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="482" y="544" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SQUAD FRACTURED</text>
+  </g>
+</svg>

@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 552" width="244" height="552">
+  <title>Issue 1 — Page 18 — Panel 4: Sable's hand grips gutter lip — control measured in tension</title>
+  <desc>Extreme close-up at eye level (135mm). Sable's gloved hand gripping cast-iron gutter lip — knuckles tight, tendons visible through silver suit material. Crack runs across back of glove with thin line of blue-white holographic light bleeding through fracture like luminous wound. Beyond hand, out of focus: gaslit Victorian city dropping away into amber fog — warm amber points blurring into golden wash. Tight grip is only visible sign of emotion. Cool blue-white from suit fracture across knuckles. Warm amber from city below catches iron lip. Hand tells truth face will not. Silent panel.</desc>
+
+  <defs>
+    <linearGradient id="p18p4iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p18p4silver" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a808a"/>
+      <stop offset="50%" stop-color="#bfc6d0"/>
+      <stop offset="100%" stop-color="#9aa4b4"/>
+    </linearGradient>
+    <linearGradient id="p18p4skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="p18p4cityBlur" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#c87830" stop-opacity="0.7"/>
+      <stop offset="80%" stop-color="#7a3818" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p18p4gasBlur" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffd060" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p18p4fractureGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#bfe4ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p18p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="p18p4heavyBlur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="p18p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Background: out-of-focus city far below in amber blur. -->
+  <rect width="244" height="552" fill="#0a0408"/>
+
+  <!-- Heavy blurred amber haze fills lower half (out of focus city below). -->
+  <ellipse cx="122" cy="552" rx="200" ry="280" fill="url(#p18p4cityBlur)" filter="url(#p18p4strongBloom)"/>
+  <rect y="280" width="244" height="272" fill="url(#p18p4cityBlur)" filter="url(#p18p4heavyBlur)" opacity="0.55"/>
+
+  <!-- Out-of-focus warm gaslight blobs (city pinpricks blurred). -->
+  <g filter="url(#p18p4heavyBlur)">
+    <circle cx="35" cy="430" r="6" fill="#ffd060" opacity="0.85"/>
+    <circle cx="80" cy="455" r="7" fill="#ffd060" opacity="0.85"/>
+    <circle cx="130" cy="445" r="8" fill="#ffd060" opacity="0.95"/>
+    <circle cx="175" cy="465" r="6" fill="#ffd060" opacity="0.85"/>
+    <circle cx="215" cy="438" r="7" fill="#ffd060" opacity="0.85"/>
+    <circle cx="55" cy="490" r="9" fill="#ffd060" opacity="0.95"/>
+    <circle cx="105" cy="510" r="10" fill="#ffd060" opacity="0.95"/>
+    <circle cx="160" cy="495" r="8" fill="#ffd060" opacity="0.9"/>
+    <circle cx="205" cy="515" r="9" fill="#ffd060" opacity="0.95"/>
+  </g>
+
+  <!-- Warm amber rim catching the iron lip from below. -->
+  <ellipse cx="122" cy="380" rx="200" ry="80" fill="#f5b860" opacity="0.4" filter="url(#p18p4strongBloom)"/>
+
+  <!-- IRON GUTTER LIP — large, in sharp focus, dominating lower-mid frame. -->
+  <g id="p18p4-gutter-lip">
+    <!-- Lip top curve. -->
+    <path d="M-20,360 Q122,348 264,360 L264,400 L-20,400 Z" fill="url(#p18p4iron)"/>
+    <line x1="-20" y1="360" x2="264" y2="348" stroke="#080404" stroke-width="1.5"/>
+    <!-- Outer edge (drops away to abyss below). -->
+    <path d="M-20,400 Q122,395 264,400 L264,560 L-20,560 Z" fill="#0a0408"/>
+    <line x1="-20" y1="400" x2="264" y2="395" stroke="#080404" stroke-width="1.2"/>
+    <!-- Iron texture (rivets + seams). -->
+    <g fill="#1a0808" opacity="0.85">
+      <circle cx="35" cy="378" r="2.5"/>
+      <circle cx="100" cy="372" r="2.5"/>
+      <circle cx="170" cy="372" r="2.5"/>
+      <circle cx="235" cy="378" r="2.5"/>
+    </g>
+    <!-- Soot streaks running down. -->
+    <g fill="#080404" opacity="0.75">
+      <rect x="20" y="358" width="3" height="42"/>
+      <rect x="65" y="354" width="2" height="46"/>
+      <rect x="125" y="352" width="3" height="48"/>
+      <rect x="180" y="354" width="2" height="46"/>
+      <rect x="225" y="358" width="3" height="42"/>
+    </g>
+    <!-- Warm amber rim catch on top edge of lip (reflection). -->
+    <path d="M-20,360 Q122,348 264,360" fill="none" stroke="#f5b860" stroke-width="1.4" opacity="0.85" filter="url(#p18p4bloom)"/>
+  </g>
+
+  <!-- SABLE'S GLOVED HAND gripping the iron lip. Centered, in focus. -->
+  <g id="p18p4-sable-hand" transform="translate(122, 290)">
+
+    <!-- Forearm coming down from top of frame. -->
+    <path d="M-30,-130 L-32,30 L32,30 L30,-130 Z" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.8"/>
+    <!-- Wrist seam. -->
+    <line x1="-30" y1="20" x2="30" y2="20" stroke="#3a3848" stroke-width="1"/>
+    <line x1="-28" y1="22" x2="28" y2="22" stroke="#5a606a" stroke-width="0.5"/>
+    <!-- Forearm panel highlights. -->
+    <path d="M-26,-130 Q-28,-50 -26,30" fill="none" stroke="#dce4f0" stroke-width="1" opacity="0.5"/>
+    <path d="M26,-130 Q28,-50 26,30" fill="none" stroke="#5a606a" stroke-width="1" opacity="0.7"/>
+    <!-- Suit segment seams running down forearm. -->
+    <line x1="-15" y1="-100" x2="-15" y2="20" stroke="#080408" stroke-width="0.5" opacity="0.6"/>
+    <line x1="0" y1="-100" x2="0" y2="20" stroke="#080408" stroke-width="0.5" opacity="0.6"/>
+    <line x1="15" y1="-100" x2="15" y2="20" stroke="#080408" stroke-width="0.5" opacity="0.6"/>
+
+    <!-- HAND/PALM (rounded knuckle area). -->
+    <path d="M-32,30 Q-38,55 -32,80 L32,80 Q38,55 32,30 Z" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.8"/>
+
+    <!-- KNUCKLES — 4 prominent knuckle bumps showing tight grip. -->
+    <ellipse cx="-22" cy="55" rx="7" ry="6" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.6"/>
+    <ellipse cx="-7" cy="48" rx="7" ry="6" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.6"/>
+    <ellipse cx="8" cy="48" rx="7" ry="6" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.6"/>
+    <ellipse cx="22" cy="55" rx="7" ry="6" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.6"/>
+    <!-- Knuckle highlights. -->
+    <ellipse cx="-22" cy="52" rx="3.5" ry="2" fill="#dce4f0" opacity="0.65"/>
+    <ellipse cx="-7" cy="45" rx="3.5" ry="2" fill="#dce4f0" opacity="0.65"/>
+    <ellipse cx="8" cy="45" rx="3.5" ry="2" fill="#dce4f0" opacity="0.65"/>
+    <ellipse cx="22" cy="52" rx="3.5" ry="2" fill="#dce4f0" opacity="0.65"/>
+
+    <!-- TENDONS visible through suit material (lines stretching up forearm from knuckles). -->
+    <g stroke="#7a808a" stroke-width="1.4" fill="none" opacity="0.85">
+      <path d="M-22,46 Q-22,15 -20,-30"/>
+      <path d="M-7,40 Q-6,15 -5,-30"/>
+      <path d="M8,40 Q7,15 6,-30"/>
+      <path d="M22,46 Q22,15 20,-30"/>
+    </g>
+    <!-- Subtle shadow lines between tendons (more emphasis). -->
+    <g stroke="#3a3848" stroke-width="0.7" fill="none" opacity="0.7">
+      <path d="M-15,-15 Q-14,15 -14,40"/>
+      <path d="M0,-15 Q0,15 0,40"/>
+      <path d="M14,-15 Q14,15 14,40"/>
+    </g>
+
+    <!-- FINGERS — wrapping around the iron lip (gripping). -->
+    <!-- Index finger. -->
+    <path d="M-25,72 Q-28,85 -25,98 L-15,100 Q-13,90 -15,75 Z" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.6"/>
+    <!-- Middle finger. -->
+    <path d="M-12,70 Q-15,85 -12,100 L-2,102 Q0,90 -2,73 Z" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.6"/>
+    <!-- Ring finger. -->
+    <path d="M2,70 Q0,85 2,100 L12,102 Q14,90 12,73 Z" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.6"/>
+    <!-- Pinky finger. -->
+    <path d="M15,72 Q13,85 15,98 L25,100 Q28,88 25,75 Z" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.6"/>
+    <!-- Finger segment lines (knuckle creases). -->
+    <g stroke="#3a3848" stroke-width="0.6" fill="none" opacity="0.85">
+      <path d="M-25,82 Q-20,84 -15,82"/>
+      <path d="M-12,82 Q-7,84 -2,82"/>
+      <path d="M2,82 Q7,84 12,82"/>
+      <path d="M15,82 Q20,84 25,82"/>
+    </g>
+    <!-- Fingertips wrapping over iron lip (extending past edge). -->
+    <g fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.5">
+      <path d="M-25,98 Q-26,108 -22,112 L-18,108 Q-16,100 -18,96 Z"/>
+      <path d="M-12,100 Q-13,110 -9,114 L-5,110 Q-3,102 -5,98 Z"/>
+      <path d="M2,100 Q1,110 5,114 L9,110 Q11,102 9,98 Z"/>
+      <path d="M15,98 Q14,108 18,112 L22,108 Q24,100 22,96 Z"/>
+    </g>
+
+    <!-- Thumb wrapping the front. -->
+    <path d="M-32,55 Q-44,65 -42,82 Q-38,92 -28,90 L-26,72 Z" fill="url(#p18p4silver)" stroke="#3a3848" stroke-width="0.6"/>
+    <ellipse cx="-38" cy="74" rx="3" ry="2.5" fill="#dce4f0" opacity="0.55"/>
+
+    <!-- THE FRACTURE — crack across back of hand with luminous wound. -->
+    <g id="p18p4-fracture">
+      <!-- Bright glow halo around the crack. -->
+      <ellipse cx="-2" cy="60" rx="32" ry="6" fill="url(#p18p4fractureGlow)" filter="url(#p18p4strongBloom)"/>
+      <!-- Crack itself: jagged line across knuckles. -->
+      <path d="M-30,58 L-22,62 L-12,57 L-2,63 L8,58 L18,62 L30,58" stroke="#1a1820" stroke-width="2.4" fill="none"/>
+      <!-- Bright luminous wound bleeding through. -->
+      <path d="M-30,58 L-22,62 L-12,57 L-2,63 L8,58 L18,62 L30,58" stroke="#ffffff" stroke-width="1.4" fill="none" filter="url(#p18p4bloom)"/>
+      <path d="M-30,58 L-22,62 L-12,57 L-2,63 L8,58 L18,62 L30,58" stroke="#bfe4ff" stroke-width="0.7" fill="none" opacity="0.95"/>
+      <!-- Spark points at fracture. -->
+      <circle cx="-22" cy="62" r="1.4" fill="#ffffff" filter="url(#p18p4bloom)"/>
+      <circle cx="-2" cy="63" r="1.6" fill="#ffffff" filter="url(#p18p4bloom)"/>
+      <circle cx="18" cy="62" r="1.4" fill="#ffffff" filter="url(#p18p4bloom)"/>
+    </g>
+  </g>
+
+  <!-- Cool blue-white wash from fracture across knuckles area. -->
+  <ellipse cx="122" cy="350" rx="80" ry="40" fill="#bfe4ff" opacity="0.18" filter="url(#p18p4bloom)"/>
+
+  <!-- Meta tag (no dialogue per script — silent). -->
+  <g id="p18p4-meta">
+    <text x="236" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="240" y="544" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SABLE'S GRIP — SILENT</text>
+  </g>
+</svg>

@@ -2,23 +2,25 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 12 added, scale-reveal money shot).
+**Last update:** 2026-04-27 (loop session extended — Page 18 added, climax arc opens).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–8 + 12 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier "submarine / toque / teapot / stick-figure / no console" failure modes from v1 have been fixed across all 30 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04).
+**Pages 1–8 + 12 + 18 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 34 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04, P18P01–P18P04).
 
-**Page 12 (scale-reveal money shot) just added** — Jink's POV of Victorian London from chimney-top altitude. Half-page splash + 3 inset thirds: city splash with St. Paul's dome / Jink banks chimney pot / aerial view of gutter (squad as color dots) / Jink hovers wonder-beat CU. Sums to 1181px page-fill.
+**Page 18 (after the verdict, climax opens) just added** — 4 panels in 2 rows: Jink at gutter lip "...it is a lot of city, though" / Luma CU lenses pushed up asks "how long do we have?" / squad fractured tableau (5 isolated responses) with Sable command "...stay close." / Sable's gloved hand gripping iron lip w/ luminous fracture wound. Sums to 1181px.
 
-**Page 8 (headcount + dual-light boundary)** — Section 3. 5-panel layout (1179px).
+**Page 12 (scale-reveal money shot)** — Jink's POV city splash + 3 inset thirds. 1181px.
 
-**Page 4 (descent transition)** — closed Section 1. 4-panel cascading vertical (1181px).
+**Page 8 (headcount + dual-light boundary)** — Section 3. 5-panel (1179px).
+
+**Page 4 (descent transition)** — closed Section 1. 4-panel cascading (1181px).
 
 **Pages 5, 6, 7 (Sections 2-3 opening)** — at quality bar.
 
-**Pages 9-11, 13-22 of Issue 1 remain auto-generated stick-figure storyboards.**
+**Pages 9-11, 13-17, 19-22 of Issue 1 remain auto-generated stick-figure storyboards.**
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -222,6 +224,54 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 18 — DONE (climax arc opens — after the verdict)
+
+4 panels in 2 rows (top tier 2-col half-each, bottom tier wide-left + narrow-right) summing to 1181px page-fill.
+
+### P18P01 — Jink at gutter lip, frontier not prison (366×560)
+- ✅ Jink seated centered on iron rim, leaning forward, feet hanging straight down (over abyss)
+- ✅ Wing-pack half-folded behind body w/ pulsing emerald nodes
+- ✅ Cityscape sprawls beneath — distant church spires + factory stacks + Thames glint + multi-tier rooftops + lit windows
+- ✅ Strong warm amber haze rises from below (uplighting source)
+- ✅ Streets w/ amber gas pools winding + individual gas lamp pinpricks
+- ✅ Iron gutter lip across foreground bottom (rivets + soot streaks)
+- ✅ Golden curls catching warm uplighting + warm catch-lights in eyes
+- ✅ Lips closed, soft (the grin is gone — script-accurate)
+- ✅ Italic JINK balloon: "...it is a lot of city, though."
+
+### P18P02 — Luma without lenses asks the practical question (366×560)
+- ✅ Luma face CU (full head + shoulders), warm-left/cool-right wash dividing background
+- ✅ Holographic lenses pushed UP onto forehead like reading glasses (deactivated, faint glow only — script-accurate)
+- ✅ Eyes large dark expressive (now visible without lenses) — irises wide w/ warm catch-lights + tiny sapphire-violet pinpricks reflecting her own suit nodes
+- ✅ Eyelashes adding "more human" feel (script-accurate vulnerability)
+- ✅ Brow line shows faint tension
+- ✅ Smooth pulled-back hair w/ center part + side strands
+- ✅ Single thick braid trailing over right shoulder
+- ✅ Sapphire-violet suit + central pulsing node on chest
+- ✅ Cheekbones w/ warm-left + cool-right dual-light wash
+- ✅ Two LUMA balloons stacked top-left: "How long do we have?" / "Suit power. Medical supplies. Holographic degradation rates."
+
+### P18P03 — Squad fractured, 5 isolated responses (488×552)
+- ✅ All 5 squad visible AND distributed: Thresh ruby far-left apart facing nothing, Wren copper crouched at drive wreckage hand on housing, Luma sapphire next to Wren w/ scanner, Jink emerald mid-right sitting at edge facing city, Sable silver far-right back to group facing city
+- ✅ Drive wreckage center-foreground (twisted hull plating + cylindrical drive housing) w/ Wren's hand on it
+- ✅ NO ONE LOOKS AT ANYONE ELSE (load-bearing script requirement)
+- ✅ Warm city-glow from right where Sable + Jink face
+- ✅ Cool wreckage glow back-left (residual)
+- ✅ Iron gutter wall w/ rivets + soot + dead leaves + twigs + coal grit on floor
+- ✅ Sable long command balloon (5 lines wrapped) w/ bold italic emphasis on "...stay close."
+
+### P18P04 — Sable's gloved hand grips iron lip, control measured in tension (244×552 — silent)
+- ✅ Sable's silver-suited gloved hand center-frame, descending from top
+- ✅ Forearm w/ suit segment seams + tendons visible through material (the tightness)
+- ✅ 4 prominent knuckles + thumb wrapping front + 4 fingers wrapping over and below the iron lip (gripping)
+- ✅ Iron gutter lip horizontal w/ rivets + soot streaks + warm amber rim catch
+- ✅ FRACTURE crack across knuckles w/ bright luminous wound (white-blue glow + bloom halo + spark points) — script's "luminous wound" image
+- ✅ Out-of-focus warm amber gaslight blobs in lower half (city below blurred per script)
+- ✅ Cool blue-white wash from fracture meets warm amber from below — dual-light at the wound site
+- ✅ Silent panel — the grip says everything
 
 ---
 
