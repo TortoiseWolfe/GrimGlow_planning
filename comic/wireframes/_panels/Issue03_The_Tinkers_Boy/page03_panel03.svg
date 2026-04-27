@@ -1,0 +1,344 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 3 — Panel 3: MED slight low-angle Theodore at doorstep, housekeeper takes parcel</title>
+  <desc>MED 50mm slight low angle. Victorian doorstep. Severe housekeeper in dark dress takes a cloth-wrapped parcel from Theodore without pleasantry, already closing the door. Theodore is turning away, one hand in trouser pocket, expression neutral and inward — he expected nothing else. Doorway dark behind woman. Grey Victorian daylight, sooty brick around doorframe, worn stone step. The economy of being overlooked.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p3p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7a76"/>
+      <stop offset="100%" stop-color="#5a5a56"/>
+    </linearGradient>
+    <linearGradient id="p3p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6a4030"/>
+      <stop offset="50%" stop-color="#4a2818"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="p3p3soot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a1208" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p3p3doorframe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1408"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="p3p3door" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a1808"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p3p3interiorDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1808"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="p3p3stoneStep" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7068"/>
+      <stop offset="100%" stop-color="#3a3428"/>
+    </linearGradient>
+    <linearGradient id="p3p3pavement" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8a8278"/>
+      <stop offset="100%" stop-color="#4a4438"/>
+    </linearGradient>
+    <linearGradient id="p3p3cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="100%" stop-color="#2a2418"/>
+    </linearGradient>
+    <linearGradient id="p3p3hkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c8a8"/>
+      <stop offset="100%" stop-color="#9a7058"/>
+    </linearGradient>
+    <linearGradient id="p3p3hkDress" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#0a0604"/>
+    </linearGradient>
+    <radialGradient id="p3p3hkHair">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </radialGradient>
+    <linearGradient id="p3p3theoSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8c0"/>
+      <stop offset="100%" stop-color="#9a7050"/>
+    </linearGradient>
+    <linearGradient id="p3p3theoShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p3p3theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p3p3theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#5a4020"/>
+    </radialGradient>
+    <linearGradient id="p3p3parcel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8b898"/>
+      <stop offset="100%" stop-color="#7a6848"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky strip (small, low-angle composition emphasizes lower frame). -->
+  <rect width="366" height="60" fill="url(#p3p3sky)"/>
+
+  <!-- Brick wall around doorframe — sooty London stock. -->
+  <rect x="0" y="0" width="366" height="320" fill="url(#p3p3brick)"/>
+  <g stroke="#1a0e08" stroke-width="0.5" opacity="0.65">
+    <line x1="0" y1="40" x2="366" y2="40"/>
+    <line x1="0" y1="68" x2="366" y2="68"/>
+    <line x1="0" y1="96" x2="366" y2="96"/>
+    <line x1="0" y1="124" x2="366" y2="124"/>
+    <line x1="0" y1="152" x2="366" y2="152"/>
+    <line x1="0" y1="180" x2="366" y2="180"/>
+    <line x1="0" y1="208" x2="366" y2="208"/>
+    <line x1="0" y1="236" x2="366" y2="236"/>
+    <line x1="0" y1="264" x2="366" y2="264"/>
+    <line x1="0" y1="292" x2="366" y2="292"/>
+    <!-- Vertical mortar offsets. -->
+    <line x1="40" y1="0" x2="40" y2="40"/>
+    <line x1="80" y1="40" x2="80" y2="68"/>
+    <line x1="120" y1="68" x2="120" y2="96"/>
+    <line x1="40" y1="96" x2="40" y2="124"/>
+    <line x1="80" y1="124" x2="80" y2="152"/>
+    <line x1="280" y1="0" x2="280" y2="40"/>
+    <line x1="320" y1="40" x2="320" y2="68"/>
+    <line x1="280" y1="96" x2="280" y2="124"/>
+    <line x1="320" y1="124" x2="320" y2="152"/>
+    <line x1="280" y1="208" x2="280" y2="236"/>
+    <line x1="320" y1="236" x2="320" y2="264"/>
+  </g>
+  <rect x="0" y="0" width="366" height="320" fill="url(#p3p3soot)"/>
+
+  <!-- DOORFRAME — heavy dark timber, painted black/dark brown. -->
+  <rect x="78" y="36" width="170" height="284" fill="url(#p3p3doorframe)"/>
+  <rect x="62" y="20" width="200" height="20" fill="url(#p3p3doorframe)"/>
+  <rect x="62" y="20" width="20" height="300" fill="url(#p3p3doorframe)"/>
+  <rect x="244" y="20" width="20" height="300" fill="url(#p3p3doorframe)"/>
+  <!-- Frame moulding lines. -->
+  <g stroke="#0a0402" stroke-width="0.8" opacity="0.85">
+    <line x1="62" y1="26" x2="262" y2="26"/>
+    <line x1="62" y1="34" x2="262" y2="34"/>
+    <line x1="68" y1="20" x2="68" y2="320"/>
+    <line x1="76" y1="20" x2="76" y2="320"/>
+    <line x1="248" y1="20" x2="248" y2="320"/>
+    <line x1="256" y1="20" x2="256" y2="320"/>
+  </g>
+
+  <!-- DOOR — slightly ajar (housekeeper is BEGINNING to close it). Open about 35% -->
+  <g>
+    <!-- Door body, opened toward viewer-left side. We see the face of the door + edge. -->
+    <path d="M82,40 L162,40 L162,316 L82,316 Z" fill="url(#p3p3door)"/>
+    <!-- Door panels (recessed). -->
+    <rect x="92" y="56" width="60" height="80" fill="none" stroke="#0a0402" stroke-width="1.2"/>
+    <rect x="92" y="148" width="60" height="80" fill="none" stroke="#0a0402" stroke-width="1.2"/>
+    <rect x="92" y="240" width="60" height="64" fill="none" stroke="#0a0402" stroke-width="1.2"/>
+    <rect x="96" y="60" width="52" height="72" fill="none" stroke="#3a1808" stroke-width="0.6"/>
+    <rect x="96" y="152" width="52" height="72" fill="none" stroke="#3a1808" stroke-width="0.6"/>
+    <rect x="96" y="244" width="52" height="56" fill="none" stroke="#3a1808" stroke-width="0.6"/>
+    <!-- Brass door knob + key escutcheon. -->
+    <circle cx="148" cy="184" r="3.5" fill="#a89878"/>
+    <circle cx="148" cy="184" r="2" fill="#5a4838"/>
+    <rect x="146" y="196" width="6" height="10" fill="#5a4838"/>
+    <rect x="148" y="200" width="2" height="2" fill="#1a0c04"/>
+    <!-- Door edge (inside thickness, visible at right where door has rotated open). -->
+    <path d="M162,40 L172,42 L172,316 L162,316 Z" fill="#1a0c04"/>
+  </g>
+
+  <!-- DOORWAY INTERIOR — DARK behind housekeeper (script: doorway is dark). -->
+  <rect x="172" y="40" width="76" height="276" fill="url(#p3p3interiorDark)"/>
+
+  <!-- HOUSEKEEPER — standing in the doorway, severe, mid-action of taking parcel.
+       She faces image-left toward Theodore (who is on doorstep). -->
+  <g>
+    <!-- Long dark dress filling most of doorway aperture. -->
+    <path d="M180,168 Q172,260 178,316 L242,316 Q250,260 244,168 Q238,158 212,158 Q186,158 180,168 Z" fill="url(#p3p3hkDress)"/>
+    <!-- High Victorian collar + neckline. -->
+    <path d="M196,156 Q198,168 212,170 Q226,168 228,156 L226,148 L198,148 Z" fill="url(#p3p3hkDress)"/>
+    <!-- White lace collar trim (small, period detail). -->
+    <path d="M198,148 Q212,150 226,148" fill="none" stroke="#dcd0b4" stroke-width="2" stroke-linecap="round"/>
+    <!-- Apron / dark pinafore over dress. -->
+    <path d="M192,180 L192,316 L232,316 L232,180 Z" fill="#1a0c04" opacity="0.6"/>
+    <!-- Apron strings tied at waist. -->
+    <line x1="186" y1="220" x2="180" y2="232" stroke="#1a0c04" stroke-width="2"/>
+    <line x1="238" y1="220" x2="244" y2="232" stroke="#1a0c04" stroke-width="2"/>
+
+    <!-- Sleeves (long, dark, severely cut). -->
+    <path d="M180,166 Q170,196 168,228 L184,232 Q186,200 188,168 Z" fill="url(#p3p3hkDress)"/>
+    <path d="M244,166 Q254,196 256,228 L240,232 Q238,200 236,168 Z" fill="url(#p3p3hkDress)"/>
+    <!-- Cuffs. -->
+    <rect x="166" y="226" width="20" height="5" fill="#0a0604"/>
+    <rect x="240" y="226" width="20" height="5" fill="#0a0604"/>
+
+    <!-- LEFT ARM (image left) — REACHING DOWN to take parcel from Theodore. Hand visible at edge of door. -->
+    <path d="M168,232 Q160,260 154,290 L172,294 Q178,260 184,232 Z" fill="url(#p3p3hkSkin)"/>
+    <!-- Hand grasping the parcel. -->
+    <ellipse cx="156" cy="296" rx="9" ry="6" fill="url(#p3p3hkSkin)"/>
+    <path d="M150,298 Q156,302 162,302" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <path d="M148,294 Q154,296 158,294" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <ellipse cx="148" cy="298" rx="2" ry="1.5" fill="url(#p3p3hkSkin)"/>
+    <ellipse cx="152" cy="302" rx="2" ry="1.5" fill="url(#p3p3hkSkin)"/>
+    <ellipse cx="158" cy="302" rx="2" ry="1.5" fill="url(#p3p3hkSkin)"/>
+    <ellipse cx="162" cy="298" rx="2" ry="1.5" fill="url(#p3p3hkSkin)"/>
+
+    <!-- RIGHT ARM (image right) — already pushing the door to close. Hand on door edge. -->
+    <path d="M256,232 Q264,256 268,280 L252,284 Q246,260 240,232 Z" fill="url(#p3p3hkSkin)"/>
+    <!-- Hand pushing door. -->
+    <ellipse cx="270" cy="288" rx="9" ry="6" fill="url(#p3p3hkSkin)"/>
+    <!-- Wedding ring detail. -->
+    <circle cx="266" cy="290" r="1" fill="#a89878" opacity="0.85"/>
+
+    <!-- HEAD — severe profile, looking down at the parcel. Hair pulled tight in a bun. -->
+    <ellipse cx="212" cy="124" rx="17" ry="22" fill="url(#p3p3hkSkin)"/>
+    <!-- Hair pulled severely back, visible bun at back. -->
+    <path d="M196,114 Q198,98 212,94 Q226,98 228,114 L228,124 Q220,108 212,108 Q204,108 196,124 Z" fill="url(#p3p3hkHair)"/>
+    <!-- Bun at back of head. -->
+    <ellipse cx="232" cy="116" rx="6" ry="8" fill="url(#p3p3hkHair)"/>
+    <!-- Forehead exposed, eyebrows. -->
+    <path d="M204,118 Q208,116 212,118" fill="none" stroke="#3a2818" stroke-width="0.9" stroke-linecap="round"/>
+    <path d="M214,118 Q218,116 222,118" fill="none" stroke="#3a2818" stroke-width="0.9" stroke-linecap="round"/>
+    <!-- Eyes — narrow, looking down at parcel (severe, business). -->
+    <ellipse cx="207" cy="124" rx="2" ry="0.9" fill="#3a2810"/>
+    <ellipse cx="218" cy="124" rx="2" ry="0.9" fill="#3a2810"/>
+    <!-- Cheekbones (gaunt). -->
+    <path d="M198,134 Q204,138 208,134" fill="none" stroke="#7a4020" stroke-width="0.6" opacity="0.7"/>
+    <path d="M216,134 Q220,138 226,134" fill="none" stroke="#7a4020" stroke-width="0.6" opacity="0.7"/>
+    <!-- Nose — sharp, pointed. -->
+    <path d="M212,128 L208,140 Q212,142 216,140 Z" fill="#a8765a" opacity="0.55"/>
+    <!-- Mouth — thin straight line, lips compressed (no warmth). -->
+    <path d="M204,148 L220,148" stroke="#7a3018" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- PARCEL — being passed from Theodore's hand to housekeeper's hand. -->
+  <rect x="116" y="290" width="40" height="32" rx="2" fill="url(#p3p3parcel)"/>
+  <line x1="116" y1="306" x2="156" y2="306" stroke="#5a4838" stroke-width="0.6"/>
+  <line x1="136" y1="290" x2="136" y2="322" stroke="#5a4838" stroke-width="0.6"/>
+  <circle cx="136" cy="306" r="1.6" fill="#3a2010"/>
+
+  <!-- Stone step in front of door. -->
+  <rect x="62" y="316" width="200" height="14" fill="url(#p3p3stoneStep)"/>
+  <line x1="62" y1="318" x2="262" y2="318" stroke="#1a1408" stroke-width="0.5"/>
+  <!-- Worn step edge. -->
+  <path d="M62,322 L262,323" stroke="#3a3428" stroke-width="2" opacity="0.7"/>
+
+  <!-- Pavement extending to image-left where Theodore is. -->
+  <rect x="0" y="320" width="366" height="22" fill="url(#p3p3pavement)"/>
+
+  <!-- Cobble strip at bottom edge. -->
+  <rect x="0" y="342" width="366" height="22" fill="url(#p3p3cobble)"/>
+  <g stroke="#3a3428" stroke-width="0.4" opacity="0.55">
+    <line x1="20" y1="342" x2="24" y2="364"/>
+    <line x1="80" y1="342" x2="86" y2="364"/>
+    <line x1="140" y1="342" x2="148" y2="364"/>
+    <line x1="200" y1="342" x2="210" y2="364"/>
+    <line x1="260" y1="342" x2="272" y2="364"/>
+    <line x1="320" y1="342" x2="334" y2="364"/>
+  </g>
+
+  <!-- THEODORE — on stone step, image-left of doorway, already turning AWAY. We see his back/profile, parcel just handed off. -->
+  <g>
+    <!-- Cast shadow. -->
+    <ellipse cx="50" cy="338" rx="20" ry="2" fill="#000" opacity="0.45"/>
+
+    <!-- Trousers. -->
+    <path d="M40,272 Q36,308 42,338 L56,338 Q60,308 56,272 Z" fill="#4a3a24"/>
+    <path d="M58,272 Q56,308 62,338 L76,338 Q80,308 76,272 Z" fill="#4a3a24"/>
+    <!-- Patch on knee. -->
+    <rect x="42" y="304" width="8" height="6" fill="#3a2010" opacity="0.8"/>
+    <!-- Boots. -->
+    <ellipse cx="48" cy="340" rx="6" ry="2" fill="#1a0c04"/>
+    <ellipse cx="68" cy="340" rx="6" ry="2" fill="#1a0c04"/>
+
+    <!-- Linen shirt. -->
+    <path d="M28,202 Q22,250 30,272 L84,272 Q92,250 86,202 Q80,196 64,196 Q42,196 28,202 Z" fill="url(#p3p3theoShirt)"/>
+    <!-- Brown waistcoat. -->
+    <path d="M32,210 L30,272 L84,272 L84,210 L76,216 L70,222 L58,228 L48,222 L40,216 Z" fill="url(#p3p3theoVest)"/>
+    <line x1="58" y1="228" x2="58" y2="272" stroke="#1a0c04" stroke-width="0.4" opacity="0.7"/>
+    <circle cx="58" cy="240" r="0.9" fill="#a89878"/>
+    <circle cx="58" cy="248" r="0.9" fill="#a89878"/>
+    <circle cx="58" cy="256" r="0.9" fill="#a89878"/>
+    <!-- Belt. -->
+    <rect x="32" y="266" width="52" height="4" fill="#3a2010"/>
+
+    <!-- LEFT ARM extending toward housekeeper, just released the parcel. -->
+    <path d="M86,206 Q98,238 110,272 L120,272 Q104,236 92,206 Z" fill="url(#p3p3theoShirt)"/>
+    <rect x="106" y="262" width="20" height="6" fill="#a89878"/>
+    <path d="M110,268 Q120,288 130,296 L138,290 Q124,278 116,268 Z" fill="url(#p3p3theoSkin)"/>
+    <!-- Hand just released — fingers slightly open/relaxed. -->
+    <ellipse cx="138" cy="296" rx="6" ry="4" fill="url(#p3p3theoSkin)"/>
+    <!-- Brass gear ring. -->
+    <circle cx="136" cy="294" r="1.2" fill="#a89878"/>
+
+    <!-- RIGHT ARM — hand IN trouser pocket per script. -->
+    <path d="M28,210 Q20,240 22,268 L34,272 Q36,240 38,212 Z" fill="url(#p3p3theoShirt)"/>
+    <!-- Pocket hand suggestion. -->
+    <path d="M28,266 Q24,278 32,288 L46,288 L46,278 Z" fill="#4a3a24"/>
+    <!-- Pocket flap. -->
+    <line x1="28" y1="266" x2="46" y2="270" stroke="#1a0c04" stroke-width="0.6"/>
+
+    <!-- HEAD — turned away (we see the back/three-quarter rear), facing slightly back toward viewer-left.
+         He's already turning away from the door. -->
+    <path d="M48,194 L48,206 L66,206 L66,194 Z" fill="url(#p3p3theoSkin)"/>
+    <ellipse cx="56" cy="174" rx="18" ry="20" fill="url(#p3p3theoSkin)"/>
+    <!-- Tousled spikes. -->
+    <path d="M40,162 Q38,140 54,134 Q66,130 72,134 Q76,148 74,162 L70,166 Q66,150 60,148 L48,148 Q44,150 42,166 Z" fill="url(#p3p3theoHair)"/>
+    <path d="M44,140 L42,124 L48,138 Z" fill="url(#p3p3theoHair)"/>
+    <path d="M52,134 L52,118 L58,134 Z" fill="url(#p3p3theoHair)"/>
+    <path d="M62,132 L66,118 L66,134 Z" fill="url(#p3p3theoHair)"/>
+    <path d="M70,138 L74,124 L72,140 Z" fill="url(#p3p3theoHair)"/>
+    <!-- Bangs. -->
+    <path d="M44,158 L46,168 L50,158 Z" fill="url(#p3p3theoHair)"/>
+    <path d="M54,160 L56,170 L60,160 Z" fill="url(#p3p3theoHair)"/>
+    <path d="M64,160 L62,170 L68,160 Z" fill="url(#p3p3theoHair)"/>
+    <path d="M70,158 L72,168 L72,158 Z" fill="url(#p3p3theoHair)"/>
+    <!-- Sides. -->
+    <path d="M40,162 Q38,184 44,194 L50,194 Q46,184 46,162 Z" fill="url(#p3p3theoHair)"/>
+    <path d="M74,162 Q76,184 70,194 L64,194 Q68,184 68,162 Z" fill="url(#p3p3theoHair)"/>
+
+    <!-- Eyes — gazing slightly down/away (inward, neutral). -->
+    <ellipse cx="51" cy="174" rx="1.4" ry="0.8" fill="#3a2810"/>
+    <ellipse cx="62" cy="174" rx="1.4" ry="0.8" fill="#3a2810"/>
+    <!-- Brows neutral. -->
+    <path d="M48,170 Q52,168 55,170" fill="none" stroke="#5a4020" stroke-width="0.55"/>
+    <path d="M58,170 Q62,168 66,170" fill="none" stroke="#5a4020" stroke-width="0.55"/>
+    <!-- Nose. -->
+    <path d="M56,180 L54,188 Q56,189 58,188 Z" fill="#a8765a" opacity="0.55"/>
+    <!-- Mouth — flat, closed. -->
+    <line x1="52" y1="194" x2="60" y2="194" stroke="#7a3018" stroke-width="0.8" stroke-linecap="round"/>
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.85">
+      <circle cx="48" cy="184" r="0.5"/>
+      <circle cx="52" cy="186" r="0.45"/>
+      <circle cx="60" cy="184" r="0.5"/>
+      <circle cx="64" cy="186" r="0.45"/>
+    </g>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q60,45 120,42"/>
+    <path d="M260,40 Q300,45 350,42"/>
+    <path d="M0,200 Q60,205 120,202"/>
+  </g>
+
+  <!-- HOUSEKEEPER balloon — top-right, clear of her face and Theodore. -->
+  <rect x="222" y="14" width="138" height="78" rx="8"
+        fill="#ffffff" stroke="#5a4a30" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M232,92 L242,92 L228,108 Z"
+        fill="#ffffff" stroke="#5a4a30" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="232" y1="92" x2="242" y2="92" stroke="#ffffff" stroke-width="3"/>
+  <text x="232" y="36"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="800"
+        fill="#5a4a30" letter-spacing="0.3">HOUSEKEEPER</text>
+  <text x="232" y="56"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">From Mr. Cribbage?</text>
+  <text x="232" y="74"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">Leave it.</text>
+
+</svg>

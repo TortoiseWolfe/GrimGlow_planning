@@ -1,0 +1,536 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 3 — Panel 1: Wide EST Clerkenwell street, Theodore on errand</title>
+  <desc>Wide EST 28mm eye level. Narrow Victorian Clerkenwell street. Theodore walks along pavement carrying cloth-wrapped parcel — untidy sandy hair, worn waistcoat too large, patched wool trousers, scuffed boots. He is small in the frame, alone among adults who do not see him. Pedestrians in heavy coats; cart passing with horse on cobblestones. Sooty London stock brick, pie shop with steamed window, chandler's, unlit gas lamp. Grey Victorian daylight overcast and flat, soot dulling every surface. Small warm glows from shop windows punctuate the grey.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p3p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8a8a86"/>
+      <stop offset="100%" stop-color="#5a5a56"/>
+    </linearGradient>
+    <linearGradient id="p3p1brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6a4030"/>
+      <stop offset="50%" stop-color="#4a2818"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="p3p1soot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a1208" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p3p1cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="100%" stop-color="#2a2418"/>
+    </linearGradient>
+    <linearGradient id="p3p1pavement" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7068"/>
+      <stop offset="100%" stop-color="#3a3428"/>
+    </linearGradient>
+    <radialGradient id="p3p1pieShopGlow">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p1shopGlow">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p1steamWindow">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#dcd0b4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#a89878" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p3p1theoSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8c0"/>
+      <stop offset="100%" stop-color="#9a7050"/>
+    </linearGradient>
+    <linearGradient id="p3p1theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p3p1coat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3428"/>
+      <stop offset="100%" stop-color="#1a1408"/>
+    </linearGradient>
+    <linearGradient id="p3p1coatBrown" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3a20"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="p3p1horse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6a4828"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p3p1brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89878"/>
+      <stop offset="100%" stop-color="#5a4838"/>
+    </linearGradient>
+    <radialGradient id="p3p1theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#5a4020"/>
+    </radialGradient>
+    <filter id="p3p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- Sky (overcast grey). -->
+  <rect width="742" height="170" fill="url(#p3p1sky)"/>
+  <!-- Soot haze in upper part of frame (chimney smoke layer). -->
+  <ellipse cx="200" cy="44" rx="160" ry="22" fill="#5a5048" opacity="0.55"/>
+  <ellipse cx="500" cy="32" rx="220" ry="20" fill="#5a5048" opacity="0.5"/>
+  <ellipse cx="350" cy="70" rx="280" ry="14" fill="#3a3428" opacity="0.35"/>
+
+  <!-- LEFT BUILDING — narrow frontage, sooty London stock brick. -->
+  <g>
+    <rect x="0" y="20" width="180" height="280" fill="url(#p3p1brick)"/>
+    <!-- Brick mortar lines. -->
+    <g stroke="#1a0e08" stroke-width="0.5" opacity="0.65">
+      <line x1="0" y1="50" x2="180" y2="50"/>
+      <line x1="0" y1="78" x2="180" y2="78"/>
+      <line x1="0" y1="106" x2="180" y2="106"/>
+      <line x1="0" y1="134" x2="180" y2="134"/>
+      <line x1="0" y1="162" x2="180" y2="162"/>
+      <line x1="0" y1="190" x2="180" y2="190"/>
+      <line x1="0" y1="218" x2="180" y2="218"/>
+      <line x1="0" y1="246" x2="180" y2="246"/>
+      <line x1="0" y1="274" x2="180" y2="274"/>
+      <line x1="38" y1="20" x2="38" y2="50"/>
+      <line x1="76" y1="50" x2="76" y2="78"/>
+      <line x1="114" y1="78" x2="114" y2="106"/>
+      <line x1="38" y1="106" x2="38" y2="134"/>
+      <line x1="76" y1="134" x2="76" y2="162"/>
+      <line x1="114" y1="162" x2="114" y2="190"/>
+      <line x1="38" y1="190" x2="38" y2="218"/>
+      <line x1="76" y1="218" x2="76" y2="246"/>
+      <line x1="114" y1="246" x2="114" y2="274"/>
+    </g>
+    <rect x="0" y="20" width="180" height="280" fill="url(#p3p1soot)"/>
+    <!-- Cornice / slight roof line. -->
+    <rect x="0" y="20" width="180" height="6" fill="#1a0c04"/>
+    <!-- Upper window (residential, dim). -->
+    <rect x="36" y="60" width="46" height="62" fill="#1a0c04"/>
+    <line x1="59" y1="60" x2="59" y2="122" stroke="#3a3428" stroke-width="1"/>
+    <line x1="36" y1="91" x2="82" y2="91" stroke="#3a3428" stroke-width="1"/>
+    <rect x="36" y="60" width="46" height="62" fill="#5a5048" opacity="0.18"/>
+    <rect x="106" y="60" width="46" height="62" fill="#1a0c04"/>
+    <line x1="129" y1="60" x2="129" y2="122" stroke="#3a3428" stroke-width="1"/>
+    <line x1="106" y1="91" x2="152" y2="91" stroke="#3a3428" stroke-width="1"/>
+    <rect x="106" y="60" width="46" height="62" fill="#5a5048" opacity="0.18"/>
+
+    <!-- PIE SHOP at ground floor — steamed window with warm glow. -->
+    <rect x="20" y="180" width="142" height="100" fill="#3a2010"/>
+    <!-- Painted wood surround. -->
+    <rect x="14" y="174" width="154" height="10" fill="#3a2818"/>
+    <rect x="14" y="174" width="6" height="106" fill="#3a2818"/>
+    <rect x="162" y="174" width="6" height="106" fill="#3a2818"/>
+    <!-- Sign band. -->
+    <rect x="20" y="184" width="142" height="20" fill="#1a0c04"/>
+    <text x="91" y="200" text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="13" font-weight="900"
+          fill="url(#p3p1brass)" letter-spacing="2">PIES &amp; PUDDINGS</text>
+    <!-- Steamed window pane. -->
+    <rect x="26" y="208" width="130" height="64" fill="#a89878"/>
+    <rect x="26" y="208" width="130" height="64" fill="url(#p3p1steamWindow)"/>
+    <!-- Glow halo around the pie shop window into street. -->
+    <ellipse cx="91" cy="240" rx="120" ry="70" fill="url(#p3p1pieShopGlow)" opacity="0.7"/>
+    <!-- Steam streaks on glass. -->
+    <g stroke="#ffffff" stroke-width="1" opacity="0.4" fill="none">
+      <path d="M40,220 Q50,232 46,250"/>
+      <path d="M70,224 Q60,236 64,254"/>
+      <path d="M100,222 Q108,236 100,254"/>
+      <path d="M130,224 Q120,238 124,256"/>
+    </g>
+    <!-- Pie silhouettes inside. -->
+    <g opacity="0.55">
+      <ellipse cx="50" cy="246" rx="10" ry="4" fill="#3a2010"/>
+      <ellipse cx="76" cy="248" rx="9" ry="4" fill="#3a2010"/>
+      <ellipse cx="102" cy="246" rx="10" ry="4" fill="#3a2010"/>
+      <ellipse cx="128" cy="248" rx="9" ry="4" fill="#3a2010"/>
+    </g>
+    <!-- Ground floor base. -->
+    <rect x="14" y="280" width="154" height="20" fill="#1a0c04"/>
+  </g>
+
+  <!-- RIGHT BUILDING — chandler's, narrow, taller. -->
+  <g>
+    <rect x="560" y="0" width="182" height="300" fill="url(#p3p1brick)"/>
+    <g stroke="#1a0e08" stroke-width="0.5" opacity="0.65">
+      <line x1="560" y1="38" x2="742" y2="38"/>
+      <line x1="560" y1="68" x2="742" y2="68"/>
+      <line x1="560" y1="98" x2="742" y2="98"/>
+      <line x1="560" y1="128" x2="742" y2="128"/>
+      <line x1="560" y1="158" x2="742" y2="158"/>
+      <line x1="560" y1="188" x2="742" y2="188"/>
+      <line x1="560" y1="218" x2="742" y2="218"/>
+      <line x1="560" y1="248" x2="742" y2="248"/>
+      <line x1="560" y1="278" x2="742" y2="278"/>
+      <line x1="600" y1="0" x2="600" y2="38"/>
+      <line x1="640" y1="38" x2="640" y2="68"/>
+      <line x1="680" y1="68" x2="680" y2="98"/>
+      <line x1="720" y1="98" x2="720" y2="128"/>
+    </g>
+    <rect x="560" y="0" width="182" height="300" fill="url(#p3p1soot)"/>
+
+    <!-- Upper windows. -->
+    <rect x="588" y="50" width="42" height="58" fill="#1a0c04"/>
+    <line x1="609" y1="50" x2="609" y2="108" stroke="#3a3428" stroke-width="1"/>
+    <line x1="588" y1="79" x2="630" y2="79" stroke="#3a3428" stroke-width="1"/>
+    <rect x="676" y="50" width="42" height="58" fill="#1a0c04"/>
+    <line x1="697" y1="50" x2="697" y2="108" stroke="#3a3428" stroke-width="1"/>
+    <line x1="676" y1="79" x2="718" y2="79" stroke="#3a3428" stroke-width="1"/>
+    <rect x="588" y="50" width="42" height="58" fill="#5a5048" opacity="0.18"/>
+    <rect x="676" y="50" width="42" height="58" fill="#5a5048" opacity="0.18"/>
+
+    <!-- CHANDLER'S shop. -->
+    <rect x="568" y="178" width="166" height="102" fill="#3a2818"/>
+    <rect x="562" y="172" width="178" height="10" fill="#2a1808"/>
+    <rect x="562" y="172" width="6" height="108" fill="#2a1808"/>
+    <rect x="734" y="172" width="6" height="108" fill="#2a1808"/>
+    <rect x="568" y="184" width="166" height="20" fill="#1a0c04"/>
+    <text x="651" y="200" text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="11" font-weight="900"
+          fill="url(#p3p1brass)" letter-spacing="2">CHANDLER &amp; OIL</text>
+    <!-- Window with goods (candles, tin lamps). -->
+    <rect x="574" y="208" width="154" height="64" fill="#1a0c04"/>
+    <ellipse cx="651" cy="240" rx="100" ry="46" fill="url(#p3p1shopGlow)" opacity="0.55"/>
+    <g>
+      <!-- Stacks of candles in the window. -->
+      <rect x="586" y="230" width="3" height="36" fill="#dcd0b4"/>
+      <rect x="591" y="234" width="3" height="32" fill="#dcd0b4"/>
+      <rect x="596" y="232" width="3" height="34" fill="#dcd0b4"/>
+      <rect x="601" y="234" width="3" height="32" fill="#dcd0b4"/>
+      <rect x="606" y="230" width="3" height="36" fill="#dcd0b4"/>
+      <!-- Tin lamp silhouettes. -->
+      <rect x="624" y="234" width="14" height="22" fill="#5a4838"/>
+      <rect x="626" y="232" width="10" height="3" fill="url(#p3p1brass)"/>
+      <rect x="650" y="234" width="14" height="22" fill="#5a4838"/>
+      <rect x="652" y="232" width="10" height="3" fill="url(#p3p1brass)"/>
+      <!-- Oil bottles. -->
+      <rect x="676" y="240" width="8" height="20" fill="#3a2010"/>
+      <ellipse cx="680" cy="240" rx="3" ry="1.5" fill="#3a2010"/>
+      <rect x="690" y="240" width="8" height="20" fill="#3a2010"/>
+      <rect x="704" y="240" width="8" height="20" fill="#3a2010"/>
+    </g>
+    <rect x="562" y="280" width="178" height="20" fill="#1a0c04"/>
+  </g>
+
+  <!-- BG MIDDLE BUILDING (between left and right) — distant, hazier. -->
+  <g opacity="0.85">
+    <rect x="180" y="60" width="380" height="240" fill="url(#p3p1brick)"/>
+    <rect x="180" y="60" width="380" height="240" fill="url(#p3p1soot)"/>
+    <g stroke="#1a0e08" stroke-width="0.4" opacity="0.55">
+      <line x1="180" y1="90" x2="560" y2="90"/>
+      <line x1="180" y1="120" x2="560" y2="120"/>
+      <line x1="180" y1="150" x2="560" y2="150"/>
+      <line x1="180" y1="180" x2="560" y2="180"/>
+      <line x1="180" y1="210" x2="560" y2="210"/>
+      <line x1="180" y1="240" x2="560" y2="240"/>
+    </g>
+    <!-- Windows. -->
+    <rect x="220" y="100" width="36" height="48" fill="#1a0c04"/>
+    <line x1="238" y1="100" x2="238" y2="148" stroke="#3a3428" stroke-width="0.7"/>
+    <line x1="220" y1="124" x2="256" y2="124" stroke="#3a3428" stroke-width="0.7"/>
+    <rect x="280" y="100" width="36" height="48" fill="#1a0c04"/>
+    <rect x="340" y="100" width="36" height="48" fill="#1a0c04"/>
+    <rect x="400" y="100" width="36" height="48" fill="#1a0c04"/>
+    <rect x="460" y="100" width="36" height="48" fill="#1a0c04"/>
+    <rect x="520" y="100" width="36" height="48" fill="#1a0c04"/>
+    <!-- Lower windows. -->
+    <rect x="220" y="170" width="36" height="48" fill="#1a0c04"/>
+    <rect x="280" y="170" width="36" height="48" fill="#1a0c04"/>
+    <rect x="340" y="170" width="36" height="48" fill="#1a0c04"/>
+    <rect x="400" y="170" width="36" height="48" fill="#1a0c04"/>
+    <rect x="460" y="170" width="36" height="48" fill="#1a0c04"/>
+    <rect x="520" y="170" width="36" height="48" fill="#1a0c04"/>
+  </g>
+
+  <!-- Chimney pots on roofline (BG). -->
+  <g opacity="0.7">
+    <rect x="200" y="44" width="6" height="18" fill="#3a2010"/>
+    <rect x="240" y="38" width="6" height="22" fill="#3a2010"/>
+    <rect x="320" y="40" width="6" height="20" fill="#3a2010"/>
+    <rect x="380" y="38" width="6" height="22" fill="#3a2010"/>
+    <rect x="440" y="42" width="6" height="18" fill="#3a2010"/>
+    <rect x="500" y="40" width="6" height="20" fill="#3a2010"/>
+    <!-- Plumes of smoke from chimneys. -->
+    <ellipse cx="203" cy="34" rx="14" ry="6" fill="#5a5048" opacity="0.55"/>
+    <ellipse cx="243" cy="28" rx="16" ry="7" fill="#5a5048" opacity="0.55"/>
+    <ellipse cx="323" cy="30" rx="14" ry="6" fill="#5a5048" opacity="0.55"/>
+    <ellipse cx="383" cy="26" rx="16" ry="7" fill="#5a5048" opacity="0.5"/>
+    <ellipse cx="443" cy="32" rx="12" ry="5" fill="#5a5048" opacity="0.5"/>
+    <ellipse cx="503" cy="30" rx="14" ry="6" fill="#5a5048" opacity="0.55"/>
+  </g>
+
+  <!-- UNLIT GAS LAMP POST (right side of street, mid-frame). -->
+  <g>
+    <rect x="438" y="120" width="3" height="180" fill="#1a0c04"/>
+    <!-- Bracket arm. -->
+    <line x1="441" y1="150" x2="455" y2="142" stroke="#1a0c04" stroke-width="1.6"/>
+    <!-- Lantern at top. -->
+    <rect x="430" y="100" width="20" height="22" fill="#1a0c04"/>
+    <rect x="432" y="98" width="16" height="3" fill="#3a2010"/>
+    <rect x="434" y="102" width="12" height="18" fill="#5a5048" opacity="0.45"/>
+    <!-- Lantern is unlit (no glow). -->
+    <!-- Decorative cross at top. -->
+    <circle cx="440" cy="96" r="2" fill="#3a2010"/>
+    <!-- Base. -->
+    <rect x="434" y="296" width="12" height="6" fill="#1a0c04"/>
+  </g>
+
+  <!-- Pavement (sidewalk) — narrow strip in front of buildings. -->
+  <rect x="0" y="296" width="742" height="20" fill="url(#p3p1pavement)"/>
+  <line x1="0" y1="298" x2="742" y2="298" stroke="#1a1408" stroke-width="0.6"/>
+  <!-- Kerbstone edge. -->
+  <rect x="0" y="316" width="742" height="6" fill="#3a3428"/>
+  <line x1="0" y1="316" x2="742" y2="316" stroke="#1a1408" stroke-width="0.7"/>
+
+  <!-- Cobblestone street. -->
+  <rect x="0" y="322" width="742" height="42" fill="url(#p3p1cobble)"/>
+  <g stroke="#1a1408" stroke-width="0.6" opacity="0.7">
+    <line x1="0" y1="338" x2="742" y2="335"/>
+    <line x1="0" y1="352" x2="742" y2="350"/>
+  </g>
+  <g stroke="#3a3428" stroke-width="0.4" opacity="0.55">
+    <line x1="40" y1="324" x2="44" y2="362"/>
+    <line x1="100" y1="324" x2="104" y2="362"/>
+    <line x1="160" y1="324" x2="166" y2="362"/>
+    <line x1="220" y1="324" x2="226" y2="362"/>
+    <line x1="280" y1="324" x2="288" y2="362"/>
+    <line x1="340" y1="324" x2="350" y2="362"/>
+    <line x1="400" y1="324" x2="412" y2="362"/>
+    <line x1="460" y1="324" x2="474" y2="362"/>
+    <line x1="520" y1="324" x2="536" y2="362"/>
+    <line x1="580" y1="324" x2="598" y2="362"/>
+    <line x1="640" y1="324" x2="660" y2="362"/>
+    <line x1="700" y1="324" x2="722" y2="362"/>
+  </g>
+
+  <!-- HORSE-DRAWN CART (right of frame, passing). Horse + small delivery cart. -->
+  <g>
+    <!-- Cart body. -->
+    <rect x="582" y="282" width="86" height="26" fill="#3a2010"/>
+    <rect x="582" y="282" width="86" height="6" fill="#5a3818"/>
+    <line x1="582" y1="288" x2="668" y2="288" stroke="#1a0c04" stroke-width="0.5"/>
+    <!-- Cart bed boards. -->
+    <line x1="600" y1="282" x2="600" y2="308" stroke="#1a0c04" stroke-width="0.5"/>
+    <line x1="624" y1="282" x2="624" y2="308" stroke="#1a0c04" stroke-width="0.5"/>
+    <line x1="650" y1="282" x2="650" y2="308" stroke="#1a0c04" stroke-width="0.5"/>
+    <!-- Wheels. -->
+    <circle cx="600" cy="316" r="14" fill="#1a0c04"/>
+    <circle cx="600" cy="316" r="14" fill="none" stroke="#3a2010" stroke-width="1.4"/>
+    <circle cx="600" cy="316" r="10" fill="none" stroke="#3a2010" stroke-width="0.7"/>
+    <circle cx="600" cy="316" r="3" fill="#3a2010"/>
+    <g stroke="#3a2010" stroke-width="0.7">
+      <line x1="600" y1="304" x2="600" y2="328"/>
+      <line x1="588" y1="316" x2="612" y2="316"/>
+      <line x1="592" y1="308" x2="608" y2="324"/>
+      <line x1="608" y1="308" x2="592" y2="324"/>
+    </g>
+    <circle cx="654" cy="316" r="14" fill="#1a0c04"/>
+    <circle cx="654" cy="316" r="14" fill="none" stroke="#3a2010" stroke-width="1.4"/>
+    <circle cx="654" cy="316" r="10" fill="none" stroke="#3a2010" stroke-width="0.7"/>
+    <circle cx="654" cy="316" r="3" fill="#3a2010"/>
+    <g stroke="#3a2010" stroke-width="0.7">
+      <line x1="654" y1="304" x2="654" y2="328"/>
+      <line x1="642" y1="316" x2="666" y2="316"/>
+      <line x1="646" y1="308" x2="662" y2="324"/>
+      <line x1="662" y1="308" x2="646" y2="324"/>
+    </g>
+    <!-- Cart shaft to horse. -->
+    <line x1="582" y1="294" x2="540" y2="304" stroke="#3a2010" stroke-width="2.4"/>
+    <line x1="582" y1="298" x2="540" y2="308" stroke="#3a2010" stroke-width="2.4"/>
+
+    <!-- HORSE (BG, partial — head + front legs visible). -->
+    <!-- Body. -->
+    <path d="M448,284 Q444,310 456,326 L498,326 Q514,310 522,294 L530,288 Q540,288 540,300 Q538,318 524,322 L460,322 Q450,322 448,316 Z" fill="url(#p3p1horse)"/>
+    <!-- Head. -->
+    <ellipse cx="442" cy="282" rx="12" ry="14" fill="url(#p3p1horse)"/>
+    <ellipse cx="436" cy="278" rx="3" ry="4" fill="url(#p3p1horse)"/>
+    <ellipse cx="438" cy="282" rx="0.8" ry="0.5" fill="#1a0c04"/>
+    <!-- Ear. -->
+    <path d="M448,272 L450,266 L454,270" fill="url(#p3p1horse)"/>
+    <!-- Mane. -->
+    <path d="M450,278 Q464,280 470,290" fill="none" stroke="#3a2010" stroke-width="2"/>
+    <!-- Front legs (mid-stride). -->
+    <path d="M464,322 L462,348 L470,348 L468,322 Z" fill="url(#p3p1horse)"/>
+    <path d="M488,322 L494,348 L502,348 L494,322 Z" fill="url(#p3p1horse)"/>
+    <!-- Hooves. -->
+    <ellipse cx="465" cy="350" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="498" cy="350" rx="5" ry="2" fill="#1a0c04"/>
+    <!-- Harness (around head + chest). -->
+    <line x1="450" y1="282" x2="466" y2="288" stroke="#1a0c04" stroke-width="0.7"/>
+    <line x1="448" y1="290" x2="466" y2="296" stroke="#1a0c04" stroke-width="0.7"/>
+
+    <!-- Cart driver (silhouette, wearing flat cap). -->
+    <ellipse cx="638" cy="266" rx="6" ry="7" fill="#3a3428"/>
+    <rect x="632" y="266" width="12" height="18" fill="url(#p3p1coat)"/>
+    <!-- Flat cap. -->
+    <path d="M632,260 L644,260 L646,266 L630,266 Z" fill="#1a0c04"/>
+  </g>
+
+  <!-- PEDESTRIANS in heavy coats. Several silhouettes. -->
+  <!-- Pedestrian 1: tall man in dark coat + top hat (mid-distance). -->
+  <g>
+    <ellipse cx="248" cy="346" rx="10" ry="2" fill="#000" opacity="0.4"/>
+    <path d="M236,288 Q232,316 240,344 L256,344 Q260,316 256,288 Z" fill="url(#p3p1coat)"/>
+    <ellipse cx="246" cy="282" rx="8" ry="9" fill="url(#p3p1theoSkin)"/>
+    <!-- Sideburns + jowls. -->
+    <path d="M240,284 Q238,294 244,294" fill="#3a2010"/>
+    <path d="M252,284 Q254,294 248,294" fill="#3a2010"/>
+    <!-- Top hat. -->
+    <rect x="240" y="266" width="12" height="14" fill="#1a0c04"/>
+    <path d="M236,280 L256,280 L256,282 L236,282 Z" fill="#1a0c04"/>
+    <!-- Walking stick. -->
+    <line x1="252" y1="318" x2="262" y2="356" stroke="#3a2010" stroke-width="1.4"/>
+  </g>
+
+  <!-- Pedestrian 2: woman in long coat + bonnet (center, slightly closer to viewer). -->
+  <g>
+    <ellipse cx="318" cy="348" rx="14" ry="2" fill="#000" opacity="0.45"/>
+    <!-- Long skirt + coat. -->
+    <path d="M306,294 Q300,330 310,348 L326,348 Q336,330 330,294 Z" fill="url(#p3p1coatBrown)"/>
+    <!-- Upper coat. -->
+    <path d="M308,282 Q304,300 310,294 L326,294 Q332,300 328,282 Z" fill="url(#p3p1coatBrown)"/>
+    <!-- Skin. -->
+    <ellipse cx="318" cy="278" rx="6" ry="7" fill="url(#p3p1theoSkin)"/>
+    <!-- Bonnet. -->
+    <path d="M310,272 Q310,260 318,260 Q326,260 326,272 L324,278 L312,278 Z" fill="#1a0c04"/>
+    <path d="M310,272 L304,276 L304,272 Z" fill="#1a0c04"/>
+  </g>
+
+  <!-- Pedestrian 3: working man in cap (closer to FG, image left). -->
+  <g>
+    <ellipse cx="92" cy="350" rx="14" ry="2.5" fill="#000" opacity="0.45"/>
+    <path d="M78,302 Q72,332 84,350 L100,350 Q110,332 106,302 Z" fill="url(#p3p1coat)"/>
+    <path d="M80,294 Q76,304 84,302 L98,302 Q106,304 104,294 Z" fill="url(#p3p1coat)"/>
+    <ellipse cx="92" cy="288" rx="8" ry="9" fill="url(#p3p1theoSkin)"/>
+    <!-- Flat cap. -->
+    <path d="M82,278 L102,278 L104,286 L80,286 Z" fill="#1a0c04"/>
+    <!-- Beard suggestion. -->
+    <path d="M86,294 Q92,298 98,294" fill="#3a2010" opacity="0.85"/>
+    <!-- Walking, hands in pockets. -->
+    <line x1="84" y1="316" x2="82" y2="332" stroke="url(#p3p1coat)" stroke-width="0.4"/>
+  </g>
+
+  <!-- Pedestrian 4: smaller distant figure. -->
+  <g opacity="0.85">
+    <ellipse cx="500" cy="346" rx="8" ry="2" fill="#000" opacity="0.4"/>
+    <path d="M494,302 Q490,328 498,346 L508,346 Q516,328 510,302 Z" fill="url(#p3p1coatBrown)"/>
+    <ellipse cx="503" cy="294" rx="5" ry="6" fill="url(#p3p1theoSkin)"/>
+    <rect x="498" y="284" width="10" height="10" fill="#1a0c04"/>
+    <path d="M495,294 L513,294 L513,296 L495,296 Z" fill="#1a0c04"/>
+  </g>
+
+  <!-- THEODORE — small in frame, walking toward viewer-left, parcel under one arm.
+       Position: just past center on the pavement. -->
+  <g>
+    <!-- Cast shadow. -->
+    <ellipse cx="386" cy="354" rx="14" ry="2" fill="#000" opacity="0.5"/>
+    <!-- Trousers. -->
+    <path d="M376,310 Q374,332 378,352 L388,352 Q390,332 388,310 Z" fill="#4a3a24"/>
+    <path d="M390,310 Q388,332 392,352 L402,352 Q404,332 402,310 Z" fill="#4a3a24"/>
+    <!-- Patch on knee (script: "patched wool trousers"). -->
+    <rect x="378" y="328" width="8" height="6" fill="#3a2010" opacity="0.8"/>
+    <line x1="378" y1="328" x2="386" y2="334" stroke="#1a0c04" stroke-width="0.4"/>
+    <!-- Boots. -->
+    <ellipse cx="382" cy="356" rx="6" ry="2" fill="#1a0c04"/>
+    <ellipse cx="396" cy="356" rx="6" ry="2" fill="#1a0c04"/>
+    <!-- Shirt. -->
+    <path d="M370,256 Q366,290 372,310 L406,310 Q412,290 408,256 Q402,250 388,250 Q374,250 370,256 Z" fill="#dcd0b4"/>
+    <!-- Brown waistcoat. -->
+    <path d="M374,262 L372,310 L406,310 L406,262 L398,266 L392,270 L388,272 L384,270 L378,266 Z" fill="url(#p3p1theoVest)"/>
+    <line x1="388" y1="272" x2="388" y2="310" stroke="#1a0c04" stroke-width="0.4" opacity="0.7"/>
+    <circle cx="388" cy="282" r="0.9" fill="url(#p3p1brass)"/>
+    <circle cx="388" cy="290" r="0.9" fill="url(#p3p1brass)"/>
+    <circle cx="388" cy="298" r="0.9" fill="url(#p3p1brass)"/>
+    <!-- Belt. -->
+    <rect x="372" y="306" width="36" height="3" fill="#3a2010"/>
+    <!-- LEFT ARM holding parcel under it. Parcel = cloth-wrapped bundle. -->
+    <path d="M370,260 Q360,280 360,300 L368,300 Q370,280 374,262 Z" fill="#dcd0b4"/>
+    <!-- Hand on parcel. -->
+    <ellipse cx="362" cy="306" rx="4" ry="3" fill="url(#p3p1theoSkin)"/>
+    <!-- PARCEL — cloth-wrapped bundle clutched against side. -->
+    <rect x="354" y="288" width="20" height="24" rx="2" fill="#a89878"/>
+    <line x1="364" y1="288" x2="364" y2="312" stroke="#5a4838" stroke-width="0.6"/>
+    <line x1="354" y1="300" x2="374" y2="300" stroke="#5a4838" stroke-width="0.6"/>
+    <!-- Twine knot. -->
+    <circle cx="364" cy="300" r="1.4" fill="#3a2010"/>
+    <!-- RIGHT ARM hangs. -->
+    <path d="M408,260 Q418,280 416,300 L408,300 Q406,280 404,262 Z" fill="#dcd0b4"/>
+    <ellipse cx="412" cy="306" rx="4" ry="3" fill="url(#p3p1theoSkin)"/>
+    <!-- Brass gear ring on left index. -->
+    <circle cx="410" cy="306" r="0.9" fill="url(#p3p1brass)"/>
+
+    <!-- Head — looking up, eyes alert (script: eyes are up watching). -->
+    <path d="M381,242 L381,256 L395,256 L395,242 Z" fill="url(#p3p1theoSkin)"/>
+    <ellipse cx="388" cy="232" rx="14" ry="16" fill="url(#p3p1theoSkin)"/>
+    <!-- Tousled spikes. -->
+    <path d="M376,222 Q374,202 388,196 Q396,194 400,196 Q402,210 400,222 L398,224 Q394,210 388,210 Q382,210 380,222 Z" fill="url(#p3p1theoHair)"/>
+    <path d="M378,200 L376,186 L382,200 Z" fill="url(#p3p1theoHair)"/>
+    <path d="M386,196 L386,182 L392,196 Z" fill="url(#p3p1theoHair)"/>
+    <path d="M394,196 L398,184 L398,198 Z" fill="url(#p3p1theoHair)"/>
+    <!-- Bangs. -->
+    <path d="M380,218 L382,228 L385,218 Z" fill="url(#p3p1theoHair)"/>
+    <path d="M388,218 L388,228 L392,218 Z" fill="url(#p3p1theoHair)"/>
+    <path d="M395,218 L394,228 L398,218 Z" fill="url(#p3p1theoHair)"/>
+    <!-- Sides. -->
+    <path d="M376,222 Q374,242 378,254 L384,254 Q380,244 380,222 Z" fill="url(#p3p1theoHair)"/>
+    <path d="M400,222 Q402,242 398,254 L392,254 Q396,244 396,222 Z" fill="url(#p3p1theoHair)"/>
+    <!-- Eyes — looking UP (head tilted slightly back to watch). -->
+    <ellipse cx="383" cy="232" rx="1.3" ry="0.8" fill="#3a2810"/>
+    <ellipse cx="392" cy="232" rx="1.3" ry="0.8" fill="#3a2810"/>
+    <!-- Brows alert. -->
+    <path d="M380,228 Q383,227 386,228" fill="none" stroke="#5a4020" stroke-width="0.55"/>
+    <path d="M389,228 Q392,227 395,228" fill="none" stroke="#5a4020" stroke-width="0.55"/>
+    <!-- Mouth slight. -->
+    <path d="M384,242 Q388,243 392,242" fill="none" stroke="#7a4020" stroke-width="0.5"/>
+  </g>
+
+  <!-- Soft brushwork accents across the whole frame. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q200,145 400,142"/>
+    <path d="M400,140 Q600,145 742,142"/>
+    <path d="M0,280 Q200,285 400,282"/>
+    <path d="M400,280 Q600,285 742,282"/>
+  </g>
+
+  <!-- CAPTIONS — upper-left, parchment style, two stacked. -->
+  <rect x="14" y="14" width="278" height="40" rx="2"
+        fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5"
+        filter="url(#balloonShadow)"/>
+  <text x="24" y="32"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="700" font-style="italic"
+        fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+  <text x="24" y="46"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic"
+        fill="#5a4a30">Theodore Edmund Hartley. Twelve years old.</text>
+
+  <rect x="14" y="60" width="294" height="40" rx="2"
+        fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5"
+        filter="url(#balloonShadow)"/>
+  <text x="24" y="78"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="700" font-style="italic"
+        fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+  <text x="24" y="92"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic"
+        fill="#5a4a30">Apprentice to Mr. Cribbage, horologist, St. John's Lane.</text>
+
+  <rect x="14" y="106" width="160" height="34" rx="2"
+        fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5"
+        filter="url(#balloonShadow)"/>
+  <text x="24" y="124"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="700" font-style="italic"
+        fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+  <text x="24" y="136"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic"
+        fill="#5a4a30">Grand name. Small life.</text>
+
+</svg>

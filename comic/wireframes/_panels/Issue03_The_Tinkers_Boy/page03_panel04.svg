@@ -1,0 +1,350 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 3 — Panel 4: Wide high-angle Theodore alone in lane, eating pie</title>
+  <desc>Wide 24mm high angle looking down into a narrow Victorian lane. Theodore walks alone on grey cobblestones, his shadow stretching long before him from a brief break of low winter sun. Eats a pie held in one hand as he walks. Buildings lean in either side, sooty London stock brick. No companions. Solitude total and practiced. Behind him, receding, the warm amber glow of a pie shop window — single warm note. Wan sunlight, long shadows, grey tones with one distant warmth. High angle isolation. The smallness of one boy in the city.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p3p4cobbleStreet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a6a5a"/>
+      <stop offset="100%" stop-color="#3a3024"/>
+    </linearGradient>
+    <linearGradient id="p3p4leftBuilding" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="50%" stop-color="#5a3a20"/>
+      <stop offset="100%" stop-color="#4a2818"/>
+    </linearGradient>
+    <linearGradient id="p3p4rightBuilding" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a2818"/>
+      <stop offset="50%" stop-color="#5a3a20"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p3p4soot" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#1a1208" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a1208" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p3p4winterSun" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#fff0c8" stop-opacity="0.32"/>
+      <stop offset="60%" stop-color="#dcc498" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#5a5048" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p4pieShopGlow">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#a85820" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p3p4theoSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8c0"/>
+      <stop offset="100%" stop-color="#9a7050"/>
+    </linearGradient>
+    <linearGradient id="p3p4theoShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p3p4theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p3p4theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#5a4020"/>
+    </radialGradient>
+    <radialGradient id="p3p4pie">
+      <stop offset="0%" stop-color="#dcaf60"/>
+      <stop offset="60%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Cobblestone lane (background, fills frame from high-angle view).
+       The cobbles are the dominant visual element since we're looking DOWN. -->
+  <rect width="742" height="364" fill="url(#p3p4cobbleStreet)"/>
+
+  <!-- Subtle winter sun glow from above-center (low angle = appears to come from sky). -->
+  <rect width="742" height="364" fill="url(#p3p4winterSun)"/>
+
+  <!-- COBBLESTONES — many small irregular stones. From this height,
+       cobbles fill most of the frame as a textured surface. -->
+  <g stroke="#1a1208" stroke-width="0.5" opacity="0.65">
+    <!-- Mortar grid: many crisscrossing cobble outlines. -->
+    <g>
+      <!-- Horizontal courses. -->
+      <path d="M0,80 Q200,82 400,80 Q600,78 742,80" fill="none"/>
+      <path d="M0,108 Q200,110 400,108 Q600,106 742,108" fill="none"/>
+      <path d="M0,138 Q200,140 400,138 Q600,136 742,138" fill="none"/>
+      <path d="M0,168 Q200,170 400,168 Q600,166 742,168" fill="none"/>
+      <path d="M0,200 Q200,202 400,200 Q600,198 742,200" fill="none"/>
+      <path d="M0,232 Q200,234 400,232 Q600,230 742,232" fill="none"/>
+      <path d="M0,264 Q200,266 400,264 Q600,262 742,264" fill="none"/>
+      <path d="M0,294 Q200,296 400,294 Q600,292 742,294" fill="none"/>
+      <path d="M0,324 Q200,326 400,324 Q600,322 742,324" fill="none"/>
+    </g>
+  </g>
+  <!-- Individual cobble outlines (alternating offsets between rows). -->
+  <g stroke="#3a3024" stroke-width="0.4" opacity="0.55">
+    <!-- Row 1. -->
+    <line x1="40" y1="50" x2="46" y2="80"/>
+    <line x1="80" y1="48" x2="86" y2="80"/>
+    <line x1="120" y1="50" x2="126" y2="80"/>
+    <line x1="160" y1="48" x2="166" y2="80"/>
+    <line x1="200" y1="50" x2="204" y2="80"/>
+    <line x1="240" y1="48" x2="244" y2="80"/>
+    <line x1="280" y1="50" x2="282" y2="80"/>
+    <line x1="320" y1="48" x2="322" y2="80"/>
+    <line x1="360" y1="50" x2="362" y2="80"/>
+    <line x1="400" y1="48" x2="402" y2="80"/>
+    <line x1="440" y1="50" x2="444" y2="80"/>
+    <line x1="480" y1="48" x2="484" y2="80"/>
+    <line x1="520" y1="50" x2="526" y2="80"/>
+    <line x1="560" y1="48" x2="566" y2="80"/>
+    <line x1="600" y1="50" x2="606" y2="80"/>
+    <line x1="640" y1="48" x2="646" y2="80"/>
+    <line x1="680" y1="50" x2="688" y2="80"/>
+    <!-- Row 2 (offset). -->
+    <line x1="20" y1="80" x2="26" y2="108"/>
+    <line x1="60" y1="82" x2="68" y2="108"/>
+    <line x1="100" y1="80" x2="108" y2="108"/>
+    <line x1="140" y1="82" x2="148" y2="108"/>
+    <line x1="180" y1="80" x2="188" y2="108"/>
+    <line x1="220" y1="82" x2="228" y2="108"/>
+    <line x1="260" y1="80" x2="268" y2="108"/>
+    <line x1="300" y1="82" x2="308" y2="108"/>
+    <line x1="340" y1="80" x2="348" y2="108"/>
+    <line x1="380" y1="82" x2="388" y2="108"/>
+    <line x1="420" y1="80" x2="428" y2="108"/>
+    <line x1="460" y1="82" x2="468" y2="108"/>
+    <line x1="500" y1="80" x2="510" y2="108"/>
+    <line x1="540" y1="82" x2="550" y2="108"/>
+    <line x1="580" y1="80" x2="590" y2="108"/>
+    <line x1="620" y1="82" x2="632" y2="108"/>
+    <line x1="660" y1="80" x2="672" y2="108"/>
+    <line x1="700" y1="82" x2="714" y2="108"/>
+    <!-- Row 3. -->
+    <line x1="40" y1="108" x2="46" y2="138"/>
+    <line x1="80" y1="110" x2="88" y2="138"/>
+    <line x1="120" y1="108" x2="128" y2="138"/>
+    <line x1="160" y1="110" x2="168" y2="138"/>
+    <line x1="200" y1="108" x2="210" y2="138"/>
+    <line x1="240" y1="110" x2="248" y2="138"/>
+    <line x1="280" y1="108" x2="288" y2="138"/>
+    <line x1="320" y1="110" x2="330" y2="138"/>
+    <line x1="360" y1="108" x2="370" y2="138"/>
+    <line x1="400" y1="110" x2="412" y2="138"/>
+    <line x1="440" y1="108" x2="452" y2="138"/>
+    <line x1="480" y1="110" x2="492" y2="138"/>
+    <line x1="520" y1="108" x2="534" y2="138"/>
+    <line x1="560" y1="110" x2="572" y2="138"/>
+    <line x1="600" y1="108" x2="614" y2="138"/>
+    <line x1="640" y1="110" x2="656" y2="138"/>
+    <line x1="680" y1="108" x2="696" y2="138"/>
+    <!-- Subsequent rows continuing pattern. -->
+    <line x1="20" y1="138" x2="26" y2="168"/>
+    <line x1="60" y1="140" x2="68" y2="168"/>
+    <line x1="100" y1="138" x2="108" y2="168"/>
+    <line x1="140" y1="140" x2="150" y2="168"/>
+    <line x1="180" y1="138" x2="190" y2="168"/>
+    <line x1="220" y1="140" x2="230" y2="168"/>
+    <line x1="260" y1="138" x2="270" y2="168"/>
+    <line x1="300" y1="140" x2="312" y2="168"/>
+    <line x1="340" y1="138" x2="354" y2="168"/>
+    <line x1="380" y1="140" x2="394" y2="168"/>
+    <line x1="420" y1="138" x2="436" y2="168"/>
+    <line x1="460" y1="140" x2="476" y2="168"/>
+    <line x1="500" y1="138" x2="516" y2="168"/>
+    <line x1="540" y1="140" x2="558" y2="168"/>
+    <line x1="580" y1="138" x2="600" y2="168"/>
+    <line x1="620" y1="140" x2="640" y2="168"/>
+    <line x1="660" y1="138" x2="682" y2="168"/>
+    <line x1="700" y1="140" x2="722" y2="168"/>
+    <!-- Row continues. -->
+    <line x1="40" y1="168" x2="48" y2="200"/>
+    <line x1="80" y1="170" x2="88" y2="200"/>
+    <line x1="120" y1="168" x2="130" y2="200"/>
+    <line x1="160" y1="170" x2="170" y2="200"/>
+    <line x1="200" y1="168" x2="212" y2="200"/>
+    <line x1="240" y1="170" x2="252" y2="200"/>
+    <line x1="280" y1="168" x2="292" y2="200"/>
+    <line x1="320" y1="170" x2="334" y2="200"/>
+    <line x1="360" y1="168" x2="376" y2="200"/>
+    <line x1="400" y1="170" x2="416" y2="200"/>
+    <line x1="440" y1="168" x2="458" y2="200"/>
+    <line x1="480" y1="170" x2="500" y2="200"/>
+    <line x1="520" y1="168" x2="540" y2="200"/>
+    <line x1="560" y1="170" x2="580" y2="200"/>
+    <line x1="600" y1="168" x2="622" y2="200"/>
+    <line x1="640" y1="170" x2="662" y2="200"/>
+    <line x1="680" y1="168" x2="704" y2="200"/>
+  </g>
+
+  <!-- Buildings lean in from either side at high angle — they appear as wedge-shaped slabs at top of frame. -->
+  <!-- LEFT BUILDING (perspective wedge at high angle). -->
+  <path d="M0,0 L120,0 L78,170 L0,210 Z" fill="url(#p3p4leftBuilding)"/>
+  <path d="M0,0 L120,0 L78,170 L0,210 Z" fill="url(#p3p4soot)"/>
+  <!-- Brick mortar lines on left wall surface, perspective. -->
+  <g stroke="#1a0e08" stroke-width="0.5" opacity="0.6">
+    <path d="M2,30 L114,30"/>
+    <path d="M2,60 L106,60"/>
+    <path d="M2,90 L98,90"/>
+    <path d="M2,120 L90,120"/>
+    <path d="M2,150 L82,150"/>
+    <path d="M2,180 L40,180"/>
+  </g>
+
+  <!-- Window of pie shop (at left wall, near where Theodore came from — receding behind him). -->
+  <g>
+    <rect x="22" y="50" width="48" height="58" fill="#1a0c04"/>
+    <ellipse cx="46" cy="80" rx="80" ry="40" fill="url(#p3p4pieShopGlow)" opacity="0.65"/>
+    <!-- Steam / glow. -->
+    <rect x="26" y="56" width="40" height="50" fill="#a89878" opacity="0.4"/>
+    <rect x="26" y="56" width="40" height="50" fill="#fff0a8" opacity="0.18"/>
+    <!-- Pie silhouettes. -->
+    <ellipse cx="36" cy="84" rx="6" ry="2" fill="#3a2010" opacity="0.55"/>
+    <ellipse cx="56" cy="86" rx="5" ry="2" fill="#3a2010" opacity="0.55"/>
+  </g>
+
+  <!-- RIGHT BUILDING. -->
+  <path d="M742,0 L622,0 L664,170 L742,210 Z" fill="url(#p3p4rightBuilding)"/>
+  <path d="M742,0 L622,0 L664,170 L742,210 Z" fill="url(#p3p4soot)"/>
+  <g stroke="#1a0e08" stroke-width="0.5" opacity="0.6">
+    <path d="M740,30 L628,30"/>
+    <path d="M740,60 L636,60"/>
+    <path d="M740,90 L644,90"/>
+    <path d="M740,120 L652,120"/>
+    <path d="M740,150 L660,150"/>
+    <path d="M740,180 L702,180"/>
+  </g>
+  <!-- Some small windows on the right building. -->
+  <rect x="680" y="40" width="32" height="44" fill="#1a0c04"/>
+  <rect x="680" y="40" width="32" height="44" fill="#5a5048" opacity="0.18"/>
+  <rect x="690" y="120" width="32" height="44" fill="#1a0c04"/>
+  <rect x="690" y="120" width="32" height="44" fill="#5a5048" opacity="0.18"/>
+
+  <!-- Drainpipe down right wall (continuity with established visual vocabulary). -->
+  <line x1="704" y1="0" x2="700" y2="180" stroke="#1a0c04" stroke-width="3"/>
+  <line x1="703" y1="0" x2="700" y2="180" stroke="#3a2010" stroke-width="0.6"/>
+  <!-- Bracket. -->
+  <rect x="699" y="80" width="6" height="3" fill="#3a2010"/>
+
+  <!-- Building corners cast shadow into the lane. -->
+  <path d="M78,170 L0,210 L0,250 L100,200 Z" fill="#1a0c04" opacity="0.45"/>
+  <path d="M664,170 L742,210 L742,250 L640,200 Z" fill="#1a0c04" opacity="0.45"/>
+
+  <!-- THEODORE'S LONG SHADOW stretching from the boy toward the foreground (image bottom).
+       Sun is from behind/upper-frame, shadow stretches toward bottom. -->
+  <path d="M386,232 L382,238 L398,238 L404,232 L408,260 L412,300 L412,346 L388,358 L370,346 L368,300 L372,260 Z" fill="#1a1208" opacity="0.55"/>
+  <!-- Shadow head suggestion (elongated). -->
+  <ellipse cx="390" cy="346" rx="22" ry="6" fill="#1a1208" opacity="0.55"/>
+  <!-- Tilted long shadow trailing toward viewer. -->
+  <path d="M382,238 L348,358 L320,358 L370,238 Z" fill="#1a1208" opacity="0.45"/>
+
+  <!-- THEODORE — small in frame, walking from upper-left to viewer (high-angle view = we see top of head). -->
+  <g>
+    <!-- We see his head from above — the hair takes more visual space than face. -->
+    <!-- Shoulders/upper body. -->
+    <path d="M364,200 Q358,242 374,250 L406,250 Q422,242 416,200 Q412,194 390,194 Q368,194 364,200 Z" fill="url(#p3p4theoVest)"/>
+    <!-- Linen collar peeking. -->
+    <path d="M376,200 L382,210 L398,210 L404,200 Z" fill="url(#p3p4theoShirt)"/>
+    <!-- Brass pendant. -->
+    <circle cx="390" cy="208" r="1.4" fill="#a89878"/>
+
+    <!-- Sleeves. -->
+    <path d="M364,202 Q352,224 354,250 L370,250 Q374,224 374,200 Z" fill="url(#p3p4theoVest)"/>
+    <path d="M416,202 Q428,224 426,250 L412,250 Q412,224 416,200 Z" fill="url(#p3p4theoVest)"/>
+
+    <!-- LEFT ARM holding the pie (image-left, slightly forward). -->
+    <path d="M354,250 Q348,260 352,270 L364,268 Q368,258 368,250 Z" fill="url(#p3p4theoSkin)"/>
+    <!-- PIE held in hand. -->
+    <ellipse cx="350" cy="272" rx="14" ry="6" fill="url(#p3p4pie)"/>
+    <ellipse cx="350" cy="272" rx="11" ry="4" fill="#dcaf60"/>
+    <!-- Pie crust crimping. -->
+    <g stroke="#5a3018" stroke-width="0.5" opacity="0.85">
+      <line x1="340" y1="270" x2="342" y2="274"/>
+      <line x1="346" y1="268" x2="346" y2="274"/>
+      <line x1="350" y1="268" x2="350" y2="274"/>
+      <line x1="354" y1="268" x2="354" y2="274"/>
+      <line x1="360" y1="270" x2="358" y2="274"/>
+    </g>
+    <!-- Bite already taken (small notch). -->
+    <path d="M340,272 L344,266 L344,268" fill="#3a1808" opacity="0.85"/>
+    <!-- Steam from pie. -->
+    <path d="M348,266 Q350,260 348,254" stroke="#dcd0b4" stroke-width="0.6" opacity="0.6" fill="none"/>
+    <path d="M352,266 Q354,260 352,254" stroke="#dcd0b4" stroke-width="0.6" opacity="0.5" fill="none"/>
+
+    <!-- RIGHT ARM hangs at side. -->
+    <path d="M426,250 Q430,262 426,272 L416,270 Q412,260 412,250 Z" fill="url(#p3p4theoSkin)"/>
+
+    <!-- HEAD viewed from above — top of head dominates. -->
+    <ellipse cx="390" cy="184" rx="20" ry="22" fill="url(#p3p4theoSkin)"/>
+    <!-- Hair viewed from above — most of the head visible. -->
+    <path d="M370,170 Q368,148 386,142 Q394,138 400,142 Q412,150 410,180 L406,184 Q402,164 396,160 L380,160 Q376,164 374,184 Z" fill="url(#p3p4theoHair)"/>
+    <!-- Top spikes (tousled crown). -->
+    <path d="M374,148 L370,134 L378,148 Z" fill="url(#p3p4theoHair)"/>
+    <path d="M384,142 L382,128 L390,144 Z" fill="url(#p3p4theoHair)"/>
+    <path d="M394,140 L398,128 L398,144 Z" fill="url(#p3p4theoHair)"/>
+    <path d="M404,144 L408,132 L406,148 Z" fill="url(#p3p4theoHair)"/>
+    <!-- Forehead bangs visible at front edge of head from this angle. -->
+    <path d="M376,184 L378,194 L382,184 Z" fill="url(#p3p4theoHair)"/>
+    <path d="M386,186 L388,196 L392,186 Z" fill="url(#p3p4theoHair)"/>
+    <path d="M396,184 L394,194 L400,184 Z" fill="url(#p3p4theoHair)"/>
+    <path d="M404,184 L408,194 L408,184 Z" fill="url(#p3p4theoHair)"/>
+    <!-- Hair crown / part visible (whorl from top view). -->
+    <ellipse cx="390" cy="170" rx="6" ry="3" fill="#3a2810" opacity="0.5"/>
+    <!-- Highlight strands. -->
+    <g stroke="#f5d8a8" stroke-width="0.7" opacity="0.6">
+      <line x1="384" y1="150" x2="384" y2="166"/>
+      <line x1="396" y1="150" x2="396" y2="166"/>
+    </g>
+
+    <!-- Tiny face features visible at the front (foreshortened from above). -->
+    <ellipse cx="384" cy="194" rx="0.9" ry="0.6" fill="#3a2810"/>
+    <ellipse cx="396" cy="194" rx="0.9" ry="0.6" fill="#3a2810"/>
+    <!-- Nose (a tiny line). -->
+    <line x1="390" y1="198" x2="390" y2="202" stroke="#7a4828" stroke-width="0.4"/>
+  </g>
+
+  <!-- Cart wheel ruts in cobbles (faint, two parallel lines fading toward foreground). -->
+  <g stroke="#1a1208" stroke-width="1" opacity="0.3" fill="none">
+    <path d="M340,180 Q330,260 320,360"/>
+    <path d="M450,180 Q460,260 470,360"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,30 Q200,35 400,32"/>
+    <path d="M400,30 Q600,35 742,32"/>
+    <path d="M0,250 Q200,255 400,252"/>
+    <path d="M400,250 Q600,255 742,252"/>
+  </g>
+
+  <!-- CAPTIONS — upper-right (clear of buildings + Theodore + shadow). -->
+  <rect x="486" y="14" width="246" height="56" rx="2"
+        fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5"
+        filter="url(#balloonShadow)"/>
+  <text x="496" y="32"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="700" font-style="italic"
+        fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+  <text x="496" y="48"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic"
+        fill="#5a4a30">He eats alone. He works alone.</text>
+  <text x="496" y="62"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic"
+        fill="#5a4a30">He walks home alone.</text>
+
+  <rect x="486" y="76" width="200" height="40" rx="2"
+        fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5"
+        filter="url(#balloonShadow)"/>
+  <text x="496" y="94"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="700" font-style="italic"
+        fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+  <text x="496" y="108"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic"
+        fill="#5a4a30">Most days, this is enough.</text>
+
+</svg>
