@@ -1,68 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 471" width="742" height="471">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 566" width="742" height="566">
   <title>Issue 1 — Page 5 — Panel 1: Victorian London roofscape, the city sleeps</title>
-  <desc>Establishing wide at 24mm, eye level, cinematic letterbox. Victorian London roofscape at night — dense forest of chimney pots, slate roofs, church spires, iron weathervanes silhouetted against deep blue-black sky. Fog hangs in layers between buildings, glowing amber from gaslight rising below. A few lit windows. A distant chimney plume. Sky vast, dark, clear. Entirely warm-lit world before the squad arrives. CAPTION: "The city sleeps. The gas burns low."</desc>
+  <desc>Establishing wide at 24mm, eye level. Victorian London roofscape at night — dense forest of chimney pots, slate roofs, church spires, iron weathervanes silhouetted against deep blue-black sky. Fog hangs in layers between buildings, glowing amber from gaslight rising below. A few lit windows. A distant chimney plume. Sky vast, dark, clear. Entirely warm-lit world before the squad arrives. CAPTION: "The city sleeps. The gas burns low."</desc>
 
   <defs>
-    <!-- Shared balloon drop shadow (dialogue-style.md). -->
     <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
     </filter>
-
-    <!-- Sky: deep blue-black with stars. -->
     <linearGradient id="p5p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#0a1228"/>
       <stop offset="50%" stop-color="#15203a"/>
       <stop offset="100%" stop-color="#3a3018"/>
     </linearGradient>
-
-    <!-- Fog: amber-gold from gaslight rising below. -->
     <linearGradient id="p5p1fog" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#3a2818" stop-opacity="0"/>
       <stop offset="40%" stop-color="#5a3a18" stop-opacity="0.3"/>
       <stop offset="80%" stop-color="#a8682a" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#c8783a" stop-opacity="0.75"/>
     </linearGradient>
-
-    <!-- Gaslight bloom from streets below (rising). -->
     <radialGradient id="p5p1gasGlow" cx="50%" cy="100%" r="80%">
       <stop offset="0%" stop-color="#f5a850" stop-opacity="0.55"/>
       <stop offset="40%" stop-color="#c87830" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
     </radialGradient>
-
-    <!-- Roof + brick masses (silhouette). -->
     <linearGradient id="p5p1brick" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#2a1810"/>
       <stop offset="100%" stop-color="#15080a"/>
     </linearGradient>
-
     <linearGradient id="p5p1slate" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#1a1820"/>
       <stop offset="100%" stop-color="#0a0810"/>
     </linearGradient>
-
-    <!-- Lit window glow. -->
     <radialGradient id="p5p1windowGlow" cx="50%" cy="50%">
       <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.95"/>
       <stop offset="60%" stop-color="#f5a850" stop-opacity="0.7"/>
       <stop offset="100%" stop-color="#c87830" stop-opacity="0"/>
     </radialGradient>
-
-    <filter id="p5p1bloom" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3"/>
-    </filter>
-    <filter id="p5p1softBloom" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="1.5"/>
-    </filter>
+    <filter id="p5p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="p5p1softBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.5"/></filter>
   </defs>
 
-  <!-- ========================================================== -->
-  <!-- LAYER: deep night sky with stars                             -->
-  <!-- ========================================================== -->
+  <!-- Sky takes upper 50% (more vertical room for the cityscape). -->
   <g id="p5p1-sky">
-    <rect width="742" height="471" fill="url(#p5p1sky)"/>
-
-    <!-- Stars scattered across upper sky. -->
+    <rect width="742" height="566" fill="url(#p5p1sky)"/>
     <g fill="#dce4f0" opacity="0.85">
       <circle cx="68" cy="42" r="0.9"/>
       <circle cx="124" cy="28" r="0.7"/>
@@ -82,8 +61,17 @@
       <circle cx="394" cy="98" r="0.7"/>
       <circle cx="512" cy="86" r="0.6"/>
       <circle cx="654" cy="94" r="0.7"/>
+      <circle cx="100" cy="130" r="0.7"/>
+      <circle cx="220" cy="140" r="0.6"/>
+      <circle cx="340" cy="120" r="0.7"/>
+      <circle cx="460" cy="135" r="0.6"/>
+      <circle cx="580" cy="125" r="0.7"/>
+      <circle cx="700" cy="140" r="0.6"/>
+      <circle cx="160" cy="180" r="0.5"/>
+      <circle cx="280" cy="200" r="0.6"/>
+      <circle cx="420" cy="180" r="0.5"/>
+      <circle cx="540" cy="200" r="0.6"/>
     </g>
-    <!-- Brighter stars with subtle glow. -->
     <g fill="#fff5d8" opacity="0.95">
       <circle cx="186" cy="56" r="1.6" filter="url(#p5p1softBloom)"/>
       <circle cx="356" cy="34" r="1.8" filter="url(#p5p1softBloom)"/>
@@ -91,164 +79,121 @@
     </g>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- LAYER: fog layers between buildings                          -->
-  <!-- ========================================================== -->
+  <!-- Fog band. -->
   <g id="p5p1-fog-far">
-    <!-- Far fog band (amber-gold from gaslight rising). -->
-    <rect y="280" width="742" height="191" fill="url(#p5p1fog)" opacity="0.85"/>
-    <!-- Distant gaslight glow halos in fog. -->
-    <ellipse cx="120" cy="380" rx="80" ry="32" fill="url(#p5p1gasGlow)" filter="url(#p5p1bloom)"/>
-    <ellipse cx="320" cy="400" rx="100" ry="38" fill="url(#p5p1gasGlow)" filter="url(#p5p1bloom)"/>
-    <ellipse cx="520" cy="385" rx="80" ry="32" fill="url(#p5p1gasGlow)" filter="url(#p5p1bloom)"/>
-    <ellipse cx="680" cy="395" rx="60" ry="28" fill="url(#p5p1gasGlow)" filter="url(#p5p1bloom)"/>
+    <rect y="340" width="742" height="226" fill="url(#p5p1fog)" opacity="0.85"/>
+    <ellipse cx="120" cy="450" rx="80" ry="38" fill="url(#p5p1gasGlow)" filter="url(#p5p1bloom)"/>
+    <ellipse cx="320" cy="475" rx="100" ry="42" fill="url(#p5p1gasGlow)" filter="url(#p5p1bloom)"/>
+    <ellipse cx="520" cy="455" rx="80" ry="38" fill="url(#p5p1gasGlow)" filter="url(#p5p1bloom)"/>
+    <ellipse cx="680" cy="465" rx="60" ry="34" fill="url(#p5p1gasGlow)" filter="url(#p5p1bloom)"/>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- LAYER: distant rooftops + church spires (background)         -->
-  <!-- ========================================================== -->
+  <!-- Distant rooftops + church spire. -->
   <g id="p5p1-roofs-far">
-    <!-- Far rooftop silhouette band. -->
-    <path d="M0,260 L40,250 L60,256 L90,242 L130,250 L160,238 L200,246 L230,232 L270,242 L310,228 L340,238 L380,224 L420,234 L460,220 L500,232 L540,218 L580,228 L620,214 L660,226 L700,212 L742,224 L742,290 L0,290 Z" fill="url(#p5p1slate)" opacity="0.85"/>
+    <path d="M0,300 L40,290 L60,296 L90,282 L130,290 L160,278 L200,286 L230,272 L270,282 L310,268 L340,278 L380,264 L420,274 L460,260 L500,272 L540,258 L580,268 L620,254 L660,266 L700,252 L742,264 L742,340 L0,340 Z" fill="url(#p5p1slate)" opacity="0.85"/>
 
-    <!-- Distant church spire (left of center). -->
-    <path d="M280,160 L290,140 L296,140 L300,120 L310,140 L316,140 L322,160 L322,260 L280,260 Z" fill="url(#p5p1slate)"/>
-    <path d="M298,80 L302,80 L302,120 L298,120 Z" fill="url(#p5p1slate)"/>
-    <!-- Spire cross. -->
-    <line x1="300" y1="74" x2="300" y2="86" stroke="#1a1820" stroke-width="1.2"/>
-    <line x1="296" y1="80" x2="304" y2="80" stroke="#1a1820" stroke-width="1.2"/>
-    <!-- Spire window slit (slightly lit). -->
-    <rect x="296" y="180" width="8" height="20" fill="#3a2810" opacity="0.85"/>
+    <path d="M280,200 L290,180 L296,180 L300,160 L310,180 L316,180 L322,200 L322,300 L280,300 Z" fill="url(#p5p1slate)"/>
+    <path d="M298,120 L302,120 L302,160 L298,160 Z" fill="url(#p5p1slate)"/>
+    <line x1="300" y1="114" x2="300" y2="126" stroke="#1a1820" stroke-width="1.2"/>
+    <line x1="296" y1="120" x2="304" y2="120" stroke="#1a1820" stroke-width="1.2"/>
+    <rect x="296" y="220" width="8" height="20" fill="#3a2810" opacity="0.85"/>
 
-    <!-- Distant chimney smoke plume — soft, diffuse. -->
-    <ellipse cx="468" cy="180" rx="18" ry="38" fill="#3a2818" opacity="0.35" filter="url(#p5p1bloom)"/>
-    <ellipse cx="476" cy="140" rx="14" ry="30" fill="#5a3a20" opacity="0.4" filter="url(#p5p1bloom)"/>
-    <ellipse cx="482" cy="105" rx="10" ry="22" fill="#5a3a20" opacity="0.32" filter="url(#p5p1bloom)"/>
-    <!-- Drift wisps. -->
-    <path d="M462,200 Q466,180 472,160 Q478,140 486,116" fill="none" stroke="#5a3a20" stroke-width="2" opacity="0.55" stroke-linecap="round"/>
+    <ellipse cx="468" cy="260" rx="18" ry="48" fill="#3a2818" opacity="0.35" filter="url(#p5p1bloom)"/>
+    <ellipse cx="476" cy="200" rx="14" ry="36" fill="#5a3a20" opacity="0.4" filter="url(#p5p1bloom)"/>
+    <ellipse cx="482" cy="150" rx="10" ry="28" fill="#5a3a20" opacity="0.32" filter="url(#p5p1bloom)"/>
+    <path d="M462,300 Q466,260 472,220 Q478,180 486,140" fill="none" stroke="#5a3a20" stroke-width="2" opacity="0.55" stroke-linecap="round"/>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- LAYER: mid-ground rooftops + chimney pots                    -->
-  <!-- ========================================================== -->
+  <!-- Mid-ground rooftops. -->
   <g id="p5p1-roofs-mid">
-    <!-- Mid-ground rooftop band. -->
-    <path d="M0,310 L30,300 L60,308 L90,294 L120,304 L160,290 L200,300 L240,286 L280,298 L320,282 L360,294 L400,278 L440,290 L480,274 L520,286 L560,270 L600,282 L640,266 L680,278 L720,262 L742,272 L742,340 L0,340 Z" fill="url(#p5p1brick)"/>
+    <path d="M0,370 L30,358 L60,366 L90,352 L120,362 L160,348 L200,358 L240,344 L280,356 L320,340 L360,352 L400,336 L440,348 L480,332 L520,344 L560,328 L600,340 L640,324 L680,336 L720,320 L742,330 L742,400 L0,400 Z" fill="url(#p5p1brick)"/>
 
-    <!-- Chimney pots (terracotta clusters across mid-roofs). -->
     <g id="p5p1-chimney-pots">
-      <!-- Cluster 1 (left). -->
-      <rect x="50" y="280" width="8" height="22" fill="#3a1810"/>
-      <rect x="60" y="276" width="8" height="26" fill="#3a1810"/>
-      <rect x="48" y="278" width="22" height="3" fill="#5a2812"/>
-      <!-- Cluster 2 (left-mid). -->
-      <rect x="148" y="278" width="6" height="20" fill="#3a1810"/>
-      <rect x="156" y="274" width="6" height="24" fill="#3a1810"/>
-      <rect x="164" y="278" width="6" height="20" fill="#3a1810"/>
-      <rect x="146" y="276" width="26" height="3" fill="#5a2812"/>
-      <!-- Cluster 3 (center). -->
-      <rect x="358" y="280" width="8" height="20" fill="#3a1810"/>
-      <rect x="368" y="276" width="8" height="24" fill="#3a1810"/>
-      <rect x="378" y="278" width="8" height="22" fill="#3a1810"/>
-      <rect x="356" y="278" width="32" height="3" fill="#5a2812"/>
-      <!-- Cluster 4 (right-mid). -->
-      <rect x="498" y="278" width="6" height="22" fill="#3a1810"/>
-      <rect x="506" y="274" width="6" height="26" fill="#3a1810"/>
-      <rect x="514" y="276" width="6" height="24" fill="#3a1810"/>
-      <rect x="496" y="276" width="26" height="3" fill="#5a2812"/>
-      <!-- Cluster 5 (right). -->
-      <rect x="618" y="276" width="6" height="22" fill="#3a1810"/>
-      <rect x="626" y="272" width="8" height="26" fill="#3a1810"/>
-      <rect x="616" y="274" width="20" height="3" fill="#5a2812"/>
-      <!-- Cluster 6 (far right). -->
-      <rect x="688" y="270" width="6" height="20" fill="#3a1810"/>
-      <rect x="696" y="266" width="6" height="24" fill="#3a1810"/>
-      <rect x="704" y="270" width="6" height="20" fill="#3a1810"/>
-      <rect x="686" y="268" width="26" height="3" fill="#5a2812"/>
+      <rect x="50" y="340" width="8" height="22" fill="#3a1810"/>
+      <rect x="60" y="336" width="8" height="26" fill="#3a1810"/>
+      <rect x="48" y="338" width="22" height="3" fill="#5a2812"/>
+      <rect x="148" y="338" width="6" height="20" fill="#3a1810"/>
+      <rect x="156" y="334" width="6" height="24" fill="#3a1810"/>
+      <rect x="164" y="338" width="6" height="20" fill="#3a1810"/>
+      <rect x="146" y="336" width="26" height="3" fill="#5a2812"/>
+      <rect x="358" y="340" width="8" height="20" fill="#3a1810"/>
+      <rect x="368" y="336" width="8" height="24" fill="#3a1810"/>
+      <rect x="378" y="338" width="8" height="22" fill="#3a1810"/>
+      <rect x="356" y="338" width="32" height="3" fill="#5a2812"/>
+      <rect x="498" y="338" width="6" height="22" fill="#3a1810"/>
+      <rect x="506" y="334" width="6" height="26" fill="#3a1810"/>
+      <rect x="514" y="336" width="6" height="24" fill="#3a1810"/>
+      <rect x="496" y="336" width="26" height="3" fill="#5a2812"/>
+      <rect x="618" y="336" width="6" height="22" fill="#3a1810"/>
+      <rect x="626" y="332" width="8" height="26" fill="#3a1810"/>
+      <rect x="616" y="334" width="20" height="3" fill="#5a2812"/>
+      <rect x="688" y="330" width="6" height="20" fill="#3a1810"/>
+      <rect x="696" y="326" width="6" height="24" fill="#3a1810"/>
+      <rect x="704" y="330" width="6" height="20" fill="#3a1810"/>
+      <rect x="686" y="328" width="26" height="3" fill="#5a2812"/>
     </g>
 
-    <!-- Iron weathervane silhouette. -->
-    <g id="p5p1-weathervane" transform="translate(420, 260)">
+    <g id="p5p1-weathervane" transform="translate(420, 320)">
       <line x1="0" y1="0" x2="0" y2="-32" stroke="#15080a" stroke-width="1.5"/>
       <line x1="-8" y1="-22" x2="8" y2="-22" stroke="#15080a" stroke-width="1"/>
       <text x="-7" y="-19" font-size="5" fill="#15080a">N</text>
       <text x="6" y="-19" font-size="5" fill="#15080a">S</text>
-      <!-- Arrow. -->
       <polygon points="-2,-32 2,-32 6,-26 4,-22 -4,-22 -6,-26" fill="#15080a"/>
     </g>
 
-    <!-- Lit windows in mid-ground buildings (warm amber, raised above fg roof line). -->
     <g id="p5p1-lit-windows">
-      <!-- Window 1 (left, on a building behind the fg roof band). -->
-      <ellipse cx="222" cy="320" rx="20" ry="13" fill="url(#p5p1windowGlow)" filter="url(#p5p1bloom)"/>
-      <rect x="214" y="312" width="16" height="18" fill="#fff5d8" opacity="0.95"/>
-      <line x1="222" y1="312" x2="222" y2="330" stroke="#3a1810" stroke-width="0.8"/>
-      <line x1="214" y1="321" x2="230" y2="321" stroke="#3a1810" stroke-width="0.8"/>
+      <ellipse cx="222" cy="380" rx="20" ry="13" fill="url(#p5p1windowGlow)" filter="url(#p5p1bloom)"/>
+      <rect x="214" y="372" width="16" height="18" fill="#fff5d8" opacity="0.95"/>
+      <line x1="222" y1="372" x2="222" y2="390" stroke="#3a1810" stroke-width="0.8"/>
+      <line x1="214" y1="381" x2="230" y2="381" stroke="#3a1810" stroke-width="0.8"/>
 
-      <!-- Window 2 (center-right, smaller). -->
-      <ellipse cx="468" cy="312" rx="16" ry="11" fill="url(#p5p1windowGlow)" filter="url(#p5p1bloom)"/>
-      <rect x="462" y="306" width="12" height="14" fill="#fff5d8" opacity="0.9"/>
-      <line x1="468" y1="306" x2="468" y2="320" stroke="#3a1810" stroke-width="0.7"/>
-      <line x1="462" y1="313" x2="474" y2="313" stroke="#3a1810" stroke-width="0.7"/>
+      <ellipse cx="468" cy="372" rx="16" ry="11" fill="url(#p5p1windowGlow)" filter="url(#p5p1bloom)"/>
+      <rect x="462" y="366" width="12" height="14" fill="#fff5d8" opacity="0.9"/>
+      <line x1="468" y1="366" x2="468" y2="380" stroke="#3a1810" stroke-width="0.7"/>
+      <line x1="462" y1="373" x2="474" y2="373" stroke="#3a1810" stroke-width="0.7"/>
 
-      <!-- Window 3 (right edge, distant). -->
-      <ellipse cx="600" cy="324" rx="14" ry="10" fill="url(#p5p1windowGlow)" filter="url(#p5p1bloom)" opacity="0.85"/>
-      <rect x="595" y="319" width="10" height="12" fill="#fff5d8" opacity="0.85"/>
-      <line x1="600" y1="319" x2="600" y2="331" stroke="#3a1810" stroke-width="0.6"/>
-      <line x1="595" y1="325" x2="605" y2="325" stroke="#3a1810" stroke-width="0.6"/>
+      <ellipse cx="600" cy="384" rx="14" ry="10" fill="url(#p5p1windowGlow)" filter="url(#p5p1bloom)" opacity="0.85"/>
+      <rect x="595" y="379" width="10" height="12" fill="#fff5d8" opacity="0.85"/>
+      <line x1="600" y1="379" x2="600" y2="391" stroke="#3a1810" stroke-width="0.6"/>
+      <line x1="595" y1="385" x2="605" y2="385" stroke="#3a1810" stroke-width="0.6"/>
     </g>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- LAYER: foreground rooftops + chimneys (closest to camera)    -->
-  <!-- ========================================================== -->
+  <!-- Foreground rooftops. -->
   <g id="p5p1-roofs-fg">
-    <!-- Foreground rooftop band (smaller — only takes lower 15% so cityscape dominates). -->
-    <path d="M0,400 L80,388 L150,396 L220,386 L290,396 L360,384 L430,394 L500,382 L570,392 L640,382 L720,392 L742,388 L742,471 L0,471 Z" fill="#0a0408"/>
+    <path d="M0,470 L80,458 L150,466 L220,456 L290,466 L360,454 L430,464 L500,452 L570,462 L640,452 L720,462 L742,458 L742,566 L0,566 Z" fill="#0a0408"/>
 
-    <!-- Foreground chimney pot cluster (large, dominant left-foreground). -->
     <g id="p5p1-fg-chimneys">
-      <!-- Stack base sitting on fg roof at y=400. -->
-      <rect x="60" y="360" width="50" height="40" fill="#1a0810"/>
-      <!-- Pots on stack. -->
-      <rect x="64" y="336" width="10" height="28" fill="#3a1810"/>
-      <rect x="76" y="330" width="10" height="34" fill="#3a1810"/>
-      <rect x="88" y="334" width="10" height="30" fill="#3a1810"/>
-      <rect x="100" y="338" width="10" height="26" fill="#3a1810"/>
-      <rect x="62" y="334" width="50" height="4" fill="#5a2812"/>
-      <!-- Soot streaks. -->
-      <line x1="68" y1="336" x2="68" y2="360" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
-      <line x1="80" y1="330" x2="80" y2="360" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
-      <line x1="92" y1="334" x2="92" y2="360" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
-      <line x1="104" y1="338" x2="104" y2="360" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+      <rect x="60" y="430" width="50" height="40" fill="#1a0810"/>
+      <rect x="64" y="406" width="10" height="28" fill="#3a1810"/>
+      <rect x="76" y="400" width="10" height="34" fill="#3a1810"/>
+      <rect x="88" y="404" width="10" height="30" fill="#3a1810"/>
+      <rect x="100" y="408" width="10" height="26" fill="#3a1810"/>
+      <rect x="62" y="404" width="50" height="4" fill="#5a2812"/>
+      <line x1="68" y1="406" x2="68" y2="430" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+      <line x1="80" y1="400" x2="80" y2="430" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+      <line x1="92" y1="404" x2="92" y2="430" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+      <line x1="104" y1="408" x2="104" y2="430" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
     </g>
 
-    <!-- Foreground tall chimney (right). -->
     <g id="p5p1-fg-chimney-right">
-      <rect x="660" y="320" width="32" height="80" fill="#1a0810"/>
-      <rect x="664" y="300" width="8" height="22" fill="#3a1810"/>
-      <rect x="676" y="296" width="8" height="26" fill="#3a1810"/>
-      <rect x="660" y="302" width="32" height="3" fill="#5a2812"/>
-      <!-- Faint smoke wisp. -->
-      <path d="M668,296 Q670,278 666,262 Q672,250 670,236" fill="none" stroke="#3a2818" stroke-width="4" opacity="0.5" stroke-linecap="round"/>
+      <rect x="660" y="390" width="32" height="80" fill="#1a0810"/>
+      <rect x="664" y="370" width="8" height="22" fill="#3a1810"/>
+      <rect x="676" y="366" width="8" height="26" fill="#3a1810"/>
+      <rect x="660" y="372" width="32" height="3" fill="#5a2812"/>
+      <path d="M668,366 Q670,348 666,332 Q672,320 670,306" fill="none" stroke="#3a2818" stroke-width="4" opacity="0.5" stroke-linecap="round"/>
     </g>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- LAYER: caption                                              -->
-  <!-- ========================================================== -->
+  <!-- Caption. -->
   <g id="p5p1-caption">
     <rect x="20" y="20" width="220" height="50" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
     <text x="30" y="40" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" font-style="italic" fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
     <text x="30" y="58" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-style="italic" fill="#5a4a30">The city sleeps. The gas burns low.</text>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- LAYER: panel meta                                           -->
-  <!-- ========================================================== -->
   <g id="p5p1-meta">
     <text x="730" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
-    <text x="734" y="463" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WIDE</text>
+    <text x="734" y="558" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WIDE</text>
   </g>
-
 </svg>
