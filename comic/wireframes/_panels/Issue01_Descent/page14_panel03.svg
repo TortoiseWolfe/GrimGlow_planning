@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 1 — Page 14 — Panel 3: Sable rack focus profile — command in amber light</title>
+  <desc>CU 85mm shallow DOF rack focus. FOREGROUND sharp focus: Sable's profile, dark brown skin, silver-white buzz, sharp features, jaw tight, eyes forward, still + controlled. Lit side warm amber from city. Dark side in shadow — no cool light to fill, single-source dramatic = new normal. BACKGROUND blurred but identifiable: ruby Thresh against wall, emerald Jink standing, sapphire Luma between. Rack focus = visual hierarchy: commander receives info, squad behind will live with consequences. Three-line dialogue: SABLE "Can it be rebuilt?" + WREN OP equivalent parts + SABLE "Then that's what we do."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="p14p3warmCity" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p14p3silver" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#dce4f0"/>
+    </linearGradient>
+    <linearGradient id="p14p3skinSplit" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="40%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#a87850"/>
+    </linearGradient>
+    <radialGradient id="p14p3fractureGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p14p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p14p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p14p3heavyBlur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Background dim. -->
+  <rect width="366" height="400" fill="url(#p14p3bg)"/>
+
+  <!-- Strong WARM AMBER from LEFT (single source per script). -->
+  <ellipse cx="0" cy="200" rx="280" ry="240" fill="url(#p14p3warmCity)" filter="url(#p14p3strongBloom)"/>
+
+  <!-- BLURRED BACKGROUND figures (rack focus — out of focus per script). -->
+  <g filter="url(#p14p3heavyBlur)" opacity="0.7">
+    <!-- Thresh ruby far-back-left (against wall). -->
+    <ellipse cx="50" cy="250" rx="20" ry="30" fill="#dc2030"/>
+    <ellipse cx="50" cy="220" rx="10" ry="11" fill="#d8a880"/>
+    <ellipse cx="50" cy="216" rx="9" ry="4" fill="#a83a18"/>
+    <!-- Jink emerald far-back-right (standing). -->
+    <ellipse cx="320" cy="250" rx="18" ry="28" fill="#2ed078"/>
+    <ellipse cx="320" cy="222" rx="9" ry="10" fill="#d8b890"/>
+    <g fill="#f5d068">
+      <circle cx="316" cy="216" r="6"/>
+      <circle cx="320" cy="212" r="6"/>
+      <circle cx="324" cy="216" r="6"/>
+    </g>
+    <!-- Luma sapphire between (mid-back). -->
+    <ellipse cx="240" cy="260" rx="16" ry="26" fill="#5a3ad8"/>
+    <ellipse cx="240" cy="232" rx="9" ry="10" fill="#a87850"/>
+    <ellipse cx="240" cy="228" rx="8" ry="3" fill="#1a0a08"/>
+  </g>
+
+  <!-- Faint warm wash on background (the warm light still touching them). -->
+  <ellipse cx="180" cy="320" rx="280" ry="80" fill="#f5b860" filter="url(#p14p3heavyBlur)" opacity="0.18"/>
+
+  <!-- SABLE — sharp focus profile, foreground center-right. -->
+  <g id="p14p3-sable-profile" transform="translate(220, 220)">
+
+    <!-- Body in damaged silver suit (right-facing profile, lit side toward camera). -->
+    <path d="M-60,180 Q-70,30 -50,-30 L-30,-50 L20,-50 L40,-30 Q50,30 50,180 Z" fill="url(#p14p3silver)" stroke="#3a3848" stroke-width="0.8"/>
+    <!-- Cracked right shoulder leak (faint). -->
+    <ellipse cx="35" cy="-25" rx="14" ry="8" fill="#9ba1aa" stroke="#080408" stroke-width="0.5"/>
+    <line x1="22" y1="-27" x2="48" y2="-22" stroke="#7ac8ff" stroke-width="0.7" filter="url(#p14p3bloom)" opacity="0.6"/>
+    <ellipse cx="35" cy="-22" rx="14" ry="8" fill="url(#p14p3fractureGlow)" filter="url(#p14p3bloom)" opacity="0.3"/>
+    <!-- Warm rim on right shoulder. -->
+    <path d="M40,-30 Q50,30 50,180" fill="none" stroke="#f5b860" stroke-width="2" opacity="0.85" filter="url(#p14p3bloom)"/>
+
+    <!-- HEAD — large CU profile, half in warm half in shadow. -->
+    <ellipse cx="0" cy="-100" rx="60" ry="80" fill="url(#p14p3skinSplit)"/>
+
+    <!-- Buzz cap silver-white. -->
+    <path d="M-46,-150 Q-20,-180 0,-180 Q20,-180 46,-150 L46,-130 L-46,-130 Z" fill="url(#p14p3silver)"/>
+    <path d="M-46,-150 Q0,-175 46,-150" fill="none" stroke="#9aa4b4" stroke-width="0.7" opacity="0.7"/>
+    <!-- Buzz stipple. -->
+    <g fill="#5a606a" opacity="0.6">
+      <circle cx="-30" cy="-160" r="0.7"/>
+      <circle cx="-15" cy="-168" r="0.7"/>
+      <circle cx="0" cy="-172" r="0.7"/>
+      <circle cx="15" cy="-168" r="0.7"/>
+      <circle cx="30" cy="-160" r="0.7"/>
+    </g>
+    <!-- Soot dust on top. -->
+    <g fill="#3a2818" opacity="0.5">
+      <circle cx="-10" cy="-175" r="1.2"/>
+      <circle cx="8" cy="-178" r="1"/>
+      <circle cx="22" cy="-170" r="1.4"/>
+    </g>
+    <!-- WARM AMBER RIM on hair. -->
+    <path d="M-46,-150 Q0,-175 46,-150" fill="none" stroke="#f5b860" stroke-width="1.4" opacity="0.85" filter="url(#p14p3bloom)"/>
+
+    <!-- Brow set tight. -->
+    <path d="M-30,-110 Q-15,-115 0,-110" stroke="#1a0808" stroke-width="2.5" fill="none"/>
+    <path d="M0,-110 Q15,-115 32,-110" stroke="#1a0808" stroke-width="2.5" fill="none"/>
+
+    <!-- Eyes forward, controlled. -->
+    <ellipse cx="-15" cy="-95" rx="9" ry="6" fill="#f5e8d0"/>
+    <ellipse cx="20" cy="-95" rx="9" ry="6" fill="#f5e8d0"/>
+    <ellipse cx="-15" cy="-95" rx="6" ry="6" fill="#5a3818"/>
+    <ellipse cx="20" cy="-95" rx="6" ry="6" fill="#5a3818"/>
+    <ellipse cx="-15" cy="-95" rx="3" ry="3" fill="#080404"/>
+    <ellipse cx="20" cy="-95" rx="3" ry="3" fill="#080404"/>
+    <!-- Warm catch-lights. -->
+    <circle cx="-13" cy="-97" r="1.5" fill="#fff5d0"/>
+    <circle cx="22" cy="-97" r="1.5" fill="#fff5d0"/>
+
+    <!-- Cheekbones (warm side dominant). -->
+    <ellipse cx="-30" cy="-65" rx="10" ry="6" fill="#7a4830" opacity="0.55"/>
+    <ellipse cx="35" cy="-65" rx="10" ry="6" fill="#a87850" opacity="0.6"/>
+    <ellipse cx="35" cy="-65" rx="7" ry="3" fill="#f5d090" opacity="0.55"/>
+
+    <!-- Nose. -->
+    <path d="M0,-90 L-3,-50 L0,-44 L3,-50 Z" fill="#5a3818" opacity="0.65"/>
+    <line x1="-2" y1="-46" x2="2" y2="-46" stroke="#1a0808" stroke-width="0.7"/>
+
+    <!-- Lips firm-set, tight (jaw muscles tight per script). -->
+    <path d="M-22,-22 Q0,-26 22,-22" stroke="#3a1808" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <line x1="-18" y1="-22" x2="18" y2="-22" stroke="#1a0808" stroke-width="0.7"/>
+
+    <!-- JAW MUSCLE TIGHT (visible bump per script). -->
+    <ellipse cx="-32" cy="-30" rx="5" ry="3" fill="#1a0808" opacity="0.45"/>
+    <ellipse cx="32" cy="-30" rx="5" ry="3" fill="#1a0808" opacity="0.45"/>
+
+    <!-- Jaw line. -->
+    <path d="M-60,-20 Q-30,15 0,18 Q30,15 60,-20" fill="none" stroke="#1a0808" stroke-width="1" opacity="0.7"/>
+
+    <!-- WARM AMBER WASH on lit side. -->
+    <path d="M0,-180 Q20,-180 46,-150 Q60,-100 60,-20 Q30,15 0,18 L0,-180 Z" fill="#f5b860" opacity="0.22"/>
+    <!-- Warm rim under jaw + lip. -->
+    <ellipse cx="0" cy="20" rx="40" ry="3" fill="#f5b860" opacity="0.6" filter="url(#p14p3bloom)"/>
+  </g>
+
+  <!-- DIALOGUE — 3 balloons. -->
+  <g id="p14p3-dlg-sable1">
+    <rect x="14" y="14" width="170" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Can it be rebuilt?</text>
+    <path d="M120,60 L138,60 L160,140 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="60" x2="138" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p14p3-dlg-wren-op">
+    <rect x="200" y="14" width="160" height="62" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="210" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN (O.P.)</text>
+    <text x="210" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Right components.</text>
+    <text x="210" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Source from here.</text>
+  </g>
+
+  <g id="p14p3-dlg-sable2">
+    <rect x="14" y="340" width="220" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="360" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="378" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Then that's what we do.</text>
+    <path d="M150,340 L168,340 L182,260 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="340" x2="168" y2="340" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p14p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SABLE — RACK FOCUS</text>
+  </g>
+</svg>

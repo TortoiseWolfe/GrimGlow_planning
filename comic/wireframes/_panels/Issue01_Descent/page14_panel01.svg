@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 1 — Page 14 — Panel 1: Jink descends, squad gathers — the scout returns</title>
+  <desc>MW intimate 35mm. Jink descends gracefully into rain gutter, translucent emerald wings dimming + folding back into compact housing between shoulders, feet touching down on soot iron. Sobered, eyes still wide. Sable focused receiving. Luma lowering scanner. Wren emerging from wrecked hull access panel BG, hair disheveled, oil on hands. Wreckage nearly dark — only faintest blue-white flicker from single conduit. Warm amber city-glow primary. Jink emerald wing-glow last fairy light dimming. JINK report (city/river/spire/gas/horses) + SABLE asks fragments + JINK 2 impact points.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p14p1iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p14p1floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#180a08"/>
+    </linearGradient>
+    <radialGradient id="p14p1cityGlow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p14p1emeraldDim" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a8f5c8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a5a30" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p14p1deadFlicker" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p14p1silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bfc6d0"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p14p1copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0a060"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="p14p1sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a18a0"/>
+    </linearGradient>
+    <linearGradient id="p14p1emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a5a30"/>
+    </linearGradient>
+    <filter id="p14p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p14p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky background. -->
+  <rect width="742" height="320" fill="url(#p14p1bg)"/>
+
+  <!-- Stars top. -->
+  <g fill="#dce4f0" opacity="0.7">
+    <circle cx="80" cy="22" r="0.6"/>
+    <circle cx="220" cy="32" r="0.5"/>
+    <circle cx="380" cy="22" r="0.6"/>
+    <circle cx="540" cy="32" r="0.5"/>
+    <circle cx="680" cy="22" r="0.6"/>
+  </g>
+
+  <!-- Strong amber city-glow from below — primary light source per script. -->
+  <ellipse cx="371" cy="320" rx="500" ry="120" fill="url(#p14p1cityGlow)" filter="url(#p14p1strongBloom)"/>
+
+  <!-- Curved gutter wall (back). -->
+  <path d="M0,120 Q371,100 742,120 L742,260 L0,260 Z" fill="url(#p14p1iron)"/>
+  <line x1="0" y1="160" x2="742" y2="155" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <line x1="0" y1="220" x2="742" y2="218" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <g fill="#080404" opacity="0.85">
+    <circle cx="60" cy="165" r="2"/>
+    <circle cx="200" cy="148" r="2"/>
+    <circle cx="540" cy="148" r="2"/>
+    <circle cx="680" cy="165" r="2"/>
+    <circle cx="60" cy="225" r="2"/>
+    <circle cx="680" cy="225" r="2"/>
+  </g>
+
+  <!-- DEAD WRECKAGE BG-LEFT — single faint blue-white flicker from one conduit. -->
+  <g id="p14p1-dead-wreckage" transform="translate(120, 200)">
+    <path d="M-50,-30 L-20,-40 L20,-30 L40,10 L20,30 L-30,30 L-50,10 Z" fill="#1a1a24" stroke="#080808" stroke-width="0.7"/>
+    <path d="M-20,-40 L20,-30" fill="none" stroke="#3a3848" stroke-width="0.5" opacity="0.45"/>
+    <!-- ONE faint flicker (the last). -->
+    <ellipse cx="0" cy="0" rx="14" ry="8" fill="url(#p14p1deadFlicker)" filter="url(#p14p1strongBloom)"/>
+    <line x1="-3" y1="-3" x2="3" y2="3" stroke="#bfe4ff" stroke-width="0.6" filter="url(#p14p1bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ACCESS PANEL OPENING in wreckage where Wren emerges. -->
+  <g id="p14p1-access-panel" transform="translate(150, 195)">
+    <path d="M-12,-10 L20,-12 L24,18 L10,22 L-8,18 Z" fill="#020208" stroke="#080404" stroke-width="0.7"/>
+  </g>
+
+  <!-- Floor. -->
+  <rect y="260" width="742" height="60" fill="url(#p14p1floor)"/>
+  <line x1="0" y1="260" x2="742" y2="260" stroke="#080404" stroke-width="1.2"/>
+
+  <!-- Coal sediment + soot. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="40" cy="285" r="1.5"/>
+    <circle cx="120" cy="295" r="1.4"/>
+    <circle cx="200" cy="285" r="1.5"/>
+    <circle cx="280" cy="298" r="1.4"/>
+    <circle cx="360" cy="285" r="1.5"/>
+    <circle cx="440" cy="298" r="1.4"/>
+    <circle cx="540" cy="285" r="1.5"/>
+    <circle cx="620" cy="298" r="1.4"/>
+    <circle cx="700" cy="285" r="1.5"/>
+  </g>
+
+  <!-- ===== SQUAD ===== -->
+
+  <!-- WREN emerging from access panel BG (small, rear). -->
+  <g id="p14p1-wren-bg" transform="translate(170, 218)">
+    <!-- Half-emerged body. -->
+    <ellipse cx="0" cy="0" rx="9" ry="14" fill="url(#p14p1copper)" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-7" cy="-8" rx="3.5" ry="2.5" fill="#c87a35" stroke="#080408" stroke-width="0.3"/>
+    <ellipse cx="7" cy="-8" rx="3.5" ry="2.5" fill="#c87a35" stroke="#080408" stroke-width="0.3"/>
+    <!-- Head w/ disheveled bun. -->
+    <ellipse cx="0" cy="-18" rx="5" ry="6" fill="#e0c0a0"/>
+    <ellipse cx="-1" cy="-22" rx="4" ry="2.5" fill="#0a0408"/>
+    <!-- Strands across face (more disheveled). -->
+    <path d="M-5,-19 Q-3,-15 -4,-12" fill="none" stroke="#0a0408" stroke-width="0.9" stroke-linecap="round"/>
+    <path d="M5,-19 Q3,-15 4,-12" fill="none" stroke="#0a0408" stroke-width="0.9" stroke-linecap="round"/>
+    <!-- Arms hanging at sides w/ OIL on hands (visible as dark patches). -->
+    <line x1="-9" y1="-3" x2="-13" y2="10" stroke="#a86028" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="9" y1="-3" x2="13" y2="10" stroke="#a86028" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="-13" cy="10" rx="3" ry="2.5" fill="#080404"/>
+    <ellipse cx="13" cy="10" rx="3" ry="2.5" fill="#080404"/>
+  </g>
+
+  <!-- LUMA — center-left, lowering scanner. -->
+  <g id="p14p1-luma" transform="translate(280, 245)">
+    <path d="M-13,30 Q-16,5 -13,-15 L-2,-22 L14,-22 Q18,5 15,30 Z" fill="url(#p14p1sapphire)" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-13" cy="-19" rx="5" ry="3" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="13" cy="-19" rx="5" ry="3" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+    <!-- Right arm LOWERING scanner (dropping down). -->
+    <path d="M13,-5 L20,18 L24,32" fill="none" stroke="#5a3ad8" stroke-width="4" stroke-linecap="round"/>
+    <rect x="22" y="30" width="9" height="6" rx="1" fill="#1a1828" stroke="#a87af0" stroke-width="0.5"/>
+    <ellipse cx="26" cy="32" rx="6" ry="3" fill="#a87af0" filter="url(#p14p1bloom)" opacity="0.45"/>
+    <!-- Left arm at side. -->
+    <path d="M-13,-5 L-18,12 L-15,28" fill="none" stroke="#5a3ad8" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs standing. -->
+    <path d="M-10,30 L-13,55 L-13,72" fill="none" stroke="#3a2a8c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10,30 L13,55 L13,72" fill="none" stroke="#3a2a8c" stroke-width="6" stroke-linecap="round"/>
+    <!-- Head w/ braid. -->
+    <ellipse cx="0" cy="-30" rx="8" ry="9" fill="#a87850"/>
+    <path d="M-7,-37 Q0,-42 7,-37 L7,-30 L-7,-30 Z" fill="#1a0a08"/>
+    <path d="M5,-25 Q12,-15 16,-3" fill="none" stroke="#1a0a08" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="-3" cy="-30" rx="2" ry="1.4" fill="#a87af0" opacity="0.7"/>
+    <ellipse cx="3" cy="-30" rx="2" ry="1.4" fill="#a87af0" opacity="0.7"/>
+    <line x1="-2" y1="-23" x2="2" y2="-23" stroke="#5a2818" stroke-width="0.8"/>
+  </g>
+
+  <!-- SABLE — center, focused receiving. -->
+  <g id="p14p1-sable" transform="translate(380, 245)">
+    <path d="M-13,30 Q-16,5 -13,-15 L-2,-22 L14,-22 Q18,5 15,30 Z" fill="url(#p14p1silver)" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-13" cy="-19" rx="5" ry="3" fill="#9ba1aa" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="13" cy="-19" rx="5" ry="3" fill="#9ba1aa" stroke="#080408" stroke-width="0.4"/>
+    <line x1="11" y1="-19" x2="15" y2="-17" stroke="#7ac8ff" stroke-width="0.6" filter="url(#p14p1bloom)" opacity="0.55"/>
+    <!-- Arms at sides. -->
+    <path d="M-13,-5 L-18,12 L-15,28" fill="none" stroke="url(#p14p1silver)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M13,-5 L18,12 L15,28" fill="none" stroke="url(#p14p1silver)" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs. -->
+    <path d="M-10,30 L-13,55 L-13,72" fill="none" stroke="#5a606a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10,30 L13,55 L13,72" fill="none" stroke="#5a606a" stroke-width="6" stroke-linecap="round"/>
+    <!-- Head turned right (toward Jink). -->
+    <ellipse cx="2" cy="-30" rx="8" ry="9" fill="#5a3018"/>
+    <path d="M-5,-37 Q0,-42 6,-40 L6,-32 L-5,-32 Z" fill="#e8eaee"/>
+    <ellipse cx="-1" cy="-30" rx="0.9" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="4" cy="-30" rx="0.9" ry="0.7" fill="#1a0808"/>
+    <line x1="-2" y1="-23" x2="3" y2="-23" stroke="#3a1808" stroke-width="0.8"/>
+    <ellipse cx="6" cy="-26" rx="2" ry="1.2" fill="#f5b860" opacity="0.55"/>
+  </g>
+
+  <!-- JINK descending — translucent dragonfly wings dimming + folding back. Right side of frame. -->
+  <g id="p14p1-jink-landing" transform="translate(560, 230)">
+    <!-- DIMMING wings folding back (smaller now, semi-folded). -->
+    <g filter="url(#p14p1bloom)">
+      <path d="M-10,-10 Q-30,-25 -45,-12 Q-38,-2 -22,-4 Z" fill="url(#p14p1emeraldDim)" opacity="0.5"/>
+      <path d="M10,-10 Q30,-25 45,-12 Q38,-2 22,-4 Z" fill="url(#p14p1emeraldDim)" opacity="0.5"/>
+    </g>
+    <g stroke="#a8f5c8" stroke-width="0.5" fill="none" opacity="0.6">
+      <line x1="-12" y1="-10" x2="-25" y2="-15"/>
+      <line x1="-12" y1="-10" x2="-38" y2="-12"/>
+      <line x1="12" y1="-10" x2="25" y2="-15"/>
+      <line x1="12" y1="-10" x2="38" y2="-12"/>
+    </g>
+
+    <!-- Body. -->
+    <path d="M-13,30 Q-16,5 -13,-15 L-2,-22 L14,-22 Q18,5 15,30 Z" fill="url(#p14p1emerald)" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-13" cy="-19" rx="5" ry="3" fill="#2ed078" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="13" cy="-19" rx="5" ry="3" fill="#2ed078" stroke="#080408" stroke-width="0.4"/>
+    <!-- Wing-pack folding back into housing. -->
+    <rect x="-3" y="-22" width="6" height="10" rx="1" fill="#1a4828" stroke="#080408" stroke-width="0.4"/>
+    <circle cx="-3" cy="-15" r="0.7" fill="#a8f5c8" filter="url(#p14p1bloom)" opacity="0.85"/>
+    <circle cx="3" cy="-15" r="0.7" fill="#a8f5c8" filter="url(#p14p1bloom)" opacity="0.85"/>
+    <!-- Arms at sides (just landed). -->
+    <path d="M-13,-5 L-18,12 L-15,28" fill="none" stroke="#2ed078" stroke-width="4" stroke-linecap="round"/>
+    <path d="M13,-5 L18,12 L15,28" fill="none" stroke="#2ed078" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs landed. -->
+    <path d="M-10,30 L-13,55 L-13,72" fill="none" stroke="#0a5a30" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10,30 L13,55 L13,72" fill="none" stroke="#0a5a30" stroke-width="6" stroke-linecap="round"/>
+    <!-- Head w/ wind-tossed curls. -->
+    <ellipse cx="0" cy="-30" rx="8" ry="9" fill="#d8b890"/>
+    <g fill="#f5d068">
+      <circle cx="-4" cy="-37" r="3.5"/>
+      <circle cx="0" cy="-40" r="3.5"/>
+      <circle cx="4" cy="-37" r="3.5"/>
+      <!-- Wind-tossed extending right. -->
+      <ellipse cx="7" cy="-36" rx="3" ry="2"/>
+      <ellipse cx="-7" cy="-36" rx="3" ry="2"/>
+    </g>
+    <!-- Eyes still wide. -->
+    <ellipse cx="-3" cy="-30" rx="1.2" ry="1.4" fill="#1a0808"/>
+    <ellipse cx="3" cy="-30" rx="1.2" ry="1.4" fill="#1a0808"/>
+    <ellipse cx="-3" cy="-30.5" rx="0.5" ry="0.6" fill="#080404"/>
+    <ellipse cx="3" cy="-30.5" rx="0.5" ry="0.6" fill="#080404"/>
+    <circle cx="-3" cy="-31" r="0.3" fill="#fff5d0"/>
+    <circle cx="3" cy="-31" r="0.3" fill="#fff5d0"/>
+    <!-- Lips (sobered, slight parted). -->
+    <line x1="-3" y1="-23" x2="3" y2="-23" stroke="#5a2818" stroke-width="0.9"/>
+  </g>
+
+  <!-- DIALOGUE — three balloons. -->
+  <g id="p14p1-dlg-jink1">
+    <rect x="14" y="14" width="350" height="98" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Major city. Dense, industrial,</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">miles wide. Big river south,</text>
+    <text x="24" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">half a mile. Church spire SE.</text>
+    <text x="24" y="102" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Gas lamps. Horses. Chimneys.</text>
+    <path d="M280,112 L298,112 L562,220 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="280" y1="112" x2="298" y2="112" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p14p1-dlg-sable">
+    <rect x="384" y="14" width="222" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="394" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="394" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Other wreckage fragments?</text>
+    <path d="M394,60 L412,60 L390,220 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="394" y1="60" x2="412" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p14p1-dlg-jink2">
+    <rect x="618" y="14" width="110" height="62" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="628" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="628" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Scattered.</text>
+    <text x="628" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">2 impacts.</text>
+    <path d="M628,76 L644,76 L562,220 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="628" y1="76" x2="644" y2="76" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p14p1-meta">
+    <text x="730" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">JINK DESCENDS — SCOUT RETURNS</text>
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+  </g>
+</svg>

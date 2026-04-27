@@ -2,15 +2,15 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 13 added, London Confirmed).
+**Last update:** 2026-04-27 (loop session extended — Page 14 added, Threshold/Section 3 closer).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–13 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 67 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P13P01–P13P05, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
+**Pages 1–14 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 71 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P13P01–P13P05, P14P01–P14P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
 
-**Issue 1 first 13 pages CONTIGUOUS** — Pages 1-13 + Pages 18-22 all painterly. Pages 14-17 remain as middle continuity gaps — 4 pages remaining (16/22 painterly = 73%).
+**Issue 1 first 14 pages CONTIGUOUS** — Pages 1-14 + Pages 18-22 all painterly. Section 3 CLOSED. Pages 15-17 remain as middle continuity gaps — 3 pages remaining (17/22 painterly = 77%).
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -30,7 +30,9 @@
 
 **Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px.
 
-**Page 13 (London Confirmed + first seed of secret)** — 5 panels, 1179px (2-col narrow / full-width / 2-col). Sable's recognition: convergence point.
+**Page 14 (Threshold — Section 3 closer)** — 4 panels, 1179px (banner / 2-col / banner footer). Squad at threshold facing Victorian city; echoes Page 22 final splash from wider angle.
+
+**Page 13 (London Confirmed + first seed of secret)** — 5 panels, 1179px.
 
 **Page 11 (Wings Deploy spectacle)** — 5 panels, 1179px.
 
@@ -38,7 +40,7 @@
 
 **Page 9 (THE SCALE REVEAL — opening Section 3 build)** — 5 panels, 1179px.
 
-**Pages 14-17 of Issue 1 remain auto-generated stick-figure storyboards.** (4 pages remaining of 22 = 16/22 painterly + 4/22 storyboard ≈ 73%.)
+**Pages 15-17 of Issue 1 remain auto-generated stick-figure storyboards.** (3 pages remaining of 22 = 17/22 painterly + 3/22 storyboard ≈ 77%.)
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -242,6 +244,62 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 14 — DONE (Section 3 closer — Threshold)
+
+4 panels in 3 tiers (banner / 2-col / banner footer) summing to 1179px page-fill. Closes Section 3 (THE WRECKAGE). Echoes Page 22 final splash from wider angle — squad together vs. Sable alone.
+
+### P14P01 — Jink descends, scout returns (742×320)
+- ✅ Wreckage BG-left dark (alien tech dead) w/ Wren copper emerging from access panel
+- ✅ Wren has oil/dark patches on hands
+- ✅ Luma sapphire mid-frame lowering scanner
+- ✅ Sable silver center, head turned right toward Jink, focused
+- ✅ Jink emerald right side just landed, wings dimming + folding back into housing
+- ✅ Wing-pack housing visible w/ pulsing emerald nodes
+- ✅ Wind-tossed golden curls (script-specific)
+- ✅ Sobered + eyes still wide
+- ✅ Strong amber city-glow uplighting from below dominates
+- ✅ Three balloons: JINK report w/ bold "Gas lamps. Horses. Chimneys." + SABLE prompt + JINK "Scattered. 2 impacts."
+
+### P14P02 — Wren delivers verdict (366×400)
+- ✅ Strong amber from left dominates frame (single source — warm world won)
+- ✅ Wren standing left, copper suit, ARMS FOLDED across chest
+- ✅ Oil + dark hydraulic fluid streaks visible on hands + forearms (script-specific)
+- ✅ Dark patches on hands (oil-stained per script)
+- ✅ Wrecked hull behind (right) — DARK, no inside light, alien tech fully dead w/ TORN ACCESS PANEL OPENING showing absolute darkness
+- ✅ Dead conduits hanging in opening
+- ✅ Collapsed messy bun + multiple strands across face (more disheveled per script)
+- ✅ Almond eyes looking right toward off-panel Sable, warm catch-lights
+- ✅ Brow level, lips set firmly (flat honest verdict-delivery face)
+- ✅ Two WREN balloons: long damage state ending bold "found yet." + bold "Not flying out this month."
+
+### P14P03 — Sable rack focus profile (366×400)
+- ✅ Strong amber from left (single source)
+- ✅ Sable centered FOREGROUND sharp focus, large CU profile, dark brown skin
+- ✅ Half lit warm amber RIGHT side / dark shadow LEFT side (single-source dramatic per script)
+- ✅ Silver-white buzz cap w/ warm amber rim catching hair
+- ✅ Cracked right shoulder w/ faint glow + warm rim on shoulder
+- ✅ Eyes forward + warm catch-lights
+- ✅ Brow set tight + tight jaw bumps visible
+- ✅ Lips firm-set
+- ✅ Cheekbones w/ warm catch on right side
+- ✅ Background BLURRED but identifiable: ruby Thresh against wall, sapphire Luma between, emerald Jink standing — rack focus working
+- ✅ Three balloons: SABLE bold "Can it be rebuilt?" + WREN O.P. dashed "Right components. Source from here." + SABLE bold "Then that's what we do."
+
+### P14P04 — THE SECTION CLOSER — squad at threshold (742×380)
+- ✅ Sky w/ stars + amber haze top
+- ✅ Vast Victorian cityscape silhouette: St. Paul's dome center + church spires + factory stacks + smoke trails
+- ✅ Mid roofs + chimney pots + lit windows
+- ✅ Distant streets w/ amber gas pools
+- ✅ Iron gutter lip across foreground w/ rivets + warm amber rim catching iron
+- ✅ All 5 squad members inside gutter facing OUTWARD/forward toward city, distributed L→R: Thresh ruby (back-left, weapon holstered visible), Wren copper (left, arms folded), Sable silver (CENTER, forward-facing set), Luma sapphire (right, scanner at side, head tilted), Jink emerald (back-right, wing-pack folded)
+- ✅ Faint colored suit accent nodes glowing on each suit (5 colors: red/copper-gold/silver/sapphire/emerald) — script's "they are their own light source now"
+- ✅ Sable's hair has warm amber rim + cracked shoulder still faint blue-white
+- ✅ Two SABLE balloons: long survival declaration w/ bold "And we get ourselves home." + bold "Questions?"
+- ✅ Wreckage hint top corners (DARK, no lights — alien tech fully dead)
+- ✅ "Five figures at threshold between ruin + unknown" beat — echoes Page 22 final splash from wider angle
 
 ---
 

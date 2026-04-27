@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 1 — Page 14 — Panel 2: Wren delivers the verdict</title>
+  <desc>MCU 50mm. Wren standing at opening of wrecked alien hull access panel, arms folded, oil + dark hydraulic fluid coating hands and forearms. Wiry East Asian, dark hair collapsed messy bun strands across face, copper suit. Flat honest expression — face of someone respecting audience enough to deliver truth without softening, slight set to jaw. Looks directly at someone off-panel. Behind: wrecked hull DARK — no more holographic light from inside, alien tech FULLY DEAD. Warm amber from city-glow lights from side, dominant now, only light source. Two WREN balloons (long damage state + "not flying out tonight, not this month").</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p14p2hullDead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a24"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="p14p2warmCity" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p14p2copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0a060"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="p14p2skinWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#f0c890"/>
+    </linearGradient>
+    <filter id="p14p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p14p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Background — dim. -->
+  <rect width="366" height="400" fill="url(#p14p2bg)"/>
+
+  <!-- WARM AMBER from LEFT (city-glow, dominant single source). -->
+  <ellipse cx="0" cy="220" rx="280" ry="200" fill="url(#p14p2warmCity)" filter="url(#p14p2strongBloom)"/>
+
+  <!-- WRECKED HULL behind Wren — DEAD, dark, no inside light. -->
+  <g id="p14p2-hull">
+    <path d="M180,80 L320,90 L344,200 L320,320 L240,340 L180,320 Z" fill="url(#p14p2hullDead)" stroke="#080808" stroke-width="0.8"/>
+    <!-- Hull seams. -->
+    <path d="M180,80 L320,90" fill="none" stroke="#3a3848" stroke-width="0.5" opacity="0.45"/>
+    <path d="M180,200 L344,200" fill="none" stroke="#3a3848" stroke-width="0.4" opacity="0.4"/>
+    <!-- TORN ACCESS PANEL OPENING (visible on hull). -->
+    <path d="M210,180 L290,180 L300,240 L260,260 L210,250 L200,210 Z" fill="#020208" stroke="#080404" stroke-width="0.7"/>
+    <!-- NO inside glow — script-specific the alien tech is fully dead. -->
+    <!-- Just absolute darkness inside. -->
+    <ellipse cx="252" cy="220" rx="40" ry="30" fill="#020208"/>
+    <!-- Faint dead conduit hanging. -->
+    <path d="M232,200 Q230,220 228,238" stroke="#1a1820" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M268,200 Q272,220 275,238" stroke="#1a1820" stroke-width="2" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- WREN standing at access panel opening, arms folded. -->
+  <g id="p14p2-wren" transform="translate(120, 250)">
+
+    <!-- Body in copper, standing facing right (toward off-panel Sable). -->
+    <path d="M-25,90 Q-30,30 -25,-15 L-12,-25 L18,-25 Q24,-15 24,90 Z" fill="url(#p14p2copper)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Warm amber wash on body (left side lit). -->
+    <path d="M-25,90 Q-30,30 -25,-15 L0,-15 L0,90 Z" fill="#f5b860" opacity="0.22"/>
+
+    <!-- Shoulder pads. -->
+    <ellipse cx="-25" cy="-22" rx="8" ry="5" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="22" cy="-22" rx="8" ry="5" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-25" cy="-23" rx="5" ry="2.5" fill="#f5c890" opacity="0.6"/>
+
+    <!-- ARMS FOLDED across chest. -->
+    <path d="M-25,-10 L-2,3 L24,5" fill="none" stroke="url(#p14p2copper)" stroke-width="6.5" stroke-linecap="round"/>
+    <path d="M24,-5 L0,8 L-25,12" fill="none" stroke="url(#p14p2copper)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Hands tucked. -->
+    <ellipse cx="24" cy="5" rx="5" ry="3.5" fill="url(#p14p2skinWarm)"/>
+    <ellipse cx="-25" cy="12" rx="5" ry="3.5" fill="url(#p14p2skinWarm)"/>
+    <!-- OIL + HYDRAULIC FLUID coating hands + forearms (script-specific). -->
+    <path d="M-22,-2 Q-18,5 -8,8" stroke="#1a0a08" stroke-width="2.5" fill="none" opacity="0.95"/>
+    <path d="M22,2 Q18,8 8,10" stroke="#1a0a08" stroke-width="2.5" fill="none" opacity="0.95"/>
+    <path d="M-25,8 Q-20,12 -10,14" stroke="#080404" stroke-width="1.5" fill="none" opacity="0.85"/>
+    <path d="M25,4 Q20,8 10,10" stroke="#080404" stroke-width="1.5" fill="none" opacity="0.85"/>
+    <!-- Dark patches on hands. -->
+    <ellipse cx="22" cy="5" rx="2.5" ry="1.5" fill="#080404" opacity="0.85"/>
+    <ellipse cx="-22" cy="12" rx="2.5" ry="1.5" fill="#080404" opacity="0.85"/>
+
+    <!-- Legs standing. -->
+    <path d="M-12,90 L-18,118 L-18,140" fill="none" stroke="#a86028" stroke-width="8" stroke-linecap="round"/>
+    <path d="M14,90 L20,118 L20,140" fill="none" stroke="#a86028" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- HEAD East Asian, COLLAPSED messy bun (more than before per script — disheveled). -->
+    <ellipse cx="0" cy="-44" rx="14" ry="15" fill="url(#p14p2skinWarm)"/>
+    <ellipse cx="-2" cy="-58" rx="12" ry="8" fill="#0a0408"/>
+    <!-- Bun more collapsed/falling. -->
+    <ellipse cx="3" cy="-65" rx="7" ry="5" fill="#0a0408"/>
+    <ellipse cx="-6" cy="-66" rx="5" ry="4" fill="#0a0408"/>
+    <ellipse cx="-1" cy="-58" rx="6" ry="2" fill="none" stroke="#3a1810" stroke-width="0.7" opacity="0.7"/>
+    <!-- Strands across face (more disheveled). -->
+    <path d="M-12,-50 Q-9,-40 -10,-30" fill="none" stroke="#0a0408" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-3,-44 Q-2,-36 -4,-28" fill="none" stroke="#0a0408" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M11,-50 Q8,-40 9,-30" fill="none" stroke="#0a0408" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M5,-44 Q6,-36 4,-28" fill="none" stroke="#0a0408" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Wisps. -->
+    <path d="M-12,-65 Q-15,-67 -16,-63" fill="none" stroke="#0a0408" stroke-width="1.0" stroke-linecap="round"/>
+    <path d="M12,-65 Q15,-67 16,-63" fill="none" stroke="#0a0408" stroke-width="1.0" stroke-linecap="round"/>
+
+    <!-- Face: flat, honest, looking right at off-panel Sable. -->
+    <!-- Eyes (almond, looking right toward Sable). -->
+    <path d="M-9,-44 Q-4,-46 0,-44 Q-4,-42 -9,-44 Z" fill="#1a0808"/>
+    <path d="M2,-44 Q7,-46 11,-44 Q7,-42 2,-44 Z" fill="#1a0808"/>
+    <ellipse cx="-3" cy="-44" rx="0.7" ry="0.7" fill="#080404"/>
+    <ellipse cx="8" cy="-44" rx="0.7" ry="0.7" fill="#080404"/>
+    <!-- Warm catch-light. -->
+    <circle cx="-3" cy="-44.5" r="0.4" fill="#fff5d0"/>
+    <circle cx="8" cy="-44.5" r="0.4" fill="#fff5d0"/>
+    <!-- Brow level (no fury, just flat truth). -->
+    <path d="M-9,-50 Q-5,-51 -1,-50" stroke="#3a1810" stroke-width="1.1" fill="none"/>
+    <path d="M1,-50 Q5,-51 9,-50" stroke="#3a1810" stroke-width="1.1" fill="none"/>
+    <!-- Lips: slight set to jaw (firm flat line). -->
+    <line x1="-4" y1="-32" x2="6" y2="-32" stroke="#5a2818" stroke-width="1.3"/>
+    <!-- Cheekbones w/ warm catch (dominant). -->
+    <ellipse cx="-9" cy="-39" rx="3" ry="1.7" fill="#a87850" opacity="0.55"/>
+    <ellipse cx="9" cy="-39" rx="3" ry="1.7" fill="#f5b860" opacity="0.55"/>
+  </g>
+
+  <!-- WREN dialogue — 2 balloons stacked (long damage state + "not flying out"). -->
+  <g id="p14p2-dlg-wren1">
+    <rect x="14" y="14" width="338" height="116" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Drive core intact — that's the one</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">good piece. Drive assembly destroyed.</text>
+    <text x="24" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Nav gone. Comms gone. Power severed.</text>
+    <text x="24" y="100" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Half the hull is in pieces I haven't</text>
+    <text x="24" y="118" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">found yet.</text>
+    <path d="M150,130 L168,130 L160,250 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="130" x2="168" y2="130" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p14p2-dlg-wren2">
+    <rect x="14" y="298" width="338" height="80" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="318" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="338" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Not flying out tonight.</text>
+    <text x="24" y="358" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Not flying out this month.</text>
+    <path d="M150,298 L168,298 L160,260 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="298" x2="168" y2="298" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p14p2-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WREN VERDICT</text>
+  </g>
+</svg>
