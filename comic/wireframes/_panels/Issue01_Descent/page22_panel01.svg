@@ -1,0 +1,528 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 1122" width="742" height="1122">
+  <title>Issue 1 — Page 22 — FINAL SPLASH: Sable at the threshold</title>
+  <desc>Full-page splash, no borders. Slightly low angle from behind/below Sable looking past her at vast gaslit Victorian London. Sable silhouetted at gutter lip — 4-inch figure against enormous cityscape. Behind: squad as 5 tiny colored lights in iron channel + dying wreckage. Before: vast amber cityscape — slate roofs, chimney forests, church spires, gas grid, Thames, fog layers. Above: faint last trace of falling star almost gone. Dual-lighting meets on Sable's figure. 2 caption boxes bottom.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+    <linearGradient id="p22sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="40%" stop-color="#080a18"/>
+      <stop offset="80%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#7a4830"/>
+    </linearGradient>
+    <radialGradient id="p22cityHaze" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#c87830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p22slate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </linearGradient>
+    <linearGradient id="p22brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#15080a"/>
+    </linearGradient>
+    <linearGradient id="p22iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="p22starTrail" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a4ac8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p22windowGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#f5a850" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p22wreckGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#2a4a8c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p22silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dce4f0"/>
+      <stop offset="50%" stop-color="#9aa4b4"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <radialGradient id="p22fractureGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#bfe4ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p22bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="p22softBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.5"/></filter>
+    <filter id="p22strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky filling top half. -->
+  <rect width="742" height="1122" fill="url(#p22sky)"/>
+
+  <!-- Stars (sparse, dusted across upper sky). -->
+  <g fill="#dce4f0" opacity="0.85">
+    <circle cx="48" cy="48" r="0.9"/>
+    <circle cx="105" cy="32" r="0.7"/>
+    <circle cx="178" cy="55" r="1.1"/>
+    <circle cx="244" cy="28" r="0.8"/>
+    <circle cx="310" cy="62" r="0.9"/>
+    <circle cx="382" cy="35" r="1.3"/>
+    <circle cx="448" cy="58" r="0.7"/>
+    <circle cx="512" cy="32" r="1.0"/>
+    <circle cx="582" cy="55" r="0.8"/>
+    <circle cx="640" cy="28" r="0.9"/>
+    <circle cx="700" cy="48" r="0.7"/>
+    <circle cx="68" cy="120" r="0.6"/>
+    <circle cx="156" cy="135" r="0.7"/>
+    <circle cx="248" cy="115" r="0.6"/>
+    <circle cx="338" cy="138" r="0.7"/>
+    <circle cx="428" cy="118" r="0.6"/>
+    <circle cx="518" cy="140" r="0.7"/>
+    <circle cx="608" cy="120" r="0.6"/>
+    <circle cx="690" cy="135" r="0.7"/>
+    <circle cx="38" cy="200" r="0.5"/>
+    <circle cx="118" cy="220" r="0.6"/>
+    <circle cx="208" cy="200" r="0.5"/>
+    <circle cx="298" cy="218" r="0.6"/>
+    <circle cx="388" cy="200" r="0.5"/>
+    <circle cx="478" cy="220" r="0.6"/>
+    <circle cx="568" cy="200" r="0.5"/>
+    <circle cx="658" cy="218" r="0.6"/>
+    <circle cx="80" cy="285" r="0.5"/>
+    <circle cx="220" cy="295" r="0.6"/>
+    <circle cx="380" cy="285" r="0.5"/>
+    <circle cx="540" cy="295" r="0.6"/>
+    <circle cx="690" cy="282" r="0.5"/>
+  </g>
+  <!-- Brighter accent stars. -->
+  <g fill="#fff5d8" opacity="0.95">
+    <circle cx="178" cy="55" r="1.6" filter="url(#p22softBloom)"/>
+    <circle cx="382" cy="35" r="1.8" filter="url(#p22softBloom)"/>
+    <circle cx="640" cy="28" r="1.6" filter="url(#p22softBloom)"/>
+  </g>
+
+  <!-- Last trace of falling star — faint prismatic streak across upper sky (almost gone). -->
+  <g id="p22-star-trace" opacity="0.55">
+    <path d="M50,180 Q200,160 400,200 Q560,235 700,290" stroke="url(#p22starTrail)" stroke-width="22" fill="none" stroke-linecap="round" filter="url(#p22strongBloom)"/>
+    <path d="M50,180 Q200,160 400,200 Q560,235 700,290" stroke="#bfe4ff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <!-- Faint bright spots along trail. -->
+    <g fill="#bfe4ff" filter="url(#p22softBloom)" opacity="0.6">
+      <circle cx="180" cy="170" r="1.4"/>
+      <circle cx="320" cy="190" r="1.2"/>
+      <circle cx="460" cy="215" r="1.3"/>
+      <circle cx="590" cy="248" r="1.2"/>
+    </g>
+  </g>
+
+  <!-- Distant amber haze rising from horizon (entire city's gas glow). -->
+  <rect y="380" width="742" height="120" fill="url(#p22cityHaze)" opacity="0.85"/>
+
+  <!-- Far horizon city silhouette: spires, factory stacks, tall buildings. -->
+  <g id="p22-far-city">
+    <!-- Distant rooftops base. -->
+    <path d="M0,440 L40,438 L60,442 L90,432 L130,440 L160,430 L200,438 L230,425 L260,434 L290,420 L320,432 L360,420 L400,430 L440,418 L480,428 L520,420 L560,430 L600,422 L640,432 L680,420 L720,428 L742,422 L742,500 L0,500 Z" fill="url(#p22slate)" opacity="0.85"/>
+
+    <!-- Church spires (multiple, distant). -->
+    <polygon points="118,420 126,440 110,440" fill="#1a1820"/>
+    <polygon points="115,395 121,420 109,420" fill="#1a1820"/>
+    <polygon points="278,418 288,442 268,442" fill="#1a1820"/>
+    <polygon points="276,388 282,418 274,418" fill="#1a1820"/>
+    <polygon points="438,420 446,442 430,442" fill="#1a1820"/>
+    <polygon points="595,420 604,442 586,442" fill="#1a1820"/>
+    <polygon points="593,392 599,420 589,420" fill="#1a1820"/>
+
+    <!-- St. Paul's dome silhouette (centered, slightly right). -->
+    <g id="p22-st-pauls" transform="translate(420, 440)">
+      <path d="M-26,0 Q-26,-26 0,-34 Q26,-26 26,0 Z" fill="#1a1820" opacity="0.85"/>
+      <rect x="-3" y="-44" width="6" height="10" fill="#1a1820"/>
+      <ellipse cx="0" cy="-38" rx="5" ry="2.5" fill="#1a1820"/>
+      <rect x="-1" y="-50" width="2" height="6" fill="#1a1820"/>
+      <circle cx="0" cy="-50" r="1.6" fill="#1a1820"/>
+    </g>
+
+    <!-- Tall factory stacks with smoke trails. -->
+    <rect x="218" y="392" width="6" height="50" fill="#0a0808"/>
+    <rect x="216" y="390" width="10" height="3" fill="#1a0808"/>
+    <rect x="538" y="395" width="6" height="48" fill="#0a0808"/>
+    <rect x="536" y="392" width="10" height="3" fill="#1a0808"/>
+
+    <!-- Smoke from stacks. -->
+    <g fill="#3a2818" opacity="0.5">
+      <ellipse cx="240" cy="370" rx="50" ry="14"/>
+      <ellipse cx="560" cy="375" rx="55" ry="15"/>
+    </g>
+  </g>
+
+  <!-- Mid-ground rooftops + chimney pots. -->
+  <g id="p22-mid-roofs">
+    <path d="M0,510 L30,505 L60,512 L90,502 L130,512 L160,502 L200,512 L240,502 L280,512 L320,502 L360,512 L400,502 L440,512 L480,502 L520,512 L560,502 L600,512 L640,502 L680,512 L720,502 L742,510 L742,580 L0,580 Z" fill="url(#p22brick)"/>
+
+    <!-- Chimney pot clusters scattered. -->
+    <g fill="#3a1810">
+      <rect x="48" y="486" width="5" height="22"/>
+      <rect x="56" y="482" width="5" height="26"/>
+      <rect x="46" y="484" width="18" height="3" fill="#5a2812"/>
+
+      <rect x="148" y="484" width="5" height="22"/>
+      <rect x="156" y="480" width="5" height="26"/>
+      <rect x="164" y="484" width="5" height="22"/>
+      <rect x="146" y="482" width="26" height="3" fill="#5a2812"/>
+
+      <rect x="338" y="486" width="5" height="22"/>
+      <rect x="346" y="482" width="5" height="26"/>
+      <rect x="354" y="486" width="5" height="22"/>
+      <rect x="336" y="484" width="26" height="3" fill="#5a2812"/>
+
+      <rect x="498" y="484" width="5" height="22"/>
+      <rect x="506" y="480" width="5" height="26"/>
+      <rect x="514" y="484" width="5" height="22"/>
+      <rect x="496" y="482" width="26" height="3" fill="#5a2812"/>
+
+      <rect x="638" y="484" width="5" height="22"/>
+      <rect x="645" y="480" width="6" height="26"/>
+      <rect x="636" y="482" width="18" height="3" fill="#5a2812"/>
+    </g>
+
+    <!-- Lit windows. -->
+    <ellipse cx="222" cy="552" rx="14" ry="8" fill="url(#p22windowGlow)" filter="url(#p22bloom)"/>
+    <rect x="216" y="547" width="12" height="11" fill="#fff5d8" opacity="0.95"/>
+    <ellipse cx="468" cy="548" rx="13" ry="7" fill="url(#p22windowGlow)" filter="url(#p22bloom)" opacity="0.85"/>
+    <rect x="463" y="543" width="10" height="10" fill="#fff5d8" opacity="0.85"/>
+    <ellipse cx="600" cy="555" rx="11" ry="7" fill="url(#p22windowGlow)" filter="url(#p22bloom)" opacity="0.7"/>
+    <rect x="596" y="550" width="8" height="10" fill="#fff5d8" opacity="0.75"/>
+  </g>
+
+  <!-- Thames ribbon (curving across mid-distance). -->
+  <path d="M0,605 Q140,598 300,608 Q450,615 600,602 Q700,597 742,605 L742,628 Q700,624 600,628 Q450,638 300,630 Q140,628 0,628 Z" fill="#080a18" opacity="0.9"/>
+  <path d="M0,608 Q140,601 300,611 Q450,618 600,605 Q700,600 742,608" fill="none" stroke="#5a4830" stroke-width="0.8" opacity="0.7"/>
+  <!-- Ships at anchor on Thames (amber riding lights). -->
+  <g>
+    <rect x="138" y="608" width="14" height="3" fill="#0a0408"/>
+    <line x1="139" y1="608" x2="139" y2="600" stroke="#0a0408" stroke-width="0.6"/>
+    <circle cx="139" cy="600" r="1.4" fill="#ffd060" filter="url(#p22softBloom)"/>
+    <rect x="288" y="612" width="16" height="3" fill="#0a0408"/>
+    <line x1="290" y1="612" x2="290" y2="603" stroke="#0a0408" stroke-width="0.6"/>
+    <circle cx="290" cy="603" r="1.6" fill="#ffd060" filter="url(#p22softBloom)"/>
+    <rect x="450" y="610" width="14" height="3" fill="#0a0408"/>
+    <line x1="452" y1="610" x2="452" y2="601" stroke="#0a0408" stroke-width="0.6"/>
+    <circle cx="452" cy="601" r="1.4" fill="#ffd060" filter="url(#p22softBloom)"/>
+    <rect x="590" y="608" width="14" height="3" fill="#0a0408"/>
+    <line x1="591" y1="608" x2="591" y2="600" stroke="#0a0408" stroke-width="0.6"/>
+    <circle cx="591" cy="600" r="1.4" fill="#ffd060" filter="url(#p22softBloom)"/>
+  </g>
+
+  <!-- Foreground rooftops (closer + larger detail). -->
+  <g id="p22-near-roofs">
+    <path d="M0,650 L80,642 L150,652 L220,640 L290,650 L360,638 L430,648 L500,636 L570,648 L640,636 L720,648 L742,642 L742,720 L0,720 Z" fill="#0a0408"/>
+
+    <!-- Foreground chimney stack clusters. -->
+    <g id="p22-fg-chimneys">
+      <rect x="60" y="608" width="52" height="42" fill="#1a0810"/>
+      <rect x="64" y="582" width="10" height="28" fill="#3a1810"/>
+      <rect x="76" y="575" width="10" height="35" fill="#3a1810"/>
+      <rect x="88" y="580" width="10" height="30" fill="#3a1810"/>
+      <rect x="100" y="582" width="10" height="28" fill="#3a1810"/>
+      <rect x="62" y="580" width="52" height="4" fill="#5a2812"/>
+      <line x1="68" y1="582" x2="68" y2="608" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+      <line x1="80" y1="575" x2="80" y2="608" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+      <line x1="92" y1="580" x2="92" y2="608" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+      <line x1="104" y1="582" x2="104" y2="608" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+
+      <rect x="615" y="610" width="50" height="40" fill="#1a0810"/>
+      <rect x="619" y="586" width="10" height="26" fill="#3a1810"/>
+      <rect x="631" y="580" width="10" height="32" fill="#3a1810"/>
+      <rect x="643" y="584" width="10" height="28" fill="#3a1810"/>
+      <rect x="655" y="588" width="10" height="24" fill="#3a1810"/>
+      <rect x="617" y="584" width="50" height="4" fill="#5a2812"/>
+    </g>
+
+    <!-- Lit foreground windows. -->
+    <ellipse cx="220" cy="678" rx="18" ry="11" fill="url(#p22windowGlow)" filter="url(#p22bloom)" opacity="0.85"/>
+    <rect x="212" y="671" width="16" height="14" fill="#fff5d8" opacity="0.95"/>
+    <line x1="220" y1="671" x2="220" y2="685" stroke="#3a1810" stroke-width="0.6"/>
+    <line x1="212" y1="678" x2="228" y2="678" stroke="#3a1810" stroke-width="0.6"/>
+
+    <ellipse cx="495" cy="682" rx="16" ry="10" fill="url(#p22windowGlow)" filter="url(#p22bloom)" opacity="0.7"/>
+    <rect x="488" y="675" width="14" height="13" fill="#fff5d8" opacity="0.85"/>
+  </g>
+
+  <!-- Amber gaslight rivers winding through streets at bottom of cityscape. -->
+  <g id="p22-streets">
+    <ellipse cx="160" cy="730" rx="80" ry="14" fill="url(#p22cityHaze)" filter="url(#p22bloom)" opacity="0.85"/>
+    <ellipse cx="380" cy="745" rx="100" ry="16" fill="url(#p22cityHaze)" filter="url(#p22bloom)" opacity="0.95"/>
+    <ellipse cx="580" cy="730" rx="80" ry="14" fill="url(#p22cityHaze)" filter="url(#p22bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- Individual gas lamp pinpricks scattered through streets. -->
+  <g>
+    <circle cx="135" cy="728" r="1.4" fill="#ffe8a8" filter="url(#p22softBloom)"/>
+    <circle cx="175" cy="731" r="1.2" fill="#ffe8a8" filter="url(#p22softBloom)"/>
+    <circle cx="215" cy="728" r="1.4" fill="#ffe8a8" filter="url(#p22softBloom)"/>
+    <circle cx="335" cy="744" r="1.4" fill="#ffe8a8" filter="url(#p22softBloom)"/>
+    <circle cx="380" cy="747" r="1.6" fill="#ffe8a8" filter="url(#p22softBloom)"/>
+    <circle cx="425" cy="744" r="1.4" fill="#ffe8a8" filter="url(#p22softBloom)"/>
+    <circle cx="555" cy="729" r="1.2" fill="#ffe8a8" filter="url(#p22softBloom)"/>
+    <circle cx="595" cy="731" r="1.4" fill="#ffe8a8" filter="url(#p22softBloom)"/>
+    <circle cx="635" cy="729" r="1.2" fill="#ffe8a8" filter="url(#p22softBloom)"/>
+  </g>
+
+  <!-- Strong warm amber haze rim — uplighting source for Sable. -->
+  <ellipse cx="371" cy="850" rx="500" ry="140" fill="url(#p22cityHaze)" filter="url(#p22strongBloom)" opacity="0.85"/>
+
+  <!-- IRON GUTTER PLATFORM — foreground, where Sable + squad stand. -->
+  <g id="p22-gutter-platform">
+    <!-- Outer lip rim catching warm amber from city beyond. -->
+    <path d="M0,830 Q371,820 742,830 L742,860 L0,860 Z" fill="url(#p22iron)"/>
+    <line x1="0" y1="830" x2="742" y2="820" stroke="#080404" stroke-width="2"/>
+    <path d="M0,830 Q371,820 742,830" fill="none" stroke="#f5b860" stroke-width="2" opacity="0.95" filter="url(#p22bloom)"/>
+
+    <!-- Channel interior (where squad sits). -->
+    <rect x="0" y="860" width="742" height="262" fill="#1a0e08"/>
+    <!-- Inner curved bottom of gutter. -->
+    <path d="M0,930 Q371,950 742,930 L742,1122 L0,1122 Z" fill="#0a0408"/>
+
+    <!-- Iron texture: rivets along outer lip + seams. -->
+    <g fill="#080404" opacity="0.85">
+      <circle cx="60" cy="848" r="2.5"/>
+      <circle cx="180" cy="843" r="2.5"/>
+      <circle cx="300" cy="838" r="2.5"/>
+      <circle cx="442" cy="838" r="2.5"/>
+      <circle cx="562" cy="843" r="2.5"/>
+      <circle cx="682" cy="848" r="2.5"/>
+    </g>
+    <!-- Iron seam along inner bottom. -->
+    <line x1="0" y1="918" x2="742" y2="940" stroke="#080404" stroke-width="1.4" opacity="0.85"/>
+
+    <!-- Soot streaks down the inside walls. -->
+    <g fill="#080404" opacity="0.65">
+      <path d="M40,860 Q44,940 38,1000"/>
+      <path d="M180,855 Q184,940 178,1000"/>
+      <path d="M520,855 Q524,940 518,1000"/>
+      <path d="M680,860 Q684,940 678,1000"/>
+    </g>
+
+    <!-- Coal sediment + dead leaves + debris on gutter floor. -->
+    <g fill="#080404" opacity="0.7">
+      <circle cx="50" cy="970" r="2"/>
+      <circle cx="120" cy="985" r="1.6"/>
+      <circle cx="220" cy="978" r="2"/>
+      <circle cx="320" cy="990" r="1.6"/>
+      <circle cx="420" cy="982" r="2"/>
+      <circle cx="540" cy="990" r="1.6"/>
+      <circle cx="640" cy="975" r="2"/>
+      <circle cx="80" cy="1020" r="1.6"/>
+      <circle cx="280" cy="1030" r="2"/>
+      <circle cx="480" cy="1020" r="1.6"/>
+      <circle cx="660" cy="1028" r="2"/>
+    </g>
+    <!-- Dead leaves. -->
+    <path d="M180,995 Q175,975 195,973 Q215,975 218,995 Q205,1010 180,995 Z" fill="#5a3018" opacity="0.85"/>
+    <path d="M180,995 Q200,978 218,995" fill="none" stroke="#3a1808" stroke-width="0.8" opacity="0.7"/>
+    <path d="M540,1000 Q535,980 555,978 Q575,980 578,1000 Q565,1015 540,1000 Z" fill="#5a3018" opacity="0.85"/>
+
+    <!-- Twigs. -->
+    <path d="M0,1050 Q200,1042 400,1052 Q580,1058 742,1050" stroke="#3a1810" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.85"/>
+  </g>
+
+  <!-- ALIEN WRECKAGE in gutter behind Sable — dying blue-white pulses. -->
+  <g id="p22-wreckage">
+    <!-- Hull plating fragments. -->
+    <g fill="#1a1a24" stroke="#080808" stroke-width="0.6">
+      <polygon points="100,985 130,975 145,1005 115,1010"/>
+      <polygon points="260,990 290,978 305,1008 275,1018"/>
+      <polygon points="420,985 450,975 465,1005 435,1015"/>
+      <polygon points="580,988 610,978 622,1006 595,1015"/>
+    </g>
+    <!-- Sparking + dying glow halos. -->
+    <ellipse cx="120" cy="998" rx="28" ry="12" fill="url(#p22wreckGlow)" filter="url(#p22strongBloom)" opacity="0.7"/>
+    <ellipse cx="280" cy="1000" rx="32" ry="14" fill="url(#p22wreckGlow)" filter="url(#p22strongBloom)" opacity="0.85"/>
+    <ellipse cx="445" cy="1000" rx="30" ry="13" fill="url(#p22wreckGlow)" filter="url(#p22strongBloom)" opacity="0.75"/>
+    <ellipse cx="600" cy="1000" rx="26" ry="11" fill="url(#p22wreckGlow)" filter="url(#p22strongBloom)" opacity="0.6"/>
+    <!-- Spark points. -->
+    <g fill="#ffffff" filter="url(#p22bloom)">
+      <circle cx="125" cy="995" r="1.4"/>
+      <circle cx="285" cy="998" r="1.6"/>
+      <circle cx="450" cy="998" r="1.4"/>
+      <circle cx="605" cy="998" r="1.2"/>
+    </g>
+  </g>
+
+  <!-- ====== SQUAD BEHIND SABLE — 5 tiny colored lights in the iron channel ====== -->
+
+  <!-- WREN asleep beside drive housing (left of center). -->
+  <g id="p22-wren" transform="translate(140, 1010)">
+    <!-- Body lying down (horizontal). -->
+    <ellipse cx="0" cy="0" rx="20" ry="9" fill="#c87a35"/>
+    <!-- Head end. -->
+    <ellipse cx="-18" cy="-2" rx="6" ry="5" fill="#e0c0a0"/>
+    <ellipse cx="-19" cy="-5" rx="5" ry="3" fill="#0a0408"/>
+    <!-- One arm extended, hand on drive housing. -->
+    <path d="M-15,2 L-2,15 L8,18" fill="none" stroke="#c87a35" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Drive housing. -->
+    <ellipse cx="14" cy="20" rx="14" ry="6" fill="#2a2a38" stroke="#080808" stroke-width="0.6"/>
+    <ellipse cx="14" cy="20" rx="9" ry="3" fill="#1a1a24"/>
+    <ellipse cx="-18" cy="-2" rx="3" ry="2" fill="#a87af0" opacity="0.7"/>
+    <!-- Suit accent glow (faint copper). -->
+    <ellipse cx="0" cy="0" rx="22" ry="11" fill="#c87a35" opacity="0.25" filter="url(#p22bloom)"/>
+  </g>
+
+  <!-- JINK curled on gutter lip at the far right edge. -->
+  <g id="p22-jink" transform="translate(620, 870)">
+    <!-- Curled small body. -->
+    <ellipse cx="0" cy="0" rx="16" ry="10" fill="#2ed078"/>
+    <!-- Curled head + curls. -->
+    <ellipse cx="-10" cy="-3" rx="6" ry="5" fill="#d8b890"/>
+    <g fill="#f5d068">
+      <circle cx="-12" cy="-7" r="3.5"/>
+      <circle cx="-9" cy="-9" r="3"/>
+      <circle cx="-7" cy="-6" r="3"/>
+    </g>
+    <!-- Folded knees (curled position). -->
+    <ellipse cx="10" cy="2" rx="6" ry="5" fill="#0a5a30"/>
+    <!-- Faint emerald wing-pack glow. -->
+    <ellipse cx="0" cy="0" rx="20" ry="13" fill="#2ed078" opacity="0.3" filter="url(#p22bloom)"/>
+  </g>
+
+  <!-- THRESH sitting watch against far-left gutter wall. -->
+  <g id="p22-thresh" transform="translate(60, 990)">
+    <!-- Body upright, sitting. -->
+    <path d="M-12,30 Q-15,5 -13,-15 L13,-15 Q15,5 12,30 Z" fill="#dc2030"/>
+    <!-- Right shoulder. -->
+    <ellipse cx="-12" cy="-13" rx="5" ry="3" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+    <!-- Dented left pauldron. -->
+    <ellipse cx="12" cy="-13" rx="5" ry="3" fill="#a8182a" stroke="#080408" stroke-width="0.4"/>
+    <!-- Arms at sides (alert sentinel). -->
+    <path d="M-11,-5 L-15,15 L-13,28" fill="none" stroke="#a8182a" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M11,-5 L15,15 L13,28" fill="none" stroke="#a8182a" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Head with copper buzz. -->
+    <ellipse cx="0" cy="-22" rx="6" ry="6.5" fill="#d8a880"/>
+    <ellipse cx="0" cy="-25" rx="5" ry="2.5" fill="#a83a18"/>
+    <!-- Faint ruby glow. -->
+    <ellipse cx="0" cy="0" rx="18" ry="22" fill="#dc2030" opacity="0.25" filter="url(#p22bloom)"/>
+  </g>
+
+  <!-- LUMA under leaf shelter (mid-right of channel). -->
+  <g id="p22-luma" transform="translate(450, 1015)">
+    <!-- Leaf shelter overhead (curled brown leaf canopy). -->
+    <path d="M-35,-15 Q-40,-40 -10,-45 Q20,-48 35,-30 Q40,-15 30,-5 Q0,0 -30,-5 Q-38,-10 -35,-15 Z" fill="#5a3018" opacity="0.95"/>
+    <path d="M-30,-12 Q-10,-35 25,-30" fill="none" stroke="#3a1808" stroke-width="0.8" opacity="0.8"/>
+    <!-- Body sitting under leaf. -->
+    <ellipse cx="0" cy="6" rx="11" ry="8" fill="#5a3ad8"/>
+    <!-- Head + braid. -->
+    <ellipse cx="0" cy="-5" rx="5" ry="5.5" fill="#a87850"/>
+    <ellipse cx="-1" cy="-9" rx="4" ry="2.5" fill="#1a0a08"/>
+    <path d="M3,-5 Q8,2 10,12" fill="none" stroke="#1a0a08" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Glowing scanner in hand. -->
+    <rect x="6" y="2" width="6" height="4" rx="1" fill="#1a1828" stroke="#a87af0" stroke-width="0.5"/>
+    <ellipse cx="9" cy="4" rx="6" ry="3" fill="#a87af0" filter="url(#p22bloom)" opacity="0.5"/>
+    <!-- Faint sapphire glow. -->
+    <ellipse cx="0" cy="6" rx="14" ry="10" fill="#5a3ad8" opacity="0.3" filter="url(#p22bloom)"/>
+  </g>
+
+  <!-- ====== SABLE — centerpiece, at the gutter lip, three-quarter profile ====== -->
+  <g id="p22-sable" transform="translate(371, 740)">
+
+    <!-- Body in damaged silver suit (large central figure). -->
+    <path d="M-32,90 Q-38,30 -32,-25 L-12,-40 L18,-40 Q24,-25 32,-25 Q38,30 32,90 Z" fill="url(#p22silver)" stroke="#3a3848" stroke-width="0.8"/>
+
+    <!-- Cool wash on left/back side (from squad behind). -->
+    <path d="M-32,90 Q-38,30 -32,-25 L0,-25 L0,90 Z" fill="#7ac8ff" opacity="0.18"/>
+    <!-- Warm wash on right/front side (from city ahead). -->
+    <path d="M0,-25 L18,-40 Q24,-25 32,-25 Q38,30 32,90 L0,90 Z" fill="#f5b860" opacity="0.18"/>
+
+    <!-- CRACKED RIGHT shoulder panel (her injury — script's "bleeding blue-white through fractures"). -->
+    <ellipse cx="22" cy="-22" rx="10" ry="6" fill="#9ba1aa" stroke="#080408" stroke-width="0.5"/>
+    <path d="M16,-25 L28,-22 L26,-15 L18,-17 Z" fill="#7a808a"/>
+    <line x1="16" y1="-23" x2="28" y2="-20" stroke="#7ac8ff" stroke-width="1.4" filter="url(#p22bloom)" opacity="0.95"/>
+    <line x1="22" y1="-25" x2="22" y2="-15" stroke="#bfe4ff" stroke-width="1" filter="url(#p22bloom)" opacity="0.95"/>
+    <ellipse cx="22" cy="-20" rx="14" ry="8" fill="url(#p22fractureGlow)" filter="url(#p22strongBloom)" opacity="0.55"/>
+    <g fill="#bfe4ff" filter="url(#p22bloom)">
+      <circle cx="20" cy="-22" r="1.2"/>
+      <circle cx="26" cy="-18" r="1"/>
+      <circle cx="22" cy="-12" r="1.2"/>
+    </g>
+
+    <!-- LEFT shoulder pad. -->
+    <ellipse cx="-22" cy="-22" rx="9" ry="5" fill="#9ba1aa" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-22" cy="-24" rx="6" ry="2" fill="#dce4f0" opacity="0.6"/>
+
+    <!-- Additional fracture on chest plate (more damage). -->
+    <line x1="-8" y1="0" x2="-2" y2="14" stroke="#7ac8ff" stroke-width="1.2" filter="url(#p22bloom)" opacity="0.95"/>
+    <line x1="6" y1="20" x2="12" y2="32" stroke="#7ac8ff" stroke-width="1" filter="url(#p22bloom)" opacity="0.85"/>
+
+    <!-- Arms at sides. -->
+    <path d="M-32,-15 L-38,18 L-40,55" fill="none" stroke="url(#p22silver)" stroke-width="6.5" stroke-linecap="round"/>
+    <path d="M32,-15 L38,18 L40,55" fill="none" stroke="url(#p22silver)" stroke-width="6.5" stroke-linecap="round"/>
+    <ellipse cx="-40" cy="55" rx="4.5" ry="3" fill="#5a3018"/>
+    <ellipse cx="40" cy="55" rx="4.5" ry="3" fill="#5a3018"/>
+
+    <!-- Legs standing firm at gutter lip. -->
+    <path d="M-15,90 L-20,118 L-22,150" fill="none" stroke="#5a606a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M14,90 L20,118 L22,150" fill="none" stroke="#5a606a" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="150" rx="7" ry="3" fill="#1a0808"/>
+    <ellipse cx="22" cy="150" rx="7" ry="3" fill="#1a0808"/>
+
+    <!-- HEAD — three-quarter profile (turned slightly toward city, but back-3/4 visible). -->
+    <ellipse cx="2" cy="-50" rx="13" ry="14" fill="#5a3018"/>
+    <!-- Buzz cap (silver-white, dust). -->
+    <path d="M-9,-58 Q-3,-64 2,-64 Q7,-64 14,-58 L14,-50 L-9,-50 Z" fill="#e8eaee"/>
+    <path d="M-9,-58 Q2,-62 14,-58" fill="none" stroke="#9aa4b4" stroke-width="0.7" opacity="0.7"/>
+    <!-- Buzz stipple. -->
+    <g fill="#5a606a" opacity="0.7">
+      <circle cx="-5" cy="-60" r="0.6"/>
+      <circle cx="-1" cy="-61" r="0.6"/>
+      <circle cx="3" cy="-62" r="0.6"/>
+      <circle cx="7" cy="-61" r="0.6"/>
+      <circle cx="11" cy="-58" r="0.6"/>
+    </g>
+    <!-- Soot dust on top. -->
+    <g fill="#3a2818" opacity="0.55">
+      <circle cx="-2" cy="-62" r="0.9"/>
+      <circle cx="6" cy="-63" r="0.7"/>
+      <circle cx="10" cy="-60" r="0.7"/>
+    </g>
+
+    <!-- 3/4 profile face features (right eye visible, left eye partial, looking toward city). -->
+    <!-- Eyes shifted right (looking out at city). -->
+    <ellipse cx="2" cy="-50" rx="1.4" ry="1" fill="#1a0808"/>
+    <ellipse cx="9" cy="-50" rx="1.4" ry="1" fill="#1a0808"/>
+    <!-- Brow furrow (resolution). -->
+    <path d="M-2,-55 Q3,-56 7,-55" stroke="#3a1808" stroke-width="0.9" fill="none"/>
+    <!-- Nose bridge (3/4 view). -->
+    <path d="M5,-49 L8,-43 L11,-43 Z" fill="#3a1808" opacity="0.5"/>
+    <!-- Lips (set, decided). -->
+    <line x1="3" y1="-40" x2="11" y2="-40" stroke="#3a1808" stroke-width="1.1"/>
+    <!-- Cheekbone. -->
+    <ellipse cx="11" cy="-44" rx="2.5" ry="1.5" fill="#a87850" opacity="0.6"/>
+
+    <!-- Warm catch-light on right side of face (city). -->
+    <path d="M14,-58 Q14,-44 14,-40" fill="none" stroke="#f5b860" stroke-width="1.3" opacity="0.7"/>
+    <ellipse cx="11" cy="-43" rx="2.5" ry="1.5" fill="#f5d090" opacity="0.5"/>
+    <!-- Cool catch-light on left/back side (squad). -->
+    <path d="M-9,-58 Q-9,-50 -8,-46" fill="none" stroke="#7ac8ff" stroke-width="1.3" opacity="0.65"/>
+  </g>
+
+  <!-- Subtle warm wash rising up the lower body of Sable from city below. -->
+  <ellipse cx="371" cy="850" rx="100" ry="60" fill="#f5b860" opacity="0.25" filter="url(#p22strongBloom)"/>
+
+  <!-- Subtle cool wash on Sable's upper body from squad/wreckage behind. -->
+  <ellipse cx="371" cy="730" rx="80" ry="50" fill="#7ac8ff" opacity="0.18" filter="url(#p22strongBloom)"/>
+
+  <!-- ====== TWO CAPTIONS at bottom of page ====== -->
+  <g id="p22-caption-1">
+    <rect x="80" y="1030" width="582" height="38" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="371" y="1054" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" font-style="italic" fill="#5a4a30" letter-spacing="0.4">They were soldiers from the end of time, stranded at the start of a story.</text>
+  </g>
+
+  <g id="p22-caption-2">
+    <rect x="160" y="1078" width="422" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="371" y="1100" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#5a4a30" letter-spacing="0.3">The city below would call them fairies.</text>
+  </g>
+
+  <!-- Meta tag (subtle, top-right). -->
+  <g id="p22-meta">
+    <text x="730" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="734" y="1112" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">FINAL SPLASH — VOL 1 CLIFFHANGER</text>
+  </g>
+</svg>

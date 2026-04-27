@@ -2,15 +2,17 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 18 added, climax arc opens).
+**Last update:** 2026-04-27 (loop session extended — Page 22 added, the IP-defining cliffhanger).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–8 + 12 + 18 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 34 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04, P18P01–P18P04).
+**Pages 1–8 + 12 + 18 + 22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 35 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04, P18P01–P18P04, P22P01).
 
-**Page 18 (after the verdict, climax opens) just added** — 4 panels in 2 rows: Jink at gutter lip "...it is a lot of city, though" / Luma CU lenses pushed up asks "how long do we have?" / squad fractured tableau (5 isolated responses) with Sable command "...stay close." / Sable's gloved hand gripping iron lip w/ luminous fracture wound. Sums to 1181px.
+**Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
+
+**Page 18 (after the verdict, climax opens)** — 4 panels in 2 rows. 1181px.
 
 **Page 12 (scale-reveal money shot)** — Jink's POV city splash + 3 inset thirds. 1181px.
 
@@ -20,7 +22,7 @@
 
 **Pages 5, 6, 7 (Sections 2-3 opening)** — at quality bar.
 
-**Pages 9-11, 13-17, 19-22 of Issue 1 remain auto-generated stick-figure storyboards.**
+**Pages 9-11, 13-17, 19-21 of Issue 1 remain auto-generated stick-figure storyboards.**
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -224,6 +226,37 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 22 — DONE (IP-defining cliffhanger — FINAL SPLASH)
+
+Single full-page splash filling 1181px page-fill. The defining image of GrimGlow Volume 1.
+
+### P22P01 — Sable at the threshold (742×1122 — full-page)
+- ✅ Sky w/ stars dusted across upper half + faint dying star trail (visual callback to opening pages)
+- ✅ Far horizon city silhouette: St. Paul's dome (centered), church spires, factory stacks w/ smoke trails, distant rooftops
+- ✅ Mid-ground rooftops + chimney pot clusters + lit windows
+- ✅ Thames ribbon w/ 4 ships at amber riding lights (curving across mid-distance)
+- ✅ Foreground rooftops + chimney clusters + lit foreground windows + amber gas pools winding through streets w/ individual gas lamp pinpricks
+- ✅ Iron gutter platform (where Sable + squad are) w/ rivets + soot streaks + warm amber rim catch on lip from city
+- ✅ All 5 squad members behind Sable in the iron channel as tiny colored lights:
+  - Wren copper asleep beside drive housing (one hand resting on it)
+  - Jink emerald curled on gutter lip (far right)
+  - Thresh ruby sitting watch against far-left wall
+  - Luma sapphire under leaf shelter (curled brown leaf canopy) w/ scanner glowing
+- ✅ Dying alien wreckage in channel: hull plating fragments + cool blue-white halos pulsing + spark points
+- ✅ Sable centered, large, three-quarter profile (turned slightly toward city)
+- ✅ Cracked RIGHT shoulder panel bleeding blue-white through fractures (script's "luminous wound" image, w/ glow halo)
+- ✅ Additional fracture lines on chest plate (more damage accumulation)
+- ✅ DUAL-LIGHTING THESIS: cool blue-white wash on Sable's left/back (squad/wreckage), warm amber wash on Sable's right/front (city) — two lights meet on her figure at center-frame, neither dominates
+- ✅ Warm catch-light on right side of face, cool catch-light on left/back side
+- ✅ Two parchment caption boxes at bottom (centered, italic):
+  - Caption 1: "They were soldiers from the end of time, stranded at the start of a story."
+  - Caption 2: "The city below would call them fairies."
+- ✅ Composition reads as devastating-and-beautiful simultaneously — awe and loss and resolution in tension
+- 🟡 Squad reads as "below" rather than "behind" Sable due to vertical-stack composition; readable but compositionally simpler than ideal painterly version
+- 🟢 The IP-defining cliffhanger image — the one that will be on posters, tells the entire story in a single frame — is captured
 
 ---
 
