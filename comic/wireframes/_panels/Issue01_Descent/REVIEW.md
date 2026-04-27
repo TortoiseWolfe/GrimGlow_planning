@@ -2,7 +2,7 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-26 (loop session ending at commit 4539726).
+**Last update:** 2026-04-27 (loop session extended through commit a48c18d — Pages 5-7 added).
 
 ---
 
@@ -10,7 +10,9 @@
 
 **Pages 1–3 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier "submarine / toque / teapot / stick-figure / no console" failure modes from v1 have been fixed across all 17 panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06).
 
-**Pages 4–22 of Issue 1 remain auto-generated stick-figure storyboards** — 10pt dialogue, abstract figures, no per-panel SVG files. These are placeholders awaiting the same per-panel quality treatment given to Pages 1–3.
+**Pages 5, 6, 7 of Issue 1 are now also at quality bar.** Pages 5-6 (Section 2 — THE FALL: Victorian reveal + Theodore introduction). Page 7 (Section 3 opening — THE WRECKAGE: squad emerges from crashed ship in gutter). 14 new panels created, all deployed.
+
+**Pages 4, 8-22 of Issue 1 remain auto-generated stick-figure storyboards** — 10pt dialogue, abstract figures. These are placeholders awaiting the same per-panel quality treatment.
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -173,7 +175,31 @@ All 6 panels are high-quality individual SVG files referenced by a thin composit
 
 ---
 
-## Pending — Pages 4–22
+## Pages 5-7 — DONE (added in extended session)
+
+### Page 5 — Victorian reveal (4 panels)
+- P5P1 cityscape "The city sleeps" (warm-only world before squad arrives)
+- P5P2 lamplighter Jack Hobday on rounds
+- P5P3 Victorian woman witness, dual light meets human face for first time
+- P5P4 ECU hand crossing herself, cool prismatic overwhelms warm amber
+
+### Page 6 — Theodore introduction (5 panels)
+- P6P1 Clerkenwell side street with Theodore silhouette in lit window (HARTLEY · TINKER trade sign)
+- P6P2 Theodore close-up at window, dual lighting on wonder face, hand pressed to glass with brass gear ring
+- P6P3 post-star roofscape (the city forgets)
+- P6P4 Hobday aftermath, stopped working, looking up — thought balloon
+- P6P5 ECU Theodore's hand on glass with oil-stained fingertips
+
+### Page 7 — Squad in wreckage (5 panels)
+- P7P1 worm's-eye gutter establishing with Sable face-down
+- P7P2 ECU Sable's hand twitching (cracked gauntlet leaking blue-white)
+- P7P3 Sable rising from debris, bracing arm
+- P7P4 Sable face CU scanning, command activating
+- P7P5 bird's-eye revealing all 5 squad members in gutter against vast slate roof
+
+---
+
+## Pending — Pages 4, 8–22
 
 All pages 4–22 are currently auto-generated stick-figure storyboards (single monolithic SVG per page, ~5–13KB each). They show panel layout grids + tiny inline figure markers + 10pt dialogue. The work is structurally complete (panels exist with correct counts and dimensions) but artistically placeholder.
 
