@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 364" width="494" height="364">
+  <title>Issue 3 — Page 13 — Panel 1: MCU low angle Theodore "What... what are you?"</title>
+  <desc>MCU slight low angle from bench level. Twelve-year-old Victorian boy upper body and face seen from below — sandy-brown hair, wide hazel eyes active with cataloguing intelligence behind wonder, brow lifted, mouth working to form a word. Hands grip workbench edge — knuckles white, brass gear ring on left index finger. Collarless linen shirt with rolled sleeves, worn leather waistcoat. Warm golden candlelight from right side casts amber on face. In widened eyes, pinpoint reflections of cool emerald glow. The first word spoken to the impossible.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p13p1nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p13p1candleHalo" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#ffa850" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p13p1bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p13p1theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <linearGradient id="p13p1theoSkinWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="p13p1theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p13p1shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcc8a8"/>
+      <stop offset="100%" stop-color="#7a6840"/>
+    </linearGradient>
+    <linearGradient id="p13p1vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p13p1ring" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1c08"/>
+    </radialGradient>
+    <filter id="p13p1bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p13p1deepBloom"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="494" height="364" fill="url(#p13p1nightBg)"/>
+  <!-- Warm halo from candle right side. -->
+  <ellipse cx="490" cy="180" rx="380" ry="280" fill="url(#p13p1candleHalo)" opacity="0.85"/>
+
+  <!-- Workshop wall hint. -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.55">
+    <line x1="40" y1="0" x2="40" y2="80"/>
+    <line x1="120" y1="0" x2="120" y2="60"/>
+    <line x1="200" y1="0" x2="200" y2="40"/>
+    <line x1="380" y1="0" x2="380" y2="40"/>
+  </g>
+
+  <!-- Low-angle bench foreground (from Jink's height, edge in close FG). -->
+  <rect x="0" y="320" width="494" height="44" fill="url(#p13p1bench)"/>
+  <line x1="0" y1="320" x2="494" y2="320" stroke="#7a4828" stroke-width="2"/>
+  <g stroke="#fff0a8" stroke-width="0.55" opacity="0.45">
+    <line x1="40" y1="324" x2="180" y2="322"/>
+    <line x1="280" y1="322" x2="450" y2="324"/>
+  </g>
+
+  <!-- Hands gripping bench edge (knuckles white). -->
+  <!-- Right hand. -->
+  <g>
+    <path d="M260,320 Q258,300 262,288 L274,286 Q282,284 290,288 L300,294 Q314,298 322,310 Q324,320 322,326 L260,326 Z" fill="url(#p13p1theoSkin)"/>
+    <ellipse cx="280" cy="305" rx="18" ry="6" fill="url(#p13p1theoSkinWarm)" opacity="0.6"/>
+    <!-- Knuckle highlights white. -->
+    <ellipse cx="270" cy="300" rx="3" ry="2" fill="#fff8e8" opacity="0.85"/>
+    <ellipse cx="282" cy="296" rx="3" ry="2" fill="#fff8e8" opacity="0.85"/>
+    <ellipse cx="296" cy="298" rx="3" ry="2" fill="#fff8e8" opacity="0.85"/>
+    <ellipse cx="312" cy="306" rx="3" ry="2" fill="#fff8e8" opacity="0.7"/>
+    <!-- Sleeve cuff (rolled). -->
+    <path d="M250,320 L246,308 Q252,296 280,294 L290,290 L290,278 Q260,280 246,294 Z" fill="url(#p13p1shirt)"/>
+    <ellipse cx="268" cy="282" rx="20" ry="2" fill="#a89060"/>
+  </g>
+  <!-- Left hand with brass gear ring on index. -->
+  <g>
+    <path d="M170,320 Q166,302 172,290 L182,288 Q198,288 208,294 L222,300 Q234,308 236,318 Q236,322 234,326 L170,326 Z" fill="url(#p13p1theoSkin)"/>
+    <ellipse cx="200" cy="305" rx="18" ry="6" fill="url(#p13p1theoSkinWarm)" opacity="0.5"/>
+    <!-- Knuckle highlights. -->
+    <ellipse cx="178" cy="300" rx="3" ry="2" fill="#fff8e8" opacity="0.85"/>
+    <ellipse cx="194" cy="296" rx="3" ry="2" fill="#fff8e8" opacity="0.85"/>
+    <ellipse cx="210" cy="298" rx="3" ry="2" fill="#fff8e8" opacity="0.85"/>
+    <ellipse cx="226" cy="306" rx="3" ry="2" fill="#fff8e8" opacity="0.7"/>
+    <!-- BRASS GEAR RING (on left index). -->
+    <ellipse cx="194" cy="298" rx="6" ry="3.5" fill="url(#p13p1ring)"/>
+    <ellipse cx="194" cy="298" rx="6" ry="3.5" fill="none" stroke="#1a0c04" stroke-width="0.4"/>
+    <ellipse cx="194" cy="298" rx="2.4" ry="1.4" fill="#3a1c08"/>
+    <!-- Tiny gear teeth on ring. -->
+    <g fill="#a85820">
+      <rect x="187" y="296" width="1.2" height="1.2"/>
+      <rect x="200" y="296" width="1.2" height="1.2"/>
+      <rect x="194" y="293" width="1.2" height="1.2"/>
+    </g>
+    <!-- Sleeve cuff. -->
+    <path d="M160,320 L156,308 Q162,296 188,292 L200,288 L200,278 Q170,280 156,294 Z" fill="url(#p13p1shirt)"/>
+    <ellipse cx="178" cy="282" rx="20" ry="2" fill="#a89060"/>
+  </g>
+
+  <!-- Vest panels (mid-body). -->
+  <g>
+    <path d="M120,260 L116,320 L210,322 Q220,300 224,260 Z" fill="url(#p13p1vest)"/>
+    <path d="M260,260 Q264,300 274,322 L380,320 L376,260 Z" fill="url(#p13p1vest)"/>
+    <!-- Linen shirt center. -->
+    <path d="M210,260 L218,322 L274,322 L264,260 Z" fill="url(#p13p1shirt)"/>
+    <!-- Buttons. -->
+    <circle cx="240" cy="280" r="2" fill="#3a2010"/>
+    <circle cx="242" cy="298" r="2" fill="#3a2010"/>
+    <circle cx="244" cy="316" r="2" fill="#3a2010"/>
+    <!-- Vest stitching. -->
+    <line x1="220" y1="260" x2="216" y2="320" stroke="#3a2010" stroke-width="0.4"/>
+    <line x1="262" y1="260" x2="266" y2="320" stroke="#3a2010" stroke-width="0.4"/>
+    <!-- Collar of shirt. -->
+    <path d="M212,256 L226,224 L260,224 L272,256 Z" fill="url(#p13p1shirt)"/>
+  </g>
+
+  <!-- NECK + JAW. -->
+  <path d="M222,224 L218,182 Q230,176 244,176 L244,176 Q258,176 270,182 L266,224 Z" fill="url(#p13p1theoSkin)"/>
+  <ellipse cx="244" cy="200" rx="20" ry="14" fill="url(#p13p1theoSkinWarm)" opacity="0.75"/>
+
+  <!-- HEAD (large, low-angle perspective — chin prominent, jaw heavy). -->
+  <g>
+    <ellipse cx="244" cy="138" rx="78" ry="64" fill="url(#p13p1theoSkin)"/>
+    <ellipse cx="244" cy="138" rx="78" ry="64" fill="url(#p13p1theoSkinWarm)" opacity="0.55"/>
+    <!-- Jaw (low angle = wide jaw line). -->
+    <path d="M178,150 Q200,200 244,206 Q288,200 310,150" fill="none" stroke="#5a3018" stroke-width="1" opacity="0.5"/>
+    <!-- Underside of chin shadow. -->
+    <ellipse cx="244" cy="186" rx="40" ry="14" fill="#5a3018" opacity="0.45"/>
+  </g>
+
+  <!-- Hair — sandy-brown tousled. -->
+  <g fill="url(#p13p1theoHair)">
+    <path d="M160,80 Q150,30 220,12 Q260,4 304,16 Q336,30 332,80 L324,90 Q316,30 300,24 L200,24 Q184,32 172,90 Z"/>
+    <path d="M170,30 L162,4 L184,24 Z"/>
+    <path d="M200,18 L192,-8 L218,16 Z"/>
+    <path d="M232,8 L240,-22 L256,12 Z"/>
+    <path d="M268,8 L286,-18 L280,18 Z"/>
+    <path d="M300,18 L324,-8 L320,32 Z"/>
+    <path d="M168,86 L172,116 L184,80 Z"/>
+    <path d="M200,98 L204,128 L218,92 Z"/>
+    <path d="M232,104 L236,134 L250,98 Z"/>
+    <path d="M260,104 L264,134 L278,98 Z"/>
+    <path d="M292,98 L296,128 L310,92 Z"/>
+  </g>
+  <g stroke="#ffd078" stroke-width="1.4" opacity="0.7">
+    <line x1="178" y1="6" x2="178" y2="28"/>
+    <line x1="208" y1="-12" x2="208" y2="12"/>
+    <line x1="244" y1="-22" x2="244" y2="6"/>
+    <line x1="278" y1="-12" x2="278" y2="12"/>
+    <line x1="312" y1="-2" x2="312" y2="22"/>
+  </g>
+
+  <!-- EYES — wide hazel, active intelligence behind wonder, with EMERALD reflections. -->
+  <!-- Left eye. -->
+  <ellipse cx="208" cy="128" rx="14" ry="10" fill="#fff8e8"/>
+  <ellipse cx="208" cy="128" rx="14" ry="10" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+  <circle cx="208" cy="128" r="6.5" fill="url(#p13p1theoHair)"/>
+  <circle cx="208" cy="128" r="3.5" fill="#0a0604"/>
+  <!-- EMERALD reflection in pupil. -->
+  <circle cx="210" cy="126" r="1.4" fill="#a8ffd0" filter="url(#p13p1bloom)"/>
+  <circle cx="210" cy="126" r="0.7" fill="#ffffff"/>
+  <ellipse cx="206" cy="130" rx="1.2" ry="0.6" fill="#ffffff"/>
+  <!-- Right eye. -->
+  <ellipse cx="280" cy="128" rx="14" ry="10" fill="#fff8e8"/>
+  <ellipse cx="280" cy="128" rx="14" ry="10" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+  <circle cx="280" cy="128" r="6.5" fill="url(#p13p1theoHair)"/>
+  <circle cx="280" cy="128" r="3.5" fill="#0a0604"/>
+  <circle cx="282" cy="126" r="1.4" fill="#a8ffd0" filter="url(#p13p1bloom)"/>
+  <circle cx="282" cy="126" r="0.7" fill="#ffffff"/>
+  <ellipse cx="278" cy="130" rx="1.2" ry="0.6" fill="#ffffff"/>
+
+  <!-- Brows — risen (active wonder). -->
+  <path d="M188,108 Q208,100 228,108" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+  <path d="M260,108 Q280,100 300,108" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Nose (slightly upturned, low angle). -->
+  <path d="M244,140 L232,178 Q244,184 256,178 Z" fill="#a8765a" opacity="0.55"/>
+  <ellipse cx="238" cy="172" rx="2.5" ry="1.5" fill="#3a2010"/>
+  <ellipse cx="250" cy="172" rx="2.5" ry="1.5" fill="#3a2010"/>
+
+  <!-- MOUTH — working to form a word. Slightly open, teeth visible. -->
+  <path d="M218,200 Q244,206 270,200 L266,212 Q244,218 222,212 Z" fill="#3a1408"/>
+  <path d="M222,202 L266,202 L264,208 L224,208 Z" fill="#fff8e8" opacity="0.78"/>
+  <line x1="232" y1="202" x2="232" y2="208" stroke="#a85820" stroke-width="0.4"/>
+  <line x1="244" y1="202" x2="244" y2="208" stroke="#a85820" stroke-width="0.4"/>
+  <line x1="256" y1="202" x2="256" y2="208" stroke="#a85820" stroke-width="0.4"/>
+
+  <!-- Freckles. -->
+  <g fill="#a8765a" opacity="0.95">
+    <circle cx="190" cy="160" r="0.85"/>
+    <circle cx="202" cy="166" r="0.7"/>
+    <circle cx="216" cy="160" r="0.85"/>
+    <circle cx="272" cy="160" r="0.85"/>
+    <circle cx="286" cy="166" r="0.7"/>
+    <circle cx="298" cy="160" r="0.85"/>
+  </g>
+
+  <!-- Cheek warmth. -->
+  <ellipse cx="186" cy="172" rx="14" ry="9" fill="#ffd078" opacity="0.32"/>
+  <ellipse cx="302" cy="172" rx="14" ry="9" fill="#ffd078" opacity="0.32"/>
+
+  <!-- DIALOGUE — Theodore "What... what are you?" -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="42" width="222" height="56" rx="12" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4"/>
+    <path d="M48,98 L60,98 L48,116 Z" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="49.5" y1="98.5" x2="58" y2="98.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#6a4220">THEODORE</text>
+  <text x="22" y="80" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-style="italic">What... what are you?</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q160,45 320,42"/>
+    <path d="M320,40 Q400,45 494,42"/>
+    <path d="M0,300 Q160,305 320,302"/>
+    <path d="M320,300 Q400,305 494,302"/>
+  </g>
+</svg>
