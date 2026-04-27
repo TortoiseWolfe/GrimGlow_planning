@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 1 — Page 19 — Panel 2: Wren projects component list</title>
+  <desc>Medium close-up at eye level (65mm). Wren holding pen-sized micro-fabrication tool, floating holographic copper-gold geometric script projects from tip — items appearing as she speaks. East Asian, wiry, messy black hair bun, damaged copper suit w/ oil on forearms. Focused, almost eager — engineer translating catastrophe into logistics. Copper-gold light from holographic list catches face + hands. WREN: "If we can't rebuild the drive, we build a new one. Different architecture. I need to source components locally." / "Precision gears. Optical lenses. Copper induction coils. A crystalline resonance medium." (italic aside: the list is growing)</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p19p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="p19p2copperHaloGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p19p2copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0a060"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="p19p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8b890"/>
+      <stop offset="100%" stop-color="#a87850"/>
+    </linearGradient>
+    <radialGradient id="p19p2listGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffd060" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a86028" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p19p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p19p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Background — dim gutter interior. -->
+  <rect width="366" height="400" fill="url(#p19p2bg)"/>
+
+  <!-- Gutter wall hint. -->
+  <path d="M0,40 Q183,20 366,40 L366,360 L0,360 Z" fill="#1a0e08" opacity="0.6"/>
+  <line x1="0" y1="80" x2="366" y2="60" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <line x1="0" y1="200" x2="366" y2="195" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <line x1="0" y1="320" x2="366" y2="318" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <g fill="#080404" opacity="0.85">
+    <circle cx="50" cy="85" r="2"/>
+    <circle cx="316" cy="85" r="2"/>
+    <circle cx="50" cy="205" r="2"/>
+    <circle cx="316" cy="200" r="2"/>
+  </g>
+  <g fill="#080404" opacity="0.55">
+    <path d="M30,40 Q34,160 28,300"/>
+    <path d="M338,40 Q342,160 336,300"/>
+  </g>
+
+  <!-- Strong copper-gold halo from the holographic list — fills upper-right of panel. -->
+  <ellipse cx="240" cy="160" rx="160" ry="120" fill="url(#p19p2copperHaloGlow)" filter="url(#p19p2strongBloom)"/>
+
+  <!-- WREN — center-left, holding tool right-hand. -->
+  <g id="p19p2-wren" transform="translate(140, 230)">
+
+    <!-- Body in copper, bent forward slightly (concentrating). -->
+    <path d="M-26,90 Q-30,30 -26,-20 L-12,-30 L18,-30 Q22,-20 26,-20 Q30,30 26,90 Z" fill="url(#p19p2copper)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Copper-gold light wash from list (front-lit). -->
+    <ellipse cx="14" cy="-10" rx="22" ry="18" fill="#ffd060" opacity="0.18"/>
+    <!-- Shoulder pads. -->
+    <ellipse cx="-22" cy="-22" rx="8" ry="5" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="22" cy="-22" rx="8" ry="5" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-22" cy="-23" rx="5" ry="2" fill="#f5c890" opacity="0.55"/>
+    <ellipse cx="22" cy="-23" rx="5" ry="2" fill="#f5c890" opacity="0.55"/>
+
+    <!-- Right arm extended forward holding tool. -->
+    <path d="M22,-15 L42,-5 L62,2 L80,8" fill="none" stroke="url(#p19p2copper)" stroke-width="6.5" stroke-linecap="round"/>
+    <!-- Hydraulic stains on right forearm. -->
+    <path d="M48,-2 Q58,2 70,5" stroke="#1a0a08" stroke-width="2" fill="none" opacity="0.85"/>
+    <!-- Hand holding tool. -->
+    <ellipse cx="80" cy="8" rx="5" ry="4" fill="#e0c0a0"/>
+    <!-- Pen-sized fabrication tool. -->
+    <rect x="78" y="2" width="14" height="3" rx="1" fill="#3a3848" stroke="#080808" stroke-width="0.5"/>
+    <rect x="80" y="3" width="10" height="1" fill="#a87038"/>
+    <!-- Bright tip. -->
+    <circle cx="92" cy="3" r="1.5" fill="#ffd060" filter="url(#p19p2bloom)"/>
+
+    <!-- Left arm braced (not gesturing — focused on tool). -->
+    <path d="M-22,-15 L-32,5 L-30,30" fill="none" stroke="url(#p19p2copper)" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M-26,0 Q-32,8 -30,18" stroke="#1a0a08" stroke-width="1.7" fill="none" opacity="0.85"/>
+    <ellipse cx="-30" cy="30" rx="3.5" ry="2.5" fill="#e0c0a0"/>
+
+    <!-- Legs (kneeling/crouched). -->
+    <path d="M-12,90 L-18,118 L-16,140" fill="none" stroke="#a86028" stroke-width="8" stroke-linecap="round"/>
+    <path d="M14,90 L20,118 L22,140" fill="none" stroke="#a86028" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="-16" cy="140" rx="6" ry="3" fill="#1a0808"/>
+    <ellipse cx="22" cy="140" rx="6" ry="3" fill="#1a0808"/>
+
+    <!-- HEAD: East Asian, messy bun. -->
+    <ellipse cx="0" cy="-46" rx="14" ry="15" fill="url(#p19p2skin)"/>
+    <!-- Bun (high partial). -->
+    <ellipse cx="-2" cy="-62" rx="11" ry="7" fill="#0a0408"/>
+    <ellipse cx="3" cy="-66" rx="6" ry="5" fill="#0a0408"/>
+    <ellipse cx="-5" cy="-66" rx="5" ry="4" fill="#0a0408"/>
+    <ellipse cx="-1" cy="-62" rx="6" ry="2" fill="none" stroke="#3a1810" stroke-width="0.8" opacity="0.9"/>
+    <!-- Strands across face. -->
+    <path d="M-12,-50 Q-9,-42 -10,-35" fill="none" stroke="#0a0408" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M11,-50 Q8,-42 9,-35" fill="none" stroke="#0a0408" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M-3,-44 Q-2,-40 -4,-36" fill="none" stroke="#0a0408" stroke-width="1.0" stroke-linecap="round" opacity="0.85"/>
+    <!-- Escaping wisps. -->
+    <path d="M-10,-66 Q-13,-68 -14,-64" fill="none" stroke="#0a0408" stroke-width="1.0" stroke-linecap="round"/>
+    <path d="M11,-66 Q14,-68 15,-64" fill="none" stroke="#0a0408" stroke-width="1.0" stroke-linecap="round"/>
+
+    <!-- FACE: focused, almost eager. -->
+    <!-- Eyes (almond, narrowed but engaged — looking at the floating list). -->
+    <path d="M-9,-46 Q-5,-48 -1,-46 Q-5,-44 -9,-46 Z" fill="#1a0808"/>
+    <path d="M1,-46 Q5,-48 9,-46 Q5,-44 1,-46 Z" fill="#1a0808"/>
+    <!-- Eyes shifted slightly right (looking at floating list at right). -->
+    <ellipse cx="-3" cy="-46" rx="0.7" ry="0.7" fill="#080404"/>
+    <ellipse cx="7" cy="-46" rx="0.7" ry="0.7" fill="#080404"/>
+    <!-- Catch-light: copper-gold from the list. -->
+    <circle cx="-3" cy="-47" r="0.4" fill="#ffd060"/>
+    <circle cx="7" cy="-47" r="0.4" fill="#ffd060"/>
+    <!-- Brow (focused). -->
+    <path d="M-9,-52 Q-5,-53 -1,-52" stroke="#3a1810" stroke-width="1.2" fill="none"/>
+    <path d="M1,-52 Q5,-53 9,-52" stroke="#3a1810" stroke-width="1.2" fill="none"/>
+    <!-- Lips: slight upward tension at corners (almost-eager). -->
+    <path d="M-5,-35 Q0,-32 5,-35" fill="none" stroke="#5a2818" stroke-width="1.3" stroke-linecap="round"/>
+    <!-- Cheekbones w/ copper-gold catch on right. -->
+    <ellipse cx="-8" cy="-40" rx="2.5" ry="1.5" fill="#a87850" opacity="0.5"/>
+    <ellipse cx="8" cy="-40" rx="2.5" ry="1.5" fill="#f5c890" opacity="0.7"/>
+  </g>
+
+  <!-- HOLOGRAPHIC LIST projecting from tool tip — floating to upper right. -->
+  <g id="p19p2-holo-list" transform="translate(232, 232)">
+    <!-- Bright origin glow at tool tip. -->
+    <ellipse cx="0" cy="0" rx="14" ry="6" fill="url(#p19p2listGlow)" filter="url(#p19p2bloom)"/>
+
+    <!-- Floating copper-gold geometric script — list items radiating up + right. -->
+    <g stroke="#ffd060" stroke-width="0.8" fill="none" opacity="0.9" filter="url(#p19p2bloom)">
+      <!-- List item 1 (highest, smallest). -->
+      <rect x="20" y="-130" width="80" height="14" rx="1" stroke-dasharray="2,1"/>
+      <line x1="22" y1="-122" x2="78" y2="-122" stroke-width="0.6"/>
+      <line x1="22" y1="-118" x2="60" y2="-118" stroke-width="0.5"/>
+      <!-- Item 2. -->
+      <rect x="40" y="-105" width="86" height="14" rx="1" stroke-dasharray="2,1"/>
+      <line x1="42" y1="-97" x2="84" y2="-97" stroke-width="0.6"/>
+      <line x1="42" y1="-93" x2="66" y2="-93" stroke-width="0.5"/>
+      <!-- Item 3. -->
+      <rect x="55" y="-78" width="92" height="14" rx="1" stroke-dasharray="2,1"/>
+      <line x1="57" y1="-70" x2="100" y2="-70" stroke-width="0.6"/>
+      <line x1="57" y1="-66" x2="74" y2="-66" stroke-width="0.5"/>
+      <!-- Item 4 (newest, brightest, closest to tool). -->
+      <rect x="68" y="-50" width="98" height="16" rx="1"/>
+      <line x1="70" y1="-40" x2="110" y2="-40" stroke-width="0.7"/>
+      <line x1="70" y1="-36" x2="80" y2="-36" stroke-width="0.6"/>
+    </g>
+    <!-- List item geometric headers (tiny "icons" hinting at the components). -->
+    <g fill="#ffd060" opacity="0.85">
+      <!-- Gear icon for "precision gears". -->
+      <circle cx="34" cy="-122" r="3" fill="none" stroke="#ffd060" stroke-width="0.7"/>
+      <line x1="32" y1="-125" x2="36" y2="-119" stroke="#ffd060" stroke-width="0.6"/>
+      <line x1="36" y1="-125" x2="32" y2="-119" stroke="#ffd060" stroke-width="0.6"/>
+      <!-- Lens icon for "optical lenses". -->
+      <ellipse cx="54" cy="-97" rx="5" ry="3" fill="none" stroke="#ffd060" stroke-width="0.7"/>
+      <circle cx="54" cy="-97" r="1" fill="none" stroke="#ffd060" stroke-width="0.5"/>
+      <!-- Coil icon for "copper induction coils". -->
+      <path d="M68,-67 Q72,-72 76,-67 Q80,-62 84,-67" stroke="#ffd060" stroke-width="0.7" fill="none"/>
+      <!-- Crystal icon for "crystalline resonance medium". -->
+      <polygon points="80,-46 86,-44 84,-38 78,-40" stroke="#ffd060" stroke-width="0.7" fill="none"/>
+      <line x1="82" y1="-46" x2="80" y2="-40" stroke="#ffd060" stroke-width="0.5"/>
+    </g>
+    <!-- Connecting lines from tool tip up to each item. -->
+    <g stroke="#a87038" stroke-width="0.5" opacity="0.55" fill="none">
+      <line x1="0" y1="0" x2="60" y2="-122"/>
+      <line x1="0" y1="0" x2="80" y2="-97"/>
+      <line x1="0" y1="0" x2="100" y2="-70"/>
+      <line x1="0" y1="0" x2="115" y2="-42"/>
+    </g>
+    <!-- Bright "newest item" highlight — a fresh shimmer at item 4. -->
+    <ellipse cx="115" cy="-42" rx="10" ry="4" fill="#ffe0a0" filter="url(#p19p2bloom)" opacity="0.55"/>
+  </g>
+
+  <!-- WREN dialogue — 2 balloons. Top + bottom. -->
+  <g id="p19p2-dlg-wren1">
+    <rect x="14" y="14" width="220" height="62" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Can't rebuild? We build a</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">new one. Source local.</text>
+    <path d="M170,76 L188,76 L156,150 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="170" y1="76" x2="188" y2="76" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p19p2-dlg-wren2">
+    <rect x="14" y="288" width="338" height="100" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="308" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="328" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Precision gears. Optical lenses.</text>
+    <text x="24" y="344" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Copper induction coils. A</text>
+    <text x="24" y="360" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">crystalline resonance medium.</text>
+    <text x="24" y="378" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a2a3a">— the list is growing</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p19p2-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WREN — COMPONENT LIST</text>
+  </g>
+</svg>

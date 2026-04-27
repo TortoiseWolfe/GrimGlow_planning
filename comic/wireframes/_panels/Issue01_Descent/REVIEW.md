@@ -2,13 +2,13 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 22 added, the IP-defining cliffhanger).
+**Last update:** 2026-04-27 (loop session extended — Page 19 added, climax arc fills).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–8 + 12 + 18 + 22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 35 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04, P18P01–P18P04, P22P01).
+**Pages 1–8 + 12 + 18–19 + 22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 39 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P22P01).
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -22,7 +22,9 @@
 
 **Pages 5, 6, 7 (Sections 2-3 opening)** — at quality bar.
 
-**Pages 9-11, 13-17, 19-21 of Issue 1 remain auto-generated stick-figure storyboards.**
+**Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px (banner / 2-col / banner).
+
+**Pages 9-11, 13-17, 20-21 of Issue 1 remain auto-generated stick-figure storyboards.**
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -226,6 +228,58 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 19 — DONE (climax arc continues — squad re-forms + scale pull-back)
+
+4 panels in 3 tiers (full-width banner / 2-col center / full-width banner footer) summing to 1179px page-fill.
+
+### P19P01 — Sable takes command, OTS Wren (742×320)
+- ✅ Wren OTS large left foreground: copper shoulder + back of head + messy bun + hydraulic stains
+- ✅ Sable centered facing camera, silver suit, dual-light wash on body
+- ✅ Cracked RIGHT shoulder bleeding blue-white through fractures w/ glow halo
+- ✅ Vast amber Victorian cityscape backdrop (chimney pots + spires + factory stacks + smoke trails + lit windows)
+- ✅ Strong amber backlight halo creates golden silhouette rim around Sable
+- ✅ Cool blue-white from cracked panels catches face from front
+- ✅ Resolved expression: cool catch-lights in eyes, brow set, lips firm
+- ✅ Two SABLE balloons w/ properly-sized rectangles (text wraps cleanly): "We're soldiers. This is a hostile environment. We secure, we assess, we adapt." / "The drive is gone. We're not gone. We work the problem." (bold)
+
+### P19P02 — Wren projects component list (366×400)
+- ✅ Wren MCU center, copper suit + bun w/ strands across face + hydraulic stains
+- ✅ Right arm extended forward holding pen-sized fab tool with bright tip
+- ✅ Floating copper-gold geometric holographic list w/ 4 dashed-outline items
+- ✅ Tiny geometric icons per item (gear, lens, coil, crystal — script's component types)
+- ✅ Connecting beam-lines from tool tip to each item
+- ✅ Bright copper-gold halo wash from list catches face + hands (front-lit)
+- ✅ Eyes shifted slightly right (looking at floating list)
+- ✅ Slight upward lip tension (almost-eager)
+- ✅ Two WREN balloons w/ italic aside "— the list is growing" preserved
+
+### P19P03 — Luma + Thresh two-shot — spectrum of recovery (366×400)
+- ✅ Luma foreground (left, larger), sapphire suit, smooth pulled-back hair + thick braid trailing right
+- ✅ ACTIVE blue-violet lenses (no longer pushed up — back on, scrolling data lines)
+- ✅ Strong blue-violet halo dominates foreground (engaged)
+- ✅ Scanner in right hand w/ readout markings + glow halo
+- ✅ Suit chest node bright purple + bloom halo
+- ✅ Thresh background (right, smaller, set behind), ruby suit, copper-red buzz, dented pauldron
+- ✅ Slight head-turn toward group (partial recovery — listening but not engaged)
+- ✅ Faint muted ruby halo around Thresh (subdued vs. bright Luma)
+- ✅ Light-intensity contrast = engagement-spectrum mirror per script
+- ✅ LUMA balloon w/ multi-line + bold emphasis on "to breathe long-term"
+
+### P19P04 — Bird's-eye gutter pull-back, scale-devastating (742×380)
+- ✅ Top-down bird's-eye composition
+- ✅ Welsh slate rooftop horizontal band w/ seam pattern + offset diagonals
+- ✅ Lead flashing strip with riveted seams between slate and gutter
+- ✅ Cast-iron gutter as thin horizontal channel across top
+- ✅ 5 tiny squad figures inside gutter as colored sparks: Thresh ruby (far left), Wren copper, Sable silver (center), Luma sapphire-violet, Jink emerald (far right)
+- ✅ Wreckage halos pulsing blue-white scattered in gutter
+- ✅ 4 massive chimney stacks rising w/ crowns + soot streaks + cast shadows on slate
+- ✅ Iron weathervane on stack 1 (period detail per script)
+- ✅ Cityscape beyond (bottom 1/3): distant church spires + amber gas pools winding through streets + gas lamp pinpricks + lit windows + Thames glint
+- ✅ Caption parchment-style centered top w/ bold italic emphasis on "They begin." per script
+- ✅ "Five specks in a groove in a roof in a city they cannot comprehend" — devastating-and-defiant beat lands
 
 ---
 
