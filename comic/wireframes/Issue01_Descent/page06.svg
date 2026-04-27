@@ -1,51 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 1200" width="800" height="1200" style="background:#ffffff">
   <title>GrimGlow Issue 1 — Page 6 — "The Boy in the Window" — handcrafted preview</title>
-  <desc>Page 6 of Issue 1, "Descent." 5 panels: top tier — narrow Clerkenwell street establishing with Theodore silhouetted in lit window + close-up Theodore face dual-lit at window. Middle — full-width post-star roofscape (the city forgets). Bottom — lamplighter Hobday stopped looking up + ECU Theodore's hand on glass. Theodore's introduction — the boy who reaches toward the impossible. Section 2 closes with his hand on the glass.</desc>
+  <desc>Page 6 of Issue 1, "Descent." 5 panels in 3 canonical tiers. Top tier — narrow Clerkenwell street establishing with Theodore silhouetted in lit window + close-up Theodore face dual-lit at window. Middle — full-width post-star roofscape (the city forgets). Bottom — lamplighter Hobday stopped looking up + ECU Theodore's hand on glass.</desc>
 
   <style>
     text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
   </style>
 
-  <!-- Page title. -->
   <text x="400" y="22" text-anchor="middle" font-size="16" fill="#888" font-weight="500">PAGE 6  (5 panels)</text>
 
-  <!-- ========================================================== -->
-  <!-- TOP TIER: Panels 1, 2 — two half-widths                      -->
-  <!-- P1: 366 × 311 at (29, 59)                                    -->
-  <!-- P2: 366 × 311 at (405, 59)                                   -->
-  <!-- ========================================================== -->
+  <!-- TOP TIER: P1 + P2 half-widths 366×364 at y=59 -->
   <g id="page6-panel1">
-    <image x="29" y="59" width="366" height="311" xlink:href="_panels/Issue01_Descent/page06_panel01.svg"/>
-    <rect x="29" y="59" width="366" height="311" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
+    <image x="29" y="59" width="366" height="364" xlink:href="_panels/Issue01_Descent/page06_panel01.svg"/>
+    <rect x="29" y="59" width="366" height="364" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
   </g>
 
   <g id="page6-panel2">
-    <image x="405" y="59" width="366" height="311" xlink:href="_panels/Issue01_Descent/page06_panel02.svg"/>
-    <rect x="405" y="59" width="366" height="311" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
+    <image x="405" y="59" width="366" height="364" xlink:href="_panels/Issue01_Descent/page06_panel02.svg"/>
+    <rect x="405" y="59" width="366" height="364" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- MIDDLE TIER: Panel 3 — full-width post-star roofscape        -->
-  <!-- 742 × 311 at (29, 380)                                       -->
-  <!-- ========================================================== -->
+  <!-- MIDDLE TIER: P3 full-width 742×364 at y=433 -->
   <g id="page6-panel3">
-    <image x="29" y="380" width="742" height="311" xlink:href="_panels/Issue01_Descent/page06_panel03.svg"/>
-    <rect x="29" y="380" width="742" height="311" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
+    <image x="29" y="433" width="742" height="364" xlink:href="_panels/Issue01_Descent/page06_panel03.svg"/>
+    <rect x="29" y="433" width="742" height="364" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- BOTTOM TIER: Panel 4 wide-left + Panel 5 narrow-right        -->
-  <!-- P4: 488 × 311 at (29, 701)                                   -->
-  <!-- P5: 240 × 311 at (533, 701)                                  -->
-  <!-- ========================================================== -->
+  <!-- BOTTOM TIER: P4 wide-left 488×364 + P5 narrow-right 240×364 at y=807 -->
   <g id="page6-panel4">
-    <image x="29" y="701" width="488" height="311" xlink:href="_panels/Issue01_Descent/page06_panel04.svg"/>
-    <rect x="29" y="701" width="488" height="311" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
+    <image x="29" y="807" width="488" height="364" xlink:href="_panels/Issue01_Descent/page06_panel04.svg"/>
+    <rect x="29" y="807" width="488" height="364" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
   </g>
 
   <g id="page6-panel5">
-    <image x="533" y="701" width="240" height="311" xlink:href="_panels/Issue01_Descent/page06_panel05.svg"/>
-    <rect x="533" y="701" width="240" height="311" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
+    <image x="531" y="807" width="240" height="364" xlink:href="_panels/Issue01_Descent/page06_panel05.svg"/>
+    <rect x="531" y="807" width="240" height="364" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
   </g>
 
 </svg>

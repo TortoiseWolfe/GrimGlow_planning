@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 311" width="366" height="311">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
   <title>Issue 1 — Page 6 — Panel 1: Clerkenwell side street, Theodore in workshop window</title>
-  <desc>Wide shot at 35mm, eye level. Narrow Clerkenwell side street at night — small workshops + terraced houses, faded trade sign, wet cobblestones reflecting amber gaslight from cast-iron lamp at far end. One upper-floor window glows warm candlelight. Silhouetted in this window, a small figure — boy leaning forward, face pressed to glass, looking up at sky. Composition leads eye to the lit window. Above rooftops, last faint traces of prismatic streak ghost across sky. Warm amber + deep shadow.</desc>
+  <desc>Wide shot at 35mm, eye level. Narrow Clerkenwell side street at night. Workshops + terraced houses, faded TINKER trade sign, wet cobblestones reflecting amber gaslight from cast-iron lamp at far end. Upper-floor window glows warm candlelight with silhouette of boy leaning forward face-pressed-to-glass looking up at sky. Composition leads eye through dark street to lit window. Fading prismatic streak ghost across sky above.</desc>
 
   <defs>
     <linearGradient id="p6p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -26,108 +26,102 @@
       <stop offset="50%" stop-color="#f5a850" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#c87830" stop-opacity="0"/>
     </radialGradient>
-    <filter id="p6p1bloom" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3"/>
-    </filter>
-    <filter id="p6p1strongBloom" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
+    <filter id="p6p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="p6p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
   </defs>
 
-  <!-- Sky. -->
-  <rect width="366" height="120" fill="url(#p6p1sky)"/>
-  <!-- Faint dying prismatic streak ghost (very subtle). -->
-  <path d="M0,40 L366,15 L366,25 L0,50 Z" fill="#5a3a8a" opacity="0.18" filter="url(#p6p1bloom)"/>
-  <!-- A few faint stars (the warm world reclaiming). -->
+  <!-- Sky takes upper third. -->
+  <rect width="366" height="140" fill="url(#p6p1sky)"/>
+  <path d="M0,50 L366,20 L366,32 L0,62 Z" fill="#5a3a8a" opacity="0.18" filter="url(#p6p1bloom)"/>
   <g fill="#dce4f0" opacity="0.7">
     <circle cx="58" cy="22" r="0.6"/>
     <circle cx="148" cy="36" r="0.7"/>
     <circle cx="240" cy="18" r="0.6"/>
     <circle cx="320" cy="42" r="0.7"/>
+    <circle cx="100" cy="80" r="0.5"/>
+    <circle cx="200" cy="100" r="0.6"/>
+    <circle cx="300" cy="90" r="0.5"/>
   </g>
 
-  <!-- Buildings on left side (terraced row, 4 stories). -->
+  <!-- Buildings left side. -->
   <g id="p6p1-left-bldgs">
-    <rect x="0" y="60" width="80" height="251" fill="url(#p6p1brick)"/>
-    <rect x="80" y="80" width="50" height="231" fill="url(#p6p1brick)"/>
-    <line x1="80" y1="60" x2="80" y2="311" stroke="#0a0204" stroke-width="0.7"/>
-    <line x1="130" y1="80" x2="130" y2="311" stroke="#0a0204" stroke-width="0.7"/>
-    <!-- Faint dark windows. -->
+    <rect x="0" y="60" width="80" height="304" fill="url(#p6p1brick)"/>
+    <rect x="80" y="80" width="50" height="284" fill="url(#p6p1brick)"/>
+    <line x1="80" y1="60" x2="80" y2="364" stroke="#0a0204" stroke-width="0.7"/>
+    <line x1="130" y1="80" x2="130" y2="364" stroke="#0a0204" stroke-width="0.7"/>
     <rect x="14" y="100" width="14" height="20" fill="#3a1810" opacity="0.85"/>
     <rect x="40" y="100" width="14" height="20" fill="#3a1810" opacity="0.85"/>
     <rect x="14" y="160" width="14" height="20" fill="#3a1810" opacity="0.85"/>
     <rect x="40" y="160" width="14" height="20" fill="#3a1810" opacity="0.85"/>
     <rect x="14" y="220" width="14" height="20" fill="#3a1810" opacity="0.85"/>
+    <rect x="40" y="220" width="14" height="20" fill="#3a1810" opacity="0.85"/>
+    <rect x="14" y="280" width="14" height="20" fill="#3a1810" opacity="0.85"/>
     <rect x="90" y="120" width="12" height="18" fill="#3a1810" opacity="0.85"/>
     <rect x="108" y="120" width="12" height="18" fill="#3a1810" opacity="0.85"/>
     <rect x="90" y="180" width="12" height="18" fill="#3a1810" opacity="0.85"/>
+    <rect x="108" y="240" width="12" height="18" fill="#3a1810" opacity="0.85"/>
   </g>
 
-  <!-- Buildings on right side (with the workshop — Theodore's window). -->
+  <!-- Buildings right side (with workshop). -->
   <g id="p6p1-right-bldgs">
-    <rect x="200" y="80" width="80" height="231" fill="url(#p6p1brick)"/>
-    <rect x="280" y="60" width="86" height="251" fill="url(#p6p1brick)"/>
-    <line x1="200" y1="80" x2="200" y2="311" stroke="#0a0204" stroke-width="0.7"/>
-    <line x1="280" y1="60" x2="280" y2="311" stroke="#0a0204" stroke-width="0.7"/>
-    <!-- Faint dark windows. -->
+    <rect x="200" y="80" width="80" height="284" fill="url(#p6p1brick)"/>
+    <rect x="280" y="60" width="86" height="304" fill="url(#p6p1brick)"/>
+    <line x1="200" y1="80" x2="200" y2="364" stroke="#0a0204" stroke-width="0.7"/>
+    <line x1="280" y1="60" x2="280" y2="364" stroke="#0a0204" stroke-width="0.7"/>
     <rect x="290" y="100" width="14" height="20" fill="#3a1810" opacity="0.85"/>
     <rect x="316" y="100" width="14" height="20" fill="#3a1810" opacity="0.85"/>
     <rect x="342" y="100" width="14" height="20" fill="#3a1810" opacity="0.85"/>
     <rect x="290" y="220" width="14" height="20" fill="#3a1810" opacity="0.85"/>
     <rect x="316" y="220" width="14" height="20" fill="#3a1810" opacity="0.85"/>
+    <rect x="290" y="280" width="14" height="20" fill="#3a1810" opacity="0.85"/>
+    <rect x="316" y="280" width="14" height="20" fill="#3a1810" opacity="0.85"/>
 
     <!-- Faded TINKER trade sign. -->
-    <rect x="206" y="160" width="68" height="20" fill="#3a2010"/>
-    <text x="240" y="174" text-anchor="middle" font-family="serif" font-size="9" fill="#a87838" letter-spacing="0.5" opacity="0.85">HARTLEY · TINKER</text>
+    <rect x="206" y="200" width="68" height="20" fill="#3a2010"/>
+    <text x="240" y="214" text-anchor="middle" font-family="serif" font-size="9" fill="#a87838" letter-spacing="0.5" opacity="0.85">HARTLEY · TINKER</text>
 
-    <!-- THEODORE'S LIT WINDOW (the focal point). -->
+    <!-- Theodore's lit window. -->
     <g id="p6p1-theodore-window">
-      <!-- Bloom halo. -->
-      <ellipse cx="240" cy="118" rx="60" ry="36" fill="url(#p6p1windowGlow)" filter="url(#p6p1strongBloom)"/>
-      <!-- Window frame + lit pane. -->
-      <rect x="218" y="100" width="44" height="44" fill="#fff5d8"/>
-      <rect x="218" y="100" width="44" height="44" fill="none" stroke="#3a2010" stroke-width="1.4"/>
-      <line x1="240" y1="100" x2="240" y2="144" stroke="#3a2010" stroke-width="0.8"/>
-      <line x1="218" y1="122" x2="262" y2="122" stroke="#3a2010" stroke-width="0.8"/>
-      <!-- THEODORE silhouette inside window — small figure leaning forward face-to-glass. -->
-      <path d="M226,104 Q230,108 232,116 Q230,122 232,126 Q236,128 240,126 L246,126 Q248,124 248,118 Q250,112 252,108 L252,124 Q252,134 244,138 L228,138 Q224,134 224,124 Q224,114 226,104 Z" fill="#1a0e08" opacity="0.85"/>
+      <ellipse cx="240" cy="148" rx="60" ry="38" fill="url(#p6p1windowGlow)" filter="url(#p6p1strongBloom)"/>
+      <rect x="218" y="128" width="44" height="48" fill="#fff5d8"/>
+      <rect x="218" y="128" width="44" height="48" fill="none" stroke="#3a2010" stroke-width="1.4"/>
+      <line x1="240" y1="128" x2="240" y2="176" stroke="#3a2010" stroke-width="0.8"/>
+      <line x1="218" y1="152" x2="262" y2="152" stroke="#3a2010" stroke-width="0.8"/>
+      <!-- Theodore silhouette inside window. -->
+      <path d="M226,132 Q230,138 232,148 Q230,154 232,158 Q236,160 240,158 L246,158 Q248,156 248,150 Q250,142 252,138 L252,156 Q252,168 244,170 L228,170 Q224,168 224,156 Q224,144 226,132 Z" fill="#1a0e08" opacity="0.9"/>
     </g>
   </g>
 
-  <!-- Cobblestone street (foreground, wet). -->
+  <!-- Cobblestone street (foreground, wet, takes substantial vertical room). -->
   <g id="p6p1-street">
-    <path d="M130,260 L280,260 L366,311 L0,311 Z" fill="url(#p6p1cobble)"/>
-    <!-- Cobble texture lines. -->
+    <path d="M130,300 L280,300 L366,364 L0,364 Z" fill="url(#p6p1cobble)"/>
     <g stroke="#5a2810" stroke-width="0.4" fill="none" opacity="0.55">
-      <path d="M40,275 Q60,278 80,275"/>
-      <path d="M150,278 Q170,280 190,278"/>
-      <path d="M250,278 Q270,280 290,278"/>
-      <path d="M30,295 Q60,298 90,295"/>
-      <path d="M180,298 Q210,300 240,298"/>
-      <path d="M310,295 Q330,298 350,295"/>
+      <path d="M40,315 Q60,318 80,315"/>
+      <path d="M150,318 Q170,320 190,318"/>
+      <path d="M250,318 Q270,320 290,318"/>
+      <path d="M30,335 Q60,338 90,335"/>
+      <path d="M180,338 Q210,340 240,338"/>
+      <path d="M310,335 Q330,338 350,335"/>
+      <path d="M20,355 Q60,358 100,355"/>
+      <path d="M260,358 Q300,360 340,358"/>
     </g>
-    <!-- Wet reflection of distant gaslight (amber pool at end of street). -->
-    <ellipse cx="186" cy="270" rx="40" ry="6" fill="#c87830" opacity="0.45" filter="url(#p6p1bloom)"/>
+    <ellipse cx="186" cy="320" rx="40" ry="6" fill="#c87830" opacity="0.45" filter="url(#p6p1bloom)"/>
   </g>
 
-  <!-- Distant cast-iron gas lamp at end of street (small but visible). -->
+  <!-- Distant gas lamp at end of street. -->
   <g id="p6p1-distant-lamp">
-    <rect x="183" y="200" width="3" height="60" fill="#1a0808"/>
-    <path d="M178,200 L188,200 L191,204 L189,212 L177,212 L175,204 Z" fill="#1a0808"/>
-    <ellipse cx="183" cy="206" rx="6" ry="4" fill="#fff5d8" opacity="0.95" filter="url(#p6p1bloom)"/>
-    <ellipse cx="183" cy="206" rx="3" ry="2" fill="#ffe080"/>
-    <!-- Lamp halo. -->
-    <ellipse cx="183" cy="206" rx="32" ry="20" fill="url(#p6p1lampGlow)" filter="url(#p6p1bloom)" opacity="0.7"/>
+    <rect x="183" y="240" width="3" height="60" fill="#1a0808"/>
+    <path d="M178,240 L188,240 L191,244 L189,252 L177,252 L175,244 Z" fill="#1a0808"/>
+    <ellipse cx="183" cy="246" rx="6" ry="4" fill="#fff5d8" opacity="0.95" filter="url(#p6p1bloom)"/>
+    <ellipse cx="183" cy="246" rx="3" ry="2" fill="#ffe080"/>
+    <ellipse cx="183" cy="246" rx="32" ry="20" fill="url(#p6p1lampGlow)" filter="url(#p6p1bloom)" opacity="0.7"/>
   </g>
 
-  <!-- Foreground rooftop overhang (top of frame, framing element). -->
+  <!-- Foreground rooftop overhang (top framing). -->
   <path d="M0,60 L40,55 L80,60 L120,52 L160,60 L200,80 L240,72 L280,60 L320,55 L366,60 L366,40 L0,40 Z" fill="#0a0408"/>
 
-  <!-- ========================================================== -->
-  <!-- LAYER: panel meta                                           -->
-  <!-- ========================================================== -->
   <g id="p6p1-meta">
     <text x="356" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
-    <text x="360" y="304" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WIDE</text>
+    <text x="360" y="356" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WIDE</text>
   </g>
 </svg>

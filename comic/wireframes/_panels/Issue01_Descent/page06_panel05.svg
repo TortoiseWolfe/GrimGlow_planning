@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 311" width="240" height="311">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 364" width="240" height="364">
   <title>Issue 1 — Page 6 — Panel 5: ECU Theodore's hand on window glass, the gesture preserved</title>
   <desc>ECU at 135mm, eye level. Boy's hand pressed flat against cold window pane — fingers spread, reaching. Small hand, oil-stained fingertips, brass gear ring on index finger. Breath-fog surrounds handprint, moisture beading at finger edges. Through window past hand, night sky dark and empty — no trace of falling star. Warm candlelight from workshop behind catches edges of fingers, moisture, faint grime on glass. Handprint = gesture of longing toward something already vanished.</desc>
 
@@ -33,7 +33,7 @@
   </defs>
 
   <!-- Empty night sky beyond window. -->
-  <rect width="240" height="311" fill="url(#p6p5skyEmpty)"/>
+  <rect width="240" height="364" fill="url(#p6p5skyEmpty)"/>
   <!-- A few faint stars (the warm-only world, no prismatic streak left). -->
   <g fill="#dce4f0" opacity="0.55">
     <circle cx="50" cy="80" r="0.5"/>
@@ -42,11 +42,11 @@
   </g>
 
   <!-- Warm candlelight wash from behind (glass interior tint). -->
-  <rect width="240" height="311" fill="url(#p6p5warmGlow)" opacity="0.55"/>
+  <rect width="240" height="364" fill="url(#p6p5warmGlow)" opacity="0.55"/>
 
   <!-- Window frame edge (right side mullion). -->
-  <rect x="226" y="0" width="14" height="311" fill="#3a2010"/>
-  <line x1="226" y1="0" x2="226" y2="311" stroke="#1a0e08" stroke-width="0.7"/>
+  <rect x="226" y="0" width="14" height="364" fill="#3a2010"/>
+  <line x1="226" y1="0" x2="226" y2="364" stroke="#1a0e08" stroke-width="0.7"/>
 
   <!-- Window dust/grime streaks (catches warm light). -->
   <g stroke="#fff5d8" stroke-width="0.5" opacity="0.18">
@@ -66,9 +66,9 @@
   <!-- ========================================================== -->
   <g id="p6p5-hand" filter="url(#p6p5dropShadow)">
     <!-- Wrist + linen sleeve coming in from bottom. -->
-    <path d="M70,260 Q90,250 116,248 Q142,250 162,260 L162,311 L70,311 Z" fill="#f5e8c8"/>
+    <path d="M70,260 Q90,250 116,248 Q142,250 162,260 L162,364 L70,364 Z" fill="#f5e8c8"/>
     <!-- Worn leather waistcoat edge. -->
-    <path d="M70,290 Q116,288 162,290 L162,311 L70,311 Z" fill="url(#p6p5leather)"/>
+    <path d="M70,290 Q116,288 162,290 L162,364 L70,364 Z" fill="url(#p6p5leather)"/>
 
     <!-- Hand back. -->
     <path d="M68,250 Q88,224 116,218 Q144,222 164,248 Q170,260 162,272 Q140,278 116,276 Q92,278 70,272 Q62,260 64,254 Q66,250 68,250 Z" fill="url(#p6p5skinWarm)"/>

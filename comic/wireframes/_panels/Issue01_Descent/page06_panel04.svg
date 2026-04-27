@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 311" width="488" height="311">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 364" width="488" height="364">
   <title>Issue 1 — Page 6 — Panel 4: Lamplighter Hobday stopped, looking up at vanished star</title>
   <desc>Medium shot, low angle, 50mm. Lamplighter Jack Hobday — same as P5P2 — but stopped working. His brass pole rests against the lamp post. He stands still, looking up at empty sky where the star was. Hand on lamp post for support. Practical man unsettled by what he saw. Jaw set, eyes still on sky. Warm amber gaslight only, cool light is gone. Light unchanged but the man is different. HOBDAY (thought): "...the hell was that."</desc>
 
@@ -54,23 +54,23 @@
   </defs>
 
   <!-- Sky + fog. -->
-  <rect width="488" height="311" fill="url(#p6p4sky)"/>
-  <rect y="160" width="488" height="151" fill="url(#p6p4fog)"/>
+  <rect width="488" height="364" fill="url(#p6p4sky)"/>
+  <rect y="160" width="488" height="204" fill="url(#p6p4fog)"/>
   <ellipse cx="80" cy="220" rx="14" ry="6" fill="#c87830" opacity="0.45" filter="url(#p6p4bloom)"/>
   <ellipse cx="80" cy="220" rx="6" ry="3" fill="#fff5d8" opacity="0.6"/>
   <ellipse cx="408" cy="218" rx="14" ry="6" fill="#c87830" opacity="0.45" filter="url(#p6p4bloom)"/>
   <ellipse cx="408" cy="218" rx="6" ry="3" fill="#fff5d8" opacity="0.6"/>
 
-  <!-- Terraced houses left + right. -->
-  <rect x="0" y="60" width="120" height="180" fill="url(#p6p4coat)" opacity="0.9"/>
-  <rect x="368" y="60" width="120" height="180" fill="url(#p6p4coat)" opacity="0.9"/>
+  <!-- Terraced houses left + right (extended to match taller frame). -->
+  <rect x="0" y="60" width="120" height="220" fill="url(#p6p4coat)" opacity="0.9"/>
+  <rect x="368" y="60" width="120" height="220" fill="url(#p6p4coat)" opacity="0.9"/>
   <rect x="22" y="100" width="14" height="20" fill="#3a1810" opacity="0.85"/>
   <rect x="60" y="160" width="14" height="20" fill="#3a1810" opacity="0.85"/>
   <rect x="396" y="120" width="14" height="20" fill="#3a1810" opacity="0.85"/>
   <rect x="436" y="180" width="14" height="20" fill="#3a1810" opacity="0.85"/>
 
-  <!-- Cobblestone street. -->
-  <path d="M120,240 L368,240 L488,311 L0,311 Z" fill="url(#p6p4cobble)"/>
+  <!-- Cobblestone street (extends to bottom of taller frame). -->
+  <path d="M120,280 L368,280 L488,364 L0,364 Z" fill="url(#p6p4cobble)"/>
   <g stroke="#5a2810" stroke-width="0.5" fill="none" opacity="0.55">
     <path d="M50,260 Q70,265 90,260"/>
     <path d="M210,270 Q230,275 250,270"/>
@@ -107,21 +107,22 @@
   <!-- LAYER: Jack Hobday — STOPPED, looking UP at empty sky        -->
   <!-- ========================================================== -->
   <g id="p6p4-jack" filter="url(#p6p4dropShadow)">
-    <!-- Long shadow stretching back. -->
-    <path d="M180,290 Q140,300 50,311 L80,311 L210,295 Z" fill="#0a0604" opacity="0.5"/>
+    <!-- Long shadow stretching back (shifted to new street level). -->
+    <path d="M180,335 Q140,348 50,364 L80,364 L210,340 Z" fill="#0a0604" opacity="0.5"/>
 
-    <!-- Legs. -->
-    <path d="M188,238 Q184,260 188,290 L208,290 Q212,260 208,238 Z" fill="url(#p6p4coat)"/>
-    <path d="M212,238 Q216,260 220,290 L240,290 Q236,260 232,238 Z" fill="url(#p6p4coat)"/>
-    <ellipse cx="198" cy="295" rx="14" ry="5" fill="#0a0604"/>
-    <ellipse cx="226" cy="295" rx="14" ry="5" fill="#0a0604"/>
+    <!-- Legs (extended down to new floor level). -->
+    <path d="M188,250 Q184,290 188,335 L208,335 Q212,290 208,250 Z" fill="url(#p6p4coat)"/>
+    <path d="M212,250 Q216,290 220,335 L240,335 Q236,290 232,250 Z" fill="url(#p6p4coat)"/>
+    <ellipse cx="198" cy="340" rx="14" ry="5" fill="#0a0604"/>
+    <ellipse cx="226" cy="340" rx="14" ry="5" fill="#0a0604"/>
 
-    <!-- Heavy coat torso. -->
-    <path d="M170,160 Q160,200 168,250 L248,250 Q256,200 246,160 Q240,150 208,150 Q176,150 170,160 Z" fill="url(#p6p4coat)"/>
-    <line x1="208" y1="152" x2="208" y2="248" stroke="#0a0604" stroke-width="1.2"/>
+    <!-- Heavy coat torso (extended with extra body length). -->
+    <path d="M170,160 Q158,210 168,260 L248,260 Q258,210 246,160 Q240,150 208,150 Q176,150 170,160 Z" fill="url(#p6p4coat)"/>
+    <line x1="208" y1="152" x2="208" y2="258" stroke="#0a0604" stroke-width="1.2"/>
     <circle cx="208" cy="180" r="2" fill="#3a2010"/>
-    <circle cx="208" cy="200" r="2" fill="#3a2010"/>
-    <circle cx="208" cy="220" r="2" fill="#3a2010"/>
+    <circle cx="208" cy="204" r="2" fill="#3a2010"/>
+    <circle cx="208" cy="228" r="2" fill="#3a2010"/>
+    <circle cx="208" cy="252" r="2" fill="#3a2010"/>
     <path d="M170,160 Q190,148 208,150" fill="none" stroke="#0a0604" stroke-width="0.8"/>
     <path d="M246,160 Q226,148 208,150" fill="none" stroke="#0a0604" stroke-width="0.8"/>
 
