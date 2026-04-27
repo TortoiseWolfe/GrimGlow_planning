@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 16 — Panel 2: Lift to eye level (silent)</title>
+  <desc>MW 35mm eye level from side. Boy raised open palm to face level — on palm stands tiny ~four-inch figure. Other hand cupped loosely sheltering not trapping. Face to face. Boy's face fills BG — sandy-brown hair, hazel eyes wide and earnest. Tiny figure on palm — lean androgynous, golden curls, emerald suit — grin GONE, replaced by something unguarded and surprised. Looking at each other at eye level, scale stopped mattering. Candlelight from below casts upward amber on chin and throat. Tiny figure at warm/cool intersection. NO dialogue.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p16p2nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p16p2candleBelow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p2emeraldHalo" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#2ed078" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p16p2theoSkin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="50%" stop-color="#c89878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <linearGradient id="p16p2warmUplight" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ffd078" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5a3018" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p16p2theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p16p2shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcc8a8"/>
+      <stop offset="100%" stop-color="#7a6840"/>
+    </linearGradient>
+    <linearGradient id="p16p2jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="p16p2jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffeca8"/>
+      <stop offset="50%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p16p2emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <filter id="p16p2bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p16p2deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="742" height="364" fill="url(#p16p2nightBg)"/>
+  <ellipse cx="371" cy="364" rx="500" ry="280" fill="url(#p16p2candleBelow)" opacity="0.85"/>
+
+  <!-- Workshop dim background fragments. -->
+  <g stroke="#3a2010" stroke-width="0.55" opacity="0.45">
+    <line x1="40" y1="40" x2="40" y2="180"/>
+    <line x1="700" y1="40" x2="700" y2="180"/>
+  </g>
+
+  <!-- ******** THEODORE FACE filling background ******** -->
+  <g>
+    <ellipse cx="450" cy="200" rx="280" ry="240" fill="url(#p16p2theoSkin)"/>
+    <!-- Warm uplight on chin/throat from candle below. -->
+    <path d="M170,260 Q450,360 730,260 L730,364 L170,364 Z" fill="url(#p16p2warmUplight)" opacity="0.95"/>
+
+    <!-- Hair tousled spikes (top of head visible). -->
+    <g fill="url(#p16p2theoHair)">
+      <path d="M280,30 Q270,-30 380,-50 Q450,-58 520,-50 Q620,-30 610,30 L600,40 Q580,-26 550,-36 L350,-36 Q320,-26 300,40 Z"/>
+      <path d="M290,-12 L280,-58 L308,-2 Z"/>
+      <path d="M334,-32 L322,-78 L356,-22 Z"/>
+      <path d="M386,-46 L394,-104 L416,-34 Z"/>
+      <path d="M444,-46 L468,-78 L460,-22 Z"/>
+      <path d="M490,-32 L520,-58 L510,-2 Z"/>
+      <path d="M558,-12 L592,-30 L580,40 Z"/>
+      <!-- Bangs. -->
+      <path d="M286,40 L292,80 L312,32 Z"/>
+      <path d="M334,58 L340,98 L362,50 Z"/>
+      <path d="M384,68 L390,108 L412,60 Z"/>
+      <path d="M438,68 L444,108 L466,60 Z"/>
+      <path d="M488,58 L494,98 L516,50 Z"/>
+      <path d="M540,40 L546,80 L568,32 Z"/>
+    </g>
+
+    <!-- Eyes — wide, earnest, hazel. -->
+    <ellipse cx="368" cy="160" rx="32" ry="22" fill="#fff8e8"/>
+    <ellipse cx="368" cy="160" rx="32" ry="22" fill="none" stroke="#3a2810" stroke-width="1"/>
+    <ellipse cx="368" cy="160" rx="16" ry="16" fill="url(#p16p2theoHair)"/>
+    <ellipse cx="368" cy="160" rx="8" ry="8" fill="#0a0604"/>
+    <ellipse cx="372" cy="156" rx="3.5" ry="2.4" fill="#a8ffd0" filter="url(#p16p2bloom)"/>
+    <ellipse cx="370" cy="156" rx="1.7" ry="0.85" fill="#ffffff"/>
+    <!-- Lashes. -->
+    <path d="M336,144 Q368,138 400,144" fill="none" stroke="#3a1a08" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M336,178 Q368,184 400,178" fill="none" stroke="#5a3018" stroke-width="1.4"/>
+
+    <ellipse cx="528" cy="160" rx="32" ry="22" fill="#fff8e8"/>
+    <ellipse cx="528" cy="160" rx="32" ry="22" fill="none" stroke="#3a2810" stroke-width="1"/>
+    <ellipse cx="528" cy="160" rx="16" ry="16" fill="url(#p16p2theoHair)"/>
+    <ellipse cx="528" cy="160" rx="8" ry="8" fill="#0a0604"/>
+    <ellipse cx="532" cy="156" rx="3.5" ry="2.4" fill="#a8ffd0" filter="url(#p16p2bloom)"/>
+    <ellipse cx="530" cy="156" rx="1.7" ry="0.85" fill="#ffffff"/>
+    <path d="M496,144 Q528,138 560,144" fill="none" stroke="#3a1a08" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M496,178 Q528,184 560,178" fill="none" stroke="#5a3018" stroke-width="1.4"/>
+
+    <!-- Brows soft, raised slightly (earnest). -->
+    <path d="M340,124 Q368,118 396,124" fill="none" stroke="#3a2810" stroke-width="3" stroke-linecap="round"/>
+    <path d="M500,124 Q528,118 556,124" fill="none" stroke="#3a2810" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Nose. -->
+    <path d="M448,180 L426,240 Q448,252 470,240 Z" fill="#a8765a" opacity="0.55"/>
+    <ellipse cx="436" cy="234" rx="4" ry="2" fill="#3a2010"/>
+    <ellipse cx="460" cy="234" rx="4" ry="2" fill="#3a2010"/>
+
+    <!-- Mouth — slightly open, earnest. -->
+    <path d="M404,278 Q448,284 492,278 L488,294 Q448,302 408,294 Z" fill="#3a1408"/>
+    <path d="M408,280 L488,280 L486,290 L410,290 Z" fill="#fff8e8" opacity="0.65"/>
+
+    <!-- Cheeks warm uplight. -->
+    <ellipse cx="332" cy="220" rx="40" ry="22" fill="#ffd078" opacity="0.55"/>
+    <ellipse cx="564" cy="220" rx="40" ry="22" fill="#ffd078" opacity="0.55"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.95">
+      <circle cx="356" cy="208" r="1.4"/>
+      <circle cx="372" cy="218" r="1.2"/>
+      <circle cx="392" cy="208" r="1.4"/>
+      <circle cx="500" cy="208" r="1.4"/>
+      <circle cx="520" cy="218" r="1.2"/>
+      <circle cx="540" cy="208" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- ******** RIGHT HAND (raised, palm flat with Jink standing) ******** -->
+  <g>
+    <!-- Sleeve cuff visible (linen). -->
+    <path d="M40,230 L40,300 Q60,310 100,310 L120,302 L120,234 Z" fill="url(#p16p2shirt)"/>
+    <ellipse cx="80" cy="262" rx="22" ry="2.5" fill="#a89060"/>
+
+    <!-- Wrist + palm. -->
+    <path d="M100,200 Q90,220 90,260 L120,300 L200,300 Q240,290 244,260 L240,210 Q160,196 100,200 Z" fill="url(#p16p2theoSkin)"/>
+    <!-- Warm uplight on palm from candle below. -->
+    <ellipse cx="180" cy="260" rx="60" ry="20" fill="url(#p16p2warmUplight)" opacity="0.7"/>
+
+    <!-- Fingers extending up (cradling). -->
+    <path d="M100,196 L96,160 Q104,144 116,144 L124,200 Z" fill="url(#p16p2theoSkin)"/>
+    <path d="M138,200 L132,160 Q140,144 152,144 L162,206 Z" fill="url(#p16p2theoSkin)"/>
+    <path d="M176,200 L170,160 Q178,144 190,144 L200,206 Z" fill="url(#p16p2theoSkin)"/>
+    <path d="M214,206 L208,168 Q216,154 228,154 L240,210 Z" fill="url(#p16p2theoSkin)"/>
+
+    <!-- Palm crease lines. -->
+    <g fill="none" stroke="#7a4828" stroke-width="0.85" opacity="0.65">
+      <path d="M100,232 Q160,228 240,232"/>
+      <path d="M100,250 Q160,254 240,250"/>
+    </g>
+
+    <!-- Brass gear ring on left index. -->
+    <ellipse cx="120" cy="174" rx="6" ry="3.5" fill="#fff0a8" opacity="0.85"/>
+    <ellipse cx="120" cy="174" rx="6" ry="3.5" fill="none" stroke="#5a3018" stroke-width="0.4"/>
+    <ellipse cx="120" cy="174" rx="2.5" ry="1.5" fill="#3a1c08"/>
+  </g>
+
+  <!-- ******** OTHER HAND cupped loosely around (sheltering, behind Jink) ******** -->
+  <g opacity="0.85">
+    <path d="M120,140 Q140,80 220,80 Q300,80 320,140 L320,200 L120,200 Z" fill="url(#p16p2theoSkin)" opacity="0.7"/>
+    <!-- Curl finger silhouettes (suggested). -->
+    <g fill="none" stroke="#7a4828" stroke-width="0.85" opacity="0.65">
+      <path d="M140,140 Q160,90 200,86"/>
+      <path d="M180,140 Q200,90 240,86"/>
+      <path d="M220,140 Q240,90 280,86"/>
+      <path d="M260,140 Q280,90 310,90"/>
+    </g>
+  </g>
+
+  <!-- ******** JINK on palm at face level (between hands) ******** -->
+  <g>
+    <ellipse cx="180" cy="200" rx="120" ry="80" fill="url(#p16p2emeraldHalo)" opacity="0.85" filter="url(#p16p2deepBloom)"/>
+
+    <!-- Tiny shadow on palm. -->
+    <ellipse cx="180" cy="206" rx="14" ry="2" fill="#000" opacity="0.45"/>
+
+    <!-- Body. -->
+    <!-- Legs. -->
+    <path d="M174,170 L172,202 L180,202 L180,170 Z" fill="url(#p16p2emeraldSuit)"/>
+    <path d="M186,170 L186,202 L194,202 L192,170 Z" fill="url(#p16p2emeraldSuit)"/>
+    <ellipse cx="176" cy="206" rx="4" ry="1.5" fill="#0a4018"/>
+    <ellipse cx="190" cy="206" rx="4" ry="1.5" fill="#0a4018"/>
+
+    <!-- Torso. -->
+    <path d="M170,140 Q166,164 174,170 L194,170 Q204,164 198,140 Q196,134 184,134 Q172,134 170,140 Z" fill="url(#p16p2emeraldSuit)"/>
+    <path d="M170,150 Q184,148 198,152 Q198,162 198,168 L170,168 Z" fill="#1a0c04" opacity="0.85"/>
+    <line x1="184" y1="134" x2="184" y2="170" stroke="#0a4018" stroke-width="0.4"/>
+    <circle cx="184" cy="158" r="1" fill="#a8ffd0" filter="url(#p16p2bloom)"/>
+
+    <!-- Wing-pack. -->
+    <rect x="174" y="138" width="20" height="6" fill="#1a4828"/>
+    <line x1="174" y1="140" x2="194" y2="140" stroke="#2ed078" stroke-width="0.55" filter="url(#p16p2bloom)"/>
+
+    <!-- Arms relaxed at sides. -->
+    <path d="M170,142 Q164,156 162,170 L170,170 Q172,156 172,144 Z" fill="url(#p16p2emeraldSuit)"/>
+    <path d="M198,142 Q204,156 206,170 L198,170 Q198,156 198,144 Z" fill="url(#p16p2emeraldSuit)"/>
+
+    <!-- Head — looking AT THEODORE'S EYES (face on, level). -->
+    <ellipse cx="184" cy="124" rx="9" ry="11" fill="url(#p16p2jinkSkin)"/>
+    <g fill="url(#p16p2jinkHair)">
+      <ellipse cx="174" cy="112" rx="4" ry="6"/>
+      <ellipse cx="180" cy="106" rx="4" ry="5"/>
+      <ellipse cx="188" cy="106" rx="4" ry="5"/>
+      <ellipse cx="194" cy="112" rx="4" ry="6"/>
+      <ellipse cx="174" cy="120" rx="3" ry="4"/>
+      <ellipse cx="194" cy="120" rx="3" ry="4"/>
+    </g>
+    <!-- WIDE eyes (unguarded surprise). -->
+    <ellipse cx="180" cy="124" rx="2" ry="1.6" fill="#fff8e8"/>
+    <circle cx="180" cy="124" r="1.2" fill="#2a4830"/>
+    <circle cx="180" cy="124" r="0.7" fill="#0a0604"/>
+    <ellipse cx="180.5" cy="123" rx="0.6" ry="0.4" fill="#ffd078" filter="url(#p16p2bloom)"/>
+    <ellipse cx="188" cy="124" rx="2" ry="1.6" fill="#fff8e8"/>
+    <circle cx="188" cy="124" r="1.2" fill="#2a4830"/>
+    <circle cx="188" cy="124" r="0.7" fill="#0a0604"/>
+    <ellipse cx="188.5" cy="123" rx="0.6" ry="0.4" fill="#ffd078" filter="url(#p16p2bloom)"/>
+    <!-- Brows soft. -->
+    <path d="M176,120 Q180,118 184,120" fill="none" stroke="#3a2810" stroke-width="0.55"/>
+    <path d="M186,120 Q190,118 194,120" fill="none" stroke="#3a2810" stroke-width="0.55"/>
+    <!-- Nose. -->
+    <path d="M184,128 L182,132 Q184,133 186,132 Z" fill="#7a4828" opacity="0.55"/>
+    <!-- Mouth — soft, parted (no grin, unguarded). -->
+    <path d="M180,138 Q184,140 188,138" fill="none" stroke="#5a3018" stroke-width="0.55" stroke-linecap="round"/>
+
+    <!-- Warm uplight on Jink from candle below. -->
+    <ellipse cx="184" cy="136" rx="14" ry="6" fill="#ffd078" opacity="0.45"/>
+  </g>
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q200,45 400,42"/>
+    <path d="M400,40 Q600,45 742,42"/>
+  </g>
+
+  <!-- No dialogue (faces speak). -->
+</svg>
