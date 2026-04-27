@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 5 — Panel 3: CU high-angle POV — the shard half-wedged in cobble gap</title>
+  <desc>CU 85mm high angle. Theodore's POV looking down at scorch mark on damp Victorian cobblestones. Among blackened stones, half-wedged in gap between cobbles, an angular ~2-inch shard. Dark surface, faint interior luminescence — geometric blue-white light moving slowly inside like a dying circuit. Heat shimmer where rain has evaporated. Theodore's oil-stained fingers reach into frame from the top approaching the shard. THE FIRST cool light intrusion into Theodore's warm-grey world.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p5p3cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="100%" stop-color="#2a2418"/>
+    </linearGradient>
+    <radialGradient id="p5p3scorchCenter">
+      <stop offset="0%" stop-color="#0a0402" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#1a0c04" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p5p3coolGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a0d8ff" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#5090e0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p5p3shardCore">
+      <stop offset="0%" stop-color="#a0d8ff"/>
+      <stop offset="40%" stop-color="#5090e0"/>
+      <stop offset="80%" stop-color="#1a2858"/>
+      <stop offset="100%" stop-color="#0a0c1a"/>
+    </radialGradient>
+    <linearGradient id="p5p3shardSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a3848"/>
+      <stop offset="50%" stop-color="#1a1a28"/>
+      <stop offset="100%" stop-color="#0a0c1a"/>
+    </linearGradient>
+    <linearGradient id="p5p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8c0"/>
+      <stop offset="100%" stop-color="#9a7050"/>
+    </linearGradient>
+    <radialGradient id="p5p3oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p5p3brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <filter id="p5p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p5p3strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG: damp cobblestones (filling whole frame, since this is a high-angle CU). -->
+  <rect width="366" height="364" fill="url(#p5p3cobble)"/>
+
+  <!-- Cobble grid (mortar lines). -->
+  <g stroke="#1a1208" stroke-width="0.7" opacity="0.7">
+    <path d="M0,40 Q120,42 240,40 Q330,38 366,40"/>
+    <path d="M0,90 Q120,92 240,90 Q330,88 366,90"/>
+    <path d="M0,140 Q120,142 240,140 Q330,138 366,140"/>
+    <path d="M0,200 Q120,202 240,200 Q330,198 366,200"/>
+    <path d="M0,260 Q120,262 240,260 Q330,258 366,260"/>
+    <path d="M0,320 Q120,322 240,320 Q330,318 366,320"/>
+  </g>
+  <g stroke="#3a3428" stroke-width="0.5" opacity="0.6">
+    <line x1="40" y1="0" x2="44" y2="40"/>
+    <line x1="100" y1="0" x2="104" y2="40"/>
+    <line x1="160" y1="0" x2="164" y2="40"/>
+    <line x1="220" y1="0" x2="224" y2="40"/>
+    <line x1="280" y1="0" x2="284" y2="40"/>
+    <line x1="340" y1="0" x2="344" y2="40"/>
+    <line x1="20" y1="42" x2="24" y2="90"/>
+    <line x1="80" y1="42" x2="84" y2="90"/>
+    <line x1="140" y1="42" x2="146" y2="90"/>
+    <line x1="200" y1="42" x2="206" y2="90"/>
+    <line x1="260" y1="42" x2="266" y2="90"/>
+    <line x1="320" y1="42" x2="326" y2="90"/>
+    <line x1="40" y1="92" x2="46" y2="140"/>
+    <line x1="100" y1="92" x2="106" y2="140"/>
+    <line x1="160" y1="92" x2="166" y2="140"/>
+    <line x1="220" y1="92" x2="226" y2="140"/>
+    <line x1="280" y1="92" x2="286" y2="140"/>
+    <line x1="340" y1="92" x2="346" y2="140"/>
+    <line x1="20" y1="142" x2="26" y2="200"/>
+    <line x1="80" y1="142" x2="86" y2="200"/>
+    <line x1="140" y1="142" x2="146" y2="200"/>
+    <line x1="220" y1="142" x2="226" y2="200"/>
+    <line x1="280" y1="142" x2="286" y2="200"/>
+    <line x1="340" y1="142" x2="346" y2="200"/>
+    <line x1="40" y1="202" x2="46" y2="260"/>
+    <line x1="100" y1="202" x2="106" y2="260"/>
+    <line x1="220" y1="202" x2="226" y2="260"/>
+    <line x1="280" y1="202" x2="286" y2="260"/>
+    <line x1="340" y1="202" x2="346" y2="260"/>
+    <line x1="20" y1="262" x2="26" y2="320"/>
+    <line x1="80" y1="262" x2="86" y2="320"/>
+    <line x1="140" y1="262" x2="146" y2="320"/>
+    <line x1="220" y1="262" x2="226" y2="320"/>
+    <line x1="280" y1="262" x2="286" y2="320"/>
+    <line x1="340" y1="262" x2="346" y2="320"/>
+  </g>
+
+  <!-- THE SCORCH MARK — covers the central area. -->
+  <g>
+    <ellipse cx="183" cy="200" rx="120" ry="68" fill="url(#p5p3scorchCenter)" opacity="0.85"/>
+    <ellipse cx="183" cy="200" rx="86" ry="46" fill="#0a0402" opacity="0.85"/>
+    <ellipse cx="183" cy="200" rx="56" ry="30" fill="#0a0402"/>
+    <!-- 12 radiating geometric burn lines. -->
+    <g stroke="#0a0402" stroke-width="1.4" stroke-linecap="round" opacity="0.95">
+      <line x1="183" y1="200" x2="183" y2="124"/>
+      <line x1="183" y1="200" x2="220" y2="138"/>
+      <line x1="183" y1="200" x2="262" y2="170"/>
+      <line x1="183" y1="200" x2="290" y2="200"/>
+      <line x1="183" y1="200" x2="262" y2="234"/>
+      <line x1="183" y1="200" x2="220" y2="266"/>
+      <line x1="183" y1="200" x2="183" y2="282"/>
+      <line x1="183" y1="200" x2="146" y2="266"/>
+      <line x1="183" y1="200" x2="104" y2="234"/>
+      <line x1="183" y1="200" x2="76" y2="200"/>
+      <line x1="183" y1="200" x2="104" y2="170"/>
+      <line x1="183" y1="200" x2="146" y2="138"/>
+    </g>
+    <!-- Hexagonal outer trace. -->
+    <path d="M120,200 L150,150 L218,150 L246,200 L218,250 L150,250 Z"
+          fill="none" stroke="#1a0c04" stroke-width="0.7" opacity="0.55"/>
+  </g>
+
+  <!-- HEAT SHIMMER — wavy translucent lines emanating from shard area (upward distortion). -->
+  <g stroke="#a8a8a4" stroke-width="0.5" opacity="0.45" fill="none">
+    <path d="M170,180 Q172,170 168,160 Q166,150 170,140 Q172,130 168,124"/>
+    <path d="M180,178 Q184,168 180,158 Q176,148 180,138 Q184,128 180,118"/>
+    <path d="M192,180 Q188,170 192,160 Q196,150 192,140 Q188,130 192,122"/>
+    <path d="M200,182 Q204,172 200,162 Q196,152 200,142 Q204,132 200,124"/>
+  </g>
+
+  <!-- THE SHARD — half-wedged in a gap between cobbles, at center-left of the scorch mark.
+       Angular triangular fragment with interior cool blue-white glow. -->
+  <g>
+    <!-- Cool light halo around shard. -->
+    <ellipse cx="183" cy="200" rx="42" ry="28" fill="url(#p5p3coolGlow)" filter="url(#p5p3bloom)"/>
+    <!-- Stronger central glow. -->
+    <ellipse cx="183" cy="200" rx="22" ry="14" fill="#a0d8ff" opacity="0.55" filter="url(#p5p3strongBloom)"/>
+
+    <!-- Shard body (angular, irregular triangle/wedge shape). -->
+    <path d="M170,196 L188,184 L200,196 L196,208 L182,212 Z" fill="url(#p5p3shardSurface)"/>
+    <!-- Shard outline. -->
+    <path d="M170,196 L188,184 L200,196 L196,208 L182,212 Z" fill="none" stroke="#0a0c1a" stroke-width="0.7"/>
+    <!-- INTERIOR GEOMETRIC LIGHT — visible through shard surface like circuitry. -->
+    <g>
+      <!-- Inner glow plate. -->
+      <path d="M174,198 L188,188 L196,198 L192,206 L182,208 Z" fill="url(#p5p3shardCore)" opacity="0.85"/>
+      <!-- Geometric internal lines (structured circuitry). -->
+      <line x1="178" y1="200" x2="192" y2="200" stroke="#ffffff" stroke-width="0.5" opacity="0.95" filter="url(#p5p3bloom)"/>
+      <line x1="186" y1="192" x2="186" y2="206" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p5p3bloom)"/>
+      <!-- Tiny hex node. -->
+      <path d="M183,196 L186,194 L189,196 L189,200 L186,202 L183,200 Z"
+            fill="none" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p5p3bloom)"/>
+      <!-- Bright pulse points. -->
+      <circle cx="186" cy="198" r="1.2" fill="#ffffff" filter="url(#p5p3bloom)"/>
+      <circle cx="180" cy="202" r="0.7" fill="#a0d8ff" filter="url(#p5p3bloom)"/>
+      <circle cx="192" cy="195" r="0.6" fill="#a0d8ff" filter="url(#p5p3bloom)"/>
+    </g>
+    <!-- Shard surface highlights (catching ambient grey). -->
+    <path d="M170,196 L188,184" stroke="#5a5860" stroke-width="0.5" opacity="0.85"/>
+    <path d="M188,184 L200,196" stroke="#3a3848" stroke-width="0.5" opacity="0.85"/>
+    <!-- Tiny crack on shard surface. -->
+    <path d="M188,188 L184,200 L186,206" fill="none" stroke="#0a0c1a" stroke-width="0.4" opacity="0.85"/>
+  </g>
+
+  <!-- Cool light cast on surrounding cobbles (faint blue tint near shard). -->
+  <g opacity="0.55">
+    <path d="M156,198 Q140,196 124,200" stroke="#5090e0" stroke-width="2" fill="none" filter="url(#p5p3bloom)"/>
+    <path d="M204,198 Q220,196 236,200" stroke="#5090e0" stroke-width="2" fill="none" filter="url(#p5p3bloom)"/>
+    <path d="M183,168 Q183,150 183,140" stroke="#5090e0" stroke-width="2" fill="none" filter="url(#p5p3bloom)"/>
+  </g>
+
+  <!-- THEODORE'S FINGERS reaching into frame from TOP. Oil-stained, with brass gear ring on left index. -->
+  <g>
+    <!-- Wrist + back of hand entering from top of frame. -->
+    <path d="M138,0 L218,0 L228,40 Q228,68 218,86 L138,86 Q128,72 130,40 Z" fill="url(#p5p3skin)"/>
+    <!-- Oil stains on hand. -->
+    <ellipse cx="160" cy="40" rx="14" ry="6" fill="url(#p5p3oilStain)"/>
+    <ellipse cx="190" cy="60" rx="12" ry="5" fill="url(#p5p3oilStain)" opacity="0.7"/>
+
+    <!-- Knuckle ridges. -->
+    <path d="M148,56 Q156,52 164,54" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <path d="M170,58 Q180,54 190,56" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <path d="M196,58 Q206,54 216,56" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+
+    <!-- Five fingers extending DOWNWARD toward the shard. -->
+    <!-- Index finger (with brass gear ring). -->
+    <g>
+      <path d="M138,80 Q142,110 144,140 L156,142 Q156,112 152,82 Z" fill="url(#p5p3skin)"/>
+      <!-- BRASS GEAR RING at base of index finger. -->
+      <ellipse cx="148" cy="100" rx="9" ry="5" fill="url(#p5p3brass)"/>
+      <ellipse cx="148" cy="100" rx="9" ry="5" fill="none" stroke="#5a3018" stroke-width="0.6"/>
+      <!-- Tiny gear teeth. -->
+      <rect x="146.7" y="93" width="2.6" height="2.5" fill="url(#p5p3brass)"/>
+      <rect x="146.7" y="104.5" width="2.6" height="2.5" fill="url(#p5p3brass)"/>
+      <rect x="139" y="98.5" width="3" height="3" fill="url(#p5p3brass)"/>
+      <rect x="154" y="98.5" width="3" height="3" fill="url(#p5p3brass)"/>
+      <ellipse cx="148" cy="100" rx="4" ry="2.5" fill="#3a2010"/>
+      <!-- Fingertip rounded. -->
+      <ellipse cx="150" cy="142" rx="6" ry="4" fill="url(#p5p3skin)"/>
+      <!-- Nail. -->
+      <path d="M147,138 Q150,136 153,138 Q152,142 150,142 Z" fill="#e8d0b4"/>
+      <line x1="148" y1="142" x2="152" y2="142" stroke="#1a0e06" stroke-width="0.5"/>
+    </g>
+    <!-- Middle finger (longest, reaching toward shard). -->
+    <g>
+      <path d="M158,82 Q162,118 164,154 L176,156 Q176,120 172,84 Z" fill="url(#p5p3skin)"/>
+      <ellipse cx="170" cy="158" rx="6" ry="4" fill="url(#p5p3skin)"/>
+      <path d="M167,154 Q170,152 173,154 Q172,158 170,158 Z" fill="#e8d0b4"/>
+    </g>
+    <!-- Ring finger. -->
+    <g>
+      <path d="M178,82 Q180,114 184,148 L196,150 Q196,116 192,84 Z" fill="url(#p5p3skin)"/>
+      <ellipse cx="190" cy="152" rx="6" ry="4" fill="url(#p5p3skin)"/>
+      <path d="M187,148 Q190,146 193,148 Q192,152 190,152 Z" fill="#e8d0b4"/>
+    </g>
+    <!-- Pinky. -->
+    <g>
+      <path d="M198,84 Q200,112 204,138 L214,140 Q214,114 210,86 Z" fill="url(#p5p3skin)"/>
+      <ellipse cx="208" cy="142" rx="5" ry="3" fill="url(#p5p3skin)"/>
+      <path d="M205,138 Q208,136 211,138 Q210,142 208,142 Z" fill="#e8d0b4"/>
+    </g>
+    <!-- Thumb (alongside index, slightly right). -->
+    <g>
+      <path d="M218,40 Q230,60 234,90 L222,94 Q220,68 214,46 Z" fill="url(#p5p3skin)"/>
+      <ellipse cx="228" cy="96" rx="5" ry="3" fill="url(#p5p3skin)"/>
+      <path d="M226,92 Q229,90 232,92 Q231,96 229,96 Z" fill="#e8d0b4"/>
+    </g>
+
+    <!-- Fingertips touched by cool light from shard (subtle blue tint). -->
+    <ellipse cx="170" cy="158" rx="8" ry="4" fill="#a0d8ff" opacity="0.18" filter="url(#p5p3bloom)"/>
+    <ellipse cx="190" cy="152" rx="7" ry="3" fill="#a0d8ff" opacity="0.15" filter="url(#p5p3bloom)"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,260 Q60,265 120,262"/>
+    <path d="M260,300 Q320,305 350,302"/>
+  </g>
+
+  <!-- No dialogue per script. -->
+</svg>

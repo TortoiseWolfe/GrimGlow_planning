@@ -1,0 +1,299 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 493.8 364" width="493.8" height="364">
+  <title>Issue 3 — Page 5 — Panel 4: MCU Theodore holds shard, face lit from below by cool prismatic light</title>
+  <desc>MCU 50mm eye level. Theodore in alley holding small angular shard in open palm. Shard glows interior geometric blue-white prismatic light, structured, pulsing brighter where skin contacts it. His face is lit from BELOW by shard's glow — blue-white cutting through grey alley for FIRST time. Wide hazel eyes, sandy hair, freckles, oil-stained fingers. Expression: preliminary wonder — intake of breath before the gasp, wide eyes, slightly parted lips. Left thumb turns brass gear ring faster. Grey alley walls and damp cobbles surround but cool prismatic light from palm makes everything else recede.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p5p4alleyBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3428"/>
+      <stop offset="100%" stop-color="#1a1408"/>
+    </linearGradient>
+    <linearGradient id="p5p4brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a2818"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="p5p4soot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1a1208" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p5p4coolGlow" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#a0d8ff" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#5090e0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p5p4faceUnderlit">
+      <stop offset="0%" stop-color="#a0c8e8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5070a0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p5p4skin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#8090b0"/>
+      <stop offset="40%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p5p4skinShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#1a0e06" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p5p4skinCoolKey" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a0c8ff" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#a0c8ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p5p4shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p5p4vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p5p4hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="p5p4shardCore">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a0d8ff"/>
+      <stop offset="80%" stop-color="#5090e0"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <linearGradient id="p5p4shardSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a3848"/>
+      <stop offset="100%" stop-color="#0a0c1a"/>
+    </linearGradient>
+    <linearGradient id="p5p4brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <radialGradient id="p5p4oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p5p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p5p4strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG: dim alley interior. -->
+  <rect width="493.8" height="364" fill="url(#p5p4alleyBg)"/>
+
+  <!-- Brick walls receding behind Theodore (slightly visible at edges of frame). -->
+  <rect x="0" y="0" width="80" height="364" fill="url(#p5p4brick)"/>
+  <rect x="0" y="0" width="80" height="364" fill="url(#p5p4soot)"/>
+  <g stroke="#1a0e08" stroke-width="0.5" opacity="0.55">
+    <line x1="0" y1="40" x2="80" y2="40"/>
+    <line x1="0" y1="80" x2="80" y2="80"/>
+    <line x1="0" y1="120" x2="80" y2="120"/>
+    <line x1="0" y1="160" x2="80" y2="160"/>
+    <line x1="0" y1="200" x2="80" y2="200"/>
+    <line x1="0" y1="240" x2="80" y2="240"/>
+    <line x1="0" y1="280" x2="80" y2="280"/>
+  </g>
+
+  <rect x="413.8" y="0" width="80" height="364" fill="url(#p5p4brick)"/>
+  <rect x="413.8" y="0" width="80" height="364" fill="url(#p5p4soot)"/>
+  <g stroke="#1a0e08" stroke-width="0.5" opacity="0.55">
+    <line x1="413.8" y1="40" x2="493.8" y2="40"/>
+    <line x1="413.8" y1="80" x2="493.8" y2="80"/>
+    <line x1="413.8" y1="120" x2="493.8" y2="120"/>
+    <line x1="413.8" y1="160" x2="493.8" y2="160"/>
+    <line x1="413.8" y1="200" x2="493.8" y2="200"/>
+    <line x1="413.8" y1="240" x2="493.8" y2="240"/>
+    <line x1="413.8" y1="280" x2="493.8" y2="280"/>
+  </g>
+
+  <!-- COOL LIGHT SATURATION — wide halo from below (palm of his hand at bottom-center). -->
+  <ellipse cx="246" cy="280" rx="280" ry="180" fill="url(#p5p4coolGlow)" opacity="0.85"/>
+  <ellipse cx="246" cy="260" rx="160" ry="120" fill="#a0d8ff" opacity="0.18" filter="url(#p5p4strongBloom)"/>
+
+  <!-- Cool light cast on brick walls (subtle blue tint). -->
+  <ellipse cx="80" cy="280" rx="60" ry="80" fill="#a0d8ff" opacity="0.18" filter="url(#p5p4bloom)"/>
+  <ellipse cx="413.8" cy="280" rx="60" ry="80" fill="#a0d8ff" opacity="0.18" filter="url(#p5p4bloom)"/>
+
+  <!-- Shoulder + chest body suggestion (we see Theodore from chest up in MCU). -->
+  <g>
+    <!-- Shirt/waistcoat at lower frame edge. -->
+    <path d="M150,260 Q140,330 150,364 L350,364 Q360,330 350,260 Q340,250 246,250 Q160,250 150,260 Z" fill="url(#p5p4vest)"/>
+    <!-- Linen shirt under waistcoat at neck. -->
+    <path d="M210,242 L246,288 L282,242 Z" fill="url(#p5p4shirt)"/>
+    <path d="M232,244 L246,278 L260,244 Z" fill="#5a3018"/>
+    <!-- Vest buttons. -->
+    <line x1="246" y1="288" x2="246" y2="364" stroke="#1a0c04" stroke-width="0.5"/>
+    <circle cx="246" cy="304" r="1.2" fill="url(#p5p4brass)"/>
+    <circle cx="246" cy="320" r="1.2" fill="url(#p5p4brass)"/>
+    <circle cx="246" cy="336" r="1.2" fill="url(#p5p4brass)"/>
+    <circle cx="246" cy="352" r="1.2" fill="url(#p5p4brass)"/>
+    <!-- Lit by cool from below. -->
+    <path d="M150,260 Q140,330 150,364 L350,364 Q360,330 350,260 Q340,250 246,250 Q160,250 150,260 Z" fill="url(#p5p4skinCoolKey)" opacity="0.45"/>
+  </g>
+
+  <!-- LEFT ARM — cradling the shard in cupped palm at frame center (lower-center). -->
+  <g>
+    <!-- Forearm extending up from lower-left into center where shard is. -->
+    <path d="M180,310 Q200,300 230,290 L264,290 Q270,304 268,330 L210,348 Q186,340 178,322 Z" fill="url(#p5p4skin)"/>
+    <path d="M180,310 Q200,300 230,290 L264,290 Q270,304 268,330 L210,348 Q186,340 178,322 Z" fill="url(#p5p4skinShadow)" opacity="0.45"/>
+    <!-- Cuff / sleeve cuff at wrist. -->
+    <rect x="178" y="320" width="40" height="6" fill="#a89878"/>
+    <line x1="178" y1="322" x2="218" y2="322" stroke="#5a4838" stroke-width="0.4"/>
+
+    <!-- Oil stains. -->
+    <ellipse cx="200" cy="318" rx="10" ry="4" fill="url(#p5p4oilStain)"/>
+    <ellipse cx="220" cy="332" rx="8" ry="3" fill="url(#p5p4oilStain)" opacity="0.7"/>
+
+    <!-- Open palm (cupped) holding the shard. -->
+    <path d="M210,290 Q224,278 244,278 Q266,278 280,288 L290,310 L286,320 Q260,322 244,316 Q220,316 210,310 Z" fill="url(#p5p4skin)"/>
+    <!-- Knuckles. -->
+    <path d="M218,294 Q224,290 230,294" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <path d="M232,288 Q244,284 256,288" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <path d="M256,290 Q266,286 274,294" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+
+    <!-- COOL LIGHT FROM SHARD washing over the palm. -->
+    <ellipse cx="246" cy="296" rx="40" ry="14" fill="url(#p5p4coolGlow)" opacity="0.85"/>
+
+    <!-- THE SHARD — cradled in palm, glowing brightly. -->
+    <g>
+      <!-- Strong central bloom. -->
+      <ellipse cx="246" cy="296" rx="22" ry="10" fill="#a0d8ff" opacity="0.7" filter="url(#p5p4strongBloom)"/>
+      <!-- Shard surface (angular wedge). -->
+      <path d="M232,294 L246,284 L262,294 L256,304 L240,306 Z" fill="url(#p5p4shardSurface)"/>
+      <path d="M232,294 L246,284 L262,294 L256,304 L240,306 Z" fill="none" stroke="#0a0c1a" stroke-width="0.6"/>
+      <!-- Interior glow. -->
+      <path d="M236,294 L246,288 L258,294 L254,302 L242,304 Z" fill="url(#p5p4shardCore)" opacity="0.85"/>
+      <!-- Geometric internal lines. -->
+      <line x1="240" y1="296" x2="252" y2="296" stroke="#ffffff" stroke-width="0.5" opacity="0.95" filter="url(#p5p4bloom)"/>
+      <line x1="246" y1="290" x2="246" y2="302" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p5p4bloom)"/>
+      <!-- Hex node. -->
+      <path d="M243,294 L246,292 L249,294 L249,298 L246,300 L243,298 Z"
+            fill="none" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p5p4bloom)"/>
+      <!-- Bright pulse points. -->
+      <circle cx="246" cy="296" r="1.4" fill="#ffffff" filter="url(#p5p4bloom)"/>
+      <circle cx="240" cy="298" r="0.7" fill="#a0d8ff" filter="url(#p5p4bloom)"/>
+      <circle cx="252" cy="295" r="0.7" fill="#a0d8ff" filter="url(#p5p4bloom)"/>
+    </g>
+
+    <!-- Brass gear ring on left index. -->
+    <ellipse cx="222" cy="310" rx="6" ry="3.5" fill="url(#p5p4brass)"/>
+    <ellipse cx="222" cy="310" rx="6" ry="3.5" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+    <!-- Gear teeth. -->
+    <rect x="221" y="305" width="2" height="2" fill="url(#p5p4brass)"/>
+    <rect x="221" y="313" width="2" height="2" fill="url(#p5p4brass)"/>
+    <rect x="216" y="309" width="2" height="2" fill="url(#p5p4brass)"/>
+    <rect x="226" y="309" width="2" height="2" fill="url(#p5p4brass)"/>
+    <ellipse cx="222" cy="310" rx="2.5" ry="1.5" fill="#3a2010"/>
+  </g>
+
+  <!-- HEAD — wide-eyed wonder, looking DOWN at shard, face LIT FROM BELOW. -->
+  <g>
+    <!-- Neck. -->
+    <path d="M232,224 L232,250 L260,250 L260,224 Z" fill="url(#p5p4skin)"/>
+    <!-- Head. -->
+    <ellipse cx="246" cy="190" rx="38" ry="44" fill="url(#p5p4skin)"/>
+    <!-- Cool underlight on face. -->
+    <ellipse cx="246" cy="190" rx="38" ry="44" fill="url(#p5p4skinCoolKey)" opacity="0.55"/>
+    <!-- Top of head shadow (cool light from below = top is darker). -->
+    <ellipse cx="246" cy="170" rx="38" ry="20" fill="url(#p5p4skinShadow)" opacity="0.45"/>
+
+    <!-- Tousled spikes (mostly in shadow, with cool light catching the underside edges). -->
+    <path d="M212,160 Q208,128 240,116 Q252,114 270,118 Q286,128 282,160 L278,164 Q270,138 260,134 L234,134 Q224,138 218,164 Z" fill="url(#p5p4hair)"/>
+    <path d="M214,130 L212,108 L222,128 Z" fill="url(#p5p4hair)"/>
+    <path d="M226,118 L226,98 L234,118 Z" fill="url(#p5p4hair)"/>
+    <path d="M242,114 L244,94 L252,114 Z" fill="url(#p5p4hair)"/>
+    <path d="M258,116 L262,96 L264,116 Z" fill="url(#p5p4hair)"/>
+    <path d="M274,124 L280,104 L278,128 Z" fill="url(#p5p4hair)"/>
+    <!-- Bangs (lit from below — illumination catches tips). -->
+    <path d="M214,156 L216,168 L222,156 Z" fill="url(#p5p4hair)"/>
+    <path d="M228,158 L230,170 L236,158 Z" fill="url(#p5p4hair)"/>
+    <path d="M244,160 L246,172 L252,160 Z" fill="url(#p5p4hair)"/>
+    <path d="M260,160 L258,172 L268,160 Z" fill="url(#p5p4hair)"/>
+    <path d="M276,158 L280,170 L280,158 Z" fill="url(#p5p4hair)"/>
+    <!-- Sides. -->
+    <path d="M212,160 Q208,200 218,228 L228,228 Q220,210 220,160 Z" fill="url(#p5p4hair)"/>
+    <path d="M282,160 Q286,200 276,228 L266,228 Q274,210 274,160 Z" fill="url(#p5p4hair)"/>
+    <!-- Cool tinge on hair tips. -->
+    <g stroke="#a0c8ff" stroke-width="0.6" opacity="0.55">
+      <line x1="218" y1="166" x2="216" y2="170"/>
+      <line x1="232" y1="168" x2="230" y2="172"/>
+      <line x1="248" y1="170" x2="246" y2="174"/>
+      <line x1="262" y1="170" x2="262" y2="174"/>
+      <line x1="278" y1="166" x2="280" y2="170"/>
+    </g>
+
+    <!-- BIG WIDE EYES (preliminary wonder). -->
+    <ellipse cx="226" cy="190" rx="6" ry="4" fill="#fff8e8"/>
+    <ellipse cx="226" cy="190" rx="6" ry="4" fill="none" stroke="#3a2810" stroke-width="0.6"/>
+    <circle cx="226" cy="190" r="3" fill="url(#p5p4hair)"/>
+    <circle cx="226" cy="190" r="1.5" fill="#0a0604"/>
+    <!-- Cool blue catchlight in eye (reflection of shard). -->
+    <ellipse cx="226" cy="192" rx="1.3" ry="0.6" fill="#a0d8ff" filter="url(#p5p4bloom)"/>
+    <circle cx="225" cy="189" r="0.6" fill="#ffffff"/>
+
+    <ellipse cx="266" cy="190" rx="6" ry="4" fill="#fff8e8"/>
+    <ellipse cx="266" cy="190" rx="6" ry="4" fill="none" stroke="#3a2810" stroke-width="0.6"/>
+    <circle cx="266" cy="190" r="3" fill="url(#p5p4hair)"/>
+    <circle cx="266" cy="190" r="1.5" fill="#0a0604"/>
+    <ellipse cx="266" cy="192" rx="1.3" ry="0.6" fill="#a0d8ff" filter="url(#p5p4bloom)"/>
+    <circle cx="265" cy="189" r="0.6" fill="#ffffff"/>
+
+    <!-- Brows — RAISED (wonder/surprise). -->
+    <path d="M218,178 Q226,174 234,178" fill="none" stroke="#3a2810" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M258,178 Q266,174 274,178" fill="none" stroke="#3a2810" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- Nose — lit from BELOW (warm catch on tip + nostrils + underside). -->
+    <path d="M246,196 L242,212 Q246,214 250,212 Z" fill="#a8765a" opacity="0.45"/>
+    <ellipse cx="246" cy="214" rx="6" ry="2" fill="#a0c8ff" opacity="0.45" filter="url(#p5p4bloom)"/>
+    <ellipse cx="243" cy="216" rx="1.6" ry="0.7" fill="#3a1808" opacity="0.85"/>
+    <ellipse cx="249" cy="216" rx="1.6" ry="0.7" fill="#3a1808" opacity="0.85"/>
+
+    <!-- MOUTH SLIGHTLY PARTED (intake of breath). -->
+    <ellipse cx="246" cy="224" rx="6" ry="2" fill="#7a3018" opacity="0.7"/>
+    <path d="M240,222 Q246,226 252,222" fill="none" stroke="#5a3018" stroke-width="0.7"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.85">
+      <circle cx="218" cy="206" r="0.7"/>
+      <circle cx="222" cy="208" r="0.6"/>
+      <circle cx="232" cy="204" r="0.7"/>
+      <circle cx="260" cy="204" r="0.7"/>
+      <circle cx="270" cy="208" r="0.6"/>
+      <circle cx="274" cy="206" r="0.7"/>
+    </g>
+
+    <!-- Cheek glow from cool underlight. -->
+    <ellipse cx="216" cy="214" rx="10" ry="6" fill="#a0c8ff" opacity="0.18" filter="url(#p5p4bloom)"/>
+    <ellipse cx="276" cy="214" rx="10" ry="6" fill="#a0c8ff" opacity="0.18" filter="url(#p5p4bloom)"/>
+
+    <!-- Underside of jaw lit. -->
+    <path d="M212,212 Q246,234 280,212" fill="none" stroke="#a0c8ff" stroke-width="1" opacity="0.55" filter="url(#p5p4bloom)"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q100,45 200,42"/>
+    <path d="M300,40 Q400,45 493.8,42"/>
+    <path d="M0,260 Q100,265 200,262"/>
+  </g>
+
+  <!-- THEODORE balloon — top, whispered. -->
+  <rect x="14" y="14" width="180" height="62" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M150,76 L162,76 L194,150 Z"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="150" y1="76" x2="162" y2="76" stroke="#ffffff" stroke-width="3"/>
+  <text x="24" y="34"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="24" y="50"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic" font-weight="500"
+        fill="#5a4030">(whispered)</text>
+  <text x="24" y="68"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">It's warm.</text>
+
+</svg>

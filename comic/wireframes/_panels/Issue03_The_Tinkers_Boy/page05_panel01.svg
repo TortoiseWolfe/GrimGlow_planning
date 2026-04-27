@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 5 — Panel 1: Wide EST narrow Victorian alley, Theodore enters</title>
+  <desc>Wide EST 28mm eye level. Narrow Victorian alley between London stock brick buildings. Theodore enters from street behind him, parcel under one arm. Street behind: grey daylight, pedestrians, cart. Alley empty, narrow, dim — brick walls close on either side, damp cobblestones, cast-iron drainpipe, refuse pushed against one wall. Casual familiarity. Grey daylight at alley mouth, dimmer indirect light deeper in. Transition from street to solitude.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p5p1streetSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7a76"/>
+      <stop offset="100%" stop-color="#5a5a56"/>
+    </linearGradient>
+    <linearGradient id="p5p1brickLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a2818"/>
+      <stop offset="50%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p5p1brickRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a1808"/>
+      <stop offset="50%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#4a2818"/>
+    </linearGradient>
+    <linearGradient id="p5p1soot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1a1208" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p5p1cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="100%" stop-color="#2a2418"/>
+    </linearGradient>
+    <radialGradient id="p5p1alleyMouth" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#a8a89e" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a5a56" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p5p1alleyShadow" cx="20%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#0a0604" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#0a0604" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p5p1theoSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8c0"/>
+      <stop offset="100%" stop-color="#9a7050"/>
+    </linearGradient>
+    <linearGradient id="p5p1theoShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p5p1theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p5p1coat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3428"/>
+      <stop offset="100%" stop-color="#1a1408"/>
+    </linearGradient>
+    <linearGradient id="p5p1drainpipe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0402"/>
+      <stop offset="50%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p5p1theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#5a4020"/>
+    </radialGradient>
+    <linearGradient id="p5p1brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89878"/>
+      <stop offset="100%" stop-color="#5a4838"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ALLEY: walls of brick close on either side, narrow gap forward (deep into frame).
+       Composition: alley runs from foreground to deep BG, with a small visible bright slice at the FAR END (alley mouth at distance is bright; viewer perspective is from inside) — but per script Theodore is ENTERING from the street BEHIND him. So we set this up as: alley running into deep BG with grey street visible at the BACK opening, narrowing perspective. -->
+
+  <!-- BG: dark alley deep + sky strip at top + bright street opening behind. -->
+  <rect width="742" height="364" fill="#1a0c04"/>
+
+  <!-- LEFT WALL of alley (image left, brick). Shape narrows in vanishing perspective. -->
+  <path d="M0,0 L0,330 L240,290 L240,80 Z" fill="url(#p5p1brickLeft)"/>
+  <path d="M0,0 L0,330 L240,290 L240,80 Z" fill="url(#p5p1soot)"/>
+  <!-- Brick mortar lines on left wall (perspective). -->
+  <g stroke="#1a0e08" stroke-width="0.5" opacity="0.65">
+    <path d="M0,30 L240,90"/>
+    <path d="M0,60 L240,108"/>
+    <path d="M0,90 L240,124"/>
+    <path d="M0,120 L240,142"/>
+    <path d="M0,160 L240,170"/>
+    <path d="M0,200 L240,200"/>
+    <path d="M0,240 L240,228"/>
+    <path d="M0,290 L240,260"/>
+  </g>
+  <!-- Vertical brick joints on left wall. -->
+  <g stroke="#1a0e08" stroke-width="0.4" opacity="0.55">
+    <line x1="40" y1="0" x2="60" y2="290"/>
+    <line x1="80" y1="0" x2="100" y2="288"/>
+    <line x1="120" y1="0" x2="140" y2="286"/>
+    <line x1="160" y1="0" x2="178" y2="284"/>
+    <line x1="200" y1="0" x2="216" y2="282"/>
+  </g>
+
+  <!-- RIGHT WALL of alley. -->
+  <path d="M742,0 L742,330 L502,290 L502,80 Z" fill="url(#p5p1brickRight)"/>
+  <path d="M742,0 L742,330 L502,290 L502,80 Z" fill="url(#p5p1soot)"/>
+  <g stroke="#1a0e08" stroke-width="0.5" opacity="0.65">
+    <path d="M742,30 L502,90"/>
+    <path d="M742,60 L502,108"/>
+    <path d="M742,90 L502,124"/>
+    <path d="M742,120 L502,142"/>
+    <path d="M742,160 L502,170"/>
+    <path d="M742,200 L502,200"/>
+    <path d="M742,240 L502,228"/>
+    <path d="M742,290 L502,260"/>
+  </g>
+  <g stroke="#1a0e08" stroke-width="0.4" opacity="0.55">
+    <line x1="702" y1="0" x2="682" y2="290"/>
+    <line x1="662" y1="0" x2="642" y2="288"/>
+    <line x1="622" y1="0" x2="604" y2="286"/>
+    <line x1="582" y1="0" x2="566" y2="284"/>
+    <line x1="542" y1="0" x2="528" y2="282"/>
+  </g>
+
+  <!-- DEEP DARK ALLEY interior (vanishing point, narrow rectangle in distance). -->
+  <rect x="240" y="80" width="262" height="210" fill="#0a0604"/>
+  <rect x="240" y="80" width="262" height="210" fill="url(#p5p1alleyShadow)"/>
+  <!-- The far end of alley with a faint slice of brighter light — a connecting street/yard beyond. -->
+  <rect x="350" y="170" width="42" height="120" fill="#3a3428" opacity="0.55"/>
+  <rect x="358" y="170" width="26" height="120" fill="#5a5048" opacity="0.45"/>
+
+  <!-- Sky strip visible only at very top edge between the walls. -->
+  <rect x="240" y="0" width="262" height="80" fill="url(#p5p1streetSky)" opacity="0.7"/>
+
+  <!-- DAMP COBBLESTONE FLOOR of alley (foreground, with perspective lines converging). -->
+  <path d="M0,330 L742,330 L502,290 L240,290 Z" fill="url(#p5p1cobble)"/>
+  <!-- Cobble mortar grid + perspective. -->
+  <g stroke="#1a1208" stroke-width="0.6" opacity="0.7">
+    <path d="M0,300 L742,300"/>
+    <path d="M0,316 L742,316"/>
+    <!-- Perspective lines converging into alley. -->
+    <path d="M0,330 L240,290"/>
+    <path d="M742,330 L502,290"/>
+  </g>
+  <!-- Individual cobble outlines (alternating). -->
+  <g stroke="#3a3428" stroke-width="0.4" opacity="0.55">
+    <line x1="40" y1="294" x2="50" y2="332"/>
+    <line x1="100" y1="294" x2="110" y2="332"/>
+    <line x1="160" y1="294" x2="170" y2="332"/>
+    <line x1="220" y1="294" x2="230" y2="332"/>
+    <line x1="270" y1="294" x2="278" y2="332"/>
+    <line x1="320" y1="294" x2="328" y2="332"/>
+    <line x1="370" y1="294" x2="378" y2="332"/>
+    <line x1="420" y1="294" x2="428" y2="332"/>
+    <line x1="470" y1="294" x2="478" y2="332"/>
+    <line x1="520" y1="294" x2="528" y2="332"/>
+    <line x1="580" y1="294" x2="592" y2="332"/>
+    <line x1="640" y1="294" x2="654" y2="332"/>
+    <line x1="700" y1="294" x2="716" y2="332"/>
+  </g>
+  <!-- Damp puddles reflecting faint light. -->
+  <ellipse cx="380" cy="312" rx="22" ry="3" fill="#a8a8a4" opacity="0.45"/>
+  <ellipse cx="180" cy="324" rx="14" ry="2" fill="#a8a8a4" opacity="0.4"/>
+  <ellipse cx="560" cy="320" rx="16" ry="2.5" fill="#a8a8a4" opacity="0.4"/>
+
+  <!-- CAST-IRON DRAINPIPE running down right wall (continuity with established visual vocabulary). -->
+  <line x1="616" y1="0" x2="608" y2="284" stroke="url(#p5p1drainpipe)" stroke-width="6"/>
+  <line x1="615" y1="0" x2="607" y2="284" stroke="#0a0402" stroke-width="0.6"/>
+  <!-- Bracket attachments to wall. -->
+  <rect x="606" y="80" width="14" height="3" fill="#3a2010"/>
+  <rect x="606" y="160" width="14" height="3" fill="#3a2010"/>
+  <rect x="608" y="240" width="12" height="3" fill="#3a2010"/>
+  <!-- Socket joint (continuity). -->
+  <ellipse cx="612" cy="120" rx="5" ry="2" fill="#3a2010"/>
+  <ellipse cx="610" cy="200" rx="5" ry="2" fill="#3a2010"/>
+  <!-- Discharge at bottom (small puddle below pipe). -->
+  <ellipse cx="608" cy="290" rx="8" ry="2" fill="#1a0c04"/>
+
+  <!-- REFUSE pushed against left wall. Crates, sacks, broken barrel. -->
+  <g>
+    <!-- Wooden crate. -->
+    <rect x="160" y="266" width="48" height="22" fill="#3a2010"/>
+    <line x1="160" y1="270" x2="208" y2="270" stroke="#1a0c04" stroke-width="0.5"/>
+    <line x1="160" y1="278" x2="208" y2="278" stroke="#1a0c04" stroke-width="0.5"/>
+    <line x1="172" y1="266" x2="172" y2="288" stroke="#1a0c04" stroke-width="0.5"/>
+    <line x1="184" y1="266" x2="184" y2="288" stroke="#1a0c04" stroke-width="0.5"/>
+    <line x1="196" y1="266" x2="196" y2="288" stroke="#1a0c04" stroke-width="0.5"/>
+    <!-- Hessian sack, slumped. -->
+    <path d="M210,270 Q220,266 230,270 Q236,278 234,288 L210,288 Q204,278 210,270 Z" fill="#5a4838"/>
+    <line x1="216" y1="276" x2="228" y2="276" stroke="#3a3024" stroke-width="0.5"/>
+    <!-- Broken barrel staves leaning. -->
+    <path d="M120,260 L128,288 L140,288 L132,260" fill="#3a2010"/>
+    <line x1="124" y1="270" x2="136" y2="270" stroke="#1a0c04" stroke-width="0.6"/>
+    <!-- Iron hoop. -->
+    <path d="M120,272 Q130,274 142,272" fill="none" stroke="#0a0402" stroke-width="1.2"/>
+  </g>
+
+  <!-- A few discarded papers + a bottle on cobbles. -->
+  <g opacity="0.85">
+    <rect x="280" y="318" width="14" height="6" fill="#a89878"/>
+    <line x1="282" y1="320" x2="292" y2="320" stroke="#3a2818" stroke-width="0.4"/>
+    <ellipse cx="450" cy="320" rx="5" ry="2" fill="#3a2010"/>
+    <rect x="448" y="312" width="4" height="10" fill="#3a2010"/>
+  </g>
+
+  <!-- STREET BEHIND THEODORE (visible at alley mouth — image LEFT edge through to behind him).
+       Per script: street continues behind him with pedestrians + carts. -->
+  <!-- The "street" is to image LEFT (Theodore is entering moving toward image right into the alley).
+       So we show a visible bright street strip at far left edge of the alley walls. -->
+  <!-- Actually the camera is INSIDE the alley looking at Theodore who's walking AWAY from the street INTO the alley.
+       So the street is behind him = AT THE BACK / VANISHING POINT. The bright bit is at the far END (back) of the alley. -->
+  <!-- But composition might be simpler: alley running FROM viewer DEEPER into frame. Theodore is in mid-frame moving away.
+       Street visible just at panel left edge (where the alley mouth opens to the street). -->
+  <!-- Let me re-read: "Theodore turns into the alley. The street continues behind him with pedestrians and carts, but the alley is empty, narrow, dim."
+       So Theodore is at the mouth of the alley, just entering. Camera is from INSIDE the alley looking back at him + the street behind.
+       That means the BRIGHT STREET should be BEHIND him (at the far end of the alley, brighter), with pedestrians+cart silhouettes there.
+       Theodore is about to step away from the street into the dim alley, so he's in mid-frame, walking toward viewer (out of street, into alley). -->
+
+  <!-- LET'S USE THIS FRAMING: Theodore is walking toward viewer (and toward image-LEFT slightly), the bright street is visible BEHIND him at the alley's far end (right + center BG), pedestrians + cart visible there. -->
+
+  <!-- Bright street visible at far end of alley (behind Theodore). -->
+  <rect x="350" y="160" width="42" height="130" fill="#a8a89e" opacity="0.85"/>
+  <rect x="350" y="160" width="42" height="130" fill="url(#p5p1alleyMouth)"/>
+
+  <!-- Pedestrian silhouettes on the street BEHIND (small, distant). -->
+  <g opacity="0.78">
+    <ellipse cx="356" cy="285" rx="3" ry="0.8" fill="#000" opacity="0.5"/>
+    <path d="M353,260 Q352,278 356,290 L362,290 Q364,278 360,260 Z" fill="#1a1408"/>
+    <ellipse cx="358" cy="256" rx="2" ry="2.5" fill="#3a3024"/>
+    <rect x="354" y="252" width="6" height="5" fill="#0a0402"/>
+  </g>
+  <g opacity="0.78">
+    <ellipse cx="380" cy="285" rx="3" ry="0.8" fill="#000" opacity="0.5"/>
+    <path d="M378,262 Q376,280 380,290 L386,290 Q388,280 384,262 Z" fill="#1a1408"/>
+    <ellipse cx="382" cy="258" rx="2" ry="2.5" fill="#3a3024"/>
+    <rect x="378" y="254" width="6" height="5" fill="#0a0402"/>
+  </g>
+
+  <!-- A small cart shape visible at the back. -->
+  <g opacity="0.7">
+    <rect x="362" y="266" width="20" height="10" fill="#1a0c04"/>
+    <circle cx="367" cy="278" r="3" fill="none" stroke="#1a0c04" stroke-width="0.7"/>
+    <circle cx="378" cy="278" r="3" fill="none" stroke="#1a0c04" stroke-width="0.7"/>
+  </g>
+
+  <!-- THEODORE — mid-frame, just past the alley threshold, moving AWAY from street (toward viewer-foreground).
+       He's facing partially toward viewer (front) but walking forward into the alley.
+       Position: center foreground, parcel under one arm. -->
+  <g>
+    <!-- Cast shadow on damp cobbles. -->
+    <ellipse cx="370" cy="328" rx="22" ry="3" fill="#000" opacity="0.55"/>
+    <!-- Trousers. -->
+    <path d="M356,250 Q350,288 356,322 L370,322 Q376,288 372,250 Z" fill="#4a3a24"/>
+    <path d="M374,250 Q372,288 378,322 L390,322 Q394,288 388,250 Z" fill="#4a3a24"/>
+    <!-- Knee patch. -->
+    <rect x="358" y="280" width="8" height="6" fill="#3a2010" opacity="0.85"/>
+    <!-- Boots. -->
+    <ellipse cx="364" cy="326" rx="6" ry="2" fill="#1a0c04"/>
+    <ellipse cx="384" cy="326" rx="6" ry="2" fill="#1a0c04"/>
+
+    <!-- Linen shirt. -->
+    <path d="M340,170 Q336,230 344,250 L400,250 Q408,230 404,170 Q396,164 372,164 Q348,164 340,170 Z" fill="url(#p5p1theoShirt)"/>
+    <!-- Brown waistcoat. -->
+    <path d="M344,178 L342,250 L402,250 L402,178 L394,184 L388,190 L372,196 L356,190 L350,184 Z" fill="url(#p5p1theoVest)"/>
+    <line x1="372" y1="196" x2="372" y2="250" stroke="#1a0c04" stroke-width="0.4" opacity="0.7"/>
+    <circle cx="372" cy="208" r="0.9" fill="url(#p5p1brass)"/>
+    <circle cx="372" cy="218" r="0.9" fill="url(#p5p1brass)"/>
+    <circle cx="372" cy="228" r="0.9" fill="url(#p5p1brass)"/>
+    <circle cx="372" cy="238" r="0.9" fill="url(#p5p1brass)"/>
+    <path d="M362,164 L372,184 L382,164 Z" fill="url(#p5p1theoShirt)"/>
+    <circle cx="372" cy="180" r="1.6" fill="url(#p5p1brass)"/>
+    <rect x="344" y="246" width="58" height="4" fill="#3a2010"/>
+
+    <!-- LEFT ARM holding parcel (clutched against side). -->
+    <path d="M340,172 Q330,210 332,250 L342,250 Q344,212 346,178 Z" fill="url(#p5p1theoShirt)"/>
+    <ellipse cx="334" cy="252" rx="5" ry="3" fill="url(#p5p1theoSkin)"/>
+    <!-- PARCEL clutched against side. -->
+    <rect x="320" y="220" width="22" height="32" rx="2" fill="#a89878"/>
+    <line x1="331" y1="220" x2="331" y2="252" stroke="#5a4838" stroke-width="0.5"/>
+    <line x1="320" y1="234" x2="342" y2="234" stroke="#5a4838" stroke-width="0.5"/>
+    <circle cx="331" cy="234" r="1.4" fill="#3a2010"/>
+
+    <!-- RIGHT ARM hangs naturally, walking. -->
+    <path d="M404,172 Q412,210 412,250 L402,250 Q400,212 398,178 Z" fill="url(#p5p1theoShirt)"/>
+    <ellipse cx="408" cy="254" rx="5" ry="3" fill="url(#p5p1theoSkin)"/>
+    <!-- Brass gear ring. -->
+    <circle cx="406" cy="254" r="0.9" fill="url(#p5p1brass)"/>
+
+    <!-- HEAD — looking forward (into alley, toward viewer). -->
+    <path d="M364,154 L364,170 L380,170 L380,154 Z" fill="url(#p5p1theoSkin)"/>
+    <ellipse cx="372" cy="142" rx="14" ry="16" fill="url(#p5p1theoSkin)"/>
+    <!-- Tousled spikes. -->
+    <path d="M360,132 Q358,112 372,106 Q380,104 384,108 Q388,118 386,132 L383,134 Q380,118 374,116 L368,116 Q364,118 362,134 Z" fill="url(#p5p1theoHair)"/>
+    <path d="M362,110 L360,98 L366,110 Z" fill="url(#p5p1theoHair)"/>
+    <path d="M370,106 L370,94 L375,106 Z" fill="url(#p5p1theoHair)"/>
+    <path d="M378,108 L382,96 L382,110 Z" fill="url(#p5p1theoHair)"/>
+    <!-- Bangs. -->
+    <path d="M364,128 L366,138 L368,128 Z" fill="url(#p5p1theoHair)"/>
+    <path d="M372,130 L374,140 L376,130 Z" fill="url(#p5p1theoHair)"/>
+    <path d="M380,128 L382,138 L382,128 Z" fill="url(#p5p1theoHair)"/>
+    <!-- Sides. -->
+    <path d="M360,132 Q358,150 364,162 L368,162 Q364,154 364,132 Z" fill="url(#p5p1theoHair)"/>
+    <path d="M386,132 Q388,150 380,162 L376,162 Q380,154 380,132 Z" fill="url(#p5p1theoHair)"/>
+    <!-- Eyes — looking forward (alert but casual). -->
+    <ellipse cx="368" cy="142" rx="1.3" ry="0.8" fill="#3a2810"/>
+    <ellipse cx="376" cy="142" rx="1.3" ry="0.8" fill="#3a2810"/>
+    <!-- Brows neutral. -->
+    <path d="M365,138 Q368,137 371,138" fill="none" stroke="#5a4020" stroke-width="0.55"/>
+    <path d="M373,138 Q376,137 379,138" fill="none" stroke="#5a4020" stroke-width="0.55"/>
+    <!-- Nose. -->
+    <path d="M372,146 L370,156 Q372,157 374,156 Z" fill="#a8765a" opacity="0.55"/>
+    <!-- Mouth — neutral, slight open (walking). -->
+    <path d="M368,160 Q372,161 376,160" fill="none" stroke="#7a4020" stroke-width="0.5"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q150,45 300,42"/>
+    <path d="M440,40 Q580,45 700,42"/>
+    <path d="M0,310 Q200,315 400,312"/>
+    <path d="M400,310 Q600,315 742,312"/>
+  </g>
+
+  <!-- No dialogue per script. -->
+</svg>

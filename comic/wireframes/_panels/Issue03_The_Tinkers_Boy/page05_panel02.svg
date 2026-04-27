@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 5 — Panel 2: MED low-angle Theodore crouched at scorch mark</title>
+  <desc>MED 50mm low angle. Narrow Victorian alley. Theodore crouches on damp cobblestones, parcel set aside, hand hovering over a scorch mark on the ground. Blackening has geometry — not random char but structured lines radiating from a central point, burned into cobble surfaces. Head tilts in studying gesture (clockwork mapping). Curiosity overriding caution. Grey alley light from above, scorch mark dark on damp stone. Brick walls close on either side. Something that should not be here.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p5p2sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7a76"/>
+      <stop offset="100%" stop-color="#5a5a56"/>
+    </linearGradient>
+    <linearGradient id="p5p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p5p2soot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1a1208" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p5p2cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="100%" stop-color="#2a2418"/>
+    </linearGradient>
+    <radialGradient id="p5p2skyGlow" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#a8a89e" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a5a56" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p5p2theoSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8c0"/>
+      <stop offset="100%" stop-color="#9a7050"/>
+    </linearGradient>
+    <linearGradient id="p5p2theoShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p5p2theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p5p2theoTrousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a3a24"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p5p2theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#5a4020"/>
+    </radialGradient>
+    <radialGradient id="p5p2scorchCenter">
+      <stop offset="0%" stop-color="#0a0402" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#1a0c04" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p5p2brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89878"/>
+      <stop offset="100%" stop-color="#5a4838"/>
+    </linearGradient>
+    <radialGradient id="p5p2oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky strip + grey alley light from above. -->
+  <rect width="366" height="60" fill="url(#p5p2sky)"/>
+  <rect width="366" height="364" fill="url(#p5p2skyGlow)"/>
+
+  <!-- LEFT BRICK WALL. -->
+  <rect x="0" y="0" width="60" height="364" fill="url(#p5p2brick)"/>
+  <g stroke="#1a0e08" stroke-width="0.5" opacity="0.65">
+    <line x1="0" y1="40" x2="60" y2="40"/>
+    <line x1="0" y1="74" x2="60" y2="74"/>
+    <line x1="0" y1="108" x2="60" y2="108"/>
+    <line x1="0" y1="142" x2="60" y2="142"/>
+    <line x1="0" y1="176" x2="60" y2="176"/>
+    <line x1="0" y1="210" x2="60" y2="210"/>
+    <line x1="0" y1="244" x2="60" y2="244"/>
+    <line x1="0" y1="278" x2="60" y2="278"/>
+    <line x1="0" y1="312" x2="60" y2="312"/>
+    <line x1="20" y1="0" x2="20" y2="40"/>
+    <line x1="40" y1="40" x2="40" y2="74"/>
+    <line x1="20" y1="74" x2="20" y2="108"/>
+    <line x1="40" y1="108" x2="40" y2="142"/>
+    <line x1="20" y1="142" x2="20" y2="176"/>
+    <line x1="40" y1="176" x2="40" y2="210"/>
+    <line x1="20" y1="210" x2="20" y2="244"/>
+    <line x1="40" y1="244" x2="40" y2="278"/>
+    <line x1="20" y1="278" x2="20" y2="312"/>
+  </g>
+  <rect x="0" y="0" width="60" height="364" fill="url(#p5p2soot)"/>
+
+  <!-- RIGHT BRICK WALL. -->
+  <rect x="306" y="0" width="60" height="364" fill="url(#p5p2brick)"/>
+  <g stroke="#1a0e08" stroke-width="0.5" opacity="0.65">
+    <line x1="306" y1="40" x2="366" y2="40"/>
+    <line x1="306" y1="74" x2="366" y2="74"/>
+    <line x1="306" y1="108" x2="366" y2="108"/>
+    <line x1="306" y1="142" x2="366" y2="142"/>
+    <line x1="306" y1="176" x2="366" y2="176"/>
+    <line x1="306" y1="210" x2="366" y2="210"/>
+    <line x1="306" y1="244" x2="366" y2="244"/>
+    <line x1="306" y1="278" x2="366" y2="278"/>
+    <line x1="306" y1="312" x2="366" y2="312"/>
+    <line x1="326" y1="0" x2="326" y2="40"/>
+    <line x1="346" y1="40" x2="346" y2="74"/>
+    <line x1="326" y1="74" x2="326" y2="108"/>
+    <line x1="346" y1="108" x2="346" y2="142"/>
+    <line x1="326" y1="142" x2="326" y2="176"/>
+    <line x1="346" y1="176" x2="346" y2="210"/>
+    <line x1="326" y1="210" x2="326" y2="244"/>
+    <line x1="346" y1="244" x2="346" y2="278"/>
+    <line x1="326" y1="278" x2="326" y2="312"/>
+  </g>
+  <rect x="306" y="0" width="60" height="364" fill="url(#p5p2soot)"/>
+
+  <!-- Damp cobblestone floor (covers bulk of frame at bottom + middle). -->
+  <rect x="60" y="220" width="246" height="144" fill="url(#p5p2cobble)"/>
+  <g stroke="#1a1208" stroke-width="0.6" opacity="0.7">
+    <line x1="60" y1="240" x2="306" y2="240"/>
+    <line x1="60" y1="262" x2="306" y2="262"/>
+    <line x1="60" y1="284" x2="306" y2="284"/>
+    <line x1="60" y1="308" x2="306" y2="308"/>
+    <line x1="60" y1="334" x2="306" y2="334"/>
+  </g>
+  <g stroke="#3a3428" stroke-width="0.4" opacity="0.55">
+    <line x1="80" y1="222" x2="84" y2="240"/>
+    <line x1="120" y1="222" x2="124" y2="240"/>
+    <line x1="160" y1="222" x2="164" y2="240"/>
+    <line x1="200" y1="222" x2="204" y2="240"/>
+    <line x1="240" y1="222" x2="244" y2="240"/>
+    <line x1="280" y1="222" x2="284" y2="240"/>
+    <line x1="100" y1="244" x2="104" y2="262"/>
+    <line x1="140" y1="244" x2="144" y2="262"/>
+    <line x1="180" y1="244" x2="184" y2="262"/>
+    <line x1="220" y1="244" x2="224" y2="262"/>
+    <line x1="260" y1="244" x2="264" y2="262"/>
+    <line x1="80" y1="266" x2="84" y2="284"/>
+    <line x1="120" y1="266" x2="124" y2="284"/>
+    <line x1="160" y1="266" x2="164" y2="284"/>
+    <line x1="200" y1="266" x2="204" y2="284"/>
+    <line x1="240" y1="266" x2="244" y2="284"/>
+    <line x1="280" y1="266" x2="284" y2="284"/>
+  </g>
+  <!-- Damp puddle reflections. -->
+  <ellipse cx="220" cy="332" rx="20" ry="3" fill="#a8a8a4" opacity="0.45"/>
+
+  <!-- THE SCORCH MARK — GEOMETRIC blackening on cobbles. Center mid-frame. -->
+  <g>
+    <!-- Dark scorch base on cobbles. -->
+    <ellipse cx="220" cy="278" rx="42" ry="20" fill="url(#p5p2scorchCenter)"/>
+    <ellipse cx="220" cy="278" rx="34" ry="14" fill="#0a0402" opacity="0.75"/>
+    <!-- STRUCTURED radiating lines emanating from center (geometric, not random). -->
+    <g stroke="#0a0402" stroke-width="1.2" stroke-linecap="round" opacity="0.95">
+      <!-- 12 lines radiating outward, evenly distributed. -->
+      <line x1="220" y1="278" x2="220" y2="252"/>
+      <line x1="220" y1="278" x2="234" y2="256"/>
+      <line x1="220" y1="278" x2="248" y2="266"/>
+      <line x1="220" y1="278" x2="256" y2="278"/>
+      <line x1="220" y1="278" x2="248" y2="290"/>
+      <line x1="220" y1="278" x2="234" y2="298"/>
+      <line x1="220" y1="278" x2="220" y2="304"/>
+      <line x1="220" y1="278" x2="206" y2="298"/>
+      <line x1="220" y1="278" x2="192" y2="290"/>
+      <line x1="220" y1="278" x2="184" y2="278"/>
+      <line x1="220" y1="278" x2="192" y2="266"/>
+      <line x1="220" y1="278" x2="206" y2="256"/>
+    </g>
+    <!-- Inner shorter radial lines. -->
+    <g stroke="#0a0402" stroke-width="0.9" stroke-linecap="round" opacity="0.85">
+      <line x1="220" y1="278" x2="226" y2="262"/>
+      <line x1="220" y1="278" x2="232" y2="270"/>
+      <line x1="220" y1="278" x2="232" y2="286"/>
+      <line x1="220" y1="278" x2="226" y2="294"/>
+      <line x1="220" y1="278" x2="214" y2="294"/>
+      <line x1="220" y1="278" x2="208" y2="286"/>
+      <line x1="220" y1="278" x2="208" y2="270"/>
+      <line x1="220" y1="278" x2="214" y2="262"/>
+    </g>
+    <!-- Central point (where the impact was). -->
+    <circle cx="220" cy="278" r="2.5" fill="#0a0402"/>
+    <!-- Faint hexagonal outer trace (geometric, "not random"). -->
+    <path d="M180,278 L200,256 L240,256 L260,278 L240,300 L200,300 Z"
+          fill="none" stroke="#1a0c04" stroke-width="0.6" opacity="0.55"/>
+  </g>
+
+  <!-- Parcel set aside on cobbles to the side. -->
+  <rect x="80" y="288" width="32" height="20" rx="2" fill="#a89878"/>
+  <line x1="96" y1="288" x2="96" y2="308" stroke="#5a4838" stroke-width="0.5"/>
+  <line x1="80" y1="298" x2="112" y2="298" stroke="#5a4838" stroke-width="0.5"/>
+  <circle cx="96" cy="298" r="1.4" fill="#3a2010"/>
+
+  <!-- THEODORE — CROUCHED, low-angle on him. We see him from below + side as he reaches.
+       Position: image-right, reaching toward scorch (image-left). -->
+  <g>
+    <!-- Cast shadow under crouched body. -->
+    <ellipse cx="270" cy="320" rx="38" ry="5" fill="#000" opacity="0.45"/>
+
+    <!-- Trousers (legs bent in crouch). -->
+    <!-- Left leg (folded). -->
+    <path d="M250,250 Q244,272 250,294 L268,294 Q272,272 264,250 Z" fill="url(#p5p2theoTrousers)"/>
+    <!-- Right leg (extended forward, bent at knee, foot near scorch). -->
+    <path d="M268,250 Q272,266 282,278 L290,300 Q298,310 308,316 L320,310 Q310,300 296,284 Q286,272 282,250 Z" fill="url(#p5p2theoTrousers)"/>
+    <!-- Knee patch. -->
+    <rect x="252" y="270" width="8" height="6" fill="#3a2010" opacity="0.85"/>
+    <!-- Boots. -->
+    <ellipse cx="258" cy="316" rx="10" ry="3" fill="#1a0c04"/>
+    <path d="M306,308 Q316,312 322,318 L312,322 Q300,318 294,310 Z" fill="#1a0c04"/>
+
+    <!-- Linen shirt (compressed in crouch). -->
+    <path d="M232,170 Q224,220 230,250 L304,250 Q310,220 304,170 Q294,164 268,164 Q242,164 232,170 Z" fill="url(#p5p2theoShirt)"/>
+    <!-- Brown waistcoat. -->
+    <path d="M236,178 L234,250 L300,250 L300,178 L292,184 L284,190 L268,196 L252,190 L244,184 Z" fill="url(#p5p2theoVest)"/>
+    <line x1="268" y1="196" x2="268" y2="250" stroke="#1a0c04" stroke-width="0.4" opacity="0.7"/>
+    <circle cx="268" cy="208" r="1" fill="url(#p5p2brass)"/>
+    <circle cx="268" cy="218" r="1" fill="url(#p5p2brass)"/>
+    <circle cx="268" cy="228" r="1" fill="url(#p5p2brass)"/>
+    <circle cx="268" cy="240" r="1" fill="url(#p5p2brass)"/>
+    <path d="M260,164 L268,182 L276,164 Z" fill="url(#p5p2theoShirt)"/>
+    <circle cx="268" cy="178" r="1.6" fill="url(#p5p2brass)"/>
+    <rect x="234" y="246" width="66" height="4" fill="#3a2010"/>
+
+    <!-- LEFT ARM — REACHING TOWARD SCORCH MARK. Hand hovering over center. -->
+    <path d="M232,172 Q220,200 218,230 L228,232 Q230,204 234,178 Z" fill="url(#p5p2theoShirt)"/>
+    <rect x="216" y="226" width="18" height="5" fill="#a89878"/>
+    <!-- Forearm bare, oil-stained, extending toward scorch. -->
+    <path d="M218,232 Q210,254 200,272 L210,278 Q220,260 230,236 Z" fill="url(#p5p2theoSkin)"/>
+    <ellipse cx="212" cy="254" rx="7" ry="3" fill="url(#p5p2oilStain)"/>
+    <ellipse cx="206" cy="266" rx="6" ry="2.5" fill="url(#p5p2oilStain)" opacity="0.7"/>
+    <!-- Hand HOVERING over scorch center (~220, 278). -->
+    <ellipse cx="222" cy="270" rx="9" ry="6" fill="url(#p5p2theoSkin)"/>
+    <!-- Fingers extended, hovering. -->
+    <path d="M214,268 Q220,272 226,272" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <path d="M212,272 Q220,276 230,274" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <ellipse cx="222" cy="270" rx="9" ry="6" fill="url(#p5p2oilStain)" opacity="0.45"/>
+    <!-- Brass gear ring on left index. -->
+    <circle cx="218" cy="270" r="1.6" fill="url(#p5p2brass)"/>
+
+    <!-- RIGHT ARM resting on right knee for balance. -->
+    <path d="M304,172 Q312,200 314,232 L304,234 Q302,206 300,178 Z" fill="url(#p5p2theoShirt)"/>
+    <rect x="300" y="232" width="18" height="5" fill="#a89878"/>
+    <path d="M314,234 Q318,254 314,274 L304,272 Q302,256 304,234 Z" fill="url(#p5p2theoSkin)"/>
+    <ellipse cx="310" cy="278" rx="7" ry="5" fill="url(#p5p2theoSkin)"/>
+
+    <!-- HEAD — TILTED in studying gesture (script: "head tilts"). Looking down at scorch (image-left). -->
+    <path d="M260,154 L260,170 L276,170 L276,154 Z" fill="url(#p5p2theoSkin)"/>
+    <ellipse cx="268" cy="138" rx="18" ry="20" fill="url(#p5p2theoSkin)"/>
+    <!-- Tousled spikes. -->
+    <path d="M252,124 Q250,104 268,98 Q280,94 286,98 Q288,114 286,124 L282,128 Q278,114 272,110 L264,110 Q260,114 258,128 Z" fill="url(#p5p2theoHair)"/>
+    <path d="M256,102 L254,86 L260,102 Z" fill="url(#p5p2theoHair)"/>
+    <path d="M266,98 L266,82 L272,98 Z" fill="url(#p5p2theoHair)"/>
+    <path d="M276,98 L280,84 L280,100 Z" fill="url(#p5p2theoHair)"/>
+    <!-- Bangs. -->
+    <path d="M256,124 L258,134 L260,124 Z" fill="url(#p5p2theoHair)"/>
+    <path d="M264,126 L266,138 L270,126 Z" fill="url(#p5p2theoHair)"/>
+    <path d="M276,126 L274,136 L280,126 Z" fill="url(#p5p2theoHair)"/>
+    <!-- Sides. -->
+    <path d="M252,124 Q250,144 256,160 L262,160 Q258,150 258,124 Z" fill="url(#p5p2theoHair)"/>
+    <path d="M286,124 Q288,144 280,160 L274,160 Q278,150 278,124 Z" fill="url(#p5p2theoHair)"/>
+
+    <!-- Eyes — looking DOWN AND LEFT toward scorch. -->
+    <ellipse cx="262" cy="138" rx="1.5" ry="0.9" fill="#3a2810"/>
+    <ellipse cx="274" cy="138" rx="1.5" ry="0.9" fill="#3a2810"/>
+    <!-- Pupils slid LEFT (looking at scorch). -->
+    <ellipse cx="260" cy="138" rx="0.6" ry="0.7" fill="#0a0604"/>
+    <ellipse cx="272" cy="138" rx="0.6" ry="0.7" fill="#0a0604"/>
+    <!-- Brows — slightly furrowed in concentration. -->
+    <path d="M257,134 Q262,132 267,134" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <path d="M269,134 Q274,132 279,134" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <!-- Nose. -->
+    <path d="M268,144 L266,154 Q268,156 270,154 Z" fill="#a8765a" opacity="0.55"/>
+    <!-- Mouth — slightly open (talking). -->
+    <ellipse cx="268" cy="160" rx="3" ry="1" fill="#7a3018" opacity="0.6"/>
+    <path d="M266,160 Q268,162 270,160" fill="none" stroke="#7a3018" stroke-width="0.55"/>
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.85">
+      <circle cx="258" cy="148" r="0.5"/>
+      <circle cx="262" cy="150" r="0.45"/>
+      <circle cx="274" cy="148" r="0.5"/>
+      <circle cx="278" cy="150" r="0.45"/>
+    </g>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M60,40 Q140,45 220,42"/>
+    <path d="M220,40 Q280,45 306,42"/>
+    <path d="M60,200 Q140,205 220,202"/>
+  </g>
+
+  <!-- THEODORE balloon — top, tail down to his mouth. (quiet) annotation. -->
+  <rect x="20" y="14" width="220" height="64" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M180,78 L192,78 L210,108 Z"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="180" y1="78" x2="192" y2="78" stroke="#ffffff" stroke-width="3"/>
+  <text x="30" y="34"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="30" y="50"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic" font-weight="500"
+        fill="#5a4030">(quiet)</text>
+  <text x="30" y="70"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">What's done that, then...</text>
+
+</svg>
