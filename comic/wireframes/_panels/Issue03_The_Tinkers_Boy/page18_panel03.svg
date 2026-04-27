@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 224" width="150" height="224">
+  <title>Issue 3 — Page 18 — Panel 3: CU Jink's face in flight</title>
+  <desc>CU 85mm slight low angle Jink face in flight. Wings visible as emerald light-sources behind/above framing head like halo, geometric scaffolding visible. Light brown skin emerald-cast, golden curls streaming in wing-wash, mouth open laughing grin. PURE UNCOMPLICATED JOY — youngest they've ever looked, unguarded, alive. Soot streak on emerald suit catching light, shimmering. Wing-light from behind and above, face lit by own technology.</desc>
+
+  <defs>
+    <linearGradient id="p18p3coolBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a4018"/>
+      <stop offset="50%" stop-color="#1a8868"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <radialGradient id="p18p3wingHalo" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="20%" stop-color="#a8ffd0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p18p3jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="p18p3skinEmeraldCast" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a8ffd0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p18p3jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#ffeca8"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p18p3emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <linearGradient id="p18p3wingMembrane" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="p18p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p18p3strongBloom"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="p18p3deepBloom"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="150" height="224" fill="url(#p18p3coolBg)"/>
+  <!-- Wing halo behind/above. -->
+  <ellipse cx="75" cy="40" rx="160" ry="140" fill="url(#p18p3wingHalo)" opacity="0.85" filter="url(#p18p3deepBloom)"/>
+
+  <!-- ******** WINGS framing head ******** -->
+  <!-- Upper-left wing visible behind. -->
+  <path d="M40,90 L0,30 L-10,80 Z" fill="url(#p18p3wingMembrane)" opacity="0.85"/>
+  <g stroke="#ffffff" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#p18p3bloom)">
+    <line x1="0" y1="30" x2="40" y2="90"/>
+    <line x1="-10" y1="80" x2="40" y2="90"/>
+  </g>
+  <path d="M40,90 L0,30 L-10,80" fill="none" stroke="#a8ffd0" stroke-width="1" filter="url(#p18p3strongBloom)"/>
+
+  <!-- Upper-right wing visible behind. -->
+  <path d="M110,90 L150,30 L160,80 Z" fill="url(#p18p3wingMembrane)" opacity="0.85"/>
+  <g stroke="#ffffff" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#p18p3bloom)">
+    <line x1="150" y1="30" x2="110" y2="90"/>
+    <line x1="160" y1="80" x2="110" y2="90"/>
+  </g>
+  <path d="M110,90 L150,30 L160,80" fill="none" stroke="#a8ffd0" stroke-width="1" filter="url(#p18p3strongBloom)"/>
+
+  <!-- ******** JINK FACE — joyful laugh ******** -->
+  <g>
+    <!-- Hair streaming up/back (golden, catching emerald). -->
+    <g fill="url(#p18p3jinkHair)">
+      <ellipse cx="36" cy="60" rx="14" ry="22"/>
+      <ellipse cx="50" cy="38" rx="12" ry="18"/>
+      <ellipse cx="75" cy="28" rx="14" ry="20"/>
+      <ellipse cx="100" cy="38" rx="12" ry="18"/>
+      <ellipse cx="114" cy="60" rx="14" ry="22"/>
+      <!-- Streaming curls. -->
+      <ellipse cx="20" cy="80" rx="10" ry="18"/>
+      <ellipse cx="130" cy="80" rx="10" ry="18"/>
+    </g>
+    <!-- Curl shines (white-emerald). -->
+    <g stroke="#ffffff" stroke-width="1.4" fill="none" opacity="0.85" filter="url(#p18p3bloom)">
+      <path d="M30,50 Q40,60 50,50"/>
+      <path d="M55,30 Q70,40 80,30"/>
+      <path d="M95,30 Q110,40 120,30"/>
+      <path d="M114,50 Q124,60 134,50"/>
+    </g>
+
+    <!-- Face. -->
+    <ellipse cx="75" cy="120" rx="38" ry="46" fill="url(#p18p3jinkSkin)"/>
+    <!-- Strong emerald cast. -->
+    <ellipse cx="75" cy="120" rx="38" ry="46" fill="url(#p18p3skinEmeraldCast)" opacity="0.85"/>
+
+    <!-- Cheekbones. -->
+    <ellipse cx="46" cy="140" rx="10" ry="6" fill="#a8ffd0" opacity="0.65" filter="url(#p18p3bloom)"/>
+    <ellipse cx="104" cy="140" rx="10" ry="6" fill="#a8ffd0" opacity="0.65" filter="url(#p18p3bloom)"/>
+
+    <!-- Eyes — BRIGHT, crinkled at edges with laugh. -->
+    <ellipse cx="58" cy="116" rx="9" ry="5" fill="#fff8e8"/>
+    <ellipse cx="58" cy="116" rx="9" ry="5" fill="none" stroke="#3a2810" stroke-width="0.55"/>
+    <ellipse cx="58" cy="116" rx="4" ry="4" fill="#2a4830"/>
+    <ellipse cx="58" cy="116" rx="2" ry="2" fill="#0a0604"/>
+    <ellipse cx="59" cy="115" rx="0.85" ry="0.55" fill="#ffffff" filter="url(#p18p3bloom)"/>
+    <!-- Crinkles. -->
+    <line x1="42" y1="112" x2="38" y2="108" stroke="#3a1c08" stroke-width="0.55"/>
+    <line x1="42" y1="120" x2="38" y2="124" stroke="#3a1c08" stroke-width="0.55"/>
+
+    <ellipse cx="92" cy="116" rx="9" ry="5" fill="#fff8e8"/>
+    <ellipse cx="92" cy="116" rx="9" ry="5" fill="none" stroke="#3a2810" stroke-width="0.55"/>
+    <ellipse cx="92" cy="116" rx="4" ry="4" fill="#2a4830"/>
+    <ellipse cx="92" cy="116" rx="2" ry="2" fill="#0a0604"/>
+    <ellipse cx="93" cy="115" rx="0.85" ry="0.55" fill="#ffffff" filter="url(#p18p3bloom)"/>
+    <line x1="108" y1="112" x2="112" y2="108" stroke="#3a1c08" stroke-width="0.55"/>
+    <line x1="108" y1="120" x2="112" y2="124" stroke="#3a1c08" stroke-width="0.55"/>
+
+    <!-- Brows raised in joy. -->
+    <path d="M48,104 Q58,98 68,104" fill="none" stroke="#3a2810" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M82,104 Q92,98 102,104" fill="none" stroke="#3a2810" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- Nose. -->
+    <path d="M75,124 L70,148 Q75,154 80,148 Z" fill="#7a4828" opacity="0.55"/>
+    <ellipse cx="71" cy="148" rx="1.7" ry="1" fill="#3a2010"/>
+    <ellipse cx="79" cy="148" rx="1.7" ry="1" fill="#3a2010"/>
+
+    <!-- MOUTH OPEN laughing wide. -->
+    <ellipse cx="75" cy="170" rx="14" ry="9" fill="#3a1408"/>
+    <path d="M64,166 L86,166 L86,174 L64,174 Z" fill="#fff8e8" opacity="0.85"/>
+    <line x1="68" y1="166" x2="68" y2="174" stroke="#a85820" stroke-width="0.4"/>
+    <line x1="75" y1="166" x2="75" y2="174" stroke="#a85820" stroke-width="0.4"/>
+    <line x1="82" y1="166" x2="82" y2="174" stroke="#a85820" stroke-width="0.4"/>
+  </g>
+
+  <!-- ******** SUIT chest at frame bottom — soot streak shimmering ******** -->
+  <g>
+    <path d="M0,180 Q75,168 150,180 L150,224 L0,224 Z" fill="url(#p18p3emeraldSuit)"/>
+    <!-- Soot streak. -->
+    <path d="M14,196 Q75,188 136,196 Q136,212 136,222 L14,222 Q14,212 14,196 Z" fill="#1a0c04" opacity="0.85"/>
+    <!-- Shimmer on soot. -->
+    <g fill="#a8ffd0" opacity="0.85" filter="url(#p18p3bloom)">
+      <circle cx="34" cy="208" r="0.85"/>
+      <circle cx="60" cy="200" r="0.85"/>
+      <circle cx="90" cy="204" r="0.85"/>
+      <circle cx="116" cy="208" r="0.85"/>
+    </g>
+    <!-- Holo collar seam. -->
+    <path d="M0,180 Q75,170 150,180" fill="none" stroke="#ffffff" stroke-width="2" filter="url(#p18p3strongBloom)"/>
+  </g>
+
+  <!-- Brushwork. -->
+  <g stroke="#020a08" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,30 Q75,32 150,30"/>
+    <path d="M0,196 Q75,198 150,196"/>
+  </g>
+</svg>
