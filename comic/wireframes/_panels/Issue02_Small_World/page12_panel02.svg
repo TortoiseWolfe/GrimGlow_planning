@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 320" width="366" height="320">
+  <title>Issue 2 — Page 12 — Panel 2: Wren peels back newspaper, holographic diagnostic blooms</title>
+  <desc>MS 50mm eye level. Wren crouches at base of crashed hull pulled back wall-sized newspaper section to reveal hull plating beneath. Daily Telegraph date partially visible newspaper hangs back like curtain printed text enormous at fairy scale. Hands press against hull surface. Copper-gold holographic diagnostic shapes bloom from forearms — geometric precise floating in structured light — casting warm copper-gold illumination across dark metal. Intense focus jaw tight. WREN need everyone clear drive housing core containment radiation zone.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p12p2hull" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a44"/>
+      <stop offset="50%" stop-color="#1a1a20"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p12p2newspaper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8b890"/>
+      <stop offset="100%" stop-color="#8a7855"/>
+    </linearGradient>
+    <linearGradient id="p12p2copperDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86528"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <radialGradient id="p12p2copperHolo">
+      <stop offset="0%" stop-color="#f0d878" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f0a868" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#5a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p12p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p12p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p12p2deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- BG dark hull plating dominates. -->
+  <rect width="366" height="320" fill="url(#p12p2hull)"/>
+  <!-- Etched channels (dead background). -->
+  <g stroke="#080404" stroke-width="0.5" fill="none" opacity="0.85">
+    <path d="M0,40 L60,40 L80,60 L120,60"/>
+    <path d="M150,30 L200,30 L220,50"/>
+    <path d="M0,100 L80,100 L100,120 L160,120"/>
+    <path d="M180,80 L220,80 L245,100 L285,100"/>
+    <path d="M50,180 L120,180 L140,200 L200,200"/>
+    <path d="M250,160 L320,160"/>
+    <!-- Hex dead nodes. -->
+    <path d="M75,37 L80,34 L85,37 L85,43 L80,46 L75,43 Z"/>
+    <path d="M115,57 L120,54 L125,57 L125,63 L120,66 L115,63 Z"/>
+    <path d="M155,117 L160,114 L165,117 L165,123 L160,126 L155,123 Z"/>
+  </g>
+
+  <!-- NEWSPAPER PEELED BACK — hangs as curtain on right side. -->
+  <g id="p12p2-newspaper">
+    <path d="M260,0 L366,0 L366,320 L266,320 L260,260 L260,180 L264,100 Z" fill="url(#p12p2newspaper)" stroke="#5a4a30" stroke-width="0.85"/>
+    <!-- Folded edge curl. -->
+    <path d="M260,0 L260,180 L264,100 Z" fill="#a89868" stroke="#5a4a30" stroke-width="0.5"/>
+    <!-- Newspaper print at fairy scale (giant). -->
+    <g fill="#3a2818" opacity="0.85" font-family="serif">
+      <rect x="270" y="20" width="90" height="3"/>
+      <rect x="270" y="28" width="80" height="3"/>
+      <rect x="270" y="40" width="60" height="2"/>
+      <text x="270" y="64" font-size="18" font-weight="900">DAILY</text>
+      <text x="270" y="84" font-size="18" font-weight="900">TELEGRAPH</text>
+      <rect x="270" y="100" width="80" height="2"/>
+      <rect x="270" y="106" width="80" height="2"/>
+      <rect x="270" y="112" width="80" height="2"/>
+      <rect x="270" y="118" width="60" height="2"/>
+      <rect x="270" y="130" width="80" height="2"/>
+      <rect x="270" y="136" width="80" height="2"/>
+      <rect x="270" y="142" width="80" height="2"/>
+      <rect x="270" y="148" width="40" height="2"/>
+      <rect x="270" y="160" width="80" height="2"/>
+      <rect x="270" y="166" width="80" height="2"/>
+      <rect x="270" y="172" width="80" height="2"/>
+      <rect x="270" y="178" width="80" height="2"/>
+      <text x="270" y="200" font-size="9" font-weight="700">PARLIAMENT</text>
+      <rect x="270" y="210" width="80" height="2"/>
+      <rect x="270" y="216" width="80" height="2"/>
+      <rect x="270" y="222" width="60" height="2"/>
+      <rect x="270" y="234" width="80" height="2"/>
+      <rect x="270" y="240" width="80" height="2"/>
+      <rect x="270" y="246" width="80" height="2"/>
+      <text x="270" y="270" font-size="7" font-weight="600">·  June 14, 1885  ·</text>
+    </g>
+  </g>
+
+  <!-- WREN crouching at base of hull, hands on it. -->
+  <g id="p12p2-wren" transform="translate(140, 230)">
+    <!-- Crouched body. -->
+    <path d="M-30,80 L-35,30 L-30,-5 L-15,-20 L15,-20 L30,-5 L35,30 L30,80 Z" fill="url(#p12p2copperDirty)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Pauldrons. -->
+    <path d="M-30,-3 L-44,8 L-44,28 L-30,30 Z" fill="url(#p12p2copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M30,-3 L44,8 L44,28 L30,30 Z" fill="url(#p12p2copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <!-- Bright primed copper collar. -->
+    <ellipse cx="0" cy="-20" rx="20" ry="4" fill="#f0a868" opacity="0.95" filter="url(#p12p2bloom)"/>
+    <ellipse cx="0" cy="-20" rx="28" ry="6" fill="#f0a868" opacity="0.55" filter="url(#p12p2strongBloom)"/>
+    <!-- Mud streaks. -->
+    <g fill="#3a2010" opacity="0.85">
+      <ellipse cx="-15" cy="40" rx="6" ry="3"/>
+      <ellipse cx="20" cy="55" rx="5" ry="2.5"/>
+    </g>
+
+    <!-- ARMS — both reaching FORWARD pressing hull (left, into the dark). -->
+    <!-- Forearms with brilliant holo diagnostic shapes blooming. -->
+    <path d="M-44,18 L-90,-5 L-92,5 L-44,28 Z" fill="url(#p12p2copperDirty)" stroke="#080404" stroke-width="0.6"/>
+    <path d="M-44,28 L-95,15 L-95,25 L-44,38 Z" fill="url(#p12p2copperDirty)" stroke="#080404" stroke-width="0.6"/>
+    <!-- OIL STAINS forearms. -->
+    <g fill="#1a0808" opacity="0.85">
+      <ellipse cx="-65" cy="0" rx="3" ry="1.5"/>
+      <ellipse cx="-75" cy="3" rx="2.5" ry="1.5"/>
+      <ellipse cx="-65" cy="20" rx="3" ry="1.5"/>
+      <ellipse cx="-75" cy="22" rx="2.5" ry="1.5"/>
+    </g>
+    <!-- HANDS pressing hull (palms out flat). -->
+    <ellipse cx="-95" cy="-2" rx="6" ry="4" fill="url(#p12p2copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="-100" cy="20" rx="6" ry="4" fill="url(#p12p2copperDirty)" stroke="#080404" stroke-width="0.5"/>
+
+    <!-- HOLOGRAPHIC DIAGNOSTIC — copper-gold geometric bloom from forearms. -->
+    <g id="p12p2-holo" filter="url(#p12p2bloom)">
+      <!-- Halo glow. -->
+      <ellipse cx="-65" cy="10" rx="60" ry="40" fill="url(#p12p2copperHolo)" filter="url(#p12p2deepBloom)" opacity="0.95"/>
+      <!-- Geometric data shapes — hex cluster. -->
+      <g stroke="#f0d878" stroke-width="0.85" fill="none" opacity="0.95">
+        <!-- Hex grid. -->
+        <path d="M-100,-20 L-90,-25 L-80,-20 L-80,-10 L-90,-5 L-100,-10 Z"/>
+        <path d="M-80,-20 L-70,-25 L-60,-20 L-60,-10 L-70,-5 L-80,-10 Z"/>
+        <path d="M-60,-20 L-50,-25 L-40,-20 L-40,-10 L-50,-5 L-60,-10 Z"/>
+        <path d="M-90,-5 L-80,-10 L-70,-5 L-70,5 L-80,10 L-90,5 Z"/>
+        <path d="M-70,-5 L-60,-10 L-50,-5 L-50,5 L-60,10 L-70,5 Z"/>
+        <!-- Data lines. -->
+        <line x1="-100" y1="-15" x2="-50" y2="-15"/>
+        <line x1="-100" y1="0" x2="-40" y2="0"/>
+        <line x1="-100" y1="15" x2="-50" y2="15"/>
+        <!-- Cross-data. -->
+        <circle cx="-90" cy="-15" r="2"/>
+        <circle cx="-70" cy="-15" r="2"/>
+        <circle cx="-50" cy="-15" r="2"/>
+        <circle cx="-90" cy="0" r="2"/>
+        <circle cx="-70" cy="0" r="2"/>
+      </g>
+      <!-- Bright hot points. -->
+      <g fill="#f0d878" opacity="0.95" filter="url(#p12p2bloom)">
+        <circle cx="-90" cy="-15" r="1.4"/>
+        <circle cx="-70" cy="-15" r="1.4"/>
+        <circle cx="-50" cy="-15" r="1.4"/>
+        <circle cx="-80" cy="-3" r="1.4"/>
+        <circle cx="-60" cy="-3" r="1.4"/>
+        <circle cx="-90" cy="10" r="1.4"/>
+        <circle cx="-70" cy="10" r="1.4"/>
+      </g>
+    </g>
+
+    <!-- Head — focused, jaw tight. -->
+    <ellipse cx="0" cy="-32" rx="12" ry="13" fill="#e0c098"/>
+    <!-- HAIR UP IN BUN. -->
+    <ellipse cx="-2" cy="-44" rx="9" ry="6" fill="#1a0808"/>
+    <line x1="-4" y1="-46" x2="2" y2="-43" stroke="#3a1808" stroke-width="0.4"/>
+    <ellipse cx="-2" cy="-44" rx="7" ry="4" fill="none" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Brow set focused. -->
+    <path d="M-8,-37 Q-3,-40 0,-38" stroke="#3a1808" stroke-width="1.5" fill="none"/>
+    <path d="M0,-38 Q3,-40 8,-37" stroke="#3a1808" stroke-width="1.5" fill="none"/>
+    <!-- Eyes (looking left at hands/hull). -->
+    <ellipse cx="-3" cy="-34" rx="1.5" ry="1.1" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-34" rx="1.5" ry="1.1" fill="#dce4f0"/>
+    <ellipse cx="-4" cy="-34" rx="0.8" ry="0.8" fill="#1a0808"/>
+    <ellipse cx="2" cy="-34" rx="0.8" ry="0.8" fill="#1a0808"/>
+    <!-- Lips pressed. -->
+    <line x1="-3" y1="-25" x2="3" y2="-25" stroke="#3a1810" stroke-width="0.85"/>
+  </g>
+
+  <!-- Newspaper text on hanging-back side cast in copper warmth (lit by holo). -->
+  <ellipse cx="80" cy="180" rx="120" ry="80" fill="#f0a868" opacity="0.15" filter="url(#p12p2deepBloom)"/>
+
+  <!-- DIALOGUE — WREN. -->
+  <g id="p12p2-bal-wren">
+    <rect x="14" y="14" width="240" height="80" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Sable. Everyone clear of</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">the drive housing. If core</text>
+    <text x="24" y="88" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">containment failed — radiation.</text>
+    <path d="M118,92 L132,92 L126,106 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="118" y1="92" x2="132" y2="92" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p12p2-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">2</text>
+    <text x="362" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">DIAGNOSTIC</text>
+  </g>
+</svg>

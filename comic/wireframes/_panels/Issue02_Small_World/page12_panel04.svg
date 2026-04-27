@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 420" width="487" height="420">
+  <title>Issue 2 — Page 12 — Panel 4: Hands inside access panel, holographic schematic vs broken reality</title>
+  <desc>CU 85mm eye level. Wren's hands inside access panel on hull found drive housing. Copper-gold holographic interface projects 3D schematic temporal drive assembly rotating slowly between hands and exposed machinery. Schematic shows drive intact configuration geometric beautiful precise. Actual machinery behind hologram visibly shattered — dark metal twisted connections severed crystalline cracked. Contrast perfect blueprint vs broken reality. WREN core containment intact no radiation approach / WREN quieter core held only good news.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p12p4hull" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a44"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p12p4copperDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86528"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <radialGradient id="p12p4schematic">
+      <stop offset="0%" stop-color="#f0d878" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f0a868" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#5a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p12p4holoBloom">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a86528" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p12p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p12p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p12p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark hull surface fills frame. -->
+  <rect width="487" height="420" fill="url(#p12p4hull)"/>
+
+  <!-- ACCESS PANEL OPENING — center frame, dark recess showing exposed machinery. -->
+  <rect x="120" y="120" width="240" height="220" fill="#080404" stroke="#1a1a20" stroke-width="0.85"/>
+  <!-- Access panel edges (open hatch sides). -->
+  <path d="M120,120 L100,100 L100,360 L120,340 Z" fill="url(#p12p4hull)" stroke="#080404" stroke-width="0.7"/>
+  <path d="M360,120 L380,100 L380,360 L360,340 Z" fill="url(#p12p4hull)" stroke="#080404" stroke-width="0.7"/>
+  <line x1="100" y1="100" x2="380" y2="100" stroke="#080404" stroke-width="0.7"/>
+  <line x1="100" y1="360" x2="380" y2="360" stroke="#080404" stroke-width="0.7"/>
+
+  <!-- EXPOSED SHATTERED MACHINERY inside panel. -->
+  <g id="p12p4-machinery">
+    <!-- Drive housing core — shattered. -->
+    <ellipse cx="240" cy="240" rx="80" ry="90" fill="#1a1a20" stroke="#080404" stroke-width="0.85"/>
+    <!-- Crystalline core (cracked). -->
+    <polygon points="220,200 240,180 260,200 270,220 250,240 230,240 220,220" fill="#3a2820" stroke="#080404" stroke-width="0.7"/>
+    <!-- CRACKS through crystal. -->
+    <g stroke="#080404" stroke-width="0.85" fill="none">
+      <path d="M225,195 L245,225"/>
+      <path d="M255,195 L235,235"/>
+      <path d="M240,180 L240,235"/>
+    </g>
+    <!-- Twisted connections (severed cables). -->
+    <g stroke="#3a1810" stroke-width="2" fill="none">
+      <path d="M180,190 Q190,210 178,230 Q170,250 180,270"/>
+      <path d="M300,190 Q310,210 295,230 Q290,250 300,270"/>
+      <path d="M200,290 L195,310 L210,320"/>
+      <path d="M280,290 L285,310 L270,320"/>
+    </g>
+    <!-- Severed ends (sparks/melt). -->
+    <g fill="#3a1810" opacity="0.85">
+      <ellipse cx="180" cy="270" rx="3" ry="2"/>
+      <ellipse cx="300" cy="270" rx="3" ry="2"/>
+      <ellipse cx="210" cy="320" rx="3" ry="2"/>
+      <ellipse cx="270" cy="320" rx="3" ry="2"/>
+    </g>
+    <!-- Dead control surfaces. -->
+    <g fill="#1a1a20" stroke="#080404" stroke-width="0.5">
+      <rect x="140" y="280" width="40" height="8" rx="1"/>
+      <rect x="140" y="295" width="40" height="8" rx="1"/>
+      <rect x="300" y="280" width="40" height="8" rx="1"/>
+      <rect x="300" y="295" width="40" height="8" rx="1"/>
+    </g>
+  </g>
+
+  <!-- HOLOGRAPHIC SCHEMATIC — copper-gold projected between hands. -->
+  <g id="p12p4-schematic">
+    <!-- Halo glow. -->
+    <ellipse cx="240" cy="220" rx="160" ry="120" fill="url(#p12p4schematic)" filter="url(#p12p4deepBloom)" opacity="0.85"/>
+
+    <!-- Schematic drive assembly (intact, ideal). -->
+    <g stroke="#f0d878" stroke-width="0.95" fill="none" opacity="0.95" filter="url(#p12p4bloom)">
+      <!-- Outer ring. -->
+      <ellipse cx="240" cy="220" rx="100" ry="110"/>
+      <ellipse cx="240" cy="220" rx="80" ry="90"/>
+      <!-- Inner core (clean crystal). -->
+      <polygon points="220,180 240,160 260,180 270,200 270,240 260,260 240,280 220,260 210,240 210,200"/>
+      <!-- Vertical axis. -->
+      <line x1="240" y1="100" x2="240" y2="340"/>
+      <!-- Horizontal axis. -->
+      <line x1="120" y1="220" x2="360" y2="220"/>
+      <!-- Cross-axes (rotated). -->
+      <line x1="160" y1="140" x2="320" y2="300"/>
+      <line x1="320" y1="140" x2="160" y2="300"/>
+      <!-- Coil rings. -->
+      <ellipse cx="240" cy="220" rx="60" ry="70"/>
+      <ellipse cx="240" cy="220" rx="40" ry="50"/>
+      <ellipse cx="240" cy="220" rx="20" ry="30"/>
+      <!-- Connection hexes. -->
+      <path d="M175,215 L180,210 L185,215 L185,225 L180,230 L175,225 Z"/>
+      <path d="M295,215 L300,210 L305,215 L305,225 L300,230 L295,225 Z"/>
+      <path d="M235,135 L240,130 L245,135 L245,145 L240,150 L235,145 Z"/>
+      <path d="M235,295 L240,290 L245,295 L245,305 L240,310 L235,305 Z"/>
+    </g>
+
+    <!-- Bright hot points. -->
+    <g fill="#ffe8a0" opacity="0.95" filter="url(#p12p4bloom)">
+      <circle cx="240" cy="220" r="3"/>
+      <circle cx="180" cy="220" r="2"/>
+      <circle cx="300" cy="220" r="2"/>
+      <circle cx="240" cy="160" r="2"/>
+      <circle cx="240" cy="280" r="2"/>
+    </g>
+
+    <!-- Floating data labels. -->
+    <g font-family="Courier, monospace" font-size="6" fill="#f0d878" opacity="0.95">
+      <text x="100" y="140">TEMPORAL</text>
+      <text x="100" y="150">DRIVE</text>
+      <text x="350" y="140">CORE</text>
+      <text x="350" y="150">FRAME</text>
+      <text x="100" y="320">FAILURE:</text>
+      <text x="100" y="330">73%</text>
+    </g>
+  </g>
+
+  <!-- WREN'S HANDS reaching in (bottom-left + bottom-right). -->
+  <g id="p12p4-hands">
+    <!-- Left forearm coming from bottom-left. -->
+    <path d="M0,420 L60,360 L80,360 L80,420 Z" fill="url(#p12p4copperDirty)" stroke="#080404" stroke-width="0.85"/>
+    <!-- Oil stains. -->
+    <ellipse cx="40" cy="395" rx="6" ry="3" fill="#1a0808" opacity="0.85"/>
+    <!-- Hand. -->
+    <path d="M60,360 L80,340 L100,335 L120,340 L130,350 L120,360 L100,365 L80,365 Z" fill="url(#p12p4copperDirty)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Fingers. -->
+    <path d="M90,330 L92,310 L98,308 L98,335 Z" fill="url(#p12p4copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M104,328 L106,308 L112,306 L112,333 Z" fill="url(#p12p4copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M118,330 L120,312 L126,310 L126,335 Z" fill="url(#p12p4copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <!-- Holo data trails from fingertips. -->
+    <g stroke="#f0d878" stroke-width="0.5" fill="none" opacity="0.85" filter="url(#p12p4bloom)">
+      <path d="M95,308 Q120,290 150,275"/>
+      <path d="M109,306 Q130,285 160,265"/>
+      <path d="M123,310 Q140,290 170,275"/>
+    </g>
+
+    <!-- Right forearm. -->
+    <path d="M487,420 L427,360 L407,360 L407,420 Z" fill="url(#p12p4copperDirty)" stroke="#080404" stroke-width="0.85"/>
+    <ellipse cx="447" cy="395" rx="6" ry="3" fill="#1a0808" opacity="0.85"/>
+    <path d="M427,360 L407,340 L387,335 L367,340 L357,350 L367,360 L387,365 L407,365 Z" fill="url(#p12p4copperDirty)" stroke="#080404" stroke-width="0.7"/>
+    <path d="M397,330 L395,310 L389,308 L389,335 Z" fill="url(#p12p4copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M383,328 L381,308 L375,306 L375,333 Z" fill="url(#p12p4copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M369,330 L367,312 L361,310 L361,335 Z" fill="url(#p12p4copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <g stroke="#f0d878" stroke-width="0.5" fill="none" opacity="0.85" filter="url(#p12p4bloom)">
+      <path d="M392,308 Q367,290 337,275"/>
+      <path d="M378,306 Q357,285 327,265"/>
+      <path d="M364,310 Q347,290 317,275"/>
+    </g>
+  </g>
+
+  <!-- Copper warmth glow on hands (lit by schematic). -->
+  <ellipse cx="100" cy="345" rx="40" ry="18" fill="url(#p12p4holoBloom)" filter="url(#p12p4strongBloom)" opacity="0.65"/>
+  <ellipse cx="387" cy="345" rx="40" ry="18" fill="url(#p12p4holoBloom)" filter="url(#p12p4strongBloom)" opacity="0.65"/>
+
+  <!-- DIALOGUE -->
+  <g id="p12p4-bal-wren1">
+    <rect x="14" y="14" width="240" height="58" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="68" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(calling back)</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Core containment intact. No</text>
+    <text x="24" y="67" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">radiation. You can approach.</text>
+  </g>
+
+  <g id="p12p4-bal-wren2">
+    <rect x="264" y="14" width="208" height="58" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="274" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="318" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(quieter)</text>
+    <text x="274" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">The core held. That's the</text>
+    <text x="274" y="67" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">only good news.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p12p4-meta">
+    <text x="479" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">4</text>
+    <text x="483" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">DIAGNOSIS</text>
+  </g>
+</svg>

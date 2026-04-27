@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 320" width="366" height="320">
+  <title>Issue 2 — Page 12 — Panel 3: Squad waits behind flagstone trench during safety check</title>
+  <desc>MCU 65mm slight low angle. Squad moved back per Sable's order — stand at safe distance behind crack in flagstones forming shallow trench at fairy scale. Thresh kneels in trench weapon covering Wren+perimeter. Luma holographic lenses active scanning wreckage from distance. Jink perched on flagstone edge one wing half-deployed for balance leaning forward fascinated. Sable apart arms folded watching but thinking. JINK if core blew wouldn't we already be dead / LUMA depends failure mode temporal radiation doesn't always announce itself / JINK great.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p12p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a8088"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p12p3flag" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a8088"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p12p3silverDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#88909a"/>
+      <stop offset="100%" stop-color="#2a3038"/>
+    </linearGradient>
+    <linearGradient id="p12p3rubyDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a81820"/>
+      <stop offset="100%" stop-color="#3a0810"/>
+    </linearGradient>
+    <linearGradient id="p12p3sapphireDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#28157a"/>
+    </linearGradient>
+    <linearGradient id="p12p3emeraldDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3aa078"/>
+      <stop offset="100%" stop-color="#0a3818"/>
+    </linearGradient>
+    <radialGradient id="p12p3lensGlow">
+      <stop offset="0%" stop-color="#a878f8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p12p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p12p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG sky. -->
+  <rect width="366" height="120" fill="url(#p12p3sky)"/>
+
+  <!-- Distant Wreckage hint upper-right (out of focus since safety distance). -->
+  <path d="M260,100 L280,80 L320,70 L360,85 L366,180 L260,180 Z" fill="#1a1a20" opacity="0.85"/>
+  <g stroke="#080404" stroke-width="0.4" opacity="0.85">
+    <line x1="280" y1="90" x2="350" y2="92"/>
+    <line x1="280" y1="120" x2="360" y2="120"/>
+  </g>
+
+  <!-- Light drizzle. -->
+  <g stroke="#a8b8c8" stroke-width="0.4" opacity="0.45">
+    <line x1="40" y1="20" x2="38" y2="50"/>
+    <line x1="120" y1="10" x2="118" y2="40"/>
+    <line x1="200" y1="25" x2="198" y2="55"/>
+  </g>
+
+  <!-- COURTYARD FLAGSTONES. -->
+  <rect x="0" y="120" width="366" height="200" fill="url(#p12p3flag)" stroke="#1a1a20" stroke-width="0.85"/>
+  <line x1="80" y1="120" x2="80" y2="320" stroke="#1a1a20" stroke-width="1.2"/>
+  <line x1="180" y1="120" x2="180" y2="320" stroke="#1a1a20" stroke-width="1.2"/>
+  <line x1="280" y1="120" x2="280" y2="320" stroke="#1a1a20" stroke-width="1.2"/>
+
+  <!-- FLAGSTONE CRACK forming trench (across mid frame). -->
+  <g id="p12p3-trench">
+    <path d="M0,240 L80,238 L180,242 L280,239 L366,240 L366,260 L280,259 L180,262 L80,258 L0,260 Z" fill="#080404" stroke="#1a1a20" stroke-width="0.7"/>
+    <line x1="0" y1="240" x2="366" y2="240" stroke="#080404" stroke-width="0.85"/>
+    <line x1="0" y1="260" x2="366" y2="260" stroke="#080404" stroke-width="0.85"/>
+  </g>
+
+  <!-- 4 SQUAD MEMBERS at safe distance. -->
+  <!-- THRESH kneeling IN trench, weapon covering Wren+perimeter. -->
+  <g id="p12p3-thresh" transform="translate(80, 248)">
+    <!-- Body kneeling. -->
+    <path d="M-13,12 L-15,-10 L-13,-30 L-7,-40 L7,-40 L13,-30 L15,-10 L13,12 Z" fill="url(#p12p3rubyDirty)" stroke="#080404" stroke-width="0.6"/>
+    <!-- Knee on ground. -->
+    <ellipse cx="0" cy="14" rx="20" ry="4" fill="url(#p12p3rubyDirty)" stroke="#080404" stroke-width="0.5"/>
+    <!-- DENTED LEFT pauldron. -->
+    <path d="M-13,-28 L-22,-18 L-22,-3 L-13,3" fill="url(#p12p3rubyDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M-19,-13 Q-15,-7 -14,-11 Z" fill="#3a0810"/>
+    <ellipse cx="0" cy="-40" rx="9" ry="2.5" fill="#f54848" opacity="0.65" filter="url(#p12p3bloom)"/>
+    <!-- Weapon raised. -->
+    <rect x="-14" y="-15" width="36" height="6" rx="0.5" fill="#1a0810" stroke="#080404" stroke-width="0.4"/>
+    <ellipse cx="-8" cy="-12" rx="3" ry="2" fill="#d8a880" stroke="#080408" stroke-width="0.3"/>
+    <ellipse cx="16" cy="-12" rx="3" ry="2" fill="#d8a880" stroke="#080408" stroke-width="0.3"/>
+    <circle cx="0" cy="-12" r="1.4" fill="#c84038" opacity="0.65" filter="url(#p12p3bloom)"/>
+    <!-- Head looking forward (toward wreckage). -->
+    <ellipse cx="0" cy="-52" rx="11" ry="12" fill="#d8a880"/>
+    <path d="M-9,-60 Q0,-65 9,-60 L9,-52 L-9,-52 Z" fill="#a83a18"/>
+    <ellipse cx="-3" cy="-54" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-54" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-54" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="3" cy="-54" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-3" y1="-46" x2="3" y2="-46" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- LUMA — sitting at trench edge, lenses scrolling. -->
+  <g id="p12p3-luma" transform="translate(160, 230)">
+    <path d="M-11,15 L-14,-5 L-11,-25 L-6,-35 L6,-35 L11,-25 L14,-5 L11,15 Z" fill="url(#p12p3sapphireDirty)" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="0" cy="-35" rx="8" ry="2.5" fill="#a878f8" opacity="0.65" filter="url(#p12p3bloom)"/>
+    <!-- Head turned right (looking at wreckage). -->
+    <ellipse cx="2" cy="-47" rx="10" ry="11" fill="#a87850"/>
+    <path d="M-7,-42 Q-13,-32 -12,-20 Q-11,-8 -13,2" stroke="#1a0808" stroke-width="3.5" fill="none"/>
+    <line x1="-9" y1="-38" x2="-12" y2="0" stroke="#a878f8" stroke-width="0.5" opacity="0.85" filter="url(#p12p3bloom)"/>
+    <!-- ACTIVE LENS w/ scrolling data. -->
+    <ellipse cx="6" cy="-47" rx="5" ry="3.5" fill="#a878f8" opacity="0.65" stroke="#a878f8" stroke-width="0.5"/>
+    <ellipse cx="6" cy="-47" rx="14" ry="6" fill="url(#p12p3lensGlow)" filter="url(#p12p3strongBloom)" opacity="0.65"/>
+    <line x1="6" y1="-47" x2="10" y2="-44" stroke="#dce4f0" stroke-width="0.3" opacity="0.85"/>
+    <g font-family="Courier, monospace" font-size="2" fill="#dce4f0" opacity="0.95">
+      <text x="2" y="-49">SCAN</text>
+      <text x="2" y="-46">α=0.4</text>
+      <text x="2" y="-43">τ-rad</text>
+    </g>
+    <ellipse cx="-1" cy="-47" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-1" cy="-47" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-2" y1="-39" x2="5" y2="-39" stroke="#3a1810" stroke-width="0.6"/>
+  </g>
+
+  <!-- JINK perched on flagstone edge, one wing half-deployed for balance. -->
+  <g id="p12p3-jink" transform="translate(220, 235)">
+    <!-- One wing half-deployed for balance. -->
+    <ellipse cx="-12" cy="-15" rx="22" ry="6" fill="#7af0b0" opacity="0.55" transform="rotate(20 -12 -15)" filter="url(#p12p3bloom)"/>
+    <!-- Other wing folded. -->
+    <ellipse cx="10" cy="-12" rx="10" ry="3" fill="#3aa078" opacity="0.45" transform="rotate(-30 10 -12)" filter="url(#p12p3bloom)"/>
+    <!-- Body leaning forward. -->
+    <path d="M-9,15 L-12,-5 L-10,-22 L-5,-30 L5,-30 L8,-22 L10,-5 L8,15 Z" fill="url(#p12p3emeraldDirty)" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="0" cy="-30" rx="7" ry="2" fill="#7af0b0" opacity="0.85" filter="url(#p12p3bloom)"/>
+    <!-- Head leaning forward looking at wreckage. -->
+    <ellipse cx="3" cy="-42" rx="10" ry="11" fill="#d8b890"/>
+    <path d="M-7,-50 Q3,-54 11,-50 L11,-42 L-7,-42 Z" fill="#f0d878"/>
+    <g fill="#a89048"><circle cx="-3" cy="-52" r="1.2"/><circle cx="3" cy="-54" r="1.2"/><circle cx="9" cy="-52" r="1.2"/></g>
+    <!-- Wide curious eyes. -->
+    <ellipse cx="0" cy="-44" rx="1.6" ry="1.2" fill="#dce4f0"/>
+    <ellipse cx="6" cy="-44" rx="1.6" ry="1.2" fill="#dce4f0"/>
+    <ellipse cx="0" cy="-44" rx="0.8" ry="0.8" fill="#1a0808"/>
+    <ellipse cx="6" cy="-44" rx="0.8" ry="0.8" fill="#1a0808"/>
+    <!-- Slight grin. -->
+    <path d="M0,-36 Q3,-34 6,-36" stroke="#1a0808" stroke-width="0.6" fill="none"/>
+  </g>
+
+  <!-- SABLE — apart, arms folded. -->
+  <g id="p12p3-sable" transform="translate(310, 230)">
+    <path d="M-11,15 L-14,-5 L-11,-25 L-6,-35 L6,-35 L11,-25 L14,-5 L11,15 Z" fill="url(#p12p3silverDirty)" stroke="#080404" stroke-width="0.6"/>
+    <path d="M11,-22 L17,-12 L19,2 L17,12" fill="url(#p12p3silverDirty)" stroke="#080404" stroke-width="0.5"/>
+    <g stroke="#a8d8f8" stroke-width="0.5" opacity="0.85" filter="url(#p12p3bloom)"><path d="M13,-14 L17,-4 L15,6"/></g>
+    <ellipse cx="0" cy="-35" rx="8" ry="2.5" fill="#dce4f0" opacity="0.55" filter="url(#p12p3bloom)"/>
+    <!-- Arms folded across chest. -->
+    <path d="M-11,-12 L11,-12 L13,-2 L-13,-2 Z" fill="url(#p12p3silverDirty)" stroke="#080404" stroke-width="0.5"/>
+    <line x1="-2" y1="-12" x2="2" y2="-2" stroke="#080404" stroke-width="0.4"/>
+    <ellipse cx="10" cy="-7" rx="3" ry="2" fill="#3a2818" stroke="#080404" stroke-width="0.4"/>
+    <ellipse cx="-10" cy="-7" rx="3" ry="2" fill="#3a2818" stroke="#080404" stroke-width="0.4"/>
+    <!-- Head looking left (toward Wren). -->
+    <ellipse cx="-2" cy="-47" rx="10" ry="11" fill="#3a2818"/>
+    <path d="M-11,-54 Q-2,-59 7,-54 L7,-47 L-11,-47 Z" fill="#dce4f0"/>
+    <ellipse cx="-5" cy="-49" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="1" cy="-49" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-6" cy="-49" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="0" cy="-49" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-5" y1="-41" x2="2" y2="-41" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- DIALOGUE STACK -->
+  <g id="p12p3-bal-jink1">
+    <rect x="14" y="14" width="220" height="58" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">If the core blew, wouldn't</text>
+    <text x="24" y="67" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">we already be dead?</text>
+  </g>
+  <g id="p12p3-bal-luma">
+    <rect x="14" y="76" width="240" height="58" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="94" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="112" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Depends on failure mode.</text>
+    <text x="24" y="129" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Temporal radiation is quiet.</text>
+  </g>
+  <g id="p12p3-bal-jink2">
+    <rect x="14" y="280" width="100" height="32" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="295" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="308" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a" font-style="italic">...great.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p12p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">3</text>
+    <text x="362" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">SAFE DISTANCE</text>
+  </g>
+</svg>
