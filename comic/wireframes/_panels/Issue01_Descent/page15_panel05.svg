@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 380" width="244" height="380">
+  <title>Issue 1 — Page 15 — Panel 5: Wren's hands on shattered crystal — ECU</title>
+  <desc>Extreme close-up 90mm. Wren's two open gauntleted palms cupped, holding the largest shattered crystal fragment between them. Gauntlet plates copper-metallic w/ scuffed soot, fingertip joints visible. The crystal: jagged 4-faceted shard, faintly luminescent cyan core fading dimmer (dying battery) — light unmistakably wrong, missing harmonic glow. Soot-darkened skin visible at exposed wrists where sleeves are pushed up. Caption (parchment): "Without the temporal drive, they cannot return home." Soft thin amber rim catches outer edge of fingers (gutter glow) but the dying crystal is the only meaningful light source — most of the frame is in deep shadow. The center crystal floats in negative space. Vertical narrow viewport amplifies the held-thing-in-cupped-hands intimacy.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p15p5dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0810"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="p15p5copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p15p5skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8b088"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <radialGradient id="p15p5crystalGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#7af0f0" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#4a90c0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0a3050" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p15p5amberRim" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p15p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p15p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p15p5deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- BACKGROUND deep shadow. -->
+  <rect width="244" height="380" fill="url(#p15p5dark)"/>
+
+  <!-- Subtle warm amber rim from below (gutter glow). -->
+  <ellipse cx="122" cy="380" rx="160" ry="80" fill="url(#p15p5amberRim)" filter="url(#p15p5strongBloom)" opacity="0.65"/>
+
+  <!-- Background soft cyan bleed from chamber drift up. -->
+  <ellipse cx="122" cy="200" rx="140" ry="100" fill="url(#p15p5crystalGlow)" filter="url(#p15p5deepBloom)" opacity="0.65"/>
+
+  <!-- HANDS — two cupped palms holding the crystal up, FROM BELOW VIEW (palms turned slightly upward). -->
+  <!-- LEFT HAND (screen-left). Wrist exits bottom-left. -->
+  <g id="p15p5-hand-left" transform="translate(122, 220)">
+
+    <!-- Wrist (sleeve pushed up — exposed soot-darkened skin). -->
+    <path d="M-92,140 L-78,118 L-58,98 L-42,82" fill="none" stroke="url(#p15p5skin)" stroke-width="22" stroke-linecap="round"/>
+    <!-- Soot stipple on wrist. -->
+    <g fill="#3a1808" opacity="0.75">
+      <ellipse cx="-78" cy="120" rx="3" ry="1.4" transform="rotate(-30 -78 120)"/>
+      <ellipse cx="-66" cy="106" rx="3" ry="1.3" transform="rotate(-30 -66 106)"/>
+      <ellipse cx="-54" cy="96" rx="2.5" ry="1.2" transform="rotate(-30 -54 96)"/>
+    </g>
+
+    <!-- Gauntlet plate at forearm transition (copper). -->
+    <path d="M-50,76 L-30,60 L-22,76 L-42,92 Z" fill="url(#p15p5copper)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Gauntlet copper accent glow. -->
+    <line x1="-46" y1="78" x2="-26" y2="64" stroke="#f5a868" stroke-width="0.6" opacity="0.85" filter="url(#p15p5bloom)"/>
+    <!-- Gauntlet edge rivets. -->
+    <g fill="#080408">
+      <circle cx="-44" cy="82" r="1"/>
+      <circle cx="-32" cy="72" r="1"/>
+    </g>
+
+    <!-- PALM (open, cupped — facing screen toward camera + slightly upward). -->
+    <path d="M-22,76 Q-12,64 -2,60 Q14,58 22,68 Q24,80 16,90 L-16,98 Z" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Palm soot smudge. -->
+    <g fill="#3a1808" opacity="0.55">
+      <ellipse cx="0" cy="82" rx="6" ry="3"/>
+      <ellipse cx="-12" cy="92" rx="3" ry="1.5"/>
+    </g>
+    <!-- Palm crease lines. -->
+    <path d="M-12,70 Q-2,76 14,72" stroke="#5a3018" stroke-width="0.5" fill="none" opacity="0.85"/>
+    <path d="M-14,82 Q-4,88 12,84" stroke="#5a3018" stroke-width="0.5" fill="none" opacity="0.85"/>
+
+    <!-- Fingers cupped upward — thumb on left, four fingers curled inward. -->
+    <!-- THUMB. -->
+    <path d="M-22,76 Q-32,68 -34,56 Q-30,48 -22,52" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.6"/>
+    <!-- INDEX. -->
+    <path d="M-2,60 Q-2,42 4,32 Q12,30 12,42 L8,58" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.6"/>
+    <!-- MIDDLE. -->
+    <path d="M8,56 Q12,38 18,28 Q26,30 24,42 L18,58" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.6"/>
+    <!-- RING. -->
+    <path d="M16,60 Q22,46 28,38 Q34,42 32,52 L24,66" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.6"/>
+    <!-- PINKY (smaller). -->
+    <path d="M22,68 Q28,58 32,52 Q36,56 34,62 L28,72" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.6"/>
+
+    <!-- Gauntlet plate sections on fingers (copper segments at base). -->
+    <path d="M0,52 L8,52 L8,46 L0,46 Z" fill="url(#p15p5copper)" stroke="#080408" stroke-width="0.4"/>
+    <path d="M10,48 L18,48 L18,42 L10,42 Z" fill="url(#p15p5copper)" stroke="#080408" stroke-width="0.4"/>
+    <path d="M20,52 L28,52 L28,46 L20,46 Z" fill="url(#p15p5copper)" stroke="#080408" stroke-width="0.4"/>
+
+    <!-- Cyan light catch on inner palm (from crystal above). -->
+    <ellipse cx="0" cy="74" rx="14" ry="6" fill="#7af0f0" opacity="0.4" filter="url(#p15p5bloom)"/>
+    <!-- Amber rim catch on outer fingers (gutter glow). -->
+    <path d="M14,30 Q22,28 26,38" fill="none" stroke="#f5b860" stroke-width="0.8" opacity="0.65" filter="url(#p15p5bloom)"/>
+  </g>
+
+  <!-- RIGHT HAND (mirror, screen-right). -->
+  <g id="p15p5-hand-right" transform="translate(122, 220)">
+
+    <!-- Wrist exits bottom-right. -->
+    <path d="M92,140 L78,118 L58,98 L42,82" fill="none" stroke="url(#p15p5skin)" stroke-width="22" stroke-linecap="round"/>
+    <!-- Soot stipple on wrist. -->
+    <g fill="#3a1808" opacity="0.75">
+      <ellipse cx="78" cy="120" rx="3" ry="1.4" transform="rotate(30 78 120)"/>
+      <ellipse cx="66" cy="106" rx="3" ry="1.3" transform="rotate(30 66 106)"/>
+      <ellipse cx="54" cy="96" rx="2.5" ry="1.2" transform="rotate(30 54 96)"/>
+    </g>
+
+    <!-- Gauntlet plate. -->
+    <path d="M50,76 L30,60 L22,76 L42,92 Z" fill="url(#p15p5copper)" stroke="#080408" stroke-width="0.7"/>
+    <line x1="46" y1="78" x2="26" y2="64" stroke="#f5a868" stroke-width="0.6" opacity="0.85" filter="url(#p15p5bloom)"/>
+    <g fill="#080408">
+      <circle cx="44" cy="82" r="1"/>
+      <circle cx="32" cy="72" r="1"/>
+    </g>
+
+    <!-- PALM. -->
+    <path d="M22,76 Q12,64 2,60 Q-14,58 -22,68 Q-24,80 -16,90 L16,98 Z" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.7"/>
+    <g fill="#3a1808" opacity="0.55">
+      <ellipse cx="0" cy="82" rx="6" ry="3"/>
+      <ellipse cx="12" cy="92" rx="3" ry="1.5"/>
+    </g>
+    <path d="M12,70 Q2,76 -14,72" stroke="#5a3018" stroke-width="0.5" fill="none" opacity="0.85"/>
+    <path d="M14,82 Q4,88 -12,84" stroke="#5a3018" stroke-width="0.5" fill="none" opacity="0.85"/>
+
+    <!-- Fingers cupped (mirror). -->
+    <path d="M22,76 Q32,68 34,56 Q30,48 22,52" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.6"/>
+    <path d="M2,60 Q2,42 -4,32 Q-12,30 -12,42 L-8,58" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.6"/>
+    <path d="M-8,56 Q-12,38 -18,28 Q-26,30 -24,42 L-18,58" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.6"/>
+    <path d="M-16,60 Q-22,46 -28,38 Q-34,42 -32,52 L-24,66" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.6"/>
+    <path d="M-22,68 Q-28,58 -32,52 Q-36,56 -34,62 L-28,72" fill="url(#p15p5skin)" stroke="#3a1808" stroke-width="0.6"/>
+
+    <!-- Gauntlet finger plates. -->
+    <path d="M0,52 L-8,52 L-8,46 L0,46 Z" fill="url(#p15p5copper)" stroke="#080408" stroke-width="0.4"/>
+    <path d="M-10,48 L-18,48 L-18,42 L-10,42 Z" fill="url(#p15p5copper)" stroke="#080408" stroke-width="0.4"/>
+    <path d="M-20,52 L-28,52 L-28,46 L-20,46 Z" fill="url(#p15p5copper)" stroke="#080408" stroke-width="0.4"/>
+
+    <!-- Cyan + amber catches. -->
+    <ellipse cx="0" cy="74" rx="14" ry="6" fill="#7af0f0" opacity="0.4" filter="url(#p15p5bloom)"/>
+    <path d="M-14,30 Q-22,28 -26,38" fill="none" stroke="#f5b860" stroke-width="0.8" opacity="0.65" filter="url(#p15p5bloom)"/>
+  </g>
+
+  <!-- THE CRYSTAL — held in cupped hands center, above palms. -->
+  <g id="p15p5-crystal" transform="translate(122, 200)">
+
+    <!-- Strong outer aura (dim — dying battery). -->
+    <ellipse cx="0" cy="0" rx="48" ry="60" fill="url(#p15p5crystalGlow)" filter="url(#p15p5deepBloom)" opacity="0.85"/>
+
+    <!-- Main crystal shard — jagged 4-faceted, irregular. -->
+    <g>
+      <!-- Front-facing facet (largest). -->
+      <polygon points="-8,-32 6,-30 16,8 4,28 -10,12 -14,-12" fill="#4ab0c8" stroke="#1a4860" stroke-width="0.7"/>
+      <!-- Right facet (slightly recessed, darker). -->
+      <polygon points="6,-30 12,-22 18,2 16,8" fill="#2a7090" stroke="#0a3850" stroke-width="0.6"/>
+      <!-- Left facet. -->
+      <polygon points="-8,-32 -14,-12 -18,4 -10,12" fill="#1a5a78" stroke="#0a3050" stroke-width="0.6"/>
+      <!-- Bottom facet (where it broke off). -->
+      <polygon points="-10,12 4,28 10,18 -2,4" fill="#0a3a58" stroke="#080408" stroke-width="0.6"/>
+      <!-- INNER CORE faintly luminescent (DYING — dimmer cyan center). -->
+      <polygon points="-2,-18 4,-16 6,4 0,12 -6,4 -6,-12" fill="#7af0f0" opacity="0.55" filter="url(#p15p5bloom)"/>
+      <!-- Inner core highlight (brighter spot). -->
+      <ellipse cx="-1" cy="-6" rx="3" ry="6" fill="#dce4ff" opacity="0.65" filter="url(#p15p5bloom)"/>
+      <!-- Edge-light rim (where crystal facets catch). -->
+      <line x1="-8" y1="-32" x2="6" y2="-30" stroke="#dce4ff" stroke-width="0.5" filter="url(#p15p5bloom)"/>
+      <line x1="6" y1="-30" x2="16" y2="8" stroke="#7af0f0" stroke-width="0.4" opacity="0.85" filter="url(#p15p5bloom)"/>
+    </g>
+
+    <!-- FAINT CRACKS visible on facets (it's broken — wrongness). -->
+    <g stroke="#080408" stroke-width="0.5" fill="none" opacity="0.85">
+      <line x1="-8" y1="-32" x2="-2" y2="-12"/>
+      <line x1="-2" y1="-12" x2="6" y2="0"/>
+      <line x1="6" y1="0" x2="14" y2="6"/>
+      <line x1="-4" y1="-22" x2="2" y2="-18"/>
+    </g>
+
+    <!-- Smaller broken-off shards floating nearby (3 tiny pieces). -->
+    <g>
+      <polygon points="-26,-12 -22,-10 -20,-4 -24,-2" fill="#2a7090" stroke="#080408" stroke-width="0.4" opacity="0.85"/>
+      <ellipse cx="-23" cy="-7" rx="2" ry="3" fill="#7af0f0" opacity="0.45" filter="url(#p15p5bloom)"/>
+
+      <polygon points="22,-18 26,-16 28,-10 24,-8" fill="#2a7090" stroke="#080408" stroke-width="0.4" opacity="0.75"/>
+      <ellipse cx="25" cy="-13" rx="2" ry="3" fill="#7af0f0" opacity="0.4" filter="url(#p15p5bloom)"/>
+
+      <polygon points="-12,30 -8,32 -6,38 -10,40" fill="#2a7090" stroke="#080408" stroke-width="0.4" opacity="0.7"/>
+      <ellipse cx="-9" cy="35" rx="2" ry="3" fill="#7af0f0" opacity="0.35" filter="url(#p15p5bloom)"/>
+    </g>
+
+    <!-- Tiny dust motes floating in the cyan glow. -->
+    <g fill="#dce4ff" opacity="0.5" filter="url(#p15p5bloom)">
+      <circle cx="-32" cy="-20" r="0.4"/>
+      <circle cx="28" cy="-26" r="0.4"/>
+      <circle cx="34" cy="6" r="0.4"/>
+      <circle cx="-30" cy="22" r="0.4"/>
+      <circle cx="0" cy="-44" r="0.4"/>
+    </g>
+  </g>
+
+  <!-- Caption parchment (top). -->
+  <g id="p15p5-caption">
+    <rect x="14" y="14" width="216" height="44" rx="3" fill="#f5ecd8" stroke="#5a4a30" stroke-width="1.2" filter="url(#balloonShadow)"/>
+    <!-- Parchment grain texture hint. -->
+    <line x1="14" y1="22" x2="230" y2="22" stroke="#a89868" stroke-width="0.3" opacity="0.55"/>
+    <line x1="14" y1="50" x2="230" y2="50" stroke="#a89868" stroke-width="0.3" opacity="0.55"/>
+    <text x="122" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#5a4a30">Without the temporal drive,</text>
+    <text x="122" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#5a4a30">they cannot return home.</text>
+  </g>
+
+  <!-- WREN narration (lower, internal — italicized). -->
+  <g id="p15p5-dlg-wren-int">
+    <rect x="14" y="306" width="216" height="62" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="324" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN (thought)</text>
+    <text x="24" y="342" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">It's beautiful.</text>
+    <text x="24" y="360" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">Even broken.</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p15p5-meta">
+    <text x="236" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">5</text>
+    <text x="240" y="372" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">CRYSTAL ECU</text>
+  </g>
+</svg>

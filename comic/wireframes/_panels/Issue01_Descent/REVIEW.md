@@ -2,15 +2,15 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 14 added, Threshold/Section 3 closer).
+**Last update:** 2026-04-27 (loop session extended — Page 15 added, First Night/Section 4 opener).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–14 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 71 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P13P01–P13P05, P14P01–P14P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
+**Pages 1–15 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 76 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P13P01–P13P05, P14P01–P14P04, P15P01–P15P05, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
 
-**Issue 1 first 14 pages CONTIGUOUS** — Pages 1-14 + Pages 18-22 all painterly. Section 3 CLOSED. Pages 15-17 remain as middle continuity gaps — 3 pages remaining (17/22 painterly = 77%).
+**Issue 1 first 15 pages CONTIGUOUS** — Pages 1-15 + Pages 18-22 all painterly. Sections 3 + 4-opener CLOSED. Pages 16-17 remain as middle continuity gaps — 2 pages remaining (20/22 painterly = 91%).
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -30,6 +30,8 @@
 
 **Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px.
 
+**Page 15 (First Night — Section 4 opener)** — 5 panels, 1179px (banner / 2-col / wide+narrow). Gutter establishing wide w/ 5 squad scattered + Thresh hypervigilant + Jink at lip with grin + Wren+Luma at temporal drive + crystal ECU. Caption: "The city does not know they are here." Sets first quiet moment after the chase.
+
 **Page 14 (Threshold — Section 3 closer)** — 4 panels, 1179px (banner / 2-col / banner footer). Squad at threshold facing Victorian city; echoes Page 22 final splash from wider angle.
 
 **Page 13 (London Confirmed + first seed of secret)** — 5 panels, 1179px.
@@ -40,7 +42,7 @@
 
 **Page 9 (THE SCALE REVEAL — opening Section 3 build)** — 5 panels, 1179px.
 
-**Pages 15-17 of Issue 1 remain auto-generated stick-figure storyboards.** (3 pages remaining of 22 = 17/22 painterly + 3/22 storyboard ≈ 77%.)
+**Pages 16-17 of Issue 1 remain auto-generated stick-figure storyboards.** (2 pages remaining of 22 = 20/22 painterly + 2/22 storyboard ≈ 91%.)
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -244,6 +246,86 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 15 — DONE (Section 4 opener — First Night)
+
+5 panels in 3 tiers (banner / 2-col / wide+narrow) summing to 1179px page-fill. Opens Section 4 (FIRST NIGHT). First quiet moment after the chase — squad in the gutter, watch posted, drive diagnosed, cliffhanger reset for Section 4.
+
+### P15P01 — Gutter establishing wide, 5 squad scattered (742×320)
+- ✅ Worm's-eye gutter shot w/ chimney stack rising top-right
+- ✅ Distant city silhouette beyond gutter lip + amber pinpricks far below (street level)
+- ✅ Sky w/ stars above gutter wall
+- ✅ Curved iron gutter wall back w/ rivets + soot streaks + warm amber rim light
+- ✅ Floor w/ twig-log + dead leaves + coal sediment + wreckage pieces glowing cool
+- ✅ All 5 squad scattered: Thresh ruby far-left sentinel, Wren copper crouched over wreckage, Luma sapphire kneeling, Sable silver center scanning, Jink emerald perched on twig at gutter lip
+- ✅ Each suit has accent color glow (5 colors visible)
+- ✅ Caption italic parchment: "The city does not know they are here."
+- 🟢 Wide-angle dwarfed-by-environment beat lands
+
+### P15P02 — Thresh on watch, hypervigilant (366×400)
+- ✅ MCU 65mm — head-to-mid-thigh
+- ✅ Gauntleted hand on iron gutter rim
+- ✅ Welsh slate cliff face right (slate tile diagonal seams)
+- ✅ Chimney stacks towering top-left w/ smoke trail backlit amber
+- ✅ Strong warm amber rim from below (city-glow)
+- ✅ Cool crimson accents at suit seams + face from chest up (script-specific)
+- ✅ Copper-red buzz cap, defined cheekbones
+- ✅ Dented LEFT pauldron (script-specific)
+- ✅ Jaw clenched too tight + jaw-muscle bumps + lips firm
+- ✅ Shoulders held fraction too high (hypervigilant — first hairline crack)
+- ✅ SFX: BONNNGGG (large atmospheric distant church bell)
+- ✅ THRESH: "Movement. Southeast. ...chimney smoke." (italic on second line)
+
+### P15P03 — Jink at gutter lip, faint grin (366×400)
+- ✅ MCU profile 65mm — knees up, forearms on knees, looking right across rooftops
+- ✅ Distant slate roofscape receding right w/ chimney pots dotted along skyline
+- ✅ One distant church spire silhouette
+- ✅ Strong warm amber from below (city sprawl) + amber pinpricks of gas-lamps
+- ✅ Iron gutter lip curving across foreground, where Jink perches
+- ✅ Golden blonde curly hair multi-clump w/ amber highlight catches + cool moonlight top
+- ✅ Emerald metallic suit w/ holographic accent glow (knee + seam highlights)
+- ✅ Slim wing-pack folded on back
+- ✅ Faint grin — first quiet moment, awe at city
+- ✅ JINK: "...big city. Always wanted to see one." (italic)
+- ✅ LUMA off-panel dashed-stroke balloon: "Sleep, Jink. Watch in four hours."
+
+### P15P04 — Wren+Luma at the temporal drive (488×380)
+- ✅ 2-shot 35mm low-medium angle
+- ✅ Wren copper-suit crouched left on heels, knees high, sleeves pushed up at wrist (exposed soot-darkened skin)
+- ✅ Wren's hand reaching INTO temporal drive chamber
+- ✅ Luma sapphire-suit sitting cross-legged right
+- ✅ Holographic spec hovering off Luma's wrist projecting cyan/sapphire wireframe
+- ✅ Wireframe shows hex top-down + side projection + crystal break X marker
+- ✅ Diagnostic text glyphs: CHMBR-FAIL, CRYSTAL: 4 PCS, DRIVE_v3.4
+- ✅ 6-inch hex drive housing center, gold-rim seam blown apart
+- ✅ Internal CRYSTAL SHATTERED into 4 cyan-glowing pieces
+- ✅ Smoke + dust drift from broken seam
+- ✅ Cool blue-white wash from holo + warm amber from above (gutter glow)
+- ✅ Wren's holo-lensed face cool blue catch from chamber
+- ✅ Luma's holo lenses + sapphire face catch
+- ✅ WREN: "Drive's a casualty."
+- ✅ LUMA: "I knew. I just... wanted to confirm before I told Sable." (italic two-line on confession)
+- ✅ WREN (quiet): "Not your fault."
+
+### P15P05 — Wren's hands on shattered crystal (244×380, vertical narrow)
+- ✅ Extreme close-up 90mm
+- ✅ Two cupped open gauntleted palms holding crystal between fingers
+- ✅ Soot-darkened wrists exposed where sleeves pushed up
+- ✅ Copper-metallic gauntlet plates w/ scuffed soot, fingertip joints
+- ✅ Palm crease lines + soot smudge on inner palm
+- ✅ Crystal: jagged 4-faceted shard (irregular, not symmetric)
+- ✅ Faintly luminescent cyan core fading dimmer (dying battery)
+- ✅ Edge-light rim catches on facets w/ blue-white highlight
+- ✅ Visible cracks on facets (it's broken — wrongness)
+- ✅ 3 tiny floating shards nearby
+- ✅ Tiny dust motes floating in cyan glow
+- ✅ Negative space + deep shadow background (most of frame in dark)
+- ✅ Subtle warm amber rim from below + cool cyan bleed from chamber
+- ✅ Caption parchment top: "Without the temporal drive, they cannot return home." (italic)
+- ✅ WREN (thought) bottom italic: "It's beautiful. / Even broken."
+- 🟢 Vertical narrow viewport amplifies held-thing-in-cupped-hands intimacy
 
 ---
 

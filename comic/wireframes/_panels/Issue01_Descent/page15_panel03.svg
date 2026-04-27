@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 1 — Page 15 — Panel 3: Jink at gutter lip — faint grin</title>
+  <desc>MCU profile 65mm. Jink perched on iron gutter lip, knees up, forearms on knees, looking out across slate roofscape toward distant city silhouette. Young, androgynous, golden blonde curly hair catching warm amber light from below. Emerald metallic suit w/ holographic accent glow. Faint grin — first quiet moment after the chase, awed by the alien city's sprawl. Twin moons of light: warm amber from city below + cool emerald from suit accents. JINK: "...big city. Always wanted to see one outside the simulator." LUMA (off-panel, dashed-stroke): "Sleep, Jink. Watch shift in four hours."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p15p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p15p3rooftops" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </linearGradient>
+    <linearGradient id="p15p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="p15p3cityGlow" cx="60%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p15p3emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4828"/>
+    </linearGradient>
+    <radialGradient id="p15p3emeraldGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0a4828" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p15p3starGlow">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#dce4f0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p15p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p15p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky background. -->
+  <rect width="366" height="400" fill="url(#p15p3sky)"/>
+
+  <!-- Stars top. -->
+  <g fill="#dce4f0" opacity="0.75">
+    <circle cx="40" cy="22" r="0.7"/>
+    <circle cx="100" cy="38" r="0.5"/>
+    <circle cx="170" cy="20" r="0.6"/>
+    <circle cx="240" cy="36" r="0.5"/>
+    <circle cx="320" cy="22" r="0.6"/>
+    <circle cx="290" cy="56" r="0.4"/>
+    <circle cx="60" cy="60" r="0.4"/>
+  </g>
+  <!-- Slightly larger glowing star. -->
+  <circle cx="200" cy="48" r="3" fill="url(#p15p3starGlow)" opacity="0.85"/>
+  <circle cx="200" cy="48" r="0.8" fill="#dce4f0"/>
+
+  <!-- Distant rooftop horizon — slate roofs receding right (city sprawl). -->
+  <g id="p15p3-roofscape">
+    <!-- Far ridge line. -->
+    <path d="M0,200 L40,196 L80,210 L120,198 L160,212 L200,196 L240,214 L280,198 L320,212 L366,200 L366,260 L0,260 Z" fill="url(#p15p3rooftops)" opacity="0.75"/>
+    <!-- Slightly nearer rooflines slightly forward. -->
+    <path d="M0,228 L50,220 L100,240 L150,222 L200,242 L260,222 L320,242 L366,228 L366,300 L0,300 Z" fill="url(#p15p3rooftops)" opacity="0.85"/>
+    <!-- Slate tile texture diagonal hints. -->
+    <g stroke="#0a0810" stroke-width="0.3" opacity="0.5">
+      <line x1="40" y1="240" x2="60" y2="232"/>
+      <line x1="100" y1="244" x2="130" y2="234"/>
+      <line x1="200" y1="248" x2="240" y2="232"/>
+      <line x1="280" y1="248" x2="320" y2="240"/>
+    </g>
+    <!-- Distant chimney pots dotted along skyline. -->
+    <g fill="#0a0810">
+      <rect x="38" y="190" width="3" height="10"/>
+      <rect x="44" y="188" width="3" height="12"/>
+      <rect x="120" y="190" width="3" height="10"/>
+      <rect x="125" y="186" width="3" height="14"/>
+      <rect x="240" y="206" width="3" height="10"/>
+      <rect x="246" y="204" width="3" height="12"/>
+      <rect x="320" y="204" width="3" height="10"/>
+    </g>
+    <!-- One distant church spire silhouette. -->
+    <path d="M165,216 L168,180 L171,216 Z" fill="#0a0810"/>
+    <rect x="166" y="216" width="6" height="14" fill="#0a0810"/>
+  </g>
+
+  <!-- Strong warm amber glow rises from below city (script-specific). -->
+  <ellipse cx="200" cy="300" rx="280" ry="80" fill="url(#p15p3cityGlow)" filter="url(#p15p3strongBloom)" opacity="0.85"/>
+  <!-- Pinprick gas-lamps along roof horizon. -->
+  <g fill="#f5b860" filter="url(#p15p3bloom)">
+    <circle cx="60" cy="278" r="1.4" opacity="0.85"/>
+    <circle cx="130" cy="284" r="1.6" opacity="0.85"/>
+    <circle cx="200" cy="290" r="1.7" opacity="0.85"/>
+    <circle cx="270" cy="284" r="1.4" opacity="0.85"/>
+    <circle cx="320" cy="280" r="1.3" opacity="0.85"/>
+  </g>
+
+  <!-- IRON GUTTER LIP — runs across foreground bottom right where Jink perches. -->
+  <g id="p15p3-gutter-lip">
+    <!-- Gutter rim curving across bottom right. -->
+    <path d="M0,330 Q150,318 300,320 L366,322 L366,400 L0,400 Z" fill="url(#p15p3iron)"/>
+    <!-- Top edge of rim (where Jink sits). -->
+    <path d="M0,330 Q150,318 300,320 L366,322" fill="none" stroke="#080404" stroke-width="1.4"/>
+    <!-- Warm amber rim catch. -->
+    <path d="M0,330 Q150,318 300,320 L366,322" fill="none" stroke="#f5b860" stroke-width="1.2" opacity="0.85" filter="url(#p15p3bloom)"/>
+    <!-- Rivets. -->
+    <g fill="#080404" opacity="0.85">
+      <circle cx="60" cy="328" r="1.6"/>
+      <circle cx="160" cy="320" r="1.7"/>
+      <circle cx="260" cy="320" r="1.6"/>
+      <circle cx="340" cy="322" r="1.4"/>
+    </g>
+    <!-- Soot streaks. -->
+    <g fill="#080404" opacity="0.55">
+      <path d="M40,332 Q44,380 38,400"/>
+      <path d="M150,322 Q154,380 148,400"/>
+      <path d="M260,322 Q262,380 256,400"/>
+    </g>
+  </g>
+
+  <!-- JINK MCU PROFILE — perched on rim, knees up, forearms on knees, looking RIGHT across roofscape. -->
+  <g id="p15p3-jink" transform="translate(160, 248)">
+
+    <!-- Knees up, sitting with forearms resting on knees (profile facing right). -->
+    <!-- Lower legs / boots tucked under. -->
+    <path d="M-20,72 L-12,80 L-2,82" fill="none" stroke="#0a4828" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0,72 L8,80 L18,82" fill="none" stroke="#0a4828" stroke-width="6" stroke-linecap="round"/>
+    <!-- Boot caps. -->
+    <ellipse cx="-2" cy="82" rx="6" ry="2" fill="#080408"/>
+    <ellipse cx="18" cy="82" rx="6" ry="2" fill="#080408"/>
+
+    <!-- Thighs raised (knees up). -->
+    <path d="M-15,40 L-18,68 L-8,72" fill="url(#p15p3emerald)" stroke="#080408" stroke-width="0.6"/>
+    <path d="M5,40 L8,68 L18,72" fill="url(#p15p3emerald)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Knee accent glow. -->
+    <ellipse cx="-15" cy="48" rx="3" ry="2" fill="#7af0b0" opacity="0.55" filter="url(#p15p3bloom)"/>
+    <ellipse cx="9" cy="48" rx="3" ry="2" fill="#7af0b0" opacity="0.55" filter="url(#p15p3bloom)"/>
+
+    <!-- TORSO (compressed, slight forward lean — relaxed but watchful). -->
+    <path d="M-18,-10 Q-22,15 -15,40 L18,40 Q22,15 18,-10 L8,-18 L-8,-18 Z" fill="url(#p15p3emerald)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Torso seam glow. -->
+    <line x1="0" y1="-8" x2="0" y2="36" stroke="#7af0b0" stroke-width="0.6" opacity="0.85" filter="url(#p15p3bloom)"/>
+    <!-- Seam at shoulder. -->
+    <line x1="-15" y1="-5" x2="-15" y2="20" stroke="#7af0b0" stroke-width="0.5" opacity="0.7" filter="url(#p15p3bloom)"/>
+    <line x1="15" y1="-5" x2="15" y2="20" stroke="#7af0b0" stroke-width="0.5" opacity="0.7" filter="url(#p15p3bloom)"/>
+    <ellipse cx="0" cy="10" rx="22" ry="12" fill="url(#p15p3emeraldGlow)" filter="url(#p15p3strongBloom)" opacity="0.55"/>
+
+    <!-- Shoulder pads (small, scout-light). -->
+    <ellipse cx="-18" cy="-10" rx="6" ry="3.5" fill="#2ed078" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-18" cy="-11" rx="3" ry="1.5" fill="#7af0b0" opacity="0.7"/>
+    <ellipse cx="18" cy="-10" rx="6" ry="3.5" fill="#2ed078" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="18" cy="-11" rx="3" ry="1.5" fill="#7af0b0" opacity="0.7"/>
+
+    <!-- Forearms resting on knees (relaxed pose). -->
+    <path d="M-18,5 L-22,30 L-15,42" fill="none" stroke="url(#p15p3emerald)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M18,5 L22,30 L15,42" fill="none" stroke="url(#p15p3emerald)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Hands on knees (loose). -->
+    <ellipse cx="-15" cy="42" rx="3" ry="2" fill="#d8a880"/>
+    <ellipse cx="15" cy="42" rx="3" ry="2" fill="#d8a880"/>
+
+    <!-- Slim WING-PACK on back (folded). -->
+    <path d="M-12,-12 Q-15,5 -10,18" fill="none" stroke="#1a4830" stroke-width="2" opacity="0.7"/>
+    <path d="M12,-12 Q15,5 10,18" fill="none" stroke="#1a4830" stroke-width="2" opacity="0.7"/>
+
+    <!-- HEAD profile (turned right, looking out across rooftops). -->
+    <ellipse cx="2" cy="-32" rx="13" ry="14" fill="#e8c8a0" transform="rotate(8 2 -32)"/>
+    <!-- Profile nose hint (subtle right side). -->
+    <path d="M14,-32 Q17,-30 14,-28" fill="#e8c8a0" stroke="#3a2810" stroke-width="0.4" transform="rotate(8 2 -32)"/>
+
+    <!-- GOLDEN BLONDE CURLY HAIR — bouncy curls catching amber + cool moonlight. -->
+    <g transform="rotate(8 2 -32)">
+      <!-- Mass cap. -->
+      <path d="M-12,-44 Q-8,-50 -2,-50 Q4,-52 10,-50 Q14,-46 13,-38 Q12,-30 8,-30 Q-2,-32 -10,-32 Z" fill="#f5d860"/>
+      <!-- Curl bumps cluster. -->
+      <circle cx="-8" cy="-46" r="3.5" fill="#f5d860"/>
+      <circle cx="-3" cy="-49" r="3.5" fill="#f5d860"/>
+      <circle cx="3" cy="-50" r="3.5" fill="#f5d860"/>
+      <circle cx="9" cy="-48" r="3.5" fill="#f5d860"/>
+      <circle cx="12" cy="-43" r="3" fill="#f5d860"/>
+      <circle cx="-12" cy="-40" r="3" fill="#f5d860"/>
+      <circle cx="11" cy="-36" r="2.5" fill="#f5d860"/>
+      <!-- Loose escaped curls. -->
+      <circle cx="-13" cy="-46" r="1.5" fill="#f5d860"/>
+      <circle cx="14" cy="-44" r="1.5" fill="#f5d860"/>
+      <circle cx="-10" cy="-32" r="1.6" fill="#f5d860"/>
+      <!-- Highlight strokes (warm amber catching curls). -->
+      <g fill="#fae898">
+        <ellipse cx="-3" cy="-48" rx="2" ry="0.8"/>
+        <ellipse cx="6" cy="-49" rx="2" ry="0.8"/>
+        <ellipse cx="11" cy="-44" rx="1.4" ry="0.6"/>
+      </g>
+      <!-- Shadow cores in curls. -->
+      <g fill="#a87830" opacity="0.6">
+        <circle cx="-6" cy="-44" r="1.4"/>
+        <circle cx="0" cy="-46" r="1.4"/>
+        <circle cx="6" cy="-46" r="1.4"/>
+      </g>
+    </g>
+
+    <!-- Eye looking right (single visible in profile). -->
+    <ellipse cx="9" cy="-32" rx="1.6" ry="1.2" fill="#1a3010" transform="rotate(8 2 -32)"/>
+    <circle cx="9" cy="-32.5" r="0.6" fill="#080404" transform="rotate(8 2 -32)"/>
+    <!-- Emerald accent catch. -->
+    <circle cx="9" cy="-33" r="0.4" fill="#7af0b0" transform="rotate(8 2 -32)"/>
+    <!-- Brow lifted slight (awe). -->
+    <path d="M5,-38 Q10,-40 13,-37" stroke="#a87830" stroke-width="0.9" fill="none" transform="rotate(8 2 -32)"/>
+
+    <!-- FAINT GRIN (script-specific) — slight upturn at corner of mouth. -->
+    <path d="M5,-23 Q9,-21 12,-23" stroke="#3a2010" stroke-width="0.8" fill="none" transform="rotate(8 2 -32)"/>
+    <!-- Tiny smile catch on lip. -->
+    <ellipse cx="11" cy="-23" rx="0.6" ry="0.3" fill="#a85830" opacity="0.55" transform="rotate(8 2 -32)"/>
+
+    <!-- Cheek warm catch (amber light from below). -->
+    <ellipse cx="6" cy="-26" rx="3" ry="1.6" fill="#d8804a" opacity="0.45" transform="rotate(8 2 -32)"/>
+    <!-- Cool moonlight catch (top of head). -->
+    <ellipse cx="2" cy="-50" rx="6" ry="1.8" fill="#dce4f0" opacity="0.35" transform="rotate(8 2 -32)"/>
+  </g>
+
+  <!-- JINK dialogue (right side, leading down to head). -->
+  <g id="p15p3-dlg-jink">
+    <rect x="138" y="58" width="216" height="64" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="148" y="78" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="148" y="95" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">...big city.</text>
+    <text x="148" y="112" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">Always wanted to see one.</text>
+    <path d="M188,122 L206,122 L196,200 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="188" y1="122" x2="206" y2="122" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- LUMA off-panel (dashed-stroke). -->
+  <g id="p15p3-dlg-luma-off">
+    <rect x="14" y="280" width="170" height="44" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-dasharray="6,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="298" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA (OFF)</text>
+    <text x="24" y="315" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" fill="#1a1a1a">Sleep, Jink. Watch in four hours.</text>
+    <!-- Dashed off-panel tail pointing left edge. -->
+    <path d="M14,310 L4,310 L0,318" fill="none" stroke="#5a3ad8" stroke-width="2" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p15p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">JINK GUTTER LIP — FAINT GRIN</text>
+  </g>
+</svg>

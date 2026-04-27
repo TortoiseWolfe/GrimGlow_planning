@@ -1,0 +1,330 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 380" width="488" height="380">
+  <title>Issue 1 — Page 15 — Panel 4: Wren+Luma at the temporal drive — diagnostic crouch</title>
+  <desc>2-shot 35mm, low-medium angle. Wren copper-suit (left) crouched on heels, sleeves pushed up, hand inside open temporal drive panel. Luma sapphire-suit (right) sitting cross-legged with sapphire holographic wireframe of the temporal drive hovering off her wrist. Drive housing between them — broken seam, internal crystal SHATTERED into 4 pieces glowing cyan. WREN: "Drive's a casualty." LUMA: "I knew. I just... wanted to confirm before I told Sable." WREN (quiet): "Not your fault."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p15p4floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="p15p4amber" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p15p4copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#5a3010"/>
+    </linearGradient>
+    <radialGradient id="p15p4copperGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5a868" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3010" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p15p4sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#1a1058"/>
+    </linearGradient>
+    <radialGradient id="p15p4sapphireGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a890f0" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#1a1058" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p15p4drive" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a0a8"/>
+      <stop offset="100%" stop-color="#3a3038"/>
+    </linearGradient>
+    <linearGradient id="p15p4gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5d860"/>
+      <stop offset="100%" stop-color="#a87830"/>
+    </linearGradient>
+    <radialGradient id="p15p4holoBeam" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a8b8ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1a1058" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p15p4crystalShatter" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#7af0f0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a3050" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p15p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p15p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BACKGROUND. -->
+  <rect width="488" height="380" fill="#0a0810"/>
+  <rect y="200" width="488" height="180" fill="url(#p15p4floor)"/>
+  <ellipse cx="244" cy="0" rx="320" ry="140" fill="url(#p15p4amber)" filter="url(#p15p4strongBloom)" opacity="0.65"/>
+
+  <!-- Floor texture: coal-soot stippling + grit. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="40" cy="320" r="2"/>
+    <circle cx="80" cy="340" r="1.5"/>
+    <circle cx="120" cy="328" r="1.7"/>
+    <circle cx="180" cy="350" r="2"/>
+    <circle cx="380" cy="332" r="1.8"/>
+    <circle cx="430" cy="346" r="1.5"/>
+    <circle cx="460" cy="320" r="1.5"/>
+  </g>
+  <g fill="#5a3018" opacity="0.85">
+    <path d="M40,300 Q50,294 60,302 Q56,310 44,308 Z"/>
+    <path d="M380,308 Q390,300 402,308 Q396,318 386,316 Z"/>
+    <path d="M460,310 Q470,304 478,310 L470,318 Z"/>
+  </g>
+  <!-- Floor leading edge: subtle highlight ridge. -->
+  <line x1="0" y1="200" x2="488" y2="200" stroke="#3a2010" stroke-width="0.6" opacity="0.85"/>
+
+  <!-- TEMPORAL DRIVE wreckage center-foreground (between Wren and Luma). -->
+  <g id="p15p4-drive" transform="translate(244, 290)">
+    <!-- Hexagonal housing (split open). -->
+    <path d="M-72,0 L-38,32 L38,32 L72,0 L38,-18 L-38,-18 Z" fill="url(#p15p4drive)" stroke="#1a1818" stroke-width="1.4"/>
+    <!-- Upper half — blown apart. -->
+    <path d="M-72,-2 L-58,-32 L-38,-42 L-12,-48" fill="none" stroke="#1a1818" stroke-width="1.4"/>
+    <path d="M72,-2 L58,-28 L38,-38 L12,-48" fill="none" stroke="#1a1818" stroke-width="1.4"/>
+    <!-- Gold seam ring (broken). -->
+    <path d="M-72,-2 L-38,-18 L38,-18 L72,-2" fill="none" stroke="url(#p15p4gold)" stroke-width="2.4" filter="url(#p15p4bloom)"/>
+    <!-- Internal CHAMBER (crystal core shattered). -->
+    <ellipse cx="0" cy="-6" rx="28" ry="16" fill="#0a1830" stroke="#1a1818" stroke-width="0.8"/>
+    <!-- Crystal shatter pieces (4). -->
+    <g>
+      <polygon points="-16,-2 -6,-14 0,-6 -10,4" fill="#7af0f0" opacity="0.85" filter="url(#p15p4bloom)"/>
+      <polygon points="-2,-14 8,-16 10,-4 0,-2" fill="#7af0f0" opacity="0.7" filter="url(#p15p4bloom)"/>
+      <polygon points="8,-8 18,-12 20,-2 10,2" fill="#7af0f0" opacity="0.65" filter="url(#p15p4bloom)"/>
+      <polygon points="-6,4 6,6 0,12 -8,8" fill="#7af0f0" opacity="0.55" filter="url(#p15p4bloom)"/>
+    </g>
+    <ellipse cx="0" cy="-6" rx="36" ry="22" fill="url(#p15p4crystalShatter)" filter="url(#p15p4strongBloom)" opacity="0.7"/>
+    <!-- Smoke/dust drift. -->
+    <g fill="#3a3030" opacity="0.55" filter="url(#p15p4bloom)">
+      <ellipse cx="-26" cy="-38" rx="14" ry="7"/>
+      <ellipse cx="0" cy="-52" rx="22" ry="8"/>
+      <ellipse cx="24" cy="-44" rx="14" ry="7"/>
+    </g>
+    <!-- Soot streaks. -->
+    <g stroke="#080404" stroke-width="0.7" opacity="0.7">
+      <line x1="-50" y1="-2" x2="-52" y2="26"/>
+      <line x1="-22" y1="-14" x2="-24" y2="26"/>
+      <line x1="22" y1="-14" x2="24" y2="26"/>
+      <line x1="50" y1="-2" x2="52" y2="26"/>
+    </g>
+    <!-- Wiring tendrils. -->
+    <g stroke="#5a3010" stroke-width="0.8" fill="none">
+      <path d="M-38,-42 Q-44,-32 -36,-22"/>
+      <path d="M38,-38 Q44,-28 36,-22"/>
+      <path d="M0,-48 Q4,-38 0,-28"/>
+    </g>
+    <!-- Gold node tips. -->
+    <circle cx="-36" cy="-22" r="1.6" fill="#f5d860" filter="url(#p15p4bloom)"/>
+    <circle cx="36" cy="-22" r="1.6" fill="#f5d860" filter="url(#p15p4bloom)"/>
+    <circle cx="0" cy="-28" r="1.6" fill="#f5d860" filter="url(#p15p4bloom)"/>
+  </g>
+
+  <!-- WREN (LEFT) — proper crouch: knees high, low center-of-mass, shoulders ~y=240. -->
+  <g id="p15p4-wren" transform="translate(115, 240)">
+
+    <!-- Lower legs (calves vertical, feet on floor). -->
+    <path d="M-22,38 L-22,68 L-22,80" fill="none" stroke="#5a3010" stroke-width="9" stroke-linecap="round"/>
+    <path d="M22,38 L22,68 L22,80" fill="none" stroke="#5a3010" stroke-width="9" stroke-linecap="round"/>
+    <!-- Boot caps. -->
+    <ellipse cx="-22" cy="80" rx="9" ry="3" fill="#080404"/>
+    <ellipse cx="22" cy="80" rx="9" ry="3" fill="#080404"/>
+
+    <!-- Thighs raised (knees very high — deep crouch). -->
+    <path d="M-22,40 Q-30,18 -18,5 L-2,5 L-2,38 Z" fill="url(#p15p4copper)" stroke="#080408" stroke-width="0.6"/>
+    <path d="M22,40 Q30,18 18,5 L2,5 L2,38 Z" fill="url(#p15p4copper)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Knee accents. -->
+    <ellipse cx="-26" cy="22" rx="3" ry="2" fill="#f5a868" opacity="0.65" filter="url(#p15p4bloom)"/>
+    <ellipse cx="26" cy="22" rx="3" ry="2" fill="#f5a868" opacity="0.65" filter="url(#p15p4bloom)"/>
+
+    <!-- TORSO compressed forward (chest near knees). -->
+    <path d="M-18,-30 Q-22,-12 -18,5 L18,5 Q22,-12 18,-30 L8,-36 L-8,-36 Z" fill="url(#p15p4copper)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Copper accent seams. -->
+    <line x1="0" y1="-26" x2="0" y2="0" stroke="#f5a868" stroke-width="0.6" opacity="0.85" filter="url(#p15p4bloom)"/>
+    <line x1="-13" y1="-22" x2="-13" y2="0" stroke="#f5a868" stroke-width="0.5" opacity="0.7" filter="url(#p15p4bloom)"/>
+    <line x1="13" y1="-22" x2="13" y2="0" stroke="#f5a868" stroke-width="0.5" opacity="0.7" filter="url(#p15p4bloom)"/>
+    <ellipse cx="0" cy="-12" rx="22" ry="14" fill="url(#p15p4copperGlow)" filter="url(#p15p4strongBloom)" opacity="0.55"/>
+
+    <!-- Shoulder pads. -->
+    <ellipse cx="-18" cy="-28" rx="9" ry="5" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-18" cy="-29" rx="5" ry="2.5" fill="#f5a868" opacity="0.7"/>
+    <ellipse cx="18" cy="-28" rx="9" ry="5" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="18" cy="-29" rx="5" ry="2.5" fill="#f5a868" opacity="0.7"/>
+
+    <!-- LEFT arm reaching forward and down INTO drive chamber (toward x=130, drive is to right). -->
+    <path d="M-18,-12 L-12,8 L4,30 L40,52" fill="none" stroke="url(#p15p4copper)" stroke-width="6.5" stroke-linecap="round"/>
+    <!-- Sleeve pushed up — wrist visible (script-specific). -->
+    <ellipse cx="20" cy="38" rx="3.5" ry="2.5" fill="#5a3010" stroke="#080408" stroke-width="0.4"/>
+    <line x1="14" y1="34" x2="22" y2="38" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Gauntleted hand at chamber. -->
+    <ellipse cx="40" cy="52" rx="5" ry="3.5" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <!-- Hand glow from chamber. -->
+    <ellipse cx="40" cy="52" rx="12" ry="7" fill="#7af0f0" opacity="0.65" filter="url(#p15p4strongBloom)"/>
+
+    <!-- RIGHT arm bracing on knee. -->
+    <path d="M18,-12 L24,8 L24,28" fill="none" stroke="url(#p15p4copper)" stroke-width="6.5" stroke-linecap="round"/>
+    <ellipse cx="24" cy="30" rx="5" ry="3.5" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- HEAD bent down looking at chamber (rotated forward). -->
+    <ellipse cx="6" cy="-50" rx="13" ry="14" fill="#d8b088" transform="rotate(28 6 -50)"/>
+    <!-- Messy black knot hair pulled back. -->
+    <g transform="rotate(28 6 -50)">
+      <path d="M-6,-60 Q4,-66 14,-62 Q18,-54 14,-48 L-6,-48 Z" fill="#0a0a14"/>
+      <ellipse cx="-6" cy="-46" rx="5" ry="6" fill="#0a0a14"/>
+      <path d="M2,-66 L4,-62" stroke="#0a0a14" stroke-width="0.7" fill="none"/>
+      <path d="M9,-66 L10,-62" stroke="#0a0a14" stroke-width="0.7" fill="none"/>
+      <path d="M15,-58 L18,-54" stroke="#0a0a14" stroke-width="0.6" fill="none"/>
+      <ellipse cx="6" cy="-62" rx="4" ry="0.8" fill="#3a2810" opacity="0.85"/>
+    </g>
+    <!-- Eyes (looking down — focused). -->
+    <path d="M-1,-46 Q2,-45 5,-46" stroke="#0a0a14" stroke-width="1" fill="none" transform="rotate(28 6 -50)"/>
+    <path d="M9,-46 Q12,-45 15,-46" stroke="#0a0a14" stroke-width="1" fill="none" transform="rotate(28 6 -50)"/>
+    <!-- Brow furrowed. -->
+    <path d="M-1,-54 Q3,-56 6,-54" stroke="#080404" stroke-width="0.9" fill="none" transform="rotate(28 6 -50)"/>
+    <path d="M8,-54 Q12,-56 16,-54" stroke="#080404" stroke-width="0.9" fill="none" transform="rotate(28 6 -50)"/>
+    <!-- Lips firm. -->
+    <line x1="3" y1="-38" x2="11" y2="-38" stroke="#3a1810" stroke-width="0.9" transform="rotate(28 6 -50)"/>
+    <!-- Cool blue-white catch on cheekbone (from chamber crystal below). -->
+    <ellipse cx="2" cy="-42" rx="3" ry="1.4" fill="#a8b8ff" opacity="0.45" transform="rotate(28 6 -50)"/>
+    <ellipse cx="12" cy="-42" rx="3" ry="1.4" fill="#a8b8ff" opacity="0.45" transform="rotate(28 6 -50)"/>
+  </g>
+
+  <!-- LUMA (RIGHT) — sitting cross-legged with holo display projecting from wrist. -->
+  <g id="p15p4-luma" transform="translate(370, 245)">
+
+    <!-- Cross-legged shins. -->
+    <path d="M-30,72 Q-15,52 0,52 Q15,52 30,72 L30,82 L-30,82 Z" fill="#1a1058" stroke="#080408" stroke-width="0.8"/>
+    <line x1="-15" y1="68" x2="15" y2="68" stroke="#080408" stroke-width="0.6"/>
+    <!-- Boots tucked. -->
+    <ellipse cx="-22" cy="78" rx="6" ry="2.5" fill="#080404"/>
+    <ellipse cx="22" cy="78" rx="6" ry="2.5" fill="#080404"/>
+
+    <!-- Thighs crossed. -->
+    <ellipse cx="-15" cy="40" rx="13" ry="16" fill="url(#p15p4sapphire)" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="15" cy="40" rx="13" ry="16" fill="url(#p15p4sapphire)" stroke="#080408" stroke-width="0.6"/>
+
+    <!-- TORSO sitting upright. -->
+    <path d="M-20,-25 Q-24,2 -20,32 L20,32 Q24,2 20,-25 L10,-32 L-10,-32 Z" fill="url(#p15p4sapphire)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Sapphire seams. -->
+    <line x1="0" y1="-22" x2="0" y2="28" stroke="#a890f0" stroke-width="0.6" opacity="0.85" filter="url(#p15p4bloom)"/>
+    <line x1="-15" y1="-15" x2="-15" y2="20" stroke="#a890f0" stroke-width="0.5" opacity="0.7" filter="url(#p15p4bloom)"/>
+    <line x1="15" y1="-15" x2="15" y2="20" stroke="#a890f0" stroke-width="0.5" opacity="0.7" filter="url(#p15p4bloom)"/>
+    <ellipse cx="0" cy="2" rx="22" ry="14" fill="url(#p15p4sapphireGlow)" filter="url(#p15p4strongBloom)" opacity="0.55"/>
+
+    <!-- Shoulder pads. -->
+    <ellipse cx="-20" cy="-24" rx="8" ry="4.5" fill="#5a3ad8" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-20" cy="-25" rx="4.5" ry="2" fill="#a890f0" opacity="0.7"/>
+    <ellipse cx="20" cy="-24" rx="8" ry="4.5" fill="#5a3ad8" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="20" cy="-25" rx="4.5" ry="2" fill="#a890f0" opacity="0.7"/>
+
+    <!-- LEFT arm raised — wrist projecting holo (LEFT ARM = on her left, screen-right). -->
+    <path d="M-20,-10 L-32,5 L-50,18" fill="none" stroke="url(#p15p4sapphire)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-50" cy="18" rx="5" ry="3.5" fill="#5a3ad8" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-50" cy="18" rx="2.5" ry="1.8" fill="#a890f0" filter="url(#p15p4bloom)"/>
+    <!-- Wrist emitter glow. -->
+    <ellipse cx="-50" cy="18" rx="6" ry="4" fill="#a890f0" opacity="0.6" filter="url(#p15p4bloom)"/>
+
+    <!-- RIGHT arm reaching to manipulate holo. -->
+    <path d="M20,-10 L8,5 L-12,15" fill="none" stroke="url(#p15p4sapphire)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-12" cy="17" rx="4" ry="3" fill="#a87850" stroke="#080408" stroke-width="0.4"/>
+
+    <!-- HEAD looking down at holo. -->
+    <ellipse cx="-2" cy="-50" rx="13" ry="14" fill="#a87850" transform="rotate(-18 -2 -50)"/>
+    <g transform="rotate(-18 -2 -50)">
+      <path d="M-12,-60 Q-2,-68 10,-62 Q14,-54 10,-50 L-12,-50 Z" fill="#1a1018"/>
+      <path d="M-2,-68 L-2,-60" stroke="#080408" stroke-width="0.6" fill="none"/>
+      <!-- Braid down right side. -->
+      <path d="M10,-50 Q14,-40 12,-28 L14,-16" fill="#1a1018" stroke="#080408" stroke-width="0.4"/>
+      <ellipse cx="11" cy="-42" rx="3" ry="3" fill="#1a1018" stroke="#080408" stroke-width="0.4"/>
+      <ellipse cx="12" cy="-34" rx="3" ry="3" fill="#1a1018" stroke="#080408" stroke-width="0.4"/>
+      <ellipse cx="13" cy="-25" rx="3" ry="3" fill="#1a1018" stroke="#080408" stroke-width="0.4"/>
+      <ellipse cx="0" cy="-64" rx="4" ry="0.8" fill="#3a2820" opacity="0.85"/>
+    </g>
+    <!-- HOLO LENSES (script-specific). -->
+    <ellipse cx="-7" cy="-49" rx="3.5" ry="2.5" fill="#a890f0" opacity="0.85" stroke="#5a3ad8" stroke-width="0.6"/>
+    <ellipse cx="6" cy="-49" rx="3.5" ry="2.5" fill="#a890f0" opacity="0.85" stroke="#5a3ad8" stroke-width="0.6"/>
+    <line x1="-3" y1="-49" x2="3" y2="-49" stroke="#5a3ad8" stroke-width="0.6"/>
+    <circle cx="-7" cy="-49" r="0.8" fill="#dce4f0"/>
+    <circle cx="6" cy="-49" r="0.8" fill="#dce4f0"/>
+    <!-- Brow. -->
+    <path d="M-10,-56 Q-6,-58 -2,-56" stroke="#3a1810" stroke-width="0.9" fill="none" transform="rotate(-18 -2 -50)"/>
+    <path d="M2,-56 Q6,-58 10,-56" stroke="#3a1810" stroke-width="0.9" fill="none" transform="rotate(-18 -2 -50)"/>
+    <!-- Lips pressed thin (concern). -->
+    <line x1="-3" y1="-40" x2="3" y2="-40" stroke="#3a1810" stroke-width="0.9" transform="rotate(-18 -2 -50)"/>
+    <!-- Sapphire light catch. -->
+    <ellipse cx="-7" cy="-42" rx="3" ry="1.4" fill="#a890f0" opacity="0.55" transform="rotate(-18 -2 -50)"/>
+    <ellipse cx="7" cy="-42" rx="3" ry="1.4" fill="#a890f0" opacity="0.55" transform="rotate(-18 -2 -50)"/>
+  </g>
+
+  <!-- HOLO PROJECTION — large, between Luma's wrist and her right hand. Wrist at (320, 263), hand at (358, 262). -->
+  <g id="p15p4-holo">
+    <!-- Volumetric beam. -->
+    <ellipse cx="312" cy="244" rx="60" ry="34" fill="url(#p15p4holoBeam)" filter="url(#p15p4strongBloom)" opacity="0.7"/>
+    <!-- Wireframe hexagonal drive schematic floating. -->
+    <g stroke="#a8b8ff" stroke-width="0.9" fill="none" opacity="0.95" filter="url(#p15p4bloom)">
+      <!-- Hex top-down. -->
+      <polygon points="312,224 336,238 336,262 312,276 288,262 288,238"/>
+      <!-- Hex side projection (offset). -->
+      <polygon points="294,234 312,224 330,234 330,250 312,260 294,250"/>
+      <!-- Inner concentric rings. -->
+      <ellipse cx="312" cy="244" rx="14" ry="4"/>
+      <ellipse cx="312" cy="244" rx="8" ry="2.5"/>
+      <!-- Crystal break X marker. -->
+      <line x1="306" y1="240" x2="318" y2="248"/>
+      <line x1="318" y1="240" x2="306" y2="248"/>
+      <!-- Diagnostic callouts. -->
+      <line x1="336" y1="238" x2="356" y2="232"/>
+      <line x1="288" y1="262" x2="268" y2="270"/>
+      <line x1="312" y1="224" x2="312" y2="208"/>
+    </g>
+    <!-- Diagnostic text glyphs. -->
+    <g font-family="Helvetica Neue, Arial, sans-serif" fill="#a8b8ff" filter="url(#p15p4bloom)" opacity="0.95">
+      <text x="358" y="234" font-size="7" font-weight="600">CHMBR-FAIL</text>
+      <text x="266" y="276" font-size="7" font-weight="600" text-anchor="end">CRYSTAL: 4 PCS</text>
+      <text x="312" y="206" font-size="6" text-anchor="middle">DRIVE_v3.4</text>
+    </g>
+    <!-- Scan-line dashed. -->
+    <g stroke="#a8b8ff" stroke-width="0.5" opacity="0.55" stroke-dasharray="2,1.5">
+      <line x1="278" y1="242" x2="346" y2="242"/>
+      <line x1="278" y1="258" x2="346" y2="258"/>
+    </g>
+    <!-- Faint gridlines (schematic feel). -->
+    <g stroke="#5a8af0" stroke-width="0.3" opacity="0.45">
+      <line x1="290" y1="220" x2="290" y2="280"/>
+      <line x1="332" y1="220" x2="332" y2="280"/>
+      <line x1="280" y1="248" x2="346" y2="248"/>
+    </g>
+  </g>
+
+  <!-- WREN dialogue (top-left). -->
+  <g id="p15p4-dlg-wren">
+    <rect x="14" y="14" width="172" height="44" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Drive's a casualty.</text>
+    <path d="M88,58 L106,58 L114,180 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="88" y1="58" x2="106" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- LUMA dialogue (top-right). -->
+  <g id="p15p4-dlg-luma">
+    <rect x="208" y="14" width="266" height="78" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="218" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="218" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">I knew. I just...</text>
+    <text x="218" y="67" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">wanted to confirm</text>
+    <text x="218" y="83" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">before I told Sable.</text>
+    <path d="M340,92 L358,92 L362,200 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="340" y1="92" x2="358" y2="92" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- WREN quiet response. -->
+  <g id="p15p4-dlg-wren-quiet">
+    <rect x="42" y="320" width="160" height="44" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="52" y="338" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN (quiet)</text>
+    <text x="52" y="356" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Not your fault.</text>
+    <path d="M115,320 L133,320 L130,290 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="115" y1="320" x2="133" y2="320" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p15p4-meta">
+    <text x="480" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="484" y="372" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WREN+LUMA — TEMPORAL DRIVE DIAGNOSTIC</text>
+  </g>
+</svg>

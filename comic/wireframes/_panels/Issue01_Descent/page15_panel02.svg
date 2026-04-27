@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 1 — Page 15 — Panel 2: Thresh on watch — hypervigilant</title>
+  <desc>MCU 65mm. Thresh standing at cast-iron gutter wall, gauntleted hand on rim, facing outward scanning Welsh slate roof landscape (cliff faces) + chimney stacks trailing smoke. Broad-shouldered muscular, pale skin, defined cheekbones, jaw clenched too tight, copper-red buzz cut. Ruby suit w/ heavier armor, dented left pauldron, crimson holographic accents at seams. Posture textbook military overwatch but shoulders held fraction too high — hypervigilant. Warm amber from below lights waist-down. Cool crimson accents catch face from chest up. Chimney smoke backlit amber. SFX: BONNNGGG (distant church bell). THRESH: "Movement. Southeast. ...chimney smoke."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p15p2sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p15p2slateCliff" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </linearGradient>
+    <linearGradient id="p15p2chimney" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p15p2iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="p15p2cityGlow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p15p2ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <radialGradient id="p15p2crimsonGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f54848" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#5a1018" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p15p2smokeAmber" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p15p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p15p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky background. -->
+  <rect width="366" height="400" fill="url(#p15p2sky)"/>
+
+  <!-- Stars top. -->
+  <g fill="#dce4f0" opacity="0.7">
+    <circle cx="40" cy="22" r="0.6"/>
+    <circle cx="120" cy="32" r="0.5"/>
+    <circle cx="220" cy="22" r="0.6"/>
+    <circle cx="320" cy="32" r="0.5"/>
+  </g>
+
+  <!-- WELSH SLATE ROOF rising like cliff face (right side, dominating). -->
+  <path d="M180,80 L240,100 L260,160 L280,260 L260,360 L180,400 L180,80 Z" fill="url(#p15p2slateCliff)"/>
+  <!-- Slate tile rows visible diagonal (cliff face texture). -->
+  <g stroke="#0a0810" stroke-width="0.5" opacity="0.85">
+    <line x1="180" y1="120" x2="248" y2="135"/>
+    <line x1="180" y1="160" x2="262" y2="178"/>
+    <line x1="180" y1="200" x2="276" y2="220"/>
+    <line x1="180" y1="240" x2="280" y2="260"/>
+    <line x1="180" y1="280" x2="276" y2="300"/>
+    <line x1="180" y1="320" x2="270" y2="340"/>
+  </g>
+  <!-- Diagonal seams. -->
+  <g stroke="#0a0810" stroke-width="0.4" opacity="0.7">
+    <line x1="200" y1="130" x2="218" y2="170"/>
+    <line x1="220" y1="160" x2="240" y2="200"/>
+    <line x1="240" y1="200" x2="258" y2="240"/>
+    <line x1="200" y1="220" x2="220" y2="260"/>
+    <line x1="220" y1="260" x2="245" y2="300"/>
+  </g>
+
+  <!-- CHIMNEY STACKS towering above (left side BG). -->
+  <g id="p15p2-chimneys-bg">
+    <rect x="50" y="0" width="40" height="160" fill="url(#p15p2chimney)"/>
+    <rect x="46" y="0" width="48" height="3" fill="#1a0808"/>
+    <!-- Chimney pots crown. -->
+    <rect x="56" y="0" width="6" height="-22" fill="#3a1810"/>
+    <rect x="68" y="0" width="6" height="-26" fill="#3a1810"/>
+    <rect x="78" y="0" width="6" height="-22" fill="#3a1810"/>
+    <!-- Brick courses. -->
+    <g stroke="#080404" stroke-width="0.4" opacity="0.7">
+      <line x1="50" y1="40" x2="90" y2="40"/>
+      <line x1="50" y1="80" x2="90" y2="80"/>
+      <line x1="50" y1="120" x2="90" y2="120"/>
+    </g>
+    <!-- SMOKE TRAIL backlit amber. -->
+    <ellipse cx="100" cy="-12" rx="80" ry="14" fill="url(#p15p2smokeAmber)" filter="url(#p15p2strongBloom)"/>
+    <ellipse cx="100" cy="-5" rx="60" ry="10" fill="#3a2818" opacity="0.55"/>
+    <!-- Amber backlight catching smoke from below (script-specific). -->
+    <ellipse cx="100" cy="0" rx="50" ry="6" fill="#a85820" opacity="0.45" filter="url(#p15p2bloom)"/>
+  </g>
+
+  <!-- Distant smaller chimney stack BG. -->
+  <g>
+    <rect x="320" y="40" width="20" height="100" fill="url(#p15p2chimney)" opacity="0.85"/>
+    <rect x="318" y="38" width="24" height="3" fill="#1a0808"/>
+    <ellipse cx="330" cy="32" rx="22" ry="6" fill="#3a2818" opacity="0.5"/>
+  </g>
+
+  <!-- Strong warm amber rises from below (city-glow). -->
+  <ellipse cx="183" cy="400" rx="280" ry="100" fill="url(#p15p2cityGlow)" filter="url(#p15p2strongBloom)" opacity="0.85"/>
+
+  <!-- IRON GUTTER WALL (foreground, where Thresh stands w/ hand on rim). -->
+  <g id="p15p2-gutter-wall">
+    <!-- Curved wall section visible. -->
+    <path d="M0,300 Q100,280 200,290 L200,400 L0,400 Z" fill="url(#p15p2iron)"/>
+    <!-- Top rim. -->
+    <line x1="0" y1="300" x2="200" y2="290" stroke="#080404" stroke-width="1.5"/>
+    <!-- Rivets. -->
+    <g fill="#080404" opacity="0.85">
+      <circle cx="50" cy="295" r="2"/>
+      <circle cx="100" cy="287" r="2"/>
+      <circle cx="160" cy="290" r="2"/>
+    </g>
+    <!-- Soot. -->
+    <g fill="#080404" opacity="0.55">
+      <path d="M30,300 Q34,360 28,400"/>
+      <path d="M120,290 Q124,360 118,400"/>
+    </g>
+    <!-- Warm amber rim catching iron top. -->
+    <path d="M0,300 Q100,280 200,290" fill="none" stroke="#f5b860" stroke-width="1.4" opacity="0.85" filter="url(#p15p2bloom)"/>
+  </g>
+
+  <!-- THRESH MCU — standing right of frame, gauntleted hand on rim. -->
+  <g id="p15p2-thresh" transform="translate(160, 240)">
+
+    <!-- Body (broad-shouldered, muscular). -->
+    <path d="M-30,90 Q-36,30 -30,-15 L-15,-25 L20,-25 Q26,-15 30,90 Z" fill="url(#p15p2ruby)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Warm amber wash on lower body (waist down per script). -->
+    <path d="M-30,30 Q-36,60 -30,90 L30,90 Q26,60 30,30 Z" fill="#f5b860" opacity="0.25"/>
+
+    <!-- Right shoulder pad (intact, broad). -->
+    <ellipse cx="-30" cy="-22" rx="10" ry="6" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-30" cy="-23" rx="6" ry="3" fill="#f54848" opacity="0.7"/>
+    <!-- DENTED left pauldron (script-specific). -->
+    <ellipse cx="30" cy="-22" rx="10" ry="6" fill="#a8182a" stroke="#080408" stroke-width="0.6"/>
+    <path d="M22,-25 Q30,-15 38,-25" fill="#5a0810" stroke="#080408" stroke-width="0.5"/>
+    <line x1="24" y1="-20" x2="36" y2="-15" stroke="#1a0408" stroke-width="0.6"/>
+
+    <!-- Crimson holographic accents at seams (script-specific). -->
+    <g stroke="#f54848" stroke-width="0.7" fill="none" opacity="0.85" filter="url(#p15p2bloom)">
+      <line x1="-26" y1="-15" x2="-26" y2="0"/>
+      <line x1="26" y1="-15" x2="26" y2="0"/>
+      <line x1="-22" y1="20" x2="22" y2="20"/>
+    </g>
+    <ellipse cx="0" cy="-5" rx="22" ry="14" fill="url(#p15p2crimsonGlow)" filter="url(#p15p2strongBloom)" opacity="0.55"/>
+
+    <!-- LEFT arm gauntleted, hand resting on gutter rim (right side reaching toward camera). -->
+    <path d="M30,-10 L52,15 L72,38 L88,52" fill="none" stroke="url(#p15p2ruby)" stroke-width="6.5" stroke-linecap="round"/>
+    <!-- Gauntleted hand on rim. -->
+    <ellipse cx="88" cy="52" rx="6" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+    <!-- Crimson seam glow on hand. -->
+    <line x1="84" y1="50" x2="92" y2="54" stroke="#f54848" stroke-width="0.6" filter="url(#p15p2bloom)" opacity="0.85"/>
+
+    <!-- Right arm (closer to weapon at hip). -->
+    <path d="M-30,-10 L-36,15 L-32,30" fill="none" stroke="url(#p15p2ruby)" stroke-width="6.5" stroke-linecap="round"/>
+
+    <!-- Legs standing firm. -->
+    <path d="M-15,90 L-20,118 L-22,140" fill="none" stroke="#a8182a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M15,90 L20,118 L22,140" fill="none" stroke="#a8182a" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- HEAD scanning outward (head turned toward right where slate cliff is). -->
+    <ellipse cx="2" cy="-50" rx="14" ry="15" fill="#d8a880" transform="rotate(15 2 -50)"/>
+    <!-- Buzz cap copper-red. -->
+    <path d="M-9,-58 Q-3,-65 2,-65 Q7,-65 13,-58 L13,-50 L-9,-50 Z" fill="#a83a18" transform="rotate(15 2 -50)"/>
+    <path d="M-9,-58 Q2,-62 13,-58" fill="none" stroke="#5a1808" stroke-width="0.7" opacity="0.85" transform="rotate(15 2 -50)"/>
+    <!-- Stipple. -->
+    <g fill="#5a1808" opacity="0.85" transform="rotate(15 2 -50)">
+      <circle cx="-5" cy="-60" r="0.6"/>
+      <circle cx="-1" cy="-61" r="0.6"/>
+      <circle cx="3" cy="-62" r="0.6"/>
+      <circle cx="7" cy="-61" r="0.6"/>
+      <circle cx="11" cy="-58" r="0.6"/>
+    </g>
+    <!-- Defined cheekbones. -->
+    <ellipse cx="-9" cy="-44" rx="3" ry="1.7" fill="#a87850" opacity="0.55" transform="rotate(15 2 -50)"/>
+    <ellipse cx="9" cy="-44" rx="3" ry="1.7" fill="#a87850" opacity="0.55" transform="rotate(15 2 -50)"/>
+    <!-- Crimson accent catch on cheekbones (cool crimson per script). -->
+    <ellipse cx="-9" cy="-44" rx="2" ry="1" fill="#f54848" opacity="0.4" transform="rotate(15 2 -50)"/>
+    <ellipse cx="9" cy="-44" rx="2" ry="1" fill="#f54848" opacity="0.4" transform="rotate(15 2 -50)"/>
+
+    <!-- Eyes (looking toward right — scanning, hypervigilant). -->
+    <ellipse cx="-2" cy="-50" rx="1.6" ry="1.1" fill="#1a0808" transform="rotate(15 2 -50)"/>
+    <ellipse cx="6" cy="-50" rx="1.6" ry="1.1" fill="#1a0808" transform="rotate(15 2 -50)"/>
+    <ellipse cx="-2" cy="-50.5" rx="0.7" ry="0.7" fill="#080404" transform="rotate(15 2 -50)"/>
+    <ellipse cx="6" cy="-50.5" rx="0.7" ry="0.7" fill="#080404" transform="rotate(15 2 -50)"/>
+    <!-- Crimson catch in eyes. -->
+    <circle cx="-2" cy="-51" r="0.4" fill="#f54848" transform="rotate(15 2 -50)"/>
+    <circle cx="6" cy="-51" r="0.4" fill="#f54848" transform="rotate(15 2 -50)"/>
+    <!-- Brow hard-set + slight furrow (hypervigilant). -->
+    <path d="M-7,-56 Q-3,-58 1,-56" stroke="#5a1808" stroke-width="1.3" fill="none" transform="rotate(15 2 -50)"/>
+    <path d="M3,-56 Q6,-58 9,-56" stroke="#5a1808" stroke-width="1.3" fill="none" transform="rotate(15 2 -50)"/>
+    <!-- Tension line between brows. -->
+    <line x1="1" y1="-56" x2="2" y2="-50" stroke="#5a1808" stroke-width="0.7" transform="rotate(15 2 -50)"/>
+    <!-- Lips firm, pressed thin (jaw clenched too tight). -->
+    <line x1="-3" y1="-39" x2="6" y2="-39" stroke="#3a1808" stroke-width="1.4" transform="rotate(15 2 -50)"/>
+    <!-- JAW MUSCLE bumps (visible tension). -->
+    <ellipse cx="-9" cy="-37" rx="2.5" ry="1.5" fill="#5a1808" opacity="0.5" transform="rotate(15 2 -50)"/>
+    <ellipse cx="9" cy="-37" rx="2.5" ry="1.5" fill="#5a1808" opacity="0.5" transform="rotate(15 2 -50)"/>
+  </g>
+
+  <!-- SFX large atmospheric church bell — top-center. -->
+  <g id="p15p2-sfx-bell">
+    <text x="183" y="100" text-anchor="middle" font-family="Impact, Haettenschweiler, sans-serif" font-size="44" font-weight="900" stroke="#1a0408" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" fill="#a8a8c8" transform="rotate(-3 183 100)" opacity="0.85">BONNNGGG</text>
+  </g>
+
+  <!-- THRESH dialogue. -->
+  <g id="p15p2-dlg-thresh">
+    <rect x="14" y="14" width="222" height="62" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Movement. Southeast.</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">...chimney smoke.</text>
+    <path d="M150,76 L168,76 L160,200 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="76" x2="168" y2="76" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p15p2-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">THRESH HYPERVIGILANT</text>
+  </g>
+</svg>
