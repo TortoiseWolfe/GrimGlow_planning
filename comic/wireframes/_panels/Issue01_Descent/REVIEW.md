@@ -2,15 +2,15 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 11 added, Wings Deploy spectacle).
+**Last update:** 2026-04-27 (loop session extended — Page 13 added, London Confirmed).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–12 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition (Issue 1 first 12 contiguous + climax). Earlier failure modes from v1 have been fixed across all 62 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
+**Pages 1–13 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 67 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P13P01–P13P05, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
 
-**Issue 1 first 12 pages CONTIGUOUS** — Pages 1-12 + Pages 18-22 all painterly. Pages 13-17 remain as middle continuity gaps — 5 pages remaining (15/22 painterly = 68%).
+**Issue 1 first 13 pages CONTIGUOUS** — Pages 1-13 + Pages 18-22 all painterly. Pages 14-17 remain as middle continuity gaps — 4 pages remaining (16/22 painterly = 73%).
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -30,13 +30,15 @@
 
 **Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px.
 
-**Page 11 (Wings Deploy spectacle)** — 5 panels, 1179px (full-width / 2-col / 2-col narrow). Wing-pack reveal + launch — strongest holographic light moment in issue.
+**Page 13 (London Confirmed + first seed of secret)** — 5 panels, 1179px (2-col narrow / full-width / 2-col). Sable's recognition: convergence point.
+
+**Page 11 (Wings Deploy spectacle)** — 5 panels, 1179px.
 
 **Page 10 (the Damage Report)** — 5 panels, 1179px.
 
 **Page 9 (THE SCALE REVEAL — opening Section 3 build)** — 5 panels, 1179px.
 
-**Pages 13-17 of Issue 1 remain auto-generated stick-figure storyboards.** (5 pages remaining of 22 = 15/22 painterly + 5/22 storyboard ≈ 68%.)
+**Pages 14-17 of Issue 1 remain auto-generated stick-figure storyboards.** (4 pages remaining of 22 = 16/22 painterly + 4/22 storyboard ≈ 73%.)
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -240,6 +242,75 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 13 — DONE (middle continuity — London Confirmed)
+
+5 panels in 3 tiers (2-col narrow / full-width / 2-col) summing to 1179px page-fill. Luma confirms 1886 London via moss spectroscopy. Sable's recognition: convergence point. First seed of the secret she carries.
+
+### P13P01 — Thresh isolated, sentinel duty (488×380)
+- ✅ Curved iron gutter wall + rivets + soot streaks
+- ✅ Strong warm amber glow from RIGHT (city) — dominates per script
+- ✅ Faint cool flicker far-LEFT (dying wreckage)
+- ✅ Thresh sitting upright against wall, ruby suit, copper-red buzz, dented LEFT pauldron
+- ✅ Left arm held close (dislocated shoulder)
+- ✅ Compact angular sidearm visible on floor beside her w/ crimson holographic accent lines
+- ✅ Dead leaf curling against wall like leathery screen between Thresh + rest of squad
+- ✅ Distant background figures: Wren copper at wreckage, Sable silver near edge, Luma sapphire between
+- ✅ Steady intense eyes, jaw set hard
+- ✅ Silent — "isolation as sentinel duty" beat lands
+
+### P13P02 — Thresh's hand on sidearm ECU (244×380)
+- ✅ Iron gutter floor w/ visible coal grit + soot granules (script-specific)
+- ✅ Warm amber halo around weapon area
+- ✅ Ruby gauntlet forearm enters from upper-right w/ armor segments + dent at wrist
+- ✅ Hand back showing past wrist w/ 4 prominent knuckles + thumb
+- ✅ 4 fingers laid flat across weapon (RESTING, not gripping per script)
+- ✅ Compact angular sidearm w/ crimson holographic accent lines glowing red-amber
+- ✅ Crimson glow halo around weapon
+- ✅ Crimson reflection on undersides of fingertips
+- ✅ Silent — "soldier reaching for what she knows" beat lands
+
+### P13P03 — Luma scans moss, confirms 1886 London (742×300)
+- ✅ Sky w/ stars + warm amber city-glow on far-right + cool wreckage glow far-left (fading)
+- ✅ Lead flashing strip across (where moss grows)
+- ✅ Moss patch visible at iron+lead joint w/ fronds + light highlights
+- ✅ HOLOGRAPHIC SCANNER ANALYSIS DISPLAY over moss showing geometric grid + tiny readout text (SULPH/CO2/SO2/YR 1886/EARTH/N. HEMI)
+- ✅ Bright blue-violet halo from scanner + pulsing data nodes
+- ✅ Luma crouching, sapphire suit, head looking down at moss
+- ✅ Right arm extended forward holding scanner near moss
+- ✅ Single thick braid trailing back-right with luminous filaments
+- ✅ ONE CRACKED LENS w/ prismatic flare (script-specific)
+- ✅ Brow relaxed-open + lips parted (script: "fascination, not worry")
+- ✅ Cheekbones DUAL CATCH (cool-left from scanner + warm-right from city)
+- ✅ Three balloons: LUMA confirmation w/ bold "1886. London. Almost certain." + SABLE O.P. dashed bold "London." + LUMA italic-bold echoes "London."
+
+### P13P04 — Moss as forest at fairy scale (366×420)
+- ✅ Iron landscape w/ pits + green oxidation patches + coal grit (pitted oxidized iron terrain per script)
+- ✅ Blue-violet scanner beam cutting through from above w/ diagonal rays + geometric pattern overlay
+- ✅ Warm amber backlight at very top (city-glow beyond gutter edge)
+- ✅ 6 moss fronds standing like fern trees w/ stalks + capsule tops glowing amber-green from backlight
+- ✅ Side branches/foliage on hero fronds
+- ✅ Multiple water droplets clinging to fronds, each catching prismatic blue-white reflections
+- ✅ Geometric scanner pattern shadows on droplets
+- ✅ Silent — "biology at scale that transforms mundane to magnificent" beat lands
+
+### P13P05 — Sable absorbs recognition (366×420)
+- ✅ Sky w/ stars + distant cityscape silhouettes + amber haze
+- ✅ Distant streets w/ amber gas pools
+- ✅ Strong warm amber dominates frame (warm world claiming per script)
+- ✅ Sable centered, silver suit, cracked right shoulder w/ FAINT blue-white leak (script: "nearly spent")
+- ✅ Head turned right toward city, NOT toward Luma (script-specific)
+- ✅ Buzz cap w/ warm amber rim catching hair (script: "rim light around her silver hair and shoulder")
+- ✅ Warm rim on right shoulder
+- ✅ Eyes narrowing slightly w/ warm catch-lights
+- ✅ Tension line between brows
+- ✅ JAW MUSCLE BUMP visible (the tightening per script)
+- ✅ Lips firm-set
+- ✅ Cheekbones w/ warm catch dominant
+- ✅ Four balloons: SABLE bold "London." + SABLE quieter italic "...the convergence point." + LUMA O.P. dashed bold "Sable?" + SABLE "Nothing. Continue."
+- ✅ "First seed of the secret she carries" beat lands
 
 ---
 

@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 1 — Page 13 — Panel 3: Luma scans moss, confirms 1886 London</title>
+  <desc>MW slight low angle 35mm. Luma crouching at gutter edge examining moss patch growing in joint between iron + lead flashing. Holographic blue-violet analysis display over moss showing geometric overlays of cellular structure + atmospheric data. Cracked lens prismatic flare at left eye. Absorbed fascination — eyes moving between moss + scanner readout, lips parted, brow relaxed-open in discovery. Behind: gutter stretching back toward fading wreckage. Beyond gutter edge: warm amber city-glow rises. Dual lighting precisely balanced on face. LUMA confirms 1886 London + SABLE OP "London." + LUMA echoes "London."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p13p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p13p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p13p3leadFlashing" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a3038"/>
+    </linearGradient>
+    <radialGradient id="p13p3cityGlow" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p13p3coolWreck" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p13p3sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a18a0"/>
+    </linearGradient>
+    <linearGradient id="p13p3moss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6a9858"/>
+      <stop offset="100%" stop-color="#2a4830"/>
+    </linearGradient>
+    <radialGradient id="p13p3scannerHalo" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a87af0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#5a3ad8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3a2acc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p13p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p13p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky background — visible at top (gutter edge meets sky beyond). -->
+  <rect width="742" height="300" fill="url(#p13p3bg)"/>
+
+  <!-- Sparse stars. -->
+  <g fill="#dce4f0" opacity="0.7">
+    <circle cx="100" cy="22" r="0.6"/>
+    <circle cx="280" cy="32" r="0.5"/>
+    <circle cx="460" cy="22" r="0.6"/>
+    <circle cx="640" cy="32" r="0.5"/>
+  </g>
+
+  <!-- Warm amber city-glow from RIGHT (beyond gutter edge). -->
+  <ellipse cx="742" cy="180" rx="240" ry="220" fill="url(#p13p3cityGlow)" filter="url(#p13p3strongBloom)"/>
+
+  <!-- Cool wreckage glow from FAR-LEFT (fading). -->
+  <ellipse cx="0" cy="180" rx="150" ry="180" fill="url(#p13p3coolWreck)" filter="url(#p13p3strongBloom)"/>
+
+  <!-- Curved gutter wall back (visible at bottom-back). -->
+  <path d="M0,140 Q371,118 742,140 L742,300 L0,300 Z" fill="url(#p13p3iron)"/>
+  <line x1="0" y1="180" x2="742" y2="160" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <g fill="#080404" opacity="0.85">
+    <circle cx="80" cy="185" r="1.7"/>
+    <circle cx="280" cy="167" r="1.7"/>
+    <circle cx="500" cy="167" r="1.7"/>
+    <circle cx="700" cy="185" r="1.7"/>
+  </g>
+
+  <!-- LEAD FLASHING strip running across (where moss grows in joint). -->
+  <rect y="140" width="742" height="14" fill="url(#p13p3leadFlashing)"/>
+  <line x1="0" y1="140" x2="742" y2="140" stroke="#080404" stroke-width="1"/>
+  <line x1="0" y1="154" x2="742" y2="154" stroke="#080404" stroke-width="0.7"/>
+
+  <!-- MOSS PATCH growing in iron-lead joint (foreground center, where Luma examines). -->
+  <g id="p13p3-moss" transform="translate(371, 154)">
+    <!-- Base moss mass. -->
+    <ellipse cx="0" cy="0" rx="80" ry="14" fill="url(#p13p3moss)" opacity="0.95"/>
+    <!-- Individual moss fronds (small green stalks). -->
+    <g fill="url(#p13p3moss)" stroke="#2a4830" stroke-width="0.5">
+      <circle cx="-60" cy="-2" r="3"/>
+      <circle cx="-50" cy="-4" r="3.5"/>
+      <circle cx="-38" cy="-3" r="3"/>
+      <circle cx="-25" cy="-5" r="3.5"/>
+      <circle cx="-10" cy="-3" r="3"/>
+      <circle cx="0" cy="-5" r="4"/>
+      <circle cx="12" cy="-3" r="3"/>
+      <circle cx="25" cy="-4" r="3.5"/>
+      <circle cx="38" cy="-3" r="3"/>
+      <circle cx="50" cy="-5" r="3"/>
+      <circle cx="62" cy="-3" r="3"/>
+    </g>
+    <!-- Lighter green highlights (fronds catching light). -->
+    <g fill="#a8c878" opacity="0.7">
+      <circle cx="-50" cy="-5" r="1.5"/>
+      <circle cx="-25" cy="-6" r="1.5"/>
+      <circle cx="0" cy="-7" r="1.7"/>
+      <circle cx="25" cy="-5" r="1.5"/>
+      <circle cx="50" cy="-6" r="1.5"/>
+    </g>
+  </g>
+
+  <!-- HOLOGRAPHIC SCANNER ANALYSIS DISPLAY over moss (blue-violet geometric overlays). -->
+  <g id="p13p3-scanner-overlay" transform="translate(371, 145)">
+    <!-- Bright halo. -->
+    <ellipse cx="0" cy="0" rx="100" ry="40" fill="url(#p13p3scannerHalo)" filter="url(#p13p3strongBloom)"/>
+    <ellipse cx="0" cy="0" rx="60" ry="25" fill="#a87af0" filter="url(#p13p3bloom)" opacity="0.45"/>
+    <!-- Geometric grid overlay (cellular structure indication). -->
+    <g stroke="#bfb0ff" stroke-width="0.6" fill="none" opacity="0.85">
+      <rect x="-70" y="-25" width="140" height="35" rx="2" stroke-dasharray="3,1"/>
+      <line x1="-60" y1="-15" x2="60" y2="-15"/>
+      <line x1="-60" y1="-5" x2="60" y2="-5"/>
+      <line x1="-60" y1="5" x2="60" y2="5"/>
+      <!-- Vertical grid lines. -->
+      <line x1="-40" y1="-22" x2="-40" y2="8"/>
+      <line x1="-20" y1="-22" x2="-20" y2="8"/>
+      <line x1="0" y1="-22" x2="0" y2="8"/>
+      <line x1="20" y1="-22" x2="20" y2="8"/>
+      <line x1="40" y1="-22" x2="40" y2="8"/>
+    </g>
+    <!-- Tiny fairy script readout. -->
+    <g fill="#c8a8ff" opacity="0.85" font-family="monospace" font-size="4">
+      <text x="-65" y="-18">SULPH 0.04</text>
+      <text x="-65" y="-9">CO2 0.03</text>
+      <text x="-65" y="0">SO2 0.02</text>
+      <text x="20" y="-18">YR 1886</text>
+      <text x="20" y="-9">EARTH</text>
+      <text x="20" y="0">N. HEMI</text>
+    </g>
+    <!-- Pulsing data nodes. -->
+    <g fill="#ffffff" filter="url(#p13p3bloom)">
+      <circle cx="-40" cy="-12" r="0.8"/>
+      <circle cx="0" cy="-2" r="0.9"/>
+      <circle cx="40" cy="0" r="0.8"/>
+    </g>
+  </g>
+
+  <!-- LUMA crouching at gutter edge LEFT side, examining moss. -->
+  <g id="p13p3-luma" transform="translate(180, 200)">
+
+    <!-- Body in sapphire suit, crouched. -->
+    <path d="M-22,60 Q-26,15 -22,-15 L-12,-25 L18,-25 Q22,-15 22,60 Z" fill="url(#p13p3sapphire)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Dual-light wash on body. -->
+    <ellipse cx="-10" cy="0" rx="14" ry="20" fill="#bfe4ff" opacity="0.18"/>
+    <ellipse cx="10" cy="0" rx="14" ry="20" fill="#f5b860" opacity="0.18"/>
+    <!-- Shoulders. -->
+    <ellipse cx="-22" cy="-22" rx="7" ry="4" fill="#5a3ad8" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="22" cy="-22" rx="7" ry="4" fill="#5a3ad8" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-22" cy="-23" rx="4" ry="2" fill="#a87af0" opacity="0.55"/>
+    <ellipse cx="22" cy="-23" rx="4" ry="2" fill="#a87af0" opacity="0.55"/>
+
+    <!-- Right arm extended forward toward moss + scanner. -->
+    <path d="M22,-12 L52,2 L80,8 L110,12" fill="none" stroke="#5a3ad8" stroke-width="6" stroke-linecap="round"/>
+    <!-- Scanner held forward (small device). -->
+    <rect x="105" y="6" width="14" height="10" rx="1.5" fill="#1a1828" stroke="#a87af0" stroke-width="0.7"/>
+    <rect x="107" y="8" width="10" height="2.5" fill="#a87af0" opacity="0.85"/>
+    <ellipse cx="112" cy="10" rx="9" ry="6" fill="#a87af0" filter="url(#p13p3bloom)" opacity="0.55"/>
+
+    <!-- Left arm braced/touching ground. -->
+    <path d="M-22,-5 L-32,18 L-32,38" fill="none" stroke="#5a3ad8" stroke-width="5.5" stroke-linecap="round"/>
+    <ellipse cx="-32" cy="38" rx="3.5" ry="2.5" fill="#a87850"/>
+
+    <!-- Crouched legs (folded). -->
+    <path d="M-12,60 L-16,80 L-20,100" fill="none" stroke="#3a2a8c" stroke-width="7" stroke-linecap="round"/>
+    <path d="M14,60 L20,80 L22,100" fill="none" stroke="#3a2a8c" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- HEAD looking down toward moss/scanner readout. -->
+    <ellipse cx="2" cy="-37" rx="13" ry="14" fill="#a87850" transform="rotate(15 2 -37)"/>
+    <!-- Hair. -->
+    <path d="M-9,-44 Q-3,-50 2,-50 Q7,-50 13,-44 L13,-37 L-9,-37 Z" fill="#1a0a08" transform="rotate(15 2 -37)"/>
+    <!-- Single thick braid trailing back-right. -->
+    <path d="M9,-32 Q22,-22 32,-8 Q40,8 35,22" fill="none" stroke="#1a0a08" stroke-width="5" stroke-linecap="round"/>
+    <line x1="14" y1="-25" x2="20" y2="-20" stroke="#5a3a18" stroke-width="0.7"/>
+    <line x1="22" y1="-15" x2="28" y2="-10" stroke="#5a3a18" stroke-width="0.7"/>
+    <line x1="32" y1="0" x2="36" y2="10" stroke="#5a3a18" stroke-width="0.7"/>
+    <circle cx="35" cy="22" r="2" fill="#5a3a18"/>
+    <!-- Luminous filament accents. -->
+    <circle cx="22" cy="-18" r="0.7" fill="#a87af0" filter="url(#p13p3bloom)" opacity="0.95"/>
+    <circle cx="32" cy="2" r="0.7" fill="#a87af0" filter="url(#p13p3bloom)" opacity="0.95"/>
+
+    <!-- HOLOGRAPHIC LENSES — one cracked w/ prismatic flare (script-specific). -->
+    <ellipse cx="-5" cy="-37" rx="3.5" ry="2.5" fill="#1a1828" stroke="#a87af0" stroke-width="0.7" transform="rotate(15 2 -37)"/>
+    <ellipse cx="5" cy="-37" rx="3.5" ry="2.5" fill="#1a1828" stroke="#a87af0" stroke-width="0.7" transform="rotate(15 2 -37)"/>
+    <line x1="-2" y1="-37" x2="2" y2="-37" stroke="#a87af0" stroke-width="0.5" transform="rotate(15 2 -37)"/>
+    <!-- ACTIVE scrolling data. -->
+    <ellipse cx="-5" cy="-37" rx="3" ry="2" fill="#a87af0" opacity="0.55" transform="rotate(15 2 -37)"/>
+    <ellipse cx="5" cy="-37" rx="3" ry="2" fill="#a87af0" opacity="0.55" transform="rotate(15 2 -37)"/>
+    <!-- LEFT LENS CRACKED — prismatic flare (script-specific). -->
+    <line x1="-7" y1="-39" x2="-3" y2="-35" stroke="#bfe4ff" stroke-width="0.7" filter="url(#p13p3bloom)" opacity="0.95" transform="rotate(15 2 -37)"/>
+    <line x1="-8" y1="-37" x2="-2" y2="-37" stroke="#ffffff" stroke-width="0.5" opacity="0.85" transform="rotate(15 2 -37)"/>
+    <circle cx="-5" cy="-37" r="1.3" fill="#ffffff" filter="url(#p13p3bloom)" opacity="0.75" transform="rotate(15 2 -37)"/>
+
+    <!-- Brow relaxed — open in discovery (script-specific, not furrowed). -->
+    <path d="M-9,-43 Q-5,-44 -1,-43" stroke="#3a1808" stroke-width="0.8" fill="none" transform="rotate(15 2 -37)"/>
+    <path d="M1,-43 Q5,-44 9,-43" stroke="#3a1808" stroke-width="0.8" fill="none" transform="rotate(15 2 -37)"/>
+    <!-- Lips slightly parted (engaged). -->
+    <path d="M-3,-23 Q1,-21 5,-23" fill="none" stroke="#5a2818" stroke-width="1.2" stroke-linecap="round" transform="rotate(15 2 -37)"/>
+    <line x1="-2" y1="-22" x2="4" y2="-22" stroke="#3a1808" stroke-width="0.4" opacity="0.6" transform="rotate(15 2 -37)"/>
+    <!-- Cheekbones — dual catch (cool LEFT from scanner, warm RIGHT from city). -->
+    <ellipse cx="-9" cy="-30" rx="3" ry="1.5" fill="#dceaff" opacity="0.45" transform="rotate(15 2 -37)"/>
+    <ellipse cx="9" cy="-30" rx="3" ry="1.5" fill="#f5b860" opacity="0.5" transform="rotate(15 2 -37)"/>
+  </g>
+
+  <!-- DIALOGUE — LUMA confirms (top-left big balloon) + SABLE OP "London." + LUMA echoes "London." -->
+  <g id="p13p3-dlg-luma1">
+    <rect x="14" y="14" width="338" height="98" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Sulphur in this moss is remarkable.</text>
+    <text x="24" y="70" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Pre-Clean Air. Combined w/ stellar fix...</text>
+    <text x="24" y="90" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#1a1a1a">1886. London. Almost certain.</text>
+    <path d="M150,112 L168,112 L186,180 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="112" x2="168" y2="112" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE O.P. — single word. -->
+  <g id="p13p3-dlg-sable-op">
+    <rect x="372" y="14" width="160" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="382" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE (O.P.)</text>
+    <text x="382" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">London.</text>
+  </g>
+
+  <!-- LUMA echoes (small balloon below). -->
+  <g id="p13p3-dlg-luma2">
+    <rect x="372" y="80" width="160" height="46" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="382" y="100" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="382" y="120" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" font-style="italic" fill="#1a1a1a">London.</text>
+    <path d="M390,126 L408,126 L290,200 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="390" y1="126" x2="408" y2="126" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p13p3-meta">
+    <text x="730" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="734" y="292" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">LUMA — 1886 LONDON</text>
+  </g>
+</svg>

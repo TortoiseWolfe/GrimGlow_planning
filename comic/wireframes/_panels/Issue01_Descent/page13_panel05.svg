@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 420" width="366" height="420">
+  <title>Issue 1 — Page 13 — Panel 5: Sable absorbs recognition — first seed of the secret</title>
+  <desc>MS 50mm. Sable standing in gutter looking at city beyond gutter edge, NOT at Luma. Late thirties, dark brown skin, silver-white buzz, sharp features, silver suit cracked panels at right shoulder — blue-white leak now faint, nearly spent. Expression: recognition settling, then deliberate suppression, eyes narrowing slightly, jaw muscle tightening, FILING SOMETHING AWAY. Bathed in warm amber from city. Behind: last faint glow of dying wreckage touches silver suit from behind. Warm amber world fills frame. Cool light almost gone. SABLE "London." + quieter "...the convergence point." + LUMA OP "Sable?" + SABLE "Nothing. Continue your assessment."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p13p5sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="p13p5cityHaze" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#c87830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p13p5silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bfc6d0"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <radialGradient id="p13p5fractureGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p13p5backRim" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p13p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p13p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky background. -->
+  <rect width="366" height="420" fill="url(#p13p5sky)"/>
+
+  <!-- Stars top. -->
+  <g fill="#dce4f0" opacity="0.65">
+    <circle cx="40" cy="30" r="0.6"/>
+    <circle cx="120" cy="42" r="0.5"/>
+    <circle cx="220" cy="32" r="0.6"/>
+    <circle cx="320" cy="40" r="0.5"/>
+    <circle cx="80" cy="80" r="0.5"/>
+    <circle cx="280" cy="78" r="0.5"/>
+  </g>
+
+  <!-- WARM AMBER FILLS THE FRAME (script: warm amber world dominates). -->
+  <rect y="160" width="366" height="260" fill="url(#p13p5cityHaze)" opacity="0.85"/>
+
+  <!-- Distant Victorian cityscape. -->
+  <g id="p13p5-far-city">
+    <path d="M0,200 L40,196 L80,200 L120,192 L160,200 L200,190 L240,200 L280,188 L320,198 L366,194 L366,260 L0,260 Z" fill="#1a1820" opacity="0.85"/>
+    <polygon points="80,178 86,200 74,200" fill="#1a1820"/>
+    <polygon points="200,174 208,198 192,198" fill="#1a1820"/>
+    <polygon points="320,176 326,196 314,196" fill="#1a1820"/>
+    <rect x="148" y="168" width="5" height="32" fill="#0a0808"/>
+    <ellipse cx="170" cy="158" rx="32" ry="9" fill="#3a2818" opacity="0.5"/>
+    <path d="M0,260 L60,256 L120,262 L180,254 L240,262 L300,256 L360,262 L366,260 L366,290 L0,290 Z" fill="#0a0808"/>
+    <g fill="#3a1810">
+      <rect x="50" y="244" width="5" height="16"/>
+      <rect x="160" y="242" width="5" height="18"/>
+      <rect x="280" y="244" width="5" height="16"/>
+    </g>
+    <ellipse cx="100" cy="278" rx="6" ry="3" fill="#fff5d8" filter="url(#p13p5bloom)" opacity="0.85"/>
+    <ellipse cx="280" cy="278" rx="5" ry="3" fill="#fff5d8" filter="url(#p13p5bloom)" opacity="0.7"/>
+  </g>
+
+  <!-- Streets w/ amber pools. -->
+  <ellipse cx="80" cy="305" rx="50" ry="6" fill="url(#p13p5cityHaze)" filter="url(#p13p5bloom)" opacity="0.85"/>
+  <ellipse cx="240" cy="308" rx="55" ry="7" fill="url(#p13p5cityHaze)" filter="url(#p13p5bloom)" opacity="0.95"/>
+
+  <!-- Strong WARM AMBER glow filling frame. -->
+  <ellipse cx="183" cy="300" rx="280" ry="180" fill="url(#p13p5backRim)" filter="url(#p13p5strongBloom)" opacity="0.6"/>
+
+  <!-- SABLE — centered, MS, looking at city (away from Luma who's off-panel left). -->
+  <g id="p13p5-sable" transform="translate(183, 300)">
+
+    <!-- Body in damaged silver suit. -->
+    <path d="M-26,90 Q-30,30 -25,-25 L-12,-40 L18,-40 Q24,-25 28,-25 Q32,30 26,90 Z" fill="url(#p13p5silver)" stroke="#3a3848" stroke-width="0.8"/>
+    <!-- Warm amber wash dominates body (warm world claiming). -->
+    <ellipse cx="0" cy="20" rx="22" ry="40" fill="#f5b860" opacity="0.22"/>
+
+    <!-- CRACKED RIGHT shoulder — blue-white leak NOW FAINT, nearly spent (script-specific). -->
+    <ellipse cx="22" cy="-22" rx="9" ry="5" fill="#9ba1aa" stroke="#080408" stroke-width="0.5"/>
+    <line x1="16" y1="-23" x2="28" y2="-20" stroke="#7ac8ff" stroke-width="0.7" filter="url(#p13p5bloom)" opacity="0.65"/>
+    <ellipse cx="22" cy="-20" rx="10" ry="6" fill="url(#p13p5fractureGlow)" filter="url(#p13p5strongBloom)" opacity="0.3"/>
+    <!-- Left shoulder. -->
+    <ellipse cx="-22" cy="-22" rx="9" ry="5" fill="#9ba1aa" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- Arms at sides. -->
+    <path d="M-26,-15 L-32,18 L-34,55" fill="none" stroke="url(#p13p5silver)" stroke-width="6.5" stroke-linecap="round"/>
+    <path d="M26,-15 L32,18 L34,55" fill="none" stroke="url(#p13p5silver)" stroke-width="6.5" stroke-linecap="round"/>
+
+    <!-- Legs. -->
+    <path d="M-12,90 L-16,118 L-18,140" fill="none" stroke="#5a606a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M14,90 L18,118 L20,140" fill="none" stroke="#5a606a" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- HEAD — facing right toward city (NOT facing Luma off-panel left). -->
+    <ellipse cx="6" cy="-52" rx="13" ry="14" fill="#5a3018" transform="rotate(15 6 -52)"/>
+    <!-- Buzz cap. -->
+    <path d="M-5,-60 Q1,-66 6,-66 Q11,-66 17,-60 L17,-52 L-5,-52 Z" fill="#e8eaee" transform="rotate(15 6 -52)"/>
+    <path d="M-5,-60 Q6,-64 17,-60" fill="none" stroke="#9aa4b4" stroke-width="0.7" opacity="0.7" transform="rotate(15 6 -52)"/>
+    <!-- Stipple. -->
+    <g fill="#5a606a" opacity="0.6" transform="rotate(15 6 -52)">
+      <circle cx="-1" cy="-62" r="0.5"/>
+      <circle cx="3" cy="-63" r="0.5"/>
+      <circle cx="7" cy="-64" r="0.5"/>
+      <circle cx="11" cy="-63" r="0.5"/>
+      <circle cx="15" cy="-60" r="0.5"/>
+    </g>
+    <!-- Soot dust. -->
+    <g fill="#3a2818" opacity="0.5" transform="rotate(15 6 -52)">
+      <circle cx="4" cy="-65" r="0.7"/>
+      <circle cx="10" cy="-66" r="0.6"/>
+    </g>
+    <!-- WARM AMBER RIM on hair (script-specific golden rim). -->
+    <path d="M-5,-60 Q6,-64 17,-60" fill="none" stroke="#f5b860" stroke-width="1" opacity="0.9" filter="url(#p13p5bloom)" transform="rotate(15 6 -52)"/>
+    <!-- Warm rim on right shoulder. -->
+    <path d="M28,-25 Q32,30 26,90" fill="none" stroke="#f5b860" stroke-width="1.7" opacity="0.85" filter="url(#p13p5bloom)"/>
+
+    <!-- FACE — eyes narrowing slightly, jaw muscle tightening. -->
+    <!-- Eyes (looking RIGHT toward city). -->
+    <ellipse cx="3" cy="-52" rx="1.5" ry="0.9" fill="#1a0808" transform="rotate(15 6 -52)"/>
+    <ellipse cx="11" cy="-52" rx="1.5" ry="0.9" fill="#1a0808" transform="rotate(15 6 -52)"/>
+    <ellipse cx="3" cy="-52.5" rx="0.6" ry="0.5" fill="#080404" transform="rotate(15 6 -52)"/>
+    <ellipse cx="11" cy="-52.5" rx="0.6" ry="0.5" fill="#080404" transform="rotate(15 6 -52)"/>
+    <!-- Warm catch-lights (city). -->
+    <circle cx="4" cy="-52.5" r="0.4" fill="#fff5d0" transform="rotate(15 6 -52)"/>
+    <circle cx="12" cy="-52.5" r="0.4" fill="#fff5d0" transform="rotate(15 6 -52)"/>
+    <!-- Brow narrowing (the recognition+suppression). -->
+    <path d="M-1,-58 Q3,-59 7,-58" stroke="#3a1808" stroke-width="1" fill="none" transform="rotate(15 6 -52)"/>
+    <path d="M9,-58 Q13,-59 17,-58" stroke="#3a1808" stroke-width="1" fill="none" transform="rotate(15 6 -52)"/>
+    <!-- Tension line between brows. -->
+    <line x1="7" y1="-57" x2="8" y2="-50" stroke="#3a1808" stroke-width="0.7" transform="rotate(15 6 -52)"/>
+    <!-- Profile nose (3/4 view). -->
+    <path d="M11,-49 L14,-43 L11,-42 Z" fill="#3a1808" opacity="0.55" transform="rotate(15 6 -52)"/>
+    <!-- Lips firm-set. -->
+    <line x1="3" y1="-42" x2="13" y2="-42" stroke="#3a1808" stroke-width="1.2" transform="rotate(15 6 -52)"/>
+    <!-- JAW MUSCLE TIGHTENING (script-specific — visible jaw bump). -->
+    <ellipse cx="-2" cy="-44" rx="3" ry="2" fill="#3a1808" opacity="0.5" transform="rotate(15 6 -52)"/>
+    <!-- Cheekbones — warm winning. -->
+    <ellipse cx="13" cy="-46" rx="3" ry="1.7" fill="#a87850" opacity="0.6" transform="rotate(15 6 -52)"/>
+    <ellipse cx="14" cy="-45" rx="2" ry="1.2" fill="#f5b860" opacity="0.55" transform="rotate(15 6 -52)"/>
+  </g>
+
+  <!-- DIALOGUE — 4 lines: SABLE "London." + quieter "...the convergence point." + LUMA OP "Sable?" + SABLE "Nothing. Continue." -->
+  <g id="p13p5-dlg-sable1">
+    <rect x="14" y="14" width="120" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">London.</text>
+    <path d="M30,60 L48,60 L120,250 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="30" y1="60" x2="48" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p13p5-dlg-sable2">
+    <rect x="160" y="14" width="206" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="170" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="170" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="500" font-style="italic" fill="#3a3030">...the convergence point.</text>
+    <path d="M180,60 L196,60 L150,250 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="180" y1="60" x2="196" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- LUMA O.P. -->
+  <g id="p13p5-dlg-luma-op">
+    <rect x="14" y="350" width="124" height="46" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="370" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA (O.P.)</text>
+    <text x="24" y="388" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">Sable?</text>
+  </g>
+
+  <g id="p13p5-dlg-sable3">
+    <rect x="160" y="350" width="206" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="170" y="370" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="170" y="388" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Nothing. Continue.</text>
+    <path d="M170,350 L188,350 L196,260 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="170" y1="350" x2="188" y2="350" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p13p5-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">5</text>
+    <text x="362" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SABLE — RECOGNITION</text>
+  </g>
+</svg>

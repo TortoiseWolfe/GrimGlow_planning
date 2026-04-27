@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 380" width="488" height="380">
+  <title>Issue 1 — Page 13 — Panel 1: Thresh isolated, sentinel duty</title>
+  <desc>MW 35mm intimate. Thresh sitting alone against curved iron wall, broad-shouldered muscular, copper-red buzz, defined cheekbones, ruby suit w/ heavier armor + visibly dented left pauldron. Left arm held close. Compact sidearm rests on gutter floor beside good hand. Dead leaf leans like leathery screen. Watching gutter lip darkness, jaw set hard. Distant BG: copper at wreckage, silver near edge, sapphire-violet between. Thresh apart. Warm amber dominates, faint intermittent cool flickers. Silent.</desc>
+
+  <defs>
+    <linearGradient id="p13p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p13p1iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p13p1floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#180a08"/>
+    </linearGradient>
+    <radialGradient id="p13p1warmCity" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#c87830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p13p1coolFlicker" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p13p1ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="p13p1leaf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a2008"/>
+    </linearGradient>
+    <filter id="p13p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p13p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Background. -->
+  <rect width="488" height="380" fill="url(#p13p1bg)"/>
+
+  <!-- Curved gutter wall (back). -->
+  <path d="M0,80 Q244,60 488,80 L488,300 L0,300 Z" fill="url(#p13p1iron)"/>
+  <line x1="0" y1="120" x2="488" y2="100" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <line x1="0" y1="200" x2="488" y2="195" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <g fill="#080404" opacity="0.85">
+    <circle cx="60" cy="125" r="2"/>
+    <circle cx="200" cy="105" r="2"/>
+    <circle cx="320" cy="100" r="2"/>
+    <circle cx="450" cy="120" r="2"/>
+    <circle cx="60" cy="205" r="2"/>
+    <circle cx="450" cy="200" r="2"/>
+  </g>
+  <g fill="#080404" opacity="0.55">
+    <path d="M40,80 Q44,180 38,260"/>
+    <path d="M280,80 Q284,180 278,260"/>
+    <path d="M448,80 Q452,180 446,260"/>
+  </g>
+
+  <!-- WARM AMBER from RIGHT (city-glow dominates, reaching deep into gutter). -->
+  <ellipse cx="488" cy="200" rx="240" ry="220" fill="url(#p13p1warmCity)" filter="url(#p13p1strongBloom)"/>
+
+  <!-- Faint intermittent cool flicker far-LEFT (dying wreckage). -->
+  <ellipse cx="60" cy="200" rx="80" ry="60" fill="url(#p13p1coolFlicker)" filter="url(#p13p1strongBloom)" opacity="0.55"/>
+  <!-- Distant BG figures. -->
+  <g id="p13p1-bg-figures">
+    <!-- Wren copper at wreckage far-back-left. -->
+    <ellipse cx="80" cy="220" rx="6" ry="9" fill="#c87a35" opacity="0.85"/>
+    <ellipse cx="80" cy="208" rx="3" ry="3.5" fill="#e0c0a0" opacity="0.85"/>
+    <line x1="78" y1="228" x2="76" y2="240" stroke="#a86028" stroke-width="2" stroke-linecap="round"/>
+    <line x1="82" y1="228" x2="84" y2="240" stroke="#a86028" stroke-width="2" stroke-linecap="round"/>
+    <!-- Fragment of wreckage hull behind. -->
+    <polygon points="50,225 90,215 100,235 60,242" fill="#1a1a24" stroke="#080808" stroke-width="0.4"/>
+
+    <!-- Sable silver near gutter edge mid-back. -->
+    <ellipse cx="350" cy="218" rx="6" ry="9" fill="#bfc6d0" opacity="0.85"/>
+    <ellipse cx="350" cy="206" rx="3" ry="3.5" fill="#5a3018" opacity="0.85"/>
+    <ellipse cx="350" cy="204" rx="3" ry="2" fill="#e8eaee" opacity="0.85"/>
+    <line x1="348" y1="226" x2="346" y2="238" stroke="#5a606a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="352" y1="226" x2="354" y2="238" stroke="#5a606a" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Luma sapphire between (mid-back-right). -->
+    <ellipse cx="420" cy="220" rx="5" ry="8" fill="#5a3ad8" opacity="0.85"/>
+    <ellipse cx="420" cy="210" rx="3" ry="3.5" fill="#a87850" opacity="0.85"/>
+    <line x1="418" y1="226" x2="416" y2="238" stroke="#3a2a8c" stroke-width="2" stroke-linecap="round"/>
+    <line x1="422" y1="226" x2="424" y2="238" stroke="#3a2a8c" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floor. -->
+  <rect y="300" width="488" height="80" fill="url(#p13p1floor)"/>
+  <line x1="0" y1="300" x2="488" y2="300" stroke="#080404" stroke-width="1.2"/>
+
+  <!-- Coal sediment + debris. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="40" cy="325" r="1.5"/>
+    <circle cx="100" cy="345" r="1.4"/>
+    <circle cx="180" cy="338" r="1.5"/>
+    <circle cx="280" cy="355" r="1.5"/>
+    <circle cx="360" cy="345" r="1.4"/>
+    <circle cx="440" cy="338" r="1.5"/>
+    <circle cx="60" cy="370" r="1.4"/>
+    <circle cx="220" cy="368" r="1.5"/>
+    <circle cx="380" cy="372" r="1.4"/>
+  </g>
+  <!-- Twigs. -->
+  <path d="M0,378 Q200,372 400,378 Q450,380 488,376" stroke="#3a1810" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- DEAD LEAF leans against wall like leathery screen (right of Thresh, between her and rest of squad). -->
+  <g id="p13p1-leaf-screen" transform="translate(195, 240)">
+    <path d="M-25,55 Q-35,15 -22,-30 Q5,-45 30,-35 Q50,-20 55,15 Q50,45 30,55 Q5,60 -25,55 Z" fill="url(#p13p1leaf)" opacity="0.92"/>
+    <!-- Veins. -->
+    <path d="M-22,50 Q5,15 30,-30" stroke="#3a1808" stroke-width="1.4" fill="none" opacity="0.85"/>
+    <path d="M-10,48 Q5,15 22,-30" stroke="#3a1808" stroke-width="0.8" fill="none" opacity="0.7"/>
+    <path d="M14,46 Q12,15 5,-30" stroke="#3a1808" stroke-width="0.7" fill="none" opacity="0.6"/>
+    <!-- Edge highlight. -->
+    <path d="M-25,55 Q-35,15 -22,-30 Q5,-45 30,-35 Q50,-20 55,15" fill="none" stroke="#a87038" stroke-width="1.4" opacity="0.6"/>
+  </g>
+
+  <!-- THRESH sitting alone against gutter wall left side. -->
+  <g id="p13p1-thresh" transform="translate(110, 240)">
+    <!-- Body sitting upright (broad-shouldered, muscular, heavier armor plating). -->
+    <path d="M-22,55 Q-26,5 -22,-15 L-12,-25 L18,-25 Q22,5 22,55 Z" fill="url(#p13p1ruby)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Right shoulder pad (intact, broad). -->
+    <ellipse cx="-22" cy="-21" rx="9" ry="6" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-22" cy="-23" rx="6" ry="3" fill="#f54848" opacity="0.7"/>
+    <!-- DENTED LEFT pauldron — visibly sitting wrong over dislocated shoulder. -->
+    <ellipse cx="22" cy="-19" rx="9" ry="6" fill="#a8182a" stroke="#080408" stroke-width="0.6"/>
+    <path d="M14,-22 Q22,-13 30,-22" fill="#5a0810" stroke="#080408" stroke-width="0.5"/>
+    <line x1="16" y1="-20" x2="28" y2="-16" stroke="#1a0408" stroke-width="0.6"/>
+    <!-- Left arm HELD CLOSE to body (the dislocated shoulder). -->
+    <path d="M22,-8 L18,12 L20,30" fill="none" stroke="#a8182a" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="20" cy="30" rx="4" ry="3" fill="#d8a880"/>
+    <!-- Right arm at side (good arm). -->
+    <path d="M-22,-5 L-26,18 L-30,38" fill="none" stroke="url(#p13p1ruby)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-30" cy="38" rx="4" ry="3.5" fill="#d8a880"/>
+    <!-- Drawn-up/seated legs. -->
+    <path d="M-12,55 L-16,75 L-18,95" fill="none" stroke="#a8182a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M14,55 L18,75 L20,95" fill="none" stroke="#a8182a" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="-18" cy="95" rx="5" ry="2.5" fill="#1a0808"/>
+    <ellipse cx="20" cy="95" rx="5" ry="2.5" fill="#1a0808"/>
+
+    <!-- HEAD — copper-red buzz, watchful, jaw set. -->
+    <ellipse cx="0" cy="-37" rx="13" ry="14" fill="#d8a880"/>
+    <!-- Buzz cap. -->
+    <path d="M-10,-44 Q-3,-50 0,-50 Q4,-50 12,-44 L12,-37 L-10,-37 Z" fill="#a83a18"/>
+    <path d="M-10,-44 Q0,-48 12,-44" fill="none" stroke="#5a1808" stroke-width="0.7" opacity="0.8"/>
+    <!-- Stipple. -->
+    <g fill="#5a1808" opacity="0.85">
+      <circle cx="-6" cy="-46" r="0.6"/>
+      <circle cx="-2" cy="-47" r="0.6"/>
+      <circle cx="2" cy="-48" r="0.6"/>
+      <circle cx="6" cy="-46" r="0.6"/>
+      <circle cx="10" cy="-44" r="0.6"/>
+    </g>
+    <!-- Defined cheekbones. -->
+    <ellipse cx="-8" cy="-30" rx="3" ry="1.7" fill="#a87850" opacity="0.6"/>
+    <ellipse cx="8" cy="-30" rx="3" ry="1.7" fill="#a87850" opacity="0.6"/>
+    <!-- Eyes — steady + intense, watching darkness ahead/right. -->
+    <ellipse cx="-2" cy="-37" rx="1.4" ry="1.1" fill="#1a0808"/>
+    <ellipse cx="6" cy="-37" rx="1.4" ry="1.1" fill="#1a0808"/>
+    <!-- Warm catch on eyes (warm winning). -->
+    <circle cx="-2" cy="-37.5" r="0.4" fill="#fff5d0"/>
+    <circle cx="6" cy="-37.5" r="0.4" fill="#fff5d0"/>
+    <!-- Brow set hard. -->
+    <path d="M-7,-43 Q-3,-44 1,-43" stroke="#3a1008" stroke-width="1.2" fill="none"/>
+    <path d="M3,-43 Q6,-44 9,-43" stroke="#3a1008" stroke-width="1.2" fill="none"/>
+    <!-- Jaw firm-set. -->
+    <line x1="-3" y1="-25" x2="6" y2="-25" stroke="#3a1808" stroke-width="1.2"/>
+    <!-- Warm catch on cheekbone (warm light dominates). -->
+    <ellipse cx="9" cy="-30" rx="2.5" ry="1.4" fill="#f5b860" opacity="0.55"/>
+  </g>
+
+  <!-- COMPACT SIDEARM resting on floor beside Thresh's good (right) hand. -->
+  <g id="p13p1-sidearm" transform="translate(80, 295)">
+    <!-- Compact angular weapon body. -->
+    <rect x="-12" y="0" width="24" height="6" rx="1" fill="#1a1820" stroke="#080404" stroke-width="0.5"/>
+    <!-- Grip. -->
+    <rect x="-2" y="-4" width="6" height="5" rx="0.5" fill="#1a1820" stroke="#080404" stroke-width="0.4"/>
+    <!-- Crimson holographic accent lines (script-specific, faint). -->
+    <line x1="-10" y1="2" x2="10" y2="2" stroke="#dc2030" stroke-width="0.6" filter="url(#p13p1bloom)" opacity="0.95"/>
+    <line x1="-8" y1="4" x2="8" y2="4" stroke="#f54848" stroke-width="0.4" opacity="0.85"/>
+    <!-- Crimson glow halo (warm-amber-ish per script "red-amber"). -->
+    <ellipse cx="0" cy="3" rx="20" ry="6" fill="#dc2030" filter="url(#p13p1bloom)" opacity="0.4"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p13p1-meta">
+    <text x="478" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="482" y="372" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">THRESH ISOLATED — SENTINEL</text>
+  </g>
+</svg>
