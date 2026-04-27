@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 280" width="372" height="280">
+  <title>Issue 1 — Page 7 — Panel 3: Sable rises from gutter floor, soldier discipline</title>
+  <desc>Medium shot, low angle (ground level looking up and across) at 35mm. Sable pushing herself up from gutter floor — one arm braced, head hanging, debris falling from shoulders (leaf fragments, soot, hull plating sliding off back). Behind her: wreckage field, crumpled hull wedged against slate, sparking conduits, shattered console half-buried in dead leaves. Above gutter wall: night sky with stars, chimney smoke haze, distant chimney pots like dark towers. Cool wreckage light from behind silhouettes her, casts shadow forward. Warm city sky-glow rims gutter edge + chimneys. Disorientation hardening into focus. SABLE: "...status."</desc>
+
+  <defs>
+    <linearGradient id="p7p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1438"/>
+      <stop offset="60%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#3a2018"/>
+    </linearGradient>
+    <linearGradient id="p7p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="p7p3floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p7p3silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c4c8cf"/>
+      <stop offset="50%" stop-color="#787f88"/>
+      <stop offset="100%" stop-color="#3a3e46"/>
+    </linearGradient>
+    <linearGradient id="p7p3silverHi" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="p7p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5d3d2a"/>
+      <stop offset="100%" stop-color="#3a2418"/>
+    </linearGradient>
+    <radialGradient id="p7p3coolGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p7p3warmRim" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5a850" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a2812" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p7p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p7p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="p7p3dropShadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.55"/></filter>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+
+  <!-- Sky beyond gutter wall (visible upper portion). -->
+  <rect width="372" height="80" fill="url(#p7p3sky)"/>
+  <!-- Stars. -->
+  <g fill="#dce4f0" opacity="0.85">
+    <circle cx="48" cy="22" r="0.8"/>
+    <circle cx="120" cy="38" r="1.0"/>
+    <circle cx="200" cy="20" r="0.7"/>
+    <circle cx="280" cy="36" r="0.9"/>
+    <circle cx="340" cy="28" r="0.8"/>
+  </g>
+  <!-- Warm city-glow rim along top of gutter wall. -->
+  <rect width="372" height="80" fill="url(#p7p3warmRim)" opacity="0.5"/>
+
+  <!-- Distant chimney pots silhouetted against city glow (dark towers). -->
+  <g id="p7p3-distant-chimneys">
+    <rect x="40" y="40" width="14" height="40" fill="#0a0204"/>
+    <rect x="42" y="36" width="3" height="6" fill="#0a0204"/>
+    <rect x="49" y="34" width="3" height="8" fill="#0a0204"/>
+    <rect x="120" y="30" width="20" height="50" fill="#0a0204"/>
+    <rect x="123" y="26" width="3" height="6" fill="#0a0204"/>
+    <rect x="130" y="22" width="3" height="8" fill="#0a0204"/>
+    <rect x="137" y="26" width="3" height="6" fill="#0a0204"/>
+    <rect x="240" y="34" width="16" height="46" fill="#0a0204"/>
+    <rect x="244" y="30" width="3" height="6" fill="#0a0204"/>
+    <rect x="251" y="28" width="3" height="8" fill="#0a0204"/>
+    <rect x="320" y="38" width="12" height="42" fill="#0a0204"/>
+    <rect x="323" y="34" width="3" height="6" fill="#0a0204"/>
+  </g>
+
+  <!-- Faint chimney smoke haze. -->
+  <ellipse cx="130" cy="20" rx="20" ry="8" fill="#3a2818" opacity="0.35" filter="url(#p7p3bloom)"/>
+  <ellipse cx="248" cy="22" rx="16" ry="6" fill="#3a2818" opacity="0.32" filter="url(#p7p3bloom)"/>
+
+  <!-- Gutter wall (cuts horizontally across upper-mid frame). -->
+  <path d="M0,80 L372,80 L372,100 L0,100 Z" fill="url(#p7p3iron)"/>
+  <line x1="0" y1="80" x2="372" y2="80" stroke="#5a3818" stroke-width="0.8"/>
+  <line x1="0" y1="100" x2="372" y2="100" stroke="#0a0204" stroke-width="0.8"/>
+  <!-- Wall rivets. -->
+  <g fill="#5a3818">
+    <circle cx="40" cy="92" r="1.5"/>
+    <circle cx="100" cy="92" r="1.5"/>
+    <circle cx="160" cy="92" r="1.5"/>
+    <circle cx="220" cy="92" r="1.5"/>
+    <circle cx="280" cy="92" r="1.5"/>
+    <circle cx="340" cy="92" r="1.5"/>
+  </g>
+
+  <!-- Gutter floor. -->
+  <rect y="100" width="372" height="180" fill="url(#p7p3floor)"/>
+
+  <!-- Wreckage field BEHIND Sable (background, glowing cool). -->
+  <g id="p7p3-bg-wreckage">
+    <!-- Crumpled hull wedged against slate roof edge (right back). -->
+    <polygon points="280,100 340,90 360,110 350,140 290,150 270,130" fill="#1a1d22"/>
+    <polygon points="280,100 340,90 360,110" fill="none" stroke="#3a3a40" stroke-width="0.7"/>
+    <!-- Sparking seam. -->
+    <line x1="300" y1="105" x2="340" y2="115" stroke="#bfe4ff" stroke-width="1" opacity="0.95" filter="url(#p7p3bloom)"/>
+    <circle cx="320" cy="110" r="1.5" fill="#ffffff" filter="url(#p7p3bloom)"/>
+
+    <!-- Shattered console half-buried in leaves (left back). -->
+    <ellipse cx="60" cy="130" rx="50" ry="14" fill="#5a3818" opacity="0.85"/>
+    <polygon points="40,118 90,114 96,128 50,134" fill="#1a1d22"/>
+    <polygon points="40,118 90,114 96,128 50,134" fill="none" stroke="#3a3a40" stroke-width="0.6"/>
+    <!-- Console flickering screens. -->
+    <rect x="50" y="118" width="20" height="6" fill="url(#p7p3coolGlow)" filter="url(#p7p3bloom)" opacity="0.85"/>
+    <rect x="74" y="120" width="14" height="4" fill="#bfe4ff" opacity="0.65"/>
+
+    <!-- Sparking conduits between hull and console. -->
+    <path d="M150,120 Q180,116 210,124" stroke="#0a1228" stroke-width="3" fill="none"/>
+    <circle cx="180" cy="120" r="1.8" fill="#bfe4ff" filter="url(#p7p3bloom)"/>
+  </g>
+
+  <!-- Wreckage cool light pool on floor behind Sable. -->
+  <g opacity="0.45" filter="url(#p7p3strongBloom)">
+    <ellipse cx="80" cy="160" rx="60" ry="20" fill="#5aa6dc"/>
+    <ellipse cx="320" cy="155" rx="60" ry="20" fill="#5aa6dc"/>
+  </g>
+
+  <!-- Dead leaves around Sable's position. -->
+  <path d="M120,220 Q150,210 180,216 Q200,224 184,236 Q156,242 130,236 Q116,228 120,220 Z" fill="#5a3818"/>
+  <line x1="130" y1="222" x2="184" y2="226" stroke="#1a0808" stroke-width="0.6"/>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: SABLE rising — one arm braced, head hanging           -->
+  <!-- ========================================================== -->
+  <g id="p7p3-sable" filter="url(#p7p3dropShadow)">
+    <!-- Shadow cast forward by cool wreckage light from behind. -->
+    <ellipse cx="180" cy="270" rx="50" ry="6" fill="#000000" opacity="0.55"/>
+
+    <!-- Bracing left arm (pushing against floor). -->
+    <path d="M140,200 Q124,220 130,250 L150,250 Q146,222 152,206 Z" fill="url(#p7p3silver)"/>
+    <path d="M140,200 Q124,220 130,250 L150,250 Q146,222 152,206 Z" fill="url(#p7p3silverHi)"/>
+    <!-- Hand on floor (bracing). -->
+    <ellipse cx="138" cy="252" rx="14" ry="6" fill="url(#p7p3skin)"/>
+    <!-- Wrist emitter. -->
+    <ellipse cx="142" cy="246" rx="9" ry="2.5" fill="url(#p7p3coolGlow)" opacity="0.85"/>
+
+    <!-- Right arm hanging (still recovering). -->
+    <path d="M212,200 Q220,220 218,244 L208,244 Q206,222 200,206 Z" fill="url(#p7p3silver)"/>
+    <ellipse cx="213" cy="246" rx="9" ry="5" fill="url(#p7p3skin)"/>
+
+    <!-- Torso (hunched forward, supporting on left arm). -->
+    <path d="M148,160 Q140,196 152,212 L208,212 Q220,196 212,160 Q200,148 180,148 Q160,148 148,160 Z" fill="url(#p7p3silver)"/>
+    <path d="M148,160 Q140,196 152,212 L208,212 Q220,196 212,160 Q200,148 180,148 Q160,148 148,160 Z" fill="url(#p7p3silverHi)"/>
+    <!-- Sternum seam. -->
+    <line x1="180" y1="148" x2="180" y2="212" stroke="#2a2e36" stroke-width="0.9" opacity="0.7"/>
+
+    <!-- CRACKED PANEL on right shoulder leaking blue light. -->
+    <path d="M204,156 L218,166 L214,180 L200,170 Z" fill="#1a1d22"/>
+    <line x1="208" y1="158" x2="218" y2="178" stroke="#bfe4ff" stroke-width="1" opacity="0.95" filter="url(#p7p3bloom)"/>
+    <line x1="200" y1="174" x2="216" y2="184" stroke="#bfe4ff" stroke-width="0.7" opacity="0.85" filter="url(#p7p3bloom)"/>
+
+    <!-- Chest accent node (still glowing through damage). -->
+    <ellipse cx="180" cy="172" rx="6" ry="6" fill="url(#p7p3coolGlow)" filter="url(#p7p3bloom)"/>
+    <ellipse cx="180" cy="172" rx="3" ry="3" fill="#bfe4ff"/>
+
+    <!-- Debris falling from shoulders. -->
+    <ellipse cx="156" cy="158" rx="3" ry="1.5" fill="#5a3818" opacity="0.85"/>
+    <path d="M148,170 L152,172 L150,176" fill="none" stroke="#5a3818" stroke-width="0.7"/>
+    <!-- Hull fragment sliding off back. -->
+    <polygon points="208,162 224,168 222,180 210,176" fill="#1a1d22"/>
+
+    <!-- Neck. -->
+    <path d="M170,138 L170,150 L190,150 L190,138 Z" fill="url(#p7p3skin)"/>
+
+    <!-- HEAD — hanging down (head not yet up, eyes not yet focused). -->
+    <ellipse cx="180" cy="124" rx="20" ry="22" fill="url(#p7p3skin)"/>
+
+    <!-- Cropped silver hair dusted with soot. -->
+    <path d="M161,108 Q162,90 180,84 Q198,90 199,108 L197,118 Q196,98 180,96 Q164,98 163,118 Z" fill="#d4d6db"/>
+    <!-- Soot on hair. -->
+    <ellipse cx="172" cy="100" rx="3" ry="1.5" fill="#0a0204" opacity="0.65"/>
+    <ellipse cx="186" cy="98" rx="3" ry="1.5" fill="#0a0204" opacity="0.65"/>
+    <!-- Buzz stipple (lighter than P02 since hair dusted with debris). -->
+    <g stroke="#9ea1a8" stroke-width="0.5" stroke-linecap="round" opacity="0.6">
+      <line x1="170" y1="100" x2="171" y2="103"/>
+      <line x1="180" y1="96" x2="181" y2="99"/>
+      <line x1="188" y1="98" x2="189" y2="101"/>
+      <line x1="174" y1="106" x2="175" y2="109"/>
+      <line x1="184" y1="106" x2="185" y2="109"/>
+    </g>
+    <!-- Hairline edge. -->
+    <path d="M163,118 Q180,112 197,118" fill="none" stroke="#7a7d83" stroke-width="0.7" opacity="0.85"/>
+
+    <!-- Soot streak across forehead/cheek. -->
+    <path d="M168,128 Q176,130 184,126 Q192,126 196,130" fill="none" stroke="#0a0204" stroke-width="1.5" opacity="0.65"/>
+
+    <!-- Eyes (narrowed, struggling to focus, half-closed). -->
+    <line x1="168" y1="124" x2="174" y2="124" stroke="#1a0e08" stroke-width="1.6" stroke-linecap="round"/>
+    <line x1="186" y1="124" x2="192" y2="124" stroke="#1a0e08" stroke-width="1.6" stroke-linecap="round"/>
+
+    <!-- Mouth (slightly open, breathing hard). -->
+    <ellipse cx="180" cy="138" rx="4" ry="2" fill="#1a0808"/>
+
+    <!-- Cool wreckage rim on left side of figure. -->
+    <path d="M148,160 L152,212 Q160,212 158,160 Z" fill="#bfe4ff" opacity="0.32"/>
+    <!-- Warm city rim on right side (from above-right). -->
+    <path d="M212,160 L208,212 Q200,212 202,160 Z" fill="#f5a850" opacity="0.22"/>
+  </g>
+
+  <!-- Dialogue. -->
+  <g id="p7p3-dialogue">
+    <rect x="6" y="12" width="100" height="40" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <polygon points="60,52 72,52 56,68" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="61" y1="52" x2="71" y2="52" stroke="#ffffff" stroke-width="3"/>
+    <text x="16" y="30" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="16" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">...status.</text>
+  </g>
+
+  <g id="p7p3-meta">
+    <text x="362" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="366" y="272" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">MED</text>
+  </g>
+</svg>

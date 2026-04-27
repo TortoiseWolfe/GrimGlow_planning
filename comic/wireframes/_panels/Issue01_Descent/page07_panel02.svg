@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 280" width="175" height="280">
+  <title>Issue 1 — Page 7 — Panel 2: ECU Sable's hand twitching, first sign of consciousness</title>
+  <desc>ECU at 135mm, slight high angle. Sable's hand in cracked silver gauntlet, fingers splayed flat against gritty soot-coated iron surface. Two hairline fractures along knuckle joints leak faint blue-white light. Fingers twitching — first sign of consciousness. Beside hand, shard of crystalline material flickers dying geometric patterns blue-white. Cool from cracked gauntlet + nearby shard. Faint warm amber from below catches soot particle edges. Smallest gesture of survival.</desc>
+
+  <defs>
+    <linearGradient id="p7p2silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c4c8cf"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p7p2soot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <radialGradient id="p7p2coolGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p7p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p7p2dropShadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.6"/></filter>
+  </defs>
+
+  <!-- Soot/grime gutter floor surface. -->
+  <rect width="175" height="280" fill="url(#p7p2soot)"/>
+  <!-- Coal grit texture. -->
+  <g fill="#0a0204">
+    <circle cx="20" cy="40" r="0.7"/>
+    <circle cx="55" cy="80" r="1"/>
+    <circle cx="100" cy="60" r="0.8"/>
+    <circle cx="140" cy="100" r="0.9"/>
+    <circle cx="30" cy="180" r="0.7"/>
+    <circle cx="80" cy="200" r="1"/>
+    <circle cx="120" cy="240" r="0.8"/>
+    <circle cx="160" cy="220" r="0.9"/>
+    <circle cx="50" cy="260" r="0.7"/>
+  </g>
+  <!-- Iron texture (faint metallic streaks). -->
+  <g stroke="#3a2818" stroke-width="0.4" opacity="0.5">
+    <line x1="0" y1="50" x2="175" y2="60"/>
+    <line x1="0" y1="120" x2="175" y2="115"/>
+    <line x1="0" y1="200" x2="175" y2="195"/>
+  </g>
+
+  <!-- Crystalline shard left of hand — flickering. -->
+  <g filter="url(#p7p2bloom)">
+    <polygon points="20,140 38,134 44,148 30,160" fill="url(#p7p2coolGlow)" opacity="0.85"/>
+  </g>
+  <polygon points="22,142 36,136 42,148 30,158" fill="none" stroke="#bfe4ff" stroke-width="0.7" opacity="0.95"/>
+  <line x1="22" y1="142" x2="42" y2="148" stroke="#ffffff" stroke-width="0.5" opacity="0.85"/>
+  <line x1="32" y1="138" x2="32" y2="158" stroke="#ffffff" stroke-width="0.5" opacity="0.85"/>
+
+  <!-- Cool light cast on soot from shard. -->
+  <ellipse cx="32" cy="148" rx="40" ry="12" fill="#bfe4ff" opacity="0.18" filter="url(#p7p2bloom)"/>
+
+  <!-- ========================================================== -->
+  <!-- LAYER: HAND — silver gauntlet, fingers splayed, twitching   -->
+  <!-- ========================================================== -->
+  <g id="p7p2-hand" filter="url(#p7p2dropShadow)">
+    <!-- Forearm sleeve coming in from upper-right. -->
+    <path d="M120,40 Q140,30 175,28 L175,52 Q140,52 120,60 Z" fill="url(#p7p2silver)"/>
+    <!-- Wrist cuff. -->
+    <path d="M115,52 Q130,42 150,40 L155,52 Q140,55 120,62 Z" fill="#3a3e46"/>
+    <!-- Plate seams on cuff. -->
+    <line x1="120" y1="52" x2="150" y2="44" stroke="#2a2e36" stroke-width="0.6"/>
+
+    <!-- HAND BACK. -->
+    <path d="M70,90 Q90,80 120,80 Q140,84 152,100 L160,140 Q150,160 130,166 Q100,170 80,160 Q60,150 60,130 Q60,108 70,90 Z" fill="url(#p7p2silver)"/>
+
+    <!-- Knuckle plates with HAIRLINE FRACTURES leaking blue light. -->
+    <g id="p7p2-knuckles">
+      <ellipse cx="92" cy="100" rx="6" ry="4" fill="#9ba1aa"/>
+      <ellipse cx="92" cy="100" rx="6" ry="4" fill="none" stroke="#5a606a" stroke-width="0.6"/>
+      <ellipse cx="112" cy="98" rx="6.5" ry="4" fill="#9ba1aa"/>
+      <ellipse cx="112" cy="98" rx="6.5" ry="4" fill="none" stroke="#5a606a" stroke-width="0.6"/>
+      <!-- Hairline fracture 1 — leaks blue-white through knuckle. -->
+      <line x1="86" y1="102" x2="98" y2="98" stroke="#bfe4ff" stroke-width="0.8" opacity="0.95" filter="url(#p7p2bloom)"/>
+      <line x1="86" y1="102" x2="98" y2="98" stroke="#ffffff" stroke-width="0.4"/>
+      <!-- Hairline fracture 2. -->
+      <line x1="106" y1="100" x2="118" y2="96" stroke="#bfe4ff" stroke-width="0.8" opacity="0.95" filter="url(#p7p2bloom)"/>
+      <line x1="106" y1="100" x2="118" y2="96" stroke="#ffffff" stroke-width="0.4"/>
+
+      <ellipse cx="130" cy="100" rx="6.5" ry="4" fill="#9ba1aa"/>
+      <ellipse cx="130" cy="100" rx="6.5" ry="4" fill="none" stroke="#5a606a" stroke-width="0.6"/>
+      <ellipse cx="146" cy="106" rx="5.5" ry="3.6" fill="#9ba1aa"/>
+      <ellipse cx="146" cy="106" rx="5.5" ry="3.6" fill="none" stroke="#5a606a" stroke-width="0.6"/>
+    </g>
+
+    <!-- Plate divisions on hand. -->
+    <line x1="92" y1="106" x2="100" y2="160" stroke="#2a2e36" stroke-width="0.6" opacity="0.65"/>
+    <line x1="112" y1="104" x2="118" y2="166" stroke="#2a2e36" stroke-width="0.6" opacity="0.65"/>
+    <line x1="130" y1="106" x2="138" y2="166" stroke="#2a2e36" stroke-width="0.6" opacity="0.65"/>
+
+    <!-- Fingers splayed (extending down from hand). -->
+    <!-- Index. -->
+    <path d="M86,108 Q82,140 80,180 Q80,200 88,200 Q98,196 96,180 Q94,150 94,114 Z" fill="url(#p7p2silver)"/>
+    <!-- Twitch motion blur — subtle ghost finger position. -->
+    <path d="M86,108 Q82,140 84,180" fill="none" stroke="#dce4f0" stroke-width="0.5" opacity="0.4"/>
+
+    <!-- Middle. -->
+    <path d="M108,106 Q106,144 106,196 Q108,212 116,210 Q124,206 122,196 Q120,156 118,114 Z" fill="url(#p7p2silver)"/>
+    <!-- Fingertip plate. -->
+    <ellipse cx="115" cy="208" rx="4" ry="2" fill="#787f88"/>
+
+    <!-- Ring. -->
+    <path d="M126,108 Q124,144 124,190 Q126,206 134,204 Q142,200 140,190 Q138,150 136,114 Z" fill="url(#p7p2silver)"/>
+
+    <!-- Pinky. -->
+    <path d="M144,114 Q146,148 148,184 Q150,196 156,192 Q160,184 158,174 Q156,144 154,118 Z" fill="url(#p7p2silver)"/>
+
+    <!-- Thumb folded slightly back. -->
+    <path d="M70,100 Q56,108 50,124 Q48,140 56,140 Q66,136 72,124 Q74,114 70,100 Z" fill="url(#p7p2silver)"/>
+  </g>
+
+  <!-- Hairline fracture light pools on soot floor (blue-white). -->
+  <g opacity="0.55" filter="url(#p7p2bloom)">
+    <ellipse cx="92" cy="100" rx="20" ry="6" fill="#bfe4ff"/>
+    <ellipse cx="112" cy="98" rx="20" ry="6" fill="#bfe4ff"/>
+  </g>
+
+  <g id="p7p2-meta">
+    <text x="165" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="169" y="272" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">ECU</text>
+  </g>
+</svg>
