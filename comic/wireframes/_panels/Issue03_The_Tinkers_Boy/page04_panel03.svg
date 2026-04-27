@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.7 364" width="240.7" height="364">
+  <title>Issue 3 — Page 4 — Panel 3: MED Theodore alone, exhale, reaches for project</title>
+  <desc>MED 50mm eye level. Theodore alone in clockmaker's workshop, sitting at his small workbench. Door closed. Shoulders dropped, posture loose — small exhale of relief. Reaches for own project (partially reassembled watch movement), pulling it from shadow into candlelight. Expression quiet relief — solitude chosen, not imposed. Workshop feels different with master gone — warmer, more spacious. Warm amber gaslight and candlelight. Exhale of freedom.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p4p3wallBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p4p3plaster" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p4p3floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="p4p3bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="50%" stop-color="#4a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p4p3candleGlow" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p4p3sconceGlow" cx="0%" cy="40%" r="100%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#a85820" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p4p3brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <linearGradient id="p4p3theoSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8c0"/>
+      <stop offset="100%" stop-color="#9a7050"/>
+    </linearGradient>
+    <linearGradient id="p4p3theoShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p4p3theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p4p3theoTrousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a3a24"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p4p3theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="p4p3oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p4p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- BG: warm dim wall. -->
+  <rect width="240.7" height="364" fill="url(#p4p3wallBg)"/>
+  <rect x="0" y="0" width="240.7" height="240" fill="url(#p4p3plaster)" opacity="0.85"/>
+  <rect width="240.7" height="364" fill="url(#p4p3sconceGlow)"/>
+
+  <!-- Wall texture. -->
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.5">
+    <path d="M0,52 Q120,54 240,52"/>
+    <path d="M0,108 Q120,110 240,108"/>
+    <path d="M0,170 Q120,172 240,170"/>
+  </g>
+
+  <!-- Wall sconce (image-left, on left wall, providing dim warm light). -->
+  <g>
+    <rect x="14" y="100" width="2.5" height="20" fill="#3a2010"/>
+    <circle cx="15.3" cy="122" r="5.5" fill="url(#p4p3brass)"/>
+    <circle cx="15.3" cy="122" r="3" fill="#fff0a8" filter="url(#p4p3bloom)"/>
+    <ellipse cx="15.3" cy="122" rx="80" ry="60" fill="url(#p4p3sconceGlow)" opacity="0.7"/>
+  </g>
+
+  <!-- Wall pegs / hanging tools (on far wall behind Theodore). -->
+  <g opacity="0.7">
+    <line x1="170" y1="44" x2="170" y2="80" stroke="#3a2010" stroke-width="1.6"/>
+    <line x1="186" y1="44" x2="186" y2="84" stroke="#3a2010" stroke-width="2"/>
+    <line x1="202" y1="44" x2="202" y2="78" stroke="#3a2010" stroke-width="1.6"/>
+    <ellipse cx="186" cy="86" rx="5" ry="2.5" fill="#3a2010"/>
+    <rect x="198" y="78" width="8" height="14" fill="#3a2010"/>
+  </g>
+
+  <!-- Floor planks. -->
+  <rect x="0" y="240" width="240.7" height="124" fill="url(#p4p3floor)"/>
+  <g stroke="#0a0604" stroke-width="0.6" opacity="0.85">
+    <line x1="0" y1="266" x2="240.7" y2="262"/>
+    <line x1="0" y1="296" x2="240.7" y2="294"/>
+    <line x1="0" y1="328" x2="240.7" y2="328"/>
+    <line x1="0" y1="358" x2="240.7" y2="358"/>
+    <line x1="80" y1="240" x2="76" y2="364"/>
+    <line x1="160" y1="240" x2="166" y2="364"/>
+  </g>
+
+  <!-- Theodore's bench. -->
+  <g>
+    <ellipse cx="124" cy="234" rx="120" ry="36" fill="url(#p4p3candleGlow)"/>
+    <rect x="32" y="226" width="208" height="28" fill="url(#p4p3bench)"/>
+    <rect x="32" y="226" width="208" height="5" fill="#7a4828"/>
+    <line x1="32" y1="231" x2="240" y2="231" stroke="#1a0c04" stroke-width="0.5"/>
+    <rect x="46" y="254" width="6" height="56" fill="#1a0c04"/>
+    <rect x="226" y="254" width="6" height="56" fill="#1a0c04"/>
+    <rect x="52" y="254" width="172" height="32" fill="#3a2010"/>
+    <line x1="52" y1="270" x2="224" y2="270" stroke="#1a0c04" stroke-width="0.5"/>
+
+    <!-- Candle on bench (the focal warm light). -->
+    <g>
+      <rect x="68" y="200" width="3" height="22" fill="#dcd0b4"/>
+      <ellipse cx="69.5" cy="196" rx="2.2" ry="3.2" fill="#fff0a8" filter="url(#p4p3bloom)"/>
+      <ellipse cx="69.5" cy="196" rx="7" ry="5" fill="url(#p4p3candleGlow)"/>
+    </g>
+
+    <!-- His own watch project pulled into the light (no longer hidden). -->
+    <g>
+      <rect x="84" y="216" width="76" height="14" fill="#dcd0b4" opacity="0.92"/>
+      <rect x="92" y="206" width="60" height="14" rx="1" fill="#1a0c04"/>
+      <rect x="94" y="204" width="56" height="3" fill="url(#p4p3brass)"/>
+      <!-- Brass gears in good light. -->
+      <circle cx="104" cy="216" r="3.5" fill="url(#p4p3brass)"/>
+      <circle cx="115" cy="216" r="3" fill="url(#p4p3brass)"/>
+      <circle cx="126" cy="216" r="3.5" fill="url(#p4p3brass)"/>
+      <circle cx="138" cy="216" r="2.8" fill="url(#p4p3brass)"/>
+      <circle cx="148" cy="216" r="3" fill="url(#p4p3brass)"/>
+      <!-- Bright gleam catches. -->
+      <ellipse cx="103" cy="214" rx="1.5" ry="0.8" fill="#fff0a8" opacity="0.85"/>
+      <ellipse cx="125" cy="214" rx="1.5" ry="0.8" fill="#fff0a8" opacity="0.85"/>
+      <ellipse cx="147" cy="214" rx="1.5" ry="0.8" fill="#fff0a8" opacity="0.85"/>
+      <!-- Tiny screws + jewels. -->
+      <circle cx="100" cy="222" r="0.6" fill="#5a3818"/>
+      <circle cx="108" cy="222" r="0.6" fill="#5a3818"/>
+      <circle cx="116" cy="222" r="0.6" fill="#5a3818"/>
+      <circle cx="124" cy="222" r="0.6" fill="#5a3818"/>
+      <circle cx="132" cy="222" r="0.6" fill="#5a3818"/>
+      <circle cx="140" cy="222" r="0.6" fill="#5a3818"/>
+      <circle cx="148" cy="222" r="0.6" fill="#5a3818"/>
+    </g>
+
+    <!-- Tin of screws. -->
+    <rect x="184" y="214" width="14" height="10" rx="1" fill="#5a3818"/>
+    <rect x="185" y="215" width="12" height="2" fill="url(#p4p3brass)" opacity="0.7"/>
+    <!-- Cracked watch case (still on bench). -->
+    <ellipse cx="216" cy="216" rx="6" ry="4" fill="#3a2010"/>
+    <ellipse cx="216" cy="216" rx="4.5" ry="3" fill="url(#p4p3brass)" opacity="0.75"/>
+  </g>
+
+  <!-- THEODORE — seated, RELAXED posture. Shoulders dropped, leaning slightly forward, reaching toward project. -->
+  <g>
+    <!-- Stool. -->
+    <rect x="100" y="290" width="40" height="5" fill="#3a2010"/>
+    <rect x="106" y="295" width="4" height="46" fill="#1a0c04"/>
+    <rect x="130" y="295" width="4" height="46" fill="#1a0c04"/>
+    <line x1="108" y1="320" x2="134" y2="320" stroke="#1a0c04" stroke-width="2"/>
+    <!-- Trousers. -->
+    <path d="M92,254 Q90,290 96,330 L116,330 Q120,290 116,254 Z" fill="url(#p4p3theoTrousers)"/>
+    <path d="M120,254 Q118,290 122,330 L142,330 Q146,290 142,254 Z" fill="url(#p4p3theoTrousers)"/>
+    <ellipse cx="106" cy="296" rx="8" ry="5" fill="url(#p4p3oilStain)"/>
+    <ellipse cx="130" cy="304" rx="7" ry="4" fill="url(#p4p3oilStain)"/>
+
+    <!-- Linen shirt. SHOULDERS DROPPED — the silhouette is more relaxed than standing tall. -->
+    <path d="M76,160 Q70,212 78,254 L156,254 Q164,212 158,160 Q150,154 116,154 Q82,154 76,160 Z" fill="url(#p4p3theoShirt)"/>
+    <!-- Brown waistcoat. -->
+    <path d="M82,168 L80,254 L154,254 L154,168 L146,174 L138,180 L116,184 L94,180 L88,174 Z" fill="url(#p4p3theoVest)"/>
+    <line x1="116" y1="184" x2="116" y2="254" stroke="#1a0c04" stroke-width="0.5" opacity="0.7"/>
+    <circle cx="116" cy="196" r="1.4" fill="url(#p4p3brass)"/>
+    <circle cx="116" cy="208" r="1.4" fill="url(#p4p3brass)"/>
+    <circle cx="116" cy="220" r="1.4" fill="url(#p4p3brass)"/>
+    <circle cx="116" cy="232" r="1.4" fill="url(#p4p3brass)"/>
+    <path d="M104,154 L116,176 L128,154 Z" fill="url(#p4p3theoShirt)"/>
+    <circle cx="116" cy="172" r="2" fill="url(#p4p3brass)"/>
+    <rect x="80" y="250" width="74" height="5" fill="#3a2010"/>
+
+    <!-- LEFT ARM hangs more loosely (no tension). -->
+    <path d="M76,162 Q66,200 64,236 L80,238 Q84,202 88,166 Z" fill="url(#p4p3theoShirt)"/>
+    <rect x="62" y="232" width="20" height="5" fill="#a89878"/>
+    <path d="M64,238 Q60,250 70,260 L80,256 Q78,244 80,238 Z" fill="url(#p4p3theoSkin)"/>
+    <ellipse cx="68" cy="262" rx="6" ry="4" fill="url(#p4p3theoSkin)"/>
+    <!-- Brass gear ring. -->
+    <circle cx="64" cy="262" r="1.4" fill="url(#p4p3brass)"/>
+
+    <!-- RIGHT ARM REACHING FORWARD toward the project (extended naturally, comfortable). -->
+    <path d="M158,162 Q170,200 172,236 L160,240 Q156,202 152,166 Z" fill="url(#p4p3theoShirt)"/>
+    <rect x="152" y="232" width="20" height="5" fill="#a89878"/>
+    <!-- Forearm reaching toward bench/project. -->
+    <path d="M172,238 Q166,236 158,232 L150,242 Q160,250 174,256 Z" fill="url(#p4p3theoSkin)"/>
+    <ellipse cx="148" cy="246" rx="7" ry="5" fill="url(#p4p3theoSkin)"/>
+    <!-- Fingers reaching toward the project (open hand). -->
+    <ellipse cx="142" cy="248" rx="3" ry="2" fill="url(#p4p3theoSkin)"/>
+    <ellipse cx="146" cy="252" rx="3" ry="2" fill="url(#p4p3theoSkin)"/>
+
+    <!-- HEAD — slightly forward (leaning toward project). FACING DOWN slightly. -->
+    <path d="M108,144 L108,158 L124,158 L124,144 Z" fill="url(#p4p3theoSkin)"/>
+    <ellipse cx="116" cy="124" rx="18" ry="20" fill="url(#p4p3theoSkin)"/>
+    <!-- Tousled spikes. -->
+    <path d="M100,112 Q96,90 116,82 Q126,78 134,82 Q138,98 136,112 L132,116 Q128,98 122,94 L110,94 Q104,98 102,116 Z" fill="url(#p4p3theoHair)"/>
+    <path d="M104,86 L100,72 L108,86 Z" fill="url(#p4p3theoHair)"/>
+    <path d="M114,80 L114,66 L120,80 Z" fill="url(#p4p3theoHair)"/>
+    <path d="M124,80 L128,66 L128,82 Z" fill="url(#p4p3theoHair)"/>
+    <path d="M134,86 L138,72 L136,88 Z" fill="url(#p4p3theoHair)"/>
+    <!-- Bangs. -->
+    <path d="M104,110 L106,122 L110,110 Z" fill="url(#p4p3theoHair)"/>
+    <path d="M112,112 L114,124 L118,112 Z" fill="url(#p4p3theoHair)"/>
+    <path d="M122,112 L120,122 L126,112 Z" fill="url(#p4p3theoHair)"/>
+    <path d="M130,110 L134,122 L134,110 Z" fill="url(#p4p3theoHair)"/>
+    <!-- Sides. -->
+    <path d="M100,112 Q96,138 102,150 L110,150 Q106,138 106,112 Z" fill="url(#p4p3theoHair)"/>
+    <path d="M136,112 Q138,138 132,150 L124,150 Q128,138 128,112 Z" fill="url(#p4p3theoHair)"/>
+
+    <!-- Eyes — looking DOWN toward the project (peaceful focus). -->
+    <ellipse cx="110" cy="124" rx="1.5" ry="0.8" fill="#3a2810"/>
+    <ellipse cx="120" cy="124" rx="1.5" ry="0.8" fill="#3a2810"/>
+    <!-- Brows neutral, eased. -->
+    <path d="M106,120 Q110,118 114,120" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <path d="M116,120 Q120,118 124,120" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <!-- Nose. -->
+    <path d="M116,130 L114,140 Q116,141 118,140 Z" fill="#a8765a" opacity="0.55"/>
+    <!-- Mouth — slight relaxed parting (the exhale). -->
+    <path d="M112,148 Q116,150 120,148" fill="none" stroke="#7a3018" stroke-width="0.9" stroke-linecap="round"/>
+    <!-- Tiny breath mark. -->
+    <path d="M122,148 Q126,148 130,150" fill="none" stroke="#a89878" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.85">
+      <circle cx="106" cy="134" r="0.5"/>
+      <circle cx="110" cy="136" r="0.45"/>
+      <circle cx="120" cy="134" r="0.5"/>
+      <circle cx="124" cy="136" r="0.45"/>
+    </g>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q60,45 120,42"/>
+    <path d="M0,200 Q60,205 120,202"/>
+    <path d="M120,40 Q180,45 240,42"/>
+  </g>
+
+  <!-- No dialogue per script. -->
+</svg>

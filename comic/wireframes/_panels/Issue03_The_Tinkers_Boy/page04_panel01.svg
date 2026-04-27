@@ -1,0 +1,365 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 4 — Panel 1: MW workshop late afternoon — Theodore split task</title>
+  <desc>MW 35mm eye level. Cramped Victorian clockmaker workshop interior, late afternoon. Theodore sits at his small workbench against far wall, hands moving between two tasks — assigned mainspring in foreground light, own project (partially reassembled watch movement) half-hidden in shadow behind a clock case. Glances sideways toward main bench off-frame, expression split between obligation and stolen passion. Tools on wall pegs, shelves of clocks, brass and copper catching warm amber gaslight. Theodore's bench dimmer than rest. Private work done in margins.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p4p1wallBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p4p1plaster" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p4p1plasterDim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="p4p1floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1808"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="p4p1bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p4p1lampLeft" cx="0%" cy="40%" r="100%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p4p1theoLamp" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.65"/>
+      <stop offset="60%" stop-color="#a85820" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p4p1brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <linearGradient id="p4p1theoSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8c0"/>
+      <stop offset="100%" stop-color="#9a7050"/>
+    </linearGradient>
+    <linearGradient id="p4p1theoShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p4p1theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p4p1theoTrousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a3a24"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p4p1theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="p4p1oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p4p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- BG: dim warm wall, late afternoon. -->
+  <rect width="742" height="364" fill="url(#p4p1wallBg)"/>
+  <rect x="0" y="0" width="742" height="240" fill="url(#p4p1plasterDim)" opacity="0.85"/>
+  <rect x="0" y="0" width="280" height="240" fill="url(#p4p1plaster)" opacity="0.85"/>
+  <rect width="742" height="364" fill="url(#p4p1lampLeft)"/>
+
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.55">
+    <path d="M0,52 Q200,54 400,52 Q600,50 742,52"/>
+    <path d="M0,108 Q200,110 400,108 Q600,106 742,108"/>
+    <path d="M0,170 Q200,172 400,170 Q600,168 742,170"/>
+  </g>
+
+  <!-- Wall pegs with hanging tools (mid-distance, on the BG plaster). -->
+  <g opacity="0.78">
+    <line x1="298" y1="60" x2="298" y2="100" stroke="#3a2010" stroke-width="2"/>
+    <line x1="318" y1="60" x2="318" y2="108" stroke="#3a2010" stroke-width="2.4"/>
+    <line x1="338" y1="60" x2="338" y2="100" stroke="#3a2010" stroke-width="2"/>
+    <line x1="358" y1="60" x2="358" y2="106" stroke="#3a2010" stroke-width="2"/>
+    <line x1="378" y1="60" x2="378" y2="100" stroke="#3a2010" stroke-width="2"/>
+    <ellipse cx="318" cy="110" rx="6" ry="3" fill="#3a2010"/>
+    <rect x="334" y="100" width="8" height="14" fill="#3a2010"/>
+    <ellipse cx="358" cy="106" rx="4" ry="3" fill="#3a2010"/>
+    <rect x="374" y="100" width="8" height="14" fill="#3a2010"/>
+  </g>
+
+  <!-- Shelves of clocks (BG, on left side). -->
+  <line x1="20" y1="86" x2="240" y2="86" stroke="#4a2818" stroke-width="1.4" opacity="0.8"/>
+  <g>
+    <circle cx="50" cy="76" r="7" fill="#3a2010"/>
+    <circle cx="50" cy="76" r="4.5" fill="#5a3818" opacity="0.85"/>
+    <circle cx="50" cy="76" r="2.5" fill="url(#p4p1brass)" opacity="0.85"/>
+    <rect x="76" y="68" width="14" height="18" fill="#3a2010"/>
+    <circle cx="114" cy="76" r="8" fill="#3a2010"/>
+    <circle cx="114" cy="76" r="5" fill="#5a3818" opacity="0.85"/>
+    <rect x="138" y="68" width="14" height="18" fill="#3a2010"/>
+    <circle cx="172" cy="76" r="7" fill="#3a2010"/>
+    <circle cx="172" cy="76" r="4.5" fill="#5a3818" opacity="0.85"/>
+    <rect x="194" y="68" width="14" height="18" fill="#3a2010"/>
+    <circle cx="222" cy="76" r="6" fill="#3a2010"/>
+  </g>
+
+  <!-- Wall gaslight sconce (left wall, providing the dim warm light reaching toward Theodore's corner). -->
+  <g>
+    <rect x="42" y="118" width="3" height="22" fill="#3a2010"/>
+    <circle cx="43.5" cy="142" r="6" fill="url(#p4p1brass)"/>
+    <circle cx="43.5" cy="142" r="3" fill="#fff0a8" filter="url(#p4p1bloom)"/>
+    <ellipse cx="43.5" cy="142" rx="80" ry="58" fill="url(#p4p1lampLeft)" opacity="0.7"/>
+  </g>
+
+  <!-- Floor planks. -->
+  <rect x="0" y="240" width="742" height="124" fill="url(#p4p1floor)"/>
+  <g stroke="#0a0604" stroke-width="0.6" opacity="0.85">
+    <line x1="0" y1="266" x2="742" y2="262"/>
+    <line x1="0" y1="296" x2="742" y2="294"/>
+    <line x1="0" y1="328" x2="742" y2="328"/>
+    <line x1="0" y1="358" x2="742" y2="358"/>
+    <line x1="120" y1="240" x2="116" y2="364"/>
+    <line x1="280" y1="240" x2="284" y2="364"/>
+    <line x1="440" y1="240" x2="448" y2="364"/>
+    <line x1="600" y1="240" x2="612" y2="364"/>
+  </g>
+
+  <!-- THE MAIN WORKBENCH (Cribbage's, off-frame to image LEFT). Implied by partial bench top edge entering left side. -->
+  <g opacity="0.75">
+    <rect x="0" y="240" width="160" height="36" fill="url(#p4p1bench)"/>
+    <rect x="0" y="240" width="160" height="6" fill="#7a4828"/>
+    <line x1="0" y1="246" x2="160" y2="246" stroke="#1a0c04" stroke-width="0.5"/>
+    <!-- Cribbage's brass parts on bench (partial, suggesting his work in progress). -->
+    <rect x="20" y="234" width="22" height="6" fill="#5a3018"/>
+    <circle cx="60" cy="248" r="4" fill="url(#p4p1brass)" opacity="0.85"/>
+    <circle cx="80" cy="248" r="3" fill="url(#p4p1brass)" opacity="0.85"/>
+    <rect x="100" y="232" width="14" height="8" fill="#5a3818"/>
+  </g>
+
+  <!-- THEODORE'S BACK-CORNER BENCH (image right, against far wall, dimmer). Slightly raised on stool position.
+       His bench dominates right two-thirds of frame. -->
+  <g>
+    <!-- Bench glow halo (dim — script says gaslight reaches but weakly). -->
+    <ellipse cx="540" cy="244" rx="200" ry="50" fill="url(#p4p1theoLamp)"/>
+    <!-- Bench top. -->
+    <rect x="380" y="232" width="362" height="34" fill="url(#p4p1bench)"/>
+    <rect x="380" y="232" width="362" height="6" fill="#7a4828"/>
+    <line x1="380" y1="238" x2="742" y2="238" stroke="#1a0c04" stroke-width="0.5"/>
+    <!-- Bench legs. -->
+    <rect x="392" y="266" width="6" height="98" fill="#1a0c04"/>
+    <rect x="730" y="266" width="6" height="98" fill="#1a0c04"/>
+    <!-- Bench apron. -->
+    <rect x="398" y="266" width="332" height="32" fill="#3a2010"/>
+    <line x1="398" y1="280" x2="730" y2="280" stroke="#1a0c04" stroke-width="0.5"/>
+    <rect x="420" y="270" width="40" height="6" fill="#1a0c04"/>
+    <rect x="540" y="270" width="40" height="6" fill="#1a0c04"/>
+    <rect x="660" y="270" width="40" height="6" fill="#1a0c04"/>
+
+    <!-- Small candle on bench providing the localized warm glow. -->
+    <g>
+      <rect x="404" y="216" width="3" height="16" fill="#dcd0b4"/>
+      <ellipse cx="405.5" cy="214" rx="2" ry="3" fill="#fff0a8" filter="url(#p4p1bloom)"/>
+      <ellipse cx="405.5" cy="214" rx="6" ry="4" fill="url(#p4p1theoLamp)"/>
+    </g>
+
+    <!-- ASSIGNED MAINSPRING (foreground, lit) — sits on Theodore's bench in front of him.
+         Per script: "the assigned mainspring (foreground, in the light)". -->
+    <g>
+      <ellipse cx="490" cy="246" rx="40" ry="10" fill="#3a4218"/>
+      <rect x="464" y="232" width="52" height="18" rx="2" fill="#1a0c04"/>
+      <rect x="466" y="230" width="48" height="5" fill="url(#p4p1brass)"/>
+      <line x1="466" y1="232" x2="514" y2="232" stroke="#5a3018" stroke-width="0.5"/>
+      <!-- Mainspring barrel (LIT brass — full visibility, warm catching). -->
+      <circle cx="478" cy="244" r="8" fill="url(#p4p1brass)"/>
+      <circle cx="478" cy="244" r="8" fill="none" stroke="#5a3018" stroke-width="0.6"/>
+      <circle cx="478" cy="244" r="2" fill="#5a3018"/>
+      <g stroke="#5a3018" stroke-width="0.5" fill="none">
+        <circle cx="478" cy="244" r="6"/>
+        <circle cx="478" cy="244" r="4"/>
+      </g>
+      <!-- Bright highlight on barrel (well-lit). -->
+      <ellipse cx="476" cy="240" rx="3" ry="1.5" fill="#fff0a8" opacity="0.75"/>
+      <!-- Other gear. -->
+      <circle cx="498" cy="246" r="4" fill="url(#p4p1brass)"/>
+      <circle cx="498" cy="246" r="4" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+      <!-- Tools laid beside (in the working area). -->
+      <line x1="450" y1="226" x2="466" y2="232" stroke="#5a606a" stroke-width="1.6"/>
+      <rect x="446" y="222" width="6" height="8" fill="#3a2010"/>
+    </g>
+
+    <!-- HALF-HIDDEN OWN PROJECT (background, in shadow behind a clock case).
+         Theodore's stolen-moments watch project. -->
+    <g opacity="0.78">
+      <!-- A clock case (large, used as cover/shade for his secret work). -->
+      <rect x="608" y="206" width="40" height="50" fill="#3a2010"/>
+      <rect x="610" y="208" width="36" height="4" fill="#5a3818"/>
+      <rect x="608" y="206" width="40" height="2" fill="#1a0c04"/>
+      <circle cx="628" cy="226" r="10" fill="#1a0c04"/>
+      <circle cx="628" cy="226" r="8" fill="#dcd0b4" opacity="0.6"/>
+      <circle cx="628" cy="226" r="8" fill="none" stroke="#5a3018" stroke-width="0.6"/>
+      <line x1="628" y1="226" x2="630" y2="222" stroke="#1a0c04" stroke-width="0.7"/>
+      <!-- BEHIND/BESIDE the clock case: Theodore's own watch project, partially reassembled. -->
+      <!-- Cloth scrap. -->
+      <rect x="652" y="240" width="60" height="14" fill="#dcd0b4" opacity="0.6"/>
+      <!-- Watch movement housing (partial, in shadow). -->
+      <rect x="668" y="234" width="32" height="18" rx="1" fill="#1a0c04"/>
+      <rect x="670" y="232" width="28" height="3" fill="url(#p4p1brass)" opacity="0.65"/>
+      <!-- Tiny dim brass gears (less lit). -->
+      <circle cx="678" cy="244" r="3" fill="url(#p4p1brass)" opacity="0.65"/>
+      <circle cx="687" cy="244" r="2.6" fill="url(#p4p1brass)" opacity="0.65"/>
+      <circle cx="694" cy="244" r="2.4" fill="url(#p4p1brass)" opacity="0.65"/>
+      <!-- A few scattered loose components on cloth. -->
+      <circle cx="660" cy="248" r="0.8" fill="#5a3818"/>
+      <circle cx="664" cy="248" r="0.8" fill="#5a3818"/>
+      <circle cx="668" cy="252" r="0.6" fill="#5a3818"/>
+      <!-- Slight shadow cast across project. -->
+      <rect x="652" y="240" width="60" height="14" fill="#000" opacity="0.35"/>
+    </g>
+
+    <!-- Tin of screws on bench (foreground edge). -->
+    <rect x="544" y="220" width="14" height="10" rx="1" fill="#5a3818"/>
+    <rect x="545" y="221" width="12" height="2" fill="url(#p4p1brass)" opacity="0.7"/>
+  </g>
+
+  <!-- THEODORE — seated at his bench, hands working between two tasks.
+       Glances toward Cribbage off-frame to image LEFT. Position: behind the bench, about 1/3 in from right. -->
+  <g>
+    <!-- Stool. -->
+    <rect x="538" y="290" width="40" height="5" fill="#3a2010"/>
+    <rect x="544" y="295" width="4" height="46" fill="#1a0c04"/>
+    <rect x="568" y="295" width="4" height="46" fill="#1a0c04"/>
+    <line x1="546" y1="320" x2="572" y2="320" stroke="#1a0c04" stroke-width="2"/>
+
+    <!-- Trousers. -->
+    <path d="M530,260 Q526,294 532,330 L552,330 Q556,294 552,260 Z" fill="url(#p4p1theoTrousers)"/>
+    <path d="M556,260 Q554,294 558,330 L578,330 Q582,294 578,260 Z" fill="url(#p4p1theoTrousers)"/>
+    <line x1="542" y1="264" x2="542" y2="328" stroke="#0a0604" stroke-width="0.5" opacity="0.55"/>
+    <line x1="568" y1="264" x2="568" y2="328" stroke="#0a0604" stroke-width="0.5" opacity="0.55"/>
+    <ellipse cx="542" cy="298" rx="8" ry="5" fill="url(#p4p1oilStain)"/>
+    <ellipse cx="566" cy="306" rx="7" ry="4" fill="url(#p4p1oilStain)"/>
+
+    <!-- Linen shirt. -->
+    <path d="M508,158 Q502,220 510,260 L598,260 Q606,220 600,158 Q592,150 554,150 Q516,150 508,158 Z" fill="url(#p4p1theoShirt)"/>
+    <!-- Brown waistcoat. -->
+    <path d="M514,166 L512,260 L596,260 L596,166 L588,172 L578,178 L554,184 L530,178 L520,172 Z" fill="url(#p4p1theoVest)"/>
+    <line x1="554" y1="184" x2="554" y2="260" stroke="#1a0c04" stroke-width="0.5" opacity="0.7"/>
+    <circle cx="554" cy="196" r="1.4" fill="url(#p4p1brass)"/>
+    <circle cx="554" cy="208" r="1.4" fill="url(#p4p1brass)"/>
+    <circle cx="554" cy="220" r="1.4" fill="url(#p4p1brass)"/>
+    <circle cx="554" cy="232" r="1.4" fill="url(#p4p1brass)"/>
+    <circle cx="554" cy="244" r="1.4" fill="url(#p4p1brass)"/>
+    <path d="M540,150 L554,176 L568,150 Z" fill="url(#p4p1theoShirt)"/>
+    <circle cx="554" cy="172" r="2.2" fill="url(#p4p1brass)"/>
+    <rect x="514" y="256" width="80" height="5" fill="#3a2010"/>
+
+    <!-- LEFT ARM reaching forward (toward foreground mainspring at lit area). -->
+    <path d="M508,160 Q496,200 488,236 L502,238 Q510,202 512,164 Z" fill="url(#p4p1theoShirt)"/>
+    <rect x="486" y="232" width="20" height="5" fill="#a89878"/>
+    <line x1="486" y1="234" x2="506" y2="234" stroke="#5a4838" stroke-width="0.4"/>
+    <path d="M488,238 Q480,250 488,260 L506,256 Q502,244 502,238 Z" fill="url(#p4p1theoSkin)"/>
+    <ellipse cx="490" cy="262" rx="8" ry="5" fill="url(#p4p1theoSkin)"/>
+    <!-- Tool in hand (small screwdriver / poker pointing at mainspring). -->
+    <line x1="488" y1="262" x2="478" y2="252" stroke="#5a606a" stroke-width="1.4"/>
+    <line x1="478" y1="252" x2="476" y2="246" stroke="#1a0c04" stroke-width="0.8"/>
+
+    <!-- RIGHT ARM hovering toward image right (over his hidden project). -->
+    <path d="M600,160 Q616,200 624,236 L612,240 Q604,206 596,164 Z" fill="url(#p4p1theoShirt)"/>
+    <rect x="610" y="234" width="20" height="5" fill="#a89878"/>
+    <path d="M624,238 Q636,250 648,256 L656,250 Q644,242 626,238 Z" fill="url(#p4p1theoSkin)"/>
+    <!-- Right hand hovering over the watch project (in the dim area). -->
+    <ellipse cx="654" cy="252" rx="8" ry="5" fill="url(#p4p1theoSkin)"/>
+    <ellipse cx="654" cy="252" rx="8" ry="5" fill="#000" opacity="0.25"/>
+    <!-- Brass gear ring on left index. -->
+    <circle cx="488" cy="262" r="1.4" fill="url(#p4p1brass)"/>
+
+    <!-- HEAD — turned slightly LEFT (image-left toward Cribbage off-frame), but eyes glance side. -->
+    <path d="M546,140 L546,158 L562,158 L562,140 Z" fill="url(#p4p1theoSkin)"/>
+    <ellipse cx="554" cy="120" rx="20" ry="22" fill="url(#p4p1theoSkin)"/>
+    <!-- Tousled spikes. -->
+    <path d="M536,108 Q532,84 552,78 Q564,74 574,80 Q576,98 574,110 L570,114 Q566,94 560,90 L548,90 Q542,94 540,114 Z" fill="url(#p4p1theoHair)"/>
+    <path d="M540,84 L538,68 L544,84 Z" fill="url(#p4p1theoHair)"/>
+    <path d="M550,78 L550,62 L556,78 Z" fill="url(#p4p1theoHair)"/>
+    <path d="M562,76 L566,62 L566,80 Z" fill="url(#p4p1theoHair)"/>
+    <path d="M572,82 L576,68 L574,86 Z" fill="url(#p4p1theoHair)"/>
+    <!-- Bangs. -->
+    <path d="M540,104 L542,116 L546,104 Z" fill="url(#p4p1theoHair)"/>
+    <path d="M550,106 L552,118 L556,106 Z" fill="url(#p4p1theoHair)"/>
+    <path d="M560,106 L558,116 L564,106 Z" fill="url(#p4p1theoHair)"/>
+    <path d="M568,104 L572,118 L572,104 Z" fill="url(#p4p1theoHair)"/>
+    <!-- Sides. -->
+    <path d="M536,108 Q532,134 540,148 L548,148 Q544,138 544,108 Z" fill="url(#p4p1theoHair)"/>
+    <path d="M572,108 Q576,134 568,148 L562,148 Q566,138 566,108 Z" fill="url(#p4p1theoHair)"/>
+
+    <!-- Eyes — glanced sideways toward image-left (toward Cribbage). -->
+    <ellipse cx="546" cy="120" rx="1.8" ry="1.1" fill="#3a2810"/>
+    <ellipse cx="558" cy="120" rx="1.8" ry="1.1" fill="#3a2810"/>
+    <!-- Pupils slid LEFT. -->
+    <ellipse cx="544" cy="120" rx="0.6" ry="0.8" fill="#0a0604"/>
+    <ellipse cx="556" cy="120" rx="0.6" ry="0.8" fill="#0a0604"/>
+    <!-- Brows — slightly raised (alert checking). -->
+    <path d="M540,116 Q546,114 552,116" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <path d="M552,116 Q558,114 564,116" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <!-- Nose. -->
+    <path d="M554,128 L552,138 Q554,140 556,138 Z" fill="#a8765a" opacity="0.55"/>
+    <!-- Mouth — neutral, lips parted, focused. -->
+    <ellipse cx="554" cy="146" rx="3" ry="1" fill="#7a3018" opacity="0.55"/>
+    <path d="M551,146 Q554,148 557,146" fill="none" stroke="#7a3018" stroke-width="0.6"/>
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.85">
+      <circle cx="544" cy="132" r="0.5"/>
+      <circle cx="548" cy="134" r="0.45"/>
+      <circle cx="560" cy="132" r="0.5"/>
+      <circle cx="564" cy="134" r="0.45"/>
+    </g>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q200,45 400,42"/>
+    <path d="M400,40 Q600,45 742,42"/>
+    <path d="M0,310 Q200,315 400,312"/>
+    <path d="M400,310 Q600,315 742,312"/>
+  </g>
+
+  <!-- CRIBBAGE off-panel (from main bench, image-left) — dashed balloon, no tail. -->
+  <rect x="14" y="14" width="280" height="62" rx="8"
+        fill="#ffffff" stroke="#5a4a30" stroke-width="2"
+        stroke-dasharray="4,3"
+        filter="url(#balloonShadow)"/>
+  <text x="24" y="36"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#5a4a30" letter-spacing="0.3">CRIBBAGE (O.P.)</text>
+  <text x="24" y="54"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">Mind that spring. If you snap the arbor,</text>
+  <text x="24" y="70"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">it comes from your wages.</text>
+
+  <!-- THEODORE balloon — top-right area, tail to his head. -->
+  <rect x="356" y="14" width="200" height="50" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M488,64 L500,64 L520,90 Z"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="488" y1="64" x2="500" y2="64" stroke="#ffffff" stroke-width="3"/>
+  <text x="366" y="34"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="366" y="56"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">Yes, Mr. Cribbage.</text>
+
+</svg>

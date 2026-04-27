@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 4 — Panel 5: MCU Theodore in candlelight, deep absorption</title>
+  <desc>MCU 50mm eye level. Theodore at workbench, candlelight, alone. Bends close over partially reassembled watch movement, fine screwdriver in one hand and tweezers in the other, working with care and steady skill. Face lit from BELOW by candle — warm amber catching sandy hair, hazel eyes, freckles, oil-stained clever fingers. Brass gear ring catches the light. Behind him, workshop in deep shadow — Cribbage's bench dark, tools put away, shop closed. He is the only warmth in the room. Deep private absorption — peaceful, doing what he was meant to do. Rembrandt chiaroscuro. Warmth against darkness.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <radialGradient id="p4p5candleHalo" cx="50%" cy="60%" r="60%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#f5b860" stop-opacity="0.5"/>
+      <stop offset="80%" stop-color="#a85820" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0a0402" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p4p5deepShadow">
+      <stop offset="0%" stop-color="#0a0402" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0a0402" stop-opacity="0.95"/>
+    </radialGradient>
+    <linearGradient id="p4p5bgDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="p4p5bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="50%" stop-color="#2a1408"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p4p5brass" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="40%" stop-color="#f0d878"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </radialGradient>
+    <linearGradient id="p4p5skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="50%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#f8e0c8"/>
+    </linearGradient>
+    <linearGradient id="p4p5skinDim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#1a0c04" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p4p5shirtLit" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#fff0c8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#dcd0b4" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a2010" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="p4p5vestLit" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a86838" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#5a3018" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0.95"/>
+    </linearGradient>
+    <radialGradient id="p4p5hair" cx="50%" cy="80%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </radialGradient>
+    <radialGradient id="p4p5oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p4p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p4p5strongBloom"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  <!-- Deep shadow BG (workshop closed, only Theodore lit). -->
+  <rect width="742" height="364" fill="url(#p4p5bgDark)"/>
+
+  <!-- The candle halo radiating outward (the only warm light source). -->
+  <ellipse cx="371" cy="240" rx="320" ry="180" fill="url(#p4p5candleHalo)" opacity="0.85"/>
+
+  <!-- Far darkness around the edges (Rembrandt chiaroscuro). -->
+  <ellipse cx="371" cy="200" rx="500" ry="320" fill="url(#p4p5deepShadow)" opacity="0.85"/>
+
+  <!-- Suggestion of dark workshop in deep BG (Cribbage's bench abandoned, dim outline). -->
+  <g opacity="0.35">
+    <line x1="0" y1="170" x2="180" y2="170" stroke="#3a2010" stroke-width="1"/>
+    <rect x="40" y="170" width="80" height="40" fill="#1a0c04"/>
+    <line x1="600" y1="170" x2="742" y2="170" stroke="#3a2010" stroke-width="1"/>
+    <rect x="640" y="170" width="60" height="40" fill="#1a0c04"/>
+  </g>
+
+  <!-- Theodore's bench (foreground, lit). -->
+  <g>
+    <rect x="100" y="240" width="542" height="32" fill="url(#p4p5bench)"/>
+    <rect x="100" y="240" width="542" height="6" fill="#7a4828"/>
+    <line x1="100" y1="246" x2="642" y2="246" stroke="#1a0c04" stroke-width="0.6"/>
+    <rect x="118" y="272" width="6" height="92" fill="#0a0402"/>
+    <rect x="618" y="272" width="6" height="92" fill="#0a0402"/>
+    <rect x="124" y="272" width="494" height="32" fill="#1a0c04"/>
+
+    <!-- THE CANDLE — focal warm light source on the bench. -->
+    <g>
+      <rect x="262" y="206" width="6" height="34" fill="#dcd0b4"/>
+      <line x1="262" y1="206" x2="262" y2="240" stroke="#5a4838" stroke-width="0.4"/>
+      <!-- Candle drip. -->
+      <path d="M268,212 L270,218 L266,220 L268,226" stroke="#a89878" stroke-width="0.5" fill="none"/>
+      <!-- Wick + flame. -->
+      <line x1="265" y1="200" x2="265" y2="206" stroke="#1a0c04" stroke-width="0.6"/>
+      <ellipse cx="265" cy="196" rx="3" ry="6" fill="#fff0a8" filter="url(#p4p5strongBloom)"/>
+      <ellipse cx="265" cy="198" rx="2" ry="4" fill="#fff0a8"/>
+      <ellipse cx="265" cy="200" rx="1.2" ry="2.5" fill="#ffffff"/>
+      <!-- Candle holder. -->
+      <ellipse cx="265" cy="240" rx="14" ry="4" fill="#a85820"/>
+      <ellipse cx="265" cy="240" rx="14" ry="4" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+      <ellipse cx="265" cy="238" rx="12" ry="2" fill="#f5d878"/>
+    </g>
+
+    <!-- WATCH MOVEMENT — Theodore's project, well-lit by candle. -->
+    <g>
+      <rect x="320" y="218" width="80" height="22" rx="2" fill="#1a0c04"/>
+      <rect x="322" y="216" width="76" height="5" fill="url(#p4p5brass)"/>
+      <line x1="322" y1="218" x2="398" y2="218" stroke="#5a3018" stroke-width="0.5"/>
+      <!-- Brass mainspring barrel. -->
+      <circle cx="338" cy="230" r="6" fill="url(#p4p5brass)"/>
+      <circle cx="338" cy="230" r="6" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+      <circle cx="338" cy="230" r="2" fill="#5a3018"/>
+      <!-- Coiled spring. -->
+      <g stroke="#5a3018" stroke-width="0.5" fill="none">
+        <circle cx="338" cy="230" r="4"/>
+        <circle cx="338" cy="230" r="2.5"/>
+      </g>
+      <ellipse cx="336" cy="227" rx="2" ry="1" fill="#fff0a8" opacity="0.85"/>
+      <!-- Other gears + escape wheel + balance. -->
+      <circle cx="358" cy="230" r="4" fill="url(#p4p5brass)"/>
+      <circle cx="358" cy="230" r="4" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+      <ellipse cx="356" cy="228" rx="1.5" ry="0.7" fill="#fff0a8" opacity="0.85"/>
+      <!-- Balance wheel. -->
+      <circle cx="376" cy="230" r="4.5" fill="url(#p4p5brass)"/>
+      <circle cx="376" cy="230" r="4.5" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+      <circle cx="376" cy="230" r="2.2" fill="none" stroke="#5a3018" stroke-width="0.9"/>
+      <!-- Pallet fork. -->
+      <line x1="382" y1="230" x2="390" y2="232" stroke="#5a3018" stroke-width="0.6"/>
+      <line x1="390" y1="232" x2="392" y2="226" stroke="#5a3018" stroke-width="0.6"/>
+    </g>
+
+    <!-- Tools laid beside (parts in good order). -->
+    <line x1="222" y1="232" x2="240" y2="238" stroke="#5a606a" stroke-width="1.4"/>
+    <rect x="218" y="228" width="6" height="6" fill="#3a2010"/>
+    <rect x="430" y="232" width="20" height="3" fill="#5a606a"/>
+    <rect x="450" y="231" width="6" height="5" fill="#3a2010"/>
+  </g>
+
+  <!-- THEODORE — leaned forward over watch movement, tools in both hands. Face lit from below by candle. -->
+  <g>
+    <!-- Trousers (dim, in shadow). -->
+    <path d="M348,278 Q344,308 350,360 L370,360 Q376,308 372,278 Z" fill="#1a0c04"/>
+    <path d="M376,278 Q374,308 380,360 L398,360 Q402,308 398,278 Z" fill="#1a0c04"/>
+
+    <!-- TORSO — leaning forward over the watch.
+         The shirt + waistcoat's LOWER edge is closer to candle = brighter; upper away from light = darker. -->
+    <!-- Linen shirt (illuminated from below). -->
+    <path d="M310,162 Q304,232 314,272 L408,272 Q418,232 412,162 Q400,154 360,154 Q320,154 310,162 Z" fill="url(#p4p5shirtLit)"/>
+
+    <!-- Brown waistcoat. -->
+    <path d="M316,170 L314,272 L408,272 L408,170 L398,178 L388,184 L360,192 L332,184 L322,178 Z" fill="url(#p4p5vestLit)"/>
+    <line x1="360" y1="192" x2="360" y2="272" stroke="#0a0402" stroke-width="0.5" opacity="0.85"/>
+    <circle cx="360" cy="206" r="1.4" fill="url(#p4p5brass)"/>
+    <circle cx="360" cy="220" r="1.4" fill="url(#p4p5brass)"/>
+    <circle cx="360" cy="234" r="1.4" fill="url(#p4p5brass)"/>
+    <circle cx="360" cy="248" r="1.4" fill="url(#p4p5brass)"/>
+    <circle cx="360" cy="262" r="1.4" fill="url(#p4p5brass)"/>
+    <!-- V-neck. -->
+    <path d="M348,154 L360,182 L372,154 Z" fill="url(#p4p5shirtLit)"/>
+    <circle cx="360" cy="178" r="2" fill="url(#p4p5brass)"/>
+
+    <!-- Belt. -->
+    <rect x="316" y="268" width="92" height="5" fill="#3a2010"/>
+
+    <!-- Both arms FORWARD over the watch (wrist visible, sleeve cuffs rolled, oil-stained forearms exposed). -->
+    <!-- LEFT ARM. -->
+    <path d="M310,164 Q298,206 306,242 L322,242 Q322,208 320,166 Z" fill="url(#p4p5shirtLit)"/>
+    <rect x="304" y="238" width="20" height="5" fill="#a89878"/>
+    <line x1="304" y1="240" x2="324" y2="240" stroke="#5a4838" stroke-width="0.4"/>
+    <path d="M306,242 Q302,260 318,272 L334,266 Q322,254 322,242 Z" fill="url(#p4p5skin)"/>
+    <!-- Oil stains. -->
+    <ellipse cx="310" cy="252" rx="6" ry="3" fill="url(#p4p5oilStain)"/>
+    <ellipse cx="320" cy="262" rx="5" ry="2.5" fill="url(#p4p5oilStain)" opacity="0.7"/>
+    <!-- Hand HOLDING SCREWDRIVER. -->
+    <ellipse cx="338" cy="270" rx="7" ry="5" fill="url(#p4p5skin)"/>
+    <!-- Brass gear ring on left index. -->
+    <ellipse cx="334" cy="270" rx="2.4" ry="1.6" fill="url(#p4p5brass)"/>
+    <ellipse cx="334" cy="270" rx="2.4" ry="1.6" fill="none" stroke="#5a3018" stroke-width="0.4"/>
+    <!-- SCREWDRIVER reaching toward watch. -->
+    <line x1="338" y1="268" x2="346" y2="244" stroke="#3a2010" stroke-width="2.4"/>
+    <rect x="345" y="242" width="3" height="6" fill="url(#p4p5brass)"/>
+    <line x1="346" y1="244" x2="350" y2="240" stroke="#5a606a" stroke-width="1.4"/>
+    <line x1="350" y1="240" x2="349" y2="236" stroke="#1a0c04" stroke-width="0.7"/>
+
+    <!-- RIGHT ARM holding TWEEZERS. -->
+    <path d="M412,164 Q424,206 416,242 L400,242 Q400,208 402,166 Z" fill="url(#p4p5shirtLit)"/>
+    <rect x="398" y="238" width="20" height="5" fill="#a89878"/>
+    <line x1="398" y1="240" x2="418" y2="240" stroke="#5a4838" stroke-width="0.4"/>
+    <path d="M416,242 Q420,260 404,272 L388,266 Q400,254 400,242 Z" fill="url(#p4p5skin)"/>
+    <ellipse cx="412" cy="252" rx="6" ry="3" fill="url(#p4p5oilStain)"/>
+    <ellipse cx="402" cy="262" rx="5" ry="2.5" fill="url(#p4p5oilStain)" opacity="0.7"/>
+    <ellipse cx="384" cy="270" rx="7" ry="5" fill="url(#p4p5skin)"/>
+    <!-- TWEEZERS reaching toward watch. -->
+    <line x1="384" y1="268" x2="378" y2="244" stroke="#5a606a" stroke-width="1.6"/>
+    <line x1="386" y1="268" x2="380" y2="244" stroke="#5a606a" stroke-width="1.6"/>
+    <line x1="378" y1="244" x2="378" y2="236" stroke="#1a0c04" stroke-width="0.7"/>
+    <line x1="380" y1="244" x2="378" y2="234" stroke="#1a0c04" stroke-width="0.4"/>
+
+    <!-- HEAD — bent FORWARD AND DOWN over the watch. Face lit from BELOW by candle. -->
+    <path d="M353,142 L353,158 L367,158 L367,142 Z" fill="url(#p4p5skin)"/>
+    <ellipse cx="360" cy="118" rx="22" ry="22" fill="url(#p4p5skin)"/>
+    <!-- Top of head/hair is in DARKNESS (away from candle). -->
+    <ellipse cx="360" cy="118" rx="22" ry="22" fill="url(#p4p5skinDim)" opacity="0.7"/>
+
+    <!-- Hair (mostly in shadow, with candle catching the LOWER edges of the spikes from below). -->
+    <path d="M340,108 Q336,84 360,76 Q374,72 384,78 Q386,98 384,108 L380,112 Q376,98 370,94 L350,94 Q344,98 344,112 Z" fill="url(#p4p5hair)"/>
+    <path d="M344,86 L342,72 L348,86 Z" fill="url(#p4p5hair)"/>
+    <path d="M354,80 L354,66 L360,80 Z" fill="url(#p4p5hair)"/>
+    <path d="M364,76 L368,62 L368,80 Z" fill="url(#p4p5hair)"/>
+    <path d="M376,82 L382,70 L380,86 Z" fill="url(#p4p5hair)"/>
+    <!-- Bangs (lit at very tips by candle from below). -->
+    <path d="M344,108 L346,124 L350,108 Z" fill="url(#p4p5hair)"/>
+    <path d="M354,110 L356,126 L360,110 Z" fill="url(#p4p5hair)"/>
+    <path d="M362,110 L364,124 L368,110 Z" fill="url(#p4p5hair)"/>
+    <path d="M374,108 L378,124 L378,108 Z" fill="url(#p4p5hair)"/>
+    <!-- Dark separations between spikes. -->
+    <g stroke="#0a0402" stroke-width="0.6" opacity="0.85" fill="none">
+      <line x1="346" y1="86" x2="348" y2="98"/>
+      <line x1="358" y1="80" x2="360" y2="94"/>
+      <line x1="368" y1="80" x2="370" y2="94"/>
+      <line x1="378" y1="84" x2="378" y2="98"/>
+    </g>
+
+    <!-- Sides of hair. -->
+    <path d="M340,108 Q336,134 344,148 L352,148 Q348,138 348,108 Z" fill="url(#p4p5hair)"/>
+    <path d="M384,108 Q386,134 376,148 L368,148 Q372,138 372,108 Z" fill="url(#p4p5hair)"/>
+
+    <!-- Eyes — looking DOWN at the watch (focused absorption). Lit from below. -->
+    <ellipse cx="354" cy="118" rx="2.2" ry="1.2" fill="#3a2810"/>
+    <ellipse cx="366" cy="118" rx="2.2" ry="1.2" fill="#3a2810"/>
+    <ellipse cx="354" cy="119" rx="0.7" ry="0.4" fill="#fff0a8"/>
+    <ellipse cx="366" cy="119" rx="0.7" ry="0.4" fill="#fff0a8"/>
+    <!-- Brows lowered (concentration). -->
+    <path d="M348,113 Q354,111 360,113" fill="none" stroke="#3a2810" stroke-width="1" stroke-linecap="round"/>
+    <path d="M360,113 Q366,111 372,113" fill="none" stroke="#3a2810" stroke-width="1" stroke-linecap="round"/>
+    <!-- Nose — UNDERLIT (warm catch on tip and underside). -->
+    <path d="M360,124 L356,134 Q360,136 364,134 Z" fill="#a8765a" opacity="0.85"/>
+    <!-- Nostril shadows. -->
+    <ellipse cx="357" cy="135" rx="1.2" ry="0.5" fill="#3a1808" opacity="0.85"/>
+    <ellipse cx="363" cy="135" rx="1.2" ry="0.5" fill="#3a1808" opacity="0.85"/>
+    <!-- Mouth — slightly open, peaceful. -->
+    <ellipse cx="360" cy="146" rx="3.5" ry="1.4" fill="#7a3018" opacity="0.7"/>
+    <path d="M357,145 Q360,148 363,145" fill="none" stroke="#5a3018" stroke-width="0.7"/>
+    <!-- Freckles, illuminated. -->
+    <g fill="#a8765a" opacity="0.95">
+      <circle cx="350" cy="128" r="0.6"/>
+      <circle cx="354" cy="130" r="0.55"/>
+      <circle cx="358" cy="128" r="0.65"/>
+      <circle cx="368" cy="128" r="0.65"/>
+      <circle cx="372" cy="130" r="0.55"/>
+    </g>
+
+    <!-- Cheek warm glow (candle from below). -->
+    <ellipse cx="346" cy="138" rx="6" ry="4" fill="#dcaf60" opacity="0.32"/>
+    <ellipse cx="374" cy="138" rx="6" ry="4" fill="#dcaf60" opacity="0.28"/>
+
+    <!-- Rim of warm light along jawline (candle from below). -->
+    <path d="M340,142 Q360,150 380,142" fill="none" stroke="#fff0a8" stroke-width="0.7" opacity="0.55"/>
+  </g>
+
+  <!-- Brushwork accents — subtle. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q200,45 400,42"/>
+    <path d="M400,40 Q600,45 742,42"/>
+    <path d="M0,310 Q200,315 400,312"/>
+    <path d="M400,310 Q600,315 742,312"/>
+  </g>
+
+  <!-- CAPTION — lower-right or upper-right, parchment style, italic. Per script: callback to "Most days, this is enough." -->
+  <rect x="540" y="14" width="190" height="40" rx="2"
+        fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5"
+        filter="url(#balloonShadow)"/>
+  <text x="550" y="32"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="700" font-style="italic"
+        fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+  <text x="550" y="46"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic"
+        fill="#5a4a30">Most days, this is enough.</text>
+
+</svg>
