@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 2 — Page 13 — Panel 3: Jink reaction, mask slips, red wash from below</title>
+  <desc>MCU 65mm eye level. Jink face reacting devastating news. Lean androgynous young-adult late teens early 20s NOT child. Bright golden blonde curly hair light brown skin. Reckless grin gone — eyes wider mouth slightly open arms dropped. Not panic — youth meeting permanent consequence. Red holographic light washes up face from below cast by off-panel schematic, turning emerald suit dark unsettling muddy wrong colour. JINK quiet so when you say gone you mean we can't find pieces / WREN OP atomised molecular level no pieces.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p13p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#1a1010"/>
+    </linearGradient>
+    <radialGradient id="p13p3redWash">
+      <stop offset="0%" stop-color="#f54848" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a82030" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a0810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p13p3emeraldDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a6048"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <filter id="p13p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p13p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p13p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="400" fill="url(#p13p3bg)"/>
+
+  <!-- RED WASH from below. -->
+  <ellipse cx="183" cy="380" rx="280" ry="180" fill="url(#p13p3redWash)" filter="url(#p13p3deepBloom)" opacity="0.85"/>
+
+  <!-- JINK — center frame face MCU. -->
+  <g id="p13p3-jink" transform="translate(183, 240)">
+    <!-- Body upper torso/shoulders. -->
+    <path d="M-60,160 L-65,80 L-50,30 L-30,5 L-15,-15 L15,-15 L30,5 L50,30 L65,80 L60,160 Z" fill="url(#p13p3emeraldDirty)" stroke="#080404" stroke-width="0.85"/>
+    <!-- Pauldrons. -->
+    <path d="M-30,5 L-50,20 L-50,40 L-30,45 Z" fill="url(#p13p3emeraldDirty)" stroke="#080404" stroke-width="0.7"/>
+    <path d="M30,5 L50,20 L50,40 L30,45 Z" fill="url(#p13p3emeraldDirty)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Emerald collar (dimmed under red wash). -->
+    <ellipse cx="0" cy="-15" rx="20" ry="4" fill="#3aa078" opacity="0.55" filter="url(#p13p3bloom)"/>
+
+    <!-- Minor scuffs. -->
+    <g fill="#3a2010" opacity="0.85">
+      <ellipse cx="-15" cy="60" rx="5" ry="2" transform="rotate(-15 -15 60)"/>
+      <ellipse cx="20" cy="80" rx="4" ry="2"/>
+    </g>
+
+    <!-- Arms DROPPED to sides (not crossed anymore). -->
+    <path d="M-50,40 L-58,90 L-48,140 L-42,140 L-44,90 L-40,50 Z" fill="url(#p13p3emeraldDirty)" stroke="#080404" stroke-width="0.6"/>
+    <path d="M50,40 L58,90 L48,140 L42,140 L44,90 L40,50 Z" fill="url(#p13p3emeraldDirty)" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="-45" cy="142" rx="5" ry="3" fill="#a87850" stroke="#3a1808" stroke-width="0.4"/>
+    <ellipse cx="45" cy="142" rx="5" ry="3" fill="#a87850" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- HEAD facing forward (slight tilt toward off-panel schematic). -->
+    <ellipse cx="0" cy="-50" rx="32" ry="36" fill="#d8b890"/>
+
+    <!-- WILD GOLDEN BLONDE CURLS. -->
+    <path d="M-32,-78 Q-40,-92 -25,-104 Q-10,-110 0,-105 Q10,-110 25,-104 Q40,-92 32,-78 L32,-60 L-32,-60 Z" fill="#f0d878"/>
+    <g fill="#a89048" opacity="0.85">
+      <circle cx="-22" cy="-92" r="3"/>
+      <circle cx="-10" cy="-102" r="3"/>
+      <circle cx="0" cy="-106" r="3"/>
+      <circle cx="10" cy="-102" r="3"/>
+      <circle cx="22" cy="-92" r="3"/>
+      <circle cx="-30" cy="-78" r="2.5"/>
+      <circle cx="30" cy="-78" r="2.5"/>
+    </g>
+    <path d="M-15,-78 Q0,-86 16,-78" stroke="#1a0808" stroke-width="2" fill="none"/>
+
+    <!-- Wet plastered strands. -->
+    <g stroke="#a89048" stroke-width="0.85" fill="none" opacity="0.85">
+      <path d="M-22,-92 Q-24,-78 -26,-65"/>
+      <path d="M0,-100 Q2,-85 3,-72"/>
+      <path d="M22,-92 Q24,-78 26,-65"/>
+    </g>
+
+    <!-- BROW raised slightly (mask slipping). -->
+    <path d="M-22,-58 Q-10,-66 0,-62" stroke="#3a1808" stroke-width="2" fill="none"/>
+    <path d="M0,-62 Q10,-66 22,-58" stroke="#3a1808" stroke-width="2" fill="none"/>
+
+    <!-- EYES — wider than before. -->
+    <ellipse cx="-13" cy="-48" rx="8" ry="6" fill="#dce4f0"/>
+    <ellipse cx="13" cy="-48" rx="8" ry="6" fill="#dce4f0"/>
+    <!-- Iris. -->
+    <ellipse cx="-13" cy="-48" rx="3.5" ry="3.5" fill="#5a8848"/>
+    <ellipse cx="13" cy="-48" rx="3.5" ry="3.5" fill="#5a8848"/>
+    <!-- Pupil dilated. -->
+    <ellipse cx="-13" cy="-48" rx="1.8" ry="1.8" fill="#080404"/>
+    <ellipse cx="13" cy="-48" rx="1.8" ry="1.8" fill="#080404"/>
+    <!-- Catch-light. -->
+    <circle cx="-11" cy="-50" r="1.2" fill="#dce4f0"/>
+    <circle cx="15" cy="-50" r="1.2" fill="#dce4f0"/>
+
+    <!-- White visible above iris (fear tell). -->
+    <path d="M-21,-52 Q-13,-55 -5,-52" fill="#dce4f0"/>
+    <path d="M5,-52 Q13,-55 21,-52" fill="#dce4f0"/>
+
+    <!-- Cheekbones lit by red from below. -->
+    <ellipse cx="-22" cy="-25" rx="9" ry="5" fill="#5a3a18" opacity="0.55" filter="url(#p13p3bloom)"/>
+    <ellipse cx="22" cy="-25" rx="9" ry="5" fill="#5a3a18" opacity="0.55" filter="url(#p13p3bloom)"/>
+    <!-- RED on cheeks. -->
+    <ellipse cx="-22" cy="-22" rx="12" ry="8" fill="#f54848" opacity="0.45" filter="url(#p13p3strongBloom)"/>
+    <ellipse cx="22" cy="-22" rx="12" ry="8" fill="#f54848" opacity="0.45" filter="url(#p13p3strongBloom)"/>
+
+    <!-- Nose. -->
+    <path d="M-3,-40 L0,-22 L-4,-15" stroke="#5a3a18" stroke-width="0.9" fill="none" opacity="0.85"/>
+
+    <!-- MOUTH slightly open. -->
+    <path d="M-10,-8 Q0,-3 10,-8 L10,-2 Q0,4 -10,-2 Z" fill="#3a0810" stroke="#1a0408" stroke-width="0.7"/>
+
+    <!-- Skin warmed by red wash. -->
+    <ellipse cx="0" cy="-30" rx="34" ry="22" fill="#f54848" opacity="0.25" filter="url(#p13p3strongBloom)"/>
+  </g>
+
+  <!-- DIALOGUE -->
+  <g id="p13p3-bal-jink">
+    <rect x="14" y="14" width="240" height="76" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="68" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(quiet)</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">So when you say gone...</text>
+    <text x="24" y="69" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">you mean we can't just</text>
+    <text x="24" y="86" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">find the pieces?</text>
+  </g>
+
+  <g id="p13p3-bal-wren-op">
+    <rect x="14" y="320" width="340" height="60" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="340" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN (O.P.)</text>
+    <text x="24" y="360" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">I mean atomised. Scattered at the</text>
+    <text x="24" y="377" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">molecular level. There are no pieces.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p13p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">3</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">YOUTH MEETS WEIGHT</text>
+  </g>
+</svg>
