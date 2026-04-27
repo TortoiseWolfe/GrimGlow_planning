@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 340" width="487" height="340">
+  <title>Issue 2 — Page 3 — Panel 1: Squad at drainpipe mouth — Thresh enters first</title>
+  <desc>MW eye-level looking into drainpipe mouth at fairy scale. Tunnel of dark cast iron, interior curves into shadow, first socket joint visible inside as ledge-ring. Thresh lowers herself over lip, rifle slung across back, hands gripping pitted iron rim, broad shoulders barely fit width. Wren beside opening, one hand on pipe directing route. Sable behind watching. Sky DARKER LEADEN GREY (rain coming). Cast iron pitted texture. Crimson holo accents glow inside tunnel mouth. WREN multi-line + THRESH copy.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p3p1leaden" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="p3p1pipe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#080a14"/>
+      <stop offset="50%" stop-color="#3a3a45"/>
+      <stop offset="100%" stop-color="#080a14"/>
+    </linearGradient>
+    <radialGradient id="p3p1tunnelDepth" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#080408" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#1a1820" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3a3a45" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p3p1lead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <linearGradient id="p3p1ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="p3p1copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#5a3010"/>
+    </linearGradient>
+    <linearGradient id="p3p1silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a0a8b4"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <radialGradient id="p3p1crimsonGlow">
+      <stop offset="0%" stop-color="#f54848" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a1018" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p3p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p3p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG leaden grey sky (script-specific: darker than dawn — rain coming). -->
+  <rect width="487" height="340" fill="url(#p3p1leaden)"/>
+
+  <!-- Distant hint of rooftop edge. -->
+  <line x1="0" y1="120" x2="487" y2="120" stroke="#1a1820" stroke-width="0.7" opacity="0.55"/>
+
+  <!-- LEAD GUTTER FLOOR + LIP (lower portion). -->
+  <g id="p3p1-gutter">
+    <rect y="270" width="487" height="70" fill="url(#p3p1lead)"/>
+    <line x1="0" y1="270" x2="487" y2="270" stroke="#080a14" stroke-width="1.4"/>
+    <!-- Riveted seams. -->
+    <g stroke="#0a0c10" stroke-width="0.5" opacity="0.85">
+      <line x1="120" y1="270" x2="118" y2="340"/>
+      <line x1="380" y1="270" x2="382" y2="340"/>
+    </g>
+    <g fill="#0a0c10" opacity="0.85">
+      <circle cx="60" cy="288" r="1.4"/>
+      <circle cx="200" cy="290" r="1.4"/>
+      <circle cx="320" cy="290" r="1.4"/>
+      <circle cx="430" cy="290" r="1.4"/>
+    </g>
+    <g fill="#1a1c20" opacity="0.55">
+      <circle cx="80" cy="320" r="1"/>
+      <circle cx="280" cy="328" r="1"/>
+      <circle cx="400" cy="318" r="1"/>
+    </g>
+  </g>
+
+  <!-- DRAINPIPE TUNNEL MOUTH — large, dominant in right-center. -->
+  <g id="p3p1-pipe-tunnel">
+    <!-- Outer pipe structure. -->
+    <rect x="280" y="80" width="180" height="190" fill="url(#p3p1pipe)"/>
+    <!-- Pipe top mount where it meets the wall. -->
+    <rect x="270" y="78" width="200" height="8" rx="1" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+    <!-- Pipe edge highlights. -->
+    <line x1="282" y1="86" x2="282" y2="270" stroke="#5a606a" stroke-width="0.7" opacity="0.7"/>
+    <line x1="458" y1="86" x2="458" y2="270" stroke="#5a606a" stroke-width="0.7" opacity="0.7"/>
+    <!-- Pipe centerline highlight. -->
+    <line x1="370" y1="86" x2="370" y2="270" stroke="#7a7e88" stroke-width="0.7" opacity="0.4"/>
+
+    <!-- TUNNEL MOUTH — large oval at top opening. -->
+    <ellipse cx="370" cy="120" rx="80" ry="25" fill="url(#p3p1tunnelDepth)"/>
+    <ellipse cx="370" cy="120" rx="80" ry="25" fill="none" stroke="#0a0a14" stroke-width="2"/>
+    <!-- INNER DARKNESS (deep interior). -->
+    <ellipse cx="370" cy="120" rx="70" ry="20" fill="#080408"/>
+
+    <!-- SOCKET JOINT visible inside as LEDGE-RING (script-specific). -->
+    <ellipse cx="370" cy="190" rx="60" ry="14" fill="none" stroke="#3a3a45" stroke-width="1" opacity="0.85"/>
+    <ellipse cx="370" cy="186" rx="58" ry="12" fill="none" stroke="#5a606a" stroke-width="0.6" opacity="0.7"/>
+
+    <!-- Iron PITTED TEXTURE (script-specific). -->
+    <g fill="#0a0a14" opacity="0.85">
+      <circle cx="300" cy="160" r="1"/>
+      <circle cx="320" cy="180" r="1.2"/>
+      <circle cx="340" cy="170" r="0.8"/>
+      <circle cx="400" cy="160" r="1"/>
+      <circle cx="420" cy="180" r="1.2"/>
+      <circle cx="440" cy="200" r="1"/>
+      <circle cx="290" cy="220" r="1"/>
+      <circle cx="450" cy="220" r="0.8"/>
+      <circle cx="370" cy="240" r="1"/>
+      <circle cx="310" cy="250" r="0.8"/>
+    </g>
+    <!-- Rust streaks. -->
+    <g stroke="#3a1808" stroke-width="0.4" opacity="0.55">
+      <line x1="300" y1="100" x2="302" y2="265"/>
+      <line x1="430" y1="100" x2="428" y2="265"/>
+      <line x1="385" y1="100" x2="383" y2="265"/>
+    </g>
+    <!-- CORRODED SEAM on left side (script: "watch the seam left, corroded"). -->
+    <g stroke="#5a3018" stroke-width="1.5" opacity="0.7">
+      <line x1="296" y1="135" x2="298" y2="265"/>
+    </g>
+    <g fill="#3a1808" opacity="0.85">
+      <circle cx="297" cy="160" r="2"/>
+      <circle cx="298" cy="190" r="2.5"/>
+      <circle cx="297" cy="220" r="2"/>
+      <circle cx="298" cy="245" r="2"/>
+    </g>
+
+    <!-- CRIMSON HOLO GLOW from Thresh's suit inside tunnel (script-specific). -->
+    <ellipse cx="370" cy="160" rx="50" ry="30" fill="url(#p3p1crimsonGlow)" filter="url(#p3p1strongBloom)" opacity="0.7"/>
+  </g>
+
+  <!-- THRESH lowering herself into pipe mouth. Body at tunnel rim, hands gripping iron. -->
+  <g id="p3p1-thresh" transform="translate(370, 120)">
+    <!-- Body tucked into tunnel — torso slightly visible above rim. -->
+    <ellipse cx="0" cy="20" rx="22" ry="14" fill="url(#p3p1ruby)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Crimson glow halo. -->
+    <ellipse cx="0" cy="20" rx="30" ry="18" fill="#f54848" opacity="0.55" filter="url(#p3p1bloom)"/>
+    <!-- Shoulders broad (just barely fitting). -->
+    <ellipse cx="-22" cy="14" rx="9" ry="5" fill="#a8182a" stroke="#080408" stroke-width="0.5"/>
+    <!-- Dented LEFT pauldron (continuity). -->
+    <line x1="-25" y1="10" x2="-19" y2="14" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="22" cy="14" rx="9" ry="5" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- Rifle slung ACROSS BACK (script-specific). -->
+    <rect x="-8" y="-6" width="22" height="4" rx="0.5" fill="#1a0810" transform="rotate(-15 -8 -6)"/>
+    <line x1="-8" y1="-6" x2="14" y2="-12" stroke="#3a1010" stroke-width="0.6" transform="rotate(-15 -8 -6)"/>
+    <!-- Sling. -->
+    <path d="M-8,-6 Q-14,2 -14,12" stroke="#3a1010" stroke-width="0.6" fill="none"/>
+
+    <!-- ARMS GRIPPING PIPE RIM (script-specific). -->
+    <path d="M-22,8 L-32,2 L-44,-2" fill="none" stroke="url(#p3p1ruby)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M22,8 L32,2 L44,-2" fill="none" stroke="url(#p3p1ruby)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Hands gripping iron rim. -->
+    <ellipse cx="-44" cy="-1" rx="5" ry="3" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="44" cy="-1" rx="5" ry="3" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+
+    <!-- HEAD — only top visible (eyes, brow looking down). -->
+    <ellipse cx="0" cy="-2" rx="9" ry="6" fill="#d8a880"/>
+    <!-- Buzz cap. -->
+    <path d="M-7,-7 Q0,-10 7,-7 L7,-2 L-7,-2 Z" fill="#a83a18"/>
+    <!-- Eyes focused down. -->
+    <ellipse cx="-3" cy="-2" rx="1.4" ry="0.8" fill="#1a0808"/>
+    <ellipse cx="3" cy="-2" rx="1.4" ry="0.8" fill="#1a0808"/>
+    <!-- Brow set hard — focused on task. -->
+    <path d="M-5,-6 Q-2,-8 1,-6" stroke="#5a1808" stroke-width="0.7" fill="none"/>
+    <path d="M1,-6 Q4,-8 6,-6" stroke="#5a1808" stroke-width="0.7" fill="none"/>
+    <!-- Lips set firm. -->
+    <line x1="-2" y1="2" x2="3" y2="2" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- WREN beside pipe opening — directing. -->
+  <g id="p3p1-wren" transform="translate(150, 200)">
+
+    <!-- Lower legs. -->
+    <path d="M-12,40 L-14,68 L-16,80" fill="none" stroke="#5a3010" stroke-width="9" stroke-linecap="round"/>
+    <path d="M12,40 L14,68 L16,80" fill="none" stroke="#5a3010" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- Thighs. -->
+    <path d="M-13,5 L-12,40 L0,40" fill="url(#p3p1copper)" stroke="#080408" stroke-width="0.6"/>
+    <path d="M13,5 L12,40 L0,40" fill="url(#p3p1copper)" stroke="#080408" stroke-width="0.6"/>
+
+    <!-- Torso. -->
+    <path d="M-16,-25 Q-22,5 -13,28 L13,28 Q22,5 16,-25 L8,-32 L-8,-32 Z" fill="url(#p3p1copper)" stroke="#080408" stroke-width="0.7"/>
+    <line x1="0" y1="-22" x2="0" y2="22" stroke="#f5a868" stroke-width="0.5" opacity="0.55" filter="url(#p3p1bloom)"/>
+    <ellipse cx="0" cy="0" rx="16" ry="11" fill="#f5a868" opacity="0.4" filter="url(#p3p1bloom)"/>
+
+    <!-- Water spots. -->
+    <g fill="#080a14" opacity="0.55">
+      <circle cx="-13" cy="-12" r="1"/>
+      <circle cx="13" cy="-12" r="1"/>
+    </g>
+
+    <!-- Shoulders. -->
+    <ellipse cx="-16" cy="-22" rx="7" ry="4" fill="#c87a35" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="16" cy="-22" rx="7" ry="4" fill="#c87a35" stroke="#080408" stroke-width="0.4"/>
+
+    <!-- LEFT arm at side. -->
+    <path d="M-16,-15 L-20,5 L-14,25" fill="none" stroke="url(#p3p1copper)" stroke-width="5" stroke-linecap="round"/>
+    <!-- Oil stains on forearm (continuity). -->
+    <ellipse cx="-18" cy="0" rx="3" ry="4" fill="#1a0a08" opacity="0.65"/>
+
+    <!-- RIGHT arm RAISED — one hand ON PIPE directing (script-specific). -->
+    <path d="M16,-15 L40,-12 L70,-10" fill="none" stroke="url(#p3p1copper)" stroke-width="5" stroke-linecap="round"/>
+    <!-- Hand on pipe. -->
+    <ellipse cx="70" cy="-10" rx="5" ry="3" fill="#5a3010" stroke="#080408" stroke-width="0.4"/>
+    <!-- Oil stain on right forearm. -->
+    <ellipse cx="50" cy="-13" rx="4" ry="3" fill="#1a0a08" opacity="0.65"/>
+
+    <!-- HEAD turned toward pipe, slight tilt (calling holds). -->
+    <ellipse cx="2" cy="-50" rx="11" ry="12" fill="#d8b088" transform="rotate(15 2 -50)"/>
+    <!-- HAIR UP in messy bun (continuity). -->
+    <g transform="rotate(15 2 -50)">
+      <path d="M-7,-58 Q3,-62 11,-58 Q14,-52 11,-46 L-7,-46 Z" fill="#0a0a14"/>
+      <ellipse cx="2" cy="-66" rx="6" ry="4" fill="#0a0a14"/>
+      <ellipse cx="2" cy="-62" rx="5" ry="1" fill="#3a2810" opacity="0.85"/>
+      <!-- Loose strands. -->
+      <line x1="-2" y1="-62" x2="-3" y2="-58" stroke="#0a0a14" stroke-width="0.5"/>
+      <line x1="6" y1="-62" x2="7" y2="-58" stroke="#0a0a14" stroke-width="0.5"/>
+    </g>
+    <!-- Eyes (focused on pipe). -->
+    <ellipse cx="0" cy="-50" rx="1.4" ry="1" fill="#0a0a14" transform="rotate(15 2 -50)"/>
+    <ellipse cx="6" cy="-50" rx="1.4" ry="1" fill="#0a0a14" transform="rotate(15 2 -50)"/>
+    <!-- Brow set. -->
+    <path d="M-4,-55 Q0,-57 2,-55" stroke="#3a1808" stroke-width="0.7" fill="none" transform="rotate(15 2 -50)"/>
+    <path d="M2,-55 Q5,-57 8,-55" stroke="#3a1808" stroke-width="0.7" fill="none" transform="rotate(15 2 -50)"/>
+    <!-- Lips firm. -->
+    <line x1="-1" y1="-42" x2="6" y2="-42" stroke="#3a1810" stroke-width="0.8" transform="rotate(15 2 -50)"/>
+  </g>
+
+  <!-- SABLE in BG (behind Wren) — watching. -->
+  <g id="p3p1-sable" transform="translate(70, 230)">
+    <!-- Body. -->
+    <ellipse cx="0" cy="0" rx="9" ry="14" fill="#a8b0c0"/>
+    <ellipse cx="0" cy="0" rx="11" ry="16" fill="#dce4ff" opacity="0.35" filter="url(#p3p1bloom)"/>
+    <!-- Cracked shoulder bleed (continuity). -->
+    <ellipse cx="7" cy="-4" rx="3" ry="2" fill="#dce4ff" opacity="0.85" filter="url(#p3p1bloom)"/>
+    <!-- Head. -->
+    <circle cx="0" cy="-14" r="5" fill="#5a3818"/>
+    <!-- Silver buzz. -->
+    <path d="M-4,-17 Q0,-19 4,-17 L4,-14 L-4,-14 Z" fill="#c8ccd4"/>
+    <!-- Arms folded/at sides. -->
+    <line x1="-7" y1="-3" x2="-9" y2="6" stroke="#3a3a45" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="7" y1="-3" x2="9" y2="6" stroke="#3a3a45" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Lower legs. -->
+    <line x1="-4" y1="14" x2="-5" y2="22" stroke="#3a3a45" stroke-width="3" stroke-linecap="round"/>
+    <line x1="4" y1="14" x2="5" y2="22" stroke="#3a3a45" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- WREN dialogue. -->
+  <g id="p3p1-dlg-wren">
+    <rect x="14" y="14" width="240" height="76" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">First joint two body-lengths down.</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Pitted iron — good grip.</text>
+    <text x="24" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="500" font-style="italic" fill="#3a3030">Watch the seam left. Corroded.</text>
+    <path d="M118,90 L136,90 L150,160 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="118" y1="90" x2="136" y2="90" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- THRESH copy. -->
+  <g id="p3p1-dlg-thresh">
+    <rect x="280" y="280" width="100" height="44" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="290" y="298" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH</text>
+    <text x="290" y="315" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Copy.</text>
+    <path d="M318,280 L336,280 L370,160 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="318" y1="280" x2="336" y2="280" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p3p1-meta">
+    <text x="479" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="483" y="332" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">DESCENT BEGINS</text>
+  </g>
+</svg>

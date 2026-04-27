@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 2 — Page 3 — Panel 5: Jink POV looking back — gutter floods, campsite drowns</title>
+  <desc>MCU 35mm POV looking back over shoulder while running. Gutter behind transforming — water sheets across lead-lined channel pooling/connecting, thin stream becoming current. Dead leaves that were shelters lifting/floating as debris. Footprints already submerged. Fist-sized raindrops continue falling. Hint of EMERALD METALLIC SLEEVE at bottom edge (POV character's arm pumping). Grey rain light, water reflecting everything. The campsite of 10 minutes ago is drowning. JINK internal italic: "Okay. So it does that."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p3p5leaden" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="p3p5water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="50%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="p3p5wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <radialGradient id="p3p5puddle">
+      <stop offset="0%" stop-color="#5a606a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1a1c20" stop-opacity="0.7"/>
+    </radialGradient>
+    <linearGradient id="p3p5emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4828"/>
+    </linearGradient>
+    <filter id="p3p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p3p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG sky leaden grey. -->
+  <rect width="366" height="180" fill="url(#p3p5leaden)"/>
+
+  <!-- BG raindrops continuing to fall (translucent spheres descending). -->
+  <g id="p3p5-falling-rain">
+    <!-- Several drops in mid-fall. -->
+    <g fill="#a8b8c8" opacity="0.75" filter="url(#p3p5bloom)">
+      <ellipse cx="60" cy="60" rx="6" ry="8"/>
+      <ellipse cx="180" cy="40" rx="8" ry="10"/>
+      <ellipse cx="280" cy="80" rx="7" ry="9"/>
+      <ellipse cx="120" cy="100" rx="5" ry="7"/>
+    </g>
+    <!-- Specular highlights on drops. -->
+    <g fill="#dce4f0" opacity="0.85">
+      <ellipse cx="58" cy="56" rx="2" ry="2"/>
+      <ellipse cx="178" cy="36" rx="2.5" ry="2.5"/>
+      <ellipse cx="278" cy="76" rx="2" ry="2"/>
+      <ellipse cx="119" cy="97" rx="1.5" ry="1.5"/>
+    </g>
+    <!-- Trajectory streaks. -->
+    <g stroke="#a8b8c8" stroke-width="1.2" opacity="0.55" filter="url(#p3p5bloom)">
+      <line x1="60" y1="20" x2="60" y2="50"/>
+      <line x1="180" y1="0" x2="180" y2="30"/>
+      <line x1="280" y1="40" x2="280" y2="70"/>
+      <line x1="120" y1="60" x2="120" y2="90"/>
+    </g>
+  </g>
+
+  <!-- DARK SLATE EDGES at top of frame (gutter walls). -->
+  <g id="p3p5-slate-edges">
+    <path d="M0,140 L80,165 L160,160 L240,168 L300,160 L366,165 L366,180 L0,180 Z" fill="url(#p3p5wall)"/>
+  </g>
+
+  <!-- GUTTER FLOOR BECOMING RIVER — wide water surface mirror reflecting everything (script-specific). -->
+  <g id="p3p5-flooded-gutter">
+    <rect y="180" width="366" height="220" fill="url(#p3p5water)"/>
+    <!-- Water mirror reflection of leaden sky. -->
+    <rect y="180" width="366" height="50" fill="#5a606a" opacity="0.55" filter="url(#p3p5bloom)"/>
+    <!-- Reflection ripples. -->
+    <line x1="0" y1="200" x2="366" y2="202" stroke="#7a7e88" stroke-width="0.5" opacity="0.85"/>
+    <line x1="0" y1="220" x2="366" y2="222" stroke="#7a7e88" stroke-width="0.5" opacity="0.7"/>
+    <line x1="0" y1="240" x2="366" y2="242" stroke="#7a7e88" stroke-width="0.4" opacity="0.55"/>
+    <line x1="0" y1="280" x2="366" y2="282" stroke="#7a7e88" stroke-width="0.4" opacity="0.45"/>
+
+    <!-- WATER CURRENT ripples + flow lines (script-specific: thin stream becoming current). -->
+    <g stroke="#7a7e88" stroke-width="0.6" opacity="0.55" fill="none">
+      <path d="M0,270 Q80,265 160,272 Q240,278 320,270 L366,272"/>
+      <path d="M0,310 Q80,305 160,312 Q240,318 320,310 L366,312"/>
+      <path d="M0,340 Q80,335 160,342 Q240,348 320,340 L366,342"/>
+    </g>
+  </g>
+
+  <!-- DEAD LEAVES LIFTING / FLOATING as debris (script-specific). -->
+  <g id="p3p5-floating-leaves">
+    <!-- Leaf 1 - mid-float (slightly tilted). -->
+    <g transform="translate(120, 230) rotate(15)">
+      <path d="M-20,0 Q-25,-10 -10,-14 Q5,-16 14,-10 Q22,-3 18,8 Q10,16 -5,14 Q-18,8 -20,0 Z" fill="#5a3018" opacity="0.9"/>
+      <line x1="-15" y1="-2" x2="14" y2="-2" stroke="#3a1808" stroke-width="0.4"/>
+    </g>
+    <!-- Leaf 1 reflection in water (faint inverted). -->
+    <g transform="translate(120, 250) rotate(15) scale(1, -0.45)">
+      <path d="M-20,0 Q-25,-10 -10,-14 Q5,-16 14,-10 Q22,-3 18,8 Q10,16 -5,14 Q-18,8 -20,0 Z" fill="#5a3018" opacity="0.4"/>
+    </g>
+
+    <!-- Leaf 2 - lifted higher (in motion of being swept). -->
+    <g transform="translate(220, 200) rotate(-25)">
+      <path d="M-22,0 Q-26,-12 -10,-16 Q8,-18 16,-12 Q22,-3 18,8 Q10,18 -5,16 Q-20,10 -22,0 Z" fill="#5a3018" opacity="0.85"/>
+      <line x1="-18" y1="-2" x2="14" y2="-2" stroke="#3a1808" stroke-width="0.4"/>
+    </g>
+
+    <!-- Leaf 3 - just below water surface (submerging). -->
+    <g transform="translate(280, 280) rotate(40)" opacity="0.65">
+      <path d="M-20,0 Q-25,-10 -10,-14 Q5,-16 14,-10 Q22,-3 18,8 Q10,16 -5,14 Q-18,8 -20,0 Z" fill="#3a1808"/>
+    </g>
+
+    <!-- Smaller debris leaves floating. -->
+    <g fill="#5a3018" opacity="0.85">
+      <ellipse cx="40" cy="290" rx="9" ry="3.5" transform="rotate(20 40 290)"/>
+      <ellipse cx="320" cy="320" rx="8" ry="3" transform="rotate(-15 320 320)"/>
+    </g>
+  </g>
+
+  <!-- SUBMERGED FOOTPRINTS hint (script-specific). -->
+  <g fill="#080a14" opacity="0.45">
+    <ellipse cx="80" cy="350" rx="6" ry="2"/>
+    <ellipse cx="100" cy="360" rx="6" ry="2"/>
+    <ellipse cx="120" cy="368" rx="5" ry="1.5"/>
+    <ellipse cx="140" cy="376" rx="4" ry="1.2"/>
+  </g>
+
+  <!-- ANOTHER RAINDROP IMPACT in distance (atmospheric continuation). -->
+  <g filter="url(#p3p5bloom)">
+    <ellipse cx="200" cy="260" rx="20" ry="4" fill="#a8b8c8" opacity="0.7"/>
+    <ellipse cx="200" cy="240" rx="14" ry="20" fill="#dce4f0" opacity="0.55" filter="url(#p3p5strongBloom)"/>
+    <g fill="#ffffff" opacity="0.85">
+      <circle cx="195" cy="230" r="0.9"/>
+      <circle cx="205" cy="225" r="0.9"/>
+      <circle cx="200" cy="218" r="0.7"/>
+    </g>
+  </g>
+
+  <!-- HINT OF EMERALD METALLIC SLEEVE at bottom edge (POV character arm pumping). -->
+  <g id="p3p5-emerald-sleeve">
+    <path d="M0,400 Q40,350 80,330 L80,400 Z" fill="url(#p3p5emerald)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Suit seam glow. -->
+    <line x1="40" y1="380" x2="68" y2="340" stroke="#7af0b0" stroke-width="0.6" opacity="0.85" filter="url(#p3p5bloom)"/>
+    <!-- Water spots on sleeve. -->
+    <g fill="#080a14" opacity="0.55">
+      <circle cx="50" cy="370" r="1.4"/>
+      <circle cx="65" cy="350" r="1.2"/>
+      <circle cx="40" cy="385" r="1.4"/>
+    </g>
+    <!-- Hint of motion blur on sleeve edge (running). -->
+    <line x1="20" y1="400" x2="35" y2="370" stroke="#2ed078" stroke-width="0.5" opacity="0.4" filter="url(#p3p5bloom)"/>
+  </g>
+
+  <!-- JINK internal caption (italic, top — thought balloon style). -->
+  <g id="p3p5-dlg-jink-internal">
+    <rect x="14" y="14" width="216" height="42" rx="14" fill="#ffffff" stroke="#2ed078" stroke-width="1.5" stroke-dasharray="2,2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK (thought)</text>
+    <text x="24" y="49" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">Okay. So it does that.</text>
+    <!-- Thought trail (small bubbles). -->
+    <circle cx="60" cy="65" r="3" fill="#ffffff" stroke="#2ed078" stroke-width="1"/>
+    <circle cx="55" cy="78" r="2" fill="#ffffff" stroke="#2ed078" stroke-width="1"/>
+    <circle cx="50" cy="88" r="1.4" fill="#ffffff" stroke="#2ed078" stroke-width="1"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p3p5-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">5</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">JINK POV — DROWNING</text>
+  </g>
+</svg>

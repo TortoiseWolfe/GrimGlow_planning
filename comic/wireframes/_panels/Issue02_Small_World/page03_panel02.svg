@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 340" width="247" height="340">
+  <title>Issue 2 — Page 3 — Panel 2: Looking down drainpipe shaft — vertiginous descent</title>
+  <desc>CU 85mm high angle straight DOWN into drainpipe shaft. Vertical shaft drops to darkness. Thresh foreshortened descending — broad shoulders nearly fill pipe width, hands gripping pitted iron, ruby crimson holographic suit accents primary light source casting red-tinged geometric patterns on curved iron walls. Circle of grey light above (opening), deepening darkness below. Vertiginous perspective. THRESH small text muttered: "One joint. Two joint. Just rungs."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <radialGradient id="p3p2pipeShaft" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#080408" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#1a1820" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3a3a45" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="p3p2skyOpening" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#5a5e68" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1a1820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p2crimsonGlow">
+      <stop offset="0%" stop-color="#f54848" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#c84038" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a1018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p3p2ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <filter id="p3p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p3p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p3p2deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark interior of pipe (radial gradient — deep darkness center bottom). -->
+  <rect width="247" height="340" fill="url(#p3p2pipeShaft)"/>
+
+  <!-- CIRCLE OF GREY LIGHT ABOVE (the opening) — large rim at top. -->
+  <ellipse cx="124" cy="20" rx="120" ry="40" fill="url(#p3p2skyOpening)" filter="url(#p3p2deepBloom)"/>
+  <!-- Sky opening edge (top rim of pipe). -->
+  <ellipse cx="124" cy="20" rx="120" ry="40" fill="none" stroke="#3a3a45" stroke-width="1" opacity="0.85"/>
+
+  <!-- PIPE INTERIOR WALLS — converging downward (perspective). -->
+  <g id="p3p2-pipe-walls">
+    <!-- Left wall converging in. -->
+    <path d="M0,40 L0,340 L80,340 L40,40 Z" fill="#1a1820"/>
+    <!-- Right wall. -->
+    <path d="M247,40 L247,340 L167,340 L207,40 Z" fill="#1a1820"/>
+    <!-- Pitted iron texture on walls. -->
+    <g fill="#080408" opacity="0.85">
+      <circle cx="20" cy="100" r="1.4"/>
+      <circle cx="30" cy="160" r="1.6"/>
+      <circle cx="50" cy="220" r="1.4"/>
+      <circle cx="70" cy="280" r="1.4"/>
+      <circle cx="227" cy="100" r="1.4"/>
+      <circle cx="217" cy="160" r="1.6"/>
+      <circle cx="197" cy="220" r="1.4"/>
+      <circle cx="177" cy="280" r="1.4"/>
+      <circle cx="40" cy="80" r="1"/>
+      <circle cx="207" cy="80" r="1"/>
+      <circle cx="60" cy="200" r="1"/>
+      <circle cx="187" cy="200" r="1"/>
+    </g>
+    <!-- Vertical seam lines on walls (curvature suggestion). -->
+    <g stroke="#080a14" stroke-width="0.7" opacity="0.85">
+      <line x1="20" y1="50" x2="60" y2="340"/>
+      <line x1="227" y1="50" x2="187" y2="340"/>
+    </g>
+    <!-- Highlight on closer pipe rim. -->
+    <line x1="0" y1="40" x2="40" y2="40" stroke="#5a606a" stroke-width="0.6" opacity="0.7"/>
+    <line x1="207" y1="40" x2="247" y2="40" stroke="#5a606a" stroke-width="0.6" opacity="0.7"/>
+  </g>
+
+  <!-- DEEP DARKNESS center-bottom (pipe drops away). -->
+  <ellipse cx="124" cy="320" rx="60" ry="20" fill="#080408" filter="url(#p3p2deepBloom)"/>
+
+  <!-- SOCKET JOINT visible as ledge-ring partway down (script: each joint is twelve body-lengths apart). -->
+  <ellipse cx="124" cy="240" rx="55" ry="6" fill="none" stroke="#3a3a45" stroke-width="1" opacity="0.85"/>
+  <ellipse cx="124" cy="237" rx="53" ry="5" fill="none" stroke="#5a606a" stroke-width="0.6" opacity="0.7"/>
+
+  <!-- CORRODED SEAM streak (continuity from P3P1 left seam). -->
+  <g stroke="#5a3018" stroke-width="1.2" opacity="0.7">
+    <line x1="58" y1="60" x2="50" y2="320"/>
+  </g>
+  <g fill="#3a1808" opacity="0.85">
+    <circle cx="56" cy="100" r="1.6"/>
+    <circle cx="54" cy="160" r="2"/>
+    <circle cx="52" cy="220" r="1.6"/>
+    <circle cx="50" cy="280" r="1.6"/>
+  </g>
+
+  <!-- THRESH FORESHORTENED descending (from above — head + back + shoulders dominant). -->
+  <g id="p3p2-thresh" transform="translate(124, 130)">
+
+    <!-- BIG CRIMSON GLOW HALO (primary light source per script). -->
+    <ellipse cx="0" cy="20" rx="80" ry="60" fill="url(#p3p2crimsonGlow)" filter="url(#p3p2deepBloom)" opacity="0.95"/>
+
+    <!-- Body torso top-down (foreshortened — broad shoulders). -->
+    <ellipse cx="0" cy="20" rx="36" ry="22" fill="url(#p3p2ruby)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Crimson seams. -->
+    <line x1="0" y1="-2" x2="0" y2="40" stroke="#f54848" stroke-width="0.7" opacity="0.85" filter="url(#p3p2bloom)"/>
+
+    <!-- Shoulder pads — broad, fitting pipe width. -->
+    <ellipse cx="-36" cy="14" rx="11" ry="6" fill="#a8182a" stroke="#080408" stroke-width="0.5"/>
+    <!-- Dented LEFT pauldron (continuity). -->
+    <line x1="-40" y1="10" x2="-32" y2="14" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="36" cy="14" rx="11" ry="6" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="36" cy="13" rx="6" ry="3" fill="#f54848" opacity="0.55"/>
+
+    <!-- Arms reaching DOWN gripping iron walls (visible as forearms going past hips). -->
+    <path d="M-36,18 L-50,32 L-58,42" fill="none" stroke="url(#p3p2ruby)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M36,18 L50,32 L58,42" fill="none" stroke="url(#p3p2ruby)" stroke-width="7" stroke-linecap="round"/>
+    <!-- Hands gripping iron walls. -->
+    <ellipse cx="-58" cy="44" rx="6" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="58" cy="44" rx="6" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+    <!-- White-knuckle highlights. -->
+    <ellipse cx="-58" cy="44" rx="2" ry="0.7" fill="#fae0c0" opacity="0.55"/>
+    <ellipse cx="58" cy="44" rx="2" ry="0.7" fill="#fae0c0" opacity="0.55"/>
+
+    <!-- HEAD — top of head visible (foreshortened from above). -->
+    <ellipse cx="0" cy="-5" rx="14" ry="10" fill="#d8a880"/>
+    <!-- Buzz cap. -->
+    <ellipse cx="0" cy="-9" rx="11" ry="5" fill="#a83a18"/>
+    <!-- Buzz stipple. -->
+    <g fill="#5a1808" opacity="0.85">
+      <circle cx="-6" cy="-10" r="0.6"/>
+      <circle cx="-2" cy="-12" r="0.6"/>
+      <circle cx="2" cy="-12" r="0.6"/>
+      <circle cx="6" cy="-10" r="0.6"/>
+      <circle cx="-9" cy="-8" r="0.5"/>
+      <circle cx="9" cy="-8" r="0.5"/>
+    </g>
+
+    <!-- RIFLE strap visible across back (foreshortened). -->
+    <path d="M-20,5 L20,-5" stroke="#3a1010" stroke-width="0.6"/>
+    <rect x="-16" y="-3" width="22" height="3" rx="0.4" fill="#1a0810" transform="rotate(-15 -16 -3)"/>
+
+    <!-- RED-TINGED GEOMETRIC PATTERNS cast on iron walls (script-specific). -->
+    <g stroke="#f54848" stroke-width="0.5" opacity="0.55" fill="none" filter="url(#p3p2bloom)">
+      <!-- Hex pattern echoes on left wall. -->
+      <polygon points="20,140 24,138 26,142 24,146 20,146 18,142"/>
+      <polygon points="30,180 34,178 36,182 34,186 30,186 28,182"/>
+      <!-- Hex pattern echoes on right wall. -->
+      <polygon points="227,140 223,138 221,142 223,146 227,146 229,142"/>
+      <polygon points="217,180 213,178 211,182 213,186 217,186 219,182"/>
+    </g>
+
+    <!-- Strong red ambient on iron walls (light cast). -->
+    <ellipse cx="40" cy="80" rx="40" ry="50" fill="#f54848" opacity="0.18" filter="url(#p3p2strongBloom)"/>
+    <ellipse cx="207" cy="80" rx="40" ry="50" fill="#f54848" opacity="0.18" filter="url(#p3p2strongBloom)"/>
+  </g>
+
+  <!-- THRESH muttered dialogue (small, internal — italic). -->
+  <g id="p3p2-dlg-thresh-muttered">
+    <rect x="14" y="280" width="220" height="48" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="298" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH (muttered)</text>
+    <text x="24" y="316" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a3030">One joint. Two joint. Just rungs.</text>
+    <path d="M120,280 L138,280 L130,180 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="280" x2="138" y2="280" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p3p2-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="243" y="332" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SHAFT POV</text>
+  </g>
+</svg>

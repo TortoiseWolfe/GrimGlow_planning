@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 360" width="742" height="360">
+  <title>Issue 2 — Page 3 — Panel 3: RAIN BEGINS at fairy scale — vocabulary established</title>
+  <desc>Wide 20mm worm's-eye from gutter-floor level. RAIN ESTABLISHING PANEL. 3 fist-sized translucent raindrops in various states: one falling distorting sphere against grey sky, one mid-impact w/ EXPLOSIVE radial splatter + UPWARD MIST SPRAY, one already spreading puddle. Lead floor MIRROR SHEEN forming. Jink dodges with grin (scout reflexes), Luma shields scanner with body. Leaden grey sky, drops catching/distorting dim light. Impact splatter catches emerald + blue-violet holo glow. SFX THWACK + JINK + LUMA dialogue.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p3p3leaden" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="p3p3lead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="p3p3leadWet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="p3p3wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <radialGradient id="p3p3raindrop">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#a8b8c8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a606a" stop-opacity="0.95"/>
+    </radialGradient>
+    <radialGradient id="p3p3raindropFalling">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#a8b8c8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a606a" stop-opacity="0.95"/>
+    </radialGradient>
+    <radialGradient id="p3p3splatter">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a8b8c8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p3puddle">
+      <stop offset="0%" stop-color="#5a606a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1a1c20" stop-opacity="0.7"/>
+    </radialGradient>
+    <linearGradient id="p3p3emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4828"/>
+    </linearGradient>
+    <linearGradient id="p3p3sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#1a1058"/>
+    </linearGradient>
+    <filter id="p3p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p3p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p3p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- Sky background — leaden grey overcast. -->
+  <rect width="742" height="200" fill="url(#p3p3leaden)"/>
+
+  <!-- GUTTER WALLS rising on either side (worm's-eye). -->
+  <g id="p3p3-gutter-walls">
+    <path d="M0,140 L80,180 L80,360 L0,360 Z" fill="url(#p3p3wall)"/>
+    <path d="M742,140 L662,180 L662,360 L742,360 Z" fill="url(#p3p3wall)"/>
+    <!-- Wall rivets. -->
+    <g fill="#0a0c10" opacity="0.85">
+      <circle cx="40" cy="220" r="1.4"/>
+      <circle cx="40" cy="280" r="1.4"/>
+      <circle cx="40" cy="340" r="1.4"/>
+      <circle cx="702" cy="220" r="1.4"/>
+      <circle cx="702" cy="280" r="1.4"/>
+      <circle cx="702" cy="340" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- LEAD GUTTER FLOOR — central long strip, MIRROR SHEEN forming (script-specific). -->
+  <g id="p3p3-gutter-floor">
+    <rect x="80" y="180" width="582" height="180" fill="url(#p3p3leadWet)"/>
+    <!-- Riveted seams. -->
+    <g stroke="#0a0c10" stroke-width="0.5" opacity="0.85">
+      <line x1="220" y1="180" x2="218" y2="360"/>
+      <line x1="380" y1="180" x2="380" y2="360"/>
+      <line x1="540" y1="180" x2="542" y2="360"/>
+    </g>
+    <g fill="#0a0c10" opacity="0.85">
+      <circle cx="220" cy="240" r="1.6"/>
+      <circle cx="220" cy="320" r="1.6"/>
+      <circle cx="380" cy="240" r="1.6"/>
+      <circle cx="380" cy="320" r="1.6"/>
+      <circle cx="540" cy="240" r="1.6"/>
+      <circle cx="540" cy="320" r="1.6"/>
+    </g>
+    <!-- MIRROR SHEEN — cool grey reflection of sky (script-specific). -->
+    <rect x="80" y="220" width="582" height="20" fill="#7a7e88" opacity="0.4" filter="url(#p3p3bloom)"/>
+    <!-- Floor stipple. -->
+    <g fill="#1a1c20" opacity="0.55">
+      <circle cx="120" cy="290" r="1"/>
+      <circle cx="320" cy="310" r="1"/>
+      <circle cx="600" cy="295" r="1"/>
+    </g>
+  </g>
+
+  <!-- RAINDROP 1 — FALLING translucent sphere (script-specific). LEFT side, mid-air. -->
+  <g id="p3p3-raindrop-falling">
+    <!-- Sphere body. -->
+    <circle cx="160" cy="100" r="22" fill="url(#p3p3raindropFalling)" filter="url(#p3p3bloom)"/>
+    <!-- Specular highlight on raindrop. -->
+    <ellipse cx="155" cy="92" rx="6" ry="4" fill="#ffffff" opacity="0.85"/>
+    <!-- Shape distortion (slight teardrop tail upward). -->
+    <path d="M148,82 Q150,75 160,75 Q170,75 172,82" fill="url(#p3p3raindropFalling)" filter="url(#p3p3bloom)"/>
+    <!-- DESCENT TRAJECTORY line (visible motion blur per script). -->
+    <line x1="160" y1="20" x2="160" y2="78" stroke="#a8b8c8" stroke-width="3" opacity="0.55" filter="url(#p3p3bloom)"/>
+    <line x1="160" y1="20" x2="160" y2="78" stroke="#dce4f0" stroke-width="0.8" opacity="0.85"/>
+  </g>
+
+  <!-- RAINDROP 2 — MID-IMPACT, EXPLOSIVE SPLATTER + UPWARD MIST SPRAY (script-specific). CENTER. -->
+  <g id="p3p3-raindrop-impact">
+    <!-- Crater/splat body on lead floor. -->
+    <ellipse cx="380" cy="225" rx="40" ry="10" fill="#a8b8c8" opacity="0.85" filter="url(#p3p3bloom)"/>
+    <!-- Radial splatter droplets. -->
+    <g fill="#a8b8c8" filter="url(#p3p3bloom)">
+      <ellipse cx="335" cy="220" rx="3" ry="1.5" transform="rotate(-30 335 220)"/>
+      <ellipse cx="425" cy="220" rx="3" ry="1.5" transform="rotate(30 425 220)"/>
+      <ellipse cx="320" cy="230" rx="2.5" ry="1.2" transform="rotate(-45 320 230)"/>
+      <ellipse cx="440" cy="230" rx="2.5" ry="1.2" transform="rotate(45 440 230)"/>
+      <ellipse cx="350" cy="215" rx="2.5" ry="1.2" transform="rotate(-15 350 215)"/>
+      <ellipse cx="410" cy="215" rx="2.5" ry="1.2" transform="rotate(15 410 215)"/>
+    </g>
+    <!-- UPWARD MIST SPRAY (script-specific). -->
+    <g fill="#dce4f0" opacity="0.7" filter="url(#p3p3strongBloom)">
+      <ellipse cx="380" cy="180" rx="35" ry="20"/>
+      <ellipse cx="380" cy="155" rx="25" ry="15"/>
+      <ellipse cx="380" cy="135" rx="18" ry="10"/>
+    </g>
+    <!-- Spray droplets in mist halo. -->
+    <g fill="#ffffff" opacity="0.85">
+      <circle cx="370" cy="175" r="1.4"/>
+      <circle cx="385" cy="170" r="1.2"/>
+      <circle cx="395" cy="180" r="1.4"/>
+      <circle cx="365" cy="160" r="1.2"/>
+      <circle cx="390" cy="155" r="1.2"/>
+      <circle cx="375" cy="145" r="1"/>
+      <circle cx="385" cy="140" r="1"/>
+    </g>
+    <!-- MIST SPRAY HALO — wider faint ring. -->
+    <ellipse cx="380" cy="170" rx="60" ry="40" fill="none" stroke="#dce4f0" stroke-width="0.5" opacity="0.55" filter="url(#p3p3bloom)"/>
+  </g>
+
+  <!-- RAINDROP 3 — ALREADY SPREADING PUDDLE (script-specific). RIGHT side. -->
+  <g id="p3p3-raindrop-puddle">
+    <!-- Spreading puddle on floor. -->
+    <ellipse cx="600" cy="240" rx="55" ry="10" fill="url(#p3p3puddle)" filter="url(#p3p3bloom)"/>
+    <ellipse cx="600" cy="240" rx="55" ry="10" fill="none" stroke="#7a7e88" stroke-width="0.5" opacity="0.85"/>
+    <!-- Concentric ripple rings. -->
+    <ellipse cx="600" cy="240" rx="40" ry="7" fill="none" stroke="#dce4f0" stroke-width="0.7" opacity="0.55" filter="url(#p3p3bloom)"/>
+    <ellipse cx="600" cy="240" rx="25" ry="5" fill="none" stroke="#dce4f0" stroke-width="0.5" opacity="0.45" filter="url(#p3p3bloom)"/>
+    <ellipse cx="600" cy="240" rx="12" ry="3" fill="none" stroke="#dce4f0" stroke-width="0.4" opacity="0.4" filter="url(#p3p3bloom)"/>
+    <!-- Reflection of leaden sky in puddle. -->
+    <ellipse cx="600" cy="238" rx="45" ry="6" fill="#5a606a" opacity="0.55"/>
+  </g>
+
+  <!-- More raindrops in distance (atmospheric — descending streaks). -->
+  <g stroke="#a8b8c8" stroke-width="0.7" opacity="0.55" filter="url(#p3p3bloom)">
+    <line x1="100" y1="20" x2="100" y2="50"/>
+    <line x1="240" y1="40" x2="240" y2="70"/>
+    <line x1="290" y1="20" x2="290" y2="55"/>
+    <line x1="450" y1="35" x2="450" y2="65"/>
+    <line x1="510" y1="20" x2="510" y2="45"/>
+    <line x1="570" y1="50" x2="570" y2="80"/>
+    <line x1="650" y1="20" x2="650" y2="50"/>
+  </g>
+
+  <!-- JINK DODGING with grin (script-specific). LEFT-CENTER, scout reflex pose. -->
+  <g id="p3p3-jink" transform="translate(240, 280)">
+    <!-- Body in motion (slightly leaning). -->
+    <ellipse cx="0" cy="0" rx="14" ry="20" fill="url(#p3p3emerald)" stroke="#080408" stroke-width="0.5" transform="rotate(-15)"/>
+    <ellipse cx="0" cy="0" rx="18" ry="24" fill="#7af0b0" opacity="0.55" filter="url(#p3p3bloom)" transform="rotate(-15)"/>
+
+    <!-- Wings folded (not deployed yet — Page 4+). -->
+    <path d="M-8,-12 Q-12,5 -8,18" fill="none" stroke="#1a4830" stroke-width="2"/>
+    <path d="M8,-12 Q12,5 8,18" fill="none" stroke="#1a4830" stroke-width="2"/>
+
+    <!-- Head turned + tilted (dodging). -->
+    <ellipse cx="-2" cy="-22" rx="7" ry="8" fill="#e8c8a0" transform="rotate(-15)"/>
+    <!-- Wild golden curls (script-specific). -->
+    <g fill="#f5d860" transform="rotate(-15)">
+      <circle cx="-5" cy="-30" r="2.5"/>
+      <circle cx="-1" cy="-32" r="3"/>
+      <circle cx="3" cy="-31" r="2.5"/>
+      <circle cx="6" cy="-29" r="2"/>
+      <circle cx="-7" cy="-28" r="1.8"/>
+    </g>
+    <!-- Eyes (laughing/grinning). -->
+    <ellipse cx="-4" cy="-22" rx="1.4" ry="0.7" fill="#080404" transform="rotate(-15)"/>
+    <ellipse cx="0" cy="-22" rx="1.4" ry="0.7" fill="#080404" transform="rotate(-15)"/>
+    <!-- BIG GRIN (script-specific). -->
+    <path d="M-4,-15 Q0,-12 4,-15" stroke="#3a2010" stroke-width="0.9" fill="none" transform="rotate(-15)"/>
+    <line x1="-4" y1="-15" x2="4" y2="-15" stroke="#dce4f0" stroke-width="0.5" transform="rotate(-15)"/>
+
+    <!-- Arms outstretched dodging. -->
+    <line x1="-13" y1="-5" x2="-22" y2="-12" stroke="#0a4828" stroke-width="3" stroke-linecap="round" transform="rotate(-15)"/>
+    <line x1="13" y1="-5" x2="20" y2="-15" stroke="#0a4828" stroke-width="3" stroke-linecap="round" transform="rotate(-15)"/>
+
+    <!-- Legs (one bent — running step). -->
+    <line x1="-3" y1="20" x2="-8" y2="32" stroke="#0a4828" stroke-width="3.5" stroke-linecap="round" transform="rotate(-15)"/>
+    <line x1="3" y1="20" x2="6" y2="34" stroke="#0a4828" stroke-width="3.5" stroke-linecap="round" transform="rotate(-15)"/>
+  </g>
+
+  <!-- LUMA SHIELDING SCANNER (script-specific). RIGHT side. -->
+  <g id="p3p3-luma" transform="translate(500, 285)">
+    <!-- Body crouched protective. -->
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="url(#p3p3sapphire)" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="0" cy="0" rx="18" ry="22" fill="#a890f0" opacity="0.5" filter="url(#p3p3bloom)"/>
+
+    <!-- Head bent down protecting. -->
+    <ellipse cx="0" cy="-20" rx="7" ry="8" fill="#a87850"/>
+    <!-- Hair w/ braid + sapphire filament. -->
+    <path d="M-6,-25 Q0,-28 6,-25 L6,-20 L-6,-20 Z" fill="#1a1018"/>
+    <path d="M5,-20 Q7,-12 6,-3" stroke="#1a1018" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M5,-20 Q7,-12 6,-3" stroke="#a890f0" stroke-width="0.4" fill="none" filter="url(#p3p3bloom)" opacity="0.85"/>
+    <!-- Holo lens (one cracked). -->
+    <ellipse cx="-3" cy="-20" rx="1.5" ry="1" fill="#a890f0" opacity="0.85"/>
+    <ellipse cx="3" cy="-20" rx="1.5" ry="1" fill="#a890f0" opacity="0.55"/>
+    <line x1="2" y1="-21" x2="4" y2="-19" stroke="#080408" stroke-width="0.3"/>
+
+    <!-- ARMS SHIELDING SCANNER over body (cradling). -->
+    <path d="M-12,-2 L-18,-12 L-22,-22" fill="none" stroke="url(#p3p3sapphire)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M12,-2 L18,-12 L22,-22" fill="none" stroke="url(#p3p3sapphire)" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- SCANNER (floating holo over body — protected). -->
+    <g transform="translate(0, -18)">
+      <ellipse cx="0" cy="0" rx="14" ry="8" fill="#a890f0" opacity="0.85" filter="url(#p3p3bloom)"/>
+      <!-- Scanner data glyphs. -->
+      <g stroke="#dce4ff" stroke-width="0.4" opacity="0.85" fill="none" filter="url(#p3p3bloom)">
+        <line x1="-8" y1="-2" x2="8" y2="-2"/>
+        <line x1="-8" y1="2" x2="8" y2="2"/>
+        <polygon points="-2,-1 0,-1 1,0 0,1 -2,1 -3,0"/>
+      </g>
+    </g>
+
+    <!-- Legs (running). -->
+    <line x1="-3" y1="18" x2="-7" y2="30" stroke="#1a1058" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="3" y1="18" x2="6" y2="32" stroke="#1a1058" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- IMPACT SPLATTER catches Jink emerald + Luma sapphire holo glow (script-specific). -->
+  <g filter="url(#p3p3bloom)" opacity="0.55">
+    <ellipse cx="380" cy="170" rx="20" ry="14" fill="#7af0b0" opacity="0.4"/>
+    <ellipse cx="380" cy="170" rx="20" ry="14" fill="#a890f0" opacity="0.4"/>
+  </g>
+
+  <!-- SFX THWACK (raindrop impact). -->
+  <g id="p3p3-sfx-thwack">
+    <text x="380" y="160" text-anchor="middle" font-family="Impact, Haettenschweiler, sans-serif" font-size="36" font-weight="900" stroke="#1a1820" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" fill="#dce4f0" opacity="0.9" transform="rotate(-7 380 160)">THWACK</text>
+  </g>
+
+  <!-- JINK dialogue (laughing). -->
+  <g id="p3p3-dlg-jink">
+    <rect x="14" y="14" width="200" height="44" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Ha! They're the size</text>
+    <path d="M150,58 L168,58 L240,260 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="58" x2="168" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  <text x="24" y="78" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#2ed078" font-style="italic">of my HEAD.</text>
+
+  <!-- LUMA dialogue (alarmed). -->
+  <g id="p3p3-dlg-luma">
+    <rect x="510" y="14" width="220" height="60" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="520" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="520" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">The gutter will flood.</text>
+    <text x="520" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" font-style="italic" fill="#3a3030">In the pipe. NOW.</text>
+    <path d="M580,74 L598,74 L500,260 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="580" y1="74" x2="598" y2="74" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p3p3-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="738" y="352" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">RAIN BEGINS — FAIRY SCALE</text>
+  </g>
+</svg>
