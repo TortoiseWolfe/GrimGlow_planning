@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 10 — Panel 2: MCU Jink stands at bench edge, looks up at Theodore directly, confession</title>
+  <desc>MCU 50mm fairy scale. Lean 4-inch figure stands at very edge of workbench, looks directly upward at enormous face inches away. Light brown skin, golden curly hair moved by giant's breath, emerald suit glowing at seams. Stands with directness, expression serious, making eye contact upward — sharing something real. Above: enormous + warm, boy's chin + mouth + wide watching eyes, amber-lit from behind tiny figure. Proximity remarkable — figure could reach out + touch jaw above. Warm amber from behind tiny figure, emerald holographic glow from suit. Scale gulf becoming a conversation.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p10p2nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p10p2candleHalo" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p10p2emeraldGlow" cx="50%" cy="60%" r="40%">
+      <stop offset="0%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p10p2bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p10p2theoSkin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p10p2theoSkinWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p10p2jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="p10p2jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffeca8"/>
+      <stop offset="50%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p10p2emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <linearGradient id="p10p2sootStreak" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="p10p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p10p2nightBg)"/>
+  <!-- Warm halo from candle behind Jink (lower frame). -->
+  <ellipse cx="183" cy="280" rx="240" ry="120" fill="url(#p10p2candleHalo)" opacity="0.85"/>
+  <!-- Emerald around Jink. -->
+  <ellipse cx="183" cy="220" rx="80" ry="100" fill="url(#p10p2emeraldGlow)" opacity="0.85" filter="url(#p10p2bloom)"/>
+
+  <!-- Bench surface visible at lower portion. -->
+  <rect x="0" y="280" width="366" height="84" fill="url(#p10p2bench)"/>
+  <line x1="0" y1="288" x2="366" y2="288" stroke="#1a0c04" stroke-width="0.85"/>
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.5">
+    <path d="M80,288 Q90,326 82,360"/>
+    <path d="M180,288 Q190,326 182,360"/>
+    <path d="M280,288 Q290,326 282,360"/>
+  </g>
+
+  <!-- Theodore's face at upper portion (chin + mouth + watching eyes). -->
+  <g>
+    <!-- Lower face — chin/mouth/below eyes. -->
+    <ellipse cx="183" cy="40" rx="200" ry="80" fill="url(#p10p2theoSkin)"/>
+    <ellipse cx="183" cy="40" rx="200" ry="80" fill="url(#p10p2theoSkinWarm)" opacity="0.55"/>
+    <!-- Slight shadow at top (face goes off-frame). -->
+
+    <!-- WATCHING EYES at very top. -->
+    <ellipse cx="120" cy="0" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="120" cy="0" rx="22" ry="14" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="120" cy="0" r="10" fill="url(#p10p2jinkHair)"/>
+    <circle cx="120" cy="0" r="5" fill="#0a0604"/>
+
+    <ellipse cx="246" cy="0" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="246" cy="0" rx="22" ry="14" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="246" cy="0" r="10" fill="url(#p10p2jinkHair)"/>
+    <circle cx="246" cy="0" r="5" fill="#0a0604"/>
+
+    <!-- Nose. -->
+    <path d="M183,28 L156,80 Q183,90 210,80 Z" fill="#a8765a" opacity="0.55"/>
+    <ellipse cx="170" cy="84" rx="3.5" ry="1.5" fill="#3a1808" opacity="0.85"/>
+    <ellipse cx="196" cy="84" rx="3.5" ry="1.5" fill="#3a1808" opacity="0.85"/>
+
+    <!-- Mouth — slightly parted (listening). -->
+    <ellipse cx="183" cy="100" rx="22" ry="5" fill="#7a3018" opacity="0.7"/>
+    <path d="M161,98 Q183,104 205,98" fill="none" stroke="#5a3018" stroke-width="1.4"/>
+
+    <!-- Cheek warm (catching candle from below). -->
+    <ellipse cx="80" cy="80" rx="20" ry="12" fill="#ffd078" opacity="0.32"/>
+    <ellipse cx="286" cy="80" rx="20" ry="12" fill="#ffd078" opacity="0.32"/>
+
+    <!-- Cool tinge from emerald below on jaw. -->
+    <ellipse cx="120" cy="116" rx="20" ry="6" fill="#a8ffd0" opacity="0.32" filter="url(#p10p2bloom)"/>
+    <ellipse cx="246" cy="116" rx="20" ry="6" fill="#a8ffd0" opacity="0.32" filter="url(#p10p2bloom)"/>
+  </g>
+
+  <!-- ******** JINK at bench edge, looking UP ******** -->
+  <g>
+    <!-- Cast shadow on bench. -->
+    <ellipse cx="183" cy="290" rx="14" ry="3" fill="#000" opacity="0.55"/>
+
+    <!-- Legs (planted, weight even, looking up firm stance). -->
+    <path d="M170,224 L168,286 L178,286 L180,224 Z" fill="url(#p10p2emeraldSuit)"/>
+    <path d="M186,224 L186,286 L196,286 L198,224 Z" fill="url(#p10p2emeraldSuit)"/>
+    <ellipse cx="173" cy="290" rx="6" ry="2.5" fill="#0a4018"/>
+    <ellipse cx="191" cy="290" rx="6" ry="2.5" fill="#0a4018"/>
+    <line x1="168" y1="286" x2="178" y2="286" stroke="#2ed078" stroke-width="0.7" filter="url(#p10p2bloom)"/>
+    <line x1="186" y1="286" x2="196" y2="286" stroke="#2ed078" stroke-width="0.7" filter="url(#p10p2bloom)"/>
+
+    <!-- Torso. -->
+    <path d="M162,164 Q156,210 168,224 L198,224 Q210,210 204,164 Q200,158 184,158 Q166,158 162,164 Z" fill="url(#p10p2emeraldSuit)"/>
+    <!-- Soot. -->
+    <path d="M162,194 Q184,192 204,196 Q206,206 206,216 L162,216 Z" fill="url(#p10p2sootStreak)" opacity="0.85"/>
+    <line x1="183" y1="158" x2="183" y2="224" stroke="#0a4018" stroke-width="0.5" opacity="0.85"/>
+    <circle cx="183" cy="180" r="1.6" fill="#a8ffd0" filter="url(#p10p2bloom)"/>
+    <circle cx="170" cy="174" r="1.2" fill="#a8ffd0" filter="url(#p10p2bloom)"/>
+    <circle cx="196" cy="174" r="1.2" fill="#a8ffd0" filter="url(#p10p2bloom)"/>
+
+    <!-- Arms relaxed at sides. -->
+    <path d="M162,164 Q150,200 148,224 L160,224 Q164,202 166,168 Z" fill="url(#p10p2emeraldSuit)"/>
+    <path d="M204,164 Q216,200 218,224 L206,224 Q202,202 200,168 Z" fill="url(#p10p2emeraldSuit)"/>
+    <ellipse cx="152" cy="226" rx="3" ry="2" fill="url(#p10p2jinkSkin)"/>
+    <ellipse cx="214" cy="226" rx="3" ry="2" fill="url(#p10p2jinkSkin)"/>
+
+    <!-- Wing-pack. -->
+    <rect x="168" y="162" width="30" height="14" fill="#1a4828"/>
+    <line x1="168" y1="166" x2="198" y2="166" stroke="#2ed078" stroke-width="0.85" filter="url(#p10p2bloom)"/>
+    <rect x="181" y="162" width="4" height="14" fill="#0a4018"/>
+
+    <!-- HEAD — looking UP directly at viewer. Chin slightly raised. -->
+    <ellipse cx="183" cy="138" rx="14" ry="16" fill="url(#p10p2jinkSkin)"/>
+    <!-- Curly hair moved by Theodore's breath — slightly windblown to one side. -->
+    <g fill="url(#p10p2jinkHair)">
+      <ellipse cx="166" cy="120" rx="7" ry="9"/>
+      <ellipse cx="178" cy="114" rx="6" ry="8"/>
+      <ellipse cx="190" cy="114" rx="6" ry="8"/>
+      <ellipse cx="200" cy="120" rx="7" ry="9"/>
+      <ellipse cx="172" cy="128" rx="5" ry="6"/>
+      <ellipse cx="184" cy="124" rx="5" ry="6"/>
+      <ellipse cx="194" cy="128" rx="5" ry="6"/>
+      <ellipse cx="166" cy="134" rx="4" ry="6"/>
+      <ellipse cx="200" cy="134" rx="4" ry="6"/>
+    </g>
+
+    <!-- Eyes looking UP firmly. -->
+    <ellipse cx="177" cy="138" rx="2.4" ry="1.6" fill="#fff8e8"/>
+    <ellipse cx="177" cy="138" rx="2.4" ry="1.6" fill="none" stroke="#3a2810" stroke-width="0.4"/>
+    <circle cx="177" cy="137" r="1.2" fill="#2a4830"/>
+    <circle cx="177" cy="136" r="0.6" fill="#0a0604"/>
+    <circle cx="176.5" cy="135.5" r="0.4" fill="#ffffff"/>
+
+    <ellipse cx="189" cy="138" rx="2.4" ry="1.6" fill="#fff8e8"/>
+    <ellipse cx="189" cy="138" rx="2.4" ry="1.6" fill="none" stroke="#3a2810" stroke-width="0.4"/>
+    <circle cx="189" cy="137" r="1.2" fill="#2a4830"/>
+    <circle cx="189" cy="136" r="0.6" fill="#0a0604"/>
+    <circle cx="188.5" cy="135.5" r="0.4" fill="#ffffff"/>
+
+    <!-- Brows steady (serious). -->
+    <path d="M173,132 Q177,130 181,132" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <path d="M185,132 Q189,130 193,132" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+
+    <!-- Nose. -->
+    <path d="M183,142 L181,148 Q183,149 185,148 Z" fill="#7a4828" opacity="0.55"/>
+
+    <!-- Mouth — serious, slightly parted speaking. -->
+    <ellipse cx="183" cy="156" rx="3" ry="1" fill="#7a3018" opacity="0.7"/>
+    <path d="M180,156 Q183,158 186,156" fill="none" stroke="#5a3018" stroke-width="0.55"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q60,45 120,42"/>
+    <path d="M0,330 Q60,335 120,332"/>
+  </g>
+
+  <!-- JINK balloon — middle-area, longer text. -->
+  <rect x="14" y="160" width="240" height="84" rx="8"
+        fill="#ffffff" stroke="#2ed078" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M156,244 L168,244 L180,164 Z"
+        fill="#ffffff" stroke="#2ed078" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="156" y1="244" x2="168" y2="244" stroke="#ffffff" stroke-width="3"/>
+  <text x="24" y="180"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#2ed078" letter-spacing="0.3">JINK</text>
+  <text x="24" y="198"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="500"
+        fill="#1a1a1a">We're stuck here. Our ship's wrecked.</text>
+  <text x="24" y="212"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="500"
+        fill="#1a1a1a">Our tech is dying. And there are things</text>
+  <text x="24" y="226"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="500"
+        fill="#1a1a1a">in this city that are bigger problems</text>
+  <text x="24" y="240"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="500"
+        fill="#1a1a1a">than us.</text>
+
+  <!-- Second JINK balloon — smaller, urgent. -->
+  <rect x="270" y="180" width="84" height="50" rx="8"
+        fill="#ffffff" stroke="#2ed078" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M278,230 L290,230 L184,160 Z"
+        fill="#ffffff" stroke="#2ed078" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="278" y1="230" x2="290" y2="230" stroke="#ffffff" stroke-width="3"/>
+  <text x="280" y="200"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="800"
+        fill="#2ed078" letter-spacing="0.3">JINK</text>
+  <text x="280" y="220"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="700"
+        fill="#1a1a1a">We need help.</text>
+
+</svg>

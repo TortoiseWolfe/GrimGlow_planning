@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 10 — Panel 4: THE PACT — Jink's hand wraps Theodore's fingertip across scale</title>
+  <desc>Wide medium 35mm low angle from workbench surface looking up. Lean 4-inch figure in emerald suit stands near bench edge, reaches up with one small hand to touch tip of enormous extended finger — boy's finger with brass gear ring as large as bracelet at fairy scale. Tiny figure's entire hand wraps around fingertip. Physical contact across impossible scale gulf. Tiny figure grins softly bright-eyed warmth behind bravado. Above: boy's chin + eyes visible, smile breaking face open. Behind: candle towers. Dark workshop stretches vast around this one tiny point of contact. Three lights converge: warm amber from candle-tower, cool emerald from suit, cool blue-white from shard nearby. All three meet at point of contact. The image that defines first contact.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p10p4nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p10p4candleHalo" cx="80%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p10p4emeraldGlow" cx="48%" cy="60%" r="20%">
+      <stop offset="0%" stop-color="#2ed078" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p10p4coolShard" cx="68%" cy="80%" r="10%">
+      <stop offset="0%" stop-color="#a0d8ff" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p10p4contactGlow" cx="42%" cy="40%" r="20%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#fff0a8" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p10p4bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p10p4wax" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="50%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p10p4flame" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff5028"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="80%" stop-color="#fff0a8"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="p10p4theoSkin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p10p4theoSkinWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p10p4theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p10p4jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="p10p4jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffeca8"/>
+      <stop offset="50%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p10p4emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <radialGradient id="p10p4brass" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="40%" stop-color="#f0d878"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </radialGradient>
+    <radialGradient id="p10p4shardCore">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a0d8ff"/>
+      <stop offset="80%" stop-color="#5090e0"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <filter id="p10p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p10p4strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p10p4deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="742" height="364" fill="url(#p10p4nightBg)"/>
+  <!-- Candle halo. -->
+  <ellipse cx="600" cy="160" rx="320" ry="280" fill="url(#p10p4candleHalo)" opacity="0.85"/>
+
+  <!-- Bench surface (we're on bench). -->
+  <rect x="0" y="280" width="742" height="84" fill="url(#p10p4bench)"/>
+  <line x1="0" y1="288" x2="742" y2="288" stroke="#7a4828" stroke-width="0.85"/>
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.5">
+    <path d="M120,288 Q140,326 122,360"/>
+    <path d="M280,288 Q300,326 282,360"/>
+    <path d="M460,288 Q480,326 462,360"/>
+    <path d="M620,288 Q640,326 622,360"/>
+  </g>
+
+  <!-- Shard nearby on bench (right of contact area, contributing third light). -->
+  <g>
+    <ellipse cx="500" cy="298" rx="32" ry="12" fill="url(#p10p4coolShard)" opacity="0.85" filter="url(#p10p4deepBloom)"/>
+    <ellipse cx="500" cy="298" rx="14" ry="6" fill="#a0d8ff" opacity="0.55" filter="url(#p10p4strongBloom)"/>
+    <path d="M494,300 L500,294 L508,300 L504,306 L498,306 Z" fill="#1a1a28"/>
+    <path d="M496,300 L500,296 L506,300 L504,304 L498,304 Z" fill="url(#p10p4shardCore)" opacity="0.95"/>
+    <circle cx="500" cy="300" r="1" fill="#ffffff" filter="url(#p10p4bloom)"/>
+  </g>
+
+  <!-- THE CANDLE far right towering. -->
+  <g>
+    <rect x="660" y="100" width="34" height="180" fill="url(#p10p4wax)"/>
+    <line x1="667" y1="100" x2="667" y2="280" stroke="#3a2818" stroke-width="0.7"/>
+    <line x1="667" y1="80" x2="667" y2="100" stroke="#1a0c04" stroke-width="1.4"/>
+    <path d="M650,80 Q658,40 667,16 Q676,40 684,80 Z" fill="url(#p10p4flame)" filter="url(#p10p4strongBloom)"/>
+    <ellipse cx="667" cy="36" rx="34" ry="60" fill="#ffd078" opacity="0.45" filter="url(#p10p4deepBloom)"/>
+    <ellipse cx="667" cy="282" rx="34" ry="6" fill="#a85820"/>
+  </g>
+
+  <!-- ******** THEODORE'S ENORMOUS HAND extending into frame from upper-left ******** -->
+  <g>
+    <!-- Wrist enters from upper-left edge of frame. -->
+    <path d="M0,140 L0,260 Q40,250 80,240 Q140,222 200,210 L260,200 Q300,190 320,184 L320,170 Q280,176 240,184 Q180,196 120,210 Q60,224 0,240 Z" fill="url(#p10p4theoSkin)"/>
+    <!-- Warm wash. -->
+    <path d="M0,140 L0,260 Q40,250 80,240 Q140,222 200,210 L260,200 Q300,190 320,184 L320,170 Q280,176 240,184 Q180,196 120,210 Q60,224 0,240 Z" fill="url(#p10p4theoSkinWarm)" opacity="0.45"/>
+
+    <!-- INDEX FINGER extending toward bench — large. -->
+    <path d="M260,200 Q280,196 300,194 L320,194 L322,212 L320,224 L300,222 Q280,222 260,218 Z" fill="url(#p10p4theoSkin)"/>
+    <!-- Knuckle. -->
+    <ellipse cx="280" cy="208" rx="14" ry="6" fill="url(#p10p4theoSkin)"/>
+    <path d="M270,206 Q280,202 290,206" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+
+    <!-- FINGERTIP — at the contact zone. -->
+    <ellipse cx="320" cy="215" rx="22" ry="14" fill="url(#p10p4theoSkin)"/>
+    <!-- Fingernail. -->
+    <path d="M308,206 Q320,200 332,206 Q330,218 320,220 Z" fill="#e8d0b4"/>
+    <line x1="318" y1="218" x2="324" y2="218" stroke="#1a0e06" stroke-width="0.6"/>
+
+    <!-- BRASS GEAR RING — large bracelet at this scale. -->
+    <ellipse cx="252" cy="210" rx="22" ry="12" fill="url(#p10p4brass)"/>
+    <ellipse cx="252" cy="210" rx="22" ry="12" fill="none" stroke="#5a3018" stroke-width="0.85"/>
+    <ellipse cx="252" cy="210" rx="9" ry="5" fill="#3a2010"/>
+    <!-- Gear teeth visible at bracelet scale. -->
+    <rect x="250.7" y="196" width="2.6" height="3.5" fill="url(#p10p4brass)"/>
+    <rect x="250.7" y="220.5" width="2.6" height="3.5" fill="url(#p10p4brass)"/>
+    <rect x="232" y="208.5" width="3" height="3" fill="url(#p10p4brass)"/>
+    <rect x="269" y="208.5" width="3" height="3" fill="url(#p10p4brass)"/>
+    <!-- Gleam. -->
+    <ellipse cx="244" cy="204" rx="6" ry="3" fill="#fff0a8" opacity="0.85"/>
+    <!-- Cool emerald reflection on brass (Jink's glow). -->
+    <ellipse cx="262" cy="216" rx="4" ry="2" fill="#a8ffd0" opacity="0.55" filter="url(#p10p4bloom)"/>
+
+    <!-- Oil stains on hand. -->
+    <ellipse cx="120" cy="220" rx="22" ry="6" fill="#1a0e06" opacity="0.45"/>
+    <ellipse cx="200" cy="208" rx="18" ry="5" fill="#1a0e06" opacity="0.45"/>
+  </g>
+
+  <!-- THEODORE'S CHIN + EYES at top-right edge of frame (visible above his hand). -->
+  <g>
+    <!-- Chin/lower-face just visible at top of frame. -->
+    <path d="M120,0 Q140,40 200,60 L260,60 Q300,40 360,0 Z" fill="url(#p10p4theoSkin)" opacity="0.92"/>
+
+    <!-- Smile — face-breaking-open. -->
+    <path d="M196,28 Q236,46 276,28" fill="none" stroke="#5a3018" stroke-width="2" stroke-linecap="round"/>
+    <!-- Tiny teeth. -->
+    <line x1="216" y1="34" x2="216" y2="38" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="226" y1="38" x2="226" y2="42" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="236" y1="40" x2="236" y2="44" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="246" y1="38" x2="246" y2="42" stroke="#dcd0b4" stroke-with="0.7" stroke-width="0.7"/>
+    <line x1="256" y1="34" x2="256" y2="38" stroke="#dcd0b4" stroke-width="0.7"/>
+
+    <!-- Bottom of nose tip. -->
+    <path d="M232,2 Q236,12 240,16" fill="#a8765a" opacity="0.55"/>
+  </g>
+
+  <!-- ******** JINK in foreground reaching UP, hand on Theodore's fingertip ******** -->
+  <g>
+    <!-- Cool emerald halo. -->
+    <ellipse cx="320" cy="280" rx="80" ry="100" fill="url(#p10p4emeraldGlow)" opacity="0.85" filter="url(#p10p4bloom)"/>
+
+    <!-- Cast shadow. -->
+    <ellipse cx="320" cy="298" rx="14" ry="3" fill="#000" opacity="0.55"/>
+
+    <!-- Legs. -->
+    <path d="M306,232 L302,294 L312,294 L314,232 Z" fill="url(#p10p4emeraldSuit)"/>
+    <path d="M324,232 L324,294 L334,294 L336,232 Z" fill="url(#p10p4emeraldSuit)"/>
+    <ellipse cx="307" cy="298" rx="6" ry="2.5" fill="#0a4018"/>
+    <ellipse cx="329" cy="298" rx="6" ry="2.5" fill="#0a4018"/>
+
+    <!-- Torso. -->
+    <path d="M298,180 Q294,222 304,232 L334,232 Q344,222 340,180 Q336,174 320,174 Q302,174 298,180 Z" fill="url(#p10p4emeraldSuit)"/>
+    <!-- Soot. -->
+    <path d="M298,204 Q320,202 342,206 Q344,212 344,222 L298,222 Z" fill="#1a0c04" opacity="0.85"/>
+    <line x1="320" y1="174" x2="320" y2="232" stroke="#0a4018" stroke-width="0.4" opacity="0.85"/>
+    <circle cx="320" cy="190" r="1.4" fill="#a8ffd0" filter="url(#p10p4bloom)"/>
+    <circle cx="306" cy="184" r="1.1" fill="#a8ffd0" filter="url(#p10p4bloom)"/>
+    <circle cx="334" cy="184" r="1.1" fill="#a8ffd0" filter="url(#p10p4bloom)"/>
+
+    <!-- Left arm hangs at side. -->
+    <path d="M298,180 Q288,208 286,232 L298,232 Q300,212 302,184 Z" fill="url(#p10p4emeraldSuit)"/>
+    <ellipse cx="290" cy="234" rx="3" ry="2" fill="url(#p10p4jinkSkin)"/>
+
+    <!-- RIGHT ARM EXTENDED UP — reaching to Theodore's fingertip. -->
+    <path d="M340,180 Q358,162 358,142 L344,138 Q336,158 332,182 Z" fill="url(#p10p4emeraldSuit)"/>
+    <line x1="356" y1="142" x2="350" y2="142" stroke="#2ed078" stroke-width="0.85" filter="url(#p10p4bloom)"/>
+    <!-- Forearm bare extending up. -->
+    <path d="M348,144 Q352,128 352,112 L344,110 Q340,126 340,148 Z" fill="url(#p10p4jinkSkin)"/>
+    <!-- HAND ON FINGERTIP — wrapping around Theodore's fingertip. -->
+    <ellipse cx="346" cy="106" rx="9" ry="6" fill="url(#p10p4jinkSkin)"/>
+    <!-- Fingers clearly wrapping (each visible). -->
+    <path d="M340,102 Q346,98 354,102" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <path d="M338,108 Q346,112 354,108" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <!-- Fingertips visible curling around. -->
+    <ellipse cx="338" cy="100" rx="2" ry="1.5" fill="url(#p10p4jinkSkin)"/>
+    <ellipse cx="354" cy="100" rx="2" ry="1.5" fill="url(#p10p4jinkSkin)"/>
+
+    <!-- CONTACT BLOOM — bright at the meeting point. -->
+    <ellipse cx="346" cy="106" rx="22" ry="14" fill="url(#p10p4contactGlow)" filter="url(#p10p4bloom)"/>
+    <circle cx="346" cy="106" r="3" fill="#ffffff" opacity="0.55" filter="url(#p10p4bloom)"/>
+
+    <!-- Wing-pack. -->
+    <rect x="304" y="178" width="32" height="14" fill="#1a4828"/>
+    <line x1="304" y1="182" x2="336" y2="182" stroke="#2ed078" stroke-width="0.85" filter="url(#p10p4bloom)"/>
+    <rect x="318" y="178" width="4" height="14" fill="#0a4018"/>
+
+    <!-- HEAD — facing up, smiling soft + bright-eyed. -->
+    <ellipse cx="320" cy="158" rx="14" ry="16" fill="url(#p10p4jinkSkin)"/>
+    <g fill="url(#p10p4jinkHair)">
+      <ellipse cx="304" cy="140" rx="6" ry="8"/>
+      <ellipse cx="316" cy="134" rx="6" ry="7"/>
+      <ellipse cx="328" cy="134" rx="6" ry="7"/>
+      <ellipse cx="338" cy="140" rx="6" ry="8"/>
+      <ellipse cx="308" cy="148" rx="5" ry="6"/>
+      <ellipse cx="320" cy="146" rx="5" ry="6"/>
+      <ellipse cx="332" cy="148" rx="5" ry="6"/>
+      <ellipse cx="304" cy="156" rx="4" ry="6"/>
+      <ellipse cx="338" cy="156" rx="4" ry="6"/>
+    </g>
+
+    <!-- Bright eyes looking up. -->
+    <ellipse cx="314" cy="158" rx="2.4" ry="1.6" fill="#fff8e8"/>
+    <ellipse cx="314" cy="158" rx="2.4" ry="1.6" fill="none" stroke="#3a2810" stroke-width="0.4"/>
+    <circle cx="314" cy="158" r="1.2" fill="#2a4830"/>
+    <circle cx="314" cy="157" r="0.6" fill="#0a0604"/>
+    <circle cx="313.5" cy="156.5" r="0.4" fill="#ffffff"/>
+
+    <ellipse cx="326" cy="158" rx="2.4" ry="1.6" fill="#fff8e8"/>
+    <ellipse cx="326" cy="158" rx="2.4" ry="1.6" fill="none" stroke="#3a2810" stroke-width="0.4"/>
+    <circle cx="326" cy="158" r="1.2" fill="#2a4830"/>
+    <circle cx="326" cy="157" r="0.6" fill="#0a0604"/>
+    <circle cx="325.5" cy="156.5" r="0.4" fill="#ffffff"/>
+
+    <!-- Brows soft + raised. -->
+    <path d="M310,152 Q314,150 318,152" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <path d="M322,152 Q326,150 330,152" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+
+    <!-- Soft grin (warmth behind bravado). -->
+    <path d="M312,170 Q320,174 328,170" fill="none" stroke="#5a3018" stroke-width="1" stroke-linecap="round"/>
+    <line x1="316" y1="170" x2="316" y2="173" stroke="#dcd0b4" stroke-width="0.4"/>
+    <line x1="320" y1="171" x2="320" y2="174" stroke="#dcd0b4" stroke-width="0.4"/>
+    <line x1="324" y1="170" x2="324" y2="173" stroke="#dcd0b4" stroke-width="0.4"/>
+
+    <!-- Cheek warm. -->
+    <ellipse cx="338" cy="162" rx="4" ry="3" fill="#ffd078" opacity="0.45"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q200,45 400,42"/>
+    <path d="M400,40 Q600,45 742,42"/>
+    <path d="M0,310 Q200,315 400,312"/>
+    <path d="M400,310 Q600,315 742,312"/>
+  </g>
+
+  <!-- JINK balloon — single word, BIG, declarative. -->
+  <rect x="380" y="280" width="120" height="60" rx="8"
+        fill="#ffffff" stroke="#2ed078" stroke-width="2.4"
+        filter="url(#balloonShadow)"/>
+  <path d="M390,280 L402,280 L350,108 Z"
+        fill="#ffffff" stroke="#2ed078" stroke-width="2.4"
+        stroke-linejoin="round"/>
+  <line x1="390" y1="280" x2="402" y2="280" stroke="#ffffff" stroke-width="3"/>
+  <text x="390" y="304"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#2ed078" letter-spacing="0.3">JINK</text>
+  <text x="390" y="328"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="20" font-weight="800"
+        fill="#1a1a1a">Deal.</text>
+
+</svg>

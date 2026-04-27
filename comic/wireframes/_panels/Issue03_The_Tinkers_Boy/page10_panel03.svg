@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 10 — Panel 3: CU Theodore decides — startled recognition of being needed</title>
+  <desc>CU 85mm eye level human scale. Theodore's face — boy of twelve, sandy hair, wide hazel eyes, freckles. Expression: startled recognition of being needed for first time — not heroism but quiet fierce certainty of choosing. Hand rises from bench, one finger extending carefully — the finger with brass gear ring — an offer not a grab. Eyes reflect faint emerald glow from bench below. Warm amber candlelight on face. Face of a boy deciding to matter.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p10p3nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p10p3candleHalo" cx="100%" cy="40%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p10p3theoSkin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p10p3theoSkinWarmKey" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="p10p3theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p10p3theoShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p10p3theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p10p3oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p10p3brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <filter id="p10p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p10p3nightBg)"/>
+  <rect width="366" height="364" fill="url(#p10p3candleHalo)" opacity="0.85"/>
+
+  <!-- Hand RISING from bench at bottom of frame (extending finger toward Jink off-frame below). -->
+  <g>
+    <!-- Forearm rising up, hand visible. -->
+    <path d="M40,300 Q60,290 100,288 L160,288 Q180,290 200,300 L240,310 Q260,320 280,320 L300,320 Q310,316 320,310 L320,364 L40,364 Z" fill="url(#p10p3theoSkin)"/>
+    <path d="M40,300 Q60,290 100,288 L160,288 Q180,290 200,300 L240,310 Q260,320 280,320 L300,320 Q310,316 320,310 L320,364 L40,364 Z" fill="url(#p10p3theoSkinWarmKey)" opacity="0.45"/>
+    <!-- Knuckles. -->
+    <path d="M80,302 Q100,296 120,302" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <!-- Oil stains. -->
+    <ellipse cx="120" cy="312" rx="20" ry="4" fill="url(#p10p3oilStain)"/>
+    <!-- INDEX FINGER EXTENDED (offer gesture). -->
+    <ellipse cx="240" cy="320" rx="10" ry="4" fill="url(#p10p3theoSkin)"/>
+    <ellipse cx="280" cy="318" rx="10" ry="4" fill="url(#p10p3theoSkin)"/>
+    <!-- Brass gear ring on extending finger. -->
+    <ellipse cx="200" cy="304" rx="9" ry="5" fill="url(#p10p3brass)"/>
+    <ellipse cx="200" cy="304" rx="9" ry="5" fill="none" stroke="#5a3018" stroke-width="0.6"/>
+    <ellipse cx="200" cy="304" rx="3.5" ry="2.5" fill="#3a2010"/>
+    <!-- Cool gleam on brass (catching emerald from below). -->
+    <ellipse cx="196" cy="302" rx="3" ry="1.5" fill="#a8ffd0" opacity="0.55" filter="url(#p10p3bloom)"/>
+  </g>
+
+  <!-- THEODORE'S FACE — fills upper portion of frame. -->
+  <g>
+    <ellipse cx="183" cy="160" rx="100" ry="110" fill="url(#p10p3theoSkin)"/>
+    <ellipse cx="183" cy="160" rx="100" ry="110" fill="url(#p10p3theoSkinWarmKey)" opacity="0.55"/>
+
+    <!-- Tousled spikes. -->
+    <path d="M100,90 Q94,30 150,8 Q200,-2 240,8 Q278,32 268,90 L262,98 Q244,40 224,28 L142,28 Q124,40 106,98 Z" fill="url(#p10p3theoHair)"/>
+    <path d="M114,18 L108,-20 L122,16 Z" fill="url(#p10p3theoHair)"/>
+    <path d="M140,-2 L136,-32 L154,2 Z" fill="url(#p10p3theoHair)"/>
+    <path d="M170,-12 L172,-46 L188,-8 Z" fill="url(#p10p3theoHair)"/>
+    <path d="M200,-12 L218,-40 L214,-2 Z" fill="url(#p10p3theoHair)"/>
+    <path d="M232,2 L246,-22 L242,16 Z" fill="url(#p10p3theoHair)"/>
+    <g stroke="#ffd078" stroke-width="1.4" opacity="0.7">
+      <line x1="120" y1="-10" x2="120" y2="14"/>
+      <line x1="146" y1="-22" x2="146" y2="2"/>
+      <line x1="178" y1="-32" x2="178" y2="-6"/>
+      <line x1="210" y1="-26" x2="210" y2="-2"/>
+      <line x1="238" y1="-14" x2="238" y2="10"/>
+    </g>
+    <!-- Bangs. -->
+    <path d="M104,98 L108,134 L122,90 Z" fill="url(#p10p3theoHair)"/>
+    <path d="M134,108 L138,140 L154,100 Z" fill="url(#p10p3theoHair)"/>
+    <path d="M164,114 L168,148 L184,108 Z" fill="url(#p10p3theoHair)"/>
+    <path d="M194,114 L198,148 L214,108 Z" fill="url(#p10p3theoHair)"/>
+    <path d="M222,108 L226,140 L242,100 Z" fill="url(#p10p3theoHair)"/>
+
+    <!-- WIDE EYES — open in startled recognition. EMERALD reflection from below. -->
+    <ellipse cx="138" cy="160" rx="18" ry="12" fill="#fff8e8"/>
+    <ellipse cx="138" cy="160" rx="18" ry="12" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="138" cy="160" r="8" fill="url(#p10p3theoHair)"/>
+    <circle cx="138" cy="160" r="4" fill="#0a0604"/>
+    <!-- COOL EMERALD CATCHLIGHT (Jink reflection). -->
+    <ellipse cx="142" cy="164" rx="2.5" ry="1.4" fill="#a8ffd0" filter="url(#p10p3bloom)"/>
+    <ellipse cx="136" cy="158" rx="2" ry="1" fill="#ffffff"/>
+
+    <ellipse cx="228" cy="160" rx="18" ry="12" fill="#fff8e8"/>
+    <ellipse cx="228" cy="160" rx="18" ry="12" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="228" cy="160" r="8" fill="url(#p10p3theoHair)"/>
+    <circle cx="228" cy="160" r="4" fill="#0a0604"/>
+    <ellipse cx="232" cy="164" rx="2.5" ry="1.4" fill="#a8ffd0" filter="url(#p10p3bloom)"/>
+    <ellipse cx="226" cy="158" rx="2" ry="1" fill="#ffffff"/>
+
+    <!-- Brows — soft, raised slightly (recognition + soft). -->
+    <path d="M118,140 Q138,134 158,140" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+    <path d="M208,140 Q228,134 248,140" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Nose. -->
+    <path d="M183,180 L168,222 Q183,228 198,222 Z" fill="#a8765a" opacity="0.55"/>
+    <ellipse cx="172" cy="226" rx="3" ry="1.3" fill="#3a1808" opacity="0.85"/>
+    <ellipse cx="194" cy="226" rx="3" ry="1.3" fill="#3a1808" opacity="0.85"/>
+
+    <!-- MOUTH — soft, set, decided. Quiet fierce certainty. Slight lift to one corner. -->
+    <path d="M150,250 Q183,256 216,248" fill="none" stroke="#5a3018" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- Tiny slight smile lift at corners. -->
+    <path d="M148,248 Q150,250 152,252" fill="none" stroke="#5a3018" stroke-width="0.85"/>
+    <path d="M214,246 Q216,248 218,250" fill="none" stroke="#5a3018" stroke-width="0.85"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.95">
+      <circle cx="116" cy="200" r="0.85"/>
+      <circle cx="130" cy="208" r="0.75"/>
+      <circle cx="146" cy="204" r="0.85"/>
+      <circle cx="220" cy="204" r="0.85"/>
+      <circle cx="236" cy="208" r="0.75"/>
+      <circle cx="250" cy="200" r="0.85"/>
+    </g>
+
+    <!-- Cheek warm. -->
+    <ellipse cx="100" cy="218" rx="14" ry="10" fill="#ffd078" opacity="0.32"/>
+    <ellipse cx="266" cy="218" rx="14" ry="10" fill="#ffd078" opacity="0.32"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q60,45 120,42"/>
+    <path d="M0,330 Q60,335 120,332"/>
+  </g>
+
+  <!-- THEODORE balloon — top, two stacked balloons (separate beats per script). -->
+  <rect x="14" y="14" width="240" height="46" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M156,60 L168,60 L180,150 Z"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="156" y1="60" x2="168" y2="60" stroke="#ffffff" stroke-width="3"/>
+  <text x="24" y="34"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="24" y="52"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">I don't... I ain't anyone important.</text>
+
+  <rect x="14" y="68" width="240" height="46" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <text x="24" y="86"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="24" y="106"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">I'm a clock-mender's boy.</text>
+
+  <!-- Theodore's "I'll help" balloon — stronger, declarative. -->
+  <rect x="14" y="120" width="240" height="46" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2.4"
+        filter="url(#balloonShadow)"/>
+  <text x="24" y="138"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="24" y="158"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="700"
+        fill="#1a1a1a">But if you need help — I'll help.</text>
+
+</svg>
