@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 320" width="247" height="320">
+  <title>Issue 2 — Page 9 — Panel 2: Cobblestone wall, gloved hand grips top edge, lichen carpet</title>
+  <desc>CU 85mm eye level. Single granite cobblestone sett fills frame as wall — waist-high from fairy perspective, surface streaming rainwater, pocked weathered. Lichen patch one corner thick green carpet. Sable's gloved silver-suit hand reaches top edge pulling herself over — physical effort visible in tension fingers strain wrist. Faint silver holo accent on glove. SABLE exertion how far / JINK off-panel forty feet kerbstone.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p9p2sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p9p2granite" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a8088"/>
+      <stop offset="60%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <linearGradient id="p9p2lichen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a9848"/>
+      <stop offset="100%" stop-color="#3a5818"/>
+    </linearGradient>
+    <linearGradient id="p9p2silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0bc"/>
+      <stop offset="100%" stop-color="#3a4048"/>
+    </linearGradient>
+    <radialGradient id="p9p2silverGlow">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a8b0bc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p9p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p9p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- BG sky upper sliver. -->
+  <rect width="247" height="50" fill="url(#p9p2sky)"/>
+
+  <!-- COBBLESTONE WALL (dominates frame). -->
+  <rect x="0" y="50" width="247" height="270" fill="url(#p9p2granite)"/>
+
+  <!-- Top edge of cobblestone (where Sable grips). -->
+  <line x1="0" y1="50" x2="247" y2="50" stroke="#1a1a20" stroke-width="2"/>
+  <line x1="0" y1="58" x2="247" y2="58" stroke="#080810" stroke-width="0.7" opacity="0.85"/>
+
+  <!-- Granite surface texture — pocked and worn. -->
+  <g fill="#3a3e48" opacity="0.65">
+    <ellipse cx="40" cy="100" rx="6" ry="4"/>
+    <ellipse cx="100" cy="120" rx="5" ry="3"/>
+    <ellipse cx="170" cy="105" rx="7" ry="4"/>
+    <ellipse cx="220" cy="135" rx="4" ry="3"/>
+    <ellipse cx="60" cy="170" rx="6" ry="4"/>
+    <ellipse cx="140" cy="180" rx="5" ry="3"/>
+    <ellipse cx="200" cy="195" rx="6" ry="4"/>
+    <ellipse cx="30" cy="220" rx="5" ry="3"/>
+    <ellipse cx="120" cy="240" rx="6" ry="4"/>
+    <ellipse cx="190" cy="260" rx="5" ry="3"/>
+    <ellipse cx="80" cy="275" rx="6" ry="4"/>
+    <ellipse cx="220" cy="285" rx="4" ry="3"/>
+  </g>
+  <!-- Crystalline grain stippling. -->
+  <g fill="#080810" opacity="0.55">
+    <circle cx="20" cy="80" r="0.7"/>
+    <circle cx="50" cy="90" r="0.7"/>
+    <circle cx="90" cy="100" r="0.7"/>
+    <circle cx="130" cy="95" r="0.7"/>
+    <circle cx="180" cy="115" r="0.7"/>
+    <circle cx="220" cy="100" r="0.7"/>
+    <circle cx="35" cy="140" r="0.7"/>
+    <circle cx="85" cy="155" r="0.7"/>
+    <circle cx="155" cy="160" r="0.7"/>
+    <circle cx="200" cy="175" r="0.7"/>
+    <circle cx="30" cy="200" r="0.7"/>
+    <circle cx="110" cy="210" r="0.7"/>
+    <circle cx="180" cy="225" r="0.7"/>
+    <circle cx="60" cy="255" r="0.7"/>
+    <circle cx="160" cy="270" r="0.7"/>
+    <circle cx="220" cy="295" r="0.7"/>
+  </g>
+
+  <!-- Crack lines. -->
+  <g stroke="#1a1a20" stroke-width="0.6" opacity="0.65">
+    <path d="M30,55 L40,90 L50,130 L45,180 L60,230"/>
+    <path d="M150,60 L165,100 L160,150 L175,200 L170,260"/>
+    <path d="M210,70 L220,120 L230,170 L225,230 L240,280"/>
+  </g>
+
+  <!-- WATER STREAMING down face. -->
+  <g stroke="#a8b8c8" stroke-width="0.6" opacity="0.75" filter="url(#p9p2bloom)">
+    <path d="M40,55 L42,80 L44,120 L46,180 L42,250 L40,310"/>
+    <path d="M85,60 L86,90 L88,140 L92,220 L90,310"/>
+    <path d="M130,55 L132,90 L134,140 L138,210 L136,310"/>
+    <path d="M180,60 L181,100 L185,170 L183,240 L181,310"/>
+    <path d="M225,55 L227,90 L228,150 L230,220 L228,310"/>
+  </g>
+
+  <!-- LICHEN PATCH one corner (script: thick green carpet). -->
+  <g id="p9p2-lichen">
+    <path d="M0,180 L60,170 L70,200 L50,230 L20,240 L0,235 Z" fill="url(#p9p2lichen)" stroke="#1a3008" stroke-width="0.6"/>
+    <!-- Lichen stippling/texture. -->
+    <g fill="#a8c878" opacity="0.85">
+      <circle cx="10" cy="190" r="2"/>
+      <circle cx="22" cy="185" r="2.5"/>
+      <circle cx="35" cy="180" r="2"/>
+      <circle cx="48" cy="178" r="2.2"/>
+      <circle cx="55" cy="195" r="2"/>
+      <circle cx="40" cy="205" r="2.5"/>
+      <circle cx="22" cy="215" r="2"/>
+      <circle cx="10" cy="225" r="2"/>
+      <circle cx="60" cy="215" r="2"/>
+    </g>
+    <g fill="#5a7828" opacity="0.85">
+      <circle cx="15" cy="200" r="1.4"/>
+      <circle cx="30" cy="195" r="1.4"/>
+      <circle cx="45" cy="190" r="1.4"/>
+      <circle cx="48" cy="220" r="1.4"/>
+      <circle cx="25" cy="225" r="1.4"/>
+      <circle cx="55" cy="225" r="1.4"/>
+    </g>
+    <!-- Lichen edge fringe. -->
+    <g stroke="#1a3008" stroke-width="0.5" fill="none" opacity="0.85">
+      <path d="M60,170 L62,168"/>
+      <path d="M65,175 L67,172"/>
+      <path d="M70,200 L73,198"/>
+      <path d="M50,230 L52,234"/>
+      <path d="M30,238 L32,242"/>
+    </g>
+  </g>
+
+  <!-- SABLE'S GLOVED HAND gripping top edge — center-frame. -->
+  <g id="p9p2-hand">
+    <!-- Forearm in suit, coming down from top edge. -->
+    <path d="M120,30 L160,30 L168,60 L156,55 L122,55 Z" fill="url(#p9p2silver)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Suit cuff. -->
+    <line x1="124" y1="48" x2="166" y2="50" stroke="#dce4f0" stroke-width="0.5" opacity="0.85"/>
+
+    <!-- Hand wrapping over edge. -->
+    <path d="M120,55 L120,75 Q120,82 130,82 L160,82 Q170,82 170,75 L170,55 Z" fill="url(#p9p2silver)" stroke="#080404" stroke-width="0.6"/>
+    <!-- Glove segments (suit fingers). -->
+    <g stroke="#080404" stroke-width="0.5" fill="none">
+      <line x1="130" y1="55" x2="130" y2="82"/>
+      <line x1="142" y1="55" x2="142" y2="82"/>
+      <line x1="155" y1="55" x2="155" y2="82"/>
+    </g>
+
+    <!-- KNUCKLES — strain visible. -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p9p2bloom)">
+      <ellipse cx="125" cy="58" rx="3" ry="1.2"/>
+      <ellipse cx="136" cy="58" rx="3" ry="1.2"/>
+      <ellipse cx="148" cy="58" rx="3" ry="1.2"/>
+      <ellipse cx="162" cy="58" rx="3" ry="1.2"/>
+    </g>
+
+    <!-- FINGERTIPS gripping top edge (curling over). -->
+    <g fill="url(#p9p2silver)" stroke="#080404" stroke-width="0.6">
+      <path d="M120,42 L120,55 L130,55 L130,40 Q124,38 120,42 Z"/>
+      <path d="M132,40 L132,55 L142,55 L142,38 Q137,36 132,40 Z"/>
+      <path d="M144,40 L144,55 L155,55 L155,38 Q149,36 144,40 Z"/>
+      <path d="M156,42 L156,55 L168,55 L168,40 Q162,38 156,42 Z"/>
+    </g>
+
+    <!-- TENDONS visible (effort). -->
+    <g stroke="#3a4048" stroke-width="0.7" fill="none" opacity="0.85">
+      <path d="M124,66 Q128,72 132,76"/>
+      <path d="M136,66 Q140,72 144,76"/>
+      <path d="M148,66 Q152,72 156,76"/>
+    </g>
+
+    <!-- SILVER HOLOGRAPHIC ACCENT on glove. -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p9p2bloom)">
+      <circle cx="145" cy="65" r="2"/>
+    </g>
+    <ellipse cx="145" cy="65" rx="14" ry="6" fill="url(#p9p2silverGlow)" filter="url(#p9p2strongBloom)" opacity="0.65"/>
+    <!-- Geometric hex on glove back. -->
+    <g stroke="#dce4f0" stroke-width="0.4" fill="none" opacity="0.95">
+      <path d="M141,62 L145,60 L149,62 L149,68 L145,70 L141,68 Z"/>
+    </g>
+
+    <!-- Water streams over fingers. -->
+    <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.85" filter="url(#p9p2bloom)">
+      <path d="M126,55 L126,75 L124,82"/>
+      <path d="M138,55 L138,75 L136,82"/>
+      <path d="M150,55 L150,75 L148,82"/>
+      <path d="M162,55 L162,75 L160,82"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — SABLE exertion. -->
+  <g id="p9p2-bal-sable">
+    <rect x="14" y="100" width="160" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="120" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="68" y="120" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(exertion)</text>
+    <text x="24" y="138" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">How far?</text>
+    <path d="M70,146 L84,146 L78,158 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="70" y1="146" x2="84" y2="146" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- JINK from above off-panel (dashed). -->
+  <g id="p9p2-bal-jink-op">
+    <rect x="14" y="170" width="220" height="80" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="190" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK (O.P., above)</text>
+    <text x="24" y="210" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Forty feet to the next</text>
+    <text x="24" y="227" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">kerbstone. Then a</text>
+    <text x="24" y="244" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">pavement stretch.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p9p2-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">2</text>
+    <text x="243" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">CLIMB</text>
+  </g>
+</svg>

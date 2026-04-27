@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 420" width="366" height="420">
+  <title>Issue 2 — Page 9 — Panel 4: Sable straddles iron bar, single-file crossing, three-point contact</title>
+  <desc>MS 50mm side angle. Three figures cross massive iron sewer grate single file — each straddling rusted iron bar like tree trunk, legs either side, three-point contact. Sable leads silver suit, faint holo geometric light from boot soles marking traction. Wren behind copper. Thresh behind ruby. Below bars: dark slot openings, blackness sewer. Rust flakes crumble fall into void. Warm yellowish mist below. LUMA off-panel rust granules compromising traction shift weight inward / WREN noted.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p9p4sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p9p4bar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="50%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <radialGradient id="p9p4sewerWarm">
+      <stop offset="0%" stop-color="#f5d878" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p9p4silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0bc"/>
+      <stop offset="100%" stop-color="#3a4048"/>
+    </linearGradient>
+    <linearGradient id="p9p4copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89548"/>
+      <stop offset="100%" stop-color="#783818"/>
+    </linearGradient>
+    <linearGradient id="p9p4ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <radialGradient id="p9p4tractionGlow">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a8b0bc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p9p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p9p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p9p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG sky upper. -->
+  <rect width="366" height="120" fill="url(#p9p4sky)"/>
+
+  <!-- Distant rain. -->
+  <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.55" filter="url(#p9p4bloom)">
+    <line x1="40" y1="20" x2="38" y2="60"/>
+    <line x1="120" y1="10" x2="118" y2="50"/>
+    <line x1="200" y1="25" x2="198" y2="65"/>
+    <line x1="280" y1="15" x2="278" y2="55"/>
+    <line x1="60" y1="80" x2="58" y2="115"/>
+    <line x1="220" y1="85" x2="218" y2="118"/>
+  </g>
+
+  <!-- DARK BACKGROUND below grate level. -->
+  <rect x="0" y="180" width="366" height="240" fill="#080404"/>
+
+  <!-- WARM SEWER GLOW from below (faint). -->
+  <ellipse cx="180" cy="350" rx="240" ry="70" fill="url(#p9p4sewerWarm)" filter="url(#p9p4deepBloom)" opacity="0.55"/>
+
+  <!-- IRON BAR — diagonal across frame (perspective view). -->
+  <g id="p9p4-bar" transform="translate(180, 250) rotate(-5)">
+    <rect x="-280" y="-30" width="560" height="60" fill="url(#p9p4bar)" stroke="#1a0808" stroke-width="1.4"/>
+    <!-- Rust pitting heavy. -->
+    <g opacity="0.85" fill="#a86028">
+      <ellipse cx="-220" cy="-10" rx="14" ry="4"/>
+      <ellipse cx="-120" cy="0" rx="16" ry="5"/>
+      <ellipse cx="-20" cy="10" rx="14" ry="4"/>
+      <ellipse cx="80" cy="-5" rx="16" ry="5"/>
+      <ellipse cx="180" cy="5" rx="14" ry="4"/>
+    </g>
+    <g opacity="0.85" fill="#3a1810">
+      <ellipse cx="-180" cy="10" rx="10" ry="3"/>
+      <ellipse cx="-80" cy="-15" rx="12" ry="3"/>
+      <ellipse cx="20" cy="-8" rx="10" ry="3"/>
+      <ellipse cx="120" cy="15" rx="12" ry="3"/>
+      <ellipse cx="220" cy="-10" rx="10" ry="3"/>
+    </g>
+    <!-- Wet sheen on top edge. -->
+    <rect x="-280" y="-30" width="560" height="6" fill="#c0d0e0" opacity="0.45" filter="url(#p9p4bloom)"/>
+    <!-- Rust crumbles falling. -->
+    <g fill="#a86028" opacity="0.85">
+      <polygon points="-100,30 -98,40 -94,42 -96,32"/>
+      <polygon points="0,32 2,42 6,44 4,34"/>
+      <polygon points="120,30 122,42 126,44 124,32"/>
+    </g>
+    <g fill="#5a2818" opacity="0.85">
+      <circle cx="-95" cy="48" r="1.4"/>
+      <circle cx="-90" cy="60" r="1.2"/>
+      <circle cx="3" cy="50" r="1.4"/>
+      <circle cx="0" cy="64" r="1.2"/>
+      <circle cx="125" cy="50" r="1.4"/>
+      <circle cx="120" cy="65" r="1.2"/>
+    </g>
+  </g>
+
+  <!-- Adjacent bars (left/right edges, partial visible). -->
+  <rect x="-30" y="180" width="40" height="180" fill="url(#p9p4bar)" stroke="#1a0808" stroke-width="1" opacity="0.95"/>
+  <rect x="356" y="180" width="40" height="180" fill="url(#p9p4bar)" stroke="#1a0808" stroke-width="1" opacity="0.95"/>
+
+  <!-- DARK SLOT OPENINGS between bars (above and below the central bar). -->
+  <rect x="10" y="180" width="170" height="40" fill="#080404"/>
+  <rect x="190" y="180" width="166" height="40" fill="#080404"/>
+
+  <!-- 3 SQUAD MEMBERS straddling bar single-file (Sable lead, Wren mid, Thresh trail). -->
+
+  <!-- SABLE — leading right (front of frame). -->
+  <g id="p9p4-sable" transform="translate(280, 220)">
+    <!-- Body straddling. -->
+    <path d="M-12,30 L-14,8 L-12,-12 L-6,-22 L6,-22 L12,-12 L14,8 L12,30 Z" fill="url(#p9p4silver)" stroke="#080404" stroke-width="0.6"/>
+    <!-- Cracked right shoulder. -->
+    <path d="M12,-9 L18,1 L20,12 L18,22" fill="url(#p9p4silver)" stroke="#080404" stroke-width="0.5"/>
+    <g stroke="#a8d8f8" stroke-width="0.5" opacity="0.85" filter="url(#p9p4bloom)">
+      <path d="M14,-2 L18,8"/>
+    </g>
+    <ellipse cx="0" cy="-22" rx="7" ry="2" fill="#dce4f0" opacity="0.55" filter="url(#p9p4bloom)"/>
+    <!-- LEGS straddling bar (one each side). -->
+    <path d="M-7,28 L-12,55 L-4,55 L-1,30 Z" fill="url(#p9p4silver)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M1,30 L4,55 L12,55 L7,28 Z" fill="url(#p9p4silver)" stroke="#080404" stroke-width="0.5"/>
+    <!-- Boots. -->
+    <ellipse cx="-8" cy="58" rx="6" ry="3" fill="#1a1a20" stroke="#080810" stroke-width="0.5"/>
+    <ellipse cx="8" cy="58" rx="6" ry="3" fill="#1a1a20" stroke="#080810" stroke-width="0.5"/>
+    <!-- TRACTION GLOW under boots (silver hex marker). -->
+    <ellipse cx="-8" cy="60" rx="9" ry="4" fill="url(#p9p4tractionGlow)" filter="url(#p9p4strongBloom)" opacity="0.85"/>
+    <ellipse cx="8" cy="60" rx="9" ry="4" fill="url(#p9p4tractionGlow)" filter="url(#p9p4strongBloom)" opacity="0.85"/>
+    <g stroke="#dce4f0" stroke-width="0.4" fill="none" opacity="0.95">
+      <path d="M-12,60 L-8,58 L-4,60 L-4,62 L-8,64 L-12,62 Z"/>
+      <path d="M4,60 L8,58 L12,60 L12,62 L8,64 L4,62 Z"/>
+    </g>
+    <!-- ARM ONE down for grip (3rd point). -->
+    <path d="M-12,5 L-26,18 L-22,28 L-10,15 Z" fill="url(#p9p4silver)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="-26" cy="22" rx="4" ry="3" fill="#3a2818" stroke="#080404" stroke-width="0.4"/>
+    <!-- Head looking down placing step. -->
+    <ellipse cx="0" cy="-32" rx="9" ry="10" fill="#3a2818"/>
+    <path d="M-9,-39 Q0,-44 9,-39 L9,-32 L-9,-32 Z" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-32" rx="1.2" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="3" cy="-32" rx="1.2" ry="0.7" fill="#1a0808"/>
+    <line x1="-3" y1="-26" x2="3" y2="-26" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- WREN — mid-bar. -->
+  <g id="p9p4-wren" transform="translate(180, 232)">
+    <path d="M-10,28 L-12,8 L-10,-10 L-5,-20 L5,-20 L10,-10 L12,8 L10,28 Z" fill="url(#p9p4copper)" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="0" cy="-20" rx="6" ry="2" fill="#f0a868" opacity="0.65" filter="url(#p9p4bloom)"/>
+    <g fill="#3a2010" opacity="0.85"><ellipse cx="-11" cy="6" rx="2" ry="1"/><ellipse cx="11" cy="6" rx="2" ry="1"/></g>
+    <path d="M-7,28 L-12,52 L-4,52 L-1,30 Z" fill="url(#p9p4copper)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M1,30 L4,52 L12,52 L7,28 Z" fill="url(#p9p4copper)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="-8" cy="55" rx="6" ry="3" fill="#1a1a20" stroke="#080810" stroke-width="0.5"/>
+    <ellipse cx="8" cy="55" rx="6" ry="3" fill="#1a1a20" stroke="#080810" stroke-width="0.5"/>
+    <!-- Copper traction glow (smaller). -->
+    <ellipse cx="-8" cy="57" rx="6" ry="3" fill="#f0a868" opacity="0.65" filter="url(#p9p4strongBloom)"/>
+    <ellipse cx="8" cy="57" rx="6" ry="3" fill="#f0a868" opacity="0.65" filter="url(#p9p4strongBloom)"/>
+    <ellipse cx="0" cy="-30" rx="8" ry="9" fill="#e0c098"/>
+    <ellipse cx="-1" cy="-38" rx="6" ry="3.5" fill="#1a0808"/>
+    <line x1="-3" y1="-40" x2="2" y2="-37" stroke="#3a1808" stroke-width="0.4"/>
+    <ellipse cx="-3" cy="-32" rx="1.2" ry="0.8" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-32" rx="1.2" ry="0.8" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-32" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <ellipse cx="3" cy="-32" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <line x1="-3" y1="-25" x2="3" y2="-25" stroke="#3a1810" stroke-width="0.6"/>
+  </g>
+
+  <!-- THRESH — trailing left. -->
+  <g id="p9p4-thresh" transform="translate(80, 245)">
+    <path d="M-12,28 L-14,8 L-12,-10 L-6,-20 L6,-20 L12,-10 L14,8 L12,28 Z" fill="url(#p9p4ruby)" stroke="#080404" stroke-width="0.6"/>
+    <path d="M-12,-8 L-19,2 L-19,15 L-12,20" fill="url(#p9p4ruby)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M-16,5 Q-14,11 -13,7 Z" fill="#3a0810"/>
+    <ellipse cx="0" cy="-20" rx="6" ry="2" fill="#f54848" opacity="0.65" filter="url(#p9p4bloom)"/>
+    <path d="M-7,28 L-12,52 L-4,52 L-1,30 Z" fill="url(#p9p4ruby)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M1,30 L4,52 L12,52 L7,28 Z" fill="url(#p9p4ruby)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="-8" cy="55" rx="6" ry="3" fill="#1a1a20" stroke="#080810" stroke-width="0.5"/>
+    <ellipse cx="8" cy="55" rx="6" ry="3" fill="#1a1a20" stroke="#080810" stroke-width="0.5"/>
+    <!-- Crimson traction glow. -->
+    <ellipse cx="-8" cy="57" rx="6" ry="3" fill="#f54848" opacity="0.65" filter="url(#p9p4strongBloom)"/>
+    <ellipse cx="8" cy="57" rx="6" ry="3" fill="#f54848" opacity="0.65" filter="url(#p9p4strongBloom)"/>
+    <ellipse cx="0" cy="-30" rx="8" ry="9" fill="#d8a880"/>
+    <path d="M-7,-37 Q0,-41 7,-37 L7,-30 L-7,-30 Z" fill="#a83a18"/>
+    <!-- Eyes NOT looking down (script: not looking down). -->
+    <ellipse cx="-3" cy="-32" rx="1.3" ry="0.9" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-32" rx="1.3" ry="0.9" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-32" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="3" cy="-32" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-3" y1="-25" x2="3" y2="-25" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- DIALOGUE -->
+  <!-- LUMA O.P. behind. -->
+  <g id="p9p4-bal-luma-op">
+    <rect x="14" y="14" width="220" height="62" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA (O.P.)</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Rust granules compromising</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">traction. Shift weight inward.</text>
+  </g>
+
+  <!-- WREN. -->
+  <g id="p9p4-bal-wren">
+    <rect x="244" y="14" width="108" height="44" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="254" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="254" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Noted.</text>
+    <path d="M260,58 L274,58 L268,70 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="260" y1="58" x2="274" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p9p4-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">4</text>
+    <text x="362" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">CROSSING</text>
+  </g>
+</svg>

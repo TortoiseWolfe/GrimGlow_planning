@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 320" width="487" height="320">
+  <title>Issue 2 — Page 9 — Panel 1: Squad walks the cobblestone field, Luma counsels Thresh</title>
+  <desc>MW 35mm eye level. Squad navigates around shin-deep rain pool. Sable leads jaw set, Wren behind head down, Luma walks beside Thresh quiet, Thresh weapon lowered eyes moving. Jink airborne 20ft above as faint emerald pinpoint. Rain pool surface stippled. Cobblestones reflect everything. LUMA quiet your heart rate elevated / THRESH I know what it is / LUMA telling you it will pass.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p9p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p9p1stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <radialGradient id="p9p1puddle">
+      <stop offset="0%" stop-color="#a8b0bc" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a3e48" stop-opacity="0.55"/>
+    </radialGradient>
+    <linearGradient id="p9p1silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0bc"/>
+      <stop offset="100%" stop-color="#3a4048"/>
+    </linearGradient>
+    <linearGradient id="p9p1copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89548"/>
+      <stop offset="100%" stop-color="#783818"/>
+    </linearGradient>
+    <linearGradient id="p9p1ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="p9p1sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#3a1a78"/>
+    </linearGradient>
+    <radialGradient id="p9p1emeraldPoint">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p9p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p9p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG sky upper. -->
+  <rect width="487" height="120" fill="url(#p9p1sky)"/>
+
+  <!-- Distant rain. -->
+  <g stroke="#a8b8c8" stroke-width="0.4" opacity="0.45">
+    <line x1="40" y1="20" x2="38" y2="58"/>
+    <line x1="120" y1="10" x2="118" y2="50"/>
+    <line x1="200" y1="25" x2="198" y2="65"/>
+    <line x1="280" y1="15" x2="278" y2="55"/>
+    <line x1="360" y1="30" x2="358" y2="70"/>
+    <line x1="440" y1="20" x2="438" y2="60"/>
+    <line x1="60" y1="80" x2="58" y2="115"/>
+    <line x1="180" y1="90" x2="178" y2="125"/>
+    <line x1="320" y1="85" x2="318" y2="120"/>
+    <line x1="420" y1="95" x2="418" y2="130"/>
+  </g>
+
+  <!-- JINK emerald pinpoint upper-mid (20ft above). -->
+  <g id="p9p1-jink-circling">
+    <ellipse cx="380" cy="55" rx="22" ry="16" fill="url(#p9p1emeraldPoint)" filter="url(#p9p1strongBloom)" opacity="0.85"/>
+    <circle cx="380" cy="55" r="2.5" fill="#7af0b0" filter="url(#p9p1bloom)"/>
+    <!-- Trail arc. -->
+    <path d="M380,55 Q400,40 410,30" stroke="#7af0b0" stroke-width="0.7" fill="none" opacity="0.55" filter="url(#p9p1bloom)"/>
+    <path d="M380,55 Q360,40 350,30" stroke="#7af0b0" stroke-width="0.7" fill="none" opacity="0.55" filter="url(#p9p1bloom)"/>
+  </g>
+
+  <!-- COBBLESTONE BOULDER FIELD foreground/mid. -->
+  <g fill="url(#p9p1stone)" stroke="#1a1a20" stroke-width="0.6">
+    <rect x="-5" y="120" width="60" height="22" rx="3"/>
+    <rect x="58" y="118" width="62" height="24" rx="3"/>
+    <rect x="123" y="120" width="60" height="22" rx="3"/>
+    <rect x="186" y="118" width="64" height="24" rx="3"/>
+    <rect x="253" y="120" width="60" height="22" rx="3"/>
+    <rect x="316" y="118" width="62" height="24" rx="3"/>
+    <rect x="381" y="120" width="60" height="22" rx="3"/>
+    <rect x="444" y="118" width="46" height="24" rx="3"/>
+  </g>
+  <g fill="url(#p9p1stone)" stroke="#080810" stroke-width="0.85">
+    <rect x="-10" y="146" width="78" height="32" rx="4"/>
+    <rect x="72" y="146" width="80" height="32" rx="4"/>
+    <rect x="156" y="146" width="78" height="32" rx="4"/>
+    <rect x="238" y="146" width="82" height="32" rx="4"/>
+    <rect x="324" y="146" width="78" height="32" rx="4"/>
+    <rect x="406" y="146" width="84" height="32" rx="4"/>
+  </g>
+  <g fill="url(#p9p1stone)" stroke="#080810" stroke-width="1">
+    <rect x="-15" y="182" width="100" height="44" rx="5"/>
+    <rect x="89" y="182" width="104" height="44" rx="5"/>
+    <rect x="197" y="182" width="100" height="44" rx="5"/>
+    <rect x="301" y="182" width="104" height="44" rx="5"/>
+    <rect x="409" y="182" width="80" height="44" rx="5"/>
+  </g>
+  <g fill="url(#p9p1stone)" stroke="#080810" stroke-width="1.2">
+    <rect x="-20" y="230" width="120" height="60" rx="6"/>
+    <rect x="104" y="230" width="124" height="60" rx="6"/>
+    <rect x="232" y="230" width="120" height="60" rx="6"/>
+    <rect x="356" y="230" width="124" height="60" rx="6"/>
+  </g>
+
+  <!-- WET SHEEN highlights. -->
+  <g fill="#c0d0e0" opacity="0.45" filter="url(#p9p1bloom)">
+    <ellipse cx="40" cy="234" rx="48" ry="3"/>
+    <ellipse cx="166" cy="234" rx="50" ry="3"/>
+    <ellipse cx="292" cy="234" rx="48" ry="3"/>
+    <ellipse cx="418" cy="234" rx="50" ry="3"/>
+    <ellipse cx="40" cy="184" rx="40" ry="2"/>
+    <ellipse cx="245" cy="184" rx="42" ry="2"/>
+    <ellipse cx="448" cy="184" rx="40" ry="2"/>
+  </g>
+
+  <!-- RAIN POOL between setts (shin-deep) — center-right. -->
+  <g id="p9p1-pool">
+    <!-- Pool gap. -->
+    <path d="M225,288 Q240,295 280,295 Q320,295 335,288 L335,310 L225,310 Z" fill="url(#p9p1puddle)" stroke="#1a1a20" stroke-width="0.6"/>
+    <!-- Surface raindrop ripples (concentric). -->
+    <g fill="none" stroke="#dce4f0" stroke-width="0.5" opacity="0.85">
+      <circle cx="245" cy="298" r="2.5"/>
+      <circle cx="245" cy="298" r="4.5"/>
+      <circle cx="280" cy="296" r="3"/>
+      <circle cx="280" cy="296" r="5"/>
+      <circle cx="315" cy="299" r="2.5"/>
+      <circle cx="315" cy="299" r="4.5"/>
+      <circle cx="260" cy="302" r="2"/>
+    </g>
+    <!-- Mist over pool. -->
+    <g fill="#dce4f0" opacity="0.45" filter="url(#p9p1strongBloom)">
+      <ellipse cx="280" cy="290" rx="40" ry="4"/>
+    </g>
+  </g>
+
+  <!-- 5 SQUAD MEMBERS in walking march line, navigating around pool. -->
+  <!-- SABLE leading (front-left). -->
+  <g id="p9p1-sable" transform="translate(80, 230)">
+    <path d="M-10,30 L-12,5 L-10,-15 L-5,-25 L5,-25 L10,-15 L12,5 L10,30 Z" fill="url(#p9p1silver)" stroke="#080404" stroke-width="0.6"/>
+    <!-- Cracked right shoulder -->
+    <path d="M10,-10 L16,0 L18,12 L16,22" fill="url(#p9p1silver)" stroke="#080404" stroke-width="0.5"/>
+    <g stroke="#a8d8f8" stroke-width="0.5" opacity="0.85" filter="url(#p9p1bloom)">
+      <path d="M12,-3 L16,7 L14,17"/>
+    </g>
+    <ellipse cx="0" cy="-25" rx="7" ry="2" fill="#dce4f0" opacity="0.55" filter="url(#p9p1bloom)"/>
+    <!-- Head looking forward, jaw set. -->
+    <ellipse cx="0" cy="-37" rx="9" ry="10" fill="#3a2818"/>
+    <path d="M-9,-44 Q0,-49 9,-44 L9,-37 L-9,-37 Z" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="3" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-3" y1="-31" x2="3" y2="-31" stroke="#3a1810" stroke-width="0.8"/>
+  </g>
+
+  <!-- WREN — head down behind Sable. -->
+  <g id="p9p1-wren" transform="translate(140, 235)">
+    <path d="M-10,28 L-12,3 L-10,-15 L-5,-25 L5,-25 L10,-15 L12,3 L10,28 Z" fill="url(#p9p1copper)" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="0" cy="-25" rx="7" ry="2" fill="#f0a868" opacity="0.65" filter="url(#p9p1bloom)"/>
+    <!-- Oil-stained forearms. -->
+    <g fill="#3a2010" opacity="0.85">
+      <ellipse cx="-12" cy="6" rx="2" ry="1"/>
+      <ellipse cx="12" cy="8" rx="2" ry="1"/>
+    </g>
+    <!-- Head DOWN (focused on ground). -->
+    <ellipse cx="0" cy="-35" rx="9" ry="10" fill="#e0c098"/>
+    <!-- Hair-up bun. -->
+    <ellipse cx="-1" cy="-44" rx="6" ry="4" fill="#1a0808"/>
+    <line x1="-3" y1="-46" x2="2" y2="-43" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Eyes downcast. -->
+    <ellipse cx="-3" cy="-32" rx="1.2" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="3" cy="-32" rx="1.2" ry="0.7" fill="#1a0808"/>
+    <line x1="-3" y1="-30" x2="3" y2="-30" stroke="#3a1810" stroke-width="0.6"/>
+  </g>
+
+  <!-- LUMA — walking close to Thresh, monitoring. -->
+  <g id="p9p1-luma" transform="translate(220, 240)">
+    <path d="M-10,25 L-12,3 L-10,-15 L-5,-25 L5,-25 L10,-15 L12,3 L10,25 Z" fill="url(#p9p1sapphire)" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="0" cy="-25" rx="7" ry="2" fill="#a878f8" opacity="0.65" filter="url(#p9p1bloom)"/>
+    <!-- Head turned slightly toward Thresh (right). -->
+    <ellipse cx="2" cy="-37" rx="9" ry="10" fill="#a87850"/>
+    <!-- Long braid wet plastered. -->
+    <path d="M-5,-32 Q-12,-22 -12,-10 Q-11,2 -13,12" stroke="#1a0808" stroke-width="3.5" fill="none"/>
+    <line x1="-7" y1="-28" x2="-12" y2="10" stroke="#a878f8" stroke-width="0.4" opacity="0.85" filter="url(#p9p1bloom)"/>
+    <!-- Cracked right lens. -->
+    <ellipse cx="5" cy="-37" rx="3.5" ry="2.5" fill="#a878f8" opacity="0.45" stroke="#a878f8" stroke-width="0.4"/>
+    <line x1="5" y1="-37" x2="8" y2="-35" stroke="#dce4f0" stroke-width="0.3" opacity="0.85"/>
+    <!-- Eyes (looking at Thresh). -->
+    <ellipse cx="3" cy="-37" rx="1.2" ry="0.9" fill="#dce4f0"/>
+    <ellipse cx="9" cy="-37" rx="1.2" ry="0.9" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-37" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <ellipse cx="9" cy="-37" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <line x1="0" y1="-30" x2="6" y2="-30" stroke="#3a1810" stroke-width="0.6"/>
+  </g>
+
+  <!-- THRESH — beside Luma, weapon lowered. -->
+  <g id="p9p1-thresh" transform="translate(265, 240)">
+    <path d="M-12,25 L-14,3 L-12,-15 L-6,-25 L6,-25 L12,-15 L14,3 L12,25 Z" fill="url(#p9p1ruby)" stroke="#080404" stroke-width="0.6"/>
+    <!-- Dented LEFT pauldron. -->
+    <path d="M-12,-13 L-19,-3 L-19,12 L-12,18" fill="url(#p9p1ruby)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M-16,2 Q-14,8 -13,4 Z" fill="#3a0810"/>
+    <ellipse cx="0" cy="-25" rx="7" ry="2" fill="#f54848" opacity="0.65" filter="url(#p9p1bloom)"/>
+    <!-- WEAPON LOWERED (held down). -->
+    <rect x="6" y="14" width="22" height="5" rx="0.5" fill="#1a0810" stroke="#080404" stroke-width="0.4"/>
+    <ellipse cx="9" cy="16" rx="3" ry="2" fill="#d8a880" stroke="#080408" stroke-width="0.3"/>
+    <!-- Head — eyes moving (alert). -->
+    <ellipse cx="0" cy="-37" rx="9" ry="10" fill="#d8a880"/>
+    <path d="M-9,-44 Q0,-49 9,-44 L9,-37 L-9,-37 Z" fill="#a83a18"/>
+    <ellipse cx="-3" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-1.5" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="4.5" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-3" y1="-31" x2="3" y2="-31" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- DIALOGUE — LUMA quiet, multi-line. -->
+  <g id="p9p1-bal-luma1">
+    <rect x="14" y="14" width="220" height="62" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="68" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(quiet, walking)</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Your heart rate is elevated.</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Normal adrenaline response.</text>
+    <path d="M180,76 L196,76 L210,90 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="180" y1="76" x2="196" y2="76" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- THRESH terse. -->
+  <g id="p9p1-bal-thresh">
+    <rect x="252" y="14" width="220" height="44" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="262" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH</text>
+    <text x="262" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">I know what it is.</text>
+    <path d="M280,58 L296,58 L290,70 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="280" y1="58" x2="296" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- LUMA continues. -->
+  <g id="p9p1-bal-luma2">
+    <rect x="252" y="78" width="220" height="44" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="262" y="98" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="262" y="116" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">I know. It will pass.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p9p1-meta">
+    <text x="479" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">1</text>
+    <text x="483" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">MARCH AFTER</text>
+  </g>
+</svg>
