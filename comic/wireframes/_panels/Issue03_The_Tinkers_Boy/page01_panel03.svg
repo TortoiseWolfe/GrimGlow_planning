@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 1 — Panel 3: CU hands on broom handle, slight high angle</title>
+  <desc>CU 85mm slight high angle. Theodore's oil-stained hands on a broom handle. Brass gear ring on left index. Right thumb turning the ring unconsciously — a habitual fidget. Small burn scar on right knuckle. Fingernails rimmed with machine oil. The character is in the details. Warm amber light from above. Tactile intimacy.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <radialGradient id="p1p3keyLight" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#a85820" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p1p3floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="p1p3broom" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="50%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p1p3broomHigh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#ffe8a0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="p1p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5dcc4"/>
+      <stop offset="50%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#8a6048"/>
+    </linearGradient>
+    <linearGradient id="p1p3skinShade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="p1p3sleeve" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0e8d4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <radialGradient id="p1p3oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p1p3brass" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="40%" stop-color="#f0d878"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </radialGradient>
+    <radialGradient id="p1p3ringGlint">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p1p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.5"/></filter>
+  </defs>
+
+  <!-- BG: warm dim floor (high-angle view past hands shows floor below). -->
+  <rect width="366" height="364" fill="url(#p1p3floor)"/>
+  <rect width="366" height="364" fill="url(#p1p3keyLight)"/>
+
+  <!-- Floor planks visible far below. -->
+  <g stroke="#1a0c04" stroke-width="0.6" opacity="0.85">
+    <line x1="0" y1="296" x2="366" y2="290"/>
+    <line x1="0" y1="318" x2="366" y2="314"/>
+    <line x1="0" y1="340" x2="366" y2="338"/>
+    <line x1="0" y1="362" x2="366" y2="362"/>
+    <line x1="80" y1="280" x2="74" y2="364"/>
+    <line x1="200" y1="280" x2="206" y2="364"/>
+    <line x1="320" y1="280" x2="328" y2="364"/>
+  </g>
+  <ellipse cx="200" cy="346" rx="140" ry="6" fill="#5a4020" opacity="0.42"/>
+
+  <!-- Broom handle — diagonal across panel from upper-LEFT to lower-RIGHT.
+       Endpoints: (32,52) at upper-left and (340,300) at lower-right.
+       Handle is a tapered cylinder; we draw it as a quad and add highlight + shadow stripes. -->
+  <g>
+    <!-- Main handle body (gradient transverse to length). -->
+    <path d="M28,40 L62,28 L356,288 L340,318 Z" fill="url(#p1p3broom)"/>
+    <!-- Highlight band along the lit (upper) edge. -->
+    <path d="M30,42 L60,30 L348,294 L344,300 Z" fill="#fff0a8" opacity="0.18"/>
+    <!-- Lower edge dark stripe. -->
+    <path d="M32,52 L340,318 L334,322 L26,54 Z" fill="#000" opacity="0.5"/>
+    <!-- Wood grain striations. -->
+    <g stroke="#1a0c04" stroke-width="0.5" opacity="0.6" fill="none">
+      <path d="M44,40 L70,32 L160,118"/>
+      <path d="M58,46 L82,38 L200,156"/>
+      <path d="M76,54 L100,46 L240,194"/>
+    </g>
+    <!-- Knot. -->
+    <ellipse cx="180" cy="146" rx="3" ry="2" fill="#1a0c04" opacity="0.85"/>
+    <ellipse cx="266" cy="226" rx="2.5" ry="1.6" fill="#1a0c04" opacity="0.85"/>
+  </g>
+
+  <!-- LEFT HAND — grips upper portion of handle (around point ~140,116). -->
+  <g>
+    <!-- Linen sleeve cuff coming in from off-frame upper-left. -->
+    <path d="M0,60 Q-4,92 26,128 Q60,148 92,150 L120,140 Q126,118 100,90 Q70,68 28,54 Z" fill="url(#p1p3sleeve)"/>
+    <path d="M0,60 Q-4,92 26,128 Q60,148 92,150 L120,140 Q126,118 100,90 Q70,68 28,54 Z" fill="url(#p1p3skinShade)" opacity="0.4"/>
+    <!-- Cuff hem. -->
+    <path d="M86,154 Q102,148 122,138" stroke="#a89878" stroke-width="3" fill="none"/>
+    <path d="M86,154 Q102,148 122,138" stroke="#5a4838" stroke-width="0.6" fill="none"/>
+    <!-- Wrist + back of hand (oil-stained skin). -->
+    <path d="M86,148 Q104,160 132,164 L168,154 L172,134 L150,118 Q124,116 102,128 Z" fill="url(#p1p3skin)"/>
+    <!-- Knuckle ridges. -->
+    <path d="M126,134 Q132,128 138,130" fill="none" stroke="#8a6048" stroke-width="1"/>
+    <path d="M140,138 Q146,132 154,134" fill="none" stroke="#8a6048" stroke-width="1"/>
+    <path d="M154,144 Q160,140 166,142" fill="none" stroke="#8a6048" stroke-width="1"/>
+    <!-- Oil grime on back of hand. -->
+    <ellipse cx="116" cy="146" rx="14" ry="5" fill="url(#p1p3oilStain)"/>
+    <ellipse cx="100" cy="138" rx="10" ry="4" fill="url(#p1p3oilStain)" opacity="0.7"/>
+    <!-- BURN SCAR on right knuckle (visible top of hand, near base of index). -->
+    <ellipse cx="158" cy="128" rx="3.5" ry="1.4" fill="#f5b89a"/>
+    <ellipse cx="158" cy="128" rx="2.5" ry="1" fill="#d8907a" opacity="0.95"/>
+    <ellipse cx="158" cy="128" rx="1.4" ry="0.55" fill="#a85820" opacity="0.85"/>
+
+    <!-- FIVE distinct fingers wrapping the handle. The handle passes diagonally; fingers wrap from
+         the back side AROUND it, with fingertips peeking out the front (lower side). -->
+    <!-- Index finger — points along the handle, with the BRASS GEAR RING. -->
+    <g id="p1p3leftIndex">
+      <!-- Finger upper segment (proximal phalanx, behind handle from this angle). -->
+      <path d="M152,118 Q172,108 196,108 L210,118 Q200,130 178,130 Q162,128 152,124 Z" fill="url(#p1p3skin)"/>
+      <!-- Knuckle bump. -->
+      <path d="M154,118 Q160,114 168,116" fill="none" stroke="#8a6048" stroke-width="0.8"/>
+      <!-- Middle phalanx. -->
+      <path d="M196,108 Q210,106 226,114 L228,128 Q216,132 200,128 Q198,118 196,108 Z" fill="url(#p1p3skin)"/>
+      <!-- Distal phalanx + nail. -->
+      <path d="M226,114 Q236,114 244,120 L244,130 Q236,134 228,128 Z" fill="url(#p1p3skin)"/>
+      <path d="M226,114 Q236,114 244,120" fill="none" stroke="#8a6048" stroke-width="0.7"/>
+      <!-- Fingernail. -->
+      <path d="M236,118 Q241,118 242,122 Q241,127 236,127 Z" fill="#e8d0b4"/>
+      <path d="M236,118 Q241,118 242,122" fill="none" stroke="#1a0e06" stroke-width="0.5"/>
+      <!-- Oil under nail. -->
+      <line x1="237" y1="126" x2="241" y2="126" stroke="#1a0e06" stroke-width="0.7"/>
+    </g>
+
+    <!-- BRASS GEAR RING on index finger's middle phalanx — focal-point detail. -->
+    <g>
+      <ellipse cx="212" cy="119" rx="13" ry="9" fill="url(#p1p3brass)"/>
+      <ellipse cx="212" cy="119" rx="13" ry="9" fill="none" stroke="#5a3018" stroke-width="0.9"/>
+      <!-- Gear teeth around the rim. -->
+      <rect x="210.7" y="108" width="2.6" height="3.5" fill="url(#p1p3brass)"/>
+      <rect x="210.7" y="126.5" width="2.6" height="3.5" fill="url(#p1p3brass)"/>
+      <rect x="200" y="117.5" width="3.5" height="3" fill="url(#p1p3brass)"/>
+      <rect x="221.5" y="117.5" width="3.5" height="3" fill="url(#p1p3brass)"/>
+      <rect x="204" y="110" width="2.8" height="3.5" fill="url(#p1p3brass)" transform="rotate(-30 205.4 111.7)"/>
+      <rect x="219" y="110" width="2.8" height="3.5" fill="url(#p1p3brass)" transform="rotate(30 220.4 111.7)"/>
+      <rect x="204" y="125" width="2.8" height="3.5" fill="url(#p1p3brass)" transform="rotate(30 205.4 126.7)"/>
+      <rect x="219" y="125" width="2.8" height="3.5" fill="url(#p1p3brass)" transform="rotate(-30 220.4 126.7)"/>
+      <!-- Inner ring opening. -->
+      <ellipse cx="212" cy="119" rx="6" ry="4" fill="#3a2010"/>
+      <ellipse cx="212" cy="119" rx="6" ry="4" fill="none" stroke="#5a3018" stroke-width="0.7"/>
+      <!-- Glint. -->
+      <ellipse cx="206" cy="115" rx="3.5" ry="1.8" fill="url(#p1p3ringGlint)"/>
+      <ellipse cx="218" cy="123" rx="2" ry="1" fill="url(#p1p3ringGlint)" opacity="0.7"/>
+    </g>
+
+    <!-- Middle finger — wraps over handle. -->
+    <g>
+      <path d="M152,138 Q174,134 196,142 L210,160 Q200,170 180,166 Q160,160 150,148 Z" fill="url(#p1p3skin)"/>
+      <path d="M152,138 Q174,134 196,142" fill="none" stroke="#8a6048" stroke-width="0.7"/>
+      <!-- Distal segment with nail. -->
+      <path d="M210,160 Q220,162 226,168 L222,178 Q212,176 206,170 Z" fill="url(#p1p3skin)"/>
+      <path d="M218,166 Q222,166 224,170 Q222,174 218,174 Z" fill="#e8d0b4"/>
+      <path d="M218,166 Q222,166 224,170" fill="none" stroke="#1a0e06" stroke-width="0.5"/>
+      <line x1="219" y1="173" x2="222" y2="173" stroke="#1a0e06" stroke-width="0.6"/>
+    </g>
+
+    <!-- Ring finger. -->
+    <g>
+      <path d="M148,156 Q166,156 182,166 L194,184 Q184,192 168,188 Q154,182 144,168 Z" fill="url(#p1p3skin)"/>
+      <path d="M148,156 Q166,156 182,166" fill="none" stroke="#8a6048" stroke-width="0.7"/>
+      <path d="M194,184 Q204,186 208,194 L202,202 Q194,200 190,192 Z" fill="url(#p1p3skin)"/>
+      <path d="M198,194 Q202,194 204,196 Q202,200 198,200 Z" fill="#e8d0b4"/>
+      <line x1="199" y1="199" x2="202" y2="199" stroke="#1a0e06" stroke-width="0.5"/>
+    </g>
+
+    <!-- Pinky. -->
+    <g>
+      <path d="M138,172 Q154,172 168,182 L178,200 Q168,206 154,200 Q140,194 132,180 Z" fill="url(#p1p3skin)"/>
+      <path d="M138,172 Q154,172 168,182" fill="none" stroke="#8a6048" stroke-width="0.7"/>
+      <path d="M178,200 Q186,202 190,210 L184,218 Q176,216 174,208 Z" fill="url(#p1p3skin)"/>
+      <path d="M180,210 Q184,210 186,212 Q184,216 180,216 Z" fill="#e8d0b4"/>
+    </g>
+
+    <!-- Thumb — wrapping over the top of the handle (pads the index for the fidget). -->
+    <g>
+      <path d="M150,108 Q166,98 188,98 Q204,100 212,110 Q204,90 188,82 Q170,82 156,90 Q146,98 150,108 Z" fill="url(#p1p3skin)"/>
+      <!-- Thumbnail. -->
+      <path d="M192,90 Q198,88 200,92 Q198,98 192,98 Z" fill="#e8d0b4"/>
+      <path d="M192,90 Q198,88 200,92" fill="none" stroke="#1a0e06" stroke-width="0.5"/>
+      <line x1="193" y1="97" x2="197" y2="97" stroke="#1a0e06" stroke-width="0.6"/>
+    </g>
+  </g>
+
+  <!-- RIGHT HAND — grips lower portion of handle (around point ~298,266). -->
+  <g>
+    <!-- Sleeve cuff coming in from lower-right. -->
+    <path d="M366,360 L366,260 Q344,248 320,256 Q302,272 314,294 Q344,318 366,310 Z" fill="url(#p1p3sleeve)"/>
+    <path d="M366,360 L366,260 Q344,248 320,256 Q302,272 314,294 Q344,318 366,310 Z" fill="url(#p1p3skinShade)" opacity="0.4"/>
+    <!-- Cuff hem. -->
+    <path d="M324,260 Q340,254 366,250" stroke="#a89878" stroke-width="3" fill="none"/>
+    <path d="M324,260 Q340,254 366,250" stroke="#5a4838" stroke-width="0.6" fill="none"/>
+    <!-- Wrist + back of hand. -->
+    <path d="M298,242 Q310,256 324,272 L356,278 L364,260 Q352,236 320,232 Q302,234 298,242 Z" fill="url(#p1p3skin)"/>
+    <!-- Knuckle ridges. -->
+    <path d="M312,254 Q320,248 326,250" fill="none" stroke="#8a6048" stroke-width="1"/>
+    <path d="M324,266 Q332,260 340,262" fill="none" stroke="#8a6048" stroke-width="1"/>
+    <path d="M340,272 Q348,266 354,268" fill="none" stroke="#8a6048" stroke-width="1"/>
+    <ellipse cx="338" cy="258" rx="12" ry="4" fill="url(#p1p3oilStain)"/>
+    <ellipse cx="354" cy="262" rx="9" ry="3" fill="url(#p1p3oilStain)" opacity="0.7"/>
+
+    <!-- Five fingers wrapping the lower handle. -->
+    <!-- Index. -->
+    <g>
+      <path d="M298,238 Q280,238 264,250 L256,264 Q266,272 286,266 Q298,260 304,250 Z" fill="url(#p1p3skin)"/>
+      <path d="M256,264 Q244,266 234,270 L240,282 Q252,282 262,278 Z" fill="url(#p1p3skin)"/>
+      <path d="M240,272 Q244,272 246,276 Q244,280 240,280 Z" fill="#e8d0b4"/>
+      <path d="M240,272 Q244,272 246,276" fill="none" stroke="#1a0e06" stroke-width="0.5"/>
+    </g>
+    <!-- Middle. -->
+    <g>
+      <path d="M306,256 Q284,260 264,272 L260,288 Q278,294 296,288 Q310,278 314,266 Z" fill="url(#p1p3skin)"/>
+      <path d="M260,288 Q248,288 240,294 L246,304 Q258,302 266,298 Z" fill="url(#p1p3skin)"/>
+      <path d="M246,294 Q250,294 252,298 Q250,302 246,302 Z" fill="#e8d0b4"/>
+    </g>
+    <!-- Ring. -->
+    <g>
+      <path d="M314,272 Q294,278 274,290 L274,302 Q290,310 308,302 Q318,294 322,282 Z" fill="url(#p1p3skin)"/>
+      <path d="M274,302 Q264,304 256,310 L262,318 Q272,316 278,312 Z" fill="url(#p1p3skin)"/>
+      <path d="M260,310 Q264,310 266,314 Q264,318 260,318 Z" fill="#e8d0b4"/>
+    </g>
+    <!-- Pinky. -->
+    <g>
+      <path d="M322,288 Q306,294 290,304 L294,316 Q310,322 322,314 Q330,306 332,296 Z" fill="url(#p1p3skin)"/>
+      <path d="M290,316 Q282,318 276,324 L282,332 Q290,330 296,326 Z" fill="url(#p1p3skin)"/>
+    </g>
+    <!-- Thumb wrapping over top of handle. -->
+    <g>
+      <path d="M306,238 Q322,224 342,224 Q358,232 360,246 Q346,250 332,252 Q318,250 306,242 Z" fill="url(#p1p3skin)"/>
+      <path d="M342,232 Q348,232 350,236 Q346,242 342,242 Z" fill="#e8d0b4"/>
+      <path d="M342,232 Q348,232 350,236" fill="none" stroke="#1a0e06" stroke-width="0.5"/>
+      <line x1="344" y1="240" x2="348" y2="240" stroke="#1a0e06" stroke-width="0.6"/>
+    </g>
+  </g>
+
+  <!-- Faint amber bloom over the brass ring (it catches the light per script). -->
+  <ellipse cx="212" cy="119" rx="22" ry="14" fill="url(#p1p3keyLight)" opacity="0.45" filter="url(#p1p3bloom)"/>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q40,205 80,202"/>
+    <path d="M260,30 Q300,35 340,32"/>
+    <path d="M0,330 Q60,335 120,332"/>
+  </g>
+
+  <!-- THEODORE small balloon — top-right area (above and right of the ring), staying off the hands. -->
+  <rect x="226" y="14" width="130" height="60" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <!-- Tail pointing down toward the speaker (Theodore is off-panel, but the voice emanates from
+       the figure who would be holding the broom — direction is generally downward). -->
+  <path d="M250,74 L260,74 L246,86 Z"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="250" y1="74" x2="260" y2="74" stroke="#ffffff" stroke-width="3"/>
+  <text x="236" y="34"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="236" y="50"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic" font-weight="500"
+        fill="#5a4030">(small, to himself)</text>
+  <text x="236" y="68"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">Right, then.</text>
+
+</svg>

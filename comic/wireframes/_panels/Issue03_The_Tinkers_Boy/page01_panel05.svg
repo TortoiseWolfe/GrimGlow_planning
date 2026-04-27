@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.2 364" width="238.2" height="364">
+  <title>Issue 3 — Page 1 — Panel 5: CU Theodore's face, Rembrandt amber sidelight</title>
+  <desc>CU 85mm at eye level, tight frame on Theodore's face. Boy of 12-13, lanky pre-teen NOT a young child. Untidy sandy-brown hair falling across forehead, wide hazel eyes bright and focused, freckles across nose and cheeks. Expression: quiet intensity, pure concentration, seeing something clearly. Eyes reflect tiny brass components. Warm amber light from the side creates a gentle Rembrandt triangle on his cheek — one eye fully lit, the other in soft shadow. Background a soft blur of workshop warmth. No dialogue. Private intelligence — the gift no one notices.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <radialGradient id="p1p5keyLight" cx="20%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#a85820" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p1p5bgWarm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a2810"/>
+      <stop offset="50%" stop-color="#3a1808"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p1p5skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8e0c8"/>
+      <stop offset="50%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="p1p5skinShadow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#1a0e06" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0.65"/>
+    </linearGradient>
+    <linearGradient id="p1p5skinKey" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff0c8" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#fff0c8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p1p5hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p1p5hairKey" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5d8a8" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#f5d8a8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p1p5eyeIris" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#a8a868"/>
+      <stop offset="40%" stop-color="#785828"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="p1p5eyeReflect">
+      <stop offset="0%" stop-color="#fff0a8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#fff0a8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p1p5shirtCollar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p1p5vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8a5a30"/>
+      <stop offset="100%" stop-color="#3e2810"/>
+    </linearGradient>
+    <filter id="p1p5bgBlur"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="p1p5softBlur"><feGaussianBlur stdDeviation="0.6"/></filter>
+  </defs>
+
+  <!-- BG: warm dim, soft-blurred workshop suggestion. -->
+  <rect width="238.2" height="364" fill="url(#p1p5bgWarm)"/>
+  <rect width="238.2" height="364" fill="url(#p1p5keyLight)"/>
+
+  <!-- Soft blurred suggestion of bench tools / glints in BG. -->
+  <g filter="url(#p1p5bgBlur)" opacity="0.85">
+    <circle cx="40" cy="220" r="14" fill="#a85820" opacity="0.45"/>
+    <circle cx="200" cy="280" r="10" fill="#a85820" opacity="0.4"/>
+    <ellipse cx="206" cy="80" rx="20" ry="8" fill="#7a4828" opacity="0.5"/>
+    <ellipse cx="20" cy="100" rx="14" ry="8" fill="#7a4828" opacity="0.45"/>
+    <circle cx="80" cy="320" r="3" fill="#f5d878" opacity="0.7"/>
+    <circle cx="180" cy="340" r="2.5" fill="#f5d878" opacity="0.65"/>
+    <circle cx="220" cy="200" r="2" fill="#f5d878" opacity="0.55"/>
+  </g>
+
+  <!-- Soft amber side-glow halo from the implied light source (left of frame). -->
+  <ellipse cx="40" cy="160" rx="80" ry="120" fill="url(#p1p5keyLight)" opacity="0.55"/>
+
+  <!-- Theodore's neck + linen collar peeking up at bottom of frame. -->
+  <g>
+    <!-- Neck. -->
+    <path d="M84,304 L82,360 L156,360 L154,304 Z" fill="url(#p1p5skin)"/>
+    <path d="M84,304 L82,360 L156,360 L154,304 Z" fill="url(#p1p5skinShadow)" opacity="0.65"/>
+    <!-- Linen collar shirt. -->
+    <path d="M58,330 Q40,360 30,364 L210,364 Q200,360 178,330 L154,332 L120,344 L86,332 Z" fill="url(#p1p5shirtCollar)"/>
+    <path d="M58,330 Q40,360 30,364 L210,364 Q200,360 178,330 L154,332 L120,344 L86,332 Z" fill="url(#p1p5skinShadow)" opacity="0.45"/>
+    <!-- Brown waistcoat lapels. -->
+    <path d="M30,364 L86,332 L120,344 L154,332 L210,364 Z" fill="url(#p1p5vest)"/>
+    <path d="M86,332 L120,344 L154,332 L120,360 Z" fill="url(#p1p5shirtCollar)"/>
+    <line x1="120" y1="344" x2="120" y2="364" stroke="#1a0c04" stroke-width="0.6" opacity="0.85"/>
+    <!-- Brass gear pendant on cord just visible at neck. -->
+    <line x1="116" y1="354" x2="120" y2="362" stroke="#3a2818" stroke-width="0.6"/>
+    <line x1="124" y1="354" x2="120" y2="362" stroke="#3a2818" stroke-width="0.6"/>
+    <circle cx="120" cy="362" r="1" fill="#f5d878"/>
+  </g>
+
+  <!-- HEAD — large, fills upper 2/3 of frame. The face is roughly at the canonical eye-line (rule of thirds). -->
+  <g>
+    <!-- Base head shape (oval). Slightly turned to right (image left), shadow on right side. -->
+    <ellipse cx="120" cy="180" rx="76" ry="92" fill="url(#p1p5skin)"/>
+    <!-- Right-side shadow band (Rembrandt: shadowed side has a triangle of light on the cheek). -->
+    <ellipse cx="120" cy="180" rx="76" ry="92" fill="url(#p1p5skinShadow)" opacity="0.85"/>
+    <!-- Highlight on lit (left) side. -->
+    <ellipse cx="120" cy="180" rx="76" ry="92" fill="url(#p1p5skinKey)" opacity="0.85"/>
+
+    <!-- Tousled sandy-brown hair: messy spikes on top, bangs across forehead. -->
+    <!-- Base hair scalp coverage. -->
+    <path d="M52,144 Q44,80 70,52 Q108,32 132,32 Q172,40 188,68 Q198,108 188,148 L182,150 Q174,108 162,98 L78,98 Q68,108 60,150 Z" fill="url(#p1p5hair)"/>
+    <!-- INDIVIDUAL SPIKES — varied heights and angles. -->
+    <path d="M62,84 L56,40 L70,76 Z" fill="url(#p1p5hair)"/>
+    <path d="M76,72 L70,28 L88,68 Z" fill="url(#p1p5hair)"/>
+    <path d="M94,60 L92,16 L106,60 Z" fill="url(#p1p5hair)"/>
+    <path d="M114,56 L114,12 L126,56 Z" fill="url(#p1p5hair)"/>
+    <path d="M134,58 L142,14 L142,60 Z" fill="url(#p1p5hair)"/>
+    <path d="M152,68 L162,24 L160,72 Z" fill="url(#p1p5hair)"/>
+    <path d="M170,80 L184,42 L178,84 Z" fill="url(#p1p5hair)"/>
+    <!-- Mid-row spikes. -->
+    <path d="M80,76 L76,52 L92,72 Z" fill="url(#p1p5hair)" opacity="0.95"/>
+    <path d="M104,68 L104,44 L114,68 Z" fill="url(#p1p5hair)" opacity="0.95"/>
+    <path d="M124,68 L130,44 L132,68 Z" fill="url(#p1p5hair)" opacity="0.95"/>
+    <path d="M148,72 L156,52 L154,76 Z" fill="url(#p1p5hair)" opacity="0.95"/>
+    <!-- FOREHEAD BANGS — irregular tips falling across forehead. -->
+    <path d="M70,116 L72,144 L82,118 Z" fill="url(#p1p5hair)"/>
+    <path d="M88,116 L94,150 L100,116 Z" fill="url(#p1p5hair)"/>
+    <path d="M104,116 L102,144 L114,118 Z" fill="url(#p1p5hair)"/>
+    <path d="M118,116 L122,148 L130,118 Z" fill="url(#p1p5hair)"/>
+    <path d="M134,118 L130,142 L144,118 Z" fill="url(#p1p5hair)"/>
+    <path d="M148,116 L154,148 L160,116 Z" fill="url(#p1p5hair)"/>
+    <path d="M164,118 L168,144 L176,118 Z" fill="url(#p1p5hair)"/>
+    <!-- Hair sides covering ears. -->
+    <path d="M48,148 Q42,200 56,250 L74,246 Q66,200 64,148 Z" fill="url(#p1p5hair)"/>
+    <path d="M192,148 Q198,200 184,250 L166,246 Q174,200 176,148 Z" fill="url(#p1p5hair)"/>
+    <!-- Stray flyaway hair behind back of neck. -->
+    <path d="M52,160 L42,180" stroke="#3a2810" stroke-width="1" stroke-linecap="round" opacity="0.85"/>
+    <path d="M188,160 L198,180" stroke="#3a2810" stroke-width="1" stroke-linecap="round" opacity="0.85"/>
+    <!-- Highlight strands on lit-side spikes. -->
+    <g stroke="#f5d8a8" stroke-width="1" opacity="0.7" stroke-linecap="round">
+      <line x1="78" y1="36" x2="78" y2="62"/>
+      <line x1="96" y1="22" x2="96" y2="56"/>
+      <line x1="118" y1="18" x2="118" y2="48"/>
+      <line x1="138" y1="22" x2="138" y2="58"/>
+    </g>
+    <!-- Dark separation lines between spikes (so they read as separate). -->
+    <g stroke="#1a0c04" stroke-width="0.7" fill="none" opacity="0.7">
+      <line x1="72" y1="76" x2="74" y2="92"/>
+      <line x1="89" y1="68" x2="92" y2="86"/>
+      <line x1="108" y1="58" x2="110" y2="84"/>
+      <line x1="128" y1="58" x2="128" y2="84"/>
+      <line x1="148" y1="68" x2="148" y2="86"/>
+      <line x1="166" y1="76" x2="168" y2="94"/>
+    </g>
+
+    <!-- EYEBROWS — slight, thin, sandy. -->
+    <path d="M68,170 Q88,162 108,168" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+    <path d="M132,168 Q152,162 172,170" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- EYES — wide hazel, bright, focused. The lit (left) eye is fully visible; shadow side eye is dimmer. -->
+    <!-- Left eye (image left, lit side). -->
+    <g>
+      <!-- Eye socket / sclera. -->
+      <ellipse cx="86" cy="186" rx="14" ry="9" fill="#fff8e8"/>
+      <ellipse cx="86" cy="186" rx="14" ry="9" fill="none" stroke="#3a2810" stroke-width="0.8"/>
+      <!-- Iris. -->
+      <circle cx="86" cy="186" r="7" fill="url(#p1p5eyeIris)"/>
+      <!-- Pupil. -->
+      <circle cx="86" cy="186" r="3" fill="#0a0604"/>
+      <!-- Brass-component reflection in eye (script: hazel eyes reflecting brass). -->
+      <ellipse cx="83" cy="183" rx="3" ry="2" fill="url(#p1p5eyeReflect)"/>
+      <ellipse cx="89" cy="186" rx="1.5" ry="0.8" fill="#f5d878" opacity="0.85"/>
+      <ellipse cx="84" cy="188" rx="1" ry="0.6" fill="#a85820" opacity="0.7"/>
+      <!-- Catchlight. -->
+      <circle cx="84" cy="184" r="1.4" fill="#ffffff"/>
+      <!-- Lower lash line. -->
+      <path d="M74,192 Q86,196 98,192" fill="none" stroke="#3a2810" stroke-width="0.8"/>
+      <!-- Upper eyelid crease. -->
+      <path d="M76,176 Q86,174 96,176" fill="none" stroke="#5a4020" stroke-width="0.8" opacity="0.8"/>
+    </g>
+    <!-- Right eye (shadow side). -->
+    <g>
+      <ellipse cx="154" cy="186" rx="14" ry="9" fill="#f0d8b8"/>
+      <ellipse cx="154" cy="186" rx="14" ry="9" fill="none" stroke="#3a2810" stroke-width="0.8"/>
+      <ellipse cx="154" cy="186" rx="14" ry="9" fill="url(#p1p5skinShadow)" opacity="0.4"/>
+      <circle cx="154" cy="186" r="6.5" fill="url(#p1p5eyeIris)"/>
+      <circle cx="154" cy="186" r="2.8" fill="#0a0604"/>
+      <!-- Dim brass reflection in shadow-side eye. -->
+      <ellipse cx="151" cy="184" rx="2" ry="1.2" fill="url(#p1p5eyeReflect)" opacity="0.6"/>
+      <ellipse cx="156" cy="187" rx="1" ry="0.5" fill="#a85820" opacity="0.6"/>
+      <!-- Catchlight (smaller). -->
+      <circle cx="152" cy="184" r="0.9" fill="#ffffff" opacity="0.85"/>
+      <path d="M142,192 Q154,196 166,192" fill="none" stroke="#3a2810" stroke-width="0.8"/>
+      <path d="M144,176 Q154,174 164,176" fill="none" stroke="#5a4020" stroke-width="0.8" opacity="0.7"/>
+    </g>
+
+    <!-- NOSE — slightly upturned, boyish. -->
+    <path d="M120,196 Q116,224 112,236 Q120,238 128,236 Q124,224 120,196 Z" fill="url(#p1p5skinShadow)" opacity="0.4"/>
+    <!-- Nose bridge highlight (lit side). -->
+    <path d="M120,196 L116,232" fill="none" stroke="#fff0c8" stroke-width="0.8" opacity="0.55"/>
+    <!-- Nostril shadows. -->
+    <ellipse cx="115" cy="234" rx="2" ry="1" fill="#5a3818" opacity="0.85"/>
+    <ellipse cx="125" cy="234" rx="2" ry="1" fill="#5a3818" opacity="0.85"/>
+
+    <!-- MOUTH — slight wonder, slightly open. Quiet intensity. -->
+    <path d="M104,254 Q120,260 136,254" fill="none" stroke="#7a3018" stroke-width="1.6" stroke-linecap="round"/>
+    <!-- Upper lip subtle line. -->
+    <path d="M108,250 Q120,254 132,250" fill="none" stroke="#a85820" stroke-width="0.7" opacity="0.7"/>
+    <!-- Lower lip volume. -->
+    <ellipse cx="120" cy="262" rx="14" ry="3" fill="#c8806a" opacity="0.55"/>
+
+    <!-- FRECKLES across nose and cheeks. -->
+    <g fill="#a85820" opacity="0.85">
+      <circle cx="80" cy="220" r="0.9"/>
+      <circle cx="92" cy="226" r="0.8"/>
+      <circle cx="100" cy="218" r="1"/>
+      <circle cx="108" cy="222" r="0.85"/>
+      <circle cx="116" cy="216" r="0.95"/>
+      <circle cx="132" cy="216" r="0.9"/>
+      <circle cx="140" cy="222" r="0.85"/>
+      <circle cx="148" cy="218" r="0.9"/>
+      <circle cx="158" cy="226" r="0.8"/>
+      <circle cx="74" cy="232" r="0.7"/>
+      <circle cx="166" cy="232" r="0.7"/>
+      <circle cx="86" cy="240" r="0.7"/>
+      <circle cx="156" cy="240" r="0.65"/>
+    </g>
+
+    <!-- CHEEK BLUSH (slight, from cold + work). -->
+    <ellipse cx="68" cy="246" rx="14" ry="8" fill="#d8907a" opacity="0.32"/>
+    <ellipse cx="170" cy="246" rx="14" ry="8" fill="#d8907a" opacity="0.22"/>
+
+    <!-- JAW LINE / chin highlight. -->
+    <path d="M76,260 Q82,284 100,294" fill="none" stroke="#fff0c8" stroke-width="0.8" opacity="0.45"/>
+    <path d="M120,290 L120,300" fill="none" stroke="#5a3818" stroke-width="0.6" opacity="0.6"/>
+
+    <!-- REMBRANDT TRIANGLE — a small triangle of light on the shadow-side cheek (under the eye, isolated by the nose's cast shadow). -->
+    <path d="M138,212 L154,222 L142,234 Z" fill="#fff0c8" opacity="0.18"/>
+  </g>
+
+  <!-- Brushwork accents — visible oil texture across the full panel. -->
+  <g stroke="#1a1208" stroke-width="0.5" opacity="0.18" fill="none">
+    <path d="M0,80 Q40,85 80,82"/>
+    <path d="M180,140 Q210,143 232,142"/>
+    <path d="M0,300 Q60,304 120,302"/>
+    <path d="M120,300 Q180,304 232,302"/>
+  </g>
+  <!-- Fine paint stipple on cheek. -->
+  <g fill="#fff0c8" opacity="0.12">
+    <circle cx="60" cy="220" r="0.5"/>
+    <circle cx="56" cy="240" r="0.5"/>
+    <circle cx="48" cy="200" r="0.5"/>
+  </g>
+
+  <!-- No dialogue — closing beat. -->
+</svg>
