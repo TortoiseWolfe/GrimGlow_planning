@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 1 — Page 11 — Panel 3: Jink launches vertical — flight as liberation</title>
+  <desc>Wide low angle 24mm dynamic. Small figure in emerald suit launches vertically upward from rain gutter on Victorian rooftop. Wing-pack fully deployed, translucent dragonfly wings of emerald geometric light blurring with speed. Figure rises past lead flashing edge, dark Welsh slate tiles, above roofline. Below: rain gutter drops away with scattered alien wreckage and tiny suited figures. Slate roof spreads like dark stone plain. Chimney stacks at eye level w/ smoking crowns. Figure small against dark sky, wings catching warm amber from below + cool starlight above. Body: arms slightly out, head tilted up = release posture. Motion blur on emerald wings. JINK: "Oh--"</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p11p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="60%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="p11p3cityGlow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p11p3slateRoof" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0810"/>
+      <stop offset="100%" stop-color="#2a2830"/>
+    </linearGradient>
+    <linearGradient id="p11p3chimney" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="p11p3wingGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfffe0" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0a5a30" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p11p3smoke" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#5a4830" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p11p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p11p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p11p3motionBlur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- Sky background. -->
+  <rect width="366" height="400" fill="url(#p11p3sky)"/>
+
+  <!-- Stars top. -->
+  <g fill="#dce4f0" opacity="0.85">
+    <circle cx="30" cy="30" r="0.7"/>
+    <circle cx="120" cy="22" r="0.6"/>
+    <circle cx="220" cy="35" r="0.7"/>
+    <circle cx="320" cy="22" r="0.6"/>
+    <circle cx="60" cy="80" r="0.6"/>
+    <circle cx="180" cy="92" r="0.5"/>
+    <circle cx="280" cy="80" r="0.6"/>
+    <circle cx="100" cy="135" r="0.5"/>
+    <circle cx="240" cy="135" r="0.6"/>
+  </g>
+
+  <!-- Chimney stacks at eye level (visible at panel sides — at Jink's altitude). -->
+  <g id="p11p3-chimney-left" transform="translate(40, 200)">
+    <rect x="-18" y="-30" width="32" height="180" fill="url(#p11p3chimney)"/>
+    <rect x="-22" y="-32" width="40" height="3" fill="#1a0808"/>
+    <!-- Smaller chimney pot crown. -->
+    <rect x="-12" y="-50" width="6" height="22" fill="#3a1810"/>
+    <rect x="0" y="-52" width="6" height="24" fill="#3a1810"/>
+    <rect x="-14" y="-32" width="22" height="3" fill="#5a2812"/>
+    <!-- Smoke rising. -->
+    <ellipse cx="0" cy="-65" rx="22" ry="8" fill="url(#p11p3smoke)" filter="url(#p11p3strongBloom)"/>
+    <!-- Brick courses. -->
+    <g stroke="#080404" stroke-width="0.4" opacity="0.7">
+      <line x1="-18" y1="-10" x2="14" y2="-10"/>
+      <line x1="-18" y1="10" x2="14" y2="10"/>
+      <line x1="-18" y1="30" x2="14" y2="30"/>
+      <line x1="-18" y1="50" x2="14" y2="50"/>
+      <line x1="-18" y1="70" x2="14" y2="70"/>
+      <line x1="-18" y1="90" x2="14" y2="90"/>
+      <line x1="-18" y1="110" x2="14" y2="110"/>
+      <line x1="-18" y1="130" x2="14" y2="130"/>
+    </g>
+  </g>
+
+  <g id="p11p3-chimney-right" transform="translate(326, 215)">
+    <rect x="-15" y="-25" width="28" height="170" fill="url(#p11p3chimney)"/>
+    <rect x="-19" y="-27" width="36" height="3" fill="#1a0808"/>
+    <rect x="-10" y="-45" width="6" height="20" fill="#3a1810"/>
+    <rect x="2" y="-43" width="6" height="18" fill="#3a1810"/>
+    <rect x="-12" y="-27" width="22" height="3" fill="#5a2812"/>
+    <ellipse cx="0" cy="-58" rx="20" ry="7" fill="url(#p11p3smoke)" filter="url(#p11p3strongBloom)"/>
+    <g stroke="#080404" stroke-width="0.4" opacity="0.7">
+      <line x1="-15" y1="-10" x2="13" y2="-10"/>
+      <line x1="-15" y1="10" x2="13" y2="10"/>
+      <line x1="-15" y1="30" x2="13" y2="30"/>
+      <line x1="-15" y1="50" x2="13" y2="50"/>
+      <line x1="-15" y1="70" x2="13" y2="70"/>
+      <line x1="-15" y1="90" x2="13" y2="90"/>
+      <line x1="-15" y1="110" x2="13" y2="110"/>
+      <line x1="-15" y1="130" x2="13" y2="130"/>
+    </g>
+  </g>
+
+  <!-- Slate roof spread out below — visible at bottom band. -->
+  <g id="p11p3-slate">
+    <path d="M0,290 L120,285 L240,290 L366,285 L366,360 L0,360 Z" fill="url(#p11p3slateRoof)" opacity="0.95"/>
+    <g stroke="#0a0810" stroke-width="0.5" opacity="0.85">
+      <line x1="0" y1="305" x2="366" y2="305"/>
+      <line x1="0" y1="320" x2="366" y2="320"/>
+      <line x1="0" y1="335" x2="366" y2="335"/>
+    </g>
+    <g stroke="#0a0810" stroke-width="0.4" opacity="0.7">
+      <line x1="40" y1="290" x2="60" y2="305"/>
+      <line x1="120" y1="290" x2="140" y2="305"/>
+      <line x1="200" y1="290" x2="220" y2="305"/>
+      <line x1="280" y1="290" x2="300" y2="305"/>
+    </g>
+  </g>
+
+  <!-- Lead flashing strip at top of gutter (dropped well below frame center). -->
+  <rect x="120" y="358" width="126" height="6" fill="#5a606a"/>
+  <line x1="120" y1="358" x2="246" y2="358" stroke="#080404" stroke-width="1"/>
+
+  <!-- Gutter visible below — drops away w/ tiny squad + wreckage. -->
+  <rect y="364" width="366" height="36" fill="#0a0408"/>
+  <line x1="0" y1="364" x2="366" y2="364" stroke="#080404" stroke-width="0.7"/>
+  <!-- Tiny squad figures (specks). -->
+  <circle cx="160" cy="378" r="2" fill="#bfc6d0"/>
+  <circle cx="160" cy="378" r="1" fill="#5a606a"/>
+  <circle cx="180" cy="378" r="1.7" fill="#dc2030"/>
+  <circle cx="200" cy="380" r="1.7" fill="#5a3ad8"/>
+  <circle cx="220" cy="378" r="1.7" fill="#c87a35"/>
+  <!-- Wreckage halos. -->
+  <ellipse cx="180" cy="382" rx="14" ry="4" fill="#bfe4ff" filter="url(#p11p3bloom)" opacity="0.4"/>
+
+  <!-- Strong warm amber city-glow at very bottom. -->
+  <ellipse cx="183" cy="395" rx="280" ry="20" fill="url(#p11p3cityGlow)" filter="url(#p11p3strongBloom)"/>
+
+  <!-- JINK LAUNCHING vertical, mid-frame upper area. -->
+  <g id="p11p3-jink-launching" transform="translate(183, 200)">
+
+    <!-- BIG WING GLOW HALO around figure (motion-blurred). -->
+    <ellipse cx="0" cy="0" rx="100" ry="80" fill="url(#p11p3wingGlow)" filter="url(#p11p3strongBloom)" opacity="0.85"/>
+
+    <!-- Wings BLURRED with speed (motion blur). -->
+    <g id="p11p3-wings-blurred" filter="url(#p11p3motionBlur)">
+      <path d="M-18,0 Q-60,-30 -90,-15" stroke="#bfffe0" stroke-width="6" fill="none" opacity="0.85" stroke-linecap="round"/>
+      <path d="M18,0 Q60,-30 90,-15" stroke="#bfffe0" stroke-width="6" fill="none" opacity="0.85" stroke-linecap="round"/>
+      <path d="M-15,15 Q-50,25 -75,40" stroke="#5af5a0" stroke-width="5" fill="none" opacity="0.7" stroke-linecap="round"/>
+      <path d="M15,15 Q50,25 75,40" stroke="#5af5a0" stroke-width="5" fill="none" opacity="0.7" stroke-linecap="round"/>
+    </g>
+    <!-- Wing trails (blur extending downward — direction of motion-from). -->
+    <g stroke="#a8f5c8" stroke-width="2" fill="none" opacity="0.55" filter="url(#p11p3bloom)">
+      <line x1="-30" y1="20" x2="-40" y2="50"/>
+      <line x1="-15" y1="25" x2="-22" y2="60"/>
+      <line x1="0" y1="28" x2="0" y2="65"/>
+      <line x1="15" y1="25" x2="22" y2="60"/>
+      <line x1="30" y1="20" x2="40" y2="50"/>
+    </g>
+
+    <!-- Jink body — small figure rising. -->
+    <path d="M-9,15 Q-12,-10 -9,-15 L-2,-22 L8,-22 Q12,-10 9,15 Z" fill="#2ed078" stroke="#080408" stroke-width="0.4"/>
+    <!-- Arms slightly out (release posture). -->
+    <path d="M-9,-8 L-15,2 L-18,12" fill="none" stroke="#2ed078" stroke-width="3" stroke-linecap="round"/>
+    <path d="M9,-8 L15,2 L18,12" fill="none" stroke="#2ed078" stroke-width="3" stroke-linecap="round"/>
+    <!-- Legs trailing behind (just left ground). -->
+    <path d="M-6,15 L-9,30 L-9,42" fill="none" stroke="#0a5a30" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M6,15 L9,30 L9,42" fill="none" stroke="#0a5a30" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Head tilted UP (eager). -->
+    <ellipse cx="2" cy="-30" rx="6" ry="6.5" fill="#d8b890" transform="rotate(-25 2 -30)"/>
+    <g fill="#f5d068" transform="rotate(-25 2 -30)">
+      <circle cx="-2" cy="-37" r="3"/>
+      <circle cx="3" cy="-39" r="3"/>
+      <circle cx="6" cy="-37" r="2.5"/>
+      <circle cx="-5" cy="-35" r="2"/>
+    </g>
+    <!-- Warm catch on curls from city below. -->
+    <g fill="#fff5d0" opacity="0.85" transform="rotate(-25 2 -30)">
+      <circle cx="0" cy="-38" r="0.5"/>
+      <circle cx="5" cy="-36" r="0.5"/>
+    </g>
+    <!-- Eyes (small at this scale). -->
+    <ellipse cx="-1" cy="-30" rx="0.7" ry="0.5" fill="#1a0808" transform="rotate(-25 2 -30)"/>
+    <ellipse cx="4" cy="-30" rx="0.7" ry="0.5" fill="#1a0808" transform="rotate(-25 2 -30)"/>
+
+    <!-- Bright launch flash from feet (just-left-ground spark). -->
+    <ellipse cx="0" cy="50" rx="20" ry="6" fill="#bfffe0" filter="url(#p11p3strongBloom)" opacity="0.6"/>
+  </g>
+
+  <!-- JINK dialogue (top center, small/quick). -->
+  <g id="p11p3-dlg-jink">
+    <rect x="14" y="14" width="100" height="46" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="56" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" font-style="italic" fill="#1a1a1a">Oh--</text>
+    <path d="M50,60 L66,60 L130,170 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="50" y1="60" x2="66" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p11p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">JINK LAUNCHES — RELEASE</text>
+  </g>
+</svg>

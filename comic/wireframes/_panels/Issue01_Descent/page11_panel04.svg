@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 380" width="488" height="380">
+  <title>Issue 1 — Page 11 — Panel 4: Squad watches Jink fly — watching flight from the ground</title>
+  <desc>MS from below 35mm looking up from inside gutter. 3 figures look upward — Sable silver arms-crossed, Luma sapphire scanner-raised tracking telemetry, Thresh ruby seated against gutter wall. Above past curved iron lip + dark slate roofline: small emerald-winged figure banks around massive chimney stack, leaving brief geometric aftertrails. Emerald wing-glow brightest light in panel. Squad in fading cool wreckage. Sky warm amber haze from city. LUMA: "Telemetry solid. Wing efficiency 78%." SABLE: "Jink, what do you see?"</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p11p4sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="p11p4cityHaze" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p11p4iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p11p4slate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0810"/>
+      <stop offset="100%" stop-color="#1a1820"/>
+    </linearGradient>
+    <linearGradient id="p11p4chimney" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="p11p4emeraldGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a8f5c8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0a5a30" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p11p4coolFade" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p11p4silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bfc6d0"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p11p4sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a18a0"/>
+    </linearGradient>
+    <linearGradient id="p11p4ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <filter id="p11p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p11p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky background top half. -->
+  <rect width="488" height="380" fill="url(#p11p4sky)"/>
+
+  <!-- Stars. -->
+  <g fill="#dce4f0" opacity="0.7">
+    <circle cx="40" cy="20" r="0.7"/>
+    <circle cx="180" cy="32" r="0.5"/>
+    <circle cx="320" cy="22" r="0.7"/>
+    <circle cx="440" cy="35" r="0.6"/>
+  </g>
+
+  <!-- Smoky amber haze upper area (city glow). -->
+  <ellipse cx="244" cy="130" rx="320" ry="60" fill="url(#p11p4cityHaze)" filter="url(#p11p4strongBloom)"/>
+
+  <!-- MASSIVE CHIMNEY STACK central-back (Jink banking around). -->
+  <g id="p11p4-chimney">
+    <rect x="160" y="40" width="160" height="220" fill="url(#p11p4chimney)"/>
+    <rect x="156" y="38" width="168" height="3" fill="#1a0808"/>
+    <!-- Crown chimney pots. -->
+    <rect x="180" y="20" width="6" height="22" fill="#3a1810"/>
+    <rect x="208" y="16" width="6" height="26" fill="#3a1810"/>
+    <rect x="240" y="20" width="6" height="22" fill="#3a1810"/>
+    <rect x="270" y="22" width="6" height="20" fill="#3a1810"/>
+    <rect x="298" y="20" width="6" height="22" fill="#3a1810"/>
+    <rect x="170" y="22" width="140" height="3" fill="#5a2812"/>
+    <!-- Brick courses. -->
+    <g stroke="#080404" stroke-width="0.5" opacity="0.85">
+      <line x1="160" y1="60" x2="320" y2="60"/>
+      <line x1="160" y1="100" x2="320" y2="100"/>
+      <line x1="160" y1="140" x2="320" y2="140"/>
+      <line x1="160" y1="180" x2="320" y2="180"/>
+      <line x1="160" y1="220" x2="320" y2="220"/>
+    </g>
+    <!-- Vertical mortar offset bricks. -->
+    <g stroke="#080404" stroke-width="0.4" opacity="0.7">
+      <line x1="200" y1="40" x2="200" y2="60"/>
+      <line x1="240" y1="40" x2="240" y2="60"/>
+      <line x1="280" y1="40" x2="280" y2="60"/>
+      <line x1="180" y1="60" x2="180" y2="100"/>
+      <line x1="220" y1="60" x2="220" y2="100"/>
+      <line x1="260" y1="60" x2="260" y2="100"/>
+      <line x1="300" y1="60" x2="300" y2="100"/>
+    </g>
+    <!-- Soot. -->
+    <g fill="#080404" opacity="0.55">
+      <path d="M180,40 Q183,140 178,250"/>
+      <path d="M260,40 Q263,140 258,250"/>
+      <path d="M300,40 Q303,140 298,250"/>
+    </g>
+    <!-- Smoke from crown. -->
+    <ellipse cx="240" cy="0" rx="120" ry="20" fill="#3a2818" opacity="0.55" filter="url(#p11p4strongBloom)"/>
+  </g>
+
+  <!-- JINK BANKING around chimney — small emerald-winged figure top-right. -->
+  <g id="p11p4-jink-flying" transform="translate(380, 90) rotate(-25)">
+    <!-- Wing glow halo. -->
+    <ellipse cx="0" cy="0" rx="36" ry="22" fill="url(#p11p4emeraldGlow)" filter="url(#p11p4strongBloom)"/>
+    <!-- Wings extended (banking). -->
+    <path d="M-10,0 Q-30,-15 -42,-5 Q-38,5 -22,4 Q-12,2 -10,0 Z" fill="#5af5a0" opacity="0.85" filter="url(#p11p4bloom)"/>
+    <path d="M10,0 Q30,-15 42,-5 Q38,5 22,4 Q12,2 10,0 Z" fill="#5af5a0" opacity="0.85" filter="url(#p11p4bloom)"/>
+    <!-- Wing veins. -->
+    <g stroke="#bfffe0" stroke-width="0.5" fill="none" opacity="0.8">
+      <line x1="-12" y1="0" x2="-32" y2="-10"/>
+      <line x1="-15" y1="2" x2="-38" y2="-3"/>
+      <line x1="12" y1="0" x2="32" y2="-10"/>
+      <line x1="15" y1="2" x2="38" y2="-3"/>
+    </g>
+    <!-- Tiny body. -->
+    <ellipse cx="0" cy="0" rx="3" ry="6" fill="#2ed078"/>
+    <ellipse cx="0" cy="-7" rx="2" ry="2.2" fill="#d8b890"/>
+    <circle cx="0" cy="-9" r="1.5" fill="#f5d068"/>
+    <!-- GEOMETRIC AFTERTRAIL behind (script: "leaving brief geometric aftertrails"). -->
+    <g stroke="#a8f5c8" stroke-width="0.6" fill="none" opacity="0.55" filter="url(#p11p4bloom)">
+      <polygon points="22,4 28,8 24,14 18,12"/>
+      <polygon points="32,12 38,16 34,22 28,20"/>
+      <polygon points="42,20 48,24 44,30 38,28"/>
+    </g>
+  </g>
+
+  <!-- GUTTER — curved iron lip across the bottom of the panel (looking up from inside). -->
+  <g id="p11p4-gutter">
+    <!-- Curved interior wall (rising to meet sky). -->
+    <path d="M0,260 Q244,250 488,260 L488,310 L0,310 Z" fill="url(#p11p4iron)"/>
+    <line x1="0" y1="260" x2="488" y2="250" stroke="#080404" stroke-width="1.5"/>
+    <!-- Iron rivets along lip. -->
+    <g fill="#080404" opacity="0.85">
+      <circle cx="60" cy="266" r="2"/>
+      <circle cx="180" cy="258" r="2"/>
+      <circle cx="320" cy="258" r="2"/>
+      <circle cx="440" cy="266" r="2"/>
+    </g>
+    <!-- Soot streaks. -->
+    <g fill="#080404" opacity="0.55">
+      <path d="M40,260 Q44,290 38,310"/>
+      <path d="M280,260 Q284,290 278,310"/>
+      <path d="M450,260 Q454,290 448,310"/>
+    </g>
+    <!-- Slate roof showing above gutter on right edge. -->
+    <path d="M488,250 L488,200 L450,200 L488,255 Z" fill="url(#p11p4slate)" opacity="0.85"/>
+  </g>
+
+  <!-- Cool wreckage glow inside gutter (fading per script). -->
+  <ellipse cx="244" cy="320" rx="160" ry="40" fill="url(#p11p4coolFade)" filter="url(#p11p4strongBloom)"/>
+
+  <!-- Floor. -->
+  <rect y="310" width="488" height="70" fill="#180a08"/>
+
+  <!-- ===== 3 SQUAD MEMBERS in gutter looking UP ===== -->
+
+  <!-- SABLE arms-crossed left of center. -->
+  <g id="p11p4-sable" transform="translate(160, 320)">
+    <path d="M-15,30 Q-18,5 -15,-15 L-2,-22 L14,-22 Q18,5 15,30 Z" fill="url(#p11p4silver)" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-15" cy="-19" rx="5" ry="3" fill="#9ba1aa" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="15" cy="-19" rx="5" ry="3" fill="#9ba1aa" stroke="#080408" stroke-width="0.4"/>
+    <line x1="13" y1="-19" x2="17" y2="-17" stroke="#7ac8ff" stroke-width="0.6" filter="url(#p11p4bloom)" opacity="0.85"/>
+    <!-- Arms crossed. -->
+    <path d="M-15,-5 L-2,5 L15,8" fill="none" stroke="url(#p11p4silver)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M15,-2 L0,8 L-15,12" fill="none" stroke="url(#p11p4silver)" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Legs. -->
+    <path d="M-12,30 L-15,55 L-15,72" fill="none" stroke="#5a606a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M12,30 L15,55 L15,72" fill="none" stroke="#5a606a" stroke-width="6" stroke-linecap="round"/>
+    <!-- Head TILTED UP (looking at flying Jink). -->
+    <ellipse cx="2" cy="-32" rx="8" ry="9" fill="#5a3018" transform="rotate(-15 2 -32)"/>
+    <path d="M-5,-39 Q0,-44 6,-44 L6,-32 L-5,-32 Z" fill="#e8eaee" transform="rotate(-15 2 -32)"/>
+    <!-- Eyes up. -->
+    <ellipse cx="-1" cy="-32" rx="0.9" ry="0.7" fill="#1a0808" transform="rotate(-15 2 -32)"/>
+    <ellipse cx="4" cy="-32" rx="0.9" ry="0.7" fill="#1a0808" transform="rotate(-15 2 -32)"/>
+    <line x1="-2" y1="-25" x2="4" y2="-25" stroke="#3a1808" stroke-width="0.8" transform="rotate(-15 2 -32)"/>
+    <!-- Emerald glow catch on hair (Jink's wings reflecting). -->
+    <ellipse cx="2" cy="-44" rx="4" ry="2" fill="#a8f5c8" opacity="0.5" transform="rotate(-15 2 -32)"/>
+  </g>
+
+  <!-- LUMA scanner-raised center. -->
+  <g id="p11p4-luma" transform="translate(244, 320)">
+    <path d="M-13,30 Q-16,5 -13,-15 L-2,-22 L14,-22 Q18,5 15,30 Z" fill="url(#p11p4sapphire)" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-13" cy="-19" rx="5" ry="3" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="13" cy="-19" rx="5" ry="3" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+    <!-- Right arm RAISED holding scanner UP. -->
+    <path d="M13,-15 L20,-25 L24,-35" fill="none" stroke="#5a3ad8" stroke-width="4" stroke-linecap="round"/>
+    <!-- Scanner held up showing readout. -->
+    <rect x="20" y="-42" width="14" height="10" rx="1.5" fill="#1a1828" stroke="#a87af0" stroke-width="0.7"/>
+    <rect x="22" y="-40" width="10" height="2" fill="#a87af0" opacity="0.85"/>
+    <rect x="22" y="-37" width="8" height="1" fill="#c8a8ff" opacity="0.95"/>
+    <ellipse cx="27" cy="-37" rx="9" ry="6" fill="#a87af0" filter="url(#p11p4bloom)" opacity="0.55"/>
+    <!-- Holographic readout floating above scanner. -->
+    <g stroke="#a87af0" stroke-width="0.4" fill="none" opacity="0.85">
+      <rect x="20" y="-58" width="20" height="12" rx="1" stroke-dasharray="2,1"/>
+      <line x1="22" y1="-54" x2="36" y2="-54"/>
+      <line x1="22" y1="-50" x2="32" y2="-50"/>
+    </g>
+    <!-- Left arm at side. -->
+    <path d="M-13,-5 L-18,12 L-15,28" fill="none" stroke="#5a3ad8" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs. -->
+    <path d="M-10,30 L-13,55 L-13,72" fill="none" stroke="#3a2a8c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10,30 L13,55 L13,72" fill="none" stroke="#3a2a8c" stroke-width="6" stroke-linecap="round"/>
+    <!-- Head tilted UP. -->
+    <ellipse cx="0" cy="-30" rx="8" ry="9" fill="#a87850" transform="rotate(-12 0 -30)"/>
+    <path d="M-7,-37 Q0,-42 7,-37 L7,-30 L-7,-30 Z" fill="#1a0a08" transform="rotate(-12 0 -30)"/>
+    <ellipse cx="-3" cy="-30" rx="2" ry="1.4" fill="#a87af0" opacity="0.7" transform="rotate(-12 0 -30)"/>
+    <ellipse cx="3" cy="-30" rx="2" ry="1.4" fill="#a87af0" opacity="0.7" transform="rotate(-12 0 -30)"/>
+    <line x1="-2" y1="-23" x2="2" y2="-23" stroke="#5a2818" stroke-width="0.8" transform="rotate(-12 0 -30)"/>
+  </g>
+
+  <!-- THRESH seated against wall right side. -->
+  <g id="p11p4-thresh" transform="translate(360, 330)">
+    <path d="M-13,20 Q-16,5 -13,-15 L-2,-22 L14,-22 Q18,5 15,20 Z" fill="url(#p11p4ruby)" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-13" cy="-19" rx="5" ry="3" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="13" cy="-19" rx="5" ry="3" fill="#a8182a" stroke="#080408" stroke-width="0.4"/>
+    <path d="M-13,-8 L-9,15 L-12,28" fill="none" stroke="#a8182a" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M13,-8 L15,12 L12,28" fill="none" stroke="url(#p11p4ruby)" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Drawn-up legs. -->
+    <path d="M-10,20 L-12,35 L-13,48" fill="none" stroke="#a8182a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M10,20 L12,35 L13,48" fill="none" stroke="#a8182a" stroke-width="5" stroke-linecap="round"/>
+    <!-- Head tilted UP. -->
+    <ellipse cx="0" cy="-30" rx="8" ry="9" fill="#d8a880" transform="rotate(-15 0 -30)"/>
+    <path d="M-7,-37 Q-2,-42 4,-40 L4,-32 L-7,-32 Z" fill="#a83a18" transform="rotate(-15 0 -30)"/>
+    <ellipse cx="-2" cy="-30" rx="0.9" ry="0.7" fill="#1a0808" transform="rotate(-15 0 -30)"/>
+    <ellipse cx="3" cy="-30" rx="0.9" ry="0.7" fill="#1a0808" transform="rotate(-15 0 -30)"/>
+    <line x1="-2" y1="-25" x2="3" y2="-25" stroke="#3a1808" stroke-width="0.8" transform="rotate(-15 0 -30)"/>
+  </g>
+
+  <!-- DIALOGUE — LUMA telemetry + SABLE prompt. -->
+  <g id="p11p4-dlg-luma">
+    <rect x="14" y="240" width="240" height="46" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="260" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="278" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Telemetry solid. Wing eff 78%.</text>
+    <path d="M150,286 L168,286 L240,318 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="286" x2="168" y2="286" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p11p4-dlg-sable">
+    <rect x="270" y="240" width="204" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="280" y="260" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="280" y="278" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Jink, what do you see?</text>
+    <path d="M280,286 L298,286 L160,318 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="280" y1="286" x2="298" y2="286" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p11p4-meta">
+    <text x="478" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="482" y="372" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SQUAD WATCHES JINK FLY</text>
+  </g>
+</svg>

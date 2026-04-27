@@ -2,15 +2,15 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 10 added, the Damage Report).
+**Last update:** 2026-04-27 (loop session extended — Page 11 added, Wings Deploy spectacle).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–10 + 12 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 57 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
+**Pages 1–12 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition (Issue 1 first 12 contiguous + climax). Earlier failure modes from v1 have been fixed across all 62 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
 
-**Pages 10 + earlier wins** — Issue 1 first-half + entire climax + scale-reveal money shot all painterly. Pages 11, 13-17 remain as middle continuity gaps — 6 pages remaining (8/22 storyboard → 6/22 storyboard, 14/22 painterly = 64%).
+**Issue 1 first 12 pages CONTIGUOUS** — Pages 1-12 + Pages 18-22 all painterly. Pages 13-17 remain as middle continuity gaps — 5 pages remaining (15/22 painterly = 68%).
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -30,11 +30,13 @@
 
 **Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px.
 
-**Page 10 (the Damage Report)** — 5 panels, 1179px (2-col narrow / full-width / 2-col).
+**Page 11 (Wings Deploy spectacle)** — 5 panels, 1179px (full-width / 2-col / 2-col narrow). Wing-pack reveal + launch — strongest holographic light moment in issue.
+
+**Page 10 (the Damage Report)** — 5 panels, 1179px.
 
 **Page 9 (THE SCALE REVEAL — opening Section 3 build)** — 5 panels, 1179px.
 
-**Pages 11, 13-17 of Issue 1 remain auto-generated stick-figure storyboards.** (6 pages remaining of 22 = 14/22 painterly + 8/22 storyboard.)
+**Pages 13-17 of Issue 1 remain auto-generated stick-figure storyboards.** (5 pages remaining of 22 = 15/22 painterly + 5/22 storyboard ≈ 68%.)
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -238,6 +240,69 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 11 — DONE (middle continuity — Wings Deploy spectacle)
+
+5 panels in 3 tiers (full-width / 2-col / 2-col narrow) summing to 1179px page-fill. Wing-pack survives, deploys, launches — strongest holographic-tech moment in the issue.
+
+### P11P01 — Jink prepares to fly, low angle (742×320)
+- ✅ Jink standing in gutter, looking up + testing arms
+- ✅ Wing-pack visible folded between shoulders w/ pulsing emerald nodes
+- ✅ Slate roof rises diagonally upward (the mountainside slope)
+- ✅ Chimney monolith dominating right side w/ brick courses + soot streaks + smoke trail from crown
+- ✅ Strong amber uplighting from below dominates panel
+- ✅ Emerald accent glow halo on suit
+- ✅ Three balloons: JINK status w/ bold + SABLE O.P. dashed bold "No exploring." + JINK "Copy."
+
+### P11P02 — Wings deploy spectacle CU back (366×400)
+- ✅ Massive emerald halo dominates panel (strongest holographic light per script)
+- ✅ Four translucent dragonfly wings extending outward (2 upper + 2 lower) w/ geometric lattice veins
+- ✅ Bright leading edges
+- ✅ EMERALD LATTICE-PATTERN SHADOWS cast on gutter walls (script-specific) — diagonal X patterns visible on left + right walls
+- ✅ Lattice shadows on underside of curls
+- ✅ Wing-pack housing visible between shoulder blades w/ pulsing nodes
+- ✅ Jink back-view in center w/ wild golden curls + emerald suit
+- ✅ Curl glints catching emerald light
+- ✅ Silent panel — pure spectacle
+
+### P11P03 — Jink launches vertical (366×400)
+- ✅ Sky w/ stars + smoky amber haze (city)
+- ✅ Two chimney stacks visible at panel sides at Jink's eye level (script-specific "chimney stacks at eye level")
+- ✅ Smoke rising from chimney crowns
+- ✅ Slate roof spread out at bottom band
+- ✅ Lead flashing strip + gutter visible below w/ tiny squad color dots + wreckage halo
+- ✅ Warm amber city-glow at very bottom
+- ✅ Jink rising central w/ huge emerald wing-glow halo
+- ✅ Wings BLURRED with motion + downward trail lines (the launch motion)
+- ✅ Body in release posture: arms out, head tilted up, legs trailing
+- ✅ Bright launch flash from feet
+- ✅ JINK italic "Oh--" (the involuntary release moment)
+
+### P11P04 — Squad watches Jink fly (488×380)
+- ✅ Sky w/ stars + smoky amber haze
+- ✅ Massive chimney stack center-back w/ chimney pots + brick courses + soot + smoke
+- ✅ Jink banking around chimney top-right w/ emerald wing-glow + GEOMETRIC AFTERTRAILS (script-specific)
+- ✅ Curved iron gutter lip across foreground
+- ✅ Three squad members visible looking UP: Sable silver arms-crossed, Luma sapphire scanner-raised w/ holographic readout above, Thresh ruby seated
+- ✅ All heads tilted upward
+- ✅ Sable hair has emerald glow catch (Jink's wings reflecting on her — script-specific)
+- ✅ Cool wreckage glow fading inside gutter
+- ✅ LUMA "Telemetry solid. Wing eff 78%." + SABLE "Jink, what do you see?"
+
+### P11P05 — Wren works ECU (244×380)
+- ✅ Hull plating frames face (she's INSIDE access panel)
+- ✅ Hull crack at top w/ emerald wing-light penetrating (script-specific "small intrusion of color")
+- ✅ Strong cool blue strobe from below — dying display flickering
+- ✅ ECU face fills frame (cool blue uplight from below)
+- ✅ Hair = collapsed bun + multiple strands across forehead (script-specific)
+- ✅ DEEP LINE BETWEEN BROWS (the assessment-is-worse-line) + furrowed brow
+- ✅ Eyes narrowed almond, focused down at unseen wreckage
+- ✅ Cool catch-lights + eyelashes
+- ✅ Lips slightly parted (muttering)
+- ✅ Cool uplight wash on lower face + cool rim under jaw
+- ✅ WREN muttering balloon italic w/ bold "Containment ring..." emphasis (assessment trailing into worse news)
 
 ---
 
