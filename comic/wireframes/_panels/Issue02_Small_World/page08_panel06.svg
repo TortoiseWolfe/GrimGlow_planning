@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 460" width="366" height="460">
+  <title>Issue 2 — Page 8 — Panel 6: Aftermath — cat departs, squad reassembles, sound off</title>
+  <desc>Wide slightly elevated 35mm. Cat steps over cobbles with liquid grace away around kerbstone corner upper-right. Foreground squad reassembles: Sable+Thresh climbing from sett gap, Wren emerging from behind cobble, Luma rising prone, Jink descending wing-pack dimming to standby. Rain continues. Faint dimmed holo accents — even nodes catching breath. Sound off dialogue chain.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p6sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p8p6stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <radialGradient id="p8p6lampGlow">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p8p6kerb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e34"/>
+      <stop offset="100%" stop-color="#080810"/>
+    </linearGradient>
+    <linearGradient id="p8p6catSilhouette" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2814"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="p8p6silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0bc"/>
+      <stop offset="100%" stop-color="#3a4048"/>
+    </linearGradient>
+    <linearGradient id="p8p6ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="p8p6copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89548"/>
+      <stop offset="100%" stop-color="#783818"/>
+    </linearGradient>
+    <linearGradient id="p8p6sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#3a1a78"/>
+    </linearGradient>
+    <linearGradient id="p8p6emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7af0b0"/>
+      <stop offset="100%" stop-color="#0a4828"/>
+    </linearGradient>
+    <radialGradient id="p8p6emeraldDim">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p8p6bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p8p6strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p8p6deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG sky. -->
+  <rect width="366" height="160" fill="url(#p8p6sky)"/>
+
+  <!-- Distant gas lamp upper-right (off, but distant amber haze). -->
+  <ellipse cx="320" cy="60" rx="80" ry="40" fill="url(#p8p6lampGlow)" filter="url(#p8p6deepBloom)" opacity="0.65"/>
+  <ellipse cx="320" cy="50" rx="3" ry="5" fill="#ffe8a0" filter="url(#p8p6strongBloom)" opacity="0.85"/>
+  <line x1="320" y1="60" x2="320" y2="120" stroke="#1a1a20" stroke-width="1.4" opacity="0.65"/>
+
+  <!-- Distant rain. -->
+  <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.45">
+    <line x1="40" y1="20" x2="38" y2="58"/>
+    <line x1="120" y1="10" x2="118" y2="50"/>
+    <line x1="200" y1="25" x2="198" y2="65"/>
+    <line x1="60" y1="80" x2="58" y2="120"/>
+    <line x1="180" y1="90" x2="178" y2="130"/>
+    <line x1="280" y1="95" x2="278" y2="135"/>
+  </g>
+
+  <!-- KERBSTONE corner upper-right (cat disappearing around). -->
+  <path d="M340,80 L340,200 L366,200 L366,80 Z" fill="url(#p8p6kerb)" stroke="#080810" stroke-width="1"/>
+
+  <!-- CAT — distant silhouette stepping around kerb (mostly cropped behind kerbstone). -->
+  <g id="p8p6-cat-departing" opacity="0.85">
+    <!-- Tail. -->
+    <path d="M340,95 Q346,80 352,90" stroke="url(#p8p6catSilhouette)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- Hindquarters disappearing. -->
+    <path d="M310,100 Q325,80 340,85 L340,135 L310,135 Z" fill="url(#p8p6catSilhouette)"/>
+    <!-- Back leg in motion. -->
+    <path d="M320,135 L325,160 L335,160 L332,135 Z" fill="url(#p8p6catSilhouette)" stroke="#1a0e08" stroke-width="0.5"/>
+  </g>
+
+  <!-- COBBLESTONE FOREGROUND. -->
+  <g fill="url(#p8p6stone)" stroke="#1a1a20" stroke-width="0.7">
+    <rect x="-5" y="160" width="80" height="22" rx="3"/>
+    <rect x="83" y="158" width="82" height="24" rx="3"/>
+    <rect x="173" y="160" width="80" height="22" rx="3"/>
+    <rect x="261" y="158" width="80" height="24" rx="3"/>
+  </g>
+  <g fill="url(#p8p6stone)" stroke="#080810" stroke-width="0.85">
+    <rect x="-10" y="188" width="100" height="36" rx="5"/>
+    <rect x="98" y="188" width="104" height="36" rx="5"/>
+    <rect x="210" y="188" width="100" height="36" rx="5"/>
+    <rect x="318" y="188" width="60" height="36" rx="5"/>
+  </g>
+  <g fill="url(#p8p6stone)" stroke="#080810" stroke-width="1">
+    <rect x="-15" y="230" width="124" height="50" rx="6"/>
+    <rect x="118" y="230" width="128" height="50" rx="6"/>
+    <rect x="254" y="230" width="124" height="50" rx="6"/>
+  </g>
+  <g fill="url(#p8p6stone)" stroke="#080810" stroke-width="1.2">
+    <rect x="-20" y="286" width="140" height="64" rx="7"/>
+    <rect x="128" y="286" width="144" height="64" rx="7"/>
+    <rect x="280" y="286" width="100" height="64" rx="7"/>
+  </g>
+  <g fill="url(#p8p6stone)" stroke="#080810" stroke-width="1.4">
+    <rect x="-30" y="356" width="160" height="80" rx="8"/>
+    <rect x="138" y="356" width="164" height="80" rx="8"/>
+    <rect x="310" y="356" width="80" height="80" rx="8"/>
+  </g>
+  <g fill="#c0d0e0" opacity="0.4" filter="url(#p8p6bloom)">
+    <ellipse cx="50" cy="362" rx="60" ry="3"/>
+    <ellipse cx="220" cy="362" rx="62" ry="3"/>
+    <ellipse cx="350" cy="362" rx="40" ry="3"/>
+  </g>
+
+  <!-- Sett gap (where Sable+Thresh climbed from). -->
+  <path d="M118,356 L118,400 L138,400 L138,356 Z" fill="#080404" stroke="#080810" stroke-width="0.7"/>
+
+  <!-- 5 SQUAD MEMBERS reassembling foreground. -->
+  <!-- SABLE — climbing from gap. -->
+  <g id="p8p6-sable" transform="translate(125, 350)">
+    <path d="M-12,30 L-15,5 L-12,-15 L-5,-25 L5,-25 L12,-15 L15,5 L12,30 Z" fill="url(#p8p6silver)" stroke="#080404" stroke-width="0.6"/>
+    <!-- CRACKED right shoulder. -->
+    <path d="M12,-12 L18,-2 L20,12 L18,22" fill="url(#p8p6silver)" stroke="#080404" stroke-width="0.5"/>
+    <g stroke="#a8d8f8" stroke-width="0.5" opacity="0.85" filter="url(#p8p6bloom)">
+      <path d="M14,-4 L18,6 L16,16"/>
+    </g>
+    <ellipse cx="0" cy="-25" rx="8" ry="2" fill="#dce4f0" opacity="0.55" filter="url(#p8p6bloom)"/>
+    <!-- Head looking after departed cat. -->
+    <ellipse cx="2" cy="-37" rx="9" ry="10" fill="#3a2818"/>
+    <path d="M-7,-44 Q2,-49 11,-44 L11,-37 L-7,-37 Z" fill="#dce4f0"/>
+    <ellipse cx="0" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="5" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="2" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="7" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-1" y1="-31" x2="5" y2="-31" stroke="#3a1810" stroke-width="0.6"/>
+  </g>
+
+  <!-- THRESH — emerging from gap. -->
+  <g id="p8p6-thresh" transform="translate(155, 358)">
+    <path d="M-12,28 L-15,3 L-12,-15 L-5,-25 L5,-25 L12,-15 L15,3 L12,28 Z" fill="url(#p8p6ruby)" stroke="#080404" stroke-width="0.6"/>
+    <!-- DENTED LEFT pauldron. -->
+    <path d="M-12,-13 L-19,-3 L-19,12 L-12,18" fill="url(#p8p6ruby)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M-16,2 Q-14,8 -13,4 Z" fill="#3a0810"/>
+    <!-- Crimson collar dim. -->
+    <ellipse cx="0" cy="-25" rx="8" ry="2" fill="#f54848" opacity="0.55" filter="url(#p8p6bloom)"/>
+    <!-- Weapon lowering. -->
+    <rect x="-8" y="-8" width="22" height="5" rx="0.5" fill="#1a0810" stroke="#080404" stroke-width="0.4"/>
+    <ellipse cx="-4" cy="-5" rx="3" ry="2" fill="#d8a880" stroke="#080408" stroke-width="0.3"/>
+    <!-- Hands shaking slightly (script). -->
+    <ellipse cx="-2" cy="-2" rx="2.5" ry="1.4" fill="#d8a880" opacity="0.65" filter="url(#p8p6bloom)"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-39" rx="9" ry="10" fill="#d8a880"/>
+    <path d="M-9,-46 Q0,-51 9,-46 L9,-39 L-9,-39 Z" fill="#a83a18"/>
+    <ellipse cx="-3" cy="-40" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-40" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-41" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="3" cy="-41" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-3" y1="-32" x2="3" y2="-32" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- WREN — emerging from behind cobble (right of gap). -->
+  <g id="p8p6-wren" transform="translate(220, 364)">
+    <path d="M-10,22 L-13,2 L-10,-15 L-5,-25 L5,-25 L10,-15 L13,2 L10,22 Z" fill="url(#p8p6copper)" stroke="#080404" stroke-width="0.6"/>
+    <!-- OIL-STAINED forearms. -->
+    <g fill="#3a2010" opacity="0.85">
+      <ellipse cx="-12" cy="6" rx="2" ry="1"/>
+      <ellipse cx="12" cy="8" rx="2" ry="1"/>
+    </g>
+    <ellipse cx="0" cy="-25" rx="6" ry="2" fill="#f0a868" opacity="0.65" filter="url(#p8p6bloom)"/>
+    <!-- Head. -->
+    <ellipse cx="2" cy="-37" rx="8" ry="9" fill="#e0c098"/>
+    <!-- HAIR UP IN BUN. -->
+    <ellipse cx="-1" cy="-46" rx="6" ry="4" fill="#1a0808"/>
+    <line x1="-3" y1="-47" x2="2" y2="-44" stroke="#3a1808" stroke-width="0.4"/>
+    <ellipse cx="-1" cy="-39" rx="1.2" ry="0.9" fill="#dce4f0"/>
+    <ellipse cx="4" cy="-39" rx="1.2" ry="0.9" fill="#dce4f0"/>
+    <ellipse cx="-1" cy="-39" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <ellipse cx="4" cy="-39" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <line x1="-1" y1="-32" x2="4" y2="-32" stroke="#3a1810" stroke-width="0.6"/>
+  </g>
+
+  <!-- LUMA — rising from prone. -->
+  <g id="p8p6-luma" transform="translate(280, 372)">
+    <path d="M-12,15 L-15,-5 L-10,-20 L0,-25 L10,-20 L15,-5 L12,15 Z" fill="url(#p8p6sapphire)" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="0" cy="-25" rx="8" ry="2" fill="#a878f8" opacity="0.65" filter="url(#p8p6bloom)"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-36" rx="8" ry="9" fill="#a87850"/>
+    <!-- Long braid w/ sapphire filament. -->
+    <path d="M-7,-32 Q-13,-22 -12,-12 Q-11,-2 -13,8" stroke="#1a0808" stroke-width="3.5" fill="none"/>
+    <line x1="-9" y1="-28" x2="-12" y2="6" stroke="#a878f8" stroke-width="0.4" opacity="0.85" filter="url(#p8p6bloom)"/>
+    <!-- Cracked right lens. -->
+    <ellipse cx="3" cy="-37" rx="3.5" ry="2.5" fill="#a878f8" opacity="0.45" stroke="#a878f8" stroke-width="0.4"/>
+    <line x1="3" y1="-37" x2="6" y2="-35" stroke="#dce4f0" stroke-width="0.3" opacity="0.85"/>
+    <ellipse cx="0" cy="-38" rx="1.2" ry="0.9" fill="#dce4f0"/>
+    <ellipse cx="0" cy="-38" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <line x1="-2" y1="-31" x2="3" y2="-31" stroke="#3a1810" stroke-width="0.5"/>
+  </g>
+
+  <!-- JINK — descending from above, wing-pack dimming. -->
+  <g id="p8p6-jink" transform="translate(60, 340)">
+    <!-- Dimming wings. -->
+    <ellipse cx="-25" cy="-15" rx="30" ry="10" fill="url(#p8p6emeraldDim)" stroke="#7af0b0" stroke-width="0.5" opacity="0.55" transform="rotate(15 -25 -15)" filter="url(#p8p6bloom)"/>
+    <ellipse cx="25" cy="-15" rx="30" ry="10" fill="url(#p8p6emeraldDim)" stroke="#7af0b0" stroke-width="0.5" opacity="0.55" transform="rotate(-15 25 -15)" filter="url(#p8p6bloom)"/>
+    <ellipse cx="-20" cy="5" rx="22" ry="8" fill="url(#p8p6emeraldDim)" stroke="#2ed078" stroke-width="0.4" opacity="0.45" transform="rotate(15 -20 5)" filter="url(#p8p6bloom)"/>
+    <ellipse cx="20" cy="5" rx="22" ry="8" fill="url(#p8p6emeraldDim)" stroke="#2ed078" stroke-width="0.4" opacity="0.45" transform="rotate(-15 20 5)" filter="url(#p8p6bloom)"/>
+    <!-- Body. -->
+    <path d="M-10,30 L-13,5 L-10,-15 L-5,-25 L5,-25 L10,-15 L13,5 L10,30 Z" fill="url(#p8p6emerald)" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="0" cy="-25" rx="6" ry="2" fill="#7af0b0" opacity="0.65" filter="url(#p8p6bloom)"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-37" rx="8" ry="9" fill="#d8b890"/>
+    <!-- Curls. -->
+    <path d="M-7,-46 Q0,-50 7,-46 L7,-37 L-7,-37 Z" fill="#f0d878"/>
+    <g fill="#a89048">
+      <circle cx="-4" cy="-46" r="1.4"/>
+      <circle cx="0" cy="-48" r="1.4"/>
+      <circle cx="4" cy="-46" r="1.4"/>
+    </g>
+    <ellipse cx="-3" cy="-39" rx="1.3" ry="1" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-39" rx="1.3" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-39" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <ellipse cx="3" cy="-39" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <!-- Mouth — grin fading. -->
+    <path d="M-3,-31 Q0,-29 3,-31" stroke="#3a1810" stroke-width="0.6" fill="none"/>
+  </g>
+
+  <!-- DIALOGUE STACK — sound off chain. Caption beat first. -->
+  <g id="p8p6-cap-beat">
+    <rect x="14" y="14" width="100" height="32" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="24" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">— a beat —</text>
+  </g>
+
+  <!-- SABLE: sound off. -->
+  <g id="p8p6-bal-sable">
+    <rect x="124" y="14" width="120" height="40" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="134" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="134" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Sound off.</text>
+  </g>
+
+  <!-- WREN. -->
+  <g id="p8p6-bal-wren">
+    <rect x="254" y="14" width="100" height="40" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="264" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="264" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Here.</text>
+  </g>
+
+  <!-- JINK. -->
+  <g id="p8p6-bal-jink">
+    <rect x="14" y="62" width="100" height="40" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="80" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="96" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Here.</text>
+  </g>
+
+  <!-- LUMA. -->
+  <g id="p8p6-bal-luma">
+    <rect x="124" y="62" width="100" height="40" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="134" y="80" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="134" y="96" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Here.</text>
+  </g>
+
+  <!-- Caption beat 2. -->
+  <g id="p8p6-cap-beat2">
+    <rect x="234" y="62" width="120" height="40" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="244" y="86" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">— another beat —</text>
+  </g>
+
+  <!-- THRESH last, hesitant. -->
+  <g id="p8p6-bal-thresh">
+    <rect x="14" y="408" width="160" height="40" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="426" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH</text>
+    <text x="24" y="442" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a" font-style="italic">...here.</text>
+    <path d="M80,448 L94,448 L88,460 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="80" y1="448" x2="94" y2="448" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p8p6-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">6</text>
+    <text x="362" y="452" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">SOUND OFF</text>
+  </g>
+</svg>

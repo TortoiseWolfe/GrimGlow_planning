@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 320" width="175" height="320">
+  <title>Issue 2 — Page 8 — Panel 4: Jink face MCU in flight, exhilaration over fear</title>
+  <desc>MCU 65mm three-quarter angle. Jink face in flight. Golden blonde curls plastered wild. Emerald wing-pack glow halos head from behind, structured geometric light across rain-slick features. Eyes wide, mouth open in shout that is grin. Reckless exhilaration over real fear. Background blur amber from cat in pursuit. JINK HA.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p4bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#5a3a18"/>
+    </linearGradient>
+    <radialGradient id="p8p4emeraldHalo">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a4828" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p4amberBlur">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p8p4emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7af0b0"/>
+      <stop offset="100%" stop-color="#0a4828"/>
+    </linearGradient>
+    <filter id="p8p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p8p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p8p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="175" height="320" fill="url(#p8p4bg)"/>
+
+  <!-- AMBER BLUR — cat in pursuit, background. -->
+  <ellipse cx="140" cy="200" rx="80" ry="120" fill="url(#p8p4amberBlur)" filter="url(#p8p4deepBloom)" opacity="0.85"/>
+  <!-- Blurred cat eye. -->
+  <ellipse cx="155" cy="160" rx="14" ry="20" fill="#ffe8a0" filter="url(#p8p4deepBloom)" opacity="0.65"/>
+  <ellipse cx="155" cy="160" rx="2" ry="14" fill="#1a0408" filter="url(#p8p4bloom)" opacity="0.85"/>
+
+  <!-- RAIN STREAKS angled wind-whipped. -->
+  <g stroke="#a8b8c8" stroke-width="0.7" opacity="0.65" filter="url(#p8p4bloom)">
+    <line x1="20" y1="20" x2="60" y2="40"/>
+    <line x1="40" y1="50" x2="80" y2="70"/>
+    <line x1="10" y1="80" x2="50" y2="100"/>
+    <line x1="60" y1="120" x2="100" y2="140"/>
+    <line x1="20" y1="160" x2="60" y2="180"/>
+    <line x1="50" y1="220" x2="90" y2="240"/>
+    <line x1="10" y1="270" x2="50" y2="290"/>
+  </g>
+
+  <!-- EMERALD HALO behind head. -->
+  <ellipse cx="80" cy="155" rx="100" ry="120" fill="url(#p8p4emeraldHalo)" filter="url(#p8p4deepBloom)" opacity="0.85"/>
+
+  <!-- JINK — face MCU. -->
+  <g id="p8p4-jink" transform="translate(80, 170)">
+
+    <!-- Wing-pack glow visible peeking from behind. -->
+    <ellipse cx="-50" cy="-30" rx="30" ry="12" fill="#7af0b0" opacity="0.55" filter="url(#p8p4strongBloom)" transform="rotate(15 -50 -30)"/>
+    <ellipse cx="50" cy="-30" rx="30" ry="12" fill="#7af0b0" opacity="0.55" filter="url(#p8p4strongBloom)" transform="rotate(-15 50 -30)"/>
+
+    <!-- Suit shoulder visible bottom. -->
+    <path d="M-60,140 L-65,80 L-50,40 L-30,20 L30,20 L50,40 L65,80 L60,140 Z" fill="url(#p8p4emeraldSuit)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Emerald collar pulse. -->
+    <ellipse cx="0" cy="20" rx="22" ry="4" fill="#7af0b0" opacity="0.95" filter="url(#p8p4bloom)"/>
+    <ellipse cx="0" cy="20" rx="28" ry="6" fill="#7af0b0" opacity="0.55" filter="url(#p8p4strongBloom)"/>
+
+    <!-- NECK. -->
+    <path d="M-12,20 L-12,5 Q0,2 12,5 L12,20 Z" fill="#d8b890"/>
+
+    <!-- HEAD ECU/MCU oval (light brown skin). -->
+    <ellipse cx="0" cy="-35" rx="44" ry="55" fill="#d8b890"/>
+    <!-- Cheek shading. -->
+    <ellipse cx="-30" cy="0" rx="14" ry="9" fill="#a87850" opacity="0.55" filter="url(#p8p4bloom)"/>
+    <ellipse cx="30" cy="0" rx="14" ry="9" fill="#a87850" opacity="0.55" filter="url(#p8p4bloom)"/>
+
+    <!-- WILD GOLDEN BLONDE CURLS plastered + chaotic. -->
+    <path d="M-44,-65 Q-50,-78 -38,-92 Q-20,-100 0,-95 Q20,-100 38,-92 Q50,-78 44,-65 L44,-50 L-44,-50 Z" fill="#f0d878"/>
+    <!-- Curl details. -->
+    <g fill="#c8a838" opacity="0.85">
+      <circle cx="-30" cy="-78" r="3"/>
+      <circle cx="-15" cy="-86" r="3"/>
+      <circle cx="0" cy="-90" r="3.5"/>
+      <circle cx="15" cy="-86" r="3"/>
+      <circle cx="30" cy="-78" r="3"/>
+      <circle cx="-38" cy="-65" r="2.5"/>
+      <circle cx="38" cy="-65" r="2.5"/>
+    </g>
+    <!-- Wet plastered strands. -->
+    <g stroke="#a89048" stroke-width="0.8" fill="none" opacity="0.85">
+      <path d="M-30,-78 Q-32,-65 -34,-55"/>
+      <path d="M0,-90 Q2,-75 4,-60"/>
+      <path d="M30,-78 Q32,-65 34,-55"/>
+    </g>
+    <!-- Emerald light catches on curls. -->
+    <g fill="#7af0b0" opacity="0.65" filter="url(#p8p4bloom)">
+      <circle cx="-25" cy="-80" r="2"/>
+      <circle cx="20" cy="-85" r="2"/>
+    </g>
+
+    <!-- BROW raised arc (excited). -->
+    <path d="M-30,-30 Q-15,-38 0,-32" stroke="#3a1808" stroke-width="2" fill="none"/>
+    <path d="M0,-32 Q15,-38 30,-30" stroke="#3a1808" stroke-width="2" fill="none"/>
+
+    <!-- EYES wide bright. -->
+    <ellipse cx="-15" cy="-22" rx="11" ry="9" fill="#dce4f0"/>
+    <ellipse cx="15" cy="-22" rx="11" ry="9" fill="#dce4f0"/>
+    <!-- Iris bright. -->
+    <ellipse cx="-13" cy="-22" rx="4.5" ry="4.5" fill="#5a8848"/>
+    <ellipse cx="17" cy="-22" rx="4.5" ry="4.5" fill="#5a8848"/>
+    <!-- Pupil dilated. -->
+    <ellipse cx="-13" cy="-22" rx="2.2" ry="2.2" fill="#080404"/>
+    <ellipse cx="17" cy="-22" rx="2.2" ry="2.2" fill="#080404"/>
+    <!-- Catch-light. -->
+    <circle cx="-11" cy="-24" r="1.4" fill="#dce4f0"/>
+    <circle cx="19" cy="-24" r="1.4" fill="#dce4f0"/>
+    <!-- Emerald hot reflection on iris (script). -->
+    <circle cx="-15" cy="-20" r="1" fill="#7af0b0" opacity="0.85" filter="url(#p8p4bloom)"/>
+    <circle cx="15" cy="-20" r="1" fill="#7af0b0" opacity="0.85" filter="url(#p8p4bloom)"/>
+
+    <!-- NOSE. -->
+    <path d="M-3,-15 L0,8 L-4,15" stroke="#5a3a18" stroke-width="1" fill="none" opacity="0.7"/>
+    <ellipse cx="-3" cy="13" rx="1.5" ry="1" fill="#5a3a18" opacity="0.55"/>
+    <ellipse cx="3" cy="13" rx="1.5" ry="1" fill="#5a3a18" opacity="0.55"/>
+
+    <!-- MOUTH OPEN in shout-grin. -->
+    <path d="M-22,30 Q-15,38 0,40 Q15,38 22,30 Q22,40 18,46 Q0,52 -18,46 Q-22,40 -22,30 Z" fill="#3a0810" stroke="#1a0408" stroke-width="0.9"/>
+    <!-- Teeth row. -->
+    <g fill="#f5e8c8" stroke="#a89048" stroke-width="0.4">
+      <rect x="-15" y="32" width="4" height="6" rx="1"/>
+      <rect x="-9" y="32" width="4" height="6" rx="1"/>
+      <rect x="-3" y="32" width="4" height="6" rx="1"/>
+      <rect x="3" y="32" width="4" height="6" rx="1"/>
+      <rect x="9" y="32" width="4" height="6" rx="1"/>
+    </g>
+    <!-- Tongue glimpse. -->
+    <ellipse cx="0" cy="42" rx="4" ry="2" fill="#a85040" opacity="0.85"/>
+
+    <!-- Wet skin highlights. -->
+    <g fill="#dce4f0" opacity="0.65" filter="url(#p8p4bloom)">
+      <ellipse cx="-22" cy="-12" rx="3" ry="1"/>
+      <ellipse cx="25" cy="-10" rx="3" ry="1"/>
+      <ellipse cx="0" cy="-44" rx="2" ry="0.8"/>
+    </g>
+    <!-- Rain beads on face/hair. -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p8p4bloom)">
+      <circle cx="-35" cy="-50" r="1"/>
+      <circle cx="40" cy="-30" r="1"/>
+      <circle cx="-30" cy="0" r="0.9"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — JINK HA. -->
+  <g id="p8p4-bal-jink">
+    <rect x="14" y="14" width="100" height="50" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="58" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="900" fill="#1a1a1a">HA!</text>
+    <path d="M70,64 L84,64 L98,76 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="70" y1="64" x2="84" y2="64" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p8p4-meta">
+    <text x="167" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">4</text>
+    <text x="171" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">JINK GRIN</text>
+  </g>
+</svg>

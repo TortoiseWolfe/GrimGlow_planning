@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 460" width="366" height="460">
+  <title>Issue 2 — Page 8 — Panel 5: Cat pivots, ears swivel — focus breaks to off-panel CLANG</title>
+  <desc>Wide eye-level 28mm side angle. Cat full body mid-pivot rain-slick cobblestones, rear legs bunching. Ears swiveling away from fading emerald trail upper-left toward off-panel right sound. Hunting posture breaking into curiosity. Tabby fur darkened wet. Emerald contrail dissipates. CLANG SFX off-panel right.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p5sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e34"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p8p5stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <linearGradient id="p8p5catBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3a18"/>
+      <stop offset="50%" stop-color="#3a2814"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="p8p5catUnder" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87850"/>
+      <stop offset="100%" stop-color="#5a3a18"/>
+    </linearGradient>
+    <radialGradient id="p8p5eyeAmber">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p8p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p8p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p8p5deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG sky. -->
+  <rect width="366" height="200" fill="url(#p8p5sky)"/>
+
+  <!-- Distant rain. -->
+  <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.55">
+    <line x1="40" y1="20" x2="48" y2="60"/>
+    <line x1="120" y1="10" x2="128" y2="55"/>
+    <line x1="200" y1="25" x2="208" y2="65"/>
+    <line x1="280" y1="15" x2="288" y2="55"/>
+    <line x1="60" y1="80" x2="68" y2="120"/>
+    <line x1="180" y1="90" x2="188" y2="130"/>
+    <line x1="320" y1="100" x2="328" y2="140"/>
+  </g>
+
+  <!-- FADING EMERALD CONTRAIL upper-left. -->
+  <g stroke="#7af0b0" stroke-width="3" fill="none" opacity="0.45" filter="url(#p8p5strongBloom)">
+    <path d="M-10,40 Q40,30 90,50"/>
+  </g>
+  <g stroke="#a8e8d0" stroke-width="1.5" fill="none" opacity="0.55" filter="url(#p8p5bloom)">
+    <path d="M-10,50 Q40,40 90,60"/>
+  </g>
+  <g fill="#7af0b0" opacity="0.65" filter="url(#p8p5bloom)">
+    <circle cx="20" cy="42" r="2"/>
+    <circle cx="50" cy="36" r="1.5"/>
+    <circle cx="80" cy="52" r="1.8"/>
+  </g>
+
+  <!-- COBBLESTONE GROUND (full width, eye level so close + receding). -->
+  <g fill="url(#p8p5stone)" stroke="#1a1a20" stroke-width="0.7">
+    <rect x="-5" y="200" width="80" height="22" rx="3"/>
+    <rect x="83" y="198" width="82" height="24" rx="3"/>
+    <rect x="173" y="200" width="80" height="22" rx="3"/>
+    <rect x="261" y="198" width="84" height="24" rx="3"/>
+    <rect x="353" y="200" width="20" height="22" rx="3"/>
+  </g>
+  <g fill="url(#p8p5stone)" stroke="#080810" stroke-width="0.85">
+    <rect x="-10" y="228" width="100" height="36" rx="5"/>
+    <rect x="98" y="228" width="104" height="36" rx="5"/>
+    <rect x="210" y="228" width="100" height="36" rx="5"/>
+    <rect x="318" y="228" width="60" height="36" rx="5"/>
+  </g>
+  <g fill="url(#p8p5stone)" stroke="#080810" stroke-width="1">
+    <rect x="-15" y="270" width="124" height="50" rx="6"/>
+    <rect x="118" y="270" width="128" height="50" rx="6"/>
+    <rect x="254" y="270" width="124" height="50" rx="6"/>
+  </g>
+  <g fill="url(#p8p5stone)" stroke="#080810" stroke-width="1.2">
+    <rect x="-20" y="326" width="140" height="64" rx="7"/>
+    <rect x="128" y="326" width="144" height="64" rx="7"/>
+    <rect x="280" y="326" width="100" height="64" rx="7"/>
+  </g>
+  <g fill="url(#p8p5stone)" stroke="#080810" stroke-width="1.4">
+    <rect x="-30" y="396" width="160" height="80" rx="8"/>
+    <rect x="138" y="396" width="164" height="80" rx="8"/>
+    <rect x="310" y="396" width="80" height="80" rx="8"/>
+  </g>
+  <!-- Wet sheen. -->
+  <g fill="#c0d0e0" opacity="0.4" filter="url(#p8p5bloom)">
+    <ellipse cx="50" cy="232" rx="40" ry="2"/>
+    <ellipse cx="158" cy="232" rx="42" ry="2"/>
+    <ellipse cx="266" cy="232" rx="40" ry="2"/>
+    <ellipse cx="50" cy="402" rx="60" ry="3"/>
+    <ellipse cx="220" cy="402" rx="62" ry="3"/>
+    <ellipse cx="350" cy="402" rx="40" ry="3"/>
+  </g>
+
+  <!-- CAT — full body mid-pivot. Center frame. -->
+  <g id="p8p5-cat" transform="translate(180, 280)">
+    <!-- TAIL up & forward (excited curiosity). -->
+    <path d="M-130,30 Q-160,0 -170,-30 Q-165,-50 -150,-55 Q-130,-60 -120,-50" stroke="url(#p8p5catBody)" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M-170,-30 Q-160,-15 -148,-50" stroke="#3a2814" stroke-width="2" fill="none" opacity="0.85"/>
+    <!-- Tail rings. -->
+    <g stroke="#1a0e08" stroke-width="1.6" fill="none" opacity="0.85">
+      <path d="M-160,5 Q-156,10 -150,5"/>
+      <path d="M-165,-15 Q-160,-12 -156,-18"/>
+      <path d="M-160,-40 Q-156,-37 -152,-44"/>
+    </g>
+
+    <!-- HIND HAUNCHES bunched. -->
+    <path d="M-110,40 Q-90,-30 -50,-40 Q-30,-40 -25,-20 L-25,80 L-110,80 Z" fill="url(#p8p5catBody)"/>
+    <!-- Bunched leg muscle line. -->
+    <path d="M-90,30 Q-86,0 -70,-20" stroke="#1a0e08" stroke-width="2" fill="none" opacity="0.85"/>
+
+    <!-- BODY MAIN. -->
+    <path d="M-50,-40 Q-10,-60 50,-60 Q90,-60 110,-30 L110,60 Q90,80 50,80 L-50,80 Z" fill="url(#p8p5catBody)"/>
+
+    <!-- FORE SHOULDER. -->
+    <path d="M50,-60 Q70,-90 100,-90 Q130,-85 130,-50 Q120,-30 100,-30 Q70,-30 50,-40 Z" fill="url(#p8p5catBody)"/>
+
+    <!-- HEAD turning right (toward off-panel sound). -->
+    <ellipse cx="115" cy="-50" rx="40" ry="36" fill="url(#p8p5catBody)"/>
+    <!-- Cheek. -->
+    <ellipse cx="105" cy="-30" rx="12" ry="8" fill="url(#p8p5catUnder)"/>
+    <ellipse cx="135" cy="-35" rx="12" ry="8" fill="url(#p8p5catUnder)"/>
+    <!-- Nose & muzzle. -->
+    <path d="M125,-30 L135,-30 L135,-22 L130,-18 L125,-22 Z" fill="#1a0408"/>
+    <path d="M130,-18 L130,-12" stroke="#1a0408" stroke-width="1"/>
+
+    <!-- EARS swiveled right (script). -->
+    <path d="M88,-78 L84,-105 L102,-78 Z" fill="url(#p8p5catBody)" stroke="#1a0408" stroke-width="0.6"/>
+    <path d="M120,-80 L130,-110 L148,-78 Z" fill="url(#p8p5catBody)" stroke="#1a0408" stroke-width="0.6"/>
+    <!-- Pinned forward — turned toward sound. -->
+    <ellipse cx="92" cy="-90" rx="3" ry="6" fill="#5a2818" opacity="0.85"/>
+    <ellipse cx="135" cy="-92" rx="3" ry="6" fill="#5a2818" opacity="0.85"/>
+
+    <!-- AMBER EYES — looking off-frame right. -->
+    <ellipse cx="115" cy="-55" rx="10" ry="14" fill="url(#p8p5eyeAmber)" filter="url(#p8p5bloom)"/>
+    <ellipse cx="140" cy="-55" rx="10" ry="14" fill="url(#p8p5eyeAmber)" filter="url(#p8p5bloom)"/>
+    <ellipse cx="118" cy="-55" rx="2" ry="11" fill="#1a0408"/>
+    <ellipse cx="143" cy="-55" rx="2" ry="11" fill="#1a0408"/>
+    <ellipse cx="115" cy="-55" rx="10" ry="14" fill="none" stroke="#1a0e08" stroke-width="1"/>
+    <ellipse cx="140" cy="-55" rx="10" ry="14" fill="none" stroke="#1a0e08" stroke-width="1"/>
+
+    <!-- TABBY STRIPES body. -->
+    <g stroke="#1a0e08" stroke-width="1.6" fill="none" opacity="0.85">
+      <path d="M-50,-30 Q-45,-10 -45,20"/>
+      <path d="M-20,-50 Q-15,-20 -15,30"/>
+      <path d="M10,-58 Q15,-30 15,30"/>
+      <path d="M40,-60 Q45,-30 45,30"/>
+      <path d="M70,-50 Q75,-20 75,30"/>
+      <!-- Haunch stripes. -->
+      <path d="M-80,30 Q-78,50 -75,75"/>
+      <path d="M-60,20 Q-58,45 -55,75"/>
+    </g>
+
+    <!-- WET FUR sheen highlights. -->
+    <g fill="#a87850" opacity="0.45" filter="url(#p8p5bloom)">
+      <ellipse cx="-20" cy="-50" rx="20" ry="3"/>
+      <ellipse cx="60" cy="-55" rx="22" ry="3"/>
+      <ellipse cx="-70" cy="-15" rx="18" ry="3"/>
+    </g>
+
+    <!-- LEGS visible (front). -->
+    <path d="M40,40 L36,80 L48,80 L52,40 Z" fill="url(#p8p5catBody)" stroke="#1a0e08" stroke-width="0.5"/>
+    <path d="M75,40 L72,80 L84,80 L86,40 Z" fill="url(#p8p5catBody)" stroke="#1a0e08" stroke-width="0.5"/>
+  </g>
+
+  <!-- SFX — CLANG (off-panel source, right-edge directional). -->
+  <g id="p8p5-sfx-clang" transform="translate(190, 90) rotate(8)">
+    <text font-family="Impact, sans-serif" font-size="38" font-weight="900"
+          stroke="#1a0408" stroke-width="4" stroke-linejoin="round"
+          paint-order="stroke fill" fill="#ffe080">CLANG!</text>
+  </g>
+  <!-- Pressure ripple lines pointing right (off-panel source). -->
+  <g stroke="#3a3e48" stroke-width="2" fill="none" opacity="0.65">
+    <path d="M340,140 Q358,140 366,150"/>
+    <path d="M340,160 Q358,160 366,170"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p8p5-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">5</text>
+    <text x="362" y="452" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">CAT'S FOCUS BREAKS</text>
+  </g>
+</svg>

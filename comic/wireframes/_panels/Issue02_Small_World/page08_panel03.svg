@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 320" width="380" height="320">
+  <title>Issue 2 — Page 8 — Panel 3: Jink banks toward cat, aerial perspective, divert</title>
+  <desc>Wide action 28mm aerial from above behind Jink. Jink mid-flight wing-pack fully deployed two pairs translucent emerald wings geometric lattice prismatic trails. Banking hard toward cat's head which snaps upward tracking emerald light. Below: cobblestone field as map, tiny copper Wren behind sett, sapphire-violet Luma prone. JINK hey hey overgrown / SABLE small don't engage divert and break.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e34"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p8p3stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <linearGradient id="p8p3emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7af0b0"/>
+      <stop offset="100%" stop-color="#0a4828"/>
+    </linearGradient>
+    <radialGradient id="p8p3wingMembrane">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0.05"/>
+    </radialGradient>
+    <radialGradient id="p8p3emeraldGlow">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a4828" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p3catEye">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#7af0b0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p8p3catBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3a18"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <filter id="p8p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p8p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p8p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- BG sky. -->
+  <rect width="380" height="180" fill="url(#p8p3sky)"/>
+
+  <!-- Distant rain streaks angled. -->
+  <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.55" filter="url(#p8p3bloom)">
+    <line x1="40" y1="20" x2="50" y2="60"/>
+    <line x1="100" y1="10" x2="112" y2="55"/>
+    <line x1="180" y1="25" x2="190" y2="68"/>
+    <line x1="240" y1="15" x2="252" y2="55"/>
+    <line x1="320" y1="30" x2="332" y2="70"/>
+    <line x1="60" y1="80" x2="72" y2="120"/>
+    <line x1="280" y1="90" x2="292" y2="130"/>
+  </g>
+
+  <!-- COBBLESTONE FIELD bottom (laid out like a map). -->
+  <g fill="url(#p8p3stone)" stroke="#1a1a20" stroke-width="0.5">
+    <rect x="0" y="200" width="60" height="22" rx="3"/>
+    <rect x="68" y="198" width="62" height="24" rx="3"/>
+    <rect x="138" y="200" width="60" height="22" rx="3"/>
+    <rect x="206" y="198" width="64" height="24" rx="3"/>
+    <rect x="278" y="200" width="60" height="22" rx="3"/>
+    <rect x="346" y="198" width="34" height="24" rx="3"/>
+  </g>
+  <g fill="url(#p8p3stone)" stroke="#080810" stroke-width="0.7">
+    <rect x="-5" y="228" width="80" height="32" rx="4"/>
+    <rect x="83" y="228" width="82" height="32" rx="4"/>
+    <rect x="173" y="228" width="80" height="32" rx="4"/>
+    <rect x="261" y="228" width="84" height="32" rx="4"/>
+  </g>
+  <g fill="url(#p8p3stone)" stroke="#080810" stroke-width="0.85">
+    <rect x="-10" y="266" width="100" height="40" rx="5"/>
+    <rect x="98" y="266" width="104" height="40" rx="5"/>
+    <rect x="210" y="266" width="100" height="40" rx="5"/>
+    <rect x="318" y="266" width="64" height="40" rx="5"/>
+  </g>
+  <g fill="#c0d0e0" opacity="0.35" filter="url(#p8p3bloom)">
+    <ellipse cx="40" cy="270" rx="34" ry="2"/>
+    <ellipse cx="148" cy="270" rx="36" ry="2"/>
+    <ellipse cx="258" cy="270" rx="34" ry="2"/>
+  </g>
+
+  <!-- TINY WREN behind sett (copper). -->
+  <g id="p8p3-wren-tiny">
+    <ellipse cx="120" cy="280" rx="3" ry="6" fill="#c87a35" filter="url(#p8p3bloom)"/>
+    <circle cx="120" cy="270" r="2" fill="#e0c098"/>
+  </g>
+
+  <!-- TINY LUMA prone (sapphire-violet). -->
+  <g id="p8p3-luma-tiny">
+    <ellipse cx="280" cy="290" rx="9" ry="2" fill="#5a3ad8" filter="url(#p8p3bloom)"/>
+    <circle cx="288" cy="290" r="2" fill="#a87850"/>
+  </g>
+
+  <!-- CAT HEAD upper-right snapped upward tracking. -->
+  <g id="p8p3-cat-head">
+    <!-- Head bulk turning. -->
+    <ellipse cx="290" cy="80" rx="100" ry="80" fill="url(#p8p3catBody)"/>
+    <!-- Cheek puffs. -->
+    <ellipse cx="240" cy="100" rx="22" ry="14" fill="#3a2814"/>
+    <ellipse cx="340" cy="100" rx="22" ry="14" fill="#3a2814"/>
+    <!-- Mouth slightly open (script). -->
+    <path d="M260,120 Q290,140 320,120 L320,135 Q290,150 260,135 Z" fill="#1a0408" stroke="#080404" stroke-width="0.7"/>
+    <!-- Teeth glints. -->
+    <g fill="#f5d8b8" opacity="0.85">
+      <polygon points="270,128 274,138 278,128"/>
+      <polygon points="288,134 292,144 296,134"/>
+      <polygon points="305,128 309,138 313,128"/>
+    </g>
+    <!-- Nose. -->
+    <path d="M285,105 L295,105 L295,118 L290,122 L285,118 Z" fill="#1a0408"/>
+
+    <!-- EARS pinned/swiveling tracking emerald. -->
+    <path d="M240,40 L250,15 L268,40 Z" fill="url(#p8p3catBody)" stroke="#1a0408" stroke-width="0.5"/>
+    <path d="M312,40 L322,15 L340,40 Z" fill="url(#p8p3catBody)" stroke="#1a0408" stroke-width="0.5"/>
+
+    <!-- AMBER EYES — tracking emerald, reflect green. -->
+    <ellipse cx="252" cy="78" rx="22" ry="28" fill="url(#p8p3catEye)" filter="url(#p8p3strongBloom)"/>
+    <ellipse cx="328" cy="78" rx="22" ry="28" fill="url(#p8p3catEye)" filter="url(#p8p3strongBloom)"/>
+    <!-- Vertical slits. -->
+    <ellipse cx="252" cy="78" rx="3" ry="22" fill="#1a0408"/>
+    <ellipse cx="328" cy="78" rx="3" ry="22" fill="#1a0408"/>
+    <!-- EMERALD reflection in eyes (script). -->
+    <ellipse cx="246" cy="68" rx="3" ry="3" fill="#7af0b0" filter="url(#p8p3bloom)" opacity="0.95"/>
+    <ellipse cx="322" cy="68" rx="3" ry="3" fill="#7af0b0" filter="url(#p8p3bloom)" opacity="0.95"/>
+    <!-- Eye outline. -->
+    <ellipse cx="252" cy="78" rx="22" ry="28" fill="none" stroke="#1a0e08" stroke-width="1.4"/>
+    <ellipse cx="328" cy="78" rx="22" ry="28" fill="none" stroke="#1a0e08" stroke-width="1.4"/>
+    <!-- Tabby stripes face. -->
+    <g stroke="#1a0e08" stroke-width="1.8" fill="none" opacity="0.85">
+      <path d="M240,40 Q244,50 246,60"/>
+      <path d="M280,30 Q286,40 288,55"/>
+      <path d="M318,30 Q322,40 324,55"/>
+      <path d="M348,40 Q346,50 344,60"/>
+    </g>
+  </g>
+
+  <!-- JINK — banking left, body angled. Center-frame. -->
+  <g id="p8p3-jink" transform="translate(160, 130)">
+
+    <!-- WING-PACK 4 wings (2 pairs translucent emerald). -->
+    <!-- Upper wings (large dorsal pair). -->
+    <ellipse cx="-30" cy="-40" rx="60" ry="22" fill="url(#p8p3wingMembrane)" stroke="#7af0b0" stroke-width="0.7" opacity="0.85" transform="rotate(20 -30 -40)" filter="url(#p8p3bloom)"/>
+    <ellipse cx="40" cy="-40" rx="60" ry="22" fill="url(#p8p3wingMembrane)" stroke="#7af0b0" stroke-width="0.7" opacity="0.85" transform="rotate(-20 40 -40)" filter="url(#p8p3bloom)"/>
+    <!-- Lower wings (smaller ventral pair). -->
+    <ellipse cx="-25" cy="0" rx="44" ry="16" fill="url(#p8p3wingMembrane)" stroke="#2ed078" stroke-width="0.6" opacity="0.85" transform="rotate(15 -25 0)" filter="url(#p8p3bloom)"/>
+    <ellipse cx="35" cy="0" rx="44" ry="16" fill="url(#p8p3wingMembrane)" stroke="#2ed078" stroke-width="0.6" opacity="0.85" transform="rotate(-15 35 0)" filter="url(#p8p3bloom)"/>
+
+    <!-- WING LATTICE geometric (Q lines). -->
+    <g stroke="#7af0b0" stroke-width="0.5" fill="none" opacity="0.95">
+      <line x1="-80" y1="-50" x2="-30" y2="-40"/>
+      <line x1="-30" y1="-40" x2="-30" y2="-25"/>
+      <line x1="-80" y1="-30" x2="-30" y2="-40"/>
+      <line x1="-60" y1="-46" x2="-60" y2="-30"/>
+      <line x1="80" y1="-50" x2="40" y2="-40"/>
+      <line x1="40" y1="-40" x2="40" y2="-25"/>
+      <line x1="80" y1="-30" x2="40" y2="-40"/>
+      <line x1="60" y1="-46" x2="60" y2="-30"/>
+      <line x1="-60" y1="0" x2="-25" y2="0"/>
+      <line x1="60" y1="0" x2="35" y2="0"/>
+    </g>
+
+    <!-- PRISMATIC TRAILS — fading right (where Jink came from). -->
+    <g stroke="#7af0b0" stroke-width="2" fill="none" opacity="0.65" filter="url(#p8p3bloom)">
+      <path d="M-90,-30 Q-130,-20 -170,-10"/>
+      <path d="M-90,0 Q-130,10 -170,20"/>
+      <path d="M-80,30 Q-120,40 -160,50"/>
+    </g>
+    <g stroke="#a8e8d0" stroke-width="1" fill="none" opacity="0.45" filter="url(#p8p3bloom)">
+      <path d="M-95,-25 Q-135,-15 -175,-5"/>
+      <path d="M-95,5 Q-135,15 -175,25"/>
+    </g>
+
+    <!-- BODY — emerald suit, leaning into bank. -->
+    <g transform="rotate(-15)">
+      <!-- Torso. -->
+      <path d="M-22,30 L-25,-5 L-15,-22 L15,-22 L25,-5 L22,30 Z" fill="url(#p8p3emerald)" stroke="#080404" stroke-width="0.6"/>
+      <!-- Hips/legs. -->
+      <path d="M-15,30 L-18,55 L-10,55 L-5,40 L5,40 L10,55 L18,55 L15,30 Z" fill="url(#p8p3emerald)" stroke="#080404" stroke-width="0.5"/>
+      <!-- Emerald glow at suit nodes. -->
+      <ellipse cx="0" cy="-22" rx="12" ry="3" fill="#7af0b0" opacity="0.85" filter="url(#p8p3bloom)"/>
+      <!-- ARM trailing emerald arc (one hand outstretched). -->
+      <path d="M22,-5 L48,-10 L60,-2 L48,8 L22,5 Z" fill="url(#p8p3emerald)" stroke="#080404" stroke-width="0.5"/>
+      <ellipse cx="64" cy="0" rx="6" ry="4" fill="#f0d878" stroke="#080408" stroke-width="0.4"/>
+      <!-- Emerald arc trailing from hand. -->
+      <path d="M68,-2 Q100,-15 130,-25" stroke="#7af0b0" stroke-width="2" fill="none" opacity="0.95" filter="url(#p8p3bloom)"/>
+      <path d="M68,0 Q100,-10 130,-20" stroke="#a8e8d0" stroke-width="1" fill="none" opacity="0.65" filter="url(#p8p3bloom)"/>
+      <!-- Other arm tucked. -->
+      <path d="M-22,-5 L-32,5 L-30,15 L-22,15 Z" fill="url(#p8p3emerald)" stroke="#080404" stroke-width="0.5"/>
+      <!-- Head turned forward. -->
+      <ellipse cx="0" cy="-32" rx="9" ry="10" fill="#d8b890"/>
+      <!-- Curls golden blonde wild. -->
+      <path d="M-9,-40 Q-12,-46 -8,-48 Q-4,-50 0,-46 Q4,-50 8,-48 Q12,-46 9,-40 L9,-30 L-9,-30 Z" fill="#f0d878"/>
+      <g fill="#a89048" opacity="0.85">
+        <circle cx="-6" cy="-44" r="0.7"/>
+        <circle cx="0" cy="-46" r="0.7"/>
+        <circle cx="6" cy="-44" r="0.7"/>
+      </g>
+      <!-- Eyes squint determined. -->
+      <ellipse cx="-3" cy="-32" rx="1.5" ry="0.9" fill="#1a0808"/>
+      <ellipse cx="3" cy="-32" rx="1.5" ry="0.9" fill="#1a0808"/>
+      <!-- Grin (small). -->
+      <path d="M-3,-26 Q0,-23 3,-26" stroke="#1a0808" stroke-width="0.7" fill="none"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — JINK shouting upper left. -->
+  <g id="p8p3-bal-jink">
+    <rect x="14" y="14" width="180" height="46" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Hey! HEY! Over here,</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">you overgrown—</text>
+    <path d="M120,72 L134,72 L150,86 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="72" x2="134" y2="72" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE small from below. -->
+  <g id="p8p3-bal-sable-small">
+    <rect x="14" y="246" width="200" height="44" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="264" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="68" y="264" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(from below, small)</text>
+    <text x="24" y="282" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Jink, don't engage — divert and break!</text>
+    <path d="M30,290 L40,290 L36,302 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="30" y1="290" x2="40" y2="290" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p8p3-meta">
+    <text x="372" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">3</text>
+    <text x="376" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">JINK BAITS</text>
+  </g>
+</svg>
