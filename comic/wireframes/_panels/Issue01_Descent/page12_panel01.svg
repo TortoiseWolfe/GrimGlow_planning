@@ -1,0 +1,304 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 560" width="742" height="560">
+  <title>Issue 1 — Page 12 — Panel 1: Jink's POV — Victorian London from above (SPLASH)</title>
+  <desc>Ultra-wide POV from chimney-top altitude (14mm). Jink's POV: Victorian city spreading to horizon — Welsh slate rooftops, chimney forests, church spires like mountains, factory stacks trailing smoke, amber rivers of gaslight winding between dark masses, fog pools glowing amber, Thames ribbon mid-distance with ships at amber riding lights, St. Paul's dome rising in far distance. At bottom edge: Jink's emerald boot tips + translucent wing edge grounding POV. Sky dark with stars through chimney smoke. Warm world dominates. JINK: "Captain." JINK: "You need to see this."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p12p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="60%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p12p1cityHaze" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#7a4830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0.85"/>
+    </linearGradient>
+    <radialGradient id="p12p1gasGlow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#c87830" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p12p1slate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </linearGradient>
+    <linearGradient id="p12p1brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#15080a"/>
+    </linearGradient>
+    <radialGradient id="p12p1fogPool" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5a850" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p12p1wingGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a8f5c8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a5a30" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p12p1windowGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#f5a850" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p12p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="p12p1softBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.5"/></filter>
+    <filter id="p12p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky (top half). -->
+  <rect width="742" height="560" fill="url(#p12p1sky)"/>
+
+  <!-- Stars (sparse, through gaps in chimney smoke). -->
+  <g fill="#dce4f0" opacity="0.85">
+    <circle cx="68" cy="36" r="0.9"/>
+    <circle cx="124" cy="22" r="0.7"/>
+    <circle cx="186" cy="42" r="1.1"/>
+    <circle cx="240" cy="18" r="0.8"/>
+    <circle cx="310" cy="38" r="0.9"/>
+    <circle cx="378" cy="22" r="1.2"/>
+    <circle cx="448" cy="42" r="0.8"/>
+    <circle cx="512" cy="20" r="1.0"/>
+    <circle cx="580" cy="38" r="0.7"/>
+    <circle cx="648" cy="22" r="0.9"/>
+    <circle cx="708" cy="42" r="0.7"/>
+    <circle cx="42" cy="78" r="0.6"/>
+    <circle cx="156" cy="90" r="0.7"/>
+    <circle cx="278" cy="82" r="0.6"/>
+    <circle cx="394" cy="98" r="0.7"/>
+    <circle cx="512" cy="86" r="0.6"/>
+    <circle cx="654" cy="94" r="0.7"/>
+    <circle cx="100" cy="125" r="0.6"/>
+    <circle cx="220" cy="138" r="0.5"/>
+    <circle cx="340" cy="118" r="0.7"/>
+    <circle cx="460" cy="135" r="0.6"/>
+    <circle cx="580" cy="125" r="0.7"/>
+    <circle cx="700" cy="140" r="0.5"/>
+  </g>
+  <!-- Brighter stars with bloom. -->
+  <g fill="#fff5d8" opacity="0.95">
+    <circle cx="186" cy="42" r="1.6" filter="url(#p12p1softBloom)"/>
+    <circle cx="378" cy="22" r="1.8" filter="url(#p12p1softBloom)"/>
+    <circle cx="648" cy="22" r="1.6" filter="url(#p12p1softBloom)"/>
+  </g>
+
+  <!-- Chimney smoke trails crossing sky (factory stacks below). -->
+  <g fill="#3a2818" opacity="0.55">
+    <ellipse cx="220" cy="120" rx="80" ry="22"/>
+    <ellipse cx="270" cy="100" rx="60" ry="15"/>
+    <ellipse cx="540" cy="135" rx="90" ry="25"/>
+    <ellipse cx="600" cy="115" rx="55" ry="14"/>
+  </g>
+  <g fill="#5a4830" opacity="0.4">
+    <ellipse cx="225" cy="115" rx="70" ry="18"/>
+    <ellipse cx="545" cy="130" rx="80" ry="22"/>
+  </g>
+
+  <!-- Distant amber haze rising from horizon (entire city's gas glow). -->
+  <rect y="170" width="742" height="60" fill="url(#p12p1cityHaze)"/>
+
+  <!-- St. Paul's dome silhouette in far distance. -->
+  <g id="p12p1-st-pauls" transform="translate(420, 218)">
+    <path d="M-30,0 Q-30,-30 0,-40 Q30,-30 30,0 Z" fill="#1a1820" opacity="0.85"/>
+    <path d="M-30,0 Q-30,-30 0,-40 Q30,-30 30,0" fill="none" stroke="#3a3030" stroke-width="0.7" opacity="0.6"/>
+    <rect x="-3" y="-50" width="6" height="12" fill="#1a1820"/>
+    <ellipse cx="0" cy="-44" rx="6" ry="3" fill="#1a1820"/>
+    <rect x="-1" y="-58" width="2" height="8" fill="#1a1820"/>
+    <circle cx="0" cy="-58" r="2" fill="#1a1820"/>
+  </g>
+
+  <!-- Distant city silhouette + chimney forests + spires (mid-far). -->
+  <g id="p12p1-far-city">
+    <path d="M0,225 L40,222 L60,228 L90,220 L130,228 L160,218 L200,226 L230,215 L260,224 L290,212 L320,222 L360,210 L400,220 L440,208 L480,218 L520,210 L560,220 L600,212 L640,222 L680,210 L720,218 L742,212 L742,260 L0,260 Z" fill="url(#p12p1slate)" opacity="0.85"/>
+
+    <!-- Distant church spires. -->
+    <polygon points="120,205 128,225 112,225" fill="#1a1820"/>
+    <polygon points="115,180 121,205 109,205" fill="#1a1820"/>
+    <polygon points="280,200 290,224 270,224" fill="#1a1820"/>
+    <polygon points="278,170 282,200 274,200" fill="#1a1820"/>
+    <polygon points="595,200 604,224 586,224" fill="#1a1820"/>
+    <polygon points="593,178 599,200 589,200" fill="#1a1820"/>
+
+    <!-- Tall factory stacks with smoke trails. -->
+    <rect x="218" y="172" width="6" height="55" fill="#0a0808"/>
+    <rect x="216" y="170" width="10" height="3" fill="#1a0808"/>
+    <rect x="538" y="178" width="6" height="50" fill="#0a0808"/>
+    <rect x="536" y="176" width="10" height="3" fill="#1a0808"/>
+  </g>
+
+  <!-- Mid-ground rooftops (more detailed slate + chimney pots). -->
+  <g id="p12p1-mid-roofs">
+    <path d="M0,290 L30,285 L60,292 L90,282 L120,290 L160,280 L200,290 L240,278 L280,288 L320,278 L360,288 L400,278 L440,288 L480,280 L520,290 L560,282 L600,290 L640,282 L680,290 L720,282 L742,288 L742,340 L0,340 Z" fill="url(#p12p1brick)"/>
+
+    <!-- Chimney pots (clusters). -->
+    <g id="p12p1-chimney-pots-mid">
+      <rect x="50" y="265" width="6" height="22" fill="#3a1810"/>
+      <rect x="58" y="262" width="6" height="25" fill="#3a1810"/>
+      <rect x="48" y="263" width="18" height="3" fill="#5a2812"/>
+
+      <rect x="148" y="262" width="5" height="22" fill="#3a1810"/>
+      <rect x="155" y="258" width="5" height="26" fill="#3a1810"/>
+      <rect x="162" y="262" width="5" height="22" fill="#3a1810"/>
+      <rect x="146" y="260" width="22" height="3" fill="#5a2812"/>
+
+      <rect x="338" y="265" width="6" height="20" fill="#3a1810"/>
+      <rect x="346" y="262" width="6" height="24" fill="#3a1810"/>
+      <rect x="354" y="265" width="6" height="20" fill="#3a1810"/>
+      <rect x="336" y="263" width="26" height="3" fill="#5a2812"/>
+
+      <rect x="498" y="262" width="5" height="22" fill="#3a1810"/>
+      <rect x="506" y="258" width="5" height="26" fill="#3a1810"/>
+      <rect x="514" y="262" width="5" height="22" fill="#3a1810"/>
+      <rect x="496" y="260" width="22" height="3" fill="#5a2812"/>
+
+      <rect x="638" y="262" width="5" height="22" fill="#3a1810"/>
+      <rect x="645" y="258" width="6" height="26" fill="#3a1810"/>
+      <rect x="636" y="260" width="18" height="3" fill="#5a2812"/>
+    </g>
+
+    <!-- Some lit windows scattered. -->
+    <ellipse cx="222" cy="318" rx="14" ry="8" fill="url(#p12p1windowGlow)" filter="url(#p12p1bloom)"/>
+    <rect x="216" y="313" width="12" height="11" fill="#fff5d8" opacity="0.95"/>
+    <ellipse cx="468" cy="315" rx="12" ry="7" fill="url(#p12p1windowGlow)" filter="url(#p12p1bloom)"/>
+    <rect x="463" y="310" width="10" height="10" fill="#fff5d8" opacity="0.9"/>
+  </g>
+
+  <!-- THAMES RIBBON cutting across mid-distance (curving). -->
+  <path d="M0,355 Q120,348 280,358 Q420,365 560,352 Q680,346 742,355 L742,378 Q680,375 560,378 Q420,388 280,380 Q120,378 0,378 Z" fill="#080a18" opacity="0.9"/>
+  <!-- Thames reflection (gaslight). -->
+  <path d="M0,360 Q120,353 280,362 Q420,368 560,357 Q680,351 742,360" fill="none" stroke="#5a4830" stroke-width="0.8" opacity="0.7"/>
+  <!-- Ships at anchor on Thames (amber riding lights). -->
+  <g>
+    <rect x="120" y="358" width="14" height="3" fill="#0a0408"/>
+    <line x1="121" y1="358" x2="121" y2="350" stroke="#0a0408" stroke-width="0.6"/>
+    <circle cx="121" cy="350" r="1.4" fill="#ffd060" filter="url(#p12p1softBloom)"/>
+    <rect x="280" y="362" width="16" height="3" fill="#0a0408"/>
+    <line x1="282" y1="362" x2="282" y2="354" stroke="#0a0408" stroke-width="0.6"/>
+    <circle cx="282" cy="354" r="1.6" fill="#ffd060" filter="url(#p12p1softBloom)"/>
+    <rect x="450" y="360" width="14" height="3" fill="#0a0408"/>
+    <line x1="452" y1="360" x2="452" y2="352" stroke="#0a0408" stroke-width="0.6"/>
+    <circle cx="452" cy="352" r="1.4" fill="#ffd060" filter="url(#p12p1softBloom)"/>
+    <rect x="600" y="358" width="14" height="3" fill="#0a0408"/>
+    <line x1="601" y1="358" x2="601" y2="350" stroke="#0a0408" stroke-width="0.6"/>
+    <circle cx="601" cy="350" r="1.4" fill="#ffd060" filter="url(#p12p1softBloom)"/>
+  </g>
+
+  <!-- Foreground rooftops (closer + more detail). -->
+  <g id="p12p1-near-roofs">
+    <path d="M0,395 L80,388 L150,395 L220,386 L290,394 L360,384 L430,392 L500,382 L570,390 L640,382 L720,392 L742,388 L742,460 L0,460 Z" fill="#0a0408"/>
+
+    <!-- Foreground chimney pot clusters (closer/larger). -->
+    <g id="p12p1-fg-chimneys">
+      <rect x="60" y="358" width="50" height="38" fill="#1a0810"/>
+      <rect x="64" y="335" width="10" height="26" fill="#3a1810"/>
+      <rect x="76" y="328" width="10" height="33" fill="#3a1810"/>
+      <rect x="88" y="332" width="10" height="29" fill="#3a1810"/>
+      <rect x="100" y="335" width="10" height="26" fill="#3a1810"/>
+      <rect x="62" y="332" width="50" height="4" fill="#5a2812"/>
+      <line x1="68" y1="335" x2="68" y2="358" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+      <line x1="80" y1="328" x2="80" y2="358" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+      <line x1="92" y1="332" x2="92" y2="358" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+      <line x1="104" y1="335" x2="104" y2="358" stroke="#0a0204" stroke-width="0.6" opacity="0.85"/>
+
+      <rect x="350" y="362" width="55" height="32" fill="#1a0810"/>
+      <rect x="355" y="340" width="10" height="24" fill="#3a1810"/>
+      <rect x="368" y="334" width="10" height="30" fill="#3a1810"/>
+      <rect x="382" y="338" width="10" height="26" fill="#3a1810"/>
+      <rect x="395" y="342" width="10" height="22" fill="#3a1810"/>
+      <rect x="352" y="338" width="55" height="4" fill="#5a2812"/>
+
+      <rect x="610" y="360" width="48" height="35" fill="#1a0810"/>
+      <rect x="614" y="338" width="10" height="24" fill="#3a1810"/>
+      <rect x="626" y="332" width="10" height="30" fill="#3a1810"/>
+      <rect x="638" y="336" width="10" height="26" fill="#3a1810"/>
+      <rect x="650" y="340" width="10" height="22" fill="#3a1810"/>
+      <rect x="612" y="336" width="50" height="4" fill="#5a2812"/>
+    </g>
+
+    <!-- Lit foreground windows. -->
+    <ellipse cx="220" cy="425" rx="18" ry="11" fill="url(#p12p1windowGlow)" filter="url(#p12p1bloom)" opacity="0.85"/>
+    <rect x="212" y="418" width="16" height="14" fill="#fff5d8" opacity="0.95"/>
+    <line x1="220" y1="418" x2="220" y2="432" stroke="#3a1810" stroke-width="0.6"/>
+    <line x1="212" y1="425" x2="228" y2="425" stroke="#3a1810" stroke-width="0.6"/>
+
+    <ellipse cx="495" cy="430" rx="16" ry="10" fill="url(#p12p1windowGlow)" filter="url(#p12p1bloom)" opacity="0.7"/>
+    <rect x="488" y="423" width="14" height="13" fill="#fff5d8" opacity="0.85"/>
+  </g>
+
+  <!-- AMBER GASLIGHT RIVERS — winding amber pools through streets. -->
+  <g id="p12p1-streets">
+    <ellipse cx="180" cy="468" rx="80" ry="14" fill="url(#p12p1fogPool)" filter="url(#p12p1bloom)"/>
+    <ellipse cx="380" cy="478" rx="100" ry="16" fill="url(#p12p1fogPool)" filter="url(#p12p1bloom)"/>
+    <ellipse cx="580" cy="468" rx="80" ry="14" fill="url(#p12p1fogPool)" filter="url(#p12p1bloom)"/>
+  </g>
+
+  <!-- Individual gas lamps as pinpricks. -->
+  <g>
+    <circle cx="155" cy="465" r="1.4" fill="#ffe8a8" filter="url(#p12p1softBloom)"/>
+    <circle cx="195" cy="468" r="1.2" fill="#ffe8a8" filter="url(#p12p1softBloom)"/>
+    <circle cx="235" cy="465" r="1.4" fill="#ffe8a8" filter="url(#p12p1softBloom)"/>
+    <circle cx="345" cy="478" r="1.4" fill="#ffe8a8" filter="url(#p12p1softBloom)"/>
+    <circle cx="385" cy="480" r="1.6" fill="#ffe8a8" filter="url(#p12p1softBloom)"/>
+    <circle cx="425" cy="478" r="1.4" fill="#ffe8a8" filter="url(#p12p1softBloom)"/>
+    <circle cx="555" cy="466" r="1.2" fill="#ffe8a8" filter="url(#p12p1softBloom)"/>
+    <circle cx="595" cy="468" r="1.4" fill="#ffe8a8" filter="url(#p12p1softBloom)"/>
+    <circle cx="635" cy="466" r="1.2" fill="#ffe8a8" filter="url(#p12p1softBloom)"/>
+  </g>
+
+  <!-- JINK'S BOOT TIPS + WING EDGE at bottom edge (POV grounding). -->
+  <g id="p12p1-jink-grounding">
+    <!-- Boot tips (emerald metallic suit boots). -->
+    <path d="M285,544 L295,520 L325,512 L345,524 L350,544 Z" fill="#2ed078" stroke="#080408" stroke-width="0.8"/>
+    <path d="M295,520 L325,512 L345,524" fill="none" stroke="#5af5a0" stroke-width="1" opacity="0.6"/>
+    <ellipse cx="320" cy="520" rx="10" ry="3" fill="#1a4828" opacity="0.55"/>
+
+    <path d="M395,546 L408,520 L438,514 L458,528 L460,548 Z" fill="#2ed078" stroke="#080408" stroke-width="0.8"/>
+    <path d="M408,520 L438,514 L458,528" fill="none" stroke="#5af5a0" stroke-width="1" opacity="0.6"/>
+    <ellipse cx="430" cy="522" rx="10" ry="3" fill="#1a4828" opacity="0.55"/>
+
+    <!-- Translucent emerald dragonfly wing edge (left side framing). -->
+    <path d="M0,508 Q60,498 130,500 Q220,500 285,520" fill="none" stroke="#2ed078" stroke-width="3" opacity="0.55"/>
+    <path d="M0,500 Q60,490 130,492 Q220,494 285,512" fill="url(#p12p1wingGlow)" opacity="0.45" filter="url(#p12p1softBloom)"/>
+    <!-- Geometric lattice pattern on wing. -->
+    <g stroke="#a8f5c8" stroke-width="0.6" fill="none" opacity="0.7">
+      <line x1="40" y1="498" x2="80" y2="503"/>
+      <line x1="80" y1="498" x2="120" y2="503"/>
+      <line x1="120" y1="498" x2="160" y2="503"/>
+      <line x1="160" y1="498" x2="200" y2="505"/>
+      <line x1="200" y1="500" x2="240" y2="508"/>
+      <line x1="240" y1="503" x2="280" y2="514"/>
+      <!-- Cross-veins. -->
+      <line x1="60" y1="496" x2="62" y2="510"/>
+      <line x1="100" y1="496" x2="102" y2="510"/>
+      <line x1="140" y1="496" x2="142" y2="510"/>
+      <line x1="180" y1="498" x2="184" y2="513"/>
+      <line x1="220" y1="500" x2="224" y2="515"/>
+      <line x1="260" y1="505" x2="264" y2="518"/>
+    </g>
+  </g>
+
+  <!-- JINK dialogue — small text near boot/wing area, bottom-left. -->
+  <g id="p12p1-dlg-jink-1">
+    <rect x="22" y="20" width="118" height="44" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="32" y="40" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="32" y="58" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Captain.</text>
+    <path d="M62,64 L78,64 L74,76 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="62" y1="64" x2="78" y2="64" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p12p1-dlg-jink-2">
+    <rect x="22" y="84" width="218" height="44" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="32" y="104" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="32" y="122" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">You need to see this.</text>
+    <path d="M82,128 L100,128 L96,140 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="82" y1="128" x2="100" y2="128" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p12p1-meta">
+    <text x="730" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="734" y="552" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">JINK POV — CITY SPLASH</text>
+  </g>
+</svg>

@@ -2,21 +2,23 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 8 added, headcount + dual-light boundary).
+**Last update:** 2026-04-27 (loop session extended — Page 12 added, scale-reveal money shot).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–8 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier "submarine / toque / teapot / stick-figure / no console" failure modes from v1 have been fixed across all 26 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05).
+**Pages 1–8 + 12 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier "submarine / toque / teapot / stick-figure / no console" failure modes from v1 have been fixed across all 30 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04).
 
-**Page 8 (headcount) just added** — Section 3 continues. 5-panel layout (Sable+Thresh assess + Wren diagnostic / Luma scans Jink full-width / Thresh CU dual-light + Sable boundary command). Sums to 1179px page-fill.
+**Page 12 (scale-reveal money shot) just added** — Jink's POV of Victorian London from chimney-top altitude. Half-page splash + 3 inset thirds: city splash with St. Paul's dome / Jink banks chimney pot / aerial view of gutter (squad as color dots) / Jink hovers wonder-beat CU. Sums to 1181px page-fill.
 
-**Page 4 (descent transition) closed Section 1.** 4-panel cascading vertical layout (corridor burst → interior crash → bird's-eye fragments → London 1886 street splash).
+**Page 8 (headcount + dual-light boundary)** — Section 3. 5-panel layout (1179px).
 
-**Pages 5, 6, 7 of Issue 1 are at quality bar.** Pages 5-6 (Section 2 — THE FALL). Page 7 (Section 3 opening — THE WRECKAGE).
+**Page 4 (descent transition)** — closed Section 1. 4-panel cascading vertical (1181px).
 
-**Pages 9-22 of Issue 1 remain auto-generated stick-figure storyboards** — 10pt dialogue, abstract figures.
+**Pages 5, 6, 7 (Sections 2-3 opening)** — at quality bar.
+
+**Pages 9-11, 13-22 of Issue 1 remain auto-generated stick-figure storyboards.**
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -220,6 +222,62 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 12 — DONE (key Section 3 page — scale-reveal money shot)
+
+Half-page splash + 3 inset thirds layout summing to 1181px page-fill. This is THE scale-reveal page of Issue 1.
+
+### P12P01 — Jink's POV of Victorian London from above (742×560 — splash)
+- ✅ Ultra-wide POV from chimney-top altitude
+- ✅ Sky upper portion: stars + chimney smoke trails (factory belching)
+- ✅ Far horizon: church spire silhouettes + factory stacks + St. Paul's dome (centered-right) + amber haze rising
+- ✅ Mid-ground rooftops with chimney pot clusters + lit windows scattered
+- ✅ Thames ribbon crosses mid-distance with ships at amber riding lights (4 ships visible)
+- ✅ Foreground rooftops with detailed chimney pot clusters (5+ pots per cluster)
+- ✅ Lit foreground windows + amber gaslight pools winding through streets at bottom
+- ✅ Individual gas lamp pinpricks (warm amber)
+- ✅ JINK'S BOOT TIPS at bottom-center (emerald metallic with edge highlights)
+- ✅ Translucent emerald dragonfly wing edge framing left-bottom (geometric lattice + cross-veins + bright leading edge)
+- ✅ Two JINK balloons in correct reading order (top-left): "Captain." / "You need to see this."
+- 🟢 Sells the scale: tiny fairy hovering over enormous warm-amber world. Money shot landed.
+
+### P12P02 — Jink banks around massive chimney pot, joy in flight (244×552)
+- ✅ Hero chimney pot dominates right side: cylindrical clay column, soot streaks, lichen patches (greenish-brown), crusty texture
+- ✅ Crown ring at top + soot-shadow wash
+- ✅ Distant chimney forest receding into BG (multi-tier)
+- ✅ Warm amber rising from below uplights soot surfaces
+- ✅ Jink banking with translucent emerald wings (4-panel dragonfly layout, geometric lattice motion-blurred)
+- ✅ Golden curls streaming back/up with motion ovals
+- ✅ Full grin (open mouth showing teeth, lifted cheeks, raised brow, wide eyes)
+- ✅ Emerald wing-glow slash visible across left side of chimney pot clay (with geometric pattern reflection)
+- ✅ Silent panel — joy speaks for itself
+
+### P12P03 — Aerial view of gutter, reverse scale-sell (244×552)
+- ✅ Welsh slate roof plain (dark stone with horizontal seams + diagonal offset pattern)
+- ✅ Lead flashing strip with riveted seams along left edge
+- ✅ Cast-iron gutter as thin vertical channel (6px wide)
+- ✅ Wreckage trail = pulsing cool blue-white halos along the gutter (4 main pulse points)
+- ✅ Tiny squad dots inside gutter — color-coded specks: silver Sable, copper Wren, ruby Thresh, sapphire-violet Luma (vanishingly small)
+- ✅ Distant chimney stacks rising from roof
+- ✅ Translucent emerald wing edge framing top of frame (Jink looking down)
+- ✅ JINK (RADIO) dashed-border balloon with "I can see our position. We're on a rooftop. Church to the southeast. Big river to the south. Wreckage trail ~40m. — uh, at our scale." (italic aside preserved)
+- ✅ Distant warm gaslight at far-right edge (street below glimpsed)
+- 🟢 Reverse scale-sell delivered — from above the squad is impossibly small
+
+### P12P04 — Jink hovers, wonder complicated by understanding (244×552)
+- ✅ Jink CU centered, looking directly at viewer
+- ✅ Translucent emerald geometric wings spread BEHIND with full lattice + leading edges + cross-veins
+- ✅ Wild golden curls floating UPWARD in updraft (radiating outward, including wisps lifted high)
+- ✅ Emerald scuffed suit + chest plate accent + scuff marks
+- ✅ Eyes wide with warm catch-lights AND tiny amber pinpricks for distant gaslights reflected in iris
+- ✅ Lips slightly parted (the grin SOFTENED — script-accurate)
+- ✅ Brow slightly raised (wonder)
+- ✅ Warm uplighting wash on face from city below dominates
+- ✅ BG: distant city silhouettes + chimney pots + warm amber haze rising + gaslight pinpricks
+- ✅ JINK (RADIO) dashed-border: "Sable. / It goes on forever." with bold emphasis on second line
+- 🟢 The "wonder complicated by understanding" beat lands
 
 ---
 

@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 552" width="244" height="552">
+  <title>Issue 1 — Page 12 — Panel 3: Aerial view of gutter — reverse scale-sell</title>
+  <desc>Wide shot from high angle (35mm), looking down. Victorian rooftop seen from altitude — dark Welsh slate stretching like stone plain, chimney stacks rising, lead flashing at edges. Along rooftop edge, narrow cast-iron gutter runs as thin channel. Inside it: small scatter of alien wreckage debris glowing fading blue-white, tiny dots of color (silver, copper, ruby, sapphire-violet). Top of frame: translucent edge of emerald geometric wings framing view (Jink looking down). Wreckage trail = fragile thread of dying alien light in dark warm world. Warm amber from gaslight glows at roof edges + streets far below. JINK (radio): "I can see our position. Rooftop near... church to southeast. Big river to south. Wreckage trail along gutter ~forty meters — uh, at our scale."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p12p3roof" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2830"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </linearGradient>
+    <linearGradient id="p12p3gutter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="p12p3warmRim" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p12p3coolWreck" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#5aa6dc" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p12p3wingGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a8f5c8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a5a30" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p12p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p12p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Sky/void at top (above the roof, looking down). -->
+  <rect width="244" height="552" fill="#020208"/>
+
+  <!-- Welsh slate roof — large dark stone plain (mid-frame). -->
+  <rect x="0" y="120" width="244" height="380" fill="url(#p12p3roof)"/>
+  <!-- Slate texture (long horizontal seams). -->
+  <g stroke="#0a0810" stroke-width="0.5" opacity="0.85">
+    <line x1="0" y1="160" x2="244" y2="158"/>
+    <line x1="0" y1="200" x2="244" y2="198"/>
+    <line x1="0" y1="240" x2="244" y2="238"/>
+    <line x1="0" y1="280" x2="244" y2="278"/>
+    <line x1="0" y1="320" x2="244" y2="318"/>
+    <line x1="0" y1="360" x2="244" y2="358"/>
+    <line x1="0" y1="400" x2="244" y2="398"/>
+    <line x1="0" y1="440" x2="244" y2="438"/>
+    <line x1="0" y1="480" x2="244" y2="478"/>
+  </g>
+  <!-- Diagonal slate seams (offset bricks pattern). -->
+  <g stroke="#0a0810" stroke-width="0.4" opacity="0.7">
+    <line x1="0" y1="140" x2="20" y2="160"/>
+    <line x1="40" y1="140" x2="60" y2="160"/>
+    <line x1="80" y1="140" x2="100" y2="160"/>
+    <line x1="120" y1="140" x2="140" y2="160"/>
+    <line x1="160" y1="140" x2="180" y2="160"/>
+    <line x1="200" y1="140" x2="220" y2="160"/>
+    <line x1="20" y1="180" x2="40" y2="200"/>
+    <line x1="60" y1="180" x2="80" y2="200"/>
+    <line x1="100" y1="180" x2="120" y2="200"/>
+    <line x1="140" y1="180" x2="160" y2="200"/>
+    <line x1="180" y1="180" x2="200" y2="200"/>
+    <line x1="220" y1="180" x2="240" y2="200"/>
+  </g>
+
+  <!-- Distant chimney stacks rising from roof (far). -->
+  <g id="p12p3-chimneys-far">
+    <rect x="20" y="195" width="20" height="55" fill="#1a0e08"/>
+    <rect x="18" y="192" width="24" height="4" fill="#3a1810"/>
+    <rect x="22" y="180" width="4" height="14" fill="#3a1810"/>
+    <rect x="28" y="178" width="4" height="16" fill="#3a1810"/>
+    <rect x="34" y="180" width="4" height="14" fill="#3a1810"/>
+
+    <rect x="180" y="225" width="22" height="60" fill="#1a0e08"/>
+    <rect x="178" y="222" width="26" height="4" fill="#3a1810"/>
+    <rect x="184" y="208" width="4" height="16" fill="#3a1810"/>
+    <rect x="192" y="205" width="4" height="19" fill="#3a1810"/>
+    <rect x="200" y="208" width="4" height="16" fill="#3a1810"/>
+  </g>
+
+  <!-- Lead flashing strip running along the LEFT roof edge (where gutter sits). -->
+  <rect x="0" y="120" width="22" height="380" fill="#2a2830" opacity="0.85"/>
+  <line x1="22" y1="120" x2="22" y2="500" stroke="#080404" stroke-width="0.8"/>
+  <!-- Riveted seams in flashing. -->
+  <g fill="#0a0810" opacity="0.85">
+    <circle cx="11" cy="160" r="0.7"/>
+    <circle cx="11" cy="200" r="0.7"/>
+    <circle cx="11" cy="240" r="0.7"/>
+    <circle cx="11" cy="280" r="0.7"/>
+    <circle cx="11" cy="320" r="0.7"/>
+    <circle cx="11" cy="360" r="0.7"/>
+    <circle cx="11" cy="400" r="0.7"/>
+    <circle cx="11" cy="440" r="0.7"/>
+    <circle cx="11" cy="480" r="0.7"/>
+  </g>
+
+  <!-- THE GUTTER itself: thin cast-iron channel running vertically along left edge. -->
+  <g id="p12p3-gutter">
+    <rect x="0" y="120" width="6" height="380" fill="url(#p12p3gutter)"/>
+    <line x1="0" y1="120" x2="0" y2="500" stroke="#080404" stroke-width="1.2"/>
+    <line x1="6" y1="120" x2="6" y2="500" stroke="#080404" stroke-width="0.8"/>
+    <!-- Faint inside-gutter fill (visible from above, slight curve). -->
+    <ellipse cx="3" cy="310" rx="2.5" ry="170" fill="#1a0a08"/>
+  </g>
+
+  <!-- WRECKAGE TRAIL along gutter — fading blue-white pulses. -->
+  <g id="p12p3-wreckage-trail">
+    <!-- Glow halo along trail. -->
+    <ellipse cx="3" cy="220" rx="32" ry="12" fill="url(#p12p3coolWreck)" filter="url(#p12p3strongBloom)" opacity="0.7"/>
+    <ellipse cx="3" cy="280" rx="40" ry="15" fill="url(#p12p3coolWreck)" filter="url(#p12p3strongBloom)" opacity="0.85"/>
+    <ellipse cx="3" cy="340" rx="36" ry="14" fill="url(#p12p3coolWreck)" filter="url(#p12p3strongBloom)" opacity="0.75"/>
+    <ellipse cx="3" cy="400" rx="28" ry="11" fill="url(#p12p3coolWreck)" filter="url(#p12p3strongBloom)" opacity="0.6"/>
+
+    <!-- Individual wreckage shards (tiny angular debris). -->
+    <g fill="#1a1a24" stroke="#bfe4ff" stroke-width="0.5">
+      <polygon points="-1,215 4,212 6,222 0,225"/>
+      <polygon points="-2,275 5,270 8,285 -1,288"/>
+      <polygon points="0,335 5,330 7,345 -1,348"/>
+      <polygon points="-1,395 4,392 6,402 0,405"/>
+      <polygon points="-2,440 4,438 5,448 -1,450"/>
+    </g>
+    <!-- Bright sparking points. -->
+    <g fill="#ffffff" filter="url(#p12p3bloom)">
+      <circle cx="2" cy="220" r="1.4"/>
+      <circle cx="3" cy="280" r="1.6"/>
+      <circle cx="2" cy="340" r="1.4"/>
+      <circle cx="3" cy="400" r="1.2"/>
+    </g>
+  </g>
+
+  <!-- TINY SQUAD DOTS in the gutter — color-coded specks. -->
+  <g id="p12p3-squad-dots">
+    <!-- Sable (silver). -->
+    <circle cx="3" cy="252" r="2.2" fill="#bfc6d0"/>
+    <circle cx="3" cy="252" r="1.2" fill="#5a606a"/>
+    <!-- Wren (copper). -->
+    <circle cx="3" cy="232" r="2.2" fill="#c87a35"/>
+    <circle cx="3" cy="232" r="1.2" fill="#7a3818"/>
+    <!-- Thresh (ruby). -->
+    <circle cx="3" cy="298" r="2.2" fill="#dc2030"/>
+    <circle cx="3" cy="298" r="1.2" fill="#5a1018"/>
+    <!-- Luma (sapphire-violet). -->
+    <circle cx="3" cy="380" r="2.2" fill="#5a3ad8"/>
+    <circle cx="3" cy="380" r="1.2" fill="#2a18a0"/>
+  </g>
+
+  <!-- Distant warm amber gaslight at the FAR-RIGHT roof edge (adjoining roof / street below glimpsed). -->
+  <g id="p12p3-far-edge">
+    <ellipse cx="244" cy="510" rx="120" ry="50" fill="url(#p12p3warmRim)" filter="url(#p12p3strongBloom)" opacity="0.75"/>
+    <ellipse cx="244" cy="120" rx="120" ry="40" fill="url(#p12p3warmRim)" filter="url(#p12p3strongBloom)" opacity="0.55"/>
+  </g>
+  <!-- Streets glimpsed at far-right edge as dim amber pinpricks. -->
+  <g fill="#ffd060" filter="url(#p12p3bloom)">
+    <circle cx="232" cy="540" r="0.9"/>
+    <circle cx="240" cy="525" r="0.7"/>
+    <circle cx="220" cy="535" r="0.7"/>
+  </g>
+
+  <!-- JINK'S WING EDGE at top of frame (translucent emerald, framing element). -->
+  <g id="p12p3-wing-frame">
+    <!-- Wing curve from top-left arcing across top edge. -->
+    <path d="M0,40 Q60,20 130,30 Q200,42 244,80" stroke="#2ed078" stroke-width="3" fill="none" opacity="0.65"/>
+    <path d="M0,30 Q60,10 130,20 Q200,32 244,70" fill="url(#p12p3wingGlow)" opacity="0.4" filter="url(#p12p3bloom)"/>
+    <!-- Geometric lattice on wing. -->
+    <g stroke="#a8f5c8" stroke-width="0.7" fill="none" opacity="0.7">
+      <line x1="20" y1="22" x2="50" y2="32"/>
+      <line x1="50" y1="20" x2="80" y2="30"/>
+      <line x1="80" y1="20" x2="110" y2="28"/>
+      <line x1="110" y1="22" x2="140" y2="32"/>
+      <line x1="140" y1="25" x2="170" y2="35"/>
+      <line x1="170" y1="28" x2="200" y2="42"/>
+      <line x1="200" y1="35" x2="230" y2="55"/>
+      <!-- Cross-veins. -->
+      <line x1="40" y1="20" x2="42" y2="38"/>
+      <line x1="80" y1="20" x2="82" y2="35"/>
+      <line x1="120" y1="22" x2="122" y2="38"/>
+      <line x1="160" y1="28" x2="164" y2="42"/>
+      <line x1="200" y1="35" x2="206" y2="55"/>
+    </g>
+    <!-- Bright leading edge. -->
+    <path d="M0,30 Q60,10 130,20 Q200,32 244,70" fill="none" stroke="#bfffe0" stroke-width="1.2" opacity="0.85"/>
+  </g>
+
+  <!-- JINK radio dialogue (long line — needs wrapping). Place mid-right where the gutter doesn't conflict. -->
+  <g id="p12p3-dlg-jink">
+    <rect x="44" y="120" width="186" height="148" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="54" y="142" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK (RADIO)</text>
+    <text x="54" y="162" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">I can see our</text>
+    <text x="54" y="178" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">position. We're on</text>
+    <text x="54" y="194" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">a rooftop. Church to</text>
+    <text x="54" y="210" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">the southeast. Big</text>
+    <text x="54" y="226" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">river to the south.</text>
+    <text x="54" y="242" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Wreckage trail ~40m.</text>
+    <text x="54" y="258" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a2a3a">— uh, at our scale.</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p12p3-meta">
+    <text x="236" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="240" y="544" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">AERIAL — REVERSE SCALE</text>
+  </g>
+</svg>
