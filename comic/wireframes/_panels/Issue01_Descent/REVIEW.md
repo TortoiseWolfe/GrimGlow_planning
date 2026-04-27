@@ -2,13 +2,13 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 19 added, climax arc fills).
+**Last update:** 2026-04-27 (loop session extended — Page 20 added, first night settles).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–8 + 12 + 18–19 + 22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 39 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P22P01).
+**Pages 1–8 + 12 + 18–20 + 22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 43 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P22P01).
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -22,9 +22,11 @@
 
 **Pages 5, 6, 7 (Sections 2-3 opening)** — at quality bar.
 
-**Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px (banner / 2-col / banner).
+**Page 20 (first night settles)** — 4 panels, 1179px (banner panoramic / 2-col / banner night camp).
 
-**Pages 9-11, 13-17, 20-21 of Issue 1 remain auto-generated stick-figure storyboards.**
+**Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px.
+
+**Pages 9-11, 13-17, 21 of Issue 1 remain auto-generated stick-figure storyboards.**
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -228,6 +230,62 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 20 — DONE (climax arc continues — first night settles)
+
+4 panels in 3 tiers (full-width banner / 2-col center / full-width banner footer) summing to 1179px page-fill.
+
+### P20P01 — Panoramic Victorian city at night (742×320)
+- ✅ Ultra-wide cinematic letterbox from rooftop gutter lip
+- ✅ Sky w/ stars + chimney smoke trails
+- ✅ Far horizon city silhouette: St. Paul's dome center, factory stacks, church spires + amber haze rising
+- ✅ DISTANT TRAIN ON VIADUCT visible top-right as line of amber pinpricks moving through fog (script-specific detail)
+- ✅ Mid-ground rooftops + chimney pots + lit windows
+- ✅ Thames ribbon w/ glints
+- ✅ Foreground rooftop with sharp drop edge
+- ✅ Gaslit street below w/ amber gas pools + cobblestone hint + gas lamp pinpricks
+- ✅ Horse and cart silhouette passing in street (visible — small but identifiable as horse w/ legs + cart w/ wheels)
+- ✅ Two parchment captions stacked top-right: "London. 1886. Population: four million, eight hundred thousand." + "And five." (bold italic)
+
+### P20P02 — Sable + Wren partnership low angle (366×400)
+- ✅ Worm's-eye perspective: curved gutter walls rising on both sides
+- ✅ Sable left, silver suit, head tilted slightly, ARMS CROSSED, listening pose
+- ✅ Wren right, copper suit, gesturing with pen-tool extending toward Sable
+- ✅ Floating copper-gold holographic list visible center between them with 3 dashed-outline items + tiny icons
+- ✅ Cool wreckage glow at bottom underlights both figures
+- ✅ Faint warm city-glow at top edge peeking over walls
+- ✅ Cracked right shoulder on Sable bleeding blue-white
+- ✅ Wren w/ messy bun + strands across face + hydraulic stains
+- ✅ WREN long balloon top w/ bold "we don't have" emphasis
+- ✅ SABLE response balloon bottom w/ bold "We start tomorrow." emphasis
+
+### P20P03 — Thresh on watch + Luma's campsite (366×400)
+- ✅ Thresh sitting against gutter wall (left), ruby suit, copper buzz, dented pauldron
+- ✅ Compact weapon across drawn-up knees w/ crimson holographic accent lines
+- ✅ Eyes scanning right (toward gutter lip darkness)
+- ✅ DEAD OAK LEAF lean-to shelter (right) with characteristic lobed edges (oak-specific per script)
+- ✅ Luma underneath leaf w/ leaf-fragment WRAP around shoulders for warmth (organic brown over sapphire — bizarre against metallic per script)
+- ✅ Holographic monitoring window scrolling data with tiny readout text (O₂ 19%, N 78%, CO₂ 0.03)
+- ✅ Bright blue-violet glow from monitoring station (intimate campfire-equivalent per script)
+- ✅ Faint warm city-glow at far-right edge
+- ✅ LUMA balloon top w/ italic aside "For a pre-filtration era." preserved
+- ✅ THRESH terse "Great." balloon — single curt response
+
+### P20P04 — Night camp wide gutter — precarious beauty (742×380)
+- ✅ Wide shot looking along gutter, dark night atmosphere
+- ✅ Stars + chimney stacks rising at top
+- ✅ Curved gutter wall + rivets + soot streaks
+- ✅ All 5 squad members visible across the gutter from L→R:
+  - Wren copper sleeping by drive housing (hand on housing, eyes closed)
+  - Luma sapphire under brown oak leaf shelter w/ scanner glowing blue-violet
+  - Thresh ruby sitting upright w/ weapon across drawn-up knees, watchful (eyes scanning)
+  - Jink emerald curled on gutter lip w/ ARM DANGLING OVER ABYSS + faint emerald wing-pack lattice glow
+  - Sable silver silhouette far-right standing alone at edge facing city, warm amber rim catching her hair + suit edge
+- ✅ Strong warm amber city-glow from right (gutter lip / city beyond)
+- ✅ Coal sediment + scattered dead leaves + twigs on gutter floor
+- ✅ Caption parchment top-left w/ italic + bold final line "vast, warm, and utterly indifferent."
 
 ---
 

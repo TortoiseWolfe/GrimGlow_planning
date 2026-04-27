@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 1 — Page 20 — Panel 1: Panoramic Victorian city at night</title>
+  <desc>Ultra-wide panoramic at 18mm from rain gutter lip, eye level cinematic letterbox. Slate roof drops to gaslit street 3 stories below w/ horse+cart passing. Vast urban landscape: rooftops, dense chimney forests, church spires from fog, gas grid streets, distant train on viaduct as amber pinpricks moving through fog, Thames glints darkly, dark starry sky. Entirely warm amber. Two captions: "London. 1886. Population: four million, eight hundred thousand." / "And five."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+    <linearGradient id="p20p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="60%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p20p1cityHaze" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#7a4830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0.85"/>
+    </linearGradient>
+    <radialGradient id="p20p1streetGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p20p1windowGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d8" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#f5a850" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p20p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p20p1softBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.5"/></filter>
+    <filter id="p20p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky background. -->
+  <rect width="742" height="320" fill="url(#p20p1sky)"/>
+
+  <!-- Stars dusted across upper sky. -->
+  <g fill="#dce4f0" opacity="0.85">
+    <circle cx="48" cy="22" r="0.7"/>
+    <circle cx="115" cy="32" r="0.5"/>
+    <circle cx="180" cy="22" r="0.8"/>
+    <circle cx="248" cy="38" r="0.6"/>
+    <circle cx="310" cy="28" r="0.7"/>
+    <circle cx="378" cy="42" r="1.2"/>
+    <circle cx="445" cy="22" r="0.7"/>
+    <circle cx="512" cy="38" r="0.6"/>
+    <circle cx="580" cy="28" r="0.8"/>
+    <circle cx="640" cy="42" r="0.5"/>
+    <circle cx="700" cy="28" r="0.7"/>
+    <circle cx="78" cy="68" r="0.5"/>
+    <circle cx="148" cy="80" r="0.6"/>
+    <circle cx="215" cy="68" r="0.5"/>
+    <circle cx="282" cy="78" r="0.6"/>
+    <circle cx="412" cy="78" r="0.5"/>
+    <circle cx="478" cy="68" r="0.6"/>
+    <circle cx="545" cy="78" r="0.5"/>
+    <circle cx="608" cy="68" r="0.6"/>
+    <circle cx="672" cy="80" r="0.7"/>
+  </g>
+  <g fill="#fff5d8" opacity="0.95">
+    <circle cx="378" cy="42" r="1.6" filter="url(#p20p1softBloom)"/>
+  </g>
+
+  <!-- Distant amber haze rising from horizon. -->
+  <rect y="80" width="742" height="60" fill="url(#p20p1cityHaze)"/>
+
+  <!-- Far horizon city silhouette: spires, factory stacks, distant rooftops, church domes. -->
+  <g id="p20p1-far-horizon">
+    <path d="M0,140 L40,138 L60,142 L90,134 L130,140 L160,134 L200,140 L230,128 L260,138 L290,124 L320,138 L360,124 L400,134 L440,124 L480,138 L520,124 L560,138 L600,128 L640,140 L680,124 L720,138 L742,128 L742,200 L0,200 Z" fill="#1a1820" opacity="0.85"/>
+
+    <!-- Distant church spires/towers. -->
+    <polygon points="118,118 124,140 110,140" fill="#1a1820"/>
+    <polygon points="278,114 284,140 270,140" fill="#1a1820"/>
+    <polygon points="438,118 446,140 430,140" fill="#1a1820"/>
+    <polygon points="595,114 604,140 586,140" fill="#1a1820"/>
+
+    <!-- St. Paul's dome (centered-right). -->
+    <g transform="translate(420, 138)">
+      <path d="M-22,0 Q-22,-22 0,-30 Q22,-22 22,0 Z" fill="#1a1820" opacity="0.85"/>
+      <rect x="-2" y="-38" width="4" height="8" fill="#1a1820"/>
+      <ellipse cx="0" cy="-32" rx="4" ry="2" fill="#1a1820"/>
+    </g>
+
+    <!-- Tall factory stacks w/ smoke. -->
+    <rect x="218" y="92" width="6" height="48" fill="#0a0808"/>
+    <rect x="538" y="95" width="6" height="45" fill="#0a0808"/>
+    <ellipse cx="240" cy="76" rx="38" ry="10" fill="#3a2818" opacity="0.55"/>
+    <ellipse cx="560" cy="80" rx="42" ry="12" fill="#3a2818" opacity="0.55"/>
+
+    <!-- DISTANT TRAIN ON VIADUCT — tiny amber pinpricks moving through fog, far right side. -->
+    <line x1="600" y1="155" x2="720" y2="148" stroke="#3a2818" stroke-width="4" opacity="0.7"/>
+    <g fill="#ffd060" filter="url(#p20p1softBloom)">
+      <circle cx="610" cy="153" r="0.9"/>
+      <circle cx="630" cy="151" r="0.9"/>
+      <circle cx="650" cy="150" r="0.9"/>
+      <circle cx="670" cy="149" r="0.9"/>
+      <circle cx="690" cy="148" r="1.0"/>
+      <circle cx="708" cy="148" r="1.0"/>
+    </g>
+    <!-- Faint smoke from train. -->
+    <ellipse cx="700" cy="142" rx="20" ry="4" fill="#3a2818" opacity="0.4"/>
+  </g>
+
+  <!-- Mid-ground rooftops + chimney pots. -->
+  <g id="p20p1-mid-roofs">
+    <path d="M0,200 L30,196 L60,204 L90,194 L130,202 L160,194 L200,202 L240,194 L280,200 L320,194 L360,202 L400,194 L440,202 L480,194 L520,202 L560,194 L600,200 L640,194 L680,202 L720,194 L742,200 L742,240 L0,240 Z" fill="#0a0808"/>
+    <!-- Chimney pots. -->
+    <g fill="#3a1810">
+      <rect x="48" y="180" width="5" height="20"/>
+      <rect x="56" y="178" width="5" height="22"/>
+      <rect x="46" y="179" width="20" height="3" fill="#5a2812"/>
+      <rect x="148" y="178" width="5" height="22"/>
+      <rect x="156" y="176" width="5" height="24"/>
+      <rect x="146" y="177" width="20" height="3" fill="#5a2812"/>
+      <rect x="358" y="180" width="5" height="20"/>
+      <rect x="366" y="178" width="5" height="22"/>
+      <rect x="356" y="179" width="20" height="3" fill="#5a2812"/>
+      <rect x="498" y="178" width="5" height="22"/>
+      <rect x="506" y="176" width="5" height="24"/>
+      <rect x="496" y="177" width="20" height="3" fill="#5a2812"/>
+      <rect x="638" y="180" width="5" height="20"/>
+      <rect x="646" y="178" width="5" height="22"/>
+      <rect x="636" y="179" width="20" height="3" fill="#5a2812"/>
+    </g>
+    <!-- Lit windows scattered. -->
+    <ellipse cx="222" cy="222" rx="11" ry="6" fill="url(#p20p1windowGlow)" filter="url(#p20p1bloom)"/>
+    <rect x="218" y="220" width="8" height="6" fill="#fff5d8" opacity="0.9"/>
+    <ellipse cx="468" cy="222" rx="10" ry="6" fill="url(#p20p1windowGlow)" filter="url(#p20p1bloom)" opacity="0.85"/>
+    <rect x="464" y="220" width="8" height="6" fill="#fff5d8" opacity="0.85"/>
+  </g>
+
+  <!-- THAMES distant ribbon w/ glint. -->
+  <path d="M120,210 Q200,207 280,213 Q360,217 440,210" stroke="#080a18" stroke-width="4" fill="none" opacity="0.85"/>
+  <circle cx="200" cy="210" r="0.8" fill="#ffd060" filter="url(#p20p1softBloom)"/>
+  <circle cx="320" cy="213" r="0.7" fill="#ffd060" filter="url(#p20p1softBloom)"/>
+  <circle cx="400" cy="212" r="0.8" fill="#ffd060" filter="url(#p20p1softBloom)"/>
+
+  <!-- FOREGROUND ROOFTOP DROPS to gaslit street (left-center area, perspective). -->
+  <g id="p20p1-foreground-rooftop">
+    <!-- Slate roof edge dropping away (foreground left). -->
+    <path d="M0,240 L50,235 L120,242 L185,238 L255,245 L325,238 L395,245 L465,238 L535,245 L605,240 L675,245 L742,242 L742,275 L0,275 Z" fill="#080406"/>
+    <!-- Sharp drop edge (where slate meets street drop). -->
+    <line x1="0" y1="275" x2="742" y2="275" stroke="#0a0408" stroke-width="2"/>
+  </g>
+
+  <!-- GASLIT STREET 3 stories below — visible in narrow band at bottom. -->
+  <g id="p20p1-street">
+    <!-- Street darkness w/ amber glow pools. -->
+    <rect y="275" width="742" height="45" fill="#0a0408"/>
+
+    <!-- Three amber gas lamp pools winding through street. -->
+    <ellipse cx="120" cy="298" rx="50" ry="9" fill="url(#p20p1streetGlow)" filter="url(#p20p1strongBloom)" opacity="0.85"/>
+    <ellipse cx="320" cy="295" rx="60" ry="10" fill="url(#p20p1streetGlow)" filter="url(#p20p1strongBloom)" opacity="0.95"/>
+    <ellipse cx="540" cy="298" rx="50" ry="9" fill="url(#p20p1streetGlow)" filter="url(#p20p1strongBloom)" opacity="0.85"/>
+
+    <!-- Cobblestone hint — tiny dot pattern in pools. -->
+    <g stroke="#3a2010" stroke-width="0.4" opacity="0.7" fill="none">
+      <circle cx="100" cy="298" r="0.7"/>
+      <circle cx="115" cy="299" r="0.7"/>
+      <circle cx="130" cy="297" r="0.7"/>
+      <circle cx="145" cy="299" r="0.7"/>
+      <circle cx="295" cy="294" r="0.8"/>
+      <circle cx="315" cy="296" r="0.8"/>
+      <circle cx="335" cy="294" r="0.8"/>
+      <circle cx="525" cy="297" r="0.7"/>
+      <circle cx="545" cy="299" r="0.7"/>
+      <circle cx="565" cy="297" r="0.7"/>
+    </g>
+
+    <!-- Individual gas lamp pinpricks. -->
+    <g fill="#ffd060" filter="url(#p20p1softBloom)">
+      <circle cx="98" cy="295" r="0.9"/>
+      <circle cx="138" cy="297" r="0.9"/>
+      <circle cx="295" cy="293" r="1.0"/>
+      <circle cx="335" cy="295" r="1.0"/>
+      <circle cx="378" cy="293" r="0.9"/>
+      <circle cx="518" cy="295" r="0.9"/>
+      <circle cx="558" cy="297" r="0.9"/>
+      <circle cx="595" cy="293" r="0.7"/>
+    </g>
+
+    <!-- HORSE AND CART passing slowly (center-right of street). At fairy scale, the horse is enormous. Render as a dark silhouette. -->
+    <g id="p20p1-horse-cart" transform="translate(420, 295)">
+      <!-- Horse body. -->
+      <ellipse cx="-6" cy="-3" rx="14" ry="6" fill="#080404"/>
+      <!-- Horse head + neck. -->
+      <path d="M6,-2 L18,-7 L22,-3 L20,2 L12,2 Z" fill="#080404"/>
+      <!-- Mane. -->
+      <path d="M9,-7 L15,-9 L13,-3" fill="#080404"/>
+      <!-- Horse legs. -->
+      <line x1="-12" y1="3" x2="-13" y2="12" stroke="#080404" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="-7" y1="3" x2="-7" y2="13" stroke="#080404" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="3" x2="2" y2="12" stroke="#080404" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="6" y1="3" x2="8" y2="13" stroke="#080404" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- Cart behind. -->
+      <rect x="-32" y="-6" width="20" height="10" fill="#080404"/>
+      <line x1="-22" y1="4" x2="-12" y2="-2" stroke="#080404" stroke-width="1.2"/>
+      <!-- Cart wheels. -->
+      <circle cx="-26" cy="6" r="3.5" fill="none" stroke="#080404" stroke-width="1"/>
+      <circle cx="-14" cy="6" r="3.5" fill="none" stroke="#080404" stroke-width="1"/>
+      <line x1="-26" y1="3" x2="-26" y2="9" stroke="#080404" stroke-width="0.5"/>
+      <line x1="-29" y1="6" x2="-23" y2="6" stroke="#080404" stroke-width="0.5"/>
+      <line x1="-14" y1="3" x2="-14" y2="9" stroke="#080404" stroke-width="0.5"/>
+      <line x1="-17" y1="6" x2="-11" y2="6" stroke="#080404" stroke-width="0.5"/>
+    </g>
+  </g>
+
+  <!-- CAPTIONS — two stacked at bottom-right (parchment). -->
+  <g id="p20p1-caption-1">
+    <rect x="240" y="14" width="486" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="483" y="38" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" font-style="italic" fill="#5a4a30" letter-spacing="0.3">London. 1886. Population: four million, eight hundred thousand.</text>
+  </g>
+  <g id="p20p1-caption-2">
+    <rect x="540" y="58" width="186" height="32" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="633" y="80" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" font-style="italic" fill="#5a4a30" letter-spacing="0.4">And five.</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p20p1-meta">
+    <text x="730" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">PANORAMIC — POP 4.8M + 5</text>
+    <text x="734" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="0.1" fill="#fff" opacity="0">.</text>
+  </g>
+</svg>

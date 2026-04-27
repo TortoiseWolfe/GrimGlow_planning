@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 1 — Page 20 — Panel 3: Thresh on watch + Luma's campsite</title>
+  <desc>Medium shot at eye level (50mm). Thresh sits with back against curved cast-iron wall, legs drawn up, weapon across knees, alert + rigid. Near her: dead oak leaf leaning like lean-to shelter, beneath which Luma has set up small field station — scanner running blue-violet data scrolling. Luma wrapped in leaf fragment for warmth (organic against metallic suit). Domesticity strange + grounding. LUMA: "The atmospheric composition is... actually quite good. For a pre-filtration era." THRESH: "Great."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p20p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p20p3floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#180a08"/>
+    </linearGradient>
+    <radialGradient id="p20p3lumaCampGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a87af0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2acc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p20p3warmCity" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p20p3leaf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a2008"/>
+    </linearGradient>
+    <linearGradient id="p20p3ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="p20p3sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a18a0"/>
+    </linearGradient>
+    <filter id="p20p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p20p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Background — dark gutter interior (night). -->
+  <rect width="366" height="400" fill="#0a0408"/>
+
+  <!-- Curved gutter wall back. -->
+  <path d="M0,80 Q183,60 366,80 L366,300 L0,300 Z" fill="url(#p20p3iron)"/>
+  <line x1="0" y1="120" x2="366" y2="100" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <line x1="0" y1="220" x2="366" y2="218" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <g fill="#080404" opacity="0.85">
+    <circle cx="50" cy="125" r="2"/>
+    <circle cx="180" cy="105" r="2"/>
+    <circle cx="316" cy="125" r="2"/>
+    <circle cx="50" cy="225" r="2"/>
+    <circle cx="316" cy="223" r="2"/>
+  </g>
+  <g fill="#080404" opacity="0.55">
+    <path d="M40,80 Q44,180 38,260"/>
+    <path d="M280,80 Q284,180 278,260"/>
+  </g>
+
+  <!-- Faint warm city-glow at far-right edge (the gutter lip). -->
+  <ellipse cx="366" cy="200" rx="120" ry="240" fill="url(#p20p3warmCity)" filter="url(#p20p3strongBloom)" opacity="0.7"/>
+
+  <!-- Floor. -->
+  <rect y="300" width="366" height="100" fill="url(#p20p3floor)"/>
+  <line x1="0" y1="300" x2="366" y2="300" stroke="#080404" stroke-width="1.2"/>
+
+  <!-- Coal sediment + debris. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="40" cy="330" r="1.6"/>
+    <circle cx="100" cy="350" r="1.5"/>
+    <circle cx="170" cy="338" r="1.6"/>
+    <circle cx="240" cy="358" r="1.4"/>
+    <circle cx="320" cy="345" r="1.6"/>
+    <circle cx="80" cy="380" r="1.5"/>
+    <circle cx="200" cy="385" r="1.6"/>
+    <circle cx="290" cy="375" r="1.5"/>
+  </g>
+  <!-- Twigs. -->
+  <path d="M0,378 Q120,374 240,380" stroke="#3a1810" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Faint stars peeking over gutter at top. -->
+  <g fill="#dce4f0" opacity="0.4">
+    <circle cx="80" cy="40" r="0.6"/>
+    <circle cx="200" cy="32" r="0.7"/>
+    <circle cx="290" cy="42" r="0.5"/>
+  </g>
+
+  <!-- THRESH — left side, sitting back against gutter wall. -->
+  <g id="p20p3-thresh" transform="translate(70, 290)">
+    <!-- Body sitting w/ legs drawn up. -->
+    <path d="M-22,30 Q-26,5 -22,-15 L-12,-25 L18,-25 Q22,-15 22,30 Z" fill="url(#p20p3ruby)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Right shoulder pad. -->
+    <ellipse cx="-22" cy="-22" rx="7" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-22" cy="-23" rx="5" ry="2" fill="#f54848" opacity="0.7"/>
+    <!-- DENTED left pauldron. -->
+    <ellipse cx="22" cy="-22" rx="7" ry="4" fill="#a8182a" stroke="#080408" stroke-width="0.5"/>
+    <path d="M16,-25 Q22,-18 28,-25" fill="#5a0810" stroke="#080408" stroke-width="0.4"/>
+
+    <!-- Arms holding weapon across drawn-up knees. -->
+    <path d="M-22,-10 L-15,15 L-10,30" fill="none" stroke="url(#p20p3ruby)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M22,-10 L15,15 L10,30" fill="none" stroke="url(#p20p3ruby)" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Compact weapon across knees (horizontal black bar with crimson holographic accent). -->
+    <rect x="-22" y="32" width="44" height="6" rx="1.5" fill="#1a1820" stroke="#080404" stroke-width="0.5"/>
+    <rect x="-18" y="34" width="36" height="1.5" fill="#dc2030" opacity="0.85"/>
+    <line x1="-15" y1="36" x2="-10" y2="36" stroke="#f54848" stroke-width="0.6" filter="url(#p20p3bloom)" opacity="0.95"/>
+    <line x1="5" y1="36" x2="14" y2="36" stroke="#f54848" stroke-width="0.6" filter="url(#p20p3bloom)" opacity="0.95"/>
+    <ellipse cx="-22" cy="35" rx="3" ry="2" fill="#d8a880"/>
+    <ellipse cx="22" cy="35" rx="3" ry="2" fill="#d8a880"/>
+
+    <!-- Drawn-up legs (knees up). -->
+    <path d="M-12,30 L-18,40 L-22,55 L-18,70" fill="none" stroke="#a8182a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M14,30 L20,40 L24,55 L20,70" fill="none" stroke="#a8182a" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="55" rx="4" ry="2" fill="#5a1018"/>
+    <ellipse cx="24" cy="55" rx="4" ry="2" fill="#5a1018"/>
+
+    <!-- HEAD — alert, eyes scanning darkness ahead (toward right of frame, gutter lip). -->
+    <ellipse cx="0" cy="-37" rx="11" ry="12" fill="#d8a880"/>
+    <path d="M-9,-44 Q-3,-50 0,-50 Q4,-50 10,-44 L10,-37 L-9,-37 Z" fill="#a83a18"/>
+    <g fill="#5a1808" opacity="0.85">
+      <circle cx="-5" cy="-46" r="0.6"/>
+      <circle cx="-1" cy="-47" r="0.6"/>
+      <circle cx="3" cy="-46" r="0.6"/>
+      <circle cx="7" cy="-44" r="0.6"/>
+    </g>
+    <!-- Eyes shifted right (scanning darkness). -->
+    <ellipse cx="-2" cy="-37" rx="1.4" ry="1" fill="#1a0808"/>
+    <ellipse cx="6" cy="-37" rx="1.4" ry="1" fill="#1a0808"/>
+    <!-- Brow set + jaw tight. -->
+    <path d="M-7,-42 Q-3,-43 1,-42" stroke="#3a1808" stroke-width="0.9" fill="none"/>
+    <path d="M2,-42 Q5,-43 8,-42" stroke="#3a1808" stroke-width="0.9" fill="none"/>
+    <line x1="-3" y1="-29" x2="6" y2="-29" stroke="#3a1808" stroke-width="1"/>
+    <ellipse cx="-7" cy="-32" rx="2" ry="1" fill="#a87850" opacity="0.5"/>
+    <ellipse cx="8" cy="-32" rx="2" ry="1" fill="#a87850" opacity="0.5"/>
+  </g>
+
+  <!-- DEAD OAK LEAF lean-to shelter (right of center, leaning against gutter wall). -->
+  <g id="p20p3-leaf-shelter" transform="translate(258, 320)">
+    <!-- Large dead oak leaf forming a tent/lean-to over Luma. Oak leaf has lobed edges. -->
+    <path d="M-58,30 Q-70,-10 -50,-50 Q-30,-65 0,-65 Q35,-60 60,-30 Q65,-10 50,20 Q40,30 -10,30 Q-50,32 -58,30 Z"
+          fill="url(#p20p3leaf)" opacity="0.95"/>
+    <!-- Lobed edges (oak-leaf characteristic). -->
+    <path d="M-50,-50 Q-55,-58 -45,-60 Q-40,-58 -42,-50 Z" fill="url(#p20p3leaf)" opacity="0.95"/>
+    <path d="M-30,-65 Q-30,-72 -20,-72 Q-15,-68 -22,-62 Z" fill="url(#p20p3leaf)" opacity="0.95"/>
+    <path d="M0,-65 Q5,-72 15,-70 Q15,-62 8,-62 Z" fill="url(#p20p3leaf)" opacity="0.95"/>
+    <path d="M35,-60 Q42,-65 50,-58 Q45,-52 38,-55 Z" fill="url(#p20p3leaf)" opacity="0.95"/>
+    <!-- Veins. -->
+    <path d="M-50,25 Q-20,-15 50,-50" stroke="#3a1808" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <path d="M-30,22 Q-10,-12 25,-50" stroke="#3a1808" stroke-width="0.7" fill="none" opacity="0.7"/>
+    <path d="M20,15 Q15,-15 -10,-50" stroke="#3a1808" stroke-width="0.6" fill="none" opacity="0.6"/>
+    <!-- Highlight rim. -->
+    <path d="M-58,30 Q-70,-10 -50,-50 Q-30,-65 0,-65 Q35,-60 60,-30" fill="none" stroke="#a87038" stroke-width="1.4" opacity="0.6"/>
+  </g>
+
+  <!-- Strong blue-violet glow from Luma's holographic monitoring station. -->
+  <ellipse cx="258" cy="335" rx="55" ry="25" fill="url(#p20p3lumaCampGlow)" filter="url(#p20p3strongBloom)"/>
+
+  <!-- LUMA — under leaf shelter, sitting w/ scanner. -->
+  <g id="p20p3-luma" transform="translate(265, 340)">
+    <!-- Body in sapphire suit, sitting wrapped in leaf fragment (dark brown overlay on lower body). -->
+    <path d="M-15,30 Q-18,5 -15,-12 L-2,-18 L14,-18 Q18,5 15,30 Z" fill="url(#p20p3sapphire)" stroke="#080408" stroke-width="0.5"/>
+    <!-- LEAF FRAGMENT WRAP around shoulders/body (organic brown overlay). -->
+    <path d="M-22,-15 Q-25,5 -22,15 L22,15 Q25,5 22,-15 Q15,-22 0,-20 Q-15,-22 -22,-15 Z" fill="url(#p20p3leaf)" opacity="0.85"/>
+    <!-- Leaf fragment veins. -->
+    <path d="M-18,12 Q0,-8 18,12" stroke="#3a1808" stroke-width="0.7" fill="none" opacity="0.7"/>
+    <path d="M-10,12 Q0,0 10,12" stroke="#3a1808" stroke-width="0.5" fill="none" opacity="0.6"/>
+
+    <!-- Right arm holding scanner (small device in front of her). -->
+    <path d="M14,-5 L20,5 L24,12" fill="none" stroke="#5a3ad8" stroke-width="4" stroke-linecap="round"/>
+    <!-- Small scanner field-station w/ blue-violet data window. -->
+    <rect x="22" y="10" width="14" height="10" rx="1.5" fill="#1a1828" stroke="#a87af0" stroke-width="0.6"/>
+    <!-- Holographic data scrolling above scanner. -->
+    <g stroke="#a87af0" stroke-width="0.5" fill="none" opacity="0.85" filter="url(#p20p3bloom)">
+      <rect x="20" y="-12" width="22" height="18" rx="1" stroke-dasharray="2,1"/>
+      <line x1="22" y1="-7" x2="40" y2="-7"/>
+      <line x1="22" y1="-3" x2="36" y2="-3"/>
+      <line x1="22" y1="1" x2="40" y2="1"/>
+    </g>
+    <!-- Tiny readout text. -->
+    <g fill="#c8a8ff" opacity="0.85" font-family="monospace" font-size="3.5">
+      <text x="22" y="-8">O₂: 19%</text>
+      <text x="22" y="-4">N: 78%</text>
+      <text x="22" y="0">CO₂: 0.03</text>
+    </g>
+
+    <!-- Left arm out from under leaf wrap. -->
+    <path d="M-15,-3 L-22,8 L-26,15" fill="none" stroke="#5a3ad8" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Head, looking down at scanner. -->
+    <ellipse cx="0" cy="-26" rx="9" ry="10" fill="#a87850"/>
+    <path d="M-7,-32 Q0,-37 7,-32 L7,-22 L-7,-22 Z" fill="#1a0a08"/>
+    <!-- Single thick braid trailing back. -->
+    <path d="M5,-24 Q14,-15 18,0 Q22,12 18,22" fill="none" stroke="#1a0a08" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="18" cy="22" r="1.5" fill="#5a3a18"/>
+    <!-- Eyes looking down at scanner. -->
+    <ellipse cx="-3" cy="-25" rx="0.9" ry="0.9" fill="#1a0808"/>
+    <ellipse cx="3" cy="-25" rx="0.9" ry="0.9" fill="#1a0808"/>
+    <!-- Brow focused. -->
+    <path d="M-6,-30 Q-3,-31 0,-30" stroke="#3a1808" stroke-width="0.7" fill="none"/>
+    <path d="M0,-30 Q3,-31 6,-30" stroke="#3a1808" stroke-width="0.7" fill="none"/>
+    <!-- Lips slightly parted (talking). -->
+    <line x1="-3" y1="-19" x2="3" y2="-19" stroke="#5a2818" stroke-width="0.9"/>
+    <!-- Cool blue-violet wash on face from scanner. -->
+    <ellipse cx="0" cy="-22" rx="9" ry="6" fill="#a87af0" opacity="0.18"/>
+  </g>
+
+  <!-- LUMA balloon (top, italic - thoughtful tone). -->
+  <g id="p20p3-dlg-luma">
+    <rect x="14" y="14" width="232" height="80" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">The atmospheric composition</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">is... actually quite good.</text>
+    <text x="24" y="86" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a2a3a">For a pre-filtration era.</text>
+    <path d="M196,94 L214,94 L240,290 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="196" y1="94" x2="214" y2="94" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- THRESH balloon (bottom — single curt word). -->
+  <g id="p20p3-dlg-thresh">
+    <rect x="14" y="220" width="100" height="46" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="240" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH</text>
+    <text x="24" y="260" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">Great.</text>
+    <path d="M30,266 L48,266 L42,278 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="30" y1="266" x2="48" y2="266" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p20p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">THRESH WATCH + LUMA CAMP</text>
+  </g>
+</svg>
