@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 130" width="742" height="130">
+  <title>Issue 1 — Page 4 — Panel 3: Bird's-eye, fragments fall toward Victorian London</title>
+  <desc>Extreme wide bird's-eye at 18mm, looking straight down from high altitude. Thin cinematic strip. Spacecraft fragmenting into 5 main pieces falls toward dark Victorian London below — fragments trail prismatic fire of blue-white and violet, scattering holographic embers. City below is abstract: warm amber gaslight dots in grid pattern, dark slate roof masses, church spires, dark Thames ribbon. Cool falling light against warm sleeping world. Cosmic scale.</desc>
+
+  <defs>
+    <linearGradient id="p4p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="60%" stop-color="#080a1a"/>
+      <stop offset="100%" stop-color="#1a1a28"/>
+    </linearGradient>
+    <radialGradient id="p4p3city" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#3a2010" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#080808" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="p4p3trail" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7ac8ff" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#a87af0" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3a4ac8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p4p3fragGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#7ac8ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a4ac8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p4p3gasDot" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p4p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p4p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  <!-- Sky background. -->
+  <rect width="742" height="130" fill="url(#p4p3sky)"/>
+
+  <!-- City layer (bottom 35% — abstract aerial view). -->
+  <rect y="85" width="742" height="45" fill="url(#p4p3city)"/>
+
+  <!-- Dark Thames ribbon (curving across lower-left to right). -->
+  <path d="M0,118 Q120,114 220,120 Q360,124 500,116 Q640,110 742,118 L742,130 L0,130 Z" fill="#020a18" opacity="0.85"/>
+  <path d="M0,118 Q120,114 220,120 Q360,124 500,116 Q640,110 742,118" fill="none" stroke="#1a2a3c" stroke-width="0.6" opacity="0.7"/>
+
+  <!-- Dark roof masses (rectangular silhouettes). -->
+  <g fill="#0a0808" opacity="0.95">
+    <rect x="40" y="92" width="50" height="14"/>
+    <rect x="100" y="88" width="65" height="18"/>
+    <rect x="180" y="94" width="40" height="12"/>
+    <rect x="240" y="86" width="55" height="20"/>
+    <rect x="310" y="92" width="48" height="14"/>
+    <rect x="370" y="88" width="60" height="18"/>
+    <rect x="445" y="94" width="42" height="12"/>
+    <rect x="500" y="90" width="55" height="16"/>
+    <rect x="570" y="86" width="50" height="20"/>
+    <rect x="635" y="92" width="48" height="14"/>
+    <rect x="695" y="88" width="42" height="18"/>
+  </g>
+
+  <!-- Church spires poking up. -->
+  <g fill="#080606">
+    <polygon points="135,80 142,88 128,88"/>
+    <polygon points="265,78 274,88 256,88"/>
+    <polygon points="395,80 403,88 387,88"/>
+    <polygon points="595,78 604,88 586,88"/>
+  </g>
+
+  <!-- Gaslight dots — warm amber grid pattern across city. -->
+  <g>
+    <circle cx="55" cy="100" r="5" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)"/>
+    <circle cx="55" cy="100" r="1.2" fill="#ffe8a8" opacity="0.95"/>
+    <circle cx="125" cy="98" r="5" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)"/>
+    <circle cx="125" cy="98" r="1.2" fill="#ffe8a8" opacity="0.95"/>
+    <circle cx="195" cy="102" r="4" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)"/>
+    <circle cx="195" cy="102" r="1" fill="#ffe8a8" opacity="0.9"/>
+    <circle cx="265" cy="98" r="5" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)"/>
+    <circle cx="265" cy="98" r="1.2" fill="#ffe8a8" opacity="0.95"/>
+    <circle cx="335" cy="100" r="4" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)"/>
+    <circle cx="335" cy="100" r="1" fill="#ffe8a8" opacity="0.9"/>
+    <circle cx="405" cy="98" r="5" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)"/>
+    <circle cx="405" cy="98" r="1.2" fill="#ffe8a8" opacity="0.95"/>
+    <circle cx="475" cy="102" r="4" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)"/>
+    <circle cx="475" cy="102" r="1" fill="#ffe8a8" opacity="0.9"/>
+    <circle cx="540" cy="98" r="5" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)"/>
+    <circle cx="540" cy="98" r="1.2" fill="#ffe8a8" opacity="0.95"/>
+    <circle cx="610" cy="100" r="4" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)"/>
+    <circle cx="610" cy="100" r="1" fill="#ffe8a8" opacity="0.9"/>
+    <circle cx="675" cy="98" r="5" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)"/>
+    <circle cx="675" cy="98" r="1.2" fill="#ffe8a8" opacity="0.95"/>
+
+    <circle cx="85" cy="108" r="3" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)" opacity="0.7"/>
+    <circle cx="155" cy="110" r="3" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)" opacity="0.7"/>
+    <circle cx="225" cy="108" r="3" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)" opacity="0.7"/>
+    <circle cx="295" cy="110" r="3" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)" opacity="0.7"/>
+    <circle cx="365" cy="108" r="3" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)" opacity="0.7"/>
+    <circle cx="435" cy="110" r="3" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)" opacity="0.7"/>
+    <circle cx="505" cy="108" r="3" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)" opacity="0.7"/>
+    <circle cx="575" cy="110" r="3" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)" opacity="0.7"/>
+    <circle cx="645" cy="108" r="3" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)" opacity="0.7"/>
+    <circle cx="715" cy="110" r="3" fill="url(#p4p3gasDot)" filter="url(#p4p3bloom)" opacity="0.7"/>
+  </g>
+
+  <!-- Falling fragments — 5 main streaks of cool light heading down toward city. -->
+  <g id="p4p3-frag-1">
+    <path d="M118,2 Q132,28 122,68" stroke="url(#p4p3trail)" stroke-width="14" fill="none" stroke-linecap="round" filter="url(#p4p3strongBloom)"/>
+    <path d="M118,2 Q132,28 122,68" stroke="#bfe4ff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.95"/>
+    <ellipse cx="122" cy="68" rx="8" ry="6" fill="url(#p4p3fragGlow)" filter="url(#p4p3strongBloom)"/>
+    <polygon points="119,64 126,66 124,72 117,70" fill="#1a1820" stroke="#7ac8ff" stroke-width="0.6"/>
+  </g>
+
+  <g id="p4p3-frag-2">
+    <path d="M255,5 Q272,38 262,78" stroke="url(#p4p3trail)" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#p4p3strongBloom)"/>
+    <path d="M255,5 Q272,38 262,78" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.95"/>
+    <ellipse cx="262" cy="78" rx="10" ry="7" fill="url(#p4p3fragGlow)" filter="url(#p4p3strongBloom)"/>
+    <polygon points="258,73 268,76 266,84 256,80" fill="#1a1820" stroke="#bfe4ff" stroke-width="0.7"/>
+  </g>
+
+  <g id="p4p3-frag-3">
+    <path d="M395,3 Q406,32 398,72" stroke="url(#p4p3trail)" stroke-width="13" fill="none" stroke-linecap="round" filter="url(#p4p3strongBloom)"/>
+    <path d="M395,3 Q406,32 398,72" stroke="#bfe4ff" stroke-width="2.8" fill="none" stroke-linecap="round" opacity="0.95"/>
+    <ellipse cx="398" cy="72" rx="7" ry="5" fill="url(#p4p3fragGlow)" filter="url(#p4p3strongBloom)"/>
+    <polygon points="395,69 402,70 400,76 393,74" fill="#1a1820" stroke="#7ac8ff" stroke-width="0.6"/>
+  </g>
+
+  <g id="p4p3-frag-4">
+    <path d="M512,4 Q526,34 518,75" stroke="url(#p4p3trail)" stroke-width="14" fill="none" stroke-linecap="round" filter="url(#p4p3strongBloom)"/>
+    <path d="M512,4 Q526,34 518,75" stroke="#bfe4ff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.95"/>
+    <ellipse cx="518" cy="75" rx="8" ry="6" fill="url(#p4p3fragGlow)" filter="url(#p4p3strongBloom)"/>
+    <polygon points="515,71 522,73 520,79 513,77" fill="#1a1820" stroke="#7ac8ff" stroke-width="0.6"/>
+  </g>
+
+  <g id="p4p3-frag-5">
+    <path d="M642,2 Q656,30 648,70" stroke="url(#p4p3trail)" stroke-width="13" fill="none" stroke-linecap="round" filter="url(#p4p3strongBloom)"/>
+    <path d="M642,2 Q656,30 648,70" stroke="#bfe4ff" stroke-width="2.8" fill="none" stroke-linecap="round" opacity="0.95"/>
+    <ellipse cx="648" cy="70" rx="7" ry="5" fill="url(#p4p3fragGlow)" filter="url(#p4p3strongBloom)"/>
+    <polygon points="645,67 652,69 650,75 643,73" fill="#1a1820" stroke="#7ac8ff" stroke-width="0.6"/>
+  </g>
+
+  <!-- Scattered holographic embers (small bright dots). -->
+  <g fill="#bfe4ff" filter="url(#p4p3bloom)">
+    <circle cx="105" cy="22" r="0.9"/>
+    <circle cx="138" cy="42" r="1.1"/>
+    <circle cx="118" cy="55" r="0.8"/>
+    <circle cx="240" cy="32" r="1.0"/>
+    <circle cx="280" cy="48" r="1.2"/>
+    <circle cx="252" cy="62" r="0.9"/>
+    <circle cx="380" cy="28" r="0.8"/>
+    <circle cx="412" cy="48" r="1.0"/>
+    <circle cx="395" cy="60" r="0.9"/>
+    <circle cx="498" cy="32" r="1.0"/>
+    <circle cx="528" cy="50" r="1.1"/>
+    <circle cx="510" cy="62" r="0.8"/>
+    <circle cx="628" cy="26" r="0.9"/>
+    <circle cx="660" cy="46" r="1.0"/>
+    <circle cx="640" cy="58" r="0.8"/>
+  </g>
+  <g fill="#a878f0" filter="url(#p4p3bloom)" opacity="0.85">
+    <circle cx="125" cy="35" r="0.7"/>
+    <circle cx="265" cy="40" r="0.8"/>
+    <circle cx="402" cy="38" r="0.7"/>
+    <circle cx="520" cy="40" r="0.8"/>
+    <circle cx="652" cy="38" r="0.7"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p4p3-meta">
+    <text x="730" y="16" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="734" y="124" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">BIRD'S-EYE</text>
+  </g>
+</svg>

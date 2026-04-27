@@ -2,17 +2,19 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended through commit a48c18d — Pages 5-7 added).
+**Last update:** 2026-04-27 (loop session extended — Page 4 added, closing Section 1).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–3 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier "submarine / toque / teapot / stick-figure / no console" failure modes from v1 have been fixed across all 17 panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06).
+**Pages 1–7 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier "submarine / toque / teapot / stick-figure / no console" failure modes from v1 have been fixed across all 21 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05).
 
-**Pages 5, 6, 7 of Issue 1 are now also at quality bar.** Pages 5-6 (Section 2 — THE FALL: Victorian reveal + Theodore introduction). Page 7 (Section 3 opening — THE WRECKAGE: squad emerges from crashed ship in gutter). 14 new panels created, all deployed.
+**Page 4 (descent transition) just added** — closes Section 1: THE FUTURE. 4-panel cascading vertical layout (corridor burst → interior crash → bird's-eye fragments → London 1886 street splash). Page heights sum to 1181px to canonical bottom margin.
 
-**Pages 4, 8-22 of Issue 1 remain auto-generated stick-figure storyboards** — 10pt dialogue, abstract figures. These are placeholders awaiting the same per-panel quality treatment.
+**Pages 5, 6, 7 of Issue 1 are at quality bar.** Pages 5-6 (Section 2 — THE FALL: Victorian reveal + Theodore introduction). Page 7 (Section 3 opening — THE WRECKAGE: squad emerges from crashed ship in gutter).
+
+**Pages 8-22 of Issue 1 remain auto-generated stick-figure storyboards** — 10pt dialogue, abstract figures. These are placeholders awaiting the same per-panel quality treatment.
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -172,6 +174,50 @@ All 6 panels are high-quality individual SVG files referenced by a thin composit
 - ✅ Speaker color reference table per character
 - ✅ Inviolable placement rules (no face overlap, max 2 balloons per ECU/CU)
 - ✅ Applied across all 17 P1-P3 panel SVGs
+
+---
+
+## Page 4 — DONE (closes Section 1: THE FUTURE)
+
+Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
+
+### P04P01 — Corridor burst, ship punches through collapsing temporal corridor (742×240)
+- ✅ Hex lattice corridor walls receding into collapse vortex on left
+- ✅ Predatory recon vessel angular hull silhouette punching forward through tear
+- ✅ White-hot drive flare aft, trailing debris fragments + holographic embers
+- ✅ Tear in corridor wall opens to deep blue-black 1886 sky with stars
+- ✅ Bright collapse seam (vertical shimmer) marks the breach point
+- ✅ Caption "The corridor collapses behind them." spec-compliant top-left
+
+### P04P02 — Interior crash, squad braces, hull breaches (742×200)
+- ✅ Five figures in their stations: Sable gripping console (bent forward, silver-white hair shows), Wren strapped at engineering (copper, knot + bun-tie wisps), Thresh in archway (broad ruby pose, arms wide bracing), Luma clinging to bulkhead beam with med kit (sapphire, braid trailing), Jink tumbling toward right breach (emerald, golden curls, rotated 50°)
+- ✅ Two hull breaches reveal night sky + stars
+- ✅ Failing red emergency light pools throughout
+- ✅ Wind streaks emanate from breaches inward
+- ✅ Failed holographic display flickering dark (dashed outline)
+- ✅ SABLE balloon "HOLD ON!" top-left, SFX "RRRRRRR" right-center (rotated -7°)
+- 🟡 Figures read small at this strip aspect (5 across 742px) — structurally acceptable for the descent moment
+- 🟢 Dropped earlier dutch-angle rotation: balloons clipped against viewBox; subtle bulkhead tilt + diagonal SFX preserve crash energy without breaking dialogue legibility
+
+### P04P03 — Bird's-eye fragments fall toward London (742×130)
+- ✅ 5 main fragment streaks falling vertically with cool prismatic trails (white core + violet halo)
+- ✅ Fragment heads angular shards, glowing
+- ✅ Bottom band: warm amber gaslight dots in city grid pattern
+- ✅ Dark Thames ribbon at bottom edge
+- ✅ Distant church spires silhouetted
+- ✅ Holographic embers + violet drift trailing fragments
+- ✅ Cool falling light against warm sleeping world — series visual thesis stated
+
+### P04P04 — London 1886 street splash, falling star above Clerkenwell (742×522)
+- ✅ Falling star arcs diagonally across upper composition (left high → right low) with bright white core, prismatic violet trail, brilliant head at right edge
+- ✅ Geometric sub-fragments breaking off + holographic embers (blue-white + violet)
+- ✅ Two opposing dark brick terrace facades framing narrow street in single-point perspective
+- ✅ Gas lamp left foreground: detailed lantern with flame, scrollwork, finial, wide warm amber pool on cobbles
+- ✅ Cobblestone street wedge with perspective rows
+- ✅ Mix of lit + dark windows (asymmetric, naturalistic)
+- ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
+- ✅ Caption "London, 1886." top-left, parchment-style
+- ✅ Empty street — no figures (witnesses arrive Page 5)
 
 ---
 

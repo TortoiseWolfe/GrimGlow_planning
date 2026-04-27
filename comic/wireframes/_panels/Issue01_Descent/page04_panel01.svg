@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
+  <title>Issue 1 — Page 4 — Panel 1: Ship bursts through collapsing corridor toward 1886 darkness</title>
+  <desc>Ultra-wide establishing at 18mm, straight on. Predatory-fish recon vessel punches through collapsing temporal corridor wall. Trailing fire and fragments. Corridor behind implodes — hexagonal lattice folding inward. Ahead through ragged tear: deep blue-black night sky of 1886. White-hot drive flare. CAPTION: "The corridor collapses behind them."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p4p1corridorGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7ac8ff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#4a8adc" stop-opacity="0.7"/>
+      <stop offset="80%" stop-color="#2a4a8c" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#080820" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p4p1pastSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="100%" stop-color="#080a18"/>
+    </linearGradient>
+    <radialGradient id="p4p1driveFlare" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#bfe4ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p4p1tearLight" cx="60%" cy="50%">
+      <stop offset="0%" stop-color="#a8d8ff" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#5a4a8c" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#080a18" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p4p1hull" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3848"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+    <linearGradient id="p4p1hullEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a5868"/>
+      <stop offset="100%" stop-color="#1a1a24"/>
+    </linearGradient>
+    <filter id="p4p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p4p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Background: dark void of 1886 night beyond corridor. -->
+  <rect width="742" height="240" fill="url(#p4p1pastSky)"/>
+
+  <!-- Far stars in past sky (right side). -->
+  <g fill="#dce4f0" opacity="0.7">
+    <circle cx="540" cy="40" r="0.7"/>
+    <circle cx="595" cy="62" r="0.5"/>
+    <circle cx="640" cy="32" r="0.8"/>
+    <circle cx="680" cy="55" r="0.6"/>
+    <circle cx="720" cy="38" r="0.7"/>
+    <circle cx="555" cy="120" r="0.6"/>
+    <circle cx="615" cy="148" r="0.7"/>
+    <circle cx="665" cy="112" r="0.5"/>
+    <circle cx="705" cy="135" r="0.6"/>
+    <circle cx="585" cy="185" r="0.5"/>
+    <circle cx="650" cy="200" r="0.7"/>
+    <circle cx="715" cy="190" r="0.6"/>
+  </g>
+
+  <!-- Collapsing corridor (left 55%): hexagonal lattice folding inward. -->
+  <g id="p4p1-corridor">
+    <!-- Outer corridor envelope glow -->
+    <ellipse cx="180" cy="120" rx="240" ry="130" fill="url(#p4p1corridorGlow)" filter="url(#p4p1strongBloom)"/>
+
+    <!-- Hex lattice receding into collapse vortex (concentric tightening hexagons rotated). -->
+    <g stroke="#a8d8ff" stroke-width="1.4" fill="none" opacity="0.7">
+      <polygon points="40,60 100,32 200,32 260,60 200,108 100,108"/>
+      <polygon points="60,75 110,52 195,52 245,75 195,118 110,118"/>
+      <polygon points="80,90 122,72 190,72 232,90 190,128 122,128"/>
+      <polygon points="100,105 134,90 186,90 220,105 186,138 134,138"/>
+    </g>
+    <g stroke="#bfe4ff" stroke-width="1" fill="none" opacity="0.55">
+      <polygon points="50,162 110,134 200,134 260,162 200,210 100,210"/>
+      <polygon points="70,172 118,150 195,150 243,172 195,212 118,212"/>
+      <polygon points="90,186 130,170 188,170 228,186 188,216 130,216"/>
+    </g>
+
+    <!-- Folding/imploding distortion: jagged collapse lines. -->
+    <g stroke="#7ac8ff" stroke-width="1.6" fill="none" opacity="0.85" stroke-linecap="round">
+      <path d="M30,30 Q90,80 60,110 Q120,130 70,170"/>
+      <path d="M250,30 Q220,70 280,90 Q230,130 290,170"/>
+      <path d="M40,200 Q100,170 80,220"/>
+      <path d="M280,210 Q230,180 300,205"/>
+    </g>
+
+    <!-- Imploding shards/fragments scattering -->
+    <g fill="#bfe4ff" opacity="0.9">
+      <polygon points="120,40 132,46 124,58 116,52" filter="url(#p4p1bloom)"/>
+      <polygon points="190,30 200,34 196,46 186,42" filter="url(#p4p1bloom)"/>
+      <polygon points="60,150 72,156 66,168 56,162" filter="url(#p4p1bloom)"/>
+      <polygon points="240,170 252,178 246,190 234,184" filter="url(#p4p1bloom)"/>
+      <polygon points="160,200 170,206 165,216 155,212" filter="url(#p4p1bloom)"/>
+    </g>
+
+    <!-- Bright collapse seam where corridor wall has torn open (vertical at ~340) -->
+    <path d="M335,20 Q330,80 345,120 Q325,160 350,220" stroke="#ffffff" stroke-width="3" fill="none" filter="url(#p4p1strongBloom)" opacity="0.95"/>
+    <path d="M335,20 Q330,80 345,120 Q325,160 350,220" stroke="#bfe4ff" stroke-width="6" fill="none" filter="url(#p4p1strongBloom)" opacity="0.6"/>
+  </g>
+
+  <!-- Tear in corridor wall: gives way to 1886 darkness. -->
+  <g id="p4p1-tear">
+    <path d="M345,20 L380,60 L370,100 L395,150 L375,200 L355,225 L345,225 L355,170 L340,110 L355,60 Z" fill="url(#p4p1pastSky)"/>
+    <ellipse cx="395" cy="120" rx="80" ry="100" fill="url(#p4p1tearLight)" opacity="0.55"/>
+  </g>
+
+  <!-- Predatory-fish recon vessel: dark angular hull punching through tear into past. -->
+  <g id="p4p1-ship" transform="translate(420, 110)">
+    <!-- Drive flare aft (left side, trailing back into corridor). -->
+    <ellipse cx="-110" cy="0" rx="70" ry="22" fill="url(#p4p1driveFlare)" filter="url(#p4p1strongBloom)"/>
+    <ellipse cx="-95" cy="0" rx="42" ry="14" fill="#ffffff" opacity="0.85" filter="url(#p4p1bloom)"/>
+
+    <!-- Hull: angular predatory-fish silhouette pointed forward (right). -->
+    <path d="M-80,-12 L-60,-22 L-20,-26 L40,-20 L100,-12 L140,-3 L160,0 L140,3 L100,12 L40,20 L-20,26 L-60,22 L-80,12 Z" fill="url(#p4p1hull)" stroke="#080810" stroke-width="1"/>
+    <!-- Hull dorsal ridge / fin profile -->
+    <path d="M-20,-26 L20,-40 L60,-30 L40,-20" fill="#1a1a24" stroke="#080810" stroke-width="0.8"/>
+    <path d="M-20,26 L20,40 L60,30 L40,20" fill="#1a1a24" stroke="#080810" stroke-width="0.8"/>
+
+    <!-- Hull edge highlight (top lit by corridor light). -->
+    <path d="M-60,-22 L-20,-26 L40,-20 L100,-12 L140,-3" fill="none" stroke="url(#p4p1hullEdge)" stroke-width="1.5" opacity="0.85"/>
+
+    <!-- Hull damage: torn panels, exposed conduits. -->
+    <polygon points="-30,-12 -10,-8 -22,4 -42,0" fill="#080808" opacity="0.95"/>
+    <polygon points="20,-15 50,-10 38,8 8,4" fill="#0a0a10" opacity="0.95"/>
+    <line x1="-40" y1="-2" x2="-30" y2="6" stroke="#7ac8ff" stroke-width="1.2" opacity="0.85" filter="url(#p4p1bloom)"/>
+    <line x1="32" y1="0" x2="22" y2="6" stroke="#7ac8ff" stroke-width="1.2" opacity="0.85" filter="url(#p4p1bloom)"/>
+    <line x1="50" y1="-4" x2="60" y2="2" stroke="#a8f5c8" stroke-width="1" opacity="0.7" filter="url(#p4p1bloom)"/>
+
+    <!-- Trailing debris fragments breaking off behind ship -->
+    <g fill="#3a3848">
+      <polygon points="-130,-8 -120,-6 -126,4 -134,2"/>
+      <polygon points="-148,12 -138,16 -144,22 -152,18"/>
+      <polygon points="-160,-18 -152,-14 -156,-6 -164,-10"/>
+      <polygon points="-178,4 -170,8 -174,18 -182,14"/>
+    </g>
+    <g fill="#7ac8ff" opacity="0.85" filter="url(#p4p1bloom)">
+      <circle cx="-138" cy="-2" r="1.5"/>
+      <circle cx="-156" cy="14" r="1.2"/>
+      <circle cx="-170" cy="-12" r="1.4"/>
+      <circle cx="-188" cy="8" r="1.2"/>
+    </g>
+
+    <!-- Forward viewport: faint glow showing crew silhouettes inside cockpit -->
+    <ellipse cx="100" cy="0" rx="22" ry="8" fill="#1a2a4a" stroke="#5a8acc" stroke-width="0.8"/>
+    <ellipse cx="100" cy="0" rx="20" ry="6" fill="#2a3a6c" opacity="0.85"/>
+    <ellipse cx="92" cy="-1" rx="2" ry="2.5" fill="#080810"/>
+    <ellipse cx="100" cy="-1" rx="2" ry="2.5" fill="#080810"/>
+    <ellipse cx="108" cy="-1" rx="2" ry="2.5" fill="#080810"/>
+  </g>
+
+  <!-- Caption box (top-left). -->
+  <g id="p4p1-caption">
+    <rect x="20" y="20" width="280" height="50" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="30" y="40" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" font-style="italic" fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+    <text x="30" y="58" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-style="italic" fill="#5a4a30">The corridor collapses behind them.</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p4p1-meta">
+    <text x="730" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="734" y="232" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">CORRIDOR BURST</text>
+  </g>
+</svg>

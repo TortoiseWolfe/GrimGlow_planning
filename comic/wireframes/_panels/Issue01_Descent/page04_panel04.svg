@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 522" width="742" height="522">
+  <title>Issue 1 — Page 4 — Panel 4: London 1886, falling star above Clerkenwell street (SPLASH)</title>
+  <desc>Dramatic low angle at 24mm wide, looking up from cobblestone street level. Wet cobblestones glistening in foreground, gas lamp left foreground casting amber pool, dark brick terrace facades flank both sides of narrow street. Empty street — only gaslight and shadow. Above, a falling star blazes across deep blue-black sky — streak of prismatic structured light geometric and alien, breaking into smaller fragments trailing holographic embers. Warm amber meets cool prismatic. Beauty and terror. CAPTION: "London, 1886."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p4p4sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="50%" stop-color="#080a1c"/>
+      <stop offset="100%" stop-color="#1a1828"/>
+    </linearGradient>
+    <radialGradient id="p4p4lampGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffe0a0" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#f5a850" stop-opacity="0.7"/>
+      <stop offset="80%" stop-color="#a85820" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p4p4cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#0a0508"/>
+    </linearGradient>
+    <linearGradient id="p4p4brickL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a1410"/>
+      <stop offset="100%" stop-color="#080406"/>
+    </linearGradient>
+    <linearGradient id="p4p4brickR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#080406"/>
+      <stop offset="100%" stop-color="#3a1410"/>
+    </linearGradient>
+    <radialGradient id="p4p4windowGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff5d0" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#f5a850" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p4p4starTrail" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#bfe4ff" stop-opacity="0.65"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#a878f0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a4ac8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p4p4starHead" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#bfe4ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a4ac8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p4p4cobbleHilite" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#7ac8ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#080a18" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p4p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="p4p4softBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.5"/></filter>
+    <filter id="p4p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky background. -->
+  <rect width="742" height="522" fill="url(#p4p4sky)"/>
+
+  <!-- Distant stars (faint). -->
+  <g fill="#dce4f0" opacity="0.7">
+    <circle cx="48" cy="42" r="0.7"/>
+    <circle cx="115" cy="62" r="0.5"/>
+    <circle cx="180" cy="32" r="0.8"/>
+    <circle cx="248" cy="48" r="0.6"/>
+    <circle cx="310" cy="28" r="0.7"/>
+    <circle cx="378" cy="54" r="0.5"/>
+    <circle cx="445" cy="32" r="0.8"/>
+    <circle cx="512" cy="48" r="0.6"/>
+    <circle cx="578" cy="28" r="0.7"/>
+    <circle cx="640" cy="56" r="0.5"/>
+    <circle cx="700" cy="38" r="0.7"/>
+    <circle cx="78" cy="118" r="0.5"/>
+    <circle cx="148" cy="135" r="0.6"/>
+    <circle cx="215" cy="115" r="0.5"/>
+    <circle cx="282" cy="138" r="0.6"/>
+    <circle cx="348" cy="120" r="0.5"/>
+    <circle cx="412" cy="140" r="0.6"/>
+    <circle cx="478" cy="118" r="0.5"/>
+    <circle cx="545" cy="135" r="0.6"/>
+    <circle cx="608" cy="118" r="0.5"/>
+    <circle cx="672" cy="138" r="0.6"/>
+  </g>
+
+  <!-- Falling star streak across upper composition (left to right, slight downward arc). -->
+  <g id="p4p4-star">
+    <!-- Trail (wide soft band). -->
+    <path d="M40,90 Q200,82 400,108 Q560,128 720,178" stroke="url(#p4p4starTrail)" stroke-width="40" fill="none" stroke-linecap="round" filter="url(#p4p4strongBloom)" opacity="0.65"/>
+    <!-- Trail (narrower bright core). -->
+    <path d="M40,90 Q200,82 400,108 Q560,128 720,178" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" filter="url(#p4p4bloom)" opacity="0.9"/>
+    <path d="M40,90 Q200,82 400,108 Q560,128 720,178" stroke="#bfe4ff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.95"/>
+
+    <!-- Head of falling star (right end — brightest). -->
+    <ellipse cx="720" cy="178" rx="32" ry="22" fill="url(#p4p4starHead)" filter="url(#p4p4strongBloom)"/>
+    <ellipse cx="720" cy="178" rx="14" ry="10" fill="#ffffff" filter="url(#p4p4bloom)"/>
+    <polygon points="710,170 730,172 728,184 712,182" fill="#0a0a14" stroke="#bfe4ff" stroke-width="0.8"/>
+
+    <!-- Geometric sub-fragments breaking off (rendering as small angular shards). -->
+    <g fill="#1a1820" stroke="#bfe4ff" stroke-width="0.7">
+      <polygon points="270,98 282,102 278,112 266,108"/>
+      <polygon points="380,114 392,118 388,128 376,124"/>
+      <polygon points="498,138 510,142 506,152 494,148"/>
+      <polygon points="595,158 607,162 603,172 591,168"/>
+    </g>
+    <g fill="#bfe4ff" filter="url(#p4p4softBloom)">
+      <circle cx="222" cy="96" r="2.2"/>
+      <circle cx="335" cy="105" r="2.0"/>
+      <circle cx="445" cy="125" r="2.3"/>
+      <circle cx="552" cy="148" r="2.2"/>
+      <circle cx="650" cy="168" r="2.5"/>
+    </g>
+    <!-- Holographic embers (violet) trailing back. -->
+    <g fill="#a878f0" filter="url(#p4p4softBloom)" opacity="0.8">
+      <circle cx="180" cy="105" r="1.5"/>
+      <circle cx="290" cy="118" r="1.6"/>
+      <circle cx="412" cy="138" r="1.5"/>
+      <circle cx="528" cy="158" r="1.6"/>
+      <circle cx="618" cy="178" r="1.5"/>
+    </g>
+    <!-- Geometric ember shards trailing. -->
+    <g stroke="#7ac8ff" stroke-width="0.8" fill="none" opacity="0.7">
+      <polygon points="155,108 161,112 159,118 153,114"/>
+      <polygon points="320,118 326,122 324,128 318,124"/>
+      <polygon points="485,142 491,146 489,152 483,148"/>
+    </g>
+  </g>
+
+  <!-- Left-side terrace facade (dark, brick). -->
+  <g id="p4p4-left-facade">
+    <path d="M0,260 L0,522 L210,522 L235,260 Z" fill="url(#p4p4brickL)"/>
+    <!-- Cornice band. -->
+    <path d="M0,260 L235,260 L233,272 L0,272 Z" fill="#1a0808"/>
+    <!-- Roof edge profile against sky. -->
+    <path d="M0,260 L235,260" stroke="#080404" stroke-width="2"/>
+    <!-- Brick texture (horizontal courses). -->
+    <g stroke="#1a0a08" stroke-width="0.5" opacity="0.7">
+      <line x1="0" y1="295" x2="227" y2="295"/>
+      <line x1="0" y1="320" x2="222" y2="320"/>
+      <line x1="0" y1="345" x2="218" y2="345"/>
+      <line x1="0" y1="370" x2="213" y2="370"/>
+      <line x1="0" y1="395" x2="208" y2="395"/>
+      <line x1="0" y1="420" x2="203" y2="420"/>
+      <line x1="0" y1="445" x2="198" y2="445"/>
+      <line x1="0" y1="470" x2="193" y2="470"/>
+      <line x1="0" y1="495" x2="188" y2="495"/>
+    </g>
+    <!-- Windows (some lit, some dark). -->
+    <g id="p4p4-left-windows">
+      <!-- Lit window upper-left. -->
+      <ellipse cx="80" cy="320" rx="32" ry="20" fill="url(#p4p4windowGlow)" filter="url(#p4p4bloom)" opacity="0.85"/>
+      <rect x="65" y="305" width="30" height="32" fill="#fff0c0" opacity="0.85"/>
+      <line x1="80" y1="305" x2="80" y2="337" stroke="#1a0808" stroke-width="0.8"/>
+      <line x1="65" y1="321" x2="95" y2="321" stroke="#1a0808" stroke-width="0.8"/>
+      <rect x="65" y="305" width="30" height="32" fill="none" stroke="#080404" stroke-width="1.2"/>
+      <!-- Stone sill. -->
+      <rect x="62" y="337" width="36" height="3" fill="#5a3018"/>
+
+      <!-- Dark window upper-right. -->
+      <rect x="158" y="305" width="28" height="32" fill="#020204" stroke="#080404" stroke-width="1.2"/>
+      <line x1="172" y1="305" x2="172" y2="337" stroke="#080404" stroke-width="0.6"/>
+      <line x1="158" y1="321" x2="186" y2="321" stroke="#080404" stroke-width="0.6"/>
+      <rect x="155" y="337" width="34" height="3" fill="#5a3018"/>
+
+      <!-- Lit window mid-left. -->
+      <ellipse cx="65" cy="408" rx="28" ry="18" fill="url(#p4p4windowGlow)" filter="url(#p4p4bloom)" opacity="0.7"/>
+      <rect x="50" y="395" width="28" height="30" fill="#fff0c0" opacity="0.75"/>
+      <line x1="64" y1="395" x2="64" y2="425" stroke="#1a0808" stroke-width="0.8"/>
+      <line x1="50" y1="410" x2="78" y2="410" stroke="#1a0808" stroke-width="0.8"/>
+      <rect x="50" y="395" width="28" height="30" fill="none" stroke="#080404" stroke-width="1.2"/>
+
+      <!-- Dark window mid-right. -->
+      <rect x="142" y="395" width="28" height="30" fill="#020204" stroke="#080404" stroke-width="1.2"/>
+      <line x1="156" y1="395" x2="156" y2="425" stroke="#080404" stroke-width="0.6"/>
+      <line x1="142" y1="410" x2="170" y2="410" stroke="#080404" stroke-width="0.6"/>
+
+      <!-- Door dark wood w/ steps. -->
+      <rect x="40" y="475" width="24" height="44" fill="#080404" stroke="#080404" stroke-width="0.8"/>
+      <rect x="38" y="492" width="28" height="3" fill="#1a0808"/>
+      <circle cx="58" cy="498" r="0.8" fill="#5a4830"/>
+    </g>
+  </g>
+
+  <!-- Right-side terrace facade (dark, brick). -->
+  <g id="p4p4-right-facade">
+    <path d="M742,260 L742,522 L532,522 L507,260 Z" fill="url(#p4p4brickR)"/>
+    <path d="M507,260 L742,260 L744,272 L509,272 Z" fill="#1a0808"/>
+    <path d="M507,260 L742,260" stroke="#080404" stroke-width="2"/>
+    <g stroke="#1a0a08" stroke-width="0.5" opacity="0.7">
+      <line x1="515" y1="295" x2="742" y2="295"/>
+      <line x1="520" y1="320" x2="742" y2="320"/>
+      <line x1="524" y1="345" x2="742" y2="345"/>
+      <line x1="529" y1="370" x2="742" y2="370"/>
+      <line x1="534" y1="395" x2="742" y2="395"/>
+      <line x1="539" y1="420" x2="742" y2="420"/>
+      <line x1="544" y1="445" x2="742" y2="445"/>
+      <line x1="549" y1="470" x2="742" y2="470"/>
+      <line x1="554" y1="495" x2="742" y2="495"/>
+    </g>
+    <g id="p4p4-right-windows">
+      <!-- Dark window upper-left. -->
+      <rect x="555" y="305" width="28" height="32" fill="#020204" stroke="#080404" stroke-width="1.2"/>
+      <line x1="569" y1="305" x2="569" y2="337" stroke="#080404" stroke-width="0.6"/>
+      <line x1="555" y1="321" x2="583" y2="321" stroke="#080404" stroke-width="0.6"/>
+      <rect x="552" y="337" width="34" height="3" fill="#5a3018"/>
+
+      <!-- Lit window upper-right. -->
+      <ellipse cx="660" cy="320" rx="32" ry="20" fill="url(#p4p4windowGlow)" filter="url(#p4p4bloom)" opacity="0.85"/>
+      <rect x="645" y="305" width="30" height="32" fill="#fff0c0" opacity="0.85"/>
+      <line x1="660" y1="305" x2="660" y2="337" stroke="#1a0808" stroke-width="0.8"/>
+      <line x1="645" y1="321" x2="675" y2="321" stroke="#1a0808" stroke-width="0.8"/>
+      <rect x="645" y="305" width="30" height="32" fill="none" stroke="#080404" stroke-width="1.2"/>
+      <rect x="642" y="337" width="36" height="3" fill="#5a3018"/>
+
+      <!-- Dark mid-windows. -->
+      <rect x="572" y="395" width="28" height="30" fill="#020204" stroke="#080404" stroke-width="1.2"/>
+      <line x1="586" y1="395" x2="586" y2="425" stroke="#080404" stroke-width="0.6"/>
+      <line x1="572" y1="410" x2="600" y2="410" stroke="#080404" stroke-width="0.6"/>
+
+      <!-- Faintly lit window mid-right. -->
+      <ellipse cx="680" cy="408" rx="26" ry="17" fill="url(#p4p4windowGlow)" filter="url(#p4p4bloom)" opacity="0.55"/>
+      <rect x="666" y="395" width="28" height="30" fill="#fff0c0" opacity="0.6"/>
+      <line x1="680" y1="395" x2="680" y2="425" stroke="#1a0808" stroke-width="0.8"/>
+      <line x1="666" y1="410" x2="694" y2="410" stroke="#1a0808" stroke-width="0.8"/>
+      <rect x="666" y="395" width="28" height="30" fill="none" stroke="#080404" stroke-width="1.2"/>
+
+      <!-- Door right-foreground. -->
+      <rect x="690" y="475" width="24" height="44" fill="#080404" stroke="#080404" stroke-width="0.8"/>
+      <rect x="688" y="492" width="28" height="3" fill="#1a0808"/>
+    </g>
+  </g>
+
+  <!-- Cobblestone street (perspective wedge between facades). -->
+  <path d="M210,522 L235,260 L507,260 L532,522 Z" fill="url(#p4p4cobble)"/>
+
+  <!-- Cobblestone texture (perspective rows of cobbles). -->
+  <g id="p4p4-cobbles" opacity="0.85">
+    <!-- Vanishing perspective stones, sparse + receding. -->
+    <g fill="none" stroke="#1a0d08" stroke-width="0.6">
+      <!-- Distant rows (small stones). -->
+      <line x1="245" y1="280" x2="497" y2="280"/>
+      <line x1="248" y1="295" x2="494" y2="295"/>
+      <line x1="252" y1="312" x2="490" y2="312"/>
+      <line x1="256" y1="332" x2="486" y2="332"/>
+      <line x1="262" y1="354" x2="480" y2="354"/>
+      <line x1="269" y1="380" x2="473" y2="380"/>
+      <line x1="278" y1="408" x2="464" y2="408"/>
+      <line x1="288" y1="438" x2="454" y2="438"/>
+      <line x1="300" y1="470" x2="442" y2="470"/>
+      <line x1="316" y1="505" x2="426" y2="505"/>
+    </g>
+    <!-- Vertical separations (dwindling). -->
+    <g fill="none" stroke="#1a0d08" stroke-width="0.5" opacity="0.7">
+      <line x1="280" y1="280" x2="270" y2="438"/>
+      <line x1="320" y1="280" x2="316" y2="438"/>
+      <line x1="360" y1="280" x2="362" y2="438"/>
+      <line x1="400" y1="280" x2="408" y2="438"/>
+      <line x1="440" y1="280" x2="454" y2="438"/>
+      <line x1="380" y1="438" x2="385" y2="522"/>
+      <line x1="320" y1="438" x2="305" y2="522"/>
+      <line x1="440" y1="438" x2="465" y2="522"/>
+    </g>
+  </g>
+
+  <!-- Wet cobblestone reflection: warm pool from lamp + cool streak from star. -->
+  <ellipse cx="190" cy="460" rx="160" ry="42" fill="url(#p4p4lampGlow)" filter="url(#p4p4bloom)" opacity="0.55"/>
+  <ellipse cx="380" cy="490" rx="120" ry="22" fill="url(#p4p4cobbleHilite)" filter="url(#p4p4bloom)" opacity="0.7"/>
+  <ellipse cx="380" cy="492" rx="100" ry="14" fill="#ffffff" filter="url(#p4p4bloom)" opacity="0.35"/>
+
+  <!-- Gas lamp (left foreground). -->
+  <g id="p4p4-lamp" transform="translate(160, 320)">
+    <!-- Pole. -->
+    <rect x="-3" y="0" width="6" height="200" fill="#0a0a08"/>
+    <rect x="-2" y="0" width="2" height="200" fill="#3a3028" opacity="0.8"/>
+    <!-- Decorative scrollwork. -->
+    <path d="M-3,30 Q-15,28 -18,18 M3,30 Q15,28 18,18" fill="none" stroke="#0a0a08" stroke-width="1.5"/>
+    <path d="M-3,30 Q-15,28 -18,18" fill="none" stroke="#1a1810" stroke-width="0.6"/>
+    <path d="M3,30 Q15,28 18,18" fill="none" stroke="#1a1810" stroke-width="0.6"/>
+    <!-- Lantern housing (4-sided). -->
+    <path d="M-15,-22 L15,-22 L18,0 L-18,0 Z" fill="#0a0a08" stroke="#080806" stroke-width="0.8"/>
+    <path d="M-13,-22 L13,-22 L13,-2 L-13,-2 Z" fill="#fff5d0" opacity="0.95" filter="url(#p4p4softBloom)"/>
+    <line x1="-13" y1="-22" x2="-13" y2="-2" stroke="#0a0a08" stroke-width="0.8"/>
+    <line x1="13" y1="-22" x2="13" y2="-2" stroke="#0a0a08" stroke-width="0.8"/>
+    <line x1="0" y1="-22" x2="0" y2="-2" stroke="#3a2818" stroke-width="0.5"/>
+    <!-- Flame inside. -->
+    <ellipse cx="0" cy="-12" rx="3" ry="6" fill="#ffd060" filter="url(#p4p4softBloom)"/>
+    <ellipse cx="0" cy="-13" rx="1.5" ry="3.5" fill="#ffffff" opacity="0.85"/>
+    <!-- Crown finial. -->
+    <path d="M-8,-22 L0,-32 L8,-22 Z" fill="#0a0a08"/>
+    <ellipse cx="0" cy="-34" rx="2" ry="3" fill="#0a0a08"/>
+    <!-- Glow halo. -->
+    <ellipse cx="0" cy="-12" rx="55" ry="50" fill="url(#p4p4lampGlow)" filter="url(#p4p4bloom)"/>
+  </g>
+
+  <!-- Faint warm light wash on left facade from lamp. -->
+  <ellipse cx="100" cy="350" rx="80" ry="100" fill="url(#p4p4lampGlow)" filter="url(#p4p4strongBloom)" opacity="0.3"/>
+
+  <!-- Faint cool light wash on right roof from falling star. -->
+  <ellipse cx="630" cy="240" rx="120" ry="40" fill="url(#p4p4starHead)" filter="url(#p4p4strongBloom)" opacity="0.3"/>
+
+  <!-- Caption box (top-left, well clear of star streak). -->
+  <g id="p4p4-caption">
+    <rect x="22" y="22" width="200" height="50" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="34" y="42" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" font-style="italic" fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+    <text x="34" y="62" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" font-style="italic" fill="#5a4a30">London, 1886.</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p4p4-meta">
+    <text x="730" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="734" y="514" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SPLASH / LONDON 1886</text>
+  </g>
+</svg>

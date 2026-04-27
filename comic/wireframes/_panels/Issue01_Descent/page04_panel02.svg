@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 200" width="742" height="200">
+  <title>Issue 1 — Page 4 — Panel 2: Interior crash, squad braces</title>
+  <desc>Interior wide at 24mm, narrow strip — bridge tearing apart, hull breaches reveal stars, 5 figures brace for impact. Sable grips command console, Wren strapped at engineering, Thresh wedged in archway, Luma clutches bulkhead, Jink tumbles toward breach. Red emergency light failing. SABLE: HOLD ON! SFX: RRRRRRR.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p4p2interior" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1818"/>
+      <stop offset="100%" stop-color="#180808"/>
+    </linearGradient>
+    <radialGradient id="p4p2redEmg" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ff4848" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a0808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p4p2starlight" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0a18" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p4p2breach" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#020208"/>
+    </linearGradient>
+    <filter id="p4p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p4p2softBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1"/></filter>
+  </defs>
+
+  <!-- Interior background. -->
+  <rect width="742" height="200" fill="url(#p4p2interior)"/>
+
+  <!-- Failing red emergency light pools (slight tilt for unease). -->
+  <ellipse cx="180" cy="50" rx="220" ry="70" fill="url(#p4p2redEmg)" filter="url(#p4p2bloom)" opacity="0.7"/>
+  <ellipse cx="600" cy="110" rx="180" ry="70" fill="url(#p4p2redEmg)" filter="url(#p4p2bloom)" opacity="0.6"/>
+
+  <!-- Bulkhead structure: ribs subtly tilted (8°) for crash feel. -->
+  <g stroke="#1a0a0a" stroke-width="1.2" fill="none" opacity="0.85">
+    <line x1="0" y1="40" x2="742" y2="48"/>
+    <line x1="0" y1="170" x2="742" y2="178"/>
+    <line x1="120" y1="0" x2="135" y2="200"/>
+    <line x1="280" y1="0" x2="295" y2="200"/>
+    <line x1="460" y1="0" x2="475" y2="200"/>
+    <line x1="620" y1="0" x2="635" y2="200"/>
+  </g>
+
+  <!-- Top-center hull breach showing stars + night sky. -->
+  <path d="M340,0 L380,15 L410,8 L440,22 L460,10 L460,55 L420,48 L390,58 L355,42 L340,55 Z" fill="url(#p4p2breach)"/>
+  <ellipse cx="395" cy="28" rx="60" ry="22" fill="url(#p4p2starlight)" filter="url(#p4p2bloom)"/>
+  <g fill="#dce4f0" opacity="0.85">
+    <circle cx="365" cy="28" r="0.9"/>
+    <circle cx="395" cy="22" r="1.2"/>
+    <circle cx="420" cy="32" r="0.9"/>
+    <circle cx="445" cy="18" r="1.0"/>
+    <circle cx="378" cy="42" r="0.7"/>
+    <circle cx="430" cy="40" r="0.8"/>
+  </g>
+
+  <!-- Right-edge breach (where Jink is being pulled). -->
+  <path d="M680,40 L720,35 L735,55 L742,90 L742,160 L720,155 L700,140 L685,115 L675,80 Z" fill="url(#p4p2breach)"/>
+  <ellipse cx="715" cy="100" rx="28" ry="50" fill="url(#p4p2starlight)" filter="url(#p4p2bloom)"/>
+  <g fill="#dce4f0" opacity="0.85">
+    <circle cx="710" cy="70" r="0.9"/>
+    <circle cx="725" cy="100" r="1.0"/>
+    <circle cx="715" cy="135" r="0.8"/>
+  </g>
+
+  <!-- Wind streaks (motion lines inward from breaches). -->
+  <g stroke="#a8a8c8" stroke-width="0.7" opacity="0.5">
+    <line x1="395" y1="55" x2="370" y2="105"/>
+    <line x1="410" y1="55" x2="385" y2="110"/>
+    <line x1="420" y1="55" x2="400" y2="115"/>
+    <line x1="380" y1="55" x2="350" y2="120"/>
+    <line x1="700" y1="100" x2="640" y2="118"/>
+    <line x1="705" y1="120" x2="630" y2="135"/>
+    <line x1="700" y1="140" x2="620" y2="155"/>
+  </g>
+
+  <!-- SABLE at command console (left). -->
+  <g id="p4p2-sable" transform="translate(155, 110)">
+    <rect x="-32" y="22" width="64" height="46" rx="2" fill="#1a1820" stroke="#3a3848" stroke-width="0.8"/>
+    <rect x="-28" y="28" width="56" height="6" fill="#2a4a8c" opacity="0.6"/>
+    <rect x="-28" y="40" width="56" height="4" fill="#5a606a" opacity="0.5"/>
+    <rect x="-28" y="50" width="56" height="3" fill="#7ac8ff" opacity="0.45"/>
+    <!-- Body bent forward, gripping. -->
+    <path d="M-15,18 Q-18,5 -13,-10 L13,-10 Q18,5 15,18 Z" fill="#9ba1aa" stroke="#3a3848" stroke-width="0.6"/>
+    <!-- Shoulder accent (silver suit highlight). -->
+    <ellipse cx="-13" cy="-7" rx="5" ry="3" fill="#dce4f0" opacity="0.5"/>
+    <ellipse cx="13" cy="-7" rx="5" ry="3" fill="#dce4f0" opacity="0.5"/>
+    <!-- Head bent down (silver-white hair, dark brown skin). -->
+    <ellipse cx="0" cy="-18" rx="8" ry="9" fill="#5a3018"/>
+    <path d="M-8,-22 Q-4,-26 0,-26 Q4,-26 8,-22 L7,-15 Q3,-18 -3,-18 Q-7,-17 -8,-15 Z" fill="#e8eaee"/>
+    <!-- Hairline edge stroke. -->
+    <path d="M-7,-18 Q0,-21 7,-18" fill="none" stroke="#9aa4b4" stroke-width="0.5" opacity="0.7"/>
+    <!-- Arms gripping forward to console. -->
+    <path d="M-13,5 L-28,22 L-26,40" fill="none" stroke="#9ba1aa" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M13,5 L28,22 L26,40" fill="none" stroke="#9ba1aa" stroke-width="3.5" stroke-linecap="round"/>
+    <ellipse cx="-26" cy="40" rx="3" ry="2.5" fill="#5a3018"/>
+    <ellipse cx="26" cy="40" rx="3" ry="2.5" fill="#5a3018"/>
+    <!-- Knuckles highlight. -->
+    <circle cx="-26" cy="40" r="0.8" fill="#7a4830" opacity="0.85"/>
+    <circle cx="26" cy="40" r="0.8" fill="#7a4830" opacity="0.85"/>
+  </g>
+
+  <!-- WREN strapped at engineering console (left-center). -->
+  <g id="p4p2-wren" transform="translate(265, 130)">
+    <rect x="-14" y="-32" width="28" height="42" rx="2" fill="#1a0e08" stroke="#3a1810" stroke-width="0.6"/>
+    <rect x="-26" y="14" width="52" height="16" fill="#1a0e08" stroke="#c87a35" stroke-width="0.6"/>
+    <rect x="-22" y="17" width="44" height="3" fill="#c87a35" opacity="0.7"/>
+    <rect x="-22" y="22" width="44" height="3" fill="#f5a850" opacity="0.55"/>
+    <!-- Body strapped in (East Asian, copper suit). -->
+    <path d="M-11,8 Q-12,-8 -10,-20 L10,-20 Q12,-8 11,8 Z" fill="#c87a35"/>
+    <!-- Strap diagonal across torso. -->
+    <line x1="-11" y1="-12" x2="11" y2="2" stroke="#3a1810" stroke-width="2.5"/>
+    <line x1="11" y1="-12" x2="-11" y2="2" stroke="#3a1810" stroke-width="1.2" opacity="0.6"/>
+    <!-- Head with messy black knot. -->
+    <ellipse cx="0" cy="-26" rx="7" ry="8" fill="#e0c0a0"/>
+    <ellipse cx="-2" cy="-32" rx="6" ry="4.5" fill="#0a0408"/>
+    <ellipse cx="3" cy="-34" rx="3.5" ry="3.5" fill="#0a0408"/>
+    <!-- Bun escaping wisps. -->
+    <path d="M-6,-30 Q-9,-34 -10,-30" fill="none" stroke="#0a0408" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M5,-32 Q8,-35 9,-30" fill="none" stroke="#0a0408" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Arms reaching forward to console. -->
+    <path d="M-10,0 L-22,12 L-22,18" fill="none" stroke="#c87a35" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10,0 L22,12 L22,18" fill="none" stroke="#c87a35" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="18" rx="2.5" ry="2" fill="#e0c0a0"/>
+    <ellipse cx="22" cy="18" rx="2.5" ry="2" fill="#e0c0a0"/>
+  </g>
+
+  <!-- THRESH braced in corridor archway (center). -->
+  <g id="p4p2-thresh" transform="translate(395, 100)">
+    <!-- Archway behind (dark interior). -->
+    <path d="M-32,-30 L32,-30 L32,60 L-32,60 Z" fill="#0a0408" opacity="0.85"/>
+    <path d="M-32,-30 Q0,-55 32,-30" fill="#0a0408" stroke="#3a1810" stroke-width="1.5"/>
+    <!-- Body broad. -->
+    <path d="M-15,18 Q-18,-5 -14,-18 L14,-18 Q18,-5 15,18 Z" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+    <!-- Shoulder pads. -->
+    <ellipse cx="-15" cy="-15" rx="6" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="15" cy="-15" rx="6" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-15" cy="-16" rx="3" ry="1.5" fill="#f54848" opacity="0.7"/>
+    <ellipse cx="15" cy="-16" rx="3" ry="1.5" fill="#f54848" opacity="0.7"/>
+    <!-- Head with copper-red buzz. -->
+    <ellipse cx="0" cy="-26" rx="7" ry="7.5" fill="#d8a880"/>
+    <ellipse cx="0" cy="-29" rx="6.5" ry="3" fill="#a83a18"/>
+    <!-- Buzz stipple. -->
+    <g fill="#7a2810" opacity="0.85">
+      <circle cx="-4" cy="-30" r="0.6"/>
+      <circle cx="-1" cy="-31" r="0.6"/>
+      <circle cx="2" cy="-30" r="0.6"/>
+      <circle cx="5" cy="-30" r="0.6"/>
+      <circle cx="-2" cy="-29" r="0.6"/>
+      <circle cx="3" cy="-29" r="0.6"/>
+    </g>
+    <!-- Arms braced wide, hands gripping arch. -->
+    <path d="M-15,-10 L-30,-12 L-32,-25" fill="none" stroke="#dc2030" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M15,-10 L30,-12 L32,-25" fill="none" stroke="#dc2030" stroke-width="3.5" stroke-linecap="round"/>
+    <ellipse cx="-32" cy="-25" rx="2.8" ry="2.3" fill="#d8a880"/>
+    <ellipse cx="32" cy="-25" rx="2.8" ry="2.3" fill="#d8a880"/>
+    <!-- Legs wide stance. -->
+    <path d="M-9,18 L-22,42 L-24,58" fill="none" stroke="#dc2030" stroke-width="4" stroke-linecap="round"/>
+    <path d="M9,18 L22,42 L24,58" fill="none" stroke="#dc2030" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- LUMA clings to bulkhead w/ med kit (right-center). -->
+  <g id="p4p2-luma" transform="translate(525, 125)">
+    <!-- Bulkhead support beam. -->
+    <rect x="-24" y="-32" width="6" height="60" fill="#3a1810"/>
+    <rect x="-24" y="-32" width="3" height="60" fill="#5a2812" opacity="0.7"/>
+    <!-- Body in sapphire suit. -->
+    <path d="M-11,12 Q-12,-5 -10,-18 L10,-18 Q12,-5 11,12 Z" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-10" cy="-15" rx="4" ry="2.5" fill="#7a5af0" opacity="0.5"/>
+    <ellipse cx="10" cy="-15" rx="4" ry="2.5" fill="#7a5af0" opacity="0.5"/>
+    <!-- Head with braid. -->
+    <ellipse cx="0" cy="-26" rx="7" ry="7" fill="#a87850"/>
+    <ellipse cx="-2" cy="-32" rx="5.5" ry="3.5" fill="#1a0a08"/>
+    <!-- Long single thick braid trailing right. -->
+    <path d="M4,-26 Q10,-15 16,0 Q20,12 16,22" fill="none" stroke="#1a0a08" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M5,-22 Q11,-12 16,-2" fill="none" stroke="#3a1a08" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="16" cy="22" r="2" fill="#5a3a18"/>
+    <!-- One arm up gripping bulkhead beam. -->
+    <path d="M-10,-8 L-20,-18 L-22,-28" fill="none" stroke="#5a3ad8" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="-28" rx="2.3" ry="2" fill="#a87850"/>
+    <!-- Other arm clutching med kit to chest. -->
+    <rect x="2" y="-2" width="16" height="12" rx="1" fill="#dceaff" stroke="#5a3ad8" stroke-width="0.8"/>
+    <line x1="10" y1="-2" x2="10" y2="10" stroke="#dc2030" stroke-width="1"/>
+    <line x1="4" y1="4" x2="16" y2="4" stroke="#dc2030" stroke-width="1"/>
+    <path d="M9,-2 L4,-6" fill="none" stroke="#5a3ad8" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- JINK tumbling toward right breach. -->
+  <g id="p4p2-jink" transform="translate(660, 115) rotate(50)">
+    <!-- Body in emerald suit, twisted in air. -->
+    <path d="M-9,12 Q-11,-5 -9,-15 L9,-15 Q11,-5 9,12 Z" fill="#2ed078" stroke="#080408" stroke-width="0.4"/>
+    <!-- Head w/ golden curls. -->
+    <ellipse cx="0" cy="-22" rx="6" ry="6.5" fill="#f0d088"/>
+    <g fill="#f5d068">
+      <circle cx="-5" cy="-25" r="3.5"/>
+      <circle cx="5" cy="-25" r="3.5"/>
+      <circle cx="0" cy="-29" r="3.5"/>
+      <circle cx="-4" cy="-30" r="2.5"/>
+      <circle cx="4" cy="-30" r="2.5"/>
+      <circle cx="-7" cy="-28" r="2"/>
+      <circle cx="7" cy="-28" r="2"/>
+    </g>
+    <!-- Curl shadow separations. -->
+    <g fill="#a87038" opacity="0.6">
+      <circle cx="-3" cy="-26" r="0.6"/>
+      <circle cx="2" cy="-27" r="0.6"/>
+      <circle cx="-1" cy="-30" r="0.6"/>
+    </g>
+    <!-- Arms flailing. -->
+    <path d="M-9,-5 L-22,-2 L-26,-12" fill="none" stroke="#2ed078" stroke-width="3" stroke-linecap="round"/>
+    <path d="M9,-5 L22,-2 L26,8" fill="none" stroke="#2ed078" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="-26" cy="-12" rx="2.3" ry="2" fill="#f0d088"/>
+    <ellipse cx="26" cy="8" rx="2.3" ry="2" fill="#f0d088"/>
+    <!-- Legs splayed. -->
+    <path d="M-6,12 L-14,26 L-22,32" fill="none" stroke="#2ed078" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M6,12 L10,28 L4,38" fill="none" stroke="#2ed078" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Failed holographic display flickering dark (rear, dashed outline). -->
+  <g opacity="0.3">
+    <rect x="320" y="65" width="80" height="22" fill="none" stroke="#7ac8ff" stroke-width="0.8" stroke-dasharray="4,3"/>
+    <line x1="328" y1="72" x2="392" y2="72" stroke="#7ac8ff" stroke-width="0.6" stroke-dasharray="2,2"/>
+    <line x1="328" y1="80" x2="378" y2="80" stroke="#7ac8ff" stroke-width="0.6" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- SABLE dialogue (top-left, well within viewBox). -->
+  <g id="p4p2-dlg-sable">
+    <rect x="20" y="14" width="180" height="56" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="32" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="32" y="58" font-family="Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="800" fill="#1a1a1a">HOLD ON!</text>
+    <path d="M130,70 L150,70 L142,84 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="130" y1="70" x2="150" y2="70" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SFX RRRRRRR (right-center, slight rotation). -->
+  <g id="p4p2-sfx">
+    <text x="490" y="48" font-family="Impact, Haettenschweiler, sans-serif" font-size="34" font-weight="900" stroke="#1a0408" stroke-width="3" stroke-linejoin="round" paint-order="stroke fill" fill="#ffe080" transform="rotate(-7 490 48)">RRRRRRR</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p4p2-meta">
+    <text x="730" y="18" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="734" y="192" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">INTERIOR / IMPACT</text>
+  </g>
+</svg>
