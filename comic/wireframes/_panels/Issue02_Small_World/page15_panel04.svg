@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 420" width="247" height="420">
+  <title>Issue 2 — Page 15 — Panel 4: Power cell activates, warm amber bloom, hearth in darkness</title>
+  <desc>CU 85mm slight high angle. Hands sapphire-violet metallic suit position small geometric power cell faceted surfaces compact device on dusty timber joist. Device activates warm amber light blooming surface like small sun pushing into dark cavity. Amber catches rough textures brick timber plaster fragments creating warmth darkness. Edges frame: thin blue-white perimeter lines on brickwork — dual lighting in miniature warm campfire amber + cool alien geometry same confined space. LUMA twelve days at this output maybe fifteen if dim at night.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p15p4dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p15p4joist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3a18"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p15p4cellSurface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#1a1a20"/>
+    </linearGradient>
+    <radialGradient id="p15p4amberSun">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p15p4sapphireDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#28157a"/>
+    </linearGradient>
+    <radialGradient id="p15p4perimGlow">
+      <stop offset="0%" stop-color="#a8d8f8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a4868" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p15p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p15p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p15p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark cavity. -->
+  <rect width="247" height="420" fill="url(#p15p4dark)"/>
+
+  <!-- Brick wall hint upper-right (with thin perimeter blue lines). -->
+  <rect x="180" y="0" width="67" height="180" fill="#3a2010" opacity="0.85"/>
+  <g stroke="#a8d8f8" stroke-width="0.5" fill="none" opacity="0.85" filter="url(#p15p4bloom)">
+    <path d="M180,40 L240,40"/>
+    <path d="M180,80 L240,80"/>
+    <path d="M180,120 L240,120"/>
+    <path d="M210,0 L210,160"/>
+  </g>
+  <ellipse cx="220" cy="80" rx="40" ry="60" fill="url(#p15p4perimGlow)" filter="url(#p15p4deepBloom)" opacity="0.65"/>
+
+  <!-- Timber joist FLOOR (broad beam dominant lower frame). -->
+  <rect x="0" y="280" width="247" height="140" fill="url(#p15p4joist)" stroke="#080404" stroke-width="0.85"/>
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.85">
+    <line x1="0" y1="295" x2="247" y2="295"/>
+    <line x1="0" y1="320" x2="247" y2="320"/>
+    <line x1="0" y1="350" x2="247" y2="350"/>
+    <line x1="0" y1="380" x2="247" y2="380"/>
+  </g>
+  <!-- Dust on joist. -->
+  <g fill="#3a2818" opacity="0.65">
+    <ellipse cx="50" cy="290" rx="6" ry="2"/>
+    <ellipse cx="180" cy="295" rx="6" ry="2"/>
+  </g>
+  <!-- Plaster fragments. -->
+  <g fill="#a89870" opacity="0.85">
+    <polygon points="40,288 48,286 50,292 42,294"/>
+    <polygon points="200,290 208,288 210,294 202,296"/>
+  </g>
+
+  <!-- WARM AMBER HALO from power cell (dominant light). -->
+  <g id="p15p4-glow">
+    <ellipse cx="124" cy="270" rx="240" ry="160" fill="url(#p15p4amberSun)" filter="url(#p15p4deepBloom)" opacity="0.95"/>
+  </g>
+
+  <!-- POWER CELL — geometric faceted device on joist. -->
+  <g id="p15p4-cell" transform="translate(124, 270)">
+    <!-- Faceted geometric body (hex base). -->
+    <path d="M-22,0 L-15,-15 L0,-22 L15,-15 L22,0 L15,15 L0,22 L-15,15 Z" fill="url(#p15p4cellSurface)" stroke="#080404" stroke-width="0.85"/>
+    <!-- Inner facets. -->
+    <path d="M-15,-15 L0,-22 L15,-15 L0,-10 Z" fill="#3a3a44" stroke="#080404" stroke-width="0.5"/>
+    <path d="M15,-15 L22,0 L15,15 L10,0 Z" fill="#3a3a44" stroke="#080404" stroke-width="0.5"/>
+    <!-- Bright glowing core. -->
+    <circle cx="0" cy="0" r="9" fill="#ffe8a0" opacity="0.95" filter="url(#p15p4bloom)"/>
+    <circle cx="0" cy="0" r="5" fill="#ffffff" opacity="0.95" filter="url(#p15p4bloom)"/>
+    <!-- Ridges on cell body emitting glow. -->
+    <g stroke="#ffe8a0" stroke-width="0.5" opacity="0.85" filter="url(#p15p4bloom)">
+      <line x1="-22" y1="0" x2="-15" y2="-15"/>
+      <line x1="-15" y1="-15" x2="0" y2="-22"/>
+      <line x1="0" y1="-22" x2="15" y2="-15"/>
+      <line x1="15" y1="-15" x2="22" y2="0"/>
+      <line x1="22" y1="0" x2="15" y2="15"/>
+      <line x1="15" y1="15" x2="0" y2="22"/>
+      <line x1="0" y1="22" x2="-15" y2="15"/>
+      <line x1="-15" y1="15" x2="-22" y2="0"/>
+    </g>
+    <!-- Surface seams glowing. -->
+    <g stroke="#f5b860" stroke-width="0.4" opacity="0.85" filter="url(#p15p4bloom)">
+      <line x1="0" y1="-22" x2="0" y2="22"/>
+      <line x1="-22" y1="0" x2="22" y2="0"/>
+    </g>
+  </g>
+
+  <!-- LUMA'S HANDS positioning the cell — sapphire-violet suit. -->
+  <g id="p15p4-hands">
+    <!-- Left hand from upper-left. -->
+    <path d="M0,420 L40,310 L60,310 L40,420 Z" fill="url(#p15p4sapphireDirty)" stroke="#080404" stroke-width="0.85"/>
+    <ellipse cx="50" cy="310" rx="14" ry="10" fill="url(#p15p4sapphireDirty)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Fingers reaching toward cell. -->
+    <path d="M58,302 L70,290 L74,295 L62,308 Z" fill="url(#p15p4sapphireDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M60,300 L72,288 L76,293 L64,306 Z" fill="url(#p15p4sapphireDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M62,298 L74,286 L78,291 L66,304 Z" fill="url(#p15p4sapphireDirty)" stroke="#080404" stroke-width="0.5"/>
+    <!-- Fingertips lit warm by cell. -->
+    <ellipse cx="74" cy="290" rx="3" ry="2" fill="#ffe8a0" opacity="0.85" filter="url(#p15p4bloom)"/>
+
+    <!-- Right hand from upper-right. -->
+    <path d="M247,420 L207,310 L187,310 L207,420 Z" fill="url(#p15p4sapphireDirty)" stroke="#080404" stroke-width="0.85"/>
+    <ellipse cx="197" cy="310" rx="14" ry="10" fill="url(#p15p4sapphireDirty)" stroke="#080404" stroke-width="0.7"/>
+    <path d="M189,302 L177,290 L173,295 L185,308 Z" fill="url(#p15p4sapphireDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M187,300 L175,288 L171,293 L183,306 Z" fill="url(#p15p4sapphireDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M185,298 L173,286 L169,291 L181,304 Z" fill="url(#p15p4sapphireDirty)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="173" cy="290" rx="3" ry="2" fill="#ffe8a0" opacity="0.85" filter="url(#p15p4bloom)"/>
+  </g>
+
+  <!-- Amber warmth catching brick texture and joist surface. -->
+  <g fill="#f5b860" opacity="0.45" filter="url(#p15p4strongBloom)">
+    <ellipse cx="80" cy="295" rx="40" ry="3"/>
+    <ellipse cx="170" cy="295" rx="40" ry="3"/>
+    <ellipse cx="200" cy="240" rx="20" ry="20"/>
+    <ellipse cx="40" cy="240" rx="20" ry="20"/>
+  </g>
+
+  <!-- DIALOGUE -->
+  <g id="p15p4-bal-luma">
+    <rect x="14" y="14" width="220" height="80" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Power cell active. Low burn —</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">twelve days at this output,</text>
+    <text x="24" y="88" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">fifteen if we dim at night.</text>
+    <path d="M120,94 L132,94 L126,108 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="94" x2="132" y2="94" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p15p4-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">4</text>
+    <text x="243" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">HEARTH</text>
+  </g>
+</svg>

@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 320" width="366" height="320">
+  <title>Issue 2 — Page 15 — Panel 3: Wren projects perimeter, blue-white frost-on-glass on brick</title>
+  <desc>MS 50mm eye level entrance gap. Wren crouched at base brick opening both hands pressed wall surface. From palms thin lines structured blue-white holographic energy spread along brick mortar — geometric patterns tracing edges gap forming intricate border alien light against rough stone. Lines spread like frost on glass angular precise against organic brick. Hair UP messy bun oil-stained forearms. Concentration. Reads as fairy wards magical runes cold blue fire on ordinary wall. WREN perimeter up motion detection / JINK OP what about spiders.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p15p3outerlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0bc"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p15p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p15p3interior" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p15p3copperDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86528"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <radialGradient id="p15p3perimeterGlow">
+      <stop offset="0%" stop-color="#a8d8f8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a4868" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p15p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p15p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p15p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark cavity interior left half. -->
+  <rect width="366" height="320" fill="url(#p15p3interior)"/>
+
+  <!-- BRICK WALL (right side) with gap. -->
+  <rect x="200" y="0" width="166" height="320" fill="url(#p15p3brick)"/>
+  <g stroke="#080404" stroke-width="0.7" opacity="0.85">
+    <line x1="200" y1="40" x2="366" y2="40"/>
+    <line x1="200" y1="80" x2="366" y2="80"/>
+    <line x1="200" y1="120" x2="366" y2="120"/>
+    <line x1="200" y1="160" x2="366" y2="160"/>
+    <line x1="200" y1="200" x2="366" y2="200"/>
+    <line x1="200" y1="240" x2="366" y2="240"/>
+    <line x1="200" y1="280" x2="366" y2="280"/>
+    <line x1="240" y1="0" x2="240" y2="40"/>
+    <line x1="280" y1="40" x2="280" y2="80"/>
+    <line x1="240" y1="80" x2="240" y2="120"/>
+    <line x1="280" y1="120" x2="280" y2="160"/>
+    <line x1="240" y1="160" x2="240" y2="200"/>
+    <line x1="280" y1="200" x2="280" y2="240"/>
+    <line x1="240" y1="240" x2="240" y2="280"/>
+    <line x1="280" y1="280" x2="280" y2="320"/>
+  </g>
+
+  <!-- ENTRANCE GAP (where half-brick crumbled) — irregular hole. -->
+  <path d="M200,80 L240,75 L242,200 L200,210 Z" fill="url(#p15p3outerlight)" opacity="0.95"/>
+  <!-- Gap edge crumble texture. -->
+  <g stroke="#3a1810" stroke-width="0.5" fill="none" opacity="0.85">
+    <path d="M200,90 L205,95"/>
+    <path d="M200,140 L205,138"/>
+    <path d="M200,175 L205,180"/>
+    <path d="M242,100 L237,105"/>
+    <path d="M242,150 L237,148"/>
+    <path d="M242,190 L237,195"/>
+  </g>
+
+  <!-- HOLOGRAPHIC PERIMETER LINES — blue-white spreading from Wren's hands across brickwork. -->
+  <g id="p15p3-perimeter" filter="url(#p15p3bloom)">
+    <!-- Halo around hands. -->
+    <ellipse cx="160" cy="180" rx="80" ry="60" fill="url(#p15p3perimeterGlow)" filter="url(#p15p3deepBloom)" opacity="0.85"/>
+
+    <!-- Geometric lines tracing gap edges. -->
+    <g stroke="#a8d8f8" stroke-width="0.85" fill="none" opacity="0.95">
+      <!-- Top edge of gap. -->
+      <path d="M200,80 L240,75"/>
+      <path d="M200,82 L240,77"/>
+      <!-- Bottom edge. -->
+      <path d="M200,210 L242,200"/>
+      <path d="M200,208 L242,198"/>
+      <!-- Left vertical. -->
+      <path d="M200,80 L200,210"/>
+      <path d="M198,80 L198,210"/>
+      <!-- Right vertical. -->
+      <path d="M242,75 L242,200"/>
+      <path d="M244,75 L244,200"/>
+    </g>
+
+    <!-- Frost-on-glass branching patterns extending into brick. -->
+    <g stroke="#a8d8f8" stroke-width="0.5" fill="none" opacity="0.85">
+      <!-- Top-left branches. -->
+      <path d="M200,80 L210,60 L218,40"/>
+      <path d="M210,60 L220,55 L230,45"/>
+      <path d="M218,40 L228,30 L235,15"/>
+      <!-- Top-right branches. -->
+      <path d="M240,75 L248,55 L256,35"/>
+      <path d="M248,55 L260,50"/>
+      <!-- Right side branches into brick. -->
+      <path d="M242,120 L255,118 L268,116"/>
+      <path d="M242,140 L260,138 L275,135"/>
+      <path d="M242,160 L258,158 L272,156"/>
+      <path d="M242,180 L256,178 L268,174"/>
+      <!-- Bottom branches. -->
+      <path d="M200,210 L212,225 L222,240"/>
+      <path d="M212,225 L218,230"/>
+      <path d="M242,200 L252,215 L260,232"/>
+      <!-- Left side (interior cavity). -->
+      <path d="M200,100 L185,98 L170,100"/>
+      <path d="M200,140 L180,138 L165,140"/>
+      <path d="M200,170 L182,168"/>
+    </g>
+
+    <!-- Hex nodes along the lines. -->
+    <g stroke="#dce4f0" stroke-width="0.4" fill="none" opacity="0.95">
+      <path d="M195,80 L200,77 L205,80 L205,84 L200,87 L195,84 Z"/>
+      <path d="M237,75 L242,72 L247,75 L247,79 L242,82 L237,79 Z"/>
+      <path d="M195,210 L200,207 L205,210 L205,214 L200,217 L195,214 Z"/>
+      <path d="M237,200 L242,197 L247,200 L247,204 L242,207 L237,204 Z"/>
+      <path d="M195,140 L200,137 L205,140 L205,144 L200,147 L195,144 Z"/>
+      <path d="M237,140 L242,137 L247,140 L247,144 L242,147 L237,144 Z"/>
+    </g>
+    <!-- Hot points. -->
+    <g fill="#dce4f0" opacity="0.95" filter="url(#p15p3bloom)">
+      <circle cx="200" cy="82" r="1"/>
+      <circle cx="242" cy="77" r="1"/>
+      <circle cx="200" cy="208" r="1"/>
+      <circle cx="242" cy="198" r="1"/>
+      <circle cx="200" cy="142" r="0.9"/>
+      <circle cx="242" cy="142" r="0.9"/>
+    </g>
+  </g>
+
+  <!-- WREN — crouched at base of gap, both hands on wall. -->
+  <g id="p15p3-wren" transform="translate(160, 235)">
+    <!-- Crouched body. -->
+    <path d="M-22,55 L-25,15 L-22,-10 L-12,-25 L12,-25 L22,-10 L25,15 L22,55 Z" fill="url(#p15p3copperDirty)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Knee on ground. -->
+    <ellipse cx="0" cy="55" rx="32" ry="6" fill="url(#p15p3copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <!-- Pauldrons. -->
+    <path d="M-22,-8 L-34,2 L-34,18 L-22,22" fill="url(#p15p3copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M22,-8 L34,2 L34,18 L22,22" fill="url(#p15p3copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <!-- Copper collar dim. -->
+    <ellipse cx="0" cy="-25" rx="14" ry="3" fill="#f0a868" opacity="0.65" filter="url(#p15p3bloom)"/>
+
+    <!-- Mud streaks. -->
+    <g fill="#3a2010" opacity="0.85">
+      <ellipse cx="-10" cy="20" rx="4" ry="2"/>
+      <ellipse cx="12" cy="35" rx="4" ry="2"/>
+    </g>
+
+    <!-- ARMS BOTH OUTSTRETCHED FORWARD pressing brick wall. -->
+    <path d="M22,-5 L60,-5 L62,5 L24,5 Z" fill="url(#p15p3copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M22,5 L60,15 L62,25 L24,15 Z" fill="url(#p15p3copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <!-- Hands pressed flat against wall. -->
+    <ellipse cx="64" cy="0" rx="6" ry="4" fill="url(#p15p3copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="66" cy="20" rx="6" ry="4" fill="url(#p15p3copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <!-- Oil stains forearms. -->
+    <g fill="#1a0808" opacity="0.85">
+      <ellipse cx="40" cy="0" rx="3" ry="1.4"/>
+      <ellipse cx="40" cy="20" rx="3" ry="1.4"/>
+    </g>
+    <!-- Holographic flow from palms outward (into brick wall). -->
+    <g stroke="#a8d8f8" stroke-width="0.5" fill="none" opacity="0.85" filter="url(#p15p3bloom)">
+      <path d="M70,0 L90,-5 L110,0"/>
+      <path d="M72,20 L92,15 L112,20"/>
+    </g>
+
+    <!-- HEAD focused turned slightly toward wall. -->
+    <ellipse cx="2" cy="-37" rx="11" ry="12" fill="#e0c098"/>
+    <ellipse cx="-1" cy="-46" rx="8" ry="5" fill="#1a0808"/>
+    <line x1="-3" y1="-48" x2="2" y2="-45" stroke="#3a1808" stroke-width="0.4"/>
+    <ellipse cx="0" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="6" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="2" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="8" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <!-- Cool blue catch-light. -->
+    <circle cx="2" cy="-40" r="0.7" fill="#a8d8f8" opacity="0.95" filter="url(#p15p3bloom)"/>
+    <circle cx="8" cy="-40" r="0.7" fill="#a8d8f8" opacity="0.95" filter="url(#p15p3bloom)"/>
+    <line x1="-1" y1="-31" x2="6" y2="-31" stroke="#3a1810" stroke-width="0.7"/>
+    <!-- Faint blue cool tone on face. -->
+    <ellipse cx="2" cy="-37" rx="14" ry="10" fill="#a8d8f8" opacity="0.25" filter="url(#p15p3strongBloom)"/>
+  </g>
+
+  <!-- DIALOGUE -->
+  <g id="p15p3-bal-wren">
+    <rect x="14" y="14" width="240" height="62" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Perimeter's up. Motion</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">detection across the entrance.</text>
+  </g>
+
+  <g id="p15p3-bal-jink-op">
+    <rect x="14" y="244" width="340" height="60" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="264" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK (O.P.)</text>
+    <text x="24" y="284" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">What about spiders? I've seen</text>
+    <text x="24" y="301" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">some big ones in here.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p15p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">3</text>
+    <text x="362" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">FAIRY WARDS</text>
+  </g>
+</svg>
