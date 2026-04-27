@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 21 — Panel 4: Wide camp + city, "watched the city breathe"</title>
+  <desc>Wide 24mm high angle. Camp from above between timber beams in Victorian wall cavity. Exactly five tiny figures, no other people in metallic suits — four sleeping in dim department-color glows (silver, copper, ruby, sapphire-violet), one awake in emerald at edge of gap in exterior brickwork. Through gap, Victorian city stretches vast — rooftops, chimneys, gaslit streets disappearing into fog, enormous and unknowing. Power cell baseline blue-white inside camp. Awake figure is point of emerald at boundary between hidden camp and vast city. Cool blue-white inside, warm amber from city through gap, gap is border between two worlds. CAPTIONS: "Jink sat at the gap in the wall and watched the city breathe." / "They did not tell anyone."</desc>
+
+  <defs>
+    <linearGradient id="p21p4coolBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a1828"/>
+      <stop offset="60%" stop-color="#1a2848"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="p21p4powerCell" cx="30%" cy="50%" r="20%">
+      <stop offset="0%" stop-color="#a8d8ff" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p21p4cityWarm" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p21p4timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p21p4floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p21p4cityFog" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="50%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <filter id="p21p4bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p21p4strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p21p4deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG cool. -->
+  <rect width="742" height="364" fill="url(#p21p4coolBg)"/>
+  <!-- Power cell halo (camp center-left). -->
+  <ellipse cx="200" cy="180" rx="200" ry="140" fill="url(#p21p4powerCell)" opacity="0.85" filter="url(#p21p4deepBloom)"/>
+  <!-- City warmth right. -->
+  <ellipse cx="742" cy="180" rx="320" ry="220" fill="url(#p21p4cityWarm)" opacity="0.85"/>
+
+  <!-- ******** WALL CAVITY interior LEFT 2/3 ******** -->
+  <!-- Floor (timber from above). -->
+  <rect x="0" y="40" width="500" height="324" fill="url(#p21p4floor)"/>
+  <!-- Wood grain top-down. -->
+  <g stroke="#1a0c04" stroke-width="0.55" opacity="0.55">
+    <line x1="80" y1="40" x2="80" y2="364"/>
+    <line x1="180" y1="40" x2="180" y2="364"/>
+    <line x1="280" y1="40" x2="280" y2="364"/>
+    <line x1="380" y1="40" x2="380" y2="364"/>
+    <line x1="460" y1="40" x2="460" y2="364"/>
+  </g>
+  <!-- Timber beams crossing (top + bottom edges of cavity). -->
+  <rect x="0" y="0" width="500" height="40" fill="url(#p21p4timber)"/>
+  <rect x="0" y="324" width="500" height="40" fill="url(#p21p4timber)"/>
+  <line x1="0" y1="40" x2="500" y2="40" stroke="#020a08" stroke-width="2"/>
+  <line x1="0" y1="324" x2="500" y2="324" stroke="#020a08" stroke-width="2"/>
+
+  <!-- Power cell on floor. -->
+  <g>
+    <rect x="180" y="160" width="40" height="20" fill="#1a2858" stroke="#a8d8ff" stroke-width="0.85" filter="url(#p21p4bloom)"/>
+    <rect x="184" y="164" width="32" height="12" fill="#a8d8ff" opacity="0.85" filter="url(#p21p4bloom)"/>
+  </g>
+
+  <!-- Perimeter ward lines (geometric blue-white). -->
+  <g stroke="#a8d8ff" stroke-width="0.85" fill="none" opacity="0.55" filter="url(#p21p4bloom)">
+    <line x1="20" y1="60" x2="40" y2="80"/>
+    <line x1="40" y1="60" x2="20" y2="80"/>
+    <line x1="20" y1="280" x2="40" y2="300"/>
+    <line x1="40" y1="280" x2="20" y2="300"/>
+  </g>
+
+  <!-- ******** SLEEPING SQUAD (top-down view, 4 figures dim) ******** -->
+  <!-- Sable silver — top of camp. -->
+  <g transform="translate(120 100)">
+    <ellipse cx="0" cy="0" rx="8" ry="14" fill="#5a606a"/>
+    <ellipse cx="0" cy="-10" rx="5" ry="5" fill="#dcdcdc"/>
+    <!-- Cracked shoulder. -->
+    <line x1="6" y1="-4" x2="9" y2="2" stroke="#a8d8ff" stroke-width="0.55" filter="url(#p21p4bloom)"/>
+    <!-- Dim glow. -->
+    <circle cx="0" cy="0" r="1" fill="#dcdcdc" opacity="0.55" filter="url(#p21p4bloom)"/>
+  </g>
+
+  <!-- Wren copper — center-left. -->
+  <g transform="translate(280 100)">
+    <ellipse cx="0" cy="0" rx="10" ry="12" fill="#c87a35"/>
+    <!-- Hair messy bun. -->
+    <ellipse cx="-7" cy="-8" rx="4" ry="4" fill="#1a0c04"/>
+    <!-- Oil-stained forearm. -->
+    <ellipse cx="6" cy="2" rx="4" ry="2" fill="#1a0c04" opacity="0.85"/>
+    <circle cx="0" cy="0" r="1" fill="#c87a35" opacity="0.55" filter="url(#p21p4bloom)"/>
+  </g>
+
+  <!-- Thresh ruby — top right. -->
+  <g transform="translate(380 120)">
+    <ellipse cx="0" cy="0" rx="9" ry="14" fill="#dc2030"/>
+    <!-- Dented pauldron. -->
+    <path d="M-9,-8 L-12,-4 L-9,0 Z" fill="#a81020"/>
+    <!-- Buzz cut head. -->
+    <ellipse cx="0" cy="-12" rx="5" ry="4" fill="#a85820"/>
+    <!-- Rifle. -->
+    <rect x="-10" y="2" width="20" height="3" fill="#1a0c04"/>
+    <circle cx="0" cy="0" r="1" fill="#dc2030" opacity="0.55" filter="url(#p21p4bloom)"/>
+  </g>
+
+  <!-- Luma sapphire-violet — center bottom. -->
+  <g transform="translate(220 240)">
+    <ellipse cx="0" cy="0" rx="11" ry="9" fill="#5a3ad8"/>
+    <!-- Head with braid + sapphire filament. -->
+    <ellipse cx="-9" cy="-2" rx="4" ry="5" fill="#1a0c04"/>
+    <line x1="-12" y1="-4" x2="-14" y2="4" stroke="#5a8aff" stroke-width="0.7" filter="url(#p21p4bloom)"/>
+    <!-- Cracked lens. -->
+    <ellipse cx="-7" cy="-3" rx="2" ry="1" fill="#020a08" stroke="#5a8aff" stroke-width="0.4"/>
+    <!-- Data pad faintly active. -->
+    <rect x="8" y="-2" width="6" height="4" fill="#1a0c04"/>
+    <rect x="9" y="-1" width="4" height="2" fill="#5a3ad8" opacity="0.85" filter="url(#p21p4bloom)"/>
+    <circle cx="0" cy="0" r="1" fill="#5a3ad8" opacity="0.55" filter="url(#p21p4bloom)"/>
+  </g>
+
+  <!-- ******** GAP in brickwork (wall on right side of camp) ******** -->
+  <g>
+    <!-- Brick wall vertical strip from camp interior (separates camp from city). -->
+    <rect x="500" y="40" width="40" height="284" fill="#3a2010"/>
+    <!-- Brick pattern. -->
+    <g stroke="#1a0c04" stroke-width="0.55" opacity="0.65">
+      <line x1="500" y1="80" x2="540" y2="80"/>
+      <line x1="500" y1="120" x2="540" y2="120"/>
+      <line x1="500" y1="160" x2="540" y2="160"/>
+      <line x1="500" y1="200" x2="540" y2="200"/>
+      <line x1="500" y1="240" x2="540" y2="240"/>
+      <line x1="500" y1="280" x2="540" y2="280"/>
+      <line x1="520" y1="60" x2="520" y2="100"/>
+      <line x1="520" y1="140" x2="520" y2="180"/>
+      <line x1="520" y1="220" x2="520" y2="260"/>
+    </g>
+    <!-- THE GAP cut into brick. -->
+    <rect x="500" y="160" width="40" height="80" fill="url(#p21p4cityFog)"/>
+    <path d="M500,160 L504,156 L536,156 L540,160 Z" fill="#1a0c04"/>
+    <path d="M500,240 L504,244 L536,244 L540,240 Z" fill="#1a0c04"/>
+  </g>
+
+  <!-- ******** VICTORIAN CITY beyond gap (right 1/3) ******** -->
+  <g>
+    <rect x="540" y="40" width="202" height="284" fill="url(#p21p4cityFog)"/>
+    <!-- Rooftop zigzag silhouettes layered. -->
+    <g fill="#1a0c04" opacity="0.85">
+      <path d="M540,260 L560,240 L580,260 L600,230 L620,260 L640,240 L660,260 L680,230 L700,260 L720,240 L742,260 L742,324 L540,324 Z"/>
+    </g>
+    <!-- Mid-distance rooftops. -->
+    <g fill="#3a2818" opacity="0.85">
+      <path d="M540,220 L580,200 L620,224 L660,200 L700,220 L742,205 L742,260 L540,260 Z"/>
+    </g>
+    <!-- Far rooftops. -->
+    <g fill="#5a4838" opacity="0.65">
+      <path d="M540,180 L580,170 L620,184 L660,170 L700,184 L742,175 L742,210 L540,210 Z"/>
+    </g>
+    <!-- Distant church spire. -->
+    <polygon points="660,140 668,180 652,180" fill="#3a2818" opacity="0.85"/>
+    <line x1="660" y1="140" x2="660" y2="180" stroke="#1a0c04" stroke-width="0.85"/>
+    <!-- Chimneys. -->
+    <rect x="572" y="200" width="6" height="24" fill="#3a2818"/>
+    <rect x="608" y="200" width="6" height="24" fill="#3a2818"/>
+    <rect x="668" y="200" width="6" height="20" fill="#3a2818"/>
+    <rect x="710" y="200" width="6" height="20" fill="#3a2818"/>
+    <!-- Gaslight pinpoints scattered. -->
+    <g fill="#ffd078" opacity="0.85" filter="url(#p21p4bloom)">
+      <circle cx="568" cy="290" r="1.7"/>
+      <circle cx="608" cy="296" r="1.7"/>
+      <circle cx="650" cy="288" r="1.7"/>
+      <circle cx="690" cy="294" r="1.7"/>
+      <circle cx="720" cy="288" r="1.7"/>
+    </g>
+    <!-- Fog horizontal wisps. -->
+    <g fill="none" stroke="#a89888" stroke-width="0.85" opacity="0.45">
+      <path d="M540,260 Q620,256 742,260"/>
+      <path d="M540,290 Q620,286 742,290"/>
+      <path d="M540,310 Q620,306 742,310"/>
+    </g>
+    <!-- Sky tint. -->
+    <rect x="540" y="40" width="202" height="120" fill="#3a3848" opacity="0.45"/>
+  </g>
+
+  <!-- ******** JINK awake, emerald point at gap edge ******** -->
+  <g transform="translate(490 200)">
+    <ellipse cx="0" cy="2" rx="14" ry="2" fill="#000" opacity="0.65"/>
+    <!-- Body sitting (small from this angle). -->
+    <ellipse cx="0" cy="-4" rx="9" ry="11" fill="#2ed078"/>
+    <!-- Halo. -->
+    <ellipse cx="0" cy="0" rx="22" ry="22" fill="#2ed078" opacity="0.55" filter="url(#p21p4deepBloom)"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-12" rx="5" ry="6" fill="#7a4828"/>
+    <!-- Hair. -->
+    <ellipse cx="-3" cy="-14" rx="3" ry="3" fill="#a89070"/>
+    <ellipse cx="3" cy="-14" rx="3" ry="3" fill="#a89070"/>
+    <!-- Bright emerald spot (the awake one). -->
+    <circle cx="0" cy="-4" r="2" fill="#a8ffd0" filter="url(#p21p4bloom)"/>
+  </g>
+
+  <!-- CAPTIONS bottom. -->
+  <g>
+    <rect x="14" y="296" width="384" height="22" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="313" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic">Jink sat at the gap in the wall and watched the city breathe.</text>
+
+  <g>
+    <rect x="14" y="324" width="200" height="22" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="341" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic">They did not tell anyone.</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#020a08" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q200,45 400,42"/>
+    <path d="M400,40 Q600,45 742,42"/>
+  </g>
+</svg>

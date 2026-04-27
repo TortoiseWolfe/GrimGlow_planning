@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 21 — Panel 1: Jink entering wall camp</title>
+  <desc>MW 35mm. Jink steps through holographic perimeter markers — markers register them with brief emerald flash. Camp interior: rough timber beams, blue-white power cell, FOUR sleeping squad figures in metallic dept-colored suits — Sable silver, Wren copper, Thresh ruby, Luma sapphire-violet — dim accents in low-power sleep mode. Jink pauses at threshold. Returning from mission carrying shard + secret. Grin absent, face young/serious/thinking — joy layered with guilt and weight of consequence.</desc>
+
+  <defs>
+    <linearGradient id="p21p1coolBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1828"/>
+      <stop offset="100%" stop-color="#020a18"/>
+    </linearGradient>
+    <radialGradient id="p21p1powerCell" cx="50%" cy="60%" r="40%">
+      <stop offset="0%" stop-color="#a8d8ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#4878d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p21p1emeraldFlash" cx="14%" cy="50%" r="14%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p21p1timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p21p1plaster" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="p21p1jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a890"/>
+      <stop offset="100%" stop-color="#5a4830"/>
+    </linearGradient>
+    <radialGradient id="p21p1jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8a880"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p21p1emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <filter id="p21p1bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p21p1strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p21p1deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG cool. -->
+  <rect width="742" height="364" fill="url(#p21p1coolBg)"/>
+  <!-- Power cell halo center. -->
+  <ellipse cx="380" cy="240" rx="200" ry="120" fill="url(#p21p1powerCell)" opacity="0.85" filter="url(#p21p1deepBloom)"/>
+  <!-- Emerald perimeter flash at left edge (Jink entering). -->
+  <ellipse cx="80" cy="200" rx="60" ry="80" fill="url(#p21p1emeraldFlash)" opacity="0.85" filter="url(#p21p1strongBloom)"/>
+
+  <!-- WALL CAVITY structure. -->
+  <!-- Timber beams (top + bottom). -->
+  <rect x="0" y="0" width="742" height="36" fill="url(#p21p1timber)"/>
+  <line x1="0" y1="36" x2="742" y2="36" stroke="#1a0c04" stroke-width="2"/>
+  <rect x="0" y="320" width="742" height="44" fill="url(#p21p1timber)"/>
+  <line x1="0" y1="320" x2="742" y2="320" stroke="#1a0c04" stroke-width="2"/>
+  <!-- Vertical timber stud columns. -->
+  <rect x="0" y="36" width="40" height="284" fill="url(#p21p1timber)" opacity="0.85"/>
+  <rect x="700" y="36" width="42" height="284" fill="url(#p21p1timber)" opacity="0.85"/>
+  <!-- Lath-and-plaster wall behind. -->
+  <rect x="40" y="36" width="660" height="284" fill="url(#p21p1plaster)"/>
+  <!-- Lath ladder pattern. -->
+  <g stroke="#1a0c04" stroke-width="0.85" opacity="0.65">
+    <line x1="40" y1="60" x2="700" y2="60"/>
+    <line x1="40" y1="100" x2="700" y2="100"/>
+    <line x1="40" y1="140" x2="700" y2="140"/>
+    <line x1="40" y1="180" x2="700" y2="180"/>
+    <line x1="40" y1="220" x2="700" y2="220"/>
+    <line x1="40" y1="260" x2="700" y2="260"/>
+    <line x1="40" y1="300" x2="700" y2="300"/>
+  </g>
+  <!-- Brick visible upper-right (at gap). -->
+  <g fill="#5a3018" opacity="0.65">
+    <rect x="640" y="80" width="40" height="14"/>
+    <rect x="660" y="60" width="40" height="14"/>
+    <rect x="640" y="40" width="40" height="14"/>
+  </g>
+
+  <!-- Iron gas pipe vertical (hazard, established in I2 P15). -->
+  <rect x="380" y="36" width="6" height="284" fill="#3a2818"/>
+  <line x1="383" y1="60" x2="383" y2="280" stroke="#5a606a" stroke-width="2"/>
+  <!-- Pipe joint flange. -->
+  <rect x="376" y="120" width="14" height="6" fill="#5a606a"/>
+  <rect x="376" y="240" width="14" height="6" fill="#5a606a"/>
+
+  <!-- Power cell (amber glowing hearth — but cool in this scene per script — blue-white). -->
+  <g>
+    <rect x="340" y="240" width="80" height="36" fill="#1a2858" stroke="#a8d8ff" stroke-width="1" filter="url(#p21p1bloom)"/>
+    <rect x="346" y="246" width="68" height="24" fill="url(#p21p1powerCell)" opacity="0.85"/>
+    <line x1="380" y1="246" x2="380" y2="270" stroke="#ffffff" stroke-width="1.4" filter="url(#p21p1bloom)"/>
+  </g>
+
+  <!-- Perimeter holographic markers (geometric blue-white ward lines on left edge — entrance). -->
+  <g stroke="#a8d8ff" stroke-width="1.4" fill="none" opacity="0.85" filter="url(#p21p1bloom)">
+    <line x1="40" y1="80" x2="60" y2="100"/>
+    <line x1="60" y1="80" x2="40" y2="100"/>
+    <line x1="40" y1="180" x2="60" y2="200"/>
+    <line x1="60" y1="180" x2="40" y2="200"/>
+    <line x1="40" y1="280" x2="60" y2="300"/>
+    <line x1="60" y1="280" x2="40" y2="300"/>
+  </g>
+
+  <!-- ******** SLEEPING SQUAD (4 figures, dim) ******** -->
+  <!-- Sable silver against beam (sitting up even in sleep). -->
+  <g transform="translate(180 280)">
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.55"/>
+    <!-- Sitting body. -->
+    <path d="M-12,-46 Q-14,-22 -8,0 L8,0 Q16,-22 12,-46 Q10,-50 0,-50 Q-10,-50 -12,-46 Z" fill="#5a606a"/>
+    <!-- CRACKED right shoulder — hairline blue-white fractures. -->
+    <line x1="6" y1="-46" x2="10" y2="-30" stroke="#a8d8ff" stroke-width="0.85" filter="url(#p21p1bloom)"/>
+    <line x1="8" y1="-44" x2="11" y2="-32" stroke="#a8d8ff" stroke-width="0.55" opacity="0.85"/>
+    <!-- Legs out. -->
+    <path d="M-8,0 L-6,16 L4,16 L0,0 Z" fill="#5a606a"/>
+    <path d="M0,0 L4,16 L14,16 L8,0 Z" fill="#5a606a"/>
+    <!-- Head tilted (sleeping). -->
+    <ellipse cx="0" cy="-58" rx="9" ry="11" fill="#7a4828"/>
+    <!-- Silver-white cropped hair. -->
+    <ellipse cx="-6" cy="-66" rx="5" ry="5" fill="#dcdcdc"/>
+    <ellipse cx="6" cy="-66" rx="5" ry="5" fill="#dcdcdc"/>
+    <ellipse cx="0" cy="-70" rx="5" ry="4" fill="#dcdcdc"/>
+    <!-- Closed eyes. -->
+    <line x1="-4" y1="-58" x2="-1" y2="-58" stroke="#1a0c04" stroke-width="0.55"/>
+    <line x1="1" y1="-58" x2="4" y2="-58" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Dim silver glow. -->
+    <circle cx="0" cy="-30" r="1.4" fill="#dcdcdc" opacity="0.65" filter="url(#p21p1bloom)"/>
+  </g>
+
+  <!-- Wren copper, curled near equipment. -->
+  <g transform="translate(280 290)">
+    <ellipse cx="0" cy="6" rx="20" ry="3" fill="#000" opacity="0.55"/>
+    <!-- Curled body. -->
+    <path d="M-18,-8 Q-22,8 -8,14 L18,14 Q24,4 22,-8 Q20,-14 -16,-14 Z" fill="#c87a35"/>
+    <!-- Head curled in. -->
+    <ellipse cx="-12" cy="-12" rx="7" ry="8" fill="#7a4828"/>
+    <!-- Hair messy bun. -->
+    <ellipse cx="-12" cy="-20" rx="6" ry="6" fill="#1a0c04"/>
+    <ellipse cx="-12" cy="-22" rx="4" ry="3" fill="#3a2010"/>
+    <!-- Closed eyes. -->
+    <line x1="-15" y1="-12" x2="-13" y2="-12" stroke="#020a08" stroke-width="0.55"/>
+    <!-- Oil-stained forearms. -->
+    <ellipse cx="14" cy="0" rx="5" ry="3" fill="#1a0c04" opacity="0.85"/>
+    <!-- Wrist diagnostic dim. -->
+    <circle cx="14" cy="0" r="1.4" fill="#c87a35" opacity="0.65" filter="url(#p21p1bloom)"/>
+  </g>
+
+  <!-- Thresh ruby on beam, weapon across knees (sleeping sitting up, guarding even unconscious). -->
+  <g transform="translate(480 280)">
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.55"/>
+    <!-- Sitting body. -->
+    <path d="M-14,-50 Q-18,-22 -10,0 L10,0 Q18,-22 14,-50 Q12,-54 0,-54 Q-12,-54 -14,-50 Z" fill="#dc2030"/>
+    <!-- DENTED left pauldron (visible deformation). -->
+    <path d="M-14,-50 L-18,-44 L-14,-40 Z" fill="#a81020"/>
+    <!-- Legs out. -->
+    <path d="M-10,0 L-8,16 L4,16 L0,0 Z" fill="#dc2030"/>
+    <path d="M0,0 L4,16 L16,16 L10,0 Z" fill="#dc2030"/>
+    <!-- Compact rifle across knees (white-knuckle grip). -->
+    <rect x="-14" y="-2" width="28" height="4" fill="#1a0c04"/>
+    <line x1="-14" y1="0" x2="14" y2="0" stroke="#5a606a" stroke-width="0.85"/>
+    <!-- Head tilted forward. -->
+    <ellipse cx="0" cy="-62" rx="9" ry="11" fill="#7a4828"/>
+    <!-- Copper-red buzz cut. -->
+    <ellipse cx="0" cy="-68" rx="9" ry="6" fill="#a85820"/>
+    <!-- Closed eyes. -->
+    <line x1="-4" y1="-62" x2="-1" y2="-62" stroke="#1a0c04" stroke-width="0.55"/>
+    <line x1="1" y1="-62" x2="4" y2="-62" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Dim ruby glow. -->
+    <circle cx="0" cy="-30" r="1.4" fill="#dc2030" opacity="0.65" filter="url(#p21p1bloom)"/>
+  </g>
+
+  <!-- Luma sapphire-violet on side, data pad faintly active near hand. -->
+  <g transform="translate(580 296)">
+    <ellipse cx="0" cy="14" rx="22" ry="3" fill="#000" opacity="0.55"/>
+    <!-- Curled on side. -->
+    <path d="M-20,-4 Q-24,12 -8,18 L20,18 Q26,8 22,-4 Q20,-10 -18,-10 Z" fill="#5a3ad8"/>
+    <!-- Head. -->
+    <ellipse cx="-16" cy="-8" rx="7" ry="8" fill="#7a4828"/>
+    <!-- Braided hair + SAPPHIRE FILAMENT. -->
+    <ellipse cx="-16" cy="-16" rx="6" ry="5" fill="#1a0c04"/>
+    <line x1="-20" y1="-12" x2="-22" y2="-2" stroke="#1a0c04" stroke-width="2"/>
+    <!-- Sapphire filament glow in braid. -->
+    <line x1="-21" y1="-10" x2="-23" y2="-2" stroke="#5a8aff" stroke-width="0.85" filter="url(#p21p1bloom)"/>
+    <!-- CRACKED right holo lens. -->
+    <ellipse cx="-14" cy="-10" rx="3" ry="2" fill="#020a08" stroke="#5a8aff" stroke-width="0.55" opacity="0.85"/>
+    <line x1="-15" y1="-10" x2="-13" y2="-10" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Closed eyes. -->
+    <line x1="-19" y1="-8" x2="-17" y2="-8" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Data pad faintly active. -->
+    <rect x="14" y="6" width="10" height="6" fill="#1a0c04"/>
+    <rect x="15" y="7" width="8" height="4" fill="#5a3ad8" opacity="0.85" filter="url(#p21p1bloom)"/>
+  </g>
+
+  <!-- ******** JINK at left threshold ******** -->
+  <g transform="translate(80 200)">
+    <ellipse cx="0" cy="78" rx="18" ry="3" fill="#000" opacity="0.55"/>
+
+    <!-- Legs (mid-step through perimeter). -->
+    <path d="M-6,16 L-8,76 L-2,76 L-2,16 Z" fill="url(#p21p1emeraldSuit)"/>
+    <path d="M2,16 L4,76 L10,76 L8,16 Z" fill="url(#p21p1emeraldSuit)"/>
+    <ellipse cx="-5" cy="78" rx="5" ry="2" fill="#0a4018"/>
+    <ellipse cx="6" cy="78" rx="5" ry="2" fill="#0a4018"/>
+
+    <!-- Torso. -->
+    <path d="M-14,-40 Q-18,4 -8,16 L10,16 Q22,4 18,-40 Q14,-48 0,-48 Q-12,-48 -14,-40 Z" fill="url(#p21p1emeraldSuit)"/>
+    <line x1="0" y1="-48" x2="0" y2="16" stroke="#0a4018" stroke-width="0.4"/>
+    <!-- Holo seams. -->
+    <circle cx="0" cy="-22" r="1.4" fill="#a8ffd0" filter="url(#p21p1bloom)"/>
+    <circle cx="0" cy="2" r="1.4" fill="#a8ffd0" filter="url(#p21p1bloom)"/>
+    <!-- Soot streak. -->
+    <path d="M-14,-22 Q0,-24 18,-20 Q18,-2 18,8 L-14,8 Z" fill="#1a0c04" opacity="0.85"/>
+
+    <!-- Wing-pack stowed. -->
+    <rect x="-10" y="-48" width="20" height="8" fill="#1a4828"/>
+    <line x1="-10" y1="-44" x2="10" y2="-44" stroke="#2ed078" stroke-width="0.85" filter="url(#p21p1bloom)"/>
+
+    <!-- Arms at sides. -->
+    <path d="M-14,-38 Q-22,-10 -22,16 L-14,16 Q-12,-10 -10,-38 Z" fill="url(#p21p1emeraldSuit)"/>
+    <path d="M18,-38 Q26,-10 26,16 L18,16 Q16,-10 14,-38 Z" fill="url(#p21p1emeraldSuit)"/>
+
+    <!-- Head — looking in/right at sleeping squad. Serious thinking face. -->
+    <g transform="rotate(8 0 -64)">
+      <ellipse cx="0" cy="-64" rx="11" ry="13" fill="url(#p21p1jinkSkin)"/>
+      <!-- Hair (matted, dimmed). -->
+      <g fill="url(#p21p1jinkHair)">
+        <ellipse cx="-12" cy="-78" rx="6" ry="7"/>
+        <ellipse cx="-2" cy="-84" rx="6" ry="7"/>
+        <ellipse cx="8" cy="-84" rx="6" ry="7"/>
+        <ellipse cx="14" cy="-78" rx="6" ry="7"/>
+        <ellipse cx="-14" cy="-72" rx="5" ry="6"/>
+        <ellipse cx="16" cy="-72" rx="5" ry="6"/>
+        <ellipse cx="-12" cy="-58" rx="4" ry="6"/>
+        <ellipse cx="14" cy="-58" rx="4" ry="6"/>
+      </g>
+      <!-- Eyes — looking right at squad. -->
+      <ellipse cx="-3" cy="-66" rx="2" ry="1.4" fill="#fff8e8"/>
+      <circle cx="-2" cy="-66" r="1.2" fill="#2a4830"/>
+      <circle cx="-2" cy="-66" r="0.6" fill="#0a0604"/>
+      <ellipse cx="6" cy="-66" rx="2" ry="1.4" fill="#fff8e8"/>
+      <circle cx="7" cy="-66" r="1.2" fill="#2a4830"/>
+      <circle cx="7" cy="-66" r="0.6" fill="#0a0604"/>
+      <!-- Brows level (serious). -->
+      <path d="M-7,-72 Q-3,-74 1,-72" fill="none" stroke="#3a2810" stroke-width="0.55"/>
+      <path d="M3,-72 Q7,-74 11,-72" fill="none" stroke="#3a2810" stroke-width="0.55"/>
+      <!-- Nose. -->
+      <path d="M2,-58 L0,-52 Q2,-51 4,-52 Z" fill="#5a3018" opacity="0.55"/>
+      <!-- MOUTH closed, no grin (serious). -->
+      <path d="M-3,-46 Q2,-44 7,-46" fill="none" stroke="#3a1c08" stroke-width="0.85" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- No dialogue. -->
+</svg>

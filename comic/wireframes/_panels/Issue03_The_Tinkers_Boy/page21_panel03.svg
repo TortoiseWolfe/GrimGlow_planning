@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 364" width="238" height="364">
+  <title>Issue 3 — Page 21 — Panel 3: Jink CU profile, split lighting</title>
+  <desc>CU 85mm in profile of tiny face — late teens or early twenties, light brown skin, golden curly hair matted and dimmed, looking toward distant warm light. Forward edge of profile catches warm amber from gaslight through wall gap. Jaw and throat catch cool emerald from suit accents below. Soot streak visible bottom of frame. Eyes open, unblinking, searching for something far away. Young + weighted — someone who changed the world and is beginning to understand it. Split lighting — warm amber forward, cool emerald below.</desc>
+
+  <defs>
+    <linearGradient id="p21p3coolBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1828"/>
+      <stop offset="100%" stop-color="#020a18"/>
+    </linearGradient>
+    <radialGradient id="p21p3warmFwd" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p21p3coolUnder" cx="0%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p21p3jinkSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a4830"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <linearGradient id="p21p3warmEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0.65"/>
+    </linearGradient>
+    <linearGradient id="p21p3coolEdge" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#a8ffd0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p21p3jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a89070"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p21p3emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <filter id="p21p3bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p21p3deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="238" height="364" fill="url(#p21p3coolBg)"/>
+  <!-- Warm halo from right (city light). -->
+  <ellipse cx="238" cy="180" rx="160" ry="200" fill="url(#p21p3warmFwd)" opacity="0.85"/>
+  <!-- Cool halo from below (suit). -->
+  <ellipse cx="119" cy="364" rx="160" ry="160" fill="url(#p21p3coolUnder)" opacity="0.85" filter="url(#p21p3deepBloom)"/>
+
+  <!-- ******** PROFILE FACE FACING RIGHT ******** -->
+  <g>
+    <!-- Hair matted golden + dimmed. -->
+    <g fill="url(#p21p3jinkHair)">
+      <ellipse cx="60" cy="80" rx="22" ry="32"/>
+      <ellipse cx="100" cy="50" rx="22" ry="28"/>
+      <ellipse cx="140" cy="46" rx="22" ry="28"/>
+      <ellipse cx="170" cy="68" rx="20" ry="30"/>
+      <ellipse cx="50" cy="130" rx="18" ry="30"/>
+      <ellipse cx="40" cy="180" rx="16" ry="30"/>
+      <ellipse cx="84" cy="40" rx="14" ry="20"/>
+      <ellipse cx="124" cy="30" rx="14" ry="20"/>
+      <ellipse cx="158" cy="36" rx="14" ry="20"/>
+    </g>
+    <!-- Hair shines (faint, dimmed — matted). -->
+    <g stroke="#a89070" stroke-width="0.85" fill="none" opacity="0.55">
+      <path d="M70,80 Q86,90 100,80"/>
+      <path d="M120,50 Q140,60 156,50"/>
+    </g>
+
+    <!-- PROFILE silhouette (right-facing). -->
+    <path d="M62,140 Q56,170 60,200 Q64,220 76,232 Q92,242 116,244 Q132,238 142,228 Q156,210 162,180 Q166,140 156,100 Q140,80 110,80 Q80,90 62,120 Z" fill="url(#p21p3jinkSkin)"/>
+    <!-- Warm amber on forward (right) edge. -->
+    <path d="M120,90 Q156,100 166,140 Q166,180 156,210 Q142,228 132,238 L132,90 Z" fill="url(#p21p3warmEdge)" opacity="0.85"/>
+    <!-- Cool emerald wash on jaw/throat from below. -->
+    <path d="M62,200 Q92,242 142,228 L160,250 L142,262 Q92,266 62,250 Z" fill="url(#p21p3coolEdge)" opacity="0.85" filter="url(#p21p3bloom)"/>
+
+    <!-- Profile EYE (right-facing). -->
+    <ellipse cx="142" cy="156" rx="8" ry="6" fill="#fff8e8"/>
+    <ellipse cx="142" cy="156" rx="8" ry="6" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <ellipse cx="138" cy="156" rx="4" ry="4" fill="#2a4830"/>
+    <ellipse cx="138" cy="156" rx="2" ry="2" fill="#0a0604"/>
+    <ellipse cx="136" cy="155" rx="0.85" ry="0.55" fill="#ffffff"/>
+    <!-- Lashes. -->
+    <path d="M134,150 Q142,148 150,150" fill="none" stroke="#3a2810" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- Brow. -->
+    <path d="M126,140 Q142,134 158,140" fill="none" stroke="#3a2810" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- Profile nose. -->
+    <path d="M156,170 L168,184 Q164,196 156,196 L150,194 L150,176 Z" fill="url(#p21p3jinkSkin)"/>
+    <path d="M156,170 L168,184 Q164,196 156,196" fill="none" stroke="#5a3018" stroke-width="0.55"/>
+    <!-- Nostril. -->
+    <ellipse cx="158" cy="190" rx="2" ry="1.4" fill="#3a2010"/>
+
+    <!-- MOUTH closed weighted. -->
+    <path d="M148,216 Q156,222 162,218" fill="none" stroke="#3a1c08" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- Cheek (warm-lit forward). -->
+    <ellipse cx="150" cy="186" rx="9" ry="6" fill="#ffd078" opacity="0.45" filter="url(#p21p3bloom)"/>
+    <!-- Jaw (cool from below). -->
+    <ellipse cx="116" cy="232" rx="20" ry="8" fill="#a8ffd0" opacity="0.45" filter="url(#p21p3bloom)"/>
+
+    <!-- Ear. -->
+    <ellipse cx="86" cy="156" rx="6" ry="11" fill="url(#p21p3jinkSkin)"/>
+  </g>
+
+  <!-- Soot-streaked emerald suit chest at frame bottom. -->
+  <g>
+    <path d="M0,290 Q119,280 238,290 L238,364 L0,364 Z" fill="url(#p21p3emeraldSuit)"/>
+    <!-- Soot streak. -->
+    <path d="M14,300 Q119,292 224,300 Q224,316 224,332 L14,332 Q14,316 14,300 Z" fill="#1a0c04" opacity="0.85"/>
+    <!-- Holo collar seam. -->
+    <path d="M0,290 Q119,282 238,290" fill="none" stroke="#a8ffd0" stroke-width="1.4" filter="url(#p21p3bloom)"/>
+    <circle cx="60" cy="298" r="1.4" fill="#a8ffd0" filter="url(#p21p3bloom)"/>
+    <circle cx="119" cy="294" r="1.4" fill="#a8ffd0" filter="url(#p21p3bloom)"/>
+    <circle cx="178" cy="298" r="1.4" fill="#a8ffd0" filter="url(#p21p3bloom)"/>
+  </g>
+
+  <!-- Brushwork. -->
+  <g stroke="#020a08" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q119,42 238,40"/>
+  </g>
+</svg>
