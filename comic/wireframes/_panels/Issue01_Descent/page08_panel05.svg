@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 420" width="366" height="420">
+  <title>Issue 1 — Page 8 — Panel 5: Sable surveys, command focus, dual-light boundary</title>
+  <desc>Medium shot at slight high angle (50mm). Sable stands at center of wreckage gutter, hands at sides, turning to survey. Late thirties, dark brown skin, very short military silver-white buzz cut dusted with soot. Silver suit cracked at right shoulder leaking blue-white light. Behind: cool blue-white wreckage. Ahead: warm amber city-glow. She stands precisely at the boundary — cool on her back, warm on her face, two nearly equal. Around her: ruby figure sitting (Thresh) to one side, sapphire+emerald (Luma+Jink) behind, copper figure (Wren) at wreckage ahead. SABLE: "We're down. We're alive. Wren, I need a preliminary assessment in ten minutes." WREN (O.P.): "You'll have it in five."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p5bgL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a2a4a"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p8p5bgR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#080404"/>
+      <stop offset="100%" stop-color="#3a1810"/>
+    </linearGradient>
+    <radialGradient id="p8p5coolBack" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#5aa6dc" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2a4a8c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p5warmFront" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#c87830" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p8p5silver" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#bfc6d0"/>
+    </linearGradient>
+    <linearGradient id="p8p5skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#a87850"/>
+    </linearGradient>
+    <linearGradient id="p8p5floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#080406"/>
+    </linearGradient>
+    <filter id="p8p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="p8p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Background: cool LEFT (wreckage behind Sable) / warm RIGHT (city ahead). -->
+  <rect x="0" y="0" width="183" height="420" fill="url(#p8p5bgL)"/>
+  <rect x="183" y="0" width="183" height="420" fill="url(#p8p5bgR)"/>
+
+  <!-- Cool wreckage glow back-left. -->
+  <ellipse cx="0" cy="200" rx="200" ry="280" fill="url(#p8p5coolBack)" filter="url(#p8p5strongBloom)"/>
+
+  <!-- Warm city-glow front-right. -->
+  <ellipse cx="366" cy="220" rx="200" ry="280" fill="url(#p8p5warmFront)" filter="url(#p8p5strongBloom)"/>
+
+  <!-- Gutter wall texture (back). -->
+  <path d="M0,40 Q183,18 366,40 L366,260 L0,260 Z" fill="#1a0e08" opacity="0.4"/>
+  <line x1="0" y1="80" x2="366" y2="60" stroke="#080404" stroke-width="0.6" opacity="0.6"/>
+  <line x1="0" y1="180" x2="366" y2="178" stroke="#080404" stroke-width="0.6" opacity="0.6"/>
+  <g fill="#080404" opacity="0.7">
+    <circle cx="50" cy="85" r="2"/>
+    <circle cx="180" cy="68" r="2"/>
+    <circle cx="316" cy="85" r="2"/>
+    <circle cx="50" cy="185" r="2"/>
+    <circle cx="316" cy="185" r="2"/>
+  </g>
+
+  <!-- Wreckage detail back-left (twisted hull, sparking). -->
+  <g id="p8p5-wreck-bg" transform="translate(80, 200)">
+    <polygon points="-30,-20 -10,-40 30,-30 50,-10 40,30 0,40 -25,25" fill="#1a1a24" stroke="#080808" stroke-width="0.8"/>
+    <polygon points="-5,-15 12,-25 22,-5 8,5 -8,2" fill="#0a0a14"/>
+    <line x1="0" y1="-10" x2="14" y2="0" stroke="#7ac8ff" stroke-width="1" filter="url(#p8p5bloom)" opacity="0.95"/>
+    <line x1="-12" y1="-30" x2="-2" y2="-20" stroke="#ffffff" stroke-width="1.2" filter="url(#p8p5bloom)" opacity="0.95"/>
+    <g fill="#ffffff" filter="url(#p8p5bloom)">
+      <circle cx="-15" cy="-32" r="1.4"/>
+      <circle cx="-5" cy="-22" r="1.2"/>
+      <circle cx="6" cy="-12" r="1.3"/>
+      <circle cx="14" cy="-2" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- Floor. -->
+  <rect y="260" width="366" height="160" fill="url(#p8p5floor)"/>
+  <line x1="0" y1="260" x2="366" y2="260" stroke="#080404" stroke-width="0.8"/>
+
+  <!-- Coal sediment. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="40" cy="290" r="1.6"/>
+    <circle cx="100" cy="320" r="2"/>
+    <circle cx="160" cy="305" r="1.5"/>
+    <circle cx="220" cy="335" r="1.8"/>
+    <circle cx="280" cy="310" r="1.5"/>
+    <circle cx="320" cy="345" r="1.7"/>
+    <circle cx="60" cy="380" r="1.4"/>
+    <circle cx="180" cy="395" r="1.6"/>
+    <circle cx="300" cy="385" r="1.5"/>
+  </g>
+
+  <!-- Squad members at scale around Sable: tiny figures. -->
+  <!-- Thresh (sitting, ruby) bottom-left corner. -->
+  <g id="p8p5-thresh-bg" transform="translate(36, 340)">
+    <ellipse cx="0" cy="0" rx="9" ry="7" fill="#dc2030"/>
+    <ellipse cx="0" cy="-12" rx="4" ry="5" fill="#d8a880"/>
+    <ellipse cx="0" cy="-15" rx="4" ry="2" fill="#a83a18"/>
+    <line x1="-7" y1="3" x2="-12" y2="14" stroke="#a8182a" stroke-width="3" stroke-linecap="round"/>
+    <line x1="7" y1="3" x2="12" y2="14" stroke="#a8182a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Luma+Jink behind Sable bottom-right. -->
+  <g id="p8p5-luma-bg" transform="translate(310, 350)">
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#5a3ad8"/>
+    <ellipse cx="0" cy="-10" rx="4" ry="4.5" fill="#a87850"/>
+    <ellipse cx="-1" cy="-13" rx="3.5" ry="2" fill="#1a0a08"/>
+    <path d="M3,-10 Q8,-5 10,2" stroke="#1a0a08" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  <g id="p8p5-jink-bg" transform="translate(330, 360)">
+    <ellipse cx="0" cy="0" rx="6" ry="5" fill="#2ed078"/>
+    <ellipse cx="0" cy="-8" rx="3.5" ry="4" fill="#d8b890"/>
+    <g fill="#f5d068">
+      <circle cx="-2" cy="-10" r="2"/>
+      <circle cx="2" cy="-10" r="2"/>
+      <circle cx="0" cy="-12" r="2"/>
+    </g>
+  </g>
+
+  <!-- Wren (off-panel implied) — only her copper-suit silhouette visible at the very right edge moving toward wreckage. Show small. -->
+  <g id="p8p5-wren-bg" transform="translate(355, 295)">
+    <ellipse cx="0" cy="0" rx="6" ry="8" fill="#c87a35" opacity="0.9"/>
+    <ellipse cx="0" cy="-12" rx="3.5" ry="4" fill="#e0c0a0"/>
+    <ellipse cx="-1" cy="-15" rx="3" ry="2.5" fill="#0a0408"/>
+    <line x1="-5" y1="3" x2="-9" y2="13" stroke="#a86028" stroke-width="3" stroke-linecap="round"/>
+    <line x1="5" y1="3" x2="9" y2="13" stroke="#a86028" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- SABLE central, standing, surveying. The boundary figure. -->
+  <g id="p8p5-sable" transform="translate(183, 220)">
+    <!-- Body in silver suit — shifted gradient to capture cool-back / warm-front. -->
+    <path d="M-22,90 Q-26,30 -22,-15 L22,-15 Q26,30 22,90 Z" fill="url(#p8p5silver)" stroke="#3a3848" stroke-width="0.6"/>
+    <!-- Cool wash on back (left side). -->
+    <path d="M-22,90 Q-26,30 -22,-15 L0,-15 L0,90 Z" fill="#7ac8ff" opacity="0.18"/>
+    <!-- Warm wash on front (right side). -->
+    <path d="M0,-15 L22,-15 Q26,30 22,90 L0,90 Z" fill="#f5b860" opacity="0.18"/>
+
+    <!-- Shoulder pads. -->
+    <ellipse cx="-22" cy="-12" rx="8" ry="5" fill="#9ba1aa" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="22" cy="-12" rx="8" ry="5" fill="#9ba1aa" stroke="#080408" stroke-width="0.5"/>
+    <!-- Cracked RIGHT shoulder panel (her own injury, viewer's right). -->
+    <path d="M16,-14 L28,-12 L26,-6 L18,-7 Z" fill="#7a808a"/>
+    <line x1="16" y1="-12" x2="28" y2="-10" stroke="#7ac8ff" stroke-width="1" filter="url(#p8p5bloom)" opacity="0.95"/>
+    <g fill="#bfe4ff" filter="url(#p8p5bloom)">
+      <circle cx="22" cy="-12" r="1"/>
+      <circle cx="26" cy="-9" r="0.8"/>
+    </g>
+
+    <!-- Arms at sides (relaxed). -->
+    <path d="M-22,-5 L-30,30 L-32,60" fill="none" stroke="url(#p8p5silver)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M22,-5 L30,30 L32,60" fill="none" stroke="url(#p8p5silver)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-32" cy="60" rx="4" ry="3" fill="#5a3018"/>
+    <ellipse cx="32" cy="60" rx="4" ry="3" fill="#5a3018"/>
+
+    <!-- Legs (slightly turned, mid-survey rotation). -->
+    <path d="M-12,90 L-18,130 L-20,170" fill="none" stroke="#5a606a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M14,90 L20,130 L24,170" fill="none" stroke="#5a606a" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="-20" cy="170" rx="6" ry="3" fill="#1a0808"/>
+    <ellipse cx="24" cy="170" rx="6" ry="3" fill="#1a0808"/>
+
+    <!-- Head: shown facing slightly right toward city-glow. -->
+    <ellipse cx="2" cy="-30" rx="11" ry="13" fill="url(#p8p5skin)"/>
+    <!-- Buzz cap (silver-white, dust). -->
+    <path d="M-8,-37 Q-3,-43 2,-43 Q7,-43 12,-37 L12,-30 L-8,-30 Z" fill="#e8eaee"/>
+    <path d="M-8,-37 Q2,-40 12,-37" fill="none" stroke="#9aa4b4" stroke-width="0.6" opacity="0.7"/>
+    <!-- Soot dust on top. -->
+    <g fill="#3a2818" opacity="0.55">
+      <circle cx="-2" cy="-41" r="0.9"/>
+      <circle cx="6" cy="-42" r="0.7"/>
+      <circle cx="9" cy="-38" r="0.6"/>
+    </g>
+    <!-- Buzz stipple. -->
+    <g fill="#5a606a" opacity="0.7">
+      <circle cx="-4" cy="-38" r="0.5"/>
+      <circle cx="-1" cy="-39" r="0.5"/>
+      <circle cx="2" cy="-40" r="0.5"/>
+      <circle cx="5" cy="-39" r="0.5"/>
+      <circle cx="9" cy="-37" r="0.5"/>
+    </g>
+    <!-- Eyes (shifted right, surveying). -->
+    <ellipse cx="-2" cy="-30" rx="1.2" ry="0.9" fill="#1a0808"/>
+    <ellipse cx="6" cy="-30" rx="1.2" ry="0.9" fill="#1a0808"/>
+    <!-- Brow (focused). -->
+    <path d="M-5,-34 Q-2,-35 0,-34" stroke="#3a1808" stroke-width="0.8" fill="none"/>
+    <path d="M3,-34 Q6,-35 9,-34" stroke="#3a1808" stroke-width="0.8" fill="none"/>
+    <!-- Lips (set, command). -->
+    <line x1="-3" y1="-22" x2="6" y2="-22" stroke="#3a1808" stroke-width="1"/>
+    <!-- Jaw + cheekbones. -->
+    <ellipse cx="-5" cy="-26" rx="2.5" ry="1.5" fill="#7a4830" opacity="0.5"/>
+    <ellipse cx="9" cy="-26" rx="2.5" ry="1.5" fill="#a87850" opacity="0.6"/>
+    <!-- Warm catch on right side of face (city-glow). -->
+    <path d="M2,-43 Q12,-37 12,-30" fill="none" stroke="#f5b860" stroke-width="1.2" opacity="0.65"/>
+    <ellipse cx="9" cy="-26" rx="2" ry="1.2" fill="#f5d090" opacity="0.45"/>
+    <!-- Cool catch on left side of face (wreckage). -->
+    <path d="M-8,-37 Q-9,-32 -8,-30" fill="none" stroke="#7ac8ff" stroke-width="1.2" opacity="0.55"/>
+    <ellipse cx="-5" cy="-26" rx="2" ry="1.2" fill="#dceaff" opacity="0.4"/>
+  </g>
+
+  <!-- DIALOGUE — Sable command + Wren O.P. response. -->
+  <!-- SABLE balloon (top-left). -->
+  <g id="p8p5-dlg-sable">
+    <rect x="14" y="14" width="244" height="80" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">We're down. We're alive.</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Wren, preliminary in</text>
+    <text x="24" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">ten.</text>
+    <path d="M150,94 L168,94 L172,114 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="94" x2="168" y2="94" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- WREN (O.P.) response — dashed border, no tail. -->
+  <g id="p8p5-dlg-wren-op">
+    <rect x="180" y="135" width="172" height="60" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="190" y="155" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN (O.P.)</text>
+    <text x="190" y="173" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">You'll have it</text>
+    <text x="190" y="189" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">in five.</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p8p5-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">5</text>
+    <text x="362" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SABLE BOUNDARY</text>
+  </g>
+</svg>

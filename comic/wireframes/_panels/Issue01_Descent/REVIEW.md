@@ -2,19 +2,21 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 4 added, closing Section 1).
+**Last update:** 2026-04-27 (loop session extended — Page 8 added, headcount + dual-light boundary).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–7 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier "submarine / toque / teapot / stick-figure / no console" failure modes from v1 have been fixed across all 21 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05).
+**Pages 1–8 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier "submarine / toque / teapot / stick-figure / no console" failure modes from v1 have been fixed across all 26 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05).
 
-**Page 4 (descent transition) just added** — closes Section 1: THE FUTURE. 4-panel cascading vertical layout (corridor burst → interior crash → bird's-eye fragments → London 1886 street splash). Page heights sum to 1181px to canonical bottom margin.
+**Page 8 (headcount) just added** — Section 3 continues. 5-panel layout (Sable+Thresh assess + Wren diagnostic / Luma scans Jink full-width / Thresh CU dual-light + Sable boundary command). Sums to 1179px page-fill.
 
-**Pages 5, 6, 7 of Issue 1 are at quality bar.** Pages 5-6 (Section 2 — THE FALL: Victorian reveal + Theodore introduction). Page 7 (Section 3 opening — THE WRECKAGE: squad emerges from crashed ship in gutter).
+**Page 4 (descent transition) closed Section 1.** 4-panel cascading vertical layout (corridor burst → interior crash → bird's-eye fragments → London 1886 street splash).
 
-**Pages 8-22 of Issue 1 remain auto-generated stick-figure storyboards** — 10pt dialogue, abstract figures. These are placeholders awaiting the same per-panel quality treatment.
+**Pages 5, 6, 7 of Issue 1 are at quality bar.** Pages 5-6 (Section 2 — THE FALL). Page 7 (Section 3 opening — THE WRECKAGE).
+
+**Pages 9-22 of Issue 1 remain auto-generated stick-figure storyboards** — 10pt dialogue, abstract figures.
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -218,6 +220,66 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 8 — DONE (Section 3 continues — headcount + dual-light boundary)
+
+3-tier mixed layout summing to 1179px page-fill.
+
+### P08P01 — Sable assesses Thresh in gutter (488×380)
+- ✅ Sable crouching beside seated Thresh, hand on her good (right) shoulder
+- ✅ Thresh's LEFT pauldron shows deep dent inward (impact mark)
+- ✅ Sable's own cracked right shoulder panel leaks blue-white (her injury)
+- ✅ Dead leaf curls upward like shelter wall between figures (brown vein detail)
+- ✅ Crumpled hull plating sparking blue-white in BG-right with cool glow halo
+- ✅ Cool wreckage light + warm city-glow rim at top edge
+- ✅ Iron rivets, soot streaks, twigs, coal grit on floor
+- ✅ 4 dialogue lines split 2 balloons each side: SABLE "Shoulder?" / THRESH "Dislocated on impact. Luma can set it." / SABLE "Can you fight?" / THRESH "Yes."
+- 🟡 Thresh pose reads more upright than seated; arms read schematic but balloons + colors carry the scene
+
+### P08P02 — Wren striding to wreckage, diagnostic fury (244×380)
+- ✅ Wren centered MCU, copper suit catching cool front-light from wreckage
+- ✅ Hydraulic fluid streaks (dark) on both forearms
+- ✅ Partially collapsed messy bun + strands across face + bun-tie ring + escaping wisps
+- ✅ Diagnostic-fury face: narrowed almond eyes, furrowed brow, thin pressed lips
+- ✅ Cool wreckage glow at bottom-front of panel illuminates her face front
+- ✅ Sparking node + small wreckage shards on floor
+- ✅ Italic interior-monologue balloon "WREN — The drive housing..." (copper border)
+
+### P08P03 — Luma scans Jink, care + resilience (742×300)
+- ✅ Luma kneeling left in sapphire-violet suit, single thick rope braid trailing back-right with luminous filament accents
+- ✅ One cracked left holographic lens with prismatic flare
+- ✅ Right arm extended forward holding scanner; left arm raised checking pupils
+- ✅ Holographic blue-violet rib-scan overlay on Jink's torso (rib pairs, spine vertical, 2 cracked-rib pulse markers, "SCAN / 2 FX" labels)
+- ✅ Jink in emerald scuffed, sitting on large dead leaf (curled brown w/ veins) with legs out, right hand braced behind, golden curl mass + soot dust
+- ✅ Pained grin (script-accurate "real but slightly forced")
+- ✅ Moss patch in iron joint (Luma's curiosity beat noted in script)
+- ✅ All 5 dialogue lines in correct L→R reading order with italic emphasis on "*still*"
+- 🟡 Figures small relative to balloons (5 lines is structurally heavy) — readable
+
+### P08P04 — Thresh CU, the first hairline crack (366×420 — silent)
+- ✅ Background EXACTLY split warm-left / cool-right per script
+- ✅ Thresh face CU centered, dual-light wash divides her face
+- ✅ Eyes shifted slightly LEFT (looking toward warm city-glow per script)
+- ✅ Catch-light WARM in left eye, COOL in right eye (script-specified)
+- ✅ Copper-red buzz cap with stipple density + soot dust on top
+- ✅ Pressed lips, hard set jaw (the held look, not the resting set)
+- ✅ Ruby crimson armor visible at bottom; LEFT pauldron (viewer's right) has dent
+- ✅ Sparking detail at right-edge BG (wreckage)
+- ✅ NO dialogue (silent panel — the crack is in the silence per script)
+
+### P08P05 — Sable as boundary figure, command focus (366×420)
+- ✅ Background split: cool blue-back left / warm amber-front right
+- ✅ Sable centered on the boundary line, silver suit with cool-back/warm-front gradient washes
+- ✅ Cracked RIGHT shoulder panel (her own injury) leaking blue-white
+- ✅ Silver-white buzz cap with dust + stipples
+- ✅ Eyes shifted right (surveying toward warm city)
+- ✅ Warm catch on right side of face, cool catch on left side — exact dual-light boundary
+- ✅ Squad members at scale around her: ruby Thresh sitting (BL), sapphire Luma + emerald Jink (BR), copper Wren striding (TR-edge)
+- ✅ Wreckage detail back-left (twisted hull + sparks)
+- ✅ Sable command balloon: "We're down. We're alive. Wren, preliminary in ten."
+- ✅ Wren O.P. response: dashed border, no tail per spec, "You'll have it in five." with bold emphasis
 
 ---
 

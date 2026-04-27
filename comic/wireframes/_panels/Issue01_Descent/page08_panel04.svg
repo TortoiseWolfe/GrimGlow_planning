@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 420" width="366" height="420">
+  <title>Issue 1 — Page 8 — Panel 4: Thresh CU — the first hairline crack</title>
+  <desc>Close-up at eye level (85mm), tight framing on Thresh's face. She looks past the camera toward the gutter edge — the city beyond. Composed, controlled, jaw set hard — not fear, but adjacent. Awareness. Eyes slightly narrowed. Warm amber from city-glow touches LEFT side of her face (direction she looks). Cool blue-white from wreckage behind touches RIGHT side + dented ruby pauldron. Two lights divide her face. Warm light reaches for her. She has not turned toward it. Silent panel.</desc>
+
+  <defs>
+    <linearGradient id="p8p4bgL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p8p4bgR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#080404"/>
+      <stop offset="100%" stop-color="#1a2a4a"/>
+    </linearGradient>
+    <radialGradient id="p8p4warmRim" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#c87830" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p4coolRim" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#5aa6dc" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2a4a8c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p8p4skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5c890"/>
+      <stop offset="50%" stop-color="#a87850"/>
+      <stop offset="100%" stop-color="#5a4830"/>
+    </linearGradient>
+    <linearGradient id="p8p4buzz" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5a850"/>
+      <stop offset="50%" stop-color="#a83a18"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p8p4ruby" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <filter id="p8p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="p8p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Background: split warm-left / cool-right (gutter wall + sky beyond). -->
+  <rect x="0" y="0" width="183" height="420" fill="url(#p8p4bgL)"/>
+  <rect x="183" y="0" width="183" height="420" fill="url(#p8p4bgR)"/>
+
+  <!-- Gutter iron texture suggestion. -->
+  <g stroke="#080404" stroke-width="0.6" opacity="0.6">
+    <line x1="0" y1="40" x2="366" y2="40"/>
+    <line x1="0" y1="120" x2="366" y2="115"/>
+    <line x1="0" y1="220" x2="366" y2="215"/>
+    <line x1="0" y1="320" x2="366" y2="318"/>
+  </g>
+  <g fill="#080404" opacity="0.7">
+    <circle cx="40" cy="48" r="2"/>
+    <circle cx="320" cy="48" r="2"/>
+    <circle cx="40" cy="225" r="2"/>
+    <circle cx="320" cy="220" r="2"/>
+  </g>
+
+  <!-- Warm rim from city-glow on far left. -->
+  <ellipse cx="0" cy="210" rx="200" ry="280" fill="url(#p8p4warmRim)" filter="url(#p8p4strongBloom)"/>
+
+  <!-- Cool rim from wreckage on far right. -->
+  <ellipse cx="366" cy="210" rx="200" ry="280" fill="url(#p8p4coolRim)" filter="url(#p8p4strongBloom)"/>
+
+  <!-- Faint sparking detail at right-edge BG (wreckage). -->
+  <g fill="#bfe4ff" filter="url(#p8p4bloom)" opacity="0.85">
+    <circle cx="338" cy="80" r="1.4"/>
+    <circle cx="350" cy="180" r="1.2"/>
+    <circle cx="332" cy="280" r="1.3"/>
+    <circle cx="346" cy="350" r="1.2"/>
+  </g>
+  <line x1="334" y1="78" x2="348" y2="82" stroke="#ffffff" stroke-width="0.6" filter="url(#p8p4bloom)" opacity="0.85"/>
+
+  <!-- THRESH face CU, centered. -->
+  <g id="p8p4-thresh" transform="translate(183, 230)">
+    <!-- Neck. -->
+    <path d="M-25,80 L-15,55 L15,55 L25,80 Z" fill="url(#p8p4skin)" stroke="#3a1808" stroke-width="0.8"/>
+    <!-- Shoulder line: ruby crimson armor at very bottom. -->
+    <path d="M-110,80 L-70,75 L-25,72 L25,72 L70,75 L110,80 L110,180 L-110,180 Z" fill="url(#p8p4ruby)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Shoulder pads with the dent on her LEFT (viewer's right). -->
+    <ellipse cx="-70" cy="78" rx="32" ry="14" fill="#dc2030" stroke="#080408" stroke-width="0.8"/>
+    <!-- Right pad (intact, viewer's left). -->
+    <ellipse cx="-70" cy="74" rx="22" ry="6" fill="#f54848" opacity="0.65"/>
+    <!-- Dented LEFT pad (viewer's right). -->
+    <ellipse cx="70" cy="78" rx="32" ry="14" fill="#a8182a" stroke="#080408" stroke-width="0.8"/>
+    <path d="M52,72 Q70,90 88,72" fill="#5a0810" stroke="#080408" stroke-width="0.8"/>
+    <path d="M58,75 Q70,86 82,75" fill="none" stroke="#080404" stroke-width="0.7"/>
+    <line x1="64" y1="80" x2="76" y2="84" stroke="#1a0408" stroke-width="0.6"/>
+
+    <!-- Head: large CU. -->
+    <path d="M-58,55 Q-65,0 -55,-50 Q-30,-95 0,-100 Q30,-95 55,-50 Q65,0 58,55 Z" fill="url(#p8p4skin)" stroke="#3a1808" stroke-width="0.8"/>
+
+    <!-- Cheekbones (defined). -->
+    <ellipse cx="-32" cy="20" rx="10" ry="5" fill="#a87850" opacity="0.45"/>
+    <ellipse cx="32" cy="20" rx="10" ry="5" fill="#5a4830" opacity="0.65"/>
+
+    <!-- Buzz cap (copper-red, dust on top). -->
+    <path d="M-50,-58 Q-30,-92 0,-98 Q30,-92 50,-58 L50,-44 L-50,-44 Z" fill="url(#p8p4buzz)"/>
+    <!-- Hairline edge stroke. -->
+    <path d="M-50,-58 Q-30,-92 0,-98 Q30,-92 50,-58" fill="none" stroke="#5a1808" stroke-width="0.8"/>
+    <!-- Buzz stipple (dense). -->
+    <g fill="#5a1808" opacity="0.85">
+      <circle cx="-32" cy="-72" r="0.8"/>
+      <circle cx="-22" cy="-78" r="0.8"/>
+      <circle cx="-12" cy="-82" r="0.8"/>
+      <circle cx="-2" cy="-86" r="0.8"/>
+      <circle cx="8" cy="-84" r="0.8"/>
+      <circle cx="18" cy="-80" r="0.8"/>
+      <circle cx="28" cy="-74" r="0.8"/>
+      <circle cx="-26" cy="-65" r="0.7"/>
+      <circle cx="-14" cy="-72" r="0.7"/>
+      <circle cx="-4" cy="-76" r="0.7"/>
+      <circle cx="6" cy="-74" r="0.7"/>
+      <circle cx="16" cy="-68" r="0.7"/>
+      <circle cx="-36" cy="-58" r="0.6"/>
+      <circle cx="34" cy="-58" r="0.6"/>
+    </g>
+    <!-- Soot dust on top. -->
+    <g fill="#3a2818" opacity="0.55">
+      <circle cx="-12" cy="-90" r="1.2"/>
+      <circle cx="6" cy="-92" r="1"/>
+      <circle cx="20" cy="-86" r="1.4"/>
+      <circle cx="-22" cy="-82" r="1"/>
+    </g>
+
+    <!-- Brow (firm, slightly narrowed eyes — the held look). -->
+    <path d="M-32,-30 Q-20,-34 -12,-32" stroke="#5a1808" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M12,-30 Q20,-34 32,-30" stroke="#5a1808" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Eyes — narrowed, looking left (toward warm city-glow). -->
+    <g id="p8p4-eyes">
+      <!-- Sclera + iris + pupil for both eyes; gaze slightly off to viewer's left. -->
+      <ellipse cx="-22" cy="-18" rx="9" ry="5" fill="#f5e8d0"/>
+      <ellipse cx="22" cy="-18" rx="9" ry="5" fill="#f5e8d0"/>
+      <!-- Iris (light hazel-grey, looking left). -->
+      <ellipse cx="-25" cy="-18" rx="4.5" ry="4.5" fill="#5a4830"/>
+      <ellipse cx="19" cy="-18" rx="4.5" ry="4.5" fill="#5a4830"/>
+      <!-- Pupil. -->
+      <ellipse cx="-26" cy="-18" rx="2" ry="2" fill="#080404"/>
+      <ellipse cx="18" cy="-18" rx="2" ry="2" fill="#080404"/>
+      <!-- Catch-light: WARM on left eye (looking toward city), COOL on right eye (wreckage side). -->
+      <circle cx="-24" cy="-19" r="0.9" fill="#fff5c0"/>
+      <circle cx="20" cy="-19" r="0.9" fill="#dceaff"/>
+      <!-- Slight upper-lid drop (narrowed). -->
+      <path d="M-31,-22 Q-22,-19 -13,-22" stroke="#3a1808" stroke-width="1.2" fill="none"/>
+      <path d="M13,-22 Q22,-19 31,-22" stroke="#3a1808" stroke-width="1.2" fill="none"/>
+    </g>
+
+    <!-- Nose (subtle bridge). -->
+    <path d="M0,-15 L-3,12 L3,12 Z" fill="#5a4830" opacity="0.4"/>
+    <line x1="-2" y1="14" x2="2" y2="14" stroke="#3a1808" stroke-width="0.8"/>
+
+    <!-- Lips: firm pressed line, set jaw. -->
+    <path d="M-15,30 Q0,33 15,30" stroke="#5a2818" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <line x1="-15" y1="30" x2="15" y2="30" stroke="#5a2818" stroke-width="0.6" opacity="0.5"/>
+
+    <!-- Jaw line emphasis. -->
+    <path d="M-50,40 Q-30,55 0,55 Q30,55 50,40" fill="none" stroke="#3a1808" stroke-width="0.8" opacity="0.7"/>
+
+    <!-- WARM SIDE WASH (left side of face — viewer's left, where she's looking). -->
+    <path d="M-58,55 Q-65,0 -55,-50 Q-30,-95 0,-100 L0,55 Z" fill="#f5b860" opacity="0.18"/>
+    <path d="M-50,40 Q-58,-10 -50,-50 L-30,-65 L-30,40 Z" fill="#f5b860" opacity="0.15"/>
+
+    <!-- COOL SIDE WASH (right side — viewer's right, wreckage side). -->
+    <path d="M0,-100 Q30,-95 55,-50 Q65,0 58,55 L0,55 Z" fill="#7ac8ff" opacity="0.14"/>
+    <path d="M30,-65 L50,-50 Q58,-10 50,40 L30,40 Z" fill="#7ac8ff" opacity="0.12"/>
+  </g>
+
+  <!-- Soft warm glow encroaching from left edge across panel. -->
+  <ellipse cx="50" cy="220" rx="80" ry="200" fill="url(#p8p4warmRim)" filter="url(#p8p4strongBloom)" opacity="0.45"/>
+
+  <!-- Cool glow on right-edge wreckage side. -->
+  <ellipse cx="316" cy="220" rx="80" ry="200" fill="url(#p8p4coolRim)" filter="url(#p8p4strongBloom)" opacity="0.45"/>
+
+  <!-- Meta tag (no dialogue per script — silent panel). -->
+  <g id="p8p4-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="362" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">THRESH CU — SILENT</text>
+  </g>
+</svg>

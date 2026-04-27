@@ -1,0 +1,334 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 1 — Page 8 — Panel 3: Luma scans Jink — care and resilience</title>
+  <desc>Medium shot at eye level, wide framing (35mm). In gutter littered with debris + dead leaves at fairy scale, Luma kneels beside Jink. Luma — sapphire-violet suit, single thick braid, cracked left holographic lens prismatic flare — holds med scanner projecting blue-violet holographic readout over Jink's torso, geometric lines tracing ribs/spine. Jink — emerald scuffed, sits on dead leaf, legs out, one hand braced behind, grinning despite pain. Around them: gutter debris, twigs, soot, wreckage shards. LUMA: "Hold still. I need to check your ribs." JINK: "They're where I left them." LUMA: "Two are cracked. Hold still." JINK: "Where are we?" LUMA: "I don't know yet. Hold *still.*"</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="p8p3floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#180a08"/>
+    </linearGradient>
+    <radialGradient id="p8p3coolGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p3warmGlow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5a850" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p3scannerGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#c8a8ff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#7a5af0" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3a2acc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p8p3leaf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a2008"/>
+    </linearGradient>
+    <linearGradient id="p8p3sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a18a0"/>
+    </linearGradient>
+    <linearGradient id="p8p3emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a5a30"/>
+    </linearGradient>
+    <filter id="p8p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p8p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Background. -->
+  <rect width="742" height="300" fill="#0a0408"/>
+
+  <!-- Gutter wall (back). -->
+  <path d="M0,40 Q371,18 742,40 L742,220 L0,220 Z" fill="url(#p8p3iron)"/>
+  <line x1="0" y1="80" x2="742" y2="60" stroke="#080404" stroke-width="0.8" opacity="0.7"/>
+  <line x1="0" y1="160" x2="742" y2="155" stroke="#080404" stroke-width="0.8" opacity="0.7"/>
+
+  <!-- Iron rivets. -->
+  <g fill="#080404" opacity="0.85">
+    <circle cx="60" cy="85" r="2"/>
+    <circle cx="180" cy="68" r="2"/>
+    <circle cx="320" cy="60" r="2"/>
+    <circle cx="450" cy="60" r="2"/>
+    <circle cx="580" cy="68" r="2"/>
+    <circle cx="700" cy="85" r="2"/>
+    <circle cx="60" cy="165" r="2"/>
+    <circle cx="700" cy="165" r="2"/>
+  </g>
+
+  <!-- Soot streaks. -->
+  <g fill="#080404" opacity="0.55">
+    <path d="M40,40 Q44,140 38,200"/>
+    <path d="M280,38 Q284,140 278,200"/>
+    <path d="M520,38 Q524,140 518,200"/>
+    <path d="M698,40 Q702,140 696,200"/>
+  </g>
+
+  <!-- Cool wreckage glow back-left + back-right (ambient fill). -->
+  <ellipse cx="80" cy="180" rx="120" ry="80" fill="url(#p8p3coolGlow)" filter="url(#p8p3strongBloom)"/>
+  <ellipse cx="680" cy="180" rx="140" ry="90" fill="url(#p8p3coolGlow)" filter="url(#p8p3strongBloom)"/>
+
+  <!-- Warm city-glow rim on top edge. -->
+  <ellipse cx="371" cy="48" rx="380" ry="34" fill="url(#p8p3warmGlow)" filter="url(#p8p3bloom)"/>
+
+  <!-- Floor. -->
+  <rect y="220" width="742" height="80" fill="url(#p8p3floor)"/>
+  <line x1="0" y1="220" x2="742" y2="220" stroke="#080404" stroke-width="1.2"/>
+
+  <!-- Coal sediment + wreckage shards on floor. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="60" cy="252" r="2"/>
+    <circle cx="120" cy="270" r="1.6"/>
+    <circle cx="180" cy="258" r="1.4"/>
+    <circle cx="240" cy="280" r="2"/>
+    <circle cx="540" cy="270" r="1.6"/>
+    <circle cx="610" cy="258" r="1.4"/>
+    <circle cx="680" cy="282" r="2"/>
+    <circle cx="80" cy="290" r="1.4"/>
+    <circle cx="200" cy="288" r="1.6"/>
+    <circle cx="640" cy="290" r="1.4"/>
+  </g>
+  <!-- Twisted dark metal + flickering crystalline shards. -->
+  <g>
+    <polygon points="100,275 118,272 124,288 106,290" fill="#1a1a24" stroke="#7ac8ff" stroke-width="0.5"/>
+    <polygon points="220,272 235,270 240,285 224,288" fill="#1a1820" stroke="#bfe4ff" stroke-width="0.5"/>
+    <polygon points="600,275 615,272 620,288 604,290" fill="#1a1a24" stroke="#7ac8ff" stroke-width="0.5"/>
+    <line x1="106" y1="280" x2="118" y2="282" stroke="#7ac8ff" stroke-width="0.6" filter="url(#p8p3bloom)" opacity="0.85"/>
+    <line x1="226" y1="278" x2="238" y2="280" stroke="#bfe4ff" stroke-width="0.6" filter="url(#p8p3bloom)" opacity="0.95"/>
+    <line x1="606" y1="280" x2="618" y2="282" stroke="#7ac8ff" stroke-width="0.6" filter="url(#p8p3bloom)" opacity="0.85"/>
+  </g>
+  <!-- Twigs. -->
+  <path d="M0,295 Q150,290 280,294" stroke="#3a1810" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M460,294 Q620,290 742,295" stroke="#3a1810" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <!-- Moss patch in joint (Luma's curiosity beat). -->
+  <ellipse cx="290" cy="222" rx="20" ry="3" fill="#2a4830" opacity="0.6"/>
+  <g fill="#3a6038" opacity="0.7">
+    <circle cx="284" cy="221" r="1"/>
+    <circle cx="290" cy="222" r="1.2"/>
+    <circle cx="296" cy="221" r="1"/>
+    <circle cx="302" cy="222" r="1"/>
+  </g>
+
+  <!-- Dead leaf JINK sits on (large brown curl, center-right). -->
+  <g id="p8p3-jink-leaf" transform="translate(470, 220)">
+    <path d="M-110,40 Q-130,-5 -100,-30 Q-50,-48 20,-44 Q90,-38 110,-10 Q108,30 80,50 Q20,68 -50,62 Q-95,55 -110,40 Z" fill="url(#p8p3leaf)" opacity="0.95"/>
+    <!-- Veins. -->
+    <path d="M-90,55 Q-30,15 70,-30" stroke="#3a1808" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <path d="M-70,52 Q-20,15 30,-30" stroke="#3a1808" stroke-width="0.7" fill="none" opacity="0.7"/>
+    <path d="M50,48 Q40,15 20,-25" stroke="#3a1808" stroke-width="0.7" fill="none" opacity="0.7"/>
+    <!-- Curled rim. -->
+    <path d="M-110,40 Q-130,-5 -100,-30 Q-50,-48 20,-44" fill="none" stroke="#a87038" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- LUMA kneeling beside Jink (LEFT of leaf, center-left of panel). -->
+  <g id="p8p3-luma" transform="translate(280, 180)">
+    <!-- Body in sapphire-violet kneeling. -->
+    <path d="M-22,40 Q-25,10 -20,-15 L20,-15 Q25,10 22,40 Z" fill="url(#p8p3sapphire)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Shoulder pads. -->
+    <ellipse cx="-20" cy="-12" rx="7" ry="4.5" fill="#5a3ad8" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="20" cy="-12" rx="7" ry="4.5" fill="#5a3ad8" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-20" cy="-13" rx="4" ry="2" fill="#a87af0" opacity="0.65"/>
+    <ellipse cx="20" cy="-13" rx="4" ry="2" fill="#a87af0" opacity="0.65"/>
+
+    <!-- Right arm extended forward holding scanner over Jink's torso. -->
+    <path d="M22,-5 L48,8 L72,18 L96,28" fill="none" stroke="#5a3ad8" stroke-width="6" stroke-linecap="round"/>
+    <!-- Scanner device in left hand (script says left — but figure right since Luma faces right toward Jink). -->
+    <rect x="92" y="22" width="14" height="10" rx="1.5" fill="#1a1828" stroke="#a87af0" stroke-width="0.8"/>
+    <rect x="94" y="24" width="10" height="3" fill="#a87af0" opacity="0.85"/>
+    <line x1="100" y1="30" x2="105" y2="36" stroke="#7a5af0" stroke-width="1.2" filter="url(#p8p3bloom)" opacity="0.95"/>
+
+    <!-- Free hand checking pupils (left arm, raised toward Jink's face area). -->
+    <path d="M-22,-3 L-12,12 L0,22" fill="none" stroke="#5a3ad8" stroke-width="5.5" stroke-linecap="round"/>
+    <ellipse cx="0" cy="22" rx="3" ry="2.5" fill="#a87850"/>
+
+    <!-- Kneeling legs (folded). -->
+    <path d="M-12,40 L-8,72 L-2,90" fill="none" stroke="#3a2a8c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M14,40 L18,68 L20,82" fill="none" stroke="#3a2a8c" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="-2" cy="90" rx="6" ry="2.5" fill="#1a0808"/>
+    <ellipse cx="20" cy="82" rx="6" ry="2.5" fill="#1a0808"/>
+
+    <!-- Head (South Asian, warm brown skin). -->
+    <ellipse cx="0" cy="-30" rx="11" ry="12" fill="#a87850"/>
+    <!-- Top of hair (smooth pulled-back). -->
+    <path d="M-9,-37 Q-3,-42 0,-42 Q4,-42 10,-37 L11,-30 L-10,-30 Z" fill="#1a0a08"/>
+    <path d="M-9,-37 Q0,-40 10,-37" fill="none" stroke="#3a1a08" stroke-width="0.8" opacity="0.8"/>
+    <!-- Single thick rope braid trailing back-right. -->
+    <path d="M9,-30 Q22,-22 38,-10 Q50,2 56,18" fill="none" stroke="#1a0a08" stroke-width="6" stroke-linecap="round"/>
+    <path d="M11,-26 Q23,-18 40,-8 Q52,4 56,14" fill="none" stroke="#3a1a08" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    <!-- Plait segments + luminous filament (tiny holographic accent). -->
+    <line x1="14" y1="-22" x2="20" y2="-20" stroke="#5a3a18" stroke-width="0.8"/>
+    <line x1="22" y1="-18" x2="28" y2="-16" stroke="#5a3a18" stroke-width="0.8"/>
+    <line x1="32" y1="-12" x2="38" y2="-10" stroke="#5a3a18" stroke-width="0.8"/>
+    <line x1="42" y1="-4" x2="48" y2="-2" stroke="#5a3a18" stroke-width="0.8"/>
+    <circle cx="56" cy="18" r="2.2" fill="#5a3a18"/>
+    <circle cx="32" cy="-16" r="0.8" fill="#a87af0" filter="url(#p8p3bloom)" opacity="0.95"/>
+    <circle cx="46" cy="-2" r="0.8" fill="#a87af0" filter="url(#p8p3bloom)" opacity="0.95"/>
+
+    <!-- Holographic lenses (one cracked left, prismatic flare). -->
+    <ellipse cx="-5" cy="-32" rx="3.5" ry="2.5" fill="#1a1828" stroke="#a87af0" stroke-width="0.6"/>
+    <ellipse cx="5" cy="-32" rx="3.5" ry="2.5" fill="#1a1828" stroke="#a87af0" stroke-width="0.6"/>
+    <line x1="-8" y1="-32" x2="-2" y2="-32" stroke="#a87af0" stroke-width="0.4"/>
+    <!-- Cracked left lens prismatic flare. -->
+    <line x1="-7" y1="-34" x2="-3" y2="-30" stroke="#bfe4ff" stroke-width="0.6" filter="url(#p8p3bloom)" opacity="0.95"/>
+    <circle cx="-5" cy="-32" r="1.3" fill="#ffffff" filter="url(#p8p3bloom)" opacity="0.85"/>
+    <!-- Brow furrowed (concentration). -->
+    <path d="M-7,-37 Q-4,-38 -1,-37" stroke="#3a1808" stroke-width="0.9" fill="none"/>
+    <path d="M1,-37 Q4,-38 7,-37" stroke="#3a1808" stroke-width="0.9" fill="none"/>
+    <!-- Lips (warm focus). -->
+    <line x1="-3" y1="-23" x2="3" y2="-23" stroke="#5a2818" stroke-width="1"/>
+  </g>
+
+  <!-- Holographic medical scanner OVERLAY on Jink's torso. -->
+  <g id="p8p3-scanner-overlay">
+    <!-- Soft violet glow halo. -->
+    <ellipse cx="430" cy="200" rx="80" ry="48" fill="url(#p8p3scannerGlow)" filter="url(#p8p3strongBloom)"/>
+    <!-- Geometric readout — rib outline. -->
+    <g stroke="#bfb0ff" stroke-width="1" fill="none" opacity="0.9">
+      <ellipse cx="430" cy="195" rx="48" ry="28"/>
+      <line x1="395" y1="180" x2="395" y2="218"/>
+      <line x1="408" y1="175" x2="408" y2="222"/>
+      <line x1="425" y1="172" x2="425" y2="225"/>
+      <line x1="442" y1="172" x2="442" y2="225"/>
+      <line x1="458" y1="175" x2="458" y2="222"/>
+      <line x1="471" y1="180" x2="471" y2="218"/>
+      <!-- Spine vertical. -->
+      <line x1="430" y1="172" x2="430" y2="225" stroke-width="1.4"/>
+      <!-- Rib pairs (curved). -->
+      <path d="M395,182 Q412,178 430,182 Q448,178 465,182"/>
+      <path d="M395,196 Q412,193 430,196 Q448,193 465,196"/>
+      <path d="M395,210 Q412,207 430,210 Q448,207 465,210"/>
+    </g>
+    <!-- 2 cracked rib markers (pulsing flag). -->
+    <circle cx="412" cy="195" r="2.5" fill="#ffd4d4" filter="url(#p8p3bloom)" opacity="0.95"/>
+    <circle cx="446" cy="210" r="2.5" fill="#ffd4d4" filter="url(#p8p3bloom)" opacity="0.95"/>
+    <text x="380" y="172" font-family="monospace" font-size="6" fill="#bfb0ff" opacity="0.85">SCAN</text>
+    <text x="450" y="172" font-family="monospace" font-size="6" fill="#bfb0ff" opacity="0.85">2 FX</text>
+  </g>
+
+  <!-- JINK sitting on dead leaf, legs out, one hand braced behind. -->
+  <g id="p8p3-jink" transform="translate(440, 220)">
+    <!-- Body in emerald, sitting up. -->
+    <path d="M-15,5 Q-18,-15 -14,-30 L14,-30 Q18,-15 15,5 Z" fill="url(#p8p3emerald)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Shoulder pads (scuffed). -->
+    <ellipse cx="-14" cy="-27" rx="6" ry="4" fill="#2ed078" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="14" cy="-27" rx="6" ry="4" fill="#2ed078" stroke="#080408" stroke-width="0.5"/>
+    <!-- Scuff marks. -->
+    <path d="M-12,-26 Q-8,-24 -6,-26" stroke="#1a0408" stroke-width="0.6" fill="none"/>
+    <path d="M12,-26 Q8,-24 6,-26" stroke="#1a0408" stroke-width="0.6" fill="none"/>
+
+    <!-- Right arm braced behind body. -->
+    <path d="M14,-15 L26,5 L38,18 L48,28" fill="none" stroke="#2ed078" stroke-width="5.5" stroke-linecap="round"/>
+    <ellipse cx="48" cy="28" rx="3.5" ry="2.5" fill="#f0d088"/>
+    <!-- Left arm relaxed at side, slightly raised. -->
+    <path d="M-14,-12 L-22,2 L-26,10" fill="none" stroke="#2ed078" stroke-width="5.5" stroke-linecap="round"/>
+    <ellipse cx="-26" cy="10" rx="3.5" ry="2.5" fill="#f0d088"/>
+
+    <!-- Legs stretched out forward, slight bend. -->
+    <path d="M-10,5 L-14,30 L-12,55 L-8,72" fill="none" stroke="#0a5a30" stroke-width="7" stroke-linecap="round"/>
+    <path d="M10,5 L14,30 L18,55 L22,72" fill="none" stroke="#0a5a30" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="-8" cy="72" rx="5" ry="2.5" fill="#1a0808"/>
+    <ellipse cx="22" cy="72" rx="5" ry="2.5" fill="#1a0808"/>
+
+    <!-- Head (light brown skin). -->
+    <ellipse cx="0" cy="-44" rx="11" ry="12" fill="#d8b890"/>
+    <!-- Wild golden curls (multi-clump). -->
+    <g fill="#f5d068">
+      <circle cx="-7" cy="-52" r="6"/>
+      <circle cx="0" cy="-56" r="6"/>
+      <circle cx="7" cy="-52" r="6"/>
+      <circle cx="-10" cy="-48" r="5"/>
+      <circle cx="10" cy="-48" r="5"/>
+      <circle cx="-3" cy="-58" r="4.5"/>
+      <circle cx="4" cy="-58" r="4.5"/>
+      <circle cx="-12" cy="-52" r="3.5"/>
+      <circle cx="12" cy="-52" r="3.5"/>
+    </g>
+    <!-- Curl shadow separations. -->
+    <g fill="#a87038" opacity="0.6">
+      <circle cx="-4" cy="-54" r="0.7"/>
+      <circle cx="3" cy="-55" r="0.7"/>
+      <circle cx="-1" cy="-58" r="0.7"/>
+      <circle cx="-7" cy="-50" r="0.5"/>
+      <circle cx="6" cy="-50" r="0.5"/>
+    </g>
+    <!-- Soot dust on curls. -->
+    <g fill="#3a2818" opacity="0.55">
+      <circle cx="-9" cy="-55" r="0.8"/>
+      <circle cx="3" cy="-60" r="0.7"/>
+      <circle cx="9" cy="-54" r="0.7"/>
+    </g>
+    <!-- Curl glints. -->
+    <g fill="#fff5d0" opacity="0.85">
+      <circle cx="-2" cy="-58" r="0.5"/>
+      <circle cx="6" cy="-54" r="0.5"/>
+    </g>
+    <!-- Eyes (bright, restless). -->
+    <ellipse cx="-4" cy="-44" rx="1.2" ry="1.5" fill="#1a0808"/>
+    <ellipse cx="4" cy="-44" rx="1.2" ry="1.5" fill="#1a0808"/>
+    <!-- Pained grin (slightly forced). -->
+    <path d="M-5,-37 Q0,-32 5,-37" fill="none" stroke="#5a2818" stroke-width="1.2"/>
+    <line x1="-5" y1="-37" x2="5" y2="-37" stroke="#5a2818" stroke-width="0.5" opacity="0.7"/>
+    <!-- Cool light flick on hair from scanner. -->
+    <ellipse cx="0" cy="-50" rx="5" ry="2" fill="#bfb0ff" opacity="0.25"/>
+  </g>
+
+  <!-- DIALOGUE — 5 lines split across L→R reading order. Luma left, Jink right. -->
+  <!-- LUMA balloon 1 (top-left). -->
+  <g id="p8p3-dlg-luma1">
+    <rect x="14" y="14" width="200" height="46" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Hold still. Need your ribs.</text>
+    <path d="M180,60 L196,60 L196,74 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="180" y1="60" x2="196" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- JINK balloon 1 (top-right). -->
+  <g id="p8p3-dlg-jink1">
+    <rect x="528" y="14" width="200" height="46" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="538" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="538" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">They're where I left them.</text>
+    <path d="M548,60 L564,60 L546,74 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="548" y1="60" x2="564" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- LUMA balloon 2 (mid-left). -->
+  <g id="p8p3-dlg-luma2">
+    <rect x="14" y="84" width="180" height="46" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="104" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="122" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Two are cracked. Hold still.</text>
+    <path d="M158,130 L174,130 L186,152 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="158" y1="130" x2="174" y2="130" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- JINK balloon 2 (mid-right). -->
+  <g id="p8p3-dlg-jink2">
+    <rect x="548" y="84" width="180" height="46" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="558" y="104" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="558" y="122" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Where are we?</text>
+    <path d="M564,130 L580,130 L546,152 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="564" y1="130" x2="580" y2="130" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- LUMA balloon 3 (mid-center, lower). -->
+  <g id="p8p3-dlg-luma3">
+    <rect x="248" y="80" width="246" height="46" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="258" y="100" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="258" y="118" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">I don't know yet. Hold </text>
+    <text x="416" y="118" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" font-style="italic" fill="#1a1a1a">still.</text>
+    <path d="M310,126 L326,126 L308,144 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="310" y1="126" x2="326" y2="126" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p8p3-meta">
+    <text x="730" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="734" y="292" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">LUMA SCANS JINK</text>
+  </g>
+</svg>
