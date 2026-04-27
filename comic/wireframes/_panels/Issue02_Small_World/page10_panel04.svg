@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 420" width="487" height="420">
+  <title>Issue 2 — Page 10 — Panel 4: Doorstep overhang shelter, squad catches breath</title>
+  <desc>MW 35mm eye level. Alley mouth narrow gap between buildings — at fairy scale canyon entrance. Stone doorstep juts overhang shelter dry space. 5 figures pressed together: Jink sits doorstep lip legs dangling wings dark folded quiet, Thresh leans stone wall eyes closed breathing, Luma scans Thresh subtle holographic lenses concern hidden data, Wren looking down alley impatient, Sable at overhang edge calculating last stretch. Sheltered muted grey light, rain hammers flagstones beyond. SABLE through alley fifty feet then we are there / WREN finally / SABLE thirty seconds drink check gear move.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p10p4outer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p10p4stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="p10p4flag" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <linearGradient id="p10p4silverDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#88909a"/>
+      <stop offset="100%" stop-color="#2a3038"/>
+    </linearGradient>
+    <linearGradient id="p10p4copperDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86528"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p10p4rubyDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a81820"/>
+      <stop offset="100%" stop-color="#3a0810"/>
+    </linearGradient>
+    <linearGradient id="p10p4sapphireDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#28157a"/>
+    </linearGradient>
+    <linearGradient id="p10p4emeraldDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3aa078"/>
+      <stop offset="100%" stop-color="#0a3818"/>
+    </linearGradient>
+    <filter id="p10p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p10p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG outside (rain bright beyond shelter). -->
+  <rect width="487" height="420" fill="url(#p10p4outer)"/>
+
+  <!-- Heavy rain beyond shelter (right side). -->
+  <g stroke="#a8b8c8" stroke-width="0.85" opacity="0.85" filter="url(#p10p4bloom)">
+    <line x1="380" y1="20" x2="395" y2="65"/>
+    <line x1="420" y1="10" x2="438" y2="55"/>
+    <line x1="460" y1="25" x2="478" y2="70"/>
+    <line x1="380" y1="80" x2="395" y2="125"/>
+    <line x1="420" y1="90" x2="438" y2="135"/>
+    <line x1="460" y1="105" x2="478" y2="150"/>
+    <line x1="380" y1="160" x2="395" y2="205"/>
+    <line x1="420" y1="170" x2="438" y2="215"/>
+    <line x1="460" y1="180" x2="478" y2="225"/>
+    <line x1="380" y1="240" x2="395" y2="285"/>
+    <line x1="420" y1="250" x2="438" y2="295"/>
+    <line x1="460" y1="260" x2="478" y2="305"/>
+    <line x1="380" y1="320" x2="395" y2="365"/>
+    <line x1="420" y1="330" x2="438" y2="375"/>
+    <line x1="460" y1="340" x2="478" y2="385"/>
+  </g>
+
+  <!-- BUILDING WALL (left and back). -->
+  <rect x="0" y="0" width="50" height="420" fill="url(#p10p4stone)"/>
+  <rect x="0" y="0" width="380" height="80" fill="url(#p10p4stone)"/>
+  <!-- Brick texture. -->
+  <g stroke="#080404" stroke-width="0.4" opacity="0.65">
+    <line x1="0" y1="40" x2="380" y2="40"/>
+    <line x1="0" y1="80" x2="50" y2="80"/>
+    <line x1="0" y1="120" x2="50" y2="120"/>
+    <line x1="0" y1="160" x2="50" y2="160"/>
+    <line x1="0" y1="200" x2="50" y2="200"/>
+    <line x1="0" y1="240" x2="50" y2="240"/>
+    <line x1="0" y1="280" x2="50" y2="280"/>
+    <line x1="0" y1="320" x2="50" y2="320"/>
+    <line x1="0" y1="360" x2="50" y2="360"/>
+  </g>
+
+  <!-- DOORSTEP overhang — top shelter. -->
+  <path d="M50,80 L380,80 L380,120 L50,120 Z" fill="url(#p10p4stone)" stroke="#080404" stroke-width="0.85"/>
+  <!-- Lip detail. -->
+  <line x1="50" y1="120" x2="380" y2="120" stroke="#080404" stroke-width="1.2"/>
+  <!-- Underside (sheltered ceiling). -->
+  <rect x="50" y="120" width="330" height="6" fill="#080404"/>
+
+  <!-- DOORSTEP front face (where Jink sits). -->
+  <rect x="50" y="80" width="330" height="40" fill="url(#p10p4stone)" opacity="0.65"/>
+  <!-- Stone block detail. -->
+  <line x1="180" y1="80" x2="180" y2="120" stroke="#080404" stroke-width="0.5" opacity="0.55"/>
+  <line x1="280" y1="80" x2="280" y2="120" stroke="#080404" stroke-width="0.5" opacity="0.55"/>
+
+  <!-- ALLEY FLAGSTONE GROUND under shelter (drier, lighter). -->
+  <rect x="50" y="380" width="330" height="40" fill="url(#p10p4flag)"/>
+  <!-- Wet flagstone beyond shelter (bright). -->
+  <rect x="380" y="380" width="107" height="40" fill="#5a606a"/>
+  <g fill="#a8b0bc" opacity="0.65" filter="url(#p10p4bloom)">
+    <ellipse cx="430" cy="398" rx="40" ry="3"/>
+  </g>
+
+  <!-- BACK OF ALLEY — distant courtyard light visible upper-right. -->
+  <rect x="380" y="80" width="107" height="300" fill="#3a3e48"/>
+  <!-- Distant courtyard light. -->
+  <ellipse cx="450" cy="220" rx="60" ry="60" fill="#7a8088" opacity="0.55" filter="url(#p10p4strongBloom)"/>
+
+  <!-- 5 SQUAD MEMBERS gathered in shelter. -->
+
+  <!-- JINK — sitting on doorstep lip, legs dangling. -->
+  <g id="p10p4-jink" transform="translate(170, 145)">
+    <!-- Wings folded dark. -->
+    <ellipse cx="-12" cy="-12" rx="14" ry="5" fill="#3aa078" opacity="0.45" transform="rotate(45 -12 -12)" filter="url(#p10p4bloom)"/>
+    <ellipse cx="12" cy="-12" rx="14" ry="5" fill="#3aa078" opacity="0.45" transform="rotate(-45 12 -12)" filter="url(#p10p4bloom)"/>
+    <!-- Body sitting. -->
+    <path d="M-12,15 L-15,-5 L-12,-20 L-5,-25 L5,-25 L12,-20 L15,-5 L12,15 Z" fill="url(#p10p4emeraldDirty)" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="0" cy="-25" rx="7" ry="2" fill="#7af0b0" opacity="0.55" filter="url(#p10p4bloom)"/>
+    <!-- Legs dangling forward. -->
+    <path d="M-8,15 L-12,40 L-4,40 L-2,18 Z" fill="url(#p10p4emeraldDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M2,18 L4,40 L12,40 L8,15 Z" fill="url(#p10p4emeraldDirty)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="-8" cy="42" rx="4" ry="2" fill="#1a1a20" stroke="#080810" stroke-width="0.4"/>
+    <ellipse cx="8" cy="42" rx="4" ry="2" fill="#1a1a20" stroke="#080810" stroke-width="0.4"/>
+    <!-- Head looking down (quiet). -->
+    <ellipse cx="0" cy="-37" rx="9" ry="10" fill="#d8b890"/>
+    <path d="M-9,-44 Q0,-50 9,-44 L9,-37 L-9,-37 Z" fill="#f0d878"/>
+    <g fill="#a89048"><circle cx="-4" cy="-46" r="1.2"/><circle cx="0" cy="-48" r="1.2"/><circle cx="4" cy="-46" r="1.2"/></g>
+    <!-- Eyes downward. -->
+    <ellipse cx="-3" cy="-36" rx="1.2" ry="0.8" fill="#1a0808"/>
+    <ellipse cx="3" cy="-36" rx="1.2" ry="0.8" fill="#1a0808"/>
+    <!-- Neutral mouth. -->
+    <line x1="-2" y1="-30" x2="2" y2="-30" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- THRESH — leaning against wall, eyes closed. -->
+  <g id="p10p4-thresh" transform="translate(80, 270)">
+    <path d="M-13,80 L-15,30 L-13,-5 L-7,-20 L7,-20 L13,-5 L15,30 L13,80 Z" fill="url(#p10p4rubyDirty)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Dented LEFT pauldron. -->
+    <path d="M-13,-3 L-22,12 L-22,30 L-13,38" fill="url(#p10p4rubyDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M-19,18 Q-15,28 -14,22 Z" fill="#3a0810"/>
+    <ellipse cx="0" cy="-20" rx="9" ry="2.5" fill="#f54848" opacity="0.55" filter="url(#p10p4bloom)"/>
+    <!-- Mud streaks heavy. -->
+    <g fill="#3a1010" opacity="0.85">
+      <ellipse cx="-5" cy="10" rx="4" ry="1.5" transform="rotate(-15 -5 10)"/>
+      <ellipse cx="6" cy="25" rx="4" ry="1.5" transform="rotate(20 6 25)"/>
+      <ellipse cx="-3" cy="50" rx="4" ry="1.5"/>
+    </g>
+    <!-- Arms hanging. -->
+    <path d="M-13,5 L-22,30 L-18,38 L-12,15 Z" fill="url(#p10p4rubyDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M13,5 L22,30 L18,38 L12,15 Z" fill="url(#p10p4rubyDirty)" stroke="#080404" stroke-width="0.5"/>
+    <!-- Weapon slung back. -->
+    <line x1="-13" y1="-15" x2="13" y2="40" stroke="#1a0810" stroke-width="3"/>
+    <!-- Head leaned against wall (eyes CLOSED). -->
+    <ellipse cx="0" cy="-32" rx="11" ry="12" fill="#d8a880"/>
+    <path d="M-10,-40 Q0,-46 10,-40 L10,-32 L-10,-32 Z" fill="#a83a18"/>
+    <!-- Eyes closed (lash lines). -->
+    <path d="M-5,-32 Q-3,-30 -1,-32" stroke="#3a1810" stroke-width="1.4" fill="none"/>
+    <path d="M1,-32 Q3,-30 5,-32" stroke="#3a1810" stroke-width="1.4" fill="none"/>
+    <!-- Mouth slightly open (breathing). -->
+    <ellipse cx="0" cy="-22" rx="3" ry="1.4" fill="#3a1010"/>
+  </g>
+
+  <!-- LUMA — beside Thresh, scanning subtly. -->
+  <g id="p10p4-luma" transform="translate(140, 280)">
+    <path d="M-11,75 L-14,28 L-11,-5 L-6,-20 L6,-20 L11,-5 L14,28 L11,75 Z" fill="url(#p10p4sapphireDirty)" stroke="#080404" stroke-width="0.7"/>
+    <ellipse cx="0" cy="-20" rx="9" ry="2.5" fill="#a878f8" opacity="0.55" filter="url(#p10p4bloom)"/>
+    <ellipse cx="0" cy="-32" rx="11" ry="12" fill="#a87850"/>
+    <path d="M-8,-26 Q-15,-15 -13,-2 Q-12,12 -14,28" stroke="#1a0808" stroke-width="4.5" fill="none"/>
+    <line x1="-10" y1="-22" x2="-13" y2="26" stroke="#a878f8" stroke-width="0.5" opacity="0.85" filter="url(#p10p4bloom)"/>
+    <ellipse cx="3" cy="-32" rx="4" ry="3" fill="#a878f8" opacity="0.55" stroke="#a878f8" stroke-width="0.4"/>
+    <line x1="3" y1="-32" x2="6" y2="-29" stroke="#dce4f0" stroke-width="0.3" opacity="0.85"/>
+    <!-- Active scrolling data in lens (subtle scan). -->
+    <g font-family="Courier, monospace" font-size="2" fill="#dce4f0" opacity="0.85">
+      <text x="0" y="-34">HR=1</text>
+      <text x="0" y="-32">12</text>
+    </g>
+    <ellipse cx="0" cy="-33" rx="1.2" ry="0.9" fill="#dce4f0"/>
+    <ellipse cx="0" cy="-33" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <line x1="-2" y1="-26" x2="3" y2="-26" stroke="#3a1810" stroke-width="0.6"/>
+    <!-- Mud streaks. -->
+    <g fill="#3a2010" opacity="0.85">
+      <ellipse cx="-5" cy="10" rx="3" ry="1.4"/>
+      <ellipse cx="6" cy="25" rx="3" ry="1.4"/>
+    </g>
+  </g>
+
+  <!-- WREN — looking down alley, impatient. -->
+  <g id="p10p4-wren" transform="translate(220, 280)">
+    <path d="M-11,75 L-14,28 L-11,-5 L-6,-20 L6,-20 L11,-5 L14,28 L11,75 Z" fill="url(#p10p4copperDirty)" stroke="#080404" stroke-width="0.7"/>
+    <ellipse cx="0" cy="-20" rx="9" ry="2.5" fill="#f0a868" opacity="0.55" filter="url(#p10p4bloom)"/>
+    <g fill="#1a0808" opacity="0.85"><ellipse cx="-13" cy="8" rx="3" ry="1.4"/><ellipse cx="13" cy="10" rx="3" ry="1.4"/></g>
+    <!-- Mud. -->
+    <g fill="#3a2010" opacity="0.85">
+      <ellipse cx="-5" cy="20" rx="3" ry="1.4" transform="rotate(15 -5 20)"/>
+      <ellipse cx="6" cy="40" rx="3" ry="1.4"/>
+    </g>
+    <!-- Head turned right looking down alley. -->
+    <ellipse cx="3" cy="-32" rx="11" ry="12" fill="#e0c098"/>
+    <ellipse cx="-1" cy="-42" rx="8" ry="5" fill="#1a0808"/>
+    <line x1="-3" y1="-44" x2="2" y2="-41" stroke="#3a1808" stroke-width="0.4"/>
+    <ellipse cx="0" cy="-33" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="6" cy="-33" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="2" cy="-33" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="8" cy="-33" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <!-- Set jaw impatient. -->
+    <line x1="0" y1="-25" x2="6" y2="-25" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- SABLE — at overhang edge, looking down alley. -->
+  <g id="p10p4-sable" transform="translate(330, 280)">
+    <path d="M-11,75 L-14,28 L-11,-5 L-6,-20 L6,-20 L11,-5 L14,28 L11,75 Z" fill="url(#p10p4silverDirty)" stroke="#080404" stroke-width="0.7"/>
+    <!-- CRACKED right shoulder. -->
+    <path d="M11,-3 L20,7 L22,22 L20,38" fill="url(#p10p4silverDirty)" stroke="#080404" stroke-width="0.5"/>
+    <g stroke="#a8d8f8" stroke-width="0.6" opacity="0.85" filter="url(#p10p4bloom)">
+      <path d="M14,5 L18,15 L16,25 L20,32"/>
+      <path d="M16,12 L20,20"/>
+    </g>
+    <ellipse cx="0" cy="-20" rx="9" ry="2.5" fill="#dce4f0" opacity="0.45" filter="url(#p10p4bloom)"/>
+    <!-- Mud. -->
+    <g fill="#3a2818" opacity="0.85">
+      <ellipse cx="-5" cy="15" rx="3" ry="1.4"/>
+      <ellipse cx="6" cy="35" rx="3" ry="1.4"/>
+    </g>
+    <!-- Head looking forward toward alley end (right). -->
+    <ellipse cx="3" cy="-32" rx="11" ry="12" fill="#3a2818"/>
+    <path d="M-7,-40 Q3,-46 13,-40 L13,-32 L-7,-32 Z" fill="#dce4f0"/>
+    <ellipse cx="0" cy="-33" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="6" cy="-33" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="2" cy="-33" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="8" cy="-33" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="0" y1="-25" x2="6" y2="-25" stroke="#3a1810" stroke-width="0.8"/>
+  </g>
+
+  <!-- DIALOGUE -->
+  <g id="p10p4-bal-sable">
+    <rect x="14" y="14" width="220" height="60" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Through the alley. Fifty feet.</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Then we are there.</text>
+  </g>
+
+  <g id="p10p4-bal-wren">
+    <rect x="244" y="14" width="100" height="44" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="254" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="254" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Finally.</text>
+  </g>
+
+  <g id="p10p4-bal-sable2">
+    <rect x="14" y="356" width="380" height="50" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="376" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="396" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Thirty seconds. Drink, check your gear. Then we move.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p10p4-meta">
+    <text x="479" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">4</text>
+    <text x="483" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">SHELTER</text>
+  </g>
+</svg>
