@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 280" width="247" height="280">
+  <title>Issue 2 — Page 6 — Panel 2: Thresh watches Jink fly — admiration + fear</title>
+  <desc>CU eye level 85mm. Thresh's face watching Jink fly. Layered expression: admiration + fear braided. Eyes track flight path, jaw tight. Wants to look away, can't. White-knuckle rifle grip at bottom of frame. Faintest emerald reflection in eyes. Crimson collar accents pulse. Grey rain light, water beading on buzz. NO DIALOGUE — silence is the character beat.</desc>
+
+  <defs>
+    <linearGradient id="p6p2leaden" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#2a2e38"/>
+    </linearGradient>
+    <linearGradient id="p6p2ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <radialGradient id="p6p2crimsonGlow">
+      <stop offset="0%" stop-color="#f54848" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a1018" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p6p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p6p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG grey rain ambient. -->
+  <rect width="247" height="280" fill="url(#p6p2leaden)"/>
+
+  <!-- BG raindrops descending streaks. -->
+  <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.55" filter="url(#p6p2bloom)">
+    <line x1="40" y1="20" x2="40" y2="50"/>
+    <line x1="100" y1="40" x2="100" y2="70"/>
+    <line x1="160" y1="20" x2="160" y2="50"/>
+    <line x1="220" y1="40" x2="220" y2="70"/>
+  </g>
+
+  <!-- Faint crimson glow halo around figure (script-specific: crimson accents pulse). -->
+  <ellipse cx="124" cy="180" rx="120" ry="100" fill="url(#p6p2crimsonGlow)" filter="url(#p6p2strongBloom)" opacity="0.55"/>
+
+  <!-- THRESH FACE close-up. -->
+  <g id="p6p2-thresh" transform="translate(124, 180)">
+
+    <!-- Suit collar at bottom (ruby). -->
+    <path d="M-90,80 L-100,50 L-50,30 L-30,18 L30,18 L50,30 L100,50 L90,100 L-90,100 Z" fill="url(#p6p2ruby)" stroke="#080408" stroke-width="0.7"/>
+    <line x1="-50" y1="33" x2="-30" y2="20" stroke="#f54848" stroke-width="0.6" opacity="0.7" filter="url(#p6p2bloom)"/>
+    <line x1="50" y1="33" x2="30" y2="20" stroke="#f54848" stroke-width="0.6" opacity="0.7" filter="url(#p6p2bloom)"/>
+
+    <!-- Crimson collar accents (script-specific pulse). -->
+    <path d="M-30,18 L-20,18 L-10,28 L0,18 L10,28 L20,18 L30,18 L30,20 L-30,20 Z" fill="#f54848" filter="url(#p6p2bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="18" rx="36" ry="9" fill="#f54848" opacity="0.55" filter="url(#p6p2strongBloom)"/>
+
+    <!-- HEAD large dominant. -->
+    <ellipse cx="0" cy="-30" rx="50" ry="56" fill="#d8a880"/>
+
+    <!-- COPPER-RED BUZZ CUT WET (script: water beading). -->
+    <path d="M-40,-66 Q-25,-82 -10,-88 Q10,-92 25,-86 Q40,-78 44,-66 L44,-46 L-44,-46 Z" fill="#a83a18"/>
+    <path d="M-44,-46 L44,-46" stroke="#5a1808" stroke-width="0.7" opacity="0.85"/>
+    <g fill="#5a1808" opacity="0.85">
+      <circle cx="-22" cy="-72" r="0.7"/>
+      <circle cx="-12" cy="-78" r="0.7"/>
+      <circle cx="0" cy="-82" r="0.7"/>
+      <circle cx="12" cy="-78" r="0.7"/>
+      <circle cx="22" cy="-72" r="0.7"/>
+      <circle cx="-30" cy="-65" r="0.6"/>
+      <circle cx="30" cy="-65" r="0.6"/>
+    </g>
+    <!-- WATER BEADS on wet buzz (script-specific). -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p6p2bloom)">
+      <circle cx="-15" cy="-72" r="0.9"/>
+      <circle cx="0" cy="-82" r="0.9"/>
+      <circle cx="14" cy="-72" r="0.9"/>
+      <circle cx="-25" cy="-65" r="0.7"/>
+      <circle cx="25" cy="-65" r="0.7"/>
+    </g>
+
+    <!-- Brow set (jaw tight per script). -->
+    <path d="M-30,-22 Q-15,-32 0,-26" stroke="#5a1808" stroke-width="2.2" fill="none"/>
+    <path d="M0,-26 Q15,-32 30,-22" stroke="#5a1808" stroke-width="2.2" fill="none"/>
+
+    <!-- EYES — TRACKING flight path (eyes shifted to follow subject). -->
+    <ellipse cx="-15" cy="-15" rx="11" ry="7" fill="#dce4f0"/>
+    <ellipse cx="15" cy="-15" rx="11" ry="7" fill="#dce4f0"/>
+    <!-- Iris (looking up-right tracking flight). -->
+    <ellipse cx="-12" cy="-18" rx="3" ry="3" fill="#1a0808"/>
+    <ellipse cx="18" cy="-18" rx="3" ry="3" fill="#1a0808"/>
+    <ellipse cx="-12" cy="-18" rx="1.4" ry="1.4" fill="#080404"/>
+    <ellipse cx="18" cy="-18" rx="1.4" ry="1.4" fill="#080404"/>
+    <!-- FAINT EMERALD REFLECTION in eyes (script-specific). -->
+    <circle cx="-11" cy="-19" r="0.8" fill="#7af0b0"/>
+    <circle cx="19" cy="-19" r="0.8" fill="#7af0b0"/>
+    <!-- Catch-light. -->
+    <circle cx="-13" cy="-17" r="0.4" fill="#dce4f0"/>
+    <circle cx="17" cy="-17" r="0.4" fill="#dce4f0"/>
+
+    <!-- Cheekbones. -->
+    <ellipse cx="-30" cy="5" rx="11" ry="5" fill="#a87850" opacity="0.55"/>
+    <ellipse cx="30" cy="5" rx="11" ry="5" fill="#a87850" opacity="0.55"/>
+    <!-- Faint crimson catch on cheekbones. -->
+    <ellipse cx="-30" cy="5" rx="9" ry="3.5" fill="#f54848" opacity="0.4" filter="url(#p6p2bloom)"/>
+    <ellipse cx="30" cy="5" rx="9" ry="3.5" fill="#f54848" opacity="0.4" filter="url(#p6p2bloom)"/>
+
+    <!-- Nose. -->
+    <path d="M-2,-5 L0,12 L-3,18" stroke="#3a1808" stroke-width="0.9" fill="none" opacity="0.85"/>
+
+    <!-- LIPS — pressed (jaw tight, can't look away). -->
+    <line x1="-12" y1="30" x2="12" y2="30" stroke="#3a1810" stroke-width="2.2"/>
+    <!-- Jaw muscle bumps. -->
+    <ellipse cx="-32" cy="22" rx="3.5" ry="2" fill="#5a1808" opacity="0.65"/>
+    <ellipse cx="32" cy="22" rx="3.5" ry="2" fill="#5a1808" opacity="0.65"/>
+  </g>
+
+  <!-- WHITE-KNUCKLE RIFLE GRIP at bottom of frame (script-specific). -->
+  <g id="p6p2-rifle-grip">
+    <!-- Rifle barrel + receiver visible bottom. -->
+    <rect x="60" y="250" width="140" height="14" rx="1" fill="#1a0810" stroke="#080404" stroke-width="0.7"/>
+    <rect x="190" y="252" width="22" height="10" fill="#3a1010" stroke="#080404" stroke-width="0.5"/>
+    <!-- Power node. -->
+    <circle cx="80" cy="257" r="2" fill="#c84038" opacity="0.55" filter="url(#p6p2bloom)"/>
+
+    <!-- HANDS WHITE-KNUCKLED on rifle. -->
+    <ellipse cx="105" cy="258" rx="14" ry="9" fill="#d8a880" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="155" cy="258" rx="14" ry="9" fill="#d8a880" stroke="#080408" stroke-width="0.6"/>
+    <!-- Knuckle definition. -->
+    <g stroke="#3a1810" stroke-width="0.9">
+      <line x1="95" y1="252" x2="100" y2="248"/>
+      <line x1="100" y1="252" x2="105" y2="248"/>
+      <line x1="105" y1="252" x2="110" y2="248"/>
+      <line x1="110" y1="252" x2="115" y2="248"/>
+      <line x1="145" y1="252" x2="150" y2="248"/>
+      <line x1="150" y1="252" x2="155" y2="248"/>
+      <line x1="155" y1="252" x2="160" y2="248"/>
+      <line x1="160" y1="252" x2="165" y2="248"/>
+    </g>
+    <!-- Pale skin highlights (white-knuckle blood squeeze). -->
+    <g fill="#fae0c0" opacity="0.7">
+      <ellipse cx="105" cy="251" rx="3" ry="1"/>
+      <ellipse cx="155" cy="251" rx="3" ry="1"/>
+    </g>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p6p2-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="243" y="272" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">THRESH WATCHES</text>
+  </g>
+</svg>

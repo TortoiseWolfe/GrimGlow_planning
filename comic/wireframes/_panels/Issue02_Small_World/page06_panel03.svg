@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 280" width="487" height="280">
+  <title>Issue 2 — Page 6 — Panel 3: Jink banking POV aerial — reconnaissance</title>
+  <desc>POV banking aerial perspective tilted 30°. Victorian street below at fairy-scale — granite setts as rain-darkened boulder field stretching, puddles like dark mirrors reflecting grey sky. Gas lamp post rises to viewer's level w/ enormous flame visible inside glass housing as brilliant amber core. Woman with umbrella below as vast dome. Squad on wall as 4 colored dots BG. Jink's wing-tip enters top corner w/ emerald prismatic trail. JINK caption italic 2 lines reconnaissance.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p6p3leaden" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p6p3cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p6p3puddle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <radialGradient id="p6p3amberCore">
+      <stop offset="0%" stop-color="#fae898" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p6p3umbrella" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1010"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <radialGradient id="p6p3wingMembrane">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0.05"/>
+    </radialGradient>
+    <filter id="p6p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p6p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p6p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- DUTCH-ROTATED main composition (30° tilt for banking POV — script-specific). -->
+  <g id="p6p3-banking-frame" transform="rotate(30 244 140)">
+
+    <!-- BG sky leaden grey. -->
+    <rect x="-80" y="-80" width="647" height="440" fill="url(#p6p3leaden)"/>
+
+    <!-- BG raindrops descending. -->
+    <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.55" filter="url(#p6p3bloom)">
+      <line x1="100" y1="0" x2="100" y2="30"/>
+      <line x1="200" y1="20" x2="200" y2="50"/>
+      <line x1="320" y1="0" x2="320" y2="30"/>
+      <line x1="400" y1="40" x2="400" y2="70"/>
+    </g>
+
+    <!-- DISTANT BRICK WALL (where squad is) — left BG. -->
+    <g id="p6p3-distant-wall">
+      <rect x="-80" y="-30" width="160" height="180" fill="#3a2820" opacity="0.85"/>
+      <!-- Drainpipe edge. -->
+      <rect x="40" y="-30" width="14" height="180" fill="#0a0c10" opacity="0.85"/>
+      <!-- 4 SQUAD MEMBERS as colored dots on wall (script-specific). -->
+      <g transform="translate(46, 70)">
+        <circle cx="0" cy="0" r="1.5" fill="#a8b0c0"/>
+        <ellipse cx="0" cy="0" rx="3" ry="3" fill="#dce4ff" opacity="0.7" filter="url(#p6p3bloom)"/>
+        <circle cx="-6" cy="3" r="1.4" fill="#c87a35"/>
+        <ellipse cx="-6" cy="3" rx="2.5" ry="2.5" fill="#f5a868" opacity="0.7" filter="url(#p6p3bloom)"/>
+        <circle cx="6" cy="4" r="1.4" fill="#5a3ad8"/>
+        <ellipse cx="6" cy="4" rx="2.5" ry="2.5" fill="#a890f0" opacity="0.7" filter="url(#p6p3bloom)"/>
+        <circle cx="0" cy="7" r="1.5" fill="#dc2030"/>
+        <ellipse cx="0" cy="7" rx="3" ry="3" fill="#f54848" opacity="0.7" filter="url(#p6p3bloom)"/>
+      </g>
+    </g>
+
+    <!-- GAS LAMP POST rising to viewer's level (script-specific: at viewer's eye level since they're flying past). -->
+    <g id="p6p3-gas-lamp">
+      <!-- Tall post going DOWN from frame. -->
+      <rect x="220" y="100" width="6" height="200" fill="#1a1820"/>
+      <line x1="223" y1="100" x2="223" y2="300" stroke="#3a3a45" stroke-width="0.5" opacity="0.7"/>
+      <!-- LANTERN at viewer's level. -->
+      <rect x="200" y="60" width="46" height="50" fill="#3a2818" stroke="#080a14" stroke-width="0.7"/>
+      <!-- Lantern frame. -->
+      <line x1="223" y1="60" x2="223" y2="110" stroke="#080a14" stroke-width="0.5"/>
+      <line x1="200" y1="85" x2="246" y2="85" stroke="#080a14" stroke-width="0.5"/>
+      <!-- ENORMOUS FLAME inside glass (script-specific: brilliant amber core). -->
+      <ellipse cx="223" cy="85" rx="14" ry="20" fill="url(#p6p3amberCore)" filter="url(#p6p3deepBloom)" opacity="0.95"/>
+      <!-- Inner brightest core. -->
+      <ellipse cx="223" cy="85" rx="6" ry="10" fill="#fae898" filter="url(#p6p3bloom)"/>
+      <!-- Lantern roof. -->
+      <path d="M196,60 L223,42 L250,60 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.7"/>
+      <rect x="221" y="36" width="4" height="6" fill="#1a1820"/>
+
+      <!-- Massive amber light cast across flight path. -->
+      <ellipse cx="223" cy="85" rx="100" ry="80" fill="#f5b860" opacity="0.55" filter="url(#p6p3deepBloom)"/>
+    </g>
+
+    <!-- VICTORIAN STREET below at fairy-scale tilted aerial. -->
+    <g id="p6p3-street-aerial">
+      <!-- Granite setts boulder field (rain-darkened, tilted perspective). -->
+      <g fill="url(#p6p3cobble)" stroke="#080a14" stroke-width="0.4">
+        <ellipse cx="80" cy="200" rx="22" ry="9"/>
+        <ellipse cx="140" cy="205" rx="24" ry="10"/>
+        <ellipse cx="320" cy="195" rx="24" ry="10"/>
+        <ellipse cx="380" cy="200" rx="22" ry="9"/>
+        <ellipse cx="440" cy="195" rx="22" ry="9"/>
+        <ellipse cx="500" cy="200" rx="20" ry="8"/>
+
+        <ellipse cx="60" cy="240" rx="20" ry="8"/>
+        <ellipse cx="120" cy="245" rx="22" ry="9"/>
+        <ellipse cx="180" cy="240" rx="22" ry="9"/>
+        <ellipse cx="340" cy="240" rx="22" ry="9"/>
+        <ellipse cx="400" cy="245" rx="22" ry="9"/>
+        <ellipse cx="460" cy="240" rx="22" ry="9"/>
+      </g>
+      <!-- Wet sheen. -->
+      <g fill="#7a7e88" opacity="0.45" filter="url(#p6p3bloom)">
+        <ellipse cx="80" cy="196" rx="16" ry="2"/>
+        <ellipse cx="320" cy="190" rx="16" ry="2"/>
+        <ellipse cx="440" cy="190" rx="16" ry="2"/>
+      </g>
+      <!-- PUDDLES as DARK MIRRORS (script-specific). -->
+      <g fill="url(#p6p3puddle)">
+        <ellipse cx="180" cy="220" rx="22" ry="3"/>
+        <ellipse cx="380" cy="220" rx="20" ry="3"/>
+      </g>
+      <!-- Sky reflection in puddles. -->
+      <g fill="#7a7e88" opacity="0.45">
+        <ellipse cx="180" cy="219" rx="18" ry="1"/>
+        <ellipse cx="380" cy="219" rx="16" ry="1"/>
+      </g>
+      <!-- Amber reflections. -->
+      <g fill="#f5b860" opacity="0.55" filter="url(#p6p3bloom)">
+        <ellipse cx="180" cy="220" rx="9" ry="1"/>
+        <ellipse cx="320" cy="240" rx="14" ry="2"/>
+      </g>
+    </g>
+
+    <!-- WOMAN with UMBRELLA below (script-specific: canopy as vast dome from above). -->
+    <g id="p6p3-umbrella">
+      <!-- Umbrella canopy (vast dome from this angle). -->
+      <ellipse cx="380" cy="155" rx="55" ry="22" fill="url(#p6p3umbrella)"/>
+      <!-- Canopy radial ribs. -->
+      <g stroke="#0a0808" stroke-width="0.5" opacity="0.85">
+        <line x1="325" y1="155" x2="380" y2="148"/>
+        <line x1="350" y1="148" x2="380" y2="148"/>
+        <line x1="380" y1="135" x2="380" y2="148"/>
+        <line x1="410" y1="148" x2="380" y2="148"/>
+        <line x1="435" y1="155" x2="380" y2="148"/>
+        <line x1="350" y1="170" x2="380" y2="155"/>
+        <line x1="410" y1="170" x2="380" y2="155"/>
+      </g>
+      <!-- Umbrella tip. -->
+      <line x1="380" y1="135" x2="380" y2="148" stroke="#1a1010" stroke-width="2"/>
+      <circle cx="380" cy="135" r="1.4" fill="#3a1808"/>
+      <!-- Rain drumming on canopy (drops + impacts). -->
+      <g fill="#dce4f0" opacity="0.85" filter="url(#p6p3bloom)">
+        <circle cx="350" cy="145" r="1.4"/>
+        <circle cx="395" cy="142" r="1.6"/>
+        <circle cx="370" cy="148" r="1.2"/>
+        <circle cx="415" cy="148" r="1.4"/>
+      </g>
+      <!-- Person silhouette under umbrella (small, walking). -->
+      <ellipse cx="380" cy="180" rx="6" ry="14" fill="#1a1010" opacity="0.85"/>
+    </g>
+
+    <!-- WING-TIP at TOP CORNER of frame (script-specific: viewer's own wing). -->
+    <g id="p6p3-wing-tip">
+      <!-- Wing membrane. -->
+      <path d="M-40,-50 Q-10,-40 30,-30 Q-10,-20 -40,-30 Z" fill="url(#p6p3wingMembrane)" stroke="#7af0b0" stroke-width="0.7" opacity="0.85" filter="url(#p6p3bloom)"/>
+      <!-- Lattice ribs. -->
+      <g stroke="#7af0b0" stroke-width="0.5" opacity="0.85" fill="none" filter="url(#p6p3bloom)">
+        <line x1="-40" y1="-50" x2="30" y2="-30"/>
+        <line x1="-40" y1="-30" x2="30" y2="-30"/>
+        <line x1="-10" y1="-40" x2="-10" y2="-25"/>
+      </g>
+      <!-- Prismatic trail. -->
+      <path d="M-40,-50 Q-80,-40 -100,-25" stroke="#7af0b0" stroke-width="2" fill="none" opacity="0.85" filter="url(#p6p3bloom)"/>
+      <path d="M-40,-50 Q-80,-40 -100,-25" stroke="#dce4f0" stroke-width="0.6" fill="none"/>
+      <!-- Particle sparks. -->
+      <g fill="#dce4f0" filter="url(#p6p3bloom)">
+        <circle cx="-70" cy="-40" r="0.7"/>
+        <circle cx="-95" cy="-30" r="0.6"/>
+      </g>
+      <!-- Emerald light cast on nearest cobblestones (script-specific). -->
+      <ellipse cx="60" cy="200" rx="80" ry="40" fill="#7af0b0" opacity="0.4" filter="url(#p6p3deepBloom)"/>
+    </g>
+
+  </g>
+
+  <!-- JINK CAPTION reconnaissance (italic, narration-style — top). -->
+  <g id="p6p3-cap-jink-1">
+    <rect x="14" y="14" width="246" height="60" rx="14" fill="#ffffff" stroke="#2ed078" stroke-width="1.5" stroke-dasharray="2,2" filter="url(#balloonShadow)"/>
+    <text x="24" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK (recon)</text>
+    <text x="24" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a3030">Street's a boulder field. Cover</text>
+    <text x="24" y="62" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a3030">between setts. Drain grate 40m.</text>
+  </g>
+
+  <!-- JINK 2nd caption. -->
+  <g id="p6p3-cap-jink-2">
+    <rect x="266" y="14" width="208" height="44" rx="14" fill="#ffffff" stroke="#2ed078" stroke-width="1.5" stroke-dasharray="2,2" filter="url(#balloonShadow)"/>
+    <text x="276" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a3030">2 lamps. Foot traffic light —</text>
+    <text x="276" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a3030">rain's keeping people off.</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p6p3-meta">
+    <text x="479" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="483" y="272" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">JINK POV BANKING</text>
+  </g>
+</svg>

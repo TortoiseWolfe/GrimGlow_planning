@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 420" width="366" height="420">
+  <title>Issue 2 — Page 6 — Panel 4: Jink threading raindrops — speed and joy</title>
+  <desc>MS side angle 50mm w/ speed lines. Jink mid-flight wings fully spread, banking between 2 ENORMOUS RAINDROPS (translucent spheres distorting world behind like LENSES). Body twisted, wings angled, emerald prismatic trails streaming. Golden curls whip. Grin still — teeth showing, eyes narrowed against wind+rain. Behind: distant raindrop explodes against chimney pot in spray. The flying is dance not evasion. JINK small text: "Left. Right. Under. Through."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p6p4leaden" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <radialGradient id="p6p4raindropLens">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#a8b8c8" stop-opacity="0.55"/>
+      <stop offset="80%" stop-color="#7a7e88" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a606a" stop-opacity="0.95"/>
+    </radialGradient>
+    <linearGradient id="p6p4emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4828"/>
+    </linearGradient>
+    <radialGradient id="p6p4emeraldGlow">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a4828" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p4wingMembrane">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0.05"/>
+    </radialGradient>
+    <radialGradient id="p6p4amberSplat">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p6p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p6p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p6p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG sky leaden grey w/ atmospheric blur. -->
+  <rect width="366" height="420" fill="url(#p6p4leaden)"/>
+
+  <!-- BG distant world (slightly blurred — ground far below). -->
+  <ellipse cx="183" cy="380" rx="280" ry="40" fill="#3a3e48" opacity="0.55" filter="url(#p6p4strongBloom)"/>
+
+  <!-- DISTANT CHIMNEY POT silhouette + raindrop impact spray. -->
+  <g id="p6p4-chimney-impact">
+    <!-- Chimney pot tiny silhouette (top-right far). -->
+    <rect x="320" y="40" width="6" height="30" fill="#1a1010" opacity="0.85"/>
+    <rect x="318" y="38" width="10" height="3" fill="#0a0808" opacity="0.85"/>
+    <!-- Splash impact w/ spray (script-specific). -->
+    <ellipse cx="323" cy="34" rx="14" ry="8" fill="url(#p6p4amberSplat)" filter="url(#p6p4strongBloom)" opacity="0.85"/>
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p6p4bloom)">
+      <circle cx="318" cy="30" r="1.4"/>
+      <circle cx="328" cy="32" r="1.4"/>
+      <circle cx="323" cy="22" r="1.2"/>
+      <circle cx="313" cy="38" r="1"/>
+      <circle cx="333" cy="40" r="1"/>
+    </g>
+    <!-- Mist halo. -->
+    <ellipse cx="323" cy="32" rx="22" ry="14" fill="none" stroke="#dce4f0" stroke-width="0.5" opacity="0.55" filter="url(#p6p4bloom)"/>
+  </g>
+
+  <!-- SPEED LINES streaming behind Jink (script-specific motion). -->
+  <g id="p6p4-speed-lines" stroke="#7af0b0" stroke-width="0.7" opacity="0.7" filter="url(#p6p4bloom)" fill="none">
+    <line x1="20" y1="180" x2="80" y2="195"/>
+    <line x1="0" y1="200" x2="60" y2="210"/>
+    <line x1="20" y1="230" x2="80" y2="225"/>
+    <line x1="0" y1="245" x2="50" y2="240"/>
+    <line x1="10" y1="260" x2="60" y2="255"/>
+  </g>
+  <g stroke="#dce4f0" stroke-width="0.4" opacity="0.55">
+    <line x1="20" y1="180" x2="80" y2="195"/>
+    <line x1="20" y1="230" x2="80" y2="225"/>
+  </g>
+
+  <!-- RAINDROP 1 — left of Jink (translucent sphere distorting world like a LENS — script-specific). -->
+  <g id="p6p4-raindrop-left">
+    <!-- Sphere body. -->
+    <circle cx="80" cy="200" r="50" fill="url(#p6p4raindropLens)" filter="url(#p6p4bloom)"/>
+    <!-- LENS DISTORTION — distorted scene visible through sphere. -->
+    <ellipse cx="80" cy="200" rx="35" ry="35" fill="#5a606a" opacity="0.65"/>
+    <!-- Distorted "world" inside (faint streaks). -->
+    <g stroke="#7a7e88" stroke-width="0.7" opacity="0.55">
+      <line x1="55" y1="200" x2="105" y2="200"/>
+      <line x1="60" y1="190" x2="100" y2="190"/>
+      <line x1="60" y1="210" x2="100" y2="210"/>
+    </g>
+    <!-- Specular highlight. -->
+    <ellipse cx="65" cy="178" rx="14" ry="11" fill="#ffffff" opacity="0.65" filter="url(#p6p4bloom)"/>
+    <!-- Edge highlight. -->
+    <circle cx="80" cy="200" r="50" fill="none" stroke="#dce4f0" stroke-width="0.6" opacity="0.85" filter="url(#p6p4bloom)"/>
+    <!-- EMERALD ILLUMINATION on raindrop (script-specific: wing-glow lights it). -->
+    <ellipse cx="100" cy="190" rx="18" ry="22" fill="#7af0b0" opacity="0.4" filter="url(#p6p4strongBloom)"/>
+  </g>
+
+  <!-- RAINDROP 2 — right of Jink. -->
+  <g id="p6p4-raindrop-right">
+    <circle cx="290" cy="240" r="46" fill="url(#p6p4raindropLens)" filter="url(#p6p4bloom)"/>
+    <ellipse cx="290" cy="240" rx="32" ry="32" fill="#5a606a" opacity="0.65"/>
+    <g stroke="#7a7e88" stroke-width="0.7" opacity="0.55">
+      <line x1="265" y1="240" x2="315" y2="240"/>
+      <line x1="270" y1="230" x2="310" y2="230"/>
+      <line x1="270" y1="250" x2="310" y2="250"/>
+    </g>
+    <ellipse cx="276" cy="220" rx="13" ry="10" fill="#ffffff" opacity="0.65" filter="url(#p6p4bloom)"/>
+    <circle cx="290" cy="240" r="46" fill="none" stroke="#dce4f0" stroke-width="0.6" opacity="0.85" filter="url(#p6p4bloom)"/>
+    <ellipse cx="270" cy="230" rx="18" ry="22" fill="#7af0b0" opacity="0.4" filter="url(#p6p4strongBloom)"/>
+  </g>
+
+  <!-- JINK mid-flight THREADING THE NEEDLE between drops (script-specific). Body twisted/banking. -->
+  <g id="p6p4-jink" transform="translate(183, 220) rotate(-10)">
+
+    <!-- Emerald glow halo. -->
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="url(#p6p4emeraldGlow)" filter="url(#p6p4deepBloom)" opacity="0.85"/>
+
+    <!-- WINGS fully spread (4 wings — script-specific). -->
+    <g id="p6p4-wings" filter="url(#p6p4bloom)">
+      <!-- Wing 1 upper-left. -->
+      <path d="M-8,-5 Q-40,-25 -70,-12 Q-50,0 -8,2 Z" fill="url(#p6p4wingMembrane)" stroke="#7af0b0" stroke-width="0.7" opacity="0.85"/>
+      <g stroke="#7af0b0" stroke-width="0.5" opacity="0.85" fill="none">
+        <line x1="-8" y1="-3" x2="-70" y2="-12"/>
+        <line x1="-8" y1="-3" x2="-40" y2="-25"/>
+      </g>
+      <!-- Wing 2 upper-right. -->
+      <path d="M8,-5 Q35,-28 65,-15 Q50,0 8,2 Z" fill="url(#p6p4wingMembrane)" stroke="#7af0b0" stroke-width="0.7" opacity="0.85"/>
+      <g stroke="#7af0b0" stroke-width="0.5" opacity="0.85" fill="none">
+        <line x1="8" y1="-3" x2="65" y2="-15"/>
+        <line x1="8" y1="-3" x2="35" y2="-28"/>
+      </g>
+      <!-- Wing 3 lower-left. -->
+      <path d="M-8,5 Q-30,18 -55,10 Q-40,0 -8,2 Z" fill="url(#p6p4wingMembrane)" stroke="#7af0b0" stroke-width="0.6" opacity="0.7"/>
+      <!-- Wing 4 lower-right. -->
+      <path d="M8,5 Q30,18 55,12 Q40,0 8,2 Z" fill="url(#p6p4wingMembrane)" stroke="#7af0b0" stroke-width="0.6" opacity="0.7"/>
+
+      <!-- Central bloom. -->
+      <ellipse cx="0" cy="0" rx="14" ry="10" fill="#7af0b0" filter="url(#p6p4deepBloom)" opacity="0.95"/>
+      <ellipse cx="0" cy="0" rx="7" ry="5" fill="#ffffff" filter="url(#p6p4bloom)" opacity="0.85"/>
+    </g>
+
+    <!-- BODY TWISTED (banking pose). -->
+    <g id="p6p4-body" transform="rotate(-15)">
+      <!-- Torso. -->
+      <path d="M-7,-3 Q-9,12 -7,22 L7,22 Q9,12 7,-3 L4,-7 L-4,-7 Z" fill="url(#p6p4emerald)" stroke="#080408" stroke-width="0.5"/>
+      <line x1="0" y1="0" x2="0" y2="20" stroke="#7af0b0" stroke-width="0.5" opacity="0.85" filter="url(#p6p4bloom)"/>
+
+      <!-- Legs trailing. -->
+      <path d="M-5,22 L-10,38" fill="none" stroke="#0a4828" stroke-width="3" stroke-linecap="round"/>
+      <path d="M5,22 L10,38" fill="none" stroke="#0a4828" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Arms (one extended forward, one back). -->
+      <path d="M-7,2 L-12,-8 L-18,-12" fill="none" stroke="url(#p6p4emerald)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M7,2 L14,-8 L20,-12" fill="none" stroke="url(#p6p4emerald)" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Head. -->
+      <ellipse cx="0" cy="-15" rx="6" ry="7" fill="#e8c8a0"/>
+
+      <!-- Whipping golden curls. -->
+      <g fill="#f5d860">
+        <circle cx="-3" cy="-22" r="2.5"/>
+        <circle cx="0" cy="-25" r="2.8"/>
+        <circle cx="3" cy="-22" r="2.5"/>
+        <!-- Whipped trailing. -->
+        <circle cx="-7" cy="-18" r="1.8"/>
+        <circle cx="-12" cy="-13" r="1.4"/>
+      </g>
+
+      <!-- EYES NARROWED against wind+rain (script-specific). -->
+      <ellipse cx="-2" cy="-14" rx="1.4" ry="0.5" fill="#1a3010"/>
+      <ellipse cx="2" cy="-14" rx="1.4" ry="0.5" fill="#1a3010"/>
+      <ellipse cx="-2" cy="-14" rx="0.7" ry="0.4" fill="#080404"/>
+      <ellipse cx="2" cy="-14" rx="0.7" ry="0.4" fill="#080404"/>
+
+      <!-- BIG GRIN — TEETH SHOWING (script-specific). -->
+      <path d="M-4,-8 Q0,-4 4,-8" stroke="#3a2010" stroke-width="0.8" fill="none"/>
+      <path d="M-4,-8 Q0,-4 4,-8" fill="#1a0808"/>
+      <line x1="-4" y1="-8" x2="4" y2="-8" stroke="#dce4f0" stroke-width="0.7"/>
+      <!-- Teeth (small lines). -->
+      <line x1="-2" y1="-7" x2="-2" y2="-5" stroke="#dce4f0" stroke-width="0.4"/>
+      <line x1="0" y1="-7" x2="0" y2="-5" stroke="#dce4f0" stroke-width="0.4"/>
+      <line x1="2" y1="-7" x2="2" y2="-5" stroke="#dce4f0" stroke-width="0.4"/>
+    </g>
+
+    <!-- PRISMATIC TRAILS streaming behind. -->
+    <g stroke="#7af0b0" stroke-width="1.2" opacity="0.85" fill="none" filter="url(#p6p4bloom)">
+      <path d="M-70,-12 Q-110,-5 -140,5"/>
+      <path d="M-55,10 Q-95,18 -125,28"/>
+      <path d="M65,-15 Q40,15 30,40"/>
+    </g>
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p6p4bloom)">
+      <circle cx="-90" cy="-5" r="0.6"/>
+      <circle cx="-110" cy="3" r="0.5"/>
+      <circle cx="-130" cy="12" r="0.6"/>
+    </g>
+  </g>
+
+  <!-- JINK small dialogue (top). -->
+  <g id="p6p4-dlg-jink-small">
+    <rect x="14" y="14" width="220" height="32" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="24" y="31" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK (small)</text>
+    <text x="24" y="42" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#1a1a1a">Left. Right. Under. Through.</text>
+    <path d="M120,46 L138,46 L160,200 Z" fill="#ffffff" stroke="#2ed078" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="120" y1="46" x2="138" y2="46" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p6p4-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="362" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">THREADING NEEDLE</text>
+  </g>
+</svg>
