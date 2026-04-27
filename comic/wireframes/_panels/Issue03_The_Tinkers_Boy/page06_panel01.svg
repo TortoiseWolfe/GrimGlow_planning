@@ -1,0 +1,322 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 6 — Panel 1: MW garret room at night, Theodore studies shard</title>
+  <desc>MW 35mm eye level. Tiny Victorian garret room at night. Theodore sits on wooden stool at small table, studying angular shard placed on scrap of cloth before him. Single candle is room's only warm light. Spare room — cot with rough blanket, few tools, scraps of brass, dog-eared book on shelf. Set up examination station: shard, magnifying glass borrowed from workshop, pencil stub + paper with sketches of shard's shape and light patterns. Intense focus — beyond his experience. Candlelight casts deep shadows. Shard's cool blue-white geometric glow competes with candle, dual-light composition. Private investigation.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p6p1roomBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1808"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="p6p1plaster" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p6p1floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="p6p1table" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p6p1cot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4828"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p6p1blanket" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p6p1candleGlow" cx="50%" cy="60%" r="60%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p1coolGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a0d8ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#5090e0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p1shardCore">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a0d8ff"/>
+      <stop offset="80%" stop-color="#5090e0"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <linearGradient id="p6p1theoSkin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7080a0"/>
+      <stop offset="40%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p6p1theoShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p6p1theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p6p1theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p6p1brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <filter id="p6p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p6p1strongBloom"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  <!-- BG: dark night room. -->
+  <rect width="366" height="364" fill="url(#p6p1roomBg)"/>
+  <rect x="0" y="0" width="366" height="240" fill="url(#p6p1plaster)" opacity="0.85"/>
+
+  <!-- Sloped attic ceiling/wall on left (garret). -->
+  <path d="M0,0 L0,80 L80,40 L80,0 Z" fill="#1a0c04"/>
+  <line x1="0" y1="80" x2="80" y2="40" stroke="#0a0402" stroke-width="0.7"/>
+  <!-- Roof rafter. -->
+  <line x1="0" y1="80" x2="40" y2="60" stroke="#3a2010" stroke-width="2"/>
+
+  <!-- Plaster wall texture cracks. -->
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.6">
+    <path d="M40,108 Q160,110 280,108"/>
+    <path d="M40,160 Q160,162 280,160"/>
+    <path d="M40,210 Q160,212 280,210"/>
+  </g>
+
+  <!-- Shelf on wall with dog-eared book + scraps of brass. -->
+  <line x1="180" y1="100" x2="320" y2="100" stroke="#3a2010" stroke-width="1.4"/>
+  <line x1="180" y1="102" x2="320" y2="102" stroke="#1a0c04" stroke-width="0.5"/>
+  <!-- Dog-eared book leaning. -->
+  <g>
+    <rect x="200" y="76" width="14" height="24" fill="#5a3018"/>
+    <rect x="200" y="76" width="14" height="3" fill="#7a4828"/>
+    <line x1="207" y1="76" x2="207" y2="100" stroke="#3a2010" stroke-width="0.4"/>
+    <!-- Dog-ear corner. -->
+    <path d="M210,76 L214,76 L214,80 Z" fill="#7a4828"/>
+    <!-- Title fragment. -->
+    <line x1="202" y1="84" x2="212" y2="84" stroke="#dcaf60" stroke-width="0.4" opacity="0.7"/>
+    <line x1="202" y1="88" x2="210" y2="88" stroke="#dcaf60" stroke-width="0.4" opacity="0.6"/>
+  </g>
+  <!-- Brass scraps on shelf. -->
+  <circle cx="232" cy="96" r="3" fill="url(#p6p1brass)"/>
+  <circle cx="232" cy="96" r="1.4" fill="#5a3018"/>
+  <circle cx="246" cy="96" r="2.4" fill="url(#p6p1brass)"/>
+  <rect x="258" y="92" width="10" height="8" fill="#5a3818"/>
+  <line x1="278" y1="92" x2="284" y2="100" stroke="url(#p6p1brass)" stroke-width="1.4"/>
+  <rect x="296" y="92" width="6" height="8" fill="#3a2010"/>
+  <rect x="306" y="92" width="6" height="8" fill="#3a2010"/>
+
+  <!-- Floor planks. -->
+  <rect x="0" y="240" width="366" height="124" fill="url(#p6p1floor)"/>
+  <g stroke="#0a0604" stroke-width="0.6" opacity="0.85">
+    <line x1="0" y1="262" x2="366" y2="258"/>
+    <line x1="0" y1="290" x2="366" y2="288"/>
+    <line x1="0" y1="320" x2="366" y2="320"/>
+    <line x1="0" y1="356" x2="366" y2="356"/>
+    <line x1="80" y1="240" x2="74" y2="364"/>
+    <line x1="180" y1="240" x2="184" y2="364"/>
+    <line x1="280" y1="240" x2="290" y2="364"/>
+  </g>
+
+  <!-- COT (image-left, behind Theodore). Narrow bed against wall. -->
+  <g>
+    <rect x="14" y="232" width="118" height="42" fill="url(#p6p1cot)"/>
+    <rect x="14" y="232" width="118" height="6" fill="#7a5028"/>
+    <!-- Cot legs. -->
+    <rect x="20" y="274" width="5" height="42" fill="#1a0c04"/>
+    <rect x="120" y="274" width="5" height="42" fill="#1a0c04"/>
+    <!-- Rough blanket. -->
+    <rect x="14" y="220" width="118" height="22" fill="url(#p6p1blanket)"/>
+    <!-- Blanket folds + worn texture. -->
+    <g stroke="#3a2010" stroke-width="0.5" opacity="0.7">
+      <path d="M22,228 Q40,230 58,228"/>
+      <path d="M76,232 Q90,234 110,232"/>
+      <path d="M40,240 Q60,238 88,240"/>
+    </g>
+    <!-- Pillow at one end. -->
+    <ellipse cx="32" cy="220" rx="22" ry="6" fill="#a89878"/>
+    <ellipse cx="32" cy="220" rx="22" ry="6" fill="#3a2818" opacity="0.18"/>
+  </g>
+
+  <!-- TABLE (center-right of frame). Theodore's examination table. -->
+  <g>
+    <!-- Tabletop. -->
+    <rect x="146" y="222" width="206" height="20" fill="url(#p6p1table)"/>
+    <rect x="146" y="222" width="206" height="3" fill="#7a4828"/>
+    <line x1="146" y1="225" x2="352" y2="225" stroke="#1a0c04" stroke-width="0.4"/>
+    <!-- Table legs. -->
+    <rect x="156" y="242" width="5" height="62" fill="#1a0c04"/>
+    <rect x="340" y="242" width="5" height="62" fill="#1a0c04"/>
+
+    <!-- CANDLE on table (warm light source, image-right). -->
+    <g>
+      <rect x="316" y="200" width="3" height="22" fill="#dcd0b4"/>
+      <line x1="318" y1="200" x2="318" y2="222" stroke="#5a4838" stroke-width="0.3"/>
+      <ellipse cx="317.5" cy="196" rx="2" ry="3.5" fill="#fff0a8" filter="url(#p6p1strongBloom)"/>
+      <ellipse cx="317.5" cy="198" rx="1.4" ry="2.4" fill="#fff0a8"/>
+      <ellipse cx="317.5" cy="200" rx="0.8" ry="1.5" fill="#ffffff"/>
+      <!-- Candle holder. -->
+      <ellipse cx="318" cy="222" rx="8" ry="2.5" fill="#a85820"/>
+      <ellipse cx="318" cy="222" rx="8" ry="2.5" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+      <!-- Warm halo. -->
+      <ellipse cx="318" cy="208" rx="60" ry="40" fill="url(#p6p1candleGlow)" opacity="0.85"/>
+    </g>
+
+    <!-- Scrap of cloth with the SHARD (left side of table, where Theodore is studying it). -->
+    <g>
+      <rect x="170" y="216" width="80" height="14" fill="#a89878" opacity="0.85"/>
+      <!-- Cloth folds. -->
+      <line x1="180" y1="218" x2="240" y2="220" stroke="#5a4838" stroke-width="0.3"/>
+
+      <!-- THE SHARD on cloth. Cool glow. -->
+      <ellipse cx="200" cy="222" rx="22" ry="10" fill="url(#p6p1coolGlow)" filter="url(#p6p1bloom)"/>
+      <ellipse cx="200" cy="222" rx="14" ry="6" fill="#a0d8ff" opacity="0.55" filter="url(#p6p1strongBloom)"/>
+      <!-- Shard surface. -->
+      <path d="M192,220 L200,212 L210,220 L206,228 L196,230 Z" fill="#1a1a28"/>
+      <path d="M192,220 L200,212 L210,220 L206,228 L196,230 Z" fill="none" stroke="#0a0c1a" stroke-width="0.5"/>
+      <!-- Interior glow + geometric lines. -->
+      <path d="M195,221 L200,215 L207,221 L204,226 L197,227 Z" fill="url(#p6p1shardCore)" opacity="0.85"/>
+      <line x1="197" y1="222" x2="204" y2="222" stroke="#ffffff" stroke-width="0.4" opacity="0.95" filter="url(#p6p1bloom)"/>
+      <circle cx="200" cy="222" r="1" fill="#ffffff" filter="url(#p6p1bloom)"/>
+    </g>
+
+    <!-- MAGNIFYING GLASS (right of shard, on cloth). -->
+    <g>
+      <line x1="240" y1="222" x2="270" y2="234" stroke="#3a2010" stroke-width="2"/>
+      <circle cx="280" cy="240" r="14" fill="#a89878" opacity="0.45"/>
+      <circle cx="280" cy="240" r="14" fill="none" stroke="url(#p6p1brass)" stroke-width="2"/>
+      <circle cx="280" cy="240" r="14" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+      <!-- Reflection in lens (faint cool from shard). -->
+      <ellipse cx="276" cy="237" rx="3" ry="2" fill="#a0d8ff" opacity="0.4"/>
+    </g>
+
+    <!-- PENCIL + PAPER with sketches. -->
+    <g>
+      <!-- Sheet of paper. -->
+      <rect x="156" y="244" width="80" height="58" fill="#dcd0b4" opacity="0.92"/>
+      <line x1="156" y1="246" x2="236" y2="246" stroke="#5a4838" stroke-width="0.3"/>
+      <!-- Sketches: shard outline + light pattern attempts. -->
+      <g stroke="#1a0c04" stroke-width="0.5" fill="none" opacity="0.85">
+        <!-- Shard shape sketch. -->
+        <path d="M168,254 L180,250 L192,254 L188,262 L176,264 Z"/>
+        <!-- Internal lines sketch. -->
+        <line x1="172" y1="256" x2="186" y2="256"/>
+        <line x1="180" y1="252" x2="180" y2="262"/>
+        <!-- Scribbled annotations. -->
+        <line x1="200" y1="252" x2="230" y2="252"/>
+        <line x1="200" y1="258" x2="226" y2="258"/>
+        <line x1="200" y1="264" x2="232" y2="264"/>
+        <!-- Geometric pattern attempts (lower). -->
+        <path d="M172,278 L182,274 L192,278 L192,288 L182,292 L172,288 Z"/>
+        <path d="M168,294 L186,294"/>
+        <line x1="200" y1="276" x2="220" y2="276"/>
+        <line x1="200" y1="282" x2="218" y2="282"/>
+      </g>
+      <!-- Pencil stub. -->
+      <line x1="240" y1="298" x2="252" y2="294" stroke="#3a2010" stroke-width="2.4"/>
+      <line x1="252" y1="294" x2="256" y2="292" stroke="#1a1208" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- THEODORE — sitting on stool at table, hunched over the shard.
+       Position: left-center of frame, facing image-right toward shard + candle. -->
+  <g>
+    <!-- Stool. -->
+    <rect x="80" y="296" width="40" height="5" fill="#3a2010"/>
+    <rect x="86" y="301" width="4" height="44" fill="#1a0c04"/>
+    <rect x="110" y="301" width="4" height="44" fill="#1a0c04"/>
+    <line x1="88" y1="324" x2="114" y2="324" stroke="#1a0c04" stroke-width="2"/>
+
+    <!-- Trousers. -->
+    <path d="M82,260 Q78,290 84,330 L98,330 Q102,290 100,260 Z" fill="#4a3a24"/>
+    <path d="M104,260 Q102,290 108,330 L122,330 Q126,290 124,260 Z" fill="#4a3a24"/>
+
+    <!-- Linen shirt with vest — leaning forward (hunched). Lit from below by shard + warm from candle right. -->
+    <path d="M64,170 Q56,222 64,260 L138,260 Q146,222 138,170 Q130,162 100,162 Q70,162 64,170 Z" fill="url(#p6p1theoShirt)"/>
+    <!-- Cool wash from below (shard light). -->
+    <path d="M64,170 Q56,222 64,260 L138,260 Q146,222 138,170 Q130,162 100,162 Q70,162 64,170 Z" fill="#a0c8ff" opacity="0.18"/>
+    <!-- Warm wash from candle (right side). -->
+    <path d="M100,170 Q120,210 138,260 L138,170 Z" fill="#ffd078" opacity="0.18"/>
+    <!-- Brown waistcoat. -->
+    <path d="M70,178 L66,260 L136,260 L136,178 L128,184 L120,190 L100,196 L80,190 L74,184 Z" fill="url(#p6p1theoVest)"/>
+    <line x1="100" y1="196" x2="100" y2="260" stroke="#1a0c04" stroke-width="0.4" opacity="0.7"/>
+    <circle cx="100" cy="208" r="1.3" fill="url(#p6p1brass)"/>
+    <circle cx="100" cy="220" r="1.3" fill="url(#p6p1brass)"/>
+    <circle cx="100" cy="232" r="1.3" fill="url(#p6p1brass)"/>
+    <circle cx="100" cy="244" r="1.3" fill="url(#p6p1brass)"/>
+    <path d="M88,162 L100,184 L112,162 Z" fill="url(#p6p1theoShirt)"/>
+    <circle cx="100" cy="180" r="1.6" fill="url(#p6p1brass)"/>
+    <rect x="64" y="256" width="74" height="4" fill="#3a2010"/>
+
+    <!-- LEFT ARM resting on table edge. -->
+    <path d="M64,172 Q54,200 50,232 L62,234 Q66,204 70,176 Z" fill="url(#p6p1theoShirt)"/>
+    <rect x="48" y="228" width="20" height="5" fill="#a89878"/>
+    <path d="M50,234 Q42,250 56,260 L72,256 Q70,244 70,234 Z" fill="url(#p6p1theoSkin)"/>
+    <ellipse cx="64" cy="262" rx="6" ry="4" fill="url(#p6p1theoSkin)"/>
+    <!-- Brass gear ring. -->
+    <circle cx="60" cy="262" r="1.4" fill="url(#p6p1brass)"/>
+
+    <!-- RIGHT ARM extending forward toward shard / pencil. -->
+    <path d="M138,172 Q150,200 154,232 L142,236 Q140,204 134,176 Z" fill="url(#p6p1theoShirt)"/>
+    <rect x="142" y="232" width="20" height="5" fill="#a89878"/>
+    <!-- Forearm reaching across table. -->
+    <path d="M154,236 Q160,238 168,242 L160,252 Q150,250 144,238 Z" fill="url(#p6p1theoSkin)"/>
+    <ellipse cx="170" cy="248" rx="6" ry="4" fill="url(#p6p1theoSkin)"/>
+
+    <!-- HEAD — bent forward, looking down at shard. -->
+    <path d="M92,148 L92,162 L108,162 L108,148 Z" fill="url(#p6p1theoSkin)"/>
+    <ellipse cx="100" cy="124" rx="18" ry="20" fill="url(#p6p1theoSkin)"/>
+    <!-- Cool wash on lower face from shard. -->
+    <ellipse cx="100" cy="138" rx="14" ry="8" fill="#a0c8ff" opacity="0.32"/>
+    <!-- Warm wash on right side from candle. -->
+    <ellipse cx="112" cy="124" rx="8" ry="12" fill="#ffd078" opacity="0.28"/>
+    <!-- Tousled spikes. -->
+    <path d="M84,112 Q80,90 100,84 Q112,82 116,86 Q120,98 118,112 L114,116 Q110,98 104,94 L96,94 Q92,98 90,116 Z" fill="url(#p6p1theoHair)"/>
+    <path d="M88,90 L86,76 L92,90 Z" fill="url(#p6p1theoHair)"/>
+    <path d="M98,84 L98,70 L104,84 Z" fill="url(#p6p1theoHair)"/>
+    <path d="M108,84 L112,72 L112,86 Z" fill="url(#p6p1theoHair)"/>
+    <!-- Bangs. -->
+    <path d="M86,108 L88,118 L92,108 Z" fill="url(#p6p1theoHair)"/>
+    <path d="M96,110 L98,120 L102,110 Z" fill="url(#p6p1theoHair)"/>
+    <path d="M106,110 L108,118 L112,108 Z" fill="url(#p6p1theoHair)"/>
+    <!-- Sides. -->
+    <path d="M84,112 Q80,134 90,150 L96,150 Q90,140 90,112 Z" fill="url(#p6p1theoHair)"/>
+    <path d="M118,112 Q120,134 110,150 L104,150 Q110,140 110,112 Z" fill="url(#p6p1theoHair)"/>
+
+    <!-- Eyes — looking DOWN at shard. -->
+    <ellipse cx="94" cy="124" rx="1.5" ry="0.9" fill="#3a2810"/>
+    <ellipse cx="106" cy="124" rx="1.5" ry="0.9" fill="#3a2810"/>
+    <!-- Cool catchlight from shard. -->
+    <ellipse cx="94" cy="125" rx="0.6" ry="0.4" fill="#a0d8ff" filter="url(#p6p1bloom)"/>
+    <ellipse cx="106" cy="125" rx="0.6" ry="0.4" fill="#a0d8ff" filter="url(#p6p1bloom)"/>
+    <!-- Brows lowered (concentration). -->
+    <path d="M90,120 Q94,118 98,120" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <path d="M102,120 Q106,118 110,120" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <!-- Nose. -->
+    <path d="M100,130 L98,140 Q100,141 102,140 Z" fill="#a8765a" opacity="0.55"/>
+    <!-- Mouth — focused, slightly parted. -->
+    <ellipse cx="100" cy="146" rx="2.5" ry="1" fill="#7a3018" opacity="0.65"/>
+    <path d="M97,146 Q100,148 103,146" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.85">
+      <circle cx="92" cy="134" r="0.5"/>
+      <circle cx="96" cy="136" r="0.45"/>
+      <circle cx="104" cy="134" r="0.5"/>
+      <circle cx="108" cy="136" r="0.45"/>
+    </g>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 240,42"/>
+    <path d="M0,300 Q120,305 240,302"/>
+  </g>
+
+  <!-- No dialogue per script. -->
+</svg>

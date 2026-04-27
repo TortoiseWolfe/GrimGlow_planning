@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 6 — Panel 5: CU bird's-eye Theodore's hand on pillow, cool pulse through fabric</title>
+  <desc>CU 85mm directly above. Bird's-eye view of boy's hand resting on rough pillow. Through fabric beneath fingers, faint cool blue-white geometric light pulses in slow rhythm. Hand relaxing into sleep — oil-stained fingers loosening, brass gear ring on left index catching shard's glow through pillow fabric, small gleam on metal. Near-darkness surrounds. Geometric pulse is the only light — alien, slow, warm through cloth. Last light before sleep.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p6p5pillowDim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p6p5pillowFabric" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="50%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p6p5shardPulse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="20%" stop-color="#a0d8ff"/>
+      <stop offset="50%" stop-color="#5090e0"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <radialGradient id="p6p5pillowGlow">
+      <stop offset="0%" stop-color="#a0d8ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#5090e0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p6p5skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="50%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p6p5skinDimmed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4030"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="p6p5skinCoolKey" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a0c8ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a0c8ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p6p5brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <radialGradient id="p6p5oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p6p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p6p5strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p6p5deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG: very dark (near-darkness). -->
+  <rect width="366" height="364" fill="#0a0408"/>
+
+  <!-- Pillow filling the frame (we're looking straight down). -->
+  <rect x="0" y="0" width="366" height="364" fill="url(#p6p5pillowDim)"/>
+
+  <!-- Pillow fabric texture (subtle weave + folds). -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.65">
+    <path d="M0,40 Q120,42 240,40 Q330,38 366,40"/>
+    <path d="M0,80 Q120,82 240,80 Q330,78 366,80"/>
+    <path d="M0,120 Q120,122 240,120 Q330,118 366,120"/>
+    <path d="M0,160 Q120,162 240,160 Q330,158 366,160"/>
+    <path d="M0,200 Q120,202 240,200 Q330,198 366,200"/>
+    <path d="M0,240 Q120,242 240,240 Q330,238 366,240"/>
+    <path d="M0,280 Q120,282 240,280 Q330,278 366,280"/>
+    <path d="M0,320 Q120,322 240,320 Q330,318 366,320"/>
+  </g>
+  <!-- Cross-weave threads. -->
+  <g stroke="#3a2818" stroke-width="0.3" opacity="0.5">
+    <line x1="40" y1="0" x2="40" y2="364"/>
+    <line x1="80" y1="0" x2="80" y2="364"/>
+    <line x1="120" y1="0" x2="120" y2="364"/>
+    <line x1="160" y1="0" x2="160" y2="364"/>
+    <line x1="200" y1="0" x2="200" y2="364"/>
+    <line x1="240" y1="0" x2="240" y2="364"/>
+    <line x1="280" y1="0" x2="280" y2="364"/>
+    <line x1="320" y1="0" x2="320" y2="364"/>
+  </g>
+  <!-- Pillow ridges/folds (more prominent). -->
+  <g stroke="#0a0408" stroke-width="1.4" opacity="0.55" fill="none">
+    <path d="M0,60 Q140,68 220,62 Q300,58 366,64"/>
+    <path d="M0,180 Q140,188 220,182 Q300,178 366,184"/>
+    <path d="M0,300 Q140,308 220,302 Q300,298 366,304"/>
+  </g>
+
+  <!-- COOL GLOW through fabric — beneath the pillow + reaching through.
+       The shard is buried beneath, so we see a glowing area on the fabric where it's brightest. -->
+  <g>
+    <ellipse cx="170" cy="200" rx="120" ry="80" fill="url(#p6p5pillowGlow)" opacity="0.55" filter="url(#p6p5deepBloom)"/>
+    <ellipse cx="170" cy="200" rx="60" ry="40" fill="url(#p6p5pillowGlow)" opacity="0.7" filter="url(#p6p5strongBloom)"/>
+    <ellipse cx="170" cy="200" rx="30" ry="20" fill="#a0d8ff" opacity="0.45" filter="url(#p6p5bloom)"/>
+    <!-- Geometric pulse pattern visible through fabric (faint, structured). -->
+    <ellipse cx="170" cy="200" rx="14" ry="9" fill="url(#p6p5shardPulse)" opacity="0.65" filter="url(#p6p5bloom)"/>
+    <!-- Faint hex glyph shadow. -->
+    <path d="M162,196 L168,194 L176,196 L176,204 L168,206 L162,204 Z"
+          fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.7" filter="url(#p6p5bloom)"/>
+    <!-- Bright pulse center. -->
+    <circle cx="170" cy="200" r="3" fill="#ffffff" opacity="0.85" filter="url(#p6p5bloom)"/>
+  </g>
+
+  <!-- Faint ward-line pattern bleeding through (the structured light pattern). -->
+  <g stroke="#a0d8ff" stroke-width="0.4" opacity="0.35" fill="none">
+    <line x1="120" y1="200" x2="220" y2="200"/>
+    <line x1="170" y1="150" x2="170" y2="250"/>
+  </g>
+
+  <!-- THEODORE'S HAND viewed from straight above (bird's-eye). -->
+  <g>
+    <!-- Wrist coming in from bottom of frame (he's lying down, so wrist runs vertically). -->
+    <path d="M150,364 L240,364 L256,310 Q244,288 220,280 L168,278 Q142,288 138,310 Z" fill="url(#p6p5skinDimmed)"/>
+    <!-- Forearm partially in cool light (from glow). -->
+    <path d="M150,364 L240,364 L256,310 Q244,288 220,280 L168,278 Q142,288 138,310 Z" fill="url(#p6p5skinCoolKey)" opacity="0.32"/>
+
+    <!-- BACK OF HAND (palm down on pillow). The cool glow under fingers is brighter. -->
+    <path d="M138,310 Q132,260 144,224 L260,222 Q272,258 264,310 Z" fill="url(#p6p5skin)"/>
+    <!-- Hand mostly lit by pulse. -->
+    <path d="M138,310 Q132,260 144,224 L260,222 Q272,258 264,310 Z" fill="url(#p6p5skinCoolKey)" opacity="0.55"/>
+
+    <!-- Knuckle bumps on back of hand. -->
+    <ellipse cx="160" cy="248" rx="10" ry="4" fill="url(#p6p5skin)" opacity="0.85"/>
+    <ellipse cx="180" cy="244" rx="10" ry="4" fill="url(#p6p5skin)" opacity="0.85"/>
+    <ellipse cx="200" cy="244" rx="10" ry="4" fill="url(#p6p5skin)" opacity="0.85"/>
+    <ellipse cx="220" cy="244" rx="10" ry="4" fill="url(#p6p5skin)" opacity="0.85"/>
+    <ellipse cx="240" cy="248" rx="10" ry="4" fill="url(#p6p5skin)" opacity="0.85"/>
+    <!-- Knuckle shadow lines. -->
+    <path d="M150,250 Q160,246 170,250" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <path d="M170,246 Q180,242 190,246" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <path d="M190,246 Q200,242 210,246" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <path d="M210,246 Q220,242 230,246" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <path d="M230,250 Q240,246 250,250" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+
+    <!-- Fingers extending DOWN (relaxing into sleep — slightly curled, not extended). -->
+    <!-- Index finger (with brass gear ring). -->
+    <g>
+      <path d="M150,222 Q146,200 148,178 L168,176 Q170,200 168,222 Z" fill="url(#p6p5skin)"/>
+      <!-- Fingertip rounded at top. -->
+      <ellipse cx="160" cy="178" rx="12" ry="6" fill="url(#p6p5skin)"/>
+      <!-- Nail. -->
+      <path d="M152,176 Q160,170 168,176 Q166,184 160,184 Z" fill="#e8d0b4" opacity="0.85"/>
+      <!-- BRASS GEAR RING — catches the cool glow. -->
+      <g>
+        <ellipse cx="158" cy="200" rx="11" ry="5" fill="url(#p6p5brass)"/>
+        <ellipse cx="158" cy="200" rx="11" ry="5" fill="none" stroke="#5a3018" stroke-width="0.6"/>
+        <!-- Tiny gear teeth. -->
+        <rect x="156.7" y="193.5" width="2.6" height="2.5" fill="url(#p6p5brass)"/>
+        <rect x="156.7" y="204" width="2.6" height="2.5" fill="url(#p6p5brass)"/>
+        <rect x="146" y="198.5" width="3" height="3" fill="url(#p6p5brass)"/>
+        <rect x="167" y="198.5" width="3" height="3" fill="url(#p6p5brass)"/>
+        <ellipse cx="158" cy="200" rx="5" ry="2.5" fill="#3a2010"/>
+        <!-- COOL GLEAM on brass surface (shard light catching the metal — small but key detail). -->
+        <ellipse cx="155" cy="197" rx="3" ry="1.4" fill="#ffffff" opacity="0.7" filter="url(#p6p5bloom)"/>
+        <ellipse cx="161" cy="201" rx="2" ry="0.8" fill="#a0d8ff" opacity="0.7" filter="url(#p6p5bloom)"/>
+      </g>
+    </g>
+    <!-- Middle finger. -->
+    <g>
+      <path d="M170,222 Q166,200 168,180 L188,178 Q192,200 188,222 Z" fill="url(#p6p5skin)"/>
+      <ellipse cx="180" cy="178" rx="11" ry="6" fill="url(#p6p5skin)"/>
+      <path d="M172,176 Q180,170 188,176 Q186,184 180,184 Z" fill="#e8d0b4" opacity="0.85"/>
+    </g>
+    <!-- Ring finger. -->
+    <g>
+      <path d="M192,222 Q188,200 190,180 L210,178 Q214,200 210,222 Z" fill="url(#p6p5skin)"/>
+      <ellipse cx="202" cy="178" rx="11" ry="6" fill="url(#p6p5skin)"/>
+      <path d="M194,176 Q202,170 210,176 Q208,184 202,184 Z" fill="#e8d0b4" opacity="0.85"/>
+    </g>
+    <!-- Pinky. -->
+    <g>
+      <path d="M214,222 Q210,202 214,184 L232,182 Q236,202 232,222 Z" fill="url(#p6p5skin)"/>
+      <ellipse cx="223" cy="184" rx="10" ry="6" fill="url(#p6p5skin)"/>
+      <path d="M216,182 Q224,176 232,182 Q230,190 224,190 Z" fill="#e8d0b4" opacity="0.85"/>
+    </g>
+    <!-- Thumb. -->
+    <g>
+      <path d="M236,222 Q236,200 244,184 L262,196 Q266,212 256,224 Z" fill="url(#p6p5skin)"/>
+      <ellipse cx="252" cy="190" rx="9" ry="5" fill="url(#p6p5skin)"/>
+      <path d="M248,186 Q254,184 258,188 Q256,196 252,196 Z" fill="#e8d0b4" opacity="0.85"/>
+    </g>
+
+    <!-- Oil stains on fingers. -->
+    <ellipse cx="180" cy="262" rx="14" ry="4" fill="url(#p6p5oilStain)"/>
+    <ellipse cx="220" cy="270" rx="12" ry="4" fill="url(#p6p5oilStain)" opacity="0.7"/>
+    <ellipse cx="160" cy="280" rx="10" ry="3" fill="url(#p6p5oilStain)" opacity="0.85"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#040208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 240,42"/>
+    <path d="M0,330 Q120,335 240,332"/>
+  </g>
+
+  <!-- 2× CAPTION — top of frame, parchment style. -->
+  <rect x="14" y="14" width="240" height="40" rx="2"
+        fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5"
+        filter="url(#balloonShadow)"/>
+  <text x="24" y="32"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="700" font-style="italic"
+        fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+  <text x="24" y="46"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic"
+        fill="#5a4a30">Three days after the falling star.</text>
+
+  <rect x="14" y="60" width="220" height="40" rx="2"
+        fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5"
+        filter="url(#balloonShadow)"/>
+  <text x="24" y="78"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="700" font-style="italic"
+        fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+  <text x="24" y="92"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic"
+        fill="#5a4a30">He has found a piece of it.</text>
+
+</svg>

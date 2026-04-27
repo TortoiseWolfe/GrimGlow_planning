@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 6 — Panel 2: CU shard on cloth, geometric prismatic pulses, Theodore's fingertips approach</title>
+  <desc>CU 85mm eye level. Small angular shard resting on scrap of cloth. Shard's interior glows with slow prismatic pulses of geometric light — structured patterns of blue-white, lines and angles like circuitry or runes, deliberate and beautiful even in damage. Theodore's oil-stained fingertips approach from right side of frame. Where his warmth reaches surface, geometric light blooms brighter — intensifying at near-contact. Cool blue-white prismatic glow dominates frame, pushing warm amber candlelight to periphery. Light responds to him.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p6p2bgDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1408"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p6p2candleAmber" cx="100%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p2coolDominant" cx="35%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a0d8ff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#5090e0" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p2shardCore">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a0d8ff"/>
+      <stop offset="80%" stop-color="#5090e0"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <linearGradient id="p6p2shardSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a3848"/>
+      <stop offset="100%" stop-color="#0a0c1a"/>
+    </linearGradient>
+    <linearGradient id="p6p2cloth" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89878"/>
+      <stop offset="100%" stop-color="#5a4838"/>
+    </linearGradient>
+    <linearGradient id="p6p2skin" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="50%" stop-color="#c8a888"/>
+      <stop offset="100%" stop-color="#7090b0"/>
+    </linearGradient>
+    <radialGradient id="p6p2oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p6p2brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <filter id="p6p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p6p2strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p6p2deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- Dark BG (room periphery, candle warm pushed to corner). -->
+  <rect width="366" height="364" fill="url(#p6p2bgDark)"/>
+  <rect width="366" height="364" fill="url(#p6p2candleAmber)" opacity="0.65"/>
+
+  <!-- COOL LIGHT DOMINATES — saturating most of frame from shard. -->
+  <rect width="366" height="364" fill="url(#p6p2coolDominant)" opacity="0.85"/>
+
+  <!-- Cloth scrap on table (filling lower 2/3 of frame). -->
+  <rect x="0" y="220" width="366" height="144" fill="url(#p6p2cloth)" opacity="0.85"/>
+  <!-- Cloth folds + worn texture. -->
+  <g stroke="#5a4838" stroke-width="0.4" opacity="0.6">
+    <path d="M0,250 Q120,254 240,250 Q330,248 366,250"/>
+    <path d="M0,300 Q120,304 240,300 Q330,298 366,300"/>
+    <path d="M0,330 Q120,334 240,330 Q330,328 366,330"/>
+    <path d="M40,220 L40,364"/>
+    <path d="M120,220 L120,364"/>
+    <path d="M260,220 L260,364"/>
+  </g>
+  <!-- Cool light cast on cloth (subtle blue tint near shard). -->
+  <ellipse cx="140" cy="280" rx="140" ry="60" fill="#a0d8ff" opacity="0.32" filter="url(#p6p2bloom)"/>
+
+  <!-- Table edge visible at very bottom + table darker than cloth. -->
+  <rect x="0" y="350" width="366" height="14" fill="#3a2010"/>
+
+  <!-- THE SHARD — center-left of frame, larger and more detailed at this CU.
+       This is the focal element. -->
+  <g>
+    <!-- Strong bloom around shard (geometric structured light). -->
+    <ellipse cx="140" cy="244" rx="80" ry="46" fill="#a0d8ff" opacity="0.45" filter="url(#p6p2deepBloom)"/>
+    <ellipse cx="140" cy="244" rx="48" ry="28" fill="#a0d8ff" opacity="0.65" filter="url(#p6p2strongBloom)"/>
+
+    <!-- Shard surface (angular wedge, larger now at CU). -->
+    <path d="M114,250 L130,228 L156,232 L168,250 L160,266 L142,272 L122,266 Z" fill="url(#p6p2shardSurface)"/>
+    <path d="M114,250 L130,228 L156,232 L168,250 L160,266 L142,272 L122,266 Z" fill="none" stroke="#0a0c1a" stroke-width="0.7"/>
+
+    <!-- Inner glow plate (interior visible through shard). -->
+    <path d="M120,250 L132,234 L154,238 L162,250 L156,260 L142,266 L126,260 Z" fill="url(#p6p2shardCore)" opacity="0.85"/>
+
+    <!-- DETAILED INTERIOR GEOMETRIC LIGHT — rune/circuitry patterns. -->
+    <g>
+      <!-- Hex grid frame. -->
+      <path d="M134,242 L140,238 L148,242 L148,250 L140,254 L134,250 Z"
+            fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.95" filter="url(#p6p2bloom)"/>
+      <!-- Triangle node. -->
+      <path d="M138,256 L144,252 L148,258 Z"
+            fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.95" filter="url(#p6p2bloom)"/>
+      <!-- Connecting circuit lines. -->
+      <line x1="125" y1="250" x2="134" y2="246" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p6p2bloom)"/>
+      <line x1="148" y1="246" x2="158" y2="250" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p6p2bloom)"/>
+      <line x1="140" y1="232" x2="140" y2="238" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p6p2bloom)"/>
+      <line x1="140" y1="254" x2="140" y2="262" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p6p2bloom)"/>
+      <!-- Bright pulse points (current pulse). -->
+      <circle cx="140" cy="246" r="2" fill="#ffffff" filter="url(#p6p2bloom)"/>
+      <circle cx="140" cy="254" r="1.4" fill="#ffffff" filter="url(#p6p2bloom)"/>
+      <circle cx="140" cy="246" r="3" fill="#a0d8ff" opacity="0.55" filter="url(#p6p2strongBloom)"/>
+    </g>
+
+    <!-- Shard surface highlights catching cool light. -->
+    <path d="M114,250 L130,228 L156,232" stroke="#5a7090" stroke-width="0.5" opacity="0.85" fill="none"/>
+    <!-- Crack on surface. -->
+    <path d="M132,236 L138,250 L132,266" fill="none" stroke="#0a0c1a" stroke-width="0.4" opacity="0.85"/>
+  </g>
+
+  <!-- THEODORE'S FINGERTIPS approaching from RIGHT side of frame. Just at the moment of light intensification. -->
+  <g>
+    <!-- Hand entering frame from right edge. -->
+    <path d="M280,230 L366,222 L366,310 L300,290 Q278,268 280,230 Z" fill="url(#p6p2skin)"/>
+    <!-- Knuckle ridges. -->
+    <path d="M298,256 Q310,250 322,254" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <path d="M308,272 Q322,266 334,272" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <!-- Oil stains. -->
+    <ellipse cx="320" cy="262" rx="14" ry="5" fill="url(#p6p2oilStain)"/>
+    <ellipse cx="340" cy="280" rx="12" ry="4" fill="url(#p6p2oilStain)" opacity="0.7"/>
+
+    <!-- Fingers extending TOWARD shard (left). -->
+    <!-- Index finger (extending furthest, closest to shard). -->
+    <g>
+      <path d="M280,234 Q260,238 240,242 L228,254 Q224,260 232,264 Q252,260 280,250 Z" fill="url(#p6p2skin)"/>
+      <!-- Index fingertip approaching shard surface. -->
+      <ellipse cx="222" cy="256" rx="6" ry="4" fill="url(#p6p2skin)"/>
+      <!-- Fingernail. -->
+      <path d="M218,254 Q222,252 226,254 Q224,260 222,260 Z" fill="#e8d0b4"/>
+      <!-- Cool light catching tip of finger (first contact glow). -->
+      <ellipse cx="222" cy="256" rx="6" ry="4" fill="#a0d8ff" opacity="0.45" filter="url(#p6p2bloom)"/>
+      <!-- Bright pulse where fingertip nears. -->
+      <circle cx="218" cy="254" r="3" fill="#a0d8ff" opacity="0.65" filter="url(#p6p2strongBloom)"/>
+    </g>
+    <!-- Middle finger. -->
+    <g>
+      <path d="M286,250 Q266,256 246,262 L240,272 Q244,278 252,278 Q266,272 290,266 Z" fill="url(#p6p2skin)"/>
+      <ellipse cx="240" cy="276" rx="6" ry="4" fill="url(#p6p2skin)"/>
+      <path d="M236,272 Q240,270 244,272 Q242,278 240,278 Z" fill="#e8d0b4"/>
+      <ellipse cx="240" cy="276" rx="6" ry="4" fill="#a0d8ff" opacity="0.32" filter="url(#p6p2bloom)"/>
+    </g>
+    <!-- Ring finger. -->
+    <g>
+      <path d="M292,266 Q272,272 254,278 L248,288 Q254,294 262,292 Q276,288 296,282 Z" fill="url(#p6p2skin)"/>
+      <ellipse cx="248" cy="290" rx="5" ry="3" fill="url(#p6p2skin)"/>
+      <path d="M244,286 Q248,284 252,286 Q250,292 248,292 Z" fill="#e8d0b4"/>
+    </g>
+    <!-- Pinky. -->
+    <g>
+      <path d="M298,282 Q282,288 268,292 L264,302 Q270,308 278,306 Q288,302 302,296 Z" fill="url(#p6p2skin)"/>
+      <ellipse cx="266" cy="304" rx="5" ry="3" fill="url(#p6p2skin)"/>
+    </g>
+    <!-- Thumb. -->
+    <g>
+      <path d="M280,230 Q286,224 296,222 Q310,224 320,234 L312,244 Q300,238 286,238 Z" fill="url(#p6p2skin)"/>
+      <ellipse cx="320" cy="234" rx="3" ry="2" fill="url(#p6p2skin)"/>
+    </g>
+
+    <!-- Brass gear ring on left index. -->
+    <ellipse cx="262" cy="260" rx="9" ry="5" fill="url(#p6p2brass)"/>
+    <ellipse cx="262" cy="260" rx="9" ry="5" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+    <ellipse cx="262" cy="260" rx="3.5" ry="2.5" fill="#3a2010"/>
+  </g>
+
+  <!-- Cool light reflections cast back toward right (where fingertips are). -->
+  <g opacity="0.55">
+    <path d="M168,250 Q200,250 218,254" stroke="#a0d8ff" stroke-width="2" fill="none" filter="url(#p6p2bloom)"/>
+    <path d="M168,260 Q200,265 224,266" stroke="#a0d8ff" stroke-width="1.4" fill="none" filter="url(#p6p2bloom)"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#0a0a14" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q80,45 160,42"/>
+    <path d="M260,40 Q300,45 340,42"/>
+    <path d="M0,330 Q80,335 160,332"/>
+  </g>
+
+  <!-- No dialogue per script. -->
+</svg>

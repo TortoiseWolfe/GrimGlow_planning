@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 6 — Panel 3: KEY BEAT — Theodore cups shard close to face, full wonder, dual lighting at purest</title>
+  <desc>MCU 50mm low angle. Theodore holds small angular shard cupped in both oil-stained hands brought close to his face. Shard's geometric light fills cupped palms and washes up across his features — cool blue-white prismatic patterns of structured light reflected in wide hazel eyes. Boy looks like something from a fairy tale — captured starlight in his hands. Full wonder, mouth slightly open, eyes wide, breath held. Sandy hair haloed from BEHIND by warm amber candlelight. Shard's cool geometric glow owns face from below. Dual-lighting rule at PUREST — warm amber behind, cool prismatic blue-white in front, boy at intersection. Rembrandt chiaroscuro. Rehearsal for awe.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p6p3bgDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p6p3candleHalo" cx="50%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p3coolDominant" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#a0d8ff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#5090e0" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p3shardCore">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a0d8ff"/>
+      <stop offset="80%" stop-color="#5090e0"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <linearGradient id="p6p3skin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7090b0"/>
+      <stop offset="40%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p6p3skinShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#1a0e06" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p6p3skinCoolKey" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a0c8ff" stop-opacity="0.65"/>
+      <stop offset="40%" stop-color="#a0c8ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p6p3hairHaloAmber" cx="50%" cy="0%" r="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p3hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p6p3shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p6p3vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p6p3brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <radialGradient id="p6p3oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p6p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p6p3strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p6p3deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG: very dark room. -->
+  <rect width="742" height="364" fill="url(#p6p3bgDark)"/>
+
+  <!-- WARM AMBER CANDLE HALO from BEHIND (top of frame, surrounding hair). -->
+  <ellipse cx="371" cy="0" rx="380" ry="240" fill="url(#p6p3candleHalo)" opacity="0.85"/>
+  <!-- Single visible candle flicker indicator behind Theodore (small bright point). -->
+  <ellipse cx="371" cy="40" rx="10" ry="20" fill="#fff0a8" opacity="0.55" filter="url(#p6p3deepBloom)"/>
+
+  <!-- COOL PRISMATIC LIGHT FROM BELOW (shard in cupped hands). Saturates lower frame. -->
+  <ellipse cx="371" cy="280" rx="380" ry="200" fill="url(#p6p3coolDominant)" opacity="0.85"/>
+
+  <!-- THEODORE — full upper body. He's centered, hands cupped at chest height holding shard. Face above hands.
+       Slight low angle (camera slightly below). -->
+
+  <!-- CUPPED HANDS holding shard — at chest height, palms up. -->
+  <g>
+    <!-- Wrists/forearms. Both hands meet at center of frame. -->
+    <!-- Left wrist (image-left). -->
+    <path d="M270,280 Q278,250 296,236 L322,234 Q336,250 332,278 Z" fill="url(#p6p3skin)"/>
+    <path d="M270,280 Q278,250 296,236 L322,234 Q336,250 332,278 Z" fill="url(#p6p3skinCoolKey)" opacity="0.65"/>
+
+    <!-- Right wrist (image-right). -->
+    <path d="M472,280 Q464,250 446,236 L420,234 Q406,250 410,278 Z" fill="url(#p6p3skin)"/>
+    <path d="M472,280 Q464,250 446,236 L420,234 Q406,250 410,278 Z" fill="url(#p6p3skinCoolKey)" opacity="0.65"/>
+
+    <!-- LEFT PALM (cupped). -->
+    <path d="M286,228 Q300,212 320,210 L350,210 L368,222 L362,236 Q346,232 326,234 Q306,236 290,232 Z" fill="url(#p6p3skin)"/>
+    <!-- Knuckles. -->
+    <path d="M308,222 Q318,218 326,222" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <path d="M328,224 Q338,220 348,224" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <!-- Cool wash on palm from shard above. -->
+    <ellipse cx="328" cy="226" rx="44" ry="14" fill="#a0c8ff" opacity="0.55" filter="url(#p6p3bloom)"/>
+    <!-- Oil stains. -->
+    <ellipse cx="296" cy="246" rx="10" ry="3" fill="url(#p6p3oilStain)"/>
+
+    <!-- RIGHT PALM. -->
+    <path d="M456,228 Q442,212 422,210 L392,210 L374,222 L380,236 Q396,232 416,234 Q436,236 452,232 Z" fill="url(#p6p3skin)"/>
+    <path d="M414,222 Q424,218 432,222" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <path d="M394,224 Q404,220 414,224" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <ellipse cx="414" cy="226" rx="44" ry="14" fill="#a0c8ff" opacity="0.55" filter="url(#p6p3bloom)"/>
+    <ellipse cx="446" cy="246" rx="10" ry="3" fill="url(#p6p3oilStain)"/>
+
+    <!-- Brass gear ring on left index. -->
+    <ellipse cx="316" cy="220" rx="6" ry="3.5" fill="url(#p6p3brass)"/>
+    <ellipse cx="316" cy="220" rx="6" ry="3.5" fill="none" stroke="#5a3018" stroke-width="0.4"/>
+
+    <!-- THE SHARD — cradled at junction of both palms, glowing brilliantly. -->
+    <g>
+      <!-- Massive cool bloom (the shard is the dominant light source here). -->
+      <ellipse cx="371" cy="218" rx="80" ry="40" fill="#a0d8ff" opacity="0.7" filter="url(#p6p3deepBloom)"/>
+      <ellipse cx="371" cy="218" rx="40" ry="20" fill="#a0d8ff" opacity="0.85" filter="url(#p6p3strongBloom)"/>
+
+      <!-- Shard surface. -->
+      <path d="M352,222 L368,206 L386,210 L394,222 L386,234 L370,238 L356,232 Z" fill="#1a1a28"/>
+      <path d="M352,222 L368,206 L386,210 L394,222 L386,234 L370,238 L356,232 Z" fill="none" stroke="#0a0c1a" stroke-width="0.6"/>
+      <!-- Inner glow plate. -->
+      <path d="M356,222 L368,210 L384,214 L390,222 L384,232 L370,234 L360,230 Z" fill="url(#p6p3shardCore)" opacity="0.95"/>
+
+      <!-- Detailed geometric runes inside (hex frame + triangle + circuitry). -->
+      <path d="M364,218 L372,214 L380,218 L380,226 L372,230 L364,226 Z"
+            fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.95" filter="url(#p6p3bloom)"/>
+      <line x1="358" y1="222" x2="364" y2="220" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p6p3bloom)"/>
+      <line x1="380" y1="220" x2="386" y2="222" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p6p3bloom)"/>
+      <line x1="372" y1="206" x2="372" y2="214" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p6p3bloom)"/>
+      <line x1="372" y1="230" x2="372" y2="240" stroke="#ffffff" stroke-width="0.4" opacity="0.85" filter="url(#p6p3bloom)"/>
+      <!-- Bright pulse. -->
+      <circle cx="372" cy="222" r="2" fill="#ffffff" filter="url(#p6p3bloom)"/>
+      <circle cx="372" cy="222" r="3.5" fill="#a0d8ff" opacity="0.7" filter="url(#p6p3strongBloom)"/>
+    </g>
+  </g>
+
+  <!-- ARMS extending from off-screen-bottom up to the cupped hands. -->
+  <g>
+    <!-- Left arm sleeve. -->
+    <path d="M250,364 L250,290 Q260,278 280,272 L300,278 L302,308 Q300,330 290,360 Z" fill="url(#p6p3vest)"/>
+    <path d="M250,364 L250,290 Q260,278 280,272 L300,278 L302,308 Q300,330 290,360 Z" fill="url(#p6p3skinCoolKey)" opacity="0.32"/>
+    <!-- Right arm sleeve. -->
+    <path d="M492,364 L492,290 Q482,278 462,272 L442,278 L440,308 Q442,330 452,360 Z" fill="url(#p6p3vest)"/>
+    <path d="M492,364 L492,290 Q482,278 462,272 L442,278 L440,308 Q442,330 452,360 Z" fill="url(#p6p3skinCoolKey)" opacity="0.32"/>
+    <!-- Linen cuffs at wrists. -->
+    <rect x="282" y="270" width="20" height="6" fill="#a89878"/>
+    <rect x="442" y="270" width="20" height="6" fill="#a89878"/>
+    <!-- Forearms (skin between cuff and palm). -->
+    <path d="M280,276 Q272,290 274,300 L292,302 Q298,290 300,278 Z" fill="url(#p6p3skin)"/>
+    <path d="M462,276 Q470,290 468,300 L450,302 Q444,290 442,278 Z" fill="url(#p6p3skin)"/>
+  </g>
+
+  <!-- TORSO + COLLAR visible behind hands. -->
+  <g>
+    <!-- Linen shirt. -->
+    <path d="M280,280 Q270,330 280,364 L462,364 Q472,330 462,280 Z" fill="url(#p6p3shirt)"/>
+    <!-- Brown waistcoat. -->
+    <path d="M286,290 L284,364 L458,364 L458,290 L444,300 L422,308 L370,316 L320,308 L298,300 Z" fill="url(#p6p3vest)"/>
+    <!-- Cool wash on torso (shard light). -->
+    <path d="M286,290 L284,364 L458,364 L458,290 L444,300 L422,308 L370,316 L320,308 L298,300 Z" fill="url(#p6p3skinCoolKey)" opacity="0.55"/>
+    <line x1="370" y1="316" x2="370" y2="364" stroke="#1a0c04" stroke-width="0.5" opacity="0.7"/>
+    <circle cx="370" cy="328" r="1.4" fill="url(#p6p3brass)"/>
+    <circle cx="370" cy="342" r="1.4" fill="url(#p6p3brass)"/>
+    <circle cx="370" cy="356" r="1.4" fill="url(#p6p3brass)"/>
+  </g>
+
+  <!-- HEAD — close to shard, FULL WONDER expression. -->
+  <g>
+    <!-- Cast shadow on chest from chin (cool light from below). -->
+    <ellipse cx="371" cy="180" rx="44" ry="6" fill="#1a2858" opacity="0.45"/>
+
+    <!-- Head shape. -->
+    <ellipse cx="371" cy="118" rx="46" ry="56" fill="url(#p6p3skin)"/>
+    <!-- TOP of head in shadow (cool from below = top is darker). -->
+    <ellipse cx="371" cy="100" rx="46" ry="32" fill="url(#p6p3skinShadow)" opacity="0.65"/>
+    <!-- COOL underlight on lower face. -->
+    <ellipse cx="371" cy="118" rx="46" ry="56" fill="url(#p6p3skinCoolKey)" opacity="0.7"/>
+    <!-- WARM amber edge on top of head/hair (from candle behind). -->
+    <ellipse cx="371" cy="80" rx="40" ry="20" fill="url(#p6p3hairHaloAmber)" opacity="0.55"/>
+
+    <!-- Tousled spikes haloed from behind by warm amber. -->
+    <path d="M328,80 Q324,40 360,28 Q374,24 388,28 Q416,38 412,80 L406,86 Q396,52 384,46 L356,46 Q344,52 336,86 Z" fill="url(#p6p3hair)"/>
+    <!-- Spikes with amber glow on top edge. -->
+    <path d="M334,40 L330,12 L342,40 Z" fill="url(#p6p3hair)"/>
+    <path d="M348,28 L344,2 L358,32 Z" fill="url(#p6p3hair)"/>
+    <path d="M364,18 L364,-4 L376,22 Z" fill="url(#p6p3hair)"/>
+    <path d="M380,22 L386,-4 L388,28 Z" fill="url(#p6p3hair)"/>
+    <path d="M396,32 L406,4 L406,40 Z" fill="url(#p6p3hair)"/>
+    <!-- Rim light on each spike (warm amber catching from behind). -->
+    <g stroke="#ffd078" stroke-width="0.8" opacity="0.7">
+      <line x1="338" y1="14" x2="340" y2="32"/>
+      <line x1="350" y1="6" x2="352" y2="26"/>
+      <line x1="368" y1="0" x2="368" y2="20"/>
+      <line x1="386" y1="0" x2="386" y2="22"/>
+      <line x1="402" y1="8" x2="402" y2="30"/>
+    </g>
+    <!-- Bangs. -->
+    <path d="M334,76 L336,90 L342,76 Z" fill="url(#p6p3hair)"/>
+    <path d="M348,80 L350,94 L356,80 Z" fill="url(#p6p3hair)"/>
+    <path d="M362,82 L364,98 L370,82 Z" fill="url(#p6p3hair)"/>
+    <path d="M376,82 L378,98 L384,82 Z" fill="url(#p6p3hair)"/>
+    <path d="M390,80 L394,94 L398,80 Z" fill="url(#p6p3hair)"/>
+    <path d="M404,76 L408,90 L408,76 Z" fill="url(#p6p3hair)"/>
+    <!-- Sides. -->
+    <path d="M328,80 Q324,130 336,162 L350,162 Q340,140 340,80 Z" fill="url(#p6p3hair)"/>
+    <path d="M412,80 Q416,130 404,162 L390,162 Q400,140 400,80 Z" fill="url(#p6p3hair)"/>
+    <!-- Cool tinge on hair tips (lit from below by shard). -->
+    <g stroke="#a0c8ff" stroke-width="0.7" opacity="0.65">
+      <line x1="338" y1="80" x2="336" y2="84"/>
+      <line x1="352" y1="84" x2="350" y2="88"/>
+      <line x1="368" y1="86" x2="368" y2="92"/>
+      <line x1="386" y1="86" x2="386" y2="92"/>
+      <line x1="404" y1="84" x2="406" y2="88"/>
+    </g>
+
+    <!-- WIDE EYES (full wonder). -->
+    <ellipse cx="346" cy="118" rx="8" ry="6" fill="#fff8e8"/>
+    <ellipse cx="346" cy="118" rx="8" ry="6" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <circle cx="346" cy="118" r="4" fill="url(#p6p3hair)"/>
+    <circle cx="346" cy="118" r="2" fill="#0a0604"/>
+    <!-- COOL CATCHLIGHT in eye (shard reflection — most prominent). -->
+    <ellipse cx="346" cy="121" rx="3" ry="1.5" fill="#a0d8ff" filter="url(#p6p3bloom)"/>
+    <!-- Tiny shard outline reflection. -->
+    <path d="M344,120 L348,118 L350,121 L348,124 L344,123 Z" fill="#ffffff" opacity="0.85" filter="url(#p6p3bloom)"/>
+    <circle cx="345" cy="116" r="1" fill="#ffffff"/>
+
+    <ellipse cx="396" cy="118" rx="8" ry="6" fill="#fff8e8"/>
+    <ellipse cx="396" cy="118" rx="8" ry="6" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <circle cx="396" cy="118" r="4" fill="url(#p6p3hair)"/>
+    <circle cx="396" cy="118" r="2" fill="#0a0604"/>
+    <ellipse cx="396" cy="121" rx="3" ry="1.5" fill="#a0d8ff" filter="url(#p6p3bloom)"/>
+    <path d="M394,120 L398,118 L400,121 L398,124 L394,123 Z" fill="#ffffff" opacity="0.85" filter="url(#p6p3bloom)"/>
+    <circle cx="395" cy="116" r="1" fill="#ffffff"/>
+
+    <!-- Brows raised (wonder). -->
+    <path d="M334,104 Q346,98 358,104" fill="none" stroke="#3a2810" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M384,104 Q396,98 408,104" fill="none" stroke="#3a2810" stroke-width="1.6" stroke-linecap="round"/>
+
+    <!-- Nose underlit. -->
+    <path d="M371,128 L367,148 Q371,150 375,148 Z" fill="#a8765a" opacity="0.4"/>
+    <ellipse cx="371" cy="150" rx="9" ry="3" fill="#a0c8ff" opacity="0.55" filter="url(#p6p3bloom)"/>
+    <ellipse cx="368" cy="151" rx="2" ry="0.9" fill="#3a1808" opacity="0.85"/>
+    <ellipse cx="374" cy="151" rx="2" ry="0.9" fill="#3a1808" opacity="0.85"/>
+
+    <!-- MOUTH SLIGHTLY OPEN (breath held / about to speak). -->
+    <ellipse cx="371" cy="166" rx="9" ry="3" fill="#7a3018" opacity="0.7"/>
+    <path d="M362,164 Q371,170 380,164" fill="none" stroke="#5a3018" stroke-width="0.9"/>
+
+    <!-- Freckles (lit by both lights). -->
+    <g fill="#a8765a" opacity="0.85">
+      <circle cx="338" cy="142" r="0.7"/>
+      <circle cx="344" cy="144" r="0.65"/>
+      <circle cx="354" cy="142" r="0.7"/>
+      <circle cx="388" cy="142" r="0.7"/>
+      <circle cx="398" cy="144" r="0.65"/>
+      <circle cx="404" cy="142" r="0.7"/>
+    </g>
+
+    <!-- Cheek glow from cool below. -->
+    <ellipse cx="334" cy="148" rx="14" ry="8" fill="#a0c8ff" opacity="0.32" filter="url(#p6p3bloom)"/>
+    <ellipse cx="408" cy="148" rx="14" ry="8" fill="#a0c8ff" opacity="0.32" filter="url(#p6p3bloom)"/>
+
+    <!-- Underjaw lit cool. -->
+    <path d="M328,148 Q371,180 414,148" fill="none" stroke="#a0c8ff" stroke-width="1.4" opacity="0.65" filter="url(#p6p3bloom)"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#0a0a14" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q200,45 400,42"/>
+    <path d="M400,40 Q600,45 742,42"/>
+    <path d="M0,330 Q200,335 400,332"/>
+    <path d="M400,330 Q600,335 742,332"/>
+  </g>
+
+  <!-- THEODORE balloon — top-left, barely-whisper. -->
+  <rect x="20" y="14" width="186" height="62" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M170,76 L184,76 L320,84 Z"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="170" y1="76" x2="184" y2="76" stroke="#ffffff" stroke-width="3"/>
+  <text x="30" y="34"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="30" y="50"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic" font-weight="500"
+        fill="#5a4030">(barely a whisper)</text>
+  <text x="30" y="68"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">What are you?</text>
+
+</svg>
