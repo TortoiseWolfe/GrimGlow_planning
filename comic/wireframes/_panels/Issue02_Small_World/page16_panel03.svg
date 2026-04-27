@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 340" width="742" height="340">
+  <title>Issue 2 — Page 16 — Panel 3: Luma + Wren two-shot, wonder vs purpose, split lighting</title>
+  <desc>MS 50mm eye level formally composed two-shot. Two women side by side timber joist dark wall cavity each absorbed entirely different work. Left: Luma sapphire-violet South Asian holds horsehair plaster chunk one hand scans holographic medical device other, blue-violet data scrolling lenses, expression wide-eyed wonder delight scientist discovering. Right: Wren copper East Asian disassembles salvaged alien equipment tiny holographic manipulators copper-gold light orbiting hands, focused intense lips pressed — does not look at companion. Between: warm amber power cell neutral fill light. Two pools department-colour illumination side by side dark. LUMA wren look horsehair tensile strength brilliant / WREN mm / LUMA biology trial error generations / WREN need spectrum analyser when done.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p16p3dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p16p3joist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p16p3sapphireDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#28157a"/>
+    </linearGradient>
+    <linearGradient id="p16p3copperDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86528"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <radialGradient id="p16p3blueViolet">
+      <stop offset="0%" stop-color="#a878f8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p3copperGold">
+      <stop offset="0%" stop-color="#f0d878" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p3amberCenter">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p16p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p16p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p16p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark cavity. -->
+  <rect width="742" height="340" fill="url(#p16p3dark)"/>
+
+  <!-- Center amber fill (neutral between). -->
+  <ellipse cx="371" cy="320" rx="280" ry="100" fill="url(#p16p3amberCenter)" filter="url(#p16p3deepBloom)" opacity="0.65"/>
+  <!-- Amber cell visible at bottom-center. -->
+  <g transform="translate(371, 330)">
+    <path d="M-12,0 L-8,-9 L0,-12 L8,-9 L12,0 L8,9 L0,12 L-8,9 Z" fill="#3a3a44" stroke="#080404" stroke-width="0.5"/>
+    <circle cx="0" cy="0" r="5" fill="#ffe8a0" opacity="0.95" filter="url(#p16p3bloom)"/>
+  </g>
+
+  <!-- Timber joist FLOOR. -->
+  <rect x="0" y="280" width="742" height="60" fill="url(#p16p3joist)" stroke="#080404" stroke-width="0.85"/>
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.85">
+    <line x1="0" y1="295" x2="742" y2="295"/>
+    <line x1="0" y1="315" x2="742" y2="315"/>
+  </g>
+
+  <!-- LEFT POOL: BLUE-VIOLET (Luma's scanner). -->
+  <ellipse cx="200" cy="200" rx="200" ry="180" fill="url(#p16p3blueViolet)" filter="url(#p16p3deepBloom)" opacity="0.85"/>
+
+  <!-- RIGHT POOL: COPPER-GOLD (Wren's tools). -->
+  <ellipse cx="540" cy="200" rx="200" ry="180" fill="url(#p16p3copperGold)" filter="url(#p16p3deepBloom)" opacity="0.85"/>
+
+  <!-- LUMA — left, holding plaster, scanning. -->
+  <g id="p16p3-luma" transform="translate(220, 230)">
+    <!-- Body seated. -->
+    <path d="M-12,50 L-15,15 L-12,-15 L-6,-25 L6,-25 L12,-15 L15,15 L12,50 Z" fill="url(#p16p3sapphireDirty)" stroke="#080404" stroke-width="0.85"/>
+    <ellipse cx="0" cy="-25" rx="9" ry="2.5" fill="#a878f8" opacity="0.85" filter="url(#p16p3bloom)"/>
+
+    <!-- Hair braided w/ filament. -->
+    <ellipse cx="0" cy="-37" rx="11" ry="12" fill="#a87850"/>
+    <path d="M-9,-32 Q-15,-22 -14,-10 Q-13,2 -15,12" stroke="#1a0808" stroke-width="4" fill="none"/>
+    <line x1="-11" y1="-28" x2="-14" y2="10" stroke="#a878f8" stroke-width="0.5" opacity="0.85" filter="url(#p16p3bloom)"/>
+
+    <!-- Cracked right lens with active scrolling data. -->
+    <ellipse cx="3" cy="-37" rx="4" ry="3" fill="#a878f8" opacity="0.85" stroke="#a878f8" stroke-width="0.4" filter="url(#p16p3bloom)"/>
+    <line x1="3" y1="-37" x2="6" y2="-34" stroke="#dce4f0" stroke-width="0.3" opacity="0.85"/>
+    <g font-family="Courier, monospace" font-size="2" fill="#dce4f0" opacity="0.95">
+      <text x="0" y="-39">PLAS</text>
+      <text x="0" y="-37">HHr</text>
+      <text x="0" y="-35">95%</text>
+    </g>
+
+    <!-- WIDE eyes (wonder). -->
+    <ellipse cx="-3" cy="-38" rx="1.6" ry="1.2" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-38" rx="0.8" ry="0.8" fill="#1a0808"/>
+    <!-- Slight smile. -->
+    <path d="M-3,-30 Q0,-28 3,-30" stroke="#3a1810" stroke-width="0.7" fill="none"/>
+
+    <!-- LEFT HAND holding plaster fragment. -->
+    <path d="M-12,-5 L-30,-2 L-32,5 L-14,8 Z" fill="url(#p16p3sapphireDirty)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="-32" cy="2" rx="4" ry="3" fill="#a87850" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Plaster chunk. -->
+    <polygon points="-40,-2 -32,-6 -25,-2 -28,5 -38,3" fill="#a89870" stroke="#5a4828" stroke-width="0.6"/>
+    <!-- Hair fibres in plaster (tiny). -->
+    <g stroke="#3a2818" stroke-width="0.3" opacity="0.85">
+      <line x1="-37" y1="-1" x2="-32" y2="3"/>
+      <line x1="-34" y1="-3" x2="-29" y2="0"/>
+      <line x1="-30" y1="-1" x2="-26" y2="2"/>
+    </g>
+
+    <!-- RIGHT HAND with scanner. -->
+    <path d="M12,5 L24,12 L20,16 L10,10 Z" fill="url(#p16p3sapphireDirty)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="26" cy="14" rx="4" ry="3" fill="#a87850" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Scanner device. -->
+    <rect x="22" y="11" width="9" height="6" rx="1" fill="#3a3a44" stroke="#080404" stroke-width="0.5"/>
+    <!-- Scanner beam. -->
+    <g stroke="#a878f8" stroke-width="0.5" fill="none" opacity="0.95" filter="url(#p16p3bloom)">
+      <line x1="22" y1="14" x2="-30" y2="3"/>
+      <path d="M22,11 L-30,0"/>
+      <path d="M22,17 L-30,6"/>
+    </g>
+    <!-- Scanner light on plaster. -->
+    <ellipse cx="-32" cy="2" rx="14" ry="6" fill="#a878f8" opacity="0.55" filter="url(#p16p3strongBloom)"/>
+  </g>
+
+  <!-- WREN — right, working with manipulators. -->
+  <g id="p16p3-wren" transform="translate(540, 230)">
+    <path d="M-12,50 L-15,15 L-12,-15 L-6,-25 L6,-25 L12,-15 L15,15 L12,50 Z" fill="url(#p16p3copperDirty)" stroke="#080404" stroke-width="0.85"/>
+    <ellipse cx="0" cy="-25" rx="9" ry="2.5" fill="#f0a868" opacity="0.85" filter="url(#p16p3bloom)"/>
+    <g fill="#1a0808" opacity="0.85"><ellipse cx="-13" cy="6" rx="2.5" ry="1.4"/><ellipse cx="13" cy="8" rx="2.5" ry="1.4"/></g>
+
+    <!-- Head with hair-up bun. -->
+    <ellipse cx="0" cy="-37" rx="11" ry="12" fill="#e0c098"/>
+    <ellipse cx="-1" cy="-46" rx="8" ry="5" fill="#1a0808"/>
+    <line x1="-3" y1="-48" x2="2" y2="-45" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- Eyes — focused, NOT looking at Luma. -->
+    <ellipse cx="-3" cy="-38" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-38" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-38" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="3" cy="-38" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <!-- LIPS pressed (focused). -->
+    <line x1="-4" y1="-30" x2="4" y2="-30" stroke="#3a1810" stroke-width="1.4"/>
+
+    <!-- HANDS BOTH FORWARD with manipulators. -->
+    <path d="M-12,5 L-30,12 L-32,18 L-14,12 Z" fill="url(#p16p3copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M12,5 L30,12 L32,18 L14,12 Z" fill="url(#p16p3copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="-32" cy="14" rx="4" ry="3" fill="#e0c098" stroke="#3a1808" stroke-width="0.4"/>
+    <ellipse cx="32" cy="14" rx="4" ry="3" fill="#e0c098" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- HOLOGRAPHIC MANIPULATORS orbiting hands (copper-gold). -->
+    <g stroke="#f0d878" stroke-width="0.5" fill="none" opacity="0.95" filter="url(#p16p3bloom)">
+      <circle cx="-32" cy="14" r="10"/>
+      <circle cx="32" cy="14" r="10"/>
+      <!-- Hex nodes orbiting. -->
+      <path d="M-37,9 L-32,6 L-27,9 L-27,12 L-32,15 L-37,12 Z"/>
+      <path d="M27,9 L32,6 L37,9 L37,12 L32,15 L27,12 Z"/>
+      <path d="M-37,16 L-32,13 L-27,16 L-27,19 L-32,22 L-37,19 Z"/>
+      <path d="M27,16 L32,13 L37,16 L37,19 L32,22 L27,19 Z"/>
+    </g>
+    <g fill="#f0d878" opacity="0.95" filter="url(#p16p3bloom)">
+      <circle cx="-32" cy="6" r="0.85"/>
+      <circle cx="32" cy="6" r="0.85"/>
+      <circle cx="-32" cy="22" r="0.85"/>
+      <circle cx="32" cy="22" r="0.85"/>
+    </g>
+
+    <!-- SALVAGED COMPONENT being worked on (between hands). -->
+    <g fill="#1a1a20" stroke="#080404" stroke-width="0.5">
+      <rect x="-8" y="20" width="16" height="14" rx="1"/>
+    </g>
+    <g stroke="#f0d878" stroke-width="0.4" fill="none" opacity="0.85">
+      <line x1="-5" y1="22" x2="5" y2="22"/>
+      <line x1="-5" y1="26" x2="5" y2="26"/>
+      <line x1="-5" y1="30" x2="5" y2="30"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE -->
+  <g id="p16p3-bal-luma1">
+    <rect x="14" y="14" width="280" height="78" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Wren — they mix horsehair</text>
+    <text x="24" y="67" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">into their plaster. For tensile</text>
+    <text x="24" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">strength. It's brilliant.</text>
+    <path d="M180,90 L194,90 L188,104 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="180" y1="90" x2="194" y2="90" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p16p3-bal-wren1">
+    <rect x="304" y="14" width="80" height="40" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="314" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="314" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Mm.</text>
+  </g>
+
+  <g id="p16p3-bal-luma2">
+    <rect x="304" y="62" width="280" height="62" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="314" y="80" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="314" y="98" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Biology solving materials</text>
+    <text x="314" y="115" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">science. Trial and error.</text>
+  </g>
+
+  <g id="p16p3-bal-wren2">
+    <rect x="594" y="14" width="134" height="62" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="604" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="604" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Spectrum</text>
+    <text x="604" y="67" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">analyser, please.</text>
+    <path d="M620,76 L634,76 L628,88 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="620" y1="76" x2="634" y2="76" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p16p3-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">3</text>
+    <text x="738" y="332" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">WONDER vs PURPOSE</text>
+  </g>
+</svg>

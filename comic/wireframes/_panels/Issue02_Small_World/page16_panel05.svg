@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 420" width="247" height="420">
+  <title>Issue 2 — Page 16 — Panel 5: Pipe joint detail, gas shimmer, the slow danger of the ordinary</title>
+  <desc>CU 85mm eye level threaded iron pipe joint fairy scale — two sections cast-iron screwed together joint wrapped old hemp fiber crumbling red lead paste. Wrapping deteriorating tiny gaps. Faint shimmer at joint — gas seeping made visible blue-violet holographic scanner light. Gas distortion drifts upward heat haze ghostly structured light. Corroded iron decaying hemp crumbling lead paste clinical detail blue-violet. Faint warm amber from below. Quiet domestic hazard. CAPTION city wanted to kill them hundred ways most quiet.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p16p5dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p16p5pipe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#080404"/>
+      <stop offset="40%" stop-color="#3a3a44"/>
+      <stop offset="70%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p16p5hemp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89870"/>
+      <stop offset="100%" stop-color="#5a4828"/>
+    </linearGradient>
+    <radialGradient id="p16p5scannerWash">
+      <stop offset="0%" stop-color="#a878f8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#28157a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p5amberFar">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p16p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p16p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p16p5deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark. -->
+  <rect width="247" height="420" fill="url(#p16p5dark)"/>
+
+  <!-- AMBER warmth from below. -->
+  <ellipse cx="124" cy="420" rx="200" ry="80" fill="url(#p16p5amberFar)" filter="url(#p16p5deepBloom)" opacity="0.65"/>
+
+  <!-- SCANNER WASH on joint. -->
+  <ellipse cx="124" cy="220" rx="120" ry="120" fill="url(#p16p5scannerWash)" filter="url(#p16p5deepBloom)" opacity="0.85"/>
+
+  <!-- GAS PIPE — vertical column dominates frame. -->
+  <rect x="60" y="0" width="127" height="420" fill="url(#p16p5pipe)" stroke="#080404" stroke-width="0.85"/>
+  <!-- Pipe surface highlight. -->
+  <line x1="120" y1="0" x2="120" y2="420" stroke="#7a8088" stroke-width="0.7" opacity="0.85"/>
+  <line x1="100" y1="0" x2="100" y2="420" stroke="#5a606a" stroke-width="0.4" opacity="0.65"/>
+  <!-- Corrosion patches. -->
+  <g fill="#5a3018" opacity="0.85">
+    <ellipse cx="80" cy="40" rx="14" ry="6"/>
+    <ellipse cx="160" cy="80" rx="12" ry="5"/>
+    <ellipse cx="85" cy="320" rx="14" ry="7"/>
+    <ellipse cx="155" cy="380" rx="12" ry="6"/>
+  </g>
+  <g fill="#a86028" opacity="0.65" filter="url(#p16p5bloom)">
+    <ellipse cx="80" cy="40" rx="8" ry="3"/>
+    <ellipse cx="160" cy="80" rx="6" ry="3"/>
+  </g>
+
+  <!-- THE JOINT — center frame, threaded sections, hemp wrap. -->
+  <g id="p16p5-joint">
+    <!-- Lower pipe section. -->
+    <rect x="60" y="220" width="127" height="20" fill="url(#p16p5pipe)" stroke="#080404" stroke-width="0.85"/>
+    <!-- Thread visible (top of lower section). -->
+    <g stroke="#1a0808" stroke-width="0.5" opacity="0.85">
+      <line x1="60" y1="222" x2="187" y2="222"/>
+      <line x1="60" y1="226" x2="187" y2="226"/>
+      <line x1="60" y1="230" x2="187" y2="230"/>
+    </g>
+
+    <!-- Joint wrap — hemp fiber. -->
+    <rect x="60" y="180" width="127" height="44" fill="url(#p16p5hemp)" stroke="#5a4828" stroke-width="0.85"/>
+    <!-- Hemp fiber strands. -->
+    <g stroke="#5a4828" stroke-width="0.5" opacity="0.85">
+      <line x1="60" y1="184" x2="187" y2="184"/>
+      <line x1="60" y1="188" x2="187" y2="188"/>
+      <line x1="60" y1="192" x2="187" y2="192"/>
+      <line x1="60" y1="196" x2="187" y2="196"/>
+      <line x1="60" y1="200" x2="187" y2="200"/>
+      <line x1="60" y1="204" x2="187" y2="204"/>
+      <line x1="60" y1="208" x2="187" y2="208"/>
+      <line x1="60" y1="212" x2="187" y2="212"/>
+      <line x1="60" y1="216" x2="187" y2="216"/>
+      <line x1="60" y1="220" x2="187" y2="220"/>
+    </g>
+    <!-- Crumbling red lead paste patches. -->
+    <g fill="#5a2018" opacity="0.85">
+      <ellipse cx="80" cy="195" rx="6" ry="3"/>
+      <ellipse cx="120" cy="200" rx="8" ry="3"/>
+      <ellipse cx="150" cy="190" rx="6" ry="3"/>
+      <ellipse cx="170" cy="210" rx="6" ry="3"/>
+    </g>
+    <!-- Red lead crumbles. -->
+    <g fill="#8a3018" opacity="0.85">
+      <ellipse cx="78" cy="225" rx="2" ry="1"/>
+      <ellipse cx="125" cy="225" rx="2" ry="1"/>
+      <ellipse cx="158" cy="225" rx="2" ry="1"/>
+      <ellipse cx="100" cy="226" rx="1.4" ry="1"/>
+    </g>
+    <!-- Tiny gaps in wrapping (visible cracks). -->
+    <g stroke="#080404" stroke-width="0.5">
+      <line x1="80" y1="184" x2="85" y2="220"/>
+      <line x1="120" y1="184" x2="118" y2="220"/>
+      <line x1="158" y1="184" x2="160" y2="220"/>
+    </g>
+
+    <!-- Upper pipe section. -->
+    <rect x="60" y="160" width="127" height="20" fill="url(#p16p5pipe)" stroke="#080404" stroke-width="0.85"/>
+    <g stroke="#1a0808" stroke-width="0.5" opacity="0.85">
+      <line x1="60" y1="166" x2="187" y2="166"/>
+      <line x1="60" y1="170" x2="187" y2="170"/>
+      <line x1="60" y1="174" x2="187" y2="174"/>
+    </g>
+
+    <!-- GAS SHIMMER — drifting upward, made visible by scanner. -->
+    <g stroke="#a878f8" stroke-width="0.7" fill="none" opacity="0.85" filter="url(#p16p5bloom)">
+      <path d="M85,180 Q88,160 84,140 Q88,120 85,100 Q88,80 84,60"/>
+      <path d="M120,180 Q123,160 119,140 Q123,120 120,100 Q123,80 119,60"/>
+      <path d="M155,180 Q158,160 154,140 Q158,120 155,100 Q158,80 154,60"/>
+    </g>
+    <g stroke="#dce4f0" stroke-width="0.4" fill="none" opacity="0.65" filter="url(#p16p5bloom)">
+      <path d="M82,170 Q85,150 81,130"/>
+      <path d="M122,170 Q125,150 121,130"/>
+      <path d="M152,170 Q155,150 151,130"/>
+    </g>
+    <!-- Tiny gas particles. -->
+    <g fill="#a878f8" opacity="0.85" filter="url(#p16p5bloom)">
+      <circle cx="86" cy="120" r="0.7"/>
+      <circle cx="124" cy="100" r="0.7"/>
+      <circle cx="156" cy="110" r="0.7"/>
+      <circle cx="100" cy="80" r="0.7"/>
+      <circle cx="140" cy="60" r="0.7"/>
+    </g>
+  </g>
+
+  <!-- CAPTION. -->
+  <g id="p16p5-caption">
+    <rect x="14" y="320" width="220" height="80" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="24" y="340" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" font-style="italic" fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+    <text x="24" y="358" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-style="italic" fill="#5a4a30">The city wanted to kill them</text>
+    <text x="24" y="375" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-style="italic" fill="#5a4a30">a hundred different ways.</text>
+    <text x="24" y="392" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-style="italic" fill="#5a4a30">Most of them were quiet.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p16p5-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">5</text>
+    <text x="243" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">QUIET DEATH</text>
+  </g>
+</svg>
