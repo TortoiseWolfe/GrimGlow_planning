@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 14 — Panel 2: High-angle POV down — Jink gestures, shard flares</title>
+  <desc>MCU 65mm high-angle Theodore POV looking down at workbench. Tiny ~four-inch figure gestures expressively among enormous tools — brass gears as boulders, watchmaker's loupe as glass dome, coiled wire as rope piles. One hand points upward, other touches a small glowing shard on bench — shard flares brighter at contact, blue-white geometric light pulsing outward, casting the tiny figure's shadow long across wood grain. Figure moves naturally through tool-landscape. Warm candlelight from above, shard's blue-white geometric flare from below creates brief uplight on the tiny face.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p14p2benchSurface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p14p2candleAbove" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a2010" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p14p2shardFlare" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="20%" stop-color="#a8d8ff"/>
+      <stop offset="60%" stop-color="#4878d8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p14p2brass" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1c08"/>
+    </radialGradient>
+    <radialGradient id="p14p2loupe" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#a8b8c8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a1a28"/>
+    </radialGradient>
+    <linearGradient id="p14p2jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="p14p2jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffeca8"/>
+      <stop offset="50%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p14p2emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <filter id="p14p2bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p14p2deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- Bench surface filling the frame (high angle POV). -->
+  <rect width="366" height="364" fill="url(#p14p2benchSurface)"/>
+
+  <!-- Candle warmth from above. -->
+  <ellipse cx="183" cy="0" rx="320" ry="320" fill="url(#p14p2candleAbove)" opacity="0.6"/>
+
+  <!-- Wood grain. -->
+  <g stroke="#3a2010" stroke-width="0.55" opacity="0.55">
+    <path d="M0,40 Q183,46 366,40"/>
+    <path d="M0,80 Q183,72 366,80"/>
+    <path d="M0,140 Q183,148 366,140"/>
+    <path d="M0,200 Q183,194 366,200"/>
+    <path d="M0,260 Q183,266 366,260"/>
+    <path d="M0,320 Q183,316 366,320"/>
+  </g>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.45">
+    <line x1="40" y1="0" x2="48" y2="364"/>
+    <line x1="120" y1="0" x2="116" y2="364"/>
+    <line x1="200" y1="0" x2="208" y2="364"/>
+    <line x1="280" y1="0" x2="276" y2="364"/>
+    <line x1="340" y1="0" x2="346" y2="364"/>
+  </g>
+
+  <!-- Brass filings. -->
+  <g fill="#a85820" opacity="0.85">
+    <circle cx="46" cy="76" r="1.6"/>
+    <circle cx="62" cy="118" r="1.4"/>
+    <circle cx="98" cy="182" r="1.7"/>
+    <circle cx="318" cy="74" r="1.4"/>
+    <circle cx="338" cy="206" r="1.4"/>
+  </g>
+
+  <!-- ******** TOOLS AS LANDSCAPE (top-down view) ******** -->
+  <!-- Brass gear (boulder) — top-left. -->
+  <g>
+    <ellipse cx="62" cy="62" rx="40" ry="36" fill="url(#p14p2brass)"/>
+    <circle cx="62" cy="62" r="10" fill="#3a1c08"/>
+    <circle cx="62" cy="62" r="3" fill="#fff0a8"/>
+    <!-- Teeth. -->
+    <g fill="#a85820">
+      <rect x="100" y="58" width="8" height="8"/>
+      <rect x="20" y="58" width="8" height="8"/>
+      <rect x="58" y="20" width="8" height="8"/>
+      <rect x="58" y="100" width="8" height="8"/>
+      <rect x="86" y="32" width="8" height="8" transform="rotate(45 90 36)"/>
+      <rect x="86" y="86" width="8" height="8" transform="rotate(-45 90 90)"/>
+      <rect x="32" y="32" width="8" height="8" transform="rotate(-45 36 36)"/>
+      <rect x="32" y="86" width="8" height="8" transform="rotate(45 36 90)"/>
+    </g>
+    <!-- Highlight. -->
+    <ellipse cx="50" cy="48" rx="14" ry="10" fill="#fff0a8" opacity="0.55"/>
+    <!-- Shadow on bench. -->
+    <ellipse cx="76" cy="100" rx="40" ry="6" fill="#000" opacity="0.3"/>
+  </g>
+
+  <!-- Watchmaker's loupe (glass dome) — bottom-left. -->
+  <g>
+    <ellipse cx="80" cy="290" rx="42" ry="42" fill="url(#p14p2loupe)"/>
+    <ellipse cx="80" cy="290" rx="42" ry="42" fill="none" stroke="#5a606a" stroke-width="2"/>
+    <ellipse cx="80" cy="290" rx="36" ry="36" fill="none" stroke="#a8b8c8" stroke-width="0.85"/>
+    <ellipse cx="68" cy="276" rx="14" ry="10" fill="#fff8e8" opacity="0.65"/>
+    <ellipse cx="80" cy="332" rx="42" ry="6" fill="#000" opacity="0.32"/>
+    <text x="80" y="294" text-anchor="middle" font-size="6" fill="#fff0a8" opacity="0.55">CB</text>
+  </g>
+
+  <!-- Coiled wire pile (rope) — top-right. -->
+  <g fill="none" stroke="#a85820" stroke-width="2.5" opacity="0.85">
+    <ellipse cx="306" cy="62" rx="32" ry="14"/>
+    <ellipse cx="306" cy="64" rx="28" ry="12"/>
+    <ellipse cx="306" cy="66" rx="24" ry="10"/>
+    <ellipse cx="306" cy="68" rx="20" ry="8"/>
+    <ellipse cx="306" cy="70" rx="16" ry="6"/>
+  </g>
+  <g fill="#fff0a8" opacity="0.65">
+    <circle cx="280" cy="60" r="1.4"/>
+    <circle cx="320" cy="64" r="1.4"/>
+  </g>
+  <ellipse cx="306" cy="78" rx="32" ry="4" fill="#000" opacity="0.32"/>
+
+  <!-- Pliers (background, partial). -->
+  <g>
+    <path d="M280,260 L320,300 L340,310 L356,300 L320,260 Z" fill="#5a606a"/>
+    <path d="M280,260 L320,300 L340,310 L356,300 L320,260 Z" fill="none" stroke="#1a1a28" stroke-width="0.85"/>
+    <ellipse cx="312" cy="282" rx="20" ry="3" fill="#000" opacity="0.32"/>
+  </g>
+
+  <!-- ******** SHARD center, FLARING ******** -->
+  <g>
+    <!-- Bloom halo. -->
+    <ellipse cx="220" cy="186" rx="60" ry="44" fill="url(#p14p2shardFlare)" opacity="0.95" filter="url(#p14p2deepBloom)"/>
+    <!-- Geometric facets. -->
+    <path d="M210,176 L222,170 L232,176 L228,196 L218,200 L210,196 Z" fill="#1a1a28"/>
+    <path d="M212,178 L222,172 L228,178 L226,194 L218,198 L212,194 Z" fill="url(#p14p2shardFlare)" opacity="0.95"/>
+    <line x1="222" y1="172" x2="222" y2="198" stroke="#a8d8ff" stroke-width="0.85" filter="url(#p14p2bloom)"/>
+    <circle cx="222" cy="186" r="1.4" fill="#ffffff" filter="url(#p14p2bloom)"/>
+    <!-- Geometric outward pulses. -->
+    <g fill="none" stroke="#a8d8ff" stroke-width="0.85" opacity="0.65" filter="url(#p14p2bloom)">
+      <path d="M180,186 L220,166 L260,186 L220,206 Z"/>
+      <path d="M190,186 L220,176 L250,186 L220,196 Z"/>
+    </g>
+  </g>
+
+  <!-- LONG SHADOW from Jink stretching across surface. -->
+  <path d="M150,160 Q140,200 100,260 L140,260 Q170,200 165,160 Z" fill="#000" opacity="0.55"/>
+
+  <!-- ******** JINK gesturing — top-down view ******** -->
+  <g>
+    <!-- Body (top-down: slight perspective foreshortening, head + shoulders + arms emphasized). -->
+    <!-- Torso. -->
+    <ellipse cx="160" cy="170" rx="14" ry="18" fill="url(#p14p2emeraldSuit)"/>
+    <!-- Soot. -->
+    <ellipse cx="160" cy="170" rx="12" ry="14" fill="#1a0c04" opacity="0.7"/>
+
+    <!-- Wing-pack stowed (top of shoulders). -->
+    <rect x="148" y="156" width="24" height="6" fill="#1a4828"/>
+    <line x1="148" y1="158" x2="172" y2="158" stroke="#2ed078" stroke-width="0.55" filter="url(#p14p2bloom)"/>
+
+    <!-- Left arm pointing UP (toward sky/above). -->
+    <path d="M148,164 L128,124 L120,98 L130,96 L138,124 L154,162 Z" fill="url(#p14p2emeraldSuit)"/>
+    <ellipse cx="125" cy="100" rx="4" ry="4" fill="url(#p14p2jinkSkin)"/>
+    <!-- Index finger pointing up. -->
+    <line x1="125" y1="98" x2="121" y2="78" stroke="#dcb89a" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Right arm reaching to shard. -->
+    <path d="M174,164 L196,178 L216,184 L210,194 L194,188 L172,176 Z" fill="url(#p14p2emeraldSuit)"/>
+    <ellipse cx="218" cy="186" rx="4" ry="4" fill="url(#p14p2jinkSkin)"/>
+    <!-- Hand touching shard — light wraps around. -->
+    <ellipse cx="218" cy="186" rx="6" ry="4" fill="url(#p14p2shardFlare)" opacity="0.6" filter="url(#p14p2bloom)"/>
+
+    <!-- Legs (foreshortened from above). -->
+    <ellipse cx="155" cy="194" rx="4" ry="10" fill="url(#p14p2emeraldSuit)"/>
+    <ellipse cx="166" cy="194" rx="4" ry="10" fill="url(#p14p2emeraldSuit)"/>
+
+    <!-- HEAD top-down (mostly hair). -->
+    <ellipse cx="160" cy="148" rx="12" ry="11" fill="url(#p14p2jinkHair)"/>
+    <!-- Wild curls visible from above. -->
+    <ellipse cx="148" cy="142" rx="5" ry="6" fill="url(#p14p2jinkHair)"/>
+    <ellipse cx="156" cy="138" rx="5" ry="6" fill="url(#p14p2jinkHair)"/>
+    <ellipse cx="164" cy="138" rx="5" ry="6" fill="url(#p14p2jinkHair)"/>
+    <ellipse cx="172" cy="142" rx="5" ry="6" fill="url(#p14p2jinkHair)"/>
+    <!-- Forehead/face peek visible. -->
+    <ellipse cx="160" cy="156" rx="6" ry="3" fill="url(#p14p2jinkSkin)"/>
+    <!-- Cool uplight on face from shard below. -->
+    <ellipse cx="160" cy="156" rx="6" ry="3" fill="url(#p14p2shardFlare)" opacity="0.45"/>
+  </g>
+
+  <!-- DIALOGUE — JINK 2 balloons. -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="14" width="338" height="50" rx="12" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4"/>
+    <path d="M58,64 L70,64 L60,82 Z" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="59.5" y1="64.5" x2="68" y2="64.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="34" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2ed078">JINK</text>
+  <text x="22" y="54" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">Our ship broke. The captain's rebuilding it.</text>
+
+  <g filter="url(#balloonShadow)">
+    <rect x="220" y="296" width="132" height="50" rx="12" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4"/>
+    <path d="M268,296 L280,296 L270,278 Z" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="269.5" y1="295.5" x2="278" y2="295.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="228" y="316" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2ed078">JINK</text>
+  <text x="228" y="336" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222" font-style="italic">We're... stuck.</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 246,42"/>
+    <path d="M246,40 Q310,45 366,42"/>
+  </g>
+</svg>

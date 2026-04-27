@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 14 — Panel 4: Theodore CU thoughtful "How does it work?"</title>
+  <desc>CU 85mm straight on Theodore. Twelve-year-old Victorian boy, sandy-brown hair, hazel eyes focused with practical intelligence — studying, cataloguing details. Chin resting on folded arms. Freckles, oil-stained fingers visible folded under chin. Wonder + pragmatism joined. Eyes reflect cool emerald geometric light — studying something glowing with light unlike anything he has seen. Warm amber candlelight full on face, reflected emerald BRIGHT in dilated pupils.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p14p4nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p14p4candleHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p14p4theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <linearGradient id="p14p4theoSkinWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="p14p4theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p14p4shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcc8a8"/>
+      <stop offset="100%" stop-color="#7a6840"/>
+    </linearGradient>
+    <linearGradient id="p14p4bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p14p4ring" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1c08"/>
+    </radialGradient>
+    <filter id="p14p4bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p14p4deepBloom"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p14p4nightBg)"/>
+  <ellipse cx="183" cy="160" rx="280" ry="240" fill="url(#p14p4candleHalo)" opacity="0.85"/>
+
+  <!-- Bench (lower band — chin rests above it). -->
+  <rect x="0" y="280" width="366" height="84" fill="url(#p14p4bench)"/>
+  <line x1="0" y1="280" x2="366" y2="280" stroke="#7a4828" stroke-width="2"/>
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.45">
+    <path d="M60,280 Q66,360 56,364"/>
+    <path d="M180,280 Q186,360 176,364"/>
+    <path d="M300,280 Q306,360 296,364"/>
+  </g>
+
+  <!-- ******** ARMS folded under chin (visible from CU front view) ******** -->
+  <g>
+    <!-- Forearms crossed. -->
+    <path d="M40,236 Q60,224 130,228 L240,234 Q300,232 326,244 L326,272 Q244,278 162,278 L40,272 Z" fill="url(#p14p4theoSkin)"/>
+    <ellipse cx="183" cy="260" rx="120" ry="6" fill="#1a0e06" opacity="0.32"/>
+    <!-- Warm side wash. -->
+    <ellipse cx="240" cy="252" rx="100" ry="14" fill="url(#p14p4theoSkinWarm)" opacity="0.65"/>
+    <!-- Sleeves rolled up. -->
+    <path d="M30,236 Q26,224 26,200 Q40,190 90,188 L100,196 L100,232 Q60,236 30,236 Z" fill="url(#p14p4shirt)"/>
+    <ellipse cx="60" cy="200" rx="34" ry="3" fill="#a89060"/>
+    <path d="M336,236 Q340,224 340,200 Q326,190 276,188 L266,196 L266,232 Q306,236 336,236 Z" fill="url(#p14p4shirt)"/>
+    <ellipse cx="306" cy="200" rx="34" ry="3" fill="#a89060"/>
+    <!-- Brass gear ring on left index finger (visible under chin). -->
+    <ellipse cx="62" cy="248" rx="6" ry="3" fill="url(#p14p4ring)"/>
+    <ellipse cx="62" cy="248" rx="6" ry="3" fill="none" stroke="#5a3018" stroke-width="0.4"/>
+    <ellipse cx="62" cy="248" rx="2.5" ry="1.5" fill="#3a2010"/>
+    <!-- Oil stains on forearms. -->
+    <ellipse cx="100" cy="252" rx="14" ry="3" fill="#1a0c04" opacity="0.65"/>
+    <ellipse cx="160" cy="244" rx="10" ry="3" fill="#1a0c04" opacity="0.65"/>
+    <ellipse cx="240" cy="252" rx="14" ry="3" fill="#1a0c04" opacity="0.55"/>
+    <!-- Knuckle highlights. -->
+    <ellipse cx="76" cy="240" rx="2.5" ry="1.4" fill="#fff8e8" opacity="0.65"/>
+    <ellipse cx="92" cy="236" rx="2.5" ry="1.4" fill="#fff8e8" opacity="0.65"/>
+    <ellipse cx="108" cy="238" rx="2.5" ry="1.4" fill="#fff8e8" opacity="0.65"/>
+    <ellipse cx="280" cy="238" rx="2.5" ry="1.4" fill="#fff8e8" opacity="0.5"/>
+    <ellipse cx="294" cy="236" rx="2.5" ry="1.4" fill="#fff8e8" opacity="0.5"/>
+  </g>
+
+  <!-- ******** HEAD — chin on arms, large CU ******** -->
+  <g>
+    <ellipse cx="183" cy="116" rx="120" ry="118" fill="url(#p14p4theoSkin)"/>
+    <ellipse cx="183" cy="116" rx="120" ry="118" fill="url(#p14p4theoSkinWarm)" opacity="0.65"/>
+
+    <!-- Hair. -->
+    <g fill="url(#p14p4theoHair)">
+      <path d="M75,42 Q70,-12 130,-26 Q183,-36 240,-26 Q296,-12 291,42 L284,52 Q270,-6 246,-14 L120,-14 Q98,-6 84,52 Z"/>
+      <path d="M88,-2 L78,-44 L102,-12 Z"/>
+      <path d="M118,-22 L108,-66 L138,-18 Z"/>
+      <path d="M152,-32 L160,-78 L180,-22 Z"/>
+      <path d="M186,-32 L208,-66 L196,-12 Z"/>
+      <path d="M218,-22 L242,-58 L232,-2 Z"/>
+      <path d="M82,52 L86,90 L102,42 Z"/>
+      <path d="M120,68 L124,108 L142,60 Z"/>
+      <path d="M158,80 L162,120 L180,72 Z"/>
+      <path d="M198,80 L202,120 L220,72 Z"/>
+      <path d="M236,68 L240,108 L256,60 Z"/>
+    </g>
+    <g stroke="#ffd078" stroke-width="2" opacity="0.7">
+      <line x1="92" y1="-22" x2="92" y2="-2"/>
+      <line x1="128" y1="-46" x2="128" y2="-12"/>
+      <line x1="170" y1="-58" x2="170" y2="-22"/>
+      <line x1="208" y1="-46" x2="208" y2="-12"/>
+      <line x1="244" y1="-30" x2="244" y2="-2"/>
+    </g>
+
+    <!-- Eyes — focused practical intelligence — DILATED PUPILS, BRIGHT EMERALD reflections. -->
+    <ellipse cx="130" cy="116" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="130" cy="116" rx="22" ry="14" fill="none" stroke="#3a2810" stroke-width="1"/>
+    <ellipse cx="130" cy="116" rx="11" ry="11" fill="url(#p14p4theoHair)"/>
+    <!-- Pupil DILATED (large). -->
+    <ellipse cx="130" cy="116" rx="7" ry="7" fill="#0a0604"/>
+    <!-- BRIGHT emerald catchlight. -->
+    <ellipse cx="134" cy="113" rx="3" ry="2" fill="#a8ffd0" filter="url(#p14p4bloom)"/>
+    <ellipse cx="132" cy="113" rx="1.4" ry="0.85" fill="#ffffff"/>
+    <!-- Secondary emerald reflection. -->
+    <ellipse cx="126" cy="119" rx="1.5" ry="1" fill="#2ed078" opacity="0.85" filter="url(#p14p4bloom)"/>
+
+    <ellipse cx="236" cy="116" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="236" cy="116" rx="22" ry="14" fill="none" stroke="#3a2810" stroke-width="1"/>
+    <ellipse cx="236" cy="116" rx="11" ry="11" fill="url(#p14p4theoHair)"/>
+    <ellipse cx="236" cy="116" rx="7" ry="7" fill="#0a0604"/>
+    <ellipse cx="240" cy="113" rx="3" ry="2" fill="#a8ffd0" filter="url(#p14p4bloom)"/>
+    <ellipse cx="238" cy="113" rx="1.4" ry="0.85" fill="#ffffff"/>
+    <ellipse cx="232" cy="119" rx="1.5" ry="1" fill="#2ed078" opacity="0.85" filter="url(#p14p4bloom)"/>
+
+    <!-- Brows — focused, slightly drawn down. -->
+    <path d="M108,92 Q132,86 154,96" fill="none" stroke="#3a2810" stroke-width="3" stroke-linecap="round"/>
+    <path d="M212,96 Q236,86 258,92" fill="none" stroke="#3a2810" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Nose. -->
+    <path d="M183,140 L166,200 Q183,210 200,200 Z" fill="#a8765a" opacity="0.55"/>
+    <ellipse cx="174" cy="194" rx="3.5" ry="1.7" fill="#3a2010"/>
+    <ellipse cx="192" cy="194" rx="3.5" ry="1.7" fill="#3a2010"/>
+
+    <!-- Mouth — pressed, thinking. (Hidden by arms but lower lip visible above.) -->
+    <path d="M156,228 Q183,232 210,228" fill="none" stroke="#5a3018" stroke-width="1.4"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.95">
+      <circle cx="112" cy="160" r="1.4"/>
+      <circle cx="128" cy="170" r="1.2"/>
+      <circle cx="148" cy="160" r="1.4"/>
+      <circle cx="218" cy="160" r="1.4"/>
+      <circle cx="238" cy="170" r="1.2"/>
+      <circle cx="254" cy="160" r="1.4"/>
+    </g>
+
+    <ellipse cx="92" cy="170" rx="14" ry="9" fill="#ffd078" opacity="0.42"/>
+    <ellipse cx="274" cy="170" rx="14" ry="9" fill="#ffd078" opacity="0.42"/>
+  </g>
+
+  <!-- DIALOGUE — 2 Theodore beats. -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="14" width="338" height="56" rx="12" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4"/>
+    <path d="M58,70 L70,70 L60,88 Z" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="59.5" y1="70.5" x2="68" y2="70.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="34" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#6a4220">THEODORE</text>
+  <text x="22" y="54" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">It's metal. But it glows. Not like fire.</text>
+
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="296" width="220" height="44" rx="10" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4"/>
+    <path d="M68,296 L80,296 L70,278 Z" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="69.5" y1="295.5" x2="78" y2="295.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="314" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#6a4220">THEODORE</text>
+  <text x="22" y="332" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222" font-weight="600">How does it work?</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 246,42"/>
+    <path d="M246,40 Q310,45 366,42"/>
+  </g>
+</svg>

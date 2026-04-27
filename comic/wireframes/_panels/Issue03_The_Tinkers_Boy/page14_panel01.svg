@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 14 — Panel 1: Jink CU dual lighting "We fell"</title>
+  <desc>CU 85mm filling frame with tiny face. Late teens to early twenties lean androgynous, light brown skin, wild bright golden blonde curls framing face. Soot streak visible bottom of frame across emerald metallic suit chest. Expression genuine — performing grin faded into something open, slightly vulnerable beneath residual confidence. Eyes steady, making a choice. Warm amber candlelight illuminates LEFT side of face. Cool emerald holographic glow from suit accents lights RIGHT side. Two kinds of light on one face — warm human world and cool alien tech.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p14p1nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p14p1warmHalo" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p14p1coolHalo" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p14p1jinkSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e8c8a8"/>
+      <stop offset="50%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="p14p1skinWarm" x1="0%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#ffd078" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p14p1skinCool" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#a8ffd0" stop-opacity="0.45"/>
+    </linearGradient>
+    <radialGradient id="p14p1jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffeca8"/>
+      <stop offset="50%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p14p1emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <filter id="p14p1bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p14p1deepBloom"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p14p1nightBg)"/>
+  <!-- Warm halo from candle on left. -->
+  <ellipse cx="0" cy="180" rx="280" ry="280" fill="url(#p14p1warmHalo)" opacity="0.85"/>
+  <!-- Cool emerald halo from suit on right. -->
+  <ellipse cx="366" cy="200" rx="240" ry="260" fill="url(#p14p1coolHalo)" opacity="0.7" filter="url(#p14p1deepBloom)"/>
+
+  <!-- ******** JINK CU face filling frame ******** -->
+  <g>
+    <!-- Wild golden curls back-frame and aura. -->
+    <g fill="url(#p14p1jinkHair)">
+      <ellipse cx="80" cy="80" rx="50" ry="60"/>
+      <ellipse cx="140" cy="42" rx="48" ry="54"/>
+      <ellipse cx="226" cy="42" rx="50" ry="54"/>
+      <ellipse cx="290" cy="80" rx="50" ry="60"/>
+      <ellipse cx="56" cy="160" rx="40" ry="56"/>
+      <ellipse cx="316" cy="160" rx="40" ry="56"/>
+      <ellipse cx="100" cy="50" rx="36" ry="44"/>
+      <ellipse cx="266" cy="50" rx="36" ry="44"/>
+      <ellipse cx="180" cy="20" rx="50" ry="30"/>
+    </g>
+    <!-- Curl ringlet highlights. -->
+    <g stroke="#ffeca8" stroke-width="2" fill="none" opacity="0.7" filter="url(#p14p1bloom)">
+      <path d="M62,80 Q72,98 88,86"/>
+      <path d="M120,40 Q138,58 156,40"/>
+      <path d="M220,32 Q236,50 256,32"/>
+      <path d="M286,76 Q302,94 318,82"/>
+      <path d="M58,160 Q74,178 92,164"/>
+      <path d="M286,160 Q302,178 320,164"/>
+    </g>
+
+    <!-- Face base. -->
+    <ellipse cx="183" cy="190" rx="100" ry="120" fill="url(#p14p1jinkSkin)"/>
+    <!-- Warm wash on left half. -->
+    <path d="M83,190 Q83,80 183,80 L183,310 Q83,310 83,190 Z" fill="url(#p14p1skinWarm)" opacity="0.85"/>
+    <!-- Cool emerald wash on right half. -->
+    <path d="M183,80 Q283,80 283,190 Q283,310 183,310 Z" fill="url(#p14p1skinCool)" opacity="0.85"/>
+
+    <!-- Centerline shadow (nose ridge — boundary of warm/cool). -->
+    <path d="M183,140 L180,200 Q183,210 186,200 L183,140 Z" fill="#5a3018" opacity="0.4"/>
+
+    <!-- Cheekbones. -->
+    <ellipse cx="120" cy="240" rx="22" ry="14" fill="#ffd078" opacity="0.55"/>
+    <ellipse cx="246" cy="240" rx="22" ry="14" fill="#a8ffd0" opacity="0.45" filter="url(#p14p1bloom)"/>
+
+    <!-- Eyes (warm + cool catchlights split). -->
+    <!-- LEFT eye (warm side). -->
+    <ellipse cx="138" cy="170" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="138" cy="170" rx="22" ry="14" fill="none" stroke="#3a2810" stroke-width="1"/>
+    <ellipse cx="138" cy="170" rx="11" ry="11" fill="#2a4830"/>
+    <ellipse cx="138" cy="170" rx="6" ry="6" fill="#0a0604"/>
+    <!-- WARM amber catchlight in left eye. -->
+    <ellipse cx="142" cy="166" rx="3" ry="2" fill="#ffe8a0" filter="url(#p14p1bloom)"/>
+    <ellipse cx="140" cy="166" rx="1.4" ry="0.85" fill="#ffffff"/>
+    <!-- Lashes. -->
+    <path d="M116,156 Q138,152 160,156" fill="none" stroke="#3a1a08" stroke-width="2" stroke-linecap="round"/>
+    <path d="M116,184 Q138,190 160,184" fill="none" stroke="#5a3018" stroke-width="1.4"/>
+
+    <!-- RIGHT eye (cool side). -->
+    <ellipse cx="228" cy="170" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="228" cy="170" rx="22" ry="14" fill="none" stroke="#3a2810" stroke-width="1"/>
+    <ellipse cx="228" cy="170" rx="11" ry="11" fill="#2a4830"/>
+    <ellipse cx="228" cy="170" rx="6" ry="6" fill="#0a0604"/>
+    <!-- COOL emerald catchlight in right eye. -->
+    <ellipse cx="232" cy="166" rx="3" ry="2" fill="#a8ffd0" filter="url(#p14p1bloom)"/>
+    <ellipse cx="230" cy="166" rx="1.4" ry="0.85" fill="#ffffff"/>
+    <path d="M206,156 Q228,152 250,156" fill="none" stroke="#3a1a08" stroke-width="2" stroke-linecap="round"/>
+    <path d="M206,184 Q228,190 250,184" fill="none" stroke="#5a3018" stroke-width="1.4"/>
+
+    <!-- Brows — soft, decisive (steady). -->
+    <path d="M114,134 Q140,128 162,138" fill="none" stroke="#3a2810" stroke-width="3" stroke-linecap="round"/>
+    <path d="M204,138 Q228,128 252,134" fill="none" stroke="#3a2810" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Nose. -->
+    <path d="M183,180 L168,238 Q183,246 198,238 Z" fill="#7a4828" opacity="0.7"/>
+    <ellipse cx="174" cy="232" rx="3" ry="1.7" fill="#3a2010"/>
+    <ellipse cx="192" cy="232" rx="3" ry="1.7" fill="#3a2010"/>
+    <!-- Nostril warmth + cool. -->
+    <ellipse cx="174" cy="230" rx="2" ry="1" fill="#ffd078" opacity="0.55"/>
+    <ellipse cx="192" cy="230" rx="2" ry="1" fill="#a8ffd0" opacity="0.55"/>
+
+    <!-- Mouth — open slightly, genuine. -->
+    <path d="M148,272 Q183,278 218,272 L214,286 Q183,294 152,286 Z" fill="#3a1408"/>
+    <path d="M152,274 L214,274 L212,284 L154,284 Z" fill="#fff8e8" opacity="0.78"/>
+    <line x1="170" y1="274" x2="170" y2="284" stroke="#a85820" stroke-width="0.55"/>
+    <line x1="183" y1="274" x2="183" y2="284" stroke="#a85820" stroke-width="0.55"/>
+    <line x1="196" y1="274" x2="196" y2="284" stroke="#a85820" stroke-width="0.55"/>
+  </g>
+
+  <!-- Soot-streaked emerald suit chest visible at bottom. -->
+  <g>
+    <path d="M0,310 Q183,300 366,310 L366,364 L0,364 Z" fill="url(#p14p1emeraldSuit)"/>
+    <!-- Soot streak across chest. -->
+    <path d="M40,316 Q183,308 326,316 Q326,332 326,348 L40,348 Q40,332 40,316 Z" fill="#1a0c04" opacity="0.85"/>
+    <!-- Holo seam at collar. -->
+    <path d="M0,310 Q183,302 366,310" fill="none" stroke="#2ed078" stroke-width="2" filter="url(#p14p1bloom)" opacity="0.85"/>
+    <!-- Filament glints. -->
+    <circle cx="80" cy="320" r="1.4" fill="#a8ffd0" filter="url(#p14p1bloom)"/>
+    <circle cx="183" cy="316" r="1.4" fill="#a8ffd0" filter="url(#p14p1bloom)"/>
+    <circle cx="286" cy="320" r="1.4" fill="#a8ffd0" filter="url(#p14p1bloom)"/>
+  </g>
+
+  <!-- DIALOGUE — TWO Jink balloons, stacked. -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="14" width="338" height="50" rx="12" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4"/>
+    <path d="M48,64 L60,64 L48,82 Z" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="49.5" y1="64.5" x2="58" y2="64.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="34" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2ed078">JINK</text>
+  <text x="22" y="54" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">We fell. From... a long way away. There's five of us.</text>
+
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="92" width="338" height="50" rx="12" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4"/>
+    <path d="M48,142 L60,142 L48,160 Z" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="49.5" y1="142.5" x2="58" y2="142.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="112" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2ed078">JINK</text>
+  <text x="22" y="132" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">We're not from anywhere you'd know.</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 246,42"/>
+    <path d="M246,40 Q310,45 366,42"/>
+  </g>
+</svg>
