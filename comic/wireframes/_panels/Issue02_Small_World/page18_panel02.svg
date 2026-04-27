@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 400" width="247" height="400">
+  <title>Issue 2 — Page 18 — Panel 2: Hand traces mortar, holographic glyph waypoint, fairy rune</title>
+  <desc>CU 85mm slight high angle. Sable's silver hand traces mortar joint between Victorian bricks fairy scale — mortar groove wide brick surface rough textured. Where fingers touch small blue-white holographic glyph appears geometric waypoint marker luminous precise fairy script ancient stone. Glyph casts faint cool light on warm brick. Warm amber gaslight from outside. Holographic marker tiny structured alien — navigation beacon reads as fairy rune inscribed brick wall. Cool geometric light on warm rough stone. SABLE waypoint set this is home base code designation the wall.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p18p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="p18p2mortar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p18p2silverWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89880"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </linearGradient>
+    <radialGradient id="p18p2glyph">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a8d8f8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#5a808a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p18p2gaslightAmbient">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p18p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p18p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p18p2deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG brick fills frame. -->
+  <rect width="247" height="400" fill="url(#p18p2brick)"/>
+
+  <!-- Warm amber gaslight ambient (from upper area). -->
+  <ellipse cx="124" cy="0" rx="220" ry="280" fill="url(#p18p2gaslightAmbient)" filter="url(#p18p2deepBloom)" opacity="0.65"/>
+
+  <!-- BRICK COURSES. -->
+  <rect x="0" y="80" width="247" height="20" fill="url(#p18p2mortar)"/>
+  <rect x="0" y="200" width="247" height="20" fill="url(#p18p2mortar)"/>
+  <rect x="0" y="320" width="247" height="20" fill="url(#p18p2mortar)"/>
+  <!-- Vertical mortar joints. -->
+  <rect x="80" y="0" width="14" height="80" fill="url(#p18p2mortar)"/>
+  <rect x="160" y="100" width="14" height="100" fill="url(#p18p2mortar)"/>
+  <rect x="80" y="220" width="14" height="100" fill="url(#p18p2mortar)"/>
+  <rect x="180" y="340" width="14" height="60" fill="url(#p18p2mortar)"/>
+
+  <!-- Brick texture — dimples and pits. -->
+  <g fill="#5a3018" opacity="0.85">
+    <ellipse cx="40" cy="40" rx="6" ry="3"/>
+    <ellipse cx="120" cy="50" rx="5" ry="3"/>
+    <ellipse cx="200" cy="40" rx="7" ry="4"/>
+    <ellipse cx="40" cy="150" rx="7" ry="4"/>
+    <ellipse cx="220" cy="160" rx="6" ry="3"/>
+    <ellipse cx="40" cy="270" rx="5" ry="3"/>
+    <ellipse cx="200" cy="280" rx="6" ry="4"/>
+    <ellipse cx="100" cy="370" rx="5" ry="3"/>
+  </g>
+  <g fill="#1a0808" opacity="0.65">
+    <circle cx="50" cy="60" r="1.4"/>
+    <circle cx="180" cy="50" r="1.4"/>
+    <circle cx="60" cy="160" r="1.4"/>
+    <circle cx="200" cy="170" r="1.4"/>
+    <circle cx="60" cy="270" r="1.4"/>
+    <circle cx="220" cy="280" r="1.4"/>
+  </g>
+
+  <!-- Light drizzle hint (we're near the entrance gap). -->
+  <g stroke="#a8b8c8" stroke-width="0.4" opacity="0.45">
+    <line x1="60" y1="30" x2="58" y2="55"/>
+    <line x1="180" y1="40" x2="178" y2="65"/>
+    <line x1="120" y1="180" x2="118" y2="205"/>
+  </g>
+
+  <!-- HOLOGRAPHIC GLYPH — center frame, where finger touches mortar joint. -->
+  <g id="p18p2-glyph">
+    <!-- Halo glow. -->
+    <ellipse cx="124" cy="200" rx="50" ry="40" fill="url(#p18p2glyph)" filter="url(#p18p2deepBloom)" opacity="0.95"/>
+    <!-- Glyph geometry — hex with cross-axes (waypoint marker). -->
+    <g stroke="#dce4f0" stroke-width="0.95" fill="none" opacity="0.95" filter="url(#p18p2bloom)">
+      <!-- Outer hex. -->
+      <path d="M114,200 L118,193 L130,193 L134,200 L130,207 L118,207 Z"/>
+      <!-- Inner cross. -->
+      <line x1="124" y1="190" x2="124" y2="210"/>
+      <line x1="113" y1="200" x2="135" y2="200"/>
+      <!-- Diagonal. -->
+      <line x1="116" y1="194" x2="132" y2="206"/>
+      <line x1="132" y1="194" x2="116" y2="206"/>
+      <!-- Inner small hex. -->
+      <path d="M120,200 L122,197 L126,197 L128,200 L126,203 L122,203 Z"/>
+    </g>
+    <!-- Bright center. -->
+    <circle cx="124" cy="200" r="2" fill="#ffffff" opacity="0.95" filter="url(#p18p2bloom)"/>
+    <!-- Faint trace lines extending into mortar. -->
+    <g stroke="#a8d8f8" stroke-width="0.4" fill="none" opacity="0.65" filter="url(#p18p2bloom)">
+      <line x1="100" y1="200" x2="113" y2="200"/>
+      <line x1="135" y1="200" x2="148" y2="200"/>
+    </g>
+  </g>
+
+  <!-- SABLE'S HAND — coming from upper-right reaching down to mortar. -->
+  <g id="p18p2-hand">
+    <!-- Forearm in suit. -->
+    <path d="M247,80 L247,180 L165,200 L160,170 L240,100 Z" fill="url(#p18p2silverWarm)" stroke="#080404" stroke-width="0.85"/>
+    <line x1="247" y1="160" x2="165" y2="195" stroke="#dce4f0" stroke-width="0.85" opacity="0.85"/>
+    <!-- Hand. -->
+    <path d="M160,170 L165,200 L140,210 L120,205 L100,195 L100,175 L120,165 L140,162 Z" fill="url(#p18p2silverWarm)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Fingers reaching to glyph. -->
+    <path d="M100,195 L92,205 L96,215 L106,213 L110,200 Z" fill="url(#p18p2silverWarm)" stroke="#080404" stroke-width="0.6"/>
+    <path d="M110,200 L108,213 L116,217 L124,213 L124,200 Z" fill="url(#p18p2silverWarm)" stroke="#080404" stroke-width="0.6"/>
+    <path d="M124,200 L122,213 L130,215 L136,210 L134,198 Z" fill="url(#p18p2silverWarm)" stroke="#080404" stroke-width="0.6"/>
+
+    <!-- Index fingertip touching glyph (lit blue). -->
+    <ellipse cx="124" cy="200" rx="3" ry="2" fill="#dce4f0" opacity="0.95" filter="url(#p18p2bloom)"/>
+
+    <!-- Knuckle highlights. -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p18p2bloom)">
+      <ellipse cx="105" cy="190" rx="3" ry="1.4"/>
+      <ellipse cx="118" cy="188" rx="3" ry="1.4"/>
+      <ellipse cx="130" cy="190" rx="3" ry="1.4"/>
+    </g>
+
+    <!-- Geometric hex on glove back (suit signature). -->
+    <g stroke="#dce4f0" stroke-width="0.5" fill="none" opacity="0.95" filter="url(#p18p2bloom)">
+      <path d="M125,180 L130,177 L135,180 L135,186 L130,189 L125,186 Z"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — SABLE. -->
+  <g id="p18p2-bal-sable">
+    <rect x="14" y="14" width="220" height="60" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Waypoint set. Home base.</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Designation: the Wall.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p18p2-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">2</text>
+    <text x="243" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">FAIRY RUNE</text>
+  </g>
+</svg>

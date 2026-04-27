@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 400" width="487" height="400">
+  <title>Issue 2 — Page 18 — Panel 1: Sable at threshold, evening gaslight + perimeter + amber</title>
+  <desc>MS 50mm eye level. Sable silver stands entrance gap looking out. Through gap Victorian street fairy scale: brick wall section edge cobblestone street far below base gas lamp across way. Evening gaslight lit warm amber filters through gap. Sable silhouetted warm exterior light silver suit catches amber. Blue-white perimeter lines frame gap doorway geometric light. Behind: amber power cell interior warmth. Three layers light cool perimeter warm gaslight warm power cell entrance gap is where they meet. SABLE quiet to herself clockmakers watch repairers instrument shops / SABLE city full of gears.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p18p1dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p18p1brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p18p1joist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p18p1exterior" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a85820"/>
+      <stop offset="50%" stop-color="#5a2818"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <radialGradient id="p18p1gaslightHaze">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#f5b860" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p18p1amberInterior">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p18p1bluePerim">
+      <stop offset="0%" stop-color="#a8d8f8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a4868" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p18p1silverWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89880"/>
+      <stop offset="50%" stop-color="#787060"/>
+      <stop offset="100%" stop-color="#2a2820"/>
+    </linearGradient>
+    <filter id="p18p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p18p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p18p1deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark cavity. -->
+  <rect width="487" height="400" fill="url(#p18p1dark)"/>
+
+  <!-- AMBER INTERIOR from left (off-frame power cell). -->
+  <ellipse cx="0" cy="200" rx="240" ry="280" fill="url(#p18p1amberInterior)" filter="url(#p18p1deepBloom)" opacity="0.65"/>
+
+  <!-- BRICK WALL right side. -->
+  <rect x="280" y="0" width="207" height="400" fill="url(#p18p1brick)"/>
+  <g stroke="#080404" stroke-width="0.7" opacity="0.85">
+    <line x1="280" y1="40" x2="487" y2="40"/>
+    <line x1="280" y1="80" x2="487" y2="80"/>
+    <line x1="280" y1="120" x2="487" y2="120"/>
+    <line x1="280" y1="160" x2="487" y2="160"/>
+    <line x1="280" y1="200" x2="487" y2="200"/>
+    <line x1="280" y1="240" x2="487" y2="240"/>
+    <line x1="280" y1="280" x2="487" y2="280"/>
+    <line x1="280" y1="320" x2="487" y2="320"/>
+    <line x1="280" y1="360" x2="487" y2="360"/>
+    <line x1="320" y1="0" x2="320" y2="40"/>
+    <line x1="380" y1="40" x2="380" y2="80"/>
+    <line x1="320" y1="80" x2="320" y2="120"/>
+    <line x1="380" y1="120" x2="380" y2="160"/>
+    <line x1="320" y1="160" x2="320" y2="200"/>
+    <line x1="380" y1="200" x2="380" y2="240"/>
+    <line x1="320" y1="240" x2="320" y2="280"/>
+    <line x1="380" y1="280" x2="380" y2="320"/>
+    <line x1="320" y1="320" x2="320" y2="360"/>
+    <line x1="380" y1="360" x2="380" y2="400"/>
+  </g>
+
+  <!-- TIMBER JOIST FLOOR foreground. -->
+  <rect x="0" y="360" width="487" height="40" fill="url(#p18p1joist)" stroke="#080404" stroke-width="0.85"/>
+
+  <!-- ENTRANCE GAP center-right with EVENING gaslight beyond. -->
+  <g id="p18p1-gap">
+    <!-- Gap shape. -->
+    <path d="M280,80 L380,75 L385,260 L280,270 Z" fill="url(#p18p1exterior)"/>
+    <!-- Gaslight bloom from outside. -->
+    <ellipse cx="333" cy="160" rx="120" ry="180" fill="url(#p18p1gaslightHaze)" filter="url(#p18p1deepBloom)" opacity="0.85"/>
+
+    <!-- VICTORIAN STREET visible through gap. -->
+    <!-- Brick wall section across the way. -->
+    <rect x="290" y="100" width="60" height="100" fill="#5a3018" opacity="0.85"/>
+    <g stroke="#080404" stroke-width="0.4" opacity="0.85">
+      <line x1="290" y1="120" x2="350" y2="120"/>
+      <line x1="290" y1="140" x2="350" y2="140"/>
+      <line x1="290" y1="160" x2="350" y2="160"/>
+      <line x1="290" y1="180" x2="350" y2="180"/>
+    </g>
+    <!-- Distant gas lamp post. -->
+    <g id="p18p1-lamp">
+      <line x1="365" y1="100" x2="365" y2="240" stroke="#1a1010" stroke-width="2"/>
+      <rect x="361" y="80" width="8" height="20" rx="1" fill="#3a2010" stroke="#080404" stroke-width="0.5"/>
+      <rect x="358" y="68" width="14" height="14" rx="1" fill="#1a1010" stroke="#080404" stroke-width="0.5"/>
+      <ellipse cx="365" cy="80" rx="40" ry="40" fill="#ffe8a0" filter="url(#p18p1deepBloom)" opacity="0.95"/>
+      <ellipse cx="365" cy="80" rx="3" ry="6" fill="#ffffff" filter="url(#p18p1bloom)" opacity="0.95"/>
+    </g>
+    <!-- Distant cobblestone street far below. -->
+    <rect x="280" y="220" width="105" height="50" fill="#3a3e48" opacity="0.55"/>
+    <g stroke="#1a1a20" stroke-width="0.5" opacity="0.85">
+      <line x1="280" y1="230" x2="385" y2="225"/>
+      <line x1="280" y1="240" x2="385" y2="235"/>
+      <line x1="280" y1="250" x2="385" y2="245"/>
+      <line x1="290" y1="220" x2="290" y2="270"/>
+      <line x1="320" y1="222" x2="320" y2="270"/>
+      <line x1="360" y1="222" x2="360" y2="270"/>
+    </g>
+
+    <!-- BLUE-WHITE PERIMETER LINES framing gap. -->
+    <ellipse cx="333" cy="170" rx="80" ry="120" fill="url(#p18p1bluePerim)" filter="url(#p18p1deepBloom)" opacity="0.65"/>
+    <g stroke="#a8d8f8" stroke-width="0.7" fill="none" opacity="0.95" filter="url(#p18p1bloom)">
+      <path d="M280,80 L380,75"/>
+      <path d="M280,270 L385,260"/>
+      <path d="M280,80 L280,270"/>
+      <path d="M380,75 L385,260"/>
+      <path d="M280,160 L385,160"/>
+    </g>
+    <g fill="#dce4f0" opacity="0.95" filter="url(#p18p1bloom)">
+      <circle cx="280" cy="82" r="0.85"/>
+      <circle cx="382" cy="77" r="0.85"/>
+      <circle cx="280" cy="268" r="0.85"/>
+      <circle cx="385" cy="258" r="0.85"/>
+    </g>
+  </g>
+
+  <!-- SABLE silhouetted at threshold (front of gap, profile). -->
+  <g id="p18p1-sable" transform="translate(220, 280)">
+    <!-- Body profile facing right (toward gap). -->
+    <path d="M-12,80 L-15,30 L-12,-5 L-6,-20 L8,-25 L18,-15 L22,5 L18,40 L14,80 Z" fill="url(#p18p1silverWarm)" stroke="#080404" stroke-width="0.85"/>
+    <!-- CRACKED RIGHT SHOULDER (back of profile). -->
+    <path d="M-12,-5 L-22,5 L-22,28 L-15,40" fill="url(#p18p1silverWarm)" stroke="#080404" stroke-width="0.5"/>
+    <g stroke="#a8d8f8" stroke-width="0.5" opacity="0.85" filter="url(#p18p1bloom)">
+      <path d="M-16,4 L-20,18 L-18,32"/>
+    </g>
+    <!-- Silver collar (lit amber). -->
+    <ellipse cx="0" cy="-22" rx="9" ry="2" fill="#dce4f0" opacity="0.85" filter="url(#p18p1bloom)"/>
+    <ellipse cx="6" cy="-22" rx="14" ry="4" fill="#f5b860" opacity="0.65" filter="url(#p18p1strongBloom)"/>
+
+    <!-- Mud streaks. -->
+    <g fill="#3a2818" opacity="0.85">
+      <ellipse cx="-5" cy="20" rx="4" ry="2"/>
+      <ellipse cx="10" cy="50" rx="4" ry="2"/>
+    </g>
+
+    <!-- HEAD profile facing right. -->
+    <ellipse cx="2" cy="-40" rx="14" ry="14" fill="#3a2818"/>
+    <!-- Silver-white buzz catching gaslight. -->
+    <path d="M-10,-50 Q3,-58 16,-50 L16,-38 L-10,-38 Z" fill="#f0e8d8"/>
+    <!-- Edge profile lit warm amber. -->
+    <ellipse cx="13" cy="-44" rx="6" ry="6" fill="#f5b860" opacity="0.65" filter="url(#p18p1strongBloom)"/>
+    <line x1="-10" y1="-38" x2="16" y2="-38" stroke="#3a3a44" stroke-width="0.85" opacity="0.85"/>
+    <g fill="#5a606a" opacity="0.85">
+      <circle cx="-3" cy="-52" r="0.85"/>
+      <circle cx="6" cy="-54" r="0.85"/>
+      <circle cx="13" cy="-50" r="0.85"/>
+    </g>
+    <!-- Eye — looking right (out the gap). -->
+    <ellipse cx="10" cy="-40" rx="2" ry="1.4" fill="#dce4f0"/>
+    <ellipse cx="11" cy="-40" rx="1" ry="1" fill="#1a0808"/>
+    <!-- Catch-light warm. -->
+    <circle cx="13" cy="-41" r="0.7" fill="#ffe8a0" opacity="0.95" filter="url(#p18p1bloom)"/>
+    <!-- Lips. -->
+    <line x1="6" y1="-32" x2="14" y2="-32" stroke="#3a1810" stroke-width="0.85"/>
+    <!-- Brow set thoughtful. -->
+    <path d="M3,-46 L14,-48" stroke="#1a0808" stroke-width="1.4"/>
+  </g>
+
+  <!-- DIALOGUE -->
+  <g id="p18p1-bal-sable1">
+    <rect x="14" y="14" width="240" height="58" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="68" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(quiet, almost to herself)</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Clockmakers. Watch repairers.</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Instrument shops.</text>
+  </g>
+
+  <g id="p18p1-bal-sable2">
+    <rect x="14" y="320" width="200" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="340" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="358" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">A city full of gears.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p18p1-meta">
+    <text x="479" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">1</text>
+    <text x="483" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">THRESHOLD</text>
+  </g>
+</svg>
