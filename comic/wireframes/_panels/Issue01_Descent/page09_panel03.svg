@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 1 — Page 9 — Panel 3: Bird's-eye down building face — pure vertigo</title>
+  <desc>Wide bird's-eye looking straight DOWN Victorian building face from rooftop gutter. Vertical wall of London stock brick drops away — window-ledges horizontal bands w/ stone sills, dark glass, wooden frames, diminishing with perspective. Iron drainpipe brackets. Gaslit street far below. Single human figure walks pavement w/ long shadow in amber gaslight — impossibly far away. Building face: soot-stained brick. Pure vertigo, drop is real. Warm amber gaslight from street illuminates lower face + walking figure. Upper portion near gutter dark. LUMA O.P.: "Sable. The atmospheric markers and stellar position are converging on a date. 1886. Possibly 1887."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p9p3brickWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080404"/>
+      <stop offset="40%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <radialGradient id="p9p3streetGlow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#c87830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p9p3gasGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffd060" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p9p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p9p3softBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.5"/></filter>
+    <filter id="p9p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Building face — VERTICAL wall fills majority of frame, perspective dropping down/away. -->
+  <rect width="366" height="400" fill="url(#p9p3brickWall)"/>
+
+  <!-- Brick courses — perspective dropping/diminishing toward bottom (street). -->
+  <g stroke="#080404" stroke-width="0.6" opacity="0.85">
+    <!-- Top: bricks closer to camera (gutter) — bigger spacing. -->
+    <line x1="0" y1="40" x2="366" y2="40"/>
+    <line x1="0" y1="68" x2="366" y2="68"/>
+    <line x1="0" y1="98" x2="366" y2="98"/>
+    <line x1="0" y1="130" x2="366" y2="130"/>
+    <!-- Middle: tightening as perspective drops. -->
+    <line x1="0" y1="165" x2="366" y2="165"/>
+    <line x1="0" y1="200" x2="366" y2="200"/>
+    <line x1="0" y1="232" x2="366" y2="232"/>
+    <!-- Bottom: bricks visually compressed (further away). -->
+    <line x1="0" y1="260" x2="366" y2="260"/>
+    <line x1="0" y1="282" x2="366" y2="282"/>
+    <line x1="0" y1="298" x2="366" y2="298"/>
+    <line x1="0" y1="312" x2="366" y2="312"/>
+    <line x1="0" y1="324" x2="366" y2="324"/>
+    <line x1="0" y1="334" x2="366" y2="334"/>
+    <line x1="0" y1="343" x2="366" y2="343"/>
+  </g>
+  <!-- Vertical mortar (offset brick pattern, perspective). -->
+  <g stroke="#080404" stroke-width="0.5" opacity="0.7">
+    <!-- Top rows. -->
+    <line x1="40" y1="40" x2="40" y2="68"/>
+    <line x1="120" y1="40" x2="120" y2="68"/>
+    <line x1="200" y1="40" x2="200" y2="68"/>
+    <line x1="280" y1="40" x2="280" y2="68"/>
+    <line x1="80" y1="68" x2="80" y2="98"/>
+    <line x1="160" y1="68" x2="160" y2="98"/>
+    <line x1="240" y1="68" x2="240" y2="98"/>
+    <line x1="320" y1="68" x2="320" y2="98"/>
+    <!-- Middle rows. -->
+    <line x1="40" y1="98" x2="40" y2="130"/>
+    <line x1="120" y1="98" x2="120" y2="130"/>
+    <line x1="200" y1="98" x2="200" y2="130"/>
+    <line x1="280" y1="98" x2="280" y2="130"/>
+    <line x1="80" y1="130" x2="80" y2="165"/>
+    <line x1="160" y1="130" x2="160" y2="165"/>
+    <line x1="240" y1="130" x2="240" y2="165"/>
+    <line x1="320" y1="130" x2="320" y2="165"/>
+  </g>
+
+  <!-- IRON DRAINPIPE BRACKETS running down right side (perspective). -->
+  <g id="p9p3-drainpipe">
+    <rect x="320" y="30" width="6" height="320" fill="#0a0808"/>
+    <line x1="323" y1="30" x2="323" y2="350" stroke="#1a0808" stroke-width="0.6"/>
+    <!-- Brackets at intervals. -->
+    <g fill="#0a0808">
+      <rect x="316" y="80" width="14" height="3"/>
+      <rect x="316" y="170" width="14" height="3"/>
+      <rect x="316" y="240" width="12" height="3"/>
+      <rect x="316" y="290" width="10" height="2.5"/>
+      <rect x="316" y="320" width="8" height="2"/>
+    </g>
+  </g>
+
+  <!-- WINDOW LEDGES — horizontal bands at intervals (3 visible). -->
+  <g id="p9p3-window-ledges">
+    <!-- Top window (closest, biggest). -->
+    <rect x="60" y="80" width="180" height="40" fill="#0a0408" stroke="#080404" stroke-width="1.2"/>
+    <rect x="60" y="80" width="180" height="40" fill="#080a18" opacity="0.85"/>
+    <!-- Window frame divisions. -->
+    <line x1="150" y1="80" x2="150" y2="120" stroke="#080404" stroke-width="0.7"/>
+    <line x1="60" y1="100" x2="240" y2="100" stroke="#080404" stroke-width="0.7"/>
+    <!-- Stone sill below. -->
+    <rect x="55" y="120" width="190" height="5" fill="#5a4838"/>
+    <line x1="55" y1="120" x2="245" y2="120" stroke="#3a2818" stroke-width="0.6"/>
+
+    <!-- Mid window. -->
+    <rect x="80" y="180" width="160" height="32" fill="#0a0408" stroke="#080404" stroke-width="1"/>
+    <rect x="80" y="180" width="160" height="32" fill="#080a18" opacity="0.85"/>
+    <line x1="160" y1="180" x2="160" y2="212" stroke="#080404" stroke-width="0.6"/>
+    <line x1="80" y1="196" x2="240" y2="196" stroke="#080404" stroke-width="0.6"/>
+    <rect x="76" y="212" width="168" height="4" fill="#5a4838"/>
+
+    <!-- Distant window (small, far below). -->
+    <rect x="100" y="260" width="120" height="20" fill="#0a0408" stroke="#080404" stroke-width="0.8"/>
+    <rect x="100" y="260" width="120" height="20" fill="#080a18" opacity="0.85"/>
+    <line x1="160" y1="260" x2="160" y2="280" stroke="#080404" stroke-width="0.5"/>
+    <rect x="98" y="280" width="124" height="3" fill="#5a4838"/>
+  </g>
+
+  <!-- Soot streaks on brick face (vertical streaks down from window sills). -->
+  <g fill="#080404" opacity="0.55">
+    <path d="M75,125 Q73,200 71,290"/>
+    <path d="M150,125 Q148,200 146,290"/>
+    <path d="M225,125 Q223,200 221,290"/>
+  </g>
+
+  <!-- AMBER GASLIGHT POOL on street far below (warm uplighting source). -->
+  <ellipse cx="183" cy="380" rx="280" ry="60" fill="url(#p9p3streetGlow)" filter="url(#p9p3strongBloom)"/>
+
+  <!-- Cobblestone street visible at very bottom. -->
+  <rect y="340" width="366" height="60" fill="#1a0e08"/>
+  <!-- Street texture. -->
+  <g stroke="#0a0808" stroke-width="0.4" opacity="0.7" fill="none">
+    <line x1="0" y1="350" x2="366" y2="350"/>
+    <line x1="0" y1="365" x2="366" y2="365"/>
+    <line x1="0" y1="380" x2="366" y2="380"/>
+  </g>
+
+  <!-- Gas lamp on street with bright glow. -->
+  <g id="p9p3-gas-lamp" transform="translate(120, 360)">
+    <rect x="-1" y="-30" width="2" height="30" fill="#080404"/>
+    <ellipse cx="0" cy="-30" rx="3" ry="2" fill="#080404"/>
+    <ellipse cx="0" cy="-30" rx="2" ry="1.5" fill="#fff5d0" filter="url(#p9p3softBloom)"/>
+    <ellipse cx="0" cy="-26" rx="40" ry="14" fill="url(#p9p3gasGlow)" filter="url(#p9p3strongBloom)" opacity="0.85"/>
+  </g>
+
+  <!-- HUMAN FIGURE walking pavement far below — normal-sized but impossibly far away. -->
+  <g id="p9p3-human" transform="translate(220, 380)">
+    <!-- Top hat. -->
+    <rect x="-3" y="-22" width="6" height="5" fill="#080404"/>
+    <rect x="-4" y="-17" width="8" height="1.5" fill="#080404"/>
+    <!-- Body. -->
+    <ellipse cx="0" cy="-12" rx="3" ry="4" fill="#080404"/>
+    <!-- Coat. -->
+    <path d="M-3,-10 L-4,-2 L-2,2 L2,2 L4,-2 L3,-10 Z" fill="#080404"/>
+    <!-- Legs walking. -->
+    <line x1="-1" y1="2" x2="-2" y2="10" stroke="#080404" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="1" y1="2" x2="3" y2="10" stroke="#080404" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Walking stick. -->
+    <line x1="3" y1="-5" x2="6" y2="9" stroke="#080404" stroke-width="0.8"/>
+    <!-- LONG SHADOW cast in gaslight (script: "casting a long shadow"). -->
+    <path d="M-2,10 L8,11 L12,12 L-2,12 Z" fill="#080404" opacity="0.7"/>
+  </g>
+
+  <!-- Gutter edge lip at top of frame (where Sable+squad are looking down from). -->
+  <g id="p9p3-gutter-top">
+    <rect width="366" height="20" fill="#0a0408"/>
+    <line x1="0" y1="20" x2="366" y2="20" stroke="#1a0808" stroke-width="2"/>
+    <!-- Rivets in gutter. -->
+    <g fill="#1a0808">
+      <circle cx="40" cy="10" r="1.4"/>
+      <circle cx="120" cy="10" r="1.4"/>
+      <circle cx="200" cy="10" r="1.4"/>
+      <circle cx="280" cy="10" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- LUMA O.P. balloon (bottom-left, dashed border). -->
+  <g id="p9p3-dlg-luma-op">
+    <rect x="14" y="36" width="240" height="62" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="56" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA (O.P.)</text>
+    <text x="24" y="74" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Atmospheric markers + stellar</text>
+    <text x="24" y="90" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">— 1886. Possibly 1887.</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p9p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">VERTIGO — STRAIGHT DOWN</text>
+  </g>
+</svg>

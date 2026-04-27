@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 380" width="244" height="380">
+  <title>Issue 1 — Page 9 — Panel 4: Jink wonder where fear should be</title>
+  <desc>CU slight low angle (85mm). Jink sits among gutter debris turned toward city beyond gutter edge. Young, late teens/early twenties, androgynous, light brown skin, wild golden curls catching faint blue-white wreckage light. Emerald suit scuffed. Eyes WIDE — not w/ fear but w/ brighter hungrier complicated thing. Slightly parted lips, beginning of grin. Looking at city w/ fascination already thinking flying. Warm amber city-glow reflects in wide eyes as 2 tiny amber points in green-gold irises. Cool blue-white from wreckage behind catches suit + curls. JINK quiet to themselves: "Look at it."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p9p4bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1828"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="p9p4wreckGlow" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p9p4cityGlow" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p9p4emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a5a30"/>
+    </linearGradient>
+    <linearGradient id="p9p4skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87850"/>
+      <stop offset="100%" stop-color="#d8b890"/>
+    </linearGradient>
+    <filter id="p9p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p9p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Background — split warm-right (city) cool-left (wreckage). -->
+  <rect width="244" height="380" fill="url(#p9p4bg)"/>
+
+  <!-- Cool wreckage glow back-left. -->
+  <ellipse cx="0" cy="200" rx="150" ry="200" fill="url(#p9p4wreckGlow)" filter="url(#p9p4strongBloom)"/>
+
+  <!-- Warm city-glow front-right. -->
+  <ellipse cx="244" cy="200" rx="150" ry="200" fill="url(#p9p4cityGlow)" filter="url(#p9p4strongBloom)"/>
+
+  <!-- Faint gutter wall back. -->
+  <path d="M0,80 Q122,60 244,80 L244,300 L0,300 Z" fill="#1a0e08" opacity="0.55"/>
+  <line x1="0" y1="120" x2="244" y2="100" stroke="#080404" stroke-width="0.6" opacity="0.6"/>
+  <g fill="#080404" opacity="0.7">
+    <circle cx="40" cy="125" r="1.5"/>
+    <circle cx="200" cy="125" r="1.5"/>
+  </g>
+  <!-- Gutter floor. -->
+  <rect y="300" width="244" height="80" fill="#180a08"/>
+  <line x1="0" y1="300" x2="244" y2="300" stroke="#080404" stroke-width="0.7"/>
+  <!-- Coal sediment. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="30" cy="330" r="1.4"/>
+    <circle cx="100" cy="345" r="1.5"/>
+    <circle cx="200" cy="335" r="1.4"/>
+  </g>
+
+  <!-- JINK CU centered, head turned toward right (toward city). -->
+  <g id="p9p4-jink" transform="translate(122, 230)">
+
+    <!-- Body in emerald, sitting w/ legs out (fragment visible). -->
+    <path d="M-22,80 Q-26,30 -22,-15 L-12,-25 L18,-25 Q22,-15 22,80 Z" fill="url(#p9p4emerald)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Cool wreckage wash on left side of body. -->
+    <path d="M-22,80 Q-26,30 -22,-15 L0,-15 L0,80 Z" fill="#7ac8ff" opacity="0.18"/>
+    <!-- Warm city wash on right side of body. -->
+    <path d="M0,-15 L22,-15 Q26,30 22,80 L0,80 Z" fill="#f5b860" opacity="0.15"/>
+    <!-- Shoulder pads scuffed. -->
+    <ellipse cx="-20" cy="-12" rx="7" ry="4" fill="#2ed078" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="20" cy="-12" rx="7" ry="4" fill="#2ed078" stroke="#080408" stroke-width="0.5"/>
+    <!-- Scuff marks. -->
+    <path d="M-12,5 Q-8,3 -4,7" stroke="#080408" stroke-width="0.6" fill="none"/>
+    <path d="M5,18 Q9,16 13,20" stroke="#080408" stroke-width="0.5" fill="none"/>
+    <!-- Faint emerald accent nodes. -->
+    <ellipse cx="-20" cy="-13" rx="3.5" ry="1.5" fill="#5af5a0" opacity="0.65"/>
+    <ellipse cx="20" cy="-13" rx="3.5" ry="1.5" fill="#5af5a0" opacity="0.65"/>
+
+    <!-- Hand braced behind body (sitting up). -->
+    <path d="M22,-5 L34,8 L42,18" fill="none" stroke="#2ed078" stroke-width="4.5" stroke-linecap="round"/>
+    <ellipse cx="42" cy="18" rx="3" ry="2.5" fill="#f0d088"/>
+    <!-- Other hand at side. -->
+    <path d="M-22,-5 L-30,12 L-32,28" fill="none" stroke="#2ed078" stroke-width="4.5" stroke-linecap="round"/>
+
+    <!-- HEAD TURNED RIGHT toward city. -->
+    <ellipse cx="6" cy="-44" rx="14" ry="15" fill="url(#p9p4skin)"/>
+
+    <!-- Wild golden curls. -->
+    <g fill="#f5d068">
+      <ellipse cx="0" cy="-58" rx="11" ry="8"/>
+      <ellipse cx="-7" cy="-54" rx="8" ry="6"/>
+      <ellipse cx="13" cy="-54" rx="8" ry="6"/>
+      <ellipse cx="-3" cy="-65" rx="6" ry="4.5"/>
+      <ellipse cx="9" cy="-65" rx="6" ry="4.5"/>
+      <ellipse cx="-12" cy="-58" rx="5" ry="4"/>
+      <ellipse cx="18" cy="-58" rx="5" ry="4"/>
+    </g>
+    <!-- Curl shadow. -->
+    <g fill="#a87038" opacity="0.6">
+      <circle cx="-3" cy="-60" r="0.6"/>
+      <circle cx="6" cy="-61" r="0.6"/>
+    </g>
+    <!-- Cool wreckage catch on curls (left side). -->
+    <g fill="#dceaff" opacity="0.55">
+      <circle cx="-9" cy="-57" r="0.6"/>
+      <circle cx="-12" cy="-55" r="0.5"/>
+    </g>
+    <!-- Warm catch on curls (right side). -->
+    <g fill="#fff5d0" opacity="0.85">
+      <circle cx="14" cy="-58" r="0.6"/>
+      <circle cx="18" cy="-55" r="0.5"/>
+    </g>
+
+    <!-- FACE: looking right toward city, wide eyes, parted lips. -->
+    <!-- Eyes WIDE (extra-large for the wonder). -->
+    <ellipse cx="-1" cy="-44" rx="4" ry="5" fill="#f5e8d0"/>
+    <ellipse cx="11" cy="-44" rx="4" ry="5" fill="#f5e8d0"/>
+    <!-- Iris (green-gold per script). -->
+    <ellipse cx="0" cy="-44" rx="3" ry="3.5" fill="#5a7038"/>
+    <ellipse cx="12" cy="-44" rx="3" ry="3.5" fill="#5a7038"/>
+    <!-- Pupil. -->
+    <ellipse cx="0" cy="-44" rx="1.5" ry="1.7" fill="#080404"/>
+    <ellipse cx="12" cy="-44" rx="1.5" ry="1.7" fill="#080404"/>
+    <!-- AMBER POINTS reflected in irises (script-critical: "tiny amber points in green-gold"). -->
+    <circle cx="2" cy="-44.5" r="0.9" fill="#ffd060"/>
+    <circle cx="14" cy="-44.5" r="0.9" fill="#ffd060"/>
+    <!-- Cool catch (smaller, secondary). -->
+    <circle cx="-2" cy="-43" r="0.4" fill="#dceaff"/>
+    <circle cx="10" cy="-43" r="0.4" fill="#dceaff"/>
+    <!-- Brow (slightly raised — wonder, not fear). -->
+    <path d="M-6,-52 Q0,-54 4,-52" stroke="#3a1808" stroke-width="1" fill="none"/>
+    <path d="M6,-52 Q12,-54 16,-52" stroke="#3a1808" stroke-width="1" fill="none"/>
+    <!-- Lips slightly parted, beginning-of-grin (script: "beginning of a grin"). -->
+    <path d="M-2,-30 Q5,-26 12,-30" fill="none" stroke="#5a2818" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="0" y1="-29" x2="11" y2="-29" stroke="#3a1808" stroke-width="0.5" opacity="0.65"/>
+    <!-- Cheekbones w/ amber catch (warm dominates as he faces city). -->
+    <ellipse cx="-3" cy="-37" rx="3" ry="1.7" fill="#a87850" opacity="0.55"/>
+    <ellipse cx="13" cy="-37" rx="3" ry="1.7" fill="#f5b860" opacity="0.5"/>
+    <!-- Nose. -->
+    <path d="M5,-40 L3,-34 L7,-34 Z" fill="#5a3018" opacity="0.4"/>
+  </g>
+
+  <!-- JINK quiet balloon — small, intimate, almost-to-themselves. -->
+  <g id="p9p4-dlg-jink">
+    <rect x="14" y="14" width="170" height="46" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" font-style="italic" fill="#1a1a1a">Look at it.</text>
+    <path d="M120,60 L138,60 L142,140 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="60" x2="138" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p9p4-meta">
+    <text x="236" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="240" y="372" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">JINK WONDER</text>
+  </g>
+</svg>

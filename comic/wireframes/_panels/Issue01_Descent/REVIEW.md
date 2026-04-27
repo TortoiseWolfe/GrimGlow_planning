@@ -2,15 +2,15 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 21 added, SABLE ALONE).
+**Last update:** 2026-04-27 (loop session extended — Page 9 added, middle continuity begins).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–8 + 12 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 47 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
+**Pages 1–9 + 12 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 52 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
 
-**Climax arc COMPLETE** — Pages 18, 19, 20, 21, 22 all at quality bar. Only middle continuity (Pages 9-11, 13-17) remains as auto-generated stick-figure storyboards.
+**Pages 9 + climax arc COMPLETE** — Page 9 ("THE SCALE REVEAL") + Pages 18-22 all at quality bar. Pages 10-11, 13-17 remain as middle continuity gaps — 9 pages remaining.
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -30,7 +30,9 @@
 
 **Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px.
 
-**Pages 9-11, 13-17 of Issue 1 remain auto-generated stick-figure storyboards.** (10 pages remaining of 22 = 12/22 painterly + 10/22 storyboard.)
+**Page 9 (THE SCALE REVEAL — opening Section 3 build)** — 5 panels, 1179px (banner / 2-col / narrow-left+wide-right).
+
+**Pages 10-11, 13-17 of Issue 1 remain auto-generated stick-figure storyboards.** (9 pages remaining of 22 = 13/22 painterly + 9/22 storyboard.)
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -234,6 +236,70 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 9 — DONE (middle continuity opens — THE SCALE REVEAL)
+
+5 panels in 3 tiers (banner / 2-col / narrow-left+wide-right) summing to 1179px page-fill. The scale-selling sequence Sable crossing from gutter contained-survivable to vast-impossible-world.
+
+### P09P01 — THE SCALE REVEAL banner (742×320)
+- ✅ Sky w/ stars + factory smoke
+- ✅ Far horizon city silhouette w/ St. Paul's dome center, factory stacks, church spires + amber haze
+- ✅ Mid-ground rooftops + chimney pots + lit windows
+- ✅ Street far below visible w/ amber gas pools + gas lamp pinpricks
+- ✅ Vertical brick wall edges (perspective drop on both sides)
+- ✅ LEAD FLASHING EDGE enormous in foreground w/ rivets ("huge at fairy scale" per script) + soot streaks + GREEN OXIDATION patches (script-specific detail)
+- ✅ TINY Sable silver figure at left edge standing on lip with cool wreckage halo behind — barely-visible scale-selling
+- ✅ Small SABLE balloon italic "...God."
+
+### P09P02 — Sable at gutter edge dutch 7° (366×400)
+- ✅ World tilted 7° dutch (visible — horizon line angled, lead flashing edge tilted)
+- ✅ Sable in profile standing at edge, silver suit + cracked shoulder bleeding blue-white
+- ✅ Wind in hair (strands lifted to right, away from face)
+- ✅ Right arm slightly raised (steadying gesture)
+- ✅ Boots at very edge of lead flashing
+- ✅ Vast amber city below dominates frame
+- ✅ Cool wreckage glow behind on left with hull fragments
+- ✅ Brick wall drop visible on right
+- ✅ SABLE balloon "Chronological fix?" + LUMA O.P. dashed "Working on it. Coal-heavy industrial — late 1800s. Earth."
+
+### P09P03 — Vertigo down building face (366×400)
+- ✅ Vertical brick wall fills frame (the building face dropping away)
+- ✅ Brick courses + offset mortar pattern w/ perspective tightening downward
+- ✅ Three window-ledge bands at intervals (top large + mid + distant smaller — diminishing perspective)
+- ✅ Stone sills below each window
+- ✅ Iron drainpipe with brackets running down right side
+- ✅ Soot streaks vertical down brick face from sills
+- ✅ Gas lamp at street bottom w/ bright amber pool + glow halo
+- ✅ Tiny human figure walking pavement — top hat + body + walking stick + LONG SHADOW cast in gaslight (script-specific detail)
+- ✅ Cobblestone street texture
+- ✅ Gutter edge lip at top of frame
+- ✅ LUMA O.P. dashed-border balloon w/ bold "1886. Possibly 1887."
+
+### P09P04 — Jink wonder where fear should be (244×380)
+- ✅ Background split warm-right (city) cool-left (wreckage) — dual-light wash visible
+- ✅ Jink centered, emerald scuffed suit + scuff marks
+- ✅ Wild golden curls w/ cool-left + warm-right catch-light
+- ✅ Eyes WIDE w/ green-gold irises + AMBER POINTS reflected (script-critical: "tiny amber points in green-gold")
+- ✅ Brow slightly raised (wonder, not fear)
+- ✅ Lips slightly parted, beginning-of-grin (right-corner lifted)
+- ✅ Cheekbones w/ amber catch on right side (city-facing)
+- ✅ Italic JINK balloon "Look at it." (the quiet to-themselves moment)
+
+### P09P05 — Luma walks gutter, scientific fascination (488×380)
+- ✅ Gutter interior w/ curved walls + rivets
+- ✅ Cool wreckage glow far-LEFT (fading per script) + warm city-glow far-RIGHT (growing per script) — "transition is happening"
+- ✅ HUGE TWIG laid across foreground like fallen log w/ MOSS patches (green) + bark texture
+- ✅ Coal-soot sediment visible as dark sand grains across floor (script-specific "visible individually")
+- ✅ DEAD LEAF curling against right wall like collapsed tent (oak shape with lobed edges + ridged veins like tree bark)
+- ✅ Luma centered walking, sapphire suit
+- ✅ Left arm trailing along gutter wall w/ faint touch smudge
+- ✅ Right arm hanging w/ scanner FORGOTTEN dangling
+- ✅ Single thick braid trailing back w/ luminous filament accents
+- ✅ One cracked holographic lens at left eye w/ prismatic flare
+- ✅ Brow raised + parted lips (fascination)
+- ✅ Three balloons: LUMA monologue ("metallurgy... oxidation--") + SABLE O.P. dry "Luma." + LUMA italic "Sorry. Right. Injuries first."
 
 ---
 

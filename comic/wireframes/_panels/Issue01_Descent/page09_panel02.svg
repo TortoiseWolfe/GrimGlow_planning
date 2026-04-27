@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 1 — Page 9 — Panel 2: Sable at gutter edge, dutch 7° — controlled shock</title>
+  <desc>Side view eye level w/ 7° dutch angle. Sable stands at outer lip where lead flashing meets sheer drop. Boots at very edge. Wind catches hair. Damaged silver suit cracked right shoulder bleeds blue-white. One hand slightly raised steadying. Looking down+outward at vast Victorian city — warm amber gaslight + fog to horizon. Behind her: gutter w/ alien wreckage. Dutch tilts world wrong. Warm uplighting from city below + cool from wreckage behind. Warm dominates — city claims frame. SABLE: "Luma. Do you have a chronological fix?" LUMA O.P.: "Working on it. The atmospheric particulate is consistent with coal-heavy industrial... late 1800s. Earth. Northern hemisphere."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p9p2sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="p9p2cityHaze" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#c87830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p9p2silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bfc6d0"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p9p2iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="p9p2wreckGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p9p2fractureGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p9p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p9p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- All content tilted 7° clockwise (dutch angle) — this is the unease. -->
+  <g transform="rotate(7 183 200)">
+    <!-- Sky background. -->
+    <rect x="-50" y="-50" width="466" height="500" fill="url(#p9p2sky)"/>
+
+    <!-- Sparse stars. -->
+    <g fill="#dce4f0" opacity="0.7">
+      <circle cx="50" cy="20" r="0.7"/>
+      <circle cx="150" cy="15" r="0.5"/>
+      <circle cx="250" cy="22" r="0.7"/>
+      <circle cx="320" cy="18" r="0.6"/>
+    </g>
+
+    <!-- Strong amber city haze rising — warm dominates. -->
+    <rect y="180" width="466" height="280" fill="url(#p9p2cityHaze)" opacity="0.85"/>
+    <ellipse cx="183" cy="380" rx="280" ry="100" fill="url(#p9p2cityHaze)" filter="url(#p9p2strongBloom)"/>
+
+    <!-- Distant city silhouette horizon. -->
+    <g id="p9p2-far-city">
+      <path d="M0,180 L40,176 L80,180 L120,172 L160,180 L200,170 L240,180 L280,168 L320,178 L360,170 L416,178 L416,210 L0,210 Z" fill="#1a1820" opacity="0.85"/>
+      <polygon points="80,158 86,180 74,180" fill="#1a1820"/>
+      <polygon points="200,154 208,180 192,180" fill="#1a1820"/>
+      <polygon points="320,156 326,178 314,178" fill="#1a1820"/>
+      <rect x="148" y="148" width="5" height="32" fill="#0a0808"/>
+      <ellipse cx="170" cy="138" rx="34" ry="9" fill="#3a2818" opacity="0.5"/>
+    </g>
+
+    <!-- Mid roofs + chimneys + lit windows. -->
+    <g id="p9p2-mid-roofs">
+      <path d="M0,210 L60,206 L120,212 L180,204 L240,212 L300,206 L360,212 L416,210 L416,250 L0,250 Z" fill="#0a0808"/>
+      <g fill="#3a1810">
+        <rect x="50" y="194" width="5" height="16"/>
+        <rect x="160" y="192" width="5" height="18"/>
+        <rect x="280" y="194" width="5" height="16"/>
+      </g>
+      <ellipse cx="100" cy="232" rx="6" ry="3" fill="#fff5d8" filter="url(#p9p2bloom)" opacity="0.85"/>
+      <rect x="97" y="230" width="6" height="5" fill="#fff5d8" opacity="0.9"/>
+      <ellipse cx="280" cy="232" rx="5" ry="3" fill="#fff5d8" filter="url(#p9p2bloom)" opacity="0.7"/>
+      <rect x="277" y="230" width="6" height="5" fill="#fff5d8" opacity="0.85"/>
+    </g>
+
+    <!-- Distant streets w/ amber pools. -->
+    <ellipse cx="80" cy="262" rx="50" ry="6" fill="url(#p9p2cityHaze)" filter="url(#p9p2bloom)" opacity="0.85"/>
+    <ellipse cx="240" cy="265" rx="55" ry="7" fill="url(#p9p2cityHaze)" filter="url(#p9p2bloom)" opacity="0.95"/>
+    <g fill="#ffd060" filter="url(#p9p2bloom)" opacity="0.85">
+      <circle cx="60" cy="262" r="0.9"/>
+      <circle cx="100" cy="263" r="0.9"/>
+      <circle cx="220" cy="264" r="1.0"/>
+      <circle cx="260" cy="266" r="1.0"/>
+    </g>
+
+    <!-- Drop wall (vertical brick on right side — script: drop is to the right). -->
+    <path d="M260,290 L416,290 L416,460 L260,460 Z" fill="url(#p9p2iron)"/>
+    <g stroke="#080404" stroke-width="0.4" opacity="0.7">
+      <line x1="265" y1="305" x2="412" y2="305"/>
+      <line x1="265" y1="320" x2="412" y2="320"/>
+      <line x1="265" y1="335" x2="412" y2="335"/>
+      <line x1="265" y1="350" x2="412" y2="350"/>
+      <line x1="265" y1="365" x2="412" y2="365"/>
+    </g>
+
+    <!-- Lead flashing edge (where Sable stands — horizontal across foreground). -->
+    <rect x="-50" y="280" width="320" height="20" fill="#5a606a"/>
+    <line x1="-50" y1="280" x2="270" y2="280" stroke="#080404" stroke-width="1.2"/>
+    <line x1="-50" y1="300" x2="260" y2="300" stroke="#080404" stroke-width="1"/>
+    <g fill="#0a0810" opacity="0.85">
+      <circle cx="40" cy="290" r="1.6"/>
+      <circle cx="100" cy="290" r="1.6"/>
+      <circle cx="180" cy="290" r="1.6"/>
+      <circle cx="240" cy="290" r="1.6"/>
+    </g>
+    <g fill="#4a8048" opacity="0.5">
+      <ellipse cx="80" cy="295" rx="10" ry="2"/>
+      <ellipse cx="200" cy="295" rx="12" ry="2"/>
+    </g>
+
+    <!-- Gutter behind Sable w/ wreckage glow (stretching back into frame from left). -->
+    <rect x="-50" y="320" width="220" height="80" fill="url(#p9p2iron)" opacity="0.75"/>
+    <ellipse cx="60" cy="360" rx="80" ry="30" fill="url(#p9p2wreckGlow)" filter="url(#p9p2strongBloom)"/>
+    <g fill="#1a1a24" stroke="#bfe4ff" stroke-width="0.5">
+      <polygon points="40,355 60,348 70,365 50,372"/>
+      <polygon points="100,360 120,352 130,370 110,378"/>
+    </g>
+    <g fill="#ffffff" filter="url(#p9p2bloom)">
+      <circle cx="55" cy="358" r="1.2"/>
+      <circle cx="115" cy="362" r="1.2"/>
+    </g>
+
+    <!-- SABLE — side view standing at gutter edge, boots at very edge. -->
+    <g id="p9p2-sable" transform="translate(220, 230)">
+      <!-- Body in profile (silver suit). -->
+      <path d="M-12,55 Q-15,15 -10,-12 L-2,-22 L12,-22 Q15,-12 15,15 Q15,40 12,55 Z" fill="url(#p9p2silver)" stroke="#3a3848" stroke-width="0.6"/>
+      <!-- Cracked right shoulder visible from this side. -->
+      <ellipse cx="12" cy="-10" rx="6" ry="4" fill="#9ba1aa" stroke="#080408" stroke-width="0.4"/>
+      <line x1="6" y1="-12" x2="18" y2="-9" stroke="#7ac8ff" stroke-width="1.2" filter="url(#p9p2bloom)" opacity="0.95"/>
+      <ellipse cx="12" cy="-9" rx="14" ry="8" fill="url(#p9p2fractureGlow)" filter="url(#p9p2strongBloom)" opacity="0.55"/>
+
+      <!-- Left arm down at side. -->
+      <path d="M-10,-5 L-13,15 L-12,35" fill="none" stroke="url(#p9p2silver)" stroke-width="4.5" stroke-linecap="round"/>
+
+      <!-- RIGHT arm slightly RAISED (steadying gesture per script). -->
+      <path d="M14,-2 L24,2 L30,-5" fill="none" stroke="url(#p9p2silver)" stroke-width="4.5" stroke-linecap="round"/>
+      <ellipse cx="30" cy="-5" rx="3" ry="2.5" fill="#5a3018"/>
+
+      <!-- Legs, boots at the very edge. -->
+      <path d="M-8,55 L-10,80 L-10,98" fill="none" stroke="#5a606a" stroke-width="6" stroke-linecap="round"/>
+      <path d="M8,55 L10,80 L12,98" fill="none" stroke="#5a606a" stroke-width="6" stroke-linecap="round"/>
+      <ellipse cx="-10" cy="98" rx="5" ry="2.5" fill="#1a0808"/>
+      <ellipse cx="12" cy="98" rx="5" ry="2.5" fill="#1a0808"/>
+
+      <!-- Head — profile turned right + slightly down (looking down+outward). -->
+      <ellipse cx="3" cy="-30" rx="11" ry="12" fill="#5a3018"/>
+      <!-- Buzz cap silver-white. -->
+      <path d="M-6,-37 Q-1,-42 5,-42 Q11,-42 13,-37 L13,-30 L-6,-30 Z" fill="#e8eaee"/>
+      <!-- WIND IN HAIR — strands lifted (script-specific). -->
+      <path d="M13,-37 Q18,-38 21,-34" fill="none" stroke="#e8eaee" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M11,-40 Q16,-42 19,-40" fill="none" stroke="#e8eaee" stroke-width="1.2" stroke-linecap="round"/>
+      <!-- Soot dust. -->
+      <g fill="#3a2818" opacity="0.55">
+        <circle cx="0" cy="-40" r="0.8"/>
+        <circle cx="6" cy="-41" r="0.7"/>
+      </g>
+      <!-- Profile face. -->
+      <ellipse cx="2" cy="-30" rx="1.3" ry="0.9" fill="#1a0808"/>
+      <!-- Eye looking down/outward. -->
+      <circle cx="1" cy="-30.5" r="0.5" fill="#fff5d0"/>
+      <!-- Brow set (controlled shock). -->
+      <path d="M-2,-35 Q2,-36 6,-35" stroke="#3a1808" stroke-width="0.8" fill="none"/>
+      <!-- Profile nose. -->
+      <path d="M5,-28 L8,-22 L5,-22 Z" fill="#3a1808" opacity="0.6"/>
+      <!-- Lips slightly parted. -->
+      <line x1="2" y1="-19" x2="6" y2="-19" stroke="#3a1808" stroke-width="0.9"/>
+      <line x1="2" y1="-17" x2="6" y2="-17" stroke="#3a1808" stroke-width="0.7" opacity="0.65"/>
+      <!-- Cheekbone w/ warm catch from city below (uplighting). -->
+      <ellipse cx="6" cy="-25" rx="2.5" ry="1.5" fill="#a87850" opacity="0.6"/>
+      <ellipse cx="7" cy="-24" rx="2" ry="1" fill="#f5b860" opacity="0.55"/>
+      <!-- Cool fracture catch on back of head. -->
+      <ellipse cx="-3" cy="-32" rx="2" ry="1.5" fill="#dceaff" opacity="0.45"/>
+    </g>
+  </g>
+
+  <!-- Dialogue (NOT rotated — stays inside viewBox). -->
+  <g id="p9p2-dlg-sable">
+    <rect x="14" y="14" width="180" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Chronological fix?</text>
+    <path d="M120,60 L138,60 L150,90 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="60" x2="138" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- LUMA off-panel response. -->
+  <g id="p9p2-dlg-luma-op">
+    <rect x="14" y="320" width="338" height="64" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="340" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA (O.P.)</text>
+    <text x="24" y="358" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Working on it. Coal-heavy</text>
+    <text x="24" y="374" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">industrial — late 1800s. Earth.</text>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p9p2-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SABLE AT EDGE — DUTCH</text>
+  </g>
+</svg>

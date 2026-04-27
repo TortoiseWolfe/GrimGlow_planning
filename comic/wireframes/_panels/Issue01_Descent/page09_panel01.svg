@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 1 — Page 9 — Panel 1: THE SCALE REVEAL — tiny Sable vs vast Victorian city</title>
+  <desc>Ultra-wide worm's-eye at 14mm from outer lip of rooftop gutter. Foreground: riveted lead flashing edge w/ soot + green oxidation, enormous at fairy scale. Drop: vertical brick wall to fog + gaslight. Street far below w/ amber pinpricks. Vast Victorian city to horizon — slate roofs, chimney forests, church spires, factory stacks, amber haze. Tiny Sable silver figure left edge looking out. SABLE small text near tiny figure: "...God."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+    <linearGradient id="p9p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p9p1cityHaze" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c87830" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="p9p1iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p9p1lead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a3038"/>
+    </linearGradient>
+    <radialGradient id="p9p1streetGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p9p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p9p1softBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.5"/></filter>
+    <filter id="p9p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky background top. -->
+  <rect width="742" height="320" fill="url(#p9p1sky)"/>
+
+  <!-- Sparse stars. -->
+  <g fill="#dce4f0" opacity="0.75">
+    <circle cx="80" cy="22" r="0.7"/>
+    <circle cx="200" cy="32" r="0.5"/>
+    <circle cx="350" cy="22" r="0.7"/>
+    <circle cx="500" cy="38" r="0.6"/>
+    <circle cx="620" cy="22" r="0.7"/>
+  </g>
+
+  <!-- Distant city haze rising from horizon. -->
+  <rect y="100" width="742" height="100" fill="url(#p9p1cityHaze)"/>
+
+  <!-- Far city silhouette: spires, factory stacks, distant roofs. -->
+  <g id="p9p1-far-city">
+    <path d="M0,180 L40,176 L60,182 L90,172 L130,180 L160,170 L200,180 L240,168 L280,178 L320,164 L360,178 L400,164 L440,178 L480,166 L520,180 L560,168 L600,180 L640,168 L680,180 L720,170 L742,178 L742,200 L0,200 Z" fill="#1a1820" opacity="0.85"/>
+    <!-- Spires + stacks. -->
+    <polygon points="118,160 124,180 112,180" fill="#1a1820"/>
+    <polygon points="278,154 284,178 272,178" fill="#1a1820"/>
+    <polygon points="438,158 444,178 432,178" fill="#1a1820"/>
+    <polygon points="598,154 604,180 592,180" fill="#1a1820"/>
+    <rect x="218" y="138" width="5" height="42" fill="#0a0808"/>
+    <rect x="538" y="135" width="5" height="45" fill="#0a0808"/>
+    <ellipse cx="240" cy="125" rx="38" ry="10" fill="#3a2818" opacity="0.5"/>
+    <ellipse cx="560" cy="120" rx="42" ry="12" fill="#3a2818" opacity="0.5"/>
+
+    <!-- St. Paul's dome silhouette centered. -->
+    <g transform="translate(420, 180)">
+      <path d="M-22,0 Q-22,-22 0,-30 Q22,-22 22,0 Z" fill="#1a1820"/>
+      <rect x="-2" y="-38" width="4" height="8" fill="#1a1820"/>
+      <ellipse cx="0" cy="-32" rx="4" ry="2" fill="#1a1820"/>
+    </g>
+  </g>
+
+  <!-- Mid-ground roofs going down toward street. -->
+  <g id="p9p1-mid-roofs">
+    <path d="M0,200 L30,196 L60,202 L90,194 L130,202 L160,194 L200,202 L240,194 L280,200 L320,194 L360,202 L400,194 L440,202 L480,194 L520,202 L560,194 L600,200 L640,194 L680,200 L720,194 L742,200 L742,235 L0,235 Z" fill="#0a0808"/>
+    <!-- Chimney pots. -->
+    <g fill="#3a1810">
+      <rect x="48" y="180" width="5" height="20"/>
+      <rect x="148" y="180" width="5" height="20"/>
+      <rect x="358" y="180" width="5" height="20"/>
+      <rect x="498" y="180" width="5" height="20"/>
+      <rect x="638" y="180" width="5" height="20"/>
+    </g>
+    <!-- Lit windows. -->
+    <ellipse cx="100" cy="220" rx="6" ry="3" fill="#fff5d8" filter="url(#p9p1bloom)" opacity="0.85"/>
+    <rect x="97" y="218" width="6" height="5" fill="#fff5d8" opacity="0.9"/>
+    <ellipse cx="380" cy="218" rx="6" ry="3" fill="#fff5d8" filter="url(#p9p1bloom)" opacity="0.7"/>
+    <rect x="377" y="216" width="6" height="5" fill="#fff5d8" opacity="0.85"/>
+    <ellipse cx="640" cy="220" rx="6" ry="3" fill="#fff5d8" filter="url(#p9p1bloom)" opacity="0.85"/>
+    <rect x="637" y="218" width="6" height="5" fill="#fff5d8" opacity="0.9"/>
+  </g>
+
+  <!-- Street far below with amber gas pools (the drop visible). -->
+  <g id="p9p1-street-below">
+    <rect y="235" width="742" height="22" fill="#0a0408"/>
+    <ellipse cx="120" cy="246" rx="50" ry="6" fill="url(#p9p1streetGlow)" filter="url(#p9p1bloom)" opacity="0.85"/>
+    <ellipse cx="320" cy="248" rx="55" ry="7" fill="url(#p9p1streetGlow)" filter="url(#p9p1bloom)" opacity="0.95"/>
+    <ellipse cx="540" cy="246" rx="50" ry="6" fill="url(#p9p1streetGlow)" filter="url(#p9p1bloom)" opacity="0.85"/>
+    <!-- Gas lamp pinpricks. -->
+    <g fill="#ffd060" filter="url(#p9p1softBloom)">
+      <circle cx="100" cy="244" r="0.9"/>
+      <circle cx="138" cy="246" r="0.9"/>
+      <circle cx="295" cy="245" r="1.0"/>
+      <circle cx="335" cy="247" r="1.0"/>
+      <circle cx="378" cy="245" r="0.9"/>
+      <circle cx="518" cy="245" r="0.9"/>
+      <circle cx="558" cy="247" r="0.9"/>
+      <circle cx="595" cy="244" r="0.7"/>
+    </g>
+  </g>
+
+  <!-- Vertical brick wall (the drop) — small slice visible at frame edges. -->
+  <g id="p9p1-brick-wall">
+    <!-- Right side (perspective drop visible). -->
+    <path d="M460,257 L600,257 L580,320 L460,320 Z" fill="url(#p9p1iron)" opacity="0.85"/>
+    <!-- Brick courses. -->
+    <g stroke="#080404" stroke-width="0.4" opacity="0.7">
+      <line x1="465" y1="270" x2="585" y2="270"/>
+      <line x1="468" y1="285" x2="580" y2="285"/>
+      <line x1="471" y1="300" x2="575" y2="300"/>
+    </g>
+    <path d="M0,257 L150,257 L130,320 L0,320 Z" fill="url(#p9p1iron)" opacity="0.85"/>
+    <g stroke="#080404" stroke-width="0.4" opacity="0.7">
+      <line x1="5" y1="270" x2="142" y2="270"/>
+      <line x1="3" y1="285" x2="138" y2="285"/>
+      <line x1="0" y1="300" x2="135" y2="300"/>
+    </g>
+  </g>
+
+  <!-- LEAD FLASHING EDGE (foreground — the immediate gutter lip Sable stands on). -->
+  <g id="p9p1-lead-flashing">
+    <!-- Wide horizontal lead bar curving slightly across foreground. -->
+    <path d="M150,257 Q371,255 600,257 L580,290 Q371,288 170,290 Z" fill="url(#p9p1lead)"/>
+    <line x1="150" y1="257" x2="600" y2="257" stroke="#080404" stroke-width="1.5"/>
+    <line x1="170" y1="290" x2="580" y2="290" stroke="#080404" stroke-width="1"/>
+    <!-- Rivets — enormous at fairy scale. -->
+    <g fill="#0a0810" opacity="0.95">
+      <circle cx="190" cy="270" r="3"/>
+      <circle cx="240" cy="268" r="3"/>
+      <circle cx="290" cy="266" r="3"/>
+      <circle cx="350" cy="266" r="3"/>
+      <circle cx="410" cy="266" r="3"/>
+      <circle cx="470" cy="268" r="3"/>
+      <circle cx="520" cy="270" r="3"/>
+      <circle cx="570" cy="272" r="3"/>
+    </g>
+    <g fill="#3a3030" opacity="0.7">
+      <circle cx="190" cy="269" r="1.4"/>
+      <circle cx="240" cy="267" r="1.4"/>
+      <circle cx="290" cy="265" r="1.4"/>
+      <circle cx="350" cy="265" r="1.4"/>
+      <circle cx="410" cy="265" r="1.4"/>
+      <circle cx="470" cy="267" r="1.4"/>
+      <circle cx="520" cy="269" r="1.4"/>
+      <circle cx="570" cy="271" r="1.4"/>
+    </g>
+    <!-- Soot streaks. -->
+    <g fill="#080404" opacity="0.65">
+      <path d="M170,257 Q172,275 168,290"/>
+      <path d="M310,257 Q312,275 308,290"/>
+      <path d="M450,257 Q452,275 448,290"/>
+      <path d="M590,257 Q592,275 588,290"/>
+    </g>
+    <!-- Green oxidation patches (script-specific detail). -->
+    <g fill="#4a8048" opacity="0.55">
+      <ellipse cx="220" cy="280" rx="14" ry="3"/>
+      <ellipse cx="380" cy="282" rx="18" ry="3"/>
+      <ellipse cx="540" cy="280" rx="14" ry="3"/>
+    </g>
+  </g>
+
+  <!-- SABLE — TINY figure at left edge of frame standing on gutter lip looking out. -->
+  <g id="p9p1-sable-tiny" transform="translate(80, 250)">
+    <!-- Body (very small, silver suit). -->
+    <ellipse cx="0" cy="0" rx="3" ry="6" fill="#bfc6d0"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-8" rx="2" ry="2.2" fill="#5a3018"/>
+    <!-- Buzz cap (white tip visible). -->
+    <ellipse cx="0" cy="-9" rx="1.7" ry="1" fill="#e8eaee"/>
+    <!-- Faint cool fracture glow. -->
+    <ellipse cx="0" cy="0" rx="6" ry="9" fill="#7ac8ff" opacity="0.45" filter="url(#p9p1bloom)"/>
+    <!-- Standing posture — arm slightly raised. -->
+    <line x1="-1" y1="-3" x2="-3" y2="3" stroke="#bfc6d0" stroke-width="1" stroke-linecap="round"/>
+    <line x1="1" y1="-3" x2="3" y2="3" stroke="#bfc6d0" stroke-width="1" stroke-linecap="round"/>
+    <!-- Legs. -->
+    <line x1="-1" y1="6" x2="-2" y2="13" stroke="#5a606a" stroke-width="1" stroke-linecap="round"/>
+    <line x1="1" y1="6" x2="2" y2="13" stroke="#5a606a" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Faint cool wreckage glow behind/left of Sable (confirming her position). -->
+  <ellipse cx="40" cy="270" rx="40" ry="20" fill="#7ac8ff" opacity="0.35" filter="url(#p9p1strongBloom)"/>
+
+  <!-- SABLE small text balloon near tiny figure. -->
+  <g id="p9p1-dlg-sable">
+    <rect x="100" y="230" width="80" height="32" rx="6" fill="#ffffff" stroke="#5a606a" stroke-width="1.6" filter="url(#balloonShadow)"/>
+    <text x="108" y="244" font-family="Helvetica Neue, Arial, sans-serif" font-size="10" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="108" y="258" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" font-style="italic" fill="#1a1a1a">...God.</text>
+    <path d="M108,262 L122,262 L96,255 Z" fill="#ffffff" stroke="#5a606a" stroke-width="1.6" stroke-linejoin="round"/>
+    <line x1="108" y1="262" x2="122" y2="262" stroke="#ffffff" stroke-width="2.5"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p9p1-meta">
+    <text x="730" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SCALE REVEAL — ...GOD.</text>
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+  </g>
+</svg>

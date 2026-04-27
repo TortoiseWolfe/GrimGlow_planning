@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 380" width="488" height="380">
+  <title>Issue 1 — Page 9 — Panel 5: Luma walks gutter, scientific fascination</title>
+  <desc>Medium wide eye level (35mm) along gutter interior. Foreground: TWIG lying across like fallen tree trunk w/ moss growing on surface. Coal-soot sediment on iron. DEAD LEAF larger than person curls against wall like collapsed tent w/ veins ridged like tree bark. Iron rough as stone, soot granules visible like dark sand. Luma walking, hand trailing along gutter wall, scanner forgotten in other hand. Looking at everything w/ scientific fascination. Fading cool wreckage from BG, growing warm amber from city ahead. LUMA: "The material culture alone... metallurgy of this gutter is consistent with mid-to-late Victorian cast iron. The oxidation pattern suggests--" SABLE OP dry: "Luma." LUMA: "Sorry. Right. Injuries first."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p9p5iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p9p5floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#180a08"/>
+    </linearGradient>
+    <radialGradient id="p9p5coolWreck" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p9p5warmCity" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p9p5twig" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="p9p5leaf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a2008"/>
+    </linearGradient>
+    <linearGradient id="p9p5sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a18a0"/>
+    </linearGradient>
+    <radialGradient id="p9p5scannerGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a87af0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2acc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p9p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p9p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Background — dark gutter interior. -->
+  <rect width="488" height="380" fill="#0a0408"/>
+
+  <!-- Curved gutter wall (back, rising). -->
+  <path d="M0,80 Q244,60 488,80 L488,300 L0,300 Z" fill="url(#p9p5iron)"/>
+  <line x1="0" y1="120" x2="488" y2="100" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <line x1="0" y1="200" x2="488" y2="195" stroke="#080404" stroke-width="0.7" opacity="0.7"/>
+  <!-- Iron rivets. -->
+  <g fill="#080404" opacity="0.85">
+    <circle cx="50" cy="125" r="2"/>
+    <circle cx="180" cy="105" r="2"/>
+    <circle cx="320" cy="100" r="2"/>
+    <circle cx="450" cy="120" r="2"/>
+    <circle cx="50" cy="205" r="2"/>
+    <circle cx="450" cy="200" r="2"/>
+  </g>
+
+  <!-- Cool wreckage glow from FAR LEFT (fading). -->
+  <ellipse cx="0" cy="200" rx="120" ry="180" fill="url(#p9p5coolWreck)" filter="url(#p9p5strongBloom)"/>
+
+  <!-- Warm city-glow from FAR RIGHT (growing stronger — script: "transition is happening"). -->
+  <ellipse cx="488" cy="200" rx="180" ry="220" fill="url(#p9p5warmCity)" filter="url(#p9p5strongBloom)"/>
+
+  <!-- Floor — gutter interior w/ thick coal-soot sediment. -->
+  <rect y="300" width="488" height="80" fill="url(#p9p5floor)"/>
+  <line x1="0" y1="300" x2="488" y2="300" stroke="#080404" stroke-width="1.2"/>
+
+  <!-- COAL-SOOT SEDIMENT — visible individually like dark sand (script-specific). -->
+  <g fill="#080404" opacity="0.85">
+    <circle cx="20" cy="320" r="1.5"/>
+    <circle cx="35" cy="335" r="1.2"/>
+    <circle cx="60" cy="328" r="1.4"/>
+    <circle cx="80" cy="345" r="1.6"/>
+    <circle cx="100" cy="332" r="1.3"/>
+    <circle cx="125" cy="350" r="1.5"/>
+    <circle cx="150" cy="338" r="1.4"/>
+    <circle cx="180" cy="355" r="1.6"/>
+    <circle cx="210" cy="342" r="1.3"/>
+    <circle cx="240" cy="358" r="1.5"/>
+    <circle cx="270" cy="344" r="1.4"/>
+    <circle cx="300" cy="360" r="1.6"/>
+    <circle cx="330" cy="346" r="1.3"/>
+    <circle cx="360" cy="362" r="1.5"/>
+    <circle cx="390" cy="348" r="1.4"/>
+    <circle cx="420" cy="365" r="1.6"/>
+    <circle cx="450" cy="352" r="1.3"/>
+    <circle cx="475" cy="370" r="1.5"/>
+    <!-- Smaller granules. -->
+    <circle cx="45" cy="375" r="0.7"/>
+    <circle cx="115" cy="372" r="0.7"/>
+    <circle cx="190" cy="378" r="0.7"/>
+    <circle cx="285" cy="375" r="0.7"/>
+    <circle cx="375" cy="378" r="0.7"/>
+    <circle cx="445" cy="375" r="0.7"/>
+  </g>
+
+  <!-- TWIG lying across gutter like FALLEN TREE TRUNK — mid-foreground, w/ moss. -->
+  <g id="p9p5-twig">
+    <path d="M-20,360 Q120,340 280,355 Q400,365 510,360" stroke="url(#p9p5twig)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M-20,358 Q120,338 280,353 Q400,363 510,358" stroke="#7a4838" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <!-- Bark texture lines. -->
+    <g stroke="#3a1808" stroke-width="0.7" fill="none" opacity="0.85">
+      <path d="M40,355 Q42,360 38,366"/>
+      <path d="M120,345 Q122,352 118,358"/>
+      <path d="M200,348 Q202,356 198,362"/>
+      <path d="M310,360 Q312,368 308,372"/>
+      <path d="M420,362 Q422,370 418,374"/>
+    </g>
+    <!-- MOSS GROWING ON SURFACE (script-specific) — green patches along top of twig. -->
+    <g fill="#4a8048" opacity="0.85">
+      <ellipse cx="60" cy="350" rx="14" ry="3"/>
+      <ellipse cx="180" cy="345" rx="20" ry="3"/>
+      <ellipse cx="320" cy="355" rx="18" ry="3"/>
+      <ellipse cx="430" cy="358" rx="14" ry="3"/>
+    </g>
+    <!-- Moss highlights (lighter green). -->
+    <g fill="#6a9858" opacity="0.7">
+      <ellipse cx="60" cy="349" rx="8" ry="1.5"/>
+      <ellipse cx="180" cy="344" rx="14" ry="1.5"/>
+      <ellipse cx="320" cy="354" rx="12" ry="1.5"/>
+    </g>
+  </g>
+
+  <!-- DEAD LEAF curling against gutter wall like COLLAPSED TENT (script-specific). -->
+  <g id="p9p5-leaf-tent" transform="translate(380, 240)">
+    <!-- Large brown leaf — curled into tent shape. -->
+    <path d="M-50,55 Q-65,15 -55,-30 Q-30,-50 0,-50 Q35,-45 55,-15 Q60,20 50,45 Q20,55 -20,52 Q-45,55 -50,55 Z" fill="url(#p9p5leaf)" opacity="0.95"/>
+    <!-- Lobed oak edges. -->
+    <path d="M-55,-30 Q-60,-38 -50,-40 Q-45,-38 -47,-30 Z" fill="url(#p9p5leaf)" opacity="0.95"/>
+    <path d="M-30,-50 Q-30,-58 -20,-58 Q-15,-55 -22,-48 Z" fill="url(#p9p5leaf)" opacity="0.95"/>
+    <path d="M0,-50 Q5,-58 12,-55 Q12,-48 7,-48 Z" fill="url(#p9p5leaf)" opacity="0.95"/>
+    <path d="M35,-45 Q42,-50 50,-45 Q45,-40 40,-42 Z" fill="url(#p9p5leaf)" opacity="0.95"/>
+    <!-- VEINS RIDGED LIKE TREE BARK (script-specific). -->
+    <path d="M-50,50 Q-15,10 50,-30" stroke="#3a1808" stroke-width="1.6" fill="none" opacity="0.85"/>
+    <path d="M-30,48 Q-10,15 30,-30" stroke="#3a1808" stroke-width="1" fill="none" opacity="0.7"/>
+    <path d="M20,42 Q15,10 -15,-30" stroke="#3a1808" stroke-width="1" fill="none" opacity="0.7"/>
+    <path d="M40,30 Q35,5 15,-30" stroke="#3a1808" stroke-width="0.7" fill="none" opacity="0.6"/>
+    <!-- Highlight rim on curl. -->
+    <path d="M-50,55 Q-65,15 -55,-30 Q-30,-50 0,-50 Q35,-45 55,-15" fill="none" stroke="#a87038" stroke-width="1.4" opacity="0.6"/>
+  </g>
+
+  <!-- LUMA WALKING through environment, hand trailing wall, scanner forgotten. -->
+  <g id="p9p5-luma" transform="translate(180, 250)">
+
+    <!-- Body in sapphire-violet. -->
+    <path d="M-22,90 Q-26,30 -22,-15 L-12,-25 L18,-25 Q22,-15 22,90 Z" fill="url(#p9p5sapphire)" stroke="#080408" stroke-width="0.6"/>
+    <!-- Cool wreckage wash on left side. -->
+    <path d="M-22,90 Q-26,30 -22,-15 L0,-15 L0,90 Z" fill="#7ac8ff" opacity="0.18"/>
+    <!-- Warm city wash on right side. -->
+    <path d="M0,-15 L22,-15 Q26,30 22,90 L0,90 Z" fill="#f5b860" opacity="0.18"/>
+    <!-- Shoulder pads. -->
+    <ellipse cx="-22" cy="-12" rx="7" ry="4" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="22" cy="-12" rx="7" ry="4" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+    <ellipse cx="-22" cy="-13" rx="5" ry="2" fill="#a87af0" opacity="0.55"/>
+    <ellipse cx="22" cy="-13" rx="5" ry="2" fill="#a87af0" opacity="0.55"/>
+    <!-- Suit chest node. -->
+    <circle cx="0" cy="0" r="3" fill="#7a5af0"/>
+    <circle cx="0" cy="0" r="1.5" fill="#c8a8ff" opacity="0.95"/>
+    <ellipse cx="0" cy="0" rx="10" ry="6" fill="#a87af0" filter="url(#p9p5bloom)" opacity="0.45"/>
+
+    <!-- LEFT arm trailing along gutter wall (extending up+left). -->
+    <path d="M-22,-5 L-38,-15 L-50,-22" fill="none" stroke="#5a3ad8" stroke-width="5.5" stroke-linecap="round"/>
+    <!-- Hand fingertips touching wall. -->
+    <ellipse cx="-50" cy="-22" rx="3.5" ry="2.5" fill="#a87850"/>
+    <!-- Faint smudge/touch indication on wall. -->
+    <ellipse cx="-50" cy="-22" rx="6" ry="3" fill="#dceaff" opacity="0.25" filter="url(#p9p5bloom)"/>
+
+    <!-- RIGHT arm hanging down w/ scanner FORGOTTEN (relaxed grip). -->
+    <path d="M22,-5 L24,18 L28,30" fill="none" stroke="#5a3ad8" stroke-width="5.5" stroke-linecap="round"/>
+    <!-- Scanner dangling. -->
+    <rect x="24" y="28" width="10" height="7" rx="1" fill="#1a1828" stroke="#a87af0" stroke-width="0.5"/>
+    <ellipse cx="29" cy="32" rx="9" ry="5" fill="url(#p9p5scannerGlow)" filter="url(#p9p5bloom)" opacity="0.4"/>
+    <!-- Scanner readout (still active but unread). -->
+    <line x1="26" y1="30" x2="32" y2="30" stroke="#a87af0" stroke-width="0.5" opacity="0.85"/>
+
+    <!-- Legs walking (mid-stride). -->
+    <path d="M-12,90 L-18,118 L-15,140" fill="none" stroke="#3a2a8c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M14,90 L20,118 L24,140" fill="none" stroke="#3a2a8c" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="-15" cy="140" rx="6" ry="2.5" fill="#1a0808"/>
+    <ellipse cx="24" cy="140" rx="6" ry="2.5" fill="#1a0808"/>
+
+    <!-- HEAD — looking up/around (eyes moving from detail to detail per script). -->
+    <ellipse cx="0" cy="-46" rx="13" ry="14" fill="#a87850"/>
+    <!-- Smooth pulled-back hair. -->
+    <path d="M-10,-54 Q0,-60 10,-54 L10,-46 L-10,-46 Z" fill="#1a0a08"/>
+    <path d="M-10,-54 Q0,-58 10,-54" fill="none" stroke="#3a1a08" stroke-width="0.6" opacity="0.85"/>
+    <!-- Single thick braid trailing back. -->
+    <path d="M9,-44 Q22,-32 30,-12 Q34,8 28,22" fill="none" stroke="#1a0a08" stroke-width="5" stroke-linecap="round"/>
+    <line x1="14" y1="-37" x2="20" y2="-32" stroke="#5a3a18" stroke-width="0.7"/>
+    <line x1="22" y1="-22" x2="28" y2="-15" stroke="#5a3a18" stroke-width="0.7"/>
+    <line x1="30" y1="-2" x2="32" y2="8" stroke="#5a3a18" stroke-width="0.7"/>
+    <circle cx="28" cy="22" r="2" fill="#5a3a18"/>
+    <!-- Luminous filament accents in braid. -->
+    <circle cx="20" cy="-30" r="0.6" fill="#a87af0" filter="url(#p9p5bloom)" opacity="0.9"/>
+    <circle cx="28" cy="-12" r="0.6" fill="#a87af0" filter="url(#p9p5bloom)" opacity="0.9"/>
+
+    <!-- ONE CRACKED HOLOGRAPHIC LENS at left eye — small prismatic flare. -->
+    <ellipse cx="-5" cy="-46" rx="3.5" ry="2.5" fill="#1a1828" stroke="#a87af0" stroke-width="0.6"/>
+    <ellipse cx="5" cy="-46" rx="3.5" ry="2.5" fill="#1a1828" stroke="#a87af0" stroke-width="0.6"/>
+    <line x1="-7" y1="-48" x2="-3" y2="-44" stroke="#bfe4ff" stroke-width="0.5" opacity="0.95"/>
+    <circle cx="-5" cy="-46" r="1.2" fill="#ffffff" filter="url(#p9p5bloom)" opacity="0.7"/>
+
+    <!-- Brow slightly raised + parted lips (fascination). -->
+    <path d="M-9,-52 Q-5,-53 -1,-52" stroke="#3a1808" stroke-width="0.8" fill="none"/>
+    <path d="M1,-52 Q5,-53 9,-52" stroke="#3a1808" stroke-width="0.8" fill="none"/>
+    <path d="M-3,-32 Q0,-30 3,-32" fill="none" stroke="#5a2818" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="-2" y1="-31" x2="2" y2="-31" stroke="#3a1808" stroke-width="0.5" opacity="0.6"/>
+  </g>
+
+  <!-- DIALOGUE — 3 balloons (LUMA monologue, SABLE OP, LUMA reply). -->
+  <!-- LUMA monologue (top — long, fascinated). -->
+  <g id="p9p5-dlg-luma1">
+    <rect x="14" y="14" width="306" height="78" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">The metallurgy of this gutter is</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">consistent w/ mid-to-late Victorian</text>
+    <text x="24" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">cast iron. The oxidation pattern--</text>
+    <path d="M150,92 L168,92 L172,200 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="92" x2="168" y2="92" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE O.P. cutting in (dry tone, dashed border, no tail). -->
+  <g id="p9p5-dlg-sable-op">
+    <rect x="332" y="14" width="142" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="342" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE (O.P.)</text>
+    <text x="342" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">Luma.</text>
+  </g>
+
+  <!-- LUMA recanting (bottom, brief). -->
+  <g id="p9p5-dlg-luma2">
+    <rect x="332" y="78" width="142" height="62" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="342" y="98" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="342" y="116" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#1a1a1a">Sorry. Right.</text>
+    <text x="342" y="132" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Injuries first.</text>
+    <path d="M348,140 L364,140 L218,250 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="348" y1="140" x2="364" y2="140" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p9p5-meta">
+    <text x="478" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">5</text>
+    <text x="482" y="372" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">LUMA FASCINATED</text>
+  </g>
+</svg>
