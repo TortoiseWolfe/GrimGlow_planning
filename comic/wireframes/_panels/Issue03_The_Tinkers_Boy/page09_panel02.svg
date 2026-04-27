@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 9 — Panel 2: CU Theodore tears + full smile</title>
+  <desc>CU 85mm eye level human scale. Theodore's face at bench level, chin resting on hands. Wide hazel eyes locked on something small + wonderful, tears formed not from sadness but overwhelm of wonder, blinked back. Smile FULL, transforming his face — lonely boy gone, replaced by boy who has found something miraculous. Sandy hair, freckles, oil-stained hands beneath chin. Warm amber on face from candle behind Jink, tears catching light as bright points. Wonder that cannot be contained.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p9p2nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p9p2candleHalo" cx="100%" cy="40%" r="100%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p9p2bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p9p2skin" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <linearGradient id="p9p2skinWarmKey" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="p9p2hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="p9p2tearShine">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p9p2oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p9p2brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <filter id="p9p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p9p2nightBg)"/>
+  <rect width="366" height="364" fill="url(#p9p2candleHalo)" opacity="0.85"/>
+
+  <!-- Bench surface at bottom of frame. -->
+  <rect x="0" y="320" width="366" height="44" fill="url(#p9p2bench)"/>
+  <line x1="0" y1="328" x2="366" y2="328" stroke="#1a0c04" stroke-width="0.85"/>
+
+  <!-- HANDS UNDER CHIN — visible at bottom of frame. -->
+  <g>
+    <!-- Stacked hands — chin resting on fingers. -->
+    <path d="M120,260 Q140,250 180,250 Q220,250 246,260 L260,290 Q230,300 180,300 Q130,300 110,290 Z" fill="url(#p9p2skin)"/>
+    <path d="M120,260 Q140,250 180,250 Q220,250 246,260 L260,290 Q230,300 180,300 Q130,300 110,290 Z" fill="url(#p9p2skinWarmKey)" opacity="0.45"/>
+    <!-- Knuckle ridges on stacked hands. -->
+    <path d="M140,272 Q160,266 180,272" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <path d="M180,272 Q200,266 220,272" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <!-- Oil stains. -->
+    <ellipse cx="180" cy="280" rx="40" ry="6" fill="url(#p9p2oilStain)"/>
+    <!-- Brass gear ring on left index. -->
+    <ellipse cx="142" cy="276" rx="6" ry="3" fill="url(#p9p2brass)"/>
+    <ellipse cx="142" cy="276" rx="6" ry="3" fill="none" stroke="#5a3018" stroke-width="0.4"/>
+    <ellipse cx="142" cy="276" rx="2.5" ry="1.5" fill="#3a2010"/>
+  </g>
+
+  <!-- Theodore's HEAD — chin resting on hands above, big face. -->
+  <g>
+    <ellipse cx="180" cy="160" rx="76" ry="86" fill="url(#p9p2skin)"/>
+    <ellipse cx="180" cy="160" rx="76" ry="86" fill="url(#p9p2skinWarmKey)" opacity="0.55"/>
+
+    <!-- Tousled spikes haloed warm. -->
+    <path d="M120,108 Q116,52 168,32 Q200,24 240,32 Q260,48 240,108 L236,116 Q224,68 212,60 L148,60 Q136,68 124,116 Z" fill="url(#p9p2hair)"/>
+    <path d="M132,38 L128,8 L142,36 Z" fill="url(#p9p2hair)"/>
+    <path d="M156,24 L152,-2 L170,24 Z" fill="url(#p9p2hair)"/>
+    <path d="M186,18 L188,-4 L202,18 Z" fill="url(#p9p2hair)"/>
+    <path d="M212,24 L226,-2 L222,28 Z" fill="url(#p9p2hair)"/>
+    <path d="M232,38 L246,8 L240,42 Z" fill="url(#p9p2hair)"/>
+    <!-- Warm rim. -->
+    <g stroke="#ffd078" stroke-width="1.4" opacity="0.7">
+      <line x1="138" y1="6" x2="138" y2="32"/>
+      <line x1="160" y1="-6" x2="160" y2="20"/>
+      <line x1="190" y1="-10" x2="190" y2="12"/>
+      <line x1="218" y1="-6" x2="218" y2="22"/>
+      <line x1="244" y1="6" x2="244" y2="32"/>
+    </g>
+    <!-- Bangs falling. -->
+    <path d="M124,108 L128,144 L146,104 Z" fill="url(#p9p2hair)"/>
+    <path d="M152,116 L156,150 L172,108 Z" fill="url(#p9p2hair)"/>
+    <path d="M178,118 L182,154 L198,110 Z" fill="url(#p9p2hair)"/>
+    <path d="M204,116 L208,150 L222,108 Z" fill="url(#p9p2hair)"/>
+    <path d="M230,108 L234,144 L246,104 Z" fill="url(#p9p2hair)"/>
+
+    <!-- WIDE EYES — locked on something. -->
+    <ellipse cx="148" cy="160" rx="14" ry="10" fill="#fff8e8"/>
+    <ellipse cx="148" cy="160" rx="14" ry="10" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="148" cy="160" r="6" fill="url(#p9p2hair)"/>
+    <circle cx="148" cy="160" r="3" fill="#0a0604"/>
+    <ellipse cx="152" cy="158" rx="2" ry="1.2" fill="#a0d8ff" filter="url(#p9p2bloom)"/>
+    <ellipse cx="146" cy="162" rx="1.4" ry="0.7" fill="#ffffff"/>
+
+    <ellipse cx="212" cy="160" rx="14" ry="10" fill="#fff8e8"/>
+    <ellipse cx="212" cy="160" rx="14" ry="10" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="212" cy="160" r="6" fill="url(#p9p2hair)"/>
+    <circle cx="212" cy="160" r="3" fill="#0a0604"/>
+    <ellipse cx="216" cy="158" rx="2" ry="1.2" fill="#a0d8ff" filter="url(#p9p2bloom)"/>
+    <ellipse cx="210" cy="162" rx="1.4" ry="0.7" fill="#ffffff"/>
+
+    <!-- TEARS — bright points catching light. -->
+    <ellipse cx="158" cy="170" rx="3" ry="1.6" fill="url(#p9p2tearShine)" filter="url(#p9p2bloom)"/>
+    <ellipse cx="160" cy="174" rx="2" ry="1" fill="#ffffff" filter="url(#p9p2bloom)"/>
+    <!-- Tear streak. -->
+    <path d="M158,174 Q162,184 162,194" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.55"/>
+
+    <ellipse cx="222" cy="170" rx="3" ry="1.6" fill="url(#p9p2tearShine)" filter="url(#p9p2bloom)"/>
+    <ellipse cx="220" cy="174" rx="2" ry="1" fill="#ffffff" filter="url(#p9p2bloom)"/>
+    <path d="M222,174 Q218,184 218,194" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0.55"/>
+
+    <!-- Brows raised soft (wonder). -->
+    <path d="M132,142 Q148,134 164,142" fill="none" stroke="#3a2810" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M196,142 Q212,134 228,142" fill="none" stroke="#3a2810" stroke-width="1.6" stroke-linecap="round"/>
+
+    <!-- Nose. -->
+    <path d="M180,180 L168,212 Q180,218 192,212 Z" fill="#a8765a" opacity="0.55"/>
+
+    <!-- FULL SMILE — face-transforming, corners lifted. -->
+    <path d="M140,232 Q180,250 220,232" fill="none" stroke="#5a3018" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- Teeth visible. -->
+    <line x1="160" y1="240" x2="160" y2="244" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="170" y1="244" x2="170" y2="248" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="180" y1="246" x2="180" y2="250" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="190" y1="244" x2="190" y2="248" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="200" y1="240" x2="200" y2="244" stroke="#dcd0b4" stroke-width="0.7"/>
+    <!-- Smile lines (cheek crinkles). -->
+    <path d="M120,210 Q132,220 142,222" fill="none" stroke="#7a4828" stroke-width="0.6" opacity="0.65"/>
+    <path d="M240,210 Q228,220 218,222" fill="none" stroke="#7a4828" stroke-width="0.6" opacity="0.65"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.95">
+      <circle cx="124" cy="184" r="1"/>
+      <circle cx="138" cy="190" r="0.85"/>
+      <circle cx="154" cy="184" r="1"/>
+      <circle cx="206" cy="184" r="1"/>
+      <circle cx="222" cy="190" r="0.85"/>
+      <circle cx="236" cy="184" r="1"/>
+    </g>
+
+    <!-- Cheek glow warm. -->
+    <ellipse cx="118" cy="200" rx="14" ry="10" fill="#ffd078" opacity="0.32"/>
+    <ellipse cx="244" cy="200" rx="14" ry="10" fill="#ffd078" opacity="0.32"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q60,45 120,42"/>
+    <path d="M0,330 Q60,335 120,332"/>
+  </g>
+
+  <!-- THEODORE balloon — top-left. -->
+  <rect x="14" y="14" width="240" height="78" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M156,92 L168,92 L180,140 Z"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="156" y1="92" x2="168" y2="92" stroke="#ffffff" stroke-width="3"/>
+  <text x="24" y="34"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="24" y="52"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">I'm apprenticed to a clockmaker, yeah.</text>
+  <text x="24" y="68"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">I mend things. Fix what's broke.</text>
+  <text x="24" y="86"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">I ain't very good at it yet. Mr. Cribbage says.</text>
+
+</svg>
