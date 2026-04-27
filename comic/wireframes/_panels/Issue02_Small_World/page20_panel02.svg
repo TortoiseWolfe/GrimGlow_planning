@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 360" width="742" height="360">
+  <title>Issue 2 — Page 20 — Panel 2: Sable face uplit by data module, alien light in human eyes</title>
+  <desc>CU 85mm slight low angle data module's perspective. Sable face lit below blue-white holographic display geometric fairy script scrolling upward structured light. Late 30s dark brown skin silver-white buzz. Sharp features made sharper uplight — deep shadows eye sockets beneath cheekbones under chin. Looks older harder hollowed. Eyes wide scanning text urgent intensity pupils reflect blue-white geometric script — alien light human eyes. Display partially corrupt sections flicker distort drop out degrading. Geometric patterns project faint shadows brick wall behind head. Distant warm amber smudge far edge frame — power cell squad warmth left. Coldest panel issue. NO DIALOGUE.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p20p2dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080404"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p20p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p20p2silverCool" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a608a"/>
+      <stop offset="50%" stop-color="#3a4068"/>
+      <stop offset="100%" stop-color="#1a1828"/>
+    </linearGradient>
+    <radialGradient id="p20p2dataGlow">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#a8d8f8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a4868" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p20p2amberFar">
+      <stop offset="0%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a0808" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p20p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p20p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p20p2deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark. -->
+  <rect width="742" height="360" fill="url(#p20p2dark)"/>
+
+  <!-- BRICK BG. -->
+  <rect width="742" height="360" fill="url(#p20p2brick)" opacity="0.85"/>
+  <g stroke="#080404" stroke-width="0.4" opacity="0.65">
+    <line x1="0" y1="60" x2="742" y2="60"/>
+    <line x1="0" y1="120" x2="742" y2="120"/>
+    <line x1="0" y1="180" x2="742" y2="180"/>
+    <line x1="0" y1="240" x2="742" y2="240"/>
+    <line x1="0" y1="300" x2="742" y2="300"/>
+  </g>
+
+  <!-- DISTANT AMBER smudge (far right edge — squad warmth left behind). -->
+  <ellipse cx="742" cy="320" rx="80" ry="120" fill="url(#p20p2amberFar)" filter="url(#p20p2deepBloom)" opacity="0.65"/>
+
+  <!-- HOLOGRAPHIC DISPLAY light cone from below. -->
+  <path d="M280,360 L300,160 L442,160 L462,360 Z" fill="url(#p20p2dataGlow)" filter="url(#p20p2deepBloom)" opacity="0.85"/>
+
+  <!-- GEOMETRIC SHADOW projections on brick wall behind Sable's head. -->
+  <g stroke="#a8d8f8" stroke-width="0.5" fill="none" opacity="0.55" filter="url(#p20p2bloom)">
+    <path d="M260,40 L320,40 L320,90 L260,90 Z"/>
+    <path d="M340,40 L400,40 L400,90 L340,90 Z"/>
+    <path d="M420,40 L480,40 L480,90 L420,90 Z"/>
+    <line x1="260" y1="65" x2="320" y2="65"/>
+    <line x1="340" y1="65" x2="400" y2="65"/>
+    <line x1="420" y1="65" x2="480" y2="65"/>
+  </g>
+
+  <!-- SABLE FACE — center frame, ECU. -->
+  <g id="p20p2-sable" transform="translate(371, 240)">
+
+    <!-- SHOULDERS upper torso bottom of frame. -->
+    <path d="M-90,80 L-100,40 L-80,15 L-50,5 L-15,-2 L15,-2 L50,5 L80,15 L100,40 L90,80 Z" fill="url(#p20p2silverCool)" stroke="#080404" stroke-width="0.85"/>
+    <!-- Cracked right shoulder lit cool. -->
+    <path d="M50,5 L92,18 L98,42 L92,68" fill="url(#p20p2silverCool)" stroke="#080404" stroke-width="0.5"/>
+    <g stroke="#dce4f0" stroke-width="0.85" opacity="0.95" filter="url(#p20p2bloom)">
+      <path d="M62,12 L72,28 L68,42 L74,58"/>
+      <path d="M68,28 L74,38"/>
+    </g>
+    <!-- Silver collar lit cool. -->
+    <ellipse cx="0" cy="-2" rx="22" ry="4" fill="#dce4f0" opacity="0.85" filter="url(#p20p2bloom)"/>
+    <ellipse cx="0" cy="-2" rx="32" ry="6" fill="#a8d8f8" opacity="0.65" filter="url(#p20p2strongBloom)"/>
+
+    <!-- HEAD — full face front, lit from BELOW. -->
+    <ellipse cx="0" cy="-50" rx="60" ry="68" fill="#3a2818"/>
+
+    <!-- Silver-white buzz (top of head darker as light comes from below). -->
+    <path d="M-44,-110 Q-22,-128 0,-130 Q22,-128 44,-110 L44,-90 L-44,-90 Z" fill="#5a606a"/>
+    <line x1="-44" y1="-90" x2="44" y2="-90" stroke="#3a3a44" stroke-width="0.85" opacity="0.85"/>
+    <g fill="#3a3a44" opacity="0.85">
+      <circle cx="-22" cy="-118" r="0.85"/>
+      <circle cx="-12" cy="-124" r="0.85"/>
+      <circle cx="0" cy="-128" r="0.85"/>
+      <circle cx="12" cy="-124" r="0.85"/>
+      <circle cx="22" cy="-118" r="0.85"/>
+    </g>
+
+    <!-- HARSH UPLIGHT FACETS — geometric structured shadows. -->
+    <!-- Forehead lit from below. -->
+    <path d="M-22,-95 Q0,-105 22,-95 L22,-80 L-22,-80 Z" fill="#5a3a18" opacity="0.85"/>
+    <!-- Cheekbones brighter (catching uplight). -->
+    <ellipse cx="-30" cy="-30" rx="14" ry="6" fill="#a87850" opacity="0.85" filter="url(#p20p2bloom)"/>
+    <ellipse cx="30" cy="-30" rx="14" ry="6" fill="#a87850" opacity="0.85" filter="url(#p20p2bloom)"/>
+    <!-- Cheekbones cool wash (data module). -->
+    <ellipse cx="-30" cy="-25" rx="22" ry="10" fill="#a8d8f8" opacity="0.55" filter="url(#p20p2strongBloom)"/>
+    <ellipse cx="30" cy="-25" rx="22" ry="10" fill="#a8d8f8" opacity="0.55" filter="url(#p20p2strongBloom)"/>
+
+    <!-- DEEP SHADOWS in eye sockets, under chin (uplight casts upward). -->
+    <ellipse cx="-22" cy="-65" rx="14" ry="9" fill="#080404" opacity="0.85" filter="url(#p20p2bloom)"/>
+    <ellipse cx="22" cy="-65" rx="14" ry="9" fill="#080404" opacity="0.85" filter="url(#p20p2bloom)"/>
+    <ellipse cx="0" cy="0" rx="32" ry="8" fill="#080404" opacity="0.85" filter="url(#p20p2bloom)"/>
+
+    <!-- BROW set — sharp under uplight. -->
+    <path d="M-32,-72 Q-20,-78 -8,-72" stroke="#080404" stroke-width="3" fill="none"/>
+    <path d="M8,-72 Q20,-78 32,-72" stroke="#080404" stroke-width="3" fill="none"/>
+
+    <!-- EYES — wide, scanning, BLUE-WHITE script reflected in pupils. -->
+    <ellipse cx="-22" cy="-60" rx="9" ry="6" fill="#dce4f0"/>
+    <ellipse cx="22" cy="-60" rx="9" ry="6" fill="#dce4f0"/>
+    <ellipse cx="-22" cy="-60" rx="3.5" ry="3.5" fill="#1a3068"/>
+    <ellipse cx="22" cy="-60" rx="3.5" ry="3.5" fill="#1a3068"/>
+    <ellipse cx="-22" cy="-60" rx="2" ry="2" fill="#080404"/>
+    <ellipse cx="22" cy="-60" rx="2" ry="2" fill="#080404"/>
+    <!-- Geometric script reflected in pupils (small fairy hex). -->
+    <g stroke="#dce4f0" stroke-width="0.3" fill="none" opacity="0.95" filter="url(#p20p2bloom)">
+      <path d="M-23,-61 L-22,-62 L-21,-61 L-21,-59 L-22,-58 L-23,-59 Z"/>
+      <path d="M21,-61 L22,-62 L23,-61 L23,-59 L22,-58 L21,-59 Z"/>
+    </g>
+    <!-- Catch-light blue. -->
+    <circle cx="-19" cy="-62" r="0.85" fill="#dce4f0" opacity="0.95" filter="url(#p20p2bloom)"/>
+    <circle cx="25" cy="-62" r="0.85" fill="#dce4f0" opacity="0.95" filter="url(#p20p2bloom)"/>
+
+    <!-- NOSE shadow under (uplight casts shadow up). -->
+    <path d="M-3,-50 L0,-30 L-4,-22" stroke="#080404" stroke-width="1.4" fill="none" opacity="0.85"/>
+    <!-- Nose shadow on forehead. -->
+    <ellipse cx="0" cy="-78" rx="3" ry="6" fill="#080404" opacity="0.55" filter="url(#p20p2bloom)"/>
+
+    <!-- LIPS — pressed hard. -->
+    <line x1="-15" y1="-12" x2="15" y2="-12" stroke="#080404" stroke-width="2.5"/>
+
+    <!-- Jaw tension. -->
+    <ellipse cx="-32" cy="-22" rx="4" ry="2.5" fill="#080404" opacity="0.65" filter="url(#p20p2bloom)"/>
+    <ellipse cx="32" cy="-22" rx="4" ry="2.5" fill="#080404" opacity="0.65" filter="url(#p20p2bloom)"/>
+  </g>
+
+  <!-- DATA MODULE bottom of frame, just visible. -->
+  <g id="p20p2-module">
+    <rect x="346" y="320" width="50" height="22" rx="2" fill="#1a1820" stroke="#5a606a" stroke-width="0.85"/>
+    <!-- Active cool glow on top surface. -->
+    <ellipse cx="371" cy="322" rx="20" ry="3" fill="#dce4f0" opacity="0.95" filter="url(#p20p2bloom)"/>
+    <!-- Tiny script projecting upward. -->
+    <g stroke="#a8d8f8" stroke-width="0.4" fill="none" opacity="0.95" filter="url(#p20p2bloom)">
+      <path d="M360,318 L360,300"/>
+      <path d="M370,318 L370,295"/>
+      <path d="M380,318 L380,300"/>
+      <path d="M375,318 L375,290"/>
+    </g>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p20p2-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">2</text>
+    <text x="738" y="352" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">SECRET READ</text>
+  </g>
+</svg>

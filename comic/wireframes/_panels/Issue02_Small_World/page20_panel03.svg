@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 360" width="742" height="360">
+  <title>Issue 2 — Page 20 — Panel 3: Holographic display ECU, CONVERGENCE + PRIOR, file dying</title>
+  <desc>ECU 135mm straight on. Holographic display fills panel — blue-white geometric fairy script scrolling darker blue field. Text alien angular structured beautiful unreadable human eyes. Two words larger highlighted pulsing: CONVERGENCE geometric script English subtitle, PRIOR geometric script English subtitle. Surrounding text flickers corrupts characters dropping lines scrambling geometric static consuming display real time. Status indicator file integrity declining. Data dying. Two legible words glow brighter against degrading text — urgent highlighted last readable fragments critical file. Pure blue-white holographic light no warm sources. Corruption artifacts flicker edges geometric interference. CAPTION fractured Sable internal monologue convergence parameters exceeded prior deployment outcome / CAPTION file died before finished.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p20p3field" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1828"/>
+      <stop offset="100%" stop-color="#1a2848"/>
+    </linearGradient>
+    <radialGradient id="p20p3glow">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a4868" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p20p3wordPulse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a8d8f8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a4868" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p20p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p20p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p20p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG holographic field. -->
+  <rect width="742" height="360" fill="url(#p20p3field)"/>
+
+  <!-- Frame edges — display border. -->
+  <rect x="14" y="14" width="714" height="332" fill="none" stroke="#a8d8f8" stroke-width="0.85" opacity="0.65" stroke-dasharray="3,2"/>
+
+  <!-- BACKGROUND GEOMETRIC FAIRY SCRIPT (scrolling, partially corrupt). -->
+  <g stroke="#a8d8f8" stroke-width="0.5" fill="none" opacity="0.65" filter="url(#p20p3bloom)">
+    <!-- Top section. -->
+    <path d="M40,40 L80,40 L80,55 L40,55 Z M50,42 L70,42 M50,53 L70,53 M50,47 L60,52"/>
+    <path d="M100,40 L140,40 L140,55 L100,55 Z M110,47 L130,47"/>
+    <path d="M160,42 L200,42 L200,53 L160,53 Z M170,42 L170,53"/>
+    <path d="M220,40 L260,40 L260,55 L220,55 Z M225,45 L255,45 M225,50 L235,50"/>
+    <!-- Hex node. -->
+    <path d="M280,42 L290,38 L300,42 L300,52 L290,56 L280,52 Z"/>
+    <!-- Corrupted section (broken lines). -->
+    <g opacity="0.45">
+      <path d="M460,42 L468,42 M474,42 L482,42 M488,42 L495,42"/>
+      <path d="M510,40 L520,40 L520,50 L510,50"/>
+      <path d="M540,38 L548,42 M555,40 L562,38"/>
+    </g>
+    <!-- Status bar. -->
+    <rect x="600" y="40" width="120" height="14"/>
+    <rect x="602" y="42" width="40" height="10" fill="#a8d8f8" opacity="0.65"/>
+
+    <!-- More text rows. -->
+    <path d="M40,80 L100,80 L100,95 L40,95 Z M50,82 L90,82 M50,87 L90,87 M50,92 L80,92"/>
+    <path d="M120,80 L180,80 L180,95 L120,95 Z M130,87 L170,87"/>
+    <path d="M200,82 L260,82 L260,93 L200,93 Z M205,82 L205,93 M255,82 L255,93"/>
+    <!-- Hex. -->
+    <path d="M280,82 L292,78 L304,82 L304,92 L292,96 L280,92 Z"/>
+    <path d="M320,80 L380,80 L380,95 L320,95 Z M330,87 L370,87"/>
+    <!-- Corruption. -->
+    <g opacity="0.35">
+      <path d="M400,82 L408,82 M412,80 L420,82 M425,82 L432,80"/>
+      <path d="M440,80 L460,82"/>
+    </g>
+    <path d="M480,80 L540,80 L540,95 L480,95 Z M490,87 L530,87"/>
+
+    <!-- Mid rows around CONVERGENCE area. -->
+    <path d="M40,140 L100,140 L100,155 L40,155 Z"/>
+    <path d="M620,140 L700,140 L700,155 L620,155 Z M630,147 L690,147"/>
+
+    <!-- Bottom rows around PRIOR area. -->
+    <path d="M40,260 L100,260 L100,275 L40,275 Z"/>
+    <path d="M620,260 L700,260 L700,275 L620,275 Z"/>
+
+    <!-- Corruption rows (very glitchy). -->
+    <g opacity="0.45">
+      <path d="M40,300 L60,300 M70,300 L90,300 M100,302 L120,300"/>
+      <path d="M150,300 L160,302 M180,300 L195,302"/>
+      <path d="M220,300 L235,298 M260,302 L275,300"/>
+      <path d="M320,300 L335,298 M360,302 L375,300"/>
+      <path d="M440,300 L460,302 M480,298 L500,300"/>
+      <path d="M540,300 L560,302 M580,298 L600,300"/>
+    </g>
+  </g>
+
+  <!-- HIGHLIGHTED WORD: CONVERGENCE — center-left larger. -->
+  <g id="p20p3-convergence">
+    <!-- Halo pulse. -->
+    <ellipse cx="220" cy="200" rx="160" ry="40" fill="url(#p20p3wordPulse)" filter="url(#p20p3deepBloom)" opacity="0.85"/>
+    <!-- Geometric fairy script representation (large, structured). -->
+    <g stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.95" filter="url(#p20p3bloom)">
+      <!-- Large glyphs forming the word. -->
+      <!-- C. -->
+      <path d="M120,180 L100,180 L100,220 L120,220"/>
+      <!-- O hex. -->
+      <path d="M140,180 L160,175 L180,180 L180,220 L160,225 L140,220 Z"/>
+      <!-- N triangle. -->
+      <path d="M200,220 L200,180 L220,220 L220,180"/>
+      <!-- V chevron. -->
+      <path d="M240,180 L255,225 L270,180"/>
+      <!-- E. -->
+      <path d="M290,180 L290,220 M290,180 L310,180 M290,200 L308,200 M290,220 L310,220"/>
+      <!-- R. -->
+      <path d="M328,180 L328,220 M328,180 L348,180 L348,200 L328,200 L348,220"/>
+    </g>
+    <!-- English subtitle below. -->
+    <text x="220" y="248" text-anchor="middle" font-family="Courier, monospace" font-size="11" font-weight="700" fill="#ffffff" opacity="0.95">[CONVERGENCE]</text>
+  </g>
+
+  <!-- HIGHLIGHTED WORD: PRIOR — center-right larger. -->
+  <g id="p20p3-prior">
+    <!-- Halo pulse. -->
+    <ellipse cx="540" cy="200" rx="120" ry="40" fill="url(#p20p3wordPulse)" filter="url(#p20p3deepBloom)" opacity="0.85"/>
+    <!-- Geometric script. -->
+    <g stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.95" filter="url(#p20p3bloom)">
+      <!-- P. -->
+      <path d="M440,180 L440,220 M440,180 L460,180 L460,200 L440,200"/>
+      <!-- R. -->
+      <path d="M478,180 L478,220 M478,180 L498,180 L498,200 L478,200 L498,220"/>
+      <!-- I. -->
+      <path d="M520,180 L530,180 L525,180 L525,220 L520,220 L530,220"/>
+      <!-- O hex. -->
+      <path d="M548,180 L568,175 L588,180 L588,220 L568,225 L548,220 Z"/>
+      <!-- R. -->
+      <path d="M608,180 L608,220 M608,180 L628,180 L628,200 L608,200 L628,220"/>
+    </g>
+    <!-- English subtitle. -->
+    <text x="540" y="248" text-anchor="middle" font-family="Courier, monospace" font-size="11" font-weight="700" fill="#ffffff" opacity="0.95">[PRIOR]</text>
+  </g>
+
+  <!-- CORRUPTION ARTIFACTS — flickering edges. -->
+  <g stroke="#a8d8f8" stroke-width="0.85" fill="none" opacity="0.85" filter="url(#p20p3bloom)">
+    <!-- Static flickers. -->
+    <path d="M14,180 L40,180 M14,200 L30,200 M14,220 L40,220"/>
+    <path d="M714,180 L740,180 M714,200 L740,200 M714,220 L735,220"/>
+    <!-- Vertical glitch lines. -->
+    <line x1="380" y1="170" x2="380" y2="180" opacity="0.65"/>
+    <line x1="430" y1="225" x2="430" y2="235" opacity="0.65"/>
+  </g>
+  <!-- Static dropouts (small dark slashes). -->
+  <g fill="#080404" opacity="0.85">
+    <rect x="160" y="305" width="6" height="3"/>
+    <rect x="200" y="307" width="8" height="3"/>
+    <rect x="280" y="304" width="6" height="3"/>
+    <rect x="450" y="306" width="8" height="3"/>
+    <rect x="540" y="305" width="6" height="3"/>
+    <rect x="620" y="307" width="8" height="3"/>
+  </g>
+
+  <!-- STATUS BAR (file integrity declining). -->
+  <g id="p20p3-status">
+    <rect x="14" y="324" width="220" height="14" fill="none" stroke="#a8d8f8" stroke-width="0.85" opacity="0.85"/>
+    <rect x="16" y="326" width="50" height="10" fill="#a8d8f8" opacity="0.85" filter="url(#p20p3bloom)"/>
+    <text x="240" y="334" font-family="Courier, monospace" font-size="9" fill="#a8d8f8" opacity="0.95">FILE INTEGRITY: 22%</text>
+    <text x="240" y="346" font-family="Courier, monospace" font-size="8" fill="#a8d8f8" opacity="0.85">[DEGRADING]</text>
+  </g>
+
+  <!-- CAPTIONS — Sable's internal monologue, fractured like display. -->
+  <g id="p20p3-cap1">
+    <rect x="430" y="290" width="298" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="440" y="306" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="700" font-style="italic" fill="#5a4a30">SABLE</text>
+    <text x="475" y="306" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" font-style="italic" fill="#5a4a30">(internal, fractured)</text>
+    <text x="440" y="320" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">...convergence parameters exceeded... prior deployment...</text>
+  </g>
+  <g id="p20p3-cap2">
+    <rect x="430" y="328" width="298" height="20" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="440" y="343" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">The file died before it finished.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p20p3-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#a8d8f8" opacity="0.65">3</text>
+    <text x="738" y="352" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#a8d8f8" opacity="0.55">FILE DYING</text>
+  </g>
+</svg>
