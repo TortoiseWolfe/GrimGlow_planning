@@ -1,0 +1,279 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 260" width="366" height="260">
+  <title>Issue 2 — Page 5 — Panel 2: Sable + Wren on bracket — holo map</title>
+  <desc>MS 50mm eye-level profile. Sable + Wren on drainpipe bracket — narrow ledge on rain-soaked brick wall. Sable faces street (right), Wren faces Sable (left). COPPER-GOLD HOLOGRAPHIC MAP between them — geometric route projection w/ glowing point (current position) + second point (wreckage 4 blocks away). Rain streaming down brick wall, mist rising from below. Both soaked, professional. WREN multi-line + SABLE + WREN reply.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p5p2brickWet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#1a1010"/>
+    </linearGradient>
+    <linearGradient id="p5p2bracket" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a45"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <linearGradient id="p5p2silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a0a8b4"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p5p2copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c87a35"/>
+      <stop offset="100%" stop-color="#5a3010"/>
+    </linearGradient>
+    <radialGradient id="p5p2copperGold">
+      <stop offset="0%" stop-color="#f5d860" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a87830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3010" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p5p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p5p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG brick wall (rain-soaked). -->
+  <rect width="366" height="260" fill="url(#p5p2brickWet)"/>
+
+  <!-- Brick courses. -->
+  <g stroke="#5a3818" stroke-width="0.4" opacity="0.55">
+    <line x1="0" y1="40" x2="366" y2="40"/>
+    <line x1="0" y1="80" x2="366" y2="80"/>
+    <line x1="0" y1="120" x2="366" y2="120"/>
+    <line x1="0" y1="160" x2="366" y2="160"/>
+    <line x1="0" y1="200" x2="366" y2="200"/>
+  </g>
+  <!-- Brick verticals. -->
+  <g stroke="#5a3818" stroke-width="0.3" opacity="0.45">
+    <line x1="50" y1="0" x2="50" y2="40"/>
+    <line x1="120" y1="40" x2="120" y2="80"/>
+    <line x1="220" y1="80" x2="220" y2="120"/>
+    <line x1="80" y1="120" x2="80" y2="160"/>
+    <line x1="280" y1="160" x2="280" y2="200"/>
+    <line x1="160" y1="200" x2="160" y2="260"/>
+  </g>
+
+  <!-- WET SHEEN on brick (script-specific: water streaming down). -->
+  <g stroke="#7af0ff" stroke-width="0.5" opacity="0.55" filter="url(#p5p2bloom)">
+    <line x1="40" y1="0" x2="42" y2="200"/>
+    <line x1="100" y1="0" x2="98" y2="200"/>
+    <line x1="180" y1="0" x2="182" y2="200"/>
+    <line x1="260" y1="0" x2="258" y2="200"/>
+    <line x1="340" y1="0" x2="342" y2="200"/>
+  </g>
+  <g stroke="#dce4f0" stroke-width="0.3" opacity="0.7">
+    <line x1="40" y1="0" x2="42" y2="200"/>
+    <line x1="100" y1="0" x2="98" y2="200"/>
+    <line x1="180" y1="0" x2="182" y2="200"/>
+    <line x1="260" y1="0" x2="258" y2="200"/>
+    <line x1="340" y1="0" x2="342" y2="200"/>
+  </g>
+
+  <!-- Brick texture stipple (soot). -->
+  <g fill="#080404" opacity="0.55">
+    <circle cx="60" cy="60" r="1"/>
+    <circle cx="200" cy="100" r="1"/>
+    <circle cx="120" cy="170" r="1"/>
+    <circle cx="320" cy="180" r="1"/>
+  </g>
+
+  <!-- DRAINPIPE BRACKET LEDGE (narrow horizontal across mid-frame — script-specific). -->
+  <g id="p5p2-bracket">
+    <rect x="0" y="200" width="366" height="20" fill="url(#p5p2bracket)"/>
+    <line x1="0" y1="200" x2="366" y2="200" stroke="#080a14" stroke-width="1.4"/>
+    <line x1="0" y1="220" x2="366" y2="220" stroke="#080a14" stroke-width="0.7"/>
+    <!-- Bolt heads. -->
+    <g fill="#080a14">
+      <circle cx="50" cy="210" r="2"/>
+      <circle cx="180" cy="210" r="2"/>
+      <circle cx="316" cy="210" r="2"/>
+    </g>
+    <!-- Water splashing on bracket. -->
+    <g fill="#dce4f0" opacity="0.7" filter="url(#p5p2bloom)">
+      <ellipse cx="80" cy="200" rx="9" ry="2"/>
+      <ellipse cx="260" cy="200" rx="9" ry="2"/>
+    </g>
+  </g>
+
+  <!-- Mist rising from below (script-specific). -->
+  <g fill="#a8a8b0" opacity="0.4" filter="url(#p5p2strongBloom)">
+    <ellipse cx="183" cy="240" rx="200" ry="20"/>
+    <ellipse cx="183" cy="220" rx="160" ry="10"/>
+  </g>
+
+  <!-- SABLE on bracket (right side, facing right toward street, body in profile). -->
+  <g id="p5p2-sable" transform="translate(240, 150)">
+
+    <!-- Lower legs on bracket. -->
+    <path d="M-10,40 L-12,50" fill="none" stroke="#3a3a45" stroke-width="9" stroke-linecap="round"/>
+    <path d="M10,40 L12,50" fill="none" stroke="#3a3a45" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- Thighs. -->
+    <path d="M-12,5 L-12,40 L0,40" fill="url(#p5p2silver)" stroke="#080408" stroke-width="0.6"/>
+    <path d="M12,5 L12,40 L0,40" fill="url(#p5p2silver)" stroke="#080408" stroke-width="0.6"/>
+
+    <!-- Torso (profile facing right). -->
+    <path d="M-15,-22 Q-20,5 -12,28 L12,28 Q20,5 15,-22 L8,-30 L-8,-30 Z" fill="url(#p5p2silver)" stroke="#080408" stroke-width="0.7"/>
+    <line x1="0" y1="-20" x2="0" y2="22" stroke="#dce4ff" stroke-width="0.5" opacity="0.7" filter="url(#p5p2bloom)"/>
+
+    <!-- Water spots speckled. -->
+    <g fill="#080a14" opacity="0.55">
+      <circle cx="-12" cy="-12" r="0.9"/>
+      <circle cx="12" cy="-12" r="0.9"/>
+      <circle cx="-8" cy="-2" r="0.7"/>
+      <circle cx="8" cy="-2" r="0.7"/>
+    </g>
+    <g fill="#7af0ff" opacity="0.45">
+      <circle cx="-12" cy="-12" r="0.4"/>
+      <circle cx="12" cy="-12" r="0.4"/>
+    </g>
+
+    <!-- Shoulders. -->
+    <ellipse cx="-15" cy="-22" rx="6" ry="3" fill="#a8a8b0" stroke="#080408" stroke-width="0.5"/>
+    <!-- CRACKED right shoulder bleed (continuity). -->
+    <ellipse cx="15" cy="-22" rx="6" ry="3" fill="#a8a8b0" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="15" cy="-22" rx="9" ry="6" fill="#dce4ff" opacity="0.85" filter="url(#p5p2bloom)"/>
+
+    <!-- Arms — left arm reaching forward toward Wren/holo, right arm at side. -->
+    <line x1="-15" y1="-15" x2="-26" y2="-5" stroke="url(#p5p2silver)" stroke-width="6" stroke-linecap="round"/>
+    <line x1="15" y1="-15" x2="22" y2="5" stroke="url(#p5p2silver)" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Head profile (looking left at Wren/holo). -->
+    <ellipse cx="-2" cy="-42" rx="11" ry="12" fill="#5a3818" transform="rotate(-15 -2 -42)"/>
+    <!-- Silver buzz. -->
+    <path d="M-9,-50 Q0,-54 9,-50 L9,-42 L-9,-42 Z" fill="#c8ccd4" transform="rotate(-15 -2 -42)"/>
+    <!-- Eyes (looking at holo — slightly down-left). -->
+    <ellipse cx="-5" cy="-40" rx="1.4" ry="1" fill="#080404" transform="rotate(-15 -2 -42)"/>
+    <ellipse cx="0" cy="-40" rx="1.4" ry="1" fill="#080404" transform="rotate(-15 -2 -42)"/>
+    <!-- Brow. -->
+    <path d="M-7,-46 Q-3,-48 0,-46" stroke="#3a2810" stroke-width="0.7" fill="none" transform="rotate(-15 -2 -42)"/>
+    <path d="M0,-46 Q3,-48 6,-46" stroke="#3a2810" stroke-width="0.7" fill="none" transform="rotate(-15 -2 -42)"/>
+    <!-- Lips firm. -->
+    <line x1="-3" y1="-30" x2="3" y2="-30" stroke="#3a1810" stroke-width="0.8" transform="rotate(-15 -2 -42)"/>
+    <!-- Cheekbones. -->
+    <ellipse cx="-7" cy="-34" rx="2.5" ry="1.2" fill="#3a2010" opacity="0.55" transform="rotate(-15 -2 -42)"/>
+    <ellipse cx="6" cy="-34" rx="2.5" ry="1.2" fill="#3a2010" opacity="0.55" transform="rotate(-15 -2 -42)"/>
+  </g>
+
+  <!-- WREN on bracket (left side, facing right toward Sable/holo). -->
+  <g id="p5p2-wren" transform="translate(120, 150)">
+
+    <!-- Lower legs on bracket. -->
+    <path d="M-10,40 L-12,50" fill="none" stroke="#5a3010" stroke-width="9" stroke-linecap="round"/>
+    <path d="M10,40 L12,50" fill="none" stroke="#5a3010" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- Thighs. -->
+    <path d="M-12,5 L-12,40 L0,40" fill="url(#p5p2copper)" stroke="#080408" stroke-width="0.6"/>
+    <path d="M12,5 L12,40 L0,40" fill="url(#p5p2copper)" stroke="#080408" stroke-width="0.6"/>
+
+    <!-- Torso. -->
+    <path d="M-15,-22 Q-20,5 -12,28 L12,28 Q20,5 15,-22 L8,-30 L-8,-30 Z" fill="url(#p5p2copper)" stroke="#080408" stroke-width="0.7"/>
+    <line x1="0" y1="-20" x2="0" y2="22" stroke="#f5a868" stroke-width="0.5" opacity="0.7" filter="url(#p5p2bloom)"/>
+
+    <!-- Water spots. -->
+    <g fill="#080a14" opacity="0.55">
+      <circle cx="-12" cy="-12" r="0.9"/>
+      <circle cx="12" cy="-12" r="0.9"/>
+    </g>
+
+    <!-- Shoulders. -->
+    <ellipse cx="-15" cy="-22" rx="6" ry="3" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="15" cy="-22" rx="6" ry="3" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- Arms — RIGHT arm forward (projecting holo toward Sable), left at side. -->
+    <line x1="-15" y1="-15" x2="-22" y2="5" stroke="url(#p5p2copper)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M15,-15 L26,-5 L40,-2" fill="none" stroke="url(#p5p2copper)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Hand projecting holo. -->
+    <ellipse cx="40" cy="-2" rx="4" ry="3" fill="#5a3010" stroke="#080408" stroke-width="0.4"/>
+    <!-- Wrist holo emitter. -->
+    <circle cx="34" cy="-3" r="2" fill="#f5d860" filter="url(#p5p2bloom)"/>
+    <!-- Oil stains on forearms. -->
+    <ellipse cx="-19" cy="-2" rx="3" ry="2" fill="#1a0a08" opacity="0.7"/>
+    <ellipse cx="28" cy="-3" rx="3" ry="2" fill="#1a0a08" opacity="0.7"/>
+
+    <!-- Head profile (looking right at Sable/holo). -->
+    <ellipse cx="2" cy="-42" rx="11" ry="12" fill="#d8b088" transform="rotate(15 2 -42)"/>
+    <!-- HAIR UP IN MESSY BUN (continuity). -->
+    <g transform="rotate(15 2 -42)">
+      <path d="M-7,-50 Q3,-54 11,-50 L11,-42 L-7,-42 Z" fill="#0a0a14"/>
+      <ellipse cx="2" cy="-58" rx="6" ry="4" fill="#0a0a14"/>
+      <ellipse cx="2" cy="-54" rx="5" ry="1" fill="#3a2810" opacity="0.85"/>
+      <line x1="-2" y1="-54" x2="-3" y2="-50" stroke="#0a0a14" stroke-width="0.5"/>
+      <line x1="6" y1="-54" x2="7" y2="-50" stroke="#0a0a14" stroke-width="0.5"/>
+    </g>
+    <!-- Eyes (looking at holo). -->
+    <ellipse cx="0" cy="-40" rx="1.4" ry="1" fill="#0a0a14" transform="rotate(15 2 -42)"/>
+    <ellipse cx="6" cy="-40" rx="1.4" ry="1" fill="#0a0a14" transform="rotate(15 2 -42)"/>
+    <!-- Brow. -->
+    <path d="M-4,-46 Q0,-48 2,-46" stroke="#3a1808" stroke-width="0.7" fill="none" transform="rotate(15 2 -42)"/>
+    <path d="M2,-46 Q5,-48 8,-46" stroke="#3a1808" stroke-width="0.7" fill="none" transform="rotate(15 2 -42)"/>
+    <!-- Lips firm. -->
+    <line x1="-1" y1="-30" x2="6" y2="-30" stroke="#3a1810" stroke-width="0.8" transform="rotate(15 2 -42)"/>
+  </g>
+
+  <!-- HOLOGRAPHIC MAP PROJECTION between Sable and Wren (script-specific). -->
+  <g id="p5p2-holo-map" transform="translate(180, 100)">
+    <!-- Holo bloom. -->
+    <ellipse cx="0" cy="0" rx="44" ry="26" fill="url(#p5p2copperGold)" filter="url(#p5p2strongBloom)" opacity="0.85"/>
+
+    <!-- Geometric route projection. -->
+    <g stroke="#f5d860" stroke-width="0.8" fill="none" opacity="0.95" filter="url(#p5p2bloom)">
+      <!-- Map outline / street grid. -->
+      <line x1="-30" y1="-15" x2="30" y2="-15"/>
+      <line x1="-30" y1="0" x2="30" y2="0"/>
+      <line x1="-30" y1="15" x2="30" y2="15"/>
+      <line x1="-25" y1="-20" x2="-25" y2="20"/>
+      <line x1="-5" y1="-20" x2="-5" y2="20"/>
+      <line x1="15" y1="-20" x2="15" y2="20"/>
+      <!-- Route path (animated dash). -->
+      <path d="M-25,-15 Q-15,-10 -5,-5 Q5,0 15,10" stroke-width="1.4" stroke-dasharray="3,2"/>
+    </g>
+
+    <!-- Glowing point: current position (origin). -->
+    <circle cx="-25" cy="-15" r="3" fill="#dce4ff" filter="url(#p5p2bloom)"/>
+    <circle cx="-25" cy="-15" r="1.5" fill="#ffffff"/>
+    <!-- Glowing point: wreckage location (destination). -->
+    <circle cx="15" cy="10" r="3" fill="#f54848" filter="url(#p5p2bloom)"/>
+    <circle cx="15" cy="10" r="1.5" fill="#ffffff"/>
+
+    <!-- Diagnostic text. -->
+    <g font-family="Helvetica Neue, Arial, sans-serif" fill="#f5d860" opacity="0.95">
+      <text x="-30" y="-25" font-size="6" font-weight="600">HERE</text>
+      <text x="20" y="-2" font-size="6" font-weight="600">DRIVE</text>
+      <text x="0" y="25" font-size="6" font-weight="600" text-anchor="middle">4 BLOCKS SW</text>
+    </g>
+  </g>
+
+  <!-- WREN dialogue. -->
+  <g id="p5p2-dlg-wren">
+    <rect x="14" y="14" width="226" height="60" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" fill="#1a1a1a">4 blocks SW. Cross at drain grate.</text>
+    <text x="24" y="66" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a3030">Twenty min. If nothing goes wrong.</text>
+    <path d="M124,74 L142,74 L120,140 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="124" y1="74" x2="142" y2="74" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE dialogue. -->
+  <g id="p5p2-dlg-sable">
+    <rect x="246" y="14" width="106" height="44" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="256" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="256" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a3030">Things will.</text>
+    <path d="M286,58 L302,58 L240,140 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="286" y1="58" x2="302" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- WREN reply (lower-left). -->
+  <g id="p5p2-dlg-wren-2">
+    <rect x="14" y="220" width="100" height="32" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="237" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="249" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#1a1a1a">So forty.</text>
+    <path d="M70,220 L88,220 L120,170 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="70" y1="220" x2="88" y2="220" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p5p2-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="362" y="252" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">HOLO MAP</text>
+  </g>
+</svg>

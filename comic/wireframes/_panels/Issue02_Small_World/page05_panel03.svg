@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 260" width="366" height="260">
+  <title>Issue 2 — Page 5 — Panel 3: Bird's-eye street POV — battlefield</title>
+  <desc>Wide 24mm bird's-eye DOWN at street from squad's 4-stories-up POV. Granite setts vast grey rain-darkened boulder field, puddles forming as dark mirrors. Kerbstone runs along left edge as long cliff. Boot soles passing — building-floor sized, leaving wet crater prints. Dog trotting paws like rooms (train-scale body). Rain churning everywhere. LUMA: "Counting foot traffic. Every 8 sec." SABLE: "Between steps."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p5p3cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p5p3kerb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="p5p3puddle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <radialGradient id="p5p3amberRefl">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p5p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p5p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- BG: street viewed from above. -->
+  <rect width="366" height="260" fill="#3a3e48"/>
+
+  <!-- KERBSTONE running along left edge as cliff face (script-specific). -->
+  <g id="p5p3-kerbstone">
+    <rect x="0" y="0" width="40" height="260" fill="url(#p5p3kerb)"/>
+    <line x1="40" y1="0" x2="40" y2="260" stroke="#080a14" stroke-width="1.4"/>
+    <!-- Joint marks. -->
+    <g stroke="#080a14" stroke-width="0.4" opacity="0.55">
+      <line x1="0" y1="80" x2="40" y2="80"/>
+      <line x1="0" y1="160" x2="40" y2="160"/>
+    </g>
+  </g>
+
+  <!-- GRANITE SETTS as boulder field (script-specific). -->
+  <g id="p5p3-setts">
+    <!-- Setts grid (rows). -->
+    <g fill="url(#p5p3cobble)" stroke="#080a14" stroke-width="0.5">
+      <ellipse cx="80" cy="40" rx="22" ry="9"/>
+      <ellipse cx="130" cy="42" rx="22" ry="9"/>
+      <ellipse cx="180" cy="40" rx="22" ry="9"/>
+      <ellipse cx="230" cy="42" rx="22" ry="9"/>
+      <ellipse cx="280" cy="40" rx="22" ry="9"/>
+      <ellipse cx="330" cy="42" rx="22" ry="9"/>
+
+      <ellipse cx="100" cy="80" rx="20" ry="8"/>
+      <ellipse cx="150" cy="82" rx="20" ry="8"/>
+      <ellipse cx="200" cy="80" rx="20" ry="8"/>
+      <ellipse cx="250" cy="82" rx="20" ry="8"/>
+      <ellipse cx="300" cy="80" rx="20" ry="8"/>
+      <ellipse cx="340" cy="82" rx="18" ry="7"/>
+
+      <ellipse cx="80" cy="120" rx="22" ry="9"/>
+      <ellipse cx="130" cy="122" rx="22" ry="9"/>
+      <ellipse cx="180" cy="120" rx="22" ry="9"/>
+      <ellipse cx="230" cy="122" rx="22" ry="9"/>
+      <ellipse cx="280" cy="120" rx="22" ry="9"/>
+      <ellipse cx="330" cy="122" rx="22" ry="9"/>
+
+      <ellipse cx="100" cy="160" rx="20" ry="8"/>
+      <ellipse cx="150" cy="162" rx="20" ry="8"/>
+      <ellipse cx="200" cy="160" rx="20" ry="8"/>
+      <ellipse cx="250" cy="162" rx="20" ry="8"/>
+      <ellipse cx="300" cy="160" rx="20" ry="8"/>
+      <ellipse cx="340" cy="162" rx="18" ry="7"/>
+
+      <ellipse cx="80" cy="200" rx="22" ry="9"/>
+      <ellipse cx="130" cy="202" rx="22" ry="9"/>
+      <ellipse cx="180" cy="200" rx="22" ry="9"/>
+      <ellipse cx="230" cy="202" rx="22" ry="9"/>
+      <ellipse cx="280" cy="200" rx="22" ry="9"/>
+      <ellipse cx="330" cy="202" rx="22" ry="9"/>
+    </g>
+    <!-- Wet sheen on cobbles. -->
+    <g fill="#7a7e88" opacity="0.55" filter="url(#p5p3bloom)">
+      <ellipse cx="80" cy="36" rx="12" ry="2"/>
+      <ellipse cx="180" cy="36" rx="12" ry="2"/>
+      <ellipse cx="280" cy="36" rx="12" ry="2"/>
+      <ellipse cx="80" cy="116" rx="12" ry="2"/>
+      <ellipse cx="180" cy="116" rx="12" ry="2"/>
+      <ellipse cx="280" cy="116" rx="12" ry="2"/>
+      <ellipse cx="80" cy="196" rx="12" ry="2"/>
+      <ellipse cx="180" cy="196" rx="12" ry="2"/>
+      <ellipse cx="280" cy="196" rx="12" ry="2"/>
+    </g>
+
+    <!-- PUDDLES as mirrors (script-specific). -->
+    <g fill="url(#p5p3puddle)">
+      <ellipse cx="120" cy="60" rx="20" ry="3"/>
+      <ellipse cx="220" cy="100" rx="22" ry="3.5"/>
+      <ellipse cx="160" cy="180" rx="18" ry="3"/>
+      <ellipse cx="320" cy="140" rx="20" ry="3"/>
+    </g>
+    <!-- Puddle reflection of grey sky. -->
+    <g fill="#7a7e88" opacity="0.45">
+      <ellipse cx="120" cy="59" rx="16" ry="1"/>
+      <ellipse cx="220" cy="99" rx="18" ry="1"/>
+      <ellipse cx="160" cy="179" rx="14" ry="1"/>
+      <ellipse cx="320" cy="139" rx="16" ry="1"/>
+    </g>
+  </g>
+
+  <!-- GAS LAMP GLOW reflection (amber highlight on wet cobbles — script-specific). -->
+  <g fill="url(#p5p3amberRefl)" filter="url(#p5p3bloom)" opacity="0.7">
+    <ellipse cx="200" cy="200" rx="50" ry="14"/>
+    <ellipse cx="100" cy="120" rx="30" ry="10"/>
+  </g>
+
+  <!-- BOOT SOLE silhouette passing — building-floor sized (script-specific). Top-right. -->
+  <g id="p5p3-boot-sole">
+    <!-- Boot footprint silhouette. -->
+    <path d="M260,30 Q260,20 280,16 Q320,14 340,20 Q360,28 360,46 Q360,62 340,70 Q320,76 290,72 Q270,66 264,50 Z" fill="#080404" opacity="0.95"/>
+    <!-- Sole tread pattern. -->
+    <g stroke="#1a1010" stroke-width="0.5" opacity="0.55">
+      <line x1="280" y1="25" x2="340" y2="32"/>
+      <line x1="280" y1="40" x2="350" y2="46"/>
+      <line x1="280" y1="55" x2="340" y2="60"/>
+    </g>
+    <!-- Wet print/water beneath. -->
+    <ellipse cx="312" cy="76" rx="40" ry="3" fill="#5a606a" opacity="0.85" filter="url(#p5p3bloom)"/>
+  </g>
+
+  <!-- Wet CRATER PRINT left behind (square footprint — script-specific). -->
+  <g id="p5p3-crater-print">
+    <ellipse cx="160" cy="100" rx="34" ry="9" fill="#1a1c20" opacity="0.85"/>
+    <ellipse cx="160" cy="100" rx="34" ry="9" fill="none" stroke="#3a3e48" stroke-width="0.5"/>
+    <!-- Water in crater. -->
+    <ellipse cx="160" cy="100" rx="28" ry="6" fill="#5a606a" opacity="0.85"/>
+  </g>
+
+  <!-- DOG silhouette trotting (script-specific: paws like rooms, train-scale body). Lower mid-frame. -->
+  <g id="p5p3-dog">
+    <!-- Body silhouette. -->
+    <ellipse cx="160" cy="240" rx="60" ry="18" fill="#1a1010" opacity="0.85"/>
+    <!-- Head. -->
+    <ellipse cx="100" cy="240" rx="14" ry="11" fill="#1a1010" opacity="0.85"/>
+    <!-- Tail. -->
+    <path d="M218,240 Q230,232 232,222" stroke="#1a1010" stroke-width="3" fill="none" opacity="0.85"/>
+    <!-- Legs/paws (paws like rooms). -->
+    <rect x="118" y="250" width="9" height="10" fill="#080404"/>
+    <rect x="148" y="250" width="9" height="10" fill="#080404"/>
+    <rect x="178" y="250" width="9" height="10" fill="#080404"/>
+    <rect x="200" y="250" width="9" height="10" fill="#080404"/>
+    <!-- Wet fur catching dim light. -->
+    <ellipse cx="160" cy="232" rx="40" ry="4" fill="#3a3e48" opacity="0.55" filter="url(#p5p3bloom)"/>
+  </g>
+
+  <!-- RAIN IMPACTS churning everywhere. -->
+  <g fill="#dce4f0" opacity="0.7" filter="url(#p5p3bloom)">
+    <ellipse cx="80" cy="60" rx="3" ry="1"/>
+    <ellipse cx="200" cy="40" rx="3" ry="1"/>
+    <ellipse cx="280" cy="100" rx="3" ry="1"/>
+    <ellipse cx="120" cy="160" rx="3" ry="1"/>
+    <ellipse cx="240" cy="180" rx="3" ry="1"/>
+    <ellipse cx="320" cy="60" rx="3" ry="1"/>
+    <ellipse cx="100" cy="220" rx="3" ry="1"/>
+  </g>
+  <!-- Splash droplets. -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="80" cy="58" r="0.7"/>
+    <circle cx="200" cy="38" r="0.7"/>
+    <circle cx="120" cy="158" r="0.7"/>
+    <circle cx="240" cy="178" r="0.7"/>
+  </g>
+
+  <!-- Atmospheric distant raindrop streaks (descending). -->
+  <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.45">
+    <line x1="80" y1="0" x2="80" y2="30"/>
+    <line x1="200" y1="0" x2="200" y2="30"/>
+    <line x1="280" y1="0" x2="280" y2="20"/>
+    <line x1="160" y1="50" x2="160" y2="80"/>
+    <line x1="240" y1="120" x2="240" y2="150"/>
+    <line x1="100" y1="170" x2="100" y2="200"/>
+  </g>
+
+  <!-- LUMA dialogue. -->
+  <g id="p5p3-dlg-luma">
+    <rect x="14" y="14" width="180" height="44" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="48" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" fill="#1a1a1a">Foot traffic every 8 sec.</text>
+    <path d="M70,58 L88,58 L40,140 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="70" y1="58" x2="88" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE dialogue. -->
+  <g id="p5p3-dlg-sable">
+    <rect x="200" y="220" width="156" height="32" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="210" y="237" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="210" y="249" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#1a1a1a">Between steps.</text>
+    <path d="M260,220 L278,220 L60,140 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="260" y1="220" x2="278" y2="220" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p5p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="362" y="252" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">STREET POV</text>
+  </g>
+</svg>

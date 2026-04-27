@@ -1,0 +1,335 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 400" width="742" height="400">
+  <title>Issue 2 — Page 5 — Panel 1: THE SCALE REVEAL splash — Victorian street at fairy scale</title>
+  <desc>Extreme wide worm's-eye 20mm slight upward tilt. Squad emerges at base of drainpipe on exterior brick wall 4 stories up. BELOW: Victorian street at fairy scale — granite setts as boulder plateau (each cobblestone waist-high, gaps as ravines), kerbstone as cliff face 2x height, GAS LAMP POST as LIGHTHOUSE TOWER 24x height (amber sun in rain). Shop fronts cliff faces across street. Horse-drawn cart passing — hoof = building, wheel = rolling wall. Rain falling everywhere, permanent mist. Squad as 5 tiny colored specks on brick wall. SABLE: "..." WREN + JINK + THRESH dialogue.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p5p1leaden" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p5p1brick" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#1a1010"/>
+    </linearGradient>
+    <linearGradient id="p5p1cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p5p1gasLamp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <radialGradient id="p5p1amberSun">
+      <stop offset="0%" stop-color="#f5e060" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p5p1shopFront" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2018"/>
+      <stop offset="100%" stop-color="#1a1010"/>
+    </linearGradient>
+    <linearGradient id="p5p1horse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1010"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <radialGradient id="p5p1mistBase" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#a8a8b0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a3e48" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p5p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p5p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p5p1deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG sky leaden grey overcast. -->
+  <rect width="742" height="180" fill="url(#p5p1leaden)"/>
+
+  <!-- BG raindrops descending streaks. -->
+  <g stroke="#a8b8c8" stroke-width="0.7" opacity="0.55" filter="url(#p5p1bloom)">
+    <line x1="60" y1="20" x2="60" y2="60"/>
+    <line x1="160" y1="40" x2="160" y2="80"/>
+    <line x1="240" y1="20" x2="240" y2="60"/>
+    <line x1="380" y1="35" x2="380" y2="75"/>
+    <line x1="500" y1="20" x2="500" y2="55"/>
+    <line x1="600" y1="40" x2="600" y2="80"/>
+    <line x1="680" y1="20" x2="680" y2="55"/>
+  </g>
+
+  <!-- BRICK WALL on RIGHT (where squad emerged from drainpipe base 4 stories up). -->
+  <g id="p5p1-brick-wall">
+    <rect x="600" y="0" width="142" height="280" fill="url(#p5p1brick)"/>
+    <!-- Brick courses. -->
+    <g stroke="#5a3818" stroke-width="0.4" opacity="0.55">
+      <line x1="600" y1="40" x2="742" y2="40"/>
+      <line x1="600" y1="80" x2="742" y2="80"/>
+      <line x1="600" y1="120" x2="742" y2="120"/>
+      <line x1="600" y1="160" x2="742" y2="160"/>
+      <line x1="600" y1="200" x2="742" y2="200"/>
+      <line x1="600" y1="240" x2="742" y2="240"/>
+    </g>
+    <!-- Brick verticals (staggered). -->
+    <g stroke="#5a3818" stroke-width="0.3" opacity="0.45">
+      <line x1="660" y1="0" x2="660" y2="40"/>
+      <line x1="700" y1="40" x2="700" y2="80"/>
+      <line x1="640" y1="80" x2="640" y2="120"/>
+      <line x1="700" y1="120" x2="700" y2="160"/>
+      <line x1="660" y1="160" x2="660" y2="200"/>
+      <line x1="700" y1="200" x2="700" y2="240"/>
+    </g>
+    <!-- DRAINPIPE on right edge. -->
+    <rect x="660" y="0" width="20" height="280" fill="#0a0c10"/>
+    <line x1="670" y1="0" x2="670" y2="280" stroke="#3a3a45" stroke-width="0.6" opacity="0.55"/>
+    <!-- Drainpipe brackets. -->
+    <rect x="654" y="120" width="32" height="6" fill="#1a1820"/>
+    <rect x="654" y="220" width="32" height="6" fill="#1a1820"/>
+  </g>
+
+  <!-- DISTANT SHOP FRONTS across street (left half BG). -->
+  <g id="p5p1-shop-fronts">
+    <rect x="0" y="40" width="500" height="240" fill="url(#p5p1shopFront)"/>
+    <!-- Shop windows (large glass panes). -->
+    <rect x="40" y="120" width="120" height="100" fill="#5a606a" opacity="0.7"/>
+    <rect x="40" y="120" width="120" height="100" fill="none" stroke="#0a0c10" stroke-width="0.7"/>
+    <!-- Window frame divisions. -->
+    <line x1="100" y1="120" x2="100" y2="220" stroke="#1a0c08" stroke-width="0.5"/>
+    <line x1="40" y1="170" x2="160" y2="170" stroke="#1a0c08" stroke-width="0.5"/>
+    <!-- Faint warm glow inside (lit shop). -->
+    <ellipse cx="100" cy="170" rx="55" ry="40" fill="#a85820" opacity="0.45" filter="url(#p5p1bloom)"/>
+
+    <rect x="220" y="100" width="160" height="120" fill="#5a606a" opacity="0.7"/>
+    <rect x="220" y="100" width="160" height="120" fill="none" stroke="#0a0c10" stroke-width="0.7"/>
+    <line x1="300" y1="100" x2="300" y2="220" stroke="#1a0c08" stroke-width="0.5"/>
+    <line x1="220" y1="160" x2="380" y2="160" stroke="#1a0c08" stroke-width="0.5"/>
+
+    <!-- Architectural details (cornice line). -->
+    <rect x="0" y="40" width="500" height="6" fill="#1a0c08"/>
+    <rect x="0" y="46" width="500" height="3" fill="#3a2018"/>
+  </g>
+
+  <!-- GAS LAMP POST as LIGHTHOUSE TOWER (24x character height — script-specific). Mid-frame center. -->
+  <g id="p5p1-gas-lamp">
+    <!-- Base / pedestal. -->
+    <rect x="395" y="270" width="20" height="14" fill="#1a1820" stroke="#080a14" stroke-width="0.7"/>
+    <rect x="392" y="284" width="26" height="6" fill="#0a0c10"/>
+    <!-- Tall lamp post (towering). -->
+    <rect x="402" y="80" width="6" height="190" fill="url(#p5p1gasLamp)"/>
+    <line x1="404" y1="80" x2="404" y2="270" stroke="#3a3a45" stroke-width="0.5" opacity="0.7"/>
+    <!-- Post decorative band. -->
+    <rect x="398" y="200" width="14" height="6" fill="#1a1820" stroke="#080a14" stroke-width="0.5"/>
+    <rect x="400" y="120" width="10" height="3" fill="#1a1820"/>
+
+    <!-- Top arm + lantern hood. -->
+    <path d="M395,80 L388,72 L388,60 L424,60 L424,72 L417,80 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.7"/>
+    <!-- Lantern glass box. -->
+    <rect x="392" y="40" width="28" height="22" fill="#3a2818" stroke="#080a14" stroke-width="0.6"/>
+    <!-- Lantern frame divisions. -->
+    <line x1="406" y1="40" x2="406" y2="62" stroke="#080a14" stroke-width="0.4"/>
+    <line x1="392" y1="51" x2="420" y2="51" stroke="#080a14" stroke-width="0.4"/>
+    <!-- Lantern roof / cap. -->
+    <path d="M388,40 L406,28 L424,40 Z" fill="#1a1820" stroke="#080a14" stroke-width="0.7"/>
+    <!-- Top finial. -->
+    <rect x="404" y="22" width="4" height="6" fill="#1a1820"/>
+
+    <!-- WARM AMBER GLOW = SUN diffused in rain (script-specific). -->
+    <ellipse cx="406" cy="51" rx="80" ry="60" fill="url(#p5p1amberSun)" filter="url(#p5p1deepBloom)" opacity="0.95"/>
+    <!-- Inner bright core. -->
+    <ellipse cx="406" cy="51" rx="14" ry="11" fill="#fae898" filter="url(#p5p1bloom)" opacity="0.95"/>
+    <!-- Halo through rain. -->
+    <ellipse cx="406" cy="51" rx="50" ry="40" fill="#f5b860" opacity="0.55" filter="url(#p5p1strongBloom)"/>
+  </g>
+
+  <!-- HORSE-DRAWN CART silhouette (script: hoof = building, wheel = rolling wall). LEFT side mid-frame. -->
+  <g id="p5p1-horse-cart">
+    <!-- Horse body silhouette. -->
+    <ellipse cx="180" cy="290" rx="55" ry="30" fill="url(#p5p1horse)"/>
+    <!-- Horse neck + head. -->
+    <path d="M120,290 Q100,270 110,250 Q130,250 140,275 Z" fill="url(#p5p1horse)"/>
+    <ellipse cx="115" cy="252" rx="10" ry="14" fill="url(#p5p1horse)"/>
+    <!-- Horse mane streak. -->
+    <path d="M120,255 Q125,260 122,275" stroke="#080404" stroke-width="0.7" fill="none"/>
+    <!-- Horse legs (huge). -->
+    <rect x="138" y="305" width="14" height="40" fill="url(#p5p1horse)"/>
+    <rect x="195" y="305" width="14" height="40" fill="url(#p5p1horse)"/>
+    <!-- HOOVES = building-sized (script-specific). -->
+    <ellipse cx="145" cy="345" rx="14" ry="6" fill="#080404"/>
+    <ellipse cx="202" cy="345" rx="14" ry="6" fill="#080404"/>
+    <line x1="138" y1="343" x2="152" y2="343" stroke="#3a1808" stroke-width="0.7"/>
+
+    <!-- CART body behind horse. -->
+    <rect x="240" y="270" width="160" height="60" fill="url(#p5p1horse)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Cart panel detail. -->
+    <line x1="240" y1="290" x2="400" y2="290" stroke="#3a1808" stroke-width="0.4"/>
+    <line x1="320" y1="270" x2="320" y2="330" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- IRON-RIMMED WHEELS = rolling walls (script-specific). -->
+    <circle cx="280" cy="335" r="22" fill="url(#p5p1horse)" stroke="#080404" stroke-width="0.7"/>
+    <circle cx="280" cy="335" r="20" fill="none" stroke="#3a1808" stroke-width="2"/>
+    <!-- Wheel spokes. -->
+    <g stroke="#3a1808" stroke-width="0.7">
+      <line x1="280" y1="315" x2="280" y2="355"/>
+      <line x1="260" y1="335" x2="300" y2="335"/>
+      <line x1="265" y1="320" x2="295" y2="350"/>
+      <line x1="265" y1="350" x2="295" y2="320"/>
+    </g>
+    <circle cx="280" cy="335" r="5" fill="#080404"/>
+
+    <circle cx="360" cy="335" r="22" fill="url(#p5p1horse)" stroke="#080404" stroke-width="0.7"/>
+    <circle cx="360" cy="335" r="20" fill="none" stroke="#3a1808" stroke-width="2"/>
+    <g stroke="#3a1808" stroke-width="0.7">
+      <line x1="360" y1="315" x2="360" y2="355"/>
+      <line x1="340" y1="335" x2="380" y2="335"/>
+      <line x1="345" y1="320" x2="375" y2="350"/>
+      <line x1="345" y1="350" x2="375" y2="320"/>
+    </g>
+    <circle cx="360" cy="335" r="5" fill="#080404"/>
+
+    <!-- Cart traces/harness. -->
+    <line x1="200" y1="300" x2="240" y2="285" stroke="#3a1808" stroke-width="1.4"/>
+    <line x1="200" y1="305" x2="240" y2="295" stroke="#3a1808" stroke-width="1.4"/>
+  </g>
+
+  <!-- KERBSTONE running across foreground (cliff face — script-specific 2x height). -->
+  <g id="p5p1-kerbstone">
+    <rect x="0" y="284" width="742" height="14" fill="#3a3e48"/>
+    <line x1="0" y1="284" x2="742" y2="284" stroke="#080a14" stroke-width="0.7"/>
+    <line x1="0" y1="298" x2="742" y2="298" stroke="#080a14" stroke-width="0.5"/>
+    <!-- Kerbstone joint marks. -->
+    <g stroke="#080a14" stroke-width="0.4" opacity="0.55">
+      <line x1="80" y1="284" x2="80" y2="298"/>
+      <line x1="200" y1="284" x2="200" y2="298"/>
+      <line x1="320" y1="284" x2="320" y2="298"/>
+      <line x1="500" y1="284" x2="500" y2="298"/>
+      <line x1="640" y1="284" x2="640" y2="298"/>
+    </g>
+  </g>
+
+  <!-- GRANITE SETTS as boulder plateau (script-specific 3x character width — at fairy scale, each cobblestone is huge). -->
+  <g id="p5p1-granite-setts">
+    <!-- Setts grid (rows of textured cobbles). -->
+    <g fill="url(#p5p1cobble)" stroke="#080a14" stroke-width="0.5">
+      <!-- Row 1 (closest, large). -->
+      <ellipse cx="60" cy="350" rx="36" ry="14"/>
+      <ellipse cx="140" cy="355" rx="36" ry="14"/>
+      <ellipse cx="220" cy="350" rx="36" ry="14"/>
+      <ellipse cx="300" cy="355" rx="36" ry="14"/>
+      <ellipse cx="380" cy="350" rx="36" ry="14"/>
+      <ellipse cx="460" cy="355" rx="36" ry="14"/>
+      <ellipse cx="540" cy="350" rx="36" ry="14"/>
+      <ellipse cx="620" cy="355" rx="36" ry="14"/>
+      <ellipse cx="700" cy="350" rx="36" ry="14"/>
+      <!-- Row 2 (slightly back, smaller). -->
+      <ellipse cx="100" cy="380" rx="32" ry="11"/>
+      <ellipse cx="180" cy="385" rx="32" ry="11"/>
+      <ellipse cx="260" cy="380" rx="32" ry="11"/>
+      <ellipse cx="340" cy="385" rx="32" ry="11"/>
+      <ellipse cx="420" cy="380" rx="32" ry="11"/>
+      <ellipse cx="500" cy="385" rx="32" ry="11"/>
+      <ellipse cx="580" cy="380" rx="32" ry="11"/>
+      <ellipse cx="660" cy="385" rx="32" ry="11"/>
+    </g>
+    <!-- Wet sheen on cobbles. -->
+    <g fill="#7a7e88" opacity="0.55" filter="url(#p5p1bloom)">
+      <ellipse cx="60" cy="346" rx="22" ry="3"/>
+      <ellipse cx="220" cy="346" rx="22" ry="3"/>
+      <ellipse cx="380" cy="346" rx="22" ry="3"/>
+      <ellipse cx="540" cy="346" rx="22" ry="3"/>
+      <ellipse cx="700" cy="346" rx="22" ry="3"/>
+    </g>
+    <!-- PUDDLES forming in low spots. -->
+    <g fill="#3a3e48" opacity="0.85">
+      <ellipse cx="180" cy="375" rx="20" ry="3"/>
+      <ellipse cx="340" cy="375" rx="22" ry="3"/>
+      <ellipse cx="500" cy="375" rx="18" ry="3"/>
+    </g>
+  </g>
+
+  <!-- RAIN IMPACT splatters at street level — permanent mist + drops exploding upward. -->
+  <g id="p5p1-rain-impacts">
+    <!-- Rain mist at base (script-specific). -->
+    <ellipse cx="371" cy="395" rx="500" ry="14" fill="url(#p5p1mistBase)" filter="url(#p5p1deepBloom)" opacity="0.7"/>
+    <!-- Individual splatter halos. -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p5p1bloom)">
+      <ellipse cx="120" cy="345" rx="9" ry="4"/>
+      <ellipse cx="380" cy="345" rx="9" ry="4"/>
+      <ellipse cx="640" cy="350" rx="9" ry="4"/>
+    </g>
+    <g fill="#ffffff" opacity="0.85">
+      <circle cx="120" cy="340" r="0.9"/>
+      <circle cx="125" cy="343" r="0.7"/>
+      <circle cx="380" cy="340" r="0.9"/>
+      <circle cx="640" cy="345" r="0.9"/>
+    </g>
+    <!-- Distant rain mist haze across cobbles (permanent). -->
+    <ellipse cx="371" cy="380" rx="450" ry="20" fill="#a8a8b0" opacity="0.4" filter="url(#p5p1strongBloom)"/>
+  </g>
+
+  <!-- 5 SQUAD MEMBERS as TINY COLORED SPECKS clinging to brick wall on right (script-specific). -->
+  <g id="p5p1-squad-on-wall" transform="translate(660, 180)">
+    <!-- Sable. -->
+    <circle cx="0" cy="0" r="3" fill="#a8b0c0"/>
+    <ellipse cx="0" cy="0" rx="5" ry="5" fill="#dce4ff" opacity="0.7" filter="url(#p5p1bloom)"/>
+    <!-- Cracked shoulder bleed. -->
+    <ellipse cx="2" cy="-1" rx="1.5" ry="0.8" fill="#dce4ff" opacity="0.85" filter="url(#p5p1bloom)"/>
+
+    <!-- Wren. -->
+    <circle cx="-12" cy="6" r="2.5" fill="#c87a35"/>
+    <ellipse cx="-12" cy="6" rx="4" ry="4" fill="#f5a868" opacity="0.7" filter="url(#p5p1bloom)"/>
+
+    <!-- Luma. -->
+    <circle cx="12" cy="8" r="2.5" fill="#5a3ad8"/>
+    <ellipse cx="12" cy="8" rx="4" ry="4" fill="#a890f0" opacity="0.7" filter="url(#p5p1bloom)"/>
+
+    <!-- Thresh. -->
+    <circle cx="0" cy="14" r="3" fill="#dc2030"/>
+    <ellipse cx="0" cy="14" rx="5" ry="5" fill="#f54848" opacity="0.7" filter="url(#p5p1bloom)"/>
+
+    <!-- Jink. -->
+    <circle cx="-4" cy="22" r="2.5" fill="#2ed078"/>
+    <ellipse cx="-4" cy="22" rx="4" ry="4" fill="#7af0b0" opacity="0.7" filter="url(#p5p1bloom)"/>
+  </g>
+
+  <!-- SABLE dialogue (top-left, ellipsis only). -->
+  <g id="p5p1-dlg-sable">
+    <rect x="14" y="14" width="100" height="36" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#1a1a1a">...</text>
+    <path d="M70,50 L88,50 L660,180 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="70" y1="50" x2="88" y2="50" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- WREN dialogue. -->
+  <g id="p5p1-dlg-wren">
+    <rect x="130" y="14" width="190" height="36" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="140" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="140" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">That's our route.</text>
+    <path d="M270,50 L286,50 L648,186 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="270" y1="50" x2="286" y2="50" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- JINK dialogue. -->
+  <g id="p5p1-dlg-jink">
+    <rect x="340" y="14" width="200" height="36" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="350" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="350" y="46" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" font-style="italic" fill="#1a1a1a">That is magnificent.</text>
+    <path d="M480,50 L498,50 L656,202 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="480" y1="50" x2="498" y2="50" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- THRESH small dialogue. -->
+  <g id="p5p1-dlg-thresh">
+    <rect x="556" y="14" width="120" height="32" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="566" y="30" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH (small)</text>
+    <text x="566" y="42" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#3a3030">...yeah.</text>
+    <path d="M620,46 L636,46 L660,194 Z" fill="#ffffff" stroke="#dc2030" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="620" y1="46" x2="636" y2="46" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p5p1-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="738" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SCALE REVEAL — VICTORIAN STREET</text>
+  </g>
+</svg>

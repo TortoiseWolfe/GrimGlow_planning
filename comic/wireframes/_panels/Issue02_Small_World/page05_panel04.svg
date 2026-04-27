@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 440" width="247" height="440">
+  <title>Issue 2 — Page 5 — Panel 4: Jink CU upward — wonder + determination</title>
+  <desc>CU 85mm low angle UP at Jink's face. Looking upward, raindrops falling past frame as translucent fist-sized spheres. Water streams down face — golden curls dark/heavy with rain. Emerald metallic suit holographic accents glow at collar, casting green light on water on skin. Eyes catch emerald glow. Wonder edging into determination — face of someone seeing frontier. Hand reaches to wing-pack shoulder mount. JINK: "Sable. Let me fly point."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p5p4skyAbove" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7e88"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p5p4emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4828"/>
+    </linearGradient>
+    <radialGradient id="p5p4emeraldGlow">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a4828" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p5p4raindrop">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#a8b8c8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a606a" stop-opacity="0.95"/>
+    </radialGradient>
+    <filter id="p5p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p5p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p5p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG: grey rain sky from above (looking up). -->
+  <rect width="247" height="440" fill="url(#p5p4skyAbove)"/>
+
+  <!-- RAINDROPS falling past frame as fist-sized translucent spheres (script-specific). -->
+  <g id="p5p4-raindrops">
+    <ellipse cx="50" cy="80" rx="7" ry="9" fill="url(#p5p4raindrop)" filter="url(#p5p4bloom)"/>
+    <ellipse cx="200" cy="120" rx="8" ry="10" fill="url(#p5p4raindrop)" filter="url(#p5p4bloom)"/>
+    <ellipse cx="120" cy="60" rx="6" ry="8" fill="url(#p5p4raindrop)" filter="url(#p5p4bloom)"/>
+    <ellipse cx="220" cy="40" rx="5" ry="7" fill="url(#p5p4raindrop)" filter="url(#p5p4bloom)"/>
+    <ellipse cx="30" cy="180" rx="6" ry="8" fill="url(#p5p4raindrop)" filter="url(#p5p4bloom)"/>
+    <!-- Specular highlights. -->
+    <g fill="#dce4f0" opacity="0.85">
+      <circle cx="48" cy="78" r="2"/>
+      <circle cx="198" cy="118" r="2.2"/>
+      <circle cx="118" cy="58" r="1.6"/>
+      <circle cx="218" cy="38" r="1.4"/>
+      <circle cx="28" cy="178" r="1.6"/>
+    </g>
+    <!-- Trajectory streaks. -->
+    <g stroke="#a8b8c8" stroke-width="0.7" opacity="0.55" filter="url(#p5p4bloom)">
+      <line x1="50" y1="20" x2="50" y2="70"/>
+      <line x1="200" y1="40" x2="200" y2="110"/>
+      <line x1="120" y1="0" x2="120" y2="50"/>
+      <line x1="220" y1="0" x2="220" y2="30"/>
+    </g>
+  </g>
+
+  <!-- Atmospheric distant raindrops. -->
+  <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.45" filter="url(#p5p4bloom)">
+    <line x1="80" y1="100" x2="80" y2="140"/>
+    <line x1="160" y1="180" x2="160" y2="220"/>
+    <line x1="100" y1="240" x2="100" y2="270"/>
+    <line x1="180" y1="280" x2="180" y2="310"/>
+  </g>
+
+  <!-- JINK FACE close-up dominant in lower 2/3 of frame. Looking upward. -->
+  <g id="p5p4-jink" transform="translate(124, 320)">
+
+    <!-- BIG EMERALD GLOW HALO. -->
+    <ellipse cx="0" cy="0" rx="120" ry="140" fill="url(#p5p4emeraldGlow)" filter="url(#p5p4deepBloom)" opacity="0.55"/>
+
+    <!-- Body/torso in emerald (collar visible). -->
+    <path d="M-90,180 L-100,140 L-50,100 L-30,80 L30,80 L50,100 L100,140 L90,300 L-90,300 Z" fill="url(#p5p4emerald)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Suit seam glow. -->
+    <line x1="-50" y1="105" x2="-30" y2="82" stroke="#7af0b0" stroke-width="0.7" opacity="0.85" filter="url(#p5p4bloom)"/>
+    <line x1="50" y1="105" x2="30" y2="82" stroke="#7af0b0" stroke-width="0.7" opacity="0.85" filter="url(#p5p4bloom)"/>
+
+    <!-- COLLAR EMERALD HOLO ACCENT (script-specific: glow at collar). -->
+    <path d="M-30,80 L-20,80 L-10,90 L0,80 L10,90 L20,80 L30,80 L30,82 L-30,82 Z" fill="#7af0b0" filter="url(#p5p4bloom)" opacity="0.95"/>
+    <ellipse cx="0" cy="80" rx="36" ry="9" fill="#7af0b0" opacity="0.55" filter="url(#p5p4strongBloom)"/>
+
+    <!-- Right arm REACHING TO SHOULDER MOUNT (script-specific). -->
+    <path d="M-40,90 L-50,30 L-50,-40" fill="none" stroke="url(#p5p4emerald)" stroke-width="11" stroke-linecap="round"/>
+    <ellipse cx="-50" cy="-40" rx="8" ry="5" fill="#e8c8a0" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- HEAD (looking UPWARD, chin slightly up). -->
+    <ellipse cx="0" cy="-30" rx="56" ry="62" fill="#e8c8a0"/>
+
+    <!-- WET GOLDEN CURLS dark/heavy with rain (script-specific). -->
+    <g fill="#a87830">
+      <!-- Wet hair mass. -->
+      <path d="M-44,-72 Q-30,-92 -10,-100 Q10,-104 30,-94 Q44,-86 50,-72 L50,-50 L-50,-50 Z"/>
+      <!-- Wet curl strands. -->
+      <path d="M-30,-72 Q-24,-58 -22,-46" stroke="#a87830" stroke-width="3" fill="none"/>
+      <path d="M-15,-78 Q-12,-62 -10,-50" stroke="#a87830" stroke-width="3" fill="none"/>
+      <path d="M0,-82 Q1,-66 2,-50" stroke="#a87830" stroke-width="3" fill="none"/>
+      <path d="M15,-78 Q16,-62 18,-50" stroke="#a87830" stroke-width="3" fill="none"/>
+      <path d="M30,-72 Q32,-58 34,-46" stroke="#a87830" stroke-width="3" fill="none"/>
+    </g>
+    <!-- Highlight on wet hair. -->
+    <g fill="#f5d860" opacity="0.85">
+      <ellipse cx="-15" cy="-88" rx="3" ry="1"/>
+      <ellipse cx="0" cy="-90" rx="3" ry="1"/>
+      <ellipse cx="15" cy="-88" rx="3" ry="1"/>
+    </g>
+
+    <!-- WATER STREAMING DOWN face/neck. -->
+    <g stroke="#7af0ff" stroke-width="0.9" opacity="0.85" filter="url(#p5p4bloom)">
+      <line x1="-30" y1="-50" x2="-32" y2="-15"/>
+      <line x1="30" y1="-50" x2="32" y2="-15"/>
+      <line x1="-15" y1="-45" x2="-17" y2="-5"/>
+      <line x1="15" y1="-45" x2="17" y2="-5"/>
+      <line x1="0" y1="-40" x2="0" y2="20"/>
+      <line x1="-8" y1="-30" x2="-10" y2="20"/>
+      <line x1="8" y1="-30" x2="10" y2="20"/>
+    </g>
+
+    <!-- Brow lifted (wonder + determination). -->
+    <path d="M-32,-32 Q-15,-44 0,-36" stroke="#a87830" stroke-width="2.2" fill="none"/>
+    <path d="M0,-36 Q15,-44 32,-32" stroke="#a87830" stroke-width="2.2" fill="none"/>
+
+    <!-- EYES BRIGHT (script-specific). -->
+    <ellipse cx="-18" cy="-22" rx="9" ry="6" fill="#dce4f0"/>
+    <ellipse cx="18" cy="-22" rx="9" ry="6" fill="#dce4f0"/>
+    <!-- Iris (looking UP). -->
+    <ellipse cx="-18" cy="-26" rx="3.5" ry="3" fill="#1a3010"/>
+    <ellipse cx="18" cy="-26" rx="3.5" ry="3" fill="#1a3010"/>
+    <ellipse cx="-18" cy="-26" rx="2" ry="1.8" fill="#080404"/>
+    <ellipse cx="18" cy="-26" rx="2" ry="1.8" fill="#080404"/>
+    <!-- EMERALD GLOW IN EYES (script-specific). -->
+    <circle cx="-17" cy="-27" r="0.9" fill="#7af0b0"/>
+    <circle cx="19" cy="-27" r="0.9" fill="#7af0b0"/>
+    <!-- Catch-light. -->
+    <circle cx="-19" cy="-25" r="0.5" fill="#dce4f0"/>
+    <circle cx="17" cy="-25" r="0.5" fill="#dce4f0"/>
+
+    <!-- DEFINED CHEEKBONES (light brown skin). -->
+    <ellipse cx="-32" cy="0" rx="10" ry="5" fill="#a87830" opacity="0.55"/>
+    <ellipse cx="32" cy="0" rx="10" ry="5" fill="#a87830" opacity="0.55"/>
+
+    <!-- NOSE shadow. -->
+    <path d="M-3,-15 L0,8 L-3,15" stroke="#3a2010" stroke-width="0.9" fill="none" opacity="0.85"/>
+
+    <!-- Lips (slight smile of resolve). -->
+    <path d="M-12,30 Q0,33 14,30" stroke="#3a2010" stroke-width="2.5" fill="none"/>
+    <line x1="-12" y1="30" x2="14" y2="30" stroke="#1a0810" stroke-width="0.8"/>
+    <!-- Slight cheek raise. -->
+    <ellipse cx="-12" cy="22" rx="2.5" ry="1.5" fill="#d8804a" opacity="0.55"/>
+    <ellipse cx="12" cy="22" rx="2.5" ry="1.5" fill="#d8804a" opacity="0.55"/>
+
+    <!-- EMERALD COLLAR LIGHT reflected on neck/face. -->
+    <ellipse cx="0" cy="50" rx="40" ry="7" fill="#7af0b0" opacity="0.55" filter="url(#p5p4bloom)"/>
+    <!-- Light catch on jaw underside. -->
+    <ellipse cx="0" cy="35" rx="36" ry="3" fill="#7af0b0" opacity="0.45" filter="url(#p5p4bloom)"/>
+  </g>
+
+  <!-- WING-PACK MOUNT visible at shoulder (where Jink reaches). -->
+  <g id="p5p4-wing-pack-mount" transform="translate(74, 280)">
+    <!-- Mount housing. -->
+    <rect x="-6" y="-6" width="12" height="12" rx="1" fill="#1a4830" stroke="#080408" stroke-width="0.5"/>
+    <!-- Glowing emerald activation point. -->
+    <circle cx="0" cy="0" r="3" fill="#7af0b0" filter="url(#p5p4bloom)"/>
+    <circle cx="0" cy="0" r="1.4" fill="#dce4f0"/>
+    <!-- Activation halo. -->
+    <ellipse cx="0" cy="0" rx="14" ry="14" fill="#7af0b0" opacity="0.55" filter="url(#p5p4strongBloom)"/>
+  </g>
+
+  <!-- JINK dialogue (top). -->
+  <g id="p5p4-dlg-jink">
+    <rect x="14" y="14" width="218" height="44" rx="8" fill="#ffffff" stroke="#2ed078" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#2ed078" letter-spacing="0.3">JINK</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Sable. Let me fly point.</text>
+    <path d="M118,58 L136,58 L124,200 Z" fill="#ffffff" stroke="#2ed078" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="118" y1="58" x2="136" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p5p4-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="243" y="432" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">JINK WONDER</text>
+  </g>
+</svg>
