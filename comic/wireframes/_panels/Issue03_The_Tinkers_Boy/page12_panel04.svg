@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 12 — Panel 4: Wide split scale, Theodore kneels at bench inches from Jink, candle between, silence holds</title>
+  <desc>Wide 28mm side eye level. Victorian boy kneels at cluttered workbench, face inches from surface, fills right two-thirds — enormous, warm, hazel eyes wide with wonder, sandy hair forward, candlelight golden on freckled skin. On workbench frame-left, tiny figure ~4 inches tall stands among landscape-scale tools + brass gears — lean androgynous, golden curls, emerald soot-streaked, looking up at vast face with softened grin. Glowing shard between casts geometric light. Candle throws both shadows — boy's fills wall, tiny figure's is sliver on bench. Boy's single eye nearly size of tiny torso. Scale contrast IS the scene. Warm amber + cool emerald sharing frame without conflict. Silence holds.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p12p4nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p12p4candleHalo" cx="50%" cy="60%" r="40%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p12p4emerald" cx="22%" cy="60%" r="14%">
+      <stop offset="0%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p12p4coolShard" cx="38%" cy="65%" r="10%">
+      <stop offset="0%" stop-color="#a0d8ff" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p12p4bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p12p4brass" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </radialGradient>
+    <linearGradient id="p12p4wax" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="50%" stop-color="#dcd0b4"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p12p4flame" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff5028"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="p12p4theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <linearGradient id="p12p4theoSkinWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="p12p4theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p12p4theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p12p4jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="p12p4jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffeca8"/>
+      <stop offset="50%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p12p4emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <radialGradient id="p12p4shardCore">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a0d8ff"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <filter id="p12p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p12p4strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p12p4deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="742" height="364" fill="url(#p12p4nightBg)"/>
+  <!-- Candle halo at center of frame. -->
+  <ellipse cx="370" cy="220" rx="280" ry="200" fill="url(#p12p4candleHalo)" opacity="0.85"/>
+
+  <!-- Bench. -->
+  <rect x="0" y="220" width="742" height="144" fill="url(#p12p4bench)"/>
+  <line x1="0" y1="226" x2="742" y2="226" stroke="#7a4828" stroke-width="1"/>
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.5">
+    <path d="M120,226 Q140,290 122,360"/>
+    <path d="M280,226 Q300,290 282,360"/>
+    <path d="M460,226 Q480,290 442,360"/>
+    <path d="M600,226 Q620,290 602,360"/>
+  </g>
+
+  <!-- BIG SHADOW on wall behind Theodore (his shadow fills wall). -->
+  <path d="M380,0 Q400,40 480,80 Q580,120 660,160 L742,180 L742,0 Z" fill="#000" opacity="0.55"/>
+
+  <!-- Tools landscape. -->
+  <g>
+    <circle cx="240" cy="270" r="22" fill="url(#p12p4brass)"/>
+    <circle cx="240" cy="270" r="6" fill="#5a3018"/>
+    <ellipse cx="252" cy="258" rx="6" ry="3" fill="#fff0a8" opacity="0.55"/>
+    <g fill="none" stroke="#a85820" stroke-width="1.4">
+      <ellipse cx="160" cy="260" rx="14" ry="6"/>
+      <ellipse cx="160" cy="260" rx="10" ry="4"/>
+    </g>
+    <rect x="120" y="258" width="36" height="6" fill="#5a606a"/>
+  </g>
+
+  <!-- Cool shard halo + emerald around Jink. -->
+  <ellipse cx="280" cy="240" rx="42" ry="14" fill="url(#p12p4coolShard)" opacity="0.85" filter="url(#p12p4deepBloom)"/>
+  <ellipse cx="160" cy="200" rx="60" ry="80" fill="url(#p12p4emerald)" opacity="0.85" filter="url(#p12p4bloom)"/>
+
+  <!-- THE SHARD between figures. -->
+  <g>
+    <path d="M274,242 L280,236 L288,242 L284,248 L278,248 Z" fill="#1a1a28"/>
+    <path d="M276,242 L280,238 L286,242 L284,246 L278,246 Z" fill="url(#p12p4shardCore)" opacity="0.95"/>
+    <circle cx="280" cy="242" r="1" fill="#ffffff" filter="url(#p12p4bloom)"/>
+  </g>
+
+  <!-- Candle between (center). -->
+  <g>
+    <rect x="368" y="180" width="6" height="40" fill="url(#p12p4wax)"/>
+    <line x1="371" y1="160" x2="371" y2="180" stroke="#1a0c04" stroke-width="0.85"/>
+    <ellipse cx="371" cy="156" rx="4" ry="8" fill="url(#p12p4flame)" filter="url(#p12p4strongBloom)"/>
+    <ellipse cx="371" cy="158" rx="2" ry="5" fill="#fff0a8"/>
+    <ellipse cx="371" cy="160" rx="1" ry="3" fill="#ffffff"/>
+    <ellipse cx="371" cy="138" rx="14" ry="22" fill="#ffd078" opacity="0.45" filter="url(#p12p4deepBloom)"/>
+    <ellipse cx="371" cy="222" rx="12" ry="3" fill="#a85820"/>
+  </g>
+
+  <!-- ******** THEODORE kneeling at bench (right 2/3 of frame) ******** -->
+  <g>
+    <!-- Body kneeling — folded behind bench. -->
+    <path d="M400,300 Q396,340 408,360 L496,360 Q508,340 504,300 Z" fill="url(#p12p4theoVest)" opacity="0.85"/>
+    <path d="M510,300 Q508,340 520,360 L600,360 Q608,340 604,300 Z" fill="url(#p12p4theoVest)" opacity="0.85"/>
+
+    <!-- Hand on bench edge (visible). -->
+    <path d="M380,224 Q420,222 480,224 L530,228 Q550,234 560,242 L560,252 Q510,254 460,252 L380,250 Z" fill="url(#p12p4theoSkin)"/>
+    <ellipse cx="450" cy="240" rx="40" ry="6" fill="#1a0e06" opacity="0.32"/>
+    <!-- Brass gear ring. -->
+    <ellipse cx="396" cy="234" rx="6" ry="3" fill="#f0d878"/>
+    <ellipse cx="396" cy="234" rx="6" ry="3" fill="none" stroke="#5a3018" stroke-width="0.4"/>
+    <ellipse cx="396" cy="234" rx="2.5" ry="1.5" fill="#3a2010"/>
+
+    <!-- HEAD large at bench level (face inches from surface). -->
+    <ellipse cx="500" cy="160" rx="100" ry="100" fill="url(#p12p4theoSkin)"/>
+    <ellipse cx="500" cy="160" rx="100" ry="100" fill="url(#p12p4theoSkinWarm)" opacity="0.55"/>
+
+    <!-- Tousled spikes. -->
+    <path d="M412,90 Q406,30 470,4 Q510,-6 540,4 Q588,30 580,90 L572,98 Q558,40 538,30 L450,30 Q430,40 420,98 Z" fill="url(#p12p4theoHair)"/>
+    <path d="M422,18 L416,-18 L432,18 Z" fill="url(#p12p4theoHair)"/>
+    <path d="M450,-2 L446,-32 L468,4 Z" fill="url(#p12p4theoHair)"/>
+    <path d="M484,-12 L488,-46 L506,-6 Z" fill="url(#p12p4theoHair)"/>
+    <path d="M518,-12 L536,-40 L530,-2 Z" fill="url(#p12p4theoHair)"/>
+    <path d="M550,4 L572,-18 L568,18 Z" fill="url(#p12p4theoHair)"/>
+    <g stroke="#ffd078" stroke-width="1.4" opacity="0.7">
+      <line x1="424" y1="-10" x2="424" y2="14"/>
+      <line x1="456" y1="-22" x2="456" y2="2"/>
+      <line x1="494" y1="-32" x2="494" y2="-6"/>
+      <line x1="524" y1="-26" x2="524" y2="-2"/>
+      <line x1="558" y1="-10" x2="558" y2="14"/>
+    </g>
+    <!-- Bangs. -->
+    <path d="M416,98 L420,134 L434,90 Z" fill="url(#p12p4theoHair)"/>
+    <path d="M448,108 L452,140 L466,100 Z" fill="url(#p12p4theoHair)"/>
+    <path d="M480,114 L484,146 L498,106 Z" fill="url(#p12p4theoHair)"/>
+    <path d="M510,114 L514,146 L528,106 Z" fill="url(#p12p4theoHair)"/>
+    <path d="M540,108 L544,140 L558,100 Z" fill="url(#p12p4theoHair)"/>
+
+    <!-- Eyes — wonder taking over. -->
+    <ellipse cx="446" cy="160" rx="18" ry="12" fill="#fff8e8"/>
+    <ellipse cx="446" cy="160" rx="18" ry="12" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="446" cy="160" r="8" fill="url(#p12p4theoHair)"/>
+    <circle cx="446" cy="160" r="4" fill="#0a0604"/>
+    <ellipse cx="450" cy="158" rx="2.5" ry="1.4" fill="#a8ffd0" filter="url(#p12p4bloom)"/>
+    <ellipse cx="444" cy="162" rx="1.4" ry="0.7" fill="#ffffff"/>
+
+    <ellipse cx="554" cy="160" rx="18" ry="12" fill="#fff8e8"/>
+    <ellipse cx="554" cy="160" rx="18" ry="12" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="554" cy="160" r="8" fill="url(#p12p4theoHair)"/>
+    <circle cx="554" cy="160" r="4" fill="#0a0604"/>
+    <ellipse cx="558" cy="158" rx="2.5" ry="1.4" fill="#a8ffd0" filter="url(#p12p4bloom)"/>
+    <ellipse cx="552" cy="162" rx="1.4" ry="0.7" fill="#ffffff"/>
+
+    <!-- Brows soft (mouth has closed, wonder settling). -->
+    <path d="M428,140 Q446,134 464,140" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+    <path d="M536,140 Q554,134 572,140" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+    <!-- Nose. -->
+    <path d="M500,180 L484,222 Q500,228 516,222 Z" fill="#a8765a" opacity="0.55"/>
+    <!-- MOUTH closed (script: "his mouth has closed"). Slight curve. -->
+    <path d="M468,250 Q500,256 532,250" fill="none" stroke="#5a3018" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.95">
+      <circle cx="426" cy="200" r="0.85"/>
+      <circle cx="440" cy="206" r="0.7"/>
+      <circle cx="456" cy="200" r="0.85"/>
+      <circle cx="544" cy="200" r="0.85"/>
+      <circle cx="560" cy="206" r="0.7"/>
+      <circle cx="574" cy="200" r="0.85"/>
+    </g>
+    <ellipse cx="416" cy="216" rx="14" ry="9" fill="#ffd078" opacity="0.32"/>
+    <ellipse cx="582" cy="216" rx="14" ry="9" fill="#ffd078" opacity="0.32"/>
+  </g>
+
+  <!-- ******** JINK on bench frame-LEFT, tiny ******** -->
+  <g>
+    <ellipse cx="160" cy="248" rx="14" ry="3" fill="#000" opacity="0.55"/>
+    <!-- SHADOW SLIVER on bench surface beside Jink. -->
+    <path d="M160,250 Q180,254 200,256 L200,260 L160,260 Z" fill="#000" opacity="0.32"/>
+
+    <!-- Legs. -->
+    <path d="M150,196 L146,242 L156,242 L156,196 Z" fill="url(#p12p4emeraldSuit)"/>
+    <path d="M166,196 L166,210 L168,242 L178,242 L174,210 L172,196 Z" fill="url(#p12p4emeraldSuit)"/>
+    <ellipse cx="151" cy="246" rx="6" ry="2" fill="#0a4018"/>
+    <ellipse cx="173" cy="246" rx="6" ry="2" fill="#0a4018"/>
+
+    <!-- Torso. -->
+    <path d="M138,144 Q132,180 144,196 L182,196 Q192,180 184,144 Q180,138 162,138 Q140,138 138,144 Z" fill="url(#p12p4emeraldSuit)"/>
+    <!-- Soot. -->
+    <path d="M138,168 Q160,166 184,170 Q186,176 186,184 L138,184 Z" fill="#1a0c04" opacity="0.85"/>
+    <line x1="161" y1="138" x2="161" y2="196" stroke="#0a4018" stroke-width="0.4"/>
+    <circle cx="161" cy="156" r="1.4" fill="#a8ffd0" filter="url(#p12p4bloom)"/>
+
+    <!-- Arms. -->
+    <path d="M138,144 Q126,176 124,196 L138,196 Q140,178 142,148 Z" fill="url(#p12p4emeraldSuit)"/>
+    <path d="M184,144 Q196,176 198,196 L184,196 Q182,178 180,148 Z" fill="url(#p12p4emeraldSuit)"/>
+    <ellipse cx="128" cy="200" rx="3" ry="2" fill="url(#p12p4jinkSkin)"/>
+    <ellipse cx="194" cy="200" rx="3" ry="2" fill="url(#p12p4jinkSkin)"/>
+
+    <!-- Wing-pack. -->
+    <rect x="146" y="142" width="32" height="14" fill="#1a4828"/>
+    <line x1="146" y1="146" x2="178" y2="146" stroke="#2ed078" stroke-width="0.85" filter="url(#p12p4bloom)"/>
+    <rect x="160" y="142" width="4" height="14" fill="#0a4018"/>
+
+    <!-- Head — looking UP at Theodore right (across bench). -->
+    <ellipse cx="161" cy="118" rx="14" ry="16" fill="url(#p12p4jinkSkin)"/>
+    <g fill="url(#p12p4jinkHair)">
+      <ellipse cx="146" cy="100" rx="6" ry="8"/>
+      <ellipse cx="158" cy="94" rx="6" ry="7"/>
+      <ellipse cx="170" cy="94" rx="6" ry="7"/>
+      <ellipse cx="180" cy="100" rx="6" ry="8"/>
+      <ellipse cx="150" cy="110" rx="5" ry="6"/>
+      <ellipse cx="162" cy="106" rx="5" ry="6"/>
+      <ellipse cx="174" cy="110" rx="5" ry="6"/>
+      <ellipse cx="146" cy="116" rx="4" ry="6"/>
+      <ellipse cx="180" cy="116" rx="4" ry="6"/>
+    </g>
+
+    <!-- Eyes looking right toward Theodore. -->
+    <ellipse cx="158" cy="118" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="160" cy="118" r="1" fill="#2a4830"/>
+    <circle cx="160" cy="118" r="0.5" fill="#0a0604"/>
+    <ellipse cx="170" cy="118" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="172" cy="118" r="1" fill="#2a4830"/>
+    <circle cx="172" cy="118" r="0.5" fill="#0a0604"/>
+    <!-- Brows. -->
+    <path d="M154,114 Q158,112 162,114" fill="none" stroke="#3a2810" stroke-width="0.55"/>
+    <path d="M166,114 Q170,112 174,114" fill="none" stroke="#3a2810" stroke-width="0.55"/>
+    <!-- Nose. -->
+    <path d="M161,122 L159,128 Q161,129 163,128 Z" fill="#7a4828" opacity="0.55"/>
+    <!-- Softened grin (per script — not performing now). -->
+    <path d="M154,134 Q161,138 168,134" fill="none" stroke="#5a3018" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q200,45 400,42"/>
+    <path d="M400,40 Q600,45 742,42"/>
+    <path d="M0,310 Q200,315 400,312"/>
+    <path d="M400,310 Q600,315 742,312"/>
+  </g>
+
+  <!-- No dialogue (silence holds). -->
+</svg>
