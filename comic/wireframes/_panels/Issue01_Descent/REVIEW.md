@@ -2,13 +2,15 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 20 added, first night settles).
+**Last update:** 2026-04-27 (loop session extended — Page 21 added, SABLE ALONE).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–8 + 12 + 18–20 + 22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 43 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P22P01).
+**Pages 1–8 + 12 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 47 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
+
+**Climax arc COMPLETE** — Pages 18, 19, 20, 21, 22 all at quality bar. Only middle continuity (Pages 9-11, 13-17) remains as auto-generated stick-figure storyboards.
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -22,11 +24,13 @@
 
 **Pages 5, 6, 7 (Sections 2-3 opening)** — at quality bar.
 
-**Page 20 (first night settles)** — 4 panels, 1179px (banner panoramic / 2-col / banner night camp).
+**Page 21 (SABLE ALONE — secret data module)** — 4 quarter-width vertical strips, 1181px. Tightest framing in issue.
+
+**Page 20 (first night settles)** — 4 panels, 1179px.
 
 **Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px.
 
-**Pages 9-11, 13-17, 21 of Issue 1 remain auto-generated stick-figure storyboards.**
+**Pages 9-11, 13-17 of Issue 1 remain auto-generated stick-figure storyboards.** (10 pages remaining of 22 = 12/22 painterly + 10/22 storyboard.)
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -230,6 +234,64 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 21 — DONE (Section 5 SABLE ALONE — the secret she carries alone)
+
+4 quarter-width vertical strips (184×1122 each, 2px gutters = 742px exactly) in a single row. Tightest framing in the issue. The progression strip rendering Sable's secret data-module reveal.
+
+### P21P01 — Sable crouched, checking she's alone (184×1122)
+- ✅ MASSIVE chimney stack dominates right side, brickwork at fairy scale (each brick a wall segment, mortar lines visible)
+- ✅ Soot streaks running down brick + lichen patches
+- ✅ Sable crouched mid-left, silver suit, head turned over LEFT shoulder looking back
+- ✅ Right hand reaching INTO HIP COMPARTMENT (small panel slid open with faint cool glow)
+- ✅ Cracked right shoulder bleeding blue-white w/ glow halo
+- ✅ Distant camp glows visible far bottom: blue-violet (Luma) + ruby (Thresh) faint colored points
+- ✅ Faint warm city-glow at far-left edge
+- ✅ Mostly in shadow w/ only faint cool from cracked panels — "in the gap between the two light worlds" beat
+- ✅ Silent — furtive/secretive composition
+
+### P21P02 — Sable's hands holding data module — coldest frame in issue (184×1122)
+- ✅ Cold dark background
+- ✅ TOWER of dense blue-white holographic display projecting upward
+- ✅ 4 dashed-outline data blocks with header lines + body text rows + tiny geometric "fairy script" glyphs (alien character shapes)
+- ✅ Brightness fades as text rises (script-accurate dispersal into bloom)
+- ✅ Floating ember-like highlights in rising glow
+- ✅ Data module visible — small dark device with bright top interface surface
+- ✅ Two hands wrapping module from below (silver suit cuffs + dark fingers, cool catch on top of fingers)
+- ✅ Soot iron gutter floor at bottom
+- ✅ Faint cracked-shoulder light reaches outside but doesn't disrupt cold-dominant look
+- ✅ Very faint warm hint in BG corners (city beyond, almost imperceptible per script)
+- ✅ NO warm light dominating — successfully cold/clinical
+- ✅ Silent
+
+### P21P03 — Sable's face ECU — fear cracks the mask (184×1122)
+- ✅ ECU face fills central frame
+- ✅ Cold blue-white uplight from below (massive halo at bottom = data module just below frame)
+- ✅ Silver-white buzz cap with stipple + soot dust catching cold light
+- ✅ Eyes WIDE w/ effort, irises catching cold blue-white catch-lights + tiny secondary highlights (data text reflected)
+- ✅ Brow furrowed (the fear lines) + tension wrinkle between brows
+- ✅ Eyelashes upper + tension lines below (eye-bag hollows)
+- ✅ Cheekbones with hollow shadow underneath (uplighting deepens cheek hollows per script)
+- ✅ NOSTRILS FLARED slightly (fear)
+- ✅ Lips pressed thin w/ slight downward tension at corners
+- ✅ Jaw set hard w/ visible muscle tension bumps
+- ✅ Cold uplight wash on lower face + cold rim under jawline + cold catches on nose/lips/cheekbones
+- ✅ NO warm light anywhere
+- ✅ Silent — "fear masked by discipline, mask cracking, most vulnerable" beat lands
+
+### P21P04 — Module locks, mask reassembled (184×1122)
+- ✅ Sable centered standing, profile turned right toward camp
+- ✅ Silver suit + cracked right shoulder bleeding faintly
+- ✅ Right hand holding data module — light DYING (smaller cool halo than P21P2, faint last residual text rising, almost gone)
+- ✅ Brick chimney base visible right edge (continuity from P21P1)
+- ✅ Distant camp glows BG-bottom-right: sapphire-violet + ruby (visible faint colored points)
+- ✅ Distant warm city-glow at right edge
+- ✅ Profile face: silver-white buzz, eye looking right toward camp, nose, lips slightly parted (the quiet "damn"), cheekbone w/ faint warm catch from city
+- ✅ Composed/resolved profile pose — command mask reassembled
+- ✅ SABLE balloon top w/ italic dark-grey "...damn." (the whisper, slightly desaturated body color suggests intimate hush)
+- ✅ "Act of encryption is the act of deciding to lie by omission" beat lands
 
 ---
 

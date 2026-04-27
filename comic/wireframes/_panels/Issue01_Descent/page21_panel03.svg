@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184 1122" width="184" height="1122">
+  <title>Issue 1 — Page 21 — Panel 3: Sable's face ECU — fear cracks the mask</title>
+  <desc>ECU at 135mm eye level. Tightest framing in issue, forehead-to-chin. Sable's face in blue-white holographic uplight from below. She has read something that changes everything. Fear masked by discipline, mask is cracking: jaw tight, nostrils flared slightly, eyes wide w/ effort of containing reaction. Most vulnerable in entire issue — seen only because she believes she is alone. Holographic uplight harsh + cold + revealing, every pore + tension visible. NO warm light anywhere. NO mercy. Silent panel.</desc>
+
+  <defs>
+    <linearGradient id="p21p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="100%" stop-color="#080a14"/>
+    </linearGradient>
+    <linearGradient id="p21p3skinCold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#7a5838"/>
+    </linearGradient>
+    <radialGradient id="p21p3uplight" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#7ac8ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p21p3hairCold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dceaff"/>
+      <stop offset="100%" stop-color="#7a8898"/>
+    </linearGradient>
+    <filter id="p21p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p21p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Cold dark background. -->
+  <rect width="184" height="1122" fill="url(#p21p3bg)"/>
+
+  <!-- HOLOGRAPHIC UPLIGHT from below — fills bottom + lower face. -->
+  <ellipse cx="92" cy="1100" rx="180" ry="500" fill="url(#p21p3uplight)" filter="url(#p21p3strongBloom)"/>
+  <ellipse cx="92" cy="1080" rx="100" ry="300" fill="#bfe4ff" filter="url(#p21p3bloom)" opacity="0.4"/>
+  <!-- Faint scrolling text bleeding up at bottom edge. -->
+  <g stroke="#bfe4ff" stroke-width="0.4" opacity="0.6" fill="none">
+    <line x1="40" y1="1100" x2="140" y2="1100"/>
+    <line x1="40" y1="1108" x2="140" y2="1108"/>
+    <line x1="40" y1="1114" x2="140" y2="1114"/>
+  </g>
+
+  <!-- SABLE FACE — fills frame, ECU. -->
+  <g id="p21p3-sable-face" transform="translate(92, 600)">
+
+    <!-- Head shape (large, almost fills panel). -->
+    <ellipse cx="0" cy="0" rx="90" ry="120" fill="url(#p21p3skinCold)"/>
+
+    <!-- Hair: silver-white buzz at top, catching cold light from below. -->
+    <path d="M-72,-105 Q-30,-130 0,-130 Q30,-130 72,-105 L72,-80 L-72,-80 Z" fill="url(#p21p3hairCold)"/>
+    <!-- Hairline edge. -->
+    <path d="M-72,-105 Q0,-128 72,-105" fill="none" stroke="#5a606a" stroke-width="1" opacity="0.8"/>
+    <!-- Buzz stipple. -->
+    <g fill="#5a606a" opacity="0.7">
+      <circle cx="-50" cy="-115" r="0.8"/>
+      <circle cx="-38" cy="-122" r="0.8"/>
+      <circle cx="-22" cy="-126" r="0.8"/>
+      <circle cx="-8" cy="-128" r="0.8"/>
+      <circle cx="8" cy="-128" r="0.8"/>
+      <circle cx="22" cy="-126" r="0.8"/>
+      <circle cx="38" cy="-122" r="0.8"/>
+      <circle cx="50" cy="-115" r="0.8"/>
+      <circle cx="-44" cy="-110" r="0.7"/>
+      <circle cx="-30" cy="-118" r="0.7"/>
+      <circle cx="-14" cy="-122" r="0.7"/>
+      <circle cx="0" cy="-124" r="0.7"/>
+      <circle cx="14" cy="-122" r="0.7"/>
+      <circle cx="30" cy="-118" r="0.7"/>
+      <circle cx="44" cy="-110" r="0.7"/>
+    </g>
+    <!-- Soot dust on top. -->
+    <g fill="#3a2818" opacity="0.5">
+      <circle cx="-15" cy="-128" r="1.2"/>
+      <circle cx="10" cy="-130" r="1"/>
+      <circle cx="28" cy="-124" r="1.4"/>
+    </g>
+
+    <!-- BROW — furrowed (the fear lines). -->
+    <path d="M-50,-30 Q-35,-38 -20,-32" stroke="#1a0808" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M20,-32 Q35,-38 50,-30" stroke="#1a0808" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Tension wrinkle between brows. -->
+    <line x1="-4" y1="-28" x2="-4" y2="-12" stroke="#1a0808" stroke-width="1.5"/>
+    <line x1="4" y1="-28" x2="4" y2="-12" stroke="#1a0808" stroke-width="1.5"/>
+
+    <!-- EYES — wide with the effort of containing reaction. -->
+    <ellipse cx="-30" cy="-15" rx="14" ry="10" fill="#f5e8d0"/>
+    <ellipse cx="30" cy="-15" rx="14" ry="10" fill="#f5e8d0"/>
+    <!-- Iris (warm-dark catching cold uplight). -->
+    <ellipse cx="-30" cy="-15" rx="9" ry="9" fill="#5a3818"/>
+    <ellipse cx="30" cy="-15" rx="9" ry="9" fill="#5a3818"/>
+    <!-- Pupil — dilated (fear/shock). -->
+    <ellipse cx="-30" cy="-15" rx="5" ry="5" fill="#080404"/>
+    <ellipse cx="30" cy="-15" rx="5" ry="5" fill="#080404"/>
+    <!-- Catch-light: cold blue-white from below. -->
+    <circle cx="-30" cy="-13" r="2.5" fill="#dceaff"/>
+    <circle cx="30" cy="-13" r="2.5" fill="#dceaff"/>
+    <!-- Tiny secondary catch (data text reflected). -->
+    <circle cx="-32" cy="-11" r="0.7" fill="#ffffff"/>
+    <circle cx="32" cy="-11" r="0.7" fill="#ffffff"/>
+    <!-- Eyelashes upper. -->
+    <path d="M-44,-22 Q-30,-26 -16,-22" stroke="#1a0808" stroke-width="1.4" fill="none"/>
+    <path d="M16,-22 Q30,-26 44,-22" stroke="#1a0808" stroke-width="1.4" fill="none"/>
+    <!-- Eye-bag tension lines below. -->
+    <path d="M-42,-8 Q-30,-5 -18,-8" stroke="#1a0808" stroke-width="0.8" fill="none" opacity="0.7"/>
+    <path d="M18,-8 Q30,-5 42,-8" stroke="#1a0808" stroke-width="0.8" fill="none" opacity="0.7"/>
+
+    <!-- CHEEKBONES — every line shown by cold uplight. -->
+    <ellipse cx="-50" cy="20" rx="14" ry="8" fill="#a87850" opacity="0.55"/>
+    <ellipse cx="50" cy="20" rx="14" ry="8" fill="#a87850" opacity="0.55"/>
+    <!-- Hollow shadow under cheekbones (uplighting deepens cheek hollows). -->
+    <path d="M-58,30 Q-45,40 -28,38" stroke="#1a0808" stroke-width="1" fill="none" opacity="0.75"/>
+    <path d="M28,38 Q45,40 58,30" stroke="#1a0808" stroke-width="1" fill="none" opacity="0.75"/>
+
+    <!-- NOSE (longer in profile-shadow style). -->
+    <path d="M0,-8 L-6,30 L0,38 L6,30 Z" fill="#5a3818" opacity="0.65"/>
+    <ellipse cx="-3" cy="35" rx="2" ry="1.5" fill="#1a0808"/>
+    <ellipse cx="3" cy="35" rx="2" ry="1.5" fill="#1a0808"/>
+    <!-- NOSTRILS FLARED slightly (fear). -->
+    <path d="M-7,33 Q-4,30 -1,33" stroke="#1a0808" stroke-width="0.8" fill="none"/>
+    <path d="M1,33 Q4,30 7,33" stroke="#1a0808" stroke-width="0.8" fill="none"/>
+
+    <!-- LIPS — pressed thin (effort to contain). -->
+    <path d="M-22,55 Q0,52 22,55" stroke="#3a1808" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <line x1="-20" y1="55" x2="20" y2="55" stroke="#1a0808" stroke-width="0.7"/>
+    <!-- Slight downward tension at corners. -->
+    <path d="M-22,55 Q-25,58 -23,62" stroke="#3a1808" stroke-width="0.8" fill="none"/>
+    <path d="M22,55 Q25,58 23,62" stroke="#3a1808" stroke-width="0.8" fill="none"/>
+
+    <!-- JAW set hard — visible tension. -->
+    <path d="M-90,80 Q-50,110 0,118 Q50,110 90,80" fill="none" stroke="#1a0808" stroke-width="1.2" opacity="0.7"/>
+    <!-- Jaw muscle tension. -->
+    <ellipse cx="-65" cy="80" rx="5" ry="3" fill="#1a0808" opacity="0.45"/>
+    <ellipse cx="65" cy="80" rx="5" ry="3" fill="#1a0808" opacity="0.45"/>
+
+    <!-- COLD UPLIGHT WASH on lower face from data module. -->
+    <path d="M-90,80 Q-50,110 0,118 Q50,110 90,80 L60,40 L0,55 L-60,40 Z" fill="#bfe4ff" opacity="0.22"/>
+    <!-- Cold rim under jawline. -->
+    <path d="M-80,90 Q-40,110 0,115 Q40,110 80,90" fill="none" stroke="#dceaff" stroke-width="2" opacity="0.7" filter="url(#p21p3bloom)"/>
+    <!-- Cold catch-light on tip of nose. -->
+    <ellipse cx="0" cy="38" rx="4" ry="2" fill="#dceaff" opacity="0.5"/>
+    <!-- Cold catch on lips. -->
+    <line x1="-10" y1="56" x2="10" y2="56" stroke="#dceaff" stroke-width="0.7" opacity="0.6"/>
+    <!-- Cold catch on cheekbones. -->
+    <ellipse cx="-50" cy="22" rx="7" ry="3" fill="#dceaff" opacity="0.3"/>
+    <ellipse cx="50" cy="22" rx="7" ry="3" fill="#dceaff" opacity="0.3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p21p3-meta">
+    <text x="176" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="180" y="1116" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="7" fill="#fff" opacity="0.7">FEAR CRACKS</text>
+  </g>
+</svg>

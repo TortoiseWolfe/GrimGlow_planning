@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184 1122" width="184" height="1122">
+  <title>Issue 1 — Page 21 — Panel 1: Sable crouched, checking alone</title>
+  <desc>MCU at eye level (65mm). Sable crouched at base of massive chimney stack, brickwork enormous at fairy scale (each brick a wall segment). She looks back over her shoulder toward distant camp glow — faint blue-violet (Luma scanner) and ruby (Thresh) holographic points in far background. Guarded/furtive expression. One hand reaches into hip suit compartment. Mostly in shadow, lit only by faint blue-white from her cracked panels + ambient darkness. In gap between two light worlds. Silent panel.</desc>
+
+  <defs>
+    <linearGradient id="p21p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p21p1brick" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a2812"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p21p1silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9aa4b4"/>
+      <stop offset="100%" stop-color="#3a3848"/>
+    </linearGradient>
+    <radialGradient id="p21p1campGlow1" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#a87af0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2acc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p21p1campGlow2" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#dc2030" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a1018" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p21p1cityEdge" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p21p1fractureGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p21p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p21p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Dark background. -->
+  <rect width="184" height="1122" fill="url(#p21p1bg)"/>
+
+  <!-- Faint warm city-glow from far left edge (distant). -->
+  <ellipse cx="0" cy="600" rx="50" ry="700" fill="url(#p21p1cityEdge)" filter="url(#p21p1strongBloom)" opacity="0.5"/>
+
+  <!-- Distant camp glows in BG-bottom (faint colored points). -->
+  <g id="p21p1-distant-camp">
+    <ellipse cx="40" cy="940" rx="32" ry="20" fill="url(#p21p1campGlow1)" filter="url(#p21p1strongBloom)" opacity="0.85"/>
+    <circle cx="40" cy="940" r="2.5" fill="#a87af0" filter="url(#p21p1bloom)" opacity="0.95"/>
+    <ellipse cx="60" cy="970" rx="22" ry="14" fill="url(#p21p1campGlow2)" filter="url(#p21p1strongBloom)" opacity="0.7"/>
+    <circle cx="60" cy="970" r="2" fill="#dc2030" filter="url(#p21p1bloom)" opacity="0.9"/>
+    <!-- Faint silhouettes hint at camp shapes (small dim shapes). -->
+    <ellipse cx="40" cy="940" rx="6" ry="4" fill="#5a3ad8" opacity="0.4"/>
+    <ellipse cx="60" cy="970" rx="5" ry="4" fill="#a8182a" opacity="0.35"/>
+  </g>
+
+  <!-- MASSIVE CHIMNEY STACK on the right side dominates the background (brickwork enormous at fairy scale). -->
+  <g id="p21p1-chimney-stack">
+    <!-- Main stack mass (right side of panel). -->
+    <rect x="100" y="40" width="84" height="1080" fill="url(#p21p1brick)"/>
+    <line x1="100" y1="40" x2="100" y2="1120" stroke="#080404" stroke-width="2"/>
+    <!-- Brick courses (horizontal mortar lines, each "brick" enormous at fairy scale). -->
+    <g stroke="#080404" stroke-width="0.7" opacity="0.85">
+      <line x1="100" y1="100" x2="184" y2="100"/>
+      <line x1="100" y1="160" x2="184" y2="160"/>
+      <line x1="100" y1="220" x2="184" y2="220"/>
+      <line x1="100" y1="280" x2="184" y2="280"/>
+      <line x1="100" y1="340" x2="184" y2="340"/>
+      <line x1="100" y1="400" x2="184" y2="400"/>
+      <line x1="100" y1="460" x2="184" y2="460"/>
+      <line x1="100" y1="520" x2="184" y2="520"/>
+      <line x1="100" y1="580" x2="184" y2="580"/>
+      <line x1="100" y1="640" x2="184" y2="640"/>
+      <line x1="100" y1="700" x2="184" y2="700"/>
+      <line x1="100" y1="760" x2="184" y2="760"/>
+      <line x1="100" y1="820" x2="184" y2="820"/>
+      <line x1="100" y1="880" x2="184" y2="880"/>
+      <line x1="100" y1="940" x2="184" y2="940"/>
+      <line x1="100" y1="1000" x2="184" y2="1000"/>
+      <line x1="100" y1="1060" x2="184" y2="1060"/>
+    </g>
+    <!-- Vertical mortar (offset brick pattern). -->
+    <g stroke="#080404" stroke-width="0.6" opacity="0.7">
+      <!-- Even rows: bricks line up. -->
+      <line x1="142" y1="40" x2="142" y2="100"/>
+      <line x1="142" y1="160" x2="142" y2="220"/>
+      <line x1="142" y1="280" x2="142" y2="340"/>
+      <line x1="142" y1="400" x2="142" y2="460"/>
+      <line x1="142" y1="520" x2="142" y2="580"/>
+      <line x1="142" y1="640" x2="142" y2="700"/>
+      <line x1="142" y1="760" x2="142" y2="820"/>
+      <line x1="142" y1="880" x2="142" y2="940"/>
+      <line x1="142" y1="1000" x2="142" y2="1060"/>
+      <!-- Odd rows: offset. -->
+      <line x1="120" y1="100" x2="120" y2="160"/>
+      <line x1="164" y1="100" x2="164" y2="160"/>
+      <line x1="120" y1="220" x2="120" y2="280"/>
+      <line x1="164" y1="220" x2="164" y2="280"/>
+      <line x1="120" y1="340" x2="120" y2="400"/>
+      <line x1="164" y1="340" x2="164" y2="400"/>
+      <line x1="120" y1="460" x2="120" y2="520"/>
+      <line x1="164" y1="460" x2="164" y2="520"/>
+      <line x1="120" y1="580" x2="120" y2="640"/>
+      <line x1="164" y1="580" x2="164" y2="640"/>
+      <line x1="120" y1="700" x2="120" y2="760"/>
+      <line x1="164" y1="700" x2="164" y2="760"/>
+      <line x1="120" y1="820" x2="120" y2="880"/>
+      <line x1="164" y1="820" x2="164" y2="880"/>
+      <line x1="120" y1="940" x2="120" y2="1000"/>
+      <line x1="164" y1="940" x2="164" y2="1000"/>
+    </g>
+    <!-- Soot streaks running down brick. -->
+    <g fill="#080404" opacity="0.55">
+      <path d="M115,40 Q117,500 113,1100"/>
+      <path d="M150,40 Q152,500 148,1100"/>
+    </g>
+    <!-- Lichen patches on brick. -->
+    <g fill="#4a6038" opacity="0.5">
+      <ellipse cx="125" cy="380" rx="6" ry="4"/>
+      <ellipse cx="155" cy="620" rx="7" ry="5"/>
+      <ellipse cx="115" cy="850" rx="5" ry="3"/>
+    </g>
+  </g>
+
+  <!-- Iron gutter floor at very bottom. -->
+  <rect y="1080" width="184" height="42" fill="#0a0408"/>
+  <line x1="0" y1="1080" x2="184" y2="1080" stroke="#080404" stroke-width="1.2"/>
+  <!-- Coal sediment. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="20" cy="1098" r="1.5"/>
+    <circle cx="60" cy="1110" r="1.4"/>
+    <circle cx="80" cy="1102" r="1.6"/>
+  </g>
+
+  <!-- SABLE crouched at chimney base, mid-left of panel. -->
+  <g id="p21p1-sable" transform="translate(60, 880)">
+    <!-- Body crouched (compact). -->
+    <path d="M-20,80 Q-24,30 -20,-10 L-8,-20 L18,-20 Q22,-10 22,80 Z" fill="url(#p21p1silver)" stroke="#3a3848" stroke-width="0.6" opacity="0.85"/>
+
+    <!-- Cracked right shoulder w/ blue-white bleed (faint - their main self-light source). -->
+    <ellipse cx="20" cy="-8" rx="6" ry="4" fill="#9ba1aa" stroke="#080408" stroke-width="0.4"/>
+    <line x1="14" y1="-9" x2="26" y2="-6" stroke="#7ac8ff" stroke-width="0.9" filter="url(#p21p1bloom)" opacity="0.95"/>
+    <ellipse cx="20" cy="-6" rx="14" ry="8" fill="url(#p21p1fractureGlow)" filter="url(#p21p1strongBloom)" opacity="0.5"/>
+
+    <!-- Left shoulder. -->
+    <ellipse cx="-20" cy="-8" rx="6" ry="3.5" fill="#5a606a" stroke="#080408" stroke-width="0.4"/>
+
+    <!-- Right arm reaching INTO HIP COMPARTMENT (the furtive gesture). -->
+    <path d="M22,2 L18,18 L8,32" fill="none" stroke="url(#p21p1silver)" stroke-width="5" stroke-linecap="round"/>
+    <!-- Hand reaching at hip compartment. -->
+    <ellipse cx="8" cy="32" rx="3.5" ry="3" fill="#5a3018"/>
+    <!-- HIP COMPARTMENT visible — small panel slid open. -->
+    <rect x="2" y="28" width="14" height="10" fill="#1a1820" stroke="#7a808a" stroke-width="0.6"/>
+    <line x1="3" y1="32" x2="15" y2="32" stroke="#080404" stroke-width="0.5"/>
+    <!-- Faint glow from inside compartment. -->
+    <ellipse cx="9" cy="33" rx="6" ry="2" fill="#bfe4ff" opacity="0.4" filter="url(#p21p1bloom)"/>
+
+    <!-- Left arm bracing against ground (crouched). -->
+    <path d="M-22,5 L-26,30 L-22,55" fill="none" stroke="url(#p21p1silver)" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="55" rx="4" ry="2.5" fill="#5a3018"/>
+
+    <!-- Crouched legs (folded under). -->
+    <path d="M-12,80 L-18,108 L-22,135" fill="none" stroke="#5a606a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M14,80 L20,108 L22,135" fill="none" stroke="#5a606a" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="135" rx="5" ry="2.5" fill="#1a0808"/>
+    <ellipse cx="22" cy="135" rx="5" ry="2.5" fill="#1a0808"/>
+
+    <!-- HEAD — TURNED OVER LEFT SHOULDER (looking back at camp). -->
+    <ellipse cx="-5" cy="-32" rx="11" ry="12" fill="#5a3018" transform="rotate(-25 -5 -32)"/>
+    <!-- Buzz cap silver-white. -->
+    <path d="M-12,-39 Q-7,-44 -2,-44 Q3,-44 6,-39 L6,-32 L-13,-32 Z" fill="#e8eaee" transform="rotate(-25 -5 -32)"/>
+    <!-- Stipple. -->
+    <g fill="#5a606a" opacity="0.6">
+      <circle cx="-9" cy="-40" r="0.5"/>
+      <circle cx="-5" cy="-42" r="0.5"/>
+      <circle cx="-1" cy="-40" r="0.5"/>
+    </g>
+    <!-- Faint cool catch on profile (only visible side from this angle). -->
+    <ellipse cx="-10" cy="-32" rx="2" ry="1" fill="#dceaff" opacity="0.55"/>
+
+    <!-- Eye visible (3/4 back view, looking back). -->
+    <ellipse cx="-10" cy="-32" rx="1.2" ry="0.8" fill="#1a0808"/>
+    <circle cx="-10" cy="-32.5" r="0.4" fill="#dceaff"/>
+    <!-- Brow (alert). -->
+    <path d="M-13,-36 Q-10,-37 -7,-36" stroke="#3a1808" stroke-width="0.7" fill="none"/>
+    <!-- Lips (closed, tight). -->
+    <line x1="-12" y1="-26" x2="-7" y2="-26" stroke="#3a1808" stroke-width="0.8"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p21p1-meta">
+    <text x="176" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="180" y="1116" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="7" fill="#fff" opacity="0.7">CHECK ALONE</text>
+  </g>
+</svg>

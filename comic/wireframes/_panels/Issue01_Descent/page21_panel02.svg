@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184 1122" width="184" height="1122">
+  <title>Issue 1 — Page 21 — Panel 2: Sable's hands holding data module — coldest frame</title>
+  <desc>CU at slight high angle (85mm). Sable's hands holding palm-sized dark device — the data module. Holographic display projects upward: dense blue-white geometric fairy script, scrolling. Display = primary + nearly only light source, illuminates hands + suit cuffs + soot iron beneath. Holographic text dense + comprehensive — mission file. Light cold + structured + clinical. COLDEST FRAME in issue, almost no warm light. Hands steady. Reading. Silent.</desc>
+
+  <defs>
+    <linearGradient id="p21p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020208"/>
+      <stop offset="100%" stop-color="#080a14"/>
+    </linearGradient>
+    <linearGradient id="p21p2silverCold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8c0d8"/>
+      <stop offset="100%" stop-color="#3a4858"/>
+    </linearGradient>
+    <linearGradient id="p21p2skinCold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#2a1a10"/>
+    </linearGradient>
+    <radialGradient id="p21p2dataGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#7ac8ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p21p2fractureGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p21p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p21p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Cold dark background. -->
+  <rect width="184" height="1122" fill="url(#p21p2bg)"/>
+
+  <!-- Soot iron gutter floor at bottom (where hands are). -->
+  <rect y="800" width="184" height="322" fill="#0a0408"/>
+  <line x1="0" y1="800" x2="184" y2="800" stroke="#080404" stroke-width="0.8"/>
+  <!-- Coal sediment around. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="20" cy="1080" r="1.5"/>
+    <circle cx="50" cy="1095" r="1.2"/>
+    <circle cx="120" cy="1085" r="1.4"/>
+    <circle cx="160" cy="1095" r="1.3"/>
+  </g>
+
+  <!-- HOLOGRAPHIC DISPLAY projecting upward — dominant cool light source. -->
+  <g id="p21p2-holo-display" transform="translate(92, 700)">
+
+    <!-- Wide bright glow halo extending UP. -->
+    <ellipse cx="0" cy="-260" rx="100" ry="280" fill="url(#p21p2dataGlow)" filter="url(#p21p2strongBloom)" opacity="0.85"/>
+    <!-- Brighter inner glow. -->
+    <ellipse cx="0" cy="-200" rx="60" ry="180" fill="#bfe4ff" filter="url(#p21p2bloom)" opacity="0.45"/>
+
+    <!-- The dense FAIRY SCRIPT rising upward — structured geometric text in alien forms. -->
+    <g stroke="#bfe4ff" stroke-width="0.6" fill="none" opacity="0.85" filter="url(#p21p2bloom)">
+      <!-- Block 1 (lowest, largest, brightest). -->
+      <rect x="-50" y="-100" width="100" height="34" rx="2" stroke-dasharray="3,1.5"/>
+      <!-- Header marks. -->
+      <line x1="-44" y1="-92" x2="-30" y2="-92" stroke-width="0.9"/>
+      <line x1="-26" y1="-92" x2="-12" y2="-92" stroke-width="0.9"/>
+      <line x1="-8" y1="-92" x2="6" y2="-92" stroke-width="0.9"/>
+      <!-- Body text rows (alien dashes). -->
+      <line x1="-46" y1="-86" x2="40" y2="-86" stroke-width="0.5"/>
+      <line x1="-46" y1="-82" x2="36" y2="-82" stroke-width="0.5"/>
+      <line x1="-46" y1="-78" x2="38" y2="-78" stroke-width="0.5"/>
+      <line x1="-46" y1="-74" x2="34" y2="-74" stroke-width="0.5"/>
+      <line x1="-46" y1="-70" x2="40" y2="-70" stroke-width="0.5"/>
+      <!-- Geometric "characters" — small angular shapes representing fairy script glyphs. -->
+      <g fill="#bfe4ff" opacity="0.85">
+        <polygon points="-40,-78 -36,-80 -32,-78 -36,-76"/>
+        <polygon points="-26,-78 -22,-80 -18,-78 -22,-76"/>
+        <circle cx="-12" cy="-78" r="1.2"/>
+        <polygon points="0,-80 4,-76 -2,-76"/>
+        <rect x="14" y="-79" width="3" height="3"/>
+        <polygon points="26,-78 30,-76 26,-74 22,-76"/>
+        <circle cx="38" cy="-78" r="1"/>
+      </g>
+
+      <!-- Block 2. -->
+      <rect x="-46" y="-160" width="92" height="42" rx="2" stroke-dasharray="3,1.5"/>
+      <line x1="-40" y1="-152" x2="-22" y2="-152" stroke-width="0.7"/>
+      <line x1="-18" y1="-152" x2="0" y2="-152" stroke-width="0.7"/>
+      <line x1="-42" y1="-145" x2="38" y2="-145" stroke-width="0.4"/>
+      <line x1="-42" y1="-140" x2="34" y2="-140" stroke-width="0.4"/>
+      <line x1="-42" y1="-135" x2="38" y2="-135" stroke-width="0.4"/>
+      <line x1="-42" y1="-130" x2="32" y2="-130" stroke-width="0.4"/>
+      <line x1="-42" y1="-125" x2="36" y2="-125" stroke-width="0.4"/>
+      <g fill="#bfe4ff" opacity="0.7">
+        <polygon points="-30,-138 -26,-140 -22,-138 -26,-136"/>
+        <circle cx="-12" cy="-138" r="0.9"/>
+        <polygon points="2,-140 6,-136 -2,-136"/>
+        <rect x="18" y="-139" width="2.5" height="2.5"/>
+      </g>
+
+      <!-- Block 3 (higher up — fainter as it rises). -->
+      <rect x="-42" y="-220" width="84" height="38" rx="2" stroke-dasharray="3,1.5" opacity="0.7"/>
+      <line x1="-38" y1="-212" x2="-22" y2="-212" stroke-width="0.6"/>
+      <line x1="-18" y1="-212" x2="0" y2="-212" stroke-width="0.6"/>
+      <line x1="-38" y1="-205" x2="34" y2="-205" stroke-width="0.4"/>
+      <line x1="-38" y1="-200" x2="30" y2="-200" stroke-width="0.4"/>
+      <line x1="-38" y1="-195" x2="32" y2="-195" stroke-width="0.4"/>
+      <g fill="#bfe4ff" opacity="0.6">
+        <polygon points="-26,-200 -22,-202 -18,-200 -22,-198"/>
+        <circle cx="-8" cy="-200" r="0.8"/>
+      </g>
+
+      <!-- Block 4 (highest, dispersing into bloom). -->
+      <rect x="-38" y="-280" width="76" height="34" rx="2" stroke-dasharray="3,1.5" opacity="0.5"/>
+      <line x1="-34" y1="-272" x2="-18" y2="-272" stroke-width="0.5" opacity="0.6"/>
+      <line x1="-34" y1="-264" x2="28" y2="-264" stroke-width="0.4" opacity="0.5"/>
+      <line x1="-34" y1="-258" x2="24" y2="-258" stroke-width="0.4" opacity="0.5"/>
+      <line x1="-34" y1="-252" x2="28" y2="-252" stroke-width="0.4" opacity="0.5"/>
+    </g>
+    <!-- Floating ember-like highlights on the rising glow. -->
+    <g fill="#ffffff" filter="url(#p21p2bloom)">
+      <circle cx="-10" cy="-180" r="0.9"/>
+      <circle cx="14" cy="-220" r="1.1"/>
+      <circle cx="-20" cy="-260" r="0.8"/>
+      <circle cx="22" cy="-280" r="0.9"/>
+    </g>
+
+    <!-- DATA MODULE itself — small dark device in palms. -->
+    <g id="p21p2-module">
+      <rect x="-26" y="-12" width="52" height="20" rx="3" fill="#1a1820" stroke="#080404" stroke-width="1"/>
+      <rect x="-26" y="-12" width="52" height="6" fill="#0a0810"/>
+      <!-- Top interface surface (where light projects from). -->
+      <rect x="-22" y="-8" width="44" height="3" fill="#5a808c"/>
+      <rect x="-22" y="-8" width="44" height="2" fill="#bfe4ff" opacity="0.85"/>
+      <!-- Rim glow. -->
+      <ellipse cx="0" cy="-8" rx="32" ry="4" fill="#bfe4ff" filter="url(#p21p2bloom)" opacity="0.65"/>
+      <!-- Casing seam lines. -->
+      <line x1="-26" y1="-2" x2="26" y2="-2" stroke="#0a0204" stroke-width="0.4"/>
+      <line x1="-15" y1="2" x2="15" y2="2" stroke="#3a3848" stroke-width="0.5"/>
+    </g>
+  </g>
+
+  <!-- LEFT HAND — gripping device from below-left. -->
+  <g id="p21p2-left-hand" transform="translate(72, 700)">
+    <!-- Forearm (silver suit cuff). -->
+    <path d="M-30,80 L-22,30 L-2,8 L-2,-2 Z" fill="url(#p21p2silverCold)" stroke="#3a3848" stroke-width="0.5"/>
+    <line x1="-22" y1="30" x2="-2" y2="8" stroke="#3a3848" stroke-width="0.6"/>
+    <!-- Cuff seam. -->
+    <line x1="-15" y1="20" x2="0" y2="2" stroke="#080404" stroke-width="0.5"/>
+    <!-- Hand & fingers wrapping module from below-left. -->
+    <ellipse cx="-2" cy="2" rx="6" ry="4" fill="url(#p21p2skinCold)"/>
+    <!-- Fingers wrapping under module. -->
+    <path d="M-6,4 Q-4,8 -2,12" stroke="url(#p21p2skinCold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M0,5 Q2,9 4,13" stroke="url(#p21p2skinCold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M5,4 Q7,8 9,11" stroke="url(#p21p2skinCold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Cool blue-white catch on top of fingers (lit from above by display). -->
+    <path d="M-6,3 Q0,1 9,4" stroke="#dceaff" stroke-width="0.7" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- RIGHT HAND — gripping device from below-right. -->
+  <g id="p21p2-right-hand" transform="translate(112, 700)">
+    <!-- Forearm. -->
+    <path d="M30,80 L22,30 L2,8 L2,-2 Z" fill="url(#p21p2silverCold)" stroke="#3a3848" stroke-width="0.5"/>
+    <line x1="22" y1="30" x2="2" y2="8" stroke="#3a3848" stroke-width="0.6"/>
+    <line x1="15" y1="20" x2="0" y2="2" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="2" cy="2" rx="6" ry="4" fill="url(#p21p2skinCold)"/>
+    <!-- Fingers. -->
+    <path d="M-9,4 Q-7,8 -5,11" stroke="url(#p21p2skinCold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-4,5 Q-2,9 0,13" stroke="url(#p21p2skinCold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M2,5 Q4,9 6,12" stroke="url(#p21p2skinCold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Cool catch. -->
+    <path d="M-9,3 Q0,1 6,4" stroke="#dceaff" stroke-width="0.7" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- Faint cracked-shoulder light reaching down on outside of forearms (subtle). -->
+  <ellipse cx="42" cy="780" rx="20" ry="40" fill="url(#p21p2fractureGlow)" filter="url(#p21p2strongBloom)" opacity="0.35"/>
+  <ellipse cx="142" cy="780" rx="20" ry="40" fill="url(#p21p2fractureGlow)" filter="url(#p21p2strongBloom)" opacity="0.3"/>
+
+  <!-- Very faint warm hint in BG corners (city beyond, almost imperceptible). -->
+  <ellipse cx="0" cy="1000" rx="20" ry="50" fill="#5a3818" opacity="0.15"/>
+  <ellipse cx="184" cy="1000" rx="20" ry="50" fill="#5a3818" opacity="0.12"/>
+
+  <!-- Meta tag. -->
+  <g id="p21p2-meta">
+    <text x="176" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="180" y="1116" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="7" fill="#fff" opacity="0.7">DATA MODULE</text>
+  </g>
+</svg>
