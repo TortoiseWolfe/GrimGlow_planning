@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.7 364" width="240.7" height="364">
+  <title>Issue 3 — Page 7 — Panel 3: CU low-angle from bench, Theodore's enormous face above</title>
+  <desc>CU 85mm low angle from workbench surface looking up at enormous face above — boy of twelve seen from perspective of 4-inch figure. Face fills upper frame like a sky, hazy hazel eyes wide, mouth open, frozen. Sandy-brown hair, freckles. Candle behind head creates warm amber halo. Oil-stained hand grips bench edge in foreground, fingers as large as entire small person. Other hand holds shard pulsing bright blue-white geometric light. Expression EXACT THRESHOLD between terror and wonder — both simultaneously. Three light sources converge: warm amber candle halo behind, cool blue-white shard glow from hand, faint emerald accent from below. Enormity of human from below.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p7p3nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p7p3candleHalo" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p7p3coolGlow" cx="80%" cy="60%" r="40%">
+      <stop offset="0%" stop-color="#a0d8ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#5090e0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p7p3emeraldFloor" cx="20%" cy="100%" r="40%">
+      <stop offset="0%" stop-color="#2ed078" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p7p3skin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7090b0"/>
+      <stop offset="40%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p7p3skinShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#1a0e06" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p7p3skinCoolKey" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a0c8ff" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#a0c8ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p7p3hairWarm" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p7p3hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="p7p3shardCore">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a0d8ff"/>
+      <stop offset="80%" stop-color="#5090e0"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <linearGradient id="p7p3benchSurface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p7p3oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p7p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p7p3strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p7p3deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG: dark night. -->
+  <rect width="240.7" height="364" fill="url(#p7p3nightBg)"/>
+
+  <!-- WARM amber halo BEHIND Theodore's head (top of frame). -->
+  <ellipse cx="120" cy="60" rx="200" ry="120" fill="url(#p7p3candleHalo)" opacity="0.85"/>
+
+  <!-- Cool glow from shard (right side). -->
+  <ellipse cx="180" cy="220" rx="80" ry="50" fill="url(#p7p3coolGlow)" opacity="0.85" filter="url(#p7p3bloom)"/>
+
+  <!-- Emerald floor glow from below (Jink's accent). -->
+  <ellipse cx="40" cy="364" rx="100" ry="80" fill="url(#p7p3emeraldFloor)" opacity="0.85"/>
+
+  <!-- BENCH EDGE — fills lower portion of frame, foreground perspective. -->
+  <rect x="0" y="280" width="240.7" height="84" fill="url(#p7p3benchSurface)"/>
+  <line x1="0" y1="290" x2="240.7" y2="290" stroke="#1a0c04" stroke-width="1"/>
+  <!-- Wood grain. -->
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.5">
+    <path d="M40,290 Q50,330 42,360"/>
+    <path d="M120,290 Q130,330 122,360"/>
+    <path d="M200,290 Q210,330 202,360"/>
+  </g>
+  <!-- Bench edge line where it drops to the floor (cliff edge). -->
+  <line x1="0" y1="280" x2="240.7" y2="280" stroke="#5a3818" stroke-width="2"/>
+
+  <!-- THEODORE'S ENORMOUS HAND — gripping bench edge, foreground. Right side of frame. -->
+  <g>
+    <!-- Hand is HUGE — fills lower-right of frame. Fingers wrap over bench edge. -->
+    <path d="M240.7,200 L240.7,300 Q230,310 200,308 Q170,304 158,290 L158,210 Q180,200 240.7,200 Z" fill="url(#p7p3skin)"/>
+    <!-- Cool wash from shard (faint blue tint on knuckles/fingers). -->
+    <path d="M240.7,200 L240.7,300 Q230,310 200,308 Q170,304 158,290 L158,210 Q180,200 240.7,200 Z" fill="url(#p7p3skinCoolKey)" opacity="0.45"/>
+    <!-- Knuckle ridges. -->
+    <path d="M170,242 Q186,236 200,240" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <path d="M188,260 Q204,254 218,258" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <!-- Oil stains. -->
+    <ellipse cx="200" cy="248" rx="14" ry="6" fill="url(#p7p3oilStain)"/>
+    <ellipse cx="220" cy="270" rx="10" ry="4" fill="url(#p7p3oilStain)" opacity="0.7"/>
+
+    <!-- Fingers wrapping over bench edge (visible as separate digits). -->
+    <!-- Index finger. -->
+    <path d="M158,210 Q146,222 144,240 L160,242 Q168,224 174,212 Z" fill="url(#p7p3skin)"/>
+    <ellipse cx="148" cy="248" rx="5" ry="3" fill="url(#p7p3skin)"/>
+    <!-- Middle finger. -->
+    <path d="M180,212 Q170,228 168,254 L184,256 Q190,232 196,214 Z" fill="url(#p7p3skin)"/>
+    <ellipse cx="172" cy="262" rx="5" ry="3" fill="url(#p7p3skin)"/>
+    <!-- Ring finger. -->
+    <path d="M200,214 Q192,232 192,266 L208,266 Q212,238 218,216 Z" fill="url(#p7p3skin)"/>
+    <ellipse cx="196" cy="272" rx="5" ry="3" fill="url(#p7p3skin)"/>
+    <!-- Pinky. -->
+    <path d="M222,216 Q216,234 218,272 L232,270 Q234,242 238,218 Z" fill="url(#p7p3skin)"/>
+    <ellipse cx="222" cy="278" rx="4" ry="2.5" fill="url(#p7p3skin)"/>
+
+    <!-- BRASS GEAR RING on left index — VISIBLE at this scale. -->
+    <ellipse cx="152" cy="232" rx="9" ry="5" fill="#f0d878"/>
+    <ellipse cx="152" cy="232" rx="9" ry="5" fill="none" stroke="#5a3018" stroke-width="0.6"/>
+    <ellipse cx="152" cy="232" rx="3.5" ry="2.5" fill="#3a2010"/>
+  </g>
+
+  <!-- THEODORE'S OTHER HAND with SHARD — in the upper-right area, partially visible. -->
+  <g>
+    <!-- Hand silhouette (mostly cut off, just visible holding shard). -->
+    <path d="M150,160 Q170,170 180,196 Q176,210 156,212 Q140,206 138,184 Z" fill="url(#p7p3skin)"/>
+    <!-- Shard between fingers. -->
+    <g>
+      <ellipse cx="170" cy="194" rx="22" ry="14" fill="#a0d8ff" opacity="0.85" filter="url(#p7p3deepBloom)"/>
+      <ellipse cx="170" cy="194" rx="14" ry="8" fill="#a0d8ff" opacity="0.55" filter="url(#p7p3strongBloom)"/>
+      <path d="M164,194 L172,186 L178,196 L172,202 Z" fill="url(#p7p3shardCore)" opacity="0.95"/>
+      <line x1="166" y1="194" x2="174" y2="194" stroke="#ffffff" stroke-width="0.4" opacity="0.95" filter="url(#p7p3bloom)"/>
+      <circle cx="170" cy="194" r="1.4" fill="#ffffff" filter="url(#p7p3bloom)"/>
+    </g>
+  </g>
+
+  <!-- THEODORE'S HEAD — ENORMOUS, fills upper portion of frame "like a sky". -->
+  <g>
+    <!-- Hair halo from candle behind. -->
+    <ellipse cx="100" cy="40" rx="120" ry="50" fill="url(#p7p3hairWarm)" opacity="0.7"/>
+
+    <!-- Head shape (very large, low-angle perspective from below). -->
+    <ellipse cx="100" cy="100" rx="90" ry="110" fill="url(#p7p3skin)"/>
+    <!-- Underlit cool from shard area (right side of jaw). -->
+    <ellipse cx="100" cy="160" rx="90" ry="40" fill="url(#p7p3skinCoolKey)" opacity="0.45"/>
+    <!-- Top of head shadow. -->
+    <ellipse cx="100" cy="60" rx="90" ry="40" fill="url(#p7p3skinShadow)" opacity="0.35"/>
+
+    <!-- Tousled spikes haloed by warm. -->
+    <path d="M28,50 Q24,0 60,-20 Q84,-30 116,-30 Q160,-20 172,30 L168,40 Q150,-4 134,-12 L62,-12 Q48,-4 42,40 Z" fill="url(#p7p3hair)"/>
+    <path d="M40,4 L36,-30 L48,2 Z" fill="url(#p7p3hair)"/>
+    <path d="M64,-12 L60,-44 L76,-8 Z" fill="url(#p7p3hair)"/>
+    <path d="M90,-22 L92,-54 L106,-20 Z" fill="url(#p7p3hair)"/>
+    <path d="M118,-20 L130,-50 L130,-12 Z" fill="url(#p7p3hair)"/>
+    <path d="M148,-4 L166,-36 L160,8 Z" fill="url(#p7p3hair)"/>
+    <!-- Warm rim light on spike tops (candle backlit). -->
+    <g stroke="#ffd078" stroke-width="1.2" opacity="0.7">
+      <line x1="48" y1="-22" x2="48" y2="0"/>
+      <line x1="72" y1="-32" x2="72" y2="-8"/>
+      <line x1="98" y1="-44" x2="98" y2="-18"/>
+      <line x1="124" y1="-40" x2="124" y2="-14"/>
+      <line x1="156" y1="-22" x2="156" y2="0"/>
+    </g>
+    <!-- Bangs falling forward. -->
+    <path d="M40,40 L42,68 L56,40 Z" fill="url(#p7p3hair)"/>
+    <path d="M64,44 L66,72 L80,44 Z" fill="url(#p7p3hair)"/>
+    <path d="M86,46 L88,76 L104,46 Z" fill="url(#p7p3hair)"/>
+    <path d="M110,46 L112,74 L128,46 Z" fill="url(#p7p3hair)"/>
+    <path d="M132,44 L134,72 L150,44 Z" fill="url(#p7p3hair)"/>
+    <path d="M158,40 L160,68 L172,40 Z" fill="url(#p7p3hair)"/>
+
+    <!-- WIDE EYES (huge from this angle). -->
+    <!-- Left eye. -->
+    <ellipse cx="60" cy="108" rx="20" ry="14" fill="#fff8e8"/>
+    <ellipse cx="60" cy="108" rx="20" ry="14" fill="none" stroke="#3a2810" stroke-width="0.9"/>
+    <circle cx="60" cy="108" r="9" fill="url(#p7p3hair)"/>
+    <circle cx="60" cy="108" r="5" fill="#0a0604"/>
+    <!-- Cool catchlight (shard reflection). -->
+    <ellipse cx="60" cy="113" rx="3" ry="1.4" fill="#a0d8ff" filter="url(#p7p3bloom)"/>
+    <ellipse cx="56" cy="106" rx="2.5" ry="1.4" fill="#ffffff"/>
+    <!-- Wide-open lid. -->
+    <path d="M40,108 Q60,90 80,108" fill="none" stroke="#3a2810" stroke-width="1.2"/>
+    <path d="M40,108 Q60,124 80,108" fill="none" stroke="#3a2810" stroke-width="1.2"/>
+
+    <!-- Right eye. -->
+    <ellipse cx="140" cy="108" rx="20" ry="14" fill="#fff8e8"/>
+    <ellipse cx="140" cy="108" rx="20" ry="14" fill="none" stroke="#3a2810" stroke-width="0.9"/>
+    <circle cx="140" cy="108" r="9" fill="url(#p7p3hair)"/>
+    <circle cx="140" cy="108" r="5" fill="#0a0604"/>
+    <ellipse cx="140" cy="113" rx="3" ry="1.4" fill="#a0d8ff" filter="url(#p7p3bloom)"/>
+    <ellipse cx="136" cy="106" rx="2.5" ry="1.4" fill="#ffffff"/>
+    <path d="M120,108 Q140,90 160,108" fill="none" stroke="#3a2810" stroke-width="1.2"/>
+    <path d="M120,108 Q140,124 160,108" fill="none" stroke="#3a2810" stroke-width="1.2"/>
+
+    <!-- Brows raised. -->
+    <path d="M30,80 Q60,68 90,80" fill="none" stroke="#3a2810" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M110,80 Q140,68 170,80" fill="none" stroke="#3a2810" stroke-width="2.6" stroke-linecap="round"/>
+
+    <!-- Nose (large). -->
+    <path d="M100,128 L90,164 Q100,170 110,164 Z" fill="#a8765a" opacity="0.55"/>
+    <ellipse cx="93" cy="166" rx="3" ry="1.5" fill="#3a1808" opacity="0.85"/>
+    <ellipse cx="107" cy="166" rx="3" ry="1.5" fill="#3a1808" opacity="0.85"/>
+
+    <!-- MOUTH WIDE OPEN (frozen). -->
+    <ellipse cx="100" cy="186" rx="18" ry="6" fill="#1a0c04"/>
+    <ellipse cx="100" cy="186" rx="18" ry="6" fill="none" stroke="#5a3018" stroke-width="0.7"/>
+    <!-- Inside mouth dark. -->
+    <ellipse cx="100" cy="186" rx="14" ry="3" fill="#0a0402"/>
+    <!-- Lower teeth row. -->
+    <line x1="86" y1="190" x2="114" y2="190" stroke="#dcd0b4" stroke-width="0.7"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.85">
+      <circle cx="40" cy="148" r="0.9"/>
+      <circle cx="48" cy="152" r="0.85"/>
+      <circle cx="58" cy="148" r="0.95"/>
+      <circle cx="142" cy="148" r="0.95"/>
+      <circle cx="152" cy="152" r="0.85"/>
+      <circle cx="162" cy="148" r="0.9"/>
+    </g>
+
+    <!-- Slight cheek glow from candle (warm). -->
+    <ellipse cx="42" cy="160" rx="14" ry="10" fill="#ffd078" opacity="0.32"/>
+    <ellipse cx="158" cy="160" rx="14" ry="10" fill="#ffd078" opacity="0.32"/>
+  </g>
+
+  <!-- Bench edge highlight. -->
+  <line x1="0" y1="278" x2="240.7" y2="278" stroke="#7a4828" stroke-width="0.7" opacity="0.85"/>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q60,45 120,42"/>
+    <path d="M120,200 Q160,205 220,202"/>
+    <path d="M0,330 Q60,335 120,332"/>
+  </g>
+
+  <!-- No dialogue per script. -->
+</svg>
