@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 22 — Panel 2: Theodore meets Billy</title>
+  <desc>MED two-shot eye level. Two Victorian boys walk side by side on grey morning street. LEFT: slight boy with sandy-brown hair and suppressed smile breaking through — eyes bright, vibrating with secret. RIGHT: broader boy ruddy-faced, mortar dust on hands, bricklayer's apprentice outfit, bored morning expression. Twelve to thirteen. Street behind = grey terraced houses, desaturated brick, overcast sky. Grey morning light flat and even. NO fairy glow. NO warm gaslight.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p22p2greySky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8a8a8a"/>
+      <stop offset="100%" stop-color="#a8a8a8"/>
+    </linearGradient>
+    <linearGradient id="p22p2greyStreet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6a6058"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </linearGradient>
+    <linearGradient id="p22p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5048"/>
+      <stop offset="100%" stop-color="#5a3830"/>
+    </linearGradient>
+    <linearGradient id="p22p2theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="100%" stop-color="#c8b8a8"/>
+    </linearGradient>
+    <radialGradient id="p22p2theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#88806a"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </radialGradient>
+    <linearGradient id="p22p2billySkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c8a098"/>
+      <stop offset="100%" stop-color="#dcb8a8"/>
+    </linearGradient>
+    <radialGradient id="p22p2billyHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </radialGradient>
+    <linearGradient id="p22p2shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b8a890"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </linearGradient>
+    <linearGradient id="p22p2vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4030"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p22p2trousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2c20"/>
+    </linearGradient>
+    <linearGradient id="p22p2billyClothes" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a6058"/>
+      <stop offset="100%" stop-color="#4a3830"/>
+    </linearGradient>
+    <filter id="p22p2bloom"><feGaussianBlur stdDeviation="1"/></filter>
+  </defs>
+
+  <!-- BG sky. -->
+  <rect width="366" height="180" fill="url(#p22p2greySky)"/>
+  <!-- Fog wisps. -->
+  <g fill="none" stroke="#a89888" stroke-width="0.55" opacity="0.45">
+    <path d="M0,40 Q183,38 366,42"/>
+    <path d="M0,80 Q183,82 366,76"/>
+    <path d="M0,120 Q183,118 366,124"/>
+  </g>
+
+  <!-- Street. -->
+  <rect x="0" y="180" width="366" height="184" fill="url(#p22p2greyStreet)"/>
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.55">
+    <path d="M0,200 Q120,202 240,198"/>
+    <path d="M240,202 Q300,198 366,202"/>
+    <path d="M0,240 Q120,242 240,238"/>
+    <path d="M0,280 Q120,278 240,282"/>
+    <path d="M240,278 Q300,282 366,278"/>
+    <path d="M0,320 Q120,322 240,318"/>
+  </g>
+  <!-- Cobble dots. -->
+  <g fill="#3a3028" opacity="0.55">
+    <circle cx="60" cy="220" r="2"/>
+    <circle cx="180" cy="225" r="2"/>
+    <circle cx="280" cy="220" r="2"/>
+    <circle cx="120" cy="260" r="2"/>
+    <circle cx="240" cy="265" r="2"/>
+    <circle cx="320" cy="260" r="2"/>
+    <circle cx="80" cy="300" r="2"/>
+    <circle cx="200" cy="305" r="2"/>
+    <circle cx="300" cy="300" r="2"/>
+  </g>
+
+  <!-- BG terraced houses. -->
+  <g>
+    <rect x="0" y="60" width="366" height="120" fill="url(#p22p2brick)"/>
+    <!-- Brick lines. -->
+    <g stroke="#3a2818" stroke-width="0.55" opacity="0.65">
+      <line x1="0" y1="80" x2="366" y2="80"/>
+      <line x1="0" y1="100" x2="366" y2="100"/>
+      <line x1="0" y1="120" x2="366" y2="120"/>
+      <line x1="0" y1="140" x2="366" y2="140"/>
+      <line x1="0" y1="160" x2="366" y2="160"/>
+      <line x1="40" y1="60" x2="40" y2="100"/>
+      <line x1="100" y1="100" x2="100" y2="140"/>
+      <line x1="160" y1="60" x2="160" y2="100"/>
+      <line x1="220" y1="120" x2="220" y2="160"/>
+      <line x1="280" y1="100" x2="280" y2="140"/>
+    </g>
+    <!-- Windows. -->
+    <rect x="20" y="100" width="40" height="50" fill="#5a4838"/>
+    <line x1="40" y1="100" x2="40" y2="150" stroke="#1a0c04" stroke-width="0.55"/>
+    <rect x="120" y="100" width="40" height="50" fill="#5a4838"/>
+    <rect x="220" y="100" width="40" height="50" fill="#5a4838"/>
+    <rect x="320" y="100" width="40" height="50" fill="#5a4838"/>
+    <!-- Doors. -->
+    <rect x="80" y="130" width="22" height="50" fill="#3a2010"/>
+    <rect x="180" y="130" width="22" height="50" fill="#3a2010"/>
+    <rect x="280" y="130" width="22" height="50" fill="#3a2010"/>
+  </g>
+
+  <!-- ******** THEODORE walking LEFT side ******** -->
+  <g transform="translate(120 240)">
+    <ellipse cx="0" cy="60" rx="14" ry="3" fill="#1a1410" opacity="0.45"/>
+
+    <!-- Trousers. -->
+    <path d="M-8,0 L-10,46 L-2,52 L-2,0 Z" fill="url(#p22p2trousers)"/>
+    <path d="M2,0 L4,46 L12,52 L8,0 Z" fill="url(#p22p2trousers)"/>
+    <ellipse cx="-6" cy="58" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="8" cy="58" rx="5" ry="2" fill="#1a0c04"/>
+
+    <!-- Vest + shirt. -->
+    <path d="M-12,-50 L-16,0 L16,0 L12,-50 Z" fill="url(#p22p2vest)"/>
+    <path d="M-4,-58 L-2,-50 L4,-50 L4,-58 Z" fill="url(#p22p2shirt)"/>
+
+    <!-- Arms. -->
+    <path d="M-12,-44 Q-20,-22 -20,0 L-12,2 Q-10,-22 -8,-44 Z" fill="url(#p22p2shirt)"/>
+    <path d="M12,-44 Q20,-22 20,0 L12,2 Q10,-22 8,-44 Z" fill="url(#p22p2shirt)"/>
+
+    <!-- Head — turned slightly toward Billy (right). -->
+    <g transform="rotate(-10 0 -70)">
+      <ellipse cx="0" cy="-70" rx="13" ry="14" fill="url(#p22p2theoSkin)"/>
+      <!-- Hair sandy. -->
+      <g fill="url(#p22p2theoHair)">
+        <path d="M-12,-82 Q-14,-94 0,-98 Q14,-94 12,-82 L8,-80 Q4,-90 -4,-90 Q-12,-90 -16,-80 Z"/>
+        <path d="M-8,-94 L-10,-104 L-4,-94 Z"/>
+        <path d="M-2,-98 L-2,-108 L4,-94 Z"/>
+        <path d="M6,-98 L10,-108 L8,-94 Z"/>
+      </g>
+      <!-- Eyes (looking right at Billy, BRIGHT). -->
+      <ellipse cx="-3" cy="-72" rx="2" ry="1.4" fill="#fff8e8"/>
+      <circle cx="-2" cy="-72" r="1.2" fill="#3a2810"/>
+      <circle cx="-2" cy="-72" r="0.6" fill="#0a0604"/>
+      <ellipse cx="-1.5" cy="-72.5" rx="0.55" ry="0.4" fill="#ffffff"/>
+      <ellipse cx="5" cy="-72" rx="2" ry="1.4" fill="#fff8e8"/>
+      <circle cx="6" cy="-72" r="1.2" fill="#3a2810"/>
+      <circle cx="6" cy="-72" r="0.6" fill="#0a0604"/>
+      <ellipse cx="6.5" cy="-72.5" rx="0.55" ry="0.4" fill="#ffffff"/>
+      <!-- Brows raised. -->
+      <path d="M-7,-78 Q-3,-80 1,-78" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+      <path d="M3,-78 Q7,-80 11,-78" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+      <!-- Nose. -->
+      <path d="M2,-66 L0,-60 Q2,-59 4,-60 Z" fill="#7a5848" opacity="0.55"/>
+      <!-- Suppressed smile breaking through — small but visible. -->
+      <path d="M-3,-54 Q2,-50 7,-54" fill="none" stroke="#3a2010" stroke-width="0.7" stroke-linecap="round"/>
+      <ellipse cx="2" cy="-52" rx="2.5" ry="0.85" fill="#3a1408" opacity="0.65"/>
+      <!-- Freckles. -->
+      <circle cx="-5" cy="-64" r="0.55" fill="#7a5848"/>
+      <circle cx="6" cy="-64" r="0.55" fill="#7a5848"/>
+    </g>
+  </g>
+
+  <!-- ******** BILLY walking RIGHT side ******** -->
+  <g transform="translate(240 240)">
+    <ellipse cx="0" cy="60" rx="16" ry="3" fill="#1a1410" opacity="0.45"/>
+
+    <!-- Trousers (broader). -->
+    <path d="M-10,0 L-12,46 L-2,52 L-2,0 Z" fill="url(#p22p2trousers)"/>
+    <path d="M2,0 L4,46 L14,52 L10,0 Z" fill="url(#p22p2trousers)"/>
+    <ellipse cx="-7" cy="58" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="9" cy="58" rx="5" ry="2" fill="#1a0c04"/>
+
+    <!-- Body wider. -->
+    <path d="M-16,-50 L-20,0 L20,0 L16,-50 Z" fill="url(#p22p2billyClothes)"/>
+    <!-- Shirt center. -->
+    <path d="M-4,-58 L-2,-50 L4,-50 L4,-58 Z" fill="url(#p22p2shirt)"/>
+
+    <!-- Arms. -->
+    <path d="M-16,-44 Q-26,-22 -26,0 L-18,2 Q-14,-22 -12,-44 Z" fill="url(#p22p2billyClothes)"/>
+    <path d="M16,-44 Q26,-22 26,0 L18,2 Q14,-22 12,-44 Z" fill="url(#p22p2billyClothes)"/>
+    <!-- Hands visible (mortar dust). -->
+    <ellipse cx="-26" cy="2" rx="4" ry="3" fill="url(#p22p2billySkin)"/>
+    <ellipse cx="26" cy="2" rx="4" ry="3" fill="url(#p22p2billySkin)"/>
+    <!-- MORTAR DUST on hands. -->
+    <ellipse cx="-26" cy="0" rx="3" ry="1.4" fill="#c8c0b0" opacity="0.85"/>
+    <ellipse cx="26" cy="0" rx="3" ry="1.4" fill="#c8c0b0" opacity="0.85"/>
+
+    <!-- Head broader, ruddy-faced. -->
+    <ellipse cx="0" cy="-70" rx="14" ry="15" fill="url(#p22p2billySkin)"/>
+    <!-- Hair (cap optional, here just hair). -->
+    <g fill="url(#p22p2billyHair)">
+      <path d="M-13,-82 Q-15,-92 0,-96 Q15,-92 13,-82 L10,-80 Q4,-88 -4,-88 Q-12,-88 -16,-80 Z"/>
+      <path d="M-8,-90 L-10,-100 L-4,-90 Z"/>
+      <path d="M2,-94 L4,-100 L6,-90 Z"/>
+    </g>
+    <!-- Ruddy cheeks. -->
+    <ellipse cx="-9" cy="-66" rx="4" ry="3" fill="#a85040" opacity="0.55"/>
+    <ellipse cx="9" cy="-66" rx="4" ry="3" fill="#a85040" opacity="0.55"/>
+
+    <!-- Eyes (BORED, half-closed). -->
+    <ellipse cx="-4" cy="-72" rx="2" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-4" cy="-72" r="0.85" fill="#3a2810"/>
+    <ellipse cx="4" cy="-72" rx="2" ry="0.85" fill="#fff8e8"/>
+    <circle cx="4" cy="-72" r="0.85" fill="#3a2810"/>
+    <!-- Heavy brows. -->
+    <path d="M-8,-78 Q-4,-80 0,-78" fill="none" stroke="#3a1c08" stroke-width="1" stroke-linecap="round"/>
+    <path d="M0,-78 Q4,-80 8,-78" fill="none" stroke="#3a1c08" stroke-width="1" stroke-linecap="round"/>
+    <!-- Nose. -->
+    <path d="M0,-66 L-2,-60 Q0,-59 2,-60 Z" fill="#7a5848" opacity="0.55"/>
+    <!-- Mouth — flat, bored. -->
+    <line x1="-3" y1="-54" x2="3" y2="-54" stroke="#3a2010" stroke-width="0.85"/>
+  </g>
+
+  <!-- DIALOGUE — 3 beats. -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="14" width="118" height="40" rx="10" fill="#fff8e8" stroke="#999999" stroke-width="1.4"/>
+    <path d="M48,54 L60,54 L50,72 Z" fill="#fff8e8" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="49.5" y1="54.5" x2="58" y2="54.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#5a5a5a">BILLY</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">Alright, Theo?</text>
+
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="74" width="338" height="50" rx="10" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4"/>
+    <path d="M58,124 L70,124 L60,142 Z" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="59.5" y1="124.5" x2="68" y2="124.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#6a4220">THEODORE</text>
+  <text x="22" y="114" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">Billy. You won't believe what I saw.</text>
+
+  <g filter="url(#balloonShadow)">
+    <rect x="244" y="296" width="108" height="44" rx="10" fill="#fff8e8" stroke="#999999" stroke-width="1.4"/>
+    <path d="M278,296 L290,296 L280,278 Z" fill="#fff8e8" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="279.5" y1="295.5" x2="288" y2="295.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="252" y="314" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#5a5a5a">BILLY</text>
+  <text x="252" y="332" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">What?</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 246,42"/>
+    <path d="M246,40 Q310,45 366,42"/>
+  </g>
+</svg>
