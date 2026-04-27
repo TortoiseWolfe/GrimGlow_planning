@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 420" width="487" height="420">
+  <title>Issue 2 — Page 7 — Panel 5: Sable anchors Thresh, Luma scans, Wren watches cat</title>
+  <desc>Medium wide 35mm eye level. Sable's hand on Thresh's weapon arm steadying — looking at Thresh not the cat. Behind: Luma kneeling with blue-violet scanning interface searching escape. Wren standing tense calculating, copper hair UP in bun, oil-stained forearms. Cobblestone boulder ground. Silver holo glow at contact point Sable→Thresh. Sapphire scan light on ground around Luma. SABLE low encouragement / WREN three seconds.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p7p5bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <linearGradient id="p7p5stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <linearGradient id="p7p5silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0bc"/>
+      <stop offset="100%" stop-color="#3a4048"/>
+    </linearGradient>
+    <linearGradient id="p7p5ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="p7p5copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89548"/>
+      <stop offset="100%" stop-color="#783818"/>
+    </linearGradient>
+    <linearGradient id="p7p5sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#3a1a78"/>
+    </linearGradient>
+    <radialGradient id="p7p5silverGlow">
+      <stop offset="0%" stop-color="#dce4f0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a8b0bc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p7p5sapphireScan">
+      <stop offset="0%" stop-color="#a878f8" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#5a3ad8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3a1a78" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p7p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p7p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="487" height="420" fill="url(#p7p5bg)"/>
+
+  <!-- Distant rain veil. -->
+  <g stroke="#a8b8c8" stroke-width="0.4" opacity="0.45">
+    <line x1="40" y1="20" x2="38" y2="60"/>
+    <line x1="120" y1="10" x2="118" y2="55"/>
+    <line x1="200" y1="25" x2="198" y2="65"/>
+    <line x1="280" y1="15" x2="278" y2="55"/>
+    <line x1="360" y1="30" x2="358" y2="70"/>
+    <line x1="440" y1="20" x2="438" y2="60"/>
+    <line x1="80" y1="100" x2="78" y2="140"/>
+    <line x1="240" y1="110" x2="238" y2="150"/>
+    <line x1="400" y1="105" x2="398" y2="145"/>
+    <line x1="160" y1="180" x2="158" y2="220"/>
+    <line x1="320" y1="190" x2="318" y2="230"/>
+  </g>
+
+  <!-- COBBLESTONE BOULDER GROUND (waist-high to characters). -->
+  <g fill="url(#p7p5stone)" stroke="#1a1a20" stroke-width="0.8">
+    <rect x="-10" y="320" width="100" height="40" rx="5"/>
+    <rect x="98" y="318" width="104" height="42" rx="5"/>
+    <rect x="210" y="320" width="100" height="40" rx="5"/>
+    <rect x="318" y="318" width="104" height="42" rx="5"/>
+    <rect x="430" y="320" width="80" height="40" rx="5"/>
+  </g>
+  <g fill="url(#p7p5stone)" stroke="#080810" stroke-width="1">
+    <rect x="-20" y="368" width="120" height="60" rx="6"/>
+    <rect x="108" y="366" width="124" height="62" rx="6"/>
+    <rect x="240" y="368" width="120" height="60" rx="6"/>
+    <rect x="368" y="366" width="124" height="62" rx="6"/>
+  </g>
+  <!-- Wet sheen. -->
+  <g fill="#c0d0e0" opacity="0.35" filter="url(#p7p5bloom)">
+    <ellipse cx="50" cy="370" rx="40" ry="3"/>
+    <ellipse cx="170" cy="368" rx="42" ry="3"/>
+    <ellipse cx="300" cy="370" rx="40" ry="3"/>
+    <ellipse cx="430" cy="368" rx="42" ry="3"/>
+  </g>
+
+  <!-- BLUE-VIOLET SCAN LIGHT pool (Luma's interface). -->
+  <ellipse cx="120" cy="375" rx="100" ry="40" fill="url(#p7p5sapphireScan)" filter="url(#p7p5strongBloom)" opacity="0.85"/>
+
+  <!-- LUMA — kneeling left, scanning. -->
+  <g id="p7p5-luma" transform="translate(120, 320)">
+    <!-- Suit kneeling pose. -->
+    <path d="M-15,40 L-25,0 L-30,-30 L-15,-50 L15,-50 L30,-30 L25,0 L25,40 Z" fill="url(#p7p5sapphire)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Knee on ground. -->
+    <ellipse cx="0" cy="42" rx="32" ry="6" fill="url(#p7p5sapphire)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Sapphire collar. -->
+    <ellipse cx="0" cy="-50" rx="14" ry="3" fill="#a878f8" opacity="0.85" filter="url(#p7p5bloom)"/>
+    <!-- HEAD. -->
+    <ellipse cx="0" cy="-65" rx="13" ry="14" fill="#a87850"/>
+    <!-- Long braid plastered wet, sapphire filament. -->
+    <path d="M-12,-65 Q-18,-50 -16,-30 Q-14,-10 -16,10" stroke="#1a0808" stroke-width="6" fill="none"/>
+    <path d="M-12,-65 Q-18,-50 -16,-30 Q-14,-10 -16,10" stroke="#a878f8" stroke-width="0.6" fill="none" opacity="0.85" filter="url(#p7p5bloom)"/>
+    <!-- Cracked right lens. -->
+    <ellipse cx="5" cy="-66" rx="6" ry="4" fill="#a878f8" opacity="0.45" stroke="#a878f8" stroke-width="0.5"/>
+    <line x1="5" y1="-66" x2="10" y2="-62" stroke="#dce4f0" stroke-width="0.4" opacity="0.85"/>
+    <!-- Hand on holographic interface. -->
+    <ellipse cx="-30" cy="20" rx="6" ry="4" fill="#a87850" stroke="#3a1808" stroke-width="0.6"/>
+    <!-- Holographic data hovering ground. -->
+    <g fill="none" stroke="#a878f8" stroke-width="0.7" opacity="0.85" filter="url(#p7p5bloom)">
+      <path d="M-50,40 L-80,40"/>
+      <path d="M-50,45 L-75,45"/>
+      <circle cx="-65" cy="42" r="2"/>
+      <circle cx="-78" cy="38" r="1.4"/>
+      <rect x="-70" y="48" width="14" height="2"/>
+    </g>
+  </g>
+
+  <!-- THRESH center, weapon raised. -->
+  <g id="p7p5-thresh" transform="translate(240, 280)">
+    <!-- Suit body. -->
+    <path d="M-30,80 L-35,30 L-30,-10 L-15,-30 L15,-30 L30,-10 L35,30 L30,80 Z" fill="url(#p7p5ruby)" stroke="#080408" stroke-width="0.8"/>
+    <!-- DENTED LEFT PAULDRON. -->
+    <path d="M-35,-10 L-50,0 L-50,30 L-35,32 Z" fill="url(#p7p5ruby)" stroke="#080408" stroke-width="0.7"/>
+    <path d="M-46,8 Q-42,16 -38,12" fill="#3a0810" stroke="#080408" stroke-width="0.5"/>
+    <!-- Right pauldron. -->
+    <path d="M35,-10 L50,0 L50,30 L35,32 Z" fill="url(#p7p5ruby)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Crimson collar. -->
+    <ellipse cx="0" cy="-30" rx="14" ry="3" fill="#f54848" filter="url(#p7p5bloom)" opacity="0.85"/>
+    <!-- Head — looking forward (toward cat) but anchored. -->
+    <ellipse cx="0" cy="-45" rx="14" ry="15" fill="#d8a880"/>
+    <!-- Buzz. -->
+    <path d="M-12,-58 Q0,-64 12,-58 L12,-44 L-12,-44 Z" fill="#a83a18"/>
+    <!-- Eyes (still wide, locked off-frame). -->
+    <ellipse cx="-4" cy="-44" rx="2.2" ry="1.5" fill="#dce4f0"/>
+    <ellipse cx="4" cy="-44" rx="2.2" ry="1.5" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-44" rx="0.9" ry="0.9" fill="#1a0808"/>
+    <ellipse cx="5" cy="-44" rx="0.9" ry="0.9" fill="#1a0808"/>
+    <!-- Lips pressed. -->
+    <line x1="-4" y1="-37" x2="4" y2="-37" stroke="#3a1810" stroke-width="0.9"/>
+    <!-- Weapon raised — both hands. -->
+    <rect x="14" y="0" width="60" height="9" rx="1" fill="#1a0810" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="22" cy="4" rx="6" ry="4" fill="#d8a880" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="55" cy="4" rx="6" ry="4" fill="#d8a880" stroke="#080408" stroke-width="0.5"/>
+    <!-- Knuckle highlights. -->
+    <g fill="#fae0c0" opacity="0.85" filter="url(#p7p5bloom)">
+      <ellipse cx="22" cy="2" rx="2" ry="0.7"/>
+      <ellipse cx="55" cy="2" rx="2" ry="0.7"/>
+    </g>
+    <!-- Power node. -->
+    <circle cx="32" cy="4" r="1.4" fill="#c84038" opacity="0.65" filter="url(#p7p5bloom)"/>
+  </g>
+
+  <!-- SABLE — at Thresh's side, hand on weapon arm steadying. Slightly behind. -->
+  <g id="p7p5-sable" transform="translate(285, 285)">
+    <!-- Suit. -->
+    <path d="M-30,75 L-35,25 L-30,-15 L-15,-35 L15,-35 L30,-15 L35,25 L30,75 Z" fill="url(#p7p5silver)" stroke="#080408" stroke-width="0.8"/>
+    <!-- CRACKED RIGHT SHOULDER (continuity mark) — hairline blue-white fractures. -->
+    <path d="M28,-14 L42,-2 L46,18 L42,30 L30,32" fill="url(#p7p5silver)" stroke="#080408" stroke-width="0.7"/>
+    <g stroke="#a8d8f8" stroke-width="0.6" opacity="0.95" filter="url(#p7p5bloom)">
+      <path d="M30,-10 L36,4 L34,16 L38,26"/>
+      <path d="M34,0 L40,10"/>
+      <path d="M32,16 L38,22"/>
+    </g>
+    <!-- Left pauldron (intact). -->
+    <path d="M-30,-15 L-44,-2 L-44,28 L-30,30 Z" fill="url(#p7p5silver)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Silver collar. -->
+    <ellipse cx="0" cy="-35" rx="14" ry="3" fill="#dce4f0" opacity="0.65" filter="url(#p7p5bloom)"/>
+    <!-- HEAD — looking at Thresh (turned to her side, our left). -->
+    <ellipse cx="-3" cy="-50" rx="13" ry="14" fill="#5a3a28"/>
+    <!-- Silver-white cropped hair (buzz). -->
+    <path d="M-15,-62 Q-3,-68 9,-62 L9,-50 L-15,-50 Z" fill="#dce4f0"/>
+    <g fill="#a8b0bc" opacity="0.85">
+      <circle cx="-9" cy="-62" r="0.7"/>
+      <circle cx="-3" cy="-65" r="0.7"/>
+      <circle cx="3" cy="-63" r="0.7"/>
+    </g>
+    <!-- Eyes — looking at Thresh (left), calm authority. -->
+    <ellipse cx="-7" cy="-49" rx="2" ry="1.5" fill="#dce4f0"/>
+    <ellipse cx="1" cy="-49" rx="2" ry="1.5" fill="#dce4f0"/>
+    <ellipse cx="-8" cy="-49" rx="0.9" ry="0.9" fill="#1a0808"/>
+    <ellipse cx="0" cy="-49" rx="0.9" ry="0.9" fill="#1a0808"/>
+    <!-- Lips. -->
+    <line x1="-5" y1="-42" x2="3" y2="-42" stroke="#3a1810" stroke-width="0.9"/>
+    <!-- HAND on Thresh's weapon arm — steadying. Reaching across to grip Thresh's right forearm. -->
+    <g id="p7p5-sable-hand">
+      <path d="M-32,5 L-50,-5 L-58,-2 L-50,15 Z" fill="url(#p7p5silver)" stroke="#080408" stroke-width="0.6"/>
+      <ellipse cx="-58" cy="-3" rx="6" ry="4" fill="#5a3a28" stroke="#080408" stroke-width="0.6"/>
+      <!-- SILVER HOLO GLOW at contact point (script-specific: faintest geometric glow). -->
+      <circle cx="-58" cy="-3" r="8" fill="url(#p7p5silverGlow)" filter="url(#p7p5strongBloom)" opacity="0.85"/>
+      <!-- Geometric hex lattice. -->
+      <g stroke="#dce4f0" stroke-width="0.4" fill="none" opacity="0.85">
+        <path d="M-60,-6 L-56,-6 L-54,-3 L-56,0 L-60,0 L-62,-3 Z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- WREN — standing behind Sable, watching cat (off-frame right), tense. -->
+  <g id="p7p5-wren" transform="translate(370, 295)">
+    <!-- Suit. -->
+    <path d="M-25,75 L-30,30 L-25,-15 L-12,-32 L12,-32 L25,-15 L30,30 L25,75 Z" fill="url(#p7p5copper)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Pauldrons. -->
+    <path d="M-25,-15 L-38,-2 L-38,25 L-25,28 Z" fill="url(#p7p5copper)" stroke="#080408" stroke-width="0.7"/>
+    <path d="M25,-15 L38,-2 L38,25 L25,28 Z" fill="url(#p7p5copper)" stroke="#080408" stroke-width="0.7"/>
+    <!-- Copper collar. -->
+    <ellipse cx="0" cy="-32" rx="12" ry="3" fill="#f0a868" opacity="0.85" filter="url(#p7p5bloom)"/>
+    <!-- HEAD turned right (looking at cat). -->
+    <ellipse cx="2" cy="-46" rx="12" ry="13" fill="#e0c098"/>
+    <!-- HAIR UP IN BUN (continuity mark). -->
+    <ellipse cx="-2" cy="-58" rx="9" ry="6" fill="#1a0808"/>
+    <!-- Bun knot detail. -->
+    <ellipse cx="-2" cy="-58" rx="7" ry="4" fill="none" stroke="#3a1808" stroke-width="0.5"/>
+    <line x1="-6" y1="-60" x2="2" y2="-56" stroke="#3a1808" stroke-width="0.4"/>
+    <line x1="-2" y1="-62" x2="6" y2="-58" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Stray wisps wet. -->
+    <path d="M-10,-50 Q-13,-44 -10,-40" stroke="#1a0808" stroke-width="0.6" fill="none"/>
+    <!-- Eyes — looking right (off-frame at cat). -->
+    <ellipse cx="0" cy="-45" rx="2" ry="1.5" fill="#dce4f0"/>
+    <ellipse cx="6" cy="-45" rx="2" ry="1.5" fill="#dce4f0"/>
+    <ellipse cx="2" cy="-45" rx="0.9" ry="0.9" fill="#1a0808"/>
+    <ellipse cx="8" cy="-45" rx="0.9" ry="0.9" fill="#1a0808"/>
+    <!-- Tense brow. -->
+    <line x1="-4" y1="-50" x2="4" y2="-49" stroke="#3a1808" stroke-width="0.7"/>
+    <line x1="4" y1="-49" x2="10" y2="-50" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Lips. -->
+    <line x1="-3" y1="-38" x2="5" y2="-38" stroke="#3a1810" stroke-width="0.9"/>
+    <!-- OIL-STAINED FOREARMS (continuity mark). -->
+    <g fill="#3a2010" opacity="0.85">
+      <ellipse cx="-30" cy="40" rx="4" ry="2"/>
+      <ellipse cx="-26" cy="50" rx="3" ry="1.5"/>
+      <ellipse cx="30" cy="42" rx="4" ry="2"/>
+      <ellipse cx="26" cy="52" rx="3" ry="1.5"/>
+    </g>
+    <!-- Copper diagnostic on wrist. -->
+    <circle cx="-32" cy="55" r="2.5" fill="#f0a868" opacity="0.65" filter="url(#p7p5bloom)"/>
+  </g>
+
+  <!-- DIALOGUE — SABLE low for Thresh, mid-frame above the duo. -->
+  <g id="p7p5-bal-sable">
+    <rect x="20" y="14" width="280" height="80" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="30" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="92" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(low, only for Thresh)</text>
+    <text x="30" y="56" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">It's big and we're small.</text>
+    <text x="30" y="73" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">That's the whole problem.</text>
+    <text x="30" y="90" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">You know how to solve problems.</text>
+    <path d="M210,94 L226,94 L240,108 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="210" y1="94" x2="226" y2="94" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- WREN — calculating, top right. -->
+  <g id="p7p5-bal-wren">
+    <rect x="320" y="14" width="158" height="80" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="330" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="330" y="56" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Sable, if it charges,</text>
+    <text x="330" y="73" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">we have three</text>
+    <text x="330" y="90" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">seconds.</text>
+    <path d="M362,94 L376,94 L370,108 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="362" y1="94" x2="376" y2="94" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p7p5-meta">
+    <text x="479" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">5</text>
+    <text x="483" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">SABLE ANCHORS</text>
+  </g>
+</svg>

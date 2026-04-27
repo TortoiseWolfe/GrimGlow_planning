@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 420" width="247" height="420">
+  <title>Issue 2 — Page 7 — Panel 4: Thresh ECU, fear beneath discipline</title>
+  <desc>ECU 100mm helmet to chin Thresh. Copper-red buzz wet. Eyes locked on cat off-panel — too wide, brave training holding. Jaw muscles clenched. Bead of sweat through rain on temple. Mouth hard line. Crimson collar pulses heartbeat rhythm. Compact rifle white-knuckle grip at edge. Dented pauldron persists. KEY ARC BEAT: brave in future, fighting afraid here. THRESH I HAVE A SHOT / SABLE OP NEGATIVE.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p7p4leaden" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <linearGradient id="p7p4ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <radialGradient id="p7p4crimsonPulse">
+      <stop offset="0%" stop-color="#f54848" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a1018" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p7p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p7p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="247" height="420" fill="url(#p7p4leaden)"/>
+
+  <!-- Heavy rain streaks descending. -->
+  <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.55" filter="url(#p7p4bloom)">
+    <line x1="40" y1="20" x2="38" y2="60"/>
+    <line x1="100" y1="10" x2="98" y2="55"/>
+    <line x1="180" y1="25" x2="178" y2="70"/>
+    <line x1="220" y1="15" x2="218" y2="55"/>
+    <line x1="60" y1="80" x2="58" y2="120"/>
+    <line x1="160" y1="80" x2="158" y2="120"/>
+    <line x1="220" y1="90" x2="218" y2="130"/>
+    <line x1="40" y1="160" x2="38" y2="200"/>
+    <line x1="200" y1="180" x2="198" y2="220"/>
+  </g>
+
+  <!-- Crimson pulse halo (rhythmic — heartbeat). -->
+  <ellipse cx="124" cy="220" rx="130" ry="160" fill="url(#p7p4crimsonPulse)" filter="url(#p7p4strongBloom)" opacity="0.55"/>
+
+  <!-- THRESH FACE — ECU framed helmet to chin. -->
+  <g id="p7p4-thresh" transform="translate(124, 240)">
+
+    <!-- DENTED LEFT PAULDRON (continuity mark) — visible at bottom edge. -->
+    <path d="M-130,150 L-130,80 L-90,40 L-50,40 L-30,30 L-30,60 L-50,80 L-90,90 L-100,160 L-130,160 Z" fill="url(#p7p4ruby)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Dent (concave shape). -->
+    <path d="M-100,90 Q-88,100 -78,98 Q-72,90 -82,80 Q-92,76 -100,82 Z" fill="#3a0810" stroke="#080408" stroke-width="0.7"/>
+    <line x1="-95" y1="88" x2="-85" y2="88" stroke="#080408" stroke-width="0.5"/>
+    <line x1="-90" y1="84" x2="-80" y2="92" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- Right pauldron (intact). -->
+    <path d="M30,30 L50,40 L90,40 L130,80 L130,160 L100,160 L90,90 L50,80 L30,60 Z" fill="url(#p7p4ruby)" stroke="#080408" stroke-width="0.8"/>
+
+    <!-- COLLAR — crimson holographic node accents pulsing. -->
+    <path d="M-30,0 L-25,30 L0,40 L25,30 L30,0 Z" fill="url(#p7p4ruby)" stroke="#080408" stroke-width="0.8"/>
+    <path d="M-25,15 L-15,15 L-5,22 L0,15 L5,22 L15,15 L25,15 L25,18 L-25,18 Z" fill="#f54848" filter="url(#p7p4bloom)" opacity="0.95"/>
+    <ellipse cx="0" cy="16" rx="32" ry="6" fill="#f54848" opacity="0.55" filter="url(#p7p4strongBloom)"/>
+
+    <!-- NECK. -->
+    <path d="M-22,-5 L-22,5 Q0,8 22,5 L22,-5 Z" fill="#d8a880"/>
+
+    <!-- HEAD large dominant (ECU). -->
+    <ellipse cx="0" cy="-65" rx="80" ry="92" fill="#d8a880"/>
+    <!-- Skin tone shading. -->
+    <ellipse cx="-50" cy="-30" rx="22" ry="14" fill="#a87850" opacity="0.45" filter="url(#p7p4bloom)"/>
+    <ellipse cx="50" cy="-30" rx="22" ry="14" fill="#a87850" opacity="0.45" filter="url(#p7p4bloom)"/>
+
+    <!-- COPPER-RED BUZZ CUT WET. -->
+    <path d="M-65,-130 Q-50,-148 -30,-152 Q0,-156 30,-152 Q50,-148 65,-130 L65,-100 L-65,-100 Z" fill="#a83a18"/>
+    <!-- Buzz texture dots. -->
+    <g fill="#5a1808" opacity="0.85">
+      <circle cx="-40" cy="-138" r="0.9"/>
+      <circle cx="-25" cy="-145" r="0.9"/>
+      <circle cx="-10" cy="-150" r="0.9"/>
+      <circle cx="5" cy="-152" r="0.9"/>
+      <circle cx="20" cy="-148" r="0.9"/>
+      <circle cx="35" cy="-142" r="0.9"/>
+      <circle cx="50" cy="-130" r="0.9"/>
+      <circle cx="-50" cy="-128" r="0.8"/>
+      <circle cx="-30" cy="-115" r="0.8"/>
+      <circle cx="0" cy="-115" r="0.8"/>
+      <circle cx="30" cy="-115" r="0.8"/>
+    </g>
+    <line x1="-65" y1="-100" x2="65" y2="-100" stroke="#5a1808" stroke-width="0.9" opacity="0.85"/>
+    <!-- WATER BEADS on wet buzz. -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p7p4bloom)">
+      <circle cx="-25" cy="-138" r="1.2"/>
+      <circle cx="0" cy="-148" r="1.2"/>
+      <circle cx="25" cy="-138" r="1.2"/>
+      <circle cx="-40" cy="-122" r="0.9"/>
+      <circle cx="40" cy="-122" r="0.9"/>
+    </g>
+
+    <!-- BROW — set hard, jaw tight. -->
+    <path d="M-50,-58 Q-30,-68 0,-62" stroke="#5a1808" stroke-width="3.5" fill="none"/>
+    <path d="M0,-62 Q30,-68 50,-58" stroke="#5a1808" stroke-width="3.5" fill="none"/>
+
+    <!-- EYES — TOO WIDE locked off-panel right (where cat is). Whites visible above iris (fear tell). -->
+    <ellipse cx="-25" cy="-40" rx="18" ry="14" fill="#dce4f0"/>
+    <ellipse cx="25" cy="-40" rx="18" ry="14" fill="#dce4f0"/>
+    <!-- Iris shifted to look right (toward cat). -->
+    <ellipse cx="-18" cy="-40" rx="6" ry="6" fill="#3a2010"/>
+    <ellipse cx="32" cy="-40" rx="6" ry="6" fill="#3a2010"/>
+    <!-- Pupil dilated (fear). -->
+    <ellipse cx="-18" cy="-40" rx="3.5" ry="3.5" fill="#080404"/>
+    <ellipse cx="32" cy="-40" rx="3.5" ry="3.5" fill="#080404"/>
+    <!-- Catch-light — hot small. -->
+    <circle cx="-16" cy="-42" r="1" fill="#dce4f0"/>
+    <circle cx="34" cy="-42" r="1" fill="#dce4f0"/>
+    <!-- White showing above iris (fear tell — sclera over). -->
+    <path d="M-40,-46 Q-25,-50 -10,-46" fill="#dce4f0"/>
+    <path d="M10,-46 Q25,-50 40,-46" fill="#dce4f0"/>
+
+    <!-- BEAD OF SWEAT cutting through rain on temple. -->
+    <path d="M50,-50 Q53,-30 50,-15 Q48,0 50,15" stroke="#dce4f0" stroke-width="0.8" fill="none" opacity="0.95" filter="url(#p7p4bloom)"/>
+    <ellipse cx="50" cy="15" rx="2" ry="3.5" fill="#dce4f0" opacity="0.95" filter="url(#p7p4bloom)"/>
+
+    <!-- CHEEKBONES — high, defined. -->
+    <path d="M-55,-25 Q-45,-15 -35,-20" stroke="#5a3a18" stroke-width="0.9" fill="none" opacity="0.55"/>
+    <path d="M55,-25 Q45,-15 35,-20" stroke="#5a3a18" stroke-width="0.9" fill="none" opacity="0.55"/>
+    <!-- Crimson catch on cheekbones (collar pulse reflection). -->
+    <ellipse cx="-50" cy="-20" rx="14" ry="5" fill="#f54848" opacity="0.4" filter="url(#p7p4bloom)"/>
+    <ellipse cx="50" cy="-20" rx="14" ry="5" fill="#f54848" opacity="0.4" filter="url(#p7p4bloom)"/>
+
+    <!-- NOSE. -->
+    <path d="M-3,-15 L0,15 L-5,22" stroke="#3a1808" stroke-width="1.2" fill="none" opacity="0.85"/>
+    <ellipse cx="-3" cy="20" rx="2" ry="1.5" fill="#3a1808" opacity="0.55"/>
+    <ellipse cx="4" cy="20" rx="2" ry="1.5" fill="#3a1808" opacity="0.55"/>
+
+    <!-- LIPS — pressed hard line. -->
+    <line x1="-22" y1="42" x2="22" y2="42" stroke="#3a1810" stroke-width="3.5"/>
+    <!-- Tight mouth corners. -->
+    <line x1="-22" y1="42" x2="-25" y2="46" stroke="#3a1810" stroke-width="2"/>
+    <line x1="22" y1="42" x2="25" y2="46" stroke="#3a1810" stroke-width="2"/>
+
+    <!-- JAW MUSCLE BUMPS (clenched). -->
+    <ellipse cx="-55" cy="20" rx="6" ry="3.5" fill="#5a3a18" opacity="0.65" filter="url(#p7p4bloom)"/>
+    <ellipse cx="55" cy="20" rx="6" ry="3.5" fill="#5a3a18" opacity="0.65" filter="url(#p7p4bloom)"/>
+    <!-- Throat tension. -->
+    <line x1="-12" y1="50" x2="12" y2="50" stroke="#5a3a28" stroke-width="0.6" opacity="0.7"/>
+  </g>
+
+  <!-- WHITE-KNUCKLE RIFLE GRIP at edge of frame (left side, edge visible). -->
+  <g id="p7p4-rifle-grip">
+    <!-- Rifle barrel (bottom edge). -->
+    <rect x="0" y="380" width="60" height="14" rx="1" fill="#1a0810" stroke="#080404" stroke-width="0.7"/>
+    <!-- Power node. -->
+    <circle cx="14" cy="387" r="2" fill="#c84038" opacity="0.55" filter="url(#p7p4bloom)"/>
+
+    <!-- Hand white-knuckled. -->
+    <ellipse cx="50" cy="386" rx="14" ry="9" fill="#d8a880" stroke="#080408" stroke-width="0.6"/>
+    <g stroke="#3a1810" stroke-width="0.9">
+      <line x1="40" y1="380" x2="45" y2="376"/>
+      <line x1="45" y1="380" x2="50" y2="376"/>
+      <line x1="50" y1="380" x2="55" y2="376"/>
+      <line x1="55" y1="380" x2="60" y2="376"/>
+    </g>
+    <!-- Pale skin highlights (knuckle bone press). -->
+    <g fill="#fae0c0" opacity="0.85" filter="url(#p7p4bloom)">
+      <ellipse cx="44" cy="378" rx="2" ry="1"/>
+      <ellipse cx="50" cy="378" rx="2" ry="1"/>
+      <ellipse cx="56" cy="378" rx="2" ry="1"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE. -->
+  <!-- THRESH balloon — top, tight controlled. -->
+  <g id="p7p4-bal-thresh">
+    <rect x="14" y="14" width="200" height="46" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH</text>
+    <text x="92" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(tight)</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">I have a shot.</text>
+    <path d="M40,60 L52,60 L46,72 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="40" y1="60" x2="52" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE off-panel (dashed border). -->
+  <g id="p7p4-bal-sable-op">
+    <rect x="14" y="324" width="218" height="46" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="346" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE (O.P.)</text>
+    <text x="24" y="364" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Negative. You'll draw it to us.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p7p4-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">4</text>
+    <text x="243" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">FEAR HOLDS</text>
+  </g>
+</svg>

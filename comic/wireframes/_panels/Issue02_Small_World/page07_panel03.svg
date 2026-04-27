@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 320" width="366" height="320">
+  <title>Issue 2 — Page 7 — Panel 3: Cat revealed, low angle wide, predator fills frame</title>
+  <desc>Wide 24mm low angle shooting upward from squad ground level. Tabby alley cat fills frame like a building — 18in lean predator, body low in hunting crouch, shoulder blades rise like moving peaks, head turned toward viewer, amber eyes vertical slit pupils each eye torso-sized, padded paw mid-step silent on cobblestone. Wet fur darker. Scarred notched ear. Below frame: tiny squad pinpricks of color. THRESH: that's how / SABLE: eyes on me.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p7p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e34"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p7p3catBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3a18"/>
+      <stop offset="50%" stop-color="#3a2814"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="p7p3catUnder" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87850"/>
+      <stop offset="100%" stop-color="#5a3a18"/>
+    </linearGradient>
+    <radialGradient id="p7p3eyeGlow">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p7p3amberHaze">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p7p3stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <filter id="p7p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p7p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="p7p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- BG sky upper. -->
+  <rect width="366" height="100" fill="url(#p7p3sky)"/>
+
+  <!-- Distant rain. -->
+  <g stroke="#a8b8c8" stroke-width="0.4" opacity="0.4">
+    <line x1="40" y1="20" x2="38" y2="58"/>
+    <line x1="100" y1="10" x2="98" y2="50"/>
+    <line x1="180" y1="25" x2="178" y2="65"/>
+    <line x1="260" y1="15" x2="258" y2="55"/>
+    <line x1="320" y1="30" x2="318" y2="70"/>
+  </g>
+
+  <!-- Amber gaslight haze in sky behind cat. -->
+  <ellipse cx="280" cy="80" rx="120" ry="60" fill="url(#p7p3amberHaze)" filter="url(#p7p3deepBloom)" opacity="0.65"/>
+
+  <!-- COBBLESTONE FOREGROUND ground line. -->
+  <g fill="url(#p7p3stone)" stroke="#1a1a20" stroke-width="0.7">
+    <rect x="0" y="280" width="80" height="40" rx="4"/>
+    <rect x="86" y="278" width="84" height="42" rx="4"/>
+    <rect x="176" y="280" width="80" height="40" rx="4"/>
+    <rect x="262" y="278" width="84" height="42" rx="4"/>
+  </g>
+  <g fill="#c0d0e0" opacity="0.35" filter="url(#p7p3bloom)">
+    <ellipse cx="40" cy="284" rx="28" ry="2.5"/>
+    <ellipse cx="128" cy="282" rx="30" ry="2.5"/>
+    <ellipse cx="216" cy="284" rx="28" ry="2.5"/>
+    <ellipse cx="304" cy="282" rx="30" ry="2.5"/>
+  </g>
+
+  <!-- CAT — dominates frame. Body lean, low crouch, shoulder peaks visible. -->
+  <g id="p7p3-cat">
+    <!-- TAIL behind body, low. -->
+    <path d="M30,260 Q-10,250 -20,200 Q-15,180 5,170" stroke="url(#p7p3catBody)" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M-20,200 Q-12,180 5,168" stroke="#3a2814" stroke-width="2" fill="none" opacity="0.85"/>
+
+    <!-- HIND HAUNCHES (raised). -->
+    <path d="M30,180 Q60,100 130,90 Q150,90 160,110 L160,260 L30,260 Z" fill="url(#p7p3catBody)"/>
+    <!-- Shoulder peak rear. -->
+    <path d="M50,140 Q70,70 110,60 Q140,55 160,80 Q150,100 130,95 Q90,95 70,150 Z" fill="url(#p7p3catBody)"/>
+
+    <!-- SPINE & BODY MAIN MASS. -->
+    <path d="M150,90 Q200,60 260,55 Q300,55 330,80 L330,200 Q310,250 280,260 L160,260 Z" fill="url(#p7p3catBody)"/>
+
+    <!-- FORE SHOULDER PEAK (highest, near head). -->
+    <path d="M210,55 Q220,15 250,10 Q280,12 295,40 Q290,65 270,68 Q240,70 220,80 Z" fill="url(#p7p3catBody)"/>
+
+    <!-- HEAD turned toward viewer. -->
+    <ellipse cx="290" cy="120" rx="55" ry="50" fill="url(#p7p3catBody)"/>
+    <!-- Cheek puffs. -->
+    <ellipse cx="265" cy="135" rx="14" ry="9" fill="url(#p7p3catUnder)"/>
+    <ellipse cx="315" cy="135" rx="14" ry="9" fill="url(#p7p3catUnder)"/>
+    <!-- Nose & muzzle. -->
+    <path d="M285,135 L295,135 L295,145 L290,150 L285,145 Z" fill="#1a0e08"/>
+    <path d="M290,150 L290,160" stroke="#1a0e08" stroke-width="1.2"/>
+    <path d="M290,160 Q282,165 278,162" stroke="#1a0e08" stroke-width="1" fill="none"/>
+    <path d="M290,160 Q298,165 302,162" stroke="#1a0e08" stroke-width="1" fill="none"/>
+    <!-- Whiskers. -->
+    <g stroke="#dce4f0" stroke-width="0.4" opacity="0.65">
+      <line x1="270" y1="148" x2="240" y2="145"/>
+      <line x1="270" y1="152" x2="240" y2="155"/>
+      <line x1="310" y1="148" x2="340" y2="145"/>
+      <line x1="310" y1="152" x2="340" y2="155"/>
+    </g>
+
+    <!-- EARS — left intact, right NOTCHED (script). -->
+    <path d="M255,75 L262,40 L280,72 Z" fill="url(#p7p3catBody)" stroke="#1a0e08" stroke-width="0.7"/>
+    <path d="M260,55 L268,55 L266,70 Z" fill="#5a2818" opacity="0.85"/>
+    <!-- NOTCHED right ear. -->
+    <path d="M298,72 L308,38 L320,55 L316,50 L322,68 Z" fill="url(#p7p3catBody)" stroke="#1a0e08" stroke-width="0.7"/>
+    <path d="M306,52 L312,48 L312,58 L308,58 Z" fill="#1a0e08"/>
+
+    <!-- AMBER EYES — twin furnaces, vertical slit pupils. -->
+    <ellipse cx="270" cy="115" rx="15" ry="20" fill="url(#p7p3eyeGlow)" filter="url(#p7p3strongBloom)"/>
+    <ellipse cx="310" cy="115" rx="15" ry="20" fill="url(#p7p3eyeGlow)" filter="url(#p7p3strongBloom)"/>
+    <!-- Vertical slit pupils. -->
+    <ellipse cx="270" cy="115" rx="2.2" ry="16" fill="#1a0408"/>
+    <ellipse cx="310" cy="115" rx="2.2" ry="16" fill="#1a0408"/>
+    <!-- Catch-light. -->
+    <circle cx="266" cy="108" r="2" fill="#ffe8a0" filter="url(#p7p3bloom)"/>
+    <circle cx="306" cy="108" r="2" fill="#ffe8a0" filter="url(#p7p3bloom)"/>
+    <!-- Eye outline rim. -->
+    <ellipse cx="270" cy="115" rx="15" ry="20" fill="none" stroke="#1a0e08" stroke-width="1.2"/>
+    <ellipse cx="310" cy="115" rx="15" ry="20" fill="none" stroke="#1a0e08" stroke-width="1.2"/>
+
+    <!-- TABBY STRIPES — body. -->
+    <g stroke="#1a0e08" stroke-width="2" fill="none" opacity="0.85">
+      <path d="M170,80 Q175,90 175,110"/>
+      <path d="M195,75 Q200,90 200,115"/>
+      <path d="M225,70 Q230,90 230,120"/>
+      <path d="M250,75 Q255,95 255,125"/>
+      <!-- Haunch stripes. -->
+      <path d="M70,150 Q72,170 76,200"/>
+      <path d="M95,145 Q97,170 100,210"/>
+      <path d="M120,140 Q122,170 126,220"/>
+      <!-- Tail rings. -->
+      <path d="M-5,200 Q-1,205 5,200"/>
+      <path d="M-12,220 Q-8,225 -2,220"/>
+      <path d="M0,240 Q4,245 10,240"/>
+    </g>
+    <!-- Wet fur sheen highlights. -->
+    <g fill="#a87850" opacity="0.45" filter="url(#p7p3bloom)">
+      <ellipse cx="200" cy="80" rx="25" ry="3"/>
+      <ellipse cx="270" cy="60" rx="25" ry="3"/>
+      <ellipse cx="100" cy="110" rx="22" ry="3"/>
+    </g>
+
+    <!-- FORELEGS — front, padded paw mid-step (one paw lifted). -->
+    <!-- Standing foreleg (right of cat = our left side of frame). -->
+    <path d="M180,180 L175,250 Q175,260 185,260 L215,260 Q220,255 215,245 L210,180 Z" fill="url(#p7p3catBody)" stroke="#1a0e08" stroke-width="0.7"/>
+    <!-- Toe pads. -->
+    <g fill="#3a1810" stroke="#1a0e08" stroke-width="0.5">
+      <ellipse cx="187" cy="262" rx="6" ry="4"/>
+      <ellipse cx="200" cy="263" rx="6" ry="4"/>
+      <ellipse cx="213" cy="262" rx="6" ry="4"/>
+    </g>
+    <!-- Lifted/stepping foreleg (further back, mid-air). -->
+    <path d="M260,180 L255,235 Q258,242 268,238 L280,222 Q282,212 275,210 L270,180 Z" fill="url(#p7p3catBody)" stroke="#1a0e08" stroke-width="0.7"/>
+    <!-- Lifted paw close to settling. -->
+    <g fill="#3a1810" stroke="#1a0e08" stroke-width="0.5">
+      <ellipse cx="278" cy="240" rx="5.5" ry="3.5"/>
+      <ellipse cx="288" cy="238" rx="5" ry="3.5"/>
+      <ellipse cx="296" cy="236" rx="5" ry="3.5"/>
+    </g>
+  </g>
+
+  <!-- TINY SQUAD pinpricks at very bottom of frame (impossibly small). -->
+  <g id="p7p3-squad-tiny">
+    <circle cx="80" cy="306" r="1.4" fill="#5a3ad8" filter="url(#p7p3bloom)"/>
+    <circle cx="92" cy="307" r="1.4" fill="#8a909a" filter="url(#p7p3bloom)"/>
+    <circle cx="104" cy="306" r="1.4" fill="#c87a35" filter="url(#p7p3bloom)"/>
+    <circle cx="116" cy="307" r="1.5" fill="#dc2030" filter="url(#p7p3bloom)"/>
+    <circle cx="128" cy="306" r="1.4" fill="#2ed078" filter="url(#p7p3bloom)"/>
+  </g>
+
+  <!-- DIALOGUE. -->
+  <!-- THRESH (off frame upper-left, balloon top-left). -->
+  <g id="p7p3-bal-thresh">
+    <rect x="14" y="12" width="160" height="60" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH</text>
+    <text x="24" y="56" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a" font-style="italic">That's... how is</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a" font-style="italic">that...</text>
+    <path d="M40,72 L52,72 L48,84 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="40" y1="72" x2="52" y2="72" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE — bottom-left near tiny squad (low for command anchor). -->
+  <g id="p7p3-bal-sable">
+    <rect x="12" y="240" width="190" height="60" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="22" y="262" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="22" y="284" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Thresh. Eyes on me.</text>
+    <text x="22" y="296" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Not on it.</text>
+    <path d="M86,300 L98,300 L94,312 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="86" y1="300" x2="98" y2="300" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p7p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">3</text>
+    <text x="362" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">CAT REVEALED</text>
+  </g>
+</svg>

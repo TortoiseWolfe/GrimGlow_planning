@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 320" width="366" height="320">
+  <title>Issue 2 — Page 7 — Panel 2: Luma profile, lenses scrolling data, hand raised hold</title>
+  <desc>MCU 65mm profile right-facing. Luma's holographic lenses active scrolling blue-violet data. Hand raised palm out signaling hold. Sapphire-violet suit, rain beads. Long thick braid plastered wet, sapphire filament still pulsing through. Cracked right lens persists. Controlled alarm — eyes wide behind lenses, jaw set. LUMA: Felis catus identification + hunting crouch.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p7p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#2a2e38"/>
+    </linearGradient>
+    <linearGradient id="p7p2sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#3a1a78"/>
+    </linearGradient>
+    <radialGradient id="p7p2lensGlow">
+      <stop offset="0%" stop-color="#a878f8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p7p2sapphireGlow">
+      <stop offset="0%" stop-color="#a878f8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#3a1a78" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p7p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p7p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- BG grey rain. -->
+  <rect width="366" height="320" fill="url(#p7p2bg)"/>
+
+  <!-- Distant rain streaks. -->
+  <g stroke="#a8b8c8" stroke-width="0.5" opacity="0.55" filter="url(#p7p2bloom)">
+    <line x1="40" y1="20" x2="38" y2="55"/>
+    <line x1="100" y1="10" x2="98" y2="50"/>
+    <line x1="180" y1="25" x2="178" y2="65"/>
+    <line x1="260" y1="15" x2="258" y2="55"/>
+    <line x1="320" y1="30" x2="318" y2="70"/>
+    <line x1="60" y1="80" x2="58" y2="115"/>
+    <line x1="140" y1="90" x2="138" y2="125"/>
+    <line x1="240" y1="85" x2="238" y2="120"/>
+    <line x1="310" y1="95" x2="308" y2="130"/>
+  </g>
+
+  <!-- Faint sapphire halo around figure. -->
+  <ellipse cx="180" cy="180" rx="160" ry="140" fill="url(#p7p2sapphireGlow)" filter="url(#p7p2strongBloom)" opacity="0.45"/>
+
+  <!-- LUMA — profile right-facing. -->
+  <g id="p7p2-luma" transform="translate(180, 200)">
+
+    <!-- Suit upper torso/shoulder visible bottom. -->
+    <path d="M-110,80 L-100,30 L-60,5 L-20,-5 L20,-8 L60,5 L100,30 L110,80 Z" fill="url(#p7p2sapphire)" stroke="#080408" stroke-width="0.8"/>
+
+    <!-- Sapphire collar accents pulsing. -->
+    <path d="M-30,-5 L-15,-2 L0,-8 L15,-2 L30,-5 L30,0 L-30,0 Z" fill="#a878f8" filter="url(#p7p2bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="-3" rx="32" ry="6" fill="#a878f8" opacity="0.45" filter="url(#p7p2strongBloom)"/>
+
+    <!-- Wet suit highlights. -->
+    <g fill="#dce4f0" opacity="0.45" filter="url(#p7p2bloom)">
+      <ellipse cx="-50" cy="20" rx="18" ry="3"/>
+      <ellipse cx="50" cy="20" rx="18" ry="3"/>
+      <ellipse cx="0" cy="40" rx="22" ry="3"/>
+    </g>
+
+    <!-- NECK. -->
+    <path d="M-15,-5 L-15,-30 Q0,-32 15,-30 L15,-5 Z" fill="#a87850"/>
+    <line x1="-12" y1="-15" x2="12" y2="-15" stroke="#5a3a28" stroke-width="0.4" opacity="0.6"/>
+
+    <!-- HEAD profile (right-facing, slightly back). -->
+    <path d="M-30,-30 Q-35,-70 -20,-100 Q0,-115 25,-110 Q40,-100 42,-80 Q44,-50 38,-40 Q35,-32 30,-30 L30,-32 Q15,-30 0,-30 Q-15,-30 -30,-30 Z" fill="#a87850"/>
+
+    <!-- HAIR — long thick braid plastered wet, swept down behind. -->
+    <path d="M-30,-100 Q-50,-90 -55,-60 Q-58,-30 -52,0 Q-48,30 -52,60 Q-50,75 -45,80 L-38,80 Q-35,60 -38,30 Q-40,0 -36,-30 Q-32,-60 -28,-90 Z" fill="#1a0808"/>
+    <!-- Braid weave texture. -->
+    <g stroke="#3a1808" stroke-width="0.7" fill="none" opacity="0.85">
+      <path d="M-50,-50 Q-45,-45 -50,-40"/>
+      <path d="M-50,-30 Q-45,-25 -50,-20"/>
+      <path d="M-50,-10 Q-45,-5 -50,0"/>
+      <path d="M-50,10 Q-45,15 -50,20"/>
+      <path d="M-50,30 Q-45,35 -50,40"/>
+      <path d="M-50,50 Q-45,55 -50,60"/>
+    </g>
+    <!-- Wet hair sheen highlights. -->
+    <g fill="#5a3a78" opacity="0.55" filter="url(#p7p2bloom)">
+      <ellipse cx="-46" cy="-20" rx="3" ry="20"/>
+      <ellipse cx="-44" cy="30" rx="2.5" ry="18"/>
+    </g>
+    <!-- SAPPHIRE FILAMENT in braid (CONTINUITY MARK). -->
+    <path d="M-48,-50 Q-50,-20 -48,10 Q-46,40 -48,70" stroke="#a878f8" stroke-width="0.9" fill="none" opacity="0.95" filter="url(#p7p2bloom)"/>
+    <g fill="#a878f8" filter="url(#p7p2bloom)">
+      <circle cx="-48" cy="-30" r="0.9"/>
+      <circle cx="-48" cy="0" r="0.9"/>
+      <circle cx="-48" cy="30" r="0.9"/>
+      <circle cx="-48" cy="60" r="0.9"/>
+    </g>
+
+    <!-- HAIRLINE on face. -->
+    <path d="M-15,-100 Q0,-105 22,-100" stroke="#1a0808" stroke-width="2" fill="none"/>
+
+    <!-- Brow set. -->
+    <path d="M5,-72 Q18,-78 30,-74" stroke="#3a1808" stroke-width="1.5" fill="none"/>
+
+    <!-- EYE behind lens (eye visible, wide). -->
+    <ellipse cx="20" cy="-65" rx="6" ry="4.5" fill="#dce4f0"/>
+    <ellipse cx="22" cy="-65" rx="2.5" ry="2.5" fill="#3a1808"/>
+    <ellipse cx="22" cy="-65" rx="1.2" ry="1.2" fill="#080404"/>
+    <circle cx="23" cy="-66" r="0.5" fill="#dce4f0"/>
+
+    <!-- HOLOGRAPHIC LENS — semi-transparent floating before face. Right side cracked (CONTINUITY MARK). -->
+    <ellipse cx="22" cy="-65" rx="14" ry="10" fill="#a878f8" opacity="0.25" stroke="#a878f8" stroke-width="0.6" filter="url(#p7p2bloom)"/>
+    <ellipse cx="22" cy="-65" rx="14" ry="10" fill="none" stroke="#a878f8" stroke-width="0.5" opacity="0.85"/>
+    <!-- CRACK lines on lens. -->
+    <g stroke="#dce4f0" stroke-width="0.4" opacity="0.85">
+      <line x1="22" y1="-65" x2="34" y2="-58"/>
+      <line x1="28" y1="-62" x2="32" y2="-55"/>
+      <line x1="30" y1="-66" x2="34" y2="-60"/>
+    </g>
+    <!-- Scrolling data text in lens. -->
+    <g font-family="Courier, monospace" font-size="2.2" fill="#dce4f0" opacity="0.85">
+      <text x="14" y="-69">F.catus</text>
+      <text x="14" y="-66">L=18in</text>
+      <text x="14" y="-63">crouch</text>
+      <text x="14" y="-60">8.5x</text>
+    </g>
+
+    <!-- NOSE profile. -->
+    <path d="M30,-65 L42,-55 L40,-48 L34,-50" fill="#a87850" stroke="#5a3a28" stroke-width="0.7"/>
+
+    <!-- LIPS — controlled. -->
+    <path d="M28,-38 Q34,-35 36,-33" stroke="#5a2018" stroke-width="1.5" fill="none"/>
+    <line x1="28" y1="-38" x2="36" y2="-33" stroke="#5a2018" stroke-width="1.2"/>
+
+    <!-- Jaw set. -->
+    <path d="M28,-30 Q34,-30 36,-32 L34,-26" fill="#a87850" opacity="0.95"/>
+    <ellipse cx="32" cy="-30" rx="3" ry="2" fill="#5a3a28" opacity="0.55"/>
+
+    <!-- Cheekbone. -->
+    <ellipse cx="20" cy="-50" rx="6" ry="3" fill="#5a3a28" opacity="0.4" filter="url(#p7p2bloom)"/>
+
+    <!-- RAIN BEADS on suit. -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p7p2bloom)">
+      <circle cx="-60" cy="35" r="0.8"/>
+      <circle cx="-30" cy="55" r="0.9"/>
+      <circle cx="40" cy="50" rx="0.9"/>
+      <circle cx="60" cy="40" r="0.7"/>
+      <circle cx="70" cy="60" r="0.8"/>
+    </g>
+    <!-- Rain beads on skin. -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p7p2bloom)">
+      <circle cx="-25" cy="-20" r="0.7"/>
+      <circle cx="20" cy="-95" r="0.7"/>
+    </g>
+
+    <!-- HAND RAISED palm out (signaling hold). Hand visible at left of frame, arm coming from below. -->
+    <g id="p7p2-hand-hold">
+      <!-- Forearm. -->
+      <path d="M-105,30 L-130,-10 L-125,-30 L-100,15 Z" fill="url(#p7p2sapphire)" stroke="#080408" stroke-width="0.8"/>
+      <!-- Suit cuff. -->
+      <line x1="-128" y1="-20" x2="-100" y2="14" stroke="#a878f8" stroke-width="0.7" opacity="0.85"/>
+      <!-- Palm. -->
+      <ellipse cx="-130" cy="-50" rx="14" ry="20" fill="#a87850" stroke="#3a1808" stroke-width="0.7"/>
+      <!-- Fingers. -->
+      <path d="M-138,-65 L-138,-78 L-134,-80 L-132,-66" fill="#a87850" stroke="#3a1808" stroke-width="0.6"/>
+      <path d="M-130,-68 L-130,-82 L-126,-84 L-124,-70" fill="#a87850" stroke="#3a1808" stroke-width="0.6"/>
+      <path d="M-122,-68 L-122,-80 L-118,-82 L-116,-68" fill="#a87850" stroke="#3a1808" stroke-width="0.6"/>
+      <path d="M-114,-65 L-114,-76 L-110,-78 L-108,-64" fill="#a87850" stroke="#3a1808" stroke-width="0.6"/>
+      <!-- Thumb. -->
+      <path d="M-144,-50 L-150,-45 L-148,-38 L-140,-42" fill="#a87850" stroke="#3a1808" stroke-width="0.6"/>
+      <!-- Faint sapphire glow at fingertips (holo accent). -->
+      <g fill="#a878f8" filter="url(#p7p2bloom)" opacity="0.7">
+        <circle cx="-136" cy="-78" r="0.9"/>
+        <circle cx="-128" cy="-82" r="0.9"/>
+        <circle cx="-120" cy="-80" r="0.9"/>
+        <circle cx="-112" cy="-76" r="0.9"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — LUMA. Top right (out of face). -->
+  <g id="p7p2-bal-luma">
+    <rect x="170" y="14" width="186" height="100" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="180" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="180" y="58" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Felis catus. Eighteen</text>
+    <text x="180" y="75" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">inches. Four times our</text>
+    <text x="180" y="92" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">height. It's in a</text>
+    <text x="180" y="109" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">hunting crouch.</text>
+    <path d="M178,114 L192,114 L172,128 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="178" y1="114" x2="192" y2="114" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p7p2-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">2</text>
+    <text x="362" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">LUMA IDENTIFIES</text>
+  </g>
+</svg>

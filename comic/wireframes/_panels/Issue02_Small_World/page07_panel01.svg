@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 340" width="742" height="340">
+  <title>Issue 2 — Page 7 — Panel 1: Worm's-eye boulder field, predator eyes</title>
+  <desc>Extreme low angle 20mm worm's-eye across cobblestone street at fairy scale. Granite setts as receding boulder plateaus, gaps as packed-grit ravines pooling water. 5 tiny squad figures foreground emerging between kerbstone cliffs. Middle distance: two enormous amber cat eyes catching gaslight, twin furnaces, body shape just visible. Rain explodes on stones. Gas lamp cone of amber upper right. LUMA STOP / SABLE WHAT / LUMA HUNTING dialogue.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p7p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e38"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p7p1stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <radialGradient id="p7p1amberCone">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p7p1catEye">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#f5b860" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p7p1puddle">
+      <stop offset="0%" stop-color="#a8b8c8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a3e48" stop-opacity="0.2"/>
+    </radialGradient>
+    <filter id="p7p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p7p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p7p1deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG: leaden rain sky upper third. -->
+  <rect width="742" height="120" fill="url(#p7p1sky)"/>
+
+  <!-- Gas lamp amber cone upper right (distant). -->
+  <ellipse cx="650" cy="60" rx="180" ry="80" fill="url(#p7p1amberCone)" filter="url(#p7p1deepBloom)" opacity="0.85"/>
+  <ellipse cx="650" cy="50" rx="6" ry="9" fill="#ffe8a0" filter="url(#p7p1strongBloom)" opacity="0.95"/>
+
+  <!-- Distant gas lamp post silhouette. -->
+  <line x1="650" y1="60" x2="650" y2="180" stroke="#1a1a20" stroke-width="2" opacity="0.7"/>
+  <rect x="646" y="55" width="8" height="10" fill="#3a2a18" stroke="#1a1010" stroke-width="0.5"/>
+
+  <!-- Distant rain veil (atmospheric). -->
+  <g stroke="#a8b8c8" stroke-width="0.4" opacity="0.35">
+    <line x1="60" y1="20" x2="55" y2="60"/>
+    <line x1="120" y1="10" x2="115" y2="55"/>
+    <line x1="200" y1="25" x2="195" y2="65"/>
+    <line x1="280" y1="15" x2="275" y2="55"/>
+    <line x1="360" y1="30" x2="355" y2="70"/>
+    <line x1="440" y1="20" x2="435" y2="60"/>
+    <line x1="520" y1="35" x2="515" y2="75"/>
+    <line x1="600" y1="20" x2="595" y2="60"/>
+    <line x1="680" y1="40" x2="675" y2="80"/>
+  </g>
+
+  <!-- COBBLESTONE BOULDER FIELD receding. Each granite sett a plateau. -->
+  <!-- Far row (smallest, deepest). -->
+  <g fill="url(#p7p1stone)" stroke="#1a1a20" stroke-width="0.6">
+    <rect x="10" y="118" width="60" height="22" rx="3"/>
+    <rect x="78" y="118" width="62" height="22" rx="3"/>
+    <rect x="148" y="118" width="60" height="22" rx="3"/>
+    <rect x="216" y="118" width="64" height="22" rx="3"/>
+    <rect x="288" y="118" width="60" height="22" rx="3"/>
+    <rect x="356" y="118" width="62" height="22" rx="3"/>
+    <rect x="426" y="118" width="60" height="22" rx="3"/>
+    <rect x="494" y="118" width="62" height="22" rx="3"/>
+    <rect x="564" y="118" width="60" height="22" rx="3"/>
+    <rect x="632" y="118" width="62" height="22" rx="3"/>
+    <rect x="702" y="118" width="40" height="22" rx="3"/>
+  </g>
+  <!-- Mid-far row. -->
+  <g fill="url(#p7p1stone)" stroke="#1a1a20" stroke-width="0.7">
+    <rect x="0" y="148" width="74" height="32" rx="4"/>
+    <rect x="82" y="148" width="76" height="32" rx="4"/>
+    <rect x="166" y="148" width="74" height="32" rx="4"/>
+    <rect x="248" y="148" width="78" height="32" rx="4"/>
+    <rect x="334" y="148" width="74" height="32" rx="4"/>
+    <rect x="416" y="148" width="76" height="32" rx="4"/>
+    <rect x="500" y="148" width="74" height="32" rx="4"/>
+    <rect x="582" y="148" width="76" height="32" rx="4"/>
+    <rect x="666" y="148" width="76" height="32" rx="4"/>
+  </g>
+  <!-- Mid row (cat region). -->
+  <g fill="url(#p7p1stone)" stroke="#1a1a20" stroke-width="0.8">
+    <rect x="-4" y="186" width="92" height="44" rx="5"/>
+    <rect x="96" y="186" width="94" height="44" rx="5"/>
+    <rect x="198" y="186" width="92" height="44" rx="5"/>
+    <rect x="298" y="186" width="96" height="44" rx="5"/>
+    <rect x="402" y="186" width="92" height="44" rx="5"/>
+    <rect x="502" y="186" width="94" height="44" rx="5"/>
+    <rect x="604" y="186" width="92" height="44" rx="5"/>
+    <rect x="704" y="186" width="42" height="44" rx="5"/>
+  </g>
+  <!-- Near row (largest plateaus). -->
+  <g fill="url(#p7p1stone)" stroke="#080810" stroke-width="1">
+    <rect x="-10" y="236" width="120" height="60" rx="6"/>
+    <rect x="118" y="236" width="124" height="60" rx="6"/>
+    <rect x="250" y="236" width="120" height="60" rx="6"/>
+    <rect x="378" y="236" width="124" height="60" rx="6"/>
+    <rect x="510" y="236" width="120" height="60" rx="6"/>
+    <rect x="638" y="236" width="124" height="60" rx="6"/>
+  </g>
+
+  <!-- Wet sheen highlights on stone tops. -->
+  <g fill="#c0d0e0" opacity="0.35" filter="url(#p7p1bloom)">
+    <ellipse cx="48" cy="240" rx="44" ry="3"/>
+    <ellipse cx="180" cy="240" rx="46" ry="3"/>
+    <ellipse cx="310" cy="240" rx="44" ry="3"/>
+    <ellipse cx="440" cy="240" rx="46" ry="3"/>
+    <ellipse cx="570" cy="240" rx="44" ry="3"/>
+    <ellipse cx="700" cy="240" rx="46" ry="3"/>
+  </g>
+
+  <!-- Puddles in ravines. -->
+  <g>
+    <ellipse cx="112" cy="296" rx="18" ry="3" fill="url(#p7p1puddle)"/>
+    <ellipse cx="244" cy="296" rx="18" ry="3" fill="url(#p7p1puddle)"/>
+    <ellipse cx="374" cy="296" rx="18" ry="3" fill="url(#p7p1puddle)"/>
+    <ellipse cx="504" cy="296" rx="18" ry="3" fill="url(#p7p1puddle)"/>
+    <ellipse cx="634" cy="296" rx="18" ry="3" fill="url(#p7p1puddle)"/>
+  </g>
+
+  <!-- CAT — middle distance silhouette, eyes catch light. -->
+  <g id="p7p1-cat" opacity="0.92">
+    <!-- Body silhouette (low crouch). -->
+    <path d="M280,185 Q320,170 380,168 Q440,170 480,180 Q500,184 510,194 Q505,210 500,220 L290,220 Q280,210 275,200 Z" fill="#1a1410" opacity="0.9"/>
+    <!-- Shoulder peaks (rising above spine). -->
+    <path d="M340,170 Q345,155 360,158 Q370,165 365,175 Z" fill="#1a1410" opacity="0.95"/>
+    <path d="M420,168 Q428,152 442,156 Q452,164 446,175 Z" fill="#1a1410" opacity="0.95"/>
+    <!-- Head turned toward viewer. -->
+    <ellipse cx="320" cy="178" rx="28" ry="22" fill="#1a1410"/>
+    <!-- Ears (one notched). -->
+    <path d="M298,162 L304,150 L312,162 Z" fill="#1a1410"/>
+    <path d="M328,162 L335,148 L342,160 L338,156 L342,162 Z" fill="#1a1410"/>
+    <!-- AMBER EYES — twin furnaces. -->
+    <ellipse cx="310" cy="178" rx="9" ry="11" fill="url(#p7p1catEye)" filter="url(#p7p1strongBloom)"/>
+    <ellipse cx="332" cy="178" rx="9" ry="11" fill="url(#p7p1catEye)" filter="url(#p7p1strongBloom)"/>
+    <!-- Vertical slit pupils. -->
+    <ellipse cx="310" cy="178" rx="1.5" ry="9" fill="#1a0808"/>
+    <ellipse cx="332" cy="178" rx="1.5" ry="9" fill="#1a0808"/>
+    <!-- Eye core glow. -->
+    <circle cx="310" cy="178" r="2.5" fill="#ffe8a0" filter="url(#p7p1bloom)" opacity="0.85"/>
+    <circle cx="332" cy="178" r="2.5" fill="#ffe8a0" filter="url(#p7p1bloom)" opacity="0.85"/>
+    <!-- Dark fur texture. -->
+    <g stroke="#080608" stroke-width="0.5" opacity="0.7">
+      <line x1="290" y1="200" x2="296" y2="208"/>
+      <line x1="320" y1="195" x2="328" y2="208"/>
+      <line x1="380" y1="190" x2="388" y2="206"/>
+      <line x1="440" y1="190" x2="448" y2="206"/>
+    </g>
+  </g>
+
+  <!-- KERBSTONE CLIFFS framing 5 tiny squad figures (foreground extreme). -->
+  <!-- Left kerbstone wall. -->
+  <path d="M0,300 L0,340 L80,340 L80,300 Q60,295 40,298 Q20,300 0,300 Z" fill="#1a1a20" stroke="#080810" stroke-width="1"/>
+  <!-- Right kerbstone wall. -->
+  <path d="M662,300 L662,340 L742,340 L742,300 Q720,295 700,298 Q680,300 662,300 Z" fill="#1a1a20" stroke="#080810" stroke-width="1"/>
+
+  <!-- 5 TINY SQUAD FIGURES emerging into open. Center-foreground, very small. -->
+  <g id="p7p1-squad">
+    <!-- LUMA (sapphire-violet, hand raised STOP). -->
+    <g transform="translate(310, 320)">
+      <ellipse cx="0" cy="0" rx="3" ry="6" fill="#5a3ad8"/>
+      <circle cx="0" cy="-7" r="2" fill="#a88468"/>
+      <line x1="-2" y1="-4" x2="-4" y2="-9" stroke="#5a3ad8" stroke-width="1.2"/>
+      <circle cx="0" cy="-7" r="3.2" fill="none" stroke="#a878f8" stroke-width="0.4" opacity="0.85" filter="url(#p7p1bloom)"/>
+    </g>
+    <!-- SABLE (silver, slightly behind/right). -->
+    <g transform="translate(340, 322)">
+      <ellipse cx="0" cy="0" rx="3" ry="6" fill="#8a909a"/>
+      <circle cx="0" cy="-7" r="2" fill="#5a3a28"/>
+      <circle cx="-3" cy="-3" r="0.7" fill="#a8b8c8" opacity="0.6" filter="url(#p7p1bloom)"/>
+    </g>
+    <!-- WREN (copper). -->
+    <g transform="translate(370, 324)">
+      <ellipse cx="0" cy="0" rx="3" ry="6" fill="#c87a35"/>
+      <circle cx="0" cy="-7" r="2" fill="#e0c098"/>
+    </g>
+    <!-- THRESH (ruby). -->
+    <g transform="translate(400, 322)">
+      <ellipse cx="0" cy="0" rx="3.5" ry="6" fill="#dc2030"/>
+      <circle cx="0" cy="-7" r="2" fill="#d8a880"/>
+      <line x1="3" y1="0" x2="6" y2="-2" stroke="#1a0808" stroke-width="0.8"/>
+      <circle cx="0" cy="-2" r="0.7" fill="#f54848" opacity="0.7" filter="url(#p7p1bloom)"/>
+    </g>
+    <!-- JINK (emerald). -->
+    <g transform="translate(430, 324)">
+      <ellipse cx="0" cy="0" rx="3" ry="6" fill="#2ed078"/>
+      <circle cx="0" cy="-7" r="2" fill="#f0d878"/>
+    </g>
+  </g>
+
+  <!-- RAIN — fist-sized spheres descending, splash on stones. -->
+  <g>
+    <!-- Mid-air drops. -->
+    <g fill="#dce4f0" opacity="0.85" filter="url(#p7p1bloom)">
+      <ellipse cx="120" cy="80" rx="3" ry="5"/>
+      <ellipse cx="240" cy="60" rx="3" ry="5"/>
+      <ellipse cx="500" cy="90" rx="3" ry="5"/>
+      <ellipse cx="580" cy="50" rx="3" ry="5"/>
+      <ellipse cx="180" cy="160" rx="2.5" ry="4"/>
+      <ellipse cx="460" cy="155" rx="2.5" ry="4"/>
+    </g>
+    <!-- Splash bursts on stone tops. -->
+    <g stroke="#dce4f0" stroke-width="0.5" fill="none" opacity="0.85" filter="url(#p7p1bloom)">
+      <circle cx="50" cy="237" r="6"/>
+      <circle cx="220" cy="237" r="5"/>
+      <circle cx="555" cy="237" r="6"/>
+      <line x1="50" y1="231" x2="50" y2="226"/>
+      <line x1="46" y1="234" x2="42" y2="232"/>
+      <line x1="54" y1="234" x2="58" y2="232"/>
+      <line x1="220" y1="232" x2="220" y2="228"/>
+      <line x1="555" y1="231" x2="555" y2="226"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE BALLOONS. Top-left LUMA stop, top-right Sable, mid-right Luma identification. -->
+  <!-- LUMA balloon 1 — STOP. -->
+  <g id="p7p1-bal-luma1">
+    <rect x="40" y="20" width="180" height="58" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="50" y="42" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="50" y="64" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Everyone stop.</text>
+    <path d="M180,78 L195,78 L210,92 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="180" y1="78" x2="195" y2="78" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE balloon — WHAT DO YOU SEE. -->
+  <g id="p7p1-bal-sable">
+    <rect x="252" y="20" width="222" height="58" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="262" y="42" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="262" y="64" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">What do you see?</text>
+    <path d="M310,78 L325,78 L340,92 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="310" y1="78" x2="325" y2="78" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- LUMA balloon 2 — hunting behaviour analysis. -->
+  <g id="p7p1-bal-luma2">
+    <rect x="496" y="100" width="232" height="100" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="506" y="122" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="506" y="144" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Ten o'clock. The eyes.</text>
+    <text x="506" y="161" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Something is watching us</text>
+    <text x="506" y="178" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">and it hasn't blinked in six</text>
+    <text x="506" y="195" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">seconds. Hunting behaviour.</text>
+    <path d="M508,200 L520,200 L502,214 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="508" y1="200" x2="520" y2="200" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p7p1-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">1</text>
+    <text x="738" y="332" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">PREDATOR EYES</text>
+  </g>
+</svg>
