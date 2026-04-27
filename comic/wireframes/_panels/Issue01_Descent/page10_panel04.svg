@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 420" width="366" height="420">
+  <title>Issue 1 — Page 10 — Panel 4: Wren's hands hold dead comms crystal</title>
+  <desc>CU at eye level (85mm). Wren's hands holding small cracked dark crystalline component, turning w/ precise engineer's fingers. Copper gauntlets frame shot, forearms streaked with dried dark hydraulic fluid — copper + dark fluid create palette of warm metallics. Crystal DEAD: no light, no patterns, dark fractured. Faint copper-gold accent light from her own suit illuminates dead crystal — living light holding a dead thing. Background blurred wreckage + soot iron. WREN: "Communications crystal shattered. Even if everything else worked, we couldn't send a signal."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p10p4bgBlur" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p10p4copperGauntlet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0a060"/>
+      <stop offset="100%" stop-color="#5a2812"/>
+    </linearGradient>
+    <linearGradient id="p10p4skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87850"/>
+      <stop offset="100%" stop-color="#e8d0a8"/>
+    </linearGradient>
+    <radialGradient id="p10p4suitGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffd060" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a86028" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p10p4crystal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3848"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+    <filter id="p10p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p10p4heavyBlur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Background — blurred wreckage + soot. -->
+  <rect width="366" height="420" fill="url(#p10p4bgBlur)"/>
+  <!-- Out-of-focus wreckage hint behind. -->
+  <g filter="url(#p10p4heavyBlur)" opacity="0.6">
+    <rect x="40" y="40" width="100" height="60" fill="#1a1a24"/>
+    <rect x="220" y="60" width="100" height="80" fill="#1a1a24"/>
+    <ellipse cx="180" cy="380" rx="180" ry="40" fill="#3a1810" opacity="0.7"/>
+  </g>
+
+  <!-- Faint copper-gold suit accent halo (Wren's own light source — script-specific). -->
+  <ellipse cx="183" cy="220" rx="100" ry="60" fill="url(#p10p4suitGlow)" filter="url(#p10p4heavyBlur)" opacity="0.85"/>
+
+  <!-- LEFT FOREARM coming in from left (copper gauntlet + skin showing at wrist). -->
+  <g id="p10p4-left-forearm">
+    <!-- Forearm. -->
+    <path d="M0,160 L60,170 L100,210 L70,235 L0,225 Z" fill="url(#p10p4copperGauntlet)" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Copper highlights. -->
+    <line x1="0" y1="170" x2="60" y2="180" stroke="#f5c890" stroke-width="0.7" opacity="0.7"/>
+    <!-- HYDRAULIC FLUID STAINS (script-specific dried dark). -->
+    <path d="M10,180 Q35,185 55,200" stroke="#1a0a08" stroke-width="3" fill="none" opacity="0.95"/>
+    <path d="M5,195 Q25,200 50,215" stroke="#080404" stroke-width="2" fill="none" opacity="0.85"/>
+    <path d="M15,205 Q35,210 60,222" stroke="#080404" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <!-- Wrist seam (cuff). -->
+    <line x1="60" y1="170" x2="100" y2="210" stroke="#3a1808" stroke-width="1.2"/>
+    <!-- Skin showing past wrist. -->
+    <path d="M60,170 L80,182 L100,210 L70,235 L60,225 Z" fill="url(#p10p4skin)"/>
+  </g>
+
+  <!-- RIGHT FOREARM coming in from right. -->
+  <g id="p10p4-right-forearm">
+    <path d="M366,160 L306,170 L266,210 L296,235 L366,225 Z" fill="url(#p10p4copperGauntlet)" stroke="#3a1808" stroke-width="0.7"/>
+    <line x1="366" y1="170" x2="306" y2="180" stroke="#f5c890" stroke-width="0.7" opacity="0.7"/>
+    <path d="M356,180 Q331,185 311,200" stroke="#1a0a08" stroke-width="3" fill="none" opacity="0.95"/>
+    <path d="M361,195 Q341,200 316,215" stroke="#080404" stroke-width="2" fill="none" opacity="0.85"/>
+    <path d="M351,205 Q331,210 306,222" stroke="#080404" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <line x1="306" y1="170" x2="266" y2="210" stroke="#3a1808" stroke-width="1.2"/>
+    <path d="M306,170 L286,182 L266,210 L296,235 L306,225 Z" fill="url(#p10p4skin)"/>
+  </g>
+
+  <!-- LEFT HAND fingers cradling crystal. -->
+  <g id="p10p4-left-hand" transform="translate(120, 220)">
+    <!-- Palm. -->
+    <ellipse cx="0" cy="0" rx="22" ry="18" fill="url(#p10p4skin)"/>
+    <!-- Fingers cradling/cupping (engineer's precise grip). -->
+    <path d="M-15,-8 Q-22,-15 -25,-22 Q-22,-25 -16,-22 Q-12,-15 -10,-8" fill="url(#p10p4skin)" stroke="#3a1808" stroke-width="0.4"/>
+    <path d="M-5,-15 Q-8,-22 -7,-30 Q-3,-32 0,-30 Q2,-22 0,-15" fill="url(#p10p4skin)" stroke="#3a1808" stroke-width="0.4"/>
+    <path d="M5,-15 Q8,-22 9,-30 Q12,-32 14,-30 Q15,-22 12,-15" fill="url(#p10p4skin)" stroke="#3a1808" stroke-width="0.4"/>
+    <path d="M14,-12 Q20,-18 22,-25 Q25,-26 26,-22 Q24,-15 20,-10" fill="url(#p10p4skin)" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Thumb (smaller, opposing). -->
+    <path d="M-22,5 Q-30,0 -32,8 Q-28,15 -22,12" fill="url(#p10p4skin)" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Knuckle creases. -->
+    <path d="M-15,-8 Q-12,-12 -10,-8" stroke="#3a1808" stroke-width="0.5" fill="none" opacity="0.7"/>
+    <path d="M-5,-12 Q-2,-16 0,-12" stroke="#3a1808" stroke-width="0.5" fill="none" opacity="0.7"/>
+    <path d="M5,-12 Q8,-16 12,-12" stroke="#3a1808" stroke-width="0.5" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- RIGHT HAND fingers turning crystal (precise engineer's pinch grip). -->
+  <g id="p10p4-right-hand" transform="translate(246, 220)">
+    <ellipse cx="0" cy="0" rx="22" ry="18" fill="url(#p10p4skin)"/>
+    <path d="M15,-8 Q22,-15 25,-22 Q22,-25 16,-22 Q12,-15 10,-8" fill="url(#p10p4skin)" stroke="#3a1808" stroke-width="0.4"/>
+    <path d="M5,-15 Q8,-22 7,-30 Q3,-32 0,-30 Q-2,-22 0,-15" fill="url(#p10p4skin)" stroke="#3a1808" stroke-width="0.4"/>
+    <path d="M-5,-15 Q-8,-22 -9,-30 Q-12,-32 -14,-30 Q-15,-22 -12,-15" fill="url(#p10p4skin)" stroke="#3a1808" stroke-width="0.4"/>
+    <path d="M-14,-12 Q-20,-18 -22,-25 Q-25,-26 -26,-22 Q-24,-15 -20,-10" fill="url(#p10p4skin)" stroke="#3a1808" stroke-width="0.4"/>
+    <path d="M22,5 Q30,0 32,8 Q28,15 22,12" fill="url(#p10p4skin)" stroke="#3a1808" stroke-width="0.4"/>
+    <path d="M15,-8 Q12,-12 10,-8" stroke="#3a1808" stroke-width="0.5" fill="none" opacity="0.7"/>
+    <path d="M5,-12 Q2,-16 0,-12" stroke="#3a1808" stroke-width="0.5" fill="none" opacity="0.7"/>
+    <path d="M-5,-12 Q-8,-16 -12,-12" stroke="#3a1808" stroke-width="0.5" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- DEAD COMMS CRYSTAL — held between fingertips, center frame. Cracked, dark, NO LIGHT. -->
+  <g id="p10p4-crystal" transform="translate(183, 195)">
+    <!-- Crystal main shape (angular, faceted). -->
+    <polygon points="0,-30 22,-12 18,18 -2,28 -22,15 -18,-12" fill="url(#p10p4crystal)" stroke="#080404" stroke-width="0.8"/>
+    <!-- Internal facet edges (showing structure). -->
+    <line x1="0" y1="-30" x2="0" y2="28" stroke="#0a0a14" stroke-width="0.7"/>
+    <line x1="-22" y1="15" x2="22" y2="-12" stroke="#0a0a14" stroke-width="0.7"/>
+    <line x1="-18" y1="-12" x2="18" y2="18" stroke="#0a0a14" stroke-width="0.7"/>
+    <!-- CRACK LINES (script: cracked) — bright cracks but no light through them. -->
+    <line x1="-12" y1="-22" x2="14" y2="22" stroke="#3a3848" stroke-width="1.4"/>
+    <line x1="-22" y1="0" x2="18" y2="-2" stroke="#3a3848" stroke-width="1"/>
+    <line x1="6" y1="-26" x2="-8" y2="20" stroke="#5a606a" stroke-width="0.7"/>
+    <!-- Faint copper-gold reflection on crystal surface (from suit accents — the only light hitting it). -->
+    <path d="M0,-30 L22,-12 L18,18" fill="none" stroke="#a87038" stroke-width="0.7" opacity="0.55"/>
+    <ellipse cx="-2" cy="-2" rx="6" ry="8" fill="#5a4838" opacity="0.35"/>
+    <!-- The "dead" quality — blackness inside. -->
+    <ellipse cx="0" cy="0" rx="10" ry="12" fill="#020208" opacity="0.85"/>
+  </g>
+
+  <!-- Subtle warm copper rim catching crystal edges (script: "living light holding a dead thing"). -->
+  <g stroke="#ffd060" stroke-width="0.6" fill="none" opacity="0.65" filter="url(#p10p4bloom)">
+    <line x1="183" y1="165" x2="190" y2="170"/>
+    <line x1="200" y1="180" x2="205" y2="190"/>
+  </g>
+
+  <!-- WREN dialogue (top — explanation of the crystal). -->
+  <g id="p10p4-dlg-wren">
+    <rect x="14" y="14" width="338" height="80" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Communications crystal is</text>
+    <text x="24" y="70" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">shattered. Even if everything</text>
+    <text x="24" y="86" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">else worked, no signal.</text>
+    <path d="M150,94 L168,94 L172,200 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="150" y1="94" x2="168" y2="94" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p10p4-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="362" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">DEAD CRYSTAL</text>
+  </g>
+</svg>

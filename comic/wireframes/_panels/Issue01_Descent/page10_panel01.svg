@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 380" width="244" height="380">
+  <title>Issue 1 — Page 10 — Panel 1: Wren at torn access panel — "Sable. It's bad."</title>
+  <desc>MCU at eye level (50mm). Wren crouched at torn-open access panel on aft hull section wedged between gutter + slate tiles. Copper suit + dried hydraulic fluid forearms. Pure diagnostic focus, eyes narrowed reading damage. Cool blue-white from dying display inside hull illuminates face from below + front; copper shifts edges warmer. WREN: "Sable. It's bad."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p10p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p10p1hull" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3848"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+    <radialGradient id="p10p1displayGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#bfe4ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#7ac8ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a8ccc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p10p1copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0a060"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="p10p1skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87850"/>
+      <stop offset="100%" stop-color="#e8d0a8"/>
+    </linearGradient>
+    <filter id="p10p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p10p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Background — dim. -->
+  <rect width="244" height="380" fill="url(#p10p1bg)"/>
+
+  <!-- Welsh slate tiles upper-back (the roof beside wreckage). -->
+  <g id="p10p1-slate">
+    <path d="M0,40 L244,30 L244,110 L0,120 Z" fill="#1a1820" opacity="0.85"/>
+    <g stroke="#0a0810" stroke-width="0.5" opacity="0.85">
+      <line x1="0" y1="60" x2="244" y2="50"/>
+      <line x1="0" y1="80" x2="244" y2="70"/>
+      <line x1="0" y1="100" x2="244" y2="90"/>
+    </g>
+  </g>
+
+  <!-- Gutter wall back. -->
+  <path d="M0,120 Q122,108 244,118 L244,310 L0,310 Z" fill="#1a0e08" opacity="0.7"/>
+  <line x1="0" y1="160" x2="244" y2="155" stroke="#080404" stroke-width="0.6" opacity="0.7"/>
+  <line x1="0" y1="240" x2="244" y2="238" stroke="#080404" stroke-width="0.6" opacity="0.7"/>
+  <g fill="#080404" opacity="0.85">
+    <circle cx="40" cy="165" r="1.7"/>
+    <circle cx="200" cy="160" r="1.7"/>
+  </g>
+
+  <!-- ALIEN HULL WRECKAGE — large mass on right side of frame. -->
+  <g id="p10p1-hull-wreck" transform="translate(180, 220)">
+    <!-- Hull main mass. -->
+    <path d="M-60,-80 L40,-90 L60,-50 L70,40 L40,80 L-50,80 L-70,30 Z" fill="url(#p10p1hull)" stroke="#080808" stroke-width="1"/>
+    <!-- Hull edge highlights. -->
+    <path d="M-60,-80 L40,-90 L60,-50" fill="none" stroke="#5a606a" stroke-width="0.7" opacity="0.7"/>
+    <!-- Bent/twisted broken parts. -->
+    <path d="M30,-90 L50,-110 L70,-95 L60,-50" fill="#1a1a24" stroke="#080808" stroke-width="0.8"/>
+
+    <!-- TORN-OPEN ACCESS PANEL (large central opening showing dim blue interior). -->
+    <path d="M-30,-30 L20,-40 L30,10 L25,40 L-25,38 L-32,5 Z" fill="#020208" stroke="#080808" stroke-width="0.8"/>
+    <!-- Torn ragged edges. -->
+    <path d="M-30,-30 L-35,-25 L-32,-20" stroke="#080808" stroke-width="0.7" fill="none"/>
+    <path d="M20,-40 L25,-32 L22,-26" stroke="#080808" stroke-width="0.7" fill="none"/>
+    <path d="M30,10 L35,16 L32,22" stroke="#080808" stroke-width="0.7" fill="none"/>
+    <path d="M-25,38 L-22,45 L-15,42" stroke="#080808" stroke-width="0.7" fill="none"/>
+
+    <!-- DYING HOLOGRAPHIC DISPLAY inside (cool blue-white glow). -->
+    <ellipse cx="-2" cy="3" rx="32" ry="32" fill="url(#p10p1displayGlow)" filter="url(#p10p1strongBloom)"/>
+    <ellipse cx="-2" cy="3" rx="14" ry="12" fill="#7ac8ff" filter="url(#p10p1bloom)" opacity="0.65"/>
+    <!-- Faint inner geometric data flickering. -->
+    <g stroke="#bfe4ff" stroke-width="0.5" fill="none" opacity="0.65">
+      <rect x="-12" y="-7" width="24" height="20" rx="1" stroke-dasharray="2,1"/>
+      <line x1="-10" y1="0" x2="10" y2="0"/>
+      <line x1="-10" y1="6" x2="6" y2="6"/>
+    </g>
+    <!-- Spark flickers. -->
+    <g fill="#ffffff" filter="url(#p10p1bloom)">
+      <circle cx="-5" cy="0" r="0.7"/>
+      <circle cx="8" cy="6" r="0.5"/>
+    </g>
+
+    <!-- Severed conduit bundles hanging like cut tendons (visible inside opening). -->
+    <g stroke="#1a1820" stroke-width="1" fill="none" opacity="0.85">
+      <path d="M-15,-25 Q-20,-15 -22,-5"/>
+      <path d="M5,-30 Q8,-18 12,-5"/>
+    </g>
+  </g>
+
+  <!-- Strong cool wash from display onto Wren (front-illumination). -->
+  <ellipse cx="170" cy="240" rx="120" ry="80" fill="#bfe4ff" filter="url(#p10p1strongBloom)" opacity="0.4"/>
+
+  <!-- WREN crouched, in profile, peering into wreck (right side of frame). -->
+  <g id="p10p1-wren" transform="translate(80, 250)">
+
+    <!-- Crouched body, leaning forward toward wreckage. -->
+    <path d="M-22,80 Q-26,30 -22,-15 L-12,-25 L18,-25 Q24,-15 24,80 Z" fill="url(#p10p1copper)" stroke="#080408" stroke-width="0.8"/>
+    <!-- Cool light wash from front (display). -->
+    <path d="M-12,-25 L18,-25 Q24,-15 24,80 L0,80 L0,-25 Z" fill="#7ac8ff" opacity="0.25"/>
+
+    <!-- Shoulder pads. -->
+    <ellipse cx="-22" cy="-20" rx="7" ry="4" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="22" cy="-20" rx="7" ry="4" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-22" cy="-21" rx="4" ry="2" fill="#f5c890" opacity="0.65"/>
+    <ellipse cx="22" cy="-21" rx="4" ry="2" fill="#f5c890" opacity="0.65"/>
+    <!-- Cool catch on right shoulder (closer to display). -->
+    <ellipse cx="22" cy="-19" rx="5" ry="2.5" fill="#dceaff" opacity="0.4"/>
+
+    <!-- Both arms reaching forward toward access panel (peering in). -->
+    <path d="M-22,-12 L-12,5 L0,18" fill="none" stroke="url(#p10p1copper)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Hydraulic fluid stains (dried dark). -->
+    <path d="M-15,-3 Q-10,3 -3,12" stroke="#1a0a08" stroke-width="2" fill="none" opacity="0.95"/>
+    <path d="M-12,2 Q-6,7 0,15" stroke="#080404" stroke-width="1" fill="none" opacity="0.85"/>
+    <ellipse cx="0" cy="18" rx="4" ry="3" fill="#e0c0a0"/>
+
+    <path d="M22,-10 L36,5 L52,18" fill="none" stroke="url(#p10p1copper)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M28,0 Q36,8 46,15" stroke="#1a0a08" stroke-width="2" fill="none" opacity="0.95"/>
+    <path d="M32,-3 Q40,4 50,12" stroke="#080404" stroke-width="1" fill="none" opacity="0.85"/>
+    <ellipse cx="52" cy="18" rx="4" ry="3" fill="#e0c0a0"/>
+
+    <!-- Crouched legs (folded under, bracing forward lean). -->
+    <path d="M-12,80 L-18,108 L-22,135" fill="none" stroke="#a86028" stroke-width="8" stroke-linecap="round"/>
+    <path d="M14,80 L20,108 L24,135" fill="none" stroke="#a86028" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="135" rx="6" ry="3" fill="#1a0808"/>
+    <ellipse cx="24" cy="135" rx="6" ry="3" fill="#1a0808"/>
+
+    <!-- HEAD East Asian, profile turned right toward wreck. -->
+    <ellipse cx="3" cy="-37" rx="13" ry="14" fill="url(#p10p1skin)"/>
+    <!-- Bun (high partial). -->
+    <ellipse cx="-2" cy="-50" rx="11" ry="7" fill="#0a0408"/>
+    <ellipse cx="3" cy="-54" rx="6" ry="5" fill="#0a0408"/>
+    <ellipse cx="-1" cy="-50" rx="6" ry="2" fill="none" stroke="#3a1810" stroke-width="0.7" opacity="0.9"/>
+    <!-- Strands across face. -->
+    <path d="M-11,-40 Q-7,-32 -9,-25" fill="none" stroke="#0a0408" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M11,-40 Q7,-32 9,-25" fill="none" stroke="#0a0408" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M-2,-32 Q-1,-28 -3,-22" fill="none" stroke="#0a0408" stroke-width="1.0" stroke-linecap="round" opacity="0.85"/>
+    <!-- Wisps. -->
+    <path d="M-10,-54 Q-13,-56 -14,-52" fill="none" stroke="#0a0408" stroke-width="1.0" stroke-linecap="round"/>
+
+    <!-- FACE: profile, intense diagnostic focus. -->
+    <!-- Eyes narrowed (focused inward at wreck). -->
+    <path d="M-3,-37 Q1,-39 5,-37 Q1,-35 -3,-37 Z" fill="#1a0808"/>
+    <path d="M7,-37 Q11,-39 13,-37 Q11,-35 7,-37 Z" fill="#1a0808"/>
+    <ellipse cx="2" cy="-37" rx="0.7" ry="0.7" fill="#080404"/>
+    <ellipse cx="11" cy="-37" rx="0.7" ry="0.7" fill="#080404"/>
+    <!-- Cool catch-light from display. -->
+    <circle cx="3" cy="-37.5" r="0.4" fill="#dceaff"/>
+    <circle cx="11" cy="-37.5" r="0.4" fill="#dceaff"/>
+    <!-- Brow furrowed (analytical intensity). -->
+    <path d="M-3,-43 Q1,-44 5,-43" stroke="#3a1810" stroke-width="1.2" fill="none"/>
+    <path d="M7,-43 Q10,-44 13,-43" stroke="#3a1810" stroke-width="1.2" fill="none"/>
+    <!-- Lips set (no emotion on surface). -->
+    <line x1="2" y1="-25" x2="12" y2="-25" stroke="#5a2818" stroke-width="1.2"/>
+    <!-- Cheekbone w/ cool catch (front-lit). -->
+    <ellipse cx="9" cy="-30" rx="3" ry="1.7" fill="#dceaff" opacity="0.4"/>
+    <!-- Cool wash on jawline. -->
+    <path d="M-2,-22 Q5,-19 14,-23" fill="none" stroke="#dceaff" stroke-width="0.7" opacity="0.55"/>
+  </g>
+
+  <!-- WREN dialogue (top-left, terse). -->
+  <g id="p10p1-dlg-wren">
+    <rect x="14" y="14" width="170" height="46" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a">Sable. It's bad.</text>
+    <path d="M120,60 L138,60 L92,220 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="60" x2="138" y2="60" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p10p1-meta">
+    <text x="236" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
+    <text x="240" y="372" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WREN — IT'S BAD</text>
+  </g>
+</svg>

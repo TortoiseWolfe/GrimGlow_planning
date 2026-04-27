@@ -2,15 +2,15 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 9 added, middle continuity begins).
+**Last update:** 2026-04-27 (loop session extended — Page 10 added, the Damage Report).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–9 + 12 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 52 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
+**Pages 1–10 + 12 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 57 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P12P01–P12P04, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
 
-**Pages 9 + climax arc COMPLETE** — Page 9 ("THE SCALE REVEAL") + Pages 18-22 all at quality bar. Pages 10-11, 13-17 remain as middle continuity gaps — 9 pages remaining.
+**Pages 10 + earlier wins** — Issue 1 first-half + entire climax + scale-reveal money shot all painterly. Pages 11, 13-17 remain as middle continuity gaps — 6 pages remaining (8/22 storyboard → 6/22 storyboard, 14/22 painterly = 64%).
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -30,9 +30,11 @@
 
 **Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px.
 
-**Page 9 (THE SCALE REVEAL — opening Section 3 build)** — 5 panels, 1179px (banner / 2-col / narrow-left+wide-right).
+**Page 10 (the Damage Report)** — 5 panels, 1179px (2-col narrow / full-width / 2-col).
 
-**Pages 10-11, 13-17 of Issue 1 remain auto-generated stick-figure storyboards.** (9 pages remaining of 22 = 13/22 painterly + 9/22 storyboard.)
+**Page 9 (THE SCALE REVEAL — opening Section 3 build)** — 5 panels, 1179px.
+
+**Pages 11, 13-17 of Issue 1 remain auto-generated stick-figure storyboards.** (6 pages remaining of 22 = 14/22 painterly + 8/22 storyboard.)
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -236,6 +238,69 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 10 — DONE (middle continuity continues — the Damage Report)
+
+5 panels in 3 tiers (2-col narrow / full-width / 2-col) summing to 1179px page-fill. Wren delivers the technical verdict: comms dead, navigation dead, drive intact-but-separated.
+
+### P10P01 — Wren at torn access panel — "Sable. It's bad." (244×380)
+- ✅ Welsh slate tiles upper background (the roof beside wreckage)
+- ✅ Hull wreckage right side w/ torn access panel + dim cool blue display interior + glow halo
+- ✅ Severed conduits visible inside opening
+- ✅ Wren mid-frame, copper suit, both arms reaching toward wreck (peering in)
+- ✅ Hydraulic stains (dried dark) on both forearms
+- ✅ Bun + strands + wisps
+- ✅ Cool front-light wash on body + face + cool catch on jaw (dying display front-illuminating)
+- ✅ Eyes narrowed, brow furrowed, lips set (analytical intensity, no surface emotion)
+- ✅ WREN balloon "Sable. It's bad." bold (terse — script-accurate)
+
+### P10P02 — Reverse OTS from inside wrecked hull (488×380)
+- ✅ Dark interior — almost black (the death of a machine)
+- ✅ Bent structural spars at wrong angles framing composition
+- ✅ Dark shattered display panels w/ crack lines
+- ✅ ONE flickering dim blue display center-bottom w/ scrolling data + strobe artifacts
+- ✅ Severed conduit bundles hanging like cut tendons w/ tiny sparks at ends
+- ✅ Cracked control surfaces
+- ✅ Dead leaves penetrating through hull breaches (script-specific)
+- ✅ Coal soot debris penetrating
+- ✅ Wren framed in torn panel opening, body silhouetted (dark copper backlit by amber outside)
+- ✅ Hands BRACED on panel edges (script-specific)
+- ✅ Amber backlight catching shoulder rims + hair
+- ✅ Two WREN balloons: damage report + bold "call anyone with."
+
+### P10P03 — Squad assembled briefing (742×300)
+- ✅ All 5 squad in gutter, distributed L→R: Thresh ruby far-left isolated against wall w/ weapon, Jink emerald center on dead leaf attentive, Luma sapphire mid-right w/ scanner, Wren copper near wreckage, Sable silver far-right at wreckage arms-crossed
+- ✅ Large wreckage hull section right side w/ dim cool blue glow + flicker
+- ✅ Cool wreckage glow on right (fading) + warm amber on left (growing) — visible transition per script
+- ✅ Iron gutter wall + rivets + soot + coal sediment + dead leaves
+- ✅ Three balloons: WREN long damage report w/ bold "extraction. Not leaving without a full rebuild." + SABLE "What do you need?" + WREN bold "More than we have."
+
+### P10P04 — Wren's hands hold dead crystal (366×420)
+- ✅ Two copper-suited forearms enter from left + right edges with hydraulic-fluid stains visible
+- ✅ Both hands meeting in center with fingers cradling/turning the crystal
+- ✅ Crystal centered: angular faceted dark shape with internal facet edges + crack lines
+- ✅ Crystal is DEAD — no light emitting (script-critical: dark inside, no patterns)
+- ✅ Faint copper-gold suit-accent halo around hands area (Wren's living light)
+- ✅ Subtle warm rim catches on crystal edges (the only light hitting the dead thing)
+- ✅ Out-of-focus blurred wreckage in background
+- ✅ WREN balloon w/ bold "else worked, no signal." emphasis
+- ✅ "Living light holding a dead thing" beat — script-critical metaphor lands
+
+### P10P05 — Sable receiving report — commander's mask settling (366×420)
+- ✅ Distant Victorian cityscape over Sable's shoulder (silhouettes + spires + factory + chimney pots + lit windows + amber gas pools)
+- ✅ Strong warm amber backlight halo behind Sable
+- ✅ Cool wreckage fading on far-left
+- ✅ Sable centered, silver suit, ARMS CROSSED across chest (script-specific posture)
+- ✅ Cracked right shoulder bleeding blue-white halo
+- ✅ Silver-white buzz cap with WARM AMBER RIM catching hair (script: "rim light around her silver hair")
+- ✅ Warm rim on right shoulder
+- ✅ Eyes level (commander focus), brow level, lips firm-set
+- ✅ Cool LEFT eye + warm RIGHT eye catch-lights (script-perfect: "fading blue-white from wreckage left, warm amber right. The amber is winning.")
+- ✅ Cheekbones cool-left + warm-right wash
+- ✅ SABLE long order balloon w/ bold "Jink--" cutoff
+- ✅ JINK O.P. dashed-border "I can fly." bold
 
 ---
 
