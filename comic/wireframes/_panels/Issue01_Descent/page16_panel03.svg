@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 550" width="247" height="550">
+  <title>Issue 1 — Page 16 — Panel 3: Jink wing-pack launch — bird's-eye</title>
+  <desc>Medium wide shot bird's-eye 35mm. Jink launches from cast-iron gutter lip, wing-pack deployed — translucent dragonfly-structure emerald geometric wings snapping open as they push off iron edge into open air. Below + behind: gutter w/ squad + wreckage. Before Jink: vast drop to gaslit street far below + rooftop landscape (chimney stacks, slate ridges, weathervanes, neighboring building silhouettes) stretching into amber fog. Wing-pack casts brilliant emerald geometric light — brightest source. Trailing luminous contrails against dark sky. Zero hesitation, pure function. Warm amber rises from far below.</desc>
+
+  <defs>
+    <linearGradient id="p16p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p16p3rooftops" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </linearGradient>
+    <linearGradient id="p16p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p16p3emerald" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4828"/>
+    </linearGradient>
+    <radialGradient id="p16p3emeraldGlow">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a4828" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p3wingMembrane">
+      <stop offset="0%" stop-color="#7af0b0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0.05"/>
+    </radialGradient>
+    <radialGradient id="p16p3cityGlow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p16p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p16p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p16p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- Sky background. -->
+  <rect width="247" height="550" fill="url(#p16p3sky)"/>
+
+  <!-- Stars top. -->
+  <g fill="#dce4f0" opacity="0.65">
+    <circle cx="40" cy="20" r="0.6"/>
+    <circle cx="100" cy="14" r="0.5"/>
+    <circle cx="180" cy="22" r="0.6"/>
+    <circle cx="220" cy="40" r="0.4"/>
+    <circle cx="60" cy="60" r="0.4"/>
+  </g>
+
+  <!-- VAST CITY ROOFTOP LANDSCAPE stretching to amber fog horizon (BG, below). -->
+  <g id="p16p3-rooftop-landscape">
+    <!-- Horizon line w/ chimney pots + spires + rooftops. -->
+    <path d="M0,330 L20,326 L25,310 L30,326 L60,322 L70,300 L75,322 L120,326 L140,318 L150,308 L160,318 L180,322 L210,318 L215,300 L222,318 L247,322 L247,400 L0,400 Z" fill="url(#p16p3rooftops)" opacity="0.75"/>
+    <!-- Rooftop ridges + chimney stacks dotted. -->
+    <g fill="#0a0810" opacity="0.85">
+      <rect x="22" y="306" width="3" height="6"/>
+      <rect x="68" y="296" width="4" height="8"/>
+      <rect x="148" y="304" width="3" height="6"/>
+      <rect x="213" y="296" width="4" height="8"/>
+      <rect x="218" y="294" width="3" height="8"/>
+    </g>
+    <!-- One distant church spire. -->
+    <path d="M178,322 L181,290 L184,322 Z" fill="#0a0810"/>
+    <rect x="179" y="322" width="6" height="14" fill="#0a0810"/>
+    <!-- Weathervanes (script-specific). -->
+    <g stroke="#0a0810" stroke-width="0.6" fill="none">
+      <line x1="100" y1="320" x2="100" y2="300"/>
+      <path d="M97,304 L100,300 L103,304"/>
+      <path d="M100,300 L106,302" stroke-width="0.4"/>
+      <line x1="200" y1="316" x2="200" y2="298"/>
+      <path d="M197,302 L200,298 L203,302"/>
+    </g>
+
+    <!-- Slightly nearer rooflines (slate ridges). -->
+    <path d="M0,360 L40,352 L80,366 L120,348 L160,366 L200,348 L247,358 L247,440 L0,440 Z" fill="url(#p16p3rooftops)" opacity="0.85"/>
+    <g stroke="#0a0810" stroke-width="0.4" opacity="0.7">
+      <line x1="20" y1="370" x2="40" y2="362"/>
+      <line x1="80" y1="376" x2="100" y2="368"/>
+      <line x1="160" y1="376" x2="180" y2="368"/>
+    </g>
+
+    <!-- Strong warm amber FOG glow from below + far-below city. -->
+    <ellipse cx="124" cy="490" rx="280" ry="100" fill="url(#p16p3cityGlow)" filter="url(#p16p3deepBloom)" opacity="0.85"/>
+    <!-- Pinprick gas-lamps along horizon. -->
+    <g fill="#f5b860" filter="url(#p16p3bloom)">
+      <circle cx="40" cy="408" r="1.6" opacity="0.85"/>
+      <circle cx="120" cy="416" r="1.7" opacity="0.85"/>
+      <circle cx="200" cy="408" r="1.6" opacity="0.85"/>
+    </g>
+  </g>
+
+  <!-- IRON GUTTER LIP across foreground (where Jink launches from — bottom of frame). -->
+  <g id="p16p3-gutter-lip">
+    <!-- Lip rim curving across bottom-left (where Jink pushes off). -->
+    <path d="M-10,468 Q60,452 130,460 Q150,464 160,475 L160,560 L-10,560 Z" fill="url(#p16p3iron)"/>
+    <!-- Top edge of rim. -->
+    <path d="M-10,468 Q60,452 130,460 Q150,464 160,475" fill="none" stroke="#080404" stroke-width="1.4"/>
+    <!-- Warm amber rim catch. -->
+    <path d="M-10,468 Q60,452 130,460 Q150,464 160,475" fill="none" stroke="#f5b860" stroke-width="1.4" opacity="0.85" filter="url(#p16p3bloom)"/>
+    <!-- Rivets. -->
+    <g fill="#080404" opacity="0.85">
+      <circle cx="20" cy="468" r="1.6"/>
+      <circle cx="60" cy="458" r="1.6"/>
+      <circle cx="100" cy="458" r="1.6"/>
+      <circle cx="140" cy="464" r="1.6"/>
+    </g>
+    <!-- Soot streaks. -->
+    <g fill="#080404" opacity="0.55">
+      <path d="M30,470 Q34,520 28,560"/>
+      <path d="M90,460 Q94,520 88,560"/>
+    </g>
+    <!-- Squad below as tiny colored shapes (silhouette in gutter behind/below per script). -->
+    <g opacity="0.85">
+      <!-- Sable silver. -->
+      <circle cx="50" cy="528" r="3" fill="#a8b0c0"/>
+      <ellipse cx="50" cy="525" r="2" fill="#dce4ff" opacity="0.6"/>
+      <!-- Wren copper. -->
+      <circle cx="76" cy="540" r="3" fill="#c87a35"/>
+      <!-- Luma sapphire. -->
+      <circle cx="105" cy="538" r="3" fill="#5a3ad8"/>
+      <!-- Wreckage glow. -->
+      <ellipse cx="80" cy="552" rx="20" ry="4" fill="#7af0f0" opacity="0.4" filter="url(#p16p3bloom)"/>
+    </g>
+  </g>
+
+  <!-- JINK launching off lip — wing-pack deployed, translucent emerald wings snapping open. -->
+  <g id="p16p3-jink" transform="translate(150, 280)">
+
+    <!-- Wing-pack — 4 dragonfly wings extending outward (2 forward + 2 back, geometric lattice). -->
+    <g id="p16p3-wings" filter="url(#p16p3bloom)">
+      <!-- WING 1 — upper-left translucent membrane. -->
+      <path d="M-5,-15 Q-65,-50 -90,-25 Q-65,-10 -5,-10 Z" fill="url(#p16p3wingMembrane)" stroke="#7af0b0" stroke-width="0.7" opacity="0.85"/>
+      <!-- Lattice ribs. -->
+      <g stroke="#7af0b0" stroke-width="0.5" opacity="0.85" fill="none">
+        <line x1="-5" y1="-12" x2="-90" y2="-25"/>
+        <line x1="-5" y1="-12" x2="-65" y2="-50"/>
+        <line x1="-5" y1="-12" x2="-65" y2="-10"/>
+        <line x1="-25" y1="-22" x2="-50" y2="-22"/>
+        <line x1="-40" y1="-30" x2="-50" y2="-15"/>
+      </g>
+
+      <!-- WING 2 — upper-right (forward). -->
+      <path d="M5,-15 Q40,-55 80,-30 Q60,-10 5,-10 Z" fill="url(#p16p3wingMembrane)" stroke="#7af0b0" stroke-width="0.7" opacity="0.85"/>
+      <g stroke="#7af0b0" stroke-width="0.5" opacity="0.85" fill="none">
+        <line x1="5" y1="-12" x2="80" y2="-30"/>
+        <line x1="5" y1="-12" x2="40" y2="-55"/>
+        <line x1="5" y1="-12" x2="60" y2="-10"/>
+        <line x1="25" y1="-22" x2="50" y2="-25"/>
+        <line x1="35" y1="-35" x2="55" y2="-22"/>
+      </g>
+
+      <!-- WING 3 — lower-left back. -->
+      <path d="M-5,5 Q-50,30 -75,15 Q-55,0 -5,0 Z" fill="url(#p16p3wingMembrane)" stroke="#7af0b0" stroke-width="0.7" opacity="0.75"/>
+      <g stroke="#7af0b0" stroke-width="0.4" opacity="0.75" fill="none">
+        <line x1="-5" y1="2" x2="-75" y2="15"/>
+        <line x1="-5" y1="2" x2="-50" y2="30"/>
+        <line x1="-25" y1="10" x2="-45" y2="20"/>
+      </g>
+
+      <!-- WING 4 — lower-right back. -->
+      <path d="M5,5 Q40,32 65,12 Q50,0 5,0 Z" fill="url(#p16p3wingMembrane)" stroke="#7af0b0" stroke-width="0.7" opacity="0.75"/>
+      <g stroke="#7af0b0" stroke-width="0.4" opacity="0.75" fill="none">
+        <line x1="5" y1="2" x2="65" y2="12"/>
+        <line x1="5" y1="2" x2="40" y2="32"/>
+        <line x1="25" y1="8" x2="40" y2="22"/>
+      </g>
+
+      <!-- Brilliant geometric center bloom (wing-pack source — brightest in panel). -->
+      <ellipse cx="0" cy="-2" rx="20" ry="14" fill="url(#p16p3emeraldGlow)" filter="url(#p16p3deepBloom)" opacity="0.95"/>
+      <ellipse cx="0" cy="-2" rx="10" ry="8" fill="#ffffff" filter="url(#p16p3strongBloom)" opacity="0.7"/>
+    </g>
+
+    <!-- JINK BODY — small, suspended mid-leap (knees tucked slightly, arms back). -->
+    <g id="p16p3-body">
+
+      <!-- Torso compressed (mid-jump). -->
+      <path d="M-7,-3 Q-9,8 -7,18 L7,18 Q9,8 7,-3 L4,-7 L-4,-7 Z" fill="url(#p16p3emerald)" stroke="#080408" stroke-width="0.5"/>
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#7af0b0" stroke-width="0.4" opacity="0.85" filter="url(#p16p3bloom)"/>
+
+      <!-- Legs tucked back (knees up, leaping). -->
+      <path d="M-5,18 Q-3,28 0,28 Q3,28 5,18" fill="#0a4828" stroke="#080408" stroke-width="0.5"/>
+      <!-- Lower legs trailing. -->
+      <path d="M-3,28 L-5,38 L-3,46" fill="none" stroke="#0a4828" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M3,28 L5,38 L3,46" fill="none" stroke="#0a4828" stroke-width="3.5" stroke-linecap="round"/>
+      <ellipse cx="-3" cy="46" rx="3" ry="1.2" fill="#080408"/>
+      <ellipse cx="3" cy="46" rx="3" ry="1.2" fill="#080408"/>
+
+      <!-- Arms stretched back behind body (launching forward). -->
+      <path d="M-7,0 L-12,12 L-15,22" fill="none" stroke="url(#p16p3emerald)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M7,0 L12,12 L15,22" fill="none" stroke="url(#p16p3emerald)" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Head (small at this scale). -->
+      <ellipse cx="0" cy="-13" rx="5" ry="5.5" fill="#e8c8a0"/>
+      <!-- Golden curly hair whipping in wind (script-specific). -->
+      <g fill="#f5d860">
+        <circle cx="-3" cy="-17" r="1.8"/>
+        <circle cx="0" cy="-19" r="2"/>
+        <circle cx="3" cy="-17" r="1.8"/>
+        <circle cx="5" cy="-15" r="1.5"/>
+        <!-- Wind-blown trailing curls. -->
+        <circle cx="-6" cy="-14" r="1.2"/>
+        <circle cx="-9" cy="-12" r="1"/>
+      </g>
+      <ellipse cx="0" cy="-19" rx="2" ry="0.5" fill="#fae898" opacity="0.85"/>
+
+      <!-- Eyes (focus + release). -->
+      <ellipse cx="-1.5" cy="-13" rx="0.6" ry="0.5" fill="#1a3010"/>
+      <ellipse cx="1.5" cy="-13" rx="0.6" ry="0.5" fill="#1a3010"/>
+      <!-- Slight smile (in their element). -->
+      <path d="M-2,-10 Q0,-9 2,-10" stroke="#3a2010" stroke-width="0.4" fill="none"/>
+
+      <!-- Glowing emerald accent on suit (bright from wing-pack). -->
+      <ellipse cx="0" cy="6" rx="8" ry="6" fill="#7af0b0" opacity="0.55" filter="url(#p16p3strongBloom)"/>
+    </g>
+
+    <!-- TRAILING contrails (geometric emerald). -->
+    <g stroke="#7af0b0" stroke-width="1" opacity="0.7" fill="none" filter="url(#p16p3bloom)">
+      <path d="M-15,22 Q-30,40 -50,55 Q-70,80 -90,110"/>
+      <path d="M15,22 Q-5,40 -25,60 Q-45,85 -65,115"/>
+      <path d="M0,28 Q-15,50 -35,75 Q-55,100 -75,125"/>
+    </g>
+    <!-- Geometric angular contrail glyphs (like a trail of structured-light rune shapes). -->
+    <g stroke="#7af0b0" stroke-width="0.6" opacity="0.55" fill="none" filter="url(#p16p3bloom)">
+      <polygon points="-50,55 -45,52 -45,58"/>
+      <polygon points="-65,72 -60,69 -60,75"/>
+      <polygon points="-80,100 -75,97 -75,103"/>
+      <polygon points="-30,40 -25,37 -25,43"/>
+    </g>
+    <!-- Particle sparks. -->
+    <g fill="#dce4ff" opacity="0.7" filter="url(#p16p3bloom)">
+      <circle cx="-40" cy="50" r="0.5"/>
+      <circle cx="-55" cy="68" r="0.5"/>
+      <circle cx="-70" cy="90" r="0.5"/>
+      <circle cx="-25" cy="30" r="0.5"/>
+      <circle cx="20" cy="35" r="0.5"/>
+    </g>
+  </g>
+
+  <!-- Meta tag (no dialogue per script). -->
+  <g id="p16p3-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
+    <text x="243" y="542" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">JINK LAUNCH</text>
+  </g>
+</svg>

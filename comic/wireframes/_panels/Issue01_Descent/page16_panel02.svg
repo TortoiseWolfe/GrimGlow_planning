@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 550" width="247" height="550">
+  <title>Issue 1 — Page 16 — Panel 2: Thresh perimeter check — 7° dutch</title>
+  <desc>Medium shot eye level w/ 7° dutch angle. Thresh moves along roof-side gutter wall, one hand on rim testing structural integrity, other resting on weapon at hip. Welsh slate roof tiles rise like cliff face behind, dark + slick. Eyes move too quickly — scanning for things she doesn't have categories for yet. Cool crimson holographic accents from suit nodes. Warm amber from city below reflects off slate. Shadow along curved gutter wall. Subtle environmental unease. THRESH: "Perimeter is... a gutter." SABLE (off): "Make it work, Thresh." THRESH: "Copy."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p16p2sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p16p2slate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </linearGradient>
+    <linearGradient id="p16p2iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p16p2ruby" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <radialGradient id="p16p2crimsonGlow">
+      <stop offset="0%" stop-color="#f54848" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a1018" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p2amber" cx="0%" cy="100%" r="120%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p16p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p16p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- DUTCH-ROTATED main composition (7° tilt). Background + figure rotated as one. -->
+  <g id="p16p2-dutch-frame" transform="rotate(7 124 275)">
+
+    <!-- Sky background. -->
+    <rect x="-30" y="-30" width="307" height="610" fill="url(#p16p2sky)"/>
+
+    <!-- Stars top. -->
+    <g fill="#dce4f0" opacity="0.6">
+      <circle cx="40" cy="20" r="0.5"/>
+      <circle cx="100" cy="14" r="0.5"/>
+      <circle cx="160" cy="22" r="0.5"/>
+      <circle cx="220" cy="14" r="0.5"/>
+    </g>
+
+    <!-- WELSH SLATE ROOF rising LIKE A CLIFF behind (top-back). -->
+    <g id="p16p2-slate-cliff">
+      <path d="M-30,0 L-30,260 Q60,150 150,170 L247,200 L247,0 Z" fill="url(#p16p2slate)"/>
+      <!-- Slate tile rows. -->
+      <g stroke="#0a0810" stroke-width="0.5" opacity="0.85">
+        <line x1="-30" y1="60" x2="247" y2="60"/>
+        <line x1="-30" y1="100" x2="247" y2="100"/>
+        <line x1="-30" y1="140" x2="247" y2="140"/>
+        <line x1="-30" y1="180" x2="247" y2="180"/>
+      </g>
+      <!-- Diagonal seams + tile separation. -->
+      <g stroke="#0a0810" stroke-width="0.4" opacity="0.7">
+        <line x1="-10" y1="60" x2="0" y2="100"/>
+        <line x1="40" y1="60" x2="50" y2="100"/>
+        <line x1="90" y1="60" x2="100" y2="100"/>
+        <line x1="20" y1="100" x2="30" y2="140"/>
+        <line x1="70" y1="100" x2="80" y2="140"/>
+        <line x1="120" y1="100" x2="130" y2="140"/>
+        <line x1="0" y1="140" x2="10" y2="180"/>
+        <line x1="50" y1="140" x2="60" y2="180"/>
+      </g>
+      <!-- Wet slick highlights (slate is slick per script). -->
+      <g stroke="#3a3838" stroke-width="0.4" opacity="0.55" fill="none">
+        <line x1="-10" y1="62" x2="50" y2="58"/>
+        <line x1="100" y1="68" x2="160" y2="64"/>
+        <line x1="20" y1="102" x2="80" y2="98"/>
+        <line x1="120" y1="142" x2="180" y2="138"/>
+      </g>
+    </g>
+
+    <!-- IRON GUTTER WALL (foreground, where Thresh moves). -->
+    <g id="p16p2-gutter">
+      <!-- Front wall. -->
+      <path d="M-30,260 Q120,240 247,250 L247,580 L-30,580 Z" fill="url(#p16p2iron)"/>
+      <!-- Top rim line where Thresh's hand goes. -->
+      <path d="M-30,260 Q120,240 247,250" fill="none" stroke="#080404" stroke-width="1.6"/>
+      <!-- Warm amber rim catch on iron. -->
+      <path d="M-30,260 Q120,240 247,250" fill="none" stroke="#f5b860" stroke-width="1.4" opacity="0.85" filter="url(#p16p2bloom)"/>
+      <!-- Rivets. -->
+      <g fill="#080404" opacity="0.85">
+        <circle cx="20" cy="252" r="2"/>
+        <circle cx="80" cy="245" r="2"/>
+        <circle cx="180" cy="246" r="2"/>
+        <circle cx="230" cy="250" r="2"/>
+      </g>
+      <!-- Soot streaks. -->
+      <g fill="#080404" opacity="0.55">
+        <path d="M30,260 Q35,420 28,580"/>
+        <path d="M120,242 Q125,420 118,580"/>
+        <path d="M210,250 Q215,420 208,580"/>
+      </g>
+      <!-- Strong warm amber glow rising from below + reflecting off iron + slate. -->
+      <ellipse cx="-20" cy="580" rx="280" ry="160" fill="url(#p16p2amber)" filter="url(#p16p2strongBloom)" opacity="0.85"/>
+      <!-- Amber catch on slate (reflected per script). -->
+      <ellipse cx="60" cy="220" rx="120" ry="20" fill="#f5b860" opacity="0.2" filter="url(#p16p2strongBloom)"/>
+    </g>
+
+    <!-- THRESH — moving along perimeter, MS eye-level. Hand on rim, weapon at hip. -->
+    <g id="p16p2-thresh" transform="translate(120, 350)">
+
+      <!-- Lower legs (heavier armored). -->
+      <path d="M-22,80 L-26,140 L-30,180" fill="none" stroke="#5a1018" stroke-width="13" stroke-linecap="round"/>
+      <path d="M22,80 L26,140 L30,180" fill="none" stroke="#5a1018" stroke-width="13" stroke-linecap="round"/>
+      <ellipse cx="-30" cy="182" rx="13" ry="4" fill="#080408"/>
+      <ellipse cx="30" cy="182" rx="13" ry="4" fill="#080408"/>
+      <!-- Warm amber on lower legs. -->
+      <path d="M-22,80 L-26,140 L-30,180" fill="none" stroke="#f5b860" stroke-width="3.5" stroke-linecap="round" opacity="0.55" filter="url(#p16p2bloom)"/>
+      <path d="M22,80 L26,140 L30,180" fill="none" stroke="#f5b860" stroke-width="3.5" stroke-linecap="round" opacity="0.55" filter="url(#p16p2bloom)"/>
+      <!-- Greave plates (heavy). -->
+      <ellipse cx="-26" cy="120" rx="9" ry="6" fill="#a8182a" stroke="#080408" stroke-width="0.5"/>
+      <ellipse cx="26" cy="120" rx="9" ry="6" fill="#a8182a" stroke="#080408" stroke-width="0.5"/>
+
+      <!-- Thighs. -->
+      <path d="M-22,30 L-22,80 L0,80" fill="url(#p16p2ruby)" stroke="#080408" stroke-width="0.8"/>
+      <path d="M22,30 L22,80 L0,80" fill="url(#p16p2ruby)" stroke="#080408" stroke-width="0.8"/>
+      <!-- Hip belt. -->
+      <rect x="-26" y="24" width="52" height="9" fill="#3a0810" stroke="#080408" stroke-width="0.5"/>
+
+      <!-- WEAPON at HIP (script-specific). -->
+      <g id="p16p2-weapon" transform="translate(28, 35)">
+        <rect x="-2" y="-3" width="20" height="8" rx="1" fill="#1a0810" stroke="#080404" stroke-width="0.5"/>
+        <rect x="14" y="-1" width="6" height="4" fill="#3a1010" stroke="#080404" stroke-width="0.4"/>
+        <line x1="0" y1="-1" x2="14" y2="-1" stroke="#3a1010" stroke-width="0.5"/>
+        <!-- Power node. -->
+        <circle cx="2" cy="1" r="1.4" fill="#f54848" opacity="0.85" filter="url(#p16p2bloom)"/>
+        <!-- Sling line. -->
+        <path d="M-2,-3 Q-8,-15 -10,-25" stroke="#3a1010" stroke-width="0.7" fill="none"/>
+      </g>
+
+      <!-- TORSO. -->
+      <path d="M-30,-30 Q-36,5 -26,28 L26,28 Q36,5 30,-30 L12,-40 L-12,-40 Z" fill="url(#p16p2ruby)" stroke="#080408" stroke-width="0.9"/>
+      <!-- Crimson seams. -->
+      <line x1="0" y1="-26" x2="0" y2="22" stroke="#f54848" stroke-width="0.7" opacity="0.85" filter="url(#p16p2bloom)"/>
+      <line x1="-20" y1="-22" x2="-20" y2="18" stroke="#f54848" stroke-width="0.5" opacity="0.7" filter="url(#p16p2bloom)"/>
+      <line x1="20" y1="-22" x2="20" y2="18" stroke="#f54848" stroke-width="0.5" opacity="0.7" filter="url(#p16p2bloom)"/>
+      <!-- Chest plate band. -->
+      <line x1="-28" y1="-5" x2="28" y2="-5" stroke="#080408" stroke-width="0.6" opacity="0.85"/>
+      <ellipse cx="0" cy="0" rx="26" ry="16" fill="url(#p16p2crimsonGlow)" filter="url(#p16p2strongBloom)" opacity="0.55"/>
+
+      <!-- Shoulder pads (intact left, DENTED right per established Thresh design). -->
+      <ellipse cx="-30" cy="-28" rx="11" ry="6" fill="#dc2030" stroke="#080408" stroke-width="0.6"/>
+      <ellipse cx="-30" cy="-30" rx="6" ry="3" fill="#f54848" opacity="0.7"/>
+      <!-- Right pauldron dented. -->
+      <ellipse cx="30" cy="-28" rx="11" ry="6" fill="#a8182a" stroke="#080408" stroke-width="0.7"/>
+      <path d="M22,-30 Q30,-22 38,-30" fill="#5a0810" stroke="#080408" stroke-width="0.5"/>
+      <line x1="24" y1="-26" x2="36" y2="-22" stroke="#1a0408" stroke-width="0.6"/>
+
+      <!-- LEFT arm — RUNNING ALONG GUTTER RIM (extending toward upper-left). Hand on rim. -->
+      <path d="M-30,-22 L-50,-2 L-72,12 L-92,18" fill="none" stroke="url(#p16p2ruby)" stroke-width="8" stroke-linecap="round"/>
+      <!-- Hand on rim (gauntleted). -->
+      <ellipse cx="-92" cy="18" rx="6" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.6"/>
+      <!-- Crimson seam glow. -->
+      <line x1="-95" y1="16" x2="-89" y2="20" stroke="#f54848" stroke-width="0.6" filter="url(#p16p2bloom)" opacity="0.85"/>
+      <!-- Index finger extended along rim (testing structural integrity). -->
+      <line x1="-92" y1="18" x2="-104" y2="20" stroke="#a8182a" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- RIGHT arm — RESTING ON WEAPON at hip. -->
+      <path d="M30,-22 L40,5 L36,28" fill="none" stroke="url(#p16p2ruby)" stroke-width="8" stroke-linecap="round"/>
+      <!-- Hand on weapon. -->
+      <ellipse cx="36" cy="30" rx="6" ry="4" fill="#dc2030" stroke="#080408" stroke-width="0.6"/>
+
+      <!-- HEAD — pale skin, defined cheekbones, copper-red buzz. Eyes scanning sideways/quick. -->
+      <ellipse cx="2" cy="-62" rx="14" ry="15" fill="#d8a880"/>
+      <!-- Copper-red buzz. -->
+      <path d="M-9,-72 Q-3,-78 2,-78 Q7,-78 13,-72 L13,-62 L-9,-62 Z" fill="#a83a18"/>
+      <path d="M-9,-72 Q2,-76 13,-72" fill="none" stroke="#5a1808" stroke-width="0.7" opacity="0.85"/>
+      <!-- Buzz stipple. -->
+      <g fill="#5a1808" opacity="0.85">
+        <circle cx="-5" cy="-74" r="0.6"/>
+        <circle cx="-1" cy="-75" r="0.6"/>
+        <circle cx="3" cy="-76" r="0.6"/>
+        <circle cx="7" cy="-75" r="0.6"/>
+        <circle cx="11" cy="-72" r="0.6"/>
+      </g>
+      <!-- Cheekbones. -->
+      <ellipse cx="-9" cy="-56" rx="3.5" ry="1.6" fill="#a87850" opacity="0.55"/>
+      <ellipse cx="9" cy="-56" rx="3.5" ry="1.6" fill="#a87850" opacity="0.55"/>
+      <!-- Crimson catch on cheekbones. -->
+      <ellipse cx="-9" cy="-56" rx="2.5" ry="1.2" fill="#f54848" opacity="0.4"/>
+      <ellipse cx="9" cy="-56" rx="2.5" ry="1.2" fill="#f54848" opacity="0.4"/>
+      <!-- Eyes — looking sideways too quickly (scanning). Both pupils shifted RIGHT. -->
+      <ellipse cx="-2" cy="-62" rx="2" ry="1.4" fill="#1a0808"/>
+      <ellipse cx="6" cy="-62" rx="2" ry="1.4" fill="#1a0808"/>
+      <!-- Pupils shifted to the right (eyes-too-quick). -->
+      <ellipse cx="-1" cy="-62.5" rx="0.8" ry="0.8" fill="#080404"/>
+      <ellipse cx="7" cy="-62.5" rx="0.8" ry="0.8" fill="#080404"/>
+      <!-- Crimson catch in eyes. -->
+      <circle cx="-1" cy="-63" r="0.5" fill="#f54848"/>
+      <circle cx="7" cy="-63" r="0.5" fill="#f54848"/>
+      <!-- Brow set hard. -->
+      <path d="M-7,-68 Q-3,-71 1,-68" stroke="#5a1808" stroke-width="1.2" fill="none"/>
+      <path d="M3,-68 Q6,-71 9,-68" stroke="#5a1808" stroke-width="1.2" fill="none"/>
+      <!-- Slight tension lines (script: scanning for things she has no categories for). -->
+      <line x1="-13" y1="-58" x2="-15" y2="-54" stroke="#3a1808" stroke-width="0.4" opacity="0.55"/>
+      <line x1="13" y1="-58" x2="15" y2="-54" stroke="#3a1808" stroke-width="0.4" opacity="0.55"/>
+      <!-- Lips firm + slightly downturned (focused, slight discomfort). -->
+      <path d="M-3,-50 Q3,-49 6,-50" stroke="#3a1808" stroke-width="1.2" fill="none"/>
+      <!-- Jaw definition. -->
+      <ellipse cx="-9" cy="-48" rx="2.5" ry="1" fill="#5a1808" opacity="0.55"/>
+      <ellipse cx="9" cy="-48" rx="2.5" ry="1" fill="#5a1808" opacity="0.55"/>
+
+      <!-- THRESH SHADOW along curved gutter wall (script-specific). -->
+    </g>
+
+    <!-- Thresh's shadow stretching along the curved gutter wall. -->
+    <ellipse cx="80" cy="490" rx="80" ry="14" fill="#080404" opacity="0.6"/>
+    <ellipse cx="80" cy="486" rx="60" ry="6" fill="#080404" opacity="0.4"/>
+
+  </g>
+
+  <!-- Dialogue OUTSIDE the dutch rotation (axis-aligned, stay in viewBox). -->
+
+  <!-- THRESH dialogue. -->
+  <g id="p16p2-dlg-thresh">
+    <rect x="14" y="14" width="218" height="44" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Perimeter is... a gutter.</text>
+    <path d="M124,58 L142,58 L138,250 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="124" y1="58" x2="142" y2="58" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- SABLE off-panel (dashed-stroke). -->
+  <g id="p16p2-dlg-sable-off">
+    <rect x="14" y="170" width="170" height="44" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-dasharray="6,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="188" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE (OFF)</text>
+    <text x="24" y="205" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" fill="#1a1a1a">Make it work, Thresh.</text>
+    <!-- Dashed off-panel tail. -->
+    <path d="M14,200 L4,200 L0,210" fill="none" stroke="#5a606a" stroke-width="2" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- THRESH copy. -->
+  <g id="p16p2-dlg-thresh-copy">
+    <rect x="124" y="500" width="108" height="38" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="134" y="518" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="800" fill="#dc2030" letter-spacing="0.3">THRESH</text>
+    <text x="134" y="534" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Copy.</text>
+    <path d="M158,500 L176,500 L168,470 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="158" y1="500" x2="176" y2="500" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p16p2-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
+    <text x="243" y="542" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">THRESH PERIMETER</text>
+  </g>
+</svg>

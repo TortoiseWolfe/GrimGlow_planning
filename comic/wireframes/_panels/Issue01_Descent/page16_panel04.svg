@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 560" width="247" height="560">
+  <title>Issue 1 — Page 16 — Panel 4: Luma + enormous oak leaf — close-up cataloguing</title>
+  <desc>Close-up eye level 85mm. Luma crouched beside enormous-at-her-scale dead oak leaf. Holographic lenses active — semi-transparent spectral lenses scrolling blue-violet geometric data. One hand holds compact medical scanner; other touches leaf veins (like roads). Leaf surface like textured leather, edges curled, decay tones. South Asian, warm brown skin, large expressive eyes behind floating lenses, dark hair in long braid threaded with luminous sapphire filament. Sapphire-violet metallic suit shows fresh impact damage. Blue-violet light from lenses + scanner cast geometric patterns across face. Warm amber from city-glow catches surface of leaf. Scientific wonder amid debris. LUMA: "Air quality is... remarkable. Pre-industrial particulate levels but the sulfur content —"</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p16p4dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p16p4leaf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87830"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="p16p4leafShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p16p4sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#1a1058"/>
+    </linearGradient>
+    <radialGradient id="p16p4sapphireGlow">
+      <stop offset="0%" stop-color="#a890f0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a1058" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p4holoGlow">
+      <stop offset="0%" stop-color="#a890f0" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#5a3ad8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1058" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p4amber" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p16p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p16p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG dark gutter. -->
+  <rect width="247" height="560" fill="url(#p16p4dark)"/>
+  <!-- Subtle warm amber from below. -->
+  <ellipse cx="124" cy="560" rx="200" ry="100" fill="url(#p16p4amber)" filter="url(#p16p4strongBloom)" opacity="0.85"/>
+  <!-- Floor stipple. -->
+  <g fill="#080404" opacity="0.7">
+    <circle cx="40" cy="500" r="2"/>
+    <circle cx="200" cy="510" r="1.8"/>
+    <circle cx="220" cy="540" r="2"/>
+  </g>
+
+  <!-- ENORMOUS DEAD OAK LEAF — dominant in foreground (covers BG-right + center). At fairy scale: enormous. -->
+  <g id="p16p4-leaf" transform="translate(0, 200)">
+    <!-- Main leaf shape — oak (lobed). -->
+    <path d="M30,100 Q40,60 60,40 Q90,20 110,30 Q140,18 170,30 Q200,20 220,40 Q240,60 245,90 Q260,140 240,200 Q220,260 180,300 Q140,340 100,330 Q60,310 40,260 Q20,200 30,100 Z" fill="url(#p16p4leaf)"/>
+    <!-- Lobed edges (oak leaf characteristic). -->
+    <path d="M60,40 Q70,30 80,40 Q90,30 100,42" fill="url(#p16p4leaf)" stroke="#3a1808" stroke-width="0.5"/>
+    <path d="M150,32 Q160,22 170,32 Q180,22 190,32" fill="url(#p16p4leaf)" stroke="#3a1808" stroke-width="0.5"/>
+    <path d="M220,40 Q230,30 245,42 Q255,52 250,68" fill="url(#p16p4leaf)" stroke="#3a1808" stroke-width="0.5"/>
+    <path d="M40,260 Q50,275 30,290" fill="url(#p16p4leaf)" stroke="#3a1808" stroke-width="0.5"/>
+    <!-- Curl edge top-right (decay curl). -->
+    <path d="M200,18 Q220,5 245,12 Q235,30 220,40" fill="url(#p16p4leafShadow)" stroke="#3a1808" stroke-width="0.5"/>
+
+    <!-- VEINS LIKE ROADS (script-specific). -->
+    <g stroke="#3a1808" stroke-width="0.8" fill="none">
+      <!-- Main midrib running through center. -->
+      <path d="M120,30 Q130,100 140,170 Q150,240 160,310"/>
+      <!-- Lateral veins branching out. -->
+      <path d="M125,50 Q90,55 70,70"/>
+      <path d="M125,50 Q160,55 195,70"/>
+      <path d="M133,90 Q95,100 65,120"/>
+      <path d="M133,90 Q170,100 210,120"/>
+      <path d="M140,130 Q100,140 70,165"/>
+      <path d="M140,130 Q180,140 220,160"/>
+      <path d="M148,180 Q110,195 75,220"/>
+      <path d="M148,180 Q190,195 220,210"/>
+      <path d="M156,230 Q120,245 90,265"/>
+      <path d="M156,230 Q200,245 230,250"/>
+      <!-- Tertiary veins. -->
+      <g stroke-width="0.4" opacity="0.85">
+        <path d="M90,75 Q80,90 95,100"/>
+        <path d="M170,75 Q180,90 165,100"/>
+        <path d="M85,140 Q75,155 95,165"/>
+        <path d="M180,135 Q190,150 175,165"/>
+        <path d="M90,210 Q80,225 100,235"/>
+      </g>
+    </g>
+
+    <!-- Texture: textured leather surface (script-specific) — small bumps, soot stipple. -->
+    <g fill="#080404" opacity="0.55">
+      <circle cx="60" cy="70" r="0.7"/>
+      <circle cx="80" cy="100" r="0.6"/>
+      <circle cx="100" cy="80" r="0.5"/>
+      <circle cx="180" cy="110" r="0.6"/>
+      <circle cx="200" cy="80" r="0.7"/>
+      <circle cx="120" cy="180" r="0.5"/>
+      <circle cx="160" cy="220" r="0.6"/>
+      <circle cx="100" cy="240" r="0.5"/>
+      <circle cx="220" cy="180" r="0.6"/>
+    </g>
+    <!-- Highlight catching warm amber on leaf surface (script-specific). -->
+    <g fill="#f5b860" opacity="0.45" filter="url(#p16p4bloom)">
+      <ellipse cx="100" cy="280" rx="40" ry="14"/>
+      <ellipse cx="200" cy="240" rx="30" ry="10"/>
+      <ellipse cx="60" cy="180" rx="20" ry="8"/>
+    </g>
+    <!-- Subtle highlight ridges. -->
+    <g stroke="#a87830" stroke-width="0.5" opacity="0.55" fill="none">
+      <path d="M80,80 Q95,75 110,82"/>
+      <path d="M180,90 Q195,85 210,95"/>
+    </g>
+  </g>
+
+  <!-- LUMA crouched left of leaf, beside it — touching leaf w/ right hand. -->
+  <g id="p16p4-luma" transform="translate(60, 360)">
+
+    <!-- Lower legs (calves tucked, crouched). -->
+    <path d="M-15,60 L-18,90 L-15,118" fill="none" stroke="#1a1058" stroke-width="9" stroke-linecap="round"/>
+    <path d="M15,60 L18,90 L25,118" fill="none" stroke="#1a1058" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="-15" cy="120" rx="9" ry="3" fill="#080408"/>
+    <ellipse cx="25" cy="120" rx="9" ry="3" fill="#080408"/>
+
+    <!-- Thighs raised (knees high). -->
+    <path d="M-15,5 L-15,60 L0,60" fill="url(#p16p4sapphire)" stroke="#080408" stroke-width="0.7"/>
+    <path d="M15,5 L15,60 L0,60" fill="url(#p16p4sapphire)" stroke="#080408" stroke-width="0.7"/>
+
+    <!-- TORSO (slight forward lean — leaning toward leaf). -->
+    <path d="M-22,-30 Q-26,5 -18,30 L18,30 Q26,5 22,-30 L10,-38 L-10,-38 Z" fill="url(#p16p4sapphire)" stroke="#080408" stroke-width="0.7"/>
+    <line x1="0" y1="-26" x2="0" y2="26" stroke="#a890f0" stroke-width="0.7" opacity="0.85" filter="url(#p16p4bloom)"/>
+    <line x1="-18" y1="-22" x2="-18" y2="20" stroke="#a890f0" stroke-width="0.5" opacity="0.7" filter="url(#p16p4bloom)"/>
+    <line x1="18" y1="-22" x2="18" y2="20" stroke="#a890f0" stroke-width="0.5" opacity="0.7" filter="url(#p16p4bloom)"/>
+    <ellipse cx="0" cy="0" rx="24" ry="14" fill="url(#p16p4sapphireGlow)" filter="url(#p16p4strongBloom)" opacity="0.55"/>
+
+    <!-- Shoulder pads. -->
+    <ellipse cx="-22" cy="-28" rx="9" ry="5" fill="#5a3ad8" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-22" cy="-30" rx="5" ry="2.5" fill="#a890f0" opacity="0.7"/>
+    <ellipse cx="22" cy="-28" rx="9" ry="5" fill="#5a3ad8" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="22" cy="-30" rx="5" ry="2.5" fill="#a890f0" opacity="0.7"/>
+    <!-- Fresh impact damage on right shoulder. -->
+    <line x1="20" y1="-26" x2="28" y2="-30" stroke="#080408" stroke-width="0.6"/>
+    <line x1="22" y1="-26" x2="26" y2="-22" stroke="#080408" stroke-width="0.6"/>
+
+    <!-- LEFT arm holding compact medical SCANNER. -->
+    <path d="M-22,-15 L-32,5 L-44,18" fill="none" stroke="url(#p16p4sapphire)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Hand. -->
+    <ellipse cx="-44" cy="20" rx="4" ry="3" fill="#a87850" stroke="#080408" stroke-width="0.4"/>
+    <!-- Scanner device in hand. -->
+    <rect x="-52" y="14" width="14" height="10" rx="1.5" fill="#1a1058" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="-45" cy="19" rx="3" ry="2" fill="#a890f0" opacity="0.85" filter="url(#p16p4bloom)"/>
+    <!-- Scanner readout glyphs. -->
+    <line x1="-50" y1="16" x2="-40" y2="16" stroke="#7af0b0" stroke-width="0.4" opacity="0.85"/>
+    <line x1="-50" y1="22" x2="-40" y2="22" stroke="#7af0b0" stroke-width="0.4" opacity="0.85"/>
+
+    <!-- RIGHT arm REACHING TO TOUCH LEAF (script-specific). -->
+    <path d="M22,-15 L42,5 L60,22 L80,38" fill="none" stroke="url(#p16p4sapphire)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Hand on leaf — fingers spread feeling texture. -->
+    <ellipse cx="80" cy="38" rx="5" ry="3.5" fill="#a87850" stroke="#080408" stroke-width="0.4"/>
+    <!-- Fingers spread on leaf. -->
+    <line x1="80" y1="38" x2="86" y2="32" stroke="#a87850" stroke-width="2" stroke-linecap="round"/>
+    <line x1="80" y1="38" x2="88" y2="38" stroke="#a87850" stroke-width="2" stroke-linecap="round"/>
+    <line x1="80" y1="38" x2="86" y2="44" stroke="#a87850" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- HEAD turned slightly to look at leaf — focused, curious. -->
+    <ellipse cx="2" cy="-50" rx="14" ry="15" fill="#a87850" transform="rotate(-12 2 -50)"/>
+
+    <!-- DARK HAIR in long braid w/ luminous SAPPHIRE FILAMENT (script-specific). -->
+    <g transform="rotate(-12 2 -50)">
+      <!-- Hair top + sides. -->
+      <path d="M-12,-60 Q-2,-66 12,-62 Q14,-54 12,-48 L-12,-48 Z" fill="#1a1018"/>
+      <!-- Center part. -->
+      <path d="M-2,-66 L-2,-58" stroke="#080408" stroke-width="0.6" fill="none"/>
+      <!-- LONG BRAID DOWN RIGHT SIDE (tracking past shoulder). -->
+      <path d="M12,-48 Q18,-30 16,0 L18,30" fill="#1a1018" stroke="#080408" stroke-width="0.4"/>
+      <!-- Braid weave segments. -->
+      <ellipse cx="14" cy="-30" rx="3" ry="3.5" fill="#1a1018" stroke="#080408" stroke-width="0.4"/>
+      <ellipse cx="15" cy="-15" rx="3" ry="3.5" fill="#1a1018" stroke="#080408" stroke-width="0.4"/>
+      <ellipse cx="16" cy="0" rx="3" ry="3.5" fill="#1a1018" stroke="#080408" stroke-width="0.4"/>
+      <ellipse cx="17" cy="15" rx="3" ry="3.5" fill="#1a1018" stroke="#080408" stroke-width="0.4"/>
+      <!-- LUMINOUS SAPPHIRE FILAMENT threaded through braid (script-specific). -->
+      <path d="M12,-48 Q18,-30 16,0 L18,30" fill="none" stroke="#a890f0" stroke-width="0.7" filter="url(#p16p4bloom)" opacity="0.95"/>
+      <!-- Sparkle nodes along filament. -->
+      <g fill="#dce4ff" filter="url(#p16p4bloom)">
+        <circle cx="14" cy="-30" r="0.7"/>
+        <circle cx="15" cy="-15" r="0.7"/>
+        <circle cx="16" cy="0" r="0.7"/>
+        <circle cx="17" cy="15" r="0.7"/>
+      </g>
+      <!-- Highlight on hair top. -->
+      <ellipse cx="0" cy="-64" rx="4" ry="0.8" fill="#3a2810" opacity="0.85"/>
+    </g>
+
+    <!-- HOLOGRAPHIC LENSES (semi-transparent spectral lenses) — large, dominant. -->
+    <ellipse cx="-7" cy="-49" rx="5" ry="3.5" fill="#a890f0" opacity="0.85" stroke="#5a3ad8" stroke-width="0.7"/>
+    <ellipse cx="9" cy="-49" rx="5" ry="3.5" fill="#a890f0" opacity="0.85" stroke="#5a3ad8" stroke-width="0.7"/>
+    <line x1="-2" y1="-49" x2="3" y2="-49" stroke="#5a3ad8" stroke-width="0.7"/>
+    <!-- Geometric data scrolling in lenses. -->
+    <g stroke="#dce4ff" stroke-width="0.4" opacity="0.85" fill="none">
+      <line x1="-11" y1="-50" x2="-3" y2="-50"/>
+      <line x1="-11" y1="-48" x2="-3" y2="-48"/>
+      <line x1="-9" y1="-50" x2="-9" y2="-48"/>
+      <line x1="5" y1="-50" x2="13" y2="-50"/>
+      <line x1="5" y1="-48" x2="13" y2="-48"/>
+      <line x1="11" y1="-50" x2="11" y2="-48"/>
+      <!-- Tiny cross-hairs. -->
+      <line x1="-7" y1="-51" x2="-7" y2="-47"/>
+      <line x1="9" y1="-51" x2="9" y2="-47"/>
+    </g>
+
+    <!-- LARGE EXPRESSIVE EYES visible behind lenses (script-specific). -->
+    <ellipse cx="-7" cy="-49" rx="2" ry="1.6" fill="#3a2810" opacity="0.55"/>
+    <ellipse cx="9" cy="-49" rx="2" ry="1.6" fill="#3a2810" opacity="0.55"/>
+    <circle cx="-7" cy="-50" r="0.6" fill="#080404"/>
+    <circle cx="9" cy="-50" r="0.6" fill="#080404"/>
+    <!-- Catch-light. -->
+    <circle cx="-7" cy="-50" r="0.3" fill="#dce4ff"/>
+    <circle cx="9" cy="-50" r="0.3" fill="#dce4ff"/>
+
+    <!-- Brow soft (curious focus). -->
+    <path d="M-12,-58 Q-7,-60 -2,-58" stroke="#3a1810" stroke-width="0.7" fill="none" transform="rotate(-12 2 -50)"/>
+    <path d="M2,-58 Q7,-60 12,-58" stroke="#3a1810" stroke-width="0.7" fill="none" transform="rotate(-12 2 -50)"/>
+    <!-- Lips slightly parted (intellectual engagement). -->
+    <path d="M-2,-38 Q2,-37 5,-38" stroke="#3a1810" stroke-width="0.8" fill="none" transform="rotate(-12 2 -50)"/>
+    <!-- Cheekbone catch (sapphire from lenses + scanner). -->
+    <ellipse cx="-7" cy="-42" rx="3" ry="1.4" fill="#a890f0" opacity="0.6" filter="url(#p16p4bloom)" transform="rotate(-12 2 -50)"/>
+    <ellipse cx="7" cy="-42" rx="3" ry="1.4" fill="#a890f0" opacity="0.6" filter="url(#p16p4bloom)" transform="rotate(-12 2 -50)"/>
+  </g>
+
+  <!-- HOLO emanation glow rises from face. -->
+  <ellipse cx="65" cy="305" rx="22" ry="14" fill="url(#p16p4holoGlow)" filter="url(#p16p4strongBloom)" opacity="0.65"/>
+
+  <!-- LUMA dialogue (top of frame). -->
+  <g id="p16p4-dlg-luma">
+    <rect x="14" y="14" width="218" height="76" rx="8" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a3ad8" letter-spacing="0.3">LUMA</text>
+    <text x="24" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Air quality is...</text>
+    <text x="24" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">remarkable. Sulfur —</text>
+    <text x="24" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#5a4030">(she stops herself)</text>
+    <path d="M68,90 L86,90 L78,310 Z" fill="#ffffff" stroke="#5a3ad8" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="68" y1="90" x2="86" y2="90" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p16p4-meta">
+    <text x="239" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">4</text>
+    <text x="243" y="552" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">LUMA + LEAF</text>
+  </g>
+</svg>

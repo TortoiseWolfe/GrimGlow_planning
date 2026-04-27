@@ -2,15 +2,15 @@
 
 **Method:** every panel SVG rendered in headless Chromium (mcp/playwright) at its native viewBox. Composed pages rendered at 800×1200 via `<image xlink:href>` panel refs resolved by `index.html` `inlinePanelImages()`. Screenshots in `screenshots/`.
 
-**Last update:** 2026-04-27 (loop session extended — Page 15 added, First Night/Section 4 opener).
+**Last update:** 2026-04-27 (loop session extended — Page 16 added, Setting the Camp/Section 4 continues).
 
 ---
 
 ## TL;DR — current state
 
-**Pages 1–15 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 76 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P13P01–P13P05, P14P01–P14P04, P15P01–P15P05, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
+**Pages 1–16 + 18–22 of Issue 1 are now meeting the quality bar** for hair, dialogue, anatomy, environment, and composition. Earlier failure modes from v1 have been fixed across all 81 painterly panel files (P01P01–P01P06, P02P01–P02P05, P03P01–P03P06, P04P01–P04P04, P05P01–P05P04, P06P01–P06P05, P07P01–P07P05, P08P01–P08P05, P09P01–P09P05, P10P01–P10P05, P11P01–P11P05, P12P01–P12P04, P13P01–P13P05, P14P01–P14P04, P15P01–P15P05, P16P01–P16P05, P18P01–P18P04, P19P01–P19P04, P20P01–P20P04, P21P01–P21P04, P22P01).
 
-**Issue 1 first 15 pages CONTIGUOUS** — Pages 1-15 + Pages 18-22 all painterly. Sections 3 + 4-opener CLOSED. Pages 16-17 remain as middle continuity gaps — 2 pages remaining (20/22 painterly = 91%).
+**Issue 1 first 16 pages CONTIGUOUS** — Pages 1-16 + Pages 18-22 all painterly. Section 4 building. Page 17 is the only middle-continuity gap — 1 page remaining (21/22 painterly = 95%).
 
 **Page 22 (IP-defining cliffhanger) just added** — Single full-page splash. Sable at gutter lip silhouetted against vast Victorian London. Squad behind in iron channel as colored lights. Dying wreckage. Faint last trace of falling star above. Two parchment captions: "They were soldiers from the end of time, stranded at the start of a story." / "The city below would call them fairies." Sums to 1181px.
 
@@ -30,6 +30,8 @@
 
 **Page 19 (squad re-forms + scale pull-back)** — 4 panels, 1179px.
 
+**Page 16 (Setting the Camp — Section 4 continues)** — 5 panels, 1179px (3-col top / narrow+wide bottom). Sable directs ops worm's-eye + Thresh perimeter w/ 7° dutch + Jink wing-pack launch w/ emerald contrails / Luma + enormous oak leaf cataloguing + wide cross-section gutter scene with squad working as military camp in absurd terrain.
+
 **Page 15 (First Night — Section 4 opener)** — 5 panels, 1179px (banner / 2-col / wide+narrow). Gutter establishing wide w/ 5 squad scattered + Thresh hypervigilant + Jink at lip with grin + Wren+Luma at temporal drive + crystal ECU. Caption: "The city does not know they are here." Sets first quiet moment after the chase.
 
 **Page 14 (Threshold — Section 3 closer)** — 4 panels, 1179px (banner / 2-col / banner footer). Squad at threshold facing Victorian city; echoes Page 22 final splash from wider angle.
@@ -42,7 +44,7 @@
 
 **Page 9 (THE SCALE REVEAL — opening Section 3 build)** — 5 panels, 1179px.
 
-**Pages 16-17 of Issue 1 remain auto-generated stick-figure storyboards.** (2 pages remaining of 22 = 20/22 painterly + 2/22 storyboard ≈ 91%.)
+**Page 17 of Issue 1 remains auto-generated stick-figure storyboard.** (1 page remaining of 22 = 21/22 painterly + 1/22 storyboard ≈ 95%.)
 
 **Issues 2–12 have script prompts only**, no wireframes yet.
 
@@ -246,6 +248,99 @@ Cascading vertical descent layout — 4 panels totaling 1181px page-fill.
 - ✅ Cool reflection from star meets warm pool from lamp on wet cobbles — dual-lighting visual language begins
 - ✅ Caption "London, 1886." top-left, parchment-style
 - ✅ Empty street — no figures (witnesses arrive Page 5)
+
+---
+
+## Page 16 — DONE (Section 4 continues — Setting the Camp)
+
+5 panels in 2 tiers (3 equal thirds top / narrow+wide bottom) summing to 1179px page-fill. The squad organizes after the first quiet beat — Sable issues orders, the squad fans out: Thresh perimeter, Jink airborne recon, Luma cataloguing the alien environment, all four working as a coordinated unit despite the absurd terrain.
+
+### P16P01 — Sable directing operations, worm's-eye command (247×550)
+- ✅ Medium shot worm's-eye 35mm — Sable LOOMS dominant, head near top, boots near bottom
+- ✅ Pointing decisively to roof-side wall w/ left hand (extends off-frame)
+- ✅ Behind: dark sky + chimney stack towering above w/ smoke trail backlit amber
+- ✅ Distant rooflines silhouetted left
+- ✅ Cracked right shoulder panel BLEEDS bright blue-white through fracture lines (script-specific)
+- ✅ Particle sparks at fracture
+- ✅ Silver-white cropped buzz hair w/ stipple
+- ✅ Dark brown skin, defined cheekbones, jaw set, no grief
+- ✅ Cool blue-white catches underside of jaw + silver of hair (script-specific)
+- ✅ Warm amber from below catches suit waist-down (script-specific)
+- ✅ Authority dual-light
+- ✅ SABLE multi-line dialogue: "Thresh — perimeter. Jink — high ground, three-sixty scan. Nobody sleeps." (italic on closer)
+
+### P16P02 — Thresh perimeter check w/ 7° dutch (247×550)
+- ✅ Medium shot eye-level w/ 7° DUTCH ANGLE on entire BG + figure
+- ✅ Welsh slate roof tiles rise like cliff face behind w/ wet slick highlights
+- ✅ Iron gutter wall foreground w/ rivets + soot streaks
+- ✅ Curved gutter rim w/ warm amber catch
+- ✅ Thresh standing along perimeter, hand on rim testing structural integrity
+- ✅ Right hand resting on weapon at hip (script-specific) — visible compact rifle
+- ✅ Power-node glow on weapon
+- ✅ Sling line visible
+- ✅ Pale skin, defined cheekbones, copper-red buzz cap
+- ✅ Eyes shifted right (scanning too quickly per script)
+- ✅ Brow set hard + tension lines
+- ✅ Dented left pauldron
+- ✅ Crimson holographic accents at suit nodes
+- ✅ Warm amber from below reflected on slate
+- ✅ Thresh's shadow stretches along curved gutter wall
+- ✅ Dialogue OUTSIDE rotated frame (axis-aligned, stays in viewBox)
+- ✅ THRESH: "Perimeter is... a gutter."
+- ✅ SABLE (off, dashed): "Make it work, Thresh."
+- ✅ THRESH: "Copy."
+
+### P16P03 — Jink wing-pack launch, bird's-eye (247×550)
+- ✅ Medium wide bird's-eye 35mm
+- ✅ Jink suspended mid-leap from cast-iron gutter lip
+- ✅ Wing-pack DEPLOYED — 4 translucent dragonfly wings with geometric lattice ribs
+- ✅ Brilliant emerald geometric center bloom (wing-pack source — BRIGHTEST in panel)
+- ✅ Trailing geometric emerald contrails (3 sweeping curves + angular glyph shapes)
+- ✅ Particle sparks
+- ✅ Wind-tossed golden curly hair
+- ✅ Zero hesitation pose (knees tucked, arms back, slight smile — pure function)
+- ✅ Below: gutter w/ 3 squad members visible as colored dots (Sable silver, Wren copper, Luma sapphire)
+- ✅ Wreckage cool glow
+- ✅ Vast city before — chimney stacks, slate ridges, weathervanes (script-specific), distant church spire silhouette, gas-lamp pinpricks
+- ✅ Warm amber city-glow rises from far below
+- ✅ No dialogue per script
+
+### P16P04 — Luma + enormous oak leaf close-up (247×560)
+- ✅ Close-up eye level 85mm
+- ✅ Enormous DEAD OAK LEAF dominates right of frame (lobed edges, decay tones, curl edge top-right)
+- ✅ Veins LIKE ROADS — main midrib + lateral branches + tertiary network
+- ✅ Texture like leather (small bumps + soot stipple)
+- ✅ Warm amber catches surface highlights (script-specific)
+- ✅ Luma crouched left of leaf
+- ✅ Holographic spectral lenses semi-transparent (script-specific) w/ scrolling blue-violet geometric data + cross-hairs
+- ✅ Large expressive eyes visible behind floating lenses
+- ✅ Long braid down right shoulder w/ luminous SAPPHIRE FILAMENT threaded through (script-specific) + sparkle nodes
+- ✅ Sapphire-violet metallic suit w/ fresh impact damage on right shoulder
+- ✅ One hand holds compact medical scanner (left, w/ glow + readout glyphs)
+- ✅ Other hand touches leaf w/ fingers spread feeling texture (right, script-specific)
+- ✅ Sapphire holo emanation rises from face
+- ✅ Cheekbone catches sapphire light
+- ✅ LUMA: "Air quality is... remarkable. Sulfur —" (italic + parenthetical "(she stops herself)")
+
+### P16P05 — Wide cross-section gutter scene (487×560)
+- ✅ Wide shot 28mm cross-section
+- ✅ Welsh slate roof rises like cliff face LEFT w/ tile rows + diagonal seams + wet slick highlights + chimney pots top
+- ✅ Vast Victorian cityscape RIGHT — distant chimney stacks + church spire silhouette + closer rooflines + amber city-fog
+- ✅ Pinprick gas-lamps along horizon
+- ✅ Distant chimney smoke wisps
+- ✅ Curved iron gutter channel CENTER w/ rim, rivets, lip drop to city right
+- ✅ Debris in gutter — twigs, dead leaves, soot piles (script-specific)
+- ✅ LARGEST WRECKAGE PIECE center w/ hex housing + gold seam + crystal exposed (cyan glow)
+- ✅ Smaller wreckage pieces scattered
+- ✅ Sable silver + Wren copper standing center near largest wreckage (script-specific)
+- ✅ Thresh ruby BG-left patrolling perimeter
+- ✅ Luma sapphire FG with tiny leaf next to her (works in foreground)
+- ✅ Jink airborne off-panel (per script)
+- ✅ Cracked Sable shoulder bleeds bright (continuity with P16P01)
+- ✅ Sapphire filament glows along Luma's braid
+- ✅ DUAL LIGHTING OVERLAP on iron + debris — cool cyan wash left + warm amber wash right (script-specific)
+- ✅ Military camp improvised functional professional vibe
+- ✅ SABLE: "Luma, casualty report. Wren, drive assessment in ten." / italic: "We work with what we have."
 
 ---
 

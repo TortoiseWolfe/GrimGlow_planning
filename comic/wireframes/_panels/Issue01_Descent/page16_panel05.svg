@@ -1,0 +1,294 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 560" width="487" height="560">
+  <title>Issue 1 — Page 16 — Panel 5: Wide cross-section gutter scene — military camp in absurdity</title>
+  <desc>Wide shot 28mm cross-section view of rain gutter from the side. Curved cast-iron channel w/ dead leaf debris, soot, twigs, scattered alien wreckage. LEFT: Welsh slate roof tiles rise like cliff face, dark + slick. RIGHT: gutter lip drops to vast gaslit Victorian cityscape sprawling to horizon — amber fog, chimney smoke, church spires, gaslight dots along dark streets. Four squad work in gutter (Jink airborne off-panel): Sable+Wren in center near largest wreckage, Thresh patrols BG, Luma works FG. Military camp improvised functional professional. Warm amber from city right + cool holo from left — dual lighting overlapping on iron + debris. SABLE: "Luma, casualty report. Wren, I need that drive assessment in ten. We work with what we have."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p16p5sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a18"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p16p5slate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1820"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </linearGradient>
+    <linearGradient id="p16p5iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p16p5cityFog" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <radialGradient id="p16p5amberCity" cx="100%" cy="100%" r="120%">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p5wreckCool">
+      <stop offset="0%" stop-color="#7af0f0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a3050" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p16p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p16p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p16p5deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- Sky background. -->
+  <rect width="487" height="560" fill="url(#p16p5sky)"/>
+
+  <!-- Stars top-center. -->
+  <g fill="#dce4f0" opacity="0.65">
+    <circle cx="40" cy="22" r="0.6"/>
+    <circle cx="120" cy="15" r="0.5"/>
+    <circle cx="200" cy="22" r="0.6"/>
+    <circle cx="280" cy="15" r="0.5"/>
+    <circle cx="360" cy="22" r="0.6"/>
+    <circle cx="440" cy="40" r="0.4"/>
+  </g>
+
+  <!-- LEFT SIDE — WELSH SLATE ROOF rising LIKE A CLIFF (script-specific). -->
+  <g id="p16p5-slate-cliff">
+    <!-- Cliff face. -->
+    <path d="M0,0 L0,400 L40,360 L80,300 L100,240 L120,180 L130,120 L120,60 L100,0 Z" fill="url(#p16p5slate)"/>
+    <!-- Slate tile rows visible diagonal. -->
+    <g stroke="#0a0810" stroke-width="0.5" opacity="0.85">
+      <line x1="0" y1="60" x2="120" y2="60"/>
+      <line x1="0" y1="120" x2="130" y2="120"/>
+      <line x1="0" y1="180" x2="120" y2="180"/>
+      <line x1="0" y1="240" x2="100" y2="240"/>
+      <line x1="0" y1="300" x2="80" y2="300"/>
+      <line x1="0" y1="360" x2="40" y2="360"/>
+    </g>
+    <!-- Diagonal seams. -->
+    <g stroke="#0a0810" stroke-width="0.4" opacity="0.7">
+      <line x1="20" y1="60" x2="30" y2="120"/>
+      <line x1="60" y1="120" x2="70" y2="180"/>
+      <line x1="40" y1="180" x2="50" y2="240"/>
+      <line x1="80" y1="240" x2="90" y2="300"/>
+      <line x1="20" y1="300" x2="30" y2="360"/>
+    </g>
+    <!-- Wet slick highlights. -->
+    <g stroke="#3a3838" stroke-width="0.5" opacity="0.55" fill="none">
+      <line x1="40" y1="80" x2="80" y2="80"/>
+      <line x1="60" y1="140" x2="100" y2="140"/>
+      <line x1="40" y1="200" x2="80" y2="200"/>
+      <line x1="60" y1="260" x2="80" y2="260"/>
+    </g>
+    <!-- Distant chimney pots top of cliff. -->
+    <g fill="#0a0810">
+      <rect x="40" y="-22" width="6" height="22"/>
+      <rect x="55" y="-26" width="6" height="26"/>
+      <rect x="70" y="-22" width="6" height="22"/>
+    </g>
+    <!-- Smoke from cliff chimney. -->
+    <ellipse cx="60" cy="-35" rx="35" ry="14" fill="#3a2818" opacity="0.55" filter="url(#p16p5strongBloom)"/>
+  </g>
+
+  <!-- RIGHT SIDE — VAST GASLIT VICTORIAN CITYSCAPE sprawling to horizon. -->
+  <g id="p16p5-cityscape">
+    <!-- Distant city silhouette w/ chimneys + spires. -->
+    <path d="M280,300 L300,290 L310,275 L320,290 L340,288 L350,265 L360,288 L380,295 L400,280 L410,260 L420,280 L440,285 L460,270 L470,285 L487,290 L487,400 L280,400 Z" fill="#0a0810" opacity="0.85"/>
+    <!-- Distant chimneys. -->
+    <g fill="#0a0810">
+      <rect x="306" y="270" width="3" height="6"/>
+      <rect x="346" y="260" width="4" height="8"/>
+      <rect x="408" y="255" width="4" height="8"/>
+      <rect x="468" y="266" width="3" height="6"/>
+    </g>
+    <!-- Church spire silhouette. -->
+    <path d="M388,285 L391,250 L394,285 Z" fill="#0a0810"/>
+    <rect x="389" y="285" width="6" height="14" fill="#0a0810"/>
+    <!-- Closer rooflines. -->
+    <path d="M280,340 L320,330 L360,346 L400,332 L440,346 L487,340 L487,400 L280,400 Z" fill="#0a0810" opacity="0.9"/>
+
+    <!-- Strong amber CITY-FOG glow from below-right (script-specific). -->
+    <ellipse cx="440" cy="500" rx="280" ry="180" fill="url(#p16p5amberCity)" filter="url(#p16p5deepBloom)" opacity="0.95"/>
+    <!-- City fog band. -->
+    <rect x="280" y="380" width="207" height="60" fill="url(#p16p5cityFog)" opacity="0.55"/>
+    <!-- Pinprick gas-lamps along roof horizon. -->
+    <g fill="#f5b860" filter="url(#p16p5bloom)">
+      <circle cx="320" cy="376" r="1.6" opacity="0.85"/>
+      <circle cx="370" cy="382" r="1.7" opacity="0.85"/>
+      <circle cx="420" cy="378" r="1.6" opacity="0.85"/>
+      <circle cx="460" cy="380" r="1.5" opacity="0.85"/>
+    </g>
+    <!-- Distant chimney smoke wisps. -->
+    <g fill="#a85820" opacity="0.45" filter="url(#p16p5bloom)">
+      <ellipse cx="350" cy="320" rx="14" ry="6"/>
+      <ellipse cx="412" cy="316" rx="12" ry="5"/>
+    </g>
+  </g>
+
+  <!-- THE GUTTER CHANNEL CENTER — curved iron channel cross-section. -->
+  <g id="p16p5-gutter">
+    <!-- Far gutter wall (back). -->
+    <path d="M120,400 Q243,395 280,400 L280,440 L120,440 Z" fill="url(#p16p5iron)"/>
+    <!-- Gutter floor (bottom of channel curve). -->
+    <path d="M120,440 Q243,470 280,440 L280,520 L120,520 Z" fill="#1a0808"/>
+    <!-- Front rim/lip (closer to camera). -->
+    <path d="M120,400 Q120,440 130,520 L60,560 L0,560 L0,400 Z" fill="url(#p16p5iron)" opacity="0.85"/>
+    <!-- Gutter rim line (where surface curls). -->
+    <path d="M120,400 Q243,395 280,400" fill="none" stroke="#080404" stroke-width="1.4"/>
+    <!-- Warm amber rim catch. -->
+    <path d="M120,400 Q243,395 280,400" fill="none" stroke="#f5b860" stroke-width="1.2" opacity="0.85" filter="url(#p16p5bloom)"/>
+    <!-- Rivets along iron. -->
+    <g fill="#080404" opacity="0.85">
+      <circle cx="150" cy="395" r="1.5"/>
+      <circle cx="220" cy="396" r="1.5"/>
+      <circle cx="260" cy="396" r="1.5"/>
+    </g>
+    <!-- Gutter lip drop (right side — falling away to city). -->
+    <path d="M280,400 L280,480 L300,520 L320,540 L340,545 L487,560 L487,400 Z" fill="#080404" opacity="0.85"/>
+  </g>
+
+  <!-- DEBRIS in gutter — dead leaves + twigs + soot + wreckage (script-specific). -->
+  <g id="p16p5-debris">
+    <!-- Twig. -->
+    <path d="M180,440 Q200,450 240,448 L260,455" stroke="#3a1808" stroke-width="2" fill="none"/>
+    <!-- Dead leaves. -->
+    <g fill="#5a3018" opacity="0.85">
+      <path d="M150,450 Q160,440 175,452 Q170,465 158,463 Z"/>
+      <path d="M190,460 Q200,450 215,462 Q210,475 198,473 Z"/>
+      <path d="M250,455 Q260,445 270,455 L262,470 Z"/>
+    </g>
+    <!-- Soot piles. -->
+    <g fill="#080404" opacity="0.75">
+      <ellipse cx="160" cy="475" rx="14" ry="3"/>
+      <ellipse cx="225" cy="478" rx="20" ry="3"/>
+      <ellipse cx="270" cy="475" rx="14" ry="3"/>
+    </g>
+    <!-- LARGEST WRECKAGE PIECE center (where Sable+Wren stand). -->
+    <g id="p16p5-wreckage" transform="translate(220, 430)">
+      <!-- Hex housing piece. -->
+      <path d="M-22,0 L-12,12 L12,12 L22,0 L12,-8 L-12,-8 Z" fill="#a8a0a8" stroke="#1a1818" stroke-width="0.8"/>
+      <!-- Gold seam. -->
+      <path d="M-22,0 L-12,-8 L12,-8 L22,0" fill="none" stroke="#f5d860" stroke-width="1" filter="url(#p16p5bloom)"/>
+      <!-- Cool wreckage glow. -->
+      <ellipse cx="0" cy="0" rx="20" ry="10" fill="url(#p16p5wreckCool)" filter="url(#p16p5strongBloom)" opacity="0.7"/>
+      <!-- Crystal exposed. -->
+      <polygon points="-4,-2 4,-2 6,4 0,8 -6,4" fill="#7af0f0" opacity="0.85" filter="url(#p16p5bloom)"/>
+    </g>
+    <!-- Smaller wreckage pieces. -->
+    <g>
+      <path d="M150,432 L165,432 L160,440 Z" fill="#5a606a"/>
+      <ellipse cx="158" cy="436" rx="6" ry="2" fill="#7af0f0" opacity="0.5" filter="url(#p16p5bloom)"/>
+      <path d="M270,435 L280,438 L275,445 Z" fill="#5a606a"/>
+      <ellipse cx="275" cy="440" rx="5" ry="2" fill="#7af0f0" opacity="0.5" filter="url(#p16p5bloom)"/>
+    </g>
+  </g>
+
+  <!-- SQUAD MEMBERS in the gutter (4 figures — Jink is airborne off-panel per script). -->
+
+  <!-- THRESH (BG, patrols perimeter — small, on far side of gutter). -->
+  <g id="p16p5-thresh" transform="translate(170, 400)">
+    <!-- Body silhouette small. -->
+    <path d="M-7,12 Q-8,4 -7,-5 L-3,-8 L4,-8 Q5,4 7,12 Z" fill="#a8182a" stroke="#080408" stroke-width="0.5"/>
+    <!-- Crimson glow. -->
+    <ellipse cx="0" cy="0" rx="9" ry="5" fill="#f54848" opacity="0.55" filter="url(#p16p5bloom)"/>
+    <!-- Legs. -->
+    <path d="M-3,12 L-4,22" fill="none" stroke="#5a1018" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M3,12 L4,22" fill="none" stroke="#5a1018" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-13" rx="4.5" ry="5" fill="#d8a880"/>
+    <!-- Buzz. -->
+    <path d="M-4,-16 Q0,-19 4,-16 L4,-12 L-4,-12 Z" fill="#a83a18"/>
+    <!-- Arms one on weapon at hip. -->
+    <line x1="-7" y1="-3" x2="-12" y2="6" stroke="#a8182a" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="7" y1="-3" x2="11" y2="6" stroke="#a8182a" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- SABLE + WREN center near largest wreckage (script-specific). -->
+  <g id="p16p5-sable" transform="translate(206, 415)">
+    <!-- Sable body. -->
+    <path d="M-7,10 Q-9,2 -7,-7 L-3,-10 L4,-10 Q5,2 7,10 Z" fill="url(#p16p5iron)" stroke="#080408" stroke-width="0.6"/>
+    <path d="M-7,10 Q-9,2 -7,-7 L-3,-10 L4,-10 Q5,2 7,10 Z" fill="#a8b0c0"/>
+    <!-- Cracked shoulder bleed bright. -->
+    <ellipse cx="6" cy="-9" rx="5" ry="3" fill="#dce4ff" opacity="0.85" filter="url(#p16p5bloom)"/>
+    <!-- Body + legs. -->
+    <path d="M-3,10 L-4,22" fill="none" stroke="#3a3a45" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M3,10 L4,22" fill="none" stroke="#3a3a45" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-15" rx="4.5" ry="5" fill="#5a3818"/>
+    <!-- Silver hair. -->
+    <path d="M-4,-18 Q0,-21 4,-18 L4,-14 L-4,-14 Z" fill="#c8ccd4"/>
+    <!-- Arms (one pointing toward wreckage). -->
+    <line x1="-7" y1="-5" x2="-13" y2="0" stroke="#a8b0c0" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="7" y1="-5" x2="14" y2="2" stroke="#a8b0c0" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g id="p16p5-wren" transform="translate(238, 415)">
+    <path d="M-7,10 Q-9,2 -7,-7 L-3,-10 L4,-10 Q5,2 7,10 Z" fill="#c87a35" stroke="#080408" stroke-width="0.6"/>
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#f5a868" opacity="0.55" filter="url(#p16p5bloom)"/>
+    <!-- Legs. -->
+    <path d="M-3,10 L-4,22" fill="none" stroke="#5a3010" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M3,10 L4,22" fill="none" stroke="#5a3010" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Head. -->
+    <ellipse cx="0" cy="-15" rx="4.5" ry="5" fill="#d8b088"/>
+    <!-- Black knot. -->
+    <path d="M-4,-18 Q0,-21 4,-18 L4,-14 L-4,-14 Z" fill="#0a0a14"/>
+    <ellipse cx="-4" cy="-13" rx="2" ry="2" fill="#0a0a14"/>
+    <!-- Arms (one toward wreckage). -->
+    <line x1="-7" y1="-5" x2="-12" y2="2" stroke="#5a3010" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="7" y1="-5" x2="13" y2="0" stroke="#5a3010" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- LUMA in foreground (script: works in foreground). Closer to camera, slightly larger. -->
+  <g id="p16p5-luma" transform="translate(80, 470)">
+    <!-- Body. -->
+    <path d="M-9,15 Q-12,4 -10,-7 L-4,-10 L4,-10 Q12,4 9,15 Z" fill="url(#p16p5sapphire)" stroke="#080408" stroke-width="0.7"/>
+    <path d="M-9,15 Q-12,4 -10,-7 L-4,-10 L4,-10 Q12,4 9,15 Z" fill="#5a3ad8"/>
+    <ellipse cx="0" cy="0" rx="10" ry="6" fill="#a890f0" opacity="0.55" filter="url(#p16p5bloom)"/>
+    <!-- Legs (crouched). -->
+    <path d="M-5,15 L-6,28" fill="none" stroke="#1a1058" stroke-width="4" stroke-linecap="round"/>
+    <path d="M5,15 L6,28" fill="none" stroke="#1a1058" stroke-width="4" stroke-linecap="round"/>
+    <!-- Head w/ braid. -->
+    <ellipse cx="0" cy="-16" rx="5" ry="6" fill="#a87850"/>
+    <path d="M-5,-20 Q0,-23 5,-20 L5,-16 L-5,-16 Z" fill="#1a1018"/>
+    <!-- Braid down right shoulder. -->
+    <path d="M5,-15 Q7,-5 6,5" fill="none" stroke="#1a1018" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Sapphire filament glow. -->
+    <path d="M5,-15 Q7,-5 6,5" fill="none" stroke="#a890f0" stroke-width="0.6" filter="url(#p16p5bloom)" opacity="0.85"/>
+    <!-- Holo lens glints on face. -->
+    <ellipse cx="-2" cy="-16" rx="1.5" ry="1" fill="#a890f0" opacity="0.85"/>
+    <ellipse cx="2" cy="-16" rx="1.5" ry="1" fill="#a890f0" opacity="0.85"/>
+    <!-- Arms — one with scanner reaching to leaf. -->
+    <line x1="-9" y1="-5" x2="-15" y2="0" stroke="#5a3ad8" stroke-width="3" stroke-linecap="round"/>
+    <!-- Scanner glow at hand. -->
+    <ellipse cx="-15" cy="0" rx="3" ry="2" fill="#a890f0" opacity="0.85" filter="url(#p16p5bloom)"/>
+    <line x1="9" y1="-5" x2="14" y2="2" stroke="#5a3ad8" stroke-width="3" stroke-linecap="round"/>
+    <!-- Tiny leaf next to Luma (FG). -->
+    <path d="M22,-2 Q30,-8 38,-2 Q34,8 26,6 Z" fill="#5a3018" opacity="0.85"/>
+    <line x1="26" y1="-2" x2="36" y2="2" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <linearGradient id="p16p5sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#5a3ad8"/>
+    <stop offset="100%" stop-color="#1a1058"/>
+  </linearGradient>
+
+  <!-- DUAL LIGHTING overlap on iron + debris (script-specific). -->
+  <!-- Cool holo wash on left side of gutter. -->
+  <ellipse cx="180" cy="450" rx="100" ry="40" fill="#7af0f0" opacity="0.18" filter="url(#p16p5strongBloom)"/>
+  <!-- Warm amber wash on right side of gutter. -->
+  <ellipse cx="270" cy="455" rx="100" ry="40" fill="#f5b860" opacity="0.25" filter="url(#p16p5strongBloom)"/>
+
+  <!-- SABLE dialogue (top-center). -->
+  <g id="p16p5-dlg-sable">
+    <rect x="84" y="14" width="320" height="76" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="94" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="94" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Luma, casualty report. Wren,</text>
+    <text x="94" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">drive assessment in ten.</text>
+    <text x="94" y="85" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">We work with what we have.</text>
+    <path d="M196,90 L214,90 L210,400 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="196" y1="90" x2="214" y2="90" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p16p5-meta">
+    <text x="479" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">5</text>
+    <text x="483" y="552" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">CROSS-SECTION GUTTER</text>
+  </g>
+</svg>
