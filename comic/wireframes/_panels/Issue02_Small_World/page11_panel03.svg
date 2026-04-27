@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 400" width="245" height="400">
+  <title>Issue 2 — Page 11 — Panel 3: First contact, copper-gold pulse through dead channels</title>
+  <desc>ECU 85mm fingertips press dark grey-black hull plating etched geometric channels. At point of contact faint pulse copper-gold light bleeds through dead channels — geometric structured travelling few inches along etched grooves before fading back to dark. First alien light on wreckage barely there already dying real. Hand presses harder after flicker. WREN barely audible there you are.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p11p3hull" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a44"/>
+      <stop offset="50%" stop-color="#1a1a20"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p11p3copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86528"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <radialGradient id="p11p3copperPulse">
+      <stop offset="0%" stop-color="#f0a868" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#c87a35" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#5a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p11p3goldFade">
+      <stop offset="0%" stop-color="#f0d878" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a86528" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p11p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p11p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p11p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG hull surface fills frame. -->
+  <rect width="245" height="400" fill="url(#p11p3hull)"/>
+
+  <!-- Surface fracture texture. -->
+  <g stroke="#080404" stroke-width="0.7" fill="none" opacity="0.85">
+    <path d="M30,50 L50,80 L70,100 L100,140"/>
+    <path d="M180,30 L160,60 L150,90 L170,130"/>
+    <path d="M40,200 L60,230 L80,250"/>
+    <path d="M200,200 L180,240 L200,280"/>
+    <path d="M30,330 L60,360 L100,380"/>
+    <path d="M210,330 L180,360 L150,380"/>
+  </g>
+
+  <!-- ETCHED HOLOGRAPHIC CHANNELS (dead grooves, dark). -->
+  <g stroke="#080404" stroke-width="0.85" fill="none">
+    <path d="M0,180 L80,180 L100,200 L120,200 L140,220 L180,220 L200,240 L245,240"/>
+    <path d="M0,240 L60,240 L80,260 L130,260 L150,280 L245,280"/>
+    <path d="M0,140 L40,140 L60,160 L100,160 L120,180"/>
+    <!-- Hex nodes along channels. -->
+    <path d="M75,177 L80,174 L85,177 L85,183 L80,186 L75,183 Z"/>
+    <path d="M115,197 L120,194 L125,197 L125,203 L120,206 L115,203 Z"/>
+    <path d="M175,217 L180,214 L185,217 L185,223 L180,226 L175,223 Z"/>
+    <path d="M75,237 L80,234 L85,237 L85,243 L80,246 L75,243 Z"/>
+    <path d="M125,257 L130,254 L135,257 L135,263 L130,266 L125,263 Z"/>
+  </g>
+
+  <!-- COPPER-GOLD PULSE — at hand contact point center-frame. -->
+  <g id="p11p3-pulse">
+    <!-- Glow halo. -->
+    <ellipse cx="122" cy="200" rx="100" ry="40" fill="url(#p11p3copperPulse)" filter="url(#p11p3deepBloom)" opacity="0.95"/>
+    <!-- Channels lit copper-gold (those closest to contact point). -->
+    <g stroke="#f0a868" stroke-width="1" fill="none" opacity="0.95" filter="url(#p11p3bloom)">
+      <path d="M50,180 L80,180 L100,200 L120,200 L140,220 L180,220"/>
+      <path d="M50,240 L60,240 L80,260 L130,260 L150,280"/>
+      <path d="M40,140 L40,140 L60,160 L100,160 L120,180"/>
+    </g>
+    <!-- Hex nodes lit. -->
+    <g fill="#f0d878" opacity="0.95" filter="url(#p11p3bloom)">
+      <path d="M75,177 L80,174 L85,177 L85,183 L80,186 L75,183 Z"/>
+      <path d="M115,197 L120,194 L125,197 L125,203 L120,206 L115,203 Z"/>
+      <path d="M75,237 L80,234 L85,237 L85,243 L80,246 L75,243 Z"/>
+      <path d="M125,257 L130,254 L135,257 L135,263 L130,266 L125,263 Z"/>
+    </g>
+    <!-- Bright contact spot. -->
+    <ellipse cx="122" cy="200" rx="14" ry="6" fill="#f0d878" filter="url(#p11p3strongBloom)" opacity="0.95"/>
+    <!-- Fading pulse trails at edges. -->
+    <g stroke="#f0a868" stroke-width="0.7" fill="none" opacity="0.45" filter="url(#p11p3bloom)">
+      <path d="M180,220 L200,240"/>
+      <path d="M150,280 L200,280"/>
+    </g>
+  </g>
+
+  <!-- WREN'S HAND — copper-suited, fingertips pressing into hull center. -->
+  <g id="p11p3-hand">
+    <!-- Forearm coming from upper-right. -->
+    <path d="M245,80 L245,180 L160,200 L155,170 L240,100 Z" fill="url(#p11p3copper)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Suit cuff. -->
+    <line x1="245" y1="160" x2="160" y2="195" stroke="#f0a868" stroke-width="0.85" opacity="0.85"/>
+    <!-- Oil stain on forearm (continuity). -->
+    <ellipse cx="200" cy="140" rx="8" ry="3" fill="#1a0808" opacity="0.85"/>
+    <ellipse cx="220" cy="160" rx="6" ry="2.5" fill="#1a0808" opacity="0.85"/>
+
+    <!-- Hand. -->
+    <path d="M155,170 L160,200 L130,210 L120,205 L100,200 L100,180 L120,170 L140,165 Z" fill="url(#p11p3copper)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Fingers curled into pressing fingertips. -->
+    <path d="M100,200 L94,210 L98,220 L108,218 L110,205 Z" fill="url(#p11p3copper)" stroke="#080404" stroke-width="0.6"/>
+    <path d="M110,205 L106,218 L114,222 L122,218 L122,200 Z" fill="url(#p11p3copper)" stroke="#080404" stroke-width="0.6"/>
+    <path d="M122,200 L120,218 L130,220 L136,213 L134,200 Z" fill="url(#p11p3copper)" stroke="#080404" stroke-width="0.6"/>
+    <path d="M134,200 L130,210 L140,212 L146,205 L142,195 Z" fill="url(#p11p3copper)" stroke="#080404" stroke-width="0.6"/>
+
+    <!-- Knuckle highlights (pressing harder). -->
+    <g fill="#f0a868" opacity="0.85" filter="url(#p11p3bloom)">
+      <ellipse cx="105" cy="208" rx="3" ry="1.4"/>
+      <ellipse cx="118" cy="208" rx="3" ry="1.4"/>
+      <ellipse cx="130" cy="208" rx="3" ry="1.4"/>
+      <ellipse cx="140" cy="206" rx="3" ry="1.4"/>
+    </g>
+
+    <!-- Fingertip contact glow (where the pulse begins). -->
+    <g fill="url(#p11p3goldFade)" filter="url(#p11p3bloom)" opacity="0.85">
+      <ellipse cx="100" cy="218" rx="6" ry="3"/>
+      <ellipse cx="114" cy="220" rx="6" ry="3"/>
+      <ellipse cx="128" cy="218" rx="6" ry="3"/>
+      <ellipse cx="140" cy="212" rx="6" ry="3"/>
+    </g>
+
+    <!-- Geometric hex on glove back (suit signature). -->
+    <g stroke="#f0a868" stroke-width="0.6" fill="none" opacity="0.95" filter="url(#p11p3bloom)">
+      <path d="M125,180 L130,177 L135,180 L135,186 L130,189 L125,186 Z"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — WREN barely audible. -->
+  <g id="p11p3-bal-wren">
+    <rect x="14" y="320" width="220" height="46" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="340" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="68" y="340" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(barely audible)</text>
+    <text x="24" y="360" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a" font-style="italic">There you are.</text>
+    <path d="M120,366 L134,366 L128,378 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="366" x2="134" y2="366" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p11p3-meta">
+    <text x="237" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">3</text>
+    <text x="241" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">FIRST CONTACT</text>
+  </g>
+</svg>
