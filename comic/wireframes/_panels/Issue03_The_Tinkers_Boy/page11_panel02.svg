@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 11 — Panel 2: MCU Theodore points up, growing ease, "nobody comes nobody checks"</title>
+  <desc>MCU 50mm eye level. Theodore crouched at workbench level, gesturing UPWARD with one hand toward ceiling, other flat on bench surface. Boy of twelve with sandy hair, wide hazel eyes animated + catching candlelight, freckles. Earnest, warming into conversation — shyness replaced by eagerness of someone who has not had interesting conversation in long time. Points upward to indicate room above. Warm amber on face. Relief of being heard.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p11p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p11p2candleHalo" cx="100%" cy="40%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p11p2bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p11p2theoSkin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p11p2theoSkinWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="p11p2theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p11p2theoVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p11p2brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p11p2bg)"/>
+  <rect width="366" height="364" fill="url(#p11p2candleHalo)" opacity="0.85"/>
+
+  <!-- Bench surface at lower frame. -->
+  <rect x="0" y="320" width="366" height="44" fill="url(#p11p2bench)"/>
+  <line x1="0" y1="328" x2="366" y2="328" stroke="#1a0c04" stroke-width="0.85"/>
+
+  <!-- HAND ON BENCH (image-left, palm flat on surface). -->
+  <g>
+    <path d="M40,310 Q70,304 110,302 L150,302 Q170,306 180,316 L180,326 Q150,328 100,326 L40,322 Z" fill="url(#p11p2theoSkin)"/>
+    <ellipse cx="100" cy="316" rx="20" ry="3" fill="#1a0e06" opacity="0.32"/>
+    <!-- Brass gear ring. -->
+    <ellipse cx="50" cy="316" rx="6" ry="3" fill="url(#p11p2brass)"/>
+    <ellipse cx="50" cy="316" rx="6" ry="3" fill="none" stroke="#5a3018" stroke-width="0.4"/>
+    <ellipse cx="50" cy="316" rx="2.5" ry="1.5" fill="#3a2010"/>
+  </g>
+
+  <!-- ARM RAISED UP — pointing toward ceiling. -->
+  <g>
+    <!-- Coat sleeve coming UP. -->
+    <path d="M260,228 Q256,200 254,170 L266,168 Q272,200 274,228 Z" fill="url(#p11p2theoVest)"/>
+    <!-- Linen cuff. -->
+    <rect x="252" y="166" width="22" height="5" fill="#a89878"/>
+    <!-- Forearm + hand pointing UP. -->
+    <path d="M254,166 Q252,134 250,106 L264,104 Q268,134 270,166 Z" fill="url(#p11p2theoSkin)"/>
+    <!-- Hand at top — index finger extended pointing up. -->
+    <ellipse cx="260" cy="98" rx="9" ry="6" fill="url(#p11p2theoSkin)"/>
+    <!-- Index finger pointing UP. -->
+    <path d="M254,98 Q256,76 258,52 L266,50 Q268,76 268,98 Z" fill="url(#p11p2theoSkin)"/>
+    <!-- Curled other fingers. -->
+    <ellipse cx="266" cy="100" rx="4" ry="3" fill="url(#p11p2theoSkin)"/>
+    <ellipse cx="270" cy="106" rx="3.5" ry="2.5" fill="url(#p11p2theoSkin)"/>
+    <!-- Fingertip + nail. -->
+    <path d="M258,46 Q262,42 266,46 Q264,52 262,52 Z" fill="#e8d0b4"/>
+  </g>
+
+  <!-- TORSO + HEAD: Theodore crouched at bench. -->
+  <g>
+    <!-- Body curled toward bench. -->
+    <path d="M140,260 Q120,310 140,360 L260,360 Q280,310 270,260 Q260,250 220,250 Q180,250 140,260 Z" fill="url(#p11p2theoVest)"/>
+
+    <!-- HEAD — large at bench level. -->
+    <ellipse cx="190" cy="200" rx="76" ry="80" fill="url(#p11p2theoSkin)"/>
+    <ellipse cx="190" cy="200" rx="76" ry="80" fill="url(#p11p2theoSkinWarm)" opacity="0.55"/>
+
+    <!-- Tousled spikes. -->
+    <path d="M124,144 Q120,98 168,80 Q200,72 232,80 Q258,108 252,144 L246,150 Q234,108 218,98 L160,98 Q146,108 130,150 Z" fill="url(#p11p2theoHair)"/>
+    <path d="M134,90 L130,68 L142,86 Z" fill="url(#p11p2theoHair)"/>
+    <path d="M156,72 L154,52 L168,72 Z" fill="url(#p11p2theoHair)"/>
+    <path d="M180,64 L184,42 L196,66 Z" fill="url(#p11p2theoHair)"/>
+    <path d="M210,68 L222,46 L218,76 Z" fill="url(#p11p2theoHair)"/>
+    <path d="M236,90 L246,68 L242,96 Z" fill="url(#p11p2theoHair)"/>
+    <g stroke="#ffd078" stroke-width="1" opacity="0.7">
+      <line x1="138" y1="76" x2="138" y2="92"/>
+      <line x1="160" y1="60" x2="160" y2="76"/>
+      <line x1="186" y1="50" x2="186" y2="66"/>
+      <line x1="214" y1="56" x2="214" y2="72"/>
+      <line x1="240" y1="76" x2="240" y2="92"/>
+    </g>
+    <!-- Bangs. -->
+    <path d="M132,142 L136,178 L150,134 Z" fill="url(#p11p2theoHair)"/>
+    <path d="M158,148 L162,184 L176,140 Z" fill="url(#p11p2theoHair)"/>
+    <path d="M184,152 L188,184 L202,144 Z" fill="url(#p11p2theoHair)"/>
+    <path d="M210,148 L214,184 L228,140 Z" fill="url(#p11p2theoHair)"/>
+    <path d="M236,142 L240,178 L252,134 Z" fill="url(#p11p2theoHair)"/>
+
+    <!-- WIDE EYES animated. -->
+    <ellipse cx="146" cy="200" rx="14" ry="10" fill="#fff8e8"/>
+    <ellipse cx="146" cy="200" rx="14" ry="10" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="146" cy="200" r="6" fill="url(#p11p2theoHair)"/>
+    <circle cx="146" cy="200" r="3" fill="#0a0604"/>
+    <ellipse cx="150" cy="198" rx="2" ry="1" fill="#a8ffd0" opacity="0.85"/>
+    <ellipse cx="144" cy="202" rx="1.4" ry="0.7" fill="#ffffff"/>
+
+    <ellipse cx="234" cy="200" rx="14" ry="10" fill="#fff8e8"/>
+    <ellipse cx="234" cy="200" rx="14" ry="10" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="234" cy="200" r="6" fill="url(#p11p2theoHair)"/>
+    <circle cx="234" cy="200" r="3" fill="#0a0604"/>
+    <ellipse cx="238" cy="198" rx="2" ry="1" fill="#a8ffd0" opacity="0.85"/>
+    <ellipse cx="232" cy="202" rx="1.4" ry="0.7" fill="#ffffff"/>
+
+    <!-- Brows soft + slightly raised earnest. -->
+    <path d="M126,182 Q146,176 166,182" fill="none" stroke="#3a2810" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M214,182 Q234,176 254,182" fill="none" stroke="#3a2810" stroke-width="1.6" stroke-linecap="round"/>
+    <!-- Nose. -->
+    <path d="M190,218 L176,254 Q190,260 204,254 Z" fill="#a8765a" opacity="0.55"/>
+    <!-- Mouth — talking, slightly open + smile. -->
+    <ellipse cx="190" cy="278" rx="14" ry="4" fill="#7a3018" opacity="0.7"/>
+    <path d="M170,276 Q190,284 210,276" fill="none" stroke="#5a3018" stroke-width="1.4"/>
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.95">
+      <circle cx="124" cy="232" r="0.85"/>
+      <circle cx="138" cy="240" r="0.7"/>
+      <circle cx="154" cy="234" r="0.85"/>
+      <circle cx="226" cy="234" r="0.85"/>
+      <circle cx="242" cy="240" r="0.7"/>
+      <circle cx="256" cy="232" r="0.85"/>
+    </g>
+    <!-- Cheek warm. -->
+    <ellipse cx="108" cy="248" rx="14" ry="9" fill="#ffd078" opacity="0.32"/>
+    <ellipse cx="272" cy="248" rx="14" ry="9" fill="#ffd078" opacity="0.32"/>
+  </g>
+
+  <!-- THEODORE 2 balloons — left side. -->
+  <rect x="14" y="14" width="240" height="78" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M148,92 L160,92 L188,140 Z"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="148" y1="92" x2="160" y2="92" stroke="#ffffff" stroke-width="3"/>
+  <text x="24" y="34"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="24" y="52"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="500"
+        fill="#1a1a1a">I've got a room upstairs, yeah. Mr. Cribbage</text>
+  <text x="24" y="66"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="500"
+        fill="#1a1a1a">goes home in the evening. I lock up. Most</text>
+  <text x="24" y="80"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="12" font-weight="500"
+        fill="#1a1a1a">nights I'm on my own from six o'clock on.</text>
+
+  <rect x="14" y="100" width="200" height="46" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <text x="24" y="120"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="24" y="138"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">Nobody comes. Nobody checks.</text>
+
+</svg>

@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 11 — Panel 5: CU Theodore quiet happiness, "I'm glad I found you"</title>
+  <desc>CU 85mm eye level human scale. Theodore's face — boy of twelve, sandy hair, hazel eyes, freckles. Watches something on bench below with FULL real smile — first genuine happiness in issue, disbelieving warmth of someone who has made another person laugh. Left hand rests on bench near source of emerald glow below. Right hand rests on crash shard, warm through fingers. Brass gear ring catches reflected emerald light. Expression: happiness that does not know what to do with itself — tentative, real, beginning of friendship. Warm amber on face, emerald glow reflected from below, blue-white shard-light under right hand. Eyes hold all three lights. Boy who was alone discovering he is not.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p11p5bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p11p5candleHalo" cx="100%" cy="40%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p11p5emeraldFromBelow" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p11p5bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p11p5theoSkin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p11p5theoSkinWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="p11p5theoSkinEmerald" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#a8ffd0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p11p5theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="p11p5shardCore">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a0d8ff"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <linearGradient id="p11p5brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <radialGradient id="p11p5oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p11p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p11p5strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p11p5bg)"/>
+  <rect width="366" height="364" fill="url(#p11p5candleHalo)" opacity="0.85"/>
+  <!-- Cool emerald from below. -->
+  <ellipse cx="183" cy="364" rx="160" ry="120" fill="url(#p11p5emeraldFromBelow)" opacity="0.65" filter="url(#p11p5bloom)"/>
+
+  <!-- Bench at lower frame. -->
+  <rect x="0" y="320" width="366" height="44" fill="url(#p11p5bench)"/>
+  <line x1="0" y1="328" x2="366" y2="328" stroke="#1a0c04" stroke-width="0.85"/>
+
+  <!-- Hands at bottom of frame. -->
+  <g>
+    <!-- Left hand on bench (resting toward emerald source). -->
+    <path d="M0,310 Q40,300 80,302 L120,302 Q150,308 160,318 L160,330 Q120,332 80,330 L0,326 Z" fill="url(#p11p5theoSkin)"/>
+    <!-- Brass gear ring catching emerald. -->
+    <ellipse cx="40" cy="316" rx="6" ry="3" fill="url(#p11p5brass)"/>
+    <ellipse cx="40" cy="316" rx="6" ry="3" fill="none" stroke="#5a3018" stroke-width="0.4"/>
+    <ellipse cx="40" cy="316" rx="2.5" ry="1.5" fill="#3a2010"/>
+    <!-- Cool emerald GLEAM on brass. -->
+    <ellipse cx="38" cy="314" rx="3" ry="1.4" fill="#a8ffd0" opacity="0.85" filter="url(#p11p5bloom)"/>
+
+    <!-- Right hand resting on shard (bottom-right). -->
+    <path d="M260,310 Q300,304 340,306 L366,306 L366,330 Q330,330 280,328 L260,326 Z" fill="url(#p11p5theoSkin)"/>
+    <!-- SHARD under right hand — partial visible. -->
+    <ellipse cx="320" cy="320" rx="22" ry="8" fill="#a0d8ff" opacity="0.55" filter="url(#p11p5strongBloom)"/>
+    <path d="M312,320 L320,316 L328,320 L324,326 L316,326 Z" fill="url(#p11p5shardCore)" opacity="0.85"/>
+    <!-- Hand wraps shard, fingers visible. -->
+    <ellipse cx="320" cy="318" rx="14" ry="6" fill="url(#p11p5theoSkin)" opacity="0.85"/>
+    <line x1="316" y1="318" x2="324" y2="318" stroke="#7a4828" stroke-width="0.6"/>
+    <!-- Oil stain. -->
+    <ellipse cx="300" cy="322" rx="10" ry="3" fill="url(#p11p5oilStain)"/>
+  </g>
+
+  <!-- THEODORE'S FACE — full smile, warm + emerald-touched. -->
+  <g>
+    <ellipse cx="183" cy="180" rx="100" ry="110" fill="url(#p11p5theoSkin)"/>
+    <ellipse cx="183" cy="180" rx="100" ry="110" fill="url(#p11p5theoSkinWarm)" opacity="0.45"/>
+    <!-- Cool emerald wash on lower face (from bench glow below). -->
+    <ellipse cx="183" cy="220" rx="100" ry="50" fill="url(#p11p5theoSkinEmerald)" opacity="0.65"/>
+
+    <!-- Tousled spikes haloed. -->
+    <path d="M100,120 Q94,60 150,32 Q200,22 240,32 Q278,58 268,120 L262,128 Q244,68 224,56 L142,56 Q124,68 106,128 Z" fill="url(#p11p5theoHair)"/>
+    <path d="M114,42 L108,8 L122,40 Z" fill="url(#p11p5theoHair)"/>
+    <path d="M140,22 L136,-8 L154,26 Z" fill="url(#p11p5theoHair)"/>
+    <path d="M170,12 L172,-22 L188,16 Z" fill="url(#p11p5theoHair)"/>
+    <path d="M200,12 L218,-16 L214,22 Z" fill="url(#p11p5theoHair)"/>
+    <path d="M232,26 L246,2 L242,40 Z" fill="url(#p11p5theoHair)"/>
+    <g stroke="#ffd078" stroke-width="1.4" opacity="0.7">
+      <line x1="120" y1="14" x2="120" y2="38"/>
+      <line x1="146" y1="2" x2="146" y2="26"/>
+      <line x1="178" y1="-8" x2="178" y2="18"/>
+      <line x1="210" y1="-2" x2="210" y2="22"/>
+      <line x1="238" y1="14" x2="238" y2="38"/>
+    </g>
+    <!-- Bangs. -->
+    <path d="M104,128 L108,164 L122,120 Z" fill="url(#p11p5theoHair)"/>
+    <path d="M134,138 L138,170 L154,130 Z" fill="url(#p11p5theoHair)"/>
+    <path d="M164,144 L168,178 L184,138 Z" fill="url(#p11p5theoHair)"/>
+    <path d="M194,144 L198,178 L214,138 Z" fill="url(#p11p5theoHair)"/>
+    <path d="M222,138 L226,170 L242,130 Z" fill="url(#p11p5theoHair)"/>
+
+    <!-- WIDE EYES holding all three lights. -->
+    <ellipse cx="138" cy="180" rx="18" ry="12" fill="#fff8e8"/>
+    <ellipse cx="138" cy="180" rx="18" ry="12" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="138" cy="180" r="8" fill="url(#p11p5theoHair)"/>
+    <circle cx="138" cy="180" r="4" fill="#0a0604"/>
+    <!-- All three lights in catchlight. -->
+    <ellipse cx="142" cy="184" rx="2.5" ry="1.4" fill="#a8ffd0" filter="url(#p11p5bloom)"/>
+    <ellipse cx="146" cy="180" rx="1.6" ry="1" fill="#ffd078"/>
+    <ellipse cx="138" cy="178" rx="1.4" ry="0.8" fill="#a0d8ff"/>
+    <ellipse cx="136" cy="182" rx="1.4" ry="0.7" fill="#ffffff"/>
+
+    <ellipse cx="228" cy="180" rx="18" ry="12" fill="#fff8e8"/>
+    <ellipse cx="228" cy="180" rx="18" ry="12" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <circle cx="228" cy="180" r="8" fill="url(#p11p5theoHair)"/>
+    <circle cx="228" cy="180" r="4" fill="#0a0604"/>
+    <ellipse cx="232" cy="184" rx="2.5" ry="1.4" fill="#a8ffd0" filter="url(#p11p5bloom)"/>
+    <ellipse cx="236" cy="180" rx="1.6" ry="1" fill="#ffd078"/>
+    <ellipse cx="228" cy="178" rx="1.4" ry="0.8" fill="#a0d8ff"/>
+    <ellipse cx="226" cy="182" rx="1.4" ry="0.7" fill="#ffffff"/>
+
+    <!-- Brows soft + raised happy. -->
+    <path d="M118,160 Q138,154 158,160" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+    <path d="M208,160 Q228,154 248,160" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Nose. -->
+    <path d="M183,200 L168,242 Q183,248 198,242 Z" fill="#a8765a" opacity="0.55"/>
+
+    <!-- FULL SMILE — face-transforming, real, disbelieving warmth. Corners up significantly. -->
+    <path d="M140,272 Q183,294 226,272" fill="none" stroke="#5a3018" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- Teeth visible. -->
+    <line x1="158" y1="282" x2="158" y2="286" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="172" y1="288" x2="172" y2="292" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="183" y1="290" x2="183" y2="294" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="194" y1="288" x2="194" y2="292" stroke="#dcd0b4" stroke-width="0.7"/>
+    <line x1="208" y1="282" x2="208" y2="286" stroke="#dcd0b4" stroke-width="0.7"/>
+    <!-- Smile cheek crinkles. -->
+    <path d="M118,256 Q132,266 142,268" fill="none" stroke="#7a4828" stroke-width="0.6" opacity="0.65"/>
+    <path d="M248,256 Q234,266 224,268" fill="none" stroke="#7a4828" stroke-width="0.6" opacity="0.65"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.95">
+      <circle cx="118" cy="220" r="0.85"/>
+      <circle cx="132" cy="226" r="0.7"/>
+      <circle cx="148" cy="222" r="0.85"/>
+      <circle cx="218" cy="222" r="0.85"/>
+      <circle cx="234" cy="226" r="0.7"/>
+      <circle cx="248" cy="220" r="0.85"/>
+    </g>
+    <ellipse cx="100" cy="234" rx="14" ry="9" fill="#ffd078" opacity="0.32"/>
+    <ellipse cx="266" cy="234" rx="14" ry="9" fill="#ffd078" opacity="0.32"/>
+  </g>
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q60,45 120,42"/>
+    <path d="M0,330 Q60,335 120,332"/>
+  </g>
+
+  <!-- THEODORE balloon — quiet (italic annotation). -->
+  <rect x="14" y="14" width="240" height="62" rx="8"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M148,76 L160,76 L180,150 Z"
+        fill="#ffffff" stroke="#6a4220" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="148" y1="76" x2="160" y2="76" stroke="#ffffff" stroke-width="3"/>
+  <text x="24" y="34"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#6a4220" letter-spacing="0.3">THEODORE</text>
+  <text x="24" y="50"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="11" font-style="italic" font-weight="500"
+        fill="#5a4030">(quietly, to himself)</text>
+  <text x="24" y="68"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">I'm glad I found you.</text>
+
+</svg>
