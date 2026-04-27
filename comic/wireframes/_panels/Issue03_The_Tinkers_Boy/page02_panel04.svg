@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.2 364" width="238.2" height="364">
+  <title>Issue 3 — Page 2 — Panel 4: CU high angle Cribbage's hand straightening the barrel hook with fine pliers</title>
+  <desc>CU 85mm high angle of clockmaker's hand reaching into a clock mechanism with fine pliers, straightening a bent barrel hook — precise efficient correction. Hand is middle-aged competent, grey waistcoat cuff with sleeve garter visible. Brass components gleam under warm amber gaslight. Theodore visible in soft focus beyond hands, unsurprised, watching from behind Cribbage's elbow. Intimate technical detail. No dialogue.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <radialGradient id="p2p4keyLight" cx="60%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#a85820" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p2p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p2p4feltGlow">
+      <stop offset="0%" stop-color="#7a8038" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#3a4218" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a1808" stop-opacity="0.95"/>
+    </radialGradient>
+    <radialGradient id="p2p4brass" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="40%" stop-color="#f0d878"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </radialGradient>
+    <radialGradient id="p2p4brassGleam">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p2p4steel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a3e44"/>
+      <stop offset="50%" stop-color="#a8b0b8"/>
+      <stop offset="100%" stop-color="#3a3e44"/>
+    </linearGradient>
+    <linearGradient id="p2p4cribSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d0a8"/>
+      <stop offset="50%" stop-color="#dcb088"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <linearGradient id="p2p4cribShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0e8d4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="p2p4cribVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7068"/>
+      <stop offset="100%" stop-color="#3a3428"/>
+    </linearGradient>
+    <linearGradient id="p2p4theoSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8c0"/>
+      <stop offset="100%" stop-color="#9a7050"/>
+    </linearGradient>
+    <radialGradient id="p2p4theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="p2p4oilStain">
+      <stop offset="0%" stop-color="#1a0e06" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0e06" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p2p4softBlur"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p2p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.6"/></filter>
+  </defs>
+
+  <!-- BG: warm dim. -->
+  <rect width="238.2" height="364" fill="url(#p2p4bg)"/>
+  <rect width="238.2" height="364" fill="url(#p2p4keyLight)"/>
+
+  <!-- THEODORE in soft-focus BG (behind Cribbage's elbow, right side, watching). -->
+  <g filter="url(#p2p4softBlur)" opacity="0.9">
+    <!-- Slight head + shoulder of Theodore visible in BG. -->
+    <ellipse cx="194" cy="80" rx="22" ry="26" fill="url(#p2p4theoSkin)"/>
+    <!-- Tousled hair. -->
+    <path d="M174,68 Q170,40 188,30 Q198,26 210,30 Q220,40 218,68 L214,72 Q210,52 204,48 L186,48 Q180,52 178,72 Z" fill="url(#p2p4theoHair)"/>
+    <path d="M180,38 L176,18 L184,38 Z" fill="url(#p2p4theoHair)"/>
+    <path d="M192,28 L192,12 L200,30 Z" fill="url(#p2p4theoHair)"/>
+    <path d="M204,32 L210,16 L208,34 Z" fill="url(#p2p4theoHair)"/>
+    <path d="M214,40 L220,28 L218,42 Z" fill="url(#p2p4theoHair)"/>
+    <!-- Bangs. -->
+    <path d="M178,58 L180,72 L184,60 Z" fill="url(#p2p4theoHair)"/>
+    <path d="M188,60 L192,76 L196,60 Z" fill="url(#p2p4theoHair)"/>
+    <path d="M200,60 L198,72 L204,60 Z" fill="url(#p2p4theoHair)"/>
+    <path d="M210,58 L214,72 L216,58 Z" fill="url(#p2p4theoHair)"/>
+    <!-- Eyes — quietly watching. -->
+    <ellipse cx="186" cy="80" rx="2" ry="1.1" fill="#3a2810"/>
+    <ellipse cx="200" cy="80" rx="2" ry="1.1" fill="#3a2810"/>
+    <!-- Mouth — flat (unsurprised). -->
+    <path d="M188,98 Q194,99 200,98" fill="none" stroke="#7a3018" stroke-width="0.8"/>
+    <!-- Shoulder + waistcoat suggestion. -->
+    <path d="M168,108 Q160,160 168,200 L228,200 Q236,160 222,108 Z" fill="#6a4220"/>
+    <!-- Linen sleeve. -->
+    <path d="M168,108 Q156,140 158,180 L168,180 Q170,140 172,108 Z" fill="#dcd0b4"/>
+  </g>
+
+  <!-- CRIBBAGE'S OTS shoulder (filling left + lower-left of frame, dark in FG). -->
+  <g>
+    <!-- Vest mass behind hand. -->
+    <path d="M0,180 Q-6,360 80,360 L80,238 Q60,210 0,196 Z" fill="url(#p2p4cribVest)" opacity="0.95"/>
+    <!-- Sleeve garter at elbow (image left). -->
+    <rect x="0" y="216" width="56" height="5" fill="#1a1408"/>
+    <!-- White shirt sleeve below garter. -->
+    <path d="M0,222 Q-4,260 28,288 L80,278 Q60,242 0,222 Z" fill="url(#p2p4cribShirt)"/>
+    <!-- Shadow on inside of shirt. -->
+    <path d="M0,222 Q-4,260 28,288 L80,278 Q60,242 0,222 Z" fill="#000" opacity="0.18"/>
+
+    <!-- Hand reaching INTO the mechanism from upper-left. Hand is middle-aged competent. -->
+    <!-- Wrist + back of hand. -->
+    <path d="M48,280 Q70,288 100,290 L138,272 Q140,254 116,250 Q90,256 50,272 Z" fill="url(#p2p4cribSkin)"/>
+    <path d="M48,280 Q70,288 100,290 L138,272 Q140,254 116,250 Q90,256 50,272 Z" fill="#000" opacity="0.15"/>
+    <!-- Knuckle ridges. -->
+    <path d="M68,272 Q76,266 84,268" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <path d="M82,278 Q90,272 100,274" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+    <path d="M100,282 Q110,276 118,278" fill="none" stroke="#7a4828" stroke-width="0.7"/>
+
+    <!-- Five fingers wrapping around the pliers grip, then thumb on top opposing. -->
+    <!-- Thumb (top, gripping pliers handle). -->
+    <path d="M118,242 Q138,236 156,242 Q160,256 144,266 Q128,266 116,256 Z" fill="url(#p2p4cribSkin)"/>
+    <path d="M148,244 Q154,242 156,246 Q154,252 148,252 Z" fill="#e8d0b4"/>
+    <line x1="149" y1="251" x2="153" y2="251" stroke="#1a0e06" stroke-width="0.6"/>
+    <!-- Index finger (front, also gripping). -->
+    <path d="M120,266 Q142,262 160,268 L162,278 Q146,284 124,280 Z" fill="url(#p2p4cribSkin)"/>
+    <path d="M156,272 Q160,272 162,274 Q160,278 156,278 Z" fill="#e8d0b4"/>
+    <!-- Middle. -->
+    <path d="M118,278 Q136,276 152,282 L150,294 Q132,296 116,290 Z" fill="url(#p2p4cribSkin)"/>
+    <path d="M146,286 Q150,286 152,288 Q150,292 146,292 Z" fill="#e8d0b4"/>
+    <!-- Ring. -->
+    <path d="M104,290 Q124,288 140,292 L138,304 Q120,306 102,300 Z" fill="url(#p2p4cribSkin)"/>
+    <path d="M134,296 Q138,296 140,298 Q138,302 134,302 Z" fill="#e8d0b4"/>
+    <!-- Pinky. -->
+    <path d="M86,300 Q108,298 124,302 L122,312 Q106,314 88,308 Z" fill="url(#p2p4cribSkin)"/>
+
+    <!-- FINE PLIERS — steel, two arms meeting at the bent hook. Held by the hand. -->
+    <g>
+      <!-- Pliers handles (the part the hand grips). -->
+      <path d="M138,256 L162,266 L160,272 L138,262 Z" fill="url(#p2p4steel)"/>
+      <path d="M144,256 L168,260 L168,266 L144,262 Z" fill="url(#p2p4steel)"/>
+      <!-- Pivot rivet. -->
+      <circle cx="172" cy="262" r="2.8" fill="#3a3e44"/>
+      <circle cx="172" cy="262" r="1.4" fill="#a8b0b8"/>
+      <!-- Pliers JAWS extending toward the mechanism. -->
+      <path d="M174,260 L188,256 L194,250 L196,242 L194,238 L190,238 L172,260 Z" fill="url(#p2p4steel)"/>
+      <path d="M174,266 L188,270 L194,272 L196,278 L192,280 L188,276 L172,266 Z" fill="url(#p2p4steel)"/>
+      <!-- Pliers tip near the hook. -->
+      <path d="M192,248 L196,244 L194,242" fill="none" stroke="#1a0c04" stroke-width="0.6"/>
+      <!-- Tiny gleam on jaw. -->
+      <line x1="180" y1="256" x2="186" y2="252" stroke="#ffffff" stroke-width="0.6" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- THE WHITFIELD MECHANISM — close, big, focal. Felt pad fills lower-right of frame. -->
+  <g>
+    <!-- Felt pad (oval glow). -->
+    <ellipse cx="170" cy="290" rx="68" ry="46" fill="url(#p2p4feltGlow)"/>
+    <!-- Mechanism case base. -->
+    <rect x="106" y="248" width="132" height="60" rx="3" fill="#1a0c04"/>
+    <rect x="108" y="246" width="128" height="14" fill="url(#p2p4brass)"/>
+    <line x1="108" y1="248" x2="236" y2="248" stroke="#5a3018" stroke-width="0.8"/>
+
+    <!-- THE MAINSPRING BARREL — large, brass, hook prominent. -->
+    <circle cx="170" cy="276" r="24" fill="url(#p2p4brass)"/>
+    <circle cx="170" cy="276" r="24" fill="none" stroke="#5a3018" stroke-width="1"/>
+    <circle cx="170" cy="276" r="6" fill="#5a3018"/>
+    <circle cx="170" cy="276" r="6" fill="none" stroke="#1a0c04" stroke-width="0.5"/>
+    <!-- Coiled mainspring inside. -->
+    <g stroke="#5a3018" stroke-width="0.7" fill="none">
+      <circle cx="170" cy="276" r="20"/>
+      <circle cx="170" cy="276" r="16"/>
+      <circle cx="170" cy="276" r="12"/>
+      <circle cx="170" cy="276" r="9"/>
+    </g>
+    <!-- Highlight / gleam on barrel. -->
+    <ellipse cx="156" cy="262" rx="8" ry="4" fill="url(#p2p4brassGleam)" opacity="0.75"/>
+    <ellipse cx="180" cy="290" rx="4" ry="2" fill="url(#p2p4brassGleam)" opacity="0.55"/>
+
+    <!-- THE BARREL HOOK — JUST STRAIGHTENED. Pliers tip near it. The fix worked. -->
+    <!-- Show hook now CORRECTED — straight little bracket at edge of barrel. -->
+    <line x1="194" y1="266" x2="200" y2="262" stroke="#a85820" stroke-width="2.6"/>
+    <line x1="200" y1="262" x2="200" y2="252" stroke="#a85820" stroke-width="2.6"/>
+    <!-- Tiny sparkle showing it's just been adjusted. -->
+    <circle cx="200" cy="258" r="1.6" fill="#fff0a8" filter="url(#p2p4bloom)"/>
+
+    <!-- Other gear silhouettes peeking from behind barrel. -->
+    <circle cx="216" cy="276" r="9" fill="url(#p2p4brass)"/>
+    <circle cx="216" cy="276" r="9" fill="none" stroke="#5a3018" stroke-width="0.6"/>
+    <circle cx="216" cy="276" r="3" fill="#5a3018"/>
+    <!-- Escape wheel teeth. -->
+    <g stroke="#5a3018" stroke-width="0.5">
+      <line x1="216" y1="269" x2="216" y2="266"/>
+      <line x1="216" y1="283" x2="216" y2="286"/>
+      <line x1="209" y1="276" x2="206" y2="276"/>
+      <line x1="223" y1="276" x2="226" y2="276"/>
+    </g>
+    <!-- Bottom plate edge. -->
+    <line x1="106" y1="306" x2="238" y2="306" stroke="#5a3018" stroke-width="0.5"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q60,45 120,42"/>
+    <path d="M120,160 Q180,165 232,162"/>
+    <path d="M0,330 Q60,335 120,332"/>
+  </g>
+
+  <!-- No dialogue per script. -->
+</svg>

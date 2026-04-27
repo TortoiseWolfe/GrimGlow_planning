@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 2 — Panel 1: MED Cribbage frowning at the Whitfield mainspring</title>
+  <desc>MED 50mm eye level. Mr. Cribbage standing at his main workbench, frowning at a clock mechanism. He has thinning hair, mutton-chop sideburns, spectacles pushed UP on his forehead, grey waistcoat over white shirt, sleeve garters at elbows. Hands rest either side of a partially disassembled clock. Several tools tried and set aside. Wall clock visible behind — time pressure. Warm amber gaslight fully on bench. Competent impatience.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p2p1wallBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p2p1plaster" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p2p1floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="p2p1bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="50%" stop-color="#4a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p2p1lampBeam" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#f5b860" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p2p1gaslight" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#a85820" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p2p1brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <linearGradient id="p2p1cribSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d0a8"/>
+      <stop offset="100%" stop-color="#9a7050"/>
+    </linearGradient>
+    <linearGradient id="p2p1cribVest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7068"/>
+      <stop offset="100%" stop-color="#3a3428"/>
+    </linearGradient>
+    <linearGradient id="p2p1cribShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0e8d4"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <radialGradient id="p2p1cribHair">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </radialGradient>
+    <filter id="p2p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- BG: dim plaster wall. -->
+  <rect width="366" height="364" fill="url(#p2p1wallBg)"/>
+  <rect x="0" y="0" width="366" height="240" fill="url(#p2p1plaster)" opacity="0.85"/>
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.5">
+    <path d="M0,52 Q120,54 240,52 Q330,50 366,52"/>
+    <path d="M0,108 Q120,110 240,108 Q330,106 366,108"/>
+    <path d="M0,170 Q120,172 240,170 Q330,168 366,170"/>
+  </g>
+
+  <!-- Floor. -->
+  <rect x="0" y="240" width="366" height="124" fill="url(#p2p1floor)"/>
+  <g stroke="#0a0604" stroke-width="0.6" opacity="0.85">
+    <line x1="0" y1="262" x2="366" y2="258"/>
+    <line x1="0" y1="294" x2="366" y2="292"/>
+    <line x1="0" y1="328" x2="366" y2="328"/>
+    <line x1="0" y1="362" x2="366" y2="362"/>
+    <line x1="100" y1="240" x2="94" y2="364"/>
+    <line x1="220" y1="240" x2="226" y2="364"/>
+    <line x1="320" y1="240" x2="328" y2="364"/>
+  </g>
+
+  <!-- WALL CLOCK behind/right (suggesting time pressure). -->
+  <g>
+    <!-- Clock case. -->
+    <rect x="276" y="36" width="64" height="98" rx="3" fill="#3a2010"/>
+    <rect x="278" y="38" width="60" height="94" rx="2" fill="#5a3818" opacity="0.6"/>
+    <!-- Clock face. -->
+    <circle cx="308" cy="70" r="22" fill="#f0e8d4"/>
+    <circle cx="308" cy="70" r="22" fill="none" stroke="#3a2010" stroke-width="1.4"/>
+    <!-- Roman numeral suggestions / tick marks. -->
+    <g stroke="#1a0c04" stroke-width="0.8" stroke-linecap="round">
+      <line x1="308" y1="50" x2="308" y2="54"/>
+      <line x1="308" y1="86" x2="308" y2="90"/>
+      <line x1="288" y1="70" x2="292" y2="70"/>
+      <line x1="324" y1="70" x2="328" y2="70"/>
+      <line x1="294" y1="56" x2="296" y2="58"/>
+      <line x1="320" y1="58" x2="322" y2="56"/>
+      <line x1="294" y1="84" x2="296" y2="82"/>
+      <line x1="322" y1="82" x2="320" y2="84"/>
+    </g>
+    <!-- Hour + minute hands (showing time approaching/passing). -->
+    <line x1="308" y1="70" x2="312" y2="58" stroke="#1a0c04" stroke-width="2" stroke-linecap="round"/>
+    <line x1="308" y1="70" x2="324" y2="64" stroke="#1a0c04" stroke-width="1.4" stroke-linecap="round"/>
+    <circle cx="308" cy="70" r="2" fill="#1a0c04"/>
+    <!-- Pendulum window below. -->
+    <rect x="294" y="100" width="28" height="28" fill="#1a0c04"/>
+    <line x1="308" y1="100" x2="308" y2="124" stroke="url(#p2p1brass)" stroke-width="1"/>
+    <circle cx="308" cy="124" r="4" fill="url(#p2p1brass)"/>
+  </g>
+
+  <!-- Wall pegs with hanging tools (dim BG). -->
+  <g opacity="0.78">
+    <line x1="20" y1="44" x2="20" y2="80" stroke="#3a2010" stroke-width="2"/>
+    <line x1="40" y1="44" x2="40" y2="86" stroke="#3a2010" stroke-width="2.4"/>
+    <line x1="60" y1="44" x2="60" y2="78" stroke="#3a2010" stroke-width="2"/>
+    <ellipse cx="40" cy="86" rx="6" ry="3" fill="#3a2010"/>
+    <rect x="56" y="78" width="8" height="6" fill="#3a2010"/>
+    <rect x="14" y="80" width="8" height="14" fill="#3a2010"/>
+  </g>
+
+  <!-- MAIN WORKBENCH — Cribbage's bench. -->
+  <g>
+    <!-- Lamp glow halo. -->
+    <ellipse cx="200" cy="252" rx="180" ry="60" fill="url(#p2p1lampBeam)" opacity="0.85"/>
+    <!-- Bench top. -->
+    <rect x="20" y="240" width="346" height="36" fill="url(#p2p1bench)"/>
+    <rect x="20" y="240" width="346" height="6" fill="#7a4828"/>
+    <line x1="20" y1="246" x2="366" y2="246" stroke="#1a0c04" stroke-width="0.6"/>
+    <!-- Bench legs. -->
+    <rect x="32" y="276" width="6" height="88" fill="#1a0c04"/>
+    <rect x="346" y="276" width="6" height="88" fill="#1a0c04"/>
+    <!-- Drawer apron. -->
+    <rect x="38" y="276" width="308" height="32" fill="#3a2010"/>
+    <line x1="38" y1="290" x2="346" y2="290" stroke="#1a0c04" stroke-width="0.5"/>
+    <rect x="60" y="282" width="36" height="6" fill="#1a0c04"/>
+    <rect x="180" y="282" width="36" height="6" fill="#1a0c04"/>
+    <rect x="288" y="282" width="36" height="6" fill="#1a0c04"/>
+    <rect x="78" y="285" width="2" height="2" fill="url(#p2p1brass)"/>
+    <rect x="198" y="285" width="2" height="2" fill="url(#p2p1brass)"/>
+    <rect x="306" y="285" width="2" height="2" fill="url(#p2p1brass)"/>
+
+    <!-- Magnifying lamp (off to right, lit). -->
+    <line x1="324" y1="240" x2="328" y2="180" stroke="#3a2010" stroke-width="2.5"/>
+    <line x1="328" y1="180" x2="290" y2="160" stroke="#3a2010" stroke-width="2.5"/>
+    <circle cx="284" cy="156" r="12" fill="#3a2010"/>
+    <circle cx="284" cy="156" r="9" fill="url(#p2p1brass)"/>
+    <circle cx="284" cy="156" r="5" fill="#fff0a8" filter="url(#p2p1bloom)"/>
+
+    <!-- Felt pad with the Whitfield clock mechanism (mainspring assembly visible). -->
+    <ellipse cx="200" cy="252" rx="64" ry="14" fill="#3a4218"/>
+    <ellipse cx="200" cy="252" rx="64" ry="14" fill="none" stroke="#5a6028" stroke-width="0.6"/>
+    <rect x="160" y="236" width="80" height="22" rx="2" fill="#1a0c04"/>
+    <rect x="162" y="234" width="76" height="6" fill="url(#p2p1brass)"/>
+    <line x1="162" y1="236" x2="238" y2="236" stroke="#5a3018" stroke-width="0.6"/>
+    <!-- Internal mechanism: mainspring barrel (large) with bent hook visible. -->
+    <circle cx="184" cy="248" r="9" fill="url(#p2p1brass)"/>
+    <circle cx="184" cy="248" r="9" fill="none" stroke="#5a3018" stroke-width="0.6"/>
+    <circle cx="184" cy="248" r="2" fill="#5a3018"/>
+    <!-- Mainspring coiled inside (visible). -->
+    <g stroke="#5a3018" stroke-width="0.6" fill="none">
+      <circle cx="184" cy="248" r="6"/>
+      <circle cx="184" cy="248" r="4.5"/>
+      <circle cx="184" cy="248" r="3"/>
+    </g>
+    <!-- The bent barrel hook — slight angular distortion. -->
+    <line x1="190" y1="244" x2="194" y2="240" stroke="#a85820" stroke-width="1.4"/>
+    <line x1="194" y1="240" x2="196" y2="246" stroke="#a85820" stroke-width="1.4"/>
+    <!-- Escape wheel + balance. -->
+    <circle cx="208" cy="248" r="5" fill="url(#p2p1brass)"/>
+    <circle cx="208" cy="248" r="5" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+    <circle cx="222" cy="248" r="4" fill="url(#p2p1brass)"/>
+    <circle cx="222" cy="248" r="4" fill="none" stroke="#5a3018" stroke-width="0.5"/>
+    <circle cx="222" cy="248" r="2" fill="none" stroke="#5a3018" stroke-width="0.9"/>
+
+    <!-- TOOLS already tried, scattered set-aside on the bench. -->
+    <g>
+      <!-- Pliers. -->
+      <line x1="58" y1="232" x2="86" y2="244" stroke="#5a606a" stroke-width="2.4"/>
+      <line x1="60" y1="234" x2="80" y2="240" stroke="#1a1408" stroke-width="0.6"/>
+      <rect x="54" y="228" width="8" height="8" fill="#3a2010"/>
+      <!-- Tweezers. -->
+      <line x1="100" y1="232" x2="116" y2="240" stroke="#5a606a" stroke-width="1.6"/>
+      <line x1="102" y1="234" x2="118" y2="242" stroke="#5a606a" stroke-width="1.6"/>
+      <!-- Mainspring winder. -->
+      <rect x="240" y="232" width="22" height="6" rx="1" fill="#5a3818"/>
+      <rect x="244" y="228" width="2" height="4" fill="url(#p2p1brass)"/>
+      <!-- Screwdriver. -->
+      <rect x="276" y="232" width="20" height="3" fill="#3a2010"/>
+      <rect x="296" y="232" width="6" height="3" fill="#5a606a"/>
+    </g>
+  </g>
+
+  <!-- CRIBBAGE — STANDING at his main bench, hands on either side of the mechanism, frowning. -->
+  <g>
+    <!-- Trousers (lower legs visible below bench apron). -->
+    <path d="M158,308 Q156,328 160,360 L184,360 Q188,328 184,308 Z" fill="#2a2418"/>
+    <path d="M188,308 Q186,328 190,360 L214,360 Q218,328 214,308 Z" fill="#2a2418"/>
+    <line x1="172" y1="312" x2="172" y2="358" stroke="#1a1408" stroke-width="0.4" opacity="0.7"/>
+    <line x1="202" y1="312" x2="202" y2="358" stroke="#1a1408" stroke-width="0.4" opacity="0.7"/>
+
+    <!-- Shoes peeking. -->
+    <ellipse cx="170" cy="362" rx="14" ry="3" fill="#0a0402"/>
+    <ellipse cx="200" cy="362" rx="14" ry="3" fill="#0a0402"/>
+
+    <!-- White shirt (visible at neck, sleeves below garters). -->
+    <path d="M152,158 Q146,238 154,256 L218,256 Q222,238 220,158 Q210,148 186,148 Q160,148 152,158 Z" fill="url(#p2p1cribShirt)"/>
+
+    <!-- Grey waistcoat over shirt. -->
+    <path d="M158,168 L154,256 L218,256 L218,168 L210,176 L200,184 L186,192 L172,184 L162,176 Z" fill="url(#p2p1cribVest)"/>
+    <line x1="186" y1="192" x2="186" y2="256" stroke="#1a1408" stroke-width="0.6" opacity="0.85"/>
+    <circle cx="186" cy="206" r="1.6" fill="url(#p2p1brass)"/>
+    <circle cx="186" cy="220" r="1.6" fill="url(#p2p1brass)"/>
+    <circle cx="186" cy="234" r="1.6" fill="url(#p2p1brass)"/>
+    <circle cx="186" cy="248" r="1.6" fill="url(#p2p1brass)"/>
+    <!-- Watch chain across waistcoat. -->
+    <path d="M170,210 Q186,216 200,210" fill="none" stroke="url(#p2p1brass)" stroke-width="1"/>
+    <!-- V-neck shirt opening showing collar + tie. -->
+    <path d="M172,148 L186,170 L200,148 Z" fill="url(#p2p1cribShirt)"/>
+    <path d="M180,150 L186,162 L192,150 Z" fill="#5a3018"/>
+
+    <!-- Sleeves with garter at elbow. -->
+    <!-- Left sleeve (image left). -->
+    <path d="M148,160 Q132,200 134,228 L150,228 Q150,200 154,160 Z" fill="url(#p2p1cribVest)"/>
+    <rect x="130" y="200" width="26" height="4" fill="#1a1408"/>
+    <!-- Forearm in shirt (below garter). -->
+    <path d="M134,228 Q130,254 138,272 L156,272 Q154,250 152,228 Z" fill="url(#p2p1cribShirt)"/>
+    <!-- Hand resting on bench. -->
+    <ellipse cx="148" cy="280" rx="14" ry="6" fill="url(#p2p1cribSkin)"/>
+    <path d="M138,280 Q146,278 154,282" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <!-- Fingers. -->
+    <ellipse cx="138" cy="284" rx="3" ry="2" fill="url(#p2p1cribSkin)"/>
+    <ellipse cx="146" cy="286" rx="3" ry="2" fill="url(#p2p1cribSkin)"/>
+    <ellipse cx="154" cy="286" rx="3" ry="2" fill="url(#p2p1cribSkin)"/>
+    <ellipse cx="160" cy="284" rx="3" ry="2" fill="url(#p2p1cribSkin)"/>
+
+    <!-- Right sleeve. -->
+    <path d="M222,160 Q238,200 236,228 L220,228 Q220,200 218,160 Z" fill="url(#p2p1cribVest)"/>
+    <rect x="216" y="200" width="26" height="4" fill="#1a1408"/>
+    <path d="M236,228 Q240,254 232,272 L214,272 Q216,250 220,228 Z" fill="url(#p2p1cribShirt)"/>
+    <ellipse cx="222" cy="280" rx="14" ry="6" fill="url(#p2p1cribSkin)"/>
+    <path d="M212,280 Q220,278 232,282" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <ellipse cx="212" cy="284" rx="3" ry="2" fill="url(#p2p1cribSkin)"/>
+    <ellipse cx="220" cy="286" rx="3" ry="2" fill="url(#p2p1cribSkin)"/>
+    <ellipse cx="228" cy="286" rx="3" ry="2" fill="url(#p2p1cribSkin)"/>
+    <ellipse cx="234" cy="284" rx="3" ry="2" fill="url(#p2p1cribSkin)"/>
+
+    <!-- Head — slightly bowed forward, frowning. -->
+    <ellipse cx="186" cy="116" rx="22" ry="26" fill="url(#p2p1cribSkin)"/>
+    <!-- Thinning hair. -->
+    <path d="M168,108 Q170,84 186,80 Q204,84 206,108 L202,112 Q200,94 194,90 L178,90 Q172,94 170,112 Z" fill="url(#p2p1cribHair)"/>
+    <!-- SPECTACLES PUSHED UP onto forehead (bridge resting in hair). -->
+    <g>
+      <ellipse cx="178" cy="100" rx="6" ry="4" fill="none" stroke="#1a1408" stroke-width="1"/>
+      <ellipse cx="194" cy="100" rx="6" ry="4" fill="none" stroke="#1a1408" stroke-width="1"/>
+      <line x1="184" y1="100" x2="188" y2="100" stroke="#1a1408" stroke-width="0.8"/>
+      <!-- Glass disks (faint glint). -->
+      <ellipse cx="178" cy="100" rx="5" ry="3" fill="#a89878" opacity="0.35"/>
+      <ellipse cx="194" cy="100" rx="5" ry="3" fill="#a89878" opacity="0.35"/>
+      <!-- Temple arms going back. -->
+      <line x1="172" y1="100" x2="166" y2="106" stroke="#1a1408" stroke-width="0.8"/>
+      <line x1="200" y1="100" x2="206" y2="106" stroke="#1a1408" stroke-width="0.8"/>
+    </g>
+    <!-- Mutton-chop sideburns. -->
+    <path d="M168,116 Q164,134 170,142 L178,142 L178,124 Z" fill="url(#p2p1cribHair)"/>
+    <path d="M204,116 Q208,134 202,142 L194,142 L194,124 Z" fill="url(#p2p1cribHair)"/>
+    <!-- Brow furrowed (frustration). -->
+    <path d="M174,116 Q180,113 186,116" fill="none" stroke="#1a1408" stroke-width="1.2"/>
+    <path d="M186,116 Q192,113 198,116" fill="none" stroke="#1a1408" stroke-width="1.2"/>
+    <!-- Eyes (squinting at the mechanism). -->
+    <ellipse cx="180" cy="120" rx="2.4" ry="1.2" fill="#3a2810"/>
+    <ellipse cx="192" cy="120" rx="2.4" ry="1.2" fill="#3a2810"/>
+    <ellipse cx="180.5" cy="119.5" rx="0.6" ry="0.4" fill="#ffffff"/>
+    <ellipse cx="192.5" cy="119.5" rx="0.6" ry="0.4" fill="#ffffff"/>
+    <!-- Nose (downturned, slight nostril flare exhaling). -->
+    <path d="M186,124 L182,134" fill="none" stroke="#7a4828" stroke-width="0.6"/>
+    <ellipse cx="183" cy="136" rx="1.5" ry="0.7" fill="#5a3818" opacity="0.85"/>
+    <ellipse cx="190" cy="136" rx="1.5" ry="0.7" fill="#5a3818" opacity="0.85"/>
+    <!-- Mouth — tight thin frown. -->
+    <path d="M178,142 Q186,140 194,142" fill="none" stroke="#5a3018" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Slight breath/exhale visible (faint warm vapor — barely there). -->
+    <path d="M194,140 Q200,140 206,144" fill="none" stroke="#a89878" stroke-width="0.8" opacity="0.45"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,300 Q60,305 120,302"/>
+    <path d="M260,290 Q300,295 340,292"/>
+    <path d="M0,80 Q60,85 120,82"/>
+    <path d="M40,180 Q100,185 160,182"/>
+  </g>
+
+  <!-- CRIBBAGE balloon — top-left, clear of his head and hands. -->
+  <rect x="10" y="10" width="156" height="64" rx="8"
+        fill="#ffffff" stroke="#5a4a30" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <!-- Tail pointing down-right toward Cribbage's mouth (~186, 142). -->
+  <path d="M152,74 L162,74 L172,92 Z"
+        fill="#ffffff" stroke="#5a4a30" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="152" y1="74" x2="162" y2="74" stroke="#ffffff" stroke-width="3"/>
+  <text x="20" y="32"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#5a4a30" letter-spacing="0.3">CRIBBAGE</text>
+  <text x="20" y="50"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">Blast the Whitfield spring.</text>
+  <text x="20" y="66"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">The arbor's binding.</text>
+
+</svg>
