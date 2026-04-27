@@ -1,0 +1,374 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 460" width="487" height="460">
+  <title>Issue 2 — Page 1 — Panel 5: Squad brief — 5° dutch — mission begins</title>
+  <desc>MW 5° dutch. Full squad NOW AWAKE in gutter channel. Sable RISEN to feet facing group, command posture. Wren standing arms crossed impatient. Jink crouching one hand in curls grinning. Thresh on one knee, rifle across thighs, watching skyline. Luma activating medical scanner (blue-violet holo blooming from wrist). Beyond gutter lip: Victorian roofscape (chimneys, telegraph wires, distant factory smoke column). Grey overcast + faint amber gaslight + 5 muted holo glows. SABLE multi-line briefing.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p1p5sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7e88"/>
+      <stop offset="100%" stop-color="#5a5e68"/>
+    </linearGradient>
+    <linearGradient id="p1p5lead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#0a0c10"/>
+    </linearGradient>
+    <radialGradient id="p1p5amber" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p1p5sapphireScanner">
+      <stop offset="0%" stop-color="#a890f0" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1a1058" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p1p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <filter id="p1p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- DUTCH-ROTATED main composition (5° tilt). -->
+  <g id="p1p5-dutch-frame" transform="rotate(5 244 230)">
+
+    <!-- Sky background. -->
+    <rect x="-30" y="-30" width="547" height="520" fill="url(#p1p5sky)"/>
+
+    <!-- DISTANT VICTORIAN ROOFSCAPE beyond gutter lip — chimneys, telegraph wires, factory smoke. -->
+    <g id="p1p5-roofscape" opacity="0.85">
+      <!-- Distant rooflines. -->
+      <path d="M0,180 L60,170 L100,178 L180,170 L240,180 L320,172 L400,180 L487,176 L487,220 L0,220 Z" fill="#1a1820"/>
+      <!-- Chimney stacks (script-specific — distant towers). -->
+      <rect x="80" y="140" width="14" height="40" fill="#1a1820"/>
+      <rect x="76" y="138" width="22" height="3" fill="#0a0810"/>
+      <rect x="200" y="135" width="16" height="45" fill="#1a1820"/>
+      <rect x="196" y="133" width="24" height="3" fill="#0a0810"/>
+      <rect x="350" y="142" width="14" height="40" fill="#1a1820"/>
+      <rect x="346" y="140" width="22" height="3" fill="#0a0810"/>
+      <rect x="450" y="138" width="14" height="42" fill="#1a1820"/>
+      <!-- TELEGRAPH WIRES (script-specific). -->
+      <line x1="0" y1="160" x2="487" y2="166" stroke="#0a0810" stroke-width="0.6" opacity="0.85"/>
+      <line x1="0" y1="170" x2="487" y2="172" stroke="#0a0810" stroke-width="0.5" opacity="0.7"/>
+      <!-- Telegraph poles. -->
+      <line x1="120" y1="155" x2="120" y2="180" stroke="#0a0810" stroke-width="1"/>
+      <line x1="280" y1="155" x2="280" y2="180" stroke="#0a0810" stroke-width="1"/>
+      <line x1="420" y1="155" x2="420" y2="180" stroke="#0a0810" stroke-width="1"/>
+      <!-- DISTANT FACTORY SMOKE COLUMN (script-specific). -->
+      <ellipse cx="290" cy="100" rx="12" ry="60" fill="#5a5860" opacity="0.7" filter="url(#p1p5strongBloom)"/>
+      <ellipse cx="290" cy="60" rx="20" ry="14" fill="#5a5860" opacity="0.55" filter="url(#p1p5strongBloom)"/>
+      <ellipse cx="290" cy="30" rx="28" ry="12" fill="#5a5860" opacity="0.45" filter="url(#p1p5strongBloom)"/>
+      <!-- Factory smoke source. -->
+      <rect x="282" y="138" width="16" height="44" fill="#1a1820"/>
+
+      <!-- Morning fog band. -->
+      <ellipse cx="244" cy="180" rx="280" ry="14" fill="#a8a8b0" opacity="0.4" filter="url(#p1p5strongBloom)"/>
+    </g>
+
+    <!-- GUTTER LIP across foreground (where squad stands). -->
+    <g id="p1p5-gutter-lip">
+      <path d="M-30,260 Q120,250 244,255 Q380,260 517,255 L517,490 L-30,490 Z" fill="url(#p1p5lead)"/>
+      <!-- Top edge. -->
+      <path d="M-30,260 Q120,250 244,255 Q380,260 517,255" fill="none" stroke="#080a14" stroke-width="1.4"/>
+      <!-- Faint amber rim (gaslight from below). -->
+      <path d="M-30,260 Q120,250 244,255 Q380,260 517,255" fill="none" stroke="#a85820" stroke-width="0.9" opacity="0.7" filter="url(#p1p5bloom)"/>
+      <!-- Riveted seams + rivets. -->
+      <g stroke="#080a14" stroke-width="0.5" opacity="0.85">
+        <line x1="100" y1="252" x2="95" y2="490"/>
+        <line x1="244" y1="255" x2="244" y2="490"/>
+        <line x1="380" y1="260" x2="385" y2="490"/>
+      </g>
+      <g fill="#080a14" opacity="0.85">
+        <circle cx="100" cy="265" r="2"/>
+        <circle cx="244" cy="270" r="2"/>
+        <circle cx="380" cy="270" r="2"/>
+      </g>
+      <!-- Floor stipple. -->
+      <g fill="#1a1c20" opacity="0.55">
+        <circle cx="50" cy="320" r="1.2"/>
+        <circle cx="150" cy="370" r="1"/>
+        <circle cx="320" cy="350" r="1.2"/>
+        <circle cx="440" cy="380" r="1"/>
+        <circle cx="200" cy="420" r="1"/>
+        <circle cx="350" cy="430" r="1"/>
+      </g>
+
+      <!-- Strong amber glow rises from below. -->
+      <ellipse cx="244" cy="490" rx="320" ry="60" fill="url(#p1p5amber)" filter="url(#p1p5strongBloom)" opacity="0.7"/>
+    </g>
+
+    <!-- SQUAD ALL AWAKE in gutter — 5 figures. -->
+
+    <!-- SABLE STANDING center, command posture, FACING group (back to camera or 3/4). -->
+    <g id="p1p5-sable" transform="translate(244, 340)">
+      <!-- Lower legs. -->
+      <path d="M-12,40 L-15,80 L-18,108" fill="none" stroke="#3a3a45" stroke-width="9" stroke-linecap="round"/>
+      <path d="M12,40 L15,80 L18,108" fill="none" stroke="#3a3a45" stroke-width="9" stroke-linecap="round"/>
+      <ellipse cx="-18" cy="110" rx="9" ry="3" fill="#080408"/>
+      <ellipse cx="18" cy="110" rx="9" ry="3" fill="#080408"/>
+      <!-- Warm amber on legs. -->
+      <path d="M-12,40 L-15,80 L-18,108" fill="none" stroke="#a85820" stroke-width="3" stroke-linecap="round" opacity="0.4" filter="url(#p1p5bloom)"/>
+      <path d="M12,40 L15,80 L18,108" fill="none" stroke="#a85820" stroke-width="3" stroke-linecap="round" opacity="0.4" filter="url(#p1p5bloom)"/>
+
+      <!-- Thighs. -->
+      <path d="M-15,5 L-12,40 L0,40" fill="#a8b0c0" stroke="#080408" stroke-width="0.6"/>
+      <path d="M15,5 L12,40 L0,40" fill="#a8b0c0" stroke="#080408" stroke-width="0.6"/>
+      <!-- Hip belt. -->
+      <rect x="-15" y="0" width="30" height="6" fill="#3a3a45" stroke="#080408" stroke-width="0.4"/>
+
+      <!-- Torso. -->
+      <path d="M-18,-25 Q-22,5 -15,28 L15,28 Q22,5 18,-25 L8,-32 L-8,-32 Z" fill="#a8b0c0" stroke="#080408" stroke-width="0.7"/>
+      <line x1="0" y1="-22" x2="0" y2="22" stroke="#dce4ff" stroke-width="0.5" opacity="0.7" filter="url(#p1p5bloom)"/>
+
+      <!-- Water spots. -->
+      <g fill="#080a14" opacity="0.55">
+        <circle cx="-15" cy="-15" r="1"/>
+        <circle cx="15" cy="-15" r="1"/>
+      </g>
+
+      <!-- Shoulder pads. -->
+      <ellipse cx="-18" cy="-23" rx="7" ry="4" fill="#a8a8b0" stroke="#080408" stroke-width="0.5"/>
+      <!-- Right shoulder cracked bleed (continuity). -->
+      <ellipse cx="18" cy="-23" rx="7" ry="4" fill="#a8a8b0" stroke="#080408" stroke-width="0.5"/>
+      <ellipse cx="18" cy="-23" rx="11" ry="7" fill="#dce4ff" opacity="0.7" filter="url(#p1p5bloom)"/>
+
+      <!-- Arms HANDS AT SIDES (command posture). -->
+      <path d="M-18,-15 L-22,5 L-18,25" fill="none" stroke="#a8b0c0" stroke-width="5" stroke-linecap="round"/>
+      <path d="M18,-15 L22,5 L18,25" fill="none" stroke="#a8b0c0" stroke-width="5" stroke-linecap="round"/>
+
+      <!-- Head. -->
+      <ellipse cx="0" cy="-44" rx="9" ry="10" fill="#5a3818"/>
+      <!-- Silver buzz. -->
+      <path d="M-7,-50 Q0,-54 7,-50 L7,-44 L-7,-44 Z" fill="#c8ccd4"/>
+      <!-- Eyes. -->
+      <ellipse cx="-3" cy="-44" rx="1.2" ry="0.9" fill="#080404"/>
+      <ellipse cx="3" cy="-44" rx="1.2" ry="0.9" fill="#080404"/>
+      <!-- Brow. -->
+      <path d="M-5,-49 Q-3,-50 0,-49" stroke="#3a2810" stroke-width="0.7"/>
+      <path d="M0,-49 Q3,-50 5,-49" stroke="#3a2810" stroke-width="0.7"/>
+      <!-- Lips firm. -->
+      <line x1="-2" y1="-38" x2="3" y2="-38" stroke="#3a1810" stroke-width="0.8"/>
+      <!-- Cool catch on jaw (subtle). -->
+      <ellipse cx="0" cy="-36" rx="6" ry="1.2" fill="#dce4ff" opacity="0.45" filter="url(#p1p5bloom)"/>
+    </g>
+
+    <!-- WREN STANDING arms crossed impatient (LEFT of Sable). -->
+    <g id="p1p5-wren" transform="translate(160, 350)">
+      <!-- Lower legs. -->
+      <path d="M-10,40 L-12,72 L-14,98" fill="none" stroke="#5a3010" stroke-width="8" stroke-linecap="round"/>
+      <path d="M10,40 L12,72 L14,98" fill="none" stroke="#5a3010" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="-14" cy="100" rx="8" ry="3" fill="#080408"/>
+      <ellipse cx="14" cy="100" rx="8" ry="3" fill="#080408"/>
+      <!-- Warm amber on legs. -->
+      <path d="M-10,40 L-12,72 L-14,98" fill="none" stroke="#a85820" stroke-width="2.5" stroke-linecap="round" opacity="0.4" filter="url(#p1p5bloom)"/>
+      <path d="M10,40 L12,72 L14,98" fill="none" stroke="#a85820" stroke-width="2.5" stroke-linecap="round" opacity="0.4" filter="url(#p1p5bloom)"/>
+
+      <!-- Thighs. -->
+      <path d="M-13,5 L-10,40 L0,40" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+      <path d="M13,5 L10,40 L0,40" fill="#c87a35" stroke="#080408" stroke-width="0.5"/>
+
+      <!-- Torso. -->
+      <path d="M-16,-22 Q-20,5 -13,25 L13,25 Q20,5 16,-22 L7,-30 L-7,-30 Z" fill="#c87a35" stroke="#080408" stroke-width="0.6"/>
+      <line x1="0" y1="-20" x2="0" y2="20" stroke="#f5a868" stroke-width="0.4" opacity="0.7" filter="url(#p1p5bloom)"/>
+
+      <!-- Water spots + oil stains on forearms (continuity). -->
+      <g fill="#080a14" opacity="0.55">
+        <circle cx="-14" cy="-12" r="0.9"/>
+        <circle cx="14" cy="-12" r="0.9"/>
+      </g>
+
+      <!-- Shoulder pads. -->
+      <ellipse cx="-16" cy="-22" rx="6" ry="3.5" fill="#c87a35" stroke="#080408" stroke-width="0.4"/>
+      <ellipse cx="16" cy="-22" rx="6" ry="3.5" fill="#c87a35" stroke="#080408" stroke-width="0.4"/>
+
+      <!-- ARMS CROSSED across chest (impatient script-specific). -->
+      <path d="M-16,-12 L-8,5 L8,12 L18,8" fill="none" stroke="#c87a35" stroke-width="5" stroke-linecap="round"/>
+      <path d="M16,-12 L8,5 L-8,12 L-18,8" fill="none" stroke="#c87a35" stroke-width="5" stroke-linecap="round"/>
+      <!-- Hands tucked under arms. -->
+      <ellipse cx="-18" cy="8" rx="3" ry="2.2" fill="#5a3010"/>
+      <ellipse cx="18" cy="8" rx="3" ry="2.2" fill="#5a3010"/>
+      <!-- Oil stains on forearms (continuity). -->
+      <g fill="#1a0a08" opacity="0.7">
+        <ellipse cx="-12" cy="6" rx="3" ry="1.4"/>
+        <ellipse cx="12" cy="6" rx="3" ry="1.4"/>
+      </g>
+
+      <!-- Head. -->
+      <ellipse cx="0" cy="-40" rx="9" ry="10" fill="#d8b088"/>
+      <!-- Hair UP in messy bun. -->
+      <path d="M-7,-46 Q0,-50 7,-46 L7,-40 L-7,-40 Z" fill="#0a0a14"/>
+      <ellipse cx="0" cy="-52" rx="5" ry="3" fill="#0a0a14"/>
+      <!-- Eyes. -->
+      <ellipse cx="-3" cy="-40" rx="1.2" ry="0.9" fill="#0a0a14"/>
+      <ellipse cx="3" cy="-40" rx="1.2" ry="0.9" fill="#0a0a14"/>
+      <!-- Brow neutral-impatient. -->
+      <path d="M-5,-44 Q-3,-46 0,-44" stroke="#3a1808" stroke-width="0.7"/>
+      <path d="M0,-44 Q3,-46 5,-44" stroke="#3a1808" stroke-width="0.7"/>
+      <!-- Lips firm. -->
+      <line x1="-2" y1="-34" x2="3" y2="-34" stroke="#3a1810" stroke-width="0.7"/>
+    </g>
+
+    <!-- JINK CROUCHING right of Sable, ONE HAND IN CURLS, GRINNING (script-specific). -->
+    <g id="p1p5-jink" transform="translate(330, 380)">
+      <!-- Crouched legs. -->
+      <path d="M-10,40 Q-15,55 -10,68 L0,68 Q5,55 10,40 Z" fill="#0a4828" stroke="#080408" stroke-width="0.4"/>
+      <ellipse cx="-10" cy="70" rx="6" ry="2" fill="#080408"/>
+      <ellipse cx="10" cy="70" rx="6" ry="2" fill="#080408"/>
+
+      <!-- Body crouched compressed. -->
+      <path d="M-12,-14 Q-15,5 -10,30 L10,30 Q15,5 12,-14 L6,-20 L-6,-20 Z" fill="#2ed078" stroke="#080408" stroke-width="0.5"/>
+      <line x1="0" y1="-12" x2="0" y2="26" stroke="#7af0b0" stroke-width="0.4" opacity="0.85" filter="url(#p1p5bloom)"/>
+      <ellipse cx="0" cy="0" rx="13" ry="10" fill="#7af0b0" opacity="0.4" filter="url(#p1p5bloom)"/>
+
+      <!-- Shoulder pads. -->
+      <ellipse cx="-12" cy="-14" rx="5" ry="3" fill="#2ed078"/>
+      <ellipse cx="12" cy="-14" rx="5" ry="3" fill="#2ed078"/>
+
+      <!-- LEFT arm reaching UP TO HEAD (one hand in curls). -->
+      <path d="M-12,-8 L-14,-22 L-10,-32 L-2,-38" fill="none" stroke="#0a4828" stroke-width="4" stroke-linecap="round"/>
+      <!-- Hand in curls. -->
+      <ellipse cx="-2" cy="-38" rx="3" ry="2" fill="#e8c8a0"/>
+
+      <!-- RIGHT arm at side. -->
+      <path d="M12,-8 L16,8 L14,28" fill="none" stroke="#0a4828" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- Head. -->
+      <ellipse cx="0" cy="-32" rx="9" ry="10" fill="#e8c8a0"/>
+
+      <!-- WILD GOLDEN CURLS w/ hand in them (script-specific). -->
+      <g fill="#f5d860">
+        <circle cx="-5" cy="-40" r="2.5"/>
+        <circle cx="0" cy="-43" r="3"/>
+        <circle cx="5" cy="-41" r="2.5"/>
+        <circle cx="8" cy="-37" r="2"/>
+        <circle cx="-8" cy="-37" r="2"/>
+      </g>
+
+      <!-- GRINNING expression (script-specific). -->
+      <ellipse cx="-2" cy="-31" rx="1.2" ry="0.8" fill="#080404"/>
+      <ellipse cx="3" cy="-31" rx="1.2" ry="0.8" fill="#080404"/>
+      <!-- Big grin. -->
+      <path d="M-4,-25 Q0,-22 4,-25" stroke="#3a2010" stroke-width="0.8" fill="none"/>
+      <line x1="-4" y1="-25" x2="4" y2="-25" stroke="#dce4f0" stroke-width="0.6"/>
+    </g>
+
+    <!-- THRESH ON ONE KNEE, RIFLE ACROSS THIGHS (right of Jink, script-specific). -->
+    <g id="p1p5-thresh" transform="translate(420, 380)">
+      <!-- Kneeling pose: one leg knelt, one leg up. -->
+      <path d="M-12,40 L-12,60 L-22,72" fill="none" stroke="#5a1018" stroke-width="9" stroke-linecap="round"/>
+      <!-- Right leg up (knelt foot). -->
+      <ellipse cx="-22" cy="74" rx="9" ry="2.5" fill="#080408"/>
+      <!-- Left leg knelt under body. -->
+      <path d="M12,40 L20,55 L18,68" fill="none" stroke="#5a1018" stroke-width="9" stroke-linecap="round"/>
+      <ellipse cx="18" cy="70" rx="9" ry="2.5" fill="#080408"/>
+
+      <!-- Torso (slight forward lean — alert posture). -->
+      <path d="M-13,-15 Q-16,5 -12,28 L12,28 Q16,5 13,-15 L7,-22 L-7,-22 Z" fill="#dc2030" stroke="#080408" stroke-width="0.5"/>
+      <ellipse cx="0" cy="2" rx="13" ry="9" fill="#f54848" opacity="0.4" filter="url(#p1p5bloom)"/>
+
+      <!-- Shoulders w/ dented LEFT pauldron (continuity). -->
+      <ellipse cx="-13" cy="-14" rx="6" ry="3.5" fill="#a8182a" stroke="#080408" stroke-width="0.4"/>
+      <line x1="-15" y1="-12" x2="-11" y2="-10" stroke="#080404" stroke-width="0.4"/>
+      <ellipse cx="13" cy="-14" rx="6" ry="3.5" fill="#dc2030" stroke="#080408" stroke-width="0.4"/>
+
+      <!-- ARMS gripping rifle ACROSS THIGHS (script-specific). -->
+      <path d="M-13,-8 L-12,18 L-2,32" fill="none" stroke="#5a1018" stroke-width="4" stroke-linecap="round"/>
+      <path d="M13,-8 L12,18 L24,32" fill="none" stroke="#5a1018" stroke-width="4" stroke-linecap="round"/>
+      <!-- Compact rifle across thighs. -->
+      <rect x="-4" y="32" width="28" height="6" rx="0.7" fill="#1a0810" stroke="#080404" stroke-width="0.4"/>
+      <!-- Power node. -->
+      <circle cx="2" cy="35" r="1.4" fill="#c84038" opacity="0.55"/>
+
+      <!-- Head — WATCHING SKYLINE (looking off-frame upward). -->
+      <ellipse cx="2" cy="-32" rx="9" ry="10" fill="#d8a880" transform="rotate(15 2 -32)"/>
+      <!-- Buzz cap. -->
+      <path d="M-5,-38 Q2,-42 9,-38 L9,-32 L-5,-32 Z" fill="#a83a18" transform="rotate(15 2 -32)"/>
+      <!-- Eyes (looking up). -->
+      <ellipse cx="0" cy="-32" rx="1.2" ry="0.9" fill="#1a0808" transform="rotate(15 2 -32)"/>
+      <ellipse cx="5" cy="-32" rx="1.2" ry="0.9" fill="#1a0808" transform="rotate(15 2 -32)"/>
+      <!-- Brow set. -->
+      <path d="M-3,-37 Q0,-39 3,-37" stroke="#5a1808" stroke-width="0.7" transform="rotate(15 2 -32)"/>
+      <path d="M3,-37 Q6,-39 8,-37" stroke="#5a1808" stroke-width="0.7" transform="rotate(15 2 -32)"/>
+      <!-- Lips firm. -->
+      <line x1="-1" y1="-26" x2="5" y2="-26" stroke="#3a1810" stroke-width="0.7" transform="rotate(15 2 -32)"/>
+    </g>
+
+    <!-- LUMA ACTIVATING SCANNER (RIGHT-most, blue-violet holo blooming from wrist). -->
+    <g id="p1p5-luma" transform="translate(80, 360)">
+
+      <!-- Crouched/standing pose. -->
+      <path d="M-10,40 L-12,80 L-14,98" fill="none" stroke="#1a1058" stroke-width="8" stroke-linecap="round"/>
+      <path d="M10,40 L12,80 L14,98" fill="none" stroke="#1a1058" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="-14" cy="100" rx="8" ry="3" fill="#080408"/>
+      <ellipse cx="14" cy="100" rx="8" ry="3" fill="#080408"/>
+
+      <!-- Body. -->
+      <path d="M-13,-15 Q-16,5 -12,30 L12,30 Q16,5 13,-15 L7,-22 L-7,-22 Z" fill="#5a3ad8" stroke="#080408" stroke-width="0.5"/>
+      <line x1="0" y1="-12" x2="0" y2="28" stroke="#a890f0" stroke-width="0.4" opacity="0.7" filter="url(#p1p5bloom)"/>
+      <ellipse cx="0" cy="2" rx="13" ry="10" fill="#a890f0" opacity="0.4" filter="url(#p1p5bloom)"/>
+
+      <!-- Shoulder pads. -->
+      <ellipse cx="-13" cy="-14" rx="6" ry="3.5" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+      <ellipse cx="13" cy="-14" rx="6" ry="3.5" fill="#5a3ad8" stroke="#080408" stroke-width="0.4"/>
+
+      <!-- LEFT arm raised w/ scanner activating (script: blue-violet holo blooming from wrist). -->
+      <path d="M-13,-8 L-22,8 L-32,18" fill="none" stroke="#5a3ad8" stroke-width="4" stroke-linecap="round"/>
+      <!-- Wrist emitter (blooming holo). -->
+      <circle cx="-32" cy="20" r="3" fill="#a890f0" filter="url(#p1p5bloom)"/>
+      <!-- Holo bloom from wrist. -->
+      <ellipse cx="-32" cy="20" rx="20" ry="14" fill="url(#p1p5sapphireScanner)" filter="url(#p1p5strongBloom)" opacity="0.85"/>
+      <!-- Holographic readout (small floating). -->
+      <g stroke="#dce4ff" stroke-width="0.5" opacity="0.85" fill="none" filter="url(#p1p5bloom)">
+        <line x1="-44" y1="14" x2="-30" y2="14"/>
+        <line x1="-44" y1="20" x2="-32" y2="20"/>
+        <line x1="-44" y1="26" x2="-30" y2="26"/>
+        <polygon points="-30,12 -28,12 -27,14 -28,16 -30,16 -31,14"/>
+      </g>
+
+      <!-- RIGHT arm at side. -->
+      <path d="M13,-8 L16,8 L14,28" fill="none" stroke="#5a3ad8" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- Head. -->
+      <ellipse cx="0" cy="-32" rx="9" ry="10" fill="#a87850"/>
+      <!-- Dark hair w/ braid. -->
+      <path d="M-7,-38 Q0,-42 7,-38 L7,-32 L-7,-32 Z" fill="#1a1018"/>
+      <!-- Braid down right shoulder. -->
+      <path d="M7,-32 Q9,-22 8,-10" stroke="#1a1018" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <!-- Sapphire filament. -->
+      <path d="M7,-32 Q9,-22 8,-10" stroke="#a890f0" stroke-width="0.5" fill="none" filter="url(#p1p5bloom)" opacity="0.85"/>
+      <!-- Holo lenses (one cracked). -->
+      <ellipse cx="-3" cy="-32" rx="1.5" ry="1" fill="#a890f0" opacity="0.85" stroke="#5a3ad8" stroke-width="0.3"/>
+      <ellipse cx="3" cy="-32" rx="1.5" ry="1" fill="#a890f0" opacity="0.55" stroke="#5a3ad8" stroke-width="0.3"/>
+      <line x1="3" y1="-33" x2="5" y2="-31" stroke="#080408" stroke-width="0.3"/>
+      <!-- Lips listening. -->
+      <line x1="-2" y1="-25" x2="3" y2="-25" stroke="#3a1810" stroke-width="0.7"/>
+    </g>
+
+  </g>
+
+  <!-- Dialogue OUTSIDE the dutch rotation. -->
+
+  <!-- SABLE briefing (top, multi-line). -->
+  <g id="p1p5-dlg-sable">
+    <rect x="84" y="14" width="320" height="92" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="94" y="33" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="94" y="51" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Main wreckage bearing two-seven-zero,</text>
+    <text x="94" y="68" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">estimated four blocks. Drive housing.</text>
+    <text x="94" y="85" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" font-style="italic" fill="#3a3030">We get there. We assess. We plan.</text>
+    <text x="94" y="101" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-weight="500" font-style="italic" fill="#5a4030">(at our scale, an expedition. Move in 30.)</text>
+    <path d="M196,106 L214,106 L244,330 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="196" y1="106" x2="214" y2="106" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- WREN reply (lower-left). -->
+  <g id="p1p5-dlg-wren">
+    <rect x="14" y="380" width="138" height="44" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="398" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="415" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Four blocks.</text>
+    <path d="M88,380 L106,380 L120,360 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="88" y1="380" x2="106" y2="380" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta tag. -->
+  <g id="p1p5-meta">
+    <text x="479" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">5</text>
+    <text x="483" y="452" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">SQUAD BRIEF — MISSION SET</text>
+  </g>
+</svg>
