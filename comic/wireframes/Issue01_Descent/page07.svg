@@ -1,40 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 1200" width="800" height="1200" style="background:#ffffff">
   <title>GrimGlow Issue 1 — Page 7 — "The Wreckage" — handcrafted preview</title>
-  <desc>Page 7 of Issue 1, Section 3 opens. 5 panels: top widescreen establishing of gutter+wreckage with Sable face-down; ECU Sable's twitching hand (first consciousness); medium shot Sable rising from debris; CU Sable face scanning command-mode; bird's-eye showing all 5 squad members scattered through the cast-iron gutter against the vast Victorian rooftop. Section 3: THE WRECKAGE. The squad has fresh-impact wear state.</desc>
+  <desc>Page 7 of Issue 1, Section 3 opens. 5 panels in 3 tiers filling 1200px page: shallow widescreen establishing top + 3-panel middle row + dramatic bird's-eye reveal bottom.</desc>
 
   <style>
     text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
   </style>
 
-  <!-- Page title. -->
   <text x="400" y="22" text-anchor="middle" font-size="16" fill="#888" font-weight="500">PAGE 7  (5 panels)</text>
 
-  <!-- TOP TIER: Panel 1 — full-width widescreen 742×220 at (29, 59) -->
+  <!-- TOP TIER: P1 shallow widescreen 742×220 at (29, 59) -->
   <g id="page7-panel1">
     <image x="29" y="59" width="742" height="220" xlink:href="_panels/Issue01_Descent/page07_panel01.svg"/>
     <rect x="29" y="59" width="742" height="220" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
   </g>
 
-  <!-- MIDDLE TIER: P2 narrow-left + P3 wide-center + P4 narrow-right at y=290 -->
+  <!-- MIDDLE TIER: P2 narrow + P3 wide + P4 narrow, all 320 tall at y=289 -->
   <g id="page7-panel2">
-    <image x="29" y="290" width="175" height="280" xlink:href="_panels/Issue01_Descent/page07_panel02.svg"/>
-    <rect x="29" y="290" width="175" height="280" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
+    <image x="29" y="289" width="175" height="320" xlink:href="_panels/Issue01_Descent/page07_panel02.svg"/>
+    <rect x="29" y="289" width="175" height="320" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
   </g>
 
   <g id="page7-panel3">
-    <image x="215" y="290" width="372" height="280" xlink:href="_panels/Issue01_Descent/page07_panel03.svg"/>
-    <rect x="215" y="290" width="372" height="280" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
+    <image x="215" y="289" width="372" height="320" xlink:href="_panels/Issue01_Descent/page07_panel03.svg"/>
+    <rect x="215" y="289" width="372" height="320" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
   </g>
 
   <g id="page7-panel4">
-    <image x="598" y="290" width="175" height="280" xlink:href="_panels/Issue01_Descent/page07_panel04.svg"/>
-    <rect x="598" y="290" width="175" height="280" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
+    <image x="598" y="289" width="175" height="320" xlink:href="_panels/Issue01_Descent/page07_panel04.svg"/>
+    <rect x="598" y="289" width="175" height="320" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
   </g>
 
-  <!-- BOTTOM TIER: P5 full-width 742×550 at (29, 580) -->
+  <!-- BOTTOM TIER: P5 dramatic bird's-eye 742×562 at (29, 619) -->
   <g id="page7-panel5">
-    <image x="29" y="580" width="742" height="550" xlink:href="_panels/Issue01_Descent/page07_panel05.svg"/>
-    <rect x="29" y="580" width="742" height="550" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
+    <image x="29" y="619" width="742" height="562" xlink:href="_panels/Issue01_Descent/page07_panel05.svg"/>
+    <rect x="29" y="619" width="742" height="562" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="2"/>
   </g>
 
 </svg>

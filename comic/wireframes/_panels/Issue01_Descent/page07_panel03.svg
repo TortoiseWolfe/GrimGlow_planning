@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 280" width="372" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 320" width="372" height="320">
   <title>Issue 1 — Page 7 — Panel 3: Sable rises from gutter floor, soldier discipline</title>
   <desc>Medium shot, low angle (ground level looking up and across) at 35mm. Sable pushing herself up from gutter floor — one arm braced, head hanging, debris falling from shoulders (leaf fragments, soot, hull plating sliding off back). Behind her: wreckage field, crumpled hull wedged against slate, sparking conduits, shattered console half-buried in dead leaves. Above gutter wall: night sky with stars, chimney smoke haze, distant chimney pots like dark towers. Cool wreckage light from behind silhouettes her, casts shadow forward. Warm city sky-glow rims gutter edge + chimneys. Disorientation hardening into focus. SABLE: "...status."</desc>
 
@@ -92,7 +92,7 @@
   </g>
 
   <!-- Gutter floor. -->
-  <rect y="100" width="372" height="180" fill="url(#p7p3floor)"/>
+  <rect y="100" width="372" height="220" fill="url(#p7p3floor)"/>
 
   <!-- Wreckage field BEHIND Sable (background, glowing cool). -->
   <g id="p7p3-bg-wreckage">
@@ -129,7 +129,7 @@
   <!-- ========================================================== -->
   <!-- LAYER: SABLE rising — one arm braced, head hanging           -->
   <!-- ========================================================== -->
-  <g id="p7p3-sable" filter="url(#p7p3dropShadow)">
+  <g id="p7p3-sable" filter="url(#p7p3dropShadow)" transform="translate(0, 40)">
     <!-- Shadow cast forward by cool wreckage light from behind. -->
     <ellipse cx="180" cy="270" rx="50" ry="6" fill="#000000" opacity="0.55"/>
 
@@ -215,6 +215,6 @@
 
   <g id="p7p3-meta">
     <text x="362" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">3</text>
-    <text x="366" y="272" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">MED</text>
+    <text x="366" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">MED</text>
   </g>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 280" width="175" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 320" width="175" height="320">
   <title>Issue 1 — Page 7 — Panel 2: ECU Sable's hand twitching, first sign of consciousness</title>
   <desc>ECU at 135mm, slight high angle. Sable's hand in cracked silver gauntlet, fingers splayed flat against gritty soot-coated iron surface. Two hairline fractures along knuckle joints leak faint blue-white light. Fingers twitching — first sign of consciousness. Beside hand, shard of crystalline material flickers dying geometric patterns blue-white. Cool from cracked gauntlet + nearby shard. Faint warm amber from below catches soot particle edges. Smallest gesture of survival.</desc>
 
@@ -20,7 +20,7 @@
   </defs>
 
   <!-- Soot/grime gutter floor surface. -->
-  <rect width="175" height="280" fill="url(#p7p2soot)"/>
+  <rect width="175" height="320" fill="url(#p7p2soot)"/>
   <!-- Coal grit texture. -->
   <g fill="#0a0204">
     <circle cx="20" cy="40" r="0.7"/>
@@ -32,13 +32,23 @@
     <circle cx="120" cy="240" r="0.8"/>
     <circle cx="160" cy="220" r="0.9"/>
     <circle cx="50" cy="260" r="0.7"/>
+    <circle cx="80" cy="300" r="0.9"/>
+    <circle cx="120" cy="320" r="0.7"/>
+    <circle cx="40" cy="340" r="0.8"/>
+    <circle cx="160" cy="340" r="0.6"/>
   </g>
-  <!-- Iron texture (faint metallic streaks). -->
+  <!-- Iron texture. -->
   <g stroke="#3a2818" stroke-width="0.4" opacity="0.5">
     <line x1="0" y1="50" x2="175" y2="60"/>
     <line x1="0" y1="120" x2="175" y2="115"/>
     <line x1="0" y1="200" x2="175" y2="195"/>
+    <line x1="0" y1="280" x2="175" y2="285"/>
+    <line x1="0" y1="340" x2="175" y2="335"/>
   </g>
+
+  <!-- Additional debris in lower zone (extends visual interest into new area). -->
+  <ellipse cx="60" cy="320" rx="14" ry="3" fill="#5a3818" opacity="0.85"/>
+  <line x1="100" y1="316" x2="140" y2="320" stroke="#3a2010" stroke-width="2" stroke-linecap="round"/>
 
   <!-- Crystalline shard left of hand — flickering. -->
   <g filter="url(#p7p2bloom)">
@@ -118,6 +128,6 @@
 
   <g id="p7p2-meta">
     <text x="165" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">2</text>
-    <text x="169" y="272" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">ECU</text>
+    <text x="169" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">ECU</text>
   </g>
 </svg>

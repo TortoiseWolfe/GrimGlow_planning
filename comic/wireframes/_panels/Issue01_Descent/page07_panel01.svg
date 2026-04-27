@@ -113,7 +113,6 @@
     <!-- Large curled leaf left foreground. -->
     <path d="M40,170 Q60,150 110,150 Q150,160 130,180 Q100,196 60,194 Q40,190 40,170 Z" fill="url(#p7p1leaf)"/>
     <line x1="60" y1="170" x2="120" y2="172" stroke="#1a0808" stroke-width="0.7" opacity="0.85"/>
-    <!-- Leaf veins. -->
     <g stroke="#3a1810" stroke-width="0.5" fill="none" opacity="0.7">
       <path d="M70,158 L80,180"/>
       <path d="M85,154 L92,184"/>
@@ -149,24 +148,19 @@
       <polygon points="380,130 420,124 432,140 412,156 388,150 376,140" fill="url(#p7p1coolGlow)" opacity="0.85"/>
     </g>
     <polygon points="382,132 418,126 428,140 410,154 388,148 378,140" fill="none" stroke="#bfe4ff" stroke-width="0.8" opacity="0.95"/>
-    <!-- Cracked geometric pattern inside. -->
     <line x1="382" y1="132" x2="418" y2="148" stroke="#ffffff" stroke-width="0.6" opacity="0.95"/>
     <line x1="396" y1="126" x2="412" y2="156" stroke="#ffffff" stroke-width="0.6" opacity="0.95"/>
     <line x1="408" y1="126" x2="388" y2="150" stroke="#ffffff" stroke-width="0.5" opacity="0.85"/>
 
     <!-- Conduit bundle leaking luminescent fluid. -->
     <path d="M250,158 Q280,150 320,160 L325,168 Q280,160 250,168 Z" fill="#0a1228"/>
-    <!-- Leaked fluid trails. -->
     <ellipse cx="278" cy="180" rx="20" ry="3" fill="url(#p7p1fluid)" filter="url(#p7p1bloom)" opacity="0.85"/>
-    <!-- Drip line. -->
     <line x1="285" y1="168" x2="285" y2="182" stroke="#a8f5c8" stroke-width="1" opacity="0.85"/>
 
     <!-- Sparking conduit (right). -->
     <path d="M580,140 Q610,130 640,140" stroke="#0a1228" stroke-width="3" fill="none" stroke-linecap="round"/>
-    <!-- Spark. -->
     <circle cx="610" cy="138" r="2" fill="#bfe4ff" filter="url(#p7p1bloom)"/>
     <circle cx="610" cy="138" r="0.8" fill="#ffffff"/>
-    <!-- Tiny secondary sparks. -->
     <circle cx="618" cy="135" r="0.7" fill="#bfe4ff" opacity="0.85"/>
     <circle cx="600" cy="142" r="0.6" fill="#bfe4ff" opacity="0.7"/>
 
@@ -182,22 +176,19 @@
   <g id="p7p1-sable-down">
     <!-- Body sprawl. -->
     <ellipse cx="370" cy="190" rx="22" ry="6" fill="url(#p7p1silver)"/>
-    <!-- Suit highlight (slightly catching wreckage light). -->
     <ellipse cx="370" cy="188" rx="20" ry="3" fill="#c4c8cf" opacity="0.65"/>
     <!-- Head (small dark — face-down). -->
     <ellipse cx="350" cy="190" rx="6" ry="5" fill="#3a2418"/>
-    <!-- Cropped silver hair atop head. -->
     <ellipse cx="350" cy="188" rx="5" ry="3" fill="#d4d6db" opacity="0.85"/>
     <!-- Arms splayed. -->
     <path d="M348,192 Q330,196 320,200 L322,204 Q335,200 350,196 Z" fill="url(#p7p1silver)"/>
     <path d="M390,192 Q408,196 418,200 L416,204 Q403,200 390,196 Z" fill="url(#p7p1silver)"/>
-    <!-- Hand smudges visible. -->
     <ellipse cx="320" cy="202" rx="3" ry="2" fill="#3a2418"/>
     <ellipse cx="418" cy="202" rx="3" ry="2" fill="#3a2418"/>
-    <!-- Cracked panel on right shoulder leaking blue-white light. -->
+    <!-- Cracked panel on right shoulder leaking blue-white. -->
     <ellipse cx="386" cy="188" rx="3" ry="2" fill="#bfe4ff" filter="url(#p7p1bloom)" opacity="0.85"/>
     <ellipse cx="386" cy="188" rx="1.5" ry="1" fill="#ffffff"/>
-    <!-- Soot/leaf debris on her body. -->
+    <!-- Soot/leaf debris on body. -->
     <circle cx="365" cy="188" r="0.8" fill="#0a0204"/>
     <circle cx="375" cy="190" r="0.8" fill="#0a0204"/>
     <circle cx="368" cy="192" r="0.6" fill="#0a0204"/>
@@ -207,9 +198,7 @@
   <!-- LAYER: gutter recedes into darkness on both ends             -->
   <!-- ========================================================== -->
   <g id="p7p1-distance">
-    <!-- Left dark recession. -->
     <ellipse cx="0" cy="120" rx="60" ry="80" fill="#000000" opacity="0.85"/>
-    <!-- Right dark recession. -->
     <ellipse cx="742" cy="120" rx="60" ry="80" fill="#000000" opacity="0.85"/>
   </g>
 
@@ -220,9 +209,6 @@
     <ellipse cx="610" cy="138" rx="60" ry="20" fill="#5aa6dc"/>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- LAYER: panel meta                                           -->
-  <!-- ========================================================== -->
   <g id="p7p1-meta">
     <text x="730" y="20" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.85">1</text>
     <text x="734" y="212" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.7">WIDE</text>
