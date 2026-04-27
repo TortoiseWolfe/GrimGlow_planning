@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 320" width="366" height="320">
+  <title>Issue 2 — Page 22 — Panel 3: Tom remembers grandmother's stories, folklore stirs quiet</title>
+  <desc>MCU 65mm eye level. Older man Tom 60s sits pub table tankard both hands looking down ale rather Hobday. Grey hair worn bowler heavy wool coat hands worked decades. Expression opposite skeptics: not amused dismissive. Remembering. Grandmother told stories small lights moved purpose dark. Good folk fair folk ones don't name full moon. Never believed never disbelieved. Eyes distant looking inward seeing kitchen old woman firelight stories things in walls. Deciding speak. Firelight older deeper richer — light of memory grandmother's kitchen onto Clerkenwell pub. TOM quiet into ale nan told such things lived in walls / TOM hear at night listened small sounds purposeful / SKEPTIC OP not helping / TOM not trying telling what told.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p22p3pubBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1810"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <radialGradient id="p22p3memoryFire">
+      <stop offset="0%" stop-color="#a85820" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#5a2818" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a0808" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p22p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p22p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p22p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG warm pub but DEEPER, older. -->
+  <rect width="366" height="320" fill="url(#p22p3pubBg)"/>
+
+  <!-- DEEPER MEMORY FIRELIGHT (older, richer). -->
+  <ellipse cx="0" cy="160" rx="280" ry="240" fill="url(#p22p3memoryFire)" filter="url(#p22p3deepBloom)" opacity="0.85"/>
+
+  <!-- Background pub continues blur. -->
+  <g opacity="0.45" filter="url(#p22p3bloom)">
+    <ellipse cx="280" cy="100" rx="22" ry="32" fill="#3a2818"/>
+    <ellipse cx="320" cy="120" rx="18" ry="28" fill="#5a3018"/>
+  </g>
+
+  <!-- Tobacco haze. -->
+  <ellipse cx="200" cy="60" rx="180" ry="30" fill="#a89870" filter="url(#p22p3deepBloom)" opacity="0.45"/>
+
+  <!-- Pub table edge. -->
+  <ellipse cx="183" cy="320" rx="220" ry="14" fill="#3a1810" stroke="#080404" stroke-width="0.85"/>
+  <ellipse cx="183" cy="312" rx="220" ry="8" fill="#5a3018" stroke="#080404" stroke-width="0.4"/>
+
+  <!-- Tom's TANKARD on table (in his hands). -->
+  <g id="p22p3-tankard">
+    <rect x="155" y="252" width="56" height="44" rx="2" fill="#5a606a" stroke="#3a3a44" stroke-width="0.85"/>
+    <ellipse cx="183" cy="252" rx="28" ry="6" fill="#3a3028" stroke="#080404" stroke-width="0.4"/>
+    <!-- Ale meniscus. -->
+    <ellipse cx="183" cy="254" rx="22" ry="3" fill="#a85820" opacity="0.85" filter="url(#p22p3bloom)"/>
+    <!-- Foam. -->
+    <ellipse cx="183" cy="252" rx="20" ry="1.4" fill="#f5e8c8" opacity="0.85" filter="url(#p22p3bloom)"/>
+    <!-- Handle. -->
+    <path d="M211,264 Q225,272 220,288 L213,286 Q220,280 207,272 Z" fill="#5a606a" stroke="#3a3a44" stroke-width="0.5"/>
+    <!-- Highlights. -->
+    <ellipse cx="170" cy="275" rx="3" ry="14" fill="#a8b0bc" opacity="0.55" filter="url(#p22p3bloom)"/>
+  </g>
+
+  <!-- TOM MCU center frame. -->
+  <g id="p22p3-tom" transform="translate(183, 200)">
+    <!-- Body upper torso (settled, hands on tankard at bottom). -->
+    <path d="M-50,120 L-58,40 L-50,5 L-30,-15 L-15,-22 L15,-22 L30,-15 L50,5 L58,40 L50,120 Z" fill="#3a2818" stroke="#080404" stroke-width="0.85"/>
+
+    <!-- HANDS WRAPPED around tankard (visible at bottom of frame on tankard). -->
+    <path d="M-30,40 L-32,80 L-22,90 L-15,68 Z" fill="#3a2818" stroke="#080404" stroke-width="0.5"/>
+    <path d="M30,40 L32,80 L22,90 L15,68 Z" fill="#3a2818" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="-25" cy="84" rx="6" ry="4" fill="#a87850" stroke="#3a1808" stroke-width="0.4"/>
+    <ellipse cx="25" cy="84" rx="6" ry="4" fill="#a87850" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Knuckle definition. -->
+    <g stroke="#5a3a18" stroke-width="0.4">
+      <line x1="-29" y1="80" x2="-29" y2="86"/>
+      <line x1="-25" y1="80" x2="-25" y2="86"/>
+      <line x1="-21" y1="80" x2="-21" y2="86"/>
+      <line x1="21" y1="80" x2="21" y2="86"/>
+      <line x1="25" y1="80" x2="25" y2="86"/>
+      <line x1="29" y1="80" x2="29" y2="86"/>
+    </g>
+
+    <!-- HEAD older, 60s. -->
+    <ellipse cx="0" cy="-50" rx="32" ry="34" fill="#d8a880"/>
+
+    <!-- BOWLER HAT worn. -->
+    <path d="M-30,-78 Q0,-90 30,-78 L34,-72 L-34,-72 Z" fill="#1a0808"/>
+    <rect x="-34" y="-74" width="68" height="6" fill="#1a0808"/>
+    <!-- Hat highlight. -->
+    <ellipse cx="0" cy="-86" rx="14" ry="2" fill="#3a3028" opacity="0.85"/>
+
+    <!-- Grey hair under hat. -->
+    <g stroke="#a8a8a0" stroke-width="0.85" opacity="0.85">
+      <path d="M-26,-66 Q-22,-62 -18,-64"/>
+      <path d="M22,-66 Q24,-62 28,-64"/>
+    </g>
+
+    <!-- Weathered face — DEEP lines. -->
+    <g stroke="#5a3a18" stroke-width="0.95" fill="none" opacity="0.85">
+      <path d="M-22,-30 Q-18,-25 -12,-23"/>
+      <path d="M22,-30 Q18,-25 12,-23"/>
+      <path d="M-15,-12 Q-10,-10 -8,-12"/>
+      <path d="M8,-12 Q10,-10 15,-12"/>
+      <path d="M-6,-2 Q-3,0 0,-2"/>
+      <path d="M-15,5 Q-10,8 -5,5"/>
+      <path d="M5,5 Q10,8 15,5"/>
+    </g>
+
+    <!-- Brows soft. -->
+    <path d="M-22,-58 Q-12,-62 0,-58" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M0,-58 Q12,-62 22,-58" stroke="#1a0808" stroke-width="2" fill="none"/>
+
+    <!-- EYES looking DOWN at ale. -->
+    <ellipse cx="-12" cy="-44" rx="5" ry="2.5" fill="#dce4f0"/>
+    <ellipse cx="12" cy="-44" rx="5" ry="2.5" fill="#dce4f0"/>
+    <ellipse cx="-12" cy="-43" rx="2" ry="1.4" fill="#3a2010"/>
+    <ellipse cx="12" cy="-43" rx="2" ry="1.4" fill="#3a2010"/>
+    <ellipse cx="-12" cy="-43" rx="1.2" ry="0.85" fill="#080404"/>
+    <ellipse cx="12" cy="-43" rx="1.2" ry="0.85" fill="#080404"/>
+    <!-- Eyes are DISTANT — looking inward, slight unfocus. -->
+    <!-- No catch-light (he's not seeing the room). -->
+
+    <!-- Cheekbones warm. -->
+    <ellipse cx="-22" cy="-22" rx="8" ry="4" fill="#5a3a18" opacity="0.65" filter="url(#p22p3bloom)"/>
+    <ellipse cx="22" cy="-22" rx="8" ry="4" fill="#5a3a18" opacity="0.65" filter="url(#p22p3bloom)"/>
+    <ellipse cx="0" cy="-30" rx="32" ry="22" fill="#a85820" opacity="0.45" filter="url(#p22p3strongBloom)"/>
+
+    <!-- Nose. -->
+    <path d="M-3,-38 L0,-22 L-4,-15" stroke="#3a1808" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <!-- Mouth — neutral, slight downturn (remembering). -->
+    <line x1="-10" y1="-2" x2="10" y2="-2" stroke="#3a1810" stroke-width="1.4"/>
+    <!-- Lower lip slight pucker. -->
+    <path d="M-5,0 Q0,2 5,0" stroke="#3a1810" stroke-width="0.7" fill="none"/>
+
+    <!-- Grey moustache subtle. -->
+    <g fill="#5a5048" opacity="0.65">
+      <ellipse cx="-7" cy="-7" rx="4" ry="1"/>
+      <ellipse cx="7" cy="-7" rx="4" ry="1"/>
+    </g>
+
+    <!-- Jaw. -->
+    <ellipse cx="-22" cy="-12" rx="3" ry="2" fill="#5a3a18" opacity="0.55"/>
+    <ellipse cx="22" cy="-12" rx="3" ry="2" fill="#5a3a18" opacity="0.55"/>
+  </g>
+
+  <!-- DIALOGUE -->
+  <g id="p22p3-bal-tom1">
+    <rect x="14" y="14" width="240" height="60" rx="8" fill="#ffffff" stroke="#5a4a30" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a4a30" letter-spacing="0.3">TOM</text>
+    <text x="56" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(quiet, into his ale)</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">My nan told about such things.</text>
+    <text x="24" y="67" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Said they lived in the walls.</text>
+  </g>
+
+  <g id="p22p3-bal-tom2">
+    <rect x="14" y="80" width="240" height="60" rx="8" fill="#ffffff" stroke="#5a4a30" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="98" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a4a30" letter-spacing="0.3">TOM</text>
+    <text x="24" y="116" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">You'd hear them at night.</text>
+    <text x="24" y="133" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Small sounds. Purposeful.</text>
+  </g>
+
+  <g id="p22p3-bal-skeptic-op">
+    <rect x="160" y="146" width="200" height="42" rx="8" fill="#ffffff" stroke="#5a4a30" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="170" y="164" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#5a4a30" letter-spacing="0.3">SKEPTIC (O.P.)</text>
+    <text x="170" y="182" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Tom, you're not helping.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p22p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">3</text>
+    <text x="362" y="312" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">REMEMBERING</text>
+  </g>
+</svg>

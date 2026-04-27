@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 420" width="742" height="420">
+  <title>Issue 2 — Page 22 — Panel 4: CLOSING IMAGE — pub exterior + fairy glow above, two worlds</title>
+  <desc>Wide 28mm human scale eye level. Pub exterior night. Warm inviting Victorian pub frosted glass windows glowing golden from within. Painted pub sign The Three Bells above door. Gaslight from lamp beside entrance. Street wet reflecting warm light long amber streaks cobblestones. Through frosted windows warm shapes pub occupants visible indistinct human alive. Hobday's story being told behind glass in warmth already spreading. Folklore begun. ABOVE pub two stories up brick facade — small gap brickwork half-brick crumbled. Inside gap visible only because reader knows look — faint blue-white holographic glow. Tiny geometric structured. Perimeter light fairy base camp human scale impossibly small impossibly distant fairy light as rumour edge vision. Two worlds: warm amber pub below man tells neighbours lights dark, cool blue-white above five tiny soldiers sleep wall. Both becoming part of same story. CAPTION pub below man told story lights dark / CAPTION wall above lights burned on.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p22p4nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0808"/>
+      <stop offset="100%" stop-color="#1a1010"/>
+    </linearGradient>
+    <linearGradient id="p22p4buildingBrick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p22p4cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4a30"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <radialGradient id="p22p4windowGlow">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p22p4lampGlow">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#f5b860" stop-opacity="0.85"/>
+      <stop offset="80%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p22p4fairyGlow">
+      <stop offset="0%" stop-color="#a8d8f8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#5a808a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a4868" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p22p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p22p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p22p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG night sky upper. -->
+  <rect width="742" height="60" fill="url(#p22p4nightSky)"/>
+
+  <!-- Stars faint. -->
+  <g fill="#dce4f0" opacity="0.55">
+    <circle cx="80" cy="20" r="0.4"/>
+    <circle cx="200" cy="15" r="0.4"/>
+    <circle cx="380" cy="25" r="0.4"/>
+    <circle cx="500" cy="18" r="0.4"/>
+    <circle cx="640" cy="22" r="0.4"/>
+  </g>
+
+  <!-- BUILDING facade (full height). -->
+  <rect x="0" y="60" width="742" height="280" fill="url(#p22p4buildingBrick)" stroke="#080404" stroke-width="0.85"/>
+
+  <!-- Brick courses. -->
+  <g stroke="#080404" stroke-width="0.4" opacity="0.65">
+    <line x1="0" y1="80" x2="742" y2="80"/>
+    <line x1="0" y1="100" x2="742" y2="100"/>
+    <line x1="0" y1="120" x2="742" y2="120"/>
+    <line x1="0" y1="140" x2="742" y2="140"/>
+    <line x1="0" y1="160" x2="742" y2="160"/>
+    <line x1="0" y1="180" x2="742" y2="180"/>
+    <line x1="0" y1="200" x2="742" y2="200"/>
+    <line x1="0" y1="220" x2="742" y2="220"/>
+    <line x1="0" y1="240" x2="742" y2="240"/>
+    <line x1="0" y1="260" x2="742" y2="260"/>
+    <line x1="0" y1="280" x2="742" y2="280"/>
+  </g>
+
+  <!-- Soot streaks. -->
+  <g fill="#080404" opacity="0.55">
+    <ellipse cx="80" cy="120" rx="20" ry="22"/>
+    <ellipse cx="380" cy="140" rx="22" ry="24"/>
+    <ellipse cx="640" cy="120" rx="18" ry="22"/>
+    <ellipse cx="180" cy="180" rx="18" ry="20"/>
+    <ellipse cx="500" cy="160" rx="16" ry="18"/>
+  </g>
+
+  <!-- THE GAP — high on facade (TWO STORIES UP — the squad's base). -->
+  <g id="p22p4-gap">
+    <rect x="320" y="100" width="14" height="20" fill="#080404" stroke="#1a0808" stroke-width="0.5"/>
+    <!-- THE FAINT BLUE-WHITE FAIRY GLOW — barely visible. -->
+    <ellipse cx="327" cy="110" rx="14" ry="14" fill="url(#p22p4fairyGlow)" filter="url(#p22p4deepBloom)" opacity="0.85"/>
+    <circle cx="327" cy="110" r="2" fill="#dce4f0" opacity="0.95" filter="url(#p22p4bloom)"/>
+    <!-- Tiny perimeter line hint. -->
+    <g stroke="#a8d8f8" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#p22p4bloom)">
+      <path d="M322,108 L332,108"/>
+      <path d="M322,112 L332,112"/>
+    </g>
+  </g>
+
+  <!-- DRAINPIPE near the gap. -->
+  <rect x="290" y="100" width="10" height="240" fill="#1a1010" stroke="#080404" stroke-width="0.5"/>
+  <!-- Bracket. -->
+  <rect x="287" y="180" width="16" height="5" fill="#080404"/>
+
+  <!-- WINDOWS UPPER STORIES (mostly dark, some lit). -->
+  <g id="p22p4-windows-upper">
+    <!-- Dark windows. -->
+    <g fill="#1a0808" stroke="#080404" stroke-width="0.7">
+      <rect x="40" y="100" width="36" height="50" rx="1"/>
+      <rect x="100" y="100" width="36" height="50" rx="1"/>
+      <rect x="540" y="100" width="36" height="50" rx="1"/>
+      <rect x="600" y="100" width="36" height="50" rx="1"/>
+      <rect x="660" y="100" width="36" height="50" rx="1"/>
+    </g>
+    <g stroke="#3a2010" stroke-width="0.5" opacity="0.85">
+      <line x1="58" y1="100" x2="58" y2="150"/>
+      <line x1="40" y1="125" x2="76" y2="125"/>
+      <line x1="118" y1="100" x2="118" y2="150"/>
+      <line x1="100" y1="125" x2="136" y2="125"/>
+      <line x1="558" y1="100" x2="558" y2="150"/>
+      <line x1="540" y1="125" x2="576" y2="125"/>
+      <line x1="618" y1="100" x2="618" y2="150"/>
+      <line x1="600" y1="125" x2="636" y2="125"/>
+      <line x1="678" y1="100" x2="678" y2="150"/>
+      <line x1="660" y1="125" x2="696" y2="125"/>
+    </g>
+    <!-- One window lit (bedroom upstairs). -->
+    <rect x="160" y="100" width="36" height="50" rx="1" fill="#5a3018" stroke="#080404" stroke-width="0.7"/>
+    <ellipse cx="178" cy="125" rx="14" ry="22" fill="#f5b860" opacity="0.85" filter="url(#p22p4bloom)"/>
+    <line x1="178" y1="100" x2="178" y2="150" stroke="#3a2010" stroke-width="0.5"/>
+    <line x1="160" y1="125" x2="196" y2="125" stroke="#3a2010" stroke-width="0.5"/>
+  </g>
+
+  <!-- PUB SIGN above door. -->
+  <g id="p22p4-sign">
+    <rect x="290" y="200" width="160" height="40" fill="#3a1810" stroke="#080404" stroke-width="0.85"/>
+    <text x="370" y="220" text-anchor="middle" font-family="serif" font-size="11" font-weight="900" fill="#f0d878" opacity="0.95">THE THREE BELLS</text>
+    <!-- Decorative bells. -->
+    <g fill="#f0d878" opacity="0.85" filter="url(#p22p4bloom)">
+      <ellipse cx="310" cy="232" rx="3" ry="4"/>
+      <ellipse cx="370" cy="232" rx="3" ry="4"/>
+      <ellipse cx="430" cy="232" rx="3" ry="4"/>
+    </g>
+    <!-- Sign hanging brackets. -->
+    <line x1="290" y1="210" x2="285" y2="200" stroke="#1a0808" stroke-width="0.7"/>
+    <line x1="450" y1="210" x2="455" y2="200" stroke="#1a0808" stroke-width="0.7"/>
+  </g>
+
+  <!-- PUB FROSTED GLASS WINDOWS — ground level, warm glow. -->
+  <g id="p22p4-pub-windows">
+    <!-- Left frosted window. -->
+    <rect x="220" y="250" width="80" height="80" fill="url(#p22p4windowGlow)" stroke="#3a2010" stroke-width="0.85" filter="url(#p22p4bloom)"/>
+    <ellipse cx="260" cy="290" rx="40" ry="40" fill="url(#p22p4windowGlow)" filter="url(#p22p4strongBloom)" opacity="0.95"/>
+    <!-- Window divisions. -->
+    <line x1="260" y1="250" x2="260" y2="330" stroke="#3a2010" stroke-width="0.85"/>
+    <line x1="220" y1="290" x2="300" y2="290" stroke="#3a2010" stroke-width="0.85"/>
+    <!-- Frosted indistinct figures inside. -->
+    <g fill="#a85820" opacity="0.45" filter="url(#p22p4bloom)">
+      <ellipse cx="240" cy="300" rx="8" ry="14"/>
+      <ellipse cx="280" cy="290" rx="9" ry="14"/>
+    </g>
+
+    <!-- Right frosted window. -->
+    <rect x="440" y="250" width="80" height="80" fill="url(#p22p4windowGlow)" stroke="#3a2010" stroke-width="0.85" filter="url(#p22p4bloom)"/>
+    <ellipse cx="480" cy="290" rx="40" ry="40" fill="url(#p22p4windowGlow)" filter="url(#p22p4strongBloom)" opacity="0.95"/>
+    <line x1="480" y1="250" x2="480" y2="330" stroke="#3a2010" stroke-width="0.85"/>
+    <line x1="440" y1="290" x2="520" y2="290" stroke="#3a2010" stroke-width="0.85"/>
+    <g fill="#a85820" opacity="0.45" filter="url(#p22p4bloom)">
+      <ellipse cx="460" cy="295" rx="9" ry="14"/>
+      <ellipse cx="498" cy="305" rx="8" ry="14"/>
+    </g>
+  </g>
+
+  <!-- PUB DOOR. -->
+  <g id="p22p4-door">
+    <rect x="320" y="250" width="100" height="90" fill="#3a1810" stroke="#080404" stroke-width="0.85"/>
+    <!-- Door panels. -->
+    <rect x="328" y="260" width="84" height="36" fill="#5a3018" stroke="#080404" stroke-width="0.4"/>
+    <rect x="328" y="304" width="84" height="32" fill="#5a3018" stroke="#080404" stroke-width="0.4"/>
+    <!-- Brass door handle. -->
+    <circle cx="406" cy="295" r="2" fill="#f0d878" opacity="0.95" filter="url(#p22p4bloom)"/>
+    <!-- Faint warm glow at door bottom (light spilling out). -->
+    <ellipse cx="370" cy="338" rx="60" ry="6" fill="#ffe8a0" opacity="0.65" filter="url(#p22p4strongBloom)"/>
+  </g>
+
+  <!-- GAS LAMP beside entrance. -->
+  <g id="p22p4-pub-lamp">
+    <line x1="280" y1="335" x2="280" y2="180" stroke="#1a1010" stroke-width="2"/>
+    <rect x="274" y="160" width="12" height="20" rx="1" fill="#3a2010" stroke="#080404" stroke-width="0.5"/>
+    <rect x="270" y="146" width="20" height="14" rx="1" fill="#1a1010" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="280" cy="160" rx="180" ry="160" fill="url(#p22p4lampGlow)" filter="url(#p22p4deepBloom)" opacity="0.85"/>
+    <ellipse cx="280" cy="158" rx="3" ry="6" fill="#ffffff" filter="url(#p22p4strongBloom)" opacity="0.95"/>
+  </g>
+
+  <!-- WET COBBLESTONE STREET. -->
+  <rect x="0" y="340" width="742" height="80" fill="url(#p22p4cobble)"/>
+  <g stroke="#080404" stroke-width="0.5" opacity="0.85">
+    <rect x="20" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="68" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="116" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="164" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="212" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="260" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="308" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="356" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="404" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="452" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="500" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="548" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="596" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="644" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="692" y="345" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="40" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="88" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="136" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="184" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="232" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="280" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="328" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="376" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="424" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="472" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="520" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="568" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="616" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+    <rect x="664" y="365" width="44" height="14" fill="#3a2818" rx="2"/>
+  </g>
+  <!-- Long amber streaks reflecting lamp + windows. -->
+  <g fill="#f5b860" opacity="0.65" filter="url(#p22p4strongBloom)">
+    <ellipse cx="260" cy="358" rx="100" ry="4"/>
+    <ellipse cx="280" cy="378" rx="120" ry="5"/>
+    <ellipse cx="480" cy="358" rx="80" ry="3"/>
+    <ellipse cx="370" cy="395" rx="200" ry="6"/>
+  </g>
+  <!-- Wet sheen highlights. -->
+  <g fill="#a8b0bc" opacity="0.45" filter="url(#p22p4bloom)">
+    <ellipse cx="100" cy="368" rx="40" ry="2"/>
+    <ellipse cx="600" cy="368" rx="40" ry="2"/>
+  </g>
+
+  <!-- CAPTIONS — bottom of frame. -->
+  <g id="p22p4-cap1">
+    <rect x="14" y="14" width="380" height="40" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="24" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" font-style="italic" fill="#5a4a30" letter-spacing="0.3">CAPTION</text>
+    <text x="24" y="52" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-style="italic" fill="#5a4a30">In the pub below, a man told a story about lights in the dark.</text>
+  </g>
+  <g id="p22p4-cap2">
+    <rect x="404" y="14" width="324" height="40" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="1.5" filter="url(#balloonShadow)"/>
+    <text x="414" y="36" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">In the wall above, the lights burned on.</text>
+  </g>
+
+  <!-- Meta — END OF ISSUE 2. -->
+  <g id="p22p4-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">4</text>
+    <text x="738" y="412" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">— END ISSUE 2 —</text>
+  </g>
+</svg>
