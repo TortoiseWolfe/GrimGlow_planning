@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 19 — Panel 4: Wings folding, transition return</title>
+  <desc>Wide 28mm medium high angle. Victorian workshop reclaiming warmth — geometric emerald light retreating as translucent wings fold and retract in precise reverse sequence. Tiny figure descends to cluttered workbench, landing lightly among brass gears and tools, four inches tall, wings collapsing into compact module between shoulder blades. Emerald light withdraws to faint suit accents at joints/collar. Warm amber candlelight returns, reclaiming space. Boy stands at bench looking down, smile still on face, afterimage of wings fading from wide hazel eyes. Workshop is workshop again — but not the same.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p19p4nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p19p4candleHalo" cx="50%" cy="55%" r="50%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p19p4emeraldFade" cx="50%" cy="50%" r="14%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p19p4bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p19p4brass" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1c08"/>
+    </radialGradient>
+    <linearGradient id="p19p4theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <linearGradient id="p19p4theoSkinWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="p19p4theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p19p4shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcc8a8"/>
+      <stop offset="100%" stop-color="#7a6840"/>
+    </linearGradient>
+    <linearGradient id="p19p4vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p19p4jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="p19p4jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffeca8"/>
+      <stop offset="50%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p19p4emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <linearGradient id="p19p4wingFading" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2ed078" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="p19p4bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p19p4strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p19p4deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG warm reclaiming. -->
+  <rect width="742" height="364" fill="url(#p19p4nightBg)"/>
+  <!-- Warm halo bigger now. -->
+  <ellipse cx="500" cy="180" rx="380" ry="280" fill="url(#p19p4candleHalo)" opacity="0.85"/>
+  <!-- Tiny emerald fade where Jink is. -->
+  <ellipse cx="280" cy="240" rx="60" ry="40" fill="url(#p19p4emeraldFade)" opacity="0.85" filter="url(#p19p4deepBloom)"/>
+
+  <!-- Workshop reclaimed. -->
+  <g stroke="#3a2010" stroke-width="0.55" opacity="0.55">
+    <line x1="40" y1="0" x2="40" y2="180"/>
+    <line x1="120" y1="0" x2="120" y2="80"/>
+    <line x1="660" y1="0" x2="660" y2="80"/>
+    <line x1="700" y1="0" x2="700" y2="180"/>
+  </g>
+
+  <!-- BENCH. -->
+  <rect x="0" y="240" width="742" height="124" fill="url(#p19p4bench)"/>
+  <line x1="0" y1="240" x2="742" y2="240" stroke="#7a4828" stroke-width="2"/>
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.45">
+    <path d="M120,240 Q126,360 116,364"/>
+    <path d="M280,240 Q286,360 276,364"/>
+    <path d="M460,240 Q466,360 456,364"/>
+    <path d="M620,240 Q626,360 616,364"/>
+  </g>
+
+  <!-- Tools on bench (warm-lit again). -->
+  <ellipse cx="180" cy="232" rx="22" ry="6" fill="url(#p19p4brass)"/>
+  <ellipse cx="380" cy="232" rx="22" ry="6" fill="url(#p19p4brass)"/>
+  <ellipse cx="540" cy="232" rx="22" ry="6" fill="url(#p19p4brass)"/>
+
+  <!-- Candle center-right. -->
+  <g>
+    <rect x="488" y="200" width="6" height="40" fill="#5a4828"/>
+    <ellipse cx="491" cy="194" rx="4" ry="9" fill="#ffd078" filter="url(#p19p4strongBloom)"/>
+    <ellipse cx="491" cy="180" rx="14" ry="22" fill="#ffd078" opacity="0.45" filter="url(#p19p4deepBloom)"/>
+  </g>
+
+  <!-- ******** JINK landing on bench, wings RETRACTING ******** -->
+  <g transform="translate(280 220)">
+    <!-- Wings folding (smaller, fainter, panels visible mid-collapse). -->
+    <path d="M-14,-6 L-50,-30 L-70,-20 L-30,0 L-10,4 Z" fill="url(#p19p4wingFading)" opacity="0.65"/>
+    <path d="M14,-6 L50,-30 L70,-20 L30,0 L10,4 Z" fill="url(#p19p4wingFading)" opacity="0.65"/>
+    <path d="M-14,8 L-40,30 L-50,18 L-20,12 Z" fill="url(#p19p4wingFading)" opacity="0.45"/>
+    <path d="M14,8 L40,30 L50,18 L20,12 Z" fill="url(#p19p4wingFading)" opacity="0.45"/>
+    <!-- Faint edge. -->
+    <g stroke="#a8ffd0" stroke-width="0.85" fill="none" opacity="0.65" filter="url(#p19p4bloom)">
+      <path d="M-50,-30 L-10,4"/>
+      <path d="M50,-30 L10,4"/>
+    </g>
+
+    <!-- Tiny Jink figure landing. -->
+    <ellipse cx="0" cy="22" rx="14" ry="2" fill="#000" opacity="0.55"/>
+
+    <!-- Legs absorbing landing. -->
+    <path d="M-6,-12 L-6,18 L-2,18 L-2,-12 Z" fill="url(#p19p4emeraldSuit)"/>
+    <path d="M2,-12 L2,18 L6,18 L6,-12 Z" fill="url(#p19p4emeraldSuit)"/>
+    <ellipse cx="-4" cy="22" rx="4" ry="1.5" fill="#0a4018"/>
+    <ellipse cx="4" cy="22" rx="4" ry="1.5" fill="#0a4018"/>
+
+    <!-- Torso. -->
+    <path d="M-10,-32 Q-14,-2 -8,-12 L8,-12 Q16,-2 12,-32 Q10,-38 0,-38 Q-8,-38 -10,-32 Z" fill="url(#p19p4emeraldSuit)"/>
+    <line x1="0" y1="-38" x2="0" y2="-12" stroke="#0a4018" stroke-width="0.4"/>
+    <!-- Holo accents (small, contained). -->
+    <circle cx="0" cy="-26" r="1.2" fill="#a8ffd0" filter="url(#p19p4bloom)"/>
+    <circle cx="0" cy="-18" r="1.2" fill="#a8ffd0" filter="url(#p19p4bloom)"/>
+    <!-- Soot. -->
+    <path d="M-10,-22 Q0,-22 12,-20 Q12,-14 12,-12 L-10,-12 Z" fill="#1a0c04" opacity="0.65"/>
+
+    <!-- Wing-pack collapsing. -->
+    <rect x="-8" y="-38" width="16" height="6" fill="#1a4828"/>
+    <line x1="-8" y1="-36" x2="8" y2="-36" stroke="#a8ffd0" stroke-width="0.85" filter="url(#p19p4bloom)"/>
+
+    <!-- Arms relaxed. -->
+    <path d="M-10,-30 Q-16,-10 -16,-12 L-10,-12 Q-8,-22 -8,-30 Z" fill="url(#p19p4emeraldSuit)"/>
+    <path d="M12,-30 Q18,-10 18,-12 L12,-12 Q10,-22 10,-30 Z" fill="url(#p19p4emeraldSuit)"/>
+
+    <!-- Head — looking up at Theodore. -->
+    <ellipse cx="0" cy="-46" rx="9" ry="11" fill="url(#p19p4jinkSkin)"/>
+    <g fill="url(#p19p4jinkHair)">
+      <ellipse cx="-10" cy="-58" rx="5" ry="6"/>
+      <ellipse cx="-2" cy="-62" rx="5" ry="6"/>
+      <ellipse cx="6" cy="-62" rx="5" ry="6"/>
+      <ellipse cx="12" cy="-58" rx="5" ry="6"/>
+      <ellipse cx="-10" cy="-46" rx="4" ry="5"/>
+      <ellipse cx="12" cy="-46" rx="4" ry="5"/>
+    </g>
+    <!-- Eyes looking up. -->
+    <ellipse cx="-3" cy="-46" rx="1.7" ry="1.2" fill="#fff8e8"/>
+    <circle cx="-2" cy="-47" r="0.85" fill="#2a4830"/>
+    <ellipse cx="5" cy="-46" rx="1.7" ry="1.2" fill="#fff8e8"/>
+    <circle cx="6" cy="-47" r="0.85" fill="#2a4830"/>
+    <!-- Quiet smile. -->
+    <path d="M-3,-38 Q1,-36 5,-38" fill="none" stroke="#5a3018" stroke-width="0.55"/>
+  </g>
+
+  <!-- ******** THEODORE STANDING right side ******** -->
+  <g>
+    <!-- Body. -->
+    <path d="M460,180 L450,364 L640,364 L630,180 Z" fill="url(#p19p4vest)"/>
+    <path d="M508,170 L510,364 L580,364 L578,170 Z" fill="url(#p19p4shirt)"/>
+    <circle cx="544" cy="200" r="2" fill="#1a0c04"/>
+    <circle cx="544" cy="220" r="2" fill="#1a0c04"/>
+    <circle cx="544" cy="240" r="2" fill="#1a0c04"/>
+
+    <!-- Sleeves rolled. -->
+    <path d="M450,180 L420,140 Q412,130 420,122 L460,122 L468,180 Z" fill="url(#p19p4shirt)"/>
+    <path d="M640,180 L670,140 Q678,130 670,122 L630,122 L622,180 Z" fill="url(#p19p4shirt)"/>
+
+    <!-- Arms (resting). -->
+    <path d="M420,140 Q396,170 392,200 L408,210 Q418,180 432,150 Z" fill="url(#p19p4theoSkin)"/>
+    <path d="M670,140 Q694,170 698,200 L682,210 Q672,180 658,150 Z" fill="url(#p19p4theoSkin)"/>
+    <!-- Hands. -->
+    <ellipse cx="404" cy="220" rx="12" ry="10" fill="url(#p19p4theoSkin)"/>
+    <ellipse cx="686" cy="220" rx="12" ry="10" fill="url(#p19p4theoSkin)"/>
+
+    <!-- HEAD — looking DOWN at Jink on bench. -->
+    <ellipse cx="544" cy="80" rx="60" ry="68" fill="url(#p19p4theoSkin)"/>
+    <ellipse cx="544" cy="80" rx="60" ry="68" fill="url(#p19p4theoSkinWarm)" opacity="0.65"/>
+
+    <!-- Hair tousled. -->
+    <g fill="url(#p19p4theoHair)">
+      <path d="M488,40 Q482,-4 540,-16 Q580,-22 600,-16 Q610,-4 600,40 L592,46 Q582,-2 564,-10 L524,-10 Q506,-2 496,46 Z"/>
+      <path d="M494,-2 L486,-26 L506,-2 Z"/>
+      <path d="M520,-12 L516,-36 L532,-6 Z"/>
+      <path d="M548,-18 L562,-40 L558,-6 Z"/>
+      <path d="M576,-12 L592,-26 L584,-2 Z"/>
+    </g>
+
+    <!-- Eyes — looking DOWN. -->
+    <ellipse cx="514" cy="86" rx="11" ry="6" fill="#fff8e8"/>
+    <ellipse cx="514" cy="86" rx="11" ry="6" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <ellipse cx="514" cy="88" rx="5" ry="4" fill="url(#p19p4theoHair)"/>
+    <ellipse cx="514" cy="89" rx="2.5" ry="2" fill="#0a0604"/>
+    <!-- AFTERIMAGE of wings fading in pupil. -->
+    <ellipse cx="516" cy="86" rx="0.85" ry="0.55" fill="#a8ffd0" filter="url(#p19p4bloom)" opacity="0.65"/>
+
+    <ellipse cx="572" cy="86" rx="11" ry="6" fill="#fff8e8"/>
+    <ellipse cx="572" cy="86" rx="11" ry="6" fill="none" stroke="#3a2810" stroke-width="0.7"/>
+    <ellipse cx="572" cy="88" rx="5" ry="4" fill="url(#p19p4theoHair)"/>
+    <ellipse cx="572" cy="89" rx="2.5" ry="2" fill="#0a0604"/>
+    <ellipse cx="574" cy="86" rx="0.85" ry="0.55" fill="#a8ffd0" filter="url(#p19p4bloom)" opacity="0.65"/>
+
+    <!-- Brows soft. -->
+    <path d="M500,72 Q514,68 528,72" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+    <path d="M558,72 Q572,68 586,72" fill="none" stroke="#3a2810" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Nose. -->
+    <path d="M544,96 L530,124 Q544,130 558,124 Z" fill="#a8765a" opacity="0.55"/>
+
+    <!-- SMILE STILL THERE. -->
+    <path d="M524,148 Q544,156 564,148" fill="none" stroke="#5a3018" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="544" cy="151" rx="14" ry="3" fill="#3a1408" opacity="0.45"/>
+
+    <!-- Cheek. -->
+    <ellipse cx="498" cy="116" rx="10" ry="6" fill="#ffd078" opacity="0.45"/>
+    <ellipse cx="590" cy="116" rx="10" ry="6" fill="#ffd078" opacity="0.45"/>
+
+    <!-- Freckles. -->
+    <g fill="#a8765a" opacity="0.85">
+      <circle cx="512" cy="108" r="0.85"/>
+      <circle cx="524" cy="116" r="0.7"/>
+      <circle cx="536" cy="108" r="0.85"/>
+      <circle cx="552" cy="108" r="0.85"/>
+      <circle cx="564" cy="116" r="0.7"/>
+      <circle cx="576" cy="108" r="0.85"/>
+    </g>
+  </g>
+
+  <!-- No dialogue. -->
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q200,45 400,42"/>
+    <path d="M400,40 Q600,45 742,42"/>
+  </g>
+</svg>

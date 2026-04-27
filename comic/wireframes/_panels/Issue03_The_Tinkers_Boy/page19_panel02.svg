@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 19 — Panel 2: Hand contact CU</title>
+  <desc>CU 65mm. Two hands making contact at impossible scale. Enormous finger extends from upper-left — oil-stained, brass gear ring below first joint, steady gentle. Tiny hand no larger than fingertip presses flat against it from lower-right — emerald gauntlet glowing at wrist, deliberate open-palmed. Size difference absolute: tiny palm covers first joint. Both fingerprints visible at scales. Point of contact illuminated by emerald wing-light from above — warm amber skin with cool emerald overlay.</desc>
+
+  <defs>
+    <radialGradient id="p19p2coolBg" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#2ed078" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p19p2bgFlooded" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a4828"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <linearGradient id="p19p2theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="50%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#c89878"/>
+    </linearGradient>
+    <radialGradient id="p19p2coolOverlay" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#a8ffd0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a8ffd0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p19p2ring" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1c08"/>
+    </radialGradient>
+    <linearGradient id="p19p2jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="p19p2gauntlet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <filter id="p19p2bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p19p2deepBloom"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p19p2bgFlooded)"/>
+  <ellipse cx="183" cy="0" rx="320" ry="240" fill="url(#p19p2coolBg)" opacity="0.85" filter="url(#p19p2deepBloom)"/>
+
+  <!-- ******** ENORMOUS FINGER from upper-left ******** -->
+  <g>
+    <!-- Finger column extending diagonally. -->
+    <path d="M0,40 L60,20 L180,140 L210,200 L186,234 L120,200 L40,120 L0,80 Z" fill="url(#p19p2theoSkin)"/>
+    <!-- Cool overlay on top side. -->
+    <path d="M0,40 L60,20 L180,140 L120,200 L40,120 L0,80 Z" fill="url(#p19p2coolOverlay)" opacity="0.85"/>
+
+    <!-- Knuckle ridge (first joint). -->
+    <path d="M88,118 Q120,108 152,138" fill="none" stroke="#5a3018" stroke-width="1.4"/>
+    <!-- Burn scar. -->
+    <path d="M104,116 L130,120" stroke="#7a4828" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- BRASS GEAR RING below first joint. -->
+    <ellipse cx="100" cy="98" rx="14" ry="9" fill="url(#p19p2ring)" transform="rotate(-25 100 98)"/>
+    <ellipse cx="100" cy="98" rx="14" ry="9" fill="none" stroke="#1a0c04" stroke-width="0.55" transform="rotate(-25 100 98)"/>
+    <ellipse cx="100" cy="98" rx="6" ry="3.5" fill="#3a1c08" transform="rotate(-25 100 98)"/>
+    <!-- Gear teeth. -->
+    <g fill="#a85820">
+      <rect x="86" y="96" width="2.5" height="2" transform="rotate(-25 100 98)"/>
+      <rect x="113" y="96" width="2.5" height="2" transform="rotate(-25 100 98)"/>
+      <rect x="99" y="88" width="2" height="2.5" transform="rotate(-25 100 98)"/>
+    </g>
+    <!-- Cool emerald catch on ring. -->
+    <ellipse cx="94" cy="92" rx="4" ry="2" fill="#a8ffd0" filter="url(#p19p2bloom)" opacity="0.85"/>
+
+    <!-- Oil stains. -->
+    <g fill="#1a0c04" opacity="0.65">
+      <ellipse cx="60" cy="80" rx="14" ry="3"/>
+      <ellipse cx="140" cy="180" rx="10" ry="2.5"/>
+    </g>
+
+    <!-- Fingertip nail. -->
+    <ellipse cx="194" cy="180" rx="14" ry="6" fill="#fff0d8" opacity="0.55" transform="rotate(45 194 180)"/>
+
+    <!-- Fingerprint texture (whorls visible). -->
+    <g fill="none" stroke="#7a4828" stroke-width="0.4" opacity="0.65">
+      <ellipse cx="180" cy="160" rx="14" ry="8" transform="rotate(45 180 160)"/>
+      <ellipse cx="180" cy="160" rx="10" ry="5" transform="rotate(45 180 160)"/>
+      <ellipse cx="180" cy="160" rx="6" ry="3" transform="rotate(45 180 160)"/>
+    </g>
+
+    <!-- Strong cool emerald light on the contact area. -->
+    <ellipse cx="200" cy="200" rx="20" ry="12" fill="#a8ffd0" opacity="0.85" filter="url(#p19p2bloom)"/>
+  </g>
+
+  <!-- ******** TINY HAND from lower-right ******** -->
+  <g transform="translate(220 220) rotate(-15)">
+    <!-- Forearm + emerald gauntlet. -->
+    <path d="M0,0 L60,40 L80,80 L100,100 L80,120 L40,80 L-20,40 Z" fill="url(#p19p2gauntlet)"/>
+    <!-- Glowing wrist seam. -->
+    <line x1="40" y1="60" x2="100" y2="100" stroke="#a8ffd0" stroke-width="2" filter="url(#p19p2bloom)"/>
+    <line x1="20" y1="50" x2="80" y2="90" stroke="#a8ffd0" stroke-width="0.85" opacity="0.65" filter="url(#p19p2bloom)"/>
+
+    <!-- Open-palm hand pressing forward (upper-left). -->
+    <path d="M-30,-20 Q-50,-30 -50,0 Q-46,16 -30,20 L0,8 Q4,0 0,-8 Z" fill="url(#p19p2jinkSkin)"/>
+    <!-- Fingers spread. -->
+    <path d="M-50,-22 L-58,-32 L-50,-30 L-44,-22 Z" fill="url(#p19p2jinkSkin)"/>
+    <path d="M-52,-12 L-62,-16 L-54,-10 L-48,-8 Z" fill="url(#p19p2jinkSkin)"/>
+    <path d="M-50,4 L-62,4 L-54,8 L-48,8 Z" fill="url(#p19p2jinkSkin)"/>
+    <path d="M-48,16 L-60,22 L-52,22 L-44,18 Z" fill="url(#p19p2jinkSkin)"/>
+
+    <!-- Tiny palm fingerprint texture. -->
+    <g fill="none" stroke="#7a4828" stroke-width="0.3" opacity="0.85">
+      <ellipse cx="-30" cy="-2" rx="6" ry="4"/>
+      <ellipse cx="-30" cy="-2" rx="4" ry="2.5"/>
+    </g>
+
+    <!-- Cool emerald glow at wrist seam (gauntlet boundary). -->
+    <ellipse cx="-2" cy="0" rx="6" ry="3" fill="#a8ffd0" opacity="0.85" filter="url(#p19p2bloom)"/>
+  </g>
+
+  <!-- ******** POINT OF CONTACT — fingerprint to fingertip ******** -->
+  <g>
+    <!-- Bright glow at meeting point. -->
+    <ellipse cx="200" cy="208" rx="24" ry="14" fill="#ffffff" opacity="0.65" filter="url(#p19p2bloom)"/>
+    <ellipse cx="200" cy="208" rx="14" ry="6" fill="#a8ffd0" opacity="0.85" filter="url(#p19p2bloom)"/>
+  </g>
+
+  <!-- Faint geometric light patterns falling around (wing-light from above). -->
+  <g stroke="#a8ffd0" stroke-width="0.55" opacity="0.45" filter="url(#p19p2bloom)">
+    <line x1="20" y1="10" x2="40" y2="40"/>
+    <line x1="80" y1="10" x2="60" y2="40"/>
+    <line x1="280" y1="10" x2="260" y2="40"/>
+    <line x1="340" y1="10" x2="320" y2="40"/>
+  </g>
+
+  <!-- No dialogue. -->
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 246,42"/>
+    <path d="M246,40 Q310,45 366,42"/>
+  </g>
+</svg>
