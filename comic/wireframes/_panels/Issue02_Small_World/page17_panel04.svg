@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 2 — Page 17 — Panel 4: Thresh between two lights, fear and shelter divide her face</title>
+  <desc>MCU 65mm slight low angle. Thresh ruby looks back toward warm interior first time — weapon across knees hands ready attention shifted. Broad pale cheekbones copper-red buzz. Complex expression — relief planning fear what plan requires soldier instinct sound. Jaw set eyes uncertain. Blue-white perimeter from entrance behind cool geometric patterns one side face. Warm amber from power cell ahead other side. Sits between two lights — cold exterior warm interior — dual illumination divides face fear shelter. Dented left pauldron. NO DIALOGUE silence is character beat continues.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p17p4dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="p17p4amberWarmInterior">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#f5b860" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p17p4blueExterior">
+      <stop offset="0%" stop-color="#a8d8f8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a4868" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p17p4rubyDual" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a82838"/>
+      <stop offset="50%" stop-color="#5a1820"/>
+      <stop offset="100%" stop-color="#3a0810"/>
+    </linearGradient>
+    <filter id="p17p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p17p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p17p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="400" fill="url(#p17p4dark)"/>
+
+  <!-- BLUE EXTERIOR LIGHT (right side, from off-frame entrance behind). -->
+  <ellipse cx="366" cy="200" rx="220" ry="280" fill="url(#p17p4blueExterior)" filter="url(#p17p4deepBloom)" opacity="0.85"/>
+
+  <!-- WARM AMBER INTERIOR LIGHT (left side, from off-frame power cell). -->
+  <ellipse cx="0" cy="200" rx="220" ry="280" fill="url(#p17p4amberWarmInterior)" filter="url(#p17p4deepBloom)" opacity="0.85"/>
+
+  <!-- THRESH MCU center. -->
+  <g id="p17p4-thresh" transform="translate(183, 200)">
+    <!-- Body upper torso (split lighting). -->
+    <path d="M-50,180 L-55,80 L-45,30 L-25,5 L-10,-15 L10,-15 L25,5 L45,30 L55,80 L50,180 Z" fill="url(#p17p4rubyDual)" stroke="#080404" stroke-width="0.85"/>
+
+    <!-- DENTED LEFT pauldron (warm side). -->
+    <path d="M-25,5 L-50,18 L-50,42 L-25,48" fill="url(#p17p4rubyDual)" stroke="#080404" stroke-width="0.7"/>
+    <path d="M-44,22 Q-38,32 -32,28 Q-40,18 -46,22 Z" fill="#3a0810" stroke="#080404" stroke-width="0.5"/>
+    <line x1="-44" y1="26" x2="-34" y2="26" stroke="#080404" stroke-width="0.4"/>
+    <!-- Right pauldron (cool side). -->
+    <path d="M25,5 L50,18 L50,42 L25,48" fill="url(#p17p4rubyDual)" stroke="#080404" stroke-width="0.7"/>
+
+    <!-- Crimson collar — pulses both. -->
+    <ellipse cx="0" cy="-15" rx="20" ry="4" fill="#f54848" opacity="0.85" filter="url(#p17p4bloom)"/>
+    <ellipse cx="-18" cy="-15" rx="14" ry="4" fill="#f5b860" opacity="0.45" filter="url(#p17p4strongBloom)"/>
+    <ellipse cx="18" cy="-15" rx="14" ry="4" fill="#a8d8f8" opacity="0.45" filter="url(#p17p4strongBloom)"/>
+
+    <!-- Mud streaks. -->
+    <g fill="#3a1010" opacity="0.85">
+      <ellipse cx="-15" cy="60" rx="6" ry="3"/>
+      <ellipse cx="20" cy="80" rx="5" ry="2.5"/>
+      <ellipse cx="-25" cy="120" rx="6" ry="3"/>
+      <ellipse cx="30" cy="140" rx="5" ry="2.5"/>
+    </g>
+
+    <!-- WEAPON ACROSS KNEES (slight visible at bottom). -->
+    <rect x="-50" y="170" width="100" height="14" rx="1" fill="#1a0810" stroke="#080404" stroke-width="0.85"/>
+    <ellipse cx="-25" cy="177" rx="6" ry="3" fill="#d8a880" stroke="#080408" stroke-width="0.5"/>
+    <ellipse cx="25" cy="177" rx="6" ry="3" fill="#d8a880" stroke="#080408" stroke-width="0.5"/>
+
+    <!-- HEAD facing forward but TURNED slightly LEFT (looking back at amber side / squad). -->
+    <ellipse cx="-3" cy="-50" rx="32" ry="36" fill="#d8a880"/>
+
+    <!-- Skin — warm side amber, cool side blue. -->
+    <ellipse cx="-22" cy="-30" rx="9" ry="5" fill="#a87850" opacity="0.55" filter="url(#p17p4bloom)"/>
+    <ellipse cx="22" cy="-30" rx="9" ry="5" fill="#a87850" opacity="0.55" filter="url(#p17p4bloom)"/>
+
+    <!-- Heavy AMBER on left side of face. -->
+    <ellipse cx="-22" cy="-40" rx="20" ry="20" fill="#f5b860" opacity="0.45" filter="url(#p17p4strongBloom)"/>
+    <!-- Heavy BLUE on right side of face. -->
+    <ellipse cx="22" cy="-40" rx="20" ry="20" fill="#a8d8f8" opacity="0.45" filter="url(#p17p4strongBloom)"/>
+
+    <!-- BUZZ CUT. -->
+    <path d="M-30,-78 Q-15,-92 0,-94 Q15,-92 30,-78 L30,-60 L-30,-60 Z" fill="#a83a18"/>
+    <line x1="-30" y1="-60" x2="30" y2="-60" stroke="#5a1808" stroke-width="0.85" opacity="0.85"/>
+    <g fill="#5a1808" opacity="0.85">
+      <circle cx="-22" cy="-82" r="0.85"/>
+      <circle cx="-12" cy="-88" r="0.85"/>
+      <circle cx="0" cy="-92" r="0.85"/>
+      <circle cx="12" cy="-88" r="0.85"/>
+      <circle cx="22" cy="-82" r="0.85"/>
+    </g>
+
+    <!-- Brow set — uncertain, slight worry. -->
+    <path d="M-22,-58 Q-12,-65 0,-60" stroke="#5a1808" stroke-width="2.5" fill="none"/>
+    <path d="M0,-60 Q12,-65 22,-58" stroke="#5a1808" stroke-width="2.5" fill="none"/>
+
+    <!-- EYES — uncertain (NOT fixed forward). -->
+    <ellipse cx="-13" cy="-46" rx="6" ry="4" fill="#dce4f0"/>
+    <ellipse cx="13" cy="-46" rx="6" ry="4" fill="#dce4f0"/>
+    <ellipse cx="-12" cy="-46" rx="2.5" ry="2.5" fill="#3a2010"/>
+    <ellipse cx="14" cy="-46" rx="2.5" ry="2.5" fill="#3a2010"/>
+    <ellipse cx="-12" cy="-46" rx="1.4" ry="1.4" fill="#080404"/>
+    <ellipse cx="14" cy="-46" rx="1.4" ry="1.4" fill="#080404"/>
+    <!-- Catch-light — left amber, right blue. -->
+    <circle cx="-10" cy="-48" r="0.85" fill="#f0d878" opacity="0.95" filter="url(#p17p4bloom)"/>
+    <circle cx="16" cy="-48" r="0.85" fill="#a8d8f8" opacity="0.95" filter="url(#p17p4bloom)"/>
+
+    <!-- Slight white above iris (uncertainty trace). -->
+    <path d="M-19,-50 Q-13,-52 -7,-50" fill="#dce4f0"/>
+    <path d="M7,-50 Q13,-52 19,-50" fill="#dce4f0"/>
+
+    <!-- Nose. -->
+    <path d="M-3,-38 L0,-20 L-4,-13" stroke="#3a1808" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <!-- LIPS — set firm. -->
+    <line x1="-12" y1="-5" x2="12" y2="-5" stroke="#3a1810" stroke-width="2.5"/>
+
+    <!-- JAW set. -->
+    <ellipse cx="-25" cy="-15" rx="4" ry="2.5" fill="#5a3a18" opacity="0.65" filter="url(#p17p4bloom)"/>
+    <ellipse cx="25" cy="-15" rx="4" ry="2.5" fill="#5a3a18" opacity="0.65" filter="url(#p17p4bloom)"/>
+  </g>
+
+  <!-- NO DIALOGUE — silence beat. -->
+
+  <!-- Meta. -->
+  <g id="p17p4-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">4</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">BETWEEN LIGHTS</text>
+  </g>
+</svg>

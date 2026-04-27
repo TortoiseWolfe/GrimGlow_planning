@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 2 — Page 17 — Panel 5: Wren's hands working, the rebuild begins, intimate framing</title>
+  <desc>CU 85mm eye level. Hands copper metallic suit oil-stained forearms working disassembled alien component. Tiny holographic manipulators orbit fingers copper-gold geometric light — precise tools floating like luminous insects. Hands separate crystalline elements debris surgical precision. Neat row salvaged parts laid out timber joist beside hands — tiny crystalline elements wire fragments geometric circuit wafer. Not much. Start. Copper-gold tool light illuminates hands components structured warm. Warm amber fill from power cell. Everything beyond hands dark. Intimate — just hands light work. WREN barely audible to herself seventeen connections reroute secondary bus crystalline interface copper conductors.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p17p5dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080404"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p17p5joist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p17p5copperDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86528"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <radialGradient id="p17p5copperGold">
+      <stop offset="0%" stop-color="#f0d878" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f0a868" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#5a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p17p5amberFill">
+      <stop offset="0%" stop-color="#f5b860" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p17p5bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p17p5strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p17p5deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark. -->
+  <rect width="366" height="400" fill="url(#p17p5dark)"/>
+
+  <!-- AMBER FILL from upper-left (off-frame power cell). -->
+  <ellipse cx="0" cy="100" rx="280" ry="280" fill="url(#p17p5amberFill)" filter="url(#p17p5deepBloom)" opacity="0.65"/>
+
+  <!-- Timber joist surface (workbench area). -->
+  <rect x="0" y="320" width="366" height="80" fill="url(#p17p5joist)" stroke="#080404" stroke-width="0.85"/>
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.85">
+    <line x1="0" y1="340" x2="366" y2="340"/>
+    <line x1="0" y1="365" x2="366" y2="365"/>
+  </g>
+  <!-- Dust/wood grain. -->
+  <g fill="#3a2818" opacity="0.85">
+    <ellipse cx="50" cy="350" rx="4" ry="1.4"/>
+    <ellipse cx="180" cy="345" rx="3" ry="1.2"/>
+    <ellipse cx="320" cy="350" rx="4" ry="1.4"/>
+  </g>
+
+  <!-- COPPER-GOLD GLOW HALO (from manipulators). -->
+  <ellipse cx="183" cy="220" rx="200" ry="160" fill="url(#p17p5copperGold)" filter="url(#p17p5deepBloom)" opacity="0.85"/>
+
+  <!-- COMPONENT being worked on (center). -->
+  <g id="p17p5-component">
+    <rect x="120" y="180" width="126" height="80" fill="#1a1a20" stroke="#080404" stroke-width="0.85"/>
+    <!-- Internal structure visible. -->
+    <g fill="#3a3a44" stroke="#080404" stroke-width="0.4">
+      <rect x="130" y="190" width="20" height="14" rx="1"/>
+      <rect x="155" y="190" width="20" height="14" rx="1"/>
+      <rect x="180" y="190" width="20" height="14" rx="1"/>
+      <rect x="205" y="190" width="20" height="14" rx="1"/>
+      <rect x="130" y="210" width="106" height="3"/>
+      <rect x="130" y="218" width="106" height="3"/>
+      <rect x="130" y="226" width="106" height="3"/>
+    </g>
+    <!-- Crystalline core elements being separated. -->
+    <g fill="#7af0b0" opacity="0.85" filter="url(#p17p5bloom)">
+      <polygon points="140,238 145,234 150,238 150,246 145,250 140,246"/>
+      <polygon points="170,238 175,234 180,238 180,246 175,250 170,246"/>
+    </g>
+    <!-- Damaged parts (debris). -->
+    <g fill="#3a1010" opacity="0.85">
+      <polygon points="200,238 205,234 210,238 210,246 205,250 200,246"/>
+      <ellipse cx="225" cy="240" rx="5" ry="3"/>
+    </g>
+  </g>
+
+  <!-- HOLOGRAPHIC MANIPULATORS — orbiting fingers copper-gold. -->
+  <g id="p17p5-manipulators" filter="url(#p17p5bloom)">
+    <!-- Hex orbit patterns around hands. -->
+    <g stroke="#f0d878" stroke-width="0.85" fill="none" opacity="0.95">
+      <!-- Around left hand. -->
+      <circle cx="80" cy="240" r="20"/>
+      <circle cx="80" cy="240" r="14"/>
+      <path d="M75,235 L80,232 L85,235 L85,245 L80,248 L75,245 Z"/>
+      <path d="M65,228 L70,225 L75,228 L75,238 L70,241 L65,238 Z"/>
+      <!-- Around right hand. -->
+      <circle cx="290" cy="240" r="20"/>
+      <circle cx="290" cy="240" r="14"/>
+      <path d="M285,235 L290,232 L295,235 L295,245 L290,248 L285,245 Z"/>
+      <path d="M295,228 L300,225 L305,228 L305,238 L300,241 L295,238 Z"/>
+    </g>
+    <!-- Hot points. -->
+    <g fill="#ffe8a0" opacity="0.95" filter="url(#p17p5bloom)">
+      <circle cx="80" cy="232" r="1.4"/>
+      <circle cx="100" cy="240" r="1.4"/>
+      <circle cx="80" cy="248" r="1.4"/>
+      <circle cx="290" cy="232" r="1.4"/>
+      <circle cx="270" cy="240" r="1.4"/>
+      <circle cx="290" cy="248" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- WREN'S HANDS — copper sleeves with oil stains, tools active. -->
+  <g id="p17p5-hands">
+    <!-- LEFT forearm coming from left. -->
+    <path d="M0,400 L0,260 L40,250 L60,260 L60,400 Z" fill="url(#p17p5copperDirty)" stroke="#080404" stroke-width="0.85"/>
+    <!-- Oil stains heavy. -->
+    <g fill="#1a0808" opacity="0.85">
+      <ellipse cx="20" cy="290" rx="6" ry="3"/>
+      <ellipse cx="40" cy="320" rx="5" ry="2.5"/>
+      <ellipse cx="20" cy="350" rx="6" ry="3"/>
+    </g>
+    <!-- Hand. -->
+    <path d="M40,250 L60,235 L80,228 L100,232 L110,240 L100,255 L80,260 L60,260 Z" fill="url(#p17p5copperDirty)" stroke="#080404" stroke-width="0.7"/>
+    <!-- Fingers (precise/working). -->
+    <path d="M75,225 L77,205 L83,205 L83,232 Z" fill="url(#p17p5copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M88,222 L90,202 L96,202 L96,230 Z" fill="url(#p17p5copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M100,225 L102,208 L108,208 L108,232 Z" fill="url(#p17p5copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <!-- Fingertips warm-lit. -->
+    <g fill="#ffe8a0" opacity="0.85" filter="url(#p17p5bloom)">
+      <ellipse cx="80" cy="207" rx="2" ry="1.4"/>
+      <ellipse cx="93" cy="204" rx="2" ry="1.4"/>
+      <ellipse cx="105" cy="210" rx="2" ry="1.4"/>
+    </g>
+
+    <!-- RIGHT forearm coming from right. -->
+    <path d="M366,400 L366,260 L326,250 L306,260 L306,400 Z" fill="url(#p17p5copperDirty)" stroke="#080404" stroke-width="0.85"/>
+    <g fill="#1a0808" opacity="0.85">
+      <ellipse cx="346" cy="290" rx="6" ry="3"/>
+      <ellipse cx="326" cy="320" rx="5" ry="2.5"/>
+      <ellipse cx="346" cy="350" rx="6" ry="3"/>
+    </g>
+    <path d="M326,250 L306,235 L286,228 L266,232 L256,240 L266,255 L286,260 L306,260 Z" fill="url(#p17p5copperDirty)" stroke="#080404" stroke-width="0.7"/>
+    <path d="M291,225 L289,205 L283,205 L283,232 Z" fill="url(#p17p5copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M278,222 L276,202 L270,202 L270,230 Z" fill="url(#p17p5copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M266,225 L264,208 L258,208 L258,232 Z" fill="url(#p17p5copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <g fill="#ffe8a0" opacity="0.85" filter="url(#p17p5bloom)">
+      <ellipse cx="286" cy="207" rx="2" ry="1.4"/>
+      <ellipse cx="273" cy="204" rx="2" ry="1.4"/>
+      <ellipse cx="261" cy="210" rx="2" ry="1.4"/>
+    </g>
+  </g>
+
+  <!-- NEAT ROW of salvaged parts laid out on joist (right of hands). -->
+  <g id="p17p5-row">
+    <!-- Crystalline element 1. -->
+    <polygon points="135,335 140,331 145,335 145,343 140,347 135,343" fill="#7af0b0" opacity="0.85" stroke="#080404" stroke-width="0.4"/>
+    <!-- Crystalline element 2. -->
+    <polygon points="160,335 165,331 170,335 170,343 165,347 160,343" fill="#7af0b0" opacity="0.85" stroke="#080404" stroke-width="0.4"/>
+    <!-- Wire fragment. -->
+    <path d="M185,335 Q190,338 195,335 Q200,332 205,335" stroke="#a86528" stroke-width="1.5" fill="none"/>
+    <path d="M185,340 Q190,343 195,340" stroke="#a86528" stroke-width="1.5" fill="none"/>
+    <!-- Geometric circuit wafer. -->
+    <rect x="220" y="332" width="22" height="14" fill="#3a3a44" stroke="#080404" stroke-width="0.4"/>
+    <g stroke="#f0d878" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#p17p5bloom)">
+      <line x1="222" y1="336" x2="240" y2="336"/>
+      <line x1="222" y1="340" x2="240" y2="340"/>
+      <line x1="222" y1="344" x2="240" y2="344"/>
+      <circle cx="225" cy="338" r="0.85"/>
+      <circle cx="237" cy="342" r="0.85"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — WREN barely audible. -->
+  <g id="p17p5-bal-wren">
+    <rect x="14" y="14" width="340" height="80" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="68" y="32" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(barely audible, to herself)</text>
+    <text x="24" y="50" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a" font-style="italic">Seventeen connections. Reroute through</text>
+    <text x="24" y="67" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a" font-style="italic">the secondary bus. Adapt the crystalline</text>
+    <text x="24" y="84" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a" font-style="italic">interface to copper conductors...</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p17p5-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">5</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">A START</text>
+  </g>
+</svg>

@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 340" width="366" height="340">
+  <title>Issue 2 — Page 17 — Panel 2: Sable plans at edge of amber light, hand on dead hull fragment</title>
+  <desc>MCU 65mm eye level. Sable stands at edge warm amber power cell light, one hand resting on fragment alien hull plating dead holographic panel embedded — panel dark cracked geometric structure still visible like fossil of light. Late 30s sharp features dark brown skin very short military buzz silver-white hair NOT long. Cracked silver shoulder. Deep calculation — eyes narrowed lips pressed building mission structure incomplete information. Amber catches face warm intimate. Silver suit reflects warm. Dead fragment catches no holographic light. SABLE Wren gear assembly where in this era / WREN OP clockmakers watchmakers brass / SABLE find by / WREN going looking.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p17p2dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0808"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p17p2silverWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a890"/>
+      <stop offset="50%" stop-color="#888070"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </linearGradient>
+    <linearGradient id="p17p2hull" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2a30"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="p17p2amber">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#f5b860" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p17p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p17p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p17p2deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark. -->
+  <rect width="366" height="340" fill="url(#p17p2dark)"/>
+
+  <!-- AMBER WARMTH (from off-frame center-right power cell). -->
+  <ellipse cx="280" cy="220" rx="240" ry="220" fill="url(#p17p2amber)" filter="url(#p17p2deepBloom)" opacity="0.85"/>
+
+  <!-- Hull fragment on table (foreground center-bottom). -->
+  <g id="p17p2-fragment">
+    <!-- Dead holographic panel embedded in hull. -->
+    <rect x="180" y="240" width="120" height="60" fill="url(#p17p2hull)" stroke="#080404" stroke-width="0.85"/>
+    <!-- Embedded holographic panel (cracked, dark). -->
+    <rect x="200" y="252" width="80" height="36" fill="#1a1a20" stroke="#3a3a44" stroke-width="0.7"/>
+    <!-- Cracks across the panel. -->
+    <g stroke="#080404" stroke-width="0.7" fill="none" opacity="0.95">
+      <path d="M210,260 L240,275 L270,280"/>
+      <path d="M205,278 L225,265 L245,280 L268,270"/>
+      <path d="M250,255 L260,282"/>
+    </g>
+    <!-- Geometric channel etching (still visible structure). -->
+    <g stroke="#3a3a44" stroke-width="0.4" fill="none" opacity="0.85">
+      <path d="M205,256 L225,256 L235,266 L260,266"/>
+      <path d="M205,272 L235,272 L245,282 L275,282"/>
+      <!-- Dead hex nodes. -->
+      <path d="M225,253 L230,250 L235,253 L235,259 L230,262 L225,259 Z"/>
+      <path d="M255,263 L260,260 L265,263 L265,269 L260,272 L255,269 Z"/>
+    </g>
+  </g>
+
+  <!-- SABLE — center frame MCU. -->
+  <g id="p17p2-sable" transform="translate(160, 200)">
+    <!-- Body upper torso. -->
+    <path d="M-50,140 L-55,60 L-45,20 L-25,0 L-10,-15 L10,-15 L25,0 L45,20 L55,60 L50,140 Z" fill="url(#p17p2silverWarm)" stroke="#080404" stroke-width="0.85"/>
+    <!-- CRACKED RIGHT SHOULDER (continuity, lit warmly by amber). -->
+    <path d="M25,0 L48,12 L52,32 L48,52" fill="url(#p17p2silverWarm)" stroke="#080404" stroke-width="0.5"/>
+    <g stroke="#a8d8f8" stroke-width="0.85" opacity="0.95" filter="url(#p17p2bloom)">
+      <path d="M30,8 L36,20 L34,32 L38,42"/>
+      <path d="M32,18 L38,28"/>
+      <path d="M34,32 L40,40"/>
+    </g>
+    <!-- Left pauldron. -->
+    <path d="M-25,0 L-48,12 L-48,32 L-25,38" fill="url(#p17p2silverWarm)" stroke="#080404" stroke-width="0.5"/>
+
+    <!-- Silver collar (lit amber). -->
+    <ellipse cx="0" cy="-15" rx="14" ry="3" fill="#dce4f0" opacity="0.55" filter="url(#p17p2bloom)"/>
+    <ellipse cx="0" cy="-15" rx="20" ry="5" fill="#f0d878" opacity="0.45" filter="url(#p17p2strongBloom)"/>
+
+    <!-- ARM RIGHT extended forward to hull fragment. -->
+    <path d="M48,32 L88,52 L92,46 L52,26 Z" fill="url(#p17p2silverWarm)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="92" cy="48" rx="5" ry="3" fill="#3a2818" stroke="#080404" stroke-width="0.4"/>
+    <!-- Faint silver glow at fingertips touching the dead hull. -->
+    <circle cx="96" cy="46" r="1.4" fill="#dce4f0" opacity="0.95" filter="url(#p17p2bloom)"/>
+
+    <!-- Mud streaks. -->
+    <g fill="#3a2818" opacity="0.85">
+      <ellipse cx="-12" cy="50" rx="5" ry="2" transform="rotate(-15 -12 50)"/>
+      <ellipse cx="20" cy="80" rx="5" ry="2"/>
+      <ellipse cx="-15" cy="120" rx="5" ry="2"/>
+    </g>
+
+    <!-- HEAD. -->
+    <ellipse cx="0" cy="-40" rx="26" ry="28" fill="#3a2818"/>
+
+    <!-- Silver-white buzz cut. -->
+    <path d="M-22,-62 Q-12,-72 0,-74 Q12,-72 22,-62 L22,-50 L-22,-50 Z" fill="#f0e8d8"/>
+    <line x1="-22" y1="-50" x2="22" y2="-50" stroke="#3a3a44" stroke-width="0.85" opacity="0.85"/>
+    <g fill="#5a606a" opacity="0.85">
+      <circle cx="-15" cy="-65" r="0.85"/>
+      <circle cx="-8" cy="-70" r="0.85"/>
+      <circle cx="0" cy="-72" r="0.85"/>
+      <circle cx="8" cy="-70" r="0.85"/>
+      <circle cx="15" cy="-65" r="0.85"/>
+    </g>
+    <ellipse cx="0" cy="-65" rx="18" ry="4" fill="#f0d878" opacity="0.45" filter="url(#p17p2strongBloom)"/>
+
+    <!-- Brow set narrowed (calculation). -->
+    <path d="M-18,-46 Q-10,-52 0,-48" stroke="#1a0808" stroke-width="2.5" fill="none"/>
+    <path d="M0,-48 Q10,-52 18,-46" stroke="#1a0808" stroke-width="2.5" fill="none"/>
+
+    <!-- EYES — narrowed, focused, amber catch. -->
+    <ellipse cx="-10" cy="-37" rx="4" ry="2.5" fill="#dce4f0"/>
+    <ellipse cx="10" cy="-37" rx="4" ry="2.5" fill="#dce4f0"/>
+    <ellipse cx="-9" cy="-37" rx="2" ry="2" fill="#5a3a18"/>
+    <ellipse cx="11" cy="-37" rx="2" ry="2" fill="#5a3a18"/>
+    <ellipse cx="-9" cy="-37" rx="1.2" ry="1.2" fill="#080404"/>
+    <ellipse cx="11" cy="-37" rx="1.2" ry="1.2" fill="#080404"/>
+    <circle cx="-7" cy="-39" r="0.7" fill="#f0d878" opacity="0.95" filter="url(#p17p2bloom)"/>
+    <circle cx="13" cy="-39" r="0.7" fill="#f0d878" opacity="0.95" filter="url(#p17p2bloom)"/>
+
+    <!-- Cheekbones lit warm. -->
+    <ellipse cx="-18" cy="-22" rx="7" ry="4" fill="#a87850" opacity="0.55" filter="url(#p17p2bloom)"/>
+    <ellipse cx="18" cy="-22" rx="7" ry="4" fill="#a87850" opacity="0.55" filter="url(#p17p2bloom)"/>
+    <ellipse cx="-18" cy="-22" rx="12" ry="6" fill="#f5b860" opacity="0.35" filter="url(#p17p2strongBloom)"/>
+    <ellipse cx="18" cy="-22" rx="12" ry="6" fill="#f5b860" opacity="0.35" filter="url(#p17p2strongBloom)"/>
+
+    <!-- Nose. -->
+    <path d="M-3,-30 L0,-15 L-4,-8" stroke="#1a0808" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <!-- Lips pressed. -->
+    <line x1="-10" y1="-2" x2="10" y2="-2" stroke="#1a0808" stroke-width="2"/>
+
+    <!-- Jaw firm. -->
+    <ellipse cx="-22" cy="-10" rx="3" ry="2" fill="#1a0808" opacity="0.55"/>
+    <ellipse cx="22" cy="-10" rx="3" ry="2" fill="#1a0808" opacity="0.55"/>
+  </g>
+
+  <!-- DIALOGUE -->
+  <g id="p17p2-bal-sable1">
+    <rect x="14" y="14" width="240" height="60" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Wren. Gear assembly —</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">where in this era?</text>
+  </g>
+
+  <g id="p17p2-bal-wren-op">
+    <rect x="14" y="80" width="240" height="60" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-dasharray="4,3" filter="url(#balloonShadow)"/>
+    <text x="24" y="100" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN (O.P.)</text>
+    <text x="24" y="118" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Clockmakers. Watchmakers.</text>
+    <text x="24" y="135" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Anywhere with lathe-cut brass.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p17p2-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">2</text>
+    <text x="362" y="332" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">PLANNING</text>
+  </g>
+</svg>
