@@ -1,0 +1,328 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 3 — Page 15 — Panel 1: Bird's-eye workbench-as-map</title>
+  <desc>Wide 24mm bird's-eye looking down at cluttered Victorian workbench transformed into improvised map. Tiny ~four-inch figure walks surface dragging thin copper wire between landmarks — thimble as building, brass gear as courtyard, glowing geometric shard at center. Tools and clockwork parts scattered like terrain features. At bench edge bottom, enormous face — boy's chin resting on folded arms, wide hazel eyes tracking every movement. Tiny figure animated, pointing. Warm candlelight from above. Faint emerald trails trace movement path. Shard pulses geometric blue-white at map's center.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p15p1benchSurface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p15p1candleAbove" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a2010" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p15p1shardCore" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a8d8ff"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <radialGradient id="p15p1brass" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1c08"/>
+    </radialGradient>
+    <linearGradient id="p15p1thimble" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="50%" stop-color="#a8b8c8"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p15p1jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="p15p1jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffeca8"/>
+      <stop offset="50%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p15p1emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <linearGradient id="p15p1theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <radialGradient id="p15p1theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#a8825a"/>
+      <stop offset="100%" stop-color="#3a2810"/>
+    </radialGradient>
+    <linearGradient id="p15p1shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcc8a8"/>
+      <stop offset="100%" stop-color="#7a6840"/>
+    </linearGradient>
+    <filter id="p15p1bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p15p1strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p15p1deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- Bench surface filling frame (top-down view). -->
+  <rect width="742" height="364" fill="url(#p15p1benchSurface)"/>
+  <ellipse cx="371" cy="0" rx="600" ry="280" fill="url(#p15p1candleAbove)" opacity="0.65"/>
+
+  <!-- Wood grain. -->
+  <g stroke="#3a2010" stroke-width="0.6" opacity="0.5">
+    <path d="M0,30 Q371,35 742,30"/>
+    <path d="M0,80 Q371,72 742,80"/>
+    <path d="M0,140 Q371,148 742,140"/>
+    <path d="M0,200 Q371,194 742,200"/>
+    <path d="M0,250 Q371,256 742,250"/>
+  </g>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.45">
+    <line x1="80" y1="0" x2="86" y2="284"/>
+    <line x1="200" y1="0" x2="194" y2="284"/>
+    <line x1="540" y1="0" x2="544" y2="284"/>
+    <line x1="660" y1="0" x2="654" y2="284"/>
+  </g>
+
+  <!-- Brass filings. -->
+  <g fill="#a85820" opacity="0.85">
+    <circle cx="86" cy="116" r="1.6"/>
+    <circle cx="124" cy="60" r="1.4"/>
+    <circle cx="240" cy="180" r="1.7"/>
+    <circle cx="640" cy="120" r="1.4"/>
+    <circle cx="700" cy="200" r="1.4"/>
+  </g>
+
+  <!-- ******** TERRAIN: tools as landmarks ******** -->
+  <!-- Thimble (building where they sheltered). -->
+  <g>
+    <ellipse cx="120" cy="148" rx="32" ry="34" fill="url(#p15p1thimble)"/>
+    <ellipse cx="120" cy="148" rx="32" ry="34" fill="none" stroke="#5a606a" stroke-width="2"/>
+    <!-- Dimpled texture (top-down, ring of pits). -->
+    <g fill="#1a1a28" opacity="0.85">
+      <circle cx="106" cy="130" r="1"/>
+      <circle cx="120" cy="124" r="1"/>
+      <circle cx="134" cy="130" r="1"/>
+      <circle cx="142" cy="148" r="1"/>
+      <circle cx="134" cy="166" r="1"/>
+      <circle cx="120" cy="172" r="1"/>
+      <circle cx="106" cy="166" r="1"/>
+      <circle cx="98" cy="148" r="1"/>
+    </g>
+    <!-- Dome rim highlight. -->
+    <ellipse cx="118" cy="138" rx="10" ry="6" fill="#fff8e8" opacity="0.55"/>
+    <!-- Shadow. -->
+    <ellipse cx="146" cy="180" rx="32" ry="3" fill="#000" opacity="0.3"/>
+    <!-- Label: CAMP. -->
+    <text x="120" y="152" text-anchor="middle" font-size="6" fill="#fff0a8" opacity="0.85">CAMP</text>
+  </g>
+
+  <!-- Brass gear (courtyard). -->
+  <g>
+    <ellipse cx="586" cy="140" rx="48" ry="44" fill="url(#p15p1brass)"/>
+    <circle cx="586" cy="140" r="14" fill="#3a1c08"/>
+    <circle cx="586" cy="140" r="4" fill="#fff0a8"/>
+    <!-- Teeth. -->
+    <g fill="#a85820">
+      <rect x="630" y="134" width="10" height="12"/>
+      <rect x="532" y="134" width="10" height="12"/>
+      <rect x="580" y="92" width="12" height="10"/>
+      <rect x="580" y="178" width="12" height="10"/>
+      <rect x="616" y="100" width="10" height="10" transform="rotate(45 621 105)"/>
+      <rect x="616" y="170" width="10" height="10" transform="rotate(-45 621 175)"/>
+      <rect x="546" y="100" width="10" height="10" transform="rotate(-45 551 105)"/>
+      <rect x="546" y="170" width="10" height="10" transform="rotate(45 551 175)"/>
+    </g>
+    <!-- Highlight. -->
+    <ellipse cx="572" cy="124" rx="16" ry="12" fill="#fff0a8" opacity="0.55"/>
+    <!-- Shadow. -->
+    <ellipse cx="606" cy="184" rx="48" ry="6" fill="#000" opacity="0.3"/>
+    <!-- Label. -->
+    <text x="586" y="144" text-anchor="middle" font-size="6" fill="#fff0a8" opacity="0.85">YARD</text>
+  </g>
+
+  <!-- Watchmaker's loupe (smaller landmark). -->
+  <g>
+    <circle cx="246" cy="58" r="22" fill="#1a1a28"/>
+    <circle cx="246" cy="58" r="22" fill="none" stroke="#a8b8c8" stroke-width="1.4"/>
+    <circle cx="246" cy="58" r="18" fill="#fff8e8" opacity="0.45"/>
+    <ellipse cx="240" cy="50" rx="8" ry="6" fill="#fff8e8" opacity="0.55"/>
+    <ellipse cx="252" cy="80" rx="22" ry="3" fill="#000" opacity="0.32"/>
+  </g>
+
+  <!-- Coiled wire piles + scattered terrain. -->
+  <g fill="none" stroke="#a85820" stroke-width="2.5" opacity="0.85">
+    <ellipse cx="450" cy="74" rx="22" ry="9"/>
+    <ellipse cx="450" cy="76" rx="18" ry="7"/>
+    <ellipse cx="450" cy="78" rx="14" ry="5"/>
+  </g>
+  <ellipse cx="450" cy="84" rx="22" ry="3" fill="#000" opacity="0.32"/>
+
+  <g fill="none" stroke="#5a606a" stroke-width="1.4" opacity="0.85">
+    <path d="M340,210 L380,200 L420,210"/>
+    <path d="M340,212 L380,202 L420,212"/>
+  </g>
+
+  <!-- ******** SHARD at center (map's heart) ******** -->
+  <g>
+    <!-- Bloom. -->
+    <ellipse cx="371" cy="160" rx="50" ry="36" fill="url(#p15p1shardCore)" opacity="0.95" filter="url(#p15p1deepBloom)"/>
+    <!-- Geometric crystal. -->
+    <path d="M361,150 L373,144 L385,150 L382,170 L371,176 L362,170 Z" fill="#1a1a28"/>
+    <path d="M363,150 L373,146 L382,150 L381,168 L371,174 L364,168 Z" fill="url(#p15p1shardCore)" opacity="0.95"/>
+    <line x1="373" y1="146" x2="373" y2="174" stroke="#a8d8ff" stroke-width="0.85" filter="url(#p15p1bloom)"/>
+    <circle cx="373" cy="160" r="1.4" fill="#ffffff" filter="url(#p15p1bloom)"/>
+    <!-- Geometric outward pulse. -->
+    <g fill="none" stroke="#a8d8ff" stroke-width="0.7" opacity="0.65" filter="url(#p15p1bloom)">
+      <path d="M335,160 L373,140 L411,160 L373,180 Z"/>
+    </g>
+  </g>
+
+  <!-- Copper wire path (Jink dragging it from camp to shard). -->
+  <g>
+    <path d="M150,148 Q200,140 260,150 Q310,158 360,162" fill="none" stroke="#c87a35" stroke-width="2.5" stroke-linecap="round" opacity="0.95"/>
+    <path d="M150,148 Q200,140 260,150 Q310,158 360,162" fill="none" stroke="#fff0a8" stroke-width="0.85" opacity="0.65"/>
+    <!-- Wire kink/loop. -->
+    <circle cx="232" cy="146" r="3" fill="none" stroke="#c87a35" stroke-width="1.4"/>
+  </g>
+
+  <!-- Emerald movement trail (faint, from camp around to shard). -->
+  <g fill="none" stroke="#2ed078" stroke-width="1.4" opacity="0.55" filter="url(#p15p1bloom)">
+    <path d="M152,168 Q220,180 290,176 Q340,170 360,168"/>
+  </g>
+
+  <!-- ******** JINK on bench midway, top-down view, dragging wire ******** -->
+  <g>
+    <!-- Shadow on bench. -->
+    <ellipse cx="290" cy="196" rx="14" ry="3" fill="#000" opacity="0.55"/>
+    <!-- Body top-down. -->
+    <ellipse cx="290" cy="180" rx="10" ry="14" fill="url(#p15p1emeraldSuit)"/>
+    <!-- Soot. -->
+    <ellipse cx="290" cy="180" rx="8" ry="11" fill="#1a0c04" opacity="0.7"/>
+    <!-- Wing-pack (top of shoulders, glow). -->
+    <rect x="282" y="170" width="18" height="5" fill="#1a4828"/>
+    <line x1="282" y1="172" x2="300" y2="172" stroke="#2ed078" stroke-width="0.7" filter="url(#p15p1bloom)"/>
+    <!-- Arms — left forward gesturing/dragging wire, right pointing out at thimble. -->
+    <path d="M281,176 L260,160 L252,150 L260,148 L268,156 L286,170 Z" fill="url(#p15p1emeraldSuit)"/>
+    <ellipse cx="256" cy="148" rx="3" ry="3" fill="url(#p15p1jinkSkin)"/>
+    <!-- Right arm pointing outward (at thimble/camp). -->
+    <path d="M299,176 L324,166 L342,164 L342,170 L326,174 L302,182 Z" fill="url(#p15p1emeraldSuit)"/>
+    <ellipse cx="346" cy="166" rx="3" ry="3" fill="url(#p15p1jinkSkin)"/>
+    <!-- Legs (top-down foreshortened). -->
+    <ellipse cx="284" cy="194" rx="3" ry="6" fill="url(#p15p1emeraldSuit)"/>
+    <ellipse cx="296" cy="194" rx="3" ry="6" fill="url(#p15p1emeraldSuit)"/>
+    <!-- Head top-down. -->
+    <ellipse cx="290" cy="166" rx="9" ry="9" fill="url(#p15p1jinkHair)"/>
+    <!-- Curls. -->
+    <ellipse cx="282" cy="160" rx="4" ry="5" fill="url(#p15p1jinkHair)"/>
+    <ellipse cx="290" cy="156" rx="4" ry="5" fill="url(#p15p1jinkHair)"/>
+    <ellipse cx="298" cy="160" rx="4" ry="5" fill="url(#p15p1jinkHair)"/>
+    <!-- Forehead. -->
+    <ellipse cx="290" cy="170" rx="5" ry="3" fill="url(#p15p1jinkSkin)"/>
+  </g>
+
+  <!-- ******** THEODORE chin/face at bench bottom edge, partially visible (foreshortening from above) ******** -->
+  <g>
+    <!-- Bench edge transition. -->
+    <line x1="0" y1="284" x2="742" y2="284" stroke="#1a0c04" stroke-width="2"/>
+    <rect x="0" y="284" width="742" height="80" fill="#1a0c04"/>
+    <!-- Hands/forearms folded on bench (visible top portion). -->
+    <path d="M180,284 Q260,278 360,278 L460,280 Q540,278 580,284 L580,304 Q420,310 260,308 L180,306 Z" fill="url(#p15p1theoSkin)"/>
+    <ellipse cx="380" cy="296" rx="160" ry="4" fill="#1a0e06" opacity="0.32"/>
+    <!-- Brass gear ring. -->
+    <ellipse cx="206" cy="296" rx="6" ry="3" fill="#f0d878"/>
+    <ellipse cx="206" cy="296" rx="6" ry="3" fill="none" stroke="#5a3018" stroke-width="0.4"/>
+    <ellipse cx="206" cy="296" rx="2.5" ry="1.5" fill="#3a2010"/>
+    <!-- Sleeve. -->
+    <path d="M170,284 Q166,280 166,272 L172,266 Q200,266 220,266 L226,272 L226,284 Z" fill="url(#p15p1shirt)"/>
+    <path d="M580,284 Q584,280 584,272 L578,266 Q554,266 532,266 L526,272 L526,284 Z" fill="url(#p15p1shirt)"/>
+
+    <!-- Chin and lower face (visible at bottom from top-down). -->
+    <ellipse cx="380" cy="332" rx="120" ry="42" fill="url(#p15p1theoSkin)"/>
+    <!-- Mouth subtle line. -->
+    <path d="M340,326 Q380,330 420,326" fill="none" stroke="#5a3018" stroke-width="1.4"/>
+    <!-- Eye (one visible peeking from above arms). -->
+    <ellipse cx="356" cy="346" rx="14" ry="4" fill="#fff8e8"/>
+    <ellipse cx="356" cy="346" rx="14" ry="4" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <ellipse cx="356" cy="346" rx="7" ry="3" fill="url(#p15p1theoHair)"/>
+    <ellipse cx="356" cy="346" rx="3" ry="2" fill="#0a0604"/>
+    <ellipse cx="358" cy="345" rx="1.4" ry="0.7" fill="#a8ffd0" filter="url(#p15p1bloom)"/>
+    <ellipse cx="404" cy="346" rx="14" ry="4" fill="#fff8e8"/>
+    <ellipse cx="404" cy="346" rx="14" ry="4" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+    <ellipse cx="404" cy="346" rx="7" ry="3" fill="url(#p15p1theoHair)"/>
+    <ellipse cx="404" cy="346" rx="3" ry="2" fill="#0a0604"/>
+    <ellipse cx="406" cy="345" rx="1.4" ry="0.7" fill="#a8ffd0" filter="url(#p15p1bloom)"/>
+    <!-- Brows. -->
+    <path d="M342,338 Q356,334 370,338" fill="none" stroke="#3a2810" stroke-width="2"/>
+    <path d="M390,338 Q404,334 418,338" fill="none" stroke="#3a2810" stroke-width="2"/>
+    <!-- Hair fringe. -->
+    <path d="M280,360 Q380,358 480,360 L480,364 L280,364 Z" fill="url(#p15p1theoHair)"/>
+    <g stroke="#a8825a" stroke-width="2.5" stroke-linecap="round">
+      <line x1="296" y1="362" x2="294" y2="356"/>
+      <line x1="324" y1="362" x2="320" y2="354"/>
+      <line x1="356" y1="362" x2="352" y2="352"/>
+      <line x1="388" y1="362" x2="384" y2="352"/>
+      <line x1="420" y1="362" x2="424" y2="354"/>
+      <line x1="452" y1="362" x2="456" y2="356"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — 6 beats. JINK stacked top-left + top-right; THEO middle-right; JINK middle-left; THEO bottom-right. -->
+  <!-- B1: Jink "Our camp's here-ish. Hidden in the wall." (top-left near thimble). -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="14" width="282" height="40" rx="10" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4"/>
+    <path d="M126,54 L138,54 L128,72 Z" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="127.5" y1="54.5" x2="136" y2="54.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2ed078">JINK</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">Our camp. Hidden in the wall.</text>
+
+  <!-- B2: Jink "This piece landed here." (top-right near gear). -->
+  <g filter="url(#balloonShadow)">
+    <rect x="446" y="14" width="282" height="40" rx="10" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4"/>
+    <path d="M548,54 L560,54 L550,72 Z" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="549.5" y1="54.5" x2="558" y2="54.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="454" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2ed078">JINK</text>
+  <text x="454" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">This piece landed here.</text>
+
+  <!-- B3: Jink "I came to get it back. You weren't supposed to be here." (mid-left). -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="86" width="298" height="56" rx="10" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4"/>
+    <path d="M120,142 L132,142 L122,160 Z" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="121.5" y1="142.5" x2="130" y2="142.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="106" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2ed078">JINK</text>
+  <text x="22" y="124" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">I came to get it back.</text>
+  <text x="22" y="138" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">You weren't supposed to be here.</text>
+
+  <!-- B4: Theodore "Mr. Cribbage lets me work late. Sometimes." (mid-right). -->
+  <g filter="url(#balloonShadow)">
+    <rect x="430" y="86" width="298" height="56" rx="10" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4"/>
+    <path d="M540,142 L552,142 L542,160 Z" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="541.5" y1="142.5" x2="550" y2="142.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="438" y="106" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#6a4220">THEODORE</text>
+  <text x="438" y="124" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">Mr. Cribbage lets me work late.</text>
+  <text x="438" y="138" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">Sometimes.</text>
+
+  <!-- B5: Jink "Cribbage?" (mid). -->
+  <g filter="url(#balloonShadow)">
+    <rect x="324" y="100" width="92" height="40" rx="10" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4"/>
+    <path d="M362,140 L374,140 L364,156 Z" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="363.5" y1="140.5" x2="372" y2="140.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="332" y="118" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2ed078">JINK</text>
+  <text x="332" y="134" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222" font-style="italic">Cribbage?</text>
+
+  <!-- B6: Theodore "My master. The clockmaker." (lower-left, near chin). -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="232" width="222" height="40" rx="10" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4"/>
+    <path d="M88,272 L100,272 L90,290 Z" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="89.5" y1="272.5" x2="98" y2="272.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="250" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#6a4220">THEODORE</text>
+  <text x="22" y="266" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">My master. The clockmaker.</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q200,45 400,42"/>
+    <path d="M400,40 Q600,45 742,42"/>
+  </g>
+</svg>

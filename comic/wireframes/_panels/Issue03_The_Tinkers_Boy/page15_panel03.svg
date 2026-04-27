@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 15 — Panel 3: Touch + shard flare, "Huh."</title>
+  <desc>MED 50mm at workbench level. Theodore's enormous fingertip — oil-stained, burn-scarred — touches a small geometric shard. Shard responds with brief flare of structured blue-white prismatic light, internal patterns accelerating, casting geometric shadows across bench. Beside shard, tiny ~four-inch figure watches with widened eyes, one hand instinctively on shard's edge feeling response. Surprise shifting to sharp assessment. Shard settles to brighter baseline pulse, light conducting faintly through fingertip at point of contact. Cool blue-white prismatic flare illuminates tiny figure from below. Warm ambient.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p15p3nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p15p3warmHalo" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p15p3shardFlare">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="20%" stop-color="#a8d8ff"/>
+      <stop offset="50%" stop-color="#4878d8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p15p3bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p15p3theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <linearGradient id="p15p3coolUnder" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a8d8ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a8d8ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p15p3jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="p15p3jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffeca8"/>
+      <stop offset="50%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p15p3emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <filter id="p15p3bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p15p3strongBloom"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p15p3deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p15p3nightBg)"/>
+  <ellipse cx="183" cy="0" rx="320" ry="200" fill="url(#p15p3warmHalo)" opacity="0.85"/>
+
+  <!-- BIG cool flare from shard center-frame. -->
+  <ellipse cx="220" cy="220" rx="220" ry="160" fill="url(#p15p3shardFlare)" opacity="0.95" filter="url(#p15p3deepBloom)"/>
+
+  <!-- Bench surface. -->
+  <rect x="0" y="280" width="366" height="84" fill="url(#p15p3bench)"/>
+  <line x1="0" y1="280" x2="366" y2="280" stroke="#7a4828" stroke-width="2"/>
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.45">
+    <path d="M60,280 Q66,360 56,364"/>
+    <path d="M180,280 Q186,360 176,364"/>
+    <path d="M300,280 Q306,360 296,364"/>
+  </g>
+
+  <!-- Geometric shadow casts from shard light across bench. -->
+  <g fill="#1a2858" opacity="0.55" filter="url(#p15p3bloom)">
+    <path d="M220,232 L80,300 L100,310 L220,240 Z"/>
+    <path d="M220,232 L320,310 L300,322 L220,240 Z"/>
+  </g>
+
+  <!-- ******** SHARD with FINGER touching from above-right ******** -->
+  <g>
+    <!-- Crystal. -->
+    <path d="M210,212 L222,206 L234,212 L231,232 L222,236 L211,232 Z" fill="#1a1a28"/>
+    <path d="M212,214 L222,210 L232,214 L230,230 L222,234 L213,230 Z" fill="url(#p15p3shardFlare)" opacity="0.95"/>
+    <line x1="222" y1="208" x2="222" y2="234" stroke="#a8d8ff" stroke-width="0.85" filter="url(#p15p3bloom)"/>
+    <circle cx="222" cy="220" r="2" fill="#ffffff" filter="url(#p15p3bloom)"/>
+    <!-- Internal accelerating patterns (more lines). -->
+    <g stroke="#a8d8ff" stroke-width="0.4" opacity="0.65" filter="url(#p15p3bloom)">
+      <line x1="216" y1="214" x2="228" y2="232"/>
+      <line x1="228" y1="214" x2="216" y2="232"/>
+      <line x1="222" y1="212" x2="222" y2="234"/>
+    </g>
+    <!-- Shard halo brighter. -->
+    <ellipse cx="222" cy="220" rx="40" ry="28" fill="url(#p15p3shardFlare)" opacity="0.85" filter="url(#p15p3strongBloom)"/>
+  </g>
+
+  <!-- ENORMOUS fingertip touching shard from upper-right. -->
+  <g>
+    <!-- Finger from upper-right edge. -->
+    <path d="M240,160 L290,80 L366,80 L366,180 L320,200 L260,196 Z" fill="url(#p15p3theoSkin)"/>
+    <!-- Cool underside. -->
+    <ellipse cx="282" cy="190" rx="60" ry="14" fill="url(#p15p3coolUnder)" opacity="0.95"/>
+    <!-- Knuckle. -->
+    <path d="M280,140 Q310,142 340,138" fill="none" stroke="#5a3018" stroke-width="0.85"/>
+    <!-- Burn scar. -->
+    <path d="M300,134 L324,132" stroke="#7a4828" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Oil stain. -->
+    <ellipse cx="300" cy="160" rx="14" ry="4" fill="#1a0c04" opacity="0.7"/>
+    <!-- Fingertip + nail. -->
+    <ellipse cx="252" cy="200" rx="14" ry="6" fill="#fff0d8" opacity="0.6"/>
+    <!-- Conducted light spot at point of contact. -->
+    <circle cx="232" cy="220" r="6" fill="#ffffff" filter="url(#p15p3bloom)"/>
+    <circle cx="232" cy="220" r="3" fill="#a8d8ff" filter="url(#p15p3bloom)"/>
+    <!-- Light spreading up under fingertip. -->
+    <ellipse cx="240" cy="208" rx="22" ry="10" fill="#a8d8ff" opacity="0.85" filter="url(#p15p3bloom)"/>
+  </g>
+
+  <!-- ******** JINK beside shard, hand on edge ******** -->
+  <g>
+    <ellipse cx="160" cy="278" rx="14" ry="2.5" fill="#000" opacity="0.55"/>
+
+    <!-- Legs. -->
+    <path d="M154,232 L150,272 L160,272 L160,232 Z" fill="url(#p15p3emeraldSuit)"/>
+    <path d="M166,232 L168,272 L178,272 L174,232 Z" fill="url(#p15p3emeraldSuit)"/>
+
+    <!-- Torso. -->
+    <path d="M138,170 Q132,210 144,232 L182,232 Q196,210 188,170 Q184,162 162,162 Q140,162 138,170 Z" fill="url(#p15p3emeraldSuit)"/>
+    <!-- Soot. -->
+    <path d="M138,194 Q160,192 188,196 Q190,210 188,220 L138,220 Z" fill="#1a0c04" opacity="0.85"/>
+    <line x1="163" y1="162" x2="163" y2="232" stroke="#0a4018" stroke-width="0.4"/>
+    <circle cx="163" cy="180" r="1.4" fill="#a8ffd0" filter="url(#p15p3bloom)"/>
+    <circle cx="163" cy="216" r="1.4" fill="#a8ffd0" filter="url(#p15p3bloom)"/>
+
+    <!-- Wing-pack. -->
+    <rect x="146" y="166" width="34" height="14" fill="#1a4828"/>
+    <line x1="146" y1="170" x2="180" y2="170" stroke="#2ed078" stroke-width="0.85" filter="url(#p15p3bloom)"/>
+
+    <!-- Right arm reaching to shard (hand on edge). -->
+    <path d="M188,176 Q204,196 210,212 L200,222 Q188,210 178,194 Z" fill="url(#p15p3emeraldSuit)"/>
+    <ellipse cx="208" cy="220" rx="4" ry="3" fill="url(#p15p3jinkSkin)"/>
+    <!-- Strong cool uplight on hand. -->
+    <ellipse cx="208" cy="220" rx="6" ry="4" fill="url(#p15p3shardFlare)" opacity="0.85" filter="url(#p15p3bloom)"/>
+
+    <!-- Left arm relaxed at side. -->
+    <path d="M138,170 Q124,210 124,232 L138,232 Q142,210 144,174 Z" fill="url(#p15p3emeraldSuit)"/>
+    <ellipse cx="128" cy="236" rx="4" ry="3" fill="url(#p15p3jinkSkin)"/>
+
+    <!-- Head — looking up at finger above (eyes WIDENED). -->
+    <g transform="rotate(-12 163 152)">
+      <ellipse cx="163" cy="148" rx="14" ry="16" fill="url(#p15p3jinkSkin)"/>
+      <!-- COOL UPLIGHT on face. -->
+      <ellipse cx="163" cy="156" rx="10" ry="8" fill="#a8d8ff" opacity="0.55" filter="url(#p15p3bloom)"/>
+      <!-- Hair. -->
+      <g fill="url(#p15p3jinkHair)">
+        <ellipse cx="148" cy="130" rx="6" ry="8"/>
+        <ellipse cx="160" cy="124" rx="6" ry="7"/>
+        <ellipse cx="172" cy="124" rx="6" ry="7"/>
+        <ellipse cx="182" cy="130" rx="6" ry="8"/>
+        <ellipse cx="152" cy="140" rx="5" ry="6"/>
+        <ellipse cx="164" cy="136" rx="5" ry="6"/>
+        <ellipse cx="176" cy="140" rx="5" ry="6"/>
+        <ellipse cx="148" cy="148" rx="4" ry="6"/>
+        <ellipse cx="182" cy="148" rx="4" ry="6"/>
+      </g>
+      <!-- WIDENED eyes. -->
+      <ellipse cx="158" cy="148" rx="3" ry="2.4" fill="#fff8e8"/>
+      <circle cx="159" cy="148" r="1.7" fill="#2a4830"/>
+      <circle cx="159" cy="148" r="1" fill="#0a0604"/>
+      <circle cx="159.5" cy="147" r="0.6" fill="#a8d8ff" filter="url(#p15p3bloom)"/>
+      <ellipse cx="170" cy="148" rx="3" ry="2.4" fill="#fff8e8"/>
+      <circle cx="171" cy="148" r="1.7" fill="#2a4830"/>
+      <circle cx="171" cy="148" r="1" fill="#0a0604"/>
+      <circle cx="171.5" cy="147" r="0.6" fill="#a8d8ff" filter="url(#p15p3bloom)"/>
+      <!-- Brows risen. -->
+      <path d="M154,142 Q158,138 162,142" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+      <path d="M166,142 Q170,138 174,142" fill="none" stroke="#3a2810" stroke-width="0.85"/>
+      <!-- Nose. -->
+      <path d="M163,153 L161,158 Q163,159 165,158 Z" fill="#7a4828" opacity="0.55"/>
+      <!-- Mouth slightly open (surprise). -->
+      <ellipse cx="163" cy="164" rx="3" ry="1.5" fill="#3a1408"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — Jink "Huh." + Theodore "It's warm. Like... like a heartbeat." -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="14" width="78" height="44" rx="10" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4"/>
+    <path d="M40,58 L52,58 L42,76 Z" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="41.5" y1="58.5" x2="50" y2="58.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2ed078">JINK</text>
+  <text x="22" y="50" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-style="italic">Huh.</text>
+
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="296" width="262" height="44" rx="10" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4"/>
+    <path d="M70,296 L82,296 L72,278 Z" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="71.5" y1="295.5" x2="80" y2="295.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="314" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#6a4220">THEODORE</text>
+  <text x="22" y="332" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">It's warm. Like a heartbeat.</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 246,42"/>
+    <path d="M246,40 Q310,45 366,42"/>
+  </g>
+</svg>

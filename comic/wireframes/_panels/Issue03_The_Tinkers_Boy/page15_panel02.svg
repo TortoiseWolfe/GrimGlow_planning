@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 3 — Page 15 — Panel 2: Theodore hand reaching, "May I?"</title>
+  <desc>MCU 65mm at workbench level. Enormous hand approaches small glowing shard — oil-stained fingers each as long as a tiny person's arm, hovering an inch away, restrained. Burn scar on knuckle. Brass gear ring on left index finger catching geometric blue-white light. Shard pulses with structured prismatic light, illuminating undersides of fingertips. Sleeve of collarless linen shirt rolled to forearm visible. Fingers extended but stopped. Permission being asked. Warm candlelight from above, cool blue-white geometric light from shard below.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p15p2nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p15p2candleAbove" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#ffe8a0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p15p2shardCool" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#a8d8ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#4878d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a2858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p15p2bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p15p2theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#dcb89a"/>
+    </linearGradient>
+    <linearGradient id="p15p2theoSkinWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="p15p2coolUnder" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a8d8ff" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#a8d8ff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p15p2shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcc8a8"/>
+      <stop offset="100%" stop-color="#7a6840"/>
+    </linearGradient>
+    <radialGradient id="p15p2ring" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="80%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1c08"/>
+    </radialGradient>
+    <radialGradient id="p15p2shardCore">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#a0d8ff"/>
+      <stop offset="100%" stop-color="#1a2858"/>
+    </radialGradient>
+    <filter id="p15p2bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p15p2deepBloom"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="364" fill="url(#p15p2nightBg)"/>
+  <ellipse cx="183" cy="-20" rx="320" ry="240" fill="url(#p15p2candleAbove)" opacity="0.7"/>
+  <ellipse cx="183" cy="280" rx="240" ry="160" fill="url(#p15p2shardCool)" opacity="0.85" filter="url(#p15p2deepBloom)"/>
+
+  <!-- Bench surface (horizontal band). -->
+  <rect x="0" y="270" width="366" height="94" fill="url(#p15p2bench)"/>
+  <line x1="0" y1="270" x2="366" y2="270" stroke="#7a4828" stroke-width="2"/>
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.45">
+    <path d="M60,270 Q66,360 56,364"/>
+    <path d="M180,270 Q186,360 176,364"/>
+    <path d="M300,270 Q306,360 296,364"/>
+  </g>
+
+  <!-- ******** SHARD on bench in front of hand ******** -->
+  <g>
+    <ellipse cx="183" cy="280" rx="36" ry="22" fill="url(#p15p2shardCore)" opacity="0.85" filter="url(#p15p2deepBloom)"/>
+    <path d="M171,272 L183,266 L195,272 L192,290 L183,294 L172,290 Z" fill="#1a1a28"/>
+    <path d="M173,272 L183,268 L193,272 L191,288 L183,292 L174,288 Z" fill="url(#p15p2shardCore)" opacity="0.95"/>
+    <line x1="183" y1="268" x2="183" y2="292" stroke="#a8d8ff" stroke-width="0.85" filter="url(#p15p2bloom)"/>
+    <circle cx="183" cy="280" r="1.4" fill="#ffffff" filter="url(#p15p2bloom)"/>
+    <!-- Outward geometric pulses. -->
+    <g fill="none" stroke="#a8d8ff" stroke-width="0.7" opacity="0.65" filter="url(#p15p2bloom)">
+      <path d="M150,280 L183,260 L216,280 L183,300 Z"/>
+    </g>
+  </g>
+
+  <!-- ******** ENORMOUS HAND reaching down from above ******** -->
+  <g>
+    <!-- Sleeve cuff (rolled). -->
+    <path d="M40,0 L40,78 Q60,90 110,90 L240,86 Q300,80 330,68 L330,0 Z" fill="url(#p15p2shirt)"/>
+    <!-- Sleeve cuff fold. -->
+    <path d="M40,68 Q150,80 320,72 L322,84 Q160,94 38,82 Z" fill="#a89060"/>
+
+    <!-- WRIST + back of hand (top-down vertical from above into frame). -->
+    <path d="M50,86 L52,180 Q120,200 200,196 L300,184 L322,86 Q200,98 50,86 Z" fill="url(#p15p2theoSkin)"/>
+    <ellipse cx="180" cy="160" rx="120" ry="14" fill="url(#p15p2theoSkinWarm)" opacity="0.65"/>
+
+    <!-- FINGERS extended, curled toward shard but stopped (4 fingers + thumb). -->
+    <!-- Index finger (with ring) reaching forward. -->
+    <g>
+      <path d="M52,170 L60,254 Q72,256 80,254 L84,180 Q70,170 56,170 Z" fill="url(#p15p2theoSkin)"/>
+      <ellipse cx="68" cy="220" rx="10" ry="3" fill="url(#p15p2theoSkinWarm)" opacity="0.65"/>
+      <!-- Cool blue-white underside near tip. -->
+      <ellipse cx="70" cy="248" rx="14" ry="6" fill="url(#p15p2coolUnder)" opacity="0.85"/>
+      <!-- Knuckle. -->
+      <path d="M58,200 Q70,196 80,200" fill="none" stroke="#5a3018" stroke-width="0.85"/>
+      <!-- BURN SCAR on knuckle. -->
+      <path d="M62,196 L78,194" stroke="#7a4828" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M64,200 L76,198" stroke="#5a3018" stroke-width="0.85"/>
+      <!-- BRASS GEAR RING. -->
+      <ellipse cx="70" cy="216" rx="12" ry="7" fill="url(#p15p2ring)"/>
+      <ellipse cx="70" cy="216" rx="12" ry="7" fill="none" stroke="#1a0c04" stroke-width="0.4"/>
+      <ellipse cx="70" cy="216" rx="5" ry="3" fill="#3a1c08"/>
+      <!-- Cool catch on ring. -->
+      <ellipse cx="74" cy="220" rx="3" ry="1.5" fill="#a8d8ff" filter="url(#p15p2bloom)" opacity="0.85"/>
+      <!-- Tiny gear teeth. -->
+      <g fill="#a85820">
+        <rect x="58" y="215" width="2" height="2"/>
+        <rect x="80" y="215" width="2" height="2"/>
+        <rect x="69" y="208" width="2" height="2"/>
+      </g>
+      <!-- Fingernail tip. -->
+      <ellipse cx="70" cy="252" rx="6" ry="3" fill="#fff0d8" opacity="0.55"/>
+    </g>
+
+    <!-- Middle finger (longest, reaching toward shard). -->
+    <g>
+      <path d="M118,180 L124,272 Q134,278 144,276 L150,184 Q138,176 122,176 Z" fill="url(#p15p2theoSkin)"/>
+      <ellipse cx="134" cy="226" rx="10" ry="3" fill="url(#p15p2theoSkinWarm)" opacity="0.55"/>
+      <!-- Strong cool underside (closest to shard). -->
+      <ellipse cx="136" cy="266" rx="16" ry="8" fill="url(#p15p2coolUnder)" opacity="0.95"/>
+      <path d="M124,206 Q134,202 146,206" fill="none" stroke="#5a3018" stroke-width="0.85"/>
+      <ellipse cx="134" cy="270" rx="6" ry="3" fill="#fff0d8" opacity="0.55"/>
+      <!-- Conducted light at fingertip. -->
+      <circle cx="134" cy="270" r="2" fill="#a8d8ff" filter="url(#p15p2bloom)"/>
+    </g>
+
+    <!-- Ring finger. -->
+    <g>
+      <path d="M192,184 L196,260 Q204,266 214,262 L218,188 Q206,180 196,180 Z" fill="url(#p15p2theoSkin)"/>
+      <ellipse cx="206" cy="224" rx="10" ry="3" fill="url(#p15p2theoSkinWarm)" opacity="0.55"/>
+      <ellipse cx="206" cy="254" rx="14" ry="6" fill="url(#p15p2coolUnder)" opacity="0.85"/>
+      <path d="M196,210 Q206,206 218,210" fill="none" stroke="#5a3018" stroke-width="0.85"/>
+      <ellipse cx="206" cy="258" rx="6" ry="3" fill="#fff0d8" opacity="0.55"/>
+    </g>
+
+    <!-- Pinky. -->
+    <g>
+      <path d="M256,180 L260,236 Q266,240 274,238 L278,184 Q268,176 260,176 Z" fill="url(#p15p2theoSkin)"/>
+      <ellipse cx="266" cy="208" rx="8" ry="3" fill="url(#p15p2theoSkinWarm)" opacity="0.55"/>
+      <ellipse cx="268" cy="232" rx="10" ry="5" fill="url(#p15p2coolUnder)" opacity="0.7"/>
+      <ellipse cx="268" cy="234" rx="5" ry="2" fill="#fff0d8" opacity="0.55"/>
+    </g>
+
+    <!-- Thumb (lower curving). -->
+    <g>
+      <path d="M28,86 L30,160 Q22,200 8,220 L8,86 Z" fill="url(#p15p2theoSkin)"/>
+      <ellipse cx="22" cy="200" rx="12" ry="6" fill="url(#p15p2theoSkinWarm)" opacity="0.55"/>
+    </g>
+
+    <!-- OIL STAINS on fingers. -->
+    <g fill="#1a0c04" opacity="0.8">
+      <ellipse cx="68" cy="240" rx="6" ry="2"/>
+      <ellipse cx="138" cy="252" rx="6" ry="2.5"/>
+      <ellipse cx="208" cy="244" rx="5" ry="2"/>
+      <ellipse cx="98" cy="160" rx="14" ry="4"/>
+      <ellipse cx="216" cy="160" rx="10" ry="3"/>
+    </g>
+
+    <!-- Fingernail edges. -->
+    <g stroke="#3a2010" stroke-width="0.55" fill="none" opacity="0.65">
+      <path d="M62,254 Q70,256 80,254"/>
+      <path d="M124,272 Q134,274 146,272"/>
+      <path d="M196,258 Q206,260 218,258"/>
+      <path d="M260,236 Q268,238 276,236"/>
+    </g>
+
+    <!-- Knuckle highlights from candle. -->
+    <g fill="#fff8e8" opacity="0.55">
+      <ellipse cx="70" cy="118" rx="7" ry="2.5"/>
+      <ellipse cx="134" cy="120" rx="7" ry="2.5"/>
+      <ellipse cx="206" cy="120" rx="7" ry="2.5"/>
+      <ellipse cx="268" cy="118" rx="6" ry="2.5"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — Theodore "May I?" + Jink "...Yeah. Gently." -->
+  <g filter="url(#balloonShadow)">
+    <rect x="14" y="14" width="118" height="44" rx="10" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4"/>
+    <path d="M48,58 L60,58 L50,76 Z" fill="#fff8e8" stroke="#6a4220" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="49.5" y1="58.5" x2="58" y2="58.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#6a4220">THEODORE</text>
+  <text x="22" y="50" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#222" font-style="italic">May I?</text>
+
+  <g filter="url(#balloonShadow)">
+    <rect x="220" y="296" width="132" height="44" rx="10" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4"/>
+    <path d="M270,296 L282,296 L272,278 Z" fill="#fff8e8" stroke="#2ed078" stroke-width="1.4" stroke-linejoin="round"/>
+    <line x1="271.5" y1="295.5" x2="280" y2="295.5" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+  <text x="228" y="314" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#2ed078">JINK</text>
+  <text x="228" y="332" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#222">...Yeah. Gently.</text>
+
+  <!-- Brushwork. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,45 246,42"/>
+    <path d="M246,40 Q310,45 366,42"/>
+  </g>
+</svg>
