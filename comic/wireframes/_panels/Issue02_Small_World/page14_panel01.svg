@@ -1,0 +1,275 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 340" width="742" height="340">
+  <title>Issue 2 — Page 14 — Panel 1: THE LIST presented, copper-gold holographic shift from despair to determination</title>
+  <desc>MS 50mm eye level formally composed. Wren projected new display — list 4 items in copper-gold holographic fairy geometric script with English annotations. List floats between Wren and squad. Wren stands beside list like professor blackboard hand raised pointing first item energised. Squad attentive: Sable calculating logistics, others waiting. Copper-gold warmer than red — visual shift despair to determination. WREN core works needs new drive assembly, can build but not from nothing / WREN need four things four components I can adapt from technology here.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a8088"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p14p1hull" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a44"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p14p1flag" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a8088"/>
+      <stop offset="100%" stop-color="#3a3e48"/>
+    </linearGradient>
+    <linearGradient id="p14p1silverDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#88909a"/>
+      <stop offset="100%" stop-color="#2a3038"/>
+    </linearGradient>
+    <linearGradient id="p14p1copperDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86528"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p14p1rubyDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a81820"/>
+      <stop offset="100%" stop-color="#3a0810"/>
+    </linearGradient>
+    <linearGradient id="p14p1sapphireDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#28157a"/>
+    </linearGradient>
+    <linearGradient id="p14p1emeraldDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3aa078"/>
+      <stop offset="100%" stop-color="#0a3818"/>
+    </linearGradient>
+    <radialGradient id="p14p1listGlow">
+      <stop offset="0%" stop-color="#f0d878" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#f0a868" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p14p1bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p14p1strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p14p1deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG sky strip. -->
+  <rect width="742" height="60" fill="url(#p14p1sky)"/>
+
+  <!-- Wreckage background fills middle. -->
+  <rect x="0" y="60" width="742" height="200" fill="url(#p14p1hull)"/>
+  <g stroke="#080404" stroke-width="0.5" fill="none" opacity="0.85">
+    <path d="M0,100 L80,100 L100,120 L160,120"/>
+    <path d="M200,80 L280,80 L300,100"/>
+    <path d="M340,90 L420,90 L440,110"/>
+    <path d="M480,80 L560,80 L580,100"/>
+    <path d="M620,90 L720,90"/>
+    <path d="M0,180 L80,180 L100,200 L180,200"/>
+    <path d="M220,160 L300,160 L320,180"/>
+    <path d="M360,170 L440,170 L460,190"/>
+    <path d="M500,160 L580,160 L600,180"/>
+  </g>
+
+  <!-- Access panel (where drive housing visible). -->
+  <rect x="540" y="80" width="120" height="160" fill="#080404" stroke="#1a1a20" stroke-width="0.7"/>
+  <ellipse cx="600" cy="160" rx="30" ry="50" fill="#1a1010" stroke="#080404" stroke-width="0.5"/>
+
+  <!-- COURTYARD FLAGSTONES foreground. -->
+  <rect x="0" y="260" width="742" height="80" fill="url(#p14p1flag)" stroke="#1a1a20" stroke-width="0.85"/>
+  <line x1="100" y1="260" x2="100" y2="340" stroke="#1a1a20" stroke-width="1.2"/>
+  <line x1="220" y1="260" x2="220" y2="340" stroke="#1a1a20" stroke-width="1.2"/>
+  <line x1="340" y1="260" x2="340" y2="340" stroke="#1a1a20" stroke-width="1.2"/>
+  <line x1="460" y1="260" x2="460" y2="340" stroke="#1a1a20" stroke-width="1.2"/>
+  <line x1="580" y1="260" x2="580" y2="340" stroke="#1a1a20" stroke-width="1.2"/>
+
+  <!-- THE LIST — 4 items floating. Center-frame, copper-gold holographic. -->
+  <g id="p14p1-list">
+    <!-- Halo glow. -->
+    <ellipse cx="370" cy="190" rx="180" ry="100" fill="url(#p14p1listGlow)" filter="url(#p14p1deepBloom)" opacity="0.85"/>
+
+    <!-- 4 list items, vertical layout. -->
+    <!-- Item 1: GEAR -->
+    <g transform="translate(370, 110)">
+      <!-- Symbol holographic. -->
+      <g stroke="#f0d878" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#p14p1bloom)">
+        <circle cx="-100" cy="0" r="14"/>
+        <g>
+          <line x1="-100" y1="-14" x2="-100" y2="-18"/>
+          <line x1="-100" y1="14" x2="-100" y2="18"/>
+          <line x1="-114" y1="0" x2="-118" y2="0"/>
+          <line x1="-86" y1="0" x2="-82" y2="0"/>
+          <line x1="-90" y1="-10" x2="-93" y2="-13"/>
+          <line x1="-110" y1="-10" x2="-107" y2="-13"/>
+          <line x1="-110" y1="10" x2="-107" y2="13"/>
+          <line x1="-90" y1="10" x2="-93" y2="13"/>
+        </g>
+        <circle cx="-100" cy="0" r="6"/>
+      </g>
+      <!-- Number. -->
+      <text x="-130" y="6" font-family="Courier, monospace" font-size="14" font-weight="900" fill="#f0d878" opacity="0.95">1</text>
+      <!-- Label. -->
+      <text x="-78" y="-4" font-family="Courier, monospace" font-size="9" font-weight="700" fill="#f0d878" opacity="0.95">GEAR ASSEMBLY</text>
+      <text x="-78" y="6" font-family="Courier, monospace" font-size="6" fill="#f0a868" opacity="0.85">precision · clockwork</text>
+      <text x="-78" y="14" font-family="Courier, monospace" font-size="4" fill="#f0a868" opacity="0.65">  ⌽⌽⌽   ◊◊◊</text>
+    </g>
+
+    <!-- Item 2: COILS -->
+    <g transform="translate(370, 150)">
+      <g stroke="#f0d878" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#p14p1bloom)">
+        <!-- Tightly wound spiral. -->
+        <path d="M-114,0 Q-110,-6 -100,-6 Q-90,-6 -86,0 Q-90,6 -100,6 Q-110,6 -114,0 Z"/>
+        <path d="M-110,0 Q-106,-3 -100,-3 Q-94,-3 -90,0 Q-94,3 -100,3 Q-106,3 -110,0 Z"/>
+        <line x1="-114" y1="0" x2="-86" y2="0"/>
+      </g>
+      <text x="-130" y="6" font-family="Courier, monospace" font-size="14" font-weight="900" fill="#f0d878" opacity="0.95">2</text>
+      <text x="-78" y="-4" font-family="Courier, monospace" font-size="9" font-weight="700" fill="#f0d878" opacity="0.95">INDUCTION COILS</text>
+      <text x="-78" y="6" font-family="Courier, monospace" font-size="6" fill="#f0a868" opacity="0.85">copper · tightly wound</text>
+      <text x="-78" y="14" font-family="Courier, monospace" font-size="4" fill="#f0a868" opacity="0.65">  ◊◊◊◊◊  ⌖⌖</text>
+    </g>
+
+    <!-- Item 3: LENS -->
+    <g transform="translate(370, 190)">
+      <g stroke="#f0d878" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#p14p1bloom)">
+        <ellipse cx="-100" cy="0" rx="14" ry="6"/>
+        <path d="M-114,0 Q-100,-3 -86,0"/>
+        <path d="M-114,0 Q-100,3 -86,0"/>
+        <!-- Light rays. -->
+        <line x1="-118" y1="-3" x2="-86" y2="0"/>
+        <line x1="-118" y1="0" x2="-86" y2="0"/>
+        <line x1="-118" y1="3" x2="-86" y2="0"/>
+        <line x1="-86" y1="0" x2="-78" y2="0"/>
+      </g>
+      <text x="-130" y="6" font-family="Courier, monospace" font-size="14" font-weight="900" fill="#f0d878" opacity="0.95">3</text>
+      <text x="-78" y="-4" font-family="Courier, monospace" font-size="9" font-weight="700" fill="#f0d878" opacity="0.95">OPTICAL LENS</text>
+      <text x="-78" y="6" font-family="Courier, monospace" font-size="6" fill="#f0a868" opacity="0.85">glass · ground spec</text>
+      <text x="-78" y="14" font-family="Courier, monospace" font-size="4" fill="#f0a868" opacity="0.65">  ⌬⌬⌬</text>
+    </g>
+
+    <!-- Item 4: WIRE -->
+    <g transform="translate(370, 230)">
+      <g stroke="#f0d878" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#p14p1bloom)">
+        <!-- Wire path. -->
+        <path d="M-114,0 L-114,-6 L-110,-6 L-110,6 L-106,6 L-106,-6 L-102,-6 L-102,6 L-98,6 L-98,-6 L-94,-6 L-94,6 L-86,6"/>
+      </g>
+      <text x="-130" y="6" font-family="Courier, monospace" font-size="14" font-weight="900" fill="#f0d878" opacity="0.95">4</text>
+      <text x="-78" y="-4" font-family="Courier, monospace" font-size="9" font-weight="700" fill="#f0d878" opacity="0.95">CONDUCTOR WIRE</text>
+      <text x="-78" y="6" font-family="Courier, monospace" font-size="6" fill="#f0a868" opacity="0.85">copper or silver</text>
+      <text x="-78" y="14" font-family="Courier, monospace" font-size="4" fill="#f0a868" opacity="0.65">  ⌃⌃⌃⌃⌃</text>
+    </g>
+
+    <!-- Frame around list. -->
+    <g stroke="#f0d878" stroke-width="0.5" fill="none" opacity="0.65">
+      <rect x="220" y="90" width="300" height="170" rx="3"/>
+      <line x1="220" y1="130" x2="520" y2="130"/>
+      <line x1="220" y1="170" x2="520" y2="170"/>
+      <line x1="220" y1="210" x2="520" y2="210"/>
+    </g>
+    <text x="370" y="80" text-anchor="middle" font-family="Courier, monospace" font-size="8" font-weight="700" fill="#f0d878" opacity="0.95">— MANIFEST —</text>
+  </g>
+
+  <!-- WREN — left of list, hand raised pointing. -->
+  <g id="p14p1-wren" transform="translate(150, 285)">
+    <path d="M-12,40 L-15,5 L-12,-15 L-6,-25 L6,-25 L12,-15 L15,5 L12,40 Z" fill="url(#p14p1copperDirty)" stroke="#080404" stroke-width="0.7"/>
+    <ellipse cx="0" cy="-25" rx="8" ry="2.5" fill="#f0a868" opacity="0.85" filter="url(#p14p1bloom)"/>
+    <g fill="#1a0808" opacity="0.85"><ellipse cx="-13" cy="6" rx="2.5" ry="1.4"/><ellipse cx="13" cy="8" rx="2.5" ry="1.4"/></g>
+    <g fill="#3a2010" opacity="0.85"><ellipse cx="-5" cy="20" rx="3" ry="1.4"/></g>
+    <!-- ARM RAISED pointing right (toward list). -->
+    <path d="M12,-12 L40,-32 L44,-26 L14,-6 Z" fill="url(#p14p1copperDirty)" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="44" cy="-30" rx="3" ry="2" fill="#e0c098" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Pointing fingertip glow. -->
+    <circle cx="46" cy="-32" r="1.5" fill="#f0d878" opacity="0.95" filter="url(#p14p1bloom)"/>
+    <ellipse cx="44" cy="-30" rx="8" ry="3" fill="#f0d878" opacity="0.55" filter="url(#p14p1strongBloom)"/>
+    <!-- Head facing right. -->
+    <ellipse cx="3" cy="-37" rx="11" ry="12" fill="#e0c098"/>
+    <ellipse cx="-1" cy="-46" rx="8" ry="5" fill="#1a0808"/>
+    <line x1="-3" y1="-48" x2="2" y2="-45" stroke="#3a1808" stroke-width="0.4"/>
+    <ellipse cx="0" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="6" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="2" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="8" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-1" y1="-31" x2="6" y2="-31" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- 4 SQUAD MEMBERS — right side facing list. -->
+  <!-- SABLE listening calculating. -->
+  <g id="p14p1-sable" transform="translate(620, 290)">
+    <path d="M-11,40 L-14,5 L-11,-15 L-6,-25 L6,-25 L11,-15 L14,5 L11,40 Z" fill="url(#p14p1silverDirty)" stroke="#080404" stroke-width="0.7"/>
+    <path d="M11,-12 L17,-2 L19,12 L17,24" fill="url(#p14p1silverDirty)" stroke="#080404" stroke-width="0.5"/>
+    <g stroke="#a8d8f8" stroke-width="0.5" opacity="0.85" filter="url(#p14p1bloom)"><path d="M13,-5 L17,5 L15,15"/></g>
+    <ellipse cx="0" cy="-25" rx="8" ry="2.5" fill="#dce4f0" opacity="0.55" filter="url(#p14p1bloom)"/>
+    <ellipse cx="-2" cy="-37" rx="11" ry="12" fill="#3a2818"/>
+    <path d="M-11,-44 Q-2,-49 7,-44 L7,-37 L-11,-37 Z" fill="#dce4f0"/>
+    <ellipse cx="-4" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="2" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-5" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="1" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-5" y1="-31" x2="2" y2="-31" stroke="#3a1810" stroke-width="0.7"/>
+    <ellipse cx="-2" cy="-37" rx="14" ry="10" fill="#f0d878" opacity="0.25" filter="url(#p14p1strongBloom)"/>
+  </g>
+
+  <!-- LUMA. -->
+  <g id="p14p1-luma" transform="translate(680, 295)">
+    <path d="M-11,40 L-14,5 L-11,-15 L-6,-25 L6,-25 L11,-15 L14,5 L11,40 Z" fill="url(#p14p1sapphireDirty)" stroke="#080404" stroke-width="0.7"/>
+    <ellipse cx="0" cy="-25" rx="8" ry="2.5" fill="#a878f8" opacity="0.65" filter="url(#p14p1bloom)"/>
+    <ellipse cx="-2" cy="-37" rx="11" ry="12" fill="#a87850"/>
+    <path d="M-9,-32 Q-15,-22 -14,-10 Q-13,2 -15,12" stroke="#1a0808" stroke-width="4" fill="none"/>
+    <line x1="-11" y1="-28" x2="-14" y2="10" stroke="#a878f8" stroke-width="0.5" opacity="0.85" filter="url(#p14p1bloom)"/>
+    <ellipse cx="2" cy="-37" rx="4" ry="3" fill="#a878f8" opacity="0.65" stroke="#a878f8" stroke-width="0.4"/>
+    <line x1="2" y1="-37" x2="5" y2="-34" stroke="#dce4f0" stroke-width="0.3" opacity="0.85"/>
+    <ellipse cx="-4" cy="-38" rx="1.2" ry="0.9" fill="#dce4f0"/>
+    <ellipse cx="-4" cy="-38" rx="0.6" ry="0.6" fill="#1a0808"/>
+    <line x1="-5" y1="-30" x2="2" y2="-30" stroke="#3a1810" stroke-width="0.5"/>
+  </g>
+
+  <!-- THRESH. -->
+  <g id="p14p1-thresh" transform="translate(560, 290)">
+    <path d="M-13,40 L-15,5 L-13,-15 L-7,-25 L7,-25 L13,-15 L15,5 L13,40 Z" fill="url(#p14p1rubyDirty)" stroke="#080404" stroke-width="0.7"/>
+    <path d="M-13,-13 L-22,-3 L-22,12 L-13,18" fill="url(#p14p1rubyDirty)" stroke="#080404" stroke-width="0.5"/>
+    <path d="M-19,2 Q-15,8 -14,4 Z" fill="#3a0810"/>
+    <ellipse cx="0" cy="-25" rx="9" ry="2.5" fill="#f54848" opacity="0.65" filter="url(#p14p1bloom)"/>
+    <rect x="-10" y="-2" width="22" height="5" rx="0.5" fill="#1a0810" stroke="#080404" stroke-width="0.4"/>
+    <ellipse cx="0" cy="-37" rx="11" ry="12" fill="#d8a880"/>
+    <path d="M-9,-44 Q0,-49 9,-44 L9,-37 L-9,-37 Z" fill="#a83a18"/>
+    <ellipse cx="-3" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="3" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-3" y1="-31" x2="3" y2="-31" stroke="#3a1810" stroke-width="0.7"/>
+  </g>
+
+  <!-- JINK. -->
+  <g id="p14p1-jink" transform="translate(700, 295)">
+    <ellipse cx="-8" cy="-10" rx="9" ry="3" fill="#3aa078" opacity="0.45" transform="rotate(45 -8 -10)" filter="url(#p14p1bloom)"/>
+    <ellipse cx="8" cy="-10" rx="9" ry="3" fill="#3aa078" opacity="0.45" transform="rotate(-45 8 -10)" filter="url(#p14p1bloom)"/>
+    <path d="M-11,40 L-14,5 L-11,-15 L-6,-25 L6,-25 L11,-15 L14,5 L11,40 Z" fill="url(#p14p1emeraldDirty)" stroke="#080404" stroke-width="0.7"/>
+    <ellipse cx="0" cy="-25" rx="8" ry="2.5" fill="#7af0b0" opacity="0.55" filter="url(#p14p1bloom)"/>
+    <ellipse cx="0" cy="-37" rx="11" ry="12" fill="#d8b890"/>
+    <path d="M-9,-44 Q0,-50 9,-44 L9,-37 L-9,-37 Z" fill="#f0d878"/>
+    <g fill="#a89048"><circle cx="-4" cy="-46" r="1.2"/><circle cx="0" cy="-48" r="1.2"/><circle cx="4" cy="-46" r="1.2"/></g>
+    <ellipse cx="-3" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="3" cy="-39" rx="1.4" ry="1" fill="#dce4f0"/>
+    <ellipse cx="-3" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <ellipse cx="3" cy="-39" rx="0.7" ry="0.7" fill="#1a0808"/>
+    <line x1="-3" y1="-31" x2="3" y2="-31" stroke="#3a1810" stroke-width="0.6"/>
+  </g>
+
+  <!-- DIALOGUE — WREN STACK. -->
+  <g id="p14p1-bal-wren1">
+    <rect x="14" y="14" width="200" height="60" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Core works. I can build a</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">new drive — but not from nothing.</text>
+    <path d="M120,76 L132,76 L126,90 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="120" y1="76" x2="132" y2="76" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g id="p14p1-bal-wren2">
+    <rect x="220" y="14" width="240" height="60" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="230" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="230" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Four things. Four components</text>
+    <text x="230" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">I can adapt from this world.</text>
+    <path d="M340,76 L352,76 L346,90 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="340" y1="76" x2="352" y2="76" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p14p1-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">1</text>
+    <text x="738" y="332" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">THE LIST</text>
+  </g>
+</svg>

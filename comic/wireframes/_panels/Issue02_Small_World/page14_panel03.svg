@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 2 — Page 14 — Panel 3: Sable studies list, command crystallising</title>
+  <desc>MCU 65mm eye level. Sable studies holographic list copper-gold light reflecting eyes. Late 30s sharp features dark brown skin very short military buzz silver-white hair. Cracked silver shoulder fresh impact. Sharp calculating engaged — uncertainty crossing replaced operational clarity. Posture straightened command authority engaged. Mission structure now. Copper-gold reflects on silver suit edges warming metal. SABLE four components four operations plan execute clean / SABLE first base hidden defensible close wreckage tonight dig in.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#2a2820"/>
+    </linearGradient>
+    <radialGradient id="p14p3copperWash">
+      <stop offset="0%" stop-color="#f0d878" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#f0a868" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p14p3silverWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a890"/>
+      <stop offset="50%" stop-color="#888070"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </linearGradient>
+    <filter id="p14p3bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p14p3strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p14p3deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="366" height="400" fill="url(#p14p3bg)"/>
+
+  <!-- Copper-gold wash from list (right side — list is off-frame to right). -->
+  <ellipse cx="320" cy="200" rx="200" ry="220" fill="url(#p14p3copperWash)" filter="url(#p14p3deepBloom)" opacity="0.85"/>
+
+  <!-- SABLE MCU center. -->
+  <g id="p14p3-sable" transform="translate(170, 200)">
+    <!-- Body upper torso. -->
+    <path d="M-65,180 L-70,80 L-55,30 L-30,5 L-15,-15 L15,-15 L30,5 L55,30 L70,80 L65,180 Z" fill="url(#p14p3silverWarm)" stroke="#080404" stroke-width="0.85"/>
+
+    <!-- CRACKED RIGHT SHOULDER (continuity, lit warmly by holo). -->
+    <path d="M30,5 L60,18 L62,42 L60,68 L55,90" fill="url(#p14p3silverWarm)" stroke="#080404" stroke-width="0.7"/>
+    <g stroke="#a8d8f8" stroke-width="0.85" opacity="0.95" filter="url(#p14p3bloom)">
+      <path d="M34,20 L40,32 L38,46 L42,58 L40,72"/>
+      <path d="M38,32 L42,44"/>
+      <path d="M40,52 L45,62"/>
+      <path d="M42,28 L46,40"/>
+    </g>
+    <!-- Left pauldron (intact). -->
+    <path d="M-30,5 L-58,18 L-58,42 L-30,48" fill="url(#p14p3silverWarm)" stroke="#080404" stroke-width="0.7"/>
+
+    <!-- Silver collar (lit copper). -->
+    <ellipse cx="0" cy="-15" rx="20" ry="4" fill="#f0d878" opacity="0.55" filter="url(#p14p3bloom)"/>
+    <ellipse cx="0" cy="-15" rx="28" ry="6" fill="#f0d878" opacity="0.35" filter="url(#p14p3strongBloom)"/>
+
+    <!-- Mud streaks. -->
+    <g fill="#3a2818" opacity="0.85">
+      <ellipse cx="-15" cy="60" rx="6" ry="3" transform="rotate(-15 -15 60)"/>
+      <ellipse cx="20" cy="80" rx="5" ry="2.5"/>
+      <ellipse cx="-25" cy="120" rx="6" ry="3"/>
+      <ellipse cx="30" cy="140" rx="5" ry="2.5"/>
+    </g>
+
+    <!-- HEAD. -->
+    <ellipse cx="0" cy="-50" rx="32" ry="36" fill="#3a2818"/>
+
+    <!-- Silver-white buzz cut (catches copper warm). -->
+    <path d="M-30,-78 Q-15,-92 0,-94 Q15,-92 30,-78 L30,-60 L-30,-60 Z" fill="#f0e8d8"/>
+    <line x1="-30" y1="-60" x2="30" y2="-60" stroke="#3a3a44" stroke-width="0.85" opacity="0.85"/>
+    <g fill="#5a606a" opacity="0.85">
+      <circle cx="-22" cy="-82" r="0.85"/>
+      <circle cx="-12" cy="-88" r="0.85"/>
+      <circle cx="0" cy="-92" r="0.85"/>
+      <circle cx="12" cy="-88" r="0.85"/>
+      <circle cx="22" cy="-82" r="0.85"/>
+      <circle cx="-25" cy="-72" r="0.85"/>
+      <circle cx="25" cy="-72" r="0.85"/>
+    </g>
+    <!-- Copper warmth on hair top. -->
+    <ellipse cx="0" cy="-85" rx="22" ry="6" fill="#f0d878" opacity="0.45" filter="url(#p14p3strongBloom)"/>
+
+    <!-- Brow set sharp/calculating. -->
+    <path d="M-22,-58 Q-12,-65 0,-60" stroke="#1a0808" stroke-width="2.5" fill="none"/>
+    <path d="M0,-60 Q12,-65 22,-58" stroke="#1a0808" stroke-width="2.5" fill="none"/>
+
+    <!-- EYES — sharp, focused, copper-gold reflected in iris. -->
+    <ellipse cx="-13" cy="-46" rx="6" ry="4" fill="#dce4f0"/>
+    <ellipse cx="13" cy="-46" rx="6" ry="4" fill="#dce4f0"/>
+    <ellipse cx="-12" cy="-46" rx="2.5" ry="2.5" fill="#5a3a18"/>
+    <ellipse cx="14" cy="-46" rx="2.5" ry="2.5" fill="#5a3a18"/>
+    <ellipse cx="-12" cy="-46" rx="1.4" ry="1.4" fill="#080404"/>
+    <ellipse cx="14" cy="-46" rx="1.4" ry="1.4" fill="#080404"/>
+    <!-- COPPER-GOLD reflection in iris (script). -->
+    <circle cx="-10" cy="-48" r="1.4" fill="#f0d878" opacity="0.95" filter="url(#p14p3bloom)"/>
+    <circle cx="16" cy="-48" r="1.4" fill="#f0d878" opacity="0.95" filter="url(#p14p3bloom)"/>
+
+    <!-- Cheekbones (high, defined). -->
+    <ellipse cx="-22" cy="-25" rx="9" ry="5" fill="#a87850" opacity="0.45" filter="url(#p14p3bloom)"/>
+    <ellipse cx="22" cy="-25" rx="9" ry="5" fill="#a87850" opacity="0.45" filter="url(#p14p3bloom)"/>
+    <!-- Copper warmth on cheek. -->
+    <ellipse cx="-22" cy="-22" rx="14" ry="8" fill="#f0d878" opacity="0.35" filter="url(#p14p3strongBloom)"/>
+    <ellipse cx="22" cy="-22" rx="14" ry="8" fill="#f0d878" opacity="0.35" filter="url(#p14p3strongBloom)"/>
+
+    <!-- Nose. -->
+    <path d="M-3,-38 L0,-20 L-4,-13" stroke="#1a0808" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <!-- LIPS — set firm, slight assertive set. -->
+    <line x1="-12" y1="-5" x2="12" y2="-5" stroke="#1a0808" stroke-width="2.2"/>
+
+    <!-- Jaw firm. -->
+    <ellipse cx="-25" cy="-15" rx="3" ry="2" fill="#1a0808" opacity="0.55"/>
+    <ellipse cx="25" cy="-15" rx="3" ry="2" fill="#1a0808" opacity="0.55"/>
+  </g>
+
+  <!-- DIALOGUE -->
+  <g id="p14p3-bal-sable1">
+    <rect x="14" y="14" width="240" height="80" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="34" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="54" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Four components.</text>
+    <text x="24" y="71" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Four operations. We'll plan,</text>
+    <text x="24" y="88" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">execute, bring what Wren needs.</text>
+  </g>
+
+  <g id="p14p3-bal-sable2">
+    <rect x="14" y="320" width="340" height="60" rx="8" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="340" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a" letter-spacing="0.3">SABLE</text>
+    <text x="24" y="360" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">First — we need a base.</text>
+    <text x="24" y="377" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Tonight we dig in.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p14p3-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">3</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">COMMAND</text>
+  </g>
+</svg>

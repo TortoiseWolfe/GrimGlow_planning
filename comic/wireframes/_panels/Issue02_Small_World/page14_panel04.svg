@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 400" width="366" height="400">
+  <title>Issue 2 — Page 14 — Panel 4: Wren's private moment, engineer's vow</title>
+  <desc>MS 50mm low angle looking up. Wren framed against grey sky strip between Victorian brick courtyard walls, arms folded, looking back at wreckage. Drive housing visible behind — geometric sphere inside cage twisted dark metal inert. Expression private — crack in professional facade not despair but fascination, engineer already seeing possibilities in primitive world. Suit seams pulse copper she is only light frame. Dead drive catches no glow. WREN quiet to wreckage I'll get you running just give me time.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p4sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a8088"/>
+      <stop offset="100%" stop-color="#5a606a"/>
+    </linearGradient>
+    <linearGradient id="p14p4brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="p14p4hull" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a44"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="p14p4copperDirty" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86528"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <radialGradient id="p14p4copperPulse">
+      <stop offset="0%" stop-color="#f0a868" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p14p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p14p4strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p14p4deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG — perspective up, sky strip narrow at top, brick walls converging. -->
+  <!-- Sky strip. -->
+  <rect x="100" y="0" width="166" height="60" fill="url(#p14p4sky)"/>
+  <!-- Brick walls converging upward (perspective). -->
+  <path d="M0,0 L0,400 L100,400 L100,60 Z" fill="url(#p14p4brick)" stroke="#080404" stroke-width="0.85"/>
+  <path d="M366,0 L366,400 L266,400 L266,60 Z" fill="url(#p14p4brick)" stroke="#080404" stroke-width="0.85"/>
+  <!-- Brick courses. -->
+  <g stroke="#080404" stroke-width="0.4" opacity="0.65">
+    <line x1="0" y1="40" x2="100" y2="60"/>
+    <line x1="0" y1="80" x2="100" y2="100"/>
+    <line x1="0" y1="120" x2="100" y2="140"/>
+    <line x1="0" y1="160" x2="100" y2="180"/>
+    <line x1="0" y1="200" x2="100" y2="220"/>
+    <line x1="0" y1="240" x2="100" y2="260"/>
+    <line x1="0" y1="280" x2="100" y2="300"/>
+    <line x1="0" y1="320" x2="100" y2="340"/>
+    <line x1="0" y1="360" x2="100" y2="380"/>
+    <line x1="366" y1="40" x2="266" y2="60"/>
+    <line x1="366" y1="80" x2="266" y2="100"/>
+    <line x1="366" y1="120" x2="266" y2="140"/>
+    <line x1="366" y1="160" x2="266" y2="180"/>
+    <line x1="366" y1="200" x2="266" y2="220"/>
+    <line x1="366" y1="240" x2="266" y2="260"/>
+    <line x1="366" y1="280" x2="266" y2="300"/>
+    <line x1="366" y1="320" x2="266" y2="340"/>
+    <line x1="366" y1="360" x2="266" y2="380"/>
+  </g>
+
+  <!-- BACK WALL (where wreckage is). -->
+  <rect x="100" y="60" width="166" height="200" fill="url(#p14p4hull)"/>
+  <g stroke="#080404" stroke-width="0.4" opacity="0.65">
+    <line x1="100" y1="80" x2="266" y2="80"/>
+    <line x1="100" y1="100" x2="266" y2="100"/>
+    <line x1="100" y1="120" x2="266" y2="120"/>
+    <line x1="100" y1="140" x2="266" y2="140"/>
+    <line x1="100" y1="160" x2="266" y2="160"/>
+    <line x1="100" y1="180" x2="266" y2="180"/>
+    <line x1="100" y1="200" x2="266" y2="200"/>
+    <line x1="100" y1="220" x2="266" y2="220"/>
+  </g>
+
+  <!-- DRIVE HOUSING visible behind Wren — geometric sphere inside cage. -->
+  <g id="p14p4-drive">
+    <!-- Cage of twisted dark metal. -->
+    <g stroke="#1a1a20" stroke-width="0.85" fill="none">
+      <ellipse cx="180" cy="170" rx="44" ry="50"/>
+      <ellipse cx="180" cy="170" rx="36" ry="42"/>
+      <line x1="180" y1="120" x2="180" y2="220"/>
+      <line x1="136" y1="170" x2="224" y2="170"/>
+      <line x1="148" y1="138" x2="212" y2="202"/>
+      <line x1="212" y1="138" x2="148" y2="202"/>
+    </g>
+    <!-- Twisted/bent connections (damage). -->
+    <g stroke="#080404" stroke-width="1.2" fill="none">
+      <path d="M150,140 Q160,150 165,160"/>
+      <path d="M210,200 Q200,190 195,180"/>
+      <path d="M210,140 Q205,150 200,160"/>
+      <path d="M150,200 Q155,190 160,180"/>
+    </g>
+    <!-- Geometric sphere INSIDE (inert, just a darker shape). -->
+    <circle cx="180" cy="170" r="22" fill="#3a3028" stroke="#080404" stroke-width="0.7"/>
+    <!-- Faceted hex core. -->
+    <polygon points="170,150 180,144 190,150 192,170 190,190 180,196 170,190 168,170" fill="#1a1010" stroke="#080404" stroke-width="0.5"/>
+    <line x1="180" y1="144" x2="180" y2="196" stroke="#080404" stroke-width="0.4"/>
+    <line x1="170" y1="150" x2="190" y2="190" stroke="#080404" stroke-width="0.4"/>
+    <line x1="190" y1="150" x2="170" y2="190" stroke="#080404" stroke-width="0.4"/>
+  </g>
+
+  <!-- Light drizzle through sky strip. -->
+  <g stroke="#a8b8c8" stroke-width="0.4" opacity="0.45">
+    <line x1="120" y1="10" x2="120" y2="40"/>
+    <line x1="180" y1="20" x2="180" y2="50"/>
+    <line x1="240" y1="15" x2="240" y2="45"/>
+  </g>
+
+  <!-- WREN — center foreground, framed against sky strip, low angle. -->
+  <g id="p14p4-wren" transform="translate(180, 290)">
+    <!-- Body upper torso (mid-frame). -->
+    <path d="M-50,110 L-55,40 L-45,15 L-30,-5 L-15,-25 L15,-25 L30,-5 L45,15 L55,40 L50,110 Z" fill="url(#p14p4copperDirty)" stroke="#080404" stroke-width="0.85"/>
+
+    <!-- Pauldrons. -->
+    <path d="M-30,-5 L-50,8 L-50,32 L-30,38" fill="url(#p14p4copperDirty)" stroke="#080404" stroke-width="0.7"/>
+    <path d="M30,-5 L50,8 L50,32 L30,38" fill="url(#p14p4copperDirty)" stroke="#080404" stroke-width="0.7"/>
+
+    <!-- COPPER COLLAR — pulsing brighter (only light source). -->
+    <ellipse cx="0" cy="-25" rx="20" ry="4" fill="#f0a868" opacity="0.95" filter="url(#p14p4bloom)"/>
+    <ellipse cx="0" cy="-25" rx="30" ry="8" fill="#f0a868" opacity="0.65" filter="url(#p14p4strongBloom)"/>
+
+    <!-- Suit seams glowing. -->
+    <g stroke="#f0a868" stroke-width="0.7" opacity="0.85" filter="url(#p14p4bloom)">
+      <path d="M-15,-25 L-30,-5"/>
+      <path d="M15,-25 L30,-5"/>
+      <path d="M-30,-5 L-45,15"/>
+      <path d="M30,-5 L45,15"/>
+    </g>
+
+    <!-- Mud streaks. -->
+    <g fill="#3a2010" opacity="0.85">
+      <ellipse cx="-10" cy="40" rx="5" ry="2.5" transform="rotate(-15 -10 40)"/>
+      <ellipse cx="15" cy="60" rx="5" ry="2.5"/>
+      <ellipse cx="-15" cy="80" rx="5" ry="2.5"/>
+    </g>
+
+    <!-- ARMS FOLDED. -->
+    <path d="M-30,5 L30,5 L34,18 L-34,18 Z" fill="url(#p14p4copperDirty)" stroke="#080404" stroke-width="0.6"/>
+    <line x1="-3" y1="5" x2="3" y2="18" stroke="#080404" stroke-width="0.5"/>
+    <ellipse cx="28" cy="11" rx="4" ry="2.5" fill="#1a0808" stroke="#080404" stroke-width="0.4"/>
+    <ellipse cx="-28" cy="11" rx="4" ry="2.5" fill="#1a0808" stroke="#080404" stroke-width="0.4"/>
+    <!-- Oil stains on visible forearm. -->
+    <g fill="#1a0808" opacity="0.85">
+      <ellipse cx="-15" cy="14" rx="2.5" ry="1.4"/>
+      <ellipse cx="15" cy="14" rx="2.5" ry="1.4"/>
+    </g>
+
+    <!-- HEAD turned slightly back-and-up (looking back at drive). -->
+    <ellipse cx="-3" cy="-50" rx="32" ry="34" fill="#e0c098"/>
+
+    <!-- HAIR UP IN BUN, wisps escaping. -->
+    <ellipse cx="-6" cy="-78" rx="22" ry="14" fill="#1a0808"/>
+    <ellipse cx="-6" cy="-78" rx="16" ry="10" fill="none" stroke="#3a1808" stroke-width="0.5"/>
+    <line x1="-14" y1="-82" x2="-2" y2="-72" stroke="#3a1808" stroke-width="0.4"/>
+    <line x1="-6" y1="-86" x2="6" y2="-74" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Wet wisps. -->
+    <path d="M-22,-65 Q-26,-55 -22,-45" stroke="#1a0808" stroke-width="0.85" fill="none"/>
+    <path d="M22,-65 Q26,-55 22,-45" stroke="#1a0808" stroke-width="0.85" fill="none"/>
+
+    <!-- Hairline. -->
+    <path d="M-18,-72 Q-3,-78 15,-72" stroke="#1a0808" stroke-width="2" fill="none"/>
+
+    <!-- BROW — softer than command/verdict — fascination. -->
+    <path d="M-22,-58 Q-12,-62 -3,-60" stroke="#3a1808" stroke-width="2" fill="none"/>
+    <path d="M-3,-60 Q9,-62 18,-58" stroke="#3a1808" stroke-width="2" fill="none"/>
+
+    <!-- EYES — looking back over shoulder (slightly turned), reflective. -->
+    <ellipse cx="-13" cy="-46" rx="6" ry="4" fill="#dce4f0"/>
+    <ellipse cx="11" cy="-46" rx="6" ry="4" fill="#dce4f0"/>
+    <ellipse cx="-12" cy="-46" rx="2.5" ry="2.5" fill="#5a3a18"/>
+    <ellipse cx="12" cy="-46" rx="2.5" ry="2.5" fill="#5a3a18"/>
+    <ellipse cx="-12" cy="-46" rx="1.4" ry="1.4" fill="#080404"/>
+    <ellipse cx="12" cy="-46" rx="1.4" ry="1.4" fill="#080404"/>
+    <!-- Soft catch-light. -->
+    <circle cx="-10" cy="-48" r="0.85" fill="#dce4f0"/>
+    <circle cx="14" cy="-48" r="0.85" fill="#dce4f0"/>
+
+    <!-- Cheekbones. -->
+    <ellipse cx="-22" cy="-25" rx="9" ry="5" fill="#a87850" opacity="0.45" filter="url(#p14p4bloom)"/>
+    <ellipse cx="20" cy="-25" rx="9" ry="5" fill="#a87850" opacity="0.45" filter="url(#p14p4bloom)"/>
+
+    <!-- Faint copper warmth on face. -->
+    <ellipse cx="-3" cy="-50" rx="34" ry="22" fill="#f0a868" opacity="0.25" filter="url(#p14p4strongBloom)"/>
+
+    <!-- Nose. -->
+    <path d="M-6,-38 L-3,-22 L-7,-14" stroke="#5a3a18" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <!-- LIPS — soft, slightly parted (private moment). -->
+    <path d="M-12,-7 Q-3,-4 6,-7" stroke="#3a1810" stroke-width="1.4" fill="none"/>
+
+    <!-- Halo glow Wren is the only light source. -->
+    <ellipse cx="0" cy="-40" rx="80" ry="80" fill="url(#p14p4copperPulse)" filter="url(#p14p4deepBloom)" opacity="0.45"/>
+  </g>
+
+  <!-- DIALOGUE — WREN quiet to wreckage. -->
+  <g id="p14p4-bal-wren">
+    <rect x="14" y="320" width="340" height="60" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="340" font-family="Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="68" y="340" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(quiet, to the wreckage)</text>
+    <text x="24" y="360" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a" font-style="italic">I'll get you running.</text>
+    <text x="24" y="377" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a" font-style="italic">Just... give me time.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p14p4-meta">
+    <text x="358" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">4</text>
+    <text x="362" y="392" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">VOW</text>
+  </g>
+</svg>

@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 340" width="742" height="340">
+  <title>Issue 2 — Page 14 — Panel 2: Detailed manifest — 4 wireframe components</title>
+  <desc>Diagrammatic panel. Holographic list 4 items copper-gold geometric fairy script. Each detailed wireframe schematic English label. 1 Precision gear assembly interlocking gears wireframe. 2 Copper induction coils tightly wound spirals wireframe. 3 Optical lens convex shape wireframe. 4 Conductor wire fine wire wireframe. Caption text overlays technical descriptions. Each component a future heist mission.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3e48"/>
+      <stop offset="100%" stop-color="#2a2e34"/>
+    </linearGradient>
+    <radialGradient id="p14p2glow">
+      <stop offset="0%" stop-color="#f0d878" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p14p2bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p14p2strongBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="p14p2deepBloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- BG dark grey. -->
+  <rect width="742" height="340" fill="url(#p14p2bg)"/>
+
+  <!-- Header. -->
+  <text x="371" y="38" text-anchor="middle" font-family="Courier, monospace" font-size="12" font-weight="700" fill="#f0d878" opacity="0.95">— COMPONENT MANIFEST —</text>
+  <text x="371" y="52" text-anchor="middle" font-family="Courier, monospace" font-size="8" fill="#f0a868" opacity="0.85">drive rebuild requirements</text>
+
+  <!-- Vertical dividers between 4 items. -->
+  <g stroke="#f0a868" stroke-width="0.4" opacity="0.45">
+    <line x1="186" y1="70" x2="186" y2="280"/>
+    <line x1="372" y1="70" x2="372" y2="280"/>
+    <line x1="558" y1="70" x2="558" y2="280"/>
+  </g>
+
+  <!-- ITEM 1: PRECISION GEAR ASSEMBLY. -->
+  <g id="p14p2-item1" transform="translate(93, 0)">
+    <!-- Halo. -->
+    <ellipse cx="0" cy="170" rx="80" ry="80" fill="url(#p14p2glow)" filter="url(#p14p2deepBloom)" opacity="0.85"/>
+    <!-- Item number circle. -->
+    <circle cx="0" cy="80" r="14" fill="none" stroke="#f0d878" stroke-width="1" opacity="0.95" filter="url(#p14p2bloom)"/>
+    <text x="0" y="85" text-anchor="middle" font-family="Courier, monospace" font-size="14" font-weight="900" fill="#f0d878" opacity="0.95">1</text>
+    <!-- Gear assembly wireframe. -->
+    <g stroke="#f0d878" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#p14p2bloom)">
+      <!-- Large gear. -->
+      <circle cx="-15" cy="170" r="30"/>
+      <circle cx="-15" cy="170" r="22"/>
+      <circle cx="-15" cy="170" r="6"/>
+      <!-- Gear teeth (large). -->
+      <g>
+        <line x1="-15" y1="138" x2="-15" y2="132"/>
+        <line x1="-15" y1="208" x2="-15" y2="202"/>
+        <line x1="17" y1="170" x2="11" y2="170"/>
+        <line x1="-47" y1="170" x2="-41" y2="170"/>
+        <line x1="-2" y1="142" x2="2" y2="138"/>
+        <line x1="-28" y1="142" x2="-32" y2="138"/>
+        <line x1="-2" y1="198" x2="2" y2="202"/>
+        <line x1="-28" y1="198" x2="-32" y2="202"/>
+        <line x1="13" y1="155" x2="17" y2="151"/>
+        <line x1="-43" y1="155" x2="-47" y2="151"/>
+        <line x1="13" y1="185" x2="17" y2="189"/>
+        <line x1="-43" y1="185" x2="-47" y2="189"/>
+      </g>
+      <!-- Small gear meshing. -->
+      <circle cx="32" cy="170" r="14"/>
+      <circle cx="32" cy="170" r="10"/>
+      <circle cx="32" cy="170" r="3"/>
+      <g>
+        <line x1="32" y1="156" x2="32" y2="152"/>
+        <line x1="32" y1="184" x2="32" y2="188"/>
+        <line x1="46" y1="170" x2="50" y2="170"/>
+        <line x1="18" y1="170" x2="14" y2="170"/>
+      </g>
+    </g>
+    <!-- Label. -->
+    <text x="0" y="245" text-anchor="middle" font-family="Courier, monospace" font-size="9" font-weight="700" fill="#f0d878" opacity="0.95">PRECISION GEAR</text>
+    <text x="0" y="257" text-anchor="middle" font-family="Courier, monospace" font-size="9" font-weight="700" fill="#f0d878" opacity="0.95">ASSEMBLY</text>
+    <text x="0" y="270" text-anchor="middle" font-family="Courier, monospace" font-size="6" fill="#f0a868" opacity="0.85">clockwork quality · finest</text>
+  </g>
+
+  <!-- ITEM 2: COPPER INDUCTION COILS. -->
+  <g id="p14p2-item2" transform="translate(279, 0)">
+    <ellipse cx="0" cy="170" rx="80" ry="80" fill="url(#p14p2glow)" filter="url(#p14p2deepBloom)" opacity="0.85"/>
+    <circle cx="0" cy="80" r="14" fill="none" stroke="#f0d878" stroke-width="1" opacity="0.95" filter="url(#p14p2bloom)"/>
+    <text x="0" y="85" text-anchor="middle" font-family="Courier, monospace" font-size="14" font-weight="900" fill="#f0d878" opacity="0.95">2</text>
+    <!-- Coil wireframe — tight spiral. -->
+    <g stroke="#f0d878" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#p14p2bloom)">
+      <!-- Coil body (cylindrical). -->
+      <line x1="-30" y1="140" x2="-30" y2="200"/>
+      <line x1="30" y1="140" x2="30" y2="200"/>
+      <ellipse cx="0" cy="140" rx="30" ry="6"/>
+      <ellipse cx="0" cy="200" rx="30" ry="6"/>
+      <!-- Tight spiral wraps. -->
+      <ellipse cx="0" cy="148" rx="28" ry="4" stroke-dasharray="0"/>
+      <ellipse cx="0" cy="156" rx="28" ry="4" stroke-dasharray="0"/>
+      <ellipse cx="0" cy="164" rx="28" ry="4" stroke-dasharray="0"/>
+      <ellipse cx="0" cy="172" rx="28" ry="4" stroke-dasharray="0"/>
+      <ellipse cx="0" cy="180" rx="28" ry="4" stroke-dasharray="0"/>
+      <ellipse cx="0" cy="188" rx="28" ry="4" stroke-dasharray="0"/>
+      <ellipse cx="0" cy="196" rx="28" ry="4" stroke-dasharray="0"/>
+      <!-- Lead wires. -->
+      <line x1="-30" y1="200" x2="-40" y2="220"/>
+      <line x1="30" y1="200" x2="40" y2="220"/>
+    </g>
+    <text x="0" y="245" text-anchor="middle" font-family="Courier, monospace" font-size="9" font-weight="700" fill="#f0d878" opacity="0.95">COPPER INDUCTION</text>
+    <text x="0" y="257" text-anchor="middle" font-family="Courier, monospace" font-size="9" font-weight="700" fill="#f0d878" opacity="0.95">COILS</text>
+    <text x="0" y="270" text-anchor="middle" font-family="Courier, monospace" font-size="6" fill="#f0a868" opacity="0.85">tight wound · consistent gauge</text>
+  </g>
+
+  <!-- ITEM 3: OPTICAL LENS. -->
+  <g id="p14p2-item3" transform="translate(465, 0)">
+    <ellipse cx="0" cy="170" rx="80" ry="80" fill="url(#p14p2glow)" filter="url(#p14p2deepBloom)" opacity="0.85"/>
+    <circle cx="0" cy="80" r="14" fill="none" stroke="#f0d878" stroke-width="1" opacity="0.95" filter="url(#p14p2bloom)"/>
+    <text x="0" y="85" text-anchor="middle" font-family="Courier, monospace" font-size="14" font-weight="900" fill="#f0d878" opacity="0.95">3</text>
+    <!-- Lens wireframe — biconvex. -->
+    <g stroke="#f0d878" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#p14p2bloom)">
+      <!-- Top profile. -->
+      <path d="M-30,170 Q-15,150 0,148 Q15,150 30,170"/>
+      <!-- Bottom profile. -->
+      <path d="M-30,170 Q-15,190 0,192 Q15,190 30,170"/>
+      <!-- Left/right edges. -->
+      <line x1="-30" y1="170" x2="-30" y2="170"/>
+      <line x1="30" y1="170" x2="30" y2="170"/>
+      <!-- Cross-section (ellipse). -->
+      <ellipse cx="0" cy="170" rx="30" ry="6"/>
+      <!-- Light rays converging. -->
+      <line x1="-50" y1="150" x2="0" y2="170"/>
+      <line x1="-50" y1="170" x2="0" y2="170"/>
+      <line x1="-50" y1="190" x2="0" y2="170"/>
+      <!-- Focal point. -->
+      <circle cx="50" cy="170" r="2"/>
+      <line x1="0" y1="170" x2="50" y2="170"/>
+    </g>
+    <text x="0" y="245" text-anchor="middle" font-family="Courier, monospace" font-size="9" font-weight="700" fill="#f0d878" opacity="0.95">OPTICAL LENS</text>
+    <text x="0" y="257" text-anchor="middle" font-family="Courier, monospace" font-size="6" fill="#f0a868" opacity="0.85">glass · ground to spec</text>
+    <text x="0" y="269" text-anchor="middle" font-family="Courier, monospace" font-size="6" fill="#f0a868" opacity="0.65">temporal field focus</text>
+  </g>
+
+  <!-- ITEM 4: CONDUCTOR WIRE. -->
+  <g id="p14p2-item4" transform="translate(651, 0)">
+    <ellipse cx="0" cy="170" rx="80" ry="80" fill="url(#p14p2glow)" filter="url(#p14p2deepBloom)" opacity="0.85"/>
+    <circle cx="0" cy="80" r="14" fill="none" stroke="#f0d878" stroke-width="1" opacity="0.95" filter="url(#p14p2bloom)"/>
+    <text x="0" y="85" text-anchor="middle" font-family="Courier, monospace" font-size="14" font-weight="900" fill="#f0d878" opacity="0.95">4</text>
+    <!-- Wire wireframe — coiled length with detail. -->
+    <g stroke="#f0d878" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#p14p2bloom)">
+      <!-- Wire path. -->
+      <path d="M-40,140 Q-30,148 -20,140 Q-10,132 0,140 Q10,148 20,140 Q30,132 40,140"/>
+      <path d="M-40,160 Q-30,168 -20,160 Q-10,152 0,160 Q10,168 20,160 Q30,152 40,160"/>
+      <path d="M-40,180 Q-30,188 -20,180 Q-10,172 0,180 Q10,188 20,180 Q30,172 40,180"/>
+      <path d="M-40,200 Q-30,208 -20,200 Q-10,192 0,200 Q10,208 20,200 Q30,192 40,200"/>
+      <!-- Cross-section detail. -->
+      <circle cx="0" cy="160" r="2"/>
+      <text x="-2" y="220" font-family="Courier, monospace" font-size="5" fill="#f0a868" opacity="0.85">⌀ 0.3mm</text>
+    </g>
+    <text x="0" y="245" text-anchor="middle" font-family="Courier, monospace" font-size="9" font-weight="700" fill="#f0d878" opacity="0.95">CONDUCTOR WIRE</text>
+    <text x="0" y="257" text-anchor="middle" font-family="Courier, monospace" font-size="6" fill="#f0a868" opacity="0.85">copper or silver · thin gauge</text>
+    <text x="0" y="269" text-anchor="middle" font-family="Courier, monospace" font-size="6" fill="#f0a868" opacity="0.65">core to assembly bridge</text>
+  </g>
+
+  <!-- WREN dialogue caption — bottom band. -->
+  <g id="p14p2-bal-wren">
+    <rect x="14" y="290" width="714" height="40" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <text x="24" y="308" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="800" fill="#c87a35" letter-spacing="0.3">WREN</text>
+    <text x="68" y="308" font-family="Helvetica Neue, Arial, sans-serif" font-size="11" font-style="italic" fill="#5a4a30">(walking the manifest)</text>
+    <text x="24" y="324" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" fill="#1a1a1a">Each one exists somewhere in this city. Each one means going out there and taking it.</text>
+  </g>
+
+  <!-- Meta. -->
+  <g id="p14p2-meta">
+    <text x="734" y="22" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" opacity="0.65">2</text>
+    <text x="738" y="332" text-anchor="end" font-family="Helvetica Neue, Arial, sans-serif" font-size="9" fill="#fff" opacity="0.55">MANIFEST</text>
+  </g>
+</svg>
