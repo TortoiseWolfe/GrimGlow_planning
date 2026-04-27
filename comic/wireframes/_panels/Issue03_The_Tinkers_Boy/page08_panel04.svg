@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.2 364" width="238.2" height="364">
+  <title>Issue 3 — Page 8 — Panel 4: MCU Jink arms spread, "here I am" gesture</title>
+  <desc>MCU 50mm eye level fairy-scale. Lean androgynous young-adult figure ~4 inches tall has stopped and turned toward viewer, arms spread wide in "here I am" gesture. Light brown skin, wild bright golden blonde curly hair, emerald metallic suit with soot streak across chest and minor scuffs. Holographic accents glow clean emerald at collar wrists spine seams. Grin wide + bright-eyed — delighted to be seen. Behind: steel thimble looms like metal dome, dimpled surface catching both warm amber candlelight + cool emerald holographic glow. The fearless reveal.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p8p4nightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <radialGradient id="p8p4candleHalo" cx="100%" cy="40%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p4emeraldGlow" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#2ed078" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p8p4bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p8p4jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcb89a"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="p8p4jinkHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#ffeca8"/>
+      <stop offset="50%" stop-color="#f5d878"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </radialGradient>
+    <linearGradient id="p8p4emeraldSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <linearGradient id="p8p4sootStreak" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="p8p4bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- BG. -->
+  <rect width="238.2" height="364" fill="url(#p8p4nightBg)"/>
+  <rect width="238.2" height="364" fill="url(#p8p4candleHalo)" opacity="0.7"/>
+
+  <!-- Bench surface. -->
+  <rect x="0" y="280" width="238.2" height="84" fill="url(#p8p4bench)"/>
+  <line x1="0" y1="288" x2="238.2" y2="288" stroke="#1a0c04" stroke-width="0.85"/>
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.5">
+    <path d="M40,288 Q50,326 42,360"/>
+    <path d="M120,288 Q130,326 122,360"/>
+    <path d="M200,288 Q210,326 202,360"/>
+  </g>
+
+  <!-- THIMBLE looming behind Jink (large, dome). -->
+  <g>
+    <path d="M30,160 Q30,260 90,272 L150,272 Q210,260 210,160 L208,156 L32,156 Z" fill="#a89878"/>
+    <path d="M30,160 Q30,260 90,272 L150,272 Q210,260 210,160" fill="none" stroke="#5a4838" stroke-width="0.7"/>
+    <!-- Dimples regular pattern. -->
+    <g fill="#5a4838" opacity="0.6">
+      <circle cx="50" cy="178" r="1.4"/>
+      <circle cx="74" cy="170" r="1.4"/>
+      <circle cx="100" cy="168" r="1.4"/>
+      <circle cx="126" cy="168" r="1.4"/>
+      <circle cx="150" cy="170" r="1.4"/>
+      <circle cx="174" cy="178" r="1.4"/>
+      <circle cx="58" cy="200" r="1.4"/>
+      <circle cx="84" cy="194" r="1.4"/>
+      <circle cx="112" cy="192" r="1.4"/>
+      <circle cx="138" cy="192" r="1.4"/>
+      <circle cx="166" cy="194" r="1.4"/>
+      <circle cx="190" cy="200" r="1.4"/>
+      <circle cx="62" cy="222" r="1.4"/>
+      <circle cx="92" cy="216" r="1.4"/>
+      <circle cx="120" cy="214" r="1.4"/>
+      <circle cx="148" cy="216" r="1.4"/>
+      <circle cx="178" cy="222" r="1.4"/>
+      <circle cx="68" cy="244" r="1.4"/>
+      <circle cx="100" cy="238" r="1.4"/>
+      <circle cx="138" cy="238" r="1.4"/>
+      <circle cx="170" cy="244" r="1.4"/>
+    </g>
+    <!-- Highlight catching warm candle (right side). -->
+    <ellipse cx="190" cy="190" rx="20" ry="40" fill="#fff0a8" opacity="0.55"/>
+    <!-- Cool emerald rim catch (left side, from Jink's glow). -->
+    <ellipse cx="40" cy="200" rx="14" ry="40" fill="#2ed078" opacity="0.32" filter="url(#p8p4bloom)"/>
+  </g>
+
+  <!-- Cool emerald glow around Jink. -->
+  <ellipse cx="120" cy="230" rx="80" ry="100" fill="url(#p8p4emeraldGlow)" opacity="0.85" filter="url(#p8p4bloom)"/>
+
+  <!-- ******** JINK arms-spread ******** -->
+  <g>
+    <!-- Cast shadow. -->
+    <ellipse cx="120" cy="304" rx="22" ry="3" fill="#000" opacity="0.55"/>
+
+    <!-- Legs (planted, weight even, "stopped"). -->
+    <path d="M108,232 L106,300 L116,300 L116,232 Z" fill="url(#p8p4emeraldSuit)"/>
+    <path d="M124,232 L124,300 L134,300 L132,232 Z" fill="url(#p8p4emeraldSuit)"/>
+    <ellipse cx="111" cy="304" rx="7" ry="3" fill="#0a4018"/>
+    <ellipse cx="129" cy="304" rx="7" ry="3" fill="#0a4018"/>
+    <line x1="106" y1="300" x2="116" y2="300" stroke="#2ed078" stroke-width="0.6" filter="url(#p8p4bloom)"/>
+    <line x1="124" y1="300" x2="134" y2="300" stroke="#2ed078" stroke-width="0.6" filter="url(#p8p4bloom)"/>
+
+    <!-- Torso. -->
+    <path d="M104,170 Q100,212 108,232 L132,232 Q140,212 136,170 Q134,164 120,164 Q106,164 104,170 Z" fill="url(#p8p4emeraldSuit)"/>
+    <!-- Soot streak. -->
+    <path d="M104,194 Q120,192 136,196 Q138,202 140,210 L104,212 Z" fill="url(#p8p4sootStreak)" opacity="0.85"/>
+    <line x1="120" y1="164" x2="120" y2="232" stroke="#0a4018" stroke-width="0.4" opacity="0.85"/>
+    <!-- Holo accents — collar + chest. -->
+    <circle cx="120" cy="180" r="1.4" fill="#a8ffd0" filter="url(#p8p4bloom)"/>
+    <circle cx="108" cy="174" r="1.1" fill="#a8ffd0" filter="url(#p8p4bloom)"/>
+    <circle cx="132" cy="174" r="1.1" fill="#a8ffd0" filter="url(#p8p4bloom)"/>
+
+    <!-- ARMS SPREAD wide (the gesture). -->
+    <!-- Left arm (image-left). -->
+    <path d="M104,170 Q80,180 60,206 L70,216 Q90,196 110,180 Z" fill="url(#p8p4emeraldSuit)"/>
+    <!-- Wrist holo. -->
+    <line x1="60" y1="206" x2="74" y2="216" stroke="#2ed078" stroke-width="0.85" filter="url(#p8p4bloom)"/>
+    <!-- Forearm bare ending in hand spread out. -->
+    <path d="M62,212 Q56,220 50,230 L42,228 Q50,216 58,206 Z" fill="url(#p8p4jinkSkin)"/>
+    <!-- Hand fingers spread. -->
+    <ellipse cx="44" cy="232" rx="6" ry="4" fill="url(#p8p4jinkSkin)"/>
+    <line x1="40" y1="228" x2="34" y2="222" stroke="url(#p8p4jinkSkin)" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="44" y1="226" x2="38" y2="218" stroke="url(#p8p4jinkSkin)" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="48" y1="226" x2="46" y2="216" stroke="url(#p8p4jinkSkin)" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="50" y1="232" x2="50" y2="220" stroke="url(#p8p4jinkSkin)" stroke-width="2.4" stroke-linecap="round"/>
+
+    <!-- Right arm (image-right). -->
+    <path d="M136,170 Q160,180 180,206 L170,216 Q150,196 130,180 Z" fill="url(#p8p4emeraldSuit)"/>
+    <line x1="180" y1="206" x2="166" y2="216" stroke="#2ed078" stroke-width="0.85" filter="url(#p8p4bloom)"/>
+    <path d="M178,212 Q184,220 190,230 L198,228 Q190,216 182,206 Z" fill="url(#p8p4jinkSkin)"/>
+    <ellipse cx="196" cy="232" rx="6" ry="4" fill="url(#p8p4jinkSkin)"/>
+    <line x1="200" y1="228" x2="206" y2="222" stroke="url(#p8p4jinkSkin)" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="196" y1="226" x2="202" y2="218" stroke="url(#p8p4jinkSkin)" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="192" y1="226" x2="194" y2="216" stroke="url(#p8p4jinkSkin)" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="190" y1="232" x2="190" y2="220" stroke="url(#p8p4jinkSkin)" stroke-width="2.4" stroke-linecap="round"/>
+
+    <!-- Wing-pack. -->
+    <rect x="102" y="166" width="36" height="14" fill="#1a4828"/>
+    <line x1="102" y1="170" x2="138" y2="170" stroke="#2ed078" stroke-width="0.85" filter="url(#p8p4bloom)"/>
+    <line x1="102" y1="176" x2="138" y2="176" stroke="#2ed078" stroke-width="0.6" filter="url(#p8p4bloom)"/>
+    <rect x="118" y="166" width="4" height="14" fill="#0a4018"/>
+
+    <!-- HEAD. -->
+    <ellipse cx="120" cy="146" rx="14" ry="16" fill="url(#p8p4jinkSkin)"/>
+    <g fill="url(#p8p4jinkHair)">
+      <ellipse cx="104" cy="128" rx="6" ry="8"/>
+      <ellipse cx="114" cy="122" rx="6" ry="7"/>
+      <ellipse cx="126" cy="122" rx="6" ry="7"/>
+      <ellipse cx="136" cy="128" rx="6" ry="8"/>
+      <ellipse cx="108" cy="138" rx="5" ry="6"/>
+      <ellipse cx="120" cy="134" rx="5" ry="6"/>
+      <ellipse cx="132" cy="138" rx="5" ry="6"/>
+      <ellipse cx="104" cy="146" rx="4" ry="6"/>
+      <ellipse cx="138" cy="146" rx="4" ry="6"/>
+    </g>
+    <g stroke="#fff0a8" stroke-width="1" opacity="0.85">
+      <ellipse cx="136" cy="124" rx="5" ry="6" fill="none"/>
+      <ellipse cx="134" cy="138" rx="3" ry="4" fill="none"/>
+    </g>
+
+    <!-- Bright eyes. -->
+    <ellipse cx="114" cy="146" rx="2.4" ry="1.6" fill="#fff8e8"/>
+    <ellipse cx="114" cy="146" rx="2.4" ry="1.6" fill="none" stroke="#3a2810" stroke-width="0.4"/>
+    <circle cx="114" cy="146" r="1.2" fill="#2a4830"/>
+    <circle cx="114" cy="146" r="0.6" fill="#0a0604"/>
+    <circle cx="113.5" cy="145.5" r="0.4" fill="#ffffff"/>
+
+    <ellipse cx="126" cy="146" rx="2.4" ry="1.6" fill="#fff8e8"/>
+    <ellipse cx="126" cy="146" rx="2.4" ry="1.6" fill="none" stroke="#3a2810" stroke-width="0.4"/>
+    <circle cx="126" cy="146" r="1.2" fill="#2a4830"/>
+    <circle cx="126" cy="146" r="0.6" fill="#0a0604"/>
+    <circle cx="125.5" cy="145.5" r="0.4" fill="#ffffff"/>
+
+    <!-- Brows arched. -->
+    <path d="M110,140 Q114,138 118,140" fill="none" stroke="#3a2810" stroke-width="0.7" stroke-linecap="round"/>
+    <path d="M122,140 Q126,138 130,140" fill="none" stroke="#3a2810" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- Nose. -->
+    <path d="M120,150 L118,156 Q120,157 122,156 Z" fill="#7a4828" opacity="0.55"/>
+    <!-- WIDE GRIN. -->
+    <path d="M110,162 Q120,168 130,162 L128,164 Q120,168 112,164 Z" fill="#1a0c04"/>
+    <line x1="114" y1="162" x2="114" y2="165" stroke="#dcd0b4" stroke-width="0.4"/>
+    <line x1="118" y1="162" x2="118" y2="165" stroke="#dcd0b4" stroke-width="0.4"/>
+    <line x1="122" y1="162" x2="122" y2="165" stroke="#dcd0b4" stroke-width="0.4"/>
+    <line x1="126" y1="162" x2="126" y2="165" stroke="#dcd0b4" stroke-width="0.4"/>
+    <!-- Cheek glow. -->
+    <ellipse cx="136" cy="152" rx="4" ry="3" fill="#ffd078" opacity="0.32"/>
+  </g>
+
+  <!-- Brushwork accents. -->
+  <g stroke="#0a0402" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q60,45 120,42"/>
+    <path d="M0,330 Q60,335 120,332"/>
+  </g>
+
+  <!-- JINK balloon — top, tail down to mouth. -->
+  <rect x="14" y="14" width="216" height="62" rx="8"
+        fill="#ffffff" stroke="#2ed078" stroke-width="2"
+        filter="url(#balloonShadow)"/>
+  <path d="M104,76 L116,76 L120,160 Z"
+        fill="#ffffff" stroke="#2ed078" stroke-width="2"
+        stroke-linejoin="round"/>
+  <line x1="104" y1="76" x2="116" y2="76" stroke="#ffffff" stroke-width="3"/>
+  <text x="24" y="34"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="14" font-weight="800"
+        fill="#2ed078" letter-spacing="0.3">JINK</text>
+  <text x="24" y="52"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">Definitely not a trick</text>
+  <text x="24" y="68"
+        font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="13" font-weight="500"
+        fill="#1a1a1a">of the light.</text>
+
+</svg>
