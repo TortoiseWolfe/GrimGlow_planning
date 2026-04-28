@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 4 — Page 18 — Panel 3: Luma touches the glyph — composure breaking quietly — connection across centuries</title>
+  <desc>35mm medium shot. Luma has lowered the scanner. Bare hand reaches out. Fingertips on the carved grooves. Glyph brightens where contact is made — bioelectric signature triggering ancient residual charge. Eyes bright. Lips pressed. Two lights, same frequency, centuries apart.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p18p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0408"/>
+      <stop offset="50%" stop-color="#1a0c14"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p18p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="50%" stop-color="#5a2818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p18p3suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#3a2068"/>
+    </linearGradient>
+    <linearGradient id="p18p3skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="50%" stop-color="#7a4838"/>
+      <stop offset="100%" stop-color="#5a3828"/>
+    </linearGradient>
+    <radialGradient id="p18p3glyphCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#c0d8ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a78c8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p18p3suitGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888e8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p18p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p18p3glow"><feGaussianBlur stdDeviation="3.2"/></filter>
+  </defs>
+
+  <rect width="742" height="364" fill="url(#p18p3bg)"/>
+
+  <!-- ANCIENT BRICK WALL — fills frame -->
+  <rect x="0" y="40" width="742" height="324" fill="url(#p18p3brick)"/>
+  <g stroke="#0a0604" stroke-width="0.6" opacity="0.65">
+    <path d="M0,90 Q140,92 280,88 Q420,86 560,90 Q650,92 742,89"/>
+    <path d="M0,140 Q140,138 280,142 Q420,144 560,140 Q650,138 742,140"/>
+    <path d="M0,190 Q140,192 280,188 Q420,186 560,192 Q650,190 742,190"/>
+    <path d="M0,240 Q140,238 280,242 Q420,244 560,238 Q650,240 742,240"/>
+    <path d="M0,290 Q140,292 280,288 Q420,286 560,292 Q650,290 742,290"/>
+    <path d="M0,340 Q140,338 280,342 Q420,344 560,338 Q650,340 742,340"/>
+  </g>
+  <g stroke="#0a0604" stroke-width="0.5" opacity="0.5">
+    <line x1="100" y1="40" x2="100" y2="90"/>
+    <line x1="240" y1="90" x2="240" y2="140"/>
+    <line x1="160" y1="140" x2="160" y2="190"/>
+    <line x1="80" y1="190" x2="80" y2="240"/>
+    <line x1="220" y1="240" x2="220" y2="290"/>
+    <line x1="120" y1="290" x2="120" y2="340"/>
+    <line x1="600" y1="40" x2="600" y2="90"/>
+    <line x1="640" y1="90" x2="640" y2="140"/>
+    <line x1="580" y1="140" x2="580" y2="190"/>
+    <line x1="660" y1="190" x2="660" y2="240"/>
+    <line x1="610" y1="240" x2="610" y2="290"/>
+    <line x1="640" y1="290" x2="640" y2="340"/>
+  </g>
+
+  <!-- Mortar erosion -->
+  <g opacity="0.55">
+    <ellipse cx="120" cy="120" rx="14" ry="3" fill="#1a0c04"/>
+    <ellipse cx="60" cy="200" rx="12" ry="3" fill="#1a0c04"/>
+    <ellipse cx="700" cy="160" rx="14" ry="3" fill="#1a0c04"/>
+    <ellipse cx="660" cy="280" rx="12" ry="3" fill="#1a0c04"/>
+  </g>
+
+  <!-- ====== GLYPH ON WALL ====== centered around (471, 200), brightened where touched -->
+  <g transform="translate(471 200)">
+    <!-- Aura -->
+    <ellipse cx="0" cy="0" rx="100" ry="100" fill="url(#p18p3glyphCore)" filter="url(#p18p3glow)" opacity="0.85"/>
+    <!-- Recess -->
+    <ellipse cx="0" cy="0" rx="64" ry="64" fill="#3a1c08" opacity="0.4"/>
+
+    <!-- Hex carved -->
+    <g fill="none" stroke="#a8c0ff" stroke-width="2.4" filter="url(#p18p3bloom)" opacity="0.95" stroke-linecap="round">
+      <path d="M-44,-26 L-26,-50 L24,-52 L48,-26 L46,26 L24,52 L-26,50 L-48,24 Z"/>
+    </g>
+    <g fill="none" stroke="#c0d8ff" stroke-width="1.8" filter="url(#p18p3bloom)" opacity="0.95" stroke-linecap="round">
+      <path d="M-30,-16 L-18,-32 L16,-34 L32,-16 L30,18 L18,34 L-18,32 L-32,16 Z"/>
+    </g>
+    <line x1="0" y1="-50" x2="0" y2="50" stroke="#c0d8ff" stroke-width="2.4" stroke-linecap="round" filter="url(#p18p3bloom)"/>
+    <line x1="-46" y1="0" x2="46" y2="0" stroke="#c0d8ff" stroke-width="2.4" stroke-linecap="round" filter="url(#p18p3bloom)"/>
+    <g stroke="#a8c0ff" stroke-width="1.4" stroke-linecap="round" filter="url(#p18p3bloom)">
+      <line x1="-26" y1="-26" x2="-14" y2="-14"/>
+      <line x1="26" y1="-26" x2="14" y2="-14"/>
+      <line x1="-26" y1="26" x2="-14" y2="14"/>
+      <line x1="26" y1="26" x2="14" y2="14"/>
+    </g>
+    <!-- Center burning bright (touch point) -->
+    <circle cx="0" cy="0" r="4" fill="#fff8e8" filter="url(#p18p3bloom)"/>
+    <circle cx="0" cy="0" r="10" fill="#c0d8ff" opacity="0.65" filter="url(#p18p3bloom)"/>
+    <!-- Grime in grooves -->
+    <g opacity="0.55">
+      <circle cx="-30" cy="-22" r="1.4" fill="#0a0604"/>
+      <circle cx="22" cy="-32" r="1.2" fill="#0a0604"/>
+      <circle cx="36" cy="14" r="1.4" fill="#0a0604"/>
+      <circle cx="-12" cy="32" r="1.2" fill="#0a0604"/>
+    </g>
+    <!-- Tool slip -->
+    <path d="M14,40 L20,44" stroke="#5a78c8" stroke-width="1" opacity="0.6" filter="url(#p18p3bloom)" fill="none"/>
+  </g>
+
+  <!-- LUMA — fairy-scale standing at glyph -->
+  <g transform="translate(360 200)">
+    <!-- Cool wash from glyph -->
+    <ellipse cx="40" cy="0" rx="120" ry="90" fill="url(#p18p3suitGlow)" filter="url(#p18p3glow)" opacity="0.4"/>
+
+    <!-- BOOTS -->
+    <ellipse cx="-8" cy="124" rx="9" ry="4.5" fill="#0a0408"/>
+    <ellipse cx="8" cy="124" rx="9" ry="4.5" fill="#0a0408"/>
+    <!-- LEGS -->
+    <rect x="-12" y="60" width="9" height="64" fill="url(#p18p3suit)"/>
+    <rect x="3" y="60" width="9" height="64" fill="url(#p18p3suit)"/>
+    <line x1="-7" y1="92" x2="-7" y2="118" stroke="#0a0408" stroke-width="0.5" opacity="0.5"/>
+    <!-- DUST at knees -->
+    <ellipse cx="-8" cy="100" rx="8" ry="2" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="8" cy="100" rx="8" ry="2" fill="#5a4838" opacity="0.55"/>
+    <!-- TORSO -->
+    <path d="M-20,60 L-22,-6 L22,-6 L20,60 Z" fill="url(#p18p3suit)"/>
+    <line x1="-16" y1="14" x2="16" y2="14" stroke="#a888e8" stroke-width="1" opacity="0.7" filter="url(#p18p3bloom)"/>
+    <line x1="0" y1="-6" x2="0" y2="48" stroke="#a888e8" stroke-width="0.7" opacity="0.6"/>
+    <!-- Shoulders -->
+    <path d="M-22,-6 Q-18,-26 -4,-32 Q14,-32 24,-26 Q22,-6 22,-6 Z" fill="url(#p18p3suit)"/>
+    <!-- LEFT arm — at side -->
+    <rect x="-26" y="-20" width="9" height="40" fill="url(#p18p3suit)"/>
+    <ellipse cx="-21" cy="22" rx="4.5" ry="3" fill="url(#p18p3skin)"/>
+    <!-- Left holds scanner LOWERED — not raised. -->
+    <rect x="-26" y="22" width="10" height="9" rx="0.8" fill="#3a2068" stroke="#a888e8" stroke-width="0.5"/>
+    <!-- RIGHT arm — REACHING toward glyph (right) -->
+    <path d="M22,-26 L48,-22 L70,-12 L88,-2 L92,2 L88,4 L72,-2 L48,-12 L22,-12 Z" fill="url(#p18p3suit)"/>
+    <!-- BARE HAND on glyph — fingertips touching -->
+    <ellipse cx="92" cy="0" rx="9" ry="6" fill="url(#p18p3skin)"/>
+    <!-- Fingers extended toward center of glyph -->
+    <ellipse cx="100" cy="-5" rx="3" ry="1.6" fill="url(#p18p3skin)"/>
+    <ellipse cx="103" cy="-1" rx="3" ry="1.4" fill="url(#p18p3skin)"/>
+    <ellipse cx="103" cy="3" rx="3" ry="1.4" fill="url(#p18p3skin)"/>
+    <ellipse cx="100" cy="6" rx="3" ry="1.4" fill="url(#p18p3skin)"/>
+    <!-- INK STAINS on touching hand -->
+    <circle cx="92" cy="-1" r="0.9" fill="#1a1c34" opacity="0.7"/>
+    <circle cx="89" cy="3" r="0.7" fill="#1a1c34" opacity="0.65"/>
+    <!-- Brightness where fingertips meet glyph -->
+    <ellipse cx="105" cy="0" rx="14" ry="14" fill="#fff8e8" opacity="0.55" filter="url(#p18p3glow)"/>
+
+    <!-- HEAD — slight 3/4 right (looking at glyph) -->
+    <ellipse cx="0" cy="-46" rx="14" ry="18" fill="url(#p18p3skin)"/>
+    <!-- Hair top -->
+    <path d="M-11,-58 Q-9,-70 0,-72 Q12,-70 13,-58 Q12,-50 10,-50 Q6,-58 0,-58 Q-6,-58 -10,-50 Z" fill="#0a0604"/>
+    <!-- BRAID over RIGHT shoulder -->
+    <path d="M10,-30 Q16,-12 18,12 Q18,32 16,46" stroke="#0a0604" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M10,-28 Q16,-12 18,10" stroke="#3a1c08" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <!-- SAPPHIRE FILAMENT -->
+    <path d="M10,-30 Q16,-12 18,12" stroke="#a888e8" stroke-width="0.8" fill="none" opacity="0.85" filter="url(#p18p3bloom)"/>
+    <circle cx="14" cy="-10" r="0.8" fill="#fff8e8" filter="url(#p18p3bloom)"/>
+    <circle cx="18" cy="14" r="0.8" fill="#fff8e8" filter="url(#p18p3bloom)"/>
+
+    <!-- Profile features -->
+    <ellipse cx="6" cy="-50" rx="2" ry="1.2" fill="#fff8e8"/>
+    <circle cx="6" cy="-50" r="1" fill="#0a0604"/>
+    <!-- Lower lid lift — eyes bright with unshed tears -->
+    <ellipse cx="6" cy="-48" rx="2.2" ry="0.6" fill="#fff8e8" opacity="0.85" filter="url(#p18p3bloom)"/>
+    <!-- Brow — slight crease -->
+    <path d="M2,-60 L10,-58" stroke="#0a0604" stroke-width="0.9" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M5,-46 L8,-40 Q9,-38 7,-38 L5,-40 Z" fill="url(#p18p3skin)" opacity="0.85"/>
+    <!-- MOUTH — pressed together (tightly) -->
+    <path d="M0,-32 L10,-32" stroke="#3a1808" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- HOLO LENS warm gold — faint, not flaring -->
+    <rect x="9" y="-58" width="9" height="6" rx="0.6" fill="none" stroke="#ffd078" stroke-width="0.6" opacity="0.7"/>
+    <line x1="9" y1="-55" x2="18" y2="-55" stroke="#ffd078" stroke-width="0.4" opacity="0.6"/>
+  </g>
+
+  <!-- Light bridges across the frame — Luma's suit + glyph share frequency -->
+  <line x1="380" y1="200" x2="471" y2="200" stroke="#a888e8" stroke-width="0.5" opacity="0.4" filter="url(#p18p3bloom)"/>
+
+  <!-- LUMA whisper — bottom-left -->
+  <g>
+    <rect x="14" y="306" width="280" height="44" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3 2" filter="url(#balloonShadow)"/>
+    <polygon points="180,306 192,306 184,296" fill="white" stroke="#5a3ad8" stroke-width="0.85" stroke-dasharray="3 2"/>
+    <line x1="180.5" y1="306" x2="191.5" y2="306" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#5a3ad8" font-weight="700">LUMA (whisper)</text>
+  <text x="22" y="342" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">You followed protocol. Even alone. Even here.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q200,82 400,78 Q580,76 742,80"/>
+    <path d="M0,290 Q200,288 400,292 Q580,294 742,290"/>
+  </g>
+</svg>
