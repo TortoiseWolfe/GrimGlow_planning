@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 4 — Page 20 — Panel 2: Theodore passes the pie shop — secret light bleeding through pocket — thought captions</title>
+  <desc>50mm medium. Theodore mid-stride past pie shop window. Warm golden light from window catches face from left. Hand in pocket, fingers curled around shard. Cool blue-white bleeds through wool. Distracted half-smile. Thought captions: Soldiers. Not fairies. And someone was here before.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p20p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2030"/>
+      <stop offset="60%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <linearGradient id="p20p2theoSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p20p2cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p20p2windowGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#ffd078" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p20p2pocketGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c0ff" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#88aaff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#5a78c8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p20p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p20p2glow"><feGaussianBlur stdDeviation="2.8"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p20p2bg)"/>
+
+  <!-- BUILDING with pie shop window — left side -->
+  <rect x="0" y="0" width="120" height="364" fill="#2a1810"/>
+  <!-- Pie shop window: large, warm, dominant -->
+  <rect x="0" y="100" width="120" height="160" fill="#3a2818"/>
+  <rect x="6" y="106" width="114" height="148" fill="#ffd078" opacity="0.85" filter="url(#p20p2bloom)"/>
+  <rect x="6" y="106" width="114" height="148" fill="#fff8e8" opacity="0.45" filter="url(#p20p2bloom)"/>
+  <!-- Window frame divisions -->
+  <line x1="62" y1="106" x2="62" y2="254" stroke="#1a0c04" stroke-width="0.7"/>
+  <line x1="6" y1="180" x2="120" y2="180" stroke="#1a0c04" stroke-width="0.7"/>
+  <!-- Pies suggested in window -->
+  <ellipse cx="34" cy="160" rx="14" ry="6" fill="#a86838"/>
+  <ellipse cx="34" cy="156" rx="11" ry="4" fill="#c89048"/>
+  <ellipse cx="86" cy="160" rx="14" ry="6" fill="#a86838"/>
+  <ellipse cx="86" cy="156" rx="11" ry="4" fill="#c89048"/>
+  <ellipse cx="34" cy="220" rx="14" ry="6" fill="#a86838"/>
+  <ellipse cx="86" cy="220" rx="14" ry="6" fill="#a86838"/>
+  <!-- Sign over window -->
+  <rect x="0" y="84" width="120" height="16" fill="#3a1808"/>
+  <text x="60" y="96" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#ffd078" font-weight="700" font-style="italic" opacity="0.95">PIES &amp; PUDDINGS</text>
+
+  <!-- STEAM rising from vent above door -->
+  <g opacity="0.7" fill="#d8d0c8">
+    <ellipse cx="124" cy="80" rx="14" ry="5"/>
+    <ellipse cx="130" cy="60" rx="14" ry="5"/>
+    <ellipse cx="138" cy="40" rx="14" ry="5"/>
+    <ellipse cx="144" cy="22" rx="12" ry="4"/>
+  </g>
+
+  <!-- Window glow halo -->
+  <ellipse cx="60" cy="180" rx="160" ry="120" fill="url(#p20p2windowGlow)" filter="url(#p20p2glow)" opacity="0.65"/>
+
+  <!-- Building right edge -->
+  <rect x="280" y="180" width="86" height="120" fill="#2a1810"/>
+  <rect x="296" y="200" width="40" height="40" fill="#3a2818"/>
+  <rect x="300" y="204" width="32" height="32" fill="#1a0c04" opacity="0.85"/>
+
+  <!-- Cobblestones -->
+  <rect x="0" y="300" width="366" height="64" fill="url(#p20p2cobble)"/>
+  <ellipse cx="120" cy="335" rx="100" ry="20" fill="#ffaa48" opacity="0.25" filter="url(#p20p2glow)"/>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.55">
+    <path d="M0,320 Q120,318 240,322 Q320,324 366,320"/>
+    <path d="M0,340 Q120,342 240,338 Q320,336 366,340"/>
+  </g>
+  <g fill="#1a0c04" opacity="0.55">
+    <circle cx="40" cy="312" r="1"/>
+    <circle cx="140" cy="318" r="1"/>
+    <circle cx="240" cy="312" r="1"/>
+    <circle cx="80" cy="338" r="1"/>
+    <circle cx="200" cy="345" r="1"/>
+    <circle cx="320" cy="338" r="1"/>
+    <circle cx="60" cy="358" r="1"/>
+    <circle cx="180" cy="350" r="1"/>
+    <circle cx="300" cy="358" r="1"/>
+  </g>
+
+  <!-- THEODORE — center, 3/4 mid-stride, face caught from left by window light -->
+  <g transform="translate(220 230)">
+    <!-- Boots -->
+    <ellipse cx="-6" cy="80" rx="8" ry="3.5" fill="#1a0c04"/>
+    <ellipse cx="6" cy="74" rx="8" ry="3.5" fill="#1a0c04"/>
+    <ellipse cx="-5" cy="78" rx="3" ry="1" fill="#5a4838" opacity="0.7"/>
+    <ellipse cx="7" cy="72" rx="3" ry="1" fill="#5a4838" opacity="0.7"/>
+    <!-- Wool trousers -->
+    <rect x="-10" y="36" width="9" height="44" fill="url(#p20p2theoSuit)"/>
+    <rect x="1" y="36" width="9" height="44" fill="url(#p20p2theoSuit)"/>
+    <rect x="-9" y="58" width="6" height="6" fill="#7a4838" opacity="0.85" stroke="#5a3818" stroke-width="0.3"/>
+    <!-- Shirt -->
+    <rect x="-7" y="-12" width="14" height="10" fill="#d8c8a8"/>
+    <!-- Waistcoat -->
+    <path d="M-18,36 L-18,-10 L18,-10 L18,36 Z" fill="#5a2828"/>
+    <line x1="0" y1="-10" x2="0" y2="32" stroke="#3a1808" stroke-width="0.9"/>
+    <circle cx="0" cy="0" r="1" fill="#5a3818"/>
+    <circle cx="0" cy="10" r="1" fill="#5a3818"/>
+    <circle cx="0" cy="20" r="1" fill="#5a3818"/>
+    <!-- Shoulders hunched -->
+    <path d="M-18,-10 Q-12,-22 -2,-24 Q4,-24 10,-20 L18,-10 Z" fill="#5a2828"/>
+    <!-- Left arm — at side, hand visible (oil-stained, brass gear ring) -->
+    <path d="M-18,-10 L-22,12 L-26,30 L-20,30 L-16,12 L-14,-4 Z" fill="#5a2828"/>
+    <ellipse cx="-22" cy="32" rx="4" ry="3" fill="#a86838"/>
+    <!-- Brass gear ring on left index -->
+    <circle cx="-22" cy="34" r="1.4" fill="none" stroke="#e8a850" stroke-width="0.7" filter="url(#p20p2bloom)"/>
+    <!-- Oil stains on hand -->
+    <circle cx="-21" cy="32" r="0.8" fill="#1a0c04" opacity="0.65"/>
+    <circle cx="-23" cy="34" r="0.7" fill="#1a0c04" opacity="0.65"/>
+    <!-- Right arm — hand IN POCKET -->
+    <path d="M18,-10 L22,12 L18,28 L8,32 L8,30 L14,24 L16,12 L16,-4 Z" fill="#5a2828"/>
+    <!-- Hand bump in pocket + the SECRET LIGHT bleeding through wool -->
+    <ellipse cx="10" cy="40" rx="9" ry="6" fill="url(#p20p2theoSuit)"/>
+    <ellipse cx="10" cy="40" rx="14" ry="9" fill="url(#p20p2pocketGlow)" filter="url(#p20p2glow)" opacity="0.85"/>
+    <!-- Inner core of the pocket glow -->
+    <circle cx="10" cy="40" r="2.4" fill="#a8c0ff" opacity="0.7" filter="url(#p20p2bloom)"/>
+
+    <!-- HEAD — face turned slightly toward window (left), light catches it -->
+    <ellipse cx="0" cy="-46" rx="14" ry="17" fill="#a86838"/>
+    <!-- Window-side highlight on cheek -->
+    <ellipse cx="-8" cy="-44" rx="6" ry="10" fill="#ffd078" opacity="0.45" filter="url(#p20p2bloom)"/>
+    <!-- Sandy-brown hair -->
+    <path d="M-11,-58 Q-9,-63 0,-64 Q10,-63 11,-58 L11,-50 Q6,-56 0,-56 Q-6,-56 -11,-50 Z" fill="#a87838"/>
+    <path d="M-5,-60 L-3,-52" stroke="#7a5028" stroke-width="1" opacity="0.85"/>
+    <path d="M3,-60 L5,-52" stroke="#7a5028" stroke-width="0.85" opacity="0.7"/>
+    <!-- Freckles -->
+    <circle cx="-5" cy="-44" r="0.55" fill="#5a3018" opacity="0.85"/>
+    <circle cx="-3" cy="-42" r="0.5" fill="#5a3018" opacity="0.85"/>
+    <circle cx="3" cy="-44" r="0.5" fill="#5a3018" opacity="0.85"/>
+    <circle cx="5" cy="-42" r="0.55" fill="#5a3018" opacity="0.85"/>
+    <circle cx="0" cy="-40" r="0.4" fill="#5a3018" opacity="0.8"/>
+    <!-- Eyes — distracted, half-smile suggests mind elsewhere -->
+    <ellipse cx="-5" cy="-44" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <ellipse cx="-5" cy="-43" rx="1.6" ry="1.1" fill="#7a4818"/>
+    <circle cx="-5" cy="-43" r="0.9" fill="#0a0604"/>
+    <circle cx="-4" cy="-44" r="0.4" fill="#fff8e8" filter="url(#p20p2bloom)"/>
+    <ellipse cx="5" cy="-44" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <ellipse cx="5" cy="-43" rx="1.6" ry="1.1" fill="#7a4818"/>
+    <circle cx="5" cy="-43" r="0.9" fill="#0a0604"/>
+    <circle cx="6" cy="-44" r="0.4" fill="#fff8e8" filter="url(#p20p2bloom)"/>
+    <!-- Brows level (distracted) -->
+    <path d="M-9,-50 L-1,-51" stroke="#5a3018" stroke-width="0.85" stroke-linecap="round"/>
+    <path d="M1,-51 L9,-50" stroke="#5a3018" stroke-width="0.85" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M-1,-40 L0,-34 Q1,-32 3,-32 L3,-38 Z" fill="#7a4838" opacity="0.85"/>
+    <!-- HALF-SMILE — small upward curve right side -->
+    <path d="M-3,-26 Q1,-23 5,-26" stroke="#3a1808" stroke-width="0.85" fill="none" stroke-linecap="round"/>
+    <!-- Breath fog -->
+    <ellipse cx="0" cy="-22" rx="3" ry="1.4" fill="#fff8e8" opacity="0.4" filter="url(#p20p2bloom)"/>
+  </g>
+
+  <!-- THEODORE thought caption (top) — italic parchment style -->
+  <g>
+    <rect x="14" y="14" width="338" height="52" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="700">THEODORE (thought)</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic">Soldiers. Not fairies. Stranded soldiers with light</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic">in their suits and wings made of geometry.</text>
+
+  <!-- THEODORE thought caption 2 (bottom) -->
+  <g>
+    <rect x="14" y="280" width="338" height="48" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+  </g>
+  <text x="22" y="298" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="700">THEODORE (thought)</text>
+  <text x="22" y="314" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic">And she said the stories are real. That</text>
+  <text x="22" y="326" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic">someone was here before.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,290 Q90,288 180,292 Q280,294 366,290"/>
+  </g>
+</svg>
