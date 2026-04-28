@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 364" width="494" height="364">
+  <title>Issue 6 — Page 1 — Panel 4: Luma sweeps the map — overlays bloom, convergence pattern tightens</title>
+  <desc>35mm medium wide low angle. Luma sweeping arm across map, four nodes with overlay vignettes, convergence triangle visible, brow drawn — argument building.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p1p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0818"/>
+      <stop offset="100%" stop-color="#020108"/>
+    </linearGradient>
+    <linearGradient id="i6p1p4lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <linearGradient id="i6p1p4beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="i6p1p4mapBloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#5a3ad8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2a1058" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p1p4nodeBright" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8ff" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p1p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p1p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="494" height="364" fill="url(#i6p1p4bg)"/>
+
+  <!-- Floorboard above with dim amber -->
+  <rect x="0" y="0" width="494" height="28" fill="#3a2818"/>
+  <g stroke="#1a0c04" stroke-width="0.85" opacity="0.7">
+    <line x1="100" y1="0" x2="100" y2="28"/>
+    <line x1="240" y1="0" x2="240" y2="28"/>
+    <line x1="380" y1="0" x2="380" y2="28"/>
+  </g>
+
+  <!-- Background timber columns -->
+  <rect x="20" y="28" width="10" height="320" fill="url(#i6p1p4beam)"/>
+  <rect x="464" y="28" width="10" height="320" fill="url(#i6p1p4beam)"/>
+
+  <!-- Floor of camp -->
+  <rect x="30" y="332" width="434" height="32" fill="#1a0c04"/>
+
+  <!-- ===== HOLOGRAPHIC ANOMALY MAP — large, tightening convergence ===== -->
+  <g transform="translate(247 178)">
+    <!-- Bloom -->
+    <ellipse cx="0" cy="0" rx="240" ry="160" fill="url(#i6p1p4mapBloom)" filter="url(#i6p1p4glow)" opacity="0.78"/>
+
+    <!-- City wireframe — denser, more buildings -->
+    <g stroke="#a888ff" stroke-width="0.5" fill="none" opacity="0.65" filter="url(#i6p1p4bloom)">
+      <line x1="-180" y1="-100" x2="180" y2="-100"/>
+      <line x1="-200" y1="-60" x2="200" y2="-60"/>
+      <line x1="-220" y1="-20" x2="220" y2="-20"/>
+      <line x1="-220" y1="20" x2="220" y2="20"/>
+      <line x1="-200" y1="60" x2="200" y2="60"/>
+      <line x1="-180" y1="100" x2="180" y2="100"/>
+      <line x1="-180" y1="-100" x2="-180" y2="100"/>
+      <line x1="-110" y1="-110" x2="-110" y2="110"/>
+      <line x1="-40" y1="-115" x2="-40" y2="115"/>
+      <line x1="40" y1="-115" x2="40" y2="115"/>
+      <line x1="110" y1="-110" x2="110" y2="110"/>
+      <line x1="180" y1="-100" x2="180" y2="100"/>
+    </g>
+    <g stroke="#a888ff" stroke-width="0.4" fill="none" opacity="0.6" filter="url(#i6p1p4bloom)">
+      <rect x="-160" y="-80" width="32" height="20"/>
+      <rect x="-100" y="-90" width="32" height="22"/>
+      <rect x="-30" y="-85" width="36" height="22"/>
+      <rect x="50" y="-90" width="34" height="22"/>
+      <rect x="120" y="-85" width="34" height="22"/>
+      <rect x="-160" y="-30" width="36" height="22"/>
+      <rect x="-90" y="-30" width="32" height="22"/>
+      <rect x="-22" y="-30" width="34" height="22"/>
+      <rect x="58" y="-30" width="32" height="22"/>
+      <rect x="120" y="-30" width="34" height="22"/>
+      <rect x="-160" y="14" width="32" height="22"/>
+      <rect x="-90" y="14" width="34" height="22"/>
+      <rect x="-20" y="14" width="32" height="22"/>
+      <rect x="58" y="14" width="34" height="22"/>
+      <rect x="118" y="14" width="36" height="22"/>
+      <rect x="-160" y="56" width="34" height="22"/>
+      <rect x="-90" y="56" width="32" height="22"/>
+      <rect x="-22" y="56" width="34" height="22"/>
+      <rect x="58" y="56" width="32" height="22"/>
+      <rect x="120" y="56" width="32" height="22"/>
+    </g>
+
+    <!-- SIX NODES with the convergence triangle clearer -->
+    <!-- Node 1: factory (top-left, brightest as currently active) -->
+    <ellipse cx="-130" cy="-70" rx="14" ry="12" fill="url(#i6p1p4nodeBright)" filter="url(#i6p1p4glow)" opacity="0.95"/>
+    <circle cx="-130" cy="-70" r="3" fill="#fff8ff"/>
+    <!-- Mini-overlay: shadow movement -->
+    <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#i6p1p4bloom)">
+      <rect x="-160" y="-115" width="40" height="22" rx="0.5"/>
+      <line x1="-152" y1="-108" x2="-122" y2="-108"/>
+      <path d="M-152,-100 Q-140,-104 -128,-100" />
+      <path d="M-152,-94 Q-138,-98 -124,-94" />
+    </g>
+    <text x="-160" y="-118" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#fff8ff" opacity="0.95">SHADOW</text>
+
+    <!-- Node 2: pub (Clerkenwell Green) -->
+    <ellipse cx="-50" cy="-30" rx="11" ry="9" fill="url(#i6p1p4nodeBright)" filter="url(#i6p1p4glow)" opacity="0.9"/>
+    <circle cx="-50" cy="-30" r="2.4" fill="#fff8ff"/>
+
+    <!-- Node 3: dead bird (brightening, with mini-overlay) -->
+    <ellipse cx="30" cy="-10" rx="13" ry="11" fill="url(#i6p1p4nodeBright)" filter="url(#i6p1p4glow)" opacity="0.95"/>
+    <circle cx="30" cy="-10" r="2.8" fill="#fff8ff"/>
+    <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.9" filter="url(#i6p1p4bloom)">
+      <rect x="50" y="-50" width="42" height="22" rx="0.5"/>
+      <!-- Bird silhouette -->
+      <path d="M58,-38 Q66,-44 74,-38 L78,-34 Q72,-32 66,-32 L60,-32 Z" fill="#fff8ff" opacity="0.6"/>
+      <!-- Cellular damage indicator -->
+      <line x1="64" y1="-32" x2="68" y2="-32" stroke="#fff8ff" stroke-width="0.6"/>
+      <line x1="56" y1="-30" x2="84" y2="-30" stroke="#fff8ff" stroke-width="0.3" opacity="0.7"/>
+    </g>
+    <text x="50" y="-52" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#fff8ff" opacity="0.95">CELLULAR</text>
+
+    <!-- Node 4: claw marks -->
+    <ellipse cx="100" cy="20" rx="13" ry="11" fill="url(#i6p1p4nodeBright)" filter="url(#i6p1p4glow)" opacity="0.95"/>
+    <circle cx="100" cy="20" r="2.8" fill="#fff8ff"/>
+    <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.9" filter="url(#i6p1p4bloom)">
+      <rect x="118" y="-22" width="44" height="22" rx="0.5"/>
+      <!-- Four claw mark indicators -->
+      <line x1="124" y1="-15" x2="138" y2="-7"/>
+      <line x1="130" y1="-15" x2="144" y2="-7"/>
+      <line x1="136" y1="-15" x2="150" y2="-7"/>
+      <line x1="142" y1="-15" x2="156" y2="-7"/>
+    </g>
+    <text x="118" y="-24" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#fff8ff" opacity="0.95">CLAW MARK</text>
+
+    <!-- Node 5: residue (brightest now — Luma's hand near it) -->
+    <ellipse cx="-95" cy="50" rx="13" ry="11" fill="url(#i6p1p4nodeBright)" filter="url(#i6p1p4glow)" opacity="0.95"/>
+    <circle cx="-95" cy="50" r="2.8" fill="#fff8ff"/>
+    <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.95" filter="url(#i6p1p4bloom)">
+      <rect x="-150" y="74" width="50" height="22" rx="0.5"/>
+      <!-- Residue spectral bars -->
+      <rect x="-145" y="84" width="3" height="8" fill="#fff8ff" opacity="0.7"/>
+      <rect x="-140" y="80" width="3" height="12" fill="#fff8ff" opacity="0.8"/>
+      <rect x="-135" y="86" width="3" height="6" fill="#fff8ff" opacity="0.6"/>
+      <rect x="-130" y="78" width="3" height="14" fill="#fff8ff" opacity="0.85"/>
+      <rect x="-125" y="84" width="3" height="8" fill="#fff8ff" opacity="0.7"/>
+      <rect x="-120" y="80" width="3" height="12" fill="#fff8ff" opacity="0.8"/>
+      <rect x="-115" y="86" width="3" height="6" fill="#fff8ff" opacity="0.6"/>
+    </g>
+    <text x="-150" y="72" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#fff8ff" opacity="0.95">BIO-TRACE</text>
+
+    <!-- Node 6: shadow movement -->
+    <ellipse cx="140" cy="65" rx="11" ry="9" fill="url(#i6p1p4nodeBright)" filter="url(#i6p1p4glow)" opacity="0.9"/>
+    <circle cx="140" cy="65" r="2.4" fill="#fff8ff"/>
+
+    <!-- Convergence triangle — bright lines tightening -->
+    <g stroke="#fff8ff" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#i6p1p4bloom)">
+      <line x1="-130" y1="-70" x2="100" y2="20"/>
+      <line x1="100" y1="20" x2="-95" y2="50"/>
+      <line x1="-95" y1="50" x2="-130" y2="-70"/>
+    </g>
+    <g stroke="#a888ff" stroke-width="0.45" fill="none" opacity="0.7" filter="url(#i6p1p4bloom)" stroke-dasharray="2 1.5">
+      <line x1="-130" y1="-70" x2="-50" y2="-30"/>
+      <line x1="-50" y1="-30" x2="30" y2="-10"/>
+      <line x1="30" y1="-10" x2="100" y2="20"/>
+      <line x1="100" y1="20" x2="140" y2="65"/>
+      <line x1="140" y1="65" x2="-95" y2="50"/>
+      <line x1="-50" y1="-30" x2="-95" y2="50"/>
+      <line x1="30" y1="-10" x2="100" y2="20"/>
+    </g>
+
+    <!-- Bloom sparks -->
+    <g fill="#a888ff" opacity="0.85" filter="url(#i6p1p4bloom)">
+      <circle cx="-200" cy="-90" r="0.85"/>
+      <circle cx="200" cy="-90" r="0.85"/>
+      <circle cx="-180" cy="100" r="0.85"/>
+      <circle cx="180" cy="100" r="0.85"/>
+      <circle cx="-100" cy="-130" r="0.7"/>
+      <circle cx="100" cy="-130" r="0.7"/>
+    </g>
+  </g>
+
+  <!-- ===== LUMA — ONE arm sweeping across map ===== -->
+  <g transform="translate(247 304)">
+    <!-- Boots -->
+    <ellipse cx="-6" cy="36" rx="6" ry="3" fill="#0a0408"/>
+    <ellipse cx="6" cy="36" rx="6" ry="3" fill="#0a0408"/>
+    <!-- Trousers -->
+    <rect x="-10" y="0" width="8" height="38" fill="url(#i6p1p4lumaSuit)"/>
+    <rect x="2" y="0" width="8" height="38" fill="url(#i6p1p4lumaSuit)"/>
+    <ellipse cx="-6" cy="22" rx="6" ry="2" fill="#5a4838" opacity="0.45"/>
+    <ellipse cx="6" cy="22" rx="6" ry="2" fill="#5a4838" opacity="0.45"/>
+    <!-- Torso -->
+    <path d="M-14,0 L-14,-44 L14,-44 L14,0 Z" fill="url(#i6p1p4lumaSuit)"/>
+    <line x1="-10" y1="-22" x2="10" y2="-22" stroke="#a888ff" stroke-width="0.85" opacity="0.85" filter="url(#i6p1p4bloom)"/>
+    <ellipse cx="-12" cy="-44" rx="4" ry="2.4" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="12" cy="-44" rx="4" ry="2.4" fill="#5a4838" opacity="0.55"/>
+    <!-- Shoulders -->
+    <path d="M-14,-44 Q-10,-58 0,-62 Q10,-58 14,-44 Z" fill="url(#i6p1p4lumaSuit)"/>
+    <!-- LEFT arm sweeping wide across map -->
+    <path d="M-14,-44 L-30,-50 L-58,-58 L-72,-46 L-66,-40 L-44,-36 L-22,-32 L-14,-30 Z" fill="url(#i6p1p4lumaSuit)"/>
+    <ellipse cx="-72" cy="-46" rx="4" ry="2.6" fill="#7a4838"/>
+    <!-- Ink stains on left forearm -->
+    <ellipse cx="-50" cy="-50" rx="3" ry="1.4" fill="#0a0604" opacity="0.55"/>
+    <ellipse cx="-72" cy="-46" rx="2" ry="1" fill="#0a0604" opacity="0.5"/>
+    <!-- Wrist scanner emitter glow -->
+    <ellipse cx="-72" cy="-44" rx="8" ry="4" fill="#a888ff" opacity="0.7" filter="url(#i6p1p4glow)"/>
+    <line x1="-72" y1="-46" x2="-90" y2="-58" stroke="#a888ff" stroke-width="0.55" opacity="0.7" filter="url(#i6p1p4bloom)"/>
+    <line x1="-72" y1="-46" x2="-100" y2="-50" stroke="#a888ff" stroke-width="0.55" opacity="0.7" filter="url(#i6p1p4bloom)"/>
+    <!-- RIGHT arm forward -->
+    <path d="M14,-44 L24,-32 L30,-18 L24,-12 L18,-22 L14,-30 Z" fill="url(#i6p1p4lumaSuit)"/>
+    <ellipse cx="28" cy="-16" rx="3.5" ry="2.4" fill="#7a4838"/>
+    <ellipse cx="22" cy="-22" rx="2" ry="1.4" fill="#0a0604" opacity="0.55"/>
+
+    <!-- Head — looking forward at map -->
+    <ellipse cx="0" cy="-72" rx="9" ry="11" fill="#7a4838"/>
+    <!-- Hair pulled back -->
+    <path d="M-9,-78 Q-7,-82 0,-83 Q7,-82 9,-78 L9,-72 Q4,-76 0,-76 Q-4,-76 -9,-72 Z" fill="#0a0604"/>
+    <!-- Braid -->
+    <path d="M9,-66 Q14,-44 12,-22" stroke="#0a0604" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M9,-66 Q14,-44 12,-22" stroke="#a888ff" stroke-width="0.65" fill="none" opacity="0.85" filter="url(#i6p1p4bloom)"/>
+    <!-- Spectral lenses with crack -->
+    <ellipse cx="-3" cy="-72" rx="3" ry="2" fill="#a888ff" opacity="0.35"/>
+    <ellipse cx="3" cy="-72" rx="3" ry="2" fill="#a888ff" opacity="0.35"/>
+    <ellipse cx="-3" cy="-72" rx="3" ry="2" fill="none" stroke="#a888ff" stroke-width="0.55" opacity="0.95" filter="url(#i6p1p4bloom)"/>
+    <ellipse cx="3" cy="-72" rx="3" ry="2" fill="none" stroke="#a888ff" stroke-width="0.55" opacity="0.95" filter="url(#i6p1p4bloom)"/>
+    <line x1="-5" y1="-73" x2="-1" y2="-71" stroke="#fff8ff" stroke-width="0.4" opacity="0.85"/>
+    <ellipse cx="-3" cy="-72" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-72" r="0.7" fill="#0a0604"/>
+    <ellipse cx="3" cy="-72" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="3" cy="-72" r="0.7" fill="#0a0604"/>
+    <!-- Brows drawn — sharpening to alarm -->
+    <path d="M-7,-78 L-1,-77" stroke="#0a0604" stroke-width="0.85"/>
+    <path d="M1,-77 L7,-78" stroke="#0a0604" stroke-width="0.85"/>
+    <path d="M-2,-77 L0,-75" stroke="#1a0c04" stroke-width="0.45" opacity="0.75"/>
+    <!-- Mouth talking -->
+    <path d="M-3,-66 L3,-66" stroke="#3a1808" stroke-width="0.7"/>
+    <line x1="-2" y1="-65" x2="2" y2="-65" stroke="#3a1808" stroke-width="0.5"/>
+    <!-- Comm earpiece -->
+    <circle cx="9.5" cy="-71" r="0.85" fill="#a888ff" filter="url(#i6p1p4bloom)" opacity="0.95"/>
+  </g>
+
+  <!-- LUMA dialogue 1 (top-left, multi-line) -->
+  <g>
+    <rect x="14" y="14" width="356" height="74" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="180,88 192,88 184,98" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="180.5" y1="88" x2="191.5" y2="88" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Pub patrons on Clerkenwell Green describe a shadow</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">moving against the lamplight. A bird found dead in</text>
+  <text x="22" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Sekforde — cellular damage that shouldn't exist here.</text>
+
+  <!-- LUMA dialogue 2 (right-mid, multi-line) -->
+  <g>
+    <rect x="120" y="100" width="360" height="58" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="280,158 292,158 284,168" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="280.5" y1="158" x2="291.5" y2="158" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="128" y="118" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="128" y="134" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Claw marks in brick at eight feet. A residue my scanner</text>
+  <text x="128" y="148" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">identifies as biological — but not from this century.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,170 Q150,172 300,168 Q400,166 494,170"/>
+    <path d="M0,300 Q150,302 300,298 Q400,296 494,300"/>
+  </g>
+</svg>
