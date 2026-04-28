@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 364" width="238" height="364">
+  <title>Issue 4 — Page 6 — Panel 2: Jink CU, defensive stubborn conviction</title>
+  <desc>85mm CU. Jink's face. No grin. Tight-jawed stubbornness. Light brown skin, golden blonde curls catching blue-white holographic light. Eyes bright, jaw set. Looks young. Mixed warm/cool light. Jink: He's not a threat, Sable. He's a boy. Sable (off-panel): He's a GIANT. With a voice that carries and friends he can tell.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p6p2bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1424"/>
+      <stop offset="100%" stop-color="#0a0814"/>
+    </linearGradient>
+    <linearGradient id="p6p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#c89878"/>
+    </linearGradient>
+    <radialGradient id="p6p2hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#f8e088"/>
+      <stop offset="60%" stop-color="#d8a838"/>
+      <stop offset="100%" stop-color="#a87828"/>
+    </radialGradient>
+    <linearGradient id="p6p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3aa868"/>
+      <stop offset="100%" stop-color="#1a5a38"/>
+    </linearGradient>
+    <radialGradient id="p6p2coolWash" cx="20%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#a8c0e0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#a8c0e0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p2warmRim" cx="80%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#d8c8a8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#a89888" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p6p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+
+  <rect width="238" height="364" fill="url(#p6p2bg)"/>
+  <rect width="238" height="364" fill="url(#p6p2coolWash)"/>
+  <rect width="238" height="364" fill="url(#p6p2warmRim)"/>
+
+  <!-- Distant brick -->
+  <rect x="0" y="40" width="238" height="220" fill="#2a1810" opacity="0.65"/>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.4">
+    <line x1="0" y1="80" x2="238" y2="80"/>
+    <line x1="0" y1="140" x2="238" y2="140"/>
+    <line x1="0" y1="200" x2="238" y2="200"/>
+  </g>
+
+  <!-- JINK CU — head + collar -->
+  <g transform="translate(120 230)">
+    <!-- Collar/shoulders -->
+    <path d="M-50,90 L-50,40 L50,40 L50,90 Z" fill="url(#p6p2suit)"/>
+    <path d="M-50,40 Q-30,30 0,28 Q30,30 50,40 L40,52 L-40,52 Z" fill="url(#p6p2suit)"/>
+    <!-- Chest soot streak (peeking) -->
+    <path d="M-12,46 Q-2,52 8,44 Q-2,56 -10,58 Z" fill="#3a2818" opacity="0.7"/>
+    <!-- Wing-pack seam glow -->
+    <line x1="-30" y1="42" x2="-22" y2="38" stroke="#9aff9a" stroke-width="0.85" opacity="0.85"/>
+    <line x1="22" y1="38" x2="30" y2="42" stroke="#9aff9a" stroke-width="0.85" opacity="0.85"/>
+    <circle cx="-22" cy="42" r="1.6" fill="#d8ffe8" filter="url(#p6p2bloom)"/>
+    <circle cx="22" cy="42" r="1.6" fill="#d8ffe8" filter="url(#p6p2bloom)"/>
+
+    <!-- Face -->
+    <ellipse cx="0" cy="0" rx="38" ry="46" fill="url(#p6p2skin)"/>
+    <path d="M-32,-2 Q-28,30 -10,40 L8,40 Q26,30 32,8 L28,-4 Z" fill="url(#p6p2skin)"/>
+
+    <!-- HAIR — wild golden curls -->
+    <g fill="url(#p6p2hair)">
+      <circle cx="-30" cy="-40" r="11"/>
+      <circle cx="-12" cy="-50" r="13"/>
+      <circle cx="6" cy="-52" r="13"/>
+      <circle cx="22" cy="-46" r="11"/>
+      <circle cx="32" cy="-32" r="9"/>
+      <circle cx="-32" cy="-22" r="9"/>
+      <circle cx="-20" cy="-58" r="10"/>
+      <circle cx="14" cy="-58" r="10"/>
+      <circle cx="-2" cy="-62" r="9"/>
+      <!-- Highlights -->
+      <ellipse cx="-12" cy="-52" rx="4" ry="2.4" fill="#fff8e8" opacity="0.65"/>
+      <ellipse cx="6" cy="-52" rx="4" ry="2.4" fill="#fff8e8" opacity="0.65"/>
+      <!-- Cool reflected highlights -->
+      <ellipse cx="-20" cy="-44" rx="3" ry="1.6" fill="#a8c0e0" opacity="0.7"/>
+      <ellipse cx="-30" cy="-30" rx="2.4" ry="1.4" fill="#a8c0e0" opacity="0.7"/>
+    </g>
+
+    <!-- BROWS — set hard, drawn down (stubborn) -->
+    <path d="M-22,-12 L-6,-16" stroke="#88603a" stroke-width="2" stroke-linecap="round"/>
+    <path d="M2,-16 L22,-12" stroke="#88603a" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- EYES — bright, fixed, no grin -->
+    <ellipse cx="-12" cy="-2" rx="4.5" ry="3" fill="#fff8e8"/>
+    <ellipse cx="-12" cy="-2" rx="2.6" ry="2.2" fill="#1a4830"/>
+    <circle cx="-12" cy="-2" r="1.4" fill="#0a0604"/>
+    <ellipse cx="-13" cy="-3" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <ellipse cx="12" cy="-2" rx="4.5" ry="3" fill="#fff8e8"/>
+    <ellipse cx="12" cy="-2" rx="2.6" ry="2.2" fill="#1a4830"/>
+    <circle cx="12" cy="-2" r="1.4" fill="#0a0604"/>
+    <ellipse cx="11" cy="-3" rx="0.85" ry="0.55" fill="#fff8e8"/>
+
+    <!-- Lower lid -->
+    <path d="M-16,2 Q-12,4 -8,2" fill="none" stroke="#3a2010" stroke-width="0.55"/>
+    <path d="M8,2 Q12,4 16,2" fill="none" stroke="#3a2010" stroke-width="0.55"/>
+
+    <!-- NOSE -->
+    <path d="M0,4 L-3,18 Q0,20 3,18 L0,4 Z" fill="#7a4830" opacity="0.65"/>
+
+    <!-- MOUTH — closed, NO GRIN, jaw set -->
+    <path d="M-8,28 L8,28" stroke="#3a1808" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- Cheekbones -->
+    <path d="M-30,8 Q-26,20 -16,26" fill="none" stroke="#7a4830" stroke-width="0.4" opacity="0.55"/>
+    <path d="M30,8 Q26,20 16,26" fill="none" stroke="#7a4830" stroke-width="0.4" opacity="0.55"/>
+
+    <!-- Cool light pattern on left -->
+    <g opacity="0.4">
+      <path d="M-32,-2 L-24,-6 L-22,-2 L-32,2 Z" fill="#a8c0e0"/>
+      <path d="M-32,12 L-24,8 L-22,12 L-32,16 Z" fill="#a8c0e0"/>
+    </g>
+    <!-- Warm rim on right -->
+    <path d="M28,-30 Q32,-10 30,12 L26,12 Q28,-10 24,-30 Z" fill="#d8c8a8" opacity="0.4"/>
+  </g>
+
+  <!-- DIALOGUE — Jink: He's not a threat, Sable. He's a boy. -->
+  <g>
+    <rect x="14" y="14" width="216" height="44" rx="8" fill="#ffffff" stroke="#2e8b57" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M120,58 L130,58 L122,70 Z" fill="#ffffff" stroke="#2e8b57" stroke-width="2"/>
+    <path d="M122,58 L128,58" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#2e8b57">JINK</text>
+  <text x="22" y="50" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">He's not a threat, Sable. He's a boy.</text>
+
+  <!-- DIALOGUE — Sable (off-panel): He's a GIANT. With a voice that carries and friends he can tell. -->
+  <g>
+    <rect x="14" y="74" width="216" height="74" rx="4" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-dasharray="4,2" filter="url(#balloonShadow)"/>
+    <path d="M14,138 L4,148 L14,138 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2" stroke-dasharray="2,1.5"/>
+    <path d="M10,144 L18,138" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a">SABLE</text>
+  <text x="22" y="110" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">He's a <tspan font-weight="700">GIANT.</tspan> With a voice</text>
+  <text x="22" y="126" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">that carries and friends</text>
+  <text x="22" y="142" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">he can tell.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,80 Q60,78 120,82 Q180,84 238,80"/>
+    <path d="M0,300 Q60,302 120,298 Q180,296 238,300"/>
+  </g>
+</svg>
