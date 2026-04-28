@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 4 — Page 15 — Panel 4: Theodore redirects to mainspring + Wren acknowledges + Jink quips</title>
+  <desc>Wide. Theodore from above gesturing animatedly. Wren center, looking up with reluctant approval. Jink right, grinning. Theodore: Well. Fairy stories or no, that cradle'll keep your power cell charged for a week at least. I reckon I can make you a better one with a mainspring. Like a watch, yeah? Wind it up and it stores the energy. / Wren: A mechanical energy storage system. Using clockwork. / That's... not stupid. / Jink: High praise from Wren. Trust me.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p15p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1424"/>
+      <stop offset="100%" stop-color="#0a0814"/>
+    </linearGradient>
+    <linearGradient id="p15p4timber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="p15p4floorboard" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p15p4theoSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8b8a8"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </linearGradient>
+    <linearGradient id="p15p4skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c89878"/>
+      <stop offset="100%" stop-color="#e8b898"/>
+    </linearGradient>
+    <linearGradient id="p15p4suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e88a45"/>
+      <stop offset="100%" stop-color="#88481a"/>
+    </linearGradient>
+    <linearGradient id="p15p4jinkSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#c89878"/>
+    </linearGradient>
+    <linearGradient id="p15p4emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3aa868"/>
+      <stop offset="100%" stop-color="#1a5a38"/>
+    </linearGradient>
+    <radialGradient id="p15p4gapDay" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#d8c8a8"/>
+      <stop offset="100%" stop-color="#a89888"/>
+    </radialGradient>
+    <radialGradient id="p15p4cogGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd888" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p15p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p15p4glow"><feGaussianBlur stdDeviation="2.2"/></filter>
+  </defs>
+
+  <rect width="742" height="364" fill="url(#p15p4bg)"/>
+
+  <!-- Top floorboard with Theodore -->
+  <rect x="0" y="0" width="742" height="60" fill="url(#p15p4floorboard)"/>
+  <g>
+    <rect x="240" y="20" width="262" height="22" fill="url(#p15p4gapDay)"/>
+    <rect x="240" y="20" width="262" height="2" fill="#1a0c04"/>
+    <rect x="240" y="40" width="262" height="2" fill="#1a0c04"/>
+    <ellipse cx="372" cy="32" rx="80" ry="10" fill="url(#p15p4theoSkin)"/>
+    <ellipse cx="356" cy="32" rx="6" ry="4" fill="#fff8e8"/>
+    <circle cx="358" cy="32" r="2.4" fill="#7a5028"/>
+    <circle cx="358" cy="32" r="1.2" fill="#0a0604"/>
+    <ellipse cx="388" cy="32" rx="6" ry="4" fill="#fff8e8"/>
+    <circle cx="390" cy="32" r="2.4" fill="#7a5028"/>
+    <circle cx="390" cy="32" r="1.2" fill="#0a0604"/>
+    <ellipse cx="372" cy="38" rx="6" ry="2" fill="#a85838"/>
+  </g>
+
+  <!-- Brick BG -->
+  <rect x="0" y="80" width="60" height="200" fill="#2a1810" opacity="0.7"/>
+  <rect x="682" y="80" width="60" height="200" fill="#2a1810" opacity="0.7"/>
+
+  <!-- HOLOGRAPHIC MAINSPRING SKETCH (Wren projecting Theodore's idea as Wren visualizes it) -->
+  <g transform="translate(420 130)">
+    <ellipse cx="0" cy="0" rx="80" ry="46" fill="url(#p15p4cogGlow)" filter="url(#p15p4glow)" opacity="0.5"/>
+    <!-- Mainspring schematic — clockwork spiral spring -->
+    <g stroke="#ffd888" stroke-width="0.85" fill="none" opacity="0.85">
+      <!-- Spiral spring -->
+      <path d="M0,0 Q4,-4 0,-8 Q-6,-8 -8,-2 Q-10,6 -2,10 Q8,12 12,2 Q14,-10 0,-14 Q-16,-14 -20,0 Q-22,16 -4,20 Q18,22 22,4 Q24,-18 0,-22"/>
+      <!-- Center pivot -->
+      <circle cx="0" cy="0" r="2" fill="#ffd888"/>
+      <!-- Crown wheel hint -->
+      <circle cx="-30" cy="0" r="6"/>
+      <line x1="-36" y1="0" x2="-24" y2="0"/>
+      <line x1="-30" y1="-6" x2="-30" y2="6"/>
+    </g>
+    <!-- Annotation -->
+    <text x="-30" y="-32" font-family="Helvetica Neue" font-size="6" fill="#ffd888" font-weight="700" opacity="0.9">CLOCKWORK STORAGE</text>
+  </g>
+
+  <!-- Beam -->
+  <rect x="40" y="280" width="662" height="40" fill="url(#p15p4timber)"/>
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.65">
+    <line x1="40" y1="282" x2="702" y2="282"/>
+    <line x1="40" y1="316" x2="702" y2="316"/>
+  </g>
+
+  <!-- WREN — center, looking UP at hologram -->
+  <g transform="translate(360 282)">
+    <ellipse cx="0" cy="0" rx="14" ry="2.5" fill="#0a0604" opacity="0.65"/>
+    <path d="M-7,-44 L-10,-2 L-3,0 L-1,-44 Z" fill="url(#p15p4suit)"/>
+    <path d="M1,-44 L3,0 L10,-2 L7,-44 Z" fill="url(#p15p4suit)"/>
+    <path d="M-13,-78 L-15,-44 L15,-44 L13,-78 Z" fill="url(#p15p4suit)"/>
+    <ellipse cx="-13" cy="-76" rx="4" ry="3" fill="#1a0c04" opacity="0.75"/>
+    <path d="M-15,-78 Q-21,-86 -15,-92 L-8,-92 Z" fill="url(#p15p4suit)"/>
+    <path d="M15,-78 Q21,-86 15,-92 L8,-92 Z" fill="url(#p15p4suit)"/>
+    <circle cx="-10" cy="-86" r="1" fill="#ffd888" filter="url(#p15p4bloom)"/>
+    <circle cx="10" cy="-86" r="1" fill="#ffd888" filter="url(#p15p4bloom)"/>
+    <!-- Right arm raised projecting -->
+    <path d="M15,-78 Q26,-66 32,-50 L26,-46 Q22,-58 12,-72 Z" fill="url(#p15p4suit)"/>
+    <ellipse cx="32" cy="-50" rx="3" ry="2.4" fill="url(#p15p4skin)"/>
+    <circle cx="34" cy="-52" r="2" fill="#ffd888" filter="url(#p15p4bloom)"/>
+    <!-- Left arm at side -->
+    <path d="M-15,-76 Q-22,-58 -16,-44 L-10,-46 Q-12,-58 -10,-74 Z" fill="url(#p15p4suit)"/>
+    <ellipse cx="-15" cy="-44" rx="2.4" ry="1.4" fill="url(#p15p4skin)"/>
+    <!-- Head — looking up at floor (not the hologram — at Theodore) -->
+    <ellipse cx="0" cy="-104" rx="11" ry="13" fill="url(#p15p4skin)"/>
+    <g fill="#1a0c04">
+      <path d="M-9,-112 Q-9,-118 0,-120 Q9,-118 9,-112 L7,-106 Q3,-112 -3,-112 Q-7,-112 -9,-106 Z"/>
+      <ellipse cx="0" cy="-126" rx="6" ry="5"/>
+    </g>
+    <!-- Brows — slightly raised (impressed) -->
+    <path d="M-7,-115 L-1,-117" stroke="#1a0c04" stroke-width="1"/>
+    <path d="M1,-117 L7,-115" stroke="#1a0c04" stroke-width="1"/>
+    <!-- Eyes -->
+    <ellipse cx="-3" cy="-104" rx="1.5" ry="1.1" fill="#fff8e8"/>
+    <circle cx="-3" cy="-104" r="0.7" fill="#1a0c04"/>
+    <ellipse cx="3" cy="-104" rx="1.5" ry="1.1" fill="#fff8e8"/>
+    <circle cx="3" cy="-104" r="0.7" fill="#1a0c04"/>
+    <!-- Mouth — slight reluctant smile -->
+    <path d="M-3,-96 Q0,-94 3,-96" fill="none" stroke="#3a1808" stroke-width="0.85"/>
+  </g>
+
+  <!-- JINK — right, grinning -->
+  <g transform="translate(560 282)">
+    <ellipse cx="0" cy="0" rx="14" ry="2.5" fill="#0a0604" opacity="0.65"/>
+    <path d="M-7,-44 L-10,-2 L-3,0 L-1,-44 Z" fill="url(#p15p4emerald)"/>
+    <path d="M1,-44 L3,0 L10,-2 L7,-44 Z" fill="url(#p15p4emerald)"/>
+    <path d="M-13,-78 L-15,-44 L15,-44 L13,-78 Z" fill="url(#p15p4emerald)"/>
+    <path d="M-9,-72 Q-2,-66 5,-72 Q-2,-58 -8,-54 Z" fill="#3a2818" opacity="0.7"/>
+    <path d="M-15,-78 Q-21,-86 -15,-92 L-8,-92 Z" fill="url(#p15p4emerald)"/>
+    <path d="M15,-78 Q21,-86 15,-92 L8,-92 Z" fill="url(#p15p4emerald)"/>
+    <circle cx="-10" cy="-86" r="1" fill="#9aff9a" filter="url(#p15p4bloom)"/>
+    <circle cx="10" cy="-86" r="1" fill="#9aff9a" filter="url(#p15p4bloom)"/>
+    <path d="M-15,-76 Q-22,-58 -16,-44 L-10,-46 Q-12,-58 -10,-74 Z" fill="url(#p15p4emerald)"/>
+    <path d="M15,-76 Q22,-58 16,-44 L10,-46 Q12,-58 10,-74 Z" fill="url(#p15p4emerald)"/>
+    <ellipse cx="-15" cy="-44" rx="2.4" ry="1.4" fill="url(#p15p4jinkSkin)"/>
+    <ellipse cx="15" cy="-44" rx="2.4" ry="1.4" fill="url(#p15p4jinkSkin)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-104" rx="11" ry="13" fill="url(#p15p4jinkSkin)"/>
+    <g fill="#d8a838">
+      <circle cx="-9" cy="-114" r="3.5"/>
+      <circle cx="-2" cy="-118" r="4"/>
+      <circle cx="6" cy="-114" r="3.5"/>
+      <circle cx="-12" cy="-110" r="2.4"/>
+      <circle cx="12" cy="-110" r="2.4"/>
+    </g>
+    <ellipse cx="-4" cy="-104" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="-4" cy="-104" r="0.6" fill="#1a4830"/>
+    <ellipse cx="4" cy="-104" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="4" cy="-104" r="0.6" fill="#1a4830"/>
+    <!-- Big grin -->
+    <path d="M-7,-96 Q0,-90 7,-96" fill="#5a2818"/>
+    <path d="M-7,-96 Q0,-92 7,-96" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+  </g>
+
+  <!-- DIALOGUE — Theodore: Well. Fairy stories or no, that cradle'll keep your power cell charged... mainspring like a watch... -->
+  <g>
+    <rect x="14" y="80" width="558" height="58" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M380,80 L386,70 L390,80 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M384,80 L388,80" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="22" y="116" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">Well. Fairy stories or no, that cradle'll keep your power cell charged for a week.</text>
+  <text x="22" y="132" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">I reckon a better one with a <tspan font-weight="700">mainspring</tspan> — like a watch — winds up, stores the energy.</text>
+
+  <!-- DIALOGUE — Wren: A mechanical energy storage system. Using clockwork. -->
+  <g>
+    <rect x="14" y="150" width="478" height="44" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M260,194 L270,194 L262,206 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2"/>
+    <path d="M262,194 L268,194" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="168" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35">WREN</text>
+  <text x="22" y="186" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic">A mechanical energy storage system. Using clockwork.</text>
+
+  <!-- DIALOGUE — Wren: That's... not stupid. -->
+  <g>
+    <rect x="14" y="208" width="200" height="44" rx="8" fill="#ffffff" stroke="#c87a35" stroke-width="2.4" filter="url(#balloonShadow)"/>
+    <path d="M40,252 L50,252 L42,264 Z" fill="#ffffff" stroke="#c87a35" stroke-width="2"/>
+    <path d="M42,252 L48,252" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="226" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#c87a35">WREN</text>
+  <text x="22" y="244" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">That's... not stupid.</text>
+
+  <!-- DIALOGUE — Jink: High praise from Wren. Trust me. -->
+  <g>
+    <rect x="430" y="270" width="298" height="44" rx="8" fill="#ffffff" stroke="#2e8b57" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M580,314 L590,314 L582,326 Z" fill="#ffffff" stroke="#2e8b57" stroke-width="2"/>
+    <path d="M582,314 L588,314" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="438" y="288" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#2e8b57">JINK</text>
+  <text x="438" y="306" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic">High praise from Wren. Trust me.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,80 Q200,82 400,78 Q580,76 742,80"/>
+    <path d="M0,260 Q200,262 400,258 Q580,256 742,260"/>
+  </g>
+</svg>
