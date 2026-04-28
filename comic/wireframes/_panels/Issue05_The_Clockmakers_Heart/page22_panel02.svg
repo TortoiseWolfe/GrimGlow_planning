@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 439" width="494" height="439">
+  <title>Issue 5 — Page 22 — Panel 2: Wren face profile MCU + holographic clock turning — unguarded fascination — It's beautiful</title>
+  <desc>65mm. Wren's face in profile, holographic clock mechanism rotating in space before her. Schematic detailed enough that gear teeth are resolved. She watches the way people watch fire. Most unguarded expression in five issues. Engineer's faintest smile at elegant solution. Dialog: WREN barely whisper: It's beautiful.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p22p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1218"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p22p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p22p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="p22p2warmHolo" cx="80%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7a4818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p22p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p22p2glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="494" height="439" fill="url(#p22p2bg)"/>
+  <rect width="494" height="439" fill="url(#p22p2warmHolo)" opacity="0.85"/>
+
+  <!-- ===== HOLOGRAPHIC CLOCK MECHANISM rotating, RIGHT side of frame ===== -->
+  <g transform="translate(360 220)">
+    <!-- Halo -->
+    <circle cx="0" cy="0" r="120" fill="#ffaa48" opacity="0.65" filter="url(#p22p2glow)"/>
+
+    <!-- Detailed wireframe (gear teeth visible) -->
+    <g stroke="#ffd078" stroke-width="1" fill="none" opacity="0.85" filter="url(#p22p2bloom)">
+      <!-- Outer ring (clock case) -->
+      <ellipse cx="0" cy="0" rx="100" ry="70"/>
+      <ellipse cx="0" cy="0" rx="80" ry="55"/>
+      <!-- Perspective rings -->
+      <ellipse cx="0" cy="0" rx="20" ry="70"/>
+      <ellipse cx="0" cy="0" rx="40" ry="70"/>
+    </g>
+
+    <!-- LARGE central gear (highlighted, target gear) -->
+    <g stroke="#fff8e8" stroke-width="1" fill="none" opacity="0.85" filter="url(#p22p2bloom)">
+      <circle cx="0" cy="0" r="34"/>
+      <circle cx="0" cy="0" r="26"/>
+      <circle cx="0" cy="0" r="6"/>
+      <!-- Visible gear teeth (radial) -->
+      <line x1="0" y1="-34" x2="0" y2="-38"/>
+      <line x1="0" y1="34" x2="0" y2="38"/>
+      <line x1="-34" y1="0" x2="-38" y2="0"/>
+      <line x1="34" y1="0" x2="38" y2="0"/>
+    </g>
+    <g stroke="#ffd078" stroke-width="0.55" filter="url(#p22p2bloom)" opacity="0.85">
+      <line x1="-24" y1="-24" x2="-26" y2="-26"/>
+      <line x1="24" y1="-24" x2="26" y2="-26"/>
+      <line x1="-24" y1="24" x2="-26" y2="26"/>
+      <line x1="24" y1="24" x2="26" y2="26"/>
+      <line x1="0" y1="-22" x2="0" y2="-30"/>
+      <line x1="0" y1="22" x2="0" y2="30"/>
+      <line x1="-22" y1="0" x2="-30" y2="0"/>
+      <line x1="22" y1="0" x2="30" y2="0"/>
+    </g>
+
+    <!-- Smaller gears (escapement, pinion) -->
+    <g stroke="#ffd078" stroke-width="0.7" fill="none" opacity="0.85" filter="url(#p22p2bloom)">
+      <circle cx="-44" cy="-30" r="14"/>
+      <circle cx="-44" cy="-30" r="9"/>
+      <circle cx="44" cy="-30" r="11"/>
+      <circle cx="44" cy="-30" r="7"/>
+      <circle cx="0" cy="50" r="9"/>
+    </g>
+    <!-- Spokes -->
+    <g stroke="#ffd078" stroke-width="0.4" filter="url(#p22p2bloom)" opacity="0.85">
+      <line x1="-44" y1="-44" x2="-44" y2="-16"/>
+      <line x1="-58" y1="-30" x2="-30" y2="-30"/>
+      <line x1="44" y1="-41" x2="44" y2="-19"/>
+      <line x1="33" y1="-30" x2="55" y2="-30"/>
+      <line x1="0" y1="41" x2="0" y2="59"/>
+    </g>
+
+    <!-- ESCAPEMENT — visible click motion -->
+    <g stroke="#fff8e8" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#p22p2bloom)">
+      <path d="M-9,-22 L-7,-26 L-3,-22"/>
+      <path d="M-15,-25 L-11,-28"/>
+    </g>
+
+    <!-- PENDULUM line -->
+    <line x1="0" y1="-70" x2="0" y2="0" stroke="#ffd078" stroke-width="0.85" opacity="0.85" filter="url(#p22p2bloom)"/>
+    <ellipse cx="0" cy="-70" rx="3" ry="2" fill="#ffd078" opacity="0.85" filter="url(#p22p2bloom)"/>
+
+    <!-- Hex emitter base -->
+    <polygon points="-7,80 -3,74 3,74 7,80 3,86 -3,86" fill="#ffd078" opacity="0.85" filter="url(#p22p2bloom)"/>
+  </g>
+
+  <!-- ===== WREN'S FACE in PROFILE — left side, watching schematic ===== -->
+  <g transform="translate(120 220)">
+    <!-- Suit collar (lower portion of body visible) -->
+    <path d="M-50,180 L-60,90 L60,90 L50,180 Z" fill="url(#p22p2suit)"/>
+    <line x1="-30" y1="100" x2="30" y2="100" stroke="#ffaa48" stroke-width="0.7" opacity="0.85" filter="url(#p22p2bloom)"/>
+
+    <!-- Head in profile (facing right toward schematic) -->
+    <!-- Skull/jaw outline -->
+    <path d="M-60,0 Q-58,-50 -30,-80 Q0,-100 40,-80 Q60,-50 60,0 Q60,40 30,80 Q0,90 -30,80 Q-50,40 -60,0 Z" fill="url(#p22p2skin)"/>
+
+    <!-- Hair UP — bun visible top, WILD with strands -->
+    <ellipse cx="0" cy="-80" rx="22" ry="14" fill="#0a0604"/>
+    <ellipse cx="0" cy="-90" rx="14" ry="9" fill="#1a0c04"/>
+    <path d="M-50,-50 Q-40,-90 0,-100 Q40,-90 50,-50 L48,-30 Q30,-70 0,-70 Q-30,-70 -48,-30 Z" fill="#0a0604"/>
+    <!-- Copper dust -->
+    <circle cx="-22" cy="-78" r="0.7" fill="#c87a35" opacity="0.85"/>
+    <circle cx="22" cy="-78" r="0.7" fill="#c87a35" opacity="0.85"/>
+    <circle cx="0" cy="-94" r="0.55" fill="#c87a35" opacity="0.85"/>
+    <!-- Loose strand at temple -->
+    <path d="M-44,-22 Q-50,-10 -44,4" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+
+    <!-- Oil smudge on cheek -->
+    <ellipse cx="-9" cy="20" rx="11" ry="6" fill="#1a0c04" opacity="0.55" transform="rotate(-15 -9 20)"/>
+
+    <!-- EYE (single, profile view) — UNGUARDED, OPEN, soft -->
+    <ellipse cx="9" cy="-30" rx="11" ry="7" fill="#fff8e8"/>
+    <ellipse cx="11" cy="-28" rx="7" ry="5" fill="#3a2010"/>
+    <circle cx="11" cy="-28" r="4" fill="#0a0604"/>
+    <!-- WARM REFLECTION OF CLOCK in eye -->
+    <circle cx="14" cy="-30" r="2" fill="#ffd078" filter="url(#p22p2bloom)"/>
+    <circle cx="15" cy="-32" r="0.85" fill="#fff8e8" filter="url(#p22p2bloom)"/>
+
+    <!-- Brow level — SOFT, not furrowed (the unguarded face) -->
+    <path d="M-3,-50 L25,-46" stroke="#0a0604" stroke-width="2.4" stroke-linecap="round"/>
+
+    <!-- Crow's feet of attention (gentle) -->
+    <path d="M-4,-22 L-9,-22" stroke="#5a3018" stroke-width="0.4" opacity="0.65"/>
+
+    <!-- Nose (profile bridge) -->
+    <path d="M40,0 Q56,14 50,30 L40,32 Z" fill="url(#p22p2skin)" opacity="0.85"/>
+    <ellipse cx="46" cy="32" rx="3" ry="2" fill="#7a4818" opacity="0.55"/>
+
+    <!-- Mouth — slight curve (faintest engineer's smile at elegant solution) -->
+    <path d="M22,46 Q30,50 36,46" stroke="#3a1808" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <!-- Lower lip suggestion -->
+    <path d="M22,50 Q30,52 36,50" stroke="#5a3018" stroke-width="0.55" fill="none" opacity="0.65"/>
+
+    <!-- Chin -->
+    <path d="M30,80 Q40,82 50,72" stroke="#5a3018" stroke-width="0.4" fill="none" opacity="0.65"/>
+
+    <!-- Warm copper-gold light on RIGHT side of profile (facing clock) -->
+    <ellipse cx="36" cy="20" rx="22" ry="40" fill="#ffd078" opacity="0.55" filter="url(#p22p2bloom)"/>
+    <ellipse cx="50" cy="-10" rx="9" ry="14" fill="#ffd078" opacity="0.65" filter="url(#p22p2bloom)"/>
+
+    <!-- Cool deeper shadow on LEFT side of profile -->
+    <ellipse cx="-36" cy="20" rx="14" ry="40" fill="#1a0c04" opacity="0.45" filter="url(#p22p2bloom)"/>
+  </g>
+
+  <!-- DIALOG (whisper, smaller) -->
+  <g transform="translate(247 80)">
+    <ellipse cx="0" cy="0" rx="60" ry="20" fill="#ffffff" stroke="#c87a35" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-22,16 L-36,28 L-26,18 Z" fill="#ffffff" stroke="#c87a35" stroke-width="1"/>
+    <text x="-50" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="-50" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="600">"It's beautiful."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,138 240,142 Q360,144 494,140"/>
+    <path d="M0,380 Q120,378 240,382 Q360,384 494,380"/>
+  </g>
+</svg>
