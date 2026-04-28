@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 364" width="238" height="364">
+  <title>Issue 5 — Page 5 — Panel 2: Wren CU — first flicker of recognition seeing clockwork — engineer seeing engineering</title>
+  <desc>85mm MCU. Wren behind ridge tile, watching shop. Expression sharpening into interest — eyebrow raised, eyes narrowing. Warm amber from window below catches face + copper suit creating warm monochrome. The seed of admiration — quiet "Hm."</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p5p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3850"/>
+      <stop offset="100%" stop-color="#5a4838"/>
+    </linearGradient>
+    <linearGradient id="p5p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a850"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="p5p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#e8b070"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <linearGradient id="p5p2tile" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a6068"/>
+      <stop offset="100%" stop-color="#3a4048"/>
+    </linearGradient>
+    <radialGradient id="p5p2warmFromBelow" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p5p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p5p2glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="238" height="364" fill="url(#p5p2bg)"/>
+
+  <!-- Warm wash from below (shop window) -->
+  <rect width="238" height="364" fill="url(#p5p2warmFromBelow)"/>
+
+  <!-- RIDGE TILE in foreground (Wren crouched behind it) -->
+  <path d="M0,280 L40,250 L198,250 L238,280 L238,364 L0,364 Z" fill="url(#p5p2tile)"/>
+  <line x1="40" y1="250" x2="198" y2="250" stroke="#1a1c20" stroke-width="0.85"/>
+  <g stroke="#1a1c20" stroke-width="0.55" opacity="0.65">
+    <line x1="0" y1="280" x2="238" y2="280"/>
+    <line x1="60" y1="250" x2="60" y2="280"/>
+    <line x1="120" y1="250" x2="120" y2="280"/>
+    <line x1="180" y1="250" x2="180" y2="280"/>
+  </g>
+
+  <!-- ===== WREN tight CU behind ridge tile ===== -->
+  <g transform="translate(119 200)">
+    <!-- Body crouched (only top torso + head visible above ridge) -->
+    <path d="M-50,150 L-60,80 L60,80 L50,150 Z" fill="url(#p5p2suit)"/>
+    <line x1="-26" y1="100" x2="26" y2="100" stroke="#ffd078" stroke-width="1.4" opacity="0.85" filter="url(#p5p2bloom)"/>
+    <line x1="0" y1="80" x2="0" y2="120" stroke="#ffd078" stroke-width="0.7" opacity="0.7"/>
+    <!-- Shoulders -->
+    <path d="M-60,80 Q-44,52 -10,44 Q14,44 44,52 Q60,80 56,76 L-56,76 Z" fill="url(#p5p2suit)"/>
+    <ellipse cx="-58" cy="74" rx="10" ry="6" fill="#1a0c04" opacity="0.85"/>
+
+    <!-- HEAD -->
+    <ellipse cx="0" cy="0" rx="100" ry="130" fill="url(#p5p2skin)"/>
+    <!-- Strong WARM monochrome wash on lower face -->
+    <ellipse cx="0" cy="40" rx="90" ry="50" fill="#ffd078" opacity="0.45" filter="url(#p5p2bloom)"/>
+    <!-- HAIR UP — bun -->
+    <ellipse cx="0" cy="-110" rx="18" ry="14" fill="#0a0604"/>
+    <ellipse cx="0" cy="-118" rx="13" ry="9" fill="#1a0c04"/>
+    <path d="M-90,-90 Q-70,-130 0,-138 Q70,-130 90,-86 L86,-78 Q60,-114 0,-114 Q-60,-114 -86,-78 Z" fill="#0a0604"/>
+    <path d="M-78,-44 Q-90,-30 -86,-10" stroke="#0a0604" stroke-width="2.4" fill="none" opacity="0.85"/>
+    <path d="M82,-44 Q92,-30 86,-10" stroke="#0a0604" stroke-width="2.4" fill="none" opacity="0.85"/>
+
+    <!-- EYES — narrowing in interest, ASYMMETRIC brow lift -->
+    <ellipse cx="-36" cy="-12" rx="18" ry="9" fill="#fff8e8"/>
+    <ellipse cx="-36" cy="-10" rx="11" ry="6" fill="#3a2010"/>
+    <circle cx="-36" cy="-10" r="6" fill="#0a0604"/>
+    <circle cx="-34" cy="-13" r="2" fill="#fff8e8" filter="url(#p5p2bloom)"/>
+    <ellipse cx="-40" cy="-9" rx="3" ry="1.6" fill="#ffd078" opacity="0.85" filter="url(#p5p2bloom)"/>
+    <ellipse cx="36" cy="-12" rx="18" ry="9" fill="#fff8e8"/>
+    <ellipse cx="36" cy="-10" rx="11" ry="6" fill="#3a2010"/>
+    <circle cx="36" cy="-10" r="6" fill="#0a0604"/>
+    <circle cx="38" cy="-13" r="2" fill="#fff8e8" filter="url(#p5p2bloom)"/>
+    <ellipse cx="32" cy="-9" rx="3" ry="1.6" fill="#ffd078" opacity="0.7" filter="url(#p5p2bloom)"/>
+
+    <!-- Brows — ONE RAISED (left from her POV — appears right to viewer), interest -->
+    <path d="M-60,-36 L-16,-40" stroke="#0a0604" stroke-width="3" stroke-linecap="round"/>
+    <path d="M16,-44 L60,-32" stroke="#0a0604" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M-6,4 L-2,38 Q2,42 6,40 L10,4 Z" fill="url(#p5p2skin)" opacity="0.85"/>
+    <ellipse cx="-2" cy="38" rx="3" ry="1.4" fill="#3a1c08" opacity="0.5"/>
+    <ellipse cx="6" cy="38" rx="3" ry="1.4" fill="#3a1c08" opacity="0.5"/>
+
+    <!-- Mouth — slight purse, the "hm" -->
+    <path d="M-12,68 L12,68" stroke="#3a1808" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M-12,68 Q-8,72 -4,72" fill="none" stroke="#5a2818" stroke-width="0.85" opacity="0.7"/>
+    <path d="M12,68 Q8,72 4,72" fill="none" stroke="#5a2818" stroke-width="0.85" opacity="0.7"/>
+  </g>
+
+  <!-- WREN dialogue (top, quiet) -->
+  <g>
+    <rect x="14" y="14" width="100" height="34" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="60,48 72,48 64,60" fill="white" stroke="#c87a35" stroke-width="0.85" stroke-dasharray="3 2"/>
+    <line x1="60.5" y1="48" x2="71.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN (quiet)</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1410" font-style="italic" font-weight="500">Hm.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q60,82 120,78 Q180,76 238,80"/>
+    <path d="M0,300 Q60,298 120,302 Q180,304 238,300"/>
+  </g>
+</svg>
