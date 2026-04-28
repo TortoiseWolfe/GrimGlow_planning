@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 422" width="366" height="422">
+  <title>Issue 5 — Page 10 — Panel 3: Micro-cutter beam tracing arbor — brass shavings curl — Wren's eyes track the line</title>
+  <desc>85mm CU. Hair-thin copper-gold beam tracing precise line along brass arbor. Brass shavings curl away catching beam light. Wren's eyes visible above cutter, narrowed, tracking, not blinking. Absolute precision.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p10p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p10p3steel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="50%" stop-color="#d8d0c8"/>
+      <stop offset="100%" stop-color="#5a5048"/>
+    </linearGradient>
+    <linearGradient id="p10p3brass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="p10p3skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#c89048"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <radialGradient id="p10p3amberWash" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p10p3beamBloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p10p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p10p3glow"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p10p3sharp"><feGaussianBlur stdDeviation="0.5"/></filter>
+  </defs>
+
+  <rect width="366" height="422" fill="url(#p10p3bg)"/>
+  <rect width="366" height="422" fill="url(#p10p3amberWash)"/>
+
+  <!-- ===== STEEL ARBOR (vertical, dominant subject) ===== -->
+  <rect x="60" y="0" width="80" height="422" fill="url(#p10p3steel)"/>
+  <line x1="60" y1="0" x2="60" y2="422" stroke="#1a1c20" stroke-width="0.55"/>
+  <line x1="140" y1="0" x2="140" y2="422" stroke="#1a1c20" stroke-width="0.55"/>
+  <!-- Sheen on arbor -->
+  <line x1="80" y1="0" x2="80" y2="422" stroke="#fff8e8" stroke-width="0.85" opacity="0.85" filter="url(#p10p3bloom)"/>
+  <line x1="120" y1="0" x2="120" y2="422" stroke="#1a1c20" stroke-width="0.55" opacity="0.55"/>
+
+  <!-- BRASS COLLAR/MOUNT around arbor (where the gear attaches) -->
+  <rect x="40" y="180" width="120" height="60" fill="url(#p10p3brass)"/>
+  <line x1="40" y1="180" x2="160" y2="180" stroke="#7a4818" stroke-width="0.55"/>
+  <line x1="40" y1="240" x2="160" y2="240" stroke="#7a4818" stroke-width="0.55"/>
+  <ellipse cx="100" cy="190" rx="40" ry="3" fill="#fff8e8" opacity="0.55" filter="url(#p10p3bloom)"/>
+
+  <!-- ===== CUT LINE — hair-thin copper-gold beam tracing horizontally ===== -->
+  <g>
+    <!-- Beam itself (a thin glowing horizontal line crossing the arbor) -->
+    <rect x="40" y="208" width="120" height="2" fill="#fff8e8" filter="url(#p10p3bloom)"/>
+    <!-- Beam halo -->
+    <rect x="40" y="204" width="120" height="10" fill="#ffd078" opacity="0.65" filter="url(#p10p3glow)"/>
+    <!-- Beam emitter focal point on left side -->
+    <circle cx="160" cy="209" r="3" fill="#fff8e8" filter="url(#p10p3bloom)"/>
+    <circle cx="160" cy="209" r="6" fill="#ffd078" opacity="0.85" filter="url(#p10p3glow)"/>
+    <!-- Cut groove being formed -->
+    <rect x="40" y="208" width="120" height="2" fill="#3a2010" opacity="0.85"/>
+  </g>
+
+  <!-- ===== BRASS SHAVINGS curling away from cut, catching beam light ===== -->
+  <g>
+    <path d="M70,210 Q60,200 50,206 Q44,212 50,218 Q60,222 70,212 Z" fill="url(#p10p3brass)" stroke="#7a4818" stroke-width="0.4"/>
+    <path d="M50,206 Q48,210 50,214" stroke="#7a4818" stroke-width="0.3" fill="none"/>
+    <path d="M82,215 Q72,225 60,224 Q52,222 56,228 Q66,232 80,224 Z" fill="url(#p10p3brass)" stroke="#7a4818" stroke-width="0.4"/>
+    <path d="M120,206 Q130,196 140,200 Q146,210 138,214 Q126,212 118,210 Z" fill="url(#p10p3brass)" stroke="#7a4818" stroke-width="0.4"/>
+    <path d="M115,217 Q126,222 132,228 Q126,234 118,230 Q112,224 113,220 Z" fill="url(#p10p3brass)" stroke="#7a4818" stroke-width="0.4"/>
+    <!-- Tiny ones -->
+    <ellipse cx="48" cy="200" rx="3" ry="1" fill="url(#p10p3brass)" stroke="#7a4818" stroke-width="0.3"/>
+    <ellipse cx="152" cy="222" rx="3" ry="1" fill="url(#p10p3brass)" stroke="#7a4818" stroke-width="0.3"/>
+  </g>
+
+  <!-- Subtle sparks at the cut -->
+  <g fill="#fff8e8" filter="url(#p10p3bloom)">
+    <circle cx="80" cy="208" r="0.85"/>
+    <circle cx="100" cy="208" r="0.7"/>
+    <circle cx="120" cy="208" r="0.85"/>
+    <circle cx="60" cy="210" r="0.55"/>
+    <circle cx="140" cy="210" r="0.55"/>
+  </g>
+
+  <!-- ===== WREN'S EYES (above the cutter, tracking the cut line) ===== -->
+  <g transform="translate(183 80)">
+    <!-- Just the eyes — narrowed, intense -->
+    <ellipse cx="-30" cy="0" rx="22" ry="11" fill="#fff8e8" opacity="0.92"/>
+    <ellipse cx="-30" cy="2" rx="14" ry="8" fill="#3a2010"/>
+    <circle cx="-30" cy="2" r="9" fill="#0a0604"/>
+    <circle cx="-28" cy="-2" r="2.4" fill="#fff8e8" filter="url(#p10p3bloom)"/>
+    <!-- Reflection of beam in eye -->
+    <ellipse cx="-32" cy="0" rx="3" ry="1" fill="#ffd078" opacity="0.85" filter="url(#p10p3bloom)"/>
+
+    <ellipse cx="30" cy="0" rx="22" ry="11" fill="#fff8e8" opacity="0.92"/>
+    <ellipse cx="30" cy="2" rx="14" ry="8" fill="#3a2010"/>
+    <circle cx="30" cy="2" r="9" fill="#0a0604"/>
+    <circle cx="32" cy="-2" r="2.4" fill="#fff8e8" filter="url(#p10p3bloom)"/>
+    <ellipse cx="28" cy="0" rx="3" ry="1" fill="#ffd078" opacity="0.85" filter="url(#p10p3bloom)"/>
+
+    <!-- BROWS narrowed, tight -->
+    <path d="M-52,-22 L-8,-26" stroke="#0a0604" stroke-width="3" stroke-linecap="round"/>
+    <path d="M8,-26 L52,-22" stroke="#0a0604" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Lower lid lift (intense focus, not blinking) -->
+    <path d="M-44,8 Q-30,14 -16,8" fill="none" stroke="#3a2010" stroke-width="0.85"/>
+    <path d="M16,8 Q30,14 44,8" fill="none" stroke="#3a2010" stroke-width="0.85"/>
+
+    <!-- Bridge of nose visible faintly -->
+    <path d="M-2,-10 L0,18 Q2,20 4,18" fill="none" stroke="#7a4818" stroke-width="0.55" opacity="0.55"/>
+    <!-- Skin tone wash -->
+    <ellipse cx="0" cy="0" rx="80" ry="22" fill="url(#p10p3skin)" opacity="0.18"/>
+  </g>
+
+  <!-- Tiny suggestion of forehead/hair at top of frame -->
+  <g transform="translate(183 30)">
+    <ellipse cx="-30" cy="0" rx="60" ry="14" fill="#0a0604" opacity="0.85"/>
+    <ellipse cx="0" cy="-4" rx="14" ry="5" fill="#0a0604"/>
+    <ellipse cx="0" cy="-9" rx="9" ry="3.4" fill="#1a0c04"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,360 Q90,358 180,362 Q280,364 366,360"/>
+  </g>
+</svg>

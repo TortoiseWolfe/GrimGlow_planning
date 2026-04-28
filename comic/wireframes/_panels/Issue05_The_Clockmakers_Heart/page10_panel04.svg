@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 422" width="366" height="422">
+  <title>Issue 5 — Page 10 — Panel 4: Through gear gaps — clockmaker rises from bench — tension shift — Theodore</title>
+  <desc>50mm view from inside mechanism through gear gaps to workshop. Clockmaker enormous figure pushing back from bench, stretching, rolling shoulders. Wren tiny in foreground frozen, tools still active but body motionless.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p10p4cavity" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p10p4brass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="p10p4suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a850"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="p10p4workshop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <radialGradient id="p10p4amberShop" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p10p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p10p4glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="422" fill="url(#p10p4cavity)"/>
+
+  <!-- ===== WORKSHOP visible THROUGH gear gaps ===== -->
+  <!-- Background workshop wash -->
+  <rect x="40" y="40" width="286" height="200" fill="url(#p10p4workshop)"/>
+  <rect x="40" y="40" width="286" height="200" fill="url(#p10p4amberShop)"/>
+
+  <!-- ===== CLOCKMAKER PUSHING BACK from bench (visible through gaps) ===== -->
+  <!-- Workbench edge -->
+  <rect x="40" y="180" width="286" height="20" fill="#3a1808"/>
+  <line x1="40" y1="184" x2="326" y2="184" stroke="#1a0c04" stroke-width="0.55"/>
+
+  <!-- Clockmaker figure — RISING -->
+  <g transform="translate(180 130)">
+    <!-- Body, leaning back, rising motion -->
+    <ellipse cx="0" cy="40" rx="32" ry="20" fill="#3a2010"/>
+    <!-- Apron -->
+    <path d="M-22,30 L-26,60 L26,60 L22,30 Z" fill="#5a3018"/>
+    <line x1="-22" y1="30" x2="22" y2="30" stroke="#1a0c04" stroke-width="0.55"/>
+    <line x1="-26" y1="60" x2="26" y2="60" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-10" rx="14" ry="18" fill="#a86838"/>
+    <!-- Hair (grey/brown) -->
+    <ellipse cx="0" cy="-22" rx="13" ry="6" fill="#5a4838"/>
+    <line x1="-9" y1="-26" x2="-7" y2="-22" stroke="#7a6858" stroke-width="0.55"/>
+    <line x1="9" y1="-26" x2="7" y2="-22" stroke="#7a6858" stroke-width="0.55"/>
+    <!-- Eyes -->
+    <ellipse cx="-4" cy="-10" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-4" cy="-10" r="0.85" fill="#0a0604"/>
+    <ellipse cx="4" cy="-10" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="4" cy="-10" r="0.85" fill="#0a0604"/>
+    <!-- Brows -->
+    <path d="M-9,-15 L-1,-16" stroke="#3a2010" stroke-width="0.7"/>
+    <path d="M1,-16 L9,-15" stroke="#3a2010" stroke-width="0.7"/>
+    <!-- Mouth slight stretch -->
+    <path d="M-3,2 L3,2" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Magnifying loupe pushed up on headband (he doesn't need it now) -->
+    <ellipse cx="-9" cy="-19" rx="3.4" ry="2.4" fill="none" stroke="#7a4818" stroke-width="0.7"/>
+    <!-- Arms STRETCHING - rolling shoulders -->
+    <path d="M-22,30 L-40,10 L-44,-2 L-40,-4 L-36,8 L-20,22 Z" fill="#a86838"/>
+    <ellipse cx="-44" cy="0" rx="3" ry="2" fill="#a86838"/>
+    <path d="M22,30 L40,10 L44,-2 L40,-4 L36,8 L20,22 Z" fill="#a86838"/>
+    <ellipse cx="44" cy="0" rx="3" ry="2" fill="#a86838"/>
+    <!-- Rolled shirtsleeves visible -->
+    <ellipse cx="-32" cy="14" rx="6" ry="4" fill="#d8c8a8"/>
+    <ellipse cx="32" cy="14" rx="6" ry="4" fill="#d8c8a8"/>
+    <!-- Motion lines indicating stretching -->
+    <g stroke="#3a1808" stroke-width="0.4" opacity="0.55" fill="none" stroke-dasharray="2 1.5">
+      <path d="M-50,-10 Q-46,-14 -42,-12"/>
+      <path d="M50,-10 Q46,-14 42,-12"/>
+      <path d="M-22,-20 Q-22,-26 -18,-24"/>
+      <path d="M22,-20 Q22,-26 18,-24"/>
+    </g>
+  </g>
+
+  <!-- Stool/chair pushed back (visible) -->
+  <g transform="translate(180 270)">
+    <rect x="-22" y="-14" width="44" height="14" fill="#3a1808"/>
+    <line x1="-22" y1="-7" x2="22" y2="-7" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Legs pushed back -->
+    <line x1="-18" y1="0" x2="-22" y2="20" stroke="#1a0c04" stroke-width="2"/>
+    <line x1="18" y1="0" x2="22" y2="20" stroke="#1a0c04" stroke-width="2"/>
+    <!-- Motion blur showing chair just moved -->
+    <line x1="-22" y1="0" x2="-30" y2="0" stroke="#5a3818" stroke-width="0.4" opacity="0.55" stroke-dasharray="2 1.5"/>
+    <line x1="-22" y1="-10" x2="-30" y2="-10" stroke="#5a3818" stroke-width="0.4" opacity="0.55" stroke-dasharray="2 1.5"/>
+  </g>
+
+  <!-- ===== MASKING GEARS — partial gear silhouettes framing the gap (in foreground) ===== -->
+  <!-- Top gear partial -->
+  <g>
+    <path d="M0,0 L40,0 L36,40 L20,80 L0,80 Z" fill="url(#p10p4brass)" stroke="#7a4818" stroke-width="0.85"/>
+    <path d="M366,0 L326,0 L330,40 L346,80 L366,80 Z" fill="url(#p10p4brass)" stroke="#7a4818" stroke-width="0.85"/>
+  </g>
+  <!-- Bottom gear partial -->
+  <g>
+    <path d="M0,422 L0,340 L20,300 L36,340 L40,422 Z" fill="url(#p10p4brass)" stroke="#7a4818" stroke-width="0.85"/>
+    <path d="M366,422 L366,340 L346,300 L330,340 L326,422 Z" fill="url(#p10p4brass)" stroke="#7a4818" stroke-width="0.85"/>
+  </g>
+  <!-- Mid framing teeth -->
+  <g>
+    <path d="M0,160 L36,140 L36,180 L0,200 Z" fill="url(#p10p4brass)" stroke="#7a4818" stroke-width="0.55"/>
+    <path d="M0,240 L36,220 L36,260 L0,280 Z" fill="url(#p10p4brass)" stroke="#7a4818" stroke-width="0.55"/>
+    <path d="M366,160 L330,140 L330,180 L366,200 Z" fill="url(#p10p4brass)" stroke="#7a4818" stroke-width="0.55"/>
+    <path d="M366,240 L330,220 L330,260 L366,280 Z" fill="url(#p10p4brass)" stroke="#7a4818" stroke-width="0.55"/>
+  </g>
+  <!-- Faint sheen on framing gears -->
+  <g opacity="0.55">
+    <ellipse cx="14" cy="100" rx="4" ry="40" fill="#fff8e8" filter="url(#p10p4bloom)"/>
+    <ellipse cx="354" cy="100" rx="4" ry="40" fill="#fff8e8" filter="url(#p10p4bloom)"/>
+  </g>
+
+  <!-- ===== WREN frozen in foreground — dark silhouette against amber ===== -->
+  <g transform="translate(80 280)">
+    <ellipse cx="-3" cy="40" rx="3" ry="1.4" fill="#0a0408"/>
+    <ellipse cx="3" cy="40" rx="3" ry="1.4" fill="#0a0408"/>
+    <rect x="-5" y="14" width="4" height="26" fill="url(#p10p4suit)"/>
+    <rect x="1" y="14" width="4" height="26" fill="url(#p10p4suit)"/>
+    <path d="M-7,14 L-7,-12 L7,-12 L7,14 Z" fill="url(#p10p4suit)"/>
+    <line x1="-5" y1="-4" x2="5" y2="-4" stroke="#ffd078" stroke-width="0.55" opacity="0.85" filter="url(#p10p4bloom)"/>
+    <ellipse cx="-7" cy="-12" rx="2.4" ry="1.6" fill="#1a0c04" opacity="0.85"/>
+    <!-- Tool kit -->
+    <rect x="-4" y="-8" width="9" height="11" fill="#3a2010"/>
+    <!-- Arms STILL extended (tools still active) but BODY FROZEN -->
+    <path d="M-7,-12 L-18,-6 L-22,-2 L-18,-2 L-12,-8 L-6,-12 Z" fill="url(#p10p4suit)"/>
+    <ellipse cx="-22" cy="-2" rx="2.4" ry="1.6" fill="#a86838"/>
+    <path d="M7,-12 L18,-6 L22,-2 L18,-2 L12,-8 L6,-12 Z" fill="url(#p10p4suit)"/>
+    <ellipse cx="22" cy="-2" rx="2.4" ry="1.6" fill="#a86838"/>
+    <!-- Tools still glowing -->
+    <circle cx="-22" cy="-4" r="2" fill="#fff8e8" filter="url(#p10p4bloom)"/>
+    <circle cx="-22" cy="-4" r="4" fill="#ffd078" opacity="0.6" filter="url(#p10p4glow)"/>
+    <circle cx="22" cy="-4" r="2" fill="#fff8e8" filter="url(#p10p4bloom)"/>
+    <circle cx="22" cy="-4" r="4" fill="#ffd078" opacity="0.6" filter="url(#p10p4glow)"/>
+    <!-- Head — TURNED toward clockmaker (right) -->
+    <ellipse cx="0" cy="-22" rx="5" ry="6.5" fill="#a86838"/>
+    <ellipse cx="0" cy="-30" rx="3" ry="2.2" fill="#0a0604"/>
+    <!-- EYES SNAPPED toward clockmaker -->
+    <ellipse cx="2" cy="-22" rx="1.6" ry="1" fill="#fff8e8"/>
+    <ellipse cx="3" cy="-22" rx="1.2" ry="0.85" fill="#3a2010"/>
+    <circle cx="3" cy="-22" r="0.7" fill="#0a0604"/>
+    <ellipse cx="6" cy="-22" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="7" cy="-22" rx="1" ry="0.7" fill="#3a2010"/>
+    <circle cx="7" cy="-22" r="0.55" fill="#0a0604"/>
+    <!-- Brows up — alert -->
+    <path d="M-1,-30 L4,-31" stroke="#0a0604" stroke-width="0.7"/>
+    <path d="M5,-31 L9,-30" stroke="#0a0604" stroke-width="0.7"/>
+    <path d="M-3,-15 L3,-15" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- WREN comms (top, sharp whisper) -->
+  <g>
+    <rect x="14" y="14" width="338" height="46" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN ((sharp whisper))</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">He's moving. The clockmaker is</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-weight="500">getting up.</text>
+
+  <!-- SABLE response -->
+  <g>
+    <rect x="14" y="68" width="338" height="32" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="84" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE ((immediate))</text>
+  <text x="22" y="94" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">How far along are you?</text>
+
+  <!-- WREN reply -->
+  <g>
+    <rect x="14" y="320" width="280" height="32" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="336" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN ((comms))</text>
+  <text x="22" y="346" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Seventy percent. I need another minute.</text>
+
+  <!-- SABLE — Theodore -->
+  <g>
+    <rect x="14" y="378" width="180" height="32" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="394" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE ((comms))</text>
+  <text x="22" y="406" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic" font-weight="500">...Theodore.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,360 Q90,358 180,362 Q280,364 366,360"/>
+  </g>
+</svg>
