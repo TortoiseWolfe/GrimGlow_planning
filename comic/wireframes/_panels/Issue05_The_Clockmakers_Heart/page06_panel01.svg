@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 422" width="742" height="422">
+  <title>Issue 5 — Page 6 — Panel 1: Thresh on stone window sill — overwatch set, exposed plateau at fairy scale</title>
+  <desc>35mm wide. Thresh standing on broad stone sill — a flat dusty plateau at fairy scale. Sash window dark gap behind. Dead fly carcass in corner. Vertiginous drop in front. Sable's chimney pot visible across street. Grey-blue dusk + warm amber from below catching sill edge.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p6p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a3050"/>
+      <stop offset="100%" stop-color="#3a4858"/>
+    </linearGradient>
+    <linearGradient id="p6p1stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9a9088"/>
+      <stop offset="100%" stop-color="#5a5048"/>
+    </linearGradient>
+    <linearGradient id="p6p1brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p6p1suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#8a0828"/>
+    </linearGradient>
+    <linearGradient id="p6p1lace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2828"/>
+      <stop offset="100%" stop-color="#1a1414"/>
+    </linearGradient>
+    <linearGradient id="p6p1fly" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="50%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#1a1414"/>
+    </linearGradient>
+    <radialGradient id="p6p1amberFromBelow" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p1crimsonSeam" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#dc2030" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8a0828" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p6p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p6p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- DUSK SKY (top half — view across street) -->
+  <rect width="742" height="180" fill="url(#p6p1sky)"/>
+
+  <!-- DISTANT ROOFTOPS across street -->
+  <g opacity="0.7" fill="#3a4048">
+    <path d="M0,160 L0,200 L80,200 L80,140 L160,140 L160,160 L240,160 L240,130 L320,130 L320,150 L400,150 L400,140 L480,140 L480,160 L560,160 L560,130 L640,130 L640,150 L720,150 L720,160 L742,160 L742,200 Z"/>
+  </g>
+  <!-- Distant chimney pot stacks -->
+  <g fill="#5a2818">
+    <rect x="100" y="118" width="11" height="22"/>
+    <rect x="280" y="106" width="11" height="24"/>
+    <rect x="440" y="120" width="11" height="20"/>
+    <rect x="600" y="106" width="11" height="24"/>
+  </g>
+  <!-- SABLE's chimney pot visible across street (small but distinct) -->
+  <g transform="translate(540 130)">
+    <ellipse cx="0" cy="0" rx="8" ry="3" fill="#7a3818"/>
+    <rect x="-7" y="0" width="14" height="20" fill="#7a3818"/>
+    <rect x="-9" y="20" width="18" height="20" fill="#3a2818"/>
+  </g>
+  <!-- Sable tiny silver speck behind chimney -->
+  <circle cx="558" cy="142" r="1.4" fill="#dad5d0" filter="url(#p6p1bloom)" opacity="0.85"/>
+  <ellipse cx="558" cy="142" rx="3.4" ry="2" fill="#dad5d0" opacity="0.35" filter="url(#p6p1glow)"/>
+
+  <!-- Distant chimney smoke columns -->
+  <g opacity="0.4" fill="#5a4838">
+    <ellipse cx="105" cy="100" rx="22" ry="8"/>
+    <ellipse cx="285" cy="86" rx="20" ry="7"/>
+    <ellipse cx="445" cy="100" rx="22" ry="8"/>
+    <ellipse cx="605" cy="86" rx="20" ry="7"/>
+  </g>
+
+  <!-- Distant street CANYON below the rooftops (drop visible right at horizon line) -->
+  <rect x="0" y="200" width="742" height="40" fill="#0a0604"/>
+  <ellipse cx="160" cy="220" rx="80" ry="14" fill="#ffaa48" opacity="0.45" filter="url(#p6p1glow)"/>
+  <ellipse cx="420" cy="220" rx="100" ry="16" fill="#ffaa48" opacity="0.55" filter="url(#p6p1glow)"/>
+  <ellipse cx="640" cy="220" rx="80" ry="14" fill="#ffaa48" opacity="0.45" filter="url(#p6p1glow)"/>
+
+  <!-- ===== SASH WINDOW behind Thresh — DARK GAP ===== -->
+  <rect x="0" y="0" width="742" height="240" fill="url(#p6p1brick)"/>
+  <!-- Window frame -->
+  <rect x="80" y="0" width="582" height="240" fill="url(#p6p1lace)"/>
+  <rect x="80" y="0" width="582" height="240" fill="none" stroke="#3a2818" stroke-width="2.4"/>
+  <!-- Mullion -->
+  <line x1="371" y1="0" x2="371" y2="240" stroke="#3a2818" stroke-width="1.4"/>
+  <!-- Lace curtains hanging behind glass — semi-transparent -->
+  <g opacity="0.55" fill="#5a4848">
+    <rect x="100" y="20" width="120" height="200"/>
+    <rect x="240" y="20" width="120" height="200"/>
+    <rect x="382" y="20" width="120" height="200"/>
+    <rect x="520" y="20" width="120" height="200"/>
+  </g>
+  <!-- Lace pattern (faint diamonds) -->
+  <g stroke="#7a6868" stroke-width="0.4" opacity="0.45" fill="none">
+    <path d="M100,40 L150,60 L200,40 L150,20 Z M150,60 L200,80 L250,60 L200,40 Z"/>
+    <path d="M250,40 L300,60 L350,40 L300,20 Z"/>
+    <path d="M390,40 L440,60 L490,40 L440,20 Z M440,60 L490,80 L540,60 L490,40 Z"/>
+    <path d="M540,40 L590,60 L640,40 L590,20 Z"/>
+  </g>
+  <!-- BOTTOM SASH GAP (lifted) — dark slot through which Thresh entered -->
+  <rect x="80" y="226" width="582" height="14" fill="#0a0604"/>
+  <line x1="80" y1="232" x2="662" y2="232" stroke="#7a5028" stroke-width="0.55" opacity="0.85"/>
+
+  <!-- ===== STONE WINDOW SILL — fills lower frame (broad plateau at fairy scale) ===== -->
+  <rect x="0" y="240" width="742" height="182" fill="url(#p6p1stone)"/>
+  <line x1="0" y1="246" x2="742" y2="246" stroke="#3a3028" stroke-width="0.85"/>
+  <!-- Sill texture (cracks, dust, weathering) -->
+  <g stroke="#3a3028" stroke-width="0.55" opacity="0.55">
+    <path d="M0,290 Q160,288 320,292 Q500,296 742,292"/>
+    <path d="M0,340 Q160,342 320,338 Q500,334 742,340"/>
+    <path d="M0,380 Q160,378 320,382 Q500,386 742,378"/>
+  </g>
+  <!-- Hairline crack -->
+  <path d="M180,260 Q230,310 220,360" stroke="#3a3028" stroke-width="0.7" fill="none" opacity="0.65"/>
+  <!-- Dust patches -->
+  <g opacity="0.55">
+    <ellipse cx="120" cy="320" rx="34" ry="6" fill="#7a6858"/>
+    <ellipse cx="380" cy="350" rx="40" ry="7" fill="#7a6858"/>
+    <ellipse cx="600" cy="300" rx="34" ry="6" fill="#7a6858"/>
+  </g>
+  <!-- Grit specks -->
+  <g fill="#3a3028" opacity="0.65">
+    <circle cx="60" cy="280" r="0.85"/>
+    <circle cx="180" cy="300" r="0.7"/>
+    <circle cx="280" cy="270" r="0.85"/>
+    <circle cx="380" cy="290" r="0.7"/>
+    <circle cx="500" cy="280" r="0.85"/>
+    <circle cx="640" cy="310" r="0.7"/>
+    <circle cx="120" cy="370" r="0.85"/>
+    <circle cx="240" cy="395" r="0.7"/>
+    <circle cx="500" cy="370" r="0.85"/>
+    <circle cx="660" cy="395" r="0.7"/>
+  </g>
+
+  <!-- WARM AMBER from below catching sill edge -->
+  <rect width="742" height="80" y="240" fill="url(#p6p1amberFromBelow)"/>
+
+  <!-- ===== DEAD FLY CARCASS in corner ===== -->
+  <g transform="translate(620 350)">
+    <!-- Body (large dog-sized at this scale) -->
+    <ellipse cx="0" cy="0" rx="40" ry="16" fill="url(#p6p1fly)"/>
+    <ellipse cx="-14" cy="-2" rx="14" ry="11" fill="#3a3030"/>
+    <ellipse cx="-14" cy="-2" rx="11" ry="9" fill="#5a4838"/>
+    <!-- Compound eyes (dull iridescence) -->
+    <ellipse cx="-22" cy="-4" rx="6" ry="4" fill="#3a3030"/>
+    <ellipse cx="-22" cy="-4" rx="4" ry="3" fill="#5a4838" opacity="0.85"/>
+    <!-- Faint iridescent sheen -->
+    <ellipse cx="-22" cy="-5" rx="2.4" ry="1.4" fill="#7a8068" opacity="0.55" filter="url(#p6p1bloom)"/>
+    <!-- Thorax segment -->
+    <ellipse cx="0" cy="0" rx="14" ry="11" fill="#3a3030"/>
+    <line x1="-14" y1="-8" x2="14" y2="-8" stroke="#1a1414" stroke-width="0.55"/>
+    <line x1="-14" y1="8" x2="14" y2="8" stroke="#1a1414" stroke-width="0.55"/>
+    <!-- Wings (curled, dead) -->
+    <path d="M0,-2 Q14,-22 32,-12 Q26,-2 12,0 Z" fill="#7a8088" opacity="0.55" filter="url(#p6p1bloom)"/>
+    <path d="M0,2 Q14,22 32,12 Q26,2 12,0 Z" fill="#7a8088" opacity="0.45" filter="url(#p6p1bloom)"/>
+    <!-- Wing veins -->
+    <g stroke="#3a3030" stroke-width="0.4" fill="none" opacity="0.7">
+      <path d="M2,-4 L20,-14"/>
+      <path d="M4,-2 L24,-8"/>
+      <path d="M2,4 L20,14"/>
+      <path d="M4,2 L24,8"/>
+    </g>
+    <!-- LEGS — curled in death (six legs, all bent) -->
+    <g stroke="#1a0c04" stroke-width="1.6" stroke-linecap="round" fill="none">
+      <path d="M-10,8 L-14,16 L-8,20"/>
+      <path d="M-2,9 L-2,18 L4,22"/>
+      <path d="M8,9 L12,18 L20,20"/>
+      <path d="M-10,-8 L-14,-16 L-8,-20"/>
+      <path d="M-2,-9 L-2,-18 L4,-22"/>
+      <path d="M8,-9 L12,-18 L20,-20"/>
+    </g>
+    <!-- Bristles -->
+    <g stroke="#5a4838" stroke-width="0.4" opacity="0.7">
+      <line x1="-22" y1="-2" x2="-30" y2="-3"/>
+      <line x1="-22" y1="0" x2="-30" y2="0"/>
+      <line x1="-22" y1="2" x2="-30" y2="3"/>
+    </g>
+  </g>
+
+  <!-- ===== THRESH standing on sill, surveying ===== -->
+  <g transform="translate(280 320)">
+    <ellipse cx="0" cy="0" rx="30" ry="22" fill="url(#p6p1crimsonSeam)" filter="url(#p6p1glow)" opacity="0.55"/>
+    <!-- Boots planted on sill -->
+    <ellipse cx="-5" cy="22" rx="5" ry="2" fill="#0a0408"/>
+    <ellipse cx="5" cy="22" rx="5" ry="2" fill="#0a0408"/>
+    <ellipse cx="-3" cy="20" rx="3" ry="0.85" fill="#1a0c04" opacity="0.7"/>
+    <ellipse cx="3" cy="20" rx="3" ry="0.85" fill="#1a0c04" opacity="0.7"/>
+    <!-- Trousers -->
+    <rect x="-8" y="-4" width="6" height="26" fill="url(#p6p1suit)"/>
+    <rect x="2" y="-4" width="6" height="26" fill="url(#p6p1suit)"/>
+    <!-- Torso -->
+    <path d="M-13,-4 L-13,-26 L13,-26 L13,-4 Z" fill="url(#p6p1suit)"/>
+    <line x1="-9" y1="-16" x2="9" y2="-16" stroke="#fff8e8" stroke-width="0.55" opacity="0.7" filter="url(#p6p1bloom)"/>
+    <!-- Dented LEFT pauldron -->
+    <ellipse cx="-13" cy="-26" rx="4.4" ry="2.4" fill="#5a0818"/>
+    <ellipse cx="-15" cy="-26" rx="2.4" ry="1.4" fill="#3a0818"/>
+    <!-- Shoulders -->
+    <path d="M-13,-26 Q-9,-34 -2,-36 Q9,-36 13,-30 L13,-26 Z" fill="url(#p6p1suit)"/>
+    <!-- Right arm — weapon held forward -->
+    <path d="M13,-26 L18,-14 L22,-2 L20,2 L16,-2 L13,-12 Z" fill="url(#p6p1suit)"/>
+    <ellipse cx="20" cy="2" rx="3.4" ry="2" fill="url(#p6p1suit)"/>
+    <!-- Weapon held at ready, pointed slightly down -->
+    <rect x="20" y="0" width="22" height="3" fill="#3a3030"/>
+    <rect x="42" y="-1" width="3" height="4" fill="#1a1a1a"/>
+    <!-- Left arm -->
+    <rect x="-17" y="-26" width="4" height="30" fill="url(#p6p1suit)"/>
+    <ellipse cx="-15" cy="6" rx="2.4" ry="1.6" fill="url(#p6p1suit)"/>
+    <!-- Head — looking forward, surveying -->
+    <ellipse cx="0" cy="-44" rx="6" ry="7.5" fill="#a86838"/>
+    <path d="M-6,-52 Q-5,-54 0,-54 Q5,-54 6,-52 L5,-48 Q3,-51 0,-51 Q-3,-51 -5,-48 Z" fill="#c84838"/>
+    <ellipse cx="-2" cy="-44" rx="1.2" ry="0.7" fill="#fff8e8"/>
+    <circle cx="-2" cy="-44" r="0.55" fill="#0a0604"/>
+    <ellipse cx="2" cy="-44" rx="1.2" ry="0.7" fill="#fff8e8"/>
+    <circle cx="2" cy="-44" r="0.55" fill="#0a0604"/>
+    <path d="M-3,-37 L3,-37" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Comm earpiece -->
+    <circle cx="3" cy="-44" r="0.85" fill="#dc2030" filter="url(#p6p1bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- THRESH dialogue 1 (top-left) -->
+  <g>
+    <rect x="14" y="14" width="280" height="32" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#dc2030" font-weight="700">THRESH ((comms))</text>
+  <text x="22" y="42" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Overwatch set. I have the street.</text>
+
+  <!-- THRESH dialogue 2 -->
+  <g>
+    <rect x="14" y="56" width="240" height="30" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="70" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#dc2030" font-weight="700">THRESH</text>
+  <text x="22" y="82" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">It's... open up here.</text>
+
+  <!-- SABLE response (right) -->
+  <g>
+    <rect x="430" y="14" width="298" height="44" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="438" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE ((comms))</text>
+  <text x="438" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">That's why you're there. You see everything.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,360 Q200,362 400,358 Q580,356 742,360"/>
+  </g>
+</svg>

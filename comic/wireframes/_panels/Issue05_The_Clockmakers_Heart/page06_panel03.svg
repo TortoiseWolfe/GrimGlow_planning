@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 422" width="366" height="422">
+  <title>Issue 5 — Page 6 — Panel 3: Thresh POV down at shop entrance — vertiginous, bowler hat man passing — weapon foreground</title>
+  <desc>50mm Thresh's POV looking steeply down. Shop entrance + dark green timber + gas lamp pool. Bowler hat figure walking past. Through window, clockmaker barely visible at bench. Weapon on sill edge in foreground sighted.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p6p3stoneEdge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9a9088"/>
+      <stop offset="100%" stop-color="#5a5048"/>
+    </linearGradient>
+    <linearGradient id="p6p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1808"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p6p3cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p6p3darkGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a3818"/>
+      <stop offset="100%" stop-color="#0a2008"/>
+    </linearGradient>
+    <linearGradient id="p6p3weapon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5860"/>
+      <stop offset="100%" stop-color="#3a3030"/>
+    </linearGradient>
+    <radialGradient id="p6p3lampPool" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#ffd078" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p6p3shopAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p6p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p6p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- BRICK WALL falling away (we're looking down, so wall recedes) -->
+  <rect width="366" height="422" fill="url(#p6p3brick)"/>
+  <!-- Receding brick courses (perspective lines toward bottom = closer to street) -->
+  <g stroke="#0a0604" stroke-width="0.55" opacity="0.6">
+    <path d="M0,90 Q160,92 320,88 Q366,86 366,86"/>
+    <path d="M0,140 Q160,142 320,138 Q366,136 366,136"/>
+    <path d="M0,200 Q160,198 320,202 Q366,204 366,204"/>
+    <path d="M0,260 Q160,262 320,258 Q366,256 366,256"/>
+  </g>
+  <!-- Faint vertical grout lines -->
+  <g stroke="#0a0604" stroke-width="0.4" opacity="0.5">
+    <line x1="80" y1="80" x2="80" y2="100"/>
+    <line x1="180" y1="100" x2="180" y2="140"/>
+    <line x1="280" y1="140" x2="280" y2="180"/>
+    <line x1="120" y1="200" x2="120" y2="240"/>
+    <line x1="240" y1="240" x2="240" y2="280"/>
+  </g>
+
+  <!-- ===== SHOP STOREFRONT below (perspective compressed) ===== -->
+  <!-- Dark green timber surround -->
+  <rect x="20" y="280" width="326" height="50" fill="url(#p6p3darkGreen)"/>
+  <!-- Plate glass window -->
+  <rect x="40" y="290" width="286" height="30" fill="#7a5028"/>
+  <ellipse cx="183" cy="305" rx="170" ry="22" fill="url(#p6p3shopAmber)" filter="url(#p6p3glow)" opacity="0.85"/>
+  <line x1="183" y1="290" x2="183" y2="320" stroke="#0a1808" stroke-width="0.85"/>
+  <!-- Window frame edges -->
+  <line x1="40" y1="290" x2="326" y2="290" stroke="#0a1808" stroke-width="0.85"/>
+  <line x1="40" y1="320" x2="326" y2="320" stroke="#0a1808" stroke-width="0.85"/>
+  <!-- Faint clocks visible inside (from this angle) -->
+  <g opacity="0.65">
+    <circle cx="80" cy="305" r="4" fill="#fff8e8"/>
+    <circle cx="120" cy="307" r="3" fill="#fff8e8"/>
+    <circle cx="220" cy="305" r="3" fill="#fff8e8"/>
+    <circle cx="280" cy="307" r="4" fill="#fff8e8"/>
+  </g>
+  <!-- DOOR -->
+  <rect x="20" y="280" width="20" height="50" fill="#0a1808"/>
+  <rect x="22" y="282" width="16" height="46" fill="#1a3818"/>
+
+  <!-- CLOCKMAKER barely visible at bench (deeper into shop, smudged shape) -->
+  <g transform="translate(280 308)" opacity="0.55">
+    <ellipse cx="0" cy="0" rx="9" ry="6" fill="#1a0c04"/>
+    <ellipse cx="0" cy="-4" rx="3" ry="3" fill="#1a0c04"/>
+  </g>
+
+  <!-- ===== GAS LAMP beside door ===== -->
+  <g transform="translate(15 296)">
+    <ellipse cx="0" cy="0" rx="22" ry="22" fill="url(#p6p3lampPool)" filter="url(#p6p3glow)" opacity="0.95"/>
+    <ellipse cx="0" cy="0" rx="9" ry="9" fill="#fff8e8" opacity="0.85" filter="url(#p6p3bloom)"/>
+    <!-- Bracket -->
+    <line x1="6" y1="2" x2="22" y2="2" stroke="#1a0c04" stroke-width="1.6"/>
+    <!-- Lamp head -->
+    <rect x="-4" y="-5" width="8" height="7" fill="#3a2818"/>
+    <circle cx="0" cy="0" r="3" fill="#fff8e8" filter="url(#p6p3bloom)"/>
+    <circle cx="0" cy="0" r="1.6" fill="#ffd078"/>
+  </g>
+
+  <!-- ===== COBBLESTONES below (the canyon — far below sill) ===== -->
+  <rect x="0" y="330" width="366" height="92" fill="url(#p6p3cobble)"/>
+  <!-- Lamp pool on cobbles -->
+  <ellipse cx="60" cy="370" rx="80" ry="22" fill="#ffaa48" opacity="0.55" filter="url(#p6p3glow)"/>
+  <ellipse cx="200" cy="380" rx="100" ry="22" fill="#ffaa48" opacity="0.4" filter="url(#p6p3glow)"/>
+  <g stroke="#1a0c04" stroke-width="0.45" opacity="0.55">
+    <path d="M0,350 Q120,352 240,348 Q300,346 366,350"/>
+    <path d="M0,380 Q120,378 240,382 Q300,384 366,380"/>
+    <path d="M0,410 Q120,412 240,408 Q300,406 366,410"/>
+  </g>
+  <g fill="#1a0c04" opacity="0.55">
+    <circle cx="60" cy="345" r="1"/>
+    <circle cx="160" cy="345" r="1"/>
+    <circle cx="280" cy="345" r="1"/>
+    <circle cx="100" cy="380" r="1"/>
+    <circle cx="220" cy="380" r="1"/>
+    <circle cx="320" cy="378" r="1"/>
+    <circle cx="60" cy="410" r="1"/>
+    <circle cx="180" cy="412" r="1"/>
+    <circle cx="280" cy="408" r="1"/>
+  </g>
+
+  <!-- ===== BOWLER HAT MAN walking past (enormous from above) ===== -->
+  <g transform="translate(220 370)">
+    <!-- Shadow on cobbles -->
+    <ellipse cx="0" cy="40" rx="18" ry="6" fill="#0a0408" opacity="0.55" filter="url(#p6p3bloom)"/>
+    <!-- Bowler hat -->
+    <ellipse cx="0" cy="-30" rx="14" ry="5" fill="#1a0c04"/>
+    <ellipse cx="0" cy="-32" rx="11" ry="6" fill="#1a0c04"/>
+    <ellipse cx="0" cy="-32" rx="9" ry="4" fill="#3a2010"/>
+    <!-- Head/face shadow -->
+    <ellipse cx="0" cy="-22" rx="8" ry="6" fill="#5a3018"/>
+    <!-- Coat (long, dark) -->
+    <path d="M-14,-16 L-18,30 L18,30 L14,-16 Z" fill="#1a0c04"/>
+    <!-- Coat collar -->
+    <path d="M-14,-16 Q-10,-20 0,-20 Q10,-20 14,-16" fill="#3a1c08"/>
+    <!-- Walking cane -->
+    <line x1="14" y1="-2" x2="22" y2="40" stroke="#3a2010" stroke-width="1.6"/>
+    <circle cx="14" cy="-2" r="1.4" fill="#a86838"/>
+    <!-- Footstep tremor lines (subtle radiating) -->
+    <g stroke="#3a2010" stroke-width="0.4" opacity="0.45" fill="none" stroke-dasharray="1.5 1.5">
+      <ellipse cx="0" cy="42" rx="30" ry="4"/>
+      <ellipse cx="0" cy="44" rx="38" ry="6"/>
+    </g>
+  </g>
+
+  <!-- ===== STONE SILL EDGE in foreground (we're sitting on it) ===== -->
+  <rect x="0" y="0" width="366" height="60" fill="url(#p6p3stoneEdge)"/>
+  <line x1="0" y1="60" x2="366" y2="60" stroke="#3a3028" stroke-width="0.85"/>
+  <!-- Sill texture -->
+  <g stroke="#3a3028" stroke-width="0.55" opacity="0.55" fill="none">
+    <path d="M0,30 Q120,32 240,28 Q300,26 366,30"/>
+    <path d="M0,50 Q120,48 240,52 Q300,54 366,50"/>
+  </g>
+  <!-- Grit -->
+  <g fill="#3a3028" opacity="0.6">
+    <circle cx="50" cy="20" r="0.85"/>
+    <circle cx="180" cy="14" r="1"/>
+    <circle cx="280" cy="40" r="0.85"/>
+  </g>
+
+  <!-- ===== WEAPON resting on sill edge — sighted along — DOMINATES foreground ===== -->
+  <g transform="translate(180 50)">
+    <!-- Stock/grip rear of weapon -->
+    <rect x="-180" y="-10" width="80" height="14" rx="1.4" fill="url(#p6p3weapon)"/>
+    <!-- Receiver -->
+    <rect x="-100" y="-12" width="50" height="18" rx="1" fill="#3a3030"/>
+    <!-- Barrel forward (long horizontal) -->
+    <rect x="-50" y="-8" width="226" height="12" rx="1" fill="url(#p6p3weapon)"/>
+    <!-- Rear sight -->
+    <rect x="-46" y="-13" width="3" height="6" fill="#1a1a1a"/>
+    <!-- Front sight near muzzle -->
+    <rect x="160" y="-13" width="3" height="6" fill="#1a1a1a"/>
+    <!-- Muzzle -->
+    <rect x="174" y="-8" width="6" height="12" fill="#1a1a1a"/>
+    <ellipse cx="178" cy="-2" rx="2.4" ry="3.4" fill="#0a0a0a"/>
+    <!-- Texture lines on barrel -->
+    <line x1="-50" y1="-4" x2="174" y2="-4" stroke="#1a1a1a" stroke-width="0.4" opacity="0.7"/>
+    <line x1="-50" y1="0" x2="174" y2="0" stroke="#1a1a1a" stroke-width="0.4" opacity="0.7"/>
+    <!-- Sheen along top -->
+    <line x1="-180" y1="-9" x2="174" y2="-7" stroke="#a8a0a0" stroke-width="0.55" opacity="0.55"/>
+    <!-- Slight crimson seam from suit (Thresh's hands implied beyond bottom edge) -->
+    <line x1="-180" y1="4" x2="-100" y2="4" stroke="#dc2030" stroke-width="0.7" opacity="0.7" filter="url(#p6p3bloom)"/>
+  </g>
+
+  <!-- THRESH comms 1 -->
+  <g>
+    <rect x="14" y="74" width="280" height="32" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#dc2030" font-weight="700">THRESH ((comms))</text>
+  <text x="22" y="102" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Pedestrian passing. Bowler hat. He's clear.</text>
+
+  <!-- THRESH comms 2 -->
+  <g>
+    <rect x="14" y="116" width="240" height="30" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="132" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#dc2030" font-weight="700">THRESH ((comms))</text>
+  <text x="22" y="144" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Clockmaker is at his bench.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,360 Q90,358 180,362 Q280,364 366,360"/>
+  </g>
+</svg>
