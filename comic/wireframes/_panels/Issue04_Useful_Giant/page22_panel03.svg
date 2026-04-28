@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 364" width="494" height="364">
+  <title>Issue 4 — Page 22 — Panel 3: Luma's hands — tracing ancient glyph in air, holding data core, the ghost of a ghost</title>
+  <desc>50mm CU. Two hands in blue-violet light. One holds the small geometric data core that glows sapphire. The other hovers near the floating ancient glyph projection, fingers almost touching the holographic light, tracing the carved lines in the air. The hands tell it: gentleness betraying weight.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p22p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0408"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="p22p3skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="50%" stop-color="#7a4838"/>
+      <stop offset="100%" stop-color="#5a3828"/>
+    </linearGradient>
+    <linearGradient id="p22p3suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#3a2068"/>
+    </linearGradient>
+    <radialGradient id="p22p3coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888e8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p22p3glyphGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c0d8ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#88aaff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p22p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p22p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="494" height="364" fill="url(#p22p3bg)"/>
+
+  <!-- ===== FLOATING ANCIENT GLYPH PROJECTION (right side) ===== -->
+  <g transform="translate(360 180)">
+    <ellipse cx="0" cy="0" rx="120" ry="120" fill="url(#p22p3glyphGlow)" filter="url(#p22p3glow)" opacity="0.75"/>
+    <!-- Hex outer (hand-carved feel - lines waver) -->
+    <g fill="none" stroke="#a8c0ff" stroke-width="2.2" filter="url(#p22p3bloom)" opacity="0.92" stroke-linecap="round">
+      <path d="M-60,-32 L-32,-66 L36,-66 L62,-32 L60,32 L32,68 L-32,66 L-64,30 Z"/>
+    </g>
+    <g fill="none" stroke="#c0d8ff" stroke-width="1.8" filter="url(#p22p3bloom)" opacity="0.95" stroke-linecap="round">
+      <path d="M-40,-22 L-22,-42 L20,-44 L40,-22 L38,22 L22,44 L-18,42 L-42,20 Z"/>
+    </g>
+    <line x1="0" y1="-66" x2="0" y2="66" stroke="#c0d8ff" stroke-width="2.6" filter="url(#p22p3bloom)" stroke-linecap="round"/>
+    <line x1="-62" y1="0" x2="62" y2="0" stroke="#c0d8ff" stroke-width="2.6" filter="url(#p22p3bloom)" stroke-linecap="round"/>
+    <g stroke="#a8c0ff" stroke-width="1.4" stroke-linecap="round" filter="url(#p22p3bloom)" opacity="0.88">
+      <line x1="-32" y1="-32" x2="-16" y2="-16"/>
+      <line x1="32" y1="-32" x2="16" y2="-16"/>
+      <line x1="-32" y1="32" x2="-16" y2="16"/>
+      <line x1="32" y1="32" x2="16" y2="16"/>
+    </g>
+    <circle cx="0" cy="0" r="4" fill="#fff8e8" filter="url(#p22p3bloom)" opacity="0.9"/>
+    <circle cx="0" cy="0" r="9" fill="#c0d8ff" opacity="0.55" filter="url(#p22p3bloom)"/>
+    <!-- Grime and tool slip imperfections -->
+    <g opacity="0.55">
+      <circle cx="-32" cy="-22" r="1.4" fill="#0a0604"/>
+      <circle cx="22" cy="-32" r="1.2" fill="#0a0604"/>
+      <circle cx="38" cy="14" r="1.3" fill="#0a0604"/>
+      <circle cx="-12" cy="32" r="1.2" fill="#0a0604"/>
+    </g>
+  </g>
+
+  <!-- ===== LEFT HAND — holds data core ===== -->
+  <g transform="translate(120 240)">
+    <!-- DATA CORE -->
+    <rect x="-12" y="-12" width="24" height="24" rx="2" fill="#3a2068" stroke="#a888e8" stroke-width="0.85"/>
+    <rect x="-9" y="-9" width="18" height="18" fill="#5a3ad8" filter="url(#p22p3bloom)"/>
+    <circle cx="0" cy="0" r="3" fill="#fff8e8" filter="url(#p22p3bloom)"/>
+    <circle cx="0" cy="0" r="6" fill="#a888e8" opacity="0.7" filter="url(#p22p3bloom)"/>
+    <ellipse cx="0" cy="0" rx="22" ry="22" fill="url(#p22p3coreGlow)" filter="url(#p22p3glow)" opacity="0.85"/>
+    <!-- Reflection of GLYPH on data core surface (top edge) -->
+    <g fill="none" stroke="#fff8e8" stroke-width="0.4" opacity="0.7">
+      <path d="M-7,-7 L-3,-9 L3,-9 L7,-7 L7,-3 L3,-1 L-3,-1 L-7,-3 Z"/>
+      <line x1="0" y1="-9" x2="0" y2="-1"/>
+      <line x1="-7" y1="-5" x2="7" y2="-5"/>
+    </g>
+
+    <!-- HAND palming, fingers curled -->
+    <ellipse cx="0" cy="22" rx="22" ry="14" fill="url(#p22p3skin)"/>
+    <ellipse cx="-16" cy="14" rx="6" ry="4" fill="url(#p22p3skin)"/>
+    <ellipse cx="16" cy="14" rx="6" ry="4" fill="url(#p22p3skin)"/>
+    <ellipse cx="-22" cy="22" rx="5" ry="3.5" fill="url(#p22p3skin)"/>
+    <ellipse cx="22" cy="22" rx="5" ry="3.5" fill="url(#p22p3skin)"/>
+    <!-- Thumb -->
+    <ellipse cx="-12" cy="-2" rx="6" ry="4" fill="url(#p22p3skin)"/>
+    <!-- INK STAINS -->
+    <circle cx="-4" cy="14" r="1.8" fill="#1a1c34" opacity="0.75"/>
+    <circle cx="8" cy="18" r="1.4" fill="#1a1c34" opacity="0.7"/>
+    <!-- Suit edge -->
+    <rect x="-22" y="32" width="44" height="14" fill="url(#p22p3suit)"/>
+    <line x1="-18" y1="38" x2="18" y2="38" stroke="#a888e8" stroke-width="1" opacity="0.85" filter="url(#p22p3bloom)"/>
+  </g>
+
+  <!-- ===== RIGHT HAND — hovering near glyph projection, fingers tracing ===== -->
+  <g transform="translate(280 200)">
+    <!-- Sleeve edge -->
+    <rect x="-26" y="-20" width="52" height="14" fill="url(#p22p3suit)" rx="2"/>
+    <line x1="-22" y1="-14" x2="22" y2="-14" stroke="#a888e8" stroke-width="1" opacity="0.85" filter="url(#p22p3bloom)"/>
+    <!-- Wrist -->
+    <ellipse cx="0" cy="-2" rx="22" ry="12" fill="url(#p22p3skin)"/>
+    <!-- HAND extended toward glyph -->
+    <ellipse cx="14" cy="14" rx="22" ry="14" fill="url(#p22p3skin)"/>
+    <!-- Fingers extended, tracing -->
+    <ellipse cx="32" cy="6" rx="9" ry="4" fill="url(#p22p3skin)"/>
+    <ellipse cx="40" cy="2" rx="6" ry="3" fill="url(#p22p3skin)"/>
+    <ellipse cx="44" cy="-2" rx="3" ry="1.6" fill="url(#p22p3skin)"/>
+    <!-- Index finger reaching MOST -->
+    <ellipse cx="40" cy="-6" rx="5" ry="2.4" fill="url(#p22p3skin)"/>
+    <ellipse cx="46" cy="-10" rx="3.4" ry="1.6" fill="url(#p22p3skin)"/>
+    <!-- Other fingers folded slightly -->
+    <ellipse cx="34" cy="14" rx="6" ry="3" fill="url(#p22p3skin)"/>
+    <ellipse cx="32" cy="22" rx="5" ry="2.6" fill="url(#p22p3skin)"/>
+    <!-- Thumb tucked -->
+    <ellipse cx="0" cy="14" rx="6" ry="3" fill="url(#p22p3skin)"/>
+
+    <!-- Highlight where finger almost touches the projection (glyph edge) -->
+    <circle cx="49" cy="-12" r="3" fill="#fff8e8" opacity="0.85" filter="url(#p22p3bloom)"/>
+    <circle cx="49" cy="-12" r="6" fill="#a8c0ff" opacity="0.55" filter="url(#p22p3glow)"/>
+
+    <!-- INK STAINS on hand -->
+    <circle cx="6" cy="6" r="1.6" fill="#1a1c34" opacity="0.7"/>
+    <circle cx="12" cy="14" r="1.2" fill="#1a1c34" opacity="0.65"/>
+  </g>
+
+  <!-- LUMA whisper (bottom-left) -->
+  <g>
+    <rect x="14" y="306" width="288" height="44" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3 2" filter="url(#balloonShadow)"/>
+    <polygon points="170,306 182,306 174,296" fill="white" stroke="#5a3ad8" stroke-width="0.85" stroke-dasharray="3 2"/>
+    <line x1="170.5" y1="306" x2="181.5" y2="306" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA (barely audible)</text>
+  <text x="22" y="342" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">You were alone. All that time.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q120,82 240,78 Q360,76 494,80"/>
+    <path d="M0,290 Q120,292 240,288 Q360,286 494,290"/>
+  </g>
+</svg>
