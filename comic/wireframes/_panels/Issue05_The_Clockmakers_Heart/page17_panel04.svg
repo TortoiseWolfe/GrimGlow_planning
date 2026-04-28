@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 5 — Page 17 — Panel 4: Wren seats substitute gear, secures axle pin — functional but not artisan — flicker of dissatisfaction</title>
+  <desc>50mm fairy-scale. Wren seats substitute brass gear into housing, secures axle pin with copper-gold holographic tool. Replacement close to original but subtly rougher. Mechanism continues ticking, new gear turning. Flicker of professional dissatisfaction. Caption: WREN: It'll hold. Not for long.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p17p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p17p4brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p17p4substitute" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="40%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p17p4skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p17p4suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="p17p4holo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7a4818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p17p4amber" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a3018" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p17p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p17p4glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p17p4bg)"/>
+  <rect width="366" height="364" fill="url(#p17p4amber)"/>
+
+  <!-- Mechanism surroundings (gear edges framing) -->
+  <circle cx="0" cy="80" r="80" fill="url(#p17p4brass)" opacity="0.85"/>
+  <circle cx="366" cy="100" r="100" fill="url(#p17p4brass)" opacity="0.85"/>
+  <circle cx="60" cy="364" r="120" fill="url(#p17p4brass)" opacity="0.55"/>
+  <circle cx="320" cy="364" r="120" fill="url(#p17p4brass)" opacity="0.55"/>
+
+  <!-- Original brass plate (Wren's working surface) -->
+  <rect x="0" y="160" width="366" height="160" fill="url(#p17p4brass)"/>
+  <line x1="0" y1="160" x2="366" y2="160" stroke="#fff8e8" stroke-width="0.55" opacity="0.55" filter="url(#p17p4bloom)"/>
+
+  <!-- HOUSING for the gear (brass mounting bracket) -->
+  <g transform="translate(183 180)">
+    <!-- Housing bracket -->
+    <rect x="-60" y="-9" width="120" height="60" fill="#7a4818"/>
+    <rect x="-58" y="-7" width="116" height="56" fill="#3a1808"/>
+    <line x1="-58" y1="-7" x2="58" y2="-7" stroke="#fff8e8" stroke-width="0.55" opacity="0.55" filter="url(#p17p4bloom)"/>
+
+    <!-- Mounting holes / axle holes -->
+    <circle cx="-44" cy="22" r="3" fill="#1a0c04"/>
+    <circle cx="44" cy="22" r="3" fill="#1a0c04"/>
+  </g>
+
+  <!-- ===== SUBSTITUTE GEAR being seated ===== -->
+  <g transform="translate(183 200)">
+    <!-- Gear (slightly rougher) -->
+    <circle cx="0" cy="0" r="40" fill="url(#p17p4substitute)"/>
+    <circle cx="0" cy="0" r="32" fill="#5a3018" opacity="0.65"/>
+    <circle cx="0" cy="0" r="9" fill="#1a0c04"/>
+    <!-- Spokes (slightly less even) -->
+    <g stroke="#3a1808" stroke-width="2" opacity="0.85">
+      <line x1="0" y1="-30" x2="0" y2="30"/>
+      <line x1="-30" y1="0" x2="30" y2="0"/>
+      <line x1="-22" y1="-22" x2="22" y2="22"/>
+      <line x1="22" y1="-22" x2="-22" y2="22"/>
+    </g>
+    <!-- TEETH — uneven, cruder spacing (substitute's tell) -->
+    <g fill="url(#p17p4substitute)" stroke="#3a1808" stroke-width="0.55">
+      <rect x="-3" y="-46" width="6" height="8"/>
+      <rect x="-3" y="38" width="6" height="8"/>
+      <rect x="-46" y="-3" width="8" height="6"/>
+      <rect x="38" y="-3" width="8" height="6"/>
+      <g transform="rotate(28)"><rect x="-3" y="-46" width="6" height="8"/></g>
+      <g transform="rotate(58)"><rect x="-3" y="-46" width="6" height="8"/></g>
+      <g transform="rotate(122)"><rect x="-3" y="-46" width="6" height="8"/></g>
+      <g transform="rotate(152)"><rect x="-3" y="-46" width="6" height="8"/></g>
+      <g transform="rotate(208)"><rect x="-3" y="-46" width="6" height="8"/></g>
+      <g transform="rotate(238)"><rect x="-3" y="-46" width="6" height="8"/></g>
+      <g transform="rotate(302)"><rect x="-3" y="-46" width="6" height="8"/></g>
+      <g transform="rotate(332)"><rect x="-3" y="-46" width="6" height="8"/></g>
+    </g>
+    <!-- Slight surface roughness (cross-hatch tool marks) -->
+    <g stroke="#5a3018" stroke-width="0.4" opacity="0.55">
+      <line x1="-22" y1="-14" x2="-14" y2="-22"/>
+      <line x1="-14" y1="-9" x2="-6" y2="-17"/>
+      <line x1="14" y1="-14" x2="22" y2="-22"/>
+      <line x1="6" y1="9" x2="14" y2="1"/>
+    </g>
+    <!-- Subtle highlight (less bright than original) -->
+    <ellipse cx="-9" cy="-9" rx="6" ry="3" fill="#a86838" opacity="0.65" filter="url(#p17p4bloom)"/>
+  </g>
+
+  <!-- AXLE PIN being secured (copper wire visible) -->
+  <g transform="translate(183 200)">
+    <!-- Pin entering from above -->
+    <rect x="-1.4" y="-50" width="2.8" height="60" fill="url(#p17p4substitute)"/>
+    <ellipse cx="0" cy="-50" rx="2" ry="0.85" fill="#fff8e8" opacity="0.85" filter="url(#p17p4bloom)"/>
+    <!-- Copper wire wrapping (rough, salvage) -->
+    <path d="M-9,-22 Q0,-30 9,-22" stroke="#c87a35" stroke-width="0.7" fill="none"/>
+    <path d="M-9,-14 Q0,-22 9,-14" stroke="#c87a35" stroke-width="0.7" fill="none"/>
+    <path d="M-9,-6 Q0,-14 9,-6" stroke="#c87a35" stroke-width="0.7" fill="none"/>
+  </g>
+
+  <!-- ===== WREN — bottom-right, working tool to secure pin ===== -->
+  <g transform="translate(280 280)">
+    <!-- Holo halo at wrist -->
+    <circle cx="-26" cy="-22" r="22" fill="url(#p17p4holo)" filter="url(#p17p4glow)"/>
+
+    <!-- Body crouched -->
+    <path d="M-9,-30 L-12,-10 L-15,30 L0,30 L0,-30 Z" fill="url(#p17p4suit)"/>
+    <line x1="-9" y1="-22" x2="0" y2="-22" stroke="#ffaa48" stroke-width="0.55" opacity="0.85" filter="url(#p17p4bloom)"/>
+
+    <!-- Shoulders -->
+    <ellipse cx="-9" cy="-30" rx="3.4" ry="2.4" fill="url(#p17p4suit)"/>
+    <ellipse cx="0" cy="-30" rx="3.4" ry="2.4" fill="url(#p17p4suit)"/>
+    <!-- Scorch -->
+    <ellipse cx="-9" cy="-30" rx="2.4" ry="1.4" fill="#1a0c04" opacity="0.7"/>
+
+    <!-- Arm extending UP-LEFT toward gear (with cutting tool) -->
+    <line x1="-6" y1="-26" x2="-50" y2="-50" stroke="#7a4818" stroke-width="3.4" stroke-linecap="round"/>
+    <ellipse cx="-50" cy="-50" rx="3" ry="2" fill="url(#p17p4skin)"/>
+    <!-- Holo cutting tool tip — copper-gold beam -->
+    <line x1="-50" y1="-50" x2="-70" y2="-60" stroke="#ffaa48" stroke-width="1.4" filter="url(#p17p4bloom)"/>
+    <line x1="-50" y1="-50" x2="-70" y2="-60" stroke="#fff8e8" stroke-width="0.4" opacity="0.85" filter="url(#p17p4bloom)"/>
+    <circle cx="-70" cy="-60" r="3" fill="#ffaa48" opacity="0.85" filter="url(#p17p4glow)"/>
+
+    <!-- Other arm steadying -->
+    <line x1="0" y1="-26" x2="14" y2="0" stroke="#7a4818" stroke-width="2.4"/>
+
+    <!-- HEAD — focused -->
+    <ellipse cx="-3" cy="-44" rx="6" ry="7" fill="url(#p17p4skin)"/>
+    <ellipse cx="-3" cy="-48" rx="3" ry="2" fill="#0a0604"/>
+    <path d="M-9,-44 Q-12,-40 -10,-36" stroke="#0a0604" stroke-width="0.55" fill="none"/>
+    <ellipse cx="-5" cy="-44" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="-5" cy="-44" r="0.7" fill="#0a0604"/>
+    <!-- Brow — slightly furrowed (flicker of dissatisfaction) -->
+    <path d="M-9,-48 L-1,-48" stroke="#0a0604" stroke-width="0.55" stroke-linecap="round"/>
+    <!-- Mouth — slight downward at corners -->
+    <path d="M-5,-38 L-1,-38" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- CAPTION (Wren internal) -->
+  <g>
+    <rect x="14" y="14" width="200" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="22" y="28" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="22" y="42" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic" font-weight="600">"It'll hold. Not for long."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+  </g>
+</svg>

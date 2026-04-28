@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 364" width="494" height="364">
+  <title>Issue 5 — Page 17 — Panel 1: Theodore covets tool rack — Boley tweezers — clockmaker pleased</title>
+  <desc>50mm. Theodore staring at wall-mounted tool rack — rows of precision screwdrivers, tweezers, files, burnishers arranged by size. Open-mouthed appreciation. Clockmaker watches with proud satisfaction of showing collection to someone who understands. Dialog: THEODORE: Are those Boley lathework tweezers? / CLOCKMAKER impressed: Swiss-made. Forty years old. Belonged to my master. / CLOCKMAKER: You know Boley? / THEODORE: I've— I've read about them, sir. Never seen a real pair.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p17p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p17p1wall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p17p1bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="p17p1skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="p17p1waistcoatT" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="50%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p17p1waistcoatC" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a3818"/>
+      <stop offset="50%" stop-color="#7a5828"/>
+      <stop offset="100%" stop-color="#4a3818"/>
+    </linearGradient>
+    <linearGradient id="p17p1steel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="50%" stop-color="#a8a8a8"/>
+      <stop offset="100%" stop-color="#5a5858"/>
+    </linearGradient>
+    <radialGradient id="p17p1lampGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p17p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p17p1glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="494" height="364" fill="url(#p17p1bg)"/>
+
+  <!-- WALL behind tool rack -->
+  <rect width="494" height="280" fill="url(#p17p1wall)"/>
+
+  <!-- Lamp glow pool -->
+  <ellipse cx="247" cy="200" rx="280" ry="180" fill="url(#p17p1lampGlow)" filter="url(#p17p1glow)"/>
+
+  <!-- BENCH -->
+  <rect y="280" width="494" height="84" fill="url(#p17p1bench)"/>
+  <line x1="0" y1="280" x2="494" y2="280" stroke="#a86838" stroke-width="0.85" opacity="0.85" filter="url(#p17p1bloom)"/>
+
+  <!-- ===== TOOL RACK on wall above bench ===== -->
+  <g transform="translate(247 70)">
+    <!-- Backboard (dark wood) -->
+    <rect x="-180" y="-40" width="360" height="100" fill="#3a1808"/>
+    <rect x="-176" y="-36" width="352" height="92" fill="none" stroke="#1a0c04" stroke-width="0.85"/>
+    <!-- Wood grain -->
+    <line x1="-180" y1="-20" x2="180" y2="-20" stroke="#1a0c04" stroke-width="0.4" opacity="0.65"/>
+    <line x1="-180" y1="20" x2="180" y2="20" stroke="#1a0c04" stroke-width="0.4" opacity="0.65"/>
+
+    <!-- Top row — fine SCREWDRIVERS hanging by size -->
+    <g transform="translate(0 -16)">
+      <g transform="translate(-150 0)">
+        <rect x="-2" y="-14" width="4" height="14" fill="#5a3018"/>
+        <rect x="-1" y="0" width="2" height="22" fill="url(#p17p1steel)"/>
+        <line x1="0" y1="0" x2="0" y2="22" stroke="#fff8e8" stroke-width="0.4" opacity="0.85" filter="url(#p17p1bloom)"/>
+      </g>
+      <g transform="translate(-120 0)">
+        <rect x="-2" y="-14" width="4" height="14" fill="#5a3018"/>
+        <rect x="-1" y="0" width="2" height="20" fill="url(#p17p1steel)"/>
+        <line x1="0" y1="0" x2="0" y2="20" stroke="#fff8e8" stroke-width="0.4" opacity="0.85" filter="url(#p17p1bloom)"/>
+      </g>
+      <g transform="translate(-90 0)">
+        <rect x="-2" y="-14" width="4" height="14" fill="#5a3018"/>
+        <rect x="-1" y="0" width="2" height="18" fill="url(#p17p1steel)"/>
+        <line x1="0" y1="0" x2="0" y2="18" stroke="#fff8e8" stroke-width="0.4" opacity="0.85" filter="url(#p17p1bloom)"/>
+      </g>
+      <g transform="translate(-60 0)">
+        <rect x="-2" y="-14" width="4" height="14" fill="#5a3018"/>
+        <rect x="-1" y="0" width="2" height="16" fill="url(#p17p1steel)"/>
+        <line x1="0" y1="0" x2="0" y2="16" stroke="#fff8e8" stroke-width="0.4" opacity="0.85" filter="url(#p17p1bloom)"/>
+      </g>
+      <g transform="translate(-30 0)">
+        <rect x="-2" y="-14" width="4" height="14" fill="#5a3018"/>
+        <rect x="-1" y="0" width="2" height="14" fill="url(#p17p1steel)"/>
+      </g>
+      <!-- BOLEY TWEEZERS — center, larger, shining -->
+      <g transform="translate(0 0)">
+        <line x1="-3" y1="-14" x2="0" y2="22" stroke="url(#p17p1steel)" stroke-width="1.4"/>
+        <line x1="3" y1="-14" x2="0" y2="22" stroke="url(#p17p1steel)" stroke-width="1.4"/>
+        <line x1="-3" y1="-14" x2="0" y2="22" stroke="#fff8e8" stroke-width="0.4" opacity="0.85" filter="url(#p17p1bloom)"/>
+        <line x1="3" y1="-14" x2="0" y2="22" stroke="#fff8e8" stroke-width="0.4" opacity="0.85" filter="url(#p17p1bloom)"/>
+        <!-- Subtle highlight -->
+        <ellipse cx="0" cy="0" rx="6" ry="20" fill="#ffd078" opacity="0.25" filter="url(#p17p1glow)"/>
+      </g>
+      <!-- Files / burnishers -->
+      <g transform="translate(40 0)">
+        <rect x="-3" y="-14" width="6" height="14" fill="#5a3018"/>
+        <rect x="-1" y="0" width="2" height="22" fill="url(#p17p1steel)"/>
+      </g>
+      <g transform="translate(70 0)">
+        <rect x="-3" y="-14" width="6" height="14" fill="#5a3018"/>
+        <rect x="-1.4" y="0" width="2.8" height="22" fill="url(#p17p1steel)"/>
+      </g>
+      <g transform="translate(100 0)">
+        <rect x="-4" y="-14" width="8" height="14" fill="#5a3018"/>
+        <rect x="-2" y="0" width="4" height="20" fill="url(#p17p1steel)"/>
+      </g>
+      <g transform="translate(130 0)">
+        <rect x="-4" y="-14" width="8" height="14" fill="#5a3018"/>
+        <rect x="-2" y="0" width="4" height="22" fill="url(#p17p1steel)"/>
+      </g>
+      <g transform="translate(160 0)">
+        <rect x="-4" y="-14" width="8" height="14" fill="#5a3018"/>
+        <rect x="-2.4" y="0" width="4.8" height="22" fill="url(#p17p1steel)"/>
+      </g>
+    </g>
+
+    <!-- Bottom row — TWEEZERS, STAKING SETS -->
+    <g transform="translate(0 26)">
+      <!-- More tweezers -->
+      <g transform="translate(-150 0)">
+        <line x1="-2" y1="0" x2="0" y2="20" stroke="url(#p17p1steel)" stroke-width="1"/>
+        <line x1="2" y1="0" x2="0" y2="20" stroke="url(#p17p1steel)" stroke-width="1"/>
+      </g>
+      <g transform="translate(-110 0)">
+        <line x1="-2" y1="0" x2="0" y2="20" stroke="url(#p17p1steel)" stroke-width="1"/>
+        <line x1="2" y1="0" x2="0" y2="20" stroke="url(#p17p1steel)" stroke-width="1"/>
+      </g>
+      <!-- Staking set — pegs in row -->
+      <g transform="translate(-50 0)">
+        <rect x="-30" y="0" width="60" height="6" fill="#3a1808"/>
+        <g fill="url(#p17p1steel)">
+          <rect x="-26" y="6" width="2" height="14"/>
+          <rect x="-18" y="6" width="2" height="13"/>
+          <rect x="-10" y="6" width="2" height="14"/>
+          <rect x="-2" y="6" width="2" height="13"/>
+          <rect x="6" y="6" width="2" height="14"/>
+          <rect x="14" y="6" width="2" height="13"/>
+          <rect x="22" y="6" width="2" height="14"/>
+        </g>
+      </g>
+      <!-- Files -->
+      <g transform="translate(60 0)">
+        <rect x="-2" y="0" width="4" height="22" fill="url(#p17p1steel)"/>
+      </g>
+      <g transform="translate(90 0)">
+        <rect x="-3" y="0" width="6" height="22" fill="url(#p17p1steel)"/>
+      </g>
+      <g transform="translate(130 0)">
+        <rect x="-4" y="0" width="8" height="22" fill="url(#p17p1steel)"/>
+      </g>
+      <!-- Burnishers -->
+      <g transform="translate(170 0)">
+        <rect x="-2" y="0" width="4" height="22" fill="url(#p17p1steel)"/>
+        <ellipse cx="0" cy="22" rx="3" ry="2" fill="#a86838"/>
+      </g>
+    </g>
+
+    <!-- Tiny brass labels under each tool -->
+    <g fill="#a86838" opacity="0.65">
+      <rect x="-152" y="-6" width="6" height="2"/>
+      <rect x="-122" y="-6" width="6" height="2"/>
+      <rect x="-2" y="-6" width="6" height="2"/>
+      <rect x="38" y="-6" width="6" height="2"/>
+    </g>
+
+    <!-- Small steel highlights catching lamp -->
+    <ellipse cx="0" cy="-2" rx="80" ry="8" fill="#fff8e8" opacity="0.18" filter="url(#p17p1bloom)"/>
+    <ellipse cx="0" cy="34" rx="80" ry="8" fill="#fff8e8" opacity="0.18" filter="url(#p17p1bloom)"/>
+  </g>
+
+  <!-- ===== CLOCKMAKER on right (arms folded, watching) ===== -->
+  <g transform="translate(380 230)">
+    <!-- Body — arms folded -->
+    <path d="M-26,30 L-32,120 L32,120 L26,30 Z" fill="url(#p17p1waistcoatC)"/>
+    <ellipse cx="0" cy="22" rx="18" ry="9" fill="#d8c8a8"/>
+
+    <!-- Arms folded across chest -->
+    <path d="M-26,40 L-30,80 L30,80 L26,40 Z" fill="#d8a878" opacity="0.35"/>
+    <line x1="-22" y1="50" x2="22" y2="50" stroke="#7a4818" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-22" y1="64" x2="22" y2="64" stroke="#7a4818" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="50" rx="6" ry="4" fill="url(#p17p1skin)"/>
+    <ellipse cx="22" cy="64" rx="6" ry="4" fill="url(#p17p1skin)"/>
+
+    <!-- HEAD -->
+    <ellipse cx="0" cy="-10" rx="20" ry="22" fill="url(#p17p1skin)"/>
+    <path d="M-18,-30 Q-12,-38 0,-40 Q12,-38 18,-30 L16,-22 Q8,-34 0,-34 Q-8,-34 -16,-22 Z" fill="#7a5028"/>
+    <!-- Spectacles -->
+    <ellipse cx="-9" cy="-12" rx="6" ry="3.4" fill="none" stroke="#3a2818" stroke-width="0.55"/>
+    <ellipse cx="9" cy="-12" rx="6" ry="3.4" fill="none" stroke="#3a2818" stroke-width="0.55"/>
+    <line x1="-3" y1="-12" x2="3" y2="-12" stroke="#3a2818" stroke-width="0.4"/>
+    <ellipse cx="-11" cy="-13" rx="2" ry="1" fill="#fff8e8" opacity="0.85" filter="url(#p17p1bloom)"/>
+    <ellipse cx="7" cy="-13" rx="2" ry="1" fill="#fff8e8" opacity="0.85" filter="url(#p17p1bloom)"/>
+    <ellipse cx="-9" cy="-11" rx="2.4" ry="1.4" fill="#a8b8c8"/>
+    <circle cx="-9" cy="-11" r="1" fill="#0a0c14"/>
+    <ellipse cx="9" cy="-11" rx="2.4" ry="1.4" fill="#a8b8c8"/>
+    <circle cx="9" cy="-11" r="1" fill="#0a0c14"/>
+    <!-- Brows pleased -->
+    <path d="M-15,-18 L-3,-19" stroke="#5a3018" stroke-width="0.85" stroke-linecap="round"/>
+    <path d="M3,-19 L15,-18" stroke="#5a3018" stroke-width="0.85" stroke-linecap="round"/>
+    <!-- Mouth — proud smile -->
+    <path d="M-9,4 Q0,8 9,4" stroke="#3a1808" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+    <path d="M-12,-2 Q-9,4 -7,5" stroke="#5a3018" stroke-width="0.55" fill="none" opacity="0.65"/>
+    <path d="M12,-2 Q9,4 7,5" stroke="#5a3018" stroke-width="0.55" fill="none" opacity="0.65"/>
+  </g>
+
+  <!-- ===== THEODORE on left, head tipped UP looking at rack ===== -->
+  <g transform="translate(110 240)">
+    <path d="M-22,30 L-28,120 L-12,120 L-10,30 L10,30 L12,120 L28,120 L22,30 Z" fill="#5a3818"/>
+    <path d="M-22,30 L-30,-10 L-26,30 Z" fill="url(#p17p1waistcoatT)"/>
+    <path d="M22,30 L30,-10 L26,30 Z" fill="url(#p17p1waistcoatT)"/>
+    <ellipse cx="0" cy="22" rx="12" ry="6" fill="#d8c8a8"/>
+    <path d="M14,16 L20,4 L22,16 Z" fill="#3a2818"/>
+    <path d="M-14,16 L-20,4 L-22,16 Z" fill="#3a2818"/>
+
+    <!-- Arms -->
+    <line x1="-22" y1="30" x2="-30" y2="80" stroke="url(#p17p1skin)" stroke-width="9" stroke-linecap="round"/>
+    <line x1="22" y1="30" x2="30" y2="80" stroke="url(#p17p1skin)" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="-30" cy="80" rx="6" ry="4" fill="url(#p17p1skin)"/>
+    <ellipse cx="30" cy="80" rx="6" ry="4" fill="url(#p17p1skin)"/>
+    <!-- Brass gear ring -->
+    <circle cx="-32" cy="84" r="1.4" fill="#ffd078" stroke="#7a4818" stroke-width="0.4" filter="url(#p17p1bloom)"/>
+
+    <!-- HEAD tipped UP, eyes wide -->
+    <ellipse cx="0" cy="-2" rx="18" ry="22" fill="url(#p17p1skin)"/>
+    <path d="M-16,-20 Q-10,-26 0,-28 Q10,-26 16,-20 L14,-12 Q6,-24 0,-24 Q-6,-24 -14,-12 Z" fill="#a87838"/>
+    <!-- Freckles -->
+    <g fill="#7a4818" opacity="0.65">
+      <circle cx="-7" cy="-2" r="0.55"/>
+      <circle cx="0" cy="-4" r="0.55"/>
+      <circle cx="7" cy="-2" r="0.55"/>
+    </g>
+    <!-- Eyes wide, looking UP at rack -->
+    <ellipse cx="-5" cy="-8" rx="3" ry="2.4" fill="#fff8e8"/>
+    <circle cx="-5" cy="-9" r="1.4" fill="#7a4818"/>
+    <circle cx="-5" cy="-10" r="0.55" fill="#0a0604"/>
+    <ellipse cx="5" cy="-8" rx="3" ry="2.4" fill="#fff8e8"/>
+    <circle cx="5" cy="-9" r="1.4" fill="#7a4818"/>
+    <circle cx="5" cy="-10" r="0.55" fill="#0a0604"/>
+    <!-- Brows raised -->
+    <path d="M-10,-14 L-2,-16" stroke="#5a3018" stroke-width="0.85" stroke-linecap="round"/>
+    <path d="M2,-16 L10,-14" stroke="#5a3018" stroke-width="0.85" stroke-linecap="round"/>
+    <!-- Mouth — open with awe -->
+    <ellipse cx="0" cy="10" rx="3" ry="2.4" fill="#3a1808"/>
+  </g>
+
+  <!-- DIALOG THEODORE Boley -->
+  <g transform="translate(140 50)">
+    <ellipse cx="0" cy="0" rx="120" ry="22" fill="#ffffff" stroke="#6a4220" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-30,18 L-44,32 L-24,20 Z" fill="#ffffff" stroke="#6a4220" stroke-width="1"/>
+    <text x="-110" y="-7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE</text>
+    <text x="-110" y="9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-style="italic" font-weight="500">"Are those Boley lathework</text>
+  </g>
+
+  <!-- DIALOG CLOCKMAKER (Swiss-made, master) -->
+  <g transform="translate(360 130)">
+    <ellipse cx="0" cy="0" rx="120" ry="36" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M30,30 L46,46 L36,32 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="-110" y="-18" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a4030" font-weight="700">CLOCKMAKER</text>
+    <text x="-110" y="-3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">"Swiss-made. Forty years old.</text>
+    <text x="-110" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">Belonged to my master."</text>
+  </g>
+
+  <!-- DIALOG CLOCKMAKER (You know Boley?) -->
+  <g transform="translate(120 200)">
+    <ellipse cx="0" cy="0" rx="80" ry="22" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M40,18 L56,32 L46,20 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="-70" y="-7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a4030" font-weight="700">CLOCKMAKER</text>
+    <text x="-70" y="9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">"You know Boley?"</text>
+  </g>
+
+  <!-- DIALOG THEODORE (read about them) -->
+  <g transform="translate(360 240)">
+    <ellipse cx="0" cy="0" rx="120" ry="36" fill="#ffffff" stroke="#6a4220" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-30,30 L-46,46 L-26,32 Z" fill="#ffffff" stroke="#6a4220" stroke-width="1"/>
+    <text x="-110" y="-18" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE</text>
+    <text x="-110" y="-3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-style="italic" font-weight="500">"I've— I've read about them, sir.</text>
+    <text x="-110" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-style="italic" font-weight="500">Never seen a real pair."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,138 240,142 Q360,144 494,140"/>
+    <path d="M0,310 Q120,308 240,312 Q360,314 494,310"/>
+  </g>
+</svg>
