@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 364" width="241" height="364">
+  <title>Issue 4 — Page 11 — Panel 4: Theodore CU receiving the names — solemn nod</title>
+  <desc>Narrow CU. Theodore solemn nod. Memorizing names. Captain Sable, Engineer Wren, Scout Jink, Soldier Thresh, Medic Luma — committing them. Quiet beat.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p11p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="100%" stop-color="#3a3038"/>
+    </linearGradient>
+    <linearGradient id="p11p4skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="100%" stop-color="#c8b8a8"/>
+    </linearGradient>
+    <radialGradient id="p11p4hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#88806a"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </radialGradient>
+    <linearGradient id="p11p4vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4030"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="241" height="364" fill="url(#p11p4bg)"/>
+
+  <g transform="translate(120 220)">
+    <!-- Vest at bottom -->
+    <path d="M-110,140 L-90,80 L90,80 L110,140 Z" fill="url(#p11p4vest)"/>
+    <!-- Face — eyes slightly closed (mid-nod) -->
+    <ellipse cx="0" cy="0" rx="80" ry="90" fill="url(#p11p4skin)"/>
+    <g fill="url(#p11p4hair)">
+      <path d="M-78,-72 Q-78,-94 0,-100 Q78,-94 78,-72 L72,-58 Q44,-78 0,-78 Q-44,-78 -72,-58 Z"/>
+      <path d="M-50,-58 Q-48,-30 -40,-12 L-30,-14 Q-42,-30 -46,-58 Z"/>
+      <path d="M-20,-72 Q-18,-30 -10,-10 L-2,-12 Q-12,-30 -16,-72 Z"/>
+      <path d="M16,-72 Q18,-30 26,-10 L34,-12 Q24,-30 22,-72 Z"/>
+      <path d="M44,-58 Q46,-30 54,-12 L62,-14 Q52,-30 48,-58 Z"/>
+    </g>
+    <!-- Brows neutral, sincere -->
+    <path d="M-44,-30 Q-26,-36 -10,-30" stroke="#5a4030" stroke-width="3" fill="none"/>
+    <path d="M10,-30 Q26,-36 44,-30" stroke="#5a4030" stroke-width="3" fill="none"/>
+    <!-- Eyes — slightly closed (mid-nod, accepting) -->
+    <path d="M-36,-12 Q-22,-8 -16,-12" stroke="#3a2010" stroke-width="2" fill="none"/>
+    <path d="M16,-12 Q22,-8 36,-12" stroke="#3a2010" stroke-width="2" fill="none"/>
+    <!-- Tiny eyelashes -->
+    <g stroke="#3a2010" stroke-width="0.85" stroke-linecap="round">
+      <line x1="-32" y1="-14" x2="-34" y2="-22"/>
+      <line x1="-22" y1="-12" x2="-22" y2="-22"/>
+      <line x1="-12" y1="-14" x2="-10" y2="-22"/>
+      <line x1="12" y1="-14" x2="14" y2="-22"/>
+      <line x1="22" y1="-12" x2="22" y2="-22"/>
+      <line x1="32" y1="-14" x2="34" y2="-22"/>
+    </g>
+    <!-- Nose -->
+    <path d="M0,-2 L-8,28 Q0,32 8,28 Z" fill="#a87858" opacity="0.55"/>
+    <!-- Mouth — slight serious smile (acceptance) -->
+    <path d="M-14,48 Q0,52 14,48" fill="none" stroke="#5a2818" stroke-width="1.4" stroke-linecap="round"/>
+    <g fill="#7a5848" opacity="0.7">
+      <circle cx="-30" cy="14" r="1.4"/>
+      <circle cx="-20" cy="20" r="1.4"/>
+      <circle cx="0" cy="14" r="1.4"/>
+      <circle cx="20" cy="20" r="1.4"/>
+      <circle cx="30" cy="14" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,140 Q60,138 120,142 Q180,144 241,140"/>
+    <path d="M0,300 Q60,302 120,298 Q180,296 241,300"/>
+  </g>
+</svg>

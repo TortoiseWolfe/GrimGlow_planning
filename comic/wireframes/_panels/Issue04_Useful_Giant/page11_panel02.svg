@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 364" width="241" height="364">
+  <title>Issue 4 — Page 11 — Panel 2: Theodore from above asks for names</title>
+  <desc>Narrow vertical CU. Theodore looking down through gap, sincere expression. Theodore: What do I call you? All of you — I can't keep saying 'the fairy people.'</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p11p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="100%" stop-color="#3a3038"/>
+    </linearGradient>
+    <linearGradient id="p11p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="100%" stop-color="#c8b8a8"/>
+    </linearGradient>
+    <radialGradient id="p11p2hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#88806a"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </radialGradient>
+    <linearGradient id="p11p2vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4030"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="p11p2coolBelow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#a8c0e0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a8c0e0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="241" height="364" fill="url(#p11p2bg)"/>
+  <rect width="241" height="364" fill="url(#p11p2coolBelow)"/>
+
+  <!-- Theodore face filling frame -->
+  <g transform="translate(120 220)">
+    <!-- Vest at bottom -->
+    <path d="M-110,140 L-90,80 L90,80 L110,140 Z" fill="url(#p11p2vest)"/>
+    <!-- Face -->
+    <ellipse cx="0" cy="0" rx="80" ry="90" fill="url(#p11p2skin)"/>
+    <!-- Hair -->
+    <g fill="url(#p11p2hair)">
+      <path d="M-78,-72 Q-78,-94 0,-100 Q78,-94 78,-72 L72,-58 Q44,-78 0,-78 Q-44,-78 -72,-58 Z"/>
+      <path d="M-50,-58 Q-48,-30 -40,-12 L-30,-14 Q-42,-30 -46,-58 Z"/>
+      <path d="M-20,-72 Q-18,-30 -10,-10 L-2,-12 Q-12,-30 -16,-72 Z"/>
+      <path d="M16,-72 Q18,-30 26,-10 L34,-12 Q24,-30 22,-72 Z"/>
+      <path d="M44,-58 Q46,-30 54,-12 L62,-14 Q52,-30 48,-58 Z"/>
+    </g>
+    <!-- Brows -->
+    <path d="M-44,-30 Q-26,-36 -10,-30" stroke="#5a4030" stroke-width="3" fill="none"/>
+    <path d="M10,-30 Q26,-36 44,-30" stroke="#5a4030" stroke-width="3" fill="none"/>
+    <!-- Eyes (looking down/forward) -->
+    <ellipse cx="-26" cy="-12" rx="11" ry="6" fill="#fff8e8"/>
+    <ellipse cx="-22" cy="-10" rx="6.5" ry="4.5" fill="#7a5028"/>
+    <circle cx="-22" cy="-10" r="3" fill="#0a0604"/>
+    <ellipse cx="-24" cy="-12" rx="2" ry="1.2" fill="#fff8e8"/>
+    <ellipse cx="26" cy="-12" rx="11" ry="6" fill="#fff8e8"/>
+    <ellipse cx="30" cy="-10" rx="6.5" ry="4.5" fill="#7a5028"/>
+    <circle cx="30" cy="-10" r="3" fill="#0a0604"/>
+    <ellipse cx="28" cy="-12" rx="2" ry="1.2" fill="#fff8e8"/>
+    <!-- Nose -->
+    <path d="M0,-2 L-8,28 Q0,32 8,28 Z" fill="#a87858" opacity="0.55"/>
+    <!-- Mouth — open, asking -->
+    <ellipse cx="0" cy="50" rx="14" ry="4.5" fill="#a85838"/>
+    <path d="M-14,48 Q0,52 14,48" fill="none" stroke="#5a2818" stroke-width="0.85"/>
+    <!-- Freckles -->
+    <g fill="#7a5848" opacity="0.7">
+      <circle cx="-30" cy="14" r="1.4"/>
+      <circle cx="-20" cy="20" r="1.4"/>
+      <circle cx="0" cy="14" r="1.4"/>
+      <circle cx="20" cy="20" r="1.4"/>
+      <circle cx="30" cy="14" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- DIALOGUE — Theodore: What do I call you? All of you — I can't keep saying 'the fairy people.' -->
+  <g>
+    <rect x="14" y="14" width="216" height="74" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M120,88 L130,88 L122,100 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M122,88 L128,88" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="22" y="50" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">What do I call you?</text>
+  <text x="22" y="66" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">All of you — I can't keep</text>
+  <text x="22" y="82" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">saying 'the fairy people.'</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,140 Q60,138 120,142 Q180,144 241,140"/>
+    <path d="M0,300 Q60,302 120,298 Q180,296 241,300"/>
+  </g>
+</svg>
