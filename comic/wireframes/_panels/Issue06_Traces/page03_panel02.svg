@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 551" width="366" height="551">
+  <title>Issue 6 — Page 3 — Panel 2: Luma accepts — single nod, lenses scrolling new route data, crack catches light</title>
+  <desc>85mm CU eye level. Luma's face tight, lenses activating with route + scanner calibration data, crack on left lens catches a bright line. Relief and determination, transitioning to work mode.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p3p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c0a18"/>
+      <stop offset="100%" stop-color="#040208"/>
+    </linearGradient>
+    <linearGradient id="i6p3p2lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p3p2lensGlow" cx="50%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#5a3ad8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2a1058" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p3p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p3p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="551" fill="url(#i6p3p2bg)"/>
+
+  <!-- Two lens halos — primary cool light source -->
+  <ellipse cx="140" cy="240" rx="80" ry="60" fill="url(#i6p3p2lensGlow)" filter="url(#i6p3p2glow)"/>
+  <ellipse cx="225" cy="240" rx="80" ry="60" fill="url(#i6p3p2lensGlow)" filter="url(#i6p3p2glow)"/>
+
+  <!-- ===== LUMA — large CU face filling frame, slight nod (head subtly down + forward) ===== -->
+  <g transform="translate(183 296)">
+    <!-- Suit collar bottom -->
+    <path d="M-90,180 L-90,251 L90,251 L90,180 Z" fill="url(#i6p3p2lumaSuit)"/>
+    <line x1="-60" y1="220" x2="60" y2="220" stroke="#a888ff" stroke-width="1.4" opacity="0.85" filter="url(#i6p3p2bloom)"/>
+    <!-- Dust on collar -->
+    <ellipse cx="-65" cy="190" rx="18" ry="6" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="65" cy="190" rx="18" ry="6" fill="#5a4838" opacity="0.55"/>
+
+    <!-- Neck -->
+    <rect x="-22" y="146" width="44" height="44" fill="#7a4838"/>
+    <line x1="-18" y1="174" x2="18" y2="174" stroke="#5a3028" stroke-width="0.55" opacity="0.6"/>
+
+    <!-- HEAD — large oval -->
+    <ellipse cx="0" cy="0" rx="120" ry="146" fill="#7a4838"/>
+    <!-- Cheek volumes -->
+    <ellipse cx="-65" cy="40" rx="22" ry="36" fill="#8a5848" opacity="0.6"/>
+    <ellipse cx="65" cy="40" rx="22" ry="36" fill="#8a5848" opacity="0.6"/>
+    <!-- Skin highlights from lens light -->
+    <ellipse cx="-30" cy="-10" rx="14" ry="20" fill="#a888ff" opacity="0.25"/>
+    <ellipse cx="30" cy="-10" rx="14" ry="20" fill="#a888ff" opacity="0.25"/>
+    <!-- Forehead light -->
+    <ellipse cx="0" cy="-90" rx="50" ry="14" fill="#a888ff" opacity="0.15" filter="url(#i6p3p2bloom)"/>
+
+    <!-- Hair pulled back into braid — visible at top + sides -->
+    <path d="M-105,-50 Q-100,-110 -50,-130 Q0,-138 50,-130 Q100,-110 105,-50 L100,-20 Q60,-60 0,-60 Q-60,-60 -100,-20 Z" fill="#0a0604"/>
+    <!-- Sapphire filament in braid -->
+    <line x1="-30" y1="-100" x2="-25" y2="-115" stroke="#5a3ad8" stroke-width="1.6" opacity="0.85" filter="url(#i6p3p2bloom)"/>
+    <line x1="20" y1="-110" x2="25" y2="-118" stroke="#5a3ad8" stroke-width="1.6" opacity="0.85" filter="url(#i6p3p2bloom)"/>
+    <!-- Braid down right side -->
+    <path d="M105,-30 Q120,30 116,100 Q114,160 110,200" stroke="#0a0604" stroke-width="22" stroke-linecap="round" fill="none"/>
+    <path d="M105,-30 Q120,30 116,100 Q114,160 110,200" stroke="#a888ff" stroke-width="2" fill="none" opacity="0.85" filter="url(#i6p3p2bloom)"/>
+    <!-- Braid plait -->
+    <path d="M108,-10 Q116,-2 108,8" stroke="#1a0c04" stroke-width="1.2" fill="none" opacity="0.85"/>
+    <path d="M108,18 Q118,28 110,40" stroke="#1a0c04" stroke-width="1.2" fill="none" opacity="0.85"/>
+    <path d="M112,52 Q120,62 112,74" stroke="#1a0c04" stroke-width="1.2" fill="none" opacity="0.85"/>
+    <path d="M114,86 Q122,96 114,108" stroke="#1a0c04" stroke-width="1.2" fill="none" opacity="0.85"/>
+    <path d="M114,120 Q122,130 114,142" stroke="#1a0c04" stroke-width="1.2" fill="none" opacity="0.85"/>
+    <path d="M112,154 Q120,164 112,176" stroke="#1a0c04" stroke-width="1.2" fill="none" opacity="0.85"/>
+
+    <!-- ===== SPECTRAL LENSES — large, prominent, scrolling new route data ===== -->
+    <ellipse cx="-43" cy="-25" rx="42" ry="32" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="42" cy="-25" rx="42" ry="32" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="-43" cy="-25" rx="42" ry="32" fill="none" stroke="#a888ff" stroke-width="2.4" opacity="0.95" filter="url(#i6p3p2bloom)"/>
+    <ellipse cx="42" cy="-25" rx="42" ry="32" fill="none" stroke="#a888ff" stroke-width="2.4" opacity="0.95" filter="url(#i6p3p2bloom)"/>
+    <!-- Bridge between lenses -->
+    <line x1="-2" y1="-25" x2="3" y2="-25" stroke="#a888ff" stroke-width="2" opacity="0.95"/>
+
+    <!-- HAIRLINE CRACK on left lens — bright catching line -->
+    <line x1="-78" y1="-44" x2="-30" y2="-12" stroke="#fff8ff" stroke-width="1.4" opacity="0.95" filter="url(#i6p3p2bloom)"/>
+    <line x1="-65" y1="-30" x2="-50" y2="-22" stroke="#fff8ff" stroke-width="0.7" opacity="0.85"/>
+    <line x1="-55" y1="-22" x2="-45" y2="-18" stroke="#fff8ff" stroke-width="0.55" opacity="0.7"/>
+
+    <!-- SCROLLING ROUTE DATA inside lenses (left lens) -->
+    <g stroke="#fff8ff" stroke-width="0.55" fill="none" opacity="0.95" filter="url(#i6p3p2bloom)">
+      <line x1="-78" y1="-12" x2="-12" y2="-12"/>
+      <path d="M-72,-12 L-66,-2 L-58,-2 L-50,-12 L-40,-12 L-30,-4 L-22,-4 L-16,-12"/>
+      <line x1="-78" y1="-2" x2="-12" y2="-2"/>
+      <line x1="-78" y1="6" x2="-12" y2="6"/>
+      <text x="-75" y="-30" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff">ROUTE</text>
+    </g>
+    <!-- Scrolling scanner calibration (right lens) -->
+    <g stroke="#fff8ff" stroke-width="0.55" fill="none" opacity="0.95" filter="url(#i6p3p2bloom)">
+      <rect x="10" y="-20" width="3" height="14"/>
+      <rect x="16" y="-26" width="3" height="20"/>
+      <rect x="22" y="-16" width="3" height="10"/>
+      <rect x="28" y="-30" width="3" height="24"/>
+      <rect x="34" y="-22" width="3" height="16"/>
+      <rect x="40" y="-26" width="3" height="20"/>
+      <rect x="46" y="-18" width="3" height="12"/>
+      <rect x="52" y="-24" width="3" height="18"/>
+      <rect x="58" y="-16" width="3" height="10"/>
+      <rect x="64" y="-22" width="3" height="16"/>
+      <line x1="10" y1="0" x2="74" y2="0"/>
+      <line x1="10" y1="6" x2="74" y2="6"/>
+      <text x="14" y="-32" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff">CAL.</text>
+    </g>
+
+    <!-- EYES inside lenses -->
+    <ellipse cx="-43" cy="-25" rx="20" ry="14" fill="#fff8e8"/>
+    <circle cx="-43" cy="-25" r="9" fill="#0a0604"/>
+    <circle cx="-43" cy="-25" r="3.5" fill="#fff8ff"/>
+    <circle cx="-46" cy="-28" r="1.4" fill="#fff8ff"/>
+    <ellipse cx="42" cy="-25" rx="20" ry="14" fill="#fff8e8"/>
+    <circle cx="42" cy="-25" r="9" fill="#0a0604"/>
+    <circle cx="42" cy="-25" r="3.5" fill="#fff8ff"/>
+    <circle cx="39" cy="-28" r="1.4" fill="#fff8ff"/>
+
+    <!-- BROWS — drawn in determination -->
+    <path d="M-78,-72 L-12,-66" stroke="#0a0604" stroke-width="3.5"/>
+    <path d="M12,-66 L78,-72" stroke="#0a0604" stroke-width="3.5"/>
+
+    <!-- Subtle brow furrow center -->
+    <line x1="-3" y1="-50" x2="-1" y2="-30" stroke="#1a0c04" stroke-width="0.85" opacity="0.7"/>
+    <line x1="3" y1="-50" x2="1" y2="-30" stroke="#1a0c04" stroke-width="0.85" opacity="0.7"/>
+
+    <!-- Nose -->
+    <path d="M0,12 L-12,68 L0,76 L12,68 Z" fill="#7a4838" opacity="0.65"/>
+    <line x1="-12" y1="68" x2="12" y2="68" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+    <ellipse cx="-6" cy="62" rx="3" ry="1.6" fill="#5a3028" opacity="0.55"/>
+    <ellipse cx="6" cy="62" rx="3" ry="1.6" fill="#5a3028" opacity="0.55"/>
+
+    <!-- MOUTH — slight close, single-nod accept (mouth set, not open) -->
+    <path d="M-22,108 L22,108" stroke="#3a1808" stroke-width="2.4"/>
+    <path d="M-18,114 L18,114" stroke="#3a1808" stroke-width="0.85" opacity="0.65"/>
+
+    <!-- Cheekbone shadows -->
+    <ellipse cx="-58" cy="20" rx="9" ry="4" fill="#5a3028" opacity="0.5"/>
+    <ellipse cx="58" cy="20" rx="9" ry="4" fill="#5a3028" opacity="0.5"/>
+
+    <!-- Ear with comm earpiece glow on right -->
+    <ellipse cx="118" cy="-25" rx="9" ry="14" fill="#7a4838"/>
+    <ellipse cx="118" cy="-25" rx="6" ry="9" fill="#5a3028"/>
+    <circle cx="121" cy="-22" r="3" fill="#a888ff" filter="url(#i6p3p2bloom)" opacity="0.95"/>
+  </g>
+
+  <!-- LUMA dialogue (top tight column) -->
+  <g>
+    <rect x="14" y="14" width="338" height="56" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="160,70 172,70 164,80" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="160.5" y1="70" x2="171.5" y2="70" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Understood. I'll send Theodore the</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">rendezvous coordinates.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q120,92 240,88 Q330,86 366,90"/>
+    <path d="M0,490 Q120,492 240,488 Q330,486 366,490"/>
+  </g>
+</svg>

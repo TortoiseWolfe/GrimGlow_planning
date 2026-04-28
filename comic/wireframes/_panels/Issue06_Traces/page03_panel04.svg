@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 551" width="238" height="551">
+  <title>Issue 6 — Page 3 — Panel 4: Sable watches Luma leave — hand drifts to file again, stops</title>
+  <desc>85mm CU slight low angle. Sable watches off-frame toward bright wall-gap exit. Hand has drifted to opposite forearm where file is hidden, then catches itself. Face split between amber from above and grey daylight from exit.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p3p4bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0c08"/>
+      <stop offset="50%" stop-color="#1a1612"/>
+      <stop offset="100%" stop-color="#3a4448"/>
+    </linearGradient>
+    <linearGradient id="i6p3p4sableSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dad5d0"/>
+      <stop offset="100%" stop-color="#5a5860"/>
+    </linearGradient>
+    <linearGradient id="i6p3p4sableSuitGrey" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0b8"/>
+      <stop offset="100%" stop-color="#3a4048"/>
+    </linearGradient>
+    <radialGradient id="i6p3p4daylight" cx="100%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#a8b0b8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a4448" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p3p4amberAbove" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p3p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p3p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="238" height="551" fill="url(#i6p3p4bg)"/>
+
+  <!-- Daylight from right (wall-gap) -->
+  <ellipse cx="240" cy="280" rx="120" ry="280" fill="url(#i6p3p4daylight)" filter="url(#i6p3p4glow)"/>
+
+  <!-- Amber from above -->
+  <ellipse cx="100" cy="0" rx="120" ry="180" fill="url(#i6p3p4amberAbove)" filter="url(#i6p3p4glow)"/>
+
+  <!-- Faint background timber column dark left -->
+  <rect x="0" y="0" width="22" height="551" fill="#3a2818" opacity="0.85"/>
+
+  <!-- ===== SABLE — large CU, slight low angle. Face split lighting. Hand on forearm. ===== -->
+  <g transform="translate(120 320)">
+    <!-- Trousers/legs visible bottom -->
+    <path d="M-58,150 L-30,160 L-30,231 L-60,231 Z" fill="url(#i6p3p4sableSuit)"/>
+    <path d="M30,160 L58,150 L60,231 L30,231 Z" fill="url(#i6p3p4sableSuitGrey)"/>
+    <ellipse cx="-44" cy="200" rx="14" ry="3" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="44" cy="200" rx="14" ry="3" fill="#5a4838" opacity="0.5"/>
+
+    <!-- TORSO — split: left side amber/warm, right side grey/cool -->
+    <path d="M-78,-40 L-58,150 L-30,160 L-2,150 L-2,-40 Z" fill="url(#i6p3p4sableSuit)"/>
+    <path d="M-2,-40 L-2,150 L30,160 L58,150 L78,-40 Z" fill="url(#i6p3p4sableSuitGrey)"/>
+    <line x1="-50" y1="80" x2="50" y2="80" stroke="#a8c0ff" stroke-width="1" opacity="0.65" filter="url(#i6p3p4bloom)"/>
+    <line x1="-46" y1="76" x2="46" y2="76" stroke="#fff8ff" stroke-width="0.4" opacity="0.5"/>
+
+    <!-- Right shoulder soot bloom — visible up-right -->
+    <ellipse cx="62" cy="-30" rx="22" ry="14" fill="#3a3038" opacity="0.85"/>
+    <ellipse cx="64" cy="-26" rx="14" ry="9" fill="#1a1610" opacity="0.7"/>
+
+    <!-- Tension crease at collar -->
+    <line x1="-20" y1="-22" x2="20" y2="-22" stroke="#3a3038" stroke-width="2.4" opacity="0.85"/>
+    <line x1="-14" y1="-16" x2="14" y2="-16" stroke="#3a3038" stroke-width="0.85" opacity="0.65"/>
+
+    <!-- LEFT ARM — at side, holding the forearm -->
+    <path d="M-78,-40 L-100,40 L-110,140 L-90,148 L-72,90 L-58,40 Z" fill="url(#i6p3p4sableSuit)"/>
+    <ellipse cx="-90" cy="146" rx="5" ry="3" fill="#3a2418"/>
+    <ellipse cx="-100" cy="60" rx="4" ry="2.4" fill="#5a4838" opacity="0.6"/>
+    <ellipse cx="-100" cy="100" rx="3" ry="1.6" fill="#5a4838" opacity="0.55"/>
+
+    <!-- RIGHT ARM bent across body — hand drifting to LEFT forearm where module is hidden -->
+    <path d="M78,-40 L62,30 L42,80 L18,90 L4,80 L0,60 L20,50 L46,30 L60,0 Z" fill="url(#i6p3p4sableSuitGrey)"/>
+    <!-- Hand pressing on left forearm (the module spot) -->
+    <ellipse cx="2" cy="80" rx="14" ry="9" fill="#3a2418"/>
+    <!-- Knuckles -->
+    <ellipse cx="-6" cy="76" rx="3" ry="1.6" fill="#5a3028" opacity="0.7"/>
+    <ellipse cx="0" cy="74" rx="3" ry="1.6" fill="#5a3028" opacity="0.7"/>
+    <ellipse cx="6" cy="76" rx="3" ry="1.6" fill="#5a3028" opacity="0.7"/>
+    <line x1="-9" y1="76" x2="9" y2="76" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+    <!-- Knuckle white highlights -->
+    <circle cx="-6" cy="76" r="0.85" fill="#a87838" opacity="0.85"/>
+    <circle cx="0" cy="74" r="0.85" fill="#a87838" opacity="0.85"/>
+    <circle cx="6" cy="76" r="0.85" fill="#a87838" opacity="0.85"/>
+    <!-- Forearm dust on right arm -->
+    <ellipse cx="50" cy="20" rx="7" ry="2.4" fill="#5a4838" opacity="0.55"/>
+
+    <!-- The hidden bulge under left forearm sleeve where right hand is pressing -->
+    <ellipse cx="-30" cy="80" rx="14" ry="6" fill="#3a3a44" opacity="0.55"/>
+    <rect x="-38" y="76" width="14" height="10" rx="0.55" fill="none" stroke="#3a3a44" stroke-width="0.55" opacity="0.55"/>
+
+    <!-- HEAD — eye level, facing slightly right (looking through wall gap at off-frame Luma) -->
+    <ellipse cx="0" cy="-94" rx="56" ry="68" fill="#3a2418"/>
+    <!-- Face split: warm amber on left, grey daylight on right -->
+    <path d="M-56,-94 Q-30,-150 0,-160 Q-30,-110 -56,-26 Z" fill="#5a3018" opacity="0.55"/>
+    <path d="M0,-160 Q30,-150 56,-94 Q30,-110 0,-94 Z" fill="#a8b0b8" opacity="0.4"/>
+    <!-- Cheekbone -->
+    <ellipse cx="-30" cy="-78" rx="14" ry="6" fill="#5a3028" opacity="0.55"/>
+    <ellipse cx="30" cy="-78" rx="14" ry="6" fill="#5a3028" opacity="0.55"/>
+
+    <!-- Buzz cut silver-white -->
+    <path d="M-50,-130 Q-44,-156 0,-160 Q44,-156 50,-130 L48,-118 Q34,-138 0,-138 Q-34,-138 -48,-118 Z" fill="#e0d8d0"/>
+    <g fill="#a8a098" opacity="0.85">
+      <circle cx="-30" cy="-150" r="0.55"/>
+      <circle cx="-20" cy="-154" r="0.55"/>
+      <circle cx="-10" cy="-156" r="0.55"/>
+      <circle cx="0" cy="-158" r="0.55"/>
+      <circle cx="10" cy="-156" r="0.55"/>
+      <circle cx="20" cy="-154" r="0.55"/>
+      <circle cx="30" cy="-150" r="0.55"/>
+    </g>
+
+    <!-- EYES — looking right (toward exit/Luma) -->
+    <ellipse cx="-20" cy="-94" rx="11" ry="5" fill="#fff8e8"/>
+    <circle cx="-16" cy="-94" r="3.5" fill="#1a0c04"/>
+    <circle cx="-15" cy="-95" r="1" fill="#fff8ff"/>
+    <ellipse cx="20" cy="-94" rx="11" ry="5" fill="#fff8e8"/>
+    <circle cx="24" cy="-94" r="3.5" fill="#1a0c04"/>
+    <circle cx="25" cy="-95" r="1" fill="#fff8ff"/>
+
+    <!-- Eyelid lines -->
+    <path d="M-30,-98 L-10,-96" stroke="#1a0c04" stroke-width="1.2"/>
+    <path d="M-30,-90 L-10,-88" stroke="#3a2018" stroke-width="0.7"/>
+    <path d="M10,-96 L30,-98" stroke="#1a0c04" stroke-width="1.2"/>
+    <path d="M10,-88 L30,-90" stroke="#3a2018" stroke-width="0.7"/>
+
+    <!-- Brows level — unreadable command mask -->
+    <path d="M-32,-110 L-12,-106" stroke="#0a0604" stroke-width="2"/>
+    <path d="M12,-106 L32,-110" stroke="#0a0604" stroke-width="2"/>
+    <line x1="-3" y1="-104" x2="-1" y2="-94" stroke="#1a0c04" stroke-width="0.55" opacity="0.6"/>
+    <line x1="3" y1="-104" x2="1" y2="-94" stroke="#1a0c04" stroke-width="0.55" opacity="0.6"/>
+
+    <!-- Nose -->
+    <path d="M0,-90 L-6,-66 L0,-58 L6,-66 Z" fill="#5a3028" opacity="0.6"/>
+    <line x1="-6" y1="-66" x2="6" y2="-66" stroke="#1a0c04" stroke-width="0.45" opacity="0.7"/>
+
+    <!-- Mouth — set, neutral, command mask -->
+    <path d="M-12,-46 L12,-46" stroke="#1a0c04" stroke-width="1.4"/>
+    <path d="M-10,-44 L-10,-48" stroke="#1a0c04" stroke-width="0.45" opacity="0.6"/>
+    <path d="M10,-44 L10,-48" stroke="#1a0c04" stroke-width="0.45" opacity="0.6"/>
+
+    <!-- Jaw set tight -->
+    <ellipse cx="0" cy="-36" rx="14" ry="2.4" fill="#1a0c04" opacity="0.55"/>
+    <!-- Jaw clenched tendon -->
+    <ellipse cx="-32" cy="-50" rx="3" ry="6" fill="#1a0c04" opacity="0.45"/>
+    <ellipse cx="32" cy="-50" rx="3" ry="6" fill="#1a0c04" opacity="0.45"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q60,92 120,88 Q180,86 238,90"/>
+    <path d="M0,490 Q60,492 120,488 Q180,486 238,490"/>
+  </g>
+</svg>

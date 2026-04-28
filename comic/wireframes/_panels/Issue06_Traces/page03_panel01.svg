@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 551" width="366" height="551">
+  <title>Issue 6 — Page 3 — Panel 1: Sable sets conditions — pocket carry, no separation, scanner-active extracts</title>
+  <desc>50mm two-shot MCU eye level. Sable + Luma in profile across map. Sable arms uncrossed (concession), looking at map calculating risk. Wren behind Sable's shoulder, watching. Blue-violet map light from side, warm amber from above.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p3p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#180a14"/>
+      <stop offset="100%" stop-color="#04020a"/>
+    </linearGradient>
+    <linearGradient id="i6p3p1lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <linearGradient id="i6p3p1sableSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dad5d0"/>
+      <stop offset="100%" stop-color="#5a5860"/>
+    </linearGradient>
+    <linearGradient id="i6p3p1wrenSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a850"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="i6p3p1beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="i6p3p1mapSide" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#5a3ad8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#2a1058" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p3p1redSide" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ff5868" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#a82030" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3a0810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p3p1floorLeak" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p3p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p3p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="551" fill="url(#i6p3p1bg)"/>
+
+  <!-- Floorboard above -->
+  <rect x="0" y="0" width="366" height="32" fill="#3a2818"/>
+  <g stroke="#1a0c04" stroke-width="0.85" opacity="0.7">
+    <line x1="80" y1="0" x2="80" y2="32"/>
+    <line x1="200" y1="0" x2="200" y2="32"/>
+    <line x1="280" y1="0" x2="280" y2="32"/>
+  </g>
+  <ellipse cx="80" cy="50" rx="40" ry="160" fill="url(#i6p3p1floorLeak)" filter="url(#i6p3p1glow)" opacity="0.5"/>
+  <ellipse cx="200" cy="50" rx="40" ry="160" fill="url(#i6p3p1floorLeak)" filter="url(#i6p3p1glow)" opacity="0.6"/>
+
+  <!-- Background timber columns -->
+  <rect x="20" y="32" width="14" height="490" fill="url(#i6p3p1beam)"/>
+  <rect x="332" y="32" width="14" height="490" fill="url(#i6p3p1beam)"/>
+  <!-- Horizontal beam (where they stand) -->
+  <rect x="34" y="430" width="298" height="14" fill="url(#i6p3p1beam)"/>
+  <rect x="34" y="510" width="298" height="20" fill="#1a0c04"/>
+
+  <!-- Map between them — bright on the right side (Sable looks at this) -->
+  <ellipse cx="180" cy="280" rx="180" ry="180" fill="url(#i6p3p1mapSide)" filter="url(#i6p3p1glow)"/>
+  <ellipse cx="180" cy="280" rx="160" ry="160" fill="url(#i6p3p1redSide)" filter="url(#i6p3p1glow)"/>
+
+  <!-- Map skeleton (dimmer, from the side angle) -->
+  <g stroke="#a888ff" stroke-width="0.45" fill="none" opacity="0.55" filter="url(#i6p3p1bloom)">
+    <line x1="60" y1="220" x2="300" y2="220"/>
+    <line x1="50" y1="270" x2="310" y2="270"/>
+    <line x1="50" y1="320" x2="310" y2="320"/>
+    <line x1="60" y1="370" x2="300" y2="370"/>
+    <line x1="100" y1="200" x2="100" y2="390"/>
+    <line x1="180" y1="190" x2="180" y2="400"/>
+    <line x1="260" y1="200" x2="260" y2="390"/>
+  </g>
+  <!-- Three red threat nodes visible -->
+  <ellipse cx="120" cy="240" rx="9" ry="7" fill="#ff5868" filter="url(#i6p3p1glow)" opacity="0.9"/>
+  <circle cx="120" cy="240" r="2" fill="#fff8e8"/>
+  <ellipse cx="200" cy="290" rx="9" ry="7" fill="#ff5868" filter="url(#i6p3p1glow)" opacity="0.9"/>
+  <circle cx="200" cy="290" r="2" fill="#fff8e8"/>
+  <ellipse cx="240" cy="350" rx="9" ry="7" fill="#ff5868" filter="url(#i6p3p1glow)" opacity="0.9"/>
+  <circle cx="240" cy="350" r="2" fill="#fff8e8"/>
+  <g stroke="#ff5868" stroke-width="0.7" fill="none" opacity="0.85" filter="url(#i6p3p1bloom)">
+    <line x1="120" y1="240" x2="200" y2="290"/>
+    <line x1="200" y1="290" x2="240" y2="350"/>
+    <line x1="240" y1="350" x2="120" y2="240"/>
+  </g>
+
+  <!-- Holographic perimeter wards faint -->
+  <g stroke="#a8c0ff" stroke-width="0.55" fill="none" opacity="0.4" filter="url(#i6p3p1bloom)" stroke-dasharray="3 2">
+    <path d="M40,500 L40,40 L326,40 L326,500"/>
+  </g>
+
+  <!-- ===== WREN BEHIND SABLE'S SHOULDER (background, watching) ===== -->
+  <g transform="translate(290 410)" opacity="0.85">
+    <ellipse cx="-2" cy="22" rx="3" ry="1.5" fill="#0a0408"/>
+    <ellipse cx="3" cy="22" rx="3" ry="1.5" fill="#0a0408"/>
+    <rect x="-4" y="2" width="3" height="20" fill="url(#i6p3p1wrenSuit)"/>
+    <rect x="1" y="2" width="3" height="20" fill="url(#i6p3p1wrenSuit)"/>
+    <path d="M-7,2 L-7,-12 L7,-12 L7,2 Z" fill="url(#i6p3p1wrenSuit)"/>
+    <ellipse cx="-3" cy="-8" rx="2.4" ry="1" fill="#0a0604" opacity="0.6"/>
+    <ellipse cx="3" cy="-8" rx="2.4" ry="1" fill="#0a0604" opacity="0.6"/>
+    <ellipse cx="0" cy="-22" rx="5" ry="6" fill="#a86838"/>
+    <!-- Hair UP messy bun -->
+    <ellipse cx="0" cy="-30" rx="2.6" ry="2" fill="#0a0604"/>
+    <ellipse cx="0" cy="-32" rx="1.8" ry="1.3" fill="#1a0c04"/>
+    <path d="M-4,-25 Q-6,-22 -5,-19" stroke="#0a0604" stroke-width="0.5" fill="none" opacity="0.7"/>
+    <ellipse cx="-2" cy="-22" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <circle cx="-2" cy="-22" r="0.45" fill="#0a0604"/>
+    <ellipse cx="2" cy="-22" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <circle cx="2" cy="-22" r="0.45" fill="#0a0604"/>
+    <!-- Sharp brows watching -->
+    <path d="M-4,-26 L-1,-26" stroke="#0a0604" stroke-width="0.55"/>
+    <path d="M1,-26 L4,-26" stroke="#0a0604" stroke-width="0.55"/>
+    <path d="M-2,-15 L2,-15" stroke="#3a1808" stroke-width="0.45"/>
+  </g>
+
+  <!-- ===== SABLE — foreground left, in profile facing right toward map ===== -->
+  <g transform="translate(112 430)">
+    <ellipse cx="-5" cy="0" rx="9" ry="4" fill="#0a0408"/>
+    <ellipse cx="9" cy="0" rx="9" ry="4" fill="#0a0408"/>
+    <!-- Trousers -->
+    <path d="M-12,-110 L-2,-110 L-4,0 L-14,0 Z" fill="url(#i6p3p1sableSuit)"/>
+    <path d="M2,-110 L14,-110 L18,0 L4,0 Z" fill="url(#i6p3p1sableSuit)"/>
+    <ellipse cx="-7" cy="-50" rx="6" ry="2" fill="#5a4838" opacity="0.5"/>
+    <ellipse cx="9" cy="-50" rx="6" ry="2" fill="#5a4838" opacity="0.5"/>
+    <!-- Torso (in profile, slightly turned toward map) -->
+    <path d="M-14,-110 L-12,-200 L18,-200 L22,-110 Z" fill="url(#i6p3p1sableSuit)"/>
+    <line x1="-8" y1="-160" x2="14" y2="-160" stroke="#a8c0ff" stroke-width="0.85" opacity="0.85" filter="url(#i6p3p1bloom)"/>
+    <!-- Right shoulder soot bloom (away side from camera) -->
+    <ellipse cx="18" cy="-200" rx="8" ry="5" fill="#3a3038" opacity="0.85"/>
+    <ellipse cx="20" cy="-198" rx="5" ry="3" fill="#1a1610" opacity="0.7"/>
+    <!-- Tension crease at collar -->
+    <line x1="-2" y1="-198" x2="14" y2="-198" stroke="#3a3038" stroke-width="1.4" opacity="0.85"/>
+
+    <!-- ARMS UNCROSSED — at sides now (concession). Slight outward gesture on right -->
+    <path d="M-12,-200 L-26,-180 L-28,-130 L-22,-128 L-18,-170 L-14,-180 Z" fill="url(#i6p3p1sableSuit)"/>
+    <ellipse cx="-26" cy="-128" rx="4" ry="2.4" fill="#3a2418"/>
+    <ellipse cx="-22" cy="-150" rx="3" ry="1.4" fill="#5a4838" opacity="0.55"/>
+
+    <path d="M22,-200 L34,-178 L40,-140 L32,-130 L28,-160 L18,-178 Z" fill="url(#i6p3p1sableSuit)"/>
+    <ellipse cx="36" cy="-130" rx="4" ry="2.4" fill="#3a2418"/>
+    <ellipse cx="32" cy="-152" rx="3" ry="1.4" fill="#5a4838" opacity="0.55"/>
+
+    <!-- HEAD turned right toward map -->
+    <ellipse cx="6" cy="-230" rx="11" ry="14" fill="#3a2418"/>
+    <!-- Buzz cut -->
+    <path d="M-3,-242 Q0,-248 6,-248 Q12,-248 15,-242 L15,-234 Q10,-240 6,-240 Q2,-240 -3,-234 Z" fill="#e0d8d0"/>
+    <g fill="#a8a098" opacity="0.85">
+      <circle cx="3" cy="-244" r="0.4"/>
+      <circle cx="6" cy="-246" r="0.4"/>
+      <circle cx="9" cy="-244" r="0.4"/>
+      <circle cx="12" cy="-242" r="0.4"/>
+    </g>
+    <!-- Profile features — eye looking right -->
+    <ellipse cx="9" cy="-230" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="10" cy="-230" r="1" fill="#0a0604"/>
+    <circle cx="10.5" cy="-230" r="0.4" fill="#fff8ff"/>
+    <!-- Brow drawn -->
+    <path d="M5,-236 L13,-237" stroke="#0a0604" stroke-width="1"/>
+    <!-- Nose profile -->
+    <path d="M14,-230 L17,-226 L14,-222 L13,-224 Z" fill="#5a3028" opacity="0.65"/>
+    <!-- Mouth set firm -->
+    <path d="M5,-218 L11,-218" stroke="#1a0c04" stroke-width="0.95"/>
+    <!-- Jaw set (visible in profile) -->
+    <path d="M11,-218 L13,-216 L13,-214" stroke="#1a0c04" stroke-width="0.55" fill="none" opacity="0.85"/>
+    <ellipse cx="6" cy="-214" rx="6" ry="1.5" fill="#1a0c04" opacity="0.55"/>
+    <!-- Map back-rim on right side of profile -->
+    <path d="M14,-230 Q18,-200 20,-160" stroke="#a888ff" stroke-width="0.55" fill="none" opacity="0.7" filter="url(#i6p3p1bloom)"/>
+    <!-- Amber rim from above on top -->
+    <ellipse cx="6" cy="-250" rx="9" ry="2.4" fill="#ffd078" opacity="0.5" filter="url(#i6p3p1bloom)"/>
+  </g>
+
+  <!-- ===== LUMA — foreground right, in profile facing left, listening ===== -->
+  <g transform="translate(248 430)">
+    <ellipse cx="-9" cy="0" rx="9" ry="4" fill="#0a0408"/>
+    <ellipse cx="5" cy="0" rx="9" ry="4" fill="#0a0408"/>
+    <path d="M-14,-110 L-2,-110 L-4,0 L-18,0 Z" fill="url(#i6p3p1lumaSuit)"/>
+    <path d="M2,-110 L12,-110 L14,0 L4,0 Z" fill="url(#i6p3p1lumaSuit)"/>
+    <ellipse cx="-9" cy="-50" rx="5" ry="2" fill="#5a4838" opacity="0.5"/>
+    <ellipse cx="9" cy="-50" rx="5" ry="2" fill="#5a4838" opacity="0.5"/>
+    <!-- Torso turned slight-left -->
+    <path d="M-18,-110 L-22,-200 L8,-200 L14,-110 Z" fill="url(#i6p3p1lumaSuit)"/>
+    <line x1="-14" y1="-160" x2="6" y2="-160" stroke="#a888ff" stroke-width="0.85" opacity="0.85" filter="url(#i6p3p1bloom)"/>
+    <ellipse cx="-22" cy="-200" rx="4" ry="2" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="8" cy="-200" rx="4" ry="2" fill="#5a4838" opacity="0.55"/>
+    <!-- Arms — left raised slightly (still operating scanner mid-hand), right at side -->
+    <path d="M-22,-200 L-32,-178 L-34,-140 L-28,-130 L-22,-150 L-18,-178 Z" fill="url(#i6p3p1lumaSuit)"/>
+    <ellipse cx="-30" cy="-128" rx="4" ry="2.4" fill="#7a4838"/>
+    <ellipse cx="-28" cy="-160" rx="2" ry="1.4" fill="#0a0604" opacity="0.55"/>
+    <!-- Scanner held in left hand -->
+    <rect x="-36" y="-130" width="14" height="8" rx="0.7" fill="#3a2068" stroke="#a888ff" stroke-width="0.5"/>
+    <rect x="-34" y="-128" width="10" height="4" fill="#5a3ad8" filter="url(#i6p3p1bloom)"/>
+    <ellipse cx="-29" cy="-126" rx="11" ry="4" fill="#a888ff" opacity="0.55" filter="url(#i6p3p1bloom)"/>
+    <!-- Right arm at side -->
+    <path d="M8,-200 L20,-178 L22,-130 L14,-130 L16,-170 L4,-180 Z" fill="url(#i6p3p1lumaSuit)"/>
+    <ellipse cx="22" cy="-128" rx="4" ry="2.4" fill="#7a4838"/>
+
+    <!-- HEAD turned left (toward Sable) -->
+    <ellipse cx="-7" cy="-230" rx="11" ry="14" fill="#7a4838"/>
+    <!-- Hair pulled back -->
+    <path d="M-15,-242 Q-12,-248 -7,-248 Q-2,-248 2,-242 L2,-234 Q-2,-240 -7,-240 Q-12,-240 -15,-234 Z" fill="#0a0604"/>
+    <!-- BRAID trailing down right (away from camera in profile) -->
+    <path d="M2,-228 Q6,-200 4,-170" stroke="#0a0604" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M2,-228 Q6,-200 4,-170" stroke="#a888ff" stroke-width="0.7" fill="none" opacity="0.85" filter="url(#i6p3p1bloom)"/>
+    <path d="M3,-218 Q6,-214 3,-210" stroke="#1a0c04" stroke-width="0.55" fill="none" opacity="0.85"/>
+    <path d="M4,-208 Q7,-204 4,-200" stroke="#1a0c04" stroke-width="0.55" fill="none" opacity="0.85"/>
+    <!-- Lenses visible in profile -->
+    <ellipse cx="-10" cy="-230" rx="3" ry="2" fill="#a888ff" opacity="0.35"/>
+    <ellipse cx="-10" cy="-230" rx="3" ry="2" fill="none" stroke="#a888ff" stroke-width="0.55" opacity="0.95" filter="url(#i6p3p1bloom)"/>
+    <line x1="-12" y1="-231" x2="-8" y2="-229" stroke="#fff8ff" stroke-width="0.4" opacity="0.85"/>
+    <ellipse cx="-10" cy="-230" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-10" cy="-230" r="0.7" fill="#0a0604"/>
+    <!-- Brow listening -->
+    <path d="M-14,-236 L-6,-236" stroke="#0a0604" stroke-width="0.85"/>
+    <!-- Nose profile -->
+    <path d="M-15,-228 L-18,-224 L-15,-222 L-14,-224 Z" fill="#5a3028" opacity="0.65"/>
+    <!-- Mouth — listening, neutral -->
+    <path d="M-12,-218 L-6,-218" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Map rim on left side -->
+    <path d="M-18,-230 Q-22,-200 -22,-160" stroke="#a888ff" stroke-width="0.55" fill="none" opacity="0.7" filter="url(#i6p3p1bloom)"/>
+    <ellipse cx="-7" cy="-250" rx="9" ry="2.4" fill="#ffd078" opacity="0.45" filter="url(#i6p3p1bloom)"/>
+  </g>
+
+  <!-- SABLE dialogue — long conditions list (top spanning) -->
+  <g>
+    <rect x="14" y="14" width="338" height="98" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="156,112 168,112 160,122" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="156.5" y1="112" x2="167.5" y2="112" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Pocket carry. No separation from Theodore at any</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">point. Comms open. If your scanner picks up</text>
+  <text x="22" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">anything active, you extract. No investigation,</text>
+  <text x="22" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">no engagement. You map and you leave.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q330,136 366,140"/>
+    <path d="M0,490 Q120,492 240,488 Q330,486 366,490"/>
+  </g>
+</svg>
