@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 4 — Page 19 — Panel 3: Luma at her station — projecting mundane survey data — the art of appearing ordinary</title>
+  <desc>50mm medium. Luma seated, one leg folded, the other extended. Holographic display projects routine wall-survey data — measurements, mortar ratings. Her posture deliberately casual. Tension only around her eyes.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p19p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <linearGradient id="p19p3suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#3a2068"/>
+    </linearGradient>
+    <linearGradient id="p19p3skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="50%" stop-color="#7a4838"/>
+      <stop offset="100%" stop-color="#5a3828"/>
+    </linearGradient>
+    <linearGradient id="p19p3beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="p19p3displayGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888e8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p19p3hearth" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffaa48" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p19p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p19p3glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p19p3bg)"/>
+
+  <!-- Faint warm camp ambient from off-panel hearth -->
+  <rect width="366" height="364" fill="url(#p19p3hearth)" opacity="0.5"/>
+
+  <!-- Background timber + brick -->
+  <rect width="366" height="80" fill="#3a2818"/>
+  <g stroke="#1a0c04" stroke-width="0.6" opacity="0.5">
+    <line x1="80" y1="0" x2="80" y2="80"/>
+    <line x1="200" y1="0" x2="200" y2="80"/>
+  </g>
+  <rect x="0" y="80" width="366" height="220" fill="#5a2818" opacity="0.85"/>
+  <g stroke="#0a0604" stroke-width="0.5" opacity="0.55">
+    <path d="M0,120 Q120,122 240,118 Q320,116 366,120"/>
+    <path d="M0,160 Q120,158 240,162 Q320,164 366,160"/>
+    <path d="M0,200 Q120,202 240,198 Q320,196 366,200"/>
+    <path d="M0,240 Q120,238 240,242 Q320,244 366,240"/>
+    <path d="M0,280 Q120,282 240,278 Q320,276 366,280"/>
+  </g>
+
+  <!-- TIMBER BEAM workstation (where Luma sits) -->
+  <rect x="0" y="260" width="366" height="32" fill="url(#p19p3beam)"/>
+  <g stroke="#0a0604" stroke-width="0.4" opacity="0.55">
+    <line x1="0" y1="270" x2="366" y2="270"/>
+    <line x1="0" y1="282" x2="366" y2="282"/>
+  </g>
+
+  <!-- HOLOGRAPHIC SURVEY DISPLAY — projected horizontally -->
+  <g transform="translate(80 180)">
+    <!-- Aura -->
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="url(#p19p3displayGlow)" filter="url(#p19p3glow)" opacity="0.7"/>
+    <!-- Frame -->
+    <rect x="-60" y="-46" width="120" height="92" rx="2" fill="none" stroke="#a888e8" stroke-width="1" filter="url(#p19p3bloom)" opacity="0.85"/>
+    <!-- Header -->
+    <text x="-56" y="-32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#fff8e8" opacity="0.9" font-weight="700">WALL SURVEY · EAST</text>
+    <line x1="-56" y1="-26" x2="56" y2="-26" stroke="#a888e8" stroke-width="0.4" opacity="0.7"/>
+    <!-- Mundane data rows — measurements -->
+    <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#c0d8ff" opacity="0.92">
+      <text x="-56" y="-16">COURSE 1: 142mm · INTACT</text>
+      <text x="-56" y="-6">COURSE 2: 138mm · INTACT</text>
+      <text x="-56" y="4">COURSE 3: 144mm · INTACT</text>
+      <text x="-56" y="14">MORTAR: 8.4MPa</text>
+      <text x="-56" y="24">STRESS POINTS: 0</text>
+      <text x="-56" y="34">CACHE-READY: YES</text>
+    </g>
+    <!-- Tiny diagram -->
+    <rect x="20" y="-20" width="40" height="32" fill="none" stroke="#a888e8" stroke-width="0.5" opacity="0.85"/>
+    <line x1="20" y1="-12" x2="60" y2="-12" stroke="#a888e8" stroke-width="0.4" opacity="0.7"/>
+    <line x1="20" y1="-4" x2="60" y2="-4" stroke="#a888e8" stroke-width="0.4" opacity="0.7"/>
+    <line x1="20" y1="4" x2="60" y2="4" stroke="#a888e8" stroke-width="0.4" opacity="0.7"/>
+    <text x="22" y="-16" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="3.5" fill="#fff8e8" opacity="0.85">EAST</text>
+    <!-- corner ticks -->
+    <path d="M-60,-46 L-54,-46 L-60,-40 Z" fill="#a888e8"/>
+    <path d="M60,-46 L54,-46 L60,-40 Z" fill="#a888e8"/>
+    <path d="M-60,46 L-54,46 L-60,40 Z" fill="#a888e8"/>
+    <path d="M60,46 L54,46 L60,40 Z" fill="#a888e8"/>
+  </g>
+
+  <!-- LUMA — seated, one leg folded, one extended -->
+  <g transform="translate(244 200)">
+    <!-- Extended leg (right) -->
+    <rect x="-16" y="56" width="9" height="14" rx="1" fill="url(#p19p3suit)"/>
+    <ellipse cx="-12" cy="74" rx="6" ry="3" fill="#0a0408"/>
+    <ellipse cx="-12" cy="64" rx="4" ry="1.4" fill="#5a4838" opacity="0.55"/>
+    <!-- Folded leg under (left) -->
+    <ellipse cx="14" cy="62" rx="14" ry="6" fill="url(#p19p3suit)"/>
+    <ellipse cx="20" cy="68" rx="5" ry="3" fill="#0a0408"/>
+    <!-- Torso — leaned slightly -->
+    <path d="M-14,56 L-18,-14 L18,-14 L14,56 Z" fill="url(#p19p3suit)"/>
+    <line x1="-12" y1="0" x2="12" y2="0" stroke="#a888e8" stroke-width="1.2" opacity="0.85" filter="url(#p19p3bloom)"/>
+    <line x1="0" y1="-14" x2="0" y2="32" stroke="#a888e8" stroke-width="0.6" opacity="0.7"/>
+    <!-- Shoulders -->
+    <path d="M-18,-14 Q-12,-30 0,-32 Q12,-30 18,-14 L16,-10 L-16,-10 Z" fill="url(#p19p3suit)"/>
+    <!-- Arms — left bent up gesturing toward display, right relaxed in lap -->
+    <path d="M-18,-14 L-44,-2 L-58,4 L-52,-2 L-40,-12 L-18,-22 Z" fill="url(#p19p3suit)"/>
+    <ellipse cx="-58" cy="2" rx="5" ry="3.5" fill="url(#p19p3skin)"/>
+    <!-- INK STAINS -->
+    <circle cx="-56" cy="0" r="1.3" fill="#1a1c34" opacity="0.75"/>
+    <circle cx="-58" cy="4" r="1" fill="#1a1c34" opacity="0.7"/>
+    <!-- Right arm relaxed in lap -->
+    <path d="M18,-14 L18,28 L24,38 L20,42 L14,32 L-2,28 Z" fill="url(#p19p3suit)"/>
+    <ellipse cx="20" cy="42" rx="5" ry="3.5" fill="url(#p19p3skin)"/>
+    <circle cx="22" cy="42" r="1.2" fill="#1a1c34" opacity="0.7"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-44" rx="13" ry="16" fill="url(#p19p3skin)"/>
+    <path d="M-10,-54 Q-9,-62 0,-64 Q10,-62 10,-54 Q9,-50 8,-50 Q4,-54 0,-54 Q-4,-54 -8,-50 Z" fill="#0a0604"/>
+    <!-- BRAID over right shoulder -->
+    <path d="M9,-32 Q14,-12 16,12 Q16,32 14,46" stroke="#0a0604" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M9,-32 Q14,-12 16,10" stroke="#3a1c08" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <!-- SAPPHIRE FILAMENT -->
+    <path d="M9,-32 Q14,-12 16,12" stroke="#a888e8" stroke-width="0.8" fill="none" opacity="0.85" filter="url(#p19p3bloom)"/>
+    <circle cx="14" cy="-12" r="0.9" fill="#fff8e8" filter="url(#p19p3bloom)"/>
+    <circle cx="16" cy="14" r="0.8" fill="#fff8e8" filter="url(#p19p3bloom)"/>
+
+    <!-- EYES — neutral, the art of appearing ordinary, but FAINT TENSION -->
+    <ellipse cx="-5" cy="-46" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <ellipse cx="-5" cy="-45" rx="1.4" ry="1" fill="#3a2010"/>
+    <circle cx="-5" cy="-45" r="0.8" fill="#0a0604"/>
+    <ellipse cx="5" cy="-46" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <ellipse cx="5" cy="-45" rx="1.4" ry="1" fill="#3a2010"/>
+    <circle cx="5" cy="-45" r="0.8" fill="#0a0604"/>
+    <!-- Brows level -->
+    <path d="M-9,-52 L-1,-53" stroke="#0a0604" stroke-width="0.7" stroke-linecap="round"/>
+    <path d="M1,-53 L9,-52" stroke="#0a0604" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- TENSION — slight micro-creases at corners -->
+    <path d="M-10,-44 L-8,-42" stroke="#3a2010" stroke-width="0.4" opacity="0.7"/>
+    <path d="M10,-44 L8,-42" stroke="#3a2010" stroke-width="0.4" opacity="0.7"/>
+    <!-- Nose -->
+    <path d="M-1,-42 L0,-36 Q1,-34 2,-34 L3,-40 Z" fill="url(#p19p3skin)" opacity="0.85"/>
+    <!-- Mouth — neutral, slight curve -->
+    <path d="M-3,-30 Q0,-29 3,-30" stroke="#3a1808" stroke-width="0.7" fill="none"/>
+    <!-- HOLO LENSES — neutral mode -->
+    <g opacity="0.7">
+      <rect x="-9" y="-50" width="8" height="6" rx="0.6" fill="none" stroke="#ffd078" stroke-width="0.6"/>
+      <line x1="-7" y1="-14" x2="-3" y2="-14" stroke="#ffd078" stroke-width="0.3" opacity="0.7"/>
+      <line x1="-9" y1="-46" x2="-1" y2="-46" stroke="#ffd078" stroke-width="0.3" opacity="0.7"/>
+      <rect x="1" y="-50" width="8" height="6" rx="0.6" fill="none" stroke="#ffd078" stroke-width="0.6"/>
+      <line x1="1" y1="-46" x2="9" y2="-46" stroke="#ffd078" stroke-width="0.3" opacity="0.7"/>
+      <!-- Crack on right -->
+      <line x1="-5" y1="-50" x2="-3" y2="-46" stroke="#ffd078" stroke-width="0.3"/>
+    </g>
+  </g>
+
+  <!-- LUMA conversational dialogue (top) -->
+  <g>
+    <rect x="14" y="14" width="338" height="60" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="180,74 192,74 184,86" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="180.5" y1="74" x2="191.5" y2="74" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA (conversational)</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">The east wall section has sound mortar through</text>
+  <text x="22" y="64" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">the first three courses. Good for the cache. I'll mark it.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,290 Q90,288 180,292 Q280,294 366,290"/>
+  </g>
+</svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 4 — Page 19 — Panel 2: Luma hides the data core — silent CU on hands — furtive, practiced, deliberate</title>
+  <desc>85mm CU. Hands transferring glyph data to personal data core, palming it, tucking into belt compartment. The hands tell the story: quick, practiced, furtive. No dialogue. The mirror of Sable's secrecy.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p19p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c14"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p19p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#3a2068"/>
+    </linearGradient>
+    <linearGradient id="p19p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="50%" stop-color="#7a4838"/>
+      <stop offset="100%" stop-color="#5a3828"/>
+    </linearGradient>
+    <radialGradient id="p19p2corePulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888e8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p19p2wristGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888e8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p19p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p19p2glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p19p2bg)"/>
+
+  <!-- Dark timber background -->
+  <rect width="366" height="364" fill="#1a0c08" opacity="0.6"/>
+  <g stroke="#0a0604" stroke-width="0.5" opacity="0.5">
+    <line x1="0" y1="50" x2="366" y2="50"/>
+    <line x1="0" y1="120" x2="366" y2="120"/>
+    <line x1="0" y1="200" x2="366" y2="200"/>
+    <line x1="0" y1="280" x2="366" y2="280"/>
+    <line x1="80" y1="0" x2="80" y2="364"/>
+    <line x1="280" y1="0" x2="280" y2="364"/>
+  </g>
+
+  <!-- BELT compartment opening (where data core will be tucked) — bottom right -->
+  <g transform="translate(280 290)">
+    <rect x="-30" y="-8" width="60" height="40" rx="2" fill="#3a2068" stroke="#a888e8" stroke-width="0.7"/>
+    <rect x="-26" y="-4" width="52" height="32" fill="#0a0408"/>
+    <line x1="-26" y1="2" x2="26" y2="2" stroke="#a888e8" stroke-width="0.4" opacity="0.6"/>
+    <!-- belt latch -->
+    <rect x="-4" y="-12" width="8" height="6" fill="#3a2068" stroke="#a888e8" stroke-width="0.5"/>
+  </g>
+
+  <!-- LEFT HAND holding scanner — palming the transfer -->
+  <g transform="translate(110 140)">
+    <!-- Scanner held in palm, screen down (transferring) -->
+    <rect x="-22" y="-16" width="44" height="32" rx="2" fill="#3a2068" stroke="#a888e8" stroke-width="0.85"/>
+    <!-- bottom data port, glowing where transfer happens -->
+    <rect x="-6" y="14" width="12" height="4" fill="#5a3ad8"/>
+    <ellipse cx="0" cy="20" rx="14" ry="6" fill="url(#p19p2corePulse)" filter="url(#p19p2glow)" opacity="0.85"/>
+    <!-- HAND beneath -->
+    <ellipse cx="0" cy="40" rx="36" ry="22" fill="url(#p19p2skin)"/>
+    <ellipse cx="-22" cy="46" rx="14" ry="10" fill="url(#p19p2skin)"/>
+    <ellipse cx="22" cy="46" rx="14" ry="10" fill="url(#p19p2skin)"/>
+    <!-- Fingers wrapping scanner — extended -->
+    <ellipse cx="-30" cy="22" rx="6" ry="4" fill="url(#p19p2skin)"/>
+    <ellipse cx="-32" cy="14" rx="5" ry="4" fill="url(#p19p2skin)"/>
+    <ellipse cx="30" cy="22" rx="6" ry="4" fill="url(#p19p2skin)"/>
+    <ellipse cx="32" cy="14" rx="5" ry="4" fill="url(#p19p2skin)"/>
+    <!-- Thumb -->
+    <ellipse cx="-40" cy="38" rx="6" ry="4" fill="url(#p19p2skin)"/>
+    <!-- INK STAINS -->
+    <circle cx="-26" cy="38" r="2" fill="#1a1c34" opacity="0.75"/>
+    <circle cx="-32" cy="42" r="1.4" fill="#1a1c34" opacity="0.7"/>
+    <circle cx="22" cy="38" r="1.6" fill="#1a1c34" opacity="0.7"/>
+    <!-- Wrist suit edge -->
+    <rect x="-36" y="56" width="72" height="14" fill="url(#p19p2suit)"/>
+    <line x1="-30" y1="62" x2="30" y2="62" stroke="#a888e8" stroke-width="1" opacity="0.85" filter="url(#p19p2bloom)"/>
+    <ellipse cx="0" cy="62" rx="50" ry="20" fill="url(#p19p2wristGlow)" filter="url(#p19p2glow)" opacity="0.55"/>
+  </g>
+
+  <!-- RIGHT HAND — palming the data core, mid-transfer -->
+  <g transform="translate(244 200)">
+    <!-- DATA CORE — small geometric device, pulsing -->
+    <rect x="-10" y="-10" width="20" height="20" rx="1.5" fill="#3a2068" stroke="#a888e8" stroke-width="0.6"/>
+    <rect x="-8" y="-8" width="16" height="16" fill="#5a3ad8" filter="url(#p19p2bloom)"/>
+    <!-- Pulse mid-transfer -->
+    <circle cx="0" cy="0" r="3" fill="#fff8e8" filter="url(#p19p2bloom)"/>
+    <circle cx="0" cy="0" r="6" fill="#a888e8" opacity="0.65" filter="url(#p19p2bloom)"/>
+    <ellipse cx="0" cy="0" rx="22" ry="22" fill="url(#p19p2corePulse)" filter="url(#p19p2glow)" opacity="0.8"/>
+    <!-- HAND palming, fingers curled -->
+    <ellipse cx="0" cy="20" rx="22" ry="14" fill="url(#p19p2skin)"/>
+    <ellipse cx="-16" cy="14" rx="6" ry="4" fill="url(#p19p2skin)"/>
+    <ellipse cx="16" cy="14" rx="6" ry="4" fill="url(#p19p2skin)"/>
+    <ellipse cx="-22" cy="22" rx="5" ry="3.5" fill="url(#p19p2skin)"/>
+    <ellipse cx="22" cy="22" rx="5" ry="3.5" fill="url(#p19p2skin)"/>
+    <!-- Thumb curled in -->
+    <ellipse cx="-12" cy="-2" rx="6" ry="4" fill="url(#p19p2skin)"/>
+    <!-- INK STAINS -->
+    <circle cx="-4" cy="14" r="1.8" fill="#1a1c34" opacity="0.75"/>
+    <circle cx="8" cy="18" r="1.4" fill="#1a1c34" opacity="0.7"/>
+    <!-- Wrist + suit edge -->
+    <rect x="-22" y="32" width="44" height="14" fill="url(#p19p2suit)"/>
+    <line x1="-18" y1="38" x2="18" y2="38" stroke="#a888e8" stroke-width="1" opacity="0.85" filter="url(#p19p2bloom)"/>
+    <ellipse cx="0" cy="38" rx="34" ry="14" fill="url(#p19p2wristGlow)" filter="url(#p19p2glow)" opacity="0.5"/>
+  </g>
+
+  <!-- Motion indicator — the hand is moving from scanner toward belt (right hand to belt) -->
+  <g stroke="#a888e8" stroke-width="0.5" fill="none" opacity="0.4" stroke-dasharray="2 2">
+    <path d="M244,232 Q260,260 280,290"/>
+  </g>
+
+  <!-- Reflective sheen on data core, subtle -->
+  <ellipse cx="244" cy="195" rx="3" ry="2" fill="#fff8e8" opacity="0.7" filter="url(#p19p2bloom)"/>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+  </g>
+</svg>
