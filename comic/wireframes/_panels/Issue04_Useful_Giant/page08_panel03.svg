@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 4 — Page 8 — Panel 3: Pivot moment — Sable concedes "Show us"</title>
+  <desc>35mm wide, fairy POV from inside camp looking up at gap. Theodore's face above through gap. Below, all 5 squad — Sable front-and-center now arms-crossed (mirroring Wren), grudging willingness. Jink edging closer to group. Thresh still tense. Wren patient. Luma lenses active. Cool camp glow + warm gap above. Sable: Show us.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1424"/>
+      <stop offset="100%" stop-color="#0a0814"/>
+    </linearGradient>
+    <linearGradient id="p8p3timber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="p8p3floorboard" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="p8p3gapDay" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#d8c8a8"/>
+      <stop offset="100%" stop-color="#a89888"/>
+    </radialGradient>
+    <linearGradient id="p8p3theoSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8b8a8"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </linearGradient>
+    <radialGradient id="p8p3theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#88806a"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </radialGradient>
+    <linearGradient id="p8p3silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dad5d0"/>
+      <stop offset="100%" stop-color="#5a5860"/>
+    </linearGradient>
+    <linearGradient id="p8p3emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3aa868"/>
+      <stop offset="100%" stop-color="#1a5a38"/>
+    </linearGradient>
+    <linearGradient id="p8p3crimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d83040"/>
+      <stop offset="100%" stop-color="#7a1018"/>
+    </linearGradient>
+    <linearGradient id="p8p3copper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e88a45"/>
+      <stop offset="100%" stop-color="#88481a"/>
+    </linearGradient>
+    <linearGradient id="p8p3sapphire" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a5ad8"/>
+      <stop offset="100%" stop-color="#3a1a78"/>
+    </linearGradient>
+    <linearGradient id="p8p3darkSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="100%" stop-color="#7a4838"/>
+    </linearGradient>
+    <linearGradient id="p8p3jinkSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#c89878"/>
+    </linearGradient>
+    <radialGradient id="p8p3perim" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c0e0" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a8c0e0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p8p3bloom"><feGaussianBlur stdDeviation="1.5"/></filter>
+  </defs>
+
+  <rect width="742" height="364" fill="url(#p8p3bg)"/>
+
+  <!-- TOP: Floorboard ceiling with GAP showing Theodore -->
+  <rect x="0" y="0" width="742" height="80" fill="url(#p8p3floorboard)"/>
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.65">
+    <line x1="0" y1="20" x2="742" y2="20"/>
+    <line x1="0" y1="60" x2="742" y2="60"/>
+  </g>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M40,40 Q200,46 400,40 Q580,42 700,40"/>
+  </g>
+
+  <!-- THE GAP -->
+  <rect x="240" y="20" width="262" height="40" fill="url(#p8p3gapDay)"/>
+  <rect x="240" y="20" width="262" height="2" fill="#1a0c04"/>
+  <rect x="240" y="58" width="262" height="2" fill="#1a0c04"/>
+
+  <!-- Theodore's face filling gap -->
+  <g transform="translate(371 40)">
+    <ellipse cx="0" cy="0" rx="120" ry="22" fill="url(#p8p3theoSkin)"/>
+    <!-- Hair top edge -->
+    <path d="M-120,-15 Q-60,-22 0,-22 Q60,-22 120,-15 L120,-8 Q60,-12 0,-12 Q-60,-12 -120,-8 Z" fill="url(#p8p3theoHair)"/>
+    <!-- Eyes (looking down) -->
+    <ellipse cx="-30" cy="0" rx="10" ry="5" fill="#fff8e8"/>
+    <circle cx="-28" cy="0" r="4" fill="#7a5028"/>
+    <circle cx="-28" cy="0" r="2" fill="#0a0604"/>
+    <ellipse cx="30" cy="0" rx="10" ry="5" fill="#fff8e8"/>
+    <circle cx="32" cy="0" r="4" fill="#7a5028"/>
+    <circle cx="32" cy="0" r="2" fill="#0a0604"/>
+    <!-- Nose -->
+    <path d="M0,5 L-4,15 Q0,16 4,15 Z" fill="#a87858" opacity="0.55"/>
+    <!-- Mouth (slightly open, hopeful) -->
+    <ellipse cx="0" cy="20" rx="14" ry="2" fill="#a85838"/>
+    <!-- Freckles -->
+    <g fill="#7a5848" opacity="0.7">
+      <circle cx="-50" cy="8" r="1.4"/>
+      <circle cx="-30" cy="14" r="1.4"/>
+      <circle cx="0" cy="12" r="1.2"/>
+      <circle cx="30" cy="14" r="1.4"/>
+      <circle cx="50" cy="8" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- Brick walls hint -->
+  <rect x="0" y="80" width="80" height="200" fill="#2a1810" opacity="0.7"/>
+  <rect x="662" y="80" width="80" height="200" fill="#2a1810" opacity="0.7"/>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.4">
+    <line x1="0" y1="120" x2="80" y2="120"/>
+    <line x1="0" y1="180" x2="80" y2="180"/>
+    <line x1="0" y1="240" x2="80" y2="240"/>
+    <line x1="662" y1="120" x2="742" y2="120"/>
+    <line x1="662" y1="180" x2="742" y2="180"/>
+    <line x1="662" y1="240" x2="742" y2="240"/>
+  </g>
+
+  <!-- TIMBER BEAM (foot level) -->
+  <rect x="40" y="280" width="662" height="40" fill="url(#p8p3timber)"/>
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.65">
+    <line x1="40" y1="282" x2="702" y2="282"/>
+    <line x1="40" y1="316" x2="702" y2="316"/>
+  </g>
+
+  <!-- Power cell on left -->
+  <rect x="120" y="248" width="30" height="6" fill="#3a2818"/>
+  <g transform="translate(135 240)">
+    <ellipse cx="0" cy="-2" rx="40" ry="22" fill="#ffd888" filter="url(#p8p3bloom)" opacity="0.45"/>
+    <path d="M-9,-12 L0,-18 L9,-12 L10,0 L-10,0 Z" fill="#d8a838"/>
+    <ellipse cx="0" cy="-10" r="3" fill="#ffe8a8"/>
+  </g>
+
+  <!-- Perimeter emitter right -->
+  <g transform="translate(620 270)">
+    <ellipse cx="0" cy="0" rx="20" ry="16" fill="url(#p8p3perim)" filter="url(#p8p3bloom)"/>
+    <path d="M-4,-6 L0,-8 L4,-6 L5,0 L4,5 L-4,5 L-5,0 Z" fill="#a8c0e0"/>
+  </g>
+
+  <!-- Warm light pour from gap onto floor below -->
+  <ellipse cx="371" cy="280" rx="220" ry="36" fill="#d8c8a8" opacity="0.18"/>
+
+  <!-- ===== SQUAD on beam, looking UP ===== -->
+
+  <!-- Thresh (left, weapon ready, watchful) -->
+  <g transform="translate(190 282)">
+    <ellipse cx="0" cy="0" rx="14" ry="2.5" fill="#0a0604" opacity="0.65"/>
+    <path d="M-7,-44 L-10,-2 L-3,0 L-1,-44 Z" fill="url(#p8p3crimson)"/>
+    <path d="M1,-44 L3,0 L10,-2 L7,-44 Z" fill="url(#p8p3crimson)"/>
+    <path d="M-13,-78 L-15,-44 L15,-44 L13,-78 Z" fill="url(#p8p3crimson)"/>
+    <path d="M-12,-72 L-12,-50 L12,-50 L12,-72 Z" fill="#a82030" opacity="0.8"/>
+    <path d="M-13,-78 Q-19,-86 -13,-92 L-7,-92 L-9,-76 Z" fill="#a82030"/>
+    <ellipse cx="-15" cy="-86" rx="3" ry="1.4" fill="#5a0810" opacity="0.85"/>
+    <path d="M13,-78 Q19,-86 13,-92 L7,-92 Z" fill="url(#p8p3crimson)"/>
+    <!-- Holstered + hand on weapon -->
+    <rect x="9" y="-58" width="6" height="8" fill="#3a3038"/>
+    <ellipse cx="13" cy="-54" rx="3" ry="2" fill="url(#p8p3jinkSkin)"/>
+    <path d="M-13,-76 Q-19,-58 -16,-46 L-10,-48 Q-12,-58 -10,-74 Z" fill="url(#p8p3crimson)"/>
+    <ellipse cx="-13" cy="-46" rx="2.4" ry="1.4" fill="url(#p8p3jinkSkin)"/>
+    <ellipse cx="0" cy="-94" rx="9" ry="11" fill="url(#p8p3jinkSkin)"/>
+    <g fill="#a83018">
+      <path d="M-8,-102 Q-9,-108 0,-110 Q9,-108 8,-102 L6,-96 Q3,-102 -3,-102 Q-6,-102 -8,-96 Z"/>
+    </g>
+    <ellipse cx="-3" cy="-93" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-94" r="0.55" fill="#0a0604"/>
+    <ellipse cx="3" cy="-93" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="3" cy="-94" r="0.55" fill="#0a0604"/>
+  </g>
+
+  <!-- Wren (left-center, patient, arms folded) -->
+  <g transform="translate(280 282)">
+    <ellipse cx="0" cy="0" rx="13" ry="2.4" fill="#0a0604" opacity="0.6"/>
+    <path d="M-7,-40 L-10,-2 L-3,0 L-1,-40 Z" fill="url(#p8p3copper)"/>
+    <path d="M1,-40 L3,0 L10,-2 L7,-40 Z" fill="url(#p8p3copper)"/>
+    <path d="M-12,-70 L-14,-40 L14,-40 L12,-70 Z" fill="url(#p8p3copper)"/>
+    <ellipse cx="-12" cy="-68" rx="4" ry="3" fill="#1a0c04" opacity="0.75"/>
+    <path d="M-14,-70 Q-19,-78 -13,-82 L-7,-80 Z" fill="url(#p8p3copper)"/>
+    <path d="M14,-70 Q19,-78 13,-82 L7,-80 Z" fill="url(#p8p3copper)"/>
+    <!-- Arms folded -->
+    <path d="M-14,-66 Q-16,-58 -8,-54 L8,-56 Q16,-60 14,-66 L8,-64 Q-2,-58 -8,-64 Z" fill="url(#p8p3copper)"/>
+    <ellipse cx="-6" cy="-58" rx="5" ry="2" fill="#1a0c04" opacity="0.55"/>
+    <ellipse cx="6" cy="-58" rx="5" ry="2" fill="#1a0c04" opacity="0.55"/>
+    <ellipse cx="0" cy="-86" rx="8" ry="10" fill="url(#p8p3jinkSkin)"/>
+    <g fill="#1a0c04">
+      <path d="M-7,-93 Q-8,-100 0,-101 Q8,-100 7,-93 L5,-88 Q2,-94 -2,-94 Q-5,-94 -7,-88 Z"/>
+      <ellipse cx="0" cy="-104" rx="5" ry="4"/>
+    </g>
+    <ellipse cx="-3" cy="-86" rx="1.4" ry="0.7" fill="#fff8e8"/>
+    <circle cx="-3" cy="-86" r="0.5" fill="#1a0c04"/>
+    <ellipse cx="3" cy="-86" rx="1.4" ry="0.7" fill="#fff8e8"/>
+    <circle cx="3" cy="-86" r="0.5" fill="#1a0c04"/>
+  </g>
+
+  <!-- SABLE — CENTER, ARMS CROSSED (mirroring Wren), chin up -->
+  <g transform="translate(371 282)">
+    <ellipse cx="0" cy="0" rx="16" ry="3" fill="#0a0604" opacity="0.7"/>
+    <path d="M-8,-50 L-12,-2 L-3,0 L-1,-50 Z" fill="url(#p8p3silver)"/>
+    <path d="M1,-50 L3,0 L12,-2 L8,-50 Z" fill="url(#p8p3silver)"/>
+    <ellipse cx="-8" cy="-26" rx="3" ry="0.85" fill="#7a7080" opacity="0.5"/>
+    <ellipse cx="8" cy="-26" rx="3" ry="0.85" fill="#7a7080" opacity="0.5"/>
+    <path d="M-14,-86 L-16,-50 L16,-50 L14,-86 Z" fill="url(#p8p3silver)"/>
+    <ellipse cx="14" cy="-84" rx="6" ry="4" fill="#3a3038" opacity="0.75"/>
+    <path d="M-16,-86 Q-22,-94 -16,-100 L-9,-100 Z" fill="url(#p8p3silver)"/>
+    <path d="M16,-86 Q22,-94 16,-100 L9,-100 Z" fill="url(#p8p3silver)"/>
+    <circle cx="-10" cy="-94" r="1" fill="#fff8e8" filter="url(#p8p3bloom)"/>
+    <circle cx="10" cy="-94" r="1" fill="#fff8e8" filter="url(#p8p3bloom)"/>
+    <!-- ARMS CROSSED (shift) -->
+    <path d="M-16,-82 Q-18,-72 -8,-68 L8,-70 Q18,-74 16,-82 L8,-78 Q-2,-72 -8,-78 Z" fill="url(#p8p3silver)"/>
+    <ellipse cx="-10" cy="-70" rx="4" ry="2" fill="url(#p8p3darkSkin)"/>
+    <ellipse cx="10" cy="-70" rx="4" ry="2" fill="url(#p8p3darkSkin)"/>
+    <!-- HEAD chin UP, looking up -->
+    <ellipse cx="0" cy="-114" rx="9" ry="11" fill="url(#p8p3darkSkin)"/>
+    <g fill="#dad5d0">
+      <path d="M-7,-121 Q-8,-127 0,-129 Q8,-127 7,-121 L5,-116 Q2,-121 -2,-121 Q-5,-121 -7,-116 Z"/>
+    </g>
+    <!-- Eyes looking UP -->
+    <ellipse cx="-3" cy="-115" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-116" r="0.6" fill="#0a0604"/>
+    <ellipse cx="3" cy="-115" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="3" cy="-116" r="0.6" fill="#0a0604"/>
+    <!-- Mouth set -->
+    <path d="M-3,-108 L3,-108" stroke="#3a1808" stroke-width="0.85"/>
+  </g>
+
+  <!-- Luma (right of Sable, lenses active, slightly forward) -->
+  <g transform="translate(460 282)">
+    <ellipse cx="0" cy="0" rx="13" ry="2.4" fill="#0a0604" opacity="0.6"/>
+    <path d="M-7,-40 L-10,-2 L-3,0 L-1,-40 Z" fill="url(#p8p3sapphire)"/>
+    <path d="M1,-40 L3,0 L10,-2 L7,-40 Z" fill="url(#p8p3sapphire)"/>
+    <path d="M-12,-70 L-14,-40 L14,-40 L12,-70 Z" fill="url(#p8p3sapphire)"/>
+    <path d="M-14,-70 Q-19,-78 -13,-82 L-7,-80 Z" fill="url(#p8p3sapphire)"/>
+    <path d="M14,-70 Q19,-78 13,-82 L7,-80 Z" fill="url(#p8p3sapphire)"/>
+    <!-- Right arm raised slightly (scanner) -->
+    <path d="M14,-68 Q24,-58 26,-44 L20,-44 Q20,-58 12,-66 Z" fill="url(#p8p3sapphire)"/>
+    <ellipse cx="26" cy="-44" rx="2.4" ry="1.4" fill="url(#p8p3jinkSkin)"/>
+    <circle cx="26" cy="-44" r="1.4" fill="#a888ff" filter="url(#p8p3bloom)"/>
+    <!-- Left arm at side -->
+    <path d="M-14,-68 Q-19,-58 -16,-44 L-10,-46 Q-12,-58 -10,-66 Z" fill="url(#p8p3sapphire)"/>
+    <ellipse cx="-15" cy="-44" rx="2.4" ry="1.4" fill="url(#p8p3jinkSkin)"/>
+    <ellipse cx="0" cy="-86" rx="8" ry="10" fill="url(#p8p3jinkSkin)"/>
+    <g fill="#1a0c04">
+      <path d="M-8,-94 Q-8,-100 0,-102 Q8,-100 8,-94 L6,-88 Q3,-94 -3,-94 Q-6,-94 -8,-88 Z"/>
+    </g>
+    <ellipse cx="-3" cy="-86" rx="2" ry="1.4" fill="#a888ff" opacity="0.85" filter="url(#p8p3bloom)"/>
+    <ellipse cx="3" cy="-86" rx="2" ry="1.4" fill="#a888ff" opacity="0.85" filter="url(#p8p3bloom)"/>
+  </g>
+
+  <!-- JINK (right of Luma, edging closer to group, posture slightly relaxed) -->
+  <g transform="translate(550 282)">
+    <ellipse cx="0" cy="0" rx="13" ry="2.4" fill="#0a0604" opacity="0.6"/>
+    <path d="M-6,-40 L-9,-2 L-3,0 L-1,-40 Z" fill="url(#p8p3emerald)"/>
+    <path d="M1,-40 L2,0 L9,-2 L6,-40 Z" fill="url(#p8p3emerald)"/>
+    <path d="M-11,-70 L-13,-40 L13,-40 L11,-70 Z" fill="url(#p8p3emerald)"/>
+    <path d="M-9,-66 Q-2,-62 4,-66 Q-2,-54 -6,-50 Z" fill="#3a2818" opacity="0.7"/>
+    <path d="M-13,-70 Q-19,-78 -13,-82 L-7,-80 Z" fill="url(#p8p3emerald)"/>
+    <path d="M13,-70 Q19,-78 13,-82 L7,-80 Z" fill="url(#p8p3emerald)"/>
+    <circle cx="-9" cy="-76" r="1" fill="#9aff9a" filter="url(#p8p3bloom)"/>
+    <circle cx="9" cy="-76" r="1" fill="#9aff9a" filter="url(#p8p3bloom)"/>
+    <path d="M-13,-68 Q-20,-58 -16,-44 L-10,-46 Q-12,-58 -10,-66 Z" fill="url(#p8p3emerald)"/>
+    <path d="M13,-68 Q20,-58 16,-44 L10,-46 Q12,-58 10,-66 Z" fill="url(#p8p3emerald)"/>
+    <ellipse cx="-15" cy="-44" rx="2.4" ry="1.4" fill="url(#p8p3jinkSkin)"/>
+    <ellipse cx="15" cy="-44" rx="2.4" ry="1.4" fill="url(#p8p3jinkSkin)"/>
+    <ellipse cx="0" cy="-86" rx="8" ry="10" fill="url(#p8p3jinkSkin)"/>
+    <g fill="#d8a838">
+      <circle cx="-7" cy="-94" r="3"/>
+      <circle cx="0" cy="-98" r="3.4"/>
+      <circle cx="7" cy="-94" r="3"/>
+      <circle cx="-9" cy="-90" r="2.2"/>
+      <circle cx="9" cy="-90" r="2.2"/>
+    </g>
+    <ellipse cx="-3" cy="-86" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="-3" cy="-86" r="0.6" fill="#1a4830"/>
+    <ellipse cx="3" cy="-86" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="3" cy="-86" r="0.6" fill="#1a4830"/>
+  </g>
+
+  <!-- DIALOGUE — Sable: Show us. -->
+  <g>
+    <rect x="14" y="14" width="120" height="46" rx="4" fill="#ffffff" stroke="#5a606a" stroke-width="2.4" filter="url(#balloonShadow)"/>
+    <!-- Tail pointing UP toward Theodore in gap -->
+    <path d="M70,14 L74,4 L78,14 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2"/>
+    <path d="M72,14 L76,14" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="34" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a">SABLE</text>
+  <text x="22" y="54" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1a1a1a">Show us.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,100 Q200,102 400,98 Q580,96 742,100"/>
+    <path d="M0,260 Q200,262 400,258 Q580,256 742,260"/>
+  </g>
+</svg>
