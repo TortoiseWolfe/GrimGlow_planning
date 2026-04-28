@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 5 — Page 11 — Panel 3: Wren's face pressed against mainspring barrel — looking up at clockmaker — controlled fear</title>
+  <desc>85mm CU. Wren's cheek pressed against cool brass mainspring barrel. Eyes wide fixed upward. Copper suit dark, all holographic killed. Filtered amber + slow red pulse from ruby pallet jewels above. She is a shadow in the machine. Doesn't breathe.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p11p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c08"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p11p3brassDim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p11p3skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p11p3suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="p11p3rubyPulse" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ff5040" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a0818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p11p3amberFiltered" cx="100%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p11p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p11p3glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p11p3bg)"/>
+
+  <!-- Slow red pulse from above (escapement) -->
+  <rect width="366" height="364" fill="url(#p11p3rubyPulse)"/>
+  <!-- Filtered amber from right -->
+  <rect width="366" height="364" fill="url(#p11p3amberFiltered)"/>
+
+  <!-- ===== MAINSPRING BARREL surface (Wren's hiding place — fills LEFT side of frame) ===== -->
+  <rect x="0" y="0" width="240" height="364" fill="url(#p11p3brassDim)"/>
+  <!-- Brass curvature texture -->
+  <g stroke="#3a1808" stroke-width="0.55" opacity="0.7">
+    <path d="M0,40 Q120,38 240,42"/>
+    <path d="M0,80 Q120,82 240,78"/>
+    <path d="M0,120 Q120,118 240,122"/>
+    <path d="M0,160 Q120,162 240,158"/>
+    <path d="M0,200 Q120,198 240,202"/>
+    <path d="M0,240 Q120,242 240,238"/>
+    <path d="M0,280 Q120,278 240,282"/>
+    <path d="M0,320 Q120,322 240,318"/>
+  </g>
+  <!-- Polished sheen on barrel -->
+  <ellipse cx="80" cy="180" rx="22" ry="200" fill="#fff8e8" opacity="0.18" filter="url(#p11p3bloom)"/>
+  <!-- Edge highlight (where her cheek presses) -->
+  <line x1="240" y1="0" x2="240" y2="364" stroke="#ffd078" stroke-width="0.85" opacity="0.65" filter="url(#p11p3bloom)"/>
+
+  <!-- Subtle red pulse reflecting on brass -->
+  <ellipse cx="180" cy="80" rx="80" ry="40" fill="#ff5040" opacity="0.18" filter="url(#p11p3glow)"/>
+
+  <!-- ===== WREN'S FACE pressed against barrel — RIGHT half ===== -->
+  <g transform="translate(290 200)">
+    <!-- Body suggestion -->
+    <path d="M-50,150 L-60,90 L60,90 L50,150 Z" fill="url(#p11p3suit)"/>
+    <!-- Suit accent line — DARK (no glow) -->
+    <line x1="-30" y1="100" x2="30" y2="100" stroke="#5a3018" stroke-width="0.85" opacity="0.55"/>
+    <!-- Shoulders -->
+    <path d="M-60,90 Q-44,60 -10,52 Q14,52 44,60 Q60,90 56,86 L-56,86 Z" fill="url(#p11p3suit)"/>
+    <ellipse cx="-58" cy="84" rx="10" ry="6" fill="#1a0c04" opacity="0.85"/>
+
+    <!-- HEAD turned, cheek pressed against barrel (left side of face touches barrel surface) -->
+    <ellipse cx="0" cy="0" rx="100" ry="130" fill="url(#p11p3skin)"/>
+    <!-- LEFT side of face DEEPER shadow (pressed against brass) -->
+    <ellipse cx="-50" cy="20" rx="40" ry="80" fill="#1a0c04" opacity="0.55"/>
+    <!-- Faint amber catches RIGHT side of face (away from barrel) -->
+    <ellipse cx="40" cy="0" rx="34" ry="80" fill="#ffd078" opacity="0.25" filter="url(#p11p3bloom)"/>
+    <!-- Red pulse catches edge of her face / hair -->
+    <ellipse cx="0" cy="-100" rx="40" ry="20" fill="#ff5040" opacity="0.45" filter="url(#p11p3bloom)"/>
+
+    <!-- Hair UP — bun -->
+    <ellipse cx="0" cy="-110" rx="18" ry="14" fill="#0a0604"/>
+    <ellipse cx="0" cy="-118" rx="13" ry="9" fill="#1a0c04"/>
+    <path d="M-90,-90 Q-70,-130 0,-138 Q70,-130 90,-86 L86,-78 Q60,-114 0,-114 Q-60,-114 -86,-78 Z" fill="#0a0604"/>
+    <!-- Stray strands of hair -->
+    <path d="M-78,-44 Q-90,-30 -86,-10" stroke="#0a0604" stroke-width="2" fill="none" opacity="0.85"/>
+    <path d="M82,-44 Q92,-30 86,-10" stroke="#0a0604" stroke-width="2" fill="none" opacity="0.85"/>
+
+    <!-- EYES — WIDE, fixed UPWARD -->
+    <ellipse cx="-36" cy="-12" rx="18" ry="11" fill="#fff8e8" opacity="0.85"/>
+    <ellipse cx="-36" cy="-12" rx="11" ry="9" fill="#3a2010"/>
+    <circle cx="-36" cy="-15" r="6" fill="#0a0604"/>
+    <circle cx="-34" cy="-18" r="2" fill="#fff8e8" filter="url(#p11p3bloom)"/>
+    <!-- Looking UP -->
+    <ellipse cx="-34" cy="-12" rx="2.4" ry="1.4" fill="#3a2010"/>
+    <ellipse cx="36" cy="-12" rx="18" ry="11" fill="#fff8e8" opacity="0.85"/>
+    <ellipse cx="36" cy="-12" rx="11" ry="9" fill="#3a2010"/>
+    <circle cx="36" cy="-15" r="6" fill="#0a0604"/>
+    <circle cx="38" cy="-18" r="2" fill="#fff8e8" filter="url(#p11p3bloom)"/>
+    <ellipse cx="38" cy="-12" rx="2.4" ry="1.4" fill="#3a2010"/>
+
+    <!-- Brows level/up — controlled fear -->
+    <path d="M-60,-40 L-16,-40" stroke="#0a0604" stroke-width="3" stroke-linecap="round"/>
+    <path d="M16,-40 L60,-40" stroke="#0a0604" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M-6,4 L-2,38 Q2,42 6,40 L10,4 Z" fill="url(#p11p3skin)" opacity="0.85"/>
+
+    <!-- Mouth — pressed tight, not breathing -->
+    <path d="M-12,68 L12,68" stroke="#3a1808" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- Cheek pressed flat against barrel — slight cheek deformation -->
+    <path d="M-100,-10 Q-110,0 -100,30" stroke="#3a1808" stroke-width="0.55" fill="none" opacity="0.45"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+  </g>
+</svg>
