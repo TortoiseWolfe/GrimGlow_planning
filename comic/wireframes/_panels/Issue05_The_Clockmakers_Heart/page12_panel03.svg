@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 311" width="494" height="311">
+  <title>Issue 5 — Page 12 — Panel 3: Wren pressed flat against brass plate, clockmaker's hand entering — fingers each taller than her</title>
+  <desc>50mm fairy-scale. Wren face-down on brass plate, holographic killed, oil-stains help her blend. Above: enormous human hand entering mechanism — five fingers each taller than her body. Pores, hair, fingerprint whorls visible. Hand reaches past her toward escapement. Shadow falls over her. Dialog: LUMA tiny: Wren. Your heart rate-- / WREN sub-whisper: Shut. Up.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p12p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p12p3plate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p12p3hand" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a5828"/>
+    </linearGradient>
+    <linearGradient id="p12p3suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="p12p3shadow" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#0a0408" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0408" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p12p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p12p3glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="494" height="311" fill="url(#p12p3bg)"/>
+
+  <!-- Massive shadow falling from above (the hand) -->
+  <rect width="494" height="311" fill="url(#p12p3shadow)"/>
+
+  <!-- BRASS PLATE — fills lower half — Wren's hiding spot -->
+  <rect x="0" y="200" width="494" height="111" fill="url(#p12p3plate)"/>
+  <line x1="0" y1="200" x2="494" y2="200" stroke="#fff8e8" stroke-width="0.85" opacity="0.45" filter="url(#p12p3bloom)"/>
+  <!-- Brass texture lines -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.65">
+    <line x1="0" y1="220" x2="494" y2="222"/>
+    <line x1="0" y1="240" x2="494" y2="238"/>
+    <line x1="0" y1="260" x2="494" y2="262"/>
+    <line x1="0" y1="280" x2="494" y2="278"/>
+    <line x1="0" y1="300" x2="494" y2="302"/>
+  </g>
+
+  <!-- Gear edge in extreme right foreground (frame element) -->
+  <circle cx="494" cy="280" r="80" fill="#5a3018" opacity="0.85"/>
+  <circle cx="494" cy="280" r="60" fill="none" stroke="#1a0c04" stroke-width="0.7"/>
+
+  <!-- ENORMOUS HAND entering from above — fills upper 2/3 of frame -->
+  <g transform="translate(247 110)">
+    <!-- Wrist + palm mass — coming from top-left -->
+    <ellipse cx="0" cy="-80" rx="200" ry="110" fill="url(#p12p3hand)"/>
+    <!-- Palm closer to viewer -->
+    <path d="M-180,-30 Q-120,40 0,60 Q120,40 180,-30 L180,-100 Q60,-130 0,-130 Q-60,-130 -180,-100 Z" fill="url(#p12p3hand)"/>
+
+    <!-- Five fingers extending DOWN toward escapement (past Wren) -->
+    <!-- Index finger (longest) -->
+    <path d="M-90,40 L-80,150 L-58,160 L-50,40 Z" fill="url(#p12p3hand)"/>
+    <ellipse cx="-69" cy="155" rx="11" ry="6" fill="url(#p12p3hand)"/>
+    <!-- Middle finger -->
+    <path d="M-30,50 L-20,160 L0,170 L8,50 Z" fill="url(#p12p3hand)"/>
+    <ellipse cx="-6" cy="165" rx="11" ry="6" fill="url(#p12p3hand)"/>
+    <!-- Ring finger -->
+    <path d="M40,50 L50,150 L70,158 L78,50 Z" fill="url(#p12p3hand)"/>
+    <ellipse cx="64" cy="155" rx="11" ry="6" fill="url(#p12p3hand)"/>
+    <!-- Pinky -->
+    <path d="M100,40 L108,140 L126,148 L132,40 Z" fill="url(#p12p3hand)"/>
+    <ellipse cx="120" cy="145" rx="9" ry="5" fill="url(#p12p3hand)"/>
+    <!-- Thumb on left -->
+    <path d="M-140,30 L-160,110 L-138,118 L-122,30 Z" fill="url(#p12p3hand)"/>
+    <ellipse cx="-150" cy="115" rx="11" ry="6" fill="url(#p12p3hand)"/>
+
+    <!-- PORES + HAIR + FINGERPRINT WHORLS at scale -->
+    <g fill="#3a1808" opacity="0.55">
+      <circle cx="-100" cy="-60" r="0.85"/>
+      <circle cx="-80" cy="-40" r="0.85"/>
+      <circle cx="-50" cy="-20" r="0.85"/>
+      <circle cx="-20" cy="-50" r="0.85"/>
+      <circle cx="20" cy="-30" r="0.85"/>
+      <circle cx="50" cy="-60" r="0.85"/>
+      <circle cx="80" cy="-40" r="0.85"/>
+      <circle cx="110" cy="-20" r="0.85"/>
+      <circle cx="-130" cy="-40" r="0.85"/>
+      <circle cx="-110" cy="-20" r="0.85"/>
+      <circle cx="-90" cy="0" r="0.85"/>
+      <circle cx="-70" cy="20" r="0.85"/>
+      <circle cx="-30" cy="-10" r="0.85"/>
+      <circle cx="60" cy="-10" r="0.85"/>
+      <circle cx="100" cy="0" r="0.85"/>
+    </g>
+    <!-- Coarse hair on back of hand -->
+    <g stroke="#3a1808" stroke-width="0.4" opacity="0.65">
+      <line x1="-110" y1="-50" x2="-105" y2="-58"/>
+      <line x1="-80" y1="-30" x2="-75" y2="-38"/>
+      <line x1="-30" y1="-40" x2="-25" y2="-48"/>
+      <line x1="20" y1="-40" x2="25" y2="-48"/>
+      <line x1="60" y1="-30" x2="65" y2="-38"/>
+      <line x1="100" y1="-20" x2="105" y2="-28"/>
+    </g>
+    <!-- Fingerprint whorls on fingertip pads (subtle arcs) -->
+    <g stroke="#5a3018" stroke-width="0.4" opacity="0.55" fill="none">
+      <path d="M-76,150 Q-69,156 -62,150"/>
+      <path d="M-78,154 Q-69,158 -60,154"/>
+      <path d="M-12,160 Q-6,166 0,160"/>
+      <path d="M-14,164 Q-6,168 2,164"/>
+      <path d="M58,150 Q64,156 70,150"/>
+      <path d="M56,154 Q64,158 72,154"/>
+    </g>
+    <!-- Knuckle creases -->
+    <path d="M-100,30 Q-70,38 -40,30" stroke="#5a3018" stroke-width="0.7" fill="none" opacity="0.65"/>
+    <path d="M-30,40 Q0,48 30,40" stroke="#5a3018" stroke-width="0.7" fill="none" opacity="0.65"/>
+    <path d="M40,30 Q70,38 100,30" stroke="#5a3018" stroke-width="0.7" fill="none" opacity="0.65"/>
+  </g>
+
+  <!-- WREN — face-down on brass plate, blending — small figure right-of-center -->
+  <g transform="translate(180 230)">
+    <!-- Body face-down -->
+    <ellipse cx="0" cy="0" rx="38" ry="11" fill="url(#p12p3suit)"/>
+    <!-- Suit detail (dark) -->
+    <line x1="-22" y1="-2" x2="22" y2="-2" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Head turned to side (ONE eye visible) -->
+    <ellipse cx="-30" cy="-2" rx="9" ry="6" fill="#a87858"/>
+    <!-- Hair UP bun + loose strands -->
+    <ellipse cx="-30" cy="-7" rx="5" ry="3.4" fill="#0a0604"/>
+    <path d="M-30,-7 Q-26,-10 -22,-9" stroke="#0a0604" stroke-width="0.55" fill="none"/>
+    <path d="M-22,-2 Q-18,1 -14,0" stroke="#0a0604" stroke-width="0.55" fill="none"/>
+    <!-- ONE eye visible, wide, terrified, looking up -->
+    <ellipse cx="-26" cy="-2" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-26" cy="-3" r="1.2" fill="#0a0604"/>
+    <circle cx="-25" cy="-3.4" r="0.4" fill="#fff8e8"/>
+    <!-- Brow -->
+    <path d="M-30,-5 L-22,-5" stroke="#0a0604" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- Cheek pressed to brass -->
+    <line x1="-22" y1="0" x2="-18" y2="2" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Mouth — pressed shut -->
+    <path d="M-24,3 L-20,3" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Arms tight to sides -->
+    <line x1="0" y1="-2" x2="22" y2="0" stroke="#5a2818" stroke-width="2"/>
+    <line x1="0" y1="2" x2="22" y2="3" stroke="#5a2818" stroke-width="2"/>
+    <!-- SCORCH MARK on left shoulder -->
+    <ellipse cx="-7" cy="-7" rx="4" ry="2" fill="#1a0c04" opacity="0.7"/>
+    <!-- Oil stains all over -->
+    <circle cx="0" cy="0" r="1.4" fill="#1a0c04" opacity="0.55"/>
+    <circle cx="14" cy="2" r="1" fill="#1a0c04" opacity="0.55"/>
+    <circle cx="-10" cy="3" r="0.85" fill="#1a0c04" opacity="0.55"/>
+  </g>
+
+  <!-- DIALOG LUMA — tiny earpiece text, top-left -->
+  <g transform="translate(70 56)">
+    <ellipse cx="0" cy="0" rx="60" ry="22" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="2,2" opacity="0.85" filter="url(#balloonShadow)"/>
+    <path d="M-22,18 L-30,32 L-18,20 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="-50" y="-8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a3ad8" font-weight="700">LUMA</text>
+    <text x="-50" y="4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-style="italic" font-weight="500">"Wren. Your heart rate—"</text>
+  </g>
+
+  <!-- DIALOG WREN — sub-whisper -->
+  <g transform="translate(280 252)">
+    <ellipse cx="0" cy="0" rx="50" ry="22" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-22,-18 L-30,-32 L-18,-20 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="-40" y="-6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="-40" y="10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-weight="700">"Shut. Up."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q120,82 240,78 Q360,76 494,80"/>
+    <path d="M0,250 Q120,252 240,248 Q360,246 494,250"/>
+  </g>
+</svg>

@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 311" width="742" height="311">
+  <title>Issue 5 — Page 12 — Panel 2: Clockmaker sits down at workbench — settles in for evening work — tea + sandwich</title>
+  <desc>35mm. Human-scale workshop. Middle-aged man settles into high-backed wooden chair at oak workbench. Mug of tea + paper-wrapped sandwich. Clock with back panel open before him. Tools arranged with care. Oil lamp amber light. He picks up screwdriver, peers in. Calm professional focus. Dialog: CLOCKMAKER: Now then. Let's see about that escapement.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p12p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p12p2bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p12p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a5828"/>
+    </linearGradient>
+    <linearGradient id="p12p2waistcoat" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a3818"/>
+      <stop offset="50%" stop-color="#7a5828"/>
+      <stop offset="100%" stop-color="#4a3818"/>
+    </linearGradient>
+    <linearGradient id="p12p2brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <radialGradient id="p12p2lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p12p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p12p2glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="742" height="311" fill="url(#p12p2bg)"/>
+
+  <!-- WALL BEHIND — wood panel + clocks ghost-visible -->
+  <g opacity="0.55">
+    <rect x="0" y="0" width="742" height="200" fill="#3a2010"/>
+    <line x1="0" y1="60" x2="742" y2="60" stroke="#1a0c04" stroke-width="0.7"/>
+    <line x1="0" y1="120" x2="742" y2="120" stroke="#1a0c04" stroke-width="0.7"/>
+    <!-- Background clocks on wall (faint) -->
+    <circle cx="100" cy="80" r="22" fill="#3a1808" stroke="#7a4818" stroke-width="0.85"/>
+    <circle cx="100" cy="80" r="18" fill="#5a3818" opacity="0.85"/>
+    <circle cx="640" cy="80" r="18" fill="#3a1808" stroke="#7a4818" stroke-width="0.85"/>
+    <circle cx="640" cy="80" r="14" fill="#5a3818" opacity="0.85"/>
+    <rect x="55" y="130" width="40" height="60" fill="#3a1808" stroke="#7a4818" stroke-width="0.55"/>
+    <rect x="615" y="130" width="40" height="60" fill="#3a1808" stroke="#7a4818" stroke-width="0.55"/>
+  </g>
+
+  <!-- Large shadow behind clockmaker on wall -->
+  <ellipse cx="371" cy="180" rx="220" ry="120" fill="#0a0604" opacity="0.65" filter="url(#p12p2glow)"/>
+
+  <!-- WORKBENCH — heavy oak slab -->
+  <rect x="0" y="240" width="742" height="71" fill="url(#p12p2bench)"/>
+  <line x1="0" y1="240" x2="742" y2="240" stroke="#a86838" stroke-width="0.85" opacity="0.85" filter="url(#p12p2bloom)"/>
+  <line x1="0" y1="290" x2="742" y2="290" stroke="#1a0c04" stroke-width="0.55"/>
+
+  <!-- OIL LAMP — left side of bench, amber glow source -->
+  <g transform="translate(60 200)">
+    <!-- Glow halo -->
+    <circle cx="0" cy="0" r="120" fill="url(#p12p2lampGlow)" filter="url(#p12p2glow)"/>
+    <!-- Lamp base -->
+    <rect x="-12" y="20" width="24" height="20" fill="#5a3018"/>
+    <ellipse cx="0" cy="20" rx="12" ry="3" fill="#7a4818"/>
+    <!-- Glass chimney -->
+    <path d="M-10,20 L-8,-10 L-7,-26 L7,-26 L8,-10 L10,20 Z" fill="#ffd078" opacity="0.65" filter="url(#p12p2bloom)"/>
+    <path d="M-7,-26 L-5,-32 L5,-32 L7,-26 Z" fill="#ffd078" opacity="0.55"/>
+    <!-- Flame -->
+    <ellipse cx="0" cy="-4" rx="3" ry="9" fill="#fff8e8" filter="url(#p12p2bloom)"/>
+    <ellipse cx="0" cy="0" rx="2" ry="4" fill="#ffd078" filter="url(#p12p2bloom)"/>
+  </g>
+
+  <!-- CLOCKMAKER — seated at bench, leaning forward into mechanism -->
+  <g transform="translate(371 130)">
+    <!-- High-backed wooden chair (visible behind) -->
+    <rect x="-100" y="-30" width="200" height="180" fill="#3a1808" opacity="0.55"/>
+    <rect x="-104" y="-50" width="208" height="22" fill="#5a3018"/>
+
+    <!-- Body (seated, leaning forward) -->
+    <path d="M-50,40 L-60,140 L60,140 L50,40 Z" fill="url(#p12p2waistcoat)"/>
+    <!-- Waistcoat buttons -->
+    <circle cx="-12" cy="60" r="2" fill="#3a1808"/>
+    <circle cx="-12" cy="80" r="2" fill="#3a1808"/>
+    <circle cx="-12" cy="100" r="2" fill="#3a1808"/>
+    <circle cx="-12" cy="120" r="2" fill="#3a1808"/>
+    <!-- Collar visible -->
+    <ellipse cx="0" cy="32" rx="20" ry="8" fill="#d8c8a8"/>
+    <!-- Rolled sleeves — forearms visible -->
+    <ellipse cx="-50" cy="44" rx="14" ry="8" fill="url(#p12p2skin)"/>
+    <ellipse cx="50" cy="44" rx="14" ry="8" fill="url(#p12p2skin)"/>
+    <!-- Forearms reaching forward (toward bench/clock) -->
+    <path d="M-58,52 Q-44,90 -22,110" stroke="#d8a878" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M58,52 Q44,90 22,110" stroke="#d8a878" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <!-- Hands working at clock -->
+    <ellipse cx="-22" cy="112" rx="11" ry="7" fill="url(#p12p2skin)"/>
+    <ellipse cx="22" cy="112" rx="11" ry="7" fill="url(#p12p2skin)"/>
+    <!-- Tiny cuts and calluses (texture) -->
+    <line x1="-26" y1="110" x2="-22" y2="112" stroke="#5a3018" stroke-width="0.4"/>
+    <line x1="22" y1="110" x2="26" y2="112" stroke="#5a3018" stroke-width="0.4"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="30" ry="36" fill="url(#p12p2skin)"/>
+    <!-- Thinning brown hair -->
+    <path d="M-26,-26 Q-18,-36 0,-38 Q18,-36 26,-26 L24,-18 Q14,-30 0,-30 Q-14,-30 -24,-18 Z" fill="#7a5028"/>
+    <!-- Wire-rimmed spectacles pulled DOWN to eyes (he's reading mechanism) -->
+    <ellipse cx="-12" cy="-6" rx="9" ry="6" fill="none" stroke="#3a2818" stroke-width="0.85"/>
+    <ellipse cx="12" cy="-6" rx="9" ry="6" fill="none" stroke="#3a2818" stroke-width="0.85"/>
+    <line x1="-3" y1="-6" x2="3" y2="-6" stroke="#3a2818" stroke-width="0.55"/>
+    <!-- Lens shine -->
+    <ellipse cx="-14" cy="-8" rx="2" ry="1.4" fill="#fff8e8" opacity="0.85" filter="url(#p12p2bloom)"/>
+    <ellipse cx="10" cy="-8" rx="2" ry="1.4" fill="#fff8e8" opacity="0.85" filter="url(#p12p2bloom)"/>
+    <!-- Eyes (downcast at clock) — pale blue-grey behind glass -->
+    <ellipse cx="-12" cy="-4" rx="3" ry="2" fill="#a8b8c8"/>
+    <ellipse cx="12" cy="-4" rx="3" ry="2" fill="#a8b8c8"/>
+    <circle cx="-12" cy="-3" r="1" fill="#0a0c14"/>
+    <circle cx="12" cy="-3" r="1" fill="#0a0c14"/>
+    <!-- Brows level — concentration -->
+    <path d="M-22,-14 L-2,-13" stroke="#5a3018" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M2,-13 L22,-14" stroke="#5a3018" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M-2,4 L-1,14 L3,14 L4,4 Z" fill="#a87858" opacity="0.85"/>
+    <!-- Mouth — neutral, slight focus -->
+    <path d="M-7,22 L7,22" stroke="#3a1808" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Salt-pepper stubble -->
+    <g fill="#5a3018" opacity="0.55">
+      <circle cx="-10" cy="24" r="0.4"/>
+      <circle cx="0" cy="26" r="0.4"/>
+      <circle cx="10" cy="24" r="0.4"/>
+    </g>
+    <!-- Warm light catches cheek + spectacles -->
+    <ellipse cx="-22" cy="6" rx="6" ry="10" fill="#ffd078" opacity="0.45" filter="url(#p12p2bloom)"/>
+  </g>
+
+  <!-- CLOCK ON BENCH — back panel open, mechanism exposed (Wren is inside this!) -->
+  <g transform="translate(371 240)">
+    <!-- Mahogany case sitting on bench -->
+    <rect x="-72" y="-50" width="144" height="50" fill="#3a1808"/>
+    <rect x="-70" y="-48" width="140" height="46" fill="none" stroke="#1a0c04" stroke-width="0.85"/>
+    <!-- Open back — dark mechanism visible -->
+    <rect x="-58" y="-42" width="116" height="38" fill="#0a0604"/>
+    <!-- Brass gears glimpsed inside -->
+    <circle cx="-30" cy="-22" r="9" fill="url(#p12p2brass)" opacity="0.85"/>
+    <circle cx="-30" cy="-22" r="6" fill="#5a3018"/>
+    <circle cx="0" cy="-22" r="11" fill="url(#p12p2brass)" opacity="0.85"/>
+    <circle cx="0" cy="-22" r="7" fill="#5a3018"/>
+    <circle cx="30" cy="-22" r="9" fill="url(#p12p2brass)" opacity="0.85"/>
+    <circle cx="30" cy="-22" r="6" fill="#5a3018"/>
+    <!-- Tiny dim copper glint inside (Wren's holo, suppressed) -->
+    <circle cx="22" cy="-30" r="0.85" fill="#ffaa48" opacity="0.55" filter="url(#p12p2bloom)"/>
+  </g>
+
+  <!-- TOOLS arranged with fastidious precision (left of clock) -->
+  <g transform="translate(180 234)">
+    <line x1="0" y1="0" x2="14" y2="-14" stroke="#a86838" stroke-width="1"/>
+    <ellipse cx="14" cy="-14" rx="2" ry="0.85" fill="#3a1808"/>
+    <line x1="20" y1="0" x2="34" y2="-14" stroke="#a86838" stroke-width="1"/>
+    <ellipse cx="34" cy="-14" rx="2" ry="0.85" fill="#5a3018"/>
+    <line x1="40" y1="0" x2="48" y2="-14" stroke="#a86838" stroke-width="1"/>
+    <ellipse cx="48" cy="-14" rx="2" ry="0.85" fill="#3a1808"/>
+    <!-- Tool roll cloth -->
+    <rect x="-8" y="2" width="64" height="6" fill="#5a3818" opacity="0.85"/>
+  </g>
+
+  <!-- TEA MUG on bench (right side) -->
+  <g transform="translate(560 244)">
+    <ellipse cx="0" cy="-2" rx="14" ry="3" fill="#3a1808"/>
+    <rect x="-12" y="-2" width="24" height="22" fill="#a8a8a8" opacity="0.85"/>
+    <ellipse cx="0" cy="-2" rx="11" ry="2" fill="#5a3018"/>
+    <!-- Steam wisp -->
+    <path d="M0,-12 Q-3,-18 0,-26" stroke="#d8c8a8" stroke-width="0.85" fill="none" opacity="0.65"/>
+  </g>
+
+  <!-- PAPER-WRAPPED SANDWICH on bench -->
+  <g transform="translate(620 244)">
+    <rect x="-14" y="-6" width="28" height="14" fill="#d8c8a8" opacity="0.85"/>
+    <line x1="-14" y1="-3" x2="14" y2="-3" stroke="#7a5028" stroke-width="0.4"/>
+    <line x1="-14" y1="2" x2="14" y2="2" stroke="#7a5028" stroke-width="0.4"/>
+    <line x1="-14" y1="6" x2="14" y2="6" stroke="#7a5028" stroke-width="0.4"/>
+    <!-- String tied -->
+    <path d="M-2,-6 L0,8" stroke="#5a3018" stroke-width="0.55"/>
+  </g>
+
+  <!-- DIALOG — CLOCKMAKER muttering -->
+  <g transform="translate(540 80)">
+    <ellipse cx="0" cy="0" rx="120" ry="32" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-50,28 L-70,52 L-44,30 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="-110" y="-10" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a4030" font-weight="700">CLOCKMAKER</text>
+    <text x="-110" y="6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="500">"Now then. Let's see about</text>
+    <text x="-110" y="20" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="500">that escapement."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q180,82 360,78 Q540,76 742,80"/>
+    <path d="M0,260 Q180,262 360,258 Q540,256 742,260"/>
+  </g>
+</svg>
