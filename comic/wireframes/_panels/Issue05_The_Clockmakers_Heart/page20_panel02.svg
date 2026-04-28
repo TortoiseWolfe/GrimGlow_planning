@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 5 — Page 20 — Panel 2: Wren's hand hovers over gear — between clock and drive schematics — reluctant tenderness</title>
+  <desc>65mm. Wren's hand hovering over precision gear, fingers extended not grasping. Stopped before integration. Behind hand: clock schematic rotates (left, copper-gold) + drive assembly schematic (right, blue-white). Wren's face above hand: tenderness — never seen on this character before. Captions: WREN: He made this for a clock. A machine to measure time. / WREN: I'm going to use it to escape time. / WREN: I don't think he would mind. I think he would want to know how.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p20p2bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="50%" stop-color="#1a1218"/>
+      <stop offset="100%" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="p20p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p20p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p20p2gear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <radialGradient id="p20p2warmHolo" cx="20%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7a4818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p20p2coolHolo" cx="80%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#a8d8ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3060a8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p20p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p20p2glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="742" height="364" fill="url(#p20p2bg)"/>
+
+  <!-- Warm holo light from LEFT (clock) -->
+  <rect width="742" height="364" fill="url(#p20p2warmHolo)" opacity="0.85"/>
+  <!-- Cool holo light from RIGHT (drive) -->
+  <rect width="742" height="364" fill="url(#p20p2coolHolo)" opacity="0.85"/>
+
+  <!-- ===== CLOCK SCHEMATIC on LEFT (rotating wireframe, copper-gold) ===== -->
+  <g transform="translate(150 200)">
+    <ellipse cx="0" cy="0" rx="100" ry="80" fill="none" stroke="#ffd078" stroke-width="1" filter="url(#p20p2bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="none" stroke="#ffaa48" stroke-width="0.7" filter="url(#p20p2bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="20" ry="80" fill="none" stroke="#ffaa48" stroke-width="0.55" filter="url(#p20p2bloom)" opacity="0.55"/>
+    <!-- Inner gears wireframe -->
+    <g stroke="#ffd078" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#p20p2bloom)">
+      <circle cx="-30" cy="-22" r="18"/>
+      <circle cx="30" cy="-22" r="14"/>
+      <circle cx="0" cy="14" r="22"/>
+      <line x1="-30" y1="-40" x2="-30" y2="-4"/>
+      <line x1="-48" y1="-22" x2="-12" y2="-22"/>
+      <line x1="30" y1="-36" x2="30" y2="-8"/>
+      <line x1="0" y1="-8" x2="0" y2="36"/>
+      <line x1="-22" y1="14" x2="22" y2="14"/>
+    </g>
+    <!-- Pendulum line -->
+    <line x1="0" y1="0" x2="0" y2="-60" stroke="#ffd078" stroke-width="0.55" opacity="0.85"/>
+    <ellipse cx="0" cy="-60" rx="3" ry="2" fill="#ffd078" opacity="0.85" filter="url(#p20p2bloom)"/>
+  </g>
+
+  <!-- ===== DRIVE SCHEMATIC on RIGHT (blue-white wireframe) ===== -->
+  <g transform="translate(580 200)">
+    <ellipse cx="0" cy="0" rx="100" ry="80" fill="none" stroke="#a8d8ff" stroke-width="1" filter="url(#p20p2bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="none" stroke="#5a98e8" stroke-width="0.7" filter="url(#p20p2bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="20" ry="80" fill="none" stroke="#5a98e8" stroke-width="0.55" filter="url(#p20p2bloom)" opacity="0.55"/>
+    <!-- Drive components — different aesthetic (not gears, more abstract/hex) -->
+    <g stroke="#a8d8ff" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#p20p2bloom)">
+      <!-- Hex pattern -->
+      <polygon points="-30,-22 -22,-30 -10,-30 -2,-22 -10,-14 -22,-14"/>
+      <polygon points="10,-22 18,-30 30,-30 38,-22 30,-14 18,-14"/>
+      <polygon points="-9,15 -1,7 11,7 19,15 11,23 -1,23"/>
+      <line x1="-2" y1="-22" x2="10" y2="-22"/>
+      <line x1="14" y1="-14" x2="0" y2="0"/>
+      <line x1="-14" y1="-14" x2="0" y2="0"/>
+      <!-- Crystalline lattice nodes -->
+      <circle cx="0" cy="0" r="3"/>
+      <circle cx="-30" cy="-22" r="2"/>
+      <circle cx="30" cy="-22" r="2"/>
+      <circle cx="5" cy="15" r="2"/>
+    </g>
+  </g>
+
+  <!-- WORKSTATION surface -->
+  <rect y="280" width="742" height="84" fill="#3a1808" opacity="0.65"/>
+  <line x1="0" y1="280" x2="742" y2="280" stroke="#5a3018" stroke-width="0.55"/>
+
+  <!-- ===== PRECISION GEAR on workstation, center ===== -->
+  <g transform="translate(371 320)">
+    <!-- Halo -->
+    <circle cx="0" cy="0" r="40" fill="#ffd078" opacity="0.45" filter="url(#p20p2glow)"/>
+    <circle cx="0" cy="0" r="40" fill="#a8d8ff" opacity="0.35" filter="url(#p20p2glow)"/>
+    <!-- Gear -->
+    <circle cx="0" cy="0" r="22" fill="url(#p20p2gear)"/>
+    <circle cx="0" cy="0" r="18" fill="#7a4818" opacity="0.65"/>
+    <circle cx="0" cy="0" r="6" fill="#1a0c04"/>
+    <g stroke="#5a3018" stroke-width="0.4">
+      <line x1="0" y1="-22" x2="0" y2="-26"/>
+      <line x1="0" y1="22" x2="0" y2="26"/>
+      <line x1="-22" y1="0" x2="-26" y2="0"/>
+      <line x1="22" y1="0" x2="26" y2="0"/>
+      <line x1="-15" y1="-15" x2="-18" y2="-18"/>
+      <line x1="15" y1="-15" x2="18" y2="-18"/>
+    </g>
+    <ellipse cx="-6" cy="-6" rx="3" ry="2" fill="#fff8e8" opacity="0.85" filter="url(#p20p2bloom)"/>
+  </g>
+
+  <!-- ===== WREN'S HAND HOVERING (fingers extended, not grasping) ===== -->
+  <g transform="translate(371 200)">
+    <!-- Forearm coming from above -->
+    <rect x="-9" y="-100" width="22" height="80" fill="url(#p20p2suit)"/>
+    <line x1="-9" y1="-95" x2="13" y2="-95" stroke="#ffaa48" stroke-width="0.55" opacity="0.85" filter="url(#p20p2bloom)"/>
+    <!-- Cuff -->
+    <line x1="-9" y1="-22" x2="13" y2="-22" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- Wrist + palm — hovering, not lowered -->
+    <ellipse cx="2" cy="-15" rx="14" ry="9" fill="url(#p20p2skin)"/>
+
+    <!-- Fingers EXTENDED but RELAXED (not gripping) — splayed in hovering pose -->
+    <ellipse cx="-9" cy="9" rx="3" ry="22" fill="url(#p20p2skin)" transform="rotate(-15 -9 9)"/>
+    <ellipse cx="0" cy="14" rx="3" ry="26" fill="url(#p20p2skin)"/>
+    <ellipse cx="9" cy="11" rx="3" ry="22" fill="url(#p20p2skin)" transform="rotate(15 9 11)"/>
+    <ellipse cx="18" cy="6" rx="3" ry="18" fill="url(#p20p2skin)" transform="rotate(30 18 6)"/>
+    <!-- Thumb -->
+    <ellipse cx="-22" cy="0" rx="9" ry="4" fill="url(#p20p2skin)" transform="rotate(-30 -22 0)"/>
+
+    <!-- Subtle SHADOW cast on gear below (showing hand IS hovering, not touching) -->
+    <ellipse cx="0" cy="100" rx="22" ry="9" fill="#1a0c04" opacity="0.45" filter="url(#p20p2glow)"/>
+
+    <!-- Heavy oil stains -->
+    <circle cx="0" cy="0" r="2" fill="#1a0c04" opacity="0.7"/>
+    <circle cx="-9" cy="-3" r="1.4" fill="#1a0c04" opacity="0.65"/>
+    <circle cx="11" cy="-6" r="1" fill="#1a0c04" opacity="0.55"/>
+    <!-- New scratch on forearm -->
+    <line x1="-3" y1="-50" x2="0" y2="-44" stroke="#dc4040" stroke-width="0.55"/>
+
+    <!-- Knuckle creases -->
+    <path d="M-12,-9 Q0,-6 12,-9" stroke="#5a3018" stroke-width="0.4" fill="none" opacity="0.55"/>
+  </g>
+
+  <!-- WREN'S FACE visible above hand, looking down -->
+  <g transform="translate(371 70)">
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="20" ry="22" fill="url(#p20p2skin)"/>
+    <!-- Hair UP — bun + WILD with copper dust -->
+    <ellipse cx="0" cy="-15" rx="11" ry="6" fill="#0a0604"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="3" fill="#1a0c04"/>
+    <path d="M-22,-15 Q-18,-22 0,-26 Q18,-22 22,-15 L20,-9 Q14,-22 0,-22 Q-14,-22 -20,-9 Z" fill="#0a0604"/>
+    <circle cx="-9" cy="-18" r="0.55" fill="#c87a35" opacity="0.85"/>
+    <circle cx="9" cy="-18" r="0.55" fill="#c87a35" opacity="0.85"/>
+
+    <!-- Loose strands across face (more than usual) -->
+    <path d="M-15,-7 Q-18,0 -16,7" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M15,-7 Q18,0 16,7" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M-7,-12 Q-9,-2 -7,8" stroke="#0a0604" stroke-width="0.55" fill="none" opacity="0.85"/>
+
+    <!-- EYES — looking DOWN at gear, half-lidded (TENDERNESS — new expression) -->
+    <ellipse cx="-7" cy="0" rx="3.4" ry="1.4" fill="#fff8e8"/>
+    <!-- Top lid lowered (half-lidded gaze) -->
+    <path d="M-10,-1 Q-7,2 -4,-1" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <ellipse cx="-7" cy="2" rx="2" ry="1" fill="#3a2010"/>
+    <circle cx="-7" cy="2" r="0.7" fill="#0a0604"/>
+
+    <ellipse cx="7" cy="0" rx="3.4" ry="1.4" fill="#fff8e8"/>
+    <path d="M4,-1 Q7,2 10,-1" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <ellipse cx="7" cy="2" rx="2" ry="1" fill="#3a2010"/>
+    <circle cx="7" cy="2" r="0.7" fill="#0a0604"/>
+
+    <!-- Brows level, slightly raised at inner ends — TENDERNESS -->
+    <path d="M-12,-6 L-3,-7" stroke="#0a0604" stroke-width="0.85" stroke-linecap="round"/>
+    <path d="M3,-7 L12,-6" stroke="#0a0604" stroke-width="0.85" stroke-linecap="round"/>
+
+    <!-- Mouth — soft, slightly parted (not smile, not frown — tenderness) -->
+    <path d="M-5,12 L5,12" stroke="#3a1808" stroke-width="0.85" stroke-linecap="round"/>
+    <path d="M-5,12 Q0,14 5,12" stroke="#3a1808" stroke-width="0.4" fill="none" opacity="0.65"/>
+
+    <!-- Warm holo glow on face -->
+    <ellipse cx="-6" cy="6" rx="9" ry="11" fill="#ffd078" opacity="0.45" filter="url(#p20p2bloom)"/>
+    <!-- Cool drive glow on opposite side -->
+    <ellipse cx="6" cy="6" rx="9" ry="11" fill="#a8c8e8" opacity="0.45" filter="url(#p20p2bloom)"/>
+  </g>
+
+  <!-- CAPTION 1 -->
+  <g>
+    <rect x="14" y="14" width="240" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="22" y="28" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="22" y="42" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="500">"He made this for a clock."</text>
+  </g>
+
+  <!-- CAPTION 2 -->
+  <g>
+    <rect x="488" y="14" width="240" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="496" y="28" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="496" y="42" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="600">"I'm going to use it to escape time."</text>
+  </g>
+
+  <!-- CAPTION 3 -->
+  <g>
+    <rect x="200" y="316" width="340" height="40" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="208" y="330" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="208" y="344" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="500">"I don't think he would mind. I think</text>
+    <text x="208" y="354" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="500">he would want to know how."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q180,138 360,142 Q540,144 742,140"/>
+    <path d="M0,310 Q180,308 360,312 Q540,314 742,310"/>
+  </g>
+</svg>
