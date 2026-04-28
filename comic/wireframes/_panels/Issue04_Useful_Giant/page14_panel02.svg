@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 4 — Page 14 — Panel 2: Unseelie steal children, Thresh silent</title>
+  <desc>MCU Theodore from below + Thresh visible BG, gone quiet. Theodore: ...and the Unseelie court, they're the dark ones. They steal folk away. People go missing and the old women say the fairies took 'em. Children, mostly. / Thresh: ...</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1424"/>
+      <stop offset="100%" stop-color="#0a0814"/>
+    </linearGradient>
+    <linearGradient id="p14p2timber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="p14p2floorboard" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p14p2theoSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8b8a8"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </linearGradient>
+    <linearGradient id="p14p2threshSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8a888"/>
+      <stop offset="100%" stop-color="#e8b898"/>
+    </linearGradient>
+    <linearGradient id="p14p2crimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d83040"/>
+      <stop offset="100%" stop-color="#7a1018"/>
+    </linearGradient>
+    <radialGradient id="p14p2gapDay" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#d8c8a8"/>
+      <stop offset="100%" stop-color="#a89888"/>
+    </radialGradient>
+    <filter id="p14p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p14p2bg)"/>
+
+  <!-- Top: gap with Theodore (more frame, looking down telling story) -->
+  <rect x="0" y="0" width="366" height="80" fill="url(#p14p2floorboard)"/>
+  <g>
+    <rect x="100" y="20" width="166" height="60" fill="url(#p14p2gapDay)"/>
+    <rect x="100" y="20" width="166" height="2" fill="#1a0c04"/>
+    <rect x="100" y="78" width="166" height="2" fill="#1a0c04"/>
+    <ellipse cx="183" cy="50" rx="60" ry="22" fill="url(#p14p2theoSkin)"/>
+    <!-- Hair top -->
+    <path d="M123,32 Q150,28 183,28 Q216,28 243,32 L240,40 Q210,36 183,36 Q156,36 126,40 Z" fill="#5a4838"/>
+    <ellipse cx="170" cy="50" rx="6" ry="4" fill="#fff8e8"/>
+    <circle cx="171" cy="50" r="2" fill="#7a5028"/>
+    <circle cx="171" cy="50" r="1" fill="#0a0604"/>
+    <ellipse cx="196" cy="50" rx="6" ry="4" fill="#fff8e8"/>
+    <circle cx="197" cy="50" r="2" fill="#7a5028"/>
+    <circle cx="197" cy="50" r="1" fill="#0a0604"/>
+    <!-- Mouth — slightly open mid-tale, sober -->
+    <ellipse cx="183" cy="64" rx="6" ry="2" fill="#a85838"/>
+  </g>
+
+  <!-- Brick BG -->
+  <rect x="0" y="80" width="366" height="200" fill="#2a1810" opacity="0.65"/>
+
+  <!-- Beam -->
+  <rect x="0" y="280" width="366" height="44" fill="url(#p14p2timber)"/>
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.65">
+    <line x1="0" y1="282" x2="366" y2="282"/>
+    <line x1="0" y1="316" x2="366" y2="316"/>
+  </g>
+
+  <!-- THRESH — central, gone quiet (a tell) -->
+  <g transform="translate(180 282)">
+    <ellipse cx="0" cy="0" rx="20" ry="3.5" fill="#0a0604" opacity="0.7"/>
+    <path d="M-8,-50 L-12,-2 L-3,0 L-1,-50 Z" fill="url(#p14p2crimson)"/>
+    <path d="M1,-50 L3,0 L12,-2 L8,-50 Z" fill="url(#p14p2crimson)"/>
+    <path d="M-14,-86 L-16,-50 L16,-50 L14,-86 Z" fill="url(#p14p2crimson)"/>
+    <path d="M-12,-78 L-12,-56 L12,-56 L12,-78 Z" fill="#a82030" opacity="0.8"/>
+    <path d="M-14,-86 Q-22,-94 -14,-100 L-7,-100 L-9,-84 Z" fill="#a82030"/>
+    <ellipse cx="-16" cy="-94" rx="3" ry="1.4" fill="#5a0810" opacity="0.85"/>
+    <path d="M14,-86 Q22,-94 14,-100 L7,-100 Z" fill="url(#p14p2crimson)"/>
+    <circle cx="-9" cy="-94" r="1" fill="#ffaaaa" filter="url(#p14p2bloom)"/>
+    <circle cx="9" cy="-94" r="1" fill="#ffaaaa" filter="url(#p14p2bloom)"/>
+    <!-- Arms at sides — still, silent -->
+    <path d="M-14,-78 Q-22,-58 -16,-44 L-10,-46 Q-12,-58 -10,-76 Z" fill="url(#p14p2crimson)"/>
+    <path d="M14,-78 Q22,-58 16,-44 L10,-46 Q12,-58 10,-76 Z" fill="url(#p14p2crimson)"/>
+    <ellipse cx="-15" cy="-44" rx="2.4" ry="1.4" fill="url(#p14p2threshSkin)"/>
+    <ellipse cx="15" cy="-44" rx="2.4" ry="1.4" fill="url(#p14p2threshSkin)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-114" rx="11" ry="13" fill="url(#p14p2threshSkin)"/>
+    <g fill="#a83018">
+      <path d="M-9,-122 Q-9,-128 0,-130 Q9,-128 9,-122 L7,-116 Q3,-122 -3,-122 Q-7,-122 -9,-116 Z"/>
+      <g stroke="#c84028" stroke-width="0.5" opacity="0.7">
+        <line x1="-7" y1="-126" x2="-7" y2="-122"/>
+        <line x1="-2" y1="-128" x2="-2" y2="-124"/>
+        <line x1="3" y1="-128" x2="3" y2="-124"/>
+        <line x1="7" y1="-126" x2="7" y2="-122"/>
+      </g>
+    </g>
+    <!-- Eyes — a thousand-yard stare (something landed) -->
+    <ellipse cx="-3" cy="-114" rx="1.5" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-114" r="0.6" fill="#0a0604"/>
+    <ellipse cx="3" cy="-114" rx="1.5" ry="0.85" fill="#fff8e8"/>
+    <circle cx="3" cy="-114" r="0.6" fill="#0a0604"/>
+    <!-- Mouth — flat, slightly downturned -->
+    <path d="M-3,-108 L3,-108" stroke="#5a1808" stroke-width="0.85"/>
+  </g>
+
+  <!-- DIALOGUE — Theodore: ...and the Unseelie court... -->
+  <g>
+    <rect x="14" y="100" width="338" height="74" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M180,100 L186,90 L190,100 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M184,100 L188,100" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="118" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="22" y="136" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">...and the Unseelie court, they're the dark ones.</text>
+  <text x="22" y="152" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">They steal folk away. People go missing and the old</text>
+  <text x="22" y="168" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">women say the fairies took 'em. <tspan font-weight="700">Children, mostly.</tspan></text>
+
+  <!-- DIALOGUE — Thresh: ... -->
+  <g>
+    <rect x="220" y="200" width="100" height="44" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M260,244 L270,244 L262,256 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2"/>
+    <path d="M262,244 L268,244" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="228" y="218" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030">THRESH</text>
+  <text x="228" y="240" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" fill="#1a1a1a" font-weight="700">...</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,100 Q120,102 240,98 Q300,96 366,100"/>
+    <path d="M0,300 Q120,302 240,298 Q300,296 366,300"/>
+  </g>
+</svg>
