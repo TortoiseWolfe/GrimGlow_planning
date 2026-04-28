@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 5 — Page 2 — Panel 2: Sable looking up at Theodore — flat authority — briefing an operative not a child</title>
+  <desc>50mm MCU slight low angle. Sable looking up, hand on hip near sidearm (habitual not threatening). Schematic copper-gold behind. Warm light from above falling on top of silver-buzz hair. Cool camp glow at feet. Command that costs something.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p2p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="50%" stop-color="#1a0c08"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p2p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dad5d0"/>
+      <stop offset="100%" stop-color="#5a5860"/>
+    </linearGradient>
+    <linearGradient id="p2p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="50%" stop-color="#7a4838"/>
+      <stop offset="100%" stop-color="#5a3828"/>
+    </linearGradient>
+    <radialGradient id="p2p2warmAbove" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p2p2schematicBehind" cx="100%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p2p2coolBelow" cx="0%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#a8c0ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5a78c8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p2p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p2p2glow"><feGaussianBlur stdDeviation="2.8"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p2p2bg)"/>
+
+  <!-- Floorboard above (visible at top edge) -->
+  <rect x="0" y="0" width="366" height="30" fill="#3a2818"/>
+  <line x1="120" y1="0" x2="120" y2="30" stroke="#0a0604" stroke-width="1"/>
+  <line x1="240" y1="0" x2="240" y2="30" stroke="#0a0604" stroke-width="1"/>
+
+  <!-- Warm light from above (gaslight) -->
+  <rect width="366" height="364" fill="url(#p2p2warmAbove)"/>
+
+  <!-- Schematic copper-gold glow BEHIND (right side) -->
+  <ellipse cx="320" cy="220" rx="120" ry="180" fill="url(#p2p2schematicBehind)" filter="url(#p2p2glow)" opacity="0.7"/>
+  <!-- Hint of schematic wireframe -->
+  <g stroke="#ffd078" stroke-width="0.55" fill="none" opacity="0.5" filter="url(#p2p2bloom)">
+    <path d="M260,140 L340,150 L340,260 L260,250 Z"/>
+    <line x1="260" y1="200" x2="340" y2="210"/>
+    <rect x="288" y="180" width="22" height="50" rx="0.5"/>
+  </g>
+
+  <!-- Cool camp glow at feet -->
+  <rect width="366" height="364" fill="url(#p2p2coolBelow)"/>
+
+  <!-- ===== SABLE — looking up, hand on hip, slight low angle ===== -->
+  <g transform="translate(170 200)">
+    <!-- Boots -->
+    <ellipse cx="-7" cy="148" rx="9" ry="3.4" fill="#0a0408"/>
+    <ellipse cx="7" cy="148" rx="9" ry="3.4" fill="#0a0408"/>
+    <!-- Trousers -->
+    <rect x="-12" y="80" width="11" height="68" fill="url(#p2p2suit)"/>
+    <rect x="1" y="80" width="11" height="68" fill="url(#p2p2suit)"/>
+    <!-- Dust at knees -->
+    <ellipse cx="-7" cy="120" rx="9" ry="3" fill="#5a4838" opacity="0.6"/>
+    <ellipse cx="7" cy="120" rx="9" ry="3" fill="#5a4838" opacity="0.6"/>
+    <!-- Torso -->
+    <path d="M-22,80 L-22,-20 L22,-20 L22,80 Z" fill="url(#p2p2suit)"/>
+    <line x1="-16" y1="0" x2="16" y2="0" stroke="#a8c0ff" stroke-width="1.4" opacity="0.85" filter="url(#p2p2bloom)"/>
+    <line x1="0" y1="-20" x2="0" y2="50" stroke="#a8c0ff" stroke-width="0.85" opacity="0.7"/>
+    <!-- Soot bloom right shoulder -->
+    <ellipse cx="22" cy="-20" rx="7" ry="4.4" fill="#3a3038" opacity="0.85"/>
+    <!-- Shoulders -->
+    <path d="M-22,-20 Q-18,-36 -2,-42 Q14,-42 22,-32 L22,-20 Z" fill="url(#p2p2suit)"/>
+
+    <!-- LEFT arm — at side -->
+    <rect x="-30" y="-20" width="8" height="80" fill="url(#p2p2suit)"/>
+    <ellipse cx="-26" cy="64" rx="4" ry="3" fill="url(#p2p2skin)"/>
+
+    <!-- RIGHT arm — bent, hand on hip near SIDEARM -->
+    <path d="M22,-20 L34,4 L24,28 L18,30 L18,26 L26,12 L20,-2 Z" fill="url(#p2p2suit)"/>
+    <ellipse cx="20" cy="30" rx="4" ry="3" fill="url(#p2p2skin)"/>
+    <!-- SIDEARM holster on hip -->
+    <rect x="14" y="34" width="10" height="14" fill="#3a3038" stroke="#5a606a" stroke-width="0.5" rx="0.4"/>
+    <rect x="16" y="36" width="6" height="3" fill="#5a606a"/>
+
+    <!-- Head — TILTED UP looking through gap -->
+    <ellipse cx="0" cy="-58" rx="20" ry="26" fill="url(#p2p2skin)"/>
+    <!-- Warm wash from above on TOP of head/hair -->
+    <ellipse cx="0" cy="-78" rx="22" ry="10" fill="#ffd078" opacity="0.6" filter="url(#p2p2bloom)"/>
+    <!-- Silver-buzz hair — catches warm light strongly -->
+    <path d="M-17,-78 Q-14,-86 0,-88 Q14,-86 17,-78 L16,-72 Q10,-80 0,-80 Q-10,-80 -16,-72 Z" fill="#fff0e0"/>
+    <!-- Eyes — looking UP -->
+    <ellipse cx="-6" cy="-62" rx="3" ry="1.6" fill="#fff8e8"/>
+    <ellipse cx="-6" cy="-63" rx="2" ry="1.2" fill="#3a2010"/>
+    <circle cx="-6" cy="-63" r="1.2" fill="#0a0604"/>
+    <ellipse cx="6" cy="-62" rx="3" ry="1.6" fill="#fff8e8"/>
+    <ellipse cx="6" cy="-63" rx="2" ry="1.2" fill="#3a2010"/>
+    <circle cx="6" cy="-63" r="1.2" fill="#0a0604"/>
+    <!-- Brows level — flat authority -->
+    <path d="M-12,-72 L-1,-73" stroke="#0a0604" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M1,-73 L12,-72" stroke="#0a0604" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M-2,-52 L-1,-44 Q1,-42 3,-42 L3,-46 Z" fill="url(#p2p2skin)" opacity="0.85"/>
+    <!-- Mouth — speaking, set -->
+    <path d="M-6,-34 L6,-34" stroke="#3a1808" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- SABLE dialogue 1 -->
+  <g>
+    <rect x="14" y="14" width="338" height="56" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="160,70 172,70 164,82" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="160.5" y1="70" x2="171.5" y2="70" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Your role is contingency only. You do not</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">enter the shop unless I signal.</text>
+
+  <!-- THEODORE reply (from above) -->
+  <g>
+    <rect x="200" y="306" width="156" height="44" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="220,306 232,306 224,296" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="220.5" y1="306" x2="231.5" y2="306" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="208" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700">THEODORE (above)</text>
+  <text x="208" y="342" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Yes, Captain.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+  </g>
+</svg>
