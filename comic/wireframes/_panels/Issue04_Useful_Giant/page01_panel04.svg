@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 364" width="494" height="364">
+  <title>Issue 4 — Page 1 — Panel 4: Theodore connects evidence, crash shard on notebook page glows prismatically</title>
+  <desc>35mm medium-wide eye level. Theodore sits on heels with notebook on knee. Crash shard on open page provides faint cool prismatic glow against grey-gold morning courtyard. Map shows X marks connected by pencil line leading to courtyard's far corner. Caption — The marks led somewhere. Everything led somewhere.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p1p4sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9a948a"/>
+      <stop offset="100%" stop-color="#b8b0a4"/>
+    </linearGradient>
+    <linearGradient id="p1p4brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4838"/>
+      <stop offset="100%" stop-color="#5a3028"/>
+    </linearGradient>
+    <linearGradient id="p1p4cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6a5a48"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p1p4theoSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="100%" stop-color="#c8b8a8"/>
+    </linearGradient>
+    <radialGradient id="p1p4theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#88806a"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </radialGradient>
+    <linearGradient id="p1p4vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4030"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p1p4shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b8a890"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </linearGradient>
+    <linearGradient id="p1p4trousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2c20"/>
+    </linearGradient>
+    <radialGradient id="p1p4shardGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#d8e0f0" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a8c0e0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#a8c0e0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p1p4shardCore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8f0ff"/>
+      <stop offset="40%" stop-color="#a8c0e0"/>
+      <stop offset="70%" stop-color="#c0a8e0"/>
+      <stop offset="100%" stop-color="#5a4878"/>
+    </linearGradient>
+    <filter id="p1p4bloom"><feGaussianBlur stdDeviation="2.2"/></filter>
+  </defs>
+
+  <!-- BG: courtyard wall continuing -->
+  <rect width="494" height="120" fill="url(#p1p4sky)"/>
+  <rect x="0" y="60" width="494" height="160" fill="url(#p1p4brick)"/>
+  <g stroke="#3a2010" stroke-width="0.4" opacity="0.55">
+    <line x1="0" y1="80" x2="494" y2="80"/>
+    <line x1="0" y1="100" x2="494" y2="100"/>
+    <line x1="0" y1="120" x2="494" y2="120"/>
+    <line x1="0" y1="140" x2="494" y2="140"/>
+    <line x1="0" y1="160" x2="494" y2="160"/>
+    <line x1="0" y1="180" x2="494" y2="180"/>
+    <line x1="0" y1="200" x2="494" y2="200"/>
+    <line x1="60" y1="60" x2="60" y2="100"/>
+    <line x1="160" y1="100" x2="160" y2="140"/>
+    <line x1="260" y1="140" x2="260" y2="180"/>
+    <line x1="380" y1="180" x2="380" y2="220"/>
+    <line x1="220" y1="60" x2="220" y2="100"/>
+    <line x1="360" y1="60" x2="360" y2="100"/>
+    <line x1="100" y1="180" x2="100" y2="220"/>
+  </g>
+  <!-- A small grimy window -->
+  <rect x="80" y="86" width="40" height="48" fill="#3a2818"/>
+  <rect x="84" y="90" width="32" height="40" fill="#5a4838" opacity="0.75"/>
+  <line x1="100" y1="90" x2="100" y2="130" stroke="#1a0c04" stroke-width="0.5"/>
+  <!-- Far right: hint of the wall gap corner -->
+  <rect x="450" y="200" width="44" height="20" fill="#3a2010"/>
+  <rect x="478" y="208" width="14" height="6" fill="#0a0604"/>
+
+  <!-- COBBLESTONES -->
+  <rect x="0" y="220" width="494" height="144" fill="url(#p1p4cobble)"/>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.65">
+    <path d="M0,240 Q160,238 320,242 Q420,244 494,240"/>
+    <path d="M0,270 Q160,272 320,268 Q420,266 494,270"/>
+    <path d="M0,310 Q160,308 320,312 Q420,314 494,310"/>
+    <path d="M0,345 Q160,347 320,343 Q420,341 494,345"/>
+  </g>
+  <g fill="#1a1410" opacity="0.5">
+    <circle cx="60" cy="252" r="1.4"/>
+    <circle cx="160" cy="262" r="1.4"/>
+    <circle cx="280" cy="252" r="1.4"/>
+    <circle cx="400" cy="262" r="1.4"/>
+    <circle cx="100" cy="295" r="1.4"/>
+    <circle cx="220" cy="305" r="1.4"/>
+    <circle cx="340" cy="295" r="1.4"/>
+    <circle cx="440" cy="305" r="1.4"/>
+    <circle cx="80" cy="335" r="1.4"/>
+    <circle cx="200" cy="345" r="1.4"/>
+    <circle cx="320" cy="335" r="1.4"/>
+    <circle cx="440" cy="345" r="1.4"/>
+  </g>
+
+  <!-- Distant figures hint? Just lighting, none. -->
+
+  <!-- THEODORE — sitting on heels, three-quarter view, notebook on knee -->
+  <g transform="translate(220 235)">
+    <!-- SHARD GLOW spilling around hands and notebook -->
+    <ellipse cx="34" cy="38" rx="80" ry="50" fill="url(#p1p4shardGlow)" opacity="0.7" filter="url(#p1p4bloom)"/>
+
+    <!-- Heels-folded legs -->
+    <path d="M-32,40 Q-30,16 -10,8 L-2,8 L-2,72 L-30,80 Z" fill="url(#p1p4trousers)"/>
+    <path d="M2,8 L10,8 Q30,16 32,40 L30,80 L2,72 Z" fill="url(#p1p4trousers)"/>
+    <!-- Calves under the body -->
+    <path d="M-30,72 Q-26,90 -16,98 L-2,98 L-2,80 Z" fill="url(#p1p4trousers)"/>
+    <path d="M2,80 L2,98 L16,98 Q26,90 30,72 Z" fill="url(#p1p4trousers)"/>
+    <!-- Boot heels showing under -->
+    <ellipse cx="-12" cy="100" rx="6" ry="2" fill="#1a0c04"/>
+    <ellipse cx="12" cy="100" rx="6" ry="2" fill="#1a0c04"/>
+    <!-- Patches -->
+    <rect x="-22" y="20" width="6" height="6" fill="#3a2010" opacity="0.7"/>
+    <rect x="14" y="32" width="5" height="5" fill="#3a2010" opacity="0.7"/>
+
+    <!-- Vest -->
+    <path d="M-26,-44 L-30,8 L30,8 L26,-44 Z" fill="url(#p1p4vest)"/>
+    <!-- Vest button line center -->
+    <line x1="0" y1="-40" x2="0" y2="6" stroke="#1a0c04" stroke-width="0.4" opacity="0.6"/>
+    <circle cx="0" cy="-30" r="1.2" fill="#7a5028"/>
+    <circle cx="0" cy="-18" r="1.2" fill="#7a5028"/>
+    <circle cx="0" cy="-6" r="1.2" fill="#7a5028"/>
+
+    <!-- Shirt collar -->
+    <path d="M-12,-58 L-10,-44 L10,-44 L12,-58 Z" fill="url(#p1p4shirt)"/>
+
+    <!-- Both arms reaching forward, cradling notebook -->
+    <path d="M-26,-40 Q-40,-20 -36,2 L-22,8 Q-22,-20 -18,-36 Z" fill="url(#p1p4shirt)"/>
+    <path d="M26,-40 Q40,-20 36,2 L22,8 Q22,-20 18,-36 Z" fill="url(#p1p4shirt)"/>
+    <!-- Hands holding notebook -->
+    <ellipse cx="-30" cy="14" rx="6" ry="4" fill="url(#p1p4theoSkin)"/>
+    <ellipse cx="30" cy="14" rx="6" ry="4" fill="url(#p1p4theoSkin)"/>
+    <!-- Brass gear ring on left index (left hand from his POV = our right) -->
+    <ellipse cx="34" cy="14" rx="1.6" ry="1" fill="#c89858" stroke="#7a5028" stroke-width="0.4"/>
+    <!-- Oil stains -->
+    <ellipse cx="-30" cy="14" rx="2" ry="1" fill="#1a0c04" opacity="0.45"/>
+    <ellipse cx="30" cy="14" rx="2" ry="1" fill="#1a0c04" opacity="0.45"/>
+
+    <!-- NOTEBOOK on knee — open -->
+    <g transform="translate(0 24)">
+      <!-- Spine + cover -->
+      <path d="M-30,-2 L34,-2 L36,28 L-32,28 Z" fill="#d8c8a8" stroke="#7a5848" stroke-width="0.7"/>
+      <!-- Spine line down center -->
+      <line x1="0" y1="-2" x2="0" y2="28" stroke="#7a5848" stroke-width="0.5"/>
+      <!-- Page lines -->
+      <g stroke="#7a5848" stroke-width="0.25" opacity="0.5">
+        <line x1="-26" y1="2" x2="-4" y2="2"/>
+        <line x1="-26" y1="6" x2="-4" y2="6"/>
+        <line x1="-26" y1="10" x2="-4" y2="10"/>
+        <line x1="-26" y1="14" x2="-4" y2="14"/>
+        <line x1="-26" y1="18" x2="-4" y2="18"/>
+        <line x1="-26" y1="22" x2="-4" y2="22"/>
+        <line x1="4" y1="2" x2="32" y2="2"/>
+        <line x1="4" y1="6" x2="32" y2="6"/>
+        <line x1="4" y1="10" x2="32" y2="10"/>
+        <line x1="4" y1="14" x2="32" y2="14"/>
+        <line x1="4" y1="18" x2="32" y2="18"/>
+        <line x1="4" y1="22" x2="32" y2="22"/>
+      </g>
+      <!-- LEFT PAGE: Map of courtyard with X marks connected by pencil line -->
+      <g>
+        <rect x="-26" y="2" width="22" height="22" fill="none" stroke="#3a2010" stroke-width="0.35"/>
+        <text x="-23" y="7" font-family="Helvetica Neue" font-size="3.5" fill="#3a2010" font-weight="700">×</text>
+        <text x="-17" y="11" font-family="Helvetica Neue" font-size="3.5" fill="#3a2010" font-weight="700">×</text>
+        <text x="-11" y="9" font-family="Helvetica Neue" font-size="3.5" fill="#3a2010" font-weight="700">×</text>
+        <text x="-7" y="17" font-family="Helvetica Neue" font-size="3.5" fill="#3a2010" font-weight="700">×</text>
+        <text x="-9" y="22" font-family="Helvetica Neue" font-size="3.5" fill="#3a2010" font-weight="700">×</text>
+        <!-- The pencil line connecting them, extending toward the FAR CORNER -->
+        <path d="M-22,7 L-16,11 L-10,9 L-6,17 L-9,22" fill="none" stroke="#3a2010" stroke-width="0.5" stroke-dasharray="0.7,0.5"/>
+        <!-- Arrow at end pointing outside frame toward the gap -->
+        <path d="M-9,22 L-7,24" stroke="#3a2010" stroke-width="0.5"/>
+      </g>
+      <!-- RIGHT PAGE: where the shard sits -->
+      <ellipse cx="18" cy="14" rx="14" ry="9" fill="url(#p1p4shardGlow)" opacity="0.85"/>
+    </g>
+
+    <!-- CRASH SHARD — resting on notebook page, prismatic geometric core -->
+    <g transform="translate(20 38)">
+      <!-- Base shard angular form -->
+      <path d="M-8,-2 L-2,-7 L6,-5 L8,2 L4,6 L-4,7 L-9,3 Z" fill="url(#p1p4shardCore)" stroke="#5a4878" stroke-width="0.5"/>
+      <!-- Internal geometry -->
+      <g opacity="0.75" stroke="#e8f0ff" stroke-width="0.35" fill="none">
+        <path d="M-6,-1 L0,-5 L5,-2"/>
+        <path d="M-3,2 L2,4"/>
+        <path d="M-5,3 L0,0 L4,3"/>
+      </g>
+      <!-- Bright core highlight -->
+      <ellipse cx="0" cy="0" rx="3" ry="1.6" fill="#f0f8ff" opacity="0.85"/>
+    </g>
+
+    <!-- Head — three-quarter, looking down at notebook -->
+    <ellipse cx="0" cy="-72" rx="14" ry="16" fill="url(#p1p4theoSkin)"/>
+    <!-- Hair sandy-brown -->
+    <g fill="url(#p1p4theoHair)">
+      <path d="M-12,-86 Q-14,-98 0,-102 Q14,-98 12,-86 L8,-82 Q4,-92 -4,-92 Q-12,-92 -16,-82 Z"/>
+      <path d="M-8,-98 L-10,-108 L-4,-98 Z"/>
+      <path d="M-2,-102 L-2,-110 L4,-98 Z"/>
+      <path d="M6,-102 L10,-110 L8,-98 Z"/>
+    </g>
+    <!-- Eyes — looking down, narrowed in concentration -->
+    <ellipse cx="-4" cy="-72" rx="2" ry="1.1" fill="#fff8e8"/>
+    <ellipse cx="-4" cy="-71.5" rx="1.4" ry="0.9" fill="#7a5028"/>
+    <circle cx="-4" cy="-71.5" r="0.6" fill="#1a0c04"/>
+    <ellipse cx="4" cy="-72" rx="2" ry="1.1" fill="#fff8e8"/>
+    <ellipse cx="4" cy="-71.5" rx="1.4" ry="0.9" fill="#7a5028"/>
+    <circle cx="4" cy="-71.5" r="0.6" fill="#1a0c04"/>
+    <!-- Brow set -->
+    <path d="M-8,-78 L-2,-80" stroke="#3a2010" stroke-width="0.7" stroke-linecap="round"/>
+    <path d="M2,-80 L8,-78" stroke="#3a2010" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M0,-67 L-2,-61 Q0,-60 2,-61 Z" fill="#7a5848" opacity="0.55"/>
+    <!-- Jaw set — closed mouth, methodical -->
+    <path d="M-3,-58 Q0,-57 3,-58" fill="none" stroke="#3a2010" stroke-width="0.55" stroke-linecap="round"/>
+    <!-- Freckles -->
+    <circle cx="-7" cy="-66" r="0.5" fill="#7a5848"/>
+    <circle cx="7" cy="-66" r="0.5" fill="#7a5848"/>
+    <circle cx="-3" cy="-64" r="0.4" fill="#7a5848"/>
+    <!-- Cool reflected glow on jaw from shard below -->
+    <path d="M-10,-58 Q0,-50 10,-58" fill="#a8c0e0" opacity="0.25"/>
+  </g>
+
+  <!-- DIALOGUE — Theodore: "All going the same way." -->
+  <g>
+    <rect x="14" y="14" width="190" height="44" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M100,58 L110,58 L102,70 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M102,58 L108,58" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="22" y="50" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">All going the same way.</text>
+
+  <!-- CAPTION — The marks led somewhere. Everything led somewhere. -->
+  <g>
+    <rect x="14" y="290" width="320" height="46" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="310" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="500">CAPTION</text>
+  <text x="22" y="328" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#5a4a30" font-style="italic">The marks led somewhere. Everything led somewhere.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,40 Q120,38 240,42 Q380,44 494,40"/>
+    <path d="M0,200 Q120,202 240,198 Q380,196 494,200"/>
+  </g>
+</svg>

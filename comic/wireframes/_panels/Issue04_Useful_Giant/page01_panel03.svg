@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 4 — Page 1 — Panel 3: Theodore's hand on brick wall, three parallel scratches with geometric residue</title>
+  <desc>85mm extreme close-up. Oil-stained hand pressed flat against Victorian brick wall at knee height. Beside fingers, three parallel scratches in mortar — too precise for animal, too small for human tool. At terminus of one scratch, faint geometric residue catches light prismatically. Brass gear ring on left index finger. Fingertip hovers without touching.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p1p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9a5a48"/>
+      <stop offset="100%" stop-color="#6a3828"/>
+    </linearGradient>
+    <linearGradient id="p1p3mortar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8b89a"/>
+      <stop offset="100%" stop-color="#8a7868"/>
+    </linearGradient>
+    <linearGradient id="p1p3theoSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8b8a8"/>
+      <stop offset="100%" stop-color="#8a7868"/>
+    </linearGradient>
+    <linearGradient id="p1p3residue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a8c0d8" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#a8d8c0" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#d8c0a8" stop-opacity="0.55"/>
+      <stop offset="80%" stop-color="#c0a8d8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c0a8d8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="p1p3residueGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d8c8b8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a8b8c8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p1p3soft"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+
+  <!-- BRICK WALL — fills frame -->
+  <rect width="366" height="364" fill="url(#p1p3brick)"/>
+
+  <!-- BRICK COURSES — horizontal mortar lines -->
+  <g>
+    <rect x="0" y="60" width="366" height="3" fill="url(#p1p3mortar)"/>
+    <rect x="0" y="138" width="366" height="3" fill="url(#p1p3mortar)"/>
+    <rect x="0" y="216" width="366" height="3" fill="url(#p1p3mortar)"/>
+    <rect x="0" y="294" width="366" height="3" fill="url(#p1p3mortar)"/>
+  </g>
+  <!-- VERTICAL MORTAR JOINTS (staggered courses) -->
+  <g>
+    <rect x="80" y="0" width="2.5" height="60" fill="url(#p1p3mortar)"/>
+    <rect x="200" y="0" width="2.5" height="60" fill="url(#p1p3mortar)"/>
+    <rect x="320" y="0" width="2.5" height="60" fill="url(#p1p3mortar)"/>
+    <rect x="40" y="63" width="2.5" height="75" fill="url(#p1p3mortar)"/>
+    <rect x="160" y="63" width="2.5" height="75" fill="url(#p1p3mortar)"/>
+    <rect x="280" y="63" width="2.5" height="75" fill="url(#p1p3mortar)"/>
+    <rect x="100" y="141" width="2.5" height="75" fill="url(#p1p3mortar)"/>
+    <rect x="220" y="141" width="2.5" height="75" fill="url(#p1p3mortar)"/>
+    <rect x="340" y="141" width="2.5" height="75" fill="url(#p1p3mortar)"/>
+    <rect x="60" y="219" width="2.5" height="75" fill="url(#p1p3mortar)"/>
+    <rect x="180" y="219" width="2.5" height="75" fill="url(#p1p3mortar)"/>
+    <rect x="300" y="219" width="2.5" height="75" fill="url(#p1p3mortar)"/>
+    <rect x="20" y="297" width="2.5" height="67" fill="url(#p1p3mortar)"/>
+    <rect x="140" y="297" width="2.5" height="67" fill="url(#p1p3mortar)"/>
+    <rect x="260" y="297" width="2.5" height="67" fill="url(#p1p3mortar)"/>
+  </g>
+
+  <!-- Brick texture — random pits and color variation -->
+  <g opacity="0.5">
+    <ellipse cx="60" cy="30" rx="10" ry="4" fill="#8a4838"/>
+    <ellipse cx="180" cy="100" rx="14" ry="5" fill="#7a4030"/>
+    <ellipse cx="280" cy="170" rx="10" ry="4" fill="#7a4030"/>
+    <ellipse cx="120" cy="250" rx="12" ry="4" fill="#8a4838"/>
+    <ellipse cx="240" cy="330" rx="10" ry="3.5" fill="#7a4030"/>
+    <circle cx="40" cy="100" r="1.6" fill="#3a1808"/>
+    <circle cx="220" cy="170" r="1.6" fill="#3a1808"/>
+    <circle cx="100" cy="40" r="1.6" fill="#3a1808"/>
+    <circle cx="280" cy="240" r="1.6" fill="#3a1808"/>
+    <circle cx="160" cy="320" r="1.6" fill="#3a1808"/>
+  </g>
+
+  <!-- THE THREE PARALLEL SCRATCHES — in mortar between bricks (around y=200) -->
+  <g>
+    <line x1="195" y1="180" x2="320" y2="184" stroke="#1a0a04" stroke-width="0.85" opacity="0.95"/>
+    <line x1="195" y1="200" x2="320" y2="204" stroke="#1a0a04" stroke-width="0.85" opacity="0.95"/>
+    <line x1="195" y1="220" x2="320" y2="224" stroke="#1a0a04" stroke-width="0.85" opacity="0.95"/>
+    <!-- Highlight scratch edges (cut into mortar) -->
+    <line x1="195" y1="181" x2="320" y2="185" stroke="#d8c8a8" stroke-width="0.4" opacity="0.6"/>
+    <line x1="195" y1="201" x2="320" y2="205" stroke="#d8c8a8" stroke-width="0.4" opacity="0.6"/>
+    <line x1="195" y1="221" x2="320" y2="225" stroke="#d8c8a8" stroke-width="0.4" opacity="0.6"/>
+  </g>
+
+  <!-- GEOMETRIC RESIDUE at terminus of middle scratch — faint prismatic, NOT glowing -->
+  <g>
+    <ellipse cx="320" cy="204" rx="16" ry="10" fill="url(#p1p3residueGlow)" opacity="0.7" filter="url(#p1p3soft)"/>
+    <!-- Subtle prismatic streak -->
+    <rect x="305" y="200" width="32" height="9" fill="url(#p1p3residue)" opacity="0.85"/>
+    <!-- Tiny geometric trace lines -->
+    <g opacity="0.6">
+      <line x1="312" y1="200" x2="318" y2="208" stroke="#a8c0d8" stroke-width="0.4"/>
+      <line x1="320" y1="198" x2="328" y2="206" stroke="#c0a8d8" stroke-width="0.4"/>
+      <line x1="324" y1="200" x2="320" y2="210" stroke="#a8d8c0" stroke-width="0.4"/>
+      <path d="M315,198 L320,202 L325,198 L320,194 Z" fill="none" stroke="#d8c8a8" stroke-width="0.3"/>
+    </g>
+  </g>
+
+  <!-- THEODORE'S HAND — pressed flat against brick wall, fingers extending right -->
+  <g transform="translate(20 110)">
+    <!-- Forearm (entering frame from left) -->
+    <path d="M-20,30 L-20,90 L80,82 L80,40 Z" fill="url(#p1p3theoSkin)"/>
+    <!-- Shirt sleeve (rolled) at forearm base -->
+    <rect x="-20" y="20" width="32" height="20" fill="#a89070"/>
+    <line x1="-20" y1="38" x2="12" y2="38" stroke="#7a6858" stroke-width="0.7"/>
+    <!-- Wrist crease -->
+    <path d="M14,42 Q24,52 34,46" fill="none" stroke="#7a5848" stroke-width="0.55"/>
+    <!-- Palm/back of hand -->
+    <path d="M40,40 Q60,38 84,46 L114,52 L130,72 L120,90 L80,82 Z" fill="url(#p1p3theoSkin)"/>
+
+    <!-- FINGERS — splayed flat against brick -->
+    <!-- Index finger (with brass gear ring) — extended toward residue -->
+    <path d="M120,52 L160,40 Q172,42 174,52 L172,62 L132,68 Z" fill="url(#p1p3theoSkin)"/>
+    <!-- BRASS GEAR RING on index finger -->
+    <ellipse cx="148" cy="52" rx="6" ry="3" fill="#1a0c04"/>
+    <ellipse cx="148" cy="50" rx="5.5" ry="2.5" fill="#c89858" stroke="#7a5028" stroke-width="0.55"/>
+    <ellipse cx="148" cy="50" rx="3.5" ry="1.6" fill="#a86828"/>
+    <!-- Tiny gear teeth -->
+    <g fill="#7a5028" opacity="0.8">
+      <rect x="143" y="48" width="0.7" height="1.2"/>
+      <rect x="146" y="47" width="0.7" height="1"/>
+      <rect x="149" y="47" width="0.7" height="1"/>
+      <rect x="152" y="48" width="0.7" height="1.2"/>
+    </g>
+    <!-- Middle finger -->
+    <path d="M122,68 L160,68 Q170,72 168,82 L166,92 L130,90 Z" fill="url(#p1p3theoSkin)"/>
+    <!-- Ring finger -->
+    <path d="M124,90 L156,92 Q166,98 162,108 L158,118 L130,114 Z" fill="url(#p1p3theoSkin)"/>
+    <!-- Pinky -->
+    <path d="M126,114 L150,118 Q158,124 154,132 L150,140 L132,138 Z" fill="url(#p1p3theoSkin)"/>
+
+    <!-- THUMB — wraps slightly toward viewer -->
+    <path d="M40,40 L46,16 Q60,8 76,18 L82,32 L70,40 Z" fill="url(#p1p3theoSkin)"/>
+
+    <!-- Fingernails -->
+    <path d="M168,50 Q174,52 174,58 L172,62 L168,58 Z" fill="#d8c0a8" opacity="0.85"/>
+    <path d="M165,72 Q171,76 168,82 L166,86 L162,80 Z" fill="#d8c0a8" opacity="0.85"/>
+    <path d="M160,98 Q166,102 162,108 L160,112 L156,106 Z" fill="#d8c0a8" opacity="0.85"/>
+    <path d="M152,124 Q156,128 154,132 L152,134 L148,130 Z" fill="#d8c0a8" opacity="0.85"/>
+
+    <!-- OIL STAINS on hand -->
+    <g fill="#1a0c04" opacity="0.5">
+      <ellipse cx="60" cy="62" rx="8" ry="3"/>
+      <ellipse cx="86" cy="76" rx="6" ry="2.5"/>
+      <ellipse cx="100" cy="62" rx="4" ry="2"/>
+      <ellipse cx="50" cy="76" rx="5" ry="2"/>
+      <circle cx="138" cy="60" r="1.4"/>
+      <circle cx="142" cy="80" r="1.2"/>
+    </g>
+    <!-- Subtle knuckle creases -->
+    <g stroke="#5a3828" stroke-width="0.4" fill="none" opacity="0.6">
+      <path d="M130,58 Q132,54 138,55"/>
+      <path d="M132,80 Q134,76 140,77"/>
+      <path d="M134,102 Q136,98 142,100"/>
+      <path d="M136,124 Q138,120 144,122"/>
+    </g>
+    <!-- Skin shadow under hand -->
+    <ellipse cx="80" cy="148" rx="50" ry="6" fill="#1a0c04" opacity="0.35"/>
+  </g>
+
+  <!-- Fingertip hovering OVER residue (not touching) — faint shadow gap -->
+  <ellipse cx="320" cy="186" rx="10" ry="3" fill="#1a0c04" opacity="0.25"/>
+
+  <!-- DIALOGUE — Theodore (quiet, awed): "There." -->
+  <g>
+    <rect x="20" y="20" width="86" height="44" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M50,64 L60,64 L52,76 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M52,64 L58,64" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="28" y="38" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="28" y="56" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a" font-style="italic">There.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,40 Q120,38 240,42 Q300,44 366,40"/>
+    <path d="M0,260 Q120,262 240,258 Q300,256 366,260"/>
+  </g>
+</svg>
