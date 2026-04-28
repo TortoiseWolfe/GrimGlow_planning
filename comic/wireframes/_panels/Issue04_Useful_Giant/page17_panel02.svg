@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 4 — Page 17 — Panel 2: Scanner display flares with frequency-match alert — Luma reading data before seeing source</title>
+  <desc>85mm CU. Slight low angle. Hands hold scanner whose display has flared bright with geometric script alert. Luma's face beyond the device, lenses cycling. The data is impossible.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p17p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c1a"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p17p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="100%" stop-color="#7a4838"/>
+    </linearGradient>
+    <linearGradient id="p17p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#3a2068"/>
+    </linearGradient>
+    <linearGradient id="p17p2scanner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="50%" stop-color="#a888e8"/>
+      <stop offset="100%" stop-color="#5a3ad8"/>
+    </linearGradient>
+    <radialGradient id="p17p2washCool" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#a888e8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a888e8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p17p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p17p2glow"><feGaussianBlur stdDeviation="2.8"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p17p2bg)"/>
+
+  <!-- Old brick backdrop -->
+  <rect x="0" y="0" width="366" height="364" fill="#2a1810" opacity="0.55"/>
+  <g stroke="#0a0604" stroke-width="0.4" opacity="0.6">
+    <path d="M0,40 Q120,42 240,38 Q320,36 366,40"/>
+    <path d="M0,80 Q120,78 240,82 Q320,84 366,80"/>
+    <path d="M0,120 Q120,122 240,118 Q320,116 366,120"/>
+    <path d="M0,160 Q120,158 240,162 Q320,164 366,160"/>
+    <path d="M0,200 Q120,202 240,198 Q320,196 366,200"/>
+    <path d="M0,240 Q120,238 240,242 Q320,244 366,240"/>
+    <path d="M0,280 Q120,282 240,278 Q320,276 366,280"/>
+    <path d="M0,320 Q120,318 240,322 Q320,324 366,320"/>
+  </g>
+
+  <!-- Strong cool wash from scanner -->
+  <rect width="366" height="364" fill="url(#p17p2washCool)"/>
+
+  <!-- LUMA face — back depth, partial -->
+  <g transform="translate(220 90)">
+    <ellipse cx="0" cy="0" rx="60" ry="78" fill="url(#p17p2skin)"/>
+    <!-- Hair top -->
+    <path d="M-42,-58 Q-30,-78 0,-82 Q34,-78 44,-56 Q44,-46 38,-44 Q24,-66 0,-66 Q-26,-66 -40,-44 Z" fill="#1a0c04"/>
+    <!-- BRAID over right shoulder back -->
+    <path d="M28,40 Q42,80 44,128 Q44,148 38,158" stroke="#1a0c04" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M28,44 Q40,82 42,124" stroke="#3a1c08" stroke-width="9" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <!-- SAPPHIRE FILAMENT -->
+    <path d="M28,42 Q42,82 42,128" stroke="#a888e8" stroke-width="1.4" fill="none" opacity="0.9" filter="url(#p17p2bloom)"/>
+    <circle cx="36" cy="80" r="1.4" fill="#fff8e8" filter="url(#p17p2bloom)"/>
+    <circle cx="42" cy="120" r="1.2" fill="#fff8e8" filter="url(#p17p2bloom)"/>
+
+    <!-- Eyes — wide alert sharp -->
+    <ellipse cx="-22" cy="-8" rx="10" ry="6" fill="#fff8e8"/>
+    <ellipse cx="-22" cy="-6" rx="6" ry="4.5" fill="#3a2010"/>
+    <circle cx="-22" cy="-6" r="3.4" fill="#0a0604"/>
+    <circle cx="-21" cy="-8" r="1.2" fill="#fff8e8" filter="url(#p17p2bloom)"/>
+    <ellipse cx="22" cy="-8" rx="10" ry="6" fill="#fff8e8"/>
+    <ellipse cx="22" cy="-6" rx="6" ry="4.5" fill="#3a2010"/>
+    <circle cx="22" cy="-6" r="3.4" fill="#0a0604"/>
+    <circle cx="23" cy="-8" r="1.2" fill="#fff8e8" filter="url(#p17p2bloom)"/>
+    <!-- Brow arches up — alert attention -->
+    <path d="M-34,-22 L-12,-26" stroke="#1a0c04" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M12,-26 L34,-22" stroke="#1a0c04" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M-4,2 L-2,16 Q0,20 4,18 L6,2 Z" fill="url(#p17p2skin)" opacity="0.85"/>
+    <!-- Mouth tight -->
+    <path d="M-10,32 L10,32" stroke="#3a1808" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- HOLO LENSES — flaring brighter, cycling analysis -->
+    <g opacity="0.95">
+      <!-- LEFT lens (her right — CRACKED canon) -->
+      <rect x="-32" y="-18" width="20" height="14" rx="1" fill="none" stroke="#ffd078" stroke-width="1.2" filter="url(#p17p2bloom)"/>
+      <line x1="-32" y1="-12" x2="-12" y2="-12" stroke="#ffd078" stroke-width="0.7" opacity="0.85"/>
+      <line x1="-32" y1="-7" x2="-12" y2="-7" stroke="#ffd078" stroke-width="0.5" opacity="0.7"/>
+      <!-- CRACK -->
+      <line x1="-26" y1="-18" x2="-22" y2="-12" stroke="#ffd078" stroke-width="0.5"/>
+      <line x1="-22" y1="-12" x2="-24" y2="-4" stroke="#ffd078" stroke-width="0.5"/>
+      <!-- RIGHT lens (her left) -->
+      <rect x="12" y="-18" width="20" height="14" rx="1" fill="none" stroke="#ffd078" stroke-width="1.2" filter="url(#p17p2bloom)"/>
+      <line x1="12" y1="-12" x2="32" y2="-12" stroke="#ffd078" stroke-width="0.7" opacity="0.85"/>
+      <line x1="12" y1="-7" x2="32" y2="-7" stroke="#ffd078" stroke-width="0.5" opacity="0.7"/>
+      <!-- Scrolling data dots -->
+      <circle cx="-26" cy="-9" r="0.8" fill="#fff8e8" filter="url(#p17p2bloom)"/>
+      <circle cx="-18" cy="-9" r="0.8" fill="#fff8e8" filter="url(#p17p2bloom)"/>
+      <circle cx="18" cy="-9" r="0.8" fill="#fff8e8" filter="url(#p17p2bloom)"/>
+      <circle cx="26" cy="-9" r="0.8" fill="#fff8e8" filter="url(#p17p2bloom)"/>
+    </g>
+  </g>
+
+  <!-- HANDS holding SCANNER — foreground, larger -->
+  <g transform="translate(183 254)">
+    <!-- Cool glow halo -->
+    <ellipse cx="0" cy="-10" rx="80" ry="60" fill="url(#p17p2washCool)" filter="url(#p17p2glow)" opacity="0.7"/>
+    <!-- LEFT hand cradling -->
+    <ellipse cx="-50" cy="14" rx="22" ry="14" fill="url(#p17p2skin)"/>
+    <ellipse cx="-46" cy="2" rx="18" ry="10" fill="url(#p17p2skin)"/>
+    <!-- INK STAIN on left hand -->
+    <circle cx="-44" cy="6" r="2" fill="#1a1c34" opacity="0.75"/>
+    <circle cx="-50" cy="12" r="1.4" fill="#1a1c34" opacity="0.7"/>
+    <!-- RIGHT hand on side -->
+    <ellipse cx="50" cy="14" rx="22" ry="14" fill="url(#p17p2skin)"/>
+    <ellipse cx="46" cy="2" rx="18" ry="10" fill="url(#p17p2skin)"/>
+    <circle cx="44" cy="6" r="1.6" fill="#1a1c34" opacity="0.7"/>
+
+    <!-- SCANNER body -->
+    <rect x="-46" y="-30" width="92" height="48" rx="3" fill="#3a2068" stroke="#a888e8" stroke-width="1.4"/>
+    <!-- Display screen — flared bright -->
+    <rect x="-40" y="-26" width="80" height="40" fill="#5a3ad8" filter="url(#p17p2bloom)"/>
+    <rect x="-40" y="-26" width="80" height="40" fill="#a888e8" opacity="0.55"/>
+    <!-- Geometric script alert pattern - hex-cross fairy script scrolling -->
+    <g stroke="#fff8e8" stroke-width="0.8" fill="none" opacity="0.95" filter="url(#p17p2bloom)">
+      <!-- Glyph row 1 -->
+      <polygon points="-34,-22 -28,-22 -25,-17 -28,-12 -34,-12 -37,-17"/>
+      <line x1="-34" y1="-17" x2="-28" y2="-17"/>
+      <line x1="-31" y1="-22" x2="-31" y2="-12"/>
+      <!-- Glyph 2 -->
+      <polygon points="-22,-22 -16,-22 -13,-17 -16,-12 -22,-12 -25,-17"/>
+      <line x1="-19" y1="-22" x2="-19" y2="-12"/>
+      <!-- Glyph 3 -->
+      <polygon points="-10,-22 -4,-22 -1,-17 -4,-12 -10,-12 -13,-17"/>
+      <line x1="-10" y1="-17" x2="-4" y2="-17"/>
+      <!-- Glyph 4 -->
+      <polygon points="2,-22 8,-22 11,-17 8,-12 2,-12 -1,-17"/>
+      <!-- Glyph 5 -->
+      <polygon points="14,-22 20,-22 23,-17 20,-12 14,-12 11,-17"/>
+      <line x1="17" y1="-22" x2="17" y2="-12"/>
+      <!-- Glyph 6 -->
+      <polygon points="26,-22 32,-22 35,-17 32,-12 26,-12 23,-17"/>
+      <line x1="26" y1="-17" x2="32" y2="-17"/>
+      <!-- Row 2 -->
+      <line x1="-37" y1="-7" x2="35" y2="-7"/>
+      <line x1="-37" y1="-3" x2="35" y2="-3"/>
+      <line x1="-37" y1="1" x2="20" y2="1"/>
+      <line x1="-37" y1="5" x2="35" y2="5"/>
+      <line x1="-37" y1="9" x2="28" y2="9"/>
+    </g>
+    <!-- Alert blink dot -->
+    <circle cx="36" cy="-25" r="2" fill="#ff8848" filter="url(#p17p2bloom)"/>
+
+    <!-- Beam emerging -->
+    <line x1="46" y1="-10" x2="80" y2="-26" stroke="#a888e8" stroke-width="0.8" opacity="0.7" filter="url(#p17p2bloom)"/>
+  </g>
+
+  <!-- SCANNER DISPLAY TEXT box — top, narrating the readout -->
+  <g>
+    <rect x="14" y="14" width="338" height="62" rx="2" fill="white" stroke="#7a7080" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700" font-style="italic">SCANNER DISPLAY</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">[MATERIAL MATCH — FAIRY SCRIPT SUBSTRATE</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">— AGE: 300+ YEARS — CONFIDENCE: 94.2%]</text>
+
+  <!-- LUMA whisper — below face, near her mouth -->
+  <g>
+    <rect x="14" y="288" width="208" height="44" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3 2" filter="url(#balloonShadow)"/>
+    <polygon points="180,332 192,332 184,342" fill="white" stroke="#5a3ad8" stroke-width="0.85" stroke-dasharray="3 2"/>
+    <line x1="180.5" y1="332" x2="191.5" y2="332" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="306" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#5a3ad8" font-weight="700">LUMA (whisper)</text>
+  <text x="22" y="322" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">That's... no. That can't be right.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,80 Q90,78 180,82 Q280,84 366,80"/>
+    <path d="M0,260 Q90,262 180,258 Q280,256 366,260"/>
+  </g>
+</svg>
