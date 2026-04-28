@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 311" width="366" height="311">
+  <title>Issue 5 — Page 13 — Panel 1: Wren profile pressed flat — loupe-light beam sweeps over her — saved by grime</title>
+  <desc>85mm CU profile. Wren's face pressed against brass plate, one eye open tracking searchlight beam from clockmaker's loupe. Beam passes over her — moment of bright warm gold — moves on. She was in shadow. Oil and dust on suit saved her. Caption (internal): Oil. Dust. The dirt saved me.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p13p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c08"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p13p1brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p13p1skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p13p1suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="p13p1lightSweep" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ffd078" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p13p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p13p1glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="311" fill="url(#p13p1bg)"/>
+
+  <!-- BRASS PLATE — fills lower 2/3 -->
+  <rect x="0" y="120" width="366" height="191" fill="url(#p13p1brass)"/>
+  <line x1="0" y1="120" x2="366" y2="120" stroke="#fff8e8" stroke-width="0.85" opacity="0.45" filter="url(#p13p1bloom)"/>
+  <!-- Brass texture lines -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.65">
+    <line x1="0" y1="150" x2="366" y2="152"/>
+    <line x1="0" y1="180" x2="366" y2="178"/>
+    <line x1="0" y1="210" x2="366" y2="212"/>
+    <line x1="0" y1="240" x2="366" y2="238"/>
+    <line x1="0" y1="270" x2="366" y2="272"/>
+    <line x1="0" y1="300" x2="366" y2="298"/>
+  </g>
+  <!-- Microscopic oil film reflection -->
+  <ellipse cx="160" cy="220" rx="80" ry="6" fill="#ffd078" opacity="0.18" filter="url(#p13p1bloom)"/>
+
+  <!-- LOUPE-LIGHT SWEEP — bright beam passing UPPER PORTION (already moving on) -->
+  <ellipse cx="280" cy="60" rx="180" ry="80" fill="url(#p13p1lightSweep)" filter="url(#p13p1glow)"/>
+  <ellipse cx="290" cy="50" rx="80" ry="40" fill="#fff8e8" opacity="0.65" filter="url(#p13p1glow)"/>
+
+  <!-- ===== WREN'S FACE in PROFILE — pressed against brass plate ===== -->
+  <g transform="translate(180 200)">
+    <!-- Body shape (face-down, profile view) — barely distinguishable from brass -->
+    <ellipse cx="0" cy="20" rx="160" ry="14" fill="url(#p13p1suit)" opacity="0.85"/>
+    <!-- Suit edge oil-stained -->
+    <line x1="-160" y1="22" x2="160" y2="22" stroke="#1a0c04" stroke-width="0.55"/>
+
+    <!-- Head profile — face turned to side, pressed to brass -->
+    <path d="M-100,0 Q-90,-40 -50,-50 Q-10,-58 30,-50 Q60,-44 80,-30 L80,16 L-100,16 Z" fill="url(#p13p1skin)"/>
+    <!-- Cheek pressed against brass — squashed slightly -->
+    <ellipse cx="-30" cy="14" rx="60" ry="3" fill="#3a1808" opacity="0.55"/>
+
+    <!-- Hair UP — bun visible top-right, loose strands -->
+    <ellipse cx="40" cy="-40" rx="22" ry="12" fill="#0a0604"/>
+    <ellipse cx="40" cy="-46" rx="14" ry="8" fill="#1a0c04"/>
+    <!-- Hair falling LOOSE across cheek -->
+    <path d="M0,-30 Q-30,-10 -50,10" stroke="#0a0604" stroke-width="2" fill="none"/>
+    <path d="M-10,-32 Q-40,-15 -60,8" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+    <path d="M10,-30 Q-20,-12 -40,12" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+    <!-- Top hairline -->
+    <path d="M-90,-10 Q-50,-50 0,-58 Q60,-58 80,-30" stroke="#0a0604" stroke-width="2" fill="none"/>
+
+    <!-- ONE EYE visible — open, tracking the sweep -->
+    <ellipse cx="-30" cy="-10" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="-30" cy="-8" rx="14" ry="10" fill="#3a2010"/>
+    <circle cx="-30" cy="-8" r="6" fill="#0a0604"/>
+    <circle cx="-26" cy="-12" r="2" fill="#fff8e8" filter="url(#p13p1bloom)"/>
+    <!-- Pupil tracking UP-RIGHT (toward sweep) -->
+    <circle cx="-26" cy="-12" r="2.4" fill="#1a0c04"/>
+    <!-- Brow level — relief returning -->
+    <path d="M-50,-26 L-12,-22" stroke="#0a0604" stroke-width="3" stroke-linecap="round"/>
+    <!-- Crow's feet of relief -->
+    <path d="M-54,-12 L-60,-10" stroke="#5a3018" stroke-width="0.55" opacity="0.65"/>
+
+    <!-- Nose tip visible -->
+    <path d="M40,-20 Q60,-12 50,0 Q44,2 38,-2 Z" fill="url(#p13p1skin)" opacity="0.85"/>
+
+    <!-- Mouth — slight relax (jaw unclenching fractionally) -->
+    <path d="M20,4 L42,6" stroke="#3a1808" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Faint warm reflection on brass under cheek -->
+    <ellipse cx="-30" cy="22" rx="40" ry="3" fill="#ffd078" opacity="0.35" filter="url(#p13p1bloom)"/>
+  </g>
+
+  <!-- CAPTION (internal Wren) -->
+  <g>
+    <rect x="14" y="8" width="280" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="22" y="22" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="22" y="36" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic" font-weight="600">"Oil. Dust. The dirt saved me."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,260 Q90,258 180,262 Q280,264 366,260"/>
+  </g>
+</svg>

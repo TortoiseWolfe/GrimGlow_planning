@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 471" width="742" height="471">
+  <title>Issue 5 — Page 13 — Panel 3: Wren pinned in cathedral mechanism — wide vertical claustrophobia — engineer reading masterwork</title>
+  <desc>28mm wide vertical. Wren on brass plate lower third. Above: enormous gears rotating. Left: pendulum swinging vast arc. Right: clockmaker's hand on escapement. Through gears: distorted eye behind loupe. Below: lethal drop. Target gear gleams 4 feet away at her scale. Her eye reads mechanism — engineer studying. Caption: Twelve-tooth pinion driving a sixty-tooth wheel. Five-to-one reduction. / He machined these by hand.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p13p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p13p3brass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="50%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="p13p3brassDeep" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p13p3hand" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#7a5828"/>
+    </linearGradient>
+    <linearGradient id="p13p3suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p13p3target" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="50%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <radialGradient id="p13p3amber" cx="60%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a3018" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p13p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p13p3glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="742" height="471" fill="url(#p13p3bg)"/>
+  <rect width="742" height="471" fill="url(#p13p3amber)"/>
+
+  <!-- LETHAL DROP below brass plate — visible at very bottom -->
+  <rect x="280" y="380" width="180" height="91" fill="#0a0408"/>
+  <line x1="280" y1="380" x2="460" y2="380" stroke="#1a0c04" stroke-width="0.55"/>
+  <!-- Hint of distance -->
+  <ellipse cx="370" cy="450" rx="30" ry="6" fill="#1a0c04"/>
+
+  <!-- Pendulum on LEFT — vast arc swing -->
+  <g transform="translate(60 0)">
+    <!-- Suspension point top -->
+    <circle cx="0" cy="0" r="10" fill="url(#p13p3brass)"/>
+    <!-- Pendulum rod -->
+    <line x1="0" y1="0" x2="-20" y2="380" stroke="url(#p13p3brass)" stroke-width="6"/>
+    <!-- Pendulum bob -->
+    <ellipse cx="-20" cy="380" rx="40" ry="50" fill="url(#p13p3brassDeep)"/>
+    <ellipse cx="-30" cy="370" rx="14" ry="20" fill="#fff8e8" opacity="0.35" filter="url(#p13p3bloom)"/>
+    <!-- Vast arc trail -->
+    <path d="M-100,330 Q-20,380 60,330" stroke="url(#p13p3brass)" stroke-width="0.85" fill="none" stroke-dasharray="3,4" opacity="0.55"/>
+    <!-- Air ripples -->
+    <path d="M-50,360 L-30,355" stroke="#ffd078" stroke-width="0.4" opacity="0.45"/>
+    <path d="M-50,370 L-30,365" stroke="#ffd078" stroke-width="0.4" opacity="0.35"/>
+  </g>
+
+  <!-- GEAR TRAIN — top, multiple rotating gears overhead -->
+  <g transform="translate(220 70)">
+    <circle cx="0" cy="0" r="100" fill="url(#p13p3brassDeep)"/>
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#1a0c04" stroke-width="0.85"/>
+    <circle cx="0" cy="0" r="20" fill="#1a0c04"/>
+    <g stroke="#1a0c04" stroke-width="2.4" opacity="0.85">
+      <line x1="0" y1="-80" x2="0" y2="80"/>
+      <line x1="-80" y1="0" x2="80" y2="0"/>
+      <line x1="-56" y1="-56" x2="56" y2="56"/>
+      <line x1="56" y1="-56" x2="-56" y2="56"/>
+    </g>
+    <g fill="url(#p13p3brass)">
+      <rect x="-5" y="-110" width="10" height="10"/>
+      <rect x="-5" y="100" width="10" height="10"/>
+      <rect x="-110" y="-5" width="10" height="10"/>
+      <rect x="100" y="-5" width="10" height="10"/>
+      <g transform="rotate(45)"><rect x="-5" y="-110" width="10" height="10"/></g>
+      <g transform="rotate(135)"><rect x="-5" y="-110" width="10" height="10"/></g>
+      <g transform="rotate(225)"><rect x="-5" y="-110" width="10" height="10"/></g>
+      <g transform="rotate(315)"><rect x="-5" y="-110" width="10" height="10"/></g>
+    </g>
+  </g>
+  <g transform="translate(420 100)">
+    <circle cx="0" cy="0" r="80" fill="url(#p13p3brassDeep)"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#1a0c04" stroke-width="0.7"/>
+    <circle cx="0" cy="0" r="14" fill="#1a0c04"/>
+    <g stroke="#1a0c04" stroke-width="2" opacity="0.85">
+      <line x1="0" y1="-60" x2="0" y2="60"/>
+      <line x1="-60" y1="0" x2="60" y2="0"/>
+      <line x1="-42" y1="-42" x2="42" y2="42"/>
+      <line x1="42" y1="-42" x2="-42" y2="42"/>
+    </g>
+    <g fill="url(#p13p3brass)">
+      <rect x="-4" y="-88" width="8" height="8"/>
+      <rect x="-4" y="80" width="8" height="8"/>
+      <rect x="-88" y="-4" width="8" height="8"/>
+      <rect x="80" y="-4" width="8" height="8"/>
+    </g>
+  </g>
+  <!-- Distorted eye through gear gap -->
+  <g transform="translate(540 200)">
+    <ellipse cx="0" cy="0" rx="30" ry="20" fill="#fff8e8" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="20" ry="14" fill="#a8b8c8"/>
+    <circle cx="0" cy="0" r="11" fill="#3a4858"/>
+    <circle cx="0" cy="0" r="5" fill="#0a0c14"/>
+    <circle cx="3" cy="-3" r="2" fill="#fff8e8" filter="url(#p13p3bloom)"/>
+    <!-- Loupe rim around eye -->
+    <ellipse cx="0" cy="0" rx="34" ry="22" fill="none" stroke="#a86838" stroke-width="1.4"/>
+    <!-- Capillary lines -->
+    <path d="M-30,-2 Q-22,-4 -14,-2" stroke="#dc4040" stroke-width="0.4" opacity="0.55"/>
+    <path d="M14,2 Q22,4 30,2" stroke="#dc4040" stroke-width="0.4" opacity="0.55"/>
+  </g>
+
+  <!-- ENORMOUS HAND working on RIGHT side — fingers visible -->
+  <g transform="translate(640 280)">
+    <!-- Hand mass -->
+    <path d="M-60,-100 Q-30,-60 0,-30 L80,-30 L80,80 L-60,80 Z" fill="url(#p13p3hand)" opacity="0.85"/>
+    <!-- Fingers extending DOWN -->
+    <path d="M-60,-30 L-50,40 L-30,50 L-22,-30 Z" fill="url(#p13p3hand)"/>
+    <ellipse cx="-40" cy="50" rx="11" ry="6" fill="url(#p13p3hand)"/>
+    <path d="M-10,-30 L0,40 L20,50 L26,-30 Z" fill="url(#p13p3hand)"/>
+    <ellipse cx="6" cy="50" rx="11" ry="6" fill="url(#p13p3hand)"/>
+    <path d="M40,-30 L50,30 L70,40 L76,-30 Z" fill="url(#p13p3hand)" opacity="0.85"/>
+    <!-- Knuckle creases -->
+    <path d="M-50,-20 Q-20,-10 10,-20" stroke="#5a3018" stroke-width="0.7" fill="none" opacity="0.65"/>
+    <!-- Shadow under hand -->
+    <ellipse cx="0" cy="80" rx="80" ry="20" fill="#0a0604" opacity="0.65" filter="url(#p13p3glow)"/>
+  </g>
+  <!-- Screwdriver shaft -->
+  <line x1="600" y1="280" x2="592" y2="380" stroke="#a8a8a8" stroke-width="3"/>
+  <line x1="600" y1="280" x2="592" y2="380" stroke="#fff8e8" stroke-width="0.55" opacity="0.85" filter="url(#p13p3bloom)"/>
+
+  <!-- TARGET GEAR — gleaming 4ft away at her scale (mid-frame) -->
+  <g transform="translate(360 230)">
+    <circle cx="0" cy="0" r="40" fill="url(#p13p3target)"/>
+    <circle cx="0" cy="0" r="32" fill="#7a4818" opacity="0.65"/>
+    <circle cx="0" cy="0" r="14" fill="#1a0c04"/>
+    <g stroke="#5a3018" stroke-width="0.7">
+      <line x1="0" y1="-40" x2="0" y2="-44"/>
+      <line x1="0" y1="40" x2="0" y2="44"/>
+      <line x1="-40" y1="0" x2="-44" y2="0"/>
+      <line x1="40" y1="0" x2="44" y2="0"/>
+      <line x1="-28" y1="-28" x2="-31" y2="-31"/>
+      <line x1="28" y1="-28" x2="31" y2="-31"/>
+      <line x1="-28" y1="28" x2="-31" y2="31"/>
+      <line x1="28" y1="28" x2="31" y2="31"/>
+    </g>
+    <ellipse cx="-12" cy="-12" rx="6" ry="3" fill="#fff8e8" opacity="0.85" filter="url(#p13p3bloom)"/>
+    <!-- Pulse halo -->
+    <circle cx="0" cy="0" r="56" fill="#ffd078" opacity="0.35" filter="url(#p13p3glow)"/>
+  </g>
+
+  <!-- BRASS PLATE — Wren's surface (lower third) -->
+  <rect x="0" y="370" width="742" height="40" fill="url(#p13p3brassDeep)"/>
+  <line x1="0" y1="370" x2="742" y2="370" stroke="#fff8e8" stroke-width="0.85" opacity="0.55" filter="url(#p13p3bloom)"/>
+
+  <!-- WREN — flat on brass plate (small, lower-center) -->
+  <g transform="translate(280 388)">
+    <ellipse cx="0" cy="0" rx="36" ry="8" fill="url(#p13p3suit)"/>
+    <line x1="-22" y1="-2" x2="22" y2="-2" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Head turned, ONE eye visible looking UP at gears (reading mechanism) -->
+    <ellipse cx="-26" cy="-2" rx="8" ry="5" fill="#a87858"/>
+    <ellipse cx="-26" cy="-7" rx="5" ry="3" fill="#0a0604"/>
+    <path d="M-26,-7 Q-22,-10 -18,-9" stroke="#0a0604" stroke-width="0.55" fill="none"/>
+    <!-- Eye open, looking UP -->
+    <ellipse cx="-22" cy="-2" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-22" cy="-3" r="1" fill="#0a0604"/>
+    <!-- SCORCH MARK on left shoulder -->
+    <ellipse cx="-7" cy="-5" rx="3" ry="1.4" fill="#1a0c04" opacity="0.7"/>
+    <!-- Oil stains -->
+    <circle cx="0" cy="0" r="1.4" fill="#1a0c04" opacity="0.55"/>
+    <circle cx="14" cy="2" r="1" fill="#1a0c04" opacity="0.55"/>
+    <!-- Tracking gaze line — faint dashed -->
+    <line x1="-22" y1="-3" x2="0" y2="-180" stroke="#ffd078" stroke-width="0.4" stroke-dasharray="1,3" opacity="0.45"/>
+  </g>
+
+  <!-- CAPTION 1 — Wren reading mechanism -->
+  <g>
+    <rect x="14" y="18" width="350" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic" font-weight="500">"Twelve-tooth pinion driving a sixty-tooth wheel."</text>
+  </g>
+
+  <!-- CAPTION 2 — recognition, lower frame -->
+  <g>
+    <rect x="378" y="420" width="350" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="386" y="434" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="386" y="448" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic" font-weight="600">"He machined these by hand."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,120 Q180,118 360,122 Q540,124 742,120"/>
+    <path d="M0,400 Q180,402 360,398 Q540,396 742,400"/>
+  </g>
+</svg>
