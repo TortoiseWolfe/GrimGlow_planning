@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 422" width="241" height="422">
+  <title>Issue 5 — Page 4 — Panel 2: Jink at chimney pot rim — peering down at street — operational scout mode</title>
+  <desc>50mm low angle. Jink at rim of an enormous terracotta chimney pot, wings beating, peering over edge. Pot towers above them. Comms earpiece glows emerald. Sharp focus replacing usual grin.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p4p2sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0b8"/>
+      <stop offset="100%" stop-color="#c8b888"/>
+    </linearGradient>
+    <linearGradient id="p4p2terracotta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a3818"/>
+      <stop offset="50%" stop-color="#b86838"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="p4p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a8848"/>
+    </linearGradient>
+    <linearGradient id="p4p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <radialGradient id="p4p2wingGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2ed078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a8848" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p4p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p4p2glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <!-- SKY background -->
+  <rect width="241" height="422" fill="url(#p4p2sky)"/>
+
+  <!-- Chimney smoke drifting from pot -->
+  <g opacity="0.45" fill="#5a4838">
+    <ellipse cx="120" cy="40" rx="60" ry="22"/>
+    <ellipse cx="100" cy="20" rx="50" ry="18"/>
+    <ellipse cx="80" cy="6" rx="40" ry="14"/>
+  </g>
+
+  <!-- ===== ENORMOUS CHIMNEY POT — terracotta cylinder dominates frame ===== -->
+  <g>
+    <!-- Inner darker cavity at top (pot opening) -->
+    <ellipse cx="120" cy="80" rx="80" ry="22" fill="#3a1808"/>
+    <ellipse cx="120" cy="78" rx="74" ry="18" fill="#1a0c04"/>
+    <!-- Pot body -->
+    <rect x="40" y="80" width="160" height="342" fill="url(#p4p2terracotta)"/>
+    <!-- Bands on pot -->
+    <line x1="40" y1="120" x2="200" y2="120" stroke="#5a2818" stroke-width="0.85" opacity="0.7"/>
+    <line x1="40" y1="180" x2="200" y2="180" stroke="#5a2818" stroke-width="0.85" opacity="0.7"/>
+    <line x1="40" y1="240" x2="200" y2="240" stroke="#5a2818" stroke-width="0.85" opacity="0.7"/>
+    <line x1="40" y1="300" x2="200" y2="300" stroke="#5a2818" stroke-width="0.85" opacity="0.7"/>
+    <line x1="40" y1="360" x2="200" y2="360" stroke="#5a2818" stroke-width="0.85" opacity="0.7"/>
+    <!-- Highlight on left edge -->
+    <rect x="40" y="80" width="14" height="342" fill="#d88858" opacity="0.5"/>
+    <!-- Shadow on right edge -->
+    <rect x="186" y="80" width="14" height="342" fill="#3a1808" opacity="0.55"/>
+    <!-- Rim top (darker top edge) -->
+    <ellipse cx="120" cy="80" rx="80" ry="6" fill="#5a2818"/>
+    <ellipse cx="120" cy="80" rx="80" ry="3" fill="#7a3818"/>
+  </g>
+
+  <!-- Glazed surface highlights -->
+  <g opacity="0.55">
+    <path d="M50,90 Q60,200 60,350" stroke="#d88858" stroke-width="0.7" fill="none"/>
+    <path d="M180,90 Q190,200 190,350" stroke="#3a1808" stroke-width="0.7" fill="none"/>
+  </g>
+
+  <!-- ===== JINK at the RIM, hovering, peering DOWN over the edge ===== -->
+  <g transform="translate(120 78)">
+    <!-- Wing glow halo -->
+    <ellipse cx="0" cy="0" rx="50" ry="18" fill="url(#p4p2wingGlow)" filter="url(#p4p2glow)" opacity="0.75"/>
+    <!-- Wings DEPLOYED, beating (motion blur lines) -->
+    <g opacity="0.85">
+      <path d="M-5,-3 Q-26,-22 -42,-14 Q-32,0 -10,2 Z" fill="#2ed078" opacity="0.55" filter="url(#p4p2bloom)"/>
+      <path d="M5,-3 Q26,-22 42,-14 Q32,0 10,2 Z" fill="#2ed078" opacity="0.55" filter="url(#p4p2bloom)"/>
+      <path d="M-5,2 Q-22,12 -32,6 Q-26,-2 -8,0 Z" fill="#2ed078" opacity="0.5" filter="url(#p4p2bloom)"/>
+      <path d="M5,2 Q22,12 32,6 Q26,-2 8,0 Z" fill="#2ed078" opacity="0.5" filter="url(#p4p2bloom)"/>
+      <!-- Lattice -->
+      <g stroke="#fff8e8" stroke-width="0.55" opacity="0.85" filter="url(#p4p2bloom)" fill="none">
+        <line x1="-8" y1="-2" x2="-36" y2="-12"/>
+        <line x1="-6" y1="0" x2="-30" y2="-4"/>
+        <line x1="-6" y1="2" x2="-26" y2="6"/>
+        <line x1="8" y1="-2" x2="36" y2="-12"/>
+        <line x1="6" y1="0" x2="30" y2="-4"/>
+        <line x1="6" y1="2" x2="26" y2="6"/>
+      </g>
+      <!-- Motion blur duplicates -->
+      <path d="M-5,-3 Q-30,-26 -50,-18" stroke="#2ed078" stroke-width="0.55" opacity="0.4" fill="none"/>
+      <path d="M5,-3 Q30,-26 50,-18" stroke="#2ed078" stroke-width="0.55" opacity="0.4" fill="none"/>
+    </g>
+
+    <!-- Body (head down peering over edge) -->
+    <ellipse cx="0" cy="6" rx="6" ry="10" fill="url(#p4p2suit)"/>
+    <!-- Soot streak chest -->
+    <ellipse cx="0" cy="2" rx="4" ry="1.4" fill="#1a0c04" opacity="0.7"/>
+    <line x1="-3" y1="0" x2="3" y2="0" stroke="#fff8e8" stroke-width="0.55" opacity="0.85" filter="url(#p4p2bloom)"/>
+    <!-- Arms gripping rim, head leaning over -->
+    <path d="M-6,4 L-12,8 L-14,12 L-12,14 L-8,10 L-4,8 Z" fill="url(#p4p2suit)"/>
+    <path d="M6,4 L12,8 L14,12 L12,14 L8,10 L4,8 Z" fill="url(#p4p2suit)"/>
+    <!-- Hands gripping rim -->
+    <ellipse cx="-12" cy="10" rx="2.4" ry="1.4" fill="url(#p4p2skin)"/>
+    <ellipse cx="12" cy="10" rx="2.4" ry="1.4" fill="url(#p4p2skin)"/>
+    <!-- Legs trailing back -->
+    <rect x="-3" y="14" width="2.4" height="14" fill="url(#p4p2suit)"/>
+    <rect x="0.5" y="14" width="2.4" height="14" fill="url(#p4p2suit)"/>
+    <ellipse cx="-2" cy="28" rx="1.6" ry="0.7" fill="#0a0408"/>
+    <ellipse cx="2" cy="28" rx="1.6" ry="0.7" fill="#0a0408"/>
+
+    <!-- HEAD — peering over rim, looking DOWN -->
+    <ellipse cx="0" cy="-12" rx="6" ry="8" fill="url(#p4p2skin)"/>
+    <!-- Curls -->
+    <path d="M-7,-22 Q-4,-28 0,-28 Q4,-28 7,-22 L7,-16 Q3,-22 0,-22 Q-3,-22 -7,-16 Z" fill="#ffd078"/>
+    <circle cx="-5" cy="-26" r="2" fill="#ffd078"/>
+    <circle cx="0" cy="-30" r="2.4" fill="#ffd078"/>
+    <circle cx="5" cy="-26" r="2" fill="#ffd078"/>
+    <circle cx="-7" cy="-18" r="1.6" fill="#ffd078"/>
+    <circle cx="7" cy="-18" r="1.6" fill="#ffd078"/>
+    <!-- Eyes — looking DOWN, sharp focus -->
+    <ellipse cx="-2" cy="-9" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="-2" cy="-8" rx="0.85" ry="0.65" fill="#3a2010"/>
+    <circle cx="-2" cy="-8" r="0.55" fill="#0a0604"/>
+    <ellipse cx="2" cy="-9" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="2" cy="-8" rx="0.85" ry="0.65" fill="#3a2010"/>
+    <circle cx="2" cy="-8" r="0.55" fill="#0a0604"/>
+    <!-- Brows down — focused -->
+    <path d="M-5,-15 L-1,-16" stroke="#7a5028" stroke-width="0.7" stroke-linecap="round"/>
+    <path d="M1,-16 L5,-15" stroke="#7a5028" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- Mouth — set, not grinning -->
+    <path d="M-2,-4 L2,-4" stroke="#3a1808" stroke-width="0.55"/>
+
+    <!-- COMMS earpiece — emerald glow at ear -->
+    <circle cx="6" cy="-10" r="1.4" fill="#2ed078" filter="url(#p4p2bloom)" opacity="0.85"/>
+    <circle cx="6" cy="-10" r="0.7" fill="#fff8e8" filter="url(#p4p2bloom)"/>
+  </g>
+
+  <!-- JINK dialogue (top) -->
+  <g>
+    <rect x="14" y="14" width="214" height="38" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#2ed078" font-weight="700">JINK ((comms))</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">I see the shop. Lights on. He's still inside.</text>
+
+  <!-- JINK dialogue 2 (bottom) -->
+  <g>
+    <rect x="14" y="378" width="214" height="32" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="394" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#2ed078" font-weight="700">JINK ((comms))</text>
+  <text x="22" y="406" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">Lamplighter at the shop in ten.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q60,92 120,88 Q180,86 241,90"/>
+    <path d="M0,360 Q60,358 120,362 Q180,364 241,360"/>
+  </g>
+</svg>

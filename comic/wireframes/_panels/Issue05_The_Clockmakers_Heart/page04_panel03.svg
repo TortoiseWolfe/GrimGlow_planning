@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 422" width="241" height="422">
+  <title>Issue 5 — Page 4 — Panel 3: Ground team paused on flashing seam — Sable listening, Wren compass, Thresh weapon scanning</title>
+  <desc>50mm MS. Sable hand to comms earpiece. Wren checking copper-gold holographic compass at wrist. Thresh crouched scanning ridgeline, weapon across knees, knuckles white. Exposed on rooftop, no cover between chimneys.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p4p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0b8"/>
+      <stop offset="100%" stop-color="#c8b888"/>
+    </linearGradient>
+    <linearGradient id="p4p3slate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a6068"/>
+      <stop offset="100%" stop-color="#3a4048"/>
+    </linearGradient>
+    <linearGradient id="p4p3leadFlash" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a8088"/>
+      <stop offset="100%" stop-color="#5a5860"/>
+    </linearGradient>
+    <linearGradient id="p4p3silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dad5d0"/>
+      <stop offset="100%" stop-color="#5a5860"/>
+    </linearGradient>
+    <linearGradient id="p4p3copper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a850"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="p4p3crimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#8a0828"/>
+    </linearGradient>
+    <linearGradient id="p4p3skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4838"/>
+      <stop offset="50%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#6a3828"/>
+    </linearGradient>
+    <radialGradient id="p4p3compassGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p4p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p4p3glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="241" height="240" fill="url(#p4p3sky)"/>
+
+  <!-- Distant chimney pots silhouettes -->
+  <g opacity="0.55" fill="#5a6068">
+    <rect x="20" y="180" width="14" height="60"/>
+    <rect x="180" y="170" width="18" height="70"/>
+    <ellipse cx="27" cy="180" rx="7" ry="2"/>
+    <ellipse cx="189" cy="170" rx="9" ry="2.4"/>
+  </g>
+  <!-- Distant smoke -->
+  <g opacity="0.4" fill="#5a4838">
+    <ellipse cx="40" cy="160" rx="22" ry="6"/>
+    <ellipse cx="190" cy="150" rx="22" ry="6"/>
+  </g>
+
+  <!-- SLATE TILES below -->
+  <rect x="0" y="240" width="241" height="182" fill="url(#p4p3slate)"/>
+  <g stroke="#1a1c20" stroke-width="0.55" opacity="0.65">
+    <path d="M0,260 Q120,262 241,258"/>
+    <path d="M0,290 Q120,288 241,292"/>
+    <path d="M0,320 Q120,322 241,318"/>
+    <path d="M0,360 Q120,358 241,362"/>
+  </g>
+  <g stroke="#1a1c20" stroke-width="0.4" opacity="0.55">
+    <line x1="40" y1="240" x2="40" y2="260"/>
+    <line x1="80" y1="260" x2="80" y2="290"/>
+    <line x1="120" y1="240" x2="120" y2="260"/>
+    <line x1="160" y1="260" x2="160" y2="290"/>
+    <line x1="200" y1="240" x2="200" y2="260"/>
+  </g>
+
+  <!-- LEAD FLASHING SEAM — wide path running through center, where squad stands -->
+  <path d="M0,300 Q120,295 241,300" fill="none" stroke="url(#p4p3leadFlash)" stroke-width="40" stroke-linecap="round"/>
+  <path d="M0,300 Q120,295 241,300" fill="none" stroke="#a8b0b8" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- ===== SABLE — hand to ear, listening ===== -->
+  <g transform="translate(70 290)">
+    <ellipse cx="-3" cy="32" rx="3" ry="1.4" fill="#0a0408"/>
+    <ellipse cx="3" cy="32" rx="3" ry="1.4" fill="#0a0408"/>
+    <rect x="-5" y="14" width="4" height="18" fill="url(#p4p3silver)"/>
+    <rect x="1" y="14" width="4" height="18" fill="url(#p4p3silver)"/>
+    <ellipse cx="-3" cy="26" rx="4" ry="1" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="3" cy="26" rx="4" ry="1" fill="#5a4838" opacity="0.55"/>
+    <path d="M-7,14 L-7,-12 L7,-12 L7,14 Z" fill="url(#p4p3silver)"/>
+    <line x1="-5" y1="-4" x2="5" y2="-4" stroke="#a8c0ff" stroke-width="0.7" opacity="0.85" filter="url(#p4p3bloom)"/>
+    <ellipse cx="7" cy="-12" rx="3" ry="2" fill="#3a3038"/>
+    <!-- Right arm raised to ear -->
+    <path d="M7,-12 L9,-22 L7,-26 L4,-22 L3,-14 Z" fill="url(#p4p3silver)"/>
+    <ellipse cx="6" cy="-26" rx="2.4" ry="1.4" fill="url(#p4p3skin)"/>
+    <!-- Left arm at side -->
+    <rect x="-11" y="-12" width="4" height="22" fill="url(#p4p3silver)"/>
+    <ellipse cx="-9" cy="14" rx="2.4" ry="1.6" fill="url(#p4p3skin)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-22" rx="5" ry="6.5" fill="#7a4838"/>
+    <path d="M-5,-29 Q-4,-31 0,-31 Q4,-31 5,-29 L5,-25 Q2,-28 0,-28 Q-2,-28 -5,-25 Z" fill="#e0d8d0"/>
+    <ellipse cx="-2" cy="-22" rx="1" ry="0.55" fill="#fff8e8"/>
+    <circle cx="-2" cy="-22" r="0.4" fill="#0a0604"/>
+    <ellipse cx="2" cy="-22" rx="1" ry="0.55" fill="#fff8e8"/>
+    <circle cx="2" cy="-22" r="0.4" fill="#0a0604"/>
+    <path d="M-3,-15 L3,-15" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Comm earpiece glow at ear -->
+    <circle cx="4" cy="-22" r="1.2" fill="#a8c0ff" filter="url(#p4p3bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ===== WREN — checking holographic compass ===== -->
+  <g transform="translate(120 295)">
+    <ellipse cx="-3" cy="30" rx="3" ry="1.4" fill="#0a0408"/>
+    <ellipse cx="3" cy="30" rx="3" ry="1.4" fill="#0a0408"/>
+    <rect x="-5" y="14" width="4" height="16" fill="url(#p4p3copper)"/>
+    <rect x="1" y="14" width="4" height="16" fill="url(#p4p3copper)"/>
+    <ellipse cx="-3" cy="24" rx="4" ry="1" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="3" cy="24" rx="4" ry="1" fill="#5a4838" opacity="0.55"/>
+    <path d="M-7,14 L-7,-12 L7,-12 L7,14 Z" fill="url(#p4p3copper)"/>
+    <line x1="-5" y1="-4" x2="5" y2="-4" stroke="#ffd078" stroke-width="0.7" opacity="0.85" filter="url(#p4p3bloom)"/>
+    <ellipse cx="-7" cy="-12" rx="2.4" ry="1.6" fill="#1a0c04" opacity="0.85"/>
+    <!-- Right arm raised — wrist out -->
+    <path d="M7,-12 L14,-2 L18,4 L16,8 L12,4 L7,-2 Z" fill="url(#p4p3copper)"/>
+    <ellipse cx="16" cy="6" rx="2.4" ry="1.6" fill="url(#p4p3skin)"/>
+    <!-- COMPASS holographic — small copper-gold disk above wrist -->
+    <ellipse cx="20" cy="-2" rx="9" ry="6" fill="url(#p4p3compassGlow)" filter="url(#p4p3glow)" opacity="0.85"/>
+    <circle cx="20" cy="-2" r="4" fill="none" stroke="#ffd078" stroke-width="0.7" filter="url(#p4p3bloom)"/>
+    <circle cx="20" cy="-2" r="2.4" fill="none" stroke="#fff8e8" stroke-width="0.4" filter="url(#p4p3bloom)"/>
+    <line x1="20" y1="-2" x2="20" y2="-6" stroke="#fff8e8" stroke-width="0.7" filter="url(#p4p3bloom)"/>
+    <text x="20" y="-7" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="2.4" fill="#fff8e8" font-weight="700" filter="url(#p4p3bloom)">N</text>
+    <!-- Left arm at side -->
+    <rect x="-11" y="-12" width="4" height="22" fill="url(#p4p3copper)"/>
+    <ellipse cx="-9" cy="14" rx="2.4" ry="1.6" fill="url(#p4p3skin)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-22" rx="5" ry="6.5" fill="#a86838"/>
+    <ellipse cx="0" cy="-30" rx="2.4" ry="1.6" fill="#0a0604"/>
+    <ellipse cx="-2" cy="-22" rx="1" ry="0.55" fill="#fff8e8"/>
+    <circle cx="-2" cy="-22" r="0.4" fill="#0a0604"/>
+    <ellipse cx="2" cy="-22" rx="1" ry="0.55" fill="#fff8e8"/>
+    <circle cx="2" cy="-22" r="0.4" fill="#0a0604"/>
+    <path d="M-3,-15 L3,-15" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== THRESH — CROUCHED, weapon scanning, knuckles white ===== -->
+  <g transform="translate(180 300)">
+    <ellipse cx="-3" cy="20" rx="3.4" ry="1.4" fill="#0a0408"/>
+    <ellipse cx="3" cy="20" rx="3.4" ry="1.4" fill="#0a0408"/>
+    <!-- Crouched legs -->
+    <path d="M-9,18 L-12,2 L-2,2 L-3,18 Z" fill="url(#p4p3crimson)"/>
+    <path d="M9,18 L12,2 L2,2 L3,18 Z" fill="url(#p4p3crimson)"/>
+    <ellipse cx="-7" cy="14" rx="3" ry="0.85" fill="#1a0c04" opacity="0.7"/>
+    <ellipse cx="7" cy="14" rx="3" ry="0.85" fill="#1a0c04" opacity="0.7"/>
+    <!-- Torso bent forward (low crouch) -->
+    <path d="M-9,2 L-9,-12 L9,-12 L9,2 Z" fill="url(#p4p3crimson)"/>
+    <ellipse cx="-9" cy="-12" rx="3" ry="2" fill="#5a0818"/>
+    <!-- Arms forward, weapon across knees -->
+    <path d="M-9,-12 L-12,-2 L-12,2 L-8,0 L-4,-6 Z" fill="url(#p4p3crimson)"/>
+    <path d="M9,-12 L12,-2 L12,2 L8,0 L4,-6 Z" fill="url(#p4p3crimson)"/>
+    <!-- Weapon -->
+    <rect x="-12" y="-2" width="24" height="3" fill="#3a3030"/>
+    <rect x="11" y="-3" width="3" height="4" fill="#1a1a1a"/>
+    <!-- White-knuckle grip -->
+    <ellipse cx="-9" cy="-1" rx="2" ry="1.4" fill="#fff8e8" opacity="0.85"/>
+    <ellipse cx="9" cy="-1" rx="2" ry="1.4" fill="#fff8e8" opacity="0.85"/>
+    <!-- Head — turned looking back/scanning ridgeline -->
+    <ellipse cx="0" cy="-22" rx="5" ry="6.5" fill="#a86838"/>
+    <path d="M-5,-29 Q-4,-31 0,-31 Q4,-31 5,-29 L4,-25 Q2,-28 0,-28 Q-2,-28 -4,-25 Z" fill="#c84838"/>
+    <!-- Eyes scanning -->
+    <ellipse cx="-3" cy="-22" rx="1" ry="0.55" fill="#fff8e8"/>
+    <circle cx="-3" cy="-22" r="0.4" fill="#0a0604"/>
+    <ellipse cx="1" cy="-22" rx="1" ry="0.55" fill="#fff8e8"/>
+    <circle cx="0" cy="-22" r="0.4" fill="#0a0604"/>
+    <path d="M-3,-15 L3,-15" stroke="#3a1808" stroke-width="0.7"/>
+    <circle cx="3" cy="-22" r="0.85" fill="#dc2030" filter="url(#p4p3bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- SABLE dialogue (top) -->
+  <g>
+    <rect x="14" y="14" width="214" height="44" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE ((comms))</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">Acknowledged. Hold position</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">until lamplighter passes.</text>
+
+  <!-- WREN dialogue (bottom) -->
+  <g>
+    <rect x="14" y="378" width="214" height="32" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="394" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="22" y="406" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">Two hundred yards at this scale.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q60,92 120,88 Q180,86 241,90"/>
+    <path d="M0,360 Q60,358 120,362 Q180,364 241,360"/>
+  </g>
+</svg>
