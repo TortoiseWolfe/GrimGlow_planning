@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 5 — Page 14 — Panel 1: Wren watches clockmaker's hands work — reluctant fascination — engineer recognizing engineer</title>
+  <desc>35mm. Clockmaker's enormous hands work on brass mechanism — one steadies wheel, other makes fine adjustment. Below: Wren flat on brass, eye focused on hands — fear shifts to professional recognition. The fingers achieve a steadiness that rivals her holographic manipulators. Captions: WREN: No digital tolerance readout. No haptic feedback sensors. He measures by feel. / WREN: That adjustment was accurate to less than a hundredth of an inch. / WREN: By feel.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p14p1hand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a5828"/>
+    </linearGradient>
+    <linearGradient id="p14p1brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p14p1brassWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="p14p1suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p14p1steel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a5858"/>
+      <stop offset="50%" stop-color="#fff8e8"/>
+      <stop offset="100%" stop-color="#5a5858"/>
+    </linearGradient>
+    <radialGradient id="p14p1amber" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3018" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p14p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p14p1glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="742" height="364" fill="url(#p14p1bg)"/>
+  <rect width="742" height="364" fill="url(#p14p1amber)"/>
+
+  <!-- Brass gear edges framing the composition -->
+  <circle cx="60" cy="60" r="80" fill="url(#p14p1brass)" opacity="0.65"/>
+  <circle cx="682" cy="60" r="80" fill="url(#p14p1brass)" opacity="0.65"/>
+  <!-- Lower brass gear edge -->
+  <circle cx="100" cy="364" r="120" fill="url(#p14p1brass)" opacity="0.55"/>
+  <circle cx="640" cy="364" r="120" fill="url(#p14p1brass)" opacity="0.55"/>
+
+  <!-- Central brass mechanism — wheel being worked on -->
+  <g transform="translate(371 130)">
+    <circle cx="0" cy="0" r="80" fill="url(#p14p1brass)"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#1a0c04" stroke-width="0.85"/>
+    <circle cx="0" cy="0" r="14" fill="#1a0c04"/>
+    <g stroke="#1a0c04" stroke-width="2" opacity="0.85">
+      <line x1="0" y1="-60" x2="0" y2="60"/>
+      <line x1="-60" y1="0" x2="60" y2="0"/>
+      <line x1="-42" y1="-42" x2="42" y2="42"/>
+      <line x1="42" y1="-42" x2="-42" y2="42"/>
+    </g>
+    <g fill="url(#p14p1brassWarm)">
+      <rect x="-4" y="-88" width="8" height="8"/>
+      <rect x="-4" y="80" width="8" height="8"/>
+      <rect x="-88" y="-4" width="8" height="8"/>
+      <rect x="80" y="-4" width="8" height="8"/>
+      <g transform="rotate(45)"><rect x="-4" y="-88" width="8" height="8"/></g>
+      <g transform="rotate(135)"><rect x="-4" y="-88" width="8" height="8"/></g>
+      <g transform="rotate(225)"><rect x="-4" y="-88" width="8" height="8"/></g>
+      <g transform="rotate(315)"><rect x="-4" y="-88" width="8" height="8"/></g>
+    </g>
+    <!-- Light reflection -->
+    <ellipse cx="-22" cy="-30" rx="14" ry="22" fill="#fff8e8" opacity="0.35" filter="url(#p14p1bloom)"/>
+  </g>
+
+  <!-- LEFT HAND — steadying the wheel from above-left -->
+  <g transform="translate(220 80)">
+    <!-- Forearm/wrist mass -->
+    <path d="M-60,-40 Q-30,-20 0,0 L40,40 L60,80 L-40,80 L-80,30 Z" fill="url(#p14p1hand)"/>
+    <!-- Fingers wrapping wheel rim (curling around) -->
+    <ellipse cx="0" cy="40" rx="9" ry="22" fill="url(#p14p1hand)" transform="rotate(20 0 40)"/>
+    <ellipse cx="20" cy="50" rx="9" ry="22" fill="url(#p14p1hand)" transform="rotate(15 20 50)"/>
+    <ellipse cx="40" cy="60" rx="9" ry="20" fill="url(#p14p1hand)" transform="rotate(10 40 60)"/>
+    <ellipse cx="60" cy="70" rx="8" ry="18" fill="url(#p14p1hand)" transform="rotate(5 60 70)"/>
+    <!-- Thumb -->
+    <ellipse cx="-30" cy="20" rx="14" ry="9" fill="url(#p14p1hand)" transform="rotate(-15 -30 20)"/>
+    <!-- Knuckle creases -->
+    <path d="M-20,30 Q10,40 40,50" stroke="#5a3018" stroke-width="0.85" fill="none" opacity="0.65"/>
+    <path d="M-30,10 Q-10,5 10,-5" stroke="#5a3018" stroke-width="0.55" fill="none" opacity="0.55"/>
+    <!-- Tiny cuts and calluses -->
+    <g fill="#5a3018" opacity="0.65">
+      <circle cx="-50" cy="-10" r="0.85"/>
+      <circle cx="-20" cy="-20" r="1"/>
+      <circle cx="10" cy="-30" r="0.85"/>
+      <circle cx="-40" cy="20" r="0.85"/>
+      <line x1="-30" y1="-10" x2="-25" y2="-15" stroke="#5a3018" stroke-width="0.4"/>
+      <line x1="0" y1="-25" x2="5" y2="-30" stroke="#5a3018" stroke-width="0.4"/>
+    </g>
+    <!-- Hair on back of hand -->
+    <g stroke="#3a1808" stroke-width="0.4" opacity="0.55">
+      <line x1="-50" y1="-30" x2="-45" y2="-38"/>
+      <line x1="-20" y1="-40" x2="-15" y2="-48"/>
+      <line x1="10" y1="-40" x2="15" y2="-48"/>
+    </g>
+  </g>
+
+  <!-- RIGHT HAND — fine adjustment with screwdriver -->
+  <g transform="translate(530 70)">
+    <path d="M60,-30 Q30,-10 0,10 L-40,50 L-60,80 L40,80 L80,30 Z" fill="url(#p14p1hand)"/>
+    <!-- Fingers pinching screwdriver -->
+    <ellipse cx="0" cy="50" rx="8" ry="20" fill="url(#p14p1hand)" transform="rotate(-15 0 50)"/>
+    <ellipse cx="-20" cy="60" rx="8" ry="20" fill="url(#p14p1hand)" transform="rotate(-10 -20 60)"/>
+    <ellipse cx="-40" cy="70" rx="8" ry="18" fill="url(#p14p1hand)" transform="rotate(-5 -40 70)"/>
+    <!-- Thumb pinching -->
+    <ellipse cx="20" cy="30" rx="14" ry="9" fill="url(#p14p1hand)" transform="rotate(15 20 30)"/>
+    <!-- Knuckle creases -->
+    <path d="M-30,40 Q0,50 30,40" stroke="#5a3018" stroke-width="0.85" fill="none" opacity="0.65"/>
+    <!-- Calluses -->
+    <g fill="#5a3018" opacity="0.65">
+      <circle cx="50" cy="-10" r="0.85"/>
+      <circle cx="20" cy="-20" r="1"/>
+      <circle cx="-10" cy="-30" r="0.85"/>
+    </g>
+
+    <!-- SCREWDRIVER held between thumb and forefinger -->
+    <g transform="translate(-10 60)">
+      <rect x="-3" y="-10" width="6" height="22" fill="#5a3018"/>
+      <ellipse cx="0" cy="-10" rx="3" ry="1.4" fill="#7a4818"/>
+      <!-- Steel shaft -->
+      <rect x="-1" y="12" width="2" height="50" fill="url(#p14p1steel)"/>
+      <line x1="0" y1="12" x2="0" y2="62" stroke="#fff8e8" stroke-width="0.4" opacity="0.85" filter="url(#p14p1bloom)"/>
+      <!-- Bright line of light catching shaft -->
+      <path d="M-3,62 L0,68 L3,62 Z" fill="#a8a8a8"/>
+    </g>
+  </g>
+
+  <!-- BRASS PLATE — Wren's surface (lower portion) -->
+  <rect x="0" y="280" width="742" height="84" fill="url(#p14p1brass)"/>
+  <line x1="0" y1="280" x2="742" y2="280" stroke="#fff8e8" stroke-width="0.85" opacity="0.55" filter="url(#p14p1bloom)"/>
+
+  <!-- WREN — flat on brass plate, watching hands work — center-bottom -->
+  <g transform="translate(371 310)">
+    <ellipse cx="0" cy="0" rx="56" ry="14" fill="url(#p14p1suit)"/>
+    <line x1="-30" y1="-3" x2="30" y2="-3" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Head turned UP, watching hands -->
+    <ellipse cx="-22" cy="-9" rx="12" ry="9" fill="#a87858"/>
+    <!-- Hair UP bun -->
+    <ellipse cx="-22" cy="-15" rx="6" ry="4" fill="#0a0604"/>
+    <!-- Loose strands -->
+    <path d="M-26,-12 Q-30,-8 -28,-4" stroke="#0a0604" stroke-width="0.55" fill="none"/>
+    <path d="M-18,-12 Q-14,-8 -10,-6" stroke="#0a0604" stroke-width="0.55" fill="none"/>
+    <!-- Eye open, professional recognition -->
+    <ellipse cx="-18" cy="-10" rx="3" ry="2" fill="#fff8e8"/>
+    <circle cx="-18" cy="-11" r="1.4" fill="#0a0604"/>
+    <circle cx="-17" cy="-11.5" r="0.4" fill="#fff8e8"/>
+    <!-- Brow level — calculation, not fear -->
+    <path d="M-22,-15 L-12,-15" stroke="#0a0604" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- Mouth — slightly parted, attention -->
+    <path d="M-16,-5 L-12,-5" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- SCORCH MARK on left shoulder -->
+    <ellipse cx="-12" cy="-9" rx="4" ry="2" fill="#1a0c04" opacity="0.7"/>
+    <!-- Heavy oil stains -->
+    <circle cx="0" cy="0" r="2" fill="#1a0c04" opacity="0.65"/>
+    <circle cx="14" cy="2" r="1.4" fill="#1a0c04" opacity="0.65"/>
+    <circle cx="-30" cy="3" r="1" fill="#1a0c04" opacity="0.55"/>
+    <!-- Substitute gear ON HER BACK -->
+    <circle cx="20" cy="-3" r="6" fill="url(#p14p1brassWarm)" stroke="#5a3018" stroke-width="0.55"/>
+    <line x1="14" y1="-3" x2="26" y2="-3" stroke="#a86838" stroke-width="0.4" opacity="0.65"/>
+    <!-- Copper wire securing it -->
+    <path d="M14,-3 Q20,4 26,-3" stroke="#c87a35" stroke-width="0.55" fill="none"/>
+    <!-- Reflected brass-light on her face -->
+    <ellipse cx="-18" cy="-7" rx="4" ry="3" fill="#ffd078" opacity="0.45" filter="url(#p14p1bloom)"/>
+    <!-- Tracking gaze line — faint dashed up to hands -->
+    <line x1="-18" y1="-12" x2="-100" y2="-200" stroke="#ffd078" stroke-width="0.4" stroke-dasharray="1,3" opacity="0.45"/>
+  </g>
+
+  <!-- CAPTION 1 — Wren internal -->
+  <g>
+    <rect x="14" y="14" width="320" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="22" y="28" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="22" y="42" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="500">"No tolerance readout. He measures by feel."</text>
+  </g>
+
+  <!-- CAPTION 2 -->
+  <g>
+    <rect x="380" y="14" width="350" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="388" y="28" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="388" y="42" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="500">"Accurate to less than a hundredth of an inch."</text>
+  </g>
+
+  <!-- CAPTION 3 — small, declarative -->
+  <g>
+    <rect x="14" y="240" width="100" height="30" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="22" y="252" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="22" y="265" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic" font-weight="700">"By feel."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q180,92 360,88 Q540,86 742,90"/>
+    <path d="M0,300 Q180,298 360,302 Q540,304 742,300"/>
+  </g>
+</svg>

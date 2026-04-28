@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 5 — Page 14 — Panel 3: target gear in sharp focus, Wren soft focus behind — pristine vs grime — substitute on her back</title>
+  <desc>50mm shallow DOF. Sharp focus: precision brass compound gear (two wheels different size on shared axle). Pristine, gleaming. Soft focus background: Wren on brass plate watching. Substitute gear visible on her back — small brass disc copper-wired, cruder. Gap between original and substitute. Mechanical swap will work. Will not fool clockmaker forever. No dialog.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p14p3target" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="p14p3brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p14p3substitute" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p14p3suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="p14p3amber" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p14p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p14p3glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+    <filter id="p14p3softFocus"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p14p3bg)"/>
+  <rect width="366" height="364" fill="url(#p14p3amber)"/>
+
+  <!-- WREN — SOFT FOCUS in BACKGROUND — applies blur filter -->
+  <g filter="url(#p14p3softFocus)" opacity="0.65">
+    <!-- Brass plate background -->
+    <rect x="0" y="280" width="366" height="84" fill="url(#p14p3brass)"/>
+    <!-- Wren shape (face-down) -->
+    <g transform="translate(140 320)">
+      <ellipse cx="0" cy="0" rx="44" ry="11" fill="url(#p14p3suit)"/>
+      <!-- Head -->
+      <ellipse cx="-22" cy="-3" rx="7" ry="4" fill="#a87858"/>
+      <ellipse cx="-22" cy="-7" rx="4" ry="2.4" fill="#0a0604"/>
+      <!-- One eye -->
+      <ellipse cx="-18" cy="-3" rx="2" ry="1.4" fill="#fff8e8"/>
+      <circle cx="-18" cy="-4" r="1" fill="#0a0604"/>
+      <!-- SUBSTITUTE GEAR ON HER BACK — small brass disc with copper wire (cruder) -->
+      <circle cx="14" cy="-6" r="9" fill="url(#p14p3substitute)" stroke="#5a3018" stroke-width="0.55"/>
+      <!-- Cruder teeth — uneven -->
+      <line x1="14" y1="-15" x2="14" y2="-19" stroke="#5a3018" stroke-width="1"/>
+      <line x1="14" y1="3" x2="14" y2="6" stroke="#5a3018" stroke-width="1"/>
+      <line x1="5" y1="-6" x2="2" y2="-6" stroke="#5a3018" stroke-width="1"/>
+      <line x1="23" y1="-6" x2="26" y2="-6" stroke="#5a3018" stroke-width="0.85"/>
+      <line x1="8" y1="-12" x2="6" y2="-14" stroke="#5a3018" stroke-width="0.7"/>
+      <line x1="20" y1="-12" x2="22" y2="-14" stroke="#5a3018" stroke-width="0.85"/>
+      <!-- Copper wire securing -->
+      <path d="M5,-6 Q14,3 23,-6" stroke="#c87a35" stroke-width="0.7" fill="none"/>
+      <path d="M5,-6 Q14,-15 23,-6" stroke="#c87a35" stroke-width="0.7" fill="none"/>
+      <!-- Heavy oil stains (visible even in soft focus) -->
+      <circle cx="0" cy="0" r="2.4" fill="#1a0c04" opacity="0.65"/>
+      <circle cx="-30" cy="2" r="1.4" fill="#1a0c04" opacity="0.55"/>
+    </g>
+  </g>
+
+  <!-- ===== TARGET GEAR — SHARP FOCUS, foreground center ===== -->
+  <g transform="translate(183 160)">
+    <!-- Glow halo behind -->
+    <circle cx="0" cy="0" r="160" fill="#ffd078" opacity="0.35" filter="url(#p14p3glow)"/>
+
+    <!-- Compound gear — SHARED AXLE, two wheels of different size -->
+    <!-- LARGER wheel (back) -->
+    <ellipse cx="0" cy="0" rx="120" ry="100" fill="url(#p14p3target)"/>
+    <ellipse cx="0" cy="0" rx="116" ry="96" fill="none" stroke="#5a3018" stroke-width="0.85"/>
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="#7a4818" opacity="0.55"/>
+    <!-- Spokes -->
+    <g stroke="#5a3018" stroke-width="2" opacity="0.85">
+      <line x1="0" y1="-90" x2="0" y2="90"/>
+      <line x1="-100" y1="0" x2="100" y2="0"/>
+      <line x1="-70" y1="-60" x2="70" y2="60"/>
+      <line x1="70" y1="-60" x2="-70" y2="60"/>
+    </g>
+    <!-- Fine teeth around outer rim -->
+    <g fill="url(#p14p3target)" stroke="#5a3018" stroke-width="0.4">
+      <rect x="-3" y="-128" width="6" height="8"/>
+      <rect x="-3" y="120" width="6" height="8"/>
+      <rect x="-128" y="-3" width="8" height="6"/>
+      <rect x="120" y="-3" width="8" height="6"/>
+      <g transform="rotate(20)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(40)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(60)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(80)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(100)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(120)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(140)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(160)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(180)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(200)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(220)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(240)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(260)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(280)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(300)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(320)"><rect x="-3" y="-128" width="6" height="8"/></g>
+      <g transform="rotate(340)"><rect x="-3" y="-128" width="6" height="8"/></g>
+    </g>
+
+    <!-- SMALLER wheel (front, on shared axle) — exquisitely machined -->
+    <circle cx="0" cy="0" r="40" fill="url(#p14p3target)"/>
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#5a3018" stroke-width="0.55"/>
+    <circle cx="0" cy="0" r="24" fill="#7a4818" opacity="0.65"/>
+    <circle cx="0" cy="0" r="6" fill="#1a0c04"/>
+    <!-- Smaller wheel teeth -->
+    <g fill="url(#p14p3target)" stroke="#5a3018" stroke-width="0.4">
+      <rect x="-2" y="-43" width="4" height="6"/>
+      <rect x="-2" y="37" width="4" height="6"/>
+      <rect x="-43" y="-2" width="6" height="4"/>
+      <rect x="37" y="-2" width="6" height="4"/>
+      <g transform="rotate(30)"><rect x="-2" y="-43" width="4" height="6"/></g>
+      <g transform="rotate(60)"><rect x="-2" y="-43" width="4" height="6"/></g>
+      <g transform="rotate(120)"><rect x="-2" y="-43" width="4" height="6"/></g>
+      <g transform="rotate(150)"><rect x="-2" y="-43" width="4" height="6"/></g>
+      <g transform="rotate(210)"><rect x="-2" y="-43" width="4" height="6"/></g>
+      <g transform="rotate(240)"><rect x="-2" y="-43" width="4" height="6"/></g>
+      <g transform="rotate(300)"><rect x="-2" y="-43" width="4" height="6"/></g>
+      <g transform="rotate(330)"><rect x="-2" y="-43" width="4" height="6"/></g>
+    </g>
+
+    <!-- HIGHLIGHT — bright warm line along teeth top -->
+    <path d="M-80,-80 Q0,-110 80,-80" stroke="#fff8e8" stroke-width="1.4" fill="none" opacity="0.85" filter="url(#p14p3bloom)"/>
+    <ellipse cx="-30" cy="-50" rx="14" ry="8" fill="#fff8e8" opacity="0.65" filter="url(#p14p3bloom)"/>
+    <ellipse cx="-12" cy="-12" rx="4" ry="3" fill="#fff8e8" opacity="0.85" filter="url(#p14p3bloom)"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+  </g>
+</svg>

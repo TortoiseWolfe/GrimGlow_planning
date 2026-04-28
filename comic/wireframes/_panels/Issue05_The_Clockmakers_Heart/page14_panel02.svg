@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 5 — Page 14 — Panel 2: Wren CU calculation — fear replaced by focus — engineer takes over from survivor</title>
+  <desc>85mm CU. Wren's face sharp focus. Eyes narrow with calculation. Jaw set. She's timing clockmaker's eleven-minute cycle. Plan crystallizing. Holographic node pulses dim copper-gold once. Dialog: WREN sub-whisper: Sable. I have a window. Eleven-minute cycle. I need thirty seconds. / SABLE through earpiece tiny: Theodore is en route.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p14p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c08"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p14p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p14p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="p14p2brassReflect" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#5a3018" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p14p2nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3018" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p14p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p14p2glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p14p2bg)"/>
+  <!-- Brass-reflect from below -->
+  <rect width="366" height="364" fill="url(#p14p2brassReflect)"/>
+
+  <!-- Brass plate edge at very bottom -->
+  <rect x="0" y="340" width="366" height="24" fill="#7a4818"/>
+  <line x1="0" y1="340" x2="366" y2="340" stroke="#fff8e8" stroke-width="0.55" opacity="0.55" filter="url(#p14p2bloom)"/>
+
+  <!-- ===== WREN'S FACE ===== -->
+  <g transform="translate(183 200)">
+    <!-- Suit collar at very bottom -->
+    <path d="M-130,150 L-150,90 L150,90 L130,150 Z" fill="url(#p14p2suit)"/>
+    <!-- Suit accent -->
+    <line x1="-80" y1="100" x2="80" y2="100" stroke="#c87a35" stroke-width="0.85" opacity="0.55"/>
+    <!-- HOLOGRAPHIC NODE pulsing dim copper-gold ONCE -->
+    <circle cx="0" cy="106" r="4" fill="#ffaa48" opacity="0.85" filter="url(#p14p2bloom)"/>
+    <circle cx="0" cy="106" r="9" fill="url(#p14p2nodeGlow)"/>
+
+    <!-- HEAD -->
+    <ellipse cx="0" cy="0" rx="120" ry="140" fill="url(#p14p2skin)"/>
+    <!-- Brass-reflect golden cast on lower face -->
+    <ellipse cx="0" cy="60" rx="110" ry="60" fill="#ffd078" opacity="0.45" filter="url(#p14p2bloom)"/>
+
+    <!-- Hair UP — bun visible at top, strands fallen LOOSE across face -->
+    <ellipse cx="0" cy="-110" rx="20" ry="14" fill="#0a0604"/>
+    <ellipse cx="0" cy="-118" rx="14" ry="9" fill="#1a0c04"/>
+    <path d="M-110,-110 Q-90,-140 0,-148 Q90,-140 110,-110 L106,-94 Q70,-128 0,-128 Q-70,-128 -106,-94 Z" fill="#0a0604"/>
+    <!-- LOOSE STRANDS across face -->
+    <path d="M-80,-50 Q-90,-20 -78,20" stroke="#0a0604" stroke-width="2" fill="none"/>
+    <path d="M-60,-60 Q-70,-30 -55,10" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+    <path d="M-40,-70 Q-50,-40 -38,-10" stroke="#0a0604" stroke-width="1" fill="none"/>
+    <path d="M80,-50 Q90,-20 78,20" stroke="#0a0604" stroke-width="2" fill="none"/>
+    <path d="M60,-60 Q70,-30 55,10" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+
+    <!-- Oil smudge on cheek -->
+    <ellipse cx="-50" cy="40" rx="14" ry="9" fill="#1a0c04" opacity="0.55" transform="rotate(-15 -50 40)"/>
+    <ellipse cx="44" cy="30" rx="9" ry="6" fill="#1a0c04" opacity="0.45"/>
+
+    <!-- EYES — NARROWED, calculating, sharp -->
+    <ellipse cx="-44" cy="-30" rx="22" ry="11" fill="#fff8e8"/>
+    <!-- Squint — top eyelid lower -->
+    <path d="M-66,-34 Q-44,-30 -22,-34" stroke="#3a1808" stroke-width="2" fill="none"/>
+    <ellipse cx="-44" cy="-26" rx="14" ry="7" fill="#3a2010"/>
+    <circle cx="-44" cy="-26" r="6" fill="#0a0604"/>
+    <circle cx="-42" cy="-30" r="2" fill="#fff8e8" filter="url(#p14p2bloom)"/>
+
+    <ellipse cx="44" cy="-30" rx="22" ry="11" fill="#fff8e8"/>
+    <path d="M22,-34 Q44,-30 66,-34" stroke="#3a1808" stroke-width="2" fill="none"/>
+    <ellipse cx="44" cy="-26" rx="14" ry="7" fill="#3a2010"/>
+    <circle cx="44" cy="-26" r="6" fill="#0a0604"/>
+    <circle cx="46" cy="-30" r="2" fill="#fff8e8" filter="url(#p14p2bloom)"/>
+
+    <!-- Brows — angled DOWN at center (focused, set) -->
+    <path d="M-66,-50 L-22,-46" stroke="#0a0604" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M22,-46 L66,-50" stroke="#0a0604" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M-6,4 L-2,40 Q2,44 6,42 L10,4 Z" fill="url(#p14p2skin)" opacity="0.85"/>
+
+    <!-- Mouth — set, determined -->
+    <path d="M-22,68 L22,68" stroke="#3a1808" stroke-width="3" stroke-linecap="round"/>
+    <!-- Slight downward tightness at corners -->
+    <path d="M-22,68 Q-26,72 -28,76" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+    <path d="M22,68 Q26,72 28,76" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+
+    <!-- Earpiece small device at ear -->
+    <circle cx="-100" cy="-10" r="6" fill="#5a3018" stroke="#a86838" stroke-width="0.55"/>
+    <circle cx="-100" cy="-10" r="2" fill="#ffaa48" opacity="0.85" filter="url(#p14p2bloom)"/>
+  </g>
+
+  <!-- DIALOG WREN sub-whisper -->
+  <g transform="translate(280 60)">
+    <ellipse cx="0" cy="0" rx="80" ry="36" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-30,30 L-44,46 L-26,32 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="-70" y="-18" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="-70" y="-3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-style="italic" font-weight="500">"Sable. I have a window.</text>
+    <text x="-70" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-style="italic" font-weight="500">Eleven-minute cycle.</text>
+    <text x="-70" y="25" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-style="italic" font-weight="500">I need thirty seconds."</text>
+  </g>
+
+  <!-- DIALOG SABLE through earpiece (dashed border, tiny) -->
+  <g transform="translate(80 320)">
+    <ellipse cx="0" cy="0" rx="70" ry="22" fill="#ffffff" stroke="#5a606a" stroke-width="1" stroke-dasharray="2,2" opacity="0.85" filter="url(#balloonShadow)"/>
+    <path d="M22,-18 L36,-32 L26,-20 Z" fill="#ffffff" stroke="#5a606a" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="-60" y="-7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE</text>
+    <text x="-60" y="6" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-style="italic" font-weight="500">"Theodore is en route."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+  </g>
+</svg>
