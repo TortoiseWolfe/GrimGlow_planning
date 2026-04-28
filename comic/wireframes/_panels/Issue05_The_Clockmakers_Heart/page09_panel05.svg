@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 422" width="366" height="422">
+  <title>Issue 5 — Page 9 — Panel 5: SPLIT FRAME — fairy schematic | human brass — Wren's face between — condescension dies</title>
+  <desc>85mm CU split composition. LEFT: copper-gold holographic wireframe, geometric, annotated with fairy script. RIGHT: physical brass gear, hand-machined, oil-filmed, warm. Wren's face between, eyes softening with recognition. Two solutions to the same problem.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p9p5leftBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c14"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p9p5rightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p9p5brass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="p9p5skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#c89048"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="p9p5suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a850"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <radialGradient id="p9p5leftGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a888e8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p9p5rightGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p9p5oilSheen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p9p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p9p5glow"><feGaussianBlur stdDeviation="2.8"/></filter>
+  </defs>
+
+  <!-- LEFT half — schematic side (cooler bg) -->
+  <rect width="183" height="422" fill="url(#p9p5leftBg)"/>
+  <!-- RIGHT half — physical brass side (warm bg) -->
+  <rect x="183" y="0" width="183" height="422" fill="url(#p9p5rightBg)"/>
+
+  <!-- Each side gets its own glow wash -->
+  <ellipse cx="92" cy="200" rx="120" ry="200" fill="url(#p9p5leftGlow)" filter="url(#p9p5glow)" opacity="0.85"/>
+  <ellipse cx="274" cy="200" rx="120" ry="200" fill="url(#p9p5rightGlow)" filter="url(#p9p5glow)" opacity="0.85"/>
+
+  <!-- ===== LEFT: HOLOGRAPHIC WIREFRAME schematic (clean, geometric) ===== -->
+  <g transform="translate(92 200)">
+    <!-- Outer wheel wireframe -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#ffd078" stroke-width="1.4" opacity="0.95" filter="url(#p9p5bloom)"/>
+    <!-- Inner ring -->
+    <circle cx="0" cy="0" r="56" fill="none" stroke="#ffd078" stroke-width="1" opacity="0.85" filter="url(#p9p5bloom)"/>
+    <!-- Hub -->
+    <circle cx="0" cy="0" r="11" fill="none" stroke="#ffd078" stroke-width="1.2" filter="url(#p9p5bloom)"/>
+    <circle cx="0" cy="0" r="3" fill="#ffd078" filter="url(#p9p5bloom)"/>
+    <!-- Spokes (cross pattern) -->
+    <g stroke="#ffd078" stroke-width="1" stroke-linecap="round" filter="url(#p9p5bloom)" opacity="0.85">
+      <line x1="0" y1="-56" x2="0" y2="-11"/>
+      <line x1="56" y1="0" x2="11" y2="0"/>
+      <line x1="0" y1="56" x2="0" y2="11"/>
+      <line x1="-56" y1="0" x2="-11" y2="0"/>
+    </g>
+    <!-- Tooth marker ticks (precise, structured) -->
+    <g stroke="#fff8e8" stroke-width="0.7" filter="url(#p9p5bloom)" opacity="0.85">
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(0)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(15)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(30)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(45)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(60)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(75)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(90)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(105)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(120)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(135)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(150)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(165)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(180)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(195)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(210)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(225)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(240)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(255)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(270)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(285)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(300)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(315)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(330)"/>
+      <line x1="0" y1="-72" x2="0" y2="-66" transform="rotate(345)"/>
+    </g>
+    <!-- Annotations in fairy geometric script (right side of wheel) -->
+    <g stroke="#fff8e8" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#p9p5bloom)">
+      <line x1="80" y1="-30" x2="100" y2="-30"/>
+      <line x1="80" y1="-22" x2="100" y2="-22"/>
+      <path d="M80,-26 L86,-22"/>
+      <path d="M88,-30 L92,-22"/>
+      <line x1="80" y1="20" x2="100" y2="20"/>
+      <path d="M80,22 L88,28 L96,20"/>
+    </g>
+    <!-- Particles drifting -->
+    <g fill="#ffd078" filter="url(#p9p5bloom)" opacity="0.75">
+      <circle cx="-80" cy="-60" r="0.85"/>
+      <circle cx="80" cy="-60" r="0.85"/>
+      <circle cx="-80" cy="60" r="0.85"/>
+      <circle cx="80" cy="60" r="0.85"/>
+    </g>
+  </g>
+  <!-- Schematic label -->
+  <text x="92" y="50" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#fff8e8" opacity="0.85" font-weight="700" filter="url(#p9p5bloom)">SCHEMATIC</text>
+  <text x="92" y="62" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="4.4" fill="#ffd078" opacity="0.85" filter="url(#p9p5bloom)">FAIRY GEOMETRY</text>
+
+  <!-- ===== RIGHT: PHYSICAL BRASS gear (hand-machined, oil-filmed) ===== -->
+  <g transform="translate(274 200)">
+    <!-- Wheel body -->
+    <circle cx="0" cy="0" r="80" fill="url(#p9p5brass)" stroke="#7a4818" stroke-width="0.85"/>
+    <!-- Many teeth -->
+    <g fill="url(#p9p5brass)" stroke="#7a4818" stroke-width="0.4">
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(0)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(15)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(30)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(45)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(60)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(75)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(90)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(105)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(120)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(135)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(150)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(165)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(180)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(195)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(210)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(225)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(240)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(255)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(270)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(285)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(300)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(315)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(330)"/>
+      <path d="M0,-80 L2,-86 L-2,-86 Z" transform="rotate(345)"/>
+    </g>
+    <!-- Spokes -->
+    <g stroke="#7a4818" stroke-width="3" stroke-linecap="round">
+      <line x1="0" y1="-56" x2="0" y2="-14"/>
+      <line x1="56" y1="0" x2="14" y2="0"/>
+      <line x1="0" y1="56" x2="0" y2="14"/>
+      <line x1="-56" y1="0" x2="-14" y2="0"/>
+    </g>
+    <!-- Inner ring -->
+    <circle cx="0" cy="0" r="56" fill="none" stroke="#7a4818" stroke-width="0.55"/>
+    <!-- Hub -->
+    <circle cx="0" cy="0" r="14" fill="#7a4818" stroke="#1a0c04" stroke-width="0.55"/>
+    <circle cx="0" cy="0" r="6" fill="#3a3030"/>
+    <!-- HAND-LAPPED TEXTURE (script demand: imperfect at close range but exquisite) -->
+    <g stroke="#7a4818" stroke-width="0.4" opacity="0.55" fill="none">
+      <path d="M-50,-30 L-40,-22"/>
+      <path d="M-40,-30 L-30,-22"/>
+      <path d="M40,-30 L50,-22"/>
+      <path d="M30,30 L40,22"/>
+    </g>
+    <!-- Polished sheen + OIL FILM (warm, organic) -->
+    <ellipse cx="-22" cy="-22" rx="18" ry="34" fill="url(#p9p5oilSheen)" filter="url(#p9p5glow)" opacity="0.85"/>
+    <ellipse cx="-15" cy="-15" rx="9" ry="18" fill="#fff8e8" opacity="0.55" filter="url(#p9p5bloom)"/>
+    <!-- Oil sheen (visible film catching light) -->
+    <ellipse cx="22" cy="22" rx="14" ry="9" fill="#fff8e8" opacity="0.45" filter="url(#p9p5bloom)"/>
+  </g>
+  <!-- Brass label -->
+  <text x="274" y="50" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#fff8e8" opacity="0.85" font-weight="700" filter="url(#p9p5bloom)">MECHANISM</text>
+  <text x="274" y="62" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="4.4" fill="#ffd078" opacity="0.85" filter="url(#p9p5bloom)">HAND-MACHINED</text>
+
+  <!-- ===== WREN'S FACE between — left half cool, right half warm ===== -->
+  <g transform="translate(183 360)">
+    <!-- Body suggested -->
+    <path d="M-42,72 L-50,42 L50,42 L42,72 Z" fill="url(#p9p5suit)"/>
+    <line x1="-22" y1="50" x2="22" y2="50" stroke="#ffd078" stroke-width="1" opacity="0.85" filter="url(#p9p5bloom)"/>
+    <!-- Shoulders -->
+    <path d="M-50,42 Q-40,22 -10,16 Q14,16 40,22 Q50,42 48,38 L-48,38 Z" fill="url(#p9p5suit)"/>
+    <ellipse cx="-50" cy="40" rx="5" ry="3" fill="#1a0c04" opacity="0.85"/>
+
+    <!-- HEAD — LEFT half (cool wash from schematic) + RIGHT half (warm from brass) -->
+    <ellipse cx="0" cy="0" rx="56" ry="68" fill="url(#p9p5skin)"/>
+    <!-- Left side cool wash -->
+    <ellipse cx="-26" cy="0" rx="20" ry="40" fill="#a888e8" opacity="0.45" filter="url(#p9p5bloom)"/>
+    <!-- Right side warm wash -->
+    <ellipse cx="26" cy="0" rx="20" ry="40" fill="#ffd078" opacity="0.55" filter="url(#p9p5bloom)"/>
+
+    <!-- HAIR UP — bun visible -->
+    <ellipse cx="0" cy="-66" rx="12" ry="9" fill="#0a0604"/>
+    <ellipse cx="0" cy="-72" rx="7" ry="5" fill="#1a0c04"/>
+    <path d="M-50,-44 Q-36,-66 0,-72 Q36,-66 50,-44 L48,-36 Q34,-58 0,-58 Q-34,-58 -48,-36 Z" fill="#0a0604"/>
+
+    <!-- EYES — dark, softening with recognition -->
+    <ellipse cx="-20" cy="-12" rx="10" ry="6" fill="#fff8e8"/>
+    <ellipse cx="-20" cy="-10" rx="6" ry="4" fill="#3a2010"/>
+    <circle cx="-20" cy="-10" r="3.4" fill="#0a0604"/>
+    <circle cx="-19" cy="-13" r="1" fill="#fff8e8" filter="url(#p9p5bloom)"/>
+    <!-- Reflection of cool light in left eye -->
+    <ellipse cx="-22" cy="-9" rx="1.4" ry="0.85" fill="#a888e8" opacity="0.85" filter="url(#p9p5bloom)"/>
+
+    <ellipse cx="20" cy="-12" rx="10" ry="6" fill="#fff8e8"/>
+    <ellipse cx="20" cy="-10" rx="6" ry="4" fill="#3a2010"/>
+    <circle cx="20" cy="-10" r="3.4" fill="#0a0604"/>
+    <circle cx="22" cy="-13" r="1" fill="#fff8e8" filter="url(#p9p5bloom)"/>
+    <!-- Reflection of warm light in right eye -->
+    <ellipse cx="22" cy="-9" rx="1.4" ry="0.85" fill="#ffd078" opacity="0.85" filter="url(#p9p5bloom)"/>
+
+    <!-- Brows level — softening -->
+    <path d="M-32,-22 L-10,-24" stroke="#0a0604" stroke-width="2" stroke-linecap="round"/>
+    <path d="M10,-24 L32,-22" stroke="#0a0604" stroke-width="2" stroke-linecap="round"/>
+    <!-- SLIGHT SOFTENING at corners (script: faintest softening around eyes) -->
+    <path d="M-30,-2 Q-22,3 -14,-2" fill="none" stroke="#3a2010" stroke-width="0.55" opacity="0.6"/>
+    <path d="M14,-2 Q22,3 30,-2" fill="none" stroke="#3a2010" stroke-width="0.55" opacity="0.6"/>
+
+    <!-- Nose -->
+    <path d="M-3,2 L-1,22 Q1,24 3,22 L5,2 Z" fill="url(#p9p5skin)" opacity="0.85"/>
+
+    <!-- Mouth — lips slightly parted (script: questioning the work) -->
+    <ellipse cx="0" cy="36" rx="6" ry="2.4" fill="#3a1808" opacity="0.7"/>
+    <path d="M-6,36 L6,36" stroke="#3a1808" stroke-width="1"/>
+  </g>
+
+  <!-- WREN private dialogue (top center, dotted because not on comms) -->
+  <g>
+    <rect x="14" y="14" width="338" height="46" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3 2" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN (private)</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410" font-style="italic">How did you do this? With files and hand</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410" font-style="italic">lathes and — how did you get it this close?</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,360 Q90,358 180,362 Q280,364 366,360"/>
+  </g>
+</svg>
