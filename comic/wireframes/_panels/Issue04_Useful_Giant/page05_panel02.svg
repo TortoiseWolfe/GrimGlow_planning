@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 224" width="150" height="224">
+  <title>Issue 4 — Page 5 — Panel 2: Thresh inset, looking up at giant Theodore, existential fear</title>
+  <desc>85mm narrow vertical close-up. Thresh's face tilted straight up. Pale skin, copper-red buzz cut, intense eyes wide with EXISTENTIAL fear (not tactical), copper-red buzz, ruby-crimson suit dented armor. Weapon lowered but white-knuckle grip. Cool blue-white from below, warm daylight from above. The visceral awareness of permanent helplessness.</desc>
+
+  <defs>
+    <linearGradient id="p5p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="50%" stop-color="#3a3038"/>
+      <stop offset="100%" stop-color="#1a1424"/>
+    </linearGradient>
+    <linearGradient id="p5p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8a888"/>
+      <stop offset="100%" stop-color="#e8b898"/>
+    </linearGradient>
+    <linearGradient id="p5p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e84050"/>
+      <stop offset="50%" stop-color="#a82030"/>
+      <stop offset="100%" stop-color="#5a0810"/>
+    </linearGradient>
+    <linearGradient id="p5p2hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d83820"/>
+      <stop offset="100%" stop-color="#7a1808"/>
+    </linearGradient>
+    <filter id="p5p2bloom"><feGaussianBlur stdDeviation="0.85"/></filter>
+  </defs>
+
+  <!-- BG: vertical gradient from warm (top) to cool (bottom) -->
+  <rect width="150" height="224" fill="url(#p5p2bg)"/>
+
+  <!-- Thresh face — head tilted up looking at sky -->
+  <g transform="translate(75 140)">
+    <!-- Neck/shoulder hint at bottom -->
+    <path d="M-44,80 L-44,40 L44,40 L44,80 Z" fill="url(#p5p2suit)"/>
+    <!-- Chest plate hint -->
+    <path d="M-30,40 L-30,80 L30,80 L30,40 Z" fill="#a82030" opacity="0.85"/>
+    <!-- Crimson hologram glow at edge -->
+    <line x1="-30" y1="42" x2="30" y2="42" stroke="#ff8090" stroke-width="0.55" opacity="0.7"/>
+    <circle cx="0" cy="60" r="2" fill="#ff8090" filter="url(#p5p2bloom)"/>
+
+    <!-- Face — tilted UP (chin forward, forehead back) -->
+    <ellipse cx="0" cy="0" rx="36" ry="44" fill="url(#p5p2skin)"/>
+    <!-- Jawline emphasized -->
+    <path d="M-30,-2 Q-26,30 -10,40 L8,40 Q24,30 30,8 L26,-4 Z" fill="url(#p5p2skin)"/>
+
+    <!-- HAIR — copper-red buzz (top of head, since looking up) -->
+    <g fill="url(#p5p2hair)">
+      <path d="M-32,-30 Q-32,-44 0,-46 Q32,-44 32,-30 L30,-22 Q14,-32 0,-32 Q-14,-32 -30,-22 Z"/>
+      <g stroke="#e84028" stroke-width="0.55" opacity="0.7">
+        <line x1="-22" y1="-36" x2="-22" y2="-32"/>
+        <line x1="-12" y1="-40" x2="-12" y2="-36"/>
+        <line x1="0" y1="-42" x2="0" y2="-38"/>
+        <line x1="12" y1="-40" x2="12" y2="-36"/>
+        <line x1="22" y1="-36" x2="22" y2="-32"/>
+      </g>
+    </g>
+
+    <!-- BROW — drawn down hard, jaw clenched -->
+    <path d="M-22,-12 L-6,-16" stroke="#5a1808" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M2,-16 L22,-12" stroke="#5a1808" stroke-width="2.4" stroke-linecap="round"/>
+
+    <!-- EYES — WIDE, existential fear (not narrowed for tactical aim) -->
+    <ellipse cx="-12" cy="-2" rx="4.5" ry="3" fill="#fff8e8"/>
+    <ellipse cx="-12" cy="-2" rx="2.6" ry="2.2" fill="#3a4828"/>
+    <circle cx="-12" cy="-2" r="1.4" fill="#0a0604"/>
+    <ellipse cx="-13" cy="-3" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <ellipse cx="12" cy="-2" rx="4.5" ry="3" fill="#fff8e8"/>
+    <ellipse cx="12" cy="-2" rx="2.6" ry="2.2" fill="#3a4828"/>
+    <circle cx="12" cy="-2" r="1.4" fill="#0a0604"/>
+    <ellipse cx="11" cy="-3" rx="0.85" ry="0.55" fill="#fff8e8"/>
+
+    <!-- White showing above iris (fear) -->
+    <path d="M-16,-4 Q-12,-6 -8,-4" fill="none" stroke="#3a2010" stroke-width="0.55"/>
+    <path d="M8,-4 Q12,-6 16,-4" fill="none" stroke="#3a2010" stroke-width="0.55"/>
+
+    <!-- NOSE -->
+    <path d="M0,2 L-2,16 Q0,18 2,16 L0,2 Z" fill="#a8786a" opacity="0.65"/>
+
+    <!-- MOUTH — slight tension, jaw set but lips parted -->
+    <path d="M-7,24 L7,24" stroke="#5a1808" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Cheekbone tension -->
+    <path d="M-30,8 Q-26,20 -16,26" fill="none" stroke="#a8786a" stroke-width="0.5" opacity="0.55"/>
+    <path d="M30,8 Q26,20 16,26" fill="none" stroke="#a8786a" stroke-width="0.5" opacity="0.55"/>
+
+    <!-- Cool light from below (camp side) -->
+    <path d="M-32,16 L-22,20 Q-20,30 -28,32 Z" fill="#a8c0e0" opacity="0.35"/>
+    <path d="M32,16 L22,20 Q20,30 28,32 Z" fill="#a8c0e0" opacity="0.35"/>
+    <!-- Warm rim from above -->
+    <path d="M-32,-30 Q0,-46 32,-30 L26,-26 Q0,-38 -26,-26 Z" fill="#d8c8a8" opacity="0.4"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.35" opacity="0.16" fill="none">
+    <path d="M0,40 Q40,38 80,42 Q120,44 150,40"/>
+    <path d="M0,180 Q40,182 80,178 Q120,176 150,180"/>
+  </g>
+</svg>

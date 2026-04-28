@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 224" width="150" height="224">
+  <title>Issue 4 — Page 5 — Panel 4: Wren inset, pragmatic calculation, arms crossed</title>
+  <desc>85mm narrow vertical close-up. Wren tilted upward but not awed — calculating. East Asian features, dark hair UP messy bun, oil-stained copper suit with scorch mark left shoulder. One eyebrow raised, arms crossed, head tilted. Pragmatic assessment. Ghost of an idea forming. Copper-gold hologram glow + cool camp light + warm daylight from above.</desc>
+
+  <defs>
+    <linearGradient id="p5p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="50%" stop-color="#3a3038"/>
+      <stop offset="100%" stop-color="#1a1424"/>
+    </linearGradient>
+    <linearGradient id="p5p4skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c89878"/>
+      <stop offset="100%" stop-color="#e8b898"/>
+    </linearGradient>
+    <linearGradient id="p5p4suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e88a45"/>
+      <stop offset="50%" stop-color="#c87533"/>
+      <stop offset="100%" stop-color="#88481a"/>
+    </linearGradient>
+    <filter id="p5p4bloom"><feGaussianBlur stdDeviation="0.85"/></filter>
+  </defs>
+
+  <!-- BG -->
+  <rect width="150" height="224" fill="url(#p5p4bg)"/>
+
+  <!-- Wren — head + shoulders (with arms crossed visible at bottom) -->
+  <g transform="translate(75 130)">
+    <!-- Shoulders + collar + crossed arms peeking up -->
+    <path d="M-46,90 L-46,40 L46,40 L46,90 Z" fill="url(#p5p4suit)"/>
+    <!-- SCORCH MARK on left shoulder -->
+    <ellipse cx="-30" cy="42" rx="6" ry="3" fill="#1a0c04" opacity="0.75"/>
+    <!-- Crossed arms visible -->
+    <path d="M-40,60 Q-30,52 -10,56 L0,54 L10,56 Q30,52 40,60 L40,80 L-40,80 Z" fill="url(#p5p4suit)"/>
+    <line x1="-10" y1="56" x2="0" y2="54" stroke="#88481a" stroke-width="0.55"/>
+    <line x1="0" y1="54" x2="10" y2="56" stroke="#88481a" stroke-width="0.55"/>
+    <!-- OIL STAINED forearms visible at edge of crossed arms -->
+    <ellipse cx="-22" cy="62" rx="6" ry="2" fill="#1a0c04" opacity="0.55"/>
+    <ellipse cx="22" cy="62" rx="6" ry="2" fill="#1a0c04" opacity="0.55"/>
+    <!-- Copper-gold hologram glow at collar -->
+    <circle cx="-22" cy="46" r="1.2" fill="#ffd888" filter="url(#p5p4bloom)"/>
+    <circle cx="22" cy="46" r="1.2" fill="#ffd888" filter="url(#p5p4bloom)"/>
+
+    <!-- FACE — head TILTED slightly to the side (calculating posture) -->
+    <g transform="rotate(-6)">
+      <ellipse cx="0" cy="0" rx="32" ry="40" fill="url(#p5p4skin)"/>
+      <path d="M-26,-2 Q-22,28 -8,38 L6,38 Q22,28 26,8 L22,-4 Z" fill="url(#p5p4skin)"/>
+
+      <!-- HAIR — dark, HAIR UP messy bun -->
+      <g fill="#1a0c04">
+        <path d="M-30,-26 Q-30,-40 0,-44 Q30,-40 30,-26 L26,-18 Q14,-30 0,-30 Q-14,-30 -26,-18 Z"/>
+        <!-- Bun on top -->
+        <ellipse cx="-2" cy="-50" rx="14" ry="11"/>
+        <!-- Strands escaping -->
+        <path d="M-22,-30 Q-26,-22 -22,-12" stroke="#1a0c04" stroke-width="0.85" fill="none"/>
+        <path d="M22,-30 Q26,-22 22,-12" stroke="#1a0c04" stroke-width="0.85" fill="none"/>
+      </g>
+
+      <!-- BROWS — RIGHT eyebrow RAISED (calculation) -->
+      <path d="M-22,-12 L-6,-16" stroke="#1a0c04" stroke-width="2" stroke-linecap="round"/>
+      <!-- Right brow raised -->
+      <path d="M2,-18 L22,-14" stroke="#1a0c04" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- EYES — narrow, calculating -->
+      <ellipse cx="-12" cy="-2" rx="3.5" ry="2" fill="#fff8e8"/>
+      <ellipse cx="-12" cy="-2" rx="2" ry="1.4" fill="#3a2010"/>
+      <circle cx="-12" cy="-2" r="1" fill="#0a0604"/>
+      <ellipse cx="12" cy="-4" rx="3.5" ry="2.4" fill="#fff8e8"/>
+      <ellipse cx="12" cy="-4" rx="2.2" ry="1.6" fill="#3a2010"/>
+      <circle cx="12" cy="-4" r="1.1" fill="#0a0604"/>
+      <ellipse cx="-13" cy="-3" rx="0.7" ry="0.45" fill="#fff8e8"/>
+      <ellipse cx="11" cy="-5" rx="0.7" ry="0.45" fill="#fff8e8"/>
+
+      <!-- Lower lid lines -->
+      <path d="M-16,1 Q-12,3 -8,1" fill="none" stroke="#3a2010" stroke-width="0.55"/>
+      <path d="M8,-1 Q12,1 16,-1" fill="none" stroke="#3a2010" stroke-width="0.55"/>
+
+      <!-- NOSE -->
+      <path d="M0,4 L-2,16 Q0,18 2,16 L0,4 Z" fill="#a87858" opacity="0.65"/>
+
+      <!-- MOUTH — slight smirk forming (the idea) -->
+      <path d="M-7,24 Q-1,26 8,22" fill="none" stroke="#3a1808" stroke-width="1"/>
+
+      <!-- Cheekbones -->
+      <path d="M-30,8 Q-26,20 -16,26" fill="none" stroke="#a87858" stroke-width="0.5" opacity="0.55"/>
+      <path d="M30,8 Q26,20 16,26" fill="none" stroke="#a87858" stroke-width="0.5" opacity="0.55"/>
+
+      <!-- Cool light on left -->
+      <path d="M-30,2 L-22,0 Q-20,16 -26,20 Z" fill="#a8c0e0" opacity="0.3"/>
+      <!-- Warm light on top of head -->
+      <path d="M-30,-26 Q0,-42 30,-26 L24,-22 Q0,-34 -24,-22 Z" fill="#d8c8a8" opacity="0.4"/>
+    </g>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.35" opacity="0.16" fill="none">
+    <path d="M0,40 Q40,38 80,42 Q120,44 150,40"/>
+    <path d="M0,180 Q40,182 80,178 Q120,176 150,180"/>
+  </g>
+</svg>

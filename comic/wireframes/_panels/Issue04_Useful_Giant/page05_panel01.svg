@@ -1,0 +1,496 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 1112" width="742" height="1112">
+  <title>Issue 4 — Page 5 — Panel 1: SPLASH. Theodore's face fills the squad's sky through the floorboard gap</title>
+  <desc>24mm extreme low angle from squad POV looking straight up through floorboard gap. Theodore's monumental face fills the sky, framed by warped floorboard edges. Sandy-brown hair hanging down, wide hazel eyes, freckles, mouth slightly open in held wonder. Below his face, five tiny squad members stand on timber beams looking up. Sable center, defiant, chin raised. Jink slightly apart. Thresh, Wren, Luma arrayed. DUAL LIGHTING: warm grey daylight from above pours through gap onto Theodore. Cool blue-white holographic glow rises from camp below painting underside of floorboards and lower contours of Theodore's face. Theodore: You're all here. You're all... / ...real. Sable: We are real. We are not fairies. We are not magic. And you are not supposed to be here.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p5p1cavityFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#0a0604"/>
+    </linearGradient>
+    <linearGradient id="p5p1floorboard" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="50%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+    <radialGradient id="p5p1sky" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#e8d8b8"/>
+      <stop offset="100%" stop-color="#a89888"/>
+    </radialGradient>
+    <linearGradient id="p5p1theoSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8b8a8"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </linearGradient>
+    <radialGradient id="p5p1theoHair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#88806a"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </radialGradient>
+    <radialGradient id="p5p1iris" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="20%" stop-color="#5a4018"/>
+      <stop offset="55%" stop-color="#8a6028"/>
+      <stop offset="85%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </radialGradient>
+    <radialGradient id="p5p1campCool" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#a8c0e0" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a8c0e0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p5p1powerCell" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd888" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a87828" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p5p1silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dad5d0"/>
+      <stop offset="100%" stop-color="#5a5860"/>
+    </linearGradient>
+    <linearGradient id="p5p1emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3aa868"/>
+      <stop offset="100%" stop-color="#1a5a38"/>
+    </linearGradient>
+    <linearGradient id="p5p1crimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d83040"/>
+      <stop offset="100%" stop-color="#7a1018"/>
+    </linearGradient>
+    <linearGradient id="p5p1copper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e88a45"/>
+      <stop offset="100%" stop-color="#88481a"/>
+    </linearGradient>
+    <linearGradient id="p5p1sapphire" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a5ad8"/>
+      <stop offset="100%" stop-color="#3a1a78"/>
+    </linearGradient>
+    <linearGradient id="p5p1darkSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="100%" stop-color="#7a4838"/>
+    </linearGradient>
+    <linearGradient id="p5p1jinkSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#c89878"/>
+    </linearGradient>
+    <linearGradient id="p5p1threshSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8a888"/>
+      <stop offset="100%" stop-color="#e8b898"/>
+    </linearGradient>
+    <linearGradient id="p5p1wrenSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c89878"/>
+      <stop offset="100%" stop-color="#e8b898"/>
+    </linearGradient>
+    <filter id="p5p1bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p5p1glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+  </defs>
+
+  <!-- BG: cavity interior dark BG (lower 1/3) -->
+  <rect width="742" height="1112" fill="url(#p5p1cavityFloor)"/>
+
+  <!-- THE GAP — frames the upper 2/3 of the page -->
+  <!-- Floorboard edges as window frame around the sky/Theodore -->
+  <rect x="0" y="0" width="742" height="100" fill="url(#p5p1floorboard)"/>
+  <rect x="0" y="700" width="742" height="50" fill="url(#p5p1floorboard)"/>
+  <rect x="0" y="0" width="80" height="750" fill="url(#p5p1floorboard)"/>
+  <rect x="662" y="0" width="80" height="750" fill="url(#p5p1floorboard)"/>
+  <!-- Wood grain -->
+  <g stroke="#1a0c04" stroke-width="0.45" opacity="0.6" fill="none">
+    <path d="M0,40 Q200,42 400,40 Q600,42 742,40"/>
+    <path d="M0,72 Q200,74 400,72 Q600,74 742,72"/>
+    <path d="M0,720 Q200,722 400,720 Q600,722 742,720"/>
+    <path d="M40,200 Q42,400 40,600"/>
+    <path d="M700,200 Q702,400 700,600"/>
+  </g>
+  <!-- Crumbled mortar / wood splinters at gap edges -->
+  <g fill="#7a5848" opacity="0.7">
+    <ellipse cx="120" cy="100" rx="6" ry="2"/>
+    <ellipse cx="320" cy="100" rx="5" ry="1.6"/>
+    <ellipse cx="540" cy="100" rx="6" ry="2"/>
+    <ellipse cx="220" cy="700" rx="6" ry="2"/>
+    <ellipse cx="500" cy="700" rx="6" ry="2"/>
+  </g>
+
+  <!-- SKY visible through gap (warm daylight) -->
+  <rect x="80" y="100" width="582" height="600" fill="url(#p5p1sky)"/>
+
+  <!-- THEODORE'S MONUMENTAL FACE — fills the sky -->
+  <g transform="translate(371 380)">
+    <!-- Face -->
+    <ellipse cx="0" cy="0" rx="280" ry="280" fill="url(#p5p1theoSkin)"/>
+
+    <!-- HAIR — sandy-brown, hanging down (gravity from above) -->
+    <g fill="url(#p5p1theoHair)">
+      <!-- Top mass of hair -->
+      <path d="M-280,-200 Q-250,-280 0,-282 Q250,-280 280,-200 L260,-160 Q150,-200 0,-200 Q-150,-200 -260,-160 Z"/>
+      <!-- Strands hanging forward + down (he's above looking down) -->
+      <path d="M-200,-160 Q-198,-100 -180,-40 L-160,-44 Q-180,-100 -190,-160 Z"/>
+      <path d="M-130,-180 Q-128,-100 -110,-30 L-86,-34 Q-110,-100 -120,-180 Z"/>
+      <path d="M-50,-184 Q-48,-100 -30,-30 L-6,-34 Q-30,-104 -40,-184 Z"/>
+      <path d="M40,-184 Q42,-104 60,-30 L84,-34 Q60,-100 50,-184 Z"/>
+      <path d="M120,-180 Q122,-100 140,-30 L164,-34 Q140,-100 130,-180 Z"/>
+      <path d="M200,-160 Q202,-100 220,-40 L240,-44 Q220,-100 210,-160 Z"/>
+      <!-- Wisps -->
+      <path d="M-160,-160 Q-160,-130 -150,-100" stroke="#3a3028" stroke-width="0.85" fill="none"/>
+      <path d="M-90,-180 Q-90,-140 -78,-100" stroke="#3a3028" stroke-width="0.85" fill="none"/>
+      <path d="M0,-184 Q0,-140 14,-100" stroke="#3a3028" stroke-width="0.85" fill="none"/>
+      <path d="M90,-180 Q92,-140 104,-100" stroke="#3a3028" stroke-width="0.85" fill="none"/>
+      <path d="M160,-160 Q162,-130 172,-100" stroke="#3a3028" stroke-width="0.85" fill="none"/>
+    </g>
+
+    <!-- EYEBROWS -->
+    <g fill="url(#p5p1theoHair)" opacity="0.85">
+      <path d="M-160,-90 Q-100,-110 -40,-100 Q0,-90 -20,-86 Q-100,-100 -160,-78 Z"/>
+      <path d="M40,-100 Q100,-110 160,-90 Q150,-86 100,-94 Q40,-94 20,-86 Z"/>
+    </g>
+
+    <!-- LEFT EYE -->
+    <g transform="translate(-110 -10)">
+      <ellipse cx="0" cy="0" rx="80" ry="34" fill="#fff8e8"/>
+      <circle cx="0" cy="0" r="30" fill="url(#p5p1iris)"/>
+      <!-- Iris detail rays -->
+      <g stroke="#3a2010" stroke-width="0.7" fill="none" opacity="0.7">
+        <line x1="0" y1="-30" x2="0" y2="-18"/>
+        <line x1="15" y1="-26" x2="9" y2="-15"/>
+        <line x1="26" y1="-15" x2="16" y2="-9"/>
+        <line x1="30" y1="0" x2="18" y2="0"/>
+        <line x1="26" y1="15" x2="16" y2="9"/>
+        <line x1="15" y1="26" x2="9" y2="15"/>
+        <line x1="0" y1="30" x2="0" y2="18"/>
+        <line x1="-15" y1="26" x2="-9" y2="15"/>
+        <line x1="-26" y1="15" x2="-16" y2="9"/>
+        <line x1="-30" y1="0" x2="-18" y2="0"/>
+        <line x1="-26" y1="-15" x2="-16" y2="-9"/>
+        <line x1="-15" y1="-26" x2="-9" y2="-15"/>
+      </g>
+      <!-- Gold flecks -->
+      <g fill="#c89858" opacity="0.85">
+        <ellipse cx="-10" cy="-5" rx="3" ry="1.6"/>
+        <ellipse cx="8" cy="8" rx="3" ry="1.6"/>
+        <ellipse cx="-5" cy="12" rx="2" ry="1"/>
+      </g>
+      <!-- Pupil -->
+      <circle cx="0" cy="0" r="14" fill="#0a0604"/>
+      <!-- Catchlight (warm, from above) -->
+      <ellipse cx="-8" cy="-9" rx="4" ry="2.6" fill="#fff8e8"/>
+      <ellipse cx="-10" cy="-11" rx="1.6" ry="1.2" fill="#ffffff"/>
+      <!-- Upper lid arch -->
+      <path d="M-80,-2 Q0,-40 80,-2" fill="none" stroke="#3a2010" stroke-width="2"/>
+      <!-- Eyelashes -->
+      <g stroke="#3a2010" stroke-width="1" stroke-linecap="round">
+        <line x1="-50" y1="-18" x2="-52" y2="-30"/>
+        <line x1="-25" y1="-30" x2="-27" y2="-44"/>
+        <line x1="0" y1="-36" x2="0" y2="-50"/>
+        <line x1="25" y1="-30" x2="27" y2="-44"/>
+        <line x1="50" y1="-18" x2="52" y2="-30"/>
+      </g>
+      <!-- Lower lid -->
+      <path d="M-80,4 Q0,28 80,4" fill="none" stroke="#5a3818" stroke-width="1.2"/>
+    </g>
+
+    <!-- RIGHT EYE -->
+    <g transform="translate(110 -10)">
+      <ellipse cx="0" cy="0" rx="80" ry="34" fill="#fff8e8"/>
+      <circle cx="0" cy="0" r="30" fill="url(#p5p1iris)"/>
+      <g stroke="#3a2010" stroke-width="0.7" fill="none" opacity="0.7">
+        <line x1="0" y1="-30" x2="0" y2="-18"/>
+        <line x1="15" y1="-26" x2="9" y2="-15"/>
+        <line x1="26" y1="-15" x2="16" y2="-9"/>
+        <line x1="30" y1="0" x2="18" y2="0"/>
+        <line x1="26" y1="15" x2="16" y2="9"/>
+        <line x1="15" y1="26" x2="9" y2="15"/>
+        <line x1="0" y1="30" x2="0" y2="18"/>
+        <line x1="-15" y1="26" x2="-9" y2="15"/>
+        <line x1="-26" y1="15" x2="-16" y2="9"/>
+        <line x1="-30" y1="0" x2="-18" y2="0"/>
+        <line x1="-26" y1="-15" x2="-16" y2="-9"/>
+        <line x1="-15" y1="-26" x2="-9" y2="-15"/>
+      </g>
+      <g fill="#c89858" opacity="0.85">
+        <ellipse cx="10" cy="-5" rx="3" ry="1.6"/>
+        <ellipse cx="-8" cy="8" rx="3" ry="1.6"/>
+      </g>
+      <circle cx="0" cy="0" r="14" fill="#0a0604"/>
+      <ellipse cx="-8" cy="-9" rx="4" ry="2.6" fill="#fff8e8"/>
+      <ellipse cx="-10" cy="-11" rx="1.6" ry="1.2" fill="#ffffff"/>
+      <path d="M-80,-2 Q0,-40 80,-2" fill="none" stroke="#3a2010" stroke-width="2"/>
+      <g stroke="#3a2010" stroke-width="1" stroke-linecap="round">
+        <line x1="-50" y1="-18" x2="-52" y2="-30"/>
+        <line x1="-25" y1="-30" x2="-27" y2="-44"/>
+        <line x1="0" y1="-36" x2="0" y2="-50"/>
+        <line x1="25" y1="-30" x2="27" y2="-44"/>
+        <line x1="50" y1="-18" x2="52" y2="-30"/>
+      </g>
+      <path d="M-80,4 Q0,28 80,4" fill="none" stroke="#5a3818" stroke-width="1.2"/>
+    </g>
+
+    <!-- NOSE — pointing down (from below view) -->
+    <path d="M-20,30 L-30,140 Q0,150 30,140 L20,30 Z" fill="url(#p5p1theoSkin)"/>
+    <!-- Nostrils -->
+    <ellipse cx="-12" cy="138" rx="6" ry="3" fill="#5a3828" opacity="0.55"/>
+    <ellipse cx="12" cy="138" rx="6" ry="3" fill="#5a3828" opacity="0.55"/>
+
+    <!-- MOUTH — slightly open in held wonder -->
+    <g transform="translate(0 200)">
+      <ellipse cx="0" cy="0" rx="60" ry="14" fill="#a85838"/>
+      <path d="M-60,-2 Q0,8 60,-2" fill="none" stroke="#5a2818" stroke-width="1"/>
+      <!-- Teeth hint -->
+      <rect x="-14" y="2" width="28" height="6" fill="#f0e8d8" opacity="0.85"/>
+    </g>
+
+    <!-- FRECKLES across nose bridge + cheeks -->
+    <g fill="#7a5848" opacity="0.7">
+      <circle cx="-50" cy="60" r="2"/>
+      <circle cx="-30" cy="80" r="1.6"/>
+      <circle cx="-10" cy="76" r="1.6"/>
+      <circle cx="10" cy="76" r="1.6"/>
+      <circle cx="30" cy="80" r="1.6"/>
+      <circle cx="50" cy="60" r="2"/>
+      <circle cx="-110" cy="80" r="2"/>
+      <circle cx="-90" cy="100" r="1.6"/>
+      <circle cx="90" cy="100" r="1.6"/>
+      <circle cx="110" cy="80" r="2"/>
+    </g>
+
+    <!-- COOL UNDER-LIGHT (camp glow on lower face/jaw) -->
+    <path d="M-220,140 Q-100,180 0,180 Q100,180 220,140 L240,200 Q120,240 0,240 Q-120,240 -240,200 Z" fill="#a8c0e0" opacity="0.3"/>
+  </g>
+
+  <!-- DUST MOTES floating in light beams -->
+  <g fill="#fff8e8" opacity="0.7">
+    <circle cx="160" cy="180" r="2"/>
+    <circle cx="280" cy="220" r="1.6"/>
+    <circle cx="380" cy="160" r="2"/>
+    <circle cx="480" cy="240" r="1.6"/>
+    <circle cx="560" cy="180" r="2"/>
+    <circle cx="120" cy="280" r="1.4"/>
+    <circle cx="220" cy="320" r="1.6"/>
+    <circle cx="600" cy="320" r="1.4"/>
+  </g>
+
+  <!-- ===== LOWER 1/3: CAMP INTERIOR with squad on beams looking up ===== -->
+
+  <!-- COOL camp glow rising -->
+  <rect x="80" y="700" width="582" height="412" fill="url(#p5p1campCool)" opacity="0.85"/>
+
+  <!-- TIMBER BEAM where squad stands -->
+  <rect x="40" y="900" width="662" height="40" fill="#3a2010"/>
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.65">
+    <line x1="40" y1="902" x2="702" y2="902"/>
+    <line x1="40" y1="936" x2="702" y2="936"/>
+  </g>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.5" fill="none">
+    <path d="M80,915 Q300,920 500,915 Q620,910 700,915"/>
+    <path d="M80,925 Q300,920 500,925 Q620,930 700,925"/>
+  </g>
+
+  <!-- POWER CELL on left ledge -->
+  <g transform="translate(120 870)">
+    <ellipse cx="0" cy="0" rx="50" ry="24" fill="url(#p5p1powerCell)" filter="url(#p5p1glow)" opacity="0.55"/>
+    <path d="M-12,-22 L0,-30 L12,-22 L14,-2 L-14,-2 Z" fill="#d8a838"/>
+    <path d="M-10,-22 L0,-28 L10,-22 L0,-12 Z" fill="#ffd888"/>
+    <circle cx="0" cy="-18" r="4" fill="#ffe8a8"/>
+  </g>
+
+  <!-- HOLOGRAPHIC PERIMETER EMITTER right -->
+  <g transform="translate(640 880)">
+    <ellipse cx="0" cy="0" rx="22" ry="18" fill="#a8c0e0" opacity="0.6" filter="url(#p5p1bloom)"/>
+    <path d="M-5,-7 L0,-10 L5,-7 L7,0 L4,7 L-4,7 L-7,0 Z" fill="#c0d8f0"/>
+    <circle cx="0" cy="0" r="2" fill="#fff8e8"/>
+  </g>
+
+  <!-- ===== SQUAD on the beam ===== -->
+
+  <!-- Thresh (left, weapon visible) -->
+  <g transform="translate(180 900)">
+    <ellipse cx="0" cy="0" rx="15" ry="2.8" fill="#0a0604" opacity="0.65"/>
+    <path d="M-7,-44 L-10,-2 L-3,0 L-1,-44 Z" fill="url(#p5p1crimson)"/>
+    <path d="M1,-44 L3,0 L10,-2 L7,-44 Z" fill="url(#p5p1crimson)"/>
+    <path d="M-13,-78 L-15,-44 L15,-44 L13,-78 Z" fill="url(#p5p1crimson)"/>
+    <path d="M-12,-72 L-12,-50 L12,-50 L12,-72 Z" fill="#a82030" opacity="0.8"/>
+    <!-- Shoulders + DENTED LEFT PAULDRON -->
+    <path d="M-13,-78 Q-19,-86 -13,-92 L-7,-92 L-9,-76 Z" fill="#a82030"/>
+    <ellipse cx="-15" cy="-86" rx="3" ry="1.4" fill="#5a0810" opacity="0.85"/>
+    <path d="M13,-78 Q19,-86 13,-92 L7,-92 L9,-76 Z" fill="url(#p5p1crimson)"/>
+    <!-- Rifle (lowered but ready) -->
+    <rect x="14" y="-58" width="22" height="3" fill="#3a3038"/>
+    <rect x="32" y="-58" width="2" height="3" fill="#1a1820"/>
+    <!-- Holographic seams -->
+    <circle cx="-9" cy="-86" r="1" fill="#ffaaaa" filter="url(#p5p1bloom)"/>
+    <circle cx="9" cy="-86" r="1" fill="#ffaaaa" filter="url(#p5p1bloom)"/>
+    <!-- Arms -->
+    <path d="M-13,-76 Q-18,-66 -10,-58 L-6,-62 Q-10,-72 -8,-76 Z" fill="url(#p5p1crimson)"/>
+    <path d="M13,-76 Q18,-66 10,-58 L6,-62 Q10,-72 8,-76 Z" fill="url(#p5p1crimson)"/>
+    <ellipse cx="-7" cy="-58" rx="2.4" ry="1.4" fill="url(#p5p1threshSkin)"/>
+    <ellipse cx="7" cy="-58" rx="2.4" ry="1.4" fill="url(#p5p1threshSkin)"/>
+    <!-- Head — TILTED UP -->
+    <ellipse cx="0" cy="-92" rx="9" ry="11" fill="url(#p5p1threshSkin)"/>
+    <g fill="#a83018">
+      <path d="M-8,-100 Q-9,-106 0,-108 Q9,-106 8,-100 L6,-94 Q3,-100 -3,-100 Q-6,-100 -8,-94 Z"/>
+    </g>
+    <ellipse cx="-3" cy="-92" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="-3" cy="-92" r="0.6" fill="#0a0604"/>
+    <ellipse cx="3" cy="-92" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="3" cy="-92" r="0.6" fill="#0a0604"/>
+    <path d="M-3,-86 L3,-86" stroke="#5a1808" stroke-width="0.85"/>
+  </g>
+
+  <!-- Wren (left-center, leaning, arms crossed-incoming) -->
+  <g transform="translate(280 900)">
+    <ellipse cx="0" cy="0" rx="13" ry="2.4" fill="#0a0604" opacity="0.6"/>
+    <path d="M-6,-40 L-9,-2 L-3,0 L-1,-40 Z" fill="url(#p5p1copper)"/>
+    <path d="M1,-40 L3,0 L9,-2 L6,-40 Z" fill="url(#p5p1copper)"/>
+    <path d="M-12,-70 L-14,-40 L14,-40 L12,-70 Z" fill="url(#p5p1copper)"/>
+    <!-- SCORCH MARK left shoulder -->
+    <ellipse cx="-12" cy="-68" rx="4" ry="3" fill="#1a0c04" opacity="0.75"/>
+    <path d="M-14,-70 Q-19,-78 -13,-82 L-7,-80 Z" fill="url(#p5p1copper)"/>
+    <path d="M14,-70 Q19,-78 13,-82 L7,-80 Z" fill="url(#p5p1copper)"/>
+    <!-- Arms folded -->
+    <path d="M-14,-66 Q-16,-58 -8,-54 L8,-56 Q16,-60 14,-66 L8,-64 Q-2,-58 -8,-64 Z" fill="url(#p5p1copper)"/>
+    <ellipse cx="-6" cy="-58" rx="5" ry="2" fill="#1a0c04" opacity="0.55"/>
+    <ellipse cx="6" cy="-58" rx="5" ry="2" fill="#1a0c04" opacity="0.55"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-86" rx="8" ry="10" fill="url(#p5p1wrenSkin)"/>
+    <g fill="#1a0c04">
+      <path d="M-7,-93 Q-8,-100 0,-101 Q8,-100 7,-93 L5,-88 Q2,-94 -2,-94 Q-5,-94 -7,-88 Z"/>
+      <ellipse cx="2" cy="-104" rx="5" ry="4"/>
+    </g>
+    <ellipse cx="-3" cy="-86" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-86" r="0.6" fill="#1a0c04"/>
+    <ellipse cx="3" cy="-86" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="3" cy="-86" r="0.6" fill="#1a0c04"/>
+    <path d="M-2,-80 L3,-80" stroke="#3a2010" stroke-width="0.55"/>
+  </g>
+
+  <!-- SABLE (CENTER, defiant, chin raised) -->
+  <g transform="translate(371 900)">
+    <ellipse cx="0" cy="0" rx="16" ry="3" fill="#0a0604" opacity="0.7"/>
+    <path d="M-7,-46 L-10,-2 L-3,0 L-1,-46 Z" fill="url(#p5p1silver)"/>
+    <path d="M1,-46 L3,0 L10,-2 L7,-46 Z" fill="url(#p5p1silver)"/>
+    <path d="M-13,-78 L-15,-46 L15,-46 L13,-78 Z" fill="url(#p5p1silver)"/>
+    <!-- SOOT BLOOM right shoulder -->
+    <ellipse cx="13" cy="-76" rx="6" ry="4" fill="#3a3038" opacity="0.75"/>
+    <path d="M-15,-78 Q-22,-86 -15,-92 L-8,-92 Z" fill="url(#p5p1silver)"/>
+    <path d="M15,-78 Q22,-86 15,-92 L8,-92 Z" fill="url(#p5p1silver)"/>
+    <circle cx="-9" cy="-86" r="1" fill="#fff8e8" filter="url(#p5p1bloom)"/>
+    <circle cx="9" cy="-86" r="1" fill="#fff8e8" filter="url(#p5p1bloom)"/>
+    <!-- Arms at sides -->
+    <path d="M-15,-78 Q-22,-58 -16,-46 L-10,-50 Q-14,-62 -10,-76 Z" fill="url(#p5p1silver)"/>
+    <path d="M15,-78 Q22,-58 16,-46 L10,-50 Q14,-62 10,-76 Z" fill="url(#p5p1silver)"/>
+    <ellipse cx="-15" cy="-48" rx="2.4" ry="1.4" fill="url(#p5p1darkSkin)"/>
+    <ellipse cx="15" cy="-48" rx="2.4" ry="1.4" fill="url(#p5p1darkSkin)"/>
+    <!-- Head — CHIN UP -->
+    <ellipse cx="0" cy="-94" rx="9" ry="11" fill="url(#p5p1darkSkin)"/>
+    <g fill="#dad5d0">
+      <path d="M-7,-101 Q-8,-107 0,-109 Q8,-107 7,-101 L5,-96 Q2,-101 -2,-101 Q-5,-101 -7,-96 Z"/>
+    </g>
+    <ellipse cx="-3" cy="-94" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-94" r="0.6" fill="#0a0604"/>
+    <ellipse cx="3" cy="-94" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="3" cy="-94" r="0.6" fill="#0a0604"/>
+    <path d="M-3,-88 L3,-88" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Brow set -->
+    <path d="M-7,-98 L-1,-99" stroke="#3a3028" stroke-width="0.85"/>
+    <path d="M1,-99 L7,-98" stroke="#3a3028" stroke-width="0.85"/>
+  </g>
+
+  <!-- LUMA (right of Sable, scanner active) -->
+  <g transform="translate(460 900)">
+    <ellipse cx="0" cy="0" rx="13" ry="2.4" fill="#0a0604" opacity="0.6"/>
+    <path d="M-6,-40 L-9,-2 L-3,0 L-1,-40 Z" fill="url(#p5p1sapphire)"/>
+    <path d="M1,-40 L3,0 L9,-2 L6,-40 Z" fill="url(#p5p1sapphire)"/>
+    <path d="M-12,-70 L-14,-40 L14,-40 L12,-70 Z" fill="url(#p5p1sapphire)"/>
+    <path d="M-14,-70 Q-19,-78 -13,-82 L-7,-80 Z" fill="url(#p5p1sapphire)"/>
+    <path d="M14,-70 Q19,-78 13,-82 L7,-80 Z" fill="url(#p5p1sapphire)"/>
+    <!-- Holographic glow -->
+    <circle cx="-9" cy="-78" r="0.85" fill="#a888ff" filter="url(#p5p1bloom)"/>
+    <circle cx="9" cy="-78" r="0.85" fill="#a888ff" filter="url(#p5p1bloom)"/>
+    <!-- Arms -->
+    <path d="M-14,-68 Q-19,-58 -16,-44 L-10,-46 Q-12,-58 -10,-66 Z" fill="url(#p5p1sapphire)"/>
+    <path d="M14,-68 Q19,-58 16,-44 L10,-46 Q12,-58 10,-66 Z" fill="url(#p5p1sapphire)"/>
+    <ellipse cx="-15" cy="-44" rx="2.4" ry="1.4" fill="url(#p5p1jinkSkin)"/>
+    <ellipse cx="15" cy="-44" rx="2.4" ry="1.4" fill="url(#p5p1jinkSkin)"/>
+    <!-- INK STAINS on hands -->
+    <ellipse cx="-15" cy="-44" rx="1.4" ry="0.7" fill="#1a0838" opacity="0.7"/>
+    <ellipse cx="15" cy="-44" rx="1.4" ry="0.7" fill="#1a0838" opacity="0.7"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-84" rx="8" ry="10" fill="url(#p5p1jinkSkin)"/>
+    <g fill="#1a0c04">
+      <path d="M-8,-92 Q-8,-100 0,-102 Q8,-100 8,-92 L6,-86 Q3,-92 -3,-92 Q-6,-92 -8,-86 Z"/>
+      <!-- Braid -->
+      <path d="M6,-90 Q12,-78 14,-62" stroke="#1a0c04" stroke-width="2" fill="none"/>
+    </g>
+    <line x1="6" y1="-90" x2="14" y2="-62" stroke="#a888ff" stroke-width="0.5" opacity="0.85" filter="url(#p5p1bloom)"/>
+    <!-- Holographic LENSES -->
+    <ellipse cx="-3" cy="-86" rx="2" ry="1.4" fill="#a888ff" opacity="0.85" filter="url(#p5p1bloom)"/>
+    <ellipse cx="3" cy="-86" rx="2" ry="1.4" fill="#a888ff" opacity="0.85" filter="url(#p5p1bloom)"/>
+    <path d="M2,-87 L4,-85" stroke="#3a1a78" stroke-width="0.4"/>
+  </g>
+
+  <!-- JINK (slightly apart, right of Luma) -->
+  <g transform="translate(560 900)">
+    <ellipse cx="0" cy="0" rx="13" ry="2.4" fill="#0a0604" opacity="0.6"/>
+    <path d="M-6,-40 L-9,-2 L-3,0 L-1,-40 Z" fill="url(#p5p1emerald)"/>
+    <path d="M1,-40 L3,0 L9,-2 L6,-40 Z" fill="url(#p5p1emerald)"/>
+    <path d="M-12,-70 L-14,-40 L14,-40 L12,-70 Z" fill="url(#p5p1emerald)"/>
+    <!-- Chest soot streak -->
+    <path d="M-9,-66 Q-2,-62 5,-68 Q-2,-54 -8,-50 Z" fill="#3a2818" opacity="0.7"/>
+    <path d="M-14,-70 Q-19,-78 -13,-82 L-7,-80 Z" fill="url(#p5p1emerald)"/>
+    <path d="M14,-70 Q19,-78 13,-82 L7,-80 Z" fill="url(#p5p1emerald)"/>
+    <!-- Wing-pack glow -->
+    <circle cx="-9" cy="-78" r="1" fill="#9aff9a" filter="url(#p5p1bloom)"/>
+    <circle cx="9" cy="-78" r="1" fill="#9aff9a" filter="url(#p5p1bloom)"/>
+    <!-- Arms -->
+    <path d="M-14,-68 Q-19,-58 -16,-44 L-10,-46 Q-12,-58 -10,-66 Z" fill="url(#p5p1emerald)"/>
+    <path d="M14,-68 Q19,-58 16,-44 L10,-46 Q12,-58 10,-66 Z" fill="url(#p5p1emerald)"/>
+    <ellipse cx="-15" cy="-44" rx="2.4" ry="1.4" fill="url(#p5p1jinkSkin)"/>
+    <ellipse cx="15" cy="-44" rx="2.4" ry="1.4" fill="url(#p5p1jinkSkin)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-84" rx="8" ry="10" fill="url(#p5p1jinkSkin)"/>
+    <g fill="#d8a838">
+      <circle cx="-7" cy="-92" r="3"/>
+      <circle cx="0" cy="-96" r="3.4"/>
+      <circle cx="7" cy="-92" r="3"/>
+      <circle cx="-9" cy="-88" r="2.2"/>
+      <circle cx="9" cy="-88" r="2.2"/>
+    </g>
+    <ellipse cx="-3" cy="-84" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="-3" cy="-84" r="0.6" fill="#1a4830"/>
+    <ellipse cx="3" cy="-84" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="3" cy="-84" r="0.6" fill="#1a4830"/>
+    <path d="M-2,-78 L3,-78" stroke="#3a1808" stroke-width="0.85"/>
+  </g>
+
+  <!-- DIALOGUE — Theodore: You're all here. You're all... -->
+  <g>
+    <rect x="14" y="14" width="220" height="46" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M120,60 L130,60 L122,72 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M122,60 L128,60" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="34" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="22" y="52" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic">You're all here. You're all...</text>
+
+  <!-- DIALOGUE — Theodore: ...real. -->
+  <g>
+    <rect x="610" y="78" width="118" height="40" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M634,118 L644,118 L636,130 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M636,118 L642,118" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="618" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="618" y="112" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a" font-style="italic" font-weight="700">...real.</text>
+
+  <!-- DIALOGUE — Sable: We are real. We are not fairies. We are not magic. And you are not supposed to be here. -->
+  <g>
+    <rect x="14" y="1042" width="500" height="58" rx="4" fill="#ffffff" stroke="#5a606a" stroke-width="2" filter="url(#balloonShadow)"/>
+    <!-- Tail pointing down to Sable -->
+    <path d="M260,1042 L270,1030 L262,1042 Z" fill="#ffffff" stroke="#5a606a" stroke-width="2"/>
+    <path d="M262,1042 L268,1042" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="1062" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#5a606a">SABLE</text>
+  <text x="22" y="1080" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">We are real. We are not fairies. We are not magic.</text>
+  <text x="22" y="1096" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">And you are not supposed to be here.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,300 Q200,302 400,298 Q580,296 742,300"/>
+    <path d="M0,800 Q200,802 400,798 Q580,796 742,800"/>
+  </g>
+</svg>
