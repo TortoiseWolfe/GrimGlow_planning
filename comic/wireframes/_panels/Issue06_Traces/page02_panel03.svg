@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.7 364" width="240.7" height="364">
+  <title>Issue 6 — Page 2 — Panel 3: Thresh — controlled fear, hands tightening on rifle stock, silent</title>
+  <desc>50mm MCU eye level. Thresh seated on lower beam, weapon across knees, hands tightening. Red map light from side catching dent in left pauldron and grime. Silence is the character beat.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p2p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#180a14"/>
+      <stop offset="100%" stop-color="#04020a"/>
+    </linearGradient>
+    <linearGradient id="i6p2p3threshSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2030"/>
+      <stop offset="100%" stop-color="#5a0818"/>
+    </linearGradient>
+    <linearGradient id="i6p2p3beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <radialGradient id="i6p2p3redSide" cx="0%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#ff3848" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#a82030" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3a0810" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p2p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p2p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="240.7" height="364" fill="url(#i6p2p3bg)"/>
+
+  <!-- Red map light from left side -->
+  <ellipse cx="-30" cy="200" rx="160" ry="240" fill="url(#i6p2p3redSide)" filter="url(#i6p2p3glow)"/>
+
+  <!-- Lower timber beam (Thresh's seat) -->
+  <rect x="-10" y="280" width="260" height="22" fill="url(#i6p2p3beam)"/>
+  <line x1="0" y1="298" x2="240.7" y2="298" stroke="#0a0604" stroke-width="0.5" opacity="0.7"/>
+  <g stroke="#1a0c04" stroke-width="0.45" opacity="0.45" fill="none">
+    <path d="M0,284 Q60,286 120,284 Q180,282 240,284"/>
+    <path d="M0,292 Q60,294 120,292 Q180,290 240,292"/>
+  </g>
+
+  <!-- Background timber column -->
+  <rect x="200" y="20" width="14" height="280" fill="url(#i6p2p3beam)"/>
+
+  <!-- ===== THRESH — seated, weapon across knees ===== -->
+  <g transform="translate(120 280)">
+    <!-- Boots flat on beam -->
+    <ellipse cx="-30" cy="0" rx="14" ry="6" fill="#0a0408"/>
+    <ellipse cx="22" cy="0" rx="14" ry="6" fill="#0a0408"/>
+    <!-- Thighs -->
+    <path d="M-36,-2 L-22,-90 L-8,-90 L-22,-2 Z" fill="url(#i6p2p3threshSuit)"/>
+    <path d="M14,-90 L26,-90 L36,-2 L14,-2 Z" fill="url(#i6p2p3threshSuit)"/>
+    <!-- Leg scuffs (grime) -->
+    <ellipse cx="-22" cy="-50" rx="6" ry="2.4" fill="#1a0c04" opacity="0.7"/>
+    <ellipse cx="24" cy="-50" rx="6" ry="2.4" fill="#1a0c04" opacity="0.7"/>
+    <ellipse cx="-26" cy="-30" rx="4" ry="1.6" fill="#1a0c04" opacity="0.55"/>
+    <ellipse cx="26" cy="-32" rx="4" ry="1.6" fill="#1a0c04" opacity="0.55"/>
+
+    <!-- TORSO — heavier armored plating -->
+    <path d="M-32,-90 L-22,-152 L22,-152 L36,-90 Z" fill="url(#i6p2p3threshSuit)"/>
+    <!-- Holo seam center -->
+    <line x1="-12" y1="-120" x2="14" y2="-120" stroke="#ff5868" stroke-width="0.85" opacity="0.7" filter="url(#i6p2p3bloom)"/>
+    <!-- Chest plate -->
+    <path d="M-24,-140 L24,-140 L26,-100 L-26,-100 Z" fill="url(#i6p2p3threshSuit)" stroke="#5a0818" stroke-width="0.55"/>
+    <!-- Ribbed armor lines -->
+    <line x1="-22" y1="-130" x2="22" y2="-130" stroke="#5a0818" stroke-width="0.4" opacity="0.85"/>
+    <line x1="-22" y1="-118" x2="22" y2="-118" stroke="#5a0818" stroke-width="0.4" opacity="0.85"/>
+    <line x1="-22" y1="-106" x2="22" y2="-106" stroke="#5a0818" stroke-width="0.4" opacity="0.85"/>
+    <!-- Grime on armor -->
+    <ellipse cx="-12" cy="-110" rx="6" ry="2.4" fill="#1a0c04" opacity="0.65"/>
+    <ellipse cx="14" cy="-130" rx="5" ry="2" fill="#1a0c04" opacity="0.55"/>
+
+    <!-- LEFT pauldron — DENTED. Catches red rim light prominently -->
+    <path d="M-32,-152 L-46,-148 L-50,-130 L-44,-122 L-32,-130 Z" fill="url(#i6p2p3threshSuit)"/>
+    <!-- Dent — concave shadow + scratches -->
+    <ellipse cx="-44" cy="-132" rx="6" ry="3" fill="#5a0818"/>
+    <ellipse cx="-44" cy="-132" rx="4" ry="2" fill="#3a0408"/>
+    <path d="M-48,-138 L-42,-130" stroke="#1a0c04" stroke-width="0.7" opacity="0.85"/>
+    <path d="M-46,-128 L-40,-134" stroke="#1a0c04" stroke-width="0.55" opacity="0.7"/>
+    <!-- Red rim catching dent edge -->
+    <path d="M-50,-130 L-44,-122" stroke="#ff5868" stroke-width="0.95" opacity="0.85" filter="url(#i6p2p3bloom)"/>
+    <path d="M-46,-148 L-50,-130" stroke="#ff5868" stroke-width="0.55" opacity="0.7" filter="url(#i6p2p3bloom)"/>
+
+    <!-- RIGHT pauldron — intact -->
+    <path d="M32,-152 L44,-148 L48,-130 L42,-120 L32,-130 Z" fill="url(#i6p2p3threshSuit)"/>
+    <ellipse cx="42" cy="-132" rx="3" ry="1.4" fill="#1a0c04" opacity="0.55"/>
+
+    <!-- ARMS — hands gripping rifle across knees -->
+    <path d="M-32,-110 L-46,-100 L-46,-78 L-32,-78 Z" fill="url(#i6p2p3threshSuit)"/>
+    <path d="M32,-110 L46,-100 L46,-78 L32,-78 Z" fill="url(#i6p2p3threshSuit)"/>
+    <!-- Forearm dust + grime -->
+    <ellipse cx="-40" cy="-92" rx="3" ry="1.4" fill="#1a0c04" opacity="0.7"/>
+    <ellipse cx="40" cy="-92" rx="3" ry="1.4" fill="#1a0c04" opacity="0.7"/>
+
+    <!-- Hands — WHITE-KNUCKLED grip, tightening -->
+    <ellipse cx="-40" cy="-72" rx="6" ry="3.5" fill="#d8a878"/>
+    <ellipse cx="40" cy="-72" rx="6" ry="3.5" fill="#d8a878"/>
+    <!-- Knuckle white spots -->
+    <circle cx="-43" cy="-74" r="1.4" fill="#fff8e8" opacity="0.85"/>
+    <circle cx="-39" cy="-75" r="1.4" fill="#fff8e8" opacity="0.85"/>
+    <circle cx="-35" cy="-74" r="1.4" fill="#fff8e8" opacity="0.85"/>
+    <circle cx="35" cy="-74" r="1.4" fill="#fff8e8" opacity="0.85"/>
+    <circle cx="39" cy="-75" r="1.4" fill="#fff8e8" opacity="0.85"/>
+    <circle cx="43" cy="-74" r="1.4" fill="#fff8e8" opacity="0.85"/>
+    <!-- Knuckle lines -->
+    <line x1="-46" y1="-71" x2="-34" y2="-71" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="34" y1="-71" x2="46" y2="-71" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- RIFLE across lap — compact -->
+    <rect x="-50" y="-70" width="100" height="6" fill="#3a3038" rx="0.7"/>
+    <rect x="-12" y="-76" width="22" height="6" fill="#5a606a" rx="0.7"/>
+    <line x1="-50" y1="-67" x2="50" y2="-67" stroke="#0a0604" stroke-width="0.55"/>
+    <!-- Trigger guard -->
+    <path d="M-2,-64 L-2,-58 L8,-58 L8,-64 Z" fill="none" stroke="#3a3038" stroke-width="0.85"/>
+    <!-- Sight rail -->
+    <rect x="-6" y="-78" width="14" height="2" fill="#1a1610"/>
+    <!-- Barrel small bump -->
+    <rect x="48" y="-69" width="6" height="4" fill="#1a1610"/>
+    <!-- Grime on weapon -->
+    <ellipse cx="0" cy="-66" rx="14" ry="0.85" fill="#1a0c04" opacity="0.55"/>
+    <!-- Red light catching weapon edge -->
+    <line x1="-50" y1="-70" x2="50" y2="-70" stroke="#ff5868" stroke-width="0.4" opacity="0.6" filter="url(#i6p2p3bloom)"/>
+
+    <!-- HEAD — eyes fixed on a point beyond, jaw tense -->
+    <ellipse cx="0" cy="-180" rx="20" ry="24" fill="#e0c0a8"/>
+    <!-- Pale skin highlights -->
+    <ellipse cx="-10" cy="-188" rx="6" ry="8" fill="#f0d4b8" opacity="0.55"/>
+    <ellipse cx="10" cy="-188" rx="6" ry="8" fill="#f0d4b8" opacity="0.55"/>
+
+    <!-- Buzz cut — copper red, very short -->
+    <path d="M-20,-194 Q-16,-208 0,-210 Q16,-208 20,-194 L18,-186 Q12,-194 0,-194 Q-12,-194 -18,-186 Z" fill="#c84838"/>
+    <!-- Stippling on buzz cut -->
+    <g fill="#a8302c" opacity="0.85">
+      <circle cx="-12" cy="-202" r="0.5"/>
+      <circle cx="-6" cy="-205" r="0.5"/>
+      <circle cx="0" cy="-207" r="0.5"/>
+      <circle cx="6" cy="-205" r="0.5"/>
+      <circle cx="12" cy="-202" r="0.5"/>
+      <circle cx="-15" cy="-194" r="0.4"/>
+      <circle cx="15" cy="-194" r="0.4"/>
+    </g>
+
+    <!-- Defined cheekbones -->
+    <ellipse cx="-14" cy="-172" rx="5" ry="3" fill="#a87838" opacity="0.45"/>
+    <ellipse cx="14" cy="-172" rx="5" ry="3" fill="#a87838" opacity="0.45"/>
+
+    <!-- Eyes — fixed, narrow, controlled -->
+    <ellipse cx="-7" cy="-184" rx="3" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-7" cy="-184" r="1.4" fill="#0a0604"/>
+    <circle cx="-7" cy="-184" r="0.5" fill="#fff8ff"/>
+    <ellipse cx="7" cy="-184" rx="3" ry="1.4" fill="#fff8e8"/>
+    <circle cx="7" cy="-184" r="1.4" fill="#0a0604"/>
+    <circle cx="7" cy="-184" r="0.5" fill="#fff8ff"/>
+    <!-- Eyelid lines -->
+    <path d="M-12,-186 L-2,-185" stroke="#1a0c04" stroke-width="0.85"/>
+    <path d="M2,-185 L12,-186" stroke="#1a0c04" stroke-width="0.85"/>
+
+    <!-- Brows drawn down — fear held by training -->
+    <path d="M-13,-191 L-3,-190" stroke="#5a1810" stroke-width="1.2"/>
+    <path d="M3,-190 L13,-191" stroke="#5a1810" stroke-width="1.2"/>
+    <!-- Brow furrow -->
+    <line x1="-2" y1="-189" x2="0" y2="-186" stroke="#3a0810" stroke-width="0.55" opacity="0.85"/>
+    <line x1="2" y1="-189" x2="0" y2="-186" stroke="#3a0810" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Nose -->
+    <path d="M0,-184 L-3,-174 L3,-174 Z" fill="#a87838" opacity="0.55"/>
+
+    <!-- Mouth — firm, jaw muscle working -->
+    <path d="M-7,-166 L7,-166" stroke="#5a1810" stroke-width="1.2"/>
+    <!-- Jaw tension shadow -->
+    <ellipse cx="-15" cy="-164" rx="3" ry="2" fill="#5a3028" opacity="0.55"/>
+    <ellipse cx="15" cy="-164" rx="3" ry="2" fill="#5a3028" opacity="0.55"/>
+    <ellipse cx="0" cy="-160" rx="8" ry="1.4" fill="#1a0c04" opacity="0.55"/>
+
+    <!-- Red rim light along left side of face/jaw -->
+    <path d="M-20,-182 Q-22,-170 -16,-160" stroke="#ff5868" stroke-width="0.7" fill="none" opacity="0.85" filter="url(#i6p2p3bloom)"/>
+    <path d="M-18,-160 L-12,-156" stroke="#ff3848" stroke-width="0.55" fill="none" opacity="0.7" filter="url(#i6p2p3bloom)"/>
+  </g>
+
+  <!-- No dialogue — silence is the beat. Subtle caption-like floor visual rather than balloon. -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q60,92 120,88 Q180,86 240,90"/>
+    <path d="M0,300 Q60,302 120,298 Q180,296 240,300"/>
+  </g>
+</svg>
