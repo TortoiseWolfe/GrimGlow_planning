@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 4 — Page 21 — Panel 4: Theodore enters dark side door — silhouette in narrowing gaslight gap — A boy went home</title>
+  <desc>35mm wide. Theodore's silhouette in the doorway, the door closing — narrowing sliver of gaslit street visible. Hand on door frame catches last amber. Inside: darkness waiting. The ordinary end of an extraordinary day.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p21p4interior" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0408"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="p21p4doorFrame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1408"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p21p4streetGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838"/>
+      <stop offset="50%" stop-color="#ffaa48"/>
+      <stop offset="100%" stop-color="#ffd078"/>
+    </linearGradient>
+    <radialGradient id="p21p4gapGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#ffd078" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p21p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p21p4glow"><feGaussianBlur stdDeviation="3.2"/></filter>
+  </defs>
+
+  <!-- INTERIOR DARKNESS — fills frame -->
+  <rect width="366" height="364" fill="url(#p21p4interior)"/>
+
+  <!-- DOOR FRAME (left side of frame — wide jamb visible, door is closing into right side) -->
+  <rect x="0" y="0" width="60" height="364" fill="url(#p21p4doorFrame)"/>
+  <line x1="60" y1="0" x2="60" y2="364" stroke="#0a0604" stroke-width="0.7"/>
+
+  <!-- DOOR — closing, narrowing the opening on the right -->
+  <!-- Door body extends from right edge inward -->
+  <rect x="240" y="0" width="126" height="364" fill="url(#p21p4doorFrame)"/>
+  <line x1="240" y1="0" x2="240" y2="364" stroke="#0a0604" stroke-width="0.7"/>
+  <!-- Door panels -->
+  <line x1="304" y1="0" x2="304" y2="364" stroke="#0a0604" stroke-width="0.4" opacity="0.6"/>
+  <line x1="240" y1="180" x2="366" y2="180" stroke="#0a0604" stroke-width="0.4" opacity="0.6"/>
+  <!-- Doorknob -->
+  <circle cx="284" cy="200" r="2" fill="#a87838"/>
+  <!-- Door interior (subtle wood grain) -->
+  <g stroke="#0a0604" stroke-width="0.2" opacity="0.4">
+    <line x1="246" y1="40" x2="362" y2="42"/>
+    <line x1="246" y1="80" x2="362" y2="82"/>
+    <line x1="246" y1="120" x2="362" y2="118"/>
+    <line x1="246" y1="240" x2="362" y2="242"/>
+    <line x1="246" y1="280" x2="362" y2="282"/>
+    <line x1="246" y1="320" x2="362" y2="318"/>
+  </g>
+
+  <!-- ===== NARROWING GAP — STREET visible through it ===== -->
+  <!-- The gap goes from x=60 to x=240, but the door is closing — sliver remains -->
+  <rect x="60" y="0" width="180" height="364" fill="url(#p21p4streetGlow)"/>
+  <!-- Within that gap, gaslit street: cobblestones at bottom, building face beyond -->
+  <!-- Mid distance building -->
+  <rect x="60" y="180" width="180" height="184" fill="#3a2818"/>
+  <!-- Window in distant building catching gaslight -->
+  <rect x="100" y="220" width="40" height="50" fill="#3a2018"/>
+  <rect x="104" y="224" width="32" height="42" fill="#ffd078" opacity="0.55" filter="url(#p21p4bloom)"/>
+  <ellipse cx="120" cy="244" rx="40" ry="30" fill="#ffd078" opacity="0.3" filter="url(#p21p4glow)"/>
+  <!-- Cobblestones at bottom in gap -->
+  <rect x="60" y="320" width="180" height="44" fill="#3a2818"/>
+  <ellipse cx="160" cy="340" rx="80" ry="20" fill="#ffaa48" opacity="0.4" filter="url(#p21p4glow)"/>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.55">
+    <path d="M60,338 Q140,336 220,340 Q240,341 240,341"/>
+    <path d="M60,355 Q140,357 220,353 Q240,352 240,352"/>
+  </g>
+  <g fill="#1a0c04" opacity="0.55">
+    <circle cx="100" cy="332" r="0.85"/>
+    <circle cx="180" cy="338" r="0.85"/>
+    <circle cx="220" cy="332" r="0.85"/>
+    <circle cx="120" cy="354" r="0.85"/>
+    <circle cx="200" cy="350" r="0.85"/>
+  </g>
+
+  <!-- GAP GLOW — the warm light from outside spills into the dark interior -->
+  <ellipse cx="150" cy="180" rx="200" ry="200" fill="url(#p21p4gapGlow)" filter="url(#p21p4glow)" opacity="0.65"/>
+
+  <!-- ===== THEODORE — silhouette entering from outside ===== -->
+  <g transform="translate(140 240)">
+    <!-- Boots -->
+    <ellipse cx="-7" cy="60" rx="8" ry="3.4" fill="#0a0408"/>
+    <ellipse cx="7" cy="60" rx="8" ry="3.4" fill="#0a0408"/>
+    <!-- Trousers — silhouette -->
+    <rect x="-10" y="20" width="9" height="40" fill="#0a0408"/>
+    <rect x="1" y="20" width="9" height="40" fill="#0a0408"/>
+    <!-- Body — silhouette -->
+    <path d="M-15,20 L-15,-30 L15,-30 L15,20 Z" fill="#0a0408"/>
+    <!-- Edge rim of light along right edge -->
+    <line x1="15" y1="-30" x2="15" y2="20" stroke="#ffd078" stroke-width="1.4" opacity="0.55" filter="url(#p21p4bloom)"/>
+    <line x1="-15" y1="-30" x2="-15" y2="20" stroke="#ffd078" stroke-width="0.8" opacity="0.4" filter="url(#p21p4bloom)"/>
+    <!-- Shoulders -->
+    <path d="M-15,-30 Q-12,-42 -2,-44 Q4,-44 12,-40 L15,-30 Z" fill="#0a0408"/>
+    <!-- Head silhouette with sandy-brown rim -->
+    <ellipse cx="0" cy="-58" rx="13" ry="16" fill="#0a0408"/>
+    <!-- Edge highlight on hair -->
+    <path d="M-11,-72 Q-9,-76 0,-78 Q9,-76 11,-70" stroke="#ffd078" stroke-width="0.85" fill="none" opacity="0.5" filter="url(#p21p4bloom)"/>
+
+    <!-- LEFT HAND ON DOOR FRAME — caught by last amber gaslight -->
+    <g transform="translate(-22 -10)">
+      <ellipse cx="0" cy="0" rx="6" ry="4" fill="#a86838" opacity="0.95"/>
+      <ellipse cx="0" cy="0" rx="9" ry="6" fill="#ffd078" opacity="0.55" filter="url(#p21p4glow)"/>
+      <!-- Fingers gripping frame -->
+      <ellipse cx="-6" cy="-2" rx="3" ry="1.4" fill="#a86838"/>
+      <ellipse cx="-7" cy="2" rx="3" ry="1.4" fill="#a86838"/>
+      <ellipse cx="-6" cy="6" rx="2.4" ry="1.2" fill="#a86838"/>
+      <!-- Brass gear ring still glinting -->
+      <ellipse cx="2" cy="0" rx="2" ry="1.4" fill="none" stroke="#e8a850" stroke-width="0.5" filter="url(#p21p4bloom)"/>
+    </g>
+
+    <!-- Right arm at side -->
+    <rect x="14" y="-30" width="5" height="36" fill="#0a0408"/>
+  </g>
+
+  <!-- Slight motion lines — door swinging closed -->
+  <g stroke="#3a2818" stroke-width="0.7" opacity="0.45" fill="none" stroke-dasharray="3 2">
+    <path d="M250,80 Q230,82 220,84"/>
+    <path d="M250,200 Q230,202 220,204"/>
+    <path d="M250,300 Q230,302 220,304"/>
+  </g>
+
+  <!-- CAPTION — bottom -->
+  <g>
+    <rect x="14" y="306" width="338" height="48" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic" font-weight="500">CAPTION</text>
+  <text x="22" y="338" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic" font-weight="500">A boy went home. Just a boy. With the whole</text>
+  <text x="22" y="350" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic" font-weight="500">world hiding in his pocket.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q90,82 180,78 Q280,76 366,80"/>
+    <path d="M0,290 Q90,288 180,292 Q280,294 366,290"/>
+  </g>
+</svg>

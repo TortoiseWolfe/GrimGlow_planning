@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 4 — Page 21 — Panel 3: Theodore's hand in pocket — shard glow bleeding through wool — brass gear ring on other hand</title>
+  <desc>85mm CU. Hand in pocket curled around shard, blue-white geometric glow visible through wool. Other hand at thigh with brass gear ring catching warm gaslight. Two objects, two worlds. The proof it was real.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p21p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p21p3wool" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="50%" stop-color="#4a3018"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p21p3skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4838"/>
+      <stop offset="50%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#6a3828"/>
+    </linearGradient>
+    <radialGradient id="p21p3pocketGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c0ff" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#88aaff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a78c8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p21p3brassWarm" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p21p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p21p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p21p3bg)"/>
+
+  <!-- WOOL TROUSER FABRIC fills frame -->
+  <rect x="0" y="0" width="366" height="364" fill="url(#p21p3wool)"/>
+  <!-- Subtle wool texture -->
+  <g stroke="#3a2010" stroke-width="0.3" opacity="0.55" fill="none">
+    <path d="M0,30 Q90,32 180,28 Q280,26 366,30"/>
+    <path d="M0,60 Q90,58 180,62 Q280,64 366,60"/>
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,120 Q90,118 180,122 Q280,124 366,120"/>
+    <path d="M0,150 Q90,152 180,148 Q280,146 366,150"/>
+    <path d="M0,180 Q90,178 180,182 Q280,184 366,180"/>
+    <path d="M0,210 Q90,212 180,208 Q280,206 366,210"/>
+    <path d="M0,240 Q90,238 180,242 Q280,244 366,240"/>
+    <path d="M0,270 Q90,272 180,268 Q280,266 366,270"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+    <path d="M0,330 Q90,332 180,328 Q280,326 366,330"/>
+  </g>
+  <g stroke="#3a2010" stroke-width="0.3" opacity="0.45" fill="none">
+    <path d="M30,0 Q32,90 28,180 Q26,280 30,364"/>
+    <path d="M90,0 Q88,90 92,180 Q94,280 90,364"/>
+    <path d="M150,0 Q152,90 148,180 Q146,280 150,364"/>
+    <path d="M210,0 Q208,90 212,180 Q214,280 210,364"/>
+    <path d="M270,0 Q272,90 268,180 Q266,280 270,364"/>
+    <path d="M330,0 Q328,90 332,180 Q334,280 330,364"/>
+  </g>
+
+  <!-- POCKET seam — hand entering from top right -->
+  <path d="M120,80 L240,40 L260,60 L260,180 L240,200 L120,200 L100,180 L100,100 Z" fill="#3a2010" stroke="#1a0c04" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="120" y1="82" x2="240" y2="42" stroke="#1a0c04" stroke-width="0.85"/>
+
+  <!-- Hand inside pocket — bump in fabric -->
+  <ellipse cx="180" cy="140" rx="60" ry="46" fill="#3a2010"/>
+
+  <!-- BLUE-WHITE GLOW — shard inside hand inside pocket — bleeding through wool -->
+  <ellipse cx="180" cy="140" rx="100" ry="80" fill="url(#p21p3pocketGlow)" filter="url(#p21p3glow)" opacity="0.95"/>
+  <ellipse cx="180" cy="140" rx="40" ry="32" fill="#a8c0ff" opacity="0.65" filter="url(#p21p3bloom)"/>
+  <ellipse cx="180" cy="140" rx="14" ry="12" fill="#fff8e8" opacity="0.85" filter="url(#p21p3bloom)"/>
+  <!-- Geometric pattern hinted within the glow — geometric structure of the shard -->
+  <g stroke="#fff8e8" stroke-width="0.5" fill="none" opacity="0.7" filter="url(#p21p3bloom)">
+    <path d="M168,128 L192,128 L192,152 L168,152 Z"/>
+    <line x1="180" y1="128" x2="180" y2="152"/>
+    <line x1="168" y1="140" x2="192" y2="140"/>
+  </g>
+
+  <!-- FINGER BUMPS curled around shard, visible in fabric -->
+  <g opacity="0.85">
+    <path d="M150,118 Q156,114 162,118 L160,124 Q156,122 152,124 Z" fill="#3a2010" stroke="#1a0c04" stroke-width="0.4"/>
+    <path d="M198,118 Q204,114 210,118 L208,124 Q204,122 200,124 Z" fill="#3a2010" stroke="#1a0c04" stroke-width="0.4"/>
+    <path d="M170,108 Q180,104 190,108 L188,114 Q180,112 172,114 Z" fill="#3a2010" stroke="#1a0c04" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== OTHER HAND — at thigh, visible — brass gear ring + oil-stained ===== -->
+  <g transform="translate(60 240)">
+    <!-- WRIST visible from sleeve edge -->
+    <ellipse cx="0" cy="-30" rx="22" ry="14" fill="url(#p21p3skin)"/>
+    <ellipse cx="0" cy="-26" rx="20" ry="12" fill="url(#p21p3skin)"/>
+    <!-- KNUCKLES + BACK OF HAND — flat against thigh -->
+    <ellipse cx="0" cy="0" rx="32" ry="22" fill="url(#p21p3skin)"/>
+    <!-- INDEX finger extended slightly -->
+    <ellipse cx="-8" cy="22" rx="6" ry="14" fill="url(#p21p3skin)"/>
+    <ellipse cx="-9" cy="34" rx="5" ry="10" fill="url(#p21p3skin)"/>
+    <!-- Other fingers folded -->
+    <ellipse cx="6" cy="20" rx="5" ry="12" fill="url(#p21p3skin)"/>
+    <ellipse cx="16" cy="16" rx="4" ry="10" fill="url(#p21p3skin)"/>
+    <ellipse cx="22" cy="10" rx="3" ry="6" fill="url(#p21p3skin)"/>
+    <!-- Thumb tucked -->
+    <ellipse cx="-22" cy="-2" rx="5" ry="8" fill="url(#p21p3skin)"/>
+    <!-- Knuckle creases -->
+    <path d="M-14,-4 Q-8,-6 -2,-4" fill="none" stroke="#3a1808" stroke-width="0.4" opacity="0.55"/>
+    <path d="M-2,-4 Q4,-6 10,-4" fill="none" stroke="#3a1808" stroke-width="0.4" opacity="0.55"/>
+    <path d="M10,-4 Q14,-6 18,-4" fill="none" stroke="#3a1808" stroke-width="0.4" opacity="0.55"/>
+
+    <!-- BRASS GEAR RING on left index finger -->
+    <g transform="translate(-9 18)">
+      <ellipse cx="0" cy="0" rx="8" ry="5" fill="url(#p21p3brassWarm)" filter="url(#p21p3glow)" opacity="0.85"/>
+      <circle cx="0" cy="0" r="3.4" fill="none" stroke="#e8a850" stroke-width="1.4" filter="url(#p21p3bloom)"/>
+      <circle cx="0" cy="0" r="2.6" fill="none" stroke="#ffd078" stroke-width="0.85" filter="url(#p21p3bloom)" opacity="0.85"/>
+      <circle cx="0" cy="0" r="1.4" fill="none" stroke="#a87838" stroke-width="0.7"/>
+      <!-- Tiny gear teeth -->
+      <line x1="-3.4" y1="0" x2="-4.4" y2="0" stroke="#e8a850" stroke-width="0.7"/>
+      <line x1="3.4" y1="0" x2="4.4" y2="0" stroke="#e8a850" stroke-width="0.7"/>
+      <line x1="0" y1="-3.4" x2="0" y2="-4.4" stroke="#e8a850" stroke-width="0.7"/>
+      <line x1="0" y1="3.4" x2="0" y2="4.4" stroke="#e8a850" stroke-width="0.7"/>
+      <line x1="-2.4" y1="-2.4" x2="-3.2" y2="-3.2" stroke="#e8a850" stroke-width="0.7"/>
+      <line x1="2.4" y1="-2.4" x2="3.2" y2="-3.2" stroke="#e8a850" stroke-width="0.7"/>
+      <line x1="-2.4" y1="2.4" x2="-3.2" y2="3.2" stroke="#e8a850" stroke-width="0.7"/>
+      <line x1="2.4" y1="2.4" x2="3.2" y2="3.2" stroke="#e8a850" stroke-width="0.7"/>
+    </g>
+
+    <!-- Oil stains -->
+    <circle cx="-2" cy="2" r="2" fill="#1a0c04" opacity="0.7"/>
+    <circle cx="6" cy="-4" r="1.4" fill="#1a0c04" opacity="0.65"/>
+    <circle cx="14" cy="2" r="1.6" fill="#1a0c04" opacity="0.65"/>
+    <!-- Small burn scar on knuckle -->
+    <ellipse cx="-4" cy="-7" rx="1.6" ry="0.85" fill="#5a2828" opacity="0.7"/>
+    <ellipse cx="-4" cy="-7" rx="0.85" ry="0.5" fill="#7a3030" opacity="0.55"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q90,82 180,78 Q280,76 366,80"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+  </g>
+</svg>
