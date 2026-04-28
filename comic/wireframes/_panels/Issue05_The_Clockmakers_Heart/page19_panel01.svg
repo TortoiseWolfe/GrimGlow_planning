@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 5 — Page 19 — Panel 1: Rooftop transit — Jink carries Wren in tandem harness — gear secured — looking back</title>
+  <desc>28mm wide. Night rooftop skyline. Jink flies with Wren beneath in tandem harness. Wings deployed, prismatic trails. Wren hangs below with precision gear on back. Behind: clockmaker's shop window receding. Below: gas-lit city. Wren turns to look back. Dialog: JINK: You're quiet. / WREN: I'm thinking. / JINK: About the gear? / WREN: About the clock.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p19p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1828"/>
+      <stop offset="100%" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="p19p1roofs" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p19p1jinkSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3ad0a8"/>
+      <stop offset="50%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <linearGradient id="p19p1wrenSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p19p1skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p19p1stolen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <radialGradient id="p19p1emerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3ad0a8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a4018" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p19p1shopGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p19p1streetlamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p19p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p19p1glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <!-- SKY -->
+  <rect width="742" height="220" fill="url(#p19p1sky)"/>
+  <!-- Stars -->
+  <g fill="#fff8e8" opacity="0.65">
+    <circle cx="80" cy="40" r="0.55"/>
+    <circle cx="160" cy="60" r="0.4"/>
+    <circle cx="240" cy="30" r="0.55"/>
+    <circle cx="380" cy="50" r="0.4"/>
+    <circle cx="500" cy="35" r="0.55"/>
+    <circle cx="620" cy="50" r="0.4"/>
+    <circle cx="700" cy="30" r="0.55"/>
+  </g>
+
+  <!-- ROOFLINE SILHOUETTES — chimney pots, slate, church spires receding -->
+  <g fill="url(#p19p1roofs)">
+    <path d="M0,180 L60,180 L80,140 L100,180 L160,180 L180,160 L220,160 L240,180 L300,180 L320,150 L360,150 L380,180 L420,180 L440,140 L480,140 L500,180 L560,180 L580,160 L620,160 L640,180 L700,180 L742,160 L742,260 L0,260 Z"/>
+    <!-- Chimney pots -->
+    <rect x="80" y="120" width="20" height="20"/>
+    <rect x="320" y="130" width="22" height="20"/>
+    <rect x="440" y="120" width="18" height="20"/>
+    <rect x="580" y="140" width="20" height="20"/>
+    <!-- Church spire in distance -->
+    <path d="M260,180 L270,80 L280,180 Z" opacity="0.85"/>
+  </g>
+
+  <!-- DISTANT GAS-LIT CITY below rooflines -->
+  <rect y="240" width="742" height="124" fill="#0a0c14"/>
+  <g opacity="0.65">
+    <ellipse cx="120" cy="300" rx="40" ry="14" fill="url(#p19p1streetlamp)" filter="url(#p19p1glow)"/>
+    <ellipse cx="280" cy="320" rx="40" ry="14" fill="url(#p19p1streetlamp)" filter="url(#p19p1glow)"/>
+    <ellipse cx="440" cy="310" rx="40" ry="14" fill="url(#p19p1streetlamp)" filter="url(#p19p1glow)"/>
+    <ellipse cx="620" cy="320" rx="40" ry="14" fill="url(#p19p1streetlamp)" filter="url(#p19p1glow)"/>
+  </g>
+
+  <!-- H. NAYLOR SHOP WINDOW receding far right (warm amber rectangle) -->
+  <g transform="translate(660 220)">
+    <rect x="-22" y="-30" width="44" height="40" fill="#3a2010"/>
+    <rect x="-18" y="-26" width="36" height="32" fill="#ffd078" opacity="0.65"/>
+    <ellipse cx="0" cy="-10" rx="22" ry="22" fill="url(#p19p1shopGlow)" filter="url(#p19p1glow)"/>
+  </g>
+
+  <!-- ===== JINK FLYING with WREN in tandem harness ===== -->
+  <!-- Prismatic wing trails extending behind -->
+  <g opacity="0.65">
+    <path d="M380,140 Q430,150 480,160" stroke="#3ad0a8" stroke-width="3" fill="none" filter="url(#p19p1glow)"/>
+    <path d="M380,150 Q430,160 480,170" stroke="#3ad0a8" stroke-width="2" fill="none" filter="url(#p19p1bloom)"/>
+    <path d="M380,160 Q430,170 480,180" stroke="#5ae0c8" stroke-width="1.4" fill="none" filter="url(#p19p1bloom)"/>
+    <!-- Sparkle prisms -->
+    <circle cx="450" cy="145" r="1.4" fill="#5ae0c8" filter="url(#p19p1bloom)"/>
+    <circle cx="470" cy="155" r="1" fill="#fff8e8" filter="url(#p19p1bloom)"/>
+    <circle cx="490" cy="175" r="1.4" fill="#3ad0a8" filter="url(#p19p1bloom)"/>
+  </g>
+
+  <!-- JINK in flight (center-left) -->
+  <g transform="translate(340 130)">
+    <!-- Halo -->
+    <circle cx="0" cy="0" r="40" fill="url(#p19p1emerald)" filter="url(#p19p1glow)"/>
+
+    <!-- Body in flight pose (horizontal-ish) -->
+    <path d="M-9,-9 L-15,12 L15,12 L9,-9 Z" fill="url(#p19p1jinkSuit)"/>
+    <line x1="-7" y1="0" x2="7" y2="0" stroke="#3ad0a8" stroke-width="0.85" opacity="0.85" filter="url(#p19p1bloom)"/>
+    <!-- CHEST SOOT STREAK -->
+    <ellipse cx="0" cy="2" rx="6" ry="3.4" fill="#1a0c04" opacity="0.55"/>
+
+    <!-- WINGS DEPLOYED — translucent emerald geometric -->
+    <g opacity="0.85">
+      <!-- LEFT WING -->
+      <path d="M-9,-6 Q-50,-30 -80,-20 Q-60,-10 -30,0 Q-20,-2 -9,-6 Z" fill="#3ad0a8" opacity="0.55" filter="url(#p19p1glow)"/>
+      <path d="M-9,-6 Q-50,-30 -80,-20" stroke="#3ad0a8" stroke-width="0.7" fill="none"/>
+      <path d="M-9,-6 Q-30,-15 -50,-22" stroke="#3ad0a8" stroke-width="0.55" fill="none"/>
+      <path d="M-9,-6 Q-30,-10 -60,-15" stroke="#3ad0a8" stroke-width="0.4" fill="none"/>
+      <!-- Hex pattern at wing root -->
+      <polygon points="-22,-6 -19,-10 -13,-10 -10,-6 -13,-2 -19,-2" fill="none" stroke="#3ad0a8" stroke-width="0.55" opacity="0.85" filter="url(#p19p1bloom)"/>
+      <!-- RIGHT WING -->
+      <path d="M9,-6 Q50,-30 80,-20 Q60,-10 30,0 Q20,-2 9,-6 Z" fill="#3ad0a8" opacity="0.55" filter="url(#p19p1glow)"/>
+      <path d="M9,-6 Q50,-30 80,-20" stroke="#3ad0a8" stroke-width="0.7" fill="none"/>
+      <path d="M9,-6 Q30,-15 50,-22" stroke="#3ad0a8" stroke-width="0.55" fill="none"/>
+      <path d="M9,-6 Q30,-10 60,-15" stroke="#3ad0a8" stroke-width="0.4" fill="none"/>
+      <polygon points="22,-6 19,-10 13,-10 10,-6 13,-2 19,-2" fill="none" stroke="#3ad0a8" stroke-width="0.55" opacity="0.85" filter="url(#p19p1bloom)"/>
+    </g>
+
+    <!-- Arms forward (flight pose) -->
+    <line x1="-7" y1="-3" x2="-12" y2="14" stroke="#2ed078" stroke-width="3" stroke-linecap="round"/>
+    <line x1="7" y1="-3" x2="12" y2="14" stroke="#2ed078" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-15" rx="6" ry="7" fill="url(#p19p1skin)"/>
+    <!-- Golden curls -->
+    <ellipse cx="0" cy="-19" rx="6" ry="3" fill="#f8d068"/>
+    <ellipse cx="-3" cy="-21" rx="2" ry="1.4" fill="#f8d068"/>
+    <ellipse cx="3" cy="-21" rx="2" ry="1.4" fill="#f8d068"/>
+    <!-- Eyes — focused ahead -->
+    <ellipse cx="-2" cy="-15" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="-2" cy="-15" r="0.55" fill="#2ed078"/>
+    <ellipse cx="2" cy="-15" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="2" cy="-15" r="0.55" fill="#2ed078"/>
+    <!-- Brow level -->
+    <path d="M-4,-18 L-1,-18" stroke="#5a3818" stroke-width="0.4"/>
+    <path d="M1,-18 L4,-18" stroke="#5a3818" stroke-width="0.4"/>
+  </g>
+
+  <!-- TANDEM HARNESS — connecting Jink to Wren below -->
+  <g transform="translate(340 142)">
+    <line x1="-3" y1="0" x2="-3" y2="40" stroke="#3a1808" stroke-width="1.4"/>
+    <line x1="3" y1="0" x2="3" y2="40" stroke="#3a1808" stroke-width="1.4"/>
+    <rect x="-5" y="38" width="10" height="6" fill="#5a3018"/>
+  </g>
+
+  <!-- WREN suspended below in harness -->
+  <g transform="translate(340 200)">
+    <!-- Body — hanging vertical -->
+    <path d="M-7,-15 L-12,12 L0,14 L0,-15 Z" fill="url(#p19p1wrenSuit)"/>
+    <path d="M2,-15 L4,12 L14,8 L11,-15 Z" fill="url(#p19p1wrenSuit)"/>
+    <!-- HARNESS straps -->
+    <line x1="-7" y1="-15" x2="-7" y2="-22" stroke="#3a1808" stroke-width="1.4"/>
+    <line x1="11" y1="-15" x2="11" y2="-22" stroke="#3a1808" stroke-width="1.4"/>
+    <line x1="-9" y1="0" x2="14" y2="0" stroke="#3a1808" stroke-width="0.55"/>
+
+    <!-- STOLEN GEAR on back -->
+    <g transform="translate(2 -3)">
+      <circle cx="0" cy="0" r="11" fill="#ffd078" opacity="0.45" filter="url(#p19p1glow)"/>
+      <circle cx="0" cy="0" r="6" fill="url(#p19p1stolen)"/>
+      <circle cx="0" cy="0" r="4" fill="#7a4818" opacity="0.65"/>
+      <circle cx="0" cy="0" r="1.4" fill="#1a0c04"/>
+      <ellipse cx="-2" cy="-2" rx="1.4" ry="1" fill="#fff8e8" opacity="0.85" filter="url(#p19p1bloom)"/>
+      <!-- Copper wire -->
+      <path d="M-6,0 Q0,-4 6,0" stroke="#c87a35" stroke-width="0.4" fill="none"/>
+      <path d="M-6,0 Q0,4 6,0" stroke="#c87a35" stroke-width="0.4" fill="none"/>
+    </g>
+
+    <!-- Arms hanging -->
+    <line x1="-7" y1="-12" x2="-12" y2="6" stroke="url(#p19p1skin)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="11" y1="-12" x2="14" y2="6" stroke="url(#p19p1skin)" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- HEAD turned looking BACK (right) -->
+    <ellipse cx="6" cy="-22" rx="5" ry="6" fill="url(#p19p1skin)"/>
+    <!-- Wild hair, copper dust -->
+    <ellipse cx="6" cy="-26" rx="3" ry="2" fill="#0a0604"/>
+    <circle cx="3" cy="-25" r="0.4" fill="#c87a35"/>
+    <circle cx="9" cy="-25" r="0.4" fill="#c87a35"/>
+    <!-- Eye looking back/down-right -->
+    <ellipse cx="9" cy="-22" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="9" cy="-22" r="0.55" fill="#0a0604"/>
+    <!-- Brow set -->
+    <path d="M3,-25 L9,-25" stroke="#0a0604" stroke-width="0.4"/>
+    <!-- Mouth set -->
+    <path d="M5,-19 L9,-19" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- Legs dangling -->
+    <line x1="-5" y1="14" x2="-7" y2="30" stroke="#5a2818" stroke-width="1.4"/>
+    <line x1="5" y1="14" x2="7" y2="30" stroke="#5a2818" stroke-width="1.4"/>
+  </g>
+
+  <!-- DIALOG JINK -->
+  <g transform="translate(120 60)">
+    <ellipse cx="0" cy="0" rx="60" ry="20" fill="#ffffff" stroke="#2ed078" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M22,16 L36,30 L26,18 Z" fill="#ffffff" stroke="#2ed078" stroke-width="1"/>
+    <text x="-50" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK</text>
+    <text x="-50" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="500">"You're quiet."</text>
+  </g>
+
+  <!-- DIALOG WREN -->
+  <g transform="translate(620 60)">
+    <ellipse cx="0" cy="0" rx="70" ry="20" fill="#ffffff" stroke="#c87a35" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-22,16 L-36,30 L-26,18 Z" fill="#ffffff" stroke="#c87a35" stroke-width="1"/>
+    <text x="-60" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="-60" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="500">"I'm thinking."</text>
+  </g>
+
+  <!-- DIALOG JINK -->
+  <g transform="translate(120 280)">
+    <ellipse cx="0" cy="0" rx="70" ry="20" fill="#ffffff" stroke="#2ed078" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M22,-16 L36,-30 L26,-18 Z" fill="#ffffff" stroke="#2ed078" stroke-width="1"/>
+    <text x="-60" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK</text>
+    <text x="-60" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="500">"About the gear?"</text>
+  </g>
+
+  <!-- DIALOG WREN -->
+  <g transform="translate(620 280)">
+    <ellipse cx="0" cy="0" rx="80" ry="20" fill="#ffffff" stroke="#c87a35" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-30,-16 L-44,-30 L-34,-18 Z" fill="#ffffff" stroke="#c87a35" stroke-width="1"/>
+    <text x="-70" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="-70" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="600">"About the clock."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q180,138 360,142 Q540,144 742,140"/>
+    <path d="M0,310 Q180,308 360,312 Q540,314 742,310"/>
+  </g>
+</svg>

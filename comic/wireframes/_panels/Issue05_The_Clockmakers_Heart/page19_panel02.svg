@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 5 — Page 19 — Panel 2: Camp arrival, Wren hands gear to Sable — Thresh relaxing — clean work</title>
+  <desc>50mm fairy-scale. Wall gap entrance. Jink and Wren land. Sable arms crossed receiving. Thresh behind, weapon stowed, posture relaxing. Wren detaches harness, holds gear out. Sable examines. Mission objective complete. Dialog: WREN: Gear assembly. Intact. / SABLE examining: Clean work. / WREN: The substitution will hold for a week. Maybe two.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p19p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2030"/>
+      <stop offset="100%" stop-color="#0a1018"/>
+    </linearGradient>
+    <linearGradient id="p19p2timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p19p2sableSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9098a8"/>
+      <stop offset="50%" stop-color="#5a606a"/>
+      <stop offset="100%" stop-color="#2a3038"/>
+    </linearGradient>
+    <linearGradient id="p19p2skinDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p19p2wrenSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p19p2skinWren" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p19p2threshSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc4040"/>
+      <stop offset="50%" stop-color="#a82020"/>
+      <stop offset="100%" stop-color="#5a0810"/>
+    </linearGradient>
+    <linearGradient id="p19p2stolen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <radialGradient id="p19p2holoBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8d8ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3060a8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p19p2gasGlow" cx="0%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p19p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p19p2glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p19p2bg)"/>
+
+  <!-- TIMBER BEAMS framing wall cavity -->
+  <rect width="60" height="364" fill="url(#p19p2timber)"/>
+  <rect x="306" y="0" width="60" height="364" fill="url(#p19p2timber)"/>
+
+  <!-- WALL GAP visible at left (warm gaslight from outside) -->
+  <rect x="0" y="100" width="60" height="180" fill="#1a0c04"/>
+  <ellipse cx="0" cy="190" rx="60" ry="80" fill="url(#p19p2gasGlow)" filter="url(#p19p2glow)"/>
+
+  <!-- Cool blue holographic ambient -->
+  <ellipse cx="183" cy="200" rx="200" ry="160" fill="url(#p19p2holoBlue)" filter="url(#p19p2glow)" opacity="0.55"/>
+
+  <!-- Faint perimeter emitter line -->
+  <g fill="#a8d8ff" opacity="0.85">
+    <rect x="80" y="320" width="6" height="3" filter="url(#p19p2bloom)"/>
+    <rect x="180" y="320" width="6" height="3" filter="url(#p19p2bloom)"/>
+    <rect x="280" y="320" width="6" height="3" filter="url(#p19p2bloom)"/>
+  </g>
+  <line x1="80" y1="322" x2="280" y2="322" stroke="#a8d8ff" stroke-width="0.55" opacity="0.55"/>
+
+  <!-- ===== SABLE — center, arms crossed, receiving ===== -->
+  <g transform="translate(183 200)">
+    <!-- Body -->
+    <path d="M-26,40 L-32,140 L32,140 L26,40 Z" fill="url(#p19p2sableSuit)"/>
+    <!-- SOOT BLOOM right shoulder -->
+    <ellipse cx="22" cy="36" rx="14" ry="9" fill="#1a0c04" opacity="0.7"/>
+    <!-- DUST AT KNEES -->
+    <ellipse cx="-22" cy="120" rx="11" ry="6" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="22" cy="120" rx="11" ry="6" fill="#5a4838" opacity="0.55"/>
+    <!-- Suit accent (dim seams) -->
+    <line x1="-14" y1="50" x2="14" y2="50" stroke="#a8d8ff" stroke-width="0.55" opacity="0.55" filter="url(#p19p2bloom)"/>
+
+    <!-- Shoulders -->
+    <ellipse cx="-26" cy="34" rx="11" ry="7" fill="url(#p19p2sableSuit)"/>
+    <ellipse cx="26" cy="34" rx="11" ry="7" fill="url(#p19p2sableSuit)"/>
+
+    <!-- ARMS RECEIVING gear (right hand reaching toward Wren) -->
+    <line x1="-22" y1="40" x2="-22" y2="100" stroke="#5a606a" stroke-width="9" stroke-linecap="round"/>
+    <line x1="22" y1="40" x2="60" y2="50" stroke="#5a606a" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="100" rx="6" ry="4" fill="url(#p19p2skinDark)"/>
+    <ellipse cx="60" cy="50" rx="9" ry="6" fill="url(#p19p2skinDark)"/>
+
+    <!-- HEAD -->
+    <ellipse cx="0" cy="0" rx="22" ry="26" fill="url(#p19p2skinDark)"/>
+    <!-- Silver-white BUZZ CUT -->
+    <path d="M-20,-22 Q-14,-30 0,-32 Q14,-30 20,-22 L18,-14 Q10,-26 0,-26 Q-10,-26 -18,-14 Z" fill="#e8e8f0"/>
+    <!-- Eyes — examining gear (looking down-right) -->
+    <ellipse cx="-9" cy="-6" rx="4" ry="2.4" fill="#fff8e8"/>
+    <circle cx="-7" cy="-5" r="2" fill="#3a2810"/>
+    <circle cx="-7" cy="-5" r="0.85" fill="#0a0604"/>
+    <ellipse cx="9" cy="-6" rx="4" ry="2.4" fill="#fff8e8"/>
+    <circle cx="11" cy="-5" r="2" fill="#3a2810"/>
+    <circle cx="11" cy="-5" r="0.85" fill="#0a0604"/>
+    <!-- Brows level — professional -->
+    <path d="M-14,-12 L-4,-13" stroke="#3a2818" stroke-width="1.4"/>
+    <path d="M4,-13 L14,-12" stroke="#3a2818" stroke-width="1.4"/>
+    <!-- Mouth — neutral, slight slight nod of acknowledgment -->
+    <path d="M-7,12 L7,12" stroke="#3a1808" stroke-width="1.4"/>
+  </g>
+
+  <!-- ===== WREN — left, holding out gear ===== -->
+  <g transform="translate(110 230)">
+    <!-- Body — small, presenting -->
+    <path d="M-9,-30 L-12,-10 L-15,30 L0,32 L0,-30 Z" fill="url(#p19p2wrenSuit)"/>
+    <path d="M2,-30 L4,-10 L8,32 L18,30 L14,-30 Z" fill="url(#p19p2wrenSuit)"/>
+    <!-- New CLOCK OIL SMEAR + heavy oil -->
+    <ellipse cx="0" cy="-15" rx="11" ry="5" fill="#1a0c04" opacity="0.55" transform="rotate(-15 0 -15)"/>
+
+    <!-- Shoulders -->
+    <ellipse cx="-9" cy="-30" rx="4" ry="3" fill="url(#p19p2wrenSuit)"/>
+    <ellipse cx="14" cy="-30" rx="4" ry="3" fill="url(#p19p2wrenSuit)"/>
+    <!-- Scorch -->
+    <ellipse cx="-9" cy="-30" rx="3" ry="2" fill="#1a0c04" opacity="0.7"/>
+
+    <!-- Arm extending RIGHT (offering gear) -->
+    <line x1="14" y1="-26" x2="50" y2="-10" stroke="url(#p19p2skinWren)" stroke-width="3.4" stroke-linecap="round"/>
+    <ellipse cx="50" cy="-10" rx="4" ry="3" fill="url(#p19p2skinWren)"/>
+    <!-- Other arm at side -->
+    <line x1="-9" y1="-26" x2="-12" y2="0" stroke="url(#p19p2skinWren)" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- ===== STOLEN GEAR being PRESENTED ===== -->
+    <g transform="translate(56 -10)">
+      <circle cx="0" cy="0" r="22" fill="#ffd078" opacity="0.55" filter="url(#p19p2glow)"/>
+      <circle cx="0" cy="0" r="11" fill="url(#p19p2stolen)"/>
+      <circle cx="0" cy="0" r="9" fill="#7a4818" opacity="0.55"/>
+      <circle cx="0" cy="0" r="3" fill="#1a0c04"/>
+      <g stroke="#5a3018" stroke-width="0.4">
+        <line x1="0" y1="-11" x2="0" y2="-13"/>
+        <line x1="0" y1="11" x2="0" y2="13"/>
+        <line x1="-11" y1="0" x2="-13" y2="0"/>
+        <line x1="11" y1="0" x2="13" y2="0"/>
+        <line x1="-8" y1="-8" x2="-9" y2="-9"/>
+        <line x1="8" y1="-8" x2="9" y2="-9"/>
+        <line x1="-8" y1="8" x2="-9" y2="9"/>
+        <line x1="8" y1="8" x2="9" y2="9"/>
+      </g>
+      <ellipse cx="-4" cy="-4" rx="2" ry="1.4" fill="#fff8e8" opacity="0.85" filter="url(#p19p2bloom)"/>
+      <!-- Faint cool BLUE camp light catching one edge -->
+      <path d="M5,-9 Q9,0 5,9" stroke="#a8d8ff" stroke-width="0.4" fill="none" opacity="0.65" filter="url(#p19p2bloom)"/>
+    </g>
+
+    <!-- HEAD — looking up at Sable -->
+    <ellipse cx="3" cy="-44" rx="6" ry="7" fill="url(#p19p2skinWren)"/>
+    <ellipse cx="3" cy="-50" rx="3" ry="2" fill="#0a0604"/>
+    <circle cx="0" cy="-49" r="0.4" fill="#c87a35"/>
+    <circle cx="6" cy="-49" r="0.4" fill="#c87a35"/>
+    <ellipse cx="0" cy="-44" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="0" cy="-44" r="0.7" fill="#0a0604"/>
+    <ellipse cx="6" cy="-44" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="6" cy="-44" r="0.7" fill="#0a0604"/>
+    <path d="M-3,-48 L9,-48" stroke="#0a0604" stroke-width="0.4"/>
+    <path d="M0,-38 L6,-38" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- Legs -->
+    <line x1="-6" y1="32" x2="-12" y2="48" stroke="#5a2818" stroke-width="2.4"/>
+    <line x1="6" y1="32" x2="12" y2="48" stroke="#5a2818" stroke-width="2.4"/>
+  </g>
+
+  <!-- ===== THRESH — behind Sable, weapon stowed, posture relaxing ===== -->
+  <g transform="translate(290 200)">
+    <path d="M-22,40 L-28,140 L28,140 L22,40 Z" fill="url(#p19p2threshSuit)"/>
+    <!-- DENTED LEFT PAULDRON -->
+    <ellipse cx="-18" cy="34" rx="9" ry="6" fill="url(#p19p2threshSuit)"/>
+    <ellipse cx="-18" cy="34" rx="5" ry="3" fill="#1a0c04" opacity="0.7"/>
+    <ellipse cx="18" cy="34" rx="9" ry="6" fill="url(#p19p2threshSuit)"/>
+
+    <!-- Arms relaxed — weapon stowed across body -->
+    <line x1="-20" y1="40" x2="-22" y2="100" stroke="url(#p19p2threshSuit)" stroke-width="9" stroke-linecap="round"/>
+    <line x1="20" y1="40" x2="22" y2="100" stroke="url(#p19p2threshSuit)" stroke-width="9" stroke-linecap="round"/>
+    <!-- Weapon at hip (stowed) -->
+    <rect x="-9" y="60" width="22" height="6" fill="#3a2818"/>
+    <line x1="-9" y1="62" x2="14" y2="62" stroke="#1a0c04" stroke-width="0.4"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="14" ry="18" fill="#d8a878"/>
+    <!-- Copper-red BUZZ CUT -->
+    <path d="M-12,-12 Q0,-22 12,-12 L10,-6 Q4,-16 0,-16 Q-4,-16 -10,-6 Z" fill="#a85020"/>
+    <!-- Eyes — visible RELIEF (slightly closed, exhale) -->
+    <ellipse cx="-5" cy="-2" rx="2" ry="1" fill="#fff8e8"/>
+    <circle cx="-5" cy="-2" r="0.7" fill="#3a2010"/>
+    <ellipse cx="5" cy="-2" rx="2" ry="1" fill="#fff8e8"/>
+    <circle cx="5" cy="-2" r="0.7" fill="#3a2010"/>
+    <path d="M-9,-8 L-2,-9" stroke="#5a2010" stroke-width="0.7"/>
+    <path d="M2,-9 L9,-8" stroke="#5a2010" stroke-width="0.7"/>
+    <!-- Mouth — slight relax -->
+    <path d="M-3,6 L3,6" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- DIALOG WREN -->
+  <g transform="translate(140 60)">
+    <ellipse cx="0" cy="0" rx="80" ry="20" fill="#ffffff" stroke="#c87a35" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M22,16 L36,30 L26,18 Z" fill="#ffffff" stroke="#c87a35" stroke-width="1"/>
+    <text x="-70" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="-70" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-weight="600">"Gear assembly. Intact."</text>
+  </g>
+
+  <!-- DIALOG SABLE -->
+  <g transform="translate(280 90)">
+    <ellipse cx="0" cy="0" rx="60" ry="20" fill="#ffffff" stroke="#5a606a" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-22,16 L-36,30 L-26,18 Z" fill="#ffffff" stroke="#5a606a" stroke-width="1"/>
+    <text x="-50" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE</text>
+    <text x="-50" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-weight="500">"Clean work."</text>
+  </g>
+
+  <!-- DIALOG WREN -->
+  <g transform="translate(180 320)">
+    <ellipse cx="0" cy="0" rx="160" ry="22" fill="#ffffff" stroke="#c87a35" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-50,-18 L-66,-32 L-44,-20 Z" fill="#ffffff" stroke="#c87a35" stroke-width="1"/>
+    <text x="-150" y="-7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="-150" y="9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">"The substitution will hold for a week. Maybe two."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+  </g>
+</svg>

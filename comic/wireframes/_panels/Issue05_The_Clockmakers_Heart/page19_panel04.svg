@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 5 — Page 19 — Panel 4: Wren contemplative — large holographic clock schematic dominates camp — fairy light rendering human engineering</title>
+  <desc>28mm wide. Wren stands in camp, large copper-gold holographic schematic of clockmaker's regulator deployed before her. Slowly rotating 3D wireframe — every gear shaft spring detailed. Squad moves to debrief positions around her. Hand raised as if to touch rotating gear. Posture contemplative. Holographic light dominates camp space. Dialog: WREN quiet to no one: He machined the pinion teeth by hand. No digital reference. No haptic guide. / WREN: Just his hands and forty years of practice.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p19p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p19p4timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p19p4skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p19p4skinDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p19p4wrenSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p19p4sableSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9098a8"/>
+      <stop offset="100%" stop-color="#2a3038"/>
+    </linearGradient>
+    <linearGradient id="p19p4jinkSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3ad0a8"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <radialGradient id="p19p4holoMain" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#c87a35" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7a4818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p19p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p19p4glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="742" height="364" fill="url(#p19p4bg)"/>
+
+  <!-- COPPER-GOLD HOLOGRAPHIC LIGHT DOMINATES camp space -->
+  <ellipse cx="371" cy="180" rx="500" ry="240" fill="url(#p19p4holoMain)" filter="url(#p19p4glow)"/>
+
+  <!-- TIMBER beams (left/right) -->
+  <rect width="60" height="364" fill="url(#p19p4timber)"/>
+  <rect x="682" width="60" height="364" fill="url(#p19p4timber)"/>
+  <!-- Beam crossbars -->
+  <rect y="60" width="60" height="9" fill="#3a1808"/>
+  <rect y="200" width="60" height="9" fill="#3a1808"/>
+  <rect x="682" y="60" width="60" height="9" fill="#3a1808"/>
+  <rect x="682" y="200" width="60" height="9" fill="#3a1808"/>
+
+  <!-- Floor (faint) -->
+  <rect y="320" width="742" height="44" fill="#3a1808" opacity="0.55"/>
+  <line x1="60" y1="320" x2="682" y2="320" stroke="#1a0c04" stroke-width="0.55"/>
+
+  <!-- Faint cool blue at edges (camp light pushed to corners) -->
+  <g opacity="0.45">
+    <rect x="60" y="0" width="60" height="364" fill="#3060a8" filter="url(#p19p4glow)"/>
+    <rect x="622" y="0" width="60" height="364" fill="#3060a8" filter="url(#p19p4glow)"/>
+  </g>
+
+  <!-- ===== LARGE HOLOGRAPHIC CLOCK SCHEMATIC — center-front ===== -->
+  <g transform="translate(371 200)">
+    <!-- Massive halo -->
+    <circle cx="0" cy="0" r="160" fill="url(#p19p4holoMain)" filter="url(#p19p4glow)"/>
+
+    <!-- Outer wireframe rings (multiple, suggesting depth/rotation) -->
+    <ellipse cx="0" cy="0" rx="120" ry="90" fill="none" stroke="#ffd078" stroke-width="1" filter="url(#p19p4bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="100" ry="75" fill="none" stroke="#ffaa48" stroke-width="0.7" filter="url(#p19p4bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="none" stroke="#ffd078" stroke-width="0.55" filter="url(#p19p4bloom)" opacity="0.85"/>
+    <!-- Vertical perspective rings (showing 3D rotation) -->
+    <ellipse cx="0" cy="0" rx="20" ry="90" fill="none" stroke="#ffaa48" stroke-width="0.55" filter="url(#p19p4bloom)" opacity="0.65"/>
+    <ellipse cx="0" cy="0" rx="40" ry="90" fill="none" stroke="#ffaa48" stroke-width="0.55" filter="url(#p19p4bloom)" opacity="0.55"/>
+
+    <!-- INNER GEARS (multiple at different positions, wireframe) -->
+    <g stroke="#ffd078" stroke-width="0.7" fill="none" opacity="0.85" filter="url(#p19p4bloom)">
+      <!-- Top-left gear -->
+      <circle cx="-44" cy="-30" r="22"/>
+      <circle cx="-44" cy="-30" r="14"/>
+      <circle cx="-44" cy="-30" r="3"/>
+      <!-- Top-right gear -->
+      <circle cx="44" cy="-30" r="18"/>
+      <circle cx="44" cy="-30" r="11"/>
+      <circle cx="44" cy="-30" r="3"/>
+      <!-- Center gear (target gear, slightly highlighted) -->
+      <circle cx="0" cy="10" r="26" stroke="#fff8e8" stroke-width="0.85"/>
+      <circle cx="0" cy="10" r="18"/>
+      <circle cx="0" cy="10" r="6"/>
+      <!-- Bottom gear -->
+      <circle cx="0" cy="50" r="14"/>
+      <circle cx="0" cy="50" r="8"/>
+    </g>
+
+    <!-- Spokes for each -->
+    <g stroke="#ffd078" stroke-width="0.55" filter="url(#p19p4bloom)" opacity="0.85">
+      <line x1="-44" y1="-50" x2="-44" y2="-10"/>
+      <line x1="-66" y1="-30" x2="-22" y2="-30"/>
+      <line x1="-58" y1="-44" x2="-30" y2="-16"/>
+      <line x1="-30" y1="-44" x2="-58" y2="-16"/>
+
+      <line x1="44" y1="-46" x2="44" y2="-14"/>
+      <line x1="28" y1="-30" x2="60" y2="-30"/>
+
+      <line x1="0" y1="-14" x2="0" y2="34"/>
+      <line x1="-24" y1="10" x2="24" y2="10"/>
+      <line x1="-18" y1="-8" x2="18" y2="28"/>
+      <line x1="18" y1="-8" x2="-18" y2="28"/>
+
+      <line x1="0" y1="38" x2="0" y2="62"/>
+      <line x1="-12" y1="50" x2="12" y2="50"/>
+    </g>
+
+    <!-- Gear teeth (radial marks around outer circles) -->
+    <g stroke="#fff8e8" stroke-width="0.4" filter="url(#p19p4bloom)" opacity="0.85">
+      <!-- Center gear teeth -->
+      <line x1="0" y1="-14" x2="0" y2="-18"/>
+      <line x1="0" y1="34" x2="0" y2="38"/>
+      <line x1="-26" y1="10" x2="-30" y2="10"/>
+      <line x1="26" y1="10" x2="30" y2="10"/>
+      <line x1="-18" y1="-8" x2="-21" y2="-11"/>
+      <line x1="18" y1="-8" x2="21" y2="-11"/>
+      <line x1="-18" y1="28" x2="-21" y2="31"/>
+      <line x1="18" y1="28" x2="21" y2="31"/>
+    </g>
+
+    <!-- PENDULUM swinging from above -->
+    <line x1="0" y1="-90" x2="0" y2="0" stroke="#ffd078" stroke-width="0.85" opacity="0.85" filter="url(#p19p4bloom)"/>
+    <ellipse cx="0" cy="-90" rx="6" ry="3" fill="#ffd078" opacity="0.85" filter="url(#p19p4bloom)"/>
+
+    <!-- Connecting linkages (lines suggesting the relationships) -->
+    <line x1="-44" y1="-30" x2="-22" y2="0" stroke="#ffaa48" stroke-width="0.4" opacity="0.65" stroke-dasharray="2,2"/>
+    <line x1="44" y1="-30" x2="22" y2="0" stroke="#ffaa48" stroke-width="0.4" opacity="0.65" stroke-dasharray="2,2"/>
+    <line x1="0" y1="36" x2="0" y2="36" stroke="#ffaa48" stroke-width="0.4" opacity="0.65"/>
+
+    <!-- Hex emitter pattern at bottom (where Wren's wrist projection comes from) -->
+    <polygon points="-9,90 -5,84 5,84 9,90 5,96 -5,96" fill="#ffd078" opacity="0.85" filter="url(#p19p4bloom)"/>
+    <polygon points="-5,87 -3,84 3,84 5,87 3,90 -3,90" fill="#fff8e8" opacity="0.85" filter="url(#p19p4bloom)"/>
+  </g>
+
+  <!-- ===== WREN — standing before schematic, hand raised ===== -->
+  <g transform="translate(220 240)">
+    <!-- Body — contemplative posture -->
+    <path d="M-9,-30 L-12,-10 L-15,40 L0,42 L0,-30 Z" fill="url(#p19p4wrenSuit)"/>
+    <path d="M2,-30 L4,-10 L8,42 L18,38 L14,-30 Z" fill="url(#p19p4wrenSuit)"/>
+    <!-- Suit accent -->
+    <line x1="-9" y1="-15" x2="14" y2="-15" stroke="#ffaa48" stroke-width="0.7" opacity="0.85" filter="url(#p19p4bloom)"/>
+    <!-- Clock oil smear -->
+    <ellipse cx="0" cy="-3" rx="11" ry="4" fill="#1a0c04" opacity="0.55" transform="rotate(-15 0 -3)"/>
+
+    <!-- Shoulders -->
+    <ellipse cx="-9" cy="-30" rx="4" ry="3" fill="url(#p19p4wrenSuit)"/>
+    <ellipse cx="14" cy="-30" rx="4" ry="3" fill="url(#p19p4wrenSuit)"/>
+    <ellipse cx="-9" cy="-30" rx="3" ry="2" fill="#1a0c04" opacity="0.7"/>
+
+    <!-- LEFT ARM raised toward schematic (touching virtual gear) -->
+    <line x1="-9" y1="-26" x2="50" y2="-50" stroke="url(#p19p4skin)" stroke-width="3.4" stroke-linecap="round"/>
+    <ellipse cx="50" cy="-50" rx="4" ry="3" fill="url(#p19p4skin)"/>
+    <!-- Faint warm halo around her hand reaching into schematic -->
+    <circle cx="50" cy="-50" r="11" fill="#ffd078" opacity="0.45" filter="url(#p19p4glow)"/>
+
+    <!-- RIGHT ARM at side, wrist holo emitter active -->
+    <line x1="14" y1="-26" x2="22" y2="0" stroke="url(#p19p4skin)" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="22" cy="0" rx="3" ry="2" fill="url(#p19p4skin)"/>
+    <!-- Wrist holo emitter -->
+    <g transform="translate(22 0)">
+      <circle cx="0" cy="0" r="6" fill="#ffaa48" opacity="0.85" filter="url(#p19p4glow)"/>
+      <polygon points="-3,0 -1.4,-2.4 1.4,-2.4 3,0 1.4,2.4 -1.4,2.4" fill="none" stroke="#ffd078" stroke-width="0.55" opacity="0.85" filter="url(#p19p4bloom)"/>
+      <circle cx="0" cy="0" r="1.4" fill="#fff8e8" filter="url(#p19p4bloom)"/>
+    </g>
+
+    <!-- Legs -->
+    <line x1="-6" y1="42" x2="-12" y2="60" stroke="#5a2818" stroke-width="2.4"/>
+    <line x1="6" y1="42" x2="12" y2="60" stroke="#5a2818" stroke-width="2.4"/>
+
+    <!-- HEAD — looking AT schematic -->
+    <ellipse cx="3" cy="-44" rx="6" ry="7" fill="url(#p19p4skin)"/>
+    <ellipse cx="3" cy="-50" rx="3" ry="2" fill="#0a0604"/>
+    <circle cx="0" cy="-49" r="0.4" fill="#c87a35"/>
+    <circle cx="6" cy="-49" r="0.4" fill="#c87a35"/>
+    <!-- Eye looking right (toward schematic) -->
+    <ellipse cx="3" cy="-44" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="5" cy="-44" r="1" fill="#0a0604"/>
+    <!-- Reflection of holo in eye -->
+    <circle cx="6" cy="-44" r="0.4" fill="#ffd078" filter="url(#p19p4bloom)"/>
+    <!-- Brow level -->
+    <path d="M-3,-48 L9,-48" stroke="#0a0604" stroke-width="0.55" stroke-linecap="round"/>
+    <!-- Mouth — slightly parted (contemplative speech) -->
+    <ellipse cx="3" cy="-38" rx="1.4" ry="0.85" fill="#3a1808"/>
+  </g>
+
+  <!-- SABLE in background, moving away -->
+  <g transform="translate(540 250)" opacity="0.65">
+    <path d="M-12,30 L-15,80 L15,80 L12,30 Z" fill="url(#p19p4sableSuit)"/>
+    <ellipse cx="0" cy="20" rx="9" ry="11" fill="url(#p19p4skinDark)"/>
+    <path d="M-9,8 Q0,2 9,8 L8,16 Q4,12 0,12 Q-4,12 -8,16 Z" fill="#e8e8f0"/>
+  </g>
+
+  <!-- JINK perching on beam -->
+  <g transform="translate(620 100)" opacity="0.85">
+    <path d="M-5,8 L-7,30 L7,30 L5,8 Z" fill="url(#p19p4jinkSuit)"/>
+    <ellipse cx="0" cy="0" rx="5" ry="6" fill="url(#p19p4skin)"/>
+    <ellipse cx="0" cy="-3" rx="5" ry="3" fill="#f8d068"/>
+    <!-- Faint wing seams -->
+    <line x1="-5" y1="10" x2="-12" y2="6" stroke="#3ad0a8" stroke-width="0.55" opacity="0.85" filter="url(#p19p4bloom)"/>
+    <line x1="5" y1="10" x2="12" y2="6" stroke="#3ad0a8" stroke-width="0.55" opacity="0.85" filter="url(#p19p4bloom)"/>
+  </g>
+
+  <!-- DIALOG WREN (about pinion teeth) -->
+  <g transform="translate(180 60)">
+    <ellipse cx="0" cy="0" rx="200" ry="22" fill="#ffffff" stroke="#c87a35" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M22,18 L36,32 L26,20 Z" fill="#ffffff" stroke="#c87a35" stroke-width="1"/>
+    <text x="-190" y="-7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="-190" y="9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">"He machined the pinion teeth by hand. No digital reference. No haptic guide."</text>
+  </g>
+
+  <!-- DIALOG WREN (forty years) -->
+  <g transform="translate(580 320)">
+    <ellipse cx="0" cy="0" rx="160" ry="22" fill="#ffffff" stroke="#c87a35" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-50,-18 L-66,-32 L-44,-20 Z" fill="#ffffff" stroke="#c87a35" stroke-width="1"/>
+    <text x="-150" y="-7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="-150" y="9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">"Just his hands and forty years of practice."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q180,138 360,142 Q540,144 742,140"/>
+    <path d="M0,310 Q180,308 360,312 Q540,314 742,310"/>
+  </g>
+</svg>
