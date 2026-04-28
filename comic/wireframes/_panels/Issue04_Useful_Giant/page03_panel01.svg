@@ -1,0 +1,511 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 4 — Page 3 — Panel 1: Full squad tableau, Theodore's face in gap behind</title>
+  <desc>28mm wide. Wall cavity camp at fairy scale. All five squad members visible — Sable center HOLD fist, Jink frozen near gap, Thresh weapon up, Wren standing calculating, Luma scanner activating. Beyond, Theodore's enormous face fills the gap. Power cell glows on timber ledge, perimeter emitters pulse blue-white, equipment in rows. Two worlds meeting. Thresh: Contact.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p3p1cavityBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1424"/>
+      <stop offset="100%" stop-color="#0a0814"/>
+    </linearGradient>
+    <linearGradient id="p3p1timber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <radialGradient id="p3p1perim" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c0e0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a8c0e0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p1powerCell" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd888" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a87828" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p1gapDay" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#d8c8a8"/>
+      <stop offset="100%" stop-color="#a89888"/>
+    </radialGradient>
+    <linearGradient id="p3p1skinDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="100%" stop-color="#7a4838"/>
+    </linearGradient>
+    <linearGradient id="p3p1skinJ" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#c89878"/>
+    </linearGradient>
+    <linearGradient id="p3p1skinW" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c89878"/>
+      <stop offset="100%" stop-color="#e8b898"/>
+    </linearGradient>
+    <linearGradient id="p3p1skinT" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8a888"/>
+      <stop offset="100%" stop-color="#e8b898"/>
+    </linearGradient>
+    <linearGradient id="p3p1silverSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dad5d0"/>
+      <stop offset="100%" stop-color="#5a5860"/>
+    </linearGradient>
+    <linearGradient id="p3p1emeraldSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3aa868"/>
+      <stop offset="100%" stop-color="#1a5a38"/>
+    </linearGradient>
+    <linearGradient id="p3p1crimsonSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d83040"/>
+      <stop offset="100%" stop-color="#7a1018"/>
+    </linearGradient>
+    <linearGradient id="p3p1copperSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e88a45"/>
+      <stop offset="100%" stop-color="#88481a"/>
+    </linearGradient>
+    <linearGradient id="p3p1sapphireSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a5ad8"/>
+      <stop offset="100%" stop-color="#3a1a78"/>
+    </linearGradient>
+    <radialGradient id="p3p1theoFace" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#c8b8a8"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </radialGradient>
+    <filter id="p3p1bloom"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="p3p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- INTERIOR cavity dark -->
+  <rect width="742" height="364" fill="url(#p3p1cavityBg)"/>
+
+  <!-- BACK WALL (rough brick) -->
+  <rect x="0" y="80" width="742" height="180" fill="#2a1810" opacity="0.85"/>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.45">
+    <line x1="0" y1="100" x2="742" y2="100"/>
+    <line x1="0" y1="120" x2="742" y2="120"/>
+    <line x1="0" y1="140" x2="742" y2="140"/>
+    <line x1="0" y1="160" x2="742" y2="160"/>
+    <line x1="0" y1="180" x2="742" y2="180"/>
+    <line x1="0" y1="200" x2="742" y2="200"/>
+    <line x1="0" y1="220" x2="742" y2="220"/>
+    <line x1="0" y1="240" x2="742" y2="240"/>
+    <line x1="60" y1="80" x2="60" y2="100"/>
+    <line x1="220" y1="120" x2="220" y2="140"/>
+    <line x1="160" y1="160" x2="160" y2="180"/>
+    <line x1="380" y1="180" x2="380" y2="200"/>
+    <line x1="520" y1="220" x2="520" y2="240"/>
+    <line x1="640" y1="200" x2="640" y2="220"/>
+  </g>
+
+  <!-- VERTICAL TIMBER STUDS framing the camp -->
+  <rect x="0" y="0" width="48" height="364" fill="url(#p3p1timber)"/>
+  <rect x="694" y="0" width="48" height="364" fill="url(#p3p1timber)"/>
+  <g stroke="#1a0c04" stroke-width="0.35" opacity="0.5" fill="none">
+    <path d="M14,40 Q24,50 36,40"/>
+    <path d="M14,140 Q24,150 36,140"/>
+    <path d="M14,240 Q24,250 36,240"/>
+    <path d="M708,40 Q718,50 730,40"/>
+    <path d="M708,140 Q718,150 730,140"/>
+    <path d="M708,240 Q718,250 730,240"/>
+  </g>
+
+  <!-- TOP JOIST -->
+  <rect x="48" y="0" width="646" height="44" fill="url(#p3p1timber)"/>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M60,12 Q200,18 380,12 Q520,16 680,12"/>
+    <path d="M60,30 Q200,36 380,30 Q520,34 680,30"/>
+  </g>
+
+  <!-- BOTTOM FLOORBOARD JOIST (the floor) -->
+  <rect x="48" y="280" width="646" height="84" fill="#2a1808"/>
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.7">
+    <line x1="48" y1="280" x2="694" y2="280"/>
+    <line x1="48" y1="312" x2="694" y2="312"/>
+    <line x1="180" y1="280" x2="180" y2="364"/>
+    <line x1="320" y1="280" x2="320" y2="364"/>
+    <line x1="460" y1="280" x2="460" y2="364"/>
+    <line x1="600" y1="280" x2="600" y2="364"/>
+  </g>
+
+  <!-- GAP IN BRICKWORK (right BG) showing Theodore's face beyond -->
+  <g>
+    <rect x="510" y="100" width="184" height="160" fill="url(#p3p1gapDay)"/>
+    <!-- Gap brick edges -->
+    <rect x="510" y="100" width="184" height="4" fill="#3a1808"/>
+    <rect x="510" y="256" width="184" height="4" fill="#3a1808"/>
+    <rect x="510" y="100" width="4" height="160" fill="#3a1808"/>
+    <rect x="690" y="100" width="4" height="160" fill="#3a1808"/>
+    <!-- Theodore's face filling the gap (smaller scale than P2P3 but recognizable) -->
+    <g transform="translate(602 180)">
+      <ellipse cx="0" cy="0" rx="100" ry="80" fill="url(#p3p1theoFace)"/>
+      <!-- Hair top -->
+      <path d="M-100,-60 Q-50,-80 0,-78 Q50,-80 100,-60 L100,-40 Q50,-50 0,-48 Q-50,-50 -100,-40 Z" fill="#5a4838"/>
+      <!-- Hair strands -->
+      <path d="M-60,-40 Q-58,-20 -50,-4 L-44,-6 Q-52,-22 -56,-40 Z" fill="#5a4838"/>
+      <path d="M-20,-44 Q-18,-20 -10,-2 L-4,-4 Q-12,-22 -16,-44 Z" fill="#5a4838"/>
+      <path d="M30,-44 Q32,-20 40,-2 L46,-4 Q38,-22 34,-44 Z" fill="#5a4838"/>
+      <path d="M60,-40 Q62,-20 70,-4 L76,-6 Q68,-22 64,-40 Z" fill="#5a4838"/>
+      <!-- Eyebrow -->
+      <path d="M-60,-12 Q-30,-22 0,-16 Q30,-12 36,-8 Q-12,-18 -60,-4 Z" fill="#5a4838"/>
+      <!-- Eye (right side, peering into camp) -->
+      <ellipse cx="-15" cy="8" rx="36" ry="14" fill="#fff8e8"/>
+      <circle cx="-12" cy="8" r="13" fill="#7a5028"/>
+      <!-- Iris detail -->
+      <g stroke="#3a2010" stroke-width="0.4" fill="none" opacity="0.7">
+        <line x1="-12" y1="-5" x2="-12" y2="-1"/>
+        <line x1="-3" y1="2" x2="-7" y2="4"/>
+        <line x1="-12" y1="21" x2="-12" y2="17"/>
+      </g>
+      <!-- Pupil dilated -->
+      <circle cx="-12" cy="8" r="7" fill="#0a0604"/>
+      <!-- Reflected camp lights inside iris -->
+      <g opacity="0.85">
+        <circle cx="-13" cy="6" r="0.7" fill="#a8c0e0"/>
+        <circle cx="-10" cy="9" r="0.6" fill="#e8f0ff"/>
+        <circle cx="-15" cy="10" r="0.5" fill="#a8c0e0"/>
+      </g>
+      <!-- Catchlight -->
+      <ellipse cx="-18" cy="2" rx="2.5" ry="1.6" fill="#fff8e8" opacity="0.85"/>
+      <!-- Upper lid arch -->
+      <path d="M-50,4 Q-12,-12 25,4" fill="none" stroke="#3a2010" stroke-width="1.4"/>
+      <!-- Eyelashes -->
+      <g stroke="#3a2010" stroke-width="0.7" stroke-linecap="round">
+        <line x1="-30" y1="-5" x2="-32" y2="-12"/>
+        <line x1="-12" y1="-9" x2="-12" y2="-16"/>
+        <line x1="6" y1="-5" x2="8" y2="-12"/>
+      </g>
+      <!-- Lower lid -->
+      <path d="M-50,12 Q-12,28 25,12" fill="none" stroke="#5a3818" stroke-width="0.85"/>
+      <!-- Nose bridge -->
+      <path d="M30,2 L40,40 L50,68 L40,76 Q44,52 38,32 Z" fill="url(#p3p1theoFace)"/>
+      <!-- Mouth (slightly open) -->
+      <ellipse cx="0" cy="60" rx="20" ry="6" fill="#a85838" opacity="0.85"/>
+      <!-- Freckles -->
+      <g fill="#7a5848" opacity="0.7">
+        <circle cx="20" cy="32" r="0.7"/>
+        <circle cx="-50" cy="32" r="0.7"/>
+        <circle cx="-40" cy="40" r="0.6"/>
+      </g>
+    </g>
+    <!-- Crumbled mortar bits -->
+    <ellipse cx="540" cy="104" rx="6" ry="2" fill="#7a6858" opacity="0.7"/>
+    <ellipse cx="660" cy="256" rx="6" ry="2" fill="#7a6858" opacity="0.7"/>
+  </g>
+
+  <!-- WARM DAYLIGHT WASH from gap -->
+  <ellipse cx="600" cy="180" rx="200" ry="120" fill="#d8c8a8" opacity="0.18" filter="url(#p3p1bloom)"/>
+
+  <!-- HOLOGRAPHIC PERIMETER EMITTERS -->
+  <g transform="translate(80 270)">
+    <ellipse cx="0" cy="0" rx="20" ry="16" fill="url(#p3p1perim)" filter="url(#p3p1bloom)"/>
+    <path d="M-4,-6 L0,-8 L4,-6 L6,0 L4,6 L-4,6 L-6,0 Z" fill="#a8c0e0"/>
+    <circle cx="0" cy="0" r="1.4" fill="#fff8e8"/>
+  </g>
+  <g transform="translate(692 270)">
+    <ellipse cx="0" cy="0" rx="22" ry="18" fill="url(#p3p1perim)" filter="url(#p3p1bloom)"/>
+    <path d="M-4,-6 L0,-8 L4,-6 L6,0 L4,6 L-4,6 L-6,0 Z" fill="#a8c0e0"/>
+    <circle cx="0" cy="0" r="1.6" fill="#fff8e8"/>
+  </g>
+
+  <!-- POWER CELL on timber ledge (left FG) -->
+  <g transform="translate(80 250)">
+    <ellipse cx="0" cy="0" rx="46" ry="22" fill="url(#p3p1powerCell)" filter="url(#p3p1glow)" opacity="0.6"/>
+    <rect x="-18" y="-2" width="36" height="6" fill="#3a2818"/>
+    <path d="M-8,-22 L0,-30 L8,-22 L10,-2 L-10,-2 Z" fill="#d8a838"/>
+    <path d="M-6,-22 L0,-28 L6,-22 L0,-12 Z" fill="#ffd888"/>
+    <circle cx="0" cy="-18" r="3" fill="#ffe8a8"/>
+    <!-- Wiring -->
+    <path d="M-10,-2 Q-22,4 -32,2" fill="none" stroke="#7a5028" stroke-width="0.85"/>
+    <path d="M10,-2 Q22,4 32,2" fill="none" stroke="#7a5028" stroke-width="0.85"/>
+  </g>
+
+  <!-- EQUIPMENT ROW at back of camp (small geometric crates) -->
+  <g transform="translate(170 252)">
+    <rect x="0" y="0" width="36" height="22" fill="#3a3038" opacity="0.85"/>
+    <line x1="0" y1="11" x2="36" y2="11" stroke="#1a1820" stroke-width="0.5"/>
+    <rect x="40" y="4" width="28" height="18" fill="#3a3038" opacity="0.85"/>
+    <rect x="72" y="0" width="32" height="22" fill="#3a3038" opacity="0.85"/>
+    <!-- Faint colored hologram tags -->
+    <circle cx="18" cy="6" r="1.4" fill="#c87a35"/>
+    <circle cx="54" cy="10" r="1.2" fill="#5a3ad8"/>
+    <circle cx="88" cy="6" r="1.4" fill="#dc2030"/>
+  </g>
+
+  <!-- ===== CHARACTERS (positioned across camp floor at fairy scale) ===== -->
+
+  <!-- THRESH (left, weapon up, facing right toward gap) -->
+  <g transform="translate(120 300)">
+    <ellipse cx="0" cy="0" rx="14" ry="2.5" fill="#0a0604" opacity="0.65"/>
+    <!-- Legs in stance -->
+    <path d="M-8,-44 L-12,-2 L-4,0 L-2,-44 Z" fill="url(#p3p1crimsonSuit)"/>
+    <path d="M2,-44 L4,0 L12,-2 L8,-44 Z" fill="url(#p3p1crimsonSuit)"/>
+    <ellipse cx="-8" cy="-1" rx="4" ry="1.4" fill="#3a0808"/>
+    <ellipse cx="8" cy="-1" rx="4" ry="1.4" fill="#3a0808"/>
+    <!-- Torso w/ chest plate -->
+    <path d="M-14,-78 L-16,-44 L16,-44 L14,-78 Z" fill="url(#p3p1crimsonSuit)"/>
+    <!-- Chest plating -->
+    <path d="M-12,-72 L-12,-50 L12,-50 L12,-72 Z" fill="#a82030" opacity="0.8"/>
+    <line x1="0" y1="-72" x2="0" y2="-50" stroke="#5a0810" stroke-width="0.6"/>
+    <!-- Shoulders + DENTED LEFT PAULDRON -->
+    <path d="M-16,-78 Q-22,-86 -16,-92 L-10,-92 L-12,-76 Z" fill="#a82030"/>
+    <!-- Dent on left pauldron -->
+    <ellipse cx="-18" cy="-86" rx="3" ry="1.4" fill="#5a0810" opacity="0.85"/>
+    <path d="M16,-78 Q22,-86 16,-92 L10,-92 L12,-76 Z" fill="url(#p3p1crimsonSuit)"/>
+    <!-- LEG SCUFFS -->
+    <ellipse cx="-8" cy="-22" rx="2.4" ry="0.7" fill="#5a3018" opacity="0.7"/>
+    <ellipse cx="8" cy="-30" rx="2.4" ry="0.7" fill="#5a3018" opacity="0.7"/>
+    <!-- Holographic crimson glow at seams -->
+    <circle cx="-12" cy="-86" r="1" fill="#ffaaaa" filter="url(#p3p1bloom)"/>
+    <circle cx="12" cy="-86" r="1" fill="#ffaaaa" filter="url(#p3p1bloom)"/>
+    <!-- Arms forward, gripping rifle -->
+    <path d="M-16,-76 Q-14,-66 -2,-58 L4,-66 Q-4,-72 -10,-78 Z" fill="url(#p3p1crimsonSuit)"/>
+    <path d="M16,-76 Q14,-66 2,-58 L-4,-66 Q4,-72 10,-78 Z" fill="url(#p3p1crimsonSuit)"/>
+    <!-- Hands gripping rifle -->
+    <ellipse cx="-2" cy="-60" rx="3" ry="2" fill="url(#p3p1skinT)"/>
+    <ellipse cx="6" cy="-60" rx="3" ry="2" fill="url(#p3p1skinT)"/>
+    <!-- COMPACT RIFLE — pointing right toward gap -->
+    <rect x="0" y="-66" width="34" height="6" fill="#3a3038"/>
+    <rect x="-4" y="-64" width="6" height="2" fill="#1a1820"/>
+    <rect x="32" y="-65" width="3" height="4" fill="#1a1820"/>
+    <!-- Sight line glow -->
+    <line x1="34" y1="-63" x2="44" y2="-66" stroke="#ffaaaa" stroke-width="0.5" opacity="0.75"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-92" rx="9" ry="11" fill="url(#p3p1skinT)"/>
+    <!-- Copper-red BUZZ CUT -->
+    <g fill="#a83018">
+      <path d="M-8,-100 Q-9,-106 0,-108 Q9,-106 8,-100 L6,-94 Q3,-100 -3,-100 Q-6,-100 -8,-94 Z"/>
+      <g stroke="#c84028" stroke-width="0.5" opacity="0.7">
+        <line x1="-6" y1="-104" x2="-6" y2="-100"/>
+        <line x1="-2" y1="-106" x2="-2" y2="-102"/>
+        <line x1="2" y1="-106" x2="2" y2="-102"/>
+        <line x1="6" y1="-104" x2="6" y2="-100"/>
+      </g>
+    </g>
+    <!-- Eyes locked on target, narrowed -->
+    <ellipse cx="-3" cy="-92" rx="1.4" ry="0.8" fill="#fff8e8"/>
+    <circle cx="-3" cy="-92" r="0.5" fill="#0a0604"/>
+    <ellipse cx="3" cy="-92" rx="1.4" ry="0.8" fill="#fff8e8"/>
+    <circle cx="3" cy="-92" r="0.5" fill="#0a0604"/>
+    <!-- Brow set -->
+    <path d="M-6,-96 L-1,-97" stroke="#5a1808" stroke-width="0.55"/>
+    <path d="M1,-97 L6,-96" stroke="#5a1808" stroke-width="0.55"/>
+    <!-- Jaw clenched -->
+    <path d="M-3,-86 Q0,-85 3,-86" fill="none" stroke="#5a2818" stroke-width="0.55"/>
+  </g>
+
+  <!-- WREN (left-center, calculating, arms not yet crossed) -->
+  <g transform="translate(220 300)">
+    <ellipse cx="0" cy="0" rx="12" ry="2.2" fill="#0a0604" opacity="0.6"/>
+    <!-- Legs -->
+    <path d="M-7,-40 L-10,-2 L-3,0 L-1,-40 Z" fill="url(#p3p1copperSuit)"/>
+    <path d="M1,-40 L3,0 L10,-2 L7,-40 Z" fill="url(#p3p1copperSuit)"/>
+    <ellipse cx="-7" cy="-1" rx="3.5" ry="1.4" fill="#5a2810"/>
+    <ellipse cx="7" cy="-1" rx="3.5" ry="1.4" fill="#5a2810"/>
+    <!-- COPPER DUST at knees -->
+    <ellipse cx="-7" cy="-22" rx="3" ry="0.8" fill="#a86838" opacity="0.5"/>
+    <ellipse cx="7" cy="-22" rx="3" ry="0.8" fill="#a86838" opacity="0.5"/>
+    <!-- Torso (wiry build) -->
+    <path d="M-12,-72 L-14,-40 L14,-40 L12,-72 Z" fill="url(#p3p1copperSuit)"/>
+    <!-- SCORCH MARK on left shoulder -->
+    <ellipse cx="-12" cy="-72" rx="4" ry="3" fill="#1a0c04" opacity="0.75"/>
+    <!-- Shoulder seam -->
+    <path d="M-14,-72 Q-20,-78 -14,-84 L-8,-82 Z" fill="#a85820"/>
+    <path d="M14,-72 Q20,-78 14,-84 L8,-82 Z" fill="url(#p3p1copperSuit)"/>
+    <!-- Holographic copper-gold accent -->
+    <circle cx="-10" cy="-78" r="0.85" fill="#ffd888" filter="url(#p3p1bloom)"/>
+    <circle cx="10" cy="-78" r="0.85" fill="#ffd888" filter="url(#p3p1bloom)"/>
+    <!-- Arms — at sides, hands moving toward crossing -->
+    <path d="M-14,-70 Q-22,-58 -16,-42 L-10,-46 Q-14,-58 -10,-68 Z" fill="url(#p3p1copperSuit)"/>
+    <path d="M14,-70 Q22,-58 16,-42 L10,-46 Q14,-58 10,-68 Z" fill="url(#p3p1copperSuit)"/>
+    <!-- OIL-STAINED forearms -->
+    <ellipse cx="-18" cy="-50" rx="3.5" ry="1.4" fill="#1a0c04" opacity="0.55"/>
+    <ellipse cx="18" cy="-50" rx="3.5" ry="1.4" fill="#1a0c04" opacity="0.55"/>
+    <!-- Hands -->
+    <ellipse cx="-15" cy="-44" rx="2.4" ry="1.4" fill="url(#p3p1skinW)"/>
+    <ellipse cx="15" cy="-44" rx="2.4" ry="1.4" fill="url(#p3p1skinW)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-86" rx="8" ry="10" fill="url(#p3p1skinW)"/>
+    <!-- HAIR UP messy bun -->
+    <g fill="#1a0c04">
+      <path d="M-7,-93 Q-8,-100 0,-101 Q8,-100 7,-93 L5,-88 Q2,-94 -2,-94 Q-5,-94 -7,-88 Z"/>
+      <ellipse cx="0" cy="-104" rx="5" ry="4"/>
+      <!-- Strands escaping -->
+      <path d="M-6,-96 Q-8,-92 -7,-86" stroke="#1a0c04" stroke-width="0.5" fill="none"/>
+      <path d="M6,-96 Q8,-92 7,-86" stroke="#1a0c04" stroke-width="0.5" fill="none"/>
+    </g>
+    <!-- Eyes (calculating, narrow) -->
+    <ellipse cx="-3" cy="-86" rx="1.4" ry="0.7" fill="#fff8e8"/>
+    <circle cx="-3" cy="-86" r="0.5" fill="#1a0c04"/>
+    <ellipse cx="3" cy="-86" rx="1.4" ry="0.7" fill="#fff8e8"/>
+    <circle cx="3" cy="-86" r="0.5" fill="#1a0c04"/>
+    <!-- Mouth set -->
+    <path d="M-3,-80 Q0,-79 3,-80" fill="none" stroke="#3a2010" stroke-width="0.5"/>
+  </g>
+
+  <!-- SABLE (center, raised fist) -->
+  <g transform="translate(330 300)">
+    <ellipse cx="0" cy="0" rx="14" ry="2.5" fill="#0a0604" opacity="0.65"/>
+    <!-- Legs -->
+    <path d="M-7,-46 L-10,-2 L-3,0 L-1,-46 Z" fill="url(#p3p1silverSuit)"/>
+    <path d="M1,-46 L3,0 L10,-2 L7,-46 Z" fill="url(#p3p1silverSuit)"/>
+    <ellipse cx="-7" cy="-1" rx="4" ry="1.4" fill="#3a3838"/>
+    <ellipse cx="7" cy="-1" rx="4" ry="1.4" fill="#3a3838"/>
+    <!-- DUST AT KNEES -->
+    <ellipse cx="-7" cy="-26" rx="3" ry="0.8" fill="#7a7080" opacity="0.5"/>
+    <ellipse cx="7" cy="-26" rx="3" ry="0.8" fill="#7a7080" opacity="0.5"/>
+    <!-- Torso -->
+    <path d="M-13,-78 L-15,-46 L15,-46 L13,-78 Z" fill="url(#p3p1silverSuit)"/>
+    <!-- SOOT BLOOM on right shoulder -->
+    <ellipse cx="13" cy="-76" rx="6" ry="4" fill="#3a3038" opacity="0.75"/>
+    <!-- Shoulders -->
+    <path d="M-15,-78 Q-22,-86 -15,-92 L-8,-92 Z" fill="url(#p3p1silverSuit)"/>
+    <path d="M15,-78 Q22,-86 15,-92 L8,-92 Z" fill="url(#p3p1silverSuit)"/>
+    <!-- Hologram seams -->
+    <circle cx="-9" cy="-86" r="1" fill="#fff8e8" filter="url(#p3p1bloom)"/>
+    <circle cx="9" cy="-86" r="1" fill="#fff8e8" filter="url(#p3p1bloom)"/>
+    <!-- LEFT ARM RAISED IN HOLD FIST -->
+    <path d="M-14,-78 Q-22,-90 -22,-110 L-14,-112 Q-12,-92 -8,-78 Z" fill="url(#p3p1silverSuit)"/>
+    <ellipse cx="-18" cy="-114" rx="4" ry="3.2" fill="url(#p3p1skinDark)"/>
+    <!-- Knuckle creases -->
+    <path d="M-22,-114 Q-18,-112 -14,-114" fill="none" stroke="#3a2010" stroke-width="0.4"/>
+    <!-- Right arm at side -->
+    <path d="M14,-78 Q22,-66 16,-46 L10,-50 Q14,-62 10,-76 Z" fill="url(#p3p1silverSuit)"/>
+    <ellipse cx="14" cy="-46" rx="2.4" ry="1.4" fill="url(#p3p1skinDark)"/>
+    <!-- Sidearm holstered at hip -->
+    <rect x="11" y="-60" width="6" height="8" fill="#1a1820"/>
+    <!-- Head — silver-white buzz cut -->
+    <ellipse cx="0" cy="-92" rx="8" ry="10" fill="url(#p3p1skinDark)"/>
+    <g fill="#dad5d0">
+      <path d="M-7,-100 Q-8,-105 0,-107 Q8,-105 7,-100 L5,-96 Q2,-100 -2,-100 Q-5,-100 -7,-96 Z"/>
+      <g stroke="#f0e8d8" stroke-width="0.5" opacity="0.7">
+        <line x1="-5" y1="-103" x2="-5" y2="-100"/>
+        <line x1="-2" y1="-105" x2="-2" y2="-102"/>
+        <line x1="2" y1="-105" x2="2" y2="-102"/>
+        <line x1="5" y1="-103" x2="5" y2="-100"/>
+      </g>
+    </g>
+    <!-- Eyes -->
+    <ellipse cx="-3" cy="-92" rx="1.4" ry="0.7" fill="#fff8e8"/>
+    <circle cx="-3" cy="-92" r="0.5" fill="#0a0604"/>
+    <ellipse cx="3" cy="-92" rx="1.4" ry="0.7" fill="#fff8e8"/>
+    <circle cx="3" cy="-92" r="0.5" fill="#0a0604"/>
+    <!-- Brow drawn down -->
+    <path d="M-6,-96 L-1,-97" stroke="#3a3028" stroke-width="0.65"/>
+    <path d="M1,-97 L6,-96" stroke="#3a3028" stroke-width="0.65"/>
+    <!-- Mouth a line -->
+    <path d="M-3,-86 L3,-86" stroke="#3a1808" stroke-width="0.85"/>
+  </g>
+
+  <!-- LUMA (right-center, half-risen, scanner activating) -->
+  <g transform="translate(440 300)">
+    <ellipse cx="0" cy="0" rx="12" ry="2.2" fill="#0a0604" opacity="0.6"/>
+    <!-- Legs (slight crouch from medical kit) -->
+    <path d="M-7,-38 L-10,-2 L-3,0 L-1,-38 Z" fill="url(#p3p1sapphireSuit)"/>
+    <path d="M1,-38 L3,0 L10,-2 L7,-38 Z" fill="url(#p3p1sapphireSuit)"/>
+    <ellipse cx="-7" cy="-1" rx="3.5" ry="1.4" fill="#1a0838"/>
+    <ellipse cx="7" cy="-1" rx="3.5" ry="1.4" fill="#1a0838"/>
+    <!-- Torso -->
+    <path d="M-12,-70 L-14,-38 L14,-38 L12,-70 Z" fill="url(#p3p1sapphireSuit)"/>
+    <!-- Shoulders -->
+    <path d="M-14,-70 Q-20,-78 -14,-84 L-8,-82 Z" fill="url(#p3p1sapphireSuit)"/>
+    <path d="M14,-70 Q20,-78 14,-84 L8,-82 Z" fill="url(#p3p1sapphireSuit)"/>
+    <!-- Sapphire-violet hologram seams -->
+    <circle cx="-10" cy="-78" r="0.85" fill="#a888ff" filter="url(#p3p1bloom)"/>
+    <circle cx="10" cy="-78" r="0.85" fill="#a888ff" filter="url(#p3p1bloom)"/>
+    <!-- Right arm — scanner forward (raising) -->
+    <path d="M14,-70 Q26,-68 32,-58 L26,-50 Q18,-58 10,-66 Z" fill="url(#p3p1sapphireSuit)"/>
+    <ellipse cx="32" cy="-56" rx="2.4" ry="1.4" fill="url(#p3p1skinJ)"/>
+    <!-- Scanner device (small, blue-violet glow) -->
+    <rect x="32" y="-60" width="6" height="6" fill="#3a1a78"/>
+    <ellipse cx="40" cy="-56" rx="6" ry="3" fill="#a888ff" opacity="0.65" filter="url(#p3p1bloom)"/>
+    <!-- Scanner beam projection -->
+    <line x1="38" y1="-58" x2="48" y2="-66" stroke="#a888ff" stroke-width="0.5" opacity="0.8"/>
+    <!-- Left arm at side -->
+    <path d="M-14,-70 Q-22,-58 -16,-44 L-10,-48 Q-14,-58 -10,-68 Z" fill="url(#p3p1sapphireSuit)"/>
+    <ellipse cx="-15" cy="-46" rx="2.4" ry="1.4" fill="url(#p3p1skinJ)"/>
+    <!-- INK STAINS on hands -->
+    <ellipse cx="-15" cy="-46" rx="1.4" ry="0.7" fill="#1a0838" opacity="0.7"/>
+    <ellipse cx="32" cy="-56" rx="1.4" ry="0.7" fill="#1a0838" opacity="0.7"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-84" rx="8" ry="10" fill="url(#p3p1skinJ)"/>
+    <!-- Hair (braided, dark) with SAPPHIRE FILAMENT -->
+    <g fill="#1a0c04">
+      <path d="M-8,-92 Q-8,-100 0,-102 Q8,-100 8,-92 L6,-86 Q3,-92 -3,-92 Q-6,-92 -8,-86 Z"/>
+      <!-- Braid hanging back -->
+      <path d="M6,-90 Q12,-78 14,-62" stroke="#1a0c04" stroke-width="2" fill="none"/>
+    </g>
+    <!-- Sapphire filament (glowing strand in braid) -->
+    <line x1="6" y1="-90" x2="14" y2="-62" stroke="#a888ff" stroke-width="0.5" opacity="0.85" filter="url(#p3p1bloom)"/>
+    <!-- HOLOGRAPHIC LENSES — CRACKED right -->
+    <ellipse cx="-3" cy="-86" rx="2" ry="1.4" fill="#a888ff" opacity="0.85" filter="url(#p3p1bloom)"/>
+    <ellipse cx="3" cy="-86" rx="2" ry="1.4" fill="#a888ff" opacity="0.85" filter="url(#p3p1bloom)"/>
+    <!-- Crack on right lens -->
+    <path d="M2,-87 L4,-85" stroke="#3a1a78" stroke-width="0.4"/>
+    <!-- Mouth — slight surprise -->
+    <ellipse cx="0" cy="-78" rx="1.4" ry="0.7" fill="#5a2818" opacity="0.85"/>
+  </g>
+
+  <!-- JINK (right of Sable, frozen, near gap) -->
+  <g transform="translate(540 300)">
+    <ellipse cx="0" cy="0" rx="11" ry="2.2" fill="#0a0604" opacity="0.55"/>
+    <!-- Legs -->
+    <path d="M-6,-38 L-9,-2 L-2,0 L-1,-38 Z" fill="url(#p3p1emeraldSuit)"/>
+    <path d="M1,-38 L2,0 L9,-2 L6,-38 Z" fill="url(#p3p1emeraldSuit)"/>
+    <ellipse cx="-6" cy="-1" rx="3.5" ry="1.4" fill="#1a4830"/>
+    <ellipse cx="6" cy="-1" rx="3.5" ry="1.4" fill="#1a4830"/>
+    <!-- Torso w/ CHEST SOOT STREAK -->
+    <path d="M-11,-70 L-13,-38 L13,-38 L11,-70 Z" fill="url(#p3p1emeraldSuit)"/>
+    <path d="M-8,-66 Q-2,-62 4,-66 Q-2,-52 -6,-50 Z" fill="#3a2818" opacity="0.7"/>
+    <!-- Shoulders -->
+    <path d="M-13,-70 Q-19,-78 -13,-82 L-7,-80 Z" fill="url(#p3p1emeraldSuit)"/>
+    <path d="M13,-70 Q19,-78 13,-82 L7,-80 Z" fill="url(#p3p1emeraldSuit)"/>
+    <!-- Holographic emerald seams -->
+    <circle cx="-9" cy="-76" r="0.85" fill="#9aff9a" filter="url(#p3p1bloom)"/>
+    <circle cx="9" cy="-76" r="0.85" fill="#9aff9a" filter="url(#p3p1bloom)"/>
+    <!-- Arms at sides, frozen -->
+    <path d="M-13,-68 Q-20,-58 -16,-42 L-10,-46 Q-14,-58 -10,-66 Z" fill="url(#p3p1emeraldSuit)"/>
+    <path d="M13,-68 Q20,-58 16,-42 L10,-46 Q14,-58 10,-66 Z" fill="url(#p3p1emeraldSuit)"/>
+    <ellipse cx="-15" cy="-44" rx="2.4" ry="1.4" fill="url(#p3p1skinJ)"/>
+    <ellipse cx="15" cy="-44" rx="2.4" ry="1.4" fill="url(#p3p1skinJ)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-84" rx="8" ry="10" fill="url(#p3p1skinJ)"/>
+    <!-- Wild golden curls -->
+    <g fill="#d8a838">
+      <circle cx="-7" cy="-94" r="3"/>
+      <circle cx="0" cy="-98" r="3.2"/>
+      <circle cx="7" cy="-94" r="2.8"/>
+      <circle cx="-9" cy="-88" r="2.2"/>
+      <circle cx="9" cy="-88" r="2"/>
+      <circle cx="-3" cy="-100" r="2"/>
+      <circle cx="4" cy="-100" r="2"/>
+    </g>
+    <!-- Eyes wide -->
+    <ellipse cx="-3" cy="-84" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="-3" cy="-84" r="0.6" fill="#1a4830"/>
+    <ellipse cx="3" cy="-84" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="3" cy="-84" r="0.6" fill="#1a4830"/>
+    <!-- Mouth — slightly open -->
+    <ellipse cx="0" cy="-76" rx="1.4" ry="0.7" fill="#5a2818" opacity="0.85"/>
+  </g>
+
+  <!-- DUST MOTES floating in light -->
+  <g fill="#fff8e8" opacity="0.55">
+    <circle cx="380" cy="120" r="0.85"/>
+    <circle cx="420" cy="160" r="1"/>
+    <circle cx="460" cy="100" r="0.7"/>
+    <circle cx="500" cy="180" r="0.85"/>
+    <circle cx="320" cy="200" r="0.85"/>
+    <circle cx="240" cy="160" r="0.7"/>
+  </g>
+
+  <!-- DIALOGUE — Thresh (tight, low): Contact. -->
+  <g>
+    <rect x="14" y="14" width="118" height="44" rx="8" fill="#ffffff" stroke="#dc2030" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M64,58 L74,58 L66,70 Z" fill="#ffffff" stroke="#dc2030" stroke-width="2"/>
+    <path d="M66,58 L72,58" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#dc2030">THRESH</text>
+  <text x="22" y="50" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">Contact.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,40 Q200,38 400,42 Q580,44 742,40"/>
+    <path d="M0,300 Q200,302 400,298 Q580,296 742,300"/>
+  </g>
+</svg>

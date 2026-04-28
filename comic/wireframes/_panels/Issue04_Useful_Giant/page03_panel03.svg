@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 364" width="241" height="364">
+  <title>Issue 4 — Page 3 — Panel 3: Theodore's eye through the gap, fairy POV</title>
+  <desc>85mm extreme close-up. Theodore's right eye fills frame from fairy POV. Hazel iris with green and gold flecks. Pupil dilating, adjusting to dim. In iris reflection: blue-white camp lights. Awe and recognition. Warm grey daylight from behind. Theodore: I can see you. All of you.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p3p3skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8b8a8"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </linearGradient>
+    <radialGradient id="p3p3hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#88806a"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </radialGradient>
+    <radialGradient id="p3p3iris" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="20%" stop-color="#5a4818"/>
+      <stop offset="40%" stop-color="#7a6028"/>
+      <stop offset="65%" stop-color="#a87838"/>
+      <stop offset="85%" stop-color="#88683a"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </radialGradient>
+    <radialGradient id="p3p3warmDay" cx="100%" cy="30%" r="100%">
+      <stop offset="0%" stop-color="#e8d8b8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a89888" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p3p3bloom"><feGaussianBlur stdDeviation="0.8"/></filter>
+  </defs>
+
+  <!-- BG: warm skin tone fills frame entirely -->
+  <rect width="241" height="364" fill="url(#p3p3skin)"/>
+  <!-- Warm daylight from behind Theodore -->
+  <rect width="241" height="364" fill="url(#p3p3warmDay)"/>
+
+  <!-- HAIR — sandy-brown wisps falling across forehead from top -->
+  <g fill="url(#p3p3hair)">
+    <rect x="0" y="0" width="241" height="40"/>
+    <!-- Strands hanging into frame -->
+    <path d="M30,40 Q34,68 42,92 L52,90 Q44,68 38,40 Z"/>
+    <path d="M80,40 Q84,68 92,94 L102,92 Q94,68 88,40 Z"/>
+    <path d="M130,40 Q134,68 142,92 L152,90 Q144,66 138,40 Z"/>
+    <path d="M180,40 Q184,68 192,90 L202,88 Q194,66 188,40 Z"/>
+    <!-- Wisps -->
+    <path d="M50,40 Q54,52 50,68" stroke="#3a3028" stroke-width="0.7" fill="none"/>
+    <path d="M110,40 Q114,52 110,68" stroke="#3a3028" stroke-width="0.7" fill="none"/>
+    <path d="M170,40 Q174,52 170,68" stroke="#3a3028" stroke-width="0.7" fill="none"/>
+  </g>
+
+  <!-- EYEBROW — sandy fine hair above eye, slightly raised in awe -->
+  <g fill="url(#p3p3hair)" opacity="0.85">
+    <path d="M22,114 Q70,98 130,108 Q170,114 200,116 Q70,108 22,124 Z"/>
+  </g>
+
+  <!-- THE EYE — central, dominant -->
+  <g transform="translate(120 220)">
+    <!-- Eye socket shadow -->
+    <ellipse cx="0" cy="0" rx="100" ry="46" fill="#7a5848" opacity="0.3"/>
+    <!-- Lower eyelid shadow -->
+    <path d="M-94,4 Q0,28 94,4 Q86,40 0,42 Q-86,40 -94,4 Z" fill="#a89070" opacity="0.5"/>
+    <!-- Eye white -->
+    <ellipse cx="0" cy="0" rx="92" ry="36" fill="#fff8e8"/>
+    <!-- Subtle veining -->
+    <g stroke="#e8c8a8" stroke-width="0.55" fill="none" opacity="0.55">
+      <path d="M-78,6 Q-50,12 -28,4"/>
+      <path d="M50,6 Q72,10 86,4"/>
+    </g>
+
+    <!-- IRIS (hazel, large, green/gold flecks) -->
+    <circle cx="0" cy="0" r="32" fill="url(#p3p3iris)"/>
+
+    <!-- Iris detail rays -->
+    <g stroke="#3a2010" stroke-width="0.6" fill="none" opacity="0.7">
+      <line x1="0" y1="-32" x2="0" y2="-18"/>
+      <line x1="16" y1="-28" x2="10" y2="-16"/>
+      <line x1="28" y1="-16" x2="17" y2="-10"/>
+      <line x1="32" y1="0" x2="20" y2="0"/>
+      <line x1="28" y1="16" x2="17" y2="10"/>
+      <line x1="16" y1="28" x2="10" y2="16"/>
+      <line x1="0" y1="32" x2="0" y2="18"/>
+      <line x1="-16" y1="28" x2="-10" y2="16"/>
+      <line x1="-28" y1="16" x2="-17" y2="10"/>
+      <line x1="-32" y1="0" x2="-20" y2="0"/>
+      <line x1="-28" y1="-16" x2="-17" y2="-10"/>
+      <line x1="-16" y1="-28" x2="-10" y2="-16"/>
+    </g>
+
+    <!-- GREEN flecks -->
+    <g fill="#5a8838" opacity="0.85">
+      <ellipse cx="-10" cy="-6" rx="2.4" ry="1.2"/>
+      <ellipse cx="-4" cy="14" rx="1.8" ry="1"/>
+      <ellipse cx="14" cy="-4" rx="1.8" ry="1"/>
+    </g>
+    <!-- GOLD flecks -->
+    <g fill="#d8a838" opacity="0.85">
+      <ellipse cx="8" cy="8" rx="2.4" ry="1.2"/>
+      <ellipse cx="-12" cy="10" rx="2" ry="1.2"/>
+      <ellipse cx="14" cy="14" rx="1.6" ry="0.85"/>
+      <ellipse cx="-8" cy="-12" rx="1.6" ry="0.85"/>
+    </g>
+
+    <!-- PUPIL — DILATED (adjusting to dim) -->
+    <circle cx="0" cy="0" r="18" fill="#0a0604"/>
+
+    <!-- REFLECTED CAMP LIGHTS in iris (the moment) -->
+    <g opacity="0.95">
+      <!-- Blue-white perimeter emitter reflections -->
+      <circle cx="-5" cy="-3" r="1.4" fill="#e8f0ff" filter="url(#p3p3bloom)"/>
+      <circle cx="3" cy="-2" r="1.2" fill="#a8c0e0" filter="url(#p3p3bloom)"/>
+      <circle cx="-1" cy="3" r="1" fill="#c0d8f0"/>
+      <circle cx="6" cy="5" r="0.85" fill="#a8c0e0"/>
+      <!-- Department-color tags reflected (faint) -->
+      <circle cx="-3" cy="6" r="0.7" fill="#9aff9a" opacity="0.7"/>
+      <circle cx="5" cy="-5" r="0.7" fill="#ff8090" opacity="0.7"/>
+      <!-- Connecting structured light lines (geometric) -->
+      <line x1="-5" y1="-3" x2="3" y2="-2" stroke="#a8c0e0" stroke-width="0.4" opacity="0.7"/>
+      <line x1="3" y1="-2" x2="6" y2="5" stroke="#c0d8f0" stroke-width="0.4" opacity="0.7"/>
+      <line x1="-1" y1="3" x2="-5" y2="-3" stroke="#a8c0e0" stroke-width="0.35" opacity="0.65"/>
+    </g>
+
+    <!-- Pupil core -->
+    <circle cx="0" cy="0" r="4" fill="#000"/>
+
+    <!-- CATCHLIGHT — warm daylight from behind Theodore (top-right of pupil) -->
+    <ellipse cx="-9" cy="-9" rx="4.5" ry="3" fill="#fff8e8" opacity="0.95"/>
+    <ellipse cx="-11" cy="-11" rx="2" ry="1.4" fill="#ffffff"/>
+
+    <!-- UPPER LID arch -->
+    <path d="M-92,-2 Q0,-46 92,-2" fill="none" stroke="#3a2010" stroke-width="2"/>
+
+    <!-- EYELASHES -->
+    <g stroke="#3a2010" stroke-width="0.85" stroke-linecap="round">
+      <line x1="-72" y1="-12" x2="-74" y2="-22"/>
+      <line x1="-50" y1="-26" x2="-52" y2="-38"/>
+      <line x1="-25" y1="-38" x2="-26" y2="-50"/>
+      <line x1="0" y1="-44" x2="0" y2="-58"/>
+      <line x1="25" y1="-38" x2="26" y2="-50"/>
+      <line x1="50" y1="-26" x2="52" y2="-38"/>
+      <line x1="72" y1="-12" x2="74" y2="-22"/>
+    </g>
+
+    <!-- LOWER LID -->
+    <path d="M-92,4 Q0,30 92,4" fill="none" stroke="#5a3818" stroke-width="1"/>
+    <!-- Lower lashes (subtle) -->
+    <g stroke="#5a3818" stroke-width="0.55" stroke-linecap="round" opacity="0.7">
+      <line x1="-40" y1="20" x2="-42" y2="28"/>
+      <line x1="0" y1="26" x2="0" y2="34"/>
+      <line x1="40" y1="20" x2="42" y2="28"/>
+    </g>
+  </g>
+
+  <!-- FRECKLES on cheek + nose bridge (lower frame) -->
+  <g fill="#7a5848" opacity="0.65">
+    <circle cx="80" cy="282" r="1"/>
+    <circle cx="100" cy="296" r="1"/>
+    <circle cx="120" cy="300" r="1"/>
+    <circle cx="140" cy="296" r="1"/>
+    <circle cx="160" cy="282" r="1"/>
+    <circle cx="90" cy="316" r="0.85"/>
+    <circle cx="150" cy="316" r="0.85"/>
+    <circle cx="110" cy="328" r="0.7"/>
+    <circle cx="130" cy="328" r="0.7"/>
+  </g>
+
+  <!-- DIALOGUE — Theodore: I can see you. / All of you. -->
+  <g>
+    <rect x="14" y="14" width="146" height="44" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2.4" filter="url(#balloonShadow)"/>
+    <path d="M70,58 L80,58 L72,70 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M72,58 L78,58" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="22" y="50" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">I can see you.</text>
+
+  <g>
+    <rect x="80" y="74" width="146" height="42" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M132,116 L142,116 L134,128 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M134,116 L140,116" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="88" y="92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="88" y="110" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">All of you.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,140 Q60,138 120,142 Q180,144 241,140"/>
+    <path d="M0,300 Q60,302 120,298 Q180,296 241,300"/>
+  </g>
+</svg>

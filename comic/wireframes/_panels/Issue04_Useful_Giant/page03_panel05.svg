@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 4 — Page 3 — Panel 5: Theodore's POV from outside, gap leaks fairy light, Jink approaches from inside</title>
+  <desc>28mm wide, ground level outside the wall. Theodore on hands and knees, face close to gap, hazel eyes huge, holding breath. Through tiny gap, faint blue-white geometric light leaks. Tiny moving shapes — silver flash, emerald shape detaching toward gap. Crash shard glows in waistcoat pocket. Jink (from inside): Theodore. Don't move. I'm coming out.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <linearGradient id="p3p5sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9a948a"/>
+      <stop offset="100%" stop-color="#b8b0a4"/>
+    </linearGradient>
+    <linearGradient id="p3p5brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4838"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p3p5cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#2a1810"/>
+    </linearGradient>
+    <linearGradient id="p3p5skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a89888"/>
+      <stop offset="100%" stop-color="#c8b8a8"/>
+    </linearGradient>
+    <radialGradient id="p3p5hair" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#88806a"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </radialGradient>
+    <linearGradient id="p3p5vest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4030"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p3p5shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b8a890"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </linearGradient>
+    <linearGradient id="p3p5trousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2c20"/>
+    </linearGradient>
+    <radialGradient id="p3p5gapGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d8e8ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a8c0e0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a8c0e0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p5shardGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#d8e0f0" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#a8c0e0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p3p5bloom"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- BG sky -->
+  <rect width="742" height="80" fill="url(#p3p5sky)"/>
+  <!-- BRICK WALL (right half, rises full height) -->
+  <rect x="0" y="60" width="742" height="180" fill="url(#p3p5brick)"/>
+  <g stroke="#3a2010" stroke-width="0.45" opacity="0.55">
+    <line x1="0" y1="80" x2="742" y2="80"/>
+    <line x1="0" y1="100" x2="742" y2="100"/>
+    <line x1="0" y1="120" x2="742" y2="120"/>
+    <line x1="0" y1="140" x2="742" y2="140"/>
+    <line x1="0" y1="160" x2="742" y2="160"/>
+    <line x1="0" y1="180" x2="742" y2="180"/>
+    <line x1="0" y1="200" x2="742" y2="200"/>
+    <line x1="0" y1="220" x2="742" y2="220"/>
+    <line x1="80" y1="60" x2="80" y2="100"/>
+    <line x1="220" y1="100" x2="220" y2="140"/>
+    <line x1="160" y1="140" x2="160" y2="180"/>
+    <line x1="380" y1="160" x2="380" y2="200"/>
+    <line x1="540" y1="180" x2="540" y2="220"/>
+    <line x1="660" y1="100" x2="660" y2="140"/>
+    <line x1="320" y1="60" x2="320" y2="100"/>
+    <line x1="500" y1="60" x2="500" y2="100"/>
+  </g>
+  <!-- Brick texture pits -->
+  <g opacity="0.45">
+    <ellipse cx="120" cy="120" rx="14" ry="4" fill="#6a3828"/>
+    <ellipse cx="320" cy="180" rx="12" ry="4" fill="#7a4030"/>
+    <ellipse cx="540" cy="100" rx="10" ry="3.5" fill="#6a3828"/>
+    <ellipse cx="660" cy="180" rx="12" ry="4" fill="#7a4030"/>
+  </g>
+  <!-- Moss at base -->
+  <g>
+    <ellipse cx="280" cy="226" rx="32" ry="3" fill="#4a5828" opacity="0.6"/>
+    <ellipse cx="450" cy="226" rx="36" ry="3" fill="#4a5828" opacity="0.6"/>
+  </g>
+
+  <!-- THE GAP — at base, leaking blue-white -->
+  <g>
+    <rect x="378" y="220" width="34" height="6" fill="#0a0604"/>
+    <!-- Gap glow halo -->
+    <ellipse cx="395" cy="222" rx="60" ry="10" fill="url(#p3p5gapGlow)" filter="url(#p3p5bloom)" opacity="0.85"/>
+    <!-- Tiny shapes visible inside (silver flash, emerald approaching, faint dots) -->
+    <g opacity="0.85">
+      <!-- Silver flash deep -->
+      <ellipse cx="385" cy="223" rx="2" ry="1" fill="#dad5d0" filter="url(#p3p5bloom)"/>
+      <!-- Bright emerald shape closer to gap edge -->
+      <circle cx="400" cy="223" r="1.6" fill="#9aff9a" filter="url(#p3p5bloom)"/>
+      <!-- Faint copper + crimson + sapphire dots deeper -->
+      <circle cx="382" cy="222.5" r="0.85" fill="#c87a35" opacity="0.85"/>
+      <circle cx="380" cy="223" r="0.85" fill="#dc2030" opacity="0.85"/>
+      <circle cx="383" cy="223.5" r="0.85" fill="#5a3ad8" opacity="0.85"/>
+    </g>
+    <!-- Crumbled mortar -->
+    <ellipse cx="376" cy="226" rx="3" ry="1" fill="#7a6858" opacity="0.7"/>
+    <ellipse cx="412" cy="226" rx="3" ry="1" fill="#7a6858" opacity="0.7"/>
+  </g>
+
+  <!-- COBBLESTONES -->
+  <rect x="0" y="220" width="742" height="144" fill="url(#p3p5cobble)"/>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.7">
+    <path d="M0,250 Q160,248 320,252 Q500,254 742,250"/>
+    <path d="M0,290 Q160,292 320,288 Q500,286 742,290"/>
+    <path d="M0,330 Q160,328 320,332 Q500,334 742,330"/>
+    <path d="M0,355 Q160,357 320,353 Q500,351 742,355"/>
+  </g>
+  <g fill="#1a0c04" opacity="0.6">
+    <circle cx="60" cy="262" r="1.4"/>
+    <circle cx="180" cy="270" r="1.4"/>
+    <circle cx="280" cy="262" r="1.4"/>
+    <circle cx="500" cy="270" r="1.4"/>
+    <circle cx="620" cy="262" r="1.4"/>
+    <circle cx="100" cy="305" r="1.4"/>
+    <circle cx="240" cy="315" r="1.4"/>
+    <circle cx="380" cy="305" r="1.4"/>
+    <circle cx="540" cy="315" r="1.4"/>
+    <circle cx="680" cy="305" r="1.4"/>
+    <circle cx="80" cy="345" r="1.4"/>
+    <circle cx="220" cy="355" r="1.4"/>
+    <circle cx="360" cy="345" r="1.4"/>
+    <circle cx="500" cy="355" r="1.4"/>
+    <circle cx="640" cy="345" r="1.4"/>
+  </g>
+
+  <!-- THEODORE — on hands and knees, profile facing right toward gap -->
+  <g transform="translate(220 250)">
+    <!-- Long shadow toward right (toward wall) -->
+    <path d="M-50,90 L260,82 L260,108 L-40,108 Z" fill="#1a0c04" opacity="0.5"/>
+
+    <!-- Trousers — folded, knees on cobbles -->
+    <path d="M-46,-14 L-66,32 Q-70,42 -62,48 L-40,42 L-32,2 Z" fill="url(#p3p5trousers)"/>
+    <path d="M-32,4 L-42,42 L-20,54 L0,42 L-8,2 Z" fill="url(#p3p5trousers)"/>
+    <ellipse cx="-64" cy="50" rx="8" ry="2.5" fill="#1a0c04"/>
+    <ellipse cx="0" cy="54" rx="8" ry="2.5" fill="#1a0c04"/>
+    <!-- Patches -->
+    <rect x="-48" y="14" width="6" height="6" fill="#3a2010" opacity="0.7"/>
+    <rect x="-20" y="22" width="5" height="5" fill="#3a2010" opacity="0.7"/>
+
+    <!-- Vest hanging down (back side visible) -->
+    <path d="M-42,-50 L-50,-12 L60,-22 L56,-58 Z" fill="url(#p3p5vest)"/>
+
+    <!-- Body arched forward — shirt/back curve -->
+    <path d="M56,-58 Q90,-50 130,-30 Q160,-12 178,-2 L168,4 Q150,-8 130,-22 L56,-44 Z" fill="url(#p3p5shirt)"/>
+
+    <!-- Right arm (back) supporting -->
+    <path d="M-42,-50 Q-52,-30 -48,-10 L-40,-12 Q-42,-30 -36,-46 Z" fill="url(#p3p5shirt)"/>
+
+    <!-- Right hand on cobblestones -->
+    <ellipse cx="-46" cy="-6" rx="6" ry="3" fill="url(#p3p5skin)"/>
+    <g fill="url(#p3p5skin)">
+      <ellipse cx="-52" cy="-2" rx="3" ry="1.4" transform="rotate(-15 -52 -2)"/>
+      <ellipse cx="-42" cy="-1" rx="3" ry="1.4" transform="rotate(5 -42 -1)"/>
+    </g>
+    <ellipse cx="-46" cy="-6" rx="2" ry="1" fill="#1a0c04" opacity="0.45"/>
+
+    <!-- Forward (left) hand reaching toward gap -->
+    <ellipse cx="178" cy="-2" rx="6" ry="3.5" fill="url(#p3p5skin)"/>
+    <g fill="url(#p3p5skin)">
+      <ellipse cx="184" cy="0" rx="3" ry="1.4" transform="rotate(10 184 0)"/>
+      <ellipse cx="176" cy="-6" rx="3" ry="1.4" transform="rotate(-15 176 -6)"/>
+    </g>
+    <!-- Brass gear ring on forward index -->
+    <ellipse cx="184" cy="0" rx="1.6" ry="1" fill="#c89858" stroke="#7a5028" stroke-width="0.4"/>
+
+    <!-- CRASH SHARD glowing through waistcoat pocket pressed to ground -->
+    <g transform="translate(20 -28)">
+      <ellipse cx="0" cy="0" rx="32" ry="20" fill="url(#p3p5shardGlow)" filter="url(#p3p5bloom)" opacity="0.6"/>
+      <!-- Faint shape through fabric -->
+      <ellipse cx="0" cy="0" rx="6" ry="4" fill="#a8c0e0" opacity="0.5"/>
+      <ellipse cx="0" cy="0" rx="2.5" ry="1.5" fill="#fff8e8" opacity="0.85"/>
+    </g>
+
+    <!-- Head — lowered toward gap, profile right -->
+    <ellipse cx="138" cy="-58" rx="14" ry="14" fill="url(#p3p5skin)"/>
+    <!-- Hair sandy-brown falling forward -->
+    <g fill="url(#p3p5hair)">
+      <path d="M126,-72 Q126,-82 140,-86 Q154,-82 152,-72 L148,-66 Q144,-76 138,-76 Q130,-76 126,-66 Z"/>
+      <path d="M130,-82 L128,-90 L134,-82 Z"/>
+      <path d="M137,-86 L139,-92 L142,-82 Z"/>
+      <path d="M146,-86 L150,-92 L148,-82 Z"/>
+      <!-- Forehead fall -->
+      <path d="M126,-66 Q130,-58 134,-58 L142,-58 Q146,-58 150,-66 L144,-62 Q140,-58 132,-62 Z"/>
+    </g>
+    <!-- Eyes — HUGE, holding breath -->
+    <ellipse cx="146" cy="-58" rx="3" ry="2.4" fill="#fff8e8"/>
+    <ellipse cx="147" cy="-57.5" rx="2" ry="1.6" fill="#7a5028"/>
+    <circle cx="147" cy="-57.5" r="1" fill="#0a0604"/>
+    <ellipse cx="146" cy="-58.5" rx="0.7" ry="0.5" fill="#fff8e8"/>
+    <ellipse cx="133" cy="-58" rx="1.6" ry="1.2" fill="#fff8e8"/>
+    <circle cx="133.5" cy="-57.5" r="0.7" fill="#0a0604"/>
+    <!-- Brow raised in awe -->
+    <path d="M130,-66 L138,-68" stroke="#3a2010" stroke-width="0.7" stroke-linecap="round"/>
+    <path d="M142,-68 L150,-66" stroke="#3a2010" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M150,-58 L154,-52 Q150,-50 148,-52 Z" fill="#7a5848" opacity="0.65"/>
+    <!-- Mouth — slightly open, holding breath -->
+    <ellipse cx="144" cy="-46" rx="2" ry="1" fill="#5a2818" opacity="0.8"/>
+    <!-- Freckles -->
+    <circle cx="140" cy="-52" r="0.5" fill="#7a5848"/>
+    <circle cx="145" cy="-50" r="0.5" fill="#7a5848"/>
+    <!-- Cool light on face from gap -->
+    <path d="M148,-58 L156,-58 L156,-46 L148,-44 Z" fill="#a8c0e0" opacity="0.3"/>
+  </g>
+
+  <!-- DIALOGUE — Jink (from inside, small, tinny): Theodore. Don't move. I'm coming out. -->
+  <g>
+    <rect x="14" y="14" width="280" height="58" rx="8" fill="#ffffff" stroke="#2e8b57" stroke-width="2" stroke-dasharray="3,2" filter="url(#balloonShadow)"/>
+    <!-- Tiny tail pointing toward gap (right, downward) -->
+    <path d="M280,72 L290,72 L284,90 Z" fill="#ffffff" stroke="#2e8b57" stroke-width="2" stroke-dasharray="2,1.5"/>
+    <path d="M282,72 L288,72" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#2e8b57">JINK</text>
+  <text x="22" y="50" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic">Theodore. Don't move.</text>
+  <text x="22" y="66" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic">I'm coming out.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,40 Q200,38 400,42 Q580,44 742,40"/>
+    <path d="M0,200 Q200,202 400,198 Q580,196 742,200"/>
+  </g>
+</svg>
