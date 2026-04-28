@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 422" width="366" height="422">
+  <title>Issue 5 — Page 3 — Panel 2: Jink restless at wall gap — measuring the sky — wing-pack pre-warming</title>
+  <desc>50mm MCU. Jink at narrow wall gap, peering out at grey afternoon sky. One foot on brick edge, weight forward. Wing-pack seams glow faint emerald, pre-warming. Hand taps rhythm. Off-panel Sable corrects: seven-fifteen.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p3p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c08"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p3p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a2818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p3p2sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0b8"/>
+      <stop offset="100%" stop-color="#6a7080"/>
+    </linearGradient>
+    <linearGradient id="p3p2suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a8848"/>
+    </linearGradient>
+    <linearGradient id="p3p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <radialGradient id="p3p2dayglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8b0b8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#6a7080" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p3p2wingPreheat" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2ed078" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0a8848" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p3p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p3p2glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="422" fill="url(#p3p2bg)"/>
+
+  <!-- BRICKWORK fills frame -->
+  <rect x="0" y="0" width="366" height="422" fill="url(#p3p2brick)"/>
+  <g stroke="#0a0604" stroke-width="0.55" opacity="0.65">
+    <path d="M0,60 Q120,62 240,58 Q320,56 366,60"/>
+    <path d="M0,120 Q120,118 240,122 Q320,124 366,120"/>
+    <path d="M0,180 Q120,182 240,178 Q320,176 366,180"/>
+    <path d="M0,240 Q120,238 240,242 Q320,244 366,240"/>
+    <path d="M0,300 Q120,302 240,298 Q320,296 366,300"/>
+    <path d="M0,360 Q120,358 240,362 Q320,364 366,360"/>
+  </g>
+  <g stroke="#0a0604" stroke-width="0.5" opacity="0.55">
+    <line x1="80" y1="0" x2="80" y2="60"/>
+    <line x1="160" y1="60" x2="160" y2="120"/>
+    <line x1="240" y1="120" x2="240" y2="180"/>
+    <line x1="40" y1="180" x2="40" y2="240"/>
+    <line x1="200" y1="240" x2="200" y2="300"/>
+    <line x1="320" y1="300" x2="320" y2="360"/>
+  </g>
+
+  <!-- WALL GAP — narrow vertical slit revealing grey sky -->
+  <rect x="100" y="60" width="166" height="280" fill="#0a0604"/>
+  <!-- Sky beyond -->
+  <rect x="106" y="66" width="154" height="180" fill="url(#p3p2sky)"/>
+  <!-- Distant terraced building backs -->
+  <rect x="106" y="180" width="154" height="60" fill="#3a2818"/>
+  <g fill="#0a0408">
+    <rect x="120" y="180" width="14" height="20"/>
+    <rect x="160" y="180" width="14" height="20"/>
+    <rect x="220" y="180" width="14" height="20"/>
+  </g>
+  <rect x="106" y="240" width="154" height="100" fill="#1a0c04"/>
+  <!-- Cobweb upper corner of gap -->
+  <g stroke="#a89888" stroke-width="0.4" fill="none" opacity="0.55">
+    <path d="M100,80 Q120,82 140,78"/>
+    <path d="M100,80 Q110,90 120,82"/>
+    <path d="M100,80 L140,78"/>
+  </g>
+  <!-- Crumbled mortar edges -->
+  <g fill="#1a0c04">
+    <ellipse cx="100" cy="100" rx="3" ry="2.4"/>
+    <ellipse cx="100" cy="160" rx="2.4" ry="3"/>
+    <ellipse cx="100" cy="220" rx="3" ry="2"/>
+    <ellipse cx="266" cy="120" rx="2.4" ry="2.6"/>
+    <ellipse cx="266" cy="200" rx="3" ry="2.4"/>
+  </g>
+
+  <!-- Daylight bleed glow -->
+  <ellipse cx="183" cy="180" rx="100" ry="120" fill="url(#p3p2dayglow)" filter="url(#p3p2glow)" opacity="0.6"/>
+
+  <!-- ===== JINK at gap edge ===== -->
+  <g transform="translate(220 320)">
+    <!-- Back leg (planted on brick floor) -->
+    <ellipse cx="6" cy="80" rx="6" ry="3" fill="#0a0408"/>
+    <rect x="3" y="40" width="6" height="40" fill="url(#p3p2suit)"/>
+    <!-- FRONT FOOT on brick edge of gap (weight forward) -->
+    <ellipse cx="-30" cy="70" rx="6" ry="3" fill="#0a0408"/>
+    <path d="M-30,70 L-22,40 L-14,40 L-22,70 Z" fill="url(#p3p2suit)"/>
+    <!-- Knee dust -->
+    <ellipse cx="6" cy="56" rx="4" ry="1.4" fill="#5a4838" opacity="0.55"/>
+    <!-- Torso leaning forward -->
+    <path d="M-12,40 L-18,-12 L8,-12 L4,40 Z" fill="url(#p3p2suit)"/>
+    <ellipse cx="-5" cy="-2" rx="6" ry="2" fill="#1a0c04" opacity="0.7"/>
+    <!-- Shoulders -->
+    <path d="M-18,-12 Q-14,-22 -2,-26 Q10,-26 14,-18 L8,-12 Z" fill="url(#p3p2suit)"/>
+
+    <!-- Right arm — hand TAPPING on brick (elbow bent down) -->
+    <path d="M14,-18 L20,-2 L26,12 L22,14 L18,2 L10,-12 Z" fill="url(#p3p2suit)"/>
+    <ellipse cx="22" cy="14" rx="4" ry="2.4" fill="url(#p3p2skin)"/>
+    <!-- Tap motion lines -->
+    <g stroke="#1a0c04" stroke-width="0.55" fill="none" opacity="0.55" stroke-dasharray="2 1.5">
+      <path d="M28,12 L34,10"/>
+      <path d="M28,8 L34,6"/>
+    </g>
+    <!-- Left arm reaching forward toward gap edge -->
+    <path d="M-18,-12 L-26,4 L-32,8 L-30,12 L-22,8 L-12,-2 Z" fill="url(#p3p2suit)"/>
+    <ellipse cx="-32" cy="10" rx="3" ry="2.4" fill="url(#p3p2skin)"/>
+
+    <!-- Head — peering out, looking forward and slightly up -->
+    <ellipse cx="-4" cy="-30" rx="9" ry="11" fill="url(#p3p2skin)"/>
+    <!-- Hair — wild GOLDEN BLONDE CURLS -->
+    <path d="M-12,-44 Q-8,-50 -4,-50 Q4,-50 6,-46 L6,-40 Q1,-46 -4,-46 Q-9,-44 -12,-38 Z" fill="#ffd078"/>
+    <circle cx="-9" cy="-46" r="2.4" fill="#ffd078"/>
+    <circle cx="-2" cy="-50" r="2" fill="#ffd078"/>
+    <circle cx="4" cy="-46" r="2.4" fill="#ffd078"/>
+    <circle cx="-12" cy="-40" r="1.6" fill="#ffd078"/>
+    <circle cx="6" cy="-38" r="1.4" fill="#ffd078"/>
+    <!-- Eyes — looking out, restless -->
+    <ellipse cx="-7" cy="-30" rx="1.6" ry="1.1" fill="#fff8e8"/>
+    <ellipse cx="-7" cy="-29" rx="1" ry="0.85" fill="#3a2010"/>
+    <circle cx="-7" cy="-29" r="0.7" fill="#0a0604"/>
+    <ellipse cx="-1" cy="-30" rx="1.6" ry="1.1" fill="#fff8e8"/>
+    <ellipse cx="-1" cy="-29" rx="1" ry="0.85" fill="#3a2010"/>
+    <circle cx="-1" cy="-29" r="0.7" fill="#0a0604"/>
+    <!-- Brows up — eager -->
+    <path d="M-12,-38 L-3,-39" stroke="#7a5028" stroke-width="0.7" stroke-linecap="round"/>
+    <path d="M-3,-39 L4,-38" stroke="#7a5028" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- Mouth — muted grin -->
+    <path d="M-7,-22 Q-3,-19 1,-22" stroke="#3a1808" stroke-width="0.7" fill="none"/>
+
+    <!-- WING-PACK (mounted at back, NOT deployed but pre-warming) -->
+    <path d="M8,-12 L14,2 L10,12 L4,4 Z" fill="#1a0c04"/>
+    <ellipse cx="9" cy="-2" rx="14" ry="6" fill="url(#p3p2wingPreheat)" filter="url(#p3p2glow)" opacity="0.7"/>
+    <line x1="6" y1="-8" x2="6" y2="6" stroke="#2ed078" stroke-width="0.9" opacity="0.85" filter="url(#p3p2bloom)"/>
+    <line x1="12" y1="-6" x2="12" y2="6" stroke="#2ed078" stroke-width="0.7" opacity="0.7" filter="url(#p3p2bloom)"/>
+  </g>
+
+  <!-- JINK dialogue (top) -->
+  <g>
+    <rect x="14" y="14" width="338" height="46" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="200,60 212,60 204,72" fill="white" stroke="#2ed078" stroke-width="0.85"/>
+    <line x1="200.5" y1="60" x2="211.5" y2="60" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Sky's greying up. Could go early. Cloud cover means—</text>
+
+  <!-- SABLE off-panel correction -->
+  <g>
+    <rect x="14" y="80" width="160" height="34" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+  </g>
+  <text x="22" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE (off-panel)</text>
+  <text x="22" y="110" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-weight="500">Seven-fifteen.</text>
+
+  <!-- JINK acknowledge (bottom) -->
+  <g>
+    <rect x="14" y="378" width="190" height="32" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="180,378 192,378 184,368" fill="white" stroke="#2ed078" stroke-width="0.85"/>
+    <line x1="180.5" y1="378" x2="191.5" y2="378" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="394" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="22" y="406" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Seven-fifteen.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,360 Q90,358 180,362 Q280,364 366,360"/>
+  </g>
+</svg>
