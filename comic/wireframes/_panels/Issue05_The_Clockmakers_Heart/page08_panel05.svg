@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 364" width="494" height="364">
+  <title>Issue 5 — Page 8 — Panel 5: CATHEDRAL OF CLOCKWORK REVEAL — Wren's emotional turn — engineer's awe at human craft</title>
+  <desc>24mm wide low angle — KEY VISUAL MOMENT. Wren on brass base plate. Above: gears as industrial wheels with teeth taller than her. Steel arbors as tree trunks. Mainspring barrel cylinder. Escapement with ruby pallet jewels flashing. Pendulum disc swinging. Polished brass everywhere. Engineer's awe — lips parted, tracking gear train.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p5cavity" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p8p5brass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="30%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="p8p5steel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8d0c8"/>
+      <stop offset="50%" stop-color="#9a9088"/>
+      <stop offset="100%" stop-color="#5a5048"/>
+    </linearGradient>
+    <linearGradient id="p8p5basePlate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="p8p5suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a850"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <radialGradient id="p8p5amberHeart" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p5rubyJewel" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff5040" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a82030" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#5a0818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p5brassGleam" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffd078" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p8p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p8p5glow"><feGaussianBlur stdDeviation="3.2"/></filter>
+  </defs>
+
+  <!-- BACKGROUND — clock cavity -->
+  <rect width="494" height="364" fill="url(#p8p5cavity)"/>
+
+  <!-- WARM AMBER glow filling the interior -->
+  <rect width="494" height="364" fill="url(#p8p5amberHeart)"/>
+
+  <!-- ===== BRASS BASE PLATE (where Wren stands) ===== -->
+  <rect x="0" y="320" width="494" height="44" fill="url(#p8p5basePlate)"/>
+  <line x1="0" y1="324" x2="494" y2="324" stroke="#7a4818" stroke-width="0.7"/>
+  <!-- Brass plate sheen -->
+  <ellipse cx="247" cy="340" rx="240" ry="9" fill="#fff8e8" opacity="0.45" filter="url(#p8p5bloom)"/>
+  <!-- Engraved details on base plate -->
+  <g stroke="#7a4818" stroke-width="0.4" opacity="0.65" fill="none">
+    <path d="M40,344 Q200,346 360,342 Q420,341 454,344"/>
+    <path d="M40,354 L454,354"/>
+  </g>
+
+  <!-- ===== MAINSPRING BARREL — left side, massive cylinder ===== -->
+  <g transform="translate(80 180)">
+    <!-- Cylinder body -->
+    <ellipse cx="0" cy="-100" rx="60" ry="14" fill="#a86838"/>
+    <rect x="-60" y="-100" width="120" height="220" fill="url(#p8p5brass)"/>
+    <ellipse cx="0" cy="120" rx="60" ry="14" fill="#5a3018"/>
+    <!-- Brass texture rings -->
+    <g stroke="#7a4818" stroke-width="0.55" opacity="0.7">
+      <line x1="-60" y1="-60" x2="60" y2="-60"/>
+      <line x1="-60" y1="-20" x2="60" y2="-20"/>
+      <line x1="-60" y1="20" x2="60" y2="20"/>
+      <line x1="-60" y1="60" x2="60" y2="60"/>
+      <line x1="-60" y1="100" x2="60" y2="100"/>
+    </g>
+    <!-- Coiled spring inside (visible through edge) -->
+    <g stroke="#5a4838" stroke-width="0.85" fill="none" opacity="0.85">
+      <ellipse cx="0" cy="0" rx="46" ry="9"/>
+      <ellipse cx="0" cy="20" rx="44" ry="9"/>
+      <ellipse cx="0" cy="40" rx="42" ry="9"/>
+    </g>
+    <!-- Polished brass GLEAM streak -->
+    <ellipse cx="-40" cy="0" rx="9" ry="120" fill="url(#p8p5brassGleam)" filter="url(#p8p5glow)" opacity="0.85"/>
+    <ellipse cx="-40" cy="-30" rx="4" ry="60" fill="#fff8e8" opacity="0.6" filter="url(#p8p5bloom)"/>
+    <!-- Center pivot indicator -->
+    <circle cx="0" cy="0" r="9" fill="url(#p8p5steel)"/>
+    <circle cx="0" cy="0" r="4" fill="#3a3030"/>
+  </g>
+
+  <!-- ===== GREAT WHEEL — top center, biggest gear ===== -->
+  <g transform="translate(280 100)">
+    <ellipse cx="0" cy="0" rx="100" ry="100" fill="url(#p8p5amberHeart)" filter="url(#p8p5glow)" opacity="0.65"/>
+    <circle cx="0" cy="0" r="72" fill="url(#p8p5brass)" stroke="#7a4818" stroke-width="0.85"/>
+    <!-- Gear teeth (18 teeth, radial) -->
+    <g fill="url(#p8p5brass)" stroke="#7a4818" stroke-width="0.55">
+      <path d="M0,-72 L4,-86 L-4,-86 Z"/>
+      <path d="M25,-67 L33,-79 L26,-83 Z"/>
+      <path d="M50,-50 L62,-58 L54,-64 Z"/>
+      <path d="M67,-25 L80,-30 L75,-37 Z"/>
+      <path d="M72,0 L86,0 L86,-7 L75,-7 Z"/>
+      <path d="M67,25 L80,30 L75,37 Z"/>
+      <path d="M50,50 L62,58 L54,64 Z"/>
+      <path d="M25,67 L33,79 L26,83 Z"/>
+      <path d="M0,72 L4,86 L-4,86 Z"/>
+      <path d="M-25,67 L-33,79 L-26,83 Z"/>
+      <path d="M-50,50 L-62,58 L-54,64 Z"/>
+      <path d="M-67,25 L-80,30 L-75,37 Z"/>
+      <path d="M-72,0 L-86,0 L-86,-7 L-75,-7 Z"/>
+      <path d="M-67,-25 L-80,-30 L-75,-37 Z"/>
+      <path d="M-50,-50 L-62,-58 L-54,-64 Z"/>
+      <path d="M-25,-67 L-33,-79 L-26,-83 Z"/>
+    </g>
+    <!-- Inner ring -->
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#7a4818" stroke-width="0.55"/>
+    <!-- Spokes (4) -->
+    <g stroke="#7a4818" stroke-width="3" stroke-linecap="round">
+      <line x1="0" y1="-50" x2="0" y2="-12"/>
+      <line x1="50" y1="0" x2="12" y2="0"/>
+      <line x1="0" y1="50" x2="0" y2="12"/>
+      <line x1="-50" y1="0" x2="-12" y2="0"/>
+    </g>
+    <!-- Center pivot -->
+    <circle cx="0" cy="0" r="14" fill="url(#p8p5steel)" stroke="#1a0c04" stroke-width="0.55"/>
+    <circle cx="0" cy="0" r="8" fill="#3a3030"/>
+    <circle cx="0" cy="0" r="3.4" fill="#1a1c20"/>
+    <!-- Polished brass gleam streak across wheel -->
+    <ellipse cx="-30" cy="-30" rx="22" ry="40" fill="url(#p8p5brassGleam)" filter="url(#p8p5glow)" opacity="0.7" transform="rotate(-30 -30 -30)"/>
+  </g>
+
+  <!-- ===== SECOND WHEEL — meshing right of great wheel ===== -->
+  <g transform="translate(420 130)">
+    <circle cx="0" cy="0" r="44" fill="url(#p8p5brass)" stroke="#7a4818" stroke-width="0.85"/>
+    <!-- Gear teeth -->
+    <g fill="url(#p8p5brass)" stroke="#7a4818" stroke-width="0.55">
+      <path d="M0,-44 L3,-54 L-3,-54 Z"/>
+      <path d="M22,-38 L30,-46 L25,-50 Z"/>
+      <path d="M38,-22 L48,-28 L42,-34 Z"/>
+      <path d="M44,0 L54,0 L54,-4 L42,-4 Z"/>
+      <path d="M38,22 L48,28 L42,34 Z"/>
+      <path d="M22,38 L30,46 L25,50 Z"/>
+      <path d="M0,44 L3,54 L-3,54 Z"/>
+      <path d="M-22,38 L-30,46 L-25,50 Z"/>
+      <path d="M-38,22 L-48,28 L-42,34 Z"/>
+      <path d="M-44,0 L-54,0 L-54,-4 L-42,-4 Z"/>
+      <path d="M-38,-22 L-48,-28 L-42,-34 Z"/>
+      <path d="M-22,-38 L-30,-46 L-25,-50 Z"/>
+    </g>
+    <circle cx="0" cy="0" r="9" fill="url(#p8p5steel)"/>
+    <circle cx="0" cy="0" r="4" fill="#1a1c20"/>
+    <!-- Spokes -->
+    <g stroke="#7a4818" stroke-width="2" stroke-linecap="round">
+      <line x1="0" y1="-30" x2="0" y2="-9"/>
+      <line x1="30" y1="0" x2="9" y2="0"/>
+      <line x1="0" y1="30" x2="0" y2="9"/>
+      <line x1="-30" y1="0" x2="-9" y2="0"/>
+    </g>
+    <!-- Sheen -->
+    <ellipse cx="-12" cy="-12" rx="9" ry="14" fill="#fff8e8" opacity="0.5" filter="url(#p8p5bloom)"/>
+  </g>
+
+  <!-- ===== STEEL ARBOR (vertical, connecting gears — tree trunk thick) ===== -->
+  <g>
+    <rect x="277" y="40" width="6" height="180" fill="url(#p8p5steel)"/>
+    <line x1="278" y1="40" x2="278" y2="220" stroke="#1a1c20" stroke-width="0.4"/>
+    <line x1="282" y1="40" x2="282" y2="220" stroke="#1a1c20" stroke-width="0.4"/>
+    <!-- Sheen -->
+    <line x1="280" y1="60" x2="280" y2="200" stroke="#fff8e8" stroke-width="0.7" opacity="0.65"/>
+  </g>
+
+  <!-- ===== ESCAPEMENT MECHANISM — top-right, with PALLET FORK + RUBY JEWELS ===== -->
+  <g transform="translate(390 60)">
+    <!-- Pallet fork (the bridge) -->
+    <path d="M-26,0 L-22,-14 L-12,-18 L-3,-14 L-3,4 L-12,8 L-22,4 Z" fill="url(#p8p5steel)" stroke="#1a1c20" stroke-width="0.55"/>
+    <!-- Mirror side -->
+    <path d="M3,-14 L12,-18 L22,-14 L26,0 L22,4 L12,8 L3,4 Z" fill="url(#p8p5steel)" stroke="#1a1c20" stroke-width="0.55"/>
+    <!-- Pivot center -->
+    <circle cx="0" cy="-5" r="3.4" fill="#3a3030"/>
+    <!-- RUBY PALLET JEWELS (the script's flashing red jewels) -->
+    <ellipse cx="-18" cy="-12" rx="3" ry="2" fill="url(#p8p5rubyJewel)" filter="url(#p8p5glow)"/>
+    <circle cx="-18" cy="-12" r="1.4" fill="#ff8870" filter="url(#p8p5bloom)"/>
+    <ellipse cx="18" cy="-12" rx="3" ry="2" fill="url(#p8p5rubyJewel)" filter="url(#p8p5glow)"/>
+    <circle cx="18" cy="-12" r="1.4" fill="#ff8870" filter="url(#p8p5bloom)"/>
+    <!-- Glow halos on rubies -->
+    <ellipse cx="-18" cy="-12" rx="9" ry="6" fill="#ff5040" opacity="0.45" filter="url(#p8p5glow)"/>
+    <ellipse cx="18" cy="-12" rx="9" ry="6" fill="#ff5040" opacity="0.45" filter="url(#p8p5glow)"/>
+  </g>
+
+  <!-- Escape wheel (small, next to pallet fork) -->
+  <g transform="translate(370 100)">
+    <circle cx="0" cy="0" r="22" fill="url(#p8p5brass)" stroke="#7a4818" stroke-width="0.55"/>
+    <g fill="url(#p8p5brass)" stroke="#7a4818" stroke-width="0.4">
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(0)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(30)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(60)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(90)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(120)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(150)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(180)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(210)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(240)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(270)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(300)"/>
+      <path d="M0,-22 L3,-26 L-3,-26 Z" transform="rotate(330)"/>
+    </g>
+    <circle cx="0" cy="0" r="5" fill="url(#p8p5steel)"/>
+    <circle cx="0" cy="0" r="2" fill="#1a1c20"/>
+  </g>
+
+  <!-- ===== PENDULUM disc hanging from above through case trunk ===== -->
+  <g transform="translate(220 240)">
+    <!-- Suspension rod -->
+    <line x1="0" y1="-200" x2="0" y2="0" stroke="url(#p8p5brass)" stroke-width="2.4" opacity="0.85"/>
+    <!-- Pendulum disc (mid-swing, slight angle) -->
+    <ellipse cx="0" cy="0" rx="44" ry="44" fill="url(#p8p5amberHeart)" filter="url(#p8p5glow)" opacity="0.65"/>
+    <circle cx="0" cy="0" r="34" fill="url(#p8p5brass)" stroke="#7a4818" stroke-width="0.85"/>
+    <!-- Center boss -->
+    <circle cx="0" cy="0" r="9" fill="#7a4818"/>
+    <circle cx="0" cy="0" r="4" fill="#3a3030"/>
+    <!-- Polished sheen on disc (sweeping) -->
+    <ellipse cx="-12" cy="-12" rx="9" ry="14" fill="#fff8e8" opacity="0.65" filter="url(#p8p5bloom)"/>
+    <ellipse cx="-9" cy="-9" rx="5" ry="9" fill="#fff8e8" opacity="0.85" filter="url(#p8p5bloom)"/>
+    <!-- Engraved rim -->
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#7a4818" stroke-width="0.4"/>
+  </g>
+
+  <!-- Wind motion lines from pendulum (ruffles Wren's hair per script) -->
+  <g stroke="#a86838" stroke-width="0.4" opacity="0.45" fill="none" stroke-dasharray="2 1.5">
+    <path d="M180,260 Q200,265 220,260"/>
+    <path d="M180,280 Q200,285 220,280"/>
+  </g>
+
+  <!-- ===== WREN on base plate, looking UP, awe ===== -->
+  <g transform="translate(360 312)">
+    <ellipse cx="-3" cy="6" rx="3" ry="1.4" fill="#0a0408"/>
+    <ellipse cx="3" cy="6" rx="3" ry="1.4" fill="#0a0408"/>
+    <rect x="-5" y="-12" width="4" height="18" fill="url(#p8p5suit)"/>
+    <rect x="1" y="-12" width="4" height="18" fill="url(#p8p5suit)"/>
+    <ellipse cx="-3" cy="-2" rx="4" ry="1" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="3" cy="-2" rx="4" ry="1" fill="#5a4838" opacity="0.55"/>
+    <!-- Torso -->
+    <path d="M-7,-12 L-7,-36 L7,-36 L7,-12 Z" fill="url(#p8p5suit)"/>
+    <line x1="-5" y1="-26" x2="5" y2="-26" stroke="#ffd078" stroke-width="0.55" opacity="0.85" filter="url(#p8p5bloom)"/>
+    <ellipse cx="-7" cy="-36" rx="2.4" ry="1.6" fill="#1a0c04" opacity="0.85"/>
+    <!-- Tool kit -->
+    <rect x="-4" y="-32" width="9" height="14" fill="#3a2010"/>
+    <!-- Shoulders -->
+    <path d="M-7,-36 Q-5,-44 0,-46 Q5,-44 7,-36 L6,-32 L-6,-32 Z" fill="url(#p8p5suit)"/>
+    <!-- Both arms slightly out — open posture (NOT operational stance) -->
+    <path d="M-7,-36 L-12,-26 L-12,-18 L-8,-22 L-6,-30 Z" fill="url(#p8p5suit)"/>
+    <path d="M7,-36 L12,-26 L12,-18 L8,-22 L6,-30 Z" fill="url(#p8p5suit)"/>
+    <!-- Head — tilted UP, mouth slightly open -->
+    <ellipse cx="0" cy="-46" rx="5" ry="6.5" fill="#a86838"/>
+    <ellipse cx="0" cy="-54" rx="3" ry="2.2" fill="#0a0604"/>
+    <!-- Strands of hair ruffled by pendulum air -->
+    <path d="M-5,-50 Q-9,-46 -8,-42" stroke="#0a0604" stroke-width="0.55" fill="none" opacity="0.85"/>
+    <path d="M5,-50 Q9,-46 8,-42" stroke="#0a0604" stroke-width="0.55" fill="none" opacity="0.85"/>
+    <!-- EYES wide, tracking gear train -->
+    <ellipse cx="-2" cy="-46" rx="1" ry="0.7" fill="#fff8e8"/>
+    <ellipse cx="-2" cy="-46" rx="0.7" ry="0.55" fill="#3a2010"/>
+    <circle cx="-2" cy="-46" r="0.4" fill="#0a0604"/>
+    <ellipse cx="2" cy="-46" rx="1" ry="0.7" fill="#fff8e8"/>
+    <ellipse cx="2" cy="-46" rx="0.7" ry="0.55" fill="#3a2010"/>
+    <circle cx="2" cy="-46" r="0.4" fill="#0a0604"/>
+    <!-- Brows up — awe -->
+    <path d="M-5,-53 L-1,-54" stroke="#0a0604" stroke-width="0.55" stroke-linecap="round"/>
+    <path d="M1,-54 L5,-53" stroke="#0a0604" stroke-width="0.55" stroke-linecap="round"/>
+    <!-- Mouth — LIPS PARTED slightly (script: lips part slightly) -->
+    <ellipse cx="0" cy="-39" rx="1.6" ry="0.7" fill="#3a1808" opacity="0.7"/>
+    <!-- Warm reflection on her face from brass -->
+    <ellipse cx="0" cy="-46" rx="6" ry="4" fill="#ffd078" opacity="0.45" filter="url(#p8p5bloom)"/>
+  </g>
+
+  <!-- WREN dialogue — quiet, reverent -->
+  <g>
+    <rect x="14" y="14" width="100" height="34" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3 2" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN (reverent)</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1410" font-style="italic" font-weight="500">...oh.</text>
+
+  <!-- Subtle ticking SFX -->
+  <text x="100" y="180" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a" font-style="italic" font-weight="700" opacity="0.45" filter="url(#p8p5bloom)" transform="rotate(-12 100 180)">tick</text>
+  <text x="430" y="280" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a" font-style="italic" font-weight="700" opacity="0.45" filter="url(#p8p5bloom)" transform="rotate(8 430 280)">tock</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q120,82 240,78 Q360,76 494,80"/>
+    <path d="M0,290 Q120,292 240,288 Q360,286 494,290"/>
+  </g>
+</svg>

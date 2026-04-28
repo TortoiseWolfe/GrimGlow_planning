@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 364" width="238" height="364">
+  <title>Issue 5 — Page 8 — Panel 4: Wren squeezing sideways through panel gap — cobwebs + tool kit catching</title>
+  <desc>50mm tight medium slight high angle. Wren turned sideways, arms first, pulling through narrow gap. Smooth mahogany on outside, rough unfinished wood on inside. Cobweb strands. Tool kit catches edge. Practical determination. Threshold between two amber worlds.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p8p4mahoganySmooth" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a3818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p8p4mahoganyRough" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a1808"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p8p4suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a850"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <radialGradient id="p8p4amberShop" cx="0%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p4amberInside" cx="100%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p8p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p8p4glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="238" height="364" fill="url(#p8p4bg)"/>
+
+  <!-- LEFT side: smooth polished mahogany (outside) -->
+  <rect x="0" y="0" width="80" height="364" fill="url(#p8p4mahoganySmooth)"/>
+  <line x1="80" y1="0" x2="80" y2="364" stroke="#1a0c04" stroke-width="1.4"/>
+  <!-- Polished sheen on left side -->
+  <ellipse cx="20" cy="180" rx="9" ry="120" fill="#a86838" opacity="0.45" filter="url(#p8p4bloom)"/>
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.5" fill="none">
+    <path d="M0,40 Q40,42 80,38"/>
+    <path d="M0,120 Q40,118 80,122"/>
+    <path d="M0,200 Q40,202 80,198"/>
+    <path d="M0,280 Q40,278 80,282"/>
+  </g>
+
+  <!-- RIGHT side: rough unfinished wood (inside the case) -->
+  <rect x="158" y="0" width="80" height="364" fill="url(#p8p4mahoganyRough)"/>
+  <line x1="158" y1="0" x2="158" y2="364" stroke="#1a0c04" stroke-width="1.4"/>
+  <g stroke="#5a2818" stroke-width="0.55" opacity="0.55" fill="none">
+    <path d="M158,30 Q200,32 238,28"/>
+    <path d="M158,90 Q200,88 238,92"/>
+    <path d="M158,160 Q200,162 238,158"/>
+    <path d="M158,220 Q200,218 238,222"/>
+    <path d="M158,290 Q200,292 238,288"/>
+  </g>
+  <!-- Rough texture (splintering, knots) -->
+  <g fill="#1a0c04" opacity="0.7">
+    <ellipse cx="180" cy="120" rx="5" ry="3"/>
+    <ellipse cx="220" cy="220" rx="4" ry="2.4"/>
+    <line x1="170" y1="60" x2="180" y2="80" stroke="#1a0c04" stroke-width="0.4"/>
+    <line x1="200" y1="180" x2="210" y2="200" stroke="#1a0c04" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== GAP between (the threshold) ===== -->
+  <rect x="80" y="0" width="78" height="364" fill="#0a0604"/>
+  <!-- Amber from outside (shop, left) -->
+  <ellipse cx="80" cy="180" rx="22" ry="180" fill="url(#p8p4amberShop)" filter="url(#p8p4glow)" opacity="0.55"/>
+  <!-- Amber from inside (mechanism, right) -->
+  <ellipse cx="158" cy="180" rx="22" ry="180" fill="url(#p8p4amberInside)" filter="url(#p8p4glow)" opacity="0.65"/>
+
+  <!-- COBWEB STRANDS stretching across gap -->
+  <g stroke="#a89888" stroke-width="0.55" fill="none" opacity="0.7">
+    <path d="M80,40 Q120,50 158,38"/>
+    <path d="M80,40 Q100,80 110,80"/>
+    <path d="M80,40 L158,38"/>
+    <path d="M80,40 L110,80"/>
+    <path d="M158,38 L110,80"/>
+    <path d="M80,140 Q120,150 158,140"/>
+    <path d="M80,260 Q100,280 158,270"/>
+    <path d="M80,330 Q120,340 158,335"/>
+    <!-- Strand being pushed by Wren -->
+    <path d="M80,200 Q110,180 140,180" stroke-dasharray="2 1.5" opacity="0.45"/>
+  </g>
+
+  <!-- ===== WREN squeezing through, sideways ===== -->
+  <g transform="translate(119 200)">
+    <!-- Body turned sideways (profile) -->
+    <!-- Boots -->
+    <ellipse cx="-30" cy="44" rx="4" ry="2" fill="#0a0408"/>
+    <ellipse cx="-22" cy="44" rx="4" ry="2" fill="#0a0408"/>
+    <!-- Trousers -->
+    <rect x="-32" y="20" width="6" height="24" fill="url(#p8p4suit)"/>
+    <rect x="-26" y="20" width="6" height="24" fill="url(#p8p4suit)"/>
+    <!-- Torso turned (we see profile) -->
+    <ellipse cx="-22" cy="0" rx="9" ry="22" fill="url(#p8p4suit)"/>
+    <line x1="-30" y1="-6" x2="-14" y2="-6" stroke="#ffd078" stroke-width="0.55" opacity="0.85" filter="url(#p8p4bloom)"/>
+    <ellipse cx="-30" cy="-22" rx="3" ry="2" fill="#1a0c04" opacity="0.85"/>
+    <!-- TOOL KIT on back (catching on edge — script demand) -->
+    <rect x="-34" y="-14" width="14" height="11" fill="#3a2010" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Catch indicator — tool kit corner snagged on left panel edge -->
+    <line x1="-34" y1="-3" x2="-40" y2="0" stroke="#5a2818" stroke-width="1.2" opacity="0.85"/>
+    <!-- Right arm extended forward (leading through gap) -->
+    <ellipse cx="14" cy="-2" rx="20" ry="6" fill="url(#p8p4suit)"/>
+    <ellipse cx="32" cy="-2" rx="3.4" ry="2.4" fill="#a86838"/>
+    <!-- Left arm trailing back (also sideways) -->
+    <path d="M-22,-22 L-30,-12 L-32,-2 L-26,-4 L-22,-14 Z" fill="url(#p8p4suit)"/>
+    <ellipse cx="-32" cy="-2" rx="2.4" ry="1.6" fill="#a86838"/>
+    <!-- Head — profile, looking forward (right) -->
+    <ellipse cx="-22" cy="-32" rx="6" ry="7" fill="#a86838"/>
+    <ellipse cx="-22" cy="-40" rx="3" ry="2.2" fill="#0a0604"/>
+    <!-- Profile features (face turned right) -->
+    <ellipse cx="-18" cy="-32" rx="1" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-18" cy="-32" r="0.55" fill="#0a0604"/>
+    <!-- Brow (profile) -->
+    <path d="M-22,-38 L-15,-37" stroke="#0a0604" stroke-width="0.7"/>
+    <!-- Mouth (profile, lips pressed) -->
+    <path d="M-19,-26 L-15,-26" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Nose (profile) -->
+    <path d="M-15,-32 L-13,-30 L-15,-28" stroke="#a86838" stroke-width="0.55" fill="none"/>
+  </g>
+
+  <!-- Cobweb strand caught in Wren's hair -->
+  <path d="M97,170 Q108,168 119,170" stroke="#a89888" stroke-width="0.55" fill="none" opacity="0.65"/>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q60,82 120,78 Q180,76 238,80"/>
+    <path d="M0,300 Q60,302 120,298 Q180,296 238,300"/>
+  </g>
+</svg>

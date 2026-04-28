@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 5 — Page 8 — Panel 3: Wren at base of grandfather clock — access panel ajar — entering the cathedral</title>
+  <desc>50mm MS. Wren at base of grandfather clock. Mahogany case rises like tower. Base molding as ledge. Access panel slightly ajar. Through gap, brass mechanism warm amber preview visible. Wren about to commit.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p3floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="p8p3mahogany" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a3818"/>
+      <stop offset="50%" stop-color="#5a2818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p8p3suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a850"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <radialGradient id="p8p3brassGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#ffaa48" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p8p3warmAmbient" cx="0%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p8p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p8p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- Floor -->
+  <rect width="366" height="364" fill="url(#p8p3floor)"/>
+
+  <!-- Warm ambient from off-panel shop light -->
+  <rect width="366" height="364" fill="url(#p8p3warmAmbient)"/>
+
+  <!-- ===== GRANDFATHER CLOCK BASE — looming above ===== -->
+  <!-- Plinth/base molding (ledge Wren can stand on) -->
+  <rect x="0" y="270" width="366" height="60" fill="#3a1808"/>
+  <line x1="0" y1="278" x2="366" y2="278" stroke="#1a0c04" stroke-width="0.85"/>
+  <line x1="0" y1="320" x2="366" y2="320" stroke="#1a0c04" stroke-width="0.85"/>
+
+  <!-- Mahogany case rising up (we see lower portion) -->
+  <rect x="0" y="0" width="366" height="270" fill="url(#p8p3mahogany)"/>
+  <!-- Vertical case panels -->
+  <line x1="60" y1="0" x2="60" y2="270" stroke="#1a0c04" stroke-width="0.85"/>
+  <line x1="306" y1="0" x2="306" y2="270" stroke="#1a0c04" stroke-width="0.85"/>
+  <!-- Mahogany grain texture -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,40 Q120,42 240,38 Q300,36 366,40"/>
+    <path d="M0,100 Q120,98 240,102 Q300,104 366,100"/>
+    <path d="M0,160 Q120,162 240,158 Q300,156 366,160"/>
+    <path d="M0,220 Q120,218 240,222 Q300,224 366,220"/>
+  </g>
+  <!-- Reflective sheen on polished mahogany -->
+  <ellipse cx="50" cy="120" rx="9" ry="120" fill="#a86838" opacity="0.4" filter="url(#p8p3bloom)"/>
+  <ellipse cx="280" cy="120" rx="9" ry="120" fill="#a86838" opacity="0.4" filter="url(#p8p3bloom)"/>
+
+  <!-- ===== ACCESS PANEL (ajar) — visible cut-line in case ===== -->
+  <g transform="translate(160 130)">
+    <!-- Panel edge (slightly tilted open) -->
+    <rect x="-46" y="-100" width="92" height="200" fill="#5a2818" stroke="#1a0c04" stroke-width="0.85" transform="rotate(-3)"/>
+    <!-- Panel body (slightly open) -->
+    <rect x="-44" y="-98" width="88" height="196" fill="url(#p8p3mahogany)" transform="rotate(-3)"/>
+    <!-- Hinge edge (right side, attached) -->
+    <line x1="40" y1="-100" x2="40" y2="100" stroke="#1a0c04" stroke-width="0.85"/>
+    <!-- Gap edge (left side, open) -->
+    <path d="M-46,-100 L-50,-92 L-50,92 L-46,100 Z" fill="#0a0604"/>
+    <!-- Shadow inside the gap -->
+    <rect x="-50" y="-92" width="6" height="184" fill="#0a0604"/>
+  </g>
+
+  <!-- ===== BRASS GLOW through the gap (preview of mechanism interior) ===== -->
+  <ellipse cx="100" cy="130" rx="60" ry="100" fill="url(#p8p3brassGlow)" filter="url(#p8p3glow)" opacity="0.75"/>
+  <!-- Brass shapes hinted through gap -->
+  <g opacity="0.85">
+    <circle cx="100" cy="80" r="18" fill="#ffd078" opacity="0.65" filter="url(#p8p3bloom)"/>
+    <circle cx="105" cy="160" r="14" fill="#ffd078" opacity="0.55" filter="url(#p8p3bloom)"/>
+  </g>
+
+  <!-- Faint ticking sound represented by SFX text -->
+  <text x="60" y="80" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a" font-style="italic" font-weight="700" opacity="0.55" filter="url(#p8p3bloom)" transform="rotate(-15 60 80)">tock</text>
+  <text x="80" y="200" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a" font-style="italic" font-weight="700" opacity="0.55" filter="url(#p8p3bloom)" transform="rotate(8 80 200)">tick</text>
+
+  <!-- ===== WREN — at clock base, looking up, hand on mahogany ===== -->
+  <g transform="translate(220 290)">
+    <ellipse cx="-3" cy="32" rx="3.4" ry="1.4" fill="#0a0408"/>
+    <ellipse cx="3" cy="32" rx="3.4" ry="1.4" fill="#0a0408"/>
+    <rect x="-5" y="6" width="4" height="26" fill="url(#p8p3suit)"/>
+    <rect x="1" y="6" width="4" height="26" fill="url(#p8p3suit)"/>
+    <ellipse cx="-3" cy="20" rx="4" ry="1" fill="#5a4838" opacity="0.6"/>
+    <ellipse cx="3" cy="20" rx="4" ry="1" fill="#5a4838" opacity="0.6"/>
+    <!-- Torso -->
+    <path d="M-8,6 L-8,-22 L8,-22 L8,6 Z" fill="url(#p8p3suit)"/>
+    <line x1="-6" y1="-12" x2="6" y2="-12" stroke="#ffd078" stroke-width="0.55" opacity="0.85" filter="url(#p8p3bloom)"/>
+    <ellipse cx="-8" cy="-22" rx="3" ry="2" fill="#1a0c04" opacity="0.85"/>
+    <!-- Tool kit -->
+    <rect x="-4" y="-18" width="9" height="14" fill="#3a2010"/>
+    <line x1="-8" y1="-22" x2="-11" y2="-12" stroke="#1a0c04" stroke-width="1.2"/>
+    <line x1="8" y1="-22" x2="11" y2="-12" stroke="#1a0c04" stroke-width="1.2"/>
+    <!-- Shoulders -->
+    <path d="M-8,-22 Q-5,-32 0,-34 Q5,-32 8,-22 L7,-18 L-7,-18 Z" fill="url(#p8p3suit)"/>
+    <!-- LEFT arm — extended, hand on mahogany surface -->
+    <path d="M-8,-22 L-22,-26 L-32,-22 L-30,-18 L-22,-22 L-6,-18 Z" fill="url(#p8p3suit)"/>
+    <ellipse cx="-32" cy="-22" rx="3.4" ry="2" fill="#a86838"/>
+    <!-- Hand glow (light from mahogany reflection) -->
+    <ellipse cx="-32" cy="-22" rx="6" ry="3" fill="#ffd078" opacity="0.45" filter="url(#p8p3bloom)"/>
+    <!-- Right arm at side -->
+    <rect x="8" y="-22" width="4" height="32" fill="url(#p8p3suit)"/>
+    <ellipse cx="10" cy="10" rx="2.4" ry="1.6" fill="#a86838"/>
+    <!-- Head looking UP at clock -->
+    <ellipse cx="0" cy="-32" rx="5" ry="6.5" fill="#a86838"/>
+    <ellipse cx="0" cy="-40" rx="3" ry="2.2" fill="#0a0604"/>
+    <!-- Eyes UP -->
+    <ellipse cx="-2" cy="-34" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <circle cx="-2" cy="-34" r="0.4" fill="#0a0604"/>
+    <ellipse cx="2" cy="-34" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <circle cx="2" cy="-34" r="0.4" fill="#0a0604"/>
+    <path d="M-4,-39 L0,-40" stroke="#0a0604" stroke-width="0.55"/>
+    <path d="M0,-40 L4,-39" stroke="#0a0604" stroke-width="0.55"/>
+    <path d="M-3,-25 L3,-25" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- WREN comms (top) -->
+  <g>
+    <rect x="14" y="14" width="338" height="34" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN ((comms))</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">At the clock. Access panel is open. I'm going in.</text>
+
+  <!-- LUMA medical observation -->
+  <g>
+    <rect x="14" y="56" width="338" height="46" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="72" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700">LUMA ((comms))</text>
+  <text x="22" y="86" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">Heart rate elevated, Wren. Not dangerously.</text>
+  <text x="22" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">Just noting.</text>
+
+  <!-- WREN reply -->
+  <g>
+    <rect x="14" y="110" width="120" height="30" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="126" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="22" y="136" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-weight="500">Noted.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,300 Q90,302 180,298 Q280,296 366,300"/>
+  </g>
+</svg>

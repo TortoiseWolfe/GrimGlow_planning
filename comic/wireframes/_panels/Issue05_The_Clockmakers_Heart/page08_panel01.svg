@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 5 — Page 8 — Panel 1: Wren crosses floor in workbench shadow corridor — clockmaker's boots above — four inches from discovery</title>
+  <desc>28mm wide low angle. Wren running along shadow corridor cast by workbench. Workbench underside as rough timber ceiling. Wood shavings as fallen logs. Dropped screw as boulder. Clockmaker's enormous boots visible above-left, one tapping. Wren copper suit dimmed for camo.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p8p1floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="p8p1benchUnder" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p8p1bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a2818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p8p1boot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p8p1suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="p8p1shaving" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <radialGradient id="p8p1amberPool" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p8p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p8p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- ===== UPPER FRAME — workbench underside (rough timber ceiling at fairy scale) ===== -->
+  <rect width="742" height="120" fill="url(#p8p1benchUnder)"/>
+  <!-- Bench underside grain + cross beams -->
+  <g stroke="#0a0604" stroke-width="0.55" opacity="0.7">
+    <line x1="0" y1="40" x2="742" y2="40"/>
+    <line x1="0" y1="80" x2="742" y2="80"/>
+    <line x1="0" y1="60" x2="742" y2="60"/>
+    <line x1="0" y1="100" x2="742" y2="100"/>
+  </g>
+  <g stroke="#3a1808" stroke-width="0.5" opacity="0.6">
+    <line x1="80" y1="0" x2="100" y2="120"/>
+    <line x1="280" y1="0" x2="300" y2="120"/>
+    <line x1="500" y1="0" x2="520" y2="120"/>
+    <line x1="660" y1="0" x2="680" y2="120"/>
+  </g>
+  <!-- Bench leg (turned column at left, descending) -->
+  <g>
+    <rect x="120" y="0" width="34" height="120" fill="url(#p8p1bench)" stroke="#1a0c04" stroke-width="0.7"/>
+    <ellipse cx="137" cy="40" rx="20" ry="6" fill="#5a2818" stroke="#1a0c04" stroke-width="0.4"/>
+    <ellipse cx="137" cy="80" rx="20" ry="6" fill="#5a2818" stroke="#1a0c04" stroke-width="0.4"/>
+  </g>
+  <!-- Bench leg right -->
+  <g>
+    <rect x="600" y="0" width="34" height="120" fill="url(#p8p1bench)" stroke="#1a0c04" stroke-width="0.7"/>
+    <ellipse cx="617" cy="40" rx="20" ry="6" fill="#5a2818" stroke="#1a0c04" stroke-width="0.4"/>
+    <ellipse cx="617" cy="80" rx="20" ry="6" fill="#5a2818" stroke="#1a0c04" stroke-width="0.4"/>
+  </g>
+
+  <!-- Bench bottom edge (where shadow originates) -->
+  <line x1="0" y1="120" x2="742" y2="120" stroke="#0a0604" stroke-width="1.4"/>
+
+  <!-- ===== FLOOR — amber-lit timber planks ===== -->
+  <rect x="0" y="120" width="742" height="244" fill="url(#p8p1floor)"/>
+  <line x1="0" y1="124" x2="742" y2="124" stroke="#3a1808" stroke-width="0.85"/>
+  <!-- Plank seams -->
+  <g stroke="#3a1808" stroke-width="0.7" opacity="0.7">
+    <line x1="120" y1="124" x2="80" y2="364"/>
+    <line x1="280" y1="124" x2="240" y2="364"/>
+    <line x1="460" y1="124" x2="420" y2="364"/>
+    <line x1="640" y1="124" x2="600" y2="364"/>
+  </g>
+  <!-- Plank texture lines -->
+  <g stroke="#7a4818" stroke-width="0.4" opacity="0.55">
+    <path d="M0,180 Q200,182 400,178 Q580,176 742,180"/>
+    <path d="M0,240 Q200,238 400,242 Q580,244 742,240"/>
+    <path d="M0,300 Q200,302 400,298 Q580,296 742,300"/>
+    <path d="M0,340 Q200,338 400,342 Q580,344 742,340"/>
+  </g>
+
+  <!-- ===== SHADOW CORRIDOR cast by workbench — dark band running across floor ===== -->
+  <rect x="0" y="120" width="742" height="100" fill="#0a0604" opacity="0.55"/>
+  <!-- Shadow edge fading -->
+  <ellipse cx="371" cy="220" rx="380" ry="20" fill="#0a0604" opacity="0.4"/>
+  <!-- Outside shadow — amber pools where light reaches -->
+  <ellipse cx="120" cy="280" rx="90" ry="40" fill="url(#p8p1amberPool)" filter="url(#p8p1glow)" opacity="0.85"/>
+  <ellipse cx="400" cy="300" rx="120" ry="44" fill="url(#p8p1amberPool)" filter="url(#p8p1glow)" opacity="0.85"/>
+  <ellipse cx="640" cy="280" rx="90" ry="40" fill="url(#p8p1amberPool)" filter="url(#p8p1glow)" opacity="0.85"/>
+
+  <!-- ===== CLOCKMAKER'S BOOTS visible under bench (top-left area, terrifyingly close) ===== -->
+  <g transform="translate(220 90)">
+    <!-- Trouser cuff descending into boot -->
+    <rect x="-30" y="-90" width="38" height="110" fill="#3a2010"/>
+    <!-- Boot 1 — left, planted -->
+    <ellipse cx="0" cy="20" rx="44" ry="14" fill="url(#p8p1boot)"/>
+    <ellipse cx="0" cy="28" rx="44" ry="6" fill="#1a0c04"/>
+    <!-- Sole -->
+    <rect x="-44" y="28" width="88" height="6" fill="#1a0c04"/>
+    <!-- Brass eyelets -->
+    <g fill="#a86838" stroke="#5a2818" stroke-width="0.4">
+      <circle cx="-22" cy="0" r="2"/>
+      <circle cx="-12" cy="-4" r="2"/>
+      <circle cx="-2" cy="-6" r="2"/>
+      <circle cx="8" cy="-4" r="2"/>
+      <circle cx="18" cy="0" r="2"/>
+    </g>
+    <!-- Lacing -->
+    <g stroke="#1a0c04" stroke-width="1" fill="none">
+      <path d="M-22,0 L-12,-4"/>
+      <path d="M-12,-4 L-2,-6"/>
+      <path d="M-2,-6 L8,-4"/>
+      <path d="M8,-4 L18,0"/>
+    </g>
+    <!-- Boot leather sheen -->
+    <ellipse cx="-14" cy="14" rx="12" ry="3.4" fill="#a86838" opacity="0.45"/>
+    <!-- Scuff marks -->
+    <line x1="-32" y1="20" x2="-22" y2="22" stroke="#1a0c04" stroke-width="0.7" opacity="0.85"/>
+    <line x1="14" y1="22" x2="24" y2="20" stroke="#1a0c04" stroke-width="0.7" opacity="0.85"/>
+  </g>
+
+  <!-- Boot 2 — right, MID-TAP (lifted slightly, sole visible) -->
+  <g transform="translate(330 90)">
+    <rect x="-30" y="-90" width="38" height="100" fill="#3a2010"/>
+    <!-- Boot lifted -->
+    <ellipse cx="0" cy="14" rx="44" ry="14" fill="url(#p8p1boot)"/>
+    <ellipse cx="0" cy="22" rx="44" ry="6" fill="#1a0c04"/>
+    <!-- Sole edge revealed (lifted) -->
+    <rect x="-44" y="22" width="88" height="8" fill="#3a1808"/>
+    <!-- Cobbler's nail in worn leather (script demand) -->
+    <circle cx="-10" cy="26" r="0.85" fill="#5a4838"/>
+    <circle cx="6" cy="26" r="0.7" fill="#5a4838"/>
+    <!-- Worn leather patch -->
+    <ellipse cx="0" cy="22" rx="6" ry="2" fill="#1a0c04" opacity="0.85"/>
+    <!-- Brass eyelets -->
+    <g fill="#a86838" stroke="#5a2818" stroke-width="0.4">
+      <circle cx="-22" cy="-6" r="2"/>
+      <circle cx="-12" cy="-10" r="2"/>
+      <circle cx="-2" cy="-12" r="2"/>
+      <circle cx="8" cy="-10" r="2"/>
+      <circle cx="18" cy="-6" r="2"/>
+    </g>
+    <g stroke="#1a0c04" stroke-width="1" fill="none">
+      <path d="M-22,-6 L-12,-10 L-2,-12 L8,-10 L18,-6"/>
+    </g>
+    <!-- Slight motion arc above boot (tap motion lines) -->
+    <g stroke="#3a1808" stroke-width="0.55" opacity="0.45" fill="none" stroke-dasharray="1.5 1.5">
+      <path d="M-44,8 Q0,4 44,8"/>
+    </g>
+  </g>
+
+  <!-- ===== WOOD SHAVINGS (fallen logs at fairy scale) ===== -->
+  <g>
+    <!-- Curled shaving 1 -->
+    <path d="M460,310 Q480,300 510,308 Q530,318 524,330 Q514,338 500,332 Q486,326 478,320 Z" fill="url(#p8p1shaving)" stroke="#7a4818" stroke-width="0.55"/>
+    <line x1="465" y1="312" x2="520" y2="318" stroke="#7a4818" stroke-width="0.4" opacity="0.7"/>
+    <!-- Shaving 2 -->
+    <path d="M540,330 Q560,322 590,328 Q604,336 596,346 Q580,350 562,346 Q546,340 542,334 Z" fill="url(#p8p1shaving)" stroke="#7a4818" stroke-width="0.55"/>
+    <!-- Shaving 3 (smaller, foreground) -->
+    <path d="M280,340 Q300,332 322,338 Q330,346 320,352 Q304,354 290,348 Q282,344 280,342 Z" fill="url(#p8p1shaving)" stroke="#7a4818" stroke-width="0.55"/>
+    <!-- Tightly curled shaving (deeper detail) -->
+    <ellipse cx="600" cy="340" rx="18" ry="6" fill="url(#p8p1shaving)" stroke="#7a4818" stroke-width="0.55"/>
+    <ellipse cx="600" cy="340" rx="14" ry="3.4" fill="#a86838"/>
+  </g>
+
+  <!-- ===== DROPPED SCREW — steel boulder ===== -->
+  <g transform="translate(540 290)">
+    <!-- Screw shaft -->
+    <rect x="-3" y="-22" width="6" height="22" fill="#5a5860" stroke="#1a1c20" stroke-width="0.4"/>
+    <!-- Threads -->
+    <g stroke="#1a1c20" stroke-width="0.4" opacity="0.7">
+      <line x1="-3" y1="-18" x2="3" y2="-16"/>
+      <line x1="-3" y1="-14" x2="3" y2="-12"/>
+      <line x1="-3" y1="-10" x2="3" y2="-8"/>
+      <line x1="-3" y1="-6" x2="3" y2="-4"/>
+    </g>
+    <!-- Head -->
+    <ellipse cx="0" cy="-22" rx="9" ry="3" fill="#7a8088"/>
+    <ellipse cx="0" cy="-22" rx="7" ry="2" fill="#5a5860"/>
+    <!-- Slot -->
+    <line x1="-7" y1="-22" x2="7" y2="-22" stroke="#1a1c20" stroke-width="0.7"/>
+    <!-- Faint sheen -->
+    <ellipse cx="-3" cy="-22" rx="3" ry="0.85" fill="#a8a0a0" opacity="0.55"/>
+  </g>
+
+  <!-- ===== WREN running along shadow corridor — center-right ===== -->
+  <g transform="translate(450 200)">
+    <!-- Body in mid-stride, very low/crouched run -->
+    <ellipse cx="-7" cy="20" rx="3.4" ry="1.4" fill="#0a0408"/>
+    <ellipse cx="7" cy="20" rx="3.4" ry="1.4" fill="#0a0408"/>
+    <!-- Trousers, mid-stride -->
+    <rect x="-9" y="0" width="6" height="20" fill="url(#p8p1suit)" transform="rotate(-12 -6 10)"/>
+    <rect x="3" y="0" width="6" height="20" fill="url(#p8p1suit)" transform="rotate(12 6 10)"/>
+    <!-- Knee dust -->
+    <ellipse cx="-7" cy="14" rx="3" ry="1" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="7" cy="14" rx="3" ry="1" fill="#5a4838" opacity="0.55"/>
+    <!-- Torso leaning forward (running posture) -->
+    <path d="M-9,0 L-7,-22 L7,-22 L9,0 Z" fill="url(#p8p1suit)"/>
+    <line x1="-5" y1="-12" x2="5" y2="-12" stroke="#a86838" stroke-width="0.4" opacity="0.55" filter="url(#p8p1bloom)"/>
+    <ellipse cx="-7" cy="-22" rx="2.4" ry="1.6" fill="#1a0c04" opacity="0.85"/>
+    <!-- Tool kit on back -->
+    <rect x="-4" y="-18" width="9" height="14" fill="#3a2010"/>
+    <line x1="-7" y1="-22" x2="-10" y2="-12" stroke="#1a0c04" stroke-width="1.2"/>
+    <line x1="7" y1="-22" x2="10" y2="-12" stroke="#1a0c04" stroke-width="1.2"/>
+    <!-- Shoulders -->
+    <path d="M-7,-22 Q-5,-30 0,-32 Q5,-30 7,-22 L6,-18 L-6,-18 Z" fill="url(#p8p1suit)"/>
+    <!-- Arms swinging mid-run -->
+    <path d="M-7,-22 L-14,-12 L-12,-2 L-8,-4 L-6,-14 Z" fill="url(#p8p1suit)"/>
+    <path d="M7,-22 L14,-30 L18,-32 L14,-30 L8,-22 Z" fill="url(#p8p1suit)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-30" rx="5" ry="6.5" fill="#a86838"/>
+    <ellipse cx="0" cy="-38" rx="3" ry="2.2" fill="#0a0604"/>
+    <!-- Eyes forward -->
+    <ellipse cx="-2" cy="-30" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <circle cx="-2" cy="-30" r="0.4" fill="#0a0604"/>
+    <ellipse cx="2" cy="-30" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <circle cx="2" cy="-30" r="0.4" fill="#0a0604"/>
+    <path d="M-3,-23 L3,-23" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- WREN comms (top-right, breath-quiet) -->
+  <g>
+    <rect x="404" y="14" width="324" height="46" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="412" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN ((breath))</text>
+  <text x="412" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Crossing. Clockmaker is at the bench.</text>
+  <text x="412" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">His feet are four inches from me.</text>
+
+  <!-- SABLE response -->
+  <g>
+    <rect x="404" y="68" width="200" height="32" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="412" y="84" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE ((comms))</text>
+  <text x="412" y="94" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Take your time.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q200,82 400,78 Q580,76 742,80"/>
+    <path d="M0,290 Q200,292 400,288 Q580,286 742,290"/>
+  </g>
+</svg>
