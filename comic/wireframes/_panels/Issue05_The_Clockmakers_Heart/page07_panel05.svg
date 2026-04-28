@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 150" width="742" height="150">
+  <title>Issue 5 — Page 7 — Panel 5: Wren's hand pressed flat against baseboard timber — last cover before open floor</title>
+  <desc>85mm extreme CU. Tiny hand in copper suit pressing flat against rough timber baseboard. Each wood grain a ridge. Dust and plaster fragments. Warm amber wash. Steady — no tremor. The moment before stepping out.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p7p5timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="p7p5skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#8a4828"/>
+    </linearGradient>
+    <linearGradient id="p7p5suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a850"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <radialGradient id="p7p5amberWash" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p7p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p7p5glow"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- TIMBER BASEBOARD fills frame — visible WOOD GRAIN -->
+  <rect width="742" height="150" fill="url(#p7p5timber)"/>
+
+  <!-- Wood grain RIDGES (each grain is a ridge at fairy scale) -->
+  <g stroke="#3a1808" stroke-width="0.7" opacity="0.7" fill="none">
+    <path d="M0,15 Q140,17 280,13 Q420,11 560,15 Q700,17 742,13"/>
+    <path d="M0,30 Q140,32 280,28 Q420,26 560,30 Q700,32 742,28"/>
+    <path d="M0,45 Q140,43 280,47 Q420,49 560,45 Q700,43 742,47"/>
+    <path d="M0,60 Q140,62 280,58 Q420,56 560,62 Q700,64 742,58"/>
+    <path d="M0,80 Q140,78 280,82 Q420,84 560,78 Q700,76 742,80"/>
+    <path d="M0,100 Q140,102 280,98 Q420,96 560,102 Q700,104 742,98"/>
+    <path d="M0,120 Q140,118 280,122 Q420,124 560,118 Q700,116 742,120"/>
+    <path d="M0,140 Q140,142 280,138 Q420,136 560,142 Q700,144 742,138"/>
+  </g>
+  <g stroke="#5a2818" stroke-width="0.55" opacity="0.55" fill="none">
+    <path d="M0,22 Q140,24 280,20 Q420,18 560,22 Q700,24 742,20"/>
+    <path d="M0,38 Q140,36 280,40 Q420,42 560,38 Q700,36 742,40"/>
+    <path d="M0,52 Q140,54 280,50 Q420,48 560,54 Q700,56 742,50"/>
+    <path d="M0,70 Q140,68 280,72 Q420,74 560,68 Q700,66 742,72"/>
+    <path d="M0,88 Q140,90 280,86 Q420,84 560,90 Q700,92 742,86"/>
+    <path d="M0,110 Q140,108 280,112 Q420,114 560,108 Q700,106 742,112"/>
+    <path d="M0,130 Q140,132 280,128 Q420,126 560,132 Q700,134 742,128"/>
+  </g>
+  <!-- Wood knots -->
+  <g fill="#3a1808" opacity="0.75">
+    <ellipse cx="120" cy="65" rx="9" ry="6"/>
+    <ellipse cx="540" cy="40" rx="7" ry="4"/>
+    <ellipse cx="660" cy="100" rx="9" ry="6"/>
+  </g>
+  <g fill="#5a2818" opacity="0.85">
+    <ellipse cx="120" cy="65" rx="6" ry="3.4"/>
+    <ellipse cx="540" cy="40" rx="4" ry="2"/>
+    <ellipse cx="660" cy="100" rx="6" ry="3.4"/>
+  </g>
+
+  <!-- Warm amber wash from below (shop light) -->
+  <rect width="742" height="150" fill="url(#p7p5amberWash)"/>
+
+  <!-- DUST and plaster fragments scattered on timber -->
+  <g fill="#9a8878" opacity="0.55">
+    <ellipse cx="80" cy="40" rx="3" ry="2"/>
+    <ellipse cx="240" cy="80" rx="2.4" ry="1.4"/>
+    <ellipse cx="400" cy="50" rx="3.4" ry="2.4"/>
+    <ellipse cx="600" cy="90" rx="2.4" ry="1.4"/>
+  </g>
+  <g fill="#5a4838" opacity="0.6">
+    <circle cx="60" cy="100" r="1"/>
+    <circle cx="160" cy="60" r="0.85"/>
+    <circle cx="260" cy="100" r="1"/>
+    <circle cx="360" cy="80" r="0.85"/>
+    <circle cx="460" cy="60" r="1"/>
+    <circle cx="580" cy="110" r="0.85"/>
+  </g>
+
+  <!-- ===== WREN'S HAND pressed flat on baseboard — DOMINATES frame ===== -->
+  <g transform="translate(371 80)">
+    <!-- Forearm visible at edge of frame (right side) -->
+    <rect x="80" y="-26" width="120" height="60" fill="url(#p7p5suit)"/>
+    <line x1="80" y1="0" x2="200" y2="0" stroke="#ffd078" stroke-width="0.85" opacity="0.85" filter="url(#p7p5bloom)"/>
+    <!-- Oil stain on forearm -->
+    <ellipse cx="140" cy="-10" rx="14" ry="6" fill="#1a0c04" opacity="0.55"/>
+    <!-- Sleeve cuff -->
+    <line x1="80" y1="-26" x2="80" y2="34" stroke="#7a4818" stroke-width="1.2"/>
+
+    <!-- HAND — pressed flat, fingers splayed -->
+    <ellipse cx="0" cy="0" rx="80" ry="40" fill="url(#p7p5skin)"/>
+    <!-- Splayed fingers -->
+    <ellipse cx="-50" cy="-22" rx="22" ry="11" fill="url(#p7p5skin)" transform="rotate(-25 -50 -22)"/>
+    <ellipse cx="-30" cy="-32" rx="22" ry="11" fill="url(#p7p5skin)" transform="rotate(-12 -30 -32)"/>
+    <ellipse cx="-8" cy="-36" rx="22" ry="11" fill="url(#p7p5skin)"/>
+    <ellipse cx="14" cy="-32" rx="22" ry="11" fill="url(#p7p5skin)" transform="rotate(10 14 -32)"/>
+    <!-- Thumb -->
+    <ellipse cx="-66" cy="14" rx="22" ry="14" fill="url(#p7p5skin)" transform="rotate(-30 -66 14)"/>
+    <!-- Knuckle creases (subtle) -->
+    <path d="M-50,-22 Q-30,-30 -8,-36" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.55"/>
+    <path d="M-8,-36 Q14,-32 30,-22" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.55"/>
+
+    <!-- Suit GLOVE edge (cuff) -->
+    <ellipse cx="50" cy="0" rx="40" ry="22" fill="url(#p7p5suit)"/>
+    <line x1="20" y1="-22" x2="80" y2="-26" stroke="#7a4818" stroke-width="1" opacity="0.85"/>
+    <line x1="20" y1="22" x2="80" y2="26" stroke="#7a4818" stroke-width="1" opacity="0.85"/>
+
+    <!-- DUST + plaster on glove -->
+    <ellipse cx="40" cy="-10" rx="6" ry="3" fill="#9a8878" opacity="0.65"/>
+    <circle cx="55" cy="6" r="1.4" fill="#9a8878" opacity="0.55"/>
+    <circle cx="30" cy="14" r="1" fill="#9a8878" opacity="0.55"/>
+
+    <!-- Fingernails (subtle) -->
+    <ellipse cx="-66" cy="-30" rx="3" ry="2" fill="#fff8e8" opacity="0.55"/>
+    <ellipse cx="-44" cy="-40" rx="3" ry="2" fill="#fff8e8" opacity="0.55"/>
+    <ellipse cx="-18" cy="-42" rx="3" ry="2" fill="#fff8e8" opacity="0.55"/>
+    <ellipse cx="22" cy="-38" rx="3" ry="2" fill="#fff8e8" opacity="0.55"/>
+  </g>
+
+  <!-- WREN comms -->
+  <g>
+    <rect x="14" y="14" width="180" height="32" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="2 1" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN ((comms))</text>
+  <text x="22" y="42" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-weight="500">Moving.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,30 Q200,32 400,28 Q580,26 742,30"/>
+    <path d="M0,120 Q200,122 400,118 Q580,116 742,120"/>
+  </g>
+</svg>
