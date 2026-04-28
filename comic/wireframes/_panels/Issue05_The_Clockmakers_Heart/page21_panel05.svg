@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 364" width="238" height="364">
+  <title>Issue 5 — Page 21 — Panel 5: Clockmaker's hand sets saucer of milk on workshop floor — private faith — just in case</title>
+  <desc>85mm CU. Clockmaker's enormous hand gently sets small ceramic saucer of milk on workshop floor near base of bench. Gesture careful, almost reverent. Not superstitious performance — private observance. The man of evidence makes the offering. Hand withdraws upward out of frame. Dialog: CLOCKMAKER quiet to empty workshop: Just in case.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p21p5bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p21p5floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p21p5skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="p21p5saucer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="100%" stop-color="#d8c8a8"/>
+    </linearGradient>
+    <radialGradient id="p21p5morningSun" cx="80%" cy="20%" r="100%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p21p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p21p5glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="238" height="364" fill="url(#p21p5bg)"/>
+
+  <!-- Morning sun -->
+  <rect width="238" height="364" fill="url(#p21p5morningSun)" opacity="0.85"/>
+
+  <!-- WORKSHOP wall (upper) — faint, out of focus -->
+  <rect width="238" height="180" fill="#5a3018" opacity="0.55"/>
+
+  <!-- BENCH BASE / LEG (right side of frame, partial) -->
+  <rect x="180" y="100" width="58" height="180" fill="#3a1808"/>
+  <rect x="180" y="100" width="58" height="180" fill="none" stroke="#1a0c04" stroke-width="0.85"/>
+
+  <!-- FLOOR — dark wooden boards -->
+  <rect y="200" width="238" height="164" fill="url(#p21p5floor)"/>
+  <line x1="0" y1="200" x2="238" y2="200" stroke="#1a0c04" stroke-width="0.55"/>
+  <!-- Floorboards -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.65">
+    <line x1="0" y1="240" x2="238" y2="240"/>
+    <line x1="0" y1="280" x2="238" y2="280"/>
+    <line x1="0" y1="320" x2="238" y2="320"/>
+  </g>
+  <!-- Floor wood grain -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.45">
+    <path d="M0,260 Q60,258 120,262 Q180,260 238,260"/>
+    <path d="M0,300 Q60,298 120,302 Q180,300 238,300"/>
+  </g>
+
+  <!-- ===== SAUCER OF MILK on floor ===== -->
+  <g transform="translate(119 290)">
+    <!-- Halo around saucer (catching morning light) -->
+    <ellipse cx="0" cy="0" rx="60" ry="18" fill="#fff8e8" opacity="0.45" filter="url(#p21p5glow)"/>
+
+    <!-- Shadow under saucer -->
+    <ellipse cx="0" cy="6" rx="34" ry="6" fill="#0a0408" opacity="0.65" filter="url(#p21p5bloom)"/>
+
+    <!-- Saucer (ceramic, small, simple) -->
+    <ellipse cx="0" cy="0" rx="32" ry="8" fill="url(#p21p5saucer)" stroke="#a86838" stroke-width="0.55"/>
+    <ellipse cx="0" cy="-2" rx="28" ry="6" fill="#d8c8a8"/>
+
+    <!-- MILK in saucer (white, catching light) -->
+    <ellipse cx="0" cy="-2" rx="24" ry="4" fill="#fff8e8"/>
+    <ellipse cx="-6" cy="-3" rx="9" ry="2" fill="#fff8e8" opacity="0.85" filter="url(#p21p5bloom)"/>
+    <!-- Milk surface ripple -->
+    <ellipse cx="0" cy="-2" rx="18" ry="3" fill="none" stroke="#d8c8a8" stroke-width="0.4" opacity="0.55"/>
+  </g>
+
+  <!-- ===== CLOCKMAKER'S HAND withdrawing UPWARD (entering from top) ===== -->
+  <g transform="translate(119 200)">
+    <!-- Forearm extending from top of frame -->
+    <path d="M-22,-100 L-26,-40 L-22,40 L26,40 L26,-40 L22,-100 Z" fill="url(#p21p5skin)"/>
+    <!-- Cuff -->
+    <line x1="-26" y1="-40" x2="26" y2="-40" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Wool waistcoat sleeve visible above cuff -->
+    <rect x="-26" y="-100" width="52" height="40" fill="#5a3818"/>
+
+    <!-- HAND — palm down, fingers spread, withdrawing -->
+    <ellipse cx="0" cy="40" rx="40" ry="22" fill="url(#p21p5skin)"/>
+
+    <!-- Five fingers (extended, lifting from saucer) -->
+    <ellipse cx="-30" cy="60" rx="6" ry="14" fill="url(#p21p5skin)" transform="rotate(-15 -30 60)"/>
+    <ellipse cx="-15" cy="65" rx="6" ry="16" fill="url(#p21p5skin)" transform="rotate(-7 -15 65)"/>
+    <ellipse cx="0" cy="68" rx="6" ry="18" fill="url(#p21p5skin)"/>
+    <ellipse cx="15" cy="65" rx="6" ry="16" fill="url(#p21p5skin)" transform="rotate(7 15 65)"/>
+    <ellipse cx="30" cy="60" rx="5" ry="14" fill="url(#p21p5skin)" transform="rotate(15 30 60)"/>
+    <!-- Thumb -->
+    <ellipse cx="-44" cy="40" rx="11" ry="6" fill="url(#p21p5skin)" transform="rotate(-30 -44 40)"/>
+
+    <!-- TINY CUTS + CALLUSES — same hands that work clocks, now offering milk -->
+    <g fill="#5a3018" opacity="0.65">
+      <circle cx="-30" cy="20" r="0.85"/>
+      <circle cx="0" cy="14" r="1"/>
+      <circle cx="20" cy="22" r="0.85"/>
+      <line x1="-15" y1="30" x2="-12" y2="34" stroke="#5a3018" stroke-width="0.4"/>
+      <line x1="14" y1="30" x2="17" y2="34" stroke="#5a3018" stroke-width="0.4"/>
+    </g>
+    <!-- Knuckle creases (gentle, deliberate gesture) -->
+    <path d="M-22,50 Q0,48 22,50" stroke="#5a3018" stroke-width="0.55" fill="none" opacity="0.65"/>
+
+    <!-- Faint coarse hair on back of hand -->
+    <g stroke="#5a3018" stroke-width="0.4" opacity="0.55">
+      <line x1="-15" y1="14" x2="-12" y2="9"/>
+      <line x1="0" y1="9" x2="3" y2="3"/>
+      <line x1="15" y1="14" x2="18" y2="9"/>
+    </g>
+
+    <!-- Subtle warm light catching back of hand -->
+    <ellipse cx="0" cy="22" rx="22" ry="9" fill="#ffd078" opacity="0.45" filter="url(#p21p5bloom)"/>
+  </g>
+
+  <!-- DIALOG -->
+  <g transform="translate(119 60)">
+    <ellipse cx="0" cy="0" rx="80" ry="20" fill="#ffffff" stroke="#5a4030" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M0,16 L-14,30 L0,18 Z" fill="#ffffff" stroke="#5a4030" stroke-width="1"/>
+    <text x="-70" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a4030" font-weight="700">CLOCKMAKER</text>
+    <text x="-70" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="600">"Just in case."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q60,92 120,88 Q180,86 238,90"/>
+    <path d="M0,300 Q60,298 120,302 Q180,304 238,300"/>
+  </g>
+</svg>

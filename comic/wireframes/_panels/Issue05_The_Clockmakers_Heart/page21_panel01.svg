@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 5 — Page 21 — Panel 1: Workshop morning daylight — clockmaker enters with tea — undisturbed peace</title>
+  <desc>28mm wide. Workshop in golden morning. Bow window admits sun across bench, tool rack, clock cases. Clock from heist back panel closed. Empty tea mug on bench. Clockmaker enters from back door (living quarters), waistcoat unbuttoned, spectacles not yet on, fresh tea cup. Comfortable morning ease. Dust motes catching sunlight. No dialog.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p21p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p21p1floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p21p1bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="p21p1skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="p21p1waistcoat" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a3818"/>
+      <stop offset="50%" stop-color="#7a5828"/>
+      <stop offset="100%" stop-color="#4a3818"/>
+    </linearGradient>
+    <linearGradient id="p21p1steel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="50%" stop-color="#a8a8a8"/>
+      <stop offset="100%" stop-color="#5a5858"/>
+    </linearGradient>
+    <radialGradient id="p21p1morningSun" cx="80%" cy="20%" r="120%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p21p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p21p1glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="742" height="364" fill="url(#p21p1bg)"/>
+
+  <!-- Morning sunlight from upper-right (bow window direction) -->
+  <rect width="742" height="364" fill="url(#p21p1morningSun)"/>
+
+  <!-- BOW WINDOW (right side, upper) — pouring sun -->
+  <g transform="translate(620 0)">
+    <rect x="0" y="60" width="100" height="160" fill="#fff8e8" opacity="0.55" filter="url(#p21p1glow)"/>
+    <path d="M0,60 Q50,40 100,60" stroke="#3a2818" stroke-width="2" fill="none"/>
+    <line x1="50" y1="50" x2="50" y2="220" stroke="#1a3818" stroke-width="0.85"/>
+    <line x1="0" y1="140" x2="100" y2="140" stroke="#1a3818" stroke-width="0.7"/>
+    <!-- Brighter sun core -->
+    <ellipse cx="50" cy="130" rx="40" ry="60" fill="#fff8e8" opacity="0.85" filter="url(#p21p1glow)"/>
+  </g>
+  <!-- Light beam streaming across workshop -->
+  <path d="M740,80 Q400,200 100,300" stroke="#fff8e8" stroke-width="22" fill="none" opacity="0.18" filter="url(#p21p1glow)"/>
+
+  <!-- Dust motes catching sunlight -->
+  <g fill="#fff8e8" opacity="0.85" filter="url(#p21p1bloom)">
+    <circle cx="500" cy="120" r="0.55"/>
+    <circle cx="450" cy="160" r="0.4"/>
+    <circle cx="380" cy="140" r="0.55"/>
+    <circle cx="320" cy="180" r="0.4"/>
+    <circle cx="260" cy="160" r="0.55"/>
+    <circle cx="200" cy="200" r="0.4"/>
+    <circle cx="540" cy="180" r="0.55"/>
+    <circle cx="480" cy="220" r="0.4"/>
+  </g>
+
+  <!-- BACK WALL (with tool rack) -->
+  <g opacity="0.85">
+    <rect x="0" y="60" width="500" height="3" fill="#3a1808"/>
+    <!-- Tool rack tools (smaller, shadowed) -->
+    <g transform="translate(60 70)">
+      <rect x="-2" y="-10" width="4" height="10" fill="#5a3018"/>
+      <rect x="-1" y="0" width="2" height="14" fill="url(#p21p1steel)"/>
+    </g>
+    <g transform="translate(100 70)">
+      <rect x="-2" y="-10" width="4" height="10" fill="#5a3018"/>
+      <rect x="-1" y="0" width="2" height="14" fill="url(#p21p1steel)"/>
+    </g>
+    <g transform="translate(140 70)">
+      <rect x="-2" y="-10" width="4" height="10" fill="#5a3018"/>
+      <rect x="-1" y="0" width="2" height="14" fill="url(#p21p1steel)"/>
+    </g>
+    <g transform="translate(180 70)">
+      <line x1="-2" y1="-10" x2="0" y2="14" stroke="url(#p21p1steel)" stroke-width="1"/>
+      <line x1="2" y1="-10" x2="0" y2="14" stroke="url(#p21p1steel)" stroke-width="1"/>
+    </g>
+    <g transform="translate(220 70)">
+      <line x1="-2" y1="-10" x2="0" y2="14" stroke="url(#p21p1steel)" stroke-width="1"/>
+      <line x1="2" y1="-10" x2="0" y2="14" stroke="url(#p21p1steel)" stroke-width="1"/>
+    </g>
+    <g transform="translate(280 70)">
+      <rect x="-3" y="-10" width="6" height="10" fill="#5a3018"/>
+      <rect x="-1.4" y="0" width="2.8" height="14" fill="url(#p21p1steel)"/>
+    </g>
+    <g transform="translate(320 70)">
+      <rect x="-3" y="-10" width="6" height="10" fill="#5a3018"/>
+      <rect x="-1.4" y="0" width="2.8" height="14" fill="url(#p21p1steel)"/>
+    </g>
+
+    <!-- Shelves with clocks -->
+    <rect x="0" y="160" width="500" height="3" fill="#3a1808"/>
+    <rect x="20" y="130" width="40" height="30" fill="#3a2010" stroke="#a86838" stroke-width="0.55"/>
+    <circle cx="40" cy="145" r="9" fill="#fff8e8" opacity="0.85" stroke="#a86838" stroke-width="0.4"/>
+    <rect x="80" y="125" width="50" height="35" fill="#3a2010" stroke="#a86838" stroke-width="0.55"/>
+    <circle cx="105" cy="142" r="11" fill="#fff8e8" opacity="0.85" stroke="#a86838" stroke-width="0.4"/>
+    <rect x="160" y="135" width="40" height="25" fill="#3a2010" stroke="#a86838" stroke-width="0.55"/>
+    <circle cx="180" cy="147" r="9" fill="#fff8e8" opacity="0.85" stroke="#a86838" stroke-width="0.4"/>
+    <rect x="240" y="130" width="50" height="30" fill="#3a2010" stroke="#a86838" stroke-width="0.55"/>
+    <circle cx="265" cy="145" r="9" fill="#fff8e8" opacity="0.85" stroke="#a86838" stroke-width="0.4"/>
+    <rect x="320" y="135" width="44" height="25" fill="#3a2010" stroke="#a86838" stroke-width="0.55"/>
+    <circle cx="342" cy="147" r="9" fill="#fff8e8" opacity="0.85" stroke="#a86838" stroke-width="0.4"/>
+    <rect x="400" y="130" width="40" height="30" fill="#3a2010" stroke="#a86838" stroke-width="0.55"/>
+    <circle cx="420" cy="145" r="9" fill="#fff8e8" opacity="0.85" stroke="#a86838" stroke-width="0.4"/>
+  </g>
+
+  <!-- WORKBENCH -->
+  <rect y="240" width="742" height="40" fill="url(#p21p1bench)"/>
+  <line x1="0" y1="240" x2="742" y2="240" stroke="#fff8e8" stroke-width="0.85" opacity="0.65" filter="url(#p21p1bloom)"/>
+
+  <!-- Floor -->
+  <rect y="280" width="742" height="84" fill="url(#p21p1floor)"/>
+  <line x1="0" y1="280" x2="742" y2="280" stroke="#1a0c04" stroke-width="0.55"/>
+
+  <!-- FINISHED CLOCK on bench (back panel CLOSED — heist done) -->
+  <g transform="translate(280 230)">
+    <rect x="-50" y="-30" width="100" height="40" fill="#3a1808"/>
+    <rect x="-46" y="-26" width="92" height="32" fill="none" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Dial visible on top (closed-up clock) -->
+    <circle cx="0" cy="-10" r="14" fill="#fff8e8" opacity="0.85" stroke="#a86838" stroke-width="0.55"/>
+    <line x1="0" y1="-10" x2="0" y2="-20" stroke="#1a0c04" stroke-width="1"/>
+    <line x1="0" y1="-10" x2="9" y2="-10" stroke="#1a0c04" stroke-width="0.7"/>
+    <!-- Roman numerals -->
+    <text x="0" y="-20" font-family="serif" font-size="3" fill="#1a0c04" text-anchor="middle">XII</text>
+    <text x="9" y="-10" font-family="serif" font-size="3" fill="#1a0c04">III</text>
+    <text x="0" y="2" font-family="serif" font-size="3" fill="#1a0c04" text-anchor="middle">VI</text>
+    <text x="-9" y="-10" font-family="serif" font-size="3" fill="#1a0c04">IX</text>
+  </g>
+
+  <!-- Empty tea mug on bench (LEFT of clock) -->
+  <g transform="translate(180 230)">
+    <ellipse cx="0" cy="-2" rx="9" ry="2" fill="#3a1808"/>
+    <rect x="-7" y="-2" width="14" height="14" fill="#a8a8a8" opacity="0.85"/>
+    <ellipse cx="0" cy="-2" rx="6" ry="1.4" fill="#5a3018"/>
+  </g>
+
+  <!-- Tool roll on bench (RIGHT of clock) -->
+  <g transform="translate(420 230)">
+    <rect x="-30" y="-3" width="60" height="6" fill="#5a3818" opacity="0.85"/>
+    <line x1="-30" y1="-2" x2="-22" y2="-15" stroke="#a86838" stroke-width="0.85"/>
+    <line x1="-15" y1="-2" x2="-7" y2="-15" stroke="#a86838" stroke-width="0.85"/>
+    <line x1="0" y1="-2" x2="9" y2="-15" stroke="#a86838" stroke-width="0.85"/>
+  </g>
+
+  <!-- BACK DOOR (left side — entrance from living quarters) -->
+  <g transform="translate(60 240)">
+    <rect x="-40" y="-180" width="80" height="180" fill="#3a1808"/>
+    <rect x="-36" y="-176" width="72" height="172" fill="#5a3018"/>
+    <!-- Door handle -->
+    <circle cx="-22" cy="-90" r="2" fill="#a86838"/>
+    <!-- Subtle warm glow from beyond (kitchen) -->
+    <ellipse cx="-30" cy="-90" rx="6" ry="22" fill="#ffd078" opacity="0.45"/>
+  </g>
+
+  <!-- ===== CLOCKMAKER entering from left, casual morning ===== -->
+  <g transform="translate(140 200)">
+    <!-- Body — relaxed -->
+    <path d="M-22,30 L-26,140 L26,140 L22,30 Z" fill="url(#p21p1waistcoat)"/>
+    <!-- Waistcoat UNBUTTONED -->
+    <path d="M-3,30 L-3,80 L0,80 L0,30 Z" fill="#d8c8a8" opacity="0.85"/>
+    <!-- Linen shirt -->
+    <ellipse cx="0" cy="22" rx="14" ry="6" fill="#d8c8a8"/>
+    <!-- Buttons partially undone -->
+    <line x1="0" y1="40" x2="0" y2="50" stroke="#3a1808" stroke-width="0.55"/>
+
+    <!-- Arms — left hand raised carrying tea, right hand at side -->
+    <line x1="-22" y1="40" x2="-50" y2="60" stroke="#d8a878" stroke-width="11" stroke-linecap="round"/>
+    <line x1="22" y1="40" x2="22" y2="100" stroke="#d8a878" stroke-width="11" stroke-linecap="round"/>
+    <ellipse cx="-50" cy="60" rx="11" ry="7" fill="url(#p21p1skin)"/>
+    <ellipse cx="22" cy="100" rx="9" ry="6" fill="url(#p21p1skin)"/>
+
+    <!-- TEA CUP in left hand -->
+    <g transform="translate(-50 55)">
+      <ellipse cx="0" cy="-8" rx="11" ry="3" fill="#3a1808"/>
+      <rect x="-9" y="-8" width="18" height="14" fill="#fff8e8" stroke="#a86838" stroke-width="0.7"/>
+      <ellipse cx="0" cy="-8" rx="7" ry="2" fill="#a86838"/>
+      <!-- Steam -->
+      <path d="M-4,-12 Q-7,-18 -4,-24" stroke="#d8c8a8" stroke-width="0.85" fill="none" opacity="0.85"/>
+      <path d="M4,-12 Q7,-18 4,-24" stroke="#d8c8a8" stroke-width="0.7" fill="none" opacity="0.65"/>
+      <!-- Handle -->
+      <ellipse cx="11" cy="0" rx="3" ry="3" fill="none" stroke="#a86838" stroke-width="0.85"/>
+    </g>
+
+    <!-- HEAD — looking ahead, comfortable -->
+    <ellipse cx="0" cy="0" rx="20" ry="22" fill="url(#p21p1skin)"/>
+    <!-- Thinning hair -->
+    <path d="M-18,-22 Q-12,-30 0,-32 Q12,-30 18,-22 L16,-12 Q8,-26 0,-26 Q-8,-26 -16,-12 Z" fill="#7a5028"/>
+    <!-- SPECTACLES NOT YET ON — pushed up on forehead OR carried in other hand -->
+    <!-- (in this version, on forehead) -->
+    <ellipse cx="-9" cy="-26" rx="5" ry="2.4" fill="none" stroke="#3a2818" stroke-width="0.55"/>
+    <ellipse cx="9" cy="-26" rx="5" ry="2.4" fill="none" stroke="#3a2818" stroke-width="0.55"/>
+    <line x1="-4" y1="-26" x2="4" y2="-26" stroke="#3a2818" stroke-width="0.4"/>
+    <!-- Eyes — visible (no spectacles yet), pale blue, comfortable -->
+    <ellipse cx="-7" cy="-2" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-7" cy="-1" r="1.2" fill="#a8b8c8"/>
+    <circle cx="-7" cy="-1" r="0.55" fill="#0a0c14"/>
+    <ellipse cx="7" cy="-2" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <circle cx="7" cy="-1" r="1.2" fill="#a8b8c8"/>
+    <circle cx="7" cy="-1" r="0.55" fill="#0a0c14"/>
+    <!-- Brows level — relaxed -->
+    <path d="M-12,-8 L-3,-9" stroke="#5a3018" stroke-width="0.7"/>
+    <path d="M3,-9 L12,-8" stroke="#5a3018" stroke-width="0.7"/>
+    <!-- Mouth — slight smile, content -->
+    <path d="M-5,8 Q0,10 5,8" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q180,138 360,142 Q540,144 742,140"/>
+    <path d="M0,310 Q180,308 360,312 Q540,314 742,310"/>
+  </g>
+</svg>

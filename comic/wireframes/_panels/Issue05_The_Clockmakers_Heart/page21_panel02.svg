@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 5 — Page 21 — Panel 2: Clockmaker face CU — furrowed brow, leaning in — discrepancy</title>
+  <desc>85mm CU. Clockmaker has set tea on bench, putting on spectacles. Glances at bench surface — habitual scan. Expression shifts. Brow furrows. Leans in. Something tiny. Something impossible. Spectacles sliding down nose. Puzzlement, not alarm. Dialog: CLOCKMAKER: What in the...</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p21p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p21p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a5828"/>
+    </linearGradient>
+    <linearGradient id="p21p2waistcoat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a3818"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="p21p2morningSun" cx="80%" cy="20%" r="100%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p21p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#p21p2bg)"/>
+  <rect width="366" height="364" fill="url(#p21p2morningSun)" opacity="0.85"/>
+
+  <!-- ===== CLOCKMAKER FACE ===== -->
+  <g transform="translate(183 200)">
+    <!-- Waistcoat collar -->
+    <path d="M-100,150 L-120,90 L120,90 L100,150 Z" fill="url(#p21p2waistcoat)"/>
+    <ellipse cx="0" cy="84" rx="22" ry="9" fill="#d8c8a8"/>
+
+    <!-- Head leaning forward -->
+    <ellipse cx="0" cy="0" rx="100" ry="120" fill="url(#p21p2skin)"/>
+
+    <!-- Thinning brown hair -->
+    <path d="M-90,-100 Q-70,-122 0,-128 Q70,-122 90,-100 L84,-80 Q56,-110 0,-110 Q-56,-110 -84,-80 Z" fill="#7a5028"/>
+
+    <!-- SPECTACLES sliding DOWN nose (mid-position) -->
+    <ellipse cx="-44" cy="-12" rx="22" ry="11" fill="none" stroke="#3a2818" stroke-width="1.4"/>
+    <ellipse cx="44" cy="-12" rx="22" ry="11" fill="none" stroke="#3a2818" stroke-width="1.4"/>
+    <line x1="-22" y1="-12" x2="22" y2="-12" stroke="#3a2818" stroke-width="0.7"/>
+    <ellipse cx="-50" cy="-14" rx="6" ry="3" fill="#fff8e8" opacity="0.85" filter="url(#p21p2bloom)"/>
+    <ellipse cx="38" cy="-14" rx="6" ry="3" fill="#fff8e8" opacity="0.85" filter="url(#p21p2bloom)"/>
+
+    <!-- EYES — pale blue, narrowed in puzzlement (peering OVER spectacles? at bench surface BELOW) -->
+    <ellipse cx="-36" cy="-26" rx="14" ry="9" fill="#fff8e8"/>
+    <ellipse cx="-36" cy="-22" rx="11" ry="6" fill="#a8b8c8"/>
+    <circle cx="-36" cy="-22" r="6" fill="#3a4858"/>
+    <circle cx="-34" cy="-20" r="2.4" fill="#0a0c14"/>
+    <circle cx="-32" cy="-26" r="2" fill="#fff8e8" filter="url(#p21p2bloom)"/>
+
+    <ellipse cx="36" cy="-26" rx="14" ry="9" fill="#fff8e8"/>
+    <ellipse cx="36" cy="-22" rx="11" ry="6" fill="#a8b8c8"/>
+    <circle cx="36" cy="-22" r="6" fill="#3a4858"/>
+    <circle cx="38" cy="-20" r="2.4" fill="#0a0c14"/>
+    <circle cx="40" cy="-26" r="2" fill="#fff8e8" filter="url(#p21p2bloom)"/>
+
+    <!-- BROWS — FURROWED, drawn together -->
+    <path d="M-66,-50 L-22,-44" stroke="#5a3018" stroke-width="3" stroke-linecap="round"/>
+    <path d="M22,-44 L66,-50" stroke="#5a3018" stroke-width="3" stroke-linecap="round"/>
+    <!-- Furrow line between brows -->
+    <line x1="-6" y1="-40" x2="-3" y2="-26" stroke="#5a3018" stroke-width="0.85" opacity="0.85"/>
+    <line x1="6" y1="-40" x2="3" y2="-26" stroke="#5a3018" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- Crow's feet of confusion -->
+    <path d="M-58,-22 L-66,-20" stroke="#5a3018" stroke-width="0.55" opacity="0.65"/>
+    <path d="M58,-22 L66,-20" stroke="#5a3018" stroke-width="0.55" opacity="0.65"/>
+
+    <!-- Nose -->
+    <path d="M-6,4 L-4,40 Q0,44 6,42 L10,4 Z" fill="url(#p21p2skin)" opacity="0.85"/>
+
+    <!-- Mouth — slightly open, puzzled -->
+    <ellipse cx="0" cy="62" rx="9" ry="3" fill="#3a1808"/>
+    <ellipse cx="0" cy="60" rx="6" ry="1.4" fill="#a86838"/>
+
+    <!-- Salt-pepper stubble -->
+    <g fill="#5a3018" opacity="0.55">
+      <circle cx="-22" cy="68" r="0.55"/>
+      <circle cx="0" cy="74" r="0.55"/>
+      <circle cx="22" cy="68" r="0.55"/>
+    </g>
+
+    <!-- Warm morning light catching cheek -->
+    <ellipse cx="-50" cy="14" rx="14" ry="22" fill="#ffd078" opacity="0.55" filter="url(#p21p2bloom)"/>
+    <ellipse cx="50" cy="14" rx="14" ry="22" fill="#ffd078" opacity="0.55" filter="url(#p21p2bloom)"/>
+  </g>
+
+  <!-- DIALOG -->
+  <g transform="translate(183 320)">
+    <ellipse cx="0" cy="0" rx="80" ry="20" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M0,-16 L-14,-32 L0,-18 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="-70" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a4030" font-weight="700">CLOCKMAKER</text>
+    <text x="-70" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="600">"What in the..."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+  </g>
+</svg>

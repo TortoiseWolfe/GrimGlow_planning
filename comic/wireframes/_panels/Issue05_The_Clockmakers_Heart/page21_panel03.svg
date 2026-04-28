@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 5 — Page 21 — Panel 3: ECU tiny handprint in oil — quarter-inch — fairy fingerprint</title>
+  <desc>100mm macro. Workbench surface ECU. Among tool scratches, old oil stains, brass filings — a tiny perfect handprint pressed in clock oil. ~quarter-inch across. Five fingers, palm clear as stamp. Too detailed for insect, too perfect for accident. Wren's evidence. Morning gold catches oil sheen. No fairy light. Just sun on oil on wood. Dialog: CLOCKMAKER off-panel: That's... that's a handprint. / CLOCKMAKER: That is a handprint.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p21p3wood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="p21p3oil" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="50%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="p21p3sun" cx="80%" cy="20%" r="100%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p21p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p21p3glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <!-- WOOD GRAIN of bench surface (extreme close-up) -->
+  <rect width="366" height="364" fill="url(#p21p3wood)"/>
+
+  <!-- Morning sun -->
+  <rect width="366" height="364" fill="url(#p21p3sun)" opacity="0.85"/>
+
+  <!-- Wood grain lines (long, parallel) -->
+  <g stroke="#5a3018" stroke-width="0.85" opacity="0.65">
+    <path d="M0,40 Q90,38 180,42 Q280,40 366,40"/>
+    <path d="M0,80 Q90,78 180,82 Q280,80 366,80"/>
+    <path d="M0,120 Q90,118 180,122 Q280,120 366,120"/>
+    <path d="M0,160 Q90,158 180,162 Q280,160 366,160"/>
+    <path d="M0,200 Q90,198 180,202 Q280,200 366,200"/>
+    <path d="M0,240 Q90,238 180,242 Q280,240 366,240"/>
+    <path d="M0,280 Q90,278 180,282 Q280,280 366,280"/>
+    <path d="M0,320 Q90,318 180,322 Q280,320 366,320"/>
+  </g>
+  <!-- Wood pores/knots -->
+  <g fill="#3a1808" opacity="0.55">
+    <ellipse cx="60" cy="60" rx="3" ry="1.4"/>
+    <ellipse cx="180" cy="100" rx="4" ry="2"/>
+    <ellipse cx="280" cy="180" rx="3" ry="1.4"/>
+    <ellipse cx="100" cy="220" rx="2" ry="1"/>
+    <ellipse cx="320" cy="280" rx="3" ry="1.4"/>
+  </g>
+
+  <!-- TOOL SCRATCHES (faint diagonal scratches) -->
+  <g stroke="#5a3018" stroke-width="0.4" opacity="0.55">
+    <line x1="40" y1="50" x2="80" y2="44"/>
+    <line x1="220" y1="160" x2="260" y2="155"/>
+    <line x1="80" y1="280" x2="120" y2="275"/>
+    <line x1="280" y1="240" x2="320" y2="235"/>
+  </g>
+  <!-- Brass filings (tiny gold flecks embedded in wood) -->
+  <g fill="#ffd078" opacity="0.85" filter="url(#p21p3bloom)">
+    <circle cx="80" cy="100" r="0.85"/>
+    <circle cx="260" cy="120" r="0.7"/>
+    <circle cx="160" cy="220" r="0.85"/>
+    <circle cx="40" cy="200" r="0.7"/>
+    <circle cx="320" cy="180" r="0.85"/>
+    <circle cx="220" cy="280" r="0.7"/>
+  </g>
+
+  <!-- OLD OIL STAINS (faded, scattered) -->
+  <g fill="#1a0c04" opacity="0.45">
+    <ellipse cx="100" cy="120" rx="22" ry="11"/>
+    <ellipse cx="300" cy="160" rx="14" ry="9"/>
+    <ellipse cx="60" cy="240" rx="9" ry="6"/>
+  </g>
+
+  <!-- ===== TINY HANDPRINT — center of frame, in fresh CLOCK OIL ===== -->
+  <g transform="translate(183 200)">
+    <!-- Halo around handprint (oil sheen catching morning light) -->
+    <ellipse cx="0" cy="0" rx="60" ry="40" fill="#fff8e8" opacity="0.35" filter="url(#p21p3glow)"/>
+
+    <!-- Palm -->
+    <ellipse cx="0" cy="14" rx="22" ry="22" fill="url(#p21p3oil)" opacity="0.85"/>
+
+    <!-- Five fingers (clear, perfect) -->
+    <!-- Thumb -->
+    <ellipse cx="-22" cy="-3" rx="6" ry="11" fill="url(#p21p3oil)" opacity="0.85" transform="rotate(-30 -22 -3)"/>
+    <!-- Index -->
+    <ellipse cx="-13" cy="-22" rx="4" ry="14" fill="url(#p21p3oil)" opacity="0.85" transform="rotate(-15 -13 -22)"/>
+    <!-- Middle (longest) -->
+    <ellipse cx="0" cy="-26" rx="4" ry="16" fill="url(#p21p3oil)" opacity="0.85"/>
+    <!-- Ring -->
+    <ellipse cx="13" cy="-22" rx="4" ry="14" fill="url(#p21p3oil)" opacity="0.85" transform="rotate(15 13 -22)"/>
+    <!-- Pinky -->
+    <ellipse cx="22" cy="-13" rx="3" ry="11" fill="url(#p21p3oil)" opacity="0.85" transform="rotate(30 22 -13)"/>
+
+    <!-- Subtle FINGERPRINT WHORLS visible on each fingertip (extreme detail) -->
+    <g stroke="#5a3018" stroke-width="0.4" fill="none" opacity="0.45">
+      <path d="M-3,-38 Q0,-40 3,-38"/>
+      <path d="M-2,-36 Q0,-38 2,-36"/>
+      <path d="M-13,-32 Q-11,-34 -9,-32"/>
+      <path d="M9,-32 Q11,-34 13,-32"/>
+    </g>
+
+    <!-- Oil shine highlights (fresh oil) -->
+    <ellipse cx="-3" cy="9" rx="6" ry="3" fill="#fff8e8" opacity="0.65" filter="url(#p21p3bloom)"/>
+    <ellipse cx="0" cy="-26" rx="2" ry="3" fill="#fff8e8" opacity="0.55" filter="url(#p21p3bloom)"/>
+    <ellipse cx="-13" cy="-22" rx="1.4" ry="2" fill="#fff8e8" opacity="0.55" filter="url(#p21p3bloom)"/>
+    <ellipse cx="13" cy="-22" rx="1.4" ry="2" fill="#fff8e8" opacity="0.55" filter="url(#p21p3bloom)"/>
+
+    <!-- Tiny scale reference — a brass filing visible just beside the handprint, comparable in size -->
+    <circle cx="40" cy="14" r="1.4" fill="#ffd078" filter="url(#p21p3bloom)"/>
+  </g>
+
+  <!-- DIALOG -->
+  <g transform="translate(120 60)">
+    <ellipse cx="0" cy="0" rx="80" ry="20" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M22,16 L36,30 L26,18 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="-70" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a4030" font-weight="700">CLOCKMAKER</text>
+    <text x="-70" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-style="italic" font-weight="500">"That's... that's a handprint."</text>
+  </g>
+
+  <!-- DIALOG (emphatic) -->
+  <g transform="translate(280 320)">
+    <ellipse cx="0" cy="0" rx="70" ry="20" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-22,-16 L-36,-30 L-26,-18 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="-60" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a4030" font-weight="700">CLOCKMAKER</text>
+    <text x="-60" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="700">"That is a handprint."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,300 Q90,298 180,302 Q280,304 366,300"/>
+  </g>
+</svg>
