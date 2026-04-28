@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 311" width="366" height="311">
+  <title>Issue 5 — Page 16 — Panel 3: Wren moves through mechanism — schematic flares — engineer in her element</title>
+  <desc>50mm fairy-scale. Inside clock mechanism, Wren is up on her feet for first time in pages, moving fast along brass plate toward target gear. Holographic schematic flares to life at wrist — copper-gold geometric light mapping path. Times gear rotations, ducks beneath passing tooth, steps over shaft. Fierce concentration, no hesitation. Caption: WREN: Thirty seconds.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p16p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p16p3brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p16p3brassWarm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="p16p3suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p16p3skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <radialGradient id="p16p3holo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#c87a35" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7a4818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p3amber" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a3018" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p16p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p16p3glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="311" fill="url(#p16p3bg)"/>
+  <rect width="366" height="311" fill="url(#p16p3amber)"/>
+
+  <!-- Gear edges framing -->
+  <circle cx="0" cy="100" r="80" fill="url(#p16p3brass)" opacity="0.85"/>
+  <circle cx="0" cy="100" r="60" fill="none" stroke="#1a0c04" stroke-width="0.55"/>
+  <circle cx="366" cy="60" r="80" fill="url(#p16p3brass)" opacity="0.85"/>
+  <circle cx="366" cy="60" r="60" fill="none" stroke="#1a0c04" stroke-width="0.55"/>
+
+  <!-- BRASS PLATE — Wren's path -->
+  <rect x="0" y="220" width="366" height="91" fill="url(#p16p3brassWarm)"/>
+  <line x1="0" y1="220" x2="366" y2="220" stroke="#fff8e8" stroke-width="0.85" opacity="0.55" filter="url(#p16p3bloom)"/>
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.65">
+    <line x1="0" y1="250" x2="366" y2="252"/>
+    <line x1="0" y1="280" x2="366" y2="278"/>
+    <line x1="0" y1="305" x2="366" y2="307"/>
+  </g>
+
+  <!-- ROTATING GEAR ABOVE — Wren ducks beneath passing tooth -->
+  <g transform="translate(180 50)">
+    <circle cx="0" cy="0" r="120" fill="url(#p16p3brass)"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#1a0c04" stroke-width="0.85"/>
+    <circle cx="0" cy="0" r="20" fill="#1a0c04"/>
+    <g stroke="#1a0c04" stroke-width="2" opacity="0.85">
+      <line x1="0" y1="-100" x2="0" y2="100"/>
+      <line x1="-100" y1="0" x2="100" y2="0"/>
+      <line x1="-70" y1="-70" x2="70" y2="70"/>
+      <line x1="70" y1="-70" x2="-70" y2="70"/>
+    </g>
+    <!-- Teeth -->
+    <g fill="url(#p16p3brassWarm)">
+      <rect x="-5" y="-128" width="10" height="10"/>
+      <rect x="-128" y="-5" width="10" height="10"/>
+      <rect x="118" y="-5" width="10" height="10"/>
+      <g transform="rotate(45)"><rect x="-5" y="-128" width="10" height="10"/></g>
+      <g transform="rotate(90)"><rect x="-128" y="-5" width="10" height="10"/></g>
+      <g transform="rotate(135)"><rect x="-5" y="-128" width="10" height="10"/></g>
+    </g>
+    <!-- Tooth coming down (Wren ducks under) -->
+    <rect x="-5" y="118" width="10" height="14" fill="url(#p16p3brassWarm)"/>
+  </g>
+
+  <!-- STEEL SHAFT crossing — Wren steps over -->
+  <rect x="60" y="200" width="246" height="14" fill="#5a5858"/>
+  <line x1="60" y1="200" x2="306" y2="200" stroke="#fff8e8" stroke-width="0.55" opacity="0.85" filter="url(#p16p3bloom)"/>
+  <line x1="60" y1="214" x2="306" y2="214" stroke="#1a0c04" stroke-width="0.55"/>
+
+  <!-- TARGET GEAR — visible at right edge, Wren heading toward it -->
+  <g transform="translate(330 240)">
+    <circle cx="0" cy="0" r="36" fill="#fff8e8" opacity="0.85"/>
+    <circle cx="0" cy="0" r="30" fill="url(#p16p3brassWarm)"/>
+    <circle cx="0" cy="0" r="20" fill="#7a4818" opacity="0.65"/>
+    <circle cx="0" cy="0" r="6" fill="#1a0c04"/>
+    <ellipse cx="-9" cy="-9" rx="4" ry="3" fill="#fff8e8" opacity="0.85" filter="url(#p16p3bloom)"/>
+    <!-- Pulsing glow -->
+    <circle cx="0" cy="0" r="50" fill="#ffd078" opacity="0.45" filter="url(#p16p3glow)"/>
+  </g>
+
+  <!-- ===== WREN — UP ON HER FEET, moving fast ===== -->
+  <g transform="translate(180 240)">
+    <!-- Holographic SCHEMATIC GLOW around her -->
+    <circle cx="0" cy="0" r="80" fill="url(#p16p3holo)" filter="url(#p16p3glow)" opacity="0.65"/>
+
+    <!-- Body — in motion, leaning forward, mid-stride -->
+    <path d="M-6,-30 L-10,-10 L-14,30 L-2,32 L0,-10 Z" fill="url(#p16p3suit)"/>
+    <path d="M2,-30 L4,-10 L8,32 L18,28 L14,-10 Z" fill="url(#p16p3suit)"/>
+    <!-- Suit accent line -->
+    <line x1="-6" y1="-20" x2="14" y2="-20" stroke="#ffaa48" stroke-width="0.7" opacity="0.85" filter="url(#p16p3bloom)"/>
+
+    <!-- Shoulders -->
+    <ellipse cx="-6" cy="-30" rx="4" ry="3" fill="url(#p16p3suit)"/>
+    <ellipse cx="14" cy="-30" rx="4" ry="3" fill="url(#p16p3suit)"/>
+    <!-- SCORCH MARK on left shoulder -->
+    <ellipse cx="-6" cy="-30" rx="3" ry="2" fill="#1a0c04" opacity="0.7"/>
+
+    <!-- Arms — left arm down with HOLOGRAPHIC SCHEMATIC at wrist (FLARED) -->
+    <line x1="-6" y1="-26" x2="-22" y2="-2" stroke="#7a4818" stroke-width="3.4" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="-2" rx="3" ry="2" fill="url(#p16p3skin)"/>
+    <!-- WRIST HOLO — geometric copper-gold light pattern -->
+    <g transform="translate(-22 -2)">
+      <circle cx="0" cy="0" r="9" fill="url(#p16p3holo)" filter="url(#p16p3glow)"/>
+      <!-- Hex pattern -->
+      <polygon points="-4,0 -2,-3.4 2,-3.4 4,0 2,3.4 -2,3.4" fill="none" stroke="#ffd078" stroke-width="0.7" opacity="0.85" filter="url(#p16p3bloom)"/>
+      <polygon points="-2,0 -1,-2 1,-2 2,0 1,2 -1,2" fill="#ffd078" opacity="0.85" filter="url(#p16p3bloom)"/>
+      <!-- Geometric lines projecting -->
+      <line x1="6" y1="-6" x2="14" y2="-14" stroke="#ffaa48" stroke-width="0.55" opacity="0.85" filter="url(#p16p3bloom)"/>
+      <line x1="-6" y1="6" x2="-14" y2="14" stroke="#ffaa48" stroke-width="0.55" opacity="0.85" filter="url(#p16p3bloom)"/>
+      <line x1="6" y1="6" x2="14" y2="14" stroke="#ffaa48" stroke-width="0.55" opacity="0.85" filter="url(#p16p3bloom)"/>
+    </g>
+
+    <!-- Right arm extending forward (toward target) -->
+    <line x1="14" y1="-26" x2="40" y2="-10" stroke="#7a4818" stroke-width="3.4" stroke-linecap="round"/>
+    <ellipse cx="40" cy="-10" rx="3" ry="2" fill="url(#p16p3skin)"/>
+
+    <!-- Legs — mid-stride, stepping over shaft -->
+    <line x1="-6" y1="32" x2="-14" y2="50" stroke="#5a2818" stroke-width="2.4"/>
+    <line x1="6" y1="32" x2="20" y2="44" stroke="#5a2818" stroke-width="2.4"/>
+
+    <!-- HEAD — tilted forward, eyes ahead toward target -->
+    <ellipse cx="4" cy="-40" rx="6" ry="7" fill="url(#p16p3skin)"/>
+    <!-- Hair UP bun + WILD strands flowing in motion -->
+    <ellipse cx="4" cy="-46" rx="3" ry="2" fill="#0a0604"/>
+    <path d="M-2,-40 Q-9,-36 -14,-30" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M10,-40 Q12,-36 14,-32" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <!-- Eyes — fierce concentration ahead -->
+    <ellipse cx="6" cy="-40" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="7" cy="-40" r="1" fill="#0a0604"/>
+    <!-- Brow — set, intent -->
+    <path d="M2,-44 L10,-44" stroke="#0a0604" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- Mouth — set tight -->
+    <path d="M3,-36 L7,-36" stroke="#3a1808" stroke-width="0.55"/>
+
+    <!-- Heavy oil stains on suit + chest oil smear -->
+    <ellipse cx="0" cy="0" rx="6" ry="3" fill="#1a0c04" opacity="0.55"/>
+    <circle cx="-6" cy="14" r="2" fill="#1a0c04" opacity="0.65"/>
+    <circle cx="11" cy="20" r="1.4" fill="#1a0c04" opacity="0.55"/>
+  </g>
+
+  <!-- Faint geometric path lines projecting forward (her plotted route) -->
+  <g stroke="#ffaa48" stroke-width="0.55" fill="none" opacity="0.55" stroke-dasharray="3,3" filter="url(#p16p3bloom)">
+    <path d="M180,240 Q240,220 300,235"/>
+  </g>
+
+  <!-- CAPTION (Wren internal) -->
+  <g>
+    <rect x="14" y="14" width="180" height="34" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="22" y="28" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="22" y="42" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic" font-weight="700">"Thirty seconds."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,260 Q90,258 180,262 Q280,264 366,260"/>
+  </g>
+</svg>

@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 311" width="366" height="311">
+  <title>Issue 5 — Page 16 — Panel 2: Jink beneath bench signals — three fingers, then fist — diversion working</title>
+  <desc>35mm low angle from baseboard. Forest of bench legs, chair legs, Theodore boots, clockmaker shoes. Jink crouches in baseboard shadow looking up. Hand raised in tactical signal — three fingers extended, then a fist. The count. Wren has window. Faint emerald holographic glow from suit seams. Dialog: JINK sub-whisper into comms: His hands are clear. Go.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p16p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p16p2floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1808"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p16p2bench" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p16p2jinkSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3ad0a8"/>
+      <stop offset="50%" stop-color="#2ed078"/>
+      <stop offset="100%" stop-color="#0a4018"/>
+    </linearGradient>
+    <linearGradient id="p16p2skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <radialGradient id="p16p2warmGap" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3018" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p16p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p16p2glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <rect width="366" height="311" fill="url(#p16p2bg)"/>
+
+  <!-- WARM AMBER GAP (light from above through bench gap) -->
+  <rect width="366" height="311" fill="url(#p16p2warmGap)"/>
+
+  <!-- BENCH UNDERSIDE (top of frame) -->
+  <rect width="366" height="60" fill="url(#p16p2bench)"/>
+  <line x1="0" y1="60" x2="366" y2="60" stroke="#1a0c04" stroke-width="0.85"/>
+  <!-- Bench legs (forest of pillars) -->
+  <rect x="40" y="0" width="22" height="280" fill="#3a1808"/>
+  <rect x="40" y="0" width="22" height="280" fill="none" stroke="#1a0c04" stroke-width="0.55"/>
+  <line x1="44" y1="60" x2="44" y2="280" stroke="#1a0c04" stroke-width="0.4"/>
+  <rect x="280" y="0" width="22" height="280" fill="#3a1808"/>
+  <rect x="280" y="0" width="22" height="280" fill="none" stroke="#1a0c04" stroke-width="0.55"/>
+  <line x1="284" y1="60" x2="284" y2="280" stroke="#1a0c04" stroke-width="0.4"/>
+
+  <!-- Theodore's SCUFFED BOOTS — visible on left (stamping forward into bench) -->
+  <g transform="translate(120 240)">
+    <ellipse cx="0" cy="20" rx="28" ry="9" fill="#3a1808"/>
+    <rect x="-22" y="-30" width="44" height="40" fill="#5a2818"/>
+    <ellipse cx="0" cy="-30" rx="22" ry="6" fill="#3a1808"/>
+    <!-- Scuffs -->
+    <ellipse cx="-9" cy="0" rx="6" ry="3" fill="#1a0c04" opacity="0.65"/>
+    <ellipse cx="11" cy="6" rx="4" ry="2" fill="#1a0c04" opacity="0.65"/>
+    <line x1="-22" y1="-12" x2="22" y2="-12" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Patched trousers visible above -->
+    <rect x="-16" y="-40" width="32" height="14" fill="#5a3818"/>
+  </g>
+
+  <!-- CLOCKMAKER's POLISHED SHOES — visible on right -->
+  <g transform="translate(220 240)">
+    <ellipse cx="0" cy="20" rx="32" ry="11" fill="#1a0c04"/>
+    <rect x="-26" y="-30" width="52" height="40" fill="#3a1808"/>
+    <ellipse cx="0" cy="-30" rx="26" ry="7" fill="#1a0c04"/>
+    <!-- Polish sheen -->
+    <ellipse cx="-7" cy="-7" rx="4" ry="2" fill="#fff8e8" opacity="0.65" filter="url(#p16p2bloom)"/>
+    <ellipse cx="11" cy="0" rx="6" ry="3" fill="#fff8e8" opacity="0.45" filter="url(#p16p2bloom)"/>
+    <!-- Wool trousers above -->
+    <rect x="-22" y="-40" width="44" height="14" fill="#3a2818"/>
+  </g>
+
+  <!-- FLOOR -->
+  <rect y="280" width="366" height="31" fill="url(#p16p2floor)"/>
+  <line x1="0" y1="280" x2="366" y2="280" stroke="#1a0c04" stroke-width="0.55"/>
+
+  <!-- Baseboard at floor edge — DEEP SHADOW where Jink hides -->
+  <ellipse cx="180" cy="290" rx="120" ry="16" fill="#0a0408" opacity="0.85"/>
+
+  <!-- ===== JINK — crouched in baseboard shadow, looking up, signaling ===== -->
+  <g transform="translate(180 240)">
+    <!-- Faint emerald halo -->
+    <ellipse cx="0" cy="20" rx="40" ry="20" fill="#3ad0a8" opacity="0.35" filter="url(#p16p2glow)"/>
+
+    <!-- Body crouched -->
+    <path d="M-14,30 L-18,60 L18,60 L14,30 Z" fill="url(#p16p2jinkSuit)"/>
+    <!-- Wing-pack seams -->
+    <line x1="-12" y1="40" x2="12" y2="40" stroke="#3ad0a8" stroke-width="0.85" opacity="0.85" filter="url(#p16p2bloom)"/>
+    <line x1="-10" y1="50" x2="10" y2="50" stroke="#3ad0a8" stroke-width="0.7" opacity="0.75" filter="url(#p16p2bloom)"/>
+    <!-- CHEST SOOT STREAK -->
+    <ellipse cx="-3" cy="42" rx="6" ry="9" fill="#1a0c04" opacity="0.55" transform="rotate(-15 -3 42)"/>
+
+    <!-- Wing-pack edges glowing -->
+    <path d="M-14,30 L-22,22 L-18,30 Z" fill="#3ad0a8" opacity="0.75" filter="url(#p16p2bloom)"/>
+    <path d="M14,30 L22,22 L18,30 Z" fill="#3ad0a8" opacity="0.75" filter="url(#p16p2bloom)"/>
+
+    <!-- Shoulders -->
+    <ellipse cx="-14" cy="26" rx="6" ry="3.4" fill="url(#p16p2jinkSuit)"/>
+    <ellipse cx="14" cy="26" rx="6" ry="3.4" fill="url(#p16p2jinkSuit)"/>
+
+    <!-- LEFT ARM lowered (resting at side) -->
+    <line x1="-14" y1="32" x2="-22" y2="56" stroke="#2ed078" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- RIGHT ARM RAISED — three fingers extended (signal) -->
+    <line x1="14" y1="32" x2="30" y2="-30" stroke="#2ed078" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="30" cy="-30" rx="4" ry="3" fill="url(#p16p2skin)"/>
+    <!-- THREE FINGERS extended -->
+    <line x1="30" y1="-32" x2="32" y2="-44" stroke="url(#p16p2skin)" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="32" y1="-32" x2="34" y2="-44" stroke="url(#p16p2skin)" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="34" y1="-32" x2="36" y2="-44" stroke="url(#p16p2skin)" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Pinky and thumb tucked -->
+    <ellipse cx="29" cy="-28" rx="1.4" ry="1" fill="url(#p16p2skin)"/>
+
+    <!-- HEAD looking UP -->
+    <ellipse cx="0" cy="20" rx="14" ry="16" fill="url(#p16p2skin)"/>
+    <!-- GOLDEN CURLS (wild, bright) -->
+    <ellipse cx="0" cy="6" rx="18" ry="9" fill="#f8d068"/>
+    <ellipse cx="-9" cy="3" rx="4" ry="3" fill="#f8d068"/>
+    <ellipse cx="9" cy="3" rx="4" ry="3" fill="#f8d068"/>
+    <ellipse cx="0" cy="0" rx="11" ry="4" fill="#f8d068"/>
+    <ellipse cx="-12" cy="9" rx="3" ry="4" fill="#f8d068"/>
+    <ellipse cx="12" cy="9" rx="3" ry="4" fill="#f8d068"/>
+    <!-- Eyes — focused, looking up -->
+    <ellipse cx="-5" cy="22" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-5" cy="20" r="1.2" fill="#2ed078"/>
+    <circle cx="-5" cy="19" r="0.4" fill="#0a0604"/>
+    <ellipse cx="5" cy="22" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <circle cx="5" cy="20" r="1.2" fill="#2ed078"/>
+    <circle cx="5" cy="19" r="0.4" fill="#0a0604"/>
+    <!-- Brows level — focused, professional -->
+    <path d="M-9,16 L-2,16" stroke="#5a3818" stroke-width="0.7" stroke-linecap="round"/>
+    <path d="M2,16 L9,16" stroke="#5a3818" stroke-width="0.7" stroke-linecap="round"/>
+    <!-- Mouth — set, no grin -->
+    <path d="M-3,30 L3,30" stroke="#3a1808" stroke-width="0.55" stroke-linecap="round"/>
+  </g>
+
+  <!-- Tiny earpiece pulse near Jink -->
+  <circle cx="190" cy="262" r="0.85" fill="#a8d8ff" opacity="0.85" filter="url(#p16p2bloom)"/>
+
+  <!-- DIALOG JINK sub-whisper (dashed border) -->
+  <g transform="translate(120 90)">
+    <ellipse cx="0" cy="0" rx="100" ry="22" fill="#ffffff" stroke="#2ed078" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M40,18 L56,32 L44,20 Z" fill="#ffffff" stroke="#2ed078" stroke-width="1"/>
+    <text x="-90" y="-7" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK</text>
+    <text x="-90" y="9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="500">"His hands are clear. Go."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q90,92 180,88 Q280,86 366,90"/>
+    <path d="M0,260 Q90,258 180,262 Q280,264 366,260"/>
+  </g>
+</svg>

@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 311" width="742" height="311">
+  <title>Issue 5 — Page 16 — Panel 4: Split composition — Theodore + clockmaker (left) + Wren reaching gear (right) — heist's dual reality</title>
+  <desc>35mm split frame. LEFT: Theodore + clockmaker at bench, gesturing about mainspring alloy, two years to temper. Warm intimate. RIGHT: Wren inside mechanism reaching target gear, both hands on it. Fairy-scale, copper-gold holo pulse. Two realities same physical space. Dialog: CLOCKMAKER left: The mainspring's my own alloy. Took two years to get the temper right. / THEODORE left: Two years? / WREN right caption: Contact.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p16p4bgL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p16p4bgR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="p16p4skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="p16p4skinDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a4818"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="p16p4suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="p16p4waistcoat" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="50%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="p16p4target" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="40%" stop-color="#ffd078"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <radialGradient id="p16p4lampGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p16p4holoGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7a4818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p16p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="p16p4glow"><feGaussianBlur stdDeviation="2.4"/></filter>
+  </defs>
+
+  <!-- LEFT HALF — human scale, warm -->
+  <rect width="371" height="311" fill="url(#p16p4bgL)"/>
+  <ellipse cx="185" cy="180" rx="200" ry="160" fill="url(#p16p4lampGlow)" filter="url(#p16p4glow)"/>
+
+  <!-- Bench in left half -->
+  <rect x="0" y="220" width="371" height="91" fill="#5a3018"/>
+  <line x1="0" y1="220" x2="371" y2="220" stroke="#a86838" stroke-width="0.85" opacity="0.85" filter="url(#p16p4bloom)"/>
+
+  <!-- Mechanism on bench (smaller, mid-shot) -->
+  <g transform="translate(185 200)">
+    <rect x="-50" y="-30" width="100" height="40" fill="#3a1808"/>
+    <rect x="-46" y="-26" width="92" height="32" fill="#0a0408"/>
+    <circle cx="-22" cy="-10" r="9" fill="#ffd078" opacity="0.85"/>
+    <circle cx="0" cy="-10" r="11" fill="#ffd078" opacity="0.85"/>
+    <circle cx="22" cy="-10" r="9" fill="#ffd078" opacity="0.85"/>
+  </g>
+
+  <!-- THEODORE on left of bench -->
+  <g transform="translate(80 130)">
+    <path d="M-22,40 L-30,120 L-12,120 L-10,40 L10,40 L12,120 L30,120 L22,40 Z" fill="#5a3818"/>
+    <path d="M-22,40 L-30,-10 L-26,40 Z" fill="url(#p16p4waistcoat)"/>
+    <path d="M22,40 L30,-10 L26,40 Z" fill="url(#p16p4waistcoat)"/>
+    <ellipse cx="0" cy="32" rx="12" ry="6" fill="#d8c8a8"/>
+    <line x1="-18" y1="40" x2="-26" y2="100" stroke="url(#p16p4skin)" stroke-width="11" stroke-linecap="round"/>
+    <line x1="22" y1="40" x2="50" y2="80" stroke="url(#p16p4skin)" stroke-width="11" stroke-linecap="round"/>
+    <ellipse cx="-26" cy="100" rx="6" ry="4" fill="url(#p16p4skin)"/>
+    <ellipse cx="50" cy="80" rx="6" ry="4" fill="url(#p16p4skin)"/>
+    <ellipse cx="0" cy="0" rx="16" ry="20" fill="url(#p16p4skin)"/>
+    <path d="M-14,-18 Q-10,-24 0,-26 Q10,-24 14,-18 L12,-10 Q6,-22 0,-22 Q-6,-22 -12,-10 Z" fill="#a87838"/>
+    <ellipse cx="-5" cy="-4" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-5" cy="-3" r="1" fill="#7a4818"/>
+    <ellipse cx="5" cy="-4" rx="2.4" ry="1.4" fill="#fff8e8"/>
+    <circle cx="5" cy="-3" r="1" fill="#7a4818"/>
+    <path d="M-9,-10 L-3,-12" stroke="#5a3018" stroke-width="0.7"/>
+    <path d="M3,-12 L9,-10" stroke="#5a3018" stroke-width="0.7"/>
+    <ellipse cx="0" cy="8" rx="3" ry="2" fill="#3a1808"/>
+  </g>
+
+  <!-- CLOCKMAKER on right of bench, gesturing expansively -->
+  <g transform="translate(290 130)">
+    <rect x="-22" y="100" width="44" height="40" fill="#3a1808"/>
+    <path d="M-30,40 L-44,120 L44,120 L30,40 Z" fill="#4a3818"/>
+    <ellipse cx="0" cy="32" rx="20" ry="9" fill="#d8c8a8"/>
+    <!-- Arm gesturing wide -->
+    <line x1="-30" y1="40" x2="-100" y2="-10" stroke="#d8a878" stroke-width="11" stroke-linecap="round"/>
+    <line x1="30" y1="40" x2="40" y2="100" stroke="#d8a878" stroke-width="11" stroke-linecap="round"/>
+    <ellipse cx="-100" cy="-10" rx="11" ry="7" fill="url(#p16p4skin)"/>
+    <ellipse cx="40" cy="100" rx="9" ry="6" fill="url(#p16p4skin)"/>
+    <!-- Head -->
+    <ellipse cx="-10" cy="0" rx="20" ry="22" fill="url(#p16p4skin)"/>
+    <path d="M-30,-22 Q-22,-30 -10,-32 Q2,-30 8,-22 L6,-12 Q-2,-26 -10,-26 Q-18,-26 -28,-12 Z" fill="#7a5028"/>
+    <ellipse cx="-20" cy="-2" rx="6" ry="3" fill="none" stroke="#3a2818" stroke-width="0.55"/>
+    <ellipse cx="-2" cy="-2" rx="6" ry="3" fill="none" stroke="#3a2818" stroke-width="0.55"/>
+    <ellipse cx="-20" cy="-1" rx="2.4" ry="1.4" fill="#a8b8c8"/>
+    <circle cx="-20" cy="-1" r="1" fill="#0a0c14"/>
+    <ellipse cx="-2" cy="-1" rx="2.4" ry="1.4" fill="#a8b8c8"/>
+    <circle cx="-2" cy="-1" r="1" fill="#0a0c14"/>
+    <path d="M-26,-12 L-15,-13" stroke="#5a3018" stroke-width="0.7"/>
+    <path d="M-7,-13 L4,-12" stroke="#5a3018" stroke-width="0.7"/>
+    <!-- Mouth — speaking -->
+    <ellipse cx="-10" cy="12" rx="3" ry="2" fill="#3a1808"/>
+  </g>
+
+  <!-- ===== VERTICAL DIVIDER — clock case edge (suggests split) ===== -->
+  <rect x="368" y="0" width="6" height="311" fill="#1a0c04"/>
+  <line x1="371" y1="0" x2="371" y2="311" stroke="#5a3018" stroke-width="0.55" opacity="0.85"/>
+
+  <!-- RIGHT HALF — fairy scale, copper-gold holo glow -->
+  <rect x="374" width="368" height="311" fill="url(#p16p4bgR)"/>
+  <ellipse cx="558" cy="160" rx="220" ry="180" fill="url(#p16p4holoGlow)" filter="url(#p16p4glow)" opacity="0.85"/>
+
+  <!-- Brass mechanism interior on right -->
+  <rect x="374" y="220" width="368" height="91" fill="#7a4818"/>
+  <line x1="374" y1="220" x2="742" y2="220" stroke="#fff8e8" stroke-width="0.7" opacity="0.55" filter="url(#p16p4bloom)"/>
+  <!-- Distant gears framing -->
+  <circle cx="742" cy="100" r="80" fill="#5a3018" opacity="0.85"/>
+  <circle cx="400" cy="60" r="60" fill="#5a3018" opacity="0.85"/>
+  <circle cx="558" cy="40" r="40" fill="#7a4818" opacity="0.85"/>
+
+  <!-- TARGET GEAR — sharp focus, RIGHT-CENTER -->
+  <g transform="translate(580 180)">
+    <circle cx="0" cy="0" r="80" fill="url(#p16p4target)"/>
+    <circle cx="0" cy="0" r="60" fill="#7a4818" opacity="0.65"/>
+    <circle cx="0" cy="0" r="14" fill="#1a0c04"/>
+    <g stroke="#5a3018" stroke-width="0.85" opacity="0.85">
+      <line x1="0" y1="-60" x2="0" y2="60"/>
+      <line x1="-60" y1="0" x2="60" y2="0"/>
+      <line x1="-42" y1="-42" x2="42" y2="42"/>
+      <line x1="42" y1="-42" x2="-42" y2="42"/>
+    </g>
+    <g fill="url(#p16p4target)" stroke="#5a3018" stroke-width="0.4">
+      <rect x="-3" y="-86" width="6" height="8"/>
+      <rect x="-3" y="78" width="6" height="8"/>
+      <rect x="-86" y="-3" width="8" height="6"/>
+      <rect x="78" y="-3" width="8" height="6"/>
+      <g transform="rotate(45)"><rect x="-3" y="-86" width="6" height="8"/></g>
+      <g transform="rotate(135)"><rect x="-3" y="-86" width="6" height="8"/></g>
+      <g transform="rotate(225)"><rect x="-3" y="-86" width="6" height="8"/></g>
+      <g transform="rotate(315)"><rect x="-3" y="-86" width="6" height="8"/></g>
+    </g>
+    <ellipse cx="-22" cy="-22" rx="11" ry="6" fill="#fff8e8" opacity="0.85" filter="url(#p16p4bloom)"/>
+    <!-- Hot bright halo -->
+    <circle cx="0" cy="0" r="100" fill="#ffd078" opacity="0.45" filter="url(#p16p4glow)"/>
+  </g>
+
+  <!-- ===== WREN — hands on target gear ===== -->
+  <g transform="translate(580 180)">
+    <!-- Holographic glow around her hands and wrists (copper-gold pulse) -->
+    <circle cx="-44" cy="0" r="22" fill="url(#p16p4holoGlow)" filter="url(#p16p4glow)"/>
+    <circle cx="44" cy="0" r="22" fill="url(#p16p4holoGlow)" filter="url(#p16p4glow)"/>
+
+    <!-- Body — small figure standing in front of gear, hands on rim -->
+    <path d="M-10,-30 L-14,30 L14,30 L10,-30 Z" fill="url(#p16p4suit)"/>
+    <line x1="-7" y1="-15" x2="7" y2="-15" stroke="#ffaa48" stroke-width="0.7" opacity="0.85" filter="url(#p16p4bloom)"/>
+
+    <!-- Shoulders -->
+    <ellipse cx="-10" cy="-30" rx="4" ry="2.4" fill="url(#p16p4suit)"/>
+    <ellipse cx="10" cy="-30" rx="4" ry="2.4" fill="url(#p16p4suit)"/>
+    <!-- Scorch -->
+    <ellipse cx="-10" cy="-30" rx="3" ry="2" fill="#1a0c04" opacity="0.7"/>
+
+    <!-- HANDS extending OUT to gear rim (left and right, palms on gear) -->
+    <line x1="-10" y1="-22" x2="-44" y2="-2" stroke="#7a4818" stroke-width="3.4" stroke-linecap="round"/>
+    <line x1="10" y1="-22" x2="44" y2="-2" stroke="#7a4818" stroke-width="3.4" stroke-linecap="round"/>
+    <ellipse cx="-44" cy="-2" rx="6" ry="4" fill="url(#p16p4skinDark)"/>
+    <ellipse cx="44" cy="-2" rx="6" ry="4" fill="url(#p16p4skinDark)"/>
+    <!-- Hex orbit around wrists (copper-gold geometric pattern) -->
+    <polygon points="-50,-2 -47,-7 -41,-7 -38,-2 -41,3 -47,3" fill="none" stroke="#ffd078" stroke-width="0.7" opacity="0.85" filter="url(#p16p4bloom)"/>
+    <polygon points="50,-2 47,-7 41,-7 38,-2 41,3 47,3" fill="none" stroke="#ffd078" stroke-width="0.7" opacity="0.85" filter="url(#p16p4bloom)"/>
+
+    <!-- Head — fierce concentration -->
+    <ellipse cx="0" cy="-44" rx="9" ry="11" fill="url(#p16p4skinDark)"/>
+    <ellipse cx="0" cy="-50" rx="5" ry="3" fill="#0a0604"/>
+    <path d="M-7,-46 Q-9,-42 -7,-38" stroke="#0a0604" stroke-width="0.7" fill="none"/>
+    <path d="M7,-46 Q9,-42 7,-38" stroke="#0a0604" stroke-width="0.7" fill="none"/>
+    <!-- Eyes — focused -->
+    <ellipse cx="-3" cy="-44" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-3" cy="-44" r="1" fill="#0a0604"/>
+    <ellipse cx="3" cy="-44" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="3" cy="-44" r="1" fill="#0a0604"/>
+    <path d="M-7,-48 L0,-48" stroke="#0a0604" stroke-width="0.7"/>
+    <path d="M0,-48 L7,-48" stroke="#0a0604" stroke-width="0.7"/>
+    <path d="M-3,-38 L3,-38" stroke="#3a1808" stroke-width="0.55"/>
+
+    <!-- Legs -->
+    <line x1="-7" y1="30" x2="-9" y2="44" stroke="#5a2818" stroke-width="2"/>
+    <line x1="7" y1="30" x2="9" y2="44" stroke="#5a2818" stroke-width="2"/>
+
+    <!-- Substitute gear still on her back -->
+    <circle cx="0" cy="-12" r="4" fill="url(#p16p4target)" stroke="#5a3018" stroke-width="0.55" opacity="0.85"/>
+    <path d="M-4,-12 Q0,-8 4,-12" stroke="#c87a35" stroke-width="0.4" fill="none"/>
+  </g>
+
+  <!-- DIALOG CLOCKMAKER (left) -->
+  <g transform="translate(186 50)">
+    <ellipse cx="0" cy="0" rx="160" ry="34" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M30,28 L46,44 L36,30 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="-150" y="-15" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a4030" font-weight="700">CLOCKMAKER</text>
+    <text x="-150" y="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">"The mainspring's my own alloy.</text>
+    <text x="-150" y="14" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">Took two years to get the temper right."</text>
+  </g>
+
+  <!-- DIALOG THEODORE (left, smaller) -->
+  <g transform="translate(80 250)">
+    <ellipse cx="0" cy="0" rx="50" ry="20" fill="#ffffff" stroke="#6a4220" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M22,-16 L36,-30 L26,-18 Z" fill="#ffffff" stroke="#6a4220" stroke-width="1"/>
+    <text x="-40" y="-5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE</text>
+    <text x="-40" y="9" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic" font-weight="600">"Two years?"</text>
+  </g>
+
+  <!-- CAPTION WREN (right) -->
+  <g>
+    <rect x="384" y="270" width="120" height="30" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <text x="392" y="282" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN</text>
+    <text x="392" y="294" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic" font-weight="700">"Contact."</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q180,92 360,88 Q540,86 742,90"/>
+    <path d="M0,260 Q180,258 360,262 Q540,264 742,260"/>
+  </g>
+</svg>
