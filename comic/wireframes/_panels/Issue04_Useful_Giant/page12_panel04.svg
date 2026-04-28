@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 4 — Page 12 — Panel 4: Theodore acknowledges + But you do have wings + Jink delights</title>
+  <desc>28mm wide. Squad in BG (Sable visible mouth-open in mid-recoil reaction), Theodore's face above through gap (sincere then teasing). Theodore: I understand, ma'am. You're soldiers. Not fairies. I shan't tell a soul. / But you do have wings. / Jink (loud, delighted): He's got you there.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p12p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1424"/>
+      <stop offset="100%" stop-color="#0a0814"/>
+    </linearGradient>
+    <linearGradient id="p12p4timber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="p12p4floorboard" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="p12p4theoSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8b8a8"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </linearGradient>
+    <linearGradient id="p12p4silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dad5d0"/>
+      <stop offset="100%" stop-color="#5a5860"/>
+    </linearGradient>
+    <linearGradient id="p12p4emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3aa868"/>
+      <stop offset="100%" stop-color="#1a5a38"/>
+    </linearGradient>
+    <linearGradient id="p12p4darkSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="100%" stop-color="#7a4838"/>
+    </linearGradient>
+    <linearGradient id="p12p4jinkSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#c89878"/>
+    </linearGradient>
+    <radialGradient id="p12p4gapDay" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#d8c8a8"/>
+      <stop offset="100%" stop-color="#a89888"/>
+    </radialGradient>
+    <filter id="p12p4bloom"><feGaussianBlur stdDeviation="1.5"/></filter>
+  </defs>
+
+  <rect width="742" height="364" fill="url(#p12p4bg)"/>
+
+  <!-- Top: floorboard with gap showing Theodore's face -->
+  <rect x="0" y="0" width="742" height="80" fill="url(#p12p4floorboard)"/>
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.65">
+    <line x1="0" y1="20" x2="742" y2="20"/>
+    <line x1="0" y1="60" x2="742" y2="60"/>
+  </g>
+  <g>
+    <rect x="240" y="20" width="262" height="40" fill="url(#p12p4gapDay)"/>
+    <rect x="240" y="20" width="262" height="2" fill="#1a0c04"/>
+    <rect x="240" y="58" width="262" height="2" fill="#1a0c04"/>
+    <ellipse cx="372" cy="40" rx="100" ry="18" fill="url(#p12p4theoSkin)"/>
+    <!-- Eyes — slightly mischievous -->
+    <ellipse cx="350" cy="38" rx="9" ry="6" fill="#fff8e8"/>
+    <circle cx="352" cy="38" r="3" fill="#7a5028"/>
+    <circle cx="352" cy="38" r="1.4" fill="#0a0604"/>
+    <ellipse cx="394" cy="38" rx="9" ry="6" fill="#fff8e8"/>
+    <circle cx="396" cy="38" r="3" fill="#7a5028"/>
+    <circle cx="396" cy="38" r="1.4" fill="#0a0604"/>
+    <!-- Nose -->
+    <path d="M372,44 L368,52 Q372,54 376,52 Z" fill="#a87858" opacity="0.55"/>
+    <!-- Mouth — slight smile (delivering the wings line) -->
+    <path d="M362,56 Q372,60 384,56" fill="none" stroke="#5a2818" stroke-width="0.85"/>
+    <!-- Freckles -->
+    <g fill="#7a5848" opacity="0.7">
+      <circle cx="340" cy="48" r="1.2"/>
+      <circle cx="360" cy="50" r="1.2"/>
+      <circle cx="380" cy="50" r="1.2"/>
+      <circle cx="400" cy="48" r="1.2"/>
+    </g>
+  </g>
+
+  <!-- Brick walls -->
+  <rect x="0" y="80" width="60" height="200" fill="#2a1810" opacity="0.7"/>
+  <rect x="682" y="80" width="60" height="200" fill="#2a1810" opacity="0.7"/>
+
+  <!-- Beam -->
+  <rect x="40" y="280" width="662" height="40" fill="url(#p12p4timber)"/>
+  <g stroke="#1a0c04" stroke-width="0.5" opacity="0.65">
+    <line x1="40" y1="282" x2="702" y2="282"/>
+    <line x1="40" y1="316" x2="702" y2="316"/>
+  </g>
+
+  <!-- SABLE (left, mid-recoil — mouth slightly open, surprised) -->
+  <g transform="translate(280 282)">
+    <ellipse cx="0" cy="0" rx="14" ry="2.5" fill="#0a0604" opacity="0.65"/>
+    <path d="M-7,-44 L-10,-2 L-3,0 L-1,-44 Z" fill="url(#p12p4silver)"/>
+    <path d="M1,-44 L3,0 L10,-2 L7,-44 Z" fill="url(#p12p4silver)"/>
+    <path d="M-13,-78 L-15,-44 L15,-44 L13,-78 Z" fill="url(#p12p4silver)"/>
+    <ellipse cx="13" cy="-76" rx="5" ry="3.5" fill="#3a3038" opacity="0.75"/>
+    <path d="M-15,-78 Q-21,-86 -15,-92 L-8,-92 Z" fill="url(#p12p4silver)"/>
+    <path d="M15,-78 Q21,-86 15,-92 L8,-92 Z" fill="url(#p12p4silver)"/>
+    <circle cx="-9" cy="-86" r="0.85" fill="#fff8e8" filter="url(#p12p4bloom)"/>
+    <circle cx="9" cy="-86" r="0.85" fill="#fff8e8" filter="url(#p12p4bloom)"/>
+    <path d="M-15,-76 Q-22,-58 -16,-44 L-10,-46 Q-12,-58 -10,-74 Z" fill="url(#p12p4silver)"/>
+    <path d="M15,-76 Q22,-58 16,-44 L10,-46 Q12,-58 10,-74 Z" fill="url(#p12p4silver)"/>
+    <ellipse cx="-15" cy="-44" rx="2.4" ry="1.4" fill="url(#p12p4darkSkin)"/>
+    <ellipse cx="15" cy="-44" rx="2.4" ry="1.4" fill="url(#p12p4darkSkin)"/>
+    <!-- Head — surprised, mouth slightly open -->
+    <ellipse cx="0" cy="-104" rx="9" ry="11" fill="url(#p12p4darkSkin)"/>
+    <g fill="#dad5d0">
+      <path d="M-7,-111 Q-8,-117 0,-119 Q8,-117 7,-111 L5,-106 Q2,-112 -2,-112 Q-5,-112 -7,-106 Z"/>
+    </g>
+    <!-- Brows raised slightly (recoil) -->
+    <path d="M-7,-115 L-1,-117" stroke="#3a3028" stroke-width="0.85"/>
+    <path d="M1,-117 L7,-115" stroke="#3a3028" stroke-width="0.85"/>
+    <ellipse cx="-3" cy="-104" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="-3" cy="-104" r="0.6" fill="#0a0604"/>
+    <ellipse cx="3" cy="-104" rx="1.5" ry="1" fill="#fff8e8"/>
+    <circle cx="3" cy="-104" r="0.6" fill="#0a0604"/>
+    <!-- Mouth slightly open -->
+    <ellipse cx="0" cy="-98" rx="2.4" ry="1.2" fill="#5a1808"/>
+  </g>
+
+  <!-- Wren in BG -->
+  <g transform="translate(360 282)" opacity="0.85">
+    <ellipse cx="0" cy="0" rx="11" ry="2" fill="#0a0604" opacity="0.5"/>
+    <path d="M-6,-32 L-9,-2 L-3,0 L-1,-32 Z" fill="#c87533"/>
+    <path d="M1,-32 L3,0 L9,-2 L6,-32 Z" fill="#c87533"/>
+    <path d="M-11,-58 L-13,-32 L13,-32 L11,-58 Z" fill="#c87533"/>
+    <ellipse cx="-11" cy="-56" rx="3" ry="2" fill="#1a0c04" opacity="0.75"/>
+    <ellipse cx="0" cy="-70" rx="7" ry="9" fill="url(#p12p4jinkSkin)"/>
+    <g fill="#1a0c04">
+      <path d="M-6,-77 Q-6,-81 0,-82 Q6,-81 6,-77 L5,-74 Q2,-77 -2,-77 Q-4,-77 -6,-74 Z"/>
+      <ellipse cx="0" cy="-86" rx="4" ry="3"/>
+    </g>
+    <!-- Wren mouth — slight smile (caught off-guard amusement) -->
+    <path d="M-3,-66 Q0,-64 3,-66" fill="none" stroke="#3a2010" stroke-width="0.55"/>
+  </g>
+
+  <!-- JINK — right, LAUGHING/delighted GRIN BACK -->
+  <g transform="translate(560 282)">
+    <ellipse cx="0" cy="0" rx="14" ry="2.5" fill="#0a0604" opacity="0.7"/>
+    <path d="M-7,-44 L-10,-2 L-3,0 L-1,-44 Z" fill="url(#p12p4emerald)"/>
+    <path d="M1,-44 L3,0 L10,-2 L7,-44 Z" fill="url(#p12p4emerald)"/>
+    <path d="M-13,-78 L-15,-44 L15,-44 L13,-78 Z" fill="url(#p12p4emerald)"/>
+    <path d="M-9,-72 Q-2,-66 5,-72 Q-2,-58 -8,-54 Z" fill="#3a2818" opacity="0.7"/>
+    <path d="M-15,-78 Q-21,-86 -15,-92 L-8,-92 Z" fill="url(#p12p4emerald)"/>
+    <path d="M15,-78 Q21,-86 15,-92 L8,-92 Z" fill="url(#p12p4emerald)"/>
+    <circle cx="-10" cy="-86" r="1.2" fill="#9aff9a" filter="url(#p12p4bloom)"/>
+    <circle cx="10" cy="-86" r="1.2" fill="#9aff9a" filter="url(#p12p4bloom)"/>
+    <!-- Arms — one slapping knee/thigh (laughing posture) -->
+    <path d="M-15,-76 Q-26,-60 -22,-44 L-14,-46 Q-16,-58 -10,-74 Z" fill="url(#p12p4emerald)"/>
+    <path d="M15,-76 Q26,-60 22,-44 L14,-46 Q16,-58 10,-74 Z" fill="url(#p12p4emerald)"/>
+    <ellipse cx="-22" cy="-44" rx="2.4" ry="1.4" fill="url(#p12p4jinkSkin)"/>
+    <ellipse cx="22" cy="-44" rx="2.4" ry="1.4" fill="url(#p12p4jinkSkin)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-104" rx="11" ry="13" fill="url(#p12p4jinkSkin)"/>
+    <g fill="#d8a838">
+      <circle cx="-9" cy="-114" r="3.5"/>
+      <circle cx="-2" cy="-118" r="4"/>
+      <circle cx="6" cy="-114" r="3.5"/>
+      <circle cx="-12" cy="-110" r="2.4"/>
+      <circle cx="12" cy="-110" r="2.4"/>
+    </g>
+    <!-- Eyes — squinting with delight -->
+    <path d="M-7,-104 Q-4,-102 -1,-104" fill="none" stroke="#0a0604" stroke-width="1"/>
+    <path d="M1,-104 Q4,-102 7,-104" fill="none" stroke="#0a0604" stroke-width="1"/>
+    <!-- BIG GRIN — laugh -->
+    <path d="M-8,-94 Q0,-87 9,-94" fill="#5a2818"/>
+    <path d="M-8,-94 Q0,-90 9,-94" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+    <path d="M-8,-94 Q0,-92 9,-94" stroke="#fff8e8" stroke-width="0.85" fill="none"/>
+  </g>
+
+  <!-- DIALOGUE — Theodore: I understand, ma'am. You're soldiers. Not fairies. I shan't tell a soul. -->
+  <g>
+    <rect x="14" y="100" width="466" height="44" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M180,100 L186,90 L190,100 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M184,100 L188,100" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="22" y="118" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="22" y="136" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a">I understand, ma'am. You're soldiers. Not fairies. I shan't tell a soul.</text>
+
+  <!-- DIALOGUE — Theodore: But you do have wings. -->
+  <g>
+    <rect x="240" y="160" width="240" height="44" rx="8" fill="#ffffff" stroke="#6a4220" stroke-width="2" filter="url(#balloonShadow)"/>
+    <path d="M340,160 L346,150 L350,160 Z" fill="#ffffff" stroke="#6a4220" stroke-width="2"/>
+    <path d="M344,160 L348,160" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="248" y="178" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#6a4220">THEODORE</text>
+  <text x="248" y="196" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-style="italic">But you do have wings.</text>
+
+  <!-- DIALOGUE — Jink (delighted, loud — burst balloon): He's got you there. -->
+  <g>
+    <rect x="540" y="216" width="186" height="44" rx="2" fill="#ffffff" stroke="#2e8b57" stroke-width="2.4" filter="url(#balloonShadow)"/>
+    <!-- Burst points around balloon -->
+    <path d="M540,216 L532,212 L540,220 Z" fill="#ffffff" stroke="#2e8b57" stroke-width="2"/>
+    <path d="M726,216 L734,212 L726,220 Z" fill="#ffffff" stroke="#2e8b57" stroke-width="2"/>
+    <path d="M580,260 L590,260 L582,272 Z" fill="#ffffff" stroke="#2e8b57" stroke-width="2"/>
+    <path d="M582,260 L588,260" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <text x="548" y="234" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" fill="#2e8b57">JINK</text>
+  <text x="548" y="252" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">He's got you there.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.16" fill="none">
+    <path d="M0,100 Q200,102 400,98 Q580,96 742,100"/>
+    <path d="M0,260 Q200,262 400,258 Q580,256 742,260"/>
+  </g>
+</svg>
