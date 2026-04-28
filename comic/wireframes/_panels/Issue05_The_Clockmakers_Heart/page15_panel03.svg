@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 241 364" width="241" height="364">
+  <title>Issue 5 — Page 15 — Panel 3: Theodore CU genuine fascination — lie dies, truth saves it — dead-beat escapement</title>
+  <desc>85mm CU. Theodore's face. Rehearsed line dies on his lips. He has noticed regulator clock on workbench. Eyes widen with REAL fascination — not performance. Same expression as when he first saw Jink in I3. Brass gear ring catches light. Eyes catch reflection of clockmaker's oil lamp. Dialog: THEODORE: Is that a dead-beat escapement? On— on a regulator?</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="p15p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="p15p3skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="50%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="p15p3waistcoat" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="50%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="p15p3warmReflect" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd078" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p15p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+
+  <rect width="241" height="364" fill="url(#p15p3bg)"/>
+  <rect width="241" height="364" fill="url(#p15p3warmReflect)" opacity="0.85"/>
+
+  <!-- ===== THEODORE FACE ===== -->
+  <g transform="translate(120 200)">
+    <!-- Waistcoat collar at bottom -->
+    <path d="M-100,150 L-110,90 L110,90 L100,150 Z" fill="url(#p15p3waistcoat)"/>
+    <!-- Linen shirt -->
+    <ellipse cx="0" cy="84" rx="20" ry="9" fill="#d8c8a8"/>
+    <!-- COLLAR TURNED UP -->
+    <path d="M70,80 L100,40 L106,80 Z" fill="#3a2818"/>
+    <path d="M-70,80 L-100,40 L-106,80 Z" fill="#3a2818"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="100" ry="120" fill="url(#p15p3skin)"/>
+
+    <!-- Sandy-brown hair (boy, slightly tousled) -->
+    <path d="M-90,-100 Q-70,-126 0,-130 Q70,-126 90,-100 L84,-86 Q56,-114 0,-114 Q-56,-114 -84,-86 Z" fill="#a87838"/>
+    <!-- Hair texture strands -->
+    <path d="M-30,-110 Q-20,-122 -10,-118" stroke="#7a4818" stroke-width="0.7" fill="none"/>
+    <path d="M30,-110 Q20,-122 10,-118" stroke="#7a4818" stroke-width="0.7" fill="none"/>
+
+    <!-- FRECKLES across nose and cheeks -->
+    <g fill="#7a4818" opacity="0.7">
+      <circle cx="-44" cy="0" r="1"/>
+      <circle cx="-30" cy="-4" r="0.85"/>
+      <circle cx="-22" cy="6" r="0.85"/>
+      <circle cx="-12" cy="2" r="0.7"/>
+      <circle cx="-6" cy="-4" r="0.85"/>
+      <circle cx="6" cy="0" r="0.85"/>
+      <circle cx="14" cy="-4" r="0.85"/>
+      <circle cx="22" cy="2" r="1"/>
+      <circle cx="30" cy="-4" r="0.85"/>
+      <circle cx="44" cy="0" r="1"/>
+      <circle cx="-50" cy="20" r="0.85"/>
+      <circle cx="50" cy="20" r="0.85"/>
+    </g>
+
+    <!-- HAZEL EYES — WIDE WITH GENUINE WONDER (not performance) -->
+    <ellipse cx="-36" cy="-30" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="-36" cy="-26" rx="14" ry="11" fill="#7a5028"/>
+    <circle cx="-36" cy="-26" r="9" fill="#3a2810"/>
+    <circle cx="-36" cy="-26" r="4" fill="#0a0604"/>
+    <!-- Lamp reflection in pupils — warm catch -->
+    <circle cx="-32" cy="-30" r="2.4" fill="#fff8e8" filter="url(#p15p3bloom)"/>
+    <circle cx="-30" cy="-32" r="1" fill="#ffd078" filter="url(#p15p3bloom)"/>
+
+    <ellipse cx="36" cy="-30" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="36" cy="-26" rx="14" ry="11" fill="#7a5028"/>
+    <circle cx="36" cy="-26" r="9" fill="#3a2810"/>
+    <circle cx="36" cy="-26" r="4" fill="#0a0604"/>
+    <circle cx="40" cy="-30" r="2.4" fill="#fff8e8" filter="url(#p15p3bloom)"/>
+    <circle cx="42" cy="-32" r="1" fill="#ffd078" filter="url(#p15p3bloom)"/>
+
+    <!-- Brows raised — wonder, surprise -->
+    <path d="M-58,-54 L-18,-50" stroke="#5a3018" stroke-width="3" stroke-linecap="round"/>
+    <path d="M18,-50 L58,-54" stroke="#5a3018" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M-6,2 L-4,38 Q0,42 6,40 L10,2 Z" fill="url(#p15p3skin)" opacity="0.85"/>
+    <ellipse cx="-2" cy="38" rx="3" ry="2" fill="#7a4818" opacity="0.55"/>
+    <ellipse cx="6" cy="38" rx="3" ry="2" fill="#7a4818" opacity="0.55"/>
+
+    <!-- Mouth — slightly open with wonder, not performing -->
+    <ellipse cx="0" cy="68" rx="14" ry="6" fill="#3a1808"/>
+    <ellipse cx="0" cy="64" rx="11" ry="3" fill="#a86838"/>
+    <!-- Slight upward at corners — incipient delight -->
+    <path d="M-14,68 Q-18,66 -20,62" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M14,68 Q18,66 20,62" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+
+    <!-- Warm reflection on cheeks — flushed engaged -->
+    <ellipse cx="-50" cy="20" rx="14" ry="22" fill="#dc8868" opacity="0.45" filter="url(#p15p3bloom)"/>
+    <ellipse cx="50" cy="20" rx="14" ry="22" fill="#dc8868" opacity="0.45" filter="url(#p15p3bloom)"/>
+
+    <!-- BRASS GEAR RING on left index finger (visible at edge of frame, fidgeting hand near chin) -->
+    <g transform="translate(-90 78)">
+      <ellipse cx="0" cy="0" rx="9" ry="6" fill="url(#p15p3skin)"/>
+      <circle cx="-2" cy="-3" r="2.4" fill="#ffd078" stroke="#7a4818" stroke-width="0.4" filter="url(#p15p3bloom)"/>
+      <!-- Gear teeth on ring -->
+      <line x1="-2" y1="-5.4" x2="-2" y2="-7" stroke="#7a4818" stroke-width="0.55"/>
+      <line x1="-2" y1="-1" x2="-2" y2="0.5" stroke="#7a4818" stroke-width="0.55"/>
+      <line x1="-4.4" y1="-3" x2="-6" y2="-3" stroke="#7a4818" stroke-width="0.55"/>
+      <line x1="0.4" y1="-3" x2="2" y2="-3" stroke="#7a4818" stroke-width="0.55"/>
+    </g>
+  </g>
+
+  <!-- DIALOG -->
+  <g transform="translate(120 30)">
+    <ellipse cx="0" cy="0" rx="100" ry="28" fill="#ffffff" stroke="#6a4220" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <path d="M-22,22 L-32,38 L-18,24 Z" fill="#ffffff" stroke="#6a4220" stroke-width="1"/>
+    <text x="-90" y="-12" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE</text>
+    <text x="-90" y="3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">"Is that a dead-beat</text>
+    <text x="-90" y="17" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">escapement? On— on</text>
+    <text x="-90" y="31" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1a1a" font-weight="500">a regulator?"</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q60,92 120,88 Q180,86 241,90"/>
+    <path d="M0,300 Q60,298 120,302 Q180,304 241,300"/>
+  </g>
+</svg>
