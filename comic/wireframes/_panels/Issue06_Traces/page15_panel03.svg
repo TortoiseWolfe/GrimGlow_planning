@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 6 — Page 15 — Panel 3: Luma descends, lands on flagstone, scanner clutched against chest, weight of discovery</title>
+  <desc>28mm medium wide low angle. Luma descending, wings folding (geometric lattice collapsing), staggers on landing — emotional weight. Scanner against chest, data scrolling. Flagstone under feet. Above: glyph and claw marks dark again as scanner aims down. Vast basement reclaiming darkness.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p15p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0608"/>
+      <stop offset="100%" stop-color="#020108"/>
+    </linearGradient>
+    <linearGradient id="i6p15p3stoneFar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1008"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i6p15p3floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i6p15p3lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p15p3floorGlow" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p15p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p15p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="742" height="364" fill="url(#i6p15p3bg)"/>
+
+  <!-- Stone wall receding into darkness above (claws + glyph now dark, no fluorescence) -->
+  <rect x="0" y="0" width="742" height="280" fill="url(#i6p15p3stoneFar)"/>
+  <g stroke="#0a0408" stroke-width="0.55" opacity="0.45">
+    <line x1="0" y1="60" x2="742" y2="60"/>
+    <line x1="0" y1="120" x2="742" y2="120"/>
+    <line x1="0" y1="180" x2="742" y2="180"/>
+    <line x1="0" y1="240" x2="742" y2="240"/>
+  </g>
+  <!-- Faintest hint of where the marks were (very dark, inactive without scanner beam) -->
+  <g opacity="0.18">
+    <path d="M120,140 L100,200" stroke="#7a5a40" stroke-width="3"/>
+    <path d="M150,140 L130,200" stroke="#7a5a40" stroke-width="3"/>
+    <path d="M180,140 L160,200" stroke="#7a5a40" stroke-width="3"/>
+  </g>
+  <g opacity="0.18">
+    <polygon points="540,140 580,120 620,140 620,180 580,200 540,180" fill="none" stroke="#a8c0ff" stroke-width="1.4"/>
+    <line x1="580" y1="120" x2="580" y2="200" stroke="#a8c0ff" stroke-width="0.85"/>
+  </g>
+
+  <!-- Floor — flagstones at fairy scale -->
+  <rect x="0" y="280" width="742" height="84" fill="url(#i6p15p3floor)"/>
+  <g stroke="#0a0408" stroke-width="0.85" opacity="0.85" fill="none">
+    <line x1="0" y1="300" x2="742" y2="300"/>
+    <line x1="0" y1="330" x2="742" y2="330"/>
+    <line x1="0" y1="350" x2="742" y2="350"/>
+    <line x1="120" y1="280" x2="120" y2="364"/>
+    <line x1="280" y1="280" x2="280" y2="364"/>
+    <line x1="440" y1="280" x2="440" y2="364"/>
+    <line x1="620" y1="280" x2="620" y2="364"/>
+  </g>
+  <!-- Centuries-old dust on floor -->
+  <g fill="#a8a098" opacity="0.55">
+    <ellipse cx="100" cy="350" rx="44" ry="2"/>
+    <ellipse cx="240" cy="345" rx="50" ry="2.4"/>
+    <ellipse cx="400" cy="350" rx="60" ry="2.4"/>
+    <ellipse cx="560" cy="345" rx="50" ry="2.4"/>
+    <ellipse cx="680" cy="350" rx="40" ry="2"/>
+  </g>
+
+  <!-- Floor pool of light from Luma's downward scanner -->
+  <ellipse cx="371" cy="330" rx="180" ry="50" fill="url(#i6p15p3floorGlow)" filter="url(#i6p15p3glow)" opacity="0.85"/>
+
+  <!-- Wing-draft dust swirl rising up around Luma -->
+  <g fill="#fff8ff" opacity="0.7" filter="url(#i6p15p3bloom)">
+    <circle cx="340" cy="290" r="0.55"/>
+    <circle cx="360" cy="280" r="0.4"/>
+    <circle cx="380" cy="270" r="0.55"/>
+    <circle cx="400" cy="280" r="0.4"/>
+    <circle cx="420" cy="290" r="0.55"/>
+    <circle cx="350" cy="260" r="0.4"/>
+    <circle cx="390" cy="250" r="0.55"/>
+    <circle cx="410" cy="260" r="0.4"/>
+    <circle cx="370" cy="240" r="0.55"/>
+    <circle cx="395" cy="230" r="0.4"/>
+  </g>
+
+  <!-- ===== LUMA — landed on flagstone, wings COLLAPSING, staggered, scanner clutched ===== -->
+  <g transform="translate(371 320)">
+    <!-- Wings COLLAPSING — geometric lattice fading -->
+    <g opacity="0.32" filter="url(#i6p15p3glow)">
+      <ellipse cx="-15" cy="-12" rx="14" ry="6" fill="#a888ff" transform="rotate(-30 -15 -12)"/>
+      <ellipse cx="15" cy="-12" rx="14" ry="6" fill="#a888ff" transform="rotate(30 15 -12)"/>
+    </g>
+    <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.45" filter="url(#i6p15p3bloom)">
+      <line x1="-22" y1="-18" x2="-2" y2="-7"/>
+      <line x1="22" y1="-18" x2="2" y2="-7"/>
+    </g>
+
+    <!-- Body — staggered, weight on one leg -->
+    <ellipse cx="-5" cy="14" rx="3" ry="1.4" fill="#0a0408"/>
+    <ellipse cx="3" cy="14" rx="3" ry="1.4" fill="#0a0408"/>
+    <!-- Trousers — slight contrapposto -->
+    <path d="M-7,2 L-2,2 L-5,14 L-9,14 Z" fill="url(#i6p15p3lumaSuit)"/>
+    <path d="M2,2 L7,2 L7,14 L3,14 Z" fill="url(#i6p15p3lumaSuit)"/>
+    <ellipse cx="-5" cy="9" rx="2.4" ry="0.7" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="5" cy="9" rx="2.4" ry="0.7" fill="#a8a098" opacity="0.85"/>
+    <!-- Torso slumped slightly -->
+    <path d="M-9,2 L-9,-12 L9,-12 L9,2 Z" fill="url(#i6p15p3lumaSuit)"/>
+    <line x1="-7" y1="-5" x2="7" y2="-5" stroke="#a888ff" stroke-width="0.55" opacity="0.85" filter="url(#i6p15p3bloom)"/>
+    <ellipse cx="-5" cy="-2" rx="3" ry="0.85" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="5" cy="-2" rx="3" ry="0.85" fill="#a8a098" opacity="0.85"/>
+    <line x1="-9" y1="-10" x2="-5" y2="-6" stroke="#7a6c50" stroke-width="0.4" opacity="0.55"/>
+    <!-- Shoulders -->
+    <path d="M-9,-12 Q-7,-16 0,-17 Q7,-16 9,-12 Z" fill="url(#i6p15p3lumaSuit)"/>
+
+    <!-- BOTH arms holding scanner CLUTCHED against chest -->
+    <path d="M-9,-12 L-13,-8 L-12,-2 L-7,-6 Z" fill="url(#i6p15p3lumaSuit)"/>
+    <path d="M9,-12 L13,-8 L12,-2 L7,-6 Z" fill="url(#i6p15p3lumaSuit)"/>
+    <!-- Scanner held against chest (downward beam) -->
+    <rect x="-7" y="-8" width="14" height="6" rx="0.55" fill="#3a2068" stroke="#a888ff" stroke-width="0.55"/>
+    <rect x="-5" y="-6" width="10" height="2" fill="#5a3ad8" filter="url(#i6p15p3bloom)"/>
+    <ellipse cx="0" cy="-4" rx="11" ry="3" fill="#a888ff" opacity="0.85" filter="url(#i6p15p3glow)"/>
+    <!-- Beam pointing DOWN (toward floor) -->
+    <path d="M-3,-2 L-30,30 L30,30 L3,-2 Z" fill="#a888ff" opacity="0.32" filter="url(#i6p15p3glow)"/>
+
+    <!-- Head — eyes downcast -->
+    <ellipse cx="0" cy="-22" rx="6" ry="7" fill="#7a4838"/>
+    <ellipse cx="0" cy="-19" rx="4" ry="2" fill="#a888ff" opacity="0.45" filter="url(#i6p15p3bloom)"/>
+    <path d="M-5,-26 Q-4,-30 0,-30 Q4,-30 5,-26 L5,-22 Q3,-25 0,-25 Q-3,-25 -5,-22 Z" fill="#0a0604"/>
+    <circle cx="0" cy="-28" r="0.4" fill="#a8a098" opacity="0.55"/>
+    <circle cx="3" cy="-29" r="0.4" fill="#a8a098" opacity="0.55"/>
+    <line x1="0" y1="-29" x2="1" y2="-31" stroke="#5a3ad8" stroke-width="0.55" opacity="0.85" filter="url(#i6p15p3bloom)"/>
+    <line x1="3" y1="-31" x2="4" y2="-29" stroke="#5a3ad8" stroke-width="0.55" opacity="0.85" filter="url(#i6p15p3bloom)"/>
+    <!-- Braid -->
+    <path d="M5,-22 Q9,-12 7,-2" stroke="#0a0604" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Lenses dust-dimmed (eyes downcast — pupils low in lens) -->
+    <ellipse cx="-2" cy="-22" rx="2" ry="1.4" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="2" cy="-22" rx="2" ry="1.4" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="-2" cy="-22" rx="2" ry="1.4" fill="none" stroke="#a888ff" stroke-width="0.4" opacity="0.7" filter="url(#i6p15p3bloom)"/>
+    <ellipse cx="2" cy="-22" rx="2" ry="1.4" fill="none" stroke="#a888ff" stroke-width="0.4" opacity="0.7" filter="url(#i6p15p3bloom)"/>
+    <line x1="-3" y1="-23" x2="-1" y2="-21" stroke="#fff8ff" stroke-width="0.4" opacity="0.85"/>
+    <ellipse cx="-2" cy="-21" rx="0.7" ry="0.4" fill="#fff8e8"/>
+    <circle cx="-2" cy="-21" r="0.35" fill="#0a0604"/>
+    <ellipse cx="2" cy="-21" rx="0.7" ry="0.4" fill="#fff8e8"/>
+    <circle cx="2" cy="-21" r="0.35" fill="#0a0604"/>
+    <!-- Brows down — heavy -->
+    <path d="M-4,-28 L0,-28" stroke="#0a0604" stroke-width="0.55"/>
+    <path d="M0,-28 L4,-28" stroke="#0a0604" stroke-width="0.55"/>
+    <!-- Mouth tight, downturned slightly -->
+    <path d="M-2,-13 L2,-13" stroke="#3a1808" stroke-width="0.4"/>
+    <line x1="-2" y1="-13" x2="-3" y2="-12" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- LUMA dialogue (quietly, to herself) -->
+  <g>
+    <rect x="14" y="14" width="288" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="120,54 132,54 124,64" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="120.5" y1="54" x2="131.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (quietly, to herself)</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">How long were you here? How long did you try?</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q200,142 400,138 Q580,136 742,140"/>
+    <path d="M0,300 Q200,302 400,298 Q580,296 742,300"/>
+  </g>
+</svg>

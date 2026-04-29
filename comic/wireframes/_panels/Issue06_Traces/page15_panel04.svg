@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 364" width="742" height="364">
+  <title>Issue 6 — Page 15 — Panel 4: Iron grate transition — Luma rises through bars on wing-pack, Theodore reaches down to guide her</title>
+  <desc>35mm slight high angle. Iron floor grate framing. Luma ascending through bars on wings, blue-violet wing-glow rising through darkness. Theodore reaches down with oil-stained hands. Iron bars cast barred shadows across both. Managed distress on Luma's face.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p15p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="60%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0608"/>
+    </linearGradient>
+    <linearGradient id="i6p15p4leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p15p4linen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8987c"/>
+      <stop offset="100%" stop-color="#6a5040"/>
+    </linearGradient>
+    <linearGradient id="i6p15p4lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p15p4risingGlow" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#5a3ad8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2a1058" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p15p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p15p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="742" height="364" fill="url(#i6p15p4bg)"/>
+
+  <!-- Wood floor (above grate) -->
+  <rect x="0" y="0" width="742" height="80" fill="#3a2818"/>
+  <line x1="0" y1="50" x2="742" y2="50" stroke="#1a0c04" stroke-width="0.7" opacity="0.7"/>
+  <g stroke="#1a0c04" stroke-width="0.55" opacity="0.55" fill="none">
+    <line x1="120" y1="0" x2="120" y2="80"/>
+    <line x1="280" y1="0" x2="280" y2="80"/>
+    <line x1="440" y1="0" x2="440" y2="80"/>
+    <line x1="600" y1="0" x2="600" y2="80"/>
+  </g>
+
+  <!-- IRON GRATE FRAME spanning across mid-frame -->
+  <rect x="200" y="80" width="342" height="240" fill="#1a0c04"/>
+  <rect x="200" y="80" width="342" height="240" fill="none" stroke="#0a0408" stroke-width="2.4"/>
+  <!-- Vertical grate bars -->
+  <g fill="#1a0c04" stroke="#0a0408" stroke-width="0.85">
+    <rect x="220" y="80" width="6" height="240"/>
+    <rect x="270" y="80" width="6" height="240"/>
+    <rect x="320" y="80" width="6" height="240"/>
+    <rect x="370" y="80" width="6" height="240"/>
+    <rect x="420" y="80" width="6" height="240"/>
+    <rect x="470" y="80" width="6" height="240"/>
+    <rect x="520" y="80" width="6" height="240"/>
+  </g>
+  <!-- Horizontal grate bars -->
+  <g fill="#1a0c04" stroke="#0a0408" stroke-width="0.85">
+    <rect x="200" y="160" width="342" height="6"/>
+    <rect x="200" y="240" width="342" height="6"/>
+  </g>
+
+  <!-- Through grate: BLACKNESS BELOW with rising blue-violet glow -->
+  <g clip-path="inset(80px 200px 44px 200px)">
+    <ellipse cx="371" cy="280" rx="160" ry="80" fill="url(#i6p15p4risingGlow)" filter="url(#i6p15p4glow)"/>
+  </g>
+
+  <!-- BARRED SHADOWS cast by grate light spilling through -->
+  <g opacity="0.7" filter="url(#i6p15p4bloom)">
+    <rect x="226" y="80" width="44" height="2" fill="#a888ff"/>
+    <rect x="276" y="80" width="44" height="2" fill="#a888ff"/>
+    <rect x="326" y="80" width="44" height="2" fill="#a888ff"/>
+    <rect x="376" y="80" width="44" height="2" fill="#a888ff"/>
+    <rect x="426" y="80" width="44" height="2" fill="#a888ff"/>
+    <rect x="476" y="80" width="44" height="2" fill="#a888ff"/>
+  </g>
+
+  <!-- ===== LUMA — ASCENDING THROUGH BARS on deployed wings ===== -->
+  <g transform="translate(371 240)">
+    <!-- Wings deployed (smaller — ascending vertically through gap) -->
+    <g opacity="0.55" filter="url(#i6p15p4glow)">
+      <ellipse cx="-15" cy="-12" rx="22" ry="9" fill="#a888ff" transform="rotate(-15 -15 -12)"/>
+      <ellipse cx="15" cy="-12" rx="22" ry="9" fill="#a888ff" transform="rotate(15 15 -12)"/>
+      <ellipse cx="-15" cy="10" rx="18" ry="7" fill="#a888ff" transform="rotate(15 -15 10)"/>
+      <ellipse cx="15" cy="10" rx="18" ry="7" fill="#a888ff" transform="rotate(-15 15 10)"/>
+    </g>
+    <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#i6p15p4bloom)">
+      <line x1="-32" y1="-18" x2="-2" y2="-7"/>
+      <line x1="32" y1="-18" x2="2" y2="-7"/>
+      <line x1="-30" y1="14" x2="-2" y2="7"/>
+      <line x1="30" y1="14" x2="2" y2="7"/>
+    </g>
+
+    <!-- Wing-glow halo -->
+    <ellipse cx="0" cy="0" rx="34" ry="28" fill="#a888ff" opacity="0.55" filter="url(#i6p15p4glow)"/>
+
+    <!-- Body — ascending pose (head tilted up) -->
+    <ellipse cx="-2" cy="11" rx="2" ry="1.2" fill="#0a0408"/>
+    <ellipse cx="2" cy="11" rx="2" ry="1.2" fill="#0a0408"/>
+    <rect x="-3" y="3" width="2" height="8" fill="url(#i6p15p4lumaSuit)"/>
+    <rect x="2" y="3" width="2" height="8" fill="url(#i6p15p4lumaSuit)"/>
+    <ellipse cx="-2" cy="6" rx="1.6" ry="0.55" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="2" cy="6" rx="1.6" ry="0.55" fill="#a8a098" opacity="0.85"/>
+    <!-- Torso -->
+    <path d="M-6,3 L-6,-9 L6,-9 L6,3 Z" fill="url(#i6p15p4lumaSuit)"/>
+    <line x1="-4" y1="-3" x2="4" y2="-3" stroke="#a888ff" stroke-width="0.4" opacity="0.85" filter="url(#i6p15p4bloom)"/>
+    <ellipse cx="-3" cy="0" rx="2" ry="0.55" fill="#a8a098" opacity="0.7"/>
+    <ellipse cx="3" cy="0" rx="2" ry="0.55" fill="#a8a098" opacity="0.7"/>
+    <!-- Cobweb still on shoulder -->
+    <line x1="-6" y1="-7" x2="-3" y2="-3" stroke="#7a6c50" stroke-width="0.3" opacity="0.55"/>
+    <!-- Shoulders -->
+    <path d="M-6,-9 Q-4,-12 0,-13 Q4,-12 6,-9 Z" fill="url(#i6p15p4lumaSuit)"/>
+    <!-- Arms — one extended UP toward Theodore's hand -->
+    <path d="M-6,-9 L-9,-14 L-7,-14 L-4,-9 Z" fill="url(#i6p15p4lumaSuit)"/>
+    <path d="M6,-9 L11,-22 L13,-22 L9,-9 Z" fill="url(#i6p15p4lumaSuit)"/>
+    <!-- Hand reaching up -->
+    <ellipse cx="12" cy="-22" rx="1.4" ry="0.85" fill="#7a4838"/>
+
+    <!-- Head — tilted UP toward Theodore -->
+    <ellipse cx="0" cy="-19" rx="4" ry="4.5" fill="#7a4838"/>
+    <ellipse cx="0" cy="-22" rx="3" ry="1.4" fill="#a888ff" opacity="0.45" filter="url(#i6p15p4bloom)"/>
+    <path d="M-4,-22 Q-3,-25 0,-25 Q3,-25 4,-22 L4,-19 Q2,-21 0,-21 Q-2,-21 -4,-19 Z" fill="#0a0604"/>
+    <circle cx="0" cy="-23" r="0.3" fill="#a8a098" opacity="0.7"/>
+    <line x1="0" y1="-24" x2="1" y2="-26" stroke="#5a3ad8" stroke-width="0.4" opacity="0.85" filter="url(#i6p15p4bloom)"/>
+    <path d="M4,-19 Q6,-12 4,-3" stroke="#0a0604" stroke-width="1" stroke-linecap="round" fill="none"/>
+    <!-- Lenses (eyes looking up) -->
+    <ellipse cx="-1.5" cy="-19" rx="1.2" ry="0.85" fill="#a888ff" opacity="0.55" filter="url(#i6p15p4bloom)"/>
+    <ellipse cx="1.5" cy="-19" rx="1.2" ry="0.85" fill="#a888ff" opacity="0.55" filter="url(#i6p15p4bloom)"/>
+    <circle cx="-1.5" cy="-20" r="0.3" fill="#fff8ff"/>
+    <circle cx="1.5" cy="-20" r="0.3" fill="#fff8ff"/>
+    <!-- Mouth tight (managed distress) -->
+    <path d="M-1.5,-15 L1.5,-15" stroke="#3a1808" stroke-width="0.3"/>
+  </g>
+
+  <!-- ===== THEODORE'S HANDS reaching DOWN through grate to guide Luma ===== -->
+  <!-- Right hand (from above-right) -->
+  <g transform="translate(440 100)">
+    <!-- Linen sleeve fragment top -->
+    <path d="M-15,-15 L15,-15 L18,-5 L-18,-5 Z" fill="url(#i6p15p4linen)"/>
+    <!-- Waistcoat sleeve cuff -->
+    <path d="M-18,-5 L18,-5 L20,5 L-20,5 Z" fill="url(#i6p15p4leather)"/>
+    <!-- Wrist -->
+    <path d="M-20,5 L20,5 L22,18 L-22,18 Z" fill="#a87838"/>
+    <!-- Hand reaching down with fingers spread -->
+    <path d="M-22,18 L22,18 L26,40 L-26,40 Z" fill="#a87838"/>
+    <!-- Fingers extending downward -->
+    <path d="M-22,40 L-26,60 L-22,72 L-15,68 L-15,42 Z" fill="#a87838"/>
+    <path d="M-9,40 L-12,64 L-7,80 L-2,78 L-2,42 Z" fill="#a87838"/>
+    <path d="M3,40 L4,64 L9,78 L13,76 L11,42 Z" fill="#a87838"/>
+    <path d="M15,40 L18,60 L24,72 L28,68 L24,42 Z" fill="#a87838"/>
+    <!-- Knuckle creases -->
+    <line x1="-22" y1="50" x2="-15" y2="50" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="-9" y1="50" x2="-2" y2="50" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="4" y1="50" x2="11" y2="50" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="15" y1="50" x2="24" y2="50" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <!-- Oil stains -->
+    <ellipse cx="-12" cy="28" rx="6" ry="2" fill="#0a0604" opacity="0.55"/>
+    <ellipse cx="14" cy="32" rx="6" ry="2" fill="#0a0604" opacity="0.55"/>
+    <!-- Brass gear ring on left index (visible on outer edge) -->
+    <g transform="translate(-22 50)">
+      <circle cx="0" cy="0" r="2" fill="none" stroke="#c89058" stroke-width="0.7" filter="url(#i6p15p4bloom)"/>
+      <circle cx="0" cy="0" r="2" fill="none" stroke="#a888ff" stroke-width="0.3" opacity="0.85" filter="url(#i6p15p4bloom)"/>
+    </g>
+    <!-- Blue-violet wash on hand from below -->
+    <path d="M-26,40 L26,40" stroke="#a888ff" stroke-width="0.55" opacity="0.55" filter="url(#i6p15p4bloom)"/>
+  </g>
+
+  <!-- THEODORE dialogue -->
+  <g>
+    <rect x="14" y="14" width="244" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="120,54 132,54 124,64" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="120.5" y1="54" x2="131.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6a4220" font-weight="700">THEODORE</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">I have you. Careful through the bars.</text>
+
+  <!-- LUMA dialogue -->
+  <g>
+    <rect x="540" y="294" width="188" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="612,294 624,294 616,284" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="612.5" y1="294" x2="623.5" y2="294" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="548" y="312" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="548" y="328" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Thank you, Theodore.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,300 Q200,302 400,298 Q580,296 742,300"/>
+  </g>
+</svg>

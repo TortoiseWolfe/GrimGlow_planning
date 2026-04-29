@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 6 — Page 15 — Panel 1: Wide wall juxtaposition — claw marks (amber-black) LEFT + fairy glyph (blue-white) RIGHT, Luma airborne between</title>
+  <desc>35mm wide eye level. Section of stone wall: amber-black claw fluorescence on left zone, blue-white glyph fluorescence on right zone. Luma hovering on wing-pack between sweeping scanner. Two civilizations, one basement.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p15p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0608"/>
+      <stop offset="100%" stop-color="#020108"/>
+    </linearGradient>
+    <linearGradient id="i6p15p1stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i6p15p1lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p15p1amberZone" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a87018" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p15p1blueZone" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c0ff" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#2a4a78" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p15p1wingGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p15p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p15p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#i6p15p1bg)"/>
+
+  <!-- Stone wall surface -->
+  <rect width="366" height="340" fill="url(#i6p15p1stone)"/>
+  <g stroke="#0a0408" stroke-width="0.7" opacity="0.85">
+    <line x1="0" y1="60" x2="366" y2="60"/>
+    <line x1="0" y1="140" x2="366" y2="140"/>
+    <line x1="0" y1="220" x2="366" y2="220"/>
+    <line x1="0" y1="300" x2="366" y2="300"/>
+    <line x1="80" y1="0" x2="80" y2="60"/>
+    <line x1="200" y1="0" x2="200" y2="60"/>
+    <line x1="320" y1="0" x2="320" y2="60"/>
+    <line x1="40" y1="60" x2="40" y2="140"/>
+    <line x1="160" y1="60" x2="160" y2="140"/>
+    <line x1="280" y1="60" x2="280" y2="140"/>
+    <line x1="80" y1="140" x2="80" y2="220"/>
+    <line x1="200" y1="140" x2="200" y2="220"/>
+    <line x1="320" y1="140" x2="320" y2="220"/>
+    <line x1="40" y1="220" x2="40" y2="300"/>
+    <line x1="160" y1="220" x2="160" y2="300"/>
+    <line x1="280" y1="220" x2="280" y2="300"/>
+  </g>
+
+  <!-- Amber-black zone (LEFT) - claw marks -->
+  <ellipse cx="80" cy="200" rx="100" ry="120" fill="url(#i6p15p1amberZone)" filter="url(#i6p15p1glow)" opacity="0.65"/>
+
+  <!-- Blue-white zone (RIGHT) - glyph -->
+  <ellipse cx="280" cy="180" rx="100" ry="120" fill="url(#i6p15p1blueZone)" filter="url(#i6p15p1glow)" opacity="0.65"/>
+
+  <!-- ===== LEFT zone: CLAW MARKS five parallel gouges with amber-black ===== -->
+  <g transform="translate(80 200)">
+    <path d="M-44,-50 L-22,50" stroke="#7a5a40" stroke-width="6" opacity="0.95"/>
+    <path d="M-22,-50 L0,50" stroke="#7a5a40" stroke-width="6" opacity="0.95"/>
+    <path d="M0,-50 L22,50" stroke="#7a5a40" stroke-width="6" opacity="0.95"/>
+    <path d="M22,-50 L44,50" stroke="#7a5a40" stroke-width="6" opacity="0.95"/>
+    <path d="M44,-50 L66,50" stroke="#7a5a40" stroke-width="6" opacity="0.95"/>
+    <path d="M-44,-50 L-22,50" stroke="#a87018" stroke-width="1" opacity="0.85" filter="url(#i6p15p1bloom)"/>
+    <path d="M-22,-50 L0,50" stroke="#a87018" stroke-width="1" opacity="0.85" filter="url(#i6p15p1bloom)"/>
+    <path d="M0,-50 L22,50" stroke="#a87018" stroke-width="1" opacity="0.85" filter="url(#i6p15p1bloom)"/>
+    <path d="M22,-50 L44,50" stroke="#a87018" stroke-width="1" opacity="0.85" filter="url(#i6p15p1bloom)"/>
+    <path d="M44,-50 L66,50" stroke="#a87018" stroke-width="1" opacity="0.85" filter="url(#i6p15p1bloom)"/>
+    <g fill="#5a3010" opacity="0.85" filter="url(#i6p15p1bloom)">
+      <circle cx="-30" cy="-20" r="1"/>
+      <circle cx="-8" cy="-20" r="1"/>
+      <circle cx="14" cy="-20" r="1"/>
+      <circle cx="36" cy="-20" r="1"/>
+      <circle cx="58" cy="-20" r="1"/>
+    </g>
+  </g>
+
+  <!-- ===== RIGHT zone: FAIRY GLYPH simplified hex-cross ===== -->
+  <g transform="translate(280 170)">
+    <g stroke="#a8c0ff" stroke-width="2.4" fill="none" opacity="0.95" filter="url(#i6p15p1bloom)">
+      <polygon points="-50,-30 0,-50 50,-30 50,30 0,50 -50,30"/>
+      <line x1="0" y1="-50" x2="0" y2="50"/>
+      <line x1="-50" y1="0" x2="50" y2="0"/>
+      <line x1="-30" y1="-18" x2="30" y2="18"/>
+      <line x1="30" y1="-18" x2="-30" y2="18"/>
+      <circle cx="0" cy="-50" r="2.4" fill="#fff8ff"/>
+      <circle cx="50" cy="0" r="2.4" fill="#fff8ff"/>
+      <circle cx="0" cy="50" r="2.4" fill="#fff8ff"/>
+      <circle cx="-50" cy="0" r="2.4" fill="#fff8ff"/>
+    </g>
+    <g stroke="#1a0c04" stroke-width="1.4" fill="none" opacity="0.85">
+      <polygon points="-49,-29 1,-49 51,-29 51,31 1,51 -49,31"/>
+    </g>
+  </g>
+
+  <!-- ===== LUMA airborne BETWEEN the two zones, scanner sweeping ===== -->
+  <g transform="translate(183 190)">
+    <!-- Wings deployed -->
+    <g opacity="0.55" filter="url(#i6p15p1glow)">
+      <ellipse cx="-15" cy="-12" rx="22" ry="9" fill="#a888ff" transform="rotate(-15 -15 -12)"/>
+      <ellipse cx="15" cy="-12" rx="22" ry="9" fill="#a888ff" transform="rotate(15 15 -12)"/>
+      <ellipse cx="-15" cy="10" rx="18" ry="7" fill="#a888ff" transform="rotate(15 -15 10)"/>
+      <ellipse cx="15" cy="10" rx="18" ry="7" fill="#a888ff" transform="rotate(-15 15 10)"/>
+    </g>
+    <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#i6p15p1bloom)">
+      <line x1="-32" y1="-20" x2="-2" y2="-7"/>
+      <line x1="-28" y1="-12" x2="-2" y2="-7"/>
+      <line x1="32" y1="-20" x2="2" y2="-7"/>
+      <line x1="28" y1="-12" x2="2" y2="-7"/>
+      <line x1="-30" y1="14" x2="-2" y2="7"/>
+      <line x1="30" y1="14" x2="2" y2="7"/>
+    </g>
+
+    <!-- Wing-pack glow -->
+    <ellipse cx="0" cy="0" rx="26" ry="22" fill="url(#i6p15p1wingGlow)" filter="url(#i6p15p1glow)" opacity="0.55"/>
+
+    <!-- Body -->
+    <ellipse cx="-2" cy="9" rx="1.6" ry="1" fill="#0a0408"/>
+    <ellipse cx="2" cy="9" rx="1.6" ry="1" fill="#0a0408"/>
+    <rect x="-3" y="2" width="2" height="7" fill="url(#i6p15p1lumaSuit)"/>
+    <rect x="2" y="2" width="2" height="7" fill="url(#i6p15p1lumaSuit)"/>
+    <ellipse cx="-2" cy="6" rx="1.4" ry="0.55" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="2" cy="6" rx="1.4" ry="0.55" fill="#a8a098" opacity="0.85"/>
+    <path d="M-5,2 L-5,-9 L5,-9 L5,2 Z" fill="url(#i6p15p1lumaSuit)"/>
+    <line x1="-3" y1="-3" x2="3" y2="-3" stroke="#a888ff" stroke-width="0.4" opacity="0.85" filter="url(#i6p15p1bloom)"/>
+    <ellipse cx="-3" cy="0" rx="2" ry="0.55" fill="#a8a098" opacity="0.7"/>
+    <ellipse cx="3" cy="0" rx="2" ry="0.55" fill="#a8a098" opacity="0.7"/>
+    <path d="M-5,-9 Q-3,-12 0,-13 Q3,-12 5,-9 Z" fill="url(#i6p15p1lumaSuit)"/>
+
+    <!-- Right arm sweeping LEFT toward claw marks (scanner pointed at them) -->
+    <path d="M-5,-9 L-13,-12 L-22,-9 L-22,-7 L-12,-7 L-5,-5 Z" fill="url(#i6p15p1lumaSuit)"/>
+    <rect x="-30" y="-13" width="9" height="4" rx="0.55" fill="#3a2068" stroke="#a888ff" stroke-width="0.4"/>
+    <rect x="-29" y="-12" width="7" height="2" fill="#5a3ad8" filter="url(#i6p15p1bloom)"/>
+    <ellipse cx="-26" cy="-11" rx="9" ry="2" fill="#a888ff" opacity="0.85" filter="url(#i6p15p1glow)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-17" rx="3" ry="3.5" fill="#7a4838"/>
+    <path d="M-3,-19 Q-1,-21 0,-21 Q1,-21 3,-19 L3,-17 Q1,-18 0,-18 Q-1,-18 -3,-17 Z" fill="#0a0604"/>
+    <ellipse cx="-1" cy="-17" rx="0.85" ry="0.7" fill="#a888ff" opacity="0.55" filter="url(#i6p15p1bloom)"/>
+    <ellipse cx="1" cy="-17" rx="0.85" ry="0.7" fill="#a888ff" opacity="0.55" filter="url(#i6p15p1bloom)"/>
+    <path d="M3,-15 Q5,-9 4,-3" stroke="#0a0604" stroke-width="0.85" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Scanner sweep arc indicator -->
+  <path d="M153,180 Q183,165 213,180" stroke="#a888ff" stroke-width="0.55" fill="none" opacity="0.7" stroke-dasharray="2 2" filter="url(#i6p15p1bloom)"/>
+
+  <!-- Floor -->
+  <rect x="0" y="340" width="366" height="24" fill="#1a0c04"/>
+
+  <!-- LUMA dialogue 1 -->
+  <g>
+    <rect x="14" y="14" width="338" height="56" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="160,70 172,70 164,80" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="160.5" y1="70" x2="171.5" y2="70" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">The residue dating... claw marks and</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">glyph. Same age. Within decades.</text>
+
+  <!-- LUMA dialogue 2 -->
+  <g>
+    <rect x="14" y="290" width="338" height="56" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="160,290 172,290 164,280" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="160.5" y1="290" x2="171.5" y2="290" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="308" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="22" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Whoever carved this was operating</text>
+  <text x="22" y="338" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">in Titan territory. They KNEW.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q120,92 240,88 Q330,86 366,90"/>
+    <path d="M0,300 Q120,302 240,298 Q330,296 366,300"/>
+  </g>
+</svg>
