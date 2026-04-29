@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 320" width="366" height="320">
+  <title>Issue 7 — Page 15 — Panel 1: The keeper at the railing — Jink crouched at the far end, sharing the gallery in darkness</title>
+  <desc>50mm medium eye level exterior gallery. Keeper on gallery looking at river. Middle-aged weathered face thick sideburns heavy peacoat cap. Leans on railing watching barge that sounded horn move downstream. Lighthouse beam sweeps past illuminating face amber. Oblivious. Far end of gallery railing barely visible darkness between sweeps Jink crouched wings stowed body pressed low emerald suit dark shape against iron. Within arm's reach human first time.</desc>
+
+  <defs>
+    <linearGradient id="i7p15p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i7p15p1beam" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p15p1ambientGlow" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#a87838" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p15p1iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p15p1peacoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1c30"/>
+      <stop offset="100%" stop-color="#0a0c20"/>
+    </linearGradient>
+    <linearGradient id="i7p15p1skinKeeper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3a28"/>
+    </linearGradient>
+    <linearGradient id="i7p15p1water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <filter id="i7p15p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p15p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p15p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p15p1megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="366" height="320" fill="url(#i7p15p1bg)"/>
+
+  <!-- Stars -->
+  <g fill="#fff" opacity="0.4">
+    <circle cx="40" cy="20" r="0.55"/>
+    <circle cx="180" cy="30" r="0.4"/>
+    <circle cx="300" cy="20" r="0.55"/>
+  </g>
+
+  <!-- Beam sweep (illuminating keeper) -->
+  <ellipse cx="220" cy="80" rx="200" ry="100" fill="url(#i7p15p1beam)" filter="url(#i7p15p1megaglow)"/>
+
+  <!-- Ambient glow from open lantern room door -->
+  <ellipse cx="60" cy="0" rx="120" ry="80" fill="url(#i7p15p1ambientGlow)" filter="url(#i7p15p1strongglow)"/>
+
+  <!-- Far bank silhouette -->
+  <g fill="#1a1410" opacity="0.85">
+    <rect x="0" y="180" width="80" height="20"/>
+    <rect x="100" y="175" width="60" height="25"/>
+    <rect x="180" y="180" width="80" height="20"/>
+    <rect x="280" y="175" width="86" height="25"/>
+  </g>
+  <!-- Distant amber gas lamps -->
+  <g opacity="0.55" filter="url(#i7p15p1bloom)">
+    <circle cx="60" cy="195" r="0.85" fill="#d89858"/>
+    <circle cx="180" cy="195" r="0.85" fill="#d89858"/>
+    <circle cx="320" cy="195" r="0.85" fill="#d89858"/>
+  </g>
+
+  <!-- River below -->
+  <rect x="0" y="200" width="366" height="80" fill="url(#i7p15p1water)"/>
+  <!-- Distant barge moving downstream -->
+  <g transform="translate(80 240)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="22" ry="3" fill="#1a1018"/>
+    <rect x="-14" y="-9" width="28" height="9" fill="#1a1018"/>
+    <circle cx="0" cy="-12" r="1" fill="#fff8c8" filter="url(#i7p15p1bloom)"/>
+  </g>
+
+  <!-- ===== IRON GALLERY RAILING ===== -->
+  <rect x="0" y="220" width="366" height="14" fill="url(#i7p15p1iron)"/>
+  <line x1="0" y1="220" x2="366" y2="220" stroke="#5a5860" stroke-width="0.7" filter="url(#i7p15p1bloom)" opacity="0.85"/>
+  <!-- Posts -->
+  <line x1="40" y1="234" x2="40" y2="320" stroke="#0a0408" stroke-width="2"/>
+  <line x1="120" y1="234" x2="120" y2="320" stroke="#0a0408" stroke-width="2"/>
+  <line x1="200" y1="234" x2="200" y2="320" stroke="#0a0408" stroke-width="2"/>
+  <line x1="280" y1="234" x2="280" y2="320" stroke="#0a0408" stroke-width="2"/>
+  <line x1="346" y1="234" x2="346" y2="320" stroke="#0a0408" stroke-width="2"/>
+  <!-- Lower rail -->
+  <rect x="0" y="280" width="366" height="6" fill="url(#i7p15p1iron)"/>
+  <!-- Gallery deck -->
+  <rect x="0" y="286" width="366" height="34" fill="#1a1818"/>
+
+  <!-- ===== KEEPER — center-right, leaning on railing ===== -->
+  <g transform="translate(220 220)">
+    <!-- Body in peacoat — heavy and large -->
+    <path d="M-50,100 L-60,40 L-50,-30 L-30,-50 L30,-50 L50,-30 L60,40 L50,100 Z" fill="url(#i7p15p1peacoat)"/>
+    <!-- Buttons (gold/brass) -->
+    <circle cx="0" cy="-20" r="2" fill="#a87838" filter="url(#i7p15p1bloom)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="2" fill="#a87838" filter="url(#i7p15p1bloom)" opacity="0.85"/>
+    <circle cx="0" cy="20" r="2" fill="#a87838" filter="url(#i7p15p1bloom)" opacity="0.85"/>
+
+    <!-- Hand on railing -->
+    <ellipse cx="-40" cy="0" rx="14" ry="6" fill="url(#i7p15p1skinKeeper)"/>
+
+    <!-- Head — illuminated by beam -->
+    <ellipse cx="0" cy="-80" rx="22" ry="26" fill="url(#i7p15p1skinKeeper)"/>
+    <!-- Cap -->
+    <path d="M-22,-100 Q-18,-114 0,-116 Q18,-114 22,-100 L22,-92 Q14,-100 0,-100 Q-14,-100 -22,-92 Z" fill="#1a1818"/>
+    <!-- Cap brim -->
+    <path d="M-26,-92 L26,-92 L18,-86 L-18,-86 Z" fill="#0a0408"/>
+    <!-- Thick sideburns -->
+    <ellipse cx="-22" cy="-76" rx="6" ry="14" fill="#5a4838"/>
+    <ellipse cx="22" cy="-76" rx="6" ry="14" fill="#5a4838"/>
+    <!-- Weathered face — beam-lit amber on right -->
+    <path d="M-22,-80 Q-22,-58 -12,-46" fill="none" stroke="#3a2418" stroke-width="0.85" opacity="0.85"/>
+    <path d="M22,-80 Q22,-58 12,-46" fill="none" stroke="#3a2418" stroke-width="0.85" opacity="0.85"/>
+    <!-- Amber wash on face from beam -->
+    <ellipse cx="14" cy="-80" rx="9" ry="14" fill="#ffd898" opacity="0.4" filter="url(#i7p15p1bloom)"/>
+    <!-- Eyes (looking out at river) -->
+    <ellipse cx="-9" cy="-80" rx="3" ry="2" fill="#fff8e8"/>
+    <ellipse cx="9" cy="-80" rx="3" ry="2" fill="#fff8e8"/>
+    <ellipse cx="-9" cy="-80" rx="1.4" ry="1.4" fill="#3a2418"/>
+    <ellipse cx="9" cy="-80" rx="1.4" ry="1.4" fill="#3a2418"/>
+    <circle cx="-9" cy="-80" r="0.55" fill="#1a0c08"/>
+    <circle cx="9" cy="-80" r="0.55" fill="#1a0c08"/>
+    <!-- Brow -->
+    <line x1="-14" y1="-90" x2="-3" y2="-90" stroke="#1a0c08" stroke-width="1.4"/>
+    <line x1="14" y1="-90" x2="3" y2="-90" stroke="#1a0c08" stroke-width="1.4"/>
+    <!-- Nose -->
+    <path d="M-3,-78 L-5,-66 L0,-62 L5,-66 L3,-78 Z" fill="#5a3818" opacity="0.85"/>
+    <!-- Mouth flat (calm) -->
+    <line x1="-7" y1="-54" x2="7" y2="-54" stroke="#1a0c08" stroke-width="1"/>
+  </g>
+
+  <!-- ===== JINK — far LEFT end of gallery, crouched, dark ===== -->
+  <g transform="translate(50 220)">
+    <!-- Pressed flat against railing base -->
+    <ellipse cx="0" cy="0" rx="6" ry="2" fill="#000" opacity="0.55"/>
+    <!-- Body (matte dark emerald, NO wing glow visible) -->
+    <ellipse cx="0" cy="-3" rx="4" ry="3" fill="#1a6838"/>
+    <!-- Dark suit shape -->
+    <path d="M-3,-5 L-3,-9 L3,-9 L3,-5 Z" fill="#1a6838"/>
+    <!-- Head pressed low -->
+    <ellipse cx="0" cy="-12" rx="2" ry="2" fill="#7a5828"/>
+    <!-- Tiny golden hair indicator -->
+    <path d="M-1.5,-14 Q0,-15 0,-15 Q1.5,-15 1.5,-14 L1.5,-12 Q0.7,-13 0,-13 Q-0.7,-13 -1.5,-12 Z" fill="#a8783a" opacity="0.7"/>
+    <!-- Faint eye shine -->
+    <circle cx="-0.4" cy="-12" r="0.3" fill="#5af0a0" opacity="0.55"/>
+    <circle cx="1" cy="-12" r="0.3" fill="#5af0a0" opacity="0.55"/>
+  </g>
+
+  <!-- (No dialogue per script — silence) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q100,142 200,138 Q280,136 366,140"/>
+    <path d="M0,250 Q100,252 200,248 Q280,246 366,250"/>
+  </g>
+</svg>
