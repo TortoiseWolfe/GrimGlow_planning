@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 360" width="742" height="360">
+  <title>Issue 7 — Page 12 — Panel 4: Through the iron grating — keeper's boots above, Wren tiny below climbing toward lens</title>
+  <desc>28mm wide slightly elevated through iron floor grating. Foreground on top of grating: heavy leather boots chair leg edge wooden desk warm amber oil lamp light — keeper workspace. Through gaps in iron grating visible below: tiny figure four inches tall woman copper metallic suit climbing massive rotating brass machinery toward towering glass lens assembly above. Deliberate precision each step minimize sound. Gap between keeper boots and fairy engineer is inches — one layer iron grating. Warm amber oil lamp above grating, dimmer amber and faint copper-gold below.</desc>
+
+  <defs>
+    <linearGradient id="i7p12p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p12p4lampGlow" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a87838" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p12p4iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p12p4boot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <linearGradient id="i7p12p4wood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="i7p12p4brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p12p4suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89858"/>
+      <stop offset="100%" stop-color="#5a2810"/>
+    </linearGradient>
+    <radialGradient id="i7p12p4toolkit" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p12p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p12p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p12p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p12p4softfocus"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+
+  <rect width="742" height="360" fill="url(#i7p12p4bg)"/>
+
+  <!-- Lamp glow upper -->
+  <ellipse cx="540" cy="0" rx="320" ry="200" fill="url(#i7p12p4lampGlow)" filter="url(#i7p12p4strongglow)"/>
+
+  <!-- ===== KEEPER'S WORKSPACE — top portion (above grating) ===== -->
+  <!-- Wood floor visible at edges -->
+  <rect x="0" y="0" width="742" height="100" fill="url(#i7p12p4wood)"/>
+  <!-- Wood grain -->
+  <g stroke="#1a0c04" stroke-width="0.55" opacity="0.7" fill="none">
+    <line x1="0" y1="40" x2="742" y2="40"/>
+    <line x1="0" y1="60" x2="742" y2="60"/>
+    <line x1="0" y1="80" x2="742" y2="80"/>
+  </g>
+
+  <!-- DESK EDGE (right side) -->
+  <rect x="540" y="40" width="202" height="60" fill="url(#i7p12p4wood)" stroke="#1a0c04" stroke-width="0.7"/>
+  <line x1="540" y1="100" x2="742" y2="100" stroke="#1a0c04" stroke-width="1"/>
+  <!-- Logbook on desk -->
+  <rect x="580" y="50" width="80" height="40" fill="#5a2818" stroke="#1a0c04" stroke-width="0.7"/>
+  <line x1="580" y1="70" x2="660" y2="70" stroke="#1a0c04" stroke-width="0.4"/>
+  <!-- Page suggestion -->
+  <rect x="586" y="56" width="68" height="28" fill="#a89878"/>
+  <!-- Pen -->
+  <line x1="664" y1="72" x2="690" y2="58" stroke="#1a0c04" stroke-width="1.4"/>
+  <!-- Inkwell -->
+  <ellipse cx="700" cy="86" rx="9" ry="3" fill="#1a1018"/>
+  <ellipse cx="700" cy="80" rx="7" ry="6" fill="#1a1018" stroke="#0a0408" stroke-width="0.55"/>
+
+  <!-- OIL LAMP on desk -->
+  <g transform="translate(620 40)">
+    <ellipse cx="0" cy="0" rx="40" ry="32" fill="url(#i7p12p4lampGlow)" filter="url(#i7p12p4strongglow)"/>
+    <rect x="-7" y="-30" width="14" height="20" fill="#5a3018" stroke="#1a0c04" stroke-width="0.55"/>
+    <ellipse cx="0" cy="-22" rx="4" ry="6" fill="#fff8c8" filter="url(#i7p12p4bloom)"/>
+  </g>
+
+  <!-- CHAIR LEG (mid-frame) -->
+  <rect x="380" y="60" width="14" height="40" fill="url(#i7p12p4wood)" stroke="#1a0c04" stroke-width="0.55"/>
+  <ellipse cx="387" cy="100" rx="10" ry="2" fill="#000" opacity="0.7"/>
+
+  <!-- KEEPER'S BOOTS on grating (left and center) -->
+  <g transform="translate(120 100)">
+    <ellipse cx="0" cy="-2" rx="60" ry="6" fill="#000" opacity="0.85"/>
+    <!-- Boot body — heavy leather -->
+    <path d="M-50,-40 L-50,-2 L40,-2 L60,-12 L60,-40 Z" fill="url(#i7p12p4boot)"/>
+    <!-- Toe -->
+    <ellipse cx="50" cy="-12" rx="12" ry="8" fill="url(#i7p12p4boot)"/>
+    <!-- Sole -->
+    <rect x="-50" y="-12" width="110" height="10" fill="#1a0c04"/>
+    <!-- Iron heel -->
+    <rect x="-50" y="-22" width="22" height="20" fill="#3a3838"/>
+    <!-- Leather grain -->
+    <line x1="-40" y1="-30" x2="50" y2="-22" stroke="#0a0408" stroke-width="0.7" opacity="0.85"/>
+    <line x1="-40" y1="-20" x2="50" y2="-14" stroke="#0a0408" stroke-width="0.55" opacity="0.7"/>
+    <!-- Boot laces visible -->
+    <line x1="-30" y1="-38" x2="30" y2="-38" stroke="#1a0c04" stroke-width="0.4"/>
+    <line x1="-25" y1="-30" x2="25" y2="-30" stroke="#1a0c04" stroke-width="0.4"/>
+  </g>
+
+  <g transform="translate(280 100)">
+    <ellipse cx="0" cy="-2" rx="60" ry="6" fill="#000" opacity="0.85"/>
+    <path d="M-50,-40 L-50,-2 L40,-2 L60,-12 L60,-40 Z" fill="url(#i7p12p4boot)"/>
+    <ellipse cx="50" cy="-12" rx="12" ry="8" fill="url(#i7p12p4boot)"/>
+    <rect x="-50" y="-12" width="110" height="10" fill="#1a0c04"/>
+    <rect x="-50" y="-22" width="22" height="20" fill="#3a3838"/>
+    <line x1="-40" y1="-30" x2="50" y2="-22" stroke="#0a0408" stroke-width="0.7" opacity="0.85"/>
+    <line x1="-30" y1="-38" x2="30" y2="-38" stroke="#1a0c04" stroke-width="0.4"/>
+    <line x1="-25" y1="-30" x2="25" y2="-30" stroke="#1a0c04" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== IRON FLOOR GRATING ===== -->
+  <rect x="0" y="100" width="742" height="20" fill="url(#i7p12p4iron)"/>
+  <!-- Diamond grating pattern -->
+  <g stroke="#5a5860" stroke-width="0.7" opacity="0.85" fill="none">
+    <path d="M0,108 L40,100 L80,108 L120,100 L160,108 L200,100 L240,108 L280,100 L320,108 L360,100 L400,108 L440,100 L480,108 L520,100 L560,108 L600,100 L640,108 L680,100 L720,108"/>
+    <path d="M0,116 L40,108 L80,116 L120,108 L160,116 L200,108 L240,116 L280,108 L320,116 L360,108 L400,116 L440,108 L480,116 L520,108 L560,116 L600,108 L640,116 L680,108 L720,116"/>
+    <path d="M0,116 L40,124 L80,116 L120,124 L160,116 L200,124 L240,116 L280,124 L320,116 L360,124 L400,116 L440,124 L480,116 L520,124 L560,116 L600,124 L640,116 L680,124 L720,116"/>
+  </g>
+  <!-- Black gaps (visible through to below) -->
+  <g fill="#000" opacity="0.7">
+    <polygon points="20,108 40,100 60,108 40,116"/>
+    <polygon points="60,116 80,108 100,116 80,124"/>
+    <polygon points="100,108 120,100 140,108 120,116"/>
+    <polygon points="180,108 200,100 220,108 200,116"/>
+    <polygon points="220,116 240,108 260,116 240,124"/>
+    <polygon points="380,108 400,100 420,108 400,116"/>
+    <polygon points="420,116 440,108 460,116 440,124"/>
+    <polygon points="460,108 480,100 500,108 480,116"/>
+    <polygon points="540,108 560,100 580,108 560,116"/>
+    <polygon points="580,116 600,108 620,116 600,124"/>
+    <polygon points="660,108 680,100 700,108 680,116"/>
+    <polygon points="700,116 720,108 740,116"/>
+  </g>
+
+  <!-- ===== BELOW THE GRATING — mechanism level (soft-focused) ===== -->
+  <g filter="url(#i7p12p4softfocus)">
+    <rect x="0" y="120" width="742" height="240" fill="#1a0c04"/>
+    <!-- Brass machinery dim -->
+    <g opacity="0.55">
+      <circle cx="120" cy="220" r="40" fill="url(#i7p12p4brass)" stroke="#3a2018" stroke-width="0.55"/>
+      <circle cx="120" cy="220" r="22" fill="none" stroke="#3a2018" stroke-width="0.4"/>
+      <circle cx="540" cy="240" r="50" fill="url(#i7p12p4brass)" stroke="#3a2018" stroke-width="0.55"/>
+      <circle cx="540" cy="240" r="30" fill="none" stroke="#3a2018" stroke-width="0.4"/>
+    </g>
+    <!-- Iron drive chain visible -->
+    <line x1="160" y1="220" x2="500" y2="240" stroke="#1a1818" stroke-width="2" opacity="0.7"/>
+
+    <!-- Lens assembly silhouette far below -->
+    <g opacity="0.55">
+      <ellipse cx="371" cy="320" rx="220" ry="22" fill="none" stroke="#fff8c8" stroke-width="0.85"/>
+      <ellipse cx="371" cy="340" rx="180" ry="14" fill="none" stroke="#fff8c8" stroke-width="0.85"/>
+    </g>
+  </g>
+
+  <!-- ===== WREN — TINY copper figure climbing brass machinery ===== -->
+  <g transform="translate(371 240)">
+    <!-- Faint copper-gold toolkit halo (dimmed, running dark) -->
+    <ellipse cx="0" cy="0" rx="14" ry="9" fill="url(#i7p12p4toolkit)" filter="url(#i7p12p4strongglow)"/>
+
+    <!-- Body climbing on brass -->
+    <ellipse cx="0" cy="0" rx="3" ry="1" fill="#000" opacity="0.55"/>
+    <path d="M-2,-1 L-2.4,-9 L0,-12 L2.4,-9 L3,-1 Z" fill="url(#i7p12p4suit)"/>
+    <!-- Arms reaching up -->
+    <path d="M-2.4,-9 L-5,-7 L-4,-3 L-2,-7 Z" fill="url(#i7p12p4suit)"/>
+    <path d="M2.4,-9 L5,-7 L4,-3 L2,-7 Z" fill="url(#i7p12p4suit)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-15" rx="2" ry="2.4" fill="#a87838"/>
+    <ellipse cx="0" cy="-18" rx="1.4" ry="0.7" fill="#1a0a04"/>
+    <!-- Tiny eyes looking up -->
+    <ellipse cx="-0.7" cy="-15" rx="0.4" ry="0.3" fill="#fff"/>
+    <ellipse cx="0.7" cy="-15" rx="0.4" ry="0.3" fill="#fff"/>
+  </g>
+
+  <!-- WREN comms small lettering -->
+  <g>
+    <rect x="14" y="14" width="320" height="50" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="160,64 172,64 164,76" fill="white" stroke="#c87a35" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">Moving to the lens assembly.</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">The keeper is directly overhead.</text>
+
+  <!-- SABLE -->
+  <g>
+    <rect x="408" y="14" width="320" height="50" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="416" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="416" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">Copy. Radio check only from here.</text>
+  <text x="416" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">Minimize transmissions.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q200,182 400,178 Q580,176 742,180"/>
+    <path d="M0,300 Q200,302 400,298 Q580,296 742,300"/>
+  </g>
+</svg>

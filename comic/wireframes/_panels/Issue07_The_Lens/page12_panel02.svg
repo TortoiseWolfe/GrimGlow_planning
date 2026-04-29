@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 320" width="366" height="320">
+  <title>Issue 7 — Page 12 — Panel 2: Wren in profile inspecting replacement lens — calm precision, brass gear rotating behind</title>
+  <desc>50mm medium profile fairy scale. Wren crouched iron cross-member. Unclips replacement lens from holographic carry-harness back. Lens precision optical element — human glass with fairy holographic calibration etched microscopic scale glowing faint copper-gold edges. Holds in both hands inspecting one final time. Behind massive brass gear rotates past teeth as tall as she is moving steadily. Calm precision. Faint hint satisfaction quality own work.</desc>
+
+  <defs>
+    <linearGradient id="i7p12p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p12p2lensEdge" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p12p2brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0c898"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p12p2iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p12p2suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89858"/>
+      <stop offset="100%" stop-color="#5a2810"/>
+    </linearGradient>
+    <linearGradient id="i7p12p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="i7p12p2amber" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p12p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p12p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p12p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="320" fill="url(#i7p12p2bg)"/>
+
+  <!-- Amber glow from above -->
+  <ellipse cx="183" cy="0" rx="280" ry="160" fill="url(#i7p12p2amber)" filter="url(#i7p12p2strongglow)"/>
+
+  <!-- ===== MASSIVE BRASS GEAR rotating BEHIND Wren — RIGHT side ===== -->
+  <g transform="translate(280 160)">
+    <circle cx="0" cy="0" r="120" fill="url(#i7p12p2brass)" stroke="#5a3018" stroke-width="0.85" opacity="0.85"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#5a3018" stroke-width="0.7"/>
+    <circle cx="0" cy="0" r="22" fill="#5a3018"/>
+    <!-- Gear teeth (massive at fairy scale) -->
+    <g stroke="#5a3018" stroke-width="0.85" fill="url(#i7p12p2brass)" opacity="0.85">
+      <rect x="-12" y="-130" width="24" height="20"/>
+      <rect x="-12" y="110" width="24" height="20"/>
+      <rect x="-130" y="-12" width="20" height="24"/>
+      <rect x="110" y="-12" width="20" height="24"/>
+      <!-- Diagonal teeth -->
+      <rect x="-100" y="-90" width="20" height="14" transform="rotate(-45 -90 -83)"/>
+      <rect x="80" y="-90" width="20" height="14" transform="rotate(45 90 -83)"/>
+      <rect x="-100" y="80" width="20" height="14" transform="rotate(45 -90 87)"/>
+      <rect x="80" y="80" width="20" height="14" transform="rotate(-45 90 87)"/>
+    </g>
+    <!-- Spoke lines -->
+    <g stroke="#5a3018" stroke-width="0.55" opacity="0.85" fill="none">
+      <line x1="0" y1="-100" x2="0" y2="100"/>
+      <line x1="-100" y1="0" x2="100" y2="0"/>
+      <line x1="-71" y1="-71" x2="71" y2="71"/>
+      <line x1="71" y1="-71" x2="-71" y2="71"/>
+    </g>
+
+    <!-- Amber highlights catching the rotation -->
+    <line x1="-100" y1="0" x2="100" y2="0" stroke="#fff8c8" stroke-width="0.85" filter="url(#i7p12p2bloom)" opacity="0.85"/>
+    <line x1="0" y1="-100" x2="0" y2="100" stroke="#fff8c8" stroke-width="0.7" filter="url(#i7p12p2bloom)" opacity="0.7"/>
+  </g>
+
+  <!-- ===== IRON CROSS-MEMBER (Wren stands on) ===== -->
+  <rect x="0" y="220" width="366" height="14" fill="url(#i7p12p2iron)"/>
+  <line x1="0" y1="220" x2="366" y2="220" stroke="#5a5860" stroke-width="0.55" filter="url(#i7p12p2bloom)" opacity="0.85"/>
+  <!-- Iron rivets -->
+  <g fill="#5a5860">
+    <circle cx="40" cy="227" r="1.4"/>
+    <circle cx="120" cy="227" r="1.4"/>
+    <circle cx="200" cy="227" r="1.4"/>
+    <circle cx="320" cy="227" r="1.4"/>
+  </g>
+
+  <!-- ===== WREN — profile, crouched, inspecting lens ===== -->
+  <g transform="translate(120 220)">
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.7"/>
+
+    <!-- Crouched legs -->
+    <ellipse cx="-7" cy="-3" rx="6" ry="3" fill="url(#i7p12p2suit)"/>
+    <ellipse cx="7" cy="-3" rx="6" ry="3" fill="url(#i7p12p2suit)"/>
+    <!-- NEW MACHINE OIL on knees -->
+    <ellipse cx="-7" cy="-6" rx="4" ry="1.4" fill="#0a0604" opacity="0.95"/>
+    <ellipse cx="7" cy="-6" rx="4" ry="1.4" fill="#0a0604" opacity="0.95"/>
+
+    <!-- Torso forward lean (crouched) -->
+    <path d="M-9,-6 L-14,-50 L-9,-66 L9,-66 L14,-50 L9,-6 Z" fill="url(#i7p12p2suit)"/>
+    <line x1="0" y1="-66" x2="0" y2="-6" stroke="#f0c898" stroke-width="0.4" opacity="0.85" filter="url(#i7p12p2bloom)"/>
+    <!-- Heavy oil on torso -->
+    <ellipse cx="-14" cy="-30" rx="5" ry="2" fill="#0a0604" opacity="0.85"/>
+
+    <!-- Carry harness on back (visible behind shoulders) -->
+    <path d="M-14,-58 L-22,-46 L-22,-30 L-14,-40 Z" fill="#3a1808" opacity="0.85"/>
+
+    <!-- BOTH HANDS holding lens before face -->
+    <path d="M-14,-50 L-22,-30 L-26,-22 L-18,-22 L-14,-30 Z" fill="url(#i7p12p2suit)"/>
+    <path d="M14,-50 L22,-30 L26,-22 L18,-22 L14,-30 Z" fill="url(#i7p12p2suit)"/>
+    <!-- Hands with NEW MACHINE OIL on palms -->
+    <ellipse cx="-22" cy="-22" rx="4" ry="2.4" fill="url(#i7p12p2skin)"/>
+    <ellipse cx="-22" cy="-22" rx="2.4" ry="1" fill="#0a0604" opacity="0.85"/>
+    <ellipse cx="22" cy="-22" rx="4" ry="2.4" fill="url(#i7p12p2skin)"/>
+    <ellipse cx="22" cy="-22" rx="2.4" ry="1" fill="#0a0604" opacity="0.85"/>
+
+    <!-- ===== REPLACEMENT LENS held between hands ===== -->
+    <g transform="translate(0 -22)">
+      <!-- Lens body -->
+      <ellipse cx="0" cy="0" rx="22" ry="11" fill="url(#i7p12p2lensEdge)" filter="url(#i7p12p2bloom)"/>
+      <ellipse cx="0" cy="0" rx="22" ry="11" fill="none" stroke="#fff8c8" stroke-width="0.85" filter="url(#i7p12p2bloom)"/>
+      <ellipse cx="0" cy="0" rx="14" ry="6" fill="none" stroke="#ffd898" stroke-width="0.55" opacity="0.85"/>
+      <!-- Convex highlight -->
+      <ellipse cx="-7" cy="-3" rx="4" ry="1.4" fill="#fff" filter="url(#i7p12p2bloom)" opacity="0.85"/>
+      <!-- COPPER-GOLD HOLOGRAPHIC EDGES (calibration etching) -->
+      <ellipse cx="0" cy="0" rx="22" ry="11" fill="none" stroke="#d89858" stroke-width="0.85" opacity="0.7" filter="url(#i7p12p2bloom)"/>
+      <!-- Microscopic etching pattern — tiny dots around edge -->
+      <g fill="#ffd898" filter="url(#i7p12p2bloom)" opacity="0.95">
+        <circle cx="-22" cy="0" r="0.55"/>
+        <circle cx="22" cy="0" r="0.55"/>
+        <circle cx="-19" cy="-7" r="0.4"/>
+        <circle cx="19" cy="-7" r="0.4"/>
+        <circle cx="-19" cy="7" r="0.4"/>
+        <circle cx="19" cy="7" r="0.4"/>
+        <circle cx="-11" cy="-9" r="0.4"/>
+        <circle cx="11" cy="-9" r="0.4"/>
+        <circle cx="-11" cy="9" r="0.4"/>
+        <circle cx="11" cy="9" r="0.4"/>
+      </g>
+    </g>
+
+    <!-- Holographic geometric tools orbit hands -->
+    <g stroke="#ffd898" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#i7p12p2bloom)">
+      <polygon points="-30,-22 -28,-26 -26,-22 -28,-18"/>
+      <polygon points="26,-22 28,-26 30,-22 28,-18"/>
+    </g>
+
+    <!-- Head — profile facing RIGHT, eyes on lens -->
+    <ellipse cx="0" cy="-78" rx="9" ry="11" fill="url(#i7p12p2skin)"/>
+    <!-- Hair bun -->
+    <ellipse cx="-3" cy="-90" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-7,-88 Q-5,-94 0,-95 Q5,-94 7,-88 L7,-84 Q4,-88 0,-88 Q-4,-88 -7,-84 Z" fill="#1a0a04"/>
+    <!-- Eye looking down at lens -->
+    <ellipse cx="3" cy="-76" rx="2" ry="1.4" fill="#fff"/>
+    <ellipse cx="3" cy="-74" rx="1.4" ry="1" fill="#3a1808"/>
+    <circle cx="3" cy="-74" r="0.4" fill="#ffd898"/>
+    <!-- Cheekbone -->
+    <path d="M9,-78 Q11,-66 7,-58" fill="none" stroke="#5a3018" stroke-width="0.55" opacity="0.85"/>
+    <!-- Brow soft (satisfaction) -->
+    <path d="M-3,-86 Q3,-88 9,-86" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+    <!-- Mouth — slight quiet smile -->
+    <path d="M2,-66 Q4,-65 6,-66" stroke="#3a1808" stroke-width="0.4" fill="none"/>
+  </g>
+
+  <!-- WREN -->
+  <g>
+    <rect x="14" y="14" width="338" height="40" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="180,54 192,54 184,64" fill="white" stroke="#c87a35" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Replacement clean. Within tolerance.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q100,162 200,158 Q280,156 366,160"/>
+    <path d="M0,260 Q100,262 200,258 Q280,256 366,260"/>
+  </g>
+</svg>
