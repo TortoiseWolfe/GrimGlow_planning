@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 410" width="366" height="410">
+  <title>Issue 7 — Page 1 — Panel 2: Wren close-up — gesturing at Fresnel lens schematic, military-grade optics</title>
+  <desc>50mm medium close-up. Wren rotates schematic to show lens housing. Hands move through holographic data with practiced fluency. Concentric glass rings rendered copper-gold rotating before her. Technical authority. Most complex op planned. Copper-gold uplight on face and oil-stained suit. Concentric ring patterns play across features.</desc>
+
+  <defs>
+    <linearGradient id="i7p1p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#0a0604"/>
+    </linearGradient>
+    <radialGradient id="i7p1p2fresnelGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#d8a060" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p1p2suitUplit" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#f0c898"/>
+      <stop offset="50%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="i7p1p2skinUplit" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#f0c898"/>
+      <stop offset="50%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <filter id="i7p1p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p1p2glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i7p1p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p1p2megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="366" height="410" fill="url(#i7p1p2bg)"/>
+
+  <!-- Faint timber beams in background -->
+  <rect x="0" y="0" width="14" height="410" fill="#1a1208"/>
+  <rect x="352" y="0" width="14" height="410" fill="#1a1208"/>
+
+  <!-- Halo behind schematic -->
+  <ellipse cx="240" cy="180" rx="180" ry="140" fill="url(#i7p1p2fresnelGlow)" filter="url(#i7p1p2megaglow)"/>
+
+  <!-- ===== EXPANDED FRESNEL LENS HOLOGRAM — concentric rings ===== -->
+  <g transform="translate(240 180)" filter="url(#i7p1p2bloom)">
+    <!-- Outer ring -->
+    <ellipse cx="0" cy="0" rx="80" ry="22" fill="none" stroke="#ffd898" stroke-width="1"/>
+    <!-- Concentric rings (Fresnel pattern) -->
+    <ellipse cx="0" cy="0" rx="70" ry="18" fill="none" stroke="#ffd898" stroke-width="0.85"/>
+    <ellipse cx="0" cy="0" rx="58" ry="15" fill="none" stroke="#ffd898" stroke-width="0.85"/>
+    <ellipse cx="0" cy="0" rx="46" ry="12" fill="none" stroke="#ffd898" stroke-width="0.7"/>
+    <ellipse cx="0" cy="0" rx="34" ry="9" fill="none" stroke="#ffd898" stroke-width="0.7"/>
+    <ellipse cx="0" cy="0" rx="22" ry="6" fill="none" stroke="#ffd898" stroke-width="0.55"/>
+    <ellipse cx="0" cy="0" rx="11" ry="3" fill="none" stroke="#fff8c8" stroke-width="0.55"/>
+    <!-- Vertical structure (lens housing frame) -->
+    <line x1="-80" y1="0" x2="-80" y2="40" stroke="#d89858" stroke-width="0.85"/>
+    <line x1="80" y1="0" x2="80" y2="40" stroke="#d89858" stroke-width="0.85"/>
+    <line x1="-80" y1="40" x2="80" y2="40" stroke="#d89858" stroke-width="0.85"/>
+    <!-- Top mounting -->
+    <line x1="-80" y1="0" x2="-80" y2="-40" stroke="#d89858" stroke-width="0.85"/>
+    <line x1="80" y1="0" x2="80" y2="-40" stroke="#d89858" stroke-width="0.85"/>
+    <line x1="-80" y1="-40" x2="80" y2="-40" stroke="#d89858" stroke-width="0.85"/>
+    <!-- Center point gleam -->
+    <circle cx="0" cy="0" r="3" fill="#fff8c8" filter="url(#i7p1p2bloom)"/>
+    <!-- Light projection vectors emanating -->
+    <line x1="-80" y1="0" x2="-130" y2="-30" stroke="#d89858" stroke-width="0.55" opacity="0.7"/>
+    <line x1="-80" y1="0" x2="-130" y2="30" stroke="#d89858" stroke-width="0.55" opacity="0.7"/>
+    <line x1="80" y1="0" x2="130" y2="-30" stroke="#d89858" stroke-width="0.55" opacity="0.7"/>
+    <line x1="80" y1="0" x2="130" y2="30" stroke="#d89858" stroke-width="0.55" opacity="0.7"/>
+    <!-- Data callouts -->
+    <text x="-78" y="58" font-family="monospace" font-size="5" fill="#ffd898" opacity="0.95">2nd ORDER FRESNEL</text>
+    <text x="-78" y="68" font-family="monospace" font-size="5" fill="#ffd898" opacity="0.85">F = 700mm</text>
+    <text x="22" y="68" font-family="monospace" font-size="5" fill="#ffd898" opacity="0.85">DIA = 700mm</text>
+    <!-- Rotation arrows -->
+    <g stroke="#ffd898" stroke-width="0.55" fill="none" opacity="0.7">
+      <path d="M-90,-50 Q0,-66 90,-50" stroke-dasharray="2,2"/>
+      <polygon points="86,-52 92,-50 86,-48" fill="#ffd898" stroke="none"/>
+    </g>
+  </g>
+
+  <!-- ===== WREN — left side, gesturing into hologram ===== -->
+  <g transform="translate(80 350)">
+    <!-- Lower body extends down off-frame at bottom -->
+    <!-- Boots planted -->
+    <ellipse cx="-9" cy="50" rx="6" ry="3" fill="#1a0c04"/>
+    <ellipse cx="9" cy="50" rx="6" ry="3" fill="#1a0c04"/>
+    <!-- Trousers -->
+    <path d="M-12,46 L-16,-30 L-2,-50 L0,-30 Z" fill="url(#i7p1p2suitUplit)"/>
+    <path d="M12,46 L16,-30 L2,-50 L0,-30 Z" fill="url(#i7p1p2suitUplit)"/>
+    <!-- Copper dust knees -->
+    <ellipse cx="-9" cy="-22" rx="6" ry="2" fill="#1a0c04" opacity="0.85"/>
+    <ellipse cx="9" cy="-22" rx="6" ry="2" fill="#1a0c04" opacity="0.85"/>
+
+    <!-- Torso -->
+    <path d="M-18,-50 L-22,-130 L-12,-150 L12,-150 L22,-130 L18,-50 Z" fill="url(#i7p1p2suitUplit)"/>
+    <line x1="0" y1="-150" x2="0" y2="-50" stroke="#ffd898" stroke-width="0.7" opacity="0.95" filter="url(#i7p1p2bloom)"/>
+    <!-- Belt with tools -->
+    <rect x="-22" y="-58" width="44" height="6" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <rect x="-12" y="-60" width="6" height="4" fill="#a87838"/>
+    <rect x="6" y="-60" width="8" height="4" fill="#a87838"/>
+
+    <!-- Oil stains heavy at forearms -->
+    <ellipse cx="-26" cy="-100" rx="9" ry="6" fill="#0a0604" opacity="0.85"/>
+    <ellipse cx="26" cy="-90" rx="6" ry="4" fill="#0a0604" opacity="0.85"/>
+
+    <!-- RIGHT arm raised gesturing into hologram -->
+    <path d="M22,-130 L60,-110 L100,-90 L96,-80 L60,-100 L18,-118 Z" fill="url(#i7p1p2suitUplit)"/>
+    <!-- Hand extended into hologram -->
+    <ellipse cx="100" cy="-86" rx="9" ry="5" fill="url(#i7p1p2skinUplit)"/>
+    <!-- Index finger pointing -->
+    <ellipse cx="110" cy="-82" rx="6" ry="2" fill="url(#i7p1p2skinUplit)"/>
+
+    <!-- LEFT arm bent at chest -->
+    <path d="M-22,-130 L-30,-110 L-22,-90 L-12,-100 Z" fill="url(#i7p1p2suitUplit)"/>
+    <ellipse cx="-26" cy="-90" rx="5" ry="3" fill="url(#i7p1p2skinUplit)"/>
+
+    <!-- Neck -->
+    <path d="M-9,-160 L-12,-150 L12,-150 L9,-160 Z" fill="url(#i7p1p2skinUplit)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-180" rx="22" ry="26" fill="url(#i7p1p2skinUplit)"/>
+
+    <!-- High messy bun -->
+    <ellipse cx="0" cy="-208" rx="14" ry="9" fill="#0a0604"/>
+    <path d="M-12,-210 Q-16,-214 -14,-208" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M12,-210 Q16,-214 14,-208" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M-22,-198 Q-12,-208 0,-208 Q12,-208 22,-198" stroke="#0a0604" stroke-width="2.4" fill="none"/>
+    <!-- Loose strand -->
+    <path d="M-18,-188 Q-22,-176 -24,-160" stroke="#3a1808" stroke-width="0.7" fill="none" opacity="0.85"/>
+
+    <!-- Cheekbone catching uplight -->
+    <path d="M-22,-180 Q-18,-160 -12,-150" fill="none" stroke="#3a1808" stroke-width="0.85" opacity="0.85"/>
+    <path d="M22,-180 Q18,-160 12,-150" fill="none" stroke="#3a1808" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- Eyes — focused on hologram (looking right) -->
+    <ellipse cx="-9" cy="-180" rx="4" ry="2" fill="#fff"/>
+    <ellipse cx="9" cy="-180" rx="4" ry="2" fill="#fff"/>
+    <ellipse cx="-7" cy="-180" rx="2" ry="1.4" fill="#3a1808"/>
+    <ellipse cx="11" cy="-180" rx="2" ry="1.4" fill="#3a1808"/>
+    <circle cx="-7" cy="-180" r="0.55" fill="#fff"/>
+    <circle cx="11" cy="-180" r="0.55" fill="#fff"/>
+
+    <!-- Brow furrowed (focus) -->
+    <path d="M-16,-194 Q-9,-198 -2,-194" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+    <path d="M16,-194 Q9,-198 2,-194" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M-3,-180 L-4,-166 L0,-162 L4,-166 L3,-180 Z" fill="#3a1808" opacity="0.85"/>
+
+    <!-- Mouth (mid-explanation) -->
+    <ellipse cx="0" cy="-156" rx="2.4" ry="1" fill="#3a1808"/>
+
+    <!-- Comms ear -->
+    <circle cx="22" cy="-180" r="1.4" fill="#d89858" filter="url(#i7p1p2bloom)" opacity="0.85"/>
+
+    <!-- Schematic uplight on jaw -->
+    <ellipse cx="0" cy="-150" rx="22" ry="3" fill="#ffd898" opacity="0.55" filter="url(#i7p1p2bloom)"/>
+  </g>
+
+  <!-- WREN dialogue 1 -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="180,64 192,64 184,76" fill="white" stroke="#c87a35" stroke-width="0.85"/>
+    <line x1="180.5" y1="64" x2="191.5" y2="64" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">We swap it for a replacement. Same focal</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">length. The keeper never knows.</text>
+
+  <!-- WREN dialogue 2 -->
+  <g>
+    <rect x="14" y="346" width="338" height="50" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="180,346 192,346 184,336" fill="white" stroke="#c87a35" stroke-width="0.85"/>
+    <line x1="180.5" y1="346" x2="191.5" y2="346" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="364" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="22" y="378" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Military-grade optics. I need it for the</text>
+  <text x="22" y="392" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">temporal drive's alignment array.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q100,162 200,158 Q280,156 366,160"/>
+    <path d="M0,320 Q100,322 200,318 Q280,316 366,320"/>
+  </g>
+</svg>
