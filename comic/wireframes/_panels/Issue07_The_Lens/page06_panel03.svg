@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 7 — Page 6 — Panel 3: Squad arrives at the quay — wing-packs folding, dual scale assembly, mission begins</title>
+  <desc>28mm wide establishing dual scale dusk waterfront. Squad arrives. Theodore at meeting point unused quay stacked crates. From shadows four small figures emerge wing-packs deployed landing in formation. Jink already on ground beside Theodore. Sable surveys. Wren approaches Theodore checking satchel. Thresh weapon ready. Luma checks comms. Lighthouse beam rotation begun.</desc>
+
+  <defs>
+    <linearGradient id="i7p6p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2848"/>
+      <stop offset="60%" stop-color="#5a4858"/>
+      <stop offset="100%" stop-color="#7a6858"/>
+    </linearGradient>
+    <linearGradient id="i7p6p3river" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1818"/>
+      <stop offset="100%" stop-color="#080608"/>
+    </linearGradient>
+    <linearGradient id="i7p6p3stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5860"/>
+      <stop offset="100%" stop-color="#2a2830"/>
+    </linearGradient>
+    <linearGradient id="i7p6p3crate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <radialGradient id="i7p6p3lampHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p6p3lighthouseBeam" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffe0a8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p6p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p6p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p6p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p6p3megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="742" height="170" fill="url(#i7p6p3sky)"/>
+  <!-- Stars -->
+  <g fill="#fff" opacity="0.55">
+    <circle cx="100" cy="20" r="0.55"/>
+    <circle cx="280" cy="40" r="0.55"/>
+    <circle cx="500" cy="30" r="0.4"/>
+    <circle cx="620" cy="20" r="0.55"/>
+    <circle cx="200" cy="60" r="0.4"/>
+    <circle cx="400" cy="50" r="0.4"/>
+  </g>
+
+  <!-- Far bank silhouette -->
+  <g fill="#1a1410" opacity="0.85">
+    <rect x="0" y="140" width="80" height="30"/>
+    <rect x="100" y="135" width="100" height="35"/>
+    <rect x="220" y="142" width="80" height="28"/>
+    <rect x="320" y="138" width="100" height="32"/>
+    <rect x="440" y="142" width="80" height="28"/>
+    <rect x="540" y="138" width="100" height="32"/>
+    <rect x="660" y="140" width="82" height="30"/>
+  </g>
+
+  <!-- River -->
+  <rect x="0" y="170" width="742" height="60" fill="url(#i7p6p3river)"/>
+  <g stroke="#3a3838" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,190 L742,190"/>
+    <path d="M0,210 L742,210"/>
+    <path d="M0,225 L742,225"/>
+  </g>
+
+  <!-- Lighthouse middle distance -->
+  <g transform="translate(640 170)">
+    <ellipse cx="0" cy="-30" rx="40" ry="30" fill="url(#i7p6p3lighthouseBeam)" filter="url(#i7p6p3megaglow)"/>
+    <path d="M-9,30 L-7,-10 L-12,-20 L12,-20 L7,-10 L9,30 Z" fill="#7a4838"/>
+    <rect x="-12" y="-30" width="24" height="10" fill="#3a3838"/>
+    <ellipse cx="0" cy="-25" rx="9" ry="3" fill="#fff8c8" filter="url(#i7p6p3bloom)"/>
+    <!-- Beam cone sweeping LEFT through panel -->
+    <path d="M-12,-25 L-200,-60 L-200,-10 L-12,-22 Z" fill="#ffd898" opacity="0.4" filter="url(#i7p6p3megaglow)"/>
+  </g>
+
+  <!-- Stone quay -->
+  <rect x="0" y="230" width="742" height="70" fill="url(#i7p6p3stone)"/>
+  <line x1="0" y1="230" x2="742" y2="230" stroke="#1a1418" stroke-width="0.55"/>
+  <g stroke="#1a1418" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,260 L742,260"/>
+    <path d="M0,290 L742,290"/>
+    <line x1="80" y1="230" x2="80" y2="300"/>
+    <line x1="200" y1="230" x2="200" y2="300"/>
+    <line x1="320" y1="230" x2="320" y2="300"/>
+    <line x1="440" y1="230" x2="440" y2="300"/>
+    <line x1="560" y1="230" x2="560" y2="300"/>
+  </g>
+
+  <!-- Crates -->
+  <rect x="80" y="200" width="40" height="30" fill="url(#i7p6p3crate)" stroke="#1a0c04" stroke-width="0.55"/>
+  <rect x="86" y="180" width="32" height="20" fill="url(#i7p6p3crate)" stroke="#1a0c04" stroke-width="0.55"/>
+  <rect x="120" y="210" width="36" height="20" fill="url(#i7p6p3crate)" stroke="#1a0c04" stroke-width="0.55"/>
+
+  <!-- Dock lanterns -->
+  <g transform="translate(40 180)">
+    <ellipse cx="0" cy="0" rx="22" ry="20" fill="url(#i7p6p3lampHalo)" filter="url(#i7p6p3strongglow)"/>
+    <rect x="-3" y="-7" width="6" height="14" fill="#1a0c08"/>
+    <ellipse cx="0" cy="0" rx="2" ry="3" fill="#fff8c8" filter="url(#i7p6p3bloom)"/>
+  </g>
+  <g transform="translate(450 180)">
+    <ellipse cx="0" cy="0" rx="22" ry="20" fill="url(#i7p6p3lampHalo)" filter="url(#i7p6p3strongglow)"/>
+    <rect x="-3" y="-7" width="6" height="14" fill="#1a0c08"/>
+    <ellipse cx="0" cy="0" rx="2" ry="3" fill="#fff8c8" filter="url(#i7p6p3bloom)"/>
+  </g>
+
+  <!-- ===== THEODORE crouching among crates (background) ===== -->
+  <g transform="translate(180 260)">
+    <ellipse cx="0" cy="20" rx="12" ry="2" fill="#000" opacity="0.55"/>
+    <!-- Crouched -->
+    <path d="M-9,18 L-12,-10 L-2,-30 L0,-10 Z" fill="#3a3028"/>
+    <path d="M9,18 L12,-10 L2,-30 L0,-10 Z" fill="#3a3028"/>
+    <path d="M-12,-30 L-12,-70 L12,-70 L12,-30 Z" fill="#d4c4a8"/>
+    <path d="M-14,-68 L-12,-30 L-2,-30 L-2,-68 Z" fill="#5a3018"/>
+    <path d="M14,-68 L12,-30 L2,-30 L2,-68 Z" fill="#5a3018"/>
+    <!-- Satchel -->
+    <rect x="14" y="-22" width="22" height="20" fill="#a89878" stroke="#7a6048" stroke-width="0.7"/>
+    <!-- Head looking down -->
+    <ellipse cx="0" cy="-84" rx="9" ry="10" fill="#a87838"/>
+    <path d="M-7,-92 Q-5,-100 0,-102 Q5,-100 7,-92 L7,-86 Q5,-90 0,-90 Q-5,-90 -7,-86 Z" fill="#9a7038"/>
+  </g>
+
+  <!-- ===== SQUAD on stone quay — five tiny figures ===== -->
+  <!-- JINK (left of Theodore, on ground) -->
+  <g transform="translate(220 290)">
+    <ellipse cx="0" cy="0" rx="3" ry="0.7" fill="#000" opacity="0.55"/>
+    <path d="M-2,-1 L-2.4,-9 L0,-12 L2.4,-9 L3,-1 Z" fill="#2ed078"/>
+    <line x1="-2" y1="-7" x2="2" y2="-5" stroke="#1a1410" stroke-width="0.55" opacity="0.85"/>
+    <ellipse cx="0" cy="-15" rx="2" ry="2" fill="#d8a878"/>
+    <path d="M-1.5,-17 Q0,-19 0,-19 Q1.5,-19 1.5,-17 L1.5,-15 Q0.7,-16 0,-16 Q-0.7,-16 -1.5,-15 Z" fill="#f0d878"/>
+    <!-- Wing-pack folding -->
+    <path d="M-3,-9 L-9,-7 L-7,-2 L-3,-5 Z" fill="#1a6838" opacity="0.85"/>
+    <path d="M3,-9 L9,-7 L7,-2 L3,-5 Z" fill="#1a6838" opacity="0.85"/>
+    <line x1="-7" y1="-7" x2="-7" y2="-2" stroke="#5af0a0" stroke-width="0.55" opacity="0.95" filter="url(#i7p6p3bloom)"/>
+    <line x1="7" y1="-7" x2="7" y2="-2" stroke="#5af0a0" stroke-width="0.55" opacity="0.95" filter="url(#i7p6p3bloom)"/>
+    <ellipse cx="0" cy="-15" rx="0.55" ry="0.4" fill="#fff"/>
+    <circle cx="0" cy="-15" r="0.2" fill="#1a4a28"/>
+  </g>
+
+  <!-- WREN (approaching Theodore satchel) -->
+  <g transform="translate(290 290)">
+    <ellipse cx="0" cy="0" rx="3" ry="0.7" fill="#000" opacity="0.55"/>
+    <path d="M-2,-1 L-2.4,-9 L0,-12 L2.4,-9 L3,-1 Z" fill="#a85820"/>
+    <ellipse cx="0" cy="-15" rx="2" ry="2" fill="#a87838"/>
+    <ellipse cx="0" cy="-18" rx="1.4" ry="1" fill="#1a0a04"/>
+    <ellipse cx="0" cy="-15" rx="0.55" ry="0.4" fill="#fff"/>
+    <circle cx="0" cy="-15" r="0.2" fill="#1a0c04"/>
+    <!-- Arms reaching toward Theodore's satchel -->
+    <path d="M-3,-7 L-7,0 L-4,3 Z" fill="#a85820"/>
+    <path d="M3,-7 L7,0 L4,3 Z" fill="#a85820"/>
+  </g>
+
+  <!-- SABLE (left, surveying) -->
+  <g transform="translate(140 290)">
+    <ellipse cx="0" cy="0" rx="3" ry="0.7" fill="#000" opacity="0.55"/>
+    <path d="M-2,-1 L-2.4,-9 L0,-12 L2.4,-9 L3,-1 Z" fill="#506890"/>
+    <ellipse cx="0" cy="-15" rx="2" ry="2" fill="#5a3a28"/>
+    <path d="M-1.5,-17 Q0,-18 0,-18 Q1.5,-18 1.5,-17 L1.5,-15 Q0.7,-16 0,-16 Q-0.7,-16 -1.5,-15 Z" fill="#d8e4f8"/>
+    <!-- Looking RIGHT toward lighthouse -->
+    <ellipse cx="0.5" cy="-15" rx="0.55" ry="0.4" fill="#fff8e8"/>
+    <circle cx="1" cy="-15" r="0.2" fill="#1a1c30"/>
+  </g>
+
+  <!-- THRESH (further right, weapon scanning) -->
+  <g transform="translate(420 290)">
+    <ellipse cx="0" cy="0" rx="3" ry="0.7" fill="#000" opacity="0.55"/>
+    <path d="M-2,-1 L-2.4,-9 L0,-12 L2.4,-9 L3,-1 Z" fill="#dc2030"/>
+    <ellipse cx="0" cy="-15" rx="2" ry="2" fill="#a87838"/>
+    <path d="M-1.5,-17 Q0,-18 0,-18 Q1.5,-18 1.5,-17 L1.5,-15 Q0.7,-16 0,-16 Q-0.7,-16 -1.5,-15 Z" fill="#a83828"/>
+    <!-- Weapon raised -->
+    <line x1="-3" y1="-9" x2="-7" y2="-12" stroke="#3a2828" stroke-width="0.85"/>
+    <ellipse cx="0" cy="-15" rx="0.55" ry="0.4" fill="#fff"/>
+    <circle cx="0" cy="-15" r="0.2" fill="#3a1808"/>
+  </g>
+
+  <!-- LUMA (right, comms check) -->
+  <g transform="translate(500 290)">
+    <ellipse cx="0" cy="0" rx="3" ry="0.7" fill="#000" opacity="0.55"/>
+    <path d="M-2,-1 L-2.4,-9 L0,-12 L2.4,-9 L3,-1 Z" fill="#5a3ad8"/>
+    <ellipse cx="0" cy="-15" rx="2" ry="2" fill="#7a4838"/>
+    <path d="M-1.5,-17 Q0,-18 0,-18 Q1.5,-18 1.5,-17 L1.5,-15 Q0.7,-16 0,-16 Q-0.7,-16 -1.5,-15 Z" fill="#0a0604"/>
+    <!-- Wrist device glow -->
+    <ellipse cx="3" cy="-7" rx="1.4" ry="0.7" fill="#a888ff" filter="url(#i7p6p3bloom)" opacity="0.85"/>
+    <ellipse cx="-0.5" cy="-15" rx="0.55" ry="0.4" fill="#a888ff" filter="url(#i7p6p3bloom)" opacity="0.85"/>
+    <ellipse cx="0.5" cy="-15" rx="0.55" ry="0.4" fill="#a888ff" filter="url(#i7p6p3bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- Wing-pack trail residue from arriving squad (faint) -->
+  <g opacity="0.55" filter="url(#i7p6p3glow)">
+    <path d="M120,200 Q140,240 140,280" stroke="#a8c0e8" stroke-width="0.7" fill="none"/>
+    <path d="M280,200 Q280,240 290,280" stroke="#d89858" stroke-width="0.7" fill="none"/>
+    <path d="M420,200 Q420,240 420,280" stroke="#dc2030" stroke-width="0.7" fill="none"/>
+    <path d="M500,200 Q500,240 500,280" stroke="#a888ff" stroke-width="0.7" fill="none"/>
+  </g>
+
+  <!-- SABLE -->
+  <g>
+    <rect x="14" y="14" width="120" height="34" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="60,48 72,48 64,58" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="60.5" y1="48" x2="71.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Report.</text>
+
+  <!-- JINK -->
+  <g>
+    <rect x="160" y="14" width="380" height="34" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="220,48 232,48 224,58" fill="white" stroke="#2ed078" stroke-width="0.85"/>
+    <line x1="220.5" y1="48" x2="231.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="168" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="168" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Lens acquired. Quay quiet after shift change.</text>
+
+  <!-- WREN to Theodore -->
+  <g>
+    <rect x="566" y="14" width="160" height="34" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="610,48 622,48 614,58" fill="white" stroke="#c87a35" stroke-width="0.85"/>
+    <line x1="610.5" y1="48" x2="621.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="574" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="574" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">The lens. Let me see it.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,260 Q200,262 400,258 Q580,256 742,260"/>
+  </g>
+</svg>

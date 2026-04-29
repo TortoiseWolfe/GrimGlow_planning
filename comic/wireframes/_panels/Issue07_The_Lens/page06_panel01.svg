@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 290" width="366" height="290">
+  <title>Issue 7 — Page 6 — Panel 1: Jink on Theodore's shoulder asks about Cribbage — friendship deepening</title>
+  <desc>50mm fairy scale. Jink sits on Theodore's shoulder feet dangling against collarbone leaning side of neck. Wing-pack seams glow faintly emerald in darkening light. Genuine curious vulnerable — reckless mask lowered. Dusk grey-violet sky warm amber distant dock lanterns. Emerald glow against worn leather waistcoat.</desc>
+
+  <defs>
+    <linearGradient id="i7p6p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4858"/>
+      <stop offset="100%" stop-color="#3a2838"/>
+    </linearGradient>
+    <linearGradient id="i7p6p1leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="i7p6p1neckSkin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p6p1suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p6p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <radialGradient id="i7p6p1distantLamp" cx="100%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#d89858" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p6p1bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p6p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p6p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="290" fill="url(#i7p6p1bg)"/>
+
+  <!-- Distant amber dock-lantern wash from lower right -->
+  <ellipse cx="380" cy="280" rx="240" ry="160" fill="url(#i7p6p1distantLamp)" filter="url(#i7p6p1strongglow)"/>
+
+  <!-- Background suggestion of stars -->
+  <g fill="#fff" opacity="0.55">
+    <circle cx="40" cy="30" r="0.55"/>
+    <circle cx="120" cy="50" r="0.4"/>
+    <circle cx="200" cy="40" r="0.55"/>
+    <circle cx="300" cy="40" r="0.4"/>
+  </g>
+
+  <!-- ===== THEODORE — UPPER body and shoulder filling right portion ===== -->
+  <!-- Waistcoat fabric (worn leather brown) — fills majority of frame as landscape -->
+  <path d="M0,290 L0,160 L60,150 L120,140 L200,130 L260,120 L366,140 L366,290 Z" fill="url(#i7p6p1leather)"/>
+  <!-- Stitching detail on waistcoat -->
+  <g stroke="#3a1808" stroke-width="0.55" opacity="0.55" fill="none">
+    <path d="M40,180 Q140,170 240,180"/>
+    <path d="M40,200 Q140,190 240,200"/>
+    <path d="M40,220 Q140,210 240,220"/>
+    <path d="M40,240 Q140,230 240,240"/>
+  </g>
+  <!-- Wear marks -->
+  <g stroke="#7a4828" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M80,170 L100,170"/>
+    <path d="M180,180 L200,180"/>
+  </g>
+
+  <!-- Linen collar at top edge of waistcoat (where shoulder meets neck) -->
+  <path d="M40,140 L100,120 L160,110 L220,114 L260,120 L260,128 L220,122 L160,118 L100,128 L40,148 Z" fill="#e0d4b8"/>
+
+  <!-- THEODORE'S NECK rising up right side (landscape behind Jink) -->
+  <path d="M260,120 L290,40 L350,40 L366,140 L366,290 L260,290 Z" fill="url(#i7p6p1neckSkin)"/>
+  <!-- Jaw line -->
+  <path d="M290,80 Q310,40 350,40" stroke="#5a3018" stroke-width="0.85" fill="none" opacity="0.85"/>
+  <!-- Ear partial visible -->
+  <ellipse cx="346" cy="70" rx="8" ry="14" fill="#7a4828"/>
+  <ellipse cx="346" cy="70" rx="5" ry="9" fill="#5a3018"/>
+  <!-- Jaw shadow -->
+  <ellipse cx="320" cy="90" rx="22" ry="14" fill="#3a1808" opacity="0.55"/>
+  <!-- Sandy hair edge top of head -->
+  <path d="M310,40 L290,20 L340,14 L360,30 Z" fill="#9a7038"/>
+
+  <!-- ===== JINK — sitting on shoulder, leaning against neck ===== -->
+  <g transform="translate(180 130)">
+    <!-- Cast shadow on shoulder fabric -->
+    <ellipse cx="0" cy="0" rx="14" ry="2" fill="#000" opacity="0.55"/>
+
+    <!-- Feet dangling against collarbone (lower) -->
+    <path d="M-9,0 L-12,14 L-7,18 L-2,12 Z" fill="url(#i7p6p1suit)"/>
+    <path d="M-3,0 L-2,14 L3,18 L4,12 Z" fill="url(#i7p6p1suit)"/>
+    <ellipse cx="-9" cy="18" rx="3" ry="1" fill="#0a0408"/>
+    <ellipse cx="0" cy="18" rx="3" ry="1" fill="#0a0408"/>
+
+    <!-- Salt-damp staining lower legs -->
+    <ellipse cx="-7" cy="14" rx="2" ry="0.7" fill="#3a4838" opacity="0.55"/>
+    <ellipse cx="2" cy="14" rx="2" ry="0.7" fill="#3a4838" opacity="0.55"/>
+
+    <!-- Torso — leaning to right (against neck) -->
+    <path d="M-12,-2 L-14,-50 L-6,-66 L8,-66 L14,-50 L12,-2 Z" fill="url(#i7p6p1suit)"/>
+    <line x1="0" y1="-66" x2="0" y2="-2" stroke="#a8ffd0" stroke-width="0.55" opacity="0.85" filter="url(#i7p6p1bloom)"/>
+    <!-- Soot streak -->
+    <path d="M-12,-26 L12,-22" stroke="#1a1410" stroke-width="3" opacity="0.85"/>
+
+    <!-- Wing-pack stowed (faint emerald glow at seams) -->
+    <line x1="-14" y1="-58" x2="-18" y2="-30" stroke="#5af0a0" stroke-width="0.85" opacity="0.95" filter="url(#i7p6p1bloom)"/>
+    <line x1="14" y1="-58" x2="18" y2="-30" stroke="#5af0a0" stroke-width="0.85" opacity="0.95" filter="url(#i7p6p1bloom)"/>
+    <line x1="-12" y1="-50" x2="-12" y2="-18" stroke="#5af0a0" stroke-width="0.4" opacity="0.7" filter="url(#i7p6p1bloom)"/>
+    <line x1="12" y1="-50" x2="12" y2="-18" stroke="#5af0a0" stroke-width="0.4" opacity="0.7" filter="url(#i7p6p1bloom)"/>
+
+    <!-- LEFT arm relaxed in lap -->
+    <path d="M-14,-50 L-22,-30 L-18,-12 L-9,-30 Z" fill="url(#i7p6p1suit)"/>
+    <ellipse cx="-22" cy="-12" rx="3" ry="2" fill="url(#i7p6p1skin)"/>
+    <!-- RIGHT arm reaching behind, hand against neck -->
+    <path d="M14,-50 L22,-32 L26,-14 L18,-30 Z" fill="url(#i7p6p1suit)"/>
+    <ellipse cx="26" cy="-14" rx="3" ry="2" fill="url(#i7p6p1skin)"/>
+
+    <!-- Head — turned slightly UP toward Theodore's face (off-frame upper right) -->
+    <ellipse cx="2" cy="-78" rx="11" ry="12" fill="url(#i7p6p1skin)"/>
+    <!-- Wild golden curls -->
+    <path d="M-7,-90 Q-3,-100 2,-102 Q9,-100 12,-90 L12,-82 Q9,-86 2,-86 Q-5,-86 -7,-82 Z" fill="#f0d878"/>
+    <circle cx="-5" cy="-95" r="2.4" fill="#f0d878"/>
+    <circle cx="-1" cy="-100" r="2" fill="#f0d878"/>
+    <circle cx="5" cy="-100" r="2" fill="#f0d878"/>
+    <circle cx="11" cy="-95" r="2.4" fill="#f0d878"/>
+    <!-- Loose strand against neck (touching landscape) -->
+    <path d="M11,-86 L18,-78" stroke="#f0d878" stroke-width="1" fill="none"/>
+
+    <!-- Cheekbones -->
+    <path d="M-7,-78 Q-5,-72 0,-68" fill="none" stroke="#5a3018" stroke-width="0.55" opacity="0.85"/>
+    <path d="M11,-78 Q9,-72 4,-68" fill="none" stroke="#5a3018" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Eyes — looking UP-RIGHT, soft -->
+    <ellipse cx="-3" cy="-78" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="5" cy="-78" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="-2" cy="-79" rx="0.85" ry="0.7" fill="#1a4a28"/>
+    <ellipse cx="6" cy="-79" rx="0.85" ry="0.7" fill="#1a4a28"/>
+    <circle cx="-2" cy="-79" r="0.3" fill="#fff"/>
+    <circle cx="6" cy="-79" r="0.3" fill="#fff"/>
+    <!-- Brow soft (curious, vulnerable) -->
+    <path d="M-7,-86 Q-3,-88 0,-86" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M11,-86 Q7,-88 4,-86" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <!-- Mouth — slight open, asking -->
+    <ellipse cx="2" cy="-68" rx="1.4" ry="0.55" fill="#3a1808"/>
+    <!-- Comms ear -->
+    <circle cx="13" cy="-78" r="1" fill="#5af0a0" filter="url(#i7p6p1bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- JINK -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="120,64 132,64 124,76" fill="white" stroke="#2ed078" stroke-width="0.85"/>
+    <line x1="120.5" y1="64" x2="131.5" y2="64" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">That master of yours. Cribbage.</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Does he know what you can do?</text>
+
+  <!-- THEODORE off-panel -->
+  <g>
+    <rect x="14" y="220" width="338" height="50" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="238" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(off-panel)</tspan></text>
+  <text x="22" y="252" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">He knows I can fix what he can't.</text>
+  <text x="22" y="266" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Doesn't mean he sees me.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q100,92 200,88 Q280,86 366,90"/>
+    <path d="M0,200 Q100,202 200,198 Q280,196 366,200"/>
+  </g>
+</svg>

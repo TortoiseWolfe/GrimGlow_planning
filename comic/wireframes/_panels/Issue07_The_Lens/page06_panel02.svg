@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 290" width="366" height="290">
+  <title>Issue 7 — Page 6 — Panel 2: Theodore profile — moved by Jink saying we see you, protective hand near shoulder</title>
+  <desc>85mm close-up human scale. Theodore profile looking toward river. On shoulder Jink small emerald glow. Expression shifted — Jink's words landed. We see you. For boy invisible whole working life that's everything. Hand comes up not touching — rests on shoulder near. Protective. Moved. Shine in hazel eyes — gratitude can't say.</desc>
+
+  <defs>
+    <linearGradient id="i7p6p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4858"/>
+      <stop offset="100%" stop-color="#3a2838"/>
+    </linearGradient>
+    <radialGradient id="i7p6p2dockAmber" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#d89858" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p6p2skinSplit" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="50%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#d89858"/>
+    </linearGradient>
+    <linearGradient id="i7p6p2suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p6p2leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <filter id="i7p6p2bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p6p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p6p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="290" fill="url(#i7p6p2bg)"/>
+
+  <!-- Warm dock-lantern wash from RIGHT -->
+  <ellipse cx="380" cy="180" rx="280" ry="200" fill="url(#i7p6p2dockAmber)" filter="url(#i7p6p2strongglow)"/>
+
+  <!-- Stars -->
+  <g fill="#fff" opacity="0.55">
+    <circle cx="40" cy="30" r="0.55"/>
+    <circle cx="120" cy="50" r="0.4"/>
+    <circle cx="80" cy="90" r="0.55"/>
+  </g>
+
+  <!-- ===== THEODORE — profile, facing RIGHT toward river ===== -->
+  <g transform="translate(140 290)">
+    <!-- Linen collar at chest -->
+    <path d="M-30,-30 L0,-40 L30,-30 L30,-20 L0,-30 L-30,-20 Z" fill="#e0d4b8"/>
+
+    <!-- Waistcoat shoulder/back visible -->
+    <path d="M-50,-30 L-40,-100 L-20,-130 L40,-130 L60,-110 L60,-30 Z" fill="url(#i7p6p2leather)"/>
+
+    <!-- Neck profile -->
+    <path d="M-2,-160 L-6,-130 L18,-130 L14,-160 Z" fill="url(#i7p6p2skinSplit)"/>
+
+    <!-- Head profile facing right -->
+    <ellipse cx="14" cy="-200" rx="32" ry="40" fill="url(#i7p6p2skinSplit)"/>
+
+    <!-- Sandy hair top + back -->
+    <path d="M-26,-220 Q-4,-240 24,-242 Q44,-240 46,-220 L44,-200 Q24,-220 4,-218 Q-22,-216 -26,-200 Z" fill="#9a7038"/>
+
+    <!-- Cheekbone (warm side, facing river) -->
+    <path d="M40,-220 Q44,-200 36,-180" fill="none" stroke="#3a1808" stroke-width="1" opacity="0.85"/>
+
+    <!-- EYE (single visible, facing right) — shining, hazel -->
+    <ellipse cx="20" cy="-208" rx="6" ry="3" fill="#fff8e8"/>
+    <ellipse cx="22" cy="-208" rx="3" ry="2.4" fill="#7a4818"/>
+    <ellipse cx="22" cy="-208" rx="1.4" ry="1.4" fill="#3a1808"/>
+    <!-- Bright catchlight (the shine) -->
+    <circle cx="20" cy="-210" r="1.4" fill="#ffd898" filter="url(#i7p6p2bloom)"/>
+    <circle cx="24" cy="-208" r="0.85" fill="#fff"/>
+    <!-- Lower lash -->
+    <path d="M14,-204 Q22,-202 28,-204" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+
+    <!-- Brow — slightly raised (moved) -->
+    <path d="M8,-220 Q22,-224 32,-218" stroke="#5a3018" stroke-width="2" fill="none"/>
+
+    <!-- Nose (jutting right) -->
+    <path d="M30,-208 L40,-194 L36,-184 L30,-184 L26,-194 Z" fill="#5a3018" opacity="0.7"/>
+
+    <!-- Mouth slightly parted (about to speak) -->
+    <ellipse cx="26" cy="-174" rx="3" ry="1" fill="#3a1808"/>
+
+    <!-- Freckles -->
+    <circle cx="14" cy="-186" r="1" fill="#5a3018" opacity="0.85"/>
+    <circle cx="22" cy="-180" r="1" fill="#5a3018" opacity="0.85"/>
+    <circle cx="30" cy="-184" r="1" fill="#5a3018" opacity="0.85"/>
+
+    <!-- LEFT hand coming UP toward shoulder (protective gesture, NOT touching Jink) -->
+    <path d="M-50,-100 L-60,-80 L-46,-50 L-30,-70 Z" fill="url(#i7p6p2leather)"/>
+    <ellipse cx="-30" cy="-70" rx="9" ry="6" fill="url(#i7p6p2skinSplit)"/>
+    <!-- Fingers slightly cupped near where Jink would be -->
+    <ellipse cx="-22" cy="-86" rx="3" ry="6" fill="url(#i7p6p2skinSplit)"/>
+    <ellipse cx="-14" cy="-90" rx="3" ry="6" fill="url(#i7p6p2skinSplit)"/>
+    <ellipse cx="-6" cy="-92" rx="3" ry="6" fill="url(#i7p6p2skinSplit)"/>
+    <!-- Brass gear ring on index -->
+    <circle cx="-22" cy="-92" r="2.4" fill="none" stroke="#d89858" stroke-width="0.85" filter="url(#i7p6p2bloom)"/>
+    <circle cx="-22" cy="-92" r="1.4" fill="#a87838"/>
+  </g>
+
+  <!-- ===== JINK on shoulder — small emerald glow ===== -->
+  <g transform="translate(80 178)">
+    <!-- Halo glow -->
+    <ellipse cx="0" cy="0" rx="14" ry="10" fill="#5af0a0" opacity="0.55" filter="url(#i7p6p2strongglow)"/>
+    <!-- Tiny silhouette body -->
+    <path d="M-2,-2 L-2.4,-9 L0,-12 L2.4,-9 L3,-2 Z" fill="url(#i7p6p2suit)"/>
+    <ellipse cx="-2" cy="0" rx="1.4" ry="0.85" fill="url(#i7p6p2suit)"/>
+    <ellipse cx="2" cy="0" rx="1.4" ry="0.85" fill="url(#i7p6p2suit)"/>
+    <!-- Wing-pack glow -->
+    <line x1="-3" y1="-9" x2="-4" y2="-4" stroke="#5af0a0" stroke-width="0.7" opacity="0.95" filter="url(#i7p6p2bloom)"/>
+    <line x1="3" y1="-9" x2="4" y2="-4" stroke="#5af0a0" stroke-width="0.7" opacity="0.95" filter="url(#i7p6p2bloom)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-15" rx="2" ry="2" fill="#d8a878"/>
+    <path d="M-1.5,-17 Q0,-19 0,-19 Q1.5,-19 1.5,-17 L1.5,-15 Q0.7,-16 0,-16 Q-0.7,-16 -1.5,-15 Z" fill="#f0d878"/>
+  </g>
+
+  <!-- THEODORE -->
+  <g>
+    <rect x="14" y="14" width="200" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="100,54 112,54 104,64" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="100.5" y1="54" x2="111.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(quiet)</tspan></text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">...thank you.</text>
+
+  <!-- JINK reply (top-down from earlier panel, conceptual carry) -->
+  <g>
+    <rect x="14" y="240" width="240" height="34" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="256" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(echoing, prior)</tspan></text>
+  <text x="22" y="270" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">"We see you."</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q100,92 200,88 Q280,86 366,90"/>
+    <path d="M0,210 Q100,212 200,208 Q280,206 366,210"/>
+  </g>
+</svg>
