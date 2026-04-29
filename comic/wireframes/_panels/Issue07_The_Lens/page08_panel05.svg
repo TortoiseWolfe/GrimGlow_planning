@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 400" width="494" height="400">
+  <title>Issue 7 — Page 8 — Panel 5: Luma reaches Thresh — anatomical hologram diagnostic, grounding hand on forearm, no injuries</title>
+  <desc>35mm slight high angle fairy scale. Luma kneels beside Thresh prone form in shadow stone joint groove. Scanner projects diagnostic hologram blue-violet anatomical overlay over Thresh's body. Vital signs check. Read clear: elevated heart rate adrenaline spike stress markers — no physical damage beyond shoulder scrape. Doesn't touch Thresh immediately. Reads scanner first then places one hand on forearm — grounding contact.</desc>
+
+  <defs>
+    <linearGradient id="i7p8p5bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p8p5stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p8p5suitL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <linearGradient id="i7p8p5suitT" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82030"/>
+      <stop offset="100%" stop-color="#3a0c14"/>
+    </linearGradient>
+    <linearGradient id="i7p8p5skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3a28"/>
+    </linearGradient>
+    <linearGradient id="i7p8p5skinT" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="i7p8p5scannerLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a888ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p8p5distantAmber" cx="100%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#a87838" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p8p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p8p5glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p8p5strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p8p5megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="494" height="400" fill="url(#i7p8p5bg)"/>
+
+  <!-- Distant amber dock lanterns -->
+  <ellipse cx="494" cy="0" rx="280" ry="140" fill="url(#i7p8p5distantAmber)" filter="url(#i7p8p5strongglow)"/>
+
+  <!-- ===== STONE GROOVE — shallow trench between quay stones ===== -->
+  <path d="M0,180 L494,180 L494,400 L0,400 Z" fill="url(#i7p8p5stone)"/>
+  <!-- Walls of groove (raised stone on either side, perspective) -->
+  <path d="M0,180 L494,180 L494,200 L0,200 Z" fill="#1a1818"/>
+  <line x1="0" y1="180" x2="494" y2="180" stroke="#0a0608" stroke-width="0.85"/>
+  <line x1="0" y1="200" x2="494" y2="200" stroke="#0a0608" stroke-width="0.55"/>
+  <!-- Floor of groove -->
+  <g stroke="#0a0608" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,260 L494,260"/>
+    <path d="M0,320 L494,320"/>
+    <path d="M0,380 L494,380"/>
+  </g>
+
+  <!-- ===== SCANNER LIGHT halo dominates ===== -->
+  <ellipse cx="247" cy="280" rx="280" ry="160" fill="url(#i7p8p5scannerLight)" filter="url(#i7p8p5megaglow)"/>
+
+  <!-- ===== THRESH — prone, lying on her back now ===== -->
+  <g transform="translate(310 320)">
+    <ellipse cx="0" cy="40" rx="60" ry="6" fill="#000" opacity="0.55"/>
+
+    <!-- Body lying on back -->
+    <!-- Legs -->
+    <path d="M-22,40 L-30,90 L0,100 L0,40 Z" fill="url(#i7p8p5suitT)"/>
+    <path d="M22,40 L30,90 L0,100 L0,40 Z" fill="url(#i7p8p5suitT)"/>
+    <ellipse cx="-18" cy="90" rx="9" ry="3" fill="#3a0c14"/>
+    <ellipse cx="18" cy="90" rx="9" ry="3" fill="#3a0c14"/>
+
+    <!-- Torso flat on back -->
+    <ellipse cx="0" cy="0" rx="40" ry="32" fill="url(#i7p8p5suitT)"/>
+    <line x1="0" y1="-32" x2="0" y2="32" stroke="#ff8898" stroke-width="0.55" opacity="0.85" filter="url(#i7p8p5bloom)"/>
+
+    <!-- Dented LEFT pauldron -->
+    <ellipse cx="-44" cy="-14" rx="14" ry="6" fill="#7a1a28"/>
+    <line x1="-50" y1="-14" x2="-44" y2="-18" stroke="#3a0c14" stroke-width="1.4"/>
+
+    <!-- FRESH SHOULDER SCRAPE on RIGHT pauldron -->
+    <ellipse cx="44" cy="-14" rx="14" ry="6" fill="#7a1a28"/>
+    <path d="M30,-18 L58,-10" stroke="#a8b0c0" stroke-width="2" filter="url(#i7p8p5bloom)"/>
+    <path d="M32,-16 L56,-12" stroke="#fff8e8" stroke-width="0.7" opacity="0.95" filter="url(#i7p8p5bloom)"/>
+
+    <!-- Crimson nodes (now steadier, calmer) -->
+    <circle cx="-22" cy="-9" r="1.4" fill="#ff5060" filter="url(#i7p8p5bloom)" opacity="0.85"/>
+    <circle cx="22" cy="-9" r="1.4" fill="#ff5060" filter="url(#i7p8p5bloom)" opacity="0.85"/>
+    <circle cx="0" cy="9" r="1.4" fill="#ff5060" filter="url(#i7p8p5bloom)" opacity="0.85"/>
+
+    <!-- Arms at sides -->
+    <path d="M-30,-22 L-50,0 L-46,18 L-30,-2 Z" fill="url(#i7p8p5suitT)"/>
+    <path d="M30,-22 L50,0 L46,18 L30,-2 Z" fill="url(#i7p8p5suitT)"/>
+
+    <!-- LEFT FOREARM where Luma rests her hand -->
+    <ellipse cx="-50" cy="6" rx="9" ry="6" fill="url(#i7p8p5skinT)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-44" rx="14" ry="14" fill="url(#i7p8p5skinT)"/>
+    <path d="M-12,-56 Q-12,-58 0,-58 Q12,-58 12,-56 L12,-52 Q6,-54 0,-54 Q-6,-54 -12,-52 Z" fill="#a83828"/>
+    <!-- Eyes — beginning to refocus -->
+    <ellipse cx="-4" cy="-44" rx="2.4" ry="1.4" fill="#fff"/>
+    <ellipse cx="4" cy="-44" rx="2.4" ry="1.4" fill="#fff"/>
+    <ellipse cx="-3" cy="-44" rx="1.4" ry="1" fill="#3a1808"/>
+    <ellipse cx="5" cy="-44" rx="1.4" ry="1" fill="#3a1808"/>
+    <circle cx="-3" cy="-44" r="0.4" fill="#fff"/>
+    <circle cx="5" cy="-44" r="0.4" fill="#fff"/>
+    <!-- Brow softening -->
+    <path d="M-9,-52 Q-3,-54 0,-52" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+    <path d="M9,-52 Q3,-54 0,-52" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+    <!-- Mouth slightly open -->
+    <ellipse cx="0" cy="-32" rx="2" ry="1" fill="#3a1808"/>
+  </g>
+
+  <!-- ===== ANATOMICAL HOLOGRAM hovering above Thresh's body ===== -->
+  <g transform="translate(310 280)" filter="url(#i7p8p5bloom)">
+    <!-- Outline of body -->
+    <ellipse cx="0" cy="0" rx="40" ry="32" fill="none" stroke="#a888ff" stroke-width="1" opacity="0.95"/>
+    <ellipse cx="0" cy="-44" rx="14" ry="14" fill="none" stroke="#a888ff" stroke-width="1" opacity="0.95"/>
+    <!-- Heart (highlighted, pulsing) -->
+    <path d="M-9,-9 Q-5,-15 0,-9 Q5,-15 9,-9 Q9,-2 0,5 Q-9,-2 -9,-9 Z" fill="none" stroke="#fff" stroke-width="1.4" opacity="0.95" filter="url(#i7p8p5bloom)"/>
+    <!-- Vital readouts -->
+    <text x="60" y="-9" font-family="monospace" font-size="6" fill="#a888ff" opacity="0.95">HR: 142</text>
+    <text x="60" y="0" font-family="monospace" font-size="5" fill="#a888ff" opacity="0.85">ADRENALINE +</text>
+    <text x="60" y="9" font-family="monospace" font-size="5" fill="#a888ff" opacity="0.85">STRESS +</text>
+    <text x="-130" y="-9" font-family="monospace" font-size="6" fill="#fff" opacity="0.95">NO INJURY</text>
+    <text x="-130" y="0" font-family="monospace" font-size="5" fill="#a888ff" opacity="0.85">SCRAPE: SUPERFICIAL</text>
+    <!-- Connection lines from labels to body -->
+    <line x1="40" y1="-9" x2="60" y2="-9" stroke="#a888ff" stroke-width="0.4"/>
+    <line x1="44" y1="-14" x2="60" y2="0" stroke="#a888ff" stroke-width="0.4"/>
+    <line x1="-40" y1="-9" x2="-60" y2="-9" stroke="#a888ff" stroke-width="0.4"/>
+    <line x1="-44" y1="-14" x2="-60" y2="0" stroke="#a888ff" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== LUMA — kneeling beside, hand on Thresh's forearm ===== -->
+  <g transform="translate(180 320)">
+    <ellipse cx="0" cy="40" rx="22" ry="3" fill="#000" opacity="0.55"/>
+    <!-- Kneeling: knees bent under -->
+    <ellipse cx="-14" cy="20" rx="14" ry="6" fill="url(#i7p8p5suitL)"/>
+    <ellipse cx="14" cy="20" rx="14" ry="6" fill="url(#i7p8p5suitL)"/>
+    <ellipse cx="-22" cy="40" rx="9" ry="3" fill="#0a0408"/>
+    <ellipse cx="22" cy="40" rx="9" ry="3" fill="#0a0408"/>
+
+    <!-- Stone dust on knees -->
+    <ellipse cx="-14" cy="14" rx="9" ry="3" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="14" cy="14" rx="9" ry="3" fill="#a8a098" opacity="0.85"/>
+
+    <!-- Torso leaning forward -->
+    <path d="M-22,16 L-26,-30 L-12,-50 L12,-50 L26,-30 L22,16 Z" fill="url(#i7p8p5suitL)"/>
+    <line x1="0" y1="-50" x2="0" y2="16" stroke="#a888ff" stroke-width="0.55" opacity="0.85" filter="url(#i7p8p5bloom)"/>
+
+    <!-- Wing-pack stowed -->
+    <line x1="-22" y1="-40" x2="-26" y2="-12" stroke="#a888ff" stroke-width="0.4" opacity="0.4"/>
+    <line x1="22" y1="-40" x2="26" y2="-12" stroke="#a888ff" stroke-width="0.4" opacity="0.4"/>
+
+    <!-- LEFT arm holding scanner up -->
+    <path d="M-26,-30 L-40,-10 L-30,14 L-18,-12 Z" fill="url(#i7p8p5suitL)"/>
+    <ellipse cx="-30" cy="14" rx="6" ry="3" fill="url(#i7p8p5skin)"/>
+    <!-- Scanner device -->
+    <rect x="-36" y="22" width="14" height="6" fill="#3a2068" stroke="#a888ff" stroke-width="0.55"/>
+
+    <!-- RIGHT ARM EXTENDED — hand on Thresh's forearm (grounding) -->
+    <path d="M22,-30 L60,-10 L100,18 L100,30 L60,12 L26,-12 Z" fill="url(#i7p8p5suitL)"/>
+    <!-- Hand resting on Thresh's forearm (reaches across to Thresh's left forearm) -->
+    <ellipse cx="100" cy="22" rx="7" ry="4" fill="url(#i7p8p5skin)"/>
+    <!-- Fingers gentle on forearm -->
+    <ellipse cx="103" cy="28" rx="2" ry="4" fill="url(#i7p8p5skin)"/>
+    <ellipse cx="106" cy="28" rx="2" ry="4" fill="url(#i7p8p5skin)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-66" rx="14" ry="16" fill="url(#i7p8p5skin)"/>
+    <!-- Long braid -->
+    <path d="M-12,-82 Q-10,-88 0,-90 Q10,-88 12,-82 L12,-76 Q6,-78 0,-78 Q-6,-78 -12,-76 Z" fill="#0a0604"/>
+    <path d="M-9,-86 Q-15,-72 -18,-50 Q-20,-30 -16,-14" stroke="#0a0604" stroke-width="2" fill="none"/>
+    <!-- Luminous filament -->
+    <line x1="-9" y1="-86" x2="-18" y2="-50" stroke="#a888ff" stroke-width="0.4" opacity="0.55" filter="url(#i7p8p5bloom)"/>
+
+    <!-- Holographic lenses (reading data, calmer than running panel) -->
+    <ellipse cx="-4" cy="-66" rx="2" ry="1.4" fill="#a888ff" filter="url(#i7p8p5bloom)" opacity="0.85"/>
+    <ellipse cx="4" cy="-66" rx="2" ry="1.4" fill="#a888ff" filter="url(#i7p8p5bloom)" opacity="0.85"/>
+    <circle cx="-4" cy="-66" r="0.55" fill="#1a0a04"/>
+    <circle cx="4" cy="-66" r="0.55" fill="#1a0a04"/>
+    <!-- Cracked left lens -->
+    <line x1="-6" y1="-67" x2="-3" y2="-65" stroke="#1a0a04" stroke-width="0.3"/>
+    <!-- Brow soft -->
+    <path d="M-7,-72 Q-3,-74 0,-72" stroke="#3a1808" stroke-width="0.55" fill="none"/>
+    <path d="M7,-72 Q3,-74 0,-72" stroke="#3a1808" stroke-width="0.55" fill="none"/>
+    <!-- Mouth — speaking gently -->
+    <line x1="-2" y1="-58" x2="2" y2="-58" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="14" y="14" width="466" height="50" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="200,64 212,64 204,76" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="200.5" y1="64" x2="211.5" y2="64" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">You're all right. No injuries.</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">The shoulder scrape is surface only.</text>
+
+  <!-- THRESH -->
+  <g>
+    <rect x="14" y="80" width="200" height="34" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,114 92,114 84,124" fill="white" stroke="#dc2030" stroke-width="0.85"/>
+    <line x1="80.5" y1="114" x2="91.5" y2="114" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#dc2030" font-weight="700">THRESH</text>
+  <text x="22" y="110" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I couldn't—</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="14" y="350" width="466" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="160,350 172,350 164,340" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="160.5" y1="350" x2="171.5" y2="350" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="368" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="384" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Your body moved you. That's training. The freeze is normal.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q120,182 240,178 Q360,176 494,180"/>
+    <path d="M0,300 Q120,302 240,298 Q360,296 494,300"/>
+  </g>
+</svg>

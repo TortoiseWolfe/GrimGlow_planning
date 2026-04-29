@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 7 — Page 8 — Panel 1: Open quay — dockworker's boots stride toward Thresh, swinging lantern shadows make terrain unstable</title>
+  <desc>28mm wide low fairy scale eye level. Open quay from Thresh's level. She mid-crossing exposed open stone. Late-shift dockworker appeared hauling crate hand-cart. Boots canvas trousers heavy leather apron — moving directly toward Thresh's position. Lantern swings cart handle casts sweeping shadows. Boots approach. Thresh seconds to move. Compact weapon useless against this scale.</desc>
+
+  <defs>
+    <linearGradient id="i7p8p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p8p1stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5860"/>
+      <stop offset="50%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p8p1trouser" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="i7p8p1boot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="i7p8p1lanternSwing" cx="60%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p8p1bootShadow" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p8p1suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f04060"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="i7p8p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i7p8p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p8p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p8p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p8p1megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="742" height="280" fill="url(#i7p8p1bg)"/>
+
+  <!-- Lantern swing wash from upper right -->
+  <ellipse cx="500" cy="0" rx="320" ry="180" fill="url(#i7p8p1lanternSwing)" filter="url(#i7p8p1megaglow)"/>
+
+  <!-- ===== STONE QUAY (most of frame, low angle so we see surface in deep perspective) ===== -->
+  <rect x="0" y="100" width="742" height="180" fill="url(#i7p8p1stone)"/>
+  <line x1="0" y1="100" x2="742" y2="100" stroke="#0a0608" stroke-width="0.7"/>
+  <!-- Quay seams -->
+  <g stroke="#0a0608" stroke-width="0.55" opacity="0.85" fill="none">
+    <path d="M0,140 L742,140"/>
+    <path d="M0,180 L742,180"/>
+    <path d="M0,220 L742,220"/>
+    <path d="M0,260 L742,260"/>
+    <line x1="80" y1="100" x2="80" y2="280"/>
+    <line x1="200" y1="100" x2="200" y2="280"/>
+    <line x1="320" y1="100" x2="320" y2="280"/>
+    <line x1="440" y1="100" x2="440" y2="280"/>
+    <line x1="560" y1="100" x2="560" y2="280"/>
+    <line x1="660" y1="100" x2="660" y2="280"/>
+  </g>
+
+  <!-- Salt and dock grime on stone -->
+  <g fill="#7a6048" opacity="0.45">
+    <ellipse cx="120" cy="240" rx="9" ry="2"/>
+    <ellipse cx="280" cy="200" rx="14" ry="3"/>
+    <ellipse cx="500" cy="220" rx="11" ry="2.4"/>
+    <ellipse cx="640" cy="240" rx="9" ry="2"/>
+  </g>
+
+  <!-- ===== SWEEPING SHADOW pattern from swinging lantern (diagonal shadow bars) ===== -->
+  <g opacity="0.7">
+    <path d="M100,100 L40,280 L120,280 L160,100 Z" fill="#000" opacity="0.55" filter="url(#i7p8p1bloom)"/>
+    <path d="M280,100 L240,280 L320,280 L340,100 Z" fill="#000" opacity="0.4" filter="url(#i7p8p1bloom)"/>
+    <path d="M620,100 L580,280 L660,280 L680,100 Z" fill="#000" opacity="0.55" filter="url(#i7p8p1bloom)"/>
+  </g>
+  <!-- Amber sweeping pools between shadows -->
+  <g opacity="0.85" filter="url(#i7p8p1glow)">
+    <ellipse cx="200" cy="200" rx="60" ry="22" fill="#a87838" opacity="0.55"/>
+    <ellipse cx="420" cy="210" rx="80" ry="22" fill="#a87838" opacity="0.55"/>
+  </g>
+
+  <!-- ===== DOCKWORKER LEGS — UPPER FRAME, marching forward ===== -->
+  <!-- Trousers (canvas, heavy) -->
+  <g transform="translate(420 0)">
+    <!-- Front leg (descending toward camera) -->
+    <path d="M-60,0 L-50,100 L-30,160 L-90,160 L-90,100 L-90,0 Z" fill="url(#i7p8p1trouser)"/>
+    <line x1="-90" y1="60" x2="-50" y2="60" stroke="#1a0c08" stroke-width="0.85" opacity="0.85"/>
+    <line x1="-90" y1="120" x2="-30" y2="120" stroke="#1a0c08" stroke-width="0.85" opacity="0.85"/>
+    <!-- Apron edge visible (heavy leather) -->
+    <path d="M-110,0 L-110,100 L-30,100 L-30,0 Z" fill="#5a3818" opacity="0.85"/>
+    <line x1="-110" y1="50" x2="-30" y2="50" stroke="#3a2418" stroke-width="0.7"/>
+    <!-- Apron strap -->
+    <line x1="-110" y1="0" x2="-90" y2="60" stroke="#3a2418" stroke-width="2"/>
+
+    <!-- BOOT — front leg, descending -->
+    <ellipse cx="-60" cy="170" rx="60" ry="14" fill="#000" opacity="0.85"/>
+    <path d="M-100,150 L-100,170 L-20,180 L-20,150 Z" fill="url(#i7p8p1boot)"/>
+    <!-- Boot toe curve -->
+    <path d="M-20,150 Q-20,140 0,150 L0,180 L-20,180 Z" fill="url(#i7p8p1boot)"/>
+    <!-- Hobnail studs -->
+    <g fill="#a87838" opacity="0.85" filter="url(#i7p8p1bloom)">
+      <circle cx="-90" cy="170" r="1.4"/>
+      <circle cx="-80" cy="172" r="1.4"/>
+      <circle cx="-70" cy="174" r="1.4"/>
+      <circle cx="-60" cy="174" r="1.4"/>
+      <circle cx="-50" cy="174" r="1.4"/>
+      <circle cx="-40" cy="172" r="1.4"/>
+      <circle cx="-30" cy="170" r="1.4"/>
+    </g>
+    <!-- Iron heel -->
+    <rect x="-100" y="160" width="14" height="20" fill="#3a3838"/>
+    <!-- Mud caked on boot -->
+    <ellipse cx="-50" cy="160" rx="14" ry="3" fill="#3a2418" opacity="0.85"/>
+  </g>
+
+  <!-- Back leg (further away, smaller from this perspective) -->
+  <g transform="translate(580 0)">
+    <path d="M-30,0 L-20,90 L-10,150 L-50,150 L-50,90 L-60,0 Z" fill="url(#i7p8p1trouser)"/>
+    <ellipse cx="-30" cy="160" rx="40" ry="9" fill="#000" opacity="0.7"/>
+    <path d="M-60,140 L-60,160 L-10,170 L0,140 Z" fill="url(#i7p8p1boot)"/>
+    <g fill="#a87838" opacity="0.85" filter="url(#i7p8p1bloom)">
+      <circle cx="-50" cy="160" r="1"/>
+      <circle cx="-40" cy="162" r="1"/>
+      <circle cx="-30" cy="164" r="1"/>
+      <circle cx="-20" cy="162" r="1"/>
+      <circle cx="-10" cy="160" r="1"/>
+    </g>
+  </g>
+
+  <!-- LANTERN swinging from off-panel cart -->
+  <g transform="translate(700 80)">
+    <!-- Chain -->
+    <line x1="0" y1="-80" x2="0" y2="-10" stroke="#1a1018" stroke-width="0.85"/>
+    <!-- Lantern body -->
+    <rect x="-12" y="-10" width="24" height="22" fill="#3a2418" stroke="#1a0c08" stroke-width="0.85"/>
+    <!-- Glass panel with flame -->
+    <rect x="-9" y="-7" width="18" height="16" fill="#ffd898" filter="url(#i7p8p1bloom)"/>
+    <ellipse cx="0" cy="0" rx="4" ry="6" fill="#fff8c8" filter="url(#i7p8p1bloom)"/>
+    <!-- Halo -->
+    <ellipse cx="0" cy="0" rx="40" ry="36" fill="#ffd898" opacity="0.55" filter="url(#i7p8p1strongglow)"/>
+  </g>
+
+  <!-- ===== THRESH — center-lower frame, tiny, mid-crossing ===== -->
+  <g transform="translate(371 240)">
+    <!-- Cast shadow -->
+    <ellipse cx="0" cy="6" rx="14" ry="2" fill="#000" opacity="0.85"/>
+    <!-- Mid-stride frozen -->
+    <ellipse cx="-9" cy="4" rx="6" ry="3" fill="#3a0c14"/>
+    <ellipse cx="9" cy="4" rx="6" ry="3" fill="#3a0c14"/>
+    <!-- Legs -->
+    <path d="M-12,2 L-16,-30 L-2,-50 L0,-30 Z" fill="url(#i7p8p1suit)"/>
+    <path d="M12,2 L16,-30 L2,-50 L0,-30 Z" fill="url(#i7p8p1suit)"/>
+    <ellipse cx="-7" cy="-46" rx="6" ry="3" fill="#7a1a28"/>
+    <ellipse cx="7" cy="-46" rx="6" ry="3" fill="#7a1a28"/>
+    <!-- Torso facing UP (looking at boots) -->
+    <path d="M-14,-50 L-16,-90 L-9,-110 L9,-110 L16,-90 L14,-50 Z" fill="url(#i7p8p1suit)"/>
+    <!-- Dented LEFT pauldron -->
+    <path d="M-16,-92 L-22,-86 L-22,-76 L-16,-78 Z" fill="#7a1a28"/>
+    <line x1="-18" y1="-86" x2="-16" y2="-90" stroke="#3a0c14" stroke-width="0.85"/>
+    <!-- Right pauldron (clean — scrape comes in P2) -->
+    <path d="M16,-92 L22,-86 L22,-76 L16,-78 Z" fill="#7a1a28"/>
+    <!-- Crimson nodes -->
+    <circle cx="-14" cy="-78" r="1" fill="#ff5060" filter="url(#i7p8p1bloom)" opacity="0.95"/>
+    <circle cx="14" cy="-78" r="1" fill="#ff5060" filter="url(#i7p8p1bloom)" opacity="0.95"/>
+
+    <!-- Arms — weapon raised UP toward boot -->
+    <path d="M-16,-90 L-22,-100 L-12,-120 Z" fill="url(#i7p8p1suit)"/>
+    <path d="M16,-90 L22,-100 L12,-120 Z" fill="url(#i7p8p1suit)"/>
+    <!-- Weapon RAISED upward (futile gesture) -->
+    <rect x="-3" y="-130" width="14" height="3" fill="#3a2828" stroke="#1a0c0a" stroke-width="0.4" transform="rotate(-30 0 -126)"/>
+    <ellipse cx="-12" cy="-120" rx="3" ry="1.4" fill="url(#i7p8p1skin)"/>
+    <ellipse cx="12" cy="-120" rx="3" ry="1.4" fill="url(#i7p8p1skin)"/>
+
+    <!-- Head — looking UP (eyes locked on boots) -->
+    <ellipse cx="0" cy="-126" rx="9" ry="11" fill="url(#i7p8p1skin)"/>
+    <path d="M-7,-138 Q-7,-142 0,-144 Q7,-142 7,-138 L7,-134 Q4,-138 0,-138 Q-4,-138 -7,-134 Z" fill="#a83828"/>
+    <!-- Eyes WIDE looking UP (not at viewer, at boots above) -->
+    <ellipse cx="-3" cy="-126" rx="2" ry="1.4" fill="#fff"/>
+    <ellipse cx="3" cy="-126" rx="2" ry="1.4" fill="#fff"/>
+    <!-- Pupils high in eye (looking up) -->
+    <ellipse cx="-3" cy="-128" rx="1" ry="0.7" fill="#3a1808"/>
+    <ellipse cx="3" cy="-128" rx="1" ry="0.7" fill="#3a1808"/>
+    <!-- Brow tense -->
+    <path d="M-7,-134 Q-3,-136 0,-134" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+    <path d="M7,-134 Q3,-136 0,-134" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+    <!-- Mouth — open in shock -->
+    <ellipse cx="0" cy="-118" rx="2" ry="1" fill="#1a0c04"/>
+  </g>
+
+  <!-- THRESH urgent comms -->
+  <g>
+    <rect x="14" y="14" width="320" height="50" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="160,64 172,64 164,76" fill="white" stroke="#dc2030" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#dc2030" font-weight="700">THRESH  <tspan font-style="italic" font-size="8" font-weight="500">(comms, urgent whisper)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Contact. Dockworker, crossing the quay.</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">He's right on top of me.</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="380" y="14" width="346" height="50" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="388" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a3ad8" font-weight="700">LUMA  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="388" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Thresh — find cover.</text>
+  <text x="388" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Anything. Now.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,240 Q200,242 400,238 Q580,236 742,240"/>
+  </g>
+</svg>

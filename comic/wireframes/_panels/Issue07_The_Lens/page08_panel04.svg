@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 400" width="238" height="400">
+  <title>Issue 7 — Page 8 — Panel 4: Luma running across the quay — scanner active, professional urgency</title>
+  <desc>50mm low fairy scale. Luma running across stone quay surface low fast using shadow-filled stone joints as cover. Sapphire-violet suit blends with dark stone. One hand holds medical scanner projecting blue-violet diagnostic light — streak cool structured light across dark surface. Holographic lenses scroll data. Professional urgency. Wing-pack stowed no light signature.</desc>
+
+  <defs>
+    <linearGradient id="i7p8p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1818"/>
+      <stop offset="100%" stop-color="#080608"/>
+    </linearGradient>
+    <linearGradient id="i7p8p4stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i7p8p4scannerGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a888ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p8p4suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <linearGradient id="i7p8p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3a28"/>
+    </linearGradient>
+    <filter id="i7p8p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p8p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p8p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p8p4megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="238" height="400" fill="url(#i7p8p4bg)"/>
+
+  <!-- Stone quay surface (perspective view, surface tilted) -->
+  <path d="M0,40 L238,80 L238,400 L0,400 Z" fill="url(#i7p8p4stone)"/>
+  <!-- Stone joints (shadow-filled grooves Luma uses for cover) -->
+  <g stroke="#0a0608" stroke-width="0.85" opacity="0.85" fill="none">
+    <path d="M0,80 L238,120"/>
+    <path d="M0,160 L238,200"/>
+    <path d="M0,260 L238,300"/>
+    <path d="M0,360 L238,400"/>
+  </g>
+  <!-- Vertical seams -->
+  <g stroke="#0a0608" stroke-width="0.55" opacity="0.7" fill="none">
+    <path d="M60,40 L60,400"/>
+    <path d="M120,50 L130,400"/>
+    <path d="M180,60 L200,400"/>
+  </g>
+
+  <!-- Salt deposits / dock grime -->
+  <g fill="#7a6048" opacity="0.4">
+    <ellipse cx="40" cy="200" rx="9" ry="2"/>
+    <ellipse cx="160" cy="280" rx="14" ry="3"/>
+    <ellipse cx="80" cy="340" rx="11" ry="2.4"/>
+  </g>
+
+  <!-- ===== SCANNER STREAK trailing behind Luma ===== -->
+  <g opacity="0.85" filter="url(#i7p8p4bloom)">
+    <path d="M40,360 Q80,300 120,240 Q160,180 200,140" stroke="#a888ff" stroke-width="2.4" fill="none"/>
+    <path d="M40,360 Q80,300 120,240 Q160,180 200,140" stroke="#fff" stroke-width="0.85" fill="none"/>
+  </g>
+
+  <!-- ===== LUMA — running, low, mid-stride ===== -->
+  <g transform="translate(170 200)">
+    <ellipse cx="0" cy="20" rx="14" ry="3" fill="#000" opacity="0.7"/>
+
+    <!-- Scanner halo -->
+    <ellipse cx="22" cy="-14" rx="32" ry="20" fill="url(#i7p8p4scannerGlow)" filter="url(#i7p8p4megaglow)"/>
+
+    <!-- Lower body in running stride (one leg back, one forward) -->
+    <path d="M-9,18 L-22,-22 L-12,-46 L-2,-22 Z" fill="url(#i7p8p4suit)"/>
+    <path d="M9,18 L22,-22 L12,-46 L2,-22 Z" fill="url(#i7p8p4suit)"/>
+    <ellipse cx="-22" cy="-22" rx="6" ry="3" fill="#0a0408"/>
+    <ellipse cx="22" cy="-22" rx="6" ry="3" fill="#0a0408"/>
+    <!-- Heavy stone dust still on knees -->
+    <ellipse cx="-12" cy="-46" rx="6" ry="2" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="12" cy="-46" rx="6" ry="2" fill="#a8a098" opacity="0.85"/>
+
+    <!-- Torso leaning forward (running) -->
+    <path d="M-14,-46 L-22,-90 L-9,-110 L9,-110 L22,-90 L14,-46 Z" fill="url(#i7p8p4suit)"/>
+    <line x1="0" y1="-110" x2="0" y2="-46" stroke="#a888ff" stroke-width="0.55" opacity="0.85" filter="url(#i7p8p4bloom)"/>
+    <!-- Wing-pack STOWED (no light signature) -->
+    <line x1="-14" y1="-100" x2="-18" y2="-70" stroke="#5a3ad8" stroke-width="0.4" opacity="0.4"/>
+    <line x1="14" y1="-100" x2="18" y2="-70" stroke="#5a3ad8" stroke-width="0.4" opacity="0.4"/>
+
+    <!-- LEFT arm bent at side (motion) -->
+    <path d="M-22,-90 L-30,-66 L-22,-50 L-14,-66 Z" fill="url(#i7p8p4suit)"/>
+    <ellipse cx="-30" cy="-50" rx="4" ry="2" fill="url(#i7p8p4skin)"/>
+
+    <!-- RIGHT arm extended FORWARD with SCANNER -->
+    <path d="M22,-90 L40,-50 L40,-30 L26,-66 Z" fill="url(#i7p8p4suit)"/>
+    <ellipse cx="40" cy="-30" rx="4" ry="3" fill="url(#i7p8p4skin)"/>
+    <!-- SCANNER device -->
+    <rect x="36" y="-22" width="14" height="6" fill="#3a2068" stroke="#a888ff" stroke-width="0.55"/>
+    <rect x="38" y="-20" width="10" height="2" fill="#5a3ad8" filter="url(#i7p8p4bloom)"/>
+    <!-- Scanner beam projecting -->
+    <path d="M50,-19 L80,-30 L80,-10 Z" fill="#a888ff" opacity="0.55" filter="url(#i7p8p4strongglow)"/>
+    <ellipse cx="70" cy="-19" rx="14" ry="6" fill="#fff" opacity="0.55" filter="url(#i7p8p4bloom)"/>
+
+    <!-- Head — looking forward (toward Thresh ahead) -->
+    <ellipse cx="0" cy="-128" rx="9" ry="11" fill="url(#i7p8p4skin)"/>
+    <!-- Long braid streaming back -->
+    <path d="M-7,-138 Q-5,-144 0,-144 Q5,-144 7,-138 L7,-134 Q4,-138 0,-138 Q-4,-138 -7,-134 Z" fill="#0a0604"/>
+    <!-- Braid trailing back from running motion -->
+    <path d="M-5,-138 Q-15,-130 -25,-110" stroke="#0a0604" stroke-width="2" fill="none"/>
+    <ellipse cx="-12" cy="-128" rx="1" ry="0.7" fill="#0a0604"/>
+    <ellipse cx="-19" cy="-118" rx="1" ry="0.7" fill="#0a0604"/>
+    <!-- Luminous filament -->
+    <line x1="-5" y1="-138" x2="-25" y2="-110" stroke="#a888ff" stroke-width="0.4" opacity="0.7" filter="url(#i7p8p4bloom)"/>
+
+    <!-- Holographic lenses ACTIVE (data scrolling) -->
+    <ellipse cx="-3" cy="-128" rx="2" ry="1.4" fill="#a888ff" filter="url(#i7p8p4bloom)" opacity="0.95"/>
+    <ellipse cx="3" cy="-128" rx="2" ry="1.4" fill="#a888ff" filter="url(#i7p8p4bloom)" opacity="0.95"/>
+    <circle cx="-3" cy="-128" r="0.55" fill="#1a0a04"/>
+    <circle cx="3" cy="-128" r="0.55" fill="#1a0a04"/>
+    <!-- Cracked left lens -->
+    <line x1="-5" y1="-129" x2="-2" y2="-127" stroke="#1a0a04" stroke-width="0.3"/>
+    <!-- Brow focused -->
+    <path d="M-7,-134 Q-3,-136 0,-134" stroke="#3a1808" stroke-width="0.55" fill="none"/>
+    <path d="M7,-134 Q3,-136 0,-134" stroke="#3a1808" stroke-width="0.55" fill="none"/>
+    <!-- Mouth -->
+    <line x1="-2" y1="-120" x2="2" y2="-120" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- (No dialogue — silent run per script) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q60,162 120,158 Q180,156 238,160"/>
+    <path d="M0,300 Q60,302 120,298 Q180,296 238,300"/>
+  </g>
+</svg>
