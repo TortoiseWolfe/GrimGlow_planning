@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 421.5" width="742" height="421.5">
+  <title>Issue 6 — Page 6 — Panel 4: Theodore leaves the pub — fog thickens, dead bird ahead on cobbles</title>
+  <desc>28mm wide eye level. Theodore walking, pub amber rectangle receding behind. Fog thickening, street narrowing. Small dead sparrow on cobblestones in gutter ahead — Theodore hasn't noticed yet.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p6p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#807870"/>
+      <stop offset="50%" stop-color="#605850"/>
+      <stop offset="100%" stop-color="#3a3430"/>
+    </linearGradient>
+    <linearGradient id="i6p6p4bldg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i6p6p4bldgD" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="i6p6p4fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#807870" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#403830" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p6p4pubGlowFade" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#a85818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p6p4lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p6p4theoWaistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p6p4theoTrousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <filter id="i6p6p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p6p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="742" height="421.5" fill="url(#i6p6p4bg)"/>
+
+  <!-- Sky band -->
+  <rect width="742" height="100" fill="#807870"/>
+  <ellipse cx="371" cy="120" rx="500" ry="120" fill="url(#i6p6p4fog)" filter="url(#i6p6p4glow)" opacity="0.85"/>
+
+  <!-- Pub fading in distance LEFT (warm rectangle receding, smaller) -->
+  <ellipse cx="100" cy="220" rx="80" ry="100" fill="url(#i6p6p4pubGlowFade)" filter="url(#i6p6p4glow)" opacity="0.55"/>
+  <rect x="60" y="160" width="80" height="160" fill="url(#i6p6p4bldg)"/>
+  <rect x="80" y="200" width="40" height="80" fill="#ffaa48" filter="url(#i6p6p4glow)" opacity="0.85"/>
+  <rect x="80" y="200" width="40" height="80" fill="none" stroke="#3a1808" stroke-width="0.85"/>
+  <line x1="100" y1="200" x2="100" y2="280" stroke="#3a1808" stroke-width="0.55"/>
+  <line x1="80" y1="240" x2="120" y2="240" stroke="#3a1808" stroke-width="0.55"/>
+
+  <!-- LEFT side buildings receding -->
+  <rect x="0" y="160" width="60" height="180" fill="url(#i6p6p4bldg)"/>
+  <rect x="140" y="160" width="80" height="180" fill="url(#i6p6p4bldg)"/>
+  <rect x="220" y="155" width="80" height="185" fill="url(#i6p6p4bldgD)"/>
+  <rect x="0" y="160" width="300" height="60" fill="url(#i6p6p4fog)" opacity="0.55"/>
+  <g fill="#1a1008">
+    <rect x="14" y="220" width="20" height="26"/>
+    <rect x="148" y="220" width="20" height="26"/>
+    <rect x="180" y="220" width="20" height="26"/>
+    <rect x="232" y="220" width="20" height="26"/>
+    <rect x="266" y="220" width="20" height="26"/>
+    <rect x="14" y="266" width="20" height="26"/>
+    <rect x="148" y="266" width="20" height="26"/>
+    <rect x="180" y="266" width="20" height="26"/>
+    <rect x="232" y="266" width="20" height="26"/>
+    <rect x="266" y="266" width="20" height="26"/>
+  </g>
+
+  <!-- RIGHT side buildings — TALLER, DARKER (street narrowing) -->
+  <rect x="500" y="100" width="120" height="240" fill="url(#i6p6p4bldgD)"/>
+  <rect x="620" y="100" width="122" height="240" fill="url(#i6p6p4bldgD)"/>
+  <rect x="500" y="100" width="242" height="100" fill="url(#i6p6p4fog)" opacity="0.7"/>
+  <g fill="#0a0408">
+    <rect x="514" y="200" width="18" height="22"/>
+    <rect x="546" y="200" width="18" height="22"/>
+    <rect x="578" y="200" width="18" height="22"/>
+    <rect x="640" y="200" width="18" height="22"/>
+    <rect x="672" y="200" width="18" height="22"/>
+    <rect x="704" y="200" width="18" height="22"/>
+    <rect x="514" y="244" width="18" height="22"/>
+    <rect x="546" y="244" width="18" height="22"/>
+    <rect x="578" y="244" width="18" height="22"/>
+    <rect x="640" y="244" width="18" height="22"/>
+    <rect x="672" y="244" width="18" height="22"/>
+    <rect x="704" y="244" width="18" height="22"/>
+    <rect x="514" y="288" width="18" height="22"/>
+    <rect x="546" y="288" width="18" height="22"/>
+    <rect x="578" y="288" width="18" height="22"/>
+    <rect x="640" y="288" width="18" height="22"/>
+    <rect x="672" y="288" width="18" height="22"/>
+    <rect x="704" y="288" width="18" height="22"/>
+  </g>
+  <!-- Soot streaks -->
+  <ellipse cx="560" cy="220" rx="40" ry="60" fill="#0a0408" opacity="0.45"/>
+  <ellipse cx="680" cy="240" rx="34" ry="50" fill="#0a0408" opacity="0.45"/>
+
+  <!-- Receding street perspective — narrows -->
+  <polygon points="300,160 500,100 500,340 300,340" fill="#3a3028"/>
+  <ellipse cx="400" cy="180" rx="80" ry="50" fill="url(#i6p6p4fog)" filter="url(#i6p6p4glow)" opacity="0.95"/>
+  <!-- Distant building silhouettes barely visible -->
+  <rect x="350" y="150" width="40" height="40" fill="#403830" opacity="0.55"/>
+  <rect x="395" y="140" width="34" height="50" fill="#403830" opacity="0.5"/>
+  <rect x="435" y="145" width="44" height="45" fill="#403830" opacity="0.45"/>
+
+  <!-- COBBLE STREET foreground -->
+  <rect x="0" y="340" width="742" height="81.5" fill="#3a3028"/>
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,360 Q200,358 400,360 Q580,362 742,360"/>
+    <path d="M0,376 Q200,374 400,376 Q580,378 742,376"/>
+    <path d="M0,392 Q200,390 400,392 Q580,394 742,392"/>
+    <path d="M0,408 Q200,406 400,408 Q580,410 742,408"/>
+  </g>
+  <g fill="#5a5048" opacity="0.55">
+    <ellipse cx="80" cy="376" rx="6" ry="2"/>
+    <ellipse cx="180" cy="380" rx="6" ry="2"/>
+    <ellipse cx="280" cy="376" rx="5" ry="1.6"/>
+    <ellipse cx="380" cy="380" rx="6" ry="2"/>
+    <ellipse cx="480" cy="376" rx="5" ry="1.6"/>
+    <ellipse cx="580" cy="380" rx="6" ry="2"/>
+    <ellipse cx="680" cy="376" rx="5" ry="1.6"/>
+  </g>
+
+  <!-- LIT GAS LAMP near pub -->
+  <g transform="translate(190 280)">
+    <rect x="-1.4" y="0" width="3" height="50" fill="#1a1410"/>
+    <path d="M-7,-12 L7,-12 L4,0 L-4,0 Z" fill="#3a3028"/>
+    <rect x="-5" y="-30" width="10" height="18" fill="#3a3028" stroke="#1a1008" stroke-width="0.55"/>
+    <rect x="-3.5" y="-28" width="7" height="14" fill="#ffaa48" filter="url(#i6p6p4bloom)" opacity="0.95"/>
+    <ellipse cx="0" cy="-20" rx="22" ry="40" fill="url(#i6p6p4lamp)" filter="url(#i6p6p4glow)"/>
+  </g>
+
+  <!-- ===== DEAD SPARROW on cobblestones ahead ===== -->
+  <g transform="translate(540 380)">
+    <!-- Body — sparrow sized at viewing scale -->
+    <ellipse cx="0" cy="0" rx="14" ry="6" fill="#3a2818" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- On its back -->
+    <ellipse cx="-2" cy="2" rx="5" ry="1.6" fill="#5a4030" opacity="0.85"/>
+    <!-- Wings spread -->
+    <path d="M-10,-2 L-22,-9 L-19,-1 Z" fill="#3a2818" stroke="#1a0c04" stroke-width="0.4"/>
+    <path d="M10,-2 L22,-9 L19,-1 Z" fill="#3a2818" stroke="#1a0c04" stroke-width="0.4"/>
+    <!-- Wing feather lines -->
+    <line x1="-12" y1="-3" x2="-19" y2="-7" stroke="#1a0c04" stroke-width="0.4" opacity="0.85"/>
+    <line x1="-13" y1="-4" x2="-21" y2="-8" stroke="#1a0c04" stroke-width="0.4" opacity="0.85"/>
+    <line x1="12" y1="-3" x2="19" y2="-7" stroke="#1a0c04" stroke-width="0.4" opacity="0.85"/>
+    <line x1="13" y1="-4" x2="21" y2="-8" stroke="#1a0c04" stroke-width="0.4" opacity="0.85"/>
+    <!-- Head + tiny beak -->
+    <ellipse cx="-13" cy="0" rx="3.5" ry="3" fill="#3a2818"/>
+    <path d="M-16,1 L-19,2 L-16,3 Z" fill="#3a1808"/>
+    <!-- Closed eye (dead) -->
+    <line x1="-14.5" y1="-0.5" x2="-12.5" y2="-0.5" stroke="#1a0c04" stroke-width="0.45"/>
+    <!-- Tiny legs sticking up (on its back) -->
+    <line x1="-3" y1="-2" x2="-4" y2="-7" stroke="#a87038" stroke-width="0.55"/>
+    <line x1="3" y1="-2" x2="4" y2="-7" stroke="#a87038" stroke-width="0.55"/>
+    <!-- Stillness shadow under body -->
+    <ellipse cx="0" cy="6" rx="14" ry="2" fill="#1a0c04" opacity="0.55"/>
+  </g>
+
+  <!-- ===== THEODORE — walking left-to-right toward camera, shoulders tight ===== -->
+  <g transform="translate(360 380)">
+    <ellipse cx="-9" cy="0" rx="11" ry="3" fill="#1a0c04"/>
+    <ellipse cx="11" cy="0" rx="11" ry="3" fill="#1a0c04"/>
+    <!-- Trousers with stride -->
+    <path d="M-12,-58 L-2,-58 L-12,0 L-22,0 Z" fill="url(#i6p6p4theoTrousers)"/>
+    <path d="M2,-58 L12,-58 L18,0 L8,0 Z" fill="url(#i6p6p4theoTrousers)"/>
+    <rect x="-12" y="-22" width="9" height="11" fill="#5a3018" stroke="#3a1808" stroke-width="0.45" opacity="0.85"/>
+    <rect x="3" y="-20" width="9" height="11" fill="#5a3018" stroke="#3a1808" stroke-width="0.45" opacity="0.85"/>
+    <rect x="-12" y="-58" width="24" height="3" fill="#3a1808"/>
+    <!-- Shirt + waistcoat — slightly hunched shoulders -->
+    <path d="M-13,-118 L-12,-58 L13,-58 L14,-118 Z" fill="#d4c4a8"/>
+    <path d="M-15,-118 L-13,-58 L-2,-58 L-2,-118 Z" fill="url(#i6p6p4theoWaistcoat)"/>
+    <path d="M14,-118 L15,-58 L2,-58 L2,-118 Z" fill="url(#i6p6p4theoWaistcoat)"/>
+    <rect x="3" y="-108" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <path d="M3,-108 L14,-108 L14,-104 L3,-104 Z" fill="#5a3018" stroke="#1a0c04" stroke-width="0.4"/>
+    <rect x="5" y="-104" width="7" height="9" fill="#5a3ad8" opacity="0.55" filter="url(#i6p6p4bloom)"/>
+    <ellipse cx="9" cy="-100" rx="11" ry="6" fill="#a888ff" opacity="0.4" filter="url(#i6p6p4glow)"/>
+    <circle cx="-2" cy="-100" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-82" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-64" r="0.85" fill="#3a1808"/>
+    <path d="M-7,-118 L0,-116 L7,-118 L7,-114 L0,-110 L-7,-114 Z" fill="#e0d4b8"/>
+    <!-- Arms — hands in pockets, hunched -->
+    <path d="M-15,-118 L-22,-90 L-22,-58 L-13,-58 Z" fill="url(#i6p6p4theoWaistcoat)"/>
+    <path d="M14,-118 L21,-90 L21,-58 L13,-58 Z" fill="url(#i6p6p4theoWaistcoat)"/>
+    <ellipse cx="-22" cy="-58" rx="2.4" ry="1.4" fill="#a87838"/>
+    <ellipse cx="21" cy="-58" rx="2.4" ry="1.4" fill="#a87838"/>
+    <circle cx="-22" cy="-59" r="0.7" fill="#c89058" filter="url(#i6p6p4bloom)" opacity="0.85"/>
+    <!-- Head + neck — looking ahead, NOT yet noticing bird -->
+    <rect x="-3" y="-126" width="6" height="8" fill="#a87838"/>
+    <ellipse cx="0" cy="-138" rx="14" ry="16" fill="#a87838"/>
+    <path d="M-13,-148 Q-10,-160 0,-162 Q10,-160 13,-148 L13,-138 Q9,-146 0,-146 Q-9,-146 -13,-138 Z" fill="#9a7038"/>
+    <path d="M-7,-156 L-5,-160 L-8,-160 Z" fill="#9a7038"/>
+    <path d="M5,-156 L7,-160 L4,-160 Z" fill="#9a7038"/>
+    <path d="M0,-160 L2,-164 L-2,-164 Z" fill="#9a7038"/>
+    <ellipse cx="-3" cy="-138" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="-2" cy="-138" r="0.7" fill="#5a3818"/>
+    <ellipse cx="3" cy="-138" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="4" cy="-138" r="0.7" fill="#5a3818"/>
+    <path d="M-7,-144 L-2,-144" stroke="#5a3018" stroke-width="0.55"/>
+    <path d="M2,-144 L7,-144" stroke="#5a3018" stroke-width="0.55"/>
+    <path d="M-3,-128 L3,-128" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Freckles -->
+    <circle cx="-3" cy="-131" r="0.3" fill="#7a3018"/>
+    <circle cx="3" cy="-131" r="0.3" fill="#7a3018"/>
+  </g>
+
+  <!-- LUMA dialogue (from pocket — multi-line, bottom-spanning) -->
+  <g>
+    <rect x="14" y="14" width="600" height="58" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="300,72 312,72 304,82" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="300.5" y1="72" x2="311.5" y2="72" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (from pocket)</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">The shadow traces match Titan cloaking residue.</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">They were in that pub, Theodore. Watching. Listening.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q200,142 400,138 Q580,136 742,140"/>
+    <path d="M0,360 Q200,362 400,358 Q580,356 742,360"/>
+  </g>
+</svg>

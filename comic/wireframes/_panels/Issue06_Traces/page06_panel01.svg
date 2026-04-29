@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 248.9" width="742" height="248.9">
+  <title>Issue 6 — Page 6 — Panel 1: Clerkenwell Green nine-fifteen — fog thickens, pub ahead</title>
+  <desc>24mm wide widescreen establishing eye level. Foggy street thickening, gas lamps lit despite morning casting amber smears, ghost figures in fog, Theodore mid-distance walking purposefully toward the corner pub THE CROWN AND SHUTTLE.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p6p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#807870"/>
+      <stop offset="50%" stop-color="#605850"/>
+      <stop offset="100%" stop-color="#3a3430"/>
+    </linearGradient>
+    <linearGradient id="i6p6p1bldgL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i6p6p1bldgR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i6p6p1pub" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <radialGradient id="i6p6p1fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#807870" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#403830" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p6p1lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p6p1pubGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a85818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p6p1theoWaistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p6p1theoTrousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <filter id="i6p6p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p6p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="742" height="248.9" fill="url(#i6p6p1bg)"/>
+
+  <!-- Sky band -->
+  <rect width="742" height="60" fill="#a09890" opacity="0.85"/>
+  <ellipse cx="371" cy="60" rx="500" ry="70" fill="url(#i6p6p1fog)" filter="url(#i6p6p1glow)" opacity="0.85"/>
+
+  <!-- Distant trees as dark fog shapes (Clerkenwell Green) -->
+  <ellipse cx="160" cy="80" rx="50" ry="32" fill="#3a3028" opacity="0.5"/>
+  <ellipse cx="220" cy="78" rx="40" ry="28" fill="#3a3028" opacity="0.45"/>
+  <ellipse cx="280" cy="76" rx="34" ry="22" fill="#3a3028" opacity="0.45"/>
+  <ellipse cx="120" cy="86" rx="40" ry="24" fill="#3a3028" opacity="0.4"/>
+  <!-- Tree trunks barely visible -->
+  <line x1="160" y1="100" x2="160" y2="140" stroke="#1a1410" stroke-width="3" opacity="0.55"/>
+  <line x1="220" y1="98" x2="220" y2="140" stroke="#1a1410" stroke-width="3" opacity="0.55"/>
+  <line x1="280" y1="94" x2="280" y2="140" stroke="#1a1410" stroke-width="2.4" opacity="0.5"/>
+
+  <!-- Left building row -->
+  <rect x="0" y="60" width="220" height="160" fill="url(#i6p6p1bldgL)"/>
+  <rect x="0" y="60" width="220" height="36" fill="url(#i6p6p1fog)" opacity="0.55"/>
+  <g stroke="#1a1008" stroke-width="0.4" opacity="0.5">
+    <line x1="0" y1="100" x2="220" y2="100"/>
+    <line x1="0" y1="140" x2="220" y2="140"/>
+    <line x1="0" y1="180" x2="220" y2="180"/>
+  </g>
+  <g fill="#1a1008">
+    <rect x="20" y="120" width="22" height="28"/>
+    <rect x="60" y="120" width="22" height="28"/>
+    <rect x="100" y="120" width="22" height="28"/>
+    <rect x="140" y="120" width="22" height="28"/>
+    <rect x="180" y="120" width="22" height="28"/>
+    <rect x="20" y="166" width="22" height="28"/>
+    <rect x="60" y="166" width="22" height="28"/>
+    <rect x="100" y="166" width="22" height="28"/>
+    <rect x="140" y="166" width="22" height="28"/>
+    <rect x="180" y="166" width="22" height="28"/>
+  </g>
+
+  <!-- ===== CORNER PUB - THE CROWN AND SHUTTLE — center-right ===== -->
+  <rect x="370" y="60" width="220" height="160" fill="url(#i6p6p1pub)"/>
+  <rect x="370" y="60" width="220" height="36" fill="url(#i6p6p1fog)" opacity="0.55"/>
+  <!-- Pub sign -->
+  <rect x="406" y="92" width="160" height="22" fill="#3a1808" stroke="#1a0c04" stroke-width="0.85"/>
+  <text x="486" y="106" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#e8c878" font-style="italic" font-weight="700">THE CROWN AND SHUTTLE</text>
+  <!-- Sign brackets -->
+  <line x1="406" y1="92" x2="400" y2="80" stroke="#1a0c04" stroke-width="0.85"/>
+  <line x1="566" y1="92" x2="572" y2="80" stroke="#1a0c04" stroke-width="0.85"/>
+  <!-- Faded wear on lettering -->
+  <line x1="430" y1="98" x2="450" y2="98" stroke="#1a0c04" stroke-width="0.55" opacity="0.45"/>
+  <line x1="500" y1="100" x2="540" y2="100" stroke="#1a0c04" stroke-width="0.55" opacity="0.45"/>
+
+  <!-- WARM amber glowing pub windows -->
+  <rect x="384" y="124" width="50" height="60" fill="#ffaa48" opacity="0.85" filter="url(#i6p6p1glow)"/>
+  <rect x="384" y="124" width="50" height="60" fill="none" stroke="#3a1808" stroke-width="1.4"/>
+  <line x1="409" y1="124" x2="409" y2="184" stroke="#3a1808" stroke-width="0.85"/>
+  <line x1="384" y1="154" x2="434" y2="154" stroke="#3a1808" stroke-width="0.85"/>
+  <ellipse cx="409" cy="160" rx="40" ry="60" fill="url(#i6p6p1pubGlow)" filter="url(#i6p6p1glow)" opacity="0.55"/>
+
+  <rect x="464" y="124" width="50" height="60" fill="#ffaa48" opacity="0.85" filter="url(#i6p6p1glow)"/>
+  <rect x="464" y="124" width="50" height="60" fill="none" stroke="#3a1808" stroke-width="1.4"/>
+  <line x1="489" y1="124" x2="489" y2="184" stroke="#3a1808" stroke-width="0.85"/>
+  <line x1="464" y1="154" x2="514" y2="154" stroke="#3a1808" stroke-width="0.85"/>
+  <ellipse cx="489" cy="160" rx="40" ry="60" fill="url(#i6p6p1pubGlow)" filter="url(#i6p6p1glow)" opacity="0.5"/>
+
+  <rect x="544" y="124" width="50" height="60" fill="#ffaa48" opacity="0.85" filter="url(#i6p6p1glow)"/>
+  <rect x="544" y="124" width="50" height="60" fill="none" stroke="#3a1808" stroke-width="1.4"/>
+  <line x1="569" y1="124" x2="569" y2="184" stroke="#3a1808" stroke-width="0.85"/>
+  <line x1="544" y1="154" x2="594" y2="154" stroke="#3a1808" stroke-width="0.85"/>
+
+  <!-- Pub door -->
+  <rect x="490" y="186" width="32" height="38" fill="#3a1808" stroke="#1a0c04" stroke-width="0.85"/>
+
+  <!-- Right building (extends past pub) -->
+  <rect x="590" y="60" width="152" height="160" fill="url(#i6p6p1bldgR)"/>
+  <rect x="590" y="60" width="152" height="36" fill="url(#i6p6p1fog)" opacity="0.55"/>
+  <g fill="#1a1008">
+    <rect x="610" y="120" width="22" height="28"/>
+    <rect x="650" y="120" width="22" height="28"/>
+    <rect x="690" y="120" width="22" height="28"/>
+    <rect x="610" y="166" width="22" height="28"/>
+    <rect x="650" y="166" width="22" height="28"/>
+    <rect x="690" y="166" width="22" height="28"/>
+  </g>
+
+  <!-- Distant building 220-370 (foggy storefronts) -->
+  <rect x="220" y="80" width="150" height="140" fill="#403830" opacity="0.85"/>
+  <rect x="220" y="80" width="150" height="40" fill="url(#i6p6p1fog)" opacity="0.5"/>
+  <g fill="#1a1008" opacity="0.85">
+    <rect x="240" y="130" width="14" height="18"/>
+    <rect x="270" y="130" width="14" height="18"/>
+    <rect x="300" y="130" width="14" height="18"/>
+    <rect x="330" y="130" width="14" height="18"/>
+  </g>
+
+  <!-- Cobble street (foreground) -->
+  <rect x="0" y="220" width="742" height="28.9" fill="#3a3028"/>
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,228 Q200,226 400,228 Q580,230 742,228"/>
+    <path d="M0,238 Q200,236 400,238 Q580,240 742,238"/>
+  </g>
+  <g fill="#5a5048" opacity="0.55">
+    <ellipse cx="80" cy="232" rx="6" ry="2"/>
+    <ellipse cx="180" cy="234" rx="6" ry="2"/>
+    <ellipse cx="280" cy="232" rx="5" ry="1.6"/>
+    <ellipse cx="380" cy="234" rx="6" ry="2"/>
+    <ellipse cx="480" cy="232" rx="5" ry="1.6"/>
+    <ellipse cx="580" cy="234" rx="6" ry="2"/>
+    <ellipse cx="680" cy="232" rx="5" ry="1.6"/>
+  </g>
+
+  <!-- LIT GAS LAMPS (lit despite morning) -->
+  <g transform="translate(110 170)">
+    <rect x="-1.4" y="0" width="3" height="50" fill="#1a1410"/>
+    <path d="M-7,-12 L7,-12 L4,0 L-4,0 Z" fill="#3a3028"/>
+    <rect x="-5" y="-30" width="10" height="18" fill="#3a3028" stroke="#1a1008" stroke-width="0.55"/>
+    <rect x="-3.5" y="-28" width="7" height="14" fill="#ffaa48" filter="url(#i6p6p1bloom)" opacity="0.95"/>
+    <ellipse cx="0" cy="-21" rx="22" ry="40" fill="url(#i6p6p1lamp)" filter="url(#i6p6p1glow)"/>
+  </g>
+  <g transform="translate(330 170)">
+    <rect x="-1.4" y="0" width="3" height="50" fill="#1a1410"/>
+    <path d="M-7,-12 L7,-12 L4,0 L-4,0 Z" fill="#3a3028"/>
+    <rect x="-5" y="-30" width="10" height="18" fill="#3a3028" stroke="#1a1008" stroke-width="0.55"/>
+    <rect x="-3.5" y="-28" width="7" height="14" fill="#ffaa48" filter="url(#i6p6p1bloom)" opacity="0.95"/>
+    <ellipse cx="0" cy="-21" rx="22" ry="40" fill="url(#i6p6p1lamp)" filter="url(#i6p6p1glow)"/>
+  </g>
+  <g transform="translate(610 170)">
+    <rect x="-1.4" y="0" width="3" height="50" fill="#1a1410"/>
+    <path d="M-7,-12 L7,-12 L4,0 L-4,0 Z" fill="#3a3028"/>
+    <rect x="-5" y="-30" width="10" height="18" fill="#3a3028" stroke="#1a1008" stroke-width="0.55"/>
+    <rect x="-3.5" y="-28" width="7" height="14" fill="#ffaa48" filter="url(#i6p6p1bloom)" opacity="0.95"/>
+    <ellipse cx="0" cy="-21" rx="22" ry="40" fill="url(#i6p6p1lamp)" filter="url(#i6p6p1glow)"/>
+  </g>
+
+  <!-- GHOST PEDESTRIANS in fog -->
+  <g opacity="0.55">
+    <ellipse cx="240" cy="186" rx="6" ry="14" fill="#403830"/>
+    <ellipse cx="240" cy="170" rx="4" ry="6" fill="#403830"/>
+  </g>
+  <g opacity="0.45">
+    <ellipse cx="270" cy="190" rx="5" ry="12" fill="#403830"/>
+    <ellipse cx="270" cy="176" rx="3.5" ry="5" fill="#403830"/>
+  </g>
+  <g opacity="0.5">
+    <ellipse cx="180" cy="195" rx="6" ry="14" fill="#403830"/>
+    <ellipse cx="180" cy="178" rx="4" ry="6" fill="#403830"/>
+  </g>
+
+  <!-- ===== THEODORE — mid-distance, walking purposefully ===== -->
+  <g transform="translate(390 218)">
+    <ellipse cx="-5" cy="0" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="6" cy="0" rx="5" ry="2" fill="#1a0c04"/>
+    <path d="M-7,-44 L-2,-44 L-4,0 L-9,0 Z" fill="url(#i6p6p1theoTrousers)"/>
+    <path d="M2,-44 L7,-44 L9,0 L4,0 Z" fill="url(#i6p6p1theoTrousers)"/>
+    <rect x="-7" y="-44" width="14" height="2.4" fill="#3a1808"/>
+    <path d="M-8,-86 L-7,-44 L7,-44 L8,-86 Z" fill="#d4c4a8"/>
+    <path d="M-9,-84 L-7,-44 L-2,-44 L-2,-84 Z" fill="url(#i6p6p1theoWaistcoat)"/>
+    <path d="M8,-84 L9,-44 L2,-44 L2,-84 Z" fill="url(#i6p6p1theoWaistcoat)"/>
+    <!-- Pocket -->
+    <rect x="2" y="-78" width="7" height="9" fill="#3a1808" stroke="#1a0c04" stroke-width="0.4"/>
+    <rect x="3" y="-76" width="5" height="6" fill="#5a3ad8" opacity="0.45" filter="url(#i6p6p1bloom)"/>
+    <!-- Buttons -->
+    <circle cx="-2" cy="-72" r="0.55" fill="#3a1808"/>
+    <circle cx="-2" cy="-58" r="0.55" fill="#3a1808"/>
+    <!-- Linen collar -->
+    <path d="M-4,-86 L0,-84 L4,-86 L4,-82 L0,-80 L-4,-82 Z" fill="#e0d4b8"/>
+    <!-- Arms - hands in pockets, shoulders tight -->
+    <path d="M-9,-84 L-13,-66 L-13,-46 L-7,-44 Z" fill="url(#i6p6p1theoWaistcoat)"/>
+    <path d="M9,-84 L13,-66 L13,-46 L7,-44 Z" fill="url(#i6p6p1theoWaistcoat)"/>
+    <!-- Head -->
+    <rect x="-2" y="-92" width="4" height="6" fill="#a87838"/>
+    <ellipse cx="0" cy="-100" rx="6" ry="7" fill="#a87838"/>
+    <path d="M-6,-105 Q-4,-110 0,-110 Q4,-110 6,-105 L6,-100 Q3,-103 0,-103 Q-3,-103 -6,-100 Z" fill="#9a7038"/>
+    <ellipse cx="-2" cy="-100" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <ellipse cx="2" cy="-100" rx="0.85" ry="0.55" fill="#fff8e8"/>
+  </g>
+
+  <!-- CAPTION (top-left) -->
+  <g>
+    <rect x="14" y="14" width="240" height="40" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-weight="700" font-style="italic">CAPTION</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic">Clerkenwell Green. Nine-fifteen.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q200,82 400,78 Q580,76 742,80"/>
+    <path d="M0,200 Q200,202 400,198 Q580,196 742,200"/>
+  </g>
+</svg>
