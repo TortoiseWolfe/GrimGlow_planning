@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 270" width="742" height="270">
+  <title>Issue 7 — Page 4 — Panel 1: Prentiss and Hall shopfront — Theodore composes himself before entering</title>
+  <desc>28mm wide eye level. Lens-grinder shop one block back from waterfront. Narrow shopfront PRENTISS &amp; HALL OPTICAL INSTRUMENTS gold-on-dark-green. Bow window with lenses prisms magnifying glasses brass telescope. Wedged between ship chandler and rope-maker. Theodore at door composing himself. Warm gas lamp from inside through bow window — prismatic refractions. Overcast street.</desc>
+
+  <defs>
+    <linearGradient id="i7p4p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9aa098"/>
+      <stop offset="100%" stop-color="#7a8078"/>
+    </linearGradient>
+    <linearGradient id="i7p4p1building" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="i7p4p1shopGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a3828"/>
+      <stop offset="100%" stop-color="#0a1810"/>
+    </linearGradient>
+    <radialGradient id="i7p4p1windowGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#d8a060" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p4p1road" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#2a1810"/>
+    </linearGradient>
+    <filter id="i7p4p1bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p4p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p4p1strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i7p4p1megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- Sky overcast -->
+  <rect width="742" height="50" fill="url(#i7p4p1sky)"/>
+
+  <!-- ===== SHIP CHANDLER (LEFT, neighboring shop) ===== -->
+  <rect x="0" y="50" width="200" height="180" fill="url(#i7p4p1building)"/>
+  <!-- Sign -->
+  <rect x="20" y="60" width="160" height="20" fill="#1a0c08" stroke="#3a2418" stroke-width="0.55"/>
+  <text x="100" y="74" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#a89878" text-anchor="middle" font-weight="700">J. RAMSDEN  ·  SHIP CHANDLER</text>
+  <!-- Window -->
+  <rect x="40" y="100" width="120" height="80" fill="#1a1208" stroke="#3a2418" stroke-width="0.85"/>
+  <ellipse cx="100" cy="140" rx="40" ry="24" fill="#3a2818" opacity="0.85"/>
+  <!-- Hanging items in window: rope coils, lantern -->
+  <ellipse cx="60" cy="120" rx="14" ry="3" fill="#7a6048"/>
+  <ellipse cx="60" cy="124" rx="12" ry="2.4" fill="#a89878"/>
+  <ellipse cx="60" cy="128" rx="10" ry="2" fill="#7a6048"/>
+  <!-- Brass lantern -->
+  <rect x="120" y="120" width="14" height="22" fill="#3a2418" stroke="#1a0c08" stroke-width="0.55"/>
+  <ellipse cx="127" cy="131" rx="5" ry="7" fill="#a87838" opacity="0.85" filter="url(#i7p4p1bloom)"/>
+  <!-- Door -->
+  <rect x="160" y="120" width="30" height="100" fill="#1a0c08" stroke="#3a2418" stroke-width="0.85"/>
+  <line x1="175" y1="120" x2="175" y2="220" stroke="#3a2418" stroke-width="0.55"/>
+
+  <!-- ===== PRENTISS & HALL (CENTER, the target shop) ===== -->
+  <rect x="220" y="50" width="280" height="180" fill="url(#i7p4p1shopGreen)"/>
+  <!-- Dark green sign band with gold lettering -->
+  <rect x="220" y="50" width="280" height="32" fill="#0a1810" stroke="#2a3828" stroke-width="0.85"/>
+  <line x1="220" y1="82" x2="500" y2="82" stroke="#3a4838" stroke-width="0.55"/>
+  <text x="360" y="68" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#d89858" text-anchor="middle" font-weight="700" letter-spacing="1">PRENTISS &amp; HALL</text>
+  <text x="360" y="78" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a87838" text-anchor="middle" letter-spacing="3">OPTICAL INSTRUMENTS</text>
+
+  <!-- ===== BOW WINDOW (curved out from facade) ===== -->
+  <path d="M240,100 Q260,90 280,90 L440,90 Q460,90 480,100 L480,200 L240,200 Z" fill="#1a1208" stroke="#3a2818" stroke-width="0.85"/>
+  <!-- Inner glass area -->
+  <path d="M244,104 Q262,96 280,96 L440,96 Q458,96 476,104 L476,196 L244,196 Z" fill="#1a1410" opacity="0.85"/>
+  <!-- Window panes (mullions) -->
+  <line x1="290" y1="92" x2="290" y2="200" stroke="#3a2818" stroke-width="0.85"/>
+  <line x1="360" y1="90" x2="360" y2="200" stroke="#3a2818" stroke-width="0.85"/>
+  <line x1="430" y1="92" x2="430" y2="200" stroke="#3a2818" stroke-width="0.85"/>
+  <line x1="244" y1="148" x2="476" y2="148" stroke="#3a2818" stroke-width="0.55"/>
+
+  <!-- Warm gas lamp glow filling the shop -->
+  <ellipse cx="360" cy="148" rx="120" ry="60" fill="url(#i7p4p1windowGlow)" filter="url(#i7p4p1megaglow)"/>
+
+  <!-- Velvet display stands inside -->
+  <rect x="250" y="170" width="220" height="20" fill="#3a1818" opacity="0.85"/>
+  <line x1="250" y1="170" x2="470" y2="170" stroke="#5a2018" stroke-width="0.55"/>
+
+  <!-- LENSES on display (concentric circles glowing) -->
+  <g transform="translate(265 160)">
+    <circle cx="0" cy="0" r="9" fill="none" stroke="#fff8c8" stroke-width="0.7" filter="url(#i7p4p1bloom)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p1bloom)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="3" fill="#fff8c8" opacity="0.55" filter="url(#i7p4p1bloom)"/>
+  </g>
+  <g transform="translate(310 160)">
+    <circle cx="0" cy="0" r="11" fill="none" stroke="#fff8c8" stroke-width="0.7" filter="url(#i7p4p1bloom)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="7" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p1bloom)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="3" fill="#fff8c8" opacity="0.55" filter="url(#i7p4p1bloom)"/>
+  </g>
+
+  <!-- PRISMS (triangles refracting) -->
+  <g transform="translate(360 160)">
+    <polygon points="-9,9 9,9 0,-9" fill="#a8c0e8" opacity="0.85" stroke="#fff8c8" stroke-width="0.7" filter="url(#i7p4p1bloom)"/>
+    <!-- Rainbow refraction lines -->
+    <line x1="9" y1="0" x2="22" y2="-4" stroke="#ff5050" stroke-width="0.4" filter="url(#i7p4p1bloom)" opacity="0.85"/>
+    <line x1="9" y1="2" x2="22" y2="0" stroke="#f0a040" stroke-width="0.4" filter="url(#i7p4p1bloom)" opacity="0.85"/>
+    <line x1="9" y1="4" x2="22" y2="4" stroke="#fff080" stroke-width="0.4" filter="url(#i7p4p1bloom)" opacity="0.85"/>
+    <line x1="9" y1="6" x2="22" y2="8" stroke="#80f0a0" stroke-width="0.4" filter="url(#i7p4p1bloom)" opacity="0.85"/>
+    <line x1="9" y1="8" x2="22" y2="12" stroke="#80a0f0" stroke-width="0.4" filter="url(#i7p4p1bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- Magnifying glass -->
+  <g transform="translate(400 160)">
+    <circle cx="0" cy="0" r="9" fill="none" stroke="#a87838" stroke-width="1" filter="url(#i7p4p1bloom)"/>
+    <circle cx="0" cy="0" r="8" fill="#fff8c8" opacity="0.55" filter="url(#i7p4p1bloom)"/>
+    <line x1="6" y1="6" x2="14" y2="14" stroke="#a87838" stroke-width="1.4"/>
+  </g>
+
+  <!-- Brass telescope -->
+  <g transform="translate(450 160)">
+    <rect x="-9" y="-2" width="18" height="4" fill="#a87838" stroke="#3a1808" stroke-width="0.4"/>
+    <rect x="-7" y="-3" width="4" height="6" fill="#7a4818"/>
+    <rect x="3" y="-3" width="4" height="6" fill="#7a4818"/>
+    <ellipse cx="-9" cy="0" rx="2" ry="2.4" fill="#1a0c08"/>
+    <ellipse cx="9" cy="0" rx="2" ry="2.4" fill="#fff8c8" filter="url(#i7p4p1bloom)" opacity="0.85"/>
+    <!-- Velvet stand -->
+    <path d="M-9,2 L9,2 L7,6 L-7,6 Z" fill="#3a1818"/>
+  </g>
+
+  <!-- Tiny prismatic refractions on window frame -->
+  <g opacity="0.85" filter="url(#i7p4p1bloom)">
+    <circle cx="244" cy="120" r="0.85" fill="#ff5050"/>
+    <circle cx="248" cy="124" r="0.7" fill="#f0a040"/>
+    <circle cx="252" cy="128" r="0.55" fill="#fff080"/>
+    <circle cx="476" cy="180" r="0.85" fill="#80a0f0"/>
+    <circle cx="472" cy="184" r="0.7" fill="#80f0a0"/>
+  </g>
+
+  <!-- DOOR (right of bow window) -->
+  <rect x="490" y="100" width="40" height="130" fill="#1a0c08" stroke="#3a2418" stroke-width="0.85"/>
+  <line x1="510" y1="100" x2="510" y2="230" stroke="#3a2418" stroke-width="0.4"/>
+  <!-- Glass panel with name -->
+  <rect x="494" y="110" width="32" height="40" fill="#3a2818" stroke="#1a0c08" stroke-width="0.55"/>
+  <ellipse cx="510" cy="130" rx="12" ry="14" fill="#ffd898" opacity="0.55" filter="url(#i7p4p1glow)"/>
+  <!-- Door knob -->
+  <circle cx="500" cy="170" r="1.4" fill="#a87838" filter="url(#i7p4p1bloom)"/>
+  <!-- Bell hint above door (suggested by tiny shape) -->
+  <ellipse cx="510" cy="98" rx="2.4" ry="1.4" fill="#a87838" opacity="0.85"/>
+
+  <!-- ===== ROPE-MAKER (RIGHT, neighboring shop) ===== -->
+  <rect x="540" y="50" width="202" height="180" fill="url(#i7p4p1building)"/>
+  <rect x="560" y="60" width="160" height="20" fill="#1a0c08" stroke="#3a2418" stroke-width="0.55"/>
+  <text x="640" y="74" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#a89878" text-anchor="middle" font-weight="700">T. WHATELY  ·  ROPE &amp; CORDAGE</text>
+  <rect x="580" y="100" width="120" height="80" fill="#1a1208" stroke="#3a2418" stroke-width="0.85"/>
+  <ellipse cx="640" cy="140" rx="40" ry="24" fill="#3a2818" opacity="0.85"/>
+  <!-- Rope coils visible -->
+  <ellipse cx="610" cy="130" rx="14" ry="4" fill="#7a6048"/>
+  <ellipse cx="610" cy="135" rx="12" ry="3" fill="#a89878"/>
+  <ellipse cx="650" cy="150" rx="16" ry="5" fill="#7a6048"/>
+  <ellipse cx="650" cy="155" rx="14" ry="4" fill="#a89878"/>
+  <!-- Door -->
+  <rect x="710" y="120" width="20" height="100" fill="#1a0c08" stroke="#3a2418" stroke-width="0.85"/>
+
+  <!-- ===== ROAD ===== -->
+  <rect x="0" y="230" width="742" height="40" fill="url(#i7p4p1road)"/>
+  <g stroke="#080604" stroke-width="0.4" opacity="0.55" fill="none">
+    <line x1="0" y1="240" x2="742" y2="240"/>
+    <line x1="0" y1="252" x2="742" y2="252"/>
+    <line x1="0" y1="264" x2="742" y2="264"/>
+  </g>
+  <g stroke="#080604" stroke-width="0.3" opacity="0.4" fill="none">
+    <line x1="60" y1="232" x2="60" y2="240"/>
+    <line x1="120" y1="232" x2="120" y2="240"/>
+    <line x1="180" y1="232" x2="180" y2="240"/>
+    <line x1="240" y1="232" x2="240" y2="240"/>
+    <line x1="300" y1="232" x2="300" y2="240"/>
+    <line x1="360" y1="242" x2="360" y2="252"/>
+    <line x1="420" y1="242" x2="420" y2="252"/>
+    <line x1="480" y1="242" x2="480" y2="252"/>
+    <line x1="540" y1="242" x2="540" y2="252"/>
+    <line x1="600" y1="242" x2="600" y2="252"/>
+  </g>
+
+  <!-- ===== THEODORE — at the shop door, composing himself ===== -->
+  <g transform="translate(490 230)">
+    <ellipse cx="0" cy="38" rx="14" ry="2" fill="#000" opacity="0.7"/>
+    <!-- Boots -->
+    <ellipse cx="-7" cy="36" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="7" cy="36" rx="5" ry="2" fill="#1a0c04"/>
+    <!-- Trousers -->
+    <path d="M-9,34 L-12,0 L-2,-30 L0,0 Z" fill="#3a3028"/>
+    <path d="M9,34 L12,0 L2,-30 L0,0 Z" fill="#3a3028"/>
+    <!-- Waistcoat -->
+    <path d="M-12,-30 L-12,-90 L12,-90 L12,-30 Z" fill="#d4c4a8"/>
+    <path d="M-14,-88 L-12,-30 L-2,-30 L-2,-88 Z" fill="#5a3018"/>
+    <path d="M14,-88 L12,-30 L2,-30 L2,-88 Z" fill="#5a3018"/>
+    <circle cx="-2" cy="-78" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-66" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-54" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-42" r="0.85" fill="#3a1808"/>
+    <!-- Linen collar -->
+    <path d="M-7,-90 L0,-88 L7,-90 L7,-86 L0,-83 L-7,-86 Z" fill="#e0d4b8"/>
+    <!-- Pocket -->
+    <rect x="3" y="-84" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.4"/>
+    <ellipse cx="9" cy="-78" rx="3" ry="2" fill="#5af0a0" opacity="0.4" filter="url(#i7p4p1bloom)"/>
+    <!-- Satchel -->
+    <path d="M-12,-88 L18,-30" stroke="#a89878" stroke-width="3"/>
+    <rect x="14" y="-28" width="22" height="20" fill="#a89878" stroke="#7a6048" stroke-width="0.7"/>
+    <line x1="14" y1="-22" x2="36" y2="-22" stroke="#7a6048" stroke-width="0.55"/>
+    <!-- LEFT hand straightening waistcoat (chest-level) -->
+    <path d="M-12,-86 L-22,-66 L-12,-50 L-4,-66 Z" fill="#5a3018"/>
+    <ellipse cx="-22" cy="-58" rx="3" ry="2" fill="#a87838"/>
+    <!-- Brass gear ring -->
+    <circle cx="-22" cy="-58" r="1.4" fill="none" stroke="#d89858" stroke-width="0.55" filter="url(#i7p4p1bloom)"/>
+    <!-- RIGHT hand at side -->
+    <path d="M14,-86 L20,-66 L20,-46 L12,-50 Z" fill="#5a3018"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-104" rx="11" ry="12" fill="#a87838"/>
+    <path d="M-10,-114 Q-7,-122 0,-124 Q7,-122 10,-114 L10,-105 Q7,-110 0,-110 Q-7,-110 -10,-105 Z" fill="#9a7038"/>
+    <!-- Eyes — looking at shop door -->
+    <ellipse cx="-3" cy="-104" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="3" cy="-104" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-104" r="0.7" fill="#5a3818"/>
+    <circle cx="3" cy="-104" r="0.7" fill="#5a3818"/>
+    <!-- Brow tense -->
+    <path d="M-7,-110 Q-3,-112 -1,-110" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M7,-110 Q3,-112 1,-110" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <!-- Mouth — pressed, swallowing -->
+    <line x1="-2" y1="-96" x2="2" y2="-96" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- THEODORE thought caption -->
+  <g>
+    <rect x="14" y="14" width="280" height="50" rx="2" fill="#f5ecd8" stroke="#6a4220" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(thinking)</tspan></text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">Plano-convex. Four-inch. Crown glass.</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">For a ship's lantern, if they ask.</text>
+
+  <!-- JINK whisper -->
+  <g>
+    <rect x="320" y="14" width="180" height="40" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="380,54 392,54 384,64" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="328" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(barely audible)</tspan></text>
+  <text x="328" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">You've got this.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,210 Q200,212 400,208 Q580,206 742,210"/>
+  </g>
+</svg>

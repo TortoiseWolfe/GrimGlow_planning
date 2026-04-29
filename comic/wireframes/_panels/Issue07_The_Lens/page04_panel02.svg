@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 830" width="247" height="830">
+  <title>Issue 7 — Page 4 — Panel 2: Inside Prentiss and Hall — Theodore enters, Prentiss looks up from counter</title>
+  <desc>35mm medium wide slight high angle. Shop interior small but exquisite. Glass instruments every surface lenses arranged by diameter wooden racks prisms throwing rainbows walls. Workbench rear holds grinding equipment iron frames abrasive discs vise. Prentiss thin wire spectacles precise hands leather apron over waistcoat. Theodore enters bell rings. Boy meets gaze with prepared script steadiness. Warm gas lamp light. Glass surfaces glow.</desc>
+
+  <defs>
+    <linearGradient id="i7p4p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p4p2gasLamp" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p4p2wood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="i7p4p2counter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="i7p4p2prentissApron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="i7p4p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+    <filter id="i7p4p2bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p4p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p4p2strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i7p4p2megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="247" height="830" fill="url(#i7p4p2bg)"/>
+
+  <!-- Gas lamp halo from above filling room -->
+  <ellipse cx="130" cy="100" rx="180" ry="140" fill="url(#i7p4p2gasLamp)" filter="url(#i7p4p2megaglow)"/>
+
+  <!-- Gas lamp fixture (visible at top) -->
+  <g transform="translate(130 30)">
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#1a0c08" stroke-width="1.4"/>
+    <ellipse cx="0" cy="0" rx="9" ry="14" fill="#3a2418" stroke="#1a0c08" stroke-width="0.85"/>
+    <ellipse cx="0" cy="0" rx="6" ry="9" fill="#fff8c8" filter="url(#i7p4p2bloom)"/>
+    <ellipse cx="0" cy="0" rx="3" ry="4" fill="#ffe0a8"/>
+  </g>
+
+  <!-- BACK WALL with workbench -->
+  <rect x="0" y="60" width="247" height="180" fill="url(#i7p4p2wood)" opacity="0.85"/>
+  <line x1="0" y1="60" x2="247" y2="60" stroke="#3a1808" stroke-width="0.55"/>
+
+  <!-- LENS RACKS on back wall -->
+  <g transform="translate(40 90)">
+    <rect x="-30" y="0" width="60" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#1a0c04" stroke-width="0.4"/>
+    <!-- Lenses in rack -->
+    <circle cx="-22" cy="7" r="3" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p2bloom)"/>
+    <circle cx="-12" cy="7" r="3" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p2bloom)"/>
+    <circle cx="-2" cy="7" r="3" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p2bloom)"/>
+    <circle cx="8" cy="7" r="3" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p2bloom)"/>
+    <circle cx="18" cy="7" r="3" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p2bloom)"/>
+  </g>
+  <g transform="translate(40 130)">
+    <rect x="-30" y="0" width="60" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <circle cx="-22" cy="7" r="3" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p2bloom)"/>
+    <circle cx="-10" cy="7" r="4" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p2bloom)"/>
+    <circle cx="6" cy="7" r="4" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p2bloom)"/>
+    <circle cx="20" cy="7" r="3" fill="none" stroke="#fff8c8" stroke-width="0.55" filter="url(#i7p4p2bloom)"/>
+  </g>
+
+  <!-- WORKBENCH (right back) -->
+  <g transform="translate(190 130)">
+    <rect x="-26" y="-14" width="52" height="40" fill="url(#i7p4p2wood)" stroke="#1a0c08" stroke-width="0.55"/>
+    <!-- Iron frame for grinding -->
+    <rect x="-14" y="-10" width="20" height="14" fill="#3a3838" stroke="#1a0c08" stroke-width="0.55"/>
+    <circle cx="-4" cy="-3" r="5" fill="none" stroke="#5a5860" stroke-width="0.7"/>
+    <circle cx="-4" cy="-3" r="3" fill="#3a3838"/>
+    <!-- Vise -->
+    <rect x="10" y="-8" width="14" height="10" fill="#3a3838" stroke="#1a0c08" stroke-width="0.55"/>
+    <rect x="14" y="-12" width="2" height="4" fill="#5a5860"/>
+    <!-- Abrasive disc -->
+    <circle cx="-22" cy="14" r="6" fill="#7a6048" stroke="#3a2418" stroke-width="0.55"/>
+    <circle cx="-22" cy="14" r="3" fill="#3a2418"/>
+  </g>
+
+  <!-- PRISMS on velvet stands (mid-height shelves) -->
+  <g transform="translate(40 220)">
+    <rect x="-22" y="0" width="44" height="6" fill="#3a1818"/>
+    <polygon points="-14,0 -10,-12 -6,0" fill="#a8c0e8" opacity="0.85" stroke="#fff8c8" stroke-width="0.4" filter="url(#i7p4p2bloom)"/>
+    <polygon points="0,0 4,-12 8,0" fill="#a8c0e8" opacity="0.85" stroke="#fff8c8" stroke-width="0.4" filter="url(#i7p4p2bloom)"/>
+    <!-- Rainbow refraction -->
+    <line x1="8" y1="-2" x2="22" y2="-6" stroke="#ff5050" stroke-width="0.4" opacity="0.85"/>
+    <line x1="8" y1="-1" x2="22" y2="-2" stroke="#f0a040" stroke-width="0.4" opacity="0.85"/>
+    <line x1="8" y1="0" x2="22" y2="2" stroke="#fff080" stroke-width="0.4" opacity="0.85"/>
+    <line x1="8" y1="1" x2="22" y2="6" stroke="#80f0a0" stroke-width="0.4" opacity="0.85"/>
+  </g>
+
+  <!-- TINY RAINBOW SPECTRA scattered across walls/ceiling -->
+  <g opacity="0.85" filter="url(#i7p4p2bloom)">
+    <circle cx="20" cy="30" r="0.85" fill="#ff5050"/>
+    <circle cx="24" cy="34" r="0.7" fill="#f0a040"/>
+    <circle cx="28" cy="38" r="0.55" fill="#fff080"/>
+    <circle cx="200" cy="50" r="0.85" fill="#80f0a0"/>
+    <circle cx="204" cy="54" r="0.7" fill="#80a0f0"/>
+    <circle cx="60" cy="280" r="0.85" fill="#ff5050"/>
+    <circle cx="64" cy="284" r="0.7" fill="#f0a040"/>
+    <circle cx="220" cy="320" r="0.85" fill="#80a0f0"/>
+    <circle cx="224" cy="324" r="0.7" fill="#a878f0"/>
+  </g>
+
+  <!-- COUNTER (foreground bottom) -->
+  <rect x="0" y="500" width="247" height="40" fill="url(#i7p4p2counter)"/>
+  <line x1="0" y1="500" x2="247" y2="500" stroke="#a87838" stroke-width="0.55" filter="url(#i7p4p2bloom)" opacity="0.85"/>
+  <line x1="0" y1="540" x2="247" y2="540" stroke="#1a0c04" stroke-width="0.7"/>
+
+  <!-- ===== PRENTISS — behind counter, looking up ===== -->
+  <g transform="translate(160 500)">
+    <!-- Body behind counter (only upper portion visible above) -->
+    <!-- Apron + waistcoat torso -->
+    <path d="M-26,0 L-30,-160 L-12,-180 L12,-180 L30,-160 L26,0 Z" fill="url(#i7p4p2prentissApron)"/>
+    <!-- Apron strap -->
+    <line x1="-9" y1="-180" x2="-9" y2="0" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="9" y1="-180" x2="9" y2="0" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Waistcoat collar visible above apron top -->
+    <path d="M-12,-180 L-9,-200 L9,-200 L12,-180 Z" fill="#1a0c08"/>
+    <!-- Linen collar -->
+    <path d="M-7,-200 L0,-198 L7,-200 L7,-194 L0,-191 L-7,-194 Z" fill="#e0d4b8"/>
+
+    <!-- Arms — one on counter, one at side -->
+    <path d="M-30,-160 L-44,-140 L-40,-100 L-26,-130 Z" fill="url(#i7p4p2prentissApron)"/>
+    <path d="M30,-160 L40,-140 L36,-100 L24,-120 Z" fill="url(#i7p4p2prentissApron)"/>
+    <!-- Hands -->
+    <ellipse cx="-44" cy="-100" rx="6" ry="3" fill="url(#i7p4p2skin)"/>
+    <ellipse cx="40" cy="-100" rx="6" ry="3" fill="url(#i7p4p2skin)"/>
+
+    <!-- Neck thin -->
+    <path d="M-5,-218 L-7,-200 L7,-200 L5,-218 Z" fill="url(#i7p4p2skin)"/>
+
+    <!-- Head — thin features -->
+    <ellipse cx="0" cy="-238" rx="14" ry="20" fill="url(#i7p4p2skin)"/>
+    <!-- Hair (greying) -->
+    <path d="M-12,-256 Q-9,-262 0,-262 Q9,-262 12,-256 L12,-250 Q6,-254 0,-254 Q-6,-254 -12,-250 Z" fill="#5a5050"/>
+    <line x1="-9" y1="-256" x2="9" y2="-256" stroke="#a8a098" stroke-width="0.4" opacity="0.55"/>
+    <!-- WIRE SPECTACLES -->
+    <circle cx="-5" cy="-240" r="4" fill="none" stroke="#3a3838" stroke-width="0.7"/>
+    <circle cx="5" cy="-240" r="4" fill="none" stroke="#3a3838" stroke-width="0.7"/>
+    <line x1="-1" y1="-240" x2="1" y2="-240" stroke="#3a3838" stroke-width="0.7"/>
+    <line x1="-9" y1="-240" x2="-12" y2="-238" stroke="#3a3838" stroke-width="0.55"/>
+    <line x1="9" y1="-240" x2="12" y2="-238" stroke="#3a3838" stroke-width="0.55"/>
+    <!-- Eyes through spectacles -->
+    <circle cx="-5" cy="-240" r="1" fill="#fff8e8"/>
+    <circle cx="5" cy="-240" r="1" fill="#fff8e8"/>
+    <circle cx="-5" cy="-240" r="0.55" fill="#3a2418"/>
+    <circle cx="5" cy="-240" r="0.55" fill="#3a2418"/>
+    <!-- Brow lifted (mild surprise) -->
+    <path d="M-12,-250 Q-5,-252 -1,-250" stroke="#3a2418" stroke-width="0.85" fill="none"/>
+    <path d="M12,-250 Q5,-252 1,-250" stroke="#3a2418" stroke-width="0.85" fill="none"/>
+    <!-- Nose thin -->
+    <path d="M-1,-238 L-1.4,-228 L0,-224 L1.4,-228 L1,-238 Z" fill="#5a3818" opacity="0.85"/>
+    <!-- Mouth -->
+    <line x1="-3" y1="-220" x2="3" y2="-220" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Thin face line -->
+    <path d="M-12,-238 Q-10,-228 -7,-220" fill="none" stroke="#3a2418" stroke-width="0.55" opacity="0.85"/>
+    <path d="M12,-238 Q10,-228 7,-220" fill="none" stroke="#3a2418" stroke-width="0.55" opacity="0.85"/>
+  </g>
+
+  <!-- LENS CASES on counter (left of Prentiss) -->
+  <g transform="translate(80 500)">
+    <rect x="-22" y="-20" width="44" height="20" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <line x1="-22" y1="-10" x2="22" y2="-10" stroke="#1a0c04" stroke-width="0.55"/>
+    <text x="0" y="-4" font-family="monospace" font-size="3" fill="#a87838" text-anchor="middle" opacity="0.85">PLANO-CONVEX</text>
+  </g>
+
+  <!-- ===== THEODORE — left side, just stepped in (with bell ringing) ===== -->
+  <g transform="translate(50 700)">
+    <ellipse cx="0" cy="38" rx="14" ry="2" fill="#000" opacity="0.7"/>
+    <!-- Boots -->
+    <ellipse cx="-7" cy="36" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="7" cy="36" rx="5" ry="2" fill="#1a0c04"/>
+    <!-- Trousers -->
+    <path d="M-9,34 L-12,0 L-2,-30 L0,0 Z" fill="#3a3028"/>
+    <path d="M9,34 L12,0 L2,-30 L0,0 Z" fill="#3a3028"/>
+    <!-- Waistcoat -->
+    <path d="M-12,-30 L-12,-90 L12,-90 L12,-30 Z" fill="#d4c4a8"/>
+    <path d="M-14,-88 L-12,-30 L-2,-30 L-2,-88 Z" fill="#5a3018"/>
+    <path d="M14,-88 L12,-30 L2,-30 L2,-88 Z" fill="#5a3018"/>
+    <circle cx="-2" cy="-78" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-66" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-54" r="0.85" fill="#3a1808"/>
+    <!-- Linen collar -->
+    <path d="M-7,-90 L0,-88 L7,-90 L7,-86 L0,-83 L-7,-86 Z" fill="#e0d4b8"/>
+    <!-- Pocket -->
+    <rect x="3" y="-84" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.4"/>
+    <ellipse cx="9" cy="-78" rx="3" ry="2" fill="#5af0a0" opacity="0.4" filter="url(#i7p4p2bloom)"/>
+    <!-- Satchel -->
+    <path d="M-12,-88 L18,-30" stroke="#a89878" stroke-width="3"/>
+    <rect x="14" y="-28" width="22" height="20" fill="#a89878" stroke="#7a6048" stroke-width="0.7"/>
+    <line x1="14" y1="-22" x2="36" y2="-22" stroke="#7a6048" stroke-width="0.55"/>
+    <!-- Arms at side -->
+    <path d="M-12,-86 L-22,-66 L-22,-46 L-14,-50 Z" fill="#5a3018"/>
+    <path d="M14,-86 L20,-66 L20,-46 L12,-50 Z" fill="#5a3018"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-104" rx="11" ry="12" fill="#a87838"/>
+    <path d="M-10,-114 Q-7,-122 0,-124 Q7,-122 10,-114 L10,-105 Q7,-110 0,-110 Q-7,-110 -10,-105 Z" fill="#9a7038"/>
+    <!-- Eyes meeting Prentiss's gaze (forward) -->
+    <ellipse cx="-3" cy="-104" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="3" cy="-104" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-104" r="0.7" fill="#5a3818"/>
+    <circle cx="3" cy="-104" r="0.7" fill="#5a3818"/>
+    <!-- Brow -->
+    <path d="M-7,-110 L0,-110" stroke="#5a3018" stroke-width="0.55"/>
+    <path d="M7,-110 L0,-110" stroke="#5a3018" stroke-width="0.55"/>
+    <!-- Mouth — open delivering line -->
+    <ellipse cx="0" cy="-96" rx="1.4" ry="0.85" fill="#3a1808"/>
+  </g>
+
+  <!-- DOOR FRAME at left edge (behind Theodore) -->
+  <line x1="14" y1="600" x2="14" y2="800" stroke="#1a0c08" stroke-width="0.85" opacity="0.85"/>
+  <!-- BELL above door -->
+  <g transform="translate(20 600)">
+    <ellipse cx="0" cy="0" rx="3" ry="4" fill="#a87838" filter="url(#i7p4p2bloom)"/>
+    <ellipse cx="0" cy="-4" rx="1" ry="1" fill="#7a4818"/>
+    <line x1="0" y1="-4" x2="0" y2="-9" stroke="#1a0c08" stroke-width="0.55"/>
+    <!-- Sound waves (just rang) -->
+    <path d="M-9,0 Q-13,2 -14,5" stroke="#a87838" stroke-width="0.4" fill="none" opacity="0.55"/>
+    <path d="M9,0 Q13,2 14,5" stroke="#a87838" stroke-width="0.4" fill="none" opacity="0.55"/>
+  </g>
+  <!-- SFX -->
+  <text x="40" y="612" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1a1a" font-weight="700" font-style="italic">*ting*</text>
+
+  <!-- PRENTISS dialogue -->
+  <g>
+    <rect x="14" y="14" width="220" height="34" rx="2" fill="white" stroke="#1a1018" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="100,48 112,48 104,58" fill="white" stroke="#1a1018" stroke-width="0.85"/>
+    <line x1="100.5" y1="48" x2="111.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1018" font-weight="700">PRENTISS</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Help you, lad?</text>
+
+  <!-- THEODORE delivering scripted line -->
+  <g>
+    <rect x="14" y="780" width="220" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="100,780 112,780 104,770" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="100.5" y1="780" x2="111.5" y2="780" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="798" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700">THEODORE</text>
+  <text x="22" y="814" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Plano-convex. Four-inch.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q60,202 120,198 Q180,196 247,200"/>
+    <path d="M0,500 Q60,502 120,498 Q180,496 247,500"/>
+    <path d="M0,720 Q60,722 120,718 Q180,716 247,720"/>
+  </g>
+</svg>

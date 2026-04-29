@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 410" width="247" height="410">
+  <title>Issue 7 — Page 4 — Panel 4: Hands counting coins — the transaction, brass gear ring catches light</title>
+  <desc>85mm close-up on hands eye level. Theodore oil-stained hands brass gear ring left index finger counting coins from small cloth purse onto counter beside lens case. Wren gave money. Theodore counts carefully — barely enough. Slight tremble. Wrapped lens about to disappear into satchel. Warm amber on counter. Worn copper and silver coins.</desc>
+
+  <defs>
+    <linearGradient id="i7p4p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p4p4lampGlow" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p4p4counter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="i7p4p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="i7p4p4copperCoin" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0c898" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#7a4818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p4p4silverCoin" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0e8d8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#7a7878" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p4p4purse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <filter id="i7p4p4bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p4p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p4p4strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect width="247" height="410" fill="url(#i7p4p4bg)"/>
+
+  <!-- Gas lamp halo -->
+  <ellipse cx="124" cy="0" rx="240" ry="200" fill="url(#i7p4p4lampGlow)" filter="url(#i7p4p4strongglow)"/>
+
+  <!-- ===== COUNTER (fills lower portion) ===== -->
+  <rect x="0" y="100" width="247" height="310" fill="url(#i7p4p4counter)"/>
+  <line x1="0" y1="100" x2="247" y2="100" stroke="#a87838" stroke-width="0.85" filter="url(#i7p4p4bloom)" opacity="0.85"/>
+  <!-- Wood grain -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,140 Q60,138 120,140 Q180,142 247,140"/>
+    <path d="M0,200 Q60,198 120,200 Q180,202 247,200"/>
+    <path d="M0,280 Q60,278 120,280 Q180,282 247,280"/>
+    <path d="M0,340 Q60,338 120,340 Q180,342 247,340"/>
+  </g>
+
+  <!-- LENS CASE WITH WRAPPED LENS (right side, just closed) -->
+  <g transform="translate(180 220)">
+    <rect x="-40" y="-30" width="80" height="60" fill="#3a1808" stroke="#1a0c04" stroke-width="0.85"/>
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="#1a0c04" stroke-width="0.7"/>
+    <!-- Soft cloth wrapped lens visible through partial opening -->
+    <ellipse cx="0" cy="0" rx="30" ry="14" fill="#a89878" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="22" ry="9" fill="#fff8c8" opacity="0.4" filter="url(#i7p4p4bloom)"/>
+    <!-- Cloth folds -->
+    <path d="M-22,-6 Q0,-12 22,-6" stroke="#7a6048" stroke-width="0.55" fill="none"/>
+    <path d="M-22,6 Q0,12 22,6" stroke="#7a6048" stroke-width="0.55" fill="none"/>
+  </g>
+
+  <!-- ===== COIN PURSE — center-left ===== -->
+  <g transform="translate(60 240)">
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="url(#i7p4p4purse)" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Drawstring -->
+    <line x1="-6" y1="-12" x2="-9" y2="-22" stroke="#3a1808" stroke-width="0.7"/>
+    <line x1="6" y1="-12" x2="9" y2="-22" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Tassel -->
+    <ellipse cx="-9" cy="-24" rx="2" ry="3" fill="#7a4828"/>
+    <ellipse cx="9" cy="-24" rx="2" ry="3" fill="#7a4828"/>
+    <!-- Texture -->
+    <path d="M-14,-2 Q0,4 14,-2" stroke="#3a1808" stroke-width="0.4" fill="none" opacity="0.85"/>
+    <path d="M-14,4 Q0,10 14,4" stroke="#3a1808" stroke-width="0.4" fill="none" opacity="0.85"/>
+  </g>
+
+  <!-- ===== COINS counted on counter (between purse and lens case) ===== -->
+  <g transform="translate(120 240)">
+    <!-- Silver shilling 1 -->
+    <ellipse cx="-22" cy="0" rx="9" ry="3" fill="#1a1818" opacity="0.55"/>
+    <circle cx="-22" cy="-4" r="9" fill="url(#i7p4p4silverCoin)" filter="url(#i7p4p4bloom)"/>
+    <circle cx="-22" cy="-4" r="9" fill="none" stroke="#7a7878" stroke-width="0.55"/>
+    <circle cx="-22" cy="-4" r="6" fill="none" stroke="#7a7878" stroke-width="0.4"/>
+    <text x="-22" y="-2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="3" fill="#3a3838" text-anchor="middle" font-weight="700">VR</text>
+    <!-- Silver shilling 2 -->
+    <ellipse cx="0" cy="0" rx="9" ry="3" fill="#1a1818" opacity="0.55"/>
+    <circle cx="0" cy="-4" r="9" fill="url(#i7p4p4silverCoin)" filter="url(#i7p4p4bloom)"/>
+    <circle cx="0" cy="-4" r="9" fill="none" stroke="#7a7878" stroke-width="0.55"/>
+    <circle cx="0" cy="-4" r="6" fill="none" stroke="#7a7878" stroke-width="0.4"/>
+    <text x="0" y="-2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="3" fill="#3a3838" text-anchor="middle" font-weight="700">VR</text>
+    <!-- Silver shilling 3 -->
+    <ellipse cx="22" cy="0" rx="9" ry="3" fill="#1a1818" opacity="0.55"/>
+    <circle cx="22" cy="-4" r="9" fill="url(#i7p4p4silverCoin)" filter="url(#i7p4p4bloom)"/>
+    <circle cx="22" cy="-4" r="9" fill="none" stroke="#7a7878" stroke-width="0.55"/>
+    <circle cx="22" cy="-4" r="6" fill="none" stroke="#7a7878" stroke-width="0.4"/>
+    <text x="22" y="-2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="3" fill="#3a3838" text-anchor="middle" font-weight="700">VR</text>
+    <!-- Sixpence smaller silver -->
+    <ellipse cx="-44" cy="0" rx="6" ry="2" fill="#1a1818" opacity="0.55"/>
+    <circle cx="-44" cy="-4" r="6" fill="url(#i7p4p4silverCoin)" filter="url(#i7p4p4bloom)"/>
+    <circle cx="-44" cy="-4" r="6" fill="none" stroke="#7a7878" stroke-width="0.4"/>
+    <!-- Copper coins behind (still in purse area) -->
+    <ellipse cx="-66" cy="-2" rx="3" ry="1" fill="#a87838" opacity="0.85"/>
+    <ellipse cx="-60" cy="0" rx="3" ry="1" fill="#a87838" opacity="0.85"/>
+  </g>
+
+  <!-- ===== HANDS — Theodore's, oil-stained, counting ===== -->
+  <!-- LEFT hand reaching from upper left (with brass gear ring on index) -->
+  <g transform="translate(70 100)">
+    <!-- Sleeve cuff -->
+    <path d="M-30,-30 L-20,-50 L20,-50 L30,-30 L30,0 L-30,0 Z" fill="#5a3018"/>
+    <line x1="-30" y1="-30" x2="30" y2="-30" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Linen shirt cuff -->
+    <path d="M-30,0 L-20,20 L20,20 L30,0 Z" fill="#d4c4a8"/>
+
+    <!-- Hand back -->
+    <path d="M-30,20 L-20,30 L0,40 L30,30 L30,80 L-30,80 Z" fill="url(#i7p4p4skin)"/>
+    <!-- Tendons -->
+    <line x1="-22" y1="40" x2="20" y2="50" stroke="#5a3818" stroke-width="0.55" opacity="0.55"/>
+    <line x1="-25" y1="55" x2="15" y2="65" stroke="#5a3818" stroke-width="0.55" opacity="0.55"/>
+    <!-- Knuckles -->
+    <ellipse cx="-22" cy="42" rx="4" ry="2" fill="#a87838"/>
+    <ellipse cx="-10" cy="48" rx="4" ry="2" fill="#a87838"/>
+    <ellipse cx="2" cy="50" rx="4" ry="2" fill="#a87838"/>
+    <ellipse cx="14" cy="48" rx="4" ry="2" fill="#a87838"/>
+
+    <!-- Oil stains on fingers -->
+    <ellipse cx="-22" cy="55" rx="6" ry="2" fill="#1a0c04" opacity="0.85"/>
+    <ellipse cx="6" cy="60" rx="9" ry="2" fill="#1a0c04" opacity="0.7"/>
+
+    <!-- Index finger extended down toward coins (with BRASS GEAR RING) -->
+    <ellipse cx="-22" cy="80" rx="3" ry="14" fill="url(#i7p4p4skin)"/>
+    <!-- Gear ring -->
+    <circle cx="-22" cy="74" r="4" fill="none" stroke="#d89858" stroke-width="0.85" filter="url(#i7p4p4bloom)"/>
+    <g stroke="#d89858" stroke-width="0.55" opacity="0.95">
+      <line x1="-26" y1="74" x2="-28" y2="74"/>
+      <line x1="-18" y1="74" x2="-16" y2="74"/>
+      <line x1="-22" y1="70" x2="-22" y2="68"/>
+      <line x1="-22" y1="78" x2="-22" y2="80"/>
+    </g>
+    <circle cx="-22" cy="74" r="2.4" fill="#a87838"/>
+    <circle cx="-22" cy="74" r="1.4" fill="#7a4818"/>
+    <!-- Catching gleam -->
+    <circle cx="-20" cy="72" r="0.85" fill="#fff8c8" filter="url(#i7p4p4bloom)"/>
+  </g>
+
+  <!-- RIGHT hand from upper right (placing coin) -->
+  <g transform="translate(170 80)">
+    <!-- Sleeve cuff -->
+    <path d="M-30,-30 L-20,-50 L20,-50 L30,-30 L30,0 L-30,0 Z" fill="#5a3018"/>
+    <path d="M-30,0 L-20,20 L20,20 L30,0 Z" fill="#d4c4a8"/>
+    <!-- Hand reaching down -->
+    <path d="M-30,20 L-30,60 L-20,80 L20,80 L30,60 L30,20 Z" fill="url(#i7p4p4skin)"/>
+    <!-- Thumb and index pinching coin -->
+    <ellipse cx="-12" cy="90" rx="4" ry="9" fill="url(#i7p4p4skin)"/>
+    <ellipse cx="0" cy="100" rx="3" ry="14" fill="url(#i7p4p4skin)"/>
+    <!-- Oil stain -->
+    <ellipse cx="6" cy="50" rx="9" ry="2" fill="#1a0c04" opacity="0.7"/>
+    <!-- Tiny coin held between thumb and index -->
+    <circle cx="-6" cy="100" r="3" fill="url(#i7p4p4silverCoin)" filter="url(#i7p4p4bloom)"/>
+    <circle cx="-6" cy="100" r="3" fill="none" stroke="#7a7878" stroke-width="0.4"/>
+
+    <!-- TREMOR — duplicated outline at slight offset -->
+    <ellipse cx="-12.5" cy="91" rx="3.5" ry="8" fill="#7a4828" opacity="0.4"/>
+    <ellipse cx="0.5" cy="101" rx="2.5" ry="13" fill="#7a4828" opacity="0.4"/>
+  </g>
+
+  <!-- PRENTISS dialogue -->
+  <g>
+    <rect x="14" y="14" width="220" height="34" rx="2" fill="white" stroke="#1a1018" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,48 92,48 84,58" fill="white" stroke="#1a1018" stroke-width="0.85"/>
+    <line x1="80.5" y1="48" x2="91.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1018" font-weight="700">PRENTISS</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Three shillings sixpence.</text>
+
+  <!-- THEODORE -->
+  <g>
+    <rect x="14" y="354" width="220" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,354 92,354 84,344" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="80.5" y1="354" x2="91.5" y2="354" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="372" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700">THEODORE</text>
+  <text x="22" y="386" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">There you are, sir.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q60,182 120,178 Q180,176 247,180"/>
+    <path d="M0,320 Q60,322 120,318 Q180,316 247,320"/>
+  </g>
+</svg>
