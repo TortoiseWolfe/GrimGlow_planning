@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 270.5" width="742" height="270.5">
+  <title>Issue 6 — Page 12 — Panel 5: Luma looks back over Theodore's shoulder — scanning the fog behind, "This changes everything"</title>
+  <desc>85mm CU eye level. Luma's face peeking out of pocket as they walk away. Looking BACK over Theodore's shoulder, lenses scanning rearward. Resolved + unsettled. Behind: featureless grey fog. Empty. Ordinary. No longer trustworthy.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p12p5bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a706a"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </linearGradient>
+    <linearGradient id="i6p12p5leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p12p5lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p12p5fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7a706a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a3028" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p12p5lensRear" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p12p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p12p5glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="742" height="270.5" fill="url(#i6p12p5bg)"/>
+
+  <!-- Behind Theodore: featureless grey fog -->
+  <ellipse cx="500" cy="135" rx="320" ry="180" fill="url(#i6p12p5fog)" filter="url(#i6p12p5glow)" opacity="0.95"/>
+  <!-- Distant building silhouettes barely visible -->
+  <rect x="380" y="80" width="60" height="180" fill="#3a3028" opacity="0.4"/>
+  <rect x="450" y="70" width="80" height="200" fill="#403830" opacity="0.4"/>
+  <rect x="540" y="80" width="60" height="180" fill="#3a3028" opacity="0.4"/>
+  <rect x="610" y="70" width="80" height="200" fill="#403830" opacity="0.4"/>
+  <ellipse cx="500" cy="120" rx="280" ry="80" fill="#605850" opacity="0.55" filter="url(#i6p12p5glow)"/>
+
+  <!-- ===== THEODORE'S SHOULDER + WAISTCOAT EDGE — left foreground (BACK view, walking away) ===== -->
+  <!-- Hair back of head -->
+  <path d="M0,40 Q40,20 100,40 L100,160 L40,180 L0,180 Z" fill="#9a7038"/>
+  <!-- Texture lines on hair -->
+  <g stroke="#7a5028" stroke-width="0.55" opacity="0.7" fill="none">
+    <path d="M20,60 Q40,80 60,60"/>
+    <path d="M40,90 Q60,110 80,90"/>
+    <path d="M30,130 Q60,150 90,130"/>
+  </g>
+  <!-- Ear hint -->
+  <ellipse cx="100" cy="120" rx="3" ry="6" fill="#a87838"/>
+  <ellipse cx="100" cy="120" rx="2" ry="4" fill="#7a4828"/>
+
+  <!-- Linen collar peeking up at neck -->
+  <path d="M70,180 L130,180 L150,210 L60,210 Z" fill="#d4c4a8"/>
+  <!-- Waistcoat shoulder -->
+  <path d="M0,180 L60,210 L150,210 L150,270.5 L0,270.5 Z" fill="url(#i6p12p5leather)"/>
+  <!-- Wear/grain -->
+  <g stroke="#1a0c04" stroke-width="0.45" opacity="0.55" fill="none">
+    <path d="M0,230 Q70,234 150,230"/>
+    <path d="M0,250 Q70,254 150,250"/>
+  </g>
+
+  <!-- ===== POCKET on shoulder edge — Luma peeking out ===== -->
+  <rect x="120" y="200" width="80" height="60" fill="url(#i6p12p5leather)" stroke="#1a0c04" stroke-width="1.4"/>
+  <line x1="120" y1="200" x2="200" y2="200" stroke="#7a4818" stroke-width="1.4" opacity="0.85"/>
+  <!-- Pocket inner darkness -->
+  <rect x="124" y="204" width="72" height="52" fill="#0a0408"/>
+  <!-- Faint blue-violet pocket inner glow -->
+  <ellipse cx="160" cy="232" rx="40" ry="22" fill="#5a3ad8" opacity="0.4" filter="url(#i6p12p5glow)"/>
+
+  <!-- ===== LUMA peeking over pocket edge, looking BACK over shoulder ===== -->
+  <g transform="translate(160 198)">
+    <!-- Top of suit shoulders barely visible above pocket lip -->
+    <path d="M-22,8 L-18,-2 L18,-2 L22,8 Z" fill="url(#i6p12p5lumaSuit)"/>
+    <line x1="-14" y1="2" x2="14" y2="2" stroke="#a888ff" stroke-width="0.55" opacity="0.85" filter="url(#i6p12p5bloom)"/>
+    <!-- Heavy brick + cobweb dust -->
+    <ellipse cx="-15" cy="0" rx="6" ry="2" fill="#5a3018" opacity="0.85"/>
+    <ellipse cx="15" cy="0" rx="6" ry="2" fill="#5a3018" opacity="0.85"/>
+
+    <!-- Head TURNED — looking RIGHT (backward, over shoulder, BEHIND Theodore) -->
+    <ellipse cx="6" cy="-22" rx="14" ry="18" fill="#7a4838"/>
+    <!-- Lit by lens glow -->
+    <ellipse cx="6" cy="-18" rx="11" ry="6" fill="#a888ff" opacity="0.45" filter="url(#i6p12p5bloom)"/>
+    <!-- Hair pulled back -->
+    <path d="M-7,-30 Q-4,-38 6,-40 Q16,-38 19,-30 L19,-22 Q12,-28 6,-28 Q0,-28 -7,-22 Z" fill="#0a0604"/>
+    <!-- Mortar powder still in hair -->
+    <g fill="#7a6c50" opacity="0.55">
+      <circle cx="-2" cy="-36" r="0.55"/>
+      <circle cx="6" cy="-38" r="0.55"/>
+      <circle cx="14" cy="-36" r="0.55"/>
+    </g>
+    <!-- Sapphire filament -->
+    <line x1="2" y1="-36" x2="3" y2="-38" stroke="#5a3ad8" stroke-width="0.85" opacity="0.85" filter="url(#i6p12p5bloom)"/>
+    <line x1="9" y1="-38" x2="10" y2="-36" stroke="#5a3ad8" stroke-width="0.85" opacity="0.85" filter="url(#i6p12p5bloom)"/>
+    <!-- Braid trailing back into pocket -->
+    <path d="M19,-24 Q24,-12 22,2" stroke="#0a0604" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M19,-24 Q24,-12 22,2" stroke="#a888ff" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#i6p12p5bloom)"/>
+
+    <!-- LENSES facing right (looking back) — scanning rearward -->
+    <ellipse cx="2" cy="-22" rx="5" ry="3.5" fill="#a888ff" opacity="0.4"/>
+    <ellipse cx="11" cy="-22" rx="5" ry="3.5" fill="#a888ff" opacity="0.4"/>
+    <ellipse cx="2" cy="-22" rx="5" ry="3.5" fill="none" stroke="#a888ff" stroke-width="0.85" opacity="0.95" filter="url(#i6p12p5bloom)"/>
+    <ellipse cx="11" cy="-22" rx="5" ry="3.5" fill="none" stroke="#a888ff" stroke-width="0.85" opacity="0.95" filter="url(#i6p12p5bloom)"/>
+    <!-- Crack on left lens -->
+    <line x1="-1" y1="-24" x2="4" y2="-21" stroke="#fff8ff" stroke-width="0.55" opacity="0.95" filter="url(#i6p12p5bloom)"/>
+    <!-- Active scanning data lines -->
+    <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#i6p12p5bloom)">
+      <line x1="-2" y1="-23" x2="5" y2="-23"/>
+      <line x1="-2" y1="-21" x2="5" y2="-21"/>
+      <line x1="7" y1="-23" x2="14" y2="-23"/>
+      <line x1="7" y1="-21" x2="14" y2="-21"/>
+    </g>
+    <!-- Eyes -->
+    <ellipse cx="2" cy="-22" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="3" cy="-22" r="0.85" fill="#0a0604"/>
+    <circle cx="3.4" cy="-22.4" r="0.4" fill="#fff8ff"/>
+    <ellipse cx="11" cy="-22" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="12" cy="-22" r="0.85" fill="#0a0604"/>
+    <circle cx="12.4" cy="-22.4" r="0.4" fill="#fff8ff"/>
+    <!-- Brows level — resolved -->
+    <path d="M-3,-30 L5,-30" stroke="#0a0604" stroke-width="0.85"/>
+    <path d="M7,-30 L15,-30" stroke="#0a0604" stroke-width="0.85"/>
+    <!-- Mouth — set -->
+    <path d="M3,-12 L9,-12" stroke="#3a1808" stroke-width="0.55"/>
+
+    <!-- Active scan beam emitting backward over shoulder -->
+    <ellipse cx="22" cy="-22" rx="100" ry="22" fill="url(#i6p12p5lensRear)" filter="url(#i6p12p5glow)" opacity="0.55"/>
+    <!-- Scan trace lines into fog -->
+    <g stroke="#a888ff" stroke-width="0.55" fill="none" opacity="0.7" filter="url(#i6p12p5bloom)" stroke-dasharray="3 2">
+      <line x1="20" y1="-22" x2="160" y2="-22"/>
+      <line x1="20" y1="-25" x2="180" y2="-22"/>
+      <line x1="20" y1="-19" x2="180" y2="-22"/>
+    </g>
+  </g>
+
+  <!-- LUMA dialogue (small, to herself) -->
+  <g>
+    <rect x="234" y="14" width="380" height="58" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="320,72 332,72 324,82" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="320.5" y1="72" x2="331.5" y2="72" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="242" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (to herself)</text>
+  <text x="242" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Prior operative. Titan presence.</text>
+  <text x="242" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Communication with humans.</text>
+
+  <!-- LUMA dialogue 2 — declarative landing -->
+  <g>
+    <rect x="468" y="180" width="262" height="48" rx="2" fill="white" stroke="#5a3ad8" stroke-width="1" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="540,180 552,180 544,170" fill="white" stroke="#5a3ad8" stroke-width="1"/>
+    <line x1="540.5" y1="180" x2="551.5" y2="180" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="476" y="198" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="476" y="214" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1410" font-weight="700">This changes everything.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,250 Q200,252 400,248 Q580,246 742,250"/>
+  </g>
+</svg>

@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 270.5" width="238" height="270.5">
+  <title>Issue 6 — Page 12 — Panel 2: Luma's face — staggered understanding, lenses frozen on data point, recognition</title>
+  <desc>85mm CU eye level. Luma standing on Theodore's palm, scanner lowered, lenses FROZEN no longer scrolling — matched glyph to database. Staggered recognition. Eyes wet, jaw set. Scientist first.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p12p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0608"/>
+      <stop offset="100%" stop-color="#020108"/>
+    </linearGradient>
+    <linearGradient id="i6p12p2lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p12p2lensGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p12p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p12p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="238" height="270.5" fill="url(#i6p12p2bg)"/>
+
+  <!-- Heavy lens underglow on face -->
+  <ellipse cx="119" cy="120" rx="100" ry="80" fill="url(#i6p12p2lensGlow)" filter="url(#i6p12p2glow)"/>
+
+  <!-- ===== LUMA — large CU face ===== -->
+  <g transform="translate(119 130)">
+    <!-- Suit collar bottom -->
+    <path d="M-44,80 L-44,120 L44,120 L44,80 Z" fill="url(#i6p12p2lumaSuit)"/>
+    <line x1="-30" y1="100" x2="30" y2="100" stroke="#a888ff" stroke-width="0.85" opacity="0.85" filter="url(#i6p12p2bloom)"/>
+    <!-- Heavy brick dust + cobweb residue on collar -->
+    <ellipse cx="-32" cy="92" rx="9" ry="3" fill="#5a3018" opacity="0.85"/>
+    <ellipse cx="32" cy="92" rx="9" ry="3" fill="#5a3018" opacity="0.85"/>
+    <line x1="-36" y1="100" x2="-22" y2="108" stroke="#7a6c50" stroke-width="0.55" opacity="0.55"/>
+
+    <!-- Neck -->
+    <path d="M-12,68 L12,68 L14,80 L-14,80 Z" fill="#7a4838"/>
+
+    <!-- HEAD large -->
+    <ellipse cx="0" cy="0" rx="60" ry="74" fill="#7a4838"/>
+    <!-- Cheek volumes -->
+    <ellipse cx="-32" cy="20" rx="11" ry="18" fill="#8a5848" opacity="0.55"/>
+    <ellipse cx="32" cy="20" rx="11" ry="18" fill="#8a5848" opacity="0.55"/>
+    <!-- Underlight from frozen lenses -->
+    <ellipse cx="0" cy="-6" rx="34" ry="14" fill="#a888ff" opacity="0.4" filter="url(#i6p12p2bloom)"/>
+
+    <!-- HAIR pulled back into braid (tightly back) -->
+    <path d="M-50,-30 Q-50,-58 -22,-66 Q0,-72 22,-66 Q50,-58 50,-30 L48,-12 Q26,-38 0,-38 Q-26,-38 -48,-12 Z" fill="#0a0604"/>
+    <!-- Mortar powder caught in hair (per script — prior scene) -->
+    <g fill="#7a6c50" opacity="0.55">
+      <circle cx="-22" cy="-50" r="0.85"/>
+      <circle cx="-10" cy="-58" r="0.55"/>
+      <circle cx="2" cy="-62" r="0.85"/>
+      <circle cx="14" cy="-58" r="0.55"/>
+      <circle cx="22" cy="-50" r="0.85"/>
+    </g>
+    <!-- Sapphire filament glints in braid (dimmer) -->
+    <line x1="-12" y1="-58" x2="-10" y2="-62" stroke="#5a3ad8" stroke-width="1" opacity="0.85" filter="url(#i6p12p2bloom)"/>
+    <line x1="10" y1="-62" x2="12" y2="-58" stroke="#5a3ad8" stroke-width="1" opacity="0.85" filter="url(#i6p12p2bloom)"/>
+    <!-- Braid down right -->
+    <path d="M50,-22 Q56,30 50,80" stroke="#0a0604" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <path d="M50,-22 Q56,30 50,80" stroke="#a888ff" stroke-width="1" fill="none" opacity="0.85" filter="url(#i6p12p2bloom)"/>
+    <!-- Plait segments -->
+    <path d="M50,-12 Q56,-6 50,0" stroke="#1a0c04" stroke-width="0.7" fill="none" opacity="0.85"/>
+    <path d="M50,8 Q56,14 50,20" stroke="#1a0c04" stroke-width="0.7" fill="none" opacity="0.85"/>
+    <path d="M50,28 Q56,34 50,40" stroke="#1a0c04" stroke-width="0.7" fill="none" opacity="0.85"/>
+    <path d="M50,48 Q56,54 50,60" stroke="#1a0c04" stroke-width="0.7" fill="none" opacity="0.85"/>
+
+    <!-- ===== LENSES — FROZEN, no longer scrolling, single locked data point ===== -->
+    <ellipse cx="-22" cy="-12" rx="22" ry="16" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="22" cy="-12" rx="22" ry="16" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="-22" cy="-12" rx="22" ry="16" fill="none" stroke="#a888ff" stroke-width="1.4" opacity="0.95" filter="url(#i6p12p2bloom)"/>
+    <ellipse cx="22" cy="-12" rx="22" ry="16" fill="none" stroke="#a888ff" stroke-width="1.4" opacity="0.95" filter="url(#i6p12p2bloom)"/>
+    <line x1="0" y1="-12" x2="0" y2="-12" stroke="#a888ff" stroke-width="1" opacity="0.95"/>
+    <!-- Hairline crack on left lens -->
+    <line x1="-40" y1="-22" x2="-14" y2="-6" stroke="#fff8ff" stroke-width="0.7" opacity="0.95" filter="url(#i6p12p2bloom)"/>
+    <!-- FROZEN match indicator instead of scrolling lines -->
+    <text x="-32" y="-14" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#fff8ff" font-weight="700">MATCH</text>
+    <text x="-30" y="-7" font-family="Helvetica, Arial, sans-serif" font-size="3.5" fill="#fff8ff">PRIOR-INS</text>
+    <text x="14" y="-14" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#fff8ff" font-weight="700">LOCKED</text>
+    <text x="14" y="-7" font-family="Helvetica, Arial, sans-serif" font-size="3.5" fill="#fff8ff">~1840 CE</text>
+
+    <!-- Eyes — wet, locked forward -->
+    <ellipse cx="-22" cy="-12" rx="9" ry="6" fill="#fff8e8"/>
+    <ellipse cx="-22" cy="-12" rx="7" ry="4" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="-22" cy="-12" r="3.4" fill="#0a0604"/>
+    <circle cx="-23" cy="-13" r="1.2" fill="#fff8ff"/>
+    <!-- Wet sheen on eye -->
+    <ellipse cx="-22" cy="-9" rx="5" ry="1.4" fill="#fff8ff" opacity="0.55"/>
+    <ellipse cx="22" cy="-12" rx="9" ry="6" fill="#fff8e8"/>
+    <ellipse cx="22" cy="-12" rx="7" ry="4" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="22" cy="-12" r="3.4" fill="#0a0604"/>
+    <circle cx="21" cy="-13" r="1.2" fill="#fff8ff"/>
+    <ellipse cx="22" cy="-9" rx="5" ry="1.4" fill="#fff8ff" opacity="0.55"/>
+
+    <!-- Brows level — set, controlled -->
+    <path d="M-44,-32 L-12,-30" stroke="#0a0604" stroke-width="2"/>
+    <path d="M12,-30 L44,-32" stroke="#0a0604" stroke-width="2"/>
+    <!-- Brow furrow center -->
+    <line x1="-2" y1="-30" x2="-1" y2="-22" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+    <line x1="2" y1="-30" x2="1" y2="-22" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Nose -->
+    <path d="M0,8 L-6,32 L0,38 L6,32 Z" fill="#7a4838" opacity="0.65"/>
+    <line x1="-6" y1="32" x2="6" y2="32" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+    <ellipse cx="-3" cy="30" rx="2" ry="0.85" fill="#5a3028" opacity="0.55"/>
+    <ellipse cx="3" cy="30" rx="2" ry="0.85" fill="#5a3028" opacity="0.55"/>
+
+    <!-- MOUTH — pressed shut, jaw set (scientist first beat) -->
+    <path d="M-12,55 L12,55" stroke="#3a1808" stroke-width="1.4"/>
+    <path d="M-10,58 L10,58" stroke="#5a3018" stroke-width="0.55" opacity="0.55"/>
+    <!-- Jaw tension -->
+    <ellipse cx="-22" cy="64" rx="6" ry="3" fill="#5a3018" opacity="0.45"/>
+    <ellipse cx="22" cy="64" rx="6" ry="3" fill="#5a3018" opacity="0.45"/>
+  </g>
+
+  <!-- LUMA dialogue (quiet) -->
+  <g>
+    <rect x="10" y="14" width="218" height="56" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="100,70 112,70 104,80" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="100.5" y1="70" x2="111.5" y2="70" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="18" y="28" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (quiet)</text>
+  <text x="18" y="42" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">This matches the glyph from</text>
+  <text x="18" y="55" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">the wall. Same script family.</text>
+  <text x="18" y="67" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">Same dialect.</text>
+
+  <!-- LUMA dialogue 2 (bottom) -->
+  <g>
+    <rect x="10" y="194" width="218" height="64" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="100,194 112,194 104,184" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="100.5" y1="194" x2="111.5" y2="194" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="18" y="210" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="18" y="224" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">A prior operative wrote this.</text>
+  <text x="18" y="237" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">They weren't just observing.</text>
+  <text x="18" y="251" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-weight="700">They were teaching.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q60,92 120,88 Q180,86 238,90"/>
+    <path d="M0,250 Q60,252 120,248 Q180,246 238,250"/>
+  </g>
+</svg>

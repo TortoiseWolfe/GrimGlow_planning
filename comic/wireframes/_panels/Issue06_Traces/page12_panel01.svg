@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 270.5" width="742" height="270.5">
+  <title>Issue 6 — Page 12 — Panel 1: Translation overlay — fairy glyph "danger-remain-hidden" + human English "we understand"</title>
+  <desc>50mm macro. Timber surface CU. Glyph + holographic translation overlay (resolves to fairy script reading "DANGER · REMAIN · HIDDEN"). Below: weathered English scratch reads "WE UNDERSTAND" + faint date. Two languages, two species, one conversation across decades.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p12p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="i6p12p1timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <radialGradient id="i6p12p1scannerWash" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p12p1glyphGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8ff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#a888ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p12p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p12p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="742" height="270.5" fill="url(#i6p12p1bg)"/>
+
+  <!-- Timber surface filling frame, large grain -->
+  <rect width="742" height="270.5" fill="url(#i6p12p1timber)"/>
+  <!-- Wood grain (running vertical, large at this CU) -->
+  <g stroke="#1a0c04" stroke-width="0.7" opacity="0.7" fill="none">
+    <line x1="60" y1="0" x2="60" y2="270.5"/>
+    <line x1="120" y1="0" x2="120" y2="270.5"/>
+    <line x1="180" y1="0" x2="180" y2="270.5"/>
+    <line x1="240" y1="0" x2="240" y2="270.5"/>
+    <line x1="300" y1="0" x2="300" y2="270.5"/>
+    <line x1="360" y1="0" x2="360" y2="270.5"/>
+    <line x1="420" y1="0" x2="420" y2="270.5"/>
+    <line x1="480" y1="0" x2="480" y2="270.5"/>
+    <line x1="540" y1="0" x2="540" y2="270.5"/>
+    <line x1="600" y1="0" x2="600" y2="270.5"/>
+    <line x1="660" y1="0" x2="660" y2="270.5"/>
+  </g>
+  <!-- Subtle horizontal aging bands -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,40 Q200,42 400,40 Q580,38 742,40"/>
+    <path d="M0,120 Q200,122 400,120 Q580,118 742,120"/>
+    <path d="M0,210 Q200,212 400,210 Q580,208 742,210"/>
+  </g>
+  <!-- Wood knots -->
+  <ellipse cx="100" cy="60" rx="9" ry="4" fill="#1a0c04" opacity="0.85"/>
+  <ellipse cx="660" cy="220" rx="11" ry="5" fill="#1a0c04" opacity="0.85"/>
+
+  <!-- Scanner wash highlighting glyph + response area -->
+  <ellipse cx="280" cy="120" rx="200" ry="120" fill="url(#i6p12p1scannerWash)" filter="url(#i6p12p1glow)" opacity="0.7"/>
+
+  <!-- ===== FAIRY GLYPH — left, with holographic translation overlay to the right ===== -->
+  <g transform="translate(220 100)">
+    <!-- Aura -->
+    <ellipse cx="0" cy="0" rx="60" ry="50" fill="url(#i6p12p1glyphGlow)" filter="url(#i6p12p1glow)" opacity="0.85"/>
+    <!-- The carved glyph itself -->
+    <g stroke="#fff8ff" stroke-width="1.7" fill="none" opacity="0.95" filter="url(#i6p12p1bloom)">
+      <polygon points="-30,-16 0,-30 30,-16 30,16 0,30 -30,16"/>
+      <line x1="0" y1="-30" x2="0" y2="30"/>
+      <line x1="-30" y1="0" x2="30" y2="0"/>
+      <line x1="-16" y1="-9" x2="16" y2="9"/>
+      <line x1="16" y1="-9" x2="-16" y2="9"/>
+      <circle cx="0" cy="-30" r="1.6" fill="#fff8ff"/>
+      <circle cx="30" cy="0" r="1.6" fill="#fff8ff"/>
+      <circle cx="0" cy="30" r="1.6" fill="#fff8ff"/>
+      <circle cx="-30" cy="0" r="1.6" fill="#fff8ff"/>
+    </g>
+    <!-- Carving depth shadow -->
+    <g stroke="#1a0c04" stroke-width="1" fill="none" opacity="0.85">
+      <polygon points="-29,-15 1,-29 31,-15 31,17 1,31 -29,17"/>
+      <line x1="1" y1="-29" x2="1" y2="31"/>
+      <line x1="-29" y1="1" x2="31" y2="1"/>
+    </g>
+  </g>
+
+  <!-- ===== TRANSLATION OVERLAY — holographic, right of glyph ===== -->
+  <g transform="translate(440 100)" filter="url(#i6p12p1bloom)" opacity="0.95">
+    <!-- HUD frame with three glyph-words -->
+    <rect x="-90" y="-50" width="240" height="100" fill="#1a0c20" opacity="0.55"/>
+    <rect x="-90" y="-50" width="240" height="100" fill="none" stroke="#a888ff" stroke-width="2" opacity="0.95"/>
+    <!-- Header -->
+    <rect x="-90" y="-50" width="240" height="14" fill="#5a3ad8" opacity="0.85"/>
+    <text x="-84" y="-40" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff" font-weight="700">TRANSLATION — HUMAN-ADAPTED FAIRY SCRIPT</text>
+
+    <!-- Three glyph-word panels -->
+    <!-- Word 1: DANGER -->
+    <g stroke="#fff8ff" stroke-width="0.85" fill="none" opacity="0.95">
+      <polygon points="-72,-22 -64,-30 -56,-22 -56,-10 -64,-2 -72,-10"/>
+      <line x1="-64" y1="-30" x2="-64" y2="-2"/>
+      <line x1="-72" y1="-16" x2="-56" y2="-16"/>
+      <!-- Triangle warning -->
+      <path d="M-68,-22 L-60,-22 L-64,-14 Z"/>
+    </g>
+    <text x="-78" y="14" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#ff5868" font-weight="700">DANGER</text>
+
+    <!-- Separator dot -->
+    <circle cx="-32" cy="-16" r="1.4" fill="#a888ff" filter="url(#i6p12p1bloom)"/>
+
+    <!-- Word 2: REMAIN -->
+    <g stroke="#fff8ff" stroke-width="0.85" fill="none" opacity="0.95">
+      <polygon points="-12,-22 -4,-30 4,-22 4,-10 -4,-2 -12,-10"/>
+      <line x1="-12" y1="-16" x2="4" y2="-16"/>
+      <line x1="-4" y1="-22" x2="-4" y2="-10"/>
+      <!-- Anchor symbol -->
+      <line x1="-8" y1="-14" x2="0" y2="-14"/>
+      <line x1="-4" y1="-14" x2="-4" y2="-6"/>
+    </g>
+    <text x="-18" y="14" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff" font-weight="700">REMAIN</text>
+
+    <!-- Separator dot -->
+    <circle cx="28" cy="-16" r="1.4" fill="#a888ff" filter="url(#i6p12p1bloom)"/>
+
+    <!-- Word 3: HIDDEN -->
+    <g stroke="#fff8ff" stroke-width="0.85" fill="none" opacity="0.95">
+      <polygon points="48,-22 56,-30 64,-22 64,-10 56,-2 48,-10"/>
+      <!-- Closed eye / veil -->
+      <path d="M48,-16 Q56,-22 64,-16"/>
+      <line x1="50" y1="-16" x2="62" y2="-16"/>
+      <line x1="56" y1="-22" x2="56" y2="-12"/>
+    </g>
+    <text x="44" y="14" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff" font-weight="700">HIDDEN</text>
+
+    <!-- Bottom annotation -->
+    <text x="-84" y="32" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#fff8ff">GRAMMAR: HUMAN-ADAPTED IMPERATIVE</text>
+    <text x="-84" y="42" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#fff8ff">AGE ESTIMATE: 40-60 YEARS</text>
+
+    <!-- Connector line back to glyph -->
+    <line x1="-90" y1="0" x2="-130" y2="0" stroke="#a888ff" stroke-width="0.55" opacity="0.85" stroke-dasharray="2 2"/>
+    <polygon points="-130,-3 -134,0 -130,3" fill="#a888ff" opacity="0.85"/>
+  </g>
+
+  <!-- ===== HUMAN ENGLISH RESPONSE — below glyph, weathered, "WE UNDERSTAND" ===== -->
+  <g transform="translate(220 200)">
+    <!-- Faint underline showing scratch level -->
+    <line x1="-110" y1="0" x2="110" y2="0" stroke="#3a1808" stroke-width="0.4" opacity="0.55"/>
+    <g fill="none" stroke="#0a0408" stroke-width="1.4" stroke-linecap="round">
+      <!-- W -->
+      <line x1="-100" y1="-10" x2="-94" y2="14"/>
+      <line x1="-94" y1="14" x2="-90" y2="-4"/>
+      <line x1="-90" y1="-4" x2="-86" y2="14"/>
+      <line x1="-86" y1="14" x2="-80" y2="-10"/>
+      <!-- E -->
+      <line x1="-72" y1="-10" x2="-72" y2="14"/>
+      <line x1="-72" y1="-10" x2="-60" y2="-10"/>
+      <line x1="-72" y1="2" x2="-64" y2="2"/>
+      <line x1="-72" y1="14" x2="-60" y2="14"/>
+      <!-- gap -->
+      <!-- U -->
+      <line x1="-46" y1="-10" x2="-46" y2="10"/>
+      <line x1="-46" y1="10" x2="-34" y2="14"/>
+      <line x1="-34" y1="14" x2="-22" y2="10"/>
+      <line x1="-22" y1="10" x2="-22" y2="-10"/>
+      <!-- N -->
+      <line x1="-14" y1="14" x2="-14" y2="-10"/>
+      <line x1="-14" y1="-10" x2="0" y2="14"/>
+      <line x1="0" y1="14" x2="0" y2="-10"/>
+      <!-- D (worn) -->
+      <line x1="8" y1="-10" x2="8" y2="14"/>
+      <path d="M8,-10 Q22,-10 22,2 Q22,14 8,14" opacity="0.85"/>
+      <!-- E -->
+      <line x1="30" y1="-10" x2="30" y2="14"/>
+      <line x1="30" y1="-10" x2="42" y2="-10"/>
+      <line x1="30" y1="2" x2="38" y2="2"/>
+      <line x1="30" y1="14" x2="42" y2="14"/>
+      <!-- R (partial — worn) -->
+      <line x1="50" y1="-10" x2="50" y2="14"/>
+      <path d="M50,-10 Q60,-10 60,-2 Q60,4 50,4" opacity="0.7"/>
+      <line x1="54" y1="4" x2="62" y2="14" opacity="0.7"/>
+      <!-- S -->
+      <path d="M70,-10 Q78,-10 78,-4 Q78,2 70,2 Q62,2 62,8 Q62,14 70,14"/>
+      <!-- T -->
+      <line x1="78" y1="-10" x2="92" y2="-10"/>
+      <line x1="85" y1="-10" x2="85" y2="14"/>
+      <!-- A (very worn) -->
+      <line x1="92" y1="14" x2="98" y2="-10" opacity="0.65"/>
+      <line x1="98" y1="-10" x2="104" y2="14" opacity="0.65"/>
+      <line x1="95" y1="6" x2="101" y2="6" opacity="0.55"/>
+      <!-- N (very worn) -->
+      <line x1="106" y1="14" x2="106" y2="-10" opacity="0.55"/>
+      <line x1="106" y1="-10" x2="112" y2="14" opacity="0.55"/>
+      <line x1="112" y1="14" x2="112" y2="-10" opacity="0.55"/>
+      <!-- D (lost) -->
+    </g>
+    <!-- Highlight catching scanner light -->
+    <g fill="none" stroke="#a888ff" stroke-width="0.4" stroke-linecap="round" opacity="0.55" filter="url(#i6p12p1bloom)">
+      <line x1="-100" y1="-10" x2="-94" y2="14"/>
+      <line x1="-72" y1="-10" x2="-72" y2="14"/>
+      <line x1="-46" y1="-10" x2="-46" y2="10"/>
+      <line x1="-14" y1="14" x2="-14" y2="-10"/>
+      <line x1="8" y1="-10" x2="8" y2="14"/>
+      <line x1="30" y1="-10" x2="30" y2="14"/>
+    </g>
+    <!-- Period/full stop -->
+    <circle cx="120" cy="14" r="1.4" fill="#0a0408"/>
+  </g>
+
+  <!-- Faint scratched signature/date below — "1843" partially legible -->
+  <g transform="translate(220 240)" stroke="#1a0c04" stroke-width="0.7" stroke-linecap="round" opacity="0.55" fill="none">
+    <!-- 1 -->
+    <line x1="-30" y1="-6" x2="-30" y2="6"/>
+    <!-- 8 -->
+    <circle cx="-22" cy="-3" r="2.4" fill="none"/>
+    <circle cx="-22" cy="3" r="2.4" fill="none"/>
+    <!-- 4 -->
+    <line x1="-14" y1="-6" x2="-14" y2="0"/>
+    <line x1="-14" y1="0" x2="-6" y2="0"/>
+    <line x1="-6" y1="-6" x2="-6" y2="6"/>
+    <!-- 3 -->
+    <path d="M2,-6 Q9,-6 9,-1 Q9,2 5,2 Q9,2 9,5 Q9,8 2,8"/>
+  </g>
+
+  <!-- LUMA dialogue 1 (off-panel translating) -->
+  <g>
+    <rect x="14" y="14" width="450" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="200,54 212,54 204,64" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="200.5" y1="54" x2="211.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">The glyph says 'danger-remain-hidden.' A warning. Adapted for human grammar.</text>
+
+  <!-- LUMA dialogue 2 -->
+  <g>
+    <rect x="500" y="64" width="228" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="568,104 580,104 572,114" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="568.5" y1="104" x2="579.5" y2="104" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="508" y="80" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (off-panel)</text>
+  <text x="508" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">And the response... the human response...</text>
+
+  <!-- THEODORE dialogue (off-panel) -->
+  <g>
+    <rect x="500" y="120" width="228" height="56" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="566,176 578,176 570,186" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="566.5" y1="176" x2="577.5" y2="176" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="508" y="138" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700" font-style="italic">THEODORE (off-panel)</text>
+  <text x="508" y="154" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">It says 'we understand.' That's what</text>
+  <text x="508" y="168" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">it says. 'We understand.'</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q200,82 400,78 Q580,76 742,80"/>
+    <path d="M0,250 Q200,252 400,248 Q580,246 742,250"/>
+  </g>
+</svg>
