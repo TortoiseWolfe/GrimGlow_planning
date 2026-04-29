@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 410" width="366" height="410">
+  <title>Issue 7 — Page 3 — Panel 3: Waterfront revealed — Theodore stops at quayside, lighthouse visible at end of stone pier</title>
+  <desc>28mm wide establishing human scale. Waterfront. River wide dark busy with barges. Far bank line of warehouses chimneys haze. Cranes iron skeletons left. Stone quays right with bollards ropes cargo. End of stone pier: squat iron-and-brick lighthouse. Lamp not yet lit. Their target. Industrial loud alien. Coal salt smell. Clerkenwell boy seeing river docks first time.</desc>
+
+  <defs>
+    <linearGradient id="i7p3p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9aa098"/>
+      <stop offset="60%" stop-color="#b0b8a8"/>
+      <stop offset="100%" stop-color="#7a8078"/>
+    </linearGradient>
+    <linearGradient id="i7p3p3river" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a4858"/>
+      <stop offset="100%" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="i7p3p3stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5860"/>
+      <stop offset="100%" stop-color="#2a2830"/>
+    </linearGradient>
+    <linearGradient id="i7p3p3warehouse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i7p3p3lighthouse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4838"/>
+      <stop offset="100%" stop-color="#3a2418"/>
+    </linearGradient>
+    <linearGradient id="i7p3p3lighthouseIron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i7p3p3hazyFar" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#9aa098" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5a5860" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p3p3bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p3p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p3p3strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="366" height="180" fill="url(#i7p3p3sky)"/>
+
+  <!-- ===== FAR BANK — line of warehouses chimneys in haze ===== -->
+  <path d="M0,170 L0,140 L40,130 L40,150 L80,135 L80,140 L120,128 L120,150 L160,135 L160,138 L200,130 L200,148 L240,138 L240,135 L280,140 L280,128 L320,138 L320,142 L366,135 L366,170 Z" fill="url(#i7p3p3warehouse)" opacity="0.85"/>
+  <!-- Chimneys -->
+  <rect x="50" y="115" width="4" height="20" fill="#0a0408"/>
+  <rect x="100" y="110" width="4" height="22" fill="#0a0408"/>
+  <rect x="180" y="115" width="4" height="20" fill="#0a0408"/>
+  <rect x="240" y="118" width="4" height="22" fill="#0a0408"/>
+  <rect x="300" y="115" width="4" height="20" fill="#0a0408"/>
+  <!-- Smoke wisps -->
+  <ellipse cx="52" cy="115" rx="9" ry="3" fill="#5a5560" opacity="0.7" filter="url(#i7p3p3glow)"/>
+  <ellipse cx="102" cy="110" rx="12" ry="4" fill="#5a5560" opacity="0.7" filter="url(#i7p3p3glow)"/>
+  <ellipse cx="242" cy="118" rx="10" ry="3" fill="#5a5560" opacity="0.7" filter="url(#i7p3p3glow)"/>
+
+  <!-- Hazy wash on far bank -->
+  <ellipse cx="183" cy="160" rx="280" ry="40" fill="url(#i7p3p3hazyFar)" filter="url(#i7p3p3strongglow)"/>
+
+  <!-- ===== RIVER ===== -->
+  <rect x="0" y="170" width="366" height="120" fill="url(#i7p3p3river)"/>
+  <!-- Barge silhouettes -->
+  <g opacity="0.85">
+    <ellipse cx="60" cy="200" rx="22" ry="3" fill="#1a1018"/>
+    <rect x="50" y="186" width="20" height="14" fill="#1a1018"/>
+    <line x1="60" y1="180" x2="60" y2="186" stroke="#0a0408" stroke-width="0.7"/>
+    <ellipse cx="200" cy="220" rx="36" ry="4" fill="#0a0408"/>
+    <rect x="180" y="200" width="40" height="20" fill="#0a0408"/>
+    <line x1="200" y1="190" x2="200" y2="200" stroke="#0a0408" stroke-width="0.85"/>
+    <ellipse cx="320" cy="210" rx="22" ry="3" fill="#1a1018"/>
+  </g>
+  <!-- Water reflections (faint) -->
+  <g stroke="#5a6878" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,200 Q90,202 180,200 Q270,202 366,200"/>
+    <path d="M0,230 Q90,232 180,230 Q270,232 366,230"/>
+    <path d="M0,260 Q90,262 180,260 Q270,262 366,260"/>
+  </g>
+
+  <!-- ===== CRANES — iron skeletons LEFT against sky ===== -->
+  <g stroke="#0a0408" stroke-width="1" fill="none" opacity="0.95">
+    <!-- Crane tower -->
+    <line x1="40" y1="180" x2="40" y2="40"/>
+    <line x1="50" y1="180" x2="50" y2="40"/>
+    <line x1="40" y1="40" x2="50" y2="40"/>
+    <!-- X-bracing -->
+    <line x1="40" y1="60" x2="50" y2="80"/>
+    <line x1="50" y1="60" x2="40" y2="80"/>
+    <line x1="40" y1="100" x2="50" y2="120"/>
+    <line x1="50" y1="100" x2="40" y2="120"/>
+    <line x1="40" y1="140" x2="50" y2="160"/>
+    <line x1="50" y1="140" x2="40" y2="160"/>
+    <!-- Jib arm -->
+    <line x1="45" y1="40" x2="120" y2="60"/>
+    <line x1="45" y1="50" x2="115" y2="65"/>
+    <!-- Cable -->
+    <line x1="120" y1="60" x2="120" y2="120"/>
+    <!-- Hook -->
+    <path d="M120,120 L116,124 L120,128 L124,124 Z" fill="#0a0408"/>
+    <!-- Counterweight -->
+    <rect x="20" y="50" width="20" height="14" fill="#0a0408"/>
+  </g>
+
+  <!-- ===== STONE PIER extending into river RIGHT ===== -->
+  <path d="M180,290 L366,290 L366,310 L180,300 Z" fill="url(#i7p3p3stone)"/>
+  <line x1="180" y1="290" x2="366" y2="290" stroke="#1a1418" stroke-width="0.55"/>
+  <line x1="180" y1="300" x2="366" y2="310" stroke="#0a0608" stroke-width="0.7"/>
+
+  <!-- ===== LIGHTHOUSE — squat iron-and-brick at end of pier (CENTER-RIGHT) ===== -->
+  <g transform="translate(290 175)">
+    <!-- Brick base -->
+    <path d="M-22,115 L-18,40 L-26,30 L26,30 L18,40 L22,115 Z" fill="url(#i7p3p3lighthouse)"/>
+    <line x1="-22" y1="60" x2="22" y2="60" stroke="#1a0c08" stroke-width="0.4" opacity="0.7"/>
+    <line x1="-22" y1="80" x2="22" y2="80" stroke="#1a0c08" stroke-width="0.4" opacity="0.7"/>
+    <line x1="-22" y1="100" x2="22" y2="100" stroke="#1a0c08" stroke-width="0.4" opacity="0.7"/>
+    <!-- Brick texture -->
+    <g stroke="#1a0c08" stroke-width="0.3" opacity="0.55" fill="none">
+      <line x1="-22" y1="50" x2="-22" y2="115"/>
+      <line x1="-10" y1="50" x2="-10" y2="115"/>
+      <line x1="0" y1="50" x2="0" y2="115"/>
+      <line x1="10" y1="50" x2="10" y2="115"/>
+      <line x1="22" y1="50" x2="22" y2="115"/>
+    </g>
+    <!-- Iron lamp room -->
+    <rect x="-26" y="14" width="52" height="20" fill="url(#i7p3p3lighthouseIron)" stroke="#1a0c08" stroke-width="0.7"/>
+    <!-- Lamp glass (DARK — afternoon, not lit) -->
+    <ellipse cx="0" cy="22" rx="18" ry="6" fill="#0a0808"/>
+    <ellipse cx="0" cy="22" rx="14" ry="4" fill="#1a1418" opacity="0.85"/>
+    <!-- Iron gallery rail -->
+    <rect x="-30" y="34" width="60" height="3" fill="url(#i7p3p3lighthouseIron)" stroke="#1a0c08" stroke-width="0.4"/>
+    <!-- Gallery posts -->
+    <line x1="-26" y1="34" x2="-26" y2="40" stroke="#1a0c08" stroke-width="0.55"/>
+    <line x1="26" y1="34" x2="26" y2="40" stroke="#1a0c08" stroke-width="0.55"/>
+    <!-- Roof cap iron -->
+    <polygon points="-24,14 0,2 24,14" fill="url(#i7p3p3lighthouseIron)"/>
+    <line x1="0" y1="2" x2="0" y2="-4" stroke="#1a0c08" stroke-width="1.4"/>
+    <circle cx="0" cy="-6" r="1" fill="#1a0c08"/>
+    <!-- Access door -->
+    <rect x="-4" y="100" width="8" height="14" fill="#1a0c08"/>
+    <!-- Moored service boat alongside -->
+    <ellipse cx="0" cy="120" rx="22" ry="2" fill="#1a1018" opacity="0.85"/>
+    <ellipse cx="-4" cy="118" rx="14" ry="3" fill="#1a1018"/>
+  </g>
+
+  <!-- ===== QUAYSIDE — closer stone with bollards, ropes ===== -->
+  <rect x="0" y="290" width="180" height="40" fill="url(#i7p3p3stone)"/>
+  <!-- Cargo crates -->
+  <rect x="40" y="260" width="20" height="30" fill="#3a2418" stroke="#1a0c04" stroke-width="0.55"/>
+  <rect x="60" y="265" width="22" height="25" fill="#3a2418" stroke="#1a0c04" stroke-width="0.55"/>
+  <rect x="80" y="270" width="20" height="20" fill="#3a2418" stroke="#1a0c04" stroke-width="0.55"/>
+  <!-- Iron bollards -->
+  <ellipse cx="120" cy="290" rx="3" ry="2" fill="#1a1418"/>
+  <rect x="118" y="280" width="4" height="10" fill="#1a1418"/>
+  <ellipse cx="120" cy="280" rx="3" ry="1.4" fill="#3a3838"/>
+  <ellipse cx="160" cy="290" rx="3" ry="2" fill="#1a1418"/>
+  <rect x="158" y="280" width="4" height="10" fill="#1a1418"/>
+  <ellipse cx="160" cy="280" rx="3" ry="1.4" fill="#3a3838"/>
+  <!-- Coiled rope (thick as tree trunk at fairy scale) -->
+  <ellipse cx="14" cy="285" rx="10" ry="3" fill="#7a6048"/>
+  <ellipse cx="14" cy="282" rx="9" ry="2.4" fill="#a89878"/>
+  <ellipse cx="14" cy="280" rx="6" ry="2" fill="#7a6048"/>
+
+  <!-- ===== THEODORE — foreground, stopped, taking it in ===== -->
+  <g transform="translate(110 350)">
+    <ellipse cx="0" cy="48" rx="14" ry="2" fill="#000" opacity="0.7"/>
+    <!-- Boots -->
+    <ellipse cx="-7" cy="46" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="7" cy="46" rx="5" ry="2" fill="#1a0c04"/>
+    <!-- Trousers -->
+    <path d="M-9,44 L-12,10 L-2,-10 L0,10 Z" fill="#3a3028"/>
+    <path d="M9,44 L12,10 L2,-10 L0,10 Z" fill="#3a3028"/>
+    <!-- Waistcoat -->
+    <path d="M-12,-10 L-12,-50 L12,-50 L12,-10 Z" fill="#d4c4a8"/>
+    <path d="M-14,-48 L-12,-10 L-2,-10 L-2,-48 Z" fill="#5a3018"/>
+    <path d="M14,-48 L12,-10 L2,-10 L2,-48 Z" fill="#5a3018"/>
+    <!-- Linen collar -->
+    <path d="M-7,-50 L0,-48 L7,-50 L7,-46 L0,-43 L-7,-46 Z" fill="#e0d4b8"/>
+    <!-- Pocket / Jink hidden -->
+    <rect x="3" y="-44" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.4"/>
+    <ellipse cx="9" cy="-38" rx="3" ry="2" fill="#5af0a0" opacity="0.4" filter="url(#i7p3p3bloom)"/>
+    <!-- Satchel -->
+    <path d="M-12,-48 L18,-10" stroke="#a89878" stroke-width="3"/>
+    <rect x="14" y="-8" width="22" height="20" fill="#a89878" stroke="#7a6048" stroke-width="0.7"/>
+    <!-- Arms -->
+    <path d="M-12,-46 L-22,-30 L-18,-10 L-8,-26 Z" fill="#5a3018"/>
+    <path d="M14,-46 L20,-26 L18,-10 L12,-26 Z" fill="#5a3018"/>
+    <!-- Head — looking out at the river -->
+    <ellipse cx="0" cy="-64" rx="10" ry="11" fill="#a87838"/>
+    <path d="M-9,-72 Q-7,-80 0,-82 Q7,-80 9,-72 L9,-66 Q6,-70 0,-70 Q-6,-70 -9,-66 Z" fill="#9a7038"/>
+    <!-- Eyes WIDE (awe) -->
+    <ellipse cx="-3" cy="-64" rx="2" ry="1.4" fill="#fff8e8"/>
+    <ellipse cx="3" cy="-64" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-3" cy="-64" r="0.85" fill="#7a4818"/>
+    <circle cx="3" cy="-64" r="0.85" fill="#7a4818"/>
+    <circle cx="-3" cy="-64" r="0.3" fill="#fff"/>
+    <circle cx="3" cy="-64" r="0.3" fill="#fff"/>
+    <!-- Brow lifted -->
+    <path d="M-7,-72 Q-3,-74 0,-72" stroke="#5a3018" stroke-width="0.7" fill="none"/>
+    <path d="M7,-72 Q3,-74 0,-72" stroke="#5a3018" stroke-width="0.7" fill="none"/>
+    <!-- Mouth slightly open -->
+    <ellipse cx="0" cy="-56" rx="1.4" ry="0.85" fill="#3a1808"/>
+  </g>
+
+  <!-- THEODORE dialogue (low) -->
+  <g>
+    <rect x="14" y="14" width="180" height="34" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,48 92,48 84,58" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="80.5" y1="48" x2="91.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(low)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">There it is.</text>
+
+  <!-- JINK whisper -->
+  <g>
+    <rect x="200" y="64" width="160" height="34" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="240,98 252,98 244,108" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="208" y="80" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(pocket)</tspan></text>
+  <text x="208" y="94" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Bigger than I expected.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q100,182 200,178 Q280,176 366,180"/>
+    <path d="M0,300 Q100,302 200,298 Q280,296 366,300"/>
+  </g>
+</svg>

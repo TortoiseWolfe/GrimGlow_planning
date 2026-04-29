@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 7 — Page 3 — Panel 1: Theodore walks transition zone — Clerkenwell behind, industrial waterfront ahead, late afternoon overcast</title>
+  <desc>24mm wide widescreen ground level human scale. Theodore walks street in transition. Behind: narrow brick-and-timber Clerkenwell. Ahead: wider roads, taller warehouses, first iron structures. Church spire midpoint. Overcast late afternoon, sun diffuse glow. Pedestrians and carts. River fog creeping in from waterfront. Theodore canvas satchel oil-stained hands brass gear ring.</desc>
+
+  <defs>
+    <linearGradient id="i7p3p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9aa098"/>
+      <stop offset="60%" stop-color="#b0b8a8"/>
+      <stop offset="100%" stop-color="#7a8078"/>
+    </linearGradient>
+    <radialGradient id="i7p3p1diffuseSun" cx="65%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#e0d8b8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#9aa098" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p3p1clerkenwell" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="i7p3p1warehouse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i7p3p1road" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#2a1810"/>
+    </linearGradient>
+    <radialGradient id="i7p3p1riverFog" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#9aa098" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a5860" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p3p1shopWindow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p3p1bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p3p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p3p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky overcast -->
+  <rect width="742" height="170" fill="url(#i7p3p1sky)"/>
+  <!-- Diffuse sun glow -->
+  <ellipse cx="480" cy="40" rx="180" ry="80" fill="url(#i7p3p1diffuseSun)" filter="url(#i7p3p1strongglow)"/>
+
+  <!-- ===== CLERKENWELL behind (LEFT half) — narrow brick-and-timber ===== -->
+  <!-- Buildings rise from left, narrower, packed close -->
+  <path d="M0,170 L0,40 L70,30 L70,80 L130,75 L130,40 L180,35 L180,90 L240,85 L240,40 L300,38 L300,170 Z" fill="url(#i7p3p1clerkenwell)"/>
+  <!-- Timber framing on Clerkenwell facades -->
+  <g stroke="#1a0c08" stroke-width="0.85" opacity="0.85" fill="none">
+    <line x1="20" y1="60" x2="20" y2="170"/>
+    <line x1="20" y1="60" x2="100" y2="60"/>
+    <line x1="100" y1="60" x2="100" y2="170"/>
+    <line x1="100" y1="100" x2="180" y2="100"/>
+    <line x1="180" y1="100" x2="180" y2="170"/>
+    <line x1="180" y1="80" x2="240" y2="80"/>
+  </g>
+  <!-- Workshop windows with warm amber glow (gas lamps lit for evening) -->
+  <rect x="30" y="100" width="22" height="28" fill="#3a2818" stroke="#1a0c08" stroke-width="0.55"/>
+  <ellipse cx="41" cy="114" rx="9" ry="11" fill="url(#i7p3p1shopWindow)" filter="url(#i7p3p1glow)"/>
+  <line x1="41" y1="100" x2="41" y2="128" stroke="#1a0c08" stroke-width="0.7"/>
+  <rect x="110" y="120" width="22" height="28" fill="#3a2818" stroke="#1a0c08" stroke-width="0.55"/>
+  <ellipse cx="121" cy="134" rx="9" ry="11" fill="url(#i7p3p1shopWindow)" filter="url(#i7p3p1glow)"/>
+  <line x1="121" y1="120" x2="121" y2="148" stroke="#1a0c08" stroke-width="0.7"/>
+  <rect x="200" y="110" width="22" height="28" fill="#3a2818" stroke="#1a0c08" stroke-width="0.55"/>
+  <ellipse cx="211" cy="124" rx="9" ry="11" fill="url(#i7p3p1shopWindow)" filter="url(#i7p3p1glow)"/>
+  <!-- Workshop signs hanging -->
+  <rect x="50" y="80" width="40" height="10" fill="#3a2418" stroke="#1a0c04" stroke-width="0.4"/>
+  <rect x="160" y="60" width="50" height="10" fill="#3a2418" stroke="#1a0c04" stroke-width="0.4"/>
+  <text x="70" y="88" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#a87838" text-anchor="middle" font-weight="700" opacity="0.85">SMITH</text>
+  <text x="185" y="68" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#a87838" text-anchor="middle" font-weight="700" opacity="0.85">LODGINGS</text>
+  <!-- Chimneys -->
+  <rect x="40" y="20" width="8" height="14" fill="#1a0c08"/>
+  <rect x="120" y="14" width="8" height="22" fill="#1a0c08"/>
+  <rect x="180" y="18" width="6" height="14" fill="#1a0c08"/>
+
+  <!-- ===== CHURCH SPIRE midpoint -->
+  <g transform="translate(371 30)">
+    <polygon points="0,0 -8,40 8,40" fill="#3a2418"/>
+    <line x1="0" y1="-10" x2="0" y2="0" stroke="#1a0c08" stroke-width="1.4"/>
+    <circle cx="0" cy="-12" r="2" fill="#1a0c08"/>
+    <!-- Body of church -->
+    <rect x="-22" y="40" width="44" height="60" fill="url(#i7p3p1clerkenwell)"/>
+    <!-- Window arch -->
+    <path d="M-12,80 L-12,60 Q-12,56 0,56 Q12,56 12,60 L12,80" stroke="#1a0c08" stroke-width="0.85" fill="#1a0c08"/>
+    <ellipse cx="0" cy="70" rx="8" ry="9" fill="url(#i7p3p1shopWindow)" opacity="0.85" filter="url(#i7p3p1glow)"/>
+  </g>
+
+  <!-- ===== INDUSTRIAL WAREHOUSES ahead (RIGHT half) — taller, wider ===== -->
+  <path d="M420,170 L420,30 L500,20 L500,40 L580,30 L580,20 L660,15 L660,30 L742,30 L742,170 Z" fill="url(#i7p3p1warehouse)"/>
+  <!-- Iron structures -->
+  <g stroke="#1a0c04" stroke-width="0.7" opacity="0.85" fill="none">
+    <line x1="430" y1="50" x2="430" y2="170"/>
+    <line x1="490" y1="40" x2="490" y2="170"/>
+    <line x1="560" y1="40" x2="560" y2="170"/>
+    <line x1="640" y1="35" x2="640" y2="170"/>
+    <line x1="720" y1="40" x2="720" y2="170"/>
+  </g>
+  <!-- Iron structure (early crane silhouette far right) -->
+  <g stroke="#0a0408" stroke-width="0.85" opacity="0.85" fill="none">
+    <line x1="700" y1="20" x2="700" y2="60"/>
+    <line x1="700" y1="20" x2="730" y2="50"/>
+    <line x1="700" y1="40" x2="720" y2="50"/>
+  </g>
+  <!-- Few warehouse windows (industrial — fewer warm lights) -->
+  <rect x="520" y="80" width="20" height="40" fill="#1a0c04" stroke="#0a0408" stroke-width="0.4"/>
+  <line x1="520" y1="100" x2="540" y2="100" stroke="#0a0408" stroke-width="0.55"/>
+  <line x1="530" y1="80" x2="530" y2="120" stroke="#0a0408" stroke-width="0.55"/>
+  <rect x="600" y="70" width="20" height="40" fill="#1a0c04" stroke="#0a0408" stroke-width="0.4"/>
+  <line x1="600" y1="90" x2="620" y2="90" stroke="#0a0408" stroke-width="0.55"/>
+  <line x1="610" y1="70" x2="610" y2="110" stroke="#0a0408" stroke-width="0.55"/>
+  <!-- Industrial chimneys (taller than Clerkenwell) -->
+  <rect x="500" y="0" width="6" height="30" fill="#0a0408"/>
+  <rect x="560" y="0" width="6" height="40" fill="#0a0408"/>
+  <rect x="640" y="0" width="6" height="35" fill="#0a0408"/>
+  <!-- Smoke from chimneys -->
+  <ellipse cx="503" cy="6" rx="14" ry="6" fill="#5a5560" opacity="0.7" filter="url(#i7p3p1glow)"/>
+  <ellipse cx="563" cy="4" rx="18" ry="8" fill="#5a5560" opacity="0.7" filter="url(#i7p3p1glow)"/>
+
+  <!-- River fog wash on right (creeping in from waterfront) -->
+  <ellipse cx="742" cy="120" rx="240" ry="120" fill="url(#i7p3p1riverFog)" filter="url(#i7p3p1strongglow)"/>
+
+  <!-- Road / cobble -->
+  <rect x="0" y="170" width="742" height="110" fill="url(#i7p3p1road)"/>
+  <g stroke="#1a0c08" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,200 L742,200"/>
+    <path d="M0,230 L742,230"/>
+    <path d="M0,260 L742,260"/>
+  </g>
+  <!-- Cobble pattern -->
+  <g stroke="#080604" stroke-width="0.3" opacity="0.55" fill="none">
+    <line x1="40" y1="180" x2="40" y2="200"/>
+    <line x1="100" y1="180" x2="100" y2="200"/>
+    <line x1="160" y1="180" x2="160" y2="200"/>
+    <line x1="220" y1="180" x2="220" y2="200"/>
+    <line x1="280" y1="180" x2="280" y2="200"/>
+    <line x1="340" y1="180" x2="340" y2="200"/>
+    <line x1="60" y1="210" x2="60" y2="230"/>
+    <line x1="140" y1="210" x2="140" y2="230"/>
+    <line x1="220" y1="210" x2="220" y2="230"/>
+    <line x1="300" y1="210" x2="300" y2="230"/>
+    <line x1="380" y1="210" x2="380" y2="230"/>
+    <line x1="100" y1="240" x2="100" y2="260"/>
+    <line x1="200" y1="240" x2="200" y2="260"/>
+    <line x1="300" y1="240" x2="300" y2="260"/>
+    <line x1="400" y1="240" x2="400" y2="260"/>
+  </g>
+
+  <!-- ===== PEDESTRIANS — silhouettes ===== -->
+  <!-- Lady with parasol (left) -->
+  <g transform="translate(150 220)">
+    <ellipse cx="0" cy="58" rx="6" ry="2" fill="#000" opacity="0.55"/>
+    <path d="M-6,56 L-3,30 L-3,-6 L3,-6 L3,30 L6,56 Z" fill="#3a2818"/>
+    <ellipse cx="0" cy="-12" rx="4" ry="5" fill="#5a3a28"/>
+    <!-- Bonnet -->
+    <path d="M-6,-14 Q0,-22 6,-14 L6,-8 Q0,-12 -6,-8 Z" fill="#1a0c04"/>
+  </g>
+  <!-- Working man (mid) -->
+  <g transform="translate(310 220)">
+    <ellipse cx="0" cy="58" rx="7" ry="2" fill="#000" opacity="0.55"/>
+    <path d="M-6,56 L-4,20 L-2,-6 L2,-6 L4,20 L6,56 Z" fill="#3a2818"/>
+    <ellipse cx="0" cy="-12" rx="4" ry="5" fill="#5a3a28"/>
+    <!-- Cap -->
+    <path d="M-5,-14 Q0,-18 5,-14 L5,-12 L-5,-12 Z" fill="#1a0c04"/>
+  </g>
+  <!-- Cart (far) -->
+  <g transform="translate(560 230)">
+    <rect x="-22" y="-20" width="44" height="20" fill="#3a2418" stroke="#1a0c04" stroke-width="0.55"/>
+    <circle cx="-14" cy="6" r="6" fill="none" stroke="#1a0c04" stroke-width="0.85"/>
+    <line x1="-14" y1="0" x2="-14" y2="12" stroke="#1a0c04" stroke-width="0.55"/>
+    <line x1="-20" y1="6" x2="-8" y2="6" stroke="#1a0c04" stroke-width="0.55"/>
+    <circle cx="14" cy="6" r="6" fill="none" stroke="#1a0c04" stroke-width="0.85"/>
+    <!-- Horse silhouette ahead -->
+    <path d="M22,-12 L40,-14 L48,-10 L48,4 L42,8 L36,4 L36,-4 L24,-2 Z" fill="#1a0c04"/>
+  </g>
+
+  <!-- ===== THEODORE — center, mid-stride right ===== -->
+  <g transform="translate(371 240)">
+    <ellipse cx="0" cy="22" rx="14" ry="2" fill="#000" opacity="0.7"/>
+    <!-- Boots, mid-stride -->
+    <ellipse cx="-7" cy="20" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="9" cy="22" rx="5" ry="2" fill="#1a0c04"/>
+    <!-- Trousers -->
+    <path d="M-9,18 L-12,-10 L-4,-30 L0,-10 Z" fill="#3a3028"/>
+    <path d="M9,20 L12,-12 L4,-26 L0,-10 Z" fill="#3a3028"/>
+    <!-- Knee patch -->
+    <rect x="-7" y="-12" width="6" height="6" fill="#5a3018" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- Waistcoat / linen -->
+    <path d="M-12,-30 L-12,-70 L12,-70 L12,-30 Z" fill="#d4c4a8"/>
+    <path d="M-14,-68 L-12,-30 L-2,-30 L-2,-68 Z" fill="#5a3018"/>
+    <path d="M14,-68 L12,-30 L2,-30 L2,-68 Z" fill="#5a3018"/>
+    <circle cx="-2" cy="-58" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-50" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-42" r="0.85" fill="#3a1808"/>
+
+    <!-- Linen collar -->
+    <path d="M-7,-70 L0,-68 L7,-70 L7,-66 L0,-63 L-7,-66 Z" fill="#e0d4b8"/>
+
+    <!-- POCKET (Jink hidden inside) -->
+    <rect x="3" y="-64" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.4"/>
+    <ellipse cx="9" cy="-58" rx="3" ry="2" fill="#5af0a0" opacity="0.4" filter="url(#i7p3p1bloom)"/>
+
+    <!-- CANVAS SATCHEL strap across chest -->
+    <path d="M-12,-68 L18,-30" stroke="#a89878" stroke-width="3"/>
+    <line x1="-12" y1="-68" x2="18" y2="-30" stroke="#7a6048" stroke-width="0.55"/>
+    <!-- Satchel body at hip -->
+    <rect x="14" y="-28" width="22" height="20" fill="#a89878" stroke="#7a6048" stroke-width="0.7"/>
+    <line x1="14" y1="-22" x2="36" y2="-22" stroke="#7a6048" stroke-width="0.55"/>
+    <rect x="22" y="-30" width="6" height="4" fill="#7a6048"/>
+
+    <!-- LEFT hand adjusting strap (visible) -->
+    <path d="M-12,-66 L-22,-50 L-14,-44 L-6,-58 Z" fill="#5a3018"/>
+    <ellipse cx="-22" cy="-50" rx="3.5" ry="2" fill="#a87838"/>
+    <!-- Brass gear ring -->
+    <circle cx="-22" cy="-50" r="1.4" fill="none" stroke="#d89858" stroke-width="0.55" filter="url(#i7p3p1bloom)"/>
+
+    <!-- RIGHT hand at side -->
+    <path d="M14,-66 L20,-44 L18,-30 L12,-44 Z" fill="#5a3018"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-84" rx="10" ry="11" fill="#a87838"/>
+    <path d="M-9,-94 Q-6,-102 0,-104 Q6,-102 9,-94 L9,-86 Q6,-90 0,-90 Q-6,-90 -9,-86 Z" fill="#9a7038"/>
+    <!-- Eyes — determined, forward -->
+    <ellipse cx="-3" cy="-84" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="3" cy="-84" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-84" r="0.7" fill="#5a3818"/>
+    <circle cx="3" cy="-84" r="0.7" fill="#5a3818"/>
+    <!-- Brow set -->
+    <path d="M-7,-90 L0,-90" stroke="#5a3018" stroke-width="0.55"/>
+    <path d="M7,-90 L0,-90" stroke="#5a3018" stroke-width="0.55"/>
+    <!-- Mouth -->
+    <line x1="-2" y1="-76" x2="2" y2="-76" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- Caption -->
+  <g>
+    <rect x="14" y="14" width="280" height="34" rx="2" fill="#f5ecd8" stroke="#5a4a30" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">Late afternoon. Five hours before</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">the operation.</text>
+
+  <!-- THEODORE thought caption -->
+  <g>
+    <rect x="448" y="14" width="280" height="34" rx="2" fill="#f5ecd8" stroke="#6a4220" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="456" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(thinking)</tspan></text>
+  <text x="456" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">Prentiss &amp; Hall. Off Tooley Street.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,210 Q200,212 400,208 Q580,206 742,210"/>
+  </g>
+</svg>
