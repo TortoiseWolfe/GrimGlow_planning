@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 551" width="742" height="551">
+  <title>Issue 6 — Page 9 — Panel 1: Titan shadow at the far end of the street — wrongness in the fog</title>
+  <desc>28mm medium wide eye level looking up narrow street into fog. Theodore crouching foreground at basement window unaware. At far end ~200ft away: vertical shape, darker than fog, too tall too still, faint dark iridescence at edges, fog parting around it slightly. The reader sees what Theodore does not.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p9p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#605850"/>
+      <stop offset="50%" stop-color="#403830"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i6p9p1bldgL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i6p9p1bldgR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="i6p9p1fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#605850" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#2a2420" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p9p1fogVoid" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#605850" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#403830" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2a2420" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p9p1lampDist" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p9p1titanVoid" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0410" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#1a0c20" stop-opacity="0.95"/>
+      <stop offset="90%" stop-color="#3a1828" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3a78" stop-opacity="0.25"/>
+    </radialGradient>
+    <radialGradient id="i6p9p1titanIridescence" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a0c20" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5a3a78" stop-opacity="0.45"/>
+      <stop offset="80%" stop-color="#3a1828" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a0c20" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p9p1theoWaistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p9p1theoTrousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <filter id="i6p9p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p9p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i6p9p1heavyBlur"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="742" height="551" fill="url(#i6p9p1bg)"/>
+
+  <!-- Sky band: heavy fog dominant upper third -->
+  <rect width="742" height="180" fill="#605850"/>
+  <ellipse cx="371" cy="160" rx="500" ry="180" fill="url(#i6p9p1fog)" filter="url(#i6p9p1glow)" opacity="0.95"/>
+
+  <!-- LEFT building wall (close, looms over Theodore) -->
+  <rect x="0" y="120" width="200" height="380" fill="url(#i6p9p1bldgL)"/>
+  <rect x="0" y="120" width="200" height="80" fill="url(#i6p9p1fog)" opacity="0.7"/>
+  <g stroke="#0a0408" stroke-width="0.55" opacity="0.85">
+    <line x1="0" y1="200" x2="200" y2="200"/>
+    <line x1="0" y1="240" x2="200" y2="240"/>
+    <line x1="0" y1="280" x2="200" y2="280"/>
+    <line x1="0" y1="320" x2="200" y2="320"/>
+    <line x1="0" y1="360" x2="200" y2="360"/>
+    <line x1="0" y1="400" x2="200" y2="400"/>
+    <line x1="0" y1="440" x2="200" y2="440"/>
+    <line x1="0" y1="480" x2="200" y2="480"/>
+  </g>
+  <g stroke="#0a0408" stroke-width="2.4" opacity="0.55" fill="none">
+    <line x1="60" y1="120" x2="60" y2="500"/>
+    <line x1="120" y1="120" x2="120" y2="500"/>
+    <line x1="180" y1="120" x2="180" y2="500"/>
+  </g>
+  <!-- Windows -->
+  <g fill="#0a0408" stroke="#1a1008" stroke-width="0.55">
+    <rect x="20" y="220" width="20" height="28"/>
+    <rect x="80" y="220" width="20" height="28"/>
+    <rect x="140" y="220" width="20" height="28"/>
+    <rect x="20" y="290" width="20" height="28"/>
+    <rect x="80" y="290" width="20" height="28"/>
+    <rect x="140" y="290" width="20" height="28"/>
+    <rect x="20" y="370" width="20" height="28"/>
+    <rect x="80" y="370" width="20" height="28"/>
+    <rect x="140" y="370" width="20" height="28"/>
+  </g>
+
+  <!-- RIGHT building wall (where Theodore + window are) -->
+  <rect x="540" y="120" width="202" height="380" fill="url(#i6p9p1bldgR)"/>
+  <rect x="540" y="120" width="202" height="80" fill="url(#i6p9p1fog)" opacity="0.7"/>
+  <g stroke="#0a0408" stroke-width="0.55" opacity="0.85">
+    <line x1="540" y1="200" x2="742" y2="200"/>
+    <line x1="540" y1="240" x2="742" y2="240"/>
+    <line x1="540" y1="280" x2="742" y2="280"/>
+    <line x1="540" y1="320" x2="742" y2="320"/>
+    <line x1="540" y1="360" x2="742" y2="360"/>
+    <line x1="540" y1="400" x2="742" y2="400"/>
+    <line x1="540" y1="440" x2="742" y2="440"/>
+  </g>
+  <g stroke="#0a0408" stroke-width="2.4" opacity="0.55" fill="none">
+    <line x1="580" y1="120" x2="580" y2="500"/>
+    <line x1="650" y1="120" x2="650" y2="500"/>
+    <line x1="720" y1="120" x2="720" y2="500"/>
+  </g>
+
+  <!-- DISTANT GAS LAMP, single, dim — left-mid -->
+  <g transform="translate(280 280)">
+    <ellipse cx="0" cy="0" rx="34" ry="60" fill="url(#i6p9p1lampDist)" filter="url(#i6p9p1glow)"/>
+    <rect x="-2" y="0" width="4" height="40" fill="#1a1410"/>
+    <rect x="-5" y="-22" width="10" height="14" fill="#3a2818" stroke="#1a1008" stroke-width="0.55"/>
+    <rect x="-3" y="-20" width="6" height="11" fill="#ffaa48" filter="url(#i6p9p1bloom)" opacity="0.95"/>
+  </g>
+
+  <!-- Vanishing point — narrowing street into deep fog -->
+  <polygon points="200,180 540,180 460,500 280,500" fill="#1a0c08"/>
+  <ellipse cx="370" cy="280" rx="200" ry="180" fill="url(#i6p9p1fog)" filter="url(#i6p9p1glow)" opacity="0.95"/>
+  <!-- Distant building shadows in fog -->
+  <rect x="240" y="200" width="40" height="180" fill="#403830" opacity="0.55"/>
+  <rect x="280" y="190" width="40" height="180" fill="#3a3028" opacity="0.5"/>
+  <rect x="430" y="195" width="40" height="180" fill="#3a3028" opacity="0.5"/>
+  <rect x="470" y="200" width="40" height="180" fill="#403830" opacity="0.55"/>
+  <!-- Far building shapes lost in fog -->
+  <rect x="320" y="180" width="40" height="160" fill="#3a3028" opacity="0.4"/>
+  <rect x="380" y="180" width="40" height="160" fill="#3a3028" opacity="0.4"/>
+
+  <!-- ===== TITAN SHADOW — far end center, wrongness in fog ===== -->
+  <g transform="translate(371 290)">
+    <!-- Outer iridescent margin halo (oil-on-water, bruise-purple) -->
+    <ellipse cx="0" cy="0" rx="22" ry="64" fill="url(#i6p9p1titanIridescence)" filter="url(#i6p9p1glow)"/>
+    <!-- Fog parting — slight outward push at margins -->
+    <ellipse cx="0" cy="0" rx="34" ry="80" fill="url(#i6p9p1fogVoid)" opacity="0.45" filter="url(#i6p9p1glow)"/>
+    <!-- Core void — vertical shape too tall, too still -->
+    <path d="M-8,-50 L-6,-48 L-6,40 L-8,46 L-10,46 L-12,40 L-12,-48 L-10,-50 Z" fill="url(#i6p9p1titanVoid)"/>
+    <path d="M8,-50 L6,-48 L6,40 L8,46 L10,46 L12,40 L12,-48 L10,-50 Z" fill="url(#i6p9p1titanVoid)"/>
+    <rect x="-12" y="-50" width="24" height="96" fill="url(#i6p9p1titanVoid)"/>
+    <!-- Top — tapered "head" suggestion (uncertain, could be a chimney) -->
+    <path d="M-12,-50 Q-9,-66 0,-68 Q9,-66 12,-50 Z" fill="url(#i6p9p1titanVoid)"/>
+    <!-- Bottom — wider base barely defined -->
+    <path d="M-12,46 Q-15,52 -9,56 L9,56 Q15,52 12,46 Z" fill="url(#i6p9p1titanVoid)"/>
+
+    <!-- Faint dark iridescence at edges (bruise-purple shimmer) -->
+    <line x1="-12" y1="-50" x2="-12" y2="46" stroke="#5a3a78" stroke-width="0.85" opacity="0.55" filter="url(#i6p9p1bloom)"/>
+    <line x1="12" y1="-50" x2="12" y2="46" stroke="#5a3a78" stroke-width="0.85" opacity="0.55" filter="url(#i6p9p1bloom)"/>
+    <path d="M-12,-50 Q-9,-66 0,-68 Q9,-66 12,-50" stroke="#3a1828" stroke-width="0.7" fill="none" opacity="0.55" filter="url(#i6p9p1bloom)"/>
+    <path d="M-12,46 Q-15,52 -9,56 L9,56 Q15,52 12,46" stroke="#3a1828" stroke-width="0.7" fill="none" opacity="0.55" filter="url(#i6p9p1bloom)"/>
+
+    <!-- Subtle vertical iridescent striations (oil-water) -->
+    <line x1="-7" y1="-40" x2="-7" y2="40" stroke="#5a3a78" stroke-width="0.4" opacity="0.45" filter="url(#i6p9p1bloom)"/>
+    <line x1="0" y1="-44" x2="0" y2="44" stroke="#3a1828" stroke-width="0.4" opacity="0.45" filter="url(#i6p9p1bloom)"/>
+    <line x1="7" y1="-40" x2="7" y2="40" stroke="#5a3a78" stroke-width="0.4" opacity="0.45" filter="url(#i6p9p1bloom)"/>
+  </g>
+
+  <!-- COBBLES foreground -->
+  <rect x="0" y="500" width="742" height="51" fill="#1a1410"/>
+  <g stroke="#0a0408" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,512 Q200,510 400,512 Q580,514 742,512"/>
+    <path d="M0,524 Q200,522 400,524 Q580,526 742,524"/>
+    <path d="M0,538 Q200,536 400,538 Q580,540 742,538"/>
+  </g>
+
+  <!-- ===== BASEMENT WINDOW at right — Theodore crouching at it ===== -->
+  <g transform="translate(620 480)">
+    <!-- Window frame -->
+    <rect x="-44" y="-22" width="88" height="42" fill="#3a2818" stroke="#1a0c04" stroke-width="1.4"/>
+    <rect x="-40" y="-18" width="80" height="34" fill="#0a0408"/>
+    <!-- Bent bars -->
+    <path d="M-30,-22 Q-18,-6 -26,8 Q-30,14 -26,18" stroke="#1a0c04" stroke-width="2.4" fill="none"/>
+    <path d="M-12,-22 Q-2,-4 -8,10 Q-12,16 -8,18" stroke="#1a0c04" stroke-width="2.4" fill="none"/>
+    <path d="M8,-22 Q18,-2 12,12 Q6,16 10,18" stroke="#1a0c04" stroke-width="2.4" fill="none"/>
+    <path d="M28,-22 Q40,-2 32,14 Q22,18 30,18" stroke="#1a0c04" stroke-width="2.4" fill="none"/>
+    <!-- Highlights on bars -->
+    <path d="M-18,-2 L-22,4" stroke="#5a4838" stroke-width="0.7" opacity="0.85"/>
+    <path d="M0,2 L-4,8" stroke="#5a4838" stroke-width="0.7" opacity="0.85"/>
+    <path d="M14,4 L10,10" stroke="#5a4838" stroke-width="0.7" opacity="0.85"/>
+    <path d="M34,4 L30,10" stroke="#5a4838" stroke-width="0.7" opacity="0.85"/>
+  </g>
+
+  <!-- ===== THEODORE — crouching at basement window, eyes DOWN ===== -->
+  <g transform="translate(560 500)">
+    <!-- Boots -->
+    <ellipse cx="-9" cy="0" rx="11" ry="3" fill="#1a0c04"/>
+    <ellipse cx="11" cy="0" rx="11" ry="3" fill="#1a0c04"/>
+    <!-- Crouched legs (bent at knees, shorter visible) -->
+    <path d="M-12,-30 L-2,-30 L-12,0 L-22,0 Z" fill="url(#i6p9p1theoTrousers)"/>
+    <path d="M2,-30 L12,-30 L18,0 L8,0 Z" fill="url(#i6p9p1theoTrousers)"/>
+    <rect x="-12" y="-22" width="9" height="9" fill="#5a3018" stroke="#3a1808" stroke-width="0.45" opacity="0.85"/>
+    <rect x="3" y="-22" width="9" height="9" fill="#5a3018" stroke="#3a1808" stroke-width="0.45" opacity="0.85"/>
+    <rect x="-12" y="-30" width="22" height="3" fill="#3a1808"/>
+    <!-- Torso (compressed by crouch — top closer to legs) -->
+    <path d="M-13,-92 L-12,-30 L13,-30 L14,-92 Z" fill="#d4c4a8"/>
+    <path d="M-15,-90 L-13,-30 L-2,-30 L-2,-90 Z" fill="url(#i6p9p1theoWaistcoat)"/>
+    <path d="M14,-90 L15,-30 L2,-30 L2,-90 Z" fill="url(#i6p9p1theoWaistcoat)"/>
+    <!-- Pocket -->
+    <rect x="3" y="-82" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <path d="M3,-82 L14,-82 L14,-78 L3,-78 Z" fill="#5a3018" stroke="#1a0c04" stroke-width="0.4"/>
+    <rect x="5" y="-78" width="7" height="9" fill="#5a3ad8" opacity="0.55" filter="url(#i6p9p1bloom)"/>
+    <ellipse cx="9" cy="-73" rx="9" ry="6" fill="#a888ff" opacity="0.55" filter="url(#i6p9p1glow)"/>
+    <!-- Buttons -->
+    <circle cx="-2" cy="-74" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-58" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-44" r="0.85" fill="#3a1808"/>
+    <!-- Linen collar -->
+    <path d="M-7,-92 L0,-90 L7,-92 L7,-88 L0,-86 L-7,-88 Z" fill="#e0d4b8"/>
+    <!-- Arms — reaching forward toward window (crouched + leaning) -->
+    <path d="M-15,-90 L-22,-72 L-30,-50 L-22,-46 L-12,-58 L-12,-72 Z" fill="url(#i6p9p1theoWaistcoat)"/>
+    <path d="M14,-90 L20,-72 L26,-50 L20,-46 L12,-58 L12,-72 Z" fill="url(#i6p9p1theoWaistcoat)"/>
+    <ellipse cx="-30" cy="-50" rx="2.4" ry="1.4" fill="#a87838"/>
+    <ellipse cx="26" cy="-50" rx="2.4" ry="1.4" fill="#a87838"/>
+    <circle cx="-30" cy="-51" r="0.7" fill="#c89058" filter="url(#i6p9p1bloom)" opacity="0.85"/>
+    <!-- Head — tilted DOWN at window (eyes on bars, NOT looking up street) -->
+    <rect x="-3" y="-100" width="6" height="8" fill="#a87838"/>
+    <ellipse cx="0" cy="-110" rx="13" ry="14" fill="#a87838"/>
+    <path d="M-12,-118 Q-9,-126 0,-128 Q9,-126 12,-118 L12,-110 Q8,-114 0,-114 Q-8,-114 -12,-110 Z" fill="#9a7038"/>
+    <path d="M-7,-124 L-5,-128 L-8,-128 Z" fill="#9a7038"/>
+    <path d="M5,-124 L7,-128 L4,-128 Z" fill="#9a7038"/>
+    <!-- Eyes looking down -->
+    <ellipse cx="-3" cy="-108" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="-3" cy="-107" r="0.7" fill="#5a3818"/>
+    <ellipse cx="3" cy="-108" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="3" cy="-107" r="0.7" fill="#5a3818"/>
+    <!-- Brows level (concentrating on window) -->
+    <path d="M-7,-114 L-2,-114" stroke="#5a3018" stroke-width="0.55"/>
+    <path d="M2,-114 L7,-114" stroke="#5a3018" stroke-width="0.55"/>
+    <!-- Mouth -->
+    <path d="M-3,-100 L3,-100" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q200,202 400,198 Q580,196 742,200"/>
+    <path d="M0,480 Q200,482 400,478 Q580,476 742,480"/>
+  </g>
+</svg>

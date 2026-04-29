@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 291 551" width="291" height="551">
+  <title>Issue 6 — Page 9 — Panel 4: Theodore frozen — fights instinct to look up street, jaw clenched, eyes forward</title>
+  <desc>50mm MCU eye level. Theodore's face — heard Luma's whisper, starts to turn but stops. Frozen. Effort of holding still. Eyes wide, looking straight ahead, jaw clenched. The discipline of not looking. Faintest blue-violet pocket glow.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p9p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#605850"/>
+      <stop offset="100%" stop-color="#3a3430"/>
+    </linearGradient>
+    <linearGradient id="i6p9p4linen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0d4b8"/>
+      <stop offset="100%" stop-color="#a8987c"/>
+    </linearGradient>
+    <linearGradient id="i6p9p4leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <radialGradient id="i6p9p4chinGlow" cx="50%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p9p4fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#605850" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a3430" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p9p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p9p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="291" height="551" fill="url(#i6p9p4bg)"/>
+
+  <!-- Faint fog haze background -->
+  <ellipse cx="145" cy="280" rx="240" ry="280" fill="url(#i6p9p4fog)" filter="url(#i6p9p4glow)"/>
+
+  <!-- Distant background brick barely visible -->
+  <rect x="0" y="80" width="60" height="220" fill="#3a3028" opacity="0.45"/>
+  <rect x="231" y="80" width="60" height="220" fill="#3a3028" opacity="0.45"/>
+  <g fill="#1a1008" opacity="0.45">
+    <rect x="14" y="160" width="14" height="20"/>
+    <rect x="40" y="160" width="14" height="20"/>
+    <rect x="240" y="160" width="14" height="20"/>
+    <rect x="266" y="160" width="14" height="20"/>
+  </g>
+
+  <!-- ===== THEODORE — large face filling frame, facing FORWARD (frozen, not turning) ===== -->
+  <!-- Linen collar bottom -->
+  <path d="M0,460 L130,440 L160,440 L291,460 L291,551 L0,551 Z" fill="url(#i6p9p4linen)"/>
+  <g stroke="#7a6c4e" stroke-width="0.55" opacity="0.7" fill="none">
+    <line x1="20" y1="500" x2="271" y2="500"/>
+    <line x1="20" y1="525" x2="271" y2="525"/>
+  </g>
+  <!-- Waistcoat edges visible -->
+  <path d="M0,460 L40,452 L40,551 L0,551 Z" fill="url(#i6p9p4leather)"/>
+  <path d="M251,452 L291,460 L291,551 L251,551 Z" fill="url(#i6p9p4leather)"/>
+  <!-- Pocket on right side hint at bottom -->
+  <rect x="251" y="468" width="22" height="34" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+  <rect x="253" y="472" width="18" height="26" fill="#5a3ad8" opacity="0.55" filter="url(#i6p9p4bloom)"/>
+  <ellipse cx="262" cy="486" rx="22" ry="14" fill="#a888ff" opacity="0.45" filter="url(#i6p9p4glow)"/>
+
+  <g transform="translate(145 240)">
+    <!-- Neck -->
+    <path d="M-32,162 L32,162 L36,200 L-36,200 Z" fill="#a87838"/>
+
+    <!-- HEAD — straight on (NOT turning) -->
+    <ellipse cx="0" cy="0" rx="120" ry="148" fill="#a87838"/>
+    <!-- Cheek volumes -->
+    <ellipse cx="-65" cy="40" rx="22" ry="36" fill="#8a5828" opacity="0.55"/>
+    <ellipse cx="65" cy="40" rx="22" ry="36" fill="#8a5828" opacity="0.55"/>
+    <!-- Forehead light -->
+    <ellipse cx="0" cy="-90" rx="50" ry="14" fill="#c0905a" opacity="0.55"/>
+
+    <!-- HAIR — sandy-brown, untidy -->
+    <path d="M-105,-50 Q-100,-110 -50,-130 Q0,-138 50,-130 Q100,-110 105,-50 L100,-20 Q60,-60 0,-60 Q-60,-60 -100,-20 Z" fill="#9a7038"/>
+    <path d="M-30,-128 L-25,-138 L-20,-128 Z" fill="#9a7038"/>
+    <path d="M-5,-138 L0,-148 L5,-138 Z" fill="#9a7038"/>
+    <path d="M20,-130 L26,-140 L32,-128 Z" fill="#9a7038"/>
+    <path d="M45,-122 L52,-130 L58,-118 Z" fill="#9a7038"/>
+    <!-- Hair edges -->
+    <path d="M-90,-30 Q-100,-10 -86,30" stroke="#7a5028" stroke-width="0.7" fill="none" opacity="0.55"/>
+    <path d="M90,-30 Q100,-10 86,30" stroke="#7a5028" stroke-width="0.7" fill="none" opacity="0.55"/>
+
+    <!-- EYES — WIDE, LOCKED FORWARD (not shifted to side) -->
+    <ellipse cx="-32" cy="0" rx="14" ry="6" fill="#fff8e8"/>
+    <ellipse cx="-32" cy="0" rx="11" ry="4" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="-32" cy="0" r="4" fill="#5a3818"/>
+    <circle cx="-31" cy="-1" r="1" fill="#fff8ff"/>
+    <ellipse cx="32" cy="0" rx="14" ry="6" fill="#fff8e8"/>
+    <ellipse cx="32" cy="0" rx="11" ry="4" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="32" cy="0" r="4" fill="#5a3818"/>
+    <circle cx="33" cy="-1" r="1" fill="#fff8ff"/>
+
+    <!-- Eyelid lines -->
+    <path d="M-44,-4 L-20,-3" stroke="#1a0c04" stroke-width="1.4"/>
+    <path d="M-44,4 L-20,3" stroke="#3a2018" stroke-width="0.85"/>
+    <path d="M20,-3 L44,-4" stroke="#1a0c04" stroke-width="1.4"/>
+    <path d="M20,3 L44,4" stroke="#3a2018" stroke-width="0.85"/>
+
+    <!-- Brows DOWN slightly + tense — fear held -->
+    <path d="M-46,-12 L-20,-14" stroke="#5a3018" stroke-width="2.4"/>
+    <path d="M20,-14 L46,-12" stroke="#5a3018" stroke-width="2.4"/>
+    <!-- Hard brow furrow -->
+    <line x1="-3" y1="-10" x2="-1" y2="0" stroke="#5a3018" stroke-width="0.85" opacity="0.85"/>
+    <line x1="3" y1="-10" x2="1" y2="0" stroke="#5a3018" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- FRECKLES -->
+    <circle cx="-22" cy="20" r="0.85" fill="#7a3018"/>
+    <circle cx="-12" cy="22" r="0.85" fill="#7a3018"/>
+    <circle cx="0" cy="24" r="0.85" fill="#7a3018"/>
+    <circle cx="12" cy="22" r="0.85" fill="#7a3018"/>
+    <circle cx="22" cy="20" r="0.85" fill="#7a3018"/>
+    <circle cx="-30" cy="14" r="0.55" fill="#7a3018"/>
+    <circle cx="30" cy="14" r="0.55" fill="#7a3018"/>
+
+    <!-- NOSE — flared nostril (controlled breathing) -->
+    <path d="M-2,4 L-6,30 L0,34 L6,30 L2,4 Z" fill="#7a4828" opacity="0.65"/>
+    <line x1="-6" y1="30" x2="6" y2="30" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+
+    <!-- MOUTH — pressed shut, jaw clenched -->
+    <path d="M-14,52 L14,52" stroke="#3a1808" stroke-width="2.4"/>
+    <path d="M-12,56 L12,56" stroke="#5a3018" stroke-width="0.7" opacity="0.55"/>
+    <!-- Jaw tension shadow -->
+    <ellipse cx="-30" cy="80" rx="14" ry="6" fill="#5a3018" opacity="0.55"/>
+    <ellipse cx="30" cy="80" rx="14" ry="6" fill="#5a3018" opacity="0.55"/>
+    <ellipse cx="0" cy="92" rx="34" ry="3" fill="#1a0c04" opacity="0.55"/>
+
+    <!-- Throat tension line -->
+    <line x1="-12" y1="172" x2="-14" y2="190" stroke="#5a3018" stroke-width="0.55" opacity="0.85"/>
+    <line x1="12" y1="172" x2="14" y2="190" stroke="#5a3018" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- BLUE-VIOLET reflection from pocket below catching chin/throat -->
+    <ellipse cx="0" cy="172" rx="56" ry="11" fill="url(#i6p9p4chinGlow)" filter="url(#i6p9p4bloom)"/>
+    <path d="M-30,158 Q0,168 30,158" stroke="#a888ff" stroke-width="1" fill="none" opacity="0.85" filter="url(#i6p9p4bloom)"/>
+  </g>
+
+  <!-- LUMA dialogue 1 (whispered) -->
+  <g>
+    <rect x="14" y="14" width="262" height="60" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="120,74 132,74 124,84" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="120.5" y1="74" x2="131.5" y2="74" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (whispered)</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410" font-style="italic">Don't look up the street.</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410" font-style="italic">Keep your eyes on the window.</text>
+
+  <!-- LUMA dialogue 2 -->
+  <g>
+    <rect x="14" y="84" width="262" height="74" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="120,158 132,158 124,168" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="120.5" y1="158" x2="131.5" y2="158" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="100" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="22" y="116" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410" font-style="italic">There is something at the far end</text>
+  <text x="22" y="130" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410" font-style="italic">of this street. It is very large.</text>
+  <text x="22" y="144" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410" font-style="italic">And it may be watching.</text>
+
+  <!-- THEODORE dialogue -->
+  <g>
+    <rect x="14" y="170" width="180" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="80,210 92,210 84,220" fill="white" stroke="#6a4220" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="80.5" y1="210" x2="91.5" y2="210" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="186" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700" font-style="italic">THEODORE (barely breathing)</text>
+  <text x="22" y="202" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410" font-style="italic">...what do I do?</text>
+
+  <!-- LUMA dialogue 3 -->
+  <g>
+    <rect x="14" y="220" width="262" height="60" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="120,280 132,280 124,290" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="120.5" y1="280" x2="131.5" y2="280" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="236" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="22" y="252" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410" font-style="italic">Walk. Slowly. Toward the basement</text>
+  <text x="22" y="266" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410" font-style="italic">entrance. Do not run.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,300 Q80,302 160,298 Q240,296 291,300"/>
+    <path d="M0,480 Q80,482 160,478 Q240,476 291,480"/>
+  </g>
+</svg>

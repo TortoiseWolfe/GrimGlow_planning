@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 551" width="140" height="551">
+  <title>Issue 6 — Page 9 — Panel 3: ECU — tiny hands, white-knuckle grip + flat-palm STOP signal</title>
+  <desc>100mm macro tight. Tiny South Asian hand gripping waistcoat fabric, white knuckles. Other tiny hand flat against pocket interior — military stop/hold signal. Blue-violet underglow.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p9p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a1808"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="i6p9p3leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p9p3lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p9p3underglow" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p9p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p9p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="140" height="551" fill="url(#i6p9p3bg)"/>
+
+  <!-- Heavy blue-violet underglow flooding pocket interior from below -->
+  <ellipse cx="70" cy="551" rx="180" ry="380" fill="url(#i6p9p3underglow)" filter="url(#i6p9p3glow)"/>
+
+  <!-- Worn leather pocket WALL filling background — close, large grain -->
+  <rect width="140" height="551" fill="url(#i6p9p3leather)"/>
+  <!-- Leather grain texture (large, this close) -->
+  <g stroke="#1a0c04" stroke-width="0.85" opacity="0.7" fill="none">
+    <path d="M0,40 Q40,46 80,42 Q120,38 140,42"/>
+    <path d="M0,90 Q40,94 80,90 Q120,86 140,90"/>
+    <path d="M0,160 Q40,166 80,162 Q120,158 140,162"/>
+    <path d="M0,230 Q40,234 80,230 Q120,226 140,230"/>
+    <path d="M0,300 Q40,304 80,300 Q120,296 140,300"/>
+    <path d="M0,400 Q40,404 80,400 Q120,396 140,400"/>
+    <path d="M0,480 Q40,484 80,480 Q120,476 140,480"/>
+  </g>
+  <!-- Wear scuffs/creases -->
+  <g stroke="#1a0c04" stroke-width="0.55" opacity="0.55" fill="none">
+    <path d="M30,60 Q40,200 50,400"/>
+    <path d="M100,80 Q110,240 120,440"/>
+    <path d="M60,300 Q70,360 80,420"/>
+  </g>
+  <!-- Lighter highlights on grain -->
+  <g stroke="#a8784c" stroke-width="0.4" opacity="0.45" fill="none">
+    <path d="M10,60 Q60,64 110,62"/>
+    <path d="M0,140 Q70,144 140,142"/>
+    <path d="M20,280 Q80,284 130,282"/>
+  </g>
+  <!-- Stitching (visible on edge) -->
+  <line x1="0" y1="20" x2="140" y2="20" stroke="#7a4818" stroke-width="0.55" opacity="0.85" stroke-dasharray="2 2"/>
+  <line x1="0" y1="510" x2="140" y2="510" stroke="#7a4818" stroke-width="0.55" opacity="0.85" stroke-dasharray="2 2"/>
+
+  <!-- ===== HAND 1 — gripping waistcoat fabric edge (white-knuckled) ===== -->
+  <!-- Top-right area: hand wrapped over fabric edge -->
+  <g transform="translate(80 140)">
+    <!-- Suit cuff at wrist -->
+    <path d="M-22,-26 L18,-26 L20,8 L-22,8 Z" fill="url(#i6p9p3lumaSuit)"/>
+    <line x1="-15" y1="-10" x2="14" y2="-10" stroke="#a888ff" stroke-width="1" opacity="0.85" filter="url(#i6p9p3bloom)"/>
+    <!-- Ink stain on cuff -->
+    <ellipse cx="-12" cy="-2" rx="4" ry="1.6" fill="#0a0604" opacity="0.55"/>
+    <!-- Brick dust newly accumulated -->
+    <ellipse cx="8" cy="0" rx="6" ry="2" fill="#5a3018" opacity="0.7"/>
+
+    <!-- Wrist -->
+    <path d="M-22,8 L20,8 L24,28 L-26,28 Z" fill="#7a4838"/>
+
+    <!-- HAND wrapped around fabric edge — fingers curling over -->
+    <!-- Palm/back of hand -->
+    <path d="M-26,28 L24,28 L34,72 L-30,72 Z" fill="#7a4838"/>
+    <!-- Knuckles edge highlights -->
+    <ellipse cx="-12" cy="40" rx="6" ry="3" fill="#5a3028" opacity="0.7"/>
+    <ellipse cx="0" cy="44" rx="6" ry="3" fill="#5a3028" opacity="0.7"/>
+    <ellipse cx="12" cy="44" rx="6" ry="3" fill="#5a3028" opacity="0.7"/>
+    <ellipse cx="22" cy="40" rx="6" ry="3" fill="#5a3028" opacity="0.7"/>
+
+    <!-- Fingers wrapping over fabric edge — visible as four short curls -->
+    <!-- Index finger -->
+    <path d="M-22,72 L-26,90 L-30,108 L-22,108 L-18,90 L-16,76 Z" fill="#7a4838"/>
+    <!-- Middle finger -->
+    <path d="M-8,72 L-10,92 L-12,114 L-2,114 L-2,92 L-2,76 Z" fill="#7a4838"/>
+    <!-- Ring finger -->
+    <path d="M6,72 L4,92 L4,114 L14,114 L16,92 L14,76 Z" fill="#7a4838"/>
+    <!-- Pinky -->
+    <path d="M20,72 L20,90 L24,106 L34,106 L34,90 L30,76 Z" fill="#7a4838"/>
+
+    <!-- WHITE-KNUCKLE highlights — tip whitening from grip pressure -->
+    <ellipse cx="-26" cy="100" rx="3" ry="2" fill="#a87838" opacity="0.95"/>
+    <ellipse cx="-7" cy="106" rx="3" ry="2" fill="#a87838" opacity="0.95"/>
+    <ellipse cx="9" cy="106" rx="3" ry="2" fill="#a87838" opacity="0.95"/>
+    <ellipse cx="27" cy="98" rx="3" ry="2" fill="#a87838" opacity="0.95"/>
+    <circle cx="-26" cy="100" r="1.2" fill="#fff8e8" opacity="0.85"/>
+    <circle cx="-7" cy="106" r="1.2" fill="#fff8e8" opacity="0.85"/>
+    <circle cx="9" cy="106" r="1.2" fill="#fff8e8" opacity="0.85"/>
+    <circle cx="27" cy="98" r="1.2" fill="#fff8e8" opacity="0.85"/>
+
+    <!-- Knuckle creases -->
+    <line x1="-30" y1="92" x2="-22" y2="92" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+    <line x1="-12" y1="96" x2="-2" y2="96" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+    <line x1="4" y1="96" x2="14" y2="96" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+    <line x1="20" y1="92" x2="32" y2="92" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+    <!-- Tendon strain on back of hand -->
+    <line x1="-12" y1="50" x2="-22" y2="78" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="0" y1="50" x2="-2" y2="80" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="12" y1="50" x2="14" y2="80" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="22" y1="50" x2="28" y2="80" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Fabric edge being gripped (worn leather lip) -->
+    <path d="M-30,72 L-30,80 L34,80 L34,72 Z" fill="#7a4818"/>
+    <line x1="-30" y1="76" x2="34" y2="76" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+  </g>
+
+  <!-- ===== HAND 2 — flat palm against pocket interior — STOP signal ===== -->
+  <g transform="translate(70 360)">
+    <!-- Wrist coming from off-frame top -->
+    <path d="M-22,-44 L22,-44 L24,-12 L-24,-12 Z" fill="url(#i6p9p3lumaSuit)"/>
+    <line x1="-15" y1="-30" x2="14" y2="-30" stroke="#a888ff" stroke-width="1" opacity="0.85" filter="url(#i6p9p3bloom)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="2" fill="#5a3018" opacity="0.55"/>
+
+    <!-- Hand FLAT, palm forward (stop signal) — fingers extended -->
+    <!-- Palm rectangle -->
+    <path d="M-24,-12 L24,-12 L28,38 L-28,38 Z" fill="#7a4838"/>
+    <!-- Palm creases -->
+    <path d="M-20,12 Q0,16 20,12" stroke="#5a3028" stroke-width="0.55" fill="none" opacity="0.85"/>
+    <path d="M-22,22 Q-2,26 18,22" stroke="#5a3028" stroke-width="0.55" fill="none" opacity="0.85"/>
+    <line x1="-16" y1="0" x2="-16" y2="32" stroke="#5a3028" stroke-width="0.55" opacity="0.7"/>
+    <line x1="0" y1="0" x2="0" y2="36" stroke="#5a3028" stroke-width="0.4" opacity="0.55"/>
+    <!-- Thumb -->
+    <path d="M-24,-12 L-38,2 L-36,18 L-26,22 L-24,8 Z" fill="#7a4838"/>
+    <ellipse cx="-34" cy="14" rx="2" ry="3" fill="#5a3028" opacity="0.7"/>
+    <!-- Four extended fingers above palm -->
+    <!-- Index -->
+    <path d="M-20,38 L-24,62 L-22,82 L-14,82 L-12,60 L-12,42 Z" fill="#7a4838"/>
+    <!-- Middle (tallest) -->
+    <path d="M-7,38 L-10,66 L-8,90 L0,90 L2,68 L2,42 Z" fill="#7a4838"/>
+    <!-- Ring -->
+    <path d="M6,38 L4,64 L6,86 L14,86 L16,64 L16,42 Z" fill="#7a4838"/>
+    <!-- Pinky (shortest) -->
+    <path d="M20,38 L18,58 L22,76 L30,76 L30,58 L28,42 Z" fill="#7a4838"/>
+
+    <!-- Knuckle joints -->
+    <line x1="-22" y1="62" x2="-14" y2="62" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="-9" y1="66" x2="2" y2="66" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="6" y1="64" x2="16" y2="64" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="20" y1="58" x2="30" y2="58" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Fingernails -->
+    <ellipse cx="-18" cy="78" rx="2" ry="1" fill="#a87838"/>
+    <ellipse cx="-4" cy="86" rx="2" ry="1" fill="#a87838"/>
+    <ellipse cx="10" cy="82" rx="2" ry="1" fill="#a87838"/>
+    <ellipse cx="24" cy="72" rx="2" ry="1" fill="#a87838"/>
+
+    <!-- Underglow catching palm/hand from blue-violet pocket light -->
+    <path d="M-24,-12 L24,-12 L28,38 L-28,38 Z" fill="#a888ff" opacity="0.18"/>
+  </g>
+
+  <!-- LUMA dialogue — TINY whisper -->
+  <g>
+    <rect x="14" y="14" width="112" height="36" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.55" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="2 2"/>
+    <polygon points="58,50 70,50 62,60" fill="white" stroke="#5a3ad8" stroke-width="0.55" stroke-dasharray="2 1.5"/>
+    <line x1="58.5" y1="50" x2="69.5" y2="50" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="28" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (whispered)</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">Theodore.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q40,202 80,198 Q120,196 140,200"/>
+    <path d="M0,480 Q40,482 80,478 Q120,476 140,480"/>
+  </g>
+</svg>
