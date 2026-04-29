@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 7 — Page 14 — Panel 4: Tension breaks — barge horn, keeper turns back, Wren moves immediately</title>
+  <desc>35mm medium wide eye level inside mechanism. Keeper boots on stairs descending then stopping pause. Sound from outside barge horn low long. Keeper turns. Goes back up. Boots recede across grating. Door opens cold air — keeper stepped outside gallery to check river. Wren exhales. Held breath releases. Single hard exhale. Then immediate motion no time relief only action descends.</desc>
+
+  <defs>
+    <linearGradient id="i7p14p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p14p4lampReceding" cx="80%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p14p4iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p14p4brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p14p4suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="i7p14p4toolMin" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p14p4doorOpen" cx="100%" cy="0%" r="50%">
+      <stop offset="0%" stop-color="#5a6878" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p14p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p14p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p14p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="742" height="320" fill="url(#i7p14p4bg)"/>
+
+  <!-- ===== GRATING above ===== -->
+  <rect x="0" y="0" width="742" height="40" fill="url(#i7p14p4iron)"/>
+  <g stroke="#5a5860" stroke-width="0.55" opacity="0.85" fill="none">
+    <path d="M0,20 L40,0 L80,20 L120,0 L160,20 L200,0 L240,20 L280,0 L320,20 L360,0 L400,20 L440,0 L480,20 L520,0 L560,20 L600,0 L640,20 L680,0 L720,20"/>
+    <path d="M0,20 L40,40 L80,20 L120,40 L160,20 L200,40 L240,20 L280,40 L320,20 L360,40 L400,20 L440,40 L480,20 L520,40 L560,20 L600,40 L640,20 L680,40 L720,20"/>
+  </g>
+
+  <!-- ===== DOOR OPEN at top right corner — cold air visible ===== -->
+  <g transform="translate(700 0)">
+    <rect x="-30" y="0" width="42" height="40" fill="url(#i7p14p4doorOpen)"/>
+    <line x1="-30" y1="0" x2="-30" y2="40" stroke="#0a0408" stroke-width="2"/>
+    <!-- Cold-air wisps -->
+    <g stroke="#a8c0e8" stroke-width="0.4" opacity="0.55" fill="none">
+      <path d="M-22,10 Q-12,8 0,10"/>
+      <path d="M-22,18 Q-12,16 0,18"/>
+      <path d="M-22,26 Q-12,24 0,26"/>
+    </g>
+  </g>
+
+  <!-- ===== KEEPER BOOTS RECEDING on grating (smaller, far right) ===== -->
+  <g transform="translate(640 0)" opacity="0.7">
+    <rect x="-30" y="0" width="40" height="40" fill="#1a0c04"/>
+  </g>
+
+  <!-- Lamp glow receding upper right -->
+  <ellipse cx="700" cy="0" rx="180" ry="100" fill="url(#i7p14p4lampReceding)" filter="url(#i7p14p4strongglow)"/>
+
+  <!-- ===== MECHANISM — brass gear visible ===== -->
+  <g transform="translate(540 200)">
+    <circle cx="0" cy="0" r="60" fill="url(#i7p14p4brass)" stroke="#5a3018" stroke-width="0.85" opacity="0.85"/>
+    <circle cx="0" cy="0" r="46" fill="none" stroke="#5a3018" stroke-width="0.55"/>
+    <circle cx="0" cy="0" r="11" fill="#5a3018"/>
+    <g stroke="#5a3018" stroke-width="0.4" fill="url(#i7p14p4brass)" opacity="0.85">
+      <rect x="-6" y="-66" width="12" height="9"/>
+      <rect x="-6" y="57" width="12" height="9"/>
+      <rect x="-66" y="-6" width="9" height="12"/>
+      <rect x="57" y="-6" width="9" height="12"/>
+    </g>
+    <line x1="0" y1="-46" x2="0" y2="46" stroke="#5a3018" stroke-width="0.4"/>
+    <line x1="-46" y1="0" x2="46" y2="0" stroke="#5a3018" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== STAIRS at right (where keeper paused) ===== -->
+  <g transform="translate(620 40)">
+    <!-- Stair treads -->
+    <rect x="-40" y="0" width="20" height="40" fill="url(#i7p14p4iron)" stroke="#0a0408" stroke-width="0.55"/>
+    <rect x="-20" y="40" width="20" height="40" fill="url(#i7p14p4iron)" stroke="#0a0408" stroke-width="0.55"/>
+    <rect x="0" y="80" width="20" height="40" fill="url(#i7p14p4iron)" stroke="#0a0408" stroke-width="0.55"/>
+    <rect x="20" y="120" width="20" height="40" fill="url(#i7p14p4iron)" stroke="#0a0408" stroke-width="0.55"/>
+  </g>
+
+  <!-- Iron structural members vertical -->
+  <line x1="100" y1="40" x2="100" y2="320" stroke="url(#i7p14p4iron)" stroke-width="9"/>
+  <line x1="380" y1="40" x2="380" y2="320" stroke="url(#i7p14p4iron)" stroke-width="9"/>
+
+  <!-- Cross-members -->
+  <rect x="0" y="180" width="500" height="9" fill="url(#i7p14p4iron)"/>
+
+  <!-- ===== WREN — DESCENDING, faint copper-gold tools at minimum power ===== -->
+  <g transform="translate(220 260)">
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.7"/>
+
+    <!-- Faint toolkit halo (minimum power) -->
+    <ellipse cx="0" cy="-30" rx="22" ry="22" fill="url(#i7p14p4toolMin)" filter="url(#i7p14p4strongglow)"/>
+
+    <!-- Boots mid-stride -->
+    <ellipse cx="-7" cy="-2" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="9" cy="-2" rx="5" ry="2" fill="#1a0c04"/>
+
+    <!-- Legs descending -->
+    <path d="M-9,-4 L-12,-30 L-2,-50 L0,-30 Z" fill="url(#i7p14p4suit)"/>
+    <path d="M9,-4 L12,-30 L2,-46 L0,-30 Z" fill="url(#i7p14p4suit)"/>
+    <ellipse cx="0" cy="-46" rx="6" ry="2" fill="#0a0604" opacity="0.95"/>
+
+    <!-- Torso forward leaning (descending) -->
+    <path d="M-12,-50 L-16,-80 L-9,-100 L9,-100 L16,-80 L12,-50 Z" fill="url(#i7p14p4suit)"/>
+    <line x1="0" y1="-100" x2="0" y2="-50" stroke="#f0c898" stroke-width="0.4" opacity="0.85" filter="url(#i7p14p4bloom)"/>
+
+    <!-- LENS HARNESS on back -->
+    <ellipse cx="-3" cy="-66" rx="22" ry="9" fill="#fff8c8" opacity="0.4" filter="url(#i7p14p4bloom)"/>
+    <line x1="-12" y1="-100" x2="-22" y2="-50" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- Arms reaching forward to next handhold -->
+    <path d="M-16,-80 L-30,-66 L-26,-50 L-12,-66 Z" fill="url(#i7p14p4suit)"/>
+    <ellipse cx="-30" cy="-58" rx="3" ry="2" fill="#a87838"/>
+    <path d="M16,-80 L30,-66 L26,-50 L12,-66 Z" fill="url(#i7p14p4suit)"/>
+    <ellipse cx="30" cy="-58" rx="3" ry="2" fill="#a87838"/>
+
+    <!-- Faint copper-gold tools orbiting hands (minimum power) -->
+    <g stroke="#ffd898" stroke-width="0.4" fill="none" opacity="0.7" filter="url(#i7p14p4bloom)">
+      <polygon points="-34,-58 -32,-62 -30,-58 -32,-54"/>
+      <polygon points="34,-58 32,-62 30,-58 32,-54"/>
+    </g>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-118" rx="9" ry="11" fill="#a87838"/>
+    <ellipse cx="0" cy="-130" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-7,-128 Q-5,-134 0,-135 Q5,-134 7,-128 L7,-124 Q4,-128 0,-128 Q-4,-128 -7,-124 Z" fill="#1a0a04"/>
+    <!-- Eyes — focused, moving (relief into action) -->
+    <ellipse cx="-3" cy="-118" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="3" cy="-118" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="-3" cy="-118" rx="0.85" ry="0.55" fill="#3a1808"/>
+    <ellipse cx="3" cy="-118" rx="0.85" ry="0.55" fill="#3a1808"/>
+    <!-- Brow furrowed focused -->
+    <path d="M-7,-126 Q-3,-128 0,-126" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M7,-126 Q3,-128 0,-126" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <!-- Mouth — open exhaling -->
+    <ellipse cx="0" cy="-110" rx="1" ry="0.7" fill="#3a1808"/>
+  </g>
+
+  <!-- SFX -->
+  <g>
+    <rect x="14" y="14" width="280" height="40" rx="2" fill="white" stroke="#1a1a1a" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" fill="#1a1a1a" font-weight="900" font-style="italic">*BRAAAAAAP*</text>
+
+  <!-- JINK comms -->
+  <g>
+    <rect x="320" y="14" width="280" height="50" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="440,64 452,64 444,76" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="328" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="328" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">He's turned around. Going to the gallery.</text>
+  <text x="328" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">You've got a window. Move.</text>
+
+  <!-- WREN -->
+  <g>
+    <rect x="620" y="14" width="106" height="40" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="628" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="628" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Moving.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q200,142 400,138 Q580,136 742,140"/>
+    <path d="M0,260 Q200,262 400,258 Q580,256 742,260"/>
+  </g>
+</svg>

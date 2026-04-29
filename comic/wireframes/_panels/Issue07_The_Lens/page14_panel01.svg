@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 340" width="742" height="340">
+  <title>Issue 7 — Page 14 — Panel 1: Wren freezes mid-descent — chair scrape, tools killed, total stillness</title>
+  <desc>35mm medium wide eye level inside lighthouse mechanism. Wren descending Fresnel assembly swap complete — original lens secured holographic carry-harness back. Practiced efficiency stepping over gear teeth ducking under counterweight. Above through grating keeper's chair scrapes — he is standing. Sound freezes Wren mid-step on gear tooth. Presses flat against iron structure holographic tools instantly killed going dark.</desc>
+
+  <defs>
+    <linearGradient id="i7p14p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p14p1lampMoving" cx="50%" cy="0%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p14p1iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p14p1brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p14p1suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="i7p14p1lensCarry" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p14p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p14p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p14p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="742" height="340" fill="url(#i7p14p1bg)"/>
+
+  <!-- ===== IRON GRATING above (top of frame) ===== -->
+  <rect x="0" y="0" width="742" height="40" fill="url(#i7p14p1iron)"/>
+  <!-- Diamond grating pattern -->
+  <g stroke="#5a5860" stroke-width="0.55" opacity="0.85" fill="none">
+    <path d="M0,20 L40,0 L80,20 L120,0 L160,20 L200,0 L240,20 L280,0 L320,20 L360,0 L400,20 L440,0 L480,20 L520,0 L560,20 L600,0 L640,20 L680,0 L720,20"/>
+    <path d="M0,20 L40,40 L80,20 L120,40 L160,20 L200,40 L240,20 L280,40 L320,20 L360,40 L400,20 L440,40 L480,20 L520,40 L560,20 L600,40 L640,20 L680,40 L720,20"/>
+  </g>
+
+  <!-- KEEPER BOOTS standing on grating (above) — visible as silhouette -->
+  <g transform="translate(371 0)">
+    <ellipse cx="-50" cy="40" rx="40" ry="6" fill="#000" opacity="0.85"/>
+    <ellipse cx="50" cy="40" rx="40" ry="6" fill="#000" opacity="0.85"/>
+    <!-- Boot fragments visible above frame top -->
+    <path d="M-90,40 L-90,0 L-10,0 L-10,40 Z" fill="#1a0c04" opacity="0.85"/>
+    <path d="M10,40 L10,0 L90,0 L90,40 Z" fill="#1a0c04" opacity="0.85"/>
+  </g>
+
+  <!-- ===== KEEPER'S OIL LAMP — moving (warm circle on grating) ===== -->
+  <ellipse cx="500" cy="40" rx="100" ry="40" fill="url(#i7p14p1lampMoving)" filter="url(#i7p14p1strongglow)"/>
+  <!-- Lamp swinging shadows (sharp diagonals beneath) -->
+  <g opacity="0.4">
+    <path d="M460,40 L420,340 L440,340 L480,40 Z" fill="#000"/>
+    <path d="M540,40 L580,340 L560,340 L520,40 Z" fill="#000"/>
+  </g>
+
+  <!-- ===== MECHANISM LEVEL — brass gears and iron structures ===== -->
+  <!-- Large gear (mid-frame, rotating) -->
+  <g transform="translate(220 220)">
+    <circle cx="0" cy="0" r="80" fill="url(#i7p14p1brass)" stroke="#5a3018" stroke-width="0.85" opacity="0.85"/>
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#5a3018" stroke-width="0.7"/>
+    <circle cx="0" cy="0" r="14" fill="#5a3018"/>
+    <!-- Gear teeth -->
+    <g stroke="#5a3018" stroke-width="0.55" fill="url(#i7p14p1brass)" opacity="0.85">
+      <rect x="-9" y="-90" width="18" height="14"/>
+      <rect x="-9" y="76" width="18" height="14"/>
+      <rect x="-90" y="-9" width="14" height="18"/>
+      <rect x="76" y="-9" width="14" height="18"/>
+    </g>
+    <!-- Spokes -->
+    <line x1="0" y1="-65" x2="0" y2="65" stroke="#5a3018" stroke-width="0.55"/>
+    <line x1="-65" y1="0" x2="65" y2="0" stroke="#5a3018" stroke-width="0.55"/>
+  </g>
+
+  <!-- Iron cross-member (where Wren is frozen) -->
+  <line x1="100" y1="170" x2="600" y2="170" stroke="url(#i7p14p1iron)" stroke-width="9"/>
+  <line x1="100" y1="170" x2="600" y2="170" stroke="#5a5860" stroke-width="0.55" opacity="0.55" filter="url(#i7p14p1bloom)"/>
+
+  <!-- Counterweight hanging on chain (right side) -->
+  <line x1="540" y1="40" x2="540" y2="200" stroke="#1a1818" stroke-width="2"/>
+  <rect x="528" y="200" width="24" height="60" fill="url(#i7p14p1iron)" stroke="#0a0408" stroke-width="0.85"/>
+  <line x1="540" y1="220" x2="540" y2="260" stroke="#0a0408" stroke-width="0.55"/>
+
+  <!-- ===== WREN — pressed flat against iron, frozen mid-step ===== -->
+  <g transform="translate(360 170)">
+    <!-- Body frozen mid-step -->
+    <!-- Boots on gear tooth (one foot extended) -->
+    <ellipse cx="-7" cy="0" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="9" cy="0" rx="5" ry="2" fill="#1a0c04"/>
+
+    <!-- Legs — mid-stride frozen -->
+    <path d="M-9,-2 L-12,-30 L-2,-46 L0,-30 Z" fill="url(#i7p14p1suit)"/>
+    <path d="M9,-2 L12,-30 L4,-50 L-2,-30 Z" fill="url(#i7p14p1suit)"/>
+    <ellipse cx="0" cy="-46" rx="6" ry="2" fill="#0a0604" opacity="0.95"/>
+
+    <!-- Torso pressed FLAT against iron -->
+    <path d="M-12,-46 L-16,-80 L-9,-100 L9,-100 L16,-80 L12,-46 Z" fill="url(#i7p14p1suit)"/>
+    <line x1="0" y1="-100" x2="0" y2="-46" stroke="#f0c898" stroke-width="0.4" opacity="0.85" filter="url(#i7p14p1bloom)"/>
+    <ellipse cx="-12" cy="-66" rx="5" ry="2" fill="#0a0604" opacity="0.85"/>
+
+    <!-- LENS HARNESS on back (extracted lens secured) -->
+    <ellipse cx="-3" cy="-66" rx="22" ry="9" fill="url(#i7p14p1lensCarry)" filter="url(#i7p14p1bloom)" opacity="0.55"/>
+    <ellipse cx="-3" cy="-66" rx="22" ry="9" fill="none" stroke="#fff8c8" stroke-width="0.55" opacity="0.7" filter="url(#i7p14p1bloom)"/>
+    <line x1="-12" y1="-100" x2="-22" y2="-46" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="12" y1="-100" x2="22" y2="-46" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- LEFT arm gripping gear tooth (above) -->
+    <path d="M-16,-80 L-30,-90 L-30,-100 L-22,-86 Z" fill="url(#i7p14p1suit)"/>
+    <ellipse cx="-30" cy="-95" rx="4" ry="2" fill="#a87838"/>
+    <!-- RIGHT arm pressed against iron -->
+    <path d="M16,-80 L30,-72 L26,-50 L14,-66 Z" fill="url(#i7p14p1suit)"/>
+
+    <!-- NO HOLOGRAPHIC GLOW — tools killed, going dark -->
+
+    <!-- Head — looking UP toward grating (frozen) -->
+    <ellipse cx="0" cy="-118" rx="9" ry="11" fill="#a87838"/>
+    <ellipse cx="0" cy="-130" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-7,-128 Q-5,-134 0,-135 Q5,-134 7,-128 L7,-124 Q4,-128 0,-128 Q-4,-128 -7,-124 Z" fill="#1a0a04"/>
+
+    <!-- Eyes WIDE looking UP -->
+    <ellipse cx="-3" cy="-118" rx="2" ry="1.4" fill="#fff"/>
+    <ellipse cx="3" cy="-118" rx="2" ry="1.4" fill="#fff"/>
+    <ellipse cx="-3" cy="-120" rx="1" ry="0.85" fill="#3a1808"/>
+    <ellipse cx="3" cy="-120" rx="1" ry="0.85" fill="#3a1808"/>
+    <circle cx="-3" cy="-120" r="0.4" fill="#fff"/>
+    <circle cx="3" cy="-120" r="0.4" fill="#fff"/>
+
+    <!-- Brow tense, drawn tight -->
+    <path d="M-7,-126 Q-3,-128 0,-126" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+    <path d="M7,-126 Q3,-128 0,-126" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+    <!-- Mouth — pressed flat, NOT BREATHING -->
+    <line x1="-3" y1="-110" x2="3" y2="-110" stroke="#1a0c04" stroke-width="0.85"/>
+  </g>
+
+  <!-- SFX -->
+  <g>
+    <rect x="14" y="14" width="240" height="40" rx="2" fill="white" stroke="#1a1a1a" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" fill="#1a1a1a" font-weight="900" font-style="italic">*SCRAAAPE*</text>
+
+  <!-- JINK comms urgent -->
+  <g>
+    <rect x="280" y="14" width="240" height="40" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="380,54 392,54 384,64" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="288" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(urgent whisper)</tspan></text>
+  <text x="288" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Keeper's up. He's moving. Wren —</text>
+
+  <!-- WREN -->
+  <g>
+    <rect x="546" y="14" width="180" height="40" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="554" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(barely a breath)</tspan></text>
+  <text x="554" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I see him.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q200,182 400,178 Q580,176 742,180"/>
+    <path d="M0,300 Q200,302 400,298 Q580,296 742,300"/>
+  </g>
+</svg>

@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 340" width="366" height="340">
+  <title>Issue 7 — Page 14 — Panel 3: Jink on gallery — grin tight, ready for diversion, scout reading the picture</title>
+  <desc>50mm medium close-up gallery exterior. Jink on iron gallery railing. Grin sharpened — operational tension. Monitoring keeper through lantern room glass behind. One hand cupped over comms earpiece. Wind whips hair. Lighthouse beam sweeps outward over black river behind. Ready to deploy wings create distraction improvise. Scout reading tactical picture.</desc>
+
+  <defs>
+    <linearGradient id="i7p14p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i7p14p3beamSweep" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p14p3lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p14p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p14p3suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p14p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i7p14p3glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="i7p14p3water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <filter id="i7p14p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p14p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p14p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p14p3megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="366" height="340" fill="url(#i7p14p3bg)"/>
+
+  <!-- BEAM SWEEP behind -->
+  <ellipse cx="280" cy="80" rx="280" ry="120" fill="url(#i7p14p3beamSweep)" filter="url(#i7p14p3megaglow)"/>
+
+  <!-- LANTERN ROOM GLASS background (Jink behind, monitoring keeper through it) -->
+  <g transform="translate(50 60)">
+    <rect x="-60" y="0" width="160" height="180" fill="url(#i7p14p3glass)" stroke="#0a0408" stroke-width="0.85"/>
+    <line x1="20" y1="0" x2="20" y2="180" stroke="#0a0408" stroke-width="1"/>
+    <line x1="-60" y1="90" x2="100" y2="90" stroke="#0a0408" stroke-width="1"/>
+    <!-- KEEPER silhouette through glass (warm lamp glow MOVING) -->
+    <ellipse cx="20" cy="100" rx="40" ry="40" fill="url(#i7p14p3lampGlow)" filter="url(#i7p14p3strongglow)"/>
+    <!-- Keeper body silhouette -->
+    <g opacity="0.7">
+      <path d="M-9,80 L-9,140 L9,140 L9,80 Z" fill="#1a1018"/>
+      <ellipse cx="0" cy="70" rx="9" ry="11" fill="#1a1018"/>
+    </g>
+  </g>
+
+  <!-- River below -->
+  <rect x="0" y="280" width="366" height="60" fill="url(#i7p14p3water)"/>
+  <g opacity="0.55" filter="url(#i7p14p3bloom)">
+    <ellipse cx="280" cy="300" rx="40" ry="2" fill="#ffd898"/>
+    <ellipse cx="280" cy="310" rx="30" ry="1.4" fill="#ffd898"/>
+  </g>
+
+  <!-- ===== IRON GALLERY RAILING ===== -->
+  <rect x="0" y="240" width="366" height="14" fill="url(#i7p14p3iron)"/>
+  <line x1="0" y1="240" x2="366" y2="240" stroke="#5a5860" stroke-width="0.7" filter="url(#i7p14p3bloom)" opacity="0.85"/>
+  <!-- Posts -->
+  <line x1="40" y1="254" x2="40" y2="340" stroke="#0a0408" stroke-width="2"/>
+  <line x1="120" y1="254" x2="120" y2="340" stroke="#0a0408" stroke-width="2"/>
+  <line x1="240" y1="254" x2="240" y2="340" stroke="#0a0408" stroke-width="2"/>
+  <line x1="346" y1="254" x2="346" y2="340" stroke="#0a0408" stroke-width="2"/>
+
+  <!-- ===== JINK on railing, hand cupped over comms ear ===== -->
+  <g transform="translate(220 240)">
+    <!-- Wing seams glow -->
+    <line x1="-7" y1="-22" x2="-12" y2="-3" stroke="#5af0a0" stroke-width="0.7" opacity="0.85" filter="url(#i7p14p3bloom)"/>
+    <line x1="7" y1="-22" x2="12" y2="-3" stroke="#5af0a0" stroke-width="0.7" opacity="0.85" filter="url(#i7p14p3bloom)"/>
+
+    <!-- Sitting on rail, legs dangling -->
+    <ellipse cx="0" cy="-3" rx="9" ry="3" fill="url(#i7p14p3suit)"/>
+    <path d="M-7,0 L-9,30 L-5,40 L0,30 Z" fill="url(#i7p14p3suit)"/>
+    <path d="M7,0 L9,30 L5,40 L0,30 Z" fill="url(#i7p14p3suit)"/>
+
+    <!-- Torso (slight forward lean — engaged) -->
+    <path d="M-9,-3 L-12,-30 L-7,-44 L7,-44 L12,-30 L9,-3 Z" fill="url(#i7p14p3suit)"/>
+    <line x1="0" y1="-44" x2="0" y2="-3" stroke="#a8ffd0" stroke-width="0.55" opacity="0.85" filter="url(#i7p14p3bloom)"/>
+    <!-- Soot streak -->
+    <path d="M-7,-22 L7,-18" stroke="#1a1410" stroke-width="2" opacity="0.85"/>
+    <!-- Copper-wire patch -->
+    <line x1="-12" y1="-14" x2="-9" y2="-14" stroke="#a87838" stroke-width="0.85" filter="url(#i7p14p3bloom)"/>
+
+    <!-- LEFT hand on rail -->
+    <path d="M-12,-30 L-22,-12 L-22,0 L-12,-12 Z" fill="url(#i7p14p3suit)"/>
+    <ellipse cx="-22" cy="-3" rx="3" ry="1.4" fill="url(#i7p14p3skin)"/>
+
+    <!-- RIGHT hand CUPPED over comms ear -->
+    <path d="M12,-30 L20,-40 L18,-50 L9,-46 Z" fill="url(#i7p14p3suit)"/>
+    <ellipse cx="18" cy="-46" rx="4" ry="3" fill="url(#i7p14p3skin)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-58" rx="9" ry="11" fill="url(#i7p14p3skin)"/>
+    <!-- Wild golden curls whipping in wind -->
+    <path d="M-9,-70 Q-7,-86 0,-88 Q9,-86 11,-70 L11,-64 Q9,-66 0,-66 Q-9,-66 -9,-64 Z" fill="#f0d878"/>
+    <circle cx="-9" cy="-80" r="3" fill="#f0d878"/>
+    <circle cx="9" cy="-78" r="3" fill="#f0d878"/>
+    <circle cx="0" cy="-86" r="2.4" fill="#f0d878"/>
+    <!-- Wind-blown trailing -->
+    <path d="M-11,-72 L-22,-66" stroke="#f0d878" stroke-width="1.4" fill="none"/>
+    <path d="M-9,-78 L-18,-72" stroke="#f0d878" stroke-width="1.4" fill="none"/>
+
+    <!-- Backlight on hair -->
+    <ellipse cx="0" cy="-86" rx="14" ry="3" fill="#ffd898" opacity="0.7" filter="url(#i7p14p3bloom)"/>
+
+    <!-- Eyes — narrowed, tracking through glass -->
+    <ellipse cx="-3" cy="-58" rx="2" ry="0.85" fill="#fff"/>
+    <ellipse cx="3" cy="-58" rx="2" ry="0.85" fill="#fff"/>
+    <ellipse cx="-2" cy="-58" rx="1" ry="0.7" fill="#1a4a28"/>
+    <ellipse cx="4" cy="-58" rx="1" ry="0.7" fill="#1a4a28"/>
+    <circle cx="-2" cy="-58" r="0.4" fill="#fff"/>
+    <circle cx="4" cy="-58" r="0.4" fill="#fff"/>
+
+    <!-- Brow lifted alert -->
+    <path d="M-7,-66 Q-3,-68 0,-66" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M7,-66 Q3,-68 0,-66" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+
+    <!-- THE GRIN — present but TIGHT (not wide) -->
+    <path d="M-5,-46 Q0,-43 5,-46" stroke="#3a1808" stroke-width="1" fill="none"/>
+    <path d="M-3,-45 Q0,-42 3,-45" stroke="#1a0c04" stroke-width="0.55" fill="none"/>
+
+    <!-- Comms ear glow under hand -->
+    <circle cx="14" cy="-58" r="0.85" fill="#5af0a0" filter="url(#i7p14p3bloom)" opacity="0.95"/>
+  </g>
+
+  <!-- JINK -->
+  <g>
+    <rect x="14" y="14" width="338" height="40" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="180,54 192,54 184,64" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I can bang the glass. Give him something to look at up here.</text>
+
+  <!-- SABLE -->
+  <g>
+    <rect x="14" y="290" width="338" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="306" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="320" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Hold. He may not descend.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q100,162 200,158 Q280,156 366,160"/>
+    <path d="M0,260 Q100,262 200,258 Q280,256 366,260"/>
+  </g>
+</svg>

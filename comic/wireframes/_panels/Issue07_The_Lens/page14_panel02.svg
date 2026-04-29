@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 340" width="366" height="340">
+  <title>Issue 7 — Page 14 — Panel 2: From below the grating — keeper's boots walking, oil lamp swings, Wren tracks with her eyes</title>
+  <desc>50mm medium shot from below looking up through grating. Keeper's boots walk across grating soles nailheads visible sharp detail. Oil lamp swings with movement casting warm amber light shifts swings across grating. Boots heading frame edge — stairs descending. Below grating Wren pressed iron member face tilted up eyes track boots absolute stillness.</desc>
+
+  <defs>
+    <linearGradient id="i7p14p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <linearGradient id="i7p14p2iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i7p14p2lampSwing" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p14p2boot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <linearGradient id="i7p14p2suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="i7p14p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i7p14p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p14p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p14p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="340" fill="url(#i7p14p2bg)"/>
+
+  <!-- ===== LAMP swinging — light from above through grating ===== -->
+  <ellipse cx="240" cy="0" rx="180" ry="180" fill="url(#i7p14p2lampSwing)" filter="url(#i7p14p2strongglow)"/>
+
+  <!-- ===== IRON GRATING — wide horizontal band, low angle showing UNDER ===== -->
+  <rect x="0" y="80" width="366" height="40" fill="url(#i7p14p2iron)"/>
+  <line x1="0" y1="80" x2="366" y2="80" stroke="#0a0408" stroke-width="2"/>
+  <line x1="0" y1="120" x2="366" y2="120" stroke="#0a0408" stroke-width="0.85"/>
+  <!-- Diamond grating from below (wider angle) -->
+  <g stroke="#5a5860" stroke-width="0.7" opacity="0.85" fill="none">
+    <path d="M0,90 L40,80 L80,90 L120,80 L160,90 L200,80 L240,90 L280,80 L320,90 L366,80"/>
+    <path d="M0,90 L40,100 L80,90 L120,100 L160,90 L200,100 L240,90 L280,100 L320,90 L366,100"/>
+    <path d="M0,110 L40,100 L80,110 L120,100 L160,110 L200,100 L240,110 L280,100 L320,110 L366,100"/>
+  </g>
+  <!-- Black gaps -->
+  <g fill="#000" opacity="0.85">
+    <polygon points="20,90 40,80 60,90 40,100"/>
+    <polygon points="100,90 120,80 140,90 120,100"/>
+    <polygon points="180,90 200,80 220,90 200,100"/>
+    <polygon points="260,90 280,80 300,90 280,100"/>
+    <polygon points="340,90 360,80 366,90 360,100"/>
+  </g>
+
+  <!-- ===== KEEPER'S BOOTS — walking across grating, mid-step ===== -->
+  <g transform="translate(140 80)">
+    <ellipse cx="0" cy="2" rx="50" ry="6" fill="#000" opacity="0.85"/>
+    <!-- Boot 1 (walking, lifted slightly) -->
+    <path d="M-40,-50 L-40,2 L20,2 L40,-12 L40,-50 Z" fill="url(#i7p14p2boot)"/>
+    <ellipse cx="30" cy="-12" rx="10" ry="8" fill="url(#i7p14p2boot)"/>
+    <!-- Sole with NAILHEADS visible (sharp detail) -->
+    <rect x="-40" y="-12" width="80" height="14" fill="#1a0c04"/>
+    <g fill="#a87838" filter="url(#i7p14p2bloom)" opacity="0.95">
+      <circle cx="-32" cy="-2" r="1.4"/>
+      <circle cx="-22" cy="0" r="1.4"/>
+      <circle cx="-12" cy="-2" r="1.4"/>
+      <circle cx="-2" cy="0" r="1.4"/>
+      <circle cx="8" cy="-2" r="1.4"/>
+      <circle cx="18" cy="0" r="1.4"/>
+      <circle cx="28" cy="-2" r="1.4"/>
+    </g>
+    <!-- Iron heel -->
+    <rect x="-40" y="-22" width="14" height="12" fill="#3a3838"/>
+    <!-- Leather grain -->
+    <line x1="-30" y1="-30" x2="30" y2="-22" stroke="#0a0408" stroke-width="0.55" opacity="0.85"/>
+    <!-- Boot laces visible -->
+    <line x1="-25" y1="-40" x2="25" y2="-40" stroke="#1a0c04" stroke-width="0.4"/>
+    <line x1="-22" y1="-32" x2="22" y2="-32" stroke="#1a0c04" stroke-width="0.4"/>
+  </g>
+
+  <!-- Second boot further right (back foot, planted) -->
+  <g transform="translate(280 80)">
+    <ellipse cx="0" cy="2" rx="40" ry="5" fill="#000" opacity="0.85"/>
+    <path d="M-30,-50 L-30,2 L20,2 L30,-9 L30,-50 Z" fill="url(#i7p14p2boot)"/>
+    <ellipse cx="22" cy="-9" rx="8" ry="6" fill="url(#i7p14p2boot)"/>
+    <rect x="-30" y="-9" width="60" height="11" fill="#1a0c04"/>
+    <g fill="#a87838" filter="url(#i7p14p2bloom)" opacity="0.85">
+      <circle cx="-22" cy="-2" r="1"/>
+      <circle cx="-12" cy="0" r="1"/>
+      <circle cx="-2" cy="-2" r="1"/>
+      <circle cx="8" cy="0" r="1"/>
+      <circle cx="18" cy="-2" r="1"/>
+    </g>
+    <rect x="-30" y="-18" width="11" height="9" fill="#3a3838"/>
+  </g>
+
+  <!-- Stairs at frame edge (RIGHT) -->
+  <g opacity="0.55">
+    <rect x="346" y="80" width="20" height="14" fill="url(#i7p14p2iron)"/>
+    <rect x="356" y="94" width="10" height="14" fill="url(#i7p14p2iron)"/>
+    <line x1="346" y1="80" x2="366" y2="80" stroke="#0a0408" stroke-width="0.85"/>
+    <line x1="346" y1="94" x2="366" y2="94" stroke="#0a0408" stroke-width="0.85"/>
+  </g>
+
+  <!-- ===== SHIFTING SHADOWS below grating from oil lamp swing ===== -->
+  <g opacity="0.85">
+    <path d="M120,120 L100,340 L130,340 L150,120 Z" fill="#000" opacity="0.55"/>
+    <path d="M260,120 L240,340 L270,340 L290,120 Z" fill="#000" opacity="0.55"/>
+  </g>
+
+  <!-- Iron member below -->
+  <line x1="0" y1="280" x2="366" y2="280" stroke="url(#i7p14p2iron)" stroke-width="9"/>
+
+  <!-- ===== WREN — pressed against iron member, face tilted UP ===== -->
+  <g transform="translate(180 280)">
+    <!-- Body lying flat against iron -->
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.7"/>
+    <ellipse cx="-7" cy="-3" rx="6" ry="2" fill="url(#i7p14p2suit)"/>
+    <ellipse cx="7" cy="-3" rx="6" ry="2" fill="url(#i7p14p2suit)"/>
+    <!-- Torso -->
+    <path d="M-12,-7 L-14,-22 L-9,-30 L9,-30 L14,-22 L12,-7 Z" fill="url(#i7p14p2suit)"/>
+    <!-- Heavy oil torso -->
+    <ellipse cx="-9" cy="-15" rx="3" ry="1" fill="#0a0604" opacity="0.85"/>
+
+    <!-- Head — TILTED UP eyes tracking boots above -->
+    <ellipse cx="0" cy="-40" rx="9" ry="11" fill="url(#i7p14p2skin)"/>
+
+    <!-- Lamp wash (shifting amber on her face) -->
+    <ellipse cx="0" cy="-40" rx="11" ry="9" fill="#ffd898" opacity="0.4" filter="url(#i7p14p2bloom)"/>
+
+    <ellipse cx="0" cy="-50" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-7,-50 Q-5,-55 0,-56 Q5,-55 7,-50 L7,-46 Q4,-50 0,-50 Q-4,-50 -7,-46 Z" fill="#1a0a04"/>
+
+    <!-- Eyes WIDE looking UP -->
+    <ellipse cx="-3" cy="-40" rx="2" ry="1.4" fill="#fff"/>
+    <ellipse cx="3" cy="-40" rx="2" ry="1.4" fill="#fff"/>
+    <ellipse cx="-3" cy="-42" rx="1" ry="0.85" fill="#3a1808"/>
+    <ellipse cx="3" cy="-42" rx="1" ry="0.85" fill="#3a1808"/>
+    <circle cx="-3" cy="-42" r="0.4" fill="#fff"/>
+    <circle cx="3" cy="-42" r="0.4" fill="#fff"/>
+
+    <!-- Brow tight -->
+    <path d="M-7,-48 Q-3,-50 0,-48" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+    <path d="M7,-48 Q3,-50 0,-48" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+    <!-- Mouth flat -->
+    <line x1="-3" y1="-32" x2="3" y2="-32" stroke="#1a0c04" stroke-width="0.85"/>
+  </g>
+
+  <!-- JINK -->
+  <g>
+    <rect x="14" y="14" width="320" height="40" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="160,54 172,54 164,64" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(comms, whispered)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">He's going for the stairs. Wren — coming your way.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q100,162 200,158 Q280,156 366,160"/>
+    <path d="M0,260 Q100,262 200,258 Q280,256 366,260"/>
+  </g>
+</svg>
