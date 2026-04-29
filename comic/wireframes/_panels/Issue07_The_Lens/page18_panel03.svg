@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 300" width="238" height="300">
+  <title>Issue 7 — Page 18 — Panel 3: Jink's hand white-knuckled on iron bolt head — physical fear, body betraying them</title>
+  <desc>85mm close-up Jink's hand light brown skin emerald suit gauntlet gripping gallery railing. Knuckles white. Grip not operational. Holding on because legs not trustworthy. Iron railing enormous relative to four-inch hand — Jink grips single bolt head fingers wrapped around it. White knuckles trembling. Emerald holographic accent at gauntlet wrist pulses unevenly — elevated biometrics.</desc>
+
+  <defs>
+    <linearGradient id="i7p18p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p18p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p18p3suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p18p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <radialGradient id="i7p18p3lampGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p18p3wristPulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5af0a0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a6838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p18p3bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p18p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p18p3strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect width="238" height="300" fill="url(#i7p18p3bg)"/>
+
+  <!-- Amber lighthouse glow behind -->
+  <ellipse cx="119" cy="60" rx="200" ry="80" fill="url(#i7p18p3lampGlow)" filter="url(#i7p18p3strongglow)"/>
+
+  <!-- ===== IRON RAILING (massive at fairy scale) ===== -->
+  <rect x="0" y="100" width="238" height="80" fill="url(#i7p18p3iron)"/>
+  <line x1="0" y1="100" x2="238" y2="100" stroke="#5a5860" stroke-width="0.85" filter="url(#i7p18p3bloom)" opacity="0.85"/>
+  <line x1="0" y1="180" x2="238" y2="180" stroke="#0a0408" stroke-width="0.85"/>
+  <!-- Iron texture -->
+  <g stroke="#0a0408" stroke-width="0.4" opacity="0.55" fill="none">
+    <line x1="0" y1="120" x2="238" y2="120"/>
+    <line x1="0" y1="140" x2="238" y2="140"/>
+    <line x1="0" y1="160" x2="238" y2="160"/>
+  </g>
+
+  <!-- ===== ENORMOUS IRON BOLT HEAD center ===== -->
+  <g transform="translate(119 140)">
+    <!-- Bolt base plate -->
+    <rect x="-50" y="-22" width="100" height="14" fill="#3a3838" stroke="#0a0408" stroke-width="0.55"/>
+    <!-- HEX bolt head -->
+    <polygon points="-30,-30 -15,-50 15,-50 30,-30 15,-10 -15,-10" fill="#5a5860" stroke="#0a0408" stroke-width="0.85"/>
+    <line x1="-15" y1="-50" x2="-15" y2="-10" stroke="#0a0408" stroke-width="0.55"/>
+    <line x1="15" y1="-50" x2="15" y2="-10" stroke="#0a0408" stroke-width="0.55"/>
+    <line x1="-30" y1="-30" x2="30" y2="-30" stroke="#0a0408" stroke-width="0.55"/>
+    <!-- Bolt highlight -->
+    <line x1="-26" y1="-32" x2="26" y2="-32" stroke="#a8b0c0" stroke-width="0.85" filter="url(#i7p18p3bloom)" opacity="0.85"/>
+    <!-- Rust streaks -->
+    <ellipse cx="-9" cy="-10" rx="6" ry="3" fill="#7a4828" opacity="0.7"/>
+    <ellipse cx="9" cy="-10" rx="6" ry="3" fill="#7a4828" opacity="0.7"/>
+    <line x1="-9" y1="-7" x2="-9" y2="14" stroke="#7a4828" stroke-width="0.85" opacity="0.55"/>
+    <line x1="9" y1="-7" x2="9" y2="14" stroke="#7a4828" stroke-width="0.85" opacity="0.55"/>
+  </g>
+
+  <!-- ===== HAND gripping bolt head ===== -->
+  <g transform="translate(119 100)">
+    <!-- Sleeve cuff (gauntlet) -->
+    <path d="M-30,-50 L-22,-80 L22,-80 L30,-50 L30,-30 L-30,-30 Z" fill="url(#i7p18p3suit)"/>
+    <!-- WRIST PULSE — uneven, elevated -->
+    <ellipse cx="0" cy="-40" rx="22" ry="9" fill="url(#i7p18p3wristPulse)" filter="url(#i7p18p3strongglow)"/>
+    <ellipse cx="-7" cy="-40" rx="9" ry="3" fill="#5af0a0" filter="url(#i7p18p3bloom)" opacity="0.85"/>
+    <ellipse cx="7" cy="-40" rx="6" ry="2" fill="#5af0a0" filter="url(#i7p18p3bloom)" opacity="0.55"/>
+    <!-- Gauntlet seam -->
+    <line x1="-30" y1="-50" x2="30" y2="-50" stroke="#1a6838" stroke-width="0.85"/>
+
+    <!-- Hand back -->
+    <path d="M-30,-30 L-30,30 L30,30 L30,-30 Z" fill="url(#i7p18p3skin)"/>
+    <!-- Tendons -->
+    <line x1="-22" y1="-22" x2="-22" y2="20" stroke="#5a3818" stroke-width="0.55" opacity="0.85"/>
+    <line x1="-9" y1="-22" x2="-9" y2="20" stroke="#5a3818" stroke-width="0.55" opacity="0.85"/>
+    <line x1="9" y1="-22" x2="9" y2="20" stroke="#5a3818" stroke-width="0.55" opacity="0.85"/>
+    <line x1="22" y1="-22" x2="22" y2="20" stroke="#5a3818" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Knuckles (forming the wrap around bolt below) -->
+    <ellipse cx="-22" cy="22" rx="4" ry="3" fill="url(#i7p18p3skin)"/>
+    <ellipse cx="-7" cy="22" rx="4" ry="3" fill="url(#i7p18p3skin)"/>
+    <ellipse cx="9" cy="22" rx="4" ry="3" fill="url(#i7p18p3skin)"/>
+    <ellipse cx="22" cy="22" rx="4" ry="3" fill="url(#i7p18p3skin)"/>
+
+    <!-- WHITE KNUCKLES — bright pale highlights -->
+    <ellipse cx="-22" cy="20" rx="3" ry="2" fill="#fff8e8" filter="url(#i7p18p3bloom)" opacity="0.95"/>
+    <ellipse cx="-7" cy="20" rx="3" ry="2" fill="#fff8e8" filter="url(#i7p18p3bloom)" opacity="0.95"/>
+    <ellipse cx="9" cy="20" rx="3" ry="2" fill="#fff8e8" filter="url(#i7p18p3bloom)" opacity="0.95"/>
+    <ellipse cx="22" cy="20" rx="3" ry="2" fill="#fff8e8" filter="url(#i7p18p3bloom)" opacity="0.95"/>
+
+    <!-- Fingers wrapped DOWN around bolt -->
+    <ellipse cx="-22" cy="40" rx="3" ry="14" fill="url(#i7p18p3skin)"/>
+    <ellipse cx="-9" cy="44" rx="3" ry="14" fill="url(#i7p18p3skin)"/>
+    <ellipse cx="9" cy="44" rx="3" ry="14" fill="url(#i7p18p3skin)"/>
+    <ellipse cx="22" cy="40" rx="3" ry="14" fill="url(#i7p18p3skin)"/>
+
+    <!-- Tremor lines (duplicate offsets) -->
+    <ellipse cx="-22.7" cy="40.7" rx="2.4" ry="13" fill="#a87838" opacity="0.4"/>
+    <ellipse cx="22.7" cy="40.7" rx="2.4" ry="13" fill="#a87838" opacity="0.4"/>
+  </g>
+
+  <!-- (No dialogue) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q60,142 120,138 Q180,136 238,140"/>
+    <path d="M0,240 Q60,242 120,238 Q180,236 238,240"/>
+  </g>
+</svg>

@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 7 — Page 18 — Panel 4: Jink's face — the grin is gone, the face beneath is younger, scared, late teens</title>
+  <desc>50mm medium close-up eye level Jink's face. Defining character moment of Issue 7. Grin gone. Not suppressed — gone. Face beneath grin younger than grin allowed. Looks late teens barely. Scared. Golden-brown eyes wide and wet. Wild blonde curly hair moves in wind. Comms earpiece glows faint emerald. Behind out of focus far bank shape. Voice flat humor stripped. Halting imprecise. Has no frame of reference for this. Never encountered something feels like this.</desc>
+
+  <defs>
+    <linearGradient id="i7p18p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i7p18p4beam" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p18p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i7p18p4suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <radialGradient id="i7p18p4voidBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0610" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#040208" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p18p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p18p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p18p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p18p4softfocus"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="i7p18p4wrongness"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="742" height="300" fill="url(#i7p18p4bg)"/>
+
+  <!-- ===== BACKGROUND (out of focus): far bank with void shape ===== -->
+  <g filter="url(#i7p18p4softfocus)">
+    <!-- Beam wash -->
+    <ellipse cx="540" cy="60" rx="280" ry="100" fill="url(#i7p18p4beam)" filter="url(#i7p18p4strongglow)"/>
+    <!-- Far bank silhouette -->
+    <g fill="#1a1410" opacity="0.7">
+      <rect x="0" y="80" width="100" height="60"/>
+      <rect x="120" y="60" width="100" height="80"/>
+      <rect x="240" y="80" width="80" height="60"/>
+      <rect x="500" y="60" width="100" height="80"/>
+      <rect x="620" y="80" width="122" height="60"/>
+    </g>
+    <!-- The void in soft focus -->
+    <g transform="translate(420 80)" filter="url(#i7p18p4wrongness)">
+      <ellipse cx="0" cy="20" rx="50" ry="60" fill="url(#i7p18p4voidBg)"/>
+      <path d="M-22,40 L-30,-20 L-22,-50 L0,-60 L22,-50 L30,-20 L22,40 Z" fill="#040208" opacity="0.85"/>
+      <ellipse cx="-22" cy="-20" rx="3" ry="22" fill="#3a1838" opacity="0.55"/>
+      <ellipse cx="22" cy="-20" rx="3" ry="22" fill="#3a1838" opacity="0.55"/>
+    </g>
+  </g>
+
+  <!-- ===== JINK'S FACE — fills frame ===== -->
+  <g transform="translate(371 280)">
+    <!-- Linen collar / suit at lower edge -->
+    <path d="M-200,30 L-100,0 L100,0 L200,30 L200,30 Z" fill="url(#i7p18p4suit)"/>
+    <!-- Soot streak across collar -->
+    <path d="M-100,8 L100,12" stroke="#1a1410" stroke-width="3" opacity="0.85"/>
+
+    <!-- Neck -->
+    <path d="M-22,-20 L-30,0 L30,0 L22,-20 Z" fill="url(#i7p18p4skin)"/>
+
+    <!-- HEAD -->
+    <ellipse cx="0" cy="-130" rx="120" ry="140" fill="url(#i7p18p4skin)"/>
+
+    <!-- WILD GOLDEN CURLS (wind-blown) -->
+    <path d="M-110,-220 Q-80,-260 0,-264 Q80,-260 110,-220 L110,-180 Q70,-220 0,-220 Q-70,-220 -110,-180 Z" fill="#f0d878"/>
+    <!-- Loose curls -->
+    <circle cx="-90" cy="-244" r="18" fill="#f0d878"/>
+    <circle cx="-50" cy="-258" r="14" fill="#f0d878"/>
+    <circle cx="-10" cy="-262" r="11" fill="#f0d878"/>
+    <circle cx="30" cy="-260" r="14" fill="#f0d878"/>
+    <circle cx="70" cy="-252" r="14" fill="#f0d878"/>
+    <circle cx="100" cy="-238" r="11" fill="#f0d878"/>
+    <!-- Wind-trailing strands -->
+    <path d="M-110,-220 L-130,-200" stroke="#f0d878" stroke-width="3" fill="none"/>
+    <path d="M-100,-240 L-120,-230" stroke="#f0d878" stroke-width="2" fill="none"/>
+
+    <!-- Cheekbones / face structure (younger, vulnerable) -->
+    <path d="M-100,-130 Q-80,-50 -40,-10" fill="none" stroke="#5a3018" stroke-width="1.4" opacity="0.7"/>
+    <path d="M100,-130 Q80,-50 40,-10" fill="none" stroke="#5a3018" stroke-width="1.4" opacity="0.7"/>
+
+    <!-- EYES WIDE — golden-brown, wet -->
+    <ellipse cx="-44" cy="-150" rx="26" ry="14" fill="#fff8e8"/>
+    <ellipse cx="44" cy="-150" rx="26" ry="14" fill="#fff8e8"/>
+    <!-- Wet sheen on eye -->
+    <path d="M-66,-156 Q-44,-162 -22,-156" stroke="#fff" stroke-width="1.4" fill="none" opacity="0.7"/>
+    <path d="M22,-156 Q44,-162 66,-156" stroke="#fff" stroke-width="1.4" fill="none" opacity="0.7"/>
+    <!-- Iris -->
+    <ellipse cx="-44" cy="-150" rx="14" ry="11" fill="#a87838"/>
+    <ellipse cx="44" cy="-150" rx="14" ry="11" fill="#a87838"/>
+    <ellipse cx="-44" cy="-150" rx="9" ry="7" fill="#7a4818"/>
+    <ellipse cx="44" cy="-150" rx="9" ry="7" fill="#7a4818"/>
+    <!-- Pupils dilated -->
+    <ellipse cx="-44" cy="-150" rx="6" ry="5" fill="#0a0c20"/>
+    <ellipse cx="44" cy="-150" rx="6" ry="5" fill="#0a0c20"/>
+    <!-- Catchlight tiny emerald (own wing-glow) -->
+    <circle cx="-46" cy="-152" r="2" fill="#5af0a0" filter="url(#i7p18p4bloom)" opacity="0.85"/>
+    <circle cx="42" cy="-152" r="2" fill="#5af0a0" filter="url(#i7p18p4bloom)" opacity="0.85"/>
+
+    <!-- Lower lash -->
+    <path d="M-66,-140 Q-44,-134 -22,-140" stroke="#3a1808" stroke-width="2" fill="none"/>
+    <path d="M22,-140 Q44,-134 66,-140" stroke="#3a1808" stroke-width="2" fill="none"/>
+
+    <!-- BROW — lifted, scared (not the operational sharp brow) -->
+    <path d="M-78,-180 Q-44,-198 -10,-180" stroke="#5a3018" stroke-width="3" fill="none"/>
+    <path d="M78,-180 Q44,-198 10,-180" stroke="#5a3018" stroke-width="3" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M-9,-140 L-12,-80 L0,-66 L12,-80 L9,-140 Z" fill="#a87838" opacity="0.7"/>
+    <ellipse cx="-3" cy="-66" rx="2" ry="1" fill="#3a1808"/>
+    <ellipse cx="3" cy="-66" rx="2" ry="1" fill="#3a1808"/>
+
+    <!-- MOUTH — slightly OPEN, no grin, lips parted -->
+    <ellipse cx="0" cy="-30" rx="22" ry="6" fill="#3a1808"/>
+    <line x1="-22" y1="-30" x2="22" y2="-30" stroke="#1a0c04" stroke-width="0.7"/>
+    <!-- Lower lip -->
+    <path d="M-22,-26 Q0,-22 22,-26" stroke="#5a3018" stroke-width="1.4" fill="none"/>
+
+    <!-- Comms earpiece glow -->
+    <circle cx="100" cy="-130" r="6" fill="#5af0a0" filter="url(#i7p18p4bloom)" opacity="0.95"/>
+
+    <!-- Backlight on hair from beam (briefly) -->
+    <ellipse cx="0" cy="-256" rx="80" ry="9" fill="#ffd898" opacity="0.55" filter="url(#i7p18p4bloom)"/>
+  </g>
+
+  <!-- JINK -->
+  <g>
+    <rect x="14" y="14" width="320" height="50" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="160,64 172,64 164,76" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">It's not invisible. It's... the fog is wrong</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">where it is. Like the light can't touch it.</text>
+
+  <!-- JINK 2 -->
+  <g>
+    <rect x="408" y="14" width="320" height="50" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="416" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="416" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">It moved. I don't know how. It was there,</text>
+  <text x="416" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">and then it was somewhere else.</text>
+
+  <!-- JINK 3 -->
+  <g>
+    <rect x="14" y="240" width="346" height="40" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="160,240 172,240 164,230" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="258" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="22" y="272" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-weight="700">Sable, it feels like it's looking at me.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q200,142 400,138 Q580,136 742,140"/>
+    <path d="M0,260 Q200,262 400,258 Q580,256 742,260"/>
+  </g>
+</svg>

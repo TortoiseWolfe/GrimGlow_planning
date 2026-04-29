@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 300" width="494" height="300">
+  <title>Issue 7 — Page 18 — Panel 2: Over Jink's shoulder — the void on the far bank, iridescence pulsing like breath</title>
+  <desc>50mm medium over Jink's shoulder and deployed wings looking at far bank. Closer framing shape more defined no less wrong. Occupies space between two warehouses. Darker than darkness around it. Iridescence at edges pulses — slow rhythmic like breathing. Fog moves past unchanged but shape does not belong to fog. Different layer of reality. Real. Not moving toward them — but iridescence pulses. Knows they are looking.</desc>
+
+  <defs>
+    <linearGradient id="i7p18p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p18p2water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p18p2farBank" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040204"/>
+    </linearGradient>
+    <linearGradient id="i7p18p2suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <radialGradient id="i7p18p2voidCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0610" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#040208" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p18p2beam" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p18p2iridescence" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1838" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#1a1838" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1838" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="i7p18p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p18p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p18p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p18p2megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="i7p18p2wrongness"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+
+  <rect width="494" height="300" fill="url(#i7p18p2bg)"/>
+
+  <!-- BEAM SWEEP across mid -->
+  <ellipse cx="380" cy="120" rx="200" ry="60" fill="url(#i7p18p2beam)" filter="url(#i7p18p2megaglow)"/>
+
+  <!-- ===== FAR BANK silhouette ===== -->
+  <g fill="url(#i7p18p2farBank)" opacity="0.95">
+    <rect x="0" y="100" width="80" height="100"/>
+    <rect x="100" y="80" width="80" height="120"/>
+    <!-- Gap where void stands -->
+    <rect x="280" y="80" width="80" height="120"/>
+    <rect x="380" y="100" width="60" height="100"/>
+    <rect x="460" y="90" width="34" height="110"/>
+  </g>
+  <!-- Far bank fog -->
+  <ellipse cx="247" cy="180" rx="320" ry="40" fill="#3a3a4a" opacity="0.4" filter="url(#i7p18p2strongglow)"/>
+
+  <!-- Distant amber gas lamps (gap where void is) -->
+  <g opacity="0.85" filter="url(#i7p18p2bloom)">
+    <circle cx="60" cy="160" r="0.85" fill="#d89858"/>
+    <circle cx="140" cy="150" r="0.85" fill="#d89858"/>
+    <!-- GAP at void location -->
+    <circle cx="320" cy="160" r="0.85" fill="#d89858"/>
+    <circle cx="420" cy="160" r="0.85" fill="#d89858"/>
+  </g>
+
+  <!-- ===== THE VOID — between warehouses, defined more in this panel ===== -->
+  <g transform="translate(225 130)">
+    <!-- Wrongness halo -->
+    <ellipse cx="0" cy="40" rx="80" ry="120" fill="url(#i7p18p2voidCore)" filter="url(#i7p18p2wrongness)"/>
+
+    <!-- Body of void -->
+    <path d="M-30,80 L-40,0 L-50,-60 L-40,-100 L0,-120 L40,-100 L50,-60 L40,0 L30,80 Z" fill="#040208" opacity="0.95"/>
+    <path d="M-40,0 L-50,-60 L0,-110 L50,-60 L40,0" fill="#0a0610" opacity="0.85"/>
+
+    <!-- IRIDESCENT EDGES — pulsing -->
+    <g opacity="0.85" filter="url(#i7p18p2wrongness)">
+      <path d="M-40,0 L-50,-60 L0,-110 L50,-60 L40,0" fill="url(#i7p18p2iridescence)"/>
+    </g>
+    <g filter="url(#i7p18p2bloom)" opacity="0.7">
+      <ellipse cx="-45" cy="-30" rx="6" ry="40" fill="#3a1838"/>
+      <ellipse cx="45" cy="-30" rx="6" ry="40" fill="#3a1838"/>
+      <ellipse cx="0" cy="-110" rx="32" ry="9" fill="#1a1838"/>
+    </g>
+
+    <!-- Anti-light tendrils -->
+    <g fill="#040208" opacity="0.55" filter="url(#i7p18p2wrongness)">
+      <ellipse cx="-60" cy="20" rx="14" ry="32"/>
+      <ellipse cx="60" cy="40" rx="14" ry="32"/>
+    </g>
+
+    <!-- Iridescence breathing pulse -->
+    <g stroke="#3a1838" stroke-width="0.55" fill="none" opacity="0.55" filter="url(#i7p18p2bloom)">
+      <path d="M-40,-60 Q0,-70 40,-60"/>
+      <path d="M-40,-30 Q0,-40 40,-30"/>
+      <path d="M-40,0 Q0,-10 40,0"/>
+      <path d="M-40,30 Q0,20 40,30"/>
+    </g>
+  </g>
+
+  <!-- River -->
+  <rect x="0" y="200" width="494" height="80" fill="url(#i7p18p2water)"/>
+  <!-- Water reflections -->
+  <g opacity="0.55" filter="url(#i7p18p2bloom)">
+    <ellipse cx="380" cy="240" rx="80" ry="3" fill="#ffd898"/>
+    <ellipse cx="380" cy="260" rx="60" ry="2" fill="#ffd898"/>
+  </g>
+  <!-- Void reflection — black blacker than water -->
+  <ellipse cx="225" cy="250" rx="60" ry="22" fill="#040208" opacity="0.85" filter="url(#i7p18p2wrongness)"/>
+
+  <!-- ===== JINK FOREGROUND over shoulder/wings ===== -->
+  <!-- Wing-pack (large, dominant frame) -->
+  <g opacity="0.85" filter="url(#i7p18p2bloom)">
+    <g stroke="#5af0a0" stroke-width="1.4" fill="none">
+      <path d="M40,280 L0,200 L-30,220 L0,280 L80,290 Z"/>
+      <line x1="0" y1="200" x2="0" y2="280"/>
+      <line x1="80" y1="290" x2="-30" y2="220"/>
+    </g>
+    <path d="M40,280 L0,200 L-30,220 L0,280 L80,290 Z" fill="#5af0a0" opacity="0.4"/>
+  </g>
+
+  <!-- Body/shoulder over which we look -->
+  <g transform="translate(80 290)">
+    <path d="M-60,10 L-66,-30 L-50,-60 L-30,-72 L-10,-66 L0,-30 L0,10 Z" fill="url(#i7p18p2suit)"/>
+    <line x1="-30" y1="-72" x2="-30" y2="0" stroke="#a8ffd0" stroke-width="0.55" opacity="0.85" filter="url(#i7p18p2bloom)"/>
+    <!-- Soot streak on shoulder -->
+    <path d="M-50,-40 L-10,-50" stroke="#1a1410" stroke-width="2" opacity="0.85"/>
+    <!-- Head visible at shoulder edge — back of head, hair -->
+    <ellipse cx="-30" cy="-86" rx="11" ry="14" fill="#a87838"/>
+    <path d="M-44,-100 Q-30,-114 -16,-100 L-16,-94 Q-22,-100 -30,-100 Q-38,-100 -44,-94 Z" fill="#f0d878"/>
+    <circle cx="-40" cy="-100" r="3" fill="#f0d878"/>
+    <circle cx="-22" cy="-100" r="3" fill="#f0d878"/>
+  </g>
+
+  <!-- SABLE -->
+  <g>
+    <rect x="14" y="14" width="280" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Jink. Report. What are you seeing?</text>
+
+  <!-- JINK -->
+  <g>
+    <rect x="14" y="64" width="280" height="40" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="80" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(flat, humor gone)</tspan></text>
+  <text x="22" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Something. On the far bank. It's wrong.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260"/>
+  </g>
+</svg>

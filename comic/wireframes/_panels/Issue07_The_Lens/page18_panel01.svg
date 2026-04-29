@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 140" width="742" height="140">
+  <title>Issue 7 — Page 18 — Panel 1: Extreme close-up — Jink's eyes wide with fear, the void reflected in the wet surface</title>
+  <desc>100mm macro extreme close-up Jink's eyes only filling panel width. Golden-brown irises wide with fear. Emerald holographic retinal display scrolling data at edges of iris. Reflected in eyes — far bank shape void. Dark iridescence reflected as faint oily shimmer wet eyes. Beat panel. Moment held. Titan reflected in fairy's eyes.</desc>
+
+  <defs>
+    <linearGradient id="i7p18p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <radialGradient id="i7p18p1eyeWet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e0d4b8" stop-opacity="0.85"/>
+    </radialGradient>
+    <radialGradient id="i7p18p1iris" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a87838"/>
+      <stop offset="60%" stop-color="#7a4818"/>
+      <stop offset="100%" stop-color="#3a2018"/>
+    </radialGradient>
+    <radialGradient id="i7p18p1pupil" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0c20"/>
+      <stop offset="100%" stop-color="#040208"/>
+    </radialGradient>
+    <radialGradient id="i7p18p1retinalGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5af0a0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a6838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p18p1voidReflection" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1838" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0a0410" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="i7p18p1bloom"><feGaussianBlur stdDeviation="0.85"/></filter>
+    <filter id="i7p18p1glow"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p18p1strongglow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- Skin/face background filling panel -->
+  <rect width="742" height="140" fill="url(#i7p18p1bg)"/>
+
+  <!-- Wild golden curls at upper edges -->
+  <g fill="#f0d878" opacity="0.85">
+    <ellipse cx="40" cy="0" rx="80" ry="40"/>
+    <ellipse cx="700" cy="0" rx="80" ry="40"/>
+    <ellipse cx="100" cy="-20" rx="60" ry="22"/>
+    <ellipse cx="640" cy="-20" rx="60" ry="22"/>
+  </g>
+  <!-- Curl details -->
+  <g fill="#f0d878" opacity="0.7">
+    <circle cx="80" cy="14" r="14"/>
+    <circle cx="120" cy="6" r="11"/>
+    <circle cx="660" cy="14" r="14"/>
+    <circle cx="620" cy="6" r="11"/>
+  </g>
+
+  <!-- Skin tone shadow at brows -->
+  <g fill="#7a4818" opacity="0.4">
+    <ellipse cx="220" cy="20" rx="80" ry="14"/>
+    <ellipse cx="520" cy="20" rx="80" ry="14"/>
+  </g>
+  <!-- Brow lines (lifted in fear) -->
+  <path d="M120,30 Q220,16 320,32" stroke="#5a3018" stroke-width="3" fill="none"/>
+  <path d="M422,32 Q520,16 622,30" stroke="#5a3018" stroke-width="3" fill="none"/>
+
+  <!-- Lashes upper -->
+  <g stroke="#3a1808" stroke-width="2" fill="none">
+    <line x1="140" y1="50" x2="140" y2="44"/>
+    <line x1="170" y1="48" x2="170" y2="42"/>
+    <line x1="200" y1="46" x2="200" y2="40"/>
+    <line x1="230" y1="46" x2="230" y2="40"/>
+    <line x1="260" y1="48" x2="260" y2="42"/>
+    <line x1="290" y1="50" x2="290" y2="44"/>
+    <line x1="450" y1="50" x2="450" y2="44"/>
+    <line x1="480" y1="48" x2="480" y2="42"/>
+    <line x1="510" y1="46" x2="510" y2="40"/>
+    <line x1="540" y1="46" x2="540" y2="40"/>
+    <line x1="570" y1="48" x2="570" y2="42"/>
+    <line x1="600" y1="50" x2="600" y2="44"/>
+  </g>
+
+  <!-- ===== LEFT EYE ===== -->
+  <g transform="translate(220 80)">
+    <!-- White of eye -->
+    <ellipse cx="0" cy="0" rx="80" ry="32" fill="url(#i7p18p1eyeWet)"/>
+    <!-- Wet sheen -->
+    <path d="M-60,-15 Q0,-25 60,-15" stroke="#fff" stroke-width="1.4" fill="none" opacity="0.55"/>
+    <!-- Iris -->
+    <circle cx="0" cy="0" r="32" fill="url(#i7p18p1iris)"/>
+    <!-- Iris detail -->
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#3a1808" stroke-width="0.55"/>
+    <g stroke="#5a3018" stroke-width="0.55" opacity="0.7">
+      <line x1="0" y1="-32" x2="0" y2="32"/>
+      <line x1="-32" y1="0" x2="32" y2="0"/>
+      <line x1="-22" y1="-22" x2="22" y2="22"/>
+      <line x1="22" y1="-22" x2="-22" y2="22"/>
+    </g>
+
+    <!-- EMERALD RETINAL DISPLAY at iris edge (scrolling data) -->
+    <g opacity="0.85" filter="url(#i7p18p1bloom)">
+      <ellipse cx="0" cy="0" rx="32" ry="32" fill="none" stroke="#5af0a0" stroke-width="0.85"/>
+      <text x="-22" y="-26" font-family="monospace" font-size="3" fill="#5af0a0">THREAT</text>
+      <text x="0" y="32" font-family="monospace" font-size="3" fill="#5af0a0">UNK</text>
+      <line x1="-30" y1="-9" x2="-22" y2="-9" stroke="#5af0a0" stroke-width="0.4"/>
+      <line x1="22" y1="-9" x2="30" y2="-9" stroke="#5af0a0" stroke-width="0.4"/>
+    </g>
+
+    <!-- PUPIL — DILATED -->
+    <circle cx="0" cy="0" r="14" fill="url(#i7p18p1pupil)"/>
+    <!-- VOID REFLECTED in pupil -->
+    <ellipse cx="0" cy="0" rx="11" ry="11" fill="url(#i7p18p1voidReflection)" filter="url(#i7p18p1strongglow)"/>
+    <!-- Iridescent shimmer reflected -->
+    <ellipse cx="0" cy="0" rx="9" ry="9" fill="none" stroke="#3a1838" stroke-width="0.55" opacity="0.7"/>
+
+    <!-- Catchlights — amber lighthouse + emerald wing -->
+    <circle cx="-9" cy="-9" r="3" fill="#ffd898" filter="url(#i7p18p1bloom)" opacity="0.85"/>
+    <circle cx="9" cy="-9" r="2" fill="#5af0a0" filter="url(#i7p18p1bloom)" opacity="0.85"/>
+
+    <!-- Lower lash -->
+    <path d="M-50,18 Q0,28 50,18" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+  </g>
+
+  <!-- ===== RIGHT EYE ===== -->
+  <g transform="translate(522 80)">
+    <ellipse cx="0" cy="0" rx="80" ry="32" fill="url(#i7p18p1eyeWet)"/>
+    <path d="M-60,-15 Q0,-25 60,-15" stroke="#fff" stroke-width="1.4" fill="none" opacity="0.55"/>
+    <circle cx="0" cy="0" r="32" fill="url(#i7p18p1iris)"/>
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#3a1808" stroke-width="0.55"/>
+    <g stroke="#5a3018" stroke-width="0.55" opacity="0.7">
+      <line x1="0" y1="-32" x2="0" y2="32"/>
+      <line x1="-32" y1="0" x2="32" y2="0"/>
+      <line x1="-22" y1="-22" x2="22" y2="22"/>
+      <line x1="22" y1="-22" x2="-22" y2="22"/>
+    </g>
+
+    <g opacity="0.85" filter="url(#i7p18p1bloom)">
+      <ellipse cx="0" cy="0" rx="32" ry="32" fill="none" stroke="#5af0a0" stroke-width="0.85"/>
+      <text x="-30" y="-26" font-family="monospace" font-size="3" fill="#5af0a0">DIST</text>
+      <text x="-9" y="32" font-family="monospace" font-size="3" fill="#5af0a0">UNREAD</text>
+      <line x1="-30" y1="-9" x2="-22" y2="-9" stroke="#5af0a0" stroke-width="0.4"/>
+      <line x1="22" y1="-9" x2="30" y2="-9" stroke="#5af0a0" stroke-width="0.4"/>
+    </g>
+
+    <circle cx="0" cy="0" r="14" fill="url(#i7p18p1pupil)"/>
+    <ellipse cx="0" cy="0" rx="11" ry="11" fill="url(#i7p18p1voidReflection)" filter="url(#i7p18p1strongglow)"/>
+    <ellipse cx="0" cy="0" rx="9" ry="9" fill="none" stroke="#3a1838" stroke-width="0.55" opacity="0.7"/>
+
+    <circle cx="-9" cy="-9" r="3" fill="#ffd898" filter="url(#i7p18p1bloom)" opacity="0.85"/>
+    <circle cx="9" cy="-9" r="2" fill="#5af0a0" filter="url(#i7p18p1bloom)" opacity="0.85"/>
+
+    <path d="M-50,18 Q0,28 50,18" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+  </g>
+
+  <!-- Nose bridge between eyes -->
+  <path d="M371,40 L368,100 L371,120 L374,100 Z" fill="#a87838" opacity="0.55"/>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,80 Q200,82 400,78 Q580,76 742,80"/>
+  </g>
+</svg>
