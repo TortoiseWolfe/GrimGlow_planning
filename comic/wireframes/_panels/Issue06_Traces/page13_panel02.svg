@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 421.5" width="366" height="421.5">
+  <title>Issue 6 — Page 13 — Panel 2: CU stone wall claw marks — five gouges + amber-black bio-trace + holographic CONFIRMED MATCH HUD</title>
+  <desc>85mm CU. Deep parallel gouges in rough-cut stone. Amber-black biological residue fluorescing inside the gouges, pulsing wrong against blue-violet scanner light. HUD overlay shows chemical composition + age + pulsing CONFIRMED MATCH indicator.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p13p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0608"/>
+      <stop offset="100%" stop-color="#020108"/>
+    </linearGradient>
+    <linearGradient id="i6p13p2stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i6p13p2scannerWash" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p13p2amberBlack" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a87018" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#5a3010" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p13p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p13p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="421.5" fill="url(#i6p13p2bg)"/>
+
+  <!-- Stone wall surface dominant -->
+  <rect width="366" height="421.5" fill="url(#i6p13p2stone)"/>
+  <!-- Rough-cut stone block grid -->
+  <g stroke="#0a0408" stroke-width="0.7" opacity="0.85">
+    <line x1="0" y1="60" x2="366" y2="60"/>
+    <line x1="0" y1="140" x2="366" y2="140"/>
+    <line x1="0" y1="220" x2="366" y2="220"/>
+    <line x1="0" y1="300" x2="366" y2="300"/>
+    <line x1="0" y1="380" x2="366" y2="380"/>
+    <line x1="80" y1="0" x2="80" y2="60"/>
+    <line x1="200" y1="0" x2="200" y2="60"/>
+    <line x1="40" y1="60" x2="40" y2="140"/>
+    <line x1="160" y1="60" x2="160" y2="140"/>
+    <line x1="280" y1="60" x2="280" y2="140"/>
+    <line x1="80" y1="140" x2="80" y2="220"/>
+    <line x1="200" y1="140" x2="200" y2="220"/>
+    <line x1="320" y1="140" x2="320" y2="220"/>
+    <line x1="40" y1="220" x2="40" y2="300"/>
+    <line x1="160" y1="220" x2="160" y2="300"/>
+    <line x1="280" y1="220" x2="280" y2="300"/>
+    <line x1="80" y1="300" x2="80" y2="380"/>
+    <line x1="200" y1="300" x2="200" y2="380"/>
+    <line x1="320" y1="300" x2="320" y2="380"/>
+  </g>
+  <!-- Centuries of damp stains -->
+  <ellipse cx="60" cy="100" rx="34" ry="40" fill="#0a0408" opacity="0.55"/>
+  <ellipse cx="320" cy="200" rx="40" ry="44" fill="#0a0408" opacity="0.55"/>
+  <ellipse cx="40" cy="340" rx="34" ry="40" fill="#0a0408" opacity="0.55"/>
+
+  <!-- Scanner wash on claw mark area -->
+  <ellipse cx="183" cy="200" rx="180" ry="100" fill="url(#i6p13p2scannerWash)" filter="url(#i6p13p2glow)" opacity="0.7"/>
+
+  <!-- ===== FIVE PARALLEL CLAW GOUGES — deep, dominant, with amber-black residue ===== -->
+  <g transform="translate(183 200)">
+    <!-- Pale exposed stone clay beneath -->
+    <path d="M-100,-100 L-50,90" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <path d="M-50,-100 L0,90" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <path d="M0,-100 L50,90" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <path d="M50,-100 L100,90" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <path d="M100,-100 L150,90" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <!-- Lighter clay highlight -->
+    <path d="M-100,-100 L-50,90" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <path d="M-50,-100 L0,90" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <path d="M0,-100 L50,90" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <path d="M50,-100 L100,90" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <path d="M100,-100 L150,90" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <!-- Inner darker gouge core -->
+    <path d="M-99,-98 L-52,88" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <path d="M-49,-98 L-2,88" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <path d="M1,-98 L48,88" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <path d="M51,-98 L98,88" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <path d="M101,-98 L148,88" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <!-- AMBER-BLACK biological fluorescence in grooves (sickly, wrong color) -->
+    <path d="M-99,-98 L-52,88" stroke="#a87018" stroke-width="2.4" opacity="0.85" filter="url(#i6p13p2bloom)"/>
+    <path d="M-49,-98 L-2,88" stroke="#a87018" stroke-width="2.4" opacity="0.85" filter="url(#i6p13p2bloom)"/>
+    <path d="M1,-98 L48,88" stroke="#a87018" stroke-width="2.4" opacity="0.85" filter="url(#i6p13p2bloom)"/>
+    <path d="M51,-98 L98,88" stroke="#a87018" stroke-width="2.4" opacity="0.85" filter="url(#i6p13p2bloom)"/>
+    <path d="M101,-98 L148,88" stroke="#a87018" stroke-width="2.4" opacity="0.85" filter="url(#i6p13p2bloom)"/>
+    <!-- Heavy amber-black flecks pulsing -->
+    <ellipse cx="0" cy="0" rx="160" ry="80" fill="url(#i6p13p2amberBlack)" filter="url(#i6p13p2glow)" opacity="0.4"/>
+    <g fill="#5a3010" opacity="0.95" filter="url(#i6p13p2bloom)">
+      <circle cx="-80" cy="-50" r="2.4"/>
+      <circle cx="-30" cy="-50" r="2.4"/>
+      <circle cx="20" cy="-50" r="2.4"/>
+      <circle cx="70" cy="-50" r="2.4"/>
+      <circle cx="120" cy="-50" r="2.4"/>
+      <circle cx="-65" cy="20" r="2.4"/>
+      <circle cx="-15" cy="20" r="2.4"/>
+      <circle cx="35" cy="20" r="2.4"/>
+      <circle cx="85" cy="20" r="2.4"/>
+      <circle cx="135" cy="20" r="2.4"/>
+    </g>
+    <g fill="#a87018" opacity="0.85" filter="url(#i6p13p2bloom)">
+      <circle cx="-72" cy="-20" r="1.4"/>
+      <circle cx="-22" cy="-20" r="1.4"/>
+      <circle cx="28" cy="-20" r="1.4"/>
+      <circle cx="78" cy="-20" r="1.4"/>
+      <circle cx="128" cy="-20" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- ===== HOLOGRAPHIC HUD OVERLAY — chemical/age/match analysis ===== -->
+  <g transform="translate(183 60)" filter="url(#i6p13p2bloom)" opacity="0.95">
+    <rect x="-130" y="-44" width="260" height="80" fill="#1a0c20" opacity="0.85"/>
+    <rect x="-130" y="-44" width="260" height="80" fill="none" stroke="#a888ff" stroke-width="2" opacity="0.95"/>
+    <rect x="-130" y="-44" width="260" height="14" fill="#5a3ad8" opacity="0.85"/>
+    <text x="-124" y="-34" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff" font-weight="700">RESIDUE ANALYSIS — STONE GOUGE PROFILE</text>
+
+    <!-- Chemical bars -->
+    <g stroke="#fff8ff" stroke-width="0.55" fill="none" opacity="0.95">
+      <text x="-124" y="-16" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#fff8ff">COMP:</text>
+      <rect x="-100" y="-22" width="3" height="14" fill="#a87018"/>
+      <rect x="-94" y="-26" width="3" height="18" fill="#a87018"/>
+      <rect x="-88" y="-18" width="3" height="10" fill="#a87018"/>
+      <rect x="-82" y="-30" width="3" height="22" fill="#a87018"/>
+      <rect x="-76" y="-22" width="3" height="14" fill="#a87018"/>
+      <rect x="-70" y="-16" width="3" height="8" fill="#a87018"/>
+    </g>
+
+    <!-- Age indicator -->
+    <text x="-124" y="2" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#fff8ff">AGE:</text>
+    <line x1="-100" y1="-2" x2="0" y2="-2" stroke="#fff8ff" stroke-width="0.4"/>
+    <rect x="-100" y="-4" width="80" height="4" fill="#a888ff" opacity="0.85"/>
+    <text x="-18" y="2" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#fff8ff" font-weight="700">~3 CENTURIES</text>
+
+    <!-- CONFIRMED MATCH (red, pulsing — geometric fairy script) -->
+    <g transform="translate(60 -8)">
+      <rect x="-30" y="-12" width="60" height="24" fill="none" stroke="#ff5868" stroke-width="1.4"/>
+      <text x="0" y="-2" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#ff5868" font-weight="700">CONFIRMED</text>
+      <text x="0" y="6" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#ff5868" font-weight="700">MATCH</text>
+      <!-- Geometric fairy script flourish -->
+      <g stroke="#ff5868" stroke-width="0.55" fill="none">
+        <polygon points="-26,-8 -22,-12 -18,-8 -18,-4 -22,0 -26,-4"/>
+        <polygon points="18,-8 22,-12 26,-8 26,-4 22,0 18,-4"/>
+      </g>
+      <!-- Pulse ring -->
+      <rect x="-32" y="-14" width="64" height="28" fill="none" stroke="#ff5868" stroke-width="0.4" opacity="0.55" stroke-dasharray="3 2"/>
+    </g>
+
+    <!-- Bottom annotation -->
+    <text x="-124" y="22" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#fff8ff">CROSS-REF: I-04 SAMPLE — IDENTICAL ORG. CLASS</text>
+  </g>
+
+  <!-- CAPTION 1 -->
+  <g>
+    <rect x="14" y="14" width="338" height="56" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-weight="700" font-style="italic">CAPTION (Luma)</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic">The residue pattern is identical.</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic">Same organism class. Same temporal signature.</text>
+
+  <!-- CAPTION 2 — bottom -->
+  <g>
+    <rect x="14" y="354" width="338" height="40" rx="2" fill="#f5ecd8" stroke="#c8b898" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+  </g>
+  <text x="22" y="372" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-weight="700" font-style="italic">CAPTION (Luma)</text>
+  <text x="22" y="388" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic">This was centuries ago.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q120,202 240,198 Q330,196 366,200"/>
+    <path d="M0,360 Q120,362 240,358 Q330,356 366,360"/>
+  </g>
+</svg>

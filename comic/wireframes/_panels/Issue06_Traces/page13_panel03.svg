@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 421.5" width="366" height="421.5">
+  <title>Issue 6 — Page 13 — Panel 3: Luma's face MCU under harsh scanner uplight — composure cracking, eyes wide behind dust-dimmed lenses</title>
+  <desc>50mm MCU eye level. Luma's face lit from below by scanner. Eyes wide behind dust-dimmed lenses. Lips parted breathing visible. One hand against chest (unconscious self-comfort). Filament in braid pulses faintly.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p13p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0608"/>
+      <stop offset="100%" stop-color="#020108"/>
+    </linearGradient>
+    <linearGradient id="i6p13p3lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p13p3underLight" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p13p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p13p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="421.5" fill="url(#i6p13p3bg)"/>
+
+  <!-- Heavy scanner uplight from below -->
+  <ellipse cx="183" cy="421.5" rx="280" ry="240" fill="url(#i6p13p3underLight)" filter="url(#i6p13p3glow)"/>
+
+  <!-- ===== LUMA — large MCU under harsh uplight ===== -->
+  <g transform="translate(183 220)">
+    <!-- Suit collar bottom -->
+    <path d="M-60,150 L-60,210 L60,210 L60,150 Z" fill="url(#i6p13p3lumaSuit)"/>
+    <line x1="-30" y1="180" x2="30" y2="180" stroke="#a888ff" stroke-width="1" opacity="0.85" filter="url(#i6p13p3bloom)"/>
+    <!-- HEAVY stone dust on collar (centuries-old grey-white) -->
+    <ellipse cx="-40" cy="160" rx="14" ry="3" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="40" cy="160" rx="14" ry="3" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="-25" cy="170" rx="9" ry="2" fill="#a8a098" opacity="0.7"/>
+    <ellipse cx="25" cy="170" rx="9" ry="2" fill="#a8a098" opacity="0.7"/>
+
+    <!-- Hand pressed against chest (unconscious self-comfort) -->
+    <g transform="translate(-22 156)">
+      <path d="M-14,0 L14,0 L18,30 L-18,30 Z" fill="url(#i6p13p3lumaSuit)"/>
+      <path d="M-14,30 L18,30 L22,40 L-22,40 Z" fill="#7a4838"/>
+      <line x1="-14" y1="34" x2="22" y2="34" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+      <line x1="-10" y1="32" x2="-8" y2="40" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+      <line x1="-2" y1="32" x2="0" y2="40" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+      <line x1="6" y1="32" x2="8" y2="40" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+      <line x1="14" y1="32" x2="16" y2="40" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    </g>
+
+    <!-- Neck -->
+    <rect x="-15" y="140" width="30" height="14" fill="#7a4838"/>
+
+    <!-- HEAD large — UNDER-LIT dramatically -->
+    <ellipse cx="0" cy="0" rx="100" ry="140" fill="#7a4838"/>
+    <!-- Lower face strongly lit -->
+    <ellipse cx="0" cy="60" rx="80" ry="40" fill="#a888ff" opacity="0.55" filter="url(#i6p13p3bloom)"/>
+    <ellipse cx="0" cy="40" rx="60" ry="30" fill="#a888ff" opacity="0.4"/>
+    <!-- Upper face shadowed -->
+    <ellipse cx="0" cy="-100" rx="80" ry="22" fill="#1a0c20" opacity="0.85"/>
+    <ellipse cx="-32" cy="-50" rx="22" ry="14" fill="#1a0c20" opacity="0.7"/>
+    <ellipse cx="32" cy="-50" rx="22" ry="14" fill="#1a0c20" opacity="0.7"/>
+    <!-- Cheek volumes catching uplight -->
+    <ellipse cx="-50" cy="20" rx="14" ry="6" fill="#a888ff" opacity="0.45" filter="url(#i6p13p3bloom)"/>
+    <ellipse cx="50" cy="20" rx="14" ry="6" fill="#a888ff" opacity="0.45" filter="url(#i6p13p3bloom)"/>
+
+    <!-- HAIR — pulled back into braid, with stone dust + cobweb residue -->
+    <path d="M-90,-40 Q-90,-100 -40,-120 Q0,-128 40,-120 Q90,-100 90,-40 L86,-12 Q50,-50 0,-50 Q-50,-50 -86,-12 Z" fill="#0a0604"/>
+    <!-- Stone dust freckling braid/hair -->
+    <g fill="#a8a098" opacity="0.55">
+      <circle cx="-22" cy="-100" r="0.85"/>
+      <circle cx="-10" cy="-110" r="0.7"/>
+      <circle cx="2" cy="-115" r="0.85"/>
+      <circle cx="14" cy="-110" r="0.7"/>
+      <circle cx="22" cy="-100" r="0.85"/>
+      <circle cx="-30" cy="-86" r="0.7"/>
+      <circle cx="30" cy="-86" r="0.7"/>
+    </g>
+    <!-- Cobweb filament caught on side of head -->
+    <path d="M-86,-30 Q-78,-22 -74,-12" stroke="#7a6c50" stroke-width="0.55" fill="none" opacity="0.55"/>
+    <path d="M-78,-22 Q-72,-14 -68,-2" stroke="#7a6c50" stroke-width="0.4" fill="none" opacity="0.45"/>
+    <!-- Sapphire filament -->
+    <line x1="-12" y1="-110" x2="-9" y2="-118" stroke="#5a3ad8" stroke-width="1.4" opacity="0.85" filter="url(#i6p13p3bloom)"/>
+    <line x1="9" y1="-118" x2="12" y2="-110" stroke="#5a3ad8" stroke-width="1.4" opacity="0.85" filter="url(#i6p13p3bloom)"/>
+    <!-- Braid down right -->
+    <path d="M86,-22 Q96,40 86,140" stroke="#0a0604" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M86,-22 Q96,40 86,140" stroke="#a888ff" stroke-width="1.4" fill="none" opacity="0.85" filter="url(#i6p13p3bloom)"/>
+    <!-- Braid plait segments -->
+    <path d="M86,-12 Q96,-4 86,4" stroke="#1a0c04" stroke-width="0.85" fill="none" opacity="0.85"/>
+    <path d="M86,16 Q96,24 86,32" stroke="#1a0c04" stroke-width="0.85" fill="none" opacity="0.85"/>
+    <path d="M86,44 Q96,52 86,60" stroke="#1a0c04" stroke-width="0.85" fill="none" opacity="0.85"/>
+    <path d="M86,72 Q96,80 86,88" stroke="#1a0c04" stroke-width="0.85" fill="none" opacity="0.85"/>
+    <path d="M86,100 Q96,108 86,116" stroke="#1a0c04" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <!-- LENSES — DUST-DIMMED with faint particulate haze -->
+    <ellipse cx="-32" cy="-12" rx="22" ry="16" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="32" cy="-12" rx="22" ry="16" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="-32" cy="-12" rx="22" ry="16" fill="none" stroke="#a888ff" stroke-width="1.4" opacity="0.7" filter="url(#i6p13p3bloom)"/>
+    <ellipse cx="32" cy="-12" rx="22" ry="16" fill="none" stroke="#a888ff" stroke-width="1.4" opacity="0.7" filter="url(#i6p13p3bloom)"/>
+    <!-- Dust haze across lens surfaces -->
+    <ellipse cx="-32" cy="-12" rx="22" ry="16" fill="#a8a098" opacity="0.18"/>
+    <ellipse cx="32" cy="-12" rx="22" ry="16" fill="#a8a098" opacity="0.18"/>
+    <!-- Hairline crack on left lens -->
+    <line x1="-50" y1="-22" x2="-22" y2="-6" stroke="#fff8ff" stroke-width="0.85" opacity="0.85" filter="url(#i6p13p3bloom)"/>
+
+    <!-- Eyes WIDE -->
+    <ellipse cx="-32" cy="-12" rx="9" ry="6" fill="#fff8e8"/>
+    <ellipse cx="-32" cy="-12" rx="7" ry="4" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="-32" cy="-12" r="3.4" fill="#0a0604"/>
+    <circle cx="-33" cy="-13" r="1.2" fill="#fff8ff"/>
+    <ellipse cx="32" cy="-12" rx="9" ry="6" fill="#fff8e8"/>
+    <ellipse cx="32" cy="-12" rx="7" ry="4" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="32" cy="-12" r="3.4" fill="#0a0604"/>
+    <circle cx="31" cy="-13" r="1.2" fill="#fff8ff"/>
+
+    <!-- Brows up — fear breaking through -->
+    <path d="M-54,-32 L-22,-30" stroke="#0a0604" stroke-width="2"/>
+    <path d="M22,-30 L54,-32" stroke="#0a0604" stroke-width="2"/>
+
+    <!-- Nose -->
+    <path d="M0,8 L-6,32 L0,38 L6,32 Z" fill="#7a4838" opacity="0.65"/>
+    <line x1="-6" y1="32" x2="6" y2="32" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+
+    <!-- MOUTH — slightly parted, breathing visible -->
+    <ellipse cx="0" cy="56" rx="8" ry="3" fill="#3a1808"/>
+    <path d="M-12,52 L12,52" stroke="#3a1808" stroke-width="1.2"/>
+    <path d="M-9,60 L9,60" stroke="#5a3018" stroke-width="0.7" opacity="0.55"/>
+    <!-- Faint breath cloud (cold basement, breath visible) -->
+    <ellipse cx="0" cy="80" rx="11" ry="3" fill="#fff8ff" opacity="0.32"/>
+  </g>
+
+  <!-- LUMA dialogue -->
+  <g>
+    <rect x="14" y="14" width="338" height="56" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="160,70 172,70 164,80" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="160.5" y1="70" x2="171.5" y2="70" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">They were here. In this building.</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Centuries before us.</text>
+
+  <!-- SABLE dialogue (via comms — radio crackle marker) -->
+  <g>
+    <rect x="14" y="346" width="338" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="160,386 172,386 164,396" fill="white" stroke="#5a606a" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="160.5" y1="386" x2="171.5" y2="386" stroke="white" stroke-width="1.5"/>
+    <text x="338" y="362" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#5a606a" font-weight="700">~)))</text>
+  </g>
+  <text x="22" y="362" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700" font-style="italic">SABLE (via comms)</text>
+  <text x="22" y="378" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Understood. Continue scanning.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q120,92 240,88 Q330,86 366,90"/>
+    <path d="M0,400 Q120,402 240,398 Q330,396 366,400"/>
+  </g>
+</svg>
