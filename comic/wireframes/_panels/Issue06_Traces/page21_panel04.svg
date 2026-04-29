@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 6 — Page 21 — Panel 4: Theodore at his door looks back at fog-filled street — watchful, occupied, dense</title>
+  <desc>28mm wide eye level from behind Theodore. Key in hand, half-turned, looking back over shoulder at fog-filled street. Street stretches into grey-white. Gas lamps as dim amber dots, buildings vague masses. Nothing visible. Fog has watchful quality after stories. Dense. Present. Occupied. Scanner glow reaches few feet then swallowed. Door lamp casts shadow long into fog. LUMA: "Go inside, Theodore." THEODORE: "...Yes. Right."</desc>
+
+  <defs>
+    <linearGradient id="i6p21p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3438"/>
+      <stop offset="50%" stop-color="#5a5560"/>
+      <stop offset="100%" stop-color="#1a1418"/>
+    </linearGradient>
+    <radialGradient id="i6p21p4doorAmber" cx="100%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#d8a060" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a4828" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p21p4lampDim" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d8a060" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p21p4scannerSwallow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p21p4cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2228"/>
+      <stop offset="100%" stop-color="#1a1418"/>
+    </linearGradient>
+    <linearGradient id="i6p21p4doorWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2018"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <filter id="i6p21p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p21p4glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i6p21p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i6p21p4megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="742" height="320" fill="url(#i6p21p4bg)"/>
+
+  <!-- DOOR / WALL on right (Theodore's home) -->
+  <rect x="540" y="0" width="202" height="320" fill="url(#i6p21p4doorWall)"/>
+  <!-- Brick pattern -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.7" fill="none">
+    <path d="M540,40 L742,40"/>
+    <path d="M540,70 L742,70"/>
+    <path d="M540,100 L742,100"/>
+    <path d="M540,130 L742,130"/>
+    <path d="M540,160 L742,160"/>
+    <path d="M540,190 L742,190"/>
+    <path d="M540,220 L742,220"/>
+  </g>
+  <!-- Door (visible at frame edge) -->
+  <rect x="600" y="100" width="60" height="180" fill="#3a1808" stroke="#1a0c04" stroke-width="0.85"/>
+  <line x1="630" y1="100" x2="630" y2="280" stroke="#1a0c04" stroke-width="0.55"/>
+  <!-- Door frame top inset -->
+  <rect x="610" y="120" width="40" height="40" fill="#1a0c04" stroke="#3a2418" stroke-width="0.4"/>
+
+  <!-- DOOR LAMP — bright amber -->
+  <g transform="translate(680 90)">
+    <ellipse cx="0" cy="0" rx="100" ry="80" fill="url(#i6p21p4doorAmber)" filter="url(#i6p21p4megaglow)"/>
+    <ellipse cx="0" cy="0" rx="22" ry="20" fill="#ffe0a8" filter="url(#i6p21p4strongglow)"/>
+    <line x1="0" y1="0" x2="0" y2="-26" stroke="#1a0c08" stroke-width="1.4"/>
+    <rect x="-4" y="-10" width="8" height="18" fill="#1a0c08"/>
+    <ellipse cx="0" cy="-2" rx="3" ry="5" fill="#fff8c8" filter="url(#i6p21p4bloom)"/>
+  </g>
+
+  <!-- AMBER POOL on threshold cobbles -->
+  <ellipse cx="640" cy="280" rx="160" ry="22" fill="#a87838" opacity="0.85" filter="url(#i6p21p4strongglow)"/>
+
+  <!-- ===== STREET STRETCHING BACK INTO FOG (left/center) ===== -->
+  <!-- Far buildings as vague dark masses -->
+  <g opacity="0.55">
+    <path d="M0,40 L0,260 L120,260 L100,80 L80,40 Z" fill="#1a1014"/>
+    <path d="M120,80 L160,60 L160,260 L120,260 Z" fill="#1a1014"/>
+    <path d="M180,60 L260,40 L260,260 L180,260 Z" fill="#1a1014"/>
+    <path d="M280,40 L380,60 L380,260 L280,260 Z" fill="#1a1014"/>
+    <path d="M400,60 L500,40 L500,260 L400,260 Z" fill="#1a1014"/>
+  </g>
+
+  <!-- Distant gas lamps as dim amber dots -->
+  <g transform="translate(80 160)">
+    <ellipse cx="0" cy="0" rx="32" ry="28" fill="url(#i6p21p4lampDim)" filter="url(#i6p21p4megaglow)"/>
+    <circle cx="0" cy="0" r="4" fill="#d89858" opacity="0.85" filter="url(#i6p21p4bloom)"/>
+  </g>
+  <g transform="translate(220 150)">
+    <ellipse cx="0" cy="0" rx="22" ry="20" fill="url(#i6p21p4lampDim)" filter="url(#i6p21p4strongglow)" opacity="0.7"/>
+    <circle cx="0" cy="0" r="3" fill="#d89858" opacity="0.7" filter="url(#i6p21p4bloom)"/>
+  </g>
+  <g transform="translate(380 140)">
+    <ellipse cx="0" cy="0" rx="14" ry="12" fill="url(#i6p21p4lampDim)" filter="url(#i6p21p4strongglow)" opacity="0.55"/>
+    <circle cx="0" cy="0" r="2" fill="#d89858" opacity="0.55" filter="url(#i6p21p4bloom)"/>
+  </g>
+
+  <!-- HEAVY FOG layered, dense, watchful -->
+  <g fill="#5a5860" opacity="0.7">
+    <ellipse cx="100" cy="180" rx="200" ry="32"/>
+    <ellipse cx="350" cy="180" rx="200" ry="36"/>
+  </g>
+  <g fill="#7a7880" opacity="0.55">
+    <ellipse cx="200" cy="200" rx="280" ry="22"/>
+    <ellipse cx="400" cy="210" rx="240" ry="20"/>
+  </g>
+  <g fill="#9a9aa0" opacity="0.4">
+    <ellipse cx="280" cy="220" rx="220" ry="18"/>
+    <ellipse cx="450" cy="225" rx="200" ry="16"/>
+  </g>
+
+  <!-- Cobblestones -->
+  <rect x="0" y="240" width="742" height="80" fill="url(#i6p21p4cobble)"/>
+  <g stroke="#080608" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,260 L742,260"/>
+    <path d="M0,275 L742,275"/>
+    <path d="M0,290 L742,290"/>
+    <path d="M0,305 L742,305"/>
+  </g>
+  <!-- Cobbles fade into murk far end -->
+  <ellipse cx="200" cy="280" rx="200" ry="14" fill="#7a7880" opacity="0.4" filter="url(#i6p21p4glow)"/>
+
+  <!-- ===== THEODORE — at door, half-turned, looking back ===== -->
+  <g transform="translate(580 270)">
+    <!-- LONG SHADOW into fog (extends left-and-down on cobbles) -->
+    <path d="M0,2 L-60,8 L-100,4 L-140,8 L-180,4" stroke="#000" stroke-width="14" opacity="0.7" fill="none"/>
+    <path d="M0,2 L-30,4 L-30,-50" fill="#000" opacity="0.85"/>
+    <ellipse cx="-200" cy="6" rx="40" ry="3" fill="#1a1014" opacity="0.55" filter="url(#i6p21p4glow)"/>
+
+    <!-- Body — half-turned (back to viewer mostly, head turning back over shoulder LEFT) -->
+    <!-- Boots planted at threshold -->
+    <ellipse cx="-7" cy="0" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="7" cy="0" rx="5" ry="2" fill="#1a0c04"/>
+
+    <!-- Trousers -->
+    <path d="M-9,-2 L-12,-50 L-2,-50 Z" fill="#3a3028"/>
+    <path d="M9,-2 L12,-50 L2,-50 Z" fill="#3a3028"/>
+
+    <!-- Waistcoat back -->
+    <path d="M-12,-50 L-12,-90 L12,-90 L12,-50 Z" fill="#d4c4a8"/>
+    <!-- Back panel -->
+    <path d="M-12,-90 L-2,-90 L-2,-50 L-12,-50 Z" fill="#5a3018"/>
+    <path d="M12,-90 L2,-90 L2,-50 L12,-50 Z" fill="#5a3018"/>
+    <!-- Belt -->
+    <rect x="-12" y="-52" width="24" height="3" fill="#1a0c04"/>
+
+    <!-- POCKET on right side (visible from back angle) -->
+    <rect x="-14" y="-84" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.4"/>
+    <!-- Scanner glow -->
+    <ellipse cx="-8" cy="-78" rx="9" ry="6" fill="url(#i6p21p4scannerSwallow)" filter="url(#i6p21p4strongglow)"/>
+    <!-- Beam reaching into fog before being swallowed -->
+    <path d="M-8,-78 L-40,-90 L-70,-80 L-100,-90" stroke="#a888ff" stroke-width="0.55" fill="none" opacity="0.7" filter="url(#i6p21p4bloom)"/>
+    <ellipse cx="-100" cy="-90" rx="20" ry="12" fill="#a888ff" opacity="0.4" filter="url(#i6p21p4strongglow)"/>
+
+    <!-- Right arm — KEY raised slightly -->
+    <path d="M14,-86 L20,-66 L18,-46 L8,-50 Z" fill="#5a3018"/>
+    <ellipse cx="18" cy="-46" rx="3" ry="2" fill="#a87838"/>
+    <!-- KEY -->
+    <line x1="20" y1="-44" x2="26" y2="-40" stroke="#a87838" stroke-width="1" filter="url(#i6p21p4bloom)"/>
+    <rect x="24" y="-42" width="3" height="4" fill="#a87838" filter="url(#i6p21p4bloom)"/>
+    <line x1="25" y1="-38" x2="25" y2="-34" stroke="#a87838" stroke-width="0.7"/>
+    <line x1="24" y1="-36" x2="22" y2="-34" stroke="#a87838" stroke-width="0.4"/>
+    <!-- Brass gear ring catching amber lamp light -->
+    <circle cx="14" cy="-46" r="0.85" fill="#d89858" filter="url(#i6p21p4bloom)"/>
+
+    <!-- Left arm at side -->
+    <path d="M-12,-86 L-18,-66 L-16,-46 L-10,-50 Z" fill="#5a3018"/>
+
+    <!-- Head — TURNED BACK over LEFT shoulder, profile -->
+    <ellipse cx="-3" cy="-104" rx="10" ry="11" fill="#a87838"/>
+    <!-- Hair -->
+    <path d="M-12,-114 Q-8,-122 -3,-124 Q4,-122 5,-114 L5,-105 Q3,-110 -3,-110 Q-8,-110 -12,-105 Z" fill="#9a7038"/>
+    <!-- AMBER backlight on right side (from door lamp) -->
+    <path d="M2,-114 L5,-114 L4,-110 L2,-110 Z" fill="#d8a060" opacity="0.85" filter="url(#i6p21p4bloom)"/>
+    <!-- Amber on right cheek -->
+    <ellipse cx="4" cy="-104" rx="3" ry="3" fill="#d8a060" opacity="0.55" filter="url(#i6p21p4bloom)"/>
+    <!-- Eye visible (left side, looking back) -->
+    <ellipse cx="-7" cy="-104" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="-7" cy="-103" rx="0.85" ry="0.7" fill="#7a4818"/>
+    <circle cx="-7" cy="-103" r="0.3" fill="#fff"/>
+    <!-- Brow tight -->
+    <path d="M-11,-110 Q-8,-112 -4,-110" stroke="#5a3018" stroke-width="0.7" fill="none"/>
+    <!-- Mouth set -->
+    <line x1="-6" y1="-94" x2="-2" y2="-94" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- LUMA dialogue (barely audible) -->
+  <g>
+    <rect x="14" y="14" width="240" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="100,54 112,54 104,64" fill="white" stroke="#5a3ad8" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a3ad8" font-weight="700">LUMA  <tspan font-style="italic" font-size="8" font-weight="500">(barely audible)</tspan></text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">Go inside, Theodore.</text>
+
+  <!-- THEODORE response -->
+  <g>
+    <rect x="280" y="14" width="200" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="370,54 382,54 374,64" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="370.5" y1="54" x2="381.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="288" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6a4220" font-weight="700">THEODORE</text>
+  <text x="288" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">...Yes. Right.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q200,142 400,138 Q580,136 742,140"/>
+    <path d="M0,260 Q200,262 400,258 Q580,256 742,260"/>
+  </g>
+</svg>

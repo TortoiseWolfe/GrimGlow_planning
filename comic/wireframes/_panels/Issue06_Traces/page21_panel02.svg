@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 440" width="366" height="440">
+  <title>Issue 6 — Page 21 — Panel 2: Theodore close-up — wide-eyed, steady, in two mythologies at once</title>
+  <desc>85mm close-up. Theodore's face. Wide-eyed and steady — scared and fascinated. A boy processing the expansion of his world. Amber light from behind on edge of hair. Grey fog light on face. Blue-violet from below catches chin from pocket scanner. Three light sources converge. Hands still — gear ring not turning. THEODORE: "Gran always said the Tall Ones didn't like being seen. / Don't look into the fog, Theodore. The fog looks back."</desc>
+
+  <defs>
+    <linearGradient id="i6p21p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3438"/>
+      <stop offset="100%" stop-color="#1a1418"/>
+    </linearGradient>
+    <radialGradient id="i6p21p2amberRear" cx="100%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#d8a060" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p21p2pocketScanner" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p21p2skinFace" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a4838"/>
+      <stop offset="50%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <filter id="i6p21p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p21p2glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i6p21p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="440" fill="url(#i6p21p2bg)"/>
+
+  <!-- Amber light wash from rear (upper right) -->
+  <ellipse cx="380" cy="40" rx="200" ry="160" fill="url(#i6p21p2amberRear)" filter="url(#i6p21p2strongglow)"/>
+
+  <!-- Grey fog ambient -->
+  <rect x="0" y="100" width="366" height="280" fill="#7a7880" opacity="0.35"/>
+
+  <!-- Blue-violet pocket scanner — from below frame (chin uplight) -->
+  <ellipse cx="183" cy="440" rx="200" ry="120" fill="url(#i6p21p2pocketScanner)" filter="url(#i6p21p2strongglow)"/>
+
+  <!-- ===== THEODORE — face filling frame ===== -->
+  <g transform="translate(183 260)">
+    <!-- Neck/collar at lower edge -->
+    <path d="M-26,180 L-30,140 L30,140 L26,180 Z" fill="url(#i6p21p2skinFace)"/>
+    <!-- Linen collar peek -->
+    <path d="M-32,180 L0,178 L32,180 L32,200 L0,194 L-32,200 Z" fill="#e0d4b8"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="40" rx="120" ry="140" fill="url(#i6p21p2skinFace)"/>
+
+    <!-- Sandy-brown hair (top, with amber edge) -->
+    <path d="M-110,-70 Q-80,-110 0,-118 Q80,-110 110,-70 L110,-30 Q70,-50 0,-50 Q-70,-50 -110,-30 Z" fill="#9a6038"/>
+    <!-- Amber backlight catching hair edges right side -->
+    <path d="M70,-90 Q90,-100 110,-70 L110,-50 Q90,-70 70,-70 Z" fill="#d8a060" opacity="0.85" filter="url(#i6p21p2bloom)"/>
+    <line x1="80" y1="-92" x2="100" y2="-72" stroke="#ffe0a8" stroke-width="0.85" filter="url(#i6p21p2bloom)" opacity="0.95"/>
+    <!-- Tousled bits on top -->
+    <path d="M-30,-110 L-22,-122 L-40,-118 Z" fill="#a87838"/>
+    <path d="M-12,-114 L0,-126 L-20,-124 Z" fill="#a87838"/>
+    <path d="M14,-114 L24,-124 L4,-122 Z" fill="#a87838"/>
+    <path d="M40,-110 L52,-118 L34,-118 Z" fill="#a87838"/>
+
+    <!-- Cheekbones / jaw definition -->
+    <path d="M-110,-30 Q-100,40 -64,90" fill="none" stroke="#5a3018" stroke-width="1.4" opacity="0.85"/>
+    <path d="M110,-30 Q100,40 64,90" fill="none" stroke="#5a3018" stroke-width="1.4" opacity="0.85"/>
+
+    <!-- Eyes — WIDE, hazel — three lights converging -->
+    <ellipse cx="-44" cy="20" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="44" cy="20" rx="22" ry="14" fill="#fff8e8"/>
+    <ellipse cx="-44" cy="22" rx="11" ry="9" fill="#7a4818"/>
+    <ellipse cx="44" cy="22" rx="11" ry="9" fill="#7a4818"/>
+    <ellipse cx="-44" cy="22" rx="6" ry="6" fill="#3a1808"/>
+    <ellipse cx="44" cy="22" rx="6" ry="6" fill="#3a1808"/>
+    <!-- Catchlights — three sources -->
+    <circle cx="-50" cy="16" r="2" fill="#ffe0a8"/>
+    <circle cx="-38" cy="20" r="1.4" fill="#fff"/>
+    <circle cx="-44" cy="26" r="1" fill="#a888ff"/>
+    <circle cx="50" cy="16" r="2" fill="#ffe0a8"/>
+    <circle cx="38" cy="20" r="1.4" fill="#fff"/>
+    <circle cx="44" cy="26" r="1" fill="#a888ff"/>
+
+    <!-- Lash lines -->
+    <path d="M-66,12 Q-44,4 -22,12" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <path d="M66,12 Q44,4 22,12" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+
+    <!-- Brow lifted slightly -->
+    <path d="M-72,-30 Q-50,-44 -18,-32" stroke="#5a3018" stroke-width="3" fill="none"/>
+    <path d="M72,-30 Q50,-44 18,-32" stroke="#5a3018" stroke-width="3" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M-9,20 L-14,80 L0,90 L14,80 L9,20 Z" fill="#7a4818" opacity="0.85"/>
+    <ellipse cx="-7" cy="86" rx="3" ry="1.4" fill="#3a1808"/>
+    <ellipse cx="7" cy="86" rx="3" ry="1.4" fill="#3a1808"/>
+
+    <!-- Freckles -->
+    <circle cx="-44" cy="60" r="1.4" fill="#5a3018" opacity="0.85"/>
+    <circle cx="-32" cy="68" r="1.4" fill="#5a3018" opacity="0.85"/>
+    <circle cx="32" cy="68" r="1.4" fill="#5a3018" opacity="0.85"/>
+    <circle cx="44" cy="60" r="1.4" fill="#5a3018" opacity="0.85"/>
+    <circle cx="-22" cy="76" r="1" fill="#5a3018" opacity="0.85"/>
+    <circle cx="22" cy="76" r="1" fill="#5a3018" opacity="0.85"/>
+
+    <!-- Mouth — slightly parted, steady -->
+    <path d="M-22,116 Q0,124 22,116" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <path d="M-20,118 Q0,128 20,118" stroke="#1a0c04" stroke-width="0.85" fill="none"/>
+
+    <!-- Chin bottom uplit blue-violet -->
+    <ellipse cx="0" cy="160" rx="60" ry="6" fill="#a888ff" opacity="0.4" filter="url(#i6p21p2bloom)"/>
+  </g>
+
+  <!-- THEODORE dialogue -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="200,64 212,64 204,76" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="200.5" y1="64" x2="211.5" y2="64" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6a4220" font-weight="700">THEODORE</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Gran said the Tall Ones didn't like</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">being seen.</text>
+
+  <!-- THEODORE dialogue 2 -->
+  <g>
+    <rect x="14" y="380" width="338" height="50" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="200,380 212,380 204,370" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="200.5" y1="380" x2="211.5" y2="380" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="398" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6a4220" font-weight="700">THEODORE  <tspan font-style="italic" font-size="9" font-weight="500">(quoting gran)</tspan></text>
+  <text x="22" y="414" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">"Don't look into the fog, Theodore.</text>
+  <text x="22" y="426" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">The fog looks back."</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#5a3018" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q100,182 200,178 Q280,176 366,180"/>
+    <path d="M0,360 Q100,362 200,358 Q280,356 366,360"/>
+  </g>
+</svg>
