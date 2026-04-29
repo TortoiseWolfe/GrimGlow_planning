@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 360" width="366" height="360">
+  <title>Issue 7 — Page 9 — Panel 2: Thresh stands, checks weapon — determination over unresolved fear, choosing to function</title>
+  <desc>50mm slight low angle fairy scale. Thresh sits up in stone groove. Checks weapon — habitual reset. Hands steady — or steady enough. Looks toward pier overwatch position. Mission continues. Stands adjusting scraped shoulder plate. Determination layered over unresolved fear. Person choosing to function despite feeling. Backlit by dock lantern amber edge.</desc>
+
+  <defs>
+    <linearGradient id="i7p9p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1818"/>
+      <stop offset="100%" stop-color="#080608"/>
+    </linearGradient>
+    <radialGradient id="i7p9p2lanternBacklight" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#d89858" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p9p2suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82030"/>
+      <stop offset="100%" stop-color="#3a0c14"/>
+    </linearGradient>
+    <linearGradient id="i7p9p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <linearGradient id="i7p9p2stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <filter id="i7p9p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p9p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p9p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="360" fill="url(#i7p9p2bg)"/>
+
+  <!-- Dock-lantern backlight from RIGHT -->
+  <ellipse cx="380" cy="180" rx="280" ry="200" fill="url(#i7p9p2lanternBacklight)" filter="url(#i7p9p2strongglow)"/>
+
+  <!-- Stone groove walls + floor -->
+  <rect x="0" y="320" width="366" height="40" fill="url(#i7p9p2stone)"/>
+  <line x1="0" y1="320" x2="366" y2="320" stroke="#0a0608" stroke-width="0.55"/>
+  <g stroke="#0a0608" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,340 L366,340"/>
+    <line x1="80" y1="320" x2="80" y2="360"/>
+    <line x1="200" y1="320" x2="200" y2="360"/>
+    <line x1="280" y1="320" x2="280" y2="360"/>
+  </g>
+
+  <!-- ===== THRESH — standing, checking weapon, backlit silhouette/edge-light ===== -->
+  <g transform="translate(183 320)">
+    <ellipse cx="0" cy="0" rx="22" ry="3" fill="#000" opacity="0.85"/>
+
+    <!-- Boots planted -->
+    <ellipse cx="-12" cy="-2" rx="9" ry="3" fill="#3a0c14"/>
+    <ellipse cx="12" cy="-2" rx="9" ry="3" fill="#3a0c14"/>
+
+    <!-- Legs -->
+    <path d="M-14,-4 L-18,-80 L-2,-100 L0,-80 Z" fill="url(#i7p9p2suit)"/>
+    <path d="M14,-4 L18,-80 L2,-100 L0,-80 Z" fill="url(#i7p9p2suit)"/>
+    <ellipse cx="-12" cy="-94" rx="7" ry="3" fill="#7a1a28"/>
+    <ellipse cx="12" cy="-94" rx="7" ry="3" fill="#7a1a28"/>
+
+    <!-- Backlight edge on right side of body -->
+    <line x1="18" y1="-80" x2="14" y2="-4" stroke="#ffd898" stroke-width="0.85" opacity="0.85" filter="url(#i7p9p2bloom)"/>
+    <line x1="2" y1="-100" x2="6" y2="-80" stroke="#ffd898" stroke-width="0.55" opacity="0.7" filter="url(#i7p9p2bloom)"/>
+
+    <!-- Torso -->
+    <path d="M-22,-100 L-26,-180 L-12,-200 L12,-200 L26,-180 L22,-100 Z" fill="url(#i7p9p2suit)"/>
+    <line x1="0" y1="-200" x2="0" y2="-100" stroke="#ff8898" stroke-width="0.55" opacity="0.85" filter="url(#i7p9p2bloom)"/>
+    <!-- Right edge backlit -->
+    <line x1="26" y1="-180" x2="22" y2="-100" stroke="#ffd898" stroke-width="0.85" opacity="0.95" filter="url(#i7p9p2bloom)"/>
+
+    <!-- Dented LEFT pauldron -->
+    <path d="M-26,-188 L-34,-180 L-34,-160 L-26,-166 Z" fill="#7a1a28"/>
+    <line x1="-30" y1="-180" x2="-26" y2="-184" stroke="#3a0c14" stroke-width="1.4"/>
+
+    <!-- Right pauldron with FRESH SCRAPE -->
+    <path d="M26,-188 L34,-180 L34,-160 L26,-166 Z" fill="#7a1a28"/>
+    <path d="M22,-184 L36,-178" stroke="#a8b0c0" stroke-width="2.4" filter="url(#i7p9p2bloom)"/>
+    <path d="M24,-182 L34,-180" stroke="#fff8e8" stroke-width="0.85" opacity="0.95" filter="url(#i7p9p2bloom)"/>
+    <ellipse cx="32" cy="-176" rx="1.4" ry="0.7" fill="#a82030" opacity="0.85"/>
+
+    <!-- Crimson nodes -->
+    <circle cx="-22" cy="-160" r="1.4" fill="#ff5060" filter="url(#i7p9p2bloom)" opacity="0.85"/>
+    <circle cx="22" cy="-160" r="1.4" fill="#ff5060" filter="url(#i7p9p2bloom)" opacity="0.85"/>
+    <circle cx="0" cy="-150" r="1.4" fill="#ff5060" filter="url(#i7p9p2bloom)" opacity="0.85"/>
+
+    <!-- ARMS holding weapon, checking it -->
+    <path d="M-26,-180 L-40,-140 L-26,-110 L-14,-140 Z" fill="url(#i7p9p2suit)"/>
+    <path d="M26,-180 L40,-140 L22,-110 L14,-140 Z" fill="url(#i7p9p2suit)"/>
+    <!-- Weapon held forward and being inspected -->
+    <rect x="-22" y="-128" width="44" height="6" fill="#3a2828" stroke="#1a0c0a" stroke-width="0.55"/>
+    <rect x="0" y="-132" width="14" height="4" fill="#1a0c0a"/>
+    <rect x="-22" y="-128" width="6" height="6" fill="#5a3030"/>
+    <line x1="-22" y1="-125" x2="22" y2="-125" stroke="#dc2030" stroke-width="0.4" opacity="0.85" filter="url(#i7p9p2bloom)"/>
+    <!-- Hands on weapon -->
+    <ellipse cx="-22" cy="-122" rx="6" ry="3" fill="url(#i7p9p2skin)"/>
+    <ellipse cx="22" cy="-122" rx="6" ry="3" fill="url(#i7p9p2skin)"/>
+    <!-- Hands STEADY now (no white-knuckle) -->
+    <line x1="-26" y1="-126" x2="-18" y2="-118" stroke="#5a3018" stroke-width="0.4"/>
+    <line x1="18" y1="-126" x2="26" y2="-118" stroke="#5a3018" stroke-width="0.4"/>
+
+    <!-- Head — looking toward off-panel pier (right) -->
+    <ellipse cx="3" cy="-220" rx="14" ry="16" fill="url(#i7p9p2skin)"/>
+    <!-- Copper-red buzz cut -->
+    <path d="M-9,-232 Q-9,-238 3,-240 Q15,-238 15,-232 L15,-228 Q9,-230 3,-230 Q-3,-230 -9,-228 Z" fill="#a83828"/>
+    <line x1="-7" y1="-234" x2="13" y2="-234" stroke="#dc4030" stroke-width="0.4" opacity="0.85"/>
+    <!-- Backlight edge on hair -->
+    <line x1="14" y1="-238" x2="15" y2="-228" stroke="#ffd898" stroke-width="0.7" opacity="0.95" filter="url(#i7p9p2bloom)"/>
+
+    <!-- Cheekbones -->
+    <path d="M-9,-220 Q-7,-212 -2,-208" fill="none" stroke="#5a3018" stroke-width="0.7" opacity="0.85"/>
+    <path d="M15,-220 Q13,-212 8,-208" fill="none" stroke="#5a3018" stroke-width="0.7" opacity="0.85"/>
+
+    <!-- EYES — looking ahead, set, focused -->
+    <ellipse cx="-2" cy="-220" rx="2" ry="1" fill="#fff"/>
+    <ellipse cx="6" cy="-220" rx="2" ry="1" fill="#fff"/>
+    <ellipse cx="-1" cy="-220" rx="1" ry="0.7" fill="#3a5878"/>
+    <ellipse cx="7" cy="-220" rx="1" ry="0.7" fill="#3a5878"/>
+    <circle cx="-1" cy="-220" r="0.4" fill="#1a3858"/>
+    <circle cx="7" cy="-220" r="0.4" fill="#1a3858"/>
+    <!-- Lower lash (post-cry, dry now) -->
+    <line x1="-5" y1="-216" x2="2" y2="-216" stroke="#3a1808" stroke-width="0.4"/>
+    <line x1="3" y1="-216" x2="10" y2="-216" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- Brow set hard -->
+    <path d="M-9,-228 Q-2,-230 2,-228" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <path d="M15,-228 Q8,-230 5,-228" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M0,-220 L0,-212 L3,-210 L6,-212 L5,-220 Z" fill="#5a3018" opacity="0.85"/>
+
+    <!-- Mouth — set, level (functional) -->
+    <line x1="-4" y1="-205" x2="10" y2="-205" stroke="#3a1808" stroke-width="0.7"/>
+  </g>
+
+  <!-- THRESH -->
+  <g>
+    <rect x="14" y="14" width="240" height="40" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="100,54 112,54 104,64" fill="white" stroke="#dc2030" stroke-width="0.85"/>
+    <line x1="100.5" y1="54" x2="111.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#dc2030" font-weight="700">THRESH</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I can still make overwatch.</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="14" y="244" width="240" height="34" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="260" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a3ad8" font-weight="700">LUMA  <tspan font-style="italic" font-size="8" font-weight="500">(off-panel)</tspan></text>
+  <text x="22" y="274" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I know you can.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q100,182 200,178 Q280,176 366,180"/>
+    <path d="M0,300 Q100,302 200,298 Q280,296 366,300"/>
+  </g>
+</svg>

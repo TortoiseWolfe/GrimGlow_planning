@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 7 — Page 9 — Panel 1: Dual portrait — Luma calm and Thresh raw, fear named not mastered</title>
+  <desc>50mm eye level fairy scale dual portrait. Two women face to face in stone groove. Thresh rolled side facing Luma. Scanner powered down — personal not medical. Luma's hand still on Thresh's forearm. Faces fill frame. Luma warm brown skin calm dark eyes left. Thresh pale skin red-rimmed blue eyes right. Something cracked open won't close again. Thresh nearly killed by boot. Not Titan not predator — boot on man just walking.</desc>
+
+  <defs>
+    <linearGradient id="i7p9p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1818"/>
+      <stop offset="100%" stop-color="#080608"/>
+    </linearGradient>
+    <linearGradient id="i7p9p1stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p9p1skinL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3a28"/>
+    </linearGradient>
+    <linearGradient id="i7p9p1skinT" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c898"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="i7p9p1suitL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <linearGradient id="i7p9p1suitT" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82030"/>
+      <stop offset="100%" stop-color="#3a0c14"/>
+    </linearGradient>
+    <radialGradient id="i7p9p1distantAmber" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#a87838" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p9p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p9p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p9p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="742" height="320" fill="url(#i7p9p1bg)"/>
+
+  <!-- Distant dock-lantern wash from upper edges -->
+  <ellipse cx="100" cy="0" rx="200" ry="120" fill="url(#i7p9p1distantAmber)" filter="url(#i7p9p1strongglow)"/>
+  <ellipse cx="640" cy="0" rx="200" ry="120" fill="url(#i7p9p1distantAmber)" filter="url(#i7p9p1strongglow)"/>
+
+  <!-- Stone groove walls (frames the dual portrait) -->
+  <rect x="0" y="0" width="742" height="50" fill="url(#i7p9p1stone)"/>
+  <line x1="0" y1="50" x2="742" y2="50" stroke="#0a0608" stroke-width="0.85"/>
+  <rect x="0" y="270" width="742" height="50" fill="url(#i7p9p1stone)"/>
+  <line x1="0" y1="270" x2="742" y2="270" stroke="#0a0608" stroke-width="0.85"/>
+  <!-- Stone texture cracks -->
+  <g stroke="#0a0608" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M40,10 L60,50"/>
+    <path d="M180,20 L200,50"/>
+    <path d="M540,30 L560,50"/>
+    <path d="M680,10 L700,50"/>
+    <path d="M40,270 L60,310"/>
+    <path d="M280,290 L300,310"/>
+    <path d="M540,270 L560,310"/>
+  </g>
+
+  <!-- Faint suit glow ambient (crimson + sapphire violet in shadow) -->
+  <ellipse cx="220" cy="160" rx="160" ry="100" fill="#7a5af0" opacity="0.18" filter="url(#i7p9p1strongglow)"/>
+  <ellipse cx="540" cy="160" rx="160" ry="100" fill="#a82030" opacity="0.18" filter="url(#i7p9p1strongglow)"/>
+
+  <!-- ===== LUMA — LEFT SIDE, face fills left half ===== -->
+  <g transform="translate(220 200)">
+    <!-- Suit shoulder/collar at lower edge -->
+    <path d="M-180,80 L-100,40 L0,30 L100,40 L180,80 L180,120 L-180,120 Z" fill="url(#i7p9p1suitL)"/>
+    <line x1="-100" y1="40" x2="100" y2="40" stroke="#a888ff" stroke-width="0.7" opacity="0.85" filter="url(#i7p9p1bloom)"/>
+
+    <!-- Neck -->
+    <path d="M-30,30 L-40,-10 L40,-10 L30,30 Z" fill="url(#i7p9p1skinL)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="100" ry="120" fill="url(#i7p9p1skinL)"/>
+
+    <!-- Long braid (visible falling left side, partially) -->
+    <path d="M-100,-50 Q-104,-30 -100,30" stroke="#0a0604" stroke-width="6" fill="none"/>
+    <ellipse cx="-104" cy="-20" rx="6" ry="4" fill="#0a0604"/>
+    <ellipse cx="-103" cy="0" rx="6" ry="4" fill="#0a0604"/>
+
+    <!-- Hair top -->
+    <path d="M-90,-130 Q-50,-160 0,-162 Q50,-160 90,-130 L90,-110 Q60,-130 0,-130 Q-60,-130 -90,-110 Z" fill="#0a0604"/>
+
+    <!-- Holographic LENSES (calm now, not running data — present) -->
+    <ellipse cx="-30" cy="-50" rx="22" ry="12" fill="#a888ff" filter="url(#i7p9p1bloom)" opacity="0.55"/>
+    <ellipse cx="30" cy="-50" rx="22" ry="12" fill="#a888ff" filter="url(#i7p9p1bloom)" opacity="0.55"/>
+    <ellipse cx="-30" cy="-50" rx="11" ry="9" fill="#fff" opacity="0.85"/>
+    <ellipse cx="30" cy="-50" rx="11" ry="9" fill="#fff" opacity="0.85"/>
+    <ellipse cx="-30" cy="-50" rx="6" ry="5" fill="#3a1808"/>
+    <ellipse cx="30" cy="-50" rx="6" ry="5" fill="#3a1808"/>
+    <circle cx="-30" cy="-50" r="3" fill="#1a0a04"/>
+    <circle cx="30" cy="-50" r="3" fill="#1a0a04"/>
+    <circle cx="-32" cy="-52" r="1.4" fill="#fff" filter="url(#i7p9p1bloom)"/>
+    <circle cx="28" cy="-52" r="1.4" fill="#fff" filter="url(#i7p9p1bloom)"/>
+    <!-- Cracked left lens -->
+    <line x1="-44" y1="-56" x2="-22" y2="-44" stroke="#1a0a04" stroke-width="0.85"/>
+
+    <!-- Brow soft, calm -->
+    <path d="M-50,-78 Q-30,-86 -10,-78" stroke="#3a1808" stroke-width="2.4" fill="none"/>
+    <path d="M50,-78 Q30,-86 10,-78" stroke="#3a1808" stroke-width="2.4" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M-9,-40 L-12,30 L0,40 L12,30 L9,-40 Z" fill="#5a3a28" opacity="0.85"/>
+
+    <!-- Mouth — soft, speaking -->
+    <ellipse cx="0" cy="60" rx="9" ry="3" fill="#3a1808"/>
+    <line x1="-9" y1="60" x2="9" y2="60" stroke="#1a0c04" stroke-width="0.85"/>
+  </g>
+
+  <!-- DIVIDER (subtle, between the two portraits, suggesting they face each other) -->
+  <!-- ===== THRESH — RIGHT SIDE ===== -->
+  <g transform="translate(540 200)">
+    <!-- Suit shoulder at lower edge — fresh scrape visible right side -->
+    <path d="M-180,80 L-100,40 L0,30 L100,40 L180,80 L180,120 L-180,120 Z" fill="url(#i7p9p1suitT)"/>
+    <line x1="-100" y1="40" x2="100" y2="40" stroke="#ff8898" stroke-width="0.7" opacity="0.85" filter="url(#i7p9p1bloom)"/>
+    <!-- Dented LEFT pauldron -->
+    <path d="M-180,80 L-200,70 L-200,90 L-180,100 Z" fill="#7a1a28"/>
+    <line x1="-195" y1="80" x2="-180" y2="74" stroke="#3a0c14" stroke-width="1.4"/>
+    <!-- FRESH SHOULDER SCRAPE (right side) -->
+    <path d="M180,80 L200,70 L200,90 L180,100 Z" fill="#7a1a28"/>
+    <path d="M170,72 L210,70" stroke="#a8b0c0" stroke-width="3" filter="url(#i7p9p1bloom)"/>
+    <path d="M174,74 L208,72" stroke="#fff8e8" stroke-width="0.85" opacity="0.95" filter="url(#i7p9p1bloom)"/>
+
+    <!-- Neck -->
+    <path d="M-30,30 L-40,-10 L40,-10 L30,30 Z" fill="url(#i7p9p1skinT)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="100" ry="120" fill="url(#i7p9p1skinT)"/>
+
+    <!-- Copper-red buzz cut -->
+    <path d="M-90,-130 Q-50,-160 0,-162 Q50,-160 90,-130 L90,-110 Q60,-130 0,-130 Q-60,-130 -90,-110 Z" fill="#a83828"/>
+    <line x1="-80" y1="-140" x2="80" y2="-140" stroke="#dc4030" stroke-width="0.7" opacity="0.85"/>
+    <line x1="-60" y1="-130" x2="60" y2="-130" stroke="#dc4030" stroke-width="0.55" opacity="0.7"/>
+
+    <!-- BLUE EYES — RED-RIMMED (post-adrenaline) -->
+    <ellipse cx="-30" cy="-50" rx="22" ry="12" fill="#fff"/>
+    <ellipse cx="30" cy="-50" rx="22" ry="12" fill="#fff"/>
+    <!-- Red rims -->
+    <ellipse cx="-30" cy="-44" rx="22" ry="3" fill="#ff5060" opacity="0.4" filter="url(#i7p9p1bloom)"/>
+    <ellipse cx="30" cy="-44" rx="22" ry="3" fill="#ff5060" opacity="0.4" filter="url(#i7p9p1bloom)"/>
+    <!-- Iris -->
+    <ellipse cx="-30" cy="-50" rx="11" ry="9" fill="#3a5878"/>
+    <ellipse cx="30" cy="-50" rx="11" ry="9" fill="#3a5878"/>
+    <ellipse cx="-30" cy="-50" rx="6" ry="5" fill="#1a3858"/>
+    <ellipse cx="30" cy="-50" rx="6" ry="5" fill="#1a3858"/>
+    <circle cx="-30" cy="-50" r="3" fill="#0a0c20"/>
+    <circle cx="30" cy="-50" r="3" fill="#0a0c20"/>
+    <circle cx="-32" cy="-52" r="1.4" fill="#fff" filter="url(#i7p9p1bloom)"/>
+    <circle cx="28" cy="-52" r="1.4" fill="#fff" filter="url(#i7p9p1bloom)"/>
+
+    <!-- Lash lines below (water-rimmed) -->
+    <path d="M-50,-44 Q-30,-38 -10,-44" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+    <path d="M50,-44 Q30,-38 10,-44" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+
+    <!-- Brow — drawn, raw -->
+    <path d="M-50,-80 Q-30,-86 -10,-80" stroke="#3a1808" stroke-width="2.4" fill="none"/>
+    <path d="M50,-80 Q30,-86 10,-80" stroke="#3a1808" stroke-width="2.4" fill="none"/>
+    <!-- Crease between brows (raw) -->
+    <line x1="-3" y1="-80" x2="-1" y2="-72" stroke="#3a1808" stroke-width="0.7"/>
+    <line x1="3" y1="-80" x2="1" y2="-72" stroke="#3a1808" stroke-width="0.7"/>
+
+    <!-- Defined cheekbones -->
+    <path d="M-100,-50 Q-90,0 -50,40" fill="none" stroke="#5a3018" stroke-width="0.85" opacity="0.85"/>
+    <path d="M100,-50 Q90,0 50,40" fill="none" stroke="#5a3018" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- Nose -->
+    <path d="M-9,-40 L-12,30 L0,40 L12,30 L9,-40 Z" fill="#a87838" opacity="0.85"/>
+    <ellipse cx="-3" cy="36" rx="2" ry="1" fill="#3a1808"/>
+    <ellipse cx="3" cy="36" rx="2" ry="1" fill="#3a1808"/>
+
+    <!-- Mouth — pressed, struggling -->
+    <line x1="-12" y1="64" x2="12" y2="64" stroke="#3a1808" stroke-width="1"/>
+  </g>
+
+  <!-- THRESH -->
+  <g>
+    <rect x="14" y="14" width="320" height="50" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="120,64 132,64 124,76" fill="white" stroke="#dc2030" stroke-width="0.85"/>
+    <line x1="120.5" y1="64" x2="131.5" y2="64" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#dc2030" font-weight="700">THRESH</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Every time I think I'm used to it.</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Every time.</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="408" y="14" width="320" height="60" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="540,74 552,74 544,86" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="540.5" y1="74" x2="551.5" y2="74" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="416" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="416" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">You don't get used to it. You get</text>
+  <text x="416" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">better at moving through it.</text>
+
+  <!-- THRESH (small, fragile) -->
+  <g>
+    <rect x="14" y="276" width="200" height="34" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,276 92,276 84,266" fill="white" stroke="#dc2030" stroke-width="0.85"/>
+    <line x1="80.5" y1="276" x2="91.5" y2="276" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="292" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#dc2030" font-weight="700">THRESH  <tspan font-style="italic" font-size="8" font-weight="500">(small)</tspan></text>
+  <text x="22" y="306" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">...is it enough?</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="528" y="276" width="200" height="34" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="600,276 612,276 604,266" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="600.5" y1="276" x2="611.5" y2="276" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="536" y="292" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="536" y="306" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">You're here. That's enough.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,250 Q200,252 400,248 Q580,246 742,250"/>
+  </g>
+</svg>

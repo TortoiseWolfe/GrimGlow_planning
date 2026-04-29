@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 360" width="366" height="360">
+  <title>Issue 7 — Page 9 — Panel 3: Luma watches Thresh go — personal worry only when back turned, Theodore behind crate shaken</title>
+  <desc>50mm eye level fairy scale. Luma still in stone groove medical scanner powered down hand. Holographic lenses scroll data she isn't reading — watching friend walk toward danger because mission requires. Personal worry the face she shows only when back is turned. Background: Theodore behind crate face white shaken — first time he's seen how close danger really is.</desc>
+
+  <defs>
+    <linearGradient id="i7p9p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p9p3stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p9p3suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <linearGradient id="i7p9p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3a28"/>
+    </linearGradient>
+    <linearGradient id="i7p9p3crate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p9p3receding" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#dc2030" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a0c14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p9p3lanternEdge" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#a87838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p9p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p9p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p9p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p9p3softfocus"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+
+  <rect width="366" height="360" fill="url(#i7p9p3bg)"/>
+
+  <!-- Lantern edge on Theodore (background, upper-left) -->
+  <ellipse cx="40" cy="40" rx="120" ry="80" fill="url(#i7p9p3lanternEdge)" filter="url(#i7p9p3strongglow)"/>
+
+  <!-- Receding crimson glow far right (Thresh moving away) -->
+  <ellipse cx="380" cy="180" rx="100" ry="80" fill="url(#i7p9p3receding)" filter="url(#i7p9p3strongglow)"/>
+
+  <!-- Stone groove walls + floor -->
+  <rect x="0" y="0" width="366" height="40" fill="url(#i7p9p3stone)"/>
+  <rect x="0" y="320" width="366" height="40" fill="url(#i7p9p3stone)"/>
+  <line x1="0" y1="40" x2="366" y2="40" stroke="#0a0608" stroke-width="0.7"/>
+  <line x1="0" y1="320" x2="366" y2="320" stroke="#0a0608" stroke-width="0.7"/>
+  <g stroke="#0a0608" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,340 L366,340"/>
+    <line x1="80" y1="320" x2="80" y2="360"/>
+    <line x1="200" y1="320" x2="200" y2="360"/>
+    <line x1="280" y1="320" x2="280" y2="360"/>
+  </g>
+
+  <!-- ===== THRESH'S CRIMSON FIGURE receding far right (small) ===== -->
+  <g transform="translate(330 200)" filter="url(#i7p9p3softfocus)" opacity="0.85">
+    <ellipse cx="0" cy="0" rx="6" ry="1" fill="#000" opacity="0.55"/>
+    <path d="M-2,-2 L-3,-12 L0,-16 L3,-12 L2,-2 Z" fill="#a82030"/>
+    <ellipse cx="0" cy="-22" rx="2" ry="2" fill="#a87838"/>
+    <path d="M-1.5,-24 Q0,-26 0,-26 Q1.5,-26 1.5,-24 L1.5,-22 Q0.7,-23 0,-23 Q-0.7,-23 -1.5,-22 Z" fill="#a83828"/>
+    <!-- Crimson glow halo -->
+    <ellipse cx="0" cy="-10" rx="14" ry="14" fill="#ff5060" opacity="0.4" filter="url(#i7p9p3strongglow)"/>
+  </g>
+
+  <!-- ===== THEODORE — BACKGROUND, peeking from behind crate (upper-left, soft focus) ===== -->
+  <g transform="translate(80 100)" filter="url(#i7p9p3softfocus)">
+    <!-- Crate -->
+    <rect x="-22" y="0" width="44" height="80" fill="url(#i7p9p3crate)" stroke="#1a0c04" stroke-width="0.55"/>
+    <line x1="-22" y1="40" x2="22" y2="40" stroke="#1a0c04" stroke-width="0.55"/>
+
+    <!-- Theodore peeking over crate top (head + shoulders) -->
+    <ellipse cx="-3" cy="-10" rx="14" ry="14" fill="#a87838"/>
+    <path d="M-12,-22 Q-9,-30 -3,-32 Q5,-30 9,-22 L9,-14 Q5,-18 -3,-18 Q-9,-18 -12,-14 Z" fill="#9a7038"/>
+    <!-- Tousled hair -->
+    <path d="M-7,-26 L-5,-32 L-9,-32 Z" fill="#a87838"/>
+    <path d="M3,-26 L5,-32 L1,-32 Z" fill="#a87838"/>
+    <!-- WHITE-FACED — pallor visible -->
+    <ellipse cx="-3" cy="-8" rx="12" ry="10" fill="#e8c8a8" opacity="0.55"/>
+    <!-- Eyes WIDE -->
+    <ellipse cx="-7" cy="-10" rx="3" ry="2" fill="#fff"/>
+    <ellipse cx="1" cy="-10" rx="3" ry="2" fill="#fff"/>
+    <ellipse cx="-7" cy="-10" rx="1.4" ry="1.4" fill="#7a4818"/>
+    <ellipse cx="1" cy="-10" rx="1.4" ry="1.4" fill="#7a4818"/>
+    <circle cx="-7" cy="-10" r="0.7" fill="#3a1808"/>
+    <circle cx="1" cy="-10" r="0.7" fill="#3a1808"/>
+    <!-- Mouth open in shock -->
+    <ellipse cx="-3" cy="-2" rx="2" ry="1.4" fill="#3a1808"/>
+    <!-- Brow raised (shaken) -->
+    <path d="M-12,-20 Q-7,-24 -2,-22" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+    <path d="M6,-20 Q1,-24 -2,-22" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+  </g>
+
+  <!-- ===== LUMA — center-foreground in stone groove, watching ===== -->
+  <g transform="translate(140 320)">
+    <ellipse cx="0" cy="0" rx="22" ry="3" fill="#000" opacity="0.55"/>
+
+    <!-- Crouched: knees bent under -->
+    <ellipse cx="-14" cy="-10" rx="14" ry="6" fill="url(#i7p9p3suit)"/>
+    <ellipse cx="14" cy="-10" rx="14" ry="6" fill="url(#i7p9p3suit)"/>
+    <ellipse cx="-22" cy="0" rx="9" ry="3" fill="#0a0408"/>
+    <ellipse cx="22" cy="0" rx="9" ry="3" fill="#0a0408"/>
+
+    <!-- Stone dust still on knees -->
+    <ellipse cx="-14" cy="-14" rx="9" ry="3" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="14" cy="-14" rx="9" ry="3" fill="#a8a098" opacity="0.85"/>
+
+    <!-- Torso -->
+    <path d="M-22,-22 L-26,-80 L-12,-100 L12,-100 L26,-80 L22,-22 Z" fill="url(#i7p9p3suit)"/>
+    <line x1="0" y1="-100" x2="0" y2="-22" stroke="#a888ff" stroke-width="0.55" opacity="0.85" filter="url(#i7p9p3bloom)"/>
+
+    <!-- Wing-pack stowed -->
+    <line x1="-22" y1="-90" x2="-26" y2="-60" stroke="#a888ff" stroke-width="0.4" opacity="0.4"/>
+    <line x1="22" y1="-90" x2="26" y2="-60" stroke="#a888ff" stroke-width="0.4" opacity="0.4"/>
+
+    <!-- Arms — one holding scanner (powered down), one resting -->
+    <path d="M-26,-80 L-40,-50 L-30,-30 L-18,-60 Z" fill="url(#i7p9p3suit)"/>
+    <ellipse cx="-30" cy="-30" rx="6" ry="3" fill="url(#i7p9p3skin)"/>
+    <!-- Scanner powered down (in hand) -->
+    <rect x="-36" y="-22" width="14" height="6" fill="#3a2068" stroke="#5a3ad8" stroke-width="0.55"/>
+
+    <path d="M26,-80 L40,-50 L30,-30 L18,-60 Z" fill="url(#i7p9p3suit)"/>
+    <ellipse cx="30" cy="-30" rx="6" ry="3" fill="url(#i7p9p3skin)"/>
+
+    <!-- Head — turned RIGHT toward off-panel Thresh -->
+    <ellipse cx="2" cy="-118" rx="14" ry="16" fill="url(#i7p9p3skin)"/>
+    <!-- Long braid trailing back -->
+    <path d="M-9,-134 Q-7,-140 2,-142 Q11,-140 13,-134 L13,-128 Q7,-130 2,-130 Q-3,-130 -9,-128 Z" fill="#0a0604"/>
+    <path d="M-7,-134 Q-15,-122 -18,-100 Q-20,-80 -16,-60" stroke="#0a0604" stroke-width="2" fill="none"/>
+    <ellipse cx="-12" cy="-114" rx="1.4" ry="1" fill="#0a0604"/>
+    <ellipse cx="-17" cy="-94" rx="1.4" ry="1" fill="#0a0604"/>
+    <line x1="-7" y1="-134" x2="-18" y2="-100" stroke="#a888ff" stroke-width="0.4" opacity="0.55" filter="url(#i7p9p3bloom)"/>
+
+    <!-- Holographic lenses — DIM (data scrolling she isn't reading) -->
+    <ellipse cx="-2" cy="-118" rx="2" ry="1.4" fill="#a888ff" filter="url(#i7p9p3bloom)" opacity="0.55"/>
+    <ellipse cx="6" cy="-118" rx="2" ry="1.4" fill="#a888ff" filter="url(#i7p9p3bloom)" opacity="0.55"/>
+    <circle cx="-2" cy="-118" r="0.55" fill="#1a0a04"/>
+    <circle cx="6" cy="-118" r="0.55" fill="#1a0a04"/>
+    <!-- Cracked left lens -->
+    <line x1="-4" y1="-119" x2="-1" y2="-117" stroke="#1a0a04" stroke-width="0.3"/>
+    <!-- Tiny scrolling data dots in lens periphery -->
+    <g opacity="0.55" filter="url(#i7p9p3bloom)">
+      <circle cx="-4" cy="-115" r="0.4" fill="#a888ff"/>
+      <circle cx="0" cy="-115" r="0.4" fill="#a888ff"/>
+      <circle cx="4" cy="-115" r="0.4" fill="#a888ff"/>
+    </g>
+
+    <!-- Brow — DRAWN (worry visible because Thresh's back is turned) -->
+    <path d="M-9,-128 Q-2,-132 2,-128" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <path d="M13,-128 Q6,-132 2,-128" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <!-- Tight crease between brows (the worry that doesn't show in front) -->
+    <line x1="0" y1="-128" x2="2" y2="-122" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="3" y1="-128" x2="2" y2="-122" stroke="#3a1808" stroke-width="0.55"/>
+
+    <!-- Mouth — pressed thin, holding worry in -->
+    <line x1="-3" y1="-108" x2="6" y2="-108" stroke="#3a1808" stroke-width="0.7"/>
+  </g>
+
+  <!-- THEODORE -->
+  <g>
+    <rect x="14" y="14" width="240" height="34" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="100,48 112,48 104,58" fill="white" stroke="#6a4220" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(low, behind crate)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Is she—</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="14" y="276" width="240" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="100,276 112,276 104,266" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="100.5" y1="276" x2="111.5" y2="276" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="294" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="310" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">She's all right. She's always all right.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q100,162 200,158 Q280,156 366,160"/>
+    <path d="M0,300 Q100,302 200,298 Q280,296 366,300"/>
+  </g>
+</svg>
