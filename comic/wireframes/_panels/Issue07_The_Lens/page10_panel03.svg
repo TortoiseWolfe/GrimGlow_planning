@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 410" width="366" height="410">
+  <title>Issue 7 — Page 10 — Panel 3: Jink hovers at lamp room window — Fresnel lens visible inside, keeper soft-focused below</title>
+  <desc>50mm medium close-up eye level fairy scale through glass. Jink peers through lamp room window from outside hovering deployed wings. Through glass distorted amber-lit lamp room interior visible: massive Fresnel lens assembly center concentric glass rings refracting amber lamplight geometric patterns. Below lamp room through open floor hatch warm light from watch room where keeper sits. Jink's reflection in window — small emerald ghost.</desc>
+
+  <defs>
+    <linearGradient id="i7p10p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i7p10p3lampInterior" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0.55"/>
+    </radialGradient>
+    <linearGradient id="i7p10p3glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8c0e8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a6878" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="i7p10p3frame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p10p3suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p10p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <radialGradient id="i7p10p3wingHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#5af0a0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a6838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p10p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p10p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p10p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p10p3glassDistort"><feGaussianBlur stdDeviation="0.85"/></filter>
+  </defs>
+
+  <rect width="366" height="410" fill="url(#i7p10p3bg)"/>
+
+  <!-- ===== LARGE WINDOW frame (most of frame) ===== -->
+  <rect x="40" y="40" width="286" height="330" fill="url(#i7p10p3frame)" stroke="#0a0408" stroke-width="2"/>
+  <!-- Glass interior pane -->
+  <rect x="50" y="50" width="266" height="310" fill="#1a1410" opacity="0.55"/>
+  <!-- Mullion (vertical) -->
+  <line x1="183" y1="50" x2="183" y2="360" stroke="#0a0408" stroke-width="2"/>
+
+  <!-- ===== INTERIOR — amber lamp room view through glass ===== -->
+  <g filter="url(#i7p10p3glassDistort)">
+    <!-- Amber atmosphere -->
+    <rect x="50" y="50" width="266" height="310" fill="url(#i7p10p3lampInterior)"/>
+
+    <!-- FRESNEL LENS visible inside (concentric rings) -->
+    <g transform="translate(183 200)">
+      <!-- Outer ring -->
+      <ellipse cx="0" cy="0" rx="100" ry="90" fill="none" stroke="#fff8c8" stroke-width="1.4" filter="url(#i7p10p3bloom)" opacity="0.95"/>
+      <ellipse cx="0" cy="0" rx="100" ry="90" fill="#ffd898" opacity="0.4"/>
+      <!-- Inner concentric rings -->
+      <ellipse cx="0" cy="0" rx="80" ry="72" fill="none" stroke="#fff8c8" stroke-width="1" opacity="0.85"/>
+      <ellipse cx="0" cy="0" rx="60" ry="54" fill="none" stroke="#fff8c8" stroke-width="0.85" opacity="0.85"/>
+      <ellipse cx="0" cy="0" rx="40" ry="36" fill="none" stroke="#fff8c8" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="0" cy="0" rx="20" ry="18" fill="none" stroke="#fff8c8" stroke-width="0.55" opacity="0.85"/>
+      <!-- Center oil lamp flame -->
+      <ellipse cx="0" cy="0" rx="9" ry="14" fill="#fff8c8" filter="url(#i7p10p3bloom)"/>
+      <ellipse cx="0" cy="0" rx="6" ry="9" fill="#ffe0a8"/>
+      <!-- Brass framework verticals -->
+      <line x1="-100" y1="0" x2="-100" y2="50" stroke="#a87838" stroke-width="1" opacity="0.85"/>
+      <line x1="100" y1="0" x2="100" y2="50" stroke="#a87838" stroke-width="1" opacity="0.85"/>
+      <line x1="0" y1="-90" x2="0" y2="-110" stroke="#a87838" stroke-width="1" opacity="0.85"/>
+      <line x1="0" y1="90" x2="0" y2="110" stroke="#a87838" stroke-width="1" opacity="0.85"/>
+    </g>
+
+    <!-- Refracted geometric patterns on interior walls -->
+    <g opacity="0.7">
+      <ellipse cx="80" cy="120" rx="22" ry="6" fill="#fff8c8" filter="url(#i7p10p3bloom)" opacity="0.55"/>
+      <ellipse cx="280" cy="100" rx="18" ry="5" fill="#fff8c8" filter="url(#i7p10p3bloom)" opacity="0.55"/>
+      <ellipse cx="100" cy="320" rx="22" ry="6" fill="#ffd898" filter="url(#i7p10p3bloom)" opacity="0.55"/>
+      <ellipse cx="280" cy="320" rx="18" ry="5" fill="#ffd898" filter="url(#i7p10p3bloom)" opacity="0.55"/>
+    </g>
+
+    <!-- FLOOR HATCH visible at bottom of interior — warm rectangle from watch room -->
+    <rect x="120" y="320" width="126" height="30" fill="#ffd898" opacity="0.85" filter="url(#i7p10p3bloom)"/>
+    <!-- Soft-focused KEEPER visible through hatch -->
+    <ellipse cx="183" cy="345" rx="22" ry="5" fill="#3a2418" opacity="0.85"/>
+    <!-- Pipe smoke rising -->
+    <path d="M180,335 Q176,325 178,315" stroke="#a89878" stroke-width="0.85" fill="none" opacity="0.7"/>
+    <path d="M186,335 Q184,325 184,315" stroke="#a89878" stroke-width="0.7" fill="none" opacity="0.55"/>
+  </g>
+
+  <!-- Glass surface reflection / distortion lines -->
+  <g stroke="#a8c0e8" stroke-width="0.55" opacity="0.4" fill="none">
+    <path d="M50,80 Q183,76 316,80"/>
+    <path d="M50,160 Q183,156 316,160"/>
+    <path d="M50,240 Q183,236 316,240"/>
+    <path d="M50,320 Q183,316 316,320"/>
+  </g>
+
+  <!-- ===== JINK — outside the window, hovering, reflected in glass ===== -->
+  <g transform="translate(80 200)">
+    <!-- Wing-pack halo -->
+    <ellipse cx="0" cy="0" rx="40" ry="22" fill="url(#i7p10p3wingHalo)" filter="url(#i7p10p3strongglow)"/>
+
+    <!-- Wings deployed -->
+    <g stroke="#5af0a0" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#i7p10p3bloom)">
+      <path d="M-3,-2 L-22,-12 L-30,-2 L-22,8 L-3,2 Z"/>
+      <line x1="-22" y1="-12" x2="-22" y2="8"/>
+      <line x1="-3" y1="-2" x2="-30" y2="-2"/>
+      <path d="M3,-2 L22,-12 L30,-2 L22,8 L3,2 Z"/>
+      <line x1="22" y1="-12" x2="22" y2="8"/>
+      <line x1="3" y1="-2" x2="30" y2="-2"/>
+    </g>
+    <g fill="#5af0a0" opacity="0.4" filter="url(#i7p10p3bloom)">
+      <path d="M-3,-2 L-22,-12 L-30,-2 L-22,8 L-3,2 Z"/>
+      <path d="M3,-2 L22,-12 L30,-2 L22,8 L3,2 Z"/>
+    </g>
+
+    <!-- Body small -->
+    <path d="M-3,-2 L-3,12 L0,16 L3,12 L3,-2 Z" fill="url(#i7p10p3suit)"/>
+
+    <!-- Head — peering through window -->
+    <ellipse cx="0" cy="-7" rx="3.5" ry="4" fill="url(#i7p10p3skin)"/>
+    <path d="M-3,-10 Q-3,-14 0,-14 Q3,-14 3,-10 L3,-7 Q1,-9 0,-9 Q-1,-9 -3,-7 Z" fill="#f0d878"/>
+    <circle cx="-2" cy="-12" r="1" fill="#f0d878"/>
+    <circle cx="2" cy="-12" r="1" fill="#f0d878"/>
+    <!-- Eyes looking right (into window) -->
+    <ellipse cx="-1" cy="-7" rx="1" ry="0.55" fill="#fff"/>
+    <ellipse cx="2" cy="-7" rx="1" ry="0.55" fill="#fff"/>
+    <ellipse cx="0" cy="-7" rx="0.55" ry="0.4" fill="#1a4a28"/>
+    <ellipse cx="3" cy="-7" rx="0.55" ry="0.4" fill="#1a4a28"/>
+    <!-- Brow focused -->
+    <line x1="-2" y1="-10" x2="0" y2="-10" stroke="#5a3018" stroke-width="0.4"/>
+    <line x1="3" y1="-10" x2="2" y2="-10" stroke="#5a3018" stroke-width="0.4"/>
+  </g>
+
+  <!-- Jink's reflection visible in glass surface (faint, ghostlike) -->
+  <g transform="translate(140 200)" opacity="0.4" filter="url(#i7p10p3glassDistort)">
+    <ellipse cx="0" cy="0" rx="20" ry="9" fill="#5af0a0" opacity="0.4" filter="url(#i7p10p3bloom)"/>
+    <ellipse cx="0" cy="-7" rx="3" ry="3.5" fill="#a87838" opacity="0.55"/>
+    <ellipse cx="0" cy="-3" rx="2" ry="3" fill="#2ed078" opacity="0.55"/>
+  </g>
+
+  <!-- JINK -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="180,64 192,64 184,76" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Lamp room clear. The lens is...</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I can see why Wren wants it. Beautiful.</text>
+
+  <!-- WREN -->
+  <g>
+    <rect x="14" y="350" width="160" height="34" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="366" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="380" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Focus.</text>
+
+  <!-- JINK -->
+  <g>
+    <rect x="200" y="350" width="156" height="34" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="208" y="366" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="208" y="380" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Focused.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q100,182 200,178 Q280,176 366,180"/>
+    <path d="M0,300 Q100,302 200,298 Q280,296 366,300"/>
+  </g>
+</svg>

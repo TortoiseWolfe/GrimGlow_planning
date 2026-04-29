@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 410" width="366" height="410">
+  <title>Issue 7 — Page 10 — Panel 2: Sable and Wren climbing exterior brickwork — mortar joints as ledges, lens harness throwing balance</title>
+  <desc>35mm medium wide eye level fairy scale. Two tiny women climb exterior brickwork lighthouse tower at night. Sable above pewter-grey silver reaching down to help. Wren below copper suit lens disc strapped back weight unbalancing. Mortar joints between bricks ledges — each course storey at this scale. Iron lightning-conductor bracket horizontal beam to step on. Climbing shadow side faint silver-blue copper-gold suit glow.</desc>
+
+  <defs>
+    <linearGradient id="i7p10p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="i7p10p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3838"/>
+      <stop offset="100%" stop-color="#3a2418"/>
+    </linearGradient>
+    <linearGradient id="i7p10p2mortar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89878"/>
+      <stop offset="100%" stop-color="#5a4838"/>
+    </linearGradient>
+    <linearGradient id="i7p10p2suitS" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7898c8"/>
+      <stop offset="100%" stop-color="#3a4868"/>
+    </linearGradient>
+    <linearGradient id="i7p10p2suitW" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="i7p10p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3a28"/>
+    </linearGradient>
+    <linearGradient id="i7p10p2skinW" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i7p10p2iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i7p10p2suitGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c0e8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a4868" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p10p2copperGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d89858" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p10p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p10p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p10p2strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect width="366" height="410" fill="url(#i7p10p2bg)"/>
+
+  <!-- ===== BRICKWORK — mortar joints visible at fairy scale ===== -->
+  <!-- Bricks (each course is a storey) -->
+  <g>
+    <!-- Course 1 (top) -->
+    <rect x="0" y="0" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="80" y="0" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="160" y="0" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="240" y="0" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="320" y="0" width="46" height="50" fill="url(#i7p10p2brick)"/>
+    <!-- Course 2 (offset) -->
+    <rect x="0" y="60" width="40" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="40" y="60" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="120" y="60" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="200" y="60" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="280" y="60" width="86" height="50" fill="url(#i7p10p2brick)"/>
+    <!-- Course 3 -->
+    <rect x="0" y="120" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="80" y="120" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="160" y="120" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="240" y="120" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="320" y="120" width="46" height="50" fill="url(#i7p10p2brick)"/>
+    <!-- Course 4 -->
+    <rect x="0" y="180" width="40" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="40" y="180" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="120" y="180" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="200" y="180" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="280" y="180" width="86" height="50" fill="url(#i7p10p2brick)"/>
+    <!-- Course 5 -->
+    <rect x="0" y="240" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="80" y="240" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="160" y="240" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="240" y="240" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="320" y="240" width="46" height="50" fill="url(#i7p10p2brick)"/>
+    <!-- Course 6 -->
+    <rect x="0" y="300" width="40" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="40" y="300" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="120" y="300" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="200" y="300" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="280" y="300" width="86" height="50" fill="url(#i7p10p2brick)"/>
+    <!-- Course 7 -->
+    <rect x="0" y="360" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="80" y="360" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="160" y="360" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="240" y="360" width="80" height="50" fill="url(#i7p10p2brick)"/>
+    <rect x="320" y="360" width="46" height="50" fill="url(#i7p10p2brick)"/>
+  </g>
+
+  <!-- MORTAR JOINTS — pale lines (the ledges at fairy scale) -->
+  <g fill="url(#i7p10p2mortar)">
+    <rect x="0" y="50" width="366" height="10"/>
+    <rect x="0" y="110" width="366" height="10"/>
+    <rect x="0" y="170" width="366" height="10"/>
+    <rect x="0" y="230" width="366" height="10"/>
+    <rect x="0" y="290" width="366" height="10"/>
+    <rect x="0" y="350" width="366" height="10"/>
+  </g>
+
+  <!-- Vertical mortar joints (offset by course) -->
+  <g fill="url(#i7p10p2mortar)" opacity="0.85">
+    <rect x="76" y="0" width="8" height="50"/>
+    <rect x="156" y="0" width="8" height="50"/>
+    <rect x="236" y="0" width="8" height="50"/>
+    <rect x="316" y="0" width="8" height="50"/>
+    <rect x="36" y="60" width="8" height="50"/>
+    <rect x="116" y="60" width="8" height="50"/>
+    <rect x="196" y="60" width="8" height="50"/>
+    <rect x="276" y="60" width="8" height="50"/>
+    <rect x="76" y="120" width="8" height="50"/>
+    <rect x="156" y="120" width="8" height="50"/>
+    <rect x="236" y="120" width="8" height="50"/>
+    <rect x="316" y="120" width="8" height="50"/>
+    <rect x="36" y="180" width="8" height="50"/>
+    <rect x="116" y="180" width="8" height="50"/>
+    <rect x="196" y="180" width="8" height="50"/>
+    <rect x="276" y="180" width="8" height="50"/>
+    <rect x="76" y="240" width="8" height="50"/>
+    <rect x="156" y="240" width="8" height="50"/>
+    <rect x="236" y="240" width="8" height="50"/>
+    <rect x="316" y="240" width="8" height="50"/>
+    <rect x="36" y="300" width="8" height="50"/>
+    <rect x="116" y="300" width="8" height="50"/>
+    <rect x="196" y="300" width="8" height="50"/>
+    <rect x="276" y="300" width="8" height="50"/>
+    <rect x="76" y="360" width="8" height="50"/>
+    <rect x="156" y="360" width="8" height="50"/>
+    <rect x="236" y="360" width="8" height="50"/>
+    <rect x="316" y="360" width="8" height="50"/>
+  </g>
+
+  <!-- Brick texture -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M20,30 L60,30"/>
+    <path d="M100,90 L140,90"/>
+    <path d="M180,150 L220,150"/>
+    <path d="M260,30 L300,30"/>
+    <path d="M40,210 L80,210"/>
+  </g>
+
+  <!-- ===== LIGHTNING CONDUCTOR running down LEFT side ===== -->
+  <line x1="40" y1="0" x2="40" y2="410" stroke="url(#i7p10p2iron)" stroke-width="2.4"/>
+  <!-- Iron brackets at intervals -->
+  <rect x="34" y="120" width="14" height="6" fill="url(#i7p10p2iron)"/>
+  <rect x="34" y="240" width="14" height="6" fill="url(#i7p10p2iron)"/>
+  <!-- Bolt heads on brackets -->
+  <circle cx="36" cy="123" r="1" fill="#5a5860"/>
+  <circle cx="46" cy="123" r="1" fill="#5a5860"/>
+  <circle cx="36" cy="243" r="1" fill="#5a5860"/>
+  <circle cx="46" cy="243" r="1" fill="#5a5860"/>
+
+  <!-- ===== SABLE — upper, reaching DOWN to help ===== -->
+  <g transform="translate(140 120)">
+    <!-- Halo -->
+    <ellipse cx="0" cy="0" rx="40" ry="30" fill="url(#i7p10p2suitGlow)" filter="url(#i7p10p2strongglow)"/>
+
+    <!-- Body climbing — leg up over mortar ledge -->
+    <path d="M-12,30 L-9,-30 L-2,-50 L0,-30 Z" fill="url(#i7p10p2suitS)"/>
+    <path d="M12,30 L14,0 L7,-20 L0,-30 Z" fill="url(#i7p10p2suitS)"/>
+    <ellipse cx="-9" cy="30" rx="6" ry="3" fill="#1a1c20"/>
+    <ellipse cx="14" cy="0" rx="6" ry="3" fill="#1a1c20"/>
+
+    <!-- Torso -->
+    <path d="M-14,-50 L-18,-110 L-9,-130 L9,-130 L18,-110 L14,-50 Z" fill="url(#i7p10p2suitS)"/>
+    <line x1="0" y1="-130" x2="0" y2="-50" stroke="#a8c0e8" stroke-width="0.4" opacity="0.85" filter="url(#i7p10p2bloom)"/>
+    <ellipse cx="14" cy="-110" rx="6" ry="3" fill="#1a1814" opacity="0.85"/>
+    <line x1="-3" y1="-128" x2="-2" y2="-122" stroke="#0a0a14" stroke-width="0.4"/>
+    <line x1="3" y1="-128" x2="2" y2="-122" stroke="#0a0a14" stroke-width="0.4"/>
+
+    <!-- LEFT arm anchored gripping mortar above -->
+    <path d="M-18,-110 L-30,-140 L-22,-160 L-12,-140 Z" fill="url(#i7p10p2suitS)"/>
+    <ellipse cx="-30" cy="-160" rx="6" ry="3" fill="url(#i7p10p2skin)"/>
+    <!-- RIGHT arm REACHING DOWN to Wren -->
+    <path d="M18,-110 L40,-80 L60,-50 L60,-40 L36,-66 L14,-90 Z" fill="url(#i7p10p2suitS)"/>
+    <ellipse cx="60" cy="-44" rx="9" ry="5" fill="url(#i7p10p2skin)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-148" rx="14" ry="14" fill="url(#i7p10p2skin)"/>
+    <path d="M-12,-160 Q-12,-164 0,-166 Q12,-164 12,-160 L12,-156 Q6,-160 0,-160 Q-6,-160 -12,-156 Z" fill="#d8e4f8" filter="url(#i7p10p2bloom)"/>
+    <!-- Eyes looking DOWN -->
+    <ellipse cx="-4" cy="-146" rx="2" ry="1" fill="#fff8e8"/>
+    <ellipse cx="4" cy="-146" rx="2" ry="1" fill="#fff8e8"/>
+    <ellipse cx="-3" cy="-145" rx="1" ry="0.7" fill="#1a1c30"/>
+    <ellipse cx="5" cy="-145" rx="1" ry="0.7" fill="#1a1c30"/>
+    <!-- Brow focused -->
+    <path d="M-9,-156 Q-3,-158 0,-156" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M9,-156 Q3,-158 0,-156" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <!-- Mouth speaking -->
+    <line x1="-2" y1="-138" x2="2" y2="-138" stroke="#0a0604" stroke-width="0.55"/>
+    <circle cx="14" cy="-148" r="1" fill="#a8c0e8" filter="url(#i7p10p2bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ===== WREN — lower, climbing with lens disc ===== -->
+  <g transform="translate(220 280)">
+    <!-- Halo -->
+    <ellipse cx="0" cy="0" rx="50" ry="40" fill="url(#i7p10p2copperGlow)" filter="url(#i7p10p2strongglow)"/>
+
+    <!-- LENS DISC strapped to back (huge at fairy scale) -->
+    <ellipse cx="-10" cy="-30" rx="32" ry="11" fill="#fff8c8" opacity="0.55" filter="url(#i7p10p2bloom)"/>
+    <ellipse cx="-10" cy="-30" rx="32" ry="11" fill="none" stroke="#fff8c8" stroke-width="0.85" filter="url(#i7p10p2bloom)"/>
+    <ellipse cx="-10" cy="-30" rx="22" ry="7" fill="none" stroke="#ffd898" stroke-width="0.55" opacity="0.85"/>
+    <ellipse cx="-10" cy="-30" rx="14" ry="5" fill="none" stroke="#fff8c8" stroke-width="0.55" opacity="0.7"/>
+    <!-- Harness straps -->
+    <line x1="-32" y1="-40" x2="-22" y2="-12" stroke="#3a1808" stroke-width="1"/>
+    <line x1="14" y1="-40" x2="22" y2="-12" stroke="#3a1808" stroke-width="1"/>
+
+    <!-- Body climbing -->
+    <path d="M-9,30 L-12,-12 L-2,-30 L0,-12 Z" fill="url(#i7p10p2suitW)"/>
+    <path d="M9,30 L12,-12 L2,-30 L0,-12 Z" fill="url(#i7p10p2suitW)"/>
+    <ellipse cx="-9" cy="30" rx="6" ry="3" fill="#1a0c04"/>
+    <ellipse cx="9" cy="30" rx="6" ry="3" fill="#1a0c04"/>
+    <!-- Knee dust -->
+    <ellipse cx="-2" cy="-26" rx="6" ry="2" fill="#1a0c04" opacity="0.85"/>
+
+    <!-- Torso -->
+    <path d="M-14,-30 L-18,-90 L-9,-110 L9,-110 L18,-90 L14,-30 Z" fill="url(#i7p10p2suitW)"/>
+    <line x1="0" y1="-110" x2="0" y2="-30" stroke="#f0c898" stroke-width="0.4" opacity="0.85" filter="url(#i7p10p2bloom)"/>
+    <ellipse cx="-12" cy="-60" rx="6" ry="3" fill="#0a0604" opacity="0.85"/>
+
+    <!-- LEFT arm reaching UP toward Sable -->
+    <path d="M-18,-90 L-30,-110 L-50,-130 L-50,-122 L-30,-100 L-12,-78 Z" fill="url(#i7p10p2suitW)"/>
+    <ellipse cx="-50" cy="-126" rx="6" ry="3" fill="url(#i7p10p2skinW)"/>
+
+    <!-- RIGHT arm gripping below -->
+    <path d="M18,-90 L24,-50 L18,-30 L12,-60 Z" fill="url(#i7p10p2suitW)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-128" rx="9" ry="11" fill="url(#i7p10p2skinW)"/>
+    <ellipse cx="0" cy="-140" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-7,-138 Q-5,-144 0,-145 Q5,-144 7,-138 L7,-134 Q4,-138 0,-138 Q-4,-138 -7,-134 Z" fill="#1a0a04"/>
+    <!-- Eyes looking UP -->
+    <ellipse cx="-3" cy="-128" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="3" cy="-128" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="-3" cy="-130" rx="0.85" ry="0.55" fill="#1a0c04"/>
+    <ellipse cx="3" cy="-130" rx="0.85" ry="0.55" fill="#1a0c04"/>
+    <!-- Brow focused/strained -->
+    <path d="M-7,-134 Q-3,-136 0,-134" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M7,-134 Q3,-136 0,-134" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <!-- Mouth pressed (strained) -->
+    <line x1="-2" y1="-122" x2="2" y2="-122" stroke="#3a1808" stroke-width="0.55"/>
+    <circle cx="9" cy="-128" r="1" fill="#d89858" filter="url(#i7p10p2bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- SABLE -->
+  <g>
+    <rect x="14" y="14" width="280" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="100,54 112,54 104,64" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="100.5" y1="54" x2="111.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Conductor bracket. Step on the bolt head.</text>
+
+  <!-- WREN -->
+  <g>
+    <rect x="14" y="350" width="180" height="34" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,350 92,350 84,340" fill="white" stroke="#c87a35" stroke-width="0.85"/>
+    <line x1="80.5" y1="350" x2="91.5" y2="350" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="368" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="22" y="382" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I see it.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q100,202 200,198 Q280,196 366,200"/>
+    <path d="M0,330 Q100,332 200,328 Q280,326 366,330"/>
+  </g>
+</svg>

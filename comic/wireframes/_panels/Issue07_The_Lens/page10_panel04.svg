@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 410" width="366" height="410">
+  <title>Issue 7 — Page 10 — Panel 4: Iron gallery — Sable to door, Wren leans on railing catching breath, abyss below grating</title>
+  <desc>35mm low fairy scale gallery walkway. Two tiny figures pulled over gallery railing — diamond-patterned iron grating each hole step-through. Sable pewter-grey moves toward iron door. Wren copper leans iron railing lens harness back catching breath. Through grating below — dark pier black water dizzyingly far. Gallery washed amber light from lamp above. Stars cloud breaks above.</desc>
+
+  <defs>
+    <linearGradient id="i7p10p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0608"/>
+    </linearGradient>
+    <linearGradient id="i7p10p4iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i7p10p4ambientAmber" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p10p4suitS" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0c0"/>
+      <stop offset="100%" stop-color="#506068"/>
+    </linearGradient>
+    <linearGradient id="i7p10p4suitW" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89858"/>
+      <stop offset="100%" stop-color="#5a2810"/>
+    </linearGradient>
+    <linearGradient id="i7p10p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3a28"/>
+    </linearGradient>
+    <linearGradient id="i7p10p4skinW" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i7p10p4water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <filter id="i7p10p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p10p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p10p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p10p4softfocus"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <rect width="366" height="410" fill="url(#i7p10p4bg)"/>
+
+  <!-- Sky upper portion -->
+  <rect x="0" y="0" width="366" height="100" fill="#0a0c1a"/>
+  <g fill="#fff" opacity="0.55">
+    <circle cx="60" cy="20" r="0.55"/>
+    <circle cx="180" cy="40" r="0.4"/>
+    <circle cx="300" cy="20" r="0.55"/>
+  </g>
+
+  <!-- Amber wash from lamp directly above -->
+  <ellipse cx="183" cy="0" rx="280" ry="180" fill="url(#i7p10p4ambientAmber)" filter="url(#i7p10p4strongglow)"/>
+
+  <!-- ===== LAMP ROOM WALL (background — iron) ===== -->
+  <rect x="0" y="100" width="366" height="120" fill="url(#i7p10p4iron)"/>
+  <line x1="0" y1="100" x2="366" y2="100" stroke="#0a0408" stroke-width="0.85"/>
+  <!-- Iron wall texture -->
+  <g stroke="#0a0408" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,140 L366,140"/>
+    <path d="M0,180 L366,180"/>
+    <line x1="80" y1="100" x2="80" y2="220"/>
+    <line x1="160" y1="100" x2="160" y2="220"/>
+    <line x1="240" y1="100" x2="240" y2="220"/>
+  </g>
+  <!-- Iron rivets -->
+  <g fill="#5a5860">
+    <circle cx="80" cy="120" r="1.4"/>
+    <circle cx="80" cy="160" r="1.4"/>
+    <circle cx="80" cy="200" r="1.4"/>
+    <circle cx="160" cy="120" r="1.4"/>
+    <circle cx="160" cy="160" r="1.4"/>
+    <circle cx="160" cy="200" r="1.4"/>
+    <circle cx="240" cy="120" r="1.4"/>
+    <circle cx="240" cy="160" r="1.4"/>
+    <circle cx="240" cy="200" r="1.4"/>
+  </g>
+
+  <!-- IRON DOOR (where Sable moves toward, mid-right of wall) -->
+  <rect x="220" y="120" width="80" height="100" fill="url(#i7p10p4iron)" stroke="#0a0408" stroke-width="1"/>
+  <!-- Door panels -->
+  <rect x="225" y="125" width="70" height="40" fill="#1a1818" stroke="#0a0408" stroke-width="0.55"/>
+  <rect x="225" y="170" width="70" height="45" fill="#1a1818" stroke="#0a0408" stroke-width="0.55"/>
+  <!-- Door handle -->
+  <rect x="285" y="170" width="10" height="3" fill="#5a5860" stroke="#0a0408" stroke-width="0.4"/>
+  <!-- Iron hinges -->
+  <rect x="220" y="130" width="6" height="14" fill="#0a0408"/>
+  <rect x="220" y="190" width="6" height="14" fill="#0a0408"/>
+
+  <!-- ===== IRON GALLERY GRATING (foreground floor) ===== -->
+  <rect x="0" y="220" width="366" height="80" fill="#1a1818"/>
+  <!-- Diamond grating pattern -->
+  <g stroke="#5a5860" stroke-width="0.7" opacity="0.85" fill="none">
+    <path d="M0,240 L40,220 L80,240 L120,220 L160,240 L200,220 L240,240 L280,220 L320,240 L366,220"/>
+    <path d="M0,260 L40,240 L80,260 L120,240 L160,260 L200,240 L240,260 L280,240 L320,260 L366,240"/>
+    <path d="M0,260 L40,280 L80,260 L120,280 L160,260 L200,280 L240,260 L280,280 L320,260 L366,280"/>
+    <path d="M0,280 L40,300 L80,280 L120,300 L160,280 L200,300 L240,280 L280,300 L320,280 L366,300"/>
+  </g>
+  <!-- Black voids visible through grating -->
+  <g fill="#000" opacity="0.85">
+    <polygon points="20,240 40,220 60,240 40,260"/>
+    <polygon points="100,240 120,220 140,240 120,260"/>
+    <polygon points="180,240 200,220 220,240 200,260"/>
+    <polygon points="260,240 280,220 300,240 280,260"/>
+    <polygon points="60,280 80,260 100,280 80,300"/>
+    <polygon points="140,280 160,260 180,280 160,300"/>
+    <polygon points="220,280 240,260 260,280 240,300"/>
+  </g>
+  <!-- BLACK WATER + PIER far below visible through grating -->
+  <g filter="url(#i7p10p4softfocus)" opacity="0.85">
+    <rect x="0" y="280" width="366" height="40" fill="url(#i7p10p4water)"/>
+    <ellipse cx="183" cy="290" rx="60" ry="3" fill="#1a1818"/>
+  </g>
+
+  <!-- ===== IRON RAILING (foreground edge) ===== -->
+  <rect x="0" y="300" width="366" height="6" fill="url(#i7p10p4iron)"/>
+  <line x1="0" y1="300" x2="366" y2="300" stroke="#5a5860" stroke-width="0.85" filter="url(#i7p10p4bloom)" opacity="0.85"/>
+  <!-- Railing posts -->
+  <line x1="20" y1="306" x2="20" y2="380" stroke="#0a0408" stroke-width="2"/>
+  <line x1="100" y1="306" x2="100" y2="380" stroke="#0a0408" stroke-width="2"/>
+  <line x1="266" y1="306" x2="266" y2="380" stroke="#0a0408" stroke-width="2"/>
+  <line x1="346" y1="306" x2="346" y2="380" stroke="#0a0408" stroke-width="2"/>
+  <!-- Lower railing -->
+  <rect x="0" y="378" width="366" height="6" fill="url(#i7p10p4iron)"/>
+
+  <!-- Floor of gallery (foreground) -->
+  <rect x="0" y="384" width="366" height="26" fill="#1a1818"/>
+
+  <!-- ===== SABLE — moving RIGHT toward iron door ===== -->
+  <g transform="translate(190 240)">
+    <ellipse cx="0" cy="2" rx="9" ry="2" fill="#000" opacity="0.7"/>
+    <!-- Mid-stride forward -->
+    <ellipse cx="-7" cy="0" rx="5" ry="2" fill="#1a1c20"/>
+    <ellipse cx="9" cy="2" rx="5" ry="2" fill="#1a1c20"/>
+    <path d="M-9,-2 L-12,-30 L-2,-50 L0,-30 Z" fill="url(#i7p10p4suitS)"/>
+    <path d="M9,2 L12,-32 L2,-50 L-2,-30 Z" fill="url(#i7p10p4suitS)"/>
+
+    <!-- Torso -->
+    <path d="M-12,-50 L-14,-90 L-7,-110 L7,-110 L14,-90 L12,-50 Z" fill="url(#i7p10p4suitS)"/>
+    <line x1="0" y1="-110" x2="0" y2="-50" stroke="#d8e4f8" stroke-width="0.4" opacity="0.85" filter="url(#i7p10p4bloom)"/>
+    <ellipse cx="9" cy="-94" rx="4" ry="2" fill="#1a1814" opacity="0.85"/>
+
+    <!-- Arms -->
+    <path d="M-14,-90 L-22,-66 L-18,-50 L-9,-66 Z" fill="url(#i7p10p4suitS)"/>
+    <path d="M14,-90 L24,-72 L20,-46 L9,-66 Z" fill="url(#i7p10p4suitS)"/>
+
+    <!-- Head looking right -->
+    <ellipse cx="2" cy="-126" rx="9" ry="11" fill="url(#i7p10p4skin)"/>
+    <path d="M-6,-138 Q-6,-142 2,-144 Q10,-142 10,-138 L10,-134 Q6,-138 2,-138 Q-2,-138 -6,-134 Z" fill="#d8e4f8" filter="url(#i7p10p4bloom)"/>
+    <ellipse cx="-1" cy="-126" rx="1" ry="0.7" fill="#fff8e8"/>
+    <ellipse cx="5" cy="-126" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="0" cy="-126" r="0.55" fill="#1a1c30"/>
+    <circle cx="6" cy="-126" r="0.55" fill="#1a1c30"/>
+    <line x1="-3" y1="-118" x2="6" y2="-118" stroke="#0a0604" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== WREN — leaning on railing, catching breath ===== -->
+  <g transform="translate(60 384)">
+    <ellipse cx="0" cy="2" rx="9" ry="2" fill="#000" opacity="0.55"/>
+    <!-- Boots -->
+    <ellipse cx="-7" cy="0" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="7" cy="0" rx="5" ry="2" fill="#1a0c04"/>
+
+    <!-- Legs (slightly bent — leaning) -->
+    <path d="M-9,-2 L-12,-30 L-3,-50 L0,-30 Z" fill="url(#i7p10p4suitW)"/>
+    <path d="M9,-2 L12,-30 L3,-50 L0,-30 Z" fill="url(#i7p10p4suitW)"/>
+
+    <!-- LENS DISC strapped to back (visible silhouette) -->
+    <ellipse cx="-3" cy="-66" rx="22" ry="9" fill="#fff8c8" opacity="0.55" filter="url(#i7p10p4bloom)"/>
+    <ellipse cx="-3" cy="-66" rx="22" ry="9" fill="none" stroke="#fff8c8" stroke-width="0.85" filter="url(#i7p10p4bloom)"/>
+    <ellipse cx="-3" cy="-66" rx="14" ry="6" fill="none" stroke="#ffd898" stroke-width="0.55" opacity="0.85"/>
+    <line x1="-22" y1="-72" x2="-12" y2="-50" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="14" y1="-72" x2="9" y2="-50" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- Torso slightly leaning forward against railing -->
+    <path d="M-12,-50 L-16,-90 L-7,-110 L7,-110 L16,-90 L12,-50 Z" fill="url(#i7p10p4suitW)"/>
+    <line x1="0" y1="-110" x2="0" y2="-50" stroke="#f0c898" stroke-width="0.4" opacity="0.85" filter="url(#i7p10p4bloom)"/>
+    <ellipse cx="-12" cy="-66" rx="6" ry="2" fill="#0a0604" opacity="0.85"/>
+
+    <!-- LEFT arm gripping railing -->
+    <path d="M-16,-90 L-26,-50 L-22,-30 L-12,-66 Z" fill="url(#i7p10p4suitW)"/>
+    <ellipse cx="-22" cy="-30" rx="6" ry="3" fill="url(#i7p10p4skinW)"/>
+    <!-- RIGHT arm at side -->
+    <path d="M16,-90 L22,-66 L18,-50 L12,-66 Z" fill="url(#i7p10p4suitW)"/>
+
+    <!-- Head — head DOWN, catching breath -->
+    <ellipse cx="0" cy="-128" rx="9" ry="11" fill="url(#i7p10p4skinW)"/>
+    <ellipse cx="0" cy="-140" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-6,-138 Q-4,-144 0,-145 Q4,-144 6,-138 L6,-134 Q3,-138 0,-138 Q-3,-138 -6,-134 Z" fill="#1a0a04"/>
+    <!-- Eyes downcast -->
+    <ellipse cx="-2" cy="-126" rx="1.4" ry="0.4" fill="#fff"/>
+    <ellipse cx="2" cy="-126" rx="1.4" ry="0.4" fill="#fff"/>
+    <line x1="-3" y1="-126" x2="-1" y2="-126" stroke="#1a0c04" stroke-width="0.4"/>
+    <line x1="1" y1="-126" x2="3" y2="-126" stroke="#1a0c04" stroke-width="0.4"/>
+    <!-- Mouth open (panting) -->
+    <ellipse cx="0" cy="-118" rx="1.4" ry="0.85" fill="#3a1808"/>
+  </g>
+
+  <!-- SABLE -->
+  <g>
+    <rect x="14" y="14" width="220" height="34" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,48 92,48 84,58" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="80.5" y1="48" x2="91.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Jink, the latch.</text>
+
+  <!-- JINK off-panel -->
+  <g>
+    <rect x="14" y="64" width="338" height="40" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="80" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(other side, comms)</tspan></text>
+  <text x="22" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Working on it. Victorian ironwork.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q100,182 200,178 Q280,176 366,180"/>
+    <path d="M0,330 Q100,332 200,328 Q280,326 366,330"/>
+  </g>
+</svg>
