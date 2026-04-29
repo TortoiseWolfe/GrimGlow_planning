@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 6 — Page 11 — Panel 3: Theodore's face under-lit by Luma's scanner — alien blue-violet on familiar features</title>
+  <desc>50mm MCU slight low angle. Theodore's face lit ENTIRELY from below by Luma's scanner light on his palm. Geometric upward shadows make familiar boy strange. Eyes scanning the dark beyond. Fear managed by purpose. Partnership overrides instinct.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p11p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0608"/>
+      <stop offset="100%" stop-color="#020108"/>
+    </linearGradient>
+    <radialGradient id="i6p11p3underLight" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#5a3ad8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2a1058" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p11p3leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p11p3linen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a6c50"/>
+      <stop offset="100%" stop-color="#5a4838"/>
+    </linearGradient>
+    <filter id="i6p11p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p11p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#i6p11p3bg)"/>
+
+  <!-- Heavy underlight wash from below -->
+  <ellipse cx="183" cy="364" rx="280" ry="240" fill="url(#i6p11p3underLight)" filter="url(#i6p11p3glow)"/>
+
+  <!-- ===== THEODORE — large MCU, under-lit dramatically ===== -->
+  <!-- Linen + leather at bottom (chest, only partially lit) -->
+  <path d="M0,300 L120,290 L246,290 L366,300 L366,364 L0,364 Z" fill="url(#i6p11p3linen)"/>
+  <path d="M0,310 L60,305 L60,364 L0,364 Z" fill="url(#i6p11p3leather)"/>
+  <path d="M306,305 L366,310 L366,364 L306,364 Z" fill="url(#i6p11p3leather)"/>
+  <!-- Pocket EMPTY at bottom-right (Luma is OUT in his hand) -->
+  <rect x="306" y="320" width="22" height="34" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+  <!-- Underglow on chin/throat blue-violet -->
+  <ellipse cx="183" cy="280" rx="100" ry="14" fill="#a888ff" opacity="0.45" filter="url(#i6p11p3bloom)"/>
+
+  <g transform="translate(183 220)">
+    <!-- Neck -->
+    <path d="M-20,60 L20,60 L24,80 L-24,80 Z" fill="#a87838"/>
+
+    <!-- HEAD — full size -->
+    <ellipse cx="0" cy="-30" rx="100" ry="120" fill="#a87838"/>
+
+    <!-- BLUE-VIOLET WASH on lower face (chin, mouth, lower cheeks, underside of nose) -->
+    <ellipse cx="0" cy="40" rx="80" ry="40" fill="#a888ff" opacity="0.55" filter="url(#i6p11p3bloom)"/>
+    <ellipse cx="0" cy="20" rx="60" ry="30" fill="#a888ff" opacity="0.4"/>
+    <!-- DARK ZONES on upper face (forehead, eye sockets, above nose) -->
+    <ellipse cx="0" cy="-100" rx="80" ry="22" fill="#1a0c20" opacity="0.85"/>
+    <ellipse cx="-32" cy="-50" rx="22" ry="14" fill="#1a0c20" opacity="0.7"/>
+    <ellipse cx="32" cy="-50" rx="22" ry="14" fill="#1a0c20" opacity="0.7"/>
+
+    <!-- HAIR — sandy-brown but very dark in this lighting -->
+    <path d="M-90,-40 Q-90,-100 -40,-120 Q0,-128 40,-120 Q90,-100 90,-40 L86,-12 Q50,-50 0,-50 Q-50,-50 -86,-12 Z" fill="#5a3818"/>
+    <path d="M-30,-118 L-25,-128 L-20,-118 Z" fill="#5a3818"/>
+    <path d="M-5,-128 L0,-138 L5,-128 Z" fill="#5a3818"/>
+    <path d="M20,-120 L26,-130 L32,-118 Z" fill="#5a3818"/>
+
+    <!-- EYES — wide, scanning the dark beyond -->
+    <ellipse cx="-30" cy="-30" rx="11" ry="5" fill="#fff8e8"/>
+    <circle cx="-32" cy="-30" r="3.4" fill="#5a3818"/>
+    <circle cx="-32" cy="-30" r="0.85" fill="#a888ff" filter="url(#i6p11p3bloom)" opacity="0.85"/>
+    <circle cx="-31" cy="-31" r="0.55" fill="#fff8ff"/>
+    <ellipse cx="30" cy="-30" rx="11" ry="5" fill="#fff8e8"/>
+    <circle cx="32" cy="-30" r="3.4" fill="#5a3818"/>
+    <circle cx="32" cy="-30" r="0.85" fill="#a888ff" filter="url(#i6p11p3bloom)" opacity="0.85"/>
+    <circle cx="33" cy="-31" r="0.55" fill="#fff8ff"/>
+    <!-- Eyelids -->
+    <path d="M-42,-34 L-18,-32" stroke="#1a0c04" stroke-width="1.4"/>
+    <path d="M-42,-26 L-18,-26" stroke="#3a1808" stroke-width="0.85"/>
+    <path d="M18,-32 L42,-34" stroke="#1a0c04" stroke-width="1.4"/>
+    <path d="M18,-26 L42,-26" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- Brows DARK -->
+    <path d="M-44,-42 L-20,-44" stroke="#3a1808" stroke-width="2.4"/>
+    <path d="M20,-44 L44,-42" stroke="#3a1808" stroke-width="2.4"/>
+
+    <!-- FRECKLES — barely visible in this light -->
+    <circle cx="-22" cy="-10" r="0.7" fill="#5a3018"/>
+    <circle cx="-12" cy="-8" r="0.7" fill="#5a3018"/>
+    <circle cx="0" cy="-6" r="0.7" fill="#5a3018"/>
+    <circle cx="12" cy="-8" r="0.7" fill="#5a3018"/>
+    <circle cx="22" cy="-10" r="0.7" fill="#5a3018"/>
+
+    <!-- NOSE — UPWARD shadow above nose (geometric) — UNDERLIT means nostrils + tip bright -->
+    <path d="M-2,-25 L-6,5 L0,12 L6,5 L2,-25 Z" fill="#7a4828"/>
+    <path d="M-2,-25 L-4,-12 L0,-8 L4,-12 L2,-25 Z" fill="#1a0c20" opacity="0.65"/>
+    <line x1="-6" y1="5" x2="6" y2="5" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+    <!-- Nose tip catching scanner blue-violet from below -->
+    <ellipse cx="0" cy="10" rx="6" ry="2" fill="#a888ff" opacity="0.55" filter="url(#i6p11p3bloom)"/>
+
+    <!-- MOUTH — slightly parted (controlled breathing) -->
+    <path d="M-12,30 L12,30" stroke="#3a1808" stroke-width="1.4"/>
+    <path d="M-10,34 L10,34" stroke="#3a1808" stroke-width="0.7" opacity="0.7"/>
+    <!-- Upper lip line -->
+    <path d="M-6,28 Q0,30 6,28" stroke="#3a1808" stroke-width="0.4" fill="none" opacity="0.55"/>
+
+    <!-- CHEEKBONES catching scanner light underneath (geometric upward shadows) -->
+    <ellipse cx="-50" cy="20" rx="14" ry="6" fill="#a888ff" opacity="0.45" filter="url(#i6p11p3bloom)"/>
+    <ellipse cx="50" cy="20" rx="14" ry="6" fill="#a888ff" opacity="0.45" filter="url(#i6p11p3bloom)"/>
+
+    <!-- Jaw line catching cool light from below -->
+    <ellipse cx="0" cy="60" rx="44" ry="5" fill="#a888ff" opacity="0.55" filter="url(#i6p11p3bloom)"/>
+    <path d="M-44,55 Q-22,68 0,70 Q22,68 44,55" stroke="#a888ff" stroke-width="1" fill="none" opacity="0.85" filter="url(#i6p11p3bloom)"/>
+  </g>
+
+  <!-- THEODORE dialogue (whisper) -->
+  <g>
+    <rect x="14" y="14" width="332" height="56" rx="2" fill="white" stroke="#6a4220" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="160,70 172,70 164,80" fill="white" stroke="#6a4220" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="160.5" y1="70" x2="171.5" y2="70" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700" font-style="italic">THEODORE (whisper)</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Luma. I can see something on the far</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">pillar. Writing, maybe.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q120,92 240,88 Q330,86 366,90"/>
+    <path d="M0,300 Q120,302 240,298 Q330,296 366,300"/>
+  </g>
+</svg>

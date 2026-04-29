@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 6 — Page 11 — Panel 2: Luma scans interior claw marks — residue concentration 10× outside, lair</title>
+  <desc>85mm CU eye level. Luma standing on Theodore's palm. Scanner beam projects depth analysis + residue composition onto claw marks. Iridescent residue THICK in grooves — bruise-purple + black, pulsing. Grim focus.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p11p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0608"/>
+      <stop offset="100%" stop-color="#020108"/>
+    </linearGradient>
+    <linearGradient id="i6p11p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i6p11p2lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p11p2scannerCone" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#5a3ad8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2a1058" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p11p2residuePulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5a3a78" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a0c20" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p11p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p11p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#i6p11p2bg)"/>
+
+  <!-- Brick wall surface dominant — close-up of the claw-marked area -->
+  <rect width="366" height="280" fill="url(#i6p11p2brick)"/>
+  <!-- Mortar grid (large brick pattern this close) -->
+  <g stroke="#0a0408" stroke-width="0.85" opacity="0.85">
+    <line x1="0" y1="40" x2="366" y2="40"/>
+    <line x1="0" y1="90" x2="366" y2="90"/>
+    <line x1="0" y1="140" x2="366" y2="140"/>
+    <line x1="0" y1="190" x2="366" y2="190"/>
+    <line x1="0" y1="240" x2="366" y2="240"/>
+    <!-- Vertical mortar staggered -->
+    <line x1="80" y1="0" x2="80" y2="40"/>
+    <line x1="180" y1="0" x2="180" y2="40"/>
+    <line x1="280" y1="0" x2="280" y2="40"/>
+    <line x1="40" y1="40" x2="40" y2="90"/>
+    <line x1="140" y1="40" x2="140" y2="90"/>
+    <line x1="240" y1="40" x2="240" y2="90"/>
+    <line x1="340" y1="40" x2="340" y2="90"/>
+    <line x1="80" y1="90" x2="80" y2="140"/>
+    <line x1="180" y1="90" x2="180" y2="140"/>
+    <line x1="280" y1="90" x2="280" y2="140"/>
+    <line x1="40" y1="140" x2="40" y2="190"/>
+    <line x1="140" y1="140" x2="140" y2="190"/>
+    <line x1="240" y1="140" x2="240" y2="190"/>
+    <line x1="340" y1="140" x2="340" y2="190"/>
+  </g>
+  <!-- Soot streaks vertical -->
+  <g stroke="#0a0408" stroke-width="2.4" opacity="0.55" fill="none">
+    <line x1="60" y1="0" x2="60" y2="200"/>
+    <line x1="160" y1="0" x2="160" y2="200"/>
+    <line x1="320" y1="0" x2="320" y2="200"/>
+  </g>
+
+  <!-- Pulsing residue glow halo (bigger than P9 outside marks) -->
+  <ellipse cx="183" cy="120" rx="180" ry="100" fill="url(#i6p11p2residuePulse)" filter="url(#i6p11p2glow)" opacity="0.85"/>
+
+  <!-- ===== CLAW MARKS — DOMINANT, deep, thick residue ===== -->
+  <g transform="translate(183 120)">
+    <!-- Pale clay revealed beneath each gouge — wide and deep -->
+    <path d="M-90,-50 L-50,90" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <path d="M-50,-50 L-10,90" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <path d="M-10,-50 L30,90" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <path d="M30,-50 L70,90" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <!-- Lighter clay highlight catching scanner light -->
+    <path d="M-90,-50 L-50,90" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <path d="M-50,-50 L-10,90" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <path d="M-10,-50 L30,90" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <path d="M30,-50 L70,90" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <!-- Inner darker gouge core -->
+    <path d="M-89,-48 L-52,86" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <path d="M-49,-48 L-12,86" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <path d="M-9,-48 L28,86" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <path d="M31,-48 L68,86" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <!-- THICK iridescent residue in grooves — much more concentrated than outside -->
+    <path d="M-89,-48 L-52,86" stroke="#5a3a78" stroke-width="3.4" opacity="0.85" filter="url(#i6p11p2bloom)"/>
+    <path d="M-49,-48 L-12,86" stroke="#5a3a78" stroke-width="3.4" opacity="0.85" filter="url(#i6p11p2bloom)"/>
+    <path d="M-9,-48 L28,86" stroke="#5a3a78" stroke-width="3.4" opacity="0.85" filter="url(#i6p11p2bloom)"/>
+    <path d="M31,-48 L68,86" stroke="#5a3a78" stroke-width="3.4" opacity="0.85" filter="url(#i6p11p2bloom)"/>
+    <!-- Heavy bruise-purple flecks -->
+    <g fill="#3a1828" opacity="0.95" filter="url(#i6p11p2bloom)">
+      <circle cx="-72" cy="-20" r="2.4"/>
+      <circle cx="-32" cy="-20" r="2.4"/>
+      <circle cx="8" cy="-20" r="2.4"/>
+      <circle cx="48" cy="-20" r="2.4"/>
+      <circle cx="-56" cy="20" r="2.4"/>
+      <circle cx="-16" cy="20" r="2.4"/>
+      <circle cx="24" cy="20" r="2.4"/>
+      <circle cx="64" cy="20" r="2.4"/>
+      <circle cx="-44" cy="60" r="2"/>
+      <circle cx="-4" cy="60" r="2"/>
+      <circle cx="36" cy="60" r="2"/>
+      <circle cx="76" cy="60" r="2"/>
+    </g>
+    <g fill="#7a3a78" opacity="0.7" filter="url(#i6p11p2bloom)">
+      <circle cx="-65" cy="0" r="1.4"/>
+      <circle cx="-25" cy="0" r="1.4"/>
+      <circle cx="15" cy="0" r="1.4"/>
+      <circle cx="55" cy="0" r="1.4"/>
+    </g>
+  </g>
+
+  <!-- HOLOGRAPHIC ANALYSIS HUD overlaid on marks -->
+  <g transform="translate(183 130)" filter="url(#i6p11p2bloom)" opacity="0.95">
+    <!-- Frame -->
+    <rect x="-130" y="80" width="260" height="80" fill="#1a0c20" opacity="0.85"/>
+    <rect x="-130" y="80" width="260" height="80" fill="none" stroke="#a888ff" stroke-width="2" opacity="0.95"/>
+    <rect x="-130" y="80" width="260" height="14" fill="#5a3ad8" opacity="0.85"/>
+    <text x="-124" y="90" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff" font-weight="700">DEEP ANALYSIS — INTERIOR MARKS</text>
+
+    <!-- Spectral comparison bar -->
+    <text x="-120" y="108" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#fff8ff">RESIDUE INTENSITY:</text>
+    <line x1="-120" y1="116" x2="120" y2="116" stroke="#fff8ff" stroke-width="0.55"/>
+    <!-- Outside reading (small) -->
+    <rect x="-120" y="113" width="22" height="6" fill="#a888ff" opacity="0.55"/>
+    <text x="-95" y="118" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#fff8ff">OUTSIDE</text>
+    <!-- Interior reading (10x — much bigger) -->
+    <rect x="-120" y="123" width="220" height="6" fill="#ff5868" opacity="0.85"/>
+    <text x="105" y="128" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#ff5868" font-weight="700">10×</text>
+
+    <!-- Time estimate -->
+    <text x="-120" y="142" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#fff8ff">EXPOSURE: WEEKS</text>
+    <text x="-120" y="152" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#ff5868" font-weight="700">CLASSIFICATION: LAIR</text>
+  </g>
+
+  <!-- ===== THEODORE'S PALM at bottom — Luma standing ===== -->
+  <rect x="0" y="280" width="366" height="84" fill="#a87838"/>
+  <!-- Palm creases -->
+  <path d="M0,310 Q120,316 240,310 Q330,304 366,308" stroke="#5a3028" stroke-width="0.85" fill="none" opacity="0.7"/>
+  <path d="M0,330 Q120,334 240,330 Q330,326 366,328" stroke="#5a3028" stroke-width="0.7" fill="none" opacity="0.55"/>
+  <line x1="120" y1="280" x2="80" y2="364" stroke="#5a3028" stroke-width="0.55" opacity="0.55"/>
+  <line x1="240" y1="280" x2="280" y2="364" stroke="#5a3028" stroke-width="0.55" opacity="0.55"/>
+  <!-- Oil stain on palm -->
+  <ellipse cx="100" cy="340" rx="14" ry="3" fill="#0a0604" opacity="0.65"/>
+  <ellipse cx="280" cy="340" rx="14" ry="3" fill="#0a0604" opacity="0.65"/>
+  <!-- Brass gear ring on extended index visible at bottom-right edge -->
+  <g transform="translate(330 350)">
+    <circle cx="0" cy="0" r="3" fill="none" stroke="#c89058" stroke-width="1.4" filter="url(#i6p11p2bloom)"/>
+    <circle cx="0" cy="0" r="3" fill="none" stroke="#a888ff" stroke-width="0.4" opacity="0.85" filter="url(#i6p11p2bloom)"/>
+  </g>
+
+  <!-- ===== LUMA standing on palm, scanner extended UP toward marks ===== -->
+  <g transform="translate(183 290)">
+    <!-- Body -->
+    <ellipse cx="-3" cy="11" rx="3" ry="1.4" fill="#0a0408"/>
+    <ellipse cx="4" cy="11" rx="3" ry="1.4" fill="#0a0408"/>
+    <rect x="-5" y="-2" width="3" height="13" fill="url(#i6p11p2lumaSuit)"/>
+    <rect x="3" y="-2" width="3" height="13" fill="url(#i6p11p2lumaSuit)"/>
+    <ellipse cx="-3" cy="6" rx="2" ry="0.85" fill="#5a3018" opacity="0.85"/>
+    <ellipse cx="4" cy="6" rx="2" ry="0.85" fill="#5a3018" opacity="0.85"/>
+    <!-- Torso -->
+    <path d="M-7,-2 L-7,-18 L7,-18 L7,-2 Z" fill="url(#i6p11p2lumaSuit)"/>
+    <line x1="-5" y1="-10" x2="5" y2="-10" stroke="#a888ff" stroke-width="0.55" opacity="0.85" filter="url(#i6p11p2bloom)"/>
+    <!-- Brick dust newly heavy -->
+    <ellipse cx="-5" cy="-4" rx="3" ry="1" fill="#5a3018" opacity="0.85"/>
+    <ellipse cx="5" cy="-4" rx="3" ry="1" fill="#5a3018" opacity="0.85"/>
+    <!-- Shoulders -->
+    <path d="M-7,-18 Q-5,-24 0,-26 Q5,-24 7,-18 Z" fill="url(#i6p11p2lumaSuit)"/>
+    <!-- Arms holding scanner extended UP -->
+    <path d="M-7,-18 L-13,-26 L-9,-30 L-2,-22 Z" fill="url(#i6p11p2lumaSuit)"/>
+    <path d="M7,-18 L13,-26 L9,-30 L2,-22 Z" fill="url(#i6p11p2lumaSuit)"/>
+    <!-- Scanner held above her head -->
+    <rect x="-9" y="-34" width="18" height="6" rx="0.7" fill="#3a2068" stroke="#a888ff" stroke-width="0.55"/>
+    <rect x="-7" y="-32" width="14" height="2.4" fill="#5a3ad8" filter="url(#i6p11p2bloom)"/>
+    <ellipse cx="0" cy="-32" rx="14" ry="3" fill="#a888ff" opacity="0.85" filter="url(#i6p11p2glow)"/>
+    <!-- Scanner BEAM upward toward marks (cone) -->
+    <path d="M-3,-34 L-100,-260 L100,-260 L3,-34 Z" fill="url(#i6p11p2scannerCone)" opacity="0.55" filter="url(#i6p11p2glow)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-40" rx="6" ry="7.5" fill="#7a4838"/>
+    <ellipse cx="0" cy="-37" rx="4" ry="2" fill="#a888ff" opacity="0.45" filter="url(#i6p11p2bloom)"/>
+    <!-- Hair -->
+    <path d="M-5,-46 Q-4,-50 0,-50 Q4,-50 5,-46 L5,-42 Q3,-44 0,-44 Q-3,-44 -5,-42 Z" fill="#0a0604"/>
+    <line x1="-2" y1="-48" x2="-1" y2="-50" stroke="#5a3ad8" stroke-width="0.55" opacity="0.85" filter="url(#i6p11p2bloom)"/>
+    <line x1="1" y1="-50" x2="2" y2="-48" stroke="#5a3ad8" stroke-width="0.55" opacity="0.85" filter="url(#i6p11p2bloom)"/>
+    <!-- Braid -->
+    <path d="M5,-42 Q9,-30 7,-18" stroke="#0a0604" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Lenses scrolling -->
+    <ellipse cx="-2" cy="-40" rx="2" ry="1.4" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="2" cy="-40" rx="2" ry="1.4" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="-2" cy="-40" rx="2" ry="1.4" fill="none" stroke="#a888ff" stroke-width="0.55" opacity="0.95" filter="url(#i6p11p2bloom)"/>
+    <ellipse cx="2" cy="-40" rx="2" ry="1.4" fill="none" stroke="#a888ff" stroke-width="0.55" opacity="0.95" filter="url(#i6p11p2bloom)"/>
+    <line x1="-3" y1="-41" x2="-1" y2="-39" stroke="#fff8ff" stroke-width="0.4" opacity="0.95"/>
+    <ellipse cx="-2" cy="-40" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <circle cx="-2" cy="-40" r="0.45" fill="#0a0604"/>
+    <ellipse cx="2" cy="-40" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <circle cx="2" cy="-40" r="0.45" fill="#0a0604"/>
+    <!-- Mouth — thin line, grim -->
+    <path d="M-2,-31 L2,-31" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- LUMA dialogue 1 -->
+  <g>
+    <rect x="14" y="14" width="338" height="56" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="160,70 172,70 164,80" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="160.5" y1="70" x2="171.5" y2="70" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">The residue concentration is ten times</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">what I found on the street.</text>
+
+  <!-- LUMA dialogue 2 -->
+  <g>
+    <rect x="14" y="222" width="338" height="56" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="160,222 172,222 164,212" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="160.5" y1="222" x2="171.5" y2="222" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="240" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="256" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">This wasn't a transit point. Something</text>
+  <text x="22" y="270" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">spent extended time in this space.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q120,92 240,88 Q330,86 366,90"/>
+    <path d="M0,300 Q120,302 240,298 Q330,296 366,300"/>
+  </g>
+</svg>
