@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 7 — Page 11 — Panel 4: Wren on brass framework — holographic light-blade at the first pin, replacement lens visible below</title>
+  <desc>35mm slight high angle fairy scale. Wren climbed brass framework lens assembly to reach third concentric ring. Level with mounting pins — four brass spring-loaded. Each pin thick as her arm. Positioned holographic tool — geometric light-blade — at first pin preparing to release. Replacement lens harness sits floor below. Jink positioning ready to lift into place. Clockwork rotation slowly around her — mechanism cycle.</desc>
+
+  <defs>
+    <linearGradient id="i7p11p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <radialGradient id="i7p11p4amber" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p11p4brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0c898"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p11p4suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89858"/>
+      <stop offset="100%" stop-color="#5a2810"/>
+    </linearGradient>
+    <linearGradient id="i7p11p4suitJ" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p11p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="i7p11p4toolBlade" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p11p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p11p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p11p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#i7p11p4bg)"/>
+
+  <!-- Amber atmosphere -->
+  <ellipse cx="183" cy="140" rx="280" ry="180" fill="url(#i7p11p4amber)" filter="url(#i7p11p4strongglow)"/>
+
+  <!-- ===== BRASS FRAMEWORK structure (vertical bars + cross-members) ===== -->
+  <!-- Cross-member Wren stands on -->
+  <rect x="40" y="140" width="240" height="14" fill="url(#i7p11p4brass)" stroke="#5a3018" stroke-width="0.55"/>
+  <line x1="40" y1="140" x2="280" y2="140" stroke="#f0c898" stroke-width="0.7" filter="url(#i7p11p4bloom)" opacity="0.85"/>
+
+  <!-- Vertical brass struts -->
+  <line x1="40" y1="0" x2="40" y2="280" stroke="url(#i7p11p4brass)" stroke-width="6"/>
+  <line x1="280" y1="0" x2="280" y2="280" stroke="url(#i7p11p4brass)" stroke-width="6"/>
+
+  <!-- ===== GLASS RING above (third ring — the target) ===== -->
+  <g filter="url(#i7p11p4bloom)">
+    <ellipse cx="183" cy="0" rx="180" ry="80" fill="none" stroke="#fff8c8" stroke-width="2" opacity="0.95"/>
+    <ellipse cx="183" cy="0" rx="180" ry="80" fill="#ffd898" opacity="0.18"/>
+    <ellipse cx="183" cy="60" rx="180" ry="80" fill="none" stroke="#fff8c8" stroke-width="2" opacity="0.95"/>
+  </g>
+
+  <!-- BRASS PINS (4 spring-loaded mounts on the ring) -->
+  <g fill="url(#i7p11p4brass)" stroke="#5a3018" stroke-width="0.55">
+    <!-- Pin 1 (left, where Wren is — currently engaged) -->
+    <rect x="120" y="60" width="6" height="40"/>
+    <circle cx="123" cy="56" r="4"/>
+    <!-- Pin 2 -->
+    <rect x="180" y="60" width="6" height="40"/>
+    <circle cx="183" cy="56" r="4"/>
+    <!-- Pin 3 -->
+    <rect x="240" y="60" width="6" height="40"/>
+    <circle cx="243" cy="56" r="4"/>
+  </g>
+
+  <!-- Spring detail on pin 1 (compressed) -->
+  <g stroke="#5a3018" stroke-width="0.55" fill="none">
+    <path d="M120,72 L126,76 L120,80 L126,84 L120,88 L126,92 L120,96"/>
+  </g>
+
+  <!-- ===== HOLOGRAPHIC LIGHT-BLADE TOOL at pin 1 ===== -->
+  <g transform="translate(123 76)">
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="url(#i7p11p4toolBlade)" filter="url(#i7p11p4strongglow)"/>
+    <!-- Geometric blade shape -->
+    <g stroke="#ffd898" stroke-width="0.85" fill="none" filter="url(#i7p11p4bloom)" opacity="0.95">
+      <path d="M-9,-3 L-3,0 L-9,3"/>
+      <path d="M9,-3 L3,0 L9,3"/>
+      <line x1="-3" y1="0" x2="3" y2="0"/>
+      <circle cx="0" cy="0" r="3" fill="none"/>
+    </g>
+    <!-- Bright core -->
+    <circle cx="0" cy="0" r="1.4" fill="#fff" filter="url(#i7p11p4bloom)"/>
+  </g>
+
+  <!-- ===== WREN — crouching on brass cross-member, working pin 1 ===== -->
+  <g transform="translate(140 140)">
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.55"/>
+    <!-- Crouched position -->
+    <ellipse cx="-7" cy="-4" rx="6" ry="3" fill="url(#i7p11p4suit)"/>
+    <ellipse cx="7" cy="-4" rx="6" ry="3" fill="url(#i7p11p4suit)"/>
+    <!-- Knees with copper dust -->
+    <ellipse cx="-7" cy="-7" rx="3" ry="1" fill="#1a0c04" opacity="0.85"/>
+    <ellipse cx="7" cy="-7" rx="3" ry="1" fill="#1a0c04" opacity="0.85"/>
+
+    <!-- Torso leaning forward -->
+    <path d="M-12,-7 L-14,-50 L-9,-66 L9,-66 L14,-50 L12,-7 Z" fill="url(#i7p11p4suit)"/>
+    <line x1="0" y1="-66" x2="0" y2="-7" stroke="#f0c898" stroke-width="0.4" opacity="0.85" filter="url(#i7p11p4bloom)"/>
+    <!-- Heavy oil stains -->
+    <ellipse cx="-12" cy="-30" rx="6" ry="3" fill="#0a0604" opacity="0.85"/>
+
+    <!-- BOTH ARMS extending UP toward pin/tool -->
+    <path d="M-14,-50 L-30,-46 L-22,-30 L-9,-46 Z" fill="url(#i7p11p4suit)"/>
+    <ellipse cx="-22" cy="-30" rx="4" ry="2" fill="url(#i7p11p4skin)"/>
+    <path d="M14,-50 L26,-30 L30,-14 L22,-26 Z" fill="url(#i7p11p4suit)"/>
+    <ellipse cx="30" cy="-14" rx="4" ry="2" fill="url(#i7p11p4skin)"/>
+
+    <!-- Head — looking UP at pin with blade -->
+    <ellipse cx="0" cy="-78" rx="9" ry="11" fill="url(#i7p11p4skin)"/>
+    <ellipse cx="0" cy="-90" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-7,-88 Q-5,-94 0,-95 Q5,-94 7,-88 L7,-84 Q4,-88 0,-88 Q-4,-88 -7,-84 Z" fill="#1a0a04"/>
+    <!-- Eyes — looking up sharply focused -->
+    <ellipse cx="-3" cy="-78" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="3" cy="-78" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="-3" cy="-80" rx="0.85" ry="0.55" fill="#3a1808"/>
+    <ellipse cx="3" cy="-80" rx="0.85" ry="0.55" fill="#3a1808"/>
+    <circle cx="-3" cy="-80" r="0.3" fill="#ffd898"/>
+    <circle cx="3" cy="-80" r="0.3" fill="#ffd898"/>
+    <!-- Brow concentrated -->
+    <path d="M-7,-86 Q-3,-88 0,-86" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M7,-86 Q3,-88 0,-86" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <!-- Mouth pressed concentrating -->
+    <line x1="-2" y1="-72" x2="2" y2="-72" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== JINK on floor below, positioning replacement lens ===== -->
+  <g transform="translate(220 240)">
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.55"/>
+    <!-- Replacement lens on floor (smaller version of glass disc) -->
+    <ellipse cx="0" cy="-3" rx="22" ry="6" fill="#fff8c8" opacity="0.55" filter="url(#i7p11p4bloom)"/>
+    <ellipse cx="0" cy="-3" rx="22" ry="6" fill="none" stroke="#fff8c8" stroke-width="0.85" filter="url(#i7p11p4bloom)"/>
+    <ellipse cx="0" cy="-3" rx="14" ry="4" fill="none" stroke="#ffd898" stroke-width="0.55" opacity="0.85"/>
+    <!-- Faint copper-gold edges (holographic etching) -->
+    <ellipse cx="0" cy="-3" rx="22" ry="6" fill="none" stroke="#d89858" stroke-width="0.55" opacity="0.55" filter="url(#i7p11p4bloom)"/>
+
+    <!-- Jink kneeling beside, ready -->
+    <g transform="translate(-30 0)">
+      <ellipse cx="0" cy="0" rx="14" ry="6" fill="#5af0a0" opacity="0.4" filter="url(#i7p11p4strongglow)"/>
+      <ellipse cx="0" cy="-7" rx="3.5" ry="3.5" fill="url(#i7p11p4suitJ)"/>
+      <ellipse cx="0" cy="-14" rx="2" ry="2" fill="#d8a878"/>
+      <path d="M-1.5,-16 Q0,-18 0,-18 Q1.5,-18 1.5,-16 L1.5,-14 Q0.7,-15 0,-15 Q-0.7,-15 -1.5,-14 Z" fill="#f0d878"/>
+    </g>
+  </g>
+
+  <!-- WREN to herself -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="160,64 172,64 164,76" fill="white" stroke="#c87a35" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(to herself)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Spring tension on the pin. Release on the</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">mechanism's dead point — right... there.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q100,142 200,138 Q280,136 366,140"/>
+    <path d="M0,220 Q100,222 200,218 Q280,216 366,220"/>
+  </g>
+</svg>

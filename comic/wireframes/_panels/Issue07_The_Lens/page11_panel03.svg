@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 7 — Page 11 — Panel 3: Sable at the floor hatch — keeper soft-focused below in warm amber, sharp assessment</title>
+  <desc>50mm medium eye level fairy scale. Sable lies flat iron floor peering over open hatch edge looking down. Below visible soft-focused keeper sits wooden chair reading newspaper lantern light. Pipe sends thin trail smoke upward through hatch. Distance lamp room floor watch room below — abyss fairy scale. Hatch rectangle warm amber light dark iron floor. Sable's face lit below by warm glow.</desc>
+
+  <defs>
+    <linearGradient id="i7p11p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#080604"/>
+    </linearGradient>
+    <linearGradient id="i7p11p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i7p11p3hatchAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#a87838" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0.4"/>
+    </radialGradient>
+    <linearGradient id="i7p11p3suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0c0"/>
+      <stop offset="100%" stop-color="#506068"/>
+    </linearGradient>
+    <linearGradient id="i7p11p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3a28"/>
+    </linearGradient>
+    <linearGradient id="i7p11p3keeperCoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <filter id="i7p11p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p11p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p11p3strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i7p11p3softfocus"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#i7p11p3bg)"/>
+
+  <!-- ===== IRON FLOOR (top half — Sable lies on this) ===== -->
+  <rect x="0" y="0" width="366" height="100" fill="url(#i7p11p3iron)"/>
+  <!-- Iron rivets / grating texture -->
+  <g fill="#5a5860" opacity="0.55">
+    <circle cx="40" cy="20" r="1.4"/>
+    <circle cx="100" cy="20" r="1.4"/>
+    <circle cx="280" cy="20" r="1.4"/>
+    <circle cx="340" cy="20" r="1.4"/>
+  </g>
+
+  <!-- ===== HATCH OPENING — warm rectangle bottom ===== -->
+  <rect x="80" y="100" width="206" height="180" fill="url(#i7p11p3hatchAmber)" filter="url(#i7p11p3glow)"/>
+  <!-- Hatch frame edges -->
+  <line x1="80" y1="100" x2="286" y2="100" stroke="#0a0408" stroke-width="2"/>
+  <line x1="80" y1="100" x2="80" y2="280" stroke="#0a0408" stroke-width="2"/>
+  <line x1="286" y1="100" x2="286" y2="280" stroke="#0a0408" stroke-width="2"/>
+
+  <!-- ===== KEEPER soft-focused below ===== -->
+  <g filter="url(#i7p11p3softfocus)" transform="translate(183 220)">
+    <!-- Keeper sitting in chair, side view -->
+    <!-- Chair -->
+    <rect x="-50" y="0" width="100" height="40" fill="#3a2418" stroke="#1a0c08" stroke-width="0.55" opacity="0.85"/>
+    <line x1="-40" y1="0" x2="-40" y2="-30" stroke="#1a0c08" stroke-width="2"/>
+    <line x1="40" y1="0" x2="40" y2="-30" stroke="#1a0c08" stroke-width="2"/>
+    <!-- Keeper body — heavy wool coat -->
+    <path d="M-30,-50 L-40,-30 L-40,0 L40,0 L40,-30 L30,-50 L20,-70 L-20,-70 Z" fill="url(#i7p11p3keeperCoat)"/>
+    <!-- Coat buttons -->
+    <circle cx="0" cy="-30" r="2" fill="#1a0c08"/>
+    <circle cx="0" cy="-15" r="2" fill="#1a0c08"/>
+    <!-- Newspaper open in lap -->
+    <rect x="-30" y="-15" width="60" height="20" fill="#a89878" opacity="0.85"/>
+    <line x1="-30" y1="-10" x2="30" y2="-10" stroke="#5a4828" stroke-width="0.55"/>
+    <line x1="-30" y1="-5" x2="30" y2="-5" stroke="#5a4828" stroke-width="0.55"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#5a4828" stroke-width="0.55"/>
+
+    <!-- Head (with peaked cap) -->
+    <ellipse cx="0" cy="-90" rx="14" ry="16" fill="#a87858"/>
+    <!-- Peaked cap -->
+    <path d="M-12,-100 Q-9,-110 0,-112 Q9,-110 12,-100 L12,-94 Q6,-100 0,-100 Q-6,-100 -12,-94 Z" fill="#1a1818"/>
+    <!-- Cap brim -->
+    <path d="M-14,-94 L14,-94 L9,-90 L-9,-90 Z" fill="#0a0408"/>
+    <!-- Thick sideburns -->
+    <ellipse cx="-12" cy="-90" rx="3" ry="6" fill="#5a4838"/>
+    <ellipse cx="12" cy="-90" rx="3" ry="6" fill="#5a4838"/>
+    <!-- Weathered face -->
+    <line x1="-7" y1="-90" x2="7" y2="-90" stroke="#3a2418" stroke-width="0.4"/>
+
+    <!-- PIPE in mouth (lit) -->
+    <line x1="6" y1="-86" x2="14" y2="-86" stroke="#3a1808" stroke-width="2"/>
+    <!-- Pipe bowl -->
+    <ellipse cx="14" cy="-86" rx="2" ry="3" fill="#5a3018"/>
+    <!-- Pipe ember (amber glow) -->
+    <circle cx="14" cy="-87" r="1" fill="#ff8848" filter="url(#i7p11p3bloom)"/>
+  </g>
+
+  <!-- PIPE SMOKE rising up through hatch -->
+  <g opacity="0.7" stroke="#a89878" stroke-width="0.85" fill="none" filter="url(#i7p11p3bloom)">
+    <path d="M210,140 Q205,120 210,100"/>
+    <path d="M214,150 Q220,130 218,110 Q216,95 220,80"/>
+    <path d="M218,160 Q222,140 220,120 Q218,100 222,80"/>
+  </g>
+  <!-- Smoke puffs higher -->
+  <ellipse cx="220" cy="60" rx="9" ry="3" fill="#a89878" opacity="0.55" filter="url(#i7p11p3glow)"/>
+  <ellipse cx="225" cy="40" rx="11" ry="3" fill="#a89878" opacity="0.4" filter="url(#i7p11p3glow)"/>
+
+  <!-- ===== SABLE — lying flat at hatch edge ===== -->
+  <g transform="translate(60 80)">
+    <!-- Lying on stomach, head at edge looking down -->
+    <!-- Body silhouette -->
+    <ellipse cx="0" cy="0" rx="40" ry="14" fill="url(#i7p11p3suit)"/>
+    <!-- Suit center seam -->
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#d8e4f8" stroke-width="0.4" opacity="0.85" filter="url(#i7p11p3bloom)"/>
+    <!-- Soot bloom right shoulder -->
+    <ellipse cx="14" cy="-3" rx="9" ry="3" fill="#1a1814" opacity="0.85"/>
+    <!-- Tension crease at collar -->
+    <line x1="22" y1="-3" x2="24" y2="0" stroke="#0a0a14" stroke-width="0.4" opacity="0.95"/>
+    <line x1="26" y1="-3" x2="28" y2="0" stroke="#0a0a14" stroke-width="0.4" opacity="0.95"/>
+
+    <!-- Head at edge — looking DOWN -->
+    <ellipse cx="38" cy="0" rx="9" ry="9" fill="url(#i7p11p3skin)"/>
+    <!-- Buzz cut catching warm hatch light -->
+    <path d="M30,-9 Q30,-12 38,-12 Q46,-12 46,-9 L46,-5 Q42,-7 38,-7 Q34,-7 30,-5 Z" fill="#d8e4f8" filter="url(#i7p11p3bloom)"/>
+    <!-- Warm amber wash on her face from hatch below -->
+    <ellipse cx="38" cy="3" rx="9" ry="6" fill="#d89858" opacity="0.55" filter="url(#i7p11p3bloom)"/>
+    <!-- Eyes (looking down, single eye visible) -->
+    <ellipse cx="40" cy="-1" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="40" cy="-1" rx="0.85" ry="0.55" fill="#1a1c30"/>
+    <circle cx="40" cy="-1" r="0.3" fill="#ffd898"/>
+    <!-- Brow focused -->
+    <path d="M34,-9 Q40,-11 44,-9" stroke="#0a0604" stroke-width="0.7" fill="none"/>
+    <!-- Mouth set -->
+    <line x1="38" y1="6" x2="42" y2="6" stroke="#0a0604" stroke-width="0.4"/>
+
+    <!-- Arms extended forward to brace at edge -->
+    <path d="M-30,-3 L-50,-9 L-44,-1 L-30,-1 Z" fill="url(#i7p11p3suit)"/>
+    <ellipse cx="-50" cy="-9" rx="3" ry="2" fill="url(#i7p11p3skin)"/>
+
+    <!-- Comms ear glow -->
+    <circle cx="46" cy="0" r="1" fill="#a8c0e8" filter="url(#i7p11p3bloom)" opacity="0.95"/>
+  </g>
+
+  <!-- SABLE -->
+  <g>
+    <rect x="14" y="14" width="280" height="34" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="100,48 112,48 104,58" fill="white" stroke="#5a606a" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE  <tspan font-style="italic" font-size="8" font-weight="500">(comms, whispered)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Keeper settled. Reading. Pipe lit.</text>
+
+  <!-- SABLE -->
+  <g>
+    <rect x="14" y="240" width="220" height="34" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,240 92,240 84,230" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="80.5" y1="240" x2="91.5" y2="240" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="256" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="270" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Wren, you have forty minutes.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q100,142 200,138 Q280,136 366,140"/>
+    <path d="M0,220 Q100,222 200,218 Q280,216 366,220"/>
+  </g>
+</svg>

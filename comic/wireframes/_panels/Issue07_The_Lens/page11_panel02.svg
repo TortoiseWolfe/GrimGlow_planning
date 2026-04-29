@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 7 — Page 11 — Panel 2: Wren approaches the lens — copper-gold schematic overlays glass surface, identifying mounting points</title>
+  <desc>50mm medium close-up eye level fairy scale. Wren approaches lens base. Copper-gold holographic schematic projects from wrist — technical overlay maps Fresnel structure identifying specific ring. Holographic data floats over glass surface matching real structure. One hand trails along brass framework feeling construction. Other hand manipulates schematic. Total absorption. Engineer engaging with the problem.</desc>
+
+  <defs>
+    <radialGradient id="i7p11p2bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </radialGradient>
+    <radialGradient id="i7p11p2lensRefract" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p11p2brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0c898"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p11p2suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89858"/>
+      <stop offset="100%" stop-color="#5a2810"/>
+    </linearGradient>
+    <linearGradient id="i7p11p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="i7p11p2schematic" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p11p2bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p11p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p11p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#i7p11p2bg)"/>
+
+  <!-- Lens refraction wash -->
+  <ellipse cx="280" cy="140" rx="200" ry="160" fill="url(#i7p11p2lensRefract)" filter="url(#i7p11p2strongglow)"/>
+
+  <!-- ===== LENS BASE — concentric rings rising from right ===== -->
+  <g transform="translate(310 140)">
+    <!-- Brass framework base -->
+    <rect x="-60" y="100" width="120" height="40" fill="url(#i7p11p2brass)" stroke="#5a3018" stroke-width="0.55"/>
+    <!-- Vertical brass struts -->
+    <line x1="-50" y1="-100" x2="-50" y2="100" stroke="url(#i7p11p2brass)" stroke-width="3"/>
+    <line x1="50" y1="-100" x2="50" y2="100" stroke="url(#i7p11p2brass)" stroke-width="3"/>
+    <!-- Concentric glass rings -->
+    <g filter="url(#i7p11p2bloom)">
+      <ellipse cx="0" cy="0" rx="100" ry="120" fill="none" stroke="#fff8c8" stroke-width="1.4" opacity="0.95"/>
+      <ellipse cx="0" cy="0" rx="80" ry="100" fill="none" stroke="#fff8c8" stroke-width="1.4" opacity="0.95"/>
+      <ellipse cx="0" cy="0" rx="60" ry="80" fill="none" stroke="#fff8c8" stroke-width="1" opacity="0.95"/>
+      <ellipse cx="0" cy="0" rx="40" ry="60" fill="none" stroke="#fff8c8" stroke-width="0.85" opacity="0.85"/>
+    </g>
+    <!-- Brass mount points -->
+    <ellipse cx="-100" cy="0" rx="3" ry="3" fill="url(#i7p11p2brass)" stroke="#5a3018" stroke-width="0.4"/>
+    <ellipse cx="-80" cy="0" rx="3" ry="3" fill="url(#i7p11p2brass)" stroke="#5a3018" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== HOLOGRAPHIC SCHEMATIC OVERLAY ===== -->
+  <g transform="translate(160 140)" opacity="0.95" filter="url(#i7p11p2bloom)">
+    <!-- Halo behind schematic -->
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="url(#i7p11p2schematic)" filter="url(#i7p11p2strongglow)"/>
+    <!-- Geometric lens schematic — copper-gold -->
+    <g stroke="#ffd898" stroke-width="0.85" fill="none" opacity="0.95">
+      <ellipse cx="0" cy="0" rx="60" ry="40"/>
+      <ellipse cx="0" cy="0" rx="48" ry="32"/>
+      <ellipse cx="0" cy="0" rx="36" ry="24"/>
+      <ellipse cx="0" cy="0" rx="22" ry="14"/>
+      <line x1="-60" y1="0" x2="60" y2="0"/>
+      <line x1="0" y1="-40" x2="0" y2="40"/>
+      <!-- Mounting point indicators -->
+      <circle cx="-48" cy="0" r="2"/>
+      <circle cx="48" cy="0" r="2"/>
+      <circle cx="0" cy="-32" r="2"/>
+      <circle cx="0" cy="32" r="2"/>
+      <!-- Annotation lines pointing -->
+      <line x1="-60" y1="-22" x2="-80" y2="-30"/>
+      <line x1="60" y1="22" x2="80" y2="30"/>
+    </g>
+    <!-- Annotation labels -->
+    <text x="-110" y="-32" font-family="monospace" font-size="5" fill="#ffd898" opacity="0.95">RING 3</text>
+    <text x="-110" y="-24" font-family="monospace" font-size="4" fill="#ffd898" opacity="0.85">PIN x4</text>
+    <text x="80" y="32" font-family="monospace" font-size="5" fill="#ffd898" opacity="0.95">EXTRACT</text>
+    <text x="80" y="40" font-family="monospace" font-size="4" fill="#ffd898" opacity="0.85">SEQUENCE</text>
+  </g>
+
+  <!-- ===== WREN — center-left, projecting schematic, hand on framework ===== -->
+  <g transform="translate(120 220)">
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.7"/>
+    <!-- Boots -->
+    <ellipse cx="-7" cy="-2" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="7" cy="-2" rx="5" ry="2" fill="#1a0c04"/>
+    <!-- Legs -->
+    <path d="M-9,-4 L-12,-30 L-2,-50 L0,-30 Z" fill="url(#i7p11p2suit)"/>
+    <path d="M9,-4 L12,-30 L2,-50 L0,-30 Z" fill="url(#i7p11p2suit)"/>
+    <!-- Knee dust/oil -->
+    <ellipse cx="-2" cy="-46" rx="6" ry="2" fill="#1a0c04" opacity="0.85"/>
+
+    <!-- Torso -->
+    <path d="M-14,-50 L-18,-110 L-9,-130 L9,-130 L18,-110 L14,-50 Z" fill="url(#i7p11p2suit)"/>
+    <line x1="0" y1="-130" x2="0" y2="-50" stroke="#f0c898" stroke-width="0.4" opacity="0.85" filter="url(#i7p11p2bloom)"/>
+    <!-- Heavy oil stains on forearms -->
+    <ellipse cx="-14" cy="-80" rx="6" ry="3" fill="#0a0604" opacity="0.85"/>
+
+    <!-- LEFT ARM trailing along brass framework (right toward lens) -->
+    <path d="M14,-110 L40,-100 L60,-90 L60,-82 L40,-92 L14,-100 Z" fill="url(#i7p11p2suit)"/>
+    <ellipse cx="60" cy="-86" rx="4" ry="2" fill="url(#i7p11p2skin)"/>
+
+    <!-- RIGHT ARM extended UP — wrist projecting schematic -->
+    <path d="M-14,-110 L-26,-90 L-30,-60 L-22,-60 L-14,-90 Z" fill="url(#i7p11p2suit)"/>
+    <!-- Hand with wrist emitter -->
+    <ellipse cx="-30" cy="-60" rx="4" ry="2" fill="url(#i7p11p2skin)"/>
+    <!-- Wrist emitter glow -->
+    <circle cx="-30" cy="-60" r="2.4" fill="#ffd898" filter="url(#i7p11p2bloom)"/>
+    <line x1="-30" y1="-60" x2="160" y2="-60" stroke="#ffd898" stroke-width="0.55" opacity="0.7"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-148" rx="9" ry="11" fill="url(#i7p11p2skin)"/>
+    <ellipse cx="0" cy="-160" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-7,-158 Q-5,-164 0,-165 Q5,-164 7,-158 L7,-154 Q4,-158 0,-158 Q-4,-158 -7,-154 Z" fill="#1a0a04"/>
+    <!-- Eyes — focused on schematic -->
+    <ellipse cx="-3" cy="-148" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="3" cy="-148" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="-3" cy="-148" rx="0.85" ry="0.55" fill="#3a1808"/>
+    <ellipse cx="3" cy="-148" rx="0.85" ry="0.55" fill="#3a1808"/>
+    <circle cx="-3" cy="-148" r="0.3" fill="#ffd898"/>
+    <circle cx="3" cy="-148" r="0.3" fill="#ffd898"/>
+    <!-- Brow focused -->
+    <path d="M-7,-154 Q-3,-156 0,-154" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M7,-154 Q3,-156 0,-154" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <!-- Mouth pressed concentrating -->
+    <line x1="-2" y1="-140" x2="2" y2="-140" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- WREN -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="160,64 172,64 164,76" fill="white" stroke="#c87a35" stroke-width="0.85"/>
+    <line x1="160.5" y1="64" x2="171.5" y2="64" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Third concentric ring. Brass pin-mount.</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Four pins. Same spacing as the replacement.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q100,142 200,138 Q280,136 366,140"/>
+    <path d="M0,220 Q100,222 200,218 Q280,216 366,220"/>
+  </g>
+</svg>
