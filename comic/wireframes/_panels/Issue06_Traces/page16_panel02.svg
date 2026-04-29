@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 6 — Page 16 — Panel 2: Luma CU on Theodore's knee — lenses pushed up onto forehead, vulnerable, scientist reasserting</title>
+  <desc>85mm CU. Luma standing on Theodore's knee. Holographic lenses pushed UP onto forehead — eyes visible without mediation. Younger / more vulnerable. Heavy stone dust + cobweb. Scanner closed at her side. Tremor in hands she cannot hide. Grey-gold ambient.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p16p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#2a1810"/>
+    </linearGradient>
+    <linearGradient id="i6p16p2trousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i6p16p2lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p16p2windowAmbient" cx="80%" cy="20%" r="100%">
+      <stop offset="0%" stop-color="#a89888" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a4838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p16p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p16p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#i6p16p2bg)"/>
+
+  <!-- Window ambient grey-gold from upper right -->
+  <ellipse cx="366" cy="0" rx="280" ry="280" fill="url(#i6p16p2windowAmbient)" filter="url(#i6p16p2glow)"/>
+
+  <!-- Theodore's KNEE (large surface, fairy-scale platform) -->
+  <ellipse cx="183" cy="320" rx="220" ry="60" fill="url(#i6p16p2trousers)"/>
+  <!-- Knee patch visible -->
+  <rect x="120" y="280" width="120" height="60" fill="#5a3018" stroke="#3a1808" stroke-width="1" opacity="0.85"/>
+  <line x1="120" y1="285" x2="240" y2="285" stroke="#1a0c04" stroke-width="0.55" stroke-dasharray="3 2"/>
+  <line x1="120" y1="335" x2="240" y2="335" stroke="#1a0c04" stroke-width="0.55" stroke-dasharray="3 2"/>
+  <!-- Wool fabric texture -->
+  <g stroke="#1a0c04" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,310 Q60,308 120,310 Q180,312 240,310 Q300,308 366,310"/>
+    <path d="M0,330 Q60,328 120,330 Q180,332 240,330 Q300,328 366,330"/>
+  </g>
+
+  <!-- ===== LUMA — large CU standing on knee ===== -->
+  <g transform="translate(183 290)">
+    <!-- Body -->
+    <ellipse cx="-22" cy="40" rx="14" ry="6" fill="#0a0408"/>
+    <ellipse cx="22" cy="40" rx="14" ry="6" fill="#0a0408"/>
+    <!-- Trousers -->
+    <path d="M-30,0 L-2,0 L-22,40 L-44,40 Z" fill="url(#i6p16p2lumaSuit)"/>
+    <path d="M2,0 L30,0 L44,40 L22,40 Z" fill="url(#i6p16p2lumaSuit)"/>
+    <!-- HEAVY stone dust at knees -->
+    <ellipse cx="-22" cy="20" rx="14" ry="4" fill="#a8a098" opacity="0.95"/>
+    <ellipse cx="22" cy="20" rx="14" ry="4" fill="#a8a098" opacity="0.95"/>
+    <!-- Torso -->
+    <path d="M-44,0 L-44,-80 L44,-80 L44,0 Z" fill="url(#i6p16p2lumaSuit)"/>
+    <line x1="-30" y1="-40" x2="30" y2="-40" stroke="#a888ff" stroke-width="0.85" opacity="0.7" filter="url(#i6p16p2bloom)"/>
+    <!-- Heavy stone dust on chest + cobweb -->
+    <ellipse cx="-30" cy="-20" rx="14" ry="3" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="30" cy="-20" rx="14" ry="3" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="-22" cy="-50" rx="14" ry="2.4" fill="#a8a098" opacity="0.7"/>
+    <ellipse cx="22" cy="-50" rx="14" ry="2.4" fill="#a8a098" opacity="0.7"/>
+    <!-- Cobweb filament -->
+    <line x1="-44" y1="-72" x2="-22" y2="-50" stroke="#7a6c50" stroke-width="0.55" opacity="0.55"/>
+    <line x1="-22" y1="-50" x2="-30" y2="-30" stroke="#7a6c50" stroke-width="0.4" opacity="0.45"/>
+
+    <!-- Wing-pack stowed (only seam visible) -->
+    <path d="M-44,-80 L-50,-50 L-44,-30 Z" fill="#1a0c04" opacity="0.85"/>
+    <path d="M44,-80 L50,-50 L44,-30 Z" fill="#1a0c04" opacity="0.85"/>
+
+    <!-- Shoulders -->
+    <path d="M-44,-80 Q-30,-100 0,-104 Q30,-100 44,-80 Z" fill="url(#i6p16p2lumaSuit)"/>
+
+    <!-- Right arm — holding closed scanner against side -->
+    <path d="M44,-80 L60,-60 L60,-30 L50,-22 L40,-44 Z" fill="url(#i6p16p2lumaSuit)"/>
+    <ellipse cx="60" cy="-30" rx="6" ry="3" fill="#7a4838"/>
+    <!-- Hand TREMOR — show via slight blur/double on fingers -->
+    <ellipse cx="60" cy="-32" rx="3" ry="1.4" fill="#7a4838" opacity="0.55"/>
+    <!-- CLOSED scanner held against side -->
+    <rect x="48" y="-26" width="22" height="11" rx="0.7" fill="#3a2068" stroke="#a888ff" stroke-width="0.55"/>
+    <rect x="50" y="-22" width="18" height="3" fill="#5a3ad8" opacity="0.85" filter="url(#i6p16p2bloom)"/>
+
+    <!-- Left arm at side (also tremor) -->
+    <path d="M-44,-80 L-60,-60 L-60,-30 L-50,-22 L-40,-44 Z" fill="url(#i6p16p2lumaSuit)"/>
+    <ellipse cx="-60" cy="-30" rx="6" ry="3" fill="#7a4838"/>
+    <ellipse cx="-60" cy="-32" rx="3" ry="1.4" fill="#7a4838" opacity="0.55"/>
+
+    <!-- HEAD large -->
+    <ellipse cx="0" cy="-130" rx="36" ry="44" fill="#7a4838"/>
+    <!-- Cheek shadow -->
+    <ellipse cx="-22" cy="-110" rx="6" ry="9" fill="#8a5848" opacity="0.55"/>
+    <ellipse cx="22" cy="-110" rx="6" ry="9" fill="#8a5848" opacity="0.55"/>
+    <!-- Stone dust on cheek -->
+    <ellipse cx="-22" cy="-110" rx="6" ry="2" fill="#a8a098" opacity="0.7"/>
+
+    <!-- HAIR pulled back into braid, mortar powder -->
+    <path d="M-30,-150 Q-30,-176 0,-180 Q30,-176 30,-150 L30,-138 Q14,-156 0,-156 Q-14,-156 -30,-138 Z" fill="#0a0604"/>
+    <g fill="#a8a098" opacity="0.55">
+      <circle cx="-9" cy="-168" r="0.55"/>
+      <circle cx="-1" cy="-172" r="0.55"/>
+      <circle cx="6" cy="-170" r="0.55"/>
+      <circle cx="13" cy="-168" r="0.55"/>
+    </g>
+    <!-- Sapphire filament -->
+    <line x1="-5" y1="-170" x2="-4" y2="-176" stroke="#5a3ad8" stroke-width="0.85" opacity="0.85" filter="url(#i6p16p2bloom)"/>
+    <line x1="4" y1="-176" x2="5" y2="-170" stroke="#5a3ad8" stroke-width="0.85" opacity="0.85" filter="url(#i6p16p2bloom)"/>
+    <!-- Braid down right -->
+    <path d="M30,-138 Q34,-90 30,-30" stroke="#0a0604" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M30,-138 Q34,-90 30,-30" stroke="#a888ff" stroke-width="0.55" fill="none" opacity="0.55" filter="url(#i6p16p2bloom)"/>
+
+    <!-- LENSES PUSHED UP onto forehead -->
+    <ellipse cx="-13" cy="-156" rx="9" ry="6" fill="#a888ff" opacity="0.4"/>
+    <ellipse cx="13" cy="-156" rx="9" ry="6" fill="#a888ff" opacity="0.4"/>
+    <ellipse cx="-13" cy="-156" rx="9" ry="6" fill="none" stroke="#a888ff" stroke-width="0.85" opacity="0.85" filter="url(#i6p16p2bloom)"/>
+    <ellipse cx="13" cy="-156" rx="9" ry="6" fill="none" stroke="#a888ff" stroke-width="0.85" opacity="0.85" filter="url(#i6p16p2bloom)"/>
+    <!-- Cracks visible on lenses (now on forehead, dim) -->
+    <line x1="-22" y1="-160" x2="-7" y2="-152" stroke="#fff8ff" stroke-width="0.55" opacity="0.85" filter="url(#i6p16p2bloom)"/>
+
+    <!-- EYES — VISIBLE WITHOUT LENSES (more vulnerable, naked) -->
+    <ellipse cx="-13" cy="-128" rx="6" ry="4" fill="#fff8e8"/>
+    <ellipse cx="-13" cy="-128" rx="5" ry="3" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="-13" cy="-128" r="2.4" fill="#5a3818"/>
+    <circle cx="-14" cy="-129" r="0.85" fill="#fff8ff"/>
+    <!-- Wet sheen (moisture in corners) -->
+    <ellipse cx="-13" cy="-124" rx="3" ry="0.85" fill="#a8c0ff" opacity="0.55" filter="url(#i6p16p2bloom)"/>
+    <ellipse cx="13" cy="-128" rx="6" ry="4" fill="#fff8e8"/>
+    <ellipse cx="13" cy="-128" rx="5" ry="3" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="13" cy="-128" r="2.4" fill="#5a3818"/>
+    <circle cx="12" cy="-129" r="0.85" fill="#fff8ff"/>
+    <ellipse cx="13" cy="-124" rx="3" ry="0.85" fill="#a8c0ff" opacity="0.55" filter="url(#i6p16p2bloom)"/>
+
+    <!-- Brows level — composing -->
+    <path d="M-22,-138 L-7,-138" stroke="#0a0604" stroke-width="1"/>
+    <path d="M7,-138 L22,-138" stroke="#0a0604" stroke-width="1"/>
+
+    <!-- Nose -->
+    <path d="M0,-122 L-3,-104 L0,-100 L3,-104 Z" fill="#5a3028" opacity="0.65"/>
+    <ellipse cx="-1.4" cy="-105" rx="1" ry="0.55" fill="#5a3028" opacity="0.55"/>
+    <ellipse cx="1.4" cy="-105" rx="1" ry="0.55" fill="#5a3028" opacity="0.55"/>
+
+    <!-- Mouth tight — composing -->
+    <path d="M-7,-94 L7,-94" stroke="#3a1808" stroke-width="0.85"/>
+    <path d="M-5,-91 L5,-91" stroke="#5a3018" stroke-width="0.4" opacity="0.55"/>
+  </g>
+
+  <!-- LUMA dialogue 1 -->
+  <g>
+    <rect x="14" y="14" width="338" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="160,54 172,54 164,64" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="160.5" y1="54" x2="171.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">I found what I came for. We should return to camp.</text>
+
+  <!-- LUMA dialogue 2 -->
+  <g>
+    <rect x="14" y="64" width="298" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" filter="url(#balloonShadow)"/>
+    <polygon points="140,104 152,104 144,114" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="140.5" y1="104" x2="151.5" y2="104" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="82" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">I need to speak with the Captain.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q330,136 366,140"/>
+    <path d="M0,300 Q120,302 240,298 Q330,296 366,300"/>
+  </g>
+</svg>
