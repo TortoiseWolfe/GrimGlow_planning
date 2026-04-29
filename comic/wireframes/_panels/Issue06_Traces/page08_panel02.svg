@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 421.5" width="742" height="421.5">
+  <title>Issue 6 — Page 8 — Panel 2: Theodore looks up — claw marks dominate, fear lands</title>
+  <desc>28mm low angle looking up brick wall. Theodore's face tilted back foreground. Above: four parallel gouges in brick at ~8ft, pale clay revealed beneath, dark iridescent residue in grooves. Scanner beam from below adds blue-violet highlights.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p8p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#403830"/>
+      <stop offset="100%" stop-color="#0a0608"/>
+    </linearGradient>
+    <linearGradient id="i6p8p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i6p8p2fog" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#605850" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#2a2420" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p8p2scannerWash" cx="50%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p8p2chinGlow" cx="50%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p8p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p8p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="742" height="421.5" fill="url(#i6p8p2bg)"/>
+
+  <!-- Heavy fog at top -->
+  <ellipse cx="371" cy="0" rx="500" ry="120" fill="url(#i6p8p2fog)" filter="url(#i6p8p2glow)" opacity="0.95"/>
+
+  <!-- Massive brick wall filling frame, low angle perspective (slight upward tilt) -->
+  <rect x="0" y="0" width="742" height="380" fill="url(#i6p8p2brick)"/>
+  <!-- Brick mortar grid (large, looking up) -->
+  <g stroke="#0a0408" stroke-width="0.85" opacity="0.85">
+    <line x1="0" y1="60" x2="742" y2="60"/>
+    <line x1="0" y1="100" x2="742" y2="100"/>
+    <line x1="0" y1="140" x2="742" y2="140"/>
+    <line x1="0" y1="180" x2="742" y2="180"/>
+    <line x1="0" y1="220" x2="742" y2="220"/>
+    <line x1="0" y1="260" x2="742" y2="260"/>
+    <line x1="0" y1="300" x2="742" y2="300"/>
+    <line x1="0" y1="340" x2="742" y2="340"/>
+  </g>
+  <!-- Vertical mortar staggered -->
+  <g stroke="#0a0408" stroke-width="0.85" opacity="0.85">
+    <line x1="120" y1="20" x2="120" y2="60"/>
+    <line x1="280" y1="20" x2="280" y2="60"/>
+    <line x1="440" y1="20" x2="440" y2="60"/>
+    <line x1="600" y1="20" x2="600" y2="60"/>
+    <line x1="40" y1="60" x2="40" y2="100"/>
+    <line x1="200" y1="60" x2="200" y2="100"/>
+    <line x1="360" y1="60" x2="360" y2="100"/>
+    <line x1="520" y1="60" x2="520" y2="100"/>
+    <line x1="680" y1="60" x2="680" y2="100"/>
+    <line x1="120" y1="100" x2="120" y2="140"/>
+    <line x1="280" y1="100" x2="280" y2="140"/>
+    <line x1="440" y1="100" x2="440" y2="140"/>
+    <line x1="600" y1="100" x2="600" y2="140"/>
+    <line x1="40" y1="140" x2="40" y2="180"/>
+    <line x1="200" y1="140" x2="200" y2="180"/>
+    <line x1="360" y1="140" x2="360" y2="180"/>
+    <line x1="520" y1="140" x2="520" y2="180"/>
+    <line x1="680" y1="140" x2="680" y2="180"/>
+    <line x1="120" y1="180" x2="120" y2="220"/>
+    <line x1="280" y1="180" x2="280" y2="220"/>
+    <line x1="440" y1="180" x2="440" y2="220"/>
+    <line x1="600" y1="180" x2="600" y2="220"/>
+    <line x1="40" y1="220" x2="40" y2="260"/>
+    <line x1="200" y1="220" x2="200" y2="260"/>
+    <line x1="360" y1="220" x2="360" y2="260"/>
+    <line x1="520" y1="220" x2="520" y2="260"/>
+    <line x1="680" y1="220" x2="680" y2="260"/>
+  </g>
+  <!-- Soot streaks -->
+  <g stroke="#0a0408" stroke-width="6" opacity="0.55" fill="none">
+    <line x1="80" y1="0" x2="80" y2="240"/>
+    <line x1="240" y1="0" x2="240" y2="200"/>
+    <line x1="500" y1="0" x2="500" y2="280"/>
+    <line x1="660" y1="0" x2="660" y2="220"/>
+  </g>
+  <g stroke="#0a0408" stroke-width="3" opacity="0.55" fill="none">
+    <line x1="160" y1="0" x2="160" y2="180"/>
+    <line x1="320" y1="0" x2="320" y2="200"/>
+    <line x1="420" y1="0" x2="420" y2="220"/>
+    <line x1="580" y1="0" x2="580" y2="180"/>
+  </g>
+  <!-- Soot blooms -->
+  <ellipse cx="180" cy="80" rx="60" ry="34" fill="#0a0408" opacity="0.55"/>
+  <ellipse cx="540" cy="120" rx="80" ry="40" fill="#0a0408" opacity="0.55"/>
+  <ellipse cx="100" cy="180" rx="70" ry="34" fill="#0a0408" opacity="0.55"/>
+
+  <!-- ===== CLAW MARKS — DOMINANT, four parallel deep gouges center-frame ===== -->
+  <g transform="translate(371 130)">
+    <!-- Scanner wash from below -->
+    <ellipse cx="0" cy="60" rx="240" ry="120" fill="url(#i6p8p2scannerWash)" filter="url(#i6p8p2glow)"/>
+
+    <!-- Pale clay revealed beneath each gouge — wide and deep -->
+    <path d="M-90,-50 L-30,140" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <path d="M-50,-50 L10,140" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <path d="M-10,-50 L50,140" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <path d="M30,-50 L90,140" stroke="#7a5a40" stroke-width="14" opacity="0.95"/>
+    <!-- Lighter clay highlight (catching grey light) -->
+    <path d="M-90,-50 L-30,140" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <path d="M-50,-50 L10,140" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <path d="M-10,-50 L50,140" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <path d="M30,-50 L90,140" stroke="#a87838" stroke-width="6" opacity="0.85"/>
+    <!-- Inner darker gouge core (the cut itself) -->
+    <path d="M-89,-46 L-32,134" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <path d="M-49,-46 L8,134" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <path d="M-9,-46 L48,134" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <path d="M31,-46 L88,134" stroke="#1a0c04" stroke-width="3" opacity="0.95"/>
+    <!-- Tapered tips at top — claws started here -->
+    <path d="M-90,-50 L-94,-60" stroke="#7a5a40" stroke-width="6" opacity="0.85"/>
+    <path d="M-50,-50 L-54,-60" stroke="#7a5a40" stroke-width="6" opacity="0.85"/>
+    <path d="M-10,-50 L-14,-60" stroke="#7a5a40" stroke-width="6" opacity="0.85"/>
+    <path d="M30,-50 L26,-60" stroke="#7a5a40" stroke-width="6" opacity="0.85"/>
+    <!-- IRIDESCENT RESIDUE in grooves — bruise-purple shimmer -->
+    <path d="M-89,-46 L-32,134" stroke="#5a3a78" stroke-width="2.4" opacity="0.55" filter="url(#i6p8p2bloom)"/>
+    <path d="M-49,-46 L8,134" stroke="#5a3a78" stroke-width="2.4" opacity="0.55" filter="url(#i6p8p2bloom)"/>
+    <path d="M-9,-46 L48,134" stroke="#5a3a78" stroke-width="2.4" opacity="0.55" filter="url(#i6p8p2bloom)"/>
+    <path d="M31,-46 L88,134" stroke="#5a3a78" stroke-width="2.4" opacity="0.55" filter="url(#i6p8p2bloom)"/>
+    <!-- Iridescent flecks -->
+    <g fill="#3a1828" opacity="0.7" filter="url(#i6p8p2bloom)">
+      <circle cx="-72" cy="-20" r="1.4"/>
+      <circle cx="-32" cy="-20" r="1.4"/>
+      <circle cx="8" cy="-20" r="1.4"/>
+      <circle cx="48" cy="-20" r="1.4"/>
+      <circle cx="-58" cy="40" r="1.6"/>
+      <circle cx="-18" cy="40" r="1.6"/>
+      <circle cx="22" cy="40" r="1.6"/>
+      <circle cx="62" cy="40" r="1.6"/>
+      <circle cx="-44" cy="100" r="1.4"/>
+      <circle cx="-4" cy="100" r="1.4"/>
+      <circle cx="36" cy="100" r="1.4"/>
+      <circle cx="76" cy="100" r="1.4"/>
+    </g>
+    <g fill="#7a3a78" opacity="0.55" filter="url(#i6p8p2bloom)">
+      <circle cx="-65" cy="0" r="0.85"/>
+      <circle cx="-25" cy="0" r="0.85"/>
+      <circle cx="15" cy="0" r="0.85"/>
+      <circle cx="55" cy="0" r="0.85"/>
+    </g>
+
+    <!-- Holographic measurement lines from scanner -->
+    <g stroke="#a888ff" stroke-width="0.85" opacity="0.85" filter="url(#i6p8p2bloom)" stroke-dasharray="3 2" fill="none">
+      <line x1="-110" y1="-50" x2="-90" y2="-50"/>
+      <line x1="-110" y1="140" x2="-30" y2="140"/>
+      <line x1="-110" y1="-50" x2="-110" y2="140"/>
+      <text x="-145" y="50" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#fff8ff" font-weight="700">~210mm</text>
+      <line x1="-90" y1="-72" x2="90" y2="-72"/>
+      <line x1="-90" y1="-72" x2="-90" y2="-66"/>
+      <line x1="90" y1="-72" x2="90" y2="-66"/>
+      <text x="-30" y="-78" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#fff8ff" font-weight="700">SPACING UNIFORM</text>
+    </g>
+  </g>
+
+  <!-- ===== THEODORE'S FACE — lower foreground, tilted back, looking up ===== -->
+  <g transform="translate(371 380)">
+    <!-- Hair top (since head tilted back, hair edge prominent in upper part of head) -->
+    <ellipse cx="0" cy="-30" rx="50" ry="20" fill="#9a7038"/>
+    <path d="M-30,-50 L-26,-58 L-22,-50 Z" fill="#9a7038"/>
+    <path d="M-12,-56 L-9,-64 L-5,-56 Z" fill="#9a7038"/>
+    <path d="M5,-56 L9,-64 L12,-56 Z" fill="#9a7038"/>
+    <path d="M22,-50 L26,-58 L30,-50 Z" fill="#9a7038"/>
+    <!-- Forehead -->
+    <ellipse cx="0" cy="-22" rx="40" ry="12" fill="#a87838"/>
+    <!-- Face area (tilted back so chin protrudes upward toward viewer in low angle) -->
+    <ellipse cx="0" cy="-2" rx="44" ry="22" fill="#a87838"/>
+    <!-- Eyebrows (LOW position, since face tilted back high) -->
+    <path d="M-22,-22 L-8,-23" stroke="#5a3018" stroke-width="2"/>
+    <path d="M8,-23 L22,-22" stroke="#5a3018" stroke-width="2"/>
+    <!-- Eyes WIDE looking UP -->
+    <ellipse cx="-13" cy="-16" rx="6" ry="4" fill="#fff8e8"/>
+    <circle cx="-13" cy="-18" r="2.4" fill="#5a3818"/>
+    <circle cx="-13" cy="-18" r="0.85" fill="#fff8ff"/>
+    <ellipse cx="13" cy="-16" rx="6" ry="4" fill="#fff8e8"/>
+    <circle cx="13" cy="-18" r="2.4" fill="#5a3818"/>
+    <circle cx="13" cy="-18" r="0.85" fill="#fff8ff"/>
+    <!-- Eyelid lines -->
+    <path d="M-19,-19 L-7,-20" stroke="#3a1808" stroke-width="0.85"/>
+    <path d="M7,-20 L19,-19" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Freckles -->
+    <circle cx="-10" cy="-6" r="0.7" fill="#7a3018"/>
+    <circle cx="-3" cy="-3" r="0.7" fill="#7a3018"/>
+    <circle cx="4" cy="-3" r="0.7" fill="#7a3018"/>
+    <circle cx="11" cy="-6" r="0.7" fill="#7a3018"/>
+    <!-- Nose, foreshortened -->
+    <path d="M-3,-7 L-6,12 L0,16 L6,12 L3,-7 Z" fill="#7a4828" opacity="0.65"/>
+    <line x1="-6" y1="12" x2="6" y2="12" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+    <!-- MOUTH closed tight -->
+    <path d="M-7,30 L7,30" stroke="#3a1808" stroke-width="1.4"/>
+    <!-- Chin (protruding upward in this low angle) — partly off-bottom -->
+    <ellipse cx="0" cy="38" rx="28" ry="6" fill="#8a5828" opacity="0.7"/>
+    <!-- BLUE-VIOLET reflection on chin/throat from pocket below -->
+    <ellipse cx="0" cy="38" rx="34" ry="6" fill="url(#i6p8p2chinGlow)" filter="url(#i6p8p2bloom)"/>
+  </g>
+
+  <!-- THEODORE dialogue (barely audible) -->
+  <g>
+    <rect x="14" y="14" width="280" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="120,54 132,54 124,64" fill="white" stroke="#6a4220" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="120.5" y1="54" x2="131.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700" font-style="italic">THEODORE (barely audible)</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Those aren't... those can't be from a cat.</text>
+
+  <!-- LUMA dialogue -->
+  <g>
+    <rect x="448" y="64" width="280" height="74" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="556,138 568,138 560,148" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="556.5" y1="138" x2="567.5" y2="138" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="456" y="82" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (from pocket)</text>
+  <text x="456" y="98" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">No. Those are from something much</text>
+  <text x="456" y="112" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">larger. And much heavier. The depth</text>
+  <text x="456" y="126" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">of the gouges indicates significant</text>
+  <text x="456" y="137" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">force applied vertically.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q200,202 400,198 Q580,196 742,200"/>
+    <path d="M0,360 Q200,362 400,358 Q580,356 742,360"/>
+  </g>
+</svg>

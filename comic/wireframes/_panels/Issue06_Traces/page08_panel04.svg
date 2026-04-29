@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 421.5" width="366" height="421.5">
+  <title>Issue 6 — Page 8 — Panel 4: Theodore from behind — basement window with bent bars below claw marks</title>
+  <desc>50mm medium eye level past Theodore. Narrow street ahead bending right, thick fog. Below claw marks: basement window at ground level — iron bars BENT INWARD then partially bent back, dirty glass, dense darkness behind. The trail leads down.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p8p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#403830"/>
+      <stop offset="100%" stop-color="#0a0608"/>
+    </linearGradient>
+    <linearGradient id="i6p8p4brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i6p8p4brickDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="i6p8p4fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#605850" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#2a2420" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p8p4basementVoid" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0408" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#1a0c08" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0.55"/>
+    </radialGradient>
+    <linearGradient id="i6p8p4theoWaistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p8p4theoTrousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <filter id="i6p8p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p8p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="421.5" fill="url(#i6p8p4bg)"/>
+
+  <!-- Heavy fog ahead -->
+  <ellipse cx="183" cy="160" rx="320" ry="160" fill="url(#i6p8p4fog)" filter="url(#i6p8p4glow)" opacity="0.95"/>
+
+  <!-- LEFT brick wall (Theodore facing this side, with window below) -->
+  <rect x="0" y="0" width="60" height="361.5" fill="url(#i6p8p4brick)"/>
+  <g stroke="#0a0408" stroke-width="0.55" opacity="0.85">
+    <line x1="0" y1="40" x2="60" y2="40"/>
+    <line x1="0" y1="80" x2="60" y2="80"/>
+    <line x1="0" y1="120" x2="60" y2="120"/>
+    <line x1="0" y1="160" x2="60" y2="160"/>
+    <line x1="0" y1="200" x2="60" y2="200"/>
+    <line x1="0" y1="240" x2="60" y2="240"/>
+    <line x1="0" y1="280" x2="60" y2="280"/>
+    <line x1="0" y1="320" x2="60" y2="320"/>
+  </g>
+
+  <!-- RIGHT main wall (where claw marks above + basement window below) -->
+  <rect x="120" y="0" width="246" height="320" fill="url(#i6p8p4brick)"/>
+  <g stroke="#0a0408" stroke-width="0.55" opacity="0.85">
+    <line x1="120" y1="40" x2="366" y2="40"/>
+    <line x1="120" y1="80" x2="366" y2="80"/>
+    <line x1="120" y1="120" x2="366" y2="120"/>
+    <line x1="120" y1="160" x2="366" y2="160"/>
+    <line x1="120" y1="200" x2="366" y2="200"/>
+    <line x1="120" y1="240" x2="366" y2="240"/>
+    <line x1="120" y1="280" x2="366" y2="280"/>
+    <line x1="160" y1="0" x2="160" y2="40"/>
+    <line x1="240" y1="0" x2="240" y2="40"/>
+    <line x1="320" y1="0" x2="320" y2="40"/>
+    <line x1="180" y1="40" x2="180" y2="80"/>
+    <line x1="260" y1="40" x2="260" y2="80"/>
+    <line x1="340" y1="40" x2="340" y2="80"/>
+  </g>
+  <!-- Soot streaks -->
+  <g stroke="#0a0408" stroke-width="3" opacity="0.55" fill="none">
+    <line x1="160" y1="0" x2="160" y2="280"/>
+    <line x1="220" y1="0" x2="220" y2="260"/>
+    <line x1="280" y1="0" x2="280" y2="280"/>
+    <line x1="340" y1="0" x2="340" y2="260"/>
+  </g>
+
+  <!-- Faint claw marks above (carrying through from P8P2 — small at top edge) -->
+  <g transform="translate(220 30)">
+    <path d="M-30,-10 L-15,30" stroke="#7a5a40" stroke-width="3" opacity="0.85"/>
+    <path d="M-15,-10 L0,30" stroke="#7a5a40" stroke-width="3" opacity="0.85"/>
+    <path d="M0,-10 L15,30" stroke="#7a5a40" stroke-width="3" opacity="0.85"/>
+    <path d="M15,-10 L30,30" stroke="#7a5a40" stroke-width="3" opacity="0.85"/>
+    <path d="M-30,-10 L-15,30" stroke="#1a0c04" stroke-width="0.85" opacity="0.95"/>
+    <path d="M-15,-10 L0,30" stroke="#1a0c04" stroke-width="0.85" opacity="0.95"/>
+    <path d="M0,-10 L15,30" stroke="#1a0c04" stroke-width="0.85" opacity="0.95"/>
+    <path d="M15,-10 L30,30" stroke="#1a0c04" stroke-width="0.85" opacity="0.95"/>
+    <path d="M-30,-10 L-15,30" stroke="#5a3a78" stroke-width="0.55" opacity="0.55" filter="url(#i6p8p4bloom)"/>
+    <path d="M-15,-10 L0,30" stroke="#5a3a78" stroke-width="0.55" opacity="0.55" filter="url(#i6p8p4bloom)"/>
+    <path d="M0,-10 L15,30" stroke="#5a3a78" stroke-width="0.55" opacity="0.55" filter="url(#i6p8p4bloom)"/>
+    <path d="M15,-10 L30,30" stroke="#5a3a78" stroke-width="0.55" opacity="0.55" filter="url(#i6p8p4bloom)"/>
+  </g>
+
+  <!-- ===== BASEMENT WINDOW — ground level, BELOW the claw marks ===== -->
+  <g transform="translate(220 280)">
+    <!-- Window frame stone surround -->
+    <rect x="-50" y="-22" width="100" height="48" fill="#3a2818" stroke="#1a0c04" stroke-width="1.4"/>
+    <!-- Dirty glass (dense darkness behind) -->
+    <rect x="-44" y="-16" width="88" height="36" fill="url(#i6p8p4basementVoid)"/>
+    <!-- Dirt/grime smudges on glass -->
+    <ellipse cx="-30" cy="-6" rx="6" ry="4" fill="#1a0c04" opacity="0.85"/>
+    <ellipse cx="20" cy="6" rx="9" ry="5" fill="#1a0c04" opacity="0.7"/>
+    <line x1="-20" y1="-10" x2="-10" y2="0" stroke="#3a2018" stroke-width="0.55" opacity="0.55"/>
+
+    <!-- IRON BARS — vertical, BENT INWARD then bent back (not quite right) -->
+    <!-- Bar 1 (leftmost, bent inward strongly then back) -->
+    <path d="M-32,-22 Q-20,-8 -28,4 Q-32,16 -28,26" stroke="#1a0c04" stroke-width="3" fill="none" opacity="0.95"/>
+    <path d="M-32,-22 Q-20,-8 -28,4 Q-32,16 -28,26" stroke="#3a2820" stroke-width="1.4" fill="none" opacity="0.95"/>
+    <!-- Bar 2 (slightly less bent) -->
+    <path d="M-12,-22 Q-4,-6 -10,8 Q-14,16 -10,26" stroke="#1a0c04" stroke-width="3" fill="none" opacity="0.95"/>
+    <path d="M-12,-22 Q-4,-6 -10,8 Q-14,16 -10,26" stroke="#3a2820" stroke-width="1.4" fill="none" opacity="0.95"/>
+    <!-- Bar 3 (bent inward then back unevenly) -->
+    <path d="M8,-22 Q18,-4 12,8 Q6,16 10,26" stroke="#1a0c04" stroke-width="3" fill="none" opacity="0.95"/>
+    <path d="M8,-22 Q18,-4 12,8 Q6,16 10,26" stroke="#3a2820" stroke-width="1.4" fill="none" opacity="0.95"/>
+    <!-- Bar 4 (most bent, looks visibly wrong) -->
+    <path d="M28,-22 Q42,-2 32,12 Q22,18 30,26" stroke="#1a0c04" stroke-width="3" fill="none" opacity="0.95"/>
+    <path d="M28,-22 Q42,-2 32,12 Q22,18 30,26" stroke="#3a2820" stroke-width="1.4" fill="none" opacity="0.95"/>
+
+    <!-- Highlight catching grey light on bent bars -->
+    <path d="M-18,-2 L-22,4" stroke="#5a4838" stroke-width="0.7" opacity="0.85"/>
+    <path d="M-2,2 L-6,8" stroke="#5a4838" stroke-width="0.7" opacity="0.85"/>
+    <path d="M16,4 L12,10" stroke="#5a4838" stroke-width="0.7" opacity="0.85"/>
+    <path d="M36,4 L32,12" stroke="#5a4838" stroke-width="0.7" opacity="0.85"/>
+
+    <!-- Faint iridescent residue around window opening -->
+    <ellipse cx="0" cy="0" rx="55" ry="30" fill="none" stroke="#3a1828" stroke-width="0.55" opacity="0.45" filter="url(#i6p8p4bloom)"/>
+    <ellipse cx="0" cy="0" rx="50" ry="26" fill="none" stroke="#5a3a78" stroke-width="0.4" opacity="0.45" filter="url(#i6p8p4bloom)"/>
+    <!-- Stress fractures in stone surround near bent bars -->
+    <line x1="-32" y1="-22" x2="-36" y2="-26" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+    <line x1="28" y1="-22" x2="34" y2="-26" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+  </g>
+
+  <!-- Vanishing alley to right (bending) -->
+  <polygon points="60,40 120,40 100,320 0,320" fill="url(#i6p8p4brickDark)" opacity="0.65"/>
+  <ellipse cx="80" cy="180" rx="60" ry="120" fill="url(#i6p8p4fog)" filter="url(#i6p8p4glow)" opacity="0.85"/>
+
+  <!-- COBBLES at very bottom -->
+  <rect x="0" y="320" width="366" height="101.5" fill="#1a1410"/>
+  <g stroke="#0a0408" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,340 Q120,338 240,340 Q330,342 366,340"/>
+    <path d="M0,360 Q120,358 240,360 Q330,362 366,360"/>
+    <path d="M0,380 Q120,378 240,380 Q330,382 366,380"/>
+    <path d="M0,400 Q120,398 240,400 Q330,402 366,400"/>
+  </g>
+
+  <!-- ===== THEODORE FROM BEHIND — left foreground, looking at window/down street ===== -->
+  <g transform="translate(110 380)">
+    <!-- Boots seen from back -->
+    <ellipse cx="-7" cy="22" rx="9" ry="3" fill="#1a0c04"/>
+    <ellipse cx="9" cy="22" rx="9" ry="3" fill="#1a0c04"/>
+    <!-- Trousers -->
+    <path d="M-10,-44 L-2,-44 L-4,22 L-12,22 Z" fill="url(#i6p8p4theoTrousers)"/>
+    <path d="M2,-44 L10,-44 L12,22 L4,22 Z" fill="url(#i6p8p4theoTrousers)"/>
+    <rect x="-12" y="-22" width="9" height="11" fill="#5a3018" stroke="#3a1808" stroke-width="0.45" opacity="0.85"/>
+    <rect x="3" y="-20" width="9" height="11" fill="#5a3018" stroke="#3a1808" stroke-width="0.45" opacity="0.85"/>
+    <rect x="-10" y="-44" width="22" height="3" fill="#3a1808"/>
+    <!-- Shirt + waistcoat from BACK (no front pocket visible from behind) -->
+    <path d="M-11,-104 L-10,-44 L11,-44 L12,-104 Z" fill="#d4c4a8"/>
+    <path d="M-13,-102 L-11,-44 L0,-44 L-2,-102 Z" fill="url(#i6p8p4theoWaistcoat)"/>
+    <path d="M0,-102 L13,-102 L13,-44 L2,-44 Z" fill="url(#i6p8p4theoWaistcoat)"/>
+    <!-- Back seam -->
+    <line x1="0" y1="-102" x2="0" y2="-44" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+    <!-- Linen collar from back (no front visible) -->
+    <path d="M-7,-104 L-3,-110 L3,-110 L7,-104 Z" fill="#e0d4b8"/>
+    <!-- Arms tight at sides — body language reluctant -->
+    <path d="M-13,-102 L-22,-78 L-22,-44 L-13,-44 Z" fill="url(#i6p8p4theoWaistcoat)"/>
+    <path d="M13,-102 L22,-78 L22,-44 L13,-44 Z" fill="url(#i6p8p4theoWaistcoat)"/>
+    <ellipse cx="-22" cy="-44" rx="2.4" ry="1.4" fill="#a87838"/>
+    <ellipse cx="22" cy="-44" rx="2.4" ry="1.4" fill="#a87838"/>
+    <!-- Head from BACK -->
+    <ellipse cx="0" cy="-122" rx="13" ry="15" fill="#9a7038"/>
+    <!-- Sandy-brown hair (tousled, back of head) -->
+    <path d="M-13,-130 Q-10,-138 0,-138 Q10,-138 13,-130 L13,-118 Q8,-126 0,-124 Q-8,-126 -13,-118 Z" fill="#9a7038"/>
+    <!-- Tufts -->
+    <path d="M-7,-138 L-5,-142 L-3,-138 Z" fill="#9a7038"/>
+    <path d="M3,-138 L5,-142 L7,-138 Z" fill="#9a7038"/>
+    <!-- Hair texture lines -->
+    <g stroke="#7a5028" stroke-width="0.55" opacity="0.7" fill="none">
+      <path d="M-10,-130 Q-8,-122 -10,-118"/>
+      <path d="M-4,-132 Q-2,-122 -4,-118"/>
+      <path d="M4,-132 Q6,-122 4,-118"/>
+      <path d="M10,-130 Q12,-122 10,-118"/>
+    </g>
+    <!-- Right ear visible -->
+    <ellipse cx="13" cy="-122" rx="2" ry="3" fill="#a87838"/>
+  </g>
+
+  <!-- LUMA dialogue (from pocket — but Theodore is from behind, balloon from his shoulder area) -->
+  <g>
+    <rect x="14" y="14" width="280" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="100,54 112,54 104,64" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="100.5" y1="54" x2="111.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (from pocket)</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">The basement window. The bars are deformed.</text>
+
+  <!-- THEODORE dialogue (low) -->
+  <g>
+    <rect x="14" y="64" width="220" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="80,104 92,104 84,114" fill="white" stroke="#6a4220" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="80.5" y1="104" x2="91.5" y2="104" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="80" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700" font-style="italic">THEODORE (low)</text>
+  <text x="22" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">You want to go down there.</text>
+
+  <!-- LUMA dialogue 2 -->
+  <g>
+    <rect x="14" y="114" width="200" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="80,154 92,154 84,164" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="80.5" y1="154" x2="91.5" y2="154" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="130" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="22" y="146" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">I need to go down there.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q120,202 240,198 Q330,196 366,200"/>
+    <path d="M0,360 Q120,362 240,358 Q330,356 366,360"/>
+  </g>
+</svg>
