@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 270" width="366" height="270">
+  <title>Issue 7 — Page 2 — Panel 2: Thresh sitting with weapon — quiet through briefing, mapping threat vectors not tactical ones</title>
+  <desc>50mm medium close-up slight low angle. Thresh quiet through briefing. Eyes track between schematic and wall gap. Hand on weapon stock firm grip. Practical question about exposure reveals anxiety. Faint crimson glow from suit nodes pulsing armor seams. Weapon catches copper-gold schematic light.</desc>
+
+  <defs>
+    <linearGradient id="i7p2p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2a4a"/>
+      <stop offset="100%" stop-color="#0a1428"/>
+    </linearGradient>
+    <radialGradient id="i7p2p2copperGlow" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#d89858" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p2p2perimeter" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a5a98" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0a1428" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p2p2suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f04060"/>
+      <stop offset="50%" stop-color="#a82030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="i7p2p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="50%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="i7p2p2beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <filter id="i7p2p2bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p2p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p2p2strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect width="366" height="270" fill="url(#i7p2p2bg)"/>
+
+  <!-- Copper gold schematic light wash from LEFT -->
+  <ellipse cx="-30" cy="120" rx="200" ry="160" fill="url(#i7p2p2copperGlow)" filter="url(#i7p2p2strongglow)"/>
+
+  <!-- Perimeter -->
+  <ellipse cx="183" cy="160" rx="160" ry="100" fill="url(#i7p2p2perimeter)" filter="url(#i7p2p2strongglow)"/>
+
+  <!-- Beams -->
+  <rect x="20" y="0" width="14" height="270" fill="url(#i7p2p2beam)"/>
+  <rect x="332" y="0" width="14" height="270" fill="url(#i7p2p2beam)"/>
+  <rect x="0" y="200" width="366" height="20" fill="url(#i7p2p2beam)"/>
+  <line x1="0" y1="200" x2="366" y2="200" stroke="#a8c0e8" stroke-width="0.55" opacity="0.55" filter="url(#i7p2p2bloom)"/>
+  <line x1="0" y1="220" x2="366" y2="220" stroke="#080604" stroke-width="0.7"/>
+
+  <!-- Wall gap (faint, far right — what Thresh tracks) -->
+  <rect x="320" y="80" width="20" height="100" fill="#5a4838" opacity="0.55" filter="url(#i7p2p2glow)"/>
+
+  <!-- ===== THRESH — center, sitting, weapon across knees ===== -->
+  <g transform="translate(183 200)">
+    <ellipse cx="0" cy="2" rx="20" ry="3" fill="#000" opacity="0.7"/>
+    <!-- Sitting: bent legs forward -->
+    <path d="M-22,0 L-30,-30 L-12,-50 L0,-30 Z" fill="url(#i7p2p2suit)"/>
+    <path d="M22,0 L30,-30 L12,-50 L0,-30 Z" fill="url(#i7p2p2suit)"/>
+    <!-- Boots -->
+    <ellipse cx="-22" cy="0" rx="9" ry="3" fill="#3a0c14"/>
+    <ellipse cx="22" cy="0" rx="9" ry="3" fill="#3a0c14"/>
+    <!-- Knee plates -->
+    <ellipse cx="-12" cy="-46" rx="7" ry="3" fill="#7a1a28"/>
+    <ellipse cx="12" cy="-46" rx="7" ry="3" fill="#7a1a28"/>
+    <!-- Leg scuffs -->
+    <line x1="-20" y1="-20" x2="-12" y2="-22" stroke="#3a0c14" stroke-width="0.7"/>
+    <line x1="20" y1="-20" x2="12" y2="-22" stroke="#3a0c14" stroke-width="0.7"/>
+
+    <!-- Torso (slight forward lean) -->
+    <path d="M-22,-50 L-26,-100 L-12,-130 L12,-130 L26,-100 L22,-50 Z" fill="url(#i7p2p2suit)"/>
+    <line x1="0" y1="-130" x2="0" y2="-50" stroke="#ff8898" stroke-width="0.55" opacity="0.85" filter="url(#i7p2p2bloom)"/>
+    <!-- DENTED LEFT pauldron (heavy armor plating) -->
+    <path d="M-26,-110 L-34,-100 L-34,-86 L-26,-90 Z" fill="#7a1a28"/>
+    <line x1="-30" y1="-100" x2="-26" y2="-104" stroke="#3a0c14" stroke-width="0.85"/>
+    <line x1="-30" y1="-94" x2="-26" y2="-98" stroke="#3a0c14" stroke-width="0.55"/>
+    <!-- Right pauldron -->
+    <path d="M26,-110 L34,-100 L34,-86 L26,-90 Z" fill="#7a1a28"/>
+    <!-- Chest plate seam -->
+    <path d="M-15,-110 Q0,-115 15,-110" stroke="#3a0c14" stroke-width="0.85" fill="none"/>
+    <!-- Crimson nodes pulsing at armor seams -->
+    <circle cx="-22" cy="-90" r="1" fill="#ff5060" filter="url(#i7p2p2bloom)" opacity="0.85"/>
+    <circle cx="22" cy="-90" r="1" fill="#ff5060" filter="url(#i7p2p2bloom)" opacity="0.85"/>
+    <circle cx="0" cy="-100" r="1" fill="#ff5060" filter="url(#i7p2p2bloom)" opacity="0.85"/>
+    <!-- Grime in seams -->
+    <line x1="-15" y1="-105" x2="15" y2="-105" stroke="#1a0c04" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Arms holding weapon -->
+    <path d="M-26,-100 L-32,-80 L-22,-60 L-14,-70 Z" fill="url(#i7p2p2suit)"/>
+    <path d="M26,-100 L32,-80 L22,-60 L14,-70 Z" fill="url(#i7p2p2suit)"/>
+    <!-- WEAPON across knees — compact rifle -->
+    <rect x="-30" y="-58" width="60" height="6" fill="#3a2828" stroke="#1a0c0a" stroke-width="0.55"/>
+    <rect x="-2" y="-62" width="14" height="4" fill="#1a0c0a"/>
+    <rect x="-30" y="-58" width="6" height="6" fill="#5a3030" stroke="#1a0c0a" stroke-width="0.4"/>
+    <line x1="-30" y1="-55" x2="30" y2="-55" stroke="#dc2030" stroke-width="0.4" opacity="0.85" filter="url(#i7p2p2bloom)"/>
+    <!-- Crimson holographic targeting element -->
+    <circle cx="14" cy="-60" r="1.4" fill="#ff5060" filter="url(#i7p2p2bloom)" opacity="0.95"/>
+    <!-- HAND on stock — firm grip -->
+    <ellipse cx="-22" cy="-58" rx="6" ry="3" fill="url(#i7p2p2skin)"/>
+    <ellipse cx="22" cy="-58" rx="6" ry="3" fill="url(#i7p2p2skin)"/>
+
+    <!-- Neck -->
+    <path d="M-7,-140 L-9,-130 L9,-130 L7,-140 Z" fill="url(#i7p2p2skin)"/>
+
+    <!-- Head — eyes tracking RIGHT toward gap -->
+    <ellipse cx="0" cy="-156" rx="14" ry="16" fill="url(#i7p2p2skin)"/>
+    <!-- Copper-red buzz cut -->
+    <path d="M-12,-168 Q-12,-174 0,-176 Q12,-174 12,-168 L12,-164 Q6,-166 0,-166 Q-6,-166 -12,-164 Z" fill="#a83828"/>
+    <line x1="-10" y1="-170" x2="10" y2="-170" stroke="#dc4030" stroke-width="0.4" opacity="0.85"/>
+    <!-- Cheekbones uplit copper -->
+    <path d="M-12,-156 Q-9,-148 -4,-144" fill="none" stroke="#5a3018" stroke-width="0.55" opacity="0.85"/>
+    <path d="M12,-156 Q9,-148 4,-144" fill="none" stroke="#5a3018" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Eyes — alert, tracking right -->
+    <ellipse cx="-4" cy="-156" rx="2" ry="1" fill="#fff"/>
+    <ellipse cx="4" cy="-156" rx="2" ry="1" fill="#fff"/>
+    <ellipse cx="-3" cy="-156" rx="1" ry="0.7" fill="#3a1808"/>
+    <ellipse cx="5" cy="-156" rx="1" ry="0.7" fill="#3a1808"/>
+    <circle cx="-3" cy="-156" r="0.3" fill="#fff"/>
+    <circle cx="5" cy="-156" r="0.3" fill="#fff"/>
+    <!-- Brow tense -->
+    <path d="M-9,-164 L-3,-164" stroke="#3a1808" stroke-width="1"/>
+    <path d="M9,-164 L3,-164" stroke="#3a1808" stroke-width="1"/>
+    <!-- Nose -->
+    <path d="M-2,-156 L-2,-148 L0,-146 L2,-148 L2,-156 Z" fill="#5a3018" opacity="0.85"/>
+    <!-- Mouth — set, controlled -->
+    <line x1="-3" y1="-141" x2="3" y2="-141" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Comms ear -->
+    <circle cx="14" cy="-156" r="1" fill="#ff5060" filter="url(#i7p2p2bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- THRESH dialogue -->
+  <g>
+    <rect x="14" y="14" width="220" height="34" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,48 92,48 84,58" fill="white" stroke="#dc2030" stroke-width="0.85"/>
+    <line x1="80.5" y1="48" x2="91.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#dc2030" font-weight="700">THRESH</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">The waterfront. How exposed?</text>
+
+  <!-- WREN off-panel -->
+  <g>
+    <rect x="14" y="64" width="240" height="34" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="80" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(off-panel)</tspan></text>
+  <text x="22" y="94" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">Open quays. Foot traffic late.</text>
+
+  <!-- THRESH reply -->
+  <g>
+    <rect x="200" y="100" width="150" height="34" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="240,134 252,134 244,144" fill="white" stroke="#dc2030" stroke-width="0.85"/>
+    <line x1="240.5" y1="134" x2="251.5" y2="134" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="208" y="116" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#dc2030" font-weight="700">THRESH</text>
+  <text x="208" y="130" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">...right.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q100,92 200,88 Q280,86 366,90"/>
+    <path d="M0,200 Q100,202 200,198 Q280,196 366,200"/>
+  </g>
+</svg>

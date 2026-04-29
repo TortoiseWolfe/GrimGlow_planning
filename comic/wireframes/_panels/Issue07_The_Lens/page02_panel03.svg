@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 370" width="742" height="370">
+  <title>Issue 7 — Page 2 — Panel 3: Wide team portrait — full camp, all five squad members + dual holograms before mission</title>
+  <desc>28mm wide slight low angle. Full camp space. Wren center beside dual holograms (lighthouse + mission timeline). Sable apart arms folded. Jink higher beam. Thresh sitting weapon. Luma studying through lenses. Camp lived-in settled real. Their home. Holograms collapsing as Wren powers down briefing. Professional readiness with individual variations.</desc>
+
+  <defs>
+    <linearGradient id="i7p2p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2a4a"/>
+      <stop offset="100%" stop-color="#0a1428"/>
+    </linearGradient>
+    <radialGradient id="i7p2p3hologramFade" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#d89858" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p2p3perimeter" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a5a98" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0a1428" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p2p3beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="i7p2p3floorboardWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="i7p2p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p2p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p2p3strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i7p2p3megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="742" height="370" fill="url(#i7p2p3bg)"/>
+
+  <!-- Floorboard ceiling above -->
+  <rect x="0" y="0" width="742" height="40" fill="#1a1208"/>
+  <g opacity="0.85">
+    <rect x="80" y="0" width="60" height="6" fill="url(#i7p2p3floorboardWarm)" filter="url(#i7p2p3glow)"/>
+    <rect x="240" y="0" width="80" height="8" fill="url(#i7p2p3floorboardWarm)" filter="url(#i7p2p3glow)"/>
+    <rect x="420" y="0" width="60" height="6" fill="url(#i7p2p3floorboardWarm)" filter="url(#i7p2p3glow)"/>
+    <rect x="580" y="0" width="80" height="7" fill="url(#i7p2p3floorboardWarm)" filter="url(#i7p2p3glow)"/>
+  </g>
+
+  <!-- Cobwebs corners -->
+  <g stroke="#7a6c50" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,40 L40,80 M0,60 L40,80 M20,40 L40,80 M0,80 L40,80"/>
+    <path d="M742,40 L702,80 M742,60 L702,80 M722,40 L702,80 M742,80 L702,80"/>
+  </g>
+
+  <!-- Perimeter glow halos (corners) -->
+  <ellipse cx="80" cy="240" rx="60" ry="80" fill="url(#i7p2p3perimeter)" filter="url(#i7p2p3strongglow)"/>
+  <ellipse cx="660" cy="240" rx="60" ry="80" fill="url(#i7p2p3perimeter)" filter="url(#i7p2p3strongglow)"/>
+
+  <!-- Timber beams -->
+  <rect x="40" y="0" width="14" height="370" fill="url(#i7p2p3beam)"/>
+  <rect x="688" y="0" width="14" height="370" fill="url(#i7p2p3beam)"/>
+  <rect x="0" y="40" width="742" height="10" fill="url(#i7p2p3beam)"/>
+  <!-- Higher beam -->
+  <rect x="100" y="120" width="540" height="10" fill="url(#i7p2p3beam)"/>
+  <!-- Floor beam -->
+  <rect x="0" y="320" width="742" height="20" fill="url(#i7p2p3beam)"/>
+  <line x1="0" y1="320" x2="742" y2="320" stroke="#a8c0e8" stroke-width="0.55" opacity="0.7" filter="url(#i7p2p3bloom)"/>
+
+  <!-- ===== HOLOGRAMS — collapsing/fading ===== -->
+  <g transform="translate(371 240)">
+    <!-- Background fade halo -->
+    <ellipse cx="-30" cy="0" rx="80" ry="60" fill="url(#i7p2p3hologramFade)" filter="url(#i7p2p3megaglow)" opacity="0.55"/>
+    <!-- Lighthouse vague structure -->
+    <g stroke="#d89858" stroke-width="0.55" fill="none" opacity="0.55" filter="url(#i7p2p3bloom)">
+      <path d="M-46,40 L-42,-30 L-50,-38 L-10,-38 L-18,-30 L-14,40 Z"/>
+      <rect x="-54" y="-50" width="48" height="12"/>
+      <ellipse cx="-30" cy="-44" rx="14" ry="4"/>
+    </g>
+    <!-- Timeline beside it (collapsing) -->
+    <g transform="translate(40 0)" opacity="0.4">
+      <line x1="0" y1="-40" x2="0" y2="40" stroke="#d89858" stroke-width="0.55" opacity="0.7"/>
+      <circle cx="0" cy="-30" r="2.4" fill="#d89858" opacity="0.55" filter="url(#i7p2p3bloom)"/>
+      <circle cx="0" cy="-15" r="2" fill="#d89858" opacity="0.4" filter="url(#i7p2p3bloom)"/>
+      <circle cx="0" cy="0" r="1.4" fill="#d89858" opacity="0.3"/>
+      <circle cx="0" cy="15" r="1.4" fill="#d89858" opacity="0.25"/>
+      <circle cx="0" cy="30" r="1.4" fill="#d89858" opacity="0.2"/>
+    </g>
+  </g>
+
+  <!-- ===== JINK on higher beam (left of center) ===== -->
+  <g transform="translate(220 120)">
+    <ellipse cx="0" cy="2" rx="6" ry="1" fill="#000" opacity="0.55"/>
+    <ellipse cx="-3" cy="-1" rx="5" ry="2" fill="#2ed078"/>
+    <ellipse cx="3" cy="-1" rx="5" ry="2" fill="#2ed078"/>
+    <path d="M-5,-2 L-6,-22 L-3,-30 L3,-30 L6,-22 L5,-2 Z" fill="#2ed078"/>
+    <line x1="-5" y1="-12" x2="5" y2="-10" stroke="#1a1410" stroke-width="2" opacity="0.85"/>
+    <ellipse cx="0" cy="-38" rx="3" ry="3.4" fill="#d8a878"/>
+    <path d="M-3,-42 Q-3,-46 0,-47 Q3,-46 3,-42 L3,-40 Q1,-41 0,-41 Q-1,-41 -3,-40 Z" fill="#f0d878"/>
+    <circle cx="-2" cy="-44" r="0.85" fill="#f0d878"/>
+    <circle cx="2" cy="-44" r="0.85" fill="#f0d878"/>
+    <ellipse cx="-1" cy="-38" rx="0.85" ry="0.4" fill="#fff"/>
+    <ellipse cx="1" cy="-38" rx="0.85" ry="0.4" fill="#fff"/>
+    <circle cx="-1" cy="-38" r="0.3" fill="#1a4a28"/>
+    <circle cx="1" cy="-38" r="0.3" fill="#1a4a28"/>
+    <circle cx="3" cy="-39" r="0.55" fill="#5af0a0" filter="url(#i7p2p3bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ===== WREN — center, powering down briefing ===== -->
+  <g transform="translate(310 320)">
+    <ellipse cx="0" cy="2" rx="6" ry="1" fill="#000" opacity="0.7"/>
+    <path d="M-3,0 L-4,-12 L-2,-18 L0,-12 Z" fill="#a85820"/>
+    <path d="M3,0 L4,-12 L2,-18 L0,-12 Z" fill="#a85820"/>
+    <path d="M-4,-18 L-5,-30 L-3,-36 L4,-36 L5,-30 L4,-18 Z" fill="#a85820"/>
+    <line x1="0" y1="-36" x2="0" y2="-18" stroke="#f0c898" stroke-width="0.4" opacity="0.85" filter="url(#i7p2p3bloom)"/>
+    <ellipse cx="-7" cy="-22" rx="2" ry="1" fill="#1a0c04" opacity="0.85"/>
+    <!-- Right hand lower (powering down) -->
+    <path d="M5,-34 L9,-22 L9,-12 L5,-18 Z" fill="#a85820"/>
+    <path d="M-5,-34 L-9,-22 L-9,-12 L-5,-18 Z" fill="#a85820"/>
+    <ellipse cx="0" cy="-42" rx="3" ry="3.4" fill="#a87838"/>
+    <ellipse cx="0" cy="-48" rx="2" ry="1.4" fill="#1a0a04"/>
+    <ellipse cx="-1" cy="-42" rx="0.85" ry="0.4" fill="#fff"/>
+    <ellipse cx="1" cy="-42" rx="0.85" ry="0.4" fill="#fff"/>
+    <circle cx="-1" cy="-42" r="0.3" fill="#1a0c04"/>
+    <circle cx="1" cy="-42" r="0.3" fill="#1a0c04"/>
+    <line x1="-1.4" y1="-38" x2="1.4" y2="-38" stroke="#3a1808" stroke-width="0.3"/>
+    <circle cx="3" cy="-43" r="0.55" fill="#d89858" filter="url(#i7p2p3bloom)" opacity="0.7"/>
+  </g>
+
+  <!-- ===== SABLE — left of center, arms folded apart ===== -->
+  <g transform="translate(180 320)">
+    <ellipse cx="0" cy="2" rx="6" ry="1" fill="#000" opacity="0.7"/>
+    <path d="M-3,0 L-4,-12 L-2,-18 L0,-12 Z" fill="#506890"/>
+    <path d="M3,0 L4,-12 L2,-18 L0,-12 Z" fill="#506890"/>
+    <path d="M-4,-18 L-5,-30 L-3,-36 L4,-36 L5,-30 L4,-18 Z" fill="#506890"/>
+    <line x1="0" y1="-36" x2="0" y2="-18" stroke="#a8c0e8" stroke-width="0.4" opacity="0.85" filter="url(#i7p2p3bloom)"/>
+    <ellipse cx="4" cy="-32" rx="3" ry="1.4" fill="#1a1814" opacity="0.85"/>
+    <line x1="-1" y1="-35" x2="-1" y2="-32" stroke="#0a0a14" stroke-width="0.4"/>
+    <line x1="1" y1="-35" x2="1" y2="-32" stroke="#0a0a14" stroke-width="0.4"/>
+    <!-- Arms folded -->
+    <path d="M-5,-34 L-7,-26 L-2,-22 L4,-26 L7,-22 L5,-34 L0,-30 Z" fill="#506890"/>
+    <line x1="-3" y1="-26" x2="3" y2="-26" stroke="#3a4868" stroke-width="0.4"/>
+    <ellipse cx="0" cy="-42" rx="3" ry="3.4" fill="#5a3a28"/>
+    <path d="M-3,-46 Q-3,-48 0,-49 Q3,-48 3,-46 L3,-44 Q1,-45 0,-45 Q-1,-45 -3,-44 Z" fill="#d8e4f8"/>
+    <ellipse cx="-1" cy="-42" rx="0.85" ry="0.4" fill="#fff8e8"/>
+    <ellipse cx="1" cy="-42" rx="0.85" ry="0.4" fill="#fff8e8"/>
+    <circle cx="-0.4" cy="-42" r="0.3" fill="#1a1c30"/>
+    <circle cx="1.4" cy="-42" r="0.3" fill="#1a1c30"/>
+    <line x1="-1.4" y1="-38" x2="1.4" y2="-38" stroke="#1a0c08" stroke-width="0.3"/>
+    <circle cx="3" cy="-43" r="0.55" fill="#a8c0e8" filter="url(#i7p2p3bloom)" opacity="0.7"/>
+  </g>
+
+  <!-- ===== THRESH — right of center, sitting ===== -->
+  <g transform="translate(450 320)">
+    <ellipse cx="0" cy="2" rx="7" ry="1" fill="#000" opacity="0.7"/>
+    <path d="M-7,0 L-9,-8 L-2,-14 L0,-8 Z" fill="#dc2030"/>
+    <path d="M7,0 L9,-8 L2,-14 L0,-8 Z" fill="#dc2030"/>
+    <path d="M-6,-14 L-7,-26 L-4,-32 L4,-32 L7,-26 L6,-14 Z" fill="#dc2030"/>
+    <path d="M-7,-26 L-10,-24 L-10,-20 L-7,-22 Z" fill="#7a1a28"/>
+    <path d="M7,-26 L10,-24 L10,-20 L7,-22 Z" fill="#7a1a28"/>
+    <path d="M-7,-26 L-10,-18 L-6,-14 L-4,-20 Z" fill="#dc2030"/>
+    <path d="M7,-26 L10,-18 L6,-14 L4,-20 Z" fill="#dc2030"/>
+    <rect x="-8" y="-12" width="16" height="2" fill="#3a2828"/>
+    <rect x="-2" y="-13" width="6" height="3" fill="#1a0c0a"/>
+    <ellipse cx="0" cy="-38" rx="3" ry="3.4" fill="#a87838"/>
+    <path d="M-3,-42 Q-3,-44 0,-45 Q3,-44 3,-42 L3,-40 Q1,-41 0,-41 Q-1,-41 -3,-40 Z" fill="#a83828"/>
+    <ellipse cx="-1" cy="-38" rx="0.85" ry="0.4" fill="#fff"/>
+    <ellipse cx="1" cy="-38" rx="0.85" ry="0.4" fill="#fff"/>
+    <circle cx="-1" cy="-38" r="0.3" fill="#3a1808"/>
+    <circle cx="1" cy="-38" r="0.3" fill="#3a1808"/>
+    <line x1="-1.4" y1="-34" x2="1.4" y2="-34" stroke="#1a0c08" stroke-width="0.3"/>
+    <circle cx="3" cy="-39" r="0.55" fill="#ff4458" filter="url(#i7p2p3bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ===== LUMA — right side, lenses active ===== -->
+  <g transform="translate(620 320)">
+    <ellipse cx="0" cy="2" rx="5" ry="1" fill="#000" opacity="0.55"/>
+    <path d="M-3,0 L-4,-12 L-2,-18 L0,-12 Z" fill="#5a3ad8"/>
+    <path d="M3,0 L4,-12 L2,-18 L0,-12 Z" fill="#5a3ad8"/>
+    <path d="M-4,-18 L-5,-30 L-3,-36 L4,-36 L5,-30 L4,-18 Z" fill="#5a3ad8"/>
+    <line x1="0" y1="-36" x2="0" y2="-18" stroke="#a888ff" stroke-width="0.4" opacity="0.85" filter="url(#i7p2p3bloom)"/>
+    <ellipse cx="-3" cy="-26" rx="2" ry="0.7" fill="#a8a098" opacity="0.7"/>
+    <path d="M-5,-34 L-9,-26 L-7,-18 L-3,-22 Z" fill="#5a3ad8"/>
+    <path d="M5,-34 L9,-30 L7,-18 L3,-22 Z" fill="#5a3ad8"/>
+    <ellipse cx="0" cy="-42" rx="3" ry="3.4" fill="#7a4838"/>
+    <path d="M-3,-46 Q-3,-48 0,-49 Q3,-48 3,-46 L3,-44 Q1,-45 0,-45 Q-1,-45 -3,-44 Z" fill="#0a0604"/>
+    <path d="M-3,-44 Q-5,-30 -4,-22" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <ellipse cx="-1" cy="-42" rx="1" ry="0.7" fill="#a888ff" filter="url(#i7p2p3bloom)" opacity="0.95"/>
+    <ellipse cx="1" cy="-42" rx="1" ry="0.7" fill="#a888ff" filter="url(#i7p2p3bloom)" opacity="0.95"/>
+    <circle cx="-0.7" cy="-42" r="0.3" fill="#1a0a04"/>
+    <circle cx="1.4" cy="-42" r="0.3" fill="#1a0a04"/>
+    <line x1="-1.4" y1="-42.5" x2="-0.7" y2="-41.5" stroke="#1a0a04" stroke-width="0.2"/>
+    <line x1="-1" y1="-38" x2="1" y2="-38" stroke="#3a1808" stroke-width="0.3"/>
+    <circle cx="3" cy="-43" r="0.55" fill="#a888ff" filter="url(#i7p2p3bloom)" opacity="0.7"/>
+  </g>
+
+  <!-- WREN dialogue 1 -->
+  <g>
+    <rect x="14" y="14" width="160" height="34" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,48 92,48 84,58" fill="white" stroke="#c87a35" stroke-width="0.85"/>
+    <line x1="80.5" y1="48" x2="91.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Questions?</text>
+
+  <!-- LUMA Q -->
+  <g>
+    <rect x="190" y="14" width="220" height="34" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="240,48 252,48 244,58" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="240.5" y1="48" x2="251.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="198" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="198" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Comms range to the waterfront?</text>
+
+  <!-- WREN reply -->
+  <g>
+    <rect x="430" y="14" width="296" height="48" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="540,62 552,62 544,72" fill="white" stroke="#c87a35" stroke-width="0.85"/>
+    <line x1="540.5" y1="62" x2="551.5" y2="62" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="438" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="438" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">Marginal. Need a relay point.</text>
+  <text x="438" y="56" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">Jink, you're the midpoint back.</text>
+
+  <!-- SABLE order -->
+  <g>
+    <rect x="14" y="278" width="280" height="34" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="100,278 112,278 104,268" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="100.5" y1="278" x2="111.5" y2="278" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="294" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="308" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">We move at dusk. Theodore at the bridge.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q200,142 400,138 Q580,136 742,140"/>
+    <path d="M0,300 Q200,302 400,298 Q580,296 742,300"/>
+  </g>
+</svg>

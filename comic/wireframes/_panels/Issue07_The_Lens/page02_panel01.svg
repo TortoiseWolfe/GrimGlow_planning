@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 270" width="366" height="270">
+  <title>Issue 7 — Page 2 — Panel 1: Sable approves Jink's escort — vertical separation, command tension</title>
+  <desc>50mm medium eye level. Sable on main beam below looking up at Jink on higher beam. Vertical separation mirrors emotional distance. Sable jaw tight reluctant approval. Jink waiting not backing down. Camp ambient cool blue-white plus warm amber. Shadow between them.</desc>
+
+  <defs>
+    <linearGradient id="i7p2p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2a4a"/>
+      <stop offset="100%" stop-color="#0a1428"/>
+    </linearGradient>
+    <radialGradient id="i7p2p1perimeter" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a5a98" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0a1428" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p2p1beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="i7p2p1floorboardWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="i7p2p1suitS" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8b0c0"/>
+      <stop offset="100%" stop-color="#506068"/>
+    </linearGradient>
+    <linearGradient id="i7p2p1suitJ" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <filter id="i7p2p1bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p2p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p2p1strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect width="366" height="270" fill="url(#i7p2p1bg)"/>
+
+  <!-- Floorboard ceiling above with amber bands -->
+  <rect x="0" y="0" width="366" height="20" fill="#1a1208"/>
+  <rect x="40" y="0" width="50" height="6" fill="url(#i7p2p1floorboardWarm)" filter="url(#i7p2p1glow)"/>
+  <rect x="180" y="0" width="60" height="6" fill="url(#i7p2p1floorboardWarm)" filter="url(#i7p2p1glow)"/>
+  <rect x="280" y="0" width="50" height="6" fill="url(#i7p2p1floorboardWarm)" filter="url(#i7p2p1glow)"/>
+
+  <!-- Perimeter -->
+  <ellipse cx="183" cy="160" rx="160" ry="100" fill="url(#i7p2p1perimeter)" filter="url(#i7p2p1strongglow)"/>
+
+  <!-- Vertical timber beams -->
+  <rect x="20" y="0" width="14" height="270" fill="url(#i7p2p1beam)"/>
+  <rect x="332" y="0" width="14" height="270" fill="url(#i7p2p1beam)"/>
+  <line x1="34" y1="20" x2="34" y2="240" stroke="#3a4868" stroke-width="0.4" opacity="0.55"/>
+  <line x1="332" y1="20" x2="332" y2="240" stroke="#3a4868" stroke-width="0.4" opacity="0.55"/>
+
+  <!-- Higher beam (Jink's, upper third) -->
+  <rect x="34" y="60" width="298" height="10" fill="url(#i7p2p1beam)"/>
+  <line x1="60" y1="60" x2="320" y2="60" stroke="#5a78a8" stroke-width="0.4" opacity="0.55"/>
+  <line x1="60" y1="70" x2="320" y2="70" stroke="#080604" stroke-width="0.55" opacity="0.85"/>
+
+  <!-- Main beam (Sable's, lower third) -->
+  <rect x="0" y="200" width="366" height="20" fill="url(#i7p2p1beam)"/>
+  <line x1="0" y1="200" x2="366" y2="200" stroke="#a8c0e8" stroke-width="0.55" opacity="0.55" filter="url(#i7p2p1bloom)"/>
+  <line x1="0" y1="220" x2="366" y2="220" stroke="#080604" stroke-width="0.7"/>
+
+  <!-- ===== JINK on higher beam — small figure, hands on knees ===== -->
+  <g transform="translate(220 60)">
+    <!-- Cast shadow -->
+    <ellipse cx="0" cy="2" rx="6" ry="0.85" fill="#000" opacity="0.55"/>
+    <!-- Sitting cross-legged -->
+    <ellipse cx="-3" cy="-1" rx="5" ry="2" fill="url(#i7p2p1suitJ)"/>
+    <ellipse cx="3" cy="-1" rx="5" ry="2" fill="url(#i7p2p1suitJ)"/>
+    <!-- Torso -->
+    <path d="M-5,-2 L-6,-22 L-3,-30 L3,-30 L6,-22 L5,-2 Z" fill="url(#i7p2p1suitJ)"/>
+    <!-- Soot streak -->
+    <line x1="-5" y1="-14" x2="5" y2="-12" stroke="#1a1410" stroke-width="2" opacity="0.85"/>
+    <!-- Arms at sides -->
+    <path d="M-6,-22 L-9,-14 L-7,-6 L-3,-12 Z" fill="url(#i7p2p1suitJ)"/>
+    <path d="M6,-22 L9,-14 L7,-6 L3,-12 Z" fill="url(#i7p2p1suitJ)"/>
+    <!-- Head — looking DOWN at Sable -->
+    <ellipse cx="0" cy="-38" rx="4" ry="4.5" fill="#d8a878"/>
+    <!-- Curls -->
+    <path d="M-4,-44 Q-3,-50 0,-51 Q3,-50 4,-44 L4,-40 Q2,-42 0,-42 Q-2,-42 -4,-40 Z" fill="#f0d878"/>
+    <circle cx="-2" cy="-46" r="0.85" fill="#f0d878"/>
+    <circle cx="2" cy="-46" r="0.85" fill="#f0d878"/>
+    <circle cx="0" cy="-48" r="0.85" fill="#f0d878"/>
+    <!-- Eyes (looking down) -->
+    <ellipse cx="-1" cy="-38" rx="1" ry="0.4" fill="#fff"/>
+    <ellipse cx="1" cy="-38" rx="1" ry="0.4" fill="#fff"/>
+    <line x1="-1.5" y1="-38" x2="-0.5" y2="-38" stroke="#1a4a28" stroke-width="0.4"/>
+    <line x1="0.5" y1="-38" x2="1.5" y2="-38" stroke="#1a4a28" stroke-width="0.4"/>
+    <!-- Mouth set, level -->
+    <line x1="-1.4" y1="-34" x2="1.4" y2="-34" stroke="#3a1808" stroke-width="0.3"/>
+    <!-- Comms ear -->
+    <circle cx="3.5" cy="-38" r="0.55" fill="#5af0a0" filter="url(#i7p2p1bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- Shadow gap between them (vertical line of darkness) -->
+  <rect x="170" y="80" width="100" height="120" fill="#0a1018" opacity="0.4"/>
+
+  <!-- ===== SABLE on main beam below — looking UP at Jink ===== -->
+  <g transform="translate(160 200)">
+    <!-- Cast shadow -->
+    <ellipse cx="0" cy="2" rx="9" ry="1.4" fill="#000" opacity="0.7"/>
+    <!-- Boots -->
+    <ellipse cx="-7" cy="0" rx="5" ry="2" fill="#1a1c20"/>
+    <ellipse cx="7" cy="0" rx="5" ry="2" fill="#1a1c20"/>
+    <!-- Legs -->
+    <path d="M-9,-2 L-12,-50 L-2,-60 L0,-50 Z" fill="url(#i7p2p1suitS)"/>
+    <path d="M9,-2 L12,-50 L2,-60 L0,-50 Z" fill="url(#i7p2p1suitS)"/>
+    <!-- Torso -->
+    <path d="M-12,-60 L-16,-110 L-8,-130 L8,-130 L16,-110 L12,-60 Z" fill="url(#i7p2p1suitS)"/>
+    <line x1="0" y1="-130" x2="0" y2="-60" stroke="#d8e4f8" stroke-width="0.4" opacity="0.85" filter="url(#i7p2p1bloom)"/>
+    <!-- Soot bloom -->
+    <ellipse cx="11" cy="-114" rx="6" ry="3" fill="#1a1814" opacity="0.85"/>
+    <!-- Tension crease -->
+    <line x1="-3" y1="-128" x2="-2" y2="-122" stroke="#0a0a14" stroke-width="0.55" opacity="0.95"/>
+    <line x1="2" y1="-128" x2="3" y2="-122" stroke="#0a0a14" stroke-width="0.55" opacity="0.95"/>
+    <!-- Arms folded across chest -->
+    <path d="M-16,-110 L-22,-94 L-12,-86 L0,-92 L12,-86 L22,-94 L16,-110 L8,-100 L-8,-100 Z" fill="url(#i7p2p1suitS)"/>
+    <line x1="-12" y1="-94" x2="12" y2="-94" stroke="#1a1c20" stroke-width="0.4"/>
+    <!-- Head LOOKING UP -->
+    <ellipse cx="0" cy="-144" rx="9" ry="10" fill="#5a3a28"/>
+    <!-- Buzz cut -->
+    <path d="M-7,-152 Q-7,-156 0,-158 Q7,-156 7,-152 L7,-150 Q4,-152 0,-152 Q-4,-152 -7,-150 Z" fill="#d8e4f8" filter="url(#i7p2p1bloom)"/>
+    <!-- Eyes UPWARD -->
+    <ellipse cx="-3" cy="-146" rx="1.4" ry="0.7" fill="#fff8e8"/>
+    <ellipse cx="3" cy="-146" rx="1.4" ry="0.7" fill="#fff8e8"/>
+    <circle cx="-3" cy="-147" r="0.55" fill="#1a1c30"/>
+    <circle cx="3" cy="-147" r="0.55" fill="#1a1c30"/>
+    <!-- Brow -->
+    <path d="M-5,-150 L-1,-150" stroke="#0a0604" stroke-width="0.55"/>
+    <path d="M5,-150 L1,-150" stroke="#0a0604" stroke-width="0.55"/>
+    <!-- Mouth — set, jaw tight -->
+    <line x1="-2" y1="-138" x2="2" y2="-138" stroke="#0a0604" stroke-width="0.55"/>
+    <!-- Comms ear -->
+    <circle cx="8" cy="-145" r="0.55" fill="#a8c0e8" filter="url(#i7p2p1bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- SABLE dialogue -->
+  <g>
+    <rect x="14" y="14" width="240" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="100,54 112,54 104,64" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="100.5" y1="54" x2="111.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Fine. Stay concealed. Overwatch only.</text>
+
+  <!-- JINK reply -->
+  <g>
+    <rect x="220" y="100" width="130" height="34" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="270,100 282,100 274,90" fill="white" stroke="#2ed078" stroke-width="0.85"/>
+    <line x1="270.5" y1="100" x2="281.5" y2="100" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="228" y="116" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="228" y="130" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Understood.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q100,92 200,88 Q280,86 366,90"/>
+    <path d="M0,200 Q100,202 200,198 Q280,196 366,200"/>
+  </g>
+</svg>

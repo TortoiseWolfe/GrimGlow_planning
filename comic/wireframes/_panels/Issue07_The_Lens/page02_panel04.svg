@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 410" width="494" height="410">
+  <title>Issue 7 — Page 2 — Panel 4: Luma sits beside Thresh — quiet friendship before mission</title>
+  <desc>35mm medium wide eye level. Luma approaches Thresh casually deliberate. Sits beside on beam. Doesn't reach for scanner. Friend sitting down. Squad dispersing in background. Holograms powered down. Warm amber from above dominant now. Two women in warm light — quiet moment before mission.</desc>
+
+  <defs>
+    <linearGradient id="i7p2p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p2p4amberAbove" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#d8a060" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a87838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2418" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p2p4suitL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5af0"/>
+      <stop offset="50%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <linearGradient id="i7p2p4suitT" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f04060"/>
+      <stop offset="50%" stop-color="#a82030"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="i7p2p4skinL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3a28"/>
+    </linearGradient>
+    <linearGradient id="i7p2p4skinT" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4838"/>
+    </linearGradient>
+    <linearGradient id="i7p2p4beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <filter id="i7p2p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p2p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p2p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p2p4softfocus"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <rect width="494" height="410" fill="url(#i7p2p4bg)"/>
+
+  <!-- Warm amber wash from above (dominant) -->
+  <ellipse cx="247" cy="0" rx="500" ry="280" fill="url(#i7p2p4amberAbove)" filter="url(#i7p2p4strongglow)"/>
+
+  <!-- Floorboard ceiling with amber bands -->
+  <rect x="0" y="0" width="494" height="30" fill="#1a1208"/>
+  <rect x="40" y="0" width="80" height="6" fill="#a87838" opacity="0.85" filter="url(#i7p2p4bloom)"/>
+  <rect x="180" y="0" width="100" height="8" fill="#d8a060" opacity="0.85" filter="url(#i7p2p4bloom)"/>
+  <rect x="340" y="0" width="60" height="6" fill="#a87838" opacity="0.85" filter="url(#i7p2p4bloom)"/>
+  <rect x="430" y="0" width="50" height="6" fill="#a87838" opacity="0.85" filter="url(#i7p2p4bloom)"/>
+
+  <!-- Background camp dispersing — soft focus -->
+  <g filter="url(#i7p2p4softfocus)" opacity="0.55">
+    <!-- Wren collecting data (left far) -->
+    <ellipse cx="60" cy="220" rx="6" ry="10" fill="#a85820"/>
+    <ellipse cx="60" cy="208" rx="3" ry="3" fill="#a87838"/>
+    <ellipse cx="60" cy="204" rx="2" ry="1.4" fill="#1a0a04"/>
+    <!-- Hint of fading hologram -->
+    <ellipse cx="40" cy="210" rx="14" ry="9" fill="#d89858" opacity="0.4" filter="url(#i7p2p4bloom)"/>
+
+    <!-- Sable moving toward wall gap (far right) -->
+    <ellipse cx="430" cy="220" rx="6" ry="10" fill="#506890"/>
+    <ellipse cx="430" cy="208" rx="3" ry="3" fill="#5a3a28"/>
+    <path d="M428,212 Q428,210 432,209 Q435,210 435,212" fill="#d8e4f8"/>
+
+    <!-- Jink leaving beam silhouette (rear center) -->
+    <ellipse cx="240" cy="160" rx="4" ry="8" fill="#2ed078"/>
+    <ellipse cx="240" cy="150" rx="2.4" ry="2.4" fill="#d8a878"/>
+    <path d="M238,153 Q238,151 240,150 Q242,151 242,153" fill="#f0d878"/>
+  </g>
+
+  <!-- Floor beam -->
+  <rect x="0" y="350" width="494" height="30" fill="url(#i7p2p4beam)"/>
+  <line x1="0" y1="350" x2="494" y2="350" stroke="#a87838" stroke-width="0.7" opacity="0.85" filter="url(#i7p2p4bloom)"/>
+  <!-- Wood grain -->
+  <g stroke="#080604" stroke-width="0.4" opacity="0.85" fill="none">
+    <path d="M0,360 Q140,358 280,360 Q420,362 494,360"/>
+    <path d="M0,372 Q140,370 280,372 Q420,374 494,372"/>
+  </g>
+
+  <!-- ===== LUMA — left of center on beam ===== -->
+  <g transform="translate(180 350)">
+    <ellipse cx="0" cy="0" rx="22" ry="3" fill="#000" opacity="0.55"/>
+    <!-- Sitting cross-legged: legs forward bent -->
+    <path d="M-22,0 L-30,-30 L-12,-50 L0,-30 Z" fill="url(#i7p2p4suitL)"/>
+    <path d="M22,0 L30,-30 L12,-50 L0,-30 Z" fill="url(#i7p2p4suitL)"/>
+    <ellipse cx="-22" cy="0" rx="9" ry="2.4" fill="#0a0408"/>
+    <ellipse cx="22" cy="0" rx="9" ry="2.4" fill="#0a0408"/>
+
+    <!-- Heavy stone dust on knees + boots -->
+    <ellipse cx="-12" cy="-46" rx="7" ry="2" fill="#a8a098" opacity="0.85"/>
+    <ellipse cx="12" cy="-46" rx="7" ry="2" fill="#a8a098" opacity="0.85"/>
+
+    <!-- Torso -->
+    <path d="M-22,-50 L-26,-110 L-12,-130 L12,-130 L26,-110 L22,-50 Z" fill="url(#i7p2p4suitL)"/>
+    <line x1="0" y1="-130" x2="0" y2="-50" stroke="#a888ff" stroke-width="0.55" opacity="0.85" filter="url(#i7p2p4bloom)"/>
+    <ellipse cx="-12" cy="-78" rx="9" ry="3" fill="#a8a098" opacity="0.7"/>
+    <ellipse cx="12" cy="-90" rx="6" ry="3" fill="#a8a098" opacity="0.7"/>
+
+    <!-- Arms relaxed on lap -->
+    <path d="M-26,-110 L-32,-90 L-22,-78 L-14,-90 Z" fill="url(#i7p2p4suitL)"/>
+    <path d="M26,-110 L32,-90 L22,-78 L14,-90 Z" fill="url(#i7p2p4suitL)"/>
+    <ellipse cx="-26" cy="-78" rx="5" ry="3" fill="url(#i7p2p4skinL)"/>
+    <ellipse cx="26" cy="-78" rx="5" ry="3" fill="url(#i7p2p4skinL)"/>
+
+    <!-- Wing-pack stowed -->
+    <line x1="-26" y1="-128" x2="-30" y2="-110" stroke="#a888ff" stroke-width="0.55" opacity="0.7" filter="url(#i7p2p4bloom)"/>
+    <line x1="26" y1="-128" x2="30" y2="-110" stroke="#a888ff" stroke-width="0.55" opacity="0.7" filter="url(#i7p2p4bloom)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-150" rx="14" ry="16" fill="url(#i7p2p4skinL)"/>
+    <!-- Long braid hair -->
+    <path d="M-12,-166 Q-10,-172 0,-174 Q10,-172 12,-166 L12,-160 Q6,-162 0,-162 Q-6,-162 -12,-160 Z" fill="#0a0604"/>
+    <!-- Single thick braid falling behind -->
+    <path d="M-9,-170 Q-15,-160 -18,-140 Q-20,-120 -16,-100 Q-12,-80 -10,-66" stroke="#0a0604" stroke-width="2" fill="none"/>
+    <ellipse cx="-15" cy="-150" rx="1.4" ry="1" fill="#0a0604"/>
+    <ellipse cx="-17" cy="-130" rx="1.4" ry="1" fill="#0a0604"/>
+    <ellipse cx="-15" cy="-110" rx="1.4" ry="1" fill="#0a0604"/>
+    <line x1="-9" y1="-170" x2="-15" y2="-150" stroke="#a888ff" stroke-width="0.4" opacity="0.55" filter="url(#i7p2p4bloom)"/>
+    <!-- Lenses dim -->
+    <ellipse cx="-4" cy="-150" rx="2" ry="1.4" fill="#a888ff" filter="url(#i7p2p4bloom)" opacity="0.55"/>
+    <ellipse cx="4" cy="-150" rx="2" ry="1.4" fill="#a888ff" filter="url(#i7p2p4bloom)" opacity="0.55"/>
+    <circle cx="-4" cy="-150" r="0.7" fill="#1a0a04"/>
+    <circle cx="4" cy="-150" r="0.7" fill="#1a0a04"/>
+    <!-- Cracked left lens -->
+    <line x1="-6" y1="-151" x2="-3" y2="-149" stroke="#1a0a04" stroke-width="0.3"/>
+    <!-- Brow soft -->
+    <path d="M-7,-156 L-2,-156" stroke="#3a1808" stroke-width="0.55"/>
+    <path d="M7,-156 L2,-156" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Mouth slight smile -->
+    <path d="M-2,-142 Q0,-141 2,-142" stroke="#3a1808" stroke-width="0.55" fill="none"/>
+    <!-- Comms ear -->
+    <circle cx="14" cy="-150" r="0.85" fill="#a888ff" filter="url(#i7p2p4bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ===== THRESH — right of Luma, weapon across knees ===== -->
+  <g transform="translate(330 350)">
+    <ellipse cx="0" cy="0" rx="22" ry="3" fill="#000" opacity="0.55"/>
+    <path d="M-22,0 L-30,-30 L-12,-50 L0,-30 Z" fill="url(#i7p2p4suitT)"/>
+    <path d="M22,0 L30,-30 L12,-50 L0,-30 Z" fill="url(#i7p2p4suitT)"/>
+    <ellipse cx="-22" cy="0" rx="9" ry="3" fill="#3a0c14"/>
+    <ellipse cx="22" cy="0" rx="9" ry="3" fill="#3a0c14"/>
+    <ellipse cx="-12" cy="-46" rx="7" ry="3" fill="#7a1a28"/>
+    <ellipse cx="12" cy="-46" rx="7" ry="3" fill="#7a1a28"/>
+
+    <!-- Torso -->
+    <path d="M-22,-50 L-26,-100 L-12,-130 L12,-130 L26,-100 L22,-50 Z" fill="url(#i7p2p4suitT)"/>
+    <line x1="0" y1="-130" x2="0" y2="-50" stroke="#ff8898" stroke-width="0.55" opacity="0.85" filter="url(#i7p2p4bloom)"/>
+    <!-- Dented left pauldron -->
+    <path d="M-26,-110 L-34,-100 L-34,-86 L-26,-90 Z" fill="#7a1a28"/>
+    <line x1="-30" y1="-100" x2="-26" y2="-104" stroke="#3a0c14" stroke-width="0.85"/>
+    <!-- Right pauldron -->
+    <path d="M26,-110 L34,-100 L34,-86 L26,-90 Z" fill="#7a1a28"/>
+    <!-- Crimson nodes -->
+    <circle cx="-22" cy="-90" r="1" fill="#ff5060" filter="url(#i7p2p4bloom)" opacity="0.85"/>
+    <circle cx="22" cy="-90" r="1" fill="#ff5060" filter="url(#i7p2p4bloom)" opacity="0.85"/>
+
+    <!-- Arms holding weapon -->
+    <path d="M-26,-100 L-32,-80 L-22,-60 L-14,-70 Z" fill="url(#i7p2p4suitT)"/>
+    <path d="M26,-100 L32,-80 L22,-60 L14,-70 Z" fill="url(#i7p2p4suitT)"/>
+    <!-- Weapon -->
+    <rect x="-30" y="-58" width="60" height="6" fill="#3a2828" stroke="#1a0c0a" stroke-width="0.55"/>
+    <rect x="-2" y="-62" width="14" height="4" fill="#1a0c0a"/>
+    <line x1="-30" y1="-55" x2="30" y2="-55" stroke="#dc2030" stroke-width="0.4" opacity="0.85" filter="url(#i7p2p4bloom)"/>
+    <ellipse cx="-22" cy="-58" rx="6" ry="3" fill="url(#i7p2p4skinT)"/>
+    <ellipse cx="22" cy="-58" rx="6" ry="3" fill="url(#i7p2p4skinT)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-148" rx="14" ry="16" fill="url(#i7p2p4skinT)"/>
+    <!-- Copper-red buzz cut -->
+    <path d="M-12,-160 Q-12,-166 0,-168 Q12,-166 12,-160 L12,-156 Q6,-158 0,-158 Q-6,-158 -12,-156 Z" fill="#a83828"/>
+    <line x1="-10" y1="-162" x2="10" y2="-162" stroke="#dc4030" stroke-width="0.4" opacity="0.85"/>
+    <!-- Eyes — softened slightly toward Luma -->
+    <ellipse cx="-4" cy="-148" rx="2" ry="1" fill="#fff"/>
+    <ellipse cx="4" cy="-148" rx="2" ry="1" fill="#fff"/>
+    <ellipse cx="-5" cy="-148" rx="1" ry="0.7" fill="#3a1808"/>
+    <ellipse cx="3" cy="-148" rx="1" ry="0.7" fill="#3a1808"/>
+    <!-- Brow less tense than P2 -->
+    <path d="M-9,-156 L-3,-156" stroke="#3a1808" stroke-width="0.85"/>
+    <path d="M9,-156 L3,-156" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Mouth -->
+    <line x1="-3" y1="-141" x2="3" y2="-141" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Comms ear -->
+    <circle cx="14" cy="-148" r="0.85" fill="#ff4458" filter="url(#i7p2p4bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- LUMA dialogue -->
+  <g>
+    <rect x="14" y="14" width="280" height="50" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="120,64 132,64 124,76" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="120.5" y1="64" x2="131.5" y2="64" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">The waterfront will be loud. Machinery,</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">water, chains. Good cover noise.</text>
+
+  <!-- THRESH reply -->
+  <g>
+    <rect x="320" y="14" width="160" height="40" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="380,54 392,54 384,64" fill="white" stroke="#dc2030" stroke-width="0.85"/>
+    <line x1="380.5" y1="54" x2="391.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="328" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#dc2030" font-weight="700">THRESH</text>
+  <text x="328" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I know.</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="14" y="350" width="240" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="100,350 112,350 104,340" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="100.5" y1="350" x2="111.5" y2="350" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="368" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="22" y="384" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Just noting it.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q120,182 240,178 Q360,176 494,180"/>
+    <path d="M0,320 Q120,322 240,318 Q360,316 494,320"/>
+  </g>
+</svg>

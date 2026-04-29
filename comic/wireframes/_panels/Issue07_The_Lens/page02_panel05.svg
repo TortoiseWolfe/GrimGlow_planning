@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 410" width="238" height="410">
+  <title>Issue 7 — Page 2 — Panel 5: Sable at wall gap — profile, warm daylight, burdened isolation</title>
+  <desc>85mm close-up. Sable in profile lit by daylight through wall gap. Alone in frame. One hand resting timber edge. Stares at city outside. Weight of file knowledge in jaw set posture stillness. Burdened isolation not fear. Carrying secret that changes everything. Warm daylight on profile, camp behind in shadow.</desc>
+
+  <defs>
+    <linearGradient id="i7p2p5bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0604"/>
+    </linearGradient>
+    <radialGradient id="i7p2p5daylight" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#d8a060" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p2p5suit" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1c20"/>
+      <stop offset="50%" stop-color="#506068"/>
+      <stop offset="100%" stop-color="#a8b0c0"/>
+    </linearGradient>
+    <linearGradient id="i7p2p5skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a0c08"/>
+      <stop offset="50%" stop-color="#5a3a28"/>
+      <stop offset="100%" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="i7p2p5beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <filter id="i7p2p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p2p5glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i7p2p5strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p2p5megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="238" height="410" fill="url(#i7p2p5bg)"/>
+
+  <!-- WALL GAP — daylight pouring in from RIGHT edge -->
+  <rect x="200" y="40" width="38" height="320" fill="url(#i7p2p5daylight)" filter="url(#i7p2p5strongglow)"/>
+  <!-- City suggestion through gap (vague rooftops) -->
+  <g opacity="0.55">
+    <rect x="208" y="180" width="14" height="40" fill="#5a4838"/>
+    <rect x="226" y="170" width="10" height="50" fill="#3a2418"/>
+    <line x1="220" y1="180" x2="220" y2="220" stroke="#1a0c08" stroke-width="0.4"/>
+  </g>
+
+  <!-- Cracked plaster edge of gap -->
+  <path d="M200,40 L195,80 L200,140 L195,200 L200,260 L195,320 L200,360" stroke="#3a2418" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+  <!-- Camp interior — DARK shadow side -->
+  <rect x="0" y="0" width="200" height="410" fill="#1a1410" opacity="0.7"/>
+  <rect x="0" y="0" width="14" height="410" fill="url(#i7p2p5beam)"/>
+  <rect x="0" y="380" width="238" height="30" fill="url(#i7p2p5beam)"/>
+
+  <!-- Cobwebs in upper corner -->
+  <g stroke="#7a6c50" stroke-width="0.4" opacity="0.4" fill="none">
+    <path d="M14,30 L40,80 M14,50 L40,80 M30,30 L40,80"/>
+  </g>
+
+  <!-- Faint dim holographic glow in camp interior (left side) -->
+  <ellipse cx="40" cy="200" rx="40" ry="60" fill="#3a5a98" opacity="0.25" filter="url(#i7p2p5strongglow)"/>
+
+  <!-- ===== SABLE — profile, facing right toward gap ===== -->
+  <g transform="translate(120 380)">
+    <!-- Cast shadow long left into camp -->
+    <ellipse cx="-30" cy="0" rx="40" ry="3" fill="#000" opacity="0.55"/>
+
+    <!-- Boots side-on -->
+    <ellipse cx="-9" cy="-2" rx="9" ry="3" fill="#1a1c20"/>
+    <ellipse cx="9" cy="-2" rx="6" ry="2" fill="#1a1c20"/>
+
+    <!-- Legs profile -->
+    <path d="M-9,-4 L-12,-80 L-2,-100 L0,-80 Z" fill="url(#i7p2p5suit)"/>
+    <path d="M9,-4 L12,-80 L2,-100 L0,-80 Z" fill="url(#i7p2p5suit)"/>
+
+    <!-- Torso profile -->
+    <path d="M-12,-100 L-18,-180 L-2,-200 L18,-200 L22,-180 L18,-100 Z" fill="url(#i7p2p5suit)"/>
+    <!-- Suit edge-light right (daylight side) -->
+    <line x1="22" y1="-180" x2="18" y2="-100" stroke="#d8e4f8" stroke-width="0.85" opacity="0.95" filter="url(#i7p2p5bloom)"/>
+    <!-- Soot bloom on right shoulder (visible from this angle) -->
+    <ellipse cx="14" cy="-178" rx="9" ry="4" fill="#1a1814" opacity="0.95"/>
+
+    <!-- Tension crease at collar -->
+    <line x1="3" y1="-198" x2="5" y2="-188" stroke="#0a0a14" stroke-width="0.85" opacity="0.95"/>
+    <line x1="9" y1="-198" x2="11" y2="-188" stroke="#0a0a14" stroke-width="0.85" opacity="0.95"/>
+
+    <!-- LEFT arm at side -->
+    <path d="M-18,-180 L-22,-160 L-18,-130 L-12,-140 Z" fill="url(#i7p2p5suit)"/>
+
+    <!-- RIGHT arm extended forward — hand resting on timber edge of gap -->
+    <path d="M22,-180 L40,-178 L60,-176 L60,-170 L40,-172 L20,-174 Z" fill="url(#i7p2p5suit)"/>
+    <ellipse cx="60" cy="-176" rx="6" ry="3" fill="url(#i7p2p5skin)"/>
+    <line x1="64" y1="-178" x2="68" y2="-178" stroke="#a87858" stroke-width="0.85"/>
+
+    <!-- Neck profile -->
+    <path d="M-2,-216 L-2,-200 L9,-200 L9,-216 Z" fill="url(#i7p2p5skin)"/>
+
+    <!-- Head profile facing RIGHT -->
+    <ellipse cx="3" cy="-238" rx="14" ry="22" fill="url(#i7p2p5skin)"/>
+    <!-- Buzz cut top -->
+    <path d="M-7,-256 Q-3,-262 9,-262 Q15,-258 15,-252 L13,-246 Q9,-250 0,-250 Q-5,-250 -7,-246 Z" fill="#d8e4f8" filter="url(#i7p2p5bloom)"/>
+    <line x1="-5" y1="-258" x2="13" y2="-258" stroke="#a8c0e8" stroke-width="0.4" opacity="0.85"/>
+    <!-- Warm daylight on right side of hair -->
+    <ellipse cx="9" cy="-260" rx="5" ry="2" fill="#d89858" opacity="0.7" filter="url(#i7p2p5bloom)"/>
+
+    <!-- Cheekbone (warm side) -->
+    <path d="M14,-238 Q12,-220 5,-212" fill="none" stroke="#1a0c08" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- Eye (single visible — looking forward through gap) -->
+    <ellipse cx="9" cy="-238" rx="2" ry="1" fill="#fff8e8"/>
+    <ellipse cx="11" cy="-238" rx="1" ry="0.85" fill="#1a1c30"/>
+    <circle cx="11" cy="-238" r="0.4" fill="#fff"/>
+
+    <!-- Brow (single visible) -->
+    <path d="M5,-250 Q9,-252 13,-250" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+
+    <!-- Nose profile (jutting right) -->
+    <path d="M11,-238 L15,-228 L14,-222 L11,-222 L9,-228 Z" fill="#1a0c08" opacity="0.7"/>
+
+    <!-- Mouth profile — line, set -->
+    <line x1="6" y1="-216" x2="13" y2="-216" stroke="#0a0604" stroke-width="0.85"/>
+
+    <!-- Jaw line -->
+    <path d="M14,-220 Q5,-216 -2,-218" stroke="#1a0c08" stroke-width="0.7" fill="none" opacity="0.85"/>
+
+    <!-- Comms ear (left side of head, faint) -->
+    <circle cx="-3" cy="-238" r="0.85" fill="#a8c0e8" filter="url(#i7p2p5bloom)" opacity="0.55"/>
+  </g>
+
+  <!-- (No dialogue — silence is the point) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q60,182 120,178 Q180,176 238,180"/>
+    <path d="M0,320 Q60,322 120,318 Q180,316 238,320"/>
+  </g>
+</svg>
