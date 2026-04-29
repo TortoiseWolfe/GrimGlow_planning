@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 360" width="742" height="360">
+  <title>Issue 7 — Page 5 — Panel 4: Pull back — Theodore and Jink at bollard, lighthouse lit in dusk middle distance, the target</title>
+  <desc>28mm wide slightly high angle dual scale. Theodore on bollard Jink on shoulder both face outward toward squat iron-and-brick lighthouse middle distance end of stone pier. Lamp lit small amber against darkening sky. River wide dark fog thickening. Crates ropes on quay around them. Sky shifts grey-amber to grey-violet dusk. Early dock lanterns warm amber points. Lighthouse beautiful and ominous — target visible, mission approaching.</desc>
+
+  <defs>
+    <linearGradient id="i7p5p4sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4858"/>
+      <stop offset="60%" stop-color="#7a5848"/>
+      <stop offset="100%" stop-color="#9a7858"/>
+    </linearGradient>
+    <linearGradient id="i7p5p4river" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1818"/>
+      <stop offset="100%" stop-color="#080608"/>
+    </linearGradient>
+    <linearGradient id="i7p5p4stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5860"/>
+      <stop offset="100%" stop-color="#2a2830"/>
+    </linearGradient>
+    <linearGradient id="i7p5p4building" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#080406"/>
+    </linearGradient>
+    <radialGradient id="i7p5p4lampHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p5p4lighthouseHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffe0a8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#d8a060" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p5p4fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7a6a78" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p5p4suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p5p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p5p4skinJ" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i7p5p4bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p5p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p5p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p5p4megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- Sky DUSK transition -->
+  <rect width="742" height="200" fill="url(#i7p5p4sky)"/>
+
+  <!-- Far bank silhouettes through fog -->
+  <ellipse cx="371" cy="180" rx="540" ry="40" fill="url(#i7p5p4fog)" filter="url(#i7p5p4strongglow)"/>
+  <g fill="url(#i7p5p4building)" opacity="0.85">
+    <rect x="0" y="160" width="60" height="40"/>
+    <rect x="80" y="155" width="80" height="45"/>
+    <rect x="180" y="158" width="60" height="42"/>
+    <rect x="260" y="150" width="100" height="50"/>
+    <rect x="380" y="155" width="80" height="45"/>
+    <rect x="480" y="160" width="60" height="40"/>
+    <rect x="560" y="155" width="80" height="45"/>
+    <rect x="660" y="158" width="82" height="42"/>
+  </g>
+  <!-- Chimneys far -->
+  <rect x="100" y="135" width="3" height="20" fill="#0a0408"/>
+  <rect x="200" y="138" width="3" height="20" fill="#0a0408"/>
+  <rect x="300" y="130" width="3" height="20" fill="#0a0408"/>
+  <rect x="500" y="138" width="3" height="22" fill="#0a0408"/>
+  <rect x="600" y="135" width="3" height="20" fill="#0a0408"/>
+  <ellipse cx="101" cy="135" rx="6" ry="2" fill="#5a4848" opacity="0.7" filter="url(#i7p5p4glow)"/>
+
+  <!-- Far amber dots from windows -->
+  <g opacity="0.7" filter="url(#i7p5p4bloom)">
+    <circle cx="100" cy="180" r="0.85" fill="#d89858"/>
+    <circle cx="220" cy="180" r="0.85" fill="#d89858"/>
+    <circle cx="320" cy="175" r="0.85" fill="#d89858"/>
+    <circle cx="420" cy="180" r="0.85" fill="#d89858"/>
+    <circle cx="540" cy="180" r="0.85" fill="#d89858"/>
+    <circle cx="640" cy="180" r="0.85" fill="#d89858"/>
+  </g>
+
+  <!-- River -->
+  <rect x="0" y="200" width="742" height="100" fill="url(#i7p5p4river)"/>
+  <!-- Water reflections -->
+  <g stroke="#3a3838" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,220 Q200,222 400,220 Q580,218 742,220"/>
+    <path d="M0,250 Q200,252 400,250 Q580,248 742,250"/>
+    <path d="M0,280 Q200,282 400,280 Q580,278 742,280"/>
+  </g>
+
+  <!-- ===== STONE PIER + LIGHTHOUSE — middle distance, center-right ===== -->
+  <path d="M460,260 L640,255 L640,275 L460,270 Z" fill="url(#i7p5p4stone)"/>
+  <line x1="460" y1="260" x2="640" y2="255" stroke="#1a1418" stroke-width="0.55"/>
+
+  <g transform="translate(580 200)">
+    <!-- Halo -->
+    <ellipse cx="0" cy="-30" rx="80" ry="60" fill="url(#i7p5p4lighthouseHalo)" filter="url(#i7p5p4megaglow)"/>
+    <!-- Lighthouse body -->
+    <path d="M-18,60 L-14,-10 L-22,-20 L22,-20 L14,-10 L18,60 Z" fill="#7a4838"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#1a0c08" stroke-width="0.4" opacity="0.7"/>
+    <line x1="-18" y1="20" x2="18" y2="20" stroke="#1a0c08" stroke-width="0.4" opacity="0.7"/>
+    <line x1="-18" y1="40" x2="18" y2="40" stroke="#1a0c08" stroke-width="0.4" opacity="0.7"/>
+    <!-- Iron lamp room -->
+    <rect x="-22" y="-34" width="44" height="14" fill="#3a3838" stroke="#1a0c08" stroke-width="0.55"/>
+    <!-- LAMP LIT — small amber glow -->
+    <ellipse cx="0" cy="-27" rx="14" ry="4" fill="#ffe0a8" filter="url(#i7p5p4bloom)" opacity="0.95"/>
+    <ellipse cx="0" cy="-27" rx="9" ry="3" fill="#fff8c8" filter="url(#i7p5p4bloom)"/>
+    <!-- Iron gallery rail -->
+    <rect x="-26" y="-20" width="52" height="3" fill="#3a3838"/>
+    <!-- Roof cap iron -->
+    <polygon points="-20,-34 0,-44 20,-34" fill="#3a3838"/>
+    <line x1="0" y1="-44" x2="0" y2="-50" stroke="#1a0c08" stroke-width="1.4"/>
+    <circle cx="0" cy="-52" r="1.4" fill="#1a0c08"/>
+    <!-- Foundation -->
+    <rect x="-22" y="60" width="44" height="6" fill="url(#i7p5p4stone)"/>
+  </g>
+
+  <!-- ===== CLOSER QUAY (foreground) ===== -->
+  <rect x="0" y="290" width="742" height="70" fill="url(#i7p5p4stone)"/>
+  <line x1="0" y1="290" x2="742" y2="290" stroke="#1a1418" stroke-width="0.55"/>
+  <g stroke="#1a1418" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,310 L742,310"/>
+    <path d="M0,330 L742,330"/>
+    <path d="M0,350 L742,350"/>
+    <line x1="80" y1="290" x2="80" y2="360"/>
+    <line x1="180" y1="290" x2="180" y2="360"/>
+    <line x1="280" y1="290" x2="280" y2="360"/>
+    <line x1="380" y1="290" x2="380" y2="360"/>
+    <line x1="480" y1="290" x2="480" y2="360"/>
+    <line x1="580" y1="290" x2="580" y2="360"/>
+    <line x1="680" y1="290" x2="680" y2="360"/>
+  </g>
+
+  <!-- Stacked crates (foreground left) -->
+  <rect x="14" y="260" width="40" height="30" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+  <rect x="20" y="240" width="32" height="20" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+  <rect x="60" y="270" width="36" height="20" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+
+  <!-- Coiled rope -->
+  <ellipse cx="120" cy="290" rx="14" ry="4" fill="#7a6048"/>
+  <ellipse cx="120" cy="287" rx="12" ry="3" fill="#a89878"/>
+
+  <!-- Early dock lanterns -->
+  <g transform="translate(60 230)">
+    <ellipse cx="0" cy="0" rx="22" ry="20" fill="url(#i7p5p4lampHalo)" filter="url(#i7p5p4strongglow)"/>
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#1a0c08" stroke-width="1"/>
+    <rect x="-3" y="-7" width="6" height="14" fill="#1a0c08"/>
+    <ellipse cx="0" cy="0" rx="2" ry="3" fill="#fff8c8" filter="url(#i7p5p4bloom)"/>
+  </g>
+  <g transform="translate(700 240)">
+    <ellipse cx="0" cy="0" rx="22" ry="20" fill="url(#i7p5p4lampHalo)" filter="url(#i7p5p4strongglow)"/>
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#1a0c08" stroke-width="1"/>
+    <rect x="-3" y="-7" width="6" height="14" fill="#1a0c08"/>
+    <ellipse cx="0" cy="0" rx="2" ry="3" fill="#fff8c8" filter="url(#i7p5p4bloom)"/>
+  </g>
+
+  <!-- ===== STONE BOLLARD with THEODORE sitting ===== -->
+  <g transform="translate(220 290)">
+    <!-- Bollard -->
+    <rect x="-14" y="0" width="28" height="14" fill="#3a3838"/>
+    <ellipse cx="0" cy="0" rx="14" ry="4" fill="#5a5860"/>
+    <ellipse cx="0" cy="0" rx="11" ry="3" fill="#3a3838"/>
+
+    <!-- THEODORE — sitting -->
+    <!-- Boots -->
+    <ellipse cx="-12" cy="60" rx="6" ry="3" fill="#1a0c04"/>
+    <ellipse cx="12" cy="60" rx="6" ry="3" fill="#1a0c04"/>
+    <!-- Legs -->
+    <path d="M-14,60 L-22,30 L-18,0 Z" fill="#3a3028"/>
+    <path d="M14,60 L22,30 L18,0 Z" fill="#3a3028"/>
+    <!-- Trousers in lap (above bollard) -->
+    <path d="M-18,0 L-18,-26 L18,-26 L18,0 Z" fill="#3a3028"/>
+    <!-- Satchel resting beside on quay -->
+    <rect x="-44" y="0" width="22" height="20" fill="#a89878" stroke="#7a6048" stroke-width="0.7"/>
+    <line x1="-44" y1="6" x2="-22" y2="6" stroke="#7a6048" stroke-width="0.4"/>
+    <!-- Waistcoat closed now -->
+    <path d="M-18,-26 L-22,-90 L-7,-100 L7,-100 L22,-90 L18,-26 Z" fill="#5a3018"/>
+    <path d="M-12,-100 L-12,-26 L0,-26 L0,-100 Z" fill="#d4c4a8"/>
+    <path d="M0,-100 L0,-26 L12,-26 L12,-100 Z" fill="#d4c4a8"/>
+    <line x1="0" y1="-100" x2="0" y2="-26" stroke="#5a3018" stroke-width="0.7"/>
+    <!-- Linen collar -->
+    <path d="M-9,-100 L0,-98 L9,-100 L9,-94 L0,-91 L-9,-94 Z" fill="#e0d4b8"/>
+
+    <!-- Arms — relaxed at sides, hands on lap -->
+    <path d="M-22,-90 L-30,-60 L-22,-30 L-14,-50 Z" fill="#5a3018"/>
+    <path d="M22,-90 L30,-60 L22,-30 L14,-50 Z" fill="#5a3018"/>
+
+    <!-- Head looking RIGHT toward lighthouse -->
+    <ellipse cx="2" cy="-118" rx="11" ry="12" fill="url(#i7p5p4skin)"/>
+    <path d="M-8,-128 Q-5,-136 2,-138 Q9,-136 12,-128 L12,-119 Q9,-124 2,-124 Q-5,-124 -8,-119 Z" fill="#9a7038"/>
+    <!-- Eyes looking right -->
+    <ellipse cx="-1" cy="-118" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="5" cy="-118" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="0" cy="-118" rx="0.85" ry="0.7" fill="#5a3818"/>
+    <ellipse cx="6" cy="-118" rx="0.85" ry="0.7" fill="#5a3818"/>
+    <line x1="-4" y1="-124" x2="0" y2="-124" stroke="#5a3018" stroke-width="0.4"/>
+    <line x1="3" y1="-124" x2="9" y2="-124" stroke="#5a3018" stroke-width="0.4"/>
+    <line x1="-2" y1="-110" x2="2" y2="-110" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- ===== JINK on Theodore's RIGHT shoulder, looking RIGHT toward lighthouse ===== -->
+    <g transform="translate(14 -94)">
+      <!-- Sitting on shoulder -->
+      <ellipse cx="0" cy="2" rx="3" ry="0.7" fill="#000" opacity="0.55"/>
+      <!-- Body -->
+      <ellipse cx="-1" cy="-1" rx="2" ry="1" fill="url(#i7p5p4suit)"/>
+      <ellipse cx="1" cy="-1" rx="2" ry="1" fill="url(#i7p5p4suit)"/>
+      <path d="M-3,-2 L-2.4,-9 L0,-12 L2.4,-9 L3,-2 Z" fill="url(#i7p5p4suit)"/>
+      <line x1="-2" y1="-7" x2="2" y2="-5" stroke="#1a1410" stroke-width="0.7" opacity="0.85"/>
+      <!-- Head turned RIGHT -->
+      <ellipse cx="0.7" cy="-15" rx="2" ry="2" fill="url(#i7p5p4skinJ)"/>
+      <path d="M-1,-17 Q0,-19 0.7,-19 Q2,-19 2.4,-17 L2.4,-15 Q1.4,-16 0.7,-16 Q0,-16 -1,-15 Z" fill="#f0d878"/>
+      <ellipse cx="0.5" cy="-15" rx="0.55" ry="0.3" fill="#fff"/>
+      <ellipse cx="1.5" cy="-15" rx="0.55" ry="0.3" fill="#fff"/>
+      <circle cx="0.7" cy="-15" r="0.2" fill="#1a4a28"/>
+      <circle cx="1.5" cy="-15" r="0.2" fill="#1a4a28"/>
+    </g>
+  </g>
+
+  <!-- JINK -->
+  <g>
+    <rect x="14" y="14" width="180" height="34" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,48 92,48 84,58" fill="white" stroke="#2ed078" stroke-width="0.85"/>
+    <line x1="80.5" y1="48" x2="91.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">That's it, then.</text>
+
+  <!-- THEODORE -->
+  <g>
+    <rect x="380" y="14" width="346" height="50" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="500,64 512,64 504,76" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="500.5" y1="64" x2="511.5" y2="64" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="388" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700">THEODORE</text>
+  <text x="388" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">The keeper has lit the lamp by now.</text>
+  <text x="388" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">It'll burn all night.</text>
+
+  <!-- JINK 2 -->
+  <g>
+    <rect x="380" y="80" width="346" height="34" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="440,114 452,114 444,124" fill="white" stroke="#2ed078" stroke-width="0.85"/>
+    <line x1="440.5" y1="114" x2="451.5" y2="114" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="388" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="388" y="110" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">We wait for the others. Dusk.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q200,182 400,178 Q580,176 742,180"/>
+    <path d="M0,330 Q200,332 400,328 Q580,326 742,330"/>
+  </g>
+</svg>

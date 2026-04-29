@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 410" width="366" height="410">
+  <title>Issue 7 — Page 5 — Panel 2: Quiet quay bollard — Theodore sits, Jink climbs out and stretches on his knee</title>
+  <desc>50mm medium eye level human scale. Theodore on stone bollard end of unused quay. Cargo crates cover. Sits satchel in lap waistcoat open. Jink climbs out of pocket sits on knee stretches arms back. Tension leaving Theodore's shoulders. Late afternoon shifting toward dusk overcast grey-amber sky reflected in dark river. Muted grey except emerald.</desc>
+
+  <defs>
+    <linearGradient id="i7p5p2sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7868"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="i7p5p2river" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p5p2stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5860"/>
+      <stop offset="100%" stop-color="#2a2830"/>
+    </linearGradient>
+    <linearGradient id="i7p5p2crate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="i7p5p2bollard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i7p5p2fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9aa098" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a5860" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p5p2suitJ" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p5p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <linearGradient id="i7p5p2skinJ" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i7p5p2bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p5p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p5p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="366" height="160" fill="url(#i7p5p2sky)"/>
+  <!-- River -->
+  <rect x="0" y="160" width="366" height="120" fill="url(#i7p5p2river)"/>
+  <!-- Far bank haze -->
+  <ellipse cx="183" cy="200" rx="280" ry="40" fill="url(#i7p5p2fog)" filter="url(#i7p5p2strongglow)"/>
+  <!-- Far bank silhouette -->
+  <g fill="#1a1018" opacity="0.85">
+    <rect x="40" y="140" width="40" height="20"/>
+    <rect x="100" y="135" width="60" height="25"/>
+    <rect x="180" y="138" width="50" height="22"/>
+    <rect x="260" y="142" width="50" height="18"/>
+  </g>
+  <rect x="120" y="125" width="3" height="15" fill="#0a0408"/>
+  <ellipse cx="121" cy="124" rx="6" ry="2" fill="#5a5560" opacity="0.7" filter="url(#i7p5p2glow)"/>
+
+  <!-- Water surface -->
+  <g stroke="#5a5860" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,200 Q90,202 180,200 Q270,202 366,200"/>
+    <path d="M0,230 Q90,232 180,230 Q270,232 366,230"/>
+    <path d="M0,260 Q90,262 180,260 Q270,262 366,260"/>
+  </g>
+
+  <!-- ===== STONE QUAY ===== -->
+  <rect x="0" y="280" width="366" height="130" fill="url(#i7p5p2stone)"/>
+  <line x1="0" y1="280" x2="366" y2="280" stroke="#1a1418" stroke-width="0.55"/>
+  <g stroke="#1a1418" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,310 L366,310"/>
+    <path d="M0,340 L366,340"/>
+    <path d="M0,370 L366,370"/>
+    <line x1="40" y1="280" x2="40" y2="410"/>
+    <line x1="120" y1="280" x2="120" y2="410"/>
+    <line x1="200" y1="280" x2="200" y2="410"/>
+    <line x1="280" y1="280" x2="280" y2="410"/>
+  </g>
+
+  <!-- ===== CARGO CRATES (cover) ===== -->
+  <g transform="translate(60 280)">
+    <rect x="-26" y="-50" width="52" height="50" fill="url(#i7p5p2crate)" stroke="#1a0c04" stroke-width="0.55"/>
+    <rect x="-22" y="-46" width="44" height="42" fill="url(#i7p5p2crate)"/>
+    <line x1="-26" y1="-30" x2="26" y2="-30" stroke="#1a0c04" stroke-width="0.55"/>
+    <line x1="-26" y1="-12" x2="26" y2="-12" stroke="#1a0c04" stroke-width="0.55"/>
+    <text x="0" y="-22" font-family="monospace" font-size="3" fill="#a87838" text-anchor="middle" opacity="0.85">FRAGILE</text>
+    <!-- Stacked crate behind -->
+    <rect x="-30" y="-90" width="40" height="40" fill="url(#i7p5p2crate)" stroke="#1a0c04" stroke-width="0.55"/>
+  </g>
+  <g transform="translate(326 290)">
+    <rect x="-22" y="-40" width="44" height="40" fill="url(#i7p5p2crate)" stroke="#1a0c04" stroke-width="0.55"/>
+    <line x1="-22" y1="-22" x2="22" y2="-22" stroke="#1a0c04" stroke-width="0.55"/>
+  </g>
+
+  <!-- Coiled rope -->
+  <g transform="translate(280 290)">
+    <ellipse cx="0" cy="0" rx="14" ry="4" fill="#7a6048"/>
+    <ellipse cx="0" cy="-3" rx="12" ry="3" fill="#a89878"/>
+    <ellipse cx="0" cy="-5" rx="9" ry="2.4" fill="#7a6048"/>
+  </g>
+
+  <!-- ===== STONE BOLLARD (Theodore sits on it) ===== -->
+  <g transform="translate(183 320)">
+    <ellipse cx="0" cy="14" rx="22" ry="3" fill="#000" opacity="0.7"/>
+    <rect x="-14" y="0" width="28" height="14" fill="url(#i7p5p2bollard)"/>
+    <ellipse cx="0" cy="0" rx="14" ry="4" fill="#5a5860"/>
+    <ellipse cx="0" cy="0" rx="11" ry="3" fill="#3a3838"/>
+  </g>
+
+  <!-- ===== THEODORE — sitting on bollard ===== -->
+  <g transform="translate(183 320)">
+    <!-- Boots planted -->
+    <ellipse cx="-12" cy="80" rx="6" ry="3" fill="#1a0c04"/>
+    <ellipse cx="12" cy="80" rx="6" ry="3" fill="#1a0c04"/>
+
+    <!-- Legs bent at knee -->
+    <path d="M-14,80 L-22,40 L-18,0 Z" fill="#3a3028"/>
+    <path d="M14,80 L22,40 L18,0 Z" fill="#3a3028"/>
+    <!-- Trousers above bollard (lap area) -->
+    <path d="M-18,0 L-18,-30 L18,-30 L18,0 Z" fill="#3a3028"/>
+
+    <!-- SATCHEL in lap (containing wrapped lens) -->
+    <rect x="-26" y="-22" width="52" height="22" fill="#a89878" stroke="#7a6048" stroke-width="0.7"/>
+    <line x1="-26" y1="-12" x2="26" y2="-12" stroke="#7a6048" stroke-width="0.55"/>
+    <ellipse cx="0" cy="-6" rx="14" ry="6" fill="#a89878" opacity="0.85"/>
+
+    <!-- Waistcoat OPEN (revealing pocket where Jink was) -->
+    <path d="M-18,-30 L-22,-100 L-7,-110 L0,-100 L0,-30 Z" fill="#5a3018"/>
+    <path d="M18,-30 L22,-100 L7,-110 L0,-100 L0,-30 Z" fill="#5a3018"/>
+    <!-- Linen shirt visible in opening -->
+    <path d="M-6,-100 L-6,-30 L6,-30 L6,-100 Z" fill="#d4c4a8"/>
+    <!-- Linen collar -->
+    <path d="M-9,-110 L0,-108 L9,-110 L9,-104 L0,-101 L-9,-104 Z" fill="#e0d4b8"/>
+    <!-- Pocket inner (visible — Jink came out) -->
+    <rect x="9" y="-104" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.4"/>
+
+    <!-- Arms relaxed at sides -->
+    <path d="M-22,-100 L-32,-66 L-28,-30 L-18,-46 Z" fill="#5a3018"/>
+    <path d="M22,-100 L32,-66 L28,-30 L18,-46 Z" fill="#5a3018"/>
+    <ellipse cx="-32" cy="-30" rx="5" ry="3" fill="url(#i7p5p2skin)"/>
+    <ellipse cx="32" cy="-30" rx="5" ry="3" fill="url(#i7p5p2skin)"/>
+
+    <!-- Head — looking DOWN at Jink on knee -->
+    <ellipse cx="0" cy="-130" rx="11" ry="12" fill="url(#i7p5p2skin)"/>
+    <path d="M-10,-140 Q-7,-148 0,-150 Q7,-148 10,-140 L10,-131 Q7,-136 0,-136 Q-7,-136 -10,-131 Z" fill="#9a7038"/>
+    <!-- Eyes looking DOWN -->
+    <ellipse cx="-3" cy="-128" rx="1.4" ry="0.4" fill="#fff8e8"/>
+    <ellipse cx="3" cy="-128" rx="1.4" ry="0.4" fill="#fff8e8"/>
+    <line x1="-4" y1="-128" x2="-2" y2="-128" stroke="#7a4818" stroke-width="0.4"/>
+    <line x1="2" y1="-128" x2="4" y2="-128" stroke="#7a4818" stroke-width="0.4"/>
+    <!-- Brow relaxed -->
+    <path d="M-6,-136 L-2,-136" stroke="#5a3018" stroke-width="0.55"/>
+    <path d="M6,-136 L2,-136" stroke="#5a3018" stroke-width="0.55"/>
+    <!-- Mouth — slight smile -->
+    <path d="M-2,-122 Q0,-121 2,-122" stroke="#3a1808" stroke-width="0.4" fill="none"/>
+  </g>
+
+  <!-- ===== JINK — on Theodore's RIGHT knee, stretching ===== -->
+  <g transform="translate(205 318)">
+    <!-- Cast shadow -->
+    <ellipse cx="0" cy="2" rx="3" ry="0.4" fill="#000" opacity="0.55"/>
+    <!-- Body in stretch — back arched, arms up overhead -->
+    <ellipse cx="-1" cy="-1" rx="2" ry="1" fill="url(#i7p5p2suitJ)"/>
+    <ellipse cx="1" cy="-1" rx="2" ry="1" fill="url(#i7p5p2suitJ)"/>
+    <!-- Torso (arched back) -->
+    <path d="M-3,-2 L-2.4,-12 L0,-15 L2.4,-12 L3,-2 Z" fill="url(#i7p5p2suitJ)"/>
+    <!-- Soot streak -->
+    <line x1="-2" y1="-9" x2="2" y2="-7" stroke="#1a1410" stroke-width="0.85" opacity="0.85"/>
+    <!-- ARMS — stretching UP overhead -->
+    <path d="M-3,-12 L-5,-18 L-4,-24 Z" fill="url(#i7p5p2suitJ)"/>
+    <path d="M3,-12 L5,-18 L4,-24 Z" fill="url(#i7p5p2suitJ)"/>
+    <!-- Hands at top (stretched fingers) -->
+    <ellipse cx="-4" cy="-25" rx="1.4" ry="0.85" fill="url(#i7p5p2skinJ)"/>
+    <ellipse cx="4" cy="-25" rx="1.4" ry="0.85" fill="url(#i7p5p2skinJ)"/>
+    <!-- Wing-pack stowed -->
+    <line x1="-3" y1="-12" x2="-4" y2="-7" stroke="#5af0a0" stroke-width="0.4" opacity="0.85" filter="url(#i7p5p2bloom)"/>
+    <line x1="3" y1="-12" x2="4" y2="-7" stroke="#5af0a0" stroke-width="0.4" opacity="0.85" filter="url(#i7p5p2bloom)"/>
+
+    <!-- Head — tilted back -->
+    <ellipse cx="0" cy="-19" rx="2.4" ry="2.4" fill="url(#i7p5p2skinJ)"/>
+    <!-- Curls -->
+    <path d="M-2,-22 Q-1,-25 0,-25 Q1,-25 2,-22 L2,-19 Q1,-21 0,-21 Q-1,-21 -2,-19 Z" fill="#f0d878"/>
+    <circle cx="-1.4" cy="-23" r="0.7" fill="#f0d878"/>
+    <circle cx="1.4" cy="-23" r="0.7" fill="#f0d878"/>
+    <!-- Eyes -->
+    <ellipse cx="-0.8" cy="-19" rx="0.55" ry="0.3" fill="#fff"/>
+    <ellipse cx="0.8" cy="-19" rx="0.55" ry="0.3" fill="#fff"/>
+    <circle cx="-0.7" cy="-19" r="0.2" fill="#1a4a28"/>
+    <circle cx="0.7" cy="-19" r="0.2" fill="#1a4a28"/>
+    <!-- Mouth — slight grimace from stretch -->
+    <line x1="-1" y1="-16" x2="1" y2="-16" stroke="#3a1808" stroke-width="0.3"/>
+  </g>
+
+  <!-- JINK -->
+  <g>
+    <rect x="14" y="14" width="240" height="34" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="100,48 112,48 104,58" fill="white" stroke="#2ed078" stroke-width="0.85"/>
+    <line x1="100.5" y1="48" x2="111.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#2ed078" font-weight="700">JINK</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Your pocket smells like machine oil.</text>
+
+  <!-- THEODORE -->
+  <g>
+    <rect x="14" y="350" width="338" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="160,350 172,350 164,340" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="160.5" y1="350" x2="171.5" y2="350" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="368" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700">THEODORE</text>
+  <text x="22" y="384" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Everything about me smells like machine oil.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q100,162 200,158 Q280,156 366,160"/>
+    <path d="M0,300 Q100,302 200,298 Q280,296 366,300"/>
+  </g>
+</svg>

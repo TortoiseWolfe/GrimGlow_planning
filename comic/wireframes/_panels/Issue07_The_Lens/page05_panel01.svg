@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 290" width="742" height="290">
+  <title>Issue 7 — Page 5 — Panel 1: Theodore exits the optical shop with the wrapped lens, relief breaking through</title>
+  <desc>35mm medium wide eye level human scale. Theodore exits Prentiss and Hall doorway. Satchel carried carefully now contains wrapped lens. Step lighter chin slightly higher. Glance subtle downward toward pocket as he walks. Relief breaking through nerves. Late afternoon overcast shadows lengthening. Warm amber shop windows early gas lamps. River fog at street far end.</desc>
+
+  <defs>
+    <linearGradient id="i7p5p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7868"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <linearGradient id="i7p5p1building" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="i7p5p1road" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#2a1810"/>
+    </linearGradient>
+    <radialGradient id="i7p5p1shopWindow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p5p1riverFog" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#7a8090" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a3848" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p5p1gasLampHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p5p1bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i7p5p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p5p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p5p1megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="742" height="60" fill="url(#i7p5p1sky)"/>
+
+  <!-- ===== Buildings (commercial street) ===== -->
+  <!-- Left buildings -->
+  <path d="M0,180 L0,40 L80,30 L80,80 L160,75 L160,40 L260,38 L260,90 L340,85 L340,180 Z" fill="url(#i7p5p1building)"/>
+  <!-- Right buildings (recede toward fog) -->
+  <path d="M742,180 L742,40 L660,30 L660,80 L580,75 L580,40 L480,38 L480,90 L400,85 L400,180 Z" fill="url(#i7p5p1building)"/>
+
+  <!-- ===== PRENTISS & HALL (door behind Theodore) ===== -->
+  <rect x="270" y="40" width="200" height="140" fill="#0a1810"/>
+  <!-- Sign -->
+  <rect x="270" y="40" width="200" height="20" fill="#0a1810" stroke="#2a3828" stroke-width="0.55"/>
+  <text x="370" y="54" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#d89858" text-anchor="middle" font-weight="700" letter-spacing="1">PRENTISS &amp; HALL</text>
+  <!-- Bow window -->
+  <path d="M280,80 Q300,72 320,72 L420,72 Q440,72 460,80 L460,150 L280,150 Z" fill="#1a1208"/>
+  <ellipse cx="370" cy="116" rx="80" ry="40" fill="url(#i7p5p1shopWindow)" filter="url(#i7p5p1strongglow)"/>
+  <line x1="320" y1="74" x2="320" y2="150" stroke="#3a2818" stroke-width="0.55"/>
+  <line x1="370" y1="72" x2="370" y2="150" stroke="#3a2818" stroke-width="0.55"/>
+  <line x1="420" y1="74" x2="420" y2="150" stroke="#3a2818" stroke-width="0.55"/>
+  <!-- Tiny rainbow specks -->
+  <g opacity="0.85" filter="url(#i7p5p1bloom)">
+    <circle cx="290" cy="90" r="0.85" fill="#ff5050"/>
+    <circle cx="294" cy="94" r="0.7" fill="#fff080"/>
+    <circle cx="450" cy="100" r="0.85" fill="#80a0f0"/>
+    <circle cx="446" cy="104" r="0.7" fill="#a878f0"/>
+  </g>
+
+  <!-- DOOR (open, just exited) -->
+  <rect x="475" y="100" width="30" height="80" fill="#1a0c08" stroke="#3a2418" stroke-width="0.85"/>
+  <line x1="490" y1="100" x2="490" y2="180" stroke="#3a2418" stroke-width="0.4"/>
+  <rect x="479" y="108" width="22" height="32" fill="#3a2818" stroke="#1a0c08" stroke-width="0.55"/>
+  <ellipse cx="490" cy="124" rx="9" ry="11" fill="#ffd898" opacity="0.55" filter="url(#i7p5p1glow)"/>
+
+  <!-- Other shopfronts (left and right adjacent) -->
+  <rect x="60" y="80" width="80" height="100" fill="#1a1208" stroke="#3a2418" stroke-width="0.55"/>
+  <ellipse cx="100" cy="120" rx="22" ry="14" fill="#ffd898" opacity="0.55" filter="url(#i7p5p1glow)"/>
+  <line x1="100" y1="80" x2="100" y2="180" stroke="#3a2418" stroke-width="0.55"/>
+  <rect x="180" y="80" width="80" height="100" fill="#1a1208" stroke="#3a2418" stroke-width="0.55"/>
+  <ellipse cx="220" cy="120" rx="22" ry="14" fill="#ffd898" opacity="0.4" filter="url(#i7p5p1glow)"/>
+  <rect x="540" y="80" width="80" height="100" fill="#1a1208" stroke="#3a2418" stroke-width="0.55"/>
+  <ellipse cx="580" cy="120" rx="22" ry="14" fill="#ffd898" opacity="0.4" filter="url(#i7p5p1glow)"/>
+
+  <!-- Early-lit gas lamps -->
+  <g transform="translate(150 40)">
+    <ellipse cx="0" cy="40" rx="36" ry="32" fill="url(#i7p5p1gasLampHalo)" filter="url(#i7p5p1megaglow)"/>
+    <line x1="0" y1="40" x2="0" y2="120" stroke="#1a0c08" stroke-width="1.4"/>
+    <rect x="-3" y="34" width="6" height="14" fill="#1a0c08"/>
+    <ellipse cx="0" cy="40" rx="2" ry="3" fill="#fff8c8" filter="url(#i7p5p1bloom)"/>
+  </g>
+  <g transform="translate(620 60)">
+    <ellipse cx="0" cy="40" rx="36" ry="32" fill="url(#i7p5p1gasLampHalo)" filter="url(#i7p5p1megaglow)"/>
+    <line x1="0" y1="40" x2="0" y2="120" stroke="#1a0c08" stroke-width="1.4"/>
+    <rect x="-3" y="34" width="6" height="14" fill="#1a0c08"/>
+    <ellipse cx="0" cy="40" rx="2" ry="3" fill="#fff8c8" filter="url(#i7p5p1bloom)"/>
+  </g>
+
+  <!-- River fog far right (street's end) -->
+  <ellipse cx="742" cy="180" rx="180" ry="100" fill="url(#i7p5p1riverFog)" filter="url(#i7p5p1strongglow)"/>
+
+  <!-- ===== ROAD ===== -->
+  <rect x="0" y="180" width="742" height="110" fill="url(#i7p5p1road)"/>
+  <g stroke="#080604" stroke-width="0.4" opacity="0.55" fill="none">
+    <line x1="0" y1="210" x2="742" y2="210"/>
+    <line x1="0" y1="240" x2="742" y2="240"/>
+    <line x1="0" y1="270" x2="742" y2="270"/>
+  </g>
+  <g stroke="#080604" stroke-width="0.3" opacity="0.4" fill="none">
+    <line x1="60" y1="190" x2="60" y2="210"/>
+    <line x1="160" y1="190" x2="160" y2="210"/>
+    <line x1="280" y1="190" x2="280" y2="210"/>
+    <line x1="400" y1="190" x2="400" y2="210"/>
+    <line x1="500" y1="220" x2="500" y2="240"/>
+    <line x1="600" y1="220" x2="600" y2="240"/>
+  </g>
+
+  <!-- Long shadows (lengthening) -->
+  <ellipse cx="450" cy="222" rx="80" ry="6" fill="#1a0c08" opacity="0.55" filter="url(#i7p5p1glow)"/>
+
+  <!-- ===== THEODORE — center, walking RIGHT toward waterfront, lighter step ===== -->
+  <g transform="translate(420 250)">
+    <ellipse cx="0" cy="34" rx="14" ry="2" fill="#000" opacity="0.7"/>
+    <!-- Boots, mid-stride forward -->
+    <ellipse cx="-9" cy="32" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="9" cy="34" rx="5" ry="2" fill="#1a0c04"/>
+    <!-- Trousers mid-stride -->
+    <path d="M-11,30 L-14,-10 L-6,-30 L-2,-10 Z" fill="#3a3028"/>
+    <path d="M11,32 L14,-12 L4,-30 L-2,-10 Z" fill="#3a3028"/>
+    <!-- Knee patch -->
+    <rect x="-9" y="-8" width="6" height="6" fill="#5a3018" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- Waistcoat / linen -->
+    <path d="M-12,-30 L-12,-90 L12,-90 L12,-30 Z" fill="#d4c4a8"/>
+    <path d="M-14,-88 L-12,-30 L-2,-30 L-2,-88 Z" fill="#5a3018"/>
+    <path d="M14,-88 L12,-30 L2,-30 L2,-88 Z" fill="#5a3018"/>
+    <circle cx="-2" cy="-78" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-66" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-54" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-42" r="0.85" fill="#3a1808"/>
+    <!-- Linen collar -->
+    <path d="M-7,-90 L0,-88 L7,-90 L7,-86 L0,-83 L-7,-86 Z" fill="#e0d4b8"/>
+
+    <!-- POCKET -->
+    <rect x="3" y="-84" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.4"/>
+    <ellipse cx="9" cy="-78" rx="3" ry="2" fill="#5af0a0" opacity="0.55" filter="url(#i7p5p1bloom)"/>
+
+    <!-- SATCHEL — held carefully, hand cradling it -->
+    <path d="M-12,-88 L18,-26" stroke="#a89878" stroke-width="3"/>
+    <rect x="14" y="-24" width="22" height="20" fill="#a89878" stroke="#7a6048" stroke-width="0.7"/>
+    <line x1="14" y1="-18" x2="36" y2="-18" stroke="#7a6048" stroke-width="0.55"/>
+    <!-- Bulge from lens -->
+    <ellipse cx="25" cy="-14" rx="9" ry="6" fill="#a89878" opacity="0.85"/>
+
+    <!-- LEFT hand cradling satchel (steady protective) -->
+    <path d="M-12,-86 L-22,-66 L-18,-46 L-8,-66 Z" fill="#5a3018"/>
+    <ellipse cx="-22" cy="-50" rx="3" ry="2" fill="#a87838"/>
+    <circle cx="-22" cy="-50" r="1.4" fill="none" stroke="#d89858" stroke-width="0.55" filter="url(#i7p5p1bloom)"/>
+    <!-- RIGHT hand on satchel bottom -->
+    <path d="M14,-86 L20,-50 L26,-26 L18,-30 Z" fill="#5a3018"/>
+    <ellipse cx="26" cy="-26" rx="3" ry="2" fill="#a87838"/>
+
+    <!-- Head — chin slightly higher, looking down quickly at pocket -->
+    <ellipse cx="0" cy="-104" rx="11" ry="12" fill="#a87838"/>
+    <path d="M-10,-114 Q-7,-122 0,-124 Q7,-122 10,-114 L10,-105 Q7,-110 0,-110 Q-7,-110 -10,-105 Z" fill="#9a7038"/>
+    <!-- Eyes — glanced DOWN-RIGHT toward pocket -->
+    <ellipse cx="-3" cy="-103" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="3" cy="-103" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="-2" cy="-102" rx="0.85" ry="0.7" fill="#7a4818"/>
+    <ellipse cx="4" cy="-102" rx="0.85" ry="0.7" fill="#7a4818"/>
+    <circle cx="-2" cy="-102" r="0.3" fill="#fff"/>
+    <circle cx="4" cy="-102" r="0.3" fill="#fff"/>
+    <!-- Brow soft (relief) -->
+    <path d="M-7,-110 Q-3,-112 0,-110" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M7,-110 Q3,-112 0,-110" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <!-- Slight smile -->
+    <path d="M-2,-96 Q0,-95 2,-96" stroke="#3a1808" stroke-width="0.4" fill="none"/>
+  </g>
+
+  <!-- THEODORE dialogue (low) -->
+  <g>
+    <rect x="14" y="14" width="180" height="34" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="80,48 92,48 84,58" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="80.5" y1="48" x2="91.5" y2="48" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(low)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Got it.</text>
+
+  <!-- JINK reply -->
+  <g>
+    <rect x="540" y="14" width="180" height="34" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="600,48 612,48 604,58" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="548" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(pocket)</tspan></text>
+  <text x="548" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Told you.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,220 Q200,222 400,218 Q580,216 742,220"/>
+  </g>
+</svg>
