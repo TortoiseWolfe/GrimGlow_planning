@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 440" width="366" height="440">
+  <title>Issue 6 — Page 20 — Panel 2: Theodore under gas lamp — fidgeting with brass gear ring, gathering courage</title>
+  <desc>50mm medium slight low angle. Theodore passing under gas lamp, face briefly illuminated warm amber. Slowed pace. Right hand out of pocket fidgeting with brass gear ring on left index. Tell. Choosing words. THEODORE: "Miss Luma, may I tell you something?" LUMA: "Of course."</desc>
+
+  <defs>
+    <linearGradient id="i6p20p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#2a1810"/>
+    </linearGradient>
+    <radialGradient id="i6p20p2lampHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe0a8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#d8a060" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a4828" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p20p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="50%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="i6p20p2leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p20p2linen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0e0b8"/>
+      <stop offset="100%" stop-color="#a89878"/>
+    </linearGradient>
+    <radialGradient id="i6p20p2pocketGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p20p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p20p2glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i6p20p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i6p20p2megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="366" height="440" fill="url(#i6p20p2bg)"/>
+
+  <!-- Fog ambient -->
+  <rect x="0" y="0" width="366" height="200" fill="#7a6850" opacity="0.55"/>
+
+  <!-- ===== GAS LAMP behind/above Theodore ===== -->
+  <g transform="translate(220 80)">
+    <!-- Lamp halo -->
+    <ellipse cx="0" cy="0" rx="100" ry="80" fill="url(#i6p20p2lampHalo)" filter="url(#i6p20p2megaglow)"/>
+    <ellipse cx="0" cy="0" rx="40" ry="36" fill="#ffe0a8" opacity="0.7" filter="url(#i6p20p2strongglow)"/>
+    <!-- Lamp post -->
+    <line x1="0" y1="0" x2="0" y2="-80" stroke="#1a0c08" stroke-width="3"/>
+    <!-- Lamp head/glass cage -->
+    <rect x="-12" y="-14" width="24" height="28" fill="#1a0c08" stroke="#3a2418" stroke-width="0.85"/>
+    <!-- Glass panes -->
+    <rect x="-9" y="-11" width="18" height="22" fill="#ffe0a8" opacity="0.55"/>
+    <line x1="0" y1="-11" x2="0" y2="11" stroke="#1a0c08" stroke-width="0.55"/>
+    <line x1="-9" y1="0" x2="9" y2="0" stroke="#1a0c08" stroke-width="0.55"/>
+    <ellipse cx="0" cy="0" rx="6" ry="9" fill="#fff8c8" filter="url(#i6p20p2bloom)"/>
+    <!-- Decorative cap -->
+    <polygon points="-14,-14 14,-14 10,-22 -10,-22" fill="#1a0c08"/>
+    <line x1="0" y1="-22" x2="0" y2="-26" stroke="#1a0c08" stroke-width="2"/>
+    <circle cx="0" cy="-28" r="2" fill="#1a0c08"/>
+  </g>
+
+  <!-- Fog wisps -->
+  <g stroke="#a89878" stroke-width="0.7" opacity="0.55" fill="none">
+    <path d="M40,200 Q120,198 200,202"/>
+    <path d="M180,240 Q260,238 340,242"/>
+  </g>
+
+  <!-- ===== THEODORE — slight low angle, face uplit warm amber ===== -->
+  <g transform="translate(183 440)">
+    <!-- Body extending down from head; slight low angle so head higher -->
+    <!-- Cropped at frame bottom — feet not visible -->
+    <!-- Trousers -->
+    <path d="M-26,0 L-32,-90 L-12,-130 L-2,-90 Z" fill="#3a3028"/>
+    <path d="M26,0 L32,-90 L12,-130 L2,-90 Z" fill="#3a3028"/>
+
+    <!-- Waistcoat / linen -->
+    <path d="M-30,-130 L-30,-220 L30,-220 L30,-130 Z" fill="url(#i6p20p2linen)"/>
+    <path d="M-34,-216 L-30,-130 L-2,-130 L-2,-216 Z" fill="url(#i6p20p2leather)"/>
+    <path d="M34,-216 L30,-130 L2,-130 L2,-216 Z" fill="url(#i6p20p2leather)"/>
+    <!-- Buttons -->
+    <circle cx="-2" cy="-200" r="1.4" fill="#3a1808"/>
+    <circle cx="-2" cy="-180" r="1.4" fill="#3a1808"/>
+    <circle cx="-2" cy="-160" r="1.4" fill="#3a1808"/>
+    <circle cx="-2" cy="-140" r="1.4" fill="#3a1808"/>
+    <!-- Linen collar -->
+    <path d="M-12,-220 L0,-216 L12,-220 L12,-208 L0,-202 L-12,-208 Z" fill="#f8e8c0"/>
+
+    <!-- POCKET on right side -->
+    <rect x="6" y="-204" width="20" height="26" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Blue-violet glow from pocket — Luma watching -->
+    <ellipse cx="16" cy="-190" rx="9" ry="6" fill="url(#i6p20p2pocketGlow)" filter="url(#i6p20p2strongglow)" opacity="0.85"/>
+
+    <!-- LEFT arm bent up — fidgeting -->
+    <path d="M-30,-216 L-44,-180 L-50,-150 L-40,-130 L-26,-150 L-22,-180 Z" fill="url(#i6p20p2leather)"/>
+    <!-- LEFT hand visible at chest level -->
+    <ellipse cx="-40" cy="-130" rx="9" ry="6" fill="url(#i6p20p2skin)"/>
+    <!-- Index finger extended (with gear ring) -->
+    <ellipse cx="-46" cy="-126" rx="3" ry="2" fill="url(#i6p20p2skin)"/>
+    <!-- BRASS GEAR RING on left index — catching amber light -->
+    <circle cx="-46" cy="-126" r="2.4" fill="none" stroke="#d89858" stroke-width="0.85" filter="url(#i6p20p2bloom)"/>
+    <circle cx="-46" cy="-126" r="1.4" fill="#a87838"/>
+    <!-- Tiny gear teeth -->
+    <g stroke="#d89858" stroke-width="0.4" opacity="0.85">
+      <line x1="-44" y1="-126" x2="-43" y2="-126"/>
+      <line x1="-49" y1="-126" x2="-50" y2="-126"/>
+      <line x1="-46" y1="-128" x2="-46" y2="-129"/>
+      <line x1="-46" y1="-124" x2="-46" y2="-123"/>
+    </g>
+
+    <!-- RIGHT hand turning the gear ring -->
+    <ellipse cx="-34" cy="-126" rx="6" ry="4" fill="url(#i6p20p2skin)"/>
+    <path d="M-30,-126 L-26,-130 L-26,-122 Z" fill="url(#i6p20p2skin)"/>
+    <!-- Right arm coming from torso -->
+    <path d="M30,-216 L20,-180 L0,-150 L-22,-130 L-16,-138 L0,-160 L20,-180 Z" fill="url(#i6p20p2leather)" opacity="0.85"/>
+
+    <!-- Neck -->
+    <path d="M-9,-240 L-12,-220 L12,-220 L9,-240 Z" fill="url(#i6p20p2skin)"/>
+
+    <!-- Head — slight low angle, face uplit warm amber -->
+    <ellipse cx="0" cy="-272" rx="32" ry="36" fill="url(#i6p20p2skin)"/>
+    <!-- Sandy-brown hair -->
+    <path d="M-30,-294 Q-22,-308 0,-310 Q22,-308 30,-294 L30,-280 Q22,-288 0,-288 Q-22,-288 -30,-280 Z" fill="#9a6038"/>
+    <!-- Tousled spikes -->
+    <path d="M-18,-308 L-14,-316 L-22,-314 Z" fill="#a87838"/>
+    <path d="M14,-308 L18,-316 L10,-314 Z" fill="#a87838"/>
+    <path d="M-2,-310 L4,-318 L-6,-316 Z" fill="#a87838"/>
+    <!-- Hair backlit by lamp halo -->
+    <ellipse cx="0" cy="-302" rx="20" ry="6" fill="#d8a060" opacity="0.7" filter="url(#i6p20p2bloom)"/>
+
+    <!-- Eyes — thoughtful, downcast slightly toward gear ring -->
+    <ellipse cx="-11" cy="-272" rx="4" ry="2" fill="#fff8e8"/>
+    <ellipse cx="11" cy="-272" rx="4" ry="2" fill="#fff8e8"/>
+    <ellipse cx="-12" cy="-271" rx="2" ry="1.4" fill="#7a4818"/>
+    <ellipse cx="10" cy="-271" rx="2" ry="1.4" fill="#7a4818"/>
+    <circle cx="-11" cy="-272" r="0.55" fill="#fff"/>
+    <circle cx="11" cy="-272" r="0.55" fill="#fff"/>
+    <!-- Brow lightly furrowed -->
+    <path d="M-22,-286 Q-14,-288 -4,-286" stroke="#5a3018" stroke-width="1.4" fill="none"/>
+    <path d="M22,-286 Q14,-288 4,-286" stroke="#5a3018" stroke-width="1.4" fill="none"/>
+    <!-- Nose -->
+    <path d="M-2,-272 L-3,-256 L0,-252 L3,-256 L2,-272 Z" fill="#7a4818" opacity="0.85"/>
+    <!-- Freckles -->
+    <circle cx="-12" cy="-262" r="0.7" fill="#7a4818" opacity="0.85"/>
+    <circle cx="-7" cy="-258" r="0.7" fill="#7a4818" opacity="0.85"/>
+    <circle cx="7" cy="-258" r="0.7" fill="#7a4818" opacity="0.85"/>
+    <circle cx="13" cy="-262" r="0.7" fill="#7a4818" opacity="0.85"/>
+
+    <!-- Mouth slightly open (about to speak, choosing words) -->
+    <ellipse cx="0" cy="-244" rx="3" ry="1.4" fill="#3a1808"/>
+  </g>
+
+  <!-- THEODORE dialogue -->
+  <g>
+    <rect x="14" y="14" width="280" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="160,54 172,54 164,64" fill="white" stroke="#6a4220" stroke-width="0.85"/>
+    <line x1="160.5" y1="54" x2="171.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#6a4220" font-weight="700">THEODORE</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">Miss Luma, may I tell you something?</text>
+
+  <!-- LUMA reply -->
+  <g>
+    <rect x="180" y="370" width="170" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="240,410 252,410 244,420" fill="white" stroke="#5a3ad8" stroke-width="0.85"/>
+    <line x1="240.5" y1="410" x2="251.5" y2="410" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="188" y="388" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a3ad8" font-weight="700">LUMA</text>
+  <text x="188" y="404" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">Of course.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#5a3018" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q100,162 200,158 Q280,156 366,160"/>
+    <path d="M0,360 Q100,362 200,358 Q280,356 366,360"/>
+  </g>
+</svg>
