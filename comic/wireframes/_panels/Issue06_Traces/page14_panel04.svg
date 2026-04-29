@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 310.6" width="366" height="310.6">
+  <title>Issue 6 — Page 14 — Panel 4: Luma's face ECU — capture grid pattern on lenses, eyes shining with unshed moisture, "Who were you?"</title>
+  <desc>100mm extreme CU eye level. Luma's face. Lenses display blue-violet capture grid pattern as scanner photographs glyph. Eyes wet (not crying — moisture of shock). Stone dust on cheek. Lips pressed together. Filament pulsing faster than normal.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p14p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0608"/>
+      <stop offset="100%" stop-color="#020108"/>
+    </linearGradient>
+    <linearGradient id="i6p14p4lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p14p4lensGrid" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p14p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p14p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="310.6" fill="url(#i6p14p4bg)"/>
+
+  <!-- Heavy lens-grid backlight -->
+  <ellipse cx="183" cy="155" rx="200" ry="120" fill="url(#i6p14p4lensGrid)" filter="url(#i6p14p4glow)"/>
+
+  <!-- ===== LUMA — extreme CU face filling frame ===== -->
+  <g transform="translate(183 200)">
+    <!-- Suit collar bottom edge -->
+    <path d="M-50,90 L-50,110.6 L50,110.6 L50,90 Z" fill="url(#i6p14p4lumaSuit)"/>
+
+    <!-- Neck -->
+    <rect x="-15" y="80" width="30" height="14" fill="#7a4838"/>
+
+    <!-- HEAD — extreme close (fills frame) -->
+    <ellipse cx="0" cy="0" rx="80" ry="100" fill="#7a4838"/>
+    <!-- Lit zones from lens grid + scanner -->
+    <ellipse cx="0" cy="20" rx="50" ry="20" fill="#a888ff" opacity="0.4" filter="url(#i6p14p4bloom)"/>
+    <!-- Cheek volumes -->
+    <ellipse cx="-44" cy="20" rx="11" ry="22" fill="#8a5848" opacity="0.55"/>
+    <ellipse cx="44" cy="20" rx="11" ry="22" fill="#8a5848" opacity="0.55"/>
+
+    <!-- HAIR (mostly out of frame top, hint at edge) -->
+    <path d="M-66,-50 Q-66,-90 -28,-100 Q0,-104 28,-100 Q66,-90 66,-50 L62,-30 Q30,-50 0,-50 Q-30,-50 -62,-30 Z" fill="#0a0604"/>
+    <!-- Mortar powder in hair -->
+    <g fill="#a8a098" opacity="0.55">
+      <circle cx="-15" cy="-72" r="0.7"/>
+      <circle cx="-3" cy="-80" r="0.85"/>
+      <circle cx="9" cy="-78" r="0.7"/>
+      <circle cx="22" cy="-72" r="0.7"/>
+      <circle cx="-25" cy="-60" r="0.55"/>
+      <circle cx="25" cy="-60" r="0.55"/>
+    </g>
+    <!-- Sapphire filament glints - PULSING FASTER -->
+    <line x1="-10" y1="-78" x2="-9" y2="-84" stroke="#5a3ad8" stroke-width="1.4" opacity="0.95" filter="url(#i6p14p4bloom)"/>
+    <line x1="9" y1="-84" x2="10" y2="-78" stroke="#5a3ad8" stroke-width="1.4" opacity="0.95" filter="url(#i6p14p4bloom)"/>
+    <!-- Extra pulse ring around filaments -->
+    <circle cx="-9" cy="-81" r="3" fill="none" stroke="#5a3ad8" stroke-width="0.4" opacity="0.55" filter="url(#i6p14p4bloom)"/>
+    <circle cx="9" cy="-81" r="3" fill="none" stroke="#5a3ad8" stroke-width="0.4" opacity="0.55" filter="url(#i6p14p4bloom)"/>
+
+    <!-- ===== LENSES — IN CAPTURE MODE — blue-violet grid pattern ===== -->
+    <ellipse cx="-30" cy="-10" rx="28" ry="20" fill="#a888ff" opacity="0.4"/>
+    <ellipse cx="30" cy="-10" rx="28" ry="20" fill="#a888ff" opacity="0.4"/>
+    <ellipse cx="-30" cy="-10" rx="28" ry="20" fill="none" stroke="#a888ff" stroke-width="2" opacity="0.95" filter="url(#i6p14p4bloom)"/>
+    <ellipse cx="30" cy="-10" rx="28" ry="20" fill="none" stroke="#a888ff" stroke-width="2" opacity="0.95" filter="url(#i6p14p4bloom)"/>
+
+    <!-- BLUE-VIOLET CAPTURE GRID pattern on lens surfaces -->
+    <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#i6p14p4bloom)">
+      <!-- Left lens grid -->
+      <line x1="-50" y1="-20" x2="-10" y2="-20"/>
+      <line x1="-50" y1="-10" x2="-10" y2="-10"/>
+      <line x1="-50" y1="0" x2="-10" y2="0"/>
+      <line x1="-44" y1="-26" x2="-44" y2="6"/>
+      <line x1="-30" y1="-30" x2="-30" y2="10"/>
+      <line x1="-16" y1="-26" x2="-16" y2="6"/>
+      <!-- Right lens grid -->
+      <line x1="10" y1="-20" x2="50" y2="-20"/>
+      <line x1="10" y1="-10" x2="50" y2="-10"/>
+      <line x1="10" y1="0" x2="50" y2="0"/>
+      <line x1="16" y1="-26" x2="16" y2="6"/>
+      <line x1="30" y1="-30" x2="30" y2="10"/>
+      <line x1="44" y1="-26" x2="44" y2="6"/>
+    </g>
+    <!-- CAPTURE indicator markers in corners -->
+    <g stroke="#fff8ff" stroke-width="0.55" fill="none" opacity="0.95">
+      <line x1="-50" y1="-20" x2="-46" y2="-20"/>
+      <line x1="-50" y1="-20" x2="-50" y2="-16"/>
+      <line x1="-14" y1="-20" x2="-10" y2="-20"/>
+      <line x1="-10" y1="-20" x2="-10" y2="-16"/>
+      <line x1="14" y1="-20" x2="10" y2="-20"/>
+      <line x1="10" y1="-20" x2="10" y2="-16"/>
+      <line x1="46" y1="-20" x2="50" y2="-20"/>
+      <line x1="50" y1="-20" x2="50" y2="-16"/>
+    </g>
+    <!-- Tiny REC indicator -->
+    <circle cx="-50" cy="-30" r="2" fill="#ff5868" filter="url(#i6p14p4bloom)" opacity="0.95"/>
+    <text x="-46" y="-28" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#ff5868" font-weight="700">REC</text>
+
+    <!-- Hairline crack on left lens -->
+    <line x1="-52" y1="-18" x2="-22" y2="-2" stroke="#fff8ff" stroke-width="0.7" opacity="0.85" filter="url(#i6p14p4bloom)"/>
+
+    <!-- EYES — wet, shining behind capture grid -->
+    <ellipse cx="-30" cy="-10" rx="11" ry="7" fill="#fff8e8"/>
+    <ellipse cx="-30" cy="-10" rx="9" ry="5" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="-30" cy="-10" r="4" fill="#0a0604"/>
+    <circle cx="-31" cy="-11" r="1.4" fill="#fff8ff"/>
+    <!-- Wet sheen — small reflection of glyph blue-white in tear -->
+    <ellipse cx="-30" cy="-5" rx="6" ry="2" fill="#a8c0ff" opacity="0.55" filter="url(#i6p14p4bloom)"/>
+    <ellipse cx="30" cy="-10" rx="11" ry="7" fill="#fff8e8"/>
+    <ellipse cx="30" cy="-10" rx="9" ry="5" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="30" cy="-10" r="4" fill="#0a0604"/>
+    <circle cx="29" cy="-11" r="1.4" fill="#fff8ff"/>
+    <ellipse cx="30" cy="-5" rx="6" ry="2" fill="#a8c0ff" opacity="0.55" filter="url(#i6p14p4bloom)"/>
+
+    <!-- Brows level — composure -->
+    <path d="M-50,-30 L-15,-30" stroke="#0a0604" stroke-width="2"/>
+    <path d="M15,-30 L50,-30" stroke="#0a0604" stroke-width="2"/>
+
+    <!-- Stone dust on left cheek -->
+    <ellipse cx="-44" cy="36" rx="9" ry="2" fill="#a8a098" opacity="0.7"/>
+    <ellipse cx="-38" cy="44" rx="6" ry="1.4" fill="#a8a098" opacity="0.55"/>
+
+    <!-- Nose -->
+    <path d="M0,12 L-4,40 L0,46 L4,40 Z" fill="#7a4838" opacity="0.65"/>
+    <line x1="-4" y1="40" x2="4" y2="40" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+
+    <!-- MOUTH — pressed together (composure) -->
+    <path d="M-12,62 L12,62" stroke="#3a1808" stroke-width="1.2"/>
+    <path d="M-9,66 L9,66" stroke="#5a3018" stroke-width="0.55" opacity="0.55"/>
+    <!-- Slight downturn -->
+    <path d="M-12,62 L-14,60" stroke="#3a1808" stroke-width="0.55"/>
+    <path d="M12,62 L14,60" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- LUMA dialogue (whispered) -->
+  <g>
+    <rect x="14" y="14" width="180" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="100,54 112,54 104,64" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="100.5" y1="54" x2="111.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (whispered)</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1410" font-style="italic" font-weight="700">Who were you?</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q120,92 240,88 Q330,86 366,90"/>
+    <path d="M0,290 Q120,292 240,288 Q330,286 366,290"/>
+  </g>
+</svg>
