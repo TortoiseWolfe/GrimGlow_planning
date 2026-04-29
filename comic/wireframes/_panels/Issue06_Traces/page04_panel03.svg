@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 6 — Page 4 — Panel 3: Theodore listens — profile, faintest blue-violet under chin</title>
+  <desc>85mm CU eye level, profile. Theodore's head tilted slightly down, smallest smile (wonder + partnership), hazel eyes scanning street. Faintest blue-violet reflection under chin from pocket glow. Flat grey daylight.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p4p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7068"/>
+      <stop offset="100%" stop-color="#3a3430"/>
+    </linearGradient>
+    <linearGradient id="i6p4p3leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p4p3linen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0d4b8"/>
+      <stop offset="100%" stop-color="#a8987c"/>
+    </linearGradient>
+    <radialGradient id="i6p4p3pocketHint" cx="100%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p4p3fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a09890" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#605850" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p4p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p4p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#i6p4p3bg)"/>
+
+  <!-- Background fog haze -->
+  <ellipse cx="180" cy="180" rx="280" ry="220" fill="url(#i6p4p3fog)" filter="url(#i6p4p3glow)"/>
+
+  <!-- Distant building silhouettes barely visible -->
+  <rect x="0" y="80" width="80" height="180" fill="#605850" opacity="0.55"/>
+  <rect x="0" y="80" width="80" height="60" fill="url(#i6p4p3fog)" opacity="0.55"/>
+  <g fill="#3a3028" opacity="0.55">
+    <rect x="20" y="160" width="14" height="20"/>
+    <rect x="50" y="160" width="14" height="20"/>
+    <rect x="20" y="200" width="14" height="20"/>
+    <rect x="50" y="200" width="14" height="20"/>
+  </g>
+
+  <!-- ===== THEODORE — large profile right-side facing left ===== -->
+  <!-- Linen shirt collar visible at lower right -->
+  <path d="M196,288 L300,288 L300,364 L196,364 Z" fill="url(#i6p4p3linen)"/>
+  <!-- Collar fold detail -->
+  <path d="M196,288 L210,294 L240,294 L246,288 Z" fill="#a8987c"/>
+
+  <!-- Worn leather waistcoat shoulder/chest -->
+  <path d="M196,300 L300,300 L300,364 L196,364 Z" fill="url(#i6p4p3leather)"/>
+  <g stroke="#1a0c04" stroke-width="0.45" opacity="0.55" fill="none">
+    <path d="M196,320 Q240,324 300,322"/>
+    <path d="M196,340 Q240,344 300,342"/>
+  </g>
+  <!-- WAISTCOAT POCKET visible at far right — the faint blue-violet glow source -->
+  <rect x="220" y="306" width="44" height="44" fill="#3a1808" stroke="#1a0c04" stroke-width="0.7"/>
+  <ellipse cx="242" cy="328" rx="50" ry="32" fill="url(#i6p4p3pocketHint)" filter="url(#i6p4p3glow)"/>
+  <!-- Faint blue-violet smear into the air above pocket — reaching toward Theodore's chin -->
+  <ellipse cx="220" cy="280" rx="40" ry="20" fill="#a888ff" opacity="0.32" filter="url(#i6p4p3glow)"/>
+
+  <!-- HEAD profile (facing right - viewer's left), tilted slightly down + forward -->
+  <g transform="translate(170 168)">
+    <!-- Neck -->
+    <path d="M-14,90 L20,90 L24,128 L-12,128 Z" fill="#a87838"/>
+
+    <!-- Profile head -->
+    <path d="M-58,-10 Q-60,-78 -10,-100 Q42,-104 60,-50 L62,30 Q60,72 50,86 L24,98 L-12,98 L-30,80 Q-58,40 -58,-10 Z" fill="#a87838"/>
+
+    <!-- Cheek volume -->
+    <ellipse cx="22" cy="40" rx="16" ry="22" fill="#8a5828" opacity="0.55"/>
+    <!-- Forehead light -->
+    <ellipse cx="0" cy="-50" rx="30" ry="14" fill="#c0905a" opacity="0.55"/>
+
+    <!-- HAIR — sandy-brown, untidy -->
+    <path d="M-58,-10 Q-60,-78 -10,-100 Q42,-104 60,-60 L60,-30 Q56,-66 42,-78 Q20,-86 -2,-82 Q-20,-78 -34,-66 Q-50,-44 -50,-10 Z" fill="#9a7038"/>
+    <!-- Tousled tufts -->
+    <path d="M-12,-100 L-8,-110 L-4,-100 Z" fill="#9a7038"/>
+    <path d="M8,-104 L14,-114 L18,-100 Z" fill="#9a7038"/>
+    <path d="M22,-100 L28,-108 L34,-98 Z" fill="#9a7038"/>
+    <path d="M-30,-86 L-26,-94 L-22,-84 Z" fill="#9a7038"/>
+    <!-- Loose strands at front -->
+    <path d="M40,-70 Q44,-50 38,-30" stroke="#7a5028" stroke-width="0.85" fill="none" opacity="0.85"/>
+    <path d="M52,-30 Q56,-10 50,12" stroke="#7a5028" stroke-width="0.7" fill="none" opacity="0.7"/>
+
+    <!-- EAR -->
+    <path d="M-46,4 Q-58,8 -52,28 L-44,30 Z" fill="#a87838"/>
+    <ellipse cx="-50" cy="14" rx="3" ry="6" fill="#7a4828" opacity="0.7"/>
+
+    <!-- EYE in profile -->
+    <ellipse cx="36" cy="0" rx="6" ry="3" fill="#fff8e8"/>
+    <circle cx="38" cy="0" r="2.4" fill="#5a3818"/>
+    <circle cx="39" cy="-1" r="0.7" fill="#fff8ff"/>
+    <!-- Eyelid -->
+    <path d="M30,-3 L42,-3" stroke="#3a1808" stroke-width="0.85"/>
+    <path d="M30,3 L42,3" stroke="#5a3818" stroke-width="0.55"/>
+    <!-- Brow level (alert) -->
+    <path d="M28,-12 L46,-14" stroke="#5a3018" stroke-width="1.6"/>
+    <!-- Lashes -->
+    <line x1="32" y1="-4" x2="33" y2="-7" stroke="#3a1808" stroke-width="0.45"/>
+    <line x1="36" y1="-4" x2="37" y2="-7" stroke="#3a1808" stroke-width="0.45"/>
+    <line x1="40" y1="-4" x2="41" y2="-7" stroke="#3a1808" stroke-width="0.45"/>
+
+    <!-- FRECKLES -->
+    <circle cx="20" cy="20" r="0.85" fill="#7a3018"/>
+    <circle cx="30" cy="22" r="0.85" fill="#7a3018"/>
+    <circle cx="14" cy="14" r="0.6" fill="#7a3018"/>
+    <circle cx="38" cy="18" r="0.7" fill="#7a3018"/>
+
+    <!-- NOSE profile -->
+    <path d="M62,0 Q68,8 64,18 Q60,22 58,18 L60,8 Z" fill="#7a4828"/>
+    <line x1="58" y1="20" x2="60" y2="22" stroke="#3a1808" stroke-width="0.55"/>
+    <ellipse cx="58" cy="22" rx="3" ry="1" fill="#5a3018"/>
+
+    <!-- MOUTH — smallest smile (corner barely turned up) -->
+    <path d="M40,40 Q50,40 60,38" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <line x1="60" y1="38" x2="62" y2="36" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Lip detail -->
+    <path d="M40,42 Q50,44 58,42" stroke="#5a3018" stroke-width="0.55" fill="none" opacity="0.7"/>
+
+    <!-- CHIN with FAINT BLUE-VIOLET reflection from pocket glow below -->
+    <path d="M50,60 Q58,76 50,82 L40,80 Q44,68 50,60 Z" fill="#a87838"/>
+    <!-- BLUE-VIOLET catching underside of chin (the only hint!) -->
+    <path d="M40,80 Q50,84 60,72" stroke="#a888ff" stroke-width="2" fill="none" opacity="0.85" filter="url(#i6p4p3bloom)"/>
+    <ellipse cx="50" cy="80" rx="14" ry="3" fill="#a888ff" opacity="0.45" filter="url(#i6p4p3bloom)"/>
+    <!-- Faint scrolling-data-shadow reflected on jaw -->
+    <line x1="42" y1="78" x2="44" y2="80" stroke="#fff8ff" stroke-width="0.4" opacity="0.7"/>
+    <line x1="46" y1="80" x2="48" y2="78" stroke="#fff8ff" stroke-width="0.4" opacity="0.7"/>
+
+    <!-- Subtle head-tilt cue: a slight lean as he listens (hint at the angle via highlight) -->
+    <ellipse cx="-12" cy="50" rx="14" ry="6" fill="#7a4828" opacity="0.55"/>
+  </g>
+
+  <!-- THEODORE dialogue (low voice — italic) -->
+  <g>
+    <rect x="14" y="14" width="338" height="60" rx="2" fill="white" stroke="#6a4220" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="180,74 192,74 184,84" fill="white" stroke="#6a4220" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="180.5" y1="74" x2="191.5" y2="74" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700" font-style="italic">THEODORE (low)</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Left at the junction. I know it — Mrs.</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Finch's laundry is on that corner.</text>
+  <text x="22" y="71" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Nobody minds a boy there.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q120,92 240,88 Q330,86 366,90"/>
+    <path d="M0,300 Q120,302 240,298 Q330,296 366,300"/>
+  </g>
+</svg>
