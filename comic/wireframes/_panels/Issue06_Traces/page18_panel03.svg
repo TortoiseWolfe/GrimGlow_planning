@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 470" width="366" height="470">
+  <title>Issue 6 — Page 18 — Panel 3: Encryption activates — silver-white lattice folds inward, camp plunges into darkness</title>
+  <desc>50mm medium shot eye level. Holographic text collapses. Dense geometric lattice folds over data, structured silver-white, compressing into opaque solid. Solid shrinks into module. Blue-white light vanishes. Sable barely visible — faintest reflection on silver suit, pale gleam of silver-white hair, eyes closed. Total darkness except faint grey sliver fog from distant wall gap.</desc>
+
+  <defs>
+    <radialGradient id="i6p18p3darkness" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0a0a14" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="i6p18p3latticeFlare" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#c0d8ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a3060" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p18p3suit" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3a4868"/>
+      <stop offset="50%" stop-color="#1a2438"/>
+      <stop offset="100%" stop-color="#0a0c20"/>
+    </linearGradient>
+    <linearGradient id="i6p18p3skin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#2a3858"/>
+      <stop offset="50%" stop-color="#1a2438"/>
+      <stop offset="100%" stop-color="#0a1018"/>
+    </linearGradient>
+    <filter id="i6p18p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p18p3glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i6p18p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i6p18p3megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="366" height="470" fill="url(#i6p18p3darkness)"/>
+
+  <!-- Distant wall gap — faint grey sliver of fog far rear -->
+  <rect x="20" y="200" width="20" height="80" fill="#2a2c40" opacity="0.55" filter="url(#i6p18p3glow)"/>
+  <rect x="22" y="205" width="16" height="70" fill="#3a3c50" opacity="0.55" filter="url(#i6p18p3glow)"/>
+
+  <!-- Timber beams as deep shadows -->
+  <rect x="0" y="0" width="14" height="470" fill="#080608"/>
+  <rect x="352" y="0" width="14" height="470" fill="#080608"/>
+  <rect x="0" y="0" width="366" height="14" fill="#080608"/>
+  <rect x="0" y="450" width="366" height="20" fill="#080608"/>
+
+  <!-- ===== ENCRYPTION FLARE — bright center, lattice folding inward ===== -->
+  <!-- Mega bloom -->
+  <ellipse cx="183" cy="240" rx="180" ry="130" fill="url(#i6p18p3latticeFlare)" filter="url(#i6p18p3megaglow)" opacity="0.95"/>
+
+  <!-- ===== GEOMETRIC LATTICE — folding inward, silver-white structured ===== -->
+  <g transform="translate(183 240)" filter="url(#i6p18p3bloom)">
+    <!-- Outer lattice (largest, fading) -->
+    <g stroke="#c0d8ff" stroke-width="0.85" fill="none" opacity="0.85">
+      <polygon points="-100,-60 -50,-90 50,-90 100,-60 100,60 50,90 -50,90 -100,60"/>
+      <polygon points="-90,-50 -40,-80 40,-80 90,-50 90,50 40,80 -40,80 -90,50"/>
+      <line x1="-100" y1="-60" x2="100" y2="60"/>
+      <line x1="100" y1="-60" x2="-100" y2="60"/>
+      <line x1="-50" y1="-90" x2="50" y2="90"/>
+      <line x1="50" y1="-90" x2="-50" y2="90"/>
+      <line x1="0" y1="-90" x2="0" y2="90"/>
+      <line x1="-100" y1="0" x2="100" y2="0"/>
+    </g>
+    <!-- Middle lattice (compressing) -->
+    <g stroke="#fff" stroke-width="1.4" fill="none" opacity="0.95">
+      <polygon points="-60,-36 -30,-54 30,-54 60,-36 60,36 30,54 -30,54 -60,36"/>
+      <line x1="-60" y1="-36" x2="60" y2="36"/>
+      <line x1="60" y1="-36" x2="-60" y2="36"/>
+      <line x1="-30" y1="-54" x2="30" y2="54"/>
+      <line x1="30" y1="-54" x2="-30" y2="54"/>
+      <line x1="0" y1="-54" x2="0" y2="54"/>
+      <line x1="-60" y1="0" x2="60" y2="0"/>
+    </g>
+    <!-- Inner core (densest, brightest, near collapse) -->
+    <g stroke="#fff" stroke-width="2.0" fill="#a8c8ff" opacity="0.95">
+      <polygon points="-22,-14 -12,-22 12,-22 22,-14 22,14 12,22 -12,22 -22,14"/>
+    </g>
+    <circle cx="0" cy="0" r="6" fill="#fff" filter="url(#i6p18p3bloom)"/>
+
+    <!-- Fold-direction radial lines pulling inward (motion vectors) -->
+    <g stroke="#a8c8ff" stroke-width="0.55" opacity="0.85">
+      <line x1="-100" y1="0" x2="-30" y2="0"/>
+      <line x1="100" y1="0" x2="30" y2="0"/>
+      <line x1="0" y1="-90" x2="0" y2="-30"/>
+      <line x1="0" y1="90" x2="0" y2="30"/>
+      <line x1="-70" y1="-50" x2="-22" y2="-15"/>
+      <line x1="70" y1="-50" x2="22" y2="-15"/>
+      <line x1="-70" y1="50" x2="-22" y2="15"/>
+      <line x1="70" y1="50" x2="22" y2="15"/>
+    </g>
+    <!-- Tiny arrowhead suggestions -->
+    <g fill="#a8c8ff" opacity="0.85">
+      <polygon points="-32,0 -36,-2 -36,2"/>
+      <polygon points="32,0 36,-2 36,2"/>
+      <polygon points="0,-32 -2,-36 2,-36"/>
+      <polygon points="0,32 -2,36 2,36"/>
+    </g>
+  </g>
+
+  <!-- ===== SABLE — barely visible silhouette holding the collapsing module ===== -->
+  <g transform="translate(183 380)">
+    <!-- Hands cradling module -->
+    <ellipse cx="-22" cy="-30" rx="14" ry="6" fill="url(#i6p18p3skin)"/>
+    <ellipse cx="22" cy="-30" rx="14" ry="6" fill="url(#i6p18p3skin)"/>
+    <line x1="-30" y1="-32" x2="-14" y2="-32" stroke="#5a78a8" stroke-width="0.4" filter="url(#i6p18p3bloom)" opacity="0.7"/>
+    <line x1="14" y1="-32" x2="30" y2="-32" stroke="#5a78a8" stroke-width="0.4" filter="url(#i6p18p3bloom)" opacity="0.7"/>
+
+    <!-- DATA MODULE between hands — light flooding into it -->
+    <polygon points="-14,-36 14,-36 16,-26 -16,-26" fill="#1a2840" stroke="#fff" stroke-width="0.85" filter="url(#i6p18p3bloom)"/>
+    <ellipse cx="0" cy="-32" rx="10" ry="2" fill="#fff" opacity="0.95" filter="url(#i6p18p3bloom)"/>
+
+    <!-- Body — silhouette only -->
+    <path d="M-50,-26 L-60,-100 L-30,-110 L30,-110 L60,-100 L50,-26 Z" fill="url(#i6p18p3suit)"/>
+    <!-- Suit center seam catching faint flare reflection -->
+    <line x1="0" y1="-110" x2="0" y2="-26" stroke="#a8c8ff" stroke-width="0.4" opacity="0.7" filter="url(#i6p18p3bloom)"/>
+
+    <!-- Head silhouette — eyes CLOSED -->
+    <ellipse cx="0" cy="-130" rx="20" ry="22" fill="url(#i6p18p3skin)"/>
+    <!-- Silver-white buzz cut catches faintest gleam -->
+    <path d="M-18,-148 Q-18,-156 0,-160 Q18,-156 18,-148 L16,-142 Q8,-144 0,-144 Q-8,-144 -16,-142 Z" fill="#080612"/>
+    <line x1="-16" y1="-148" x2="16" y2="-148" stroke="#a8c0e8" stroke-width="0.3" opacity="0.85" filter="url(#i6p18p3bloom)"/>
+    <line x1="-12" y1="-146" x2="12" y2="-146" stroke="#a8c0e8" stroke-width="0.25" opacity="0.55" filter="url(#i6p18p3bloom)"/>
+
+    <!-- Eyes CLOSED — just lash lines -->
+    <line x1="-12" y1="-130" x2="-4" y2="-130" stroke="#1a1c30" stroke-width="0.85"/>
+    <line x1="12" y1="-130" x2="4" y2="-130" stroke="#1a1c30" stroke-width="0.85"/>
+    <!-- Brow flat -->
+    <line x1="-14" y1="-136" x2="-2" y2="-136" stroke="#080612" stroke-width="0.85"/>
+    <line x1="2" y1="-136" x2="14" y2="-136" stroke="#080612" stroke-width="0.85"/>
+    <!-- Mouth — pressed flat -->
+    <line x1="-4" y1="-122" x2="4" y2="-122" stroke="#080612" stroke-width="0.7"/>
+
+    <!-- Suit edge-light from flare -->
+    <line x1="-50" y1="-30" x2="-30" y2="-100" stroke="#a8c8ff" stroke-width="0.4" opacity="0.55" filter="url(#i6p18p3bloom)"/>
+    <line x1="50" y1="-30" x2="30" y2="-100" stroke="#a8c8ff" stroke-width="0.4" opacity="0.55" filter="url(#i6p18p3bloom)"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q100,142 200,138 Q280,136 366,140"/>
+    <path d="M0,380 Q100,382 200,378 Q280,376 366,380"/>
+  </g>
+</svg>
