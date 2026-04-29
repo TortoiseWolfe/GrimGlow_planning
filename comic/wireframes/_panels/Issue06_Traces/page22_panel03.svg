@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 370" width="366" height="370">
+  <title>Issue 6 — Page 22 — Panel 3: Theodore looks up at window — split light, the realization is Luma's fear</title>
+  <desc>50mm medium close-up. Theodore looking at the window. Candlelight catches face — warm amber on right side, cold grey fog from window on left. Adult mask off. Worried for someone he cares about. The realization: it's Luma's fear keeping him awake. CAPTION: It wasn't the dark. It was the look on Luma's face when she came up from the cellar.</desc>
+
+  <defs>
+    <linearGradient id="i6p22p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i6p22p3candleHaloRight" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#d8a060" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p22p3fogColdLeft" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#7a8090" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a3848" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p22p3skinSplit" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a5860"/>
+      <stop offset="50%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#d8a060"/>
+    </linearGradient>
+    <filter id="i6p22p3bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i6p22p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i6p22p3strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect width="366" height="370" fill="url(#i6p22p3bg)"/>
+
+  <!-- Cold fog wash from LEFT (window direction) -->
+  <ellipse cx="-50" cy="180" rx="280" ry="200" fill="url(#i6p22p3fogColdLeft)" filter="url(#i6p22p3strongglow)"/>
+
+  <!-- Warm candle wash from RIGHT (candle direction) -->
+  <ellipse cx="420" cy="180" rx="280" ry="200" fill="url(#i6p22p3candleHaloRight)" filter="url(#i6p22p3strongglow)"/>
+
+  <!-- ===== THEODORE — looking up toward window (left side) ===== -->
+  <g transform="translate(183 370)">
+    <!-- Linen collar at frame bottom -->
+    <path d="M-50,0 L-60,-40 L60,-40 L50,0 Z" fill="#e0d4b8"/>
+    <!-- Waistcoat hint -->
+    <path d="M-60,-40 L-60,-30 L-30,-30 L-30,-40 Z" fill="#5a3018"/>
+    <path d="M60,-40 L60,-30 L30,-30 L30,-40 Z" fill="#5a3018"/>
+
+    <!-- Neck -->
+    <path d="M-22,-90 L-26,-40 L26,-40 L22,-90 Z" fill="url(#i6p22p3skinSplit)"/>
+
+    <!-- Head — turned slightly LEFT toward window -->
+    <ellipse cx="-10" cy="-200" rx="100" ry="120" fill="url(#i6p22p3skinSplit)"/>
+
+    <!-- Sandy hair (top + sides) -->
+    <path d="M-100,-280 Q-70,-310 -10,-318 Q60,-310 90,-280 L90,-250 Q60,-260 -10,-260 Q-80,-260 -100,-250 Z" fill="#9a6038"/>
+    <!-- Hair amber edge right -->
+    <path d="M40,-300 Q70,-300 90,-280 L90,-260 Q70,-270 50,-270 Z" fill="#d8a060" opacity="0.85" filter="url(#i6p22p3bloom)"/>
+    <line x1="50" y1="-294" x2="80" y2="-274" stroke="#ffe0a8" stroke-width="0.85" filter="url(#i6p22p3bloom)" opacity="0.95"/>
+
+    <!-- Cheekbones -->
+    <path d="M-100,-220 Q-90,-160 -52,-110" fill="none" stroke="#3a1808" stroke-width="1.4" opacity="0.85"/>
+    <path d="M90,-220 Q80,-160 42,-110" fill="none" stroke="#5a3018" stroke-width="1.4" opacity="0.85"/>
+
+    <!-- Eyes — looking LEFT toward window, slight upward -->
+    <ellipse cx="-50" cy="-220" rx="18" ry="11" fill="#fff8e8"/>
+    <ellipse cx="22" cy="-220" rx="18" ry="11" fill="#fff8e8"/>
+    <!-- Pupils slid LEFT -->
+    <ellipse cx="-58" cy="-220" rx="8" ry="9" fill="#7a4818"/>
+    <ellipse cx="14" cy="-220" rx="8" ry="9" fill="#7a4818"/>
+    <ellipse cx="-58" cy="-220" rx="4" ry="5" fill="#3a1808"/>
+    <ellipse cx="14" cy="-220" rx="4" ry="5" fill="#3a1808"/>
+    <!-- Catchlights — split temperatures -->
+    <circle cx="-62" cy="-224" r="1.4" fill="#a8c0e0"/>
+    <circle cx="-54" cy="-218" r="0.85" fill="#fff"/>
+    <circle cx="10" cy="-224" r="1.4" fill="#ffe0a8"/>
+    <circle cx="18" cy="-218" r="0.85" fill="#fff"/>
+
+    <!-- Lash lines -->
+    <path d="M-68,-228 Q-50,-232 -32,-228" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <path d="M4,-228 Q22,-232 40,-228" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+
+    <!-- Brow soft (worried) -->
+    <path d="M-74,-248 Q-50,-258 -28,-250" stroke="#5a3018" stroke-width="2.4" fill="none"/>
+    <path d="M-2,-250 Q22,-258 46,-248" stroke="#5a3018" stroke-width="2.4" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M-18,-220 L-22,-160 L-10,-150 L2,-160 L-2,-220 Z" fill="#5a3018" opacity="0.85"/>
+
+    <!-- Freckles -->
+    <circle cx="-44" cy="-180" r="1.4" fill="#5a3018" opacity="0.85"/>
+    <circle cx="-30" cy="-172" r="1.4" fill="#5a3018" opacity="0.85"/>
+    <circle cx="-12" cy="-160" r="1.0" fill="#5a3018" opacity="0.85"/>
+    <circle cx="20" cy="-176" r="1.4" fill="#5a3018" opacity="0.85"/>
+
+    <!-- Mouth — pressed flat, worried -->
+    <line x1="-28" y1="-130" x2="20" y2="-128" stroke="#3a1808" stroke-width="1.4"/>
+    <path d="M-28,-128 Q-4,-124 20,-126" stroke="#1a0c04" stroke-width="0.85" fill="none"/>
+
+    <!-- Chin/jaw -->
+    <path d="M-50,-110 Q-10,-100 30,-108" fill="none" stroke="#3a1808" stroke-width="0.85" opacity="0.85"/>
+  </g>
+
+  <!-- Caption 1 -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="#f5ecd8" stroke="#5a4a30" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">"It wasn't the dark that kept him awake.</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">It wasn't the stories about the Tall Ones."</text>
+
+  <!-- Caption 2 -->
+  <g>
+    <rect x="14" y="300" width="338" height="60" rx="2" fill="#f5ecd8" stroke="#5a4a30" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">"It was the look on Luma's face when</text>
+  <text x="22" y="332" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">she came up from the cellar. She had</text>
+  <text x="22" y="346" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">been afraid. And Luma was never afraid."</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q100,142 200,138 Q280,136 366,140"/>
+    <path d="M0,290 Q100,292 200,288 Q280,286 366,290"/>
+  </g>
+</svg>

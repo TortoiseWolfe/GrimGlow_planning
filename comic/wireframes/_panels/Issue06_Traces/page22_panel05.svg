@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 410" width="366" height="410">
+  <title>Issue 6 — Page 22 — Panel 5: FINAL — from outside the window. Theodore in lit pane, vast fog, dark iridescence at edge — the fog looks back</title>
+  <desc>24mm wide outside window looking in/out. Theodore visible through glass — small framed in lit window, candle warm behind, face close to pane. Beyond, fog enormous grey-white dense. At edge of perception in fog, place where grey-white slightly darker — faint dark iridescence like oil on water. Wrongness exactly where Theodore is looking. Not a figure. Just suggestion. The fog looks back.</desc>
+
+  <defs>
+    <linearGradient id="i6p22p5fogVast" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a8090"/>
+      <stop offset="50%" stop-color="#5a6070"/>
+      <stop offset="100%" stop-color="#3a3848"/>
+    </linearGradient>
+    <radialGradient id="i6p22p5windowAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe0a8" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#d8a060" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p22p5iridescence" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a1838" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#1a1828" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p22p5oilSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1838" stop-opacity="0.55"/>
+      <stop offset="30%" stop-color="#3a3858" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#1a3838" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a1838" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="i6p22p5buildingDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0608"/>
+      <stop offset="100%" stop-color="#040204"/>
+    </linearGradient>
+    <filter id="i6p22p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p22p5glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i6p22p5strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i6p22p5megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="i6p22p5wrongness"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+
+  <!-- VAST FOG fills entire frame -->
+  <rect width="366" height="410" fill="url(#i6p22p5fogVast)"/>
+
+  <!-- Heavy fog layers (depth) -->
+  <g fill="#9aa0b0" opacity="0.55">
+    <ellipse cx="50" cy="100" rx="180" ry="40"/>
+    <ellipse cx="280" cy="60" rx="200" ry="40"/>
+    <ellipse cx="60" cy="240" rx="160" ry="40"/>
+    <ellipse cx="280" cy="200" rx="180" ry="40"/>
+    <ellipse cx="60" cy="350" rx="140" ry="40"/>
+    <ellipse cx="280" cy="320" rx="160" ry="40"/>
+  </g>
+  <g fill="#7a8090" opacity="0.4">
+    <ellipse cx="183" cy="160" rx="280" ry="40"/>
+    <ellipse cx="183" cy="280" rx="280" ry="40"/>
+  </g>
+
+  <!-- Building wall (dark — Theodore's house) -->
+  <rect x="180" y="60" width="186" height="350" fill="url(#i6p22p5buildingDark)"/>
+  <!-- Brick suggestion -->
+  <g stroke="#1a1018" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M180,90 L366,90"/>
+    <path d="M180,120 L366,120"/>
+    <path d="M180,150 L366,150"/>
+    <path d="M180,180 L366,180"/>
+    <path d="M180,210 L366,210"/>
+    <path d="M180,240 L366,240"/>
+    <path d="M180,270 L366,270"/>
+    <path d="M180,300 L366,300"/>
+    <path d="M180,330 L366,330"/>
+    <path d="M180,360 L366,360"/>
+  </g>
+
+  <!-- Roofline edge -->
+  <path d="M180,60 L240,40 L300,55 L366,60" stroke="#0a0408" stroke-width="0.85" fill="none" opacity="0.85"/>
+  <path d="M0,80 L60,60 L120,75 L180,60" stroke="#0a0408" stroke-width="0.85" fill="none" opacity="0.85"/>
+  <!-- Vague chimney pots in fog -->
+  <rect x="40" y="40" width="14" height="40" fill="#0a0608" opacity="0.7"/>
+  <rect x="100" y="50" width="10" height="30" fill="#0a0608" opacity="0.7"/>
+  <rect x="240" y="20" width="14" height="40" fill="#0a0608" opacity="0.7"/>
+  <rect x="320" y="30" width="10" height="30" fill="#0a0608" opacity="0.7"/>
+
+  <!-- ===== THE WINDOW — small lit warm rectangle in vast fog ===== -->
+  <g transform="translate(248 200)">
+    <!-- Window frame -->
+    <rect x="-30" y="-40" width="60" height="80" fill="#3a1808" stroke="#1a0c04" stroke-width="0.85"/>
+    <!-- Glass panes (warm amber lit from within) -->
+    <rect x="-26" y="-36" width="52" height="72" fill="#d8a060" filter="url(#i6p22p5bloom)"/>
+    <ellipse cx="0" cy="0" rx="40" ry="50" fill="url(#i6p22p5windowAmber)" filter="url(#i6p22p5strongglow)"/>
+    <!-- Mullions -->
+    <line x1="0" y1="-36" x2="0" y2="36" stroke="#3a1808" stroke-width="1"/>
+    <line x1="-26" y1="0" x2="26" y2="0" stroke="#3a1808" stroke-width="1"/>
+
+    <!-- THEODORE silhouette through glass — face close to pane (LEFT) -->
+    <g transform="translate(-13 -18)">
+      <!-- Backlit silhouette from candle -->
+      <ellipse cx="0" cy="0" rx="6" ry="7" fill="#5a3818" opacity="0.85"/>
+      <path d="M-5,-5 Q-3,-9 0,-10 Q3,-9 5,-5 L5,-1 Q3,-3 0,-3 Q-3,-3 -5,-1 Z" fill="#3a1808"/>
+      <!-- Face features (very small) -->
+      <ellipse cx="-2" cy="0" rx="0.85" ry="0.55" fill="#1a0c04"/>
+      <ellipse cx="2" cy="0" rx="0.85" ry="0.55" fill="#1a0c04"/>
+      <line x1="-1.4" y1="3" x2="1.4" y2="3" stroke="#1a0c04" stroke-width="0.4"/>
+    </g>
+    <!-- Breath fog circle on glass -->
+    <ellipse cx="-13" cy="-12" rx="6" ry="3" fill="#a8b0c0" opacity="0.55" filter="url(#i6p22p5bloom)"/>
+
+    <!-- Subtle reflection of candle flame in glass -->
+    <ellipse cx="14" cy="14" rx="2" ry="3" fill="#fff8c8" filter="url(#i6p22p5bloom)" opacity="0.7"/>
+    <ellipse cx="14" cy="14" rx="0.85" ry="1.4" fill="#ffe0a8"/>
+  </g>
+
+  <!-- ===== THE WRONGNESS — far left edge, dark iridescence in fog ===== -->
+  <g>
+    <!-- Slightly darker fog gradient (where Theodore is looking) -->
+    <ellipse cx="60" cy="200" rx="120" ry="160" fill="url(#i6p22p5iridescence)" filter="url(#i6p22p5wrongness)"/>
+
+    <!-- Faint oil-on-water iridescence (only at edge of perception) -->
+    <ellipse cx="50" cy="200" rx="40" ry="80" fill="url(#i6p22p5oilSheen)" filter="url(#i6p22p5wrongness)" opacity="0.85"/>
+
+    <!-- Anti-light tendrils — places where light is NOT -->
+    <g fill="#0a0a14" opacity="0.4" filter="url(#i6p22p5wrongness)">
+      <ellipse cx="40" cy="160" rx="18" ry="40"/>
+      <ellipse cx="55" cy="220" rx="20" ry="50"/>
+      <ellipse cx="35" cy="280" rx="14" ry="36"/>
+    </g>
+
+    <!-- Thinnest hint of structured edge — too tall, too still -->
+    <g opacity="0.4" filter="url(#i6p22p5wrongness)">
+      <path d="M40,100 L42,300 L52,300 L50,100 Z" fill="#0a0a14"/>
+      <ellipse cx="46" cy="100" rx="6" ry="14" fill="#0a0a14"/>
+    </g>
+
+    <!-- Iridescent prism-flick of color where the wrongness edges meet fog (extremely subtle) -->
+    <g opacity="0.3" filter="url(#i6p22p5wrongness)">
+      <ellipse cx="60" cy="200" rx="12" ry="40" fill="#3a1838"/>
+      <ellipse cx="70" cy="200" rx="6" ry="36" fill="#1a3838"/>
+    </g>
+  </g>
+
+  <!-- Atmospheric drift across the whole frame -->
+  <g stroke="#9aa0b0" stroke-width="0.55" opacity="0.4" fill="none">
+    <path d="M0,140 Q90,138 180,140 Q260,142 366,140"/>
+    <path d="M0,260 Q90,258 180,260 Q260,262 366,260"/>
+    <path d="M0,380 Q90,378 180,380 Q260,382 366,380"/>
+  </g>
+
+  <!-- Caption — issue closer -->
+  <g>
+    <rect x="14" y="350" width="338" height="44" rx="2" fill="#f5ecd8" stroke="#5a4a30" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="183" y="370" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#5a4a30" font-style="italic" text-anchor="middle" font-weight="700">"The fog looked back."</text>
+  <text x="183" y="386" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#888" text-anchor="middle">— end Issue 6 / "Traces" —</text>
+
+  <!-- Brushwork overlay — final issue brushstrokes -->
+  <g stroke="#1a1828" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q100,142 200,138 Q280,136 366,140"/>
+    <path d="M0,300 Q100,302 200,298 Q280,296 366,300"/>
+  </g>
+</svg>

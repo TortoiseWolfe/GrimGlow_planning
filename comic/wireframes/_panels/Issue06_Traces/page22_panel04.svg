@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 410" width="366" height="410">
+  <title>Issue 6 — Page 22 — Panel 4: Theodore at window, breath fogging glass, whispered "Don't look into the fog"</title>
+  <desc>50mm medium eye level. Theodore risen from bed. Stands at window, hand on wooden frame, looking out. Square-paned glass — rooftops and fog, chimneys vague masses. Dim amber gas lamp below lights fog from within. Breath fogs glass. Warm amber candlelight behind casts faint reflection in glass. He searches. Whispered grandmother quote.</desc>
+
+  <defs>
+    <linearGradient id="i6p22p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i6p22p4candleHaloRear" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#d8a060" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p22p4windowFog" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#9aa0b0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a5868" stop-opacity="0.55"/>
+    </radialGradient>
+    <radialGradient id="i6p22p4distantLamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a87838" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p22p4windowFrame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p22p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+    <filter id="i6p22p4bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i6p22p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i6p22p4strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect width="366" height="410" fill="url(#i6p22p4bg)"/>
+
+  <!-- Warm candle light from BEHIND Theodore (left edge of frame) -->
+  <ellipse cx="-30" cy="200" rx="200" ry="240" fill="url(#i6p22p4candleHaloRear)" filter="url(#i6p22p4strongglow)"/>
+
+  <!-- ===== WINDOW — center-right, large, four-paned ===== -->
+  <g transform="translate(220 180)">
+    <!-- Window frame -->
+    <rect x="-90" y="-110" width="180" height="220" fill="url(#i6p22p4windowFrame)" stroke="#1a0c04" stroke-width="1.4"/>
+    <!-- Inset for glass -->
+    <rect x="-82" y="-102" width="164" height="204" fill="#3a3848"/>
+    <!-- Mullions (4-pane crossing) -->
+    <line x1="0" y1="-102" x2="0" y2="102" stroke="#3a1808" stroke-width="2.4"/>
+    <line x1="-82" y1="0" x2="82" y2="0" stroke="#3a1808" stroke-width="2.4"/>
+
+    <!-- ===== EACH PANE: fog + rooftops + distant gaslight ===== -->
+    <!-- Top-left pane -->
+    <rect x="-82" y="-102" width="82" height="102" fill="url(#i6p22p4windowFog)"/>
+    <!-- Chimney pots vague -->
+    <rect x="-72" y="-50" width="10" height="14" fill="#1a1018" opacity="0.7"/>
+    <rect x="-50" y="-56" width="8" height="20" fill="#1a1018" opacity="0.7"/>
+    <rect x="-20" y="-44" width="14" height="10" fill="#1a1018" opacity="0.55"/>
+
+    <!-- Top-right pane -->
+    <rect x="0" y="-102" width="82" height="102" fill="url(#i6p22p4windowFog)"/>
+    <rect x="20" y="-46" width="8" height="14" fill="#1a1018" opacity="0.7"/>
+    <rect x="46" y="-50" width="12" height="18" fill="#1a1018" opacity="0.7"/>
+    <rect x="68" y="-42" width="8" height="8" fill="#1a1018" opacity="0.55"/>
+
+    <!-- Bottom-left pane -->
+    <rect x="-82" y="0" width="82" height="102" fill="url(#i6p22p4windowFog)"/>
+    <!-- Distant gaslight from below — dim amber halo glow up -->
+    <ellipse cx="-40" cy="80" rx="50" ry="40" fill="url(#i6p22p4distantLamp)" filter="url(#i6p22p4strongglow)" opacity="0.55"/>
+    <circle cx="-40" cy="80" r="6" fill="#a87838" opacity="0.7" filter="url(#i6p22p4bloom)"/>
+
+    <!-- Bottom-right pane -->
+    <rect x="0" y="0" width="82" height="102" fill="url(#i6p22p4windowFog)"/>
+    <!-- Distant amber dot in fog -->
+    <ellipse cx="40" cy="60" rx="20" ry="14" fill="url(#i6p22p4distantLamp)" filter="url(#i6p22p4strongglow)" opacity="0.4"/>
+    <circle cx="40" cy="60" r="2" fill="#a87838" opacity="0.55" filter="url(#i6p22p4bloom)"/>
+
+    <!-- Heavy fog wisps -->
+    <g fill="#7a8090" opacity="0.55">
+      <ellipse cx="-50" cy="-22" rx="22" ry="6"/>
+      <ellipse cx="30" cy="40" rx="30" ry="6"/>
+      <ellipse cx="-30" cy="60" rx="22" ry="5"/>
+      <ellipse cx="40" cy="-30" rx="22" ry="5"/>
+    </g>
+
+    <!-- Old uneven glass distortion (rippled lines) -->
+    <g stroke="#3a3848" stroke-width="0.7" opacity="0.55" fill="none">
+      <path d="M-82,-50 Q-40,-48 0,-50"/>
+      <path d="M0,30 Q40,28 82,30"/>
+    </g>
+
+    <!-- BREATH FOG circle on glass — small clear oval where face is close -->
+    <ellipse cx="-30" cy="-30" rx="22" ry="14" fill="#a8b0c0" opacity="0.7" filter="url(#i6p22p4glow)"/>
+    <ellipse cx="-30" cy="-30" rx="14" ry="9" fill="#9aa0b0" opacity="0.55"/>
+
+    <!-- THEODORE'S FAINT REFLECTION in the glass (warm amber) -->
+    <g opacity="0.4" filter="url(#i6p22p4bloom)">
+      <ellipse cx="-30" cy="-30" rx="9" ry="11" fill="#a87838"/>
+      <ellipse cx="-32" cy="-30" rx="0.85" ry="0.55" fill="#3a1808"/>
+      <ellipse cx="-28" cy="-30" rx="0.85" ry="0.55" fill="#3a1808"/>
+    </g>
+  </g>
+
+  <!-- ===== THEODORE — at window, hand on wooden frame, head close to glass ===== -->
+  <g transform="translate(110 250)">
+    <!-- Body angled toward window (right) -->
+    <!-- Boots/feet partial -->
+    <ellipse cx="-7" cy="120" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="9" cy="120" rx="5" ry="2" fill="#1a0c04"/>
+
+    <!-- Trousers -->
+    <path d="M-9,118 L-12,40 L-2,20 L0,40 Z" fill="#3a3028"/>
+    <path d="M9,118 L12,40 L2,20 L0,40 Z" fill="#3a3028"/>
+
+    <!-- Waistcoat -->
+    <path d="M-12,20 L-12,-30 L12,-30 L12,20 Z" fill="#d4c4a8"/>
+    <path d="M-14,-28 L-12,20 L-2,20 L-2,-28 Z" fill="#5a3018"/>
+    <path d="M14,-28 L12,20 L2,20 L2,-28 Z" fill="#5a3018"/>
+    <circle cx="-2" cy="-18" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-8" r="0.85" fill="#3a1808"/>
+
+    <!-- Linen collar -->
+    <path d="M-7,-30 L0,-28 L7,-30 L7,-26 L0,-23 L-7,-26 Z" fill="#e0d4b8"/>
+
+    <!-- Pocket (Luma sleeping?) -->
+    <rect x="3" y="-24" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.4"/>
+    <ellipse cx="9" cy="-18" rx="3" ry="2" fill="#5a3ad8" opacity="0.4" filter="url(#i6p22p4bloom)"/>
+
+    <!-- RIGHT arm raised — hand on window frame -->
+    <path d="M14,-28 L40,-26 L60,-30 L74,-26 L74,-22 L60,-22 L40,-22 L14,-20 Z" fill="#5a3018"/>
+    <ellipse cx="78" cy="-26" rx="6" ry="3" fill="url(#i6p22p4skin)"/>
+    <!-- Fingers gripping window frame -->
+    <ellipse cx="80" cy="-30" rx="2" ry="4" fill="url(#i6p22p4skin)"/>
+    <ellipse cx="83" cy="-28" rx="2" ry="4" fill="url(#i6p22p4skin)"/>
+    <ellipse cx="86" cy="-26" rx="2" ry="4" fill="url(#i6p22p4skin)"/>
+
+    <!-- LEFT arm at side -->
+    <path d="M-12,-28 L-18,-10 L-16,10 L-10,4 Z" fill="#5a3018"/>
+
+    <!-- Head — turned RIGHT toward window, very close to glass -->
+    <ellipse cx="50" cy="-46" rx="11" ry="12" fill="url(#i6p22p4skin)"/>
+    <!-- Hair -->
+    <path d="M40,-56 Q44,-64 50,-66 Q56,-64 60,-56 L60,-48 Q56,-52 50,-52 Q44,-52 40,-48 Z" fill="#9a7038"/>
+    <!-- Amber backlight -->
+    <ellipse cx="44" cy="-56" rx="6" ry="3" fill="#d8a060" opacity="0.55" filter="url(#i6p22p4bloom)"/>
+
+    <!-- Eyes searching -->
+    <ellipse cx="46" cy="-46" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="54" cy="-46" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="48" cy="-46" r="0.7" fill="#7a4818"/>
+    <circle cx="56" cy="-46" r="0.7" fill="#7a4818"/>
+    <!-- Brow -->
+    <path d="M43,-52 L49,-52" stroke="#5a3018" stroke-width="0.55"/>
+    <path d="M51,-52 L57,-52" stroke="#5a3018" stroke-width="0.55"/>
+    <!-- Mouth open slightly (whispering) -->
+    <ellipse cx="50" cy="-38" rx="2" ry="0.85" fill="#3a1808"/>
+    <!-- Breath wisp -->
+    <ellipse cx="62" cy="-38" rx="3" ry="1" fill="#a8b0c0" opacity="0.55" filter="url(#i6p22p4bloom)"/>
+  </g>
+
+  <!-- THEODORE whispered dialogue -->
+  <g>
+    <rect x="14" y="14" width="320" height="40" rx="2" fill="white" stroke="#6a4220" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="180,54 192,54 184,64" fill="white" stroke="#6a4220" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#6a4220" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(whispered)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Don't look into the fog.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q100,162 200,158 Q280,156 366,160"/>
+    <path d="M0,340 Q100,342 200,338 Q280,336 366,340"/>
+  </g>
+</svg>
