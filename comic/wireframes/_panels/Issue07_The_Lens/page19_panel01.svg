@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 7 — Page 19 — Panel 1: SPLIT — Jink frozen on gallery / Sable ice on waterfront — comms exchange</title>
+  <desc>50mm split composition. Left: Jink profile on gallery, wings deployed, staring far bank, frozen afraid. Right: Sable profile on waterfront, comms active, ice expression. Two different locations, connected through invisible comms channel. Sable orders radio silence and immediate extraction. The tone that ends conversations.</desc>
+
+  <defs>
+    <linearGradient id="i7p19p1bgL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p19p1bgR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </linearGradient>
+    <radialGradient id="i7p19p1amber" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p19p1emerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5af0a0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a6838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p19p1silver" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8ecf0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#5a606a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p19p1jinkSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p19p1sableSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8c8d0"/>
+      <stop offset="100%" stop-color="#3a3a40"/>
+    </linearGradient>
+    <linearGradient id="i7p19p1jinkSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c898"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i7p19p1sableSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <filter id="i7p19p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p19p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p19p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p19p1megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <!-- Split background -->
+  <rect x="0" y="0" width="371" height="300" fill="url(#i7p19p1bgL)"/>
+  <rect x="371" y="0" width="371" height="300" fill="url(#i7p19p1bgR)"/>
+  <!-- Split divider line — comms invisible channel marker -->
+  <line x1="371" y1="0" x2="371" y2="300" stroke="#2e6850" stroke-width="0.55" stroke-dasharray="2,3" opacity="0.55"/>
+
+  <!-- ===== LEFT — JINK on gallery ===== -->
+  <g>
+    <!-- Amber lighthouse glow on Jink side -->
+    <ellipse cx="200" cy="130" rx="200" ry="80" fill="url(#i7p19p1amber)" filter="url(#i7p19p1megaglow)"/>
+    <!-- Iron gallery railing -->
+    <rect x="0" y="220" width="371" height="60" fill="#1a1818"/>
+    <line x1="0" y1="220" x2="371" y2="220" stroke="#5a5860" stroke-width="0.85" filter="url(#i7p19p1bloom)" opacity="0.7"/>
+    <!-- Distant water below -->
+    <rect x="0" y="280" width="371" height="20" fill="#040408"/>
+    <!-- Water amber reflection -->
+    <ellipse cx="180" cy="290" rx="80" ry="2" fill="#ffd898" opacity="0.4" filter="url(#i7p19p1bloom)"/>
+
+    <!-- ===== JINK profile ===== -->
+    <g transform="translate(180 160)">
+      <!-- Wings deployed (silhouette - large for emphasis) -->
+      <g opacity="0.85" filter="url(#i7p19p1bloom)">
+        <g stroke="#5af0a0" stroke-width="1.4" fill="none">
+          <path d="M40,30 L0,-50 L-30,-30 L0,30 L60,30 Z"/>
+          <path d="M-20,30 L-50,-40 L-80,-20 L-50,30 Z"/>
+          <line x1="0" y1="-50" x2="0" y2="30"/>
+          <line x1="-50" y1="-40" x2="-50" y2="30"/>
+        </g>
+        <path d="M40,30 L0,-50 L-30,-30 L0,30 L60,30 Z" fill="#5af0a0" opacity="0.35"/>
+        <path d="M-20,30 L-50,-40 L-80,-20 L-50,30 Z" fill="#5af0a0" opacity="0.3"/>
+      </g>
+
+      <!-- Body — profile, facing right (toward far bank/Sable) -->
+      <path d="M-22,80 L-28,30 L-30,-10 L-22,-30 L-7,-44 L7,-44 L18,-30 L22,-10 L18,30 L14,80 Z" fill="url(#i7p19p1jinkSuit)"/>
+      <!-- Suit accent line -->
+      <line x1="-7" y1="-30" x2="-7" y2="60" stroke="#a8ffd0" stroke-width="0.55" opacity="0.85" filter="url(#i7p19p1bloom)"/>
+      <!-- Shoulder soot streak -->
+      <path d="M-22,-22 L0,-30" stroke="#1a1410" stroke-width="2" opacity="0.85"/>
+
+      <!-- Neck -->
+      <path d="M-7,-44 L7,-44 L4,-50 L-4,-50 Z" fill="url(#i7p19p1jinkSkin)"/>
+
+      <!-- Head profile (facing right) -->
+      <path d="M-9,-58 L-4,-72 L9,-72 L18,-66 L18,-50 L11,-44 L-7,-44 Z" fill="url(#i7p19p1jinkSkin)"/>
+
+      <!-- Wild golden curls -->
+      <g fill="#f0d878" opacity="0.85">
+        <ellipse cx="-4" cy="-78" rx="14" ry="9"/>
+        <ellipse cx="-11" cy="-72" rx="9" ry="6"/>
+        <ellipse cx="9" cy="-78" rx="6" ry="3"/>
+        <circle cx="-14" cy="-78" r="5"/>
+        <circle cx="-7" cy="-86" r="6"/>
+      </g>
+
+      <!-- Eye (profile, staring far bank — wide, frozen) -->
+      <ellipse cx="9" cy="-58" rx="3" ry="2" fill="#fff8e8"/>
+      <circle cx="9" cy="-58" r="1.4" fill="#3a1808"/>
+      <!-- Ear with comms -->
+      <ellipse cx="-3" cy="-56" rx="2" ry="3" fill="url(#i7p19p1jinkSkin)"/>
+      <circle cx="-3" cy="-56" r="0.85" fill="#5af0a0" filter="url(#i7p19p1bloom)" opacity="0.95"/>
+      <!-- Mouth — slightly open, frozen -->
+      <line x1="11" y1="-50" x2="14" y2="-49" stroke="#3a1808" stroke-width="0.4"/>
+
+      <!-- Wing-pack at back -->
+      <rect x="-30" y="-22" width="9" height="22" fill="#1a6838"/>
+      <circle cx="-26" cy="-14" r="1.4" fill="#5af0a0" filter="url(#i7p19p1bloom)" opacity="0.95"/>
+    </g>
+  </g>
+
+  <!-- ===== RIGHT — SABLE on waterfront ===== -->
+  <g>
+    <!-- Cold dark backdrop, faint silver -->
+    <ellipse cx="540" cy="170" rx="200" ry="80" fill="url(#i7p19p1silver)" filter="url(#i7p19p1megaglow)" opacity="0.4"/>
+    <!-- Industrial waterfront silhouette -->
+    <g fill="#040408" opacity="0.95">
+      <rect x="430" y="180" width="60" height="80"/>
+      <rect x="510" y="160" width="80" height="100"/>
+      <rect x="610" y="170" width="70" height="90"/>
+      <rect x="700" y="180" width="42" height="80"/>
+    </g>
+    <!-- Distant gas lamps -->
+    <g opacity="0.55" filter="url(#i7p19p1bloom)">
+      <circle cx="460" cy="210" r="0.85" fill="#d89858"/>
+      <circle cx="640" cy="200" r="0.85" fill="#d89858"/>
+    </g>
+    <!-- Stone pier ground -->
+    <rect x="371" y="260" width="371" height="40" fill="#1a1812"/>
+    <line x1="371" y1="260" x2="742" y2="260" stroke="#3a3a3a" stroke-width="0.55" opacity="0.55"/>
+
+    <!-- ===== SABLE profile ===== -->
+    <g transform="translate(560 170)">
+      <!-- Body — profile, facing left (toward Jink direction) -->
+      <path d="M22,90 L28,40 L30,0 L22,-22 L7,-36 L-7,-36 L-18,-22 L-22,0 L-18,40 L-14,90 Z" fill="url(#i7p19p1sableSuit)"/>
+      <!-- Cold reflective sheen -->
+      <line x1="7" y1="-22" x2="7" y2="70" stroke="#fff" stroke-width="0.55" opacity="0.7" filter="url(#i7p19p1bloom)"/>
+      <!-- Faint silver hologram at collar -->
+      <ellipse cx="14" cy="-18" rx="6" ry="2" fill="#e8ecf0" filter="url(#i7p19p1bloom)" opacity="0.85"/>
+
+      <!-- Arms crossed (visible from profile — angular fold) -->
+      <path d="M-18,0 L-30,14 L-14,30 L0,18 Z" fill="url(#i7p19p1sableSuit)"/>
+      <path d="M30,0 L40,14 L24,30 L14,18 Z" fill="url(#i7p19p1sableSuit)"/>
+
+      <!-- Neck -->
+      <path d="M-7,-36 L7,-36 L4,-42 L-4,-42 Z" fill="url(#i7p19p1sableSkin)"/>
+
+      <!-- Head profile (facing left) -->
+      <path d="M9,-50 L4,-64 L-9,-64 L-18,-58 L-18,-42 L-11,-36 L7,-36 Z" fill="url(#i7p19p1sableSkin)"/>
+
+      <!-- Silver-white cropped hair -->
+      <g fill="#e8ecf0" opacity="0.85">
+        <path d="M-18,-66 Q-9,-72 4,-66 L9,-50 L7,-58 L-9,-58 L-18,-58 Z"/>
+      </g>
+      <line x1="-14" y1="-62" x2="0" y2="-62" stroke="#fff" stroke-width="0.4" filter="url(#i7p19p1bloom)" opacity="0.7"/>
+
+      <!-- Eye (profile, ice — sharp focused) -->
+      <ellipse cx="-9" cy="-50" rx="2" ry="1" fill="#fff"/>
+      <circle cx="-9" cy="-50" r="0.85" fill="#0a0a14"/>
+      <!-- Brow — set, hard line -->
+      <line x1="-14" y1="-54" x2="-3" y2="-54" stroke="#1a0808" stroke-width="0.85"/>
+      <!-- Ear with comms -->
+      <ellipse cx="3" cy="-48" rx="2" ry="3" fill="url(#i7p19p1sableSkin)"/>
+      <circle cx="3" cy="-48" r="0.85" fill="#e8ecf0" filter="url(#i7p19p1bloom)" opacity="0.95"/>
+      <!-- Mouth — flat, hard line -->
+      <line x1="-14" y1="-42" x2="-7" y2="-42" stroke="#1a0808" stroke-width="0.85"/>
+    </g>
+  </g>
+
+  <!-- ===== COMMS CONNECTION wave indicator across split ===== -->
+  <g opacity="0.55" filter="url(#i7p19p1bloom)">
+    <path d="M180,102 Q371,90 540,120" stroke="#5af0a0" stroke-width="0.85" fill="none" stroke-dasharray="3,2"/>
+    <path d="M180,102 Q371,90 540,120" stroke="#e8ecf0" stroke-width="0.4" fill="none" stroke-dasharray="3,2" opacity="0.55"/>
+  </g>
+
+  <!-- ===== DIALOGUE — SABLE comms (silver/gray) ===== -->
+  <!-- Balloon 1 -->
+  <g>
+    <rect x="14" y="14" width="320" height="48" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">All units: radio silence. Now. Jink — kill</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">your wing-light and extract. Do not engage.</text>
+
+  <!-- Balloon 2 -->
+  <g>
+    <rect x="408" y="240" width="320" height="48" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="416" y="258" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="416" y="272" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Do not observe. Leave.</text>
+  <text x="416" y="286" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-weight="700">That is an order.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>

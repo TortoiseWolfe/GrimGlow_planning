@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 7 — Page 19 — Panel 4: From the pier looking back — far bank quiet, fog moves, nothing else does — the absence is worse than presence</title>
+  <desc>28mm wide cinematic shot from waterfront looking across river toward far bank. Lighthouse beam sweeps — cone of amber illuminating water surface, fog, far bank where it lights warehouses, cranes, moored barges. Fog moves. Darkness is ordinary. There is no shape. Or there is, eye cannot find it. Far bank is quiet, industrial, empty. The ambiguity is the image. The absence is worse than the presence.</desc>
+
+  <defs>
+    <linearGradient id="i7p19p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p19p4water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p19p4farBank" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040204"/>
+    </linearGradient>
+    <radialGradient id="i7p19p4beam" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p19p4amberFar" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d89858" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p19p4ambiguousFog" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a3a4a" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#4a3a4a" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a3a4a" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="i7p19p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p19p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p19p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p19p4megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="i7p19p4subtleblur"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  <rect width="742" height="320" fill="url(#i7p19p4bg)"/>
+
+  <!-- Lighthouse beam SWEEPING — cone of amber across river (the beam reveals nothing) -->
+  <ellipse cx="200" cy="160" rx="320" ry="80" fill="url(#i7p19p4beam)" filter="url(#i7p19p4megaglow)"/>
+  <ellipse cx="380" cy="170" rx="380" ry="60" fill="url(#i7p19p4beam)" filter="url(#i7p19p4megaglow)" opacity="0.7"/>
+
+  <!-- Far bank silhouette — warehouses, cranes, moored barges (industrial, empty) -->
+  <g fill="url(#i7p19p4farBank)" opacity="0.95">
+    <rect x="0" y="120" width="120" height="100"/>
+    <rect x="140" y="100" width="100" height="120"/>
+    <rect x="260" y="120" width="80" height="100"/>
+    <!-- THE GAP where void was — now ambiguous, just fog -->
+    <rect x="380" y="100" width="100" height="120"/>
+    <rect x="500" y="110" width="80" height="110"/>
+    <rect x="600" y="120" width="80" height="100"/>
+    <rect x="700" y="130" width="42" height="90"/>
+  </g>
+
+  <!-- Cranes silhouetted at far bank -->
+  <g stroke="#1a1410" stroke-width="2" fill="none" opacity="0.85">
+    <line x1="180" y1="80" x2="180" y2="100"/>
+    <line x1="180" y1="80" x2="220" y2="90"/>
+    <line x1="540" y1="90" x2="540" y2="110"/>
+    <line x1="540" y1="90" x2="580" y2="100"/>
+  </g>
+
+  <!-- Moored barges along far bank -->
+  <g fill="#040408" opacity="0.85">
+    <ellipse cx="300" cy="225" rx="40" ry="3"/>
+    <ellipse cx="600" cy="225" rx="50" ry="3"/>
+  </g>
+
+  <!-- Distant amber gas lamps — ALL PRESENT NOW (the gap is filled, the void is gone or never was) -->
+  <g opacity="0.85" filter="url(#i7p19p4bloom)">
+    <circle cx="80" cy="150" r="0.85" fill="#d89858"/>
+    <circle cx="200" cy="135" r="0.85" fill="#d89858"/>
+    <circle cx="300" cy="150" r="0.85" fill="#d89858"/>
+    <!-- The lamp at the void location IS visible here — making it ambiguous -->
+    <circle cx="430" cy="135" r="0.85" fill="#d89858"/>
+    <circle cx="540" cy="140" r="0.85" fill="#d89858"/>
+    <circle cx="650" cy="150" r="0.85" fill="#d89858"/>
+  </g>
+
+  <!-- Fog moving over river — slightly different where the void stood, or maybe not -->
+  <ellipse cx="371" cy="220" rx="500" ry="35" fill="#3a3a4a" opacity="0.55" filter="url(#i7p19p4strongglow)"/>
+  <!-- Subtle anomaly hint — barely there, ambiguous -->
+  <ellipse cx="430" cy="200" rx="50" ry="20" fill="url(#i7p19p4ambiguousFog)" filter="url(#i7p19p4subtleblur)" opacity="0.35"/>
+
+  <!-- River water -->
+  <rect x="0" y="240" width="742" height="60" fill="url(#i7p19p4water)"/>
+  <!-- Water amber reflections -->
+  <g opacity="0.55" filter="url(#i7p19p4bloom)">
+    <ellipse cx="200" cy="270" rx="120" ry="3" fill="#ffd898"/>
+    <ellipse cx="200" cy="285" rx="100" ry="2" fill="#ffd898"/>
+    <ellipse cx="540" cy="275" rx="80" ry="2" fill="#ffd898"/>
+  </g>
+  <!-- Subtle water ripples -->
+  <g stroke="#3a4858" stroke-width="0.4" fill="none" opacity="0.55">
+    <path d="M0,260 Q90,262 180,260 Q270,258 360,260 Q450,262 540,260 Q630,258 742,260"/>
+    <path d="M0,280 Q90,282 180,280 Q270,278 360,280 Q450,282 540,280 Q630,278 742,280"/>
+  </g>
+
+  <!-- Foreground pier railing (lower edge) -->
+  <rect x="0" y="300" width="742" height="20" fill="#1a1612"/>
+  <line x1="0" y1="300" x2="742" y2="300" stroke="#3a3838" stroke-width="0.85" opacity="0.55"/>
+
+  <!-- ===== CAPTIONS ===== -->
+  <!-- CAPTION 1 -->
+  <g>
+    <rect x="14" y="14" width="320" height="32" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">The far bank was quiet. The fog moved.</text>
+  <text x="22" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">Nothing else did.</text>
+
+  <!-- CAPTION 2 -->
+  <g>
+    <rect x="490" y="280" width="240" height="22" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="498" y="295" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">Jink didn't look back again.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,250 Q120,252 240,248 Q360,246 494,250 Q620,248 742,250"/>
+  </g>
+</svg>

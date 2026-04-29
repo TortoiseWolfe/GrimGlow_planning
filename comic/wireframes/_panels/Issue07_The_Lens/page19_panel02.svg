@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 7 — Page 19 — Panel 2: Wings stowing — emerald light dying — Jink looking back at far bank one last time</title>
+  <desc>50mm medium shot. Jink stows wings — geometric lattice folding, prismatic light dimming, wing surfaces retracting into compact module between shoulder blades. Gallery goes dark around Jink. Without wing-light, Jink is four-inch shape on iron railing in the dark, barely visible. Loss of light is loss of everything that makes Jink JINK — flight, joy, glow.</desc>
+
+  <defs>
+    <linearGradient id="i7p19p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </linearGradient>
+    <radialGradient id="i7p19p2dyingGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5af0a0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a6838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p19p2lampSweep" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p19p2suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a6850"/>
+      <stop offset="100%" stop-color="#1a3828"/>
+    </linearGradient>
+    <linearGradient id="i7p19p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="i7p19p2iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1818"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <filter id="i7p19p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p19p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p19p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p19p2megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i7p19p2bg)"/>
+
+  <!-- Distant lighthouse beam sweeping past — brief amber catch -->
+  <ellipse cx="183" cy="80" rx="240" ry="40" fill="url(#i7p19p2lampSweep)" filter="url(#i7p19p2megaglow)"/>
+
+  <!-- Iron railing (gallery) -->
+  <rect x="0" y="220" width="366" height="80" fill="url(#i7p19p2iron)"/>
+  <line x1="0" y1="220" x2="366" y2="220" stroke="#3a3838" stroke-width="0.85" filter="url(#i7p19p2bloom)" opacity="0.55"/>
+  <!-- Iron rivets -->
+  <g fill="#3a3838" opacity="0.55">
+    <circle cx="60" cy="240" r="2"/>
+    <circle cx="180" cy="240" r="2"/>
+    <circle cx="300" cy="240" r="2"/>
+  </g>
+
+  <!-- Dying emerald glow halo — wings stowing -->
+  <ellipse cx="183" cy="180" rx="120" ry="50" fill="url(#i7p19p2dyingGlow)" filter="url(#i7p19p2strongglow)" opacity="0.55"/>
+
+  <!-- ===== JINK figure on railing, wings folding ===== -->
+  <g transform="translate(183 200)">
+    <!-- WINGS — geometric lattice folding mid-stow (broken/dimmed) -->
+    <g opacity="0.4" filter="url(#i7p19p2bloom)">
+      <!-- Left wing — partially collapsed -->
+      <g stroke="#5af0a0" stroke-width="0.85" fill="none" stroke-dasharray="2,1">
+        <path d="M-30,-30 L-50,-22 L-50,0 L-30,-10 Z"/>
+        <line x1="-50" y1="-22" x2="-50" y2="0"/>
+        <line x1="-30" y1="-30" x2="-30" y2="-10"/>
+      </g>
+      <path d="M-30,-30 L-50,-22 L-50,0 L-30,-10 Z" fill="#5af0a0" opacity="0.18"/>
+      <!-- Right wing — collapsing further -->
+      <g stroke="#5af0a0" stroke-width="0.85" fill="none" stroke-dasharray="1,2" opacity="0.55">
+        <path d="M30,-30 L40,-22 L40,-10 L30,-14 Z"/>
+      </g>
+    </g>
+    <!-- Lattice trails — fading prismatic remnants -->
+    <g opacity="0.4" filter="url(#i7p19p2glow)">
+      <line x1="-50" y1="-22" x2="-70" y2="-30" stroke="#5af0a0" stroke-width="0.55"/>
+      <line x1="40" y1="-22" x2="60" y2="-26" stroke="#5af0a0" stroke-width="0.4"/>
+    </g>
+
+    <!-- Body — emerald suit, dimmed -->
+    <path d="M-11,40 L-14,14 L-16,-9 L-11,-22 L-3,-32 L3,-32 L11,-22 L16,-9 L14,14 L11,40 Z" fill="url(#i7p19p2suit)"/>
+    <!-- Suit accent — DIMMER than usual (light dying) -->
+    <line x1="0" y1="-22" x2="0" y2="30" stroke="#5af0a0" stroke-width="0.55" opacity="0.4" filter="url(#i7p19p2bloom)"/>
+
+    <!-- Wing-pack module between shoulder blades — receiving folded wings -->
+    <rect x="-9" y="-22" width="18" height="14" fill="#0a3018"/>
+    <line x1="-9" y1="-15" x2="9" y2="-15" stroke="#5af0a0" stroke-width="0.4" opacity="0.55" filter="url(#i7p19p2bloom)"/>
+    <!-- Tiny wing-pack indicator — last pulse of green -->
+    <circle cx="0" cy="-15" r="0.85" fill="#5af0a0" filter="url(#i7p19p2bloom)" opacity="0.7"/>
+
+    <!-- Neck -->
+    <path d="M-3,-32 L3,-32 L2,-36 L-2,-36 Z" fill="url(#i7p19p2skin)"/>
+
+    <!-- Head — turned looking BACK over shoulder toward far bank (right side of panel) -->
+    <ellipse cx="6" cy="-44" rx="9" ry="11" fill="url(#i7p19p2skin)"/>
+    <!-- Wild golden curls — barely lit -->
+    <g fill="#a89868" opacity="0.7">
+      <ellipse cx="6" cy="-54" rx="11" ry="6"/>
+      <ellipse cx="-3" cy="-50" rx="6" ry="4"/>
+      <circle cx="14" cy="-52" r="3"/>
+      <circle cx="0" cy="-58" r="3"/>
+    </g>
+    <!-- Last brief amber catch on hair -->
+    <ellipse cx="9" cy="-56" rx="6" ry="2" fill="#ffd898" opacity="0.4" filter="url(#i7p19p2bloom)"/>
+
+    <!-- Eye — looking back, dying emerald reflection -->
+    <ellipse cx="11" cy="-44" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="12" cy="-44" r="0.85" fill="#3a1808"/>
+    <circle cx="11" cy="-44" r="0.55" fill="#5af0a0" filter="url(#i7p19p2bloom)" opacity="0.55"/>
+    <!-- Mouth — blank, no expression -->
+    <line x1="3" y1="-38" x2="9" y2="-38" stroke="#1a0808" stroke-width="0.55"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,250 Q90,252 180,248 Q270,246 366,250"/>
+  </g>
+
+  <!-- (No dialogue) -->
+</svg>

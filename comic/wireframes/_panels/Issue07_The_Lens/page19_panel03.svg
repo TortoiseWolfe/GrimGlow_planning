@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 7 — Page 19 — Panel 3: Wide overhead — extraction in total operational darkness — four shadows on a stone pier</title>
+  <desc>24mm operational picture from above. Lighthouse, pier, waterfront. Four tiny shapes converging on transit point: Wren and Jink approaching from pier, Sable at rendezvous, Thresh shadow at perimeter. Barely visible — dark suits against dark stone and dark water. No holographic light. No wing-glow. Total operational darkness. Running dark in a way they have never had to before.</desc>
+
+  <defs>
+    <linearGradient id="i7p19p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a14"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </linearGradient>
+    <linearGradient id="i7p19p3water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#040408"/>
+      <stop offset="100%" stop-color="#020204"/>
+    </linearGradient>
+    <linearGradient id="i7p19p3stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1612"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <radialGradient id="i7p19p3lighthouseBeam" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p19p3lampDistant" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p19p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p19p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p19p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p19p3megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i7p19p3bg)"/>
+
+  <!-- Lighthouse beam sweeping ABOVE pier (figures are below the cone) -->
+  <ellipse cx="280" cy="40" rx="200" ry="30" fill="url(#i7p19p3lighthouseBeam)" filter="url(#i7p19p3megaglow)"/>
+
+  <!-- Lighthouse silhouette upper-right -->
+  <g fill="#040408" opacity="0.85">
+    <rect x="290" y="40" width="22" height="60"/>
+    <polygon points="285,40 317,40 311,22 291,22"/>
+    <rect x="298" y="0" width="6" height="22"/>
+  </g>
+  <!-- Lighthouse top window glow -->
+  <ellipse cx="301" cy="14" rx="4" ry="3" fill="#ffd898" filter="url(#i7p19p3bloom)" opacity="0.85"/>
+
+  <!-- River background -->
+  <rect x="0" y="0" width="366" height="180" fill="url(#i7p19p3water)"/>
+
+  <!-- Stone pier and waterfront -->
+  <path d="M0,180 L120,180 L160,160 L260,160 L300,180 L366,180 L366,300 L0,300 Z" fill="url(#i7p19p3stone)"/>
+  <!-- Pier edge highlights -->
+  <line x1="0" y1="180" x2="120" y2="180" stroke="#3a3838" stroke-width="0.55" opacity="0.55"/>
+  <line x1="160" y1="160" x2="260" y2="160" stroke="#3a3838" stroke-width="0.55" opacity="0.55"/>
+  <line x1="300" y1="180" x2="366" y2="180" stroke="#3a3838" stroke-width="0.55" opacity="0.55"/>
+  <!-- Stone block lines -->
+  <g stroke="#040408" stroke-width="0.4" opacity="0.55">
+    <line x1="50" y1="180" x2="50" y2="240"/>
+    <line x1="80" y1="180" x2="80" y2="240"/>
+    <line x1="220" y1="160" x2="220" y2="240"/>
+    <line x1="0" y1="220" x2="366" y2="220"/>
+  </g>
+
+  <!-- Distant gas lamps along waterfront (warm, far away) -->
+  <g opacity="0.7" filter="url(#i7p19p3bloom)">
+    <circle cx="40" cy="170" r="0.85" fill="#d89858"/>
+    <circle cx="100" cy="170" r="0.85" fill="#d89858"/>
+    <circle cx="200" cy="150" r="0.85" fill="#d89858"/>
+    <circle cx="340" cy="170" r="0.85" fill="#d89858"/>
+  </g>
+
+  <!-- ===== FOUR FIGURES — barely visible dark shapes converging ===== -->
+  <!-- Sable at rendezvous (transit point center) -->
+  <g transform="translate(210 200)">
+    <ellipse cx="0" cy="0" rx="3" ry="6" fill="#1a1818" opacity="0.95"/>
+    <ellipse cx="0" cy="-6" rx="2" ry="2" fill="#1a1818"/>
+    <!-- Faintest silver hint at collar (suit coding) -->
+    <circle cx="0" cy="-3" r="0.4" fill="#5a5860" opacity="0.55"/>
+  </g>
+
+  <!-- Wren approaching from left -->
+  <g transform="translate(140 210)">
+    <ellipse cx="0" cy="0" rx="3" ry="5" fill="#1a1410" opacity="0.95"/>
+    <ellipse cx="0" cy="-5" rx="2" ry="2" fill="#1a1410"/>
+    <!-- Faintest copper hint at suit -->
+    <circle cx="0" cy="-2" r="0.4" fill="#5a3818" opacity="0.55"/>
+    <!-- Small motion trail -->
+    <line x1="-9" y1="0" x2="-3" y2="0" stroke="#1a1410" stroke-width="0.4" opacity="0.4"/>
+  </g>
+
+  <!-- Jink approaching just behind Wren -->
+  <g transform="translate(120 218)">
+    <ellipse cx="0" cy="0" rx="2" ry="4" fill="#1a3018" opacity="0.95"/>
+    <ellipse cx="0" cy="-4" rx="2" ry="2" fill="#1a3018"/>
+    <line x1="-7" y1="0" x2="-2" y2="0" stroke="#1a3018" stroke-width="0.4" opacity="0.4"/>
+  </g>
+
+  <!-- Thresh shadow at perimeter (right side) -->
+  <g transform="translate(285 195)">
+    <ellipse cx="0" cy="0" rx="3" ry="6" fill="#180a0a" opacity="0.95"/>
+    <ellipse cx="0" cy="-6" rx="2" ry="2" fill="#180a0a"/>
+    <!-- Faint ruby hint -->
+    <circle cx="0" cy="-3" r="0.4" fill="#5a1818" opacity="0.55"/>
+  </g>
+
+  <!-- ===== CAPTIONS ===== -->
+  <!-- CAPTION 1 -->
+  <g>
+    <rect x="14" y="14" width="338" height="36" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">They ran dark. No wing-light, no scanner glow,</text>
+  <text x="22" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">no holographic trace. Four-inch shadows on stone, moving fast.</text>
+
+  <!-- CAPTION 2 -->
+  <g>
+    <rect x="14" y="252" width="338" height="36" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="268" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">Running from something across a river. Something</text>
+  <text x="22" y="282" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">that might not have noticed them. Something that felt like it had.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#040408" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>
