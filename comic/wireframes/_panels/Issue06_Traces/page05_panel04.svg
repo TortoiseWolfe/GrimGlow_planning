@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 6 — Page 5 — Panel 4: Luma's scanner readout — molecular diagram of impossible alloy, ALERT marker</title>
+  <desc>50mm MCU eye level. Holographic readout in air showing crystalline lattice diagram, alert pulse. Forge-amber + worker silhouette behind through window glass. Luma's face peeking around display, expression shifting curiosity → concern.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p5p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="50%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#3a1810"/>
+    </linearGradient>
+    <linearGradient id="i6p5p4lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p5p4forgeBack" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p5p4holoBloom" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p5p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p5p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#i6p5p4bg)"/>
+
+  <!-- WARM AMBER FORGE LIGHT through grimy window behind hologram -->
+  <ellipse cx="240" cy="200" rx="160" ry="180" fill="url(#i6p5p4forgeBack)" filter="url(#i6p5p4glow)"/>
+  <!-- Window grid lines partially visible -->
+  <g stroke="#3a1808" stroke-width="1.4" opacity="0.55" fill="none">
+    <line x1="40" y1="120" x2="340" y2="100"/>
+    <line x1="40" y1="240" x2="340" y2="240"/>
+    <line x1="180" y1="40" x2="220" y2="320"/>
+  </g>
+  <!-- Grime smudges -->
+  <ellipse cx="120" cy="150" rx="22" ry="11" fill="#1a1008" opacity="0.6"/>
+  <ellipse cx="280" cy="220" rx="34" ry="14" fill="#1a1008" opacity="0.55"/>
+  <line x1="56" y1="158" x2="78" y2="180" stroke="#1a1008" stroke-width="0.85" opacity="0.55"/>
+
+  <!-- Indistinct WORKER silhouette behind glass -->
+  <g opacity="0.55">
+    <ellipse cx="240" cy="220" rx="50" ry="30" fill="#3a1808"/>
+    <ellipse cx="240" cy="180" rx="14" ry="18" fill="#3a1808"/>
+    <ellipse cx="240" cy="170" rx="11" ry="12" fill="#a85818"/>
+  </g>
+  <!-- Bench edge -->
+  <rect x="120" y="280" width="240" height="12" fill="#3a1808" opacity="0.7"/>
+
+  <!-- ===== HOLOGRAPHIC READOUT — molecular diagram floating in air ===== -->
+  <g transform="translate(160 168)">
+    <!-- Bloom backing -->
+    <ellipse cx="0" cy="0" rx="140" ry="120" fill="url(#i6p5p4holoBloom)" filter="url(#i6p5p4glow)" opacity="0.95"/>
+    <!-- Frame -->
+    <rect x="-110" y="-90" width="220" height="180" fill="none" stroke="#a888ff" stroke-width="2.4" opacity="0.95" filter="url(#i6p5p4bloom)"/>
+    <rect x="-105" y="-85" width="210" height="170" fill="#1a0c20" opacity="0.55"/>
+
+    <!-- HEADER BAR -->
+    <rect x="-110" y="-90" width="220" height="14" fill="#5a3ad8" opacity="0.85" filter="url(#i6p5p4bloom)"/>
+    <text x="-104" y="-80" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff" font-weight="700">MOLECULAR ANALYSIS — Fe-CRYSTAL</text>
+    <!-- Right alert -->
+    <text x="60" y="-80" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff" font-weight="700">⚠ ALERT</text>
+
+    <!-- LATTICE DIAGRAM -->
+    <g stroke="#fff8ff" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#i6p5p4bloom)">
+      <!-- 3-row crystalline lattice -->
+      <circle cx="-70" cy="-50" r="3"/>
+      <circle cx="-40" cy="-58" r="3"/>
+      <circle cx="-10" cy="-50" r="3"/>
+      <circle cx="20" cy="-58" r="3"/>
+      <circle cx="50" cy="-50" r="3"/>
+      <circle cx="80" cy="-58" r="3"/>
+      <line x1="-70" y1="-50" x2="-40" y2="-58"/>
+      <line x1="-40" y1="-58" x2="-10" y2="-50"/>
+      <line x1="-10" y1="-50" x2="20" y2="-58"/>
+      <line x1="20" y1="-58" x2="50" y2="-50"/>
+      <line x1="50" y1="-50" x2="80" y2="-58"/>
+      <!-- Mid row -->
+      <circle cx="-55" cy="-22" r="3"/>
+      <circle cx="-25" cy="-30" r="3"/>
+      <circle cx="5" cy="-22" r="3"/>
+      <circle cx="35" cy="-30" r="3"/>
+      <circle cx="65" cy="-22" r="3"/>
+      <line x1="-70" y1="-50" x2="-55" y2="-22"/>
+      <line x1="-40" y1="-58" x2="-55" y2="-22"/>
+      <line x1="-40" y1="-58" x2="-25" y2="-30"/>
+      <line x1="-10" y1="-50" x2="-25" y2="-30"/>
+      <line x1="-10" y1="-50" x2="5" y2="-22"/>
+      <line x1="20" y1="-58" x2="5" y2="-22"/>
+      <line x1="20" y1="-58" x2="35" y2="-30"/>
+      <line x1="50" y1="-50" x2="35" y2="-30"/>
+      <line x1="50" y1="-50" x2="65" y2="-22"/>
+      <line x1="80" y1="-58" x2="65" y2="-22"/>
+      <line x1="-55" y1="-22" x2="-25" y2="-30"/>
+      <line x1="-25" y1="-30" x2="5" y2="-22"/>
+      <line x1="5" y1="-22" x2="35" y2="-30"/>
+      <line x1="35" y1="-30" x2="65" y2="-22"/>
+      <!-- Bottom row -->
+      <circle cx="-70" cy="2" r="3"/>
+      <circle cx="-40" cy="-6" r="3"/>
+      <circle cx="-10" cy="2" r="3"/>
+      <circle cx="20" cy="-6" r="3"/>
+      <circle cx="50" cy="2" r="3"/>
+      <circle cx="80" cy="-6" r="3"/>
+      <line x1="-70" y1="2" x2="-40" y2="-6"/>
+      <line x1="-40" y1="-6" x2="-10" y2="2"/>
+      <line x1="-10" y1="2" x2="20" y2="-6"/>
+      <line x1="20" y1="-6" x2="50" y2="2"/>
+      <line x1="50" y1="2" x2="80" y2="-6"/>
+      <line x1="-55" y1="-22" x2="-70" y2="2"/>
+      <line x1="-55" y1="-22" x2="-40" y2="-6"/>
+      <line x1="-25" y1="-30" x2="-40" y2="-6"/>
+      <line x1="-25" y1="-30" x2="-10" y2="2"/>
+      <line x1="5" y1="-22" x2="-10" y2="2"/>
+      <line x1="5" y1="-22" x2="20" y2="-6"/>
+      <line x1="35" y1="-30" x2="20" y2="-6"/>
+      <line x1="35" y1="-30" x2="50" y2="2"/>
+      <line x1="65" y1="-22" x2="50" y2="2"/>
+      <line x1="65" y1="-22" x2="80" y2="-6"/>
+    </g>
+    <!-- Pulsing alert indicator at center -->
+    <circle cx="5" cy="-22" r="11" fill="#ff5868" opacity="0.55" filter="url(#i6p5p4glow)"/>
+    <circle cx="5" cy="-22" r="3" fill="#fff8e8" filter="url(#i6p5p4bloom)"/>
+    <!-- Spinning arc around alert -->
+    <circle cx="5" cy="-22" r="14" fill="none" stroke="#ff5868" stroke-width="0.55" opacity="0.85" filter="url(#i6p5p4bloom)" stroke-dasharray="4 2"/>
+
+    <!-- BOTTOM ANNOTATIONS -->
+    <g stroke="#fff8ff" stroke-width="0.4" opacity="0.95" filter="url(#i6p5p4bloom)">
+      <line x1="-100" y1="20" x2="100" y2="20"/>
+    </g>
+    <text x="-100" y="36" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff">FORMATION: BCC + ICOSAHEDRAL (PARTIAL)</text>
+    <text x="-100" y="48" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff">EARLIEST KNOWN ANALOGUE: BESSEMER 1924</text>
+    <text x="-100" y="60" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#ff5868" font-weight="700">DELTA: +38 YEARS — INVALID</text>
+    <text x="-100" y="76" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#fff8ff">ATTRIBUTION: UNKNOWN</text>
+  </g>
+
+  <!-- ===== LUMA peeking around display from below-right ===== -->
+  <g transform="translate(286 280)">
+    <!-- Suit shoulder -->
+    <path d="M-22,30 L-22,8 L18,8 L22,30 Z" fill="url(#i6p5p4lumaSuit)"/>
+    <line x1="-14" y1="20" x2="14" y2="20" stroke="#a888ff" stroke-width="0.55" opacity="0.85" filter="url(#i6p5p4bloom)"/>
+    <!-- Head looking up at display -->
+    <ellipse cx="0" cy="-12" rx="18" ry="22" fill="#7a4838"/>
+    <!-- Lit from above by display -->
+    <ellipse cx="0" cy="-22" rx="14" ry="11" fill="#a888ff" opacity="0.45" filter="url(#i6p5p4bloom)"/>
+    <!-- Hair pulled back -->
+    <path d="M-16,-22 Q-13,-32 0,-34 Q13,-32 16,-22 L16,-12 Q9,-18 0,-18 Q-9,-18 -16,-12 Z" fill="#0a0604"/>
+    <!-- Sapphire filament -->
+    <line x1="-7" y1="-30" x2="-5" y2="-32" stroke="#5a3ad8" stroke-width="1" opacity="0.85" filter="url(#i6p5p4bloom)"/>
+    <line x1="5" y1="-32" x2="7" y2="-30" stroke="#5a3ad8" stroke-width="1" opacity="0.85" filter="url(#i6p5p4bloom)"/>
+    <!-- Braid -->
+    <path d="M16,-14 Q22,4 20,22" stroke="#0a0604" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M16,-14 Q22,4 20,22" stroke="#a888ff" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#i6p5p4bloom)"/>
+
+    <!-- LENSES — large, scrolling data -->
+    <ellipse cx="-5" cy="-12" rx="5" ry="3.5" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="5" cy="-12" rx="5" ry="3.5" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="-5" cy="-12" rx="5" ry="3.5" fill="none" stroke="#a888ff" stroke-width="0.85" opacity="0.95" filter="url(#i6p5p4bloom)"/>
+    <ellipse cx="5" cy="-12" rx="5" ry="3.5" fill="none" stroke="#a888ff" stroke-width="0.85" opacity="0.95" filter="url(#i6p5p4bloom)"/>
+    <line x1="0" y1="-12" x2="0" y2="-12" stroke="#a888ff" stroke-width="0.7" opacity="0.95"/>
+    <!-- Crack -->
+    <line x1="-9" y1="-14" x2="-2" y2="-11" stroke="#fff8ff" stroke-width="0.55" opacity="0.95" filter="url(#i6p5p4bloom)"/>
+    <!-- Scrolling data -->
+    <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.95" filter="url(#i6p5p4bloom)">
+      <line x1="-8" y1="-13" x2="-2" y2="-13"/>
+      <line x1="-8" y1="-11" x2="-2" y2="-11"/>
+      <line x1="2" y1="-13" x2="8" y2="-13"/>
+      <line x1="2" y1="-11" x2="8" y2="-11"/>
+    </g>
+    <!-- Eyes -->
+    <ellipse cx="-5" cy="-12" rx="2.4" ry="1.6" fill="#fff8e8"/>
+    <circle cx="-5" cy="-12" r="1" fill="#0a0604"/>
+    <circle cx="-5.4" cy="-12.4" r="0.45" fill="#fff8ff"/>
+    <ellipse cx="5" cy="-12" rx="2.4" ry="1.6" fill="#fff8e8"/>
+    <circle cx="5" cy="-12" r="1" fill="#0a0604"/>
+    <circle cx="4.6" cy="-12.4" r="0.45" fill="#fff8ff"/>
+    <!-- Brows drawn (concern) -->
+    <path d="M-10,-22 L-2,-21" stroke="#0a0604" stroke-width="0.85"/>
+    <path d="M2,-21 L10,-22" stroke="#0a0604" stroke-width="0.85"/>
+    <!-- Tiny crease (concern) -->
+    <line x1="-2" y1="-21" x2="0" y2="-18" stroke="#1a0c04" stroke-width="0.4" opacity="0.7"/>
+    <line x1="2" y1="-21" x2="0" y2="-18" stroke="#1a0c04" stroke-width="0.4" opacity="0.7"/>
+    <!-- Mouth -->
+    <path d="M-3,-3 L3,-3" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- LUMA dialogue 1 (top) -->
+  <g>
+    <rect x="14" y="14" width="338" height="58" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="160,72 172,72 164,82" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="160.5" y1="72" x2="171.5" y2="72" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Crystalline lattice arrangement.</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Bessemer won't theorize this</text>
+  <text x="22" y="71" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">structure until the 1920s.</text>
+
+  <!-- LUMA dialogue 2 (bottom-left) -->
+  <g>
+    <rect x="14" y="290" width="248" height="60" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="180,290 192,290 184,280" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="180.5" y1="290" x2="191.5" y2="290" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="308" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="22" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Someone taught him. This man</text>
+  <text x="22" y="338" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">didn't learn this from a textbook —</text>
+  <text x="22" y="349" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">it hasn't been written yet.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q120,92 240,88 Q330,86 366,90"/>
+    <path d="M0,300 Q120,302 240,298 Q330,296 366,300"/>
+  </g>
+</svg>

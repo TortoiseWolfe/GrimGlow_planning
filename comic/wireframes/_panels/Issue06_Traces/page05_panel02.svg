@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 6 — Page 5 — Panel 2: Luma scans factory wall — contact traces, molecular signature, heat residue</title>
+  <desc>85mm CU slight low angle. Luma leaning out of pocket extending scanner toward soot brick. Structured blue-violet beam reveals heat-press signature, molecular overlay, contact traces. Curious not yet alarmed.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p5p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#0a0608"/>
+    </linearGradient>
+    <linearGradient id="i6p5p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2018"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i6p5p2leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p5p2lumaSuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a3ad8"/>
+      <stop offset="100%" stop-color="#2a1058"/>
+    </linearGradient>
+    <radialGradient id="i6p5p2scannerBeam" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p5p2heatSig" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff5868" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#5a0818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p5p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p5p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#i6p5p2bg)"/>
+
+  <!-- Brick wall surface (the factory wall, fills frame) -->
+  <rect x="0" y="0" width="280" height="364" fill="url(#i6p5p2brick)"/>
+  <!-- Brick mortar grid -->
+  <g stroke="#0a0408" stroke-width="0.55" opacity="0.85">
+    <line x1="0" y1="40" x2="280" y2="40"/>
+    <line x1="0" y1="78" x2="280" y2="78"/>
+    <line x1="0" y1="116" x2="280" y2="116"/>
+    <line x1="0" y1="154" x2="280" y2="154"/>
+    <line x1="0" y1="192" x2="280" y2="192"/>
+    <line x1="0" y1="230" x2="280" y2="230"/>
+    <line x1="0" y1="268" x2="280" y2="268"/>
+    <line x1="0" y1="306" x2="280" y2="306"/>
+    <line x1="0" y1="344" x2="280" y2="344"/>
+    <!-- Vertical mortar staggered -->
+    <line x1="56" y1="40" x2="56" y2="78"/>
+    <line x1="138" y1="40" x2="138" y2="78"/>
+    <line x1="220" y1="40" x2="220" y2="78"/>
+    <line x1="20" y1="78" x2="20" y2="116"/>
+    <line x1="98" y1="78" x2="98" y2="116"/>
+    <line x1="180" y1="78" x2="180" y2="116"/>
+    <line x1="260" y1="78" x2="260" y2="116"/>
+    <line x1="56" y1="116" x2="56" y2="154"/>
+    <line x1="138" y1="116" x2="138" y2="154"/>
+    <line x1="220" y1="116" x2="220" y2="154"/>
+    <line x1="20" y1="154" x2="20" y2="192"/>
+    <line x1="98" y1="154" x2="98" y2="192"/>
+    <line x1="180" y1="154" x2="180" y2="192"/>
+    <line x1="260" y1="154" x2="260" y2="192"/>
+    <line x1="56" y1="192" x2="56" y2="230"/>
+    <line x1="138" y1="192" x2="138" y2="230"/>
+    <line x1="220" y1="192" x2="220" y2="230"/>
+    <line x1="20" y1="230" x2="20" y2="268"/>
+    <line x1="98" y1="230" x2="98" y2="268"/>
+    <line x1="180" y1="230" x2="180" y2="268"/>
+    <line x1="260" y1="230" x2="260" y2="268"/>
+  </g>
+  <!-- Soot streaks vertical -->
+  <g stroke="#0a0408" stroke-width="3" opacity="0.55" fill="none">
+    <line x1="40" y1="0" x2="44" y2="280"/>
+    <line x1="100" y1="0" x2="104" y2="240"/>
+    <line x1="160" y1="0" x2="158" y2="280"/>
+    <line x1="220" y1="0" x2="226" y2="220"/>
+  </g>
+
+  <!-- ===== SCANNER BEAM cone ===== -->
+  <ellipse cx="160" cy="200" rx="120" ry="80" fill="url(#i6p5p2scannerBeam)" filter="url(#i6p5p2glow)" opacity="0.85"/>
+  <!-- Beam emission cone shape -->
+  <path d="M286,250 L160,160 L160,260 Z" fill="#a888ff" opacity="0.25" filter="url(#i6p5p2glow)"/>
+  <path d="M286,250 L160,180 L160,240 Z" fill="#a888ff" opacity="0.4" filter="url(#i6p5p2bloom)"/>
+
+  <!-- Heat-press signature on brick (revealed by scan) — large irregular ellipse -->
+  <ellipse cx="140" cy="180" rx="68" ry="56" fill="url(#i6p5p2heatSig)" filter="url(#i6p5p2glow)" opacity="0.7"/>
+  <!-- Heat outline -->
+  <ellipse cx="140" cy="180" rx="68" ry="56" fill="none" stroke="#ff5868" stroke-width="0.85" opacity="0.85" filter="url(#i6p5p2bloom)" stroke-dasharray="3 2"/>
+
+  <!-- Molecular structure overlay readouts -->
+  <g stroke="#fff8ff" stroke-width="0.55" fill="none" opacity="0.95" filter="url(#i6p5p2bloom)">
+    <!-- Lattice diagram top-left -->
+    <rect x="20" y="30" width="60" height="40"/>
+    <circle cx="30" cy="50" r="2"/>
+    <circle cx="46" cy="42" r="2"/>
+    <circle cx="62" cy="50" r="2"/>
+    <circle cx="38" cy="58" r="2"/>
+    <circle cx="54" cy="58" r="2"/>
+    <circle cx="46" cy="64" r="2"/>
+    <line x1="30" y1="50" x2="46" y2="42"/>
+    <line x1="46" y1="42" x2="62" y2="50"/>
+    <line x1="62" y1="50" x2="54" y2="58"/>
+    <line x1="54" y1="58" x2="46" y2="64"/>
+    <line x1="46" y1="64" x2="38" y2="58"/>
+    <line x1="38" y1="58" x2="30" y2="50"/>
+    <line x1="46" y1="42" x2="46" y2="64"/>
+    <line x1="38" y1="58" x2="54" y2="58"/>
+    <text x="20" y="26" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#fff8ff">MOLECULAR</text>
+  </g>
+  <!-- Spectral bars right -->
+  <g stroke="#fff8ff" stroke-width="0.4" fill="none" opacity="0.95" filter="url(#i6p5p2bloom)">
+    <rect x="200" y="44" width="60" height="32"/>
+    <rect x="204" y="56" width="3" height="16" fill="#a888ff" opacity="0.85"/>
+    <rect x="210" y="50" width="3" height="22" fill="#a888ff" opacity="0.95"/>
+    <rect x="216" y="58" width="3" height="14" fill="#a888ff" opacity="0.7"/>
+    <rect x="222" y="48" width="3" height="24" fill="#a888ff" opacity="0.95"/>
+    <rect x="228" y="54" width="3" height="18" fill="#a888ff" opacity="0.85"/>
+    <rect x="234" y="60" width="3" height="12" fill="#a888ff" opacity="0.7"/>
+    <rect x="240" y="50" width="3" height="22" fill="#a888ff" opacity="0.95"/>
+    <rect x="246" y="56" width="3" height="16" fill="#a888ff" opacity="0.85"/>
+    <text x="200" y="40" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#fff8ff">SPECTRAL</text>
+  </g>
+  <!-- HEAT RESIDUE callout -->
+  <g stroke="#ff5868" stroke-width="0.55" fill="none" opacity="0.95" filter="url(#i6p5p2bloom)">
+    <line x1="140" y1="180" x2="80" y2="246"/>
+    <path d="M80,246 L40,250"/>
+    <text x="20" y="262" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#ff5868">HEAT RESIDUE</text>
+    <text x="20" y="270" font-family="Helvetica, Arial, sans-serif" font-size="4" fill="#ff5868">+34.2 °C ANOMALY</text>
+  </g>
+  <!-- Contact-trace dotted ring on wall -->
+  <g stroke="#fff8ff" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#i6p5p2bloom)" stroke-dasharray="2 1.5">
+    <ellipse cx="140" cy="180" rx="60" ry="48"/>
+    <ellipse cx="140" cy="180" rx="50" ry="38"/>
+  </g>
+  <!-- Particle motes from scanner -->
+  <g fill="#a888ff" opacity="0.9" filter="url(#i6p5p2bloom)">
+    <circle cx="200" cy="160" r="0.85"/>
+    <circle cx="220" cy="190" r="0.7"/>
+    <circle cx="180" cy="220" r="0.85"/>
+    <circle cx="120" cy="160" r="0.7"/>
+    <circle cx="100" cy="200" r="0.85"/>
+  </g>
+
+  <!-- ===== THEODORE'S WAISTCOAT EDGE — bottom-right of frame, with Luma leaning out ===== -->
+  <!-- Worn leather waistcoat surface dominating right side -->
+  <rect x="280" y="0" width="86" height="364" fill="url(#i6p5p2leather)"/>
+  <g stroke="#1a0c04" stroke-width="0.45" opacity="0.55" fill="none">
+    <path d="M280,80 Q320,84 366,80"/>
+    <path d="M280,140 Q320,144 366,140"/>
+    <path d="M280,220 Q320,224 366,220"/>
+    <path d="M280,300 Q320,304 366,300"/>
+  </g>
+  <!-- Pocket opening (top edge of pocket visible at right) -->
+  <rect x="282" y="220" width="84" height="120" fill="#1a0c04"/>
+  <line x1="282" y1="220" x2="366" y2="220" stroke="#7a4818" stroke-width="1.4" opacity="0.85"/>
+  <!-- Pocket inner glow -->
+  <ellipse cx="324" cy="280" rx="60" ry="40" fill="#5a3ad8" opacity="0.45" filter="url(#i6p5p2glow)"/>
+
+  <!-- ===== LUMA leaning out of pocket extending scanner ===== -->
+  <g transform="translate(316 240)">
+    <!-- Suit shoulders peeking over edge -->
+    <path d="M-22,8 L-18,-10 L18,-10 L22,8 Z" fill="url(#i6p5p2lumaSuit)"/>
+    <line x1="-14" y1="-2" x2="14" y2="-2" stroke="#a888ff" stroke-width="0.7" opacity="0.85" filter="url(#i6p5p2bloom)"/>
+    <ellipse cx="-18" cy="-9" rx="3" ry="1.4" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="18" cy="-9" rx="3" ry="1.4" fill="#5a4838" opacity="0.55"/>
+
+    <!-- LEFT arm extended outward, holding scanner -->
+    <path d="M-18,-10 L-46,-26 L-50,-22 L-22,-4 Z" fill="url(#i6p5p2lumaSuit)"/>
+    <ellipse cx="-50" cy="-22" rx="3" ry="2" fill="#7a4838"/>
+    <ellipse cx="-38" cy="-18" rx="2" ry="1.2" fill="#0a0604" opacity="0.55"/>
+
+    <!-- SCANNER held in hand -->
+    <rect x="-58" y="-26" width="14" height="8" rx="0.85" fill="#3a2068" stroke="#a888ff" stroke-width="0.55"/>
+    <rect x="-56" y="-24" width="10" height="4" fill="#5a3ad8" filter="url(#i6p5p2bloom)"/>
+    <line x1="-54" y1="-22" x2="-46" y2="-22" stroke="#fff8ff" stroke-width="0.4" opacity="0.85"/>
+    <!-- Scanner emit point glow -->
+    <ellipse cx="-58" cy="-22" rx="6" ry="4" fill="#a888ff" opacity="0.85" filter="url(#i6p5p2glow)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-26" rx="11" ry="14" fill="#7a4838"/>
+    <ellipse cx="0" cy="-20" rx="9" ry="5" fill="#a888ff" opacity="0.4" filter="url(#i6p5p2bloom)"/>
+    <!-- Hair -->
+    <path d="M-10,-32 Q-8,-38 0,-40 Q8,-38 10,-32 L10,-26 Q5,-30 0,-30 Q-5,-30 -10,-26 Z" fill="#0a0604"/>
+    <line x1="-4" y1="-36" x2="-3" y2="-38" stroke="#5a3ad8" stroke-width="0.85" opacity="0.85" filter="url(#i6p5p2bloom)"/>
+    <line x1="3" y1="-38" x2="4" y2="-36" stroke="#5a3ad8" stroke-width="0.85" opacity="0.85" filter="url(#i6p5p2bloom)"/>
+    <!-- Braid trailing -->
+    <path d="M10,-28 Q14,-12 12,4" stroke="#0a0604" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+    <path d="M10,-28 Q14,-12 12,4" stroke="#a888ff" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#i6p5p2bloom)"/>
+    <!-- Lenses with crack -->
+    <ellipse cx="-3" cy="-26" rx="3" ry="2" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="3" cy="-26" rx="3" ry="2" fill="#a888ff" opacity="0.32"/>
+    <ellipse cx="-3" cy="-26" rx="3" ry="2" fill="none" stroke="#a888ff" stroke-width="0.7" opacity="0.95" filter="url(#i6p5p2bloom)"/>
+    <ellipse cx="3" cy="-26" rx="3" ry="2" fill="none" stroke="#a888ff" stroke-width="0.7" opacity="0.95" filter="url(#i6p5p2bloom)"/>
+    <line x1="-5" y1="-28" x2="-1" y2="-25" stroke="#fff8ff" stroke-width="0.45" opacity="0.95"/>
+    <ellipse cx="-3" cy="-26" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-26" r="0.7" fill="#0a0604"/>
+    <ellipse cx="3" cy="-26" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="3" cy="-26" r="0.7" fill="#0a0604"/>
+    <!-- Brows -->
+    <path d="M-7,-32 L-1,-32" stroke="#0a0604" stroke-width="0.55"/>
+    <path d="M1,-32 L7,-32" stroke="#0a0604" stroke-width="0.55"/>
+    <!-- Mouth -->
+    <path d="M-2,-18 L2,-18" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- Pocket lip shadow -->
+  <ellipse cx="316" cy="232" rx="50" ry="2.4" fill="#0a0408" opacity="0.85"/>
+
+  <!-- LUMA dialogue 1 -->
+  <g>
+    <rect x="14" y="14" width="180" height="58" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="100,72 112,72 104,82" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="100.5" y1="72" x2="111.5" y2="72" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Contact traces on the brick.</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Something pressed here —</text>
+  <text x="22" y="71" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">large, heavy, recent.</text>
+
+  <!-- LUMA dialogue 2 -->
+  <g>
+    <rect x="6" y="290" width="338" height="60" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="280,290 292,290 284,280" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="280.5" y1="290" x2="291.5" y2="290" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="14" y="308" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="14" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">And the molecular signature...</text>
+  <text x="14" y="338" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">this isn't any metal from this</text>
+  <text x="14" y="349" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">century.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q120,92 240,88 Q330,86 366,90"/>
+    <path d="M0,300 Q120,302 240,298 Q330,296 366,300"/>
+  </g>
+</svg>
