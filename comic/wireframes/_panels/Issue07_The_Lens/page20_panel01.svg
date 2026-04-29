@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
+  <title>Issue 7 — Page 20 — Panel 1: Wall-cavity camp debrief — squad fracture in spatial arrangement — Jink, Sable face-off, Thresh standing</title>
+  <desc>35mm medium wide eye level. Five squad in cramped wall-timber camp. Jink center taut. Sable two meters away arms crossed back foot — command posture. Wren on lower beam by lens, watching. Luma further back, lenses dim, hands in lap. Thresh STANDING — not seated weapon-knees — close to Jink. Spatial arrangement is the argument.</desc>
+
+  <defs>
+    <linearGradient id="i7p20p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i7p20p1timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i7p20p1amber" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p20p1holo" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#a8c8d8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a3848" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p20p1centerLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p20p1jinkSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p20p1sableSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8c8d0"/>
+      <stop offset="100%" stop-color="#3a3a40"/>
+    </linearGradient>
+    <linearGradient id="i7p20p1threshSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f04838"/>
+      <stop offset="100%" stop-color="#7a1810"/>
+    </linearGradient>
+    <linearGradient id="i7p20p1wrenSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d88838"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="i7p20p1lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <filter id="i7p20p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p20p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p20p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p20p1megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="742" height="240" fill="url(#i7p20p1bg)"/>
+
+  <!-- Top floorboard with amber gaps -->
+  <rect x="0" y="0" width="742" height="20" fill="url(#i7p20p1timber)"/>
+  <line x1="0" y1="0" x2="742" y2="0" stroke="#1a0808" stroke-width="0.85"/>
+  <line x1="0" y1="20" x2="742" y2="20" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Amber light bleeding through floorboard gaps -->
+  <g opacity="0.85">
+    <ellipse cx="120" cy="22" rx="40" ry="2" fill="#ffd898" filter="url(#i7p20p1bloom)"/>
+    <ellipse cx="320" cy="22" rx="50" ry="2" fill="#ffd898" filter="url(#i7p20p1bloom)"/>
+    <ellipse cx="540" cy="22" rx="40" ry="2" fill="#ffd898" filter="url(#i7p20p1bloom)"/>
+  </g>
+  <!-- Amber pools spreading down -->
+  <ellipse cx="120" cy="60" rx="80" ry="40" fill="url(#i7p20p1amber)" filter="url(#i7p20p1megaglow)"/>
+  <ellipse cx="371" cy="80" rx="120" ry="60" fill="url(#i7p20p1amber)" filter="url(#i7p20p1megaglow)"/>
+  <ellipse cx="540" cy="60" rx="80" ry="40" fill="url(#i7p20p1amber)" filter="url(#i7p20p1megaglow)"/>
+
+  <!-- Cool holographic perimeter glow (bottom edges) -->
+  <ellipse cx="50" cy="220" rx="100" ry="50" fill="url(#i7p20p1holo)" filter="url(#i7p20p1megaglow)"/>
+  <ellipse cx="700" cy="220" rx="100" ry="50" fill="url(#i7p20p1holo)" filter="url(#i7p20p1megaglow)"/>
+
+  <!-- Central beam — "no man's land" between Sable and Jink -->
+  <rect x="280" y="180" width="180" height="9" fill="url(#i7p20p1timber)"/>
+  <!-- Bright pool of light at center -->
+  <ellipse cx="371" cy="140" rx="100" ry="50" fill="url(#i7p20p1centerLight)" filter="url(#i7p20p1strongglow)"/>
+
+  <!-- Lower timber beams -->
+  <rect x="0" y="200" width="180" height="14" fill="url(#i7p20p1timber)"/>
+  <rect x="560" y="200" width="180" height="14" fill="url(#i7p20p1timber)"/>
+  <rect x="0" y="220" width="742" height="20" fill="#0a0606"/>
+
+  <!-- ===== JINK center-left, body taut, fists partially clenched ===== -->
+  <g transform="translate(330 175)">
+    <!-- Body -->
+    <path d="M-9,30 L-11,9 L-14,-14 L-9,-30 L-3,-40 L3,-40 L9,-30 L14,-14 L11,9 L9,30 Z" fill="url(#i7p20p1jinkSuit)"/>
+    <!-- Soot streak on shoulder -->
+    <path d="M-11,-22 L0,-30" stroke="#1a1410" stroke-width="1.4" opacity="0.85"/>
+    <!-- Suit accent -->
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#a8ffd0" stroke-width="0.4" opacity="0.85" filter="url(#i7p20p1bloom)"/>
+    <!-- Fists clenched -->
+    <ellipse cx="-14" cy="0" rx="3" ry="2" fill="#a87838"/>
+    <ellipse cx="14" cy="0" rx="3" ry="2" fill="#a87838"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-46" rx="6" ry="7" fill="#a87838"/>
+    <!-- Wild golden curls -->
+    <g fill="#f0d878" opacity="0.85">
+      <ellipse cx="0" cy="-54" rx="9" ry="4"/>
+      <ellipse cx="-5" cy="-50" rx="3" ry="3"/>
+      <ellipse cx="5" cy="-50" rx="3" ry="3"/>
+      <circle cx="-7" cy="-54" r="3"/>
+      <circle cx="7" cy="-56" r="3"/>
+    </g>
+    <!-- Eyes (small, angry, looking right at Sable) -->
+    <ellipse cx="2" cy="-46" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="2.5" cy="-46" r="0.55" fill="#3a1808"/>
+    <ellipse cx="-3" cy="-46" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-2.5" cy="-46" r="0.55" fill="#3a1808"/>
+    <!-- Mouth — angry, set -->
+    <line x1="-3" y1="-40" x2="3" y2="-40" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Brows down -->
+    <line x1="-5" y1="-50" x2="-1" y2="-49" stroke="#3a1808" stroke-width="0.7"/>
+    <line x1="1" y1="-49" x2="5" y2="-50" stroke="#3a1808" stroke-width="0.7"/>
+  </g>
+
+  <!-- ===== SABLE right of center, arms crossed, weight back foot ===== -->
+  <g transform="translate(440 175)">
+    <!-- Body -->
+    <path d="M-11,30 L-14,9 L-16,-14 L-11,-32 L-3,-44 L3,-44 L11,-32 L16,-14 L14,9 L11,30 Z" fill="url(#i7p20p1sableSuit)"/>
+    <!-- Cold sheen -->
+    <line x1="0" y1="-32" x2="0" y2="22" stroke="#fff" stroke-width="0.4" opacity="0.7" filter="url(#i7p20p1bloom)"/>
+    <!-- Arms crossed -->
+    <path d="M-16,-14 L-11,-3 L-3,-3 L0,-14 Z" fill="url(#i7p20p1sableSuit)"/>
+    <path d="M16,-14 L11,-3 L3,-3 L0,-14 Z" fill="url(#i7p20p1sableSuit)"/>
+    <line x1="-11" y1="-3" x2="11" y2="-3" stroke="#5a606a" stroke-width="0.55"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="6" ry="7" fill="#5a3818"/>
+    <!-- Silver-white cropped hair -->
+    <path d="M-7,-58 Q0,-62 7,-58 L7,-50 Q0,-54 -7,-50 Z" fill="#e8ecf0" opacity="0.85"/>
+    <line x1="-5" y1="-58" x2="5" y2="-58" stroke="#fff" stroke-width="0.4" filter="url(#i7p20p1bloom)" opacity="0.7"/>
+    <!-- Eyes — sharp, cold -->
+    <ellipse cx="-2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff"/>
+    <circle cx="-2.5" cy="-50" r="0.55" fill="#0a0a14"/>
+    <ellipse cx="2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff"/>
+    <circle cx="2.5" cy="-50" r="0.55" fill="#0a0a14"/>
+    <!-- Brows — flat, command -->
+    <line x1="-5" y1="-54" x2="-1" y2="-54" stroke="#1a0808" stroke-width="0.85"/>
+    <line x1="1" y1="-54" x2="5" y2="-54" stroke="#1a0808" stroke-width="0.85"/>
+    <!-- Mouth — flat -->
+    <line x1="-3" y1="-44" x2="3" y2="-44" stroke="#1a0808" stroke-width="0.7"/>
+  </g>
+
+  <!-- ===== THRESH STANDING close to Jink (NEW — broke formation) ===== -->
+  <g transform="translate(290 180)">
+    <!-- Body — broad, armored -->
+    <path d="M-12,30 L-16,9 L-18,-14 L-14,-32 L-3,-44 L3,-44 L14,-32 L18,-14 L16,9 L12,30 Z" fill="url(#i7p20p1threshSuit)"/>
+    <!-- Dented left pauldron -->
+    <ellipse cx="-14" cy="-25" rx="6" ry="4" fill="#5a1410" opacity="0.85"/>
+    <line x1="-16" y1="-28" x2="-12" y2="-22" stroke="#1a0606" stroke-width="0.85"/>
+    <!-- Shoulder scrape (continuity from P8) -->
+    <path d="M-16,-22 L-9,-28" stroke="#3a0a0a" stroke-width="1.4" opacity="0.85"/>
+    <!-- Suit accent -->
+    <line x1="0" y1="-32" x2="0" y2="22" stroke="#ffa898" stroke-width="0.4" opacity="0.85" filter="url(#i7p20p1bloom)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="6" ry="7" fill="#e0b888"/>
+    <!-- Copper-red buzz cut -->
+    <path d="M-7,-56 Q0,-60 7,-56 L7,-50 Q0,-52 -7,-50 Z" fill="#a83820" opacity="0.95"/>
+    <line x1="-5" y1="-56" x2="5" y2="-56" stroke="#5a1810" stroke-width="0.4"/>
+    <!-- Jaw — set -->
+    <line x1="-5" y1="-44" x2="5" y2="-44" stroke="#5a3818" stroke-width="0.85"/>
+    <!-- Eyes (small, focused forward) -->
+    <ellipse cx="-2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-2.5" cy="-50" r="0.55" fill="#3a1808"/>
+    <ellipse cx="2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="2.5" cy="-50" r="0.55" fill="#3a1808"/>
+  </g>
+
+  <!-- ===== WREN sits on lower beam, watching, lens beside her ===== -->
+  <g transform="translate(80 195)">
+    <!-- Seated body -->
+    <path d="M-9,18 L-11,0 L-7,-22 L-3,-30 L3,-30 L7,-22 L11,0 L9,18 Z" fill="url(#i7p20p1wrenSuit)"/>
+    <!-- Oil stain -->
+    <path d="M-7,-9 L0,-3" stroke="#1a0606" stroke-width="1.4" opacity="0.7"/>
+    <!-- Suit accent copper -->
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#ffa848" stroke-width="0.4" opacity="0.85" filter="url(#i7p20p1bloom)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-36" rx="5" ry="6" fill="#e0b888"/>
+    <!-- Messy hair knot -->
+    <ellipse cx="0" cy="-44" rx="6" ry="3" fill="#1a1008"/>
+    <circle cx="3" cy="-46" r="2" fill="#1a1008"/>
+    <!-- Eyes — watchful, sharp -->
+    <ellipse cx="-2" cy="-36" rx="1" ry="0.55" fill="#fff8e8"/>
+    <circle cx="-2" cy="-36" r="0.55" fill="#3a1808"/>
+    <ellipse cx="2" cy="-36" rx="1" ry="0.55" fill="#fff8e8"/>
+    <circle cx="2" cy="-36" r="0.55" fill="#3a1808"/>
+    <!-- Lens element beside her — copper-gold catching light -->
+    <ellipse cx="11" cy="14" rx="6" ry="2" fill="#fff8d8" filter="url(#i7p20p1bloom)" opacity="0.85"/>
+    <ellipse cx="11" cy="14" rx="5" ry="1.4" fill="#d89858"/>
+  </g>
+
+  <!-- ===== LUMA further back, lenses dim, hands in lap ===== -->
+  <g transform="translate(660 200)">
+    <!-- Seated body, smaller (further back) -->
+    <path d="M-7,14 L-9,0 L-7,-18 L-3,-26 L3,-26 L7,-18 L9,0 L7,14 Z" fill="url(#i7p20p1lumaSuit)"/>
+    <!-- Suit accent dim -->
+    <line x1="0" y1="-18" x2="0" y2="9" stroke="#c8a8e8" stroke-width="0.4" opacity="0.55" filter="url(#i7p20p1bloom)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-30" rx="4" ry="5" fill="#a87838"/>
+    <!-- Long dark braid -->
+    <path d="M0,-26 Q3,-22 5,0" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <!-- Holographic lenses — dim -->
+    <ellipse cx="-2" cy="-30" rx="1.4" ry="1" fill="none" stroke="#a878e8" stroke-width="0.4" opacity="0.55"/>
+    <ellipse cx="2" cy="-30" rx="1.4" ry="1" fill="none" stroke="#a878e8" stroke-width="0.4" opacity="0.55"/>
+    <!-- Eyes down -->
+    <line x1="-3" y1="-30" x2="-1" y2="-30" stroke="#1a0808" stroke-width="0.55"/>
+    <line x1="1" y1="-30" x2="3" y2="-30" stroke="#1a0808" stroke-width="0.55"/>
+    <!-- Hands in lap -->
+    <ellipse cx="-3" cy="9" rx="3" ry="2" fill="#a87838"/>
+    <ellipse cx="3" cy="9" rx="3" ry="2" fill="#a87838"/>
+  </g>
+
+  <!-- ===== DIALOGUE balloons ===== -->
+  <!-- JINK 1 -->
+  <g>
+    <rect x="14" y="14" width="320" height="36" rx="2" fill="white" stroke="#2e8b57" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2e8b57" font-weight="700">JINK</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">It was RIGHT THERE. Across the river. Watching.</text>
+
+  <!-- SABLE 1 -->
+  <g>
+    <rect x="408" y="14" width="320" height="36" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="416" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="416" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">An anomaly in fog at 300m. Not "watching."</text>
+
+  <!-- JINK 2 -->
+  <g>
+    <rect x="14" y="60" width="200" height="36" rx="2" fill="white" stroke="#2e8b57" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2e8b57" font-weight="700">JINK</text>
+  <text x="22" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I know what I felt.</text>
+
+  <!-- SABLE 2 -->
+  <g>
+    <rect x="280" y="60" width="448" height="36" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="288" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="288" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Feelings are not intelligence. We do not plan operations on how a sighting felt.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+  </g>
+</svg>

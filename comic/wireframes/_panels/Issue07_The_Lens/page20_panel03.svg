@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 280" width="380" height="280">
+  <title>Issue 7 — Page 20 — Panel 3: Thresh steps forward — sides with Jink — the quietest member breaks formation</title>
+  <desc>50mm three-shot. Thresh stepping into brighter central space — one step. Costing her. Sides with Jink (military reasoning, not Jink's reasoning). Sable surprise quickly masked. Jink turning to look. Amber from above catches copper-red hair. Dented left pauldron catches holographic glow. Moves from shadow into light — literally and figuratively.</desc>
+
+  <defs>
+    <linearGradient id="i7p20p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i7p20p3timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i7p20p3amber" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p20p3holo" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#a8c8d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a3848" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p20p3centerLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p20p3threshSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f04838"/>
+      <stop offset="100%" stop-color="#7a1810"/>
+    </linearGradient>
+    <linearGradient id="i7p20p3jinkSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p20p3sableSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8c8d0"/>
+      <stop offset="100%" stop-color="#3a3a40"/>
+    </linearGradient>
+    <filter id="i7p20p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p20p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p20p3megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="380" height="280" fill="url(#i7p20p3bg)"/>
+
+  <!-- Top floorboard with amber bands -->
+  <rect x="0" y="0" width="380" height="14" fill="url(#i7p20p3timber)"/>
+  <line x1="0" y1="14" x2="380" y2="14" stroke="#1a0808" stroke-width="0.85"/>
+  <ellipse cx="190" cy="16" rx="80" ry="2" fill="#ffd898" filter="url(#i7p20p3bloom)" opacity="0.85"/>
+
+  <!-- Warm amber from above -->
+  <ellipse cx="190" cy="60" rx="200" ry="80" fill="url(#i7p20p3amber)" filter="url(#i7p20p3megaglow)"/>
+  <!-- Cool holographic from below -->
+  <ellipse cx="190" cy="280" rx="200" ry="80" fill="url(#i7p20p3holo)" filter="url(#i7p20p3megaglow)"/>
+  <!-- Bright central pool -->
+  <ellipse cx="190" cy="160" rx="110" ry="60" fill="url(#i7p20p3centerLight)" filter="url(#i7p20p3glow)"/>
+
+  <!-- Lower beam Thresh standing on -->
+  <rect x="0" y="240" width="380" height="14" fill="url(#i7p20p3timber)"/>
+
+  <!-- ===== JINK turning to look at Thresh (left, surprised) ===== -->
+  <g transform="translate(80 200)">
+    <!-- Body, smaller, in shadow -->
+    <path d="M-9,30 L-11,9 L-14,-14 L-9,-30 L-3,-40 L3,-40 L9,-30 L14,-14 L11,9 L9,30 Z" fill="url(#i7p20p3jinkSuit)" opacity="0.85"/>
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#a8ffd0" stroke-width="0.4" opacity="0.7" filter="url(#i7p20p3bloom)"/>
+    <!-- Soot streak -->
+    <path d="M-11,-22 L0,-30" stroke="#1a1410" stroke-width="1.4" opacity="0.85"/>
+    <!-- Head — turning toward Thresh (right) -->
+    <ellipse cx="3" cy="-46" rx="6" ry="7" fill="#a87838"/>
+    <!-- Wild curls -->
+    <g fill="#f0d878" opacity="0.85">
+      <ellipse cx="3" cy="-54" rx="9" ry="4"/>
+      <circle cx="-3" cy="-50" r="3"/>
+      <circle cx="9" cy="-52" r="4"/>
+      <circle cx="-7" cy="-56" r="3"/>
+    </g>
+    <!-- Eyes — turned right, surprised -->
+    <ellipse cx="6" cy="-46" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="7" cy="-46" r="0.55" fill="#3a1808"/>
+    <ellipse cx="0" cy="-46" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="1" cy="-46" r="0.55" fill="#3a1808"/>
+    <!-- Mouth — slightly open in surprise -->
+    <ellipse cx="3" cy="-40" rx="1.4" ry="1" fill="#3a1808"/>
+    <!-- Brows lifted -->
+    <line x1="-2" y1="-50" x2="3" y2="-51" stroke="#3a1808" stroke-width="0.7"/>
+    <line x1="3" y1="-51" x2="9" y2="-50" stroke="#3a1808" stroke-width="0.7"/>
+  </g>
+
+  <!-- ===== THRESH center, ONE STEP forward, in light ===== -->
+  <g transform="translate(190 195)">
+    <!-- Body — broad, armored, prominent -->
+    <path d="M-14,40 L-18,9 L-22,-18 L-16,-36 L-3,-50 L3,-50 L16,-36 L22,-18 L18,9 L14,40 Z" fill="url(#i7p20p3threshSuit)"/>
+
+    <!-- Front leg stepping forward -->
+    <path d="M-7,40 L-9,60 L-3,60 L0,40 Z" fill="url(#i7p20p3threshSuit)"/>
+    <!-- Back leg planted -->
+    <path d="M3,40 L7,55 L14,55 L11,40 Z" fill="url(#i7p20p3threshSuit)" opacity="0.85"/>
+
+    <!-- Dented left pauldron — catching holographic glow -->
+    <ellipse cx="-18" cy="-28" rx="9" ry="6" fill="#5a1410"/>
+    <line x1="-22" y1="-32" x2="-14" y2="-22" stroke="#1a0606" stroke-width="0.85"/>
+    <ellipse cx="-18" cy="-26" rx="6" ry="3" fill="#a8c8d8" opacity="0.4" filter="url(#i7p20p3bloom)"/>
+    <!-- Right pauldron -->
+    <ellipse cx="18" cy="-28" rx="9" ry="6" fill="#7a1810"/>
+
+    <!-- Shoulder scrape (continuity) -->
+    <path d="M-22,-22 L-11,-30" stroke="#3a0a0a" stroke-width="2" opacity="0.85"/>
+
+    <!-- Suit chest accent — crimson -->
+    <line x1="0" y1="-36" x2="0" y2="30" stroke="#ffa898" stroke-width="0.7" opacity="0.85" filter="url(#i7p20p3bloom)"/>
+
+    <!-- Arms slightly forward — postured -->
+    <path d="M-22,-18 L-30,3 L-18,11 L-9,0 Z" fill="url(#i7p20p3threshSuit)"/>
+    <path d="M22,-18 L30,3 L18,11 L9,0 Z" fill="url(#i7p20p3threshSuit)"/>
+    <!-- Hands clenched -->
+    <ellipse cx="-22" cy="11" rx="4" ry="3" fill="#e0b888"/>
+    <ellipse cx="22" cy="11" rx="4" ry="3" fill="#e0b888"/>
+
+    <!-- Neck -->
+    <path d="M-3,-50 L3,-50 L4,-58 L-4,-58 Z" fill="#e0b888"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-66" rx="9" ry="11" fill="#e0b888"/>
+    <!-- Copper-red buzz cut — amber catching the top -->
+    <path d="M-9,-76 Q0,-80 9,-76 L9,-66 Q0,-70 -9,-66 Z" fill="#a83820"/>
+    <line x1="-7" y1="-76" x2="7" y2="-76" stroke="#5a1810" stroke-width="0.55"/>
+    <!-- Amber catch on top -->
+    <ellipse cx="0" cy="-78" rx="9" ry="2" fill="#ffd898" filter="url(#i7p20p3bloom)" opacity="0.85"/>
+
+    <!-- Defined cheekbone -->
+    <path d="M-7,-60 Q-9,-66 -3,-66" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.55"/>
+    <path d="M7,-60 Q9,-66 3,-66" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.55"/>
+
+    <!-- Eyes — focused, jaw set -->
+    <ellipse cx="-3" cy="-66" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="-3" cy="-66" r="0.7" fill="#3a1808"/>
+    <ellipse cx="3" cy="-66" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="3" cy="-66" r="0.7" fill="#3a1808"/>
+    <!-- Brows — set, hard -->
+    <line x1="-7" y1="-72" x2="-1" y2="-71" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="1" y1="-71" x2="7" y2="-72" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Mouth — speaking, jaw firm -->
+    <line x1="-4" y1="-58" x2="4" y2="-58" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Jaw definition -->
+    <path d="M-7,-58 L-3,-50 L0,-50" stroke="#5a3818" stroke-width="0.55" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- ===== SABLE right, surprise quickly masked ===== -->
+  <g transform="translate(310 200)">
+    <!-- Body, partially shadowed -->
+    <path d="M-9,30 L-11,9 L-14,-14 L-9,-32 L-3,-44 L3,-44 L9,-32 L14,-14 L11,9 L9,30 Z" fill="url(#i7p20p3sableSuit)" opacity="0.85"/>
+    <line x1="0" y1="-32" x2="0" y2="22" stroke="#fff" stroke-width="0.4" opacity="0.55" filter="url(#i7p20p3bloom)"/>
+    <!-- Arms — one uncrossed (the surprise tell) -->
+    <path d="M-14,-14 L-18,3 L-9,11 L-3,3 Z" fill="url(#i7p20p3sableSuit)"/>
+    <path d="M14,-14 L11,-3 L3,-3 L0,-14 Z" fill="url(#i7p20p3sableSuit)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="6" ry="7" fill="#5a3818"/>
+    <path d="M-7,-58 Q0,-62 7,-58 L7,-50 Q0,-54 -7,-50 Z" fill="#e8ecf0" opacity="0.85"/>
+    <!-- Eyes — sharper, narrower in surprise -->
+    <ellipse cx="-2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff"/>
+    <circle cx="-2.5" cy="-50" r="0.55" fill="#0a0a14"/>
+    <ellipse cx="2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff"/>
+    <circle cx="2.5" cy="-50" r="0.55" fill="#0a0a14"/>
+    <!-- Brows — slightly raised (surprise) before mask returns -->
+    <line x1="-5" y1="-55" x2="-1" y2="-55" stroke="#1a0808" stroke-width="0.7"/>
+    <line x1="1" y1="-55" x2="5" y2="-55" stroke="#1a0808" stroke-width="0.7"/>
+    <!-- Mouth -->
+    <line x1="-3" y1="-44" x2="3" y2="-44" stroke="#1a0808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== DIALOGUE — THRESH ===== -->
+  <!-- Balloon 1 -->
+  <g>
+    <rect x="14" y="14" width="160" height="36" rx="2" fill="white" stroke="#dc143c" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#dc143c" font-weight="700">THRESH</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Jink's right.</text>
+
+  <!-- Balloon 2 -->
+  <g>
+    <rect x="14" y="60" width="350" height="50" rx="2" fill="white" stroke="#dc143c" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#dc143c" font-weight="700">THRESH</text>
+  <text x="22" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">If a Titan's operating in this city, we need to know</text>
+  <text x="22" y="104" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">where. What it's doing. How many.</text>
+
+  <!-- Balloon 3 -->
+  <g>
+    <rect x="14" y="118" width="350" height="36" rx="2" fill="white" stroke="#dc143c" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="134" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#dc143c" font-weight="700">THRESH</text>
+  <text x="22" y="148" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">Waiting for contact on its terms is the worst tactical option.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 380,140"/>
+  </g>
+</svg>
