@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 421.5" width="366" height="421.5">
+  <title>Issue 6 — Page 17 — Panel 4: Sable's reaction — module lowered to lap, devastation, foundation shaken</title>
+  <desc>50mm medium close-up slight low angle. Sable's reaction. Module rests in her lap, blue-white softer uplight from below. Mouth slightly open, eyes unfocused. Sharp features that carry authority now carry devastation. The command mask is off. Around her, timber beams as shadows. Faint grey rectangle in distance — wall gap, fog-filtered city light.</desc>
+
+  <defs>
+    <radialGradient id="i6p17p4darkness" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0a0c1a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="i6p17p4skin" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3a5078"/>
+      <stop offset="50%" stop-color="#1a2440"/>
+      <stop offset="100%" stop-color="#0a0c20"/>
+    </linearGradient>
+    <linearGradient id="i6p17p4suit" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7898c0"/>
+      <stop offset="40%" stop-color="#3a4868"/>
+      <stop offset="100%" stop-color="#1a1c30"/>
+    </linearGradient>
+    <radialGradient id="i6p17p4lapGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c8ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a3060" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p17p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p17p4glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i6p17p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="421.5" fill="url(#i6p17p4darkness)"/>
+
+  <!-- DISTANT WALL GAP — faint grey rectangle, fog-filtered city light, far rear -->
+  <rect x="280" y="200" width="60" height="50" fill="#2a2c40" opacity="0.7" filter="url(#i6p17p4glow)"/>
+  <rect x="285" y="205" width="50" height="40" fill="#3a3a48" opacity="0.55" filter="url(#i6p17p4glow)"/>
+  <line x1="285" y1="225" x2="335" y2="225" stroke="#5a5a68" stroke-width="0.4" opacity="0.55"/>
+  <line x1="310" y1="205" x2="310" y2="245" stroke="#5a5a68" stroke-width="0.4" opacity="0.55"/>
+
+  <!-- Timber beams as deep shadows -->
+  <rect x="0" y="0" width="20" height="421.5" fill="#080612"/>
+  <line x1="20" y1="40" x2="20" y2="380" stroke="#1a2440" stroke-width="0.4" opacity="0.6"/>
+  <rect x="346" y="0" width="20" height="421.5" fill="#080612"/>
+  <line x1="346" y1="40" x2="346" y2="380" stroke="#1a2440" stroke-width="0.4" opacity="0.6"/>
+
+  <!-- Upper horizontal beam shadow -->
+  <rect x="0" y="0" width="366" height="40" fill="#040408"/>
+
+  <!-- Module light cone radiating UP from her lap softer now -->
+  <ellipse cx="183" cy="320" rx="180" ry="100" fill="url(#i6p17p4lapGlow)" filter="url(#i6p17p4strongglow)" opacity="0.85"/>
+
+  <!-- ===== SABLE — slight low angle, lap-lit ===== -->
+  <g transform="translate(183 220)">
+    <!-- Folded legs — drawn up, lap forms platform for module -->
+    <path d="M-72,140 L-90,80 L-50,60 L0,80 L50,60 L90,80 L72,140 Z" fill="url(#i6p17p4suit)"/>
+    <!-- Thigh seam center -->
+    <line x1="0" y1="80" x2="0" y2="140" stroke="#080612" stroke-width="0.85" opacity="0.85"/>
+    <!-- Soot bloom right shoulder ish, plus dust on forearm -->
+
+    <!-- DATA MODULE — in lap (lower, projecting upward softer) -->
+    <g transform="translate(0 80)">
+      <polygon points="-26,-6 26,-6 30,6 -30,6" fill="#1a2840" stroke="#a8c8ff" stroke-width="0.7" filter="url(#i6p17p4bloom)"/>
+      <line x1="-22" y1="-2" x2="22" y2="-2" stroke="#5070a0" stroke-width="0.55"/>
+      <ellipse cx="0" cy="2" rx="8" ry="2.4" fill="#fff" opacity="0.85" filter="url(#i6p17p4bloom)"/>
+      <!-- Red integrity indicator pulsing -->
+      <circle cx="-22" cy="2" r="1.6" fill="#ff5050" filter="url(#i6p17p4bloom)" opacity="0.95"/>
+      <!-- Faint holographic lines still rising -->
+      <line x1="0" y1="-12" x2="-22" y2="-50" stroke="#a8c8ff" stroke-width="0.3" opacity="0.55"/>
+      <line x1="0" y1="-12" x2="22" y2="-50" stroke="#a8c8ff" stroke-width="0.3" opacity="0.55"/>
+      <line x1="-12" y1="-30" x2="12" y2="-30" stroke="#a8c8ff" stroke-width="0.25" opacity="0.4"/>
+    </g>
+
+    <!-- Hands resting beside module on lap -->
+    <ellipse cx="-50" cy="80" rx="16" ry="8" fill="url(#i6p17p4skin)"/>
+    <ellipse cx="50" cy="80" rx="16" ry="8" fill="url(#i6p17p4skin)"/>
+    <line x1="-58" y1="78" x2="-44" y2="78" stroke="#3a5078" stroke-width="0.4" filter="url(#i6p17p4bloom)" opacity="0.85"/>
+    <line x1="44" y1="78" x2="58" y2="78" stroke="#3a5078" stroke-width="0.4" filter="url(#i6p17p4bloom)" opacity="0.85"/>
+
+    <!-- Torso (silver suit) — slight low angle lifts up a bit -->
+    <path d="M-60,80 L-72,30 L-50,-10 L50,-10 L72,30 L60,80 Z" fill="url(#i6p17p4suit)"/>
+    <line x1="0" y1="-10" x2="0" y2="80" stroke="#a8c8e8" stroke-width="0.55" opacity="0.85" filter="url(#i6p17p4bloom)"/>
+
+    <!-- Tension-wear crease at collar still visible -->
+    <line x1="-12" y1="-6" x2="-8" y2="2" stroke="#0a0a14" stroke-width="0.7" opacity="0.95"/>
+    <line x1="-8" y1="-6" x2="-4" y2="2" stroke="#0a0a14" stroke-width="0.55" opacity="0.85"/>
+    <line x1="4" y1="-6" x2="8" y2="2" stroke="#0a0a14" stroke-width="0.55" opacity="0.85"/>
+    <line x1="8" y1="-6" x2="12" y2="2" stroke="#0a0a14" stroke-width="0.7" opacity="0.95"/>
+
+    <!-- Soot bloom right shoulder -->
+    <ellipse cx="46" cy="14" rx="18" ry="7" fill="#1a1814" opacity="0.85"/>
+
+    <!-- Neck -->
+    <path d="M-10,-30 L-12,-10 L12,-10 L10,-30 Z" fill="url(#i6p17p4skin)"/>
+
+    <!-- Head — slight low angle, tilted slightly down/back, eyes unfocused looking past -->
+    <ellipse cx="0" cy="-50" rx="28" ry="32" fill="url(#i6p17p4skin)"/>
+    <!-- Cheek/jaw uplit edges -->
+    <path d="M-28,-40 Q-26,-22 -14,-12 L-10,-14 L-22,-30 Z" fill="#5078a8" opacity="0.85" filter="url(#i6p17p4bloom)"/>
+    <path d="M28,-40 Q26,-22 14,-12 L10,-14 L22,-30 Z" fill="#5078a8" opacity="0.85" filter="url(#i6p17p4bloom)"/>
+
+    <!-- Silver-white buzz cut top — barely lit -->
+    <path d="M-24,-66 Q-24,-78 0,-82 Q24,-78 24,-66 L22,-58 Q12,-60 0,-60 Q-12,-60 -22,-58 Z" fill="#1a1c30"/>
+    <line x1="-22" y1="-66" x2="22" y2="-66" stroke="#a8c0e8" stroke-width="0.3" opacity="0.55" filter="url(#i6p17p4bloom)"/>
+    <!-- Hairline catches uplight from lap (very faint) -->
+    <line x1="-20" y1="-60" x2="20" y2="-60" stroke="#5a78a8" stroke-width="0.4" opacity="0.7" filter="url(#i6p17p4bloom)"/>
+
+    <!-- Eyes — UNFOCUSED — looking past viewer into darkness -->
+    <ellipse cx="-11" cy="-46" rx="5" ry="2.4" fill="#fff" opacity="0.85"/>
+    <ellipse cx="11" cy="-46" rx="5" ry="2.4" fill="#fff" opacity="0.85"/>
+    <!-- Pupils drifted slightly off-center, no sharp focus -->
+    <ellipse cx="-12" cy="-46" rx="1.6" ry="2.0" fill="#1a2840"/>
+    <ellipse cx="10" cy="-46" rx="1.6" ry="2.0" fill="#1a2840"/>
+    <!-- No catchlights — eyes unfocused -->
+    <!-- Brow — flat, NOT tense — released into devastation -->
+    <line x1="-22" y1="-58" x2="-2" y2="-58" stroke="#0a0a14" stroke-width="1.4"/>
+    <line x1="2" y1="-58" x2="22" y2="-58" stroke="#0a0a14" stroke-width="1.4"/>
+
+    <!-- Nose -->
+    <path d="M-2,-46 L-3,-32 L0,-26 L3,-32 L2,-46 Z" fill="#1a2840" opacity="0.85"/>
+
+    <!-- Mouth — SLIGHTLY OPEN, devastation -->
+    <ellipse cx="0" cy="-18" rx="3.5" ry="1.4" fill="#0a0a14"/>
+    <line x1="-3" y1="-18" x2="3" y2="-18" stroke="#1a2030" stroke-width="0.4"/>
+  </g>
+
+  <!-- SABLE dialogue — pure ellipsis -->
+  <g>
+    <rect x="14" y="14" width="100" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="50,54 62,54 54,64" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="50.5" y1="54" x2="61.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1410">...</text>
+
+  <!-- Sable whisper — Reconnaissance -->
+  <g>
+    <rect x="226" y="14" width="126" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="280,54 292,54 284,64" fill="white" stroke="#5a606a" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="234" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE  <tspan font-style="italic" font-size="8" font-weight="500">(whisper)</tspan></text>
+  <text x="234" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Reconnaissance.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q100,142 200,138 Q280,136 366,140"/>
+    <path d="M0,330 Q100,332 200,328 Q280,326 366,330"/>
+  </g>
+</svg>

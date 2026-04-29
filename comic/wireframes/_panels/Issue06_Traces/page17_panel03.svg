@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 421.5" width="366" height="421.5">
+  <title>Issue 6 — Page 17 — Panel 3: Close-up of data module display — PRIOR INSERTION TIMELINE / DO NOT BRIEF FIELD TEAM</title>
+  <desc>85mm close-up data display. Holographic text in fairy geometric script projected in structured blue-white. File header with classification markers stacked. Body text replaced by grey static blocks. Phrases survive larger by zoom: PRIOR INSERTION TIMELINE with numerical entries. Below: OPERATIONAL PARAMETERS — CORRUPTED — CORRUPTED — DO NOT BRIEF FIELD TEAM. Sable's fingertips at frame bottom — white-knuckled.</desc>
+
+  <defs>
+    <radialGradient id="i6p17p3darkness" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0a1228" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="i6p17p3displayPlane" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a3068" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a1228" stop-opacity="0.85"/>
+    </linearGradient>
+    <radialGradient id="i6p17p3moduleCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#5a8af0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p17p3bloom"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="i6p17p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i6p17p3strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect width="366" height="421.5" fill="url(#i6p17p3darkness)"/>
+
+  <!-- Holographic display plane / field -->
+  <rect x="22" y="34" width="322" height="306" fill="url(#i6p17p3displayPlane)" filter="url(#i6p17p3glow)"/>
+
+  <!-- ===== FILE HEADER — Classification markers stacked deep ===== -->
+  <g transform="translate(183 60)">
+    <!-- Tier markers — pulsing red -->
+    <g opacity="0.95" filter="url(#i6p17p3bloom)">
+      <line x1="-130" y1="-12" x2="-100" y2="-12" stroke="#ff5050" stroke-width="0.85"/>
+      <line x1="100" y1="-12" x2="130" y2="-12" stroke="#ff5050" stroke-width="0.85"/>
+      <text x="0" y="-8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#ff7878" text-anchor="middle" font-weight="700">CLASSIFIED — TIER 4 / EYES-INTERNAL ONLY</text>
+      <line x1="-130" y1="-2" x2="-100" y2="-2" stroke="#ff7878" stroke-width="0.4" opacity="0.85"/>
+      <line x1="100" y1="-2" x2="130" y2="-2" stroke="#ff7878" stroke-width="0.4" opacity="0.85"/>
+      <text x="0" y="2" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#d05878" text-anchor="middle">TEMPORAL OPS / CONVERGENCE DIVISION</text>
+    </g>
+    <!-- Mission glyph (broken seal) -->
+    <g transform="translate(0 16)" stroke="#ff5050" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#i6p17p3bloom)">
+      <polygon points="-7,-7 7,-7 7,7 -7,7"/>
+      <line x1="-7" y1="-7" x2="7" y2="7"/>
+      <line x1="-7" y1="7" x2="7" y2="-7"/>
+      <!-- Crack -->
+      <path d="M-3,0 L0,2 L2,-1 L4,1" stroke-width="0.85" stroke-dasharray="1,1"/>
+    </g>
+  </g>
+
+  <!-- "PRIOR INSERTION TIMELINE" — clear, large, fairy geometric -->
+  <g transform="translate(183 130)" filter="url(#i6p17p3bloom)">
+    <g stroke="#c0d8ff" stroke-width="0.85" fill="none" opacity="0.95">
+      <!-- P glyph -->
+      <polygon points="-130,-10 -120,-10 -120,10 -130,10"/>
+      <line x1="-130" y1="-2" x2="-120" y2="-2"/>
+      <!-- R -->
+      <polygon points="-116,-10 -106,-10 -106,10 -116,10"/>
+      <line x1="-116" y1="-2" x2="-106" y2="-2"/>
+      <line x1="-116" y1="-2" x2="-106" y2="10"/>
+      <!-- I -->
+      <line x1="-102" y1="-10" x2="-92" y2="-10"/>
+      <line x1="-97" y1="-10" x2="-97" y2="10"/>
+      <line x1="-102" y1="10" x2="-92" y2="10"/>
+      <!-- O -->
+      <polygon points="-88,-10 -78,-12 -68,-10 -68,10 -78,12 -88,10"/>
+      <!-- R -->
+      <polygon points="-64,-10 -54,-10 -54,10 -64,10"/>
+      <line x1="-64" y1="-2" x2="-54" y2="-2"/>
+      <!-- gap -->
+      <!-- I -->
+      <line x1="-46" y1="-10" x2="-36" y2="-10"/>
+      <line x1="-41" y1="-10" x2="-41" y2="10"/>
+      <line x1="-46" y1="10" x2="-36" y2="10"/>
+      <!-- N -->
+      <polygon points="-32,-10 -22,-10 -22,10 -32,10"/>
+      <line x1="-32" y1="-10" x2="-22" y2="10"/>
+      <!-- S -->
+      <path d="M-8,-10 L-18,-10 L-18,-2 L-8,-2 L-8,10 L-18,10"/>
+      <!-- E -->
+      <polygon points="-4,-10 6,-10 6,10 -4,10"/>
+      <line x1="-4" y1="0" x2="6" y2="0"/>
+      <line x1="-4" y1="10" x2="6" y2="10"/>
+      <!-- R -->
+      <polygon points="10,-10 20,-10 20,10 10,10"/>
+      <line x1="10" y1="-2" x2="20" y2="-2"/>
+      <!-- T -->
+      <line x1="24" y1="-10" x2="34" y2="-10"/>
+      <line x1="29" y1="-10" x2="29" y2="10"/>
+      <!-- I -->
+      <line x1="38" y1="-10" x2="48" y2="-10"/>
+      <line x1="43" y1="-10" x2="43" y2="10"/>
+      <line x1="38" y1="10" x2="48" y2="10"/>
+      <!-- O -->
+      <polygon points="52,-10 62,-12 72,-10 72,10 62,12 52,10"/>
+      <!-- N -->
+      <polygon points="76,-10 86,-10 86,10 76,10"/>
+      <line x1="76" y1="-10" x2="86" y2="10"/>
+    </g>
+    <text x="0" y="22" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a8c8ff" text-anchor="middle" letter-spacing="2.5">PRIOR INSERTION TIMELINE</text>
+  </g>
+
+  <!-- Numerical notation — multiple entries -->
+  <g transform="translate(183 175)" opacity="0.85" filter="url(#i6p17p3bloom)">
+    <text x="0" y="0" font-family="monospace" font-size="9" fill="#fff" text-anchor="middle">[N=4]   ENTRY-01 [...]</text>
+    <text x="0" y="14" font-family="monospace" font-size="9" fill="#fff" text-anchor="middle">ENTRY-02 [...]</text>
+    <text x="0" y="28" font-family="monospace" font-size="9" fill="#fff" text-anchor="middle">ENTRY-03 [...]</text>
+    <text x="0" y="42" font-family="monospace" font-size="9" fill="#a8c8ff" text-anchor="middle">ENTRY-04 [— STATUS UNKNOWN —]</text>
+  </g>
+
+  <!-- "OPERATIONAL PARAMETERS" — partially corrupted -->
+  <g transform="translate(183 245)" opacity="0.85" filter="url(#i6p17p3bloom)">
+    <text x="0" y="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#a8c8ff" text-anchor="middle" letter-spacing="1.5">OPERATIONAL PARAMETERS</text>
+    <!-- Static block -->
+    <rect x="-110" y="6" width="40" height="6" fill="#3a4868" stroke="#7a92c0" stroke-width="0.3"/>
+    <text x="-65" y="11" font-family="monospace" font-size="6" fill="#5070a0" text-anchor="middle">— CORRUPTED —</text>
+    <rect x="-30" y="6" width="40" height="6" fill="#3a4868" stroke="#7a92c0" stroke-width="0.3"/>
+    <text x="35" y="11" font-family="monospace" font-size="6" fill="#5070a0" text-anchor="middle">— CORRUPTED —</text>
+    <rect x="70" y="6" width="40" height="6" fill="#3a4868" stroke="#7a92c0" stroke-width="0.3"/>
+  </g>
+
+  <!-- "DO NOT BRIEF FIELD TEAM —" trailing into static -->
+  <g transform="translate(183 280)" filter="url(#i6p17p3bloom)">
+    <text x="0" y="0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#ff8888" text-anchor="middle" font-weight="700" letter-spacing="1.5">DO NOT BRIEF FIELD TEAM —</text>
+    <!-- Trail into static -->
+    <g opacity="0.7">
+      <rect x="-130" y="6" width="260" height="3" fill="#5070a0" opacity="0.7"/>
+      <rect x="-100" y="12" width="200" height="2" fill="#5070a0" opacity="0.55"/>
+      <rect x="-60" y="18" width="120" height="2" fill="#5070a0" opacity="0.4"/>
+      <rect x="-30" y="24" width="60" height="1.5" fill="#5070a0" opacity="0.3"/>
+    </g>
+  </g>
+
+  <!-- Static corruption ribbons throughout -->
+  <g opacity="0.45">
+    <rect x="22" y="320" width="322" height="2" fill="#5070a0"/>
+    <rect x="22" y="326" width="180" height="2" fill="#5070a0"/>
+    <rect x="200" y="326" width="144" height="2" fill="#5070a0"/>
+    <rect x="22" y="332" width="100" height="2" fill="#5070a0"/>
+    <rect x="140" y="332" width="100" height="2" fill="#5070a0"/>
+    <rect x="260" y="332" width="84" height="2" fill="#5070a0"/>
+  </g>
+
+  <!-- ===== SABLE'S FINGERTIPS at frame bottom — white-knuckled ===== -->
+  <g transform="translate(183 421.5)">
+    <!-- Module surface visible -->
+    <rect x="-120" y="-30" width="240" height="20" fill="#1a2840" stroke="#5a8af0" stroke-width="0.55"/>
+    <rect x="-115" y="-26" width="230" height="2" fill="#5a8af0" opacity="0.85" filter="url(#i6p17p3bloom)"/>
+    <line x1="-100" y1="-22" x2="100" y2="-22" stroke="#3a5878" stroke-width="0.4"/>
+    <!-- Fingertips pressing -->
+    <ellipse cx="-80" cy="-10" rx="14" ry="6" fill="#3a4868"/>
+    <ellipse cx="-60" cy="-10" rx="14" ry="6" fill="#3a4868"/>
+    <ellipse cx="-40" cy="-10" rx="14" ry="6" fill="#3a4868"/>
+    <ellipse cx="40" cy="-10" rx="14" ry="6" fill="#3a4868"/>
+    <ellipse cx="60" cy="-10" rx="14" ry="6" fill="#3a4868"/>
+    <ellipse cx="80" cy="-10" rx="14" ry="6" fill="#3a4868"/>
+    <!-- Knuckle highlights — white-knuckled, pressed pale -->
+    <ellipse cx="-80" cy="-12" rx="8" ry="2.4" fill="#a8c0e8" opacity="0.85" filter="url(#i6p17p3bloom)"/>
+    <ellipse cx="-60" cy="-12" rx="8" ry="2.4" fill="#a8c0e8" opacity="0.85" filter="url(#i6p17p3bloom)"/>
+    <ellipse cx="-40" cy="-12" rx="8" ry="2.4" fill="#a8c0e8" opacity="0.85" filter="url(#i6p17p3bloom)"/>
+    <ellipse cx="40" cy="-12" rx="8" ry="2.4" fill="#a8c0e8" opacity="0.85" filter="url(#i6p17p3bloom)"/>
+    <ellipse cx="60" cy="-12" rx="8" ry="2.4" fill="#a8c0e8" opacity="0.85" filter="url(#i6p17p3bloom)"/>
+    <ellipse cx="80" cy="-12" rx="8" ry="2.4" fill="#a8c0e8" opacity="0.85" filter="url(#i6p17p3bloom)"/>
+  </g>
+
+  <!-- Caption — Sable's voice -->
+  <g>
+    <rect x="14" y="350" width="338" height="56" rx="2" fill="#f5ecd8" stroke="#5a4a30" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="368" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">"Prior insertions. They sent others before us.</text>
+  <text x="22" y="384" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">And the operational brief was classified above</text>
+  <text x="22" y="400" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">my clearance."</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q100,142 200,138 Q280,136 366,140"/>
+    <path d="M0,300 Q100,302 200,298 Q280,296 366,300"/>
+  </g>
+</svg>

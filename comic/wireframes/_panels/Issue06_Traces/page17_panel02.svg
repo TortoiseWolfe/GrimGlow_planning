@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 421.5" width="742" height="421.5">
+  <title>Issue 6 — Page 17 — Panel 2: Sable's face uplit by data module — CONVERGENCE / INTERVENTION resolving in corrupted holographic text</title>
+  <desc>50mm medium frontal eye level. Sable's face and upper body lit from below by data module's holographic projection. Corrupted mission file floats before her. Geometric script in blue-white but fragmented. Static bands, geometric distortion. Words resolve and hold: CONVERGENCE / INTERVENTION. Classification header pulses. Jaw clenched. Eyes narrowing. The command mask slipping in micro-expressions.</desc>
+
+  <defs>
+    <radialGradient id="i6p17p2darkness" cx="50%" cy="60%" r="60%">
+      <stop offset="0%" stop-color="#0c0c1a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="i6p17p2skinUplit" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#5a78b0"/>
+      <stop offset="50%" stop-color="#3a4868"/>
+      <stop offset="100%" stop-color="#0a0c1c"/>
+    </linearGradient>
+    <linearGradient id="i6p17p2suitUplit" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a8c8f0"/>
+      <stop offset="40%" stop-color="#506890"/>
+      <stop offset="100%" stop-color="#1a1c30"/>
+    </linearGradient>
+    <radialGradient id="i6p17p2moduleCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#a8c8ff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a3a78" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p17p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p17p2glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i6p17p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="742" height="421.5" fill="url(#i6p17p2darkness)"/>
+
+  <!-- Faint timber beams in peripheral edge-light -->
+  <g opacity="0.45">
+    <rect x="0" y="0" width="40" height="421.5" fill="#0a0810"/>
+    <line x1="40" y1="40" x2="40" y2="380" stroke="#3a4868" stroke-width="0.4" opacity="0.6" filter="url(#i6p17p2bloom)"/>
+    <rect x="702" y="0" width="40" height="421.5" fill="#0a0810"/>
+    <line x1="702" y1="40" x2="702" y2="380" stroke="#3a4868" stroke-width="0.4" opacity="0.6" filter="url(#i6p17p2bloom)"/>
+  </g>
+
+  <!-- Strong upward light cone from module -->
+  <path d="M310,360 L120,80 L622,80 L432,360 Z" fill="#a8c8ff" opacity="0.12" filter="url(#i6p17p2strongglow)"/>
+
+  <!-- ===== HOLOGRAPHIC TEXT FIELD (corrupted file) — floats before her face ===== -->
+  <!-- Background dim plane suggesting text volume -->
+  <rect x="180" y="100" width="380" height="180" fill="#1a2840" opacity="0.35" filter="url(#i6p17p2glow)"/>
+
+  <!-- Classification header (top, pulsing red bracket) -->
+  <g transform="translate(371 130)" opacity="0.95" filter="url(#i6p17p2bloom)">
+    <line x1="-90" y1="-12" x2="-80" y2="-12" stroke="#ff5050" stroke-width="0.85"/>
+    <line x1="-80" y1="-12" x2="-80" y2="-3" stroke="#ff5050" stroke-width="0.85"/>
+    <line x1="80" y1="-12" x2="90" y2="-12" stroke="#ff5050" stroke-width="0.85"/>
+    <line x1="80" y1="-12" x2="80" y2="-3" stroke="#ff5050" stroke-width="0.85"/>
+    <text x="0" y="-3" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#ff7878" text-anchor="middle" font-weight="700">CLASSIFIED — TIER 4</text>
+  </g>
+
+  <!-- "CONVERGENCE" — clear fairy script, large -->
+  <g transform="translate(371 160)" opacity="0.95" filter="url(#i6p17p2bloom)">
+    <!-- Render as styled fairy-script glyphs (geometric) -->
+    <g stroke="#c0d8ff" stroke-width="1.0" fill="none">
+      <polygon points="-110,-8 -100,-12 -90,-8 -90,8 -100,12 -110,8"/>
+      <line x1="-100" y1="-12" x2="-100" y2="12"/>
+      <polygon points="-86,-10 -76,-10 -76,10 -86,10"/>
+      <line x1="-86" y1="0" x2="-76" y2="0"/>
+      <line x1="-81" y1="-10" x2="-81" y2="10"/>
+      <polygon points="-72,-10 -62,-12 -52,-10 -52,10 -62,12 -72,10"/>
+      <circle cx="-62" cy="0" r="3"/>
+      <polygon points="-48,-10 -38,-10 -38,10 -48,10"/>
+      <line x1="-43" y1="-10" x2="-43" y2="10"/>
+      <polygon points="-34,-12 -24,-10 -24,10 -34,12"/>
+      <line x1="-34" y1="0" x2="-24" y2="0"/>
+      <polygon points="-20,-10 -10,-10 -10,10 -20,10"/>
+      <line x1="-20" y1="0" x2="-10" y2="0"/>
+      <polygon points="-6,-10 4,-12 14,-10 14,10 4,12 -6,10"/>
+      <line x1="4" y1="-12" x2="4" y2="12"/>
+      <polygon points="18,-10 28,-10 28,10 18,10"/>
+      <line x1="23" y1="-10" x2="23" y2="10"/>
+      <line x1="18" y1="0" x2="28" y2="0"/>
+      <polygon points="32,-12 42,-10 42,10 32,12"/>
+      <polygon points="46,-10 56,-10 56,10 46,10"/>
+      <line x1="46" y1="-5" x2="56" y2="-5"/>
+      <line x1="46" y1="5" x2="56" y2="5"/>
+      <polygon points="60,-10 70,-10 70,10 60,10"/>
+      <polygon points="74,-10 84,-10 84,10 74,10"/>
+      <line x1="74" y1="0" x2="84" y2="0"/>
+    </g>
+    <text x="0" y="22" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#a8c8ff" text-anchor="middle" letter-spacing="2">CONVERGENCE</text>
+  </g>
+
+  <!-- "INTERVENTION" below -->
+  <g transform="translate(371 200)" opacity="0.85" filter="url(#i6p17p2bloom)">
+    <g stroke="#a8c8ff" stroke-width="0.7" fill="none">
+      <line x1="-100" y1="-6" x2="-90" y2="-6"/>
+      <line x1="-95" y1="-6" x2="-95" y2="6"/>
+      <polygon points="-86,-6 -76,-6 -76,6 -86,6"/>
+      <polygon points="-72,-7 -62,-6 -62,6 -72,7"/>
+      <polygon points="-58,-6 -48,-6 -48,6 -58,6"/>
+      <line x1="-58" y1="0" x2="-48" y2="0"/>
+      <polygon points="-44,-6 -34,-7 -24,-6 -24,6 -34,7 -44,6"/>
+      <polygon points="-20,-6 -10,-6 -10,6 -20,6"/>
+      <line x1="-15" y1="-6" x2="-15" y2="6"/>
+      <polygon points="-6,-6 4,-6 4,6 -6,6"/>
+      <polygon points="8,-6 18,-7 28,-6 28,6 18,7 8,6"/>
+      <polygon points="32,-6 42,-6 42,6 32,6"/>
+      <line x1="32" y1="0" x2="42" y2="0"/>
+      <line x1="46" y1="-6" x2="56" y2="-6"/>
+      <line x1="51" y1="-6" x2="51" y2="6"/>
+      <polygon points="60,-6 70,-7 70,6 60,7"/>
+      <polygon points="74,-6 84,-6 84,6 74,6"/>
+      <line x1="79" y1="-6" x2="79" y2="6"/>
+      <polygon points="88,-6 98,-6 98,6 88,6"/>
+    </g>
+    <text x="0" y="20" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#7898d0" text-anchor="middle" letter-spacing="1.5">INTERVENTION</text>
+  </g>
+
+  <!-- Static corruption bands -->
+  <g opacity="0.7">
+    <rect x="180" y="240" width="380" height="3" fill="#5070a0" opacity="0.85"/>
+    <rect x="180" y="246" width="180" height="2" fill="#5070a0" opacity="0.55"/>
+    <rect x="380" y="246" width="180" height="2" fill="#5070a0" opacity="0.55"/>
+    <rect x="220" y="252" width="320" height="2" fill="#5070a0" opacity="0.4"/>
+    <!-- Error markers -->
+    <rect x="200" y="258" width="40" height="6" fill="#3a4868" stroke="#7a92c0" stroke-width="0.3" opacity="0.85"/>
+    <rect x="260" y="258" width="60" height="6" fill="#3a4868" stroke="#7a92c0" stroke-width="0.3" opacity="0.85"/>
+    <rect x="340" y="258" width="50" height="6" fill="#3a4868" stroke="#7a92c0" stroke-width="0.3" opacity="0.85"/>
+    <rect x="410" y="258" width="80" height="6" fill="#3a4868" stroke="#7a92c0" stroke-width="0.3" opacity="0.85"/>
+    <rect x="500" y="258" width="40" height="6" fill="#3a4868" stroke="#7a92c0" stroke-width="0.3" opacity="0.85"/>
+  </g>
+
+  <!-- Random fragmented characters dissolving -->
+  <g opacity="0.55" filter="url(#i6p17p2bloom)">
+    <line x1="220" y1="270" x2="225" y2="270" stroke="#a8c8ff" stroke-width="0.4"/>
+    <polygon points="240,267 245,267 245,272 240,272" stroke="#a8c8ff" stroke-width="0.4" fill="none"/>
+    <line x1="280" y1="270" x2="280" y2="275" stroke="#a8c8ff" stroke-width="0.4"/>
+    <line x1="500" y1="270" x2="510" y2="270" stroke="#7898d0" stroke-width="0.3"/>
+    <polygon points="530,267 535,267 535,272 530,272" stroke="#7898d0" stroke-width="0.3" fill="none"/>
+  </g>
+
+  <!-- ===== SABLE — face/upper body, lit from below ===== -->
+  <g transform="translate(371 320)">
+    <!-- Shoulders / suit -->
+    <path d="M-90,80 L-80,30 L-50,10 L50,10 L80,30 L90,80 Z" fill="url(#i6p17p2suitUplit)"/>
+    <!-- Suit center seam catching light -->
+    <line x1="0" y1="10" x2="0" y2="80" stroke="#c0e0ff" stroke-width="0.55" opacity="0.85" filter="url(#i6p17p2bloom)"/>
+    <!-- Soot bloom right shoulder -->
+    <ellipse cx="60" cy="22" rx="22" ry="8" fill="#1a1814" opacity="0.85"/>
+    <!-- Forearm dust + water marks suggested -->
+    <ellipse cx="-50" cy="40" rx="14" ry="3" fill="#4a4838" opacity="0.55"/>
+    <ellipse cx="50" cy="55" rx="12" ry="3" fill="#4a4838" opacity="0.55"/>
+
+    <!-- TENSION-WEAR CREASE at collar (NEW — from these private sessions) -->
+    <line x1="-12" y1="14" x2="-8" y2="22" stroke="#0a0a14" stroke-width="0.7" opacity="0.95"/>
+    <line x1="-8" y1="14" x2="-4" y2="22" stroke="#0a0a14" stroke-width="0.55" opacity="0.85"/>
+    <line x1="4" y1="14" x2="8" y2="22" stroke="#0a0a14" stroke-width="0.55" opacity="0.85"/>
+    <line x1="8" y1="14" x2="12" y2="22" stroke="#0a0a14" stroke-width="0.7" opacity="0.95"/>
+
+    <!-- Neck -->
+    <path d="M-10,-8 L-12,10 L12,10 L10,-8 Z" fill="url(#i6p17p2skinUplit)"/>
+
+    <!-- Head — uplit -->
+    <ellipse cx="0" cy="-30" rx="32" ry="36" fill="url(#i6p17p2skinUplit)"/>
+    <!-- Sharp cheekbones / jaw catching uplight -->
+    <path d="M-32,-20 Q-30,-2 -16,12 L-12,10 L-26,-10 Z" fill="#7898c8" opacity="0.85" filter="url(#i6p17p2bloom)"/>
+    <path d="M32,-20 Q30,-2 16,12 L12,10 L26,-10 Z" fill="#7898c8" opacity="0.85" filter="url(#i6p17p2bloom)"/>
+
+    <!-- Silver-white buzz cut (very short) — top in shadow, caught uplight at hairline -->
+    <path d="M-30,-50 Q-30,-62 0,-66 Q30,-62 30,-50 L28,-44 Q14,-48 0,-48 Q-14,-48 -28,-44 Z" fill="#1a1c2c"/>
+    <line x1="-28" y1="-50" x2="-22" y2="-50" stroke="#c0d8ff" stroke-width="0.4" opacity="0.85" filter="url(#i6p17p2bloom)"/>
+    <line x1="-22" y1="-49" x2="-12" y2="-49" stroke="#c0d8ff" stroke-width="0.4" opacity="0.85" filter="url(#i6p17p2bloom)"/>
+    <line x1="-10" y1="-49" x2="0" y2="-49" stroke="#c0d8ff" stroke-width="0.4" opacity="0.85" filter="url(#i6p17p2bloom)"/>
+    <line x1="0" y1="-49" x2="10" y2="-49" stroke="#c0d8ff" stroke-width="0.4" opacity="0.85" filter="url(#i6p17p2bloom)"/>
+    <line x1="10" y1="-49" x2="20" y2="-49" stroke="#c0d8ff" stroke-width="0.4" opacity="0.85" filter="url(#i6p17p2bloom)"/>
+    <line x1="20" y1="-50" x2="28" y2="-50" stroke="#c0d8ff" stroke-width="0.4" opacity="0.85" filter="url(#i6p17p2bloom)"/>
+
+    <!-- Eyes — narrowed, tracking text -->
+    <ellipse cx="-13" cy="-28" rx="6" ry="2.4" fill="#fff" opacity="0.85"/>
+    <ellipse cx="13" cy="-28" rx="6" ry="2.4" fill="#fff" opacity="0.85"/>
+    <circle cx="-12" cy="-28" r="2" fill="#1a2840"/>
+    <circle cx="14" cy="-28" r="2" fill="#1a2840"/>
+    <circle cx="-12" cy="-28" r="0.7" fill="#fff"/>
+    <circle cx="14" cy="-28" r="0.7" fill="#fff"/>
+    <!-- Brow tension — drawn down at center -->
+    <path d="M-22,-40 Q-16,-37 -8,-38" stroke="#0a0a14" stroke-width="2" fill="none"/>
+    <path d="M22,-40 Q16,-37 8,-38" stroke="#0a0a14" stroke-width="2" fill="none"/>
+    <!-- Tightening at eyes — micro-creases -->
+    <line x1="-22" y1="-26" x2="-18" y2="-24" stroke="#1a1c30" stroke-width="0.55" opacity="0.85"/>
+    <line x1="22" y1="-26" x2="18" y2="-24" stroke="#1a1c30" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Nose — small uplit shadow -->
+    <path d="M-3,-26 L-5,-12 L0,-8 L5,-12 L3,-26 Z" fill="#1a2840" opacity="0.85"/>
+
+    <!-- Mouth — slight tremor, jaw clenched -->
+    <path d="M-9,-3 Q0,-5 9,-3" stroke="#0a0a14" stroke-width="1.0" fill="none"/>
+    <!-- Tiny tremor at lip -->
+    <line x1="0" y1="-4" x2="0" y2="-2" stroke="#0a0a14" stroke-width="0.4" opacity="0.55"/>
+
+    <!-- Hands cradling module before face — visible at chest -->
+    <path d="M-22,28 L-30,16 L-18,8 L-10,16 Z" fill="url(#i6p17p2skinUplit)"/>
+    <path d="M22,28 L30,16 L18,8 L10,16 Z" fill="url(#i6p17p2skinUplit)"/>
+    <!-- Edge-light on knuckles -->
+    <line x1="-22" y1="14" x2="-14" y2="14" stroke="#7898c8" stroke-width="0.35" filter="url(#i6p17p2bloom)" opacity="0.85"/>
+    <line x1="14" y1="14" x2="22" y2="14" stroke="#7898c8" stroke-width="0.35" filter="url(#i6p17p2bloom)" opacity="0.85"/>
+
+    <!-- DATA MODULE — between hands -->
+    <g transform="translate(0 12)">
+      <polygon points="-12,-4 12,-4 14,4 -14,4" fill="#1a2840" stroke="#a8c8ff" stroke-width="0.55"/>
+      <line x1="-10" y1="-2" x2="10" y2="-2" stroke="#5070a0" stroke-width="0.4"/>
+      <ellipse cx="0" cy="0" rx="4" ry="1.4" fill="url(#i6p17p2moduleCore)" filter="url(#i6p17p2bloom)"/>
+      <!-- Red integrity indicator pulsing -->
+      <circle cx="-10" cy="0" r="1" fill="#ff5050" filter="url(#i6p17p2bloom)" opacity="0.95"/>
+    </g>
+  </g>
+
+  <!-- SABLE dialogue (whisper, barely audible) — to herself -->
+  <g>
+    <rect x="14" y="14" width="220" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="100,54 112,54 104,64" fill="white" stroke="#5a606a" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a606a" font-weight="700">SABLE  <tspan font-style="italic" font-size="9" font-weight="500">(barely audible)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">Convergence intervention.</text>
+
+  <!-- SABLE dialogue 2 -->
+  <g>
+    <rect x="508" y="14" width="220" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="630,54 642,54 634,64" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="630.5" y1="54" x2="641.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="516" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="516" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410">What did you send us into?</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q200,142 400,138 Q580,136 742,140"/>
+    <path d="M0,360 Q200,362 400,358 Q580,356 742,360"/>
+  </g>
+</svg>
