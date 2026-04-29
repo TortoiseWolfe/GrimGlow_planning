@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 460" width="366" height="460">
+  <title>Issue 6 — Page 19 — Panel 3: Wren observes Sable — narrowed engineer's gaze, the seed of suspicion</title>
+  <desc>50mm medium close-up. Wren settling into camp, looking at Sable with slightly narrowed gaze. An engineer reads systems and people are systems. Something fractionally off. Not enough to name. Not enough to challenge. But enough to file away. The seed for I9 confrontation. WREN: "Power cell was off when we approached. You running dark?" SABLE: "Conserving reserves."</desc>
+
+  <defs>
+    <linearGradient id="i6p19p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2a4a"/>
+      <stop offset="100%" stop-color="#0a1428"/>
+    </linearGradient>
+    <radialGradient id="i6p19p3perimeter" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a5a98" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a1428" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p19p3suitW" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89858"/>
+      <stop offset="50%" stop-color="#a85820"/>
+      <stop offset="100%" stop-color="#5a2810"/>
+    </linearGradient>
+    <linearGradient id="i6p19p3skinW" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="50%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="i6p19p3beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a3828"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <filter id="i6p19p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p19p3glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i6p19p3softfocus"><feGaussianBlur stdDeviation="1.8"/></filter>
+    <filter id="i6p19p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="460" fill="url(#i6p19p3bg)"/>
+
+  <!-- Camp atmosphere -->
+  <ellipse cx="183" cy="230" rx="220" ry="160" fill="url(#i6p19p3perimeter)" filter="url(#i6p19p3strongglow)"/>
+
+  <!-- Background timber beams -->
+  <rect x="20" y="0" width="10" height="460" fill="url(#i6p19p3beam)"/>
+  <rect x="336" y="0" width="10" height="460" fill="url(#i6p19p3beam)"/>
+  <rect x="0" y="0" width="366" height="14" fill="url(#i6p19p3beam)"/>
+  <rect x="0" y="420" width="366" height="40" fill="url(#i6p19p3beam)"/>
+  <line x1="0" y1="420" x2="366" y2="420" stroke="#a8c0e8" stroke-width="0.55" opacity="0.85" filter="url(#i6p19p3bloom)"/>
+
+  <!-- ===== SABLE (background, soft focus, holding mask) ===== -->
+  <g transform="translate(280 320)" filter="url(#i6p19p3softfocus)">
+    <!-- Distant figure, blurred -->
+    <ellipse cx="0" cy="2" rx="9" ry="1.4" fill="#000" opacity="0.55"/>
+    <path d="M-5,0 L-6,-26 L-3,-34 L0,-26 Z" fill="#506890"/>
+    <path d="M5,0 L6,-26 L3,-34 L0,-26 Z" fill="#506890"/>
+    <path d="M-6,-34 L-7,-50 L-4,-58 L4,-58 L7,-50 L6,-34 Z" fill="#506890"/>
+    <line x1="0" y1="-58" x2="0" y2="-34" stroke="#a8c0e8" stroke-width="0.4" opacity="0.85"/>
+    <!-- Arms behind -->
+    <path d="M-7,-50 L-9,-42 L-9,-32 L-7,-34 Z" fill="#506890" opacity="0.85"/>
+    <path d="M7,-50 L9,-42 L9,-32 L7,-34 Z" fill="#506890" opacity="0.85"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-66" rx="3.5" ry="4" fill="#5a3a28"/>
+    <path d="M-3,-70 Q-3,-72 0,-73 Q3,-72 3,-70 L3,-68 Q1,-69 0,-69 Q-1,-69 -3,-68 Z" fill="#d8e4f8"/>
+    <!-- Eyes -->
+    <circle cx="-2" cy="-66" r="0.55" fill="#1a1c30"/>
+    <circle cx="2" cy="-66" r="0.55" fill="#1a1c30"/>
+    <!-- Mouth neutral -->
+    <line x1="-2" y1="-62" x2="2" y2="-62" stroke="#1a0c08" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== WREN — foreground, focus, narrowed gaze ===== -->
+  <g transform="translate(140 460)">
+    <!-- Larger torso since closer to camera -->
+    <!-- Lower body cropped at frame bottom -->
+    <path d="M-50,0 L-60,-100 L-44,-160 L44,-160 L60,-100 L50,0 Z" fill="url(#i6p19p3suitW)"/>
+    <line x1="0" y1="-160" x2="0" y2="0" stroke="#f0c898" stroke-width="0.85" opacity="0.95" filter="url(#i6p19p3bloom)"/>
+    <!-- Oil stains on forearms -->
+    <ellipse cx="-46" cy="-60" rx="14" ry="6" fill="#1a0c04" opacity="0.85"/>
+    <ellipse cx="46" cy="-90" rx="12" ry="5" fill="#1a0c04" opacity="0.7"/>
+    <!-- Copper dust on knees (lower) -->
+    <ellipse cx="-30" cy="-30" rx="20" ry="5" fill="#a85820" opacity="0.55"/>
+    <ellipse cx="30" cy="-30" rx="20" ry="5" fill="#a85820" opacity="0.55"/>
+
+    <!-- Arms — at sides -->
+    <path d="M-60,-100 L-78,-70 L-72,-50 L-58,-58 Z" fill="url(#i6p19p3suitW)"/>
+    <path d="M60,-100 L78,-70 L72,-50 L58,-58 Z" fill="url(#i6p19p3suitW)"/>
+    <!-- Hand resting at hip -->
+    <ellipse cx="-78" cy="-50" rx="6" ry="4" fill="url(#i6p19p3skinW)"/>
+    <ellipse cx="78" cy="-50" rx="6" ry="4" fill="url(#i6p19p3skinW)"/>
+
+    <!-- Tool on belt -->
+    <rect x="-10" y="-46" width="20" height="6" fill="#3a1808" stroke="#1a0c04" stroke-width="0.4"/>
+    <rect x="-7" y="-44" width="14" height="2" fill="#a87838"/>
+
+    <!-- Neck -->
+    <path d="M-10,-180 L-12,-160 L12,-160 L10,-180 Z" fill="url(#i6p19p3skinW)"/>
+
+    <!-- Head — narrowed gaze, head tilted faintly -->
+    <ellipse cx="0" cy="-204" rx="32" ry="36" fill="url(#i6p19p3skinW)"/>
+
+    <!-- High messy bun (hair UP) -->
+    <ellipse cx="0" cy="-242" rx="14" ry="9" fill="#1a0a04"/>
+    <!-- Bun loose strands -->
+    <path d="M-12,-244 Q-16,-246 -14,-242" stroke="#1a0a04" stroke-width="0.85" fill="none"/>
+    <path d="M12,-244 Q16,-246 14,-242" stroke="#1a0a04" stroke-width="0.85" fill="none"/>
+    <!-- Hair sweep along scalp -->
+    <path d="M-26,-228 Q-12,-238 0,-238 Q12,-238 26,-228" stroke="#1a0a04" stroke-width="3" fill="none" opacity="0.95"/>
+    <!-- Loose strand falling -->
+    <path d="M-22,-218 Q-24,-200 -26,-188" stroke="#3a1808" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <!-- Cheekbone -->
+    <path d="M-26,-200 Q-22,-186 -16,-172" stroke="#5a3818" stroke-width="0.85" fill="none" opacity="0.85"/>
+    <path d="M26,-200 Q22,-186 16,-172" stroke="#5a3818" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <!-- Eyes — NARROWED, assessing -->
+    <ellipse cx="-13" cy="-204" rx="6" ry="1.6" fill="#fff"/>
+    <ellipse cx="13" cy="-204" rx="6" ry="1.6" fill="#fff"/>
+    <ellipse cx="-12" cy="-204" rx="2.4" ry="1.4" fill="#3a1808"/>
+    <ellipse cx="14" cy="-204" rx="2.4" ry="1.4" fill="#3a1808"/>
+    <circle cx="-12" cy="-204" r="0.85" fill="#fff"/>
+    <circle cx="14" cy="-204" r="0.85" fill="#fff"/>
+
+    <!-- Brow — slightly furrowed/tilted (assessing) -->
+    <path d="M-22,-216 Q-16,-218 -8,-216" stroke="#0a0604" stroke-width="2" fill="none"/>
+    <path d="M22,-218 Q16,-220 8,-218" stroke="#0a0604" stroke-width="2" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M-3,-200 L-5,-184 L0,-180 L5,-184 L3,-200 Z" fill="#5a3818" opacity="0.85"/>
+
+    <!-- Mouth — slight open, mid-question -->
+    <ellipse cx="0" cy="-172" rx="3.5" ry="0.85" fill="#3a1808"/>
+    <line x1="-3" y1="-172" x2="3" y2="-172" stroke="#1a0a04" stroke-width="0.55"/>
+  </g>
+
+  <!-- WREN dialogue -->
+  <g>
+    <rect x="14" y="14" width="280" height="40" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="160,54 172,54 164,64" fill="white" stroke="#c87a35" stroke-width="0.85"/>
+    <line x1="160.5" y1="54" x2="171.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">Power cell was off. You running dark?</text>
+
+  <!-- SABLE response -->
+  <g>
+    <rect x="180" y="320" width="170" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="240,360 252,360 244,370" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="240.5" y1="360" x2="251.5" y2="360" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="188" y="338" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="188" y="354" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#1a1410">Conserving reserves.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q100,162 200,158 Q280,156 366,160"/>
+    <path d="M0,380 Q100,382 200,378 Q280,376 366,380"/>
+  </g>
+</svg>

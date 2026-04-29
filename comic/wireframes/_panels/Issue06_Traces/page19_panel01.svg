@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 6 — Page 19 — Panel 1: Mask restored — Sable in command posture, perimeter emitters back on, camp's normal lighting</title>
+  <desc>35mm medium eye level. Time has passed. Perimeter emitters back on — cool blue-white baseline. Power cell glows on shelf. Sable in command posture — feet apart, hands behind back, chin level. Module stowed. Composure rebuilt seam by seam. Composure as the most demanding form of dishonesty.</desc>
+
+  <defs>
+    <linearGradient id="i6p19p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2a4a"/>
+      <stop offset="100%" stop-color="#0a1428"/>
+    </linearGradient>
+    <radialGradient id="i6p19p1perimeter" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a5a98" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0a1428" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p19p1beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a3828"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="i6p19p1suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8e4f8"/>
+      <stop offset="50%" stop-color="#7898c8"/>
+      <stop offset="100%" stop-color="#3a4868"/>
+    </linearGradient>
+    <linearGradient id="i6p19p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3a28"/>
+      <stop offset="50%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p19p1floorboardWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="i6p19p1powerCell" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c8ff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#5078c8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a3060" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p19p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p19p1glow"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <filter id="i6p19p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="742" height="320" fill="url(#i6p19p1bg)"/>
+
+  <!-- WARM AMBER FILTERING THROUGH FLOORBOARD GAPS ABOVE -->
+  <rect x="0" y="0" width="742" height="40" fill="#1a1208"/>
+  <g opacity="0.85">
+    <rect x="100" y="0" width="60" height="6" fill="url(#i6p19p1floorboardWarm)" filter="url(#i6p19p1glow)"/>
+    <rect x="280" y="0" width="80" height="8" fill="url(#i6p19p1floorboardWarm)" filter="url(#i6p19p1glow)"/>
+    <rect x="450" y="0" width="60" height="6" fill="url(#i6p19p1floorboardWarm)" filter="url(#i6p19p1glow)"/>
+    <rect x="600" y="0" width="80" height="7" fill="url(#i6p19p1floorboardWarm)" filter="url(#i6p19p1glow)"/>
+  </g>
+
+  <!-- Perimeter emitter glow halos (around the camp) -->
+  <ellipse cx="80" cy="180" rx="60" ry="80" fill="url(#i6p19p1perimeter)" filter="url(#i6p19p1strongglow)"/>
+  <ellipse cx="660" cy="180" rx="60" ry="80" fill="url(#i6p19p1perimeter)" filter="url(#i6p19p1strongglow)"/>
+  <ellipse cx="371" cy="240" rx="180" ry="50" fill="url(#i6p19p1perimeter)" filter="url(#i6p19p1strongglow)" opacity="0.7"/>
+
+  <!-- Timber beams (now visible — cool blue-white edge light) -->
+  <rect x="40" y="0" width="14" height="320" fill="url(#i6p19p1beam)"/>
+  <line x1="54" y1="40" x2="54" y2="280" stroke="#7898c8" stroke-width="0.55" opacity="0.85" filter="url(#i6p19p1bloom)"/>
+  <rect x="688" y="0" width="14" height="320" fill="url(#i6p19p1beam)"/>
+  <line x1="688" y1="40" x2="688" y2="280" stroke="#7898c8" stroke-width="0.55" opacity="0.85" filter="url(#i6p19p1bloom)"/>
+
+  <!-- Horizontal beam (where Sable stands) -->
+  <rect x="0" y="240" width="742" height="20" fill="url(#i6p19p1beam)"/>
+  <line x1="0" y1="240" x2="742" y2="240" stroke="#a8c0e8" stroke-width="0.55" opacity="0.85" filter="url(#i6p19p1bloom)"/>
+  <line x1="0" y1="260" x2="742" y2="260" stroke="#080604" stroke-width="0.7" opacity="0.85"/>
+  <!-- Wood grain -->
+  <g stroke="#1a1208" stroke-width="0.4" opacity="0.85" fill="none">
+    <path d="M40,246 Q140,245 240,247"/>
+    <path d="M260,250 Q360,249 460,251"/>
+    <path d="M480,245 Q580,246 680,245"/>
+  </g>
+
+  <!-- Upper horizontal beam -->
+  <rect x="0" y="40" width="742" height="14" fill="url(#i6p19p1beam)"/>
+  <line x1="100" y1="40" x2="640" y2="40" stroke="#5a78a8" stroke-width="0.4" opacity="0.55"/>
+
+  <!-- POWER CELL on shelf (right side) — GLOWING blue-white -->
+  <g transform="translate(620 100)">
+    <ellipse cx="0" cy="-2" rx="22" ry="18" fill="url(#i6p19p1powerCell)" filter="url(#i6p19p1strongglow)"/>
+    <rect x="-12" y="-8" width="24" height="14" fill="#1a2840" stroke="#a8c8ff" stroke-width="0.55"/>
+    <rect x="-9" y="-5" width="18" height="8" fill="#5070a0"/>
+    <rect x="-7" y="-3" width="14" height="4" fill="#a8c8ff" filter="url(#i6p19p1bloom)"/>
+    <line x1="-4" y1="-1" x2="4" y2="-1" stroke="#fff" stroke-width="0.7" filter="url(#i6p19p1bloom)"/>
+    <!-- Shelf -->
+    <rect x="-16" y="6" width="32" height="2" fill="#3a2818"/>
+  </g>
+
+  <!-- Equipment ledge left — visible now -->
+  <g opacity="0.85">
+    <rect x="100" y="120" width="50" height="14" fill="#3a4868"/>
+    <rect x="105" y="116" width="14" height="6" fill="#3a4868"/>
+    <rect x="124" y="114" width="20" height="8" fill="#3a4868"/>
+    <line x1="100" y1="134" x2="150" y2="134" stroke="#1a1c30" stroke-width="0.55"/>
+    <!-- Shelf -->
+    <rect x="96" y="134" width="58" height="2" fill="#3a2818"/>
+  </g>
+
+  <!-- Perimeter emitter post (left) — small device with halo -->
+  <g transform="translate(80 200)">
+    <rect x="-3" y="-14" width="6" height="14" fill="#3a4868"/>
+    <ellipse cx="0" cy="-14" rx="4" ry="2" fill="#a8c8ff" filter="url(#i6p19p1bloom)"/>
+    <line x1="0" y1="-14" x2="0" y2="-30" stroke="#a8c8ff" stroke-width="0.55" opacity="0.85" filter="url(#i6p19p1bloom)"/>
+  </g>
+  <!-- Perimeter emitter post (right) -->
+  <g transform="translate(660 200)">
+    <rect x="-3" y="-14" width="6" height="14" fill="#3a4868"/>
+    <ellipse cx="0" cy="-14" rx="4" ry="2" fill="#a8c8ff" filter="url(#i6p19p1bloom)"/>
+    <line x1="0" y1="-14" x2="0" y2="-30" stroke="#a8c8ff" stroke-width="0.55" opacity="0.85" filter="url(#i6p19p1bloom)"/>
+  </g>
+
+  <!-- ===== SABLE — central, command posture, full body ===== -->
+  <g transform="translate(371 238)">
+    <!-- Cast shadow -->
+    <ellipse cx="0" cy="4" rx="16" ry="2" fill="#000" opacity="0.85"/>
+
+    <!-- Feet apart -->
+    <ellipse cx="-14" cy="2" rx="6" ry="2.4" fill="#1a1c30"/>
+    <ellipse cx="14" cy="2" rx="6" ry="2.4" fill="#1a1c30"/>
+
+    <!-- Legs — straight, parallel, evenly spread -->
+    <path d="M-14,0 L-16,-50 L-8,-90 L-2,-50 Z" fill="url(#i6p19p1suit)"/>
+    <path d="M14,0 L16,-50 L8,-90 L2,-50 Z" fill="url(#i6p19p1suit)"/>
+    <line x1="-12" y1="-50" x2="-8" y2="-50" stroke="#a8c0e8" stroke-width="0.4" filter="url(#i6p19p1bloom)" opacity="0.85"/>
+    <line x1="8" y1="-50" x2="12" y2="-50" stroke="#a8c0e8" stroke-width="0.4" filter="url(#i6p19p1bloom)" opacity="0.85"/>
+
+    <!-- Torso -->
+    <path d="M-18,-90 L-22,-130 L-12,-150 L12,-150 L22,-130 L18,-90 Z" fill="url(#i6p19p1suit)"/>
+    <line x1="0" y1="-150" x2="0" y2="-90" stroke="#fff" stroke-width="0.7" opacity="0.95" filter="url(#i6p19p1bloom)"/>
+    <!-- Soot bloom right shoulder still present -->
+    <ellipse cx="16" cy="-128" rx="8" ry="4" fill="#1a1814" opacity="0.85"/>
+    <!-- Tension-wear collar crease (subtle even under mask) -->
+    <line x1="-4" y1="-148" x2="-3" y2="-142" stroke="#0a0a14" stroke-width="0.4" opacity="0.95"/>
+    <line x1="3" y1="-148" x2="4" y2="-142" stroke="#0a0a14" stroke-width="0.4" opacity="0.95"/>
+
+    <!-- Arms BEHIND back -->
+    <path d="M-22,-130 L-30,-110 L-32,-80 L-26,-78 L-18,-100 Z" fill="url(#i6p19p1suit)" opacity="0.85"/>
+    <path d="M22,-130 L30,-110 L32,-80 L26,-78 L18,-100 Z" fill="url(#i6p19p1suit)" opacity="0.85"/>
+    <!-- Hands clasped behind (suggested) -->
+    <ellipse cx="-30" cy="-78" rx="3" ry="2" fill="url(#i6p19p1skin)" opacity="0.85"/>
+    <ellipse cx="30" cy="-78" rx="3" ry="2" fill="url(#i6p19p1skin)" opacity="0.85"/>
+
+    <!-- Neck -->
+    <path d="M-6,-160 L-8,-150 L8,-150 L6,-160 Z" fill="url(#i6p19p1skin)"/>
+
+    <!-- Head — chin level, neutral -->
+    <ellipse cx="0" cy="-176" rx="12" ry="14" fill="url(#i6p19p1skin)"/>
+    <!-- Buzz cut catching cool light from above -->
+    <path d="M-10,-188 Q-10,-194 0,-196 Q10,-194 10,-188 L10,-184 Q4,-186 0,-186 Q-4,-186 -10,-184 Z" fill="#d8e4f8" filter="url(#i6p19p1bloom)"/>
+    <!-- Cheekbone shadow -->
+    <path d="M-12,-176 Q-10,-168 -4,-164" fill="none" stroke="#1a0c08" stroke-width="0.55" opacity="0.85"/>
+    <path d="M12,-176 Q10,-168 4,-164" fill="none" stroke="#1a0c08" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Eyes — neutral, level -->
+    <ellipse cx="-4" cy="-176" rx="1.6" ry="0.85" fill="#fff8e8"/>
+    <ellipse cx="4" cy="-176" rx="1.6" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-4" cy="-176" r="0.85" fill="#1a1c30"/>
+    <circle cx="4" cy="-176" r="0.85" fill="#1a1c30"/>
+    <!-- Brow neutral, level -->
+    <line x1="-7" y1="-181" x2="-1" y2="-181" stroke="#0a0604" stroke-width="0.7"/>
+    <line x1="1" y1="-181" x2="7" y2="-181" stroke="#0a0604" stroke-width="0.7"/>
+    <!-- Nose -->
+    <path d="M-1,-176 L-1.4,-170 L0,-168 L1.4,-170 L1,-176 Z" fill="#3a2418" opacity="0.85"/>
+    <!-- Mouth — neutral line -->
+    <line x1="-3" y1="-166" x2="3" y2="-166" stroke="#1a0c08" stroke-width="0.55"/>
+  </g>
+
+  <!-- Caption -->
+  <g>
+    <rect x="14" y="14" width="280" height="34" rx="2" fill="#f5ecd8" stroke="#5a4a30" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">"The mask restored, seam by seam,</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">in the dark."</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,100 Q200,102 400,98 Q580,96 742,100"/>
+    <path d="M0,280 Q200,282 400,278 Q580,276 742,280"/>
+  </g>
+</svg>
