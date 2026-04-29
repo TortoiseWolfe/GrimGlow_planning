@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 340" width="494" height="340">
+  <title>Issue 7 — Page 13 — Panel 1: Wren inside the Fresnel — cathedral of refracted light, target lens overhead, four retaining clips</title>
+  <desc>35mm medium wide eye level inside Fresnel lens assembly. Wren stands base of target element — surrounded concentric rings hand-ground glass prisms set brass framework. Each prism towering slab of glass at her scale precisely angled catching lamp flame splitting amber gold white. Light extraordinary — warm amber refracted prismatic spectra bands of color crossing every surface. One specific prism ring she needs extract replace. Reaches up running hand along brass framework four retaining clips each size of door to her. Holographic toolkit activates geometric shapes float to first clip. Focused but awed. Hand-ground glass craftsmanship beautiful.</desc>
+
+  <defs>
+    <radialGradient id="i7p13p1cathedral" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0.55"/>
+    </radialGradient>
+    <linearGradient id="i7p13p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <linearGradient id="i7p13p1brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0c898"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p13p1suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89858"/>
+      <stop offset="100%" stop-color="#5a2810"/>
+    </linearGradient>
+    <linearGradient id="i7p13p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="i7p13p1tool" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p13p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p13p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p13p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="494" height="340" fill="url(#i7p13p1bg)"/>
+
+  <!-- Cathedral of refracted light filling space -->
+  <ellipse cx="247" cy="180" rx="500" ry="320" fill="url(#i7p13p1cathedral)" filter="url(#i7p13p1strongglow)"/>
+
+  <!-- ===== CONCENTRIC GLASS PRISM RINGS (the cathedral walls) ===== -->
+  <!-- Outer ring -->
+  <g filter="url(#i7p13p1bloom)">
+    <ellipse cx="247" cy="170" rx="240" ry="200" fill="none" stroke="#fff8c8" stroke-width="2.4" opacity="0.95"/>
+    <ellipse cx="247" cy="170" rx="240" ry="200" fill="#ffd898" opacity="0.18"/>
+    <!-- Middle ring -->
+    <ellipse cx="247" cy="170" rx="180" ry="150" fill="none" stroke="#fff8c8" stroke-width="2" opacity="0.95"/>
+    <ellipse cx="247" cy="170" rx="180" ry="150" fill="#ffd898" opacity="0.18"/>
+    <!-- TARGET ring (highlighted slightly) -->
+    <ellipse cx="247" cy="170" rx="120" ry="100" fill="none" stroke="#fff" stroke-width="2.4" opacity="0.95"/>
+    <ellipse cx="247" cy="170" rx="120" ry="100" fill="#ffe0a8" opacity="0.25"/>
+    <!-- Inner ring -->
+    <ellipse cx="247" cy="170" rx="60" ry="50" fill="none" stroke="#fff8c8" stroke-width="1" opacity="0.85"/>
+  </g>
+
+  <!-- Prismatic refraction bands crossing surfaces -->
+  <g opacity="0.85" filter="url(#i7p13p1bloom)">
+    <line x1="0" y1="80" x2="494" y2="100" stroke="#fff8c8" stroke-width="1.4" opacity="0.55"/>
+    <line x1="0" y1="240" x2="494" y2="260" stroke="#ffd898" stroke-width="1" opacity="0.55"/>
+    <line x1="0" y1="120" x2="494" y2="140" stroke="#a8c0e8" stroke-width="0.55" opacity="0.4"/>
+    <line x1="0" y1="200" x2="494" y2="220" stroke="#ff8a78" stroke-width="0.55" opacity="0.4"/>
+  </g>
+
+  <!-- Faint rainbow band (prismatic edge) -->
+  <g opacity="0.55" filter="url(#i7p13p1bloom)">
+    <ellipse cx="247" cy="170" rx="240" ry="200" fill="none" stroke="#ff5050" stroke-width="0.55"/>
+    <ellipse cx="247" cy="170" rx="241" ry="201" fill="none" stroke="#f0a040" stroke-width="0.55"/>
+    <ellipse cx="247" cy="170" rx="242" ry="202" fill="none" stroke="#fff080" stroke-width="0.55"/>
+    <ellipse cx="247" cy="170" rx="243" ry="203" fill="none" stroke="#80f0a0" stroke-width="0.55"/>
+    <ellipse cx="247" cy="170" rx="244" ry="204" fill="none" stroke="#80a0f0" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== BRASS FRAMEWORK (verticals supporting the rings) ===== -->
+  <g stroke="url(#i7p13p1brass)" stroke-width="6" fill="none">
+    <line x1="80" y1="0" x2="80" y2="340"/>
+    <line x1="414" y1="0" x2="414" y2="340"/>
+    <line x1="247" y1="-30" x2="247" y2="0"/>
+  </g>
+  <line x1="80" y1="170" x2="414" y2="170" stroke="url(#i7p13p1brass)" stroke-width="3"/>
+
+  <!-- ===== FOUR RETAINING CLIPS (each size of door to Wren) ===== -->
+  <g fill="url(#i7p13p1brass)" stroke="#5a3018" stroke-width="0.85">
+    <!-- Clip 1 (left, currently engaged) -->
+    <rect x="120" y="120" width="22" height="60"/>
+    <circle cx="131" cy="120" r="6"/>
+    <!-- Clip 2 -->
+    <rect x="220" y="100" width="22" height="60"/>
+    <circle cx="231" cy="100" r="6"/>
+    <!-- Clip 3 -->
+    <rect x="320" y="100" width="22" height="60"/>
+    <circle cx="331" cy="100" r="6"/>
+    <!-- Clip 4 -->
+    <rect x="380" y="120" width="22" height="60"/>
+    <circle cx="391" cy="120" r="6"/>
+  </g>
+
+  <!-- Holographic geometric tools floating toward first clip -->
+  <g transform="translate(131 180)" filter="url(#i7p13p1bloom)">
+    <ellipse cx="0" cy="0" rx="32" ry="22" fill="url(#i7p13p1tool)" filter="url(#i7p13p1strongglow)"/>
+    <g stroke="#ffd898" stroke-width="0.85" fill="none" opacity="0.95">
+      <polygon points="-9,-3 -3,-3 0,3 -6,6"/>
+      <polygon points="9,-3 3,-3 0,3 6,6"/>
+      <line x1="0" y1="-9" x2="0" y2="9"/>
+    </g>
+    <circle cx="0" cy="0" r="2" fill="#fff" filter="url(#i7p13p1bloom)"/>
+  </g>
+
+  <!-- ===== WREN — center, base of lens, hand reaching up ===== -->
+  <g transform="translate(247 320)">
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.7"/>
+
+    <!-- Boots planted -->
+    <ellipse cx="-7" cy="-2" rx="5" ry="2" fill="#1a0c04"/>
+    <ellipse cx="7" cy="-2" rx="5" ry="2" fill="#1a0c04"/>
+
+    <!-- Legs -->
+    <path d="M-9,-4 L-12,-30 L-2,-50 L0,-30 Z" fill="url(#i7p13p1suit)"/>
+    <path d="M9,-4 L12,-30 L2,-50 L0,-30 Z" fill="url(#i7p13p1suit)"/>
+    <!-- Machine oil on knees -->
+    <ellipse cx="-2" cy="-46" rx="6" ry="2" fill="#0a0604" opacity="0.95"/>
+
+    <!-- Torso -->
+    <path d="M-14,-50 L-18,-110 L-9,-130 L9,-130 L18,-110 L14,-50 Z" fill="url(#i7p13p1suit)"/>
+    <line x1="0" y1="-130" x2="0" y2="-50" stroke="#f0c898" stroke-width="0.55" opacity="0.85" filter="url(#i7p13p1bloom)"/>
+    <!-- Heavy oil stains -->
+    <ellipse cx="-14" cy="-80" rx="6" ry="3" fill="#0a0604" opacity="0.85"/>
+
+    <!-- Prismatic bands crossing her body -->
+    <g opacity="0.55">
+      <line x1="-18" y1="-90" x2="18" y2="-86" stroke="#ff5050" stroke-width="0.4"/>
+      <line x1="-18" y1="-86" x2="18" y2="-82" stroke="#f0a040" stroke-width="0.4"/>
+      <line x1="-18" y1="-82" x2="18" y2="-78" stroke="#fff080" stroke-width="0.4"/>
+      <line x1="-18" y1="-78" x2="18" y2="-74" stroke="#80f0a0" stroke-width="0.4"/>
+    </g>
+
+    <!-- LEFT arm trailing along brass framework -->
+    <path d="M-18,-110 L-32,-90 L-30,-66 L-22,-90 Z" fill="url(#i7p13p1suit)"/>
+    <ellipse cx="-30" cy="-66" rx="3" ry="2" fill="url(#i7p13p1skin)"/>
+
+    <!-- RIGHT arm REACHING UP toward first clip -->
+    <path d="M18,-110 L40,-130 L60,-160 L60,-152 L40,-122 L18,-100 Z" fill="url(#i7p13p1suit)"/>
+    <!-- Hand on brass -->
+    <ellipse cx="60" cy="-156" rx="4" ry="2" fill="url(#i7p13p1skin)"/>
+    <!-- Machine oil on hand -->
+    <ellipse cx="60" cy="-156" rx="2.4" ry="1" fill="#0a0604" opacity="0.85"/>
+
+    <!-- Head looking UP -->
+    <ellipse cx="0" cy="-148" rx="9" ry="11" fill="url(#i7p13p1skin)"/>
+    <ellipse cx="0" cy="-160" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-7,-158 Q-5,-164 0,-165 Q5,-164 7,-158 L7,-154 Q4,-158 0,-158 Q-4,-158 -7,-154 Z" fill="#1a0a04"/>
+    <!-- Eyes UP, awed -->
+    <ellipse cx="-3" cy="-148" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="3" cy="-148" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="-3" cy="-150" rx="0.85" ry="0.55" fill="#3a1808"/>
+    <ellipse cx="3" cy="-150" rx="0.85" ry="0.55" fill="#3a1808"/>
+    <circle cx="-3" cy="-150" r="0.3" fill="#ffd898"/>
+    <circle cx="3" cy="-150" r="0.3" fill="#ffd898"/>
+    <!-- Brow lifted (awe) -->
+    <path d="M-7,-156 Q-3,-158 0,-156" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M7,-156 Q3,-158 0,-156" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <!-- Mouth slightly open -->
+    <ellipse cx="0" cy="-140" rx="1.4" ry="0.85" fill="#3a1808"/>
+  </g>
+
+  <!-- WREN -->
+  <g>
+    <rect x="14" y="14" width="466" height="50" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="220,64 232,64 224,76" fill="white" stroke="#c87a35" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(comms, whispered)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">At target element. Four retaining clips. The grinding</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">on this is exceptional. Someone shaped every surface by hand.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q120,182 240,178 Q360,176 494,180"/>
+    <path d="M0,280 Q120,282 240,278 Q360,276 494,280"/>
+  </g>
+</svg>

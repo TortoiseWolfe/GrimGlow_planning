@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 7 — Page 13 — Panel 3: First retaining clip — three holographic tools, beam sweep, sweat at the temple</title>
+  <desc>50mm medium eye level fairy scale. Wren working on first retaining clip. Holographic tools expanded — two geometric shapes grip clip from opposite sides while third acts as lever. Hands guide tools micro-adjustments. Clip moving slowly silently millimeter by millimeter. Sweat on Wren's temple. Glass prism beside refracts amber beam as sweeps past — flood directional light makes her freeze flatten against brass framework then resume as beam moves on.</desc>
+
+  <defs>
+    <linearGradient id="i7p13p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p13p3beamSweep" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p13p3brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0c898"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p13p3suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89858"/>
+      <stop offset="100%" stop-color="#5a2810"/>
+    </linearGradient>
+    <linearGradient id="i7p13p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="i7p13p3toolGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p13p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p13p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p13p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p13p3megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="742" height="320" fill="url(#i7p13p3bg)"/>
+
+  <!-- BEAM SWEEP — diagonal flood across mid-panel -->
+  <path d="M-40,40 L320,80 L740,140 L740,200 L320,180 L-40,160 Z" fill="url(#i7p13p3beamSweep)" filter="url(#i7p13p3megaglow)" opacity="0.7"/>
+  <!-- Beam center brightest -->
+  <path d="M-40,80 L740,160 L740,180 L-40,120 Z" fill="#ffe0a8" opacity="0.55" filter="url(#i7p13p3strongglow)"/>
+
+  <!-- ===== GLASS PRISM (large vertical slab beside Wren) ===== -->
+  <g transform="translate(540 160)" filter="url(#i7p13p3bloom)">
+    <ellipse cx="0" cy="0" rx="80" ry="140" fill="none" stroke="#fff8c8" stroke-width="2" opacity="0.95"/>
+    <ellipse cx="0" cy="0" rx="80" ry="140" fill="#ffd898" opacity="0.18"/>
+    <!-- Refraction prismatic edges -->
+    <ellipse cx="0" cy="0" rx="80" ry="140" fill="none" stroke="#ff5050" stroke-width="0.55" opacity="0.55"/>
+    <ellipse cx="0" cy="0" rx="81" ry="141" fill="none" stroke="#80a0f0" stroke-width="0.55" opacity="0.55"/>
+  </g>
+
+  <!-- ===== BRASS FRAMEWORK ===== -->
+  <line x1="200" y1="0" x2="200" y2="320" stroke="url(#i7p13p3brass)" stroke-width="9"/>
+  <line x1="100" y1="160" x2="600" y2="160" stroke="url(#i7p13p3brass)" stroke-width="3"/>
+  <!-- Vertical struts ribs -->
+  <line x1="80" y1="140" x2="160" y2="180" stroke="url(#i7p13p3brass)" stroke-width="3"/>
+  <line x1="600" y1="180" x2="680" y2="140" stroke="url(#i7p13p3brass)" stroke-width="3"/>
+
+  <!-- ===== RETAINING CLIP (target) ===== -->
+  <g transform="translate(280 140)">
+    <rect x="-14" y="0" width="28" height="60" fill="url(#i7p13p3brass)" stroke="#5a3018" stroke-width="0.85"/>
+    <circle cx="0" cy="0" r="9" fill="url(#i7p13p3brass)" stroke="#5a3018" stroke-width="0.85"/>
+    <!-- Clip moving slightly outward (extraction in progress) -->
+    <line x1="-14" y1="20" x2="-22" y2="22" stroke="#5a3018" stroke-width="0.55"/>
+    <line x1="14" y1="20" x2="22" y2="22" stroke="#5a3018" stroke-width="0.55"/>
+  </g>
+
+  <!-- THREE HOLOGRAPHIC TOOLS gripping/levering the clip -->
+  <g transform="translate(280 170)" filter="url(#i7p13p3bloom)">
+    <!-- Tool halo -->
+    <ellipse cx="0" cy="0" rx="60" ry="40" fill="url(#i7p13p3toolGlow)" filter="url(#i7p13p3megaglow)"/>
+    <!-- Left grip tool -->
+    <g stroke="#ffd898" stroke-width="0.85" fill="none" opacity="0.95">
+      <polygon points="-32,-12 -22,-12 -18,-3 -22,7 -32,7 -36,-3"/>
+      <line x1="-30" y1="-3" x2="-22" y2="-3"/>
+      <circle cx="-26" cy="-3" r="2"/>
+    </g>
+    <!-- Right grip tool -->
+    <g stroke="#ffd898" stroke-width="0.85" fill="none" opacity="0.95">
+      <polygon points="32,-12 22,-12 18,-3 22,7 32,7 36,-3"/>
+      <line x1="30" y1="-3" x2="22" y2="-3"/>
+      <circle cx="26" cy="-3" r="2"/>
+    </g>
+    <!-- Lever tool below -->
+    <g stroke="#ffd898" stroke-width="1" fill="none" opacity="0.95">
+      <line x1="-22" y1="20" x2="22" y2="20"/>
+      <polygon points="-3,15 3,15 6,25 -6,25"/>
+      <circle cx="0" cy="20" r="2.4"/>
+    </g>
+    <!-- Bright nodes -->
+    <circle cx="-26" cy="-3" r="1.4" fill="#fff" filter="url(#i7p13p3bloom)"/>
+    <circle cx="26" cy="-3" r="1.4" fill="#fff" filter="url(#i7p13p3bloom)"/>
+    <circle cx="0" cy="20" r="1.4" fill="#fff" filter="url(#i7p13p3bloom)"/>
+  </g>
+
+  <!-- ===== WREN — flattened against framework, working ===== -->
+  <g transform="translate(220 220)">
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.7"/>
+
+    <!-- Body flat against framework (slight forward lean) -->
+    <ellipse cx="-7" cy="-3" rx="6" ry="3" fill="url(#i7p13p3suit)"/>
+    <ellipse cx="7" cy="-3" rx="6" ry="3" fill="url(#i7p13p3suit)"/>
+    <!-- Machine oil knees -->
+    <ellipse cx="0" cy="-6" rx="9" ry="2" fill="#0a0604" opacity="0.95"/>
+
+    <!-- Torso pressed forward -->
+    <path d="M-9,-6 L-14,-50 L-9,-66 L9,-66 L14,-50 L9,-6 Z" fill="url(#i7p13p3suit)"/>
+    <line x1="0" y1="-66" x2="0" y2="-6" stroke="#f0c898" stroke-width="0.4" opacity="0.85" filter="url(#i7p13p3bloom)"/>
+    <!-- Heavy oil torso -->
+    <ellipse cx="-12" cy="-30" rx="6" ry="3" fill="#0a0604" opacity="0.85"/>
+
+    <!-- BOTH ARMS extended forward with hand-guides -->
+    <path d="M-14,-50 L-26,-30 L-30,-12 L-22,-12 L-12,-30 Z" fill="url(#i7p13p3suit)"/>
+    <ellipse cx="-30" cy="-12" rx="3" ry="1.4" fill="url(#i7p13p3skin)"/>
+    <path d="M14,-50 L40,-30 L60,-22 L60,-14 L40,-22 L20,-30 Z" fill="url(#i7p13p3suit)"/>
+    <ellipse cx="60" cy="-18" rx="3" ry="1.4" fill="url(#i7p13p3skin)"/>
+
+    <!-- Head — total concentration, sweat at temple -->
+    <ellipse cx="0" cy="-78" rx="9" ry="11" fill="url(#i7p13p3skin)"/>
+    <ellipse cx="0" cy="-90" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-7,-88 Q-5,-94 0,-95 Q5,-94 7,-88 L7,-84 Q4,-88 0,-88 Q-4,-88 -7,-84 Z" fill="#1a0a04"/>
+
+    <!-- SWEAT BEAD at temple -->
+    <ellipse cx="-9" cy="-80" rx="1.4" ry="2" fill="#a8c0e8" opacity="0.85" filter="url(#i7p13p3bloom)"/>
+    <line x1="-9" y1="-78" x2="-9" y2="-72" stroke="#a8c0e8" stroke-width="0.55" opacity="0.7"/>
+
+    <!-- Eyes — narrowed concentration -->
+    <ellipse cx="-3" cy="-78" rx="1.4" ry="0.55" fill="#fff"/>
+    <ellipse cx="3" cy="-78" rx="1.4" ry="0.55" fill="#fff"/>
+    <ellipse cx="-3" cy="-78" rx="0.85" ry="0.4" fill="#3a1808"/>
+    <ellipse cx="3" cy="-78" rx="0.85" ry="0.4" fill="#3a1808"/>
+    <!-- Brow drawn down -->
+    <path d="M-7,-86 Q-3,-88 0,-86" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+    <path d="M7,-86 Q3,-88 0,-86" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+    <!-- Mouth pressed (jaw clenched) -->
+    <line x1="-3" y1="-72" x2="3" y2="-72" stroke="#3a1808" stroke-width="0.7"/>
+  </g>
+
+  <!-- WREN internal caption -->
+  <g>
+    <rect x="14" y="14" width="280" height="40" rx="2" fill="#f5ecd8" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(internal)</tspan></text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">One. Three to go.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q200,162 400,158 Q580,156 742,160"/>
+    <path d="M0,260 Q200,262 400,258 Q580,256 742,260"/>
+  </g>
+</svg>

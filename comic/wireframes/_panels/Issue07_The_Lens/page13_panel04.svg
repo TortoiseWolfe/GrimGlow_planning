@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 380" width="366" height="380">
+  <title>Issue 7 — Page 13 — Panel 4: Original lens extracted — copper-gold cradle, prismatic refraction across Wren's face</title>
+  <desc>50mm medium close-up. Wren maneuvers original lens element out of housing. All four clips released. Glass prism enormous relative to her — maneuvered with holographic tool-fields surrounding it copper-gold geometric cradle guiding it sideways out of brass framework. Glass catches lamp light throws prismatic refraction across Wren's face. Moment greatest risk. Controlled exhilaration. Hardest part done.</desc>
+
+  <defs>
+    <linearGradient id="i7p13p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p13p4lensGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p13p4brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0c898"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p13p4suit" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a85820"/>
+      <stop offset="50%" stop-color="#f0c898"/>
+      <stop offset="100%" stop-color="#a85820"/>
+    </linearGradient>
+    <linearGradient id="i7p13p4skinPrism" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff5050" stop-opacity="0.7"/>
+      <stop offset="20%" stop-color="#f0a040" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#fff080" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#80f0a0" stop-opacity="0.7"/>
+      <stop offset="80%" stop-color="#80a0f0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a878f0" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="i7p13p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="i7p13p4cradleGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p13p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p13p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p13p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p13p4megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="366" height="380" fill="url(#i7p13p4bg)"/>
+
+  <!-- ===== EXTRACTED LENS being moved (UPPER center) ===== -->
+  <g transform="translate(220 130)" filter="url(#i7p13p4bloom)">
+    <!-- Cradle halo -->
+    <ellipse cx="0" cy="0" rx="120" ry="100" fill="url(#i7p13p4cradleGlow)" filter="url(#i7p13p4megaglow)"/>
+    <!-- Lens element (large glass prism slab) -->
+    <ellipse cx="0" cy="0" rx="80" ry="80" fill="url(#i7p13p4lensGlow)" filter="url(#i7p13p4bloom)"/>
+    <ellipse cx="0" cy="0" rx="80" ry="80" fill="none" stroke="#fff8c8" stroke-width="1.4" filter="url(#i7p13p4bloom)"/>
+    <ellipse cx="0" cy="0" rx="60" ry="60" fill="none" stroke="#fff8c8" stroke-width="1" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="40" ry="40" fill="none" stroke="#fff8c8" stroke-width="0.85" opacity="0.85"/>
+    <!-- Convex highlight -->
+    <ellipse cx="-22" cy="-22" rx="14" ry="9" fill="#fff" filter="url(#i7p13p4bloom)" opacity="0.85"/>
+    <!-- Rainbow refraction edges -->
+    <ellipse cx="0" cy="0" rx="80" ry="80" fill="none" stroke="#ff5050" stroke-width="0.7" opacity="0.55"/>
+    <ellipse cx="0" cy="0" rx="81" ry="81" fill="none" stroke="#80a0f0" stroke-width="0.7" opacity="0.55"/>
+  </g>
+
+  <!-- ===== HOLOGRAPHIC CRADLE around lens — geometric copper-gold ===== -->
+  <g transform="translate(220 130)" stroke="#ffd898" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#i7p13p4bloom)">
+    <!-- Hexagonal cradle structure -->
+    <polygon points="-100,-50 -50,-100 50,-100 100,-50 100,50 50,100 -50,100 -100,50"/>
+    <polygon points="-90,-45 -45,-90 45,-90 90,-45 90,45 45,90 -45,90 -90,45"/>
+    <!-- Connecting struts -->
+    <line x1="-100" y1="-50" x2="-50" y2="-100"/>
+    <line x1="50" y1="-100" x2="100" y2="-50"/>
+    <line x1="100" y1="50" x2="50" y2="100"/>
+    <line x1="-50" y1="100" x2="-100" y2="50"/>
+    <line x1="-100" y1="0" x2="100" y2="0"/>
+    <line x1="0" y1="-100" x2="0" y2="100"/>
+  </g>
+  <!-- Glow nodes at cradle vertices -->
+  <g transform="translate(220 130)" fill="#fff" filter="url(#i7p13p4bloom)" opacity="0.95">
+    <circle cx="-100" cy="-50" r="2"/>
+    <circle cx="100" cy="-50" r="2"/>
+    <circle cx="-100" cy="50" r="2"/>
+    <circle cx="100" cy="50" r="2"/>
+    <circle cx="-50" cy="-100" r="2"/>
+    <circle cx="50" cy="-100" r="2"/>
+    <circle cx="-50" cy="100" r="2"/>
+    <circle cx="50" cy="100" r="2"/>
+  </g>
+
+  <!-- ===== EMPTY HOUSING (where lens was) — left side ===== -->
+  <g transform="translate(60 130)">
+    <!-- Brass framework empty -->
+    <rect x="-40" y="-80" width="80" height="160" fill="none" stroke="url(#i7p13p4brass)" stroke-width="6"/>
+    <!-- Empty mounting points (clips withdrawn) -->
+    <circle cx="-40" cy="-50" r="4" fill="url(#i7p13p4brass)" stroke="#5a3018" stroke-width="0.55"/>
+    <circle cx="40" cy="-50" r="4" fill="url(#i7p13p4brass)" stroke="#5a3018" stroke-width="0.55"/>
+    <circle cx="-40" cy="50" r="4" fill="url(#i7p13p4brass)" stroke="#5a3018" stroke-width="0.55"/>
+    <circle cx="40" cy="50" r="4" fill="url(#i7p13p4brass)" stroke="#5a3018" stroke-width="0.55"/>
+    <!-- Inner empty space -->
+    <rect x="-30" y="-70" width="60" height="140" fill="#1a0c04" opacity="0.55"/>
+  </g>
+
+  <!-- ===== WREN — lower center, hands manipulating cradle ===== -->
+  <g transform="translate(160 360)">
+    <ellipse cx="0" cy="0" rx="22" ry="3" fill="#000" opacity="0.7"/>
+
+    <!-- Crouched stance -->
+    <ellipse cx="-12" cy="-3" rx="9" ry="3" fill="url(#i7p13p4suit)"/>
+    <ellipse cx="12" cy="-3" rx="9" ry="3" fill="url(#i7p13p4suit)"/>
+
+    <!-- Torso leaning forward -->
+    <path d="M-18,-7 L-26,-100 L-12,-130 L12,-130 L26,-100 L18,-7 Z" fill="url(#i7p13p4suit)"/>
+    <!-- Prismatic bands washing across body (through the lens light) -->
+    <g opacity="0.7" filter="url(#i7p13p4bloom)">
+      <line x1="-26" y1="-50" x2="26" y2="-50" stroke="url(#i7p13p4skinPrism)" stroke-width="6"/>
+      <line x1="-26" y1="-30" x2="26" y2="-30" stroke="url(#i7p13p4skinPrism)" stroke-width="3" opacity="0.55"/>
+    </g>
+
+    <!-- BOTH ARMS extended UP toward cradle -->
+    <path d="M-26,-100 L-50,-90 L-60,-70 L-50,-66 L-22,-86 Z" fill="url(#i7p13p4suit)"/>
+    <ellipse cx="-58" cy="-72" rx="6" ry="3" fill="url(#i7p13p4skin)"/>
+    <path d="M26,-100 L50,-90 L60,-70 L50,-66 L22,-86 Z" fill="url(#i7p13p4suit)"/>
+    <ellipse cx="58" cy="-72" rx="6" ry="3" fill="url(#i7p13p4skin)"/>
+    <!-- Machine oil hands -->
+    <ellipse cx="-58" cy="-72" rx="3" ry="1.4" fill="#0a0604" opacity="0.85"/>
+    <ellipse cx="58" cy="-72" rx="3" ry="1.4" fill="#0a0604" opacity="0.85"/>
+
+    <!-- Head — looking UP at lens -->
+    <ellipse cx="0" cy="-148" rx="14" ry="16" fill="url(#i7p13p4skin)"/>
+    <!-- PRISMATIC REFRACTION across face -->
+    <g opacity="0.55" filter="url(#i7p13p4bloom)">
+      <ellipse cx="-9" cy="-150" rx="6" ry="2" fill="#ff5050"/>
+      <ellipse cx="0" cy="-148" rx="9" ry="2" fill="#fff080"/>
+      <ellipse cx="9" cy="-150" rx="6" ry="2" fill="#80a0f0"/>
+    </g>
+    <ellipse cx="0" cy="-160" rx="9" ry="4" fill="#1a0a04"/>
+    <path d="M-12,-160 Q-9,-166 0,-168 Q9,-166 12,-160 L12,-156 Q6,-160 0,-160 Q-6,-160 -12,-156 Z" fill="#1a0a04"/>
+
+    <!-- Eyes — controlled exhilaration -->
+    <ellipse cx="-4" cy="-148" rx="2" ry="1.4" fill="#fff"/>
+    <ellipse cx="4" cy="-148" rx="2" ry="1.4" fill="#fff"/>
+    <ellipse cx="-4" cy="-148" rx="1" ry="0.85" fill="#3a1808"/>
+    <ellipse cx="4" cy="-148" rx="1" ry="0.85" fill="#3a1808"/>
+    <circle cx="-4" cy="-148" r="0.4" fill="#ffd898"/>
+    <circle cx="4" cy="-148" r="0.4" fill="#ffd898"/>
+    <!-- Brow lifted (eased) -->
+    <path d="M-9,-156 Q-4,-158 0,-156" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+    <path d="M9,-156 Q4,-158 0,-156" stroke="#5a3018" stroke-width="0.85" fill="none"/>
+    <!-- Slight quiet smile (relief) -->
+    <path d="M-3,-138 Q0,-136 3,-138" stroke="#3a1808" stroke-width="0.55" fill="none"/>
+  </g>
+
+  <!-- WREN -->
+  <g>
+    <rect x="14" y="14" width="338" height="40" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="180,54 192,54 184,64" fill="white" stroke="#c87a35" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(comms, barely audible)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Original extracted. Seating the replacement.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q100,202 200,198 Q280,196 366,200"/>
+    <path d="M0,320 Q100,322 200,318 Q280,316 366,320"/>
+  </g>
+</svg>

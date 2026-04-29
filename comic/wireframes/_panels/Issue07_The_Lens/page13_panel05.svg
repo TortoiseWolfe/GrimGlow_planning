@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 380" width="366" height="380">
+  <title>Issue 7 — Page 13 — Panel 5: Replacement seating — clips re-engaging, copper-gold etching subtle, mounting satisfaction</title>
+  <desc>50mm medium fairy scale. Wren seating replacement lens. Draws from holographic carry-harness on back guides into empty housing. Replacement glows faint copper-gold edges where holographic calibration etched — subtle difference invisible to keeper. Brass framework receives. Tools engage retaining clips reverse sequence. Precision focus joined mounting satisfaction. This is going to work.</desc>
+
+  <defs>
+    <linearGradient id="i7p13p5bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p13p5lensGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p13p5brass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0c898"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i7p13p5suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e89858"/>
+      <stop offset="100%" stop-color="#5a2810"/>
+    </linearGradient>
+    <linearGradient id="i7p13p5skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="i7p13p5etchGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p13p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p13p5glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p13p5strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="366" height="380" fill="url(#i7p13p5bg)"/>
+
+  <!-- ===== HOUSING — brass framework receiving lens, center ===== -->
+  <g transform="translate(220 180)">
+    <!-- Brass framework -->
+    <rect x="-80" y="-100" width="160" height="200" fill="none" stroke="url(#i7p13p5brass)" stroke-width="6"/>
+    <!-- Mount points -->
+    <circle cx="-80" cy="-50" r="6" fill="url(#i7p13p5brass)" stroke="#5a3018" stroke-width="0.85"/>
+    <circle cx="80" cy="-50" r="6" fill="url(#i7p13p5brass)" stroke="#5a3018" stroke-width="0.85"/>
+    <circle cx="-80" cy="50" r="6" fill="url(#i7p13p5brass)" stroke="#5a3018" stroke-width="0.85"/>
+    <circle cx="80" cy="50" r="6" fill="url(#i7p13p5brass)" stroke="#5a3018" stroke-width="0.85"/>
+
+    <!-- ===== REPLACEMENT LENS seated in housing ===== -->
+    <ellipse cx="0" cy="0" rx="70" ry="80" fill="url(#i7p13p5lensGlow)" filter="url(#i7p13p5bloom)"/>
+    <ellipse cx="0" cy="0" rx="70" ry="80" fill="none" stroke="#fff8c8" stroke-width="2" filter="url(#i7p13p5bloom)"/>
+    <!-- Inner concentric (Fresnel pattern) -->
+    <ellipse cx="0" cy="0" rx="55" ry="62" fill="none" stroke="#fff8c8" stroke-width="1.4" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="40" ry="46" fill="none" stroke="#fff8c8" stroke-width="1" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="22" ry="26" fill="none" stroke="#fff8c8" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- COPPER-GOLD HOLOGRAPHIC ETCHING at edges (subtle, faint) -->
+    <ellipse cx="0" cy="0" rx="70" ry="80" fill="none" stroke="#d89858" stroke-width="1" opacity="0.7" filter="url(#i7p13p5bloom)"/>
+    <!-- Microscopic etching dots around rim -->
+    <g fill="#ffd898" filter="url(#i7p13p5bloom)" opacity="0.95">
+      <circle cx="-70" cy="0" r="0.85"/>
+      <circle cx="70" cy="0" r="0.85"/>
+      <circle cx="0" cy="-80" r="0.85"/>
+      <circle cx="0" cy="80" r="0.85"/>
+      <circle cx="-49" cy="-56" r="0.7"/>
+      <circle cx="49" cy="-56" r="0.7"/>
+      <circle cx="-49" cy="56" r="0.7"/>
+      <circle cx="49" cy="56" r="0.7"/>
+      <circle cx="-66" cy="-30" r="0.55"/>
+      <circle cx="66" cy="-30" r="0.55"/>
+    </g>
+    <!-- Convex highlight -->
+    <ellipse cx="-22" cy="-22" rx="14" ry="9" fill="#fff" filter="url(#i7p13p5bloom)" opacity="0.7"/>
+  </g>
+
+  <!-- HOLOGRAPHIC TOOLS engaging clips in reverse (re-engaging) -->
+  <g filter="url(#i7p13p5bloom)" opacity="0.95">
+    <!-- Tool at clip 1 (top-left) -->
+    <g transform="translate(140 130)">
+      <ellipse cx="0" cy="0" rx="14" ry="9" fill="url(#i7p13p5etchGlow)" filter="url(#i7p13p5strongglow)"/>
+      <g stroke="#ffd898" stroke-width="0.55" fill="none">
+        <polygon points="-6,-3 0,-6 6,-3 6,3 0,6 -6,3"/>
+      </g>
+      <circle cx="0" cy="0" r="1.4" fill="#fff"/>
+    </g>
+    <!-- Tool at clip 2 (top-right) -->
+    <g transform="translate(300 130)">
+      <ellipse cx="0" cy="0" rx="14" ry="9" fill="url(#i7p13p5etchGlow)" filter="url(#i7p13p5strongglow)"/>
+      <g stroke="#ffd898" stroke-width="0.55" fill="none">
+        <polygon points="-6,-3 0,-6 6,-3 6,3 0,6 -6,3"/>
+      </g>
+      <circle cx="0" cy="0" r="1.4" fill="#fff"/>
+    </g>
+    <!-- Tool at clip 3 (bottom-left) -->
+    <g transform="translate(140 230)">
+      <ellipse cx="0" cy="0" rx="14" ry="9" fill="url(#i7p13p5etchGlow)" filter="url(#i7p13p5strongglow)"/>
+      <g stroke="#ffd898" stroke-width="0.55" fill="none">
+        <polygon points="-6,-3 0,-6 6,-3 6,3 0,6 -6,3"/>
+      </g>
+      <circle cx="0" cy="0" r="1.4" fill="#fff"/>
+    </g>
+    <!-- Tool at clip 4 (bottom-right) -->
+    <g transform="translate(300 230)">
+      <ellipse cx="0" cy="0" rx="14" ry="9" fill="url(#i7p13p5etchGlow)" filter="url(#i7p13p5strongglow)"/>
+      <g stroke="#ffd898" stroke-width="0.55" fill="none">
+        <polygon points="-6,-3 0,-6 6,-3 6,3 0,6 -6,3"/>
+      </g>
+      <circle cx="0" cy="0" r="1.4" fill="#fff"/>
+    </g>
+  </g>
+
+  <!-- ===== WREN — lower-left, hands extended directing tools ===== -->
+  <g transform="translate(80 360)">
+    <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.7"/>
+
+    <ellipse cx="-7" cy="-3" rx="6" ry="3" fill="url(#i7p13p5suit)"/>
+    <ellipse cx="7" cy="-3" rx="6" ry="3" fill="url(#i7p13p5suit)"/>
+
+    <!-- Torso -->
+    <path d="M-12,-7 L-16,-90 L-9,-110 L9,-110 L16,-90 L12,-7 Z" fill="url(#i7p13p5suit)"/>
+    <line x1="0" y1="-110" x2="0" y2="-7" stroke="#f0c898" stroke-width="0.4" opacity="0.85" filter="url(#i7p13p5bloom)"/>
+    <ellipse cx="-12" cy="-50" rx="6" ry="3" fill="#0a0604" opacity="0.85"/>
+
+    <!-- BOTH ARMS extended UP toward lens housing/tools -->
+    <path d="M-16,-90 L-30,-70 L-22,-50 L-12,-72 Z" fill="url(#i7p13p5suit)"/>
+    <ellipse cx="-30" cy="-58" rx="3" ry="2" fill="url(#i7p13p5skin)"/>
+    <path d="M16,-90 L40,-70 L60,-40 L60,-30 L40,-50 L20,-72 Z" fill="url(#i7p13p5suit)"/>
+    <ellipse cx="60" cy="-36" rx="4" ry="2.4" fill="url(#i7p13p5skin)"/>
+    <ellipse cx="60" cy="-36" rx="2.4" ry="1.4" fill="#0a0604" opacity="0.85"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-128" rx="9" ry="11" fill="url(#i7p13p5skin)"/>
+    <ellipse cx="0" cy="-140" rx="6" ry="3" fill="#1a0a04"/>
+    <path d="M-7,-138 Q-5,-144 0,-145 Q5,-144 7,-138 L7,-134 Q4,-138 0,-138 Q-4,-138 -7,-134 Z" fill="#1a0a04"/>
+    <ellipse cx="-3" cy="-128" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="3" cy="-128" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="-3" cy="-128" rx="0.85" ry="0.55" fill="#3a1808"/>
+    <ellipse cx="3" cy="-128" rx="0.85" ry="0.55" fill="#3a1808"/>
+    <circle cx="-3" cy="-128" r="0.3" fill="#ffd898"/>
+    <circle cx="3" cy="-128" r="0.3" fill="#ffd898"/>
+    <!-- Brow lifted satisfaction -->
+    <path d="M-7,-136 Q-3,-138 0,-136" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M7,-136 Q3,-138 0,-136" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <!-- Quiet smile -->
+    <path d="M-3,-118 Q0,-116 3,-118" stroke="#3a1808" stroke-width="0.55" fill="none"/>
+  </g>
+
+  <!-- WREN -->
+  <g>
+    <rect x="14" y="14" width="338" height="40" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="180,54 192,54 184,64" fill="white" stroke="#c87a35" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(comms, barely audible)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Replacement seating... clips engaging...</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q100,202 200,198 Q280,196 366,200"/>
+    <path d="M0,320 Q100,322 200,318 Q280,316 366,320"/>
+  </g>
+</svg>

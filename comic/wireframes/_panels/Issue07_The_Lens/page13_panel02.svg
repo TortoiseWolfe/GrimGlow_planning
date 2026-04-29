@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 340" width="238" height="340">
+  <title>Issue 7 — Page 13 — Panel 2: Keeper boots shift, page turns, faint glow leaks below — mundane threat</title>
+  <desc>85mm close-up slight high angle. Heavy leather boots on iron floor grating one shifting slightly. Above edge wooden desk weathered hand dipping pen inkwell leather-bound logbook open. Below boot through gap iron grating faintest copper-gold glow leaks upward — barely visible easy to miss if not looking for it. Warm amber oil lamp light desk surface hand pen. Sound chair creaking page turning. Ordinary oblivious.</desc>
+
+  <defs>
+    <linearGradient id="i7p13p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <radialGradient id="i7p13p2lampWarm" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p13p2wood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="i7p13p2iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p13p2boot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2418"/>
+      <stop offset="100%" stop-color="#1a0c08"/>
+    </linearGradient>
+    <linearGradient id="i7p13p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87858"/>
+      <stop offset="100%" stop-color="#5a3a28"/>
+    </linearGradient>
+    <radialGradient id="i7p13p2leakGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p13p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p13p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p13p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="238" height="340" fill="url(#i7p13p2bg)"/>
+
+  <!-- Lamp wash from above -->
+  <ellipse cx="119" cy="0" rx="240" ry="180" fill="url(#i7p13p2lampWarm)" filter="url(#i7p13p2strongglow)"/>
+
+  <!-- ===== DESK EDGE upper portion ===== -->
+  <rect x="0" y="0" width="238" height="80" fill="url(#i7p13p2wood)"/>
+  <line x1="0" y1="80" x2="238" y2="80" stroke="#1a0c04" stroke-width="1"/>
+  <!-- Wood grain -->
+  <g stroke="#1a0c04" stroke-width="0.55" opacity="0.7" fill="none">
+    <path d="M0,30 Q60,28 120,30 Q180,32 238,30"/>
+    <path d="M0,55 Q60,53 120,55 Q180,57 238,55"/>
+  </g>
+
+  <!-- LOGBOOK open on desk -->
+  <rect x="20" y="14" width="160" height="50" fill="#5a2818" stroke="#1a0c04" stroke-width="0.85"/>
+  <line x1="100" y1="14" x2="100" y2="64" stroke="#1a0c04" stroke-width="1"/>
+  <!-- Pages -->
+  <rect x="26" y="20" width="68" height="38" fill="#a89878"/>
+  <rect x="106" y="20" width="68" height="38" fill="#a89878"/>
+  <!-- Writing on pages -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.85" fill="none">
+    <line x1="32" y1="28" x2="88" y2="28"/>
+    <line x1="32" y1="34" x2="80" y2="34"/>
+    <line x1="32" y1="40" x2="88" y2="40"/>
+    <line x1="32" y1="46" x2="76" y2="46"/>
+    <line x1="32" y1="52" x2="84" y2="52"/>
+    <line x1="112" y1="28" x2="168" y2="28"/>
+    <line x1="112" y1="34" x2="160" y2="34"/>
+    <line x1="112" y1="40" x2="168" y2="40"/>
+  </g>
+  <!-- Page corner mid-turn -->
+  <path d="M174,20 L182,16 L188,30 L182,40" fill="#a89878" stroke="#7a6048" stroke-width="0.55"/>
+
+  <!-- WEATHERED HAND dipping pen in inkwell -->
+  <g transform="translate(204 50)">
+    <!-- Hand -->
+    <ellipse cx="0" cy="0" rx="9" ry="6" fill="url(#i7p13p2skin)"/>
+    <!-- Fingers gripping pen -->
+    <ellipse cx="-7" cy="-3" rx="2.4" ry="6" fill="url(#i7p13p2skin)"/>
+    <!-- Pen -->
+    <line x1="-9" y1="-7" x2="-12" y2="-22" stroke="#1a0c04" stroke-width="1.4"/>
+    <line x1="-12" y1="-22" x2="-13" y2="-26" stroke="#5a3018" stroke-width="0.85"/>
+    <!-- Sleeve cuff -->
+    <rect x="3" y="-3" width="20" height="14" fill="#3a3838" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Inkwell suggested below -->
+    <ellipse cx="-7" cy="9" rx="4" ry="1" fill="#1a1018"/>
+  </g>
+
+  <!-- ===== IRON GRATING (mid-frame, where boots rest) ===== -->
+  <rect x="0" y="80" width="238" height="20" fill="url(#i7p13p2iron)"/>
+  <!-- Diamond pattern -->
+  <g stroke="#5a5860" stroke-width="0.55" opacity="0.85" fill="none">
+    <path d="M0,90 L40,80 L80,90 L120,80 L160,90 L200,80 L238,90"/>
+    <path d="M0,90 L40,100 L80,90 L120,100 L160,90 L200,100 L238,90"/>
+  </g>
+  <!-- Black gaps -->
+  <g fill="#000" opacity="0.85">
+    <polygon points="20,90 40,80 60,90 40,100"/>
+    <polygon points="100,90 120,80 140,90 120,100"/>
+    <polygon points="180,90 200,80 220,90 200,100"/>
+  </g>
+
+  <!-- ===== BOOTS on grating ===== -->
+  <g transform="translate(60 80)">
+    <ellipse cx="0" cy="2" rx="40" ry="3" fill="#000" opacity="0.85"/>
+    <!-- Boot body -->
+    <path d="M-30,-50 L-30,2 L20,2 L40,-9 L40,-50 Z" fill="url(#i7p13p2boot)"/>
+    <ellipse cx="30" cy="-9" rx="9" ry="6" fill="url(#i7p13p2boot)"/>
+    <rect x="-30" y="-12" width="70" height="14" fill="#1a0c04"/>
+    <rect x="-30" y="-22" width="14" height="20" fill="#3a3838"/>
+    <line x1="-22" y1="-30" x2="30" y2="-22" stroke="#0a0408" stroke-width="0.55" opacity="0.85"/>
+    <!-- Laces -->
+    <line x1="-15" y1="-40" x2="20" y2="-40" stroke="#1a0c04" stroke-width="0.4"/>
+    <line x1="-12" y1="-32" x2="18" y2="-32" stroke="#1a0c04" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== FAINT COPPER-GOLD GLOW leaking through grating gap (BARELY VISIBLE) ===== -->
+  <g transform="translate(140 100)">
+    <ellipse cx="0" cy="0" rx="22" ry="9" fill="url(#i7p13p2leakGlow)" filter="url(#i7p13p2glow)"/>
+    <ellipse cx="0" cy="0" rx="9" ry="3" fill="#ffd898" opacity="0.4" filter="url(#i7p13p2bloom)"/>
+  </g>
+
+  <!-- BELOW grating — dim suggestion -->
+  <rect x="0" y="100" width="238" height="240" fill="#1a0c04" opacity="0.7"/>
+
+  <!-- SFX -->
+  <g>
+    <rect x="14" y="14" width="180" height="34" rx="2" fill="white" stroke="#1a1a1a" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="38" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-weight="900" font-style="italic">*CRREEEAK*</text>
+
+  <!-- SFX 2 (smaller, pen on paper) -->
+  <g>
+    <rect x="14" y="58" width="160" height="30" rx="2" fill="white" stroke="#1a1a1a" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="78" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1a1a" font-weight="700" font-style="italic">scratch  scratch</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q60,182 120,178 Q180,176 238,180"/>
+    <path d="M0,260 Q60,262 120,258 Q180,256 238,260"/>
+  </g>
+</svg>
