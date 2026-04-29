@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 6 — Page 7 — Panel 5: Watched street — Theodore straightens, fog thickens, Luma pulled deeper into pocket</title>
+  <desc>35mm medium wide low angle. Theodore standing, head turning, scanning fog. Buildings loom. Distant gas lamp dim amber. Empty street. Luma's eyes barely visible over pocket edge — pulled deeper, watchful.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p7p5bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#605850"/>
+      <stop offset="50%" stop-color="#403830"/>
+      <stop offset="100%" stop-color="#2a2420"/>
+    </linearGradient>
+    <linearGradient id="i6p7p5bldg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#0a0608"/>
+    </linearGradient>
+    <linearGradient id="i6p7p5theoWaistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p7p5theoTrousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <radialGradient id="i6p7p5fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#807870" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a3430" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p7p5lampDim" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa48" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p7p5pocketDim" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5a3ad8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#2a1058" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p7p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p7p5glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#i6p7p5bg)"/>
+
+  <!-- Sky band (low angle = lots of sky/fog) -->
+  <rect width="366" height="120" fill="#7a7068"/>
+  <ellipse cx="183" cy="120" rx="280" ry="120" fill="url(#i6p7p5fog)" filter="url(#i6p7p5glow)" opacity="0.95"/>
+
+  <!-- LEFT building (looming, low angle compresses) -->
+  <rect x="0" y="80" width="100" height="280" fill="url(#i6p7p5bldg)"/>
+  <rect x="0" y="80" width="100" height="60" fill="url(#i6p7p5fog)" opacity="0.6"/>
+  <g stroke="#0a0408" stroke-width="0.4" opacity="0.55">
+    <line x1="0" y1="140" x2="100" y2="140"/>
+    <line x1="0" y1="180" x2="100" y2="180"/>
+    <line x1="0" y1="240" x2="100" y2="240"/>
+    <line x1="0" y1="300" x2="100" y2="300"/>
+  </g>
+  <g fill="#0a0408">
+    <rect x="20" y="160" width="14" height="20"/>
+    <rect x="50" y="160" width="14" height="20"/>
+    <rect x="80" y="160" width="14" height="20"/>
+    <rect x="20" y="200" width="14" height="20"/>
+    <rect x="50" y="200" width="14" height="20"/>
+    <rect x="80" y="200" width="14" height="20"/>
+    <rect x="20" y="260" width="14" height="20"/>
+    <rect x="50" y="260" width="14" height="20"/>
+    <rect x="80" y="260" width="14" height="20"/>
+  </g>
+
+  <!-- RIGHT building -->
+  <rect x="266" y="80" width="100" height="280" fill="url(#i6p7p5bldg)"/>
+  <rect x="266" y="80" width="100" height="60" fill="url(#i6p7p5fog)" opacity="0.6"/>
+  <g stroke="#0a0408" stroke-width="0.4" opacity="0.55">
+    <line x1="266" y1="140" x2="366" y2="140"/>
+    <line x1="266" y1="180" x2="366" y2="180"/>
+    <line x1="266" y1="240" x2="366" y2="240"/>
+    <line x1="266" y1="300" x2="366" y2="300"/>
+  </g>
+  <g fill="#0a0408">
+    <rect x="280" y="160" width="14" height="20"/>
+    <rect x="310" y="160" width="14" height="20"/>
+    <rect x="340" y="160" width="14" height="20"/>
+    <rect x="280" y="200" width="14" height="20"/>
+    <rect x="310" y="200" width="14" height="20"/>
+    <rect x="340" y="200" width="14" height="20"/>
+    <rect x="280" y="260" width="14" height="20"/>
+    <rect x="310" y="260" width="14" height="20"/>
+    <rect x="340" y="260" width="14" height="20"/>
+  </g>
+
+  <!-- Distant building behind -->
+  <rect x="100" y="100" width="166" height="240" fill="#403830" opacity="0.85"/>
+  <rect x="100" y="100" width="166" height="60" fill="url(#i6p7p5fog)" opacity="0.65"/>
+  <g fill="#1a1008">
+    <rect x="120" y="180" width="14" height="20"/>
+    <rect x="150" y="180" width="14" height="20"/>
+    <rect x="180" y="180" width="14" height="20"/>
+    <rect x="210" y="180" width="14" height="20"/>
+    <rect x="240" y="180" width="14" height="20"/>
+    <rect x="120" y="220" width="14" height="20"/>
+    <rect x="150" y="220" width="14" height="20"/>
+    <rect x="180" y="220" width="14" height="20"/>
+    <rect x="210" y="220" width="14" height="20"/>
+    <rect x="240" y="220" width="14" height="20"/>
+  </g>
+
+  <!-- Cobble street at bottom -->
+  <rect x="0" y="340" width="366" height="24" fill="#3a3028"/>
+
+  <!-- Distant gas lamp DIM amber smear -->
+  <g transform="translate(330 220)">
+    <ellipse cx="0" cy="0" rx="22" ry="60" fill="url(#i6p7p5lampDim)" filter="url(#i6p7p5glow)"/>
+    <rect x="-1" y="-12" width="2" height="14" fill="#3a2820" opacity="0.85"/>
+    <rect x="-3" y="-26" width="6" height="14" fill="#3a3028" opacity="0.85"/>
+    <rect x="-2" y="-24" width="4" height="11" fill="#ffaa48" opacity="0.85" filter="url(#i6p7p5bloom)"/>
+  </g>
+
+  <!-- ===== THEODORE — center, standing, head turned right scanning fog ===== -->
+  <g transform="translate(160 340)">
+    <ellipse cx="-7" cy="0" rx="9" ry="3" fill="#1a0c04"/>
+    <ellipse cx="7" cy="0" rx="9" ry="3" fill="#1a0c04"/>
+    <!-- Trousers -->
+    <path d="M-10,-66 L-2,-66 L-4,0 L-12,0 Z" fill="url(#i6p7p5theoTrousers)"/>
+    <path d="M2,-66 L10,-66 L12,0 L4,0 Z" fill="url(#i6p7p5theoTrousers)"/>
+    <rect x="-12" y="-22" width="9" height="11" fill="#5a3018" stroke="#3a1808" stroke-width="0.45" opacity="0.85"/>
+    <rect x="3" y="-20" width="9" height="11" fill="#5a3018" stroke="#3a1808" stroke-width="0.45" opacity="0.85"/>
+    <rect x="-10" y="-66" width="22" height="3" fill="#3a1808"/>
+    <!-- Shirt + waistcoat -->
+    <path d="M-11,-128 L-10,-66 L11,-66 L12,-128 Z" fill="#d4c4a8"/>
+    <path d="M-13,-126 L-11,-66 L-2,-66 L-2,-126 Z" fill="url(#i6p7p5theoWaistcoat)"/>
+    <path d="M12,-126 L13,-66 L2,-66 L2,-126 Z" fill="url(#i6p7p5theoWaistcoat)"/>
+    <!-- Pocket — DIMMER glow now (Luma pulled deeper) -->
+    <rect x="3" y="-118" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <path d="M3,-118 L14,-118 L14,-114 L3,-114 Z" fill="#5a3018" stroke="#1a0c04" stroke-width="0.4"/>
+    <rect x="5" y="-114" width="7" height="9" fill="#3a2068" opacity="0.55"/>
+    <ellipse cx="8" cy="-110" rx="11" ry="6" fill="url(#i6p7p5pocketDim)" filter="url(#i6p7p5glow)" opacity="0.7"/>
+    <!-- LUMA's eyes barely visible over pocket edge -->
+    <ellipse cx="8" cy="-114" rx="2" ry="0.85" fill="#0a0604"/>
+    <circle cx="6.5" cy="-114" r="0.4" fill="#fff8e8"/>
+    <circle cx="9.5" cy="-114" r="0.4" fill="#fff8e8"/>
+    <!-- Buttons -->
+    <circle cx="-2" cy="-110" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-92" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-74" r="0.85" fill="#3a1808"/>
+    <!-- Linen collar -->
+    <path d="M-7,-128 L0,-126 L7,-128 L7,-122 L0,-118 L-7,-122 Z" fill="#e0d4b8"/>
+    <!-- Arms — alert posture, slightly out of pockets -->
+    <path d="M-13,-126 L-22,-100 L-22,-66 L-13,-66 Z" fill="url(#i6p7p5theoWaistcoat)"/>
+    <path d="M13,-126 L22,-100 L22,-66 L13,-66 Z" fill="url(#i6p7p5theoWaistcoat)"/>
+    <ellipse cx="-22" cy="-66" rx="2.4" ry="1.4" fill="#a87838"/>
+    <ellipse cx="22" cy="-66" rx="2.4" ry="1.4" fill="#a87838"/>
+    <circle cx="-22" cy="-67" r="0.7" fill="#c89058" filter="url(#i6p7p5bloom)" opacity="0.85"/>
+    <!-- Head + neck — TURNED RIGHT scanning -->
+    <rect x="-3" y="-136" width="6" height="8" fill="#a87838"/>
+    <ellipse cx="3" cy="-148" rx="13" ry="15" fill="#a87838"/>
+    <!-- Hair -->
+    <path d="M-10,-156 Q-7,-168 3,-170 Q15,-168 16,-156 L16,-148 Q12,-154 3,-154 Q-6,-154 -10,-148 Z" fill="#9a7038"/>
+    <path d="M-4,-164 L-2,-168 L-5,-168 Z" fill="#9a7038"/>
+    <path d="M8,-164 L10,-168 L7,-168 Z" fill="#9a7038"/>
+    <!-- Eyes looking right (scanning) -->
+    <ellipse cx="0" cy="-148" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="1" cy="-148" r="0.7" fill="#5a3818"/>
+    <ellipse cx="7" cy="-148" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="8" cy="-148" r="0.7" fill="#5a3818"/>
+    <!-- Brows tense -->
+    <path d="M-4,-154 L1,-154" stroke="#5a3018" stroke-width="0.55"/>
+    <path d="M5,-154 L10,-154" stroke="#5a3018" stroke-width="0.55"/>
+    <!-- Mouth tight -->
+    <path d="M0,-138 L6,-138" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Profile nose hint -->
+    <path d="M16,-148 Q20,-144 16,-140" stroke="#7a4828" stroke-width="0.7" fill="none"/>
+  </g>
+
+  <!-- LUMA dialogue 1 (whisper) -->
+  <g>
+    <rect x="14" y="14" width="338" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="160,54 172,54 164,64" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="160.5" y1="54" x2="171.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (from pocket)</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">We keep moving. The next site is two streets east.</text>
+
+  <!-- LUMA dialogue 2 -->
+  <g>
+    <rect x="14" y="62" width="280" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="140,102 152,102 144,112" fill="white" stroke="#5a3ad8" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="140.5" y1="102" x2="151.5" y2="102" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="80" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA</text>
+  <text x="22" y="94" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Stay in the open. Where there are people.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q330,136 366,140"/>
+    <path d="M0,300 Q120,302 240,298 Q330,296 366,300"/>
+  </g>
+</svg>

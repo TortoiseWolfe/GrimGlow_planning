@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 364" width="366" height="364">
+  <title>Issue 6 — Page 7 — Panel 4: Theodore reads Luma's alarm — dawning fear, "Luma. What did this?"</title>
+  <desc>50mm MCU eye level. Theodore's face. Reads Luma's alarm. Dawning fear. He swallows. Eyes shifting from looking down to scanning the foggy street around him. Faintest blue-violet on chin/throat from below.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p7p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#605850"/>
+      <stop offset="100%" stop-color="#3a3430"/>
+    </linearGradient>
+    <linearGradient id="i6p7p4linen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0d4b8"/>
+      <stop offset="100%" stop-color="#a8987c"/>
+    </linearGradient>
+    <linearGradient id="i6p7p4leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <radialGradient id="i6p7p4chinGlow" cx="50%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p7p4fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#807870" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#403830" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p7p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p7p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="364" fill="url(#i6p7p4bg)"/>
+
+  <!-- Faint fog haze background -->
+  <ellipse cx="183" cy="200" rx="240" ry="200" fill="url(#i6p7p4fog)" filter="url(#i6p7p4glow)"/>
+
+  <!-- Distant building silhouettes barely visible behind -->
+  <rect x="0" y="100" width="80" height="160" fill="#403830" opacity="0.55"/>
+  <rect x="286" y="100" width="80" height="160" fill="#403830" opacity="0.55"/>
+  <g fill="#3a3028" opacity="0.55">
+    <rect x="20" y="160" width="14" height="20"/>
+    <rect x="50" y="160" width="14" height="20"/>
+    <rect x="306" y="160" width="14" height="20"/>
+    <rect x="336" y="160" width="14" height="20"/>
+  </g>
+
+  <!-- ===== THEODORE — large MCU face filling frame ===== -->
+  <!-- Linen collar at bottom -->
+  <path d="M0,300 L160,280 L206,280 L366,300 L366,364 L0,364 Z" fill="url(#i6p7p4linen)"/>
+  <g stroke="#7a6c4e" stroke-width="0.55" opacity="0.7" fill="none">
+    <line x1="20" y1="320" x2="346" y2="320"/>
+    <line x1="20" y1="340" x2="346" y2="340"/>
+  </g>
+  <!-- Waistcoat edges visible -->
+  <path d="M0,300 L60,288 L60,364 L0,364 Z" fill="url(#i6p7p4leather)"/>
+  <path d="M306,288 L366,300 L366,364 L306,364 Z" fill="url(#i6p7p4leather)"/>
+
+  <g transform="translate(183 168)">
+    <!-- Neck -->
+    <path d="M-32,98 L32,98 L36,128 L-36,128 Z" fill="#a87838"/>
+    <line x1="-30" y1="120" x2="30" y2="120" stroke="#5a3018" stroke-width="0.55" opacity="0.6"/>
+
+    <!-- HEAD -->
+    <ellipse cx="0" cy="0" rx="120" ry="148" fill="#a87838"/>
+    <!-- Cheek volumes -->
+    <ellipse cx="-65" cy="40" rx="22" ry="36" fill="#8a5828" opacity="0.55"/>
+    <ellipse cx="65" cy="40" rx="22" ry="36" fill="#8a5828" opacity="0.55"/>
+    <!-- Forehead light -->
+    <ellipse cx="0" cy="-90" rx="50" ry="14" fill="#c0905a" opacity="0.55"/>
+
+    <!-- HAIR — sandy-brown, untidy -->
+    <path d="M-105,-50 Q-100,-110 -50,-130 Q0,-138 50,-130 Q100,-110 105,-50 L100,-20 Q60,-60 0,-60 Q-60,-60 -100,-20 Z" fill="#9a7038"/>
+    <!-- Tousled tufts -->
+    <path d="M-30,-128 L-25,-138 L-20,-128 Z" fill="#9a7038"/>
+    <path d="M-5,-138 L0,-148 L5,-138 Z" fill="#9a7038"/>
+    <path d="M20,-130 L26,-140 L32,-128 Z" fill="#9a7038"/>
+    <path d="M45,-122 L52,-130 L58,-118 Z" fill="#9a7038"/>
+    <!-- Hair edges loose -->
+    <path d="M-90,-30 Q-100,-10 -86,30" stroke="#7a5028" stroke-width="0.7" fill="none" opacity="0.55"/>
+    <path d="M90,-30 Q100,-10 86,30" stroke="#7a5028" stroke-width="0.7" fill="none" opacity="0.55"/>
+
+    <!-- EYES — slightly wide, EYE LINES SHIFTING right (he's scanning the street, not looking at bird) -->
+    <ellipse cx="-32" cy="0" rx="14" ry="6" fill="#fff8e8"/>
+    <ellipse cx="-32" cy="0" rx="11" ry="4" fill="#fff8ff" opacity="0.85"/>
+    <!-- Iris shifted right -->
+    <circle cx="-26" cy="0" r="4" fill="#5a3818"/>
+    <circle cx="-25" cy="-1" r="1" fill="#fff8ff"/>
+    <ellipse cx="32" cy="0" rx="14" ry="6" fill="#fff8e8"/>
+    <ellipse cx="32" cy="0" rx="11" ry="4" fill="#fff8ff" opacity="0.85"/>
+    <circle cx="38" cy="0" r="4" fill="#5a3818"/>
+    <circle cx="39" cy="-1" r="1" fill="#fff8ff"/>
+
+    <!-- Eyelid lines -->
+    <path d="M-44,-4 L-20,-3" stroke="#1a0c04" stroke-width="1.4"/>
+    <path d="M-44,4 L-20,3" stroke="#3a2018" stroke-width="0.85"/>
+    <path d="M20,-3 L44,-4" stroke="#1a0c04" stroke-width="1.4"/>
+    <path d="M20,3 L44,4" stroke="#3a2018" stroke-width="0.85"/>
+
+    <!-- Brows DRAWN UP slightly (concern) -->
+    <path d="M-46,-14 L-20,-16" stroke="#5a3018" stroke-width="2.4"/>
+    <path d="M20,-16 L46,-14" stroke="#5a3018" stroke-width="2.4"/>
+    <!-- Worry crease center -->
+    <line x1="-3" y1="-12" x2="-1" y2="-2" stroke="#5a3018" stroke-width="0.55" opacity="0.7"/>
+    <line x1="3" y1="-12" x2="1" y2="-2" stroke="#5a3018" stroke-width="0.55" opacity="0.7"/>
+
+    <!-- FRECKLES across nose -->
+    <circle cx="-22" cy="20" r="0.85" fill="#7a3018"/>
+    <circle cx="-12" cy="22" r="0.85" fill="#7a3018"/>
+    <circle cx="0" cy="24" r="0.85" fill="#7a3018"/>
+    <circle cx="12" cy="22" r="0.85" fill="#7a3018"/>
+    <circle cx="22" cy="20" r="0.85" fill="#7a3018"/>
+    <circle cx="-30" cy="14" r="0.55" fill="#7a3018"/>
+    <circle cx="30" cy="14" r="0.55" fill="#7a3018"/>
+
+    <!-- NOSE -->
+    <path d="M-2,4 L-6,30 L0,34 L6,30 L2,4 Z" fill="#7a4828" opacity="0.65"/>
+    <line x1="-6" y1="30" x2="6" y2="30" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+
+    <!-- MOUTH — slightly open, mid-swallow -->
+    <ellipse cx="0" cy="56" rx="11" ry="3" fill="#3a1808"/>
+    <path d="M-12,52 L12,52" stroke="#3a1808" stroke-width="1.1"/>
+    <line x1="-3" y1="56" x2="-3" y2="48" stroke="#3a1808" stroke-width="0.4" opacity="0.55"/>
+
+    <!-- Throat tension (mid-swallow lump) -->
+    <path d="M-10,98 Q0,108 10,98" stroke="#7a4828" stroke-width="1.4" fill="none" opacity="0.85"/>
+    <ellipse cx="0" cy="104" rx="6" ry="3" fill="#8a5828" opacity="0.55"/>
+
+    <!-- BLUE-VIOLET reflection from pocket below catching chin/throat -->
+    <ellipse cx="0" cy="98" rx="56" ry="11" fill="url(#i6p7p4chinGlow)" filter="url(#i6p7p4bloom)"/>
+    <path d="M-30,84 Q0,94 30,84" stroke="#a888ff" stroke-width="1" fill="none" opacity="0.85" filter="url(#i6p7p4bloom)"/>
+    <line x1="-22" y1="98" x2="22" y2="98" stroke="#a888ff" stroke-width="0.55" opacity="0.7" filter="url(#i6p7p4bloom)"/>
+  </g>
+
+  <!-- THEODORE dialogue (low, careful) -->
+  <g>
+    <rect x="14" y="14" width="160" height="58" rx="2" fill="white" stroke="#6a4220" stroke-width="0.7" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="3 2"/>
+    <polygon points="80,72 92,72 84,82" fill="white" stroke="#6a4220" stroke-width="0.7" stroke-dasharray="2 1.5"/>
+    <line x1="80.5" y1="72" x2="91.5" y2="72" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#6a4220" font-weight="700" font-style="italic">THEODORE (low)</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Luma.</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">What did this?</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q120,92 240,88 Q330,86 366,90"/>
+    <path d="M0,300 Q120,302 240,298 Q330,296 366,300"/>
+  </g>
+</svg>

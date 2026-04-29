@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238 364" width="238" height="364">
+  <title>Issue 6 — Page 7 — Panel 2: ECU dead bird — iridescent residue around it (oil-on-water bruise-purple)</title>
+  <desc>Macro extreme close-up at ground level. Sparrow eye open clouded, feathers pristine. Around it on cobbles: faint dark iridescence (oil-on-water, bruise-purple + black) — first visible Titan bio-trace.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p7p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#605850"/>
+      <stop offset="100%" stop-color="#2a2420"/>
+    </linearGradient>
+    <linearGradient id="i6p7p2cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6a605a"/>
+      <stop offset="100%" stop-color="#2a2420"/>
+    </linearGradient>
+    <radialGradient id="i6p7p2iridescence" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5a3a78" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#3a1828" stop-opacity="0.45"/>
+      <stop offset="70%" stop-color="#1a0c20" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0a0410" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p7p2ringDark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a0c20" stop-opacity="0"/>
+      <stop offset="80%" stop-color="#0a0410" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0410" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p7p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p7p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="238" height="364" fill="url(#i6p7p2bg)"/>
+
+  <!-- Cobblestone surface filling frame (very close, large stones) -->
+  <rect width="238" height="364" fill="url(#i6p7p2cobble)"/>
+  <!-- Large cobble seams -->
+  <g stroke="#1a1410" stroke-width="1" opacity="0.7" fill="none">
+    <path d="M0,40 Q60,42 120,40 Q180,38 238,40"/>
+    <path d="M0,140 Q60,142 120,140 Q180,138 238,140"/>
+    <path d="M0,240 Q60,242 120,240 Q180,238 238,240"/>
+    <path d="M0,330 Q60,332 120,330 Q180,328 238,330"/>
+    <line x1="60" y1="40" x2="60" y2="140"/>
+    <line x1="160" y1="40" x2="160" y2="140"/>
+    <line x1="40" y1="140" x2="40" y2="240"/>
+    <line x1="140" y1="140" x2="140" y2="240"/>
+    <line x1="80" y1="240" x2="80" y2="330"/>
+    <line x1="180" y1="240" x2="180" y2="330"/>
+  </g>
+  <!-- Cobble shadow gradients -->
+  <g fill="#3a3028" opacity="0.55">
+    <ellipse cx="80" cy="100" rx="6" ry="3"/>
+    <ellipse cx="200" cy="180" rx="8" ry="4"/>
+    <ellipse cx="40" cy="200" rx="6" ry="3"/>
+    <ellipse cx="160" cy="280" rx="7" ry="3"/>
+  </g>
+  <!-- Wet shine highlights -->
+  <g fill="#7a706a" opacity="0.45">
+    <ellipse cx="120" cy="80" rx="20" ry="3"/>
+    <ellipse cx="60" cy="240" rx="18" ry="3"/>
+    <ellipse cx="180" cy="320" rx="22" ry="3"/>
+  </g>
+
+  <!-- ===== IRIDESCENT RESIDUE around bird — large, dark oil-on-water sheen ===== -->
+  <ellipse cx="119" cy="200" rx="100" ry="80" fill="url(#i6p7p2iridescence)" filter="url(#i6p7p2glow)"/>
+  <ellipse cx="119" cy="200" rx="80" ry="60" fill="url(#i6p7p2iridescence)" opacity="0.7" filter="url(#i6p7p2bloom)"/>
+  <!-- Dark void ring effect — absorbs more than reflects -->
+  <ellipse cx="119" cy="200" rx="60" ry="44" fill="url(#i6p7p2ringDark)" opacity="0.85"/>
+  <!-- Iridescent micro-streaks (oil-on-water shimmer) -->
+  <g fill="none" filter="url(#i6p7p2bloom)">
+    <path d="M40,180 Q80,170 120,176 Q160,180 200,170" stroke="#5a3a78" stroke-width="0.7" opacity="0.55"/>
+    <path d="M40,200 Q80,210 120,200 Q160,190 200,210" stroke="#3a1828" stroke-width="0.55" opacity="0.55"/>
+    <path d="M40,220 Q80,230 120,220 Q160,212 200,230" stroke="#5a3a78" stroke-width="0.55" opacity="0.45"/>
+    <path d="M50,160 Q90,156 130,164" stroke="#7a3a78" stroke-width="0.4" opacity="0.45"/>
+    <path d="M70,250 Q110,256 150,248" stroke="#1a0c20" stroke-width="0.7" opacity="0.55"/>
+  </g>
+  <!-- Bruise-purple flecks -->
+  <g fill="#5a3a78" opacity="0.7" filter="url(#i6p7p2bloom)">
+    <circle cx="60" cy="170" r="0.85"/>
+    <circle cx="180" cy="180" r="0.7"/>
+    <circle cx="80" cy="240" r="0.85"/>
+    <circle cx="170" cy="220" r="0.7"/>
+    <circle cx="40" cy="200" r="0.55"/>
+    <circle cx="200" cy="220" r="0.55"/>
+  </g>
+
+  <!-- ===== DEAD SPARROW center — extreme close-up ===== -->
+  <g transform="translate(119 200)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="44" ry="22" fill="#3a2818" stroke="#1a0c04" stroke-width="1.4"/>
+    <!-- On its back -->
+    <ellipse cx="-6" cy="6" rx="22" ry="6" fill="#5a4030" opacity="0.85"/>
+    <!-- Body feather striations -->
+    <g stroke="#1a0c04" stroke-width="0.4" opacity="0.7" fill="none">
+      <path d="M-30,-6 Q-26,-2 -30,2"/>
+      <path d="M-22,-8 Q-18,-2 -22,2"/>
+      <path d="M-14,-10 Q-10,-4 -14,2"/>
+      <path d="M-6,-10 Q-2,-4 -6,2"/>
+      <path d="M2,-10 Q6,-4 2,2"/>
+      <path d="M10,-10 Q14,-4 10,2"/>
+      <path d="M18,-8 Q22,-2 18,2"/>
+      <path d="M26,-6 Q30,-2 26,2"/>
+    </g>
+
+    <!-- Wings spread -->
+    <path d="M-32,-6 L-72,-28 L-60,-2 Z" fill="#3a2818" stroke="#1a0c04" stroke-width="1"/>
+    <path d="M32,-6 L72,-28 L60,-2 Z" fill="#3a2818" stroke="#1a0c04" stroke-width="1"/>
+    <!-- Wing feather lines -->
+    <line x1="-36" y1="-10" x2="-60" y2="-24" stroke="#1a0c04" stroke-width="0.85" opacity="0.85"/>
+    <line x1="-40" y1="-12" x2="-66" y2="-26" stroke="#1a0c04" stroke-width="0.85" opacity="0.85"/>
+    <line x1="-44" y1="-14" x2="-70" y2="-27" stroke="#1a0c04" stroke-width="0.7" opacity="0.7"/>
+    <line x1="-48" y1="-16" x2="-72" y2="-28" stroke="#1a0c04" stroke-width="0.55" opacity="0.55"/>
+    <line x1="36" y1="-10" x2="60" y2="-24" stroke="#1a0c04" stroke-width="0.85" opacity="0.85"/>
+    <line x1="40" y1="-12" x2="66" y2="-26" stroke="#1a0c04" stroke-width="0.85" opacity="0.85"/>
+    <line x1="44" y1="-14" x2="70" y2="-27" stroke="#1a0c04" stroke-width="0.7" opacity="0.7"/>
+    <line x1="48" y1="-16" x2="72" y2="-28" stroke="#1a0c04" stroke-width="0.55" opacity="0.55"/>
+
+    <!-- Head + beak -->
+    <ellipse cx="-44" cy="0" rx="11" ry="9" fill="#3a2818" stroke="#1a0c04" stroke-width="0.85"/>
+    <path d="M-52,2 L-62,4 L-52,6 Z" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- EYE — open, clouded -->
+    <ellipse cx="-44" cy="-2" rx="4" ry="3" fill="#7a6858"/>
+    <circle cx="-44" cy="-2" r="2.4" fill="#5a4838"/>
+    <circle cx="-44" cy="-2" r="1.4" fill="#3a3028"/>
+    <!-- Cloudy fog over eye -->
+    <ellipse cx="-44" cy="-2" rx="3" ry="2" fill="#a8a098" opacity="0.45"/>
+    <!-- Subtle eye line -->
+    <line x1="-48" y1="-2" x2="-40" y2="-2" stroke="#1a0c04" stroke-width="0.55" opacity="0.55"/>
+
+    <!-- Tiny legs sticking up -->
+    <line x1="-10" y1="-6" x2="-12" y2="-22" stroke="#a87038" stroke-width="1.2"/>
+    <line x1="10" y1="-6" x2="12" y2="-22" stroke="#a87038" stroke-width="1.2"/>
+    <!-- Tiny claws -->
+    <path d="M-12,-22 L-14,-26 L-10,-25 L-12,-22 Z" fill="#5a3018"/>
+    <path d="M-12,-22 L-9,-24 L-12,-22" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+    <path d="M12,-22 L14,-26 L10,-25 L12,-22 Z" fill="#5a3018"/>
+    <path d="M12,-22 L15,-24 L12,-22" stroke="#5a3018" stroke-width="0.55" fill="none"/>
+
+    <!-- Tail feathers -->
+    <path d="M44,-2 L60,-4 L60,4 L44,6 Z" fill="#3a2818" stroke="#1a0c04" stroke-width="0.7"/>
+    <line x1="50" y1="-4" x2="50" y2="6" stroke="#1a0c04" stroke-width="0.4"/>
+    <line x1="55" y1="-4" x2="55" y2="6" stroke="#1a0c04" stroke-width="0.4"/>
+
+    <!-- Ground shadow -->
+    <ellipse cx="0" cy="22" rx="44" ry="4" fill="#1a0c04" opacity="0.55"/>
+
+    <!-- Subtle iridescent halo right at body edge -->
+    <ellipse cx="-44" cy="0" rx="14" ry="11" fill="none" stroke="#5a3a78" stroke-width="0.55" opacity="0.55" filter="url(#i6p7p2bloom)"/>
+    <ellipse cx="44" cy="0" rx="14" ry="11" fill="none" stroke="#5a3a78" stroke-width="0.55" opacity="0.55" filter="url(#i6p7p2bloom)"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q60,92 120,88 Q180,86 238,90"/>
+    <path d="M0,300 Q60,302 120,298 Q180,296 238,300"/>
+  </g>
+</svg>
