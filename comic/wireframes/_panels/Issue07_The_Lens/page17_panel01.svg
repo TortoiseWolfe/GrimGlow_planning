@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 1110" width="742" height="1110">
+  <title>Issue 7 — Page 17 — FULL PAGE: Jink sees the Titan — the void on the far bank, predatory wrongness, the grin is gone</title>
+  <desc>FULL PAGE. 24mm wide cinematic. Jink foreground gallery railing wings deployed turned to look across river. STOPPED. Body language changed completely. Casual overwatch posture gone. Rigid. GRIN GONE. Across black river far bank between warehouses fog — something. Dark shape. Too large. Taller than buildings. Still where fog moves. Edges shimmer dark iridescence — oil on water bruise-purple and black. Lighthouse beam crosses far bank — illuminates everything EXCEPT shape. Beam absorbed. Void in amber. Wrongness. Where visual rules collapse where darkness darker than darkness. Predatory.</desc>
+
+  <defs>
+    <linearGradient id="i7p17p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#1a1c2a"/>
+    </linearGradient>
+    <linearGradient id="i7p17p1water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p17p1farBank" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040204"/>
+    </linearGradient>
+    <linearGradient id="i7p17p1iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i7p17p1beamCone" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p17p1fog" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a3a4a" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1a28" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p17p1wingHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#5af0a0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a6838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p17p1suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p17p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <radialGradient id="i7p17p1voidCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0610" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#1a0c1a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#040208" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p17p1iridescence" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1838" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#1a1838" stop-opacity="0.55"/>
+      <stop offset="80%" stop-color="#3a1838" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1838" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="i7p17p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p17p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p17p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p17p1megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="i7p17p1wrongness"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- ===== SKY ===== -->
+  <rect width="742" height="500" fill="url(#i7p17p1sky)"/>
+  <!-- Stars (sparse, distant) -->
+  <g fill="#fff" opacity="0.4">
+    <circle cx="80" cy="40" r="0.55"/>
+    <circle cx="200" cy="60" r="0.4"/>
+    <circle cx="320" cy="40" r="0.55"/>
+    <circle cx="440" cy="80" r="0.4"/>
+    <circle cx="560" cy="40" r="0.55"/>
+    <circle cx="680" cy="60" r="0.4"/>
+    <circle cx="120" cy="120" r="0.4"/>
+    <circle cx="380" cy="140" r="0.4"/>
+    <circle cx="600" cy="120" r="0.4"/>
+  </g>
+
+  <!-- ===== LIGHTHOUSE BEAM sweeping across panel ===== -->
+  <path d="M-40,440 L740,300 L740,500 L-40,520 Z" fill="#ffd898" opacity="0.4" filter="url(#i7p17p1megaglow)"/>
+  <path d="M-40,460 L740,360 L740,460 L-40,500 Z" fill="#ffd898" opacity="0.55" filter="url(#i7p17p1strongglow)"/>
+  <ellipse cx="500" cy="380" rx="240" ry="100" fill="url(#i7p17p1beamCone)" filter="url(#i7p17p1megaglow)"/>
+
+  <!-- ===== FAR BANK silhouette + buildings ===== -->
+  <ellipse cx="371" cy="500" rx="540" ry="80" fill="url(#i7p17p1fog)" filter="url(#i7p17p1strongglow)"/>
+  <g fill="url(#i7p17p1farBank)" opacity="0.95">
+    <rect x="0" y="400" width="80" height="120"/>
+    <rect x="100" y="380" width="80" height="140"/>
+    <rect x="200" y="400" width="60" height="120"/>
+    <!-- Gap where Titan stands -->
+    <rect x="280" y="400" width="40" height="120"/>
+    <rect x="430" y="380" width="60" height="140"/>
+    <rect x="510" y="390" width="100" height="130"/>
+    <rect x="630" y="400" width="60" height="120"/>
+    <rect x="710" y="395" width="32" height="125"/>
+  </g>
+
+  <!-- Crane structures far -->
+  <g stroke="#0a0204" stroke-width="0.85" fill="none" opacity="0.85">
+    <line x1="120" y1="380" x2="120" y2="280"/>
+    <line x1="126" y1="380" x2="126" y2="280"/>
+    <line x1="120" y1="280" x2="160" y2="290"/>
+    <line x1="126" y1="290" x2="160" y2="298"/>
+    <line x1="160" y1="290" x2="160" y2="380"/>
+    <!-- Right crane (BEYOND the void shape) -->
+    <line x1="540" y1="380" x2="540" y2="260"/>
+    <line x1="546" y1="380" x2="546" y2="260"/>
+    <line x1="540" y1="260" x2="600" y2="280"/>
+    <line x1="540" y1="380" x2="540" y2="380"/>
+  </g>
+
+  <!-- Distant amber gas lamps (small, dim — note: lamps NEAR the void are MISSING/swallowed) -->
+  <g opacity="0.85" filter="url(#i7p17p1bloom)">
+    <circle cx="60" cy="450" r="1.4" fill="#d89858"/>
+    <circle cx="160" cy="440" r="1.4" fill="#d89858"/>
+    <circle cx="240" cy="450" r="1.4" fill="#d89858"/>
+    <!-- GAP HERE — no amber where Titan is -->
+    <circle cx="460" cy="440" r="1.4" fill="#d89858"/>
+    <circle cx="560" cy="450" r="1.4" fill="#d89858"/>
+    <circle cx="660" cy="450" r="1.4" fill="#d89858"/>
+    <circle cx="720" cy="450" r="1.4" fill="#d89858"/>
+  </g>
+
+  <!-- ===== THE TITAN — the void where light should be ===== -->
+  <!-- The shape stands where the building gap is, between buildings -->
+  <g transform="translate(371 320)">
+    <!-- Wrongness blur halo (anti-light absorbing) -->
+    <ellipse cx="0" cy="80" rx="100" ry="180" fill="url(#i7p17p1voidCore)" filter="url(#i7p17p1wrongness)"/>
+
+    <!-- The shape body — taller than buildings, ill-defined -->
+    <path d="M-40,220 L-50,80 L-60,-60 L-50,-160 L0,-200 L50,-160 L60,-60 L50,80 L40,220 Z" fill="#040208" opacity="0.95"/>
+    <path d="M-50,80 L-65,-30 L-55,-140 L0,-180 L55,-140 L65,-30 L50,80" fill="#0a0610" opacity="0.85"/>
+
+    <!-- Iridescent edges — oil on water bruise-purple/black -->
+    <g opacity="0.85" filter="url(#i7p17p1wrongness)">
+      <path d="M-50,80 L-65,-30 L-55,-140 L0,-180 L55,-140 L65,-30 L50,80" fill="url(#i7p17p1iridescence)"/>
+    </g>
+    <!-- Iridescence highlights (bruise-purple) -->
+    <g filter="url(#i7p17p1bloom)" opacity="0.7">
+      <ellipse cx="-55" cy="0" rx="9" ry="40" fill="#3a1838"/>
+      <ellipse cx="55" cy="0" rx="9" ry="40" fill="#3a1838"/>
+      <ellipse cx="0" cy="-180" rx="40" ry="14" fill="#1a1838"/>
+    </g>
+    <!-- Bruise-black -->
+    <g filter="url(#i7p17p1bloom)" opacity="0.85">
+      <ellipse cx="-50" cy="-40" rx="9" ry="22" fill="#0a0410"/>
+      <ellipse cx="50" cy="-40" rx="9" ry="22" fill="#0a0410"/>
+    </g>
+
+    <!-- Anti-light tendrils spilling into surrounding fog -->
+    <g fill="#040208" opacity="0.55" filter="url(#i7p17p1wrongness)">
+      <ellipse cx="-80" cy="60" rx="22" ry="40"/>
+      <ellipse cx="80" cy="80" rx="22" ry="40"/>
+      <ellipse cx="-50" cy="-220" rx="40" ry="14"/>
+      <ellipse cx="50" cy="-220" rx="40" ry="14"/>
+    </g>
+
+    <!-- BEAM ABSORPTION — where amber meets the shape, it ENDS -->
+    <!-- Beam approaches from screen-right (lighthouse) — beam should be visible illuminating fog around but NOT on shape -->
+    <path d="M-50,80 L-50,-160 L0,-200 L50,-160 L50,80 Z" fill="#040208" opacity="0.7"/>
+    <!-- Subtle iridescence ripple (oil-on-water surface texture) -->
+    <g stroke="#3a1838" stroke-width="0.4" fill="none" opacity="0.55" filter="url(#i7p17p1bloom)">
+      <path d="M-40,-100 Q0,-110 40,-100"/>
+      <path d="M-40,-40 Q0,-50 40,-40"/>
+      <path d="M-40,20 Q0,30 40,20"/>
+    </g>
+    <g stroke="#1a3838" stroke-width="0.4" fill="none" opacity="0.4" filter="url(#i7p17p1bloom)">
+      <path d="M-40,-80 Q0,-90 40,-80"/>
+      <path d="M-40,0 Q0,-10 40,0"/>
+      <path d="M-40,40 Q0,50 40,40"/>
+    </g>
+  </g>
+
+  <!-- ===== RIVER (middle ground) ===== -->
+  <rect x="0" y="500" width="742" height="220" fill="url(#i7p17p1water)"/>
+  <!-- Beam reflection broken on water -->
+  <g opacity="0.55" filter="url(#i7p17p1bloom)">
+    <ellipse cx="500" cy="560" rx="120" ry="6" fill="#ffd898"/>
+    <ellipse cx="500" cy="600" rx="100" ry="3" fill="#ffd898"/>
+    <ellipse cx="500" cy="640" rx="80" ry="3" fill="#ffd898"/>
+    <ellipse cx="500" cy="680" rx="60" ry="2" fill="#ffd898"/>
+  </g>
+  <!-- VOID reflection on water — MISSING — water near where Titan stands is BLACK BLACK -->
+  <ellipse cx="371" cy="600" rx="100" ry="40" fill="#040208" opacity="0.85" filter="url(#i7p17p1wrongness)"/>
+  <!-- Wave ripples -->
+  <g stroke="#1a1818" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,540 Q200,538 400,540 Q580,542 742,540"/>
+    <path d="M0,580 Q200,578 400,580 Q580,582 742,580"/>
+    <path d="M0,620 Q200,618 400,620 Q580,622 742,620"/>
+    <path d="M0,660 Q200,658 400,660 Q580,662 742,660"/>
+    <path d="M0,700 Q200,698 400,700 Q580,702 742,700"/>
+  </g>
+
+  <!-- ===== LIGHTHOUSE GALLERY RAILING (foreground bottom) ===== -->
+  <rect x="0" y="780" width="742" height="14" fill="url(#i7p17p1iron)"/>
+  <line x1="0" y1="780" x2="742" y2="780" stroke="#5a5860" stroke-width="0.7" filter="url(#i7p17p1bloom)" opacity="0.85"/>
+  <!-- Posts -->
+  <line x1="40" y1="794" x2="40" y2="1110" stroke="#0a0408" stroke-width="3"/>
+  <line x1="120" y1="794" x2="120" y2="1110" stroke="#0a0408" stroke-width="3"/>
+  <line x1="280" y1="794" x2="280" y2="1110" stroke="#0a0408" stroke-width="3"/>
+  <line x1="440" y1="794" x2="440" y2="1110" stroke="#0a0408" stroke-width="3"/>
+  <line x1="600" y1="794" x2="600" y2="1110" stroke="#0a0408" stroke-width="3"/>
+  <line x1="700" y1="794" x2="700" y2="1110" stroke="#0a0408" stroke-width="3"/>
+  <!-- Lower rail -->
+  <rect x="0" y="950" width="742" height="9" fill="url(#i7p17p1iron)"/>
+  <!-- Gallery deck -->
+  <rect x="0" y="959" width="742" height="151" fill="#1a1818"/>
+
+  <!-- ===== JINK — FOREGROUND, hovering at railing, RIGID, GRIN GONE ===== -->
+  <g transform="translate(220 780)">
+    <!-- Wing-pack halo (still bright, but Jink is rigid not flying) -->
+    <ellipse cx="0" cy="-60" rx="180" ry="100" fill="url(#i7p17p1wingHalo)" filter="url(#i7p17p1megaglow)"/>
+
+    <!-- WINGS DEPLOYED — emerald geometric lattice, fully spread -->
+    <g stroke="#5af0a0" stroke-width="2" fill="none" opacity="0.95" filter="url(#i7p17p1bloom)">
+      <!-- Upper left wing -->
+      <path d="M-12,-50 L-100,-100 L-140,-60 L-100,-30 L-30,-40 Z"/>
+      <line x1="-100" y1="-100" x2="-100" y2="-30"/>
+      <line x1="-30" y1="-40" x2="-140" y2="-60"/>
+      <line x1="-60" y1="-80" x2="-60" y2="-40"/>
+      <!-- Lower left wing -->
+      <path d="M-12,-30 L-100,0 L-140,-20 L-100,-30 L-30,-40 Z"/>
+      <line x1="-100" y1="-30" x2="-100" y2="0"/>
+      <!-- Upper right wing -->
+      <path d="M12,-50 L100,-100 L140,-60 L100,-30 L30,-40 Z"/>
+      <line x1="100" y1="-100" x2="100" y2="-30"/>
+      <line x1="30" y1="-40" x2="140" y2="-60"/>
+      <line x1="60" y1="-80" x2="60" y2="-40"/>
+      <!-- Lower right wing -->
+      <path d="M12,-30 L100,0 L140,-20 L100,-30 L30,-40 Z"/>
+      <line x1="100" y1="-30" x2="100" y2="0"/>
+    </g>
+    <!-- Wing membrane fill -->
+    <g fill="#5af0a0" opacity="0.4" filter="url(#i7p17p1bloom)">
+      <path d="M-12,-50 L-100,-100 L-140,-60 L-100,-30 L-30,-40 Z"/>
+      <path d="M-12,-30 L-100,0 L-140,-20 L-100,-30 L-30,-40 Z"/>
+      <path d="M12,-50 L100,-100 L140,-60 L100,-30 L30,-40 Z"/>
+      <path d="M12,-30 L100,0 L140,-20 L100,-30 L30,-40 Z"/>
+    </g>
+
+    <!-- Body — RIGID, hovering, NOT FLYING with intent -->
+    <path d="M-9,-30 L-12,-100 L-7,-130 L7,-130 L12,-100 L9,-30 Z" fill="url(#i7p17p1suit)"/>
+    <line x1="0" y1="-130" x2="0" y2="-30" stroke="#a8ffd0" stroke-width="0.85" opacity="0.85" filter="url(#i7p17p1bloom)"/>
+    <!-- Soot streak -->
+    <path d="M-9,-90 L9,-86" stroke="#1a1410" stroke-width="3" opacity="0.85"/>
+
+    <!-- LEGS HANGING LOOSE (not in flight pose) -->
+    <path d="M-9,-30 L-12,30 L-7,40 L-3,30 Z" fill="url(#i7p17p1suit)"/>
+    <path d="M9,-30 L12,30 L7,40 L3,30 Z" fill="url(#i7p17p1suit)"/>
+
+    <!-- ARMS LOOSE AT SIDES — not gripping, not reaching -->
+    <path d="M-12,-100 L-22,-80 L-22,-50 L-14,-70 Z" fill="url(#i7p17p1suit)"/>
+    <ellipse cx="-22" cy="-50" rx="3" ry="2" fill="url(#i7p17p1skin)"/>
+    <path d="M12,-100 L22,-80 L22,-50 L14,-70 Z" fill="url(#i7p17p1suit)"/>
+    <ellipse cx="22" cy="-50" rx="3" ry="2" fill="url(#i7p17p1skin)"/>
+
+    <!-- Head — turned LEFT toward the void on far bank -->
+    <ellipse cx="-3" cy="-150" rx="11" ry="14" fill="url(#i7p17p1skin)"/>
+    <!-- Wild golden curls -->
+    <path d="M-12,-164 Q-9,-180 -3,-182 Q9,-180 9,-164 L9,-156 Q6,-160 -3,-160 Q-9,-160 -12,-156 Z" fill="#f0d878"/>
+    <circle cx="-9" cy="-176" r="3" fill="#f0d878"/>
+    <circle cx="0" cy="-180" r="2.4" fill="#f0d878"/>
+    <circle cx="6" cy="-176" r="2.4" fill="#f0d878"/>
+
+    <!-- Eyes WIDE — golden eyes, frightened -->
+    <ellipse cx="-7" cy="-150" rx="3" ry="2" fill="#fff"/>
+    <ellipse cx="1" cy="-150" rx="3" ry="2" fill="#fff"/>
+    <ellipse cx="-7" cy="-150" rx="1.4" ry="1.4" fill="#1a4a28"/>
+    <ellipse cx="1" cy="-150" rx="1.4" ry="1.4" fill="#1a4a28"/>
+    <!-- Pupils dilated -->
+    <circle cx="-7" cy="-150" r="0.7" fill="#0a0c20"/>
+    <circle cx="1" cy="-150" r="0.7" fill="#0a0c20"/>
+
+    <!-- Brow lifted (fear) -->
+    <path d="M-13,-160 Q-7,-164 -1,-160" stroke="#5a3018" stroke-width="1" fill="none"/>
+    <path d="M7,-160 Q1,-164 -1,-160" stroke="#5a3018" stroke-width="1" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M-3,-150 L-4,-142 L-3,-138 L-2,-142 Z" fill="#a87838" opacity="0.85"/>
+
+    <!-- MOUTH SLIGHTLY OPEN — NO GRIN -->
+    <ellipse cx="-3" cy="-134" rx="1.4" ry="0.85" fill="#3a1808"/>
+    <line x1="-5" y1="-134" x2="-1" y2="-134" stroke="#1a0c04" stroke-width="0.4"/>
+  </g>
+
+  <!-- JINK whisper -->
+  <g>
+    <rect x="14" y="14" width="280" height="40" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="100,54 112,54 104,64" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(comms, trembling)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1410" font-weight="700">Sable.</text>
+
+  <!-- JINK -->
+  <g>
+    <rect x="14" y="64" width="380" height="40" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="80" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">There's something on the far bank.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,300 Q200,302 400,298 Q580,296 742,300"/>
+    <path d="M0,600 Q200,602 400,598 Q580,596 742,600"/>
+    <path d="M0,900 Q200,902 400,898 Q580,896 742,900"/>
+  </g>
+</svg>
