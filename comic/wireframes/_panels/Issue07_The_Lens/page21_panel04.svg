@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 320" width="248" height="320">
+  <title>Issue 7 — Page 21 — Panel 4: Wren at workstation, integrating lens, copper-gold schematics — she always worked</title>
+  <desc>50mm medium close-up eye level. Wren at workstation. Begun integrating original lens element into temporal drive. Copper-gold holographic schematics float around workspace — geometric projections, optical diagrams. Lens in hand, calibration etching at edges. Driven focus — jaw still tight from debrief, hands steady, eyes track schematics with precision. Compartmentalized fear and argument. Work remains.</desc>
+
+  <defs>
+    <linearGradient id="i7p21p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i7p21p4timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i7p21p4copperGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#d89858" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p21p4lensCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p21p4suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d88838"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="i7p21p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0b888"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i7p21p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p21p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p21p4strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i7p21p4megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="248" height="320" fill="url(#i7p21p4bg)"/>
+
+  <!-- Workstation timber surface -->
+  <rect x="0" y="200" width="248" height="120" fill="url(#i7p21p4timber)"/>
+  <line x1="0" y1="200" x2="248" y2="200" stroke="#5a3818" stroke-width="0.55" opacity="0.55"/>
+
+  <!-- ===== COPPER-GOLD HOLOGRAPHIC field illuminating everything ===== -->
+  <ellipse cx="124" cy="180" rx="180" ry="120" fill="url(#i7p21p4copperGlow)" filter="url(#i7p21p4megaglow)" opacity="0.85"/>
+
+  <!-- ===== HOLOGRAPHIC SCHEMATICS floating around workspace ===== -->
+  <g stroke="#ffa848" stroke-width="0.55" fill="none" filter="url(#i7p21p4bloom)" opacity="0.85">
+    <!-- Optical diagram top -->
+    <circle cx="60" cy="60" r="22"/>
+    <line x1="40" y1="60" x2="80" y2="60"/>
+    <line x1="60" y1="40" x2="60" y2="80"/>
+    <ellipse cx="60" cy="60" rx="18" ry="6"/>
+    <ellipse cx="60" cy="60" rx="11" ry="3"/>
+    <text x="50" y="32" font-family="monospace" font-size="3" fill="#ffa848" stroke="none">OPT-3</text>
+
+    <!-- Alignment grid right -->
+    <rect x="180" y="40" width="50" height="50"/>
+    <line x1="180" y1="55" x2="230" y2="55"/>
+    <line x1="180" y1="70" x2="230" y2="70"/>
+    <line x1="195" y1="40" x2="195" y2="90"/>
+    <line x1="210" y1="40" x2="210" y2="90"/>
+    <text x="184" y="38" font-family="monospace" font-size="3" fill="#ffa848" stroke="none">ALIGN</text>
+    <!-- Crosshairs -->
+    <circle cx="205" cy="65" r="4"/>
+    <line x1="201" y1="65" x2="209" y2="65"/>
+    <line x1="205" y1="61" x2="205" y2="69"/>
+
+    <!-- Calculations bottom-left -->
+    <text x="14" y="120" font-family="monospace" font-size="3" fill="#ffa848" stroke="none">λ=632.8</text>
+    <text x="14" y="130" font-family="monospace" font-size="3" fill="#ffa848" stroke="none">θ=0.024</text>
+    <text x="14" y="140" font-family="monospace" font-size="3" fill="#ffa848" stroke="none">f=−</text>
+
+    <!-- Vector arrows -->
+    <line x1="100" y1="100" x2="140" y2="120"/>
+    <polygon points="140,120 134,118 136,124" fill="#ffa848" stroke="none"/>
+    <line x1="160" y1="120" x2="120" y2="140"/>
+    <polygon points="120,140 126,142 124,136" fill="#ffa848" stroke="none"/>
+  </g>
+  <!-- Drive assembly schematic (right side, larger) -->
+  <g stroke="#ffd898" stroke-width="0.4" fill="none" opacity="0.7" filter="url(#i7p21p4bloom)">
+    <ellipse cx="220" cy="160" rx="22" ry="40"/>
+    <ellipse cx="220" cy="160" rx="14" ry="32"/>
+    <line x1="220" y1="120" x2="220" y2="200"/>
+  </g>
+
+  <!-- ===== WREN at workstation ===== -->
+  <g transform="translate(124 220)">
+    <!-- Body — leaning forward over work -->
+    <path d="M-22,80 L-26,40 L-30,9 L-22,-22 L-9,-44 L9,-44 L22,-22 L30,9 L26,40 L22,80 Z" fill="url(#i7p21p4suit)"/>
+
+    <!-- Oil stains (engineer's suit) -->
+    <ellipse cx="-14" cy="-9" rx="6" ry="4" fill="#1a0808" opacity="0.85"/>
+    <ellipse cx="9" cy="11" rx="4" ry="3" fill="#1a0808" opacity="0.7"/>
+    <path d="M-9,11 L0,22" stroke="#1a0808" stroke-width="0.85" opacity="0.55"/>
+
+    <!-- Suit accent copper -->
+    <line x1="0" y1="-22" x2="0" y2="60" stroke="#ffa848" stroke-width="0.7" opacity="0.85" filter="url(#i7p21p4bloom)"/>
+
+    <!-- Arms forward at workstation -->
+    <path d="M-22,-22 L-30,11 L-22,30 L-11,18 L-9,-9 Z" fill="url(#i7p21p4suit)"/>
+    <path d="M22,-22 L30,11 L22,30 L11,18 L9,-9 Z" fill="url(#i7p21p4suit)"/>
+
+    <!-- ===== HANDS holding the LENS ===== -->
+    <!-- Left hand -->
+    <ellipse cx="-22" cy="32" rx="6" ry="4" fill="url(#i7p21p4skin)"/>
+    <line x1="-26" y1="34" x2="-22" y2="36" stroke="#1a0808" stroke-width="0.4"/>
+    <!-- Right hand -->
+    <ellipse cx="22" cy="32" rx="6" ry="4" fill="url(#i7p21p4skin)"/>
+
+    <!-- LENS ELEMENT — glass with copper-gold calibration -->
+    <g filter="url(#i7p21p4strongglow)">
+      <ellipse cx="0" cy="36" rx="22" ry="6" fill="url(#i7p21p4lensCore)"/>
+    </g>
+    <ellipse cx="0" cy="36" rx="18" ry="5" fill="#fff8d8" opacity="0.85" filter="url(#i7p21p4bloom)"/>
+    <ellipse cx="0" cy="36" rx="14" ry="4" fill="none" stroke="#ffa848" stroke-width="0.55" filter="url(#i7p21p4bloom)" opacity="0.95"/>
+    <ellipse cx="0" cy="36" rx="9" ry="2.5" fill="none" stroke="#ffd898" stroke-width="0.4" opacity="0.85"/>
+    <!-- Lens calibration etching -->
+    <g stroke="#ffa848" stroke-width="0.4" opacity="0.85" filter="url(#i7p21p4bloom)">
+      <line x1="-16" y1="36" x2="-14" y2="36"/>
+      <line x1="-9" y1="34" x2="-7" y2="38"/>
+      <line x1="0" y1="34" x2="0" y2="38"/>
+      <line x1="9" y1="34" x2="7" y2="38"/>
+      <line x1="14" y1="36" x2="16" y2="36"/>
+    </g>
+
+    <!-- Neck -->
+    <path d="M-7,-44 L7,-44 L4,-50 L-4,-50 Z" fill="url(#i7p21p4skin)"/>
+
+    <!-- Head — leaning forward over work -->
+    <ellipse cx="0" cy="-66" rx="14" ry="14" fill="url(#i7p21p4skin)"/>
+
+    <!-- Messy hair UP (high knot) -->
+    <ellipse cx="0" cy="-86" rx="14" ry="9" fill="#1a1008"/>
+    <circle cx="6" cy="-90" r="5" fill="#1a1008"/>
+    <circle cx="-6" cy="-86" r="3" fill="#1a1008"/>
+    <!-- Loose hair strands -->
+    <path d="M-14,-72 Q-9,-66 -7,-58" stroke="#1a1008" stroke-width="0.85" fill="none" opacity="0.7"/>
+    <path d="M14,-72 Q9,-66 7,-58" stroke="#1a1008" stroke-width="0.85" fill="none" opacity="0.7"/>
+    <!-- Top of hair catches copper light -->
+    <ellipse cx="0" cy="-92" rx="9" ry="2" fill="#ffd898" filter="url(#i7p21p4bloom)" opacity="0.7"/>
+
+    <!-- Forehead / brow shadow -->
+    <ellipse cx="0" cy="-72" rx="11" ry="3" fill="#7a4818" opacity="0.4"/>
+
+    <!-- Eyes — sharp, focused, looking down at lens -->
+    <ellipse cx="-5" cy="-66" rx="2.5" ry="1.4" fill="#fff8e8"/>
+    <ellipse cx="-5" cy="-65" rx="1.4" ry="0.85" fill="#3a1808"/>
+    <ellipse cx="5" cy="-66" rx="2.5" ry="1.4" fill="#fff8e8"/>
+    <ellipse cx="5" cy="-65" rx="1.4" ry="0.85" fill="#3a1808"/>
+    <!-- Catchlight (lens copper) -->
+    <circle cx="-5" cy="-66" r="0.55" fill="#ffd898" filter="url(#i7p21p4bloom)" opacity="0.85"/>
+    <circle cx="5" cy="-66" r="0.55" fill="#ffd898" filter="url(#i7p21p4bloom)" opacity="0.85"/>
+
+    <!-- Brows — focused, slightly drawn -->
+    <line x1="-9" y1="-72" x2="-1" y2="-71" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="1" y1="-71" x2="9" y2="-72" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- Mouth — set, jaw still tight from debrief -->
+    <line x1="-3" y1="-54" x2="3" y2="-54" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- Cheekbone shadow -->
+    <ellipse cx="-9" cy="-58" rx="3" ry="6" fill="#5a3018" opacity="0.4"/>
+    <ellipse cx="9" cy="-58" rx="3" ry="6" fill="#5a3018" opacity="0.4"/>
+  </g>
+
+  <!-- ===== CAPTION ===== -->
+  <g>
+    <rect x="14" y="14" width="220" height="28" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">Wren worked. She always worked.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q60,142 124,138 Q190,136 248,140"/>
+    <path d="M0,260 Q60,262 124,258 Q190,256 248,260"/>
+  </g>
+</svg>

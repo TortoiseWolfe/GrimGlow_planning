@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 320" width="494" height="320">
+  <title>Issue 7 — Page 21 — Panel 5: Luma alone on perimeter beam, holographic lenses scrolling private data — her quiet has a different shape tonight</title>
+  <desc>50mm medium shot eye level. Luma alone on beam near camp perimeter. Holographic lenses active but dimmed — scrolling data she's been collecting independently. Glyph data from Issue 4. Anomaly data from Issue 6. Bio-trace analysis. The word STAY. Building a picture in silence — tonight's sighting gave it new dimension. Not yet ready to share. Hands in lap. Eyes glow faintly behind lenses. The quiet of a scientist not yet ready to publish.</desc>
+
+  <defs>
+    <linearGradient id="i7p21p5bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p21p5timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <radialGradient id="i7p21p5violetPool" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#7848b8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p21p5amberDistant" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#3a2818" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a1008" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p21p5suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i7p21p5skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a87838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <filter id="i7p21p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p21p5glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p21p5strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i7p21p5megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+    <filter id="i7p21p5dataPulse"><feGaussianBlur stdDeviation="0.85"/></filter>
+  </defs>
+
+  <rect width="494" height="320" fill="url(#i7p21p5bg)"/>
+
+  <!-- Distant amber from far above -->
+  <ellipse cx="0" cy="0" rx="180" ry="120" fill="url(#i7p21p5amberDistant)" filter="url(#i7p21p5megaglow)"/>
+
+  <!-- Beam shadow above (separating from camp's amber) -->
+  <rect x="0" y="60" width="494" height="22" fill="#040408" opacity="0.85"/>
+  <line x1="0" y1="60" x2="494" y2="60" stroke="#1a1008" stroke-width="0.85"/>
+  <line x1="0" y1="82" x2="494" y2="82" stroke="#1a1008" stroke-width="0.85"/>
+
+  <!-- Lower beam Luma sits on -->
+  <rect x="0" y="240" width="494" height="20" fill="url(#i7p21p5timber)"/>
+  <line x1="0" y1="240" x2="494" y2="240" stroke="#3a2818" stroke-width="0.55" opacity="0.55"/>
+  <!-- Beam grain -->
+  <g stroke="#040408" stroke-width="0.4" opacity="0.55">
+    <line x1="60" y1="240" x2="60" y2="260"/>
+    <line x1="180" y1="240" x2="180" y2="260"/>
+    <line x1="320" y1="240" x2="320" y2="260"/>
+    <line x1="440" y1="240" x2="440" y2="260"/>
+  </g>
+
+  <!-- ===== VIOLET POOL of holographic light around Luma ===== -->
+  <ellipse cx="247" cy="180" rx="220" ry="120" fill="url(#i7p21p5violetPool)" filter="url(#i7p21p5megaglow)"/>
+
+  <!-- ===== LUMA seated on beam, hands in lap ===== -->
+  <g transform="translate(247 220)">
+    <!-- Body — seated, contained posture -->
+    <path d="M-22,18 L-26,-3 L-30,-30 L-22,-50 L-9,-66 L9,-66 L22,-50 L30,-30 L26,-3 L22,18 Z" fill="url(#i7p21p5suit)"/>
+
+    <!-- Suit accent nodes (dim) -->
+    <line x1="0" y1="-50" x2="0" y2="11" stroke="#c8a8e8" stroke-width="0.55" opacity="0.55" filter="url(#i7p21p5bloom)"/>
+    <circle cx="-9" cy="-22" r="0.85" fill="#c8a8e8" filter="url(#i7p21p5bloom)" opacity="0.55"/>
+    <circle cx="9" cy="-22" r="0.85" fill="#c8a8e8" filter="url(#i7p21p5bloom)" opacity="0.55"/>
+    <circle cx="0" cy="0" r="0.85" fill="#c8a8e8" filter="url(#i7p21p5bloom)" opacity="0.55"/>
+
+    <!-- Knees (seated) -->
+    <ellipse cx="-14" cy="22" rx="11" ry="6" fill="url(#i7p21p5suit)"/>
+    <ellipse cx="14" cy="22" rx="11" ry="6" fill="url(#i7p21p5suit)"/>
+
+    <!-- Arms folded into lap -->
+    <path d="M-22,-30 L-30,-3 L-18,11 L-9,0 Z" fill="url(#i7p21p5suit)"/>
+    <path d="M22,-30 L30,-3 L18,11 L9,0 Z" fill="url(#i7p21p5suit)"/>
+    <!-- HANDS in lap — overlapping, still -->
+    <ellipse cx="-7" cy="14" rx="6" ry="3" fill="url(#i7p21p5skin)"/>
+    <ellipse cx="7" cy="14" rx="6" ry="3" fill="url(#i7p21p5skin)"/>
+
+    <!-- Neck -->
+    <path d="M-7,-66 L7,-66 L4,-72 L-4,-72 Z" fill="url(#i7p21p5skin)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-86" rx="14" ry="16" fill="url(#i7p21p5skin)"/>
+
+    <!-- Long thick BRAID cascading down -->
+    <path d="M3,-72 Q9,-58 14,-30 Q18,0 22,30" stroke="#1a0808" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Braid texture (alternating dark/light) -->
+    <g stroke="#3a1808" stroke-width="2" fill="none" opacity="0.85">
+      <path d="M5,-66 Q11,-50 14,-30"/>
+      <path d="M14,-30 Q18,-9 22,18"/>
+    </g>
+    <!-- Braid bands -->
+    <g fill="#5a3818" opacity="0.85">
+      <ellipse cx="11" cy="-50" rx="4" ry="1.4"/>
+      <ellipse cx="16" cy="-22" rx="4" ry="1.4"/>
+      <ellipse cx="20" cy="3" rx="4" ry="1.4"/>
+    </g>
+    <!-- LUMINOUS FILAMENT pulsing softly through the braid -->
+    <g stroke="#a878e8" stroke-width="0.55" fill="none" filter="url(#i7p21p5bloom)" opacity="0.95">
+      <path d="M3,-72 Q9,-58 14,-30 Q18,0 22,30"/>
+    </g>
+    <g filter="url(#i7p21p5strongglow)" opacity="0.7">
+      <ellipse cx="11" cy="-50" rx="3" ry="1.4" fill="#c8a8e8"/>
+      <ellipse cx="16" cy="-22" rx="3" ry="1.4" fill="#c8a8e8"/>
+      <ellipse cx="20" cy="3" rx="3" ry="1.4" fill="#c8a8e8"/>
+    </g>
+
+    <!-- Hair pulled back from face -->
+    <path d="M-14,-100 Q0,-104 14,-100 L14,-86 Q0,-90 -14,-86 Z" fill="#1a0808"/>
+
+    <!-- ===== HOLOGRAPHIC LENSES hovering before eyes — DIMMED, scrolling data ===== -->
+    <g filter="url(#i7p21p5strongglow)" opacity="0.7">
+      <ellipse cx="0" cy="-89" rx="22" ry="9" fill="#7848b8"/>
+    </g>
+    <!-- Left lens -->
+    <g filter="url(#i7p21p5bloom)">
+      <ellipse cx="-7" cy="-89" rx="5" ry="4" fill="none" stroke="#a878e8" stroke-width="0.55" opacity="0.95"/>
+      <ellipse cx="-7" cy="-89" rx="3" ry="3" fill="#3a1858" opacity="0.55"/>
+    </g>
+    <!-- Right lens -->
+    <g filter="url(#i7p21p5bloom)">
+      <ellipse cx="7" cy="-89" rx="5" ry="4" fill="none" stroke="#a878e8" stroke-width="0.55" opacity="0.95"/>
+      <ellipse cx="7" cy="-89" rx="3" ry="3" fill="#3a1858" opacity="0.55"/>
+    </g>
+    <!-- Bridge between lenses -->
+    <line x1="-2" y1="-89" x2="2" y2="-89" stroke="#a878e8" stroke-width="0.4" filter="url(#i7p21p5bloom)" opacity="0.85"/>
+
+    <!-- Scrolling data behind/around lenses (private analysis) -->
+    <g fill="#a878e8" filter="url(#i7p21p5dataPulse)" opacity="0.85">
+      <text x="-28" y="-94" font-family="monospace" font-size="2.5">GLYPH-04</text>
+      <text x="14" y="-94" font-family="monospace" font-size="2.5">ANOM-06</text>
+      <text x="-22" y="-78" font-family="monospace" font-size="2.5">BIO-TRACE</text>
+      <text x="14" y="-78" font-family="monospace" font-size="2.5">"STAY"</text>
+    </g>
+    <!-- Faint geometric overlay hinting at the picture she's building -->
+    <g stroke="#a878e8" stroke-width="0.4" fill="none" opacity="0.7" filter="url(#i7p21p5bloom)">
+      <path d="M-28,-100 L-22,-92 L-14,-100"/>
+      <path d="M14,-100 L22,-92 L28,-100"/>
+      <line x1="-22" y1="-100" x2="22" y2="-100"/>
+    </g>
+
+    <!-- Eyes glowing FAINTLY behind lenses -->
+    <ellipse cx="-7" cy="-89" rx="1.4" ry="1" fill="#fff8e8" opacity="0.7"/>
+    <circle cx="-7" cy="-89" r="0.55" fill="#a878e8" filter="url(#i7p21p5bloom)" opacity="0.95"/>
+    <ellipse cx="7" cy="-89" rx="1.4" ry="1" fill="#fff8e8" opacity="0.7"/>
+    <circle cx="7" cy="-89" r="0.55" fill="#a878e8" filter="url(#i7p21p5bloom)" opacity="0.95"/>
+
+    <!-- Mouth — closed, still, processing -->
+    <line x1="-3" y1="-78" x2="3" y2="-78" stroke="#3a1808" stroke-width="0.55"/>
+
+    <!-- Nose -->
+    <path d="M-1,-86 L0,-82 L1,-80 Z" fill="#5a3018" opacity="0.55"/>
+  </g>
+
+  <!-- ===== CAPTION ===== -->
+  <g>
+    <rect x="14" y="14" width="320" height="36" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">And Luma was quiet. She was always quiet.</text>
+  <text x="22" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">But tonight her quiet had a different shape.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260"/>
+  </g>
+</svg>
