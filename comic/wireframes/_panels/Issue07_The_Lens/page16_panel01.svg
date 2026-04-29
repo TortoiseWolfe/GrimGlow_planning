@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 7 — Page 16 — Panel 1: Jink launches — keeper's back turning, wings deploy in burst, drops off gallery</title>
+  <desc>35mm medium wide eye level lighthouse gallery. Keeper turns from railing walks back toward lantern room door. Back to gallery. Moment through door — JINK MOVES. Wings deploy burst emerald light geometric lattice snapping shape. Lifts off railing drops off gallery edge into dark air below lighthouse falling toward river before banking hard. Grin returns as launches. Exhilaration of flight.</desc>
+
+  <defs>
+    <linearGradient id="i7p16p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i7p16p1doorAmber" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p16p1iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p16p1peacoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1c30"/>
+      <stop offset="100%" stop-color="#0a0c20"/>
+    </linearGradient>
+    <linearGradient id="i7p16p1suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p16p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <radialGradient id="i7p16p1wingHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#5af0a0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a6838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p16p1lampRoom" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#5a3818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p16p1water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <filter id="i7p16p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p16p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p16p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p16p1megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="742" height="280" fill="url(#i7p16p1bg)"/>
+
+  <!-- Stars -->
+  <g fill="#fff" opacity="0.4">
+    <circle cx="80" cy="20" r="0.55"/>
+    <circle cx="200" cy="40" r="0.4"/>
+    <circle cx="320" cy="20" r="0.55"/>
+    <circle cx="600" cy="40" r="0.55"/>
+  </g>
+
+  <!-- ===== LANTERN ROOM DOOR (RIGHT) — open, warm amber spilling out ===== -->
+  <g transform="translate(620 60)">
+    <ellipse cx="0" cy="0" rx="160" ry="120" fill="url(#i7p16p1doorAmber)" filter="url(#i7p16p1megaglow)"/>
+    <!-- Door frame -->
+    <rect x="-30" y="-50" width="60" height="120" fill="url(#i7p16p1iron)" stroke="#0a0408" stroke-width="0.85"/>
+    <!-- Door open inward (visible interior) -->
+    <rect x="-26" y="-46" width="52" height="112" fill="url(#i7p16p1lampRoom)" filter="url(#i7p16p1bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ===== KEEPER walking through door (LEFT-facing, back turned) ===== -->
+  <g transform="translate(580 180)">
+    <!-- Body silhouette walking right -->
+    <path d="M-30,80 L-40,30 L-30,-40 L-12,-60 L12,-60 L30,-40 L40,30 L30,80 Z" fill="url(#i7p16p1peacoat)"/>
+    <!-- Brass buttons -->
+    <circle cx="0" cy="-20" r="2" fill="#a87838" opacity="0.85"/>
+    <circle cx="0" cy="0" r="2" fill="#a87838" opacity="0.85"/>
+    <circle cx="0" cy="20" r="2" fill="#a87838" opacity="0.85"/>
+    <!-- Head — back of head visible -->
+    <ellipse cx="0" cy="-80" rx="14" ry="16" fill="#7a4828" opacity="0.85"/>
+    <!-- Cap from behind -->
+    <path d="M-12,-92 Q-9,-104 0,-105 Q9,-104 12,-92 L12,-86 Q6,-92 0,-92 Q-6,-92 -12,-86 Z" fill="#1a1818"/>
+    <path d="M-14,-86 L14,-86 L9,-82 L-9,-82 Z" fill="#0a0408"/>
+    <!-- Backlit by door (silhouetted) -->
+    <ellipse cx="0" cy="-80" rx="14" ry="16" fill="#1a0c08" opacity="0.55"/>
+  </g>
+
+  <!-- ===== GALLERY RAILING (foreground) ===== -->
+  <rect x="0" y="200" width="742" height="14" fill="url(#i7p16p1iron)"/>
+  <line x1="0" y1="200" x2="742" y2="200" stroke="#5a5860" stroke-width="0.7" filter="url(#i7p16p1bloom)" opacity="0.85"/>
+  <!-- Posts -->
+  <line x1="40" y1="214" x2="40" y2="280" stroke="#0a0408" stroke-width="2"/>
+  <line x1="120" y1="214" x2="120" y2="280" stroke="#0a0408" stroke-width="2"/>
+  <line x1="280" y1="214" x2="280" y2="280" stroke="#0a0408" stroke-width="2"/>
+  <line x1="440" y1="214" x2="440" y2="280" stroke="#0a0408" stroke-width="2"/>
+  <!-- Lower rail -->
+  <rect x="0" y="260" width="742" height="6" fill="url(#i7p16p1iron)"/>
+
+  <!-- Black river below -->
+  <rect x="0" y="266" width="742" height="14" fill="url(#i7p16p1water)"/>
+
+  <!-- ===== JINK — LAUNCHING in burst of emerald light ===== -->
+  <g transform="translate(180 200)">
+    <!-- Wing-pack BLAZE halo -->
+    <ellipse cx="0" cy="20" rx="100" ry="60" fill="url(#i7p16p1wingHalo)" filter="url(#i7p16p1megaglow)"/>
+
+    <!-- DRAGONFLY WINGS DEPLOYED — geometric lattice -->
+    <g stroke="#5af0a0" stroke-width="1.4" fill="none" opacity="0.95" filter="url(#i7p16p1bloom)">
+      <!-- Upper left wing -->
+      <path d="M-9,-3 L-50,-22 L-66,-9 L-50,3 L-22,0 Z"/>
+      <line x1="-50" y1="-22" x2="-50" y2="3"/>
+      <line x1="-22" y1="0" x2="-66" y2="-9"/>
+      <!-- Lower left wing -->
+      <path d="M-9,3 L-50,18 L-66,9 L-50,3 L-22,0 Z"/>
+      <line x1="-50" y1="3" x2="-50" y2="18"/>
+      <!-- Upper right wing -->
+      <path d="M9,-3 L50,-22 L66,-9 L50,3 L22,0 Z"/>
+      <line x1="50" y1="-22" x2="50" y2="3"/>
+      <line x1="22" y1="0" x2="66" y2="-9"/>
+      <!-- Lower right wing -->
+      <path d="M9,3 L50,18 L66,9 L50,3 L22,0 Z"/>
+      <line x1="50" y1="3" x2="50" y2="18"/>
+    </g>
+    <!-- Wing membrane fill -->
+    <g fill="#5af0a0" opacity="0.4" filter="url(#i7p16p1bloom)">
+      <path d="M-9,-3 L-50,-22 L-66,-9 L-50,3 L-22,0 Z"/>
+      <path d="M9,-3 L50,-22 L66,-9 L50,3 L22,0 Z"/>
+      <path d="M-9,3 L-50,18 L-66,9 L-50,3 L-22,0 Z"/>
+      <path d="M9,3 L50,18 L66,9 L50,3 L22,0 Z"/>
+    </g>
+
+    <!-- Body — dropping diagonal pose, wings catching air -->
+    <path d="M-3,3 L-5,30 L0,40 L5,30 L3,3 Z" fill="url(#i7p16p1suit)"/>
+    <line x1="0" y1="3" x2="0" y2="40" stroke="#a8ffd0" stroke-width="0.55" opacity="0.85" filter="url(#i7p16p1bloom)"/>
+    <!-- Soot streak -->
+    <path d="M-3,18 L3,16" stroke="#1a1410" stroke-width="1.4" opacity="0.85"/>
+
+    <!-- Arms streamlined -->
+    <path d="M-3,3 L-9,3 L-12,12 L-6,9 Z" fill="url(#i7p16p1suit)"/>
+    <path d="M3,3 L9,3 L12,12 L6,9 Z" fill="url(#i7p16p1suit)"/>
+
+    <!-- Legs back -->
+    <path d="M-3,40 L-7,55 L-3,60 L0,55 Z" fill="url(#i7p16p1suit)"/>
+    <path d="M3,40 L7,55 L3,60 L0,55 Z" fill="url(#i7p16p1suit)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-12" rx="9" ry="11" fill="url(#i7p16p1skin)"/>
+    <!-- Wild golden curls trailing -->
+    <path d="M-9,-22 Q-7,-30 0,-32 Q7,-30 9,-22 L9,-14 Q6,-18 0,-18 Q-6,-18 -9,-14 Z" fill="#f0d878"/>
+    <circle cx="-7" cy="-26" r="2.4" fill="#f0d878"/>
+    <circle cx="0" cy="-30" r="2" fill="#f0d878"/>
+    <circle cx="7" cy="-26" r="2.4" fill="#f0d878"/>
+    <!-- Wind-trailing strands -->
+    <path d="M-9,-22 L-18,-14" stroke="#f0d878" stroke-width="1" fill="none"/>
+    <path d="M-7,-26 L-16,-22" stroke="#f0d878" stroke-width="1" fill="none"/>
+
+    <!-- Eyes -->
+    <ellipse cx="-3" cy="-12" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="3" cy="-12" rx="1.4" ry="0.85" fill="#fff"/>
+    <ellipse cx="-3" cy="-12" rx="0.85" ry="0.55" fill="#1a4a28"/>
+    <ellipse cx="3" cy="-12" rx="0.85" ry="0.55" fill="#1a4a28"/>
+    <circle cx="-3" cy="-12" r="0.3" fill="#fff"/>
+    <circle cx="3" cy="-12" r="0.3" fill="#fff"/>
+
+    <!-- THE GRIN — RETURNED, wide -->
+    <path d="M-7,0 Q0,5 7,0" stroke="#3a1808" stroke-width="1" fill="none"/>
+    <path d="M-5,1 Q0,6 5,1" stroke="#1a0c04" stroke-width="0.55" fill="none"/>
+    <line x1="-3" y1="2" x2="3" y2="2" stroke="#fff" stroke-width="0.4"/>
+  </g>
+
+  <!-- Wing trails arcing back from launch point -->
+  <g opacity="0.85" filter="url(#i7p16p1bloom)">
+    <path d="M180,200 Q120,180 80,200" stroke="#5af0a0" stroke-width="1.4" fill="none"/>
+    <path d="M180,200 Q140,196 100,210" stroke="#fff8ff" stroke-width="0.55" fill="none"/>
+  </g>
+
+  <!-- JINK comms -->
+  <g>
+    <rect x="14" y="14" width="280" height="40" rx="2" fill="white" stroke="#2ed078" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="100,54 112,54 104,64" fill="white" stroke="#2ed078" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2ed078" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Keeper's inside. I'm off the gallery.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,200 Q200,202 400,198 Q580,196 742,200"/>
+  </g>
+</svg>

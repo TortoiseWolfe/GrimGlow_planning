@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 340" width="366" height="340">
+  <title>Issue 7 — Page 16 — Panel 2: Jink banking low over black river — emerald geometric reflections rippling on water</title>
+  <desc>50mm dynamic from below. Jink in flight banking along underside stone pier skimming dark river surface. Below black water reflects wing-light — emerald geometric patterns rippling water surface. Heading toward rendezvous point Wren descended. Pier massive stone blocks pass overhead. Wind off river moves hair. Fast low precise. River ocean at scale. Point of emerald light through immense darkness. Grin wide genuine. What Jink was made for.</desc>
+
+  <defs>
+    <linearGradient id="i7p16p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p16p2water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p16p2stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i7p16p2wingHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#5af0a0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a6838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p16p2suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i7p16p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i7p16p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p16p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p16p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p16p2megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="366" height="340" fill="url(#i7p16p2bg)"/>
+
+  <!-- ===== STONE PIER UNDERSIDE — top portion (massive blocks) ===== -->
+  <rect x="0" y="0" width="366" height="120" fill="url(#i7p16p2stone)"/>
+  <line x1="0" y1="120" x2="366" y2="120" stroke="#0a0408" stroke-width="2"/>
+  <!-- Massive stone block seams -->
+  <g stroke="#0a0408" stroke-width="0.85" opacity="0.7" fill="none">
+    <line x1="0" y1="40" x2="366" y2="40"/>
+    <line x1="0" y1="80" x2="366" y2="80"/>
+    <line x1="80" y1="0" x2="80" y2="120"/>
+    <line x1="180" y1="0" x2="180" y2="120"/>
+    <line x1="280" y1="0" x2="280" y2="120"/>
+  </g>
+  <!-- Stone texture cracks -->
+  <g stroke="#0a0408" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M40,20 L50,30"/>
+    <path d="M140,60 L150,70"/>
+    <path d="M250,50 L260,60"/>
+  </g>
+  <!-- Faint emerald reflection on stone underside -->
+  <ellipse cx="200" cy="100" rx="100" ry="22" fill="#5af0a0" opacity="0.18" filter="url(#i7p16p2megaglow)"/>
+
+  <!-- ===== BLACK RIVER (lower, with emerald geometric reflections) ===== -->
+  <rect x="0" y="120" width="366" height="220" fill="url(#i7p16p2water)"/>
+
+  <!-- Wave reflections (faint) -->
+  <g stroke="#1a1818" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,160 Q90,158 180,160 Q270,162 366,160"/>
+    <path d="M0,200 Q90,198 180,200 Q270,202 366,200"/>
+    <path d="M0,240 Q90,238 180,240 Q270,242 366,240"/>
+    <path d="M0,280 Q90,278 180,280 Q270,282 366,280"/>
+  </g>
+
+  <!-- ===== EMERALD GEOMETRIC REFLECTIONS rippling on water ===== -->
+  <g opacity="0.85" filter="url(#i7p16p2bloom)">
+    <!-- Pattern 1 -->
+    <ellipse cx="200" cy="220" rx="60" ry="6" fill="#5af0a0" opacity="0.55" filter="url(#i7p16p2strongglow)"/>
+    <ellipse cx="200" cy="220" rx="40" ry="3" fill="#fff8ff" opacity="0.7"/>
+    <!-- Geometric ripple lattice -->
+    <g stroke="#5af0a0" stroke-width="0.4" fill="none" opacity="0.85">
+      <path d="M140,220 L260,220"/>
+      <path d="M150,210 L250,230"/>
+      <path d="M150,230 L250,210"/>
+      <path d="M180,200 L220,240"/>
+      <path d="M220,200 L180,240"/>
+    </g>
+  </g>
+
+  <!-- ===== JINK in flight, mid-frame, banking ===== -->
+  <g transform="translate(220 200)">
+    <!-- Wing halo -->
+    <ellipse cx="0" cy="0" rx="120" ry="60" fill="url(#i7p16p2wingHalo)" filter="url(#i7p16p2megaglow)"/>
+
+    <!-- DRAGONFLY WINGS — banking, slightly tilted -->
+    <g stroke="#5af0a0" stroke-width="1.4" fill="none" opacity="0.95" filter="url(#i7p16p2bloom)" transform="rotate(-15)">
+      <path d="M-9,-3 L-50,-22 L-66,-9 L-50,3 L-22,0 Z"/>
+      <line x1="-50" y1="-22" x2="-50" y2="3"/>
+      <path d="M-9,3 L-50,18 L-66,9 L-50,3 L-22,0 Z"/>
+      <line x1="-50" y1="3" x2="-50" y2="18"/>
+      <path d="M9,-3 L50,-22 L66,-9 L50,3 L22,0 Z"/>
+      <line x1="50" y1="-22" x2="50" y2="3"/>
+      <path d="M9,3 L50,18 L66,9 L50,3 L22,0 Z"/>
+      <line x1="50" y1="3" x2="50" y2="18"/>
+    </g>
+    <g fill="#5af0a0" opacity="0.4" filter="url(#i7p16p2bloom)" transform="rotate(-15)">
+      <path d="M-9,-3 L-50,-22 L-66,-9 L-50,3 L-22,0 Z"/>
+      <path d="M9,-3 L50,-22 L66,-9 L50,3 L22,0 Z"/>
+    </g>
+
+    <!-- Body banking horizontal -->
+    <ellipse cx="0" cy="0" rx="9" ry="3" fill="url(#i7p16p2suit)" transform="rotate(-15)"/>
+    <!-- Soot streak -->
+    <line x1="-7" y1="-1" x2="7" y2="1" stroke="#1a1410" stroke-width="1.4" opacity="0.85"/>
+
+    <!-- Head -->
+    <ellipse cx="9" cy="-3" rx="6" ry="6" fill="url(#i7p16p2skin)"/>
+    <!-- Curls trailing back -->
+    <path d="M5,-9 Q3,-14 9,-15 Q15,-14 14,-9 L14,-7 Q11,-9 9,-9 Q7,-9 5,-7 Z" fill="#f0d878"/>
+    <!-- Trailing wind-blown -->
+    <path d="M3,-7 L-3,-3" stroke="#f0d878" stroke-width="0.85" fill="none"/>
+    <path d="M5,-12 L-3,-9" stroke="#f0d878" stroke-width="0.85" fill="none"/>
+
+    <!-- Eyes wide alive -->
+    <ellipse cx="7" cy="-3" rx="1" ry="0.7" fill="#fff"/>
+    <ellipse cx="11" cy="-3" rx="1" ry="0.7" fill="#fff"/>
+    <ellipse cx="7" cy="-3" rx="0.55" ry="0.4" fill="#1a4a28"/>
+    <ellipse cx="11" cy="-3" rx="0.55" ry="0.4" fill="#1a4a28"/>
+
+    <!-- WIDE GENUINE GRIN -->
+    <path d="M5,3 Q9,7 13,3" stroke="#3a1808" stroke-width="0.85" fill="none"/>
+    <path d="M6,4 Q9,7 12,4" stroke="#1a0c04" stroke-width="0.55" fill="none"/>
+  </g>
+
+  <!-- WING TRAILS streaking behind -->
+  <g opacity="0.85" filter="url(#i7p16p2bloom)">
+    <path d="M260,220 Q300,210 340,200" stroke="#5af0a0" stroke-width="2.4" fill="none"/>
+    <path d="M260,220 Q300,212 340,206" stroke="#fff8ff" stroke-width="0.85" fill="none"/>
+    <path d="M280,230 Q310,225 340,222" stroke="#5af0a0" stroke-width="1" fill="none" opacity="0.55"/>
+  </g>
+
+  <!-- (No dialogue — pure motion) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,160 Q100,162 200,158 Q280,156 366,160"/>
+    <path d="M0,260 Q100,262 200,258 Q280,256 366,260"/>
+  </g>
+</svg>
