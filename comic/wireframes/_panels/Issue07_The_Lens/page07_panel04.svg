@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 470" width="366" height="470">
+  <title>Issue 7 — Page 7 — Panel 4: Thresh in overwatch — weapon braced against piling, eyes wide scanning</title>
+  <desc>50mm fairy scale eye level. Thresh base of stone pier overwatch position. Cover behind timber piling tarred wood wall iron bolt rivet head-size. Braces weapon against timber sights along pier toward lighthouse. Quay stretches back into darkness. Water slaps stone below chains clank. Eyes wide scanning. Controlled fear. Soldier holding position because training says hold not because fear gone.</desc>
+
+  <defs>
+    <linearGradient id="i7p7p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p7p4timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c08"/>
+      <stop offset="100%" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="i7p7p4stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p7p4water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p7p4suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f04060"/>
+      <stop offset="100%" stop-color="#5a1018"/>
+    </linearGradient>
+    <linearGradient id="i7p7p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <radialGradient id="i7p7p4beamSweep" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p7p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p7p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p7p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p7p4megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="366" height="470" fill="url(#i7p7p4bg)"/>
+
+  <!-- Lighthouse beam sweeping past upper portion -->
+  <ellipse cx="280" cy="0" rx="240" ry="120" fill="url(#i7p7p4beamSweep)" filter="url(#i7p7p4megaglow)"/>
+
+  <!-- ===== TARRED TIMBER PILING — HUGE wall in foreground (Thresh's cover) ===== -->
+  <rect x="0" y="0" width="180" height="470" fill="url(#i7p7p4timber)"/>
+  <line x1="180" y1="0" x2="180" y2="470" stroke="#080404" stroke-width="1.4"/>
+  <!-- Wood grain (tarred, dark) -->
+  <g stroke="#0a0608" stroke-width="0.55" opacity="0.85" fill="none">
+    <path d="M0,40 Q60,38 120,42 Q150,44 180,42"/>
+    <path d="M0,80 Q60,78 120,82 Q150,84 180,82"/>
+    <path d="M0,120 Q60,118 120,122 Q150,124 180,122"/>
+    <path d="M0,160 Q60,158 120,162 Q150,164 180,162"/>
+    <path d="M0,200 Q60,198 120,202 Q150,204 180,202"/>
+    <path d="M0,240 Q60,238 120,242 Q150,244 180,242"/>
+    <path d="M0,280 Q60,278 120,282 Q150,284 180,282"/>
+    <path d="M0,320 Q60,318 120,322 Q150,324 180,322"/>
+    <path d="M0,360 Q60,358 120,362 Q150,364 180,362"/>
+    <path d="M0,400 Q60,398 120,402 Q150,404 180,402"/>
+  </g>
+  <!-- Tar drips -->
+  <g fill="#040204" opacity="0.85">
+    <ellipse cx="40" cy="200" rx="2" ry="9"/>
+    <ellipse cx="100" cy="280" rx="2" ry="9"/>
+    <ellipse cx="160" cy="360" rx="2" ry="14"/>
+  </g>
+
+  <!-- ENORMOUS IRON BOLT (head-size at fairy scale) -->
+  <g transform="translate(140 200)">
+    <ellipse cx="0" cy="0" rx="22" ry="6" fill="#1a1818"/>
+    <circle cx="0" cy="0" r="20" fill="#3a3838" stroke="#1a1818" stroke-width="0.85"/>
+    <circle cx="0" cy="0" r="14" fill="#5a5860" stroke="#1a1818" stroke-width="0.55"/>
+    <!-- Hex bolt head facets -->
+    <polygon points="-12,0 -6,-10 6,-10 12,0 6,10 -6,10" fill="#3a3838" stroke="#1a1818" stroke-width="0.7"/>
+    <line x1="-6" y1="-10" x2="-6" y2="10" stroke="#1a1818" stroke-width="0.4"/>
+    <line x1="6" y1="-10" x2="6" y2="10" stroke="#1a1818" stroke-width="0.4"/>
+    <!-- Rust streaks -->
+    <ellipse cx="-9" cy="14" rx="6" ry="3" fill="#7a4828" opacity="0.85"/>
+    <ellipse cx="9" cy="14" rx="6" ry="3" fill="#7a4828" opacity="0.85"/>
+    <line x1="-9" y1="20" x2="-9" y2="40" stroke="#7a4828" stroke-width="0.85" opacity="0.7"/>
+    <line x1="9" y1="20" x2="9" y2="40" stroke="#7a4828" stroke-width="0.85" opacity="0.7"/>
+  </g>
+
+  <!-- ===== STONE PIER beyond the piling (right of frame) ===== -->
+  <rect x="180" y="280" width="186" height="80" fill="url(#i7p7p4stone)"/>
+  <line x1="180" y1="280" x2="366" y2="280" stroke="#1a1418" stroke-width="0.55"/>
+  <g stroke="#1a1418" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M180,310 L366,310"/>
+    <path d="M180,340 L366,340"/>
+    <line x1="240" y1="280" x2="240" y2="360"/>
+    <line x1="300" y1="280" x2="300" y2="360"/>
+  </g>
+
+  <!-- Black water below pier edge -->
+  <rect x="180" y="360" width="186" height="110" fill="url(#i7p7p4water)"/>
+  <!-- Water reflections amber -->
+  <g opacity="0.55" filter="url(#i7p7p4bloom)">
+    <ellipse cx="240" cy="380" rx="9" ry="2" fill="#d89858"/>
+    <ellipse cx="300" cy="400" rx="9" ry="2" fill="#d89858"/>
+  </g>
+
+  <!-- ===== THRESH — center, braced against piling wall, weapon up ===== -->
+  <g transform="translate(220 320)">
+    <ellipse cx="0" cy="14" rx="22" ry="3" fill="#000" opacity="0.85"/>
+
+    <!-- Crouched stance -->
+    <ellipse cx="-14" cy="14" rx="9" ry="3" fill="#3a0c14"/>
+    <ellipse cx="14" cy="14" rx="9" ry="3" fill="#3a0c14"/>
+
+    <!-- Legs bent in firing crouch -->
+    <path d="M-14,12 L-22,-30 L-2,-50 L0,-30 Z" fill="url(#i7p7p4suit)"/>
+    <path d="M14,12 L22,-30 L2,-50 L0,-30 Z" fill="url(#i7p7p4suit)"/>
+    <ellipse cx="-12" cy="-46" rx="7" ry="3" fill="#7a1a28"/>
+    <ellipse cx="12" cy="-46" rx="7" ry="3" fill="#7a1a28"/>
+
+    <!-- Torso BRACED forward against piling -->
+    <path d="M-22,-50 L-26,-100 L-12,-130 L12,-130 L26,-100 L22,-50 Z" fill="url(#i7p7p4suit)"/>
+    <line x1="0" y1="-130" x2="0" y2="-50" stroke="#ff8898" stroke-width="0.55" opacity="0.85" filter="url(#i7p7p4bloom)"/>
+    <!-- Dented LEFT pauldron -->
+    <path d="M-26,-110 L-34,-100 L-34,-86 L-26,-90 Z" fill="#7a1a28"/>
+    <line x1="-30" y1="-100" x2="-26" y2="-104" stroke="#3a0c14" stroke-width="0.85"/>
+    <!-- Right pauldron -->
+    <path d="M26,-110 L34,-100 L34,-86 L26,-90 Z" fill="#7a1a28"/>
+    <!-- Crimson nodes -->
+    <circle cx="-22" cy="-90" r="1.4" fill="#ff5060" filter="url(#i7p7p4bloom)" opacity="0.95"/>
+    <circle cx="22" cy="-90" r="1.4" fill="#ff5060" filter="url(#i7p7p4bloom)" opacity="0.95"/>
+
+    <!-- BOTH ARMS gripping weapon (extended forward, sighting along pier) -->
+    <path d="M-26,-100 L-30,-80 L-22,-66 L-14,-80 Z" fill="url(#i7p7p4suit)"/>
+    <path d="M26,-100 L30,-80 L22,-66 L14,-80 Z" fill="url(#i7p7p4suit)"/>
+    <!-- Weapon BRACED against piling, pointing right toward lighthouse -->
+    <rect x="-9" y="-72" width="60" height="6" fill="#3a2828" stroke="#1a0c0a" stroke-width="0.55"/>
+    <rect x="-9" y="-76" width="14" height="4" fill="#1a0c0a"/>
+    <line x1="-9" y1="-69" x2="51" y2="-69" stroke="#dc2030" stroke-width="0.4" opacity="0.85" filter="url(#i7p7p4bloom)"/>
+    <!-- Crimson holographic targeting -->
+    <circle cx="46" cy="-70" r="2" fill="#ff5060" filter="url(#i7p7p4bloom)" opacity="0.95"/>
+    <line x1="46" y1="-72" x2="46" y2="-68" stroke="#fff8ff" stroke-width="0.4" filter="url(#i7p7p4bloom)"/>
+    <line x1="44" y1="-70" x2="48" y2="-70" stroke="#fff8ff" stroke-width="0.4" filter="url(#i7p7p4bloom)"/>
+    <!-- HANDS WHITE-KNUCKLE GRIP -->
+    <ellipse cx="-7" cy="-68" rx="4" ry="2.4" fill="url(#i7p7p4skin)"/>
+    <ellipse cx="14" cy="-68" rx="4" ry="2.4" fill="url(#i7p7p4skin)"/>
+    <!-- Knuckle whitening -->
+    <ellipse cx="-7" cy="-70" rx="2.4" ry="1" fill="#fff8e8" filter="url(#i7p7p4bloom)" opacity="0.85"/>
+    <ellipse cx="14" cy="-70" rx="2.4" ry="1" fill="#fff8e8" filter="url(#i7p7p4bloom)" opacity="0.85"/>
+
+    <!-- Head — sighting along weapon -->
+    <ellipse cx="0" cy="-148" rx="14" ry="16" fill="url(#i7p7p4skin)"/>
+    <!-- Copper-red buzz cut -->
+    <path d="M-12,-160 Q-12,-166 0,-168 Q12,-166 12,-160 L12,-156 Q6,-158 0,-158 Q-6,-158 -12,-156 Z" fill="#a83828"/>
+    <line x1="-10" y1="-162" x2="10" y2="-162" stroke="#dc4030" stroke-width="0.4" opacity="0.85"/>
+    <!-- Cheekbones -->
+    <path d="M-12,-148 Q-9,-140 -4,-134" fill="none" stroke="#5a3018" stroke-width="0.7" opacity="0.85"/>
+    <path d="M12,-148 Q9,-140 4,-134" fill="none" stroke="#5a3018" stroke-width="0.7" opacity="0.85"/>
+
+    <!-- EYES WIDE — scanning, controlled fear -->
+    <ellipse cx="-4" cy="-148" rx="3" ry="1.4" fill="#fff"/>
+    <ellipse cx="4" cy="-148" rx="3" ry="1.4" fill="#fff"/>
+    <ellipse cx="-3" cy="-148" rx="1.4" ry="1" fill="#3a1808"/>
+    <ellipse cx="5" cy="-148" rx="1.4" ry="1" fill="#3a1808"/>
+    <circle cx="-3" cy="-148" r="0.4" fill="#fff"/>
+    <circle cx="5" cy="-148" r="0.4" fill="#fff"/>
+
+    <!-- Brow — tense, drawn tight -->
+    <path d="M-9,-158 Q-3,-160 0,-158" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <path d="M9,-158 Q3,-160 0,-158" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    <!-- Tight crease between brows -->
+    <line x1="-1" y1="-156" x2="0" y2="-152" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-156" x2="0" y2="-152" stroke="#3a1808" stroke-width="0.55"/>
+
+    <!-- Nose -->
+    <path d="M-2,-148 L-2,-140 L0,-138 L2,-140 L2,-148 Z" fill="#5a3018" opacity="0.85"/>
+
+    <!-- Mouth — pressed flat -->
+    <line x1="-3" y1="-132" x2="3" y2="-132" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- Comms ear -->
+    <circle cx="14" cy="-148" r="1.4" fill="#ff4458" filter="url(#i7p7p4bloom)" opacity="0.95"/>
+  </g>
+
+  <!-- THRESH comms low -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+    <polygon points="180,64 192,64 184,76" fill="white" stroke="#dc2030" stroke-width="0.85" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#dc2030" font-weight="700">THRESH  <tspan font-style="italic" font-size="8" font-weight="500">(comms, low)</tspan></text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Overwatch set. Pier base.</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Eyes on the lighthouse door.</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="14" y="380" width="338" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="398" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a3ad8" font-weight="700">LUMA  <tspan font-style="italic" font-size="8" font-weight="500">(comms)</tspan></text>
+  <text x="22" y="414" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Breathing's elevated. You're all right.</text>
+
+  <!-- THRESH reply -->
+  <g>
+    <rect x="200" y="430" width="150" height="34" rx="2" fill="white" stroke="#dc2030" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="208" y="448" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#dc2030" font-weight="700">THRESH</text>
+  <text x="208" y="462" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I know.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q100,182 200,178 Q280,176 366,180"/>
+    <path d="M0,360 Q100,362 200,358 Q280,356 366,360"/>
+  </g>
+</svg>

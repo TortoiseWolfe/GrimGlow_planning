@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 360" width="742" height="360">
+  <title>Issue 7 — Page 7 — Panel 2: Squad in shadow of mooring bollard — final staging, Sable assigns positions</title>
+  <desc>35mm low fairy-scale angle. Squad on stone quay shadow of mooring bollard. Bollard size of building rough-cast iron barnacle-crusted base. Sable giving final orders. Wren replacement lens strapped to carrying harness — massive disc of glass at fairy scale. Jink wing-pack deployed ready flight. Thresh perimeter weapon ready. Theodore visible background crouched behind crate. Final staging. Operation about to begin.</desc>
+
+  <defs>
+    <linearGradient id="i7p7p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p7p2bollard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p7p2barnacle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4828"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="i7p7p2stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i7p7p2beamSweep" cx="100%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p7p2lensGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p7p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p7p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p7p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p7p2megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="742" height="360" fill="url(#i7p7p2bg)"/>
+
+  <!-- Lighthouse beam sweeping past in upper background -->
+  <ellipse cx="742" cy="40" rx="540" ry="100" fill="url(#i7p7p2beamSweep)" filter="url(#i7p7p2megaglow)"/>
+
+  <!-- ===== MASSIVE MOORING BOLLARD — center, looms over squad ===== -->
+  <g transform="translate(371 280)">
+    <!-- Cast shadow on quay -->
+    <ellipse cx="0" cy="80" rx="180" ry="14" fill="#000" opacity="0.85"/>
+
+    <!-- Bollard body (cylindrical, iron) -->
+    <ellipse cx="0" cy="-280" rx="140" ry="40" fill="url(#i7p7p2bollard)"/>
+    <rect x="-140" y="-280" width="280" height="360" fill="url(#i7p7p2bollard)"/>
+    <ellipse cx="0" cy="80" rx="140" ry="20" fill="url(#i7p7p2barnacle)"/>
+
+    <!-- Barnacle crust at base (where high tide reaches) -->
+    <g fill="#3a2418" opacity="0.85">
+      <ellipse cx="-100" cy="60" rx="14" ry="8"/>
+      <ellipse cx="-60" cy="70" rx="12" ry="6"/>
+      <ellipse cx="-20" cy="60" rx="10" ry="5"/>
+      <ellipse cx="40" cy="65" rx="14" ry="7"/>
+      <ellipse cx="100" cy="60" rx="12" ry="6"/>
+    </g>
+    <g fill="#7a6048" opacity="0.7">
+      <circle cx="-90" cy="55" r="3"/>
+      <circle cx="-50" cy="65" r="2.4"/>
+      <circle cx="-10" cy="58" r="2"/>
+      <circle cx="50" cy="62" r="3"/>
+      <circle cx="90" cy="58" r="2.4"/>
+    </g>
+
+    <!-- Vertical iron seam -->
+    <line x1="-2" y1="-280" x2="-2" y2="80" stroke="#0a0408" stroke-width="0.85"/>
+    <!-- Iron rivets -->
+    <circle cx="-80" cy="-200" r="2" fill="#1a1818" stroke="#0a0408" stroke-width="0.4"/>
+    <circle cx="-40" cy="-200" r="2" fill="#1a1818" stroke="#0a0408" stroke-width="0.4"/>
+    <circle cx="40" cy="-200" r="2" fill="#1a1818" stroke="#0a0408" stroke-width="0.4"/>
+    <circle cx="80" cy="-200" r="2" fill="#1a1818" stroke="#0a0408" stroke-width="0.4"/>
+    <!-- Mooring rope wrapped near top -->
+    <ellipse cx="0" cy="-260" rx="142" ry="14" fill="#7a6048"/>
+    <ellipse cx="0" cy="-262" rx="140" ry="12" fill="#a89878"/>
+
+    <!-- Cap on top of bollard -->
+    <ellipse cx="0" cy="-280" rx="140" ry="40" fill="none" stroke="#1a1818" stroke-width="1"/>
+    <ellipse cx="0" cy="-285" rx="120" ry="32" fill="#5a5860"/>
+  </g>
+
+  <!-- ===== STONE QUAY foreground ===== -->
+  <rect x="0" y="320" width="742" height="40" fill="url(#i7p7p2stone)"/>
+  <line x1="0" y1="320" x2="742" y2="320" stroke="#1a1418" stroke-width="0.55"/>
+  <g stroke="#1a1418" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,340 L742,340"/>
+    <line x1="100" y1="320" x2="100" y2="360"/>
+    <line x1="240" y1="320" x2="240" y2="360"/>
+    <line x1="380" y1="320" x2="380" y2="360"/>
+    <line x1="520" y1="320" x2="520" y2="360"/>
+    <line x1="660" y1="320" x2="660" y2="360"/>
+  </g>
+
+  <!-- ===== SQUAD figures in shadow of bollard ===== -->
+
+  <!-- SABLE (center, giving orders) -->
+  <g transform="translate(371 320)">
+    <ellipse cx="0" cy="0" rx="9" ry="2" fill="#000" opacity="0.7"/>
+    <path d="M-3,0 L-4,-12 L-2,-18 L0,-12 Z" fill="#506890"/>
+    <path d="M3,0 L4,-12 L2,-18 L0,-12 Z" fill="#506890"/>
+    <path d="M-4,-18 L-5,-30 L-3,-36 L4,-36 L5,-30 L4,-18 Z" fill="#506890"/>
+    <line x1="0" y1="-36" x2="0" y2="-18" stroke="#a8c0e8" stroke-width="0.4" opacity="0.85" filter="url(#i7p7p2bloom)"/>
+    <ellipse cx="4" cy="-32" rx="3" ry="1.4" fill="#1a1814" opacity="0.85"/>
+    <line x1="-1" y1="-35" x2="-1" y2="-32" stroke="#0a0a14" stroke-width="0.4"/>
+    <line x1="1" y1="-35" x2="1" y2="-32" stroke="#0a0a14" stroke-width="0.4"/>
+    <!-- Arms gesturing (giving orders) -->
+    <path d="M-5,-34 L-9,-26 L-5,-20 L-2,-26 Z" fill="#506890"/>
+    <path d="M5,-34 L9,-26 L5,-20 L2,-26 Z" fill="#506890"/>
+    <ellipse cx="0" cy="-42" rx="3" ry="3.4" fill="#5a3a28"/>
+    <path d="M-3,-46 Q-3,-48 0,-49 Q3,-48 3,-46 L3,-44 Q1,-45 0,-45 Q-1,-45 -3,-44 Z" fill="#d8e4f8"/>
+    <ellipse cx="-1" cy="-42" rx="0.85" ry="0.4" fill="#fff8e8"/>
+    <ellipse cx="1" cy="-42" rx="0.85" ry="0.4" fill="#fff8e8"/>
+    <circle cx="-0.4" cy="-42" r="0.3" fill="#1a1c30"/>
+    <circle cx="1.4" cy="-42" r="0.3" fill="#1a1c30"/>
+    <!-- Mouth open giving orders -->
+    <ellipse cx="0" cy="-38" rx="1" ry="0.4" fill="#1a0c08"/>
+    <circle cx="3" cy="-43" r="0.55" fill="#a8c0e8" filter="url(#i7p7p2bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- WREN (left of Sable, with LENS HARNESS on back) -->
+  <g transform="translate(280 320)">
+    <ellipse cx="0" cy="0" rx="9" ry="2" fill="#000" opacity="0.7"/>
+    <path d="M-3,0 L-4,-12 L-2,-18 L0,-12 Z" fill="#a85820"/>
+    <path d="M3,0 L4,-12 L2,-18 L0,-12 Z" fill="#a85820"/>
+    <!-- Torso slightly bent under weight -->
+    <path d="M-4,-18 L-5,-30 L-3,-36 L4,-36 L5,-30 L4,-18 Z" fill="#a85820"/>
+    <!-- LENS HARNESS — large glass disc on back -->
+    <circle cx="0" cy="-24" r="14" fill="url(#i7p7p2lensGlow)" filter="url(#i7p7p2bloom)"/>
+    <circle cx="0" cy="-24" r="14" fill="none" stroke="#fff8c8" stroke-width="0.7" filter="url(#i7p7p2bloom)"/>
+    <circle cx="0" cy="-24" r="10" fill="none" stroke="#ffd898" stroke-width="0.55" opacity="0.85"/>
+    <circle cx="0" cy="-24" r="6" fill="none" stroke="#fff8c8" stroke-width="0.4" opacity="0.7"/>
+    <!-- Harness straps -->
+    <line x1="-5" y1="-32" x2="-12" y2="-12" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="5" y1="-32" x2="12" y2="-12" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="-12" y1="-12" x2="12" y2="-12" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Wren's head (small, peeking around the lens) -->
+    <ellipse cx="-9" cy="-42" rx="3" ry="3.4" fill="#a87838"/>
+    <ellipse cx="-9" cy="-48" rx="2" ry="1.4" fill="#1a0a04"/>
+    <!-- Arms adjusting harness -->
+    <path d="M-5,-34 L-12,-22 L-9,-12 Z" fill="#a85820"/>
+    <ellipse cx="-1" cy="-42" rx="0.55" ry="0.3" fill="#fff"/>
+    <circle cx="-0.7" cy="-42" r="0.2" fill="#1a0c04"/>
+    <circle cx="-6" cy="-43" r="0.55" fill="#d89858" filter="url(#i7p7p2bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- JINK (right, wing-pack DEPLOYED prismatic emerald) -->
+  <g transform="translate(450 320)">
+    <ellipse cx="0" cy="0" rx="9" ry="2" fill="#000" opacity="0.55"/>
+    <!-- Emerald glow halo -->
+    <ellipse cx="0" cy="-22" rx="22" ry="18" fill="#5af0a0" opacity="0.4" filter="url(#i7p7p2megaglow)"/>
+    <!-- Body in ready stance -->
+    <path d="M-3,0 L-4,-12 L-2,-18 L0,-12 Z" fill="#2ed078"/>
+    <path d="M3,0 L4,-12 L2,-18 L0,-12 Z" fill="#2ed078"/>
+    <path d="M-4,-18 L-5,-30 L-3,-36 L4,-36 L5,-30 L4,-18 Z" fill="#2ed078"/>
+    <line x1="-4" y1="-26" x2="4" y2="-24" stroke="#1a1410" stroke-width="2" opacity="0.85"/>
+    <!-- DRAGONFLY WINGS DEPLOYED — emerald geometric lattice -->
+    <g stroke="#5af0a0" stroke-width="0.55" fill="none" opacity="0.95" filter="url(#i7p7p2bloom)">
+      <path d="M-5,-32 L-22,-50 L-30,-30 L-22,-26 L-12,-30 Z"/>
+      <path d="M5,-32 L22,-50 L30,-30 L22,-26 L12,-30 Z"/>
+      <line x1="-22" y1="-50" x2="-22" y2="-26"/>
+      <line x1="22" y1="-50" x2="22" y2="-26"/>
+      <line x1="-12" y1="-30" x2="-30" y2="-30"/>
+      <line x1="12" y1="-30" x2="30" y2="-30"/>
+    </g>
+    <ellipse cx="0" cy="-42" rx="3" ry="3.4" fill="#d8a878"/>
+    <path d="M-3,-46 Q-3,-50 0,-51 Q3,-50 3,-46 L3,-44 Q1,-45 0,-45 Q-1,-45 -3,-44 Z" fill="#f0d878"/>
+    <ellipse cx="-1" cy="-42" rx="0.85" ry="0.4" fill="#fff"/>
+    <ellipse cx="1" cy="-42" rx="0.85" ry="0.4" fill="#fff"/>
+    <circle cx="-1" cy="-42" r="0.3" fill="#1a4a28"/>
+    <circle cx="1" cy="-42" r="0.3" fill="#1a4a28"/>
+    <circle cx="3" cy="-43" r="0.55" fill="#5af0a0" filter="url(#i7p7p2bloom)" opacity="0.95"/>
+  </g>
+
+  <!-- THRESH (far right, perimeter weapon ready) -->
+  <g transform="translate(540 320)">
+    <ellipse cx="0" cy="0" rx="9" ry="2" fill="#000" opacity="0.55"/>
+    <path d="M-3,0 L-4,-12 L-2,-18 L0,-12 Z" fill="#dc2030"/>
+    <path d="M3,0 L4,-12 L2,-18 L0,-12 Z" fill="#dc2030"/>
+    <path d="M-4,-18 L-5,-30 L-3,-36 L4,-36 L5,-30 L4,-18 Z" fill="#dc2030"/>
+    <path d="M-5,-30 L-7,-28 L-7,-22 L-5,-24 Z" fill="#7a1a28"/>
+    <path d="M5,-30 L7,-28 L7,-22 L5,-24 Z" fill="#7a1a28"/>
+    <!-- Weapon raised -->
+    <line x1="-5" y1="-26" x2="-9" y2="-32" stroke="#3a2828" stroke-width="0.85"/>
+    <rect x="-9" y="-33" width="3" height="2" fill="#1a0c0a"/>
+    <ellipse cx="0" cy="-42" rx="3" ry="3.4" fill="#a87838"/>
+    <path d="M-3,-46 Q-3,-48 0,-49 Q3,-48 3,-46 L3,-44 Q1,-45 0,-45 Q-1,-45 -3,-44 Z" fill="#a83828"/>
+    <ellipse cx="-1" cy="-42" rx="0.85" ry="0.4" fill="#fff"/>
+    <ellipse cx="1" cy="-42" rx="0.85" ry="0.4" fill="#fff"/>
+    <circle cx="-1" cy="-42" r="0.3" fill="#3a1808"/>
+    <circle cx="1" cy="-42" r="0.3" fill="#3a1808"/>
+    <circle cx="3" cy="-43" r="0.55" fill="#ff4458" filter="url(#i7p7p2bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- LUMA (left of Wren, with comms relay) -->
+  <g transform="translate(200 320)">
+    <ellipse cx="0" cy="0" rx="9" ry="2" fill="#000" opacity="0.55"/>
+    <path d="M-3,0 L-4,-12 L-2,-18 L0,-12 Z" fill="#5a3ad8"/>
+    <path d="M3,0 L4,-12 L2,-18 L0,-12 Z" fill="#5a3ad8"/>
+    <path d="M-4,-18 L-5,-30 L-3,-36 L4,-36 L5,-30 L4,-18 Z" fill="#5a3ad8"/>
+    <ellipse cx="0" cy="-42" rx="3" ry="3.4" fill="#7a4838"/>
+    <path d="M-3,-46 Q-3,-48 0,-49 Q3,-48 3,-46 L3,-44 Q1,-45 0,-45 Q-1,-45 -3,-44 Z" fill="#0a0604"/>
+    <!-- Wrist comms glow -->
+    <ellipse cx="3" cy="-22" rx="2" ry="0.85" fill="#a888ff" filter="url(#i7p7p2bloom)" opacity="0.95"/>
+    <ellipse cx="-1" cy="-42" rx="1" ry="0.55" fill="#a888ff" filter="url(#i7p7p2bloom)" opacity="0.85"/>
+    <ellipse cx="1" cy="-42" rx="1" ry="0.55" fill="#a888ff" filter="url(#i7p7p2bloom)" opacity="0.85"/>
+    <line x1="-1.5" y1="-42.5" x2="-0.7" y2="-41.5" stroke="#1a0a04" stroke-width="0.2"/>
+  </g>
+
+  <!-- THEODORE (background, behind crate, far left) -->
+  <g transform="translate(80 320)" opacity="0.85">
+    <!-- Crate cover -->
+    <rect x="-22" y="-30" width="44" height="30" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <!-- Theodore crouched behind, head and shoulders peeking -->
+    <ellipse cx="0" cy="-50" rx="6" ry="6" fill="#a87838"/>
+    <path d="M-5,-56 Q-3,-62 0,-64 Q3,-62 5,-56 L5,-52 Q3,-54 0,-54 Q-3,-54 -5,-52 Z" fill="#9a7038"/>
+    <ellipse cx="-1" cy="-50" rx="0.55" ry="0.3" fill="#fff8e8"/>
+    <ellipse cx="1" cy="-50" rx="0.55" ry="0.3" fill="#fff8e8"/>
+    <circle cx="-1" cy="-50" r="0.2" fill="#5a3818"/>
+    <circle cx="1" cy="-50" r="0.2" fill="#5a3818"/>
+  </g>
+
+  <!-- SABLE assignments -->
+  <g>
+    <rect x="14" y="14" width="466" height="80" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="240,94 252,94 244,106" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="240.5" y1="94" x2="251.5" y2="94" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Jink — advance recon, confirm keeper position.</text>
+  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Thresh — base of pier, overwatch.</text>
+  <text x="22" y="78" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Luma — comms relay, hold here with Theodore.</text>
+
+  <!-- WREN -->
+  <g>
+    <rect x="500" y="14" width="226" height="40" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="580,54 592,54 584,64" fill="white" stroke="#c87a35" stroke-width="0.85"/>
+    <line x1="580.5" y1="54" x2="591.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="508" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#c87a35" font-weight="700">WREN</text>
+  <text x="508" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">If the keeper wakes up?</text>
+
+  <!-- SABLE final -->
+  <g>
+    <rect x="500" y="74" width="226" height="40" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95"/>
+    <polygon points="580,114 592,114 584,124" fill="white" stroke="#5a606a" stroke-width="0.85"/>
+    <line x1="580.5" y1="114" x2="591.5" y2="114" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="508" y="92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="508" y="108" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">He does not.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,180 Q200,182 400,178 Q580,176 742,180"/>
+    <path d="M0,310 Q200,312 400,308 Q580,306 742,310"/>
+  </g>
+</svg>

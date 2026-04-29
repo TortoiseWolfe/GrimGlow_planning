@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 250" width="742" height="250">
+  <title>Issue 7 — Page 7 — Panel 1: Full dark waterfront — lighthouse beam sweeps, dock lanterns burn, twenty minutes to midnight round</title>
+  <desc>24mm wide widescreen establishing eye level human scale. Industrial waterfront night. Stone quays iron mooring bollards tarred timber pilings dark warehouse silhouettes. River black reflective barge lights middle distance. Dock lanterns warm amber pools separated deep shadow. Lighthouse beam rotating arc cone amber light picks out surfaces. Steam crane skeletal arm. Late-shift dockworkers small figures loading cargo lantern light background. Fog diffuses light into halos. Operating environment.</desc>
+
+  <defs>
+    <linearGradient id="i7p7p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#1a1c2a"/>
+    </linearGradient>
+    <linearGradient id="i7p7p1river" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i7p7p1stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i7p7p1warehouse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0608"/>
+      <stop offset="100%" stop-color="#040204"/>
+    </linearGradient>
+    <radialGradient id="i7p7p1lampHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p7p1lighthouseHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffe0a8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#d8a060" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i7p7p1riverFog" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a3a4a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1a28" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p7p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p7p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p7p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p7p1megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="742" height="120" fill="url(#i7p7p1sky)"/>
+  <!-- Stars -->
+  <g fill="#fff" opacity="0.7">
+    <circle cx="80" cy="20" r="0.55"/>
+    <circle cx="180" cy="40" r="0.4"/>
+    <circle cx="260" cy="20" r="0.55"/>
+    <circle cx="380" cy="35" r="0.4"/>
+    <circle cx="500" cy="25" r="0.55"/>
+    <circle cx="620" cy="35" r="0.4"/>
+    <circle cx="700" cy="20" r="0.55"/>
+    <circle cx="120" cy="60" r="0.3"/>
+    <circle cx="320" cy="70" r="0.4"/>
+    <circle cx="560" cy="65" r="0.4"/>
+  </g>
+
+  <!-- Far bank silhouettes -->
+  <g fill="url(#i7p7p1warehouse)" opacity="0.85">
+    <rect x="0" y="100" width="80" height="40"/>
+    <rect x="100" y="95" width="100" height="45"/>
+    <rect x="220" y="100" width="80" height="40"/>
+    <rect x="320" y="90" width="120" height="50"/>
+    <rect x="460" y="100" width="80" height="40"/>
+    <rect x="560" y="95" width="100" height="45"/>
+    <rect x="680" y="100" width="62" height="40"/>
+  </g>
+  <!-- Chimneys -->
+  <rect x="120" y="80" width="3" height="20" fill="#0a0408"/>
+  <rect x="240" y="78" width="3" height="22" fill="#0a0408"/>
+  <rect x="380" y="75" width="3" height="20" fill="#0a0408"/>
+  <rect x="500" y="80" width="3" height="22" fill="#0a0408"/>
+  <rect x="620" y="78" width="3" height="20" fill="#0a0408"/>
+  <ellipse cx="121" cy="78" rx="6" ry="2" fill="#3a3838" opacity="0.55" filter="url(#i7p7p1glow)"/>
+  <ellipse cx="241" cy="76" rx="6" ry="2" fill="#3a3838" opacity="0.55" filter="url(#i7p7p1glow)"/>
+
+  <!-- Distant amber dots from far-bank windows -->
+  <g opacity="0.7" filter="url(#i7p7p1bloom)">
+    <circle cx="60" cy="120" r="0.85" fill="#d89858"/>
+    <circle cx="160" cy="115" r="0.85" fill="#d89858"/>
+    <circle cx="280" cy="120" r="0.85" fill="#d89858"/>
+    <circle cx="400" cy="118" r="0.85" fill="#d89858"/>
+    <circle cx="520" cy="120" r="0.85" fill="#d89858"/>
+    <circle cx="660" cy="118" r="0.85" fill="#d89858"/>
+  </g>
+
+  <!-- Steam crane skeletal arm against sky (left) -->
+  <g stroke="#0a0408" stroke-width="0.85" fill="none" opacity="0.95">
+    <line x1="80" y1="140" x2="80" y2="20"/>
+    <line x1="86" y1="140" x2="86" y2="20"/>
+    <line x1="80" y1="20" x2="86" y2="20"/>
+    <line x1="80" y1="40" x2="86" y2="60"/>
+    <line x1="86" y1="40" x2="80" y2="60"/>
+    <line x1="80" y1="80" x2="86" y2="100"/>
+    <line x1="86" y1="80" x2="80" y2="100"/>
+    <!-- Jib arm -->
+    <line x1="83" y1="20" x2="160" y2="40"/>
+    <line x1="83" y1="30" x2="158" y2="48"/>
+    <!-- Cable -->
+    <line x1="160" y1="40" x2="160" y2="100"/>
+    <path d="M160,100 L156,104 L160,108 L164,104 Z" fill="#0a0408"/>
+  </g>
+
+  <!-- River with reflections -->
+  <rect x="0" y="140" width="742" height="60" fill="url(#i7p7p1river)"/>
+  <!-- River fog -->
+  <ellipse cx="371" cy="170" rx="540" ry="40" fill="url(#i7p7p1riverFog)" filter="url(#i7p7p1strongglow)"/>
+  <!-- Water reflections of amber dots -->
+  <g opacity="0.55" filter="url(#i7p7p1bloom)">
+    <ellipse cx="60" cy="160" rx="3" ry="1" fill="#d89858"/>
+    <ellipse cx="280" cy="160" rx="3" ry="1" fill="#d89858"/>
+    <ellipse cx="520" cy="160" rx="3" ry="1" fill="#d89858"/>
+  </g>
+  <!-- Barge lights middle distance -->
+  <ellipse cx="200" cy="160" rx="22" ry="3" fill="#1a1018"/>
+  <rect x="180" y="148" width="40" height="12" fill="#1a1018"/>
+  <circle cx="200" cy="146" r="1.4" fill="#fff8c8" filter="url(#i7p7p1bloom)"/>
+  <ellipse cx="500" cy="155" rx="22" ry="3" fill="#1a1018"/>
+  <rect x="480" y="143" width="40" height="12" fill="#1a1018"/>
+  <circle cx="500" cy="141" r="1.4" fill="#fff8c8" filter="url(#i7p7p1bloom)"/>
+
+  <!-- ===== LIGHTHOUSE — center-right, beam sweeping LEFT through panel ===== -->
+  <g transform="translate(560 130)">
+    <!-- Halo -->
+    <ellipse cx="0" cy="-30" rx="80" ry="60" fill="url(#i7p7p1lighthouseHalo)" filter="url(#i7p7p1megaglow)"/>
+    <!-- Lighthouse body -->
+    <path d="M-12,40 L-9,-10 L-16,-20 L16,-20 L9,-10 L12,40 Z" fill="#3a2418"/>
+    <!-- Iron lamp room -->
+    <rect x="-18" y="-34" width="36" height="14" fill="#1a1818" stroke="#0a0408" stroke-width="0.4"/>
+    <ellipse cx="0" cy="-27" rx="14" ry="4" fill="#fff8c8" filter="url(#i7p7p1bloom)" opacity="0.95"/>
+    <!-- Roof cap -->
+    <polygon points="-16,-34 0,-44 16,-34" fill="#1a1818"/>
+    <line x1="0" y1="-44" x2="0" y2="-50" stroke="#0a0408" stroke-width="1"/>
+    <!-- BEAM CONE sweeping LEFT through panel -->
+    <path d="M-18,-27 L-440,-90 L-440,40 L-18,-22 Z" fill="#ffd898" opacity="0.4" filter="url(#i7p7p1megaglow)"/>
+    <path d="M-18,-27 L-440,-30 L-440,10 L-18,-22 Z" fill="#ffe0a8" opacity="0.55" filter="url(#i7p7p1strongglow)"/>
+  </g>
+
+  <!-- Pier extending into river -->
+  <path d="M460,180 L640,175 L640,195 L460,190 Z" fill="url(#i7p7p1stone)"/>
+
+  <!-- Stone quay (foreground) -->
+  <rect x="0" y="200" width="742" height="50" fill="url(#i7p7p1stone)"/>
+  <line x1="0" y1="200" x2="742" y2="200" stroke="#1a1418" stroke-width="0.55"/>
+  <g stroke="#1a1418" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,220 L742,220"/>
+    <path d="M0,240 L742,240"/>
+  </g>
+
+  <!-- Iron mooring bollards along quay -->
+  <g fill="url(#i7p7p1stone)">
+    <ellipse cx="40" cy="200" rx="4" ry="2"/>
+    <rect x="38" y="194" width="4" height="6"/>
+    <ellipse cx="160" cy="200" rx="4" ry="2"/>
+    <rect x="158" y="194" width="4" height="6"/>
+    <ellipse cx="320" cy="200" rx="4" ry="2"/>
+    <rect x="318" y="194" width="4" height="6"/>
+    <ellipse cx="700" cy="200" rx="4" ry="2"/>
+    <rect x="698" y="194" width="4" height="6"/>
+  </g>
+
+  <!-- Dock lanterns at intervals -->
+  <g transform="translate(220 180)">
+    <ellipse cx="0" cy="0" rx="22" ry="20" fill="url(#i7p7p1lampHalo)" filter="url(#i7p7p1strongglow)"/>
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#1a0c08" stroke-width="0.85"/>
+    <ellipse cx="0" cy="0" rx="2" ry="3" fill="#fff8c8" filter="url(#i7p7p1bloom)"/>
+  </g>
+  <g transform="translate(380 180)">
+    <ellipse cx="0" cy="0" rx="22" ry="20" fill="url(#i7p7p1lampHalo)" filter="url(#i7p7p1strongglow)"/>
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#1a0c08" stroke-width="0.85"/>
+    <ellipse cx="0" cy="0" rx="2" ry="3" fill="#fff8c8" filter="url(#i7p7p1bloom)"/>
+  </g>
+
+  <!-- Late-shift dockworkers (small silhouettes) -->
+  <g transform="translate(60 200)" opacity="0.85">
+    <path d="M-3,0 L-3,-12 L-2,-18 L0,-12 Z" fill="#1a1018"/>
+    <path d="M3,0 L3,-12 L2,-18 L0,-12 Z" fill="#1a1018"/>
+    <ellipse cx="0" cy="-22" rx="2" ry="2" fill="#5a4828"/>
+    <!-- Lantern in hand -->
+    <ellipse cx="6" cy="-14" rx="2" ry="2" fill="#ffd898" filter="url(#i7p7p1bloom)"/>
+  </g>
+  <g transform="translate(680 200)" opacity="0.85">
+    <path d="M-3,0 L-3,-12 L-2,-18 L0,-12 Z" fill="#1a1018"/>
+    <path d="M3,0 L3,-12 L2,-18 L0,-12 Z" fill="#1a1018"/>
+    <ellipse cx="0" cy="-22" rx="2" ry="2" fill="#5a4828"/>
+  </g>
+
+  <!-- Caption -->
+  <g>
+    <rect x="14" y="14" width="320" height="34" rx="2" fill="#f5ecd8" stroke="#5a4a30" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">"Full dark. Twenty minutes to the</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#5a4a30" font-style="italic">keeper's midnight round."</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1c30" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,90 Q200,92 400,88 Q580,86 742,90"/>
+    <path d="M0,200 Q200,202 400,198 Q580,196 742,200"/>
+  </g>
+</svg>
