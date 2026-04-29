@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 421.5" width="366" height="421.5">
+  <title>Issue 6 — Page 10 — Panel 4: CU Theodore's hand on iron latch — brass ring catches scanner light, door opens inward</title>
+  <desc>85mm CU. Oil-stained fingers on cold iron latch, brass gear ring on left index catches blue-violet scanner light. Door begins opening inward, draft of cold stale air, darkness beyond.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p10p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i6p10p4door" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="i6p10p4doorOpen" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0c04"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="i6p10p4void" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0410" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1a0c04" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p10p4scannerWash" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a888ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5a3ad8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p10p4ringGlint" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#c89058" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7a5028" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i6p10p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p10p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="366" height="421.5" fill="url(#i6p10p4bg)"/>
+
+  <!-- Closed door portion (the part still showing) — left side -->
+  <rect x="0" y="0" width="180" height="421.5" fill="url(#i6p10p4door)"/>
+  <!-- Wood plank seams -->
+  <line x1="60" y1="0" x2="60" y2="421.5" stroke="#1a0c04" stroke-width="0.85" opacity="0.85"/>
+  <line x1="120" y1="0" x2="120" y2="421.5" stroke="#1a0c04" stroke-width="0.85" opacity="0.85"/>
+  <!-- Wood grain -->
+  <g stroke="#5a3018" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,80 Q40,82 80,80"/>
+    <path d="M40,160 Q80,162 120,160"/>
+    <path d="M0,240 Q40,242 80,240"/>
+    <path d="M40,320 Q80,322 120,320"/>
+    <path d="M80,40 Q120,42 160,40"/>
+    <path d="M80,200 Q120,202 160,200"/>
+    <path d="M80,360 Q120,362 160,360"/>
+  </g>
+  <!-- Iron studs -->
+  <g fill="#1a0c04" stroke="#0a0408" stroke-width="0.55">
+    <circle cx="20" cy="40" r="6"/>
+    <circle cx="80" cy="40" r="6"/>
+    <circle cx="140" cy="40" r="6"/>
+    <circle cx="20" cy="200" r="6"/>
+    <circle cx="80" cy="200" r="6"/>
+    <circle cx="140" cy="200" r="6"/>
+    <circle cx="20" cy="360" r="6"/>
+    <circle cx="80" cy="360" r="6"/>
+    <circle cx="140" cy="360" r="6"/>
+  </g>
+  <g fill="#5a4838" opacity="0.85">
+    <circle cx="18" cy="38" r="1.6"/>
+    <circle cx="78" cy="38" r="1.6"/>
+    <circle cx="138" cy="38" r="1.6"/>
+    <circle cx="18" cy="198" r="1.6"/>
+    <circle cx="78" cy="198" r="1.6"/>
+    <circle cx="138" cy="198" r="1.6"/>
+  </g>
+  <!-- Blistered paint -->
+  <g fill="#5a3018" opacity="0.55">
+    <ellipse cx="40" cy="120" rx="14" ry="6"/>
+    <ellipse cx="100" cy="280" rx="11" ry="5"/>
+    <ellipse cx="60" cy="380" rx="9" ry="4"/>
+  </g>
+
+  <!-- DOOR OPENING INWARD — gap between door + frame revealing darkness -->
+  <path d="M180,0 L260,0 L260,421.5 L180,421.5 Z" fill="url(#i6p10p4doorOpen)"/>
+  <!-- Doorway opening — VOID beyond -->
+  <path d="M260,0 L366,0 L366,421.5 L260,421.5 Z" fill="#0a0408"/>
+  <ellipse cx="312" cy="210" rx="60" ry="180" fill="url(#i6p10p4void)" filter="url(#i6p10p4glow)"/>
+  <!-- Hint of stone wall edge (door frame side) -->
+  <line x1="260" y1="0" x2="260" y2="421.5" stroke="#1a0c04" stroke-width="2.4"/>
+  <!-- Cold draft visualized as faint vertical wisps in doorway -->
+  <g stroke="#5a5048" stroke-width="0.55" opacity="0.45" fill="none" filter="url(#i6p10p4bloom)">
+    <path d="M280,80 Q286,160 282,260"/>
+    <path d="M310,40 Q316,140 312,260"/>
+    <path d="M340,60 Q346,180 342,300"/>
+    <path d="M290,300 Q296,360 292,400"/>
+  </g>
+
+  <!-- ===== IRON LATCH — heavy, center-frame ===== -->
+  <g transform="translate(220 200)">
+    <!-- Latch back-plate -->
+    <rect x="-30" y="-60" width="60" height="120" fill="#1a0c04" stroke="#0a0408" stroke-width="1.4"/>
+    <!-- Plate corrosion -->
+    <ellipse cx="-20" cy="-30" rx="8" ry="6" fill="#3a1808" opacity="0.7"/>
+    <ellipse cx="22" cy="40" rx="9" ry="6" fill="#3a1808" opacity="0.7"/>
+    <ellipse cx="0" cy="0" rx="14" ry="7" fill="#3a1808" opacity="0.55"/>
+    <!-- Latch lever (thumb push) -->
+    <path d="M-26,-12 L20,-22 L26,-2 L20,2 L-22,12 Z" fill="#3a3028" stroke="#0a0408" stroke-width="0.85"/>
+    <!-- Lever shadow -->
+    <path d="M-26,-12 L20,-22 L20,-18 L-26,-8 Z" fill="#5a4838" opacity="0.7"/>
+    <!-- Pivot pin -->
+    <circle cx="0" cy="-2" r="3" fill="#0a0408" stroke="#1a0c04" stroke-width="0.85"/>
+    <circle cx="0" cy="-2" r="1.4" fill="#3a3028"/>
+    <!-- Latch hook below -->
+    <path d="M-12,12 L18,18 L20,40 L-10,32 Z" fill="#3a3028" stroke="#0a0408" stroke-width="0.85"/>
+    <!-- Wear/heavy use polish -->
+    <line x1="-22" y1="-15" x2="18" y2="-22" stroke="#7a6c64" stroke-width="0.55" opacity="0.55"/>
+    <line x1="-12" y1="14" x2="18" y2="20" stroke="#7a6c64" stroke-width="0.55" opacity="0.55"/>
+  </g>
+
+  <!-- Scanner wash from below — soft wash on whole composition -->
+  <ellipse cx="183" cy="380" rx="220" ry="140" fill="url(#i6p10p4scannerWash)" filter="url(#i6p10p4glow)"/>
+
+  <!-- ===== HAND on latch — large, dominant ===== -->
+  <g transform="translate(160 240)">
+    <!-- Wrist coming from off-frame bottom-left -->
+    <path d="M-100,140 L20,140 L40,200 L-100,200 Z" fill="#a87838"/>
+    <!-- Linen sleeve at edge -->
+    <path d="M-100,180 L-80,140 L-100,140 Z" fill="#d4c4a8"/>
+    <!-- Waistcoat sleeve fabric edge -->
+    <path d="M-100,140 L-80,140 L-90,90 L-100,90 Z" fill="#5a3818"/>
+
+    <!-- Back of hand / palm -->
+    <path d="M-30,140 L60,80 L80,30 L70,-10 L40,-10 L0,30 L-50,90 L-50,140 Z" fill="#a87838"/>
+
+    <!-- THUMB -->
+    <path d="M70,-10 L100,-30 L114,-26 L110,-10 L90,0 L80,4 Z" fill="#a87838"/>
+    <ellipse cx="105" cy="-25" rx="4" ry="2.4" fill="#5a3028" opacity="0.7"/>
+    <!-- Knuckle on thumb -->
+    <line x1="92" y1="-2" x2="100" y2="-12" stroke="#5a3028" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- INDEX FINGER (with brass ring!) wrapping around lever -->
+    <path d="M40,-10 L20,-50 L34,-70 L52,-46 L60,-12 Z" fill="#a87838"/>
+    <!-- Knuckles -->
+    <line x1="38" y1="-32" x2="48" y2="-26" stroke="#5a3028" stroke-width="0.85" opacity="0.85"/>
+    <line x1="36" y1="-50" x2="46" y2="-44" stroke="#5a3028" stroke-width="0.85" opacity="0.85"/>
+    <!-- BRASS GEAR RING on index — rendered with care, catches blue-violet scanner light -->
+    <g transform="translate(36 -42)">
+      <ellipse cx="0" cy="0" rx="6" ry="4.5" fill="none" stroke="#c89058" stroke-width="2.4" filter="url(#i6p10p4bloom)"/>
+      <!-- Gear teeth around ring -->
+      <g fill="#c89058" filter="url(#i6p10p4bloom)">
+        <rect x="-7" y="-1" width="2" height="2"/>
+        <rect x="5" y="-1" width="2" height="2"/>
+        <rect x="-1" y="-5" width="2" height="2"/>
+        <rect x="-1" y="3" width="2" height="2"/>
+        <rect x="-5" y="-4" width="2" height="2" transform="rotate(45 -4 -3)"/>
+        <rect x="3" y="-4" width="2" height="2" transform="rotate(-45 4 -3)"/>
+        <rect x="-5" y="2" width="2" height="2" transform="rotate(-45 -4 3)"/>
+        <rect x="3" y="2" width="2" height="2" transform="rotate(45 4 3)"/>
+      </g>
+      <!-- Highlight glint -->
+      <ellipse cx="-2" cy="-2" rx="3" ry="1.4" fill="url(#i6p10p4ringGlint)" filter="url(#i6p10p4bloom)" opacity="0.95"/>
+      <!-- Cool blue-violet rim catching from scanner -->
+      <ellipse cx="0" cy="0" rx="6" ry="4.5" fill="none" stroke="#a888ff" stroke-width="0.55" opacity="0.85" filter="url(#i6p10p4bloom)"/>
+    </g>
+
+    <!-- MIDDLE finger -->
+    <path d="M14,-2 L0,-44 L14,-62 L30,-38 L36,-6 Z" fill="#a87838"/>
+    <line x1="12" y1="-26" x2="22" y2="-22" stroke="#5a3028" stroke-width="0.85" opacity="0.85"/>
+    <line x1="10" y1="-44" x2="20" y2="-38" stroke="#5a3028" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- RING finger -->
+    <path d="M-10,4 L-20,-32 L-8,-50 L8,-26 L14,2 Z" fill="#a87838"/>
+    <line x1="-12" y1="-16" x2="-2" y2="-12" stroke="#5a3028" stroke-width="0.85" opacity="0.85"/>
+    <line x1="-14" y1="-32" x2="-4" y2="-26" stroke="#5a3028" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- LITTLE finger -->
+    <path d="M-32,18 L-44,-12 L-30,-30 L-14,-12 L-10,12 Z" fill="#a87838"/>
+    <line x1="-34" y1="-2" x2="-22" y2="0" stroke="#5a3028" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- Oil stains on knuckles + back of hand -->
+    <ellipse cx="-12" cy="60" rx="14" ry="6" fill="#0a0604" opacity="0.55"/>
+    <ellipse cx="40" cy="40" rx="11" ry="5" fill="#0a0604" opacity="0.7"/>
+    <ellipse cx="20" cy="100" rx="9" ry="4" fill="#0a0604" opacity="0.55"/>
+    <!-- Tendon strain -->
+    <line x1="-30" y1="60" x2="-12" y2="40" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="-10" y1="60" x2="6" y2="40" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="14" y1="60" x2="30" y2="40" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+    <line x1="40" y1="60" x2="56" y2="20" stroke="#5a3028" stroke-width="0.55" opacity="0.85"/>
+
+    <!-- Fingernails -->
+    <ellipse cx="34" cy="-66" rx="3" ry="1.4" fill="#7a5028"/>
+    <ellipse cx="14" cy="-58" rx="3" ry="1.4" fill="#7a5028"/>
+    <ellipse cx="-8" cy="-46" rx="3" ry="1.4" fill="#7a5028"/>
+    <ellipse cx="-30" cy="-26" rx="3" ry="1.4" fill="#7a5028"/>
+
+    <!-- Blue-violet scanner light wash on hand surfaces -->
+    <path d="M-30,140 L60,80 L80,30 L70,-10" stroke="#a888ff" stroke-width="0.7" fill="none" opacity="0.55" filter="url(#i6p10p4bloom)"/>
+    <path d="M-50,90 L0,30" stroke="#a888ff" stroke-width="0.55" fill="none" opacity="0.45" filter="url(#i6p10p4bloom)"/>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,200 Q120,202 240,198 Q330,196 366,200"/>
+    <path d="M0,360 Q120,362 240,358 Q330,356 366,360"/>
+  </g>
+</svg>

@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 421.5" width="742" height="421.5">
+  <title>Issue 6 — Page 10 — Panel 1: Theodore walks deliberately toward basement steps — fists clenched, jaw locked</title>
+  <desc>35mm medium wide eye level tracking. Theodore mid-stride along narrow fog street, eyes forward and DOWN toward basement steps ahead-left. Fists clenched at sides. Pocket dim — Luma fully inside. Behind: fog has closed, Titan shadow hidden.</desc>
+
+  <defs>
+    <filter id="balloonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <linearGradient id="i6p10p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#605850"/>
+      <stop offset="50%" stop-color="#403830"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i6p10p1bldgL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2820"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i6p10p1bldgR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <radialGradient id="i6p10p1fog" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#605850" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#2a2420" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p10p1fogVoidBack" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#605850" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#2a2420" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i6p10p1pocketDim" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5a3ad8" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#2a1058" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i6p10p1theoWaistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i6p10p1theoTrousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i6p10p1stoneStep" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#0a0608"/>
+    </linearGradient>
+    <filter id="i6p10p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i6p10p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="742" height="421.5" fill="url(#i6p10p1bg)"/>
+
+  <!-- Fog band -->
+  <rect width="742" height="120" fill="#605850"/>
+  <ellipse cx="371" cy="100" rx="500" ry="120" fill="url(#i6p10p1fog)" filter="url(#i6p10p1glow)" opacity="0.95"/>
+
+  <!-- LEFT building wall (where basement steps are) -->
+  <rect x="0" y="80" width="280" height="280" fill="url(#i6p10p1bldgL)"/>
+  <rect x="0" y="80" width="280" height="60" fill="url(#i6p10p1fog)" opacity="0.7"/>
+  <g stroke="#0a0408" stroke-width="0.55" opacity="0.85">
+    <line x1="0" y1="140" x2="280" y2="140"/>
+    <line x1="0" y1="180" x2="280" y2="180"/>
+    <line x1="0" y1="220" x2="280" y2="220"/>
+    <line x1="0" y1="280" x2="280" y2="280"/>
+    <line x1="0" y1="340" x2="280" y2="340"/>
+  </g>
+  <g stroke="#0a0408" stroke-width="2.4" opacity="0.55" fill="none">
+    <line x1="80" y1="80" x2="80" y2="360"/>
+    <line x1="160" y1="80" x2="160" y2="360"/>
+    <line x1="240" y1="80" x2="240" y2="360"/>
+  </g>
+  <g fill="#0a0408" stroke="#1a1008" stroke-width="0.55">
+    <rect x="20" y="160" width="20" height="22"/>
+    <rect x="100" y="160" width="20" height="22"/>
+    <rect x="180" y="160" width="20" height="22"/>
+    <rect x="20" y="200" width="20" height="22"/>
+    <rect x="100" y="200" width="20" height="22"/>
+    <rect x="180" y="200" width="20" height="22"/>
+    <rect x="20" y="240" width="20" height="22"/>
+    <rect x="100" y="240" width="20" height="22"/>
+    <rect x="180" y="240" width="20" height="22"/>
+  </g>
+
+  <!-- ===== BASEMENT STEPS — descending below street level on left ===== -->
+  <g transform="translate(140 360)">
+    <!-- Step opening in pavement -->
+    <rect x="-80" y="0" width="160" height="61.5" fill="#0a0408"/>
+    <!-- Stone step risers -->
+    <path d="M-80,0 L80,0 L78,8 L-78,8 Z" fill="url(#i6p10p1stoneStep)"/>
+    <path d="M-78,12 L78,12 L74,22 L-74,22 Z" fill="url(#i6p10p1stoneStep)"/>
+    <path d="M-74,26 L74,26 L68,38 L-68,38 Z" fill="url(#i6p10p1stoneStep)"/>
+    <path d="M-68,42 L68,42 L60,55 L-60,55 Z" fill="url(#i6p10p1stoneStep)"/>
+    <!-- Step shadows -->
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="#5a5048" stroke-width="0.85" opacity="0.85"/>
+    <line x1="-78" y1="12" x2="78" y2="12" stroke="#5a5048" stroke-width="0.85" opacity="0.85"/>
+    <line x1="-74" y1="26" x2="74" y2="26" stroke="#5a5048" stroke-width="0.85" opacity="0.85"/>
+    <line x1="-68" y1="42" x2="68" y2="42" stroke="#5a5048" stroke-width="0.85" opacity="0.85"/>
+    <!-- Damp/wear streaks -->
+    <ellipse cx="-30" cy="22" rx="14" ry="2" fill="#1a0c04" opacity="0.55"/>
+    <ellipse cx="30" cy="38" rx="14" ry="2" fill="#1a0c04" opacity="0.55"/>
+    <!-- Iron railing right side -->
+    <line x1="80" y1="-12" x2="80" y2="55" stroke="#1a0c04" stroke-width="3"/>
+    <line x1="80" y1="-12" x2="60" y2="55" stroke="#1a0c04" stroke-width="2"/>
+    <!-- Railing posts -->
+    <rect x="78" y="-12" width="4" height="14" fill="#1a0c04"/>
+    <rect x="58" y="55" width="4" height="6" fill="#1a0c04"/>
+    <!-- Railing spindle -->
+    <line x1="68" y1="22" x2="68" y2="55" stroke="#1a0c04" stroke-width="1.4"/>
+    <!-- Corrosion -->
+    <ellipse cx="80" cy="0" rx="3" ry="1.6" fill="#5a3018" opacity="0.7"/>
+    <ellipse cx="68" cy="40" rx="2.4" ry="1.4" fill="#5a3018" opacity="0.7"/>
+  </g>
+
+  <!-- RIGHT building wall (foggy with darker shadow than P9) -->
+  <rect x="500" y="80" width="242" height="280" fill="url(#i6p10p1bldgR)"/>
+  <rect x="500" y="80" width="242" height="60" fill="url(#i6p10p1fog)" opacity="0.7"/>
+  <g stroke="#0a0408" stroke-width="0.55" opacity="0.85">
+    <line x1="500" y1="140" x2="742" y2="140"/>
+    <line x1="500" y1="180" x2="742" y2="180"/>
+    <line x1="500" y1="220" x2="742" y2="220"/>
+    <line x1="500" y1="280" x2="742" y2="280"/>
+    <line x1="500" y1="340" x2="742" y2="340"/>
+  </g>
+  <g stroke="#0a0408" stroke-width="2.4" opacity="0.55" fill="none">
+    <line x1="540" y1="80" x2="540" y2="360"/>
+    <line x1="620" y1="80" x2="620" y2="360"/>
+    <line x1="700" y1="80" x2="700" y2="360"/>
+  </g>
+
+  <!-- BACK of street: fog has CLOSED — Titan shadow no longer visible -->
+  <polygon points="280,140 500,140 460,360 280,360" fill="#1a0c08"/>
+  <ellipse cx="380" cy="240" rx="200" ry="140" fill="url(#i6p10p1fogVoidBack)" filter="url(#i6p10p1glow)" opacity="0.95"/>
+  <!-- Distant building silhouettes lost in fog -->
+  <rect x="320" y="200" width="40" height="160" fill="#403830" opacity="0.4"/>
+  <rect x="380" y="180" width="40" height="180" fill="#3a3028" opacity="0.4"/>
+  <rect x="440" y="200" width="40" height="160" fill="#403830" opacity="0.4"/>
+
+  <!-- COBBLES / pavement foreground -->
+  <rect x="0" y="360" width="742" height="61.5" fill="#1a1410"/>
+  <g stroke="#0a0408" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M0,378 Q200,376 400,378 Q580,380 742,378"/>
+    <path d="M0,394 Q200,392 400,394 Q580,396 742,394"/>
+    <path d="M0,410 Q200,408 400,410 Q580,412 742,410"/>
+  </g>
+
+  <!-- ===== THEODORE — mid-stride, walking left toward basement steps ===== -->
+  <g transform="translate(450 360)">
+    <!-- Boots — walking gait, one foot lifted -->
+    <ellipse cx="-12" cy="0" rx="11" ry="3" fill="#1a0c04"/>
+    <ellipse cx="14" cy="-4" rx="11" ry="3" fill="#1a0c04"/>
+    <!-- Trousers — stride pose, leading leg forward (LEFT toward basement) -->
+    <path d="M-15,-58 L-2,-58 L-15,0 L-23,0 Z" fill="url(#i6p10p1theoTrousers)"/>
+    <path d="M2,-58 L15,-58 L20,-4 L8,-4 Z" fill="url(#i6p10p1theoTrousers)"/>
+    <rect x="-12" y="-22" width="9" height="11" fill="#5a3018" stroke="#3a1808" stroke-width="0.45" opacity="0.85"/>
+    <rect x="3" y="-20" width="9" height="11" fill="#5a3018" stroke="#3a1808" stroke-width="0.45" opacity="0.85"/>
+    <rect x="-15" y="-58" width="30" height="3" fill="#3a1808"/>
+    <!-- Shirt + waistcoat -->
+    <path d="M-13,-118 L-12,-58 L13,-58 L14,-118 Z" fill="#d4c4a8"/>
+    <path d="M-15,-116 L-13,-58 L-2,-58 L-2,-116 Z" fill="url(#i6p10p1theoWaistcoat)"/>
+    <path d="M14,-116 L15,-58 L2,-58 L2,-116 Z" fill="url(#i6p10p1theoWaistcoat)"/>
+    <!-- Pocket — DIM glow (Luma fully inside) -->
+    <rect x="3" y="-108" width="11" height="14" fill="#3a1808" stroke="#1a0c04" stroke-width="0.55"/>
+    <path d="M3,-108 L14,-108 L14,-104 L3,-104 Z" fill="#5a3018" stroke="#1a0c04" stroke-width="0.4"/>
+    <rect x="5" y="-104" width="7" height="9" fill="#3a2068" opacity="0.55"/>
+    <ellipse cx="9" cy="-99" rx="9" ry="5" fill="url(#i6p10p1pocketDim)" filter="url(#i6p10p1glow)"/>
+    <!-- Buttons -->
+    <circle cx="-2" cy="-100" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-82" r="0.85" fill="#3a1808"/>
+    <circle cx="-2" cy="-64" r="0.85" fill="#3a1808"/>
+    <!-- Linen collar -->
+    <path d="M-7,-118 L0,-116 L7,-118 L7,-114 L0,-110 L-7,-114 Z" fill="#e0d4b8"/>
+    <!-- ARMS — both at sides, FISTS clenched -->
+    <path d="M-15,-116 L-22,-92 L-22,-58 L-12,-58 Z" fill="url(#i6p10p1theoWaistcoat)"/>
+    <path d="M14,-116 L21,-92 L21,-58 L13,-58 Z" fill="url(#i6p10p1theoWaistcoat)"/>
+    <!-- Closed fists -->
+    <ellipse cx="-22" cy="-58" rx="3" ry="2" fill="#a87838"/>
+    <ellipse cx="21" cy="-58" rx="3" ry="2" fill="#a87838"/>
+    <!-- Knuckle ridges (clenched) -->
+    <line x1="-25" y1="-60" x2="-19" y2="-58" stroke="#5a3028" stroke-width="0.45" opacity="0.85"/>
+    <line x1="-24" y1="-56" x2="-20" y2="-56" stroke="#5a3028" stroke-width="0.45" opacity="0.7"/>
+    <line x1="18" y1="-60" x2="24" y2="-58" stroke="#5a3028" stroke-width="0.45" opacity="0.85"/>
+    <line x1="19" y1="-56" x2="23" y2="-56" stroke="#5a3028" stroke-width="0.45" opacity="0.7"/>
+    <!-- Brass ring on left index (clenched fist still visible) -->
+    <circle cx="-22" cy="-58" r="0.7" fill="#c89058" filter="url(#i6p10p1bloom)" opacity="0.85"/>
+    <!-- Head + neck — eyes FORWARD AND DOWN toward steps -->
+    <rect x="-3" y="-126" width="6" height="8" fill="#a87838"/>
+    <ellipse cx="0" cy="-138" rx="14" ry="16" fill="#a87838"/>
+    <path d="M-13,-148 Q-10,-160 0,-162 Q10,-160 13,-148 L13,-138 Q9,-146 0,-146 Q-9,-146 -13,-138 Z" fill="#9a7038"/>
+    <path d="M-7,-156 L-5,-160 L-8,-160 Z" fill="#9a7038"/>
+    <path d="M5,-156 L7,-160 L4,-160 Z" fill="#9a7038"/>
+    <path d="M0,-160 L2,-164 L-2,-164 Z" fill="#9a7038"/>
+    <!-- Eyes shifted DOWN-LEFT toward basement steps -->
+    <ellipse cx="-4" cy="-138" rx="1.6" ry="1" fill="#fff8e8"/>
+    <circle cx="-5" cy="-137" r="0.85" fill="#5a3818"/>
+    <ellipse cx="3" cy="-138" rx="1.6" ry="1" fill="#fff8e8"/>
+    <circle cx="2" cy="-137" r="0.85" fill="#5a3818"/>
+    <!-- Brows down — locked focus -->
+    <path d="M-9,-144 L-2,-144" stroke="#5a3018" stroke-width="0.85"/>
+    <path d="M2,-144 L9,-144" stroke="#5a3018" stroke-width="0.85"/>
+    <line x1="-2" y1="-143" x2="0" y2="-140" stroke="#3a1808" stroke-width="0.45" opacity="0.7"/>
+    <line x1="2" y1="-143" x2="0" y2="-140" stroke="#3a1808" stroke-width="0.45" opacity="0.7"/>
+    <!-- Mouth pressed shut (jaw locked) -->
+    <path d="M-3,-128 L3,-128" stroke="#3a1808" stroke-width="1"/>
+    <!-- Jaw tension shadow under -->
+    <ellipse cx="0" cy="-124" rx="6" ry="1" fill="#1a0c04" opacity="0.55"/>
+    <!-- Freckles -->
+    <circle cx="-3" cy="-131" r="0.3" fill="#7a3018"/>
+    <circle cx="3" cy="-131" r="0.3" fill="#7a3018"/>
+  </g>
+
+  <!-- LUMA dialogue (muffled — from inside pocket) -->
+  <g>
+    <rect x="14" y="14" width="320" height="40" rx="2" fill="white" stroke="#5a3ad8" stroke-width="0.55" opacity="0.92" filter="url(#balloonShadow)" stroke-dasharray="2 2"/>
+    <polygon points="160,54 172,54 164,64" fill="white" stroke="#5a3ad8" stroke-width="0.55" stroke-dasharray="2 1.5"/>
+    <line x1="160.5" y1="54" x2="171.5" y2="54" stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#5a3ad8" font-weight="700" font-style="italic">LUMA (muffled, inside pocket)</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic">Steady. The basement steps are ten paces ahead.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q200,142 400,138 Q580,136 742,140"/>
+    <path d="M0,360 Q200,362 400,358 Q580,356 742,360"/>
+  </g>
+</svg>
