@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 9 Page 2 Panel 2 — Sable listening, mask tightened</title>
+  <desc>Medium close-up slight low angle of Sable. Rigid composure, mask tightened (not cracked) — overcorrection. Jaw set, micro-tension around eyes. Dim blue-white camp glow + grey pre-dawn from behind. Shadows under eyes visible.</desc>
+  <defs>
+    <linearGradient id="bgGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c1018"/>
+      <stop offset="0.5" stop-color="#1a1f2a"/>
+      <stop offset="1" stop-color="#0a0c12"/>
+    </linearGradient>
+    <radialGradient id="rimSilver" cx="0.5" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#7088a8" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#3a4858" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0a0c12" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="faceLit2" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0" stop-color="#0a0604"/>
+      <stop offset="0.3" stop-color="#1f1208"/>
+      <stop offset="0.7" stop-color="#3a2410"/>
+      <stop offset="1" stop-color="#5a3618"/>
+    </linearGradient>
+    <linearGradient id="silverSuit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a5a5a"/>
+      <stop offset="0.5" stop-color="#3a3a3a"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="hairSilver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9aa0a8"/>
+      <stop offset="0.5" stop-color="#7a7e84"/>
+      <stop offset="1" stop-color="#3a3e44"/>
+    </linearGradient>
+    <filter id="bloom2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="soft2" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgGrad2)"/>
+  <rect width="366" height="240" fill="url(#rimSilver)"/>
+
+  <g opacity="0.5" filter="url(#soft2)">
+    <rect x="20" y="0" width="40" height="240" fill="#1a2030" opacity="0.4"/>
+    <rect x="306" y="0" width="40" height="240" fill="#1a2030" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.45" filter="url(#bloom2)">
+    <ellipse cx="183" cy="14" rx="170" ry="10" fill="#7088a8"/>
+  </g>
+
+  <g opacity="0.55">
+    <line x1="80" y1="10" x2="286" y2="10" stroke="#88a0c0" stroke-width="0.6"/>
+    <g stroke="#a8c0e0" stroke-width="0.4" opacity="0.6">
+      <line x1="110" y1="10" x2="110" y2="18"/>
+      <line x1="160" y1="10" x2="160" y2="18"/>
+      <line x1="210" y1="10" x2="210" y2="18"/>
+      <line x1="260" y1="10" x2="260" y2="18"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="220" rx="160" ry="50" fill="#0a0a0e"/>
+  </g>
+
+  <g>
+    <path d="M 152 78 Q 148 96 152 118 Q 158 140 168 156 Q 180 166 196 166 Q 214 162 224 146 Q 230 124 226 100 Q 222 80 210 70 Q 192 62 176 64 Q 160 70 152 78 Z" fill="url(#faceLit2)" opacity="0.95"/>
+    <path d="M 154 90 Q 152 112 158 134 Q 166 152 178 162 Q 168 158 162 150 Q 152 132 150 110 Q 152 96 154 90 Z" fill="#080404" opacity="0.55"/>
+  </g>
+
+  <g>
+    <path d="M 148 72 Q 156 60 180 56 Q 204 56 220 64 Q 228 74 226 86 L 222 92 Q 216 78 200 72 Q 180 68 164 72 Q 154 76 150 84 Z" fill="url(#hairSilver)" opacity="0.9"/>
+    <g stroke="#cccccc" stroke-width="0.3" opacity="0.4">
+      <line x1="160" y1="62" x2="166" y2="74"/>
+      <line x1="178" y1="58" x2="180" y2="70"/>
+      <line x1="196" y1="58" x2="194" y2="70"/>
+      <line x1="212" y1="64" x2="208" y2="74"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="174" cy="110" rx="7" ry="3" fill="#0a0604"/>
+    <ellipse cx="206" cy="108" rx="7" ry="3" fill="#0a0604"/>
+    <circle cx="174" cy="110" r="2.2" fill="#080404"/>
+    <circle cx="206" cy="108" r="2.2" fill="#080404"/>
+    <circle cx="175" cy="109" r="0.8" fill="#88a0c0" opacity="0.85"/>
+    <circle cx="207" cy="107" r="0.8" fill="#88a0c0" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.55">
+    <path d="M 162 120 Q 174 124 186 122" stroke="#080404" stroke-width="1.2" fill="none"/>
+    <path d="M 196 120 Q 206 124 218 122" stroke="#080404" stroke-width="1.2" fill="none"/>
+  </g>
+
+  <g stroke="#0a0604" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M 162 102 Q 174 98 188 102"/>
+    <path d="M 196 100 Q 208 96 220 100"/>
+  </g>
+
+  <g stroke="#0a0604" stroke-width="0.6" opacity="0.5">
+    <line x1="166" y1="104" x2="166" y2="108"/>
+    <line x1="174" y1="101" x2="174" y2="105"/>
+    <line x1="184" y1="103" x2="184" y2="107"/>
+    <line x1="200" y1="100" x2="200" y2="104"/>
+    <line x1="208" y1="98" x2="208" y2="102"/>
+    <line x1="218" y1="100" x2="218" y2="104"/>
+  </g>
+
+  <path d="M 192 118 Q 188 132 192 144" stroke="#0a0604" stroke-width="0.9" fill="none" opacity="0.7"/>
+
+  <g>
+    <path d="M 178 152 L 200 152" stroke="#0a0604" stroke-width="1.6"/>
+  </g>
+
+  <g>
+    <path d="M 130 166 Q 110 184 100 220 L 270 220 Q 260 184 240 166 Q 220 160 200 160 L 168 160 Q 148 160 130 166 Z" fill="url(#silverSuit)"/>
+    <path d="M 130 170 Q 168 162 200 162 Q 234 164 256 174 L 256 200 Q 220 192 184 192 Q 144 192 116 200 Z" fill="#2a2a2a" opacity="0.9"/>
+  </g>
+
+  <g opacity="0.85">
+    <ellipse cx="124" cy="186" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="240" cy="186" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="160" cy="180" rx="3" ry="1.2" fill="#0a0604"/>
+    <ellipse cx="208" cy="180" rx="3" ry="1.2" fill="#0a0604"/>
+    <path d="M 116 196 Q 140 184 168 188" stroke="#0a0a0a" stroke-width="0.8" fill="none"/>
+    <path d="M 200 188 Q 228 184 252 196" stroke="#0a0a0a" stroke-width="0.8" fill="none"/>
+  </g>
+
+  <g opacity="0.6">
+    <line x1="100" y1="180" x2="106" y2="200" stroke="#404040" stroke-width="0.4"/>
+    <line x1="184" y1="184" x2="184" y2="218" stroke="#404040" stroke-width="0.4"/>
+    <line x1="266" y1="180" x2="262" y2="200" stroke="#404040" stroke-width="0.4"/>
+  </g>
+
+  <g opacity="0.5" filter="url(#bloom2)">
+    <path d="M 156 70 Q 196 64 226 78" stroke="#88a0c0" stroke-width="3" fill="none"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="40" cy="44" r="0.5" fill="#7088a8"/>
+    <circle cx="320" cy="50" r="0.5" fill="#7088a8"/>
+    <circle cx="56" cy="180" r="0.4" fill="#3a4858"/>
+  </g>
+</svg>

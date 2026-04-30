@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 9 Page 2 Panel 1 — Wren, arms crossed, presenting evidence</title>
+  <desc>Medium close-up slight low angle of Wren. East Asian features, wiry build, oil-stained copper suit. Arms crossed — defensive-offensive engineer's posture. Hard focus, no anger. Dim blue-white camp glow from behind/above.</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1420"/>
+      <stop offset="0.5" stop-color="#1a2030"/>
+      <stop offset="1" stop-color="#0a0e16"/>
+    </linearGradient>
+    <radialGradient id="rimGlow" cx="0.5" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#5a78a0" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#2a3848" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0a0e16" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="faceLit" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#1a0e08"/>
+      <stop offset="0.4" stop-color="#3a261a"/>
+      <stop offset="0.8" stop-color="#5a3e2a"/>
+      <stop offset="1" stop-color="#7a5436"/>
+    </linearGradient>
+    <linearGradient id="copperSuit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.5" stop-color="#7a3e18"/>
+      <stop offset="1" stop-color="#3a1f0a"/>
+    </linearGradient>
+    <linearGradient id="hairBun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0808"/>
+      <stop offset="0.5" stop-color="#1a1414"/>
+      <stop offset="1" stop-color="#2a1e1a"/>
+    </linearGradient>
+    <filter id="bloomFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="softFilter" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgGrad)"/>
+  <rect width="366" height="240" fill="url(#rimGlow)"/>
+
+  <g opacity="0.5" filter="url(#softFilter)">
+    <rect x="20" y="0" width="40" height="240" fill="#1a2840" opacity="0.4"/>
+    <rect x="306" y="0" width="40" height="240" fill="#1a2840" opacity="0.4"/>
+    <line x1="80" y1="0" x2="80" y2="240" stroke="#0a0a0e" stroke-width="2"/>
+    <line x1="286" y1="0" x2="286" y2="240" stroke="#0a0a0e" stroke-width="2"/>
+  </g>
+
+  <g opacity="0.45" filter="url(#bloomFilter)">
+    <ellipse cx="183" cy="20" rx="180" ry="14" fill="#5878a8"/>
+  </g>
+
+  <g opacity="0.55">
+    <line x1="100" y1="14" x2="266" y2="14" stroke="#7898c0" stroke-width="0.6"/>
+    <line x1="100" y1="20" x2="266" y2="20" stroke="#5878a0" stroke-width="0.4"/>
+    <g stroke="#a8c0e0" stroke-width="0.4" opacity="0.7">
+      <line x1="120" y1="14" x2="120" y2="22"/>
+      <line x1="160" y1="14" x2="160" y2="22"/>
+      <line x1="200" y1="14" x2="200" y2="22"/>
+      <line x1="240" y1="14" x2="240" y2="22"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="220" rx="160" ry="50" fill="#0a0a0e"/>
+  </g>
+
+  <g>
+    <path d="M 156 78 Q 152 96 156 116 Q 160 136 168 152 Q 178 162 196 162 Q 214 158 222 144 Q 226 124 224 102 Q 220 82 208 72 Q 192 64 178 66 Q 164 70 156 78 Z" fill="url(#faceLit)" opacity="0.95"/>
+    <path d="M 158 90 Q 156 110 162 130 Q 168 148 180 158 Q 174 156 168 150 Q 158 134 154 114 Q 154 96 158 90 Z" fill="#0a0604" opacity="0.5"/>
+  </g>
+
+  <g>
+    <path d="M 152 70 Q 158 56 178 52 Q 200 50 218 58 Q 230 68 232 84 L 228 92 Q 220 76 204 70 Q 184 66 168 70 Q 158 74 154 82 Z" fill="url(#hairBun)"/>
+    <ellipse cx="152" cy="64" rx="10" ry="8" fill="url(#hairBun)" transform="rotate(-15 152 64)"/>
+    <ellipse cx="206" cy="56" rx="14" ry="10" fill="url(#hairBun)" transform="rotate(20 206 56)"/>
+    <path d="M 232 80 Q 240 90 238 102" stroke="#1a1414" stroke-width="3" fill="none"/>
+    <path d="M 144 88 Q 138 98 142 108" stroke="#1a1414" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <g>
+    <ellipse cx="174" cy="108" rx="6" ry="3" fill="#0a0604"/>
+    <ellipse cx="206" cy="106" rx="6" ry="3" fill="#0a0604"/>
+    <circle cx="174" cy="108" r="2" fill="#080404"/>
+    <circle cx="206" cy="106" r="2" fill="#080404"/>
+    <circle cx="175" cy="107" r="0.8" fill="#a8c0e0" opacity="0.9"/>
+    <circle cx="207" cy="105" r="0.8" fill="#a8c0e0" opacity="0.9"/>
+  </g>
+
+  <g stroke="#0a0604" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M 164 102 Q 174 99 186 102"/>
+    <path d="M 196 101 Q 206 98 218 102"/>
+  </g>
+
+  <path d="M 188 116 Q 186 128 188 138" stroke="#0a0604" stroke-width="0.8" fill="none" opacity="0.7"/>
+
+  <g>
+    <path d="M 178 148 Q 188 152 200 148" stroke="#0a0604" stroke-width="1.2" fill="none"/>
+  </g>
+
+  <g>
+    <path d="M 130 162 Q 110 180 100 220 L 270 220 Q 260 180 240 162 Q 220 156 200 156 L 168 156 Q 148 156 130 162 Z" fill="url(#copperSuit)"/>
+    <path d="M 100 180 Q 130 168 160 168 L 156 200 Q 138 196 110 200 Z" fill="#5a2e10" opacity="0.95"/>
+    <path d="M 268 180 Q 240 168 210 168 L 214 200 Q 232 196 258 200 Z" fill="#5a2e10" opacity="0.95"/>
+    <ellipse cx="100" cy="190" rx="14" ry="22" fill="#3a1f0a" opacity="0.85"/>
+    <ellipse cx="268" cy="190" rx="14" ry="22" fill="#3a1f0a" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.95">
+    <path d="M 110 196 Q 140 184 168 188 L 168 218 L 110 220 Z" fill="#3a1f0a"/>
+    <path d="M 258 196 Q 228 184 200 188 L 200 218 L 258 220 Z" fill="#3a1f0a"/>
+    <path d="M 168 188 L 200 188 L 204 220 L 168 218 Z" fill="#5a3018" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 116 200 Q 130 196 150 200" stroke="#1a0c04" stroke-width="1.2" fill="none"/>
+    <path d="M 220 200 Q 240 196 254 200" stroke="#1a0c04" stroke-width="1.2" fill="none"/>
+    <ellipse cx="130" cy="206" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="234" cy="206" rx="6" ry="2" fill="#0a0604"/>
+    <path d="M 168 192 L 200 192" stroke="#0a0604" stroke-width="1" opacity="0.7"/>
+  </g>
+
+  <g opacity="0.75" filter="url(#softFilter)">
+    <circle cx="120" cy="180" r="2.5" fill="#d88838"/>
+    <circle cx="248" cy="180" r="2.5" fill="#d88838"/>
+    <circle cx="184" cy="176" r="2" fill="#d88838"/>
+  </g>
+
+  <g opacity="0.6">
+    <line x1="118" y1="180" x2="116" y2="195" stroke="#5a2e10" stroke-width="0.5"/>
+    <line x1="184" y1="176" x2="184" y2="190" stroke="#5a2e10" stroke-width="0.5"/>
+    <line x1="248" y1="180" x2="250" y2="195" stroke="#5a2e10" stroke-width="0.5"/>
+    <line x1="100" y1="172" x2="106" y2="186" stroke="#5a2e10" stroke-width="0.4"/>
+    <line x1="266" y1="172" x2="262" y2="186" stroke="#5a2e10" stroke-width="0.4"/>
+  </g>
+
+  <g opacity="0.5" filter="url(#bloomFilter)">
+    <path d="M 160 70 Q 196 64 232 78" stroke="#5a78a0" stroke-width="3" fill="none"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="40" cy="40" r="0.6" fill="#5a78a0"/>
+    <circle cx="320" cy="50" r="0.6" fill="#5a78a0"/>
+    <circle cx="60" cy="200" r="0.4" fill="#3a4a5a"/>
+    <circle cx="310" cy="190" r="0.4" fill="#3a4a5a"/>
+  </g>
+</svg>
