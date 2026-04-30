@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 7 — Page 22 — Panel 4: ISSUE FINALE — the mundane morning resumes, the journalist walks away, the folklore enters the record, and on a distant barge — a shimmer of wrongness</title>
+  <desc>28mm wide upriver. Final image. Mundane world resuming. Folklore accumulating. In distance — the suggestion only the suggestion that the far bank is not the only place the Titan inhabits. The world is bigger than the squad knows. The danger is closer than they think. Not horror — quiet accumulation of mystery. The fairy tale thickens. Harbor men dispersing. Keeper walks back to lighthouse. Journalist closes notebook turns to go. On the river, a barge. On the deck — faint shimmer, dark iridescence where mist meets edge. A shadow not cast by the barge's structure. Or perhaps it is just mist. Reader cannot be sure. Jink cannot be sure. Story continues.</desc>
+
+  <defs>
+    <linearGradient id="i7p22p4sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a898"/>
+      <stop offset="100%" stop-color="#787068"/>
+    </linearGradient>
+    <linearGradient id="i7p22p4water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a605a"/>
+      <stop offset="100%" stop-color="#3a4040"/>
+    </linearGradient>
+    <linearGradient id="i7p22p4stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="i7p22p4lighthouse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a098"/>
+      <stop offset="100%" stop-color="#5a5048"/>
+    </linearGradient>
+    <linearGradient id="i7p22p4farBank" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5050"/>
+      <stop offset="100%" stop-color="#3a3030"/>
+    </linearGradient>
+    <radialGradient id="i7p22p4brazier" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#d86838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i7p22p4iridescence" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1838" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#1a1838" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1838" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="i7p22p4voidHint" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a0610" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#040208" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i7p22p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i7p22p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i7p22p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i7p22p4megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="i7p22p4wrongness"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i7p22p4subtle"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- Grey dawn sky -->
+  <rect x="0" y="0" width="742" height="180" fill="url(#i7p22p4sky)"/>
+
+  <!-- Lighthouse far left in background — squat tower, lamp extinguished -->
+  <g transform="translate(120 80)" opacity="0.95">
+    <rect x="-18" y="0" width="36" height="100" fill="url(#i7p22p4lighthouse)"/>
+    <line x1="-18" y1="0" x2="-18" y2="100" stroke="#3a3030" stroke-width="0.55"/>
+    <line x1="18" y1="0" x2="18" y2="100" stroke="#3a3030" stroke-width="0.55"/>
+    <line x1="-18" y1="33" x2="18" y2="33" stroke="#3a3030" stroke-width="0.55"/>
+    <line x1="-18" y1="66" x2="18" y2="66" stroke="#3a3030" stroke-width="0.55"/>
+    <rect x="-22" y="-7" width="44" height="7" fill="#3a3030"/>
+    <rect x="-11" y="-26" width="22" height="18" fill="#5a5048"/>
+    <rect x="-7" y="-22" width="14" height="11" fill="#1a1818"/>
+    <rect x="-5" y="-20" width="10" height="9" fill="#0a0808"/>
+    <polygon points="-13,-28 13,-28 10,-38 -10,-38" fill="#3a3030"/>
+    <rect x="-2" y="-44" width="4" height="7" fill="#3a3030"/>
+  </g>
+
+  <!-- Stone pier base -->
+  <rect x="80" y="180" width="80" height="40" fill="url(#i7p22p4stone)"/>
+
+  <!-- Far bank silhouette (industrial ordinary) -->
+  <g fill="url(#i7p22p4farBank)" opacity="0.85">
+    <rect x="0" y="120" width="100" height="60"/>
+    <rect x="180" y="115" width="80" height="65"/>
+    <rect x="280" y="125" width="100" height="55"/>
+    <rect x="400" y="110" width="120" height="70"/>
+    <rect x="540" y="120" width="80" height="60"/>
+    <rect x="640" y="115" width="102" height="65"/>
+  </g>
+
+  <!-- Cranes silhouetted on far bank -->
+  <g stroke="#3a3030" stroke-width="2" fill="none" opacity="0.7">
+    <line x1="220" y1="90" x2="220" y2="115"/>
+    <line x1="220" y1="90" x2="260" y2="100"/>
+    <line x1="450" y1="80" x2="450" y2="110"/>
+    <line x1="450" y1="80" x2="490" y2="92"/>
+  </g>
+
+  <!-- Distant fog over water -->
+  <ellipse cx="370" cy="200" rx="540" ry="14" fill="#a8a898" opacity="0.55" filter="url(#i7p22p4strongglow)"/>
+
+  <!-- Water -->
+  <rect x="0" y="180" width="80" height="80" fill="url(#i7p22p4water)"/>
+  <rect x="160" y="180" width="582" height="80" fill="url(#i7p22p4water)"/>
+  <!-- Water ripples -->
+  <g stroke="#3a4040" stroke-width="0.4" fill="none" opacity="0.55">
+    <path d="M0,200 Q120,202 240,200 Q360,198 480,200 Q600,202 742,200"/>
+    <path d="M0,220 Q120,222 240,220 Q360,218 480,220 Q600,222 742,220"/>
+    <path d="M0,240 Q120,242 240,240 Q360,238 480,240 Q600,242 742,240"/>
+  </g>
+
+  <!-- ===== THE BARGE on the river — distant ===== -->
+  <g transform="translate(500 220)">
+    <!-- Barge hull (long, low) -->
+    <path d="M-60,0 L-50,-9 L50,-9 L60,0 L50,5 L-50,5 Z" fill="#3a2818" opacity="0.95"/>
+    <!-- Deck planking lines -->
+    <line x1="-50" y1="-7" x2="50" y2="-7" stroke="#1a1008" stroke-width="0.4"/>
+    <line x1="-50" y1="-3" x2="50" y2="-3" stroke="#1a1008" stroke-width="0.4"/>
+    <!-- Cargo crates on deck -->
+    <rect x="-30" y="-22" width="22" height="14" fill="#5a3818" opacity="0.85"/>
+    <rect x="-3" y="-18" width="14" height="11" fill="#5a3818" opacity="0.85"/>
+    <rect x="14" y="-22" width="18" height="14" fill="#5a3818" opacity="0.85"/>
+
+    <!-- Barge mast/pole -->
+    <line x1="-22" y1="-22" x2="-22" y2="-44" stroke="#3a2818" stroke-width="2"/>
+
+    <!-- Bargeman silhouette (tiny figure) -->
+    <ellipse cx="22" cy="-22" rx="2" ry="4" fill="#1a1818"/>
+    <ellipse cx="22" cy="-26" rx="1" ry="1" fill="#1a1818"/>
+
+    <!-- Water displacement around barge -->
+    <ellipse cx="0" cy="11" rx="70" ry="3" fill="#a8a898" opacity="0.4" filter="url(#i7p22p4bloom)"/>
+
+    <!-- ===== THE WRONGNESS on the deck's edge ===== -->
+    <!-- Faint shimmer halo at right end of deck -->
+    <g opacity="0.55" filter="url(#i7p22p4wrongness)">
+      <ellipse cx="40" cy="-9" rx="14" ry="11" fill="url(#i7p22p4voidHint)"/>
+    </g>
+    <!-- Iridescent shimmer (subtle, ambiguous) -->
+    <g filter="url(#i7p22p4subtle)" opacity="0.55">
+      <ellipse cx="40" cy="-9" rx="11" ry="7" fill="url(#i7p22p4iridescence)"/>
+    </g>
+    <!-- A shadow not cast by visible structure -->
+    <ellipse cx="44" cy="-7" rx="9" ry="3" fill="#040208" opacity="0.55" filter="url(#i7p22p4subtle)"/>
+    <!-- Or just mist? -->
+    <ellipse cx="40" cy="-11" rx="14" ry="5" fill="#a8a898" opacity="0.4" filter="url(#i7p22p4bloom)"/>
+  </g>
+
+  <!-- Other ordinary boats far in distance -->
+  <g opacity="0.55">
+    <ellipse cx="180" cy="200" rx="22" ry="2" fill="#3a2818"/>
+    <line x1="180" y1="200" x2="180" y2="190" stroke="#3a2818" stroke-width="1.4"/>
+  </g>
+
+  <!-- Waterfront stone pier (foreground) -->
+  <rect x="0" y="260" width="742" height="60" fill="url(#i7p22p4stone)"/>
+  <g stroke="#1a1008" stroke-width="0.4" opacity="0.7">
+    <line x1="0" y1="260" x2="742" y2="260"/>
+    <line x1="100" y1="260" x2="100" y2="320"/>
+    <line x1="220" y1="260" x2="220" y2="320"/>
+    <line x1="340" y1="260" x2="340" y2="320"/>
+    <line x1="460" y1="260" x2="460" y2="320"/>
+    <line x1="580" y1="260" x2="580" y2="320"/>
+    <line x1="660" y1="260" x2="660" y2="320"/>
+  </g>
+
+  <!-- ===== BRAZIER (right side) — only warm note remaining ===== -->
+  <g transform="translate(500 290)" opacity="0.85">
+    <ellipse cx="0" cy="9" rx="14" ry="3" fill="#1a1810"/>
+    <rect x="-11" y="-3" width="22" height="11" fill="#3a2818"/>
+    <ellipse cx="0" cy="-5" rx="9" ry="3" fill="#a83820"/>
+    <ellipse cx="0" cy="-5" rx="6" ry="2" fill="#ffd898" filter="url(#i7p22p4bloom)"/>
+    <ellipse cx="0" cy="-9" rx="40" ry="22" fill="url(#i7p22p4brazier)" filter="url(#i7p22p4megaglow)"/>
+  </g>
+
+  <!-- ===== KEEPER walking back toward lighthouse (left, smaller) ===== -->
+  <g transform="translate(180 280)" opacity="0.85">
+    <!-- Body — peacoat, walking away (back to viewer slightly) -->
+    <path d="M-9,30 L-14,-22 L-9,-44 L-3,-58 L7,-58 L11,-44 L14,-22 L11,30 Z" fill="#1a1818"/>
+    <!-- Cap -->
+    <ellipse cx="2" cy="-66" rx="9" ry="11" fill="#3a2010"/>
+    <path d="M-5,-72 Q2,-78 9,-72 L9,-66 L-5,-66 Z" fill="#1a1818"/>
+    <!-- Walking leg -->
+    <path d="M-3,30 L-5,40 L0,40 L0,30 Z" fill="#1a1818"/>
+    <path d="M5,30 L7,40 L11,40 L9,30 Z" fill="#1a1818"/>
+  </g>
+
+  <!-- ===== JOURNALIST closing notebook, turning to go (right) ===== -->
+  <g transform="translate(620 280)" opacity="0.85">
+    <!-- Body — clean coat -->
+    <path d="M-9,30 L-14,-22 L-9,-44 L-3,-58 L7,-58 L11,-44 L14,-22 L11,30 Z" fill="#5a5050"/>
+    <!-- Bowler hat -->
+    <ellipse cx="2" cy="-66" rx="9" ry="11" fill="#a87838"/>
+    <ellipse cx="2" cy="-72" rx="9" ry="2" fill="#1a1818"/>
+    <path d="M-5,-72 Q2,-78 9,-72 L9,-68 L-5,-68 Z" fill="#1a1818"/>
+    <!-- Notebook closed in hand -->
+    <rect x="-11" y="-9" width="9" height="11" fill="#3a1808"/>
+    <line x1="-11" y1="-3" x2="-2" y2="-3" stroke="#1a0606" stroke-width="0.4"/>
+    <!-- Walking away (slight back-turn) -->
+    <path d="M-3,30 L-5,40 L0,40 L0,30 Z" fill="#5a5050"/>
+    <path d="M5,30 L7,40 L11,40 L9,30 Z" fill="#5a5050"/>
+  </g>
+
+  <!-- Other harbor men dispersing — tiny figures in the distance -->
+  <g opacity="0.7">
+    <!-- Far figure 1 -->
+    <g transform="translate(280 290)">
+      <ellipse cx="0" cy="14" rx="3" ry="9" fill="#3a2818"/>
+      <ellipse cx="0" cy="0" rx="2" ry="3" fill="#a87838"/>
+    </g>
+    <!-- Far figure 2 -->
+    <g transform="translate(380 290)">
+      <ellipse cx="0" cy="14" rx="3" ry="9" fill="#3a2818"/>
+      <ellipse cx="0" cy="0" rx="2" ry="3" fill="#a87838"/>
+    </g>
+    <!-- Far figure 3 with cart -->
+    <g transform="translate(70 290)">
+      <ellipse cx="0" cy="14" rx="3" ry="9" fill="#3a2818"/>
+      <ellipse cx="0" cy="0" rx="2" ry="3" fill="#a87838"/>
+      <rect x="6" y="14" width="14" height="9" fill="#5a3818"/>
+      <ellipse cx="9" cy="25" rx="2" ry="2" fill="#1a1008"/>
+      <ellipse cx="18" cy="25" rx="2" ry="2" fill="#1a1008"/>
+    </g>
+  </g>
+
+  <!-- ===== CAPTIONS ===== -->
+  <!-- CAPTION 1 -->
+  <g>
+    <rect x="14" y="14" width="380" height="36" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">The keeper reported dancing lights. The harbor men</text>
+  <text x="22" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">laughed. A journalist wrote it down.</text>
+
+  <!-- CAPTION 2 -->
+  <g>
+    <rect x="320" y="64" width="408" height="40" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="328" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">Another story. Another witness.</text>
+  <text x="328" y="93" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">The folklore accumulated, and the truth hid inside it</text>
+  <text x="328" y="103" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic" font-weight="700">like light inside a lens.</text>
+
+  <!-- ===== END OF ISSUE 7 marker ===== -->
+  <g>
+    <rect x="290" y="280" width="160" height="32" rx="2" fill="none" stroke="#3a2818" stroke-width="0.55" opacity="0.7"/>
+  </g>
+  <text x="370" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#3a2818" text-anchor="middle" font-style="italic" font-weight="700">END OF ISSUE 7 — "THE LENS"</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>
