@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 12 Page 6 Panel 2 — Sable hears "A fifth device"</title>
+  <desc>Medium close-up. Woman with dark brown skin, military-cropped silver-white hair, pewter-dark degraded silver suit at church steeple command position, one hand on holographic tactical display showing four neutralized device markers in grey. Expression shifts — controlled satisfaction breaking as new information hits. Blue-white holographic display casts cold geometric light across face. Dawn light from behind. Composure cracking — new variable, unplanned.</desc>
+  <defs>
+    <linearGradient id="bgN2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87878"/>
+      <stop offset="0.4" stop-color="#7a8898"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <radialGradient id="dawnBackN2" cx="0.85" cy="0.2" r="0.42">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="holoColdN2" cx="0.4" cy="0.55" r="0.45">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#5a78a8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairSilverN2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8d8d8"/>
+      <stop offset="0.5" stop-color="#a8a8a8"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+    <linearGradient id="faceSableN2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4838"/>
+      <stop offset="0.5" stop-color="#3a2410"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="suitSableN2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8898"/>
+      <stop offset="0.5" stop-color="#3a4858"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <filter id="bloomN2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowN2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowN2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#bgN2)"/>
+  <rect width="366" height="280" fill="url(#dawnBackN2)"/>
+  <rect width="366" height="280" fill="url(#holoColdN2)"/>
+
+  <g>
+    <ellipse cx="220" cy="240" rx="80" ry="9" fill="#040202" opacity="0.62"/>
+
+    <ellipse cx="220" cy="170" rx="40" ry="50" fill="url(#suitSableN2)"/>
+    <path d="M 184 134 L 256 134 L 260 220 L 180 220 Z" fill="url(#suitSableN2)"/>
+
+    <path d="M 188 142 L 200 138 L 196 152 L 184 154 Z" fill="#1a1810" opacity="0.85"/>
+    <path d="M 240 158 L 252 156 L 250 166 L 238 168 Z" fill="#1a1810" opacity="0.85"/>
+    <path d="M 210 180 L 224 178 L 220 188 L 206 190 Z" fill="#1a1810" opacity="0.85"/>
+
+    <path d="M 184 134 Q 220 138 256 134" stroke="#1a1810" stroke-width="0.85" fill="none" opacity="0.62"/>
+
+    <ellipse cx="220" cy="100" rx="22" ry="26" fill="url(#faceSableN2)"/>
+    <path d="M 198 86 Q 220 64 244 86 Q 248 96 246 102 L 196 102 Q 196 96 198 86 Z" fill="url(#hairSilverN2)"/>
+    <g opacity="0.7" stroke="#7a7a7a" stroke-width="0.55">
+      <line x1="204" y1="78" x2="204" y2="92"/>
+      <line x1="214" y1="74" x2="214" y2="92"/>
+      <line x1="224" y1="74" x2="224" y2="92"/>
+      <line x1="234" y1="78" x2="234" y2="92"/>
+    </g>
+
+    <ellipse cx="210" cy="104" rx="2.4" ry="3" fill="#0a0604"/>
+    <ellipse cx="230" cy="104" rx="2.4" ry="3" fill="#0a0604"/>
+    <circle cx="210.6" cy="103.4" r="0.85" fill="#a8c0e0"/>
+    <circle cx="230.6" cy="103.4" r="0.85" fill="#a8c0e0"/>
+
+    <path d="M 204 100 Q 210 97 216 100" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M 224 100 Q 230 97 236 100" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M 213 122 L 227 122" stroke="#1a0a08" stroke-width="1.4" fill="none"/>
+
+    <path d="M 180 220 Q 168 240 158 260" stroke="url(#suitSableN2)" stroke-width="11" fill="none" stroke-linecap="round"/>
+
+    <path d="M 256 134 Q 220 130 184 134" stroke="url(#suitSableN2)" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.62"/>
+    <path d="M 184 134 Q 156 144 130 160" stroke="url(#suitSableN2)" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <ellipse cx="128" cy="160" rx="6" ry="4" fill="url(#faceSableN2)"/>
+  </g>
+
+  <g>
+    <rect x="40" y="120" width="100" height="60" rx="3" fill="none" stroke="#5a78a8" stroke-width="0.85" opacity="0.85"/>
+    <line x1="40" y1="135" x2="140" y2="135" stroke="#5a78a8" stroke-width="0.4" opacity="0.62"/>
+    <line x1="40" y1="160" x2="140" y2="160" stroke="#5a78a8" stroke-width="0.4" opacity="0.62"/>
+    <line x1="65" y1="120" x2="65" y2="180" stroke="#5a78a8" stroke-width="0.4" opacity="0.62"/>
+    <line x1="90" y1="120" x2="90" y2="180" stroke="#5a78a8" stroke-width="0.4" opacity="0.62"/>
+    <line x1="115" y1="120" x2="115" y2="180" stroke="#5a78a8" stroke-width="0.4" opacity="0.62"/>
+
+    <circle cx="55" cy="128" r="2.4" fill="#7a7a7a"/>
+    <circle cx="100" cy="148" r="2.4" fill="#7a7a7a"/>
+    <circle cx="125" cy="170" r="2.4" fill="#7a7a7a"/>
+    <circle cx="80" cy="170" r="2.4" fill="#7a7a7a"/>
+
+    <text x="44" y="125" font-family="monospace" font-size="3" fill="#5a78a8">ALPHA</text>
+    <text x="98" y="145" font-family="monospace" font-size="3" fill="#5a78a8">BRAVO</text>
+    <text x="120" y="167" font-family="monospace" font-size="3" fill="#5a78a8">DELTA</text>
+    <text x="74" y="167" font-family="monospace" font-size="3" fill="#5a78a8">CHARLIE</text>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowN2)">
+    <rect x="40" y="120" width="100" height="60" fill="#a8c0e0" opacity="0.32"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowN2)">
+    <rect x="40" y="120" width="100" height="60" fill="#5a78a8" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomN2)">
+    <ellipse cx="220" cy="170" rx="50" ry="22" fill="#a8c0e0" opacity="0.22"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="220" cy="262" rx="80" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="340" height="36" rx="3" fill="#1a1828" opacity="0.95" stroke="#a8c0e0" stroke-width="1.2"/>
+    <text x="166" y="9" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a85820" font-weight="700">WREN: "Buffer shows constant comm — every device to every device."</text>
+    <text x="166" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a85820" font-style="italic" font-weight="700">"And with something else. A fifth node. Larger signal."</text>
+    <text x="166" y="31" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a8c0e0" font-weight="700">SABLE: "A fifth device."</text>
+  </g>
+</svg>
