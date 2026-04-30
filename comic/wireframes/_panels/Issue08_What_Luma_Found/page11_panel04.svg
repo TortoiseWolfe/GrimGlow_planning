@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 270" width="240" height="270">
+  <title>Issue 8 — Page 11 — Panel 4: Inset — Luma's living hand reaches toward the dead data core — fingers don't quite touch — the space between alive and dead</title>
+  <desc>85mm close-up. Hand reaching toward dark object on dusty stone shelf. Hand belongs to someone in sapphire-violet metallic suit — living technology, holographic nodes pulsing faintly at wrist and forearm joints. Fingers extended but not touching — hesitating in space between living and dead. Object data core — dark, cracked, approximately forearm-length, absorbing scanner light rather than reflecting it. Core shows no active technology — entirely dark, centuries dead. Scanner light reveals hairline fractures where faint residual warmth escapes. Contrast between living sapphire-violet suit with pulsing nodes and dead dark core is the visual story — present reaching for past.</desc>
+
+  <defs>
+    <linearGradient id="i8p11p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p11p4lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p11p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <linearGradient id="i8p11p4deadCore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1018"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i8p11p4shelf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <radialGradient id="i8p11p4suitGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i8p11p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p11p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p11p4strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p11p4megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="240" height="270" fill="url(#i8p11p4bg)"/>
+
+  <!-- Stone shelf -->
+  <rect x="0" y="120" width="240" height="150" fill="url(#i8p11p4shelf)"/>
+  <line x1="0" y1="120" x2="240" y2="120" stroke="#040408" stroke-width="0.85"/>
+  <!-- Heavy dust on shelf -->
+  <g fill="#a89878" opacity="0.4">
+    <ellipse cx="60" cy="140" rx="40" ry="3"/>
+    <ellipse cx="180" cy="160" rx="50" ry="4"/>
+    <ellipse cx="120" cy="220" rx="80" ry="5"/>
+    <ellipse cx="200" cy="240" rx="40" ry="3"/>
+  </g>
+
+  <!-- Living suit halo (left side — Luma's nodes pulsing) -->
+  <ellipse cx="80" cy="80" rx="80" ry="60" fill="url(#i8p11p4suitGlow)" filter="url(#i8p11p4megaglow)"/>
+
+  <!-- ===== DEAD DATA CORE (right side, on shelf) — DARK, absorbing light ===== -->
+  <g transform="translate(170 180)">
+    <!-- Core body (forearm length) -->
+    <rect x="-50" y="-22" width="100" height="44" rx="4" fill="url(#i8p11p4deadCore)" stroke="#040408" stroke-width="0.85"/>
+    <!-- Top surface highlight (reveals texture) -->
+    <line x1="-50" y1="-22" x2="50" y2="-22" stroke="#1a1018" stroke-width="0.55"/>
+    <line x1="-50" y1="22" x2="50" y2="22" stroke="#040408" stroke-width="0.7"/>
+    <!-- Surface segment lines -->
+    <g stroke="#040408" stroke-width="0.4" opacity="0.85">
+      <line x1="-25" y1="-22" x2="-25" y2="22"/>
+      <line x1="0" y1="-22" x2="0" y2="22"/>
+      <line x1="25" y1="-22" x2="25" y2="22"/>
+    </g>
+    <!-- ===== HAIRLINE FRACTURES with faint residual warmth ===== -->
+    <path d="M-30,-15 L-22,0 L-15,-7 L-7,7 L-3,-3" stroke="#1a0808" stroke-width="0.85" fill="none" opacity="0.95"/>
+    <path d="M14,-11 L22,3 L30,-7 L40,7" stroke="#1a0808" stroke-width="0.85" fill="none" opacity="0.95"/>
+    <path d="M-30,7 L-15,15" stroke="#040408" stroke-width="0.7" opacity="0.85"/>
+    <!-- Faint warmth escaping cracks (scanner-revealed) -->
+    <path d="M-30,-15 L-22,0 L-15,-7 L-7,7 L-3,-3" stroke="#7a4838" stroke-width="0.4" fill="none" opacity="0.55" filter="url(#i8p11p4bloom)"/>
+    <path d="M14,-11 L22,3 L30,-7 L40,7" stroke="#7a4838" stroke-width="0.4" fill="none" opacity="0.55" filter="url(#i8p11p4bloom)"/>
+
+    <!-- Surface dust accumulation -->
+    <g fill="#a89878" opacity="0.4">
+      <ellipse cx="-30" cy="-18" rx="11" ry="2"/>
+      <ellipse cx="20" cy="-20" rx="14" ry="2"/>
+      <ellipse cx="-15" cy="20" rx="11" ry="2"/>
+    </g>
+    <!-- Dark sockets on the core (interface ports) -->
+    <circle cx="-35" cy="0" r="2.5" fill="#040408"/>
+    <circle cx="-35" cy="0" r="1.4" fill="#0a0408"/>
+    <circle cx="35" cy="0" r="2.5" fill="#040408"/>
+    <circle cx="35" cy="0" r="1.4" fill="#0a0408"/>
+  </g>
+
+  <!-- ===== LUMA'S HAND reaching toward core (left, hesitating) ===== -->
+  <g transform="translate(85 175)">
+    <!-- Arm/sleeve in sapphire-violet -->
+    <path d="M-50,-22 L-30,-30 L-3,-15 L-7,9 L-30,11 L-50,3 Z" fill="url(#i8p11p4lumaSuit)"/>
+    <!-- Suit edges -->
+    <line x1="-50" y1="-22" x2="-3" y2="-15" stroke="#3a1858" stroke-width="0.55"/>
+    <line x1="-50" y1="3" x2="-30" y2="11" stroke="#3a1858" stroke-width="0.55"/>
+
+    <!-- ===== HOLOGRAPHIC NODES PULSING at wrist and forearm joints ===== -->
+    <circle cx="-40" cy="-7" r="2" fill="#c8a8e8" filter="url(#i8p11p4strongglow)" opacity="0.95"/>
+    <circle cx="-25" cy="-9" r="2" fill="#c8a8e8" filter="url(#i8p11p4strongglow)" opacity="0.95"/>
+    <circle cx="-9" cy="-7" r="2.5" fill="#c8a8e8" filter="url(#i8p11p4strongglow)" opacity="0.95"/>
+    <circle cx="-15" cy="3" r="1.4" fill="#c8a8e8" filter="url(#i8p11p4bloom)" opacity="0.85"/>
+    <circle cx="-30" cy="0" r="1.4" fill="#c8a8e8" filter="url(#i8p11p4bloom)" opacity="0.85"/>
+
+    <!-- Pulsing accent line along arm -->
+    <line x1="-50" y1="-12" x2="-7" y2="-7" stroke="#c8a8e8" stroke-width="0.55" filter="url(#i8p11p4bloom)" opacity="0.95"/>
+
+    <!-- Ink stain at wrist (heavy) -->
+    <ellipse cx="-9" cy="0" rx="6" ry="2.5" fill="#1a0810" opacity="0.85"/>
+
+    <!-- ===== HAND extended forward (toward dead core) ===== -->
+    <ellipse cx="0" cy="-3" rx="11" ry="6" fill="url(#i8p11p4skin)"/>
+    <!-- Wrist guard (suit cuff) -->
+    <path d="M-9,-9 L-3,-15 L11,-11 L9,3 L-7,3 Z" fill="url(#i8p11p4lumaSuit)"/>
+
+    <!-- Extended fingers (NOT touching) -->
+    <ellipse cx="14" cy="-7" rx="5" ry="2" fill="url(#i8p11p4skin)"/>
+    <ellipse cx="22" cy="-9" rx="3" ry="1.4" fill="url(#i8p11p4skin)"/>
+    <!-- Index finger reaching, not quite touching -->
+    <ellipse cx="14" cy="-3" rx="6" ry="2" fill="url(#i8p11p4skin)"/>
+    <ellipse cx="26" cy="-3" rx="4" ry="1.4" fill="url(#i8p11p4skin)"/>
+    <!-- Other fingers -->
+    <ellipse cx="14" cy="3" rx="5" ry="2" fill="url(#i8p11p4skin)"/>
+    <ellipse cx="11" cy="9" rx="4" ry="1.4" fill="url(#i8p11p4skin)"/>
+
+    <!-- Fingertips not quite touching the core (gap of ~5px between fingertip and core surface) -->
+    <!-- Tendons (extended, taut) -->
+    <line x1="0" y1="-7" x2="14" y2="-9" stroke="#3a1808" stroke-width="0.4" opacity="0.85"/>
+    <line x1="0" y1="-3" x2="14" y2="-5" stroke="#3a1808" stroke-width="0.4" opacity="0.85"/>
+    <line x1="0" y1="0" x2="14" y2="3" stroke="#3a1808" stroke-width="0.4" opacity="0.85"/>
+
+    <!-- Ink stains on fingertips -->
+    <ellipse cx="26" cy="-3" rx="2" ry="1" fill="#1a0606" opacity="0.7"/>
+
+    <!-- Fingernails (small, dark) -->
+    <ellipse cx="28" cy="-4" rx="0.85" ry="0.55" fill="#fff8d8" opacity="0.55"/>
+  </g>
+
+  <!-- ===== THE GAP — space between fingertips and core (the hesitation made visible) ===== -->
+  <!-- Subtle highlight in the gap to draw the eye -->
+  <ellipse cx="125" cy="172" rx="14" ry="6" fill="#a878e8" opacity="0.18" filter="url(#i8p11p4glow)"/>
+
+  <!-- Light gradient on Luma's living suit DOMINATES left, dead darkness DOMINATES right -->
+
+  <!-- ===== DIALOGUE — LUMA off-panel ===== -->
+  <g>
+    <rect x="14" y="14" width="220" height="64" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8" fill="#7848b8" font-weight="700">LUMA  <tspan font-style="italic" font-size="7" font-weight="500">(off-panel)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">The data core. It's dead but...</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">there might be recoverable data.</text>
+  <text x="22" y="72" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410" font-style="italic">If I can interface with it back at camp...</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q60,142 120,138 Q180,136 240,140"/>
+  </g>
+</svg>
