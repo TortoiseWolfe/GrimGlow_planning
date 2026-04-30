@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 280" width="247" height="280">
+  <title>Issue 12 Page 5 Panel 4 — Thresh holds the dead core, "Charlie neutralized. I did it. All four down."</title>
+  <desc>Medium shot. Tiny figure in degraded crimson armor holds dead Titan device core — dark, angular, inert — in shaking hands. Industrial basement around her dark again, amber-black light gone. Crimson holographic edge-lighting is primary illumination — stuttering geometric patterns along armor in darkness. Thin grey light from iron grate far above cuts distant wedge. Exhaustion and relief — shaking hasn't stopped, but job is done. Copper-red buzz cut, pale skin, sweat visible. Four devices down.</desc>
+  <defs>
+    <linearGradient id="bgM4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a14"/>
+      <stop offset="0.5" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="grateAboveM4" cx="0.5" cy="0" r="0.32">
+      <stop offset="0" stop-color="#7a8898" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#3a4858" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="suitThreshM4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a83838"/>
+      <stop offset="0.4" stop-color="#7a2530"/>
+      <stop offset="0.8" stop-color="#3a1820"/>
+      <stop offset="1" stop-color="#1a0810"/>
+    </linearGradient>
+    <linearGradient id="hairBuzzM4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85020"/>
+      <stop offset="0.5" stop-color="#7a3018"/>
+      <stop offset="1" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="skinThreshM4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8d8b8"/>
+      <stop offset="0.5" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="coreDeadM4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1810"/>
+      <stop offset="0.5" stop-color="#1a0810"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <linearGradient id="crimsonStutterM4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a2520" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#d83838" stop-opacity="0.95"/>
+      <stop offset="0.6" stop-color="#5a2520" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#8a2520" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="bloomM4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowM4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowM4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="247" height="280" fill="url(#bgM4)"/>
+  <rect width="247" height="280" fill="url(#grateAboveM4)"/>
+
+  <g opacity="0.42">
+    <line x1="100" y1="0" x2="80" y2="40" stroke="#7a8898" stroke-width="0.7"/>
+    <line x1="123" y1="0" x2="123" y2="40" stroke="#7a8898" stroke-width="0.7"/>
+    <line x1="146" y1="0" x2="166" y2="40" stroke="#7a8898" stroke-width="0.7"/>
+  </g>
+
+  <g>
+    <ellipse cx="123" cy="240" rx="44" ry="9" fill="#040202" opacity="0.62"/>
+
+    <ellipse cx="123" cy="170" rx="32" ry="44" fill="url(#suitThreshM4)"/>
+    <path d="M 91 130 L 155 130 L 158 220 L 88 220 Z" fill="url(#suitThreshM4)"/>
+
+    <path d="M 91 134 L 102 130 L 100 144 L 88 146 Z" fill="#1a0810" opacity="0.85"/>
+    <path d="M 145 146 L 155 144 L 153 154 L 143 156 Z" fill="#1a0810" opacity="0.85"/>
+    <path d="M 110 168 L 122 168 L 118 178 L 106 178 Z" fill="#1a0810" opacity="0.85"/>
+    <path d="M 95 196 L 110 194 L 108 206 L 92 208 Z" fill="#1a0810" opacity="0.85"/>
+
+    <line x1="91" y1="138" x2="155" y2="138" stroke="url(#crimsonStutterM4)" stroke-width="1.4" opacity="0.85"/>
+    <line x1="88" y1="184" x2="158" y2="184" stroke="url(#crimsonStutterM4)" stroke-width="1.4" opacity="0.85"/>
+    <line x1="88" y1="220" x2="158" y2="220" stroke="url(#crimsonStutterM4)" stroke-width="1" opacity="0.62"/>
+
+    <ellipse cx="123" cy="100" rx="22" ry="26" fill="url(#skinThreshM4)"/>
+    <path d="M 101 86 Q 123 64 145 86 Q 145 96 145 100 L 101 100 Q 101 96 101 86 Z" fill="url(#hairBuzzM4)"/>
+    <g opacity="0.55" stroke="#3a1808" stroke-width="0.4">
+      <line x1="107" y1="78" x2="107" y2="96"/>
+      <line x1="115" y1="74" x2="115" y2="96"/>
+      <line x1="123" y1="72" x2="123" y2="96"/>
+      <line x1="131" y1="74" x2="131" y2="96"/>
+      <line x1="139" y1="78" x2="139" y2="96"/>
+    </g>
+
+    <ellipse cx="115" cy="106" rx="2.4" ry="3" fill="#0a0604"/>
+    <circle cx="115.6" cy="105.4" r="0.62" fill="#fff8d8"/>
+    <ellipse cx="131" cy="106" rx="2.4" ry="3" fill="#0a0604"/>
+    <circle cx="131.6" cy="105.4" r="0.62" fill="#fff8d8"/>
+
+    <path d="M 109 102 Q 115 100 121 102" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M 125 102 Q 131 100 137 102" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M 117 122 L 129 122" stroke="#1a0a08" stroke-width="0.85" fill="none"/>
+
+    <ellipse cx="118" cy="116" rx="3" ry="0.85" fill="#a85820" opacity="0.42"/>
+    <ellipse cx="128" cy="116" rx="3" ry="0.85" fill="#a85820" opacity="0.42"/>
+
+    <path d="M 88 220 Q 78 230 70 240" stroke="url(#suitThreshM4)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 158 220 Q 168 230 176 240" stroke="url(#suitThreshM4)" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+    <path d="M 100 178 L 90 192" stroke="url(#suitThreshM4)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 146 178 L 156 192" stroke="url(#suitThreshM4)" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="90" cy="192" rx="8" ry="6" fill="url(#skinThreshM4)"/>
+    <ellipse cx="156" cy="192" rx="8" ry="6" fill="url(#skinThreshM4)"/>
+
+    <g opacity="0.55">
+      <line x1="84" y1="190" x2="96" y2="194" stroke="#a87858" stroke-width="0.4"/>
+      <line x1="84" y1="194" x2="96" y2="190" stroke="#a87858" stroke-width="0.4"/>
+      <line x1="150" y1="190" x2="162" y2="194" stroke="#a87858" stroke-width="0.4"/>
+      <line x1="150" y1="194" x2="162" y2="190" stroke="#a87858" stroke-width="0.4"/>
+    </g>
+  </g>
+
+  <g>
+    <path d="M 105 188 L 141 188 L 145 200 L 138 212 L 108 212 L 101 200 Z" fill="url(#coreDeadM4)"/>
+    <line x1="105" y1="188" x2="123" y2="200" stroke="#3a1810" stroke-width="0.55"/>
+    <line x1="141" y1="188" x2="123" y2="200" stroke="#3a1810" stroke-width="0.55"/>
+    <line x1="108" y1="212" x2="123" y2="200" stroke="#3a1810" stroke-width="0.55"/>
+    <line x1="138" y1="212" x2="123" y2="200" stroke="#3a1810" stroke-width="0.55"/>
+    <circle cx="123" cy="200" r="1.4" fill="#3a1810" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowM4)">
+    <ellipse cx="123" cy="170" rx="40" ry="50" fill="#d83838" opacity="0.42"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowM4)">
+    <ellipse cx="123" cy="170" rx="80" ry="80" fill="#8a2520" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.85">
+    <circle cx="115" cy="74" r="0.85" fill="#fff8d8" opacity="0.62"/>
+    <circle cx="131" cy="76" r="0.85" fill="#fff8d8" opacity="0.62"/>
+    <circle cx="123" cy="84" r="0.85" fill="#fff8d8" opacity="0.62"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="123" cy="260" rx="80" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="180" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#8a2520" stroke-width="1.2"/>
+    <text x="86" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#d83838" font-weight="700">THRESH (ragged): "Charlie neutralized."</text>
+    <text x="86" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#d83838" font-style="italic" font-weight="700">"I did it. All four down."</text>
+  </g>
+</svg>
