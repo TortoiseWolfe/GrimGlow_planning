@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 13 — Panel 1: Luma documents the site — methodical sweeps over the data core, the scientist working through grief</title>
+  <desc>35mm medium eye level. Luma crouches beside dead data core on stone shelf, scanner making methodical sweeping passes over its surface. Posture shifted from devastation to forced professional composure — jaw set, movements precise, scientist reasserting control. Holographic lenses scroll rapid documentation data. Hands still tremble slightly but scanning technique methodical. Data core lies before her — dark, cracked, approximately her forearm length, responding to scanner with faintest warm glow at fracture lines. Around her on shelf, corroded wing-pack and suit fragments. Above, word STAY still glows with fading phosphorescence. Blue-violet scanner light methodical sweeps, ghost-glow from ancient technology.</desc>
+
+  <defs>
+    <linearGradient id="i8p13p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p13p1stoneAlcove" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p13p1shelf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <radialGradient id="i8p13p1scannerSweep" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p13p1stayFading" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c8a8e8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p13p1ghostGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a86838" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p13p1lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p13p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <linearGradient id="i8p13p1corroded" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i8p13p1deadCore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1018"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <filter id="i8p13p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p13p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p13p1strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p13p1megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="i8p13p1dataPulse"><feGaussianBlur stdDeviation="0.55"/></filter>
+  </defs>
+
+  <rect width="742" height="300" fill="url(#i8p13p1bg)"/>
+
+  <!-- Stone alcove wall -->
+  <rect x="0" y="0" width="742" height="200" fill="url(#i8p13p1stoneAlcove)"/>
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.7">
+    <line x1="0" y1="40" x2="742" y2="40"/>
+    <line x1="0" y1="80" x2="742" y2="80"/>
+    <line x1="0" y1="120" x2="742" y2="120"/>
+    <line x1="0" y1="160" x2="742" y2="160"/>
+    <line x1="100" y1="0" x2="100" y2="40"/>
+    <line x1="240" y1="40" x2="240" y2="80"/>
+    <line x1="380" y1="0" x2="380" y2="40"/>
+    <line x1="520" y1="40" x2="520" y2="80"/>
+    <line x1="660" y1="0" x2="660" y2="40"/>
+    <line x1="180" y1="80" x2="180" y2="120"/>
+    <line x1="320" y1="120" x2="320" y2="160"/>
+    <line x1="500" y1="80" x2="500" y2="120"/>
+    <line x1="600" y1="120" x2="600" y2="160"/>
+  </g>
+  <g fill="#040408" opacity="0.55">
+    <ellipse cx="60" cy="60" rx="22" ry="9"/>
+    <ellipse cx="320" cy="100" rx="22" ry="9"/>
+    <ellipse cx="600" cy="60" rx="14" ry="6"/>
+  </g>
+
+  <!-- ===== STAY still glows with FADING phosphorescence (top of frame, dimmer than P12) ===== -->
+  <g transform="translate(371 60)" opacity="0.7">
+    <ellipse cx="0" cy="0" rx="160" ry="40" fill="url(#i8p13p1stayFading)" filter="url(#i8p13p1megaglow)"/>
+    <!-- STAY letters dimmer than P12 -->
+    <g stroke="#c8a8e8" stroke-width="2.5" fill="none" filter="url(#i8p13p1bloom)" opacity="0.7">
+      <!-- S -->
+      <g transform="translate(-110 0)">
+        <path d="M11,-22 L-11,-22 L-11,-3 L11,-3 L11,18 L-11,18"/>
+      </g>
+      <!-- T -->
+      <g transform="translate(-50 0)">
+        <path d="M-11,-22 L11,-22"/>
+        <path d="M0,-22 L0,18"/>
+      </g>
+      <!-- A -->
+      <g transform="translate(15 0)">
+        <path d="M-11,18 L0,-22 L11,18"/>
+        <path d="M-7,7 L7,7"/>
+      </g>
+      <!-- Y -->
+      <g transform="translate(85 0)">
+        <path d="M-11,-22 L0,-3"/>
+        <path d="M11,-22 L0,-3"/>
+        <path d="M0,-3 L0,18"/>
+      </g>
+    </g>
+    <!-- Carved indents -->
+    <g stroke="#040408" stroke-width="3" fill="none">
+      <g transform="translate(-110 0)">
+        <path d="M11,-22 L-11,-22 L-11,-3 L11,-3 L11,18 L-11,18"/>
+      </g>
+      <g transform="translate(-50 0)">
+        <path d="M-11,-22 L11,-22"/>
+        <path d="M0,-22 L0,18"/>
+      </g>
+      <g transform="translate(15 0)">
+        <path d="M-11,18 L0,-22 L11,18"/>
+        <path d="M-7,7 L7,7"/>
+      </g>
+      <g transform="translate(85 0)">
+        <path d="M-11,-22 L0,-3"/>
+        <path d="M11,-22 L0,-3"/>
+        <path d="M0,-3 L0,18"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Shelf -->
+  <rect x="0" y="200" width="742" height="100" fill="url(#i8p13p1shelf)"/>
+  <line x1="0" y1="200" x2="742" y2="200" stroke="#040408" stroke-width="0.85"/>
+  <!-- Heavy dust on shelf -->
+  <g fill="#a89878" opacity="0.4">
+    <ellipse cx="100" cy="220" rx="60" ry="6"/>
+    <ellipse cx="600" cy="220" rx="80" ry="7"/>
+    <ellipse cx="320" cy="240" rx="80" ry="7"/>
+  </g>
+
+  <!-- ===== CACHE ITEMS — wing-pack and suit fragments around Luma ===== -->
+  <!-- Wing-pack skeleton at left of shelf -->
+  <g transform="translate(160 240)">
+    <ellipse cx="0" cy="-3" rx="60" ry="22" fill="url(#i8p13p1ghostGlow)" filter="url(#i8p13p1strongglow)" opacity="0.55"/>
+    <g stroke="url(#i8p13p1corroded)" stroke-width="1.4" fill="none">
+      <path d="M-22,-3 L-44,-22 L-60,-9 L-60,7 L-44,11 L-22,3"/>
+      <path d="M22,-3 L44,-22 L60,-9 L60,7 L44,11 L22,3"/>
+      <line x1="-22" y1="-3" x2="-60" y2="-3"/>
+      <line x1="22" y1="-3" x2="60" y2="-3"/>
+      <line x1="-44" y1="-22" x2="-44" y2="11"/>
+      <line x1="44" y1="-22" x2="44" y2="11"/>
+    </g>
+    <rect x="-22" y="-3" width="44" height="14" fill="url(#i8p13p1corroded)"/>
+    <!-- Faint ghost glow at joints -->
+    <g opacity="0.55" filter="url(#i8p13p1bloom)">
+      <circle cx="-44" cy="-3" r="1.4" fill="#a86838"/>
+      <circle cx="44" cy="-3" r="1.4" fill="#a86838"/>
+    </g>
+  </g>
+
+  <!-- Blackened suit fragments at right of shelf -->
+  <g transform="translate(620 240)">
+    <path d="M-30,-7 L-22,-22 L0,-15 L11,3 L-7,7 L-22,3 Z" fill="#1a1818"/>
+    <circle cx="-15" cy="-9" r="1.4" fill="#040408"/>
+    <circle cx="-3" cy="-3" r="1.4" fill="#040408"/>
+    <ellipse cx="-30" cy="11" rx="14" ry="2" fill="#040408" opacity="0.55"/>
+  </g>
+
+  <!-- ===== DEAD DATA CORE — central focus, on shelf ===== -->
+  <g transform="translate(371 245)">
+    <rect x="-50" y="-15" width="100" height="30" fill="url(#i8p13p1deadCore)" stroke="#040408" stroke-width="0.85" rx="3"/>
+    <line x1="-50" y1="0" x2="50" y2="0" stroke="#040408" stroke-width="0.55"/>
+    <!-- Hairline fractures -->
+    <path d="M-30,-9 L-22,3 L-15,-3 L-7,7 L-3,-3" stroke="#040408" stroke-width="0.85" opacity="0.95"/>
+    <path d="M14,-11 L22,0 L30,-7 L40,7" stroke="#040408" stroke-width="0.55" opacity="0.85"/>
+    <!-- Faint warmth at fractures (responding to methodical scan) -->
+    <path d="M-30,-9 L-22,3 L-15,-3 L-7,7 L-3,-3" stroke="#a86838" stroke-width="0.55" fill="none" opacity="0.55" filter="url(#i8p13p1bloom)"/>
+    <path d="M14,-11 L22,0 L30,-7 L40,7" stroke="#a86838" stroke-width="0.55" fill="none" opacity="0.55" filter="url(#i8p13p1bloom)"/>
+    <!-- Surface dust accumulation -->
+    <ellipse cx="-22" cy="-9" rx="11" ry="2" fill="#a89878" opacity="0.4"/>
+    <ellipse cx="20" cy="-11" rx="14" ry="2" fill="#a89878" opacity="0.4"/>
+    <!-- Interface ports -->
+    <circle cx="-35" cy="0" r="2.5" fill="#040408"/>
+    <circle cx="35" cy="0" r="2.5" fill="#040408"/>
+  </g>
+
+  <!-- ===== SCANNER METHODICAL SWEEP across the data core ===== -->
+  <ellipse cx="371" cy="240" rx="160" ry="40" fill="url(#i8p13p1scannerSweep)" filter="url(#i8p13p1megaglow)"/>
+  <!-- Scanner beam tracing the surface -->
+  <line x1="280" y1="240" x2="460" y2="240" stroke="#a878e8" stroke-width="0.7" filter="url(#i8p13p1bloom)" opacity="0.85" stroke-dasharray="3,2"/>
+  <line x1="280" y1="245" x2="460" y2="245" stroke="#a878e8" stroke-width="0.55" filter="url(#i8p13p1bloom)" opacity="0.7"/>
+
+  <!-- ===== LUMA CROUCHED beside the core ===== -->
+  <g transform="translate(290 230)">
+    <!-- Body — crouched, leaning forward -->
+    <path d="M-9,18 L-11,9 L-14,-7 L-11,-22 L-3,-32 L3,-32 L11,-22 L14,-7 L11,9 L9,18 Z" fill="url(#i8p13p1lumaSuit)"/>
+
+    <!-- Heavy ink stains on hands -->
+    <ellipse cx="-14" cy="3" rx="3" ry="2" fill="#1a0810" opacity="0.95"/>
+
+    <!-- Suit accent (controlled — pulsing steadily again) -->
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#c8a8e8" stroke-width="0.55" opacity="0.85" filter="url(#i8p13p1bloom)"/>
+    <circle cx="-9" cy="-15" r="0.85" fill="#c8a8e8" filter="url(#i8p13p1bloom)" opacity="0.85"/>
+    <circle cx="9" cy="-15" r="0.85" fill="#c8a8e8" filter="url(#i8p13p1bloom)" opacity="0.85"/>
+
+    <!-- Right arm with scanner extended over core (sweeping) -->
+    <path d="M11,-15 L40,-7 L40,3 L9,-3 Z" fill="url(#i8p13p1lumaSuit)"/>
+    <ellipse cx="40" cy="-3" rx="3" ry="2" fill="url(#i8p13p1skin)"/>
+    <rect x="36" y="-7" width="14" height="9" fill="#3a1858" stroke="#1a0810" stroke-width="0.55"/>
+    <ellipse cx="44" cy="-3" rx="6" ry="0.85" fill="#a878e8" filter="url(#i8p13p1strongglow)" opacity="0.95"/>
+    <!-- Slight tremble lines -->
+    <path d="M22,-9 L26,-7" stroke="#fff" stroke-width="0.4" opacity="0.4"/>
+
+    <!-- Other arm -->
+    <path d="M-11,-15 L-22,-3 L-14,7 L-7,-3 Z" fill="url(#i8p13p1lumaSuit)"/>
+
+    <!-- Crouched legs -->
+    <ellipse cx="-7" cy="22" rx="6" ry="3" fill="url(#i8p13p1lumaSuit)"/>
+    <ellipse cx="7" cy="22" rx="6" ry="3" fill="url(#i8p13p1lumaSuit)"/>
+
+    <!-- Head — looking down at core, jaw set -->
+    <ellipse cx="0" cy="-40" rx="6" ry="7" fill="url(#i8p13p1skin)"/>
+    <!-- Long braid -->
+    <path d="M3,-32 Q9,-15 14,18" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M3,-32 Q9,-15 14,18" stroke="#a878e8" stroke-width="0.4" fill="none" filter="url(#i8p13p1bloom)" opacity="0.95"/>
+    <ellipse cx="9" cy="-15" rx="2" ry="0.55" fill="#c8a8e8" filter="url(#i8p13p1bloom)" opacity="0.95"/>
+    <!-- Hair pulled back -->
+    <path d="M-5,-46 Q0,-50 5,-46 L5,-40 Q0,-44 -5,-40 Z" fill="#1a0808"/>
+
+    <!-- Lenses scrolling rapid documentation data -->
+    <ellipse cx="0" cy="-40" rx="9" ry="3" fill="#7848b8" filter="url(#i8p13p1strongglow)" opacity="0.55"/>
+    <ellipse cx="-2" cy="-40" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.55" filter="url(#i8p13p1bloom)" opacity="0.95"/>
+    <ellipse cx="2" cy="-40" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.55" filter="url(#i8p13p1bloom)" opacity="0.95"/>
+    <!-- Eyes focused, jaw set -->
+    <circle cx="-2" cy="-40" r="0.55" fill="#fff8e8" filter="url(#i8p13p1bloom)"/>
+    <circle cx="2" cy="-40" r="0.55" fill="#fff8e8" filter="url(#i8p13p1bloom)"/>
+    <!-- Brows — set, working -->
+    <line x1="-4" y1="-44" x2="-1" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-44" x2="4" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Mouth — flat, jaw set -->
+    <line x1="-3" y1="-34" x2="3" y2="-34" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== Documentation data overlay floating above the core (scanner reading) ===== -->
+  <g transform="translate(450 200)" opacity="0.85">
+    <rect x="-30" y="-22" width="60" height="40" fill="#1a1858" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p13p1bloom)" opacity="0.85"/>
+    <text x="-26" y="-14" font-family="monospace" font-size="3" fill="#c8a8e8" filter="url(#i8p13p1dataPulse)">CORE-SCAN//ACTIVE</text>
+    <text x="-26" y="-7" font-family="monospace" font-size="2.5" fill="#c8a8e8" opacity="0.85">FRACTURE-MAP-01</text>
+    <text x="-26" y="0" font-family="monospace" font-size="2.5" fill="#c8a8e8" opacity="0.85">MATRIX: INTACT</text>
+    <text x="-26" y="7" font-family="monospace" font-size="2.5" fill="#c8a8e8" opacity="0.85">RECOVERABLE: ?</text>
+    <text x="-26" y="14" font-family="monospace" font-size="2.5" fill="#c8a8e8" opacity="0.95" font-weight="700">DOC-LOG: 014/n</text>
+  </g>
+
+  <!-- ===== DIALOGUE — LUMA ===== -->
+  <g>
+    <rect x="14" y="14" width="500" height="50" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I'm documenting the site. The data core may be recoverable.</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">If I can bring it back, Wren might extract something.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>
