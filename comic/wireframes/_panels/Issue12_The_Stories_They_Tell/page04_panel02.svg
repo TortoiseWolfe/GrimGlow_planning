@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 12 Page 4 Panel 2 — Sable watching the tactical display, "Alpha neutralized. Bravo in progress."</title>
+  <desc>Close-up woman's face lit by holographic tactical display light. Dark brown skin, sharp angular features, military-cropped silver-white hair. Controlled satisfaction — reading progress, assessing timing. Display reflected in eyes shows miniature city map with device markers — two changed from amber-black to neutral grey (neutralized), two still pulse amber-black (pending). Metallic silver suit at maximum degradation — pewter-dark, soot-covered, visible at collar. Blue-white holographic light casts geometric patterns across face.</desc>
+  <defs>
+    <linearGradient id="bgL2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2030"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <radialGradient id="holoFaceL2" cx="0.5" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#5a78a8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairSilverL2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8d8d8"/>
+      <stop offset="0.5" stop-color="#a8a8a8"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+    <linearGradient id="faceSableL2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4838"/>
+      <stop offset="0.5" stop-color="#3a2410"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="eyeReflectL2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#5a78a8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#1a2030" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="suitSilverL2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8898"/>
+      <stop offset="0.5" stop-color="#3a4858"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <filter id="bloomL2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowL2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowL2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgL2)"/>
+  <rect width="366" height="240" fill="url(#holoFaceL2)"/>
+
+  <g>
+    <ellipse cx="183" cy="120" rx="160" ry="180" fill="url(#faceSableL2)"/>
+
+    <path d="M 50 30 Q 130 -10 183 -10 Q 236 -10 316 30 Q 332 70 326 100 L 310 110 Q 270 50 220 40 Q 200 36 150 40 Q 96 50 56 110 L 40 100 Q 34 70 50 30 Z" fill="url(#hairSilverL2)"/>
+    <g opacity="0.7" stroke="#7a7a7a" stroke-width="0.55">
+      <line x1="100" y1="22" x2="100" y2="60"/>
+      <line x1="130" y1="14" x2="130" y2="60"/>
+      <line x1="160" y1="10" x2="160" y2="60"/>
+      <line x1="190" y1="10" x2="190" y2="60"/>
+      <line x1="220" y1="14" x2="220" y2="60"/>
+      <line x1="250" y1="22" x2="250" y2="60"/>
+    </g>
+
+    <ellipse cx="120" cy="120" rx="22" ry="14" fill="#0a0604"/>
+    <ellipse cx="120" cy="120" rx="14" ry="9" fill="#080404"/>
+
+    <rect x="108" y="116" width="3" height="3" fill="#7a7a7a" opacity="0.85"/>
+    <rect x="113" y="118" width="3" height="3" fill="#7a7a7a" opacity="0.85"/>
+    <circle cx="124" cy="119" r="0.85" fill="#3a8858"/>
+    <circle cx="129" cy="121" r="0.85" fill="#a8c0e0"/>
+    <rect x="115" y="120" width="2" height="2" fill="#a85020" opacity="0.85"/>
+    <rect x="125" y="122" width="2" height="2" fill="#a85020" opacity="0.85"/>
+
+    <ellipse cx="246" cy="120" rx="22" ry="14" fill="#0a0604"/>
+    <ellipse cx="246" cy="120" rx="14" ry="9" fill="#080404"/>
+    <rect x="234" y="116" width="3" height="3" fill="#7a7a7a" opacity="0.85"/>
+    <rect x="239" y="118" width="3" height="3" fill="#7a7a7a" opacity="0.85"/>
+    <circle cx="250" cy="119" r="0.85" fill="#3a8858"/>
+    <circle cx="255" cy="121" r="0.85" fill="#a8c0e0"/>
+    <rect x="241" y="120" width="2" height="2" fill="#a85020" opacity="0.85"/>
+    <rect x="251" y="122" width="2" height="2" fill="#a85020" opacity="0.85"/>
+
+    <path d="M 80 96 Q 120 86 156 96" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+    <path d="M 210 96 Q 246 86 286 96" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="146" cy="148" rx="14" ry="3" fill="#1a0a04" opacity="0.62"/>
+    <ellipse cx="220" cy="148" rx="14" ry="3" fill="#1a0a04" opacity="0.62"/>
+    <ellipse cx="183" cy="146" rx="3" ry="1.4" fill="#1a0a04" opacity="0.62"/>
+
+    <path d="M 156 184 Q 183 188 210 184" stroke="#0a0604" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowL2)">
+    <rect x="108" y="116" width="22" height="9" fill="#a8c0e0" opacity="0.42"/>
+    <rect x="234" y="116" width="22" height="9" fill="#a8c0e0" opacity="0.42"/>
+  </g>
+
+  <g>
+    <rect x="0" y="200" width="366" height="40" fill="url(#suitSilverL2)"/>
+    <line x1="0" y1="206" x2="366" y2="206" stroke="#1a2030" stroke-width="0.85"/>
+    <path d="M 60 210 L 80 208 L 76 222 L 56 224 Z" fill="#1a1810" opacity="0.85"/>
+    <path d="M 280 212 L 300 210 L 298 224 L 278 226 Z" fill="#1a1810" opacity="0.85"/>
+    <line x1="183" y1="206" x2="183" y2="240" stroke="#1a2030" stroke-width="0.85" opacity="0.62"/>
+    <circle cx="183" cy="220" r="2" fill="#1a2030"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomL2)">
+    <ellipse cx="183" cy="120" rx="120" ry="22" fill="#a8c0e0" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="183" cy="220" rx="120" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="320" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#a8c0e0" stroke-width="1.2"/>
+    <text x="150" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a8c0e0" font-weight="700">SABLE: "Alpha neutralized. Bravo in progress."</text>
+    <text x="150" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a8c0e0" font-style="italic" font-weight="700">"Charlie and Delta pending. On schedule."</text>
+  </g>
+</svg>

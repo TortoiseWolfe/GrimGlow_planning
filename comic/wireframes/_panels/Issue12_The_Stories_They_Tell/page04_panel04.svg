@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 280" width="246" height="280">
+  <title>Issue 12 Page 4 Panel 4 — Thresh's face in the Titan light, "I'm here. Starting disarm."</title>
+  <desc>Close-up woman's face lit by sickly amber-black Titan device light from below, pulse shifting and oily across features. Pale skin, defined cheekbones, firm jaw, copper-red buzz cut, intense eyes wide with fear — but jaw locked, breathing controlled. Afraid. Here anyway. Amber-black light plays across face with dark iridescence — oil on water, bruise-purple and black. Crimson suit collar barely visible, holographic edge-lighting at neck stuttering, overwhelmed by amber-black wash. Fear mastered by will.</desc>
+  <defs>
+    <linearGradient id="bgL4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a14"/>
+      <stop offset="0.5" stop-color="#1a0810"/>
+      <stop offset="1" stop-color="#3a1810"/>
+    </linearGradient>
+    <radialGradient id="titanFaceL4" cx="0.5" cy="0.85" r="0.6">
+      <stop offset="0" stop-color="#a85020" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#3a1810" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairBuzzL4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a2810"/>
+      <stop offset="0.5" stop-color="#3a1808"/>
+      <stop offset="1" stop-color="#1a0804"/>
+    </linearGradient>
+    <linearGradient id="faceThreshL4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4830"/>
+      <stop offset="0.4" stop-color="#a85820"/>
+      <stop offset="0.7" stop-color="#a85020"/>
+      <stop offset="1" stop-color="#5a2010"/>
+    </linearGradient>
+    <radialGradient id="eyeFearL4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#a87858" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#a87858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="iridescenceL4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a1810" stop-opacity="0.55"/>
+      <stop offset="0.3" stop-color="#5a3098" stop-opacity="0.42"/>
+      <stop offset="0.6" stop-color="#a85020" stop-opacity="0.55"/>
+      <stop offset="0.9" stop-color="#3a1810" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#080404" stop-opacity="0.42"/>
+    </linearGradient>
+    <linearGradient id="crimsonStutterL4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a2520" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#d83838" stop-opacity="0.62"/>
+      <stop offset="0.6" stop-color="#5a2520" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#8a2520" stop-opacity="0.42"/>
+    </linearGradient>
+    <filter id="bloomL4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowL4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowL4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="wrongnessL4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+  </defs>
+
+  <rect width="246" height="280" fill="url(#bgL4)"/>
+  <rect width="246" height="280" fill="url(#titanFaceL4)"/>
+  <rect width="246" height="280" fill="url(#iridescenceL4)" opacity="0.62"/>
+
+  <g>
+    <ellipse cx="123" cy="140" rx="120" ry="140" fill="url(#faceThreshL4)"/>
+
+    <path d="M 30 50 Q 60 14 123 14 Q 186 14 216 50 Q 220 80 214 86 L 204 80 Q 180 36 150 30 Q 123 24 100 30 Q 70 36 42 80 L 32 86 Q 26 80 30 50 Z" fill="url(#hairBuzzL4)"/>
+    <g opacity="0.7" stroke="#3a1808" stroke-width="0.55">
+      <line x1="60" y1="38" x2="60" y2="50"/>
+      <line x1="80" y1="32" x2="80" y2="50"/>
+      <line x1="100" y1="28" x2="100" y2="50"/>
+      <line x1="123" y1="26" x2="123" y2="50"/>
+      <line x1="146" y1="28" x2="146" y2="50"/>
+      <line x1="166" y1="32" x2="166" y2="50"/>
+      <line x1="186" y1="38" x2="186" y2="50"/>
+    </g>
+
+    <ellipse cx="86" cy="120" rx="14" ry="18" fill="#0a0604"/>
+    <circle cx="86" cy="120" r="9" fill="#3a2010"/>
+    <ellipse cx="86" cy="120" rx="6" ry="5" fill="url(#eyeFearL4)"/>
+    <circle cx="86" cy="120" r="3" fill="#080404"/>
+    <circle cx="88" cy="118" r="0.85" fill="#fff8d8"/>
+
+    <ellipse cx="160" cy="120" rx="14" ry="18" fill="#0a0604"/>
+    <circle cx="160" cy="120" r="9" fill="#3a2010"/>
+    <ellipse cx="160" cy="120" rx="6" ry="5" fill="url(#eyeFearL4)"/>
+    <circle cx="160" cy="120" r="3" fill="#080404"/>
+    <circle cx="162" cy="118" r="0.85" fill="#fff8d8"/>
+
+    <path d="M 60 96 Q 86 86 110 96" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+    <path d="M 136 96 Q 160 86 186 96" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="100" cy="146" rx="9" ry="3" fill="#3a1810" opacity="0.62"/>
+    <ellipse cx="146" cy="146" rx="9" ry="3" fill="#3a1810" opacity="0.62"/>
+    <ellipse cx="123" cy="144" rx="3" ry="1.4" fill="#3a1810" opacity="0.62"/>
+
+    <path d="M 100 184 L 146 184" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+    <path d="M 100 188 L 146 188" stroke="#3a2410" stroke-width="0.7" opacity="0.55"/>
+  </g>
+
+  <g>
+    <rect x="0" y="220" width="246" height="60" fill="#1a0810"/>
+    <path d="M 0 220 Q 60 216 120 220 Q 180 224 246 220 L 246 280 L 0 280 Z" fill="#5a1820"/>
+    <line x1="0" y1="232" x2="246" y2="234" stroke="url(#crimsonStutterL4)" stroke-width="1" opacity="0.85"/>
+    <line x1="0" y1="248" x2="246" y2="250" stroke="url(#crimsonStutterL4)" stroke-width="0.85" opacity="0.62"/>
+  </g>
+  <g opacity="0.55" filter="url(#strongGlowL4)">
+    <line x1="0" y1="234" x2="246" y2="234" stroke="#d83838" stroke-width="4" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#wrongnessL4)">
+    <rect width="246" height="280" fill="url(#iridescenceL4)" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#megaGlowL4)">
+    <ellipse cx="123" cy="280" rx="180" ry="60" fill="#a85020" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="123" cy="270" rx="120" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="180" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#8a2520" stroke-width="1.2"/>
+    <text x="86" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#d83838" font-weight="700">THRESH (whispering):</text>
+    <text x="86" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#d83838" font-style="italic" font-weight="700">"I'm here. Starting disarm."</text>
+  </g>
+</svg>

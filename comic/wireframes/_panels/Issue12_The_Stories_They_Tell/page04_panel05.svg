@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 280" width="494" height="280">
+  <title>Issue 12 Page 4 Panel 5 — Thresh disarming, "Three down. Four to go. My hands are shaking."</title>
+  <desc>Medium wide. Tiny figure in degraded crimson armor crouches beside Titan device mounted on pipe junction in dark industrial basement. Holstered weapon, working with both hands on device — disconnecting interface points, hands visibly trembling but completing each disconnection. Device's amber-black pulse dims as connections isolated. Steam pipes tower around her in dark silhouette. Crimson edge-lighting returns as amber-black fades — geometric patterns pulsing along armor edges, still stuttering. Trembling hands doing steady work.</desc>
+  <defs>
+    <linearGradient id="bgL5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a14"/>
+      <stop offset="0.5" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="titanFadingL5" cx="0.55" cy="0.55" r="0.42">
+      <stop offset="0" stop-color="#7a3818" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#3a1810" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pipeL5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1208"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <linearGradient id="suitThreshL5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a83838"/>
+      <stop offset="0.4" stop-color="#7a2530"/>
+      <stop offset="0.8" stop-color="#3a1820"/>
+      <stop offset="1" stop-color="#1a0810"/>
+    </linearGradient>
+    <linearGradient id="hairBuzzL5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85020"/>
+      <stop offset="0.5" stop-color="#7a3018"/>
+      <stop offset="1" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="skinThreshL5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8d8b8"/>
+      <stop offset="0.5" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="titanShellL5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1810"/>
+      <stop offset="0.5" stop-color="#1a0810"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <linearGradient id="crimsonReturnL5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a2520" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#d83838" stop-opacity="0.95"/>
+      <stop offset="0.6" stop-color="#5a2520" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#8a2520" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="bloomL5" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowL5" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowL5" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="494" height="280" fill="url(#bgL5)"/>
+  <rect width="494" height="280" fill="url(#titanFadingL5)"/>
+
+  <g>
+    <rect x="20" y="0" width="40" height="280" fill="url(#pipeL5)"/>
+    <rect x="434" y="0" width="40" height="280" fill="url(#pipeL5)"/>
+    <rect x="120" y="0" width="22" height="280" fill="url(#pipeL5)"/>
+    <rect x="372" y="0" width="22" height="280" fill="url(#pipeL5)"/>
+
+    <line x1="180" y1="200" x2="320" y2="200" stroke="url(#pipeL5)" stroke-width="9"/>
+    <line x1="160" y1="240" x2="340" y2="240" stroke="url(#pipeL5)" stroke-width="14"/>
+
+    <ellipse cx="40" cy="120" rx="2.4" ry="1.4" fill="#a8c0e0" opacity="0.42"/>
+    <ellipse cx="450" cy="100" rx="2.4" ry="1.4" fill="#a8c0e0" opacity="0.42"/>
+  </g>
+
+  <g>
+    <rect x="200" y="160" width="100" height="60" fill="url(#titanShellL5)"/>
+    <line x1="200" y1="166" x2="300" y2="166" stroke="#3a1810" stroke-width="0.7"/>
+    <line x1="200" y1="214" x2="300" y2="214" stroke="#3a1810" stroke-width="0.7"/>
+    <ellipse cx="250" cy="190" rx="22" ry="14" fill="url(#titanFadingL5)"/>
+    <circle cx="250" cy="190" r="3" fill="#7a3818" opacity="0.62"/>
+    <line x1="240" y1="184" x2="260" y2="196" stroke="#3a1810" stroke-width="0.55"/>
+    <line x1="260" y1="184" x2="240" y2="196" stroke="#3a1810" stroke-width="0.55"/>
+  </g>
+
+  <g>
+    <ellipse cx="247" cy="240" rx="40" ry="6" fill="#040202" opacity="0.62"/>
+
+    <ellipse cx="247" cy="180" rx="22" ry="32" fill="url(#suitThreshL5)"/>
+    <path d="M 225 156 L 269 156 L 271 220 L 223 220 Z" fill="url(#suitThreshL5)"/>
+
+    <path d="M 225 160 L 235 156 L 233 168 L 223 170 Z" fill="#1a0810" opacity="0.85"/>
+    <path d="M 261 172 L 269 170 L 267 178 L 259 180 Z" fill="#1a0810" opacity="0.85"/>
+    <path d="M 247 196 L 255 196 L 253 204 L 245 204 Z" fill="#1a0810" opacity="0.85"/>
+
+    <line x1="225" y1="164" x2="271" y2="166" stroke="url(#crimsonReturnL5)" stroke-width="1.4" opacity="0.85"/>
+    <line x1="223" y1="220" x2="271" y2="220" stroke="url(#crimsonReturnL5)" stroke-width="1.4" opacity="0.85"/>
+
+    <ellipse cx="247" cy="120" rx="14" ry="18" fill="url(#skinThreshL5)"/>
+    <path d="M 233 110 Q 247 96 261 110 Q 261 116 261 118 L 233 118 Q 233 116 233 110 Z" fill="url(#hairBuzzL5)"/>
+    <g opacity="0.55" stroke="#3a1808" stroke-width="0.4">
+      <line x1="237" y1="106" x2="237" y2="116"/>
+      <line x1="243" y1="104" x2="243" y2="116"/>
+      <line x1="247" y1="104" x2="247" y2="116"/>
+      <line x1="251" y1="104" x2="251" y2="116"/>
+      <line x1="257" y1="106" x2="257" y2="116"/>
+    </g>
+
+    <circle cx="243" cy="120" r="0.85" fill="#0a0604"/>
+    <circle cx="251" cy="120" r="0.85" fill="#0a0604"/>
+    <path d="M 244 128 L 250 128" stroke="#1a0a08" stroke-width="0.55" fill="none"/>
+
+    <path d="M 225 200 L 200 196" stroke="url(#suitThreshL5)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 269 200 L 294 196" stroke="url(#suitThreshL5)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <ellipse cx="200" cy="196" rx="6" ry="4" fill="url(#skinThreshL5)"/>
+    <ellipse cx="294" cy="196" rx="6" ry="4" fill="url(#skinThreshL5)"/>
+
+    <g opacity="0.62">
+      <line x1="195" y1="194" x2="205" y2="200" stroke="#a87858" stroke-width="0.4"/>
+      <line x1="195" y1="198" x2="205" y2="194" stroke="#a87858" stroke-width="0.4"/>
+      <line x1="289" y1="194" x2="299" y2="200" stroke="#a87858" stroke-width="0.4"/>
+      <line x1="289" y1="198" x2="299" y2="194" stroke="#a87858" stroke-width="0.4"/>
+    </g>
+
+    <rect x="217" y="220" width="22" height="11" rx="2" fill="#3a2230"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowL5)">
+    <ellipse cx="247" cy="180" rx="32" ry="40" fill="#d83838" opacity="0.42"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowL5)">
+    <ellipse cx="247" cy="180" rx="60" ry="60" fill="#8a2520" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomL5)">
+    <ellipse cx="250" cy="190" rx="40" ry="14" fill="#7a3818" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="247" cy="260" rx="180" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="320" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#8a2520" stroke-width="1.2"/>
+    <text x="150" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#d83838" font-weight="700">THRESH: "Three down. Four to go. Hands shaking."</text>
+    <text x="150" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a85820" font-style="italic" font-weight="700">WREN: "Doesn't matter. Slow and complete. You've trained this."</text>
+  </g>
+</svg>
