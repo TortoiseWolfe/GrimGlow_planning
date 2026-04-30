@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 280" width="247" height="280">
+  <title>Issue 12 Page 15 Panel 3 — Wren on the rooftop, "Well done, Theodore."</title>
+  <desc>Medium shot. Tiny figure in maximum-degradation copper suit on Victorian rooftop as holographic displays collapse around her — copper-gold schematics folding in on themselves, data feeds closing, technical architecture of operation disappearing. Stands in morning light, eyes closed, exhaling — relief and exhaustion on East Asian features, wiry frame releasing tension. City stretches behind her. Morning light, clean and warm. Copper-gold glow fading. The engineer letting go.</desc>
+  <defs>
+    <linearGradient id="bgZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87878"/>
+      <stop offset="0.4" stop-color="#fff8d8"/>
+      <stop offset="0.7" stop-color="#5a4858"/>
+      <stop offset="1" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="cleanMorningZ3" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="copperFadingZ3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d88838" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rooftopZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4858"/>
+      <stop offset="0.5" stop-color="#3a2838"/>
+      <stop offset="1" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="cityFarZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87858"/>
+      <stop offset="0.5" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <linearGradient id="suitWrenZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4818"/>
+      <stop offset="0.4" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#1a0804"/>
+    </linearGradient>
+    <linearGradient id="hairWrenZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a0a08"/>
+      <stop offset="1" stop-color="#0a0404"/>
+    </linearGradient>
+    <linearGradient id="skinWrenZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#d8a878"/>
+      <stop offset="0.8" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="schemaCollapseZ3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d88838" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#5a3018" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="bloomZ3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowZ3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <filter id="megaGlowZ3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="247" height="280" fill="url(#bgZ3)"/>
+  <rect width="247" height="280" fill="url(#cleanMorningZ3)"/>
+  <rect width="247" height="280" fill="url(#copperFadingZ3)"/>
+
+  <g>
+    <path d="M 0 100 L 60 96 L 130 100 L 200 92 L 247 100 L 247 130 L 0 130 Z" fill="url(#cityFarZ3)" opacity="0.85"/>
+    <g opacity="0.62">
+      <rect x="40" y="80" width="6" height="20" fill="#0a0604"/>
+      <rect x="100" y="76" width="9" height="22" fill="#0a0604"/>
+      <rect x="180" y="80" width="6" height="20" fill="#0a0604"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="0" y="180" width="247" height="100" fill="url(#rooftopZ3)"/>
+    <line x1="0" y1="186" x2="247" y2="186" stroke="#080404" stroke-width="0.85"/>
+    <g opacity="0.55" stroke="#080404" stroke-width="0.4">
+      <line x1="0" y1="220" x2="247" y2="220"/>
+      <line x1="0" y1="250" x2="247" y2="250"/>
+      <line x1="80" y1="186" x2="80" y2="280"/>
+      <line x1="180" y1="186" x2="180" y2="280"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="123" cy="220" rx="22" ry="3" fill="#040202" opacity="0.62"/>
+
+    <ellipse cx="123" cy="170" rx="22" ry="32" fill="url(#suitWrenZ3)"/>
+    <path d="M 101 142 L 145 142 L 148 200 L 98 200 Z" fill="url(#suitWrenZ3)"/>
+
+    <path d="M 103 148 L 113 144 L 110 158 L 100 160 Z" fill="#1a0804" opacity="0.85"/>
+    <path d="M 135 162 L 145 160 L 143 170 L 133 172 Z" fill="#1a0804" opacity="0.85"/>
+
+    <ellipse cx="123" cy="110" rx="14" ry="16" fill="url(#skinWrenZ3)"/>
+    <path d="M 109 100 Q 123 84 137 100 Q 140 110 138 116 L 136 110 Q 130 102 124 104 Q 118 106 116 116 L 112 116 Q 108 110 109 100 Z" fill="url(#hairWrenZ3)"/>
+    <path d="M 138 90 Q 146 88 150 96 Q 146 104 138 100 Z" fill="url(#hairWrenZ3)"/>
+
+    <path d="M 116 116 L 116 122 L 130 122 L 130 116 Q 123 117 116 116 Z" fill="#0a0604" opacity="0.85"/>
+    <path d="M 113 113 Q 123 116 133 113" stroke="#0a0604" stroke-width="0.55" fill="none" opacity="0.85"/>
+
+    <path d="M 119 130 Q 123 132 127 130" stroke="#1a0a08" stroke-width="0.7" fill="none"/>
+
+    <ellipse cx="120" cy="123" rx="2" ry="0.55" fill="#a85820" opacity="0.42"/>
+    <ellipse cx="126" cy="123" rx="2" ry="0.55" fill="#a85820" opacity="0.42"/>
+
+    <path d="M 98 200 Q 88 212 84 220" stroke="url(#suitWrenZ3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 148 200 Q 158 212 162 220" stroke="url(#suitWrenZ3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+    <path d="M 145 152 L 165 142" stroke="url(#skinWrenZ3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 101 152 L 81 142" stroke="url(#skinWrenZ3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <ellipse cx="80" cy="140" rx="3" ry="2" fill="url(#skinWrenZ3)"/>
+    <ellipse cx="166" cy="140" rx="3" ry="2" fill="url(#skinWrenZ3)"/>
+  </g>
+
+  <g opacity="0.55">
+    <rect x="40" y="50" width="40" height="50" rx="2" fill="none" stroke="url(#schemaCollapseZ3)" stroke-width="0.55"/>
+    <line x1="42" y1="60" x2="78" y2="60" stroke="url(#schemaCollapseZ3)" stroke-width="0.4"/>
+    <line x1="42" y1="72" x2="78" y2="72" stroke="url(#schemaCollapseZ3)" stroke-width="0.4"/>
+    <line x1="42" y1="84" x2="60" y2="84" stroke="url(#schemaCollapseZ3)" stroke-width="0.4"/>
+
+    <rect x="170" y="60" width="50" height="60" rx="2" fill="none" stroke="url(#schemaCollapseZ3)" stroke-width="0.4" opacity="0.62"/>
+    <text x="174" y="70" font-family="monospace" font-size="2.4" fill="#d88838" opacity="0.42">▮▯▮</text>
+    <text x="174" y="82" font-family="monospace" font-size="2.4" fill="#d88838" opacity="0.42">DONE</text>
+
+    <line x1="80" y1="40" x2="60" y2="50" stroke="url(#schemaCollapseZ3)" stroke-width="0.4" stroke-dasharray="2,2"/>
+    <line x1="120" y1="40" x2="180" y2="60" stroke="url(#schemaCollapseZ3)" stroke-width="0.4" stroke-dasharray="2,2"/>
+  </g>
+  <g opacity="0.42" filter="url(#bloomZ3)">
+    <rect x="40" y="50" width="40" height="50" fill="#d88838" opacity="0.32"/>
+    <rect x="170" y="60" width="50" height="60" fill="#d88838" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomZ3)">
+    <ellipse cx="123" cy="60" rx="120" ry="14" fill="#fff8d8" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="123" cy="262" rx="80" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="180" height="14" rx="3" fill="#1a1828" opacity="0.95" stroke="#a85820" stroke-width="1.2"/>
+    <text x="86" y="10" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a85820" font-style="italic" font-weight="700">WREN (quiet): "Well done, Theodore."</text>
+  </g>
+</svg>
