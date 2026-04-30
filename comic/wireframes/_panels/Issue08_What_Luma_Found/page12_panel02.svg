@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 12 — Panel 2: STAY — the word carved deep in stone, blooming with phosphorescent light — the brightest point in the basement, the decision cut into stone</title>
+  <desc>85mm low angle looking up at rough stone wall. Carved into stone in large deep strokes of geometric fairy script: a single word — angular precise alien characters that the reader understands through context to mean STAY. Carving blooms with phosphorescent light where scanner beam touches it — brighter than any other marking in basement, centuries of embedded luminous energy responding, warm-shifted glow of fairy tech carved with force and intention. Strokes deep — stone chipped at edges of each line, tool marks visible, desperation in precision. Not a note. A decision cut into stone with everything the carver had. Phosphorescent bloom fills panel — warm blue-violet, brightest light in darkness.</desc>
+
+  <defs>
+    <linearGradient id="i8p12p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p12p2stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <radialGradient id="i8p12p2bloomMega" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.95"/>
+      <stop offset="20%" stop-color="#c8a8e8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a878e8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p12p2warmShift" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i8p12p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p12p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p12p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p12p2megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="i8p12p2ultraGlow"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i8p12p2bg)"/>
+
+  <!-- Stone wall -->
+  <rect width="366" height="300" fill="url(#i8p12p2stone)"/>
+  <!-- Hand-cut stone texture -->
+  <g stroke="#040408" stroke-width="0.85" fill="none" opacity="0.85">
+    <path d="M0,50 L60,52 L120,48 L200,50 L280,48 L366,52"/>
+    <path d="M0,250 L80,252 L160,248 L260,250 L366,252"/>
+    <line x1="40" y1="0" x2="40" y2="50"/>
+    <line x1="200" y1="0" x2="200" y2="50"/>
+    <line x1="100" y1="250" x2="100" y2="300"/>
+    <line x1="280" y1="250" x2="280" y2="300"/>
+  </g>
+  <!-- Stone weathering -->
+  <g fill="#0a0408" opacity="0.55">
+    <ellipse cx="40" cy="30" rx="22" ry="9"/>
+    <ellipse cx="320" cy="40" rx="14" ry="6"/>
+    <ellipse cx="80" cy="270" rx="22" ry="9"/>
+    <ellipse cx="280" cy="280" rx="14" ry="6"/>
+  </g>
+
+  <!-- ===== ULTRA BLOOM — the brightest point in the entire basement sequence ===== -->
+  <ellipse cx="183" cy="150" rx="280" ry="200" fill="url(#i8p12p2bloomMega)" filter="url(#i8p12p2ultraGlow)"/>
+  <ellipse cx="183" cy="150" rx="220" ry="160" fill="url(#i8p12p2warmShift)" filter="url(#i8p12p2megaglow)" opacity="0.55"/>
+
+  <!-- ===== THE WORD "STAY" carved deep into stone — geometric fairy script ===== -->
+  <g transform="translate(183 150)">
+    <!-- Carved indentation behind the word -->
+    <ellipse cx="0" cy="0" rx="160" ry="60" fill="#040408" opacity="0.85"/>
+
+    <!-- Letter 1: S — angular fairy form -->
+    <g transform="translate(-110 0)">
+      <!-- Carved (dark indentation) -->
+      <g stroke="#040408" stroke-width="6" fill="none">
+        <path d="M22,-44 L-22,-44 L-22,-9 L22,-9 L22,44 L-22,44"/>
+      </g>
+      <!-- Stone chips at edges -->
+      <g fill="#040408" opacity="0.85">
+        <ellipse cx="-22" cy="-44" rx="3" ry="2"/>
+        <ellipse cx="22" cy="-44" rx="3" ry="2"/>
+        <ellipse cx="-22" cy="44" rx="3" ry="2"/>
+        <ellipse cx="22" cy="44" rx="3" ry="2"/>
+      </g>
+      <!-- Phosphorescent glow tracing the carved lines -->
+      <g stroke="#fff" stroke-width="1.4" fill="none" filter="url(#i8p12p2bloom)" opacity="0.95">
+        <path d="M22,-44 L-22,-44 L-22,-9 L22,-9 L22,44 L-22,44"/>
+      </g>
+      <g stroke="#c8a8e8" stroke-width="2.5" fill="none" filter="url(#i8p12p2bloom)" opacity="0.7">
+        <path d="M22,-44 L-22,-44 L-22,-9 L22,-9 L22,44 L-22,44"/>
+      </g>
+    </g>
+
+    <!-- Letter 2: T — angular fairy form -->
+    <g transform="translate(-50 0)">
+      <g stroke="#040408" stroke-width="6" fill="none">
+        <path d="M-22,-44 L22,-44"/>
+        <path d="M0,-44 L0,44"/>
+      </g>
+      <g fill="#040408" opacity="0.85">
+        <ellipse cx="-22" cy="-44" rx="3" ry="2"/>
+        <ellipse cx="22" cy="-44" rx="3" ry="2"/>
+        <ellipse cx="0" cy="44" rx="3" ry="2"/>
+      </g>
+      <g stroke="#fff" stroke-width="1.4" fill="none" filter="url(#i8p12p2bloom)" opacity="0.95">
+        <path d="M-22,-44 L22,-44"/>
+        <path d="M0,-44 L0,44"/>
+      </g>
+      <g stroke="#c8a8e8" stroke-width="2.5" fill="none" filter="url(#i8p12p2bloom)" opacity="0.7">
+        <path d="M-22,-44 L22,-44"/>
+        <path d="M0,-44 L0,44"/>
+      </g>
+    </g>
+
+    <!-- Letter 3: A — angular fairy form -->
+    <g transform="translate(15 0)">
+      <g stroke="#040408" stroke-width="6" fill="none">
+        <path d="M-22,44 L0,-44 L22,44"/>
+        <path d="M-14,18 L14,18"/>
+      </g>
+      <g fill="#040408" opacity="0.85">
+        <ellipse cx="-22" cy="44" rx="3" ry="2"/>
+        <ellipse cx="22" cy="44" rx="3" ry="2"/>
+        <ellipse cx="0" cy="-44" rx="3" ry="2"/>
+      </g>
+      <g stroke="#fff" stroke-width="1.4" fill="none" filter="url(#i8p12p2bloom)" opacity="0.95">
+        <path d="M-22,44 L0,-44 L22,44"/>
+        <path d="M-14,18 L14,18"/>
+      </g>
+      <g stroke="#c8a8e8" stroke-width="2.5" fill="none" filter="url(#i8p12p2bloom)" opacity="0.7">
+        <path d="M-22,44 L0,-44 L22,44"/>
+        <path d="M-14,18 L14,18"/>
+      </g>
+    </g>
+
+    <!-- Letter 4: Y — angular fairy form -->
+    <g transform="translate(85 0)">
+      <g stroke="#040408" stroke-width="6" fill="none">
+        <path d="M-22,-44 L0,0"/>
+        <path d="M22,-44 L0,0"/>
+        <path d="M0,0 L0,44"/>
+      </g>
+      <g fill="#040408" opacity="0.85">
+        <ellipse cx="-22" cy="-44" rx="3" ry="2"/>
+        <ellipse cx="22" cy="-44" rx="3" ry="2"/>
+        <ellipse cx="0" cy="44" rx="3" ry="2"/>
+      </g>
+      <g stroke="#fff" stroke-width="1.4" fill="none" filter="url(#i8p12p2bloom)" opacity="0.95">
+        <path d="M-22,-44 L0,0"/>
+        <path d="M22,-44 L0,0"/>
+        <path d="M0,0 L0,44"/>
+      </g>
+      <g stroke="#c8a8e8" stroke-width="2.5" fill="none" filter="url(#i8p12p2bloom)" opacity="0.7">
+        <path d="M-22,-44 L0,0"/>
+        <path d="M22,-44 L0,0"/>
+        <path d="M0,0 L0,44"/>
+      </g>
+    </g>
+
+    <!-- Tool marks at letter edges (the desperation) -->
+    <g stroke="#040408" stroke-width="0.4" opacity="0.85">
+      <line x1="-130" y1="-50" x2="-128" y2="-46"/>
+      <line x1="-90" y1="-50" x2="-88" y2="-46"/>
+      <line x1="-30" y1="-50" x2="-28" y2="-46"/>
+      <line x1="30" y1="-50" x2="32" y2="-46"/>
+      <line x1="100" y1="-50" x2="102" y2="-46"/>
+      <line x1="-130" y1="50" x2="-128" y2="46"/>
+      <line x1="100" y1="50" x2="102" y2="46"/>
+    </g>
+
+    <!-- Bright bloom directly emanating from letter cores -->
+    <g filter="url(#i8p12p2strongglow)" opacity="0.95">
+      <ellipse cx="-110" cy="0" rx="22" ry="40" fill="#fff" opacity="0.4"/>
+      <ellipse cx="-50" cy="0" rx="18" ry="40" fill="#fff" opacity="0.4"/>
+      <ellipse cx="15" cy="0" rx="22" ry="40" fill="#fff" opacity="0.4"/>
+      <ellipse cx="85" cy="0" rx="22" ry="40" fill="#fff" opacity="0.4"/>
+    </g>
+  </g>
+
+  <!-- Faint dust motes around the bloom -->
+  <g fill="#fff8d8" opacity="0.55" filter="url(#i8p12p2bloom)">
+    <circle cx="60" cy="80" r="0.55"/>
+    <circle cx="100" cy="60" r="0.4"/>
+    <circle cx="280" cy="80" r="0.55"/>
+    <circle cx="320" cy="60" r="0.4"/>
+    <circle cx="80" cy="220" r="0.55"/>
+    <circle cx="290" cy="220" r="0.4"/>
+  </g>
+
+  <!-- (No dialogue — the word IS the dialogue) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+  </g>
+</svg>

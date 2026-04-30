@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 12 — Panel 3: DEFINING IMAGE — Luma's reaction to STAY — devastation, hand to mouth, scientist breaking — dual illumination warm above cold below</title>
+  <desc>85mm close-up. Defining image. Hand over mouth, eyes wide behind holographic lenses, scanner trembling. Phosphorescent glow of word STAY illuminates her face from above. She understands what this means. Someone from their civilization was sent here, found same convergence point, same evidence, same impossible situation. And they chose to stay. Not because stranded — because decided. Word is not lament. Instruction. Devastation — not fear, not shock, but shattering weight of understanding. Eyes glistening behind holographic lenses frozen on translation. Scanner trembling visibly. Luminous filament in braid pulses erratically — biometrics disrupted by emotional response. Warm phosphorescent from above + cold blue-violet scanner from below = dual illumination.</desc>
+
+  <defs>
+    <linearGradient id="i8p12p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i8p12p3warmAbove" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#c8a8e8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p12p3coolBelow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p12p3lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p12p3skinDual" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="50%" stop-color="#a87878"/>
+      <stop offset="100%" stop-color="#5a4878"/>
+    </linearGradient>
+    <filter id="i8p12p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p12p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p12p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p12p3megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="i8p12p3dataPulse"><feGaussianBlur stdDeviation="0.55"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i8p12p3bg)"/>
+
+  <!-- ===== WARM PHOSPHORESCENT GLOW from ABOVE (the word STAY) ===== -->
+  <ellipse cx="183" cy="0" rx="280" ry="200" fill="url(#i8p12p3warmAbove)" filter="url(#i8p12p3megaglow)"/>
+
+  <!-- ===== COLD BLUE-VIOLET from BELOW (scanner) ===== -->
+  <ellipse cx="183" cy="300" rx="220" ry="160" fill="url(#i8p12p3coolBelow)" filter="url(#i8p12p3megaglow)"/>
+
+  <!-- ===== LUMA — close-up, large in frame ===== -->
+  <g transform="translate(183 180)">
+    <!-- Suit collar at bottom of frame -->
+    <path d="M-66,140 L-44,80 L-30,60 L30,60 L44,80 L66,140 Z" fill="url(#i8p12p3lumaSuit)"/>
+    <!-- Soot/wear -->
+    <ellipse cx="-22" cy="100" rx="11" ry="6" fill="#1a0810" opacity="0.7"/>
+    <ellipse cx="22" cy="100" rx="9" ry="4" fill="#1a0810" opacity="0.55"/>
+    <!-- Suit accent (pulsing erratically — biometrics disrupted) -->
+    <line x1="0" y1="80" x2="0" y2="140" stroke="#fff" stroke-width="0.85" opacity="0.95" filter="url(#i8p12p3bloom)"/>
+    <circle cx="-22" cy="80" r="2" fill="#fff" filter="url(#i8p12p3strongglow)" opacity="0.95"/>
+    <circle cx="22" cy="80" r="2" fill="#c8a8e8" filter="url(#i8p12p3strongglow)" opacity="0.85"/>
+    <circle cx="0" cy="100" r="2.5" fill="#fff" filter="url(#i8p12p3strongglow)" opacity="0.95"/>
+
+    <!-- Neck (uplit cool, downlit warm) -->
+    <path d="M-9,60 L9,60 L9,40 L-9,40 Z" fill="url(#i8p12p3skinDual)"/>
+
+    <!-- Jaw — split lit (warm above, cool below) -->
+    <path d="M-30,18 L-36,30 L-22,52 L0,60 L22,52 L36,30 L30,18 L18,0 L-18,0 Z" fill="url(#i8p12p3skinDual)"/>
+
+    <!-- Head proper -->
+    <ellipse cx="0" cy="-30" rx="32" ry="32" fill="url(#i8p12p3skinDual)"/>
+
+    <!-- Hair pulled back (top catches warm, sides cool) -->
+    <path d="M-30,-58 Q0,-66 30,-58 L30,-30 Q15,-44 0,-44 Q-15,-44 -30,-30 Z" fill="#1a0808"/>
+    <!-- Warm catch on top of hair (from STAY above) -->
+    <ellipse cx="0" cy="-58" rx="22" ry="3" fill="#ffd898" opacity="0.85" filter="url(#i8p12p3bloom)"/>
+
+    <!-- Long thick BRAID — luminous filament PULSING ERRATICALLY -->
+    <path d="M22,-22 Q36,-9 44,30" stroke="#1a0808" stroke-width="4" fill="none"/>
+    <!-- Erratic pulsing filament (uneven) -->
+    <g stroke="#fff" stroke-width="0.7" fill="none" filter="url(#i8p12p3bloom)" opacity="0.95">
+      <path d="M22,-22 Q36,-9 44,30"/>
+    </g>
+    <ellipse cx="30" cy="-15" rx="3" ry="1" fill="#fff" filter="url(#i8p12p3strongglow)" opacity="0.95"/>
+    <ellipse cx="40" cy="9" rx="2" ry="0.85" fill="#fff" filter="url(#i8p12p3strongglow)" opacity="0.7"/>
+    <ellipse cx="44" cy="22" rx="3" ry="1" fill="#fff" filter="url(#i8p12p3strongglow)" opacity="0.85"/>
+
+    <!-- Brow shadow — split warm/cool -->
+    <ellipse cx="0" cy="-30" rx="32" ry="6" fill="#5a3018" opacity="0.4"/>
+    <ellipse cx="0" cy="-30" rx="32" ry="6" fill="#7848b8" opacity="0.18"/>
+
+    <!-- Brows — slightly drawn (devastation, not anger) -->
+    <line x1="-22" y1="-26" x2="-7" y2="-28" stroke="#3a1808" stroke-width="2"/>
+    <line x1="7" y1="-28" x2="22" y2="-26" stroke="#3a1808" stroke-width="2"/>
+
+    <!-- ===== HOLOGRAPHIC LENSES — FROZEN on translation display ===== -->
+    <ellipse cx="0" cy="-22" rx="36" ry="11" fill="#7848b8" filter="url(#i8p12p3strongglow)" opacity="0.55"/>
+    <ellipse cx="-11" cy="-22" rx="9" ry="6" fill="none" stroke="#c8a8e8" stroke-width="1.4" filter="url(#i8p12p3bloom)" opacity="0.95"/>
+    <ellipse cx="-11" cy="-22" rx="6" ry="4" fill="#3a1858" opacity="0.7"/>
+    <ellipse cx="11" cy="-22" rx="9" ry="6" fill="none" stroke="#c8a8e8" stroke-width="1.4" filter="url(#i8p12p3bloom)" opacity="0.95"/>
+    <ellipse cx="11" cy="-22" rx="6" ry="4" fill="#3a1858" opacity="0.7"/>
+    <line x1="-3" y1="-22" x2="3" y2="-22" stroke="#c8a8e8" stroke-width="0.7" filter="url(#i8p12p3bloom)" opacity="0.95"/>
+
+    <!-- Frozen translation displaying inside lenses -->
+    <g fill="#fff" filter="url(#i8p12p3dataPulse)" opacity="0.95">
+      <text x="-15" y="-19" font-family="monospace" font-size="3" font-weight="700">STAY</text>
+      <text x="3" y="-19" font-family="monospace" font-size="3" font-weight="700">STAY</text>
+    </g>
+
+    <!-- ===== EYES WIDE — GLISTENING (devastation) ===== -->
+    <ellipse cx="-11" cy="-22" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-11" cy="-22" r="0.85" fill="#3a1808"/>
+    <ellipse cx="11" cy="-22" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="11" cy="-22" r="0.85" fill="#3a1808"/>
+    <!-- Catchlights (dual lit) -->
+    <circle cx="-9" cy="-23" r="0.7" fill="#ffd898" filter="url(#i8p12p3bloom)" opacity="0.95"/>
+    <circle cx="13" cy="-23" r="0.7" fill="#ffd898" filter="url(#i8p12p3bloom)" opacity="0.95"/>
+    <!-- Tear glisten (subtle moisture) -->
+    <path d="M-14,-18 L-11,-15" stroke="#fff" stroke-width="0.4" filter="url(#i8p12p3bloom)" opacity="0.7"/>
+
+    <!-- Nose (split lit) -->
+    <path d="M-3,-15 L0,3 L4,3 L4,-15 Z" fill="#7a4818" opacity="0.55"/>
+
+    <!-- ===== HAND OVER MOUTH ===== -->
+    <g transform="translate(0 22)">
+      <!-- Forearm coming up to face -->
+      <path d="M-50,30 L-22,-30 L-3,-30 L-30,30 Z" fill="url(#i8p12p3lumaSuit)"/>
+      <!-- Hand against mouth -->
+      <ellipse cx="-15" cy="-15" rx="22" ry="14" fill="url(#i8p12p3skinDual)"/>
+      <!-- Knuckles -->
+      <path d="M-30,-22 Q-22,-15 -7,-22" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.7"/>
+      <!-- Fingers spread over mouth -->
+      <ellipse cx="-30" cy="-15" rx="4" ry="3" fill="url(#i8p12p3skinDual)"/>
+      <ellipse cx="-22" cy="-22" rx="4" ry="3" fill="url(#i8p12p3skinDual)"/>
+      <ellipse cx="-11" cy="-22" rx="4" ry="3" fill="url(#i8p12p3skinDual)"/>
+      <ellipse cx="0" cy="-18" rx="4" ry="3" fill="url(#i8p12p3skinDual)"/>
+      <!-- Thumb -->
+      <ellipse cx="11" cy="-7" rx="4" ry="3" fill="url(#i8p12p3skinDual)"/>
+      <!-- Heavy ink stains on fingers -->
+      <ellipse cx="-22" cy="-22" rx="2" ry="1.4" fill="#1a0810" opacity="0.7"/>
+      <ellipse cx="0" cy="-18" rx="2" ry="1.4" fill="#1a0810" opacity="0.7"/>
+      <!-- Tendons taut -->
+      <line x1="-30" y1="-9" x2="-22" y2="-22" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+      <line x1="-22" y1="-9" x2="-15" y2="-22" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+    </g>
+
+    <!-- Right side: SCANNER hand visible at edge, TREMBLING -->
+    <g transform="translate(40 30)">
+      <!-- Forearm -->
+      <path d="M0,30 L22,-22 L36,-22 L11,30 Z" fill="url(#i8p12p3lumaSuit)"/>
+      <!-- Hand holding scanner -->
+      <ellipse cx="22" cy="-22" rx="6" ry="4" fill="url(#i8p12p3skinDual)"/>
+      <!-- Scanner -->
+      <rect x="22" y="-30" width="14" height="11" fill="#3a1858" stroke="#1a0810" stroke-width="0.55"/>
+      <ellipse cx="29" cy="-25" rx="5" ry="0.85" fill="#a878e8" filter="url(#i8p12p3bloom)" opacity="0.95"/>
+      <!-- Tremble lines -->
+      <path d="M14,-15 L18,-9" stroke="#fff" stroke-width="0.55" opacity="0.55"/>
+      <path d="M22,-22 L26,-15" stroke="#fff" stroke-width="0.55" opacity="0.55"/>
+      <path d="M30,-25 L34,-19" stroke="#fff" stroke-width="0.4" opacity="0.4"/>
+    </g>
+
+    <!-- Cheekbone shadow -->
+    <ellipse cx="-22" cy="-3" rx="6" ry="9" fill="#5a3018" opacity="0.4"/>
+    <ellipse cx="22" cy="-3" rx="6" ry="9" fill="#3a2858" opacity="0.4"/>
+  </g>
+
+  <!-- ===== DIALOGUE — LUMA (muffled behind hand) ===== -->
+  <g>
+    <rect x="14" y="14" width="220" height="36" rx="2" fill="white" stroke="#7848b8" stroke-width="1.4" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA  <tspan font-style="italic" font-size="8" font-weight="500">(muffled)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1410" font-style="italic" font-weight="700">Stay.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>
