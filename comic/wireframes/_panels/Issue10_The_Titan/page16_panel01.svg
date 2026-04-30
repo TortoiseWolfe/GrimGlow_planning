@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
+  <title>Issue 10 Page 16 Panel 1 — Pulse seen from outside, Titan silhouetted in blazing windows</title>
+  <desc>Wide widescreen exterior Victorian telegraph office viewed through windows. Every window blazes copper-gold light — feedback pulse illuminating interior. Through glass vast dark angular silhouette visible — Titan fully exposed turning toward windows. Victorian street outside quiet — cobblestones cool moonlight, distant gas lamps, no figures. Telegraph wires from roofline crackle with visible energy. Nightmare in the building.</desc>
+  <defs>
+    <linearGradient id="bgX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1828"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <radialGradient id="moonGlowX1" cx="0.05" cy="0.1" r="0.35">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#3a4868" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="copperBlazeX1" cx="0.5" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.5"/>
+      <stop offset="0.4" stop-color="#f4b860" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gaslampDistX1" cx="0.92" cy="0.7" r="0.18">
+      <stop offset="0" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="0.6" stop-color="#5a3018" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cobbleX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1828"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <linearGradient id="brickFacadeX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1a14"/>
+      <stop offset="0.5" stop-color="#1a0a08"/>
+      <stop offset="1" stop-color="#0a0404"/>
+    </linearGradient>
+    <linearGradient id="windowBlazeX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#f4b860"/>
+      <stop offset="1" stop-color="#a85820"/>
+    </linearGradient>
+    <linearGradient id="titanSilX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080608"/>
+      <stop offset="0.7" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <linearGradient id="copperWireX1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.5" stop-color="#f4b860"/>
+      <stop offset="1" stop-color="#a85820"/>
+    </linearGradient>
+    <filter id="bloomX1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowX1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowX1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="ultraGlowX1" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="240" fill="url(#bgX1)"/>
+  <rect width="742" height="240" fill="url(#moonGlowX1)"/>
+  <rect width="742" height="240" fill="url(#copperBlazeX1)"/>
+  <rect width="742" height="240" fill="url(#gaslampDistX1)"/>
+
+  <g>
+    <rect x="0" y="200" width="742" height="40" fill="url(#cobbleX1)"/>
+    <g opacity="0.55">
+      <ellipse cx="40" cy="212" rx="14" ry="3" fill="#1a1828" stroke="#0a0a14" stroke-width="0.4"/>
+      <ellipse cx="80" cy="216" rx="13" ry="3" fill="#0a0a14" stroke="#040206" stroke-width="0.4"/>
+      <ellipse cx="124" cy="212" rx="14" ry="3" fill="#1a1828" stroke="#0a0a14" stroke-width="0.4"/>
+      <ellipse cx="170" cy="218" rx="14" ry="3" fill="#0a0a14" stroke="#040206" stroke-width="0.4"/>
+      <ellipse cx="220" cy="214" rx="14" ry="3" fill="#1a1828" stroke="#0a0a14" stroke-width="0.4"/>
+      <ellipse cx="270" cy="218" rx="14" ry="3" fill="#0a0a14" stroke="#040206" stroke-width="0.4"/>
+      <ellipse cx="320" cy="216" rx="14" ry="3" fill="#1a1828" stroke="#0a0a14" stroke-width="0.4"/>
+      <ellipse cx="380" cy="220" rx="14" ry="3" fill="#0a0a14" stroke="#040206" stroke-width="0.4"/>
+      <ellipse cx="440" cy="216" rx="14" ry="3" fill="#1a1828" stroke="#0a0a14" stroke-width="0.4"/>
+      <ellipse cx="500" cy="220" rx="14" ry="3" fill="#0a0a14" stroke="#040206" stroke-width="0.4"/>
+      <ellipse cx="560" cy="216" rx="14" ry="3" fill="#1a1828" stroke="#0a0a14" stroke-width="0.4"/>
+      <ellipse cx="620" cy="220" rx="14" ry="3" fill="#0a0a14" stroke="#040206" stroke-width="0.4"/>
+      <ellipse cx="680" cy="216" rx="14" ry="3" fill="#1a1828" stroke="#0a0a14" stroke-width="0.4"/>
+    </g>
+    <g opacity="0.45">
+      <ellipse cx="60" cy="226" rx="13" ry="3" fill="#0a0a14"/>
+      <ellipse cx="140" cy="228" rx="13" ry="3" fill="#1a1828"/>
+      <ellipse cx="220" cy="230" rx="13" ry="3" fill="#0a0a14"/>
+      <ellipse cx="300" cy="226" rx="13" ry="3" fill="#1a1828"/>
+      <ellipse cx="380" cy="230" rx="13" ry="3" fill="#0a0a14"/>
+      <ellipse cx="460" cy="226" rx="13" ry="3" fill="#1a1828"/>
+      <ellipse cx="540" cy="230" rx="13" ry="3" fill="#0a0a14"/>
+      <ellipse cx="620" cy="226" rx="13" ry="3" fill="#1a1828"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="80" y="40" width="582" height="160" fill="url(#brickFacadeX1)"/>
+    <g opacity="0.55" stroke="#1a0a08" stroke-width="0.5" fill="none">
+      <line x1="80" y1="60" x2="662" y2="60"/>
+      <line x1="80" y1="76" x2="662" y2="76"/>
+      <line x1="80" y1="92" x2="662" y2="92"/>
+      <line x1="80" y1="108" x2="662" y2="108"/>
+      <line x1="80" y1="124" x2="662" y2="124"/>
+      <line x1="80" y1="140" x2="662" y2="140"/>
+      <line x1="80" y1="156" x2="662" y2="156"/>
+      <line x1="80" y1="172" x2="662" y2="172"/>
+      <line x1="80" y1="188" x2="662" y2="188"/>
+    </g>
+    <g opacity="0.5" stroke="#1a0a08" stroke-width="0.4">
+      <line x1="120" y1="40" x2="120" y2="200"/>
+      <line x1="180" y1="40" x2="180" y2="200"/>
+      <line x1="240" y1="40" x2="240" y2="200"/>
+      <line x1="300" y1="40" x2="300" y2="200"/>
+      <line x1="360" y1="40" x2="360" y2="200"/>
+      <line x1="420" y1="40" x2="420" y2="200"/>
+      <line x1="480" y1="40" x2="480" y2="200"/>
+      <line x1="540" y1="40" x2="540" y2="200"/>
+      <line x1="600" y1="40" x2="600" y2="200"/>
+    </g>
+  </g>
+
+  <g opacity="0.95" filter="url(#ultraGlowX1)">
+    <rect x="100" y="60" width="540" height="120" fill="#fff8d8" opacity="0.5"/>
+  </g>
+
+  <g>
+    <rect x="110" y="80" width="120" height="100" fill="url(#windowBlazeX1)"/>
+    <rect x="240" y="80" width="120" height="100" fill="url(#windowBlazeX1)"/>
+    <rect x="370" y="80" width="120" height="100" fill="url(#windowBlazeX1)"/>
+    <rect x="500" y="80" width="120" height="100" fill="url(#windowBlazeX1)"/>
+
+    <rect x="110" y="80" width="120" height="100" fill="none" stroke="#1a0a08" stroke-width="2.4"/>
+    <rect x="240" y="80" width="120" height="100" fill="none" stroke="#1a0a08" stroke-width="2.4"/>
+    <rect x="370" y="80" width="120" height="100" fill="none" stroke="#1a0a08" stroke-width="2.4"/>
+    <rect x="500" y="80" width="120" height="100" fill="none" stroke="#1a0a08" stroke-width="2.4"/>
+
+    <line x1="170" y1="80" x2="170" y2="180" stroke="#1a0a08" stroke-width="1.4"/>
+    <line x1="110" y1="130" x2="230" y2="130" stroke="#1a0a08" stroke-width="1.4"/>
+    <line x1="300" y1="80" x2="300" y2="180" stroke="#1a0a08" stroke-width="1.4"/>
+    <line x1="240" y1="130" x2="360" y2="130" stroke="#1a0a08" stroke-width="1.4"/>
+    <line x1="430" y1="80" x2="430" y2="180" stroke="#1a0a08" stroke-width="1.4"/>
+    <line x1="370" y1="130" x2="490" y2="130" stroke="#1a0a08" stroke-width="1.4"/>
+    <line x1="560" y1="80" x2="560" y2="180" stroke="#1a0a08" stroke-width="1.4"/>
+    <line x1="500" y1="130" x2="620" y2="130" stroke="#1a0a08" stroke-width="1.4"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlowX1)">
+    <rect x="110" y="80" width="120" height="100" fill="#fff8d8" opacity="0.45"/>
+    <rect x="240" y="80" width="120" height="100" fill="#fff8d8" opacity="0.45"/>
+    <rect x="370" y="80" width="120" height="100" fill="#fff8d8" opacity="0.45"/>
+    <rect x="500" y="80" width="120" height="100" fill="#fff8d8" opacity="0.45"/>
+  </g>
+
+  <g>
+    <path d="M 280 88 L 290 100 L 308 124 L 322 152 L 332 176 L 332 180 L 444 180 L 446 168 L 442 144 L 446 116 L 456 90 L 460 80 L 458 88 L 442 100 L 412 96 L 380 92 L 348 88 L 320 86 L 304 88 Z" fill="url(#titanSilX1)"/>
+    <path d="M 308 124 L 282 132 L 268 142 L 268 152" stroke="url(#titanSilX1)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M 442 144 L 470 138 L 490 144 L 502 156" stroke="url(#titanSilX1)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M 502 156 L 514 168" stroke="url(#titanSilX1)" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#bloomX1)">
+    <path d="M 280 88 L 290 100 L 308 124 L 322 152 L 332 176" stroke="#7848b8" stroke-width="1.8" fill="none" opacity="0.55"/>
+    <path d="M 460 80 L 456 90 L 446 116 L 442 144 L 444 168" stroke="#7848b8" stroke-width="1.8" fill="none" opacity="0.55"/>
+  </g>
+
+  <g>
+    <rect x="60" y="40" width="622" height="14" fill="url(#brickFacadeX1)" opacity="0.95"/>
+    <rect x="60" y="40" width="622" height="3" fill="#5a2818" opacity="0.55"/>
+    <rect x="50" y="50" width="642" height="6" fill="#3a1a14"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlowX1)">
+    <path d="M 60 40 Q 200 28 380 22 Q 560 28 700 40" stroke="url(#copperWireX1)" stroke-width="2.4" fill="none"/>
+    <path d="M 60 40 Q 200 28 380 22 Q 560 28 700 40" stroke="#fff8d8" stroke-width="0.9" fill="none"/>
+  </g>
+  <g opacity="0.92" filter="url(#bloomX1)">
+    <circle cx="160" cy="28" r="0.9" fill="#fff8d8"/>
+    <circle cx="240" cy="24" r="0.7" fill="#f4b860"/>
+    <circle cx="380" cy="22" r="1" fill="#fff8d8"/>
+    <circle cx="500" cy="24" r="0.7" fill="#f4b860"/>
+    <circle cx="600" cy="28" r="0.9" fill="#fff8d8"/>
+  </g>
+  <g opacity="0.85">
+    <path d="M 130 22 L 130 40" stroke="url(#copperWireX1)" stroke-width="1.6" filter="url(#bloomX1)"/>
+    <path d="M 320 18 L 320 40" stroke="url(#copperWireX1)" stroke-width="1.6" filter="url(#bloomX1)"/>
+    <path d="M 500 20 L 500 40" stroke="url(#copperWireX1)" stroke-width="1.6" filter="url(#bloomX1)"/>
+    <path d="M 0 60 L 60 40" stroke="url(#copperWireX1)" stroke-width="1.6" filter="url(#bloomX1)"/>
+    <path d="M 742 60 L 682 40" stroke="url(#copperWireX1)" stroke-width="1.6" filter="url(#bloomX1)"/>
+  </g>
+
+  <g>
+    <rect x="676" y="160" width="2" height="50" fill="#1a0a08"/>
+    <ellipse cx="677" cy="160" rx="6" ry="4" fill="#5a3018"/>
+    <rect x="672" y="156" width="10" height="8" fill="#5a3018" stroke="#1a0a08" stroke-width="0.4"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomX1)">
+    <ellipse cx="677" cy="160" rx="9" ry="6" fill="#f4b860" opacity="0.65"/>
+  </g>
+
+  <g opacity="0.45">
+    <rect x="0" y="40" width="80" height="160" fill="#0a0a14"/>
+    <rect x="0" y="40" width="80" height="3" fill="#1a0a08"/>
+  </g>
+
+  <g opacity="0.55">
+    <ellipse cx="40" cy="180" rx="2" ry="1" fill="#a8c0e0"/>
+    <ellipse cx="60" cy="186" rx="1.6" ry="0.8" fill="#3a4868"/>
+    <ellipse cx="700" cy="186" rx="2.6" ry="1.2" fill="#5a3018"/>
+  </g>
+
+  <g opacity="0.5">
+    <line x1="0" y1="200" x2="742" y2="200" stroke="#1a0a08" stroke-width="0.6"/>
+  </g>
+
+  <g opacity="0.65">
+    <text x="370" y="232" text-anchor="middle" font-family="Times New Roman, serif" font-size="6" fill="#3a4868" opacity="0.65" font-style="italic">— GENERAL POST OFFICE TELEGRAPH BUREAU —</text>
+  </g>
+</svg>
