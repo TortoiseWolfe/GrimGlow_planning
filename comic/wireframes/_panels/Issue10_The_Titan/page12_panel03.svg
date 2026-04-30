@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 10 Page 12 Panel 3 — The Titan's face glimpsed, alien purposeful</title>
+  <desc>Close-up slight low angle Titan returning to junction. Cloaking partially re-engaged form flickers. Damaged something. Clearest view yet of face — or where face should be. No eyes no mouth, smooth dark surface with geometric indentations almost-but-not-quite symmetrical. Not monster, designed purposeful alien. Cloaking stabilizes detail lost.</desc>
+  <defs>
+    <linearGradient id="bgX3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040206"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="amberDeviceX3" cx="0.5" cy="0.85" r="0.4">
+      <stop offset="0" stop-color="#a87838" stop-opacity="0.65"/>
+      <stop offset="0.5" stop-color="#5a2818" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="iridFaceX3" cx="0.5" cy="0.4" r="0.55">
+      <stop offset="0" stop-color="#3a1a5a" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#1a0e2e" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titanHeadX3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080608"/>
+      <stop offset="0.4" stop-color="#040206"/>
+      <stop offset="0.7" stop-color="#0a0608"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <linearGradient id="titanShoulderX3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040408"/>
+      <stop offset="0.5" stop-color="#020306"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="indentationX3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1a0e2e" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#080404" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomX3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowX3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="iridShimX3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <filter id="cloakRippleX3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="softX3" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgX3)"/>
+  <rect width="366" height="240" fill="url(#amberDeviceX3)"/>
+  <rect width="366" height="240" fill="url(#iridFaceX3)"/>
+
+  <g>
+    <path d="M 0 200 L 80 196 L 100 220 L 0 240 Z" fill="url(#titanShoulderX3)"/>
+    <path d="M 286 196 L 366 200 L 366 240 L 266 220 Z" fill="url(#titanShoulderX3)"/>
+  </g>
+  <g opacity="0.55" filter="url(#iridShimX3)">
+    <path d="M 0 200 L 100 220" stroke="#7848b8" stroke-width="2.5" fill="none"/>
+    <path d="M 266 220 L 366 200" stroke="#7848b8" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="120" rx="120" ry="100" fill="url(#titanHeadX3)"/>
+  </g>
+
+  <g opacity="0.65" filter="url(#cloakRippleX3)">
+    <ellipse cx="183" cy="120" rx="110" ry="92" fill="#080608" opacity="0.55"/>
+    <path d="M 80 120 Q 100 60 183 60 Q 266 60 286 120" stroke="#7848b8" stroke-width="3" fill="none" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#iridShimX3)">
+    <ellipse cx="183" cy="120" rx="120" ry="100" fill="none" stroke="#7848b8" stroke-width="3"/>
+  </g>
+  <g opacity="0.85">
+    <path d="M 80 110 Q 100 60 183 56 Q 266 60 286 110" stroke="#3a1a5a" stroke-width="0.7" fill="none"/>
+    <path d="M 286 130 Q 266 180 183 184 Q 100 180 80 130" stroke="#3a1a5a" stroke-width="0.7" fill="none"/>
+  </g>
+
+  <g>
+    <ellipse cx="148" cy="100" rx="14" ry="10" fill="url(#indentationX3)"/>
+    <ellipse cx="148" cy="100" rx="9" ry="6" fill="#020100" opacity="0.85"/>
+    <ellipse cx="148" cy="100" rx="4" ry="3" fill="#1a0e2e"/>
+
+    <ellipse cx="218" cy="98" rx="16" ry="11" fill="url(#indentationX3)"/>
+    <ellipse cx="218" cy="98" rx="10" ry="7" fill="#020100" opacity="0.85"/>
+    <ellipse cx="218" cy="98" rx="4" ry="3" fill="#1a0e2e"/>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="130" rx="22" ry="14" fill="url(#indentationX3)" opacity="0.85"/>
+    <ellipse cx="183" cy="130" rx="14" ry="9" fill="#020100" opacity="0.85"/>
+    <ellipse cx="183" cy="130" rx="6" ry="4" fill="#1a0e2e"/>
+    <line x1="170" y1="130" x2="196" y2="130" stroke="#080404" stroke-width="0.5"/>
+  </g>
+
+  <g>
+    <ellipse cx="120" cy="146" rx="8" ry="5" fill="url(#indentationX3)"/>
+    <ellipse cx="120" cy="146" rx="4" ry="2.5" fill="#080404"/>
+
+    <ellipse cx="240" cy="148" rx="10" ry="6" fill="url(#indentationX3)"/>
+    <ellipse cx="240" cy="148" rx="5" ry="3" fill="#080404"/>
+
+    <ellipse cx="183" cy="158" rx="6" ry="4" fill="url(#indentationX3)"/>
+    <ellipse cx="183" cy="158" rx="3" ry="2" fill="#080404"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#iridShimX3)">
+    <ellipse cx="148" cy="100" rx="22" ry="16" fill="#7848b8" opacity="0.45"/>
+    <ellipse cx="218" cy="98" rx="24" ry="17" fill="#7848b8" opacity="0.45"/>
+    <ellipse cx="183" cy="130" rx="32" ry="20" fill="#7848b8" opacity="0.32"/>
+    <ellipse cx="120" cy="146" rx="14" ry="9" fill="#7848b8" opacity="0.4"/>
+    <ellipse cx="240" cy="148" rx="14" ry="9" fill="#7848b8" opacity="0.4"/>
+    <ellipse cx="183" cy="158" rx="11" ry="7" fill="#7848b8" opacity="0.35"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="148" y1="84" x2="148" y2="92" stroke="#3a1a5a" stroke-width="0.5"/>
+    <line x1="218" y1="82" x2="218" y2="90" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 148 100 Q 168 110 183 110" stroke="#3a1a5a" stroke-width="0.4" fill="none" opacity="0.6"/>
+    <path d="M 218 98 Q 200 108 183 110" stroke="#3a1a5a" stroke-width="0.4" fill="none" opacity="0.6"/>
+    <path d="M 120 146 Q 152 152 183 158" stroke="#3a1a5a" stroke-width="0.4" fill="none" opacity="0.55"/>
+    <path d="M 240 148 Q 214 154 183 158" stroke="#3a1a5a" stroke-width="0.4" fill="none" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.45">
+    <text x="183" y="216" text-anchor="middle" font-family="Courier New, monospace" font-size="3.6" fill="#3a1a5a" opacity="0.7">▓░ NOT FACE ░▓</text>
+    <text x="183" y="226" text-anchor="middle" font-family="Courier New, monospace" font-size="3" fill="#3a1a5a" opacity="0.55">[ designed ]</text>
+  </g>
+
+  <g opacity="0.6" filter="url(#bloomX3)">
+    <ellipse cx="183" cy="232" rx="80" ry="6" fill="#a87838" opacity="0.4"/>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="100" height="20" rx="3" fill="#f5ecd8" opacity="0.92" stroke="#c8b898" stroke-width="0.5" stroke-dasharray="2 1"/>
+    <text x="42" y="14" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#5a4a30" font-style="italic">[silence]</text>
+  </g>
+</svg>
