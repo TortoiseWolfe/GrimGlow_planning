@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 280" width="246" height="280">
+  <title>Issue 11 Page 22 Panel 4 — Final image — spectacle reflection of the emerald trail</title>
+  <desc>Close-up detail. Ink-stained scholar's hand rests on pamphlet's title page — THE STORIES THEY TELL visible beneath fingers. Beside hand, wire-rimmed spectacles lie on desk, and in one lens, faint reflection: dark London night beyond window, and in sky — barely visible — faint streak of emerald-green light moving between chimneys. The fairy tale, still happening, outside the window of the man who has just made it permanent. Scholar does not see it. Reader does. Warm amber lamplight on pamphlet, hand, desk. In spectacle lens: cold blue of night and faintest emerald trail.</desc>
+  <defs>
+    <linearGradient id="bgG4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4818"/>
+      <stop offset="0.5" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="lampGlowG4" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
+      <stop offset="0.4" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#3a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paperG4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.5" stop-color="#f4e8c8"/>
+      <stop offset="1" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="handG4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d8b8"/>
+      <stop offset="0.5" stop-color="#d8a878"/>
+      <stop offset="1" stop-color="#7a4830"/>
+    </linearGradient>
+    <linearGradient id="cuffG4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.5" stop-color="#e8d8b8"/>
+      <stop offset="1" stop-color="#a87858"/>
+    </linearGradient>
+    <radialGradient id="lensReflectG4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1a2030" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#0a0a14" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0.85"/>
+    </radialGradient>
+    <linearGradient id="frameG4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87838"/>
+      <stop offset="0.5" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#3a1810"/>
+    </linearGradient>
+    <filter id="bloomG4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowG4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <filter id="megaGlowG4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5.4"/>
+    </filter>
+    <filter id="ultraGlowG4" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <rect width="246" height="280" fill="url(#bgG4)"/>
+  <rect width="246" height="280" fill="url(#lampGlowG4)"/>
+
+  <g>
+    <rect x="0" y="20" width="246" height="240" fill="url(#paperG4)"/>
+    <line x1="14" y1="22" x2="230" y2="22" stroke="#5a3018" stroke-width="0.4" opacity="0.62"/>
+    <line x1="14" y1="258" x2="230" y2="258" stroke="#5a3018" stroke-width="0.4" opacity="0.62"/>
+
+    <text x="123" y="80" text-anchor="middle" font-family="Times New Roman, Georgia, serif" font-size="14" fill="#1a0a04" font-weight="700" letter-spacing="1">THE STORIES</text>
+    <text x="123" y="100" text-anchor="middle" font-family="Times New Roman, Georgia, serif" font-size="14" fill="#1a0a04" font-weight="700" letter-spacing="1">THEY TELL</text>
+    <line x1="60" y1="110" x2="186" y2="110" stroke="#3a2010" stroke-width="0.55"/>
+  </g>
+
+  <g>
+    <path d="M 60 140 Q 80 130 110 130 L 140 134 Q 156 138 168 150 L 168 200 Q 156 220 130 222 L 90 222 Q 70 218 56 200 L 56 158 Q 56 144 60 140 Z" fill="url(#handG4)"/>
+
+    <ellipse cx="80" cy="150" rx="14" ry="6" fill="#a87858" opacity="0.85"/>
+    <path d="M 100 160 L 120 162 L 140 160 L 156 158" stroke="#7a4830" stroke-width="0.55" fill="none" opacity="0.55"/>
+
+    <ellipse cx="76" cy="148" rx="3" ry="2" fill="#5a3018" opacity="0.62"/>
+    <ellipse cx="92" cy="170" rx="3" ry="2" fill="#5a3018" opacity="0.62"/>
+    <ellipse cx="120" cy="155" rx="3" ry="2" fill="#5a3018" opacity="0.62"/>
+
+    <path d="M 0 200 L 50 196 Q 60 196 60 200 L 60 280 L 0 280 Z" fill="url(#cuffG4)" opacity="0.85"/>
+    <line x1="6" y1="216" x2="56" y2="216" stroke="#a87858" stroke-width="0.4"/>
+    <line x1="6" y1="226" x2="56" y2="226" stroke="#a87858" stroke-width="0.4"/>
+    <line x1="6" y1="236" x2="56" y2="236" stroke="#a87858" stroke-width="0.4"/>
+  </g>
+
+  <g>
+    <ellipse cx="160" cy="80" rx="22" ry="14" fill="none" stroke="url(#frameG4)" stroke-width="2"/>
+    <ellipse cx="200" cy="80" rx="22" ry="14" fill="none" stroke="url(#frameG4)" stroke-width="2"/>
+    <line x1="180" y1="80" x2="182" y2="80" stroke="url(#frameG4)" stroke-width="1.4"/>
+    <line x1="138" y1="80" x2="124" y2="74" stroke="url(#frameG4)" stroke-width="1.4"/>
+    <line x1="222" y1="80" x2="236" y2="74" stroke="url(#frameG4)" stroke-width="1.4"/>
+
+    <ellipse cx="160" cy="80" rx="20" ry="12" fill="url(#lensReflectG4)" opacity="0.92"/>
+    <ellipse cx="200" cy="80" rx="20" ry="12" fill="url(#lensReflectG4)" opacity="0.92"/>
+
+    <g opacity="0.62">
+      <rect x="146" y="74" width="6" height="11" fill="#0a0a14" opacity="0.85"/>
+      <rect x="160" y="76" width="4" height="9" fill="#0a0a14" opacity="0.85"/>
+      <rect x="170" y="74" width="6" height="11" fill="#0a0a14" opacity="0.85"/>
+      <line x1="148" y1="68" x2="148" y2="74" stroke="#0a0a14" stroke-width="0.55"/>
+      <line x1="172" y1="68" x2="172" y2="74" stroke="#0a0a14" stroke-width="0.55"/>
+    </g>
+
+    <g opacity="0.42">
+      <circle cx="146" cy="76" r="0.4" fill="#a8c0e0"/>
+      <circle cx="166" cy="76" r="0.4" fill="#a8c0e0"/>
+      <circle cx="156" cy="74" r="0.4" fill="#a8c0e0"/>
+    </g>
+
+    <path d="M 144 76 Q 156 72 168 70 Q 174 68 178 68" stroke="#3a8858" stroke-width="0.85" fill="none" opacity="0.95"/>
+    <path d="M 144 76 Q 156 72 168 70 Q 174 68 178 68" stroke="#fff088" stroke-width="0.4" fill="none" opacity="0.95"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowG4)">
+    <path d="M 144 76 Q 156 72 168 70 Q 174 68 178 68" stroke="#3a8858" stroke-width="2.4" fill="none" opacity="0.62"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowG4)">
+    <path d="M 144 76 Q 156 72 168 70 Q 174 68 178 68" stroke="#3a8858" stroke-width="6" fill="none" opacity="0.42"/>
+  </g>
+  <g opacity="0.42" filter="url(#ultraGlowG4)">
+    <path d="M 144 76 Q 156 72 168 70 Q 174 68 178 68" stroke="#3a8858" stroke-width="11" fill="none" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomG4)">
+    <ellipse cx="123" cy="90" rx="80" ry="22" fill="#fff8d8" opacity="0.22"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="123" cy="270" rx="100" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,232)">
+    <rect x="-4" y="0" width="220" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a2410" stroke-width="1.2"/>
+    <text x="106" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#5a4a30" font-weight="700">CAPTION</text>
+    <text x="106" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#3a2410" font-style="italic" font-weight="700">"The stories they tell."</text>
+  </g>
+</svg>
