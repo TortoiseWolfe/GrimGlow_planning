@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 300" width="494" height="300">
+  <title>Issue 8 — Page 1 — Panel 4: The timeline reveal — five centuries of glyphs, someone was here before us</title>
+  <desc>35mm medium wide eye level. Holographic timeline stretches horizontally — luminous blue-violet bar marked with centuries, 1300s left to 1820s right. Glyph locations plotted as pulsing markers, oldest faint and distant, newest bright. Luma stands before display, one hand gesturing at timeline span. Holographic lenses reflecting data. Timeline's structured blue-violet light illuminates cramped timber camp, casting geometric patterns on rough wood. Scientific precision beginning to strain — weight of presenting visible in tension around eyes. Filament in braid pulses. Behind, silhouettes of squad members watching.</desc>
+
+  <defs>
+    <linearGradient id="i8p1p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p1p4timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p1p4violet" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#5a4ab8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p1p4timelineBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a1858" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#7848b8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#a878e8" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="i8p1p4suit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p1p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i8p1p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p1p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p1p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p1p4megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="i8p1p4dataPulse"><feGaussianBlur stdDeviation="0.85"/></filter>
+  </defs>
+
+  <rect width="494" height="300" fill="url(#i8p1p4bg)"/>
+
+  <!-- Violet wash from timeline -->
+  <ellipse cx="247" cy="150" rx="320" ry="160" fill="url(#i8p1p4violet)" filter="url(#i8p1p4megaglow)"/>
+
+  <!-- Timber beams (back wall, casting geometric patterns from light) -->
+  <rect x="0" y="0" width="494" height="20" fill="url(#i8p1p4timber)"/>
+  <rect x="0" y="280" width="494" height="20" fill="url(#i8p1p4timber)"/>
+  <rect x="40" y="0" width="14" height="300" fill="url(#i8p1p4timber)"/>
+  <rect x="440" y="0" width="14" height="300" fill="url(#i8p1p4timber)"/>
+
+  <!-- Geometric light patterns cast on timber (from the holo) -->
+  <g fill="#a878e8" opacity="0.4" filter="url(#i8p1p4bloom)">
+    <polygon points="40,40 54,40 54,80 40,80"/>
+    <polygon points="40,180 54,180 54,220 40,220"/>
+    <polygon points="440,40 454,40 454,80 440,80"/>
+    <polygon points="440,180 454,180 454,220 440,220"/>
+  </g>
+
+  <!-- ===== HOLOGRAPHIC TIMELINE — horizontal bar across panel ===== -->
+  <g transform="translate(247 130)">
+    <!-- Glow halo -->
+    <ellipse cx="0" cy="0" rx="220" ry="40" fill="#7848b8" opacity="0.55" filter="url(#i8p1p4megaglow)"/>
+
+    <!-- Main timeline bar -->
+    <rect x="-200" y="-3" width="400" height="6" fill="url(#i8p1p4timelineBar)" filter="url(#i8p1p4bloom)"/>
+    <line x1="-200" y1="0" x2="200" y2="0" stroke="#c8a8e8" stroke-width="0.55" filter="url(#i8p1p4bloom)" opacity="0.95"/>
+
+    <!-- Century tick marks -->
+    <g stroke="#c8a8e8" stroke-width="0.55" filter="url(#i8p1p4bloom)" opacity="0.85">
+      <line x1="-200" y1="-9" x2="-200" y2="9"/>
+      <line x1="-120" y1="-7" x2="-120" y2="7"/>
+      <line x1="-40" y1="-7" x2="-40" y2="7"/>
+      <line x1="40" y1="-7" x2="40" y2="7"/>
+      <line x1="120" y1="-7" x2="120" y2="7"/>
+      <line x1="200" y1="-9" x2="200" y2="9"/>
+    </g>
+
+    <!-- Century labels -->
+    <g fill="#c8a8e8" filter="url(#i8p1p4dataPulse)">
+      <text x="-208" y="22" font-family="monospace" font-size="5" font-weight="700">1300</text>
+      <text x="-128" y="22" font-family="monospace" font-size="5">1400</text>
+      <text x="-48" y="22" font-family="monospace" font-size="5">1500</text>
+      <text x="32" y="22" font-family="monospace" font-size="5">1700</text>
+      <text x="112" y="22" font-family="monospace" font-size="5">1800</text>
+      <text x="186" y="22" font-family="monospace" font-size="5" font-weight="700">1820</text>
+    </g>
+
+    <!-- ===== GLYPH MARKERS along timeline — oldest faint, newest bright ===== -->
+    <!-- Oldest (1320, very faint) -->
+    <g opacity="0.4">
+      <circle cx="-184" cy="0" r="4" fill="#7848b8" filter="url(#i8p1p4glow)"/>
+      <circle cx="-184" cy="0" r="1.4" fill="#c8a8e8"/>
+    </g>
+    <!-- 1390 -->
+    <g opacity="0.55">
+      <circle cx="-145" cy="0" r="4" fill="#7848b8" filter="url(#i8p1p4glow)"/>
+      <circle cx="-145" cy="0" r="1.4" fill="#c8a8e8"/>
+    </g>
+    <!-- 1450 -->
+    <g opacity="0.7">
+      <circle cx="-95" cy="0" r="4" fill="#7848b8" filter="url(#i8p1p4glow)"/>
+      <circle cx="-95" cy="0" r="2" fill="#c8a8e8"/>
+    </g>
+    <!-- 1520 -->
+    <g opacity="0.7">
+      <circle cx="-55" cy="0" r="4" fill="#a878e8" filter="url(#i8p1p4glow)"/>
+      <circle cx="-55" cy="0" r="2" fill="#c8a8e8"/>
+    </g>
+    <!-- 1610 -->
+    <g opacity="0.85">
+      <circle cx="0" cy="0" r="5" fill="#a878e8" filter="url(#i8p1p4glow)"/>
+      <circle cx="0" cy="0" r="2" fill="#fff8e8"/>
+    </g>
+    <!-- 1680 -->
+    <g opacity="0.85">
+      <circle cx="40" cy="0" r="5" fill="#a878e8" filter="url(#i8p1p4glow)"/>
+      <circle cx="40" cy="0" r="2" fill="#fff8e8"/>
+    </g>
+    <!-- 1740 -->
+    <g opacity="0.95">
+      <circle cx="80" cy="0" r="5" fill="#c8a8e8" filter="url(#i8p1p4strongglow)"/>
+      <circle cx="80" cy="0" r="2.5" fill="#fff"/>
+    </g>
+    <!-- 1790 -->
+    <g opacity="0.95">
+      <circle cx="120" cy="0" r="5" fill="#c8a8e8" filter="url(#i8p1p4strongglow)"/>
+      <circle cx="120" cy="0" r="2.5" fill="#fff"/>
+    </g>
+    <!-- 1810 -->
+    <g opacity="0.95">
+      <circle cx="155" cy="0" r="5" fill="#c8a8e8" filter="url(#i8p1p4strongglow)"/>
+      <circle cx="155" cy="0" r="2.5" fill="#fff"/>
+    </g>
+    <!-- 1818 -->
+    <g opacity="0.95">
+      <circle cx="180" cy="0" r="5" fill="#c8a8e8" filter="url(#i8p1p4strongglow)"/>
+      <circle cx="180" cy="0" r="2.5" fill="#fff"/>
+    </g>
+    <!-- NEWEST — Luma's original find — BRIGHTEST -->
+    <g filter="url(#i8p1p4strongglow)" opacity="0.95">
+      <circle cx="200" cy="0" r="9" fill="#fff8e8"/>
+      <circle cx="200" cy="0" r="4" fill="#fff"/>
+    </g>
+    <!-- "YOU ARE HERE" pointer -->
+    <line x1="200" y1="-40" x2="200" y2="-11" stroke="#fff" stroke-width="0.55" stroke-dasharray="2,1.5" filter="url(#i8p1p4bloom)" opacity="0.85"/>
+    <text x="186" y="-44" font-family="monospace" font-size="4" fill="#fff" filter="url(#i8p1p4dataPulse)">CLERKENWELL</text>
+    <text x="186" y="-50" font-family="monospace" font-size="3" fill="#c8a8e8" opacity="0.85">LUMA-FIND-001</text>
+
+    <!-- Title bar -->
+    <text x="-200" y="-50" font-family="monospace" font-size="5" font-weight="700" fill="#c8a8e8" filter="url(#i8p1p4dataPulse)">FAIRY GLYPH TIMELINE//TEMPORAL DIST</text>
+    <text x="-200" y="-40" font-family="monospace" font-size="3" fill="#c8a8e8" opacity="0.85">EROSION-ANALYSIS  N=12  SPAN=520y</text>
+
+    <!-- Pulse rings around oldest -->
+    <g stroke="#c8a8e8" stroke-width="0.4" fill="none" opacity="0.7" filter="url(#i8p1p4bloom)">
+      <circle cx="200" cy="0" r="14"/>
+      <circle cx="200" cy="0" r="22"/>
+    </g>
+  </g>
+
+  <!-- ===== LUMA standing before display, gesturing at the span ===== -->
+  <g transform="translate(80 220)">
+    <!-- Body -->
+    <path d="M-9,30 L-11,9 L-14,-14 L-11,-30 L-3,-40 L3,-40 L11,-30 L14,-14 L11,9 L9,30 Z" fill="url(#i8p1p4suit)"/>
+    <!-- Ink stains -->
+    <ellipse cx="-14" cy="0" rx="3" ry="2" fill="#1a0810" opacity="0.85"/>
+    <!-- Suit accent -->
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#c8a8e8" stroke-width="0.55" opacity="0.85" filter="url(#i8p1p4bloom)"/>
+    <circle cx="-9" cy="-22" r="0.85" fill="#c8a8e8" filter="url(#i8p1p4bloom)" opacity="0.85"/>
+    <circle cx="9" cy="-22" r="0.85" fill="#c8a8e8" filter="url(#i8p1p4bloom)" opacity="0.85"/>
+    <!-- Arm gesturing across timeline -->
+    <path d="M11,-22 L60,-44 L70,-30 L11,-9 Z" fill="url(#i8p1p4suit)"/>
+    <ellipse cx="70" cy="-32" rx="3" ry="2" fill="url(#i8p1p4skin)"/>
+    <!-- Spread fingers -->
+    <line x1="73" y1="-32" x2="80" y2="-36" stroke="#7a4828" stroke-width="1.4"/>
+    <line x1="73" y1="-32" x2="78" y2="-28" stroke="#7a4828" stroke-width="1.4"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="6" ry="7" fill="url(#i8p1p4skin)"/>
+    <!-- Braid -->
+    <path d="M3,-44 Q9,-22 14,22" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M3,-44 Q9,-22 14,22" stroke="#a878e8" stroke-width="0.4" fill="none" filter="url(#i8p1p4bloom)" opacity="0.95"/>
+    <!-- Filament pulses -->
+    <ellipse cx="9" cy="-22" rx="2" ry="0.85" fill="#c8a8e8" filter="url(#i8p1p4bloom)" opacity="0.85"/>
+    <!-- Hair -->
+    <path d="M-7,-58 Q0,-62 7,-58 L7,-50 Q0,-54 -7,-50 Z" fill="#1a0808"/>
+    <!-- Lenses -->
+    <ellipse cx="-2" cy="-50" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p1p4bloom)" opacity="0.95"/>
+    <ellipse cx="2" cy="-50" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p1p4bloom)" opacity="0.95"/>
+    <!-- Eyes — strain visible -->
+    <circle cx="-2" cy="-50" r="0.55" fill="#fff8e8" filter="url(#i8p1p4bloom)"/>
+    <circle cx="2" cy="-50" r="0.55" fill="#fff8e8" filter="url(#i8p1p4bloom)"/>
+    <!-- Brows — slightly drawn (the strain) -->
+    <line x1="-5" y1="-55" x2="-1" y2="-55" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-55" x2="5" y2="-55" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Mouth — speaking -->
+    <line x1="-3" y1="-44" x2="3" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- Squad silhouettes (background, watching) -->
+  <g opacity="0.55">
+    <ellipse cx="350" cy="240" rx="6" ry="14" fill="#3a3a40"/>
+    <ellipse cx="350" cy="222" rx="3" ry="3" fill="#3a3a40"/>
+    <ellipse cx="395" cy="245" rx="6" ry="14" fill="#7a3818"/>
+    <ellipse cx="395" cy="227" rx="3" ry="3" fill="#7a3818"/>
+    <ellipse cx="430" cy="245" rx="6" ry="14" fill="#7a1810"/>
+    <ellipse cx="430" cy="227" rx="3" ry="3" fill="#7a1810"/>
+  </g>
+
+  <!-- ===== DIALOGUE — LUMA — the key finding ===== -->
+  <g>
+    <rect x="14" y="14" width="438" height="68" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">The oldest dates to the fourteenth century. The newest — sixty years.</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Someone was here before us, Captain. Maybe more than one operative.</text>
+  <text x="22" y="72" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-weight="700">Five hundred years.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260"/>
+  </g>
+</svg>
