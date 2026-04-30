@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 260" width="742" height="260">
+  <title>Issue 10 Page 11 Panel 1 — Wren builds, "if the wires can carry the field, they can carry a counter-pulse"</title>
+  <desc>Medium close-up tracking. Wren away from main fight crouching behind desk far end. Not fighting — building. Copper-gold interface flickers fragments. Floor: telegraph wire, brass connector from disassembled instrument, tools from suit kit. She's the one who will end this. Total focus.</desc>
+  <defs>
+    <linearGradient id="bgW1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1410"/>
+      <stop offset="0.4" stop-color="#251f15"/>
+      <stop offset="1" stop-color="#15110a"/>
+    </linearGradient>
+    <radialGradient id="copperGoldFlickW1" cx="0.55" cy="0.6" r="0.5">
+      <stop offset="0" stop-color="#f4b860" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#15110a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="combatFlashW1" cx="0.05" cy="0.3" r="0.3">
+      <stop offset="0" stop-color="#dc4540" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#5a1810" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#15110a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorGrainW1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3a20"/>
+      <stop offset="0.4" stop-color="#3a2418"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="deskFootW1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a2418"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="copperFigW1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.5" stop-color="#7a3e18"/>
+      <stop offset="1" stop-color="#3a1f0a"/>
+    </linearGradient>
+    <linearGradient id="hairBlkW1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0808"/>
+      <stop offset="1" stop-color="#2a1e1a"/>
+    </linearGradient>
+    <linearGradient id="faceLitW_W1" x1="0" y1="0" x2="0.7" y2="0.5">
+      <stop offset="0" stop-color="#3a261a"/>
+      <stop offset="0.5" stop-color="#7a4830"/>
+      <stop offset="1" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="copperWireW1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a2e10"/>
+      <stop offset="0.5" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#7a3e18"/>
+    </linearGradient>
+    <linearGradient id="brassConnectorW1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d090"/>
+      <stop offset="0.5" stop-color="#a87838"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <radialGradient id="eyeFocusW1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#f4b860" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomW1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowW1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="glitchBlurW1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+    <filter id="softW1" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="260" fill="url(#bgW1)"/>
+  <rect width="742" height="260" fill="url(#combatFlashW1)"/>
+  <rect width="742" height="260" fill="url(#copperGoldFlickW1)"/>
+
+  <g>
+    <rect x="0" y="220" width="742" height="40" fill="url(#floorGrainW1)"/>
+    <line x1="0" y1="232" x2="742" y2="230" stroke="#3a2818" stroke-width="0.5" opacity="0.85"/>
+    <line x1="0" y1="246" x2="742" y2="244" stroke="#3a2818" stroke-width="0.4" opacity="0.85"/>
+  </g>
+
+  <g>
+    <rect x="0" y="0" width="120" height="260" fill="url(#deskFootW1)"/>
+    <rect x="120" y="0" width="20" height="260" fill="#1a1008"/>
+    <rect x="640" y="40" width="80" height="100" fill="url(#deskFootW1)" opacity="0.65"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 280 240 Q 340 234 400 240 Q 460 244 520 238" stroke="url(#copperWireW1)" stroke-width="3" fill="none"/>
+    <path d="M 320 252 Q 380 248 440 252" stroke="url(#copperWireW1)" stroke-width="2.4" fill="none" opacity="0.85"/>
+    <path d="M 460 250 Q 520 254 580 250" stroke="url(#copperWireW1)" stroke-width="2" fill="none" opacity="0.7"/>
+  </g>
+
+  <g>
+    <rect x="280" y="226" width="32" height="20" rx="2" fill="url(#brassConnectorW1)" stroke="#5a3818" stroke-width="0.6"/>
+    <line x1="280" y1="234" x2="312" y2="234" stroke="#5a3818" stroke-width="0.4"/>
+    <circle cx="288" cy="234" r="1.4" fill="#5a3818"/>
+    <circle cx="304" cy="234" r="1.4" fill="#5a3818"/>
+
+    <rect x="500" y="222" width="22" height="20" rx="1.5" fill="url(#brassConnectorW1)" stroke="#5a3818" stroke-width="0.5"/>
+    <line x1="500" y1="232" x2="522" y2="232" stroke="#5a3818" stroke-width="0.4"/>
+  </g>
+
+  <g>
+    <rect x="424" y="232" width="14" height="6" rx="1" fill="#3a3a3a" stroke="#0a0a0a" stroke-width="0.4"/>
+    <rect x="546" y="234" width="10" height="6" rx="0.5" fill="#3a3a3a"/>
+    <line x1="430" y1="232" x2="432" y2="226" stroke="#0a0a0a" stroke-width="0.5"/>
+    <circle cx="556" cy="237" r="1.4" fill="#a87838"/>
+  </g>
+
+  <g>
+    <ellipse cx="380" cy="200" rx="14" ry="16" fill="#3a261a"/>
+    <ellipse cx="380" cy="194" rx="10" ry="11" fill="url(#faceLitW_W1)"/>
+    <path d="M 366 184 Q 380 174 394 184 L 392 192 Q 388 180 380 178 Q 374 178 368 192 Z" fill="url(#hairBlkW1)"/>
+    <ellipse cx="370" cy="170" rx="12" ry="6" fill="url(#hairBlkW1)"/>
+    <ellipse cx="376" cy="200" rx="2" ry="2.4" fill="#0a0604"/>
+    <ellipse cx="384" cy="200" rx="2" ry="2.4" fill="#0a0604"/>
+    <circle cx="377" cy="199" r="1.2" fill="url(#eyeFocusW1)"/>
+    <circle cx="385" cy="199" r="1.2" fill="url(#eyeFocusW1)"/>
+    <path d="M 374 208 L 386 208" stroke="#0a0604" stroke-width="0.8"/>
+
+    <path d="M 364 218 L 396 218 L 402 260 L 358 260 Z" fill="url(#copperFigW1)"/>
+    <path d="M 364 224 L 396 224 L 396 250 L 364 250 Z" fill="#5a2e10"/>
+  </g>
+
+  <g>
+    <path d="M 360 226 Q 354 232 350 240 L 354 244 Q 360 240 366 232 Z" fill="url(#copperFigW1)" stroke="#3a1f0a" stroke-width="0.4"/>
+    <path d="M 400 226 Q 406 232 410 240 L 406 244 Q 400 240 394 232 Z" fill="url(#copperFigW1)" stroke="#3a1f0a" stroke-width="0.4"/>
+
+    <line x1="356" y1="240" x2="320" y2="244" stroke="#5a2e10" stroke-width="0.5"/>
+    <line x1="356" y1="242" x2="324" y2="246" stroke="#5a2e10" stroke-width="0.5"/>
+    <line x1="404" y1="240" x2="438" y2="240" stroke="#5a2e10" stroke-width="0.5"/>
+  </g>
+  <g opacity="0.95" filter="url(#strongGlowW1)">
+    <circle cx="354" cy="240" r="2.4" fill="#f4b860"/>
+    <circle cx="406" cy="240" r="2.4" fill="#f4b860"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowW1)">
+    <ellipse cx="380" cy="148" rx="80" ry="48" fill="#f4b860" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="320" y1="100" x2="440" y2="100" stroke="#f4d090" stroke-width="0.5" opacity="0.65"/>
+    <line x1="320" y1="120" x2="440" y2="120" stroke="#f4d090" stroke-width="0.5" opacity="0.45"/>
+    <line x1="320" y1="140" x2="440" y2="140" stroke="#f4d090" stroke-width="0.5" opacity="0.65"/>
+    <line x1="320" y1="160" x2="440" y2="160" stroke="#f4d090" stroke-width="0.5" opacity="0.55"/>
+    <line x1="320" y1="180" x2="440" y2="180" stroke="#f4d090" stroke-width="0.5" opacity="0.45"/>
+  </g>
+  <g opacity="0.85">
+    <rect x="340" y="106" width="22" height="10" fill="none" stroke="#f4d090" stroke-width="0.5"/>
+    <rect x="380" y="106" width="22" height="10" fill="none" stroke="#f4d090" stroke-width="0.5"/>
+    <rect x="340" y="146" width="22" height="10" fill="none" stroke="#f4d090" stroke-width="0.5"/>
+    <rect x="396" y="146" width="22" height="10" fill="none" stroke="#f4d090" stroke-width="0.5"/>
+    <line x1="340" y1="126" x2="362" y2="146" stroke="#f4d090" stroke-width="0.4" opacity="0.7"/>
+    <line x1="402" y1="126" x2="380" y2="146" stroke="#f4d090" stroke-width="0.4" opacity="0.7"/>
+    <line x1="362" y1="146" x2="396" y2="146" stroke="#f4d090" stroke-width="0.5"/>
+  </g>
+
+  <g font-family="Courier New, monospace" fill="#f4d090" opacity="0.95">
+    <text x="350" y="114" font-size="3.6">FIELD</text>
+    <text x="390" y="114" font-size="3.6">SIGNAL</text>
+    <text x="350" y="154" font-size="3.6">COUNTER</text>
+    <text x="406" y="154" font-size="3.6">PULSE</text>
+    <text x="380" y="138" text-anchor="middle" font-size="3.4" opacity="0.7">if A → carry → B?</text>
+    <text x="380" y="174" text-anchor="middle" font-size="4" font-weight="700">SOLUTION ▓░</text>
+  </g>
+
+  <g opacity="0.55" filter="url(#glitchBlurW1)">
+    <rect x="350" y="172" width="60" height="2" fill="#a85820" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="80" y1="80" x2="100" y2="80" stroke="#dc4540" stroke-width="0.4" opacity="0.7"/>
+    <line x1="60" y1="100" x2="100" y2="120" stroke="#dc4540" stroke-width="0.5" opacity="0.55"/>
+    <line x1="80" y1="160" x2="100" y2="200" stroke="#dc4540" stroke-width="0.4" opacity="0.5"/>
+  </g>
+  <g opacity="0.55" filter="url(#bloomW1)">
+    <circle cx="80" cy="120" r="2" fill="#dc4540"/>
+    <circle cx="100" cy="180" r="1.6" fill="#dc4540" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="380" cy="262" rx="22" ry="2.5" fill="#080404"/>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="320" height="32" rx="3" fill="#f5ecd8" opacity="0.92" stroke="#c8b898" stroke-width="0.5" stroke-dasharray="2 1"/>
+    <text x="148" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#a85820" font-weight="700" font-style="italic">WREN: "Disruption field on the same frequency</text>
+    <text x="148" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#2a2a2a" font-style="italic">as the telegraph signal..."</text>
+    <text x="148" y="29" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#a85820" font-weight="700">"Wires carry field. Carry counter-pulse."</text>
+  </g>
+</svg>

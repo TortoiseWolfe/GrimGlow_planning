@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 240" width="246" height="240">
+  <title>Issue 10 Page 11 Panel 2 — Titan grips telegraph machine, Victorian tech weaponized</title>
+  <desc>Close-up looking up. Titan's hand closes around telegraph machine on desk lifting it. Machine — at fairy scale size of car — comes up trailing wires. Brass key, sounder, wooden base. Used as weapon, rising about to descend. Amber-black device glow. Dark iridescence on gripping hand.</desc>
+  <defs>
+    <linearGradient id="bgW2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040206"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="amberDeviceW2" cx="0.5" cy="0.85" r="0.5">
+      <stop offset="0" stop-color="#a87838" stop-opacity="0.6"/>
+      <stop offset="0.5" stop-color="#5a2818" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="iridGripW2" cx="0.5" cy="0.45" r="0.45">
+      <stop offset="0" stop-color="#3a1a5a" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#1a0e2e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brassMachineW2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d090"/>
+      <stop offset="0.4" stop-color="#a87838"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="brassDarkW2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87838"/>
+      <stop offset="0.5" stop-color="#5a3818"/>
+      <stop offset="1" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="alienHandW2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080608"/>
+      <stop offset="0.5" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <linearGradient id="cableSnapW2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a2010"/>
+      <stop offset="0.5" stop-color="#a85820"/>
+      <stop offset="1" stop-color="#5a2e10"/>
+    </linearGradient>
+    <filter id="bloomW2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowW2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="iridShimW2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <filter id="softW2" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="246" height="240" fill="url(#bgW2)"/>
+  <rect width="246" height="240" fill="url(#amberDeviceW2)"/>
+  <rect width="246" height="240" fill="url(#iridGripW2)"/>
+
+  <g>
+    <rect x="40" y="80" width="166" height="80" fill="url(#brassMachineW2)" opacity="0.92" stroke="#1a0e08" stroke-width="0.6"/>
+    <rect x="40" y="80" width="166" height="14" fill="#3a2010"/>
+    <rect x="40" y="148" width="166" height="12" fill="#1a0e08"/>
+    <line x1="40" y1="106" x2="206" y2="106" stroke="#5a3818" stroke-width="0.6"/>
+    <line x1="40" y1="124" x2="206" y2="124" stroke="#5a3818" stroke-width="0.6"/>
+    <circle cx="80" cy="116" r="6" fill="url(#brassDarkW2)"/>
+    <circle cx="80" cy="116" r="3" fill="#5a3818"/>
+    <rect x="100" y="112" width="22" height="8" fill="url(#brassDarkW2)"/>
+    <rect x="140" y="100" width="60" height="20" fill="url(#brassDarkW2)"/>
+    <rect x="148" y="106" width="44" height="8" fill="#3a2010"/>
+    <line x1="170" y1="100" x2="170" y2="120" stroke="#5a3818" stroke-width="0.5"/>
+  </g>
+
+  <g>
+    <path d="M 96 160 Q 80 196 56 240 L 60 240 Q 88 196 104 160 Z" fill="url(#cableSnapW2)" opacity="0.85"/>
+    <path d="M 150 160 Q 156 196 152 240 L 156 240 Q 162 196 154 160 Z" fill="url(#cableSnapW2)" opacity="0.85"/>
+    <path d="M 80 230 L 60 240" stroke="#3a2010" stroke-width="1.2"/>
+    <path d="M 156 232 L 162 240" stroke="#3a2010" stroke-width="1.2"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomW2)">
+    <circle cx="60" cy="240" r="2" fill="#f4b860" opacity="0.6"/>
+    <circle cx="160" cy="238" r="1.6" fill="#f4b860" opacity="0.6"/>
+  </g>
+
+  <g>
+    <path d="M 0 30 L 240 30 L 246 80 Q 200 60 140 60 Q 80 60 30 76 L 0 60 Z" fill="url(#alienHandW2)"/>
+
+    <path d="M 30 30 L 16 14 L 8 30 L 18 50 Q 26 50 30 30 Z" fill="url(#alienHandW2)"/>
+    <path d="M 18 50 L 28 70 L 50 80 L 60 60 Q 50 40 38 32 Q 28 28 18 50 Z" fill="url(#alienHandW2)"/>
+
+    <path d="M 90 24 L 80 8 L 68 18 L 78 38 Q 90 40 90 24 Z" fill="url(#alienHandW2)"/>
+    <path d="M 78 38 L 86 60 L 110 70 L 122 56 Q 110 42 96 36 Q 84 32 78 38 Z" fill="url(#alienHandW2)"/>
+
+    <path d="M 142 22 L 130 6 L 120 16 L 130 36 Q 144 40 142 22 Z" fill="url(#alienHandW2)"/>
+    <path d="M 130 36 L 138 60 L 160 70 L 174 54 Q 160 40 148 32 Q 136 30 130 36 Z" fill="url(#alienHandW2)"/>
+
+    <path d="M 196 26 L 184 8 L 172 18 L 184 40 Q 198 42 196 26 Z" fill="url(#alienHandW2)"/>
+    <path d="M 184 40 L 192 64 L 214 72 L 228 56 Q 214 42 202 34 Q 192 32 184 40 Z" fill="url(#alienHandW2)"/>
+
+    <path d="M 234 26 L 222 6 L 212 18 L 222 38 Q 236 42 234 26 Z" fill="url(#alienHandW2)"/>
+    <path d="M 222 38 L 232 60 L 246 68" stroke="url(#alienHandW2)" stroke-width="14" fill="none"/>
+  </g>
+
+  <g opacity="0.6" filter="url(#iridShimW2)">
+    <path d="M 0 30 L 240 30 L 246 80" stroke="#7848b8" stroke-width="3" fill="none"/>
+    <path d="M 30 30 L 60 60" stroke="#7848b8" stroke-width="2" fill="none"/>
+    <path d="M 90 24 L 122 56" stroke="#7848b8" stroke-width="2" fill="none"/>
+    <path d="M 142 22 L 174 54" stroke="#7848b8" stroke-width="2" fill="none"/>
+    <path d="M 196 26 L 228 56" stroke="#7848b8" stroke-width="2" fill="none"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 18 50 L 60 70" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 78 38 L 110 70" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 130 36 L 160 70" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 184 40 L 214 72" stroke="#3a1a5a" stroke-width="0.5"/>
+  </g>
+
+  <g opacity="0.6" filter="url(#bloomW2)">
+    <ellipse cx="123" cy="60" rx="100" ry="14" fill="#7848b8" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#strongGlowW2)">
+    <ellipse cx="123" cy="120" rx="60" ry="22" fill="#f4b860" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.45">
+    <text x="20" y="14" font-family="Courier New, monospace" font-size="3.6" fill="#3a1a5a" opacity="0.7">▓░ JOINT.7+ ░▓</text>
+  </g>
+</svg>
