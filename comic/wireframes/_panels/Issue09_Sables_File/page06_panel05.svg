@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 9 Page 6 Panel 5 — Sable backlit by truth, "Plural. None reported back."</title>
+  <desc>Medium shot eye level. Sable faces camera with display behind her — corrupted geometric script silhouetting her. Faces four squad arranged on beams: Jink leaning forward angry, Thresh rigid, Luma connecting, Wren arms-crossed. Halo from display is ironic not holy. Her composure cracked but held.</desc>
+  <defs>
+    <linearGradient id="bg65" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080a14"/>
+      <stop offset="0.4" stop-color="#0e1420"/>
+      <stop offset="1" stop-color="#040608"/>
+    </linearGradient>
+    <radialGradient id="haloBack65" cx="0.5" cy="0.45" r="0.4">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#5878a8" stop-opacity="0.45"/>
+      <stop offset="0.8" stop-color="#1a2838" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#040608" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silverF65" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8088"/>
+      <stop offset="0.5" stop-color="#4a4e54"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="copperF65" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.5" stop-color="#7a3e18"/>
+      <stop offset="1" stop-color="#3a1f0a"/>
+    </linearGradient>
+    <linearGradient id="emeraldF65" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#2e7048"/>
+      <stop offset="1" stop-color="#142e1f"/>
+    </linearGradient>
+    <linearGradient id="crimsonF65" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c83538"/>
+      <stop offset="0.5" stop-color="#8a2520"/>
+      <stop offset="1" stop-color="#3a0e08"/>
+    </linearGradient>
+    <linearGradient id="violetF65" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7848b8"/>
+      <stop offset="0.5" stop-color="#4a2a78"/>
+      <stop offset="1" stop-color="#1a0e2e"/>
+    </linearGradient>
+    <linearGradient id="beamMain65" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#2a1c10"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <radialGradient id="haloFront65" cx="0.5" cy="0.6" r="0.4">
+      <stop offset="0" stop-color="#88a8d0" stop-opacity="0.5"/>
+      <stop offset="0.7" stop-color="#3a4858" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#040608" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloom65" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <filter id="megaGlow65" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="strongGlow65" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="soft65" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="280" fill="url(#bg65)"/>
+  <rect width="742" height="280" fill="url(#haloFront65)"/>
+  <rect width="742" height="280" fill="url(#haloBack65)"/>
+
+  <g opacity="0.5" filter="url(#soft65)">
+    <path d="M 0 0 L 50 0 L 50 280 L 0 280 Z" fill="#0a0a10"/>
+    <path d="M 692 0 L 742 0 L 742 280 L 692 280 Z" fill="#0a0a10"/>
+  </g>
+
+  <g>
+    <rect x="50" y="234" width="642" height="14" fill="url(#beamMain65)"/>
+    <rect x="50" y="234" width="642" height="3" fill="#5a3a20" opacity="0.6"/>
+    <rect x="50" y="246" width="642" height="2" fill="#0e0805" opacity="0.9"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#megaGlow65)">
+    <ellipse cx="371" cy="120" rx="240" ry="120" fill="#5878a8"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlow65)">
+    <ellipse cx="371" cy="120" rx="160" ry="80" fill="#88a8d0"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="240" y1="50" x2="502" y2="50" stroke="#a8c0e0" stroke-width="0.4" opacity="0.6"/>
+    <line x1="240" y1="80" x2="502" y2="80" stroke="#a8c0e0" stroke-width="0.4" opacity="0.6"/>
+    <line x1="240" y1="110" x2="502" y2="110" stroke="#a8c0e0" stroke-width="0.4" opacity="0.6"/>
+    <line x1="240" y1="140" x2="502" y2="140" stroke="#a8c0e0" stroke-width="0.4" opacity="0.6"/>
+    <line x1="240" y1="170" x2="502" y2="170" stroke="#a8c0e0" stroke-width="0.4" opacity="0.6"/>
+  </g>
+  <g font-family="Courier New, monospace" fill="#c0d8f0" opacity="0.8">
+    <text x="371" y="62" text-anchor="middle" font-size="4.5" letter-spacing="1.5">PRIOR INSERTION LOG</text>
+    <text x="371" y="92" text-anchor="middle" font-size="4" letter-spacing="1.2">▓░ NULL RETURN ░▓</text>
+    <text x="371" y="122" text-anchor="middle" font-size="4.5" letter-spacing="1.5">N = MULTIPLE</text>
+    <text x="371" y="152" text-anchor="middle" font-size="4" opacity="0.6">[ corrupted ]</text>
+    <text x="371" y="180" text-anchor="middle" font-size="3.6" opacity="0.5">··· data lost ···</text>
+  </g>
+
+  <g>
+    <ellipse cx="371" cy="148" rx="14" ry="16" fill="#3a261a"/>
+    <ellipse cx="371" cy="142" rx="9" ry="10" fill="#5a3622"/>
+    <path d="M 358 130 Q 371 122 384 130 L 382 138 Q 374 128 368 138 Z" fill="#9098a0" opacity="0.92"/>
+    <ellipse cx="367" cy="148" rx="1.4" ry="2" fill="#0a0604"/>
+    <ellipse cx="375" cy="148" rx="1.4" ry="2" fill="#0a0604"/>
+    <path d="M 363 154 Q 371 158 379 154" stroke="#0a0604" stroke-width="0.7" fill="none"/>
+    <path d="M 350 168 L 392 168 L 400 234 L 342 234 Z" fill="url(#silverF65)"/>
+    <path d="M 348 180 L 394 180 L 394 220 L 348 220 Z" fill="#2a2a2a"/>
+  </g>
+  <g opacity="0.55" filter="url(#bloom65)">
+    <ellipse cx="371" cy="200" rx="40" ry="14" fill="#a8c0e0"/>
+  </g>
+  <g opacity="0.85">
+    <ellipse cx="356" cy="190" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="386" cy="190" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="371" cy="216" rx="6" ry="2" fill="#0a0604"/>
+  </g>
+
+  <g>
+    <ellipse cx="170" cy="168" rx="9" ry="10" fill="#3a261a"/>
+    <ellipse cx="170" cy="164" rx="6" ry="6" fill="#5a3622"/>
+    <g>
+      <ellipse cx="162" cy="156" rx="6" ry="7" fill="#d8b020"/>
+      <ellipse cx="178" cy="156" rx="6" ry="7" fill="#d8b020"/>
+      <ellipse cx="170" cy="152" rx="7" ry="6" fill="#e8c030"/>
+    </g>
+    <ellipse cx="167" cy="168" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <ellipse cx="173" cy="168" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <path d="M 156 178 L 184 178 L 188 212 L 152 212 Z" fill="url(#emeraldF65)"/>
+    <path d="M 156 184 L 184 184 L 184 208 L 156 208 Z" fill="#1f4a30"/>
+  </g>
+
+  <g>
+    <ellipse cx="220" cy="170" rx="9" ry="10" fill="#3a261a"/>
+    <ellipse cx="220" cy="166" rx="6" ry="6" fill="#5a3622"/>
+    <ellipse cx="218" cy="156" rx="7" ry="6" fill="#0a0808"/>
+    <ellipse cx="224" cy="154" rx="5" ry="5" fill="#0a0808"/>
+    <ellipse cx="217" cy="170" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <ellipse cx="223" cy="170" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <path d="M 204 180 L 236 180 L 240 212 L 200 212 Z" fill="url(#copperF65)"/>
+    <path d="M 204 186 L 236 186 L 236 208 L 204 208 Z" fill="#5a2e10"/>
+  </g>
+
+  <g>
+    <ellipse cx="540" cy="168" rx="10" ry="11" fill="#3a261a"/>
+    <ellipse cx="540" cy="164" rx="6" ry="6" fill="#5a3622"/>
+    <path d="M 530 158 Q 540 150 550 158 L 548 162 Q 540 154 532 162 Z" fill="#7a3818"/>
+    <ellipse cx="537" cy="168" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <ellipse cx="543" cy="168" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <path d="M 524 178 L 556 178 L 562 212 L 518 212 Z" fill="url(#crimsonF65)"/>
+    <path d="M 524 184 L 556 184 L 556 208 L 524 208 Z" fill="#5a1a18"/>
+  </g>
+
+  <g>
+    <ellipse cx="588" cy="170" rx="9" ry="10" fill="#3a261a"/>
+    <ellipse cx="588" cy="166" rx="6" ry="6" fill="#5a3622"/>
+    <g>
+      <rect x="580" y="160" width="6" height="3" rx="1" fill="#7848b8" opacity="0.85"/>
+      <rect x="590" y="160" width="6" height="3" rx="1" fill="#7848b8" opacity="0.85"/>
+      <rect x="580" y="159" width="16" height="2" fill="#a878d0" opacity="0.9"/>
+    </g>
+    <ellipse cx="585" cy="170" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <ellipse cx="591" cy="170" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <path d="M 572 180 L 604 180 L 608 212 L 568 212 Z" fill="url(#violetF65)"/>
+    <path d="M 572 186 L 604 186 L 604 208 L 572 208 Z" fill="#3a1a5a"/>
+  </g>
+
+  <g opacity="0.7">
+    <ellipse cx="170" cy="218" rx="14" ry="2" fill="#080404"/>
+    <ellipse cx="220" cy="218" rx="14" ry="2" fill="#080404"/>
+    <ellipse cx="540" cy="218" rx="14" ry="2" fill="#080404"/>
+    <ellipse cx="588" cy="218" rx="14" ry="2" fill="#080404"/>
+    <ellipse cx="371" cy="240" rx="36" ry="3" fill="#080404"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="80" cy="40" r="0.4" fill="#3a4858"/>
+    <circle cx="660" cy="50" r="0.4" fill="#3a4858"/>
+  </g>
+</svg>

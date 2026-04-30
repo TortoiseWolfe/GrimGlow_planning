@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 240" width="246" height="240">
+  <title>Issue 9 Page 6 Panel 2 — Thresh, silent, processing threat</title>
+  <desc>Close-up Thresh. Broad-shouldered, copper-red buzz cut, pale skin, defined cheekbones. Arms crossed with grip on forearms tightened — only sign of reaction. Crimson armor dented at left pauldron, scratch across chest plate. Silent. Fear compressed past silence into threat assessment.</desc>
+  <defs>
+    <linearGradient id="bg62" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c1018"/>
+      <stop offset="0.5" stop-color="#1a1f2c"/>
+      <stop offset="1" stop-color="#080a12"/>
+    </linearGradient>
+    <radialGradient id="holoT62" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#88a8d0" stop-opacity="0.65"/>
+      <stop offset="0.5" stop-color="#3a4858" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#080a12" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="faceLitT62" x1="0" y1="0" x2="0.7" y2="0.5">
+      <stop offset="0" stop-color="#5a3a3a"/>
+      <stop offset="0.5" stop-color="#7a5050"/>
+      <stop offset="1" stop-color="#9a6a6a"/>
+    </linearGradient>
+    <linearGradient id="hairBuzz62" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a3818"/>
+      <stop offset="0.5" stop-color="#5a2010"/>
+      <stop offset="1" stop-color="#2a1008"/>
+    </linearGradient>
+    <linearGradient id="crimsonArmor62" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c83538"/>
+      <stop offset="0.5" stop-color="#8a2520"/>
+      <stop offset="1" stop-color="#3a0e08"/>
+    </linearGradient>
+    <radialGradient id="eyeT62" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#a8c0e0" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#a8c0e0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloom62" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="soft62" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="246" height="240" fill="url(#bg62)"/>
+  <rect width="246" height="240" fill="url(#holoT62)"/>
+
+  <g opacity="0.5" filter="url(#soft62)">
+    <path d="M 0 0 L 30 0 L 24 240 L 0 240 Z" fill="#0a0a10"/>
+    <path d="M 216 0 L 246 0 L 246 240 L 222 240 Z" fill="#0a0a10"/>
+  </g>
+
+  <g>
+    <ellipse cx="123" cy="220" rx="120" ry="40" fill="#0a0a10"/>
+  </g>
+
+  <g>
+    <path d="M 78 78 Q 70 100 76 124 Q 84 152 100 168 Q 122 178 146 178 Q 170 174 184 158 Q 192 134 190 100 Q 184 78 168 64 Q 144 58 122 60 Q 94 68 78 78 Z" fill="url(#faceLitT62)" opacity="0.95"/>
+  </g>
+
+  <g>
+    <path d="M 70 76 Q 80 60 124 56 Q 168 56 188 66 Q 196 78 196 90 L 192 96 Q 182 80 162 74 Q 130 70 102 76 Q 80 82 76 92 Z" fill="url(#hairBuzz62)"/>
+    <g stroke="#3a1410" stroke-width="0.4" opacity="0.5">
+      <line x1="92" y1="62" x2="92" y2="74"/>
+      <line x1="110" y1="58" x2="110" y2="72"/>
+      <line x1="128" y1="56" x2="128" y2="72"/>
+      <line x1="146" y1="56" x2="146" y2="72"/>
+      <line x1="164" y1="58" x2="164" y2="72"/>
+      <line x1="180" y1="64" x2="180" y2="76"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="116" cy="116" rx="9" ry="4" fill="#0a0604"/>
+    <ellipse cx="160" cy="114" rx="10" ry="4.5" fill="#0a0604"/>
+    <circle cx="116" cy="116" r="3" fill="#080404"/>
+    <circle cx="160" cy="114" r="3.4" fill="#080404"/>
+    <circle cx="118" cy="115" r="1.4" fill="url(#eyeT62)"/>
+    <circle cx="162" cy="113" r="1.6" fill="url(#eyeT62)"/>
+  </g>
+
+  <g stroke="#0a0604" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M 98 106 Q 116 100 134 106"/>
+    <path d="M 144 104 Q 160 98 180 106"/>
+  </g>
+
+  <path d="M 138 122 Q 134 142 138 158" stroke="#0a0604" stroke-width="1.1" fill="none" opacity="0.7"/>
+
+  <g>
+    <path d="M 110 168 L 156 168" stroke="#0a0604" stroke-width="1.6"/>
+  </g>
+
+  <g>
+    <path d="M 30 196 L 218 192 L 222 240 L 22 240 Z" fill="url(#crimsonArmor62)"/>
+    <path d="M 60 192 L 110 196 L 140 196 L 196 192 L 196 220 L 60 220 Z" fill="#5a1a18" opacity="0.85"/>
+    <path d="M 30 200 L 60 198 L 56 230 L 26 232 Z" fill="#3a0e08" opacity="0.95"/>
+    <path d="M 218 200 L 192 198 L 196 230 L 222 232 Z" fill="#5a2010" opacity="0.95"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 60 200 L 100 220" stroke="#3a0e08" stroke-width="1.2"/>
+    <path d="M 80 196 L 78 230" stroke="#5a2010" stroke-width="0.5" opacity="0.7"/>
+    <path d="M 196 200 L 162 220" stroke="#3a0e08" stroke-width="1.2"/>
+  </g>
+
+  <g opacity="0.85">
+    <ellipse cx="80" cy="206" rx="6" ry="2.2" fill="#0a0604"/>
+    <ellipse cx="160" cy="206" rx="6" ry="2.2" fill="#0a0604"/>
+    <ellipse cx="120" cy="200" rx="3" ry="1.4" fill="#0a0604"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#bloom62)">
+    <circle cx="50" cy="206" r="2" fill="#dc4540"/>
+    <circle cx="196" cy="206" r="2" fill="#dc4540"/>
+    <circle cx="120" cy="216" r="1.6" fill="#dc4540"/>
+  </g>
+
+  <g opacity="0.6">
+    <line x1="60" y1="80" x2="186" y2="80" stroke="#88a0c8" stroke-width="0.3"/>
+    <line x1="60" y1="120" x2="186" y2="120" stroke="#88a0c8" stroke-width="0.3"/>
+    <line x1="60" y1="160" x2="186" y2="160" stroke="#88a0c8" stroke-width="0.3"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="78" y="116" width="42" height="2" fill="#5878a8"/>
+    <rect x="154" y="118" width="42" height="2" fill="#5878a8"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#bloom62)">
+    <ellipse cx="123" cy="208" rx="40" ry="6" fill="#5878a8"/>
+  </g>
+</svg>
