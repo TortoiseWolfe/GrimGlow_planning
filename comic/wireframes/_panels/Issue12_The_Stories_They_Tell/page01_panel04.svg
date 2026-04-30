@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 240" width="247" height="240">
+  <title>Issue 12 Page 1 Panel 4 — Thresh descending into stairwell, "Soldier, entering Basement Charlie. It's dark down here."</title>
+  <desc>Medium shot slight high angle looking down. Tiny figure descends Victorian industrial basement stairwell, weapon drawn, moving through heavy shadows. Broad-shouldered powerfully muscular woman, athletic, pale skin, defined cheekbones, copper-red buzz cut. Ruby-crimson metallic suit at maximum degradation — armored plating dented, gouged, scratched. Crimson edge-lighting stutters and pulses unevenly. White-knuckle grip on rifle. Fear and purpose together. Grey dawn light cuts wedge into total darkness below.</desc>
+  <defs>
+    <linearGradient id="bgI4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6878"/>
+      <stop offset="0.4" stop-color="#1a2030"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <radialGradient id="dawnWedgeI4" cx="0.5" cy="0.05" r="0.42">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#a87878" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stairWallI4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3848"/>
+      <stop offset="0.5" stop-color="#1a1828"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="stoneI4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4858"/>
+      <stop offset="0.5" stop-color="#3a2838"/>
+      <stop offset="1" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="suitThreshI4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a2530"/>
+      <stop offset="0.5" stop-color="#5a1820"/>
+      <stop offset="1" stop-color="#1a0810"/>
+    </linearGradient>
+    <linearGradient id="hairBuzzI4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85020"/>
+      <stop offset="0.5" stop-color="#7a3018"/>
+      <stop offset="1" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="skinThreshI4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8d8b8"/>
+      <stop offset="0.5" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="weaponI4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2230"/>
+      <stop offset="0.5" stop-color="#1a0810"/>
+      <stop offset="1" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="crimsonStutterI4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a2520" stop-opacity="0.85"/>
+      <stop offset="0.3" stop-color="#d83838" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#5a2520" stop-opacity="0.42"/>
+      <stop offset="0.7" stop-color="#d83838" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#8a2520" stop-opacity="0.62"/>
+    </linearGradient>
+    <filter id="bloomI4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowI4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <filter id="megaGlowI4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="247" height="240" fill="url(#bgI4)"/>
+  <rect width="247" height="240" fill="url(#dawnWedgeI4)"/>
+
+  <g>
+    <rect x="0" y="0" width="40" height="240" fill="url(#stairWallI4)"/>
+    <rect x="207" y="0" width="40" height="240" fill="url(#stairWallI4)"/>
+    <g opacity="0.55" stroke="#080404" stroke-width="0.55">
+      <line x1="0" y1="40" x2="40" y2="40"/>
+      <line x1="0" y1="80" x2="40" y2="80"/>
+      <line x1="0" y1="120" x2="40" y2="120"/>
+      <line x1="0" y1="160" x2="40" y2="160"/>
+      <line x1="0" y1="200" x2="40" y2="200"/>
+      <line x1="207" y1="40" x2="247" y2="40"/>
+      <line x1="207" y1="80" x2="247" y2="80"/>
+      <line x1="207" y1="120" x2="247" y2="120"/>
+      <line x1="207" y1="160" x2="247" y2="160"/>
+      <line x1="207" y1="200" x2="247" y2="200"/>
+    </g>
+  </g>
+
+  <g>
+    <path d="M 40 60 L 207 60 L 207 80 L 40 80 Z" fill="url(#stoneI4)"/>
+    <path d="M 40 100 L 207 100 L 207 120 L 40 120 Z" fill="url(#stoneI4)" opacity="0.85"/>
+    <path d="M 40 140 L 207 140 L 207 160 L 40 160 Z" fill="url(#stoneI4)" opacity="0.7"/>
+    <path d="M 40 180 L 207 180 L 207 200 L 40 200 Z" fill="url(#stoneI4)" opacity="0.55"/>
+    <path d="M 40 220 L 207 220 L 207 240 L 40 240 Z" fill="#040206" opacity="0.85"/>
+
+    <line x1="40" y1="60" x2="40" y2="240" stroke="#080404" stroke-width="0.85"/>
+    <line x1="207" y1="60" x2="207" y2="240" stroke="#080404" stroke-width="0.85"/>
+
+    <line x1="40" y1="80" x2="207" y2="80" stroke="#040206" stroke-width="0.55"/>
+    <line x1="40" y1="120" x2="207" y2="120" stroke="#040206" stroke-width="0.55"/>
+    <line x1="40" y1="160" x2="207" y2="160" stroke="#040206" stroke-width="0.55"/>
+    <line x1="40" y1="200" x2="207" y2="200" stroke="#040206" stroke-width="0.55"/>
+  </g>
+  <g opacity="0.55" filter="url(#bloomI4)">
+    <path d="M 40 0 L 207 0 L 207 80 L 40 80 Z" fill="#fff8d8" opacity="0.32"/>
+  </g>
+
+  <g>
+    <ellipse cx="124" cy="100" rx="22" ry="32" fill="url(#suitThreshI4)"/>
+    <path d="M 102 76 L 146 76 L 148 124 L 100 124 Z" fill="url(#suitThreshI4)"/>
+
+    <path d="M 100 80 L 110 76 L 108 88 L 100 92 Z" fill="#1a0810" opacity="0.85"/>
+    <path d="M 138 92 L 146 90 L 145 100 L 137 102 Z" fill="#1a0810" opacity="0.85"/>
+    <path d="M 124 108 L 132 108 L 130 116 L 122 116 Z" fill="#1a0810" opacity="0.85"/>
+
+    <line x1="102" y1="84" x2="148" y2="86" stroke="url(#crimsonStutterI4)" stroke-width="1.4" opacity="0.85"/>
+    <line x1="100" y1="124" x2="148" y2="124" stroke="url(#crimsonStutterI4)" stroke-width="1.4" opacity="0.85"/>
+    <line x1="122" y1="76" x2="124" y2="124" stroke="url(#crimsonStutterI4)" stroke-width="0.7" opacity="0.62"/>
+
+    <ellipse cx="124" cy="60" rx="14" ry="14" fill="url(#skinThreshI4)"/>
+    <path d="M 110 50 Q 124 38 138 50 Q 140 56 138 60 L 110 60 Q 110 56 110 50 Z" fill="url(#hairBuzzI4)"/>
+    <g opacity="0.55" stroke="#3a1808" stroke-width="0.4">
+      <line x1="114" y1="48" x2="114" y2="58"/>
+      <line x1="120" y1="46" x2="120" y2="58"/>
+      <line x1="124" y1="44" x2="124" y2="58"/>
+      <line x1="128" y1="46" x2="128" y2="58"/>
+      <line x1="134" y1="48" x2="134" y2="58"/>
+    </g>
+
+    <circle cx="120" cy="62" r="0.85" fill="#0a0604"/>
+    <circle cx="128" cy="62" r="0.85" fill="#0a0604"/>
+    <path d="M 122 70 Q 124 71 126 70" stroke="#1a0a08" stroke-width="0.55" fill="none"/>
+
+    <path d="M 100 124 Q 92 140 88 158" stroke="url(#suitThreshI4)" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M 148 124 Q 156 140 160 158" stroke="url(#suitThreshI4)" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+    <rect x="86" y="124" width="14" height="6" rx="1" fill="url(#weaponI4)"/>
+    <rect x="100" y="120" width="22" height="11" rx="1" fill="url(#weaponI4)"/>
+    <rect x="122" y="124" width="6" height="6" rx="1" fill="url(#weaponI4)"/>
+    <line x1="86" y1="125" x2="128" y2="125" stroke="url(#crimsonStutterI4)" stroke-width="0.7" opacity="0.85"/>
+
+    <ellipse cx="84" cy="160" rx="6" ry="3" fill="#5a3018"/>
+    <ellipse cx="164" cy="160" rx="6" ry="3" fill="#5a3018"/>
+
+    <ellipse cx="84" cy="160" rx="3" ry="1.4" fill="#fff8d8" opacity="0.62"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowI4)">
+    <line x1="100" y1="84" x2="148" y2="86" stroke="#d83838" stroke-width="3" opacity="0.55"/>
+    <line x1="100" y1="124" x2="148" y2="124" stroke="#d83838" stroke-width="3" opacity="0.55"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowI4)">
+    <ellipse cx="124" cy="100" rx="40" ry="40" fill="#8a2520" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="124" cy="220" rx="80" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="180" height="14" rx="3" fill="#1a1828" opacity="0.95" stroke="#8a2520" stroke-width="1.2"/>
+    <text x="86" y="10" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#d83838" font-weight="700">THRESH: "Basement Charlie. It's dark."</text>
+  </g>
+</svg>

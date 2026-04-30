@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 280" width="494" height="280">
+  <title>Issue 12 Page 1 Panel 5 — Sable on the church steeple, "Command in position. Steeple Delta."</title>
+  <desc>Wide low angle looking up at Victorian church steeple against dawn sky. Steeple stone and brick, heavy, bell housing visible above — enormous Victorian architecture. At top, barely visible against grey-pink dawn, tiny figure stands on steeple railing beside bell mechanism. Dark brown skin, silver-white military-cropped hair, metallic silver suit darkened to pewter by soot. Faint blue-white holographic tactical display hovers before her — city map with device locations and squad positions. Small point of authority at highest point.</desc>
+  <defs>
+    <linearGradient id="bgI5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87878"/>
+      <stop offset="0.4" stop-color="#7a8898"/>
+      <stop offset="0.7" stop-color="#5a4858"/>
+      <stop offset="1" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="dawnSkyI5" cx="0.95" cy="0.15" r="0.55">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steepleI5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4858"/>
+      <stop offset="0.4" stop-color="#3a2838"/>
+      <stop offset="1" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="bellHouseI5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a6878"/>
+      <stop offset="0.5" stop-color="#3a2838"/>
+      <stop offset="1" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="holoTacticalI5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8c0e0"/>
+      <stop offset="0.5" stop-color="#5a78a8"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <filter id="bloomI5" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowI5" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowI5" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="494" height="280" fill="url(#bgI5)"/>
+  <rect width="494" height="280" fill="url(#dawnSkyI5)"/>
+
+  <g>
+    <path d="M 240 0 L 254 0 L 250 14 L 244 14 Z" fill="#7a6878"/>
+    <circle cx="247" cy="0" r="2" fill="#5a4858"/>
+
+    <path d="M 220 14 L 274 14 L 264 60 L 230 60 Z" fill="url(#steepleI5)"/>
+    <path d="M 224 18 L 270 18 L 268 22 L 226 22 Z" fill="#080404" opacity="0.62"/>
+
+    <path d="M 200 60 L 294 60 L 286 130 L 208 130 Z" fill="url(#bellHouseI5)"/>
+    <rect x="220" y="80" width="22" height="40" rx="2" fill="#080404"/>
+    <rect x="252" y="80" width="22" height="40" rx="2" fill="#080404"/>
+
+    <ellipse cx="231" cy="100" rx="6" ry="9" fill="#3a2818"/>
+    <line x1="231" y1="80" x2="231" y2="92" stroke="#1a0a04" stroke-width="0.85"/>
+    <ellipse cx="263" cy="100" rx="6" ry="9" fill="#3a2818"/>
+    <line x1="263" y1="80" x2="263" y2="92" stroke="#1a0a04" stroke-width="0.85"/>
+
+    <rect x="190" y="130" width="114" height="14" fill="url(#steepleI5)"/>
+    <line x1="190" y1="130" x2="304" y2="130" stroke="#080404" stroke-width="0.85"/>
+
+    <path d="M 180 144 L 314 144 L 320 280 L 174 280 Z" fill="url(#steepleI5)"/>
+    <g opacity="0.62" stroke="#080404" stroke-width="0.55">
+      <line x1="180" y1="180" x2="316" y2="180"/>
+      <line x1="180" y1="216" x2="318" y2="216"/>
+      <line x1="180" y1="252" x2="320" y2="252"/>
+      <line x1="220" y1="144" x2="222" y2="280"/>
+      <line x1="260" y1="144" x2="262" y2="280"/>
+    </g>
+
+    <ellipse cx="210" cy="190" rx="11" ry="14" fill="#080404"/>
+    <ellipse cx="247" cy="200" rx="11" ry="14" fill="#080404"/>
+    <ellipse cx="284" cy="190" rx="11" ry="14" fill="#080404"/>
+
+    <rect x="190" y="138" width="114" height="6" fill="#080404"/>
+    <g opacity="0.62" stroke="#5a4858" stroke-width="0.55">
+      <line x1="200" y1="130" x2="200" y2="142"/>
+      <line x1="220" y1="130" x2="220" y2="142"/>
+      <line x1="240" y1="130" x2="240" y2="142"/>
+      <line x1="260" y1="130" x2="260" y2="142"/>
+      <line x1="280" y1="130" x2="280" y2="142"/>
+      <line x1="294" y1="130" x2="294" y2="142"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="247" cy="136" rx="3" ry="6" fill="#3a4858"/>
+    <circle cx="247" cy="130" r="1.4" fill="#5a3818"/>
+  </g>
+
+  <g>
+    <line x1="252" y1="132" x2="296" y2="116" stroke="#a8c0e0" stroke-width="0.4" opacity="0.62" stroke-dasharray="2,2"/>
+    <rect x="296" y="100" width="60" height="32" rx="2" fill="none" stroke="#5a78a8" stroke-width="0.55" opacity="0.85"/>
+    <rect x="298" y="102" width="56" height="6" fill="#0a0a14" opacity="0.62"/>
+    <text x="302" y="107" font-family="monospace" font-size="3" fill="#a8c0e0">TACTICAL</text>
+
+    <g opacity="0.85">
+      <path d="M 304 114 L 310 114 L 312 116 L 310 118 L 304 118 Z" fill="none" stroke="#a8c0e0" stroke-width="0.4"/>
+      <line x1="312" y1="116" x2="324" y2="118" stroke="#a8c0e0" stroke-width="0.4"/>
+      <circle cx="324" cy="118" r="0.85" fill="#3a8858"/>
+      <circle cx="332" cy="120" r="0.85" fill="#d88838"/>
+      <circle cx="340" cy="124" r="0.85" fill="#d83838"/>
+      <circle cx="346" cy="126" r="0.85" fill="#a878d8"/>
+      <line x1="312" y1="120" x2="346" y2="126" stroke="#5a78a8" stroke-width="0.4" stroke-dasharray="1,1"/>
+
+      <text x="302" y="124" font-family="monospace" font-size="2.4" fill="#a8c0e0">ALPHA</text>
+      <text x="302" y="128" font-family="monospace" font-size="2.4" fill="#a8c0e0">BRAVO</text>
+    </g>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowI5)">
+    <rect x="296" y="100" width="60" height="32" fill="#a8c0e0" opacity="0.42"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowI5)">
+    <rect x="296" y="100" width="60" height="32" fill="#5a78a8" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomI5)">
+    <circle cx="247" cy="138" r="6" fill="#a8c0e0" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#strongGlowI5)">
+    <ellipse cx="350" cy="60" rx="80" ry="22" fill="#fff8d8" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="280" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#a8c0e0" stroke-width="1.2"/>
+    <text x="130" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a8c0e0" font-weight="700">SABLE (radio): "Command in position. Steeple Delta."</text>
+    <text x="130" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a8c0e0" font-style="italic" font-weight="700">"I have tactical. All teams proceed."</text>
+  </g>
+</svg>
