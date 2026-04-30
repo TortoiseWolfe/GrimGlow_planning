@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 260" width="366" height="260">
+  <title>Issue 9 Page 3 Panel 2 — The data module in Sable's palm, corrupted holographic display</title>
+  <desc>Close-up high angle of data module on soot-darkened silver gauntlet. Holographic blue-white display blooms upward — geometric fairy script scrolling, glitching. Fragments legible: MISSION CLASSIFICATION, CONVERGENCE INTERVENTION. Hairline crack across casing.</desc>
+  <defs>
+    <linearGradient id="bg32" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0e16"/>
+      <stop offset="0.5" stop-color="#1a1f2c"/>
+      <stop offset="1" stop-color="#0a0c14"/>
+    </linearGradient>
+    <radialGradient id="modulePool32" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#88a8d0" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#5878a8" stop-opacity="0.5"/>
+      <stop offset="0.8" stop-color="#1a2838" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#0a0c14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gauntlet32" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a626a"/>
+      <stop offset="0.5" stop-color="#3a3e44"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="moduleCase32" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2e34"/>
+      <stop offset="0.6" stop-color="#1a1c22"/>
+      <stop offset="1" stop-color="#080a10"/>
+    </linearGradient>
+    <linearGradient id="moduleGlass32" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#88a8d0"/>
+      <stop offset="0.5" stop-color="#a8c0e0"/>
+      <stop offset="1" stop-color="#5878a8"/>
+    </linearGradient>
+    <linearGradient id="beamWood32" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#2a1c10"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <filter id="bloom32" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="megaGlow32" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="strongGlow32" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="260" fill="url(#bg32)"/>
+  <rect width="366" height="260" fill="url(#modulePool32)"/>
+
+  <g>
+    <rect x="0" y="200" width="366" height="60" fill="url(#beamWood32)"/>
+    <line x1="40" y1="200" x2="42" y2="260" stroke="#0e0805" stroke-width="0.8"/>
+    <line x1="120" y1="200" x2="118" y2="260" stroke="#0e0805" stroke-width="0.8"/>
+    <line x1="220" y1="200" x2="222" y2="260" stroke="#0e0805" stroke-width="0.8"/>
+    <line x1="320" y1="200" x2="318" y2="260" stroke="#0e0805" stroke-width="0.8"/>
+  </g>
+
+  <g opacity="0.6">
+    <ellipse cx="183" cy="220" rx="170" ry="40" fill="#3a4a5a" opacity="0.4" filter="url(#strongGlow32)"/>
+  </g>
+
+  <g>
+    <path d="M 60 200 L 90 180 Q 130 168 200 168 Q 270 168 306 180 L 326 200 Z" fill="url(#gauntlet32)"/>
+    <path d="M 80 188 Q 130 180 200 180 Q 264 180 300 188 L 300 196 Q 240 192 200 192 Q 130 192 80 196 Z" fill="#1a1c20" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.7">
+    <line x1="100" y1="186" x2="106" y2="200" stroke="#0a0a0e" stroke-width="0.6"/>
+    <line x1="160" y1="184" x2="164" y2="200" stroke="#0a0a0e" stroke-width="0.6"/>
+    <line x1="220" y1="184" x2="218" y2="200" stroke="#0a0a0e" stroke-width="0.6"/>
+    <line x1="280" y1="186" x2="276" y2="200" stroke="#0a0a0e" stroke-width="0.6"/>
+    <ellipse cx="120" cy="190" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="248" cy="190" rx="6" ry="2" fill="#080404"/>
+  </g>
+
+  <g>
+    <rect x="142" y="160" width="80" height="32" rx="4" fill="url(#moduleCase32)" stroke="#3a3e44" stroke-width="1.2"/>
+    <rect x="146" y="164" width="72" height="20" rx="2" fill="#080a10"/>
+    <rect x="150" y="166" width="64" height="16" rx="1" fill="url(#moduleGlass32)" opacity="0.85"/>
+    <line x1="150" y1="186" x2="218" y2="186" stroke="#3a3e44" stroke-width="0.6"/>
+    <circle cx="156" cy="189" r="1" fill="#5a626a"/>
+    <circle cx="208" cy="189" r="1" fill="#5a626a"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M 144 174 L 220 168" stroke="#5a3018" stroke-width="0.6" opacity="0.7"/>
+    <path d="M 158 192 L 162 160" stroke="#0e0e14" stroke-width="0.5" opacity="0.6"/>
+    <line x1="220" y1="180" x2="222" y2="174" stroke="#0e0e14" stroke-width="0.5"/>
+  </g>
+
+  <g opacity="0.65" filter="url(#megaGlow32)">
+    <ellipse cx="183" cy="100" rx="120" ry="80" fill="#5878a8"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlow32)">
+    <ellipse cx="183" cy="100" rx="80" ry="60" fill="#88a8d0"/>
+  </g>
+  <g opacity="0.92" filter="url(#bloom32)">
+    <ellipse cx="183" cy="100" rx="50" ry="40" fill="#a8c0e0"/>
+  </g>
+
+  <g>
+    <line x1="146" y1="156" x2="156" y2="40" stroke="#5878a8" stroke-width="0.4" opacity="0.55"/>
+    <line x1="218" y1="156" x2="208" y2="40" stroke="#5878a8" stroke-width="0.4" opacity="0.55"/>
+    <line x1="178" y1="156" x2="178" y2="40" stroke="#5878a8" stroke-width="0.4" opacity="0.55"/>
+    <line x1="186" y1="156" x2="186" y2="40" stroke="#5878a8" stroke-width="0.4" opacity="0.55"/>
+  </g>
+
+  <g font-family="Courier New, monospace" fill="#c0d8f0" opacity="0.95">
+    <text x="183" y="58" text-anchor="middle" font-size="6" letter-spacing="2">M I S S I O N</text>
+    <text x="183" y="72" text-anchor="middle" font-size="5" letter-spacing="1.5">C L A S S I F I C A T I O N</text>
+    <text x="183" y="92" text-anchor="middle" font-size="6.5" letter-spacing="2.5" font-weight="700">CONVERGENCE</text>
+    <text x="183" y="108" text-anchor="middle" font-size="6.5" letter-spacing="2.5" font-weight="700">INTERVENTION</text>
+    <text x="183" y="124" text-anchor="middle" font-size="4" opacity="0.6">[ corrupted segment ]</text>
+    <text x="183" y="138" text-anchor="middle" font-size="4" opacity="0.5">▓▒░ ··· ░▒▓</text>
+  </g>
+
+  <g opacity="0.4">
+    <text x="100" y="46" font-family="Courier New, monospace" font-size="4" fill="#88a0c8">▓▒░</text>
+    <text x="240" y="46" font-family="Courier New, monospace" font-size="4" fill="#88a0c8">░▒▓</text>
+    <text x="80" y="100" font-family="Courier New, monospace" font-size="3.5" fill="#5878a8">··</text>
+    <text x="280" y="100" font-family="Courier New, monospace" font-size="3.5" fill="#5878a8">··</text>
+  </g>
+
+  <g opacity="0.65" stroke="#a8c0e0" stroke-width="0.4" fill="none">
+    <line x1="120" y1="64" x2="246" y2="64"/>
+    <line x1="115" y1="78" x2="251" y2="78"/>
+    <line x1="120" y1="100" x2="246" y2="100"/>
+    <line x1="115" y1="116" x2="251" y2="116"/>
+    <line x1="125" y1="132" x2="241" y2="132"/>
+    <line x1="130" y1="146" x2="236" y2="146"/>
+  </g>
+
+  <g opacity="0.55">
+    <rect x="135" y="74" width="98" height="2" fill="#1a2838"/>
+    <rect x="135" y="118" width="98" height="2" fill="#1a2838"/>
+    <rect x="146" y="106" width="76" height="3" fill="#88a0c8" opacity="0.6"/>
+  </g>
+
+  <g opacity="0.9">
+    <line x1="142" y1="160" x2="148" y2="156" stroke="#a8c0e0" stroke-width="1.2"/>
+    <line x1="222" y1="160" x2="216" y2="156" stroke="#a8c0e0" stroke-width="1.2"/>
+    <line x1="148" y1="156" x2="216" y2="156" stroke="#c0d8f0" stroke-width="1.4"/>
+  </g>
+
+  <g opacity="0.4">
+    <line x1="80" y1="40" x2="78" y2="200" stroke="#5878a8" stroke-width="0.3"/>
+    <line x1="286" y1="40" x2="288" y2="200" stroke="#5878a8" stroke-width="0.3"/>
+  </g>
+</svg>
