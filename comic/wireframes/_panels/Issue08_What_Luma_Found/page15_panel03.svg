@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 8 — Page 15 — Panel 3: The child enters — wide eyes unconcerned curiosity, bare feet on cold cobblestones, gaslight wrapping like an aureole</title>
+  <desc>50mm medium eye level. Small child wandered into alley from street — perhaps five or six years old, wearing nightshirt too large, bare feet on cold cobblestones, tousled dark hair, wide dark eyes looking around with pure unconcerned curiosity. Stands in warm amber pool of gaslight — fully illuminated, light wrapping around like an aureole. Expression is open fearless curiosity of someone too young to know world is dangerous. Bare feet, small hands, warmth of recent sleep in flushed cheeks. Alley beyond gaslight pool dark shadow. Child hasn't noticed anything in darkness yet.</desc>
+
+  <defs>
+    <linearGradient id="i8p15p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p15p3cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <radialGradient id="i8p15p3aureole" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p15p3nightshirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d8b8"/>
+      <stop offset="100%" stop-color="#a89868"/>
+    </linearGradient>
+    <linearGradient id="i8p15p3childSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#c89868"/>
+    </linearGradient>
+    <filter id="i8p15p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p15p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p15p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p15p3megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#i8p15p3bg)"/>
+
+  <!-- Brick walls in shadow -->
+  <rect x="0" y="0" width="80" height="180" fill="#1a1208" opacity="0.85"/>
+  <rect x="280" y="0" width="86" height="180" fill="#1a1208" opacity="0.85"/>
+  <g stroke="#040408" stroke-width="0.4" opacity="0.55">
+    <line x1="0" y1="40" x2="80" y2="40"/>
+    <line x1="0" y1="80" x2="80" y2="80"/>
+    <line x1="0" y1="120" x2="80" y2="120"/>
+    <line x1="280" y1="40" x2="366" y2="40"/>
+    <line x1="280" y1="80" x2="366" y2="80"/>
+    <line x1="280" y1="120" x2="366" y2="120"/>
+  </g>
+
+  <!-- Cobblestone -->
+  <rect x="0" y="180" width="366" height="60" fill="url(#i8p15p3cobble)"/>
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.55">
+    <ellipse cx="40" cy="200" rx="11" ry="6"/>
+    <ellipse cx="100" cy="210" rx="11" ry="6"/>
+    <ellipse cx="200" cy="200" rx="11" ry="6"/>
+    <ellipse cx="280" cy="210" rx="11" ry="6"/>
+    <ellipse cx="320" cy="200" rx="11" ry="6"/>
+    <ellipse cx="80" cy="225" rx="11" ry="6"/>
+    <ellipse cx="180" cy="230" rx="11" ry="6"/>
+    <ellipse cx="280" cy="225" rx="11" ry="6"/>
+  </g>
+
+  <!-- ===== WARM AMBER AUREOLE — wrapping the child ===== -->
+  <ellipse cx="183" cy="120" rx="200" ry="160" fill="url(#i8p15p3aureole)" filter="url(#i8p15p3megaglow)"/>
+  <!-- Amber pool on cobblestones -->
+  <ellipse cx="183" cy="220" rx="160" ry="22" fill="url(#i8p15p3aureole)" filter="url(#i8p15p3megaglow)" opacity="0.85"/>
+
+  <!-- Cobblestones gleam beneath child -->
+  <g opacity="0.85" filter="url(#i8p15p3bloom)">
+    <ellipse cx="160" cy="210" rx="6" ry="2" fill="#ffd898" opacity="0.7"/>
+    <ellipse cx="200" cy="200" rx="6" ry="2" fill="#ffd898" opacity="0.7"/>
+    <ellipse cx="180" cy="225" rx="9" ry="3" fill="#ffd898" opacity="0.85"/>
+  </g>
+
+  <!-- ===== THE CHILD — center, fully illuminated in amber ===== -->
+  <g transform="translate(183 130)">
+    <!-- Nightshirt body (loose, oversized) -->
+    <path d="M-44,80 L-50,40 L-44,9 L-30,-22 L-14,-32 L14,-32 L30,-22 L44,9 L50,40 L44,80 L40,90 L-40,90 Z" fill="url(#i8p15p3nightshirt)"/>
+    <!-- Shadow folds in nightshirt -->
+    <path d="M-44,40 L-30,30" stroke="#7a6038" stroke-width="0.85" opacity="0.85"/>
+    <path d="M44,40 L30,30" stroke="#7a6038" stroke-width="0.85" opacity="0.85"/>
+    <path d="M-30,80 L-22,60" stroke="#7a6038" stroke-width="0.55" opacity="0.7"/>
+    <path d="M30,80 L22,60" stroke="#7a6038" stroke-width="0.55" opacity="0.7"/>
+    <!-- Nightshirt collar (visible at neck) -->
+    <path d="M-14,-32 L-9,-40 L9,-40 L14,-32 L9,-26 L-9,-26 Z" fill="#c8a878"/>
+    <!-- Sleeves (loose) -->
+    <path d="M-44,9 L-58,30 L-50,44 L-44,30 Z" fill="url(#i8p15p3nightshirt)"/>
+    <path d="M44,9 L58,30 L50,44 L44,30 Z" fill="url(#i8p15p3nightshirt)"/>
+
+    <!-- Tiny arms emerging from sleeves -->
+    <ellipse cx="-50" cy="40" rx="4" ry="3" fill="url(#i8p15p3childSkin)"/>
+    <ellipse cx="50" cy="40" rx="4" ry="3" fill="url(#i8p15p3childSkin)"/>
+
+    <!-- BARE FEET on cobblestones -->
+    <ellipse cx="-22" cy="98" rx="9" ry="4" fill="url(#i8p15p3childSkin)"/>
+    <ellipse cx="22" cy="98" rx="9" ry="4" fill="url(#i8p15p3childSkin)"/>
+    <!-- Tiny toes -->
+    <g fill="url(#i8p15p3childSkin)">
+      <circle cx="-30" cy="100" r="1"/>
+      <circle cx="-26" cy="102" r="1"/>
+      <circle cx="-22" cy="103" r="1"/>
+      <circle cx="-18" cy="102" r="1"/>
+      <circle cx="-14" cy="100" r="0.85"/>
+      <circle cx="14" cy="100" r="0.85"/>
+      <circle cx="18" cy="102" r="1"/>
+      <circle cx="22" cy="103" r="1"/>
+      <circle cx="26" cy="102" r="1"/>
+      <circle cx="30" cy="100" r="1"/>
+    </g>
+
+    <!-- Neck -->
+    <path d="M-9,-40 L9,-40 L7,-50 L-7,-50 Z" fill="url(#i8p15p3childSkin)"/>
+
+    <!-- Head — round child face -->
+    <ellipse cx="0" cy="-66" rx="22" ry="22" fill="url(#i8p15p3childSkin)"/>
+
+    <!-- Tousled dark hair -->
+    <path d="M-22,-86 Q0,-92 22,-86 L22,-66 Q11,-80 0,-80 Q-11,-80 -22,-66 Z" fill="#3a2818"/>
+    <!-- Hair tufts/cowlicks -->
+    <path d="M-14,-92 Q-9,-86 -7,-80" stroke="#3a2818" stroke-width="2" fill="none"/>
+    <path d="M9,-92 Q5,-86 3,-80" stroke="#3a2818" stroke-width="2" fill="none"/>
+    <ellipse cx="14" cy="-94" rx="3" ry="3" fill="#3a2818"/>
+    <ellipse cx="-11" cy="-90" rx="4" ry="3" fill="#3a2818"/>
+    <!-- Warm catch on hair (gaslight backlit) -->
+    <ellipse cx="0" cy="-92" rx="22" ry="3" fill="#ffd898" filter="url(#i8p15p3bloom)" opacity="0.85"/>
+
+    <!-- ===== WIDE INNOCENT EYES — wide, unconcerned, curious ===== -->
+    <ellipse cx="-9" cy="-66" rx="5" ry="4" fill="#fff8e8"/>
+    <circle cx="-9" cy="-66" r="2.5" fill="#3a2010"/>
+    <circle cx="-9" cy="-66" r="1.4" fill="#0a0408"/>
+    <ellipse cx="9" cy="-66" rx="5" ry="4" fill="#fff8e8"/>
+    <circle cx="9" cy="-66" r="2.5" fill="#3a2010"/>
+    <circle cx="9" cy="-66" r="1.4" fill="#0a0408"/>
+    <!-- Catchlights (warm gaslight) -->
+    <circle cx="-7" cy="-67" r="0.85" fill="#fff8d8" filter="url(#i8p15p3bloom)" opacity="0.95"/>
+    <circle cx="11" cy="-67" r="0.85" fill="#fff8d8" filter="url(#i8p15p3bloom)" opacity="0.95"/>
+
+    <!-- Lashes -->
+    <line x1="-14" y1="-71" x2="-14" y2="-73" stroke="#1a0808" stroke-width="0.55"/>
+    <line x1="-9" y1="-72" x2="-9" y2="-74" stroke="#1a0808" stroke-width="0.55"/>
+    <line x1="-3" y1="-71" x2="-3" y2="-73" stroke="#1a0808" stroke-width="0.55"/>
+    <line x1="3" y1="-71" x2="3" y2="-73" stroke="#1a0808" stroke-width="0.55"/>
+    <line x1="9" y1="-72" x2="9" y2="-74" stroke="#1a0808" stroke-width="0.55"/>
+    <line x1="14" y1="-71" x2="14" y2="-73" stroke="#1a0808" stroke-width="0.55"/>
+
+    <!-- Brows (small, soft) -->
+    <line x1="-14" y1="-77" x2="-3" y2="-77" stroke="#3a2818" stroke-width="0.85" opacity="0.7"/>
+    <line x1="3" y1="-77" x2="14" y2="-77" stroke="#3a2818" stroke-width="0.85" opacity="0.7"/>
+
+    <!-- Round flushed cheeks (warmth of sleep) -->
+    <ellipse cx="-15" cy="-58" rx="6" ry="4" fill="#e88868" opacity="0.55"/>
+    <ellipse cx="15" cy="-58" rx="6" ry="4" fill="#e88868" opacity="0.55"/>
+
+    <!-- Small button nose -->
+    <ellipse cx="0" cy="-58" rx="2" ry="1.4" fill="#a87838" opacity="0.55"/>
+
+    <!-- Mouth — slightly open in curiosity -->
+    <ellipse cx="0" cy="-50" rx="3" ry="1.4" fill="#3a1808"/>
+    <line x1="-3" y1="-50" x2="3" y2="-50" stroke="#1a0606" stroke-width="0.4"/>
+  </g>
+
+  <!-- (No dialogue) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,200 Q90,202 180,198 Q270,196 366,200"/>
+  </g>
+</svg>

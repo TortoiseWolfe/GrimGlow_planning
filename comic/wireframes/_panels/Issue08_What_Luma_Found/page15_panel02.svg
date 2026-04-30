@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 15 — Panel 2: A small silhouette enters the gaslight pool — small footsteps, not animal — Thresh raises weapon slowly, cautious not adrenaline</title>
+  <desc>35mm low angle from Thresh's position toward gaslight at far end. Weapon raised but not white-knuckle force — controlled cautious aim toward warm amber pool. In gaslight, small silhouette enters — backlit, shape of something small, not animal, unsteady footsteps of very young child rendered in slight sway. Warm amber light haloes around small figure. Alley between Thresh and child deep shadow. Thresh's face partially visible — alert, eyes narrowed, combat instinct warring with something else recognizing approaching shape is not threat. Crimson armor nodes pulse slightly brighter.</desc>
+
+  <defs>
+    <linearGradient id="i8p15p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p15p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <radialGradient id="i8p15p2gaslightHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a86838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p15p2childHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p15p2cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <linearGradient id="i8p15p2threshArmor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82818"/>
+      <stop offset="100%" stop-color="#3a0a0a"/>
+    </linearGradient>
+    <linearGradient id="i8p15p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0b888"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i8p15p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p15p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p15p2strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p15p2megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="742" height="300" fill="url(#i8p15p2bg)"/>
+
+  <!-- Brick walls — TOWERING from low angle -->
+  <rect x="0" y="0" width="200" height="240" fill="url(#i8p15p2brick)"/>
+  <rect x="540" y="0" width="202" height="240" fill="url(#i8p15p2brick)"/>
+  <!-- Mortar (large at low angle) -->
+  <g stroke="#040408" stroke-width="0.85" opacity="0.85">
+    <line x1="0" y1="60" x2="200" y2="60"/>
+    <line x1="0" y1="120" x2="200" y2="120"/>
+    <line x1="0" y1="180" x2="200" y2="180"/>
+    <line x1="540" y1="60" x2="742" y2="60"/>
+    <line x1="540" y1="120" x2="742" y2="120"/>
+    <line x1="540" y1="180" x2="742" y2="180"/>
+  </g>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.7">
+    <line x1="60" y1="0" x2="60" y2="60"/>
+    <line x1="120" y1="60" x2="120" y2="120"/>
+    <line x1="160" y1="120" x2="160" y2="180"/>
+    <line x1="80" y1="180" x2="80" y2="240"/>
+    <line x1="600" y1="0" x2="600" y2="60"/>
+    <line x1="680" y1="60" x2="680" y2="120"/>
+    <line x1="660" y1="180" x2="660" y2="240"/>
+  </g>
+  <g fill="#040408" opacity="0.7">
+    <ellipse cx="100" cy="100" rx="22" ry="9"/>
+    <ellipse cx="160" cy="200" rx="22" ry="9"/>
+    <ellipse cx="600" cy="100" rx="22" ry="9"/>
+    <ellipse cx="660" cy="200" rx="22" ry="9"/>
+  </g>
+
+  <!-- Cobblestone -->
+  <rect x="0" y="240" width="742" height="60" fill="url(#i8p15p2cobble)"/>
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.55">
+    <ellipse cx="60" cy="260" rx="11" ry="6"/>
+    <ellipse cx="160" cy="270" rx="11" ry="6"/>
+    <ellipse cx="280" cy="265" rx="11" ry="6"/>
+    <ellipse cx="380" cy="270" rx="11" ry="6"/>
+    <ellipse cx="480" cy="265" rx="11" ry="6"/>
+    <ellipse cx="600" cy="270" rx="11" ry="6"/>
+    <ellipse cx="700" cy="265" rx="11" ry="6"/>
+  </g>
+
+  <!-- ===== GASLIGHT at far end — wider halo (the child is in it) ===== -->
+  <g transform="translate(620 80)">
+    <rect x="-2" y="0" width="4" height="160" fill="#3a3030"/>
+    <rect x="-22" y="-26" width="22" height="22" fill="#1a1818"/>
+    <polygon points="-26,-26 4,-26 0,-36 -22,-36" fill="#3a3030"/>
+    <ellipse cx="-11" cy="-14" rx="6" ry="9" fill="#fff8d8" filter="url(#i8p15p2strongglow)" opacity="0.85"/>
+    <ellipse cx="-11" cy="-14" rx="3" ry="6" fill="#fff" filter="url(#i8p15p2bloom)"/>
+  </g>
+  <ellipse cx="600" cy="120" rx="240" ry="160" fill="url(#i8p15p2gaslightHalo)" filter="url(#i8p15p2megaglow)"/>
+  <ellipse cx="540" cy="270" rx="180" ry="30" fill="url(#i8p15p2gaslightHalo)" filter="url(#i8p15p2megaglow)" opacity="0.85"/>
+  <!-- Cobblestones gleam -->
+  <g opacity="0.85" filter="url(#i8p15p2bloom)">
+    <ellipse cx="440" cy="270" rx="6" ry="2" fill="#ffd898" opacity="0.55"/>
+    <ellipse cx="520" cy="265" rx="9" ry="3" fill="#ffd898" opacity="0.85"/>
+    <ellipse cx="600" cy="270" rx="9" ry="3" fill="#ffd898" opacity="0.85"/>
+  </g>
+
+  <!-- ===== SMALL CHILD SILHOUETTE entering the gaslight (backlit) ===== -->
+  <g transform="translate(560 220)">
+    <!-- Halo around child -->
+    <ellipse cx="0" cy="-22" rx="40" ry="44" fill="url(#i8p15p2childHalo)" filter="url(#i8p15p2megaglow)"/>
+    <!-- Child silhouette (5-6 yo, nightshirt too large) -->
+    <!-- Body (loose nightshirt) -->
+    <path d="M-22,30 L-26,11 L-22,-9 L-18,-22 L-7,-30 L7,-30 L18,-22 L22,-9 L26,11 L22,30 L18,40 L-18,40 Z" fill="#3a2818"/>
+    <!-- Backlight rim on edges of nightshirt (warm) -->
+    <path d="M-22,30 L-26,11 L-22,-9 L-18,-22 L-7,-30" stroke="#ffd898" stroke-width="0.85" fill="none" filter="url(#i8p15p2bloom)" opacity="0.85"/>
+    <path d="M7,-30 L18,-22 L22,-9 L26,11 L22,30" stroke="#ffd898" stroke-width="0.85" fill="none" filter="url(#i8p15p2bloom)" opacity="0.85"/>
+    <!-- Bare feet on cobblestones -->
+    <ellipse cx="-9" cy="42" rx="4" ry="2" fill="#3a2818"/>
+    <ellipse cx="9" cy="42" rx="4" ry="2" fill="#3a2818"/>
+    <!-- Backlight on feet -->
+    <ellipse cx="-9" cy="40" rx="4" ry="1" fill="#ffd898" opacity="0.7" filter="url(#i8p15p2bloom)"/>
+    <ellipse cx="9" cy="40" rx="4" ry="1" fill="#ffd898" opacity="0.7" filter="url(#i8p15p2bloom)"/>
+
+    <!-- Tiny arms at sides -->
+    <path d="M-22,-9 L-26,7 L-22,11 L-18,3 Z" fill="#3a2818"/>
+    <path d="M22,-9 L26,7 L22,11 L18,3 Z" fill="#3a2818"/>
+
+    <!-- Head silhouette (tousled hair haloed) -->
+    <ellipse cx="0" cy="-44" rx="11" ry="14" fill="#3a2818"/>
+    <!-- Tousled hair (irregular shape) -->
+    <ellipse cx="0" cy="-58" rx="14" ry="6" fill="#1a1410"/>
+    <circle cx="-7" cy="-58" r="5" fill="#1a1410"/>
+    <circle cx="7" cy="-58" r="5" fill="#1a1410"/>
+    <circle cx="-3" cy="-62" r="4" fill="#1a1410"/>
+    <!-- Backlight on hair -->
+    <ellipse cx="0" cy="-62" rx="14" ry="3" fill="#ffd898" filter="url(#i8p15p2bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ===== THRESH partially visible (left, near foreground) — weapon raised cautiously ===== -->
+  <g transform="translate(120 250)">
+    <!-- Body (partial, cropped at frame edge) -->
+    <path d="M-9,30 L-11,11 L-14,-9 L-11,-22 L-3,-32 L3,-32 L11,-22 L14,-9 L11,11 L9,30 Z" fill="url(#i8p15p2threshArmor)"/>
+    <!-- Heavy dents -->
+    <ellipse cx="-11" cy="-14" rx="3" ry="2" fill="#5a1410"/>
+    <ellipse cx="11" cy="-14" rx="3" ry="2" fill="#7a1810"/>
+    <!-- Chest scratch -->
+    <path d="M-5,-3 L5,3" stroke="#3a0a0a" stroke-width="1.4" opacity="0.85"/>
+    <!-- Suit accent — pulsing brighter (alert) -->
+    <line x1="0" y1="-22" x2="0" y2="22" stroke="#ffa898" stroke-width="0.55" opacity="0.85" filter="url(#i8p15p2bloom)"/>
+    <circle cx="-7" cy="-14" r="0.85" fill="#f04838" filter="url(#i8p15p2bloom)" opacity="0.85"/>
+    <circle cx="7" cy="-14" r="0.85" fill="#f04838" filter="url(#i8p15p2bloom)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="0.85" fill="#f04838" filter="url(#i8p15p2bloom)" opacity="0.85"/>
+
+    <!-- ===== WEAPON RAISED slowly — controlled cautious aim ===== -->
+    <path d="M11,-9 L26,-15 L36,-9 L18,-3 Z" fill="url(#i8p15p2threshArmor)"/>
+    <ellipse cx="32" cy="-15" rx="3" ry="2" fill="url(#i8p15p2skin)"/>
+    <!-- Compact rifle (raised but not white-knuckle) -->
+    <rect x="32" y="-18" width="40" height="6" fill="#0a0408" stroke="#040208" stroke-width="0.4"/>
+    <ellipse cx="50" cy="-15" rx="11" ry="0.85" fill="#f04838" filter="url(#i8p15p2bloom)" opacity="0.85"/>
+    <rect x="68" y="-16.5" width="9" height="3" fill="#1a1818"/>
+    <rect x="32" y="-18" width="6" height="6" fill="#3a2818"/>
+
+    <!-- Other arm bracing -->
+    <path d="M-11,-9 L-22,3 L-14,11 L-9,0 Z" fill="url(#i8p15p2threshArmor)"/>
+
+    <!-- Knees -->
+    <ellipse cx="-7" cy="14" rx="6" ry="3" fill="url(#i8p15p2threshArmor)"/>
+    <ellipse cx="7" cy="14" rx="6" ry="3" fill="url(#i8p15p2threshArmor)"/>
+
+    <!-- Head — partial face visible, eyes narrowed -->
+    <ellipse cx="2" cy="-30" rx="4" ry="5" fill="url(#i8p15p2skin)"/>
+    <path d="M-1,-34 Q2,-36 5,-34 L5,-30 Q2,-32 -1,-30 Z" fill="#a83820"/>
+    <!-- Eyes narrowed, alert -->
+    <ellipse cx="0" cy="-30" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="1" cy="-30" r="0.4" fill="#3a1808"/>
+    <ellipse cx="4" cy="-30" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="5" cy="-30" r="0.4" fill="#3a1808"/>
+    <line x1="-1" y1="-34" x2="2" y2="-34" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="3" y1="-34" x2="6" y2="-34" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- (No dialogue — the silence before recognition) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#040408" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>

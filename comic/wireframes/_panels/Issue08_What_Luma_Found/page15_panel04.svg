@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 8 — Page 15 — Panel 4: The child sees — head tilted, beginning of a smile, faint crimson reflected in their eyes — the child who sees</title>
+  <desc>85mm close-up. Child's face. Wide dark eyes focused downward toward something in shadow at wall's base — head tilted in childlike curiosity, beginning of a smile forming. Face in warm amber gaslight — tousled dark hair, round cheeks flushed from sleep, open expression of child who thinks they've found something wonderful. In child's eyes faint reflection — tiny point of crimson light in the dark. Warm amber light golden on child's skin. Behind child gaslight glows. Before child shadow holds its secret.</desc>
+
+  <defs>
+    <linearGradient id="i8p15p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i8p15p4amberWarm" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p15p4childSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#c89868"/>
+    </linearGradient>
+    <linearGradient id="i8p15p4nightshirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d8b8"/>
+      <stop offset="100%" stop-color="#a89868"/>
+    </linearGradient>
+    <filter id="i8p15p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p15p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p15p4strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p15p4megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#i8p15p4bg)"/>
+
+  <!-- Warm amber bath from above -->
+  <ellipse cx="183" cy="0" rx="280" ry="200" fill="url(#i8p15p4amberWarm)" filter="url(#i8p15p4megaglow)"/>
+
+  <!-- ===== CHILD'S FACE — close, warmly lit ===== -->
+  <g transform="translate(183 130)">
+    <!-- Nightshirt collar (bottom of frame) -->
+    <path d="M-66,80 L-44,40 L-22,30 L22,30 L44,40 L66,80 L80,140 L-80,140 Z" fill="url(#i8p15p4nightshirt)"/>
+    <path d="M-22,30 L-15,18 L15,18 L22,30 L15,40 L-15,40 Z" fill="#c8a878"/>
+
+    <!-- Neck -->
+    <path d="M-14,30 L14,30 L11,18 L-11,18 Z" fill="url(#i8p15p4childSkin)"/>
+
+    <!-- Head — full close-up, slight tilt to right (child curiosity) -->
+    <g transform="rotate(-8 0 -30)">
+      <ellipse cx="0" cy="-30" rx="44" ry="44" fill="url(#i8p15p4childSkin)"/>
+
+      <!-- Tousled dark hair -->
+      <path d="M-44,-66 Q0,-78 44,-66 L44,-30 Q22,-50 0,-50 Q-22,-50 -44,-30 Z" fill="#3a2818"/>
+      <!-- Hair tufts -->
+      <path d="M-22,-78 Q-15,-66 -11,-58" stroke="#3a2818" stroke-width="3" fill="none"/>
+      <path d="M14,-80 Q9,-66 5,-58" stroke="#3a2818" stroke-width="3" fill="none"/>
+      <ellipse cx="22" cy="-80" rx="6" ry="4" fill="#3a2818"/>
+      <ellipse cx="-22" cy="-78" rx="6" ry="4" fill="#3a2818"/>
+      <!-- Warm backlight on hair -->
+      <ellipse cx="0" cy="-78" rx="40" ry="6" fill="#ffd898" filter="url(#i8p15p4bloom)" opacity="0.85"/>
+
+      <!-- ===== EYES — focused DOWN at shadow ===== -->
+      <ellipse cx="-15" cy="-26" rx="9" ry="6" fill="#fff8e8"/>
+      <ellipse cx="-15" cy="-23" rx="5" ry="4" fill="#3a2010"/>
+      <circle cx="-15" cy="-23" r="3" fill="#0a0408"/>
+      <ellipse cx="15" cy="-26" rx="9" ry="6" fill="#fff8e8"/>
+      <ellipse cx="15" cy="-23" rx="5" ry="4" fill="#3a2010"/>
+      <circle cx="15" cy="-23" r="3" fill="#0a0408"/>
+
+      <!-- ===== CRIMSON REFLECTION in eyes (tiny point of Thresh's suit node) ===== -->
+      <circle cx="-12" cy="-22" r="0.85" fill="#f04838" filter="url(#i8p15p4bloom)" opacity="0.95"/>
+      <circle cx="18" cy="-22" r="0.85" fill="#f04838" filter="url(#i8p15p4bloom)" opacity="0.95"/>
+      <!-- Warm amber catchlight (above the crimson) -->
+      <circle cx="-12" cy="-26" r="1.4" fill="#fff8d8" filter="url(#i8p15p4bloom)" opacity="0.95"/>
+      <circle cx="18" cy="-26" r="1.4" fill="#fff8d8" filter="url(#i8p15p4bloom)" opacity="0.95"/>
+
+      <!-- Lashes upper -->
+      <line x1="-22" y1="-32" x2="-22" y2="-36" stroke="#1a0808" stroke-width="0.85"/>
+      <line x1="-17" y1="-32" x2="-17" y2="-37" stroke="#1a0808" stroke-width="0.85"/>
+      <line x1="-12" y1="-32" x2="-12" y2="-36" stroke="#1a0808" stroke-width="0.85"/>
+      <line x1="-7" y1="-32" x2="-7" y2="-35" stroke="#1a0808" stroke-width="0.85"/>
+      <line x1="7" y1="-32" x2="7" y2="-35" stroke="#1a0808" stroke-width="0.85"/>
+      <line x1="12" y1="-32" x2="12" y2="-36" stroke="#1a0808" stroke-width="0.85"/>
+      <line x1="17" y1="-32" x2="17" y2="-37" stroke="#1a0808" stroke-width="0.85"/>
+      <line x1="22" y1="-32" x2="22" y2="-36" stroke="#1a0808" stroke-width="0.85"/>
+
+      <!-- Brows (small, soft, slightly raised in curiosity) -->
+      <line x1="-22" y1="-40" x2="-9" y2="-42" stroke="#3a2818" stroke-width="1.4" opacity="0.85"/>
+      <line x1="9" y1="-42" x2="22" y2="-40" stroke="#3a2818" stroke-width="1.4" opacity="0.85"/>
+
+      <!-- Round flushed cheeks (warmth of sleep) -->
+      <ellipse cx="-30" cy="-9" rx="9" ry="6" fill="#e88868" opacity="0.55"/>
+      <ellipse cx="30" cy="-9" rx="9" ry="6" fill="#e88868" opacity="0.55"/>
+
+      <!-- Small button nose -->
+      <ellipse cx="0" cy="-9" rx="3" ry="2" fill="#a87838" opacity="0.55"/>
+      <line x1="-2" y1="-7" x2="2" y2="-7" stroke="#7a4818" stroke-width="0.4"/>
+
+      <!-- ===== MOUTH — beginning of a smile (the moment) ===== -->
+      <path d="M-9,5 Q0,11 9,5" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+      <!-- Slight parting -->
+      <path d="M-7,7 Q0,9 7,7" stroke="#1a0606" stroke-width="0.55" fill="none" opacity="0.7"/>
+      <!-- Tiny gleam of teeth (small smile) -->
+      <line x1="-3" y1="9" x2="3" y2="9" stroke="#fff8e8" stroke-width="0.4" opacity="0.7"/>
+    </g>
+
+  </g>
+
+  <!-- (No dialogue — the moment of seeing IS the panel) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,200 Q90,202 180,198 Q270,196 366,200"/>
+  </g>
+</svg>
