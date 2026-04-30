@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
+  <title>Issue 10 Page 17 Panel 1 — Squad regroups, Wren holds up the induction coil</title>
+  <desc>Wide telegraph office in grey-blue early dawn. Devastation complete — overturned desks, shattered telegraph machines, scattered paper, breach in rear wall, burned-out device in junction box still faintly smoking. Plaster dust covers everything. Five tiny figures regroup at primary desk — degraded metallic suits showing heavy new battle damage. Copper-suited figure holds up small brass and copper component — the induction coil, original mission objective. Mission complete at terrible cost.</desc>
+  <defs>
+    <linearGradient id="bgX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1a28"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <radialGradient id="dawnX1" cx="0.85" cy="0.2" r="0.45">
+      <stop offset="0" stop-color="#5a78a8" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#3a4868" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="amberRecX1" cx="0.18" cy="0.35" r="0.32">
+      <stop offset="0" stop-color="#a87838" stop-opacity="0.4"/>
+      <stop offset="0.5" stop-color="#5a3018" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1008"/>
+      <stop offset="0.5" stop-color="#0e0805"/>
+      <stop offset="1" stop-color="#040202"/>
+    </linearGradient>
+    <linearGradient id="wallX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a261a"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="deskTopX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3a20"/>
+      <stop offset="0.5" stop-color="#3a2410"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="brassCoilX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d88838"/>
+      <stop offset="0.5" stop-color="#a85820"/>
+      <stop offset="1" stop-color="#5a2e10"/>
+    </linearGradient>
+    <linearGradient id="copperWireX1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4b860"/>
+      <stop offset="0.5" stop-color="#a85820"/>
+      <stop offset="1" stop-color="#5a2e10"/>
+    </linearGradient>
+    <filter id="bloomX1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <filter id="strongGlowX1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="dustBlurX1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="240" fill="url(#bgX1)"/>
+  <rect width="742" height="240" fill="url(#dawnX1)"/>
+  <rect width="742" height="240" fill="url(#amberRecX1)"/>
+
+  <g>
+    <rect x="0" y="170" width="742" height="70" fill="url(#floorX1)"/>
+    <line x1="0" y1="180" x2="742" y2="178" stroke="#1a1008" stroke-width="0.5" opacity="0.55"/>
+    <line x1="0" y1="200" x2="742" y2="198" stroke="#1a1008" stroke-width="0.4" opacity="0.5"/>
+    <line x1="0" y1="220" x2="742" y2="218" stroke="#1a1008" stroke-width="0.4" opacity="0.45"/>
+  </g>
+
+  <g>
+    <rect x="0" y="0" width="742" height="170" fill="url(#wallX1)" opacity="0.92"/>
+    <g opacity="0.55" stroke="#1a0a08" stroke-width="0.5" fill="none">
+      <line x1="0" y1="40" x2="742" y2="40"/>
+      <line x1="0" y1="80" x2="742" y2="80"/>
+      <line x1="0" y1="120" x2="742" y2="120"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="540" y="20" width="80" height="100" fill="#3a4868" opacity="0.65"/>
+    <rect x="540" y="20" width="80" height="100" fill="none" stroke="#1a0a08" stroke-width="1.6"/>
+    <line x1="580" y1="20" x2="580" y2="120" stroke="#1a0a08" stroke-width="1"/>
+    <line x1="540" y1="70" x2="620" y2="70" stroke="#1a0a08" stroke-width="1"/>
+
+    <rect x="640" y="20" width="80" height="100" fill="#3a4868" opacity="0.65"/>
+    <rect x="640" y="20" width="80" height="100" fill="none" stroke="#1a0a08" stroke-width="1.6"/>
+    <line x1="680" y1="20" x2="680" y2="120" stroke="#1a0a08" stroke-width="1"/>
+    <line x1="640" y1="70" x2="720" y2="70" stroke="#1a0a08" stroke-width="1"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowX1)">
+    <rect x="540" y="20" width="80" height="100" fill="#a8c0e0" opacity="0.32"/>
+    <rect x="640" y="20" width="80" height="100" fill="#a8c0e0" opacity="0.32"/>
+  </g>
+
+  <g>
+    <rect x="40" y="40" width="50" height="60" rx="2" fill="#1a1008" stroke="#080404" stroke-width="1"/>
+    <rect x="44" y="44" width="42" height="40" fill="#080404"/>
+    <line x1="44" y1="54" x2="86" y2="54" stroke="#3a1a08" stroke-width="0.4"/>
+    <line x1="44" y1="64" x2="86" y2="64" stroke="#3a1a08" stroke-width="0.4"/>
+    <line x1="44" y1="74" x2="86" y2="74" stroke="#3a1a08" stroke-width="0.4"/>
+    <ellipse cx="65" cy="58" rx="6" ry="3" fill="#3a1a08"/>
+  </g>
+  <g opacity="0.5" filter="url(#bloomX1)">
+    <ellipse cx="64" cy="56" rx="3" ry="1.6" fill="#5a2818" opacity="0.55"/>
+  </g>
+  <g opacity="0.55">
+    <circle cx="80" cy="48" r="0.7" fill="#a87838"/>
+    <circle cx="58" cy="52" r="0.6" fill="#5a2818"/>
+  </g>
+
+  <g>
+    <rect x="120" y="170" width="142" height="6" fill="url(#deskTopX1)" opacity="0.75"/>
+    <line x1="120" y1="172" x2="262" y2="172" stroke="#080404" stroke-width="0.5"/>
+    <line x1="240" y1="170" x2="245" y2="240" stroke="#080404" stroke-width="2.5"/>
+    <line x1="125" y1="170" x2="118" y2="240" stroke="#080404" stroke-width="2.5"/>
+  </g>
+
+  <g>
+    <rect x="320" y="146" width="320" height="30" fill="url(#deskTopX1)"/>
+    <line x1="320" y1="148" x2="640" y2="148" stroke="#1a1008" stroke-width="0.6" opacity="0.85"/>
+    <line x1="324" y1="160" x2="636" y2="160" stroke="#1a0a04" stroke-width="0.4" opacity="0.5"/>
+    <line x1="328" y1="170" x2="332" y2="240" stroke="#080404" stroke-width="2.5"/>
+    <line x1="630" y1="170" x2="626" y2="240" stroke="#080404" stroke-width="2.5"/>
+  </g>
+
+  <g opacity="0.85">
+    <rect x="380" y="120" width="80" height="26" rx="3" fill="url(#deskTopX1)" stroke="#080404" stroke-width="0.6"/>
+    <ellipse cx="402" cy="116" rx="14" ry="3" fill="url(#brassCoilX1)"/>
+    <rect x="394" y="110" width="16" height="6" rx="1.5" fill="#a85820"/>
+    <line x1="380" y1="128" x2="460" y2="128" stroke="#5a3018" stroke-width="0.4"/>
+
+    <rect x="500" y="124" width="60" height="22" rx="2" fill="url(#deskTopX1)" stroke="#080404" stroke-width="0.5"/>
+    <circle cx="514" cy="135" r="5" fill="url(#brassCoilX1)" stroke="#5a2e10" stroke-width="0.4"/>
+    <circle cx="540" cy="135" r="5" fill="url(#brassCoilX1)" stroke="#5a2e10" stroke-width="0.4"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#dustBlurX1)">
+    <ellipse cx="120" cy="140" rx="80" ry="20" fill="#a89888" opacity="0.4"/>
+    <ellipse cx="320" cy="160" rx="100" ry="14" fill="#a89888" opacity="0.32"/>
+    <ellipse cx="600" cy="155" rx="80" ry="16" fill="#a89888" opacity="0.32"/>
+  </g>
+  <g opacity="0.7">
+    <ellipse cx="60" cy="186" rx="8" ry="1.4" fill="#a89888"/>
+    <ellipse cx="180" cy="200" rx="11" ry="1.6" fill="#a89888"/>
+    <ellipse cx="420" cy="190" rx="9" ry="1.4" fill="#a89888"/>
+    <ellipse cx="640" cy="200" rx="10" ry="1.6" fill="#a89888"/>
+    <ellipse cx="700" cy="186" rx="8" ry="1.4" fill="#a89888"/>
+
+    <polygon points="200,180 210,176 216,182 208,186" fill="#3a1a14" opacity="0.55"/>
+    <polygon points="660,178 670,174 676,182 668,184" fill="#3a1a14" opacity="0.55"/>
+    <polygon points="380,210 388,206 394,212 384,216" fill="#3a1a14" opacity="0.5"/>
+  </g>
+
+  <g opacity="0.85">
+    <rect x="80" y="186" width="60" height="14" fill="#3a2010" stroke="#080404" stroke-width="0.4"/>
+    <line x1="86" y1="190" x2="134" y2="190" stroke="#5a3018" stroke-width="0.4"/>
+    <ellipse cx="100" cy="194" rx="2" ry="1" fill="#5a3018"/>
+
+    <rect x="180" y="200" width="40" height="6" fill="#3a2010" stroke="#080404" stroke-width="0.4"/>
+    <rect x="220" y="206" width="22" height="4" fill="#3a2010" opacity="0.85"/>
+    <ellipse cx="240" cy="216" rx="9" ry="3" fill="#3a2010" stroke="#080404" stroke-width="0.4"/>
+
+    <path d="M 170 220 L 178 232 L 168 240 L 158 230 Z" fill="#3a2010" stroke="#080404" stroke-width="0.4"/>
+  </g>
+
+  <g opacity="0.92">
+    <ellipse cx="430" cy="138" rx="5" ry="6" fill="#3a261a"/>
+    <path d="M 426 132 Q 430 128 434 130 L 434 134 Q 432 130 430 130 Q 428 130 426 134 Z" fill="#1a0808"/>
+    <path d="M 422 144 L 438 144 L 440 168 L 420 168 Z" fill="#9a5828"/>
+    <path d="M 422 146 L 438 146 L 438 164 L 422 164 Z" fill="#5a2e10" opacity="0.7"/>
+
+    <path d="M 422 144 L 416 138 L 412 124" stroke="#9a5828" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 412 124 L 408 116" stroke="#9a5828" stroke-width="2" stroke-linecap="round"/>
+
+    <ellipse cx="408" cy="114" rx="4" ry="3" fill="#9a5828"/>
+
+    <rect x="404" y="100" width="12" height="14" rx="2" fill="url(#brassCoilX1)" stroke="#5a2e10" stroke-width="0.6"/>
+    <path d="M 405 100 Q 410 96 415 100" stroke="url(#copperWireX1)" stroke-width="1.6" fill="none"/>
+    <path d="M 405 110 Q 410 114 415 110" stroke="url(#copperWireX1)" stroke-width="1.6" fill="none"/>
+    <path d="M 408 96 L 408 102" stroke="#5a2e10" stroke-width="1"/>
+    <path d="M 412 96 L 412 102" stroke="#5a2e10" stroke-width="1"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomX1)">
+    <rect x="402" y="98" width="16" height="18" fill="#d88838" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.92">
+    <ellipse cx="370" cy="138" rx="5" ry="6" fill="#3a261a"/>
+    <path d="M 366 130 Q 370 124 374 130 L 374 134 Z" fill="#a85020"/>
+    <path d="M 362 144 L 378 144 L 380 168 L 360 168 Z" fill="#a83830"/>
+    <path d="M 362 146 L 378 146 L 378 164 L 362 164 Z" fill="#1a0606" opacity="0.85"/>
+
+    <ellipse cx="490" cy="138" rx="5" ry="6" fill="#3a261a"/>
+    <path d="M 486 132 Q 490 128 494 130 L 494 134 Q 492 130 490 130 Q 488 130 486 134 Z" fill="#1a0808"/>
+    <path d="M 482 144 L 498 144 L 500 168 L 480 168 Z" fill="url(#deskTopX1)"/>
+    <path d="M 482 144 L 498 144 L 498 164 L 482 164 Z" fill="#1a1c20"/>
+
+    <ellipse cx="556" cy="138" rx="4.6" ry="5.6" fill="#3a261a"/>
+    <path d="M 552 130 Q 556 124 560 130 Z" fill="#1a0808"/>
+    <path d="M 548 144 L 564 144 L 566 168 L 546 168 Z" fill="#7848b8"/>
+    <path d="M 548 146 L 564 146 L 564 164 L 548 164 Z" fill="#1a0e2e" opacity="0.85"/>
+
+    <ellipse cx="600" cy="138" rx="4.6" ry="5.6" fill="#3a261a"/>
+    <path d="M 596 130 Q 600 124 604 130 L 604 134 Q 602 130 600 130 Q 598 130 596 134 Z" fill="#a85020"/>
+    <path d="M 592 144 L 608 144 L 610 168 L 590 168 Z" fill="#3a8858"/>
+    <path d="M 592 146 L 608 146 L 608 164 L 592 164 Z" fill="#0a1408" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.55">
+    <ellipse cx="370" cy="170" rx="9" ry="2" fill="#040202"/>
+    <ellipse cx="430" cy="170" rx="9" ry="2" fill="#040202"/>
+    <ellipse cx="490" cy="170" rx="9" ry="2" fill="#040202"/>
+    <ellipse cx="556" cy="170" rx="9" ry="2" fill="#040202"/>
+    <ellipse cx="600" cy="170" rx="9" ry="2" fill="#040202"/>
+  </g>
+
+  <g opacity="0.55">
+    <rect x="0" y="0" width="20" height="240" fill="#080404" opacity="0.85"/>
+    <rect x="722" y="0" width="20" height="240" fill="#080404" opacity="0.85"/>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="320" height="32" rx="3" fill="#f5ecd8" opacity="0.92" stroke="#a85820" stroke-width="1.2"/>
+    <text x="152" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#a85820" font-weight="700">WREN: "The coil. Four-minute</text>
+    <text x="152" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#2a2a2a" font-style="italic">job. Took a bit longer."</text>
+    <text x="152" y="29" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#3a8858" font-weight="700">JINK (weakly): "How much longer?"</text>
+  </g>
+
+  <g transform="translate(490,200)">
+    <rect x="-8" y="0" width="180" height="22" rx="3" fill="#f5ecd8" opacity="0.92" stroke="#a85820" stroke-width="1.2"/>
+    <text x="82" y="14" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#a85820" font-weight="700">WREN: "Don't ask."</text>
+  </g>
+</svg>
