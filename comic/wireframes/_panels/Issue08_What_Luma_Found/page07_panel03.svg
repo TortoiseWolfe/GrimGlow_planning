@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 8 — Page 7 — Panel 3: Theodore touches the first glyph — fairy script on a human wall — wonder and uncertainty</title>
+  <desc>50mm medium eye level. Theodore stands at dark brick wall, one oil-stained finger pressed to geometric carving at his waist height. Carving weathered nearly smooth with age, but geometric precision unmistakable — alien script, structured angles. Brick around it centuries old, blackened with soot. Theodore's face shows wonder and uncertainty — wide hazel eyes, sandy-brown hair catching gaslight, his clever hand feeling the precision of ancient lines. From waistcoat pocket faintest blue-violet glow. Warm amber gaslight from nearby lamp illuminates wall, carved lines creating tiny shadows that make the geometric pattern visible.</desc>
+
+  <defs>
+    <linearGradient id="i8p7p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p7p3oldBrick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i8p7p3lampPool" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p7p3waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p7p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d0a0"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i8p7p3glyph" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <filter id="i8p7p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p7p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p7p3megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#i8p7p3bg)"/>
+
+  <!-- Warm amber from right (nearby gaslight) -->
+  <ellipse cx="366" cy="120" rx="220" ry="180" fill="url(#i8p7p3lampPool)" filter="url(#i8p7p3megaglow)"/>
+
+  <!-- ===== ANCIENT BRICK WALL (centuries old, blackened with soot) ===== -->
+  <rect x="0" y="0" width="366" height="240" fill="url(#i8p7p3oldBrick)"/>
+  <!-- Mortar -->
+  <g stroke="#040408" stroke-width="0.7" opacity="0.85">
+    <line x1="0" y1="40" x2="366" y2="40"/>
+    <line x1="0" y1="80" x2="366" y2="80"/>
+    <line x1="0" y1="120" x2="366" y2="120"/>
+    <line x1="0" y1="160" x2="366" y2="160"/>
+    <line x1="0" y1="200" x2="366" y2="200"/>
+  </g>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.7">
+    <line x1="80" y1="0" x2="80" y2="40"/>
+    <line x1="200" y1="0" x2="200" y2="40"/>
+    <line x1="320" y1="0" x2="320" y2="40"/>
+    <line x1="40" y1="40" x2="40" y2="80"/>
+    <line x1="160" y1="40" x2="160" y2="80"/>
+    <line x1="280" y1="40" x2="280" y2="80"/>
+    <line x1="80" y1="80" x2="80" y2="120"/>
+    <line x1="200" y1="80" x2="200" y2="120"/>
+    <line x1="40" y1="120" x2="40" y2="160"/>
+    <line x1="240" y1="120" x2="240" y2="160"/>
+    <line x1="80" y1="160" x2="80" y2="200"/>
+    <line x1="160" y1="160" x2="160" y2="200"/>
+    <line x1="280" y1="160" x2="280" y2="200"/>
+  </g>
+  <!-- Heavy soot stains -->
+  <g fill="#040408" opacity="0.7">
+    <ellipse cx="60" cy="60" rx="22" ry="11"/>
+    <ellipse cx="260" cy="50" rx="18" ry="9"/>
+    <ellipse cx="100" cy="180" rx="22" ry="11"/>
+    <ellipse cx="320" cy="200" rx="14" ry="6"/>
+  </g>
+
+  <!-- ===== THE GLYPH on the wall (at Theodore's waist height) ===== -->
+  <g transform="translate(220 130)">
+    <!-- Carving region (slightly recessed) -->
+    <ellipse cx="0" cy="0" rx="50" ry="40" fill="url(#i8p7p3glyph)" opacity="0.85"/>
+    <!-- The geometric symbol — carved lines (with shadow casting from amber light) -->
+    <g stroke="#1a0808" stroke-width="2" fill="none">
+      <!-- Outer hexagonal frame -->
+      <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15"/>
+      <!-- Inner geometric pattern -->
+      <line x1="-26" y1="-15" x2="26" y2="15"/>
+      <line x1="-26" y1="15" x2="26" y2="-15"/>
+      <line x1="0" y1="-30" x2="0" y2="30"/>
+      <!-- Central diamond -->
+      <polygon points="0,-9 9,0 0,9 -9,0"/>
+      <!-- Outer marks -->
+      <line x1="-30" y1="0" x2="-26" y2="0"/>
+      <line x1="26" y1="0" x2="30" y2="0"/>
+    </g>
+    <!-- Highlights (carving edges catching warm amber light from right) -->
+    <g stroke="#a86838" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#i8p7p3bloom)">
+      <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15"/>
+      <line x1="-26" y1="-15" x2="26" y2="15"/>
+      <line x1="0" y1="-30" x2="0" y2="30"/>
+    </g>
+    <!-- Faint residual glow (responding to Luma's scanner) -->
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="#a878e8" opacity="0.18" filter="url(#i8p7p3glow)"/>
+  </g>
+
+  <!-- ===== THEODORE — close, hand pressed to glyph ===== -->
+  <g transform="translate(120 180)">
+    <!-- Body partial (top half) -->
+    <path d="M-22,60 L-22,-3 L-30,-32 L-22,-50 L-14,-58 L9,-58 L18,-50 L26,-32 L22,-3 L22,60 Z" fill="url(#i8p7p3waistcoat)"/>
+    <!-- Waistcoat buttons -->
+    <circle cx="0" cy="-44" r="1.4" fill="#a86838" filter="url(#i8p7p3bloom)"/>
+    <circle cx="0" cy="-30" r="1.4" fill="#a86838" filter="url(#i8p7p3bloom)"/>
+    <circle cx="0" cy="-15" r="1.4" fill="#a86838" filter="url(#i8p7p3bloom)"/>
+
+    <!-- Breast pocket with Luma's faint glow -->
+    <rect x="-18" y="-44" width="14" height="14" fill="#3a2010" opacity="0.85"/>
+    <ellipse cx="-11" cy="-37" rx="9" ry="6" fill="#a878e8" opacity="0.55" filter="url(#i8p7p3glow)"/>
+    <circle cx="-11" cy="-37" r="2" fill="#c8a8e8" filter="url(#i8p7p3bloom)" opacity="0.85"/>
+
+    <!-- ===== ARM extended toward glyph (right) ===== -->
+    <path d="M22,-32 L60,-3 L70,3 L40,-22 Z" fill="url(#i8p7p3waistcoat)"/>
+    <!-- Sleeve -->
+    <path d="M40,-22 L70,3 L66,9 L36,-15 Z" fill="#5a3818"/>
+
+    <!-- ===== HAND with finger pressed to glyph ===== -->
+    <ellipse cx="76" cy="3" rx="9" ry="6" fill="url(#i8p7p3skin)"/>
+    <!-- Index finger extended forward to glyph -->
+    <ellipse cx="86" cy="0" rx="6" ry="3" fill="url(#i8p7p3skin)"/>
+    <ellipse cx="92" cy="-3" rx="3" ry="2" fill="url(#i8p7p3skin)"/>
+    <!-- Other fingers folded -->
+    <ellipse cx="80" cy="9" rx="3" ry="3" fill="url(#i8p7p3skin)"/>
+    <ellipse cx="74" cy="11" rx="3" ry="3" fill="url(#i8p7p3skin)"/>
+    <!-- Oil-stained fingertip -->
+    <circle cx="92" cy="-3" r="1.4" fill="#1a0606" opacity="0.7"/>
+    <!-- Fingertip touching glyph (faint glow response) -->
+    <circle cx="94" cy="-3" r="2" fill="#a878e8" filter="url(#i8p7p3bloom)" opacity="0.7"/>
+
+    <!-- Brass gear ring on left index finger (visible on other arm) -->
+    <!-- Other arm at side -->
+    <path d="M-22,-32 L-30,-3 L-22,11 L-14,-15 Z" fill="url(#i8p7p3waistcoat)"/>
+    <ellipse cx="-26" cy="3" rx="6" ry="4" fill="url(#i8p7p3skin)"/>
+    <!-- Brass ring on index finger -->
+    <circle cx="-30" cy="0" r="2" fill="#a86838" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- White shirt collar -->
+    <path d="M-9,-58 L-7,-62 L7,-62 L9,-58 L7,-50 L-7,-50 Z" fill="#e8d0a8"/>
+    <!-- Neck -->
+    <path d="M-7,-62 L7,-62 L4,-72 L-4,-72 Z" fill="url(#i8p7p3skin)"/>
+
+    <!-- Head — turned toward glyph (right), looking with wonder -->
+    <ellipse cx="3" cy="-90" rx="14" ry="16" fill="url(#i8p7p3skin)"/>
+
+    <!-- Untidy hair -->
+    <path d="M-11,-104 Q3,-110 17,-104 L17,-86 Q14,-100 3,-100 Q-9,-100 -11,-86 Z" fill="#7a5028"/>
+    <path d="M-7,-110 L-5,-104" stroke="#7a5028" stroke-width="2" fill="none"/>
+    <path d="M5,-110 L7,-104" stroke="#7a5028" stroke-width="2" fill="none"/>
+    <path d="M14,-108 L11,-102" stroke="#7a5028" stroke-width="2" fill="none"/>
+    <ellipse cx="3" cy="-106" rx="11" ry="3" fill="#ffd898" opacity="0.55" filter="url(#i8p7p3bloom)"/>
+
+    <!-- Brow shadow -->
+    <ellipse cx="3" cy="-92" rx="11" ry="3" fill="#7a4818" opacity="0.4"/>
+
+    <!-- ===== EYES WIDE WITH WONDER (turned right, hazel) ===== -->
+    <ellipse cx="0" cy="-88" rx="2.5" ry="1.4" fill="#fff8e8"/>
+    <circle cx="1" cy="-88" r="1" fill="#5a3018"/>
+    <circle cx="1" cy="-88" r="0.55" fill="#0a0408"/>
+    <ellipse cx="6" cy="-88" rx="2.5" ry="1.4" fill="#fff8e8"/>
+    <circle cx="7" cy="-88" r="1" fill="#5a3018"/>
+    <circle cx="7" cy="-88" r="0.55" fill="#0a0408"/>
+    <!-- Catchlight amber (looking at glyph in amber light) -->
+    <circle cx="2" cy="-89" r="0.55" fill="#ffd898" filter="url(#i8p7p3bloom)" opacity="0.85"/>
+    <circle cx="8" cy="-89" r="0.55" fill="#ffd898" filter="url(#i8p7p3bloom)" opacity="0.85"/>
+
+    <!-- Brows raised (wonder) -->
+    <line x1="-3" y1="-94" x2="3" y2="-95" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="3" y1="-95" x2="11" y2="-94" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- Nose -->
+    <path d="M2,-86 L3,-78 L5,-78 L5,-86 Z" fill="#7a4818" opacity="0.55"/>
+
+    <!-- Mouth — slightly open in wonder -->
+    <ellipse cx="3" cy="-74" rx="2" ry="1" fill="#3a1808"/>
+  </g>
+
+  <!-- ===== DIALOGUE ===== -->
+  <!-- THEODORE -->
+  <g>
+    <rect x="14" y="14" width="240" height="36" rx="2" fill="white" stroke="#7a4828" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7a4828" font-weight="700">THEODORE</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Here. Is this what you mean?</text>
+
+  <!-- LUMA from pocket -->
+  <g>
+    <rect x="14" y="60" width="338" height="50" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA  <tspan font-style="italic" font-size="8" font-weight="500">(from pocket)</tspan></text>
+  <text x="22" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Don't touch it — no, actually, press your thumb to the center.</text>
+  <text x="22" y="104" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">My scanner can read the pressure response.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+  </g>
+</svg>

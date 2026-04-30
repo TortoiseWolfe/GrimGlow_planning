@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 300" width="248" height="300">
+  <title>Issue 8 — Page 7 — Panel 5: Second glyph on a stone lintel — fourteenth century, the script older — scanner beam reading, residual energy waking</title>
+  <desc>85mm close-up. Stone lintel above doorway. Stone old — pre-Victorian, medieval, worn smooth at edges but with geometric carving protected by overhang, lines deeper and more angular than brick glyph. Thin beam of structured blue-violet light traces carving — scanner beam projected from below reading inscription. Where scanner beam touches carved lines, they glow faintly — residual energy response, centuries dormant, waking to presence of fairy technology. Warm amber distant gaslight illuminates surrounding stone. Cold blue-violet scanner light illuminates only carving.</desc>
+
+  <defs>
+    <linearGradient id="i8p7p5bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p7p5stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a6038"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="i8p7p5lintel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4028"/>
+      <stop offset="100%" stop-color="#2a1810"/>
+    </linearGradient>
+    <radialGradient id="i8p7p5distantWarm" cx="100%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p7p5scannerBeam" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i8p7p5bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p7p5glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p7p5strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p7p5megaglow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <rect width="248" height="300" fill="url(#i8p7p5bg)"/>
+
+  <!-- Distant warm gaslight from below right -->
+  <ellipse cx="248" cy="300" rx="200" ry="180" fill="url(#i8p7p5distantWarm)" filter="url(#i8p7p5megaglow)"/>
+
+  <!-- ===== STONE WALL (medieval, pre-Victorian) ===== -->
+  <rect x="0" y="0" width="248" height="300" fill="url(#i8p7p5stone)"/>
+  <!-- Stone block courses (large irregular medieval stones) -->
+  <g stroke="#1a1008" stroke-width="0.7" opacity="0.85">
+    <path d="M0,40 L80,42 L120,38 L200,40 L248,42"/>
+    <path d="M0,90 L60,92 L140,88 L220,90 L248,92"/>
+    <path d="M0,200 L80,202 L150,198 L248,200"/>
+    <path d="M0,250 L80,252 L160,248 L248,250"/>
+    <line x1="60" y1="0" x2="62" y2="40"/>
+    <line x1="140" y1="0" x2="138" y2="40"/>
+    <line x1="80" y1="42" x2="78" y2="90"/>
+    <line x1="200" y1="40" x2="198" y2="90"/>
+    <line x1="80" y1="202" x2="78" y2="250"/>
+    <line x1="160" y1="248" x2="158" y2="300"/>
+  </g>
+  <!-- Stone texture (weathered) -->
+  <g fill="#5a3818" opacity="0.4">
+    <ellipse cx="40" cy="60" rx="22" ry="9"/>
+    <ellipse cx="160" cy="60" rx="22" ry="9"/>
+    <ellipse cx="100" cy="220" rx="22" ry="9"/>
+    <ellipse cx="40" cy="270" rx="22" ry="9"/>
+  </g>
+
+  <!-- ===== DOORWAY OPENING below the lintel ===== -->
+  <rect x="50" y="180" width="148" height="120" fill="#040408"/>
+  <!-- Door (closed, weathered wood) -->
+  <rect x="55" y="185" width="138" height="115" fill="#1a1008"/>
+  <line x1="60" y1="185" x2="60" y2="300" stroke="#3a2010" stroke-width="0.55" opacity="0.55"/>
+  <line x1="180" y1="185" x2="180" y2="300" stroke="#3a2010" stroke-width="0.55" opacity="0.55"/>
+
+  <!-- ===== LINTEL — heavy stone beam above doorway ===== -->
+  <rect x="40" y="140" width="168" height="40" fill="url(#i8p7p5lintel)"/>
+  <line x1="40" y1="140" x2="208" y2="140" stroke="#1a0808" stroke-width="0.85"/>
+  <line x1="40" y1="180" x2="208" y2="180" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Lintel chiseled edge texture -->
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.55">
+    <line x1="60" y1="142" x2="62" y2="178"/>
+    <line x1="100" y1="142" x2="98" y2="178"/>
+    <line x1="148" y1="142" x2="150" y2="178"/>
+    <line x1="190" y1="142" x2="188" y2="178"/>
+  </g>
+
+  <!-- ===== THE GLYPH carved into lintel — older, more angular ===== -->
+  <g transform="translate(124 160)">
+    <!-- Carved indentation -->
+    <ellipse cx="0" cy="0" rx="60" ry="14" fill="#1a1008" opacity="0.7"/>
+    <!-- The carved lines themselves (deeper, more angular than the brick glyph) -->
+    <g stroke="#0a0408" stroke-width="2.5" fill="none">
+      <!-- Outer angular frame (no curves — older script) -->
+      <polygon points="-50,-9 -40,-13 40,-13 50,-9 50,9 40,13 -40,13 -50,9"/>
+      <!-- Inner angular figure -->
+      <polygon points="-22,-7 -11,-7 0,0 11,-7 22,-7 22,7 11,7 0,0 -11,7 -22,7"/>
+      <!-- Cross marks -->
+      <line x1="-30" y1="0" x2="-22" y2="0"/>
+      <line x1="22" y1="0" x2="30" y2="0"/>
+    </g>
+    <!-- Highlights (catching scanner light) -->
+    <g stroke="#a878e8" stroke-width="0.7" fill="none" opacity="0.95" filter="url(#i8p7p5bloom)">
+      <polygon points="-50,-9 -40,-13 40,-13 50,-9 50,9 40,13 -40,13 -50,9"/>
+      <polygon points="-22,-7 -11,-7 0,0 11,-7 22,-7 22,7 11,7 0,0 -11,7 -22,7"/>
+    </g>
+    <!-- ===== RESIDUAL ENERGY GLOW — faintly waking to scanner ===== -->
+    <ellipse cx="0" cy="0" rx="44" ry="9" fill="#a878e8" opacity="0.4" filter="url(#i8p7p5strongglow)"/>
+    <ellipse cx="0" cy="0" rx="22" ry="3" fill="#c8a8e8" opacity="0.7" filter="url(#i8p7p5bloom)"/>
+  </g>
+
+  <!-- ===== SCANNER BEAM — thin structured line of blue-violet ===== -->
+  <g filter="url(#i8p7p5strongglow)">
+    <ellipse cx="124" cy="240" rx="40" ry="50" fill="url(#i8p7p5scannerBeam)" opacity="0.7"/>
+  </g>
+  <!-- The structured beam itself -->
+  <g stroke="#a878e8" stroke-width="0.85" fill="none" opacity="0.95" filter="url(#i8p7p5bloom)">
+    <line x1="120" y1="280" x2="124" y2="160"/>
+    <line x1="124" y1="280" x2="124" y2="160"/>
+    <line x1="128" y1="280" x2="124" y2="160"/>
+  </g>
+  <!-- Beam structure markers -->
+  <g stroke="#c8a8e8" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#i8p7p5bloom)">
+    <line x1="115" y1="220" x2="133" y2="220"/>
+    <line x1="118" y1="200" x2="130" y2="200"/>
+    <line x1="120" y1="180" x2="128" y2="180"/>
+  </g>
+
+  <!-- Tiny figure of Theodore at base (just suggested — pocket Luma is the source) -->
+  <g transform="translate(124 290)" opacity="0.4">
+    <ellipse cx="0" cy="0" rx="18" ry="9" fill="#3a2010"/>
+  </g>
+
+  <!-- ===== DIALOGUE — LUMA hushed ===== -->
+  <g>
+    <rect x="14" y="14" width="220" height="50" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8" fill="#7848b8" font-weight="700">LUMA  <tspan font-style="italic" font-size="7" font-weight="500">(hushed)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">Fourteenth century. This is older.</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410">An older dialect — simpler, more angular.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q60,142 124,138 Q190,136 248,140"/>
+    <path d="M0,260 Q60,262 124,258 Q190,256 248,260"/>
+  </g>
+</svg>
