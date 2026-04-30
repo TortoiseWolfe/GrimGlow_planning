@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 9 — Page 1 — Panel 2: Wren approaches — silhouetted, deliberate, an engineer approaching a system failure</title>
+  <desc>50mm medium eye level. Wren walking along beam, silhouetted against dim perimeter glow behind her. Wiry East Asian woman messy dark hair UP not loose, copper suit heavily degraded — oil-stained forearms, copper dust ground into knees, scorch mark along one shoulder. Faint copper-gold light still pulses at joints. Walks with deliberate purpose, arms at sides, jaw set, eyes forward. Wooden beam stretches ahead into shadow, cobwebs and dust on either side, nail size of bollard protruding from timber.</desc>
+
+  <defs>
+    <linearGradient id="i9p1p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <linearGradient id="i9p1p2timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i9p1p2perimeterGlow" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#a8c8d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a3848" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i9p1p2wrenSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="i9p1p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0b888"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i9p1p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i9p1p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i9p1p2megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i9p1p2bg)"/>
+
+  <!-- Dim blue-white perimeter glow from BEHIND (silhouetting Wren) -->
+  <ellipse cx="183" cy="240" rx="240" ry="120" fill="url(#i9p1p2perimeterGlow)" filter="url(#i9p1p2megaglow)"/>
+
+  <!-- Vertical timber posts (left and right of frame, framing Wren) -->
+  <rect x="0" y="0" width="22" height="300" fill="url(#i9p1p2timber)"/>
+  <rect x="344" y="0" width="22" height="300" fill="url(#i9p1p2timber)"/>
+
+  <!-- ===== ENORMOUS NAIL (bollard-sized, protruding from timber to her left) ===== -->
+  <g transform="translate(40 120)">
+    <rect x="-4" y="0" width="8" height="60" fill="#5a4838"/>
+    <ellipse cx="0" cy="0" rx="9" ry="3" fill="#7a6048"/>
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#3a2010" stroke-width="0.55"/>
+    <!-- Rust on nail -->
+    <ellipse cx="0" cy="40" rx="4" ry="2" fill="#5a3018" opacity="0.7"/>
+  </g>
+
+  <!-- Cobwebs between timbers and nail -->
+  <g stroke="#5a5050" stroke-width="0.4" fill="none" opacity="0.4">
+    <line x1="22" y1="60" x2="60" y2="100"/>
+    <line x1="22" y1="100" x2="60" y2="140"/>
+    <line x1="40" y1="80" x2="60" y2="120"/>
+    <line x1="320" y1="60" x2="344" y2="100"/>
+    <line x1="320" y1="100" x2="344" y2="140"/>
+  </g>
+
+  <!-- Beam Wren walks on -->
+  <rect x="0" y="240" width="366" height="14" fill="url(#i9p1p2timber)"/>
+  <rect x="0" y="260" width="366" height="40" fill="#0a0606"/>
+  <line x1="0" y1="240" x2="366" y2="240" stroke="#5a3818" stroke-width="0.55" opacity="0.55"/>
+
+  <!-- Dust motes in light -->
+  <g fill="#a8c8d8" opacity="0.55" filter="url(#i9p1p2bloom)">
+    <circle cx="100" cy="160" r="0.55"/>
+    <circle cx="200" cy="180" r="0.55"/>
+    <circle cx="280" cy="120" r="0.55"/>
+  </g>
+
+  <!-- ===== WREN — silhouetted, walking deliberately ===== -->
+  <g transform="translate(183 230)">
+    <!-- Body -->
+    <path d="M-22,40 L-26,3 L-30,-30 L-22,-50 L-9,-66 L9,-66 L22,-50 L30,-30 L26,3 L22,40 Z" fill="url(#i9p1p2wrenSuit)"/>
+
+    <!-- Heavy oil stains on forearms -->
+    <ellipse cx="-30" cy="-3" rx="6" ry="4" fill="#1a0606" opacity="0.95"/>
+    <ellipse cx="30" cy="-3" rx="6" ry="4" fill="#1a0606" opacity="0.95"/>
+
+    <!-- Copper dust ground into KNEES -->
+    <ellipse cx="-15" cy="40" rx="11" ry="3" fill="#3a1808" opacity="0.85"/>
+    <ellipse cx="15" cy="40" rx="11" ry="3" fill="#3a1808" opacity="0.85"/>
+
+    <!-- SCORCH MARK along one shoulder -->
+    <ellipse cx="-22" cy="-50" rx="14" ry="6" fill="#040408" opacity="0.85"/>
+    <line x1="-30" y1="-46" x2="-9" y2="-50" stroke="#1a0606" stroke-width="0.55"/>
+
+    <!-- Suit accent — copper-gold pulsing through grime at JOINTS -->
+    <line x1="0" y1="-50" x2="0" y2="30" stroke="#ffa848" stroke-width="0.55" opacity="0.7" filter="url(#i9p1p2bloom)"/>
+    <circle cx="-22" cy="-30" r="1.4" fill="#ffa848" filter="url(#i9p1p2bloom)" opacity="0.7"/>
+    <circle cx="22" cy="-30" r="1.4" fill="#ffa848" filter="url(#i9p1p2bloom)" opacity="0.7"/>
+    <circle cx="0" cy="0" r="1.4" fill="#ffa848" filter="url(#i9p1p2bloom)" opacity="0.7"/>
+
+    <!-- Arms at sides (loose but ready) -->
+    <path d="M-30,-30 L-36,3 L-26,11 L-22,-15 Z" fill="url(#i9p1p2wrenSuit)"/>
+    <path d="M30,-30 L36,3 L26,11 L22,-15 Z" fill="url(#i9p1p2wrenSuit)"/>
+    <ellipse cx="-32" cy="3" rx="3" ry="2" fill="url(#i9p1p2skin)"/>
+    <ellipse cx="32" cy="3" rx="3" ry="2" fill="url(#i9p1p2skin)"/>
+
+    <!-- Walking legs (mid-stride, deliberate) -->
+    <path d="M-9,40 L-14,80 L-7,80 L0,40 Z" fill="url(#i9p1p2wrenSuit)"/>
+    <path d="M3,40 L7,80 L14,80 L9,40 Z" fill="url(#i9p1p2wrenSuit)"/>
+    <!-- Boots/feet -->
+    <path d="M-14,80 L-15,86 L-7,86 L-7,80 Z" fill="#1a1008"/>
+    <path d="M7,80 L14,86 L7,86 L7,80 Z" fill="#1a1008"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-86" rx="11" ry="14" fill="url(#i9p1p2skin)"/>
+    <!-- Messy hair UP (high knot) -->
+    <ellipse cx="0" cy="-104" rx="14" ry="6" fill="#1a1008"/>
+    <circle cx="6" cy="-110" r="5" fill="#1a1008"/>
+    <circle cx="-6" cy="-105" r="4" fill="#1a1008"/>
+    <!-- Loose strands -->
+    <path d="M-9,-94 Q-14,-86 -11,-78" stroke="#1a1008" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <!-- Eyes — focused forward, jaw set -->
+    <ellipse cx="-3" cy="-86" rx="2" ry="1" fill="#fff8e8"/>
+    <circle cx="-3" cy="-86" r="0.7" fill="#3a1808"/>
+    <ellipse cx="3" cy="-86" rx="2" ry="1" fill="#fff8e8"/>
+    <circle cx="3" cy="-86" r="0.7" fill="#3a1808"/>
+    <!-- Brows set -->
+    <line x1="-7" y1="-92" x2="-1" y2="-92" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="1" y1="-92" x2="7" y2="-92" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Mouth flat, jaw set -->
+    <line x1="-3" y1="-78" x2="3" y2="-78" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Cheekbone -->
+    <path d="M-7,-78 Q-9,-83 -3,-83" stroke="#7a4818" stroke-width="0.4" fill="none" opacity="0.55"/>
+  </g>
+
+  <!-- (No dialogue) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>

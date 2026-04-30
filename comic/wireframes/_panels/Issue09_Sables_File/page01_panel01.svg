@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 9 — Page 1 — Panel 1: Pre-dawn camp — depleted, dim, Wren walking toward Sable at the wall gap</title>
+  <desc>28mm wide establishing slightly elevated. Wall cavity camp pre-dawn. Improvised fairy-scale military outpost — small tech equipment on wooden beams, power cell with brass charging cradle emitting faint amber, holographic perimeter markers pulsing weakly in dim blue-white. Pre-dawn dimness — thin crack in exterior brickwork at far end admits sliver of grey light. Most of space shadow. Two tiny figures on main beam — Wren (copper, oil-stained) walking purposefully toward Sable (silver, soot-darkened) standing alone at far end near wall gap. Camp depleted, worn, lived-in for weeks.</desc>
+
+  <defs>
+    <linearGradient id="i9p1p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <linearGradient id="i9p1p1timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i9p1p1greyDawn" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a8a8b8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a1820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i9p1p1powerCell" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a86838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i9p1p1perimeterDim" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c8d8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a3848" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i9p1p1wrenSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a86838"/>
+      <stop offset="100%" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="i9p1p1sableSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7a80"/>
+      <stop offset="100%" stop-color="#2a2a30"/>
+    </linearGradient>
+    <filter id="i9p1p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i9p1p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i9p1p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i9p1p1megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="742" height="300" fill="url(#i9p1p1bg)"/>
+
+  <!-- Top floorboard -->
+  <rect x="0" y="0" width="742" height="20" fill="url(#i9p1p1timber)"/>
+  <line x1="0" y1="20" x2="742" y2="20" stroke="#1a0808" stroke-width="0.85"/>
+
+  <!-- ===== WALL GAP at far right (sliver of grey pre-dawn) ===== -->
+  <rect x="660" y="60" width="40" height="240" fill="#2a2030"/>
+  <ellipse cx="700" cy="160" rx="200" ry="180" fill="url(#i9p1p1greyDawn)" filter="url(#i9p1p1megaglow)"/>
+  <path d="M660,60 L660,300 L668,295 L662,200 L670,190 L664,80 Z" fill="#1a1208" opacity="0.85"/>
+  <!-- Faint city sliver visible -->
+  <g opacity="0.55" fill="#3a3030">
+    <rect x="668" y="180" width="6" height="60"/>
+    <rect x="676" y="170" width="4" height="70"/>
+  </g>
+
+  <!-- Vertical timbers -->
+  <rect x="120" y="0" width="14" height="300" fill="url(#i9p1p1timber)"/>
+  <rect x="380" y="0" width="14" height="300" fill="url(#i9p1p1timber)"/>
+  <rect x="540" y="0" width="14" height="300" fill="url(#i9p1p1timber)"/>
+
+  <!-- Cobwebs -->
+  <g stroke="#5a5050" stroke-width="0.4" fill="none" opacity="0.4">
+    <line x1="0" y1="60" x2="60" y2="0"/>
+    <line x1="20" y1="60" x2="60" y2="20"/>
+    <line x1="120" y1="40" x2="160" y2="0"/>
+  </g>
+
+  <!-- ===== MAIN BEAM (the beam Wren walks along) ===== -->
+  <rect x="0" y="200" width="742" height="14" fill="url(#i9p1p1timber)"/>
+  <line x1="0" y1="200" x2="742" y2="200" stroke="#5a3818" stroke-width="0.55" filter="url(#i9p1p1bloom)" opacity="0.55"/>
+  <!-- Lower beams (sleeping shapes hinted) -->
+  <rect x="0" y="260" width="742" height="40" fill="#0a0606"/>
+
+  <!-- Sleeping squad shapes (bottom area, vague blanket forms) -->
+  <g opacity="0.7">
+    <ellipse cx="80" cy="245" rx="22" ry="6" fill="#3a2818"/>
+    <ellipse cx="240" cy="245" rx="22" ry="6" fill="#3a2818"/>
+    <ellipse cx="440" cy="245" rx="22" ry="6" fill="#3a2818"/>
+  </g>
+
+  <!-- ===== POWER CELL with charging cradle (faint amber) ===== -->
+  <g transform="translate(180 240)">
+    <!-- Brass cradle -->
+    <rect x="-9" y="-3" width="18" height="9" fill="#7a4828"/>
+    <line x1="-9" y1="0" x2="9" y2="0" stroke="#3a2010" stroke-width="0.4"/>
+    <!-- Power cell -->
+    <rect x="-7" y="-9" width="14" height="6" fill="#3a3838"/>
+    <rect x="-5" y="-7" width="10" height="2" fill="#a86838" filter="url(#i9p1p1bloom)" opacity="0.55"/>
+    <!-- Faint amber halo (depleted) -->
+    <ellipse cx="0" cy="-3" rx="22" ry="14" fill="url(#i9p1p1powerCell)" filter="url(#i9p1p1megaglow)" opacity="0.55"/>
+  </g>
+
+  <!-- Improvised camp equipment scattered -->
+  <g transform="translate(280 230)" opacity="0.85">
+    <rect x="-7" y="-5" width="14" height="9" fill="#3a2818"/>
+    <line x1="-5" y1="-2" x2="5" y2="-2" stroke="#5a4838" stroke-width="0.4"/>
+  </g>
+  <g transform="translate(440 220)" opacity="0.85">
+    <rect x="-9" y="-3" width="18" height="6" fill="#3a3030"/>
+  </g>
+
+  <!-- ===== HOLOGRAPHIC PERIMETER MARKERS — pulsing weakly ===== -->
+  <g opacity="0.55" filter="url(#i9p1p1bloom)">
+    <line x1="60" y1="200" x2="60" y2="190" stroke="#a8c8d8" stroke-width="1"/>
+    <circle cx="60" cy="190" r="1.4" fill="#a8c8d8"/>
+    <line x1="280" y1="200" x2="280" y2="190" stroke="#a8c8d8" stroke-width="1"/>
+    <circle cx="280" cy="190" r="1.4" fill="#a8c8d8"/>
+    <line x1="500" y1="200" x2="500" y2="190" stroke="#a8c8d8" stroke-width="1"/>
+    <circle cx="500" cy="190" r="1.4" fill="#a8c8d8"/>
+    <line x1="660" y1="200" x2="660" y2="190" stroke="#a8c8d8" stroke-width="1"/>
+    <circle cx="660" cy="190" r="1.4" fill="#a8c8d8"/>
+  </g>
+  <ellipse cx="60" cy="200" rx="40" ry="14" fill="url(#i9p1p1perimeterDim)" filter="url(#i9p1p1glow)"/>
+  <ellipse cx="500" cy="200" rx="40" ry="14" fill="url(#i9p1p1perimeterDim)" filter="url(#i9p1p1glow)"/>
+  <ellipse cx="660" cy="200" rx="40" ry="14" fill="url(#i9p1p1perimeterDim)" filter="url(#i9p1p1glow)"/>
+
+  <!-- ===== WREN walking purposefully (mid-frame) ===== -->
+  <g transform="translate(320 195)">
+    <!-- Body -->
+    <path d="M-5,3 L-7,-3 L-9,-15 L-7,-22 L-3,-30 L3,-30 L7,-22 L9,-15 L7,-3 L5,3 Z" fill="url(#i9p1p1wrenSuit)"/>
+    <!-- Heavy oil stains -->
+    <ellipse cx="-3" cy="-9" rx="3" ry="2" fill="#1a0606" opacity="0.95"/>
+    <!-- Suit accent (still pulsing dim) -->
+    <line x1="0" y1="-22" x2="0" y2="0" stroke="#ffa848" stroke-width="0.4" opacity="0.7" filter="url(#i9p1p1bloom)"/>
+    <!-- Walking legs -->
+    <path d="M-3,3 L-5,11 L-1,11 L0,3 Z" fill="url(#i9p1p1wrenSuit)"/>
+    <path d="M3,3 L5,11 L7,11 L5,3 Z" fill="url(#i9p1p1wrenSuit)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-36" rx="3" ry="4" fill="#e0b888"/>
+    <ellipse cx="0" cy="-42" rx="4" ry="2" fill="#1a1008"/>
+    <!-- Eyes forward -->
+    <line x1="-2" y1="-36" x2="-1" y2="-36" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-36" x2="2" y2="-36" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== SABLE alone at wall gap (right side) ===== -->
+  <g transform="translate(630 195)">
+    <!-- Body — back partially turned, looking at gap -->
+    <path d="M-5,3 L-7,-3 L-9,-15 L-7,-22 L-3,-30 L3,-30 L7,-22 L9,-15 L7,-3 L5,3 Z" fill="url(#i9p1p1sableSuit)"/>
+    <!-- Soot wear -->
+    <ellipse cx="-3" cy="-9" rx="3" ry="2" fill="#1a1818" opacity="0.85"/>
+    <line x1="0" y1="-22" x2="0" y2="0" stroke="#fff" stroke-width="0.4" opacity="0.4" filter="url(#i9p1p1bloom)"/>
+    <!-- Hand resting on brick edge -->
+    <path d="M9,-9 L14,-3 L11,3 L7,-3 Z" fill="url(#i9p1p1sableSuit)"/>
+    <ellipse cx="14" cy="-3" rx="2" ry="1.4" fill="#5a3818"/>
+    <!-- Other arm at side -->
+    <path d="M-9,-9 L-11,3 L-7,7 L-5,0 Z" fill="url(#i9p1p1sableSuit)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-36" rx="3" ry="4" fill="#5a3818"/>
+    <!-- Silver-white hair edge catches grey light -->
+    <path d="M-3,-42 Q0,-44 3,-42 L3,-36 Q0,-38 -3,-36 Z" fill="#e8ecf0" opacity="0.85"/>
+    <ellipse cx="2" cy="-43" rx="3" ry="0.85" fill="#a8b8c8" filter="url(#i9p1p1bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- Distance suggestion lines (the beam stretches between) -->
+
+  <!-- ===== CAPTION ===== -->
+  <g>
+    <rect x="14" y="14" width="240" height="32" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#5a3818" font-style="italic" font-weight="700">Pre-dawn. The camp.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>

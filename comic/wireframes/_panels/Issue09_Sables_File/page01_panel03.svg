@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 9 — Page 1 — Panel 3: Sable at the wall gap — back partially turned, looking out at the dark city, expecting Wren</title>
+  <desc>65mm medium close-up. Sable standing near thin crack in brickwork, back partially to camera, looking out at dark city beyond. Late thirties dark brown skin very short military-cropped silver-white hair almost buzz-cut length NOT long or flowing, soot-darkened metallic silver suit. One hand rests on rough brickwork edge. In profile, expression controlled, guarded — mask firmly in place. Grey pre-dawn light from crack illuminates edge of face and catches silver-white hair. Crack reveals sliver of gaslit Victorian city, still dark, rooftops barely visible. Rest of frame is shadow. Posture says she heard the approach and chose not to turn.</desc>
+
+  <defs>
+    <linearGradient id="i9p1p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <linearGradient id="i9p1p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="i9p1p3citySky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a4858"/>
+      <stop offset="100%" stop-color="#1a2438"/>
+    </linearGradient>
+    <radialGradient id="i9p1p3greyDawn" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#a8b8c8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a2438" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i9p1p3sableSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a7a80"/>
+      <stop offset="100%" stop-color="#2a2a30"/>
+    </linearGradient>
+    <linearGradient id="i9p1p3skinDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <filter id="i9p1p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i9p1p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i9p1p3strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i9p1p3megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i9p1p3bg)"/>
+
+  <!-- Brick wall (the camp wall) -->
+  <rect x="0" y="0" width="240" height="300" fill="url(#i9p1p3brick)"/>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.7">
+    <line x1="0" y1="60" x2="240" y2="60"/>
+    <line x1="0" y1="120" x2="240" y2="120"/>
+    <line x1="0" y1="180" x2="240" y2="180"/>
+    <line x1="0" y1="240" x2="240" y2="240"/>
+    <line x1="80" y1="0" x2="80" y2="60"/>
+    <line x1="160" y1="60" x2="160" y2="120"/>
+    <line x1="40" y1="120" x2="40" y2="180"/>
+    <line x1="120" y1="180" x2="120" y2="240"/>
+    <line x1="200" y1="240" x2="200" y2="300"/>
+  </g>
+  <g fill="#040408" opacity="0.55">
+    <ellipse cx="60" cy="80" rx="22" ry="9"/>
+    <ellipse cx="180" cy="160" rx="22" ry="9"/>
+    <ellipse cx="80" cy="220" rx="14" ry="6"/>
+  </g>
+
+  <!-- ===== THIN CRACK in brickwork (right side, the wall gap) ===== -->
+  <path d="M240,40 L240,260 L246,255 L242,180 L248,170 L242,100 L246,80 Z" fill="#0a0408"/>
+  <!-- Beyond the crack: dark city -->
+  <rect x="240" y="40" width="126" height="220" fill="url(#i9p1p3citySky)"/>
+  <!-- Dim grey dawn -->
+  <ellipse cx="320" cy="120" rx="160" ry="140" fill="url(#i9p1p3greyDawn)" filter="url(#i9p1p3megaglow)"/>
+  <!-- Distant city silhouette (rooftops) -->
+  <g fill="#1a1818" opacity="0.85">
+    <rect x="240" y="180" width="40" height="40"/>
+    <rect x="280" y="160" width="40" height="60"/>
+    <path d="M320,160 L340,140 L350,160 Z"/>
+    <rect x="350" y="150" width="16" height="70"/>
+  </g>
+  <!-- Dim distant gaslight -->
+  <g opacity="0.55" filter="url(#i9p1p3bloom)">
+    <circle cx="280" cy="200" r="0.85" fill="#a86838"/>
+    <circle cx="340" cy="190" r="0.85" fill="#a86838"/>
+  </g>
+
+  <!-- Lower beam Sable stands on -->
+  <rect x="0" y="240" width="366" height="14" fill="#3a2818"/>
+  <rect x="0" y="270" width="366" height="30" fill="#0a0606"/>
+
+  <!-- ===== SABLE — back partially to camera, looking at gap ===== -->
+  <g transform="translate(180 240)">
+    <!-- Body, slight 3/4 turn (back to viewer left, profile right) -->
+    <path d="M-30,18 L-36,-3 L-40,-30 L-30,-50 L-15,-66 L7,-66 L18,-50 L26,-30 L22,-3 L18,18 Z" fill="url(#i9p1p3sableSuit)"/>
+
+    <!-- Soot wear on suit (heavy, back visible) -->
+    <ellipse cx="-22" cy="-3" rx="9" ry="6" fill="#1a1818" opacity="0.85"/>
+    <ellipse cx="11" cy="-22" rx="9" ry="4" fill="#1a1818" opacity="0.7"/>
+
+    <!-- Suit accent — silver, faint -->
+    <line x1="-9" y1="-50" x2="-3" y2="14" stroke="#fff" stroke-width="0.4" opacity="0.55" filter="url(#i9p1p3bloom)"/>
+    <circle cx="-15" cy="-30" r="0.7" fill="#fff" filter="url(#i9p1p3bloom)" opacity="0.55"/>
+
+    <!-- Arms — one at side, ONE RESTING ON BRICK EDGE (extended right) -->
+    <path d="M-40,-30 L-44,3 L-30,11 L-22,-15 Z" fill="url(#i9p1p3sableSuit)"/>
+    <path d="M26,-30 L40,-15 L44,-7 L22,-9 Z" fill="url(#i9p1p3sableSuit)"/>
+    <!-- Hand on brickwork edge -->
+    <ellipse cx="44" cy="-7" rx="6" ry="3" fill="url(#i9p1p3skinDark)"/>
+    <line x1="44" y1="-3" x2="50" y2="0" stroke="#3a2010" stroke-width="0.4"/>
+
+    <!-- Legs planted -->
+    <path d="M-15,18 L-22,40 L-7,40 L0,18 Z" fill="url(#i9p1p3sableSuit)"/>
+    <path d="M3,18 L9,40 L18,40 L14,18 Z" fill="url(#i9p1p3sableSuit)"/>
+
+    <!-- Head — turned PROFILE RIGHT (toward gap) -->
+    <ellipse cx="3" cy="-86" rx="11" ry="14" fill="url(#i9p1p3skinDark)"/>
+
+    <!-- Silver-white cropped hair — catches grey light from gap -->
+    <path d="M-7,-100 Q3,-104 14,-100 L14,-86 Q3,-90 -7,-86 Z" fill="#e8ecf0" opacity="0.95"/>
+    <line x1="-3" y1="-100" x2="11" y2="-100" stroke="#fff" stroke-width="0.4" filter="url(#i9p1p3bloom)" opacity="0.7"/>
+    <!-- Bright catch on hair edge (from grey dawn) -->
+    <ellipse cx="14" cy="-100" rx="6" ry="2" fill="#a8b8c8" filter="url(#i9p1p3bloom)" opacity="0.95"/>
+
+    <!-- Profile features (right side, looking out) -->
+    <!-- Nose profile -->
+    <path d="M14,-86 L18,-78 L14,-72" stroke="#3a1808" stroke-width="0.55" fill="none" opacity="0.85"/>
+    <!-- Eye in profile -->
+    <ellipse cx="11" cy="-86" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="11" cy="-86" r="0.55" fill="#0a0a14"/>
+    <!-- Mouth flat -->
+    <line x1="9" y1="-72" x2="14" y2="-72" stroke="#1a0808" stroke-width="0.55"/>
+
+    <!-- Edge of face catches grey light -->
+    <ellipse cx="14" cy="-86" rx="3" ry="11" fill="#a8b8c8" opacity="0.18" filter="url(#i9p1p3bloom)"/>
+
+    <!-- Cheekbone -->
+    <path d="M11,-72 Q14,-78 9,-78" stroke="#3a1808" stroke-width="0.4" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- (No dialogue — quiet vigilance) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>
