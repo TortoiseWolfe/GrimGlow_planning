@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 16 — Panel 1: Thresh's POV — the giant gentle child, hand reaching offering not grabbing — the giant who is gentle</title>
+  <desc>35mm extremely low — four inches off the ground, looking up. Child crouched at wall base, peering into shadow. From this perspective, child is enormous — face fills upper half of frame, curious dark eyes looking directly toward viewer, head tilted, beginning of a smile. Child's bare feet visible at frame's edges, small toes on cold cobblestones. Behind child's head, gaslight creates warm amber halo. Face illuminated by reflected amber light from cobblestones — warm, golden, gentle. Shadow zone where viewer sits is dark. Child reaching toward shadow — one small hand extending palm up, fingers open. Gesture not grabbing. Offering.</desc>
+
+  <defs>
+    <linearGradient id="i8p16p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <radialGradient id="i8p16p1amberHalo" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p16p1cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="i8p16p1childSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#c89868"/>
+    </linearGradient>
+    <linearGradient id="i8p16p1nightshirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d8b8"/>
+      <stop offset="100%" stop-color="#a89868"/>
+    </linearGradient>
+    <filter id="i8p16p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p16p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p16p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p16p1megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="742" height="300" fill="url(#i8p16p1bg)"/>
+
+  <!-- ===== WARM AMBER HALO behind child's head (from gaslight) ===== -->
+  <ellipse cx="371" cy="40" rx="500" ry="180" fill="url(#i8p16p1amberHalo)" filter="url(#i8p16p1megaglow)"/>
+
+  <!-- Cobblestones at very bottom (Thresh's eye level — the ground from a fairy's POV) -->
+  <rect x="0" y="270" width="742" height="30" fill="url(#i8p16p1cobble)"/>
+  <!-- ENORMOUS cobblestones (boulder-scale at fairy POV) -->
+  <g stroke="#040408" stroke-width="0.85" fill="none" opacity="0.7">
+    <ellipse cx="80" cy="285" rx="40" ry="11"/>
+    <ellipse cx="220" cy="290" rx="50" ry="14"/>
+    <ellipse cx="380" cy="285" rx="50" ry="14"/>
+    <ellipse cx="540" cy="290" rx="50" ry="14"/>
+    <ellipse cx="660" cy="285" rx="40" ry="11"/>
+  </g>
+  <!-- Reflected amber on cobblestones -->
+  <g opacity="0.7" filter="url(#i8p16p1bloom)">
+    <ellipse cx="220" cy="285" rx="22" ry="4" fill="#ffd898" opacity="0.55"/>
+    <ellipse cx="380" cy="285" rx="22" ry="4" fill="#ffd898" opacity="0.7"/>
+    <ellipse cx="540" cy="285" rx="22" ry="4" fill="#ffd898" opacity="0.55"/>
+  </g>
+
+  <!-- ===== CHILD'S BARE FEET at frame edges (boulder-sized at fairy scale) ===== -->
+  <!-- Left foot -->
+  <g transform="translate(60 285)">
+    <ellipse cx="0" cy="0" rx="60" ry="14" fill="url(#i8p16p1childSkin)"/>
+    <ellipse cx="0" cy="-3" rx="60" ry="9" fill="url(#i8p16p1childSkin)"/>
+    <!-- Toes -->
+    <g fill="url(#i8p16p1childSkin)">
+      <circle cx="-50" cy="3" r="6"/>
+      <circle cx="-30" cy="6" r="5"/>
+      <circle cx="-11" cy="9" r="4"/>
+      <circle cx="11" cy="6" r="3"/>
+    </g>
+    <!-- Toenails (tiny pale highlights) -->
+    <g fill="#fff8d8" opacity="0.55">
+      <ellipse cx="-50" cy="0" rx="3" ry="1.4"/>
+      <ellipse cx="-30" cy="3" rx="2" ry="1"/>
+      <ellipse cx="-11" cy="7" rx="1.4" ry="0.85"/>
+    </g>
+    <!-- Dirt/grime on sole/edges -->
+    <ellipse cx="-50" cy="9" rx="11" ry="2" fill="#3a2010" opacity="0.55"/>
+  </g>
+  <!-- Right foot -->
+  <g transform="translate(680 285)">
+    <ellipse cx="0" cy="0" rx="60" ry="14" fill="url(#i8p16p1childSkin)"/>
+    <ellipse cx="0" cy="-3" rx="60" ry="9" fill="url(#i8p16p1childSkin)"/>
+    <g fill="url(#i8p16p1childSkin)">
+      <circle cx="50" cy="3" r="6"/>
+      <circle cx="30" cy="6" r="5"/>
+      <circle cx="11" cy="9" r="4"/>
+      <circle cx="-11" cy="6" r="3"/>
+    </g>
+    <g fill="#fff8d8" opacity="0.55">
+      <ellipse cx="50" cy="0" rx="3" ry="1.4"/>
+      <ellipse cx="30" cy="3" rx="2" ry="1"/>
+    </g>
+    <ellipse cx="50" cy="9" rx="11" ry="2" fill="#3a2010" opacity="0.55"/>
+  </g>
+
+  <!-- ===== CHILD'S NIGHTSHIRT — bottom edge visible (just above feet) ===== -->
+  <path d="M-50,260 L120,250 L300,256 L500,256 L660,250 L800,260 L800,275 L-50,275 Z" fill="url(#i8p16p1nightshirt)"/>
+  <!-- Backlight rim on hem -->
+  <line x1="0" y1="252" x2="742" y2="252" stroke="#ffd898" stroke-width="0.85" filter="url(#i8p16p1bloom)" opacity="0.85"/>
+  <!-- Folds in nightshirt -->
+  <g stroke="#7a6038" stroke-width="0.85" opacity="0.7">
+    <line x1="180" y1="256" x2="220" y2="270"/>
+    <line x1="320" y1="256" x2="360" y2="270"/>
+    <line x1="480" y1="256" x2="520" y2="270"/>
+  </g>
+
+  <!-- ===== CHILD'S FACE filling upper half of frame (ENORMOUS at fairy scale) ===== -->
+  <g transform="translate(371 130)">
+    <!-- Head — gigantic -->
+    <ellipse cx="0" cy="0" rx="280" ry="180" fill="url(#i8p16p1childSkin)"/>
+
+    <!-- Tousled dark hair (huge) -->
+    <path d="M-280,-100 Q-240,-180 0,-180 Q240,-180 280,-100 L280,-50 Q240,-130 0,-130 Q-240,-130 -280,-50 Z" fill="#3a2818"/>
+    <!-- Hair tufts/cowlicks -->
+    <path d="M-160,-180 Q-130,-160 -100,-150" stroke="#3a2818" stroke-width="6" fill="none"/>
+    <path d="M100,-180 Q130,-160 160,-150" stroke="#3a2818" stroke-width="6" fill="none"/>
+    <ellipse cx="220" cy="-200" rx="40" ry="14" fill="#3a2818"/>
+    <ellipse cx="-220" cy="-200" rx="40" ry="14" fill="#3a2818"/>
+
+    <!-- ===== EYES ENORMOUS — wide and curious (looking straight at viewer/Thresh) ===== -->
+    <ellipse cx="-100" cy="-22" rx="60" ry="40" fill="#fff8e8"/>
+    <ellipse cx="-95" cy="-15" rx="40" ry="32" fill="#3a2010"/>
+    <circle cx="-95" cy="-15" r="22" fill="#0a0408"/>
+    <ellipse cx="100" cy="-22" rx="60" ry="40" fill="#fff8e8"/>
+    <ellipse cx="105" cy="-15" rx="40" ry="32" fill="#3a2010"/>
+    <circle cx="105" cy="-15" r="22" fill="#0a0408"/>
+
+    <!-- Catchlights (warm gaslight) -->
+    <circle cx="-85" cy="-22" r="9" fill="#fff8d8" filter="url(#i8p16p1bloom)" opacity="0.95"/>
+    <circle cx="115" cy="-22" r="9" fill="#fff8d8" filter="url(#i8p16p1bloom)" opacity="0.95"/>
+    <!-- Tiny crimson reflections (from Thresh's nodes — IN her direction) -->
+    <circle cx="-95" cy="-7" r="2" fill="#f04838" filter="url(#i8p16p1bloom)" opacity="0.85"/>
+    <circle cx="105" cy="-7" r="2" fill="#f04838" filter="url(#i8p16p1bloom)" opacity="0.85"/>
+
+    <!-- Lashes upper -->
+    <g stroke="#1a0808" stroke-width="3" fill="none">
+      <line x1="-150" y1="-50" x2="-150" y2="-66"/>
+      <line x1="-130" y1="-55" x2="-130" y2="-71"/>
+      <line x1="-110" y1="-58" x2="-110" y2="-74"/>
+      <line x1="-90" y1="-58" x2="-90" y2="-74"/>
+      <line x1="-70" y1="-55" x2="-70" y2="-71"/>
+      <line x1="-50" y1="-50" x2="-50" y2="-66"/>
+      <line x1="50" y1="-50" x2="50" y2="-66"/>
+      <line x1="70" y1="-55" x2="70" y2="-71"/>
+      <line x1="90" y1="-58" x2="90" y2="-74"/>
+      <line x1="110" y1="-58" x2="110" y2="-74"/>
+      <line x1="130" y1="-55" x2="130" y2="-71"/>
+      <line x1="150" y1="-50" x2="150" y2="-66"/>
+    </g>
+
+    <!-- Brows (slightly raised — curiosity) -->
+    <path d="M-150,-90 Q-100,-100 -50,-92" stroke="#3a2818" stroke-width="6" fill="none" opacity="0.85"/>
+    <path d="M50,-92 Q100,-100 150,-90" stroke="#3a2818" stroke-width="6" fill="none" opacity="0.85"/>
+
+    <!-- Round flushed cheeks -->
+    <ellipse cx="-200" cy="40" rx="60" ry="32" fill="#e88868" opacity="0.55"/>
+    <ellipse cx="200" cy="40" rx="60" ry="32" fill="#e88868" opacity="0.55"/>
+
+    <!-- Small button nose -->
+    <ellipse cx="0" cy="40" rx="22" ry="14" fill="#a87838" opacity="0.55"/>
+    <ellipse cx="-9" cy="55" rx="3" ry="1.4" fill="#5a3818"/>
+    <ellipse cx="9" cy="55" rx="3" ry="1.4" fill="#5a3818"/>
+
+    <!-- ===== MOUTH — beginning of smile ===== -->
+    <path d="M-60,100 Q0,140 60,100" stroke="#3a1808" stroke-width="9" fill="none"/>
+    <!-- Slight teeth gleam -->
+    <path d="M-30,115 Q0,125 30,115" stroke="#fff8e8" stroke-width="2" fill="none" opacity="0.55"/>
+    <!-- Slight inner mouth shadow -->
+    <path d="M-40,108 Q0,128 40,108" stroke="#1a0606" stroke-width="2" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- ===== CHILD'S HAND extending toward shadow (right side, palm up open offering) ===== -->
+  <g transform="translate(540 240)">
+    <!-- Forearm visible -->
+    <path d="M44,-22 L120,-15 L120,9 L44,3 Z" fill="url(#i8p16p1childSkin)"/>
+    <!-- Wrist/hand -->
+    <ellipse cx="0" cy="0" rx="44" ry="22" fill="url(#i8p16p1childSkin)"/>
+    <!-- Palm UP, fingers OPEN -->
+    <!-- Palm crease lines -->
+    <path d="M-22,11 Q-9,3 11,9" stroke="#a87838" stroke-width="1.4" fill="none" opacity="0.55"/>
+    <path d="M-22,3 Q-9,-7 11,3" stroke="#a87838" stroke-width="1.4" fill="none" opacity="0.55"/>
+    <!-- Fingers extending forward toward Thresh -->
+    <ellipse cx="-30" cy="-15" rx="14" ry="6" fill="url(#i8p16p1childSkin)"/>
+    <ellipse cx="-50" cy="-22" rx="11" ry="5" fill="url(#i8p16p1childSkin)"/>
+    <ellipse cx="-30" cy="-3" rx="14" ry="6" fill="url(#i8p16p1childSkin)"/>
+    <ellipse cx="-50" cy="-7" rx="11" ry="5" fill="url(#i8p16p1childSkin)"/>
+    <ellipse cx="-30" cy="9" rx="14" ry="6" fill="url(#i8p16p1childSkin)"/>
+    <ellipse cx="-50" cy="11" rx="11" ry="5" fill="url(#i8p16p1childSkin)"/>
+    <ellipse cx="-30" cy="22" rx="14" ry="6" fill="url(#i8p16p1childSkin)"/>
+    <ellipse cx="-50" cy="22" rx="9" ry="4" fill="url(#i8p16p1childSkin)"/>
+    <!-- Thumb -->
+    <ellipse cx="22" cy="22" rx="14" ry="6" fill="url(#i8p16p1childSkin)"/>
+    <ellipse cx="36" cy="30" rx="9" ry="5" fill="url(#i8p16p1childSkin)"/>
+    <!-- Tiny fingernails -->
+    <g fill="#fff8d8" opacity="0.55">
+      <ellipse cx="-50" cy="-22" rx="3" ry="1" />
+      <ellipse cx="-50" cy="-7" rx="3" ry="1" />
+      <ellipse cx="-50" cy="11" rx="3" ry="1" />
+      <ellipse cx="-50" cy="22" rx="2" ry="0.85" />
+    </g>
+    <!-- Dirt under nails -->
+    <g fill="#3a2010" opacity="0.7">
+      <ellipse cx="-52" cy="-22" rx="1.4" ry="0.55"/>
+      <ellipse cx="-52" cy="-7" rx="1.4" ry="0.55"/>
+      <ellipse cx="-52" cy="11" rx="1.4" ry="0.55"/>
+    </g>
+    <!-- Backlight rim on hand -->
+    <path d="M-60,-22 L-60,30 L40,40 L120,18" stroke="#ffd898" stroke-width="0.85" filter="url(#i8p16p1bloom)" opacity="0.7" fill="none"/>
+  </g>
+
+  <!-- (No dialogue) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>

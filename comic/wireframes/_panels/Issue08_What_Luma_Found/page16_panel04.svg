@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 16 — Panel 4: The interruption — parent calls, child runs back smiling, Thresh doesn't move — the departure of innocence</title>
+  <desc>28mm wide slightly elevated. Alley at night. Gaslight end small child turns — bare feet, nightshirt, tousled hair — looking back once into shadow at wall base with quick, secretive smile. Then child running toward street, toward off-panel voice, bare feet on cobblestones, nightshirt catching warm amber light. Wall base, in deep shadow, tiny figure in ruby-crimson armor motionless — weapon on ground beside her, gauntleted hand still half-raised, not moving. Child runs through warm gaslight pool and out of alley. Amber light catches child's movement — blur of warmth and motion. Then child gone. Alley empty again. Gaslight steadies. Shadow holds its soldier.</desc>
+
+  <defs>
+    <linearGradient id="i8p16p4skyDeep" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1018"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p16p4brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <linearGradient id="i8p16p4cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <radialGradient id="i8p16p4lampSteady" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#a86838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stroke-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p16p4childMotion" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a86838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p16p4threshArmor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82818"/>
+      <stop offset="100%" stop-color="#3a0a0a"/>
+    </linearGradient>
+    <linearGradient id="i8p16p4childSkin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d8a8"/>
+      <stop offset="100%" stop-color="#c89868"/>
+    </linearGradient>
+    <linearGradient id="i8p16p4nightshirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d8b8"/>
+      <stop offset="100%" stop-color="#a89868"/>
+    </linearGradient>
+    <filter id="i8p16p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p16p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p16p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p16p4megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="i8p16p4motionBlur"><feGaussianBlur stdDeviation="2.5"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="742" height="40" fill="url(#i8p16p4skyDeep)"/>
+  <circle cx="180" cy="20" r="0.55" fill="#fff8e8" filter="url(#i8p16p4bloom)" opacity="0.7"/>
+  <circle cx="540" cy="22" r="0.55" fill="#fff8e8" filter="url(#i8p16p4bloom)" opacity="0.55"/>
+
+  <!-- Brick walls -->
+  <rect x="0" y="40" width="200" height="220" fill="url(#i8p16p4brick)"/>
+  <rect x="540" y="40" width="202" height="220" fill="url(#i8p16p4brick)"/>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.7">
+    <line x1="0" y1="80" x2="200" y2="80"/>
+    <line x1="0" y1="120" x2="200" y2="120"/>
+    <line x1="0" y1="160" x2="200" y2="160"/>
+    <line x1="0" y1="200" x2="200" y2="200"/>
+    <line x1="540" y1="80" x2="742" y2="80"/>
+    <line x1="540" y1="120" x2="742" y2="120"/>
+    <line x1="540" y1="160" x2="742" y2="160"/>
+    <line x1="540" y1="200" x2="742" y2="200"/>
+  </g>
+  <g fill="#040408" opacity="0.7">
+    <ellipse cx="80" cy="100" rx="22" ry="9"/>
+    <ellipse cx="160" cy="180" rx="22" ry="9"/>
+    <ellipse cx="600" cy="100" rx="22" ry="9"/>
+    <ellipse cx="680" cy="180" rx="22" ry="9"/>
+  </g>
+
+  <!-- Cobblestone -->
+  <rect x="0" y="260" width="742" height="40" fill="url(#i8p16p4cobble)"/>
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.55">
+    <ellipse cx="60" cy="275" rx="11" ry="6"/>
+    <ellipse cx="160" cy="280" rx="11" ry="6"/>
+    <ellipse cx="280" cy="275" rx="11" ry="6"/>
+    <ellipse cx="380" cy="280" rx="11" ry="6"/>
+    <ellipse cx="480" cy="275" rx="11" ry="6"/>
+    <ellipse cx="580" cy="280" rx="11" ry="6"/>
+    <ellipse cx="680" cy="275" rx="11" ry="6"/>
+  </g>
+
+  <!-- ===== GASLIGHT (steady, just resumed) ===== -->
+  <g transform="translate(620 100)">
+    <rect x="-2" y="0" width="4" height="160" fill="#3a3030"/>
+    <rect x="-22" y="-26" width="22" height="22" fill="#1a1818"/>
+    <polygon points="-26,-26 4,-26 0,-36 -22,-36" fill="#3a3030"/>
+    <ellipse cx="-11" cy="-14" rx="6" ry="9" fill="#fff8d8" filter="url(#i8p16p4strongglow)" opacity="0.85"/>
+    <ellipse cx="-11" cy="-14" rx="3" ry="6" fill="#fff" filter="url(#i8p16p4bloom)"/>
+  </g>
+  <ellipse cx="600" cy="120" rx="200" ry="120" fill="url(#i8p16p4lampSteady)" filter="url(#i8p16p4megaglow)"/>
+  <ellipse cx="540" cy="280" rx="160" ry="22" fill="url(#i8p16p4lampSteady)" filter="url(#i8p16p4megaglow)" opacity="0.7"/>
+
+  <!-- ===== CHILD — running toward street (RIGHT side, mid-motion) ===== -->
+  <g transform="translate(620 250)">
+    <!-- Motion blur halo behind child -->
+    <ellipse cx="-30" cy="-22" rx="80" ry="40" fill="url(#i8p16p4childMotion)" filter="url(#i8p16p4motionBlur)" opacity="0.55"/>
+
+    <!-- Body — turned, mid-stride away (right) -->
+    <g transform="rotate(-8 0 -30)">
+      <!-- Nightshirt body -->
+      <path d="M-22,30 L-26,11 L-22,-9 L-18,-22 L-7,-30 L7,-30 L18,-22 L22,-9 L26,11 L22,30 L18,40 L-18,40 Z" fill="url(#i8p16p4nightshirt)"/>
+      <!-- Backlight rim -->
+      <path d="M-22,30 L-26,11 L-22,-9 L-18,-22 L-7,-30" stroke="#ffd898" stroke-width="0.85" fill="none" filter="url(#i8p16p4bloom)" opacity="0.85"/>
+      <!-- Nightshirt FLAPPING (motion lines) -->
+      <path d="M-26,9 L-40,3 L-44,-3" stroke="#a89868" stroke-width="2" fill="none" opacity="0.7"/>
+      <path d="M-22,30 L-36,30" stroke="#a89868" stroke-width="2" fill="none" opacity="0.55"/>
+
+      <!-- Bare feet — ONE LIFTED mid-run -->
+      <ellipse cx="-3" cy="44" rx="4" ry="2" fill="url(#i8p16p4childSkin)"/>
+      <ellipse cx="14" cy="30" rx="4" ry="2" fill="url(#i8p16p4childSkin)"/>
+      <ellipse cx="14" cy="28" rx="3" ry="1" fill="#ffd898" opacity="0.7" filter="url(#i8p16p4bloom)"/>
+
+      <!-- Arms (one back, one forward — running motion) -->
+      <path d="M-22,-9 L-30,3 L-22,11 L-18,3 Z" fill="url(#i8p16p4nightshirt)"/>
+      <path d="M22,-9 L30,-3 L26,7 L18,3 Z" fill="url(#i8p16p4nightshirt)"/>
+
+      <!-- Head — TURNED BACK (the secretive smile) -->
+      <ellipse cx="-9" cy="-44" rx="11" ry="14" fill="url(#i8p16p4childSkin)"/>
+      <!-- Tousled hair -->
+      <path d="M-22,-58 Q-9,-66 3,-58 L3,-44 Q-9,-50 -22,-44 Z" fill="#3a2818"/>
+      <!-- Hair tufts catching motion -->
+      <path d="M-15,-66 L-11,-58" stroke="#3a2818" stroke-width="2" fill="none"/>
+      <path d="M3,-66 L0,-58" stroke="#3a2818" stroke-width="2" fill="none"/>
+      <ellipse cx="-9" cy="-66" rx="11" ry="2" fill="#ffd898" filter="url(#i8p16p4bloom)" opacity="0.85"/>
+
+      <!-- Eyes turned back (toward Thresh's position) — small smile -->
+      <ellipse cx="-14" cy="-44" rx="1.4" ry="1" fill="#fff8e8"/>
+      <circle cx="-14" cy="-44" r="0.55" fill="#3a2010"/>
+      <ellipse cx="-9" cy="-44" rx="1.4" ry="1" fill="#fff8e8"/>
+      <circle cx="-9" cy="-44" r="0.55" fill="#3a2010"/>
+      <!-- Catchlights -->
+      <circle cx="-14" cy="-45" r="0.4" fill="#fff8d8" filter="url(#i8p16p4bloom)" opacity="0.95"/>
+      <circle cx="-9" cy="-45" r="0.4" fill="#fff8d8" filter="url(#i8p16p4bloom)" opacity="0.95"/>
+      <!-- ===== SECRETIVE SMILE — quick backward glance ===== -->
+      <path d="M-15,-32 Q-9,-28 -3,-32" stroke="#3a1808" stroke-width="1.4" fill="none"/>
+    </g>
+  </g>
+  <!-- Motion lines behind running child -->
+  <g stroke="#ffd898" stroke-width="0.55" fill="none" opacity="0.55" filter="url(#i8p16p4bloom)">
+    <line x1="540" y1="240" x2="580" y2="245"/>
+    <line x1="500" y1="260" x2="560" y2="265"/>
+    <line x1="520" y1="270" x2="580" y2="275"/>
+  </g>
+
+  <!-- ===== THRESH — tiny, motionless, shadow at wall base (LEFT) ===== -->
+  <g transform="translate(140 268)">
+    <!-- Body — slumped, hand still half-raised, weapon ON GROUND beside her -->
+    <path d="M-7,18 L-9,3 L-11,-9 L-7,-22 L-3,-30 L3,-30 L7,-22 L11,-9 L9,3 L7,18 Z" fill="url(#i8p16p4threshArmor)"/>
+    <!-- Heavy dents -->
+    <ellipse cx="-9" cy="-14" rx="3" ry="2" fill="#5a1410"/>
+    <ellipse cx="9" cy="-14" rx="3" ry="2" fill="#7a1810"/>
+    <path d="M-5,-3 L5,3" stroke="#3a0a0a" stroke-width="1" opacity="0.85"/>
+    <!-- Suit accent uneven (biometric disruption) -->
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#ffa898" stroke-width="0.55" opacity="0.85" filter="url(#i8p16p4bloom)"/>
+    <circle cx="-7" cy="-14" r="0.85" fill="#ff8868" filter="url(#i8p16p4bloom)" opacity="0.95"/>
+    <circle cx="7" cy="-14" r="0.55" fill="#a82818" filter="url(#i8p16p4bloom)" opacity="0.55"/>
+    <circle cx="0" cy="0" r="0.85" fill="#ff8868" filter="url(#i8p16p4bloom)" opacity="0.7"/>
+
+    <!-- Knees -->
+    <ellipse cx="-7" cy="14" rx="6" ry="3" fill="url(#i8p16p4threshArmor)"/>
+    <ellipse cx="7" cy="14" rx="6" ry="3" fill="url(#i8p16p4threshArmor)"/>
+
+    <!-- ===== WEAPON ON GROUND beside her ===== -->
+    <rect x="-22" y="20" width="44" height="3" fill="#0a0408"/>
+    <ellipse cx="0" cy="22" rx="6" ry="0.85" fill="#a82818" filter="url(#i8p16p4bloom)" opacity="0.4"/>
+
+    <!-- Gauntleted hand HALF-RAISED, suspended (not moving) -->
+    <path d="M11,-9 L18,-22 L14,-15 L7,-3 Z" fill="url(#i8p16p4threshArmor)"/>
+    <ellipse cx="18" cy="-22" rx="2" ry="1.4" fill="url(#i8p16p4threshArmor)"/>
+    <!-- Crimson node on gauntlet -->
+    <circle cx="18" cy="-22" r="0.55" fill="#f04838" filter="url(#i8p16p4bloom)" opacity="0.95"/>
+
+    <!-- Other arm at side -->
+    <path d="M-11,-9 L-18,3 L-11,7 L-9,0 Z" fill="url(#i8p16p4threshArmor)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-36" rx="4" ry="5" fill="#a87838"/>
+    <path d="M-5,-42 Q0,-44 5,-42 L5,-36 Q0,-38 -5,-36 Z" fill="#7a2818"/>
+    <!-- Eyes — fixed on where the child was -->
+    <line x1="-2" y1="-36" x2="-1" y2="-36" stroke="#1a0808" stroke-width="0.7"/>
+    <line x1="1" y1="-36" x2="2" y2="-36" stroke="#1a0808" stroke-width="0.7"/>
+  </g>
+  <!-- Faint crimson glow halo at her position -->
+  <ellipse cx="140" cy="260" rx="22" ry="11" fill="#3a0a0a" opacity="0.55" filter="url(#i8p16p4glow)"/>
+
+  <!-- ===== DIALOGUE — PARENT off-panel from street ===== -->
+  <g>
+    <rect x="14" y="14" width="320" height="36" rx="2" fill="white" stroke="#5a4838" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a4838" font-weight="700">PARENT  <tspan font-style="italic" font-size="8" font-weight="500">(off-panel, from street)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Come inside now! This instant!</text>
+
+  <!-- Receding footstep sound caption -->
+  <g>
+    <rect x="408" y="14" width="320" height="36" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="416" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">The sound of small feet on stone,</text>
+  <text x="416" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic" font-weight="700">receding.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>
