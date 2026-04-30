@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 11 Page 8 Panel 1 — Sable delivers the synchronization parameters</title>
+  <desc>Medium eye-level Sable in full command posture — military-straight, hands clasped behind back. Dark brown skin sharp features silver-white hair in grey-white daylight. Delivers operational parameters with clipped precision. Soot-darkened silver suit catches growing daylight. No doubt — decision made, only execution remaining. Grey-white daylight dominant, copper-gold projections secondary. The commander back in command.</desc>
+  <defs>
+    <linearGradient id="bgX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2410"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="dayDomX1" cx="0.78" cy="0.32" r="0.55">
+      <stop offset="0" stop-color="#a8b0bc" stop-opacity="0.62"/>
+      <stop offset="0.4" stop-color="#5a6478" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="copperFadeX1" cx="0.18" cy="0.42" r="0.32">
+      <stop offset="0" stop-color="#a85820" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#5a2e10" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2410"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="brickWallX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3018"/>
+      <stop offset="0.5" stop-color="#3a1a14"/>
+      <stop offset="1" stop-color="#1a0a08"/>
+    </linearGradient>
+    <linearGradient id="silverFigX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6068"/>
+      <stop offset="0.5" stop-color="#3a3e44"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="hairSilX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#9098a0"/>
+      <stop offset="1" stop-color="#3a3e44"/>
+    </linearGradient>
+    <linearGradient id="faceSableX1" x1="0" y1="0" x2="0.85" y2="0.5">
+      <stop offset="0" stop-color="#3a261a"/>
+      <stop offset="0.5" stop-color="#5a3622"/>
+      <stop offset="1" stop-color="#a8b0bc"/>
+    </linearGradient>
+    <linearGradient id="tinPatchX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8b0bc"/>
+      <stop offset="0.5" stop-color="#5a6478"/>
+      <stop offset="1" stop-color="#1a1828"/>
+    </linearGradient>
+    <radialGradient id="eyeCommandX1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="0.5" stop-color="#88a8d0" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#88a8d0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomX1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowX1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.2"/>
+    </filter>
+    <filter id="dayBlurX1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgX1)"/>
+  <rect width="366" height="240" fill="url(#dayDomX1)"/>
+  <rect width="366" height="240" fill="url(#copperFadeX1)"/>
+
+  <g>
+    <rect x="0" y="200" width="366" height="40" fill="url(#floorX1)"/>
+    <line x1="0" y1="208" x2="366" y2="206" stroke="#1a1008" stroke-width="0.5" opacity="0.55"/>
+  </g>
+
+  <g>
+    <rect x="0" y="0" width="366" height="200" fill="url(#brickWallX1)" opacity="0.92"/>
+    <g opacity="0.55" stroke="#1a0a08" stroke-width="0.5" fill="none">
+      <line x1="0" y1="40" x2="366" y2="40"/>
+      <line x1="0" y1="80" x2="366" y2="80"/>
+      <line x1="0" y1="120" x2="366" y2="120"/>
+    </g>
+  </g>
+
+  <g>
+    <path d="M 240 30 Q 260 60 290 80 Q 320 90 366 100 L 366 200 L 280 200 L 240 184 Q 232 150 240 30 Z" fill="#5a6478" opacity="0.55"/>
+  </g>
+  <g opacity="0.85" filter="url(#dayBlurX1)">
+    <ellipse cx="320" cy="80" rx="40" ry="22" fill="#a8b0bc" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="120" cy="100" rx="32" ry="42" fill="#3a261a"/>
+    <ellipse cx="120" cy="80" rx="22" ry="26" fill="url(#faceSableX1)"/>
+
+    <path d="M 96 50 Q 120 32 144 50 Q 152 76 148 92 L 142 100 Q 130 60 120 54 Q 110 60 96 100 Z" fill="url(#hairSilX1)"/>
+    <path d="M 96 50 L 102 44 L 108 50 L 114 44 L 120 50 L 126 44 L 132 50 L 138 44 L 144 50" stroke="url(#hairSilX1)" stroke-width="2.4" fill="none" opacity="0.85"/>
+
+    <ellipse cx="110" cy="84" rx="3" ry="4" fill="#0a0604"/>
+    <ellipse cx="130" cy="84" rx="3" ry="4" fill="#0a0604"/>
+    <circle cx="110" cy="84" r="1.6" fill="#080404"/>
+    <circle cx="130" cy="84" r="1.6" fill="#080404"/>
+    <circle cx="111" cy="83" r="0.85" fill="url(#eyeCommandX1)"/>
+    <circle cx="131" cy="83" r="0.85" fill="url(#eyeCommandX1)"/>
+
+    <path d="M 96 72 Q 110 68 122 72" stroke="#0a0604" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M 120 72 Q 130 68 144 72" stroke="#0a0604" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+
+    <path d="M 110 110 Q 120 110 130 110" stroke="#0a0604" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+    <path d="M 96 122 Q 120 116 144 122 L 156 200 L 84 200 L 92 168 Z" fill="url(#silverFigX1)"/>
+    <path d="M 104 134 L 136 134 L 144 196 L 96 196 Z" fill="#1a1c20" opacity="0.85"/>
+    <line x1="120" y1="124" x2="120" y2="196" stroke="#080404" stroke-width="0.55" opacity="0.55"/>
+
+    <path d="M 142 122 L 158 116 L 162 130 L 146 138 Z" fill="url(#tinPatchX1)" opacity="0.92"/>
+    <path d="M 142 122 L 158 116" stroke="#3a4868" stroke-width="0.6"/>
+    <circle cx="148" cy="120" r="0.6" fill="#1a1828"/>
+    <circle cx="156" cy="124" r="0.6" fill="#1a1828"/>
+    <circle cx="150" cy="132" r="0.6" fill="#1a1828"/>
+
+    <path d="M 96 122 L 84 138 L 76 156" stroke="url(#silverFigX1)" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M 76 156 L 92 162 L 108 162" stroke="url(#silverFigX1)" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+    <path d="M 144 122 L 156 138 L 164 156" stroke="url(#silverFigX1)" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M 164 156 L 148 162 L 132 162" stroke="url(#silverFigX1)" stroke-width="9" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#bloomX1)">
+    <ellipse cx="120" cy="170" rx="48" ry="22" fill="#a85820" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="200" y1="100" x2="240" y2="80" stroke="#a8b0bc" stroke-width="0.5" stroke-dasharray="2 1.4" opacity="0.55"/>
+    <line x1="200" y1="120" x2="240" y2="140" stroke="#a8b0bc" stroke-width="0.5" stroke-dasharray="2 1.4" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowX1)">
+    <ellipse cx="120" cy="50" rx="40" ry="9" fill="#a8b0bc" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="120" cy="206" rx="50" ry="2.4" fill="#040202"/>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="320" height="42" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#5a6478" stroke-width="1.4"/>
+    <text x="152" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#5a6478" font-weight="700">SABLE: "Synchronization window:</text>
+    <text x="152" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#2a2a2a" font-style="italic" font-weight="700">ninety seconds. From the first device</text>
+    <text x="152" y="29" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#2a2a2a" font-style="italic">going dark to the last."</text>
+    <text x="152" y="38" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#5a6478" font-weight="700">"Any longer, the failsafe triggers."</text>
+  </g>
+</svg>
