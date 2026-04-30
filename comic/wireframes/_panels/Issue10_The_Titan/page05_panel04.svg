@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 10 Page 5 Panel 4 — Thresh's hands, "fear in the hands, courage in the aim"</title>
+  <desc>Extreme close-up two hands gripping compact rifle. Pale-skinned, strong, tendons visible from white-knuckle grip — tighter than necessary. Armored crimson forearms, dented, holographic edge-lighting pulses crimson geometric like visible heartbeat. Weapon aimed steadily into darkness. Body says retreat. Training says hold.</desc>
+  <defs>
+    <linearGradient id="bgQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040206"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="crimsonPulseQ4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5a1810" stop-opacity="0.4"/>
+      <stop offset="0.5" stop-color="#2a0808" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="darknessRightQ4" cx="0.92" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#020100" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#040206" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="armorPlateQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a2520"/>
+      <stop offset="0.5" stop-color="#5a1810"/>
+      <stop offset="1" stop-color="#1a0606"/>
+    </linearGradient>
+    <linearGradient id="armorLitQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c83538"/>
+      <stop offset="0.5" stop-color="#8a2520"/>
+      <stop offset="1" stop-color="#3a0e08"/>
+    </linearGradient>
+    <linearGradient id="paleSkinQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8b09a"/>
+      <stop offset="0.5" stop-color="#a87878"/>
+      <stop offset="1" stop-color="#5a3838"/>
+    </linearGradient>
+    <linearGradient id="rifleBodyQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3a3a"/>
+      <stop offset="0.5" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="rifleTechQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8088"/>
+      <stop offset="0.5" stop-color="#3a3e44"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <filter id="bloomQ4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowQ4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="heartbeatQ4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="softQ4" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgQ4)"/>
+  <rect width="366" height="240" fill="url(#crimsonPulseQ4)"/>
+  <rect width="366" height="240" fill="url(#darknessRightQ4)"/>
+
+  <g>
+    <path d="M 0 200 L 60 196 Q 80 188 100 178 L 240 174 Q 260 178 300 184 L 360 192 L 360 240 L 0 240 Z" fill="url(#armorPlateQ4)"/>
+    <path d="M 20 198 L 80 192 L 100 184 L 240 180 L 280 184 L 340 192 L 340 224 L 20 226 Z" fill="#1a0606" opacity="0.65"/>
+    <line x1="20" y1="200" x2="100" y2="180" stroke="#3a0e08" stroke-width="0.7" opacity="0.55"/>
+    <line x1="240" y1="178" x2="300" y2="184" stroke="#3a0e08" stroke-width="0.7" opacity="0.55"/>
+
+    <path d="M 60 178 L 80 174 L 86 184 L 70 188 Z" fill="#1a0606" opacity="0.85"/>
+    <path d="M 280 174 L 304 178 L 304 188 L 286 188 Z" fill="#1a0606" opacity="0.85"/>
+    <path d="M 30 210 L 78 220 L 76 230 L 28 224 Z" fill="#3a0e08" opacity="0.7"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#heartbeatQ4)">
+    <line x1="40" y1="190" x2="100" y2="180" stroke="#dc4540" stroke-width="2" stroke-linecap="round"/>
+    <line x1="240" y1="180" x2="320" y2="186" stroke="#dc4540" stroke-width="2" stroke-linecap="round"/>
+    <line x1="60" y1="220" x2="120" y2="218" stroke="#dc4540" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="220" y1="218" x2="300" y2="220" stroke="#dc4540" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.95">
+    <line x1="40" y1="190" x2="100" y2="180" stroke="#f4886a" stroke-width="0.6"/>
+    <line x1="240" y1="180" x2="320" y2="186" stroke="#f4886a" stroke-width="0.6"/>
+  </g>
+
+  <g>
+    <path d="M 100 178 Q 110 170 130 168 Q 145 168 152 174 L 152 196 Q 142 200 130 198 Q 116 196 110 192 Q 100 188 100 178 Z" fill="url(#paleSkinQ4)"/>
+    <path d="M 240 174 Q 230 166 214 164 Q 198 164 192 170 L 190 196 Q 200 200 214 198 Q 226 196 234 192 Q 242 184 240 174 Z" fill="url(#paleSkinQ4)"/>
+
+    <path d="M 110 178 L 116 172 L 122 174 L 124 184 L 116 186 Z" fill="url(#paleSkinQ4)" stroke="#5a3838" stroke-width="0.4"/>
+    <path d="M 122 174 L 130 168 L 138 170 L 138 182 L 130 184 Z" fill="url(#paleSkinQ4)" stroke="#5a3838" stroke-width="0.4"/>
+    <path d="M 138 170 L 144 168 L 150 170 L 150 184 L 144 184 Z" fill="url(#paleSkinQ4)" stroke="#5a3838" stroke-width="0.4"/>
+    <path d="M 132 188 Q 142 192 152 188" stroke="#5a3838" stroke-width="0.6" fill="none"/>
+
+    <path d="M 230 178 L 224 172 L 218 174 L 216 184 L 224 186 Z" fill="url(#paleSkinQ4)" stroke="#5a3838" stroke-width="0.4"/>
+    <path d="M 218 174 L 210 168 L 202 170 L 202 182 L 210 184 Z" fill="url(#paleSkinQ4)" stroke="#5a3838" stroke-width="0.4"/>
+    <path d="M 202 170 L 196 168 L 190 170 L 190 184 L 196 184 Z" fill="url(#paleSkinQ4)" stroke="#5a3838" stroke-width="0.4"/>
+    <path d="M 208 188 Q 198 192 188 188" stroke="#5a3838" stroke-width="0.6" fill="none"/>
+
+    <line x1="118" y1="180" x2="118" y2="186" stroke="#7a4848" stroke-width="0.4"/>
+    <line x1="130" y1="178" x2="130" y2="184" stroke="#7a4848" stroke-width="0.4"/>
+    <line x1="142" y1="178" x2="142" y2="184" stroke="#7a4848" stroke-width="0.4"/>
+    <line x1="222" y1="180" x2="222" y2="186" stroke="#7a4848" stroke-width="0.4"/>
+    <line x1="210" y1="178" x2="210" y2="184" stroke="#7a4848" stroke-width="0.4"/>
+    <line x1="198" y1="178" x2="198" y2="184" stroke="#7a4848" stroke-width="0.4"/>
+  </g>
+
+  <g>
+    <rect x="148" y="172" width="48" height="32" rx="2" fill="url(#rifleBodyQ4)"/>
+    <rect x="148" y="172" width="48" height="6" fill="#3a3a3a" opacity="0.55"/>
+    <rect x="148" y="200" width="48" height="4" fill="#040404" opacity="0.85"/>
+    <rect x="155" y="180" width="34" height="14" fill="#0a0a0a"/>
+    <rect x="160" y="184" width="24" height="6" fill="#1a1c20"/>
+    <line x1="172" y1="180" x2="172" y2="194" stroke="#040404" stroke-width="0.4"/>
+    <line x1="184" y1="180" x2="184" y2="194" stroke="#040404" stroke-width="0.4"/>
+  </g>
+  <g opacity="0.92" filter="url(#strongGlowQ4)">
+    <ellipse cx="172" cy="187" rx="14" ry="3" fill="#88a8d0"/>
+  </g>
+  <g>
+    <rect x="160" y="186" width="24" height="2" fill="#a8c0e0"/>
+  </g>
+
+  <g>
+    <rect x="196" y="180" width="160" height="14" fill="url(#rifleBodyQ4)"/>
+    <rect x="196" y="180" width="160" height="3" fill="#3a3a3a" opacity="0.55"/>
+    <rect x="196" y="190" width="160" height="3" fill="#040404" opacity="0.85"/>
+    <rect x="220" y="184" width="120" height="4" fill="#0a0a0a"/>
+    <rect x="350" y="178" width="6" height="18" fill="#040404"/>
+    <ellipse cx="356" cy="187" rx="2" ry="3" fill="#020202"/>
+    <line x1="240" y1="180" x2="240" y2="194" stroke="#040404" stroke-width="0.4"/>
+    <line x1="280" y1="180" x2="280" y2="194" stroke="#040404" stroke-width="0.4"/>
+    <line x1="320" y1="180" x2="320" y2="194" stroke="#040404" stroke-width="0.4"/>
+  </g>
+  <g opacity="0.55" filter="url(#bloomQ4)">
+    <circle cx="356" cy="187" r="2" fill="#dc4540"/>
+  </g>
+
+  <g>
+    <rect x="190" y="184" width="6" height="6" fill="#3a3a3a"/>
+    <rect x="148" y="184" width="6" height="6" fill="#3a3a3a"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlowQ4)">
+    <ellipse cx="100" cy="190" rx="6" ry="14" fill="#dc4540"/>
+    <ellipse cx="240" cy="186" rx="6" ry="14" fill="#dc4540"/>
+  </g>
+
+  <g opacity="0.45">
+    <text x="60" y="220" font-family="Courier New, monospace" font-size="3.4" fill="#3a0e08" opacity="0.5">.::HOLD::.</text>
+    <text x="280" y="220" font-family="Courier New, monospace" font-size="3.4" fill="#3a0e08" opacity="0.5">.::HOLD::.</text>
+  </g>
+</svg>
