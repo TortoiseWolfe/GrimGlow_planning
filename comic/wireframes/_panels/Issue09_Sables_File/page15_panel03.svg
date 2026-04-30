@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 260" width="366" height="260">
+  <title>Issue 9 Page 15 Panel 3 — Jink lying on upper beam, idle dust patterns, stillness where motion should be</title>
+  <desc>Medium shot Jink lying on back on upper cross-beam, staring up at dark timber ceiling. Curls splayed against rough wood, one hand traces idle patterns in dust. Wing-pack stowed but seams glow faint emerald. Energy that defines them — restlessness, quips, grin — entirely absent.</desc>
+  <defs>
+    <linearGradient id="bgF3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040608"/>
+      <stop offset="0.4" stop-color="#0a0e16"/>
+      <stop offset="0.8" stop-color="#080a10"/>
+      <stop offset="1" stop-color="#040608"/>
+    </linearGradient>
+    <radialGradient id="emeraldGlowF3" cx="0.5" cy="0.7" r="0.5">
+      <stop offset="0" stop-color="#3aa868" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#1a4030" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#040608" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ceilingDarkF3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020306"/>
+      <stop offset="1" stop-color="#15191f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beamWoodF3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#2a1c10"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <linearGradient id="faceLitJ_F3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a261a"/>
+      <stop offset="0.5" stop-color="#5a3622"/>
+      <stop offset="1" stop-color="#7a4830"/>
+    </linearGradient>
+    <linearGradient id="hairGoldF3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87820"/>
+      <stop offset="0.4" stop-color="#7a5810"/>
+      <stop offset="1" stop-color="#3a2810"/>
+    </linearGradient>
+    <linearGradient id="emeraldSuitF3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e7048"/>
+      <stop offset="0.5" stop-color="#1f4a30"/>
+      <stop offset="1" stop-color="#0a1f14"/>
+    </linearGradient>
+    <radialGradient id="eyeFlatF3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5a6470" stop-opacity="0.4"/>
+      <stop offset="0.5" stop-color="#3a4858" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#3a4858" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomF3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowF3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <filter id="softF3" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="260" fill="url(#bgF3)"/>
+  <rect width="366" height="260" fill="url(#emeraldGlowF3)"/>
+
+  <g opacity="0.85">
+    <rect x="0" y="0" width="366" height="80" fill="url(#ceilingDarkF3)"/>
+  </g>
+
+  <g opacity="0.5">
+    <line x1="0" y1="20" x2="366" y2="22" stroke="#1a1010" stroke-width="0.4"/>
+    <line x1="0" y1="40" x2="366" y2="42" stroke="#1a1010" stroke-width="0.4"/>
+    <line x1="40" y1="0" x2="40" y2="80" stroke="#1a1010" stroke-width="0.3"/>
+    <line x1="120" y1="0" x2="120" y2="80" stroke="#1a1010" stroke-width="0.3"/>
+    <line x1="240" y1="0" x2="240" y2="80" stroke="#1a1010" stroke-width="0.3"/>
+    <line x1="320" y1="0" x2="320" y2="80" stroke="#1a1010" stroke-width="0.3"/>
+  </g>
+
+  <g>
+    <rect x="20" y="120" width="326" height="22" fill="url(#beamWoodF3)"/>
+    <rect x="20" y="120" width="326" height="3" fill="#5a3a20" opacity="0.55"/>
+    <rect x="20" y="140" width="326" height="2" fill="#0e0805" opacity="0.85"/>
+    <line x1="80" y1="120" x2="80" y2="142" stroke="#0e0805" stroke-width="0.5"/>
+    <line x1="180" y1="120" x2="180" y2="142" stroke="#0e0805" stroke-width="0.5"/>
+    <line x1="280" y1="120" x2="280" y2="142" stroke="#0e0805" stroke-width="0.5"/>
+  </g>
+
+  <g opacity="0.55">
+    <ellipse cx="280" cy="124" rx="10" ry="0.8" fill="#5a4a30"/>
+    <ellipse cx="220" cy="124" rx="14" ry="0.8" fill="#5a4a30"/>
+    <ellipse cx="120" cy="124" rx="14" ry="0.8" fill="#5a4a30"/>
+  </g>
+
+  <g>
+    <ellipse cx="160" cy="116" rx="60" ry="7" fill="#1f4a30" opacity="0.85"/>
+    <path d="M 120 110 Q 140 104 160 106 L 200 110 Q 210 110 210 116 Q 210 122 200 122 L 130 122 Q 110 120 110 116 Z" fill="url(#emeraldSuitF3)"/>
+    <ellipse cx="120" cy="118" rx="14" ry="6" fill="#1f4a30"/>
+
+    <path d="M 200 112 L 270 116 L 286 122 L 200 122 Z" fill="url(#emeraldSuitF3)"/>
+    <ellipse cx="280" cy="120" rx="6" ry="3" fill="url(#emeraldSuitF3)"/>
+  </g>
+
+  <g>
+    <ellipse cx="100" cy="106" rx="22" ry="14" fill="url(#faceLitJ_F3)"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowF3)">
+    <ellipse cx="80" cy="100" rx="32" ry="14" fill="#a87820"/>
+  </g>
+  <g>
+    <ellipse cx="80" cy="100" rx="22" ry="10" fill="url(#hairGoldF3)"/>
+    <ellipse cx="60" cy="98" rx="14" ry="8" fill="url(#hairGoldF3)" transform="rotate(-15 60 98)"/>
+    <ellipse cx="100" cy="96" rx="16" ry="7" fill="url(#hairGoldF3)"/>
+    <ellipse cx="50" cy="106" rx="10" ry="6" fill="url(#hairGoldF3)" transform="rotate(-25 50 106)"/>
+    <ellipse cx="76" cy="92" rx="8" ry="5" fill="url(#hairGoldF3)"/>
+  </g>
+
+  <g>
+    <ellipse cx="106" cy="102" rx="3" ry="1.6" fill="#0a0604"/>
+    <ellipse cx="116" cy="101" rx="3" ry="1.6" fill="#0a0604"/>
+    <circle cx="106" cy="102" r="1" fill="url(#eyeFlatF3)"/>
+    <circle cx="116" cy="101" r="1" fill="url(#eyeFlatF3)"/>
+    <line x1="100" y1="106" x2="120" y2="106" stroke="#0a0604" stroke-width="0.6" opacity="0.7"/>
+  </g>
+
+  <g>
+    <line x1="123" y1="105" x2="135" y2="106" stroke="#0a0604" stroke-width="0.7"/>
+    <line x1="100" y1="100" x2="106" y2="100" stroke="#0a0604" stroke-width="0.6"/>
+    <line x1="113" y1="100" x2="119" y2="100" stroke="#0a0604" stroke-width="0.6"/>
+  </g>
+
+  <g>
+    <path d="M 240 114 L 320 110 L 320 116 L 240 118 Z" fill="url(#emeraldSuitF3)" opacity="0.85"/>
+    <path d="M 320 110 L 330 108 L 332 114 L 320 116 Z" fill="url(#emeraldSuitF3)" opacity="0.95"/>
+    <path d="M 326 108 Q 332 100 332 96 Q 330 92 326 96 L 326 108 Z" fill="url(#emeraldSuitF3)"/>
+  </g>
+
+  <g opacity="0.5">
+    <path d="M 332 96 Q 336 86 340 88" stroke="#5a4a30" stroke-width="0.4" fill="none"/>
+    <circle cx="324" cy="100" r="0.5" fill="#5a4a30"/>
+    <circle cx="316" cy="104" r="0.4" fill="#5a4a30"/>
+    <circle cx="308" cy="106" r="0.4" fill="#5a4a30"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowF3)">
+    <ellipse cx="200" cy="112" rx="24" ry="6" fill="#3aa868"/>
+  </g>
+  <g opacity="0.95">
+    <line x1="180" y1="110" x2="220" y2="110" stroke="#5acc88" stroke-width="0.4"/>
+    <line x1="180" y1="118" x2="220" y2="118" stroke="#5acc88" stroke-width="0.4"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="80" cy="148" rx="24" ry="3" fill="#040608"/>
+    <ellipse cx="160" cy="146" rx="40" ry="3" fill="#040608"/>
+    <ellipse cx="280" cy="146" rx="14" ry="2" fill="#040608"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="40" cy="200" r="0.4" fill="#3a4858"/>
+    <circle cx="200" cy="220" r="0.4" fill="#3a4858"/>
+    <circle cx="320" cy="200" r="0.4" fill="#3a4858"/>
+  </g>
+</svg>

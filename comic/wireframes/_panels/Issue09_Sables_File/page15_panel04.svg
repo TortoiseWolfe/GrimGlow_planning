@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 9 Page 15 Panel 4 — Thresh on perimeter, "Perimeter clear" — reflex as survival</title>
+  <desc>Medium shot Thresh at camp's far perimeter, overwatch position near weakly pulsing holographic marker. Weapon ready, scanning outward. The military default when everything fails. Body knows what to do when mind cannot. Eyes scanning, jaw set, compressed into perimeter defense.</desc>
+  <defs>
+    <linearGradient id="bgF4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0e16"/>
+      <stop offset="0.4" stop-color="#161a26"/>
+      <stop offset="1" stop-color="#080a10"/>
+    </linearGradient>
+    <radialGradient id="markerPulseF4" cx="0.25" cy="0.5" r="0.25">
+      <stop offset="0" stop-color="#88a8d0" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#3a4858" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#080a10" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dawnFilterF4" cx="0.95" cy="0.4" r="0.4">
+      <stop offset="0" stop-color="#a0a8b8" stop-opacity="0.4"/>
+      <stop offset="0.5" stop-color="#5a6478" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#080a10" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="timberSideF4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="beamMainF4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#2a1c10"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <linearGradient id="faceLitT_F4" x1="0" y1="0" x2="0.7" y2="0.5">
+      <stop offset="0" stop-color="#1a1414"/>
+      <stop offset="0.4" stop-color="#3a2828"/>
+      <stop offset="0.8" stop-color="#5a3838"/>
+      <stop offset="1" stop-color="#7a5050"/>
+    </linearGradient>
+    <linearGradient id="hairBuzzF4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a2010"/>
+      <stop offset="1" stop-color="#1a0808"/>
+    </linearGradient>
+    <linearGradient id="crimsonArmorF4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a2520"/>
+      <stop offset="0.5" stop-color="#4a1410"/>
+      <stop offset="1" stop-color="#1a0606"/>
+    </linearGradient>
+    <linearGradient id="rifleF4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3a3a"/>
+      <stop offset="0.5" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <radialGradient id="markerCoreF4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.92"/>
+      <stop offset="0.5" stop-color="#5878a8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#5878a8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomF4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="strongGlowF4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="megaGlowF4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="softF4" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="280" fill="url(#bgF4)"/>
+  <rect width="742" height="280" fill="url(#dawnFilterF4)"/>
+  <rect width="742" height="280" fill="url(#markerPulseF4)"/>
+
+  <g>
+    <path d="M 0 0 L 60 0 L 60 280 L 0 280 Z" fill="url(#timberSideF4)"/>
+    <path d="M 60 0 L 60 280 L 80 260 L 80 20 Z" fill="#1a1008" opacity="0.85"/>
+  </g>
+
+  <g>
+    <rect x="60" y="220" width="640" height="14" fill="url(#beamMainF4)"/>
+    <rect x="60" y="220" width="640" height="3" fill="#5a3a20" opacity="0.55"/>
+    <rect x="60" y="232" width="640" height="2" fill="#0e0805" opacity="0.85"/>
+  </g>
+
+  <g>
+    <ellipse cx="180" cy="240" rx="160" ry="20" fill="#080a10"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#megaGlowF4)">
+    <circle cx="180" cy="190" r="40" fill="#5878a8"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowF4)">
+    <circle cx="180" cy="190" r="22" fill="#88a8d0"/>
+  </g>
+  <g>
+    <circle cx="180" cy="190" r="12" fill="url(#markerCoreF4)"/>
+    <circle cx="180" cy="190" r="6" fill="#a8c0e0"/>
+    <circle cx="180" cy="190" r="2" fill="#ffffff" opacity="0.95"/>
+  </g>
+  <g opacity="0.85">
+    <line x1="160" y1="170" x2="200" y2="210" stroke="#a8c0e0" stroke-width="0.5"/>
+    <line x1="200" y1="170" x2="160" y2="210" stroke="#a8c0e0" stroke-width="0.5"/>
+    <circle cx="180" cy="190" r="18" fill="none" stroke="#a8c0e0" stroke-width="0.5"/>
+  </g>
+  <g>
+    <rect x="178" y="200" width="4" height="40" fill="#3a4858"/>
+    <ellipse cx="180" cy="240" rx="6" ry="2" fill="#080404"/>
+  </g>
+
+  <g>
+    <ellipse cx="380" cy="166" rx="12" ry="14" fill="#3a261a"/>
+    <ellipse cx="380" cy="158" rx="8" ry="9" fill="url(#faceLitT_F4)"/>
+    <path d="M 370 150 Q 380 142 390 150 L 388 156 Q 384 146 380 146 Q 376 146 372 156 Z" fill="url(#hairBuzzF4)"/>
+    <ellipse cx="376" cy="166" rx="1.2" ry="1.5" fill="#0a0604"/>
+    <ellipse cx="384" cy="166" rx="1.2" ry="1.5" fill="#0a0604"/>
+    <path d="M 374 174 L 386 174" stroke="#0a0604" stroke-width="1.2"/>
+    <path d="M 360 178 L 400 178 L 408 240 L 352 240 Z" fill="url(#crimsonArmorF4)"/>
+    <path d="M 360 184 L 400 184 L 400 220 L 360 220 Z" fill="#1a0606" opacity="0.85"/>
+    <path d="M 352 192 L 340 224 L 346 234 L 358 210 Z" fill="url(#crimsonArmorF4)"/>
+    <path d="M 408 192 L 420 224 L 414 234 L 402 210 Z" fill="url(#crimsonArmorF4)"/>
+    <path d="M 340 232 L 332 240" stroke="url(#crimsonArmorF4)" stroke-width="3"/>
+    <path d="M 420 232 L 428 240" stroke="url(#crimsonArmorF4)" stroke-width="3"/>
+  </g>
+
+  <g>
+    <rect x="412" y="180" width="64" height="10" fill="url(#rifleF4)"/>
+    <rect x="412" y="180" width="64" height="2" fill="#3a3a3a" opacity="0.6"/>
+    <rect x="412" y="188" width="64" height="2" fill="#040404" opacity="0.85"/>
+    <rect x="420" y="184" width="50" height="3" fill="#0a0a0a"/>
+    <rect x="468" y="178" width="6" height="14" fill="#040404"/>
+    <ellipse cx="476" cy="185" rx="2" ry="2.5" fill="#020202"/>
+    <rect x="406" y="184" width="8" height="3" fill="#3a3a3a"/>
+    <line x1="430" y1="180" x2="430" y2="190" stroke="#040404" stroke-width="0.4"/>
+    <line x1="450" y1="180" x2="450" y2="190" stroke="#040404" stroke-width="0.4"/>
+  </g>
+  <g>
+    <path d="M 412 180 Q 416 184 416 188 L 414 220 L 408 220 Z" fill="url(#crimsonArmorF4)"/>
+  </g>
+
+  <g opacity="0.85">
+    <ellipse cx="350" cy="226" rx="6" ry="2" fill="#0a0606"/>
+    <ellipse cx="408" cy="226" rx="6" ry="2" fill="#0a0606"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowF4)">
+    <circle cx="334" cy="210" r="2.5" fill="#dc4540"/>
+    <circle cx="424" cy="210" r="2.5" fill="#dc4540"/>
+    <circle cx="380" cy="232" r="2" fill="#dc4540"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="380" cy="244" rx="22" ry="2.5" fill="#080404"/>
+  </g>
+
+  <g opacity="0.45">
+    <line x1="500" y1="40" x2="700" y2="40" stroke="#88a0c8" stroke-width="0.3"/>
+    <line x1="500" y1="80" x2="700" y2="80" stroke="#88a0c8" stroke-width="0.3"/>
+    <line x1="500" y1="120" x2="700" y2="120" stroke="#88a0c8" stroke-width="0.3"/>
+    <line x1="500" y1="160" x2="700" y2="160" stroke="#88a0c8" stroke-width="0.3"/>
+  </g>
+  <g font-family="Courier New, monospace" fill="#88a0c8" opacity="0.75">
+    <text x="600" y="108" text-anchor="middle" font-size="6.4" letter-spacing="2" font-weight="700">PERIMETER</text>
+    <text x="600" y="128" text-anchor="middle" font-size="6.4" letter-spacing="2" font-weight="700">CLEAR</text>
+  </g>
+
+  <g opacity="0.55" filter="url(#bloomF4)">
+    <ellipse cx="380" cy="252" rx="50" ry="6" fill="#5878a8"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="120" cy="40" r="0.4" fill="#3a4858"/>
+    <circle cx="660" cy="50" r="0.4" fill="#3a4858"/>
+  </g>
+</svg>
