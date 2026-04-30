@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 8 — Panel 3: The nave — abandoned, dusty pews, broken stained glass shafts of red and gold — sacred space in decay</title>
+  <desc>35mm medium wide slight low angle. Interior of decommissioned church nave — rows of dusty pews, stone floor thick with dust, vaulted ceiling lost in shadow above. Grey light filters through gaps in boarded windows, creating narrow shafts in which dust motes drift. Far end broken stained-glass window lets in fragments of colored light — red and gold shards falling across altar area. Space abandoned but intact — forgotten not destroyed. Theodore steps inside, slight figure dwarfed by nave, footsteps raising dust clouds. Cautious awe.</desc>
+
+  <defs>
+    <linearGradient id="i8p8p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i8p8p3stoneFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="i8p8p3pew" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p8p3stainedGlassRed" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a82018" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a0a0a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p8p3stainedGlassGold" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2010" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p8p3lightShaft" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#a8a8b8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1820" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p8p3waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#2a1810"/>
+    </linearGradient>
+    <linearGradient id="i8p8p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89868"/>
+      <stop offset="100%" stop-color="#7a5028"/>
+    </linearGradient>
+    <filter id="i8p8p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p8p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p8p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p8p3megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i8p8p3bg)"/>
+
+  <!-- Vaulted ceiling lost in shadow above (perspective lines converging up) -->
+  <g stroke="#1a1410" stroke-width="0.55" fill="none" opacity="0.7">
+    <path d="M0,0 L100,80 L266,80 L366,0"/>
+    <line x1="0" y1="0" x2="100" y2="80"/>
+    <line x1="366" y1="0" x2="266" y2="80"/>
+    <line x1="80" y1="0" x2="120" y2="80"/>
+    <line x1="286" y1="0" x2="246" y2="80"/>
+  </g>
+
+  <!-- Stone walls (high, leading up) -->
+  <rect x="0" y="0" width="50" height="220" fill="#2a2030"/>
+  <rect x="316" y="0" width="50" height="220" fill="#2a2030"/>
+  <g stroke="#1a0808" stroke-width="0.55" opacity="0.55">
+    <line x1="0" y1="40" x2="50" y2="40"/>
+    <line x1="0" y1="80" x2="50" y2="80"/>
+    <line x1="0" y1="120" x2="50" y2="120"/>
+    <line x1="0" y1="160" x2="50" y2="160"/>
+    <line x1="316" y1="40" x2="366" y2="40"/>
+    <line x1="316" y1="80" x2="366" y2="80"/>
+    <line x1="316" y1="120" x2="366" y2="120"/>
+    <line x1="316" y1="160" x2="366" y2="160"/>
+  </g>
+
+  <!-- Boarded windows on side walls (grey light leaking through gaps) -->
+  <g transform="translate(25 80)">
+    <rect x="-14" y="0" width="28" height="60" fill="#1a0808"/>
+    <rect x="-14" y="0" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="14" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="28" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="42" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="56" width="28" height="4" fill="#3a2010"/>
+    <!-- Light leaking through gaps -->
+    <line x1="-14" y1="9" x2="14" y2="9" stroke="#a8a8b8" stroke-width="0.55" opacity="0.85" filter="url(#i8p8p3bloom)"/>
+    <line x1="-14" y1="23" x2="14" y2="23" stroke="#a8a8b8" stroke-width="0.55" opacity="0.85" filter="url(#i8p8p3bloom)"/>
+    <line x1="-14" y1="37" x2="14" y2="37" stroke="#a8a8b8" stroke-width="0.55" opacity="0.85" filter="url(#i8p8p3bloom)"/>
+    <line x1="-14" y1="51" x2="14" y2="51" stroke="#a8a8b8" stroke-width="0.55" opacity="0.85" filter="url(#i8p8p3bloom)"/>
+  </g>
+  <g transform="translate(341 80)">
+    <rect x="-14" y="0" width="28" height="60" fill="#1a0808"/>
+    <rect x="-14" y="0" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="14" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="28" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="42" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="56" width="28" height="4" fill="#3a2010"/>
+    <line x1="-14" y1="9" x2="14" y2="9" stroke="#a8a8b8" stroke-width="0.55" opacity="0.85" filter="url(#i8p8p3bloom)"/>
+    <line x1="-14" y1="23" x2="14" y2="23" stroke="#a8a8b8" stroke-width="0.55" opacity="0.85" filter="url(#i8p8p3bloom)"/>
+    <line x1="-14" y1="37" x2="14" y2="37" stroke="#a8a8b8" stroke-width="0.55" opacity="0.85" filter="url(#i8p8p3bloom)"/>
+    <line x1="-14" y1="51" x2="14" y2="51" stroke="#a8a8b8" stroke-width="0.55" opacity="0.85" filter="url(#i8p8p3bloom)"/>
+  </g>
+
+  <!-- Light shafts coming through window gaps (with dust motes) -->
+  <ellipse cx="25" cy="120" rx="50" ry="80" fill="url(#i8p8p3lightShaft)" filter="url(#i8p8p3megaglow)" opacity="0.7"/>
+  <ellipse cx="341" cy="120" rx="50" ry="80" fill="url(#i8p8p3lightShaft)" filter="url(#i8p8p3megaglow)" opacity="0.7"/>
+
+  <!-- Dust motes in shafts -->
+  <g fill="#fff8d8" opacity="0.55" filter="url(#i8p8p3bloom)">
+    <circle cx="40" cy="100" r="0.4"/>
+    <circle cx="55" cy="120" r="0.55"/>
+    <circle cx="35" cy="140" r="0.4"/>
+    <circle cx="50" cy="160" r="0.55"/>
+    <circle cx="320" cy="110" r="0.4"/>
+    <circle cx="335" cy="130" r="0.55"/>
+    <circle cx="345" cy="150" r="0.4"/>
+    <circle cx="328" cy="170" r="0.55"/>
+  </g>
+
+  <!-- ===== ALTAR AREA at far end with broken stained glass ===== -->
+  <g transform="translate(183 80)">
+    <!-- Broken pointed-arch stained glass window -->
+    <path d="M-30,80 L-30,-9 Q-30,-30 0,-30 Q30,-30 30,-9 L30,80 Z" fill="#1a0808"/>
+    <!-- Lead came pattern -->
+    <g stroke="#3a2818" stroke-width="0.55" fill="none">
+      <line x1="-30" y1="0" x2="30" y2="0"/>
+      <line x1="-30" y1="20" x2="30" y2="20"/>
+      <line x1="-30" y1="40" x2="30" y2="40"/>
+      <line x1="-30" y1="60" x2="30" y2="60"/>
+      <line x1="-15" y1="-30" x2="-15" y2="80"/>
+      <line x1="15" y1="-30" x2="15" y2="80"/>
+    </g>
+    <!-- Colored glass remaining (red and gold fragments) -->
+    <rect x="-30" y="-30" width="14" height="22" fill="#a82018" opacity="0.85"/>
+    <rect x="0" y="0" width="14" height="22" fill="#ffd898" opacity="0.85"/>
+    <rect x="-15" y="40" width="14" height="22" fill="#a82018" opacity="0.85"/>
+    <rect x="15" y="20" width="14" height="22" fill="#ffd898" opacity="0.85"/>
+    <!-- BROKEN sections (dark gaps where glass has fallen) -->
+    <rect x="-15" y="-30" width="14" height="22" fill="#0a0408"/>
+    <rect x="-30" y="0" width="14" height="22" fill="#0a0408"/>
+    <rect x="-30" y="40" width="14" height="22" fill="#3a2010" opacity="0.85"/>
+    <rect x="15" y="-10" width="14" height="22" fill="#0a0408"/>
+    <!-- Glass shard suggestions on edges -->
+    <path d="M-15,-8 L-12,-12 L-9,-8 Z" fill="#5a3018" opacity="0.55"/>
+    <!-- Stone arch frame -->
+    <path d="M-30,80 L-30,-9 Q-30,-30 0,-30 Q30,-30 30,-9 L30,80" stroke="#5a3818" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Red and gold light SHAFTS falling from broken stained glass onto altar area -->
+  <g filter="url(#i8p8p3strongglow)" opacity="0.85">
+    <path d="M168,80 L150,180 L180,180 Z" fill="url(#i8p8p3stainedGlassRed)" opacity="0.55"/>
+    <path d="M198,80 L220,180 L200,180 Z" fill="url(#i8p8p3stainedGlassGold)" opacity="0.55"/>
+  </g>
+  <!-- Color pools on stone floor -->
+  <ellipse cx="160" cy="220" rx="40" ry="9" fill="#a82018" opacity="0.55" filter="url(#i8p8p3glow)"/>
+  <ellipse cx="210" cy="220" rx="40" ry="9" fill="#ffd898" opacity="0.55" filter="url(#i8p8p3glow)"/>
+
+  <!-- ===== STONE FLOOR ===== -->
+  <rect x="50" y="180" width="266" height="120" fill="url(#i8p8p3stoneFloor)"/>
+  <!-- Stone block lines -->
+  <g stroke="#1a0808" stroke-width="0.55" opacity="0.7">
+    <path d="M50,200 L316,200"/>
+    <path d="M50,230 L316,230"/>
+    <path d="M50,260 L316,260"/>
+    <line x1="120" y1="180" x2="120" y2="200"/>
+    <line x1="200" y1="180" x2="200" y2="200"/>
+    <line x1="280" y1="180" x2="280" y2="200"/>
+    <line x1="100" y1="200" x2="100" y2="230"/>
+    <line x1="180" y1="200" x2="180" y2="230"/>
+    <line x1="260" y1="200" x2="260" y2="230"/>
+    <line x1="80" y1="230" x2="80" y2="260"/>
+    <line x1="160" y1="230" x2="160" y2="260"/>
+    <line x1="240" y1="230" x2="240" y2="260"/>
+    <line x1="100" y1="260" x2="100" y2="300"/>
+    <line x1="180" y1="260" x2="180" y2="300"/>
+    <line x1="260" y1="260" x2="260" y2="300"/>
+  </g>
+  <!-- Heavy dust on floor -->
+  <g fill="#a89878" opacity="0.4">
+    <ellipse cx="100" cy="220" rx="30" ry="5"/>
+    <ellipse cx="220" cy="240" rx="40" ry="5"/>
+    <ellipse cx="280" cy="270" rx="30" ry="5"/>
+    <ellipse cx="100" cy="280" rx="30" ry="5"/>
+  </g>
+
+  <!-- ===== PEWS in rows (dusty, abandoned but intact) ===== -->
+  <g fill="url(#i8p8p3pew)">
+    <!-- Left pews -->
+    <rect x="65" y="200" width="80" height="6"/>
+    <rect x="65" y="195" width="3" height="11"/>
+    <rect x="142" y="195" width="3" height="11"/>
+    <rect x="65" y="220" width="90" height="6"/>
+    <rect x="65" y="215" width="3" height="11"/>
+    <rect x="152" y="215" width="3" height="11"/>
+    <rect x="65" y="245" width="100" height="6"/>
+    <rect x="65" y="240" width="3" height="11"/>
+    <rect x="162" y="240" width="3" height="11"/>
+    <!-- Right pews -->
+    <rect x="225" y="200" width="80" height="6"/>
+    <rect x="222" y="195" width="3" height="11"/>
+    <rect x="302" y="195" width="3" height="11"/>
+    <rect x="220" y="220" width="90" height="6"/>
+    <rect x="217" y="215" width="3" height="11"/>
+    <rect x="307" y="215" width="3" height="11"/>
+    <rect x="210" y="245" width="100" height="6"/>
+    <rect x="207" y="240" width="3" height="11"/>
+    <rect x="307" y="240" width="3" height="11"/>
+  </g>
+  <!-- Dust on pews -->
+  <g fill="#a89878" opacity="0.55">
+    <line x1="65" y1="200" x2="145" y2="200" stroke="#a89878" stroke-width="2"/>
+    <line x1="225" y1="200" x2="305" y2="200" stroke="#a89878" stroke-width="2"/>
+  </g>
+
+  <!-- ===== THEODORE stepping inside, dwarfed by nave ===== -->
+  <g transform="translate(183 250)">
+    <!-- Body small (dwarfed) -->
+    <path d="M-3,30 L-5,9 L-3,-14 L0,-22 L5,-22 L9,-14 L11,9 L9,30 Z" fill="url(#i8p8p3waistcoat)"/>
+    <line x1="3" y1="-22" x2="3" y2="22" stroke="#1a0808" stroke-width="0.4"/>
+    <!-- Hands at sides -->
+    <ellipse cx="-5" cy="9" rx="2" ry="1.4" fill="url(#i8p8p3skin)"/>
+    <ellipse cx="11" cy="9" rx="2" ry="1.4" fill="url(#i8p8p3skin)"/>
+    <!-- Head looking UP -->
+    <ellipse cx="3" cy="-32" rx="4" ry="5" fill="url(#i8p8p3skin)"/>
+    <path d="M-1,-37 Q3,-40 7,-37 L7,-30 Q3,-32 -1,-30 Z" fill="#7a5028"/>
+    <!-- Eyes turned up -->
+    <ellipse cx="2" cy="-32" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <circle cx="2" cy="-33" r="0.4" fill="#5a3018"/>
+    <ellipse cx="5" cy="-32" rx="0.85" ry="0.55" fill="#fff8e8"/>
+    <circle cx="5" cy="-33" r="0.4" fill="#5a3018"/>
+    <!-- Mouth slightly open in awe -->
+    <ellipse cx="3" cy="-26" rx="1" ry="0.55" fill="#3a1808"/>
+  </g>
+  <!-- Footprint dust trail -->
+  <ellipse cx="183" cy="282" rx="22" ry="3" fill="#7a6038" opacity="0.55"/>
+  <ellipse cx="170" cy="290" rx="14" ry="2" fill="#7a6038" opacity="0.4"/>
+
+  <!-- ===== DIALOGUE — THEODORE whispering ===== -->
+  <g>
+    <rect x="14" y="14" width="280" height="36" rx="2" fill="white" stroke="#7a4828" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7a4828" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(whispering)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">Nobody's been here in years.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>

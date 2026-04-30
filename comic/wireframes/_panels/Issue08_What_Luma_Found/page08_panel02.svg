@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
+  <title>Issue 8 — Page 8 — Panel 2: The tinker's hands at work — clever oil-stained fingers find the rusted padlock's weakness, brass gear ring catches the light</title>
+  <desc>35mm medium eye level. Theodore's clever hands work at rusted iron padlock on churchyard gate — oil-stained fingers finding mechanism's weakness, brass gear ring on left index finger catching warm gaslight. Tongue between teeth in concentration, sandy-brown hair falling forward, hazel eyes focused entirely on lock. From waistcoat breast pocket, Luma leans out slightly — tiny figure in sapphire-violet suit, scanner projecting thin blue-violet beam at lock mechanism, holographic lenses active. Lock rusted iron, old, gate behind tangled with ivy. Warm gaslight from behind illuminates Theodore's hands and mechanism. Luma's scanner adds faint blue-violet accent.</desc>
+
+  <defs>
+    <linearGradient id="i8p8p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p8p2iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i8p8p2padlock" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="i8p8p2warm" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p8p2violetSpot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p8p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d0a0"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i8p8p2waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p8p2lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p8p2ivy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a3018"/>
+      <stop offset="100%" stop-color="#0a1808"/>
+    </linearGradient>
+    <filter id="i8p8p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p8p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p8p2strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p8p2megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="742" height="240" fill="url(#i8p8p2bg)"/>
+
+  <!-- Warm amber from left (gaslight behind) -->
+  <ellipse cx="0" cy="120" rx="240" ry="220" fill="url(#i8p8p2warm)" filter="url(#i8p8p2megaglow)"/>
+
+  <!-- Iron gate behind (vertical bars) -->
+  <g stroke="url(#i8p8p2iron)" stroke-width="6" fill="none">
+    <line x1="80" y1="0" x2="80" y2="240"/>
+    <line x1="200" y1="0" x2="200" y2="240"/>
+    <line x1="540" y1="0" x2="540" y2="240"/>
+    <line x1="660" y1="0" x2="660" y2="240"/>
+  </g>
+  <line x1="0" y1="40" x2="742" y2="40" stroke="url(#i8p8p2iron)" stroke-width="3"/>
+  <line x1="0" y1="200" x2="742" y2="200" stroke="url(#i8p8p2iron)" stroke-width="3"/>
+  <!-- Rust on bars -->
+  <g fill="#5a3018" opacity="0.55">
+    <ellipse cx="80" cy="100" rx="6" ry="14"/>
+    <ellipse cx="200" cy="160" rx="6" ry="11"/>
+    <ellipse cx="540" cy="80" rx="6" ry="14"/>
+    <ellipse cx="660" cy="140" rx="6" ry="11"/>
+  </g>
+  <!-- Ivy on gate -->
+  <g fill="url(#i8p8p2ivy)" opacity="0.85">
+    <ellipse cx="540" cy="180" rx="40" ry="22"/>
+    <ellipse cx="660" cy="200" rx="40" ry="22"/>
+  </g>
+  <g fill="#3a4818" opacity="0.85">
+    <ellipse cx="540" cy="180" rx="3" ry="2"/>
+    <ellipse cx="555" cy="185" rx="3" ry="2"/>
+    <ellipse cx="525" cy="175" rx="3" ry="2"/>
+    <ellipse cx="660" cy="200" rx="3" ry="2"/>
+    <ellipse cx="675" cy="205" rx="3" ry="2"/>
+  </g>
+
+  <!-- ===== PADLOCK — central focus, large in frame ===== -->
+  <g transform="translate(371 130)">
+    <!-- Padlock body -->
+    <rect x="-50" y="-22" width="100" height="80" rx="6" fill="url(#i8p8p2padlock)" stroke="#1a0808" stroke-width="0.85"/>
+    <!-- Highlight (warm catch from gaslight) -->
+    <line x1="-50" y1="-22" x2="50" y2="-22" stroke="#ffd898" stroke-width="0.85" filter="url(#i8p8p2bloom)" opacity="0.85"/>
+    <line x1="-50" y1="-22" x2="-50" y2="58" stroke="#a86838" stroke-width="0.55" filter="url(#i8p8p2bloom)" opacity="0.7"/>
+    <!-- Rust streaks -->
+    <ellipse cx="-22" cy="11" rx="14" ry="22" fill="#5a3018" opacity="0.7"/>
+    <ellipse cx="14" cy="22" rx="11" ry="18" fill="#5a3018" opacity="0.55"/>
+    <path d="M-22,30 L-22,50" stroke="#5a3018" stroke-width="2" opacity="0.85"/>
+    <path d="M22,30 L20,50" stroke="#5a3018" stroke-width="2" opacity="0.85"/>
+    <!-- Keyhole -->
+    <circle cx="0" cy="11" r="6" fill="#0a0408"/>
+    <path d="M0,11 L0,30 L-3,32 L3,32 Z" fill="#0a0408"/>
+    <!-- Shackle (curved iron) -->
+    <path d="M-30,-22 Q-30,-58 0,-58 Q30,-58 30,-22" stroke="url(#i8p8p2padlock)" stroke-width="14" fill="none"/>
+    <path d="M-30,-22 Q-30,-58 0,-58 Q30,-58 30,-22" stroke="#1a0808" stroke-width="0.85" fill="none"/>
+    <!-- Highlight on shackle -->
+    <path d="M-22,-22 Q-22,-50 0,-50 Q22,-50 22,-22" stroke="#a86838" stroke-width="0.85" fill="none" filter="url(#i8p8p2bloom)" opacity="0.85"/>
+    <!-- Rust on shackle -->
+    <ellipse cx="-22" cy="-44" rx="3" ry="6" fill="#5a3018" opacity="0.7"/>
+  </g>
+
+  <!-- Scanner beam (thin blue-violet line from Luma to padlock) -->
+  <g filter="url(#i8p8p2bloom)" opacity="0.85">
+    <line x1="220" y1="60" x2="320" y2="120" stroke="#a878e8" stroke-width="0.85"/>
+    <line x1="222" y1="62" x2="322" y2="122" stroke="#c8a8e8" stroke-width="0.4"/>
+  </g>
+  <ellipse cx="320" cy="120" rx="22" ry="14" fill="url(#i8p8p2violetSpot)" filter="url(#i8p8p2glow)" opacity="0.55"/>
+
+  <!-- ===== THEODORE'S CLEVER HANDS at work on the padlock ===== -->
+  <!-- Left hand (with brass gear ring) - approaching from above -->
+  <g transform="translate(330 100)">
+    <!-- Wrist/cuff -->
+    <path d="M-30,-44 L-44,-22 L-22,11 L-9,-9 Z" fill="url(#i8p8p2waistcoat)"/>
+    <!-- Sleeve cuff edge -->
+    <line x1="-30" y1="-44" x2="-44" y2="-22" stroke="#3a2010" stroke-width="0.55"/>
+    <!-- Hand -->
+    <ellipse cx="-9" cy="-9" rx="22" ry="14" fill="url(#i8p8p2skin)"/>
+    <!-- Knuckles -->
+    <path d="M-30,-15 Q-22,-9 -14,-15" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.7"/>
+    <path d="M-22,-3 Q-14,3 -7,-3" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.7"/>
+    <!-- ===== INDEX FINGER pointing/manipulating with BRASS GEAR RING ===== -->
+    <ellipse cx="9" cy="-3" rx="11" ry="6" fill="url(#i8p8p2skin)"/>
+    <ellipse cx="22" cy="0" rx="9" ry="5" fill="url(#i8p8p2skin)"/>
+    <!-- Brass gear ring catches gaslight -->
+    <ellipse cx="9" cy="-3" rx="6" ry="3" fill="#a86838" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Gear teeth detail -->
+    <g stroke="#3a1808" stroke-width="0.4" fill="none">
+      <line x1="3" y1="-3" x2="0" y2="-3"/>
+      <line x1="15" y1="-3" x2="18" y2="-3"/>
+      <line x1="9" y1="-7" x2="9" y2="-9"/>
+      <line x1="9" y1="1" x2="9" y2="3"/>
+    </g>
+    <!-- Brass highlight (warm gaslight catch) -->
+    <ellipse cx="9" cy="-4" rx="4" ry="1.4" fill="#ffd898" filter="url(#i8p8p2bloom)" opacity="0.85"/>
+    <!-- Other fingers -->
+    <ellipse cx="-5" cy="9" rx="9" ry="3" fill="url(#i8p8p2skin)"/>
+    <ellipse cx="-11" cy="14" rx="7" ry="3" fill="url(#i8p8p2skin)"/>
+    <!-- Oil stains on fingers -->
+    <ellipse cx="22" cy="0" rx="3" ry="2" fill="#1a0606" opacity="0.7"/>
+    <ellipse cx="-5" cy="9" rx="3" ry="2" fill="#1a0606" opacity="0.7"/>
+    <!-- Thumb (extended toward keyhole) -->
+    <ellipse cx="22" cy="14" rx="9" ry="4" fill="url(#i8p8p2skin)"/>
+    <!-- Index touching keyhole -->
+    <line x1="30" y1="0" x2="40" y2="9" stroke="#3a1808" stroke-width="0.55" opacity="0.7"/>
+  </g>
+
+  <!-- Right hand approaching from below — bracing the lock body -->
+  <g transform="translate(420 180)">
+    <!-- Wrist -->
+    <path d="M22,18 L44,9 L18,-22 L0,-9 Z" fill="url(#i8p8p2waistcoat)"/>
+    <!-- Hand -->
+    <ellipse cx="-3" cy="-9" rx="18" ry="14" fill="url(#i8p8p2skin)"/>
+    <!-- Fingers wrapping under lock -->
+    <ellipse cx="-22" cy="-22" rx="6" ry="3" fill="url(#i8p8p2skin)"/>
+    <ellipse cx="-22" cy="-15" rx="6" ry="3" fill="url(#i8p8p2skin)"/>
+    <ellipse cx="-22" cy="-7" rx="6" ry="3" fill="url(#i8p8p2skin)"/>
+    <ellipse cx="-22" cy="0" rx="6" ry="3" fill="url(#i8p8p2skin)"/>
+    <!-- Knuckles -->
+    <path d="M-15,-22 Q-9,-15 -3,-9" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.7"/>
+    <!-- Oil stain -->
+    <ellipse cx="-15" cy="-9" rx="5" ry="3" fill="#1a0606" opacity="0.7"/>
+  </g>
+
+  <!-- ===== Luma leaning out of waistcoat pocket (top of frame) ===== -->
+  <g transform="translate(160 50)">
+    <!-- Pocket edge visible -->
+    <rect x="-30" y="0" width="60" height="40" fill="#3a2010"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#1a0808" stroke-width="0.85"/>
+    <!-- Luma's upper body emerging -->
+    <path d="M-9,0 L-11,-22 L-7,-30 L7,-30 L11,-22 L9,0 Z" fill="url(#i8p8p2lumaSuit)"/>
+    <!-- Suit accent -->
+    <line x1="0" y1="-22" x2="0" y2="0" stroke="#c8a8e8" stroke-width="0.55" filter="url(#i8p8p2bloom)" opacity="0.85"/>
+    <!-- Arm with scanner held out -->
+    <path d="M11,-14 L26,-22 L30,-14 L14,-9 Z" fill="url(#i8p8p2lumaSuit)"/>
+    <!-- Scanner device -->
+    <rect x="26" y="-22" width="11" height="9" fill="#3a1858" stroke="#1a0810" stroke-width="0.4"/>
+    <ellipse cx="32" cy="-22" rx="3" ry="0.85" fill="#a878e8" filter="url(#i8p8p2bloom)" opacity="0.95"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-40" rx="5" ry="6" fill="url(#i8p8p2skin)"/>
+    <!-- Braid hint -->
+    <path d="M3,-32 Q9,-22 14,-9" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M3,-32 Q9,-22 14,-9" stroke="#a878e8" stroke-width="0.4" fill="none" filter="url(#i8p8p2bloom)" opacity="0.7"/>
+    <!-- Hair -->
+    <path d="M-5,-46 Q0,-50 5,-46 L5,-40 Q0,-44 -5,-40 Z" fill="#1a0808"/>
+    <!-- Holographic lenses -->
+    <ellipse cx="-2" cy="-40" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p8p2bloom)" opacity="0.95"/>
+    <ellipse cx="2" cy="-40" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p8p2bloom)" opacity="0.95"/>
+    <circle cx="-2" cy="-40" r="0.55" fill="#fff8e8"/>
+    <circle cx="2" cy="-40" r="0.55" fill="#fff8e8"/>
+    <!-- Brows focused -->
+    <line x1="-3" y1="-44" x2="-1" y2="-44" stroke="#3a1808" stroke-width="0.4"/>
+    <line x1="1" y1="-44" x2="3" y2="-44" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== DIALOGUE ===== -->
+  <!-- THEODORE -->
+  <g>
+    <rect x="14" y="14" width="320" height="36" rx="2" fill="white" stroke="#7a4828" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7a4828" font-weight="700">THEODORE</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">The bolt's rusted but the housing's sound. If I can just...</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="408" y="14" width="320" height="36" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="416" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="416" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">The resonance is below ground. Foundation era.</text>
+
+  <!-- THEODORE — the lock opens -->
+  <g>
+    <rect x="14" y="186" width="200" height="36" rx="2" fill="white" stroke="#7a4828" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="202" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7a4828" font-weight="700">THEODORE</text>
+  <text x="22" y="216" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-weight="700">There. <tspan font-style="italic">(click)</tspan></text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+  </g>
+</svg>
