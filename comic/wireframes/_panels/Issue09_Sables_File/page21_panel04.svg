@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 260" width="366" height="260">
+  <title>Issue 9 Page 21 Panel 4 — Theodore pulling back, brass gear ring catches candlelight, "the best quests are when you're already home"</title>
+  <desc>Close-up slight low angle fairy-scale. Theodore pulling back slightly from wall gap, face receding candlelit. Gentle concern. Oil-stained hand at crack's edge. Brass gear ring on left index finger catches candlelight — warm golden point. Doesn't fully understand silence. Story was enough.</desc>
+  <defs>
+    <linearGradient id="bgK4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1410"/>
+      <stop offset="0.4" stop-color="#251f15"/>
+      <stop offset="1" stop-color="#15110a"/>
+    </linearGradient>
+    <radialGradient id="candleWarmK4" cx="0.4" cy="0.5" r="0.65">
+      <stop offset="0" stop-color="#f4d090" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#15110a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="theoFaceK4" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0" stop-color="#3a261a"/>
+      <stop offset="0.4" stop-color="#a87858"/>
+      <stop offset="0.8" stop-color="#d8a878"/>
+      <stop offset="1" stop-color="#f4c898"/>
+    </linearGradient>
+    <linearGradient id="theoHairK4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a3018"/>
+      <stop offset="0.5" stop-color="#a87838"/>
+      <stop offset="1" stop-color="#f4d090"/>
+    </linearGradient>
+    <linearGradient id="brickK4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a5238"/>
+      <stop offset="0.5" stop-color="#5a3828"/>
+      <stop offset="1" stop-color="#2a1810"/>
+    </linearGradient>
+    <linearGradient id="brassRingK4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d090"/>
+      <stop offset="0.5" stop-color="#a87838"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <radialGradient id="theoEyeGentle" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#a8782a" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#a8782a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomK4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowK4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="megaGlowK4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="ringSparkleK4" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="softK4" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="260" fill="url(#bgK4)"/>
+  <rect width="366" height="260" fill="url(#candleWarmK4)"/>
+
+  <g>
+    <path d="M 0 0 L 366 0 L 366 30 L 0 30 Z" fill="url(#brickK4)"/>
+    <path d="M 0 230 L 366 230 L 366 260 L 0 260 Z" fill="url(#brickK4)"/>
+    <path d="M 280 0 L 366 0 L 366 260 L 290 260 Z" fill="url(#brickK4)"/>
+    <line x1="0" y1="40" x2="280" y2="40" stroke="#1a1008" stroke-width="0.5" opacity="0.85"/>
+    <line x1="100" y1="0" x2="98" y2="40" stroke="#1a1008" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="202" y2="40" stroke="#1a1008" stroke-width="0.5"/>
+    <line x1="0" y1="220" x2="280" y2="220" stroke="#1a1008" stroke-width="0.5" opacity="0.85"/>
+    <line x1="80" y1="220" x2="78" y2="260" stroke="#1a1008" stroke-width="0.5"/>
+    <line x1="180" y1="220" x2="182" y2="260" stroke="#1a1008" stroke-width="0.5"/>
+  </g>
+
+  <g>
+    <path d="M 280 50 Q 276 130 280 200 L 296 200 Q 292 130 296 50 Z" fill="#0a0a14" opacity="0.95"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#megaGlowK4)">
+    <ellipse cx="160" cy="130" rx="160" ry="100" fill="#f4c878"/>
+  </g>
+
+  <g>
+    <ellipse cx="180" cy="120" rx="100" ry="80" fill="url(#theoFaceK4)" opacity="0.95"/>
+    <path d="M 80 60 L 96 40 L 130 32 Q 170 24 220 28 Q 260 36 280 50 Q 296 70 290 90 L 270 100 Q 270 70 240 60 Q 200 50 170 56 Q 130 64 110 80 Z" fill="url(#theoHairK4)" opacity="0.95"/>
+    <ellipse cx="100" cy="46" rx="18" ry="12" fill="url(#theoHairK4)" opacity="0.92"/>
+    <ellipse cx="146" cy="30" rx="22" ry="12" fill="url(#theoHairK4)" opacity="0.92"/>
+    <ellipse cx="200" cy="26" rx="22" ry="12" fill="url(#theoHairK4)" opacity="0.92"/>
+    <ellipse cx="244" cy="36" rx="20" ry="14" fill="url(#theoHairK4)" opacity="0.92"/>
+    <ellipse cx="276" cy="56" rx="14" ry="14" fill="url(#theoHairK4)" opacity="0.92"/>
+
+    <ellipse cx="146" cy="118" rx="9" ry="5" fill="#9a6818" opacity="0.85"/>
+    <ellipse cx="146" cy="118" rx="6" ry="3.5" fill="#5a3818"/>
+    <circle cx="148" cy="116" r="2" fill="url(#theoEyeGentle)"/>
+    <ellipse cx="208" cy="114" rx="11" ry="6" fill="#9a6818" opacity="0.85"/>
+    <ellipse cx="208" cy="114" rx="8" ry="4.5" fill="#5a3818"/>
+    <circle cx="210" cy="112" r="2.4" fill="url(#theoEyeGentle)"/>
+
+    <path d="M 130 102 Q 146 96 162 102" stroke="#3a2010" stroke-width="1.4" fill="none" opacity="0.85"/>
+    <path d="M 188 98 Q 208 92 230 98" stroke="#3a2010" stroke-width="1.4" fill="none" opacity="0.85"/>
+
+    <ellipse cx="180" cy="156" rx="6" ry="8" fill="#9a5828" opacity="0.7"/>
+
+    <path d="M 142 192 Q 180 200 216 192" stroke="#5a2818" stroke-width="2" fill="none"/>
+    <path d="M 142 192 Q 180 204 216 192" fill="#9a4828" opacity="0.55"/>
+
+    <g opacity="0.7">
+      <circle cx="124" cy="130" r="0.9" fill="#8a4818"/>
+      <circle cx="118" cy="148" r="0.8" fill="#8a4818"/>
+      <circle cx="138" cy="160" r="0.8" fill="#8a4818"/>
+      <circle cx="220" cy="130" r="0.8" fill="#8a4818"/>
+      <circle cx="232" cy="150" r="1" fill="#8a4818"/>
+      <circle cx="246" cy="166" r="0.8" fill="#8a4818"/>
+      <circle cx="254" cy="138" r="0.8" fill="#8a4818"/>
+    </g>
+  </g>
+
+  <g>
+    <path d="M 280 100 L 270 120 L 250 130 Q 240 130 240 122 L 248 110 Q 256 102 270 100 Z" fill="url(#theoFaceK4)" opacity="0.95"/>
+    <path d="M 248 110 L 256 116" stroke="#5a3018" stroke-width="0.5" opacity="0.5"/>
+    <path d="M 256 102 L 264 108" stroke="#5a3018" stroke-width="0.4" opacity="0.5"/>
+
+    <g>
+      <ellipse cx="252" cy="120" rx="6" ry="3.5" fill="url(#brassRingK4)" stroke="#3a2010" stroke-width="0.4"/>
+      <ellipse cx="252" cy="118" rx="4" ry="2" fill="#a87838" opacity="0.8"/>
+      <circle cx="252" cy="118" r="0.6" fill="#7a5018" opacity="0.6"/>
+    </g>
+  </g>
+  <g opacity="0.85" filter="url(#ringSparkleK4)">
+    <ellipse cx="252" cy="120" rx="14" ry="9" fill="#f4d090" opacity="0.55"/>
+  </g>
+  <g opacity="0.95" filter="url(#bloomK4)">
+    <circle cx="248" cy="116" r="2" fill="#ffffff"/>
+  </g>
+
+  <g opacity="0.65">
+    <circle cx="244" cy="130" r="0.5" fill="#5a3018"/>
+    <circle cx="266" cy="116" r="0.5" fill="#5a3018"/>
+    <circle cx="270" cy="124" r="0.5" fill="#5a3018"/>
+    <circle cx="246" cy="118" r="0.5" fill="#5a3018"/>
+  </g>
+
+  <g transform="translate(80,228)">
+    <path d="M 0 0 Q -8 4 -8 12 Q -8 24 0 28 L 200 28 Q 210 28 212 22 Q 212 8 204 4 Z" fill="#f4f4f4" stroke="#7a4828" stroke-width="1.4"/>
+    <path d="M 100 4 L 96 -8 L 108 4 Z" fill="#f4f4f4" stroke="#7a4828" stroke-width="1.2"/>
+    <text x="106" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8" font-weight="700" fill="#5a3018">THEODORE</text>
+    <text x="106" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" fill="#2a2a2a" font-style="italic">"The best quests are the ones</text>
+    <text x="106" y="27" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" fill="#2a2a2a" font-style="italic">where you're already home."</text>
+  </g>
+</svg>
