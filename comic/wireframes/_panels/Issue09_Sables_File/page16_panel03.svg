@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 260" width="366" height="260">
+  <title>Issue 9 Page 16 Panel 3 — Sable at the wall gap, lost, the warmest light to touch her face</title>
+  <desc>Close-up Sable at wall gap looking out. Full morning light on face from outside — warmest amber-grey. Through crack: rooftops, chimneys, church spires, smoke. Lost — not performing anything, looking at city as if it might have answers. The view that has been her companion through the secret.</desc>
+  <defs>
+    <linearGradient id="bgG3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1f2c"/>
+      <stop offset="0.4" stop-color="#252a36"/>
+      <stop offset="1" stop-color="#15191f"/>
+    </linearGradient>
+    <radialGradient id="amberFullG3" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#f4d8a8" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#a89878" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#15191f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brickFaceG3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87858"/>
+      <stop offset="0.5" stop-color="#7a5238"/>
+      <stop offset="1" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="cityFarG3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a8868"/>
+      <stop offset="0.5" stop-color="#5a4838"/>
+      <stop offset="1" stop-color="#2a1f15"/>
+    </linearGradient>
+    <linearGradient id="faceLitS_G3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9a6438"/>
+      <stop offset="0.5" stop-color="#7a4830"/>
+      <stop offset="1" stop-color="#3a261a"/>
+    </linearGradient>
+    <linearGradient id="hairSilG3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c0b8a8"/>
+      <stop offset="0.5" stop-color="#9098a0"/>
+      <stop offset="1" stop-color="#3a3e44"/>
+    </linearGradient>
+    <linearGradient id="silverSuitG3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a6a5a"/>
+      <stop offset="0.5" stop-color="#3a3a3a"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <radialGradient id="eyeLostG3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#f4d8a8" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#f4d8a8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomG3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="strongGlowG3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="softG3" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="260" fill="url(#bgG3)"/>
+  <rect width="366" height="260" fill="url(#amberFullG3)"/>
+
+  <g opacity="0.85">
+    <path d="M 0 0 L 50 0 L 50 100 L 0 100 Z" fill="url(#brickFaceG3)"/>
+    <path d="M 316 0 L 366 0 L 366 100 L 316 100 Z" fill="url(#brickFaceG3)"/>
+    <line x1="0" y1="20" x2="50" y2="20" stroke="#3a2818" stroke-width="0.4"/>
+    <line x1="0" y1="40" x2="50" y2="40" stroke="#3a2818" stroke-width="0.4"/>
+    <line x1="0" y1="60" x2="50" y2="60" stroke="#3a2818" stroke-width="0.4"/>
+    <line x1="316" y1="20" x2="366" y2="20" stroke="#3a2818" stroke-width="0.4"/>
+    <line x1="316" y1="40" x2="366" y2="40" stroke="#3a2818" stroke-width="0.4"/>
+  </g>
+
+  <g opacity="0.75">
+    <rect x="50" y="0" width="266" height="100" fill="url(#cityFarG3)"/>
+    <path d="M 80 50 L 80 30 L 100 30 L 100 50 Z" fill="#5a4838" opacity="0.85"/>
+    <path d="M 130 50 L 130 20 L 150 20 L 150 35 L 160 35 L 160 50 Z" fill="#5a4838" opacity="0.85"/>
+    <path d="M 200 50 L 200 25 L 220 25 L 220 10 L 224 10 L 224 30 L 230 30 L 230 50 Z" fill="#5a4838" opacity="0.85"/>
+    <path d="M 260 50 L 260 38 L 280 38 L 280 50 Z" fill="#5a4838" opacity="0.85"/>
+
+    <line x1="90" y1="30" x2="90" y2="20" stroke="#3a2818" stroke-width="1.5"/>
+    <line x1="140" y1="20" x2="140" y2="8" stroke="#3a2818" stroke-width="1.5"/>
+    <line x1="270" y1="38" x2="270" y2="26" stroke="#3a2818" stroke-width="1.5"/>
+
+    <path d="M 140 22 L 138 12 L 142 12 Q 144 18 140 22" fill="#a89878" opacity="0.6"/>
+    <path d="M 150 22 L 148 14 L 152 14 Q 154 20 150 22" fill="#a89878" opacity="0.5"/>
+    <path d="M 268 38 Q 266 30 270 28 Q 274 32 272 38" fill="#a89878" opacity="0.5"/>
+  </g>
+
+  <g opacity="0.6">
+    <path d="M 90 22 Q 100 12 110 18 Q 105 22 95 24" fill="#a89878"/>
+    <path d="M 140 14 Q 150 4 162 10 Q 158 14 148 14" fill="#a89878"/>
+    <path d="M 270 30 Q 280 22 290 28 Q 286 30 276 30" fill="#a89878"/>
+  </g>
+
+  <g opacity="0.55">
+    <rect x="50" y="50" width="266" height="50" fill="url(#cityFarG3)" opacity="0.7"/>
+    <path d="M 60 100 L 100 80 L 140 100 Z" fill="#3a2f1f" opacity="0.8"/>
+    <path d="M 160 100 L 200 75 L 240 100 Z" fill="#3a2f1f" opacity="0.8"/>
+    <path d="M 260 100 L 290 78 L 316 100 Z" fill="#3a2f1f" opacity="0.8"/>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="240" rx="170" ry="40" fill="#15191f"/>
+  </g>
+
+  <g>
+    <path d="M 116 116 Q 110 138 116 162 Q 124 190 138 206 Q 156 216 180 216 Q 206 212 222 196 Q 232 172 230 138 Q 224 116 208 102 Q 184 96 162 98 Q 134 106 116 116 Z" fill="url(#faceLitS_G3)" opacity="0.95"/>
+    <path d="M 116 128 Q 112 154 122 182 Q 132 204 152 216 Q 138 212 128 200 Q 118 182 114 156 Q 116 134 116 128 Z" fill="#5a3622" opacity="0.4"/>
+  </g>
+
+  <g>
+    <path d="M 110 108 Q 124 92 162 88 Q 200 86 220 96 Q 232 108 232 124 L 226 132 Q 216 116 196 108 Q 168 102 144 108 Q 122 116 116 124 Z" fill="url(#hairSilG3)" opacity="0.95"/>
+  </g>
+
+  <g>
+    <ellipse cx="156" cy="152" rx="9" ry="3.5" fill="#0a0604"/>
+    <ellipse cx="200" cy="150" rx="10" ry="4" fill="#0a0604"/>
+    <circle cx="156" cy="152" r="2.6" fill="#080404"/>
+    <circle cx="200" cy="150" r="2.8" fill="#080404"/>
+    <circle cx="158" cy="151" r="1.2" fill="url(#eyeLostG3)"/>
+    <circle cx="202" cy="149" r="1.4" fill="url(#eyeLostG3)"/>
+    <path d="M 142 156 Q 156 162 170 158" stroke="#0a0604" stroke-width="0.6" fill="none" opacity="0.65"/>
+    <path d="M 188 154 Q 200 162 214 158" stroke="#0a0604" stroke-width="0.6" fill="none" opacity="0.65"/>
+  </g>
+
+  <g stroke="#0a0604" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M 138 142 Q 156 136 174 142"/>
+    <path d="M 184 140 Q 200 134 220 142"/>
+  </g>
+
+  <path d="M 178 158 Q 174 178 178 196" stroke="#0a0604" stroke-width="1" fill="none" opacity="0.7"/>
+
+  <g>
+    <path d="M 156 206 Q 178 212 200 206" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+  </g>
+
+  <g>
+    <path d="M 80 232 L 286 228 L 286 260 L 80 260 Z" fill="url(#silverSuitG3)"/>
+    <path d="M 110 228 L 160 232 L 200 232 L 250 228 L 250 252 L 110 252 Z" fill="#2a2a2a"/>
+  </g>
+
+  <g opacity="0.92">
+    <ellipse cx="124" cy="240" rx="7" ry="2" fill="#0a0604"/>
+    <ellipse cx="240" cy="240" rx="7" ry="2" fill="#0a0604"/>
+  </g>
+
+  <g opacity="0.6">
+    <ellipse cx="183" cy="252" rx="60" ry="6" fill="#a89878" opacity="0.4" filter="url(#bloomG3)"/>
+  </g>
+</svg>
