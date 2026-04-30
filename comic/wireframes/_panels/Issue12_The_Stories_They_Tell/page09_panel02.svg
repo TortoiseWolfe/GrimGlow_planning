@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 240" width="247" height="240">
+  <title>Issue 12 Page 9 Panel 2 — Sable's tactical display in crisis</title>
+  <desc>Close-up holographic tactical display in crisis mode. Blue-white miniature city map with device markers — three grey (neutralized), one flashing crimson (Thresh's position under attack), at center the fifth node still pulsing amber-black. New indicator at crimson-flashing location — dark iridescent marker, the drone. Squad position markers being moved by hand in degraded silver suit — Jink's emerald marker being redirected toward crimson flash. Display pulses with urgency. The plan rewritten in light.</desc>
+  <defs>
+    <linearGradient id="bgS2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2030"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <radialGradient id="crisisGlowS2" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#5a78a8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="frameDispS2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a78a8"/>
+      <stop offset="0.5" stop-color="#3a4858"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <radialGradient id="droneIndicS2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5a3098" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#1a0a04" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hubAmberS2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a85020" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#3a1810" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#080404" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gloveS2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6878"/>
+      <stop offset="0.5" stop-color="#3a4858"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <filter id="bloomS2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowS2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <filter id="megaGlowS2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="wrongnessS2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+
+  <rect width="247" height="240" fill="url(#bgS2)"/>
+  <rect width="247" height="240" fill="url(#crisisGlowS2)"/>
+
+  <g>
+    <rect x="20" y="20" width="207" height="160" rx="3" fill="none" stroke="url(#frameDispS2)" stroke-width="1.4" opacity="0.85"/>
+    <rect x="24" y="24" width="199" height="152" fill="#0a0a14" opacity="0.62"/>
+
+    <text x="30" y="36" font-family="monospace" font-size="4" fill="#a8c0e0" font-weight="700">TACTICAL — CRITICAL</text>
+    <text x="190" y="36" font-family="monospace" font-size="3.4" fill="#d83838" font-weight="700">⚠ ALERT</text>
+    <line x1="30" y1="40" x2="220" y2="40" stroke="#a8c0e0" stroke-width="0.4" opacity="0.62"/>
+
+    <g opacity="0.55" stroke="#5a78a8" stroke-width="0.4" fill="none">
+      <path d="M 40 60 L 200 60"/>
+      <path d="M 40 80 L 200 80"/>
+      <path d="M 40 100 L 200 100"/>
+      <path d="M 40 120 L 200 120"/>
+      <path d="M 40 140 L 200 140"/>
+      <path d="M 40 160 L 200 160"/>
+      <path d="M 60 50 L 60 170"/>
+      <path d="M 90 50 L 90 170"/>
+      <path d="M 120 50 L 120 170"/>
+      <path d="M 150 50 L 150 170"/>
+      <path d="M 180 50 L 180 170"/>
+    </g>
+
+    <circle cx="60" cy="70" r="3" fill="#7a7a7a" opacity="0.85"/>
+    <text x="60" y="80" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#7a7a7a">A</text>
+
+    <circle cx="180" cy="70" r="3" fill="#7a7a7a" opacity="0.85"/>
+    <text x="180" y="80" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#7a7a7a">B</text>
+
+    <g>
+      <circle cx="60" cy="150" r="6" fill="#d83838" opacity="0.95"/>
+      <circle cx="60" cy="150" r="9" fill="none" stroke="#d83838" stroke-width="0.85"/>
+      <circle cx="60" cy="150" r="14" fill="none" stroke="#d83838" stroke-width="0.55" opacity="0.62"/>
+      <text x="60" y="165" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#d83838" font-weight="700">C [HOSTILE]</text>
+    </g>
+
+    <g>
+      <ellipse cx="68" cy="142" rx="6" ry="4" fill="url(#droneIndicS2)"/>
+      <line x1="62" y1="138" x2="74" y2="146" stroke="#3a2868" stroke-width="0.55"/>
+      <line x1="74" y1="138" x2="62" y2="146" stroke="#3a2868" stroke-width="0.55"/>
+    </g>
+
+    <circle cx="180" cy="150" r="3" fill="#7a7a7a" opacity="0.85"/>
+    <text x="180" y="165" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#7a7a7a">D</text>
+
+    <circle cx="120" cy="110" r="9" fill="url(#hubAmberS2)"/>
+    <circle cx="120" cy="110" r="3" fill="#a85020"/>
+    <text x="120" y="124" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#a85020" font-weight="700">HUB</text>
+
+    <g opacity="0.85" stroke="#5a78a8" stroke-width="0.4" fill="none" stroke-dasharray="2,2">
+      <line x1="60" y1="70" x2="120" y2="110"/>
+      <line x1="180" y1="70" x2="120" y2="110"/>
+      <line x1="60" y1="150" x2="120" y2="110"/>
+      <line x1="180" y1="150" x2="120" y2="110"/>
+    </g>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowS2)">
+    <circle cx="60" cy="150" r="14" fill="#d83838" opacity="0.55"/>
+  </g>
+  <g opacity="0.62" filter="url(#wrongnessS2)">
+    <ellipse cx="68" cy="142" rx="11" ry="6" fill="#5a3098" opacity="0.42"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowS2)">
+    <rect x="20" y="20" width="207" height="160" fill="#a8c0e0" opacity="0.32"/>
+  </g>
+
+  <g>
+    <ellipse cx="86" cy="200" rx="14" ry="3" fill="#040202" opacity="0.62"/>
+    <ellipse cx="86" cy="200" rx="9" ry="6" fill="url(#gloveS2)"/>
+    <path d="M 92 196 L 100 192 L 110 188 L 116 192 L 110 198" fill="url(#gloveS2)"/>
+    <line x1="80" y1="196" x2="80" y2="220" stroke="#1a2030" stroke-width="0.4"/>
+
+    <path d="M 100 188 L 96 168" stroke="#a8c0e0" stroke-width="0.55" stroke-dasharray="1,1" opacity="0.62"/>
+    <path d="M 96 164 L 92 168 L 100 168 Z" fill="#a8c0e0" opacity="0.62"/>
+
+    <circle cx="80" cy="160" r="3" fill="#3a8858"/>
+    <text x="80" y="170" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#3a8858" font-weight="700">JINK</text>
+  </g>
+  <g opacity="0.85" filter="url(#bloomS2)">
+    <circle cx="80" cy="160" r="6" fill="#3a8858" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="123" cy="220" rx="80" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="200" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#a8c0e0" stroke-width="1.2"/>
+    <text x="96" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#a8c0e0" font-weight="700">SABLE: "Jink, divert. Support Thresh."</text>
+    <text x="96" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#a85820" font-style="italic">WREN: "Hub may try to reactivate."</text>
+  </g>
+</svg>
