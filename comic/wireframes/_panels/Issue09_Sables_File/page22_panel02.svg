@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 360" width="742" height="360">
+  <title>Issue 9 Page 22 Panel 2 — Sable alone, the cycle continues, the file opens</title>
+  <desc>Medium shot Sable alone on main beam in dark camp, holding activated data module. Holographic display blooms — corrupted geometric fairy script blue-white from below. Cold uplight clinical lonely. Same file from Issue 1. Same light. She is not the same. Lost — sitting with question she cannot answer, alone in the dark. No other light in frame.</desc>
+  <defs>
+    <linearGradient id="bgL2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020306"/>
+      <stop offset="0.5" stop-color="#040608"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="moduleUplightL2" cx="0.5" cy="0.85" r="0.5">
+      <stop offset="0" stop-color="#88a8d0" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#3a4858" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silverColdL2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a626a"/>
+      <stop offset="0.5" stop-color="#3a3e44"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="faceLitS_L2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0e08"/>
+      <stop offset="0.4" stop-color="#3a261a"/>
+      <stop offset="0.7" stop-color="#5a3622"/>
+      <stop offset="1" stop-color="#7a4830"/>
+    </linearGradient>
+    <linearGradient id="hairSilColdL2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a626a"/>
+      <stop offset="0.5" stop-color="#7a8088"/>
+      <stop offset="1" stop-color="#3a3e44"/>
+    </linearGradient>
+    <linearGradient id="moduleCaseL2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2e34"/>
+      <stop offset="0.6" stop-color="#1a1c22"/>
+      <stop offset="1" stop-color="#080a10"/>
+    </linearGradient>
+    <linearGradient id="beamColdL2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1410"/>
+      <stop offset="0.5" stop-color="#0e0805"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="eyeLost_L2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#5878a8" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#5878a8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomL2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowL2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="megaGlowL2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+    <filter id="softL2" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="360" fill="url(#bgL2)"/>
+  <rect width="742" height="360" fill="url(#moduleUplightL2)"/>
+
+  <g>
+    <rect x="60" y="320" width="622" height="14" fill="url(#beamColdL2)"/>
+    <rect x="60" y="320" width="622" height="3" fill="#3a2818" opacity="0.5"/>
+    <rect x="60" y="332" width="622" height="2" fill="#020100" opacity="0.95"/>
+  </g>
+
+  <g>
+    <ellipse cx="371" cy="334" rx="180" ry="20" fill="#020100"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#megaGlowL2)">
+    <ellipse cx="371" cy="240" rx="100" ry="80" fill="#5878a8"/>
+  </g>
+
+  <g>
+    <path d="M 320 200 Q 310 220 318 244 Q 326 268 340 280 Q 360 290 380 290 Q 404 286 418 270 Q 428 244 426 220 Q 420 200 408 188 Q 386 182 366 184 Q 340 192 320 200 Z" fill="url(#faceLitS_L2)" opacity="0.95"/>
+    <path d="M 320 210 Q 314 232 322 256 Q 332 274 348 286 Q 336 282 326 274 Q 316 260 312 240 Q 314 218 320 210 Z" fill="#0a0604" opacity="0.5"/>
+  </g>
+
+  <g>
+    <path d="M 314 192 Q 326 178 360 174 Q 396 172 416 180 Q 426 192 426 206 L 422 214 Q 412 196 394 188 Q 368 184 346 188 Q 326 196 320 206 Z" fill="url(#hairSilColdL2)" opacity="0.92"/>
+    <g stroke="#88a0c8" stroke-width="0.4" opacity="0.55">
+      <line x1="324" y1="180" x2="328" y2="194"/>
+      <line x1="346" y1="176" x2="346" y2="190"/>
+      <line x1="368" y1="174" x2="368" y2="190"/>
+      <line x1="390" y1="176" x2="388" y2="190"/>
+      <line x1="412" y1="182" x2="408" y2="194"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="354" cy="230" rx="9" ry="3.5" fill="#0a0604"/>
+    <ellipse cx="394" cy="228" rx="10" ry="4" fill="#0a0604"/>
+    <circle cx="354" cy="230" r="2.8" fill="#080404"/>
+    <circle cx="394" cy="228" r="3" fill="#080404"/>
+    <circle cx="356" cy="229" r="1.4" fill="url(#eyeLost_L2)"/>
+    <circle cx="396" cy="227" r="1.6" fill="url(#eyeLost_L2)"/>
+  </g>
+
+  <g stroke="#0a0604" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M 338 220 Q 354 214 370 220"/>
+    <path d="M 380 218 Q 394 212 412 220"/>
+  </g>
+
+  <path d="M 374 234 Q 370 252 374 268" stroke="#0a0604" stroke-width="1" fill="none" opacity="0.7"/>
+
+  <g>
+    <path d="M 354 280 Q 374 286 394 280" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+  </g>
+
+  <g>
+    <path d="M 280 296 L 462 292 L 462 340 L 280 340 Z" fill="url(#silverColdL2)"/>
+    <path d="M 308 292 L 358 296 L 392 296 L 432 292 L 432 320 L 308 320 Z" fill="#1a1c20" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.92">
+    <ellipse cx="320" cy="306" rx="7" ry="2" fill="#080404"/>
+    <ellipse cx="420" cy="306" rx="7" ry="2" fill="#080404"/>
+    <ellipse cx="375" cy="300" rx="4" ry="1.5" fill="#080404"/>
+  </g>
+
+  <g>
+    <path d="M 432 304 L 380 304" stroke="url(#silverColdL2)" stroke-width="3"/>
+  </g>
+
+  <g>
+    <rect x="354" y="290" width="34" height="20" rx="2" fill="url(#moduleCaseL2)" stroke="#3a3e44" stroke-width="0.7"/>
+    <rect x="358" y="294" width="26" height="10" rx="1" fill="#080a10"/>
+    <rect x="360" y="296" width="22" height="6" rx="0.5" fill="#88a8d0" opacity="0.85"/>
+  </g>
+  <g opacity="0.95" filter="url(#strongGlowL2)">
+    <ellipse cx="371" cy="296" rx="22" ry="4" fill="#a8c0e0"/>
+  </g>
+
+  <g>
+    <line x1="354" y1="286" x2="358" y2="282" stroke="#a8c0e0" stroke-width="1"/>
+    <line x1="388" y1="286" x2="384" y2="282" stroke="#a8c0e0" stroke-width="1"/>
+    <line x1="358" y1="282" x2="384" y2="282" stroke="#c0d8f0" stroke-width="1.2"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="346" y1="240" x2="396" y2="240" stroke="#a8c0e0" stroke-width="0.4"/>
+    <line x1="346" y1="252" x2="396" y2="252" stroke="#a8c0e0" stroke-width="0.4"/>
+    <line x1="346" y1="264" x2="396" y2="264" stroke="#a8c0e0" stroke-width="0.4"/>
+    <line x1="346" y1="276" x2="396" y2="276" stroke="#a8c0e0" stroke-width="0.4"/>
+  </g>
+  <g font-family="Courier New, monospace" fill="#c0d8f0" opacity="0.85">
+    <text x="371" y="248" text-anchor="middle" font-size="3.6" letter-spacing="1.4">CONVERGENCE</text>
+    <text x="371" y="260" text-anchor="middle" font-size="3.6" letter-spacing="1.4">INTERVENTION</text>
+    <text x="371" y="272" text-anchor="middle" font-size="3" opacity="0.6">▓░ NULL ░▓</text>
+  </g>
+
+  <g opacity="0.55">
+    <rect x="350" y="266" width="42" height="2" fill="#88a0c8" opacity="0.5"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomL2)">
+    <ellipse cx="371" cy="324" rx="80" ry="6" fill="#5878a8" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="120" cy="60" r="0.6" fill="#a8c0e0"/>
+    <circle cx="640" cy="80" r="0.6" fill="#a8c0e0"/>
+    <circle cx="80" cy="200" r="0.4" fill="#3a4858"/>
+    <circle cx="660" cy="200" r="0.4" fill="#3a4858"/>
+    <circle cx="200" cy="100" r="0.5" fill="#7088a8"/>
+    <circle cx="540" cy="120" r="0.5" fill="#7088a8"/>
+  </g>
+</svg>
