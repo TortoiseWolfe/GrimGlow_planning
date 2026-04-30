@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <title>Issue 8 — Page 5 — Panel 4: White-knuckle grip on the weapon — the tether — the weapon as anchor in an unfamiliar world</title>
+  <desc>85mm close-up armored hands gripping compact weapon. Hands pale-skinned strong white-knuckled around weapon body — gripping with more force than necessary. One thumb traces charge indicator glowing faint crimson with geometric markings. Weapon rests across armored knees — ruby-crimson metallic plating, dented, scratched, long chest-plate scratch visible where knee meets torso armor. Grip is grip of someone holding a tether — not aiming at threat but holding onto most familiar thing in unfamiliar world. Faint crimson holographic light from charge indicator illuminates fingers and armor plating. Dark shadow surrounds.</desc>
+
+  <defs>
+    <linearGradient id="i8p5p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i8p5p4crimsonHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f04838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a0a0a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p5p4armor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82818"/>
+      <stop offset="100%" stop-color="#3a0a0a"/>
+    </linearGradient>
+    <linearGradient id="i8p5p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0b888"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i8p5p4weapon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <filter id="i8p5p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p5p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p5p4strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p5p4dataPulse"><feGaussianBlur stdDeviation="0.55"/></filter>
+  </defs>
+
+  <rect width="240" height="240" fill="url(#i8p5p4bg)"/>
+
+  <!-- Crimson halo around weapon's charge indicator -->
+  <ellipse cx="120" cy="120" rx="120" ry="80" fill="url(#i8p5p4crimsonHalo)" filter="url(#i8p5p4strongglow)"/>
+
+  <!-- ===== ARMORED KNEES at top edge ===== -->
+  <g transform="translate(120 200)">
+    <!-- Left knee/thigh top -->
+    <path d="M-120,40 L-120,-9 L-44,-22 L-9,-3 L-9,40 Z" fill="url(#i8p5p4armor)"/>
+    <!-- Right knee/thigh top -->
+    <path d="M120,40 L120,-9 L44,-22 L9,-3 L9,40 Z" fill="url(#i8p5p4armor)"/>
+    <!-- Plating ridge along knee -->
+    <line x1="-120" y1="-9" x2="-9" y2="-3" stroke="#1a0606" stroke-width="0.7"/>
+    <line x1="120" y1="-9" x2="9" y2="-3" stroke="#1a0606" stroke-width="0.7"/>
+    <!-- Scratches and dents on armor plating -->
+    <path d="M-100,3 L-60,9" stroke="#3a0a0a" stroke-width="1.4" opacity="0.85"/>
+    <path d="M-44,18 L-22,22" stroke="#3a0a0a" stroke-width="1" opacity="0.7"/>
+    <path d="M44,11 L80,22" stroke="#3a0a0a" stroke-width="1.4" opacity="0.85"/>
+    <ellipse cx="-80" cy="22" rx="6" ry="2" fill="#5a1410" opacity="0.7"/>
+    <ellipse cx="80" cy="14" rx="9" ry="3" fill="#5a1410" opacity="0.7"/>
+    <!-- Long chest-plate scratch (where knee meets torso) -->
+    <path d="M-9,-22 L9,-22" stroke="#3a0a0a" stroke-width="3" opacity="0.85"/>
+    <path d="M-7,-20 L7,-20" stroke="#1a0606" stroke-width="1" opacity="0.7"/>
+
+    <!-- Suit accent -->
+    <line x1="-9" y1="0" x2="-9" y2="40" stroke="#ffa898" stroke-width="0.55" opacity="0.7" filter="url(#i8p5p4bloom)"/>
+    <line x1="9" y1="0" x2="9" y2="40" stroke="#ffa898" stroke-width="0.55" opacity="0.7" filter="url(#i8p5p4bloom)"/>
+  </g>
+
+  <!-- ===== WEAPON across knees ===== -->
+  <g transform="translate(120 175)">
+    <!-- Stock end -->
+    <rect x="-100" y="-7" width="14" height="14" fill="#3a2818" stroke="#1a0808" stroke-width="0.55"/>
+    <!-- Main body -->
+    <rect x="-86" y="-7" width="120" height="14" fill="url(#i8p5p4weapon)"/>
+    <line x1="-86" y1="-7" x2="34" y2="-7" stroke="#5a5860" stroke-width="0.55" filter="url(#i8p5p4bloom)" opacity="0.55"/>
+    <line x1="-86" y1="7" x2="34" y2="7" stroke="#0a0408" stroke-width="0.55"/>
+    <!-- Trigger guard -->
+    <path d="M-50,7 L-50,14 L-44,18 L-30,18 L-22,14 L-22,7 Z" fill="#0a0408" stroke="#040208" stroke-width="0.4"/>
+    <!-- ===== CHARGE INDICATOR — geometric crimson markings ===== -->
+    <rect x="-9" y="-5" width="40" height="10" fill="#1a0606" stroke="#3a0a0a" stroke-width="0.4"/>
+    <!-- Geometric markings glowing crimson -->
+    <g stroke="#f04838" stroke-width="0.55" filter="url(#i8p5p4bloom)" opacity="0.95">
+      <line x1="-7" y1="-2" x2="-3" y2="-2"/>
+      <line x1="0" y1="-3" x2="6" y2="-3"/>
+      <polygon points="11,-2 14,1 11,4 8,1" fill="#f04838"/>
+      <line x1="18" y1="0" x2="22" y2="0"/>
+      <line x1="25" y1="-2" x2="29" y2="-2"/>
+      <line x1="-7" y1="3" x2="-3" y2="3"/>
+      <line x1="0" y1="2" x2="6" y2="2"/>
+      <line x1="18" y1="3" x2="22" y2="3"/>
+      <line x1="25" y1="3" x2="29" y2="3"/>
+    </g>
+    <!-- Charge indicator glow -->
+    <ellipse cx="11" cy="0" rx="22" ry="3" fill="#f04838" filter="url(#i8p5p4bloom)" opacity="0.55"/>
+    <text x="-8" y="-1" font-family="monospace" font-size="2.5" fill="#f04838" filter="url(#i8p5p4dataPulse)" opacity="0.95">CHG//100%</text>
+    <!-- Barrel -->
+    <rect x="34" y="-3" width="22" height="6" fill="#1a1818" stroke="#040208" stroke-width="0.4"/>
+    <circle cx="50" cy="0" r="3" fill="#040208"/>
+  </g>
+
+  <!-- ===== HANDS gripping weapon — WHITE KNUCKLED ===== -->
+  <!-- Left hand on stock (left side of weapon) -->
+  <g transform="translate(50 175)">
+    <!-- Hand back -->
+    <path d="M-22,-22 L-26,-9 L-22,11 L-7,18 L11,11 L14,-9 L11,-22 L0,-26 L-11,-26 Z" fill="url(#i8p5p4skin)"/>
+    <!-- Tendons (visible white-knuckle grip) -->
+    <line x1="-14" y1="-14" x2="-14" y2="9" stroke="#3a1808" stroke-width="0.55" opacity="0.85"/>
+    <line x1="-7" y1="-18" x2="-7" y2="11" stroke="#3a1808" stroke-width="0.55" opacity="0.85"/>
+    <line x1="0" y1="-18" x2="0" y2="11" stroke="#3a1808" stroke-width="0.55" opacity="0.85"/>
+    <line x1="7" y1="-18" x2="7" y2="9" stroke="#3a1808" stroke-width="0.55" opacity="0.85"/>
+    <!-- White knuckle highlights — bright pale -->
+    <ellipse cx="-14" cy="-9" rx="2" ry="1.4" fill="#fff8d8" filter="url(#i8p5p4bloom)" opacity="0.85"/>
+    <ellipse cx="-7" cy="-9" rx="2" ry="1.4" fill="#fff8d8" filter="url(#i8p5p4bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="-9" rx="2" ry="1.4" fill="#fff8d8" filter="url(#i8p5p4bloom)" opacity="0.85"/>
+    <ellipse cx="7" cy="-9" rx="2" ry="1.4" fill="#fff8d8" filter="url(#i8p5p4bloom)" opacity="0.85"/>
+    <!-- Fingers wrapped down around stock -->
+    <ellipse cx="-14" cy="14" rx="2" ry="6" fill="url(#i8p5p4skin)"/>
+    <ellipse cx="-7" cy="16" rx="2" ry="6" fill="url(#i8p5p4skin)"/>
+    <ellipse cx="0" cy="16" rx="2" ry="6" fill="url(#i8p5p4skin)"/>
+    <ellipse cx="7" cy="14" rx="2" ry="6" fill="url(#i8p5p4skin)"/>
+    <!-- Crimson light reflection on knuckles -->
+    <ellipse cx="0" cy="-14" rx="11" ry="2" fill="#f04838" opacity="0.4" filter="url(#i8p5p4bloom)"/>
+  </g>
+
+  <!-- Right hand on grip — THUMB tracing charge indicator -->
+  <g transform="translate(180 175)">
+    <!-- Hand back -->
+    <path d="M-22,-22 L-26,-9 L-22,11 L-7,18 L11,11 L14,-9 L11,-22 L0,-26 L-11,-26 Z" fill="url(#i8p5p4skin)"/>
+    <!-- Tendons -->
+    <line x1="-14" y1="-14" x2="-14" y2="9" stroke="#3a1808" stroke-width="0.55" opacity="0.85"/>
+    <line x1="-7" y1="-18" x2="-7" y2="11" stroke="#3a1808" stroke-width="0.55" opacity="0.85"/>
+    <line x1="0" y1="-18" x2="0" y2="11" stroke="#3a1808" stroke-width="0.55" opacity="0.85"/>
+    <line x1="7" y1="-18" x2="7" y2="9" stroke="#3a1808" stroke-width="0.55" opacity="0.85"/>
+    <!-- White knuckles -->
+    <ellipse cx="-14" cy="-9" rx="2" ry="1.4" fill="#fff8d8" filter="url(#i8p5p4bloom)" opacity="0.85"/>
+    <ellipse cx="-7" cy="-9" rx="2" ry="1.4" fill="#fff8d8" filter="url(#i8p5p4bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="-9" rx="2" ry="1.4" fill="#fff8d8" filter="url(#i8p5p4bloom)" opacity="0.85"/>
+    <ellipse cx="7" cy="-9" rx="2" ry="1.4" fill="#fff8d8" filter="url(#i8p5p4bloom)" opacity="0.85"/>
+    <!-- THUMB extended toward charge indicator -->
+    <ellipse cx="-22" cy="-14" rx="3" ry="6" fill="url(#i8p5p4skin)"/>
+    <ellipse cx="-26" cy="-18" rx="2" ry="3" fill="url(#i8p5p4skin)"/>
+    <!-- Thumbnail (small white) -->
+    <ellipse cx="-26" cy="-20" rx="0.85" ry="0.55" fill="#fff8d8" opacity="0.55"/>
+    <!-- Crimson catch on thumb (tracing the indicator) -->
+    <circle cx="-26" cy="-18" r="1.4" fill="#f04838" filter="url(#i8p5p4bloom)" opacity="0.7"/>
+    <!-- Fingers wrapped down around grip -->
+    <ellipse cx="-14" cy="14" rx="2" ry="6" fill="url(#i8p5p4skin)"/>
+    <ellipse cx="-7" cy="16" rx="2" ry="6" fill="url(#i8p5p4skin)"/>
+    <ellipse cx="0" cy="16" rx="2" ry="6" fill="url(#i8p5p4skin)"/>
+    <ellipse cx="7" cy="14" rx="2" ry="6" fill="url(#i8p5p4skin)"/>
+  </g>
+
+  <!-- (No dialogue, hands only) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q60,142 120,138 Q180,136 240,140"/>
+    <path d="M0,200 Q60,202 120,198 Q180,196 240,200"/>
+  </g>
+</svg>

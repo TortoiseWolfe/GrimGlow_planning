@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 252 240" width="252" height="240">
+  <title>Issue 8 — Page 5 — Panel 3: Thresh's POV — empty alley, gaslight at far end, puddle reflection — emptiness worse than danger</title>
+  <desc>28mm wide POV from base of Victorian brick wall looking down narrow alley at night. Perspective extremely low approximately four inches off ground. Cobblestones stretch ahead like boulder field surfaces gleaming faintly with moisture. Single gas lamp far end casts warm amber pool. Discarded newspaper page leans against far wall — enormous from this perspective, headline illegible in dark. Puddle near center reflects gaslight, second warm amber point. Alley empty. No movement. No threat. Deep shadow fills near ground, gaslight reaches only far half. Narrow strip of sky above shows few stars through fog. The emptiness worse than danger.</desc>
+
+  <defs>
+    <linearGradient id="i8p5p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2438"/>
+      <stop offset="100%" stop-color="#0a1018"/>
+    </linearGradient>
+    <linearGradient id="i8p5p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p5p3cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <radialGradient id="i8p5p3gaslightCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#d86838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p5p3gaslightHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a86838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p5p3paper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a89868"/>
+      <stop offset="100%" stop-color="#5a4828"/>
+    </linearGradient>
+    <filter id="i8p5p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p5p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p5p3strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p5p3megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <!-- Sky strip narrow at top -->
+  <rect width="252" height="40" fill="url(#i8p5p3sky)"/>
+  <!-- Few stars through fog -->
+  <circle cx="80" cy="15" r="0.55" fill="#fff8e8" filter="url(#i8p5p3bloom)" opacity="0.85"/>
+  <circle cx="160" cy="20" r="0.55" fill="#fff8e8" filter="url(#i8p5p3bloom)" opacity="0.7"/>
+  <circle cx="200" cy="10" r="0.4" fill="#fff8e8" filter="url(#i8p5p3bloom)" opacity="0.55"/>
+  <!-- Fog hint -->
+  <ellipse cx="120" cy="30" rx="120" ry="9" fill="#3a4858" opacity="0.55" filter="url(#i8p5p3glow)"/>
+
+  <!-- Brick walls converging in perspective (low angle from ground) -->
+  <!-- Left wall (slanting toward vanishing point) -->
+  <path d="M0,40 L100,40 L120,140 L0,140 Z" fill="url(#i8p5p3brick)"/>
+  <!-- Right wall -->
+  <path d="M252,40 L152,40 L132,140 L252,140 Z" fill="url(#i8p5p3brick)"/>
+
+  <!-- Brick mortar lines (perspective) -->
+  <g stroke="#040408" stroke-width="0.7" opacity="0.7">
+    <line x1="0" y1="60" x2="105" y2="60"/>
+    <line x1="0" y1="80" x2="110" y2="80"/>
+    <line x1="0" y1="100" x2="115" y2="100"/>
+    <line x1="0" y1="120" x2="120" y2="120"/>
+    <line x1="252" y1="60" x2="147" y2="60"/>
+    <line x1="252" y1="80" x2="142" y2="80"/>
+    <line x1="252" y1="100" x2="137" y2="100"/>
+    <line x1="252" y1="120" x2="132" y2="120"/>
+  </g>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.55">
+    <line x1="40" y1="40" x2="55" y2="140"/>
+    <line x1="80" y1="40" x2="105" y2="140"/>
+    <line x1="20" y1="60" x2="32" y2="120"/>
+    <line x1="60" y1="80" x2="78" y2="120"/>
+    <line x1="252" y1="40" x2="252" y2="140"/>
+    <line x1="212" y1="40" x2="197" y2="140"/>
+    <line x1="172" y1="40" x2="147" y2="140"/>
+    <line x1="232" y1="60" x2="220" y2="120"/>
+    <line x1="192" y1="80" x2="174" y2="120"/>
+  </g>
+
+  <!-- Cobblestone alley floor (extreme perspective from low) -->
+  <path d="M0,140 L252,140 L252,240 L0,240 Z" fill="url(#i8p5p3cobble)"/>
+
+  <!-- ===== GASLIGHT FAR END ===== -->
+  <g transform="translate(126 80)">
+    <!-- Lamp post -->
+    <rect x="-1" y="0" width="2" height="60" fill="#3a3030"/>
+    <!-- Lamp housing -->
+    <rect x="-7" y="-6" width="14" height="9" fill="#1a1818"/>
+    <polygon points="-9,-6 9,-6 5,-12 -5,-12" fill="#3a3030"/>
+    <!-- Glass with flame -->
+    <rect x="-5" y="-4" width="10" height="6" fill="#3a1808"/>
+    <ellipse cx="0" cy="-1" rx="3" ry="4" fill="url(#i8p5p3gaslightCore)" filter="url(#i8p5p3strongglow)"/>
+    <ellipse cx="0" cy="-1" rx="1.4" ry="2.5" fill="#fff" filter="url(#i8p5p3bloom)"/>
+  </g>
+  <!-- Massive amber halo -->
+  <ellipse cx="126" cy="100" rx="220" ry="120" fill="url(#i8p5p3gaslightHalo)" filter="url(#i8p5p3megaglow)" opacity="0.85"/>
+  <!-- Warm pool on cobblestones (far end) -->
+  <ellipse cx="126" cy="180" rx="120" ry="40" fill="url(#i8p5p3gaslightHalo)" filter="url(#i8p5p3megaglow)" opacity="0.85"/>
+
+  <!-- Cobblestone pattern (boulder field perspective) -->
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.55">
+    <!-- Distant (smaller) -->
+    <ellipse cx="80" cy="160" rx="6" ry="3"/>
+    <ellipse cx="120" cy="155" rx="6" ry="3"/>
+    <ellipse cx="160" cy="160" rx="6" ry="3"/>
+    <ellipse cx="200" cy="158" rx="6" ry="3"/>
+    <!-- Mid -->
+    <ellipse cx="60" cy="180" rx="11" ry="5"/>
+    <ellipse cx="100" cy="175" rx="11" ry="5"/>
+    <ellipse cx="140" cy="180" rx="11" ry="5"/>
+    <ellipse cx="180" cy="178" rx="11" ry="5"/>
+    <ellipse cx="220" cy="180" rx="11" ry="5"/>
+    <!-- Foreground (boulder-sized) -->
+    <ellipse cx="40" cy="210" rx="22" ry="9"/>
+    <ellipse cx="100" cy="205" rx="22" ry="9"/>
+    <ellipse cx="160" cy="210" rx="22" ry="9"/>
+    <ellipse cx="220" cy="208" rx="22" ry="9"/>
+    <ellipse cx="60" cy="232" rx="26" ry="11"/>
+    <ellipse cx="140" cy="228" rx="26" ry="11"/>
+    <ellipse cx="220" cy="232" rx="26" ry="11"/>
+  </g>
+
+  <!-- Cobblestones gleam where gaslight reaches -->
+  <g opacity="0.85" filter="url(#i8p5p3bloom)">
+    <ellipse cx="80" cy="160" rx="3" ry="1.4" fill="#ffd898" opacity="0.7"/>
+    <ellipse cx="120" cy="155" rx="3" ry="1.4" fill="#ffd898" opacity="0.85"/>
+    <ellipse cx="160" cy="160" rx="3" ry="1.4" fill="#ffd898" opacity="0.7"/>
+    <ellipse cx="100" cy="175" rx="4" ry="2" fill="#ffd898" opacity="0.55"/>
+    <ellipse cx="140" cy="180" rx="4" ry="2" fill="#ffd898" opacity="0.55"/>
+  </g>
+
+  <!-- ===== PUDDLE — second warm amber point (center mid-ground) ===== -->
+  <ellipse cx="126" cy="200" rx="22" ry="6" fill="#0a0408"/>
+  <ellipse cx="126" cy="200" rx="20" ry="5" fill="#1a1410"/>
+  <!-- Reflected gaslight in puddle -->
+  <ellipse cx="126" cy="198" rx="14" ry="3" fill="#ffd898" filter="url(#i8p5p3bloom)" opacity="0.85"/>
+  <ellipse cx="126" cy="198" rx="9" ry="2" fill="#fff8d8" filter="url(#i8p5p3bloom)"/>
+  <!-- Subtle ripple highlight -->
+  <ellipse cx="126" cy="200" rx="20" ry="5" fill="none" stroke="#a86838" stroke-width="0.4" opacity="0.55"/>
+
+  <!-- ===== DISCARDED NEWSPAPER against far wall — enormous ===== -->
+  <g transform="translate(180 130)">
+    <!-- Newspaper folded against wall, leaning -->
+    <path d="M0,0 L40,5 L40,40 L0,35 Z" fill="url(#i8p5p3paper)" opacity="0.85"/>
+    <!-- Crease line -->
+    <line x1="20" y1="2" x2="20" y2="37" stroke="#3a2818" stroke-width="0.55" opacity="0.7"/>
+    <!-- Headline lines (illegible in dark) -->
+    <g stroke="#3a2010" stroke-width="0.55" opacity="0.7">
+      <line x1="3" y1="9" x2="17" y2="11"/>
+      <line x1="22" y1="11" x2="37" y2="13"/>
+      <line x1="3" y1="14" x2="14" y2="15"/>
+      <line x1="22" y1="16" x2="35" y2="17"/>
+      <line x1="3" y1="20" x2="17" y2="22"/>
+      <line x1="22" y1="22" x2="37" y2="23"/>
+      <line x1="3" y1="26" x2="11" y2="27"/>
+      <line x1="22" y1="28" x2="32" y2="30"/>
+    </g>
+    <!-- Curled edge -->
+    <path d="M0,35 L0,30 Q5,32 10,35 Z" fill="#1a1208" opacity="0.7"/>
+  </g>
+
+  <!-- Deep shadow at near foreground (Thresh's position - the bottom edge) -->
+  <ellipse cx="126" cy="240" rx="200" ry="14" fill="#040408" opacity="0.85" filter="url(#i8p5p3glow)"/>
+
+  <!-- Long shadow stretching from gaslight toward viewer -->
+  <g opacity="0.4">
+    <path d="M126,80 L60,180 L70,200 L150,140 Z" fill="#040408" filter="url(#i8p5p3glow)"/>
+  </g>
+
+  <!-- (No dialogue, POV) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q60,142 126,138 Q190,136 252,140"/>
+  </g>
+</svg>
