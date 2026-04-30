@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 11 Page 15 Panel 3 — The corroded wing-pack on its shelf, "you stayed until you couldn't fly anymore"</title>
+  <desc>Close-up detail corroded wing-pack on dusty stone shelf. Geometric struts that were once luminous are dark and corroded green-black — ghost of structure visible in corrosion, skeleton of technology centuries dead. Dust on shelf undisturbed except tiny footprints. Blue-violet scanner light plays across corroded surfaces, catching remnant geometry of what was once translucent dragonfly wings of structured light. Wing-pack beautiful in its ruin — same technology squad wears, reduced by centuries to bones. The evidence of staying.</desc>
+  <defs>
+    <linearGradient id="bgZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a14"/>
+      <stop offset="0.5" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="violetSweepZ3" cx="0.32" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#a878d8" stop-opacity="0.62"/>
+      <stop offset="0.4" stop-color="#3a1a5a" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stoneShelfZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a5854"/>
+      <stop offset="0.5" stop-color="#3a3838"/>
+      <stop offset="1" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="stoneBackZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3838"/>
+      <stop offset="0.5" stop-color="#1a1818"/>
+      <stop offset="1" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="dustZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a7868"/>
+      <stop offset="0.5" stop-color="#5a5848"/>
+      <stop offset="1" stop-color="#3a3828"/>
+    </linearGradient>
+    <linearGradient id="strutCorrZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6848"/>
+      <stop offset="0.4" stop-color="#3a4838"/>
+      <stop offset="0.7" stop-color="#1a2418"/>
+      <stop offset="1" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="strutGreenBlackZ3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a4838"/>
+      <stop offset="0.5" stop-color="#1a2418"/>
+      <stop offset="1" stop-color="#0a1408"/>
+    </linearGradient>
+    <radialGradient id="ghostGeomZ3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a878d8" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#3a4838" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomZ3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowZ3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="dustBloomZ3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgZ3)"/>
+  <rect width="366" height="240" fill="url(#violetSweepZ3)"/>
+
+  <g>
+    <rect x="0" y="0" width="366" height="160" fill="url(#stoneBackZ3)" opacity="0.92"/>
+    <g opacity="0.55" stroke="#0a0808" stroke-width="0.55" fill="none">
+      <line x1="0" y1="40" x2="366" y2="40"/>
+      <line x1="0" y1="80" x2="366" y2="80"/>
+      <line x1="0" y1="120" x2="366" y2="120"/>
+      <line x1="120" y1="0" x2="120" y2="160"/>
+      <line x1="240" y1="0" x2="240" y2="160"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="0" y="160" width="366" height="80" fill="url(#stoneShelfZ3)"/>
+    <line x1="0" y1="160" x2="366" y2="160" stroke="#080808" stroke-width="0.85"/>
+    <line x1="0" y1="170" x2="366" y2="170" stroke="#080808" stroke-width="0.55" opacity="0.85"/>
+    <line x1="0" y1="200" x2="366" y2="198" stroke="#080808" stroke-width="0.55" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#dustBloomZ3)">
+    <ellipse cx="80" cy="178" rx="40" ry="6" fill="url(#dustZ3)"/>
+    <ellipse cx="200" cy="178" rx="80" ry="6" fill="url(#dustZ3)"/>
+    <ellipse cx="320" cy="178" rx="40" ry="6" fill="url(#dustZ3)"/>
+  </g>
+
+  <g opacity="0.55">
+    <ellipse cx="60" cy="174" rx="2" ry="0.85" fill="#5a5848"/>
+    <ellipse cx="68" cy="176" rx="2" ry="0.85" fill="#5a5848"/>
+    <ellipse cx="76" cy="174" rx="2" ry="0.85" fill="#5a5848"/>
+    <ellipse cx="84" cy="176" rx="2" ry="0.85" fill="#5a5848"/>
+    <ellipse cx="290" cy="176" rx="2" ry="0.85" fill="#5a5848"/>
+    <ellipse cx="300" cy="174" rx="2" ry="0.85" fill="#5a5848"/>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="170" rx="80" ry="6" fill="#0a0808" opacity="0.85"/>
+
+    <path d="M 120 168 L 130 142 L 152 130 L 178 124 L 200 122 L 222 124 L 240 130 L 252 142 L 246 168" fill="url(#strutCorrZ3)" opacity="0.75"/>
+
+    <path d="M 130 142 L 152 130 L 170 138 L 178 124" stroke="url(#strutCorrZ3)" stroke-width="2.4" fill="none"/>
+    <path d="M 152 130 L 178 124 L 200 122 L 200 132" stroke="url(#strutGreenBlackZ3)" stroke-width="2.4" fill="none"/>
+    <path d="M 178 124 L 200 122 L 222 124 L 222 132" stroke="url(#strutGreenBlackZ3)" stroke-width="2.4" fill="none"/>
+    <path d="M 200 122 L 222 124 L 240 130" stroke="url(#strutCorrZ3)" stroke-width="2.4" fill="none"/>
+    <path d="M 222 124 L 240 130 L 252 142" stroke="url(#strutCorrZ3)" stroke-width="2.4" fill="none"/>
+
+    <path d="M 130 142 L 130 158" stroke="url(#strutGreenBlackZ3)" stroke-width="1.4"/>
+    <path d="M 152 130 L 152 168" stroke="url(#strutGreenBlackZ3)" stroke-width="1.4"/>
+    <path d="M 178 124 L 178 168" stroke="url(#strutGreenBlackZ3)" stroke-width="1.4"/>
+    <path d="M 200 122 L 200 168" stroke="url(#strutGreenBlackZ3)" stroke-width="2"/>
+    <path d="M 222 124 L 222 168" stroke="url(#strutGreenBlackZ3)" stroke-width="1.4"/>
+    <path d="M 240 130 L 240 168" stroke="url(#strutGreenBlackZ3)" stroke-width="1.4"/>
+    <path d="M 252 142 L 252 158" stroke="url(#strutGreenBlackZ3)" stroke-width="1.4"/>
+
+    <ellipse cx="190" cy="160" rx="20" ry="4" fill="url(#strutGreenBlackZ3)"/>
+    <ellipse cx="210" cy="160" rx="20" ry="4" fill="url(#strutGreenBlackZ3)"/>
+
+    <g opacity="0.42">
+      <ellipse cx="160" cy="146" rx="2.4" ry="1.2" fill="#080808"/>
+      <ellipse cx="180" cy="138" rx="2.4" ry="1.2" fill="#080808"/>
+      <ellipse cx="220" cy="138" rx="2" ry="1" fill="#080808"/>
+      <ellipse cx="232" cy="146" rx="2.4" ry="1.2" fill="#080808"/>
+      <ellipse cx="148" cy="160" rx="2" ry="1" fill="#080808"/>
+      <ellipse cx="244" cy="158" rx="2" ry="1" fill="#080808"/>
+    </g>
+  </g>
+
+  <g opacity="0.32" filter="url(#strongGlowZ3)">
+    <ellipse cx="155" cy="138" rx="40" ry="22" fill="url(#ghostGeomZ3)"/>
+    <ellipse cx="220" cy="138" rx="40" ry="22" fill="url(#ghostGeomZ3)"/>
+  </g>
+
+  <g opacity="0.55">
+    <line x1="135" y1="142" x2="174" y2="124" stroke="#a878d8" stroke-width="0.4" stroke-dasharray="1.4 1" opacity="0.42"/>
+    <line x1="156" y1="130" x2="178" y2="124" stroke="#a878d8" stroke-width="0.4" stroke-dasharray="1.4 1" opacity="0.42"/>
+    <line x1="200" y1="122" x2="222" y2="124" stroke="#a878d8" stroke-width="0.4" stroke-dasharray="1.4 1" opacity="0.42"/>
+    <line x1="222" y1="124" x2="246" y2="130" stroke="#a878d8" stroke-width="0.4" stroke-dasharray="1.4 1" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.85">
+    <ellipse cx="80" cy="166" rx="22" ry="3" fill="#0a0808" opacity="0.62"/>
+    <line x1="78" y1="166" x2="80" y2="170" stroke="#080808" stroke-width="0.55"/>
+    <line x1="86" y1="166" x2="88" y2="170" stroke="#080808" stroke-width="0.55"/>
+  </g>
+
+  <g opacity="0.42">
+    <circle cx="100" cy="100" r="0.5" fill="#a878d8"/>
+    <circle cx="160" cy="80" r="0.55" fill="#a878d8"/>
+    <circle cx="220" cy="60" r="0.5" fill="#a878d8"/>
+    <circle cx="280" cy="100" r="0.5" fill="#a878d8"/>
+    <circle cx="120" cy="60" r="0.5" fill="#a878d8"/>
+    <circle cx="200" cy="40" r="0.55" fill="#a878d8"/>
+  </g>
+
+  <g opacity="0.55">
+    <text x="183" y="40" text-anchor="middle" font-family="Times New Roman, serif" font-size="5" fill="#5a4838" font-style="italic" opacity="0.62">— centuries dead —</text>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="220" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#7848b8" stroke-width="1.2"/>
+    <text x="100" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" fill="#7848b8" font-weight="700">LUMA (off-panel, quiet):</text>
+    <text x="100" y="19" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" fill="#2a2a2a" font-style="italic">"You stayed until you couldn't fly. Then you stayed."</text>
+  </g>
+</svg>
