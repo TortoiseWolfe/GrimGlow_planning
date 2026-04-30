@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 9 Page 12 Panel 1 — Jink "this isn't finished", morning grey dominant</title>
+  <desc>Medium wide widescreen eye level. Jink faces Wren, body taut — anger banked but not extinguished. Eyes flicker toward Sable before returning. Wren firm opposite. Background: Sable near dimming display, Luma on lower beam, Thresh withdrawn far end. Morning grey dominant, holographic fading.</desc>
+  <defs>
+    <linearGradient id="bgC1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1f2c"/>
+      <stop offset="0.4" stop-color="#252a36"/>
+      <stop offset="1" stop-color="#15191f"/>
+    </linearGradient>
+    <radialGradient id="dawnDom_C1" cx="0.95" cy="0.4" r="0.55">
+      <stop offset="0" stop-color="#a0a8b8" stop-opacity="0.65"/>
+      <stop offset="0.5" stop-color="#5a6478" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#15191f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="holoFadeC1" cx="0.4" cy="0.5" r="0.25">
+      <stop offset="0" stop-color="#5878a8" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#2a3848" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#15191f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silverFC1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8088"/>
+      <stop offset="0.5" stop-color="#4a4e54"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="copperFC1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.5" stop-color="#7a3e18"/>
+      <stop offset="1" stop-color="#3a1f0a"/>
+    </linearGradient>
+    <linearGradient id="emeraldFC1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#2e7048"/>
+      <stop offset="1" stop-color="#142e1f"/>
+    </linearGradient>
+    <linearGradient id="crimsonFC1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a1810"/>
+      <stop offset="0.5" stop-color="#2a0808"/>
+      <stop offset="1" stop-color="#0a0202"/>
+    </linearGradient>
+    <linearGradient id="violetFC1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7848b8"/>
+      <stop offset="0.5" stop-color="#4a2a78"/>
+      <stop offset="1" stop-color="#1a0e2e"/>
+    </linearGradient>
+    <linearGradient id="hairGoldC1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d040"/>
+      <stop offset="0.5" stop-color="#d8b020"/>
+      <stop offset="1" stop-color="#7a5810"/>
+    </linearGradient>
+    <linearGradient id="beamMainC1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#2a1c10"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <filter id="bloomC1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowC1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="softC1" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="280" fill="url(#bgC1)"/>
+  <rect width="742" height="280" fill="url(#dawnDom_C1)"/>
+  <rect width="742" height="280" fill="url(#holoFadeC1)"/>
+
+  <g opacity="0.45" filter="url(#softC1)">
+    <path d="M 0 0 L 50 0 L 50 280 L 0 280 Z" fill="#0a0a10"/>
+    <path d="M 692 0 L 742 0 L 742 280 L 692 280 Z" fill="#0a0a10"/>
+  </g>
+
+  <g>
+    <rect x="50" y="240" width="642" height="14" fill="url(#beamMainC1)"/>
+    <rect x="50" y="240" width="642" height="3" fill="#5a3a20" opacity="0.6"/>
+    <rect x="50" y="252" width="642" height="2" fill="#0e0805" opacity="0.9"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#strongGlowC1)">
+    <ellipse cx="710" cy="120" rx="20" ry="80" fill="#a0a8b8"/>
+  </g>
+  <g opacity="0.92">
+    <path d="M 696 60 L 720 60 L 720 200 L 696 200 Z" fill="#7088a0" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.45">
+    <ellipse cx="280" cy="150" rx="34" ry="24" fill="#5878a8"/>
+  </g>
+  <g opacity="0.5">
+    <line x1="262" y1="140" x2="298" y2="140" stroke="#a8c0e0" stroke-width="0.4"/>
+    <line x1="262" y1="156" x2="298" y2="156" stroke="#a8c0e0" stroke-width="0.4"/>
+  </g>
+
+  <g>
+    <ellipse cx="310" cy="180" rx="9" ry="10" fill="#3a261a"/>
+    <ellipse cx="310" cy="176" rx="6" ry="6" fill="#5a3622"/>
+    <path d="M 300 168 Q 310 162 320 168 L 318 174 Q 312 166 308 174 Z" fill="#9098a0" opacity="0.92"/>
+    <ellipse cx="307" cy="180" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <ellipse cx="313" cy="180" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <path d="M 294 188 L 326 188 L 332 240 L 290 240 Z" fill="url(#silverFC1)"/>
+    <path d="M 294 192 L 326 192 L 326 216 L 294 216 Z" fill="#2a2a2a"/>
+  </g>
+
+  <g>
+    <ellipse cx="420" cy="178" rx="11" ry="13" fill="#3a261a"/>
+    <ellipse cx="420" cy="172" rx="8" ry="9" fill="#5a3622"/>
+    <g opacity="0.85" filter="url(#strongGlowC1)">
+      <ellipse cx="412" cy="158" rx="12" ry="9" fill="#d8b020"/>
+      <ellipse cx="428" cy="158" rx="12" ry="9" fill="#d8b020"/>
+      <ellipse cx="420" cy="152" rx="14" ry="7" fill="#e8c030"/>
+    </g>
+    <g>
+      <ellipse cx="412" cy="158" rx="9" ry="7" fill="url(#hairGoldC1)"/>
+      <ellipse cx="428" cy="158" rx="9" ry="7" fill="url(#hairGoldC1)"/>
+      <ellipse cx="420" cy="152" rx="11" ry="6" fill="url(#hairGoldC1)"/>
+      <circle cx="402" cy="166" r="5" fill="url(#hairGoldC1)"/>
+      <circle cx="438" cy="166" r="5" fill="url(#hairGoldC1)"/>
+    </g>
+    <ellipse cx="416" cy="178" rx="1.2" ry="1.5" fill="#0a0604"/>
+    <ellipse cx="424" cy="178" rx="1.2" ry="1.5" fill="#0a0604"/>
+    <path d="M 410 188 L 430 188" stroke="#0a0604" stroke-width="1.4"/>
+    <path d="M 398 192 L 442 192 L 446 240 L 394 240 Z" fill="url(#emeraldFC1)"/>
+    <path d="M 398 198 L 442 198 L 442 220 L 398 220 Z" fill="#1f4a30"/>
+  </g>
+  <g opacity="0.75" filter="url(#bloomC1)">
+    <circle cx="394" cy="208" r="2.4" fill="#3aa868"/>
+    <circle cx="446" cy="208" r="2.4" fill="#3aa868"/>
+  </g>
+  <g opacity="0.85">
+    <path d="M 400 162 Q 408 168 412 174" stroke="#0a0604" stroke-width="0.4" opacity="0.7"/>
+  </g>
+
+  <g>
+    <ellipse cx="500" cy="180" rx="11" ry="13" fill="#3a261a"/>
+    <ellipse cx="500" cy="174" rx="8" ry="9" fill="url(#copperFC1)"/>
+    <ellipse cx="498" cy="160" rx="9" ry="7" fill="#0a0808"/>
+    <ellipse cx="506" cy="158" rx="6" ry="6" fill="#0a0808"/>
+    <ellipse cx="497" cy="180" rx="1.2" ry="1.5" fill="#0a0604"/>
+    <ellipse cx="503" cy="180" rx="1.2" ry="1.5" fill="#0a0604"/>
+    <path d="M 484 188 L 516 188 L 522 240 L 478 240 Z" fill="url(#copperFC1)"/>
+    <path d="M 484 196 L 516 196 L 516 220 L 484 220 Z" fill="#5a2e10"/>
+    <path d="M 478 196 L 466 222" stroke="url(#copperFC1)" stroke-width="6" fill="none"/>
+    <path d="M 522 196 L 534 222" stroke="url(#copperFC1)" stroke-width="6" fill="none"/>
+  </g>
+  <g opacity="0.9" filter="url(#bloomC1)">
+    <circle cx="478" cy="206" r="2" fill="#d88838"/>
+    <circle cx="522" cy="206" r="2" fill="#d88838"/>
+  </g>
+
+  <g>
+    <ellipse cx="200" cy="200" rx="7" ry="8" fill="#3a261a"/>
+    <ellipse cx="200" cy="196" rx="5" ry="5" fill="#5a3622"/>
+    <g>
+      <rect x="194" y="190" width="5" height="2.6" rx="0.8" fill="#7848b8" opacity="0.85"/>
+      <rect x="200" y="190" width="5" height="2.6" rx="0.8" fill="#7848b8" opacity="0.85"/>
+    </g>
+    <ellipse cx="198" cy="200" rx="0.7" ry="0.9" fill="#0a0604"/>
+    <ellipse cx="202" cy="200" rx="0.7" ry="0.9" fill="#0a0604"/>
+    <path d="M 188 208 L 214 208 L 218 240 L 184 240 Z" fill="url(#violetFC1)"/>
+    <path d="M 188 214 L 214 214 L 214 230 L 188 230 Z" fill="#3a1a5a"/>
+  </g>
+
+  <g>
+    <ellipse cx="618" cy="200" rx="7" ry="8" fill="#3a261a"/>
+    <ellipse cx="618" cy="196" rx="5" ry="5" fill="#5a3622"/>
+    <ellipse cx="616" cy="200" rx="0.7" ry="0.9" fill="#0a0604"/>
+    <ellipse cx="620" cy="200" rx="0.7" ry="0.9" fill="#0a0604"/>
+    <path d="M 606 208 L 632 208 L 638 240 L 600 240 Z" fill="url(#crimsonFC1)" opacity="0.85"/>
+    <path d="M 606 214 L 632 214 L 632 230 L 606 230 Z" fill="#1a0606" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="200" cy="246" rx="14" ry="2" fill="#080404"/>
+    <ellipse cx="310" cy="246" rx="20" ry="2" fill="#080404"/>
+    <ellipse cx="420" cy="246" rx="22" ry="2.5" fill="#080404"/>
+    <ellipse cx="500" cy="246" rx="20" ry="2.5" fill="#080404"/>
+    <ellipse cx="618" cy="246" rx="14" ry="2" fill="#080404"/>
+  </g>
+
+  <g opacity="0.7">
+    <line x1="436" y1="180" x2="320" y2="180" stroke="#a8c0e0" stroke-width="0.4" stroke-dasharray="3 4"/>
+    <line x1="430" y1="180" x2="490" y2="180" stroke="#a8c0e0" stroke-width="0.4" stroke-dasharray="3 4" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="80" cy="40" r="0.4" fill="#7a8898"/>
+    <circle cx="660" cy="50" r="0.4" fill="#7a8898"/>
+  </g>
+</svg>

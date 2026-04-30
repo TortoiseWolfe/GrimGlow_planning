@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 9 Page 12 Panel 4 — Dispersal, the unit becoming five trajectories</title>
+  <desc>Wide eye level slight pull-back. Five figures dispersing in different directions. Jink toward upper cross-timbers. Thresh distant in far shadows. Luma toward storage area. Wren toward repair station. Sable still at center, fixed point everything moves away from. Honest morning grey, display off.</desc>
+  <defs>
+    <linearGradient id="bgC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1f2c"/>
+      <stop offset="0.4" stop-color="#252a36"/>
+      <stop offset="0.7" stop-color="#1f2330"/>
+      <stop offset="1" stop-color="#15191f"/>
+    </linearGradient>
+    <radialGradient id="dawnFullC4" cx="0.95" cy="0.4" r="0.55">
+      <stop offset="0" stop-color="#a0a8b8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#5a6478" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#15191f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silverFC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8088"/>
+      <stop offset="0.5" stop-color="#4a4e54"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="copperFC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.5" stop-color="#7a3e18"/>
+      <stop offset="1" stop-color="#3a1f0a"/>
+    </linearGradient>
+    <linearGradient id="emeraldFC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#2e7048"/>
+      <stop offset="1" stop-color="#142e1f"/>
+    </linearGradient>
+    <linearGradient id="crimsonFC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a1810"/>
+      <stop offset="0.5" stop-color="#2a0808"/>
+      <stop offset="1" stop-color="#0a0202"/>
+    </linearGradient>
+    <linearGradient id="violetFC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7848b8"/>
+      <stop offset="0.5" stop-color="#4a2a78"/>
+      <stop offset="1" stop-color="#1a0e2e"/>
+    </linearGradient>
+    <linearGradient id="timberSideC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="beamMainC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#2a1c10"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <linearGradient id="repairStationC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3220"/>
+      <stop offset="0.5" stop-color="#2a2418"/>
+      <stop offset="1" stop-color="#15110a"/>
+    </linearGradient>
+    <filter id="bloomC4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowC4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="softC4" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="320" fill="url(#bgC4)"/>
+  <rect width="742" height="320" fill="url(#dawnFullC4)"/>
+
+  <g>
+    <path d="M 0 0 L 60 0 L 60 320 L 0 320 Z" fill="url(#timberSideC4)"/>
+    <path d="M 60 0 L 60 320 L 80 300 L 80 20 Z" fill="#1a1008" opacity="0.85"/>
+    <path d="M 682 0 L 742 0 L 742 320 L 682 320 Z" fill="url(#timberSideC4)"/>
+    <path d="M 682 0 L 682 320 L 662 300 L 662 20 Z" fill="#1a1008" opacity="0.85"/>
+  </g>
+
+  <g>
+    <rect x="80" y="240" width="602" height="14" fill="url(#beamMainC4)"/>
+    <rect x="80" y="240" width="602" height="3" fill="#5a3a20" opacity="0.6"/>
+    <rect x="80" y="252" width="602" height="2" fill="#0e0805" opacity="0.9"/>
+  </g>
+
+  <g>
+    <rect x="80" y="100" width="100" height="6" fill="#1a1008" opacity="0.9"/>
+    <rect x="540" y="120" width="80" height="6" fill="#1a1008" opacity="0.9"/>
+    <rect x="200" y="160" width="80" height="6" fill="#1a1008" opacity="0.9"/>
+    <line x1="120" y1="106" x2="118" y2="240" stroke="#1a1008" stroke-width="2.5"/>
+    <line x1="580" y1="126" x2="582" y2="240" stroke="#1a1008" stroke-width="2.5"/>
+  </g>
+
+  <g>
+    <rect x="100" y="200" width="60" height="40" fill="url(#repairStationC4)" stroke="#5a3a20" stroke-width="0.6"/>
+    <rect x="106" y="206" width="48" height="28" fill="#1a140a"/>
+    <line x1="106" y1="216" x2="154" y2="216" stroke="#5a3a20" stroke-width="0.4"/>
+    <line x1="106" y1="226" x2="154" y2="226" stroke="#5a3a20" stroke-width="0.4"/>
+    <circle cx="120" cy="220" r="2" fill="#7a3e18" opacity="0.7"/>
+    <circle cx="140" cy="230" r="1.5" fill="#7a3e18" opacity="0.6"/>
+  </g>
+
+  <g>
+    <rect x="610" y="206" width="36" height="34" fill="url(#repairStationC4)" stroke="#5a3a20" stroke-width="0.6"/>
+    <rect x="614" y="210" width="28" height="22" fill="#1a140a"/>
+    <line x1="614" y1="220" x2="642" y2="220" stroke="#5a3a20" stroke-width="0.4"/>
+    <circle cx="628" cy="226" r="1.5" fill="#7848b8" opacity="0.5"/>
+  </g>
+
+  <g>
+    <ellipse cx="170" cy="218" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="170" cy="216" rx="2" ry="2" fill="#5a3622"/>
+    <rect x="166" y="220" width="8" height="14" fill="url(#copperFC4)"/>
+    <rect x="168" y="222" width="4" height="10" fill="#5a2e10"/>
+    <line x1="170" y1="234" x2="170" y2="240" stroke="#3a1f0a" stroke-width="1.4"/>
+    <circle cx="166" cy="230" r="0.8" fill="#d88838" filter="url(#softC4)" opacity="0.85"/>
+    <circle cx="174" cy="230" r="0.8" fill="#d88838" filter="url(#softC4)" opacity="0.85"/>
+  </g>
+  <g opacity="0.7">
+    <line x1="170" y1="220" x2="160" y2="208" stroke="#a85820" stroke-width="0.5" stroke-dasharray="2 2"/>
+  </g>
+
+  <g>
+    <ellipse cx="370" cy="218" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="370" cy="216" rx="2" ry="2" fill="#7a4830"/>
+    <path d="M 364 214 Q 372 212 376 214" stroke="#9098a0" stroke-width="1.4" fill="none"/>
+    <rect x="366" y="220" width="8" height="14" fill="url(#silverFC4)"/>
+    <rect x="368" y="222" width="4" height="10" fill="#1a1c20"/>
+    <line x1="370" y1="234" x2="370" y2="240" stroke="#1a1a1a" stroke-width="1.4"/>
+  </g>
+
+  <g>
+    <ellipse cx="240" cy="190" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="240" cy="188" rx="2" ry="2" fill="#7a4830"/>
+    <g opacity="0.85" filter="url(#strongGlowC4)">
+      <ellipse cx="237" cy="184" rx="3" ry="2" fill="#d8b020"/>
+      <ellipse cx="243" cy="184" rx="3" ry="2" fill="#d8b020"/>
+      <ellipse cx="240" cy="182" rx="4" ry="1.8" fill="#e8c030"/>
+    </g>
+    <rect x="236" y="192" width="8" height="14" fill="url(#emeraldFC4)"/>
+    <line x1="240" y1="206" x2="240" y2="216" stroke="#1f4a30" stroke-width="1.4"/>
+    <line x1="240" y1="216" x2="244" y2="240" stroke="#1f4a30" stroke-width="1.4"/>
+  </g>
+  <g opacity="0.7">
+    <line x1="244" y1="190" x2="270" y2="170" stroke="#3aa868" stroke-width="0.5" stroke-dasharray="2 2"/>
+    <line x1="270" y1="170" x2="290" y2="166" stroke="#3aa868" stroke-width="0.5" stroke-dasharray="2 2"/>
+  </g>
+
+  <g>
+    <ellipse cx="640" cy="218" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="640" cy="216" rx="2" ry="2" fill="#7a4830"/>
+    <g>
+      <rect x="636" y="212" width="3" height="2" rx="0.5" fill="#7848b8"/>
+      <rect x="641" y="212" width="3" height="2" rx="0.5" fill="#7848b8"/>
+    </g>
+    <path d="M 636 220 L 644 220 L 646 236 L 634 236 Z" fill="url(#violetFC4)"/>
+    <path d="M 636 222 L 644 222 L 644 234 L 636 234 Z" fill="#3a1a5a"/>
+    <rect x="646" y="226" width="6" height="4" fill="#0a0810" stroke="#040408" stroke-width="0.3"/>
+  </g>
+  <g opacity="0.7">
+    <line x1="644" y1="220" x2="624" y2="216" stroke="#a878d0" stroke-width="0.5" stroke-dasharray="2 2"/>
+  </g>
+
+  <g opacity="0.7">
+    <ellipse cx="540" cy="218" rx="3.6" ry="4" fill="#1a0606"/>
+    <ellipse cx="540" cy="216" rx="2" ry="2" fill="#3a1814"/>
+    <rect x="536" y="220" width="8" height="14" fill="url(#crimsonFC4)" opacity="0.85"/>
+    <rect x="538" y="222" width="4" height="10" fill="#3a0e08" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.6">
+    <ellipse cx="170" cy="240" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="240" cy="216" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="370" cy="240" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="540" cy="240" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="640" cy="240" rx="6" ry="2" fill="#080404"/>
+  </g>
+
+  <g opacity="0.6" filter="url(#strongGlowC4)">
+    <ellipse cx="710" cy="120" rx="22" ry="80" fill="#a0a8b8"/>
+  </g>
+  <g opacity="0.92">
+    <path d="M 696 60 L 720 60 L 720 200 L 696 200 Z" fill="#7088a0" opacity="0.6"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="120" cy="40" r="0.5" fill="#7a8898"/>
+    <circle cx="600" cy="50" r="0.5" fill="#7a8898"/>
+    <circle cx="280" cy="60" r="0.4" fill="#3a4858"/>
+    <circle cx="500" cy="40" r="0.4" fill="#3a4858"/>
+  </g>
+</svg>
