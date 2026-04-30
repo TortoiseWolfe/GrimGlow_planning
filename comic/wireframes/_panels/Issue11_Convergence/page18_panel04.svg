@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 11 Page 18 Panel 4 — Theodore approaching through pre-dawn street</title>
+  <desc>Medium shot through gap in brickwork. Pre-dawn street beyond — grey light, cobblestones, dark shapes of buildings. Through grey, Victorian boy approaches quickly, keeping to shadows with learned military awareness. Slight, sandy-brown hair, worn waistcoat, patched trousers, faint bulge in waistcoat pocket from hybrid comm device. Face set with resolve — boy who refused to walk away, arriving as promised. Grey pre-dawn light, first hints of amber dawn at eastern sky edge.</desc>
+  <defs>
+    <linearGradient id="bgC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a78a8"/>
+      <stop offset="0.5" stop-color="#3a4868"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <radialGradient id="dawnAmberC4" cx="0.95" cy="0.05" r="0.55">
+      <stop offset="0" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brickFrameC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a1208"/>
+      <stop offset="1" stop-color="#080604"/>
+    </linearGradient>
+    <linearGradient id="cobbleC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a5a68"/>
+      <stop offset="0.5" stop-color="#3a3a48"/>
+      <stop offset="1" stop-color="#1a1a28"/>
+    </linearGradient>
+    <linearGradient id="buildingC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3848"/>
+      <stop offset="0.5" stop-color="#1a1828"/>
+      <stop offset="1" stop-color="#0a0a14"/>
+    </linearGradient>
+    <linearGradient id="waistcoatC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3018"/>
+      <stop offset="0.5" stop-color="#3a1810"/>
+      <stop offset="1" stop-color="#1a0a08"/>
+    </linearGradient>
+    <linearGradient id="trousersC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="hairTheoC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85020"/>
+      <stop offset="0.5" stop-color="#7a3818"/>
+      <stop offset="1" stop-color="#3a1a08"/>
+    </linearGradient>
+    <linearGradient id="skinTheoC4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8b8a0"/>
+      <stop offset="0.5" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <filter id="bloomC4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowC4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#bgC4)"/>
+  <rect width="366" height="280" fill="url(#dawnAmberC4)"/>
+
+  <g>
+    <rect x="0" y="0" width="40" height="280" fill="url(#brickFrameC4)"/>
+    <rect x="326" y="0" width="40" height="280" fill="url(#brickFrameC4)"/>
+    <rect x="0" y="0" width="366" height="40" fill="url(#brickFrameC4)"/>
+    <rect x="0" y="240" width="366" height="40" fill="url(#brickFrameC4)"/>
+    <g opacity="0.55" stroke="#080604" stroke-width="0.55">
+      <line x1="0" y1="14" x2="40" y2="14"/>
+      <line x1="0" y1="28" x2="40" y2="28"/>
+      <line x1="20" y1="0" x2="20" y2="40"/>
+      <line x1="326" y1="14" x2="366" y2="14"/>
+      <line x1="326" y1="28" x2="366" y2="28"/>
+      <line x1="346" y1="0" x2="346" y2="40"/>
+      <line x1="40" y1="14" x2="326" y2="14"/>
+      <line x1="40" y1="28" x2="326" y2="28"/>
+    </g>
+    <g opacity="0.55" stroke="#080604" stroke-width="0.55">
+      <line x1="40" y1="252" x2="326" y2="252"/>
+      <line x1="40" y1="266" x2="326" y2="266"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="40" y="180" width="286" height="60" fill="url(#cobbleC4)"/>
+    <g opacity="0.62" stroke="#1a1a28" stroke-width="0.55">
+      <path d="M 60 190 Q 70 192 80 190 Q 90 188 100 190"/>
+      <path d="M 100 200 Q 110 202 120 200 Q 130 198 140 200"/>
+      <path d="M 60 210 Q 70 212 80 210 Q 90 208 100 210"/>
+      <path d="M 100 220 Q 110 222 120 220 Q 130 218 140 220"/>
+      <path d="M 200 195 Q 220 197 240 195"/>
+      <path d="M 240 215 Q 260 217 280 215"/>
+      <path d="M 200 225 Q 220 227 240 225"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="40" y="60" width="120" height="120" fill="url(#buildingC4)"/>
+    <rect x="220" y="40" width="106" height="140" fill="url(#buildingC4)"/>
+    <line x1="40" y1="60" x2="160" y2="60" stroke="#080604" stroke-width="0.85"/>
+    <line x1="220" y1="40" x2="326" y2="40" stroke="#080604" stroke-width="0.85"/>
+    <g opacity="0.55">
+      <rect x="60" y="80" width="14" height="22" fill="#5a4830" opacity="0.42"/>
+      <rect x="80" y="80" width="14" height="22" fill="#5a4830" opacity="0.42"/>
+      <rect x="100" y="80" width="14" height="22" fill="#5a4830" opacity="0.42"/>
+      <rect x="240" y="60" width="11" height="18" fill="#5a4830" opacity="0.42"/>
+      <rect x="260" y="60" width="11" height="18" fill="#5a4830" opacity="0.42"/>
+      <rect x="280" y="60" width="11" height="18" fill="#5a4830" opacity="0.42"/>
+    </g>
+  </g>
+
+  <g opacity="0.62" filter="url(#bloomC4)">
+    <ellipse cx="320" cy="60" rx="80" ry="22" fill="#f4b860" opacity="0.32"/>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="220" rx="34" ry="9" fill="#040202" opacity="0.62"/>
+
+    <path d="M 156 130 L 210 130 L 214 200 L 152 200 Z" fill="url(#waistcoatC4)"/>
+    <path d="M 158 132 L 158 200 M 208 132 L 208 200" stroke="#1a0a08" stroke-width="0.85" opacity="0.62"/>
+    <line x1="183" y1="132" x2="183" y2="200" stroke="#1a0a08" stroke-width="0.7" opacity="0.55"/>
+    <circle cx="183" cy="148" r="1.4" fill="#3a2410"/>
+    <circle cx="183" cy="166" r="1.4" fill="#3a2410"/>
+    <circle cx="183" cy="184" r="1.4" fill="#3a2410"/>
+
+    <ellipse cx="194" cy="174" rx="9" ry="6" fill="#3a1810" opacity="0.85"/>
+    <circle cx="196" cy="172" r="2.4" fill="#5a78a8" opacity="0.62"/>
+
+    <path d="M 152 200 Q 144 210 138 220" stroke="url(#trousersC4)" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M 214 200 Q 222 210 228 220" stroke="url(#trousersC4)" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <ellipse cx="136" cy="224" rx="6" ry="2" fill="#0a0404"/>
+    <ellipse cx="230" cy="224" rx="6" ry="2" fill="#0a0404"/>
+
+    <ellipse cx="183" cy="100" rx="22" ry="26" fill="url(#skinTheoC4)"/>
+    <path d="M 162 84 Q 183 64 206 84 Q 210 96 208 102 L 158 102 Q 156 96 162 84 Z" fill="url(#hairTheoC4)"/>
+    <path d="M 168 86 Q 178 78 190 80" stroke="#7a3818" stroke-width="1.4" fill="none" opacity="0.7"/>
+    <path d="M 196 80 Q 204 78 210 86" stroke="#7a3818" stroke-width="1.4" fill="none" opacity="0.7"/>
+
+    <ellipse cx="174" cy="106" rx="2.4" ry="3" fill="#0a0604"/>
+    <circle cx="174.6" cy="105.4" r="0.62" fill="#a87838"/>
+    <ellipse cx="192" cy="106" rx="2.4" ry="3" fill="#0a0604"/>
+    <circle cx="192.6" cy="105.4" r="0.62" fill="#a87838"/>
+    <path d="M 168 102 Q 174 100 180 102" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M 186 102 Q 192 100 198 102" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M 178 118 L 188 118" stroke="#1a0a08" stroke-width="0.85" fill="none"/>
+
+    <ellipse cx="180" cy="113" rx="3" ry="1" fill="#a85820" opacity="0.42"/>
+    <ellipse cx="186" cy="113" rx="3" ry="1" fill="#a85820" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#strongGlowC4)">
+    <circle cx="196" cy="172" r="5" fill="#5a78a8" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="183" cy="232" rx="60" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+</svg>

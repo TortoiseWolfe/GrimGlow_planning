@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 220" width="742" height="220">
+  <title>Issue 11 Page 18 Panel 2 — Five suit details, the degradation arc crystallized</title>
+  <desc>Close-up montage strip — five tight detail crops arranged horizontally. Left to right: Sable's tin-patched shoulder with silver light bleeding through repair seam. Wren's brass-wire-patched forearm with copper-gold holographic nodes pulsing beneath oil stains. Jink's copper-wire-stitched tear with emerald light glowing through suture. Thresh's gouged crimson vambrace with crimson edge-lighting flickering along damage line. Luma's copper-foil lens repair with blue-violet data still scrolling. Five examples of the same truth: future technology held together with Victorian materials, light enduring through damage.</desc>
+  <defs>
+    <linearGradient id="bgC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1828"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <linearGradient id="silverDetailC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8b8c8"/>
+      <stop offset="0.5" stop-color="#5a6878"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="copperDetailC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d88838"/>
+      <stop offset="0.5" stop-color="#a85820"/>
+      <stop offset="1" stop-color="#3a1810"/>
+    </linearGradient>
+    <linearGradient id="emeraldDetailC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#1a4830"/>
+      <stop offset="1" stop-color="#0a2018"/>
+    </linearGradient>
+    <linearGradient id="crimsonDetailC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a83838"/>
+      <stop offset="0.5" stop-color="#7a2530"/>
+      <stop offset="1" stop-color="#1a0810"/>
+    </linearGradient>
+    <linearGradient id="sapphireDetailC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7848b8"/>
+      <stop offset="0.5" stop-color="#3a2868"/>
+      <stop offset="1" stop-color="#1a1028"/>
+    </linearGradient>
+    <linearGradient id="tinPatchC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a5a5a"/>
+      <stop offset="0.5" stop-color="#3a3a3a"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="copperWireC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d88838"/>
+      <stop offset="0.5" stop-color="#a85820"/>
+      <stop offset="1" stop-color="#5a3018"/>
+    </linearGradient>
+    <linearGradient id="copperFoilC2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d88838"/>
+      <stop offset="0.5" stop-color="#a85820"/>
+      <stop offset="1" stop-color="#5a3018"/>
+    </linearGradient>
+    <filter id="bloomC2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowC2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <filter id="megaGlowC2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="220" fill="url(#bgC2)"/>
+
+  <line x1="148" y1="20" x2="148" y2="200" stroke="#1a1810" stroke-width="0.7" opacity="0.55"/>
+  <line x1="296" y1="20" x2="296" y2="200" stroke="#1a1810" stroke-width="0.7" opacity="0.55"/>
+  <line x1="444" y1="20" x2="444" y2="200" stroke="#1a1810" stroke-width="0.7" opacity="0.55"/>
+  <line x1="592" y1="20" x2="592" y2="200" stroke="#1a1810" stroke-width="0.7" opacity="0.55"/>
+
+  <g>
+    <rect x="20" y="40" width="120" height="140" rx="6" fill="url(#silverDetailC2)"/>
+    <path d="M 50 90 L 110 88 L 108 130 L 48 132 Z" fill="url(#tinPatchC2)" opacity="0.92"/>
+    <g opacity="0.85" stroke="#1a1a1a" stroke-width="0.62" fill="none">
+      <line x1="50" y1="90" x2="56" y2="98"/>
+      <line x1="62" y1="88" x2="68" y2="96"/>
+      <line x1="74" y1="88" x2="80" y2="96"/>
+      <line x1="86" y1="89" x2="92" y2="97"/>
+      <line x1="98" y1="89" x2="104" y2="97"/>
+      <line x1="50" y1="124" x2="56" y2="132"/>
+      <line x1="62" y1="124" x2="68" y2="132"/>
+      <line x1="74" y1="124" x2="80" y2="132"/>
+      <line x1="86" y1="124" x2="92" y2="132"/>
+      <line x1="98" y1="125" x2="104" y2="133"/>
+    </g>
+    <line x1="50" y1="110" x2="108" y2="110" stroke="#fff8d8" stroke-width="0.85" opacity="0.85"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowC2)">
+    <line x1="48" y1="110" x2="110" y2="110" stroke="#a8c0e0" stroke-width="3" opacity="0.62"/>
+  </g>
+  <g opacity="0.55" filter="url(#megaGlowC2)">
+    <line x1="48" y1="110" x2="110" y2="110" stroke="#a8c0e0" stroke-width="14" opacity="0.42"/>
+  </g>
+
+  <g>
+    <rect x="166" y="40" width="124" height="140" rx="6" fill="url(#copperDetailC2)"/>
+    <ellipse cx="220" cy="100" rx="22" ry="14" fill="#1a0a08" opacity="0.55"/>
+    <ellipse cx="244" cy="140" rx="22" ry="11" fill="#1a0a08" opacity="0.55"/>
+    <ellipse cx="200" cy="60" rx="14" ry="6" fill="#1a0a08" opacity="0.42"/>
+    <g opacity="0.85" stroke="url(#copperWireC2)" stroke-width="0.85" fill="none">
+      <path d="M 174 80 Q 200 78 230 84"/>
+      <path d="M 174 110 Q 220 108 280 114"/>
+      <path d="M 174 140 Q 220 138 280 144"/>
+    </g>
+    <circle cx="200" cy="110" r="3" fill="#fff8d8"/>
+    <circle cx="240" cy="100" r="2.4" fill="#fff8d8"/>
+    <circle cx="260" cy="140" r="2.4" fill="#fff8d8"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowC2)">
+    <circle cx="200" cy="110" r="6" fill="#d88838" opacity="0.62"/>
+    <circle cx="240" cy="100" r="5" fill="#d88838" opacity="0.62"/>
+    <circle cx="260" cy="140" r="5" fill="#d88838" opacity="0.62"/>
+  </g>
+
+  <g>
+    <rect x="312" y="40" width="124" height="140" rx="6" fill="url(#emeraldDetailC2)"/>
+    <path d="M 340 70 L 412 130" stroke="#0a2018" stroke-width="6" opacity="0.85"/>
+    <g opacity="0.85" stroke="url(#copperWireC2)" stroke-width="1" fill="none">
+      <path d="M 340 70 L 348 76"/>
+      <path d="M 350 80 L 358 86"/>
+      <path d="M 360 90 L 368 96"/>
+      <path d="M 370 100 L 378 106"/>
+      <path d="M 380 110 L 388 116"/>
+      <path d="M 390 120 L 398 126"/>
+      <path d="M 400 130 L 408 136"/>
+    </g>
+    <line x1="340" y1="74" x2="412" y2="134" stroke="#fff088" stroke-width="0.85" opacity="0.85"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowC2)">
+    <line x1="340" y1="70" x2="412" y2="130" stroke="#3a8858" stroke-width="6" opacity="0.62"/>
+  </g>
+  <g opacity="0.55" filter="url(#megaGlowC2)">
+    <line x1="340" y1="70" x2="412" y2="130" stroke="#3a8858" stroke-width="20" opacity="0.42"/>
+  </g>
+
+  <g>
+    <rect x="460" y="40" width="124" height="140" rx="6" fill="url(#crimsonDetailC2)"/>
+    <path d="M 480 90 L 564 100 L 562 114 L 478 104 Z" fill="#1a0810" opacity="0.85"/>
+    <line x1="480" y1="92" x2="564" y2="102" stroke="#d83838" stroke-width="2" opacity="0.95"/>
+    <line x1="480" y1="98" x2="564" y2="108" stroke="#d83838" stroke-width="1.4" opacity="0.85"/>
+    <line x1="480" y1="104" x2="564" y2="114" stroke="#d83838" stroke-width="1" opacity="0.62"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowC2)">
+    <path d="M 480 95 L 564 105" stroke="#d83838" stroke-width="6" opacity="0.62"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowC2)">
+    <path d="M 480 100 L 564 110" stroke="#8a2520" stroke-width="22" opacity="0.42"/>
+  </g>
+
+  <g>
+    <rect x="608" y="40" width="124" height="140" rx="6" fill="url(#sapphireDetailC2)"/>
+    <ellipse cx="670" cy="110" rx="44" ry="32" fill="#1a1028"/>
+    <ellipse cx="670" cy="110" rx="38" ry="26" fill="url(#sapphireDetailC2)" opacity="0.85"/>
+    <rect x="624" y="100" width="92" height="9" fill="url(#copperFoilC2)" opacity="0.92"/>
+    <line x1="624" y1="100" x2="716" y2="100" stroke="#5a3018" stroke-width="0.7"/>
+    <line x1="624" y1="109" x2="716" y2="109" stroke="#5a3018" stroke-width="0.7"/>
+    <g opacity="0.62">
+      <line x1="640" y1="100" x2="642" y2="109" stroke="#5a3018" stroke-width="0.55"/>
+      <line x1="660" y1="100" x2="662" y2="109" stroke="#5a3018" stroke-width="0.55"/>
+      <line x1="680" y1="100" x2="682" y2="109" stroke="#5a3018" stroke-width="0.55"/>
+      <line x1="700" y1="100" x2="702" y2="109" stroke="#5a3018" stroke-width="0.55"/>
+    </g>
+    <g opacity="0.85" font-family="monospace" font-size="3.4" fill="#a878d8">
+      <text x="630" y="80">∇⊥◊⊥</text>
+      <text x="690" y="80">⊥∢⊕</text>
+      <text x="630" y="130">142Hz</text>
+      <text x="690" y="130">SCAN</text>
+    </g>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowC2)">
+    <ellipse cx="670" cy="110" rx="44" ry="32" fill="#a878d8" opacity="0.42"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowC2)">
+    <ellipse cx="670" cy="110" rx="60" ry="44" fill="#7848b8" opacity="0.42"/>
+  </g>
+</svg>
