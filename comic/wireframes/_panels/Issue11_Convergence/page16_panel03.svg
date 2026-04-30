@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 260" width="742" height="260">
+  <title>Issue 11 Page 16 Panel 3 — Sable closing the data module for the last time</title>
+  <desc>Medium shot. Sable on main beam near wall gap, data module in hand. Dark brown skin, sharp angular features, very short military-cropped silver-white hair, almost buzz-cut. Thumb moves across device's surface in deliberate shutting-down gesture. Holographic display collapses — blue-white geometric fairy script dimming, folding inward, vanishing. Light transitions: cool blue-white fading, warm amber gaslight from wall gap remaining. Quiet acceptance — relief of putting down a broken compass because the stars are finally visible. Soot-darkened silver suit catches transitioning light.</desc>
+  <defs>
+    <linearGradient id="bgA3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1828"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <radialGradient id="gaslightA3" cx="0.85" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#f4b860" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#a85820" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="holoFadingA3" cx="0.32" cy="0.55" r="0.22">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#5a78a8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beamA3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3a22"/>
+      <stop offset="0.5" stop-color="#3a2410"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <linearGradient id="suitSableA3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8898"/>
+      <stop offset="0.5" stop-color="#4a5868"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="hairSilverA3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8d8d8"/>
+      <stop offset="0.5" stop-color="#a8a8a8"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+    <linearGradient id="skinSableA3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3818"/>
+      <stop offset="0.5" stop-color="#3a2410"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="moduleA3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4868"/>
+      <stop offset="0.5" stop-color="#1a2030"/>
+      <stop offset="1" stop-color="#080a14"/>
+    </linearGradient>
+    <linearGradient id="wallGapA3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a2410"/>
+      <stop offset="0.5" stop-color="#f4b860"/>
+      <stop offset="1" stop-color="#3a2410"/>
+    </linearGradient>
+    <filter id="bloomA3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowA3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowA3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="dimGlowA3" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="1.4"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="260" fill="url(#bgA3)"/>
+  <rect width="742" height="260" fill="url(#gaslightA3)"/>
+  <rect width="742" height="260" fill="url(#holoFadingA3)"/>
+
+  <g>
+    <rect x="540" y="60" width="160" height="180" fill="url(#wallGapA3)" opacity="0.62"/>
+    <rect x="540" y="60" width="3" height="180" fill="#1a0a04"/>
+    <rect x="697" y="60" width="3" height="180" fill="#1a0a04"/>
+    <g opacity="0.55" stroke="#1a0a04" stroke-width="0.55">
+      <line x1="540" y1="100" x2="700" y2="98"/>
+      <line x1="540" y1="140" x2="700" y2="142"/>
+      <line x1="540" y1="180" x2="700" y2="178"/>
+    </g>
+    <g opacity="0.45">
+      <circle cx="580" cy="120" r="2" fill="#fff8d8"/>
+      <circle cx="640" cy="160" r="2.4" fill="#fff8d8"/>
+      <circle cx="660" cy="100" r="1.8" fill="#fff8d8"/>
+    </g>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowA3)">
+    <rect x="540" y="60" width="160" height="180" fill="#f4b860" opacity="0.42"/>
+  </g>
+
+  <g>
+    <rect x="0" y="200" width="742" height="60" fill="url(#beamA3)"/>
+    <line x1="0" y1="206" x2="742" y2="206" stroke="#1a0a04" stroke-width="0.85"/>
+    <g opacity="0.55" stroke="#1a0a04" stroke-width="0.4">
+      <line x1="80" y1="206" x2="80" y2="260"/>
+      <line x1="200" y1="206" x2="200" y2="260"/>
+      <line x1="380" y1="206" x2="380" y2="260"/>
+      <line x1="520" y1="206" x2="520" y2="260"/>
+      <line x1="660" y1="206" x2="660" y2="260"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="320" cy="240" rx="80" ry="14" fill="#040202" opacity="0.62"/>
+
+    <ellipse cx="320" cy="170" rx="44" ry="56" fill="url(#suitSableA3)"/>
+    <path d="M 280 130 L 360 130 L 364 200 L 276 200 Z" fill="url(#suitSableA3)"/>
+    <ellipse cx="280" cy="186" rx="11" ry="14" fill="url(#suitSableA3)"/>
+    <ellipse cx="360" cy="186" rx="11" ry="14" fill="url(#suitSableA3)"/>
+
+    <path d="M 285 138 L 290 142 L 285 146 Z M 350 148 L 358 150 L 354 156 Z M 305 165 L 312 168 L 308 172 Z" fill="#1a1810" opacity="0.85"/>
+    <path d="M 295 170 Q 320 174 345 170" stroke="#1a1810" stroke-width="0.85" fill="none" opacity="0.62"/>
+
+    <ellipse cx="320" cy="100" rx="22" ry="26" fill="url(#skinSableA3)"/>
+    <path d="M 296 88 Q 320 70 344 88 Q 348 96 346 100 L 296 100 Q 294 96 296 88 Z" fill="url(#hairSilverA3)"/>
+    <g opacity="0.55" stroke="#7a7a7a" stroke-width="0.4">
+      <line x1="302" y1="86" x2="302" y2="92"/>
+      <line x1="312" y1="82" x2="312" y2="92"/>
+      <line x1="322" y1="80" x2="322" y2="92"/>
+      <line x1="332" y1="82" x2="332" y2="92"/>
+      <line x1="342" y1="86" x2="342" y2="92"/>
+    </g>
+
+    <circle cx="312" cy="102" r="1.4" fill="#0a0604"/>
+    <circle cx="328" cy="102" r="1.4" fill="#0a0604"/>
+    <path d="M 308 98 Q 312 96 316 98" stroke="#0a0604" stroke-width="0.7" fill="none"/>
+    <path d="M 324 98 Q 328 96 332 98" stroke="#0a0604" stroke-width="0.7" fill="none"/>
+    <path d="M 314 114 Q 320 116 326 114" stroke="#1a0a08" stroke-width="0.85" fill="none"/>
+
+    <path d="M 280 200 Q 270 210 260 218" stroke="url(#suitSableA3)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M 360 200 Q 350 210 340 218" stroke="url(#suitSableA3)" stroke-width="14" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="252" cy="222" rx="9" ry="6" fill="#5a3818"/>
+    <ellipse cx="332" cy="222" rx="9" ry="6" fill="#5a3818"/>
+  </g>
+
+  <g>
+    <rect x="320" y="218" width="34" height="14" rx="2" fill="url(#moduleA3)"/>
+    <rect x="320" y="218" width="34" height="3" fill="#5a78a8" opacity="0.42"/>
+    <rect x="322" y="222" width="30" height="9" fill="#080a14" opacity="0.85"/>
+
+    <path d="M 322 224 L 326 226 L 322 228" stroke="#5a78a8" stroke-width="0.55" fill="none" opacity="0.32"/>
+    <path d="M 330 224 L 334 226 L 330 228" stroke="#5a78a8" stroke-width="0.55" fill="none" opacity="0.32"/>
+    <path d="M 338 224 L 342 226 L 338 228" stroke="#5a78a8" stroke-width="0.55" fill="none" opacity="0.32"/>
+  </g>
+  <g opacity="0.42" filter="url(#dimGlowA3)">
+    <ellipse cx="337" cy="224" rx="22" ry="6" fill="#a8c0e0" opacity="0.42"/>
+  </g>
+  <g opacity="0.32" filter="url(#strongGlowA3)">
+    <ellipse cx="337" cy="224" rx="40" ry="14" fill="#5a78a8" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomA3)">
+    <ellipse cx="320" cy="100" rx="50" ry="11" fill="#a8c0e0" opacity="0.22"/>
+    <ellipse cx="320" cy="170" rx="44" ry="22" fill="#f4b860" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#bloomA3)">
+    <ellipse cx="620" cy="170" rx="60" ry="40" fill="#f4b860" opacity="0.42"/>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 260" width="742" height="260">
+  <title>Issue 11 Page 16 Panel 4 — The data module dark, "The last time."</title>
+  <desc>Close-up data module in Sable's palm — dark, no holographic display, no scrolling script, no light. Small battered device that has been a constant source of cold blue-white illumination since Issue 1 is dark for the first time. Soot-darkened silver suit cuff visible at wrist. Warm amber gaslight from wall gap is the only illumination, casting device and hand in gold. The darkness of the device is the statement — the file closed, the question released, the mission accepted on its own terms.</desc>
+  <defs>
+    <linearGradient id="bgA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1024"/>
+      <stop offset="0.5" stop-color="#0a060e"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <radialGradient id="gaslightA4" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#f4b860" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="palmA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.5" stop-color="#7a3818"/>
+      <stop offset="1" stop-color="#3a1a08"/>
+    </linearGradient>
+    <linearGradient id="cuffA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8898"/>
+      <stop offset="0.5" stop-color="#3a4858"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="moduleDarkA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1828"/>
+      <stop offset="0.4" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <filter id="bloomA4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowA4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowA4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="260" fill="url(#bgA4)"/>
+  <rect width="742" height="260" fill="url(#gaslightA4)"/>
+
+  <g>
+    <path d="M 80 200 Q 100 100 180 80 Q 280 60 400 70 Q 520 80 600 110 Q 680 140 700 200 L 700 260 L 80 260 Z" fill="url(#palmA4)"/>
+
+    <path d="M 100 180 Q 200 140 320 130 Q 440 130 540 150" stroke="#5a3018" stroke-width="0.85" fill="none" opacity="0.55"/>
+    <path d="M 140 200 Q 260 180 380 174 Q 500 174 580 190" stroke="#5a3018" stroke-width="0.85" fill="none" opacity="0.55"/>
+
+    <ellipse cx="220" cy="160" rx="22" ry="11" fill="#3a1a08" opacity="0.42"/>
+    <ellipse cx="500" cy="180" rx="22" ry="11" fill="#3a1a08" opacity="0.42"/>
+
+    <path d="M 0 220 L 80 200 Q 90 198 100 200 L 110 220 L 110 260 L 0 260 Z" fill="url(#cuffA4)"/>
+    <line x1="20" y1="232" x2="100" y2="232" stroke="#1a2030" stroke-width="0.85" opacity="0.62"/>
+    <line x1="20" y1="246" x2="100" y2="246" stroke="#1a2030" stroke-width="0.55" opacity="0.55"/>
+
+    <ellipse cx="40" cy="226" rx="9" ry="3" fill="#0a0604" opacity="0.7"/>
+    <ellipse cx="80" cy="222" rx="6" ry="2" fill="#0a0604" opacity="0.62"/>
+    <ellipse cx="60" cy="240" rx="11" ry="2" fill="#0a0604" opacity="0.55"/>
+  </g>
+
+  <g>
+    <rect x="280" y="100" width="180" height="60" rx="4" fill="url(#moduleDarkA4)"/>
+    <rect x="280" y="100" width="180" height="6" fill="#3a4858" opacity="0.42"/>
+    <rect x="280" y="154" width="180" height="6" fill="#040206"/>
+
+    <rect x="290" y="114" width="160" height="38" fill="#040206"/>
+    <rect x="290" y="114" width="160" height="38" fill="#0a0a14" opacity="0.85"/>
+
+    <g opacity="0.32">
+      <rect x="296" y="120" width="40" height="0.85" fill="#1a2030"/>
+      <rect x="346" y="124" width="32" height="0.7" fill="#1a2030"/>
+      <rect x="296" y="132" width="48" height="0.85" fill="#1a2030"/>
+      <rect x="354" y="136" width="40" height="0.7" fill="#1a2030"/>
+      <rect x="296" y="144" width="36" height="0.85" fill="#1a2030"/>
+    </g>
+
+    <rect x="285" y="106" width="2.4" height="9" fill="#3a2818" opacity="0.85"/>
+    <rect x="448" y="106" width="2.4" height="9" fill="#3a2818" opacity="0.85"/>
+    <rect x="285" y="148" width="2.4" height="9" fill="#3a2818" opacity="0.85"/>
+    <rect x="448" y="148" width="2.4" height="9" fill="#3a2818" opacity="0.85"/>
+
+    <line x1="296" y1="156" x2="320" y2="156" stroke="#5a3818" stroke-width="0.85" opacity="0.62"/>
+    <line x1="332" y1="156" x2="380" y2="156" stroke="#5a3818" stroke-width="0.7" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#bloomA4)">
+    <rect x="280" y="100" width="180" height="60" fill="#a85820" opacity="0.22"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomA4)">
+    <ellipse cx="370" cy="180" rx="180" ry="22" fill="#f4b860" opacity="0.42"/>
+    <ellipse cx="370" cy="220" rx="240" ry="14" fill="#a85820" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#megaGlowA4)">
+    <ellipse cx="370" cy="190" rx="280" ry="40" fill="#a85820" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="370" cy="240" rx="240" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(280,12)">
+    <rect x="-6" y="0" width="180" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a2410" stroke-width="1.2"/>
+    <text x="84" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#5a4a30" font-weight="700">CAPTION</text>
+    <text x="84" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#3a2410" font-style="italic" font-weight="700">"The last time."</text>
+  </g>
+</svg>
