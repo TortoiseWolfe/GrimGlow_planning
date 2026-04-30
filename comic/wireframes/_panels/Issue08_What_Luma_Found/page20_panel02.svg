@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 20 — Panel 2: Luma holds the dead core against her chest — STAY replays in her lenses — the promise to the dead</title>
+  <desc>85mm close-up. Luma holds dead data core against chest — both arms wrapped around dark surface, sapphire-violet suit's holographic nodes pulsing faintly against dead technology. Looks down at core with expression of resolve forming over grief — jaw setting, eyes focusing, scientist who will not rest until she has answers. In holographic lenses, barely visible on close inspection, geometric characters of word STAY replay from recording — reflection of revelation, carried with her. Luminous braid filament pulses softly. Dead core and living suit in contact — past and present pressed together.</desc>
+
+  <defs>
+    <linearGradient id="i8p20p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i8p20p2suitField" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p20p2lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p20p2deadCore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1018"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i8p20p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i8p20p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p20p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p20p2strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p20p2megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+    <filter id="i8p20p2dataPulse"><feGaussianBlur stdDeviation="0.4"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i8p20p2bg)"/>
+
+  <!-- Violet halo from Luma's suit -->
+  <ellipse cx="183" cy="160" rx="280" ry="200" fill="url(#i8p20p2suitField)" filter="url(#i8p20p2megaglow)"/>
+
+  <!-- ===== LUMA close-up holding core ===== -->
+  <g transform="translate(183 150)">
+    <!-- Body -->
+    <path d="M-44,140 L-50,80 L-44,30 L-30,-9 L-14,-30 L-3,-44 L9,-44 L22,-30 L36,-9 L44,30 L50,80 L44,140 Z" fill="url(#i8p20p2lumaSuit)"/>
+
+    <!-- Heavy ink stains -->
+    <ellipse cx="-44" cy="50" rx="11" ry="6" fill="#1a0810" opacity="0.95"/>
+    <ellipse cx="44" cy="50" rx="11" ry="6" fill="#1a0810" opacity="0.95"/>
+
+    <!-- Suit accent vivid (LIVING) -->
+    <line x1="0" y1="-22" x2="0" y2="100" stroke="#c8a8e8" stroke-width="0.85" filter="url(#i8p20p2bloom)" opacity="0.95"/>
+    <circle cx="-22" cy="-3" r="2" fill="#c8a8e8" filter="url(#i8p20p2strongglow)" opacity="0.95"/>
+    <circle cx="22" cy="-3" r="2" fill="#c8a8e8" filter="url(#i8p20p2strongglow)" opacity="0.95"/>
+    <circle cx="0" cy="22" r="2" fill="#c8a8e8" filter="url(#i8p20p2strongglow)" opacity="0.95"/>
+    <circle cx="-30" cy="40" r="1.4" fill="#c8a8e8" filter="url(#i8p20p2bloom)" opacity="0.85"/>
+    <circle cx="30" cy="40" r="1.4" fill="#c8a8e8" filter="url(#i8p20p2bloom)" opacity="0.85"/>
+
+    <!-- ===== ARMS WRAPPED around core ===== -->
+    <path d="M-30,-9 L-50,11 L-50,40 L-30,30 L-22,7 Z" fill="url(#i8p20p2lumaSuit)"/>
+    <path d="M30,-9 L50,11 L50,40 L30,30 L22,7 Z" fill="url(#i8p20p2lumaSuit)"/>
+    <path d="M-50,40 L-30,55 L0,55 L-22,44 Z" fill="url(#i8p20p2lumaSuit)"/>
+    <path d="M50,40 L30,55 L0,55 L22,44 Z" fill="url(#i8p20p2lumaSuit)"/>
+    <!-- Hands clasped -->
+    <ellipse cx="-22" cy="50" rx="6" ry="4" fill="url(#i8p20p2skin)"/>
+    <ellipse cx="22" cy="50" rx="6" ry="4" fill="url(#i8p20p2skin)"/>
+
+    <!-- ===== DEAD DATA CORE held against chest ===== -->
+    <g transform="translate(0 22)">
+      <rect x="-44" y="-9" width="88" height="22" fill="url(#i8p20p2deadCore)" stroke="#040408" stroke-width="0.85" rx="3"/>
+      <line x1="-44" y1="3" x2="44" y2="3" stroke="#040408" stroke-width="0.55"/>
+      <!-- Hairline fractures with faint warmth -->
+      <path d="M-30,-3 L-22,7 L-15,-3" stroke="#040408" stroke-width="0.55" opacity="0.95"/>
+      <path d="M14,-7 L22,3 L30,-3" stroke="#040408" stroke-width="0.55" opacity="0.85"/>
+      <path d="M-30,-3 L-22,7 L-15,-3" stroke="#a86838" stroke-width="0.4" fill="none" opacity="0.55" filter="url(#i8p20p2bloom)"/>
+      <ellipse cx="-22" cy="-7" rx="9" ry="2" fill="#a89878" opacity="0.4"/>
+      <circle cx="-30" cy="3" r="2" fill="#040408"/>
+      <circle cx="30" cy="3" r="2" fill="#040408"/>
+    </g>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-66" rx="14" ry="16" fill="url(#i8p20p2skin)"/>
+
+    <!-- Braid (filament pulsing softly) -->
+    <path d="M11,-50 Q22,-15 30,30" stroke="#1a0808" stroke-width="3.5" fill="none"/>
+    <g stroke="#a878e8" stroke-width="0.55" fill="none" filter="url(#i8p20p2bloom)" opacity="0.95">
+      <path d="M11,-50 Q22,-15 30,30"/>
+    </g>
+    <ellipse cx="22" cy="-15" rx="3" ry="1" fill="#c8a8e8" filter="url(#i8p20p2strongglow)" opacity="0.85"/>
+
+    <!-- Hair -->
+    <path d="M-14,-80 Q0,-84 14,-80 L14,-66 Q0,-70 -14,-66 Z" fill="#1a0808"/>
+
+    <!-- ===== HOLOGRAPHIC LENSES — "STAY" replaying ===== -->
+    <ellipse cx="0" cy="-66" rx="22" ry="6" fill="#7848b8" filter="url(#i8p20p2strongglow)" opacity="0.55"/>
+    <ellipse cx="-7" cy="-66" rx="6" ry="4" fill="none" stroke="#a878e8" stroke-width="0.85" filter="url(#i8p20p2bloom)" opacity="0.95"/>
+    <ellipse cx="-7" cy="-66" rx="4" ry="3" fill="#3a1858" opacity="0.55"/>
+    <ellipse cx="7" cy="-66" rx="6" ry="4" fill="none" stroke="#a878e8" stroke-width="0.85" filter="url(#i8p20p2bloom)" opacity="0.95"/>
+    <ellipse cx="7" cy="-66" rx="4" ry="3" fill="#3a1858" opacity="0.55"/>
+
+    <!-- "STAY" replaying in lenses (very faint, ghosted) -->
+    <g fill="#c8a8e8" filter="url(#i8p20p2dataPulse)" opacity="0.7">
+      <text x="-12" y="-63" font-family="monospace" font-size="2.5" font-weight="700">STAY</text>
+      <text x="3" y="-63" font-family="monospace" font-size="2.5" font-weight="700">STAY</text>
+    </g>
+
+    <!-- Eyes — focused, RESOLVE forming -->
+    <ellipse cx="-7" cy="-66" rx="2" ry="1" fill="#fff8e8"/>
+    <circle cx="-7" cy="-66" r="0.7" fill="#3a1808"/>
+    <ellipse cx="7" cy="-66" rx="2" ry="1" fill="#fff8e8"/>
+    <circle cx="7" cy="-66" r="0.7" fill="#3a1808"/>
+
+    <!-- Brows — set, resolve forming -->
+    <line x1="-15" y1="-74" x2="-3" y2="-74" stroke="#3a1808" stroke-width="1.4"/>
+    <line x1="3" y1="-74" x2="15" y2="-74" stroke="#3a1808" stroke-width="1.4"/>
+
+    <!-- Nose -->
+    <path d="M-2,-58 L0,-50 L3,-50 L3,-58 Z" fill="#7a4818" opacity="0.55"/>
+
+    <!-- Mouth — flat, jaw SET -->
+    <line x1="-5" y1="-50" x2="5" y2="-50" stroke="#3a1808" stroke-width="0.85"/>
+  </g>
+
+  <!-- ===== DIALOGUE — LUMA quiet promise to the dead ===== -->
+  <g>
+    <rect x="14" y="14" width="280" height="36" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA  <tspan font-style="italic" font-size="8" font-weight="500">(quiet)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic" font-weight="700">I'll find out who you were.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>

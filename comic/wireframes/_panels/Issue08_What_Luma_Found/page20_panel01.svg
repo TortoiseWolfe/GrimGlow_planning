@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 20 — Panel 1: The handoff at the wall gap — Theodore's large careful hands releasing the core to Luma's tiny waiting arms</title>
+  <desc>50mm medium eye level at wall gap entry. Theodore crouches, large oil-stained hands carefully unwrapping data core from clean handkerchief. Beside his hand on timber frame, Luma stands — tiny figure in sapphire-violet suit, arms extended to receive dark cracked data core. Scale contrast is the frame — his large careful hands releasing, her tiny arms receiving, dead technology passing between worlds. Core dark, inert, absorbing light. Handkerchief white, catching warm gaslight from behind Theodore. Wall gap's timber frame surrounds them.</desc>
+
+  <defs>
+    <linearGradient id="i8p20p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p20p1timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="i8p20p1gaslightBack" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p20p1perimeter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c8d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a3848" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p20p1waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p20p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d0a0"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i8p20p1lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p20p1deadCore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1018"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i8p20p1handkerchief" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="100%" stop-color="#d8c8a8"/>
+    </linearGradient>
+    <filter id="i8p20p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p20p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p20p1strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p20p1megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i8p20p1bg)"/>
+
+  <!-- Warm gaslight from behind Theodore (left side) -->
+  <ellipse cx="0" cy="160" rx="200" ry="220" fill="url(#i8p20p1gaslightBack)" filter="url(#i8p20p1megaglow)"/>
+
+  <!-- ===== WALL GAP timber frame (surrounding the scene) ===== -->
+  <!-- Top frame -->
+  <rect x="0" y="0" width="366" height="22" fill="url(#i8p20p1timber)"/>
+  <!-- Left timber (vertical) -->
+  <rect x="0" y="0" width="22" height="300" fill="url(#i8p20p1timber)"/>
+  <!-- Right timber (vertical) -->
+  <rect x="344" y="0" width="22" height="300" fill="url(#i8p20p1timber)"/>
+  <!-- Bottom timber (the threshold where Luma stands) -->
+  <rect x="0" y="240" width="366" height="14" fill="url(#i8p20p1timber)"/>
+  <!-- Wood grain on timbers -->
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.55">
+    <line x1="6" y1="0" x2="6" y2="300"/>
+    <line x1="14" y1="0" x2="14" y2="300"/>
+    <line x1="350" y1="0" x2="350" y2="300"/>
+    <line x1="358" y1="0" x2="358" y2="300"/>
+    <line x1="22" y1="244" x2="344" y2="244"/>
+    <line x1="22" y1="250" x2="344" y2="250"/>
+  </g>
+
+  <!-- Faint perimeter markers at the gap edges -->
+  <ellipse cx="40" cy="240" rx="22" ry="11" fill="url(#i8p20p1perimeter)" filter="url(#i8p20p1glow)"/>
+  <ellipse cx="326" cy="240" rx="22" ry="11" fill="url(#i8p20p1perimeter)" filter="url(#i8p20p1glow)"/>
+
+  <!-- ===== THEODORE'S HANDS — large, central, unwrapping the core ===== -->
+  <!-- Left hand (gripping handkerchief edge, brass ring catches light) -->
+  <g transform="translate(120 180)">
+    <!-- Wrist visible -->
+    <path d="M-50,40 L-66,30 L-66,11 L-44,3 Z" fill="url(#i8p20p1waistcoat)"/>
+    <!-- Hand back -->
+    <ellipse cx="-22" cy="3" rx="22" ry="14" fill="url(#i8p20p1skin)"/>
+    <!-- Knuckles -->
+    <path d="M-30,-7 Q-22,3 -14,-7" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.7"/>
+    <!-- Fingers carefully holding handkerchief edge -->
+    <ellipse cx="-9" cy="-9" rx="6" ry="3" fill="url(#i8p20p1skin)"/>
+    <ellipse cx="0" cy="-7" rx="6" ry="3" fill="url(#i8p20p1skin)"/>
+    <ellipse cx="9" cy="-3" rx="6" ry="3" fill="url(#i8p20p1skin)"/>
+    <!-- Brass gear ring on left index finger -->
+    <circle cx="-9" cy="-9" r="3" fill="#a86838" stroke="#3a1808" stroke-width="0.55"/>
+    <ellipse cx="-9" cy="-10" rx="2" ry="0.85" fill="#ffd898" filter="url(#i8p20p1bloom)" opacity="0.85"/>
+    <!-- Oil stains on fingers -->
+    <ellipse cx="0" cy="-7" rx="2" ry="1.4" fill="#1a0606" opacity="0.55"/>
+    <ellipse cx="-22" cy="3" rx="9" ry="3" fill="#1a0606" opacity="0.4"/>
+  </g>
+
+  <!-- Right hand (releasing core into Luma's grasp) -->
+  <g transform="translate(244 180)">
+    <!-- Wrist -->
+    <path d="M50,40 L66,30 L66,11 L44,3 Z" fill="url(#i8p20p1waistcoat)"/>
+    <!-- Hand back -->
+    <ellipse cx="22" cy="3" rx="22" ry="14" fill="url(#i8p20p1skin)"/>
+    <!-- Fingers holding/releasing core -->
+    <ellipse cx="9" cy="-7" rx="6" ry="3" fill="url(#i8p20p1skin)"/>
+    <ellipse cx="0" cy="-9" rx="6" ry="3" fill="url(#i8p20p1skin)"/>
+    <ellipse cx="-9" cy="-7" rx="6" ry="3" fill="url(#i8p20p1skin)"/>
+    <!-- Oil stains -->
+    <ellipse cx="22" cy="3" rx="9" ry="3" fill="#1a0606" opacity="0.4"/>
+  </g>
+
+  <!-- ===== HANDKERCHIEF — partially unwrapped (white, catching gaslight) ===== -->
+  <g transform="translate(183 165)">
+    <!-- Cloth edge (folded back) -->
+    <path d="M-44,0 L-30,-22 L-15,-15 L0,-22 L15,-15 L30,-22 L44,0 L36,15 L-36,15 Z" fill="url(#i8p20p1handkerchief)" filter="url(#i8p20p1bloom)"/>
+    <!-- Cloth folds -->
+    <g stroke="#a89878" stroke-width="0.55" fill="none" opacity="0.7">
+      <line x1="-30" y1="-15" x2="30" y2="-15"/>
+      <line x1="-22" y1="-7" x2="22" y2="-7"/>
+    </g>
+  </g>
+
+  <!-- ===== DEAD DATA CORE — being passed (dark, inert, central focus) ===== -->
+  <g transform="translate(183 175)">
+    <rect x="-30" y="-9" width="60" height="22" fill="url(#i8p20p1deadCore)" stroke="#040408" stroke-width="0.55" rx="2"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#040408" stroke-width="0.4"/>
+    <!-- Hairline fractures -->
+    <path d="M-22,-3 L-15,5 L-9,-3" stroke="#040408" stroke-width="0.55" opacity="0.95"/>
+    <path d="M14,-7 L22,3 L26,-3" stroke="#040408" stroke-width="0.55" opacity="0.85"/>
+    <!-- Faint warmth at fractures -->
+    <path d="M-22,-3 L-15,5 L-9,-3" stroke="#a86838" stroke-width="0.4" fill="none" opacity="0.4" filter="url(#i8p20p1bloom)"/>
+    <!-- Surface dust -->
+    <ellipse cx="-9" cy="-3" rx="9" ry="2" fill="#a89878" opacity="0.4"/>
+  </g>
+
+  <!-- ===== LUMA on timber frame, arms extended UPWARD to receive ===== -->
+  <g transform="translate(183 235)">
+    <!-- Body, arms reaching up -->
+    <path d="M-7,18 L-9,3 L-11,-9 L-9,-22 L-3,-30 L3,-30 L9,-22 L11,-9 L9,3 L7,18 Z" fill="url(#i8p20p1lumaSuit)"/>
+    <!-- Suit accent vivid -->
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#c8a8e8" stroke-width="0.55" opacity="0.95" filter="url(#i8p20p1bloom)"/>
+    <circle cx="-7" cy="-15" r="0.85" fill="#c8a8e8" filter="url(#i8p20p1bloom)" opacity="0.95"/>
+    <circle cx="7" cy="-15" r="0.85" fill="#c8a8e8" filter="url(#i8p20p1bloom)" opacity="0.95"/>
+
+    <!-- Both arms extended UP -->
+    <path d="M-9,-15 L-22,-40 L-15,-44 L-3,-22 Z" fill="url(#i8p20p1lumaSuit)"/>
+    <path d="M9,-15 L22,-40 L15,-44 L3,-22 Z" fill="url(#i8p20p1lumaSuit)"/>
+    <!-- Hands extended -->
+    <ellipse cx="-22" cy="-44" rx="3" ry="2" fill="url(#i8p20p1skin)"/>
+    <ellipse cx="22" cy="-44" rx="3" ry="2" fill="url(#i8p20p1skin)"/>
+    <!-- Fingers spread to receive -->
+    <line x1="-26" y1="-44" x2="-26" y2="-50" stroke="#7a4818" stroke-width="0.55"/>
+    <line x1="-22" y1="-44" x2="-22" y2="-50" stroke="#7a4818" stroke-width="0.55"/>
+    <line x1="-18" y1="-44" x2="-18" y2="-50" stroke="#7a4818" stroke-width="0.55"/>
+    <line x1="18" y1="-44" x2="18" y2="-50" stroke="#7a4818" stroke-width="0.55"/>
+    <line x1="22" y1="-44" x2="22" y2="-50" stroke="#7a4818" stroke-width="0.55"/>
+    <line x1="26" y1="-44" x2="26" y2="-50" stroke="#7a4818" stroke-width="0.55"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-40" rx="6" ry="7" fill="url(#i8p20p1skin)"/>
+    <!-- Looking UP at the core -->
+    <line x1="-2" y1="-41" x2="0" y2="-43" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="2" y1="-43" x2="4" y2="-41" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Braid -->
+    <path d="M3,-32 Q9,-15 14,11" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M3,-32 Q9,-15 14,11" stroke="#a878e8" stroke-width="0.4" fill="none" filter="url(#i8p20p1bloom)" opacity="0.95"/>
+    <!-- Hair pulled back -->
+    <path d="M-5,-46 Q0,-50 5,-46 L5,-40 Q0,-44 -5,-40 Z" fill="#1a0808"/>
+    <!-- Brows reverent -->
+    <line x1="-3" y1="-47" x2="3" y2="-47" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== DIALOGUE ===== -->
+  <!-- THEODORE -->
+  <g>
+    <rect x="14" y="14" width="338" height="36" rx="2" fill="white" stroke="#7a4828" stroke-width="0.85" opacity="0.95"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7a4828" font-weight="700">THEODORE</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Careful now. It didn't shift during the walk.</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="14" y="60" width="338" height="36" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="22" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Thank you, Theodore. For everything tonight.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>

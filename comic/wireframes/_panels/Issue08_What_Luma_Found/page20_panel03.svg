@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 20 — Panel 3: Luma enters the quiet camp at dawn — sets the dead core down on a timber beam — alone with the evidence</title>
+  <desc>35mm medium wide eye level. Squad's wall-cavity camp in early morning. Grey dawn light seeps through wall gap, cold and flat. Holographic perimeter markers glow faint blue-white at entry. Luma enters quiet camp, data core braced against chest, moving to designated corner. Camp asleep — shapes under emergency blankets on timber beams, gear stowed, holographic display dark. Luma sets dark data core carefully on timber beam, positioning it with reverence. Alone with the evidence. Sapphire-violet suit dusty, ink-stained, worn. Grey dawn and faint holographic markers create cold quiet atmosphere.</desc>
+
+  <defs>
+    <linearGradient id="i8p20p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i8p20p3timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p20p3greyDawn" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a8a8b8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p20p3perimeter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c8d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a3848" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p20p3lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p20p3deadCore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1018"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i8p20p3blanket" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <filter id="i8p20p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p20p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p20p3megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="742" height="300" fill="url(#i8p20p3bg)"/>
+
+  <!-- Top floorboard -->
+  <rect x="0" y="0" width="742" height="20" fill="url(#i8p20p3timber)"/>
+  <line x1="0" y1="20" x2="742" y2="20" stroke="#1a0808" stroke-width="0.85"/>
+
+  <!-- ===== WALL GAP at right (grey dawn light seeping through) ===== -->
+  <rect x="660" y="60" width="40" height="220" fill="#2a2030"/>
+  <ellipse cx="700" cy="160" rx="220" ry="160" fill="url(#i8p20p3greyDawn)" filter="url(#i8p20p3megaglow)"/>
+  <path d="M660,60 L660,280 L668,275 L662,180 L670,170 L664,80 Z" fill="#1a1208" opacity="0.85"/>
+
+  <!-- Faint perimeter markers at gap -->
+  <g opacity="0.7" filter="url(#i8p20p3bloom)">
+    <line x1="660" y1="200" x2="660" y2="180" stroke="#a8c8d8" stroke-width="1.4"/>
+    <circle cx="660" cy="180" r="2" fill="#a8c8d8"/>
+  </g>
+  <ellipse cx="660" cy="200" rx="40" ry="22" fill="url(#i8p20p3perimeter)" filter="url(#i8p20p3glow)"/>
+
+  <!-- Timber beam structure -->
+  <rect x="160" y="0" width="14" height="300" fill="url(#i8p20p3timber)"/>
+  <rect x="380" y="0" width="14" height="300" fill="url(#i8p20p3timber)"/>
+  <rect x="540" y="0" width="14" height="300" fill="url(#i8p20p3timber)"/>
+  <rect x="0" y="200" width="742" height="14" fill="url(#i8p20p3timber)"/>
+  <rect x="0" y="270" width="742" height="30" fill="#0a0606"/>
+
+  <!-- Lower beams (where squad sleeps) -->
+  <rect x="60" y="240" width="80" height="10" fill="url(#i8p20p3timber)"/>
+  <rect x="220" y="245" width="120" height="10" fill="url(#i8p20p3timber)"/>
+  <rect x="420" y="240" width="100" height="10" fill="url(#i8p20p3timber)"/>
+
+  <!-- ===== SQUAD ASLEEP — shapes under emergency blankets on beams ===== -->
+  <!-- Sleeper 1 (left) -->
+  <g transform="translate(100 235)" opacity="0.85">
+    <ellipse cx="0" cy="0" rx="22" ry="9" fill="url(#i8p20p3blanket)"/>
+    <ellipse cx="-9" cy="-3" rx="6" ry="3" fill="url(#i8p20p3blanket)"/>
+    <!-- Hint of head -->
+    <ellipse cx="-15" cy="0" rx="3" ry="2" fill="#3a2818"/>
+  </g>
+  <!-- Sleeper 2 (mid) -->
+  <g transform="translate(280 240)" opacity="0.85">
+    <ellipse cx="0" cy="0" rx="22" ry="9" fill="url(#i8p20p3blanket)"/>
+    <ellipse cx="11" cy="-3" rx="6" ry="3" fill="url(#i8p20p3blanket)"/>
+    <ellipse cx="18" cy="0" rx="3" ry="2" fill="#3a2818"/>
+  </g>
+  <!-- Sleeper 3 (right of mid) -->
+  <g transform="translate(470 235)" opacity="0.85">
+    <ellipse cx="0" cy="0" rx="22" ry="9" fill="url(#i8p20p3blanket)"/>
+    <ellipse cx="-9" cy="-3" rx="6" ry="3" fill="url(#i8p20p3blanket)"/>
+    <ellipse cx="-15" cy="0" rx="3" ry="2" fill="#3a2818"/>
+  </g>
+
+  <!-- Stowed gear on nails -->
+  <g transform="translate(60 100)">
+    <rect x="-3" y="-22" width="6" height="40" fill="#5a4838"/>
+    <rect x="-7" y="11" width="14" height="11" fill="#3a2818"/>
+  </g>
+  <g transform="translate(740 120)">
+    <rect x="-7" y="-22" width="11" height="40" fill="#5a4838"/>
+  </g>
+
+  <!-- Holographic display DARK in corner -->
+  <g transform="translate(371 130)">
+    <ellipse cx="0" cy="0" rx="80" ry="22" fill="none" stroke="#3a1858" stroke-width="0.55" opacity="0.55"/>
+    <text x="-30" y="3" font-family="monospace" font-size="3" fill="#3a1858" opacity="0.55">DISPLAY-OFF</text>
+  </g>
+
+  <!-- Cobwebs upper-left -->
+  <g stroke="#5a5050" stroke-width="0.4" fill="none" opacity="0.4">
+    <line x1="0" y1="40" x2="60" y2="0"/>
+    <line x1="20" y1="40" x2="60" y2="20"/>
+    <line x1="0" y1="40" x2="60" y2="20"/>
+  </g>
+
+  <!-- ===== LUMA — moving toward designated corner with the core ===== -->
+  <g transform="translate(220 215)">
+    <!-- Body — walking, holding core -->
+    <path d="M-22,30 L-26,11 L-30,-15 L-22,-32 L-9,-44 L9,-44 L22,-32 L30,-15 L26,11 L22,30 Z" fill="url(#i8p20p3lumaSuit)"/>
+    <!-- Heavy ink stains, dust -->
+    <ellipse cx="-26" cy="0" rx="6" ry="3" fill="#1a0810" opacity="0.7"/>
+    <ellipse cx="-15" cy="-22" rx="9" ry="3" fill="#3a2010" opacity="0.55"/>
+    <ellipse cx="15" cy="-22" rx="9" ry="3" fill="#3a2010" opacity="0.55"/>
+    <!-- Suit accent (worn, dim) -->
+    <line x1="0" y1="-32" x2="0" y2="22" stroke="#c8a8e8" stroke-width="0.55" opacity="0.7" filter="url(#i8p20p3bloom)"/>
+    <circle cx="-9" cy="-22" r="0.85" fill="#c8a8e8" filter="url(#i8p20p3bloom)" opacity="0.7"/>
+    <circle cx="9" cy="-22" r="0.85" fill="#c8a8e8" filter="url(#i8p20p3bloom)" opacity="0.7"/>
+
+    <!-- Arms wrapped around core -->
+    <path d="M-22,-15 L-30,3 L-22,11 L-15,-3 Z" fill="url(#i8p20p3lumaSuit)"/>
+    <path d="M22,-15 L30,3 L22,11 L15,-3 Z" fill="url(#i8p20p3lumaSuit)"/>
+
+    <!-- Data core held against chest (small at this scale) -->
+    <rect x="-22" y="-7" width="44" height="14" fill="url(#i8p20p3deadCore)" stroke="#040408" stroke-width="0.4" rx="2"/>
+    <line x1="-22" y1="0" x2="22" y2="0" stroke="#040408" stroke-width="0.4"/>
+
+    <!-- Walking legs -->
+    <path d="M-9,30 L-14,40 L-9,40 L-3,30 Z" fill="url(#i8p20p3lumaSuit)"/>
+    <path d="M3,30 L9,40 L14,40 L9,30 Z" fill="url(#i8p20p3lumaSuit)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="6" ry="7" fill="#a87838"/>
+    <!-- Braid -->
+    <path d="M3,-44 Q9,-22 14,11" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M3,-44 Q9,-22 14,11" stroke="#a878e8" stroke-width="0.4" fill="none" filter="url(#i8p20p3bloom)" opacity="0.7"/>
+    <path d="M-7,-58 Q0,-62 7,-58 L7,-50 Q0,-54 -7,-50 Z" fill="#1a0808"/>
+    <!-- Lenses dim -->
+    <ellipse cx="-2" cy="-50" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p20p3bloom)" opacity="0.55"/>
+    <ellipse cx="2" cy="-50" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p20p3bloom)" opacity="0.55"/>
+    <!-- Eyes (focused on the spot) -->
+    <line x1="-3" y1="-50" x2="-1" y2="-50" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-50" x2="3" y2="-50" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- The DESIGNATED beam where she'll set the core (the spot) -->
+  <g transform="translate(420 200)">
+    <line x1="-22" y1="0" x2="22" y2="0" stroke="#5a4838" stroke-width="0.85" filter="url(#i8p20p3bloom)" opacity="0.55"/>
+  </g>
+
+  <!-- (No dialogue — quiet entry) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>
