@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 12 Page 13 Panel 3 — Wren stilled by Theodore's clockmaker language, "...yes. Exactly like that."</title>
+  <desc>Medium shot. Tiny figure in maximum-degradation copper suit on Victorian rooftop, surrounded by expanded copper-gold holographic display — schematics, data feeds, Titan device internals rendered in geometric light. Hands stilled mid-gesture — fingers no longer moving through schematics, arms dropped fractionally, display cycling on without her direction. East Asian features, dark hair in high messy bun. Face turned slightly toward where Theodore's voice is coming from, expression open and unguarded — not engineer's mask but rarer look of someone stopped in their tracks. The engineer who forgot, for one beat, that she was the one who knew more.</desc>
+  <defs>
+    <linearGradient id="bgW3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87878"/>
+      <stop offset="0.4" stop-color="#fff8d8"/>
+      <stop offset="0.7" stop-color="#5a4858"/>
+      <stop offset="1" stop-color="#3a2818"/>
+    </linearGradient>
+    <radialGradient id="copperFloodW3" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#d88838" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rooftopW3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4858"/>
+      <stop offset="0.5" stop-color="#3a2838"/>
+      <stop offset="1" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="suitWrenW3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4818"/>
+      <stop offset="0.4" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#1a0804"/>
+    </linearGradient>
+    <linearGradient id="hairWrenW3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a0a08"/>
+      <stop offset="1" stop-color="#0a0404"/>
+    </linearGradient>
+    <linearGradient id="skinWrenW3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#d8a878"/>
+      <stop offset="0.8" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="schematicW3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.5" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#7a4818"/>
+    </linearGradient>
+    <radialGradient id="eyeOpenW3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#d8a878" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomW3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowW3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowW3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgW3)"/>
+  <rect width="366" height="240" fill="url(#copperFloodW3)"/>
+
+  <g>
+    <rect x="0" y="180" width="366" height="60" fill="url(#rooftopW3)"/>
+    <line x1="0" y1="186" x2="366" y2="186" stroke="#080404" stroke-width="0.85"/>
+    <g opacity="0.55" stroke="#080404" stroke-width="0.4">
+      <line x1="0" y1="210" x2="366" y2="210"/>
+      <line x1="80" y1="186" x2="80" y2="240"/>
+      <line x1="200" y1="186" x2="200" y2="240"/>
+      <line x1="300" y1="186" x2="300" y2="240"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="123" cy="220" rx="22" ry="3" fill="#040202" opacity="0.62"/>
+
+    <ellipse cx="123" cy="160" rx="22" ry="32" fill="url(#suitWrenW3)"/>
+    <path d="M 101 130 L 145 130 L 148 200 L 98 200 Z" fill="url(#suitWrenW3)"/>
+
+    <path d="M 103 138 L 113 134 L 110 148 L 100 150 Z" fill="#1a0804" opacity="0.85"/>
+    <path d="M 135 152 L 145 150 L 143 160 L 133 162 Z" fill="#1a0804" opacity="0.85"/>
+    <path d="M 115 172 L 125 172 L 121 180 L 113 180 Z" fill="#1a0804" opacity="0.85"/>
+
+    <ellipse cx="123" cy="100" rx="14" ry="18" fill="url(#skinWrenW3)"/>
+    <path d="M 109 90 Q 123 74 137 90 Q 140 96 138 100 L 136 96 Q 130 86 124 88 Q 118 90 116 100 L 112 100 Q 108 96 109 90 Z" fill="url(#hairWrenW3)"/>
+    <path d="M 138 80 Q 146 76 150 84 Q 146 92 138 88 Z" fill="url(#hairWrenW3)"/>
+
+    <ellipse cx="118" cy="100" rx="2" ry="2.4" fill="#0a0604"/>
+    <circle cx="119" cy="99" r="0.7" fill="url(#eyeOpenW3)"/>
+    <ellipse cx="128" cy="100" rx="2" ry="2.4" fill="#0a0604"/>
+    <circle cx="129" cy="99" r="0.7" fill="url(#eyeOpenW3)"/>
+
+    <path d="M 114 96 Q 118 94 122 96" stroke="#0a0604" stroke-width="0.55" fill="none"/>
+    <path d="M 124 96 Q 128 94 132 96" stroke="#0a0604" stroke-width="0.55" fill="none"/>
+
+    <path d="M 119 114 L 127 114" stroke="#1a0a08" stroke-width="0.55" fill="none"/>
+    <path d="M 119 114 Q 123 113 127 114" stroke="#1a0a08" stroke-width="0.4" fill="none"/>
+
+    <ellipse cx="120" cy="106" rx="2" ry="0.7" fill="#a85820" opacity="0.55"/>
+    <ellipse cx="126" cy="106" rx="2" ry="0.7" fill="#a85820" opacity="0.55"/>
+
+    <path d="M 98 200 Q 90 212 84 220" stroke="url(#suitWrenW3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 148 200 Q 156 212 162 220" stroke="url(#suitWrenW3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+    <path d="M 145 150 L 165 144" stroke="url(#skinWrenW3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <ellipse cx="167" cy="142" rx="4" ry="3" fill="url(#skinWrenW3)"/>
+    <path d="M 101 144 L 86 152" stroke="url(#skinWrenW3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <ellipse cx="84" cy="154" rx="4" ry="3" fill="url(#skinWrenW3)"/>
+  </g>
+
+  <g>
+    <rect x="180" y="60" width="160" height="100" rx="3" fill="none" stroke="url(#schematicW3)" stroke-width="0.7" opacity="0.85"/>
+
+    <text x="186" y="72" font-family="monospace" font-size="3.4" fill="#d88838" font-weight="700">DEVICE INTERNALS — LIVE</text>
+    <line x1="186" y1="76" x2="334" y2="76" stroke="#d88838" stroke-width="0.4" opacity="0.62"/>
+
+    <g opacity="0.85" stroke="#d88838" stroke-width="0.4" fill="none">
+      <rect x="200" y="84" width="120" height="50"/>
+      <line x1="200" y1="100" x2="320" y2="100"/>
+      <line x1="200" y1="116" x2="320" y2="116"/>
+      <line x1="240" y1="84" x2="240" y2="134"/>
+      <line x1="280" y1="84" x2="280" y2="134"/>
+    </g>
+    <g>
+      <rect x="208" y="88" width="6" height="6" fill="#3a1810" opacity="0.85"/>
+      <rect x="248" y="88" width="6" height="6" fill="#3a1810" opacity="0.85"/>
+      <rect x="288" y="88" width="6" height="6" fill="#3a1810" opacity="0.85"/>
+      <rect x="208" y="120" width="6" height="6" fill="#a85020" opacity="0.95"/>
+      <rect x="248" y="120" width="6" height="6" fill="#a85020" opacity="0.95"/>
+      <rect x="288" y="120" width="6" height="6" fill="#a85020" opacity="0.95"/>
+      <circle cx="260" cy="108" r="3" fill="#a85020" opacity="0.95"/>
+    </g>
+
+    <text x="260" y="150" text-anchor="middle" font-family="monospace" font-size="3" fill="#d88838" font-weight="700">[5/7] LOAD-BEARING</text>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowW3)">
+    <rect x="180" y="60" width="160" height="100" fill="#d88838" opacity="0.32"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowW3)">
+    <rect x="180" y="60" width="160" height="100" fill="#a85820" opacity="0.32"/>
+  </g>
+
+  <g>
+    <text x="20" y="40" font-family="monospace" font-size="4" fill="#d88838" opacity="0.62" font-style="italic">▮ ▯ ▮</text>
+    <text x="60" y="60" font-family="monospace" font-size="3" fill="#d88838" opacity="0.55">∇⊥◊</text>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomW3)">
+    <ellipse cx="123" cy="100" rx="22" ry="14" fill="#fff8d8" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.62" stroke="#d88838" stroke-width="0.4" fill="none" stroke-dasharray="2,2">
+    <line x1="167" y1="142" x2="180" y2="120"/>
+    <line x1="84" y1="154" x2="60" y2="120"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="200" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#a85820" stroke-width="1.2"/>
+    <text x="96" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#3a2410" font-weight="700">THEODORE: "Like the main escapement wheel."</text>
+    <text x="96" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#a85820" font-style="italic" font-weight="700">WREN (a pause): "...yes. Exactly like that."</text>
+  </g>
+</svg>

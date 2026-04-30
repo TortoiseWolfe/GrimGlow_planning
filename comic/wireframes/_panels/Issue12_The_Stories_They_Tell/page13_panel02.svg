@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 12 Page 13 Panel 2 — Theodore's face in concentration, "Pressure... turn... there."</title>
+  <desc>Close-up Victorian boy's face in deep concentration. Sandy-brown hair falls across forehead, hazel eyes narrowed, lower lip caught between teeth. Feeling his way through something by touch — precise concentration of trained craftsman. Face lit from below by fading amber-black light and from side by copper-gold holographic geometric light. Morning light from behind creates rim of gold on hair. Freckles across nose. Oil stains at temple. Brass gear ring catches mixed light. The clockmaker's apprentice at work.</desc>
+  <defs>
+    <linearGradient id="bgW2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4858"/>
+      <stop offset="0.4" stop-color="#3a2838"/>
+      <stop offset="1" stop-color="#1a1018"/>
+    </linearGradient>
+    <radialGradient id="amberBelowW2" cx="0.5" cy="0.95" r="0.55">
+      <stop offset="0" stop-color="#a85020" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#3a1810" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="copperSideW2" cx="0.85" cy="0.5" r="0.4">
+      <stop offset="0" stop-color="#d88838" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="morningRimW2" cx="0.5" cy="0.05" r="0.42">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairTheoW2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff088"/>
+      <stop offset="0.4" stop-color="#a85020"/>
+      <stop offset="0.7" stop-color="#7a3818"/>
+      <stop offset="1" stop-color="#3a1a08"/>
+    </linearGradient>
+    <linearGradient id="faceTheoW2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4858"/>
+      <stop offset="0.4" stop-color="#a87858"/>
+      <stop offset="0.85" stop-color="#a85820"/>
+      <stop offset="1" stop-color="#7a3818"/>
+    </linearGradient>
+    <radialGradient id="eyeFocusW2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#a87838" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brassRingW2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#5a2e10"/>
+    </linearGradient>
+    <filter id="bloomW2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowW2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowW2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgW2)"/>
+  <rect width="366" height="240" fill="url(#amberBelowW2)"/>
+  <rect width="366" height="240" fill="url(#copperSideW2)"/>
+  <rect width="366" height="240" fill="url(#morningRimW2)"/>
+
+  <g>
+    <ellipse cx="183" cy="120" rx="120" ry="140" fill="url(#faceTheoW2)"/>
+
+    <path d="M 70 50 Q 110 14 183 14 Q 256 14 296 50 Q 304 80 296 92 L 280 84 Q 240 50 200 44 Q 170 50 150 64 L 130 50 Q 100 60 76 86 L 66 92 Q 62 80 70 50 Z" fill="url(#hairTheoW2)"/>
+    <path d="M 110 60 Q 130 48 150 56" stroke="#7a3818" stroke-width="1.4" fill="none" opacity="0.7"/>
+    <path d="M 200 50 Q 220 44 240 56" stroke="#7a3818" stroke-width="1.4" fill="none" opacity="0.7"/>
+    <path d="M 130 70 L 150 50 L 170 70" fill="url(#hairTheoW2)" opacity="0.85"/>
+
+    <ellipse cx="138" cy="120" rx="14" ry="14" fill="#0a0604"/>
+    <circle cx="138" cy="120" r="9" fill="#3a2010"/>
+    <ellipse cx="138" cy="124" rx="8" ry="6" fill="#080404"/>
+    <circle cx="142" cy="118" r="3" fill="url(#eyeFocusW2)"/>
+    <circle cx="138" cy="124" r="3" fill="#080404"/>
+
+    <ellipse cx="228" cy="120" rx="14" ry="14" fill="#0a0604"/>
+    <circle cx="228" cy="120" r="9" fill="#3a2010"/>
+    <ellipse cx="228" cy="124" rx="8" ry="6" fill="#080404"/>
+    <circle cx="232" cy="118" r="3" fill="url(#eyeFocusW2)"/>
+    <circle cx="228" cy="124" r="3" fill="#080404"/>
+
+    <path d="M 100 100 Q 138 88 162 100" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+    <path d="M 204 100 Q 228 88 266 100" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="154" cy="148" rx="11" ry="3" fill="#a85820" opacity="0.62"/>
+    <ellipse cx="212" cy="148" rx="11" ry="3" fill="#a85820" opacity="0.62"/>
+    <ellipse cx="183" cy="146" rx="3" ry="1.4" fill="#a85820" opacity="0.62"/>
+
+    <path d="M 154 184 L 168 184 L 168 192 L 154 192 Z" fill="#3a1808"/>
+    <path d="M 198 184 L 212 184 L 212 192 L 198 192 Z" fill="#3a1808"/>
+    <path d="M 168 184 Q 183 188 198 184 L 198 192 L 168 192 Z" fill="#1a0a08"/>
+
+    <path d="M 60 80 Q 70 78 76 84" stroke="#3a1810" stroke-width="0.85" fill="none" opacity="0.55"/>
+    <ellipse cx="70" cy="86" rx="4" ry="2" fill="#3a1810" opacity="0.42"/>
+
+    <path d="M 296 100 L 290 110" stroke="#3a1810" stroke-width="0.55" opacity="0.42"/>
+    <ellipse cx="282" cy="100" rx="3" ry="1.4" fill="#3a1810" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="320" cy="180" rx="9" ry="6" fill="url(#brassRingW2)"/>
+    <ellipse cx="320" cy="180" rx="6" ry="3" fill="#3a1a08"/>
+    <line x1="312" y1="180" x2="328" y2="180" stroke="#5a2e10" stroke-width="0.55"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomW2)">
+    <ellipse cx="320" cy="180" rx="14" ry="9" fill="#fff8d8" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowW2)">
+    <ellipse cx="183" cy="220" rx="180" ry="22" fill="#a85020" opacity="0.42"/>
+    <ellipse cx="320" cy="120" rx="44" ry="80" fill="#d88838" opacity="0.32"/>
+    <ellipse cx="183" cy="40" rx="160" ry="22" fill="#fff8d8" opacity="0.32"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowW2)">
+    <ellipse cx="183" cy="220" rx="180" ry="40" fill="#a85020" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="183" cy="225" rx="180" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="280" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a2410" stroke-width="1.2"/>
+    <text x="130" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#3a2410" font-weight="700">THEODORE (barely audible):</text>
+    <text x="130" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#3a2410" font-style="italic" font-weight="700">"Pressure... turn... there."</text>
+  </g>
+</svg>
