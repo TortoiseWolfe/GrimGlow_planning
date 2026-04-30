@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 11 Page 6 Panel 4 — Sable watches Wren work, "Good"</title>
+  <desc>Medium close-up Sable watching Wren work. Dark brown skin sharp features silver-white hair in growing grey daylight. Expression holds the ghost of gratitude — recognition of Wren's preparedness, command relationship reforging rather than restoring. Mask is on but direction has replaced burden behind it. Grey-white daylight and copper-gold reflected light in balance across face. Soot-darkened silver suit catches both sources. Command finding its footing.</desc>
+  <defs>
+    <linearGradient id="bgY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2410"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="dayBalanceY4" cx="0.78" cy="0.32" r="0.5">
+      <stop offset="0" stop-color="#a8b0bc" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#5a6478" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="copperBalanceY4" cx="0.18" cy="0.42" r="0.45">
+      <stop offset="0" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#5a2e10" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2410"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="silverFigY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6068"/>
+      <stop offset="0.5" stop-color="#3a3e44"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="hairSilY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#9098a0"/>
+      <stop offset="1" stop-color="#3a3e44"/>
+    </linearGradient>
+    <linearGradient id="faceSableY4" x1="0" y1="0" x2="0.85" y2="0.5">
+      <stop offset="0" stop-color="#3a261a"/>
+      <stop offset="0.5" stop-color="#5a3622"/>
+      <stop offset="1" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="tinPatchY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8b0bc"/>
+      <stop offset="0.5" stop-color="#5a6478"/>
+      <stop offset="1" stop-color="#1a1828"/>
+    </linearGradient>
+    <radialGradient id="eyeFootingY4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="0.5" stop-color="#a87838" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomY4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowY4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#bgY4)"/>
+  <rect width="366" height="280" fill="url(#dayBalanceY4)"/>
+  <rect width="366" height="280" fill="url(#copperBalanceY4)"/>
+
+  <g>
+    <rect x="0" y="240" width="366" height="40" fill="url(#floorY4)"/>
+    <line x1="0" y1="248" x2="366" y2="246" stroke="#1a1008" stroke-width="0.5" opacity="0.55"/>
+  </g>
+
+  <g>
+    <ellipse cx="160" cy="140" rx="44" ry="56" fill="#3a261a"/>
+    <ellipse cx="160" cy="116" rx="32" ry="38" fill="url(#faceSableY4)"/>
+
+    <path d="M 124 76 Q 160 60 196 76 Q 204 100 200 118 L 192 124 Q 178 86 160 80 Q 142 86 128 124 Z" fill="url(#hairSilY4)"/>
+    <path d="M 128 80 L 134 74 L 140 80 L 146 74 L 152 80 L 158 74 L 164 80 L 170 74 L 176 80 L 182 74 L 188 80" stroke="url(#hairSilY4)" stroke-width="2.4" fill="none" opacity="0.85"/>
+
+    <ellipse cx="146" cy="118" rx="4" ry="5" fill="#0a0604"/>
+    <ellipse cx="174" cy="118" rx="4" ry="5" fill="#0a0604"/>
+    <circle cx="146" cy="118" r="2.4" fill="#080404"/>
+    <circle cx="174" cy="118" r="2.4" fill="#080404"/>
+    <circle cx="148" cy="117" r="1.4" fill="url(#eyeFootingY4)"/>
+    <circle cx="176" cy="117" r="1.4" fill="url(#eyeFootingY4)"/>
+
+    <path d="M 130 104 Q 148 100 162 104" stroke="#0a0604" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <path d="M 158 104 Q 176 100 192 104" stroke="#0a0604" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+    <path d="M 154 144 Q 160 144 166 144" stroke="#0a0604" stroke-width="1.4" fill="none"/>
+    <path d="M 148 154 Q 160 156 172 154" stroke="#0a0604" stroke-width="1.6" fill="none"/>
+
+    <path d="M 122 168 Q 160 158 198 168 L 220 240 L 100 240 L 108 200 Z" fill="url(#silverFigY4)"/>
+    <path d="M 132 184 L 188 184 L 200 232 L 122 232 Z" fill="#1a1c20" opacity="0.85"/>
+    <line x1="160" y1="170" x2="160" y2="232" stroke="#080404" stroke-width="0.85" opacity="0.55"/>
+
+    <path d="M 196 168 L 220 156 L 224 174 L 200 184 Z" fill="url(#tinPatchY4)" opacity="0.92"/>
+    <path d="M 196 168 L 220 156" stroke="#3a4868" stroke-width="0.7"/>
+    <circle cx="202" cy="168" r="0.7" fill="#1a1828"/>
+    <circle cx="216" cy="162" r="0.7" fill="#1a1828"/>
+    <circle cx="220" cy="172" r="0.7" fill="#1a1828"/>
+    <circle cx="206" cy="178" r="0.7" fill="#1a1828"/>
+
+    <path d="M 122 168 L 110 200 L 100 240" stroke="url(#silverFigY4)" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <path d="M 198 168 L 210 200 L 220 240" stroke="url(#silverFigY4)" stroke-width="13" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowY4)">
+    <ellipse cx="160" cy="56" rx="60" ry="14" fill="#a8b0bc" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="200" y1="118" x2="280" y2="100" stroke="#a85820" stroke-width="0.5" stroke-dasharray="2 1.4" opacity="0.55"/>
+    <line x1="200" y1="124" x2="290" y2="138" stroke="#a85820" stroke-width="0.5" stroke-dasharray="2 1.4" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.55">
+    <circle cx="290" cy="100" r="2.4" fill="#a87838"/>
+    <circle cx="300" cy="138" r="2.4" fill="#a87838"/>
+    <circle cx="320" cy="120" r="2.4" fill="#a87838"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomY4)">
+    <circle cx="290" cy="100" r="6" fill="#a87838" opacity="0.55"/>
+    <circle cx="300" cy="138" r="6" fill="#a87838" opacity="0.55"/>
+    <circle cx="320" cy="120" r="6" fill="#a87838" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomY4)">
+    <rect x="122" y="168" width="76" height="72" fill="#88a8d0" opacity="0.32"/>
+  </g>
+  <g opacity="0.55" filter="url(#bloomY4)">
+    <ellipse cx="160" cy="220" rx="60" ry="20" fill="#a85820" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="160" cy="248" rx="80" ry="3" fill="#040202"/>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="180" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#5a6478" stroke-width="1.4"/>
+    <text x="82" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#5a6478" font-weight="700">SABLE (quiet):</text>
+    <text x="82" y="19" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2a2a2a" font-style="italic" font-weight="700">"Good."</text>
+  </g>
+</svg>
