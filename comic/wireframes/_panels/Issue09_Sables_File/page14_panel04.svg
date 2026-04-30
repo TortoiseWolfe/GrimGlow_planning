@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 9 Page 14 Panel 4 — Sable sits on beam edge, the commander with nothing to command</title>
+  <desc>Medium close-up Sable on edge of main beam, legs hanging over, hands on knees. Data module beside her, display off. Empty — not composure, not pain, the space between where person exists without performance. Morning grey only illumination, no holographic. The most unadorned in the volume.</desc>
+  <defs>
+    <linearGradient id="bgE4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1f2c"/>
+      <stop offset="0.4" stop-color="#252a36"/>
+      <stop offset="0.7" stop-color="#1f2330"/>
+      <stop offset="1" stop-color="#15191f"/>
+    </linearGradient>
+    <radialGradient id="dawnEvenE4" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#a0a8b8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#5a6478" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#15191f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beamMainE4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#2a1c10"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <linearGradient id="faceLitS_E4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3622"/>
+      <stop offset="0.4" stop-color="#7a4a30"/>
+      <stop offset="0.8" stop-color="#9a5e3e"/>
+      <stop offset="1" stop-color="#7a4830"/>
+    </linearGradient>
+    <linearGradient id="hairSilE4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8b0b8"/>
+      <stop offset="0.5" stop-color="#7a8088"/>
+      <stop offset="1" stop-color="#3a3e44"/>
+    </linearGradient>
+    <linearGradient id="silverSuitE4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a6a6a"/>
+      <stop offset="0.5" stop-color="#3a3a3a"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="moduleOffE4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2e34"/>
+      <stop offset="0.6" stop-color="#1a1c22"/>
+      <stop offset="1" stop-color="#080a10"/>
+    </linearGradient>
+    <radialGradient id="eyeEmptyE4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9098a8" stop-opacity="0.4"/>
+      <stop offset="0.5" stop-color="#5a6478" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#5a6478" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomE4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="softE4" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#bgE4)"/>
+  <rect width="366" height="280" fill="url(#dawnEvenE4)"/>
+
+  <g>
+    <rect x="0" y="222" width="366" height="14" fill="url(#beamMainE4)"/>
+    <rect x="0" y="222" width="366" height="3" fill="#5a3a20" opacity="0.55"/>
+    <rect x="0" y="234" width="366" height="2" fill="#0e0805" opacity="0.85"/>
+    <line x1="60" y1="222" x2="60" y2="236" stroke="#0e0805" stroke-width="0.6"/>
+    <line x1="160" y1="222" x2="160" y2="236" stroke="#0e0805" stroke-width="0.6"/>
+    <line x1="260" y1="222" x2="260" y2="236" stroke="#0e0805" stroke-width="0.6"/>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="280" rx="220" ry="20" fill="#080a10"/>
+  </g>
+
+  <g>
+    <path d="M 130 84 Q 124 104 130 128 Q 138 156 152 172 Q 174 182 198 182 Q 222 178 236 162 Q 244 138 244 104 Q 238 84 222 70 Q 198 64 176 66 Q 148 74 130 84 Z" fill="url(#faceLitS_E4)" opacity="0.95"/>
+    <path d="M 132 96 Q 128 122 138 152 Q 152 172 170 184 Q 152 178 142 168 Q 130 152 126 128 Q 128 102 132 96 Z" fill="#3a261a" opacity="0.4"/>
+  </g>
+
+  <g>
+    <path d="M 122 76 Q 138 60 178 56 Q 218 56 240 66 Q 252 78 252 92 L 246 100 Q 236 80 216 72 Q 188 66 162 72 Q 140 80 132 92 Z" fill="url(#hairSilE4)" opacity="0.95"/>
+    <g stroke="#cccccc" stroke-width="0.4" opacity="0.65">
+      <line x1="142" y1="64" x2="146" y2="76"/>
+      <line x1="162" y1="60" x2="164" y2="74"/>
+      <line x1="186" y1="58" x2="186" y2="74"/>
+      <line x1="210" y1="60" x2="208" y2="74"/>
+      <line x1="232" y1="66" x2="228" y2="80"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="170" cy="120" rx="9" ry="3.5" fill="#0a0604"/>
+    <ellipse cx="214" cy="118" rx="10" ry="4" fill="#0a0604"/>
+    <circle cx="170" cy="120" r="2.6" fill="#080404"/>
+    <circle cx="214" cy="118" r="2.8" fill="#080404"/>
+    <circle cx="172" cy="118" r="1.1" fill="url(#eyeEmptyE4)"/>
+    <circle cx="216" cy="116" r="1.2" fill="url(#eyeEmptyE4)"/>
+    <path d="M 156 128 Q 170 134 184 128" stroke="#0a0604" stroke-width="0.7" fill="none" opacity="0.7"/>
+    <path d="M 200 126 Q 214 132 228 126" stroke="#0a0604" stroke-width="0.7" fill="none" opacity="0.7"/>
+  </g>
+
+  <g stroke="#0a0604" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M 152 110 Q 170 104 188 110"/>
+    <path d="M 198 108 Q 214 102 234 110"/>
+  </g>
+
+  <path d="M 192 126 Q 188 146 192 162" stroke="#0a0604" stroke-width="1.1" fill="none" opacity="0.7"/>
+
+  <g>
+    <path d="M 170 172 Q 192 176 214 172" stroke="#0a0604" stroke-width="1.3" fill="none"/>
+  </g>
+
+  <g>
+    <path d="M 90 196 L 286 192 L 286 222 L 86 222 Z" fill="url(#silverSuitE4)"/>
+    <path d="M 116 192 L 168 196 L 200 196 L 250 192 L 250 218 L 116 218 Z" fill="#2a2a2a"/>
+  </g>
+
+  <g opacity="0.92">
+    <ellipse cx="130" cy="206" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="240" cy="206" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="184" cy="200" rx="4" ry="1.5" fill="#0a0604"/>
+  </g>
+
+  <g>
+    <path d="M 108 222 L 124 240 L 124 270 L 108 268 Z" fill="url(#silverSuitE4)"/>
+    <path d="M 250 222 L 264 240 L 264 270 L 250 268 Z" fill="url(#silverSuitE4)"/>
+    <path d="M 116 268 L 130 268 L 132 280 L 116 280 Z" fill="#1a1c20"/>
+    <path d="M 250 268 L 266 268 L 264 280 L 250 280 Z" fill="#1a1c20"/>
+  </g>
+
+  <g>
+    <path d="M 130 218 Q 140 220 156 218 L 158 224 L 130 224 Z" fill="#2a2a2a" opacity="0.85"/>
+    <path d="M 224 218 Q 240 220 252 218 L 252 224 L 222 224 Z" fill="#2a2a2a" opacity="0.85"/>
+    <path d="M 130 218 Q 142 230 158 224" fill="url(#silverSuitE4)" stroke="#0a0a10" stroke-width="0.4"/>
+    <path d="M 224 218 Q 240 230 252 224" fill="url(#silverSuitE4)" stroke="#0a0a10" stroke-width="0.4"/>
+  </g>
+
+  <g>
+    <rect x="62" y="208" width="32" height="14" rx="2" fill="url(#moduleOffE4)" stroke="#3a3e44" stroke-width="0.6"/>
+    <rect x="64" y="210" width="28" height="8" rx="1" fill="#080a10"/>
+    <line x1="66" y1="220" x2="92" y2="220" stroke="#3a3e44" stroke-width="0.4"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="40" cy="40" r="0.5" fill="#a0a8b8"/>
+    <circle cx="320" cy="50" r="0.5" fill="#a0a8b8"/>
+  </g>
+</svg>
