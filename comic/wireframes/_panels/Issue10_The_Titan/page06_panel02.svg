@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 260" width="366" height="260">
+  <title>Issue 10 Page 6 Panel 2 — The Titan's hand lifts, alien wrongness in anatomy</title>
+  <desc>Close-up extreme high angle looking down at hand on Victorian telegraph desk. Hand wrong: too many joints, elongated fingers, each segment articulating independently. Surface dark absorbs light. Edges shimmer dark iridescence — oil on water. Hand lifts. Fingers splay. Has detected the squad.</desc>
+  <defs>
+    <linearGradient id="bgR2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080404"/>
+      <stop offset="0.5" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="deviceUplightR2" cx="0.5" cy="0.92" r="0.5">
+      <stop offset="0" stop-color="#7a4818" stop-opacity="0.65"/>
+      <stop offset="0.5" stop-color="#3a1810" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="deskBrassR2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87838"/>
+      <stop offset="0.4" stop-color="#5a3818"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="alienHandR2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080608"/>
+      <stop offset="0.5" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <linearGradient id="iridSurfaceR2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a1a5a" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#7848b8" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#1a0e2e" stop-opacity="0.45"/>
+    </linearGradient>
+    <radialGradient id="deviceR2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a87838"/>
+      <stop offset="0.4" stop-color="#5a2818"/>
+      <stop offset="0.8" stop-color="#1a0608"/>
+      <stop offset="1" stop-color="#020100"/>
+    </radialGradient>
+    <filter id="bloomR2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowR2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="iridShimR2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <filter id="softR2" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="260" fill="url(#bgR2)"/>
+  <rect width="366" height="260" fill="url(#deviceUplightR2)"/>
+
+  <g>
+    <rect x="0" y="180" width="366" height="80" fill="url(#deskBrassR2)" opacity="0.85"/>
+    <rect x="0" y="180" width="366" height="6" fill="#1a0e08"/>
+    <line x1="0" y1="200" x2="366" y2="200" stroke="#1a0e08" stroke-width="0.5"/>
+    <line x1="0" y1="220" x2="366" y2="220" stroke="#1a0e08" stroke-width="0.5"/>
+    <line x1="0" y1="240" x2="366" y2="240" stroke="#1a0e08" stroke-width="0.5"/>
+    <circle cx="60" cy="194" r="3" fill="#1a0e08"/>
+    <rect x="80" y="190" width="20" height="8" fill="#1a0e08"/>
+    <circle cx="280" cy="194" r="3" fill="#1a0e08"/>
+    <rect x="300" y="190" width="20" height="8" fill="#1a0e08"/>
+  </g>
+
+  <g>
+    <rect x="140" y="200" width="86" height="40" fill="#1a0e08" stroke="#3a2010" stroke-width="0.6"/>
+    <ellipse cx="183" cy="220" rx="26" ry="14" fill="url(#deviceR2)"/>
+    <ellipse cx="183" cy="220" rx="14" ry="8" fill="#5a2818" opacity="0.85"/>
+    <ellipse cx="183" cy="220" rx="6" ry="4" fill="#a87838" opacity="0.95"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowR2)">
+    <ellipse cx="183" cy="220" rx="50" ry="30" fill="#7a4818" opacity="0.55"/>
+  </g>
+
+  <g>
+    <path d="M 60 30 Q 80 20 120 24 Q 170 30 210 60 Q 240 100 250 140 L 260 180 L 220 184 L 200 160 L 180 130 L 150 100 L 100 70 L 60 50 Z" fill="url(#alienHandR2)"/>
+
+    <path d="M 60 30 L 50 20 L 40 30 L 50 40 Q 60 35 60 30 Z" fill="url(#alienHandR2)"/>
+    <path d="M 50 40 L 56 60 L 70 70 L 78 60 Q 70 50 60 45 Q 56 42 50 40 Z" fill="url(#alienHandR2)"/>
+    <path d="M 70 70 L 80 90 L 100 100 L 110 90 Q 100 80 88 76 Q 80 72 70 70 Z" fill="url(#alienHandR2)"/>
+
+    <path d="M 110 24 L 100 8 L 90 14 L 96 30 Q 110 32 110 24 Z" fill="url(#alienHandR2)"/>
+    <path d="M 96 30 L 100 50 L 116 60 L 130 50 Q 122 40 110 32 Q 100 30 96 30 Z" fill="url(#alienHandR2)"/>
+    <path d="M 130 50 L 140 76 L 160 90 L 174 80 Q 162 64 148 54 Q 136 48 130 50 Z" fill="url(#alienHandR2)"/>
+
+    <path d="M 162 24 L 150 6 L 140 12 L 146 28 Q 160 30 162 24 Z" fill="url(#alienHandR2)"/>
+    <path d="M 146 28 L 152 54 L 174 64 L 188 54 Q 178 42 164 32 Q 152 28 146 28 Z" fill="url(#alienHandR2)"/>
+    <path d="M 188 54 L 198 80 L 220 96 L 234 84 Q 218 70 200 60 Q 192 54 188 54 Z" fill="url(#alienHandR2)"/>
+
+    <path d="M 214 30 L 204 10 L 194 16 L 200 32 Q 214 36 214 30 Z" fill="url(#alienHandR2)"/>
+    <path d="M 200 32 L 210 60 L 232 70 L 248 60 Q 236 46 222 38 Q 210 32 200 32 Z" fill="url(#alienHandR2)"/>
+
+    <path d="M 254 38 L 244 18 L 234 26 L 240 42 Q 252 46 254 38 Z" fill="url(#alienHandR2)"/>
+    <path d="M 240 42 L 252 70 L 270 80 L 280 68 Q 270 56 260 48 Q 250 40 240 42 Z" fill="url(#alienHandR2)"/>
+  </g>
+
+  <g opacity="0.6" filter="url(#iridShimR2)">
+    <path d="M 50 20 L 60 30 L 70 70 L 100 100 L 150 100 L 180 130 L 220 184" stroke="#7848b8" stroke-width="2.5" fill="none"/>
+    <path d="M 90 14 L 96 30 L 116 60 L 160 90" stroke="#7848b8" stroke-width="2" fill="none"/>
+    <path d="M 140 12 L 146 28 L 174 64 L 220 96" stroke="#7848b8" stroke-width="2" fill="none"/>
+    <path d="M 194 16 L 200 32 L 232 70" stroke="#7848b8" stroke-width="2" fill="none"/>
+    <path d="M 234 26 L 240 42 L 270 80" stroke="#7848b8" stroke-width="2" fill="none"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 70 30 L 80 36" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 100 28 L 108 36" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 150 26 L 158 36" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 200 30 L 208 38" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 240 38 L 246 46" stroke="#3a1a5a" stroke-width="0.5"/>
+    <circle cx="50" cy="20" r="0.8" fill="#7848b8" opacity="0.55"/>
+    <circle cx="100" cy="8" r="0.8" fill="#7848b8" opacity="0.55"/>
+    <circle cx="150" cy="6" r="0.8" fill="#7848b8" opacity="0.55"/>
+    <circle cx="204" cy="10" r="0.8" fill="#7848b8" opacity="0.55"/>
+    <circle cx="244" cy="18" r="0.8" fill="#7848b8" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 56 60 L 50 80" stroke="#a878d0" stroke-width="0.4" stroke-dasharray="2 1" opacity="0.55"/>
+    <path d="M 110 90 L 116 110" stroke="#a878d0" stroke-width="0.4" stroke-dasharray="2 1" opacity="0.55"/>
+    <path d="M 174 80 L 178 100" stroke="#a878d0" stroke-width="0.4" stroke-dasharray="2 1" opacity="0.55"/>
+    <path d="M 234 84 L 238 110" stroke="#a878d0" stroke-width="0.4" stroke-dasharray="2 1" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#bloomR2)">
+    <ellipse cx="183" cy="240" rx="100" ry="6" fill="#7a4818" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.5">
+    <text x="20" y="14" font-family="Courier New, monospace" font-size="3.6" fill="#3a1a5a" opacity="0.7">▓░ JOINT.7 ░▓</text>
+  </g>
+</svg>
