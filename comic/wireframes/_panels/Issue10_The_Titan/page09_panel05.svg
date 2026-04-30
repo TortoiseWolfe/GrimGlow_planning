@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 10 Page 9 Panel 5 — Titan swats, dismissive contempt</title>
+  <desc>Close-up slight high angle Titan's multi-jointed hand sweeps downward — dismissive gesture not targeted attack. Hand enormous dark-surfaced iridescent edges. Below tiny figure crimson tumbles backward from air displacement alone, rolling, armor scraping wood grain. Crimson edge-lighting stutters. Hand returns to work. Insect.</desc>
+  <defs>
+    <linearGradient id="bgU5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040206"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="iridSweepU5" cx="0.5" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#3a1a5a" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#1a0e2e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorU5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3a20"/>
+      <stop offset="0.4" stop-color="#3a2418"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="alienHandU5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080608"/>
+      <stop offset="0.5" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <linearGradient id="iridFingerU5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a1a5a" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#7848b8" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#1a0e2e" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="crimsonStuttU5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a1810"/>
+      <stop offset="0.5" stop-color="#3a0e08"/>
+      <stop offset="1" stop-color="#1a0606"/>
+    </linearGradient>
+    <filter id="bloomU5" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowU5" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="iridShimU5" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <filter id="motionTumbleU5" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="softU5" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgU5)"/>
+  <rect width="366" height="240" fill="url(#iridSweepU5)"/>
+
+  <g>
+    <rect x="0" y="180" width="366" height="60" fill="url(#floorU5)"/>
+    <line x1="0" y1="190" x2="366" y2="188" stroke="#3a2818" stroke-width="0.5" opacity="0.85"/>
+    <line x1="0" y1="200" x2="366" y2="198" stroke="#3a2818" stroke-width="0.4" opacity="0.85"/>
+    <line x1="0" y1="212" x2="366" y2="210" stroke="#3a2818" stroke-width="0.5" opacity="0.85"/>
+    <line x1="0" y1="226" x2="366" y2="224" stroke="#3a2818" stroke-width="0.4" opacity="0.85"/>
+  </g>
+
+  <g>
+    <path d="M 0 0 Q 60 10 140 30 Q 220 60 280 100 L 320 110 L 360 100 L 366 60 L 320 40 L 240 30 L 160 20 L 80 10 L 0 0 Z" fill="url(#alienHandU5)"/>
+
+    <path d="M 100 30 L 110 50 L 130 60 L 144 50 Q 134 38 120 32 Q 110 28 100 30 Z" fill="url(#alienHandU5)"/>
+    <path d="M 130 60 L 140 80 L 158 88 L 170 78 Q 160 64 148 58 Q 138 54 130 60 Z" fill="url(#alienHandU5)"/>
+    <path d="M 158 88 L 168 110 L 184 116 L 196 104 Q 184 92 172 86 Q 162 82 158 88 Z" fill="url(#alienHandU5)"/>
+
+    <path d="M 160 24 L 170 44 L 190 52 L 204 42 Q 192 30 180 24 Q 170 20 160 24 Z" fill="url(#alienHandU5)"/>
+    <path d="M 190 52 L 200 76 L 218 84 L 232 70 Q 220 56 206 50 Q 196 46 190 52 Z" fill="url(#alienHandU5)"/>
+    <path d="M 218 84 L 228 108 L 246 116 L 260 102 Q 248 90 234 84 Q 224 80 218 84 Z" fill="url(#alienHandU5)"/>
+
+    <path d="M 218 22 L 228 44 L 248 50 L 262 38 Q 250 24 236 18 Q 226 14 218 22 Z" fill="url(#alienHandU5)"/>
+    <path d="M 248 50 L 258 76 L 276 82 L 290 68 Q 278 54 264 48 Q 254 44 248 50 Z" fill="url(#alienHandU5)"/>
+
+    <path d="M 270 28 L 280 50 L 298 56 L 312 42 Q 300 28 286 22 Q 276 18 270 28 Z" fill="url(#alienHandU5)"/>
+    <path d="M 298 56 L 306 80 L 320 86 L 332 70 Q 322 56 308 50 Q 300 50 298 56 Z" fill="url(#alienHandU5)"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#iridShimU5)">
+    <path d="M 0 0 Q 60 10 140 30 Q 220 60 280 100 L 320 110" stroke="#7848b8" stroke-width="3" fill="none"/>
+    <path d="M 100 30 L 144 50" stroke="#7848b8" stroke-width="2" fill="none"/>
+    <path d="M 160 24 L 204 42" stroke="#7848b8" stroke-width="2" fill="none"/>
+    <path d="M 218 22 L 262 38" stroke="#7848b8" stroke-width="2" fill="none"/>
+    <path d="M 270 28 L 312 42" stroke="#7848b8" stroke-width="2" fill="none"/>
+  </g>
+  <g opacity="0.85">
+    <path d="M 110 50 L 100 30" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 170 44 L 160 24" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 228 44 L 218 22" stroke="#3a1a5a" stroke-width="0.5"/>
+    <path d="M 280 50 L 270 28" stroke="#3a1a5a" stroke-width="0.5"/>
+  </g>
+
+  <g opacity="0.65" filter="url(#motionTumbleU5)">
+    <ellipse cx="180" cy="160" rx="80" ry="20" fill="#5a1810" opacity="0.45"/>
+  </g>
+  <g opacity="0.55">
+    <path d="M 100 168 Q 140 156 180 158 Q 220 162 250 178" stroke="#a83830" stroke-width="0.5" fill="none" stroke-dasharray="3 2" opacity="0.55"/>
+    <path d="M 110 174 Q 150 168 190 170 Q 230 174 250 184" stroke="#5a1810" stroke-width="0.4" fill="none" stroke-dasharray="2 2" opacity="0.55"/>
+  </g>
+
+  <g transform="rotate(-30 250 188)">
+    <ellipse cx="250" cy="180" rx="11" ry="13" fill="#3a261a"/>
+    <ellipse cx="250" cy="174" rx="8" ry="9" fill="#7a5050"/>
+    <path d="M 240 168 L 240 162 Q 250 156 260 156 Q 264 168 260 174 Q 254 162 250 162 Q 246 162 244 174 Z" fill="#5a2010"/>
+    <ellipse cx="246" cy="180" rx="1.4" ry="2" fill="#0a0604"/>
+    <ellipse cx="254" cy="180" rx="1.4" ry="2" fill="#0a0604"/>
+    <path d="M 244 188 L 256 188" stroke="#0a0604" stroke-width="1"/>
+    <path d="M 232 196 L 268 196 L 274 230 L 226 230 Z" fill="url(#crimsonStuttU5)"/>
+    <path d="M 232 200 L 268 200 L 268 220 L 232 220 Z" fill="#1a0606"/>
+    <path d="M 222 210 L 210 230" stroke="url(#crimsonStuttU5)" stroke-width="3"/>
+    <path d="M 278 210 L 290 230" stroke="url(#crimsonStuttU5)" stroke-width="3"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#bloomU5)">
+    <circle cx="208" cy="190" r="2" fill="#dc4540" opacity="0.55"/>
+    <circle cx="296" cy="170" r="1.6" fill="#dc4540" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.55">
+    <text x="200" y="220" font-family="Courier New, monospace" font-size="3.4" fill="#5a1810" opacity="0.55">▓░ . ░▓</text>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="100" height="20" rx="3" fill="#f5ecd8" opacity="0.92" stroke="#c8b898" stroke-width="0.5" stroke-dasharray="3 2"/>
+    <text x="42" y="14" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#5a4a30" font-style="italic">[silence]</text>
+  </g>
+</svg>

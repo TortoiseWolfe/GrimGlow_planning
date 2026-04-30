@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 10 Page 9 Panel 4 — Thresh advances, "I can't hurt it. I'm going to hurt it anyway."</title>
+  <desc>Medium close-up low angle Thresh advancing — not retreating not holding, ADVANCING. Weapon fires controlled bursts. Naked fear AND forward momentum. Eyes wide, jaw clenched, breathing hard. Boots move forward. Crimson weapons-fire strobe staccato flashes. Darkness between. Titan looms above as dark void.</desc>
+  <defs>
+    <linearGradient id="bgU4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040206"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="titanLoomU4" cx="0.5" cy="0.05" r="0.6">
+      <stop offset="0" stop-color="#020100" stop-opacity="0.92"/>
+      <stop offset="0.5" stop-color="#040206" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="crimsonStrobeU4" cx="0.5" cy="0.65" r="0.45">
+      <stop offset="0" stop-color="#dc4540" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#5a1810" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorU4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1008"/>
+      <stop offset="0.5" stop-color="#0e0805"/>
+      <stop offset="1" stop-color="#040202"/>
+    </linearGradient>
+    <linearGradient id="faceLitT_U4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2828"/>
+      <stop offset="0.5" stop-color="#7a3a3a"/>
+      <stop offset="1" stop-color="#a85050"/>
+    </linearGradient>
+    <linearGradient id="hairBuzzU4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85020"/>
+      <stop offset="0.5" stop-color="#5a2010"/>
+      <stop offset="1" stop-color="#2a1008"/>
+    </linearGradient>
+    <linearGradient id="crimsonArmorU4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a83830"/>
+      <stop offset="0.5" stop-color="#5a1810"/>
+      <stop offset="1" stop-color="#1a0606"/>
+    </linearGradient>
+    <linearGradient id="rifleU4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3a3a"/>
+      <stop offset="0.5" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <radialGradient id="eyeFearU4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#dc4540" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#dc4540" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titanVoidU4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040408"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <filter id="bloomU4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowU4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="muzzleFlashU4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="softU4" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgU4)"/>
+  <rect width="366" height="240" fill="url(#titanLoomU4)"/>
+  <rect width="366" height="240" fill="url(#crimsonStrobeU4)"/>
+
+  <g>
+    <rect x="0" y="200" width="366" height="40" fill="url(#floorU4)"/>
+    <line x1="0" y1="212" x2="366" y2="210" stroke="#1a1008" stroke-width="0.5" opacity="0.55"/>
+    <line x1="0" y1="226" x2="366" y2="224" stroke="#1a1008" stroke-width="0.4" opacity="0.55"/>
+  </g>
+
+  <g>
+    <path d="M 100 0 L 220 0 L 280 30 L 320 70 L 320 100 L 240 100 L 160 90 L 100 80 L 60 60 L 60 30 Z" fill="url(#titanVoidU4)" opacity="0.92"/>
+    <path d="M 80 100 L 320 100" stroke="#020100" stroke-width="2"/>
+  </g>
+  <g opacity="0.55" filter="url(#strongGlowU4)">
+    <path d="M 100 0 L 220 0 L 280 30 L 320 70 L 320 100 L 240 100 L 160 90 L 100 80 L 60 60 L 60 30 Z" stroke="#7848b8" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <g>
+    <path d="M 70 70 Q 60 90 66 114 Q 76 142 92 158 Q 116 168 142 168 Q 168 162 184 144 Q 196 118 192 88 Q 184 70 168 56 Q 144 50 122 52 Q 88 60 70 70 Z" fill="url(#faceLitT_U4)" opacity="0.95"/>
+  </g>
+
+  <g>
+    <path d="M 60 60 Q 70 44 116 40 Q 162 40 184 50 Q 196 62 196 76 L 192 84 Q 182 64 162 58 Q 130 54 102 60 Q 80 66 76 76 Z" fill="url(#hairBuzzU4)"/>
+    <g stroke="#3a1410" stroke-width="0.4" opacity="0.4">
+      <line x1="80" y1="48" x2="80" y2="60"/>
+      <line x1="98" y1="44" x2="98" y2="58"/>
+      <line x1="118" y1="42" x2="118" y2="58"/>
+      <line x1="138" y1="42" x2="138" y2="58"/>
+      <line x1="158" y1="44" x2="158" y2="58"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="116" cy="100" rx="11" ry="5" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="160" cy="98" rx="12" ry="5.5" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="116" cy="100" rx="9" ry="4" fill="#0a0604"/>
+    <ellipse cx="160" cy="98" rx="10" ry="4.5" fill="#0a0604"/>
+    <circle cx="116" cy="100" r="3" fill="#080404"/>
+    <circle cx="160" cy="98" r="3.4" fill="#080404"/>
+    <circle cx="118" cy="99" r="1.6" fill="url(#eyeFearU4)"/>
+    <circle cx="162" cy="97" r="1.8" fill="url(#eyeFearU4)"/>
+  </g>
+
+  <g stroke="#0a0604" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.92">
+    <path d="M 98 90 Q 116 84 134 90"/>
+    <path d="M 144 88 Q 160 82 180 90"/>
+  </g>
+
+  <path d="M 138 106 Q 134 126 138 142" stroke="#0a0604" stroke-width="1.1" fill="none" opacity="0.7"/>
+
+  <g>
+    <path d="M 110 152 L 156 152" stroke="#0a0604" stroke-width="1.6"/>
+    <path d="M 116 156 L 150 156" stroke="#0a0604" stroke-width="0.7" opacity="0.6"/>
+  </g>
+
+  <g>
+    <path d="M 30 180 L 218 176 L 222 240 L 22 240 Z" fill="url(#crimsonArmorU4)"/>
+    <path d="M 60 176 L 110 180 L 140 180 L 196 176 L 196 220 L 60 220 Z" fill="#1a0606" opacity="0.85"/>
+    <path d="M 30 184 L 60 182 L 56 220 L 26 222 Z" fill="#3a0e08"/>
+    <path d="M 218 184 L 192 182 L 196 220 L 222 222 Z" fill="#a83830"/>
+  </g>
+
+  <g>
+    <rect x="180" y="172" width="80" height="10" fill="url(#rifleU4)" transform="rotate(-10 180 172)"/>
+    <rect x="180" y="172" width="80" height="2" fill="#3a3a3a" opacity="0.6" transform="rotate(-10 180 172)"/>
+    <rect x="180" y="180" width="80" height="2" fill="#040404" opacity="0.85" transform="rotate(-10 180 172)"/>
+    <rect x="254" y="170" width="6" height="14" fill="#040404" transform="rotate(-10 180 172)"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#muzzleFlashU4)">
+    <ellipse cx="270" cy="156" rx="22" ry="14" fill="#dc4540"/>
+    <ellipse cx="270" cy="156" rx="14" ry="9" fill="#f4886a"/>
+  </g>
+  <g opacity="0.95" filter="url(#bloomU4)">
+    <ellipse cx="270" cy="156" rx="6" ry="4" fill="#ffffff"/>
+  </g>
+  <g opacity="0.85">
+    <path d="M 270 156 L 290 142" stroke="#f4886a" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M 270 156 L 280 134" stroke="#f4886a" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 270 156 L 296 152" stroke="#f4886a" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <g opacity="0.85">
+    <ellipse cx="76" cy="194" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="180" cy="194" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="120" cy="186" rx="3.5" ry="1.4" fill="#0a0604"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlowU4)">
+    <circle cx="50" cy="194" r="3" fill="#dc4540"/>
+    <circle cx="196" cy="194" r="3" fill="#dc4540"/>
+    <circle cx="120" cy="206" r="2.5" fill="#dc4540"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="123" cy="218" rx="60" ry="3" fill="#040202"/>
+  </g>
+  <g opacity="0.7">
+    <line x1="100" y1="218" x2="120" y2="240" stroke="#3a0e08" stroke-width="0.5" opacity="0.6" stroke-dasharray="2 1"/>
+    <line x1="160" y1="218" x2="180" y2="240" stroke="#3a0e08" stroke-width="0.5" opacity="0.6" stroke-dasharray="2 1"/>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="220" height="22" rx="3" fill="#f5ecd8" opacity="0.92" stroke="#c8b898" stroke-width="0.5"/>
+    <text x="100" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#8a2520" font-weight="700">THRESH: "I can't hurt it.</text>
+    <text x="100" y="19" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#2a2a2a" font-style="italic">I'm going to hurt it anyway."</text>
+  </g>
+</svg>
