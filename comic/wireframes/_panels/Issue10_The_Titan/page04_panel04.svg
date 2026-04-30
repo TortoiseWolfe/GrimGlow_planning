@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 10 Page 4 Panel 4 — All five at the doorway, the cloaked shape, "I see it"</title>
+  <desc>Wide from behind squad stacked at doorway, looking into large dark room. Beyond: telegraph operating floor in near-darkness. At far end crouched over equipment, a SHAPE. Enormous. Cloaking makes eye slide off. Faint dark iridescence at edges. Squad weapons drawn, scanners glitch. Backlit by relay room lamps.</desc>
+  <defs>
+    <linearGradient id="bgP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040206"/>
+      <stop offset="0.4" stop-color="#080404"/>
+      <stop offset="0.7" stop-color="#0a0608"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="backlitAmberP4" cx="0.05" cy="0.5" r="0.4">
+      <stop offset="0" stop-color="#a87838" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#5a3018" stroke-width="0" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="titanShadowP4" cx="0.78" cy="0.48" r="0.35">
+      <stop offset="0" stop-color="#1a0e2e" stop-opacity="0.7"/>
+      <stop offset="0.4" stop-color="#0a0610" stop-opacity="0.5"/>
+      <stop offset="0.8" stop-color="#020100" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="iridescentEdgeP4" cx="0.78" cy="0.48" r="0.42">
+      <stop offset="0.4" stop-color="#020100" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#3a1a5a" stop-opacity="0.3"/>
+      <stop offset="0.75" stop-color="#7848b8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorDarkP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1008"/>
+      <stop offset="0.5" stop-color="#0e0805"/>
+      <stop offset="1" stop-color="#040202"/>
+    </linearGradient>
+    <linearGradient id="silverFP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a626a"/>
+      <stop offset="0.5" stop-color="#3a3e44"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="copperFP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a3e18"/>
+      <stop offset="0.5" stop-color="#5a2e10"/>
+      <stop offset="1" stop-color="#2a180a"/>
+    </linearGradient>
+    <linearGradient id="emeraldFP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e7048"/>
+      <stop offset="0.5" stop-color="#1f4a30"/>
+      <stop offset="1" stop-color="#0a1f14"/>
+    </linearGradient>
+    <linearGradient id="crimsonFP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a1810"/>
+      <stop offset="0.5" stop-color="#3a0e08"/>
+      <stop offset="1" stop-color="#1a0606"/>
+    </linearGradient>
+    <linearGradient id="violetFP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a2a78"/>
+      <stop offset="0.5" stop-color="#3a1a5a"/>
+      <stop offset="1" stop-color="#1a0e2e"/>
+    </linearGradient>
+    <linearGradient id="doorframeP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2418"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <filter id="bloomP4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowP4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="megaTitanGlowP4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="iridShimP4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="cloakSlipP4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="softP4" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="280" fill="url(#bgP4)"/>
+  <rect width="742" height="280" fill="url(#backlitAmberP4)"/>
+  <rect width="742" height="280" fill="url(#titanShadowP4)"/>
+  <rect width="742" height="280" fill="url(#iridescentEdgeP4)"/>
+
+  <g>
+    <rect x="0" y="220" width="742" height="60" fill="url(#floorDarkP4)"/>
+    <line x1="0" y1="232" x2="742" y2="230" stroke="#1a1008" stroke-width="0.5" opacity="0.7"/>
+    <line x1="0" y1="248" x2="742" y2="246" stroke="#1a1008" stroke-width="0.4" opacity="0.7"/>
+  </g>
+
+  <g>
+    <path d="M 0 0 L 100 0 L 100 230 L 0 230 Z" fill="url(#doorframeP4)"/>
+    <path d="M 0 0 L 100 0 L 90 16 L 0 16 Z" fill="#080404"/>
+  </g>
+
+  <g opacity="0.5" filter="url(#strongGlowP4)">
+    <ellipse cx="50" cy="120" rx="40" ry="80" fill="#a87838"/>
+  </g>
+
+  <g opacity="0.65" filter="url(#cloakSlipP4)">
+    <path d="M 460 110 Q 500 90 540 100 Q 580 90 620 110 Q 660 130 680 170 Q 660 210 620 220 Q 580 220 540 220 Q 500 220 460 200 Q 440 160 460 110 Z" fill="#080610"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 480 130 L 520 100 L 580 95 L 640 110 L 660 150 L 650 200 L 600 220 L 540 220 L 480 200 L 460 160 Z" fill="#040408"/>
+    <path d="M 540 105 L 580 105 L 600 130 L 580 145 L 540 145 L 520 130 Z" fill="#020306"/>
+    <path d="M 480 160 L 540 160 L 580 180 L 560 200 L 500 200 L 470 180 Z" fill="#020306"/>
+    <path d="M 580 145 Q 620 160 640 180 Q 620 200 580 200" fill="#020306"/>
+  </g>
+
+  <g opacity="0.5" filter="url(#iridShimP4)">
+    <path d="M 480 130 L 520 100 L 580 95 L 640 110 L 660 150" stroke="#7848b8" stroke-width="2.5" fill="none"/>
+    <path d="M 660 150 L 650 200 L 600 220 L 540 220 L 480 200 L 460 160 Z" stroke="#7848b8" stroke-width="2" fill="none"/>
+  </g>
+  <g opacity="0.85">
+    <path d="M 482 130 L 522 100" stroke="#3a1a5a" stroke-width="0.6" fill="none"/>
+    <path d="M 524 100 L 580 96" stroke="#a878d0" stroke-width="0.4" fill="none" opacity="0.55"/>
+    <path d="M 582 96 L 640 110" stroke="#3a1a5a" stroke-width="0.6" fill="none"/>
+    <path d="M 640 112 L 660 150" stroke="#a878d0" stroke-width="0.4" fill="none" opacity="0.55"/>
+    <path d="M 660 152 L 650 200" stroke="#3a1a5a" stroke-width="0.5" fill="none"/>
+    <path d="M 650 202 L 600 220" stroke="#a878d0" stroke-width="0.4" fill="none" opacity="0.55"/>
+    <path d="M 460 160 L 480 130" stroke="#3a1a5a" stroke-width="0.6" fill="none"/>
+  </g>
+
+  <g opacity="0.65" filter="url(#cloakSlipP4)">
+    <ellipse cx="560" cy="160" rx="80" ry="70" fill="#040408" opacity="0.55"/>
+  </g>
+
+  <g>
+    <rect x="380" y="180" width="40" height="50" fill="#1a1008" opacity="0.92"/>
+    <rect x="440" y="190" width="40" height="40" fill="#1a1008" opacity="0.92"/>
+    <circle cx="400" cy="200" r="6" fill="#3a2818"/>
+    <rect x="392" y="216" width="16" height="6" fill="#3a2818"/>
+  </g>
+
+  <g opacity="0.4" filter="url(#megaTitanGlowP4)">
+    <ellipse cx="555" cy="165" rx="120" ry="90" fill="#1a0e2e"/>
+  </g>
+
+  <g>
+    <ellipse cx="120" cy="220" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="120" cy="218" rx="2" ry="2" fill="#5a3622"/>
+    <path d="M 114 214 Q 120 210 126 214" stroke="#8a3818" stroke-width="0.8" fill="none"/>
+    <rect x="116" y="222" width="8" height="14" fill="url(#crimsonFP4)"/>
+    <rect x="120" y="218" width="22" height="6" fill="#1a1a1a"/>
+    <ellipse cx="148" cy="222" rx="2" ry="2.5" fill="#020202"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomP4)">
+    <circle cx="116" cy="226" r="2" fill="#dc4540"/>
+  </g>
+
+  <g>
+    <ellipse cx="180" cy="220" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="180" cy="218" rx="2" ry="2" fill="#9098a0"/>
+    <path d="M 174 214 Q 180 210 186 214" stroke="#9098a0" stroke-width="1.4" fill="none"/>
+    <rect x="176" y="222" width="8" height="14" fill="url(#silverFP4)"/>
+    <line x1="180" y1="236" x2="186" y2="218" stroke="#1a1c20" stroke-width="2.5"/>
+    <rect x="184" y="216" width="14" height="4" fill="#1a1a1a"/>
+  </g>
+
+  <g>
+    <ellipse cx="240" cy="222" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="240" cy="220" rx="2" ry="2" fill="#7a4830"/>
+    <ellipse cx="238" cy="216" rx="5" ry="3" fill="#0a0808"/>
+    <rect x="236" y="222" width="8" height="14" fill="url(#copperFP4)"/>
+    <rect x="244" y="218" width="14" height="6" fill="#1a1a1a"/>
+  </g>
+  <g opacity="0.95" filter="url(#strongGlowP4)">
+    <circle cx="256" cy="221" r="2.5" fill="#f4b860"/>
+  </g>
+
+  <g>
+    <ellipse cx="300" cy="222" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="300" cy="220" rx="2" ry="2" fill="#7a4830"/>
+    <g>
+      <rect x="296" y="216" width="3" height="2" rx="0.5" fill="#7848b8"/>
+      <rect x="301" y="216" width="3" height="2" rx="0.5" fill="#7848b8"/>
+    </g>
+    <rect x="296" y="222" width="8" height="14" fill="url(#violetFP4)"/>
+    <rect x="304" y="218" width="14" height="6" fill="#0a0810"/>
+  </g>
+  <g opacity="0.6" filter="url(#bloomP4)">
+    <circle cx="312" cy="221" r="2" fill="#a878d0"/>
+  </g>
+  <g opacity="0.45">
+    <text x="304" y="222" font-family="Courier New, monospace" font-size="3" fill="#a878d0">▓░?░▓</text>
+  </g>
+
+  <g>
+    <ellipse cx="350" cy="170" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="350" cy="168" rx="2" ry="2" fill="#7a4830"/>
+    <g opacity="0.5" filter="url(#bloomP4)">
+      <ellipse cx="346" cy="164" rx="3" ry="2" fill="#d8b020"/>
+      <ellipse cx="354" cy="164" rx="3" ry="2" fill="#d8b020"/>
+    </g>
+    <rect x="346" y="172" width="8" height="14" fill="url(#emeraldFP4)"/>
+    <path d="M 340 174 Q 332 180 332 196" stroke="url(#emeraldFP4)" stroke-width="3" fill="none"/>
+    <path d="M 360 174 Q 368 180 368 196" stroke="url(#emeraldFP4)" stroke-width="3" fill="none"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="244" y1="218" x2="500" y2="160" stroke="#f4d090" stroke-width="0.4" stroke-dasharray="2 2"/>
+    <line x1="148" y1="222" x2="540" y2="180" stroke="#a89878" stroke-width="0.4" stroke-dasharray="2 2" opacity="0.55"/>
+    <line x1="304" y1="218" x2="560" y2="170" stroke="#a878d0" stroke-width="0.4" stroke-dasharray="2 2" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="120" cy="240" rx="6" ry="2" fill="#040202"/>
+    <ellipse cx="180" cy="240" rx="6" ry="2" fill="#040202"/>
+    <ellipse cx="240" cy="240" rx="6" ry="2" fill="#040202"/>
+    <ellipse cx="300" cy="240" rx="6" ry="2" fill="#040202"/>
+    <ellipse cx="350" cy="190" rx="6" ry="2" fill="#040202"/>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="240" height="22" rx="3" fill="#f5ecd8" opacity="0.92" stroke="#c8b898" stroke-width="0.5" stroke-dasharray="3 2"/>
+    <text x="108" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#7848b8" font-weight="700">LUMA: "Cloaking field — can't penetrate."</text>
+    <text x="108" y="19" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#5a6478" font-weight="700">SABLE: "I see it." — WREN: "I see it too."</text>
+  </g>
+</svg>
