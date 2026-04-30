@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 14 — Panel 3: Theodore exits the churchyard, closes the gate gently — boy who has seen something that aged him slightly</title>
+  <desc>28mm wide eye level. Theodore exits churchyard through iron gate into Victorian street at night. Pulls gate carefully behind him — respectful, not slamming, broken padlock hanging open. Churchyard behind dark — overgrown ivy, leaning headstones, stone church heavy shadow against night sky. Beyond, warm amber gaslight from surrounding streets illuminates cobblestones and boy's figure. Sandy-brown hair, worn waistcoat, data core's bulge visible inside, expression subdued and slightly older than when he entered. Gate's iron railings catch gaslight. Night has fully fallen.</desc>
+
+  <defs>
+    <linearGradient id="i8p14p3sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2438"/>
+      <stop offset="100%" stop-color="#0a1018"/>
+    </linearGradient>
+    <linearGradient id="i8p14p3stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i8p14p3churchShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p14p3cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="i8p14p3iron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i8p14p3ivy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a3018"/>
+      <stop offset="100%" stop-color="#0a1808"/>
+    </linearGradient>
+    <radialGradient id="i8p14p3streetLamp" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#a86838" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p14p3waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p14p3trousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="i8p14p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d0a0"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i8p14p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p14p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p14p3megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="366" height="60" fill="url(#i8p14p3sky)"/>
+  <!-- Few stars -->
+  <circle cx="80" cy="20" r="0.55" fill="#fff8e8" filter="url(#i8p14p3bloom)" opacity="0.7"/>
+  <circle cx="200" cy="15" r="0.55" fill="#fff8e8" filter="url(#i8p14p3bloom)" opacity="0.55"/>
+  <circle cx="280" cy="22" r="0.4" fill="#fff8e8" filter="url(#i8p14p3bloom)" opacity="0.4"/>
+  <!-- Cloud layer -->
+  <ellipse cx="183" cy="40" rx="180" ry="11" fill="#3a4858" opacity="0.55" filter="url(#i8p14p3glow)"/>
+
+  <!-- ===== CHURCH BEHIND — heavy shadow against night sky ===== -->
+  <rect x="0" y="0" width="220" height="300" fill="url(#i8p14p3churchShadow)"/>
+  <!-- Church silhouette (Norman lower, Gothic upper) -->
+  <rect x="40" y="60" width="180" height="100" fill="#0a0408"/>
+  <!-- Pointed arch windows boarded -->
+  <g fill="#040408">
+    <path d="M70,150 L70,130 Q70,110 90,110 Q110,110 110,130 L110,150 Z"/>
+    <path d="M150,150 L150,130 Q150,110 170,110 Q190,110 190,130 L190,150 Z"/>
+  </g>
+  <!-- Stone block lines on church (faint) -->
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.55">
+    <line x1="40" y1="100" x2="220" y2="100"/>
+    <line x1="40" y1="140" x2="220" y2="140"/>
+    <line x1="100" y1="60" x2="100" y2="100"/>
+    <line x1="160" y1="100" x2="160" y2="140"/>
+  </g>
+  <!-- Cross on top -->
+  <rect x="129" y="35" width="3" height="22" fill="#3a3030"/>
+  <rect x="124" y="42" width="14" height="3" fill="#3a3030"/>
+
+  <!-- Churchyard ground (overgrown) -->
+  <rect x="0" y="160" width="220" height="140" fill="url(#i8p14p3stone)"/>
+  <g fill="url(#i8p14p3ivy)" opacity="0.85">
+    <ellipse cx="40" cy="200" rx="22" ry="9"/>
+    <ellipse cx="100" cy="220" rx="30" ry="11"/>
+    <ellipse cx="180" cy="240" rx="22" ry="9"/>
+  </g>
+  <!-- Long grass / weeds -->
+  <g stroke="#3a3818" stroke-width="0.85" opacity="0.85">
+    <line x1="60" y1="240" x2="60" y2="225"/>
+    <line x1="120" y1="245" x2="120" y2="232"/>
+    <line x1="160" y1="240" x2="160" y2="228"/>
+  </g>
+  <!-- Leaning headstones -->
+  <g transform="translate(80 270)" opacity="0.85">
+    <path d="M-7,0 L-9,-22 L9,-22 L7,0 Z" fill="#5a4848" transform="rotate(-12)"/>
+  </g>
+  <g transform="translate(180 280)" opacity="0.7">
+    <path d="M-6,0 L-7,-18 L7,-18 L6,0 Z" fill="#5a4848" transform="rotate(8)"/>
+  </g>
+
+  <!-- ===== IRON GATE — Theodore pulling it CAREFULLY ===== -->
+  <g transform="translate(220 220)">
+    <!-- Gate frame post (left, fixed) -->
+    <rect x="-3" y="-60" width="6" height="80" fill="url(#i8p14p3iron)"/>
+    <!-- Gate panel (swinging closed) -->
+    <g transform="translate(0 0) rotate(-10)">
+      <rect x="0" y="-50" width="60" height="60" fill="url(#i8p14p3iron)" opacity="0.85"/>
+      <!-- Iron bars -->
+      <line x1="6" y1="-50" x2="6" y2="10" stroke="#0a0408" stroke-width="2"/>
+      <line x1="20" y1="-50" x2="20" y2="10" stroke="#0a0408" stroke-width="2"/>
+      <line x1="34" y1="-50" x2="34" y2="10" stroke="#0a0408" stroke-width="2"/>
+      <line x1="48" y1="-50" x2="48" y2="10" stroke="#0a0408" stroke-width="2"/>
+      <line x1="0" y1="-30" x2="60" y2="-30" stroke="#0a0408" stroke-width="2"/>
+      <line x1="0" y1="-10" x2="60" y2="-10" stroke="#0a0408" stroke-width="2"/>
+      <!-- Spear tips at top -->
+      <path d="M6,-50 L4,-54 L8,-54 Z" fill="#0a0408"/>
+      <path d="M20,-50 L18,-54 L22,-54 Z" fill="#0a0408"/>
+      <path d="M34,-50 L32,-54 L36,-54 Z" fill="#0a0408"/>
+      <path d="M48,-50 L46,-54 L50,-54 Z" fill="#0a0408"/>
+      <!-- BROKEN PADLOCK hanging open (right side, halfway open shackle) -->
+      <g transform="translate(58 -12)">
+        <rect x="-2" y="0" width="6" height="9" fill="#5a3818" stroke="#1a0808" stroke-width="0.55"/>
+        <!-- Open shackle -->
+        <path d="M-2,0 Q-2,-9 1,-11" stroke="#5a3818" stroke-width="1.4" fill="none"/>
+        <!-- Hanging part -->
+        <path d="M4,0 L7,-7" stroke="#5a3818" stroke-width="1.4" fill="none"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Iron railings extending from gate -->
+  <g stroke="#1a1818" stroke-width="2" fill="none">
+    <line x1="0" y1="220" x2="0" y2="260"/>
+    <line x1="220" y1="220" x2="220" y2="260"/>
+  </g>
+  <!-- Iron railing horizontals -->
+  <line x1="0" y1="225" x2="220" y2="225" stroke="#1a1818" stroke-width="1.4"/>
+
+  <!-- ===== STREET COBBLESTONES beyond gate (right side) ===== -->
+  <rect x="220" y="220" width="146" height="80" fill="url(#i8p14p3cobble)"/>
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.55">
+    <ellipse cx="240" cy="240" rx="11" ry="6"/>
+    <ellipse cx="280" cy="250" rx="11" ry="6"/>
+    <ellipse cx="320" cy="245" rx="11" ry="6"/>
+    <ellipse cx="260" cy="270" rx="11" ry="6"/>
+    <ellipse cx="300" cy="280" rx="11" ry="6"/>
+    <ellipse cx="340" cy="275" rx="11" ry="6"/>
+  </g>
+
+  <!-- Distant warm gaslight halo from surrounding streets (right) -->
+  <ellipse cx="320" cy="180" rx="160" ry="120" fill="url(#i8p14p3streetLamp)" filter="url(#i8p14p3megaglow)"/>
+  <!-- Subtle gleam on cobblestones from gaslight -->
+  <g opacity="0.85" filter="url(#i8p14p3bloom)">
+    <ellipse cx="280" cy="250" rx="6" ry="2" fill="#ffd898" opacity="0.55"/>
+    <ellipse cx="320" cy="245" rx="6" ry="2" fill="#ffd898" opacity="0.7"/>
+    <ellipse cx="340" cy="275" rx="6" ry="2" fill="#ffd898" opacity="0.55"/>
+  </g>
+
+  <!-- ===== THEODORE — just exited gate, hand on it pulling closed ===== -->
+  <g transform="translate(260 245)">
+    <!-- Body — turned slightly, hand back toward gate -->
+    <path d="M-7,40 L-9,9 L-7,-22 L-3,-32 L7,-32 L11,-22 L14,9 L11,40 Z" fill="url(#i8p14p3waistcoat)"/>
+    <!-- Buttons -->
+    <circle cx="3" cy="-22" r="0.85" fill="#a86838" filter="url(#i8p14p3bloom)"/>
+    <circle cx="3" cy="-9" r="0.85" fill="#a86838" filter="url(#i8p14p3bloom)"/>
+    <line x1="3" y1="-30" x2="3" y2="36" stroke="#1a0808" stroke-width="0.4"/>
+
+    <!-- Wrapped data core BULGE -->
+    <path d="M-9,-15 L-3,-22 L11,-22 L14,-15 L11,-7 L-3,-7 Z" fill="#a89878" opacity="0.7"/>
+
+    <!-- Left arm reaching back to gate -->
+    <path d="M-7,-22 L-22,-7 L-18,3 L-3,-9 Z" fill="url(#i8p14p3waistcoat)"/>
+    <ellipse cx="-22" cy="-7" rx="3" ry="2" fill="url(#i8p14p3skin)"/>
+
+    <!-- Right hand at side -->
+    <path d="M11,-9 L14,9 L11,11 L7,3 Z" fill="url(#i8p14p3waistcoat)"/>
+
+    <!-- Walking legs (just exited) -->
+    <path d="M-3,40 L-5,55 L-1,55 L0,40 Z" fill="url(#i8p14p3trousers)"/>
+    <path d="M3,40 L7,55 L11,55 L9,40 Z" fill="url(#i8p14p3trousers)"/>
+    <path d="M-5,55 L-9,62 L-1,62 L-1,55 Z" fill="#1a1008"/>
+    <path d="M7,55 L11,62 L7,62 L7,55 Z" fill="#1a1008"/>
+
+    <!-- Shirt collar -->
+    <path d="M-3,-50 L-1,-54 L7,-54 L9,-50 L7,-44 L-1,-44 Z" fill="#e8d0a8"/>
+
+    <!-- Head — turned slightly back toward gate (left) -->
+    <ellipse cx="0" cy="-66" rx="6" ry="7" fill="url(#i8p14p3skin)"/>
+    <path d="M-5,-76 Q0,-80 5,-76 L5,-66 Q0,-70 -5,-66 Z" fill="#7a5028"/>
+    <!-- Warm amber catch from gaslight on hair -->
+    <ellipse cx="0" cy="-78" rx="5" ry="2" fill="#ffd898" opacity="0.85" filter="url(#i8p14p3bloom)"/>
+    <!-- Eyes — looking down/back, subdued -->
+    <ellipse cx="-3" cy="-66" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="-3" cy="-66" r="0.4" fill="#5a3018"/>
+    <ellipse cx="3" cy="-66" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="3" cy="-66" r="0.4" fill="#5a3018"/>
+    <!-- Brows slightly drawn -->
+    <line x1="-5" y1="-71" x2="-1" y2="-71" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-71" x2="5" y2="-71" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Mouth — closed, quiet -->
+    <line x1="-2" y1="-58" x2="2" y2="-58" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- Warm gaslight catching Theodore's right side -->
+  <ellipse cx="280" cy="220" rx="14" ry="40" fill="#ffd898" opacity="0.18" filter="url(#i8p14p3glow)"/>
+
+  <!-- ===== DIALOGUE — Theodore quietly ===== -->
+  <g>
+    <rect x="14" y="14" width="280" height="36" rx="2" fill="white" stroke="#7a4828" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7a4828" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(quietly)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">We should go. It's properly dark now.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>

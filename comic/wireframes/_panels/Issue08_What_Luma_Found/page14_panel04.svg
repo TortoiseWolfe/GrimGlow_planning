@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 14 — Panel 4: Theodore on Victorian street at night carrying centuries against his chest — the secret moves through the everyday world</title>
+  <desc>28mm wide establishing eye level. Victorian street at night — gaslight casting warm amber pools on cobblestones, fog diffusing light, pedestrians and passing hansom cab creating ordinary evening rhythm. Theodore walks among them — slight boy, sandy-brown hair, worn waistcoat, hands in trouser pockets, posture slightly guarded — protecting hidden cargo inside waistcoat. Blends into ordinary world. No one looks twice. Warm amber gaslight illuminates everything equally — boy and pedestrians and cobblestones and fog. No cool light. No fairy technology visible. The extraordinary hidden in the ordinary.</desc>
+
+  <defs>
+    <linearGradient id="i8p14p4sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2438"/>
+      <stop offset="100%" stop-color="#0a1018"/>
+    </linearGradient>
+    <linearGradient id="i8p14p4buildings" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="i8p14p4cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <radialGradient id="i8p14p4lampPool" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a86838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p14p4fogGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5a4838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="i8p14p4waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p14p4trousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="i8p14p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d0a0"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i8p14p4cab" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p14p4peacoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <filter id="i8p14p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p14p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p14p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p14p4megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="742" height="100" fill="url(#i8p14p4sky)"/>
+  <!-- Fog layer (thick over street) -->
+  <rect x="0" y="80" width="742" height="80" fill="url(#i8p14p4fogGradient)"/>
+  <!-- Stars partial through fog -->
+  <circle cx="150" cy="30" r="0.55" fill="#fff8e8" filter="url(#i8p14p4bloom)" opacity="0.55"/>
+  <circle cx="500" cy="40" r="0.4" fill="#fff8e8" filter="url(#i8p14p4bloom)" opacity="0.4"/>
+
+  <!-- Buildings on both sides (Victorian street) -->
+  <rect x="0" y="40" width="200" height="220" fill="url(#i8p14p4buildings)"/>
+  <rect x="540" y="40" width="202" height="220" fill="url(#i8p14p4buildings)"/>
+  <!-- Brick mortar -->
+  <g stroke="#040408" stroke-width="0.55" opacity="0.7">
+    <line x1="0" y1="80" x2="200" y2="80"/>
+    <line x1="0" y1="120" x2="200" y2="120"/>
+    <line x1="0" y1="160" x2="200" y2="160"/>
+    <line x1="0" y1="200" x2="200" y2="200"/>
+    <line x1="540" y1="80" x2="742" y2="80"/>
+    <line x1="540" y1="120" x2="742" y2="120"/>
+    <line x1="540" y1="160" x2="742" y2="160"/>
+    <line x1="540" y1="200" x2="742" y2="200"/>
+  </g>
+  <!-- Lit windows (warm interior life) -->
+  <g fill="#a86838" opacity="0.85">
+    <rect x="40" y="100" width="22" height="28"/>
+    <rect x="100" y="140" width="22" height="28"/>
+    <rect x="140" y="80" width="22" height="28"/>
+    <rect x="600" y="120" width="22" height="28"/>
+    <rect x="660" y="160" width="22" height="28"/>
+    <rect x="700" y="100" width="22" height="28"/>
+  </g>
+  <g stroke="#3a1808" stroke-width="0.4" opacity="0.85">
+    <line x1="40" y1="114" x2="62" y2="114"/>
+    <line x1="51" y1="100" x2="51" y2="128"/>
+    <line x1="100" y1="154" x2="122" y2="154"/>
+    <line x1="111" y1="140" x2="111" y2="168"/>
+    <line x1="140" y1="94" x2="162" y2="94"/>
+    <line x1="151" y1="80" x2="151" y2="108"/>
+    <line x1="600" y1="134" x2="622" y2="134"/>
+    <line x1="611" y1="120" x2="611" y2="148"/>
+    <line x1="660" y1="174" x2="682" y2="174"/>
+    <line x1="671" y1="160" x2="671" y2="188"/>
+    <line x1="700" y1="114" x2="722" y2="114"/>
+    <line x1="711" y1="100" x2="711" y2="128"/>
+  </g>
+
+  <!-- ===== GASLIGHTS along the street (multiple, casting warm amber pools) ===== -->
+  <g transform="translate(140 100)">
+    <rect x="-2" y="0" width="4" height="160" fill="#3a3030"/>
+    <path d="M0,0 L-22,-9 L-22,-7 L-2,3 Z" fill="#3a3030"/>
+    <rect x="-22" y="-26" width="22" height="22" fill="#1a1818"/>
+    <polygon points="-26,-26 4,-26 0,-36 -22,-36" fill="#3a3030"/>
+    <rect x="-18" y="-22" width="14" height="16" fill="#3a1808"/>
+    <ellipse cx="-11" cy="-14" rx="6" ry="9" fill="#fff8d8" filter="url(#i8p14p4strongglow)" opacity="0.85"/>
+    <ellipse cx="-11" cy="-14" rx="3" ry="6" fill="#fff" filter="url(#i8p14p4bloom)"/>
+  </g>
+  <ellipse cx="120" cy="240" rx="120" ry="40" fill="url(#i8p14p4lampPool)" filter="url(#i8p14p4megaglow)" opacity="0.85"/>
+
+  <g transform="translate(420 110)">
+    <rect x="-2" y="0" width="4" height="150" fill="#3a3030"/>
+    <rect x="-18" y="-22" width="18" height="18" fill="#1a1818"/>
+    <ellipse cx="-9" cy="-12" rx="4" ry="6" fill="#fff8d8" filter="url(#i8p14p4strongglow)" opacity="0.85"/>
+  </g>
+  <ellipse cx="400" cy="240" rx="100" ry="35" fill="url(#i8p14p4lampPool)" filter="url(#i8p14p4megaglow)" opacity="0.7"/>
+
+  <g transform="translate(660 100)">
+    <rect x="-2" y="0" width="4" height="160" fill="#3a3030"/>
+    <rect x="-22" y="-26" width="22" height="22" fill="#1a1818"/>
+    <polygon points="-26,-26 4,-26 0,-36 -22,-36" fill="#3a3030"/>
+    <rect x="-18" y="-22" width="14" height="16" fill="#3a1808"/>
+    <ellipse cx="-11" cy="-14" rx="6" ry="9" fill="#fff8d8" filter="url(#i8p14p4strongglow)" opacity="0.85"/>
+  </g>
+  <ellipse cx="640" cy="240" rx="120" ry="40" fill="url(#i8p14p4lampPool)" filter="url(#i8p14p4megaglow)" opacity="0.85"/>
+
+  <!-- Cobblestone street -->
+  <rect x="0" y="220" width="742" height="80" fill="url(#i8p14p4cobble)"/>
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.55">
+    <ellipse cx="40" cy="240" rx="11" ry="6"/>
+    <ellipse cx="100" cy="250" rx="11" ry="6"/>
+    <ellipse cx="200" cy="245" rx="11" ry="6"/>
+    <ellipse cx="280" cy="250" rx="11" ry="6"/>
+    <ellipse cx="370" cy="245" rx="11" ry="6"/>
+    <ellipse cx="450" cy="250" rx="11" ry="6"/>
+    <ellipse cx="540" cy="245" rx="11" ry="6"/>
+    <ellipse cx="620" cy="250" rx="11" ry="6"/>
+    <ellipse cx="700" cy="245" rx="11" ry="6"/>
+    <ellipse cx="80" cy="270" rx="11" ry="6"/>
+    <ellipse cx="220" cy="280" rx="11" ry="6"/>
+    <ellipse cx="380" cy="285" rx="11" ry="6"/>
+    <ellipse cx="540" cy="280" rx="11" ry="6"/>
+    <ellipse cx="680" cy="285" rx="11" ry="6"/>
+  </g>
+  <!-- Cobblestones gleam where lamps reach -->
+  <g opacity="0.85" filter="url(#i8p14p4bloom)">
+    <ellipse cx="120" cy="245" rx="9" ry="3" fill="#ffd898" opacity="0.7"/>
+    <ellipse cx="400" cy="245" rx="6" ry="2" fill="#ffd898" opacity="0.55"/>
+    <ellipse cx="640" cy="245" rx="9" ry="3" fill="#ffd898" opacity="0.7"/>
+  </g>
+
+  <!-- ===== HANSOM CAB passing in the distance ===== -->
+  <g transform="translate(540 200)" opacity="0.85">
+    <!-- Cab body -->
+    <path d="M-30,30 L-30,-9 L-22,-22 L22,-22 L30,-9 L30,30 Z" fill="url(#i8p14p4cab)"/>
+    <!-- Cab top window -->
+    <rect x="-22" y="-15" width="44" height="9" fill="#3a2818"/>
+    <!-- Wheels -->
+    <circle cx="-22" cy="33" r="11" fill="none" stroke="#1a1410" stroke-width="2"/>
+    <circle cx="-22" cy="33" r="6" fill="none" stroke="#1a1410" stroke-width="0.85"/>
+    <circle cx="22" cy="33" r="11" fill="none" stroke="#1a1410" stroke-width="2"/>
+    <circle cx="22" cy="33" r="6" fill="none" stroke="#1a1410" stroke-width="0.85"/>
+    <!-- Spokes -->
+    <line x1="-22" y1="22" x2="-22" y2="44" stroke="#1a1410" stroke-width="0.4"/>
+    <line x1="-33" y1="33" x2="-11" y2="33" stroke="#1a1410" stroke-width="0.4"/>
+    <line x1="22" y1="22" x2="22" y2="44" stroke="#1a1410" stroke-width="0.4"/>
+    <line x1="11" y1="33" x2="33" y2="33" stroke="#1a1410" stroke-width="0.4"/>
+    <!-- Driver perch -->
+    <rect x="22" y="-30" width="11" height="11" fill="url(#i8p14p4cab)"/>
+    <!-- Driver silhouette -->
+    <ellipse cx="28" cy="-36" rx="3" ry="6" fill="#1a1410"/>
+    <ellipse cx="28" cy="-44" rx="2" ry="2" fill="#1a1410"/>
+    <!-- Horse front (just nose visible at edge) -->
+    <ellipse cx="-44" cy="22" rx="11" ry="14" fill="#3a2818"/>
+    <ellipse cx="-50" cy="18" rx="6" ry="5" fill="#1a1410"/>
+    <!-- Lamp on cab (warm glow) -->
+    <circle cx="-30" cy="-18" r="2" fill="#ffd898" filter="url(#i8p14p4bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ===== OTHER PEDESTRIANS in the warm gaslight ===== -->
+  <!-- Pedestrian 1 (left, walking away) -->
+  <g transform="translate(80 245)" opacity="0.85">
+    <path d="M-9,40 L-11,-22 L-7,-44 L7,-44 L14,-22 L14,40 Z" fill="url(#i8p14p4peacoat)"/>
+    <ellipse cx="0" cy="-58" rx="5" ry="6" fill="#a87838"/>
+    <path d="M-7,-66 Q0,-72 7,-66 L7,-58 Q0,-62 -7,-58 Z" fill="#1a1818"/>
+    <!-- Walking legs -->
+    <path d="M-3,40 L-7,55 L-3,55 L0,40 Z" fill="url(#i8p14p4peacoat)"/>
+    <path d="M3,40 L7,55 L11,55 L9,40 Z" fill="url(#i8p14p4peacoat)"/>
+  </g>
+  <!-- Pedestrian 2 (right, approaching) -->
+  <g transform="translate(620 250)" opacity="0.85">
+    <path d="M-9,30 L-11,-22 L-7,-44 L7,-44 L14,-22 L14,30 Z" fill="url(#i8p14p4peacoat)"/>
+    <ellipse cx="0" cy="-58" rx="5" ry="6" fill="#a87838"/>
+    <path d="M-7,-66 Q0,-72 7,-66 L7,-58 Q0,-62 -7,-58 Z" fill="#3a2818"/>
+    <!-- Cane -->
+    <line x1="-14" y1="-22" x2="-22" y2="40" stroke="#3a2818" stroke-width="2"/>
+  </g>
+
+  <!-- ===== THEODORE walking — center, blending in ===== -->
+  <g transform="translate(280 230)">
+    <!-- Body -->
+    <path d="M-7,40 L-9,9 L-7,-22 L-3,-32 L7,-32 L11,-22 L14,9 L11,40 Z" fill="url(#i8p14p4waistcoat)"/>
+    <!-- Buttons -->
+    <circle cx="3" cy="-22" r="0.85" fill="#a86838" filter="url(#i8p14p4bloom)"/>
+    <circle cx="3" cy="-9" r="0.85" fill="#a86838" filter="url(#i8p14p4bloom)"/>
+    <line x1="3" y1="-30" x2="3" y2="36" stroke="#1a0808" stroke-width="0.4"/>
+
+    <!-- ===== Wrapped data core BULGE — slightly visible (the hidden cargo) ===== -->
+    <path d="M-9,-15 L-3,-22 L11,-22 L14,-15 L11,-7 L-3,-7 Z" fill="#a89878" opacity="0.55"/>
+    <ellipse cx="3" cy="-15" rx="6" ry="2" fill="#1a1018" opacity="0.4"/>
+
+    <!-- Hands in trouser pockets (slightly guarded, protecting the cargo) -->
+    <ellipse cx="-9" cy="3" rx="3" ry="1.4" fill="url(#i8p14p4waistcoat)"/>
+    <ellipse cx="11" cy="3" rx="3" ry="1.4" fill="url(#i8p14p4waistcoat)"/>
+
+    <!-- Walking legs -->
+    <path d="M-3,40 L-7,55 L-3,55 L0,40 Z" fill="url(#i8p14p4trousers)"/>
+    <path d="M3,40 L7,55 L11,55 L9,40 Z" fill="url(#i8p14p4trousers)"/>
+    <path d="M-7,55 L-9,62 L-3,62 L-3,55 Z" fill="#1a1008"/>
+    <path d="M7,55 L11,62 L7,62 L7,55 Z" fill="#1a1008"/>
+
+    <!-- Shirt collar -->
+    <path d="M-3,-50 L-1,-54 L7,-54 L9,-50 L7,-44 L-1,-44 Z" fill="#e8d0a8"/>
+
+    <!-- Head — facing forward, walking -->
+    <ellipse cx="3" cy="-66" rx="6" ry="7" fill="url(#i8p14p4skin)"/>
+    <path d="M-3,-76 Q3,-80 9,-76 L9,-66 Q3,-70 -3,-66 Z" fill="#7a5028"/>
+    <!-- Warm amber catch (gaslight) -->
+    <ellipse cx="3" cy="-78" rx="5" ry="2" fill="#ffd898" opacity="0.85" filter="url(#i8p14p4bloom)"/>
+    <!-- Eyes — focused forward -->
+    <ellipse cx="0" cy="-66" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="0" cy="-66" r="0.4" fill="#5a3018"/>
+    <ellipse cx="6" cy="-66" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="6" cy="-66" r="0.4" fill="#5a3018"/>
+    <!-- Brows slightly drawn (alertness) -->
+    <line x1="-3" y1="-71" x2="3" y2="-71" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="3" y1="-71" x2="9" y2="-71" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Mouth closed -->
+    <line x1="0" y1="-58" x2="6" y2="-58" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- Fog wisps in the air -->
+  <g opacity="0.55" filter="url(#i8p14p4glow)">
+    <ellipse cx="200" cy="180" rx="80" ry="14" fill="#5a4838"/>
+    <ellipse cx="500" cy="200" rx="100" ry="11" fill="#5a4838"/>
+    <ellipse cx="350" cy="220" rx="60" ry="9" fill="#5a4838"/>
+  </g>
+
+  <!-- ===== CAPTION ===== -->
+  <g>
+    <rect x="14" y="14" width="500" height="48" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">The city breathed its ordinary breath. Gaslight and fog and the sound of wheels on stone.</text>
+  <text x="22" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">Theodore carried a dead world's last words against his chest,</text>
+  <text x="22" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic" font-weight="700">and the living world didn't notice.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>

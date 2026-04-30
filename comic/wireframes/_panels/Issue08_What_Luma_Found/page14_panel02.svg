@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 14 — Panel 2: Theodore crosses the nave subdued — the church now a monument, Luma silent in the pocket</title>
+  <desc>50mm medium eye level. Theodore crosses dusty nave of abandoned church toward exit — walking with more care than when he entered, slight figure passing between rows of dust-covered pews. Data core bulge visible inside waistcoat. In breast pocket, Luma's head visible — tiny face staring straight ahead, holographic lenses inactive, scanner dark. She is silent and distant. Grey filtered daylight from boarded windows creates shafts of light in which dust motes drift. No blue-violet — Luma's scanner off. Warmth of church grey warmth of old stone. Church just a church on surface. The crossing of sacred space.</desc>
+
+  <defs>
+    <linearGradient id="i8p14p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i8p14p2stoneFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="i8p14p2pew" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p14p2greyShaft" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#a8a8b8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1820" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p14p2waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p14p2trousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="i8p14p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d0a0"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i8p14p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p14p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p14p2megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i8p14p2bg)"/>
+
+  <!-- High walls -->
+  <rect x="0" y="0" width="50" height="220" fill="#2a2030"/>
+  <rect x="316" y="0" width="50" height="220" fill="#2a2030"/>
+
+  <!-- Boarded windows (left and right) -->
+  <g transform="translate(25 80)">
+    <rect x="-14" y="0" width="28" height="60" fill="#1a0808"/>
+    <rect x="-14" y="0" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="14" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="28" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="42" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="56" width="28" height="4" fill="#3a2010"/>
+    <line x1="-14" y1="9" x2="14" y2="9" stroke="#a8a8b8" stroke-width="0.55" filter="url(#i8p14p2bloom)" opacity="0.85"/>
+    <line x1="-14" y1="23" x2="14" y2="23" stroke="#a8a8b8" stroke-width="0.55" filter="url(#i8p14p2bloom)" opacity="0.85"/>
+    <line x1="-14" y1="37" x2="14" y2="37" stroke="#a8a8b8" stroke-width="0.55" filter="url(#i8p14p2bloom)" opacity="0.85"/>
+    <line x1="-14" y1="51" x2="14" y2="51" stroke="#a8a8b8" stroke-width="0.55" filter="url(#i8p14p2bloom)" opacity="0.85"/>
+  </g>
+  <g transform="translate(341 80)">
+    <rect x="-14" y="0" width="28" height="60" fill="#1a0808"/>
+    <rect x="-14" y="0" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="14" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="28" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="42" width="28" height="6" fill="#3a2010"/>
+    <rect x="-14" y="56" width="28" height="4" fill="#3a2010"/>
+    <line x1="-14" y1="9" x2="14" y2="9" stroke="#a8a8b8" stroke-width="0.55" filter="url(#i8p14p2bloom)" opacity="0.85"/>
+    <line x1="-14" y1="23" x2="14" y2="23" stroke="#a8a8b8" stroke-width="0.55" filter="url(#i8p14p2bloom)" opacity="0.85"/>
+    <line x1="-14" y1="37" x2="14" y2="37" stroke="#a8a8b8" stroke-width="0.55" filter="url(#i8p14p2bloom)" opacity="0.85"/>
+    <line x1="-14" y1="51" x2="14" y2="51" stroke="#a8a8b8" stroke-width="0.55" filter="url(#i8p14p2bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- Light shafts from boarded windows -->
+  <ellipse cx="25" cy="120" rx="50" ry="80" fill="url(#i8p14p2greyShaft)" filter="url(#i8p14p2megaglow)" opacity="0.7"/>
+  <ellipse cx="341" cy="120" rx="50" ry="80" fill="url(#i8p14p2greyShaft)" filter="url(#i8p14p2megaglow)" opacity="0.7"/>
+
+  <!-- Dust motes in light shafts -->
+  <g fill="#fff8d8" opacity="0.55" filter="url(#i8p14p2bloom)">
+    <circle cx="40" cy="100" r="0.55"/>
+    <circle cx="55" cy="120" r="0.4"/>
+    <circle cx="35" cy="140" r="0.55"/>
+    <circle cx="320" cy="110" r="0.55"/>
+    <circle cx="335" cy="130" r="0.4"/>
+    <circle cx="345" cy="150" r="0.55"/>
+  </g>
+
+  <!-- Stone floor -->
+  <rect x="50" y="180" width="266" height="120" fill="url(#i8p14p2stoneFloor)"/>
+  <g stroke="#1a0808" stroke-width="0.55" opacity="0.7">
+    <line x1="50" y1="200" x2="316" y2="200"/>
+    <line x1="50" y1="230" x2="316" y2="230"/>
+    <line x1="50" y1="260" x2="316" y2="260"/>
+    <line x1="120" y1="180" x2="120" y2="200"/>
+    <line x1="200" y1="180" x2="200" y2="200"/>
+    <line x1="280" y1="180" x2="280" y2="200"/>
+    <line x1="100" y1="200" x2="100" y2="230"/>
+    <line x1="180" y1="200" x2="180" y2="230"/>
+    <line x1="260" y1="200" x2="260" y2="230"/>
+    <line x1="80" y1="230" x2="80" y2="260"/>
+    <line x1="160" y1="230" x2="160" y2="260"/>
+    <line x1="240" y1="230" x2="240" y2="260"/>
+  </g>
+  <!-- Heavy dust on floor -->
+  <g fill="#a89878" opacity="0.4">
+    <ellipse cx="100" cy="220" rx="40" ry="5"/>
+    <ellipse cx="220" cy="240" rx="50" ry="6"/>
+    <ellipse cx="280" cy="270" rx="40" ry="5"/>
+  </g>
+
+  <!-- Pews flanking Theodore's path -->
+  <g fill="url(#i8p14p2pew)">
+    <!-- Left pews -->
+    <rect x="65" y="200" width="80" height="6"/>
+    <rect x="62" y="195" width="3" height="11"/>
+    <rect x="142" y="195" width="3" height="11"/>
+    <rect x="65" y="220" width="90" height="6"/>
+    <rect x="62" y="215" width="3" height="11"/>
+    <rect x="152" y="215" width="3" height="11"/>
+    <!-- Right pews -->
+    <rect x="225" y="200" width="80" height="6"/>
+    <rect x="222" y="195" width="3" height="11"/>
+    <rect x="302" y="195" width="3" height="11"/>
+    <rect x="220" y="220" width="90" height="6"/>
+    <rect x="217" y="215" width="3" height="11"/>
+    <rect x="307" y="215" width="3" height="11"/>
+  </g>
+  <!-- Dust on pews -->
+  <line x1="65" y1="200" x2="145" y2="200" stroke="#a89878" stroke-width="2" opacity="0.55"/>
+  <line x1="225" y1="200" x2="305" y2="200" stroke="#a89878" stroke-width="2" opacity="0.55"/>
+
+  <!-- ===== THEODORE crossing nave (mid-frame, slight figure between pews) ===== -->
+  <g transform="translate(183 240)">
+    <!-- Body — walking with care -->
+    <path d="M-7,18 L-9,3 L-7,-22 L-3,-32 L7,-32 L11,-22 L14,3 L11,18 Z" fill="url(#i8p14p2waistcoat)"/>
+    <!-- Buttons -->
+    <circle cx="3" cy="-22" r="0.85" fill="#a86838" filter="url(#i8p14p2bloom)"/>
+    <circle cx="3" cy="-9" r="0.85" fill="#a86838" filter="url(#i8p14p2bloom)"/>
+    <circle cx="3" cy="3" r="0.85" fill="#a86838" filter="url(#i8p14p2bloom)"/>
+    <line x1="3" y1="-30" x2="3" y2="14" stroke="#1a0808" stroke-width="0.4"/>
+
+    <!-- ===== Wrapped data core BULGE inside waistcoat ===== -->
+    <path d="M-9,-15 L-3,-22 L11,-22 L14,-15 L11,-7 L-3,-7 Z" fill="#a89878" opacity="0.7"/>
+    <ellipse cx="3" cy="-15" rx="6" ry="2" fill="#1a1018" opacity="0.55"/>
+
+    <!-- ===== BREAST POCKET with Luma's HEAD visible — silent ===== -->
+    <rect x="-9" y="-22" width="6" height="9" fill="#3a2010" opacity="0.85"/>
+    <!-- Tiny Luma face peeking, lenses INACTIVE/dark -->
+    <ellipse cx="-6" cy="-19" rx="2" ry="1.4" fill="url(#i8p14p2skin)"/>
+    <!-- Lenses dim/dark (no scanner light) -->
+    <ellipse cx="-7" cy="-19" rx="0.85" ry="0.55" fill="none" stroke="#3a1858" stroke-width="0.4" opacity="0.7"/>
+    <ellipse cx="-5" cy="-19" rx="0.85" ry="0.55" fill="none" stroke="#3a1858" stroke-width="0.4" opacity="0.7"/>
+    <!-- Eyes staring straight ahead (silent) -->
+    <line x1="-7" y1="-19" x2="-6" y2="-19" stroke="#1a0808" stroke-width="0.4"/>
+    <line x1="-5" y1="-19" x2="-4" y2="-19" stroke="#1a0808" stroke-width="0.4"/>
+
+    <!-- Hands at sides -->
+    <ellipse cx="-9" cy="3" rx="3" ry="1.4" fill="url(#i8p14p2skin)"/>
+    <ellipse cx="11" cy="3" rx="3" ry="1.4" fill="url(#i8p14p2skin)"/>
+
+    <!-- Walking legs (mid-stride, careful) -->
+    <path d="M-3,18 L-7,40 L-3,40 L0,18 Z" fill="url(#i8p14p2trousers)"/>
+    <path d="M3,18 L7,40 L11,40 L9,18 Z" fill="url(#i8p14p2trousers)"/>
+    <!-- Boots -->
+    <path d="M-7,40 L-9,46 L-3,46 L-3,40 Z" fill="#1a1008"/>
+    <path d="M7,40 L11,46 L7,46 L7,40 Z" fill="#1a1008"/>
+
+    <!-- Shirt collar -->
+    <path d="M-3,-50 L-1,-54 L7,-54 L9,-50 L7,-44 L-1,-44 Z" fill="#e8d0a8"/>
+    <!-- Neck -->
+    <path d="M-1,-54 L7,-54 L5,-62 L1,-62 Z" fill="url(#i8p14p2skin)"/>
+
+    <!-- Head — looking forward, subdued -->
+    <ellipse cx="3" cy="-72" rx="6" ry="7" fill="url(#i8p14p2skin)"/>
+    <path d="M-3,-80 Q3,-84 9,-80 L9,-72 Q3,-76 -3,-72 Z" fill="#7a5028"/>
+    <ellipse cx="3" cy="-82" rx="4" ry="1.4" fill="#a8a8b8" opacity="0.55" filter="url(#i8p14p2bloom)"/>
+    <!-- Eyes — forward, subdued -->
+    <ellipse cx="0" cy="-72" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="0" cy="-72" r="0.4" fill="#5a3018"/>
+    <ellipse cx="6" cy="-72" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="6" cy="-72" r="0.4" fill="#5a3018"/>
+    <!-- Brows slightly drawn -->
+    <line x1="-3" y1="-77" x2="3" y2="-77" stroke="#3a1808" stroke-width="0.4"/>
+    <line x1="3" y1="-77" x2="9" y2="-77" stroke="#3a1808" stroke-width="0.4"/>
+    <!-- Mouth — closed, quiet -->
+    <line x1="0" y1="-66" x2="6" y2="-66" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+  <!-- Footprint dust trail behind Theodore -->
+  <ellipse cx="183" cy="280" rx="30" ry="3" fill="#7a6038" opacity="0.55"/>
+  <ellipse cx="170" cy="290" rx="22" ry="2" fill="#7a6038" opacity="0.4"/>
+
+  <!-- (No dialogue — the silence IS the panel) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>

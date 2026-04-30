@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 14 — Panel 1: The ascent — Theodore climbs back toward the grey light, Luma looks back, the cache returns to darkness</title>
+  <desc>28mm wide slightly low angle. Theodore climbs collapsed stone steps toward grey filtered light above — candle in one hand, handkerchief-wrapped data core visible as bulge inside waistcoat. On shoulder Luma looks back and down into basement — tiny figure in sapphire-violet suit, holographic lenses casting faint light toward darkness below. Behind and below them, cache alcove returns to darkness — glyph trail's phosphorescence fading, word on wall dimming to dormancy, relics settling back into centuries of dust. Ascent moves from cold blue-violet darkness below to grey filtered daylight above. Theodore climbs carefully. Candle's warm amber light leads way.</desc>
+
+  <defs>
+    <linearGradient id="i8p14p1bgUpper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i8p14p1bgLower" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p14p1stoneSteps" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <radialGradient id="i8p14p1greyAbove" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#a8a8b8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p14p1candleHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p14p1cacheFading" cx="50%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#7848b8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p14p1stayDormant" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a1858" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a0828" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p14p1waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p14p1trousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="i8p14p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d0a0"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <linearGradient id="i8p14p1lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <filter id="i8p14p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p14p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p14p1strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p14p1megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- Vertical gradient: grey above transitioning to dark below -->
+  <rect x="0" y="0" width="742" height="120" fill="url(#i8p14p1bgUpper)"/>
+  <rect x="0" y="120" width="742" height="180" fill="url(#i8p14p1bgLower)"/>
+
+  <!-- Grey filtered daylight from above -->
+  <ellipse cx="280" cy="0" rx="280" ry="120" fill="url(#i8p14p1greyAbove)" filter="url(#i8p14p1megaglow)"/>
+
+  <!-- ===== STONE STEPS climbing up (perspective, viewer in basement looking up at Theodore ascending) ===== -->
+  <!-- Top steps (at top of frame, brightest from grey light) -->
+  <path d="M0,40 L260,30 L290,60 L0,70 Z" fill="url(#i8p14p1stoneSteps)"/>
+  <line x1="0" y1="60" x2="290" y2="60" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Step 2 -->
+  <path d="M0,80 L240,70 L270,100 L0,110 Z" fill="url(#i8p14p1stoneSteps)"/>
+  <line x1="0" y1="100" x2="270" y2="100" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Step 3 -->
+  <path d="M0,130 L220,120 L250,150 L0,160 Z" fill="url(#i8p14p1stoneSteps)"/>
+  <line x1="0" y1="150" x2="250" y2="150" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Step 4 -->
+  <path d="M0,180 L200,170 L230,200 L0,210 Z" fill="url(#i8p14p1stoneSteps)"/>
+  <line x1="0" y1="200" x2="230" y2="200" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Step 5 (collapsed - rubble) -->
+  <path d="M0,230 L180,220 L210,250 L0,260 Z" fill="url(#i8p14p1stoneSteps)" opacity="0.85"/>
+  <g fill="#1a0808" opacity="0.85">
+    <ellipse cx="100" cy="245" rx="11" ry="3"/>
+    <ellipse cx="160" cy="240" rx="9" ry="3"/>
+    <ellipse cx="60" cy="252" rx="11" ry="3"/>
+  </g>
+  <!-- Step 6 (deepest, fading) -->
+  <path d="M0,280 L160,270 L190,300 L0,300 Z" fill="#040408"/>
+
+  <!-- Stone wall on right side -->
+  <rect x="290" y="0" width="452" height="300" fill="url(#i8p14p1bgLower)"/>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.7">
+    <line x1="290" y1="40" x2="742" y2="40"/>
+    <line x1="290" y1="80" x2="742" y2="80"/>
+    <line x1="290" y1="120" x2="742" y2="120"/>
+    <line x1="290" y1="160" x2="742" y2="160"/>
+    <line x1="290" y1="200" x2="742" y2="200"/>
+    <line x1="290" y1="240" x2="742" y2="240"/>
+    <line x1="380" y1="0" x2="380" y2="40"/>
+    <line x1="500" y1="40" x2="500" y2="80"/>
+    <line x1="600" y1="0" x2="600" y2="40"/>
+    <line x1="440" y1="80" x2="440" y2="120"/>
+    <line x1="560" y1="120" x2="560" y2="160"/>
+    <line x1="680" y1="80" x2="680" y2="120"/>
+    <line x1="380" y1="160" x2="380" y2="200"/>
+    <line x1="500" y1="200" x2="500" y2="240"/>
+    <line x1="640" y1="240" x2="640" y2="280"/>
+  </g>
+  <g fill="#040408" opacity="0.55">
+    <ellipse cx="380" cy="60" rx="22" ry="9"/>
+    <ellipse cx="540" cy="100" rx="22" ry="9"/>
+    <ellipse cx="660" cy="180" rx="22" ry="9"/>
+    <ellipse cx="440" cy="220" rx="22" ry="9"/>
+  </g>
+
+  <!-- ===== CACHE ALCOVE returning to darkness (lower right, fading) ===== -->
+  <g transform="translate(580 270)" opacity="0.55">
+    <ellipse cx="0" cy="0" rx="120" ry="40" fill="url(#i8p14p1cacheFading)" filter="url(#i8p14p1megaglow)"/>
+    <!-- Faint cache silhouettes -->
+    <g fill="#1a1018" opacity="0.7">
+      <ellipse cx="-40" cy="0" rx="22" ry="9"/>
+      <rect x="-22" y="-7" width="44" height="14"/>
+      <ellipse cx="40" cy="0" rx="22" ry="9"/>
+    </g>
+    <!-- Wing-pack skeleton fragment hint -->
+    <g stroke="#3a3030" stroke-width="0.55" fill="none" opacity="0.55">
+      <path d="M-50,-7 L-66,-15"/>
+      <path d="M50,-7 L66,-15"/>
+    </g>
+  </g>
+  <!-- STAY very faint, fading back to dormancy -->
+  <g transform="translate(580 230)" opacity="0.4">
+    <ellipse cx="0" cy="0" rx="80" ry="14" fill="url(#i8p14p1stayDormant)" filter="url(#i8p14p1glow)"/>
+    <g stroke="#7848b8" stroke-width="0.85" fill="none" filter="url(#i8p14p1bloom)" opacity="0.55">
+      <g transform="translate(-44 0)"><path d="M5,-7 L-5,-7 L-5,-1 L5,-1 L5,5 L-5,5"/></g>
+      <g transform="translate(-22 0)"><path d="M-5,-7 L5,-7"/><path d="M0,-7 L0,5"/></g>
+      <g transform="translate(0 0)"><path d="M-5,5 L0,-7 L5,5"/></g>
+      <g transform="translate(22 0)"><path d="M-5,-7 L0,-1"/><path d="M5,-7 L0,-1"/><path d="M0,-1 L0,5"/></g>
+    </g>
+  </g>
+
+  <!-- ===== CANDLE HALO leading the way upward ===== -->
+  <ellipse cx="200" cy="100" rx="120" ry="80" fill="url(#i8p14p1candleHalo)" filter="url(#i8p14p1megaglow)"/>
+
+  <!-- ===== THEODORE climbing — small figure mid-frame ===== -->
+  <g transform="translate(220 100)">
+    <!-- Body -->
+    <path d="M-7,40 L-9,9 L-7,-22 L-3,-32 L7,-32 L11,-22 L14,9 L11,40 Z" fill="url(#i8p14p1waistcoat)"/>
+    <line x1="3" y1="-30" x2="3" y2="36" stroke="#1a0808" stroke-width="0.4"/>
+    <!-- Buttons -->
+    <circle cx="3" cy="-22" r="0.85" fill="#a86838" filter="url(#i8p14p1bloom)"/>
+    <circle cx="3" cy="-9" r="0.85" fill="#a86838" filter="url(#i8p14p1bloom)"/>
+
+    <!-- ===== Wrapped data core BULGE inside waistcoat ===== -->
+    <path d="M-9,-15 L-3,-22 L11,-22 L14,-15 L11,-7 L-3,-7 L-9,-15 Z" fill="#a89878" opacity="0.7"/>
+    <line x1="-7" y1="-15" x2="11" y2="-15" stroke="#7a6038" stroke-width="0.4" opacity="0.85"/>
+    <ellipse cx="3" cy="-15" rx="6" ry="2" fill="#1a1018" opacity="0.55"/>
+
+    <!-- Right arm with candle held forward -->
+    <path d="M11,-22 L18,-30 L22,-22 L14,-15 Z" fill="url(#i8p14p1waistcoat)"/>
+    <ellipse cx="22" cy="-22" rx="2" ry="1.4" fill="url(#i8p14p1skin)"/>
+    <!-- Candle -->
+    <rect x="22" y="-30" width="3" height="9" fill="#a89878"/>
+    <ellipse cx="23.5" cy="-34" rx="2" ry="3" fill="#fff8d8" filter="url(#i8p14p1strongglow)"/>
+    <ellipse cx="23.5" cy="-34" rx="0.85" ry="2" fill="#fff" filter="url(#i8p14p1bloom)"/>
+
+    <!-- Left arm against chest (protecting bundle) -->
+    <path d="M-7,-9 L-9,3 L-3,3 L-3,-9 Z" fill="url(#i8p14p1waistcoat)"/>
+
+    <!-- Climbing legs (mid-stride upward) -->
+    <path d="M-3,40 L-7,55 L-3,55 L0,40 Z" fill="url(#i8p14p1trousers)"/>
+    <path d="M3,40 L7,68 L11,68 L9,40 Z" fill="url(#i8p14p1trousers)"/>
+    <path d="M-7,55 L-9,62 L-3,62 L-3,55 Z" fill="#1a1008"/>
+    <path d="M7,68 L7,75 L14,75 L11,68 Z" fill="#1a1008"/>
+
+    <!-- Shirt collar -->
+    <path d="M-5,-50 L-3,-54 L7,-54 L9,-50 L7,-44 L-3,-44 Z" fill="#e8d0a8"/>
+
+    <!-- Head — looking UP toward grey light -->
+    <ellipse cx="2" cy="-66" rx="6" ry="7" fill="url(#i8p14p1skin)"/>
+    <path d="M-3,-76 Q2,-80 7,-76 L7,-66 Q2,-70 -3,-66 Z" fill="#7a5028"/>
+    <ellipse cx="2" cy="-78" rx="4" ry="2" fill="#a8a8b8" opacity="0.55" filter="url(#i8p14p1bloom)"/>
+    <!-- Eyes looking up -->
+    <line x1="-1" y1="-70" x2="1" y2="-67" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="3" y1="-67" x2="5" y2="-70" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== LUMA on Theodore's shoulder, looking BACK down ===== -->
+  <g transform="translate(232 60)">
+    <!-- Body -->
+    <path d="M-3,7 L-5,1 L-7,-7 L-5,-13 L-3,-18 L3,-18 L5,-13 L7,-7 L5,1 L3,7 Z" fill="url(#i8p14p1lumaSuit)"/>
+    <line x1="0" y1="-13" x2="0" y2="3" stroke="#c8a8e8" stroke-width="0.4" filter="url(#i8p14p1bloom)" opacity="0.95"/>
+    <!-- Head turned back/down (right) -->
+    <ellipse cx="2" cy="-22" rx="2.5" ry="3" fill="url(#i8p14p1skin)"/>
+    <!-- Braid -->
+    <path d="M4,-19 Q7,-13 9,-3" stroke="#1a0808" stroke-width="1.4" fill="none"/>
+    <path d="M4,-19 Q7,-13 9,-3" stroke="#a878e8" stroke-width="0.4" fill="none" filter="url(#i8p14p1bloom)" opacity="0.95"/>
+    <path d="M-1,-26 Q2,-28 5,-26 L5,-22 Q2,-24 -1,-22 Z" fill="#1a0808"/>
+    <!-- Lenses casting faint light DOWN -->
+    <ellipse cx="0" cy="-22" rx="1.4" ry="1" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p14p1bloom)" opacity="0.95"/>
+    <ellipse cx="3" cy="-22" rx="1.4" ry="1" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p14p1bloom)" opacity="0.95"/>
+    <circle cx="0" cy="-22" r="0.4" fill="#fff8e8" filter="url(#i8p14p1bloom)"/>
+    <circle cx="3" cy="-22" r="0.4" fill="#fff8e8" filter="url(#i8p14p1bloom)"/>
+  </g>
+  <!-- Faint violet trail from Luma's lenses going DOWN -->
+  <line x1="232" y1="38" x2="280" y2="160" stroke="#a878e8" stroke-width="0.55" stroke-dasharray="2,2" filter="url(#i8p14p1bloom)" opacity="0.55"/>
+
+  <!-- Dust motes in the candle halo -->
+  <g fill="#fff8d8" opacity="0.55" filter="url(#i8p14p1bloom)">
+    <circle cx="160" cy="60" r="0.55"/>
+    <circle cx="240" cy="40" r="0.4"/>
+    <circle cx="200" cy="160" r="0.55"/>
+    <circle cx="280" cy="80" r="0.4"/>
+  </g>
+
+  <!-- ===== DIALOGUE — LUMA looking back ===== -->
+  <g>
+    <rect x="14" y="14" width="280" height="36" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA  <tspan font-style="italic" font-size="8" font-weight="500">(looking back)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic" font-weight="700">Rest well.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>
