@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 240" width="246" height="240">
+  <title>Issue 10 Page 15 Panel 4 — Wren's hand presses the brass telegraph key, the pulse fires</title>
+  <desc>Close-up dramatic low angle tiny hand pressing down massive Victorian telegraph brass key. Lever descends, contact made. From connection point copper-gold geometric light blazes outward into telegraph wiring — fairy-tech energy running through Victorian copper at wire speed. Brass key reflects the blaze. The moment of activation. The pulse firing.</desc>
+  <defs>
+    <linearGradient id="bgY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040206"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="copperBlazeY4" cx="0.5" cy="0.6" r="0.55">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.65"/>
+      <stop offset="0.3" stop-color="#f4b860" stop-opacity="0.45"/>
+      <stop offset="0.7" stop-color="#5a2e10" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020100" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brassKeyTallY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4b860"/>
+      <stop offset="0.4" stop-color="#d88838"/>
+      <stop offset="0.7" stop-color="#a85820"/>
+      <stop offset="1" stop-color="#5a2e10"/>
+    </linearGradient>
+    <linearGradient id="brassDarkY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.6" stop-color="#5a2e10"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <linearGradient id="ebonY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0604"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="copperFigY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a5828"/>
+      <stop offset="0.5" stop-color="#5a2e10"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <linearGradient id="boltCopperY4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.5" stop-color="#f4b860"/>
+      <stop offset="1" stop-color="#a85820" stop-opacity="0.4"/>
+    </linearGradient>
+    <radialGradient id="contactBlazeY4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.3" stop-color="#fff8d8"/>
+      <stop offset="0.7" stop-color="#f4b860"/>
+      <stop offset="1" stop-color="#a85820" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomY4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.6"/>
+    </filter>
+    <filter id="strongGlowY4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.6"/>
+    </filter>
+    <filter id="megaGlowY4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="ultraGlowY4" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="246" height="240" fill="url(#bgY4)"/>
+  <rect width="246" height="240" fill="url(#copperBlazeY4)"/>
+
+  <g opacity="0.85" filter="url(#ultraGlowY4)">
+    <ellipse cx="123" cy="160" rx="100" ry="68" fill="#f4b860" opacity="0.55"/>
+  </g>
+
+  <g>
+    <path d="M 0 220 L 246 220 L 246 240 L 0 240 Z" fill="url(#ebonY4)"/>
+    <line x1="0" y1="222" x2="246" y2="222" stroke="#080404" stroke-width="1.4"/>
+  </g>
+
+  <g>
+    <rect x="40" y="200" width="166" height="22" rx="3" fill="url(#ebonY4)" stroke="#1a0a04" stroke-width="0.6"/>
+    <line x1="40" y1="208" x2="206" y2="208" stroke="#3a1a08" stroke-width="0.5"/>
+    <ellipse cx="123" cy="210" rx="3" ry="2" fill="#5a2e10"/>
+  </g>
+
+  <g>
+    <path d="M 90 152 L 90 200 L 156 200 L 156 152 Q 144 158 123 158 Q 102 158 90 152 Z" fill="url(#brassDarkY4)"/>
+    <ellipse cx="123" cy="152" rx="34" ry="8" fill="url(#brassKeyTallY4)"/>
+    <rect x="100" y="140" width="46" height="14" rx="3" fill="#d88838" stroke="#5a2e10" stroke-width="0.8"/>
+    <rect x="118" y="124" width="10" height="16" fill="#a85820"/>
+    <rect x="116" y="118" width="14" height="8" rx="2" fill="#d88838" stroke="#5a2e10" stroke-width="0.5"/>
+    <ellipse cx="123" cy="160" rx="36" ry="4" fill="#5a2e10" opacity="0.65"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomY4)">
+    <ellipse cx="123" cy="148" rx="24" ry="3" fill="#fff8d8"/>
+  </g>
+  <g opacity="0.7">
+    <line x1="100" y1="146" x2="146" y2="146" stroke="#fff8d8" stroke-width="0.6"/>
+    <line x1="100" y1="200" x2="146" y2="200" stroke="#5a2e10" stroke-width="0.6"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlowY4)">
+    <ellipse cx="123" cy="170" rx="40" ry="10" fill="#fff8d8" opacity="0.7"/>
+  </g>
+  <g opacity="0.95" filter="url(#bloomY4)">
+    <ellipse cx="123" cy="170" rx="14" ry="3" fill="#ffffff" opacity="0.85"/>
+  </g>
+  <g opacity="0.95" filter="url(#megaGlowY4)">
+    <ellipse cx="123" cy="170" rx="60" ry="14" fill="#f4b860" opacity="0.55"/>
+  </g>
+
+  <g>
+    <path d="M 90 170 Q 60 174 30 180 Q 14 184 0 192" stroke="url(#boltCopperY4)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M 156 170 Q 186 174 216 180 Q 230 184 246 192" stroke="url(#boltCopperY4)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M 90 174 Q 60 178 30 188" stroke="url(#boltCopperY4)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 156 174 Q 186 178 216 188" stroke="url(#boltCopperY4)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 100 168 Q 80 158 56 152 Q 38 150 24 154" stroke="url(#boltCopperY4)" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 146 168 Q 166 158 190 152 Q 208 150 222 154" stroke="url(#boltCopperY4)" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.85"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowY4)">
+    <path d="M 0 190 Q 60 174 90 170" stroke="#f4b860" stroke-width="6" fill="none" opacity="0.45"/>
+    <path d="M 156 170 Q 186 174 246 190" stroke="#f4b860" stroke-width="6" fill="none" opacity="0.45"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlowY4)">
+    <circle cx="123" cy="170" r="12" fill="url(#contactBlazeY4)"/>
+  </g>
+  <g opacity="0.92" filter="url(#bloomY4)">
+    <circle cx="123" cy="170" r="5" fill="#ffffff"/>
+  </g>
+
+  <g>
+    <path d="M 80 60 L 116 88 L 132 102 Q 140 110 148 116 L 156 124 Q 162 132 160 140 L 158 148 Q 144 156 130 156 Q 124 154 124 148 L 124 138 Q 122 130 120 124 Q 116 116 112 106 L 102 92 L 86 76 Z" fill="url(#copperFigY4)"/>
+    <path d="M 116 92 L 134 110" stroke="#3a1a08" stroke-width="1" opacity="0.5"/>
+    <path d="M 124 102 L 138 118" stroke="#3a1a08" stroke-width="0.7" opacity="0.45"/>
+
+    <g opacity="0.7">
+      <ellipse cx="120" cy="118" rx="2" ry="1" fill="#1a0604"/>
+      <ellipse cx="130" cy="126" rx="2.4" ry="1.2" fill="#1a0604"/>
+      <ellipse cx="138" cy="134" rx="2" ry="1" fill="#1a0604"/>
+    </g>
+  </g>
+
+  <g opacity="0.85">
+    <rect x="60" y="48" width="42" height="22" rx="3" fill="url(#copperFigY4)" stroke="#3a1a08" stroke-width="0.6"/>
+    <circle cx="74" cy="59" r="2" fill="#5a2e10"/>
+    <line x1="60" y1="56" x2="102" y2="56" stroke="#3a1a08" stroke-width="0.5"/>
+  </g>
+
+  <g opacity="0.55">
+    <line x1="0" y1="222" x2="246" y2="222" stroke="#fff8d8" stroke-width="0.4" stroke-dasharray="4 3" opacity="0.65"/>
+  </g>
+
+  <g opacity="0.7">
+    <circle cx="40" cy="180" r="0.8" fill="#fff8d8"/>
+    <circle cx="60" cy="186" r="0.6" fill="#f4b860"/>
+    <circle cx="200" cy="178" r="0.7" fill="#fff8d8"/>
+    <circle cx="216" cy="184" r="0.6" fill="#f4b860"/>
+    <circle cx="100" cy="100" r="0.6" fill="#fff8d8"/>
+    <circle cx="160" cy="102" r="0.5" fill="#f4b860"/>
+  </g>
+</svg>
