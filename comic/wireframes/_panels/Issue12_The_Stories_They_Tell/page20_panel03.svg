@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 140" width="742" height="140">
+  <title>Issue 12 Page 20 Panel 3 — Steeple from outside, the city stretching, five lights too small to see</title>
+  <desc>Extreme wide horizontal strip. Victorian church steeple rises above London skyline in morning light. Stone and brick, bell housing visible. Through arches at top, faintest points of colored light visible — five holographic glows, too small to resolve into figures, five department colors. Below steeple, city stretches in every direction — rooftops, chimneys, telegraph lines catching morning light, gaslit-turning-sunlit sprawl of London. Morning amber-gold across cityscape. The faintest fairy light in the steeple. The stories already down there, in the streets, spreading. Five lights in the largest city — the fairy tales beginning.</desc>
+  <defs>
+    <linearGradient id="bgHH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#f4b860"/>
+      <stop offset="0.7" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3018"/>
+    </linearGradient>
+    <radialGradient id="morningCityHH3" cx="0.5" cy="0.32" r="0.7">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steepleStoneHH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87858"/>
+      <stop offset="0.5" stop-color="#7a4830"/>
+      <stop offset="1" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="bellHouseHH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4818"/>
+      <stop offset="0.5" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="archInteriorHH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1018"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <linearGradient id="cityFarHH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87858"/>
+      <stop offset="0.5" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <linearGradient id="cityNearHH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3018"/>
+      <stop offset="0.5" stop-color="#3a1810"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <filter id="bloomHH3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowHH3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <filter id="megaGlowHH3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="140" fill="url(#bgHH3)"/>
+  <rect width="742" height="140" fill="url(#morningCityHH3)"/>
+
+  <g>
+    <path d="M 360 0 L 382 0 L 376 14 L 366 14 Z" fill="#3a2010"/>
+    <path d="M 350 14 L 392 14 L 384 50 L 358 50 Z" fill="url(#steepleStoneHH3)"/>
+    <path d="M 330 50 L 412 50 L 402 100 L 340 100 Z" fill="url(#bellHouseHH3)"/>
+
+    <path d="M 340 60 Q 340 86 352 86 L 372 86 Q 384 86 384 60 Z" fill="url(#archInteriorHH3)"/>
+    <path d="M 360 60 Q 360 86 372 86 L 392 86 Q 404 86 404 60 Z" fill="url(#archInteriorHH3)" opacity="0.85"/>
+
+    <rect x="320" y="100" width="100" height="40" fill="url(#steepleStoneHH3)"/>
+    <g opacity="0.55" stroke="#3a2010" stroke-width="0.4">
+      <line x1="320" y1="120" x2="420" y2="120"/>
+      <line x1="350" y1="100" x2="350" y2="140"/>
+      <line x1="380" y1="100" x2="380" y2="140"/>
+    </g>
+  </g>
+
+  <g>
+    <circle cx="350" cy="74" r="0.85" fill="#a8c0e0"/>
+    <circle cx="358" cy="72" r="0.85" fill="#d88838"/>
+    <circle cx="365" cy="76" r="0.85" fill="#3a8858"/>
+    <circle cx="375" cy="74" r="0.85" fill="#d83838"/>
+    <circle cx="385" cy="72" r="0.85" fill="#a878d8"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomHH3)">
+    <circle cx="350" cy="74" r="3" fill="#a8c0e0" opacity="0.42"/>
+    <circle cx="358" cy="72" r="3" fill="#d88838" opacity="0.42"/>
+    <circle cx="365" cy="76" r="3" fill="#3a8858" opacity="0.55"/>
+    <circle cx="375" cy="74" r="3" fill="#d83838" opacity="0.42"/>
+    <circle cx="385" cy="72" r="3" fill="#a878d8" opacity="0.42"/>
+  </g>
+  <g opacity="0.42" filter="url(#strongGlowHH3)">
+    <ellipse cx="368" cy="74" rx="22" ry="6" fill="#fff8d8" opacity="0.42"/>
+  </g>
+
+  <g>
+    <path d="M 0 80 L 80 76 L 160 80 L 240 76 L 320 80 L 320 100 L 0 100 Z" fill="url(#cityFarHH3)" opacity="0.62"/>
+    <path d="M 420 80 L 500 76 L 580 80 L 660 76 L 742 80 L 742 100 L 420 100 Z" fill="url(#cityFarHH3)" opacity="0.62"/>
+
+    <g opacity="0.55">
+      <rect x="40" y="60" width="6" height="20" fill="#3a2010"/>
+      <rect x="100" y="56" width="9" height="22" fill="#3a2010"/>
+      <rect x="180" y="60" width="6" height="20" fill="#3a2010"/>
+      <rect x="240" y="56" width="9" height="22" fill="#3a2010"/>
+      <rect x="450" y="60" width="6" height="20" fill="#3a2010"/>
+      <rect x="540" y="56" width="9" height="22" fill="#3a2010"/>
+      <rect x="620" y="60" width="6" height="20" fill="#3a2010"/>
+      <rect x="700" y="56" width="9" height="22" fill="#3a2010"/>
+    </g>
+
+    <path d="M 0 100 L 80 96 L 160 100 L 240 96 L 320 100 L 320 120 L 0 120 Z" fill="url(#cityNearHH3)" opacity="0.85"/>
+    <path d="M 420 100 L 500 96 L 580 100 L 660 96 L 742 100 L 742 120 L 420 120 Z" fill="url(#cityNearHH3)" opacity="0.85"/>
+
+    <g opacity="0.85">
+      <rect x="40" y="80" width="11" height="22" fill="#1a0a04"/>
+      <rect x="100" y="80" width="11" height="22" fill="#1a0a04"/>
+      <rect x="180" y="80" width="11" height="22" fill="#1a0a04"/>
+      <rect x="240" y="80" width="11" height="22" fill="#1a0a04"/>
+      <rect x="450" y="80" width="11" height="22" fill="#1a0a04"/>
+      <rect x="540" y="80" width="11" height="22" fill="#1a0a04"/>
+      <rect x="620" y="80" width="11" height="22" fill="#1a0a04"/>
+      <rect x="700" y="80" width="11" height="22" fill="#1a0a04"/>
+    </g>
+
+    <g opacity="0.62" stroke="#1a0a04" stroke-width="0.4">
+      <line x1="0" y1="92" x2="100" y2="86"/>
+      <line x1="100" y1="86" x2="200" y2="84"/>
+      <line x1="200" y1="84" x2="320" y2="92"/>
+      <line x1="420" y1="92" x2="520" y2="84"/>
+      <line x1="520" y1="84" x2="620" y2="86"/>
+      <line x1="620" y1="86" x2="742" y2="92"/>
+    </g>
+  </g>
+
+  <g>
+    <path d="M 0 120 L 320 120 L 330 140 L 0 140 Z" fill="url(#cityNearHH3)"/>
+    <path d="M 420 120 L 742 120 L 742 140 L 412 140 Z" fill="url(#cityNearHH3)"/>
+    <rect x="320" y="120" width="100" height="20" fill="url(#cityNearHH3)" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.62">
+    <circle cx="60" cy="106" r="1" fill="#fff8d8"/>
+    <circle cx="120" cy="106" r="1" fill="#fff8d8"/>
+    <circle cx="200" cy="106" r="1" fill="#fff8d8"/>
+    <circle cx="260" cy="106" r="1" fill="#fff8d8"/>
+    <circle cx="470" cy="106" r="1" fill="#fff8d8"/>
+    <circle cx="560" cy="106" r="1" fill="#fff8d8"/>
+    <circle cx="640" cy="106" r="1" fill="#fff8d8"/>
+    <circle cx="720" cy="106" r="1" fill="#fff8d8"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomHH3)">
+    <ellipse cx="370" cy="40" rx="280" ry="22" fill="#fff8d8" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="370" cy="130" rx="320" ry="2" fill="#040202" opacity="0.42"/>
+  </g>
+</svg>

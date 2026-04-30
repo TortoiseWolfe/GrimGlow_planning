@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
+  <title>Issue 12 Page 20 Panel 2 — Sable's face, "Then we stay."</title>
+  <desc>Medium close-up. Woman's face in morning light — dark brown skin, sharp angular features, military-cropped silver-white hair catching warm amber-gold. Pewter-dark degraded silver suit visible at collar, blue-white holographic accent glowing faintly through soot. Expression is recognition, acceptance, the setting down of weight carried alone. A nod, almost imperceptible. The face of someone arrived at a truth she's been circling for twelve issues. Morning amber-gold on skin. The faintest blue-white at collar. Then we stay.</desc>
+  <defs>
+    <linearGradient id="bgGG2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#f4b860"/>
+      <stop offset="0.8" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#3a1808"/>
+    </linearGradient>
+    <radialGradient id="goldenFaceGG2" cx="0.5" cy="0.4" r="0.65">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairSilverWarmGG2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.5" stop-color="#d8d8d8"/>
+      <stop offset="1" stop-color="#a8a8a8"/>
+    </linearGradient>
+    <linearGradient id="faceSableGG2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4830"/>
+      <stop offset="0.4" stop-color="#a87858"/>
+      <stop offset="0.8" stop-color="#5a3818"/>
+      <stop offset="1" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="eyeAcceptGG2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#a87838" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="suitCollarGG2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8898"/>
+      <stop offset="0.5" stop-color="#3a4858"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <filter id="bloomGG2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowGG2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowGG2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="ultraGlowGG2" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="240" fill="url(#bgGG2)"/>
+  <rect width="742" height="240" fill="url(#goldenFaceGG2)"/>
+
+  <g>
+    <ellipse cx="371" cy="120" rx="200" ry="130" fill="url(#faceSableGG2)"/>
+
+    <path d="M 180 30 Q 240 0 371 0 Q 502 0 562 30 Q 580 60 574 80 L 560 76 Q 510 36 460 28 Q 400 22 342 28 Q 282 36 232 76 L 218 80 Q 212 60 180 30 Z" fill="url(#hairSilverWarmGG2)"/>
+    <g opacity="0.7" stroke="#fff8d8" stroke-width="0.55">
+      <line x1="240" y1="22" x2="240" y2="50"/>
+      <line x1="280" y1="14" x2="280" y2="50"/>
+      <line x1="320" y1="10" x2="320" y2="50"/>
+      <line x1="371" y1="8" x2="371" y2="50"/>
+      <line x1="422" y1="10" x2="422" y2="50"/>
+      <line x1="462" y1="14" x2="462" y2="50"/>
+      <line x1="502" y1="22" x2="502" y2="50"/>
+    </g>
+
+    <ellipse cx="296" cy="116" rx="22" ry="14" fill="#0a0604"/>
+    <ellipse cx="296" cy="116" rx="14" ry="9" fill="#3a2010"/>
+    <ellipse cx="298" cy="114" rx="6" ry="4" fill="url(#eyeAcceptGG2)"/>
+    <circle cx="296" cy="116" r="3" fill="#080404"/>
+    <circle cx="298" cy="114" r="0.85" fill="#fff8d8"/>
+
+    <ellipse cx="446" cy="116" rx="22" ry="14" fill="#0a0604"/>
+    <ellipse cx="446" cy="116" rx="14" ry="9" fill="#3a2010"/>
+    <ellipse cx="448" cy="114" rx="6" ry="4" fill="url(#eyeAcceptGG2)"/>
+    <circle cx="446" cy="116" r="3" fill="#080404"/>
+    <circle cx="448" cy="114" r="0.85" fill="#fff8d8"/>
+
+    <path d="M 256 88 Q 296 76 336 88" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+    <path d="M 406 88 Q 446 76 486 88" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+    <path d="M 256 80 Q 296 70 336 80" stroke="#5a3018" stroke-width="2.4" fill="none" opacity="0.7"/>
+    <path d="M 406 80 Q 446 70 486 80" stroke="#5a3018" stroke-width="2.4" fill="none" opacity="0.7"/>
+
+    <ellipse cx="320" cy="146" rx="14" ry="3" fill="#a85820" opacity="0.62"/>
+    <ellipse cx="422" cy="146" rx="14" ry="3" fill="#a85820" opacity="0.62"/>
+    <ellipse cx="371" cy="144" rx="3" ry="1.4" fill="#a85820" opacity="0.62"/>
+
+    <path d="M 326 196 L 416 196" stroke="#0a0604" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 326 200 L 416 200" stroke="#3a2410" stroke-width="0.85" opacity="0.55"/>
+  </g>
+
+  <g>
+    <rect x="0" y="220" width="742" height="20" fill="url(#suitCollarGG2)"/>
+    <line x1="0" y1="226" x2="742" y2="226" stroke="#1a2030" stroke-width="0.85"/>
+    <line x1="100" y1="234" x2="200" y2="234" stroke="#a8c0e0" stroke-width="0.85" opacity="0.55"/>
+    <line x1="540" y1="234" x2="640" y2="234" stroke="#a8c0e0" stroke-width="0.85" opacity="0.55"/>
+    <path d="M 320 230 L 340 226 L 336 240 L 320 240 Z" fill="#1a1810" opacity="0.85"/>
+    <path d="M 400 230 L 420 226 L 416 240 L 400 240 Z" fill="#1a1810" opacity="0.85"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowGG2)">
+    <line x1="100" y1="234" x2="640" y2="234" stroke="#a8c0e0" stroke-width="3" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomGG2)">
+    <ellipse cx="371" cy="40" rx="200" ry="22" fill="#fff8d8" opacity="0.42"/>
+    <ellipse cx="371" cy="60" rx="180" ry="11" fill="#fff8d8" opacity="0.32"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowGG2)">
+    <ellipse cx="371" cy="160" rx="280" ry="80" fill="#f4b860" opacity="0.32"/>
+  </g>
+  <g opacity="0.42" filter="url(#ultraGlowGG2)">
+    <ellipse cx="371" cy="120" rx="320" ry="120" fill="#fff8d8" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="371" cy="220" rx="220" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="280" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#a8c0e0" stroke-width="1.4"/>
+    <text x="130" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a8c0e0" font-weight="700">SABLE (barely above a whisper):</text>
+    <text x="130" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#a8c0e0" font-style="italic" font-weight="700">"Then we stay."</text>
+  </g>
+</svg>
