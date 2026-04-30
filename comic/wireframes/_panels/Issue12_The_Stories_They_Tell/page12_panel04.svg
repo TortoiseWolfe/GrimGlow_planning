@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 280" width="247" height="280">
+  <title>Issue 12 Page 12 Panel 4 — Jink watches Theodore work, "Come on, mate. You've got this."</title>
+  <desc>Medium close-up. Tiny figure in degraded emerald suit crouches on cast-iron cabinet panel, maintaining copper-gold holographic projection from wing-pack emitter. Watches enormous hands — boy's hands, filling background of frame — working inside device with practiced precision. Quiet intensity — not the grin, not fear. Trust. The bond of eleven issues visible in the watching. Wild golden blonde curly hair, soot-streaked emerald suit, wing-pack projecting copper-gold guide. The fairy watching the giant save the world.</desc>
+  <defs>
+    <linearGradient id="bgV4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87878"/>
+      <stop offset="0.4" stop-color="#fff8d8"/>
+      <stop offset="0.7" stop-color="#5a4858"/>
+      <stop offset="1" stop-color="#3a2838"/>
+    </linearGradient>
+    <radialGradient id="copperProjV4" cx="0.32" cy="0.4" r="0.45">
+      <stop offset="0" stop-color="#d88838" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="morningV4" cx="0.5" cy="0.05" r="0.45">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cabinetTopV4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4858"/>
+      <stop offset="0.4" stop-color="#3a3848"/>
+      <stop offset="1" stop-color="#1a1828"/>
+    </linearGradient>
+    <linearGradient id="suitJinkV4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.4" stop-color="#1a4830"/>
+      <stop offset="1" stop-color="#0a2018"/>
+    </linearGradient>
+    <linearGradient id="hairBlondeV4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff088"/>
+      <stop offset="0.5" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="skinJinkV4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d8b8"/>
+      <stop offset="0.5" stop-color="#d8a878"/>
+      <stop offset="1" stop-color="#7a4830"/>
+    </linearGradient>
+    <linearGradient id="hugeHandV4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8a878"/>
+      <stop offset="0.5" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="brassRingV4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#5a2e10"/>
+    </linearGradient>
+    <filter id="bloomV4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowV4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <filter id="megaGlowV4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="247" height="280" fill="url(#bgV4)"/>
+  <rect width="247" height="280" fill="url(#morningV4)"/>
+  <rect width="247" height="280" fill="url(#copperProjV4)"/>
+
+  <g>
+    <path d="M 247 280 L 247 100 Q 220 60 180 50 L 100 60 Q 60 80 40 130 L 30 200 Q 30 240 60 280 Z" fill="url(#hugeHandV4)" opacity="0.85"/>
+
+    <ellipse cx="80" cy="130" rx="11" ry="6" fill="#7a4830" opacity="0.62"/>
+    <ellipse cx="160" cy="100" rx="14" ry="9" fill="#5a3018" opacity="0.55"/>
+    <ellipse cx="200" cy="170" rx="9" ry="4" fill="#7a4830" opacity="0.55"/>
+
+    <ellipse cx="180" cy="80" rx="6" ry="9" fill="url(#brassRingV4)"/>
+    <ellipse cx="180" cy="80" rx="3" ry="6" fill="#3a1a08"/>
+    <line x1="174" y1="80" x2="186" y2="80" stroke="#5a2e10" stroke-width="0.55"/>
+    <line x1="180" y1="74" x2="180" y2="86" stroke="#5a2e10" stroke-width="0.55"/>
+
+    <path d="M 100 60 Q 80 80 60 110 L 80 110 Q 100 80 120 70 Z" fill="url(#hugeHandV4)" opacity="0.62"/>
+    <path d="M 160 50 Q 150 70 140 90 L 160 90 Q 170 70 180 60 Z" fill="url(#hugeHandV4)" opacity="0.62"/>
+    <path d="M 200 70 Q 195 90 190 110 L 210 110 Q 215 90 220 80 Z" fill="url(#hugeHandV4)" opacity="0.62"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowV4)">
+    <ellipse cx="180" cy="80" rx="14" ry="14" fill="#fff8d8" opacity="0.42"/>
+  </g>
+
+  <g>
+    <rect x="0" y="200" width="247" height="80" fill="url(#cabinetTopV4)"/>
+    <rect x="0" y="200" width="247" height="6" fill="#080404"/>
+    <line x1="60" y1="240" x2="247" y2="240" stroke="#080404" stroke-width="0.4" opacity="0.62"/>
+  </g>
+
+  <g>
+    <ellipse cx="80" cy="220" rx="14" ry="3" fill="#040202" opacity="0.62"/>
+
+    <ellipse cx="80" cy="200" rx="9" ry="11" fill="url(#suitJinkV4)"/>
+    <path d="M 71 192 L 89 192 L 91 218 L 69 218 Z" fill="url(#suitJinkV4)"/>
+
+    <path d="M 71 192 L 89 192" stroke="#fff088" stroke-width="0.55" opacity="0.62"/>
+
+    <ellipse cx="80" cy="180" rx="6" ry="9" fill="url(#skinJinkV4)"/>
+    <path d="M 73 174 Q 80 168 87 174 Q 89 178 87 180 Q 84 174 80 176 Q 77 174 75 180 Q 73 178 73 174 Z" fill="url(#hairBlondeV4)"/>
+    <ellipse cx="76" cy="180" rx="2" ry="3" fill="url(#hairBlondeV4)"/>
+    <ellipse cx="84" cy="180" rx="2" ry="3" fill="url(#hairBlondeV4)"/>
+
+    <circle cx="78" cy="180" r="0.7" fill="#0a0604"/>
+    <circle cx="82" cy="180" r="0.7" fill="#0a0604"/>
+    <path d="M 76 184 Q 80 186 84 184" stroke="#1a0a08" stroke-width="0.4" fill="none"/>
+
+    <path d="M 69 218 L 60 234" stroke="url(#suitJinkV4)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 91 218 L 100 234" stroke="url(#suitJinkV4)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.62" filter="url(#strongGlowV4)">
+    <ellipse cx="80" cy="200" rx="14" ry="14" fill="#3a8858" opacity="0.42"/>
+  </g>
+  <g opacity="0.42" filter="url(#megaGlowV4)">
+    <ellipse cx="80" cy="200" rx="32" ry="22" fill="#3a8858" opacity="0.32"/>
+  </g>
+
+  <g>
+    <line x1="80" y1="190" x2="100" y2="170" stroke="#d88838" stroke-width="0.55" opacity="0.62" stroke-dasharray="2,1"/>
+
+    <rect x="20" y="100" width="60" height="60" rx="3" fill="none" stroke="#d88838" stroke-width="0.4" opacity="0.85"/>
+
+    <text x="22" y="110" font-family="monospace" font-size="3" fill="#d88838" font-weight="700">RELAY</text>
+
+    <g opacity="0.85">
+      <circle cx="32" cy="120" r="2" fill="none" stroke="#d88838" stroke-width="0.4"/>
+      <circle cx="44" cy="120" r="2" fill="none" stroke="#d88838" stroke-width="0.4"/>
+      <circle cx="56" cy="120" r="2" fill="none" stroke="#d88838" stroke-width="0.4"/>
+      <circle cx="68" cy="120" r="2" fill="#d88838"/>
+      <line x1="34" y1="120" x2="68" y2="120" stroke="#d88838" stroke-width="0.4" opacity="0.62"/>
+    </g>
+
+    <g opacity="0.85" stroke="#d88838" stroke-width="0.4" fill="none">
+      <path d="M 26 134 L 36 134"/>
+      <path d="M 26 142 L 56 142"/>
+      <path d="M 26 150 L 46 150"/>
+      <text x="42" y="156" font-family="monospace" font-size="2.4" fill="#d88838">[2/7]</text>
+    </g>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowV4)">
+    <rect x="20" y="100" width="60" height="60" fill="#d88838" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="123" cy="266" rx="80" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="180" height="14" rx="3" fill="#1a1828" opacity="0.95" stroke="#3a8858" stroke-width="1.2"/>
+    <text x="86" y="10" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#3a8858" font-style="italic" font-weight="700">JINK (quiet): "Come on, mate. You've got this."</text>
+  </g>
+</svg>
