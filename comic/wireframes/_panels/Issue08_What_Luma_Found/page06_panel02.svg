@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 8 — Page 6 — Panel 2: After the rat — Thresh's exhale, brief vulnerability, the shame of almost firing</title>
+  <desc>85mm close-up. Adrenaline receding — expression briefly unguarded, exhaustion and shame of almost firing at a rat. Pale skin, defined cheekbones, copper-red buzz cut damp with tension sweat at temples, intense eyes softening for a moment. Weapon lowering out of frame. Jaw unclenches. Crimson holographic nodes at collar dimming back to stealth. Warm amber gaslight illuminates right side of face, steady now. Left side in shadow. The face beneath the armor.</desc>
+
+  <defs>
+    <linearGradient id="i8p6p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <radialGradient id="i8p6p2warm" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p6p2skinWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0b888"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="i8p6p2skinShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3018"/>
+      <stop offset="100%" stop-color="#2a1408"/>
+    </linearGradient>
+    <linearGradient id="i8p6p2armor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82818"/>
+      <stop offset="100%" stop-color="#3a0a0a"/>
+    </linearGradient>
+    <filter id="i8p6p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p6p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p6p2megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#i8p6p2bg)"/>
+
+  <!-- Steady warm amber from right -->
+  <ellipse cx="366" cy="140" rx="200" ry="220" fill="url(#i8p6p2warm)" filter="url(#i8p6p2megaglow)"/>
+
+  <!-- ===== THRESH face, slight 3/4 view (less profile, more open) ===== -->
+  <g transform="translate(200 160)">
+    <!-- Suit collar -->
+    <path d="M-66,80 L-44,40 L-30,30 L30,30 L44,40 L66,80 L80,140 L-80,140 Z" fill="url(#i8p6p2armor)"/>
+    <!-- Heavy dents -->
+    <ellipse cx="-30" cy="50" rx="9" ry="6" fill="#5a1410"/>
+    <ellipse cx="30" cy="50" rx="9" ry="6" fill="#7a1810"/>
+    <!-- Chest scratch -->
+    <path d="M-30,80 L30,80" stroke="#3a0a0a" stroke-width="2.5" opacity="0.85"/>
+    <!-- ===== Crimson nodes DIMMING back to stealth ===== -->
+    <line x1="0" y1="40" x2="0" y2="120" stroke="#a82818" stroke-width="0.55" opacity="0.55" filter="url(#i8p6p2bloom)"/>
+    <circle cx="-22" cy="40" r="0.85" fill="#a82818" filter="url(#i8p6p2bloom)" opacity="0.55"/>
+    <circle cx="22" cy="40" r="0.85" fill="#a82818" filter="url(#i8p6p2bloom)" opacity="0.55"/>
+
+    <!-- Neck — split lit -->
+    <path d="M-9,30 L9,30 L9,18 L-9,18 Z" fill="url(#i8p6p2skinShadow)"/>
+    <path d="M0,30 L9,30 L9,18 L0,18 Z" fill="url(#i8p6p2skinWarm)"/>
+
+    <!-- Jaw — slightly UNCLENCHED -->
+    <path d="M-26,-9 L-30,11 L-22,30 L0,40 L22,30 L30,11 L26,-9 L11,-22 L-11,-22 Z" fill="url(#i8p6p2skinWarm)"/>
+    <path d="M-26,-9 L-30,11 L-22,30 L0,40 L0,-22 L-11,-22 Z" fill="url(#i8p6p2skinShadow)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-32" rx="26" ry="26" fill="url(#i8p6p2skinWarm)"/>
+    <path d="M0,-50 L-26,-50 L-26,-14 L0,-14 Z" fill="url(#i8p6p2skinShadow)"/>
+
+    <!-- TENSION SWEAT at temples (damp) -->
+    <ellipse cx="-20" cy="-44" rx="4" ry="3" fill="#a8c8e8" opacity="0.55" filter="url(#i8p6p2bloom)"/>
+    <circle cx="-18" cy="-40" r="0.85" fill="#fff8e8" opacity="0.7" filter="url(#i8p6p2bloom)"/>
+    <ellipse cx="20" cy="-44" rx="4" ry="3" fill="#a8c8e8" opacity="0.4" filter="url(#i8p6p2bloom)"/>
+    <circle cx="18" cy="-40" r="0.55" fill="#fff8e8" opacity="0.55" filter="url(#i8p6p2bloom)"/>
+
+    <!-- Buzz cut — DAMP with sweat at temples -->
+    <path d="M-26,-50 Q0,-58 26,-50 L26,-32 Q14,-44 0,-44 Q-14,-44 -26,-32 Z" fill="#a83820"/>
+    <line x1="-22" y1="-50" x2="0" y2="-50" stroke="#5a1810" stroke-width="0.4"/>
+    <line x1="0" y1="-54" x2="18" y2="-54" stroke="#5a1810" stroke-width="0.4"/>
+    <!-- Damp hair clumping -->
+    <path d="M-22,-44 Q-18,-40 -14,-44" stroke="#7a2820" stroke-width="0.55" fill="none" opacity="0.85"/>
+    <ellipse cx="14" cy="-54" rx="11" ry="2" fill="#ffd898" opacity="0.55" filter="url(#i8p6p2bloom)"/>
+
+    <!-- Brow — softening, jaw unclenching -->
+    <line x1="-22" y1="-32" x2="-7" y2="-34" stroke="#3a1808" stroke-width="1.4"/>
+    <line x1="7" y1="-34" x2="22" y2="-32" stroke="#3a1808" stroke-width="1.4"/>
+
+    <!-- ===== EYES — softening for a moment, briefly unguarded ===== -->
+    <ellipse cx="-9" cy="-22" rx="5" ry="3" fill="#fff8e8"/>
+    <ellipse cx="-9" cy="-22" rx="2" ry="2" fill="#3a1808"/>
+    <circle cx="-9" cy="-22" r="0.85" fill="#0a0408"/>
+    <ellipse cx="9" cy="-22" rx="5" ry="3" fill="#fff8e8"/>
+    <ellipse cx="9" cy="-22" rx="2" ry="2" fill="#3a1808"/>
+    <circle cx="9" cy="-22" r="0.85" fill="#0a0408"/>
+
+    <!-- Lashes -->
+    <line x1="-14" y1="-25" x2="-14" y2="-28" stroke="#1a0808" stroke-width="0.85"/>
+    <line x1="-9" y1="-25" x2="-9" y2="-29" stroke="#1a0808" stroke-width="0.85"/>
+    <line x1="-3" y1="-25" x2="-3" y2="-28" stroke="#1a0808" stroke-width="0.85"/>
+    <line x1="3" y1="-25" x2="3" y2="-28" stroke="#1a0808" stroke-width="0.85"/>
+    <line x1="9" y1="-25" x2="9" y2="-29" stroke="#1a0808" stroke-width="0.85"/>
+    <line x1="14" y1="-25" x2="14" y2="-28" stroke="#1a0808" stroke-width="0.85"/>
+
+    <!-- Catchlights -->
+    <circle cx="-7" cy="-23" r="0.7" fill="#a82818" filter="url(#i8p6p2bloom)" opacity="0.7"/>
+    <circle cx="11" cy="-23" r="0.85" fill="#ffd898" filter="url(#i8p6p2bloom)" opacity="0.85"/>
+
+    <!-- Tiny moisture under eyes (the brief vulnerability) -->
+    <line x1="-14" y1="-15" x2="-3" y2="-15" stroke="#3a1808" stroke-width="0.4" opacity="0.55"/>
+    <line x1="3" y1="-15" x2="14" y2="-15" stroke="#3a1808" stroke-width="0.4" opacity="0.55"/>
+
+    <!-- Nose -->
+    <path d="M-2,-15 L0,0 L4,0 L4,-15 Z" fill="#7a4818" opacity="0.55"/>
+    <line x1="-1" y1="0" x2="3" y2="0" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- Mouth — slightly parted, the exhale -->
+    <ellipse cx="0" cy="14" rx="6" ry="2" fill="#3a1808"/>
+    <line x1="-6" y1="14" x2="6" y2="14" stroke="#1a0808" stroke-width="0.4"/>
+
+    <!-- Cheek shadow softening -->
+    <ellipse cx="-22" cy="3" rx="6" ry="9" fill="#5a3018" opacity="0.4"/>
+    <ellipse cx="22" cy="3" rx="6" ry="9" fill="#7a4818" opacity="0.4"/>
+  </g>
+
+  <!-- Weapon at very bottom of frame (lowering out) -->
+  <g opacity="0.7">
+    <rect x="200" y="270" width="160" height="11" fill="#0a0408"/>
+    <ellipse cx="280" cy="275" rx="14" ry="0.85" fill="#a82818" filter="url(#i8p6p2bloom)" opacity="0.55"/>
+  </g>
+
+  <!-- (No dialogue) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+  </g>
+</svg>

@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 6 — Panel 4: The alley breathes — Thresh between two zones of darkness, the unwatched end where the encounter will come</title>
+  <desc>28mm wide cinematic eye level. Narrow Victorian alley stretches across frame — brick walls, cobblestones, single gas lamp casting warm amber pool center-right. Deep shadow fills both ends. Far wall base Thresh visible — tiny ruby-crimson figure, weapon across knees, watching toward gaslight. Near end (closest to viewer) fog curls at roofline around chimney pot — faintest suggestion of movement, not threat, just city breathing. Thresh sits between two zones of darkness, warm gaslight her only anchor. Moonlight catches fog at roofline. Composition frames Thresh between what she watches and what she doesn't — the near end is unguarded.</desc>
+
+  <defs>
+    <linearGradient id="i8p6p4skyStrip" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a4858"/>
+      <stop offset="100%" stop-color="#1a2438"/>
+    </linearGradient>
+    <linearGradient id="i8p6p4brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <linearGradient id="i8p6p4cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <radialGradient id="i8p6p4gaslightCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#d86838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p6p4gaslightHalo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#a86838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p6p4moonGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8c8e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a4858" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="i8p6p4nearShadow" cx="0%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#040408" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1a1208" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p6p4farShadow" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#040408" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1a1208" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i8p6p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p6p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p6p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p6p4megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- Sky strip -->
+  <rect width="742" height="40" fill="url(#i8p6p4skyStrip)"/>
+  <ellipse cx="371" cy="40" rx="500" ry="14" fill="url(#i8p6p4moonGlow)" filter="url(#i8p6p4strongglow)"/>
+
+  <!-- Brick walls -->
+  <rect x="0" y="40" width="742" height="200" fill="url(#i8p6p4brick)"/>
+  <g stroke="#040408" stroke-width="0.7" opacity="0.85">
+    <line x1="0" y1="60" x2="742" y2="60"/>
+    <line x1="0" y1="80" x2="742" y2="80"/>
+    <line x1="0" y1="100" x2="742" y2="100"/>
+    <line x1="0" y1="120" x2="742" y2="120"/>
+    <line x1="0" y1="140" x2="742" y2="140"/>
+    <line x1="0" y1="160" x2="742" y2="160"/>
+    <line x1="0" y1="180" x2="742" y2="180"/>
+    <line x1="0" y1="200" x2="742" y2="200"/>
+    <line x1="0" y1="220" x2="742" y2="220"/>
+  </g>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.7">
+    <line x1="60" y1="40" x2="60" y2="60"/>
+    <line x1="180" y1="40" x2="180" y2="60"/>
+    <line x1="300" y1="40" x2="300" y2="60"/>
+    <line x1="420" y1="40" x2="420" y2="60"/>
+    <line x1="540" y1="40" x2="540" y2="60"/>
+    <line x1="660" y1="40" x2="660" y2="60"/>
+    <line x1="120" y1="80" x2="120" y2="120"/>
+    <line x1="240" y1="80" x2="240" y2="120"/>
+    <line x1="360" y1="80" x2="360" y2="120"/>
+    <line x1="480" y1="80" x2="480" y2="120"/>
+    <line x1="600" y1="80" x2="600" y2="120"/>
+    <line x1="60" y1="140" x2="60" y2="180"/>
+    <line x1="180" y1="140" x2="180" y2="180"/>
+    <line x1="300" y1="140" x2="300" y2="180"/>
+    <line x1="420" y1="140" x2="420" y2="180"/>
+    <line x1="540" y1="140" x2="540" y2="180"/>
+    <line x1="660" y1="140" x2="660" y2="180"/>
+  </g>
+
+  <!-- Soot stains -->
+  <g fill="#040408" opacity="0.55">
+    <ellipse cx="80" cy="100" rx="14" ry="6"/>
+    <ellipse cx="280" cy="160" rx="14" ry="6"/>
+    <ellipse cx="500" cy="120" rx="14" ry="6"/>
+    <ellipse cx="660" cy="180" rx="14" ry="6"/>
+  </g>
+
+  <!-- Cobblestones -->
+  <rect x="0" y="240" width="742" height="60" fill="url(#i8p6p4cobble)"/>
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.55">
+    <ellipse cx="60" cy="260" rx="11" ry="6"/>
+    <ellipse cx="120" cy="270" rx="11" ry="6"/>
+    <ellipse cx="200" cy="265" rx="11" ry="6"/>
+    <ellipse cx="280" cy="270" rx="11" ry="6"/>
+    <ellipse cx="360" cy="265" rx="11" ry="6"/>
+    <ellipse cx="440" cy="270" rx="11" ry="6"/>
+    <ellipse cx="520" cy="265" rx="11" ry="6"/>
+    <ellipse cx="600" cy="270" rx="11" ry="6"/>
+    <ellipse cx="680" cy="265" rx="11" ry="6"/>
+    <ellipse cx="100" cy="285" rx="11" ry="6"/>
+    <ellipse cx="240" cy="290" rx="11" ry="6"/>
+    <ellipse cx="380" cy="285" rx="11" ry="6"/>
+    <ellipse cx="520" cy="290" rx="11" ry="6"/>
+    <ellipse cx="660" cy="285" rx="11" ry="6"/>
+  </g>
+
+  <!-- ===== GASLIGHT center-right ===== -->
+  <g transform="translate(440 80)">
+    <rect x="-2" y="0" width="4" height="160" fill="#3a3030"/>
+    <path d="M0,0 L-22,-9 L-22,-7 L-2,3 Z" fill="#3a3030"/>
+    <rect x="-22" y="-26" width="22" height="22" fill="#1a1818"/>
+    <polygon points="-26,-26 4,-26 0,-36 -22,-36" fill="#3a3030"/>
+    <rect x="-18" y="-22" width="14" height="16" fill="#3a1808"/>
+    <ellipse cx="-11" cy="-14" rx="6" ry="9" fill="url(#i8p6p4gaslightCore)" filter="url(#i8p6p4strongglow)"/>
+    <ellipse cx="-11" cy="-14" rx="3" ry="6" fill="#fff" filter="url(#i8p6p4bloom)"/>
+  </g>
+  <!-- Massive amber halo center-right -->
+  <ellipse cx="430" cy="80" rx="240" ry="160" fill="url(#i8p6p4gaslightHalo)" filter="url(#i8p6p4megaglow)" opacity="0.85"/>
+  <ellipse cx="380" cy="270" rx="220" ry="44" fill="url(#i8p6p4gaslightHalo)" filter="url(#i8p6p4megaglow)" opacity="0.7"/>
+
+  <!-- Cobblestones gleam where gaslight reaches -->
+  <g opacity="0.85" filter="url(#i8p6p4bloom)">
+    <ellipse cx="280" cy="270" rx="6" ry="2" fill="#ffd898" opacity="0.55"/>
+    <ellipse cx="360" cy="265" rx="9" ry="3" fill="#ffd898" opacity="0.7"/>
+    <ellipse cx="440" cy="270" rx="9" ry="3" fill="#ffd898" opacity="0.85"/>
+    <ellipse cx="520" cy="265" rx="6" ry="2" fill="#ffd898" opacity="0.55"/>
+  </g>
+
+  <!-- DEEP SHADOW NEAR END (left, foreground — the unwatched zone) -->
+  <ellipse cx="0" cy="180" rx="200" ry="200" fill="url(#i8p6p4nearShadow)" filter="url(#i8p6p4megaglow)"/>
+  <!-- DEEP SHADOW FAR END (right, background) -->
+  <ellipse cx="742" cy="180" rx="200" ry="200" fill="url(#i8p6p4farShadow)" filter="url(#i8p6p4megaglow)"/>
+
+  <!-- ===== CHIMNEY POT at near roofline (left) — subtle fog curling, the city breathing ===== -->
+  <g transform="translate(80 30)" opacity="0.85">
+    <rect x="-9" y="0" width="18" height="20" fill="#040408"/>
+    <ellipse cx="0" cy="0" rx="11" ry="2" fill="#040408"/>
+    <!-- FOG CURLING from chimney pot — the suggestion of movement -->
+    <ellipse cx="0" cy="-11" rx="14" ry="6" fill="#a8c8e8" opacity="0.55" filter="url(#i8p6p4glow)"/>
+    <ellipse cx="-14" cy="-22" rx="22" ry="9" fill="#a8c8e8" opacity="0.4" filter="url(#i8p6p4glow)"/>
+    <ellipse cx="14" cy="-25" rx="22" ry="11" fill="#a8c8e8" opacity="0.4" filter="url(#i8p6p4glow)"/>
+  </g>
+  <!-- Faint movement hint at near roofline -->
+  <g opacity="0.55" filter="url(#i8p6p4glow)">
+    <ellipse cx="120" cy="50" rx="60" ry="11" fill="#3a4858"/>
+    <ellipse cx="60" cy="55" rx="50" ry="9" fill="#3a4858"/>
+  </g>
+
+  <!-- ===== THRESH at far wall base, watching toward gaslight ===== -->
+  <g transform="translate(620 250)">
+    <ellipse cx="0" cy="0" rx="3" ry="6" fill="#3a0a0a" opacity="0.95"/>
+    <ellipse cx="0" cy="-6" rx="2" ry="2" fill="#3a0a0a"/>
+    <!-- Faint crimson hint -->
+    <circle cx="0" cy="-3" r="0.55" fill="#a82818" filter="url(#i8p6p4bloom)" opacity="0.85"/>
+    <!-- Weapon across knees -->
+    <line x1="-7" y1="3" x2="7" y2="3" stroke="#0a0408" stroke-width="0.85"/>
+  </g>
+  <ellipse cx="620" cy="244" rx="14" ry="9" fill="#3a0a0a" opacity="0.4" filter="url(#i8p6p4glow)"/>
+
+  <!-- ===== CAPTION ===== -->
+  <g>
+    <rect x="14" y="14" width="500" height="48" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">The alley breathed. Thresh kept watch.</text>
+  <text x="22" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">The city moved around her in its enormous, indifferent way —</text>
+  <text x="22" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic" font-weight="700">— and somewhere, Luma was following a trail five hundred years old.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#040408" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>

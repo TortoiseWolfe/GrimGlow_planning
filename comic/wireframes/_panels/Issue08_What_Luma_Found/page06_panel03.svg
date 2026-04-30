@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 8 — Page 6 — Panel 3: Thresh resettles — touches the chest scratch — the soldier's lucky coin — "Stay sharp"</title>
+  <desc>50mm medium. Thresh resettled against brick wall — compact weapon back across armored knees, back pressed to brick, broad-shouldered solidity restored. One hand touches long scratch across ruby-crimson chest plate — habitual grounding gesture, fingers tracing mark. Scratch catches glint of warm gaslight. Expression resettled — vulnerability locked away, discipline reasserted — but fatigue visible at edges of eyes. Copper-red buzz cut catches warm light. Alley stretches before her, returned to empty quiet. The soldier resetting.</desc>
+
+  <defs>
+    <linearGradient id="i8p6p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <linearGradient id="i8p6p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p6p3cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <radialGradient id="i8p6p3warm" cx="100%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p6p3armor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82818"/>
+      <stop offset="100%" stop-color="#3a0a0a"/>
+    </linearGradient>
+    <linearGradient id="i8p6p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0b888"/>
+      <stop offset="100%" stop-color="#a86838"/>
+    </linearGradient>
+    <filter id="i8p6p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p6p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p6p3megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#i8p6p3bg)"/>
+
+  <!-- Brick wall behind -->
+  <rect x="0" y="0" width="366" height="220" fill="url(#i8p6p3brick)"/>
+  <g stroke="#040408" stroke-width="0.7" opacity="0.85">
+    <line x1="0" y1="40" x2="366" y2="40"/>
+    <line x1="0" y1="80" x2="366" y2="80"/>
+    <line x1="0" y1="120" x2="366" y2="120"/>
+    <line x1="0" y1="160" x2="366" y2="160"/>
+    <line x1="0" y1="200" x2="366" y2="200"/>
+  </g>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.7">
+    <line x1="60" y1="0" x2="60" y2="40"/>
+    <line x1="180" y1="0" x2="180" y2="40"/>
+    <line x1="300" y1="0" x2="300" y2="40"/>
+    <line x1="120" y1="40" x2="120" y2="80"/>
+    <line x1="240" y1="40" x2="240" y2="80"/>
+    <line x1="60" y1="80" x2="60" y2="120"/>
+    <line x1="180" y1="80" x2="180" y2="120"/>
+    <line x1="300" y1="80" x2="300" y2="120"/>
+    <line x1="120" y1="120" x2="120" y2="160"/>
+    <line x1="240" y1="120" x2="240" y2="160"/>
+    <line x1="60" y1="160" x2="60" y2="200"/>
+    <line x1="180" y1="160" x2="180" y2="200"/>
+    <line x1="300" y1="160" x2="300" y2="200"/>
+  </g>
+  <g fill="#040408" opacity="0.55">
+    <ellipse cx="80" cy="100" rx="14" ry="6"/>
+    <ellipse cx="280" cy="160" rx="14" ry="6"/>
+  </g>
+
+  <!-- Warm amber from right -->
+  <ellipse cx="366" cy="140" rx="180" ry="200" fill="url(#i8p6p3warm)" filter="url(#i8p6p3megaglow)"/>
+
+  <!-- Cobblestone -->
+  <rect x="0" y="220" width="366" height="60" fill="url(#i8p6p3cobble)"/>
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.55">
+    <ellipse cx="60" cy="240" rx="11" ry="6"/>
+    <ellipse cx="140" cy="250" rx="11" ry="6"/>
+    <ellipse cx="220" cy="245" rx="11" ry="6"/>
+    <ellipse cx="300" cy="250" rx="11" ry="6"/>
+    <ellipse cx="100" cy="265" rx="11" ry="6"/>
+    <ellipse cx="180" cy="270" rx="11" ry="6"/>
+    <ellipse cx="260" cy="265" rx="11" ry="6"/>
+  </g>
+
+  <!-- ===== THRESH seated, back against brick ===== -->
+  <g transform="translate(160 200)">
+    <!-- Body -->
+    <path d="M-22,40 L-26,11 L-30,-22 L-22,-50 L-9,-66 L9,-66 L22,-50 L30,-22 L26,11 L22,40 Z" fill="url(#i8p6p3armor)"/>
+    <!-- Heavy dents -->
+    <ellipse cx="-22" cy="-22" rx="9" ry="6" fill="#5a1410"/>
+    <line x1="-26" y1="-26" x2="-18" y2="-15" stroke="#1a0606" stroke-width="0.85"/>
+    <ellipse cx="22" cy="-22" rx="9" ry="6" fill="#7a1810"/>
+    <line x1="26" y1="-26" x2="18" y2="-15" stroke="#1a0606" stroke-width="0.55"/>
+
+    <!-- ===== LONG CHEST SCRATCH — focal element, catching gaslight glint ===== -->
+    <path d="M-14,-7 L14,3" stroke="#3a0a0a" stroke-width="3" opacity="0.95"/>
+    <path d="M-12,-5 L12,5" stroke="#1a0606" stroke-width="1" opacity="0.7"/>
+    <!-- Glint of warm gaslight on the scratch -->
+    <ellipse cx="0" cy="-1" rx="11" ry="1" fill="#ffd898" filter="url(#i8p6p3bloom)" opacity="0.85"/>
+    <line x1="-9" y1="-3" x2="9" y2="2" stroke="#fff8d8" stroke-width="0.55" filter="url(#i8p6p3bloom)" opacity="0.7"/>
+
+    <!-- Suit accent dim -->
+    <line x1="0" y1="-50" x2="0" y2="30" stroke="#a82818" stroke-width="0.55" opacity="0.55" filter="url(#i8p6p3bloom)"/>
+    <circle cx="-9" cy="-30" r="0.85" fill="#a82818" filter="url(#i8p6p3bloom)" opacity="0.55"/>
+    <circle cx="9" cy="-30" r="0.85" fill="#a82818" filter="url(#i8p6p3bloom)" opacity="0.55"/>
+
+    <!-- Knees seated -->
+    <ellipse cx="-22" cy="40" rx="11" ry="6" fill="url(#i8p6p3armor)"/>
+    <ellipse cx="22" cy="40" rx="11" ry="6" fill="url(#i8p6p3armor)"/>
+
+    <!-- Weapon back across knees -->
+    <rect x="-44" y="38" width="88" height="6" fill="#1a1818"/>
+    <line x1="-44" y1="38" x2="44" y2="38" stroke="#3a3838" stroke-width="0.4" opacity="0.7"/>
+    <ellipse cx="0" cy="41" rx="22" ry="0.85" fill="#a82818" filter="url(#i8p6p3bloom)" opacity="0.55"/>
+    <!-- Stock and barrel -->
+    <rect x="-50" y="38" width="6" height="6" fill="#3a2818"/>
+    <rect x="44" y="38.5" width="11" height="3" fill="#1a1818"/>
+    <!-- Both hands resting on weapon -->
+    <ellipse cx="-22" cy="40" rx="3" ry="2" fill="url(#i8p6p3skin)"/>
+
+    <!-- ===== HAND TOUCHING the chest scratch — habitual grounding gesture ===== -->
+    <g transform="translate(0 0)">
+      <!-- Arm extended up to chest -->
+      <path d="M22,-22 L26,-9 L18,-3 L9,-9 Z" fill="url(#i8p6p3armor)"/>
+      <!-- Hand on scratch -->
+      <ellipse cx="9" cy="-3" rx="6" ry="4" fill="url(#i8p6p3skin)"/>
+      <!-- Fingers tracing -->
+      <line x1="3" y1="-3" x2="-3" y2="-1" stroke="#7a4818" stroke-width="0.85"/>
+      <line x1="6" y1="-3" x2="0" y2="-2" stroke="#7a4818" stroke-width="0.85"/>
+      <line x1="9" y1="-3" x2="3" y2="-2" stroke="#7a4818" stroke-width="0.85"/>
+      <!-- Fingertip on scratch (the touch point) -->
+      <circle cx="-3" cy="-1" r="0.85" fill="#fff8d8" filter="url(#i8p6p3bloom)" opacity="0.85"/>
+    </g>
+
+    <!-- Neck -->
+    <path d="M-7,-66 L7,-66 L4,-72 L-4,-72 Z" fill="url(#i8p6p3skin)"/>
+
+    <!-- Head — straight forward, eyes alert but tired -->
+    <ellipse cx="0" cy="-86" rx="11" ry="14" fill="url(#i8p6p3skin)"/>
+
+    <!-- Copper-red buzz cut catching warm light -->
+    <path d="M-9,-100 Q0,-104 9,-100 L9,-86 Q0,-90 -9,-86 Z" fill="#a83820"/>
+    <line x1="-7" y1="-100" x2="7" y2="-100" stroke="#5a1810" stroke-width="0.4"/>
+    <line x1="-7" y1="-94" x2="7" y2="-94" stroke="#5a1810" stroke-width="0.4"/>
+    <!-- Warm catch on hair -->
+    <ellipse cx="3" cy="-102" rx="9" ry="2" fill="#ffd898" opacity="0.7" filter="url(#i8p6p3bloom)"/>
+
+    <!-- Brow shadow -->
+    <ellipse cx="0" cy="-90" rx="11" ry="3" fill="#5a3018" opacity="0.55"/>
+
+    <!-- Brows — set, discipline reasserted -->
+    <line x1="-9" y1="-91" x2="-1" y2="-91" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="1" y1="-91" x2="9" y2="-91" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- Eyes — alert but tired -->
+    <ellipse cx="-3" cy="-86" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-3" cy="-86" r="0.85" fill="#3a1808"/>
+    <ellipse cx="3" cy="-86" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="3" cy="-86" r="0.85" fill="#3a1808"/>
+    <!-- Catchlights -->
+    <circle cx="-3" cy="-87" r="0.55" fill="#ffd898" filter="url(#i8p6p3bloom)" opacity="0.85"/>
+    <circle cx="3" cy="-87" r="0.55" fill="#ffd898" filter="url(#i8p6p3bloom)" opacity="0.85"/>
+    <!-- Fatigue at edges -->
+    <line x1="-7" y1="-82" x2="-1" y2="-82" stroke="#3a1808" stroke-width="0.4" opacity="0.7"/>
+    <line x1="1" y1="-82" x2="7" y2="-82" stroke="#3a1808" stroke-width="0.4" opacity="0.7"/>
+
+    <!-- Nose -->
+    <path d="M-1,-82 L0,-76 L2,-76 L2,-82 Z" fill="#7a4818" opacity="0.55"/>
+
+    <!-- Mouth — flat, set, whisper to self -->
+    <line x1="-3" y1="-72" x2="3" y2="-72" stroke="#3a1808" stroke-width="0.85"/>
+  </g>
+
+  <!-- ===== DIALOGUE — THRESH whisper to herself ===== -->
+  <g>
+    <rect x="14" y="14" width="220" height="36" rx="2" fill="white" stroke="#dc143c" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#dc143c" font-weight="700">THRESH  <tspan font-style="italic" font-size="8" font-weight="500">(whisper)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">Stay sharp.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+  </g>
+</svg>
