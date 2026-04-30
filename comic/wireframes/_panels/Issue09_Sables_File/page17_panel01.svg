@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 260" width="742" height="260">
+  <title>Issue 9 Page 17 Panel 1 — Late afternoon, golden-amber band across the camp, settled fracture</title>
+  <desc>Wide widescreen from inside looking toward wall gap. Late afternoon golden-amber streams through brickwork crack, long warm diagonal band across main beam. Dust motes float. New geography: Jink on mid-level cross-timber lower, Thresh perimeter, Wren station, Sable secondary beam. Settled not healed.</desc>
+  <defs>
+    <linearGradient id="bgH1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1814"/>
+      <stop offset="0.4" stop-color="#251f15"/>
+      <stop offset="1" stop-color="#15110a"/>
+    </linearGradient>
+    <radialGradient id="amberGoldH1" cx="0.85" cy="0.4" r="0.55">
+      <stop offset="0" stop-color="#f4c878" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#a87838" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#15110a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="copperZoneH1" cx="0.7" cy="0.6" r="0.18">
+      <stop offset="0" stop-color="#d88838" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#5a3018" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#15110a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="crimsonZoneH1" cx="0.18" cy="0.6" r="0.12">
+      <stop offset="0" stop-color="#5a1810" stop-opacity="0.4"/>
+      <stop offset="0.5" stop-color="#2a0808" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#15110a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silverFH1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8088"/>
+      <stop offset="0.5" stop-color="#4a4e54"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="copperFH1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.5" stop-color="#7a3e18"/>
+      <stop offset="1" stop-color="#3a1f0a"/>
+    </linearGradient>
+    <linearGradient id="emeraldFH1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#2e7048"/>
+      <stop offset="1" stop-color="#142e1f"/>
+    </linearGradient>
+    <linearGradient id="crimsonFH1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a1810"/>
+      <stop offset="0.5" stop-color="#2a0808"/>
+      <stop offset="1" stop-color="#0a0202"/>
+    </linearGradient>
+    <linearGradient id="timberSideH1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="beamMainH1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3a20"/>
+      <stop offset="0.4" stop-color="#3a2818"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <linearGradient id="repairStationH1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3220"/>
+      <stop offset="0.5" stop-color="#2a2418"/>
+      <stop offset="1" stop-color="#15110a"/>
+    </linearGradient>
+    <filter id="bloomH1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowH1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="megaGlowH1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="softH1" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="260" fill="url(#bgH1)"/>
+  <rect width="742" height="260" fill="url(#amberGoldH1)"/>
+  <rect width="742" height="260" fill="url(#copperZoneH1)"/>
+  <rect width="742" height="260" fill="url(#crimsonZoneH1)"/>
+
+  <g>
+    <path d="M 0 0 L 60 0 L 60 260 L 0 260 Z" fill="url(#timberSideH1)"/>
+    <path d="M 60 0 L 60 260 L 80 240 L 80 20 Z" fill="#1a1008" opacity="0.85"/>
+    <path d="M 682 0 L 742 0 L 742 260 L 682 260 Z" fill="url(#timberSideH1)"/>
+    <path d="M 682 0 L 682 260 L 662 240 L 662 20 Z" fill="#1a1008" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#megaGlowH1)">
+    <polygon points="640,40 700,40 720,200 540,260 380,260" fill="#f4c878"/>
+  </g>
+  <g opacity="0.65">
+    <polygon points="650,50 690,50 710,180 550,240 420,240" fill="#f4d8a8"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#softH1)">
+    <circle cx="500" cy="120" r="0.8" fill="#f4d8a8"/>
+    <circle cx="540" cy="100" r="0.6" fill="#f4d8a8"/>
+    <circle cx="580" cy="140" r="0.7" fill="#f4d8a8"/>
+    <circle cx="620" cy="80" r="0.6" fill="#f4d8a8"/>
+    <circle cx="460" cy="160" r="0.5" fill="#f4d8a8"/>
+    <circle cx="660" cy="180" r="0.6" fill="#f4d8a8"/>
+    <circle cx="600" cy="200" r="0.5" fill="#f4d8a8"/>
+    <circle cx="520" cy="180" r="0.5" fill="#f4d8a8"/>
+  </g>
+
+  <g>
+    <rect x="80" y="200" width="602" height="14" fill="url(#beamMainH1)"/>
+    <rect x="80" y="200" width="602" height="3" fill="#7a5230" opacity="0.8"/>
+    <rect x="80" y="212" width="602" height="2" fill="#0e0805" opacity="0.9"/>
+    <rect x="540" y="100" width="60" height="6" fill="#1a1008" opacity="0.9"/>
+    <rect x="200" y="120" width="60" height="6" fill="#1a1008" opacity="0.9"/>
+    <rect x="120" y="160" width="80" height="6" fill="#1a1008" opacity="0.9"/>
+  </g>
+
+  <g>
+    <rect x="490" y="160" width="80" height="40" fill="url(#repairStationH1)" stroke="#5a3a20" stroke-width="0.6"/>
+    <rect x="496" y="166" width="68" height="28" fill="#1a140a"/>
+    <line x1="496" y1="178" x2="564" y2="178" stroke="#5a3a20" stroke-width="0.4"/>
+  </g>
+  <g opacity="0.55" filter="url(#strongGlowH1)">
+    <ellipse cx="528" cy="180" rx="35" ry="22" fill="#d88838"/>
+  </g>
+  <g>
+    <ellipse cx="540" cy="178" rx="3" ry="3.4" fill="#3a261a"/>
+    <ellipse cx="540" cy="176" rx="2" ry="2" fill="#7a4830"/>
+    <rect x="536" y="180" width="8" height="14" fill="url(#copperFH1)"/>
+  </g>
+
+  <g>
+    <ellipse cx="280" cy="124" rx="3" ry="3.4" fill="#3a261a"/>
+    <ellipse cx="280" cy="122" rx="2" ry="2" fill="#7a4830"/>
+    <g opacity="0.75" filter="url(#strongGlowH1)">
+      <ellipse cx="280" cy="116" rx="6" ry="3" fill="#d8b020"/>
+    </g>
+    <rect x="276" y="126" width="8" height="14" fill="url(#emeraldFH1)"/>
+  </g>
+  <g opacity="0.55" filter="url(#bloomH1)">
+    <circle cx="280" cy="138" r="2" fill="#3aa868"/>
+  </g>
+
+  <g>
+    <ellipse cx="370" cy="178" rx="3" ry="3.4" fill="#3a261a"/>
+    <ellipse cx="370" cy="176" rx="2" ry="2" fill="#9098a0"/>
+    <rect x="366" y="180" width="8" height="14" fill="url(#silverFH1)" opacity="0.6"/>
+  </g>
+
+  <g>
+    <rect x="100" y="170" width="50" height="32" fill="url(#repairStationH1)" stroke="#5a3a20" stroke-width="0.5"/>
+    <ellipse cx="138" cy="166" rx="3" ry="3.4" fill="#3a261a"/>
+    <ellipse cx="138" cy="164" rx="2" ry="2" fill="#5a3622"/>
+    <path d="M 132 162 Q 138 158 144 162" stroke="#8a3818" stroke-width="1" fill="none"/>
+    <rect x="134" y="168" width="8" height="14" fill="url(#crimsonFH1)"/>
+    <rect x="148" y="172" width="14" height="6" fill="#1a1a1a"/>
+  </g>
+  <g opacity="0.55" filter="url(#bloomH1)">
+    <circle cx="133" cy="178" r="1.6" fill="#dc4540"/>
+  </g>
+
+  <g opacity="0.6">
+    <ellipse cx="370" cy="200" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="280" cy="142" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="540" cy="200" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="138" cy="200" rx="6" ry="2" fill="#080404"/>
+  </g>
+
+  <g opacity="0.92" filter="url(#strongGlowH1)">
+    <ellipse cx="710" cy="120" rx="22" ry="80" fill="#f4c878"/>
+  </g>
+  <g>
+    <path d="M 696 60 L 720 60 L 720 200 L 696 200 Z" fill="#d88838" opacity="0.7"/>
+    <path d="M 700 70 L 716 70 L 716 190 L 700 190 Z" fill="#f4c878" opacity="0.75"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="120" cy="40" r="0.4" fill="#3a4858"/>
+    <circle cx="280" cy="60" r="0.4" fill="#3a4858"/>
+  </g>
+</svg>

@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 260" width="366" height="260">
+  <title>Issue 9 Page 17 Panel 3 — Sable in shadow holds the data module without looking</title>
+  <desc>Medium shot Sable on secondary beam in shadow, holding data module — not activated, just held. Habit ingrained. Hollowed out, composure not rebuilt, mask not restored. Module dark, inactive. Object that was burden now just device. Soot-darkened silver blends with grey shadow.</desc>
+  <defs>
+    <linearGradient id="bgH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1f28"/>
+      <stop offset="0.4" stop-color="#252a32"/>
+      <stop offset="1" stop-color="#15191f"/>
+    </linearGradient>
+    <radialGradient id="distantAmberH3" cx="0.95" cy="0.4" r="0.4">
+      <stop offset="0" stop-color="#a89878" stop-opacity="0.3"/>
+      <stop offset="0.5" stop-color="#5a4838" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#15191f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="faceLitS_H3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a261a"/>
+      <stop offset="0.4" stop-color="#5a3622"/>
+      <stop offset="0.8" stop-color="#7a4830"/>
+      <stop offset="1" stop-color="#5a3622"/>
+    </linearGradient>
+    <linearGradient id="hairSilDimH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8088"/>
+      <stop offset="0.5" stop-color="#5a6068"/>
+      <stop offset="1" stop-color="#3a3e44"/>
+    </linearGradient>
+    <linearGradient id="silverSuitH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a5a5a"/>
+      <stop offset="0.5" stop-color="#3a3a3a"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="moduleOffH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2e34"/>
+      <stop offset="0.6" stop-color="#1a1c22"/>
+      <stop offset="1" stop-color="#080a10"/>
+    </linearGradient>
+    <linearGradient id="beamWoodH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#2a1c10"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <radialGradient id="eyeHollowH3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#9098a8" stop-opacity="0.4"/>
+      <stop offset="0.5" stop-color="#5a6478" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#5a6478" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomH3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="softH3" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="260" fill="url(#bgH3)"/>
+  <rect width="366" height="260" fill="url(#distantAmberH3)"/>
+
+  <g>
+    <ellipse cx="183" cy="240" rx="170" ry="40" fill="#15191f"/>
+  </g>
+
+  <g>
+    <rect x="20" y="200" width="326" height="14" fill="url(#beamWoodH3)"/>
+    <rect x="20" y="200" width="326" height="3" fill="#5a3a20" opacity="0.55"/>
+    <rect x="20" y="212" width="326" height="2" fill="#0e0805" opacity="0.85"/>
+  </g>
+
+  <g>
+    <path d="M 116 90 Q 110 110 116 138 Q 124 168 138 184 Q 156 192 180 192 Q 206 188 222 170 Q 230 144 230 110 Q 224 90 208 76 Q 184 70 162 72 Q 134 80 116 90 Z" fill="url(#faceLitS_H3)" opacity="0.9"/>
+    <path d="M 116 102 Q 112 128 122 156 Q 132 178 152 192 Q 138 188 128 176 Q 116 158 112 132 Q 114 110 116 102 Z" fill="#0a0604" opacity="0.55"/>
+  </g>
+
+  <g>
+    <path d="M 110 80 Q 124 64 162 60 Q 200 58 220 68 Q 232 80 232 96 L 226 104 Q 216 86 196 78 Q 168 72 144 78 Q 122 86 116 96 Z" fill="url(#hairSilDimH3)" opacity="0.85"/>
+  </g>
+
+  <g>
+    <ellipse cx="156" cy="124" rx="9" ry="3.5" fill="#0a0604"/>
+    <ellipse cx="200" cy="122" rx="10" ry="4" fill="#0a0604"/>
+    <circle cx="156" cy="124" r="2.6" fill="#080404"/>
+    <circle cx="200" cy="122" r="2.8" fill="#080404"/>
+    <circle cx="158" cy="123" r="1.1" fill="url(#eyeHollowH3)"/>
+    <circle cx="202" cy="121" r="1.2" fill="url(#eyeHollowH3)"/>
+    <path d="M 142 130 Q 156 136 170 132" stroke="#0a0604" stroke-width="0.6" fill="none" opacity="0.65"/>
+    <path d="M 188 128 Q 200 134 214 130" stroke="#0a0604" stroke-width="0.6" fill="none" opacity="0.65"/>
+  </g>
+
+  <g stroke="#0a0604" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M 138 114 Q 156 108 174 114"/>
+    <path d="M 184 112 Q 200 106 220 114"/>
+  </g>
+
+  <path d="M 178 130 Q 174 150 178 166" stroke="#0a0604" stroke-width="1.1" fill="none" opacity="0.7"/>
+
+  <g>
+    <path d="M 156 178 L 200 178" stroke="#0a0604" stroke-width="1.5"/>
+  </g>
+
+  <g>
+    <path d="M 30 200 L 218 196 L 222 240 L 22 240 Z" fill="url(#silverSuitH3)"/>
+    <path d="M 60 196 L 110 200 L 140 200 L 196 196 L 196 220 L 60 220 Z" fill="#2a2a2a"/>
+  </g>
+
+  <g opacity="0.92">
+    <ellipse cx="124" cy="208" rx="7" ry="2" fill="#0a0604"/>
+    <ellipse cx="180" cy="208" rx="7" ry="2" fill="#0a0604"/>
+    <ellipse cx="76" cy="208" rx="5" ry="1.6" fill="#0a0604"/>
+    <path d="M 50 210 L 80 214 L 76 220 L 46 216 Z" fill="#080404" opacity="0.75"/>
+    <path d="M 168 212 L 200 214 L 196 220 L 164 218 Z" fill="#080404" opacity="0.75"/>
+  </g>
+
+  <g>
+    <path d="M 196 200 L 240 200" stroke="url(#silverSuitH3)" stroke-width="3"/>
+    <path d="M 196 200 L 240 196" stroke="#1a1c20" stroke-width="0.6" opacity="0.7"/>
+  </g>
+
+  <g>
+    <rect x="232" y="184" width="34" height="20" rx="2" fill="url(#moduleOffH3)" stroke="#3a3e44" stroke-width="0.7"/>
+    <rect x="236" y="188" width="26" height="10" rx="1" fill="#080a10"/>
+    <rect x="240" y="200" width="18" height="2" fill="#3a3e44"/>
+    <line x1="234" y1="184" x2="244" y2="194" stroke="#1a1c20" stroke-width="0.4"/>
+  </g>
+  <g opacity="0.4">
+    <line x1="248" y1="190" x2="252" y2="190" stroke="#5a626a" stroke-width="0.5"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#bloomH3)">
+    <ellipse cx="183" cy="220" rx="50" ry="6" fill="#7a8898" opacity="0.5"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="40" cy="40" r="0.5" fill="#7a8898"/>
+    <circle cx="320" cy="50" r="0.5" fill="#a89878"/>
+  </g>
+</svg>
