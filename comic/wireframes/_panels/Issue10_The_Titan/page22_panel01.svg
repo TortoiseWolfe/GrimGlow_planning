@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 10 Page 22 Panel 1 — Newspaper laid flat, two mythologies side by side</title>
+  <desc>Close-up Victorian newspaper front page laid flat fully readable. Two articles visible: large left column TELEGRAPH DEMON TERRORISES THREADNEEDLE STREET with subheading text about destroyed machines breached walls claw marks. Smaller right column MYSTERIOUS LIGHTS CONTINUE IN CLERKENWELL with text about luminous figures. Two mythologies on same page — demons and fairies growing in parallel. Warm amber lamplight falls across newspaper. The double mythology in print.</desc>
+  <defs>
+    <linearGradient id="bgX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2410"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="lampGlowX1" cx="0.7" cy="0.18" r="0.55">
+      <stop offset="0" stop-color="#f4b860" stop-opacity="0.7"/>
+      <stop offset="0.4" stop-color="#a85820" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#1a1008" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paperX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#f0e4c8"/>
+      <stop offset="1" stop-color="#a89888"/>
+    </linearGradient>
+    <linearGradient id="paperShadX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8b898"/>
+      <stop offset="1" stop-color="#7a6850"/>
+    </linearGradient>
+    <linearGradient id="deskX1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3018"/>
+      <stop offset="0.5" stop-color="#3a1a08"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <filter id="bloomX1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowX1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowX1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#bgX1)"/>
+  <rect width="366" height="280" fill="url(#lampGlowX1)"/>
+
+  <g>
+    <rect x="0" y="0" width="366" height="280" fill="url(#deskX1)"/>
+    <g opacity="0.55" stroke="#1a0a04" stroke-width="0.4" fill="none">
+      <line x1="0" y1="40" x2="366" y2="38"/>
+      <line x1="0" y1="100" x2="366" y2="98"/>
+      <line x1="0" y1="180" x2="366" y2="178"/>
+      <line x1="0" y1="240" x2="366" y2="238"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="20" y="20" width="326" height="240" fill="url(#paperX1)" stroke="#5a3018" stroke-width="1.2"/>
+    <path d="M 20 20 L 24 24" stroke="#7a6850" stroke-width="0.6" opacity="0.85"/>
+    <path d="M 346 20 L 342 24" stroke="#7a6850" stroke-width="0.6" opacity="0.85"/>
+    <path d="M 20 260 L 24 256 L 28 260" fill="url(#paperShadX1)" opacity="0.85"/>
+    <path d="M 346 260 L 342 256 L 338 260" fill="url(#paperShadX1)" opacity="0.85"/>
+
+    <rect x="28" y="28" width="310" height="6" fill="#1a0a04" opacity="0.95"/>
+    <text x="183" y="44" text-anchor="middle" font-family="Times New Roman, serif" font-size="6.5" fill="#3a1a08" font-style="italic" letter-spacing="0.8">— THE LONDON ILLUSTRATED EVENING — Tuesday Edition —</text>
+    <line x1="28" y1="50" x2="338" y2="50" stroke="#5a3018" stroke-width="1.2"/>
+  </g>
+
+  <g>
+    <rect x="32" y="56" width="186" height="200" fill="none" stroke="#5a3018" stroke-width="0.5" opacity="0.55"/>
+
+    <text x="125" y="74" text-anchor="middle" font-family="Times New Roman, serif" font-size="11" fill="#1a0a04" font-weight="900" letter-spacing="0.5">TELEGRAPH</text>
+    <text x="125" y="86" text-anchor="middle" font-family="Times New Roman, serif" font-size="11" fill="#1a0a04" font-weight="900" letter-spacing="0.5">DEMON</text>
+    <text x="125" y="100" text-anchor="middle" font-family="Times New Roman, serif" font-size="6" fill="#1a0a04" font-weight="700">TERRORISES</text>
+    <text x="125" y="110" text-anchor="middle" font-family="Times New Roman, serif" font-size="6" fill="#1a0a04" font-weight="700">THREADNEEDLE STREET</text>
+
+    <line x1="36" y1="116" x2="214" y2="116" stroke="#5a3018" stroke-width="0.5"/>
+
+    <text x="125" y="128" text-anchor="middle" font-family="Times New Roman, serif" font-size="5" fill="#3a1a08" font-style="italic">— Machines Destroyed, Wall Breached —</text>
+    <text x="125" y="138" text-anchor="middle" font-family="Times New Roman, serif" font-size="5" fill="#3a1a08" font-style="italic">— Claw Marks Found —</text>
+    <text x="125" y="148" text-anchor="middle" font-family="Times New Roman, serif" font-size="5" fill="#3a1a08" font-style="italic">— Constables Baffled —</text>
+
+    <line x1="36" y1="154" x2="214" y2="154" stroke="#5a3018" stroke-width="0.4" opacity="0.55"/>
+
+    <text x="36" y="166" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">A creature of monstrous</text>
+    <text x="36" y="174" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">size, by the testimony of</text>
+    <text x="36" y="182" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">terrified witnesses, is said</text>
+    <text x="36" y="190" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">to have rendered a chamber</text>
+    <text x="36" y="198" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">of the General Post Office</text>
+    <text x="36" y="206" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">into utter ruin in the small</text>
+    <text x="36" y="214" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">hours of yesterday morn-</text>
+    <text x="36" y="222" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">ing, leaving in its passage</text>
+    <text x="36" y="230" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">deep claw-marks in the</text>
+    <text x="36" y="238" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">very brick. The Constabu-</text>
+    <text x="36" y="246" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08">lary, presented with...</text>
+  </g>
+
+  <g>
+    <line x1="222" y1="56" x2="222" y2="256" stroke="#5a3018" stroke-width="0.7"/>
+
+    <text x="282" y="76" text-anchor="middle" font-family="Times New Roman, serif" font-size="6.5" fill="#1a0a04" font-weight="700">MYSTERIOUS</text>
+    <text x="282" y="86" text-anchor="middle" font-family="Times New Roman, serif" font-size="6.5" fill="#1a0a04" font-weight="700">LIGHTS</text>
+    <text x="282" y="98" text-anchor="middle" font-family="Times New Roman, serif" font-size="5" fill="#1a0a04" font-weight="700">CONTINUE IN</text>
+    <text x="282" y="106" text-anchor="middle" font-family="Times New Roman, serif" font-size="5" fill="#1a0a04" font-weight="700">CLERKENWELL</text>
+
+    <line x1="226" y1="112" x2="338" y2="112" stroke="#5a3018" stroke-width="0.4"/>
+
+    <text x="282" y="122" text-anchor="middle" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08" font-style="italic">— Fourth Report This Month —</text>
+    <text x="282" y="130" text-anchor="middle" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08" font-style="italic">— of Luminous Figures —</text>
+    <text x="282" y="138" text-anchor="middle" font-family="Times New Roman, serif" font-size="4.5" fill="#3a1a08" font-style="italic">— in Walls and Gutters —</text>
+
+    <line x1="226" y1="144" x2="338" y2="144" stroke="#5a3018" stroke-width="0.3" opacity="0.55"/>
+
+    <text x="226" y="156" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08">Fresh accounts have arrived</text>
+    <text x="226" y="164" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08">from the Clerkenwell parish</text>
+    <text x="226" y="172" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08">of small lights, the size of</text>
+    <text x="226" y="180" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08">a coin or thereabouts, seen</text>
+    <text x="226" y="188" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08">flitting in the gaps between</text>
+    <text x="226" y="196" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08">brickwork and along disused</text>
+    <text x="226" y="204" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08">drains. Witnesses speak of</text>
+    <text x="226" y="212" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08">tiny figures appearing to</text>
+    <text x="226" y="220" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08">move with deliberate aim,</text>
+    <text x="226" y="228" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08">though no two reports...</text>
+
+    <rect x="226" y="234" width="112" height="20" fill="none" stroke="#5a3018" stroke-width="0.4" opacity="0.7"/>
+    <text x="282" y="246" text-anchor="middle" font-family="Times New Roman, serif" font-size="4" fill="#3a1a08" font-style="italic">FIG. 1 — Witness Sketch</text>
+    <ellipse cx="282" cy="252" rx="14" ry="0.7" fill="#5a3018" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="20" y1="260" x2="346" y2="260" stroke="#5a3018" stroke-width="0.7"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#bloomX1)">
+    <ellipse cx="200" cy="120" rx="180" ry="60" fill="#f4b860" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.45" filter="url(#megaGlowX1)">
+    <ellipse cx="270" cy="60" rx="120" ry="50" fill="#f4b860" opacity="0.5"/>
+  </g>
+
+  <g opacity="0.55">
+    <ellipse cx="100" cy="240" rx="2.4" ry="0.7" fill="#3a1a08"/>
+    <ellipse cx="180" cy="100" rx="1.6" ry="0.6" fill="#3a1a08"/>
+    <ellipse cx="260" cy="170" rx="1.6" ry="0.5" fill="#3a1a08"/>
+  </g>
+</svg>
