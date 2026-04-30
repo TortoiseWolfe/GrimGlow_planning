@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 8 — Page 3 — Panel 2: Wren and Jink whisper conference — the conspiracy forming in amber light</title>
+  <desc>85mm close-up two figures on timber beam above main camp. Wren copper suit oil-stained speaks low tones lips barely moving tight factual. Jink emerald suit soot-streaked listens expression shifting from casual curiosity to something harder, more troubled. Lit only by warm amber gaslight from wall gap, deliberately positioned away from cool holographic light below. Below and behind out of focus shapes of Sable and Luma talking. The conspiracy forming in amber light.</desc>
+
+  <defs>
+    <linearGradient id="i8p3p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i8p3p2timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <radialGradient id="i8p3p2amber" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#d89858" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p3p2wrenSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d88838"/>
+      <stop offset="100%" stop-color="#5a2818"/>
+    </linearGradient>
+    <linearGradient id="i8p3p2jinkSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i8p3p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0b888"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i8p3p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p3p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p3p2megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+    <filter id="i8p3p2bgBlur"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#i8p3p2bg)"/>
+
+  <!-- Warm amber pool dominating panel -->
+  <ellipse cx="183" cy="140" rx="280" ry="220" fill="url(#i8p3p2amber)" filter="url(#i8p3p2megaglow)"/>
+
+  <!-- Cobweb behind upper-left -->
+  <g stroke="#5a5050" stroke-width="0.4" fill="none" opacity="0.4">
+    <line x1="0" y1="40" x2="40" y2="0"/>
+    <line x1="20" y1="40" x2="40" y2="20"/>
+    <line x1="0" y1="40" x2="40" y2="20"/>
+  </g>
+
+  <!-- Timber beam they sit on -->
+  <rect x="0" y="220" width="366" height="60" fill="url(#i8p3p2timber)"/>
+  <line x1="0" y1="220" x2="366" y2="220" stroke="#7a4828" stroke-width="0.85" filter="url(#i8p3p2bloom)" opacity="0.7"/>
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.55">
+    <line x1="0" y1="240" x2="366" y2="240"/>
+    <line x1="0" y1="260" x2="366" y2="260"/>
+  </g>
+
+  <!-- Out-of-focus figures BELOW (Sable + Luma) -->
+  <g filter="url(#i8p3p2bgBlur)" opacity="0.55">
+    <ellipse cx="120" cy="265" rx="9" ry="14" fill="#7a7a80"/>
+    <ellipse cx="120" cy="252" rx="4" ry="4" fill="#7a7a80"/>
+    <ellipse cx="180" cy="268" rx="9" ry="14" fill="#7a4ab8"/>
+    <ellipse cx="180" cy="255" rx="4" ry="4" fill="#7a4ab8"/>
+  </g>
+
+  <!-- ===== WREN (left) — speaking in low tones ===== -->
+  <g transform="translate(120 180)">
+    <!-- Body — leaning forward slightly toward Jink -->
+    <path d="M-22,40 L-26,3 L-30,-22 L-22,-50 L-9,-66 L9,-66 L18,-50 L26,-22 L22,3 L18,40 Z" fill="url(#i8p3p2wrenSuit)"/>
+
+    <!-- Heavy oil stains -->
+    <ellipse cx="-14" cy="-22" rx="6" ry="4" fill="#1a0606" opacity="0.95"/>
+    <ellipse cx="11" cy="0" rx="5" ry="3" fill="#1a0606" opacity="0.85"/>
+    <path d="M-22,11 L-9,18" stroke="#1a0606" stroke-width="1.4" opacity="0.7"/>
+
+    <!-- Patched copper-wire tear (continuity) -->
+    <rect x="-11" y="-3" width="14" height="5" fill="#5a3818" opacity="0.95"/>
+    <line x1="-11" y1="0" x2="3" y2="2" stroke="#7a4828" stroke-width="0.4"/>
+
+    <!-- Suit accent (dimmed but pulsing) -->
+    <line x1="0" y1="-50" x2="0" y2="30" stroke="#ffa848" stroke-width="0.55" opacity="0.7" filter="url(#i8p3p2bloom)"/>
+
+    <!-- Arms (one elbow on knee, leaning in) -->
+    <path d="M-30,-22 L-36,3 L-22,11 L-14,-9 Z" fill="url(#i8p3p2wrenSuit)"/>
+    <path d="M26,-22 L30,3 L22,11 L11,-3 Z" fill="url(#i8p3p2wrenSuit)"/>
+
+    <!-- Head — turned toward Jink (RIGHT) -->
+    <ellipse cx="3" cy="-80" rx="11" ry="14" fill="url(#i8p3p2skin)"/>
+
+    <!-- Messy hair UP — high knot -->
+    <ellipse cx="3" cy="-94" rx="11" ry="5" fill="#1a1008"/>
+    <circle cx="9" cy="-100" r="4" fill="#1a1008"/>
+    <circle cx="-3" cy="-96" r="3" fill="#1a1008"/>
+    <!-- Loose strands -->
+    <path d="M-7,-86 Q-11,-72 -7,-66" stroke="#1a1008" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <!-- Brow shadow -->
+    <ellipse cx="3" cy="-86" rx="11" ry="2" fill="#5a3018" opacity="0.4"/>
+
+    <!-- Brows — tight, narrowed -->
+    <line x1="-3" y1="-83" x2="2" y2="-84" stroke="#3a1808" stroke-width="1.4"/>
+    <line x1="4" y1="-84" x2="9" y2="-83" stroke="#3a1808" stroke-width="1.4"/>
+
+    <!-- Eyes — fixed on Jink (right) -->
+    <ellipse cx="-1" cy="-78" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="0" cy="-78" r="0.85" fill="#3a1808"/>
+    <ellipse cx="6" cy="-78" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="7" cy="-78" r="0.85" fill="#3a1808"/>
+
+    <!-- Catchlight (amber) -->
+    <circle cx="1" cy="-78" r="0.55" fill="#ffd898" filter="url(#i8p3p2bloom)" opacity="0.85"/>
+    <circle cx="8" cy="-78" r="0.55" fill="#ffd898" filter="url(#i8p3p2bloom)" opacity="0.85"/>
+
+    <!-- Nose -->
+    <path d="M2,-72 L3,-66 L5,-66 L5,-72 Z" fill="#7a4818" opacity="0.55"/>
+
+    <!-- Mouth — barely moving (the low whisper) -->
+    <line x1="0" y1="-66" x2="6" y2="-66" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Tiny ellipse showing speech is happening -->
+    <ellipse cx="3" cy="-66" rx="1" ry="0.4" fill="#3a1808" opacity="0.7"/>
+
+    <!-- Cheekbone -->
+    <ellipse cx="-7" cy="-72" rx="3" ry="6" fill="#5a3018" opacity="0.4"/>
+  </g>
+
+  <!-- ===== JINK (right) — listening, expression shifting ===== -->
+  <g transform="translate(250 180)">
+    <!-- Body -->
+    <path d="M-18,40 L-22,3 L-26,-22 L-18,-50 L-7,-66 L7,-66 L18,-50 L26,-22 L22,3 L18,40 Z" fill="url(#i8p3p2jinkSuit)"/>
+
+    <!-- Soot streaks -->
+    <path d="M-18,-30 L-3,-22" stroke="#1a1410" stroke-width="2" opacity="0.85"/>
+    <ellipse cx="-9" cy="-9" rx="6" ry="3" fill="#1a1410" opacity="0.55"/>
+
+    <!-- Suit accent emerald (still pulsing) -->
+    <line x1="0" y1="-50" x2="0" y2="30" stroke="#a8ffd0" stroke-width="0.55" opacity="0.85" filter="url(#i8p3p2bloom)"/>
+    <circle cx="-7" cy="-30" r="0.85" fill="#5af0a0" filter="url(#i8p3p2bloom)" opacity="0.85"/>
+    <circle cx="7" cy="-30" r="0.85" fill="#5af0a0" filter="url(#i8p3p2bloom)" opacity="0.85"/>
+
+    <!-- Wing-pack on back (visible from this angle as a subtle hint) -->
+    <rect x="-9" y="-44" width="18" height="9" fill="#0a3018"/>
+    <line x1="-9" y1="-39" x2="9" y2="-39" stroke="#5af0a0" stroke-width="0.4" filter="url(#i8p3p2bloom)" opacity="0.85"/>
+
+    <!-- Arms -->
+    <path d="M-26,-22 L-30,3 L-22,11 L-14,-9 Z" fill="url(#i8p3p2jinkSuit)"/>
+    <path d="M26,-22 L30,3 L22,11 L11,-9 Z" fill="url(#i8p3p2jinkSuit)"/>
+
+    <!-- Head — turned toward Wren (LEFT) -->
+    <ellipse cx="-3" cy="-80" rx="11" ry="14" fill="url(#i8p3p2skin)"/>
+
+    <!-- Wild golden curls -->
+    <g fill="#f0d878" opacity="0.95">
+      <ellipse cx="-3" cy="-100" rx="14" ry="7"/>
+      <circle cx="-11" cy="-92" r="5"/>
+      <circle cx="6" cy="-94" r="5"/>
+      <circle cx="-3" cy="-104" r="4"/>
+      <circle cx="9" cy="-100" r="4"/>
+    </g>
+    <!-- Amber catch on hair -->
+    <ellipse cx="-3" cy="-104" rx="11" ry="3" fill="#ffe8a8" opacity="0.55" filter="url(#i8p3p2bloom)"/>
+
+    <!-- Brows — drawing down (troubled) -->
+    <line x1="-9" y1="-86" x2="-3" y2="-85" stroke="#3a1808" stroke-width="1.4"/>
+    <line x1="-1" y1="-85" x2="5" y2="-86" stroke="#3a1808" stroke-width="1.4"/>
+
+    <!-- Eyes — wide, troubled, processing -->
+    <ellipse cx="-7" cy="-78" rx="2.5" ry="1.4" fill="#fff8e8"/>
+    <circle cx="-7" cy="-78" r="1" fill="#3a1808"/>
+    <ellipse cx="3" cy="-78" rx="2.5" ry="1.4" fill="#fff8e8"/>
+    <circle cx="3" cy="-78" r="1" fill="#3a1808"/>
+
+    <!-- Catchlight amber -->
+    <circle cx="-7" cy="-79" r="0.55" fill="#ffd898" filter="url(#i8p3p2bloom)" opacity="0.85"/>
+    <circle cx="3" cy="-79" r="0.55" fill="#ffd898" filter="url(#i8p3p2bloom)" opacity="0.85"/>
+
+    <!-- Nose -->
+    <path d="M-3,-72 L-2,-66 L0,-66 L0,-72 Z" fill="#7a4818" opacity="0.55"/>
+
+    <!-- Mouth — open slightly (about to respond, then doesn't) -->
+    <ellipse cx="-3" cy="-66" rx="2" ry="1" fill="#3a1808"/>
+  </g>
+
+  <!-- ===== DIALOGUE — whispered exchange ===== -->
+  <!-- WREN -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#d88838" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#d88838" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(low)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">She knew. Before Luma said anything about</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">prior operatives, Sable already knew.</text>
+
+  <!-- JINK -->
+  <g>
+    <rect x="14" y="74" width="200" height="34" rx="2" fill="white" stroke="#2e8b57" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="89" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2e8b57" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(low)</tspan></text>
+  <text x="22" y="102" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">Maybe she's just—</text>
+
+  <!-- WREN — interruption -->
+  <g>
+    <rect x="14" y="116" width="338" height="50" rx="2" fill="white" stroke="#d88838" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="132" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#d88838" font-weight="700">WREN</text>
+  <text x="22" y="146" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">She told Luma to look for a sealed lower level.</text>
+  <text x="22" y="160" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-weight="700">Luma never mentioned sealed anything.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+  </g>
+</svg>
