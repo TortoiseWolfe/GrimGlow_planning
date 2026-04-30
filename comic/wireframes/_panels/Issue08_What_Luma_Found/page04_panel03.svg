@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 4 — Panel 3: Thresh navigates the Victorian room — chair legs as tree trunks, gas lamp as sun, the soldier crossing into hostile terrain</title>
+  <desc>28mm wide low angle from floor level — fairy's perspective. Chair legs rise like tree trunks. Table edge above is distant ceiling. Gas lamp enormous casting vast warm amber shadows. Tiny figure in dented ruby-crimson armored suit moves along baseboard toward gap in exterior brickwork where cold bluish moonlight enters — broad-shouldered, compact weapon ready, moving with trained tactical caution. Ahead exterior gap frames sliver of Victorian night — moonlight, fog, edge of alley. Behind, the warm gaslit room. Ruby suit catches both lights — amber on rear surfaces, cold blue on leading edges. Scale overwhelming.</desc>
+
+  <defs>
+    <linearGradient id="i8p4p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i8p4p3floorboard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3818"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p4p3wood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a5028"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p4p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p4p3lampGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p4p3moonlight" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a8c8e8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1a3858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p4p3threshSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f04838"/>
+      <stop offset="100%" stop-color="#7a1810"/>
+    </linearGradient>
+    <filter id="i8p4p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p4p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p4p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p4p3megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i8p4p3bg)"/>
+
+  <!-- ===== Vast warm amber pool from offscreen gas lamp (top-left) ===== -->
+  <ellipse cx="40" cy="40" rx="200" ry="220" fill="url(#i8p4p3lampGlow)" filter="url(#i8p4p3megaglow)" opacity="0.85"/>
+
+  <!-- ===== TABLE EDGE above (distant ceiling) ===== -->
+  <rect x="0" y="0" width="366" height="40" fill="url(#i8p4p3wood)"/>
+  <line x1="0" y1="40" x2="366" y2="40" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Wood grain on table edge -->
+  <g stroke="#5a2818" stroke-width="0.4" opacity="0.55">
+    <line x1="0" y1="14" x2="366" y2="14"/>
+    <line x1="0" y1="24" x2="366" y2="24"/>
+  </g>
+
+  <!-- ===== CHAIR LEG (left) — tree trunk scale ===== -->
+  <g transform="translate(80 0)">
+    <!-- Leg body (turned wood, decorative) -->
+    <path d="M-22,40 L-22,80 L-26,90 L-22,100 L-18,110 L-22,120 L-22,180 L-20,260 L-26,260 L-30,180 L-30,40 Z" fill="url(#i8p4p3wood)"/>
+    <!-- Highlights catching warm light -->
+    <line x1="-26" y1="40" x2="-26" y2="260" stroke="#a86838" stroke-width="0.85" filter="url(#i8p4p3bloom)" opacity="0.7"/>
+    <!-- Wood grain -->
+    <g stroke="#3a1808" stroke-width="0.55" opacity="0.55">
+      <line x1="-30" y1="60" x2="-22" y2="60"/>
+      <line x1="-30" y1="100" x2="-22" y2="100"/>
+      <line x1="-30" y1="140" x2="-22" y2="140"/>
+      <line x1="-30" y1="180" x2="-22" y2="180"/>
+      <line x1="-30" y1="220" x2="-22" y2="220"/>
+    </g>
+    <!-- Decorative ring at top -->
+    <ellipse cx="-26" cy="80" rx="6" ry="2" fill="#3a1808"/>
+    <ellipse cx="-26" cy="120" rx="5" ry="2" fill="#3a1808"/>
+  </g>
+
+  <!-- ===== CHAIR LEG (right, more distant) ===== -->
+  <g transform="translate(280 0)" opacity="0.85">
+    <path d="M-11,40 L-11,80 L-14,90 L-11,100 L-9,110 L-11,120 L-11,180 L-9,260 L-14,260 L-18,180 L-18,40 Z" fill="url(#i8p4p3wood)"/>
+    <line x1="-14" y1="40" x2="-14" y2="260" stroke="#a86838" stroke-width="0.4" filter="url(#i8p4p3bloom)" opacity="0.7"/>
+    <ellipse cx="-14" cy="80" rx="3" ry="1" fill="#3a1808"/>
+    <ellipse cx="-14" cy="120" rx="3" ry="1" fill="#3a1808"/>
+  </g>
+
+  <!-- ===== FLOOR with wide floorboards ===== -->
+  <rect x="0" y="240" width="366" height="60" fill="url(#i8p4p3floorboard)"/>
+  <line x1="0" y1="240" x2="366" y2="240" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Floorboard seams (perspective) -->
+  <g stroke="#1a0808" stroke-width="0.55" opacity="0.7">
+    <line x1="0" y1="270" x2="366" y2="270"/>
+  </g>
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.55">
+    <line x1="80" y1="240" x2="60" y2="300"/>
+    <line x1="180" y1="240" x2="170" y2="300"/>
+    <line x1="280" y1="240" x2="290" y2="300"/>
+  </g>
+  <!-- Boot-mark scuffs -->
+  <g fill="#1a0808" opacity="0.4">
+    <ellipse cx="40" cy="265" rx="6" ry="2"/>
+    <ellipse cx="160" cy="280" rx="9" ry="3"/>
+    <ellipse cx="240" cy="270" rx="6" ry="2"/>
+  </g>
+  <!-- Dust motes catching the lamp light -->
+  <g fill="#fff8d8" opacity="0.4" filter="url(#i8p4p3bloom)">
+    <circle cx="120" cy="100" r="0.85"/>
+    <circle cx="180" cy="60" r="0.55"/>
+    <circle cx="220" cy="120" r="0.85"/>
+    <circle cx="80" cy="180" r="0.55"/>
+  </g>
+
+  <!-- ===== VAST WARM SHADOW cast by chair leg across floor ===== -->
+  <path d="M58,240 L20,300 L80,300 L92,240 Z" fill="#1a0808" opacity="0.55" filter="url(#i8p4p3glow)"/>
+  <path d="M270,240 L260,300 L290,300 L292,240 Z" fill="#1a0808" opacity="0.4" filter="url(#i8p4p3glow)"/>
+
+  <!-- ===== EXTERIOR GAP — far right, cold blue moonlight ===== -->
+  <rect x="310" y="180" width="56" height="80" fill="#0a1018"/>
+  <ellipse cx="338" cy="220" rx="80" ry="60" fill="url(#i8p4p3moonlight)" filter="url(#i8p4p3megaglow)"/>
+  <!-- Brick edge of exterior gap -->
+  <rect x="300" y="180" width="14" height="80" fill="url(#i8p4p3brick)"/>
+  <path d="M300,180 L300,260 L308,255 L302,220 L308,210 Z" fill="#1a0808"/>
+  <!-- Cold sliver of alley visible -->
+  <rect x="320" y="200" width="36" height="40" fill="#1a3858" opacity="0.7"/>
+  <!-- Alley fog hint -->
+  <ellipse cx="338" cy="225" rx="22" ry="6" fill="#a8c8e8" opacity="0.4" filter="url(#i8p4p3bloom)"/>
+
+  <!-- Baseboard along floor -->
+  <rect x="0" y="232" width="366" height="9" fill="#3a2010"/>
+
+  <!-- ===== THRESH — tiny along baseboard, moving toward exterior gap ===== -->
+  <g transform="translate(180 220)">
+    <!-- Body -->
+    <path d="M-7,18 L-9,3 L-11,-9 L-7,-22 L-3,-30 L3,-30 L7,-22 L11,-9 L9,3 L7,18 Z" fill="url(#i8p4p3threshSuit)"/>
+
+    <!-- Dented pauldrons -->
+    <ellipse cx="-9" cy="-14" rx="3" ry="2" fill="#5a1410"/>
+    <ellipse cx="9" cy="-14" rx="3" ry="2" fill="#7a1810"/>
+
+    <!-- Chest scratch -->
+    <path d="M-5,-3 L5,3" stroke="#3a0a0a" stroke-width="0.85" opacity="0.85"/>
+
+    <!-- Suit accent (dimmed for stealth) -->
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#ffa898" stroke-width="0.4" opacity="0.7" filter="url(#i8p4p3bloom)"/>
+
+    <!-- AMBER catch on rear (left) surface -->
+    <path d="M-11,-9 L-9,3 L-7,18 L-7,-3 Z" fill="#ffd898" opacity="0.4" filter="url(#i8p4p3bloom)"/>
+
+    <!-- COLD BLUE catch on leading (right) surface -->
+    <path d="M11,-9 L9,3 L7,18 L7,-3 Z" fill="#a8c8e8" opacity="0.4" filter="url(#i8p4p3bloom)"/>
+
+    <!-- Weapon ready, forward -->
+    <path d="M11,-9 L18,-3 L22,3 L11,3 Z" fill="url(#i8p4p3threshSuit)"/>
+    <rect x="18" y="-3" width="14" height="2.5" fill="#1a1818"/>
+    <ellipse cx="24" cy="-2" rx="3" ry="0.4" fill="#f04838" filter="url(#i8p4p3bloom)" opacity="0.85"/>
+
+    <!-- Other arm -->
+    <path d="M-11,-9 L-14,3 L-7,9 L-5,-3 Z" fill="url(#i8p4p3threshSuit)"/>
+
+    <!-- Legs (mid-stride) -->
+    <path d="M-3,18 L-5,30 L-1,30 L0,18 Z" fill="url(#i8p4p3threshSuit)"/>
+    <path d="M2,18 L3,30 L7,30 L5,18 Z" fill="url(#i8p4p3threshSuit)"/>
+
+    <!-- Head — turned forward, alert -->
+    <ellipse cx="2" cy="-36" rx="3" ry="4" fill="#e0b888"/>
+    <path d="M-1,-40 Q2,-43 5,-40 L5,-36 Q2,-38 -1,-36 Z" fill="#a83820"/>
+    <!-- Eyes (tiny, focused forward) -->
+    <line x1="0" y1="-36" x2="2" y2="-36" stroke="#1a0808" stroke-width="0.55"/>
+    <line x1="3" y1="-36" x2="5" y2="-36" stroke="#1a0808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== Caption — tactical focus indicator ===== -->
+  <g opacity="0.85">
+    <rect x="14" y="14" width="160" height="22" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.55" opacity="0.7"/>
+    <text x="22" y="29" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">Hostile terrain. Trained caution.</text>
+  </g>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>

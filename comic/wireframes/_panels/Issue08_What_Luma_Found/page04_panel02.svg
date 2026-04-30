@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 4 — Panel 2: Thresh at the gap, looking back at Sable alone — the soldier in the doorway, the commander in the darkness</title>
+  <desc>50mm medium shot eye level. Thresh — broad-shouldered woman, copper-red buzz cut, dented ruby-crimson armored suit — pauses at gap, compact rifle in hand, looking back into camp. Geared for solo watch — armor sealed, sidearm visible, holographic nodes pulsing faintly crimson. Behind her in dimming camp, single figure stands with back turned — silver suit, silver-white hair, facing far wall, alone. Frame within a frame — soldier in doorway, commander in darkness. Warm amber from gap right. Camp behind dim — faint perimeter markers only cool light, Sable rigid shadow.</desc>
+
+  <defs>
+    <linearGradient id="i8p4p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p4p2timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i8p4p2brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p4p2amber" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#d89858" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p4p2perimeter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c8d8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a3848" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p4p2threshSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f04838"/>
+      <stop offset="100%" stop-color="#7a1810"/>
+    </linearGradient>
+    <linearGradient id="i8p4p2sableSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5a60"/>
+      <stop offset="100%" stop-color="#1a1a20"/>
+    </linearGradient>
+    <linearGradient id="i8p4p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0b888"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i8p4p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p4p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p4p2megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i8p4p2bg)"/>
+
+  <!-- Brick wall left side (gap edge) -->
+  <rect x="0" y="0" width="120" height="300" fill="url(#i8p4p2brick)"/>
+  <g stroke="#1a0808" stroke-width="0.55" opacity="0.55">
+    <line x1="0" y1="40" x2="120" y2="40"/>
+    <line x1="0" y1="80" x2="120" y2="80"/>
+    <line x1="0" y1="120" x2="120" y2="120"/>
+    <line x1="0" y1="160" x2="120" y2="160"/>
+    <line x1="0" y1="200" x2="120" y2="200"/>
+    <line x1="40" y1="0" x2="40" y2="40"/>
+    <line x1="80" y1="80" x2="80" y2="120"/>
+  </g>
+  <path d="M120,0 L120,300 L130,295 L124,180 L130,170 L122,80 Z" fill="#1a1208"/>
+
+  <!-- Timber frame (gap edge) -->
+  <rect x="120" y="0" width="11" height="300" fill="url(#i8p4p2timber)"/>
+
+  <!-- Warm amber from beyond gap (far left) -->
+  <ellipse cx="0" cy="150" rx="120" ry="200" fill="url(#i8p4p2amber)" filter="url(#i8p4p2megaglow)" opacity="0.55"/>
+
+  <!-- ===== INTERIOR camp (behind Thresh) — DIMMING ===== -->
+  <!-- Faint perimeter glow behind -->
+  <ellipse cx="240" cy="200" rx="160" ry="180" fill="url(#i8p4p2perimeter)" filter="url(#i8p4p2megaglow)" opacity="0.55"/>
+
+  <!-- Far wall timber -->
+  <rect x="320" y="0" width="46" height="300" fill="#0a0606"/>
+
+  <!-- Floor -->
+  <rect x="0" y="270" width="366" height="30" fill="#0a0606"/>
+  <rect x="131" y="240" width="180" height="11" fill="url(#i8p4p2timber)" opacity="0.7"/>
+
+  <!-- Faint perimeter pylon (background) -->
+  <g opacity="0.55" filter="url(#i8p4p2bloom)">
+    <line x1="200" y1="240" x2="200" y2="220" stroke="#a8c8d8" stroke-width="1.4"/>
+    <circle cx="200" cy="220" r="2" fill="#a8c8d8"/>
+  </g>
+
+  <!-- ===== SABLE in distant background — back turned, alone ===== -->
+  <g transform="translate(290 230)" opacity="0.85">
+    <!-- Body from back -->
+    <path d="M-7,30 L-9,9 L-11,-14 L-9,-30 L-3,-40 L3,-40 L9,-30 L11,-14 L9,9 L7,30 Z" fill="url(#i8p4p2sableSuit)"/>
+    <!-- Heavy soot streaks (visible from back) -->
+    <ellipse cx="0" cy="-9" rx="6" ry="3" fill="#1a1a20" opacity="0.85"/>
+    <ellipse cx="-3" cy="11" rx="4" ry="2" fill="#1a1a20" opacity="0.7"/>
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#a8a8b0" stroke-width="0.4" opacity="0.55" filter="url(#i8p4p2bloom)"/>
+    <!-- Arms at sides -->
+    <path d="M-11,-14 L-14,3 L-9,11 L-7,0 Z" fill="url(#i8p4p2sableSuit)"/>
+    <path d="M11,-14 L14,3 L9,11 L7,0 Z" fill="url(#i8p4p2sableSuit)"/>
+    <!-- Head from back -->
+    <ellipse cx="0" cy="-50" rx="5" ry="6" fill="#3a2010"/>
+    <!-- Silver-white hair from back -->
+    <path d="M-5,-58 Q0,-62 5,-58 L5,-46 Q0,-48 -5,-46 Z" fill="#a8a8b0" opacity="0.85"/>
+    <line x1="-3" y1="-56" x2="3" y2="-56" stroke="#c8c8d0" stroke-width="0.4" filter="url(#i8p4p2bloom)" opacity="0.55"/>
+  </g>
+
+  <!-- ===== THRESH at the gap — paused, looking back ===== -->
+  <g transform="translate(180 200)">
+    <!-- Body — broad, armored, mid-pause -->
+    <path d="M-14,80 L-18,40 L-22,11 L-22,-22 L-14,-50 L-3,-66 L9,-66 L22,-50 L26,-22 L26,11 L22,40 L18,80 Z" fill="url(#i8p4p2threshSuit)"/>
+
+    <!-- Heavy dents (left pauldron) -->
+    <ellipse cx="-22" cy="-30" rx="11" ry="6" fill="#5a1410"/>
+    <line x1="-26" y1="-36" x2="-18" y2="-22" stroke="#1a0606" stroke-width="0.85"/>
+    <ellipse cx="-22" cy="-26" rx="6" ry="2" fill="#3a0a0a" opacity="0.7"/>
+    <!-- Right pauldron (less damaged) -->
+    <ellipse cx="22" cy="-30" rx="11" ry="6" fill="#7a1810"/>
+    <line x1="26" y1="-36" x2="18" y2="-22" stroke="#1a0606" stroke-width="0.55"/>
+
+    <!-- Long chest scratch (continuity, the Issue 10 mark) -->
+    <path d="M-14,-9 L14,3" stroke="#3a0a0a" stroke-width="2.5" opacity="0.85"/>
+    <path d="M-11,-7 L11,5" stroke="#1a0606" stroke-width="0.85" opacity="0.7"/>
+
+    <!-- Suit accent crimson (pulsing for stealth, dimmed) -->
+    <line x1="0" y1="-50" x2="0" y2="60" stroke="#ffa898" stroke-width="0.7" opacity="0.85" filter="url(#i8p4p2bloom)"/>
+    <circle cx="-9" cy="-30" r="0.85" fill="#f04838" filter="url(#i8p4p2bloom)" opacity="0.85"/>
+    <circle cx="9" cy="-30" r="0.85" fill="#f04838" filter="url(#i8p4p2bloom)" opacity="0.85"/>
+    <circle cx="0" cy="3" r="0.85" fill="#f04838" filter="url(#i8p4p2bloom)" opacity="0.85"/>
+
+    <!-- Sidearm holstered at hip -->
+    <rect x="14" y="11" width="6" height="11" fill="#1a1818"/>
+    <rect x="14" y="11" width="6" height="3" fill="#3a3838"/>
+
+    <!-- ===== ARMS — compact rifle in hand ===== -->
+    <!-- Right arm holding weapon down/ready -->
+    <path d="M22,-22 L36,3 L30,18 L14,9 Z" fill="url(#i8p4p2threshSuit)"/>
+    <ellipse cx="36" cy="3" rx="4" ry="3" fill="url(#i8p4p2skin)"/>
+    <!-- Compact rifle -->
+    <rect x="32" y="0" width="36" height="6" fill="#1a1818" stroke="#0a0408" stroke-width="0.4"/>
+    <ellipse cx="50" cy="3" rx="11" ry="0.85" fill="#f04838" filter="url(#i8p4p2bloom)" opacity="0.85"/>
+    <!-- Stock and barrel -->
+    <rect x="62" y="-1.5" width="11" height="3" fill="#1a1818"/>
+    <rect x="32" y="0" width="6" height="6" fill="#3a2818"/>
+    <!-- Trigger guard -->
+    <path d="M44,6 L44,9 L48,11 L52,11 L56,9 L56,6 Z" fill="#0a0408"/>
+
+    <!-- Left arm at side -->
+    <path d="M-22,-22 L-30,3 L-22,18 L-14,0 Z" fill="url(#i8p4p2threshSuit)"/>
+    <ellipse cx="-30" cy="3" rx="4" ry="3" fill="url(#i8p4p2skin)"/>
+
+    <!-- Legs (planted, paused) -->
+    <path d="M-9,80 L-14,140 L-3,140 L-3,80 Z" fill="url(#i8p4p2threshSuit)"/>
+    <path d="M3,80 L3,140 L14,140 L9,80 Z" fill="url(#i8p4p2threshSuit)"/>
+
+    <!-- Neck -->
+    <path d="M-7,-66 L7,-66 L4,-72 L-4,-72 Z" fill="url(#i8p4p2skin)"/>
+
+    <!-- Head — turned BACK to look at Sable (right) -->
+    <ellipse cx="3" cy="-86" rx="11" ry="14" fill="url(#i8p4p2skin)"/>
+    <!-- Copper-red buzz cut -->
+    <path d="M-7,-100 Q3,-104 14,-100 L14,-86 Q3,-90 -7,-86 Z" fill="#a83820"/>
+    <line x1="-5" y1="-100" x2="11" y2="-100" stroke="#5a1810" stroke-width="0.4"/>
+    <line x1="-5" y1="-94" x2="11" y2="-94" stroke="#5a1810" stroke-width="0.4"/>
+
+    <!-- Defined cheekbone -->
+    <path d="M-7,-78 Q-9,-82 -3,-82" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.55"/>
+    <path d="M11,-78 Q14,-82 7,-82" stroke="#7a4818" stroke-width="0.55" fill="none" opacity="0.55"/>
+
+    <!-- Eyes turned to right (looking back at Sable) -->
+    <ellipse cx="3" cy="-86" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="4" cy="-86" r="0.85" fill="#3a1808"/>
+    <ellipse cx="9" cy="-86" rx="2" ry="1.4" fill="#fff8e8"/>
+    <circle cx="10" cy="-86" r="0.85" fill="#3a1808"/>
+
+    <!-- Brows — set, watchful -->
+    <line x1="-3" y1="-91" x2="3" y2="-91" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="3" y1="-91" x2="11" y2="-91" stroke="#3a1808" stroke-width="0.85"/>
+
+    <!-- Mouth — flat, set -->
+    <line x1="0" y1="-80" x2="6" y2="-80" stroke="#3a1808" stroke-width="0.85"/>
+  </g>
+
+  <!-- ===== DIALOGUE — clipped exchange ===== -->
+  <!-- THRESH -->
+  <g>
+    <rect x="14" y="14" width="240" height="36" rx="2" fill="white" stroke="#dc143c" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#dc143c" font-weight="700">THRESH</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Quarter-hour check-ins.</text>
+
+  <!-- SABLE — without turning -->
+  <g>
+    <rect x="14" y="60" width="240" height="36" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE  <tspan font-style="italic" font-size="8" font-weight="500">(without turning)</tspan></text>
+  <text x="22" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Copy.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>
