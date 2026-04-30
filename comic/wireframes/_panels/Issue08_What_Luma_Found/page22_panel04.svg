@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 320" width="366" height="320">
+  <title>Issue 8 — Page 22 — Panel 4: ISSUE FINALE — St. Elspeth's at night, abandoned again, the fairy light receding into fog — "Stay" waiting in the dark beneath</title>
+  <desc>28mm wide eye level. St. Elspeth's Church at night present day — boarded windows, overgrown churchyard, padlocked iron gate, stone absorbing moonlight. Building dark, abandoned, heavy with weight of hidden truth. Fog wraps churchyard. Moonlight provides cold blue-grey illumination — church a dark mass against night sky. In far distance, barely visible through fog beyond church, faintest point of blue-violet light — tiny glow receding through foggy streets, fairy's scanner carried by a boy, moving away, carrying dead world's last words into living world. Church holds secret beneath altar, beneath stone, beneath centuries of dust. Word waits in the dark. Fog holds everything. Light retreats. Truth remains.</desc>
+
+  <defs>
+    <linearGradient id="i8p22p4skyNight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a4858"/>
+      <stop offset="100%" stop-color="#1a2438"/>
+    </linearGradient>
+    <linearGradient id="i8p22p4stoneNorman" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i8p22p4stoneGothic" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a3030"/>
+      <stop offset="100%" stop-color="#1a1820"/>
+    </linearGradient>
+    <linearGradient id="i8p22p4grass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1818"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p22p4ivy" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1810"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <radialGradient id="i8p22p4moonlight" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#a8b8c8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a2438" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p22p4fogLayer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5868" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5a5868" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a4858" stop-opacity="0.55"/>
+    </linearGradient>
+    <radialGradient id="i8p22p4fairyLight" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i8p22p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p22p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p22p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p22p4megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="i8p22p4fogBlur"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- Sky (cold night) -->
+  <rect width="366" height="80" fill="url(#i8p22p4skyNight)"/>
+  <!-- Faint moon halo -->
+  <ellipse cx="183" cy="30" rx="200" ry="80" fill="url(#i8p22p4moonlight)" filter="url(#i8p22p4megaglow)"/>
+  <!-- Moon (faint, fog-veiled) -->
+  <circle cx="200" cy="30" r="14" fill="#a8b8c8" filter="url(#i8p22p4strongglow)" opacity="0.55"/>
+
+  <!-- Distant clouds -->
+  <ellipse cx="80" cy="50" rx="80" ry="14" fill="#3a4858" opacity="0.7" filter="url(#i8p22p4glow)"/>
+  <ellipse cx="280" cy="60" rx="100" ry="14" fill="#3a4858" opacity="0.55" filter="url(#i8p22p4glow)"/>
+
+  <!-- ===== ST. ELSPETH'S — abandoned, dark mass ===== -->
+  <!-- Norman lower courses -->
+  <rect x="60" y="200" width="246" height="60" fill="url(#i8p22p4stoneNorman)"/>
+  <!-- Gothic upper -->
+  <rect x="80" y="100" width="206" height="100" fill="url(#i8p22p4stoneGothic)"/>
+  <!-- Stone block lines (faint, mostly absorbed) -->
+  <g stroke="#0a0808" stroke-width="0.55" opacity="0.7">
+    <line x1="60" y1="220" x2="306" y2="220"/>
+    <line x1="60" y1="240" x2="306" y2="240"/>
+    <line x1="80" y1="130" x2="286" y2="130"/>
+    <line x1="80" y1="160" x2="286" y2="160"/>
+    <line x1="80" y1="190" x2="286" y2="190"/>
+  </g>
+
+  <!-- ===== POINTED ARCH WINDOWS BOARDED ===== -->
+  <g transform="translate(140 150)">
+    <path d="M-18,30 L-18,-9 Q-18,-22 0,-22 Q18,-22 18,-9 L18,30 Z" fill="#0a0408"/>
+    <!-- Boarded planks -->
+    <rect x="-18" y="-15" width="36" height="5" fill="#3a2010"/>
+    <rect x="-18" y="-7" width="36" height="5" fill="#3a2010"/>
+    <rect x="-18" y="1" width="36" height="5" fill="#3a2010"/>
+    <rect x="-18" y="9" width="36" height="5" fill="#3a2010"/>
+    <rect x="-18" y="17" width="36" height="5" fill="#3a2010"/>
+    <rect x="-18" y="25" width="36" height="5" fill="#3a2010"/>
+    <path d="M-18,30 L-18,-9 Q-18,-22 0,-22 Q18,-22 18,-9 L18,30" stroke="#3a3838" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(220 150)">
+    <path d="M-18,30 L-18,-9 Q-18,-22 0,-22 Q18,-22 18,-9 L18,30 Z" fill="#0a0408"/>
+    <rect x="-18" y="-15" width="36" height="5" fill="#3a2010"/>
+    <rect x="-18" y="-7" width="36" height="5" fill="#3a2010"/>
+    <rect x="-18" y="1" width="36" height="5" fill="#3a2010"/>
+    <rect x="-18" y="9" width="36" height="5" fill="#3a2010"/>
+    <rect x="-18" y="17" width="36" height="5" fill="#3a2010"/>
+    <rect x="-18" y="25" width="36" height="5" fill="#3a2010"/>
+    <path d="M-18,30 L-18,-9 Q-18,-22 0,-22 Q18,-22 18,-9 L18,30" stroke="#3a3838" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Roof/parapet -->
+  <path d="M80,100 L100,80 L150,80 L170,90 L200,80 L240,80 L260,90 L286,100 Z" fill="#1a1820"/>
+
+  <!-- Cross at top (still standing, dark silhouette) -->
+  <g transform="translate(183 70)">
+    <rect x="-2" y="0" width="4" height="22" fill="#3a3030"/>
+    <rect x="-7" y="6" width="14" height="3" fill="#3a3030"/>
+  </g>
+
+  <!-- Heavy wooden door -->
+  <g transform="translate(183 240)">
+    <rect x="-22" y="0" width="44" height="22" fill="#1a0808"/>
+    <path d="M-22,0 Q-22,-11 0,-11 Q22,-11 22,0" fill="#1a0808"/>
+  </g>
+
+  <!-- ===== CHURCHYARD overgrown ===== -->
+  <rect x="0" y="260" width="366" height="60" fill="url(#i8p22p4grass)"/>
+  <!-- Overgrown weeds -->
+  <g stroke="#1a1810" stroke-width="0.85" opacity="0.85">
+    <line x1="40" y1="285" x2="40" y2="270"/>
+    <line x1="80" y1="290" x2="80" y2="275"/>
+    <line x1="120" y1="285" x2="120" y2="268"/>
+    <line x1="200" y1="290" x2="200" y2="275"/>
+    <line x1="260" y1="285" x2="260" y2="270"/>
+    <line x1="320" y1="290" x2="320" y2="275"/>
+  </g>
+  <!-- Ivy on building base -->
+  <g fill="url(#i8p22p4ivy)" opacity="0.85">
+    <ellipse cx="80" cy="265" rx="22" ry="9"/>
+    <ellipse cx="280" cy="265" rx="22" ry="9"/>
+  </g>
+
+  <!-- Leaning headstones -->
+  <g transform="translate(40 280)" opacity="0.7">
+    <path d="M-7,0 L-9,-18 L7,-18 L5,0 Z" fill="#5a5050" transform="rotate(-15)"/>
+  </g>
+  <g transform="translate(330 285)" opacity="0.55">
+    <path d="M-6,0 L-7,-15 L7,-15 L6,0 Z" fill="#5a5050" transform="rotate(10)"/>
+  </g>
+
+  <!-- Iron railings -->
+  <g stroke="#1a1818" stroke-width="2" fill="none">
+    <line x1="20" y1="260" x2="20" y2="290"/>
+    <line x1="50" y1="260" x2="50" y2="290"/>
+    <line x1="80" y1="260" x2="80" y2="290"/>
+    <line x1="280" y1="260" x2="280" y2="290"/>
+    <line x1="310" y1="260" x2="310" y2="290"/>
+    <line x1="340" y1="260" x2="340" y2="290"/>
+    <line x1="0" y1="260" x2="100" y2="260"/>
+    <line x1="260" y1="260" x2="366" y2="260"/>
+    <line x1="20" y1="260" x2="20" y2="254"/>
+    <line x1="50" y1="260" x2="50" y2="254"/>
+    <line x1="80" y1="260" x2="80" y2="254"/>
+    <line x1="280" y1="260" x2="280" y2="254"/>
+    <line x1="310" y1="260" x2="310" y2="254"/>
+    <line x1="340" y1="260" x2="340" y2="254"/>
+  </g>
+
+  <!-- ===== PADLOCKED GATE (closed, padlock replaced) ===== -->
+  <g transform="translate(183 280)">
+    <rect x="-3" y="-20" width="6" height="40" fill="#1a1818"/>
+    <rect x="-30" y="-20" width="6" height="40" fill="#1a1818"/>
+    <line x1="-26" y1="-20" x2="-26" y2="-26" stroke="#1a1818" stroke-width="2"/>
+    <line x1="0" y1="-20" x2="0" y2="-26" stroke="#1a1818" stroke-width="2"/>
+    <line x1="-26" y1="0" x2="0" y2="0" stroke="#1a1818" stroke-width="0.85"/>
+    <!-- New padlock (replacing the broken one) -->
+    <rect x="-18" y="-7" width="11" height="11" fill="#3a3030" stroke="#1a0808" stroke-width="0.55"/>
+    <path d="M-15,-7 Q-15,-15 -10,-15 Q-5,-15 -5,-7" stroke="#3a3030" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- ===== FOG WRAPPING the churchyard ===== -->
+  <rect x="0" y="180" width="366" height="140" fill="url(#i8p22p4fogLayer)"/>
+  <g opacity="0.7" filter="url(#i8p22p4glow)">
+    <ellipse cx="100" cy="220" rx="80" ry="14" fill="#5a5868"/>
+    <ellipse cx="280" cy="240" rx="100" ry="14" fill="#5a5868"/>
+    <ellipse cx="183" cy="270" rx="120" ry="14" fill="#3a4858"/>
+  </g>
+
+  <!-- ===== FAR DISTANCE — fairy light receding ===== -->
+  <!-- Tiny point of blue-violet through the fog (Luma's scanner carried by Theodore) -->
+  <g transform="translate(60 220)" opacity="0.55">
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="url(#i8p22p4fairyLight)" filter="url(#i8p22p4glow)"/>
+    <circle cx="0" cy="0" r="2" fill="#c8a8e8" filter="url(#i8p22p4bloom)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="0.85" fill="#fff" filter="url(#i8p22p4bloom)"/>
+    <!-- Tiny silhouettes — Theodore walking with Luma -->
+    <ellipse cx="-3" cy="3" rx="3" ry="6" fill="#1a1410" filter="url(#i8p22p4fogBlur)" opacity="0.55"/>
+  </g>
+  <!-- Trail of receding fairy light -->
+  <g opacity="0.4" filter="url(#i8p22p4bloom)">
+    <circle cx="100" cy="225" r="0.85" fill="#a878e8"/>
+    <circle cx="140" cy="230" r="0.55" fill="#a878e8"/>
+    <circle cx="180" cy="232" r="0.4" fill="#a878e8"/>
+  </g>
+
+  <!-- ===== CAPTIONS ===== -->
+  <!-- CAPTION 1 — top -->
+  <g>
+    <rect x="14" y="14" width="240" height="36" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">True. All of it true.</text>
+  <text x="22" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic" font-weight="700">But not what anyone thought it meant.</text>
+
+  <!-- CAPTION 2 — middle -->
+  <g>
+    <rect x="100" y="60" width="250" height="50" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="108" y="76" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">Beneath the altar, beneath the stone,</text>
+  <text x="108" y="89" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">beneath the dust of six hundred years —</text>
+  <text x="108" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">a word carved in light waited.</text>
+
+  <!-- CAPTION 3 — final word -->
+  <g>
+    <rect x="14" y="280" width="160" height="32" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="1.4" opacity="0.92"/>
+  </g>
+  <text x="22" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1410" font-style="italic" font-weight="700">Stay.</text>
+
+  <!-- ===== END OF ISSUE 8 marker ===== -->
+  <g>
+    <rect x="180" y="280" width="180" height="32" rx="2" fill="none" stroke="#3a2818" stroke-width="0.55" opacity="0.7"/>
+  </g>
+  <text x="270" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#3a2818" text-anchor="middle" font-style="italic" font-weight="700">END OF ISSUE 8 — "WHAT LUMA FOUND"</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>
