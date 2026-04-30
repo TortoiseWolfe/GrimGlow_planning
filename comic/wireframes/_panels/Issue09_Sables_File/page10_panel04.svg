@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 9 Page 10 Panel 4 — The fracture, "The file was open. The squad was not."</title>
+  <desc>Wide elevated angle. Five figures, display still scrolling but no one looks at it. Sable alone near display. Jink turned partially away. Thresh fully turned back. Luma sits with dead core eyes down. Wren stands center facing forward. Pre-dawn growing slightly warmer indifferent. Five individuals.</desc>
+  <defs>
+    <linearGradient id="bgA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080a14"/>
+      <stop offset="0.4" stop-color="#0e1420"/>
+      <stop offset="0.7" stop-color="#0c1018"/>
+      <stop offset="1" stop-color="#040608"/>
+    </linearGradient>
+    <radialGradient id="dawnGapA4" cx="0.95" cy="0.4" r="0.35">
+      <stop offset="0" stop-color="#a0a8b4" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#5a6478" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#040608" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="centerFadeA4" cx="0.4" cy="0.5" r="0.3">
+      <stop offset="0" stop-color="#5878a8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#2a3848" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#040608" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silverFA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8088"/>
+      <stop offset="0.5" stop-color="#4a4e54"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="copperFA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.5" stop-color="#7a3e18"/>
+      <stop offset="1" stop-color="#3a1f0a"/>
+    </linearGradient>
+    <linearGradient id="emeraldFA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#2e7048"/>
+      <stop offset="1" stop-color="#142e1f"/>
+    </linearGradient>
+    <linearGradient id="crimsonFA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a2520"/>
+      <stop offset="0.5" stop-color="#5a1810"/>
+      <stop offset="1" stop-color="#1a0608"/>
+    </linearGradient>
+    <linearGradient id="violetFA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7848b8"/>
+      <stop offset="0.5" stop-color="#4a2a78"/>
+      <stop offset="1" stop-color="#1a0e2e"/>
+    </linearGradient>
+    <linearGradient id="timberSideA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="beamMainA4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#2a1c10"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <filter id="bloomA4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="megaGlowA4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="strongGlowA4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="softA4" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="320" fill="url(#bgA4)"/>
+  <rect width="742" height="320" fill="url(#dawnGapA4)"/>
+  <rect width="742" height="320" fill="url(#centerFadeA4)"/>
+
+  <g>
+    <path d="M 0 0 L 60 0 L 60 320 L 0 320 Z" fill="url(#timberSideA4)"/>
+    <path d="M 60 0 L 60 320 L 80 300 L 80 20 Z" fill="#1a1008" opacity="0.85"/>
+    <path d="M 682 0 L 742 0 L 742 320 L 682 320 Z" fill="url(#timberSideA4)"/>
+    <path d="M 682 0 L 682 320 L 662 300 L 662 20 Z" fill="#1a1008" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.45">
+    <line x1="60" y1="80" x2="80" y2="80" stroke="#5a3a20" stroke-width="0.4"/>
+    <line x1="60" y1="180" x2="80" y2="180" stroke="#5a3a20" stroke-width="0.4"/>
+    <line x1="60" y1="260" x2="80" y2="260" stroke="#5a3a20" stroke-width="0.4"/>
+    <line x1="662" y1="80" x2="682" y2="80" stroke="#5a3a20" stroke-width="0.4"/>
+    <line x1="662" y1="180" x2="682" y2="180" stroke="#5a3a20" stroke-width="0.4"/>
+    <line x1="662" y1="260" x2="682" y2="260" stroke="#5a3a20" stroke-width="0.4"/>
+  </g>
+
+  <g>
+    <rect x="80" y="240" width="602" height="14" fill="url(#beamMainA4)"/>
+    <rect x="80" y="240" width="602" height="3" fill="#5a3a20" opacity="0.6"/>
+    <rect x="80" y="252" width="602" height="2" fill="#0e0805" opacity="0.9"/>
+    <line x1="160" y1="240" x2="160" y2="254" stroke="#0e0805" stroke-width="0.6"/>
+    <line x1="280" y1="240" x2="280" y2="254" stroke="#0e0805" stroke-width="0.6"/>
+    <line x1="400" y1="240" x2="400" y2="254" stroke="#0e0805" stroke-width="0.6"/>
+    <line x1="520" y1="240" x2="520" y2="254" stroke="#0e0805" stroke-width="0.6"/>
+    <line x1="600" y1="240" x2="600" y2="254" stroke="#0e0805" stroke-width="0.6"/>
+  </g>
+
+  <g>
+    <rect x="200" y="120" width="80" height="6" fill="#2a1c10" opacity="0.9"/>
+    <rect x="540" y="160" width="80" height="6" fill="#2a1c10" opacity="0.9"/>
+  </g>
+
+  <g opacity="0.6" filter="url(#megaGlowA4)">
+    <ellipse cx="280" cy="180" rx="60" ry="40" fill="#5878a8"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowA4)">
+    <ellipse cx="280" cy="180" rx="34" ry="22" fill="#88a8d0"/>
+  </g>
+  <g opacity="0.92" filter="url(#bloomA4)">
+    <ellipse cx="280" cy="180" rx="20" ry="14" fill="#a8c0e0"/>
+  </g>
+  <g opacity="0.85">
+    <line x1="262" y1="170" x2="298" y2="170" stroke="#a8c0e0" stroke-width="0.4"/>
+    <line x1="262" y1="180" x2="298" y2="180" stroke="#a8c0e0" stroke-width="0.4"/>
+    <line x1="262" y1="190" x2="298" y2="190" stroke="#a8c0e0" stroke-width="0.4"/>
+  </g>
+
+  <g>
+    <ellipse cx="240" cy="208" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="240" cy="206" rx="2" ry="2" fill="#7a4830"/>
+    <path d="M 234 204 Q 240 200 246 204" stroke="#9098a0" stroke-width="1.4" fill="none"/>
+    <rect x="236" y="210" width="8" height="14" fill="#3a3a3a"/>
+    <rect x="238" y="212" width="4" height="10" fill="#1a1c20"/>
+    <line x1="240" y1="224" x2="240" y2="232" stroke="#1a1a1a" stroke-width="1.4"/>
+  </g>
+
+  <g>
+    <ellipse cx="370" cy="208" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="370" cy="206" rx="2" ry="2" fill="#7a4830"/>
+    <path d="M 365 200 Q 372 198 376 202" stroke="#d8b020" stroke-width="2" fill="none"/>
+    <rect x="366" y="210" width="8" height="14" fill="url(#emeraldFA4)"/>
+    <rect x="368" y="212" width="4" height="10" fill="#1f4a30"/>
+    <circle cx="366" cy="218" r="0.8" fill="#3aa868" filter="url(#softA4)" opacity="0.85"/>
+    <circle cx="374" cy="218" r="0.8" fill="#3aa868" filter="url(#softA4)" opacity="0.85"/>
+  </g>
+
+  <g>
+    <ellipse cx="500" cy="208" rx="4" ry="4.4" fill="#3a261a" transform="rotate(180 500 208)"/>
+    <ellipse cx="500" cy="206" rx="2" ry="2" fill="#5a3622"/>
+    <path d="M 494 202 Q 500 198 506 202" stroke="#5a2010" stroke-width="2" fill="none"/>
+    <rect x="494" y="210" width="12" height="14" fill="url(#crimsonFA4)"/>
+    <rect x="496" y="212" width="8" height="10" fill="#3a0e08"/>
+    <line x1="500" y1="224" x2="500" y2="232" stroke="#3a0e08" stroke-width="1.4"/>
+  </g>
+
+  <g>
+    <ellipse cx="600" cy="218" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="600" cy="216" rx="2" ry="2" fill="#7a4830"/>
+    <g>
+      <rect x="596" y="212" width="3" height="2" rx="0.5" fill="#7848b8"/>
+      <rect x="601" y="212" width="3" height="2" rx="0.5" fill="#7848b8"/>
+    </g>
+    <path d="M 596 220 L 604 220 L 606 236 L 594 236 Z" fill="url(#violetFA4)"/>
+    <path d="M 596 222 L 604 222 L 604 234 L 596 234 Z" fill="#3a1a5a"/>
+    <rect x="606" y="226" width="6" height="4" fill="#0a0810" stroke="#040408" stroke-width="0.3"/>
+  </g>
+
+  <g>
+    <ellipse cx="160" cy="208" rx="3.6" ry="4" fill="#3a261a"/>
+    <ellipse cx="160" cy="206" rx="2" ry="2" fill="#5a3622"/>
+    <rect x="156" y="210" width="8" height="14" fill="url(#copperFA4)"/>
+    <rect x="158" y="212" width="4" height="10" fill="#5a2e10"/>
+    <line x1="160" y1="224" x2="160" y2="232" stroke="#3a1f0a" stroke-width="1.4"/>
+    <circle cx="156" cy="220" r="0.8" fill="#d88838" filter="url(#softA4)" opacity="0.85"/>
+    <circle cx="164" cy="220" r="0.8" fill="#d88838" filter="url(#softA4)" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.6">
+    <ellipse cx="160" cy="234" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="240" cy="234" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="370" cy="234" rx="6" ry="2" fill="#080404"/>
+    <ellipse cx="500" cy="234" rx="8" ry="2" fill="#080404"/>
+    <ellipse cx="600" cy="240" rx="6" ry="2" fill="#080404"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#strongGlowA4)">
+    <ellipse cx="710" cy="120" rx="14" ry="60" fill="#a0a8b8"/>
+  </g>
+  <g opacity="0.85">
+    <path d="M 700 60 L 712 60 L 712 200 L 700 200 Z" fill="#7088a0" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.7">
+    <rect x="50" y="290" width="600" height="22" fill="#f5ecd8" opacity="0.92" stroke="#c8b898" stroke-width="0.6"/>
+    <text x="350" y="306" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-style="italic" font-size="11" fill="#5a4a30">"The file was open. The squad was not."</text>
+  </g>
+
+  <g opacity="0.65" filter="url(#strongGlowA4)">
+    <circle cx="100" cy="100" r="2" fill="#5878a8"/>
+    <circle cx="640" cy="80" r="2" fill="#5878a8"/>
+    <circle cx="120" cy="220" r="2" fill="#5878a8"/>
+    <circle cx="620" cy="220" r="2" fill="#5878a8"/>
+  </g>
+  <g opacity="0.95">
+    <circle cx="100" cy="100" r="0.7" fill="#a8c0e0"/>
+    <circle cx="640" cy="80" r="0.7" fill="#a8c0e0"/>
+    <circle cx="120" cy="220" r="0.6" fill="#a8c0e0"/>
+    <circle cx="620" cy="220" r="0.6" fill="#a8c0e0"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="120" cy="40" r="0.5" fill="#3a4858"/>
+    <circle cx="600" cy="50" r="0.5" fill="#3a4858"/>
+    <circle cx="280" cy="60" r="0.4" fill="#3a4858"/>
+    <circle cx="500" cy="40" r="0.4" fill="#3a4858"/>
+  </g>
+</svg>
