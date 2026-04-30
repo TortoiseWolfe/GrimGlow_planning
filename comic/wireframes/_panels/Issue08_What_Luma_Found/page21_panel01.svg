@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 21 — Panel 1: The squad reassembles in morning light — five carrying different weights, no one sharing — "Report"</title>
+  <desc>28mm wide eye level. Squad's wall-cavity camp in grey morning light. Five tiny figures in various states of arrival and rest. Thresh enters through wall gap — weapon in hand, ruby armor dented, composed but with different quality to her stillness. Behind her, Jink in soot-streaked emerald looks tired, reading room with sharp eyes. Sable stands rigid in corner, silver suit scuffed, arms at sides. Wren at workstation, copper suit oil-stained, eyes on Sable. Luma sits beside dead data core on timber beam, sapphire-violet suit dusty and worn, distant. Camp cramped, functional, populated — but each figure occupies own emotional space. Grey morning light through wall gap.</desc>
+
+  <defs>
+    <linearGradient id="i8p21p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i8p21p1timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p21p1greyDawn" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a8a8b8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p21p1perimeter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c8d8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a3848" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p21p1threshSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82818"/>
+      <stop offset="100%" stop-color="#3a0a0a"/>
+    </linearGradient>
+    <linearGradient id="i8p21p1jinkSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i8p21p1sableSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a8b0"/>
+      <stop offset="100%" stop-color="#3a3a40"/>
+    </linearGradient>
+    <linearGradient id="i8p21p1wrenSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d88838"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="i8p21p1lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p21p1deadCore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1018"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i8p21p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i8p21p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p21p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p21p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p21p1megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="742" height="300" fill="url(#i8p21p1bg)"/>
+
+  <!-- Top floorboard -->
+  <rect x="0" y="0" width="742" height="20" fill="url(#i8p21p1timber)"/>
+  <line x1="0" y1="20" x2="742" y2="20" stroke="#1a0808" stroke-width="0.85"/>
+
+  <!-- Wall gap (right) — grey dawn -->
+  <rect x="660" y="60" width="40" height="220" fill="#2a2030"/>
+  <ellipse cx="700" cy="160" rx="200" ry="180" fill="url(#i8p21p1greyDawn)" filter="url(#i8p21p1megaglow)"/>
+  <path d="M660,60 L660,280 L668,275 L662,180 L670,170 L664,80 Z" fill="#1a1208" opacity="0.85"/>
+  <!-- Faint perimeter -->
+  <ellipse cx="660" cy="200" rx="40" ry="22" fill="url(#i8p21p1perimeter)" filter="url(#i8p21p1glow)" opacity="0.55"/>
+
+  <!-- Timber structure -->
+  <rect x="200" y="0" width="14" height="300" fill="url(#i8p21p1timber)"/>
+  <rect x="500" y="0" width="14" height="300" fill="url(#i8p21p1timber)"/>
+  <rect x="0" y="200" width="742" height="14" fill="url(#i8p21p1timber)"/>
+  <!-- Upper beam -->
+  <rect x="40" y="100" width="180" height="11" fill="url(#i8p21p1timber)"/>
+  <!-- Lower beam (where squad stands/sits) -->
+  <rect x="0" y="270" width="742" height="30" fill="#0a0606"/>
+  <!-- Beam where Luma sits with core -->
+  <rect x="500" y="240" width="160" height="11" fill="url(#i8p21p1timber)"/>
+
+  <!-- Power cell hint left -->
+  <g transform="translate(60 160)">
+    <rect x="-7" y="-5" width="14" height="10" fill="#3a3838"/>
+    <rect x="-5" y="-3" width="10" height="6" fill="#5af0a0" filter="url(#i8p21p1bloom)" opacity="0.4"/>
+  </g>
+
+  <!-- Cobwebs -->
+  <g stroke="#5a5050" stroke-width="0.4" fill="none" opacity="0.4">
+    <line x1="0" y1="40" x2="60" y2="0"/>
+    <line x1="20" y1="40" x2="60" y2="20"/>
+  </g>
+
+  <!-- ===== THRESH entering through wall gap (right) ===== -->
+  <g transform="translate(640 240)">
+    <!-- Body — entering, weapon in hand -->
+    <path d="M-9,30 L-11,11 L-14,-9 L-11,-22 L-3,-32 L3,-32 L11,-22 L14,-9 L11,11 L9,30 Z" fill="url(#i8p21p1threshSuit)"/>
+    <!-- Heavy dents -->
+    <ellipse cx="-11" cy="-14" rx="3" ry="2" fill="#5a1410"/>
+    <ellipse cx="11" cy="-14" rx="3" ry="2" fill="#7a1810"/>
+    <!-- Long chest scratch -->
+    <path d="M-7,-3 L7,3" stroke="#3a0a0a" stroke-width="1.4" opacity="0.85"/>
+    <!-- Suit accent (composed, settled — DIFFERENT quality) -->
+    <line x1="0" y1="-22" x2="0" y2="22" stroke="#a82818" stroke-width="0.55" opacity="0.7" filter="url(#i8p21p1bloom)"/>
+    <circle cx="-7" cy="-14" r="0.7" fill="#a82818" filter="url(#i8p21p1bloom)" opacity="0.55"/>
+    <circle cx="7" cy="-14" r="0.7" fill="#a82818" filter="url(#i8p21p1bloom)" opacity="0.55"/>
+    <!-- Weapon in hand -->
+    <path d="M14,-14 L26,-9 L22,3 L11,-3 Z" fill="url(#i8p21p1threshSuit)"/>
+    <ellipse cx="26" cy="-9" rx="2" ry="1.4" fill="url(#i8p21p1skin)"/>
+    <rect x="22" y="-11" width="14" height="3" fill="#1a1818"/>
+    <ellipse cx="29" cy="-9" rx="3" ry="0.4" fill="#a82818" filter="url(#i8p21p1bloom)" opacity="0.7"/>
+    <!-- Other arm -->
+    <path d="M-11,-9 L-22,3 L-14,11 L-9,0 Z" fill="url(#i8p21p1threshSuit)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-40" rx="4" ry="5" fill="#e0b888"/>
+    <path d="M-5,-46 Q0,-48 5,-46 L5,-40 Q0,-42 -5,-40 Z" fill="#a83820"/>
+    <line x1="-2" y1="-40" x2="-1" y2="-40" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-40" x2="2" y2="-40" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== JINK on upper beam, tired but reading the room ===== -->
+  <g transform="translate(140 105)">
+    <!-- Body crouched, chin on fists -->
+    <path d="M-7,18 L-9,3 L-9,-9 L-3,-22 L3,-22 L9,-9 L9,3 L7,18 Z" fill="url(#i8p21p1jinkSuit)"/>
+    <!-- Soot streak -->
+    <path d="M-7,-9 L0,-15" stroke="#1a1410" stroke-width="1" opacity="0.85"/>
+    <line x1="0" y1="-22" x2="0" y2="11" stroke="#a8ffd0" stroke-width="0.4" opacity="0.7" filter="url(#i8p21p1bloom)"/>
+    <!-- Knees up -->
+    <ellipse cx="-7" cy="14" rx="6" ry="3" fill="url(#i8p21p1jinkSuit)"/>
+    <ellipse cx="7" cy="14" rx="6" ry="3" fill="url(#i8p21p1jinkSuit)"/>
+    <!-- Head with tousled curls -->
+    <ellipse cx="0" cy="-30" rx="4" ry="5" fill="#a87838"/>
+    <g fill="#f0d878" opacity="0.85">
+      <ellipse cx="0" cy="-36" rx="6" ry="2.5"/>
+      <circle cx="-3" cy="-34" r="2"/>
+      <circle cx="3" cy="-34" r="2"/>
+    </g>
+    <!-- Chin propped on fist -->
+    <ellipse cx="0" cy="-22" rx="2" ry="1.4" fill="url(#i8p21p1skin)"/>
+    <!-- Eyes alert, sharp (reading the room) -->
+    <ellipse cx="-2" cy="-30" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="-2" cy="-30" r="0.4" fill="#3a1808"/>
+    <ellipse cx="2" cy="-30" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="2" cy="-30" r="0.4" fill="#3a1808"/>
+    <!-- Brows (concerned, perceptive) -->
+    <line x1="-3" y1="-34" x2="-1" y2="-34" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-34" x2="3" y2="-34" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== SABLE in corner (left), rigid arms at sides ===== -->
+  <g transform="translate(120 240)">
+    <path d="M-9,30 L-11,11 L-14,-7 L-11,-22 L-3,-32 L3,-32 L11,-22 L14,-7 L11,11 L9,30 Z" fill="url(#i8p21p1sableSuit)"/>
+    <!-- Heavy soot wear -->
+    <ellipse cx="-7" cy="-9" rx="6" ry="3" fill="#1a1818" opacity="0.7"/>
+    <line x1="0" y1="-22" x2="0" y2="22" stroke="#fff" stroke-width="0.4" opacity="0.55" filter="url(#i8p21p1bloom)"/>
+    <!-- Arms at sides (rigid, separate) -->
+    <path d="M-14,-7 L-18,11 L-11,18 L-9,0 Z" fill="url(#i8p21p1sableSuit)"/>
+    <path d="M14,-7 L18,11 L11,18 L9,0 Z" fill="url(#i8p21p1sableSuit)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-40" rx="4" ry="5" fill="#5a3818"/>
+    <path d="M-5,-46 Q0,-48 5,-46 L5,-40 Q0,-42 -5,-40 Z" fill="#e8ecf0" opacity="0.85"/>
+    <!-- Eyes -->
+    <line x1="-2" y1="-40" x2="-1" y2="-40" stroke="#0a0a14" stroke-width="0.55"/>
+    <line x1="1" y1="-40" x2="2" y2="-40" stroke="#0a0a14" stroke-width="0.55"/>
+    <line x1="-3" y1="-44" x2="3" y2="-44" stroke="#1a0808" stroke-width="0.7"/>
+  </g>
+
+  <!-- ===== WREN at workstation, eyes on Sable ===== -->
+  <g transform="translate(280 240)">
+    <path d="M-9,30 L-11,11 L-11,-9 L-7,-22 L-3,-32 L3,-32 L9,-22 L11,-9 L9,11 L7,30 Z" fill="url(#i8p21p1wrenSuit)"/>
+    <!-- Heavy oil stains -->
+    <ellipse cx="-3" cy="-9" rx="4" ry="3" fill="#1a0606" opacity="0.85"/>
+    <line x1="0" y1="-22" x2="0" y2="22" stroke="#ffa848" stroke-width="0.4" opacity="0.7" filter="url(#i8p21p1bloom)"/>
+    <!-- Arms crossed -->
+    <path d="M-11,-9 L-14,7 L-3,7 L-3,-9 Z" fill="url(#i8p21p1wrenSuit)"/>
+    <path d="M11,-9 L14,7 L3,7 L3,-9 Z" fill="url(#i8p21p1wrenSuit)"/>
+    <line x1="-9" y1="0" x2="9" y2="0" stroke="#1a0606" stroke-width="0.55"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-40" rx="4" ry="5" fill="#e0b888"/>
+    <ellipse cx="0" cy="-46" rx="5" ry="2" fill="#1a1008"/>
+    <!-- Eyes turned LEFT (toward Sable) -->
+    <ellipse cx="-2.5" cy="-40" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="-3" cy="-40" r="0.4" fill="#3a1808"/>
+    <ellipse cx="1.5" cy="-40" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="1" cy="-40" r="0.4" fill="#3a1808"/>
+    <!-- Brows narrowed -->
+    <line x1="-3" y1="-44" x2="-1" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-44" x2="3" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== LUMA on right beam, beside the dead data core ===== -->
+  <g transform="translate(440 235)">
+    <path d="M-7,18 L-9,3 L-11,-9 L-7,-22 L-3,-32 L3,-32 L7,-22 L11,-9 L9,3 L7,18 Z" fill="url(#i8p21p1lumaSuit)"/>
+    <ellipse cx="-9" cy="-3" rx="3" ry="2" fill="#1a0810" opacity="0.95"/>
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#c8a8e8" stroke-width="0.55" opacity="0.7" filter="url(#i8p21p1bloom)"/>
+    <circle cx="-7" cy="-14" r="0.55" fill="#c8a8e8" filter="url(#i8p21p1bloom)" opacity="0.55"/>
+    <circle cx="7" cy="-14" r="0.55" fill="#c8a8e8" filter="url(#i8p21p1bloom)" opacity="0.55"/>
+    <!-- Knees -->
+    <ellipse cx="-7" cy="14" rx="6" ry="3" fill="url(#i8p21p1lumaSuit)"/>
+    <ellipse cx="7" cy="14" rx="6" ry="3" fill="url(#i8p21p1lumaSuit)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-40" rx="4" ry="5" fill="#a87838"/>
+    <path d="M-5,-46 Q0,-48 5,-46 L5,-40 Q0,-42 -5,-40 Z" fill="#1a0808"/>
+    <!-- Lenses dim -->
+    <ellipse cx="-2" cy="-40" rx="1.4" ry="1" fill="none" stroke="#3a1858" stroke-width="0.4" opacity="0.55"/>
+    <ellipse cx="2" cy="-40" rx="1.4" ry="1" fill="none" stroke="#3a1858" stroke-width="0.4" opacity="0.55"/>
+    <line x1="-3" y1="-40" x2="-1" y2="-40" stroke="#3a1808" stroke-width="0.4"/>
+    <line x1="1" y1="-40" x2="3" y2="-40" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- Dead data core beside Luma (right of her) -->
+  <g transform="translate(500 244)">
+    <rect x="-22" y="-7" width="44" height="14" fill="url(#i8p21p1deadCore)" stroke="#040408" stroke-width="0.4" rx="2"/>
+    <line x1="-22" y1="0" x2="22" y2="0" stroke="#040408" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== DIALOGUE ===== -->
+  <!-- SABLE -->
+  <g>
+    <rect x="14" y="14" width="160" height="36" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-weight="700">Report.</text>
+
+  <!-- THRESH -->
+  <g>
+    <rect x="200" y="14" width="280" height="36" rx="2" fill="white" stroke="#dc143c" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="208" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#dc143c" font-weight="700">THRESH</text>
+  <text x="208" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Quiet watch. Nothing to report.</text>
+
+  <!-- LUMA -->
+  <g>
+    <rect x="14" y="60" width="500" height="36" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="76" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="22" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I found what I was looking for. And more than I expected.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>

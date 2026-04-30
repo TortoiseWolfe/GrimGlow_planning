@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 8 — Page 21 — Panel 4: The squad together and alone — Jink on the higher beam looking down, sensing the unspoken weight in the room</title>
+  <desc>28mm wide slightly high angle looking down into wall-cavity camp. Five tiny figures in timber space — each in own corner, no one looking at anyone else. Thresh at perimeter weapon stowed posture changed. Luma beside dark data core still and distant. Sable in command corner rigid separate. Wren at workstation eyes on Sable arms crossed. Jink on higher beam cross-legged chin on fists looking down at all of them with troubled expression — the one who senses the unspoken weight in the room. Camp populated but isolated — five people in small space each carrying something different. Grey morning light through wall gap illuminates them evenly, flatly, honestly.</desc>
+
+  <defs>
+    <linearGradient id="i8p21p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i8p21p4timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p21p4greyDawn" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a8a8b8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1820" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p21p4perimeter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a8c8d8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a3848" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p21p4threshSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82818"/>
+      <stop offset="100%" stop-color="#3a0a0a"/>
+    </linearGradient>
+    <linearGradient id="i8p21p4jinkSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i8p21p4sableSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a8b0"/>
+      <stop offset="100%" stop-color="#3a3a40"/>
+    </linearGradient>
+    <linearGradient id="i8p21p4wrenSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d88838"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="i8p21p4lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7848b8"/>
+      <stop offset="100%" stop-color="#2a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p21p4deadCore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1018"/>
+      <stop offset="100%" stop-color="#0a0408"/>
+    </linearGradient>
+    <linearGradient id="i8p21p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i8p21p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p21p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p21p4megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="742" height="320" fill="url(#i8p21p4bg)"/>
+
+  <!-- Top floorboard -->
+  <rect x="0" y="0" width="742" height="20" fill="url(#i8p21p4timber)"/>
+
+  <!-- Wall gap right side -->
+  <rect x="660" y="60" width="40" height="240" fill="#2a2030"/>
+  <ellipse cx="700" cy="180" rx="200" ry="200" fill="url(#i8p21p4greyDawn)" filter="url(#i8p21p4megaglow)"/>
+  <path d="M660,60 L660,300 L668,295 L662,200 L670,190 L664,80 Z" fill="#1a1208" opacity="0.85"/>
+  <ellipse cx="660" cy="220" rx="40" ry="22" fill="url(#i8p21p4perimeter)" filter="url(#i8p21p4glow)" opacity="0.55"/>
+
+  <!-- Beam structure -->
+  <rect x="220" y="0" width="14" height="320" fill="url(#i8p21p4timber)"/>
+  <rect x="500" y="0" width="14" height="320" fill="url(#i8p21p4timber)"/>
+  <!-- Higher beam (where Jink sits) -->
+  <rect x="40" y="100" width="200" height="11" fill="url(#i8p21p4timber)"/>
+  <!-- Mid crossbeam -->
+  <rect x="0" y="220" width="742" height="11" fill="url(#i8p21p4timber)"/>
+  <!-- Floor -->
+  <rect x="0" y="290" width="742" height="30" fill="#0a0606"/>
+
+  <!-- Cobwebs upper-left -->
+  <g stroke="#5a5050" stroke-width="0.4" fill="none" opacity="0.4">
+    <line x1="0" y1="60" x2="40" y2="20"/>
+  </g>
+
+  <!-- ===== JINK on higher beam (cross-legged, chin on fists, observing) ===== -->
+  <g transform="translate(140 100)">
+    <!-- Body — seated cross-legged -->
+    <path d="M-9,-3 L-11,-15 L-9,-26 L-3,-32 L3,-32 L9,-26 L11,-15 L9,-3 Z" fill="url(#i8p21p4jinkSuit)"/>
+    <!-- Suit accent -->
+    <line x1="0" y1="-26" x2="0" y2="-3" stroke="#a8ffd0" stroke-width="0.4" opacity="0.7" filter="url(#i8p21p4bloom)"/>
+    <!-- Cross-legged knees out to sides -->
+    <ellipse cx="-22" cy="3" rx="14" ry="6" fill="url(#i8p21p4jinkSuit)"/>
+    <ellipse cx="22" cy="3" rx="14" ry="6" fill="url(#i8p21p4jinkSuit)"/>
+    <!-- ELBOWS on knees, chin on FISTS -->
+    <path d="M-22,3 L-22,-15 L-7,-22 Z" fill="url(#i8p21p4jinkSuit)"/>
+    <path d="M22,3 L22,-15 L7,-22 Z" fill="url(#i8p21p4jinkSuit)"/>
+    <!-- Fists at chin -->
+    <ellipse cx="-7" cy="-22" rx="3" ry="2" fill="url(#i8p21p4skin)"/>
+    <ellipse cx="7" cy="-22" rx="3" ry="2" fill="url(#i8p21p4skin)"/>
+    <!-- Head — chin propped, looking DOWN -->
+    <ellipse cx="0" cy="-40" rx="6" ry="7" fill="#a87838"/>
+    <!-- Wild golden curls -->
+    <g fill="#f0d878" opacity="0.85">
+      <ellipse cx="0" cy="-48" rx="9" ry="4"/>
+      <circle cx="-5" cy="-46" r="3"/>
+      <circle cx="5" cy="-46" r="3"/>
+      <circle cx="-3" cy="-52" r="3"/>
+      <circle cx="3" cy="-52" r="3"/>
+    </g>
+    <!-- Eyes — looking DOWN troubled -->
+    <line x1="-3" y1="-39" x2="-1" y2="-37" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-37" x2="3" y2="-39" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Brows drawn (concerned) -->
+    <line x1="-5" y1="-44" x2="-1" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-44" x2="5" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Mouth flat -->
+    <line x1="-2" y1="-35" x2="2" y2="-35" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- Eye-line dashed from Jink down to the others -->
+  <g opacity="0.18" stroke="#5af0a0" stroke-width="0.4" filter="url(#i8p21p4bloom)" stroke-dasharray="2,2">
+    <line x1="140" y1="125" x2="180" y2="240"/>
+    <line x1="140" y1="125" x2="380" y2="240"/>
+    <line x1="140" y1="125" x2="540" y2="240"/>
+    <line x1="140" y1="125" x2="630" y2="220"/>
+  </g>
+
+  <!-- ===== THRESH at perimeter (right of Jink) — weapon stowed ===== -->
+  <g transform="translate(180 260)">
+    <path d="M-7,18 L-9,3 L-11,-9 L-7,-22 L-3,-30 L3,-30 L7,-22 L11,-9 L9,3 L7,18 Z" fill="url(#i8p21p4threshSuit)"/>
+    <ellipse cx="-9" cy="-14" rx="3" ry="2" fill="#5a1410"/>
+    <ellipse cx="9" cy="-14" rx="3" ry="2" fill="#7a1810"/>
+    <path d="M-5,-3 L5,3" stroke="#3a0a0a" stroke-width="1" opacity="0.85"/>
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#a82818" stroke-width="0.4" opacity="0.55" filter="url(#i8p21p4bloom)"/>
+    <ellipse cx="-7" cy="14" rx="6" ry="3" fill="url(#i8p21p4threshSuit)"/>
+    <ellipse cx="7" cy="14" rx="6" ry="3" fill="url(#i8p21p4threshSuit)"/>
+    <!-- Weapon at side (stowed) -->
+    <rect x="-22" y="11" width="14" height="2" fill="#0a0408"/>
+    <ellipse cx="0" cy="-36" rx="4" ry="5" fill="#e0b888"/>
+    <path d="M-5,-42 Q0,-44 5,-42 L5,-36 Q0,-38 -5,-36 Z" fill="#a83820"/>
+  </g>
+
+  <!-- ===== SABLE in command corner (left base) ===== -->
+  <g transform="translate(280 260)">
+    <path d="M-7,18 L-9,3 L-11,-9 L-7,-22 L-3,-30 L3,-30 L7,-22 L11,-9 L9,3 L7,18 Z" fill="url(#i8p21p4sableSuit)"/>
+    <ellipse cx="-7" cy="-9" rx="6" ry="3" fill="#1a1818" opacity="0.7"/>
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#fff" stroke-width="0.4" opacity="0.4" filter="url(#i8p21p4bloom)"/>
+    <!-- Arms at sides -->
+    <path d="M-11,-9 L-15,7 L-9,11 L-7,0 Z" fill="url(#i8p21p4sableSuit)"/>
+    <path d="M11,-9 L15,7 L9,11 L7,0 Z" fill="url(#i8p21p4sableSuit)"/>
+    <ellipse cx="0" cy="-36" rx="4" ry="5" fill="#5a3818"/>
+    <path d="M-5,-42 Q0,-44 5,-42 L5,-36 Q0,-38 -5,-36 Z" fill="#e8ecf0" opacity="0.85"/>
+  </g>
+
+  <!-- ===== WREN at workstation (right of Sable, eyes still on her) ===== -->
+  <g transform="translate(380 260)">
+    <path d="M-7,18 L-9,3 L-9,-9 L-3,-22 L3,-22 L9,-9 L9,3 L7,18 Z" fill="url(#i8p21p4wrenSuit)"/>
+    <ellipse cx="-3" cy="-9" rx="3" ry="2" fill="#1a0606" opacity="0.85"/>
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#ffa848" stroke-width="0.4" opacity="0.7" filter="url(#i8p21p4bloom)"/>
+    <!-- Arms crossed -->
+    <path d="M-9,-9 L-11,3 L-3,3 L-3,-9 Z" fill="url(#i8p21p4wrenSuit)"/>
+    <path d="M9,-9 L11,3 L3,3 L3,-9 Z" fill="url(#i8p21p4wrenSuit)"/>
+    <line x1="-7" y1="-3" x2="7" y2="-3" stroke="#1a0606" stroke-width="0.4"/>
+    <ellipse cx="0" cy="-32" rx="4" ry="5" fill="#e0b888"/>
+    <ellipse cx="0" cy="-37" rx="5" ry="2" fill="#1a1008"/>
+    <!-- Eyes turned LEFT (on Sable) -->
+    <ellipse cx="-2.5" cy="-32" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="-3" cy="-32" r="0.4" fill="#3a1808"/>
+    <ellipse cx="1.5" cy="-32" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="1" cy="-32" r="0.4" fill="#3a1808"/>
+  </g>
+
+  <!-- ===== LUMA on right beam beside core ===== -->
+  <g transform="translate(540 260)">
+    <path d="M-7,18 L-9,3 L-11,-9 L-7,-22 L-3,-30 L3,-30 L7,-22 L11,-9 L9,3 L7,18 Z" fill="url(#i8p21p4lumaSuit)"/>
+    <ellipse cx="-9" cy="-3" rx="3" ry="2" fill="#1a0810" opacity="0.95"/>
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#a878e8" stroke-width="0.4" opacity="0.55" filter="url(#i8p21p4bloom)"/>
+    <ellipse cx="-7" cy="14" rx="6" ry="3" fill="url(#i8p21p4lumaSuit)"/>
+    <ellipse cx="7" cy="14" rx="6" ry="3" fill="url(#i8p21p4lumaSuit)"/>
+    <ellipse cx="0" cy="-36" rx="4" ry="5" fill="#a87838"/>
+    <path d="M-5,-42 Q0,-44 5,-42 L5,-36 Q0,-38 -5,-36 Z" fill="#1a0808"/>
+  </g>
+
+  <!-- Dead data core beside Luma -->
+  <g transform="translate(580 270)">
+    <rect x="-22" y="-7" width="44" height="11" fill="url(#i8p21p4deadCore)" stroke="#040408" stroke-width="0.4" rx="2"/>
+  </g>
+
+  <!-- ===== DIALOGUE — Jink quietly to no one ===== -->
+  <g>
+    <rect x="14" y="14" width="240" height="36" rx="2" fill="white" stroke="#2e8b57" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#2e8b57" font-weight="700">JINK  <tspan font-style="italic" font-size="8" font-weight="500">(quiet, to no one)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">Rough night?</text>
+
+  <!-- Caption: no answer -->
+  <g>
+    <rect x="280" y="14" width="200" height="36" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.55" opacity="0.85"/>
+  </g>
+  <text x="288" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">(No one answers.)</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>
