@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 18 — Panel 3: The empty alley at predawn — Thresh gone, the lamp out, a story for no one — Thresh would remember a hand</title>
+  <desc>28mm wide slightly elevated angle. Alley in predawn light. Gaslight has gone out — flame expired, lamp dark. First grey light of dawn reaches into alley from sky above, washing out shadows, revealing ordinary brickwork and cobblestones in flat predawn illumination. Thresh gone. Watch position empty — just scuff in dust at wall base, barely visible, where tiny armored figure sat for hours. Alley empty and ordinary. Story it held has gone with the night. The mundane light of early morning, cool and even, revealing the ordinary world.</desc>
+
+  <defs>
+    <linearGradient id="i8p18p3skyDawn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8c8d0"/>
+      <stop offset="100%" stop-color="#7a8898"/>
+    </linearGradient>
+    <linearGradient id="i8p18p3brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i8p18p3cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <radialGradient id="i8p18p3predawnGrey" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#a8b8c8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a4858" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i8p18p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p18p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p18p3megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- Sky strip — FULLY GREY (predawn) -->
+  <rect width="742" height="60" fill="url(#i8p18p3skyDawn)"/>
+
+  <!-- Predawn grey wash reaches into alley -->
+  <ellipse cx="371" cy="100" rx="600" ry="160" fill="url(#i8p18p3predawnGrey)" filter="url(#i8p18p3megaglow)"/>
+
+  <!-- Top of brick walls -->
+  <rect x="0" y="60" width="742" height="14" fill="#5a5050"/>
+  <line x1="0" y1="60" x2="742" y2="60" stroke="#a8b8c8" stroke-width="0.85" filter="url(#i8p18p3bloom)" opacity="0.85"/>
+
+  <!-- Chimney pots -->
+  <rect x="80" y="40" width="11" height="22" fill="#3a3030"/>
+  <rect x="320" y="42" width="14" height="20" fill="#3a3030"/>
+  <rect x="540" y="38" width="11" height="24" fill="#3a3030"/>
+
+  <!-- ===== BRICK WALLS — washed out in predawn (no warm gaslight) ===== -->
+  <rect x="0" y="74" width="200" height="180" fill="url(#i8p18p3brick)"/>
+  <rect x="540" y="74" width="202" height="180" fill="url(#i8p18p3brick)"/>
+  <g stroke="#1a1818" stroke-width="0.7" opacity="0.85">
+    <line x1="0" y1="110" x2="200" y2="110"/>
+    <line x1="0" y1="150" x2="200" y2="150"/>
+    <line x1="0" y1="190" x2="200" y2="190"/>
+    <line x1="0" y1="220" x2="200" y2="220"/>
+    <line x1="540" y1="110" x2="742" y2="110"/>
+    <line x1="540" y1="150" x2="742" y2="150"/>
+    <line x1="540" y1="190" x2="742" y2="190"/>
+    <line x1="540" y1="220" x2="742" y2="220"/>
+  </g>
+  <g stroke="#1a1818" stroke-width="0.55" opacity="0.7">
+    <line x1="60" y1="74" x2="60" y2="110"/>
+    <line x1="120" y1="110" x2="120" y2="150"/>
+    <line x1="40" y1="150" x2="40" y2="190"/>
+    <line x1="100" y1="190" x2="100" y2="220"/>
+    <line x1="160" y1="220" x2="160" y2="254"/>
+    <line x1="600" y1="74" x2="600" y2="110"/>
+    <line x1="680" y1="110" x2="680" y2="150"/>
+    <line x1="580" y1="150" x2="580" y2="190"/>
+    <line x1="660" y1="190" x2="660" y2="220"/>
+  </g>
+  <!-- Soot stains (more visible in flat light) -->
+  <g fill="#1a1410" opacity="0.55">
+    <ellipse cx="80" cy="130" rx="22" ry="9"/>
+    <ellipse cx="160" cy="200" rx="22" ry="9"/>
+    <ellipse cx="600" cy="130" rx="22" ry="9"/>
+    <ellipse cx="680" cy="200" rx="22" ry="9"/>
+  </g>
+
+  <!-- Cobblestones (revealed in flat light) -->
+  <rect x="0" y="254" width="742" height="46" fill="url(#i8p18p3cobble)"/>
+  <g stroke="#1a1818" stroke-width="0.55" fill="none" opacity="0.7">
+    <ellipse cx="40" cy="270" rx="11" ry="6"/>
+    <ellipse cx="100" cy="280" rx="11" ry="6"/>
+    <ellipse cx="160" cy="275" rx="11" ry="6"/>
+    <ellipse cx="220" cy="280" rx="11" ry="6"/>
+    <ellipse cx="280" cy="275" rx="11" ry="6"/>
+    <ellipse cx="340" cy="280" rx="11" ry="6"/>
+    <ellipse cx="400" cy="275" rx="11" ry="6"/>
+    <ellipse cx="460" cy="280" rx="11" ry="6"/>
+    <ellipse cx="520" cy="275" rx="11" ry="6"/>
+    <ellipse cx="580" cy="280" rx="11" ry="6"/>
+    <ellipse cx="640" cy="275" rx="11" ry="6"/>
+    <ellipse cx="700" cy="280" rx="11" ry="6"/>
+  </g>
+
+  <!-- ===== GASLIGHT — DARK (lamp expired) ===== -->
+  <g transform="translate(620 100)">
+    <rect x="-2" y="0" width="4" height="140" fill="#3a3030"/>
+    <path d="M0,0 L-22,-9 L-22,-7 L-2,3 Z" fill="#3a3030"/>
+    <rect x="-22" y="-26" width="22" height="22" fill="#1a1818"/>
+    <polygon points="-26,-26 4,-26 0,-36 -22,-36" fill="#3a3030"/>
+    <!-- DARK glass — flame extinguished -->
+    <rect x="-18" y="-22" width="14" height="16" fill="#0a0408"/>
+    <!-- No flame, no glow -->
+  </g>
+  <!-- No amber halo — just predawn grey everywhere -->
+
+  <!-- Drainpipe right wall -->
+  <g transform="translate(700 50)" opacity="0.7">
+    <rect x="-2" y="14" width="4" height="220" fill="#5a3818"/>
+  </g>
+
+  <!-- ===== EMPTY WATCH POSITION — just a SCUFF in the dust at wall base ===== -->
+  <g transform="translate(140 256)">
+    <!-- Scuff mark in dust (where Thresh sat) -->
+    <ellipse cx="0" cy="0" rx="14" ry="4" fill="#1a1410" opacity="0.85"/>
+    <!-- Tiny variations suggesting where her armor scraped -->
+    <line x1="-9" y1="0" x2="-3" y2="-2" stroke="#1a1410" stroke-width="0.55"/>
+    <line x1="3" y1="-2" x2="9" y2="0" stroke="#1a1410" stroke-width="0.55"/>
+    <ellipse cx="0" cy="-3" rx="9" ry="2" fill="#3a3030" opacity="0.4"/>
+  </g>
+
+  <!-- The cobblestones where the child crouched — also ordinary, no mark -->
+  <!-- (Just normal cobblestones, the scene returned to ordinariness) -->
+
+  <!-- Stray bit of nightshirt fabric or hint of footprint? — NO. The world doesn't carry marks. -->
+
+  <!-- Faint mist/dawn haze in the air -->
+  <g opacity="0.4" filter="url(#i8p18p3glow)">
+    <ellipse cx="200" cy="180" rx="100" ry="14" fill="#a8b8c8"/>
+    <ellipse cx="500" cy="200" rx="120" ry="14" fill="#a8b8c8"/>
+    <ellipse cx="380" cy="220" rx="80" ry="9" fill="#a8b8c8"/>
+  </g>
+
+  <!-- ===== CAPTIONS ===== -->
+  <!-- CAPTION 1 — top-left -->
+  <g>
+    <rect x="14" y="14" width="380" height="50" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">The child would remember a light in the dark.</text>
+  <text x="22" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">A tiny figure, armored and strange. A fairy in the alley.</text>
+  <text x="22" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic" font-weight="700">A story for no one.</text>
+
+  <!-- CAPTION 2 — bottom-right -->
+  <g>
+    <rect x="408" y="240" width="320" height="36" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="1.4" opacity="0.92"/>
+  </g>
+  <text x="416" y="256" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">Thresh would remember</text>
+  <text x="416" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1410" font-style="italic" font-weight="700">a hand.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#1a1410" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>

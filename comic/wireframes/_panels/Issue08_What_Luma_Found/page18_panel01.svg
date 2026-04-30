@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 18 — Panel 1: Time passing — gaslight guttering, predawn grey at the strip of sky, the night is ending</title>
+  <desc>28mm wide cinematic eye level. Narrow Victorian alley. Gas lamp at far end is guttering — flame small, warm amber pool shrunk, light flickering. At wall base, tiny ruby-crimson figure sits unchanged — compact weapon across knees, back to brick, steady. Above alley, between rooflines, first hint of predawn grey lightens narrow strip of sky. Night is ending. Transition subtle — deep blue-black of night softening at edges, gaslight losing dominance to approaching dawn. Thresh small steady shape in changing light.</desc>
+
+  <defs>
+    <linearGradient id="i8p18p1skyTransition" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a5868"/>
+      <stop offset="50%" stop-color="#1a2438"/>
+      <stop offset="100%" stop-color="#0a1018"/>
+    </linearGradient>
+    <linearGradient id="i8p18p1brick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <linearGradient id="i8p18p1cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0606"/>
+    </linearGradient>
+    <radialGradient id="i8p18p1lampGuttering" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#a86838" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1808" stroke-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p18p1lampCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#d86838" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p18p1predawnGrey" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#a8a8b8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a4858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p18p1threshArmor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a82818"/>
+      <stop offset="100%" stop-color="#3a0a0a"/>
+    </linearGradient>
+    <filter id="i8p18p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p18p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p18p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p18p1megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <!-- Sky strip — TRANSITIONING from night to dawn (top is lightening) -->
+  <rect width="742" height="50" fill="url(#i8p18p1skyTransition)"/>
+  <!-- Predawn grey lightening at sky edge -->
+  <ellipse cx="371" cy="0" rx="600" ry="40" fill="url(#i8p18p1predawnGrey)" filter="url(#i8p18p1megaglow)"/>
+  <!-- Last fading stars -->
+  <circle cx="280" cy="20" r="0.4" fill="#fff8e8" filter="url(#i8p18p1bloom)" opacity="0.4"/>
+  <circle cx="500" cy="25" r="0.4" fill="#fff8e8" filter="url(#i8p18p1bloom)" opacity="0.55"/>
+
+  <!-- Top of brick walls (silhouette) -->
+  <rect x="0" y="50" width="742" height="14" fill="#040408"/>
+  <!-- Chimney pots -->
+  <rect x="80" y="35" width="11" height="20" fill="#040408"/>
+  <rect x="320" y="38" width="14" height="18" fill="#040408"/>
+  <rect x="540" y="32" width="11" height="22" fill="#040408"/>
+
+  <!-- ===== BRICK WALLS ===== -->
+  <rect x="0" y="64" width="200" height="180" fill="url(#i8p18p1brick)"/>
+  <rect x="540" y="64" width="202" height="180" fill="url(#i8p18p1brick)"/>
+  <g stroke="#040408" stroke-width="0.7" opacity="0.85">
+    <line x1="0" y1="100" x2="200" y2="100"/>
+    <line x1="0" y1="140" x2="200" y2="140"/>
+    <line x1="0" y1="180" x2="200" y2="180"/>
+    <line x1="0" y1="220" x2="200" y2="220"/>
+    <line x1="540" y1="100" x2="742" y2="100"/>
+    <line x1="540" y1="140" x2="742" y2="140"/>
+    <line x1="540" y1="180" x2="742" y2="180"/>
+    <line x1="540" y1="220" x2="742" y2="220"/>
+  </g>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.7">
+    <line x1="60" y1="64" x2="60" y2="100"/>
+    <line x1="120" y1="100" x2="120" y2="140"/>
+    <line x1="40" y1="140" x2="40" y2="180"/>
+    <line x1="100" y1="180" x2="100" y2="220"/>
+    <line x1="160" y1="220" x2="160" y2="244"/>
+    <line x1="600" y1="64" x2="600" y2="100"/>
+    <line x1="680" y1="100" x2="680" y2="140"/>
+    <line x1="580" y1="140" x2="580" y2="180"/>
+    <line x1="660" y1="180" x2="660" y2="220"/>
+  </g>
+  <g fill="#040408" opacity="0.7">
+    <ellipse cx="80" cy="120" rx="22" ry="9"/>
+    <ellipse cx="160" cy="200" rx="22" ry="9"/>
+    <ellipse cx="600" cy="120" rx="22" ry="9"/>
+    <ellipse cx="680" cy="200" rx="22" ry="9"/>
+  </g>
+
+  <!-- Cobblestone -->
+  <rect x="0" y="244" width="742" height="56" fill="url(#i8p18p1cobble)"/>
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.55">
+    <ellipse cx="40" cy="260" rx="11" ry="6"/>
+    <ellipse cx="120" cy="270" rx="11" ry="6"/>
+    <ellipse cx="200" cy="265" rx="11" ry="6"/>
+    <ellipse cx="280" cy="270" rx="11" ry="6"/>
+    <ellipse cx="360" cy="265" rx="11" ry="6"/>
+    <ellipse cx="440" cy="270" rx="11" ry="6"/>
+    <ellipse cx="520" cy="265" rx="11" ry="6"/>
+    <ellipse cx="600" cy="270" rx="11" ry="6"/>
+    <ellipse cx="680" cy="265" rx="11" ry="6"/>
+    <ellipse cx="100" cy="285" rx="11" ry="6"/>
+    <ellipse cx="240" cy="290" rx="11" ry="6"/>
+    <ellipse cx="380" cy="285" rx="11" ry="6"/>
+    <ellipse cx="520" cy="290" rx="11" ry="6"/>
+  </g>
+
+  <!-- ===== GASLIGHT GUTTERING — small flame, narrow halo ===== -->
+  <g transform="translate(620 100)">
+    <rect x="-2" y="0" width="4" height="140" fill="#3a3030"/>
+    <path d="M0,0 L-22,-9 L-22,-7 L-2,3 Z" fill="#3a3030"/>
+    <rect x="-22" y="-26" width="22" height="22" fill="#1a1818"/>
+    <polygon points="-26,-26 4,-26 0,-36 -22,-36" fill="#3a3030"/>
+    <rect x="-18" y="-22" width="14" height="16" fill="#3a1808"/>
+    <!-- SMALLER flame (guttering) -->
+    <ellipse cx="-11" cy="-10" rx="2" ry="3.5" fill="url(#i8p18p1lampCore)" filter="url(#i8p18p1strongglow)"/>
+    <ellipse cx="-11" cy="-10" rx="0.85" ry="2" fill="#fff" filter="url(#i8p18p1bloom)"/>
+  </g>
+  <!-- NARROW guttering halo -->
+  <ellipse cx="600" cy="100" rx="120" ry="80" fill="url(#i8p18p1lampGuttering)" filter="url(#i8p18p1megaglow)"/>
+  <ellipse cx="540" cy="270" rx="100" ry="14" fill="url(#i8p18p1lampGuttering)" filter="url(#i8p18p1megaglow)" opacity="0.55"/>
+
+  <!-- Cobblestones gleam (very dim now) -->
+  <g opacity="0.55" filter="url(#i8p18p1bloom)">
+    <ellipse cx="500" cy="265" rx="6" ry="2" fill="#ffd898" opacity="0.4"/>
+    <ellipse cx="560" cy="270" rx="6" ry="2" fill="#ffd898" opacity="0.55"/>
+  </g>
+
+  <!-- Predawn grey reaching down into alley (tops of walls catching the light) -->
+  <ellipse cx="371" cy="60" rx="500" ry="22" fill="#a8a8b8" opacity="0.4" filter="url(#i8p18p1strongglow)"/>
+  <line x1="0" y1="60" x2="742" y2="60" stroke="#a8a8b8" stroke-width="0.55" filter="url(#i8p18p1bloom)" opacity="0.55"/>
+
+  <!-- ===== THRESH at base — UNCHANGED, steady ===== -->
+  <g transform="translate(140 256)">
+    <!-- Body -->
+    <path d="M-7,18 L-9,3 L-11,-9 L-7,-22 L-3,-30 L3,-30 L7,-22 L11,-9 L9,3 L7,18 Z" fill="url(#i8p18p1threshArmor)"/>
+    <ellipse cx="-9" cy="-14" rx="3" ry="2" fill="#3a0a0a"/>
+    <ellipse cx="9" cy="-14" rx="3" ry="2" fill="#5a1410"/>
+    <path d="M-5,-3 L5,3" stroke="#3a0a0a" stroke-width="1" opacity="0.85"/>
+    <!-- Suit accent (composed, settled — back to stealth dim) -->
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#a82818" stroke-width="0.4" opacity="0.55" filter="url(#i8p18p1bloom)"/>
+    <circle cx="-7" cy="-14" r="0.55" fill="#a82818" filter="url(#i8p18p1bloom)" opacity="0.55"/>
+    <circle cx="7" cy="-14" r="0.55" fill="#a82818" filter="url(#i8p18p1bloom)" opacity="0.55"/>
+    <!-- Knees -->
+    <ellipse cx="-7" cy="14" rx="6" ry="3" fill="url(#i8p18p1threshArmor)"/>
+    <ellipse cx="7" cy="14" rx="6" ry="3" fill="url(#i8p18p1threshArmor)"/>
+    <!-- Weapon across knees -->
+    <rect x="-14" y="14" width="28" height="2" fill="#0a0408"/>
+    <ellipse cx="0" cy="15" rx="3" ry="0.4" fill="#a82818" filter="url(#i8p18p1bloom)" opacity="0.4"/>
+    <ellipse cx="-9" cy="14" rx="1.4" ry="1" fill="#a87838"/>
+    <ellipse cx="9" cy="14" rx="1.4" ry="1" fill="#a87838"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-36" rx="4" ry="5" fill="#a87838"/>
+    <path d="M-5,-42 Q0,-44 5,-42 L5,-36 Q0,-38 -5,-36 Z" fill="#7a2818"/>
+    <line x1="-2" y1="-36" x2="-1" y2="-36" stroke="#1a0808" stroke-width="0.7"/>
+    <line x1="1" y1="-36" x2="2" y2="-36" stroke="#1a0808" stroke-width="0.7"/>
+  </g>
+  <ellipse cx="140" cy="244" rx="14" ry="6" fill="#3a0a0a" opacity="0.4" filter="url(#i8p18p1glow)"/>
+
+  <!-- (No dialogue) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#040408" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>
