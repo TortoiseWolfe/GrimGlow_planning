@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
+  <title>Issue 10 Page 20 Panel 4 — Sable at the wall gap, "We have to stop them"</title>
+  <desc>Medium wide Sable standing at wall gap in camp looking out at grey Victorian city through crack in brickwork. Silhouetted against grey daylight — dark brown skin, silver-white hair, soot-darkened silver suit. Behind her in camp the squad in recovery positions — shapes in dim camp light. Posture carries weight of command and new knowledge. Grey daylight from wall gap silhouetting her, warm depleted camp light behind. The captain who knows they cannot leave.</desc>
+  <defs>
+    <linearGradient id="bgX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1810"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="dayGapX4" cx="0.62" cy="0.5" r="0.28">
+      <stop offset="0" stop-color="#a8b0bc" stop-opacity="0.65"/>
+      <stop offset="0.4" stop-color="#5a6478" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="campWarmX4" cx="0.18" cy="0.55" r="0.42">
+      <stop offset="0" stop-color="#a87838" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#5a3018" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2410"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="beamX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2418"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="brickWallX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3018"/>
+      <stop offset="0.5" stop-color="#3a1a14"/>
+      <stop offset="1" stop-color="#1a0a08"/>
+    </linearGradient>
+    <linearGradient id="cityFarX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8898"/>
+      <stop offset="0.5" stop-color="#5a6478"/>
+      <stop offset="1" stop-color="#3a4858"/>
+    </linearGradient>
+    <linearGradient id="silverFigX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6068"/>
+      <stop offset="0.5" stop-color="#3a3e44"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="hairSilX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9098a0"/>
+      <stop offset="1" stop-color="#3a3e44"/>
+    </linearGradient>
+    <linearGradient id="copperFigX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a5828"/>
+      <stop offset="0.5" stop-color="#5a2e10"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <linearGradient id="emeraldFigX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#1a4a2a"/>
+      <stop offset="1" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="violetFigX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7848b8"/>
+      <stop offset="0.5" stop-color="#3a1a5a"/>
+      <stop offset="1" stop-color="#1a0a2a"/>
+    </linearGradient>
+    <linearGradient id="crimsonFigX4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a83830"/>
+      <stop offset="0.5" stop-color="#5a1810"/>
+      <stop offset="1" stop-color="#1a0606"/>
+    </linearGradient>
+    <filter id="bloomX4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowX4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="dayBlurX4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="240" fill="url(#bgX4)"/>
+  <rect width="742" height="240" fill="url(#campWarmX4)"/>
+  <rect width="742" height="240" fill="url(#dayGapX4)"/>
+
+  <g>
+    <rect x="0" y="190" width="742" height="50" fill="url(#floorX4)"/>
+    <line x1="0" y1="200" x2="742" y2="198" stroke="#1a1008" stroke-width="0.5" opacity="0.55"/>
+    <line x1="0" y1="222" x2="742" y2="220" stroke="#1a1008" stroke-width="0.4" opacity="0.5"/>
+  </g>
+
+  <g>
+    <rect x="0" y="0" width="742" height="32" fill="url(#beamX4)"/>
+    <line x1="0" y1="32" x2="742" y2="32" stroke="#080404" stroke-width="1.4"/>
+    <rect x="0" y="0" width="38" height="240" fill="url(#beamX4)"/>
+    <rect x="704" y="0" width="38" height="240" fill="url(#beamX4)"/>
+  </g>
+
+  <g>
+    <rect x="38" y="32" width="666" height="158" fill="url(#brickWallX4)" opacity="0.95"/>
+    <g opacity="0.55" stroke="#1a0a08" stroke-width="0.5" fill="none">
+      <line x1="38" y1="50" x2="704" y2="50"/>
+      <line x1="38" y1="68" x2="704" y2="68"/>
+      <line x1="38" y1="86" x2="704" y2="86"/>
+      <line x1="38" y1="104" x2="704" y2="104"/>
+      <line x1="38" y1="122" x2="704" y2="122"/>
+      <line x1="38" y1="140" x2="704" y2="140"/>
+      <line x1="38" y1="158" x2="704" y2="158"/>
+      <line x1="38" y1="176" x2="704" y2="176"/>
+    </g>
+  </g>
+
+  <g>
+    <path d="M 380 32 Q 388 60 384 100 Q 380 130 386 160 Q 392 180 386 190 L 426 190 Q 420 170 426 140 Q 432 110 428 76 Q 424 50 432 32 Z" fill="url(#cityFarX4)"/>
+  </g>
+  <g opacity="0.85" filter="url(#dayBlurX4)">
+    <path d="M 380 80 Q 396 96 408 120 Q 416 144 412 170" stroke="#a8b0bc" stroke-width="2" fill="none" opacity="0.55"/>
+  </g>
+  <g opacity="0.55">
+    <path d="M 384 80 Q 400 84 414 88" stroke="#5a6478" stroke-width="0.5" fill="none"/>
+    <path d="M 384 110 Q 404 116 422 122" stroke="#5a6478" stroke-width="0.5" fill="none"/>
+    <path d="M 386 142 Q 410 152 428 158" stroke="#5a6478" stroke-width="0.4" fill="none"/>
+
+    <rect x="394" y="80" width="6" height="36" fill="#3a4858"/>
+    <rect x="394" y="80" width="6" height="3" fill="#1a1828"/>
+    <rect x="408" y="74" width="5" height="32" fill="#3a4858"/>
+    <polygon points="408,74 410,68 413,74" fill="#3a4858"/>
+  </g>
+  <g opacity="0.92" filter="url(#bloomX4)">
+    <ellipse cx="402" cy="100" rx="14" ry="6" fill="#a8b0bc" opacity="0.45"/>
+  </g>
+
+  <g>
+    <ellipse cx="404" cy="160" rx="22" ry="26" fill="#3a261a"/>
+    <ellipse cx="404" cy="138" rx="14" ry="16" fill="url(#silverFigX4)"/>
+
+    <path d="M 384 110 Q 404 100 424 110 Q 430 124 426 140 L 422 148 Q 416 124 408 116 Q 404 110 400 116 Q 392 124 386 148 Z" fill="url(#hairSilX4)"/>
+
+    <ellipse cx="396" cy="140" rx="2.4" ry="3" fill="#0a0604"/>
+    <ellipse cx="412" cy="140" rx="2.4" ry="3" fill="#0a0604"/>
+
+    <path d="M 380 156 L 428 156 L 444 200 L 364 200 Z" fill="url(#silverFigX4)"/>
+    <path d="M 388 164 L 420 164 L 432 196 L 376 196 Z" fill="#1a1c20" opacity="0.85"/>
+    <line x1="404" y1="164" x2="404" y2="196" stroke="#080404" stroke-width="0.5" opacity="0.7"/>
+
+    <path d="M 380 156 L 360 174 L 348 200" stroke="url(#silverFigX4)" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M 428 156 L 448 174 L 460 200" stroke="url(#silverFigX4)" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+    <path d="M 348 178 L 354 184" stroke="#080404" stroke-width="2" opacity="0.85"/>
+    <ellipse cx="356" cy="180" rx="6" ry="1.4" fill="#080404" opacity="0.85"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowX4)">
+    <ellipse cx="404" cy="160" rx="40" ry="40" fill="#a8b0bc" opacity="0.32"/>
+  </g>
+  <g opacity="0.55">
+    <line x1="386" y1="170" x2="424" y2="170" stroke="#88a8d0" stroke-width="0.5"/>
+    <line x1="386" y1="186" x2="422" y2="186" stroke="#88a8d0" stroke-width="0.5"/>
+  </g>
+
+  <g>
+    <ellipse cx="100" cy="170" rx="9" ry="11" fill="#3a261a"/>
+    <path d="M 90 152 Q 100 144 110 152 Q 112 168 106 174 L 102 168 Q 100 154 96 172 Z" fill="#1a0808"/>
+    <ellipse cx="106" cy="148" rx="3" ry="2" fill="#1a0808"/>
+    <ellipse cx="96" cy="162" rx="1" ry="1.4" fill="#0a0604"/>
+    <ellipse cx="104" cy="162" rx="1" ry="1.4" fill="#0a0604"/>
+    <path d="M 86 180 L 116 180 L 120 220 L 82 220 Z" fill="url(#copperFigX4)"/>
+
+    <rect x="124" y="170" width="22" height="14" rx="2" fill="none" stroke="#a85820" stroke-width="0.5"/>
+    <line x1="124" y1="174" x2="146" y2="174" stroke="#a85820" stroke-width="0.4" opacity="0.65"/>
+    <line x1="124" y1="178" x2="146" y2="178" stroke="#a85820" stroke-width="0.4" opacity="0.55"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomX4)">
+    <rect x="124" y="170" width="22" height="14" fill="#a85820" opacity="0.18"/>
+  </g>
+
+  <g>
+    <ellipse cx="180" cy="174" rx="8" ry="10" fill="#3a261a"/>
+    <path d="M 172 158 Q 180 152 188 158 Q 190 170 184 174 L 180 168 Q 178 162 176 174 Z" fill="#1a0808"/>
+    <ellipse cx="186" cy="156" rx="2.4" ry="1.6" fill="#1a0808"/>
+    <ellipse cx="176" cy="166" rx="0.85" ry="1.2" fill="#0a0604"/>
+    <ellipse cx="184" cy="166" rx="0.85" ry="1.2" fill="#0a0604"/>
+    <path d="M 168 184 L 192 184 L 196 220 L 164 220 Z" fill="url(#violetFigX4)"/>
+  </g>
+  <g opacity="0.7" filter="url(#bloomX4)">
+    <ellipse cx="180" cy="200" rx="14" ry="6" fill="#7848b8" opacity="0.32"/>
+  </g>
+
+  <g>
+    <ellipse cx="220" cy="178" rx="9" ry="11" fill="#3a261a"/>
+    <path d="M 210 162 Q 220 156 230 162 Q 232 174 226 178 L 222 172 Q 218 166 216 176 Z" fill="#a85020"/>
+    <ellipse cx="216" cy="170" rx="0.85" ry="1.2" fill="#0a0604"/>
+    <ellipse cx="224" cy="170" rx="0.85" ry="1.2" fill="#0a0604"/>
+    <path d="M 206 188 L 234 188 L 238 220 L 202 220 Z" fill="url(#crimsonFigX4)"/>
+    <path d="M 206 192 L 234 192 L 234 216 L 206 216 Z" fill="#1a0606" opacity="0.85"/>
+  </g>
+  <g opacity="0.7" filter="url(#bloomX4)">
+    <rect x="206" y="188" width="28" height="32" fill="#dc4540" opacity="0.28"/>
+  </g>
+
+  <g>
+    <ellipse cx="600" cy="172" rx="6" ry="3.4" fill="url(#emeraldFigX4)"/>
+    <ellipse cx="600" cy="168" rx="3" ry="2.6" fill="#3a261a"/>
+    <path d="M 596 172 Q 590 168 586 164" stroke="url(#emeraldFigX4)" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M 604 172 Q 610 168 614 164" stroke="url(#emeraldFigX4)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.55" filter="url(#bloomX4)">
+    <path d="M 586 162 Q 600 156 614 162" stroke="#3a8858" stroke-width="2" fill="none" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="404" cy="200" rx="60" ry="3" fill="#040202"/>
+    <ellipse cx="100" cy="220" rx="13" ry="2" fill="#040202"/>
+    <ellipse cx="180" cy="220" rx="11" ry="2" fill="#040202"/>
+    <ellipse cx="220" cy="220" rx="13" ry="2" fill="#040202"/>
+  </g>
+
+  <g opacity="0.55">
+    <text x="640" y="166" text-anchor="middle" font-family="Times New Roman, serif" font-size="3" fill="#3a8858" font-style="italic" opacity="0.55">·</text>
+    <text x="556" y="170" text-anchor="middle" font-family="Times New Roman, serif" font-size="3" fill="#3a8858" font-style="italic" opacity="0.55">·</text>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="320" height="42" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#5a6478" stroke-width="1.4"/>
+    <text x="152" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#5a6478" font-weight="700">SABLE: "Titans are not raiders.</text>
+    <text x="152" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#2a2a2a" font-style="italic">They are architects. They have been</text>
+    <text x="152" y="29" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#2a2a2a" font-style="italic">shaping things from the inside."</text>
+    <text x="152" y="38" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#5a6478" font-weight="700">"We cannot just leave."</text>
+  </g>
+
+  <g transform="translate(490,200)">
+    <rect x="-8" y="0" width="240" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#5a6478" stroke-width="1.4"/>
+    <text x="112" y="14" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a6478" font-weight="700">"We have to stop them."</text>
+  </g>
+</svg>

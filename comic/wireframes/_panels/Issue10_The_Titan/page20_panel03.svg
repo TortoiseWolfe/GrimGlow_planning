@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 10 Page 20 Panel 3 — Luma treats Thresh, "Yes. That's what made it extraordinary."</title>
+  <desc>Close-up two-shot Luma and Thresh. Luma — South Asian features warm brown skin long braided hair single thick braid sapphire-violet suit — leans close, medical scanner casts soft blue-violet light treating cut above Thresh's eye. Thresh — broad-shouldered pale skin copper-red buzz cut damaged crimson armor — sits still, face softened by exhaustion and vulnerability she would not have shown before tonight. Sapphire-violet scanner glow illuminates both faces intimately. Quiet moment between healer and soldier. Tenderness after terror.</desc>
+  <defs>
+    <linearGradient id="bgZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1828"/>
+      <stop offset="0.5" stop-color="#1a0e1c"/>
+      <stop offset="1" stop-color="#0a0510"/>
+    </linearGradient>
+    <radialGradient id="sapphireGlowZ3" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#a878d8" stop-opacity="0.62"/>
+      <stop offset="0.4" stop-color="#7848b8" stop-opacity="0.42"/>
+      <stop offset="0.8" stop-color="#3a1a5a" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0a0510" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warmFillZ3" cx="0.85" cy="0.3" r="0.32">
+      <stop offset="0" stop-color="#a85820" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#5a2e10" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#1a0a04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="violetSuitZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7848b8"/>
+      <stop offset="0.5" stop-color="#3a1a5a"/>
+      <stop offset="1" stop-color="#1a0a2a"/>
+    </linearGradient>
+    <linearGradient id="hairBlkZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1818"/>
+      <stop offset="0.5" stop-color="#1a0a08"/>
+      <stop offset="1" stop-color="#0a0404"/>
+    </linearGradient>
+    <linearGradient id="faceLumaZ3" x1="0" y1="0" x2="0.7" y2="0.5">
+      <stop offset="0" stop-color="#3a261a"/>
+      <stop offset="0.5" stop-color="#7a4830"/>
+      <stop offset="1" stop-color="#a878d8"/>
+    </linearGradient>
+    <linearGradient id="faceThreshZ3" x1="0" y1="0" x2="0.7" y2="0.5">
+      <stop offset="0" stop-color="#5a3622"/>
+      <stop offset="0.5" stop-color="#a87838"/>
+      <stop offset="1" stop-color="#a878d8"/>
+    </linearGradient>
+    <linearGradient id="hairBuzzZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85020"/>
+      <stop offset="0.5" stop-color="#5a2010"/>
+      <stop offset="1" stop-color="#2a1008"/>
+    </linearGradient>
+    <linearGradient id="crimsonDamZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a83830"/>
+      <stop offset="0.5" stop-color="#5a1810"/>
+      <stop offset="1" stop-color="#1a0606"/>
+    </linearGradient>
+    <linearGradient id="scannerZ3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1a5a"/>
+      <stop offset="0.5" stop-color="#1a0a2a"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="scanCoreZ3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.4" stop-color="#a878d8"/>
+      <stop offset="1" stop-color="#3a1a5a"/>
+    </radialGradient>
+    <filter id="bloomZ3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <filter id="strongGlowZ3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowZ3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="softZ3" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#bgZ3)"/>
+  <rect width="366" height="280" fill="url(#sapphireGlowZ3)"/>
+  <rect width="366" height="280" fill="url(#warmFillZ3)"/>
+
+  <g opacity="0.7" filter="url(#megaGlowZ3)">
+    <ellipse cx="186" cy="140" rx="120" ry="80" fill="#7848b8" opacity="0.55"/>
+  </g>
+
+  <g>
+    <ellipse cx="100" cy="120" rx="36" ry="44" fill="#3a261a"/>
+    <ellipse cx="100" cy="100" rx="28" ry="32" fill="url(#faceLumaZ3)"/>
+
+    <path d="M 70 64 Q 100 50 130 64 Q 138 84 134 100 L 130 110 Q 124 80 116 70 Q 110 64 100 64 Q 90 64 84 70 Q 76 80 70 110 Z" fill="url(#hairBlkZ3)"/>
+    <path d="M 130 70 Q 140 84 144 110 L 150 152 L 156 200 L 142 240 L 130 240 L 134 200 L 130 152 L 124 110" fill="url(#hairBlkZ3)"/>
+
+    <ellipse cx="86" cy="106" rx="5" ry="6" fill="#0a0604"/>
+    <ellipse cx="114" cy="106" rx="5" ry="6" fill="#0a0604"/>
+    <circle cx="86" cy="106" r="3" fill="#080404"/>
+    <circle cx="114" cy="106" r="3" fill="#080404"/>
+    <circle cx="88" cy="105" r="1.4" fill="#a878d8"/>
+    <circle cx="116" cy="105" r="1.4" fill="#a878d8"/>
+
+    <path d="M 70 96 Q 86 90 102 96" stroke="#0a0604" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M 100 96 Q 114 90 132 96" stroke="#0a0604" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+
+    <path d="M 100 110 L 98 130 Q 100 138 104 142" stroke="#0a0604" stroke-width="1" fill="none" opacity="0.7"/>
+    <path d="M 84 152 L 116 152" stroke="#0a0604" stroke-width="1.6" stroke-linecap="round"/>
+
+    <ellipse cx="120" cy="138" rx="3" ry="2" fill="#a878d8" opacity="0.45"/>
+  </g>
+
+  <g>
+    <path d="M 60 152 L 140 152 L 156 220 L 30 220 L 38 200 Z" fill="url(#violetSuitZ3)"/>
+    <path d="M 70 162 L 130 162 L 142 210 L 50 210 L 58 192 Z" fill="#3a1a5a" opacity="0.85"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowZ3)">
+    <rect x="60" y="152" width="80" height="68" fill="#a878d8" opacity="0.32"/>
+  </g>
+  <g opacity="0.7">
+    <line x1="68" y1="170" x2="132" y2="170" stroke="#a878d0" stroke-width="0.4"/>
+    <line x1="68" y1="184" x2="132" y2="184" stroke="#a878d0" stroke-width="0.4"/>
+    <line x1="68" y1="200" x2="132" y2="200" stroke="#a878d0" stroke-width="0.4"/>
+  </g>
+
+  <g>
+    <path d="M 140 152 L 160 138 L 178 124 L 196 116" stroke="url(#violetSuitZ3)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <ellipse cx="200" cy="116" rx="11" ry="9" fill="#7a4830"/>
+    <path d="M 192 110 Q 200 104 210 108 Q 214 116 210 124 Q 204 116 200 116 Q 196 116 192 122 Z" fill="#7a4830"/>
+  </g>
+
+  <g>
+    <rect x="194" y="106" width="22" height="14" rx="3" fill="url(#scannerZ3)" stroke="#1a0a2a" stroke-width="0.7"/>
+    <ellipse cx="205" cy="113" rx="6" ry="3" fill="url(#scanCoreZ3)"/>
+    <line x1="200" y1="108" x2="208" y2="108" stroke="#a878d0" stroke-width="0.4"/>
+    <line x1="200" y1="118" x2="208" y2="118" stroke="#a878d0" stroke-width="0.4"/>
+  </g>
+  <g opacity="0.95" filter="url(#strongGlowZ3)">
+    <ellipse cx="205" cy="113" rx="14" ry="8" fill="#a878d8" opacity="0.7"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomZ3)">
+    <ellipse cx="205" cy="112" rx="4" ry="2.4" fill="#ffffff" opacity="0.85"/>
+  </g>
+  <g opacity="0.85" filter="url(#megaGlowZ3)">
+    <circle cx="220" cy="100" r="22" fill="#7848b8" opacity="0.45"/>
+  </g>
+
+  <g>
+    <ellipse cx="270" cy="142" rx="34" ry="40" fill="#3a261a"/>
+    <ellipse cx="270" cy="124" rx="26" ry="28" fill="url(#faceThreshZ3)"/>
+
+    <path d="M 244 96 Q 270 84 296 96 Q 302 114 296 122 L 290 132 Q 282 100 270 100 Q 258 100 250 132 Z" fill="url(#hairBuzzZ3)"/>
+    <ellipse cx="296" cy="94" rx="11" ry="6" fill="url(#hairBuzzZ3)"/>
+
+    <ellipse cx="258" cy="128" rx="4" ry="5" fill="#0a0604"/>
+    <ellipse cx="282" cy="128" rx="4" ry="5" fill="#0a0604"/>
+    <circle cx="258" cy="128" r="2.4" fill="#080404"/>
+    <circle cx="282" cy="128" r="2.4" fill="#080404"/>
+    <circle cx="259" cy="127" r="1.2" fill="#a878d8"/>
+    <circle cx="283" cy="127" r="1.2" fill="#a878d8"/>
+
+    <path d="M 246 116 Q 260 110 274 114" stroke="#0a0604" stroke-width="1.2" fill="none"/>
+    <path d="M 270 114 Q 286 110 298 116" stroke="#0a0604" stroke-width="1.2" fill="none"/>
+
+    <path d="M 270 132 L 268 152 Q 270 162 274 168" stroke="#0a0604" stroke-width="1" fill="none" opacity="0.7"/>
+    <path d="M 252 174 L 290 174" stroke="#0a0604" stroke-width="1.6" stroke-linecap="round"/>
+
+    <path d="M 240 100 L 252 110" stroke="#a83830" stroke-width="1.6" opacity="0.85"/>
+    <ellipse cx="246" cy="106" rx="6" ry="1.4" fill="#a83830" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 230 174 L 320 174 L 340 240 L 210 240 L 218 200 Z" fill="url(#crimsonDamZ3)"/>
+    <path d="M 240 184 L 310 184 L 326 232 L 224 232 Z" fill="#1a0606" opacity="0.85"/>
+    <path d="M 270 188 L 300 240" stroke="#0a0606" stroke-width="3" opacity="0.85"/>
+    <path d="M 248 200 L 288 206" stroke="#5a1810" stroke-width="0.6" opacity="0.7"/>
+    <path d="M 300 174 L 326 200" stroke="url(#crimsonDamZ3)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M 326 200 L 340 240" stroke="url(#crimsonDamZ3)" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 230 174 L 218 156 L 210 132 L 212 120" stroke="url(#crimsonDamZ3)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <ellipse cx="216" cy="118" rx="9" ry="6" fill="#7a4830"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 246 168 L 268 152 L 282 154" stroke="none" fill="none"/>
+    <line x1="246" y1="100" x2="252" y2="108" stroke="#dc4540" stroke-width="0.6" opacity="0.7"/>
+    <ellipse cx="245" cy="104" rx="2.4" ry="0.8" fill="#dc4540" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M 248 110 L 254 114 L 258 116" stroke="#a878d8" stroke-width="0.5" fill="none" opacity="0.55"/>
+    <path d="M 244 110 L 250 116" stroke="#a878d8" stroke-width="0.4" opacity="0.5"/>
+  </g>
+
+  <g opacity="0.7">
+    <ellipse cx="220" cy="150" rx="2" ry="1" fill="#a878d8"/>
+    <ellipse cx="180" cy="140" rx="2" ry="1" fill="#a878d8"/>
+    <ellipse cx="190" cy="158" rx="1.4" ry="0.8" fill="#a878d8" opacity="0.7"/>
+  </g>
+
+  <g opacity="0.55">
+    <text x="186" y="60" text-anchor="middle" font-family="Times New Roman, serif" font-size="3.5" fill="#7848b8" font-style="italic" opacity="0.65">·</text>
+    <text x="216" y="74" text-anchor="middle" font-family="Times New Roman, serif" font-size="3.5" fill="#7848b8" font-style="italic" opacity="0.65">·</text>
+    <text x="156" y="80" text-anchor="middle" font-family="Times New Roman, serif" font-size="3" fill="#7848b8" font-style="italic" opacity="0.55">·</text>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="240" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#7848b8" stroke-width="1.2"/>
+    <text x="112" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.6" fill="#7848b8" font-weight="700">LUMA: "You were</text>
+    <text x="112" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#2a2a2a" font-style="italic" font-weight="700">extraordinary."</text>
+  </g>
+
+  <g transform="translate(110,140)">
+    <rect x="-8" y="0" width="180" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#8a2520" stroke-width="1.2"/>
+    <text x="82" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#8a2520" font-weight="700">THRESH:</text>
+    <text x="82" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#2a2a2a" font-style="italic">"I was terrified."</text>
+  </g>
+
+  <g transform="translate(20,242)">
+    <rect x="-8" y="0" width="320" height="32" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#7848b8" stroke-width="1.4"/>
+    <text x="152" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.6" fill="#7848b8" font-weight="700">LUMA: "Yes. That's what made it</text>
+    <text x="152" y="22" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.6" fill="#2a2a2a" font-style="italic" font-weight="700">extraordinary."</text>
+  </g>
+</svg>
