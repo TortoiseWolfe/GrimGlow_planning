@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
+  <title>Issue 11 Page 20 Panel 1 — Sable addressing the squad, "Go be the story."</title>
+  <desc>Medium shot. Sable faces her squad, dawn light from wall gap behind her backlighting silver-white hair in warm amber. Tactical projections gone. Only light remains. Dark brown skin, sharp features, something not quite a smile — nearest warmth her command face allows. Before her, five holographic suit glows face her in pre-dawn camp. Amber dawn is warmest illumination of the issue — camp glowing with approaching day. Soot-darkened silver suit catches dawn.</desc>
+  <defs>
+    <linearGradient id="bgE1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87858"/>
+      <stop offset="0.5" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <radialGradient id="dawnHaloE1" cx="0.7" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
+      <stop offset="0.4" stop-color="#f4b860" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brickE1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a1208"/>
+      <stop offset="1" stop-color="#080604"/>
+    </linearGradient>
+    <linearGradient id="beamE1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3a22"/>
+      <stop offset="0.5" stop-color="#3a2410"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <linearGradient id="suitSableE1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8898"/>
+      <stop offset="0.5" stop-color="#3a4858"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="hairSilverE1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.5" stop-color="#d8d8d8"/>
+      <stop offset="1" stop-color="#7a7a7a"/>
+    </linearGradient>
+    <linearGradient id="skinSableE1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87858"/>
+      <stop offset="0.5" stop-color="#5a3818"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <filter id="bloomE1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowE1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowE1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7.2"/>
+    </filter>
+    <filter id="ultraGlowE1" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="240" fill="url(#bgE1)"/>
+  <rect width="742" height="240" fill="url(#dawnHaloE1)"/>
+
+  <g>
+    <rect x="380" y="20" width="280" height="180" fill="#fff8d8" opacity="0.85"/>
+    <rect x="380" y="20" width="280" height="180" fill="url(#dawnHaloE1)" opacity="0.85"/>
+    <rect x="380" y="20" width="3" height="180" fill="#1a0a04"/>
+    <rect x="657" y="20" width="3" height="180" fill="#1a0a04"/>
+
+    <g opacity="0.62">
+      <rect x="430" y="160" width="11" height="40" fill="#3a2818"/>
+      <rect x="470" y="140" width="14" height="60" fill="#3a2818"/>
+      <rect x="540" y="170" width="11" height="30" fill="#3a2818"/>
+      <rect x="580" y="150" width="11" height="50" fill="#3a2818"/>
+      <line x1="430" y1="180" x2="640" y2="180" stroke="#a85820" stroke-width="0.55"/>
+    </g>
+  </g>
+  <g opacity="0.85" filter="url(#megaGlowE1)">
+    <rect x="380" y="20" width="280" height="180" fill="#f4b860" opacity="0.62"/>
+  </g>
+  <g opacity="0.62" filter="url(#ultraGlowE1)">
+    <rect x="380" y="20" width="280" height="180" fill="#fff8d8" opacity="0.42"/>
+  </g>
+
+  <g>
+    <rect x="0" y="180" width="742" height="60" fill="url(#beamE1)"/>
+    <line x1="0" y1="186" x2="742" y2="186" stroke="#1a0a04" stroke-width="0.85"/>
+    <g opacity="0.55" stroke="#1a0a04" stroke-width="0.4">
+      <line x1="80" y1="186" x2="80" y2="240"/>
+      <line x1="200" y1="186" x2="200" y2="240"/>
+      <line x1="380" y1="186" x2="380" y2="240"/>
+      <line x1="540" y1="186" x2="540" y2="240"/>
+      <line x1="660" y1="186" x2="660" y2="240"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="500" cy="220" rx="80" ry="14" fill="#040202" opacity="0.62"/>
+
+    <ellipse cx="500" cy="160" rx="38" ry="44" fill="url(#suitSableE1)"/>
+    <path d="M 466 130 L 534 130 L 538 184 L 462 184 Z" fill="url(#suitSableE1)"/>
+
+    <path d="M 472 138 L 482 134 L 478 148 L 468 150 Z" fill="#1a1810" opacity="0.85"/>
+    <path d="M 514 152 L 524 150 L 522 158 L 510 160 Z" fill="#1a1810" opacity="0.85"/>
+    <path d="M 488 168 L 500 168 L 496 176 L 486 176 Z" fill="#1a1810" opacity="0.85"/>
+
+    <path d="M 466 130 Q 500 134 534 130" stroke="#fff8d8" stroke-width="0.85" fill="none" opacity="0.85"/>
+
+    <ellipse cx="500" cy="100" rx="20" ry="22" fill="url(#skinSableE1)"/>
+    <path d="M 482 88 Q 500 70 518 88 Q 522 96 520 100 L 480 100 Q 478 96 482 88 Z" fill="url(#hairSilverE1)"/>
+    <g opacity="0.7" stroke="#fff8d8" stroke-width="0.55">
+      <line x1="488" y1="80" x2="488" y2="92"/>
+      <line x1="495" y1="76" x2="495" y2="92"/>
+      <line x1="503" y1="76" x2="503" y2="92"/>
+      <line x1="511" y1="80" x2="511" y2="92"/>
+    </g>
+
+    <ellipse cx="492" cy="102" rx="2.4" ry="3" fill="#0a0604"/>
+    <circle cx="492.6" cy="101.4" r="0.62" fill="#fff8d8"/>
+    <ellipse cx="508" cy="102" rx="2.4" ry="3" fill="#0a0604"/>
+    <circle cx="508.6" cy="101.4" r="0.62" fill="#fff8d8"/>
+
+    <path d="M 486 98 Q 492 96 498 98" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M 502 98 Q 508 96 514 98" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M 494 116 Q 500 117 506 116 Q 504 119 500 119 Q 496 119 494 116 Z" fill="#1a0a08"/>
+
+    <path d="M 462 184 Q 446 200 432 218" stroke="url(#suitSableE1)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M 538 184 Q 554 198 568 214" stroke="url(#suitSableE1)" stroke-width="14" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlowE1)">
+    <ellipse cx="500" cy="100" rx="32" ry="22" fill="#fff8d8" opacity="0.62"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowE1)">
+    <ellipse cx="500" cy="120" rx="60" ry="40" fill="#f4b860" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="120" cy="200" rx="9" ry="14" fill="#7a8898"/>
+    <circle cx="120" cy="186" r="6" fill="#a85820"/>
+    <ellipse cx="180" cy="200" rx="9" ry="14" fill="#d88838"/>
+    <circle cx="180" cy="186" r="6" fill="#3a2410"/>
+    <ellipse cx="240" cy="200" rx="9" ry="14" fill="#3a8858"/>
+    <circle cx="240" cy="186" r="6" fill="#fff088"/>
+    <ellipse cx="300" cy="200" rx="11" ry="14" fill="#a83838"/>
+    <circle cx="300" cy="186" r="6" fill="#a87858"/>
+    <ellipse cx="360" cy="200" rx="9" ry="14" fill="#7848b8"/>
+    <circle cx="360" cy="186" r="6" fill="#a87858"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowE1)">
+    <ellipse cx="120" cy="200" rx="14" ry="14" fill="#a8c0e0" opacity="0.42"/>
+    <ellipse cx="180" cy="200" rx="14" ry="14" fill="#d88838" opacity="0.55"/>
+    <ellipse cx="240" cy="200" rx="14" ry="14" fill="#3a8858" opacity="0.62"/>
+    <ellipse cx="300" cy="200" rx="14" ry="14" fill="#d83838" opacity="0.55"/>
+    <ellipse cx="360" cy="200" rx="14" ry="14" fill="#a878d8" opacity="0.55"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowE1)">
+    <ellipse cx="240" cy="200" rx="180" ry="22" fill="#a85820" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="370" cy="220" rx="280" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="240" height="36" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a2410" stroke-width="1.2"/>
+    <text x="110" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#5a6478" font-weight="700">SABLE:</text>
+    <text x="110" y="22" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#2a2a2a" font-style="italic">"You look like fairy tales."</text>
+    <text x="110" y="32" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#3a2410" font-weight="700">"Go be the story."</text>
+  </g>
+</svg>

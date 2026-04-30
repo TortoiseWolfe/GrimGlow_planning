@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 11 Page 20 Panel 2 — Jink's grin reborn</title>
+  <desc>Close-up Jink's face. Lean, androgynous, light brown skin, wild bright golden blonde curly hair catching amber dawn light. Ghost of grin surfaces — not reckless grin of earlier issues but something older, sadder, fiercer. Grin that knows what it means now. Scout who has found weight, allowing one moment of old expression transformed by everything that has happened. Emerald suit glow at collar. Dawn amber light on face.</desc>
+  <defs>
+    <linearGradient id="bgE2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87858"/>
+      <stop offset="0.5" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <radialGradient id="dawnFaceE2" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairBlondeE2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff088"/>
+      <stop offset="0.4" stop-color="#f4b860"/>
+      <stop offset="0.7" stop-color="#a85020"/>
+      <stop offset="1" stop-color="#5a2810"/>
+    </linearGradient>
+    <linearGradient id="faceJinkE2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d8b8"/>
+      <stop offset="0.5" stop-color="#d8a878"/>
+      <stop offset="1" stop-color="#7a4830"/>
+    </linearGradient>
+    <radialGradient id="eyeJinkE2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff088" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#a87838" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="emeraldCollarE2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#1a4830"/>
+      <stop offset="1" stop-color="#0a2018"/>
+    </linearGradient>
+    <filter id="bloomE2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowE2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowE2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#bgE2)"/>
+  <rect width="366" height="280" fill="url(#dawnFaceE2)"/>
+
+  <g>
+    <ellipse cx="183" cy="140" rx="120" ry="160" fill="#5a2810"/>
+    <ellipse cx="183" cy="120" rx="92" ry="110" fill="url(#faceJinkE2)"/>
+
+    <path d="M 80 80 Q 100 20 183 30 Q 266 20 286 80 Q 290 130 274 144 Q 240 60 198 50 Q 168 60 130 90 Q 100 80 92 144 Q 76 130 80 80 Z" fill="url(#hairBlondeE2)"/>
+    <path d="M 70 60 Q 90 30 116 36 Q 100 50 80 60 Z" fill="url(#hairBlondeE2)"/>
+    <path d="M 296 60 Q 280 30 254 36 Q 270 52 290 64 Z" fill="url(#hairBlondeE2)"/>
+    <path d="M 60 110 Q 70 90 88 90 Q 76 110 64 122 Z" fill="url(#hairBlondeE2)"/>
+    <path d="M 306 110 Q 296 90 278 90 Q 290 110 302 122 Z" fill="url(#hairBlondeE2)"/>
+    <g opacity="0.62" stroke="#a85820" stroke-width="1">
+      <path d="M 100 70 Q 120 56 140 70"/>
+      <path d="M 226 70 Q 246 56 266 70"/>
+      <path d="M 150 50 Q 183 40 216 50"/>
+    </g>
+
+    <ellipse cx="138" cy="130" rx="14" ry="18" fill="#0a0604"/>
+    <circle cx="138" cy="130" r="9" fill="#3a2010"/>
+    <circle cx="142" cy="128" r="4.4" fill="url(#eyeJinkE2)"/>
+    <circle cx="138" cy="130" r="2" fill="#a87838"/>
+
+    <ellipse cx="228" cy="130" rx="14" ry="18" fill="#0a0604"/>
+    <circle cx="228" cy="130" r="9" fill="#3a2010"/>
+    <circle cx="232" cy="128" r="4.4" fill="url(#eyeJinkE2)"/>
+    <circle cx="228" cy="130" r="2" fill="#a87838"/>
+
+    <path d="M 100 108 Q 138 100 162 108" stroke="#0a0604" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 204 108 Q 228 100 266 108" stroke="#0a0604" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="154" cy="152" rx="11" ry="3" fill="#a85820" opacity="0.55"/>
+    <ellipse cx="212" cy="152" rx="11" ry="3" fill="#a85820" opacity="0.55"/>
+    <ellipse cx="183" cy="150" rx="3" ry="1.4" fill="#a85820" opacity="0.55"/>
+
+    <path d="M 130 200 Q 160 224 183 224 Q 206 224 236 200 Q 230 220 200 232 Q 183 234 166 232 Q 136 220 130 200 Z" fill="#1a0604"/>
+    <path d="M 138 204 L 226 204" stroke="#fff8d8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 142 208 Q 183 218 224 208" stroke="#3a1a08" stroke-width="0.85" fill="none" opacity="0.62"/>
+    <path d="M 130 200 Q 138 198 144 202" stroke="#0a0604" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <path d="M 222 202 Q 228 198 236 200" stroke="#0a0604" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="0" y="240" width="366" height="40" fill="url(#emeraldCollarE2)"/>
+    <line x1="0" y1="244" x2="366" y2="244" stroke="#fff088" stroke-width="0.85" opacity="0.85"/>
+    <line x1="0" y1="252" x2="366" y2="252" stroke="#fff088" stroke-width="0.55" opacity="0.62"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomE2)">
+    <rect x="0" y="240" width="366" height="14" fill="#3a8858" opacity="0.42"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowE2)">
+    <rect x="0" y="232" width="366" height="48" fill="#3a8858" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomE2)">
+    <ellipse cx="183" cy="60" rx="120" ry="14" fill="#fff088" opacity="0.42"/>
+    <ellipse cx="183" cy="180" rx="120" ry="22" fill="#f4b860" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="183" cy="252" rx="120" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+</svg>
