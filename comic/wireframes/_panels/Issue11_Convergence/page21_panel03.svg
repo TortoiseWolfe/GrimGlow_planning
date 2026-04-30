@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 11 Page 21 Panel 3 — Sable's stillness in the dark</title>
+  <desc>Close-up Sable's face in near-darkness. Dark brown skin, sharp angular features, very short military-cropped silver-white hair catching faintest glow from distant wall gap. Eyes open, looking at nothing — or at everything. Stillest expression in eleven issues. Not command. Not burden. Not the mask. Stillness. A person in the dark, awake, carrying the morning ahead. Faintest gaslight glow catches silver-white hair. Dark eyes catch starlight.</desc>
+  <defs>
+    <linearGradient id="bgF3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a14"/>
+      <stop offset="0.5" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="gaslightFaintF3" cx="0.92" cy="0.5" r="0.32">
+      <stop offset="0" stop-color="#a85820" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#5a3018" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairSilverFaintF3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8a8a8"/>
+      <stop offset="0.4" stop-color="#5a5a5a"/>
+      <stop offset="0.8" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="faceSableF3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a1208"/>
+      <stop offset="1" stop-color="#0a0604"/>
+    </linearGradient>
+    <radialGradient id="eyeStarlightF3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#5a78a8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#1a2030" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomF3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowF3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="megaGlowF3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6.4"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="280" fill="url(#bgF3)"/>
+  <rect width="742" height="280" fill="url(#gaslightFaintF3)"/>
+
+  <g opacity="0.42">
+    <circle cx="60" cy="20" r="0.55" fill="#a8c0e0"/>
+    <circle cx="180" cy="14" r="0.7" fill="#a8c0e0"/>
+    <circle cx="280" cy="22" r="0.55" fill="#a8c0e0"/>
+    <circle cx="400" cy="14" r="0.85" fill="#a8c0e0"/>
+    <circle cx="520" cy="22" r="0.55" fill="#a8c0e0"/>
+    <circle cx="640" cy="14" r="0.7" fill="#a8c0e0"/>
+  </g>
+
+  <g>
+    <ellipse cx="371" cy="160" rx="280" ry="180" fill="url(#faceSableF3)"/>
+    <ellipse cx="371" cy="140" rx="220" ry="120" fill="url(#faceSableF3)" opacity="0.95"/>
+
+    <path d="M 200 50 Q 280 14 371 14 Q 462 14 542 50 Q 562 90 558 122 L 540 132 Q 480 60 420 50 Q 380 44 322 50 Q 262 60 202 132 L 184 122 Q 180 90 200 50 Z" fill="url(#hairSilverFaintF3)"/>
+
+    <g opacity="0.7" stroke="#7a7a7a" stroke-width="0.55">
+      <line x1="240" y1="40" x2="240" y2="80"/>
+      <line x1="280" y1="32" x2="280" y2="80"/>
+      <line x1="320" y1="28" x2="320" y2="80"/>
+      <line x1="360" y1="26" x2="360" y2="80"/>
+      <line x1="400" y1="26" x2="400" y2="80"/>
+      <line x1="440" y1="28" x2="440" y2="80"/>
+      <line x1="480" y1="32" x2="480" y2="80"/>
+    </g>
+
+    <ellipse cx="296" cy="150" rx="22" ry="14" fill="#0a0604"/>
+    <ellipse cx="296" cy="150" rx="14" ry="9" fill="#080404"/>
+    <circle cx="298" cy="148" r="4" fill="url(#eyeStarlightF3)"/>
+    <circle cx="296" cy="150" r="2.4" fill="#040206"/>
+
+    <ellipse cx="446" cy="150" rx="22" ry="14" fill="#0a0604"/>
+    <ellipse cx="446" cy="150" rx="14" ry="9" fill="#080404"/>
+    <circle cx="448" cy="148" r="4" fill="url(#eyeStarlightF3)"/>
+    <circle cx="446" cy="150" r="2.4" fill="#040206"/>
+
+    <path d="M 256 124 Q 296 116 336 124" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+    <path d="M 406 124 Q 446 116 486 124" stroke="#0a0604" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="320" cy="180" rx="22" ry="6" fill="#1a0a04" opacity="0.62"/>
+    <ellipse cx="422" cy="180" rx="22" ry="6" fill="#1a0a04" opacity="0.62"/>
+    <ellipse cx="371" cy="178" rx="6" ry="2" fill="#1a0a04" opacity="0.62"/>
+
+    <path d="M 326 220 L 416 220" stroke="#0a0604" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowF3)">
+    <circle cx="298" cy="148" r="4" fill="#a8c0e0" opacity="0.62"/>
+    <circle cx="448" cy="148" r="4" fill="#a8c0e0" opacity="0.62"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomF3)">
+    <ellipse cx="371" cy="40" rx="200" ry="14" fill="#a8c0e0" opacity="0.32"/>
+    <ellipse cx="371" cy="60" rx="200" ry="11" fill="#7a7a7a" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#megaGlowF3)">
+    <ellipse cx="640" cy="160" rx="120" ry="60" fill="#a85820" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="371" cy="260" rx="220" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="380" height="36" rx="3" fill="#1a1828" opacity="0.95" stroke="#a8c0e0" stroke-width="1.2"/>
+    <text x="184" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#a8c0e0" font-weight="700">CAPTION:</text>
+    <text x="184" y="22" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" fill="#a8c0e0" font-style="italic">"The city beyond the wall. The stars above the city."</text>
+    <text x="184" y="32" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" fill="#a8c0e0" font-style="italic" font-weight="700">"The silence between breaths."</text>
+  </g>
+</svg>

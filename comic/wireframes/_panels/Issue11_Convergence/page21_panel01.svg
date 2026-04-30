@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 340" width="742" height="340">
+  <title>Issue 11 Page 21 Panel 1 — The longest night, "Nobody sleeps."</title>
+  <desc>Wide shot, tall format. Wall cavity camp in deep night. Near-darkness — faint holographic perimeter markers pulsing weakly along timber beams, distant glow of gaslight through crack in brickwork, stars visible above rooftops beyond. Five tiny figures positioned throughout camp, each awake, each a faint point of colored holographic light in the darkness — silver, copper-gold, emerald, crimson, sapphire-violet — five heartbeats of light in the shadow between walls. Nobody sleeps.</desc>
+  <defs>
+    <linearGradient id="bgF1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a14"/>
+      <stop offset="0.5" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <radialGradient id="gaslightDistantF1" cx="0.85" cy="0.4" r="0.32">
+      <stop offset="0" stop-color="#a85820" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#5a3018" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brickF1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1208"/>
+      <stop offset="0.5" stop-color="#0a0604"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <linearGradient id="beamF1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0a04"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <radialGradient id="cityGlowF1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a85820" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#5a3018" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0a0604" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomF1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowF1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowF1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6.4"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="340" fill="url(#bgF1)"/>
+  <rect width="742" height="340" fill="url(#gaslightDistantF1)"/>
+
+  <g opacity="0.55">
+    <circle cx="80" cy="20" r="0.55" fill="#a8c0e0"/>
+    <circle cx="180" cy="14" r="0.7" fill="#a8c0e0"/>
+    <circle cx="280" cy="22" r="0.55" fill="#a8c0e0"/>
+    <circle cx="380" cy="14" r="0.85" fill="#a8c0e0"/>
+    <circle cx="500" cy="20" r="0.55" fill="#a8c0e0"/>
+    <circle cx="600" cy="14" r="0.7" fill="#a8c0e0"/>
+    <circle cx="660" cy="22" r="0.55" fill="#a8c0e0"/>
+  </g>
+
+  <g>
+    <rect x="0" y="0" width="80" height="340" fill="url(#brickF1)"/>
+    <rect x="662" y="0" width="80" height="340" fill="url(#brickF1)"/>
+    <rect x="0" y="0" width="742" height="40" fill="url(#brickF1)"/>
+
+    <g opacity="0.42" stroke="#080604" stroke-width="0.4">
+      <line x1="0" y1="60" x2="80" y2="60"/>
+      <line x1="0" y1="100" x2="80" y2="100"/>
+      <line x1="0" y1="140" x2="80" y2="140"/>
+      <line x1="0" y1="180" x2="80" y2="180"/>
+      <line x1="0" y1="220" x2="80" y2="220"/>
+      <line x1="0" y1="260" x2="80" y2="260"/>
+      <line x1="40" y1="40" x2="40" y2="340"/>
+      <line x1="662" y1="60" x2="742" y2="60"/>
+      <line x1="662" y1="100" x2="742" y2="100"/>
+      <line x1="662" y1="140" x2="742" y2="140"/>
+      <line x1="662" y1="180" x2="742" y2="180"/>
+      <line x1="662" y1="220" x2="742" y2="220"/>
+      <line x1="662" y1="260" x2="742" y2="260"/>
+      <line x1="702" y1="40" x2="702" y2="340"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="540" y="180" width="100" height="100" fill="#1a0a04" opacity="0.85"/>
+    <rect x="540" y="180" width="3" height="100" fill="#0a0604"/>
+    <rect x="637" y="180" width="3" height="100" fill="#0a0604"/>
+    <g opacity="0.62">
+      <circle cx="560" cy="220" r="2" fill="#f4b860"/>
+      <circle cx="600" cy="240" r="2.4" fill="#f4b860"/>
+      <circle cx="620" cy="260" r="1.8" fill="#f4b860"/>
+    </g>
+  </g>
+  <g opacity="0.55" filter="url(#megaGlowF1)">
+    <ellipse cx="590" cy="230" rx="60" ry="40" fill="#a85820" opacity="0.32"/>
+  </g>
+
+  <g>
+    <rect x="80" y="60" width="582" height="6" fill="url(#beamF1)"/>
+    <rect x="80" y="160" width="582" height="6" fill="url(#beamF1)"/>
+    <rect x="80" y="260" width="582" height="6" fill="url(#beamF1)"/>
+
+    <g opacity="0.42">
+      <circle cx="120" cy="63" r="0.85" fill="#7a8898"/>
+      <circle cx="220" cy="63" r="0.85" fill="#d88838"/>
+      <circle cx="320" cy="63" r="0.85" fill="#3a8858"/>
+      <circle cx="420" cy="63" r="0.85" fill="#a83838"/>
+      <circle cx="520" cy="63" r="0.85" fill="#7848b8"/>
+      <circle cx="120" cy="163" r="0.85" fill="#7a8898"/>
+      <circle cx="220" cy="163" r="0.85" fill="#d88838"/>
+      <circle cx="320" cy="163" r="0.85" fill="#3a8858"/>
+      <circle cx="420" cy="163" r="0.85" fill="#a83838"/>
+      <circle cx="520" cy="163" r="0.85" fill="#7848b8"/>
+      <circle cx="120" cy="263" r="0.85" fill="#7a8898"/>
+      <circle cx="220" cy="263" r="0.85" fill="#d88838"/>
+      <circle cx="320" cy="263" r="0.85" fill="#3a8858"/>
+      <circle cx="420" cy="263" r="0.85" fill="#a83838"/>
+      <circle cx="520" cy="263" r="0.85" fill="#7848b8"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="160" cy="260" rx="3" ry="9" fill="#1a2030"/>
+    <circle cx="160" cy="252" r="2" fill="#3a4858"/>
+    <ellipse cx="240" cy="160" rx="3" ry="9" fill="#3a2410"/>
+    <circle cx="240" cy="152" r="2" fill="#5a3818"/>
+    <ellipse cx="380" cy="100" rx="3" ry="9" fill="#1a4830"/>
+    <circle cx="380" cy="92" r="2" fill="#3a8858"/>
+    <ellipse cx="460" cy="260" rx="3" ry="9" fill="#3a1820"/>
+    <circle cx="460" cy="252" r="2" fill="#5a2530"/>
+    <ellipse cx="560" cy="160" rx="3" ry="9" fill="#3a2868"/>
+    <circle cx="560" cy="152" r="2" fill="#5a38a8"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowF1)">
+    <circle cx="160" cy="256" r="6" fill="#a8c0e0" opacity="0.42"/>
+    <circle cx="240" cy="156" r="6" fill="#d88838" opacity="0.42"/>
+    <circle cx="380" cy="96" r="6" fill="#3a8858" opacity="0.55"/>
+    <circle cx="460" cy="256" r="6" fill="#d83838" opacity="0.42"/>
+    <circle cx="560" cy="156" r="6" fill="#a878d8" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#megaGlowF1)">
+    <circle cx="160" cy="256" r="14" fill="#a8c0e0" opacity="0.32"/>
+    <circle cx="240" cy="156" r="14" fill="#d88838" opacity="0.32"/>
+    <circle cx="380" cy="96" r="14" fill="#3a8858" opacity="0.42"/>
+    <circle cx="460" cy="256" r="14" fill="#d83838" opacity="0.32"/>
+    <circle cx="560" cy="156" r="14" fill="#a878d8" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomF1)">
+    <line x1="80" y1="66" x2="662" y2="66" stroke="#a8c0e0" stroke-width="0.55" opacity="0.32"/>
+    <line x1="80" y1="166" x2="662" y2="166" stroke="#a8c0e0" stroke-width="0.55" opacity="0.32"/>
+    <line x1="80" y1="266" x2="662" y2="266" stroke="#a8c0e0" stroke-width="0.55" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="370" cy="320" rx="280" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="120" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#a8c0e0" stroke-width="1.2"/>
+    <text x="54" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#a8c0e0" font-weight="700">CAPTION</text>
+    <text x="54" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#a8c0e0" font-style="italic" font-weight="700">"Nobody sleeps."</text>
+  </g>
+</svg>

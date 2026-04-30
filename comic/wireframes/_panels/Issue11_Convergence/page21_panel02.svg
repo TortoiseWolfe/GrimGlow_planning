@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 340" width="742" height="340">
+  <title>Issue 11 Page 21 Panel 2 — The city at night, sleeping, vulnerable</title>
+  <desc>Medium wide shot, tall format, through crack in brickwork. Victorian city at night — amber gaslight ribbons along cobblestone streets, dark shapes of buildings, chimneys, church spires silhouetted against starlit sky. Telegraph lines thread between buildings — dark threads barely visible against dark sky, nervous system of industrial age, sleeping, vulnerable. The city is unaware. It sleeps while its future hangs in the balance.</desc>
+  <defs>
+    <linearGradient id="bgF2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a14"/>
+      <stop offset="0.4" stop-color="#040206"/>
+      <stop offset="0.7" stop-color="#1a0a04"/>
+      <stop offset="1" stop-color="#3a1810"/>
+    </linearGradient>
+    <linearGradient id="brickFrameF2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1208"/>
+      <stop offset="0.5" stop-color="#0a0604"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <linearGradient id="cityFarF2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1828"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <linearGradient id="cityNearF2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a14"/>
+      <stop offset="0.5" stop-color="#040206"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <linearGradient id="streetGlowF2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#a85820" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="bloomF2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowF2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowF2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="340" fill="url(#bgF2)"/>
+
+  <g>
+    <rect x="0" y="0" width="40" height="340" fill="url(#brickFrameF2)"/>
+    <rect x="702" y="0" width="40" height="340" fill="url(#brickFrameF2)"/>
+    <rect x="0" y="0" width="742" height="40" fill="url(#brickFrameF2)"/>
+    <rect x="0" y="300" width="742" height="40" fill="url(#brickFrameF2)"/>
+    <g opacity="0.42" stroke="#080604" stroke-width="0.4">
+      <line x1="0" y1="20" x2="40" y2="20"/>
+      <line x1="0" y1="40" x2="40" y2="40"/>
+      <line x1="0" y1="80" x2="40" y2="80"/>
+      <line x1="0" y1="120" x2="40" y2="120"/>
+      <line x1="0" y1="160" x2="40" y2="160"/>
+      <line x1="0" y1="200" x2="40" y2="200"/>
+      <line x1="20" y1="0" x2="20" y2="340"/>
+      <line x1="702" y1="20" x2="742" y2="20"/>
+      <line x1="702" y1="60" x2="742" y2="60"/>
+      <line x1="702" y1="100" x2="742" y2="100"/>
+      <line x1="702" y1="140" x2="742" y2="140"/>
+      <line x1="702" y1="180" x2="742" y2="180"/>
+      <line x1="722" y1="0" x2="722" y2="340"/>
+      <line x1="40" y1="20" x2="702" y2="20"/>
+      <line x1="40" y1="320" x2="702" y2="320"/>
+    </g>
+  </g>
+
+  <g opacity="0.62">
+    <circle cx="60" cy="60" r="0.55" fill="#a8c0e0"/>
+    <circle cx="120" cy="50" r="0.7" fill="#a8c0e0"/>
+    <circle cx="200" cy="55" r="0.55" fill="#a8c0e0"/>
+    <circle cx="280" cy="48" r="0.85" fill="#a8c0e0"/>
+    <circle cx="360" cy="60" r="0.55" fill="#a8c0e0"/>
+    <circle cx="440" cy="48" r="0.7" fill="#a8c0e0"/>
+    <circle cx="520" cy="58" r="0.55" fill="#a8c0e0"/>
+    <circle cx="600" cy="50" r="0.85" fill="#a8c0e0"/>
+    <circle cx="680" cy="58" r="0.55" fill="#a8c0e0"/>
+  </g>
+
+  <g>
+    <path d="M 40 160 L 100 150 L 140 100 L 180 130 L 240 110 L 280 80 L 340 100 L 400 60 L 460 110 L 520 90 L 580 130 L 640 100 L 702 140 L 702 200 L 40 200 Z" fill="url(#cityFarF2)" opacity="0.85"/>
+
+    <path d="M 280 80 L 280 100 L 290 100 L 290 80 L 286 70 Z" fill="#040206"/>
+    <path d="M 400 60 L 400 90 L 410 90 L 410 60 L 405 48 Z" fill="#040206"/>
+
+    <path d="M 40 220 L 90 200 L 160 220 L 220 195 L 280 220 L 340 200 L 400 220 L 460 200 L 520 220 L 580 200 L 640 220 L 702 210 L 702 260 L 40 260 Z" fill="url(#cityNearF2)" opacity="0.92"/>
+
+    <g opacity="0.85">
+      <rect x="80" y="180" width="14" height="40" fill="#0a0a14"/>
+      <rect x="160" y="170" width="11" height="50" fill="#0a0a14"/>
+      <rect x="240" y="180" width="14" height="40" fill="#0a0a14"/>
+      <rect x="340" y="170" width="14" height="50" fill="#0a0a14"/>
+      <rect x="440" y="160" width="22" height="60" fill="#0a0a14"/>
+      <rect x="540" y="180" width="11" height="40" fill="#0a0a14"/>
+      <rect x="620" y="170" width="14" height="50" fill="#0a0a14"/>
+
+      <rect x="86" y="166" width="3" height="14" fill="#0a0a14"/>
+      <rect x="170" y="156" width="3" height="14" fill="#0a0a14"/>
+      <rect x="346" y="156" width="3" height="14" fill="#0a0a14"/>
+      <rect x="450" y="146" width="3" height="14" fill="#0a0a14"/>
+      <rect x="630" y="156" width="3" height="14" fill="#0a0a14"/>
+    </g>
+
+    <rect x="40" y="260" width="662" height="40" fill="url(#streetGlowF2)" opacity="0.62"/>
+    <g opacity="0.95">
+      <circle cx="100" cy="270" r="2.4" fill="#fff8d8"/>
+      <circle cx="180" cy="276" r="2.4" fill="#fff8d8"/>
+      <circle cx="260" cy="270" r="2.4" fill="#fff8d8"/>
+      <circle cx="340" cy="276" r="2.4" fill="#fff8d8"/>
+      <circle cx="420" cy="270" r="2.4" fill="#fff8d8"/>
+      <circle cx="500" cy="276" r="2.4" fill="#fff8d8"/>
+      <circle cx="580" cy="270" r="2.4" fill="#fff8d8"/>
+      <circle cx="660" cy="276" r="2.4" fill="#fff8d8"/>
+    </g>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowF2)">
+    <circle cx="100" cy="270" r="9" fill="#f4b860" opacity="0.62"/>
+    <circle cx="180" cy="276" r="9" fill="#f4b860" opacity="0.62"/>
+    <circle cx="260" cy="270" r="9" fill="#f4b860" opacity="0.62"/>
+    <circle cx="340" cy="276" r="9" fill="#f4b860" opacity="0.62"/>
+    <circle cx="420" cy="270" r="9" fill="#f4b860" opacity="0.62"/>
+    <circle cx="500" cy="276" r="9" fill="#f4b860" opacity="0.62"/>
+    <circle cx="580" cy="270" r="9" fill="#f4b860" opacity="0.62"/>
+    <circle cx="660" cy="276" r="9" fill="#f4b860" opacity="0.62"/>
+  </g>
+  <g opacity="0.55" filter="url(#megaGlowF2)">
+    <rect x="40" y="260" width="662" height="40" fill="#a85820" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.62" stroke="#0a0604" stroke-width="0.55">
+    <line x1="40" y1="120" x2="180" y2="100"/>
+    <line x1="180" y1="100" x2="320" y2="80"/>
+    <line x1="320" y1="80" x2="460" y2="100"/>
+    <line x1="460" y1="100" x2="600" y2="80"/>
+    <line x1="600" y1="80" x2="702" y2="120"/>
+    <line x1="40" y1="160" x2="200" y2="140"/>
+    <line x1="200" y1="140" x2="380" y2="150"/>
+    <line x1="380" y1="150" x2="540" y2="130"/>
+    <line x1="540" y1="130" x2="702" y2="150"/>
+    <line x1="40" y1="200" x2="220" y2="180"/>
+    <line x1="220" y1="180" x2="420" y2="190"/>
+    <line x1="420" y1="190" x2="600" y2="170"/>
+    <line x1="600" y1="170" x2="702" y2="190"/>
+  </g>
+
+  <g opacity="0.55" stroke="#1a2030" stroke-width="0.7">
+    <line x1="86" y1="180" x2="172" y2="170"/>
+    <line x1="172" y1="170" x2="252" y2="180"/>
+    <line x1="252" y1="180" x2="346" y2="170"/>
+    <line x1="346" y1="170" x2="448" y2="160"/>
+    <line x1="448" y1="160" x2="546" y2="180"/>
+    <line x1="546" y1="180" x2="630" y2="170"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="370" cy="324" rx="280" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+</svg>
