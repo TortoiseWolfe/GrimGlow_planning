@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 260" width="246" height="260">
+  <title>Issue 10 Page 3 Panel 2 — Luma scans, "electromagnetic anomaly"</title>
+  <desc>Close-up Luma. Holographic scanner active, sapphire-violet light playing across face. Reading environment — temp, EM signatures, air composition. Routine scanning shifts to puzzlement. Brow furrowed, lips parted slightly. Something in data doesn't match. Cracked holographic lens.</desc>
+  <defs>
+    <linearGradient id="bgO2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e0c1a"/>
+      <stop offset="0.4" stop-color="#1a182a"/>
+      <stop offset="1" stop-color="#080614"/>
+    </linearGradient>
+    <radialGradient id="violetScannerO2" cx="0.35" cy="0.55" r="0.6">
+      <stop offset="0" stop-color="#a878d0" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#5a3a78" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#080614" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="amberAmbientO2" cx="0.95" cy="0.4" r="0.4">
+      <stop offset="0" stop-color="#a87838" stop-opacity="0.4"/>
+      <stop offset="0.5" stop-color="#5a3818" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#080614" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="faceLitL_O2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a86838"/>
+      <stop offset="0.5" stop-color="#7a4830"/>
+      <stop offset="1" stop-color="#3a261a"/>
+    </linearGradient>
+    <linearGradient id="hairBlkO2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0808"/>
+      <stop offset="0.5" stop-color="#1a1414"/>
+      <stop offset="1" stop-color="#2a1818"/>
+    </linearGradient>
+    <linearGradient id="violetSuitO2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7848b8"/>
+      <stop offset="0.5" stop-color="#4a2a78"/>
+      <stop offset="1" stop-color="#1a0e2e"/>
+    </linearGradient>
+    <radialGradient id="eyePuzzleO2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#a878d0" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#a878d0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomO2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowO2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="softO2" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="246" height="260" fill="url(#bgO2)"/>
+  <rect width="246" height="260" fill="url(#amberAmbientO2)"/>
+  <rect width="246" height="260" fill="url(#violetScannerO2)"/>
+
+  <g>
+    <ellipse cx="123" cy="240" rx="120" ry="40" fill="#080614"/>
+  </g>
+
+  <g>
+    <path d="M 78 90 Q 70 110 76 134 Q 84 162 100 178 Q 122 188 146 188 Q 170 184 184 168 Q 192 144 190 110 Q 184 90 168 76 Q 144 70 122 72 Q 94 80 78 90 Z" fill="url(#faceLitL_O2)" opacity="0.95"/>
+  </g>
+
+  <g>
+    <path d="M 70 76 Q 80 60 124 56 Q 168 56 188 66 Q 200 80 198 100 L 192 110 Q 182 84 162 74 Q 130 70 102 76 Q 80 82 76 92 Z" fill="url(#hairBlkO2)"/>
+    <path d="M 124 64 Q 128 90 132 130 Q 134 170 130 200" stroke="url(#hairBlkO2)" stroke-width="13" fill="none" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowO2)">
+    <path d="M 128 64 Q 132 130 130 200" stroke="#a878d0" stroke-width="1.6" fill="none"/>
+  </g>
+
+  <g opacity="0.92" filter="url(#strongGlowO2)">
+    <rect x="98" y="100" width="42" height="34" fill="#7848b8" opacity="0.55"/>
+    <rect x="146" y="100" width="42" height="34" fill="#7848b8" opacity="0.55"/>
+  </g>
+  <g>
+    <rect x="100" y="102" width="38" height="30" rx="3" fill="none" stroke="#a878d0" stroke-width="0.7" opacity="0.92"/>
+    <rect x="148" y="102" width="38" height="30" rx="3" fill="none" stroke="#a878d0" stroke-width="0.7" opacity="0.92"/>
+    <line x1="100" y1="116" x2="138" y2="116" stroke="#a878d0" stroke-width="0.4" opacity="0.7"/>
+    <line x1="100" y1="124" x2="138" y2="124" stroke="#a878d0" stroke-width="0.4" opacity="0.7"/>
+    <line x1="148" y1="116" x2="186" y2="116" stroke="#a878d0" stroke-width="0.4" opacity="0.7"/>
+    <line x1="148" y1="124" x2="186" y2="124" stroke="#a878d0" stroke-width="0.4" opacity="0.7"/>
+    <line x1="138" y1="118" x2="148" y2="118" stroke="#c0a0e8" stroke-width="0.5" opacity="0.85"/>
+  </g>
+  <g>
+    <line x1="124" y1="100" x2="148" y2="120" stroke="#3a1a5a" stroke-width="0.7" opacity="0.7"/>
+    <path d="M 124 100 Q 128 106 130 110" stroke="#3a1a5a" stroke-width="0.4" opacity="0.6" fill="none"/>
+  </g>
+
+  <g>
+    <ellipse cx="116" cy="124" rx="9" ry="3.5" fill="#0a0604"/>
+    <ellipse cx="160" cy="122" rx="10" ry="4" fill="#0a0604"/>
+    <circle cx="116" cy="124" r="2.6" fill="#1a0e2e"/>
+    <circle cx="160" cy="122" r="2.8" fill="#1a0e2e"/>
+    <circle cx="118" cy="123" r="1.4" fill="url(#eyePuzzleO2)"/>
+    <circle cx="162" cy="121" r="1.6" fill="url(#eyePuzzleO2)"/>
+  </g>
+
+  <g stroke="#0a0604" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.92">
+    <path d="M 100 110 Q 116 100 134 108"/>
+    <path d="M 144 108 Q 160 96 180 106"/>
+  </g>
+
+  <path d="M 138 130 Q 134 152 138 168" stroke="#0a0604" stroke-width="1" fill="none" opacity="0.7"/>
+
+  <g>
+    <path d="M 130 174 Q 138 178 146 174" stroke="#0a0604" stroke-width="1" fill="none"/>
+    <path d="M 132 178 L 144 178" stroke="#3a1a14" stroke-width="0.7" opacity="0.65"/>
+  </g>
+
+  <g>
+    <path d="M 30 196 L 218 192 L 222 240 L 22 240 Z" fill="url(#violetSuitO2)"/>
+    <path d="M 60 192 L 110 196 L 140 196 L 196 192 L 196 220 L 60 220 Z" fill="#3a1a5a" opacity="0.85"/>
+    <rect x="186" y="200" width="14" height="10" rx="1" fill="#0a0810" stroke="#040408" stroke-width="0.4"/>
+  </g>
+  <g opacity="0.95" filter="url(#strongGlowO2)">
+    <ellipse cx="193" cy="205" rx="11" ry="3" fill="#a878d0"/>
+  </g>
+  <g>
+    <rect x="187" y="202" width="12" height="2" fill="#a878d0"/>
+    <rect x="187" y="206" width="8" height="2" fill="#a878d0" opacity="0.65"/>
+  </g>
+
+  <g opacity="0.85">
+    <ellipse cx="76" cy="208" rx="5" ry="1.6" fill="#0a0418"/>
+    <ellipse cx="180" cy="208" rx="5" ry="1.6" fill="#0a0418"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlowO2)">
+    <circle cx="50" cy="208" r="2.5" fill="#a878d0"/>
+    <circle cx="196" cy="208" r="2.5" fill="#a878d0"/>
+    <circle cx="120" cy="218" r="2" fill="#a878d0"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#bloomO2)">
+    <ellipse cx="123" cy="220" rx="40" ry="6" fill="#7848b8" opacity="0.6"/>
+  </g>
+
+  <g transform="translate(40,228)">
+    <rect x="-8" y="0" width="170" height="22" rx="3" fill="#f5ecd8" opacity="0.92" stroke="#c8b898" stroke-width="0.5" stroke-dasharray="3 2"/>
+    <text x="76" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#7848b8" font-weight="700">LUMA: "EM anomaly.</text>
+    <text x="76" y="19" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#2a2a2a" font-style="italic">Not telegraph current — something else."</text>
+  </g>
+</svg>

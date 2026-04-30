@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 10 Page 3 Panel 4 — Macro POV: alien component, oil-on-water iridescence</title>
+  <desc>Extreme close-up scanner-augmented POV. Modified wiring under desk. Standard telegraph cabling — copper, brass — surrounds single alien component spliced in. Organic-looking despite tech, dark iridescence veins — oil-on-water bruise-purple/black. Copper-gold scanner overlay. Material composition unknown.</desc>
+  <defs>
+    <linearGradient id="bgO4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15110a"/>
+      <stop offset="0.5" stop-color="#1a1410"/>
+      <stop offset="1" stop-color="#080604"/>
+    </linearGradient>
+    <radialGradient id="scannerOverlayO4" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#d88838" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#5a3018" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#080604" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brassConnectorO4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d090"/>
+      <stop offset="0.5" stop-color="#a87838"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="copperWireO4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d88838"/>
+      <stop offset="0.5" stop-color="#a85820"/>
+      <stop offset="1" stop-color="#5a2e10"/>
+    </linearGradient>
+    <linearGradient id="insulationO4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2010"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="alienOilSlickO4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1a0e2e"/>
+      <stop offset="0.4" stop-color="#3a1a5a"/>
+      <stop offset="0.7" stop-color="#7848b8"/>
+      <stop offset="1" stop-color="#0a0610"/>
+    </radialGradient>
+    <linearGradient id="alienVeinO4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7848b8"/>
+      <stop offset="0.5" stop-color="#a878d0"/>
+      <stop offset="1" stop-color="#3a1a5a"/>
+    </linearGradient>
+    <filter id="bloomO4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowO4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="wrongnessO4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <filter id="softO4" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bgO4)"/>
+  <rect width="366" height="240" fill="url(#scannerOverlayO4)"/>
+
+  <g opacity="0.85">
+    <line x1="0" y1="40" x2="366" y2="40" stroke="#d88838" stroke-width="0.5" stroke-dasharray="3 2"/>
+    <line x1="0" y1="200" x2="366" y2="200" stroke="#d88838" stroke-width="0.5" stroke-dasharray="3 2"/>
+    <line x1="40" y1="0" x2="40" y2="240" stroke="#d88838" stroke-width="0.5" stroke-dasharray="3 2"/>
+    <line x1="326" y1="0" x2="326" y2="240" stroke="#d88838" stroke-width="0.5" stroke-dasharray="3 2"/>
+    <text x="48" y="52" font-family="Courier New, monospace" font-size="3.6" fill="#f4d090">SCAN OVERLAY</text>
+    <text x="48" y="194" font-family="Courier New, monospace" font-size="3.6" fill="#f4d090">MAT.SIG: UNKNOWN</text>
+    <text x="290" y="52" font-family="Courier New, monospace" font-size="3.6" fill="#f4d090">EN.SIG:?</text>
+    <text x="48" y="64" font-family="Courier New, monospace" font-size="3.4" fill="#a87838">x:0.041 y:0.022</text>
+    <text x="290" y="64" font-family="Courier New, monospace" font-size="3.4" fill="#a87838">[NULL]</text>
+  </g>
+
+  <g>
+    <path d="M 0 100 Q 80 90 160 110 Q 220 124 280 100 Q 320 90 366 100 L 366 130 Q 320 122 280 130 Q 220 154 160 138 Q 80 120 0 132 Z" fill="url(#insulationO4)"/>
+    <path d="M 0 110 Q 80 100 160 118" stroke="url(#copperWireO4)" stroke-width="2.5" fill="none" opacity="0.85"/>
+    <path d="M 220 132 Q 280 110 366 116" stroke="url(#copperWireO4)" stroke-width="2.5" fill="none" opacity="0.85"/>
+    <path d="M 0 120 Q 60 116 110 122" stroke="url(#copperWireO4)" stroke-width="1.8" fill="none" opacity="0.7"/>
+    <path d="M 240 124 Q 290 116 366 122" stroke="url(#copperWireO4)" stroke-width="1.8" fill="none" opacity="0.7"/>
+  </g>
+
+  <g>
+    <rect x="40" y="100" width="22" height="36" fill="url(#brassConnectorO4)" stroke="#5a3818" stroke-width="0.5"/>
+    <line x1="40" y1="118" x2="62" y2="118" stroke="#5a3818" stroke-width="0.4"/>
+    <circle cx="51" cy="118" r="2" fill="#5a3818"/>
+
+    <rect x="306" y="100" width="22" height="36" fill="url(#brassConnectorO4)" stroke="#5a3818" stroke-width="0.5"/>
+    <line x1="306" y1="118" x2="328" y2="118" stroke="#5a3818" stroke-width="0.4"/>
+    <circle cx="317" cy="118" r="2" fill="#5a3818"/>
+
+    <rect x="80" y="80" width="20" height="22" fill="url(#brassConnectorO4)" stroke="#5a3818" stroke-width="0.4" opacity="0.85"/>
+    <rect x="266" y="84" width="22" height="20" fill="url(#brassConnectorO4)" stroke="#5a3818" stroke-width="0.4" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#wrongnessO4)">
+    <ellipse cx="183" cy="120" rx="44" ry="32" fill="#7848b8"/>
+  </g>
+
+  <g>
+    <path d="M 158 96 L 178 88 L 200 92 L 214 104 L 218 124 L 210 144 L 188 152 L 168 148 L 154 134 L 150 118 Z" fill="url(#alienOilSlickO4)"/>
+
+    <path d="M 162 102 Q 178 110 184 124 Q 190 138 206 144" stroke="url(#alienVeinO4)" stroke-width="0.7" fill="none" opacity="0.85"/>
+    <path d="M 178 90 Q 188 110 196 130 Q 200 144 208 148" stroke="url(#alienVeinO4)" stroke-width="0.6" fill="none" opacity="0.85"/>
+    <path d="M 200 94 Q 192 116 188 134 Q 184 146 178 150" stroke="url(#alienVeinO4)" stroke-width="0.6" fill="none" opacity="0.85"/>
+    <path d="M 154 130 Q 170 132 184 130 Q 196 128 214 124" stroke="url(#alienVeinO4)" stroke-width="0.5" fill="none" opacity="0.7"/>
+
+    <ellipse cx="184" cy="118" rx="6" ry="4" fill="#1a0e2e" opacity="0.95"/>
+    <ellipse cx="184" cy="118" rx="3" ry="2" fill="#3a1a5a"/>
+    <circle cx="184" cy="116" r="0.7" fill="#a878d0" opacity="0.85"/>
+  </g>
+
+  <g opacity="0.65" filter="url(#wrongnessO4)">
+    <path d="M 158 96 L 218 124" stroke="#a878d0" stroke-width="2" fill="none" opacity="0.4"/>
+    <path d="M 200 92 L 168 148" stroke="#a878d0" stroke-width="2" fill="none" opacity="0.4"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="158" y1="96" x2="100" y2="80" stroke="#040408" stroke-width="0.5"/>
+    <line x1="200" y1="92" x2="266" y2="86" stroke="#040408" stroke-width="0.5"/>
+    <line x1="218" y1="124" x2="306" y2="120" stroke="#040408" stroke-width="0.5"/>
+    <line x1="150" y1="118" x2="62" y2="118" stroke="#040408" stroke-width="0.5"/>
+    <line x1="210" y1="144" x2="280" y2="160" stroke="#040408" stroke-width="0.5"/>
+  </g>
+
+  <g opacity="0.85">
+    <ellipse cx="183" cy="124" rx="60" ry="44" fill="none" stroke="#f4d090" stroke-width="0.6" stroke-dasharray="3 3"/>
+    <line x1="200" y1="84" x2="244" y2="60" stroke="#f4d090" stroke-width="0.5" stroke-dasharray="2 2"/>
+    <text x="246" y="58" font-family="Courier New, monospace" font-size="3.6" fill="#f4d090">UNKNOWN COMPOSITION</text>
+    <text x="246" y="68" font-family="Courier New, monospace" font-size="3.4" fill="#a87838">[FLAG: ALIEN]</text>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="220" height="22" rx="3" fill="#f5ecd8" opacity="0.92" stroke="#c8b898" stroke-width="0.5"/>
+    <text x="100" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.6" fill="#a85820" font-weight="700">WREN: "Material signature unknown.</text>
+    <text x="100" y="19" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#2a2a2a" font-style="italic">Not Victorian. Not ours."</text>
+  </g>
+
+  <g transform="translate(20,210)">
+    <rect x="-8" y="0" width="280" height="22" rx="3" fill="#f5ecd8" opacity="0.92" stroke="#c8b898" stroke-width="0.5" stroke-dasharray="3 2"/>
+    <text x="120" y="13" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#7848b8" font-weight="700">LUMA: "Anomaly spiking. Not just this machine."</text>
+  </g>
+</svg>
