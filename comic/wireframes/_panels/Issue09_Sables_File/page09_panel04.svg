@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 9 Page 9 Panel 4 — Jink's fury complicated by understanding, "you don't even have the answer"</title>
+  <desc>Close-up Jink. Fury held in tension with unwilling thought. Jaw still set from anger but eyes shifted from pure accusation to something more complex. Processing betrayal and mission simultaneously. Emerald nodes pulse at collar.</desc>
+  <defs>
+    <linearGradient id="bg94" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0e18"/>
+      <stop offset="0.5" stop-color="#161a28"/>
+      <stop offset="1" stop-color="#080a14"/>
+    </linearGradient>
+    <radialGradient id="holoJ94" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#3a4858" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#080a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="faceLitJ94" x1="0" y1="0" x2="0.7" y2="0.5">
+      <stop offset="0" stop-color="#3a261a"/>
+      <stop offset="0.5" stop-color="#7a4830"/>
+      <stop offset="1" stop-color="#a86838"/>
+    </linearGradient>
+    <linearGradient id="hairGold94" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d040"/>
+      <stop offset="0.4" stop-color="#d8b020"/>
+      <stop offset="1" stop-color="#7a5810"/>
+    </linearGradient>
+    <linearGradient id="emeraldS94" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#2e7048"/>
+      <stop offset="1" stop-color="#142e1f"/>
+    </linearGradient>
+    <radialGradient id="eyeJ94" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#a8c0e0" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#a8c0e0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloom94" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlow94" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.5"/>
+    </filter>
+    <filter id="soft94" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#bg94)"/>
+  <rect width="366" height="240" fill="url(#holoJ94)"/>
+
+  <g opacity="0.5" filter="url(#soft94)">
+    <path d="M 0 0 L 50 0 L 40 240 L 0 240 Z" fill="#0a0a10"/>
+    <path d="M 316 0 L 366 0 L 366 240 L 326 240 Z" fill="#0a0a10"/>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="220" rx="170" ry="40" fill="#0a0a10"/>
+  </g>
+
+  <g>
+    <path d="M 116 90 Q 110 110 116 134 Q 124 162 138 178 Q 156 188 180 188 Q 206 184 222 168 Q 232 144 230 110 Q 224 90 208 76 Q 184 70 162 72 Q 134 80 116 90 Z" fill="url(#faceLitJ94)" opacity="0.95"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlow94)">
+    <ellipse cx="170" cy="62" rx="50" ry="30" fill="#d8b020"/>
+    <ellipse cx="218" cy="58" rx="40" ry="26" fill="#d8b020"/>
+  </g>
+  <g>
+    <path d="M 90 80 Q 100 50 130 38 Q 160 30 190 32 Q 220 34 248 50 Q 268 66 264 90 L 240 96 Q 252 70 220 56 Q 188 50 158 56 Q 132 64 116 86 Z" fill="url(#hairGold94)"/>
+    <ellipse cx="92" cy="74" rx="14" ry="18" fill="url(#hairGold94)" transform="rotate(-25 92 74)"/>
+    <ellipse cx="270" cy="80" rx="12" ry="16" fill="url(#hairGold94)" transform="rotate(20 270 80)"/>
+    <ellipse cx="118" cy="46" rx="10" ry="8" fill="url(#hairGold94)" transform="rotate(-30 118 46)"/>
+    <ellipse cx="240" cy="42" rx="10" ry="8" fill="url(#hairGold94)" transform="rotate(30 240 42)"/>
+    <ellipse cx="174" cy="34" rx="14" ry="9" fill="url(#hairGold94)"/>
+  </g>
+
+  <g>
+    <ellipse cx="156" cy="124" rx="9" ry="4" fill="#0a0604"/>
+    <ellipse cx="200" cy="122" rx="10" ry="4.5" fill="#0a0604"/>
+    <circle cx="156" cy="124" r="3" fill="#1a3658"/>
+    <circle cx="200" cy="122" r="3.4" fill="#1a3658"/>
+    <circle cx="158" cy="123" r="1.4" fill="url(#eyeJ94)"/>
+    <circle cx="202" cy="121" r="1.6" fill="url(#eyeJ94)"/>
+  </g>
+
+  <g stroke="#5a3818" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M 138 114 Q 156 108 174 114"/>
+    <path d="M 182 112 Q 200 106 220 114"/>
+  </g>
+
+  <path d="M 178 130 Q 174 152 178 168" stroke="#0a0604" stroke-width="1" fill="none" opacity="0.7"/>
+
+  <g>
+    <path d="M 152 178 L 200 178" stroke="#0a0604" stroke-width="1.5"/>
+    <path d="M 158 174 Q 178 180 196 174" stroke="#0a0604" stroke-width="0.7" fill="none" opacity="0.6"/>
+  </g>
+
+  <g>
+    <path d="M 80 196 L 286 192 L 286 240 L 80 240 Z" fill="url(#emeraldS94)"/>
+    <path d="M 110 192 L 160 196 L 200 196 L 250 192 L 250 220 L 110 220 Z" fill="#1f4a30"/>
+    <path d="M 100 196 L 116 200 L 112 220 L 96 218 Z" fill="#142e1f" stroke="#3a2818" stroke-width="0.5"/>
+    <path d="M 100 200 L 114 218" stroke="#142e1f" stroke-width="0.7"/>
+    <path d="M 112 200 L 98 218" stroke="#142e1f" stroke-width="0.7"/>
+  </g>
+
+  <g opacity="0.85">
+    <ellipse cx="124" cy="206" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="240" cy="206" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="184" cy="200" rx="4" ry="1.5" fill="#0a0604"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlow94)">
+    <circle cx="100" cy="206" r="3" fill="#3aa868"/>
+    <circle cx="266" cy="206" r="3" fill="#3aa868"/>
+    <circle cx="184" cy="216" r="2.5" fill="#3aa868"/>
+  </g>
+
+  <g opacity="0.6">
+    <line x1="100" y1="80" x2="266" y2="80" stroke="#88a0c8" stroke-width="0.3"/>
+    <line x1="100" y1="160" x2="266" y2="160" stroke="#88a0c8" stroke-width="0.3"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="118" y="116" width="42" height="2" fill="#5878a8"/>
+    <rect x="194" y="118" width="42" height="2" fill="#5878a8"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#bloom94)">
+    <ellipse cx="183" cy="208" rx="50" ry="6" fill="#5878a8"/>
+  </g>
+</svg>
