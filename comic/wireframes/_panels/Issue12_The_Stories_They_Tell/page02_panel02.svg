@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 280" width="247" height="280">
+  <title>Issue 12 Page 2 Panel 2 — Sable's hands on the tactical display</title>
+  <desc>Close-up tight framing on two hands manipulating holographic tactical display — miniature 3D map of Victorian city floating between fingers, squad positions as colored geometric dots — emerald, copper-gold, crimson, blue-violet, blue-white — and device locations as amber-black pulsing markers. Hands wear metallic silver suit at maximum degradation — pewter-dark with soot, cracked at knuckles, hairline fractures glowing faint blue-white at seams. Fingers move with precision, adjusting timing indicators. Blue-white holographic light illuminates damaged gloves.</desc>
+  <defs>
+    <linearGradient id="bgJ2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4858"/>
+      <stop offset="0.5" stop-color="#1a2030"/>
+      <stop offset="1" stop-color="#0a0a14"/>
+    </linearGradient>
+    <radialGradient id="holoTacticalJ2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#5a78a8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gloveSilverJ2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6878"/>
+      <stop offset="0.4" stop-color="#3a4858"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="cityMapJ2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#5a78a8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#1a2030" stop-opacity="0.32"/>
+    </linearGradient>
+    <filter id="bloomJ2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <filter id="strongGlowJ2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowJ2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="247" height="280" fill="url(#bgJ2)"/>
+  <rect width="247" height="280" fill="url(#holoTacticalJ2)"/>
+
+  <g>
+    <path d="M -10 280 L -10 200 Q 20 180 60 178 L 100 178 L 110 196 L 116 220 L 110 260 L 100 270 Z" fill="url(#gloveSilverJ2)"/>
+    <ellipse cx="60" cy="184" rx="18" ry="11" fill="url(#gloveSilverJ2)"/>
+    <ellipse cx="80" cy="186" rx="14" ry="9" fill="url(#gloveSilverJ2)"/>
+    <ellipse cx="98" cy="190" rx="11" ry="6" fill="url(#gloveSilverJ2)"/>
+
+    <path d="M 257 280 L 257 200 Q 227 180 187 178 L 147 178 L 137 196 L 131 220 L 137 260 L 147 270 Z" fill="url(#gloveSilverJ2)"/>
+    <ellipse cx="187" cy="184" rx="18" ry="11" fill="url(#gloveSilverJ2)"/>
+    <ellipse cx="167" cy="186" rx="14" ry="9" fill="url(#gloveSilverJ2)"/>
+    <ellipse cx="149" cy="190" rx="11" ry="6" fill="url(#gloveSilverJ2)"/>
+
+    <path d="M 14 220 L 30 222 L 40 228 L 32 224 Z M 60 240 L 76 244 L 90 252 L 70 246 Z" fill="#1a1810" opacity="0.85"/>
+    <path d="M 217 220 L 233 222 L 243 228 L 235 224 Z M 167 240 L 183 244 L 197 252 L 177 246 Z" fill="#1a1810" opacity="0.85"/>
+
+    <line x1="40" y1="200" x2="100" y2="200" stroke="#fff8d8" stroke-width="0.4" opacity="0.62"/>
+    <line x1="40" y1="220" x2="100" y2="220" stroke="#fff8d8" stroke-width="0.4" opacity="0.55"/>
+    <line x1="40" y1="240" x2="100" y2="240" stroke="#fff8d8" stroke-width="0.4" opacity="0.42"/>
+    <line x1="147" y1="200" x2="207" y2="200" stroke="#fff8d8" stroke-width="0.4" opacity="0.62"/>
+    <line x1="147" y1="220" x2="207" y2="220" stroke="#fff8d8" stroke-width="0.4" opacity="0.55"/>
+    <line x1="147" y1="240" x2="207" y2="240" stroke="#fff8d8" stroke-width="0.4" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="123" cy="120" rx="100" ry="22" fill="url(#cityMapJ2)" opacity="0.85"/>
+    <ellipse cx="123" cy="120" rx="80" ry="18" fill="none" stroke="#a8c0e0" stroke-width="0.55" opacity="0.62"/>
+
+    <g opacity="0.85" stroke="#5a78a8" stroke-width="0.4" fill="none">
+      <path d="M 50 110 L 196 110"/>
+      <path d="M 50 120 L 196 120"/>
+      <path d="M 50 130 L 196 130"/>
+      <path d="M 70 100 L 70 140"/>
+      <path d="M 100 100 L 100 140"/>
+      <path d="M 130 100 L 130 140"/>
+      <path d="M 160 100 L 160 140"/>
+      <path d="M 190 100 L 190 140"/>
+    </g>
+
+    <circle cx="80" cy="106" r="2.4" fill="#3a8858"/>
+    <circle cx="106" cy="116" r="2.4" fill="#d88838"/>
+    <circle cx="146" cy="124" r="2.4" fill="#d83838"/>
+    <circle cx="170" cy="120" r="2.4" fill="#a878d8"/>
+    <circle cx="123" cy="116" r="2.4" fill="#a8c0e0"/>
+
+    <rect x="78" y="118" width="3" height="3" fill="#a85020" opacity="0.85"/>
+    <rect x="106" y="128" width="3" height="3" fill="#a85020" opacity="0.85"/>
+    <rect x="148" y="128" width="3" height="3" fill="#a85020" opacity="0.85"/>
+    <rect x="170" y="130" width="3" height="3" fill="#a85020" opacity="0.85"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowJ2)">
+    <ellipse cx="123" cy="120" rx="80" ry="22" fill="#a8c0e0" opacity="0.42"/>
+    <circle cx="80" cy="106" r="6" fill="#3a8858" opacity="0.62"/>
+    <circle cx="106" cy="116" r="6" fill="#d88838" opacity="0.62"/>
+    <circle cx="146" cy="124" r="6" fill="#d83838" opacity="0.62"/>
+    <circle cx="170" cy="120" r="6" fill="#a878d8" opacity="0.62"/>
+    <circle cx="123" cy="116" r="6" fill="#a8c0e0" opacity="0.62"/>
+  </g>
+  <g opacity="0.55" filter="url(#megaGlowJ2)">
+    <ellipse cx="123" cy="120" rx="120" ry="40" fill="#5a78a8" opacity="0.42"/>
+  </g>
+
+  <g>
+    <line x1="60" y1="174" x2="80" y2="138" stroke="#a8c0e0" stroke-width="0.4" opacity="0.42" stroke-dasharray="1,1"/>
+    <line x1="187" y1="174" x2="170" y2="138" stroke="#a8c0e0" stroke-width="0.4" opacity="0.42" stroke-dasharray="1,1"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomJ2)">
+    <ellipse cx="123" cy="200" rx="120" ry="32" fill="#a8c0e0" opacity="0.22"/>
+  </g>
+
+  <g transform="translate(8,8)">
+    <rect x="-4" y="0" width="220" height="28" rx="3" fill="#1a1828" opacity="0.95" stroke="#a8c0e0" stroke-width="1.2"/>
+    <text x="106" y="9" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#a8c0e0" font-weight="700">SABLE: "Sync window in six minutes."</text>
+    <text x="106" y="17" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#a8c0e0" font-style="italic">"Hold positions. Neutralize on my mark."</text>
+    <text x="106" y="25" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#7848b8" font-weight="700">LUMA: "Medic confirms. Monitoring."</text>
+  </g>
+</svg>
