@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 12 Page 18 Panel 2 — Thresh's response, "I don't want to stay. I'll stay."</title>
+  <desc>Medium shot. Tiny figure in maximum-degradation crimson armor stands in holographic constellation, looking at her own scarred hands — dented gauntlets, gouged vambrace, hands that shook and held the weapon anyway. Pale skin, copper-red buzz cut. Face of someone who has lived with fear for twelve issues and is choosing to keep living with it. Blue-violet constellation light on crimson armor creates purple-red interference pattern across dented plates. Hardest kind of courage — not adrenaline of combat but quiet decision to endure. The soldier who will stay afraid.</desc>
+  <defs>
+    <linearGradient id="bgCC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2868"/>
+      <stop offset="0.4" stop-color="#1a0810"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="violetEnvelopeCC2" cx="0.5" cy="0.5" r="0.62">
+      <stop offset="0" stop-color="#a878d8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#7848b8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="armorCrimsonCC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a83838"/>
+      <stop offset="0.4" stop-color="#7a2530"/>
+      <stop offset="0.8" stop-color="#3a1820"/>
+      <stop offset="1" stop-color="#1a0810"/>
+    </linearGradient>
+    <linearGradient id="purpleRedInterCC2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7848b8" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#a83838" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#7848b8" stop-opacity="0.62"/>
+    </linearGradient>
+    <linearGradient id="hairBuzzCC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85020"/>
+      <stop offset="0.5" stop-color="#7a3018"/>
+      <stop offset="1" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="skinThreshCC2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#d8b888"/>
+      <stop offset="0.8" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="threadFaintCC2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a878d8" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#fff8d8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#a878d8" stop-opacity="0.42"/>
+    </linearGradient>
+    <filter id="bloomCC2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowCC2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowCC2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#bgCC2)"/>
+  <rect width="366" height="280" fill="url(#violetEnvelopeCC2)"/>
+
+  <g opacity="0.42" stroke="url(#threadFaintCC2)" stroke-width="0.4" fill="none">
+    <path d="M 30 60 Q 100 80 183 100"/>
+    <path d="M 336 60 Q 270 80 183 100"/>
+    <path d="M 30 220 Q 100 200 183 220"/>
+    <path d="M 336 220 Q 270 200 183 220"/>
+    <line x1="80" y1="40" x2="183" y2="120"/>
+    <line x1="286" y1="40" x2="183" y2="120"/>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="240" rx="40" ry="6" fill="#040202" opacity="0.62"/>
+
+    <ellipse cx="183" cy="180" rx="40" ry="50" fill="url(#armorCrimsonCC2)"/>
+    <path d="M 143 140 L 223 140 L 226 240 L 140 240 Z" fill="url(#armorCrimsonCC2)"/>
+
+    <path d="M 143 144 L 158 140 L 156 156 L 140 158 Z" fill="#1a0810" opacity="0.85"/>
+    <path d="M 213 158 L 223 156 L 221 168 L 211 170 Z" fill="#1a0810" opacity="0.85"/>
+    <path d="M 175 184 L 191 184 L 188 196 L 174 196 Z" fill="#1a0810" opacity="0.85"/>
+    <path d="M 156 220 L 170 218 L 168 230 L 154 230 Z" fill="#1a0810" opacity="0.85"/>
+
+    <line x1="143" y1="148" x2="223" y2="148" stroke="url(#purpleRedInterCC2)" stroke-width="2" opacity="0.95"/>
+    <line x1="140" y1="200" x2="226" y2="200" stroke="url(#purpleRedInterCC2)" stroke-width="2" opacity="0.95"/>
+    <line x1="140" y1="240" x2="226" y2="240" stroke="url(#purpleRedInterCC2)" stroke-width="1.4" opacity="0.85"/>
+    <line x1="170" y1="140" x2="170" y2="240" stroke="url(#purpleRedInterCC2)" stroke-width="0.85" opacity="0.85"/>
+    <line x1="196" y1="140" x2="196" y2="240" stroke="url(#purpleRedInterCC2)" stroke-width="0.85" opacity="0.85"/>
+
+    <ellipse cx="183" cy="100" rx="22" ry="26" fill="url(#skinThreshCC2)"/>
+    <path d="M 161 86 Q 183 64 205 86 Q 205 96 205 100 L 161 100 Q 161 96 161 86 Z" fill="url(#hairBuzzCC2)"/>
+    <g opacity="0.7" stroke="#3a1808" stroke-width="0.4">
+      <line x1="167" y1="76" x2="167" y2="94"/>
+      <line x1="175" y1="74" x2="175" y2="94"/>
+      <line x1="183" y1="72" x2="183" y2="94"/>
+      <line x1="191" y1="74" x2="191" y2="94"/>
+      <line x1="199" y1="76" x2="199" y2="94"/>
+    </g>
+
+    <ellipse cx="175" cy="104" rx="2.4" ry="3" fill="#0a0604"/>
+    <circle cx="176" cy="103" r="0.7" fill="#a878d8"/>
+    <ellipse cx="191" cy="104" rx="2.4" ry="3" fill="#0a0604"/>
+    <circle cx="192" cy="103" r="0.7" fill="#a878d8"/>
+
+    <path d="M 169 100 Q 175 98 181 100" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M 185 100 Q 191 98 197 100" stroke="#0a0604" stroke-width="0.85" fill="none"/>
+    <path d="M 175 122 Q 183 124 191 122" stroke="#1a0a08" stroke-width="0.85" fill="none"/>
+
+    <path d="M 140 200 L 110 200 L 100 196" stroke="url(#armorCrimsonCC2)" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M 226 200 L 256 200 L 266 196" stroke="url(#armorCrimsonCC2)" stroke-width="11" fill="none" stroke-linecap="round"/>
+
+    <path d="M 88 192 L 110 196 L 116 204 L 110 212 L 88 212 L 80 204 Z" fill="url(#skinThreshCC2)"/>
+    <line x1="88" y1="200" x2="116" y2="204" stroke="#7a4830" stroke-width="0.4" opacity="0.62"/>
+    <ellipse cx="98" cy="208" rx="3" ry="2" fill="#5a3018" opacity="0.55"/>
+
+    <path d="M 278 192 L 256 196 L 250 204 L 256 212 L 278 212 L 286 204 Z" fill="url(#skinThreshCC2)"/>
+    <line x1="278" y1="200" x2="250" y2="204" stroke="#7a4830" stroke-width="0.4" opacity="0.62"/>
+    <ellipse cx="268" cy="208" rx="3" ry="2" fill="#5a3018" opacity="0.55"/>
+
+    <line x1="80" y1="204" x2="116" y2="204" stroke="url(#purpleRedInterCC2)" stroke-width="0.55" opacity="0.62"/>
+    <line x1="250" y1="204" x2="286" y2="204" stroke="url(#purpleRedInterCC2)" stroke-width="0.55" opacity="0.62"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowCC2)">
+    <ellipse cx="183" cy="180" rx="50" ry="60" fill="#a83838" opacity="0.42"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowCC2)">
+    <ellipse cx="183" cy="180" rx="80" ry="80" fill="#7848b8" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="183" cy="260" rx="120" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="320" height="34" rx="3" fill="#1a1828" opacity="0.95" stroke="#8a2520" stroke-width="1.2"/>
+    <text x="156" y="14" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#d83838" font-weight="700">THRESH: "I don't want to stay."</text>
+    <text x="156" y="22" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#d83838" font-style="italic">(A beat.)</text>
+    <text x="156" y="30" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#d83838" font-weight="700">"I'll stay."</text>
+  </g>
+</svg>
