@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 280" width="247" height="280">
+  <title>Issue 12 Page 21 Panel 4 — The pen on paper, "wings like dragonflies made of coloured fire"</title>
+  <desc>Close-up. Boy's right hand holds steel-nib pen, nib touching journal page, ink glistening on fingertips. On cream-colored page, partially visible in careful handwriting, beginning of a story — words legible: beings of light no taller than my hand, with wings like dragonflies made of coloured fire. His left hand steadies page — brass gear ring on index finger, oil stains on knuckles, burn scar. Candlelight on page — ink glistening wet, paper warm gold. At edge of frame, faintest holographic trace — dying emitter's last glow reflected on inkwell. The first fairy tale.</desc>
+  <defs>
+    <linearGradient id="bgLL4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3018"/>
+      <stop offset="0.5" stop-color="#3a1810"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <radialGradient id="candleOnPageLL4" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paperGoldLL4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.5" stop-color="#f4e8c8"/>
+      <stop offset="1" stop-color="#a87858"/>
+    </linearGradient>
+    <linearGradient id="skinHandLL4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#d8a878"/>
+      <stop offset="0.8" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="penSteelLL4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1018"/>
+      <stop offset="0.4" stop-color="#3a2230"/>
+      <stop offset="0.8" stop-color="#a87838"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="brassRingLL4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#5a2e10"/>
+    </linearGradient>
+    <radialGradient id="inkwellTraceLL4" cx="0.92" cy="0.05" r="0.18">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#a878d8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomLL4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowLL4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <filter id="megaGlowLL4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="247" height="280" fill="url(#bgLL4)"/>
+  <rect width="247" height="280" fill="url(#candleOnPageLL4)"/>
+  <rect width="247" height="280" fill="url(#inkwellTraceLL4)"/>
+
+  <g>
+    <rect x="0" y="40" width="247" height="240" fill="url(#paperGoldLL4)"/>
+    <rect x="0" y="40" width="247" height="3" fill="#a87858" opacity="0.42"/>
+    <line x1="14" y1="40" x2="14" y2="280" stroke="#a87858" stroke-width="0.55" opacity="0.42"/>
+
+    <g opacity="0.85" font-family="Times New Roman, Georgia, serif" font-size="6" fill="#1a0a04" font-style="italic">
+      <text x="20" y="58">I shall set down here what I have seen,</text>
+      <text x="20" y="72">though no man may believe me.</text>
+      <text x="20" y="92">There were beings of light, no taller</text>
+      <text x="20" y="106">than my hand, with wings like</text>
+      <text x="20" y="120">dragonflies made of coloured fire.</text>
+      <text x="20" y="140">They fell from the sky in winter,</text>
+      <text x="20" y="154">and where they landed, the cobble-</text>
+      <text x="20" y="168">stones glowed for a moment in</text>
+      <text x="20" y="182">colours not of this world.</text>
+      <text x="20" y="202">The first I met was the scout,</text>
+      <text x="20" y="216">who laughed and called me</text>
+    </g>
+
+    <g opacity="0.62" stroke="#3a2010" stroke-width="0.4">
+      <line x1="20" y1="230" x2="200" y2="230"/>
+      <line x1="20" y1="244" x2="180" y2="244"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="200" cy="240" rx="14" ry="3" fill="#5a2810" opacity="0.62"/>
+
+    <path d="M 160 240 Q 180 230 210 234 L 240 240 L 240 280 L 160 280 Z" fill="url(#skinHandLL4)"/>
+
+    <ellipse cx="190" cy="246" rx="6" ry="3" fill="#7a4830" opacity="0.42"/>
+    <path d="M 200 240 L 210 232 L 218 240" fill="#a85820" opacity="0.62"/>
+
+    <ellipse cx="170" cy="260" rx="3" ry="2" fill="url(#brassRingLL4)"/>
+    <ellipse cx="170" cy="260" rx="2" ry="1.4" fill="#3a1a08"/>
+
+    <ellipse cx="100" cy="240" rx="11" ry="3" fill="#5a2810" opacity="0.55"/>
+    <path d="M 60 230 Q 90 224 130 230 L 130 280 L 60 280 Z" fill="url(#skinHandLL4)" opacity="0.85"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomLL4)">
+    <ellipse cx="170" cy="260" rx="6" ry="3" fill="#fff8d8" opacity="0.55"/>
+  </g>
+
+  <g>
+    <line x1="50" y1="200" x2="120" y2="232" stroke="url(#penSteelLL4)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="50" cy="200" rx="3" ry="2" fill="#a87838" transform="rotate(-25 50 200)"/>
+    <line x1="48" y1="198" x2="58" y2="206" stroke="#1a0a04" stroke-width="0.85"/>
+
+    <ellipse cx="50" cy="202" rx="2" ry="1" fill="#080404"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomLL4)">
+    <ellipse cx="120" cy="232" rx="6" ry="3" fill="#fff8d8" opacity="0.55"/>
+  </g>
+
+  <g>
+    <path d="M 16 120 L 36 116 L 38 130 L 18 134 Z" fill="#080404" opacity="0.42"/>
+
+    <text x="20" y="130" font-family="Times New Roman, Georgia, serif" font-size="6" fill="#080404" font-weight="700" font-style="italic" opacity="0.62">dragonflies made of coloured fire</text>
+  </g>
+
+  <g>
+    <rect x="200" y="0" width="40" height="50" fill="#1a0a04"/>
+    <ellipse cx="220" cy="40" rx="20" ry="6" fill="#3a1810"/>
+    <ellipse cx="220" cy="38" rx="14" ry="3" fill="#080404"/>
+  </g>
+  <g opacity="0.42" filter="url(#bloomLL4)">
+    <ellipse cx="220" cy="38" rx="22" ry="9" fill="#a8c0e0" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#strongGlowLL4)">
+    <ellipse cx="123" cy="140" rx="100" ry="60" fill="#fff8d8" opacity="0.32"/>
+  </g>
+  <g opacity="0.42" filter="url(#megaGlowLL4)">
+    <ellipse cx="123" cy="140" rx="160" ry="100" fill="#f4b860" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="123" cy="270" rx="100" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+</svg>
