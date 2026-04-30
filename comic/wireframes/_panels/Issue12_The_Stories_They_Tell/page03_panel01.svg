@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 240" width="494" height="240">
+  <title>Issue 12 Page 3 Panel 1 — Wren at Station Bravo, "Device located. Going to take the full window."</title>
+  <desc>Wide interior shot from slightly elevated angle. Victorian telegraph relay station in pre-dawn dimness — brass telegraph machines on heavy wooden desks, cable runs along walls and ceiling, wall-mounted junction cabinet with access panel ajar revealing dense copper wiring and relay mechanisms. Space unoccupied, grey dawn light through dirty windows. On edge of open junction cabinet, tiny figure crouches, copper-gold holographic tools orbiting her hands. Embedded among relay coils, Titan device pulses sickly amber-black — wrong, dark counterpoint to clean copper-gold tools.</desc>
+  <defs>
+    <linearGradient id="bgK1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a0a04"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="windowGreyK1" cx="0.15" cy="0.3" r="0.4">
+      <stop offset="0" stop-color="#5a6878" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#3a4858" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="copperGoldK1" cx="0.7" cy="0.55" r="0.32">
+      <stop offset="0" stop-color="#d88838" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floorK1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a0a04"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="deskBrassK1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4818"/>
+      <stop offset="0.5" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="machineK1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87838"/>
+      <stop offset="0.4" stop-color="#7a4818"/>
+      <stop offset="1" stop-color="#3a1808"/>
+    </linearGradient>
+    <linearGradient id="cabinetK1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a0a04"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="titanPulseK1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a85020" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#3a1810" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#080404" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomK1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowK1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowK1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="wrongnessK1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+  </defs>
+
+  <rect width="494" height="240" fill="url(#bgK1)"/>
+  <rect width="494" height="240" fill="url(#windowGreyK1)"/>
+  <rect width="494" height="240" fill="url(#copperGoldK1)"/>
+
+  <g>
+    <rect x="20" y="20" width="80" height="100" fill="#1a2030" opacity="0.85"/>
+    <line x1="60" y1="20" x2="60" y2="120" stroke="#1a0a04" stroke-width="0.85"/>
+    <line x1="20" y1="70" x2="100" y2="70" stroke="#1a0a04" stroke-width="0.85"/>
+    <g opacity="0.85">
+      <rect x="22" y="22" width="36" height="46" fill="#5a6878" opacity="0.62"/>
+      <rect x="62" y="22" width="36" height="46" fill="#5a6878" opacity="0.62"/>
+      <rect x="22" y="72" width="36" height="46" fill="#5a6878" opacity="0.62"/>
+      <rect x="62" y="72" width="36" height="46" fill="#5a6878" opacity="0.62"/>
+    </g>
+    <g opacity="0.55">
+      <line x1="22" y1="40" x2="58" y2="32" stroke="#3a4858" stroke-width="0.4"/>
+      <line x1="62" y1="40" x2="98" y2="32" stroke="#3a4858" stroke-width="0.4"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="0" y="160" width="494" height="80" fill="url(#floorK1)"/>
+    <line x1="0" y1="166" x2="494" y2="166" stroke="#080404" stroke-width="0.85"/>
+    <g opacity="0.55" stroke="#080404" stroke-width="0.4">
+      <line x1="80" y1="166" x2="80" y2="240"/>
+      <line x1="200" y1="166" x2="200" y2="240"/>
+      <line x1="340" y1="166" x2="340" y2="240"/>
+      <line x1="440" y1="166" x2="440" y2="240"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="40" y="120" width="180" height="40" fill="url(#deskBrassK1)"/>
+    <rect x="40" y="120" width="180" height="6" fill="#9a6028" opacity="0.7"/>
+
+    <rect x="60" y="100" width="40" height="20" rx="3" fill="url(#machineK1)"/>
+    <rect x="64" y="104" width="32" height="12" fill="#5a3018" opacity="0.85"/>
+    <circle cx="70" cy="110" r="2" fill="#3a1808"/>
+    <circle cx="80" cy="110" r="2" fill="#3a1808"/>
+    <circle cx="90" cy="110" r="2" fill="#3a1808"/>
+
+    <rect x="120" y="106" width="32" height="14" rx="2" fill="url(#machineK1)"/>
+    <rect x="124" y="110" width="24" height="8" fill="#5a3018" opacity="0.85"/>
+
+    <rect x="170" y="100" width="40" height="20" rx="3" fill="url(#machineK1)"/>
+    <rect x="174" y="104" width="32" height="12" fill="#5a3018" opacity="0.85"/>
+    <line x1="180" y1="110" x2="200" y2="110" stroke="#3a1808" stroke-width="0.85"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomK1)">
+    <rect x="40" y="120" width="180" height="40" fill="#d88838" opacity="0.32"/>
+  </g>
+
+  <g>
+    <rect x="280" y="40" width="180" height="160" fill="url(#cabinetK1)"/>
+    <rect x="280" y="40" width="180" height="6" fill="#5a3018"/>
+    <rect x="280" y="194" width="180" height="6" fill="#5a3018"/>
+
+    <rect x="296" y="60" width="148" height="124" fill="#0a0604"/>
+    <line x1="370" y1="60" x2="370" y2="184" stroke="#3a2010" stroke-width="0.85"/>
+
+    <g opacity="0.85" stroke="#a85820" stroke-width="0.7" fill="none">
+      <path d="M 300 70 Q 320 80 340 76 Q 360 72 366 80"/>
+      <path d="M 300 90 Q 320 100 340 96 Q 360 92 366 100"/>
+      <path d="M 300 110 Q 320 120 340 116 Q 360 112 366 120"/>
+      <path d="M 300 130 Q 320 140 340 136 Q 360 132 366 140"/>
+      <path d="M 300 150 Q 320 160 340 156 Q 360 152 366 160"/>
+      <path d="M 374 70 Q 394 80 414 76 Q 434 72 440 80"/>
+      <path d="M 374 90 Q 394 100 414 96 Q 434 92 440 100"/>
+      <path d="M 374 110 Q 394 120 414 116 Q 434 112 440 120"/>
+      <path d="M 374 130 Q 394 140 414 136 Q 434 132 440 140"/>
+      <path d="M 374 150 Q 394 160 414 156 Q 434 152 440 160"/>
+    </g>
+
+    <g>
+      <ellipse cx="320" cy="76" rx="3" ry="2" fill="#3a1808"/>
+      <ellipse cx="340" cy="116" rx="3" ry="2" fill="#3a1808"/>
+      <ellipse cx="380" cy="86" rx="3" ry="2" fill="#3a1808"/>
+      <ellipse cx="410" cy="146" rx="3" ry="2" fill="#3a1808"/>
+    </g>
+
+    <ellipse cx="370" cy="120" rx="22" ry="14" fill="#1a0810"/>
+    <ellipse cx="370" cy="120" rx="14" ry="9" fill="url(#titanPulseK1)"/>
+    <circle cx="370" cy="120" r="3" fill="#a85020" opacity="0.95"/>
+    <line x1="362" y1="116" x2="378" y2="124" stroke="#3a1810" stroke-width="0.55" opacity="0.85"/>
+    <line x1="378" y1="116" x2="362" y2="124" stroke="#3a1810" stroke-width="0.55" opacity="0.85"/>
+  </g>
+  <g opacity="0.85" filter="url(#wrongnessK1)">
+    <ellipse cx="370" cy="120" rx="22" ry="14" fill="#a85020" opacity="0.42"/>
+  </g>
+  <g opacity="0.62" filter="url(#wrongnessK1)">
+    <ellipse cx="370" cy="120" rx="40" ry="22" fill="#3a1810" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="295" cy="115" rx="3" ry="6" fill="#a85020"/>
+    <circle cx="295" cy="106" r="1.4" fill="#3a2010"/>
+    <ellipse cx="293" cy="107" rx="0.85" ry="0.55" fill="#1a0a08"/>
+
+    <g opacity="0.85" stroke="#d88838" stroke-width="0.4" fill="none">
+      <circle cx="290" cy="120" r="2.4"/>
+      <circle cx="292" cy="125" r="1.8"/>
+      <line x1="288" y1="118" x2="294" y2="122"/>
+    </g>
+    <circle cx="290" cy="120" r="0.85" fill="#fff8d8"/>
+    <circle cx="292" cy="125" r="0.55" fill="#fff8d8"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowK1)">
+    <circle cx="291" cy="122" r="6" fill="#d88838" opacity="0.55"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowK1)">
+    <circle cx="291" cy="122" r="14" fill="#d88838" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.62" stroke="#080404" stroke-width="0.4">
+    <line x1="100" y1="20" x2="280" y2="40"/>
+    <line x1="220" y1="120" x2="280" y2="80"/>
+    <line x1="280" y1="180" x2="360" y2="180"/>
+    <line x1="460" y1="100" x2="494" y2="80"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="247" cy="220" rx="180" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="320" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#a85820" stroke-width="1.2"/>
+    <text x="150" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a85820" font-weight="700">WREN: "Engineer at Station Bravo. Device located."</text>
+    <text x="150" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a85820" font-style="italic" font-weight="700">"Integrated into relay coils — going to take the full window."</text>
+  </g>
+</svg>

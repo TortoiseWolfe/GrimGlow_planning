@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 12 Page 3 Panel 4 — Wren disarming the Titan device, "This design is... elegant. I hate that."</title>
+  <desc>Medium close-up eye level. Tiny hands work inside outer casing of Titan device mounted in Victorian telegraph junction cabinet — hands belong to small figure in copper metallic suit at maximum degradation, oil-stained, brass wire patches at forearms. Floating copper-gold holographic tools project geometric schematic of device's internals overlaid on physical object — structured light showing interface connections as glowing lines. Device itself dark with sickly amber-black pulsing light, dimming as connections isolated. Relay coils and telegraph wiring surround work space. Deep focus.</desc>
+  <defs>
+    <linearGradient id="bgK4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#1a0a04"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <radialGradient id="copperToolsK4" cx="0.5" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#d88838" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#a85820" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cabinetInteriorK4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0a04"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <linearGradient id="copperWireK4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.5" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#5a3018"/>
+    </linearGradient>
+    <radialGradient id="titanFadingK4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7a3818" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#3a1810" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#080404" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="suitWrenK4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4818"/>
+      <stop offset="0.4" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#1a0804"/>
+    </linearGradient>
+    <linearGradient id="skinWrenK4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8a878"/>
+      <stop offset="0.5" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <filter id="bloomK4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowK4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowK4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#bgK4)"/>
+  <rect width="366" height="280" fill="url(#copperToolsK4)"/>
+
+  <g>
+    <rect x="0" y="0" width="366" height="280" fill="url(#cabinetInteriorK4)" opacity="0.85"/>
+    <g opacity="0.85" stroke="url(#copperWireK4)" stroke-width="1.4" fill="none">
+      <path d="M 0 30 Q 100 36 183 30 Q 266 24 366 30"/>
+      <path d="M 0 70 Q 100 76 183 70 Q 266 64 366 70"/>
+      <path d="M 0 240 Q 100 246 183 240 Q 266 234 366 240"/>
+      <path d="M 0 260 Q 100 266 183 260 Q 266 254 366 260"/>
+    </g>
+    <g opacity="0.55" stroke="url(#copperWireK4)" stroke-width="0.7" fill="none">
+      <path d="M 0 50 Q 80 56 160 50 Q 240 44 366 50"/>
+      <path d="M 0 90 Q 80 96 160 90 Q 240 84 366 90"/>
+      <path d="M 0 250 Q 80 256 160 250 Q 240 244 366 250"/>
+    </g>
+
+    <ellipse cx="60" cy="40" rx="11" ry="6" fill="#5a3018"/>
+    <ellipse cx="306" cy="60" rx="11" ry="6" fill="#5a3018"/>
+    <ellipse cx="60" cy="250" rx="11" ry="6" fill="#5a3018"/>
+    <ellipse cx="306" cy="244" rx="11" ry="6" fill="#5a3018"/>
+  </g>
+
+  <g>
+    <rect x="100" y="100" width="166" height="80" rx="6" fill="#0a0604"/>
+    <rect x="100" y="100" width="166" height="9" fill="#3a1810" opacity="0.85"/>
+    <rect x="100" y="171" width="166" height="9" fill="#3a1810" opacity="0.85"/>
+
+    <rect x="120" y="120" width="126" height="50" fill="url(#cabinetInteriorK4)"/>
+    <line x1="120" y1="135" x2="246" y2="135" stroke="#3a2010" stroke-width="0.55"/>
+    <line x1="120" y1="155" x2="246" y2="155" stroke="#3a2010" stroke-width="0.55"/>
+
+    <ellipse cx="183" cy="140" rx="22" ry="14" fill="url(#titanFadingK4)"/>
+    <circle cx="183" cy="140" r="3" fill="#7a3818" opacity="0.62"/>
+
+    <rect x="100" y="100" width="3" height="80" fill="#5a3018"/>
+    <rect x="263" y="100" width="3" height="80" fill="#5a3018"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomK4)">
+    <ellipse cx="183" cy="140" rx="32" ry="22" fill="#7a3818" opacity="0.32"/>
+  </g>
+
+  <g>
+    <g opacity="0.95" stroke="#fff088" stroke-width="0.7" fill="none">
+      <line x1="135" y1="125" x2="155" y2="135"/>
+      <line x1="155" y1="135" x2="175" y2="125"/>
+      <line x1="175" y1="125" x2="195" y2="138"/>
+      <line x1="195" y1="138" x2="215" y2="128"/>
+      <line x1="215" y1="128" x2="235" y2="138"/>
+    </g>
+    <g opacity="0.85">
+      <circle cx="135" cy="125" r="1.4" fill="#fff088"/>
+      <circle cx="155" cy="135" r="1.4" fill="#fff088"/>
+      <circle cx="175" cy="125" r="1.4" fill="#fff088"/>
+      <circle cx="195" cy="138" r="1.4" fill="#fff088"/>
+      <circle cx="215" cy="128" r="1.4" fill="#fff088"/>
+      <circle cx="235" cy="138" r="1.4" fill="#fff088"/>
+    </g>
+
+    <rect x="120" y="180" width="126" height="22" rx="2" fill="none" stroke="#d88838" stroke-width="0.55" opacity="0.85"/>
+    <text x="124" y="186" font-family="monospace" font-size="3" fill="#d88838">SCHEMATIC: 7 INTERFACE PTS</text>
+    <text x="124" y="192" font-family="monospace" font-size="2.4" fill="#d88838">ISOLATING [4/7]</text>
+    <text x="124" y="198" font-family="monospace" font-size="2.4" fill="#d88838">∇⊥◊⊥∢⊕Δ◊</text>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowK4)">
+    <rect x="120" y="180" width="126" height="22" fill="#d88838" opacity="0.32"/>
+  </g>
+
+  <g>
+    <ellipse cx="100" cy="160" rx="9" ry="14" fill="url(#suitWrenK4)"/>
+    <line x1="92" y1="160" x2="92" y2="166" stroke="#a85020" stroke-width="0.7"/>
+    <line x1="96" y1="158" x2="96" y2="170" stroke="#a85020" stroke-width="0.7"/>
+
+    <path d="M 110 152 L 130 144" stroke="url(#skinWrenK4)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="132" cy="142" rx="4" ry="3" fill="url(#skinWrenK4)"/>
+
+    <path d="M 266 160 Q 274 156 282 158" stroke="url(#suitWrenK4)" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M 256 152 L 236 144" stroke="url(#skinWrenK4)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="234" cy="142" rx="4" ry="3" fill="url(#skinWrenK4)"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowK4)">
+    <ellipse cx="100" cy="160" rx="14" ry="22" fill="#d88838" opacity="0.42"/>
+    <ellipse cx="290" cy="160" rx="14" ry="22" fill="#d88838" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#megaGlowK4)">
+    <ellipse cx="183" cy="140" rx="120" ry="60" fill="#d88838" opacity="0.42"/>
+  </g>
+
+  <g>
+    <circle cx="60" cy="220" r="2.4" fill="#fff8d8" opacity="0.85"/>
+    <circle cx="80" cy="210" r="1.6" fill="#fff8d8" opacity="0.62"/>
+    <circle cx="280" cy="220" r="2.4" fill="#fff8d8" opacity="0.85"/>
+    <circle cx="306" cy="208" r="1.6" fill="#fff8d8" opacity="0.62"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomK4)">
+    <circle cx="60" cy="220" r="9" fill="#d88838" opacity="0.62"/>
+    <circle cx="280" cy="220" r="9" fill="#d88838" opacity="0.62"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="320" height="36" rx="3" fill="#1a1828" opacity="0.95" stroke="#a85820" stroke-width="1.2"/>
+    <text x="150" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a85820" font-weight="700">WREN: "Interface points identified."</text>
+    <text x="150" y="22" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a85820" font-style="italic">"Seven connections. Isolating now."</text>
+    <text x="150" y="32" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a85820" font-style="italic" font-weight="700">"This design is... elegant. I hate that."</text>
+  </g>
+</svg>
