@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 19 — Panel 1: Theodore walks foggy streets — gaslight pools connected by grey nothingness, the boy carrying secrets through the fog</title>
+  <desc>28mm wide eye level. Victorian street at night thick with fog. Gaslight at intervals creates warm amber pools connected by grey nothingness. Theodore walks through fog — slight boy, sandy-brown hair damp with mist, worn waistcoat, one arm held across chest protecting hidden cargo. Emerges from fog into gaslight pool, figure warm and visible for a moment before next stretch of grey. Expression focused, protective, slightly older than boy who entered church. Fog softens everything — gaslight halos diffused, buildings fade to silhouettes, cobblestones gleam with moisture.</desc>
+
+  <defs>
+    <linearGradient id="i8p19p1sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2438"/>
+      <stop offset="100%" stop-color="#0a1018"/>
+    </linearGradient>
+    <linearGradient id="i8p19p1building" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1818"/>
+    </linearGradient>
+    <linearGradient id="i8p19p1cobble" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1208"/>
+    </linearGradient>
+    <radialGradient id="i8p19p1lampDiffused" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#a86838" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p19p1fogLayer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5a4838" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="i8p19p1waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p19p1trousers" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="i8p19p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8d0a0"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i8p19p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p19p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p19p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p19p1megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="i8p19p1fogBlur"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- Sky strip -->
+  <rect width="742" height="60" fill="url(#i8p19p1sky)"/>
+
+  <!-- Buildings (silhouettes — fade to fog) -->
+  <rect x="0" y="40" width="742" height="200" fill="url(#i8p19p1building)" filter="url(#i8p19p1fogBlur)" opacity="0.85"/>
+  <!-- Lit windows hint through fog -->
+  <g fill="#a86838" opacity="0.55" filter="url(#i8p19p1fogBlur)">
+    <rect x="60" y="100" width="14" height="22"/>
+    <rect x="180" y="120" width="14" height="22"/>
+    <rect x="540" y="110" width="14" height="22"/>
+    <rect x="660" y="130" width="14" height="22"/>
+  </g>
+
+  <!-- THICK FOG layer -->
+  <rect x="0" y="80" width="742" height="180" fill="url(#i8p19p1fogLayer)"/>
+  <!-- Fog wisps -->
+  <g opacity="0.7" filter="url(#i8p19p1glow)">
+    <ellipse cx="120" cy="140" rx="120" ry="22" fill="#5a4838"/>
+    <ellipse cx="380" cy="160" rx="140" ry="22" fill="#5a4838"/>
+    <ellipse cx="620" cy="140" rx="100" ry="22" fill="#5a4838"/>
+    <ellipse cx="200" cy="220" rx="100" ry="14" fill="#3a2818"/>
+    <ellipse cx="500" cy="220" rx="120" ry="14" fill="#3a2818"/>
+  </g>
+
+  <!-- ===== GASLIGHTS — three pools at intervals ===== -->
+  <!-- Lamp 1 (left) -->
+  <g transform="translate(120 100)" opacity="0.85">
+    <rect x="-2" y="0" width="4" height="160" fill="#3a3030" filter="url(#i8p19p1fogBlur)"/>
+    <rect x="-18" y="-22" width="18" height="18" fill="#1a1818" filter="url(#i8p19p1fogBlur)"/>
+    <ellipse cx="-9" cy="-12" rx="4" ry="6" fill="#fff8d8" filter="url(#i8p19p1strongglow)" opacity="0.85"/>
+  </g>
+  <ellipse cx="100" cy="240" rx="120" ry="44" fill="url(#i8p19p1lampDiffused)" filter="url(#i8p19p1megaglow)"/>
+
+  <!-- Lamp 2 (mid-left, dimmer) -->
+  <g transform="translate(380 110)" opacity="0.7">
+    <rect x="-2" y="0" width="4" height="150" fill="#3a3030" filter="url(#i8p19p1fogBlur)"/>
+    <rect x="-15" y="-18" width="15" height="14" fill="#1a1818" filter="url(#i8p19p1fogBlur)"/>
+    <ellipse cx="-7" cy="-9" rx="3" ry="5" fill="#fff8d8" filter="url(#i8p19p1strongglow)" opacity="0.7"/>
+  </g>
+  <ellipse cx="370" cy="240" rx="80" ry="22" fill="url(#i8p19p1lampDiffused)" filter="url(#i8p19p1megaglow)" opacity="0.55"/>
+
+  <!-- Lamp 3 (right) -->
+  <g transform="translate(620 100)" opacity="0.85">
+    <rect x="-2" y="0" width="4" height="160" fill="#3a3030" filter="url(#i8p19p1fogBlur)"/>
+    <rect x="-18" y="-22" width="18" height="18" fill="#1a1818" filter="url(#i8p19p1fogBlur)"/>
+    <ellipse cx="-9" cy="-12" rx="4" ry="6" fill="#fff8d8" filter="url(#i8p19p1strongglow)" opacity="0.85"/>
+  </g>
+  <ellipse cx="600" cy="240" rx="120" ry="44" fill="url(#i8p19p1lampDiffused)" filter="url(#i8p19p1megaglow)"/>
+
+  <!-- Cobblestones (gleaming with moisture) -->
+  <rect x="0" y="240" width="742" height="60" fill="url(#i8p19p1cobble)"/>
+  <g stroke="#040408" stroke-width="0.55" fill="none" opacity="0.55">
+    <ellipse cx="40" cy="260" rx="11" ry="6"/>
+    <ellipse cx="120" cy="270" rx="11" ry="6"/>
+    <ellipse cx="200" cy="265" rx="11" ry="6"/>
+    <ellipse cx="280" cy="270" rx="11" ry="6"/>
+    <ellipse cx="380" cy="265" rx="11" ry="6"/>
+    <ellipse cx="460" cy="270" rx="11" ry="6"/>
+    <ellipse cx="540" cy="265" rx="11" ry="6"/>
+    <ellipse cx="620" cy="270" rx="11" ry="6"/>
+    <ellipse cx="700" cy="265" rx="11" ry="6"/>
+  </g>
+  <!-- Wet cobblestone gleam (the moisture) -->
+  <g opacity="0.85" filter="url(#i8p19p1bloom)">
+    <ellipse cx="100" cy="265" rx="9" ry="2" fill="#ffd898" opacity="0.55"/>
+    <ellipse cx="160" cy="275" rx="6" ry="2" fill="#a8a8b8" opacity="0.4"/>
+    <ellipse cx="600" cy="265" rx="9" ry="2" fill="#ffd898" opacity="0.55"/>
+    <ellipse cx="660" cy="275" rx="6" ry="2" fill="#a8a8b8" opacity="0.4"/>
+    <ellipse cx="380" cy="270" rx="6" ry="2" fill="#ffd898" opacity="0.4"/>
+  </g>
+
+  <!-- ===== THEODORE walking — between two gaslight pools (transitioning into amber from fog) ===== -->
+  <g transform="translate(280 230)">
+    <!-- Body -->
+    <path d="M-7,40 L-9,9 L-7,-22 L-3,-32 L7,-32 L11,-22 L14,9 L11,40 Z" fill="url(#i8p19p1waistcoat)"/>
+    <!-- Buttons -->
+    <circle cx="3" cy="-22" r="0.85" fill="#a86838" filter="url(#i8p19p1bloom)"/>
+    <circle cx="3" cy="-9" r="0.85" fill="#a86838" filter="url(#i8p19p1bloom)"/>
+    <line x1="3" y1="-30" x2="3" y2="36" stroke="#1a0808" stroke-width="0.4"/>
+
+    <!-- Wrapped data core BULGE -->
+    <path d="M-9,-15 L-3,-22 L11,-22 L14,-15 L11,-7 L-3,-7 Z" fill="#a89878" opacity="0.55"/>
+
+    <!-- ===== ARM HELD ACROSS CHEST protecting cargo ===== -->
+    <path d="M14,-14 L-15,-7 L-15,3 L11,7 Z" fill="url(#i8p19p1waistcoat)"/>
+    <ellipse cx="-15" cy="-3" rx="3" ry="2" fill="url(#i8p19p1skin)"/>
+
+    <!-- Other arm (in trouser pocket) -->
+    <path d="M-7,-9 L-11,9 L-3,11 L0,3 Z" fill="url(#i8p19p1waistcoat)"/>
+
+    <!-- Walking legs -->
+    <path d="M-3,40 L-7,55 L-3,55 L0,40 Z" fill="url(#i8p19p1trousers)"/>
+    <path d="M3,40 L7,55 L11,55 L9,40 Z" fill="url(#i8p19p1trousers)"/>
+    <path d="M-7,55 L-9,62 L-3,62 L-3,55 Z" fill="#1a1008"/>
+    <path d="M7,55 L11,62 L7,62 L7,55 Z" fill="#1a1008"/>
+
+    <!-- Shirt collar -->
+    <path d="M-3,-50 L-1,-54 L7,-54 L9,-50 L7,-44 L-1,-44 Z" fill="#e8d0a8"/>
+
+    <!-- Head — focused, slightly older expression -->
+    <ellipse cx="3" cy="-66" rx="6" ry="7" fill="url(#i8p19p1skin)"/>
+    <!-- Damp untidy hair (mist) -->
+    <path d="M-3,-76 Q3,-80 9,-76 L9,-66 Q3,-70 -3,-66 Z" fill="#5a4838"/>
+    <!-- Slight warm catch from gaslight ahead -->
+    <ellipse cx="3" cy="-78" rx="5" ry="2" fill="#ffd898" opacity="0.55" filter="url(#i8p19p1bloom)"/>
+    <!-- Eyes — focused forward, slightly older -->
+    <ellipse cx="0" cy="-66" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="0" cy="-66" r="0.4" fill="#5a3018"/>
+    <ellipse cx="6" cy="-66" rx="1" ry="0.7" fill="#fff8e8"/>
+    <circle cx="6" cy="-66" r="0.4" fill="#5a3018"/>
+    <!-- Brows slightly drawn -->
+    <line x1="-3" y1="-71" x2="3" y2="-71" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="3" y1="-71" x2="9" y2="-71" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Mouth closed, set -->
+    <line x1="0" y1="-58" x2="6" y2="-58" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- Light fog wisps near Theodore (he walks through them) -->
+  <g opacity="0.55" filter="url(#i8p19p1glow)">
+    <ellipse cx="240" cy="200" rx="40" ry="11" fill="#5a4838"/>
+    <ellipse cx="320" cy="200" rx="40" ry="11" fill="#5a4838"/>
+  </g>
+
+  <!-- (No dialogue) -->
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>
