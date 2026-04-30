@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 9 — Panel 4: The basement reveal — stone arches, iron grating, the bones of a structure older than the church — dual light fights total dark</title>
+  <desc>28mm wide slightly low angle reveal. Sealed basement beneath church opens — stone arches supporting structure above, iron grating over ancient drainage channels, rough-hewn walls older than church itself. Larger than expected, stretching into darkness beyond reach of light. Theodore stands at base of collapsed stone steps, candle held high, slight figure dwarfed by stone arches, mouth open in whispered awe. On shoulder Luma's scanner sweeps space — structured blue-violet light picking out architectural details. Dual illumination — warm amber candle and cool blue-violet scanner — reveals basement in fragments. Centuries of undisturbed dust hangs in air, made visible by both light sources.</desc>
+
+  <defs>
+    <linearGradient id="i8p9p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p9p4ancientStone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="i8p9p4floor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <radialGradient id="i8p9p4candleHalo" cx="20%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p9p4scannerSweep" cx="40%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p9p4waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p9p4lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p9p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c898"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i8p9p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p9p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p9p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p9p4megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+
+  <rect width="742" height="300" fill="url(#i8p9p4bg)"/>
+
+  <!-- ===== STONE ARCHES — supporting structure above ===== -->
+  <!-- Arch 1 (left, mostly visible) -->
+  <g>
+    <!-- Pillar -->
+    <rect x="160" y="40" width="22" height="180" fill="url(#i8p9p4ancientStone)"/>
+    <!-- Capital -->
+    <rect x="155" y="35" width="32" height="9" fill="url(#i8p9p4ancientStone)"/>
+    <!-- Arch (pointed Norman-style) -->
+    <path d="M165,40 Q165,0 220,0 Q260,0 260,40" stroke="url(#i8p9p4ancientStone)" stroke-width="11" fill="none"/>
+    <!-- Stone block lines on pillar -->
+    <line x1="160" y1="80" x2="182" y2="80" stroke="#040408" stroke-width="0.55" opacity="0.7"/>
+    <line x1="160" y1="120" x2="182" y2="120" stroke="#040408" stroke-width="0.55" opacity="0.7"/>
+    <line x1="160" y1="160" x2="182" y2="160" stroke="#040408" stroke-width="0.55" opacity="0.7"/>
+    <line x1="160" y1="200" x2="182" y2="200" stroke="#040408" stroke-width="0.55" opacity="0.7"/>
+  </g>
+  <!-- Arch 2 (mid, partial) -->
+  <g>
+    <rect x="340" y="40" width="22" height="180" fill="url(#i8p9p4ancientStone)"/>
+    <rect x="335" y="35" width="32" height="9" fill="url(#i8p9p4ancientStone)"/>
+    <path d="M345,40 Q345,0 400,0 Q440,0 440,40" stroke="url(#i8p9p4ancientStone)" stroke-width="11" fill="none"/>
+    <path d="M260,40 Q260,0 305,0 Q345,0 345,40" stroke="url(#i8p9p4ancientStone)" stroke-width="11" fill="none"/>
+    <line x1="340" y1="80" x2="362" y2="80" stroke="#040408" stroke-width="0.55" opacity="0.7"/>
+    <line x1="340" y1="120" x2="362" y2="120" stroke="#040408" stroke-width="0.55" opacity="0.7"/>
+    <line x1="340" y1="160" x2="362" y2="160" stroke="#040408" stroke-width="0.55" opacity="0.7"/>
+  </g>
+  <!-- Arch 3 (right, fading into dark) -->
+  <g opacity="0.7">
+    <rect x="520" y="40" width="22" height="180" fill="url(#i8p9p4ancientStone)"/>
+    <rect x="515" y="35" width="32" height="9" fill="url(#i8p9p4ancientStone)"/>
+    <path d="M525,40 Q525,0 580,0 Q620,0 620,40" stroke="url(#i8p9p4ancientStone)" stroke-width="11" fill="none"/>
+    <path d="M440,40 Q440,0 485,0 Q525,0 525,40" stroke="url(#i8p9p4ancientStone)" stroke-width="11" fill="none"/>
+  </g>
+  <!-- Arch 4 (far right, barely visible) -->
+  <g opacity="0.4">
+    <rect x="700" y="40" width="22" height="180" fill="url(#i8p9p4ancientStone)"/>
+    <path d="M620,40 Q620,0 670,0 Q700,0 705,30" stroke="url(#i8p9p4ancientStone)" stroke-width="11" fill="none"/>
+  </g>
+
+  <!-- Vaulted ceiling glimpsed -->
+  <g stroke="#1a0808" stroke-width="0.4" opacity="0.55" fill="none">
+    <path d="M180,30 Q220,10 260,30"/>
+    <path d="M260,30 Q300,10 340,30"/>
+    <path d="M340,30 Q400,10 440,30"/>
+  </g>
+
+  <!-- ===== STONE FLOOR with iron grating ===== -->
+  <rect x="0" y="220" width="742" height="80" fill="url(#i8p9p4floor)"/>
+  <!-- Stone slabs -->
+  <g stroke="#040408" stroke-width="0.55" opacity="0.7">
+    <line x1="0" y1="240" x2="742" y2="240"/>
+    <line x1="0" y1="270" x2="742" y2="270"/>
+    <line x1="80" y1="220" x2="80" y2="240"/>
+    <line x1="200" y1="220" x2="200" y2="240"/>
+    <line x1="380" y1="220" x2="380" y2="240"/>
+    <line x1="540" y1="220" x2="540" y2="240"/>
+    <line x1="660" y1="220" x2="660" y2="240"/>
+    <line x1="40" y1="240" x2="40" y2="270"/>
+    <line x1="160" y1="240" x2="160" y2="270"/>
+    <line x1="240" y1="240" x2="240" y2="270"/>
+    <line x1="420" y1="240" x2="420" y2="270"/>
+    <line x1="600" y1="240" x2="600" y2="270"/>
+  </g>
+
+  <!-- ===== IRON GRATING over drainage channel (mid) ===== -->
+  <g transform="translate(310 250)">
+    <rect x="-50" y="-9" width="100" height="22" fill="#040408"/>
+    <!-- Grating bars -->
+    <g stroke="#3a3838" stroke-width="2" opacity="0.85">
+      <line x1="-50" y1="-5" x2="50" y2="-5"/>
+      <line x1="-50" y1="0" x2="50" y2="0"/>
+      <line x1="-50" y1="5" x2="50" y2="5"/>
+      <line x1="-50" y1="10" x2="50" y2="10"/>
+    </g>
+    <g stroke="#3a3838" stroke-width="0.55" opacity="0.7">
+      <line x1="-40" y1="-9" x2="-40" y2="13"/>
+      <line x1="-20" y1="-9" x2="-20" y2="13"/>
+      <line x1="0" y1="-9" x2="0" y2="13"/>
+      <line x1="20" y1="-9" x2="20" y2="13"/>
+      <line x1="40" y1="-9" x2="40" y2="13"/>
+    </g>
+    <!-- Frame -->
+    <rect x="-50" y="-9" width="100" height="22" fill="none" stroke="#1a0808" stroke-width="0.85"/>
+  </g>
+
+  <!-- ===== RUBBLE from partial collapse (foreground left) ===== -->
+  <g fill="#1a0808" opacity="0.85">
+    <ellipse cx="60" cy="240" rx="14" ry="6"/>
+    <ellipse cx="80" cy="250" rx="11" ry="4"/>
+    <ellipse cx="40" cy="260" rx="14" ry="6"/>
+    <ellipse cx="100" cy="265" rx="9" ry="3"/>
+  </g>
+  <g stroke="#3a2818" stroke-width="0.55" fill="none" opacity="0.7">
+    <path d="M40,255 L60,260 L80,255 L100,262"/>
+    <path d="M50,242 L70,245 L90,242"/>
+  </g>
+
+  <!-- ===== STONE STEPS at left (where Theodore came down) ===== -->
+  <g transform="translate(80 220)">
+    <path d="M-50,80 L0,80 L-10,60 L-50,60 Z" fill="url(#i8p9p4ancientStone)"/>
+    <path d="M-40,60 L-10,60 L-20,40 L-40,40 Z" fill="url(#i8p9p4ancientStone)"/>
+    <path d="M-30,40 L-20,40 L-30,20 L-40,20 Z" fill="url(#i8p9p4ancientStone)"/>
+    <line x1="-50" y1="60" x2="0" y2="60" stroke="#1a0808" stroke-width="0.7"/>
+    <line x1="-40" y1="40" x2="-10" y2="40" stroke="#1a0808" stroke-width="0.7"/>
+    <line x1="-30" y1="20" x2="-20" y2="20" stroke="#1a0808" stroke-width="0.7"/>
+  </g>
+
+  <!-- ===== CANDLE HALO (warm amber) ===== -->
+  <ellipse cx="200" cy="180" rx="220" ry="120" fill="url(#i8p9p4candleHalo)" filter="url(#i8p9p4megaglow)"/>
+
+  <!-- ===== SCANNER SWEEP CONE (cool blue-violet) — pointing right into deeper darkness ===== -->
+  <g filter="url(#i8p9p4megaglow)" opacity="0.85">
+    <path d="M220,140 L500,80 L600,160 L500,200 L220,160 Z" fill="url(#i8p9p4scannerSweep)"/>
+  </g>
+  <!-- Beam centerlines -->
+  <g stroke="#a878e8" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#i8p9p4bloom)">
+    <line x1="220" y1="140" x2="600" y2="100"/>
+    <line x1="220" y1="140" x2="600" y2="180"/>
+    <line x1="220" y1="140" x2="500" y2="120"/>
+  </g>
+
+  <!-- Stone arches catching the dual light (warm + cool patches) -->
+  <ellipse cx="180" cy="120" rx="22" ry="40" fill="#ffd898" opacity="0.18" filter="url(#i8p9p4bloom)"/>
+  <ellipse cx="350" cy="100" rx="22" ry="40" fill="#a878e8" opacity="0.18" filter="url(#i8p9p4bloom)"/>
+
+  <!-- Centuries of undisturbed dust (visible in both light sources) -->
+  <g fill="#fff8d8" opacity="0.4" filter="url(#i8p9p4bloom)">
+    <circle cx="160" cy="160" r="0.55"/>
+    <circle cx="220" cy="140" r="0.4"/>
+    <circle cx="280" cy="180" r="0.55"/>
+  </g>
+  <g fill="#a8a8b8" opacity="0.4" filter="url(#i8p9p4bloom)">
+    <circle cx="380" cy="120" r="0.55"/>
+    <circle cx="440" cy="160" r="0.4"/>
+    <circle cx="500" cy="140" r="0.55"/>
+    <circle cx="560" cy="180" r="0.4"/>
+  </g>
+
+  <!-- ===== THEODORE at base of steps, candle held HIGH ===== -->
+  <g transform="translate(200 240)">
+    <!-- Body -->
+    <path d="M-9,40 L-11,11 L-9,-22 L-3,-32 L7,-32 L11,-22 L14,11 L11,40 Z" fill="url(#i8p9p4waistcoat)"/>
+    <line x1="3" y1="-30" x2="3" y2="36" stroke="#1a0808" stroke-width="0.4"/>
+    <circle cx="3" cy="-22" r="0.85" fill="#a86838" filter="url(#i8p9p4bloom)"/>
+    <circle cx="3" cy="-9" r="0.85" fill="#a86838" filter="url(#i8p9p4bloom)"/>
+
+    <!-- Right arm raised HIGH with candle -->
+    <path d="M11,-22 L14,-50 L22,-50 L18,-14 Z" fill="url(#i8p9p4waistcoat)"/>
+    <ellipse cx="18" cy="-50" rx="3" ry="2" fill="url(#i8p9p4skin)"/>
+    <!-- Candle held high -->
+    <rect x="16" y="-58" width="3" height="11" fill="#a89878"/>
+    <ellipse cx="17.5" cy="-62" rx="2.5" ry="5" fill="#fff8d8" filter="url(#i8p9p4strongglow)"/>
+    <ellipse cx="17.5" cy="-62" rx="1" ry="2.5" fill="#fff" filter="url(#i8p9p4bloom)"/>
+
+    <!-- Left hand at side -->
+    <path d="M-11,-22 L-14,-3 L-7,3 L-3,-9 Z" fill="url(#i8p9p4waistcoat)"/>
+
+    <!-- Legs -->
+    <path d="M-3,40 L-5,55 L0,55 L0,40 Z" fill="url(#i8p9p4waistcoat)"/>
+    <path d="M3,40 L5,55 L9,55 L7,40 Z" fill="url(#i8p9p4waistcoat)"/>
+
+    <!-- Head — small (dwarfed by arches), looking up -->
+    <ellipse cx="2" cy="-44" rx="3" ry="4" fill="url(#i8p9p4skin)"/>
+    <path d="M-1,-48 Q2,-50 5,-48 L5,-44 Q2,-46 -1,-44 Z" fill="#7a5028"/>
+    <!-- Eyes -->
+    <line x1="0" y1="-44" x2="2" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="3" y1="-44" x2="5" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Mouth open in awe -->
+    <ellipse cx="2.5" cy="-40" rx="0.85" ry="0.55" fill="#3a1808"/>
+
+    <!-- Warm catch on right side of head from candle -->
+    <ellipse cx="5" cy="-44" rx="2" ry="3" fill="#ffd898" opacity="0.4" filter="url(#i8p9p4bloom)"/>
+  </g>
+
+  <!-- ===== LUMA on Theodore's shoulder, scanner sweeping deeper ===== -->
+  <g transform="translate(214 215)">
+    <!-- Body -->
+    <path d="M-2,5 L-3,1 L-4,-4 L-3,-9 L-1,-13 L1,-13 L3,-9 L4,-4 L3,1 L2,5 Z" fill="url(#i8p9p4lumaSuit)"/>
+    <line x1="0" y1="-9" x2="0" y2="3" stroke="#c8a8e8" stroke-width="0.4" filter="url(#i8p9p4bloom)" opacity="0.95"/>
+    <!-- Arm with scanner pointing right (deeper) -->
+    <path d="M3,-4 L7,-2 L6,2 L3,1 Z" fill="url(#i8p9p4lumaSuit)"/>
+    <!-- Scanner beam -->
+    <line x1="7" y1="-2" x2="14" y2="-2" stroke="#a878e8" stroke-width="0.85" filter="url(#i8p9p4strongglow)" opacity="0.95"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-15" rx="1.4" ry="2" fill="url(#i8p9p4skin)"/>
+    <!-- Lens hint -->
+    <circle cx="0" cy="-15" r="0.55" fill="#a878e8" filter="url(#i8p9p4bloom)" opacity="0.95"/>
+  </g>
+
+  <!-- ===== DIALOGUE — THEODORE whispered ===== -->
+  <g>
+    <rect x="14" y="14" width="380" height="50" rx="2" fill="white" stroke="#7a4828" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7a4828" font-weight="700">THEODORE  <tspan font-style="italic" font-size="8" font-weight="500">(whispered)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">I never knew this was here.</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic" font-weight="700">Right under our feet, all this time.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>

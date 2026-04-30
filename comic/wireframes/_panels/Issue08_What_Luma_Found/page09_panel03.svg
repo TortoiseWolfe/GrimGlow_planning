@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 9 — Panel 3: Theodore descends ancient stone steps — candle in one hand, Luma on shoulder, walls layer through centuries of construction</title>
+  <desc>50mm medium eye level. Theodore descends ancient stone steps into darkness — one hand on wall for balance, other holding lit candle stub casting warm amber flickering light. On shoulder Luma rides with scanner projecting forward — structured blue-violet light piercing dark ahead. Walls change as they descend — Victorian brick at top, transitioning to older stone, then Norman foundation work, then rough-hewn stone predating identifiable construction. Each layer visible in dual illumination — warm candlelight and cool scanner light revealing centuries of layered construction. Steps partially collapsed, dust thick, air cold.</desc>
+
+  <defs>
+    <linearGradient id="i8p9p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p9p3victorian" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </linearGradient>
+    <linearGradient id="i8p9p3medieval" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="i8p9p3norman" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a4838"/>
+      <stop offset="100%" stop-color="#2a1810"/>
+    </linearGradient>
+    <linearGradient id="i8p9p3preNorman" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a3030"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <radialGradient id="i8p9p3candleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8d8" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p9p3scannerCone" cx="0%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p9p3waistcoat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a4828"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="i8p9p3lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p9p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8c898"/>
+      <stop offset="100%" stop-color="#a87838"/>
+    </linearGradient>
+    <filter id="i8p9p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p9p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p9p3strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p9p3megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i8p9p3bg)"/>
+
+  <!-- ===== DESCENDING STAIRWELL (perspective into darkness, downward) ===== -->
+  <!-- Walls — vertical strata showing centuries -->
+
+  <!-- LEFT WALL — Victorian (top) brick -->
+  <rect x="0" y="0" width="100" height="60" fill="url(#i8p9p3victorian)"/>
+  <g stroke="#040408" stroke-width="0.4" opacity="0.7">
+    <line x1="0" y1="20" x2="100" y2="20"/>
+    <line x1="0" y1="40" x2="100" y2="20"/>
+    <line x1="40" y1="0" x2="40" y2="20"/>
+    <line x1="80" y1="20" x2="80" y2="40"/>
+  </g>
+
+  <!-- LEFT WALL — Medieval (mid-upper) -->
+  <rect x="0" y="60" width="100" height="80" fill="url(#i8p9p3medieval)"/>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.85">
+    <line x1="0" y1="80" x2="100" y2="80"/>
+    <line x1="0" y1="100" x2="100" y2="100"/>
+    <line x1="0" y1="120" x2="100" y2="120"/>
+    <line x1="60" y1="60" x2="60" y2="80"/>
+    <line x1="40" y1="80" x2="40" y2="100"/>
+    <line x1="80" y1="100" x2="80" y2="120"/>
+    <line x1="20" y1="120" x2="20" y2="140"/>
+  </g>
+
+  <!-- LEFT WALL — Norman foundation (mid-lower) -->
+  <rect x="0" y="140" width="100" height="80" fill="url(#i8p9p3norman)"/>
+  <g stroke="#1a0808" stroke-width="0.7" opacity="0.85">
+    <line x1="0" y1="170" x2="100" y2="170"/>
+    <line x1="0" y1="200" x2="100" y2="200"/>
+    <line x1="50" y1="140" x2="50" y2="170"/>
+    <line x1="30" y1="170" x2="30" y2="200"/>
+    <line x1="80" y1="170" x2="80" y2="200"/>
+    <line x1="60" y1="200" x2="60" y2="220"/>
+  </g>
+  <!-- Norman large irregular stones texture -->
+  <g fill="#1a0808" opacity="0.55">
+    <ellipse cx="40" cy="160" rx="22" ry="9"/>
+    <ellipse cx="60" cy="190" rx="18" ry="6"/>
+  </g>
+
+  <!-- LEFT WALL — Pre-Norman rough-hewn (deepest, oldest) -->
+  <rect x="0" y="220" width="100" height="80" fill="url(#i8p9p3preNorman)"/>
+  <!-- Irregular hand-cut stone -->
+  <g stroke="#0a0408" stroke-width="0.85" fill="none" opacity="0.85">
+    <path d="M0,240 L30,242 L50,238 L80,240 L100,242"/>
+    <path d="M0,260 L40,262 L70,258 L100,260"/>
+    <path d="M0,280 L50,278 L100,282"/>
+  </g>
+
+  <!-- ===== STAIRS descending into darkness (perspective) ===== -->
+  <!-- Each step a different stone era visible -->
+  <!-- Top step (Victorian brick edge) -->
+  <path d="M100,40 L266,40 L266,55 L266,55 L100,55 Z" fill="url(#i8p9p3victorian)"/>
+  <line x1="100" y1="55" x2="266" y2="55" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Step 2 (medieval) -->
+  <path d="M120,80 L246,80 L246,95 L120,95 Z" fill="url(#i8p9p3medieval)"/>
+  <line x1="120" y1="95" x2="246" y2="95" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Step 3 (Norman) -->
+  <path d="M140,120 L226,120 L226,140 L140,140 Z" fill="url(#i8p9p3norman)"/>
+  <line x1="140" y1="140" x2="226" y2="140" stroke="#1a0808" stroke-width="0.85"/>
+  <!-- Step 4 (collapsed/rubble) -->
+  <path d="M150,170 L216,170 L226,200 L140,200 Z" fill="url(#i8p9p3preNorman)"/>
+  <g fill="#1a0808" opacity="0.85">
+    <!-- Rubble pieces -->
+    <ellipse cx="180" cy="195" rx="9" ry="3"/>
+    <ellipse cx="200" cy="200" rx="6" ry="2"/>
+    <ellipse cx="160" cy="200" rx="6" ry="2"/>
+  </g>
+  <!-- Step 5 (deeper, fading) -->
+  <path d="M160,230 L206,230 L216,260 L150,260 Z" fill="#0a0408" opacity="0.85"/>
+  <!-- Deepest step lost in darkness -->
+  <path d="M170,280 L196,280 L206,300 L160,300 Z" fill="#040408"/>
+
+  <!-- RIGHT WALL — same strata mirrored -->
+  <rect x="266" y="0" width="100" height="60" fill="url(#i8p9p3victorian)"/>
+  <g stroke="#040408" stroke-width="0.4" opacity="0.7">
+    <line x1="266" y1="20" x2="366" y2="20"/>
+    <line x1="266" y1="40" x2="366" y2="20"/>
+    <line x1="306" y1="0" x2="306" y2="20"/>
+  </g>
+  <rect x="246" y="60" width="120" height="80" fill="url(#i8p9p3medieval)"/>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.85">
+    <line x1="246" y1="80" x2="366" y2="80"/>
+    <line x1="246" y1="100" x2="366" y2="100"/>
+    <line x1="246" y1="120" x2="366" y2="120"/>
+    <line x1="300" y1="60" x2="300" y2="80"/>
+    <line x1="320" y1="80" x2="320" y2="100"/>
+  </g>
+  <rect x="226" y="140" width="140" height="80" fill="url(#i8p9p3norman)"/>
+  <g stroke="#1a0808" stroke-width="0.7" opacity="0.85">
+    <line x1="226" y1="170" x2="366" y2="170"/>
+    <line x1="226" y1="200" x2="366" y2="200"/>
+    <line x1="280" y1="140" x2="280" y2="170"/>
+    <line x1="320" y1="170" x2="320" y2="200"/>
+  </g>
+  <g fill="#1a0808" opacity="0.55">
+    <ellipse cx="300" cy="160" rx="22" ry="9"/>
+    <ellipse cx="320" cy="190" rx="18" ry="6"/>
+  </g>
+  <rect x="216" y="220" width="150" height="80" fill="url(#i8p9p3preNorman)"/>
+  <g stroke="#0a0408" stroke-width="0.85" fill="none" opacity="0.85">
+    <path d="M216,240 L260,242 L300,238 L340,240 L366,242"/>
+    <path d="M216,260 L280,262 L340,258 L366,260"/>
+    <path d="M216,280 L300,278 L366,282"/>
+  </g>
+
+  <!-- Cold dust hanging in air (blue-tinted) -->
+  <g fill="#a8a8b8" opacity="0.4" filter="url(#i8p9p3bloom)">
+    <circle cx="120" cy="120" r="0.55"/>
+    <circle cx="180" cy="100" r="0.4"/>
+    <circle cx="200" cy="160" r="0.55"/>
+    <circle cx="160" cy="200" r="0.4"/>
+    <circle cx="240" cy="180" r="0.55"/>
+    <circle cx="280" cy="220" r="0.4"/>
+  </g>
+
+  <!-- ===== CANDLE GLOW (warm halo) ===== -->
+  <ellipse cx="160" cy="120" rx="100" ry="60" fill="url(#i8p9p3candleGlow)" filter="url(#i8p9p3megaglow)"/>
+
+  <!-- ===== SCANNER CONE going FORWARD/DOWN ===== -->
+  <ellipse cx="240" cy="200" rx="180" ry="80" fill="url(#i8p9p3scannerCone)" filter="url(#i8p9p3megaglow)"/>
+
+  <!-- ===== THEODORE descending — facing right (downward into stairwell) ===== -->
+  <g transform="translate(160 140)">
+    <!-- Body — angled (descending) -->
+    <path d="M-22,40 L-26,9 L-22,-22 L-9,-44 L9,-50 L22,-44 L26,-22 L22,9 L18,40 Z" fill="url(#i8p9p3waistcoat)"/>
+    <!-- Buttons -->
+    <circle cx="0" cy="-30" r="1.4" fill="#a86838" filter="url(#i8p9p3bloom)"/>
+    <circle cx="0" cy="-15" r="1.4" fill="#a86838" filter="url(#i8p9p3bloom)"/>
+    <circle cx="0" cy="0" r="1.4" fill="#a86838" filter="url(#i8p9p3bloom)"/>
+    <line x1="0" y1="-44" x2="0" y2="40" stroke="#1a0808" stroke-width="0.4"/>
+
+    <!-- Breast pocket EMPTY now (Luma is on shoulder) -->
+    <rect x="-14" y="-30" width="11" height="11" fill="#3a2010" opacity="0.55"/>
+
+    <!-- Left hand on wall (back, behind) -->
+    <path d="M-22,-22 L-44,-9 L-44,3 L-26,0 Z" fill="url(#i8p9p3waistcoat)"/>
+    <ellipse cx="-44" cy="-3" rx="6" ry="3" fill="url(#i8p9p3skin)"/>
+    <line x1="-50" y1="-3" x2="-44" y2="-3" stroke="#7a4818" stroke-width="0.4"/>
+
+    <!-- ===== RIGHT HAND holding CANDLE (forward, raised) ===== -->
+    <path d="M22,-22 L44,-30 L44,-18 L26,-9 Z" fill="url(#i8p9p3waistcoat)"/>
+    <ellipse cx="44" cy="-26" rx="4" ry="3" fill="url(#i8p9p3skin)"/>
+    <!-- Brass gear ring on left index -->
+    <circle cx="-50" cy="-3" r="1" fill="#a86838" stroke="#3a1808" stroke-width="0.4"/>
+    <ellipse cx="-50" cy="-4" rx="0.7" ry="0.4" fill="#ffd898" filter="url(#i8p9p3bloom)" opacity="0.7"/>
+
+    <!-- ===== CANDLE — small stub, warm flame ===== -->
+    <rect x="44" y="-30" width="4" height="14" fill="#a89878"/>
+    <line x1="44" y1="-30" x2="48" y2="-30" stroke="#5a4838" stroke-width="0.4"/>
+    <!-- Wax drip -->
+    <path d="M44,-22 L42,-18 L48,-18 Z" fill="#a89878"/>
+    <!-- Flame -->
+    <ellipse cx="46" cy="-37" rx="3" ry="6" fill="#fff8d8" filter="url(#i8p9p3strongglow)"/>
+    <ellipse cx="46" cy="-37" rx="1.4" ry="3" fill="#fff" filter="url(#i8p9p3bloom)"/>
+    <!-- Wick -->
+    <line x1="46" y1="-32" x2="46" y2="-30" stroke="#3a1808" stroke-width="0.55"/>
+
+    <!-- Legs (stepping down) -->
+    <path d="M-9,40 L-14,80 L-3,80 L0,40 Z" fill="url(#i8p9p3waistcoat)"/>
+    <path d="M3,40 L7,68 L18,68 L14,40 Z" fill="url(#i8p9p3waistcoat)"/>
+    <!-- Boots -->
+    <path d="M-14,80 L-18,86 L-9,86 L-3,80 Z" fill="#1a1008"/>
+    <path d="M7,68 L7,75 L22,75 L18,68 Z" fill="#1a1008"/>
+
+    <!-- Shirt collar -->
+    <path d="M-9,-58 L-7,-62 L7,-62 L9,-58 L7,-50 L-7,-50 Z" fill="#e8d0a8"/>
+    <!-- Neck -->
+    <path d="M-7,-62 L7,-62 L4,-72 L-4,-72 Z" fill="url(#i8p9p3skin)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-86" rx="11" ry="14" fill="url(#i8p9p3skin)"/>
+    <!-- Untidy hair, warm catch -->
+    <path d="M-11,-100 Q0,-104 11,-100 L11,-86 Q9,-100 0,-100 Q-9,-100 -11,-86 Z" fill="#7a5028"/>
+    <ellipse cx="0" cy="-100" rx="9" ry="2" fill="#ffd898" opacity="0.85" filter="url(#i8p9p3bloom)"/>
+    <!-- Eyes — careful, awe -->
+    <ellipse cx="-3" cy="-86" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="-3" cy="-86" r="0.55" fill="#5a3018"/>
+    <ellipse cx="3" cy="-86" rx="1.4" ry="1" fill="#fff8e8"/>
+    <circle cx="3" cy="-86" r="0.55" fill="#5a3018"/>
+    <!-- Brows raised (awe) -->
+    <line x1="-7" y1="-92" x2="-1" y2="-92" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-92" x2="7" y2="-92" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Mouth slightly open -->
+    <ellipse cx="0" cy="-78" rx="1.4" ry="0.7" fill="#3a1808"/>
+
+    <!-- Warm candle glow on right side of face -->
+    <ellipse cx="9" cy="-86" rx="6" ry="14" fill="#ffd898" opacity="0.4" filter="url(#i8p9p3bloom)"/>
+  </g>
+
+  <!-- ===== LUMA on Theodore's shoulder, scanner forward ===== -->
+  <g transform="translate(180 70)">
+    <!-- Body -->
+    <path d="M-3,11 L-5,3 L-7,-7 L-5,-15 L-3,-22 L3,-22 L5,-15 L7,-7 L5,3 L3,11 Z" fill="url(#i8p9p3lumaSuit)"/>
+    <line x1="0" y1="-15" x2="0" y2="9" stroke="#c8a8e8" stroke-width="0.55" filter="url(#i8p9p3bloom)" opacity="0.85"/>
+    <!-- Arm forward with scanner -->
+    <path d="M5,-7 L11,-3 L9,3 L3,0 Z" fill="url(#i8p9p3lumaSuit)"/>
+    <!-- Scanner beam forward (right) -->
+    <line x1="11" y1="-3" x2="22" y2="-3" stroke="#a878e8" stroke-width="1.4" filter="url(#i8p9p3strongglow)" opacity="0.95"/>
+    <line x1="11" y1="-3" x2="22" y2="-3" stroke="#fff" stroke-width="0.4" filter="url(#i8p9p3bloom)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-26" rx="3" ry="3" fill="url(#i8p9p3skin)"/>
+    <path d="M2,-22 Q4,-15 5,-7" stroke="#1a0808" stroke-width="1.4" fill="none"/>
+    <path d="M2,-22 Q4,-15 5,-7" stroke="#a878e8" stroke-width="0.4" fill="none" filter="url(#i8p9p3bloom)" opacity="0.85"/>
+    <!-- Eyes -->
+    <line x1="-2" y1="-26" x2="-1" y2="-26" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="1" y1="-26" x2="2" y2="-26" stroke="#3a1808" stroke-width="0.55"/>
+    <circle cx="-1" cy="-26" r="0.4" fill="#a878e8" filter="url(#i8p9p3bloom)" opacity="0.85"/>
+    <circle cx="1" cy="-26" r="0.4" fill="#a878e8" filter="url(#i8p9p3bloom)" opacity="0.85"/>
+  </g>
+
+  <!-- ===== DIALOGUE — LUMA ===== -->
+  <g>
+    <rect x="14" y="14" width="338" height="68" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">The stone changes. Victorian. Georgian. Medieval.</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">And below that... I don't have a reference for the lowest layer.</text>
+  <text x="22" y="72" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-weight="700">It predates any human technique I can identify.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>
