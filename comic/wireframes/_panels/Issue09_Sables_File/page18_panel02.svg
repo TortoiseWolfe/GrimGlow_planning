@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 260" width="366" height="260">
+  <title>Issue 9 Page 18 Panel 2 — Theodore's POV through the wall gap</title>
+  <desc>Theodore's POV. From outside through crack: dim interior with scattered fairy-tech lights, tiny figures on beams. Sable rising on main beam, silver suit catching gaslight that enters. Camp like miniature stage — intimate, delicate, sad. Tiny world in pain.</desc>
+  <defs>
+    <linearGradient id="bgI2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15110a"/>
+      <stop offset="0.4" stop-color="#1a1410"/>
+      <stop offset="1" stop-color="#080604"/>
+    </linearGradient>
+    <radialGradient id="gaslightI2" cx="0.5" cy="0.5" r="0.65">
+      <stop offset="0" stop-color="#f4b860" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#a85820" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#080604" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brickEdgeI2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3828"/>
+      <stop offset="0.5" stop-color="#3a2418"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="silverFI2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8a8a0"/>
+      <stop offset="0.5" stop-color="#7a8088"/>
+      <stop offset="1" stop-color="#3a3e44"/>
+    </linearGradient>
+    <linearGradient id="hairSilLitI2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8c8a8"/>
+      <stop offset="0.5" stop-color="#a89878"/>
+      <stop offset="1" stop-color="#5a4838"/>
+    </linearGradient>
+    <linearGradient id="faceLitS_I2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a261a"/>
+      <stop offset="0.5" stop-color="#9a5828"/>
+      <stop offset="1" stop-color="#d8a878"/>
+    </linearGradient>
+    <linearGradient id="beamMainI2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a5230"/>
+      <stop offset="0.4" stop-color="#5a3a20"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <filter id="bloomI2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="strongGlowI2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.5"/>
+    </filter>
+    <filter id="megaGlowI2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="softI2" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="260" fill="url(#bgI2)"/>
+
+  <g>
+    <path d="M 0 0 L 366 0 L 366 30 L 0 30 Z" fill="url(#brickEdgeI2)"/>
+    <path d="M 0 230 L 366 230 L 366 260 L 0 260 Z" fill="url(#brickEdgeI2)"/>
+    <path d="M 0 0 L 80 0 L 70 260 L 0 260 Z" fill="url(#brickEdgeI2)"/>
+    <path d="M 286 0 L 366 0 L 366 260 L 296 260 Z" fill="url(#brickEdgeI2)"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="80" y1="40" x2="286" y2="40" stroke="#1a1008" stroke-width="0.4"/>
+    <line x1="80" y1="80" x2="286" y2="80" stroke="#1a1008" stroke-width="0.4"/>
+    <line x1="80" y1="220" x2="286" y2="220" stroke="#1a1008" stroke-width="0.4"/>
+    <line x1="120" y1="0" x2="116" y2="40" stroke="#1a1008" stroke-width="0.5"/>
+    <line x1="240" y1="0" x2="244" y2="40" stroke="#1a1008" stroke-width="0.5"/>
+  </g>
+
+  <rect x="80" y="30" width="206" height="200" fill="url(#bgI2)"/>
+  <rect x="80" y="30" width="206" height="200" fill="url(#gaslightI2)"/>
+
+  <g>
+    <rect x="80" y="170" width="206" height="14" fill="url(#beamMainI2)"/>
+    <rect x="80" y="170" width="206" height="3" fill="#a87838" opacity="0.6"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#strongGlowI2)">
+    <circle cx="120" cy="100" r="3" fill="#5878a8"/>
+    <circle cx="240" cy="120" r="3" fill="#d88838"/>
+    <circle cx="100" cy="200" r="2.5" fill="#dc4540"/>
+    <circle cx="260" cy="200" r="2.5" fill="#3aa868"/>
+  </g>
+  <g opacity="0.85">
+    <circle cx="120" cy="100" r="0.8" fill="#a8c0e0"/>
+    <circle cx="240" cy="120" r="0.8" fill="#f4b860"/>
+    <circle cx="100" cy="200" r="0.6" fill="#dc4540"/>
+    <circle cx="260" cy="200" r="0.6" fill="#3aa868"/>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="160" rx="8" ry="9" fill="#3a261a"/>
+    <ellipse cx="183" cy="156" rx="5" ry="5" fill="url(#faceLitS_I2)"/>
+    <path d="M 175 148 Q 183 142 191 148 L 189 154 Q 185 146 181 154 Z" fill="url(#hairSilLitI2)" opacity="0.95"/>
+    <ellipse cx="180" cy="160" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <ellipse cx="186" cy="160" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <path d="M 178 166 L 188 166" stroke="#0a0604" stroke-width="0.7"/>
+    <path d="M 167 170 L 199 170 L 205 220 L 161 220 Z" fill="url(#silverFI2)"/>
+    <path d="M 167 176 L 199 176 L 199 210 L 167 210 Z" fill="#2a2a2a"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#strongGlowI2)">
+    <ellipse cx="183" cy="190" rx="40" ry="14" fill="#f4b860"/>
+  </g>
+
+  <g opacity="0.92">
+    <ellipse cx="170" cy="184" rx="6" ry="2" fill="#0a0604"/>
+    <ellipse cx="196" cy="184" rx="6" ry="2" fill="#0a0604"/>
+  </g>
+
+  <g opacity="0.7">
+    <ellipse cx="183" cy="226" rx="40" ry="3" fill="#080404"/>
+  </g>
+
+  <g opacity="0.65">
+    <path d="M 80 50 L 88 60 L 84 80 L 76 70 Z" fill="#2a1810" opacity="0.6"/>
+    <path d="M 286 50 L 278 60 L 282 80 L 290 70 Z" fill="#2a1810" opacity="0.6"/>
+  </g>
+
+  <g opacity="0.45">
+    <path d="M 90 60 Q 96 70 90 80" stroke="#1a1010" stroke-width="0.4" fill="none"/>
+    <path d="M 280 60 Q 274 70 280 80" stroke="#1a1010" stroke-width="0.4" fill="none"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="40" cy="40" r="0.5" fill="#a89878"/>
+    <circle cx="320" cy="50" r="0.5" fill="#a89878"/>
+  </g>
+</svg>
