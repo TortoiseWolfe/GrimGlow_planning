@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 260" width="366" height="260">
+  <title>Issue 11 Page 14 Panel 4 — Theodore in gaslight, "First light, Jink. I'll be there."</title>
+  <desc>Close-up Theodore's face looking down, warm gaslight illuminating features. Sandy-brown hair hazel eyes freckles. Gentle resolve — stubbornness softened into warmth. Has made his choice. Understands what it costs. Will not unmake it. Hand rests on ledge, brass gear ring catching warm amber gaslight. Cold moonlight accents hair. The boy who will not walk away.</desc>
+  <defs>
+    <linearGradient id="bgY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1828"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <radialGradient id="moonAboveY4" cx="0.5" cy="0.05" r="0.42">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.42"/>
+      <stop offset="0.4" stop-color="#5a78a8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gaslightWarmY4" cx="0.5" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="#f4b860" stop-opacity="0.75"/>
+      <stop offset="0.4" stop-color="#a85820" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leadFlashY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6478"/>
+      <stop offset="0.5" stop-color="#3a4868"/>
+      <stop offset="1" stop-color="#1a1828"/>
+    </linearGradient>
+    <linearGradient id="hairSandyY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8c0e0"/>
+      <stop offset="0.4" stop-color="#a85020"/>
+      <stop offset="0.7" stop-color="#7a3818"/>
+      <stop offset="1" stop-color="#3a1a08"/>
+    </linearGradient>
+    <linearGradient id="faceTheoY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6478"/>
+      <stop offset="0.4" stop-color="#7a4830"/>
+      <stop offset="0.85" stop-color="#f4b860"/>
+      <stop offset="1" stop-color="#a85820"/>
+    </linearGradient>
+    <radialGradient id="eyeResolveY4" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#a87838" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brassRingY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#5a2e10"/>
+    </linearGradient>
+    <linearGradient id="handTheoY4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87838"/>
+      <stop offset="0.5" stop-color="#7a4830"/>
+      <stop offset="1" stop-color="#3a261a"/>
+    </linearGradient>
+    <filter id="bloomY4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowY4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowY4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="ultraGlowY4" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="260" fill="url(#bgY4)"/>
+  <rect width="366" height="260" fill="url(#moonAboveY4)"/>
+  <rect width="366" height="260" fill="url(#gaslightWarmY4)"/>
+
+  <g opacity="0.55">
+    <circle cx="60" cy="14" r="0.7" fill="#a8c0e0"/>
+    <circle cx="180" cy="22" r="0.7" fill="#a8c0e0"/>
+    <circle cx="300" cy="14" r="0.85" fill="#a8c0e0"/>
+  </g>
+
+  <g>
+    <rect x="0" y="220" width="366" height="40" fill="url(#leadFlashY4)" opacity="0.92"/>
+    <line x1="0" y1="224" x2="366" y2="224" stroke="#1a1828" stroke-width="0.7"/>
+    <g opacity="0.55" stroke="#1a1828" stroke-width="0.4">
+      <line x1="80" y1="224" x2="80" y2="260"/>
+      <line x1="200" y1="224" x2="200" y2="260"/>
+      <line x1="320" y1="224" x2="320" y2="260"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="183" cy="100" rx="120" ry="160" fill="#3a261a"/>
+    <ellipse cx="183" cy="80" rx="92" ry="110" fill="url(#faceTheoY4)"/>
+
+    <path d="M 100 30 Q 183 -10 266 30 Q 280 70 274 104 L 264 116 Q 232 50 198 40 Q 168 50 102 116 Z" fill="url(#hairSandyY4)"/>
+    <path d="M 110 32 Q 132 14 162 22" stroke="#7a3818" stroke-width="2.4" fill="none" opacity="0.7"/>
+    <path d="M 200 22 Q 232 14 256 32" stroke="#7a3818" stroke-width="2.4" fill="none" opacity="0.7"/>
+
+    <ellipse cx="138" cy="86" rx="14" ry="18" fill="#0a0604"/>
+    <ellipse cx="228" cy="86" rx="14" ry="18" fill="#0a0604"/>
+    <circle cx="138" cy="86" r="9" fill="#080404"/>
+    <circle cx="228" cy="86" r="9" fill="#080404"/>
+    <circle cx="142" cy="84" r="4.4" fill="url(#eyeResolveY4)"/>
+    <circle cx="232" cy="84" r="4.4" fill="url(#eyeResolveY4)"/>
+    <circle cx="138" cy="86" r="2" fill="#a87838"/>
+    <circle cx="228" cy="86" r="2" fill="#a87838"/>
+
+    <path d="M 100 64 Q 138 56 162 64" stroke="#0a0604" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 204 64 Q 228 56 266 64" stroke="#0a0604" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="154" cy="108" rx="11" ry="3" fill="#a85820" opacity="0.55"/>
+    <ellipse cx="212" cy="108" rx="11" ry="3" fill="#a85820" opacity="0.55"/>
+    <ellipse cx="183" cy="106" rx="3" ry="1.4" fill="#a85820" opacity="0.55"/>
+
+    <path d="M 156 156 Q 183 152 210 156" stroke="#0a0604" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 156 158 L 210 158" stroke="#3a2410" stroke-width="0.85" opacity="0.55"/>
+    <path d="M 168 162 Q 183 168 198 162" stroke="#5a3018" stroke-width="0.7" fill="none" opacity="0.55"/>
+  </g>
+
+  <g>
+    <path d="M 0 220 Q 80 214 160 218 Q 240 222 320 220" stroke="url(#handTheoY4)" stroke-width="32" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="240" cy="216" rx="14" ry="6" fill="url(#brassRingY4)"/>
+    <ellipse cx="240" cy="216" rx="9" ry="3.4" fill="#3a1a08"/>
+    <line x1="232" y1="216" x2="248" y2="216" stroke="#5a2e10" stroke-width="1"/>
+    <line x1="240" y1="210" x2="240" y2="222" stroke="#5a2e10" stroke-width="1"/>
+
+    <path d="M 80 218 Q 120 214 160 218" stroke="#5a3622" stroke-width="0.85" fill="none" opacity="0.55"/>
+    <ellipse cx="120" cy="216" rx="14" ry="3" fill="#1a0604" opacity="0.55"/>
+  </g>
+  <g opacity="0.95" filter="url(#strongGlowY4)">
+    <ellipse cx="240" cy="216" rx="32" ry="11" fill="#f4b860" opacity="0.7"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomY4)">
+    <ellipse cx="240" cy="216" rx="14" ry="5" fill="#fff8d8" opacity="0.62"/>
+  </g>
+  <g opacity="0.55" filter="url(#megaGlowY4)">
+    <ellipse cx="240" cy="216" rx="80" ry="22" fill="#a85820" opacity="0.55"/>
+  </g>
+  <g opacity="0.55" filter="url(#ultraGlowY4)">
+    <ellipse cx="240" cy="220" rx="160" ry="40" fill="#a85820" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.85" filter="url(#bloomY4)">
+    <ellipse cx="183" cy="60" rx="80" ry="14" fill="#a8c0e0" opacity="0.32"/>
+    <ellipse cx="183" cy="160" rx="80" ry="22" fill="#f4b860" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="183" cy="226" rx="80" ry="2.4" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="220" height="32" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a2410" stroke-width="1.2"/>
+    <text x="100" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#3a2410" font-weight="700">THEODORE (very quiet):</text>
+    <text x="100" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#2a2a2a" font-style="italic">"I should go. Mr. Cribbage will notice."</text>
+    <text x="100" y="29" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7" fill="#3a2410" font-weight="700">"First light, Jink. I'll be there."</text>
+  </g>
+</svg>

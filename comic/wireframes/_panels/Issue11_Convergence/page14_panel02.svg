@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 11 Page 14 Panel 2 — Wide pulling back, silence after the argument, "you are the bravest person I have ever met"</title>
+  <desc>Wide pulling back. Rooftop in wider context — two figures at roof's edge, one human-sized boy with legs dangling, one tiny emerald-suited figure beside his hand. Argument settled into silence. Neither won. City spreads below in amber gaslight, sky above in cold moonlight and stars. Telegraph lines thread between buildings. Two figures lean toward each other despite argument — separated by scale connected by stubbornness and care. Cold moonlight and warm gaslight in perfect balance. Silence after the argument, the quiet before the storm.</desc>
+  <defs>
+    <linearGradient id="bgY2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1828"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <radialGradient id="moonAboveY2" cx="0.18" cy="0.05" r="0.55">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.62"/>
+      <stop offset="0.4" stop-color="#5a78a8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gaslightCityY2" cx="0.5" cy="0.95" r="0.65">
+      <stop offset="0" stop-color="#f4b860" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#a85820" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leadFlashY2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6478"/>
+      <stop offset="0.5" stop-color="#3a4868"/>
+      <stop offset="1" stop-color="#1a1828"/>
+    </linearGradient>
+    <linearGradient id="cityFarY2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2410"/>
+      <stop offset="0.5" stop-color="#1a1008"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="theoBodyY2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3018"/>
+      <stop offset="0.5" stop-color="#3a1a08"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <linearGradient id="hairSandyY2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8c0e0"/>
+      <stop offset="0.4" stop-color="#a85020"/>
+      <stop offset="1" stop-color="#3a1a08"/>
+    </linearGradient>
+    <linearGradient id="emeraldFigY2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#1a4a2a"/>
+      <stop offset="1" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="hairBlondeY2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#a8c0e0"/>
+      <stop offset="1" stop-color="#5a3018"/>
+    </linearGradient>
+    <filter id="bloomY2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowY2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
+    </filter>
+    <filter id="megaGlowY2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="fogBlurY2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="280" fill="url(#bgY2)"/>
+  <rect width="742" height="280" fill="url(#moonAboveY2)"/>
+  <rect width="742" height="280" fill="url(#gaslightCityY2)"/>
+
+  <g opacity="0.55">
+    <circle cx="60" cy="20" r="0.85" fill="#a8c0e0"/>
+    <circle cx="180" cy="32" r="0.7" fill="#a8c0e0"/>
+    <circle cx="320" cy="14" r="0.85" fill="#a8c0e0"/>
+    <circle cx="500" cy="34" r="0.7" fill="#a8c0e0"/>
+    <circle cx="640" cy="20" r="0.85" fill="#a8c0e0"/>
+    <circle cx="120" cy="60" r="0.55" fill="#a8c0e0"/>
+    <circle cx="380" cy="56" r="0.55" fill="#a8c0e0"/>
+    <circle cx="600" cy="62" r="0.55" fill="#a8c0e0"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#bloomY2)">
+    <ellipse cx="120" cy="40" rx="22" ry="14" fill="#a8c0e0" opacity="0.55"/>
+  </g>
+  <g opacity="0.95" filter="url(#strongGlowY2)">
+    <path d="M 120 28 Q 112 40 120 52 Q 128 40 120 28 Z" fill="#fff8d8" opacity="0.85"/>
+  </g>
+  <g opacity="0.95">
+    <path d="M 120 28 Q 112 40 120 52 Q 128 40 120 28 Z" fill="#fff8d8"/>
+  </g>
+
+  <g opacity="0.42" filter="url(#fogBlurY2)">
+    <rect x="0" y="200" width="742" height="80" fill="#5a4838" opacity="0.55"/>
+    <ellipse cx="200" cy="240" rx="240" ry="32" fill="#5a4838" opacity="0.5"/>
+    <ellipse cx="540" cy="256" rx="220" ry="32" fill="#5a4838" opacity="0.5"/>
+  </g>
+
+  <g>
+    <path d="M 0 200 L 80 188 L 160 178 L 240 184 L 320 174 L 400 180 L 480 172 L 560 178 L 640 174 L 742 180 L 742 280 L 0 280 Z" fill="url(#cityFarY2)" opacity="0.92"/>
+    <path d="M 0 200 L 80 188 L 160 178 L 240 184 L 320 174 L 400 180 L 480 172 L 560 178 L 640 174 L 742 180" stroke="#1a1008" stroke-width="0.7" fill="none"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#strongGlowY2)">
+    <circle cx="40" cy="194" r="2.4" fill="#f4b860" opacity="0.85"/>
+    <circle cx="120" cy="190" r="2.4" fill="#f4b860" opacity="0.85"/>
+    <circle cx="200" cy="184" r="2.4" fill="#f4b860" opacity="0.85"/>
+    <circle cx="280" cy="180" r="2.4" fill="#f4b860" opacity="0.85"/>
+    <circle cx="360" cy="180" r="2.4" fill="#f4b860" opacity="0.85"/>
+    <circle cx="440" cy="178" r="2.4" fill="#f4b860" opacity="0.85"/>
+    <circle cx="520" cy="178" r="2.4" fill="#f4b860" opacity="0.85"/>
+    <circle cx="600" cy="178" r="2.4" fill="#f4b860" opacity="0.85"/>
+    <circle cx="680" cy="180" r="2.4" fill="#f4b860" opacity="0.85"/>
+    <circle cx="80" cy="220" r="2" fill="#f4b860" opacity="0.7"/>
+    <circle cx="180" cy="226" r="2" fill="#f4b860" opacity="0.7"/>
+    <circle cx="320" cy="228" r="2" fill="#f4b860" opacity="0.7"/>
+    <circle cx="460" cy="226" r="2" fill="#f4b860" opacity="0.7"/>
+    <circle cx="580" cy="228" r="2" fill="#f4b860" opacity="0.7"/>
+    <circle cx="700" cy="222" r="2" fill="#f4b860" opacity="0.7"/>
+  </g>
+  <g opacity="0.55" filter="url(#megaGlowY2)">
+    <ellipse cx="370" cy="220" rx="320" ry="44" fill="#a85820" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.92">
+    <line x1="0" y1="138" x2="120" y2="134" stroke="#080404" stroke-width="0.7"/>
+    <line x1="120" y1="134" x2="280" y2="128" stroke="#080404" stroke-width="0.7"/>
+    <line x1="280" y1="128" x2="440" y2="124" stroke="#080404" stroke-width="0.7"/>
+    <line x1="440" y1="124" x2="600" y2="128" stroke="#080404" stroke-width="0.7"/>
+    <line x1="600" y1="128" x2="742" y2="138" stroke="#080404" stroke-width="0.7"/>
+    <line x1="0" y1="156" x2="280" y2="148" stroke="#080404" stroke-width="0.55" opacity="0.85"/>
+    <line x1="280" y1="148" x2="600" y2="146" stroke="#080404" stroke-width="0.55" opacity="0.85"/>
+    <line x1="600" y1="146" x2="742" y2="154" stroke="#080404" stroke-width="0.55" opacity="0.85"/>
+    <line x1="120" y1="134" x2="120" y2="180" stroke="#080404" stroke-width="0.5" opacity="0.7"/>
+    <line x1="280" y1="128" x2="280" y2="184" stroke="#080404" stroke-width="0.5" opacity="0.7"/>
+    <line x1="440" y1="124" x2="440" y2="180" stroke="#080404" stroke-width="0.5" opacity="0.7"/>
+    <line x1="600" y1="128" x2="600" y2="184" stroke="#080404" stroke-width="0.5" opacity="0.7"/>
+  </g>
+
+  <g>
+    <rect x="0" y="220" width="742" height="40" fill="url(#leadFlashY2)" opacity="0.92"/>
+    <line x1="0" y1="224" x2="742" y2="224" stroke="#1a1828" stroke-width="0.7"/>
+    <g opacity="0.55" stroke="#1a1828" stroke-width="0.4">
+      <line x1="120" y1="224" x2="120" y2="280"/>
+      <line x1="260" y1="224" x2="260" y2="280"/>
+      <line x1="400" y1="224" x2="400" y2="280"/>
+      <line x1="540" y1="224" x2="540" y2="280"/>
+      <line x1="680" y1="224" x2="680" y2="280"/>
+    </g>
+  </g>
+
+  <g>
+    <ellipse cx="450" cy="218" rx="40" ry="9" fill="url(#theoBodyY2)" opacity="0.92"/>
+    <ellipse cx="438" cy="208" rx="14" ry="11" fill="url(#theoBodyY2)"/>
+    <path d="M 426 192 Q 438 184 452 192 Q 458 204 452 212 L 446 210 Q 440 192 436 212 Z" fill="url(#hairSandyY2)"/>
+    <ellipse cx="436" cy="208" rx="2" ry="2.4" fill="#0a0604"/>
+    <path d="M 432 218 L 442 218" stroke="#0a0604" stroke-width="0.85"/>
+
+    <path d="M 450 218 L 470 222 L 488 226 L 504 232" stroke="url(#theoBodyY2)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M 450 222 Q 466 230 482 234 L 484 252 L 466 252 Z" fill="url(#theoBodyY2)"/>
+    <path d="M 482 234 L 492 252 L 500 268" stroke="url(#theoBodyY2)" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M 488 230 L 502 252 L 512 268" stroke="url(#theoBodyY2)" stroke-width="11" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="500" cy="270" rx="6" ry="3" fill="#1a0a04"/>
+    <ellipse cx="512" cy="270" rx="6" ry="3" fill="#1a0a04"/>
+  </g>
+
+  <g>
+    <ellipse cx="380" cy="222" rx="6" ry="2" fill="#080404" opacity="0.55"/>
+
+    <ellipse cx="380" cy="210" rx="3" ry="3.4" fill="#3a261a"/>
+    <ellipse cx="380" cy="204" rx="2" ry="2" fill="url(#hairBlondeY2)"/>
+    <path d="M 376 200 Q 380 196 384 200 Q 386 204 384 206 L 382 204 Q 380 200 378 204 Z" fill="url(#hairBlondeY2)"/>
+
+    <ellipse cx="378" cy="206" rx="0.5" ry="0.7" fill="#0a0604"/>
+    <ellipse cx="382" cy="206" rx="0.5" ry="0.7" fill="#0a0604"/>
+
+    <path d="M 376 214 Q 380 210 384 214 Q 386 220 382 222 L 384 214 Z" fill="url(#emeraldFigY2)"/>
+
+    <path d="M 375 214 L 370 220" stroke="url(#emeraldFigY2)" stroke-width="0.85" stroke-linecap="round"/>
+    <path d="M 385 214 L 390 220" stroke="url(#emeraldFigY2)" stroke-width="0.85" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.95" filter="url(#strongGlowY2)">
+    <ellipse cx="380" cy="214" rx="9" ry="6" fill="#3a8858" opacity="0.62"/>
+  </g>
+  <g opacity="0.55" filter="url(#megaGlowY2)">
+    <ellipse cx="380" cy="216" rx="22" ry="9" fill="#3a8858" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.55">
+    <path d="M 380 208 Q 410 210 430 212" stroke="#a87838" stroke-width="0.4" stroke-dasharray="2 1.4" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="320" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a8858" stroke-width="1.2"/>
+    <text x="152" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#3a8858" font-weight="700">JINK (quiet, almost inaudible):</text>
+    <text x="152" y="19" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" fill="#2a2a2a" font-style="italic">"You are the most stubborn person I have ever met."</text>
+  </g>
+
+  <g transform="translate(220,40)">
+    <rect x="-8" y="0" width="320" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a8858" stroke-width="1.2"/>
+    <text x="152" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#3a8858" font-style="italic">"And I have met Sable."</text>
+    <text x="152" y="19" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" fill="#3a2410" font-weight="700">THEODORE: "And you are the bravest..."</text>
+  </g>
+</svg>
