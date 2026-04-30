@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
+  <title>Issue 10 Page 18 Panel 3 — Claw marks on the wall, constable's reaching hand</title>
+  <desc>Close-up Victorian interior wall showing deep claw marks gouged into plaster and brick — at height no human could reach, marks too large and deep for any known animal. Constable's gloved hand reaches up but falls short of highest mark. Below claw marks burned-out device in junction box, dark and inert, alien materials unrecognizable as technology — looks like melted slag to human eyes. Cold grey morning light catches depth of gouges. Evidence that tells a story no one present can read.</desc>
+  <defs>
+    <linearGradient id="bgY3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6478"/>
+      <stop offset="0.5" stop-color="#3a4858"/>
+      <stop offset="1" stop-color="#1a1828"/>
+    </linearGradient>
+    <radialGradient id="greyLightY3" cx="0.18" cy="0.2" r="0.55">
+      <stop offset="0" stop-color="#a8b0bc" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#5a6478" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#1a1828" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="plasterWallY3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a89888"/>
+      <stop offset="0.5" stop-color="#5a4838"/>
+      <stop offset="1" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="plasterShadY3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4838"/>
+      <stop offset="0.5" stop-color="#3a2818"/>
+      <stop offset="1" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="brickRevealY3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a2818"/>
+      <stop offset="0.5" stop-color="#3a1a14"/>
+      <stop offset="1" stop-color="#1a0a08"/>
+    </linearGradient>
+    <linearGradient id="gougeBlackY3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0a08"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <linearGradient id="boxFrameY3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3018"/>
+      <stop offset="0.5" stop-color="#3a1a08"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <linearGradient id="deviceSlagY3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1a08"/>
+      <stop offset="0.5" stop-color="#1a0a04"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="gloveY3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1828"/>
+      <stop offset="0.5" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <linearGradient id="coatNavyY3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4868"/>
+      <stop offset="0.5" stop-color="#1a2438"/>
+      <stop offset="1" stop-color="#0a1020"/>
+    </linearGradient>
+    <filter id="bloomY3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.8"/>
+    </filter>
+    <filter id="strongShadowY3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.2"/>
+    </filter>
+    <filter id="dustBlurY3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.6"/>
+    </filter>
+  </defs>
+
+  <rect width="366" height="280" fill="url(#bgY3)"/>
+  <rect width="366" height="280" fill="url(#greyLightY3)"/>
+
+  <g>
+    <rect x="0" y="0" width="366" height="280" fill="url(#plasterWallY3)"/>
+    <g opacity="0.55">
+      <ellipse cx="60" cy="50" rx="40" ry="14" fill="url(#plasterShadY3)" opacity="0.45"/>
+      <ellipse cx="280" cy="80" rx="56" ry="18" fill="url(#plasterShadY3)" opacity="0.42"/>
+      <ellipse cx="120" cy="200" rx="44" ry="16" fill="url(#plasterShadY3)" opacity="0.4"/>
+      <ellipse cx="320" cy="240" rx="40" ry="14" fill="url(#plasterShadY3)" opacity="0.5"/>
+    </g>
+    <g opacity="0.42">
+      <line x1="0" y1="100" x2="366" y2="98" stroke="#3a2818" stroke-width="0.4"/>
+      <line x1="0" y1="160" x2="366" y2="158" stroke="#3a2818" stroke-width="0.4"/>
+      <line x1="0" y1="220" x2="366" y2="218" stroke="#3a2818" stroke-width="0.4"/>
+    </g>
+  </g>
+
+  <g>
+    <path d="M 30 30 Q 70 60 110 100 L 100 110 Q 60 80 24 38 Z" fill="url(#brickRevealY3)" opacity="0.85"/>
+    <path d="M 30 30 Q 70 60 110 100" stroke="url(#gougeBlackY3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 26 38 Q 64 70 100 110" stroke="url(#gougeBlackY3)" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.92"/>
+
+    <path d="M 50 50 Q 90 80 130 120 L 120 130 Q 80 100 44 58 Z" fill="url(#brickRevealY3)" opacity="0.85"/>
+    <path d="M 50 50 Q 90 80 130 120" stroke="url(#gougeBlackY3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 46 58 Q 84 90 120 130" stroke="url(#gougeBlackY3)" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.92"/>
+
+    <path d="M 70 70 Q 110 100 150 140 L 140 150 Q 100 120 64 78 Z" fill="url(#brickRevealY3)" opacity="0.85"/>
+    <path d="M 70 70 Q 110 100 150 140" stroke="url(#gougeBlackY3)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 66 78 Q 104 110 140 150" stroke="url(#gougeBlackY3)" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.92"/>
+
+    <path d="M 90 90 Q 130 120 170 160 L 160 170 Q 120 140 84 98 Z" fill="url(#brickRevealY3)" opacity="0.85"/>
+    <path d="M 90 90 Q 130 120 170 160" stroke="url(#gougeBlackY3)" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M 86 98 Q 124 130 160 170" stroke="url(#gougeBlackY3)" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.92"/>
+  </g>
+
+  <g opacity="0.65" filter="url(#strongShadowY3)">
+    <path d="M 40 38 Q 76 64 110 100 L 100 110" stroke="#080404" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 60 58 Q 96 84 130 120 L 120 130" stroke="#080404" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 80 78 Q 116 104 150 140 L 140 150" stroke="#080404" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 100 98 Q 132 124 170 160 L 160 170" stroke="#080404" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#dustBlurY3)">
+    <ellipse cx="60" cy="120" rx="40" ry="14" fill="#a89888" opacity="0.55"/>
+    <ellipse cx="120" cy="158" rx="34" ry="12" fill="#a89888" opacity="0.45"/>
+  </g>
+
+  <g opacity="0.7">
+    <ellipse cx="84" cy="98" rx="6" ry="2" fill="url(#brickRevealY3)"/>
+    <ellipse cx="100" cy="124" rx="5" ry="1.4" fill="url(#brickRevealY3)"/>
+    <polygon points="46,90 54,86 60,94 50,98" fill="#3a1a14" opacity="0.55"/>
+    <polygon points="124,140 132,136 138,144 128,148" fill="#3a1a14" opacity="0.55"/>
+  </g>
+
+  <g>
+    <rect x="200" y="160" width="120" height="100" rx="4" fill="url(#boxFrameY3)" stroke="#080404" stroke-width="2.4"/>
+    <rect x="208" y="168" width="104" height="84" rx="2" fill="#0a0604"/>
+
+    <rect x="220" y="186" width="80" height="50" rx="3" fill="url(#deviceSlagY3)" stroke="#080404" stroke-width="1.4"/>
+    <path d="M 220 196 Q 232 192 244 196 Q 256 200 268 194 Q 280 192 300 198" stroke="#1a0a04" stroke-width="0.7" fill="none" opacity="0.75"/>
+    <path d="M 220 210 Q 232 208 244 214 Q 256 220 268 212 Q 280 210 300 216" stroke="#1a0a04" stroke-width="0.7" fill="none" opacity="0.65"/>
+    <path d="M 220 226 Q 232 222 244 226 Q 260 230 280 224 Q 290 222 300 228" stroke="#1a0a04" stroke-width="0.7" fill="none" opacity="0.55"/>
+
+    <ellipse cx="232" cy="200" rx="5" ry="3" fill="#080404"/>
+    <ellipse cx="252" cy="218" rx="6" ry="3.5" fill="#080404"/>
+    <ellipse cx="278" cy="208" rx="5" ry="3" fill="#080404"/>
+    <ellipse cx="290" cy="226" rx="4" ry="2" fill="#080404"/>
+
+    <g opacity="0.65">
+      <rect x="216" y="174" width="22" height="10" rx="1.5" fill="#5a3018" stroke="#1a0a04" stroke-width="0.4"/>
+      <rect x="282" y="174" width="22" height="10" rx="1.5" fill="#5a3018" stroke="#1a0a04" stroke-width="0.4"/>
+      <rect x="216" y="240" width="22" height="14" rx="2" fill="#5a3018" stroke="#1a0a04" stroke-width="0.4"/>
+      <rect x="282" y="240" width="22" height="14" rx="2" fill="#5a3018" stroke="#1a0a04" stroke-width="0.4"/>
+    </g>
+  </g>
+
+  <g opacity="0.55" filter="url(#dustBlurY3)">
+    <ellipse cx="260" cy="158" rx="40" ry="6" fill="#5a4838" opacity="0.5"/>
+  </g>
+
+  <g>
+    <path d="M 180 200 Q 200 200 218 200 Q 232 196 248 198" stroke="url(#gloveY3)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <ellipse cx="178" cy="200" rx="14" ry="11" fill="url(#gloveY3)"/>
+    <path d="M 168 188 Q 174 180 184 180 Q 192 184 192 192 L 188 200 Q 180 188 174 188 Q 170 192 168 198 Z" fill="url(#gloveY3)"/>
+
+    <path d="M 248 198 L 270 196 L 290 192 L 310 188 Q 320 184 322 178" stroke="url(#coatNavyY3)" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M 322 178 L 332 168 L 340 162" stroke="url(#coatNavyY3)" stroke-width="20" fill="none" stroke-linecap="round"/>
+
+    <path d="M 248 198 L 252 178" stroke="url(#coatNavyY3)" stroke-width="3" fill="none" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.85">
+    <line x1="174" y1="190" x2="172" y2="178" stroke="#3a4868" stroke-width="0.6"/>
+    <line x1="180" y1="186" x2="180" y2="174" stroke="#3a4868" stroke-width="0.6"/>
+    <line x1="186" y1="186" x2="188" y2="174" stroke="#3a4868" stroke-width="0.6"/>
+  </g>
+
+  <g opacity="0.55">
+    <text x="172" y="172" text-anchor="middle" font-family="Times New Roman, serif" font-size="4" fill="#5a6478" font-style="italic">·</text>
+    <text x="180" y="172" text-anchor="middle" font-family="Times New Roman, serif" font-size="4" fill="#5a6478" font-style="italic">·</text>
+    <text x="188" y="172" text-anchor="middle" font-family="Times New Roman, serif" font-size="4" fill="#5a6478" font-style="italic">·</text>
+  </g>
+
+  <g opacity="0.65">
+    <path d="M 78 124 Q 80 132 76 138" stroke="#3a2818" stroke-width="0.4" fill="none" stroke-dasharray="2 1.2" opacity="0.55"/>
+    <path d="M 110 156 Q 116 164 110 172" stroke="#3a2818" stroke-width="0.4" fill="none" stroke-dasharray="2 1.2" opacity="0.5"/>
+  </g>
+
+  <g opacity="0.55" stroke="#dc4540" stroke-width="0.4" fill="none">
+    <polygon points="208,164 212,162 216,164 214,168 210,168" opacity="0.55"/>
+    <polygon points="296,164 300,162 304,164 302,168 298,168" opacity="0.55"/>
+  </g>
+
+  <g transform="translate(20,12)">
+    <rect x="-8" y="0" width="240" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#1a2438" stroke-width="1.2"/>
+    <text x="112" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#1a2438" font-weight="700">CONSTABLE: "Claw marks.</text>
+    <text x="112" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.4" fill="#2a2a2a" font-style="italic" font-weight="700">Those are... claw marks."</text>
+  </g>
+
+  <g transform="translate(20,242)">
+    <rect x="-8" y="0" width="240" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a2410" stroke-width="1.2"/>
+    <text x="112" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#3a2410" font-weight="700">WORKER (off-panel):</text>
+    <text x="112" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="7.2" fill="#2a2a2a" font-style="italic">"I told you. It wasn't a man."</text>
+  </g>
+</svg>
