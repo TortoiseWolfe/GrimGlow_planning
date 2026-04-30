@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 300" width="742" height="300">
+  <title>Issue 8 — Page 2 — Panel 1: Two threats mapped — fairy glyphs in blue-violet, Titan traces in oil-on-water bruise — both on the same city</title>
+  <desc>35mm medium wide slightly elevated. City map hovers in camp, two data sets overlaid — structured blue-violet fairy glyph markers + dark iridescent bruise-purple-and-black Titan trace overlay. Dark iridescence unsettling, oil-on-water shimmer — wrong, void-like. Luma stands before display, scanner grip slightly tighter, professional composure. Higher beam — Jink leans forward sharpened. Perimeter — Thresh tightens grip on weapon. Visual collision: structured fairy light against dark Titan corruption.</desc>
+
+  <defs>
+    <linearGradient id="i8p2p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p2p1timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p2p1amberGap" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p2p1violet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p2p1titan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a1838" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#1a1838" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#040208" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p2p1iridescence" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a1838" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#1a1018" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a1838" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="i8p2p1lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p2p1jinkSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i8p2p1threshSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f04838"/>
+      <stop offset="100%" stop-color="#7a1810"/>
+    </linearGradient>
+    <linearGradient id="i8p2p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i8p2p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p2p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p2p1strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p2p1megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="i8p2p1wrongness"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p2p1dataPulse"><feGaussianBlur stdDeviation="0.85"/></filter>
+  </defs>
+
+  <rect width="742" height="300" fill="url(#i8p2p1bg)"/>
+
+  <!-- Top floorboard -->
+  <rect x="0" y="0" width="742" height="20" fill="url(#i8p2p1timber)"/>
+  <line x1="0" y1="20" x2="742" y2="20" stroke="#1a0808" stroke-width="0.85"/>
+
+  <!-- Wall gap right side (warm amber, dimmer this panel) -->
+  <rect x="660" y="60" width="40" height="220" fill="#040408"/>
+  <ellipse cx="700" cy="160" rx="180" ry="160" fill="url(#i8p2p1amberGap)" filter="url(#i8p2p1megaglow)"/>
+  <path d="M660,60 L660,280 L668,275 L662,180 L670,170 L664,80 Z" fill="#1a1208" opacity="0.85"/>
+
+  <!-- Timber beams -->
+  <rect x="220" y="0" width="14" height="300" fill="url(#i8p2p1timber)"/>
+  <rect x="500" y="0" width="14" height="300" fill="url(#i8p2p1timber)"/>
+  <rect x="40" y="100" width="180" height="11" fill="url(#i8p2p1timber)"/>
+  <rect x="500" y="260" width="160" height="11" fill="url(#i8p2p1timber)"/>
+  <rect x="0" y="270" width="742" height="30" fill="#0a0606"/>
+
+  <!-- ===== HOLOGRAPHIC CITY MAP — center, with Titan overlay ===== -->
+  <g transform="translate(371 140)">
+    <!-- Violet halo (fairy data still beneath) -->
+    <ellipse cx="0" cy="0" rx="180" ry="100" fill="url(#i8p2p1violet)" filter="url(#i8p2p1megaglow)" opacity="0.55"/>
+    <!-- Dark Titan halo overlapping -->
+    <ellipse cx="0" cy="10" rx="200" ry="110" fill="url(#i8p2p1titan)" filter="url(#i8p2p1megaglow)"/>
+
+    <!-- Map projection footprint -->
+    <ellipse cx="0" cy="44" rx="80" ry="11" fill="none" stroke="#7848b8" stroke-width="0.55" filter="url(#i8p2p1bloom)" opacity="0.55"/>
+
+    <!-- City grid (perspective) — dimmer beneath the corruption -->
+    <g stroke="#7848b8" stroke-width="0.55" fill="none" filter="url(#i8p2p1bloom)" opacity="0.55">
+      <path d="M-100,40 L100,40"/>
+      <path d="M-90,30 L90,30"/>
+      <path d="M-80,20 L80,20"/>
+      <path d="M-70,10 L70,10"/>
+      <path d="M-60,0 L60,0"/>
+      <path d="M-50,-10 L50,-10"/>
+      <path d="M-40,-20 L40,-20"/>
+      <path d="M-100,40 L-40,-20"/>
+      <path d="M-50,40 L-20,-20"/>
+      <path d="M0,40 L0,-20"/>
+      <path d="M50,40 L20,-20"/>
+      <path d="M100,40 L40,-20"/>
+    </g>
+    <!-- Buildings (faded) -->
+    <g fill="none" stroke="#7848b8" stroke-width="0.4" opacity="0.55">
+      <rect x="-60" y="-9" width="11" height="14"/>
+      <rect x="-30" y="0" width="9" height="9"/>
+      <rect x="14" y="-14" width="14" height="22"/>
+      <rect x="40" y="-3" width="9" height="14"/>
+    </g>
+    <!-- River curve -->
+    <path d="M-100,11 Q-50,18 0,14 Q50,10 100,18" stroke="#3a6850" stroke-width="0.85" fill="none" filter="url(#i8p2p1bloom)" opacity="0.55"/>
+
+    <!-- ===== FAIRY GLYPH MARKERS (still visible beneath) ===== -->
+    <g filter="url(#i8p2p1glow)" opacity="0.55">
+      <circle cx="-44" cy="-3" r="2.5" fill="#a878e8"/>
+      <circle cx="-22" cy="11" r="2.5" fill="#a878e8"/>
+      <circle cx="0" cy="-9" r="2.5" fill="#a878e8"/>
+      <circle cx="28" cy="3" r="2.5" fill="#a878e8"/>
+      <circle cx="44" cy="-3" r="2.5" fill="#a878e8"/>
+      <circle cx="-60" cy="22" r="2" fill="#a878e8"/>
+      <circle cx="60" cy="22" r="2" fill="#a878e8"/>
+      <circle cx="14" cy="22" r="2" fill="#a878e8"/>
+    </g>
+
+    <!-- ===== TITAN TRACE OVERLAY — dark iridescent bruise-purple/black ===== -->
+    <g filter="url(#i8p2p1wrongness)" opacity="0.85">
+      <!-- Trace zones (oil-on-water shimmer regions) -->
+      <ellipse cx="-50" cy="0" rx="20" ry="12" fill="url(#i8p2p1iridescence)"/>
+      <ellipse cx="-15" cy="14" rx="22" ry="14" fill="url(#i8p2p1iridescence)"/>
+      <ellipse cx="35" cy="-3" rx="18" ry="11" fill="url(#i8p2p1iridescence)"/>
+      <ellipse cx="60" cy="20" rx="14" ry="9" fill="url(#i8p2p1iridescence)"/>
+    </g>
+    <!-- Trace center markers (crosshair anti-light) -->
+    <g fill="#040208" filter="url(#i8p2p1bloom)" opacity="0.95">
+      <circle cx="-50" cy="0" r="3"/>
+      <circle cx="-15" cy="14" r="3.5"/>
+      <circle cx="35" cy="-3" r="3"/>
+      <circle cx="60" cy="20" r="2.5"/>
+    </g>
+    <!-- Iridescent crosshair rims -->
+    <g stroke="#3a1838" stroke-width="0.55" fill="none" filter="url(#i8p2p1bloom)" opacity="0.85">
+      <line x1="-58" y1="0" x2="-42" y2="0"/>
+      <line x1="-50" y1="-7" x2="-50" y2="7"/>
+      <line x1="-23" y1="14" x2="-7" y2="14"/>
+      <line x1="-15" y1="6" x2="-15" y2="22"/>
+      <line x1="27" y1="-3" x2="43" y2="-3"/>
+      <line x1="35" y1="-11" x2="35" y2="5"/>
+      <line x1="52" y1="20" x2="68" y2="20"/>
+      <line x1="60" y1="13" x2="60" y2="27"/>
+    </g>
+    <!-- Anti-light tendrils (wrongness streaks) -->
+    <g fill="#040208" opacity="0.55" filter="url(#i8p2p1wrongness)">
+      <ellipse cx="-50" cy="-22" rx="6" ry="14"/>
+      <ellipse cx="-15" cy="36" rx="6" ry="14"/>
+      <ellipse cx="35" cy="-22" rx="5" ry="14"/>
+    </g>
+
+    <!-- Title shift -->
+    <text x="-100" y="-80" font-family="monospace" font-size="4" fill="#3a1838" filter="url(#i8p2p1dataPulse)" opacity="0.95">TITAN-TRACE//OVERLAY-ACTIVE</text>
+    <text x="-100" y="-72" font-family="monospace" font-size="3" fill="#3a1838" opacity="0.85">SIG: BIO-RESIDUE | TEMPORAL DISP</text>
+
+    <!-- Trace labels -->
+    <g fill="#3a1838" filter="url(#i8p2p1dataPulse)" opacity="0.85">
+      <text x="-72" y="-12" font-family="monospace" font-size="2.5">DEAD-BIRD</text>
+      <text x="-30" y="32" font-family="monospace" font-size="2.5">FACTORY-ANOM</text>
+      <text x="20" y="-15" font-family="monospace" font-size="2.5">CLAW-MARKS</text>
+      <text x="48" y="34" font-family="monospace" font-size="2.5">BIO-TRACE</text>
+    </g>
+  </g>
+
+  <!-- ===== LUMA before display (scanner grip tighter) ===== -->
+  <g transform="translate(371 235)">
+    <path d="M-9,30 L-11,9 L-14,-14 L-11,-30 L-3,-40 L3,-40 L11,-30 L14,-14 L11,9 L9,30 Z" fill="url(#i8p2p1lumaSuit)"/>
+    <ellipse cx="-14" cy="0" rx="3" ry="2" fill="#1a0810" opacity="0.85"/>
+    <ellipse cx="14" cy="0" rx="3" ry="2" fill="#1a0810" opacity="0.85"/>
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#c8a8e8" stroke-width="0.55" opacity="0.85" filter="url(#i8p2p1bloom)"/>
+    <circle cx="-9" cy="-22" r="0.85" fill="#c8a8e8" filter="url(#i8p2p1bloom)" opacity="0.85"/>
+    <circle cx="9" cy="-22" r="0.85" fill="#c8a8e8" filter="url(#i8p2p1bloom)" opacity="0.85"/>
+    <!-- Scanner gripped tighter (visible knuckle) -->
+    <g transform="translate(-14 0)">
+      <rect x="-3" y="-5" width="7" height="11" fill="#3a1858"/>
+      <ellipse cx="0" cy="-5" rx="3" ry="0.85" fill="#3a1838" filter="url(#i8p2p1bloom)" opacity="0.95"/>
+      <!-- Knuckle white -->
+      <ellipse cx="-3" cy="2" rx="1.4" ry="0.85" fill="#fff8d8" opacity="0.7"/>
+    </g>
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="6" ry="7" fill="url(#i8p2p1skin)"/>
+    <path d="M3,-44 Q9,-30 14,11" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M3,-44 Q9,-30 14,11" stroke="#a878e8" stroke-width="0.4" fill="none" filter="url(#i8p2p1bloom)" opacity="0.95"/>
+    <path d="M-7,-58 Q0,-62 7,-58 L7,-50 Q0,-54 -7,-50 Z" fill="#1a0808"/>
+    <ellipse cx="-2" cy="-50" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p2p1bloom)" opacity="0.95"/>
+    <ellipse cx="2" cy="-50" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p2p1bloom)" opacity="0.95"/>
+    <circle cx="-2" cy="-50" r="0.55" fill="#c8a8e8" filter="url(#i8p2p1bloom)"/>
+    <circle cx="2" cy="-50" r="0.55" fill="#c8a8e8" filter="url(#i8p2p1bloom)"/>
+    <line x1="-3" y1="-44" x2="3" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== JINK — leans forward (sharpened attention) ===== -->
+  <g transform="translate(140 130)">
+    <!-- Body — leaning forward -->
+    <path d="M-9,30 L-14,11 L-11,-3 L-3,-22 L3,-22 L11,-3 L14,11 L9,30 Z" fill="url(#i8p2p1jinkSuit)"/>
+    <ellipse cx="-7" cy="22" rx="9" ry="6" fill="url(#i8p2p1jinkSuit)"/>
+    <ellipse cx="7" cy="22" rx="9" ry="6" fill="url(#i8p2p1jinkSuit)"/>
+    <!-- Forward lean — neck/head extended -->
+    <path d="M-11,-9 L0,-3" stroke="#1a1410" stroke-width="1.4" opacity="0.85"/>
+    <line x1="0" y1="-22" x2="0" y2="11" stroke="#a8ffd0" stroke-width="0.4" opacity="0.7" filter="url(#i8p2p1bloom)"/>
+    <rect x="-7" y="-14" width="14" height="9" fill="#0a3018"/>
+    <circle cx="0" cy="-9" r="0.85" fill="#5af0a0" filter="url(#i8p2p1bloom)" opacity="0.85"/>
+    <!-- Head tilted/pushed forward -->
+    <ellipse cx="3" cy="-32" rx="5" ry="6" fill="#a87838"/>
+    <g fill="#f0d878" opacity="0.85">
+      <ellipse cx="3" cy="-38" rx="7" ry="3"/>
+      <circle cx="-3" cy="-35" r="2"/>
+      <circle cx="9" cy="-37" r="2.5"/>
+      <circle cx="0" cy="-42" r="2"/>
+    </g>
+    <!-- Eyes — sharpened, watching -->
+    <ellipse cx="0" cy="-32" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="1" cy="-32" r="0.55" fill="#3a1808"/>
+    <ellipse cx="6" cy="-32" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="7" cy="-32" r="0.55" fill="#3a1808"/>
+    <!-- Brows down (concern) -->
+    <line x1="-3" y1="-37" x2="3" y2="-37" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="3" y1="-37" x2="9" y2="-37" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Mouth — flat -->
+    <line x1="0" y1="-26" x2="6" y2="-26" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- ===== THRESH — grip tightened on weapon ===== -->
+  <g transform="translate(580 235)">
+    <path d="M-14,30 L-18,9 L-22,-14 L-16,-30 L-3,-40 L3,-40 L16,-30 L22,-14 L18,9 L14,30 Z" fill="url(#i8p2p1threshSuit)"/>
+    <ellipse cx="-16" cy="-22" rx="6" ry="4" fill="#5a1410"/>
+    <line x1="-18" y1="-25" x2="-14" y2="-18" stroke="#1a0606" stroke-width="0.85"/>
+    <ellipse cx="16" cy="-22" rx="6" ry="4" fill="#7a1810"/>
+    <path d="M-9,-9 L9,3" stroke="#3a0a0a" stroke-width="2" opacity="0.85"/>
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#ffa898" stroke-width="0.55" opacity="0.85" filter="url(#i8p2p1bloom)"/>
+    <ellipse cx="-11" cy="22" rx="9" ry="6" fill="url(#i8p2p1threshSuit)"/>
+    <ellipse cx="11" cy="22" rx="9" ry="6" fill="url(#i8p2p1threshSuit)"/>
+    <!-- WEAPON — grip tightened -->
+    <rect x="-22" y="20" width="44" height="3" fill="#1a1818"/>
+    <ellipse cx="0" cy="22" rx="6" ry="0.85" fill="#f04838" filter="url(#i8p2p1bloom)" opacity="0.95"/>
+    <!-- Hands GRIPPING tighter — knuckles white -->
+    <ellipse cx="-14" cy="22" rx="3" ry="2" fill="#e0b888"/>
+    <ellipse cx="14" cy="22" rx="3" ry="2" fill="#e0b888"/>
+    <ellipse cx="-14" cy="22" rx="2" ry="1.4" fill="#fff8d8" opacity="0.55"/>
+    <ellipse cx="14" cy="22" rx="2" ry="1.4" fill="#fff8d8" opacity="0.55"/>
+    <ellipse cx="2" cy="-50" rx="6" ry="7" fill="#e0b888"/>
+    <path d="M-5,-58 Q2,-62 9,-58 L9,-50 Q2,-54 -5,-50 Z" fill="#a83820"/>
+    <ellipse cx="0" cy="-50" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="1" cy="-50" r="0.55" fill="#3a1808"/>
+    <ellipse cx="5" cy="-50" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="6" cy="-50" r="0.55" fill="#3a1808"/>
+    <line x1="-3" y1="-54" x2="3" y2="-54" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="3" y1="-54" x2="9" y2="-54" stroke="#3a1808" stroke-width="0.85"/>
+  </g>
+
+  <!-- ===== DIALOGUE — LUMA ===== -->
+  <g>
+    <rect x="14" y="14" width="500" height="50" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">And this is the other half. Titan traces. Bio-residue. Temporal displacement.</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-weight="700">Whatever was here before us — they weren't alone.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>

@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
+  <title>Issue 8 — Page 2 — Panel 3: Two-shot — Luma's flicker of uncertainty + Wren in amber zone watching from the warm side</title>
+  <desc>50mm medium two-shot eye level. Foreground: Luma half-turned from holographic display, flicker of uncertainty — eyes narrowing slightly, head tilted — before professional composure reasserts. Sable rigid arms folded clipped deflective. Mixed blue-violet and amber-black light. Background slightly out of focus but clearly visible: Wren in warm amber gaslight zone near wall gap, arms crossed, sharp analytical attention. Pulled back from cool holographic light, observing from warm side, copper suit catching amber. Composition frames foreground in cool investigative light, background observer in warm suspicious light.</desc>
+
+  <defs>
+    <linearGradient id="i8p2p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p2p3timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p2p3coolFG" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p2p3warmBG" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#d89858" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p2p3lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p2p3sableSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a8b0"/>
+      <stop offset="100%" stop-color="#3a3a40"/>
+    </linearGradient>
+    <linearGradient id="i8p2p3wrenSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d88838"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="i8p2p3skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i8p2p3bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p2p3glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p2p3megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+    <filter id="i8p2p3bgBlur"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+
+  <rect width="366" height="300" fill="url(#i8p2p3bg)"/>
+
+  <!-- Foreground cool light pool -->
+  <ellipse cx="120" cy="180" rx="180" ry="160" fill="url(#i8p2p3coolFG)" filter="url(#i8p2p3megaglow)"/>
+
+  <!-- Background — wall gap with warm amber where Wren stands -->
+  <rect x="280" y="60" width="60" height="200" fill="#040408"/>
+  <ellipse cx="310" cy="160" rx="120" ry="140" fill="url(#i8p2p3warmBG)" filter="url(#i8p2p3megaglow)"/>
+  <path d="M280,60 L280,260 L288,255 L282,180 L290,170 L284,80 Z" fill="#1a1208" opacity="0.85"/>
+
+  <!-- Timber beams (depth) -->
+  <rect x="0" y="0" width="366" height="14" fill="url(#i8p2p3timber)"/>
+  <rect x="0" y="270" width="366" height="30" fill="#0a0606"/>
+  <rect x="220" y="14" width="11" height="260" fill="url(#i8p2p3timber)" opacity="0.85"/>
+
+  <!-- ===== LUMA foreground left, half-turned — flicker of uncertainty ===== -->
+  <g transform="translate(80 200)">
+    <!-- Body — partial twist toward Sable -->
+    <path d="M-14,60 L-18,11 L-22,-22 L-14,-50 L-3,-66 L9,-66 L18,-50 L22,-22 L18,11 L14,60 Z" fill="url(#i8p2p3lumaSuit)"/>
+    <!-- Heavy ink stains -->
+    <ellipse cx="-18" cy="-3" rx="4" ry="3" fill="#1a0810" opacity="0.95"/>
+    <!-- Suit accent -->
+    <line x1="0" y1="-50" x2="0" y2="50" stroke="#c8a8e8" stroke-width="0.55" opacity="0.85" filter="url(#i8p2p3bloom)"/>
+    <circle cx="-9" cy="-30" r="1" fill="#c8a8e8" filter="url(#i8p2p3bloom)" opacity="0.85"/>
+    <circle cx="9" cy="-30" r="1" fill="#c8a8e8" filter="url(#i8p2p3bloom)" opacity="0.85"/>
+    <!-- Arm holding scanner (lowered) -->
+    <path d="M-22,-22 L-30,9 L-22,18 L-11,3 Z" fill="url(#i8p2p3lumaSuit)"/>
+    <ellipse cx="-30" cy="9" rx="4" ry="3" fill="url(#i8p2p3skin)"/>
+    <rect x="-32" y="6" width="6" height="9" fill="#3a1858"/>
+    <!-- Other arm at side -->
+    <path d="M22,-22 L26,11 L18,18 L11,0 Z" fill="url(#i8p2p3lumaSuit)"/>
+
+    <!-- Head — half-turned right toward Sable, head tilted slightly -->
+    <ellipse cx="3" cy="-78" rx="9" ry="11" fill="url(#i8p2p3skin)"/>
+    <!-- Braid (visible) -->
+    <path d="M9,-72 Q14,-50 18,3" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M9,-72 Q14,-50 18,3" stroke="#a878e8" stroke-width="0.4" fill="none" filter="url(#i8p2p3bloom)" opacity="0.85"/>
+    <!-- Hair -->
+    <path d="M-7,-86 Q3,-92 13,-86 L13,-78 Q3,-82 -7,-78 Z" fill="#1a0808"/>
+    <!-- Lenses -->
+    <ellipse cx="0" cy="-78" rx="2.5" ry="2" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p2p3bloom)" opacity="0.95"/>
+    <ellipse cx="6" cy="-78" rx="2.5" ry="2" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p2p3bloom)" opacity="0.95"/>
+    <!-- Eyes — narrowing slightly (the flicker) -->
+    <ellipse cx="0" cy="-78" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="1" cy="-78" r="0.55" fill="#3a1808"/>
+    <ellipse cx="6" cy="-78" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="7" cy="-78" r="0.55" fill="#3a1808"/>
+    <!-- Brows — slightly raised, asymmetric (the uncertainty) -->
+    <line x1="-3" y1="-83" x2="3" y2="-84" stroke="#3a1808" stroke-width="0.7"/>
+    <line x1="3" y1="-83" x2="9" y2="-84" stroke="#3a1808" stroke-width="0.7"/>
+    <!-- Mouth — slightly open, mid-question -->
+    <ellipse cx="3" cy="-72" rx="2" ry="1" fill="#3a1808"/>
+  </g>
+
+  <!-- ===== SABLE foreground right, rigid, arms folded ===== -->
+  <g transform="translate(180 200)">
+    <path d="M-14,60 L-18,11 L-22,-22 L-14,-50 L-3,-66 L9,-66 L18,-50 L22,-22 L18,11 L14,60 Z" fill="url(#i8p2p3sableSuit)"/>
+    <!-- Soot streaks -->
+    <ellipse cx="-9" cy="-9" rx="9" ry="4" fill="#1a1818" opacity="0.85"/>
+    <line x1="0" y1="-50" x2="0" y2="50" stroke="#fff" stroke-width="0.4" opacity="0.55" filter="url(#i8p2p3bloom)"/>
+    <!-- Arms folded (tight) -->
+    <path d="M-22,-22 L-26,3 L-9,3 L-9,-22 Z" fill="url(#i8p2p3sableSuit)"/>
+    <path d="M22,-22 L26,3 L9,3 L9,-22 Z" fill="url(#i8p2p3sableSuit)"/>
+    <line x1="-14" y1="-3" x2="14" y2="-3" stroke="#1a1818" stroke-width="0.85"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-78" rx="9" ry="11" fill="#5a3818"/>
+    <path d="M-9,-86 Q0,-92 9,-86 L9,-78 Q0,-82 -9,-78 Z" fill="#e8ecf0" opacity="0.85"/>
+    <!-- Eyes — sharp, command -->
+    <ellipse cx="-3" cy="-78" rx="1.4" ry="0.85" fill="#fff"/>
+    <circle cx="-3" cy="-78" r="0.55" fill="#0a0a14"/>
+    <ellipse cx="3" cy="-78" rx="1.4" ry="0.85" fill="#fff"/>
+    <circle cx="3" cy="-78" r="0.55" fill="#0a0a14"/>
+    <!-- Brows hard flat -->
+    <line x1="-7" y1="-83" x2="-1" y2="-83" stroke="#1a0808" stroke-width="0.85"/>
+    <line x1="1" y1="-83" x2="7" y2="-83" stroke="#1a0808" stroke-width="0.85"/>
+    <!-- Mouth — clipped, deflective -->
+    <line x1="-3" y1="-72" x2="3" y2="-72" stroke="#1a0808" stroke-width="1.4"/>
+  </g>
+
+  <!-- ===== WREN BACKGROUND in warm amber zone — slightly blurred but clearly visible ===== -->
+  <g transform="translate(310 230)" filter="url(#i8p2p3bgBlur)">
+    <!-- Body -->
+    <path d="M-7,30 L-11,9 L-11,-14 L-7,-30 L-3,-40 L3,-40 L9,-30 L11,-14 L9,9 L7,30 Z" fill="url(#i8p2p3wrenSuit)"/>
+    <!-- Oil stains heavy -->
+    <ellipse cx="-3" cy="-9" rx="4" ry="3" fill="#1a0606" opacity="0.85"/>
+    <!-- Suit accent copper -->
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#ffa848" stroke-width="0.55" opacity="0.85" filter="url(#i8p2p3bloom)"/>
+    <!-- Arms crossed -->
+    <path d="M-11,-14 L-14,3 L-3,3 L-3,-14 Z" fill="url(#i8p2p3wrenSuit)"/>
+    <path d="M11,-14 L14,3 L3,3 L3,-14 Z" fill="url(#i8p2p3wrenSuit)"/>
+    <line x1="-9" y1="-3" x2="9" y2="-3" stroke="#1a0606" stroke-width="0.55"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="6" ry="7" fill="#e0b888"/>
+    <!-- Hair UP -->
+    <ellipse cx="0" cy="-58" rx="7" ry="3" fill="#1a1008"/>
+    <circle cx="3" cy="-60" r="2" fill="#1a1008"/>
+    <!-- Strands loose -->
+    <path d="M-7,-54 Q-9,-44 -7,-40" stroke="#1a1008" stroke-width="0.55" fill="none" opacity="0.85"/>
+    <!-- Eyes — looking LEFT toward Sable -->
+    <ellipse cx="-2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-3" cy="-50" r="0.55" fill="#3a1808"/>
+    <ellipse cx="2" cy="-50" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="1.5" cy="-50" r="0.55" fill="#3a1808"/>
+    <!-- Brows narrowed -->
+    <line x1="-5" y1="-54" x2="-1" y2="-54" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="1" y1="-54" x2="5" y2="-54" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Mouth flat -->
+    <line x1="-3" y1="-44" x2="3" y2="-44" stroke="#3a1808" stroke-width="0.55"/>
+    <!-- Amber catchlight on suit -->
+    <ellipse cx="0" cy="-9" rx="6" ry="11" fill="#ffd898" opacity="0.18" filter="url(#i8p2p3bloom)"/>
+  </g>
+
+  <!-- ===== DIALOGUE — exchange ===== -->
+  <!-- LUMA -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">...yes. The correlation is strong.</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">How did you know to ask that?</text>
+
+  <!-- SABLE — clipped -->
+  <g>
+    <rect x="80" y="74" width="270" height="36" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="88" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="88" y="104" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Tactical pattern analysis. Continue.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,260 Q90,262 180,258 Q270,256 366,260"/>
+  </g>
+</svg>

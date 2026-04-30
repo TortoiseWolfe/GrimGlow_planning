@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 320" width="742" height="320">
+  <title>Issue 8 — Page 2 — Panel 4: Convergence point — single pulsing beacon on the map — Luma requests, Sable approves, Wren says aloud what she has been thinking</title>
+  <desc>28mm wide slightly low angle. Full squad visible in wall-cavity camp. Luma stands before display showing single pulsing blue-violet point — the convergence location. Faces Sable with determination, requesting permission. Sable arms folded calculating. Higher beam Jink leans forward curiosity. Perimeter Thresh weapon across knees, calculating watch. Near wall gap Wren stands in amber gaslight, mouth moving in quiet aside, eyes still on Sable. Single convergence point pulses like a beacon. Warm gaslight and cool holographic light divide the space.</desc>
+
+  <defs>
+    <linearGradient id="i8p2p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p2p4timber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="i8p2p4amberGap" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#d89858" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a2818" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p2p4violetMain" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p2p4beaconGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8e8" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#c8a8e8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7848b8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p2p4lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p2p4sableSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a8a8b0"/>
+      <stop offset="100%" stop-color="#3a3a40"/>
+    </linearGradient>
+    <linearGradient id="i8p2p4wrenSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d88838"/>
+      <stop offset="100%" stop-color="#7a3818"/>
+    </linearGradient>
+    <linearGradient id="i8p2p4jinkSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5af0a0"/>
+      <stop offset="100%" stop-color="#1a6838"/>
+    </linearGradient>
+    <linearGradient id="i8p2p4threshSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f04838"/>
+      <stop offset="100%" stop-color="#7a1810"/>
+    </linearGradient>
+    <linearGradient id="i8p2p4skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i8p2p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p2p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p2p4strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p2p4megaglow"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="i8p2p4dataPulse"><feGaussianBlur stdDeviation="0.85"/></filter>
+  </defs>
+
+  <rect width="742" height="320" fill="url(#i8p2p4bg)"/>
+
+  <!-- Top floorboard -->
+  <rect x="0" y="0" width="742" height="20" fill="url(#i8p2p4timber)"/>
+  <line x1="0" y1="20" x2="742" y2="20" stroke="#1a0808" stroke-width="0.85"/>
+
+  <!-- Wall gap with strong amber bleed -->
+  <rect x="660" y="80" width="40" height="220" fill="#040408"/>
+  <ellipse cx="700" cy="180" rx="220" ry="180" fill="url(#i8p2p4amberGap)" filter="url(#i8p2p4megaglow)"/>
+  <path d="M660,80 L660,300 L668,295 L662,200 L670,190 L664,100 Z" fill="#1a1208" opacity="0.85"/>
+
+  <!-- Cool violet field at left -->
+  <ellipse cx="200" cy="200" rx="220" ry="180" fill="url(#i8p2p4violetMain)" filter="url(#i8p2p4megaglow)"/>
+
+  <!-- Beam structure -->
+  <rect x="40" y="120" width="160" height="11" fill="url(#i8p2p4timber)"/>
+  <rect x="500" y="280" width="160" height="11" fill="url(#i8p2p4timber)"/>
+  <rect x="220" y="0" width="14" height="320" fill="url(#i8p2p4timber)"/>
+  <rect x="500" y="0" width="14" height="320" fill="url(#i8p2p4timber)"/>
+  <rect x="0" y="290" width="742" height="30" fill="#0a0606"/>
+
+  <!-- ===== HOLOGRAPHIC CITY MAP — single convergence beacon ===== -->
+  <g transform="translate(371 160)">
+    <!-- Map base (faded) -->
+    <ellipse cx="0" cy="40" rx="80" ry="11" fill="none" stroke="#7848b8" stroke-width="0.55" filter="url(#i8p2p4bloom)" opacity="0.55"/>
+    <g stroke="#7848b8" stroke-width="0.4" fill="none" opacity="0.4">
+      <path d="M-90,40 L90,40"/>
+      <path d="M-70,20 L70,20"/>
+      <path d="M-50,0 L50,0"/>
+      <path d="M-30,-20 L30,-20"/>
+      <path d="M-90,40 L-30,-20"/>
+      <path d="M0,40 L0,-20"/>
+      <path d="M90,40 L30,-20"/>
+    </g>
+    <!-- All previous markers — DIMMED, faded into the background -->
+    <g opacity="0.18">
+      <circle cx="-44" cy="-3" r="2" fill="#a878e8"/>
+      <circle cx="-22" cy="11" r="2" fill="#a878e8"/>
+      <circle cx="28" cy="3" r="2" fill="#a878e8"/>
+      <circle cx="44" cy="-3" r="2" fill="#a878e8"/>
+      <circle cx="-60" cy="22" r="2" fill="#a878e8"/>
+      <circle cx="60" cy="22" r="2" fill="#a878e8"/>
+    </g>
+
+    <!-- ===== THE CONVERGENCE BEACON — center, BRIGHT ===== -->
+    <g filter="url(#i8p2p4megaglow)">
+      <ellipse cx="0" cy="-9" rx="44" ry="40" fill="url(#i8p2p4beaconGlow)"/>
+    </g>
+    <g filter="url(#i8p2p4strongglow)">
+      <circle cx="0" cy="-9" r="14" fill="#fff8e8" opacity="0.95"/>
+    </g>
+    <circle cx="0" cy="-9" r="6" fill="#fff" filter="url(#i8p2p4bloom)"/>
+    <!-- Pulse rings -->
+    <g stroke="#c8a8e8" stroke-width="0.55" fill="none" opacity="0.85" filter="url(#i8p2p4bloom)">
+      <circle cx="0" cy="-9" r="22"/>
+      <circle cx="0" cy="-9" r="32" opacity="0.7"/>
+      <circle cx="0" cy="-9" r="40" opacity="0.55"/>
+    </g>
+
+    <!-- Label -->
+    <line x1="0" y1="-50" x2="22" y2="-72" stroke="#c8a8e8" stroke-width="0.55" filter="url(#i8p2p4bloom)" opacity="0.85"/>
+    <text x="22" y="-72" font-family="monospace" font-size="5" font-weight="700" fill="#c8a8e8" filter="url(#i8p2p4dataPulse)">CONVERGENCE</text>
+    <text x="22" y="-64" font-family="monospace" font-size="3.5" fill="#c8a8e8">CHURCH//WHITECHAPEL</text>
+    <text x="22" y="-58" font-family="monospace" font-size="3" fill="#c8a8e8" opacity="0.85">DECOMMISSIONED 1817</text>
+  </g>
+
+  <!-- ===== LUMA — facing Sable, determined ===== -->
+  <g transform="translate(280 250)">
+    <path d="M-9,30 L-11,9 L-14,-14 L-11,-30 L-3,-40 L3,-40 L11,-30 L14,-14 L11,9 L9,30 Z" fill="url(#i8p2p4lumaSuit)"/>
+    <ellipse cx="-14" cy="0" rx="3" ry="2" fill="#1a0810" opacity="0.85"/>
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#c8a8e8" stroke-width="0.55" opacity="0.85" filter="url(#i8p2p4bloom)"/>
+    <!-- Arm gesturing toward map (left) -->
+    <path d="M-14,-22 L-26,-30 L-22,-14 L-9,-9 Z" fill="url(#i8p2p4lumaSuit)"/>
+    <ellipse cx="-26" cy="-30" rx="2" ry="2" fill="url(#i8p2p4skin)"/>
+    <!-- Head turned right toward Sable -->
+    <ellipse cx="3" cy="-50" rx="6" ry="7" fill="url(#i8p2p4skin)"/>
+    <path d="M9,-44 Q14,-22 18,18" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M9,-44 Q14,-22 18,18" stroke="#a878e8" stroke-width="0.4" fill="none" filter="url(#i8p2p4bloom)" opacity="0.85"/>
+    <path d="M-3,-58 Q3,-62 9,-58 L9,-50 Q3,-54 -3,-50 Z" fill="#1a0808"/>
+    <ellipse cx="0" cy="-50" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p2p4bloom)" opacity="0.95"/>
+    <ellipse cx="6" cy="-50" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.4" filter="url(#i8p2p4bloom)" opacity="0.95"/>
+    <circle cx="0" cy="-50" r="0.55" fill="#fff8e8" filter="url(#i8p2p4bloom)"/>
+    <circle cx="6" cy="-50" r="0.55" fill="#fff8e8" filter="url(#i8p2p4bloom)"/>
+    <!-- Brows determined -->
+    <line x1="-3" y1="-55" x2="3" y2="-55" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="3" y1="-55" x2="9" y2="-55" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="0" y1="-44" x2="6" y2="-44" stroke="#3a1808" stroke-width="0.7"/>
+  </g>
+
+  <!-- ===== SABLE — calculating, the weight of decision ===== -->
+  <g transform="translate(440 250)">
+    <path d="M-9,30 L-11,9 L-14,-14 L-11,-30 L-3,-40 L3,-40 L11,-30 L14,-14 L11,9 L9,30 Z" fill="url(#i8p2p4sableSuit)"/>
+    <ellipse cx="-7" cy="-9" rx="6" ry="4" fill="#1a1818" opacity="0.85"/>
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#fff" stroke-width="0.4" opacity="0.55" filter="url(#i8p2p4bloom)"/>
+    <path d="M-14,-14 L-18,3 L-3,3 L-3,-14 Z" fill="url(#i8p2p4sableSuit)"/>
+    <path d="M14,-14 L18,3 L3,3 L3,-14 Z" fill="url(#i8p2p4sableSuit)"/>
+    <line x1="-9" y1="-3" x2="9" y2="-3" stroke="#1a1818" stroke-width="0.55"/>
+    <ellipse cx="0" cy="-50" rx="6" ry="7" fill="#5a3818"/>
+    <path d="M-7,-58 Q0,-62 7,-58 L7,-50 Q0,-54 -7,-50 Z" fill="#e8ecf0" opacity="0.85"/>
+    <ellipse cx="-2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff"/>
+    <circle cx="-2.5" cy="-50" r="0.55" fill="#0a0a14"/>
+    <ellipse cx="2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff"/>
+    <circle cx="2.5" cy="-50" r="0.55" fill="#0a0a14"/>
+    <line x1="-5" y1="-54" x2="-1" y2="-54" stroke="#1a0808" stroke-width="0.85"/>
+    <line x1="1" y1="-54" x2="5" y2="-54" stroke="#1a0808" stroke-width="0.85"/>
+    <line x1="-3" y1="-44" x2="3" y2="-44" stroke="#1a0808" stroke-width="1.4"/>
+  </g>
+
+  <!-- ===== JINK — leans forward, curious ===== -->
+  <g transform="translate(120 145)">
+    <path d="M-7,30 L-11,11 L-9,-3 L-3,-22 L3,-22 L9,-3 L11,11 L7,30 Z" fill="url(#i8p2p4jinkSuit)"/>
+    <ellipse cx="-7" cy="22" rx="9" ry="5" fill="url(#i8p2p4jinkSuit)"/>
+    <ellipse cx="7" cy="22" rx="9" ry="5" fill="url(#i8p2p4jinkSuit)"/>
+    <line x1="0" y1="-22" x2="0" y2="11" stroke="#a8ffd0" stroke-width="0.4" opacity="0.7" filter="url(#i8p2p4bloom)"/>
+    <rect x="-7" y="-14" width="14" height="9" fill="#0a3018"/>
+    <circle cx="0" cy="-9" r="0.85" fill="#5af0a0" filter="url(#i8p2p4bloom)" opacity="0.85"/>
+    <ellipse cx="3" cy="-32" rx="4" ry="5" fill="#a87838"/>
+    <g fill="#f0d878" opacity="0.85">
+      <ellipse cx="3" cy="-37" rx="6" ry="2.5"/>
+      <circle cx="-2" cy="-35" r="2"/>
+      <circle cx="7" cy="-37" r="2"/>
+    </g>
+    <ellipse cx="0" cy="-32" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="1" cy="-32" r="0.55" fill="#3a1808"/>
+    <ellipse cx="6" cy="-32" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="7" cy="-32" r="0.55" fill="#3a1808"/>
+    <!-- Brows raised (curious) -->
+    <line x1="-3" y1="-37" x2="3" y2="-38" stroke="#3a1808" stroke-width="0.55"/>
+    <line x1="3" y1="-38" x2="9" y2="-37" stroke="#3a1808" stroke-width="0.55"/>
+  </g>
+
+  <!-- ===== THRESH — perimeter, calculating watch logistics ===== -->
+  <g transform="translate(580 255)">
+    <path d="M-14,30 L-18,9 L-22,-14 L-16,-30 L-3,-40 L3,-40 L16,-30 L22,-14 L18,9 L14,30 Z" fill="url(#i8p2p4threshSuit)"/>
+    <ellipse cx="-16" cy="-22" rx="6" ry="4" fill="#5a1410"/>
+    <line x1="-18" y1="-25" x2="-14" y2="-18" stroke="#1a0606" stroke-width="0.85"/>
+    <ellipse cx="16" cy="-22" rx="6" ry="4" fill="#7a1810"/>
+    <path d="M-9,-9 L9,3" stroke="#3a0a0a" stroke-width="2" opacity="0.85"/>
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#ffa898" stroke-width="0.55" opacity="0.85" filter="url(#i8p2p4bloom)"/>
+    <ellipse cx="-11" cy="22" rx="9" ry="6" fill="url(#i8p2p4threshSuit)"/>
+    <ellipse cx="11" cy="22" rx="9" ry="6" fill="url(#i8p2p4threshSuit)"/>
+    <rect x="-22" y="20" width="44" height="3" fill="#1a1818"/>
+    <ellipse cx="0" cy="22" rx="6" ry="0.85" fill="#f04838" filter="url(#i8p2p4bloom)" opacity="0.85"/>
+    <ellipse cx="0" cy="-50" rx="6" ry="7" fill="#e0b888"/>
+    <path d="M-7,-58 Q0,-62 7,-58 L7,-50 Q0,-54 -7,-50 Z" fill="#a83820"/>
+    <ellipse cx="-2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-2.5" cy="-50" r="0.55" fill="#3a1808"/>
+    <ellipse cx="2.5" cy="-50" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="2.5" cy="-50" r="0.55" fill="#3a1808"/>
+  </g>
+
+  <!-- ===== WREN — near wall gap in amber, eyes still on Sable ===== -->
+  <g transform="translate(670 250)">
+    <path d="M-7,30 L-11,9 L-11,-14 L-7,-30 L-3,-40 L3,-40 L9,-30 L11,-14 L9,9 L7,30 Z" fill="url(#i8p2p4wrenSuit)"/>
+    <ellipse cx="-3" cy="-9" rx="4" ry="3" fill="#1a0606" opacity="0.85"/>
+    <line x1="0" y1="-30" x2="0" y2="22" stroke="#ffa848" stroke-width="0.55" opacity="0.95" filter="url(#i8p2p4bloom)"/>
+    <!-- Arms crossed -->
+    <path d="M-11,-14 L-14,3 L-3,3 L-3,-14 Z" fill="url(#i8p2p4wrenSuit)"/>
+    <path d="M11,-14 L14,3 L3,3 L3,-14 Z" fill="url(#i8p2p4wrenSuit)"/>
+    <line x1="-9" y1="-3" x2="9" y2="-3" stroke="#1a0606" stroke-width="0.55"/>
+    <ellipse cx="0" cy="-50" rx="6" ry="7" fill="#e0b888"/>
+    <ellipse cx="0" cy="-58" rx="7" ry="3" fill="#1a1008"/>
+    <circle cx="3" cy="-60" r="2" fill="#1a1008"/>
+    <!-- Eyes left (toward Sable) -->
+    <ellipse cx="-3" cy="-50" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="-4" cy="-50" r="0.55" fill="#3a1808"/>
+    <ellipse cx="2" cy="-50" rx="1.4" ry="0.85" fill="#fff8e8"/>
+    <circle cx="1" cy="-50" r="0.55" fill="#3a1808"/>
+    <line x1="-5" y1="-54" x2="-1" y2="-54" stroke="#3a1808" stroke-width="0.85"/>
+    <line x1="1" y1="-54" x2="5" y2="-54" stroke="#3a1808" stroke-width="0.85"/>
+    <!-- Mouth — moving (the aside) -->
+    <ellipse cx="0" cy="-44" rx="2" ry="0.85" fill="#3a1808"/>
+    <!-- Amber catch on suit -->
+    <ellipse cx="3" cy="-9" rx="6" ry="11" fill="#ffd898" opacity="0.18" filter="url(#i8p2p4bloom)"/>
+  </g>
+
+  <!-- ===== DIALOGUE ===== -->
+  <!-- LUMA -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Everything converges on one location. A church.</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Whitechapel parish. I need to see it.</text>
+
+  <!-- SABLE -->
+  <g>
+    <rect x="14" y="74" width="338" height="36" rx="2" fill="white" stroke="#5a606a" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
+  </g>
+  <text x="22" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#5a606a" font-weight="700">SABLE</text>
+  <text x="22" y="104" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Standard precautions. Comms every quarter hour.</text>
+
+  <!-- WREN — quiet aside -->
+  <g>
+    <rect x="408" y="74" width="320" height="36" rx="2" fill="white" stroke="#d88838" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="416" y="90" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#d88838" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(quiet, to no one)</tspan></text>
+  <text x="416" y="104" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-style="italic">She didn't hesitate.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q120,142 240,138 Q360,136 494,140 Q620,138 742,140"/>
+    <path d="M0,260 Q120,262 240,258 Q360,256 494,260 Q620,258 742,260"/>
+  </g>
+</svg>
