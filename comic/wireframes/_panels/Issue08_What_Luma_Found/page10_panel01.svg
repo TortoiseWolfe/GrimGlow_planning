@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 8 — Page 10 — Panel 1: Luma alone at fairy scale on stone ledge — scientist at a dig site, blue-violet scanner the only light</title>
+  <desc>50mm medium eye level. Tiny woman in sapphire-violet suit approximately four inches tall stands on rough stone ledge at base of ancient wall, scanner projecting forward into darkness. Alone at her scale — stone floor around her landscape of dust and rubble, each pebble significant at her size. Holographic lenses scroll rapid data, luminous braid filament pulses. Moves with deliberate pace of scientist at dig site. Behind her distant and warm Theodore's candle background amber point. Scanner's structured blue-violet light only illumination in immediate vicinity, makes ancient stone glow blue-white where it touches.</desc>
+
+  <defs>
+    <linearGradient id="i8p10p1bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p10p1ancientStone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i8p10p1scannerHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p10p1distantCandle" cx="0%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffd898" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3a1808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p10p1lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p10p1skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i8p10p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p10p1glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p10p1strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p10p1megaglow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#i8p10p1bg)"/>
+
+  <!-- Distant warm candle from far left (background) -->
+  <ellipse cx="0" cy="100" rx="80" ry="60" fill="url(#i8p10p1distantCandle)" filter="url(#i8p10p1megaglow)"/>
+
+  <!-- Ancient wall (looming behind) -->
+  <rect x="0" y="0" width="366" height="180" fill="url(#i8p10p1ancientStone)"/>
+  <!-- Rough-hewn pre-Norman stone (irregular hand-cut) -->
+  <g stroke="#040408" stroke-width="0.85" fill="none" opacity="0.85">
+    <path d="M0,40 L60,42 L120,38 L200,40 L280,38 L366,42"/>
+    <path d="M0,80 L80,82 L160,78 L260,80 L366,82"/>
+    <path d="M0,120 L100,122 L200,118 L300,120 L366,122"/>
+    <path d="M0,160 L120,162 L240,158 L366,160"/>
+    <line x1="60" y1="0" x2="60" y2="42"/>
+    <line x1="160" y1="40" x2="160" y2="80"/>
+    <line x1="260" y1="0" x2="260" y2="40"/>
+    <line x1="80" y1="80" x2="80" y2="120"/>
+    <line x1="220" y1="80" x2="220" y2="120"/>
+    <line x1="120" y1="120" x2="120" y2="160"/>
+    <line x1="280" y1="120" x2="280" y2="160"/>
+  </g>
+  <!-- Stone weathering/lichen suggestion -->
+  <g fill="#1a1410" opacity="0.7">
+    <ellipse cx="60" cy="60" rx="22" ry="9"/>
+    <ellipse cx="200" cy="100" rx="22" ry="9"/>
+    <ellipse cx="300" cy="60" rx="14" ry="6"/>
+    <ellipse cx="120" cy="140" rx="14" ry="6"/>
+  </g>
+
+  <!-- Stone ledge Luma stands on (extending forward) -->
+  <rect x="0" y="180" width="366" height="60" fill="#1a1410"/>
+  <line x1="0" y1="180" x2="366" y2="180" stroke="#3a2818" stroke-width="0.85" filter="url(#i8p10p1bloom)" opacity="0.55"/>
+  <!-- Pebbles and dust on ledge -->
+  <g fill="#040408" opacity="0.85">
+    <ellipse cx="40" cy="200" rx="6" ry="2"/>
+    <ellipse cx="120" cy="210" rx="9" ry="3"/>
+    <ellipse cx="60" cy="220" rx="6" ry="2"/>
+    <ellipse cx="220" cy="200" rx="6" ry="2"/>
+    <ellipse cx="280" cy="215" rx="11" ry="3"/>
+    <ellipse cx="160" cy="225" rx="9" ry="3"/>
+    <ellipse cx="320" cy="205" rx="6" ry="2"/>
+  </g>
+  <!-- Dust patches -->
+  <g fill="#a89878" opacity="0.4">
+    <ellipse cx="80" cy="220" rx="22" ry="3"/>
+    <ellipse cx="240" cy="215" rx="30" ry="3"/>
+    <ellipse cx="160" cy="200" rx="22" ry="3"/>
+  </g>
+
+  <!-- ===== SCANNER HALO around Luma's position ===== -->
+  <ellipse cx="180" cy="180" rx="120" ry="80" fill="url(#i8p10p1scannerHalo)" filter="url(#i8p10p1megaglow)"/>
+
+  <!-- ===== STONE GLOW where scanner light touches the wall (blue-white) ===== -->
+  <g opacity="0.7" filter="url(#i8p10p1bloom)">
+    <ellipse cx="200" cy="100" rx="80" ry="40" fill="#a878e8" opacity="0.4"/>
+    <ellipse cx="200" cy="100" rx="50" ry="22" fill="#c8a8e8" opacity="0.55"/>
+  </g>
+
+  <!-- ===== LUMA — scaled UP for the panel (the scientist alone) ===== -->
+  <g transform="translate(180 170)">
+    <!-- Body (deliberate pose, scanner forward) -->
+    <path d="M-9,30 L-11,11 L-14,-7 L-11,-22 L-3,-32 L3,-32 L11,-22 L14,-7 L11,11 L9,30 Z" fill="url(#i8p10p1lumaSuit)"/>
+
+    <!-- Heavy ink stains -->
+    <ellipse cx="-14" cy="3" rx="3" ry="2" fill="#1a0810" opacity="0.95"/>
+    <ellipse cx="14" cy="3" rx="3" ry="2" fill="#1a0810" opacity="0.95"/>
+
+    <!-- Suit accent -->
+    <line x1="0" y1="-22" x2="0" y2="22" stroke="#c8a8e8" stroke-width="0.55" opacity="0.95" filter="url(#i8p10p1bloom)"/>
+    <circle cx="-9" cy="-15" r="0.85" fill="#c8a8e8" filter="url(#i8p10p1bloom)" opacity="0.95"/>
+    <circle cx="9" cy="-15" r="0.85" fill="#c8a8e8" filter="url(#i8p10p1bloom)" opacity="0.95"/>
+    <circle cx="0" cy="3" r="0.85" fill="#c8a8e8" filter="url(#i8p10p1bloom)" opacity="0.95"/>
+
+    <!-- Right arm forward with scanner -->
+    <path d="M11,-15 L26,-9 L26,-3 L9,-3 Z" fill="url(#i8p10p1lumaSuit)"/>
+    <ellipse cx="26" cy="-7" rx="3" ry="2" fill="url(#i8p10p1skin)"/>
+    <!-- Scanner -->
+    <rect x="26" y="-11" width="11" height="9" fill="#3a1858" stroke="#1a0810" stroke-width="0.4"/>
+    <ellipse cx="32" cy="-7" rx="4" ry="0.85" fill="#a878e8" filter="url(#i8p10p1strongglow)" opacity="0.95"/>
+    <!-- Beam -->
+    <line x1="37" y1="-7" x2="80" y2="-9" stroke="#a878e8" stroke-width="1.4" filter="url(#i8p10p1bloom)" opacity="0.95"/>
+    <line x1="37" y1="-7" x2="80" y2="-9" stroke="#fff" stroke-width="0.4" filter="url(#i8p10p1bloom)" opacity="0.85"/>
+
+    <!-- Other arm at side -->
+    <path d="M-11,-15 L-22,3 L-14,11 L-7,-3 Z" fill="url(#i8p10p1lumaSuit)"/>
+
+    <!-- Legs -->
+    <path d="M-3,30 L-7,52 L-1,52 L0,30 Z" fill="url(#i8p10p1lumaSuit)"/>
+    <path d="M3,30 L7,52 L1,52 L0,30 Z" fill="url(#i8p10p1lumaSuit)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-40" rx="6" ry="7" fill="url(#i8p10p1skin)"/>
+
+    <!-- Long thick braid pulsing -->
+    <path d="M3,-32 Q9,-15 14,11" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M3,-32 Q9,-15 14,11" stroke="#a878e8" stroke-width="0.55" fill="none" filter="url(#i8p10p1bloom)" opacity="0.95"/>
+    <!-- Filament pulses -->
+    <ellipse cx="9" cy="-15" rx="2" ry="0.7" fill="#c8a8e8" filter="url(#i8p10p1strongglow)" opacity="0.95"/>
+    <ellipse cx="14" cy="11" rx="2" ry="0.7" fill="#c8a8e8" filter="url(#i8p10p1strongglow)" opacity="0.85"/>
+
+    <!-- Hair -->
+    <path d="M-5,-46 Q0,-50 5,-46 L5,-40 Q0,-44 -5,-40 Z" fill="#1a0808"/>
+
+    <!-- Holographic lenses scrolling rapid data -->
+    <ellipse cx="0" cy="-40" rx="9" ry="3" fill="#7848b8" filter="url(#i8p10p1strongglow)" opacity="0.7"/>
+    <ellipse cx="-2" cy="-40" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.55" filter="url(#i8p10p1bloom)" opacity="0.95"/>
+    <ellipse cx="2" cy="-40" rx="2" ry="1.4" fill="none" stroke="#a878e8" stroke-width="0.55" filter="url(#i8p10p1bloom)" opacity="0.95"/>
+
+    <!-- Eyes glowing through lenses -->
+    <circle cx="-2" cy="-40" r="0.55" fill="#fff8e8" filter="url(#i8p10p1bloom)"/>
+    <circle cx="2" cy="-40" r="0.55" fill="#fff8e8" filter="url(#i8p10p1bloom)"/>
+
+    <!-- Brows focused -->
+    <line x1="-4" y1="-44" x2="-1" y2="-44" stroke="#3a1808" stroke-width="0.4"/>
+    <line x1="1" y1="-44" x2="4" y2="-44" stroke="#3a1808" stroke-width="0.4"/>
+
+    <!-- Mouth -->
+    <line x1="-3" y1="-34" x2="3" y2="-34" stroke="#3a1808" stroke-width="0.4"/>
+  </g>
+
+  <!-- Tiny pebbles AT her scale (showing she's small) -->
+  <g fill="#1a1208" opacity="0.85">
+    <ellipse cx="200" cy="195" rx="2" ry="1"/>
+    <ellipse cx="220" cy="200" rx="3" ry="1.4"/>
+    <ellipse cx="170" cy="200" rx="2" ry="1"/>
+  </g>
+
+  <!-- ===== DIALOGUE — LUMA ===== -->
+  <g>
+    <rect x="14" y="14" width="338" height="48" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Theodore, stay where you are. Keep the candle up.</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">I need to follow the resonance signal.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+    <path d="M0,200 Q90,202 180,198 Q270,196 366,200"/>
+  </g>
+</svg>

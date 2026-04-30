@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 8 — Page 10 — Panel 2: Scanner hits the first basement glyph — phosphorescence wakes — fairy tech responding after centuries</title>
+  <desc>85mm close-up slight low angle. Luma's scanner beam hits wall glyph and response blooms — carved geometric script glows with residual phosphorescence, fairy technology waking from centuries of dormancy. Glyph larger and more complex than street markers — full message in geometric fairy script, lines precise, luminous response cascading across carved surface. Luma's face lit by bloom — eyes wide behind holographic lenses scrolling rapid data, mouth opening in sharp intake of breath, luminous filament in braid flaring bright. Sapphire-violet suit catches glyph's glow.</desc>
+
+  <defs>
+    <linearGradient id="i8p10p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0606"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <linearGradient id="i8p10p2stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i8p10p2glyphBloom" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#c8a8e8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#a878e8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#3a1858" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="i8p10p2lumaSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a878e8"/>
+      <stop offset="100%" stop-color="#3a1858"/>
+    </linearGradient>
+    <linearGradient id="i8p10p2skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8a878"/>
+      <stop offset="100%" stop-color="#7a4828"/>
+    </linearGradient>
+    <filter id="i8p10p2bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p10p2glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p10p2strongglow"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="i8p10p2megaglow"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="i8p10p2dataPulse"><feGaussianBlur stdDeviation="0.55"/></filter>
+  </defs>
+
+  <rect width="366" height="240" fill="url(#i8p10p2bg)"/>
+
+  <!-- Stone wall (rough-hewn pre-Norman) -->
+  <rect x="0" y="0" width="366" height="240" fill="url(#i8p10p2stone)"/>
+  <!-- Hand-cut stone -->
+  <g stroke="#040408" stroke-width="0.7" fill="none" opacity="0.85">
+    <path d="M0,40 L60,42 L120,38 L200,40 L280,38 L366,42"/>
+    <path d="M0,80 L80,82 L160,78 L260,80 L366,82"/>
+    <path d="M0,160 L100,162 L200,158 L300,160 L366,162"/>
+    <path d="M0,200 L120,202 L240,198 L366,200"/>
+    <line x1="60" y1="0" x2="60" y2="42"/>
+    <line x1="160" y1="42" x2="160" y2="80"/>
+    <line x1="260" y1="0" x2="260" y2="42"/>
+    <line x1="220" y1="80" x2="220" y2="160"/>
+    <line x1="120" y1="160" x2="120" y2="200"/>
+    <line x1="280" y1="160" x2="280" y2="200"/>
+  </g>
+  <!-- Stone weathering -->
+  <g fill="#0a0408" opacity="0.55">
+    <ellipse cx="40" cy="40" rx="22" ry="9"/>
+    <ellipse cx="320" cy="60" rx="18" ry="6"/>
+    <ellipse cx="100" cy="220" rx="22" ry="9"/>
+    <ellipse cx="240" cy="220" rx="14" ry="6"/>
+  </g>
+
+  <!-- ===== BLOOM HALO around the glyph (the wakening) ===== -->
+  <ellipse cx="220" cy="120" rx="200" ry="160" fill="url(#i8p10p2glyphBloom)" filter="url(#i8p10p2megaglow)"/>
+
+  <!-- ===== THE WAKING GLYPH — central focus, larger and more complex than street markers ===== -->
+  <g transform="translate(220 120)">
+    <!-- Carved indentation -->
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="#040408" opacity="0.85"/>
+
+    <!-- Outer ring -->
+    <circle cx="0" cy="0" r="60" stroke="#0a0408" stroke-width="3" fill="none"/>
+    <!-- Inner concentric rings -->
+    <circle cx="0" cy="0" r="44" stroke="#0a0408" stroke-width="2" fill="none"/>
+    <circle cx="0" cy="0" r="22" stroke="#0a0408" stroke-width="1.4" fill="none"/>
+
+    <!-- Cardinal/intercardinal marks (8-fold) -->
+    <g stroke="#0a0408" stroke-width="2" fill="none">
+      <line x1="0" y1="-60" x2="0" y2="-44"/>
+      <line x1="0" y1="44" x2="0" y2="60"/>
+      <line x1="-60" y1="0" x2="-44" y2="0"/>
+      <line x1="44" y1="0" x2="60" y2="0"/>
+      <line x1="-42" y1="-42" x2="-31" y2="-31"/>
+      <line x1="42" y1="-42" x2="31" y2="-31"/>
+      <line x1="-42" y1="42" x2="-31" y2="31"/>
+      <line x1="42" y1="42" x2="31" y2="31"/>
+    </g>
+
+    <!-- Inner geometric figures (8-fold rosette) -->
+    <g stroke="#0a0408" stroke-width="1.4" fill="none">
+      <polygon points="0,-22 16,-16 22,0 16,16 0,22 -16,16 -22,0 -16,-16"/>
+      <polygon points="0,-15 11,-11 15,0 11,11 0,15 -11,11 -15,0 -11,-11"/>
+      <line x1="0" y1="-22" x2="0" y2="22"/>
+      <line x1="-22" y1="0" x2="22" y2="0"/>
+    </g>
+
+    <!-- Outer angular characters (the "message") -->
+    <g stroke="#0a0408" stroke-width="1" fill="none">
+      <polygon points="-50,-22 -42,-30 -34,-22 -42,-14"/>
+      <polygon points="50,-22 42,-30 34,-22 42,-14"/>
+      <polygon points="-50,22 -42,14 -34,22 -42,30"/>
+      <polygon points="50,22 42,14 34,22 42,30"/>
+    </g>
+
+    <!-- ===== PHOSPHORESCENT GLOW — the carved lines waking up ===== -->
+    <g stroke="#c8a8e8" stroke-width="1.4" fill="none" opacity="0.95" filter="url(#i8p10p2bloom)">
+      <circle cx="0" cy="0" r="60"/>
+      <circle cx="0" cy="0" r="44"/>
+      <circle cx="0" cy="0" r="22"/>
+      <line x1="0" y1="-60" x2="0" y2="-44"/>
+      <line x1="0" y1="44" x2="0" y2="60"/>
+      <line x1="-60" y1="0" x2="-44" y2="0"/>
+      <line x1="44" y1="0" x2="60" y2="0"/>
+      <polygon points="0,-22 16,-16 22,0 16,16 0,22 -16,16 -22,0 -16,-16"/>
+      <line x1="0" y1="-22" x2="0" y2="22"/>
+      <line x1="-22" y1="0" x2="22" y2="0"/>
+    </g>
+    <!-- Cascade of light across the carving (bloom) -->
+    <g stroke="#fff" stroke-width="0.4" fill="none" opacity="0.85" filter="url(#i8p10p2bloom)">
+      <circle cx="0" cy="0" r="22"/>
+      <line x1="0" y1="-22" x2="0" y2="22"/>
+      <line x1="-22" y1="0" x2="22" y2="0"/>
+    </g>
+    <!-- Bright center pulse -->
+    <circle cx="0" cy="0" r="9" fill="#c8a8e8" filter="url(#i8p10p2strongglow)" opacity="0.7"/>
+    <circle cx="0" cy="0" r="3" fill="#fff" filter="url(#i8p10p2bloom)" opacity="0.95"/>
+  </g>
+
+  <!-- ===== Scanner beam from below-left ===== -->
+  <line x1="60" y1="200" x2="160" y2="120" stroke="#a878e8" stroke-width="1.4" filter="url(#i8p10p2strongglow)" opacity="0.95"/>
+  <line x1="60" y1="200" x2="160" y2="120" stroke="#fff" stroke-width="0.4" filter="url(#i8p10p2bloom)"/>
+
+  <!-- ===== LUMA at lower-left, face uplit by bloom ===== -->
+  <g transform="translate(50 215)">
+    <!-- Body, scanner-arm raised -->
+    <path d="M-7,18 L-9,9 L-11,-5 L-9,-22 L-3,-32 L3,-32 L9,-22 L11,-5 L9,9 L7,18 Z" fill="url(#i8p10p2lumaSuit)"/>
+    <line x1="0" y1="-22" x2="0" y2="14" stroke="#c8a8e8" stroke-width="0.55" filter="url(#i8p10p2bloom)" opacity="0.95"/>
+
+    <!-- Scanner arm raised toward glyph -->
+    <path d="M9,-9 L26,-22 L22,-14 L7,-3 Z" fill="url(#i8p10p2lumaSuit)"/>
+    <ellipse cx="22" cy="-22" rx="2" ry="1.4" fill="url(#i8p10p2skin)"/>
+    <rect x="22" y="-25" width="6" height="5" fill="#3a1858"/>
+    <ellipse cx="25" cy="-22" rx="2" ry="0.4" fill="#a878e8" filter="url(#i8p10p2bloom)" opacity="0.95"/>
+
+    <!-- Other arm at side -->
+    <path d="M-9,-5 L-14,5 L-9,11 L-5,3 Z" fill="url(#i8p10p2lumaSuit)"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-40" rx="6" ry="7" fill="url(#i8p10p2skin)"/>
+    <!-- BRAID — filament FLARING bright (responding to bloom) -->
+    <path d="M3,-34 Q9,-22 14,5" stroke="#1a0808" stroke-width="2" fill="none"/>
+    <path d="M3,-34 Q9,-22 14,5" stroke="#fff" stroke-width="0.85" fill="none" filter="url(#i8p10p2bloom)" opacity="0.95"/>
+    <ellipse cx="9" cy="-22" rx="3" ry="1" fill="#fff" filter="url(#i8p10p2strongglow)" opacity="0.95"/>
+    <ellipse cx="14" cy="3" rx="3" ry="1" fill="#fff" filter="url(#i8p10p2strongglow)" opacity="0.95"/>
+    <!-- Hair -->
+    <path d="M-5,-46 Q0,-50 5,-46 L5,-40 Q0,-44 -5,-40 Z" fill="#1a0808"/>
+
+    <!-- Holographic lenses (rapid data) -->
+    <ellipse cx="-2" cy="-40" rx="2" ry="1.4" fill="none" stroke="#c8a8e8" stroke-width="0.55" filter="url(#i8p10p2bloom)" opacity="0.95"/>
+    <ellipse cx="2" cy="-40" rx="2" ry="1.4" fill="none" stroke="#c8a8e8" stroke-width="0.55" filter="url(#i8p10p2bloom)" opacity="0.95"/>
+    <!-- Eyes WIDE -->
+    <circle cx="-2" cy="-40" r="0.85" fill="#fff" filter="url(#i8p10p2bloom)"/>
+    <circle cx="2" cy="-40" r="0.85" fill="#fff" filter="url(#i8p10p2bloom)"/>
+    <!-- Mouth opening (sharp intake) -->
+    <ellipse cx="0" cy="-32" rx="1.4" ry="1" fill="#3a1808"/>
+  </g>
+  <!-- Violet glow on Luma (catching bloom) -->
+  <ellipse cx="50" cy="180" rx="40" ry="50" fill="#a878e8" opacity="0.4" filter="url(#i8p10p2glow)"/>
+
+  <!-- ===== DIALOGUE — LUMA ===== -->
+  <g>
+    <rect x="14" y="14" width="338" height="50" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#7848b8" font-weight="700">LUMA</text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">Oh. Oh, this is...</text>
+  <text x="22" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410" font-weight="700">Theodore — this glyph is a full message. A record.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q90,142 180,138 Q270,136 366,140"/>
+  </g>
+</svg>

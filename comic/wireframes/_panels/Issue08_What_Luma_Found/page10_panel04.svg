@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 240" width="248" height="240">
+  <title>Issue 8 — Page 10 — Panel 4: A single glyph translates — "1340" — six hundred years before Luma stood here</title>
+  <desc>100mm extreme close-up. Single geometric glyph carved into rough stone. Glyph glows with faint blue-violet phosphorescence. Above it holographic translation overlay floats — brighter blue-violet geometric characters resolving carved script into readable data. One element clearly a date — temporal marker. Stone around glyph ancient, rough-hewn, centuries of mineral deposits visible. Carving precise — made with tool of extraordinary accuracy on rough material. Phosphorescent glow and holographic overlay create two layers of blue-violet light — one ancient, one present — reading same language across six hundred years.</desc>
+
+  <defs>
+    <linearGradient id="i8p10p4bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i8p10p4ancientStone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#040408"/>
+    </linearGradient>
+    <radialGradient id="i8p10p4phosphor" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a878e8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a1858" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="i8p10p4overlay" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#c8a8e8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3a1858" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="i8p10p4bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="i8p10p4glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="i8p10p4strongglow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="i8p10p4dataPulse"><feGaussianBlur stdDeviation="0.55"/></filter>
+  </defs>
+
+  <rect width="248" height="240" fill="url(#i8p10p4bg)"/>
+
+  <!-- Ancient stone background (close-up of rough-hewn surface) -->
+  <rect width="248" height="240" fill="url(#i8p10p4ancientStone)"/>
+  <!-- Mineral deposits / centuries of buildup -->
+  <g fill="#3a2818" opacity="0.4">
+    <ellipse cx="40" cy="40" rx="30" ry="14"/>
+    <ellipse cx="200" cy="60" rx="22" ry="9"/>
+    <ellipse cx="60" cy="180" rx="22" ry="9"/>
+    <ellipse cx="200" cy="200" rx="30" ry="14"/>
+    <ellipse cx="120" cy="220" rx="22" ry="6"/>
+  </g>
+  <!-- Stone surface texture (chiseled marks) -->
+  <g stroke="#040408" stroke-width="0.4" opacity="0.55">
+    <line x1="0" y1="50" x2="248" y2="55"/>
+    <line x1="0" y1="80" x2="248" y2="78"/>
+    <line x1="0" y1="170" x2="248" y2="175"/>
+    <line x1="0" y1="200" x2="248" y2="198"/>
+  </g>
+  <g stroke="#040408" stroke-width="0.55" opacity="0.85">
+    <path d="M0,30 L80,32 L160,28 L248,30"/>
+    <path d="M0,210 L80,212 L160,208 L248,210"/>
+  </g>
+
+  <!-- Phosphorescent halo around glyph -->
+  <ellipse cx="124" cy="160" rx="160" ry="80" fill="url(#i8p10p4phosphor)" filter="url(#i8p10p4glow)"/>
+
+  <!-- ===== THE CARVED GLYPH (lower in frame) ===== -->
+  <g transform="translate(124 160)">
+    <!-- Carved indentation -->
+    <ellipse cx="0" cy="0" rx="60" ry="22" fill="#040408" opacity="0.85"/>
+
+    <!-- Date glyph — angular, geometric, fairy temporal notation -->
+    <g stroke="#0a0408" stroke-width="2.5" fill="none">
+      <!-- Outer frame -->
+      <rect x="-40" y="-15" width="80" height="30"/>
+      <!-- Inner divider -->
+      <line x1="-30" y1="-15" x2="-30" y2="15"/>
+      <line x1="-15" y1="-15" x2="-15" y2="15"/>
+      <line x1="0" y1="-15" x2="0" y2="15"/>
+      <line x1="15" y1="-15" x2="15" y2="15"/>
+      <line x1="30" y1="-15" x2="30" y2="15"/>
+      <!-- Era markers (cardinal positions in the cells) -->
+      <!-- Cell 1 — millennium -->
+      <line x1="-37" y1="-7" x2="-33" y2="-7"/>
+      <!-- Cell 2 — century mark -->
+      <polygon points="-25,-9 -20,-3 -25,3 -20,9 -25,9 -22,0 -25,-9"/>
+      <!-- Cell 3 — decade -->
+      <line x1="-12" y1="-7" x2="-3" y2="-7"/>
+      <line x1="-12" y1="0" x2="-3" y2="0"/>
+      <line x1="-12" y1="7" x2="-3" y2="7"/>
+      <!-- Cell 4 — year -->
+      <polygon points="3,-9 9,-5 12,5 9,9 3,9"/>
+      <!-- Cell 5 — context -->
+      <line x1="18" y1="0" x2="27" y2="0"/>
+      <line x1="22" y1="-7" x2="22" y2="7"/>
+    </g>
+
+    <!-- Phosphorescent glow on carved lines -->
+    <g stroke="#a878e8" stroke-width="0.85" fill="none" filter="url(#i8p10p4bloom)" opacity="0.95">
+      <rect x="-40" y="-15" width="80" height="30"/>
+      <line x1="-30" y1="-15" x2="-30" y2="15"/>
+      <line x1="-15" y1="-15" x2="-15" y2="15"/>
+      <line x1="0" y1="-15" x2="0" y2="15"/>
+      <line x1="15" y1="-15" x2="15" y2="15"/>
+      <line x1="30" y1="-15" x2="30" y2="15"/>
+    </g>
+  </g>
+
+  <!-- ===== HOLOGRAPHIC TRANSLATION OVERLAY (above the carved glyph, brighter, present) ===== -->
+  <g transform="translate(124 90)">
+    <!-- Translation panel halo -->
+    <ellipse cx="0" cy="0" rx="120" ry="40" fill="url(#i8p10p4overlay)" filter="url(#i8p10p4strongglow)"/>
+    <!-- Translation frame -->
+    <rect x="-90" y="-32" width="180" height="60" fill="#1a1858" opacity="0.85" stroke="#c8a8e8" stroke-width="0.85" filter="url(#i8p10p4bloom)"/>
+    <!-- Title -->
+    <text x="-85" y="-22" font-family="monospace" font-size="4" fill="#c8a8e8" filter="url(#i8p10p4dataPulse)" font-weight="700">TEMPORAL-NOTATION//RESOLVED</text>
+
+    <!-- Resolved geometric date characters (brighter, simpler than carved) -->
+    <g stroke="#fff" stroke-width="1" fill="none" filter="url(#i8p10p4bloom)" opacity="0.95">
+      <!-- Year — simplified -->
+      <text x="-65" y="6" font-family="monospace" font-size="22" fill="#fff" font-weight="700">1340</text>
+    </g>
+    <text x="-65" y="6" font-family="monospace" font-size="22" fill="#fff" font-weight="700" filter="url(#i8p10p4bloom)">1340</text>
+
+    <!-- Sub-data line -->
+    <text x="-85" y="22" font-family="monospace" font-size="3.5" fill="#c8a8e8" filter="url(#i8p10p4dataPulse)">CONTEXT: ENTRY-LOG  AGE +600y</text>
+
+    <!-- Translation arrow connecting to carved glyph below -->
+    <line x1="0" y1="28" x2="0" y2="48" stroke="#c8a8e8" stroke-width="0.55" stroke-dasharray="2,1.5" filter="url(#i8p10p4bloom)" opacity="0.85"/>
+    <polygon points="-3,46 0,52 3,46" fill="#c8a8e8" filter="url(#i8p10p4bloom)"/>
+  </g>
+
+  <!-- (No dialogue in panel — Luma's line is captioned overlay) -->
+  <g>
+    <rect x="14" y="14" width="220" height="36" rx="2" fill="white" stroke="#7848b8" stroke-width="0.85" opacity="0.95" stroke-dasharray="2,2"/>
+  </g>
+  <text x="22" y="30" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8" fill="#7848b8" font-weight="700">LUMA  <tspan font-style="italic" font-size="7" font-weight="500">(off-panel, hushed)</tspan></text>
+  <text x="22" y="44" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10" fill="#1a1410" font-weight="700">Thirteen forty.  Six hundred years.</text>
+
+  <!-- Brushwork overlay -->
+  <g stroke="#0a0606" stroke-width="0.4" opacity="0.18" fill="none">
+    <path d="M0,140 Q60,142 124,138 Q190,136 248,140"/>
+  </g>
+</svg>
