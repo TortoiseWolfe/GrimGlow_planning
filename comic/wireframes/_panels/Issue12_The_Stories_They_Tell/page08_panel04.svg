@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 280" width="246" height="280">
+  <title>Issue 12 Page 8 Panel 4 — Jink lands on the cabinet, "Relay in position. Whenever you're ready."</title>
+  <desc>Close-up inset. Tiny figure in degraded emerald suit lands on top of cast-iron telegraph exchange cabinet, holographic dragonfly wings folding, crouching low to avoid street-level visibility. Wild golden blonde curly hair, soot-streaked emerald suit, quick nod downward — ready. Morning light catches top of cabinet. Figure small against iron surface. Emerald suit glow dimmed for concealment. The relay in position.</desc>
+  <defs>
+    <linearGradient id="bgQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87878"/>
+      <stop offset="0.4" stop-color="#fff8d8"/>
+      <stop offset="0.7" stop-color="#5a4858"/>
+      <stop offset="1" stop-color="#3a2838"/>
+    </linearGradient>
+    <radialGradient id="morningTopQ4" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cabinetTopQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4858"/>
+      <stop offset="0.4" stop-color="#3a3848"/>
+      <stop offset="1" stop-color="#1a1828"/>
+    </linearGradient>
+    <linearGradient id="cabinetSideQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3848"/>
+      <stop offset="0.5" stop-color="#1a1828"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="suitJinkQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.4" stop-color="#1a4830"/>
+      <stop offset="1" stop-color="#0a2018"/>
+    </linearGradient>
+    <linearGradient id="hairBlondeQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff088"/>
+      <stop offset="0.5" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="skinJinkQ4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d8b8"/>
+      <stop offset="0.5" stop-color="#d8a878"/>
+      <stop offset="1" stop-color="#7a4830"/>
+    </linearGradient>
+    <linearGradient id="wingFoldQ4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a8858" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3a8858" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#3a8858" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="bloomQ4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowQ4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <filter id="megaGlowQ4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="246" height="280" fill="url(#bgQ4)"/>
+  <rect width="246" height="280" fill="url(#morningTopQ4)"/>
+
+  <g>
+    <path d="M 0 220 L 100 200 Q 130 196 246 200 L 246 280 L 0 280 Z" fill="url(#cabinetTopQ4)"/>
+    <line x1="0" y1="220" x2="100" y2="200" stroke="#080404" stroke-width="0.85"/>
+    <line x1="100" y1="200" x2="246" y2="200" stroke="#080404" stroke-width="0.85"/>
+
+    <rect x="0" y="220" width="246" height="60" fill="url(#cabinetSideQ4)" opacity="0.85"/>
+    <line x1="60" y1="226" x2="180" y2="226" stroke="#080404" stroke-width="0.4"/>
+    <line x1="60" y1="240" x2="180" y2="240" stroke="#080404" stroke-width="0.4"/>
+    <line x1="60" y1="260" x2="180" y2="260" stroke="#080404" stroke-width="0.4"/>
+
+    <g opacity="0.62">
+      <line x1="20" y1="230" x2="60" y2="270" stroke="#5a4858" stroke-width="0.4"/>
+      <line x1="200" y1="230" x2="240" y2="270" stroke="#5a4858" stroke-width="0.4"/>
+    </g>
+  </g>
+  <g opacity="0.85" filter="url(#bloomQ4)">
+    <line x1="0" y1="220" x2="246" y2="206" stroke="#fff8d8" stroke-width="2" opacity="0.42"/>
+  </g>
+
+  <g>
+    <path d="M 80 180 Q 60 176 50 184 Q 60 192 80 196 Q 90 192 90 188 Q 90 184 80 180 Z" fill="url(#wingFoldQ4)" opacity="0.62"/>
+    <path d="M 146 180 Q 166 176 176 184 Q 166 192 146 196 Q 136 192 136 188 Q 136 184 146 180 Z" fill="url(#wingFoldQ4)" opacity="0.62"/>
+
+    <ellipse cx="113" cy="200" rx="20" ry="6" fill="#040202" opacity="0.55"/>
+
+    <ellipse cx="113" cy="180" rx="14" ry="20" fill="url(#suitJinkQ4)"/>
+    <path d="M 99 168 L 127 168 L 130 200 L 96 200 Z" fill="url(#suitJinkQ4)"/>
+
+    <path d="M 99 168 L 127 168" stroke="#fff088" stroke-width="0.85" opacity="0.62"/>
+
+    <ellipse cx="113" cy="156" rx="9" ry="11" fill="url(#skinJinkQ4)"/>
+    <path d="M 102 148 Q 113 138 124 148 Q 128 152 126 156 Q 120 144 116 144 Q 110 144 106 152 Q 102 156 100 152 Q 100 148 102 148 Z" fill="url(#hairBlondeQ4)"/>
+    <ellipse cx="106" cy="156" rx="2" ry="3" fill="url(#hairBlondeQ4)"/>
+    <ellipse cx="120" cy="156" rx="2" ry="3" fill="url(#hairBlondeQ4)"/>
+
+    <circle cx="109" cy="156" r="0.55" fill="#0a0604"/>
+    <circle cx="117" cy="156" r="0.55" fill="#0a0604"/>
+    <path d="M 109 162 Q 113 163 117 162" stroke="#1a0a08" stroke-width="0.4" fill="none"/>
+
+    <path d="M 96 200 L 80 196" stroke="url(#suitJinkQ4)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 130 200 L 146 196" stroke="url(#suitJinkQ4)" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="80" cy="196" rx="3" ry="2" fill="url(#skinJinkQ4)"/>
+    <ellipse cx="146" cy="196" rx="3" ry="2" fill="url(#skinJinkQ4)"/>
+  </g>
+
+  <g opacity="0.62" filter="url(#strongGlowQ4)">
+    <ellipse cx="113" cy="180" rx="22" ry="24" fill="#3a8858" opacity="0.42"/>
+  </g>
+  <g opacity="0.42" filter="url(#megaGlowQ4)">
+    <ellipse cx="113" cy="180" rx="40" ry="40" fill="#3a8858" opacity="0.32"/>
+  </g>
+
+  <g opacity="0.62">
+    <line x1="113" y1="206" x2="113" y2="240" stroke="#fff088" stroke-width="0.4" stroke-dasharray="2,2"/>
+    <path d="M 109 240 L 113 246 L 117 240" fill="#fff088" opacity="0.62"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="113" cy="270" rx="80" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="180" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#3a8858" stroke-width="1.2"/>
+    <text x="86" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#3a8858" font-weight="700">JINK: "Relay in position."</text>
+    <text x="86" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#3a8858" font-style="italic" font-weight="700">"Theodore, whenever you're ready."</text>
+  </g>
+</svg>
