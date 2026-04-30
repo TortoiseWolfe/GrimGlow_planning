@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 260" width="742" height="260">
+  <title>Issue 9 Page 8 Panel 1 — Jink closes distance, Wren steps between</title>
+  <desc>Medium wide eye level. Jink moves from cross-timber to main beam, closing distance toward Sable. Wren shifts slightly between them — present, not blocking. Jink fully illuminated by display. Wounded fury. Sable stands ground.</desc>
+  <defs>
+    <linearGradient id="bg81" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080a14"/>
+      <stop offset="0.4" stop-color="#0e1420"/>
+      <stop offset="1" stop-color="#040608"/>
+    </linearGradient>
+    <radialGradient id="centerHot81" cx="0.4" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#5878a8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#040608" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silverF81" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8088"/>
+      <stop offset="0.5" stop-color="#4a4e54"/>
+      <stop offset="1" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="copperF81" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a85820"/>
+      <stop offset="0.5" stop-color="#7a3e18"/>
+      <stop offset="1" stop-color="#3a1f0a"/>
+    </linearGradient>
+    <linearGradient id="emeraldF81" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.5" stop-color="#2e7048"/>
+      <stop offset="1" stop-color="#142e1f"/>
+    </linearGradient>
+    <linearGradient id="hairGoldF81" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d040"/>
+      <stop offset="0.5" stop-color="#d8b020"/>
+      <stop offset="1" stop-color="#7a5810"/>
+    </linearGradient>
+    <linearGradient id="beamMain81" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2818"/>
+      <stop offset="0.5" stop-color="#2a1c10"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </linearGradient>
+    <filter id="bloom81" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <filter id="strongGlow81" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="megaGlow81" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="soft81" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="260" fill="url(#bg81)"/>
+  <rect width="742" height="260" fill="url(#centerHot81)"/>
+
+  <g opacity="0.5" filter="url(#soft81)">
+    <path d="M 0 0 L 50 0 L 50 260 L 0 260 Z" fill="#0a0a10"/>
+    <path d="M 692 0 L 742 0 L 742 260 L 692 260 Z" fill="#0a0a10"/>
+  </g>
+
+  <g>
+    <rect x="50" y="220" width="642" height="14" fill="url(#beamMain81)"/>
+    <rect x="50" y="220" width="642" height="3" fill="#5a3a20" opacity="0.6"/>
+    <rect x="50" y="232" width="642" height="2" fill="#0e0805" opacity="0.9"/>
+    <line x1="120" y1="220" x2="120" y2="234" stroke="#0e0805" stroke-width="0.6"/>
+    <line x1="240" y1="220" x2="240" y2="234" stroke="#0e0805" stroke-width="0.6"/>
+    <line x1="380" y1="220" x2="380" y2="234" stroke="#0e0805" stroke-width="0.6"/>
+    <line x1="500" y1="220" x2="500" y2="234" stroke="#0e0805" stroke-width="0.6"/>
+    <line x1="620" y1="220" x2="620" y2="234" stroke="#0e0805" stroke-width="0.6"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#megaGlow81)">
+    <ellipse cx="450" cy="130" rx="220" ry="120" fill="#5878a8"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlow81)">
+    <ellipse cx="450" cy="130" rx="120" ry="70" fill="#88a8d0"/>
+  </g>
+
+  <g>
+    <line x1="380" y1="60" x2="520" y2="60" stroke="#a8c0e0" stroke-width="0.4" opacity="0.7"/>
+    <line x1="380" y1="100" x2="520" y2="100" stroke="#a8c0e0" stroke-width="0.4" opacity="0.7"/>
+    <line x1="380" y1="140" x2="520" y2="140" stroke="#a8c0e0" stroke-width="0.4" opacity="0.7"/>
+  </g>
+  <g font-family="Courier New, monospace" fill="#c0d8f0" opacity="0.75">
+    <text x="450" y="72" text-anchor="middle" font-size="3.6" letter-spacing="1.2">CONVERGENCE</text>
+    <text x="450" y="112" text-anchor="middle" font-size="3.6" letter-spacing="1.2">INTERVENTION</text>
+    <text x="450" y="152" text-anchor="middle" font-size="3" opacity="0.6">▓░ NULL ░▓</text>
+  </g>
+
+  <g>
+    <ellipse cx="220" cy="170" rx="9" ry="10" fill="#3a261a"/>
+    <ellipse cx="220" cy="166" rx="6" ry="6" fill="#5a3622"/>
+    <g opacity="0.95" filter="url(#strongGlow81)">
+      <ellipse cx="212" cy="156" rx="9" ry="6" fill="#d8b020"/>
+      <ellipse cx="228" cy="156" rx="9" ry="6" fill="#d8b020"/>
+      <ellipse cx="220" cy="152" rx="11" ry="6" fill="#e8c030"/>
+    </g>
+    <g>
+      <ellipse cx="212" cy="156" rx="7" ry="5" fill="url(#hairGoldF81)"/>
+      <ellipse cx="228" cy="156" rx="7" ry="5" fill="url(#hairGoldF81)"/>
+      <ellipse cx="220" cy="152" rx="8" ry="4.5" fill="url(#hairGoldF81)"/>
+      <circle cx="206" cy="158" r="3" fill="url(#hairGoldF81)"/>
+      <circle cx="234" cy="158" r="3" fill="url(#hairGoldF81)"/>
+    </g>
+    <ellipse cx="217" cy="170" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <ellipse cx="223" cy="170" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <path d="M 216 174 L 224 174" stroke="#0a0604" stroke-width="0.7"/>
+    <path d="M 204 180 L 236 180 L 240 222 L 200 222 Z" fill="url(#emeraldF81)"/>
+    <path d="M 204 184 L 236 184 L 236 218 L 204 218 Z" fill="#1f4a30"/>
+    <path d="M 220 188 L 230 200 L 226 204 Z" fill="#3a8858" stroke="#1f4a30" stroke-width="0.4"/>
+  </g>
+  <g opacity="0.95" filter="url(#strongGlow81)">
+    <circle cx="200" cy="190" r="3" fill="#3aa868"/>
+    <circle cx="240" cy="190" r="3" fill="#3aa868"/>
+    <circle cx="220" cy="208" r="2.5" fill="#3aa868"/>
+  </g>
+
+  <g>
+    <ellipse cx="320" cy="172" rx="9" ry="10" fill="#3a261a"/>
+    <ellipse cx="320" cy="168" rx="6" ry="6" fill="#5a3622"/>
+    <ellipse cx="318" cy="158" rx="7" ry="6" fill="#0a0808"/>
+    <ellipse cx="324" cy="156" rx="5" ry="5" fill="#0a0808"/>
+    <ellipse cx="317" cy="172" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <ellipse cx="323" cy="172" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <path d="M 304 180 L 336 180 L 340 222 L 300 222 Z" fill="url(#copperF81)"/>
+    <path d="M 304 184 L 336 184 L 336 218 L 304 218 Z" fill="#5a2e10"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloom81)">
+    <circle cx="304" cy="200" r="2" fill="#d88838"/>
+    <circle cx="336" cy="200" r="2" fill="#d88838"/>
+  </g>
+
+  <g>
+    <ellipse cx="430" cy="172" rx="9" ry="10" fill="#3a261a"/>
+    <ellipse cx="430" cy="168" rx="6" ry="6" fill="#5a3622"/>
+    <path d="M 420 162 Q 430 156 440 162 L 438 168 Q 432 158 426 168 Z" fill="#9098a0" opacity="0.92"/>
+    <ellipse cx="427" cy="172" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <ellipse cx="433" cy="172" rx="0.9" ry="1.1" fill="#0a0604"/>
+    <path d="M 426 178 L 434 178" stroke="#0a0604" stroke-width="0.8"/>
+    <path d="M 414 180 L 446 180 L 450 222 L 410 222 Z" fill="url(#silverF81)"/>
+    <path d="M 414 184 L 446 184 L 446 218 L 414 218 Z" fill="#2a2a2a"/>
+  </g>
+  <g opacity="0.85">
+    <ellipse cx="416" cy="196" rx="5" ry="2" fill="#0a0604"/>
+    <ellipse cx="446" cy="196" rx="5" ry="2" fill="#0a0604"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="220" cy="226" rx="20" ry="2.5" fill="#080404"/>
+    <ellipse cx="320" cy="226" rx="18" ry="2.5" fill="#080404"/>
+    <ellipse cx="430" cy="226" rx="18" ry="2.5" fill="#080404"/>
+  </g>
+
+  <g opacity="0.75">
+    <line x1="240" y1="180" x2="408" y2="180" stroke="#88a0c8" stroke-width="0.4" stroke-dasharray="4 6"/>
+  </g>
+
+  <g>
+    <ellipse cx="540" cy="186" rx="8" ry="9" fill="#3a261a"/>
+    <ellipse cx="540" cy="182" rx="5" ry="5" fill="#5a3622"/>
+    <path d="M 532 178 Q 540 172 548 178 L 546 182 Q 540 176 534 182 Z" fill="#1a1818" opacity="0.85"/>
+    <path d="M 524 194 L 556 194 L 560 222 L 520 222 Z" fill="#4a2a78"/>
+  </g>
+  <g>
+    <ellipse cx="600" cy="186" rx="8" ry="9" fill="#3a261a"/>
+    <ellipse cx="600" cy="182" rx="5" ry="5" fill="#5a3622"/>
+    <path d="M 592 176 Q 600 170 608 176 L 606 180 Q 600 174 594 180 Z" fill="#7a3818"/>
+    <path d="M 584 194 L 616 194 L 622 222 L 578 222 Z" fill="#8a2520"/>
+  </g>
+
+  <g opacity="0.4">
+    <circle cx="80" cy="40" r="0.4" fill="#3a4858"/>
+    <circle cx="660" cy="50" r="0.4" fill="#3a4858"/>
+  </g>
+</svg>
