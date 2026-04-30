@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 280" width="247" height="280">
+  <title>Issue 12 Page 11 Panel 3 — Theodore's hand on the cabinet, "You need my hands. My hands are here."</title>
+  <desc>Close-up. Boy's hand grips access panel handle of cast-iron telegraph exchange cabinet — oil-stained fingers, burn scar on one knuckle, brass gear ring on index finger. Grip tight, knuckles white against dark iron. At cabinet seams, amber-black pulse has grown brighter — hub device inside, active, pushing restore signal. Morning light on hand. The decision in the grip. The ordinary hand that will do the extraordinary thing.</desc>
+  <defs>
+    <linearGradient id="bgU3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87878"/>
+      <stop offset="0.4" stop-color="#fff8d8"/>
+      <stop offset="0.7" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <radialGradient id="morningHandU3" cx="0.5" cy="0.4" r="0.55">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="seamPulseU3" cx="0.5" cy="0.85" r="0.42">
+      <stop offset="0" stop-color="#a85020" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#3a1810" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ironHandleU3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3848"/>
+      <stop offset="0.5" stop-color="#1a1828"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="cabinetIronU3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3848"/>
+      <stop offset="0.5" stop-color="#1a1828"/>
+      <stop offset="1" stop-color="#080404"/>
+    </linearGradient>
+    <linearGradient id="skinHandU3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#d8a878"/>
+      <stop offset="0.8" stop-color="#a87858"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+    <linearGradient id="brassRingU3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.4" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#5a2e10"/>
+    </linearGradient>
+    <linearGradient id="titanSeamU3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3a1810" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#a85020" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#3a1810" stop-opacity="0.62"/>
+    </linearGradient>
+    <filter id="bloomU3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="strongGlowU3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.4"/>
+    </filter>
+    <filter id="wrongnessU3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+
+  <rect width="247" height="280" fill="url(#bgU3)"/>
+  <rect width="247" height="280" fill="url(#morningHandU3)"/>
+  <rect width="247" height="280" fill="url(#seamPulseU3)"/>
+
+  <g>
+    <rect x="0" y="180" width="247" height="100" fill="url(#cabinetIronU3)"/>
+    <rect x="0" y="180" width="247" height="6" fill="#080404"/>
+    <g opacity="0.62" stroke="#080404" stroke-width="0.4">
+      <line x1="0" y1="220" x2="247" y2="220"/>
+      <line x1="0" y1="250" x2="247" y2="250"/>
+      <line x1="80" y1="186" x2="80" y2="280"/>
+      <line x1="160" y1="186" x2="160" y2="280"/>
+    </g>
+
+    <line x1="0" y1="186" x2="247" y2="186" stroke="url(#titanSeamU3)" stroke-width="0.85"/>
+    <line x1="60" y1="186" x2="58" y2="200" stroke="url(#titanSeamU3)" stroke-width="0.7"/>
+    <line x1="190" y1="186" x2="192" y2="200" stroke="url(#titanSeamU3)" stroke-width="0.7"/>
+  </g>
+  <g opacity="0.62" filter="url(#wrongnessU3)">
+    <rect x="0" y="180" width="247" height="14" fill="#a85020" opacity="0.55"/>
+  </g>
+  <g opacity="0.42" filter="url(#wrongnessU3)">
+    <rect x="0" y="170" width="247" height="40" fill="#a85020" opacity="0.42"/>
+  </g>
+
+  <g>
+    <rect x="100" y="160" width="44" height="22" rx="3" fill="url(#ironHandleU3)"/>
+    <ellipse cx="122" cy="171" rx="9" ry="3" fill="#3a3848"/>
+    <line x1="100" y1="172" x2="144" y2="172" stroke="#080404" stroke-width="0.4"/>
+  </g>
+
+  <g>
+    <path d="M 60 60 Q 80 50 100 50 L 160 56 Q 180 60 200 80 L 200 130 Q 180 150 160 156 L 100 156 Q 80 150 60 130 Q 40 100 60 60 Z" fill="url(#skinHandU3)"/>
+
+    <path d="M 80 80 L 100 80 L 100 130 L 80 130 Z" fill="url(#skinHandU3)" opacity="0.85"/>
+    <path d="M 110 70 L 130 70 L 130 130 L 110 130 Z" fill="url(#skinHandU3)" opacity="0.85"/>
+    <path d="M 140 80 L 160 80 L 160 130 L 140 130 Z" fill="url(#skinHandU3)" opacity="0.85"/>
+    <path d="M 170 90 L 190 90 L 190 130 L 170 130 Z" fill="url(#skinHandU3)" opacity="0.85"/>
+
+    <path d="M 80 130 L 100 130 L 105 165 L 78 168 Z" fill="url(#skinHandU3)" opacity="0.92"/>
+    <path d="M 110 130 L 130 130 L 135 170 L 105 168 Z" fill="url(#skinHandU3)" opacity="0.92"/>
+    <path d="M 140 130 L 160 130 L 162 165 L 134 168 Z" fill="url(#skinHandU3)" opacity="0.92"/>
+    <path d="M 170 130 L 190 130 L 188 158 L 162 162 Z" fill="url(#skinHandU3)" opacity="0.92"/>
+
+    <line x1="80" y1="130" x2="80" y2="170" stroke="#7a4830" stroke-width="0.55" opacity="0.62"/>
+    <line x1="110" y1="130" x2="105" y2="170" stroke="#7a4830" stroke-width="0.55" opacity="0.62"/>
+    <line x1="140" y1="130" x2="135" y2="170" stroke="#7a4830" stroke-width="0.55" opacity="0.62"/>
+    <line x1="170" y1="130" x2="162" y2="165" stroke="#7a4830" stroke-width="0.55" opacity="0.62"/>
+
+    <ellipse cx="100" cy="80" rx="6" ry="4" fill="#a87858" opacity="0.62"/>
+    <path d="M 90 84 L 96 80" stroke="#a85820" stroke-width="0.85" opacity="0.7"/>
+
+    <ellipse cx="155" cy="90" rx="6" ry="3" fill="#5a3018" opacity="0.55"/>
+    <ellipse cx="125" cy="120" rx="3" ry="2" fill="#5a3018" opacity="0.55"/>
+    <ellipse cx="180" cy="110" rx="3" ry="1.4" fill="#5a3018" opacity="0.55"/>
+
+    <path d="M 120 70 L 130 64 L 138 68 Z" fill="#a85820" opacity="0.62"/>
+
+    <ellipse cx="118" cy="80" rx="4" ry="3" fill="url(#brassRingU3)"/>
+    <ellipse cx="118" cy="80" rx="2.4" ry="1.4" fill="#3a1a08"/>
+    <line x1="114" y1="80" x2="122" y2="80" stroke="#5a2e10" stroke-width="0.55"/>
+    <line x1="118" y1="76" x2="118" y2="84" stroke="#5a2e10" stroke-width="0.4"/>
+
+    <path d="M 60 60 Q 50 80 50 110 Q 50 140 60 170 L 30 170 L 30 60 Z" fill="url(#skinHandU3)" opacity="0.85"/>
+
+    <path d="M 78 168 L 105 168 L 135 170 L 162 165 L 188 158" stroke="#7a4830" stroke-width="0.55" fill="none" opacity="0.7"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowU3)">
+    <ellipse cx="118" cy="80" rx="9" ry="6" fill="#fff8d8" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.65">
+    <ellipse cx="123" cy="270" rx="100" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="200" height="22" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a2410" stroke-width="1.2"/>
+    <text x="96" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#3a2410" font-weight="700">THEODORE: "I'm not waiting."</text>
+    <text x="96" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#3a2410" font-style="italic" font-weight="700">"You need my hands. My hands are here."</text>
+  </g>
+</svg>

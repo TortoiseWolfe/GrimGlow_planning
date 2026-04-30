@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 280" width="247" height="280">
+  <title>Issue 12 Page 11 Panel 2 — Jink launches from basement, "Don't start without me!"</title>
+  <desc>Medium shot. Tiny figure in degraded emerald suit explodes from dark basement stairwell into morning light, holographic dragonfly wings deploying at full power, climbing fast. Emerald-green prismatic trails blaze behind at full intensity. Below, at stairwell mouth, second tiny figure in crimson armor emerges into light, looking up. Morning sky bright and blue. The fastest flyer racing the clock.</desc>
+  <defs>
+    <linearGradient id="bgU2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a78a8"/>
+      <stop offset="0.4" stop-color="#a87878"/>
+      <stop offset="0.7" stop-color="#5a4858"/>
+      <stop offset="1" stop-color="#1a1018"/>
+    </linearGradient>
+    <radialGradient id="morningSkyU2" cx="0.5" cy="0.05" r="0.45">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#a8c0e0" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="darkBelowU2" cx="0.5" cy="0.92" r="0.42">
+      <stop offset="0" stop-color="#040206" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#1a1018" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#3a2838" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rooftopU2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4858"/>
+      <stop offset="0.5" stop-color="#3a2838"/>
+      <stop offset="1" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="stairMouthU2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1018"/>
+      <stop offset="0.5" stop-color="#080404"/>
+      <stop offset="1" stop-color="#020100"/>
+    </linearGradient>
+    <linearGradient id="suitJinkU2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.4" stop-color="#1a4830"/>
+      <stop offset="1" stop-color="#0a2018"/>
+    </linearGradient>
+    <linearGradient id="suitThreshU2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a83838"/>
+      <stop offset="0.4" stop-color="#7a2530"/>
+      <stop offset="1" stop-color="#1a0810"/>
+    </linearGradient>
+    <linearGradient id="hairBlondeU2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff088"/>
+      <stop offset="0.5" stop-color="#d88838"/>
+      <stop offset="1" stop-color="#7a4818"/>
+    </linearGradient>
+    <linearGradient id="trailBlazeU2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#3a8858" stop-opacity="0.85"/>
+      <stop offset="0.7" stop-color="#fff088" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#3a8858" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="bloomU2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <filter id="strongGlowU2" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="megaGlowU2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6.4"/>
+    </filter>
+    <filter id="ultraGlowU2" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect width="247" height="280" fill="url(#bgU2)"/>
+  <rect width="247" height="280" fill="url(#morningSkyU2)"/>
+  <rect width="247" height="280" fill="url(#darkBelowU2)"/>
+
+  <g>
+    <path d="M 0 200 L 60 196 L 130 200 L 200 196 L 247 200 L 247 240 L 0 240 Z" fill="url(#rooftopU2)" opacity="0.92"/>
+    <rect x="80" y="220" width="80" height="60" fill="url(#stairMouthU2)"/>
+    <path d="M 80 220 L 100 228 L 100 280 L 80 280 Z" fill="#040206"/>
+    <path d="M 160 220 L 140 228 L 140 280 L 160 280 Z" fill="#040206"/>
+    <path d="M 100 228 L 140 228 L 130 280 L 110 280 Z" fill="#020100"/>
+    <line x1="80" y1="220" x2="160" y2="220" stroke="#080404" stroke-width="0.85"/>
+  </g>
+
+  <g>
+    <path d="M 120 240 Q 124 200 128 160 Q 130 120 132 80 Q 134 50 136 30" stroke="url(#trailBlazeU2)" stroke-width="22" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 120 240 Q 124 200 128 160 Q 130 120 132 80 Q 134 50 136 30" stroke="url(#trailBlazeU2)" stroke-width="11" fill="none" stroke-linecap="round" opacity="0.95"/>
+    <path d="M 120 240 Q 124 200 128 160 Q 130 120 132 80 Q 134 50 136 30" stroke="#fff088" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.95"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowU2)">
+    <path d="M 120 240 Q 124 200 128 160 Q 130 120 132 80 Q 134 50 136 30" stroke="#3a8858" stroke-width="40" fill="none" stroke-linecap="round" opacity="0.42"/>
+  </g>
+  <g opacity="0.42" filter="url(#ultraGlowU2)">
+    <path d="M 120 240 Q 124 200 128 160 Q 130 120 132 80 Q 134 50 136 30" stroke="#3a8858" stroke-width="80" fill="none" stroke-linecap="round" opacity="0.32"/>
+  </g>
+
+  <g transform="rotate(80 136 30)">
+    <ellipse cx="136" cy="30" rx="14" ry="6" fill="url(#suitJinkU2)"/>
+    <path d="M 124 28 Q 110 20 102 26 Q 110 36 124 32 Z" fill="#3a8858" opacity="0.85"/>
+    <path d="M 148 28 Q 162 20 170 26 Q 162 36 148 32 Z" fill="#3a8858" opacity="0.85"/>
+    <path d="M 124 32 Q 112 40 106 46 Q 120 44 128 36 Z" fill="#3a8858" opacity="0.7"/>
+    <path d="M 148 32 Q 160 40 166 46 Q 152 44 144 36 Z" fill="#3a8858" opacity="0.7"/>
+
+    <ellipse cx="136" cy="22" rx="6" ry="6" fill="#a87858"/>
+    <path d="M 130 18 Q 136 12 142 18 Q 144 22 142 24 L 130 24 Q 128 22 130 18 Z" fill="url(#hairBlondeU2)"/>
+    <ellipse cx="132" cy="22" rx="2" ry="3" fill="url(#hairBlondeU2)"/>
+    <ellipse cx="140" cy="22" rx="2" ry="3" fill="url(#hairBlondeU2)"/>
+
+    <circle cx="134" cy="22" r="0.55" fill="#0a0604"/>
+    <circle cx="138" cy="22" r="0.55" fill="#0a0604"/>
+  </g>
+  <g opacity="0.95" filter="url(#strongGlowU2)">
+    <circle cx="136" cy="30" r="22" fill="#3a8858" opacity="0.62"/>
+  </g>
+  <g opacity="0.62" filter="url(#megaGlowU2)">
+    <circle cx="136" cy="30" r="40" fill="#3a8858" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="120" cy="248" rx="9" ry="2" fill="#040202" opacity="0.62"/>
+    <ellipse cx="120" cy="240" rx="6" ry="9" fill="url(#suitThreshU2)"/>
+    <ellipse cx="120" cy="228" rx="3" ry="4" fill="#fff8e8"/>
+    <path d="M 117 224 Q 120 220 123 224 Q 124 228 123 230 L 117 230 Q 116 228 117 224 Z" fill="#7a3018"/>
+    <circle cx="119" cy="228" r="0.4" fill="#0a0604"/>
+    <circle cx="121" cy="228" r="0.4" fill="#0a0604"/>
+
+    <line x1="120" y1="218" x2="124" y2="190" stroke="#fff088" stroke-width="0.4" opacity="0.55" stroke-dasharray="2,2"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomU2)">
+    <ellipse cx="120" cy="240" rx="11" ry="14" fill="#d83838" opacity="0.42"/>
+  </g>
+
+  <g transform="translate(8,12)">
+    <rect x="-4" y="0" width="180" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#3a8858" stroke-width="1.2"/>
+    <text x="86" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#3a8858" font-weight="700">JINK: "Airborne! En route!"</text>
+    <text x="86" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#3a8858" font-style="italic" font-weight="700">"Theodore, don't start without me!"</text>
+  </g>
+</svg>
