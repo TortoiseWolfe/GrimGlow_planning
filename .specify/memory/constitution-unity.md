@@ -78,10 +78,14 @@ PRPs at `docs/prp-docs/<system>-prp.md`. SpecKit artifacts at
 `specs/<NNN-name>/`. Ad-hoc system development is forbidden, including
 "refactor" and "polish" passes — those need a PRP too.
 
-### IV. Docker-First Where Feasible
+### IV. Docker-First Where Feasible (v1.0.1: scoped to CI only)
 
 Local development runs in the Unity Editor directly — there is no
-viable Docker-first option for the Editor itself. However:
+viable Docker-first option for the Editor itself. **Locked in v1.0.1:
+Docker scope is "CI builds + tests only."** Running the Editor inside
+a container with X11 forwarding was considered and rejected as
+fragile across host OS variations and unreliable for GPU access.
+However, on the CI side:
 
 - **CI builds** run headless Unity in Docker (`unityci/editor` images)
 - **Asset import / preprocessing** runs in Docker
@@ -162,7 +166,7 @@ prefabs, or source. `.env` gitignored.
 - Master GLB assets, Meshy.ai prompt records, and shared shader R&D
   live in the dedicated Git-LFS asset-bridge repo (same repo Phase 1
   consumes from). Unity imports via a custom `AssetPostprocessor` that
-  reassigns Three.js / R3F materials to URP/HDRP equivalents on import.
+  reassigns Three.js / R3F materials to URP equivalents on import.
 - Higher-poly versions of Phase 1 models generated in Meshy.ai when
   needed, committed to the bridge, replacing Phase 1's lower-poly
   versions for Phase 2 use.
@@ -216,7 +220,12 @@ the push.
 
 ### Engine + Tooling
 
-- **Unity** with URP or HDRP (final pipeline TBD by tech-art prototype)
+- **Unity** with URP (Universal Render Pipeline). Locked in v1.0.1
+  (2026-05-02). Rationale: faster to ship, broader hardware support
+  (Steam Deck-friendly per Principle V perf budgets), simpler shader
+  graph, and matches the painterly + dual-lighting visual target
+  without HDRP's overhead. Future amendment to HDRP requires a
+  TechnicalArtist prototype showing concrete blockers.
 - **C# 11+** with nullable reference types enabled, treat-warnings-
   as-errors
 - **Unity Test Framework** for PlayMode + EditMode tests
@@ -227,7 +236,7 @@ the push.
 ### Asset Pipeline
 
 - All 3D assets sourced from the Git-LFS asset-bridge repo
-- AssetPostprocessor reassigns materials to URP/HDRP on import
+- AssetPostprocessor reassigns materials to URP on import
 - No assets duplicated into this repo — bridge is single source of
   truth
 - Texture budget per asset documented in import settings; CI fails
@@ -297,11 +306,18 @@ and reality contacts the paper.
 
 ---
 
-**Version**: 1.0.0 (paper)
-**Ratified**: 2026-05-02
+**Version**: 1.0.1 (paper)
+**Ratified**: 2026-05-02 (v1.0.0); amended 2026-05-02 (v1.0.1)
 **Status**: paper-only — no Unity code work has started yet. Will be
-amended once Phase 1 ships and Phase 2 implementation begins.
+amended further once Phase 1 ships and Phase 2 implementation begins.
 **Source constitutions**: ScriptHammer v1.0.1 (ratified 2025-09-20),
 GrimGlow Phase 1 v1.0.0 (this repo, ratified 2026-05-02).
 **Scope**: GrimGlow Phase 2 (Unity full PC game on Steam/itch.io).
 Phase 1 (browser + iOS prologue) is governed by `constitution.md`.
+
+### Amendment log
+
+- **v1.0.1 (2026-05-02)** — Lock URP as the render pipeline (was
+  "TBD by tech-art prototype"). Lock Docker scope to "CI builds + tests
+  only" (Principle IV) — local Unity Editor runs on host, dependencies
+  declared via Unity Package Manager, no global host installs.
