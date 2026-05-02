@@ -49,19 +49,41 @@ axe-react-native (a11y).
 auditable by Pa11y/axe-core) but requires documented manual a11y review
 per Principle V's 3D carve-out.
 
-### III. SpecKit/PRP Methodology (NON-NEGOTIABLE)
+### III. SpecKit/PRP Methodology (NON-NEGOTIABLE) *(v1.0.1: wireframe gate added)*
 
-Features taking >1 day MUST follow the SpecKit flow:
+Features taking >1 day MUST follow the SpecKit flow. **The wireframe
+step between `/clarify` and `/plan` is a hard gate, not an optional
+hook** — mock up first, then plan against the mockup.
 
 ```
-PRP → /speckit.specify → /speckit.clarify → /speckit.plan
-    → /speckit.checklist → /speckit.tasks → /speckit.analyze
+PRP → /speckit.specify → /speckit.clarify
+    → /speckit.wireframe.generate → /speckit.wireframe.review
+    → /speckit.plan → /speckit.checklist → /speckit.tasks → /speckit.analyze
     → /speckit.implement
+    → /speckit.wireframe.screenshots (post-implement regression check)
 ```
 
 PRPs live at `docs/prp-docs/<feature>-prp.md`. SpecKit artifacts live
 at `specs/<NNN-name>/`. Ad-hoc feature development is forbidden.
-"This one is small" is not an exemption — write the PRP.
+"This one is small" is not an exemption — write the PRP. Pure-infra
+PRPs (no UI, no scene visualization) ship a "no UI" wireframe stub
+for explicitness rather than skipping the gate.
+
+**Phase 1a (browser) canvas:** inherits ScriptHammer's web canvas
+(1920×1080 with desktop 1280×720 + mobile 360×720 split). Adds
+game-specific HUD overlay and dialogue-portrait template types.
+
+**Phase 1b (iOS port) canvas:** single 390×844 device-frame canvas
+(iPhone 14 Pro), no desktop split. Inherits the same SVG conventions
+as the web canvas (panel color `#e8d4b8`, 14px minimum font, 44px
+touch targets) plus the same game-specific template types.
+
+**The wireframe extension** lives at `.specify/extensions/wireframe/`
+in the eventual Phase 1a fork. It's copy-and-adapted from
+ScriptHammer's existing extension when the fork starts. The 6 skills
+(`prep`, `generate`, `review`, `inspect`, `screenshots`, `view`) and
+validation rules carry forward unchanged; canvas conventions and
+authoring guides adapt.
 
 ### IV. Docker-First Development
 
@@ -319,8 +341,20 @@ authoritative source when the two conflict.
 
 ---
 
-**Version**: 1.0.0
-**Ratified**: 2026-05-02
+**Version**: 1.0.1
+**Ratified**: 2026-05-02 (v1.0.0); amended 2026-05-02 (v1.0.1)
 **Source constitution**: ScriptHammer v1.0.1 (ratified 2025-09-20)
 **Scope**: GrimGlow Phase 1 (browser prologue + iOS port). Phase 2
 (Unity full game) is governed by `constitution-unity.md`.
+
+### Amendment log
+
+- **v1.0.1 (2026-05-02)** — Harden Principle III with a mandatory
+  wireframe gate between `/speckit.clarify` and `/speckit.plan`.
+  Family-wide discipline change captured in the strategy plan
+  (`~/.claude/plans/trying-to-decide-on-gleaming-kitten.md`); ScriptHammer
+  v1.0.2 carries the same amendment as the source-of-truth ratification.
+  Phase 1a (browser) inherits web canvas conventions; Phase 1b (iOS)
+  adopts mobile-first device-frame canvas. **Unity track is exempt**
+  from the wireframe gate per operator decision — game scenes are
+  mocked in-Editor, not via SVG. Phase 2 constitution is unchanged.
