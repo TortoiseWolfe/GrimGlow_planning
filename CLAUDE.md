@@ -81,3 +81,8 @@ world-building/        — World design, 3D asset prompts, and reference maps
 - Character turnaround prompts are structured for Meshy.ai 3D model generation (neutral background, four views, even lighting).
 - Script generation prompts are self-contained per issue but should be fed alongside the Story Bible, Character Prompts, Character Turnarounds, and Plot Outline for best results. Each prompt specifies 22-page budgets with exact page ranges per story beat.
 - The comic and game share narrative continuity — the prologue browser game covers Issues 1-3 (crash through Theodore's discovery).
+
+<!-- SPECKIT START -->
+For additional context about technologies to be used, project structure,
+shell commands, and other important information, read the current plan
+<!-- SPECKIT END -->
