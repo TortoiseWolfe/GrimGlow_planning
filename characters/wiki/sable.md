@@ -110,7 +110,7 @@ Direct tension over human interaction protocol. Sable wants zero contact with hu
 
 ### Sable and Thresh
 
-Thresh is the squad member Sable worries about the least and the most. The least: he follows orders, holds positions, does his job. The most: he is afraid, constantly, and Sable can see it. The Issue 7 surprise -- Thresh siding with Jink in the Titan debate -- is the first time Sable realizes she has misjudged him. She assumed Thresh would support protocol because fear makes people crave structure. Instead, Thresh chose the braver option. (Source: Sable Backstory brainstorm; Plot Outline, Issue 7)
+Thresh is the squad member Sable worries about the least and the most. The least: they follow orders, hold positions, do their job. The most: they are afraid, constantly, and Sable can see it. The Issue 7 surprise -- Thresh siding with Jink in the Titan debate -- is the first time Sable realizes she has misjudged them. She assumed Thresh would support protocol because fear makes people crave structure. Instead, Thresh chose the braver option. (Source: Sable Backstory brainstorm; Plot Outline, Issue 7)
 
 ### Sable and Luma
 
