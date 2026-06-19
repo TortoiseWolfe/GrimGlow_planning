@@ -874,18 +874,18 @@ Painterly illustrated style, rich detail. Close-up. A woman in degraded crimson 
 
 #### Panel 5 — Wide, right (two-thirds width)
 
-**Shot:** Medium wide — the shot hits
-**Camera:** 35mm. Thresh's crimson energy bolt strikes the Titan drone's sensor cluster. The cluster shatters — dark crystalline fragments spraying outward, dark iridescence flickering wildly. The drone spasms, limbs jerking, losing coordination. Not destroyed — blinded. It begins to withdraw, pulling its limbs back toward the ceiling, seeking the pipe infrastructure to retreat through.
-**Action:** Direct hit. The drone's sensors are destroyed. It's blinded. It withdraws — not dead, but combat-ineffective. The basement is clear.
-**Expression:** (Thresh visible) A moment of fierce, shaking triumph. She did it. She was afraid. She did it anyway.
+**Shot:** Medium wide — the shot hits, and the drone takes its price
+**Camera:** 35mm. Thresh's crimson energy bolt strikes the Titan drone's sensor cluster. The cluster shatters — dark crystalline fragments spraying outward, dark iridescence flickering wildly. The drone spasms, blinded, limbs jerking — but a blinded thing still flails. One angular limb whips out as it convulses and catches Thresh across the back and shoulder, where the wing-pack mounts. The impact is enormous at four-inch scale. The wing-pack shatters; the arm beneath it folds the wrong way. Thresh goes down. The drone, sensors gone, drags itself up into the pipe infrastructure to retreat — combat-ineffective, but not before it took something.
+**Action:** Direct hit. The drone is blinded — and in its blind convulsion it shatters Thresh's wing-pack and ruins their arm. The basement is clear. The cost is paid. Thresh is on the ground.
+**Expression:** (Thresh visible) The triumph and the wound in the same instant — they fired the shot that mattered, and it cost them. Not fierce triumph now: shock, and then pain arriving.
 **Dialogue:**
-- JINK (radio): "Direct hit! It's pulling back!"
-- THRESH (ragged): "Did I get it?"
-- JINK: "You got it, Thresh. You got it."
-**Lighting:** The crimson bolt impact — bright flash on the dark drone surface. Dark iridescent fragments spraying. The drone's surface flickering wildly as it loses coherence. Then darkness returning as the drone retreats into the pipe infrastructure above.
+- JINK (radio): "Direct hit! It's pulling back — THRESH—"
+- THRESH (ragged, then a sound that isn't a word): "Did I... get it—"
+- JINK (no quip left): "You got it. You got it. Stay down, I've got you."
+**Lighting:** The crimson bolt impact — bright flash on the dark drone surface. Dark iridescent fragments spraying. Then the limb's dark blur across Thresh's back, the crimson wing-pack glow guttering out as it shatters — five colors of the squad, and one of them going dark. The drone retreating into the pipe infrastructure above.
 
 ```text
-Painterly illustrated style, rich detail. Medium wide shot. A crimson energy bolt strikes the sensor cluster of a Titan drone — the cluster shatters, dark crystalline fragments spraying outward with flickering dark iridescence. The drone spasms, angular limbs jerking with lost coordination, pulling back toward the ceiling pipes in retreat. At the base of a brick column, a tiny figure in crimson armor stands with weapon extended, the barrel still glowing from the shot — her expression is fierce, shaking triumph. Nearby, hovering, a second tiny figure in emerald suit watches with relief. Dark crystalline fragments scatter through the air. The drone's dark iridescent surface flickers wildly as it retreats. The basement, for a moment, belongs to the four-inch soldiers. Oil paint texture, visible brushwork, the shot that mattered.
+Painterly illustrated style, rich detail. Medium wide shot. A crimson energy bolt strikes the sensor cluster of a Titan drone — the cluster shatters, dark crystalline fragments spraying outward with flickering dark iridescence. The drone spasms, blinded — and one angular limb whips out in its convulsion, catching a tiny figure in crimson armor across the back and shoulder where the wing-pack mounts. The holographic wing-pack shatters into guttering shards of crimson light; the arm beneath folds wrong; the figure is thrown to the basement floor at the base of a brick column, weapon spilling from their grip. Above, a second tiny figure in emerald suit dives toward the fallen one, relief turned to alarm. The drone drags its dark iridescent bulk up into the ceiling pipes in retreat. Dark crystalline fragments and dying crimson light scatter through the air together. The basement belongs to the four-inch soldiers — but one of them is down. Oil paint texture, visible brushwork, the shot that mattered and the price it cost.
 ```
 
 ---
@@ -917,16 +917,17 @@ Painterly illustrated style, rich detail. Wide shot. A tiny figure in pewter-dar
 
 #### Panel 2 — One-third width, left
 
-**Shot:** Medium shot — Jink launching from the basement stairwell
-**Camera:** 50mm. Jink exploding out of the basement stairwell, wings deploying at full power, climbing fast — heading back to the exchange. Below them, Thresh emerges at the stairwell mouth, looking up.
-**Action:** Jink rockets back toward the exchange. Every second counts.
-**Expression:** Fierce urgency. The fastest flyer in the squad, racing the clock.
+**Shot:** Medium shot — Jink launching from the basement stairwell, leaving Thresh behind
+**Camera:** 50mm. Jink exploding out of the basement stairwell, wings deploying at full power, climbing fast — heading back to the exchange. The failsafe leaves no choice: the hub must die now, and Jink is the only one fast enough. Below, in the dark of the stairwell, Thresh is propped against the wall where Jink left them — one arm useless, the shattered wing-pack dead at their back, waving Jink off with the good hand. *Go.* The hardest thing the squad does this issue is leave one of their own on the ground to save the mission.
+**Action:** Jink rockets back toward the exchange, abandoning the downed Thresh because the clock allows nothing else. Every second counts, and the cost of those seconds has a face.
+**Expression:** Fierce urgency over a wound that won't close — the fastest flyer racing the clock and hating that the clock is what's making them leave. Below: Thresh, grey with pain, ordering Jink away.
 **Dialogue:**
-- JINK (radio): "Airborne! En route to exchange! Theodore, don't start without me!"
-**Lighting:** Morning sky. Emerald wing-light at full intensity, trailing bright.
+- THRESH (radio, ragged): "Go. Hub first. I'm not going anywhere."
+- JINK (radio, tight): "Airborne. En route to exchange. Theodore, don't start without me." (lower) "...Hold on, Thresh."
+**Lighting:** Morning sky. Emerald wing-light at full intensity, trailing bright. Below in the stairwell dark, the crimson glow is wrong now — half of it gone, the wing-pack nodes dead, only the suit's chest and gauntlet edges still lit.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded emerald suit explodes from a dark basement stairwell into morning light, holographic dragonfly wings deploying at full power, climbing fast. Emerald-green prismatic trails blaze behind them at full intensity. Below, at the stairwell mouth, a second tiny figure in crimson armor emerges into the light, looking up. Morning sky, bright and blue. The emerald figure climbs fast, racing. Oil paint texture, visible brushwork, the fastest flyer racing the clock.
+Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded emerald suit explodes from a dark basement stairwell into morning light, holographic dragonfly wings deploying at full power, climbing fast. Emerald-green prismatic trails blaze behind them at full intensity — but the face is turned half back, urgency mixed with reluctance. Below, in the shadow of the stairwell mouth, a second tiny figure in crimson armor is propped against the brick, one arm hanging useless, the wing-pack on their back shattered and dark, crimson holographic light burning only at the chest and gauntlet now. The downed figure lifts the good hand in a flat, final wave — go. Morning sky bright above, wounded dark below. The emerald figure climbs fast, racing, leaving the friend on the ground. Oil paint texture, visible brushwork, the cost of every second.
 ```
 
 ---
@@ -1566,7 +1567,7 @@ Painterly illustrated style, rich detail. Close-up. A Victorian boy's face looki
 Morning light — warm amber-gold — dominant. This is the simplest lighting in the issue. No holographic displays. No tactical projections. No constellation. Just morning light on five battered soldiers and the suits they've worn through twelve issues of soot, combat, and adaptation. The holographic elements on the suits glow through the grime — present, enduring, but secondary to the warm light. The warm light wins. But the cool light is still there, bleeding through, not extinguished.
 
 ### Scene Setup
-Sable's response to the revelation. This is not a speech. This is not a command. This is a look. The commander who held the secret, carried the file, made the decisions, sent the boy — she looks at her squad and sees what they've become. They are fairy tales. Soot-covered, light-bleeding, improvised-repair fairy tales. They always were.
+Sable's response to the revelation, in three movements. First she *comes down* — for the whole volume she has commanded from above and apart, and the last high vantage is this steeple; now she leaves it and descends to stand among the squad instead of over them. On the way down the framing rhymes the very first image of the volume — Sable at the edge of a rain gutter, four inches tall, the gaslit city sprawling to the horizon — but the meaning is inverted: the city that was an enormous trap is now the place she is choosing. The journey ends where it began, on the same threshold, crossed the other way. Then she gives her first order in the new mode — command by sharing the truth instead of guarding it: the ship is no longer the way out, it is the camp's power source; the mission is no longer extraction, it is *this*. And only then the look, the acceptance, the smallest nod. They are fairy tales. Soot-covered, light-bleeding, improvised-repair, now battle-wounded fairy tales. They always were.
 
 ---
 
@@ -1579,30 +1580,31 @@ Sable's response to the revelation. This is not a speech. This is not a command.
 #### Panel 1 — Full width, top (half page)
 
 **Shot:** Wide — Sable looking at her squad, all of them visible
-**Camera:** 28mm, from slightly behind and beside Sable. Over her shoulder, we see the squad on the steeple beams — Wren sitting, Jink perched on a higher beam with one leg dangling, Thresh standing with arms crossed, Luma leaning against the bell mechanism. They are battered. They are soot-covered. They are damaged, patched, improvised, degraded. And holographic light still bleeds through the grime in five colors — copper-gold at Wren's joints, emerald at Jink's wing-pack seams, crimson at Thresh's armor edges, blue-violet at Luma's collar. They look like fairy tales. Not the pristine, polished beings they were in Issue 1. Something better. Something that has been through the dark and still carries light.
+**Camera:** 28mm, from slightly behind and beside Sable. Over her shoulder, we see the squad on the steeple beams — Wren sitting, Jink perched on a higher beam with one leg dangling, Luma leaning against the bell mechanism. And Thresh, no longer standing tall: seated low against a beam, one arm bound across the chest in an improvised sling, the shattered wing-pack gone from their back, Luma's field-dressing visible at the shoulder. They are battered. They are soot-covered. They are damaged, patched, improvised, degraded — and one of them is freshly, permanently wounded. Holographic light still bleeds through the grime in five colors — copper-gold at Wren's joints, emerald at Jink's wing-pack seams, blue-violet at Luma's collar, crimson at Thresh's armor edges — but Thresh's wing-pack seams are dark now, two of the five lights diminished. They look like fairy tales. Not the pristine, polished beings they were in Issue 1. Something better. Something that has been through the dark, paid for it, and still carries light.
 **Action:** Sable looks at them. That's the action. That's the scene. The commander seeing her squad for what they are.
 **Expression:** (Sable from behind — posture, not face) The stillness of recognition. (Squad: unguarded, tired, real)
 **Dialogue:** None.
 **Lighting:** Morning light through the arches, warm amber. Five holographic accent colors bleeding through damaged suits. No other light sources. The simplicity IS the point.
 
 ```text
-Painterly illustrated style, rich detail. Wide shot from slightly behind and beside a tiny figure in pewter-dark degraded silver suit — over her shoulder, we see four other tiny figures on church steeple beams in morning light. One in near-brown copper sits with tools in her lap. One in soot-streaked emerald perches on a higher beam, one leg dangling. One in battered crimson stands with arms crossed. One in scuffed sapphire-violet leans against the bell mechanism. All are heavily degraded — soot, damage, improvised repairs, the cumulative ruin of twelve issues — but holographic light bleeds through the grime at joints, seams, and nodes. Copper-gold, emerald, crimson, blue-violet — four colors of light through four suits of damage. They look like fairy tales. Not pristine. Not polished. Something that has been through the dark and still carries light. Morning amber through the stone arches. The simplicity. The beauty. Oil paint texture, visible brushwork, the commander seeing what they are.
+Painterly illustrated style, rich detail. Wide shot from slightly behind and beside a tiny figure in pewter-dark degraded silver suit — over her shoulder, we see four other tiny figures on church steeple beams in morning light. One in near-brown copper sits with tools in her lap. One in soot-streaked emerald perches on a higher beam, one leg dangling. One in scuffed sapphire-violet leans against the bell mechanism. And one in battered crimson sits low against a beam, one arm bound across the chest in an improvised sling, the back where a wing-pack should mount now bare and dark, a field-dressing at the shoulder. All are heavily degraded — soot, damage, improvised repairs, the cumulative ruin of twelve issues — and one is freshly, permanently wounded. Holographic light bleeds through the grime at joints, seams, and nodes — copper-gold, emerald, blue-violet, crimson — but the crimson figure's wing-pack seams are dark, the light noticeably lessened on the wounded one. They look like fairy tales. Not pristine. Not polished. Something that has been through the dark, paid for it, and still carries light. Morning amber through the stone arches. The simplicity. The beauty. Oil paint texture, visible brushwork, the commander seeing what they are.
 ```
 
 ---
 
 #### Panel 2 — Full width, middle (one-third page)
 
-**Shot:** Medium close-up — Sable's face
-**Camera:** 50mm. Sable's face in morning light. Dark brown skin, silver-white hair, the pewter-dark suit at her collar. Her expression is not command. Not authority. Not the burden-carrier. It is recognition. Understanding. Acceptance. A nod — small, almost imperceptible. Not agreement with a plan. Agreement with a truth. They are what the stories say. They always were.
-**Action:** Sable nods. The smallest gesture. The largest acknowledgment.
-**Expression:** The face of a woman setting down the last weight she carried alone. Not relieved — resolved. The commander who learned that command doesn't mean control. It means choosing what to carry.
+**Shot:** Two-beat panel — Sable descending (rhyming Issue 1), then her command among the squad
+**Camera:** 50mm, but composed in two registers. Foreground/inset: Sable at the lip of a steeple ledge, about to climb down — and the composition deliberately rhymes the final panel of Issue 1: a small silver figure at the edge of a drop, the gaslit-turning-sunlit Victorian city sprawling to the horizon behind her. Same shot, opposite meaning — in Issue 1 the city was the enormous trap she'd fallen into; here it is the place she is choosing to stay. Then the main register: Sable down on the beam among the squad, no longer above them, giving the order. Her face is not command-as-authority — it is command-as-shared-truth. The burden-carrier setting the burden down by handing the truth around.
+**Action:** Sable comes down off the high vantage and stands among them. She gives her first order in the new mode — re-tasking the squad from extraction to permanence. Then the nod. The smallest gesture, the largest acknowledgment.
+**Expression:** The face of a woman setting down the last weight she carried alone. Not relieved — resolved. The commander who learned that command doesn't mean control. It means choosing what to carry, and whom to carry it with.
 **Dialogue:**
+- SABLE (quiet, even — the briefing cadence from Issue 1, inverted): "New orders. The ship isn't our way out anymore — it's our power. Luma, the mythology is the mission now; map all of it. We're not getting home." (beat) "We're already there."
 - SABLE (barely above a whisper): "Then we stay."
-**Lighting:** Morning light, warm amber-gold, on her dark brown skin and silver-white hair. The blue-white holographic accent at her collar — faint, steady, enduring through the grime.
+**Lighting:** Morning light, warm amber-gold. In the inset descent, the cool gaslight-blue of the wider city behind her — the dual-lighting motif one last time. On the beam, the blue-white holographic accent at her collar, faint, steady, enduring through the grime.
 
 ```text
-Painterly illustrated style, rich detail. Medium close-up. A woman's face in morning light — dark brown skin, sharp angular features, very short military-cropped silver-white hair, almost buzz-cut length, NOT long or flowing catching the warm amber-gold. Her pewter-dark degraded silver suit is visible at the collar, blue-white holographic accent glowing faintly through the soot. Her expression is not command or authority — it is recognition, acceptance, the setting down of a weight carried alone. A nod, almost imperceptible. The face of someone who has arrived at a truth she's been circling for twelve issues. Morning amber-gold on her skin. The faintest blue-white glow at her collar. Oil paint texture, visible brushwork, then we stay.
+Painterly illustrated style, rich detail. A two-register composition. Inset (or foreground): a tiny figure in pewter-dark degraded silver suit stands at the lip of a church-steeple ledge, about to climb down, silhouetted against a vast Victorian city stretching to the horizon under morning light edged with the last of the gaslit blue — the composition deliberately echoing a lone four-inch figure at the edge of a great drop above an enormous city. Main register: the same figure now lower, among four other tiny battered figures on the steeple beams, no longer above them but level with them, one hand mid-gesture — giving an order by sharing it, not declaring it. Dark brown skin, sharp angular features, very short military-cropped silver-white hair almost buzz-cut length, NOT long or flowing, catching warm amber-gold. Blue-white holographic accent glowing faintly at her collar through the soot. Her expression is recognition and resolve — the setting down of a weight carried alone. Morning amber-gold and a thread of cool city-blue behind. Oil paint texture, visible brushwork, the captain who came down — then we stay.
 ```
 
 ---

@@ -1662,15 +1662,16 @@ Painterly illustrated style, rich detail. Medium shot at eye level. A tiny figur
 
 **Shot:** Wide, from above, the full extraction
 **Camera:** 24mm. The operational picture from above — the lighthouse, the pier, the waterfront. Four tiny shapes converging on the transit point: Wren and Jink approaching from the pier, Sable at the rendezvous, Thresh visible as a shadow at the perimeter. The shapes are barely visible — dark suits against dark stone and dark water. No holographic light. No wing-glow. Total operational darkness. They are running dark in a way they have never had to before.
-**Action:** The full squad extracting. Moving fast, moving silent, running without light. The operation that succeeded beautifully has turned into a retreat from something they cannot fight.
-**Expression:** (At distance — body language.) Fast, low, converging. Military movement — trained responses taking over from individual fear. They are soldiers again.
+**Action:** The full squad extracting. Moving fast, moving silent, running without light. The operation that succeeded beautifully has turned into a retreat from something they cannot fight. But the silence order has teeth: with comms killed, no one can warn Thresh that a late barge is warping in against the pier on their blind side, its mooring rope sweeping the perimeter stone like a slow scythe. Thresh, running dark and deaf, doesn't see it. Wren does — and can't call it. The save is wordless and almost too late: Wren physically hauls Thresh clear of the rope's path a beat before it drags across the spot they were crossing. They make the rendezvous. Everyone feels how close it was, and everyone knows the channel that would have called the warning was closed by order.
+**Expression:** (At distance — body language.) Fast, low, converging — then one sharp, silent scramble as Wren yanks Thresh out of the rope's arc. Military movement, but with a seam of barely-contained alarm. They are soldiers again, soldiers whose own commander just blinded them.
 **Dialogue:**
 - CAPTION: *They ran dark. No wing-light, no scanner glow, no holographic trace. Four-inch shadows on a stone pier, moving fast, moving silent.*
+- CAPTION: *Silent was the order. Silent was almost the cost — a mooring rope swung across Thresh's blind side, and the only voice that could have warned them had been told to go quiet.*
 - CAPTION: *Running from something across a river. Something that might not have noticed them. Something that felt like it had.*
-**Lighting:** Near-total darkness. The lighthouse beam sweeps overhead but they are below it. The waterfront gas lamps are distant. The figures are dark shapes against dark ground. No fairy light. The absence of their usual glow is the visual statement.
+**Lighting:** Near-total darkness. The lighthouse beam sweeps overhead but they are below it. The waterfront gas lamps are distant. The figures are dark shapes against dark ground. No fairy light. The absence of their usual glow is the visual statement — and the reason the rope was nearly invisible until too late.
 
 ```text
-Painterly illustrated style, rich detail. Wide shot from above. A lighthouse on a stone pier, dark river, waterfront. Four tiny shapes — barely visible, approximately four inches tall each — converge on a point at the waterfront in total operational darkness. No holographic light, no wing-glow, no scanner trace. Dark suits against dark stone and dark water. They move fast and low — military extraction, silent and coordinated. The lighthouse beam sweeps overhead, not reaching them. Distant gas lamps on the waterfront are amber smears. The shapes are soldiers running from something. The absence of their usual fairy light is stark. Oil paint texture, visible brushwork, the retreat in darkness.
+Painterly illustrated style, rich detail. Wide shot from above. A lighthouse on a stone pier, dark river, waterfront. Four tiny shapes — barely visible, approximately four inches tall each — converge on a point at the waterfront in total operational darkness. No holographic light, no wing-glow, no scanner trace. Dark suits against dark stone and dark water. They move fast and low — military extraction, silent and coordinated. But at the pier's edge, one detail breaks the order: a massive mooring rope, thick as a tree, swings slowly across the stone as a barge warps in, and one crimson-suited figure is directly in its blind-side path — while a second figure in copper lunges to haul them clear, both caught mid-scramble. The lighthouse beam sweeps overhead, not reaching them. Distant gas lamps on the waterfront are amber smears. The shapes are soldiers running from something — and nearly run down by something mundane because they ran blind. The absence of their usual fairy light is stark. Oil paint texture, visible brushwork, the retreat in darkness and the cost of silence.
 ```
 
 ---
@@ -1753,6 +1754,7 @@ Painterly illustrated style, rich detail. Close-up in profile. A young face — 
 - THRESH: "Jink's right."
 - THRESH: "If there's a Titan operating in this city, we need to know where. What it's doing. How many."
 - THRESH: "Waiting for contact on its terms is the worst tactical option we have."
+- THRESH (quieter, harder): "And a rope nearly took me off that pier tonight because we were running blind and silent. On your order. Silence didn't keep us safe. It just meant no one could say 'move.'"
 **Lighting:** Thresh stepping into the brighter central space between Sable and Jink. The amber from above catches the copper-red buzz cut. The dented left pauldron catches holographic perimeter glow. She moves from shadow into light — literally and figuratively.
 
 ```text
