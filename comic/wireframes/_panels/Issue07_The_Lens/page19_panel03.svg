@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 300" width="366" height="300">
-  <title>Issue 7 — Page 19 — Panel 3: Wide overhead — extraction in total operational darkness — four shadows on a stone pier</title>
-  <desc>24mm operational picture from above. Lighthouse, pier, waterfront. Four tiny shapes converging on transit point: Wren and Jink approaching from pier, Sable at rendezvous, Thresh shadow at perimeter. Barely visible — dark suits against dark stone and dark water. No holographic light. No wing-glow. Total operational darkness. Running dark in a way they have never had to before.</desc>
+  <title>Issue 7 — Page 19 — Panel 3: Wide overhead — silent extraction broken by a near-miss — Wren lunges to haul Thresh clear of a swinging mooring rope</title>
+  <desc>24mm operational picture from above. Lighthouse, pier, waterfront, a barge warping in. Sable and Jink hold the orderly extraction in total darkness; on the right a massive mooring rope (tree-thick at fairy scale) swings across the stone pier on Thresh's blind side as the barge tightens its line. The copper Wren shadow lunges, hauling the crimson Thresh shadow clear of the rope's arc — both caught mid-scramble. No holographic light, no wing-glow. Lighthouse beam sweeps overhead and does not reach them. One sharp silent save breaking the orderly extraction.</desc>
 
   <defs>
     <linearGradient id="i7p19p3bg" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -14,6 +14,14 @@
     <linearGradient id="i7p19p3stone" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#1a1612"/>
       <stop offset="100%" stop-color="#0a0808"/>
+    </linearGradient>
+    <linearGradient id="i7p19p3barge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c0a0a"/>
+      <stop offset="100%" stop-color="#040404"/>
+    </linearGradient>
+    <linearGradient id="i7p19p3rope" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241c12"/>
+      <stop offset="100%" stop-color="#100c08"/>
     </linearGradient>
     <radialGradient id="i7p19p3lighthouseBeam" cx="50%" cy="50%" r="60%">
       <stop offset="0%" stop-color="#ffd898" stop-opacity="0.4"/>
@@ -46,6 +54,21 @@
   <!-- River background -->
   <rect x="0" y="0" width="366" height="180" fill="url(#i7p19p3water)"/>
 
+  <!-- ===== BARGE WARPING IN (upper-right, dark hull off the pier head) ===== -->
+  <g opacity="0.95">
+    <!-- Hull mass coming in toward the pier head -->
+    <path d="M236,150 L366,138 L366,178 L300,180 L260,162 Z" fill="url(#i7p19p3barge)"/>
+    <!-- Gunwale / deck edge highlight -->
+    <path d="M236,150 L366,138" stroke="#2a2620" stroke-width="0.6" opacity="0.5" fill="none"/>
+    <!-- Hull plank lines -->
+    <g stroke="#040404" stroke-width="0.4" opacity="0.5">
+      <line x1="250" y1="156" x2="362" y2="146"/>
+      <line x1="262" y1="164" x2="360" y2="156"/>
+    </g>
+    <!-- Single dim deck lantern, far and warm -->
+    <circle cx="330" cy="148" r="1" fill="#d89858" filter="url(#i7p19p3bloom)" opacity="0.6"/>
+  </g>
+
   <!-- Stone pier and waterfront -->
   <path d="M0,180 L120,180 L160,160 L260,160 L300,180 L366,180 L366,300 L0,300 Z" fill="url(#i7p19p3stone)"/>
   <!-- Pier edge highlights -->
@@ -60,16 +83,39 @@
     <line x1="0" y1="220" x2="366" y2="220"/>
   </g>
 
-  <!-- Distant gas lamps along waterfront (warm, far away) -->
-  <g opacity="0.7" filter="url(#i7p19p3bloom)">
-    <circle cx="40" cy="170" r="0.85" fill="#d89858"/>
-    <circle cx="100" cy="170" r="0.85" fill="#d89858"/>
-    <circle cx="200" cy="150" r="0.85" fill="#d89858"/>
-    <circle cx="340" cy="170" r="0.85" fill="#d89858"/>
+  <!-- ===== MOORING BOLLARD on the pier head where the rope runs to ===== -->
+  <g fill="#0a0808" opacity="0.95">
+    <ellipse cx="300" cy="186" rx="5" ry="3"/>
+    <rect x="296" y="178" width="8" height="9" rx="2"/>
+    <ellipse cx="300" cy="178" rx="4" ry="2.2" fill="#141210"/>
   </g>
 
-  <!-- ===== FOUR FIGURES — barely visible dark shapes converging ===== -->
-  <!-- Sable at rendezvous (transit point center) -->
+  <!-- ===== THE MOORING ROPE — tree-thick at fairy scale, swinging across the pier ===== -->
+  <!-- Runs from the warping barge cleat (upper right, off-deck) down across the pier head, snapping taut to the bollard. It sweeps THROUGH the space on Thresh's blind side. -->
+  <g>
+    <!-- Slack/swing arc of the rope as it whips across -->
+    <path d="M360,150 C322,168 296,200 268,214" fill="none" stroke="url(#i7p19p3rope)" stroke-width="7" stroke-linecap="round" opacity="0.97"/>
+    <!-- Rope core highlight to read its mass and twist -->
+    <path d="M360,150 C322,168 296,200 268,214" fill="none" stroke="#3a3022" stroke-width="2.4" stroke-linecap="round" opacity="0.55"/>
+    <!-- Hawser-lay twist marks -->
+    <g stroke="#080604" stroke-width="0.8" opacity="0.6">
+      <line x1="344" y1="158" x2="340" y2="165"/>
+      <line x1="328" y1="170" x2="324" y2="177"/>
+      <line x1="312" y1="184" x2="308" y2="191"/>
+      <line x1="296" y1="198" x2="292" y2="205"/>
+      <line x1="282" y1="207" x2="278" y2="214"/>
+    </g>
+    <!-- Tail of the rope continuing toward the bollard, low and taut -->
+    <path d="M268,214 C282,210 294,196 300,186" fill="none" stroke="url(#i7p19p3rope)" stroke-width="6" stroke-linecap="round" opacity="0.95"/>
+    <!-- Motion smear lines showing the rope's swing direction -->
+    <g stroke="#1a140c" stroke-width="0.5" opacity="0.4" fill="none">
+      <path d="M318,178 C300,196 282,210 270,218"/>
+      <path d="M330,166 C312,184 294,202 280,212"/>
+    </g>
+  </g>
+
+  <!-- ===== FOUR FIGURES — barely visible dark shapes ===== -->
+  <!-- Sable at rendezvous (transit point center) — UNCHANGED orderly extraction -->
   <g transform="translate(210 200)">
     <ellipse cx="0" cy="0" rx="3" ry="6" fill="#1a1818" opacity="0.95"/>
     <ellipse cx="0" cy="-6" rx="2" ry="2" fill="#1a1818"/>
@@ -77,40 +123,61 @@
     <circle cx="0" cy="-3" r="0.4" fill="#5a5860" opacity="0.55"/>
   </g>
 
-  <!-- Wren approaching from left -->
-  <g transform="translate(140 210)">
-    <ellipse cx="0" cy="0" rx="3" ry="5" fill="#1a1410" opacity="0.95"/>
-    <ellipse cx="0" cy="-5" rx="2" ry="2" fill="#1a1410"/>
-    <!-- Faintest copper hint at suit -->
-    <circle cx="0" cy="-2" r="0.4" fill="#5a3818" opacity="0.55"/>
-    <!-- Small motion trail -->
-    <line x1="-9" y1="0" x2="-3" y2="0" stroke="#1a1410" stroke-width="0.4" opacity="0.4"/>
-  </g>
-
-  <!-- Jink approaching just behind Wren -->
+  <!-- Jink approaching from left — UNCHANGED orderly extraction -->
   <g transform="translate(120 218)">
     <ellipse cx="0" cy="0" rx="2" ry="4" fill="#1a3018" opacity="0.95"/>
     <ellipse cx="0" cy="-4" rx="2" ry="2" fill="#1a3018"/>
     <line x1="-7" y1="0" x2="-2" y2="0" stroke="#1a3018" stroke-width="0.4" opacity="0.4"/>
   </g>
 
-  <!-- Thresh shadow at perimeter (right side) -->
-  <g transform="translate(285 195)">
-    <ellipse cx="0" cy="0" rx="3" ry="6" fill="#180a0a" opacity="0.95"/>
-    <ellipse cx="0" cy="-6" rx="2" ry="2" fill="#180a0a"/>
+  <!-- ===== THE SILENT SAVE — Wren LUNGES to haul Thresh clear of the rope arc ===== -->
+  <!-- Thresh shadow caught mid-scramble on the pier head, the rope sweeping behind/over his BLIND side (his back to the barge) -->
+  <g transform="translate(262 212)">
+    <!-- body tipped/off-balance, hauled toward the left -->
+    <ellipse cx="0" cy="0" rx="3" ry="5.5" fill="#180a0a" opacity="0.95" transform="rotate(-26)"/>
+    <ellipse cx="-2.4" cy="-5" rx="2" ry="2" fill="#180a0a"/>
     <!-- Faint ruby hint -->
-    <circle cx="0" cy="-3" r="0.4" fill="#5a1818" opacity="0.55"/>
+    <circle cx="-1.4" cy="-2.5" r="0.4" fill="#5a1818" opacity="0.55"/>
+    <!-- Trailing leg / scramble marks on the stone -->
+    <g stroke="#0a0606" stroke-width="0.4" opacity="0.45">
+      <line x1="2" y1="4" x2="6" y2="6"/>
+      <line x1="3" y1="2" x2="7" y2="3"/>
+    </g>
+  </g>
+
+  <!-- Wren lunging from the left, reaching to grab Thresh — both mid-scramble -->
+  <g transform="translate(244 216)">
+    <!-- lunging body, leaned hard toward Thresh -->
+    <ellipse cx="0" cy="0" rx="3" ry="5" fill="#1a1410" opacity="0.95" transform="rotate(34)"/>
+    <ellipse cx="2.4" cy="-4.4" rx="2" ry="2" fill="#1a1410"/>
+    <!-- Faintest copper hint at suit -->
+    <circle cx="1.4" cy="-2" r="0.4" fill="#5a3818" opacity="0.55"/>
+    <!-- Outstretched arm/grip bridging to Thresh -->
+    <line x1="3.5" y1="-2" x2="14" y2="-3" stroke="#1a1410" stroke-width="1.1" opacity="0.9" stroke-linecap="round"/>
+    <!-- faint copper at the grip -->
+    <circle cx="13.5" cy="-3" r="0.5" fill="#5a3818" opacity="0.55"/>
+    <!-- Lunge motion trail behind Wren -->
+    <line x1="-9" y1="2" x2="-2" y2="0" stroke="#1a1410" stroke-width="0.4" opacity="0.4"/>
+    <line x1="-7" y1="4" x2="-1" y2="2" stroke="#1a1410" stroke-width="0.4" opacity="0.3"/>
   </g>
 
   <!-- ===== CAPTIONS ===== -->
-  <!-- CAPTION 1 -->
+  <!-- CAPTION 1 (top) -->
   <g>
     <rect x="14" y="14" width="338" height="36" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
   </g>
   <text x="22" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">They ran dark. No wing-light, no scanner glow,</text>
   <text x="22" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">no holographic trace. Four-inch shadows on stone, moving fast.</text>
 
-  <!-- CAPTION 2 -->
+  <!-- CAPTION 2 (middle) — the cost -->
+  <g>
+    <rect x="14" y="116" width="338" height="50" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
+  </g>
+  <text x="22" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">Silent was the order. Silent was almost the cost —</text>
+  <text x="22" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">a rope swung across Thresh's blind side, and the only voice</text>
+  <text x="22" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#5a3818" font-style="italic">that could have warned them had been told to go quiet.</text>
+
+  <!-- CAPTION 3 (bottom) -->
   <g>
     <rect x="14" y="252" width="338" height="36" rx="2" fill="#fff8e8" stroke="#5a3818" stroke-width="0.85" opacity="0.92"/>
   </g>
