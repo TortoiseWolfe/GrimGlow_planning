@@ -1,192 +1,167 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
-  <title>Issue 12 Page 19 Panel 1 — Constellation collapses, "The most honest thing anyone's said."</title>
-  <desc>Medium wide. Tiny figure in sapphire-violet suit gestures and blue-violet holographic constellation dims — luminous nodes and threads contracting, collapsing into small scanner device in her hand. Church steeple returns to morning light — stone walls, timber beams, bell mechanism above, warm amber light through arches. Other four figures watch the constellation fade. Steeple is just a steeple again. But the people are different. Blue-violet fading. Warm morning amber returning. The vision given.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 240" width="366" height="240">
+  <title>Issue 12 Page 19 Panel 1 — Thresh's response, "I don't want to stay. I'll stay."</title>
+  <desc>Medium shot. Tiny figure in maximum-degradation crimson armor stands inside a fading blue-violet holographic constellation in the church steeple, looking down at her own scarred hands — dented gauntlets, gouged vambrace. Pale skin, copper-red buzz cut. Blue-violet constellation light on the crimson armor makes a purple-red interference pattern across the dented plates. Stone walls, timber beam below, bell mechanism above, warm amber morning light through the arch. The hardest kind of courage — not adrenaline but the quiet decision to endure. The soldier who will stay afraid.</desc>
   <defs>
-    <linearGradient id="bgDD1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7a6878"/>
-      <stop offset="0.4" stop-color="#3a2868"/>
-      <stop offset="0.8" stop-color="#1a1018"/>
+    <linearGradient id="bgTR1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a5870"/>
+      <stop offset="0.4" stop-color="#352460"/>
+      <stop offset="0.8" stop-color="#180e18"/>
       <stop offset="1" stop-color="#080404"/>
     </linearGradient>
-    <radialGradient id="violetCollapseDD1" cx="0.7" cy="0.45" r="0.32">
-      <stop offset="0" stop-color="#a878d8" stop-opacity="0.55"/>
-      <stop offset="0.5" stop-color="#7848b8" stop-opacity="0.32"/>
+    <radialGradient id="violetWashTR1" cx="0.55" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#a878d8" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#7848b8" stop-opacity="0.3"/>
       <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="amberReturnDD1" cx="0.5" cy="0.05" r="0.55">
-      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
-      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+    <radialGradient id="amberWashTR1" cx="0.12" cy="0.06" r="0.55">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.34"/>
       <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="stoneDD1" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="stoneTR1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#7a6878"/>
       <stop offset="0.5" stop-color="#5a4858"/>
       <stop offset="1" stop-color="#3a2838"/>
     </linearGradient>
-    <linearGradient id="archAmberDD1" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="archAmberTR1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fff8d8"/>
       <stop offset="0.5" stop-color="#f4b860"/>
       <stop offset="1" stop-color="#a85820"/>
     </linearGradient>
-    <linearGradient id="beamDD1" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="beamTR1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#5a3a22"/>
       <stop offset="0.5" stop-color="#3a2410"/>
       <stop offset="1" stop-color="#1a0a04"/>
     </linearGradient>
-    <linearGradient id="bellMechDD1" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="bellMechTR1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#7a4818"/>
       <stop offset="0.5" stop-color="#5a3018"/>
       <stop offset="1" stop-color="#3a1808"/>
     </linearGradient>
-    <linearGradient id="suitLumaDD1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7848b8"/>
-      <stop offset="0.4" stop-color="#3a2868"/>
-      <stop offset="1" stop-color="#1a1028"/>
+    <linearGradient id="suitCrimsonTR1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b84858"/>
+      <stop offset="0.4" stop-color="#7a2540"/>
+      <stop offset="1" stop-color="#1a0814"/>
     </linearGradient>
-    <linearGradient id="suitSilverDD1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7a8898"/>
-      <stop offset="0.5" stop-color="#3a4858"/>
-      <stop offset="1" stop-color="#1a2030"/>
-    </linearGradient>
-    <linearGradient id="suitCopperDD1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7a4818"/>
-      <stop offset="0.4" stop-color="#5a3018"/>
-      <stop offset="1" stop-color="#1a0804"/>
-    </linearGradient>
-    <linearGradient id="suitEmeraldDD1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3a8858"/>
-      <stop offset="0.4" stop-color="#1a4830"/>
-      <stop offset="1" stop-color="#0a2018"/>
-    </linearGradient>
-    <linearGradient id="suitCrimsonDD1" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="armorInterfTR1" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#a83838"/>
-      <stop offset="0.4" stop-color="#7a2530"/>
-      <stop offset="1" stop-color="#1a0810"/>
+      <stop offset="0.5" stop-color="#8a3878"/>
+      <stop offset="1" stop-color="#5a3098"/>
     </linearGradient>
-    <linearGradient id="threadFadingDD1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#a878d8" stop-opacity="0.32"/>
+    <linearGradient id="threadFadingTR1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a878d8" stop-opacity="0.3"/>
       <stop offset="0.5" stop-color="#7848b8" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#a878d8" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#a878d8" stop-opacity="0.3"/>
     </linearGradient>
-    <filter id="bloomDD1" x="-20%" y="-20%" width="140%" height="140%">
+    <filter id="bloomTR1" x="-25%" y="-25%" width="150%" height="150%">
       <feGaussianBlur stdDeviation="2.4"/>
     </filter>
-    <filter id="strongGlowDD1" x="-25%" y="-25%" width="150%" height="150%">
+    <filter id="strongGlowTR1" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="4.4"/>
     </filter>
-    <filter id="megaGlowDD1" x="-30%" y="-30%" width="160%" height="160%">
+    <filter id="megaGlowTR1" x="-35%" y="-35%" width="170%" height="170%">
       <feGaussianBlur stdDeviation="7"/>
     </filter>
   </defs>
 
-  <rect width="742" height="240" fill="url(#bgDD1)"/>
-  <rect width="742" height="240" fill="url(#amberReturnDD1)"/>
-  <rect width="742" height="240" fill="url(#violetCollapseDD1)"/>
+  <rect width="366" height="240" fill="url(#bgTR1)"/>
+  <rect width="366" height="240" fill="url(#amberWashTR1)"/>
+  <rect width="366" height="240" fill="url(#violetWashTR1)"/>
 
   <g>
-    <rect x="0" y="0" width="742" height="240" fill="url(#stoneDD1)" opacity="0.55"/>
+    <rect x="0" y="0" width="366" height="240" fill="url(#stoneTR1)" opacity="0.5"/>
 
-    <path d="M 80 0 Q 80 60 110 60 L 170 60 Q 200 60 200 0 Z" fill="url(#archAmberDD1)" opacity="0.85"/>
-    <path d="M 280 0 Q 280 60 310 60 L 370 60 Q 400 60 400 0 Z" fill="url(#archAmberDD1)" opacity="0.85"/>
-    <path d="M 480 0 Q 480 60 510 60 L 570 60 Q 600 60 600 0 Z" fill="url(#archAmberDD1)" opacity="0.85"/>
+    <path d="M 26 0 Q 26 64 60 64 L 116 64 Q 150 64 150 0 Z" fill="url(#archAmberTR1)" opacity="0.85"/>
 
-    <rect x="320" y="80" width="100" height="50" fill="url(#bellMechDD1)"/>
-    <ellipse cx="370" cy="120" rx="40" ry="14" fill="url(#bellMechDD1)"/>
+    <rect x="200" y="70" width="96" height="46" fill="url(#bellMechTR1)"/>
+    <ellipse cx="248" cy="108" rx="38" ry="13" fill="url(#bellMechTR1)"/>
+    <line x1="248" y1="60" x2="248" y2="70" stroke="#3a1808" stroke-width="2.4"/>
 
-    <rect x="0" y="180" width="742" height="14" fill="url(#beamDD1)"/>
-    <rect x="0" y="180" width="742" height="3" fill="#9a6028" opacity="0.62"/>
+    <rect x="0" y="186" width="366" height="14" fill="url(#beamTR1)"/>
+    <rect x="0" y="186" width="366" height="3" fill="#9a6028" opacity="0.6"/>
+
+    <rect x="320" y="0" width="6" height="186" fill="#2a1c28" opacity="0.55"/>
+    <rect x="40" y="0" width="5" height="186" fill="#2a1c28" opacity="0.4"/>
   </g>
-  <g opacity="0.85" filter="url(#bloomDD1)">
-    <path d="M 80 0 Q 80 60 110 60 L 170 60 Q 200 60 200 0 Z" fill="#fff8d8" opacity="0.42"/>
-    <path d="M 280 0 Q 280 60 310 60 L 370 60 Q 400 60 400 0 Z" fill="#fff8d8" opacity="0.42"/>
-    <path d="M 480 0 Q 480 60 510 60 L 570 60 Q 600 60 600 0 Z" fill="#fff8d8" opacity="0.42"/>
+  <g opacity="0.85" filter="url(#bloomTR1)">
+    <path d="M 26 0 Q 26 64 60 64 L 116 64 Q 150 64 150 0 Z" fill="#fff8d8" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.58">
+    <path d="M 70 70 Q 150 110 188 138" stroke="url(#threadFadingTR1)" stroke-width="0.9" fill="none" stroke-dasharray="4,2"/>
+    <path d="M 250 60 Q 220 110 192 132" stroke="url(#threadFadingTR1)" stroke-width="0.9" fill="none" stroke-dasharray="4,2"/>
+    <path d="M 120 50 Q 160 100 186 130" stroke="url(#threadFadingTR1)" stroke-width="0.9" fill="none" stroke-dasharray="4,2"/>
+    <path d="M 300 90 Q 250 120 196 140" stroke="url(#threadFadingTR1)" stroke-width="0.9" fill="none" stroke-dasharray="4,2"/>
+    <path d="M 60 130 Q 130 138 184 142" stroke="url(#threadFadingTR1)" stroke-width="0.9" fill="none" stroke-dasharray="4,2"/>
+
+    <ellipse cx="70" cy="70" rx="4" ry="3" fill="#a878d8" opacity="0.42"/>
+    <ellipse cx="250" cy="60" rx="3.4" ry="2.4" fill="#a878d8" opacity="0.42"/>
+    <ellipse cx="120" cy="50" rx="3" ry="2" fill="#a878d8" opacity="0.42"/>
+    <ellipse cx="300" cy="90" rx="3.6" ry="2.6" fill="#a878d8" opacity="0.42"/>
+    <ellipse cx="60" cy="130" rx="3" ry="2" fill="#a878d8" opacity="0.42"/>
+  </g>
+  <g opacity="0.5" filter="url(#strongGlowTR1)">
+    <ellipse cx="70" cy="70" rx="9" ry="7" fill="#a878d8" opacity="0.4"/>
+    <ellipse cx="250" cy="60" rx="8" ry="6" fill="#a878d8" opacity="0.36"/>
+  </g>
+
+  <g opacity="0.5" filter="url(#megaGlowTR1)">
+    <line x1="78" y1="0" x2="78" y2="240" stroke="#fff8d8" stroke-width="26" opacity="0.3"/>
   </g>
 
   <g>
-    <ellipse cx="500" cy="160" rx="22" ry="3" fill="#040202" opacity="0.62"/>
-    <ellipse cx="500" cy="140" rx="9" ry="14" fill="url(#suitLumaDD1)"/>
-    <circle cx="500" cy="124" r="5" fill="#a87858"/>
-    <ellipse cx="495" cy="124" rx="3" ry="2" fill="#5a38a8"/>
-    <ellipse cx="505" cy="124" rx="3" ry="2" fill="#a878d8"/>
-    <line x1="490" y1="119" x2="500" y2="125" stroke="#d88838" stroke-width="0.4" opacity="0.85"/>
-    <path d="M 504 154 L 510 158" stroke="url(#suitLumaDD1)" stroke-width="3" fill="none" stroke-linecap="round"/>
-
-    <ellipse cx="514" cy="160" rx="6" ry="4" fill="#1a1028"/>
-    <ellipse cx="516" cy="158" rx="3" ry="2" fill="#a878d8"/>
-    <circle cx="516" cy="158" r="0.85" fill="#fff8d8"/>
+    <ellipse cx="188" cy="178" rx="26" ry="5" fill="#040202" opacity="0.6"/>
   </g>
-  <g opacity="0.85" filter="url(#strongGlowDD1)">
-    <ellipse cx="514" cy="160" rx="11" ry="9" fill="#a878d8" opacity="0.55"/>
+
+  <g opacity="0.5" filter="url(#strongGlowTR1)">
+    <ellipse cx="188" cy="138" rx="26" ry="40" fill="#8a3878" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="188" cy="142" rx="20" ry="34" fill="url(#suitCrimsonTR1)"/>
+    <path d="M 170 120 Q 188 112 206 120 L 204 150 Q 188 158 172 150 Z" fill="url(#armorInterfTR1)" opacity="0.85"/>
+
+    <rect x="166" y="116" width="16" height="13" rx="2" fill="#7a2540" transform="rotate(-8 174 122)"/>
+    <rect x="194" y="118" width="16" height="13" rx="2" fill="#8a2c44" transform="rotate(8 202 124)"/>
+
+    <line x1="170" y1="132" x2="206" y2="132" stroke="#1a0810" stroke-width="1.4" opacity="0.7"/>
+    <line x1="174" y1="148" x2="202" y2="150" stroke="#1a0810" stroke-width="1.2" opacity="0.6"/>
+    <path d="M 178 124 L 184 130 L 180 134" stroke="#3a0c14" stroke-width="1" fill="none" opacity="0.7"/>
+    <path d="M 198 138 L 204 144" stroke="#3a0c14" stroke-width="1" fill="none" opacity="0.6"/>
+    <path d="M 184 156 Q 188 162 192 156" stroke="#5a3098" stroke-width="0.8" fill="none" opacity="0.7"/>
+
+    <path d="M 176 150 Q 182 168 188 172" stroke="url(#suitCrimsonTR1)" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M 200 150 Q 194 168 190 172" stroke="url(#suitCrimsonTR1)" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <ellipse cx="186" cy="172" rx="6" ry="4" fill="#7a2540"/>
+    <ellipse cx="190" cy="173" rx="5.4" ry="3.6" fill="#8a2c44"/>
+    <line x1="183" y1="171" x2="189" y2="172" stroke="#5a3098" stroke-width="0.6" opacity="0.8"/>
+    <line x1="184" y1="174" x2="190" y2="175" stroke="#5a3098" stroke-width="0.6" opacity="0.8"/>
+    <line x1="185" y1="177" x2="191" y2="177" stroke="#5a3098" stroke-width="0.6" opacity="0.7"/>
+
+    <circle cx="188" cy="104" r="10" fill="#c89878"/>
+    <ellipse cx="188" cy="116" rx="8" ry="4" fill="#a87858" opacity="0.7"/>
+    <path d="M 178 99 Q 188 90 198 99 L 197 95 Q 188 88 179 95 Z" fill="#b85838"/>
+    <path d="M 180 96 L 182 92 M 186 95 L 188 91 M 192 95 L 194 92" stroke="#9a4828" stroke-width="0.8" opacity="0.7"/>
+    <path d="M 184 102 Q 186 104 184 106" stroke="#7a4838" stroke-width="0.8" fill="none" opacity="0.6"/>
+    <path d="M 192 102 Q 190 104 192 106" stroke="#7a4838" stroke-width="0.8" fill="none" opacity="0.6"/>
+    <ellipse cx="184" cy="103" rx="1.4" ry="1.6" fill="#3a2018"/>
+    <ellipse cx="192" cy="103" rx="1.4" ry="1.6" fill="#3a2018"/>
+    <ellipse cx="184.4" cy="102.6" rx="0.5" ry="0.6" fill="#a878d8"/>
+    <ellipse cx="192.4" cy="102.6" rx="0.5" ry="0.6" fill="#a878d8"/>
+    <line x1="184" y1="109" x2="192" y2="109" stroke="#6a3828" stroke-width="0.8" opacity="0.7"/>
+  </g>
+  <g opacity="0.45" filter="url(#bloomTR1)">
+    <ellipse cx="188" cy="142" rx="22" ry="30" fill="#d83838" opacity="0.36"/>
   </g>
 
   <g opacity="0.62">
-    <path d="M 200 100 Q 350 130 514 158" stroke="url(#threadFadingDD1)" stroke-width="0.85" fill="none" stroke-dasharray="4,2"/>
-    <path d="M 250 80 Q 380 130 514 158" stroke="url(#threadFadingDD1)" stroke-width="0.85" fill="none" stroke-dasharray="4,2"/>
-    <path d="M 300 130 Q 400 145 514 158" stroke="url(#threadFadingDD1)" stroke-width="0.85" fill="none" stroke-dasharray="4,2"/>
-    <path d="M 380 110 Q 450 135 514 158" stroke="url(#threadFadingDD1)" stroke-width="0.85" fill="none" stroke-dasharray="4,2"/>
-
-    <ellipse cx="200" cy="100" rx="4" ry="3" fill="#a878d8" opacity="0.42"/>
-    <ellipse cx="250" cy="80" rx="3" ry="2" fill="#a878d8" opacity="0.42"/>
-    <ellipse cx="300" cy="130" rx="4" ry="3" fill="#a878d8" opacity="0.42"/>
-    <ellipse cx="380" cy="110" rx="3" ry="2" fill="#a878d8" opacity="0.42"/>
+    <ellipse cx="188" cy="224" rx="150" ry="4" fill="#040202" opacity="0.42"/>
   </g>
 
-  <g>
-    <ellipse cx="120" cy="160" rx="6" ry="3" fill="#040202" opacity="0.62"/>
-    <ellipse cx="120" cy="148" rx="4" ry="11" fill="url(#suitSilverDD1)"/>
-    <circle cx="120" cy="138" r="2.4" fill="#5a3818"/>
-    <ellipse cx="118" cy="137" rx="2" ry="0.85" fill="#a8a8a8"/>
-  </g>
-  <g opacity="0.62" filter="url(#bloomDD1)">
-    <ellipse cx="120" cy="148" rx="11" ry="11" fill="#a8c0e0" opacity="0.42"/>
-  </g>
-
-  <g>
-    <ellipse cx="220" cy="160" rx="6" ry="3" fill="#040202" opacity="0.62"/>
-    <ellipse cx="220" cy="148" rx="4" ry="11" fill="url(#suitCopperDD1)"/>
-    <circle cx="220" cy="138" r="2.4" fill="#3a2010"/>
-    <path d="M 214 144 Q 210 140 208 144" stroke="#3a2010" stroke-width="0.55" fill="none"/>
-  </g>
-  <g opacity="0.62" filter="url(#bloomDD1)">
-    <ellipse cx="220" cy="148" rx="11" ry="11" fill="#d88838" opacity="0.42"/>
-  </g>
-
-  <g>
-    <ellipse cx="320" cy="160" rx="6" ry="3" fill="#040202" opacity="0.62"/>
-    <ellipse cx="320" cy="148" rx="4" ry="11" fill="url(#suitEmeraldDD1)"/>
-    <circle cx="320" cy="138" r="2.4" fill="#a87858"/>
-    <ellipse cx="318" cy="137" rx="2" ry="0.85" fill="#fff088"/>
-  </g>
-  <g opacity="0.62" filter="url(#bloomDD1)">
-    <ellipse cx="320" cy="148" rx="11" ry="11" fill="#3a8858" opacity="0.55"/>
-  </g>
-
-  <g>
-    <ellipse cx="420" cy="160" rx="6" ry="3" fill="#040202" opacity="0.62"/>
-    <ellipse cx="420" cy="148" rx="5" ry="11" fill="url(#suitCrimsonDD1)"/>
-    <circle cx="420" cy="138" r="2.4" fill="#a87858"/>
-  </g>
-  <g opacity="0.62" filter="url(#bloomDD1)">
-    <ellipse cx="420" cy="148" rx="11" ry="11" fill="#d83838" opacity="0.42"/>
-  </g>
-
-  <g opacity="0.55" filter="url(#megaGlowDD1)">
-    <line x1="370" y1="0" x2="370" y2="240" stroke="#fff8d8" stroke-width="22" opacity="0.32"/>
-    <line x1="140" y1="0" x2="140" y2="240" stroke="#fff8d8" stroke-width="22" opacity="0.32"/>
-    <line x1="540" y1="0" x2="540" y2="240" stroke="#fff8d8" stroke-width="22" opacity="0.32"/>
-  </g>
-
-  <g opacity="0.65">
-    <ellipse cx="370" cy="220" rx="280" ry="3" fill="#040202" opacity="0.42"/>
-  </g>
-
-  <g transform="translate(14,12)">
-    <rect x="-6" y="0" width="380" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#7848b8" stroke-width="1.2"/>
-    <text x="184" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a878d8" font-weight="700">LUMA: "I can't separate my analysis from my desire to stay."</text>
-    <text x="184" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a878d8" font-style="italic">"The evidence is the evidence. The bias is the bias. Both exist."</text>
-  </g>
-  <g transform="translate(14,40)">
-    <rect x="-6" y="0" width="380" height="14" rx="3" fill="#1a1828" opacity="0.95" stroke="#a85820" stroke-width="1.2"/>
-    <text x="184" y="10" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a85820" font-style="italic" font-weight="700">WREN (quiet): "That's the most honest thing anyone's said on this mission."</text>
+  <g transform="translate(12,14)">
+    <rect x="-6" y="0" width="300" height="28" rx="3" fill="#1a1828" opacity="0.95" stroke="#a83838" stroke-width="1.2"/>
+    <text x="144" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" fill="#d83838" font-weight="700">THRESH</text>
+    <text x="144" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.2" fill="#1a1410">"I don't want to stay."  <tspan font-style="italic" fill="#5a3818">(A beat.)</tspan>  "I'll stay."</text>
   </g>
 </svg>

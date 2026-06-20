@@ -1,98 +1,149 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 280" width="247" height="280">
-  <title>Issue 12 Page 15 Panel 2 — Tactical display, all markers grey, "Operation complete."</title>
-  <desc>Close-up holographic tactical display. Five device markers on miniature city map — all neutral grey. Dead. Network visualization shows no data flow, no connections, no amber-black light anywhere. Geometric timer stopped. Display steady — no pulsing, no urgency. Blue-white holographic light, clean and calm. Operation complete. The silence of success.</desc>
+  <title>Issue 12 Page 15 Panel 2 — The plug comes free, clean. Vitals hold. He's alive.</title>
+  <desc>Extreme close-up. Theodore's oil-stained fingers ease a small alien plug out of the nape of Cribbage's slumped neck — a slow clean seat-and-release, no torque, no flash. The inert little geometric plug lifts clear of the flesh, its warm-red organic glow dying to nothing, catching one last cold highlight. The freed skin is just skin; a dark plug-vein at the nape already fading. At the right edge a blue-violet holographic vitals line runs steady and unbroken — the pulse holding, then steadier. Warm even morning light on the neck and the fingers.</desc>
   <defs>
-    <linearGradient id="bgZ2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1a2030"/>
-      <stop offset="0.5" stop-color="#0a0a14"/>
-      <stop offset="1" stop-color="#040206"/>
+    <linearGradient id="bgN2" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#3a2c20"/>
+      <stop offset="0.5" stop-color="#241810"/>
+      <stop offset="1" stop-color="#120a08"/>
     </linearGradient>
-    <radialGradient id="calmHoloZ2" cx="0.5" cy="0.5" r="0.55">
-      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.55"/>
-      <stop offset="0.5" stop-color="#5a78a8" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    <radialGradient id="mornN2" cx="0.32" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#e0b878" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#a87840" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#120a08" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="frameCalmZ2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#a8c0e0"/>
-      <stop offset="0.5" stop-color="#5a78a8"/>
-      <stop offset="1" stop-color="#1a2030"/>
+    <radialGradient id="napeN2" cx="0.45" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#c89870"/>
+      <stop offset="0.55" stop-color="#9a6848"/>
+      <stop offset="1" stop-color="#5a3826"/>
+    </radialGradient>
+    <radialGradient id="fingN2" cx="0.4" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#d8a878"/>
+      <stop offset="0.6" stop-color="#a87850"/>
+      <stop offset="1" stop-color="#6a4630"/>
+    </radialGradient>
+    <radialGradient id="plugN2" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#6a5060"/>
+      <stop offset="0.5" stop-color="#3a2838"/>
+      <stop offset="1" stop-color="#1a1018"/>
+    </radialGradient>
+    <radialGradient id="dyingRedN2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d85838" stop-opacity="0.62"/>
+      <stop offset="0.45" stop-color="#a83828" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#5a1810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vitalsN2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a78e0"/>
+      <stop offset="1" stop-color="#6a5acd"/>
     </linearGradient>
-    <radialGradient id="deadMarkerZ2" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#a8a8a8" stop-opacity="0.85"/>
-      <stop offset="0.5" stop-color="#5a5a5a" stop-opacity="0.62"/>
-      <stop offset="1" stop-color="#040206" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="bloomZ2" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2"/>
+    <filter id="bloomN2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2"/>
     </filter>
-    <filter id="strongGlowZ2" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="3.4"/>
+    <filter id="redGlowN2" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4"/>
     </filter>
-    <filter id="megaGlowZ2" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="6"/>
+    <filter id="vitalGlowN2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.6"/>
     </filter>
   </defs>
 
-  <rect width="247" height="280" fill="url(#bgZ2)"/>
-  <rect width="247" height="280" fill="url(#calmHoloZ2)"/>
+  <rect width="247" height="280" fill="url(#bgN2)"/>
+  <rect width="247" height="280" fill="url(#mornN2)"/>
 
+  <!-- the nape: a broad sweep of neck/shoulder filling the lower frame -->
   <g>
-    <rect x="14" y="14" width="219" height="252" rx="4" fill="none" stroke="url(#frameCalmZ2)" stroke-width="1.4" opacity="0.85"/>
-    <rect x="20" y="20" width="207" height="240" fill="#0a0a14" opacity="0.85"/>
+    <path d="M -10 168 C 40 142 110 132 175 142 C 215 148 247 160 247 196 L 247 290 L -10 290 Z" fill="url(#napeN2)"/>
+    <!-- shoulder/collar shadow at base -->
+    <path d="M -10 232 C 60 214 150 214 247 236 L 247 290 L -10 290 Z" fill="#3a2418" opacity="0.55"/>
+    <!-- soft hairline at top of nape -->
+    <path d="M -10 168 C 40 142 110 132 175 142 C 215 148 247 160 247 188" fill="none" stroke="#2a1810" stroke-width="6" opacity="0.4" stroke-linecap="round"/>
+    <!-- contour shading along the neck -->
+    <path d="M 30 178 C 90 162 150 162 210 178" fill="none" stroke="#7a4e36" stroke-width="2.4" opacity="0.4" stroke-linecap="round"/>
+    <path d="M 40 206 C 100 192 160 192 214 206" fill="none" stroke="#7a4e36" stroke-width="2" opacity="0.32" stroke-linecap="round"/>
+  </g>
 
-    <text x="30" y="36" font-family="monospace" font-size="4.4" fill="#3a8858" font-weight="700">► OPERATION COMPLETE ◄</text>
-    <line x1="30" y1="42" x2="217" y2="42" stroke="#3a8858" stroke-width="0.55" opacity="0.62"/>
+  <!-- fading plug-vein in the nape, already dying -->
+  <g opacity="0.5">
+    <path d="M 118 156 C 124 168 121 180 128 192 C 132 200 130 208 136 216" fill="none" stroke="#7a2820" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 118 156 C 110 166 112 178 106 188" fill="none" stroke="#7a2820" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+  </g>
 
-    <text x="30" y="58" font-family="monospace" font-size="3.4" fill="#a8c0e0">TIMER:</text>
-    <text x="123" y="68" text-anchor="middle" font-family="monospace" font-size="14" fill="#7a7a7a" font-weight="700">00:00</text>
-    <text x="30" y="80" font-family="monospace" font-size="3" fill="#a8c0e0">[STOPPED]</text>
+  <!-- dying warm-red glow halo where the plug was seated, fading out -->
+  <g filter="url(#redGlowN2)" opacity="0.7">
+    <circle cx="120" cy="150" r="20" fill="url(#dyingRedN2)"/>
+  </g>
 
-    <line x1="30" y1="92" x2="217" y2="92" stroke="#5a78a8" stroke-width="0.55" opacity="0.62"/>
+  <!-- the freed insertion socket in the skin: now just skin, faint mark -->
+  <ellipse cx="120" cy="152" rx="7" ry="4.5" fill="#5a3424" opacity="0.55"/>
+  <ellipse cx="120" cy="151" rx="3.4" ry="2.2" fill="#3a1e14" opacity="0.7"/>
 
-    <g opacity="0.42" stroke="#5a78a8" stroke-width="0.4" fill="none">
-      <line x1="40" y1="120" x2="200" y2="120"/>
-      <line x1="40" y1="160" x2="200" y2="160"/>
-      <line x1="40" y1="200" x2="200" y2="200"/>
-      <line x1="60" y1="110" x2="60" y2="220"/>
-      <line x1="120" y1="110" x2="120" y2="220"/>
-      <line x1="180" y1="110" x2="180" y2="220"/>
+  <!-- THE PLUG: inert geometric organic object, lifted clear, above the socket -->
+  <g transform="translate(120,118)">
+    <!-- last dying red ember within the plug -->
+    <g filter="url(#redGlowN2)" opacity="0.45">
+      <circle cx="0" cy="6" r="7" fill="#c84830"/>
     </g>
+    <!-- plug body: tapered organic-geometric form -->
+    <path d="M -6 -8 L 6 -8 L 8 4 L 4 16 L -4 16 L -8 4 Z" fill="url(#plugN2)" stroke="#1a1018" stroke-width="0.8"/>
+    <!-- faceted geometric edges -->
+    <path d="M -6 -8 L 0 -2 L 6 -8" fill="none" stroke="#7a6878" stroke-width="0.5" opacity="0.7"/>
+    <path d="M -8 4 L 0 -2 L 8 4" fill="none" stroke="#5a4858" stroke-width="0.5" opacity="0.6"/>
+    <path d="M 0 -2 L 0 14" fill="none" stroke="#4a3848" stroke-width="0.5" opacity="0.6"/>
+    <!-- the organic root tendrils, slack and dead, trailing toward the nape -->
+    <path d="M -3 16 C -4 24 -2 30 0 34" fill="none" stroke="#3a2030" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 3 16 C 5 23 3 29 1 34" fill="none" stroke="#3a2030" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+    <!-- one last cold highlight on the cleared plug -->
+    <ellipse cx="-2" cy="-4" rx="2.4" ry="1.4" fill="#b8c8e0" opacity="0.55"/>
+  </g>
 
-    <g>
-      <ellipse cx="60" cy="130" rx="9" ry="6" fill="url(#deadMarkerZ2)"/>
-      <text x="60" y="148" text-anchor="middle" font-family="monospace" font-size="3" fill="#7a7a7a">A • DEAD</text>
+  <!-- THEODORE'S FINGERS: oil-stained, easing the plug up, cupping it -->
+  <g>
+    <!-- back of hand / thumb base coming in from upper right -->
+    <path d="M 150 92 C 175 86 200 96 214 116 C 222 128 220 144 208 152 C 196 160 178 156 168 144 C 160 134 152 120 148 106 Z" fill="url(#fingN2)"/>
+    <!-- thumb reaching to the plug -->
+    <path d="M 150 96 C 140 102 132 112 128 124 C 126 132 130 138 136 138 C 142 138 146 130 148 122 C 150 114 152 104 154 98 Z" fill="url(#fingN2)"/>
+    <!-- index finger pressed to the plug, fingertip at the cupped object -->
+    <path d="M 138 120 C 130 124 124 130 122 136 C 121 140 124 144 129 143 C 134 142 137 134 140 128 Z" fill="url(#fingN2)"/>
+    <!-- finger separations -->
+    <path d="M 154 100 C 158 116 160 134 158 150" fill="none" stroke="#7a4e36" stroke-width="1.2" opacity="0.45"/>
+    <path d="M 178 96 C 186 112 190 132 186 150" fill="none" stroke="#7a4e36" stroke-width="1.2" opacity="0.4"/>
+    <!-- fingernail / knuckle highlight -->
+    <ellipse cx="196" cy="108" rx="5" ry="3" fill="#e8c090" opacity="0.4"/>
+    <!-- oil stains: dark working smudges on the fingers -->
+    <ellipse cx="146" cy="124" rx="3.4" ry="2.2" fill="#241410" opacity="0.5"/>
+    <ellipse cx="170" cy="132" rx="2.6" ry="1.8" fill="#241410" opacity="0.42"/>
+    <ellipse cx="190" cy="140" rx="2.2" ry="1.4" fill="#241410" opacity="0.38"/>
+    <!-- soft warm rim light on the hand from the morning -->
+    <path d="M 150 92 C 175 86 200 96 214 116" fill="none" stroke="#f0d098" stroke-width="1.6" opacity="0.5" stroke-linecap="round"/>
+  </g>
 
-      <ellipse cx="180" cy="130" rx="9" ry="6" fill="url(#deadMarkerZ2)"/>
-      <text x="180" y="148" text-anchor="middle" font-family="monospace" font-size="3" fill="#7a7a7a">B • DEAD</text>
-
-      <ellipse cx="60" cy="200" rx="9" ry="6" fill="url(#deadMarkerZ2)"/>
-      <text x="60" y="218" text-anchor="middle" font-family="monospace" font-size="3" fill="#7a7a7a">C • DEAD</text>
-
-      <ellipse cx="180" cy="200" rx="9" ry="6" fill="url(#deadMarkerZ2)"/>
-      <text x="180" y="218" text-anchor="middle" font-family="monospace" font-size="3" fill="#7a7a7a">D • DEAD</text>
-
-      <circle cx="120" cy="165" r="14" fill="url(#deadMarkerZ2)"/>
-      <circle cx="120" cy="165" r="6" fill="#5a5a5a"/>
-      <text x="120" y="190" text-anchor="middle" font-family="monospace" font-size="4" fill="#7a7a7a" font-weight="700">HUB • DEAD</text>
+  <!-- LUMA's blue-violet vitals line: steady, unbroken pulse at the right edge -->
+  <g>
+    <rect x="200" y="46" width="38" height="62" rx="3" fill="#120a18" opacity="0.7" stroke="#6a5acd" stroke-width="0.7" stroke-dasharray="3 1.6"/>
+    <text x="219" y="56" text-anchor="middle" font-family="monospace" font-size="3.4" fill="#8a78e0" font-weight="700">VITALS</text>
+    <g filter="url(#vitalGlowN2)" opacity="0.6">
+      <polyline points="202,86 207,86 210,76 213,96 216,70 219,86 224,86 227,80 230,86 236,86" fill="none" stroke="#8a78e0" stroke-width="1.8"/>
     </g>
-
-    <text x="123" y="240" text-anchor="middle" font-family="monospace" font-size="3.4" fill="#3a8858" font-weight="700">▼ NETWORK COLLAPSED ▼</text>
-    <text x="123" y="252" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#a8c0e0" font-style="italic">silence</text>
-  </g>
-  <g opacity="0.62" filter="url(#strongGlowZ2)">
-    <rect x="14" y="14" width="219" height="252" fill="#a8c0e0" opacity="0.32"/>
-  </g>
-  <g opacity="0.32" filter="url(#bloomZ2)">
-    <ellipse cx="60" cy="130" rx="14" ry="9" fill="#7a7a7a" opacity="0.32"/>
-    <ellipse cx="180" cy="130" rx="14" ry="9" fill="#7a7a7a" opacity="0.32"/>
-    <ellipse cx="60" cy="200" rx="14" ry="9" fill="#7a7a7a" opacity="0.32"/>
-    <ellipse cx="180" cy="200" rx="14" ry="9" fill="#7a7a7a" opacity="0.32"/>
-    <circle cx="120" cy="165" r="22" fill="#7a7a7a" opacity="0.32"/>
+    <polyline points="202,86 207,86 210,76 213,96 216,70 219,86 224,86 227,80 230,86 236,86" fill="none" stroke="url(#vitalsN2)" stroke-width="0.9"/>
+    <text x="219" y="103" text-anchor="middle" font-family="monospace" font-size="2.8" fill="#8a78e0">HOLDING ▸ STEADY</text>
   </g>
 
-  <g transform="translate(8,12)">
-    <rect x="-4" y="0" width="200" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#a8c0e0" stroke-width="1.2"/>
-    <text x="96" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a8c0e0" font-weight="700">SABLE (controlled): "All devices neutralized."</text>
-    <text x="96" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a8c0e0" font-style="italic" font-weight="700">"Network collapsed. Operation complete."</text>
+  <!-- cold inert highlight bloom on the cleared plug -->
+  <g filter="url(#bloomN2)" opacity="0.4">
+    <ellipse cx="118" cy="114" rx="5" ry="3" fill="#b8c8e0"/>
+  </g>
+
+  <!-- LUMA caption (radio comms = dashed stroke, sapphire-violet) -->
+  <g transform="translate(10,16)">
+    <rect x="-4" y="0" width="150" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#6a5acd" stroke-width="1.2" stroke-dasharray="4 2"/>
+    <text x="4" y="9.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#6a5acd" font-weight="700">LUMA (radio):</text>
+    <text x="4" y="18" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.2" fill="#1a1410" font-weight="600">"It's free. Pulse holding. He's alive."</text>
+  </g>
+
+  <!-- THEODORE caption (human, near-black body, warm neutral stroke) -->
+  <g transform="translate(70,244)">
+    <rect x="-4" y="0" width="112" height="22" rx="3" fill="#ffffff" opacity="0.96" stroke="#9a6848" stroke-width="1.2"/>
+    <text x="4" y="9.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#5a3818" font-weight="700">THEODORE (breath):</text>
+    <text x="4" y="18.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.6" fill="#1a1410" font-weight="600" font-style="italic">"It's out."</text>
   </g>
 </svg>

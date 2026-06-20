@@ -1,169 +1,263 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 280" width="366" height="280">
-  <title>Issue 12 Page 18 Panel 1 — Luma delivers the thesis, "The mission is to be here."</title>
-  <desc>Medium close-up. Tiny figure in degraded sapphire-violet suit at center of holographic constellation, beside glowing node — holographic representation of written page, text visible, brightest node in web. One hand raised, other holds scanner that trembles. Conviction held alongside doubt — honest scientist presenting thesis she cannot separate from desire for it to be true. Near her, holographic word STAY glows in geometric fairy script — ancient, luminous, carved into virtual brick. Blue-violet light from every direction. The answer.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 12 Page 18 Panel 1 — SPLASH — Luma's constellation, "This is everything. Every glyph. Every trace. Every story. I've mapped them."</title>
+  <desc>SPLASH wide. Interior of a Victorian church steeple transformed by Luma's holographic projection — a three-dimensional constellation of evidence fills the air in blue-violet structured light. Luminous nodes joined by glowing threads rotate slowly between the bell mechanism and the stone arches. Distinct nodes: geometric fairy glyphs, a miniature corroded wing-pack carved STAY (church cache), newspaper headlines TELEGRAPH DEMON / MYSTERIOUS LIGHTS, James Machen's pamphlet THE STORIES THEY TELL, Titan device locations in fading amber-black, a timeline of prior operative presence across centuries, and at center, glowing brightest, a holographic written page — the intersection of all threads. Five tiny figures in degraded department-colored suits stand within the constellation, inside the answer. The map of the paradox.</desc>
   <defs>
-    <linearGradient id="bgCC1" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="bgBC1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#3a2868"/>
       <stop offset="0.4" stop-color="#1a1028"/>
       <stop offset="0.8" stop-color="#080404"/>
       <stop offset="1" stop-color="#040206"/>
     </linearGradient>
-    <radialGradient id="constellationCC1" cx="0.5" cy="0.5" r="0.62">
+    <radialGradient id="constellationFloodBC1" cx="0.5" cy="0.46" r="0.7">
       <stop offset="0" stop-color="#a878d8" stop-opacity="0.62"/>
       <stop offset="0.5" stop-color="#7848b8" stop-opacity="0.42"/>
       <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="centerNodeCC1" cx="0.5" cy="0.5" r="0.5">
+    <radialGradient id="archLightBC1" cx="0.5" cy="0.0" r="0.4">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.32"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stoneBC1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a6878"/>
+      <stop offset="0.5" stop-color="#3a2838"/>
+      <stop offset="1" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="beamBC1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3a22"/>
+      <stop offset="0.5" stop-color="#3a2410"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <radialGradient id="centerNodeBC1" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#fff8d8" stop-opacity="0.95"/>
       <stop offset="0.4" stop-color="#a878d8" stop-opacity="0.85"/>
       <stop offset="1" stop-color="#3a2868" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="paperCenterCC1" x1="0" y1="0" x2="0" y2="1">
+    <radialGradient id="nodeBlueBC1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a878d8" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#5a38a8" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#1a1028" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="amberFadeBC1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a85020" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#3a1810" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#080404" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="threadBC1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a878d8" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#fff8d8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#a878d8" stop-opacity="0.62"/>
+    </linearGradient>
+    <linearGradient id="paperGlyphBC1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fff8d8"/>
       <stop offset="0.5" stop-color="#d8c8a8"/>
       <stop offset="1" stop-color="#a87858"/>
     </linearGradient>
-    <linearGradient id="suitLumaCC1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7848b8"/>
-      <stop offset="0.4" stop-color="#3a2868"/>
-      <stop offset="1" stop-color="#1a1028"/>
-    </linearGradient>
-    <linearGradient id="hairLumaCC1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3a2818"/>
-      <stop offset="0.5" stop-color="#1a0a08"/>
-      <stop offset="1" stop-color="#0a0404"/>
-    </linearGradient>
-    <linearGradient id="skinLumaCC1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#a87858"/>
-      <stop offset="0.4" stop-color="#7a4830"/>
-      <stop offset="1" stop-color="#3a2010"/>
-    </linearGradient>
-    <linearGradient id="stayGlyphCC1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff8d8"/>
-      <stop offset="0.5" stop-color="#a878d8"/>
-      <stop offset="1" stop-color="#5a38a8"/>
-    </linearGradient>
-    <linearGradient id="brickVirtualCC1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3a2868"/>
-      <stop offset="0.5" stop-color="#1a1028"/>
-      <stop offset="1" stop-color="#080404"/>
-    </linearGradient>
-    <filter id="bloomCC1" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.4"/>
+    <filter id="bloomBC1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2"/>
     </filter>
-    <filter id="strongGlowCC1" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="4.4"/>
+    <filter id="strongGlowBC1" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4"/>
     </filter>
-    <filter id="megaGlowCC1" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="7"/>
+    <filter id="megaGlowBC1" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6.4"/>
     </filter>
-    <filter id="ultraGlowCC1" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="10"/>
+    <filter id="ultraGlowBC1" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
     </filter>
   </defs>
 
-  <rect width="366" height="280" fill="url(#bgCC1)"/>
-  <rect width="366" height="280" fill="url(#constellationCC1)"/>
+  <rect width="742" height="280" fill="url(#bgBC1)"/>
+  <rect width="742" height="280" fill="url(#constellationFloodBC1)"/>
+  <rect width="742" height="280" fill="url(#archLightBC1)"/>
 
-  <g opacity="0.55" stroke="#a878d8" stroke-width="0.55" fill="none" stroke-dasharray="2,2">
-    <path d="M 60 60 Q 183 100 306 60"/>
-    <path d="M 60 220 Q 183 240 306 220"/>
-    <path d="M 30 140 Q 100 160 183 140"/>
-    <path d="M 336 140 Q 270 160 183 140"/>
-    <path d="M 100 80 L 183 140"/>
-    <path d="M 266 80 L 183 140"/>
-    <path d="M 100 220 L 183 140"/>
-    <path d="M 266 220 L 183 140"/>
+  <g>
+    <rect x="0" y="0" width="742" height="280" fill="url(#stoneBC1)" opacity="0.3"/>
+
+    <path d="M 50 0 Q 50 30 78 30 L 116 30 Q 144 30 144 0 Z" fill="#fff8d8" opacity="0.22"/>
+    <path d="M 598 0 Q 598 30 626 30 L 664 30 Q 692 30 692 0 Z" fill="#fff8d8" opacity="0.22"/>
+
+    <rect x="0" y="258" width="742" height="12" fill="url(#beamBC1)"/>
+    <rect x="0" y="258" width="742" height="3" fill="#9a6028" opacity="0.62"/>
+  </g>
+
+  <g opacity="0.62" stroke="url(#threadBC1)" stroke-width="0.85" fill="none">
+    <line x1="118" y1="70" x2="371" y2="142"/>
+    <line x1="624" y1="70" x2="371" y2="142"/>
+    <line x1="58" y1="150" x2="371" y2="142"/>
+    <line x1="684" y1="150" x2="371" y2="142"/>
+    <line x1="120" y1="210" x2="371" y2="142"/>
+    <line x1="622" y1="210" x2="371" y2="142"/>
+    <line x1="210" y1="232" x2="371" y2="142"/>
+    <line x1="532" y1="232" x2="371" y2="142"/>
+    <line x1="118" y1="70" x2="624" y2="70"/>
+    <line x1="58" y1="150" x2="684" y2="150"/>
+    <line x1="120" y1="210" x2="622" y2="210"/>
   </g>
 
   <g>
-    <ellipse cx="280" cy="80" rx="22" ry="14" fill="url(#brickVirtualCC1)"/>
-    <text x="280" y="78" text-anchor="middle" font-family="Times New Roman, serif" font-size="6" fill="url(#stayGlyphCC1)" font-weight="700">STAY</text>
-    <line x1="262" y1="84" x2="298" y2="84" stroke="#a878d8" stroke-width="0.55" opacity="0.62"/>
-    <g opacity="0.62" stroke="#a878d8" stroke-width="0.4">
-      <line x1="262" y1="74" x2="298" y2="74"/>
-      <line x1="270" y1="68" x2="270" y2="80"/>
-      <line x1="290" y1="68" x2="290" y2="80"/>
-    </g>
-  </g>
-  <g opacity="0.85" filter="url(#strongGlowCC1)">
-    <ellipse cx="280" cy="80" rx="32" ry="22" fill="#a878d8" opacity="0.55"/>
-  </g>
-  <g opacity="0.62" filter="url(#megaGlowCC1)">
-    <ellipse cx="280" cy="80" rx="50" ry="32" fill="#7848b8" opacity="0.42"/>
-  </g>
-
-  <g>
-    <ellipse cx="183" cy="140" rx="50" ry="60" fill="url(#centerNodeCC1)"/>
-    <rect x="155" y="100" width="56" height="80" rx="3" fill="url(#paperCenterCC1)" opacity="0.92"/>
-    <text x="183" y="118" text-anchor="middle" font-family="Times New Roman, serif" font-size="5" fill="#1a0a04" font-weight="700">THE STORIES</text>
-    <text x="183" y="128" text-anchor="middle" font-family="Times New Roman, serif" font-size="5" fill="#1a0a04" font-weight="700">THEY TELL</text>
-    <line x1="160" y1="134" x2="206" y2="134" stroke="#3a2010" stroke-width="0.4"/>
-    <text x="183" y="146" text-anchor="middle" font-family="Times New Roman, serif" font-size="3" fill="#3a2010" font-style="italic">— J. Machen</text>
-    <line x1="160" y1="152" x2="206" y2="152" stroke="#3a2010" stroke-width="0.4"/>
+    <ellipse cx="371" cy="142" rx="40" ry="52" fill="url(#centerNodeBC1)"/>
+    <rect x="347" y="102" width="48" height="80" rx="3" fill="url(#paperGlyphBC1)" opacity="0.92"/>
+    <text x="371" y="116" text-anchor="middle" font-family="Times New Roman, serif" font-size="5.6" fill="#1a0a04" font-weight="700">THE STORIES</text>
+    <text x="371" y="125" text-anchor="middle" font-family="Times New Roman, serif" font-size="5.6" fill="#1a0a04" font-weight="700">THEY TELL</text>
+    <line x1="352" y1="130" x2="390" y2="130" stroke="#3a2010" stroke-width="0.4"/>
+    <text x="371" y="139" text-anchor="middle" font-family="Times New Roman, serif" font-size="2.8" fill="#3a2010" font-style="italic">Being an Account...</text>
+    <line x1="352" y1="144" x2="390" y2="144" stroke="#3a2010" stroke-width="0.4"/>
     <g opacity="0.55" stroke="#3a2010" stroke-width="0.4">
-      <line x1="160" y1="160" x2="206" y2="160"/>
-      <line x1="160" y1="166" x2="206" y2="166"/>
-      <line x1="160" y1="172" x2="200" y2="172"/>
+      <line x1="352" y1="150" x2="390" y2="150"/>
+      <line x1="352" y1="157" x2="390" y2="157"/>
+      <line x1="352" y1="164" x2="390" y2="164"/>
+      <line x1="352" y1="171" x2="384" y2="171"/>
     </g>
+    <text x="371" y="179" text-anchor="middle" font-family="Times New Roman, serif" font-size="2.8" fill="#1a0a04" font-weight="700">— J. MACHEN</text>
   </g>
-  <g opacity="0.95" filter="url(#strongGlowCC1)">
-    <ellipse cx="183" cy="140" rx="60" ry="70" fill="#fff8d8" opacity="0.62"/>
+  <g opacity="0.95" filter="url(#strongGlowBC1)">
+    <ellipse cx="371" cy="142" rx="54" ry="70" fill="#fff8d8" opacity="0.55"/>
   </g>
-  <g opacity="0.62" filter="url(#megaGlowCC1)">
-    <ellipse cx="183" cy="140" rx="100" ry="120" fill="#a878d8" opacity="0.42"/>
+  <g opacity="0.62" filter="url(#megaGlowBC1)">
+    <ellipse cx="371" cy="142" rx="110" ry="120" fill="#a878d8" opacity="0.42"/>
   </g>
-  <g opacity="0.42" filter="url(#ultraGlowCC1)">
-    <ellipse cx="183" cy="140" rx="180" ry="180" fill="#7848b8" opacity="0.32"/>
+  <g opacity="0.42" filter="url(#ultraGlowBC1)">
+    <ellipse cx="371" cy="142" rx="190" ry="150" fill="#7848b8" opacity="0.3"/>
   </g>
 
   <g>
-    <ellipse cx="80" cy="240" rx="22" ry="3" fill="#040202" opacity="0.62"/>
-
-    <ellipse cx="80" cy="200" rx="22" ry="32" fill="url(#suitLumaCC1)"/>
-    <path d="M 58 170 L 102 170 L 106 240 L 56 240 Z" fill="url(#suitLumaCC1)"/>
-
-    <ellipse cx="80" cy="140" rx="22" ry="26" fill="url(#skinLumaCC1)"/>
-    <path d="M 58 126 Q 80 104 104 126 Q 110 136 108 142 L 104 140 Q 90 126 80 128 Q 70 126 58 140 L 56 140 Q 54 136 58 126 Z" fill="url(#hairLumaCC1)"/>
-
-    <ellipse cx="69" cy="145" rx="6" ry="4" fill="#5a38a8"/>
-    <ellipse cx="69" cy="145" rx="4" ry="3" fill="#1a1028"/>
-    <line x1="64" y1="140" x2="74" y2="148" stroke="#d88838" stroke-width="0.55" opacity="0.85"/>
-    <circle cx="69" cy="145" r="2" fill="#080404"/>
-
-    <ellipse cx="91" cy="145" rx="6" ry="4" fill="#a878d8"/>
-    <ellipse cx="91" cy="145" rx="4" ry="3" fill="#1a1028"/>
-    <circle cx="91" cy="145" r="2" fill="#080404"/>
-    <circle cx="92" cy="144" r="0.7" fill="#a878d8"/>
-
-    <path d="M 72 156 Q 80 158 88 156" stroke="#1a0a08" stroke-width="0.55" fill="none"/>
-    <path d="M 76 164 Q 80 166 84 164" stroke="#1a0a08" stroke-width="0.55" fill="none"/>
-
-    <path d="M 102 178 L 130 160" stroke="url(#skinLumaCC1)" stroke-width="6" fill="none" stroke-linecap="round"/>
-    <ellipse cx="132" cy="158" rx="6" ry="3" fill="url(#skinLumaCC1)"/>
-    <rect x="128" y="150" width="14" height="14" rx="2" fill="#1a1028"/>
-    <ellipse cx="135" cy="156" rx="3" ry="2" fill="#a878d8"/>
-    <line x1="128" y1="153" x2="135" y2="158" stroke="#fff8d8" stroke-width="0.4" opacity="0.62"/>
-
-    <path d="M 58 178 L 30 160" stroke="url(#skinLumaCC1)" stroke-width="6" fill="none" stroke-linecap="round"/>
-    <ellipse cx="28" cy="158" rx="6" ry="3" fill="url(#skinLumaCC1)"/>
+    <ellipse cx="118" cy="70" rx="32" ry="20" fill="url(#nodeBlueBC1)"/>
+    <text x="118" y="64" text-anchor="middle" font-family="monospace" font-size="3" fill="#fff8d8" font-weight="700">∇⊥◊⊥∢⊕Δ</text>
+    <text x="118" y="73" text-anchor="middle" font-family="monospace" font-size="3" fill="#fff8d8">⊥◊∇⊥◊∢⊕</text>
+    <text x="118" y="82" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#a878d8" font-style="italic">FAIRY GLYPHS</text>
   </g>
-  <g opacity="0.85" filter="url(#bloomCC1)">
-    <ellipse cx="80" cy="200" rx="32" ry="40" fill="#7848b8" opacity="0.42"/>
-  </g>
-  <g opacity="0.62" filter="url(#strongGlowCC1)">
-    <rect x="128" y="150" width="14" height="14" fill="#a878d8" opacity="0.42"/>
+  <g opacity="0.85" filter="url(#strongGlowBC1)">
+    <ellipse cx="118" cy="70" rx="40" ry="28" fill="#7848b8" opacity="0.42"/>
   </g>
 
-  <g opacity="0.65">
-    <ellipse cx="183" cy="262" rx="100" ry="3" fill="#040202" opacity="0.42"/>
+  <g>
+    <ellipse cx="624" cy="70" rx="32" ry="20" fill="url(#nodeBlueBC1)"/>
+    <ellipse cx="619" cy="68" rx="14" ry="6" fill="#5a4858"/>
+    <path d="M 612 64 Q 624 60 636 64" stroke="#a878d8" stroke-width="0.55" fill="none"/>
+    <text x="624" y="80" text-anchor="middle" font-family="Times New Roman, serif" font-size="4" fill="#fff8d8" font-weight="700">STAY</text>
+    <text x="624" y="88" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#a878d8" font-style="italic">CHURCH CACHE</text>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowBC1)">
+    <ellipse cx="624" cy="70" rx="40" ry="28" fill="#7848b8" opacity="0.42"/>
   </g>
 
-  <g transform="translate(8,12)">
-    <rect x="-4" y="0" width="320" height="48" rx="3" fill="#1a1828" opacity="0.95" stroke="#7848b8" stroke-width="1.4"/>
-    <text x="156" y="9" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a878d8" font-weight="700">LUMA: "The convergence point isn't technological."</text>
-    <text x="156" y="18" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a878d8" font-style="italic">"It's narrative. The mission isn't to change an event."</text>
-    <text x="156" y="29" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a878d8" font-weight="700">"The mission is to be here. To be the fairies."</text>
-    <text x="156" y="40" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a878d8" font-style="italic" font-weight="700">"That's what 'STAY' means."</text>
+  <g>
+    <ellipse cx="58" cy="150" rx="26" ry="18" fill="url(#amberFadeBC1)"/>
+    <circle cx="58" cy="150" r="6" fill="#a85020" opacity="0.62"/>
+    <line x1="50" y1="144" x2="66" y2="156" stroke="#3a1810" stroke-width="0.55"/>
+    <line x1="66" y1="144" x2="50" y2="156" stroke="#3a1810" stroke-width="0.55"/>
+    <text x="58" y="176" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#a85020" font-style="italic">DEVICES • DEAD</text>
+  </g>
+
+  <g>
+    <ellipse cx="684" cy="150" rx="30" ry="20" fill="url(#nodeBlueBC1)"/>
+    <line x1="666" y1="150" x2="702" y2="150" stroke="#a878d8" stroke-width="0.55"/>
+    <line x1="669" y1="144" x2="669" y2="156" stroke="#a878d8" stroke-width="0.4"/>
+    <line x1="684" y1="144" x2="684" y2="156" stroke="#a878d8" stroke-width="0.55"/>
+    <line x1="699" y1="144" x2="699" y2="156" stroke="#a878d8" stroke-width="0.4"/>
+    <text x="684" y="178" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#a878d8" font-style="italic">3 DEPLOYMENTS</text>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowBC1)">
+    <ellipse cx="684" cy="150" rx="38" ry="28" fill="#7848b8" opacity="0.42"/>
+  </g>
+
+  <g>
+    <rect x="84" y="190" width="72" height="38" rx="2" fill="url(#paperGlyphBC1)" opacity="0.85"/>
+    <text x="120" y="200" text-anchor="middle" font-family="Times New Roman, serif" font-size="4" fill="#1a0a04" font-weight="700">TELEGRAPH</text>
+    <text x="120" y="208" text-anchor="middle" font-family="Times New Roman, serif" font-size="4" fill="#1a0a04" font-weight="700">DEMON</text>
+    <line x1="90" y1="213" x2="150" y2="213" stroke="#3a2010" stroke-width="0.4"/>
+    <line x1="90" y1="219" x2="150" y2="219" stroke="#3a2010" stroke-width="0.4"/>
+    <line x1="90" y1="225" x2="138" y2="225" stroke="#3a2010" stroke-width="0.4"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomBC1)">
+    <rect x="84" y="190" width="72" height="38" fill="#fff8d8" opacity="0.3"/>
+  </g>
+
+  <g>
+    <rect x="586" y="190" width="72" height="38" rx="2" fill="url(#paperGlyphBC1)" opacity="0.85"/>
+    <text x="622" y="200" text-anchor="middle" font-family="Times New Roman, serif" font-size="4" fill="#1a0a04" font-weight="700">MYSTERIOUS</text>
+    <text x="622" y="208" text-anchor="middle" font-family="Times New Roman, serif" font-size="4" fill="#1a0a04" font-weight="700">LIGHTS</text>
+    <line x1="592" y1="213" x2="652" y2="213" stroke="#3a2010" stroke-width="0.4"/>
+    <line x1="592" y1="219" x2="652" y2="219" stroke="#3a2010" stroke-width="0.4"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomBC1)">
+    <rect x="586" y="190" width="72" height="38" fill="#fff8d8" opacity="0.3"/>
+  </g>
+
+  <g>
+    <ellipse cx="210" cy="232" rx="30" ry="18" fill="url(#nodeBlueBC1)"/>
+    <text x="210" y="230" text-anchor="middle" font-family="Times New Roman, serif" font-size="3.4" fill="#fff8d8" font-style="italic">"once upon a</text>
+    <text x="210" y="238" text-anchor="middle" font-family="Times New Roman, serif" font-size="3.4" fill="#fff8d8" font-style="italic">time, fairies..."</text>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowBC1)">
+    <ellipse cx="210" cy="232" rx="38" ry="26" fill="#7848b8" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="532" cy="232" rx="30" ry="18" fill="url(#nodeBlueBC1)"/>
+    <rect x="518" y="223" width="28" height="18" fill="url(#paperGlyphBC1)" opacity="0.85"/>
+    <line x1="521" y1="228" x2="543" y2="228" stroke="#3a2010" stroke-width="0.4"/>
+    <line x1="521" y1="233" x2="543" y2="233" stroke="#3a2010" stroke-width="0.4"/>
+    <line x1="521" y1="238" x2="538" y2="238" stroke="#3a2010" stroke-width="0.4"/>
+    <text x="532" y="252" text-anchor="middle" font-family="monospace" font-size="2.4" fill="#a878d8" font-style="italic">PAMPHLETS</text>
+  </g>
+
+  <g>
+    <ellipse cx="278" cy="244" rx="6" ry="3.4" fill="#040202" opacity="0.62"/>
+    <ellipse cx="278" cy="236" rx="4" ry="8" fill="#3a4858"/>
+    <circle cx="278" cy="228" r="2" fill="#a8a8a8"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomBC1)">
+    <ellipse cx="278" cy="236" rx="8" ry="8" fill="#a8c0e0" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="328" cy="244" rx="6" ry="3.4" fill="#040202" opacity="0.62"/>
+    <ellipse cx="328" cy="236" rx="4" ry="8" fill="#5a3018"/>
+    <circle cx="328" cy="228" r="2" fill="#3a2010"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomBC1)">
+    <ellipse cx="328" cy="236" rx="8" ry="8" fill="#d88838" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="378" cy="246" rx="6" ry="3.4" fill="#040202" opacity="0.62"/>
+    <ellipse cx="378" cy="237" rx="4" ry="8.5" fill="#1a4830"/>
+    <circle cx="378" cy="229" r="2" fill="#a87858"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomBC1)">
+    <ellipse cx="378" cy="237" rx="8" ry="8" fill="#3a8858" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="428" cy="244" rx="6" ry="3.4" fill="#040202" opacity="0.62"/>
+    <ellipse cx="428" cy="236" rx="5" ry="8" fill="#7a2530"/>
+    <circle cx="428" cy="228" r="2" fill="#a87858"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomBC1)">
+    <ellipse cx="428" cy="236" rx="8" ry="8" fill="#d83838" opacity="0.42"/>
+  </g>
+
+  <g>
+    <ellipse cx="478" cy="244" rx="6" ry="3.4" fill="#040202" opacity="0.62"/>
+    <ellipse cx="478" cy="236" rx="4" ry="8" fill="#3a2868"/>
+    <circle cx="478" cy="228" r="2" fill="#a87858"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomBC1)">
+    <ellipse cx="478" cy="236" rx="8" ry="8" fill="#a878d8" opacity="0.55"/>
+  </g>
+
+  <g opacity="0.55" stroke="#a878d8" stroke-width="0.4" fill="none" stroke-dasharray="2,2">
+    <path d="M 40 200 Q 22 220 22 244"/>
+    <path d="M 58 150 L 28 168"/>
+    <path d="M 684 150 L 714 168"/>
+    <path d="M 700 232 L 724 250"/>
+  </g>
+
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="430" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#7848b8" stroke-width="1.4"/>
+    <text x="209" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#a878d8" font-weight="700">LUMA: "This is everything."</text>
+    <text x="209" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a878d8" font-style="italic" font-weight="700">"Every glyph. Every trace. Every story. I've mapped them."</text>
   </g>
 </svg>
