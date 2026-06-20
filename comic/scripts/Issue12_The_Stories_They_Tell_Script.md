@@ -774,14 +774,14 @@ Painterly illustrated style, rich detail. Close-up of a holographic tactical dis
 
 **Shot:** Medium shot — Jink in sharp dive
 **Camera:** 50mm. Jink banking hard, folding wings into a combat dive, dropping toward the basement stairwell entrance. Emerald trails tear the air behind them. The grin is gone — this is the dive of a scout going to save their friend.
-**Action:** Jink diverts. Drops everything. Goes to Thresh.
-**Expression:** Fear and determination. No quips. Just action.
+**Action:** Jink diverts. Drops everything. Goes to Thresh. As she banks away from her own assigned node — Junction Alpha, still live, still hers to finish — its amber-black light goes unattended behind her. She does not look back at it. The fastest flyer in the squad chooses the friend over the finish in the same breath she answers the order: obedience and a price, one motion, no deliberation.
+**Expression:** Fear and determination. No quips. Just action — and underneath, the cost she is choosing to leave behind her.
 **Dialogue:**
-- JINK (radio): "I'm coming, Thresh. Hold on."
-**Lighting:** Morning sky above, the dark stairwell mouth below. Emerald combat trails bright and fast.
+- JINK (radio): "That's my node — Junction Alpha — going dark, I'm leaving it. I'm coming, Thresh. Hold on."
+**Lighting:** Morning sky above, the dark stairwell mouth below. Emerald combat trails bright and fast. Behind her, at the edge of frame, the amber-black pulse of her abandoned node — the target she is choosing not to finish.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded emerald suit folds holographic dragonfly wings into a combat dive, dropping sharply toward a dark basement stairwell entrance below. Emerald-green prismatic trails tear the air behind them, bright against the morning sky. Wild golden blonde curly hair streaming, expression is fear and determination — no grin, no quip, a scout diving to save someone. The stairwell mouth below is dark. The sky above is bright morning blue. The contrast is stark — light into dark. Oil paint texture, visible brushwork, the dive.
+Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded emerald suit folds holographic dragonfly wings into a combat dive, dropping sharply toward a dark basement stairwell entrance below. Emerald-green prismatic trails tear the air behind them, bright against the morning sky. Wild golden blonde curly hair streaming, expression is fear and determination — no grin, no quip, a scout diving to save someone. The stairwell mouth below is dark. The sky above is bright morning blue. At the upper edge of frame, behind and above her — the rooftop junction she is banking AWAY from, a small unattended Titan node still pulsing sickly amber-black, her abandoned target, the price riding on the same motion as the dive. She does not look back at it. The contrast is stark — light into dark, the finish left behind for the friend. Oil paint texture, visible brushwork, the dive that costs her the node.
 ```
 
 ---
