@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 140" width="742" height="140">
-  <title>Issue 12 Page 20 Panel 3 — Steeple from outside, the city stretching, five lights too small to see</title>
-  <desc>Extreme wide horizontal strip. Victorian church steeple rises above London skyline in morning light. Stone and brick, bell housing visible. Through arches at top, faintest points of colored light visible — five holographic glows, too small to resolve into figures, five department colors. Below steeple, city stretches in every direction — rooftops, chimneys, telegraph lines catching morning light, gaslit-turning-sunlit sprawl of London. Morning amber-gold across cityscape. The faintest fairy light in the steeple. The stories already down there, in the streets, spreading. Five lights in the largest city — the fairy tales beginning.</desc>
+  <title>Issue 12 Page 20 Panel 3 — Steeple from outside, the city below, Luma at the arch with her tech dark, choosing the world unmediated</title>
+  <desc>Extreme wide horizontal strip. Victorian church steeple rises above the London skyline in morning amber-gold. Stone and brick, bell housing visible. Through arches at top, the faintest points of five colored holographic glows, too small to resolve into figures. Below, the city stretches in every direction — rooftops, chimneys, telegraph lines catching morning light. In the foreground, at a steeple arch, slightly larger and more legible than the other lights, a tiny sapphire-violet figure (Luma, single dark braid) stands looking out at the city. Her gold diagnostic lenses are dark, not glowing. Her forearm scanner is lowered to her side and unlit, the blue-violet scanner-glow winking out. Nothing between her and the city — she chooses the world unmediated and uncertified. Not serene; quiet. Her self-owned change gesture.</desc>
   <defs>
     <linearGradient id="bgHH3" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fff8d8"/>
@@ -38,6 +38,11 @@
       <stop offset="0.5" stop-color="#3a1810"/>
       <stop offset="1" stop-color="#1a0a04"/>
     </linearGradient>
+    <linearGradient id="lumaSuitHH3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a78d8"/>
+      <stop offset="0.5" stop-color="#6a5acd"/>
+      <stop offset="1" stop-color="#3a2c78"/>
+    </linearGradient>
     <filter id="bloomHH3" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="2"/>
     </filter>
@@ -46,6 +51,9 @@
     </filter>
     <filter id="megaGlowHH3" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="lumaSoftHH3" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="0.6"/>
     </filter>
   </defs>
 
@@ -140,6 +148,46 @@
     <circle cx="560" cy="106" r="1" fill="#fff8d8"/>
     <circle cx="640" cy="106" r="1" fill="#fff8d8"/>
     <circle cx="720" cy="106" r="1" fill="#fff8d8"/>
+  </g>
+
+  <!-- Foreground arch where Luma stands — slightly nearer, framing her against the dark interior -->
+  <g>
+    <path d="M 286 64 Q 286 100 304 100 L 332 100 Q 350 100 350 64 Z" fill="url(#archInteriorHH3)"/>
+    <path d="M 286 64 Q 286 100 304 100 L 332 100 Q 350 100 350 64 Z" fill="none" stroke="#5a3018" stroke-width="1.1" opacity="0.7"/>
+    <rect x="280" y="100" width="76" height="16" fill="url(#steepleStoneHH3)" opacity="0.9"/>
+    <line x1="280" y1="100" x2="356" y2="100" stroke="#3a2010" stroke-width="0.5" opacity="0.6"/>
+  </g>
+
+  <!-- Luma — tiny sapphire-violet figure at the arch, looking OUT at the city. Tech dark. -->
+  <g filter="url(#lumaSoftHH3)">
+    <!-- faint residual scanner-glow winking out at her lowered forearm -->
+    <g opacity="0.16" filter="url(#bloomHH3)">
+      <circle cx="312" cy="92" r="2.4" fill="#6a5acd"/>
+    </g>
+
+    <!-- body / torso suit -->
+    <path d="M 314 80 Q 311 80 310 84 L 309.4 95 Q 309.2 98 312 98 Q 314.8 98 314.6 95 L 314 84 Q 313.8 80 314 80 Z" fill="url(#lumaSuitHH3)"/>
+    <ellipse cx="311.6" cy="86" rx="2.4" ry="5.2" fill="url(#lumaSuitHH3)"/>
+    <!-- legs -->
+    <rect x="310.2" y="95.5" width="1.5" height="5" rx="0.6" fill="#3a2c78"/>
+    <rect x="312" y="95.5" width="1.5" height="5" rx="0.6" fill="#3a2c78"/>
+    <!-- far arm relaxed -->
+    <path d="M 314 86 Q 316 88 315.6 92 L 315 95" stroke="#6a5acd" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- near arm LOWERED to her side, scanner forearm unlit -->
+    <path d="M 309.6 86 Q 307.6 88 307.8 92 L 308.2 95.5" stroke="#6a5acd" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <!-- the dark, unlit forearm scanner band -->
+    <rect x="307" y="91.4" width="2.2" height="3" rx="0.6" fill="#2a2050"/>
+    <!-- neck + head -->
+    <rect x="311" y="78.5" width="1.6" height="2.2" fill="#6a5acd"/>
+    <ellipse cx="311.8" cy="76.4" rx="2.6" ry="2.9" fill="#6a4a3a"/>
+    <!-- single dark braid down her back -->
+    <path d="M 313.6 75.5 Q 316 78 315.6 84 Q 315.4 88 314 90.5" stroke="#1a0e10" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+    <!-- gold diagnostic lenses, now DARK (not glowing) -->
+    <ellipse cx="310.4" cy="76" rx="1" ry="1.2" fill="#5a4418"/>
+    <ellipse cx="312.8" cy="75.6" rx="1" ry="1.2" fill="#5a4418"/>
+    <line x1="311.4" y1="75.8" x2="311.8" y2="75.7" stroke="#3a2c12" stroke-width="0.5"/>
+    <!-- faint amber rim catching morning light on her shoulder, the only warmth -->
+    <path d="M 313.4 82 Q 314.4 84 314.2 88" stroke="#f4b860" stroke-width="0.5" fill="none" opacity="0.5"/>
   </g>
 
   <g opacity="0.85" filter="url(#bloomHH3)">

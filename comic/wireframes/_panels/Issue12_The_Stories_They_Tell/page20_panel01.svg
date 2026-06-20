@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 380" width="742" height="380">
   <title>Issue 12 Page 20 Panel 1 — Sable looks at her squad, the commander seeing what they are</title>
-  <desc>Wide shot from slightly behind and beside Sable. Over her shoulder, four other tiny figures on church steeple beams in morning light. Wren in near-brown copper sits with tools in lap. Jink in soot-streaked emerald perches on higher beam, one leg dangling. Thresh in battered crimson stands with arms crossed. Luma in scuffed sapphire-violet leans against bell mechanism. All heavily degraded — soot, damage, improvised repairs — but holographic light bleeds through grime in five colors. They look like fairy tales. Something that has been through the dark and still carries light. Morning amber through arches.</desc>
+  <desc>Wide shot from slightly behind and beside Sable. Over her shoulder, four other tiny figures on church steeple beams in morning light. Wren in near-brown copper sits with tools in lap. Jink in soot-streaked emerald perches on higher beam, one leg dangling. Thresh in battered crimson now sits low against the beam, one arm bound across the chest in an improvised sling, the wing-pack gone from his back (only a bare dark mount remains), a pale field-dressing taped at the shoulder. Luma in scuffed sapphire-violet leans against the bell mechanism. All heavily degraded — soot, damage, improvised repairs — but holographic light bleeds through grime. Of the five colors, Thresh's wing-pack seams have gone dark: two of the five lights are diminished. They look like fairy tales. Something that has been through the dark, paid for it, and still carries light. Morning amber through arches.</desc>
   <defs>
     <linearGradient id="bgGG1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fff8d8"/>
@@ -187,29 +187,56 @@
   </g>
 
   <g>
-    <ellipse cx="540" cy="280" rx="32" ry="6" fill="#040202" opacity="0.62"/>
+    <!-- THRESH — wounded, seated low against the 240 beam, arm in a sling, wing-pack gone -->
+    <ellipse cx="540" cy="262" rx="34" ry="6" fill="#040202" opacity="0.62"/>
 
-    <ellipse cx="540" cy="220" rx="32" ry="44" fill="url(#suitCrimsonGG1)"/>
-    <path d="M 508 184 L 572 184 L 576 264 L 504 264 Z" fill="url(#suitCrimsonGG1)"/>
+    <!-- bare dark wing-pack mount where the pack used to be (against the beam behind him) -->
+    <path d="M 514 214 L 566 214 L 568 252 L 512 252 Z" fill="#160608"/>
+    <rect x="522" y="220" width="10" height="26" rx="1" fill="#0a0204"/>
+    <rect x="548" y="220" width="10" height="26" rx="1" fill="#0a0204"/>
+    <line x1="540" y1="216" x2="540" y2="250" stroke="#2a1014" stroke-width="1.4"/>
 
-    <ellipse cx="540" cy="140" rx="22" ry="26" fill="url(#skinUnivGG1)"/>
-    <path d="M 518 126 Q 540 104 562 126 Q 562 136 562 142 L 518 142 Q 518 136 518 126 Z" fill="url(#hairBuzzGG1)"/>
+    <!-- seated lower body: knees up, leaning against beam, torso slumped lower than standing -->
+    <ellipse cx="540" cy="234" rx="30" ry="26" fill="url(#suitCrimsonGG1)"/>
+    <path d="M 512 214 L 568 214 L 574 256 L 506 256 Z" fill="url(#suitCrimsonGG1)"/>
+    <!-- bent legs / knees drawn up on the beam -->
+    <path d="M 510 252 Q 498 248 494 236 Q 492 228 500 226" stroke="url(#suitCrimsonGG1)" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M 570 252 Q 582 248 586 236 Q 588 228 580 226" stroke="url(#suitCrimsonGG1)" stroke-width="11" fill="none" stroke-linecap="round"/>
+
+    <!-- head, tipped slightly toward the bound shoulder -->
+    <ellipse cx="540" cy="170" rx="20" ry="24" fill="url(#skinUnivGG1)"/>
+    <path d="M 520 158 Q 540 138 560 158 Q 560 168 560 174 L 520 174 Q 520 168 520 158 Z" fill="url(#hairBuzzGG1)"/>
     <g opacity="0.7" stroke="#3a1808" stroke-width="0.4">
-      <line x1="524" y1="118" x2="524" y2="134"/>
-      <line x1="532" y1="114" x2="532" y2="134"/>
-      <line x1="540" y1="114" x2="540" y2="134"/>
-      <line x1="548" y1="114" x2="548" y2="134"/>
-      <line x1="556" y1="118" x2="556" y2="134"/>
+      <line x1="525" y1="150" x2="525" y2="166"/>
+      <line x1="532" y1="146" x2="532" y2="166"/>
+      <line x1="540" y1="146" x2="540" y2="166"/>
+      <line x1="548" y1="146" x2="548" y2="166"/>
+      <line x1="555" y1="150" x2="555" y2="166"/>
     </g>
 
-    <path d="M 504 184 Q 488 200 480 220 Q 478 240 488 244" stroke="url(#suitCrimsonGG1)" stroke-width="9" fill="none" stroke-linecap="round"/>
-    <path d="M 576 184 Q 592 200 600 220 Q 602 240 592 244" stroke="url(#suitCrimsonGG1)" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <!-- field dressing taped at the right shoulder -->
+    <path d="M 562 206 L 580 210 L 578 224 L 560 222 Z" fill="#e8e0c8" opacity="0.92"/>
+    <line x1="560" y1="210" x2="580" y2="214" stroke="#b8b09a" stroke-width="1"/>
+    <line x1="561" y1="217" x2="579" y2="221" stroke="#b8b09a" stroke-width="1"/>
+    <path d="M 565 209 L 575 222" stroke="#a83838" stroke-width="0.9" opacity="0.5"/>
 
-    <line x1="508" y1="190" x2="572" y2="190" stroke="#d83838" stroke-width="1.4" opacity="0.85"/>
-    <line x1="504" y1="234" x2="576" y2="234" stroke="#d83838" stroke-width="1.4" opacity="0.85"/>
+    <!-- improvised sling: arm bound across the chest, knotted at the far shoulder -->
+    <path d="M 524 204 L 568 218 L 556 246 L 514 240 Z" fill="#7a6a4a" opacity="0.9"/>
+    <path d="M 524 204 L 568 218" stroke="#5a4a30" stroke-width="2"/>
+    <path d="M 556 246 L 514 240" stroke="#5a4a30" stroke-width="2"/>
+    <ellipse cx="566" cy="216" rx="4" ry="4" fill="#5a4a30"/>
+    <!-- bound forearm bulge inside the sling -->
+    <ellipse cx="536" cy="226" rx="14" ry="8" fill="url(#suitCrimsonGG1)"/>
+    <ellipse cx="524" cy="228" rx="5" ry="4" fill="url(#skinUnivGG1)" opacity="0.9"/>
+
+    <!-- chest light seam, intact -->
+    <line x1="514" y1="218" x2="552" y2="222" stroke="#d83838" stroke-width="1.4" opacity="0.85"/>
+    <!-- wing-pack seams now DARK (two of five lights diminished) -->
+    <line x1="522" y1="226" x2="532" y2="244" stroke="#3a1418" stroke-width="1.4" opacity="0.85"/>
+    <line x1="548" y1="226" x2="558" y2="244" stroke="#3a1418" stroke-width="1.4" opacity="0.85"/>
   </g>
-  <g opacity="0.85" filter="url(#strongGlowGG1)">
-    <ellipse cx="540" cy="220" rx="40" ry="44" fill="#d83838" opacity="0.42"/>
+  <g opacity="0.6" filter="url(#strongGlowGG1)">
+    <ellipse cx="540" cy="232" rx="34" ry="30" fill="#d83838" opacity="0.3"/>
   </g>
 
   <g>

@@ -7,7 +7,7 @@
 - **Degradation state:** Maximum. This is the end of the degradation arc. All suits show the cumulative damage of twelve issues — heavy soot accumulation, dents, tears, scratches, and extensive improvised repairs using scavenged Victorian materials (copper wire stitching, brass patches, tin strips, leather bindings). Wren's copper suit is the most damaged — oil-stained to near-brown, brass wire patches at both forearms, copper dust ground permanently into the knees, a scorch mark along one shoulder now partially covered by a tin strip. Jink's emerald suit has copper wire-stitched tears at both forearms, soot streaked heavily across the chest and back, the hip scuff from Issue 10, and fresh abrasions from the chimney-top deployment. Thresh's crimson armor is dented across the left pauldron, gouged along the right vambrace, scratched across the chest plate, and bears fresh combat damage from the Titan drone encounter — holographic edge-lighting stutters and pulses unevenly. Sable's silver suit is darkened to pewter with soot, the tin-patched shoulder crack now flanked by new hairline fractures, command presence persisting through the ruin. Luma's sapphire-violet suit shows dust, permanent ink stains at the hands, the cracked holographic lens, the calf abrasion, and new scuffs from the operation deployment. The visual thesis completes: future beauty consumed by the past, but not extinguished. Holographic light still bleeds through the grime at every joint, seam, and node. They look like fairy tales. They always did. The worse the suits get, the more they look like creatures from folklore — luminous beings in tarnished armor, light trapped in ruin.
 - **Lighting baseline:** Six distinct lighting environments across four major acts — see section headers for specifics. Dawn grey and morning amber for the launch. Location-specific lighting for each cross-cut operation target. Combat strobing for the Titan drone encounter. Street-level gaslight mixed with holographic comms glow for Theodore's moment. Cool holographic constellation light for Luma's revelation. And finally, the dominant image: warm candlelight with fading cool fairy-tech artifacts for Theodore's writing scene. The final panel uses candlelight only — warm amber, pen, paper, ink. No fairy light. The future's mark on the past is in the words, not the glow.
 - **Dialogue style:** The dialogue contracts across the issue. The operation sequences use clipped, military shorthand — call signs, targets, timing. Theodore's disarm scene is Wren at her most technically precise, translating alien systems into clockwork logic for a boy's hands. Luma's revelation is rigorous and shaken — she delivers a thesis she half-doubts, presenting evidence she can't separate from her desire for it to be true. Sable speaks least — her response is a look, not a speech. Theodore's final scene has no dialogue at all. The last words in the volume are written, not spoken.
-- **Key narrative beats:** Squad deployment (Pages 1-2). Cross-cut operation at four targets (Pages 3-8). Titan drone attack and synchronization failure (Pages 9-12). Theodore's disarm of the human-scaled device (Pages 13-16). Luma's revelation — the convergence point is the stories (Pages 17-19). Sable's quiet acknowledgment (Page 20). Theodore writing by candlelight (Pages 21-22).
+- **Key narrative beats:** Squad deployment (Pages 1-2). Cross-cut operation at four targets (Pages 3-8). Titan drone attack and synchronization failure (Pages 9-12). Theodore's disarm of the human-scaled device, and — in one continuous motion — the brain-plug removal that frees his master Cribbage (Pages 13-17). Luma's revelation — the convergence point is the stories (Pages 18-19). Sable's quiet acknowledgment (Page 20). Theodore writing by candlelight (Pages 21-22).
 - **Panel count target:** ~95 panels across 22 pages.
 
 ---
@@ -18,12 +18,13 @@
 
 | Character | Variant | Pages | Notes |
 | --------- | ------- | ----- | ----- |
-| Sable | Maximum degradation (silver suit, pewter-dark, tin patches, new fractures) | 1-12, 17-20 | Coordinating from church steeple; quiet acknowledgment in revelation scene |
-| Wren | Maximum degradation (copper suit, near-brown, brass wire patches, scorch marks) | 1-8, 13-16, 17-19 | At telegraph station target; talks Theodore through disarm via holographic comms |
-| Jink | Maximum degradation (emerald suit, heavy soot, copper wire repairs, fresh abrasions) | 1-12, 13-16, 17-19 | Aerial target, diverts to help Thresh, wing-pack projects comms for Theodore |
-| Thresh | Maximum degradation (crimson armor, dented, gouged, fresh drone damage) | 1-12, 17-19 | At guarded target; overwhelmed by Titan drone; fights afraid |
-| Luma | Maximum degradation (sapphire-violet, cracked lens, ink-stained, new scuffs) | 1-2, 9-12, 17-19 | On comms during operation; delivers the revelation — the synthesis of twelve issues |
-| Theodore | Working-class apprentice clothes (waistcoat, patched trousers, gear ring) | 1-2, 13-16, 17-19, 21-22 | Deploys on streets; disarms the human-scaled device; writes the first fairy tale |
+| Sable | Maximum degradation (silver suit, pewter-dark, tin patches, new fractures) | 1-12, 18-20 | Coordinating from church steeple; quiet acknowledgment in revelation scene |
+| Wren | Maximum degradation (copper suit, near-brown, brass wire patches, scorch marks) | 1-8, 13-19 | At telegraph station target; talks Theodore through disarm and the brain-plug removal via holographic comms |
+| Jink | Maximum degradation (emerald suit, heavy soot, copper wire repairs, fresh abrasions) | 1-19 | Aerial target, diverts to help Thresh, wing-pack projects comms for Theodore |
+| Thresh | Maximum degradation (crimson armor, dented, gouged, fresh drone damage) | 1-12, 18-19 | At guarded target; overwhelmed by Titan drone; fights afraid |
+| Luma | Maximum degradation (sapphire-violet, cracked lens, ink-stained, new scuffs) | 1-2, 9-19 | On comms during operation — monitors the device network, then Cribbage's vitals during the brain-plug removal (13-17); delivers the revelation — the synthesis of twelve issues |
+| Theodore | Working-class apprentice clothes (waistcoat, patched trousers, gear ring) | 1-2, 13-19, 21-22 | Deploys on streets; disarms the human-scaled device; frees his master Cribbage; writes the first fairy tale |
+| Mr. Cribbage | Brain-plugged → recovered: worn working clothes, clockmaker's loupe; plugged = vacant, dark vein at collar, iridescent eyes; recovered = simpler, hands trembling | 13-17 | The eighth, organic contact at the hub cabinet; Theodore's master, one of the five plugged humans; freed in one continuous motion, comes back "simpler" |
 
 ### Environments Required
 
@@ -34,8 +35,8 @@
 | Telegraph relay station interior (Wren's target) | 3-4, 7 | Fairy-scale | Brass telegraph machines, cable runs, gas lamps; Wren disarming a Titan device inside the machinery |
 | Aerial junction point — chimney forest (Jink's target) | 3, 5, 7 | Fairy-scale | Telegraph junction mounted on a rooftop pole; Jink in flight among chimneys and cables |
 | Industrial basement — pipe junction (Thresh's target) | 4, 6, 8-10 | Fairy-scale | Dark, steam pipes, brick walls, gas lighting; the guarded device; Titan drone encounter |
-| Victorian street — telegraph exchange box | 13-16 | Human-scale + fairy-scale | Street corner, iron telegraph exchange cabinet, gaslight; Theodore working with Jink beside him |
-| Church steeple — post-operation | 17-19 | Fairy-scale | Squad gathered; Luma's holographic constellation of evidence filling the space |
+| Victorian street — telegraph exchange box | 13-17 | Human-scale + fairy-scale | Street corner, iron telegraph exchange cabinet, gaslight; Theodore working with Jink beside him; the slumped, brain-plugged Cribbage at the cabinet's foot |
+| Church steeple — post-operation | 17-19 | Fairy-scale | Squad reconvenes (P17); Luma's holographic constellation of evidence filling the space (18-19) |
 | Victorian rooftop — Sable's response | 20 | Fairy-scale | Morning light; Sable looking at her squad; the city behind |
 | Theodore's workshop — night | 21-22 | Human-scale | Workbench, clockwork tools, candle, journal, scattered fairy artifacts; Vermeer-still |
 
@@ -44,11 +45,12 @@
 | Asset | Pages | Notes |
 | ----- | ----- | ----- |
 | Holographic tactical display (Sable's command projection) | 2, 6, 10-12 | Blue-white overhead schematic of the city; device locations, squad positions, timing indicators — adapts in real time as plan changes |
-| Titan temporal nudge devices (at targets) | 3-8, 13-16 | Dark devices with sickly amber-black pulsing light, embedded in telegraph infrastructure; varied sizes — four fairy-scaled, one human-scaled |
+| Titan temporal nudge devices (at targets) | 3-8, 13-14 | Dark devices with sickly amber-black pulsing light, embedded in telegraph infrastructure; varied sizes — four fairy-scaled, one human-scaled |
+| Brain-plug (organic eighth contact, Cribbage's nape) | 13-15 | A thin dark plug seated at the brain-stem, warm-red organic glow; wired into the hub network; removed by hand — mechanical not medical |
 | Titan drone | 9-11 | Smaller than a full Titan but still enormous to the squad — dark, angular, oil-on-water iridescence, autonomous, deployed to guard the basement device |
 | Wing-pack deployed (Jink, emerald — maximum degradation) | 1-12 | Translucent dragonfly wings with emerald geometric lattice; trails flickering, one wing seam stuttering from damage |
-| Holographic comms link (Wren to Theodore via Jink's wing-pack) | 13-16 | Copper-gold holographic schematic projected from Jink's wing-pack beside Theodore; Wren's voice and technical diagrams translated into clockwork logic |
-| Luma's holographic constellation | 17-19 | Blue-violet projection filling the steeple space — a web connecting glyphs, the church cache, "STAY," newspaper clippings, the published pamphlet, Titan device locations, prior operative evidence. The map of the paradox |
+| Holographic comms link (Wren to Theodore via Jink's wing-pack) | 13-17 | Copper-gold holographic schematic projected from Jink's wing-pack beside Theodore; Wren's voice and technical diagrams translated into clockwork logic; re-aimed from the cabinet to Cribbage's nape for the removal |
+| Luma's holographic constellation | 18-19 | Blue-violet projection filling the steeple space — a web connecting glyphs, the church cache, "STAY," newspaper clippings, the published pamphlet, Titan device locations, prior operative evidence. The map of the paradox |
 | Fairy artifacts on Theodore's workbench | 21-22 | A tiny holographic emitter still faintly glowing with geometric light in varied hues; a miniature tool from Wren's kit; a scrap of soot-darkened metallic suit material no larger than a thumbnail, still catching candlelight |
 | Theodore's journal | 21-22 | Open, handwritten in careful script — the beginning of a story about luminous beings with wings of light |
 | Candle (Theodore's workshop) | 21-22 | Primary and only light source in the final scene; warm amber, no fairy light in the last panel |
@@ -772,14 +774,14 @@ Painterly illustrated style, rich detail. Close-up of a holographic tactical dis
 
 **Shot:** Medium shot — Jink in sharp dive
 **Camera:** 50mm. Jink banking hard, folding wings into a combat dive, dropping toward the basement stairwell entrance. Emerald trails tear the air behind them. The grin is gone — this is the dive of a scout going to save their friend.
-**Action:** Jink diverts. Drops everything. Goes to Thresh.
-**Expression:** Fear and determination. No quips. Just action.
+**Action:** Jink diverts. Drops everything. Goes to Thresh. As she banks away from her own assigned node — Junction Alpha, still live, still hers to finish — its amber-black light goes unattended behind her. She does not look back at it. The fastest flyer in the squad chooses the friend over the finish in the same breath she answers the order: obedience and a price, one motion, no deliberation.
+**Expression:** Fear and determination. No quips. Just action — and underneath, the cost she is choosing to leave behind her.
 **Dialogue:**
-- JINK (radio): "I'm coming, Thresh. Hold on."
-**Lighting:** Morning sky above, the dark stairwell mouth below. Emerald combat trails bright and fast.
+- JINK (radio): "That's my node — Junction Alpha — going dark, I'm leaving it. I'm coming, Thresh. Hold on."
+**Lighting:** Morning sky above, the dark stairwell mouth below. Emerald combat trails bright and fast. Behind her, at the edge of frame, the amber-black pulse of her abandoned node — the target she is choosing not to finish.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded emerald suit folds holographic dragonfly wings into a combat dive, dropping sharply toward a dark basement stairwell entrance below. Emerald-green prismatic trails tear the air behind them, bright against the morning sky. Wild golden blonde curly hair streaming, expression is fear and determination — no grin, no quip, a scout diving to save someone. The stairwell mouth below is dark. The sky above is bright morning blue. The contrast is stark — light into dark. Oil paint texture, visible brushwork, the dive.
+Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded emerald suit folds holographic dragonfly wings into a combat dive, dropping sharply toward a dark basement stairwell entrance below. Emerald-green prismatic trails tear the air behind them, bright against the morning sky. Wild golden blonde curly hair streaming, expression is fear and determination — no grin, no quip, a scout diving to save someone. The stairwell mouth below is dark. The sky above is bright morning blue. At the upper edge of frame, behind and above her — the rooftop junction she is banking AWAY from, a small unattended Titan node still pulsing sickly amber-black, her abandoned target, the price riding on the same motion as the dive. She does not look back at it. The contrast is stark — light into dark, the finish left behind for the friend. Oil paint texture, visible brushwork, the dive that costs her the node.
 ```
 
 ---
@@ -874,18 +876,18 @@ Painterly illustrated style, rich detail. Close-up. A woman in degraded crimson 
 
 #### Panel 5 — Wide, right (two-thirds width)
 
-**Shot:** Medium wide — the shot hits
-**Camera:** 35mm. Thresh's crimson energy bolt strikes the Titan drone's sensor cluster. The cluster shatters — dark crystalline fragments spraying outward, dark iridescence flickering wildly. The drone spasms, limbs jerking, losing coordination. Not destroyed — blinded. It begins to withdraw, pulling its limbs back toward the ceiling, seeking the pipe infrastructure to retreat through.
-**Action:** Direct hit. The drone's sensors are destroyed. It's blinded. It withdraws — not dead, but combat-ineffective. The basement is clear.
-**Expression:** (Thresh visible) A moment of fierce, shaking triumph. She did it. She was afraid. She did it anyway.
+**Shot:** Medium wide — the shot hits, and the drone takes its price
+**Camera:** 35mm. Thresh's crimson energy bolt strikes the Titan drone's sensor cluster. The cluster shatters — dark crystalline fragments spraying outward, dark iridescence flickering wildly. The drone spasms, blinded, limbs jerking — but a blinded thing still flails. One angular limb whips out as it convulses and catches Thresh across the back and shoulder, where the wing-pack mounts. The impact is enormous at four-inch scale. The wing-pack shatters; the arm beneath it folds the wrong way. Thresh goes down. The drone, sensors gone, drags itself up into the pipe infrastructure to retreat — combat-ineffective, but not before it took something.
+**Action:** Direct hit. The drone is blinded — and in its blind convulsion it shatters Thresh's wing-pack and ruins their arm. The basement is clear. The cost is paid. Thresh is on the ground.
+**Expression:** (Thresh visible) The triumph and the wound in the same instant — they fired the shot that mattered, and it cost them. Not fierce triumph now: shock, and then pain arriving.
 **Dialogue:**
-- JINK (radio): "Direct hit! It's pulling back!"
-- THRESH (ragged): "Did I get it?"
-- JINK: "You got it, Thresh. You got it."
-**Lighting:** The crimson bolt impact — bright flash on the dark drone surface. Dark iridescent fragments spraying. The drone's surface flickering wildly as it loses coherence. Then darkness returning as the drone retreats into the pipe infrastructure above.
+- JINK (radio): "Direct hit! It's pulling back — THRESH—"
+- THRESH (ragged, then a sound that isn't a word): "Did I... get it—"
+- JINK (no quip left): "You got it. You got it. Stay down, I've got you."
+**Lighting:** The crimson bolt impact — bright flash on the dark drone surface. Dark iridescent fragments spraying. Then the limb's dark blur across Thresh's back, the crimson wing-pack glow guttering out as it shatters — five colors of the squad, and one of them going dark. The drone retreating into the pipe infrastructure above.
 
 ```text
-Painterly illustrated style, rich detail. Medium wide shot. A crimson energy bolt strikes the sensor cluster of a Titan drone — the cluster shatters, dark crystalline fragments spraying outward with flickering dark iridescence. The drone spasms, angular limbs jerking with lost coordination, pulling back toward the ceiling pipes in retreat. At the base of a brick column, a tiny figure in crimson armor stands with weapon extended, the barrel still glowing from the shot — her expression is fierce, shaking triumph. Nearby, hovering, a second tiny figure in emerald suit watches with relief. Dark crystalline fragments scatter through the air. The drone's dark iridescent surface flickers wildly as it retreats. The basement, for a moment, belongs to the four-inch soldiers. Oil paint texture, visible brushwork, the shot that mattered.
+Painterly illustrated style, rich detail. Medium wide shot. A crimson energy bolt strikes the sensor cluster of a Titan drone — the cluster shatters, dark crystalline fragments spraying outward with flickering dark iridescence. The drone spasms, blinded — and one angular limb whips out in its convulsion, catching a tiny figure in crimson armor across the back and shoulder where the wing-pack mounts. The holographic wing-pack shatters into guttering shards of crimson light; the arm beneath folds wrong; the figure is thrown to the basement floor at the base of a brick column, weapon spilling from their grip. Above, a second tiny figure in emerald suit dives toward the fallen one, relief turned to alarm. The drone drags its dark iridescent bulk up into the ceiling pipes in retreat. Dark crystalline fragments and dying crimson light scatter through the air together. The basement belongs to the four-inch soldiers — but one of them is down. Oil paint texture, visible brushwork, the shot that mattered and the price it cost.
 ```
 
 ---
@@ -900,33 +902,34 @@ Painterly illustrated style, rich detail. Medium wide shot. A crimson energy bol
 
 **Shot:** Wide — Sable at the steeple, tactical display showing the crisis
 **Camera:** 28mm. Sable at the church steeple, tactical display expanded, showing the full situation. The drone marker is retreating. But a new problem is visible — the four neutralized satellite nodes are flickering back to amber-black. The hub device has triggered a failsafe. It's attempting to reactivate the network.
-**Action:** The failsafe. The hub at the exchange is reactivating the satellites. They need to disable the hub NOW, or the entire operation fails.
-**Expression:** Sable processing the crisis. The commander adapting in real time.
+**Action:** The failsafe. The hub at the exchange is reactivating the satellites. They need to disable the hub NOW, or the entire operation fails — and the hub is human-scaled, out of every fairy's reach. The captain who has run this operation on owning every call is out of calls she can make herself. From the steeple she cannot reach the cabinet, cannot verify the read, cannot watch the hands do the work. So she does the hardest thing her command style knows: she gives the outcome away. She hands the timing to Wren's read and Theodore's hands and does not retain the final call.
+**Expression:** Sable processing the crisis — and then a harder thing crossing her face: the deliberate release of control under live fire. She is staking the whole operation on a read she cannot confirm and a pair of hands she cannot see. The contraction tell fires; the command-voice formality drops on the one order that matters most.
 **Dialogue:**
 - WREN (radio): "Sable — the satellites are reactivating. The hub is pushing a restore signal. We need to kill the hub before the network comes back online."
 - SABLE (radio): "How long?"
 - WREN (radio): "Minutes. Maybe less."
-- SABLE (radio): Beat. "Theodore. Open the cabinet. Jink — get back to the exchange. Now."
+- SABLE (radio): Beat. "Then it isn't my call to make from up here. Wren — your read. Theodore — your hands. Execute on your mark, not mine. I can't see it from here, and I'm not going to pretend I can."
 **Lighting:** Blue-white tactical display pulsing urgently. The four satellite markers flickering between grey and amber-black. The hub marker pulsing brighter. Morning light behind.
 
 ```text
-Painterly illustrated style, rich detail. Wide shot. A tiny figure in pewter-dark degraded silver suit stands at a church steeple command position, a large holographic tactical display expanded before her — a blue-white miniature city map pulsing with urgency. Four satellite device markers flicker between neutral grey and amber-black — reactivating. The central hub marker pulses brighter amber-black. Squad position markers are scattered — crimson and emerald together at the basement, copper-gold on a rooftop, blue-violet at camp. The display shows the operation unraveling in real time. Dawn light on the church stone behind. The figure's posture is rigid — processing, adapting, deciding. Blue-white holographic urgency light. Oil paint texture, visible brushwork, the crisis point.
+Painterly illustrated style, rich detail. Wide shot. A tiny figure in pewter-dark degraded silver suit stands at a church steeple command position, a large holographic tactical display expanded before her — a blue-white miniature city map pulsing with urgency. Four satellite device markers flicker between neutral grey and amber-black — reactivating. The central hub marker pulses brighter amber-black. Squad position markers scattered — crimson and emerald together at the basement, copper-gold on a rooftop, blue-violet at camp. The display shows the operation unraveling in real time. But her hand is NOT on the markers now — it has drawn back from the display, open, palm up, the gesture of letting go; she has stopped trying to move the pieces. Dawn light on the church stone behind. Her posture is rigid but her face is doing something new — the deliberate release of control, command handed to people she cannot see. Blue-white holographic urgency light. Oil paint texture, visible brushwork, the captain who gives the call away.
 ```
 
 ---
 
 #### Panel 2 — One-third width, left
 
-**Shot:** Medium shot — Jink launching from the basement stairwell
-**Camera:** 50mm. Jink exploding out of the basement stairwell, wings deploying at full power, climbing fast — heading back to the exchange. Below them, Thresh emerges at the stairwell mouth, looking up.
-**Action:** Jink rockets back toward the exchange. Every second counts.
-**Expression:** Fierce urgency. The fastest flyer in the squad, racing the clock.
+**Shot:** Medium shot — Jink launching from the basement stairwell, leaving Thresh behind
+**Camera:** 50mm. Jink exploding out of the basement stairwell, wings deploying at full power, climbing fast — heading back to the exchange. The failsafe leaves no choice: the hub must die now, and Jink is the only one fast enough. Below, in the dark of the stairwell, Thresh is propped against the wall where Jink left them — one arm useless, the shattered wing-pack dead at their back, waving Jink off with the good hand. *Go.* The hardest thing the squad does this issue is leave one of their own on the ground to save the mission.
+**Action:** Jink rockets back toward the exchange, abandoning the downed Thresh because the clock allows nothing else. Every second counts, and the cost of those seconds has a face.
+**Expression:** Fierce urgency over a wound that won't close — the fastest flyer racing the clock and hating that the clock is what's making them leave. Below: Thresh, grey with pain, ordering Jink away.
 **Dialogue:**
-- JINK (radio): "Airborne! En route to exchange! Theodore, don't start without me!"
-**Lighting:** Morning sky. Emerald wing-light at full intensity, trailing bright.
+- THRESH (radio, ragged): "Go. Hub first. I'm not going anywhere."
+- JINK (radio, tight): "Airborne. En route to exchange. Theodore, don't start without me." (lower) "...Hold on, Thresh."
+**Lighting:** Morning sky. Emerald wing-light at full intensity, trailing bright. Below in the stairwell dark, the crimson glow is wrong now — half of it gone, the wing-pack nodes dead, only the suit's chest and gauntlet edges still lit.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded emerald suit explodes from a dark basement stairwell into morning light, holographic dragonfly wings deploying at full power, climbing fast. Emerald-green prismatic trails blaze behind them at full intensity. Below, at the stairwell mouth, a second tiny figure in crimson armor emerges into the light, looking up. Morning sky, bright and blue. The emerald figure climbs fast, racing. Oil paint texture, visible brushwork, the fastest flyer racing the clock.
+Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded emerald suit explodes from a dark basement stairwell into morning light, holographic dragonfly wings deploying at full power, climbing fast. Emerald-green prismatic trails blaze behind them at full intensity — but the face is turned half back, urgency mixed with reluctance. Below, in the shadow of the stairwell mouth, a second tiny figure in crimson armor is propped against the brick, one arm hanging useless, the wing-pack on their back shattered and dark, crimson holographic light burning only at the chest and gauntlet now. The downed figure lifts the good hand in a flat, final wave — go. Morning sky bright above, wounded dark below. The emerald figure climbs fast, racing, leaving the friend on the ground. Oil paint texture, visible brushwork, the cost of every second.
 ```
 
 ---
@@ -1038,7 +1041,7 @@ Painterly illustrated style, rich detail. Extreme close-up. A boy's fingers work
 Painterly illustrated style, rich detail. Medium close-up. A tiny figure in degraded emerald suit crouches on a cast-iron cabinet panel, maintaining a copper-gold holographic projection from their wing-pack emitter. They watch enormous hands — a boy's hands, filling the background of the frame — working inside the device with practiced precision. The tiny figure's expression is quiet intensity — not the grin, not fear. Trust. The bond of eleven issues visible in the watching. Wild golden blonde curly hair, soot-streaked emerald suit, the wing-pack projecting its copper-gold guide. Morning light and holographic glow. Oil paint texture, visible brushwork, the fairy watching the giant save the world.
 ```
 
-## SECTION 4: THEODORE'S MOMENT (Pages 13–16)
+## SECTION 4: THEODORE'S MOMENT (Pages 13–17)
 
 ### Lighting Baseline
 Street-level morning light — warm amber-gold — dominates. The interior of the telegraph exchange cabinet is lit by the Titan device's amber-black pulse, which dims progressively as Theodore disconnects each node. Wren's copper-gold holographic disarm guide, projected from Jink's wing-pack, casts structured geometric light across Theodore's hands and the device internals. The three light sources — morning sun, amber-black device glow, copper-gold holographic guide — create a shifting palette as the disarm progresses. By the final disconnection, the amber-black is gone, the copper-gold guide fades, and only clean morning light remains. The visual thesis: the alien consumed by the ordinary. The future's intrusion removed by the past's competence.
@@ -1074,51 +1077,56 @@ Painterly illustrated style, rich detail. Medium wide over-the-shoulder POV shot
 
 #### Panel 2 — Equal, left
 
-**Shot:** Close-up — Theodore's face in concentration
-**Camera:** 85mm. Theodore's face — sandy-brown hair falling across his forehead, hazel eyes narrowed in concentration, lower lip caught between his teeth. He's feeling his way through the device by touch, the way he learned to feel the tolerances in a clockwork mechanism. His face is lit from below by the amber-black device glow and from the side by the copper-gold holographic guide.
-**Action:** Theodore works by feel. The clockmaker's apprentice, doing what his hands were trained to do.
-**Expression:** Deep concentration. Not fear — focus. This is what he knows. The logic of machines.
+**Shot:** Medium shot — Wren on the rooftop coaching, intercut with the fifth-node extraction
+**Camera:** 50mm. Wren on the telegraph station rooftop, her full holographic display active — she's tracking Theodore's progress through the data feed from Jink's relay. Her hands move through the holographic display, highlighting the load-bearing fifth node, anticipating the pulse, guiding from a distance. Then, mid-coaching, her hands stop. She is no longer directing the display. She is listening. Inset to the cabinet: Theodore's fingers on the fifth node — it pulses as he rotates it, a surge of amber-black light through his fingers, making them glow at the edges. He doesn't let go. He rides the pulse, twists, and the node comes free.
+**Action:** Wren coaches the hard node — and goes still when Theodore names her technology in the language of a clockmaker's shop. Theodore rides the pulse, doesn't flinch, extracts the fifth node clean.
+**Expression:** Wren: intense focus, then — mid-coaching — her hands stop. Something in her face goes still: not the engineer's mask, not calculation. The same look she wore at the clockmaker's window in Issue 5: wonder she didn't plan to feel, arriving without permission.
 **Dialogue:**
-- THEODORE (to himself, barely audible): "Pressure... turn... there."
-**Lighting:** Amber-black from below, fading. Copper-gold holographic from the side. Morning light behind.
+- WREN (radio): "Fifth node is the tricky one. It's load-bearing — the network routes through it. When you pull it, the device may pulse. Don't let go. Ride the pulse, then twist and extract."
+- THEODORE (radio): "Like the main escapement wheel in a longcase clock. It kicks when you disengage it."
+- WREN (radio, a pause): "...yes. Exactly like that."
+- THEODORE (through gritted teeth): "It kicked. I held it. Fifth node free."
+- WREN (radio): "Clean extraction. Two left."
+**Lighting:** Copper-gold holographic display filling the space around Wren. Morning rooftop light. Her expression in the copper glow. In the inset: the amber-black pulse surges through Theodore's fingers — bright for a moment, then dying. Clean morning light returns to his hands.
 
 ```text
-Painterly illustrated style, rich detail. Close-up of a Victorian boy's face in deep concentration. Sandy-brown hair falls across his forehead, hazel eyes narrowed, lower lip caught between his teeth. He is feeling his way through something by touch — the precise concentration of a trained craftsman. His face is lit from below by fading amber-black light and from the side by copper-gold holographic geometric light. Morning light from behind creates a rim of gold on his hair. Freckles across his nose. Oil stains at his temple where he's wiped his face. The brass gear ring on his left hand catches the mixed light at the edge of the frame. Oil paint texture, visible brushwork, the clockmaker's apprentice at work.
+Painterly illustrated style, rich detail. Medium shot with an inset. A tiny figure in maximum-degradation copper suit stands on a Victorian rooftop, surrounded by an expanded copper-gold holographic display — schematics, data feeds, the Titan device's internals rendered in geometric light. Her hands have stilled mid-gesture — fingers no longer moving through the schematics, arms dropped fractionally, the display cycling on without her direction. East Asian features, wiry build, dark hair in high messy bun, hair UP not loose — her face turned slightly toward where Theodore's voice is coming from, expression open and unguarded: not the engineer's focused mask but something rarer, the look of someone stopped in their tracks by a boy naming a gear. Inset frame at the corner: an extreme close-up of a boy's oil-stained fingers gripping a dark crystalline node — amber-black light surging through the contact, illuminating the edges of the fingers, the burn scar, the gear ring; the light pulses intensely, the node resisting, kicking; the fingers do not let go, the node rotated and extracted clean, the amber-black dying in his grip. The copper-gold holographic light fills the space around her, cycling unattended, the morning sky behind. Oil paint texture, visible brushwork, the engineer who forgot, for one beat, that she was the one who knew more.
 ```
 
 ---
 
 #### Panel 3 — Equal, right
 
-**Shot:** Medium shot — Wren on the rooftop, coaching
-**Camera:** 50mm. Wren on the telegraph station rooftop, her full holographic display active — she's tracking Theodore's progress through the data feed from Jink's relay. Her hands move through the holographic display, highlighting the next node, anticipating complications, guiding from a distance. She is coaching a boy through alien technology using the language of gears and springs.
-**Action:** Wren coaches. The engineer who learned to admire human ingenuity is now relying on it to save the mission.
-**Expression:** Intense focus — and then, mid-coaching, her hands stop. She is no longer directing the display. She is listening. Theodore has just named what her technology does in the language of a clockmaker's shop, and something in her face goes still — not the engineer's mask, not calculation. The same look she wore at the clockmaker's window in Issue 5: wonder she didn't plan to feel, arriving without permission.
+**Shot:** Wide street beat — the slumped man at the foot of the cabinet, unwitnessed
+**Camera:** 50mm, slightly low and to the side. The pavement at the base of the iron telegraph cabinet. A man in worn working clothes is slumped against the cabinet's flank, sitting on the cold stone, head lolled, eyes half-closed and vacant. At the nape of his neck, mostly hidden by his collar, something glints — too clean, too geometric for Victorian iron. A constable strolls the near pavement; his gaze passes over the slumped man and slides right past, the way an eye slides past a drunk or a beggar. No alarm. No notice. Threading faintly into the lower edge of the frame, a thin blue-violet scanner-glow line — Luma's signal, projected through the comms relay, washing softly across the device internals as she monitors the whole network off Theodore's channel.
+**Action:** The plant. A brain-plugged man sits unwitnessed inches from the work, and the city looks straight through him. Luma's blue-violet presence threads into the scene — she is on the channel now, watching the network beyond the seven nodes.
+**Expression:** The slumped man: blank, absent, gone somewhere behind his own eyes. The constable: bored indifference. The contrast between them is the whole point.
 **Dialogue:**
-- WREN (radio): "Fifth node is the tricky one. It's load-bearing — the network routes through it. When you pull it, the device may pulse. Don't let go. Ride the pulse, then twist and extract."
-- THEODORE (radio): "Like the main escapement wheel in a longcase clock. It kicks when you disengage it."
-- WREN (radio, a pause): "...yes. Exactly like that."
-**Lighting:** Copper-gold holographic display filling the space around her. Morning rooftop light. Her expression in the copper glow.
+- LUMA (radio): "Theodore — I'm reading the whole network off your relay. Stay on the nodes. I've got eyes on the rest."
+**Lighting:** Full morning light on the pavement. The faint blue-violet of Luma's scanner-thread bleeding into the cabinet's interior from the comms channel. The glint at the man's nape catching one cold geometric highlight against all the warm brass and stone.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot. A tiny figure in maximum-degradation copper suit stands on a Victorian rooftop, surrounded by an expanded copper-gold holographic display — schematics, data feeds, the Titan device's internals rendered in geometric light. Her hands have stilled mid-gesture — fingers no longer moving through the schematics, arms dropped fractionally, the display cycling on without her direction. East Asian features, wiry build, dark hair in high messy bun, hair UP not loose — her face turned slightly toward where Theodore's voice is coming from, expression open and unguarded: not the engineer's focused mask but something rarer, the look of someone stopped in their tracks by a boy naming a gear. The copper-gold holographic light fills the space around her, cycling unattended, the morning sky behind. Oil paint texture, visible brushwork, the engineer who forgot, for one beat, that she was the one who knew more.
+Painterly illustrated style, rich detail. Wide low side-angle street beat. At the foot of a cast-iron telegraph exchange cabinet on a Victorian pavement, a man in worn working clothes sits slumped against the iron — head lolled, eyes half-closed and vacant, a body present but absent. At the nape of his neck, half-hidden by his collar, something glints: a small clean geometric object, too precise to be Victorian, wrong among the brass and stone. A constable strolls the near pavement, his gaze sliding right past the slumped man — the indifference of an eye passing over a drunk. No alarm, no notice. A thin thread of blue-violet holographic scanner-light bleeds into the lower edge of the frame from the comms relay — a distant presence monitoring the device network, washing faintly across the cabinet internals. Morning light warm on the pavement, one cold geometric highlight on the nape against all the brass. Oil paint texture, visible brushwork, the unwitnessed man and the city that looks straight through him.
 ```
 
 ---
 
 #### Panel 4 — Narrow, left (one-third width)
 
-**Shot:** Extreme close-up — the fifth node disconnecting
-**Camera:** 135mm. Theodore's fingers on the fifth node — the load-bearing one. The node pulses as he rotates it — a surge of amber-black light through his fingers, making them glow at the edges. He doesn't let go. He rides the pulse, twists, and the node comes free. The amber-black light dies in his hand.
-**Action:** The fifth node — the hard one. Theodore rides the pulse. Doesn't flinch. Extracts it clean.
-**Expression:** N/A (hand detail — the not-flinching IS the character)
+**Shot:** Close-up — the sixth node, then the hand reaching deeper for the anchor
+**Camera:** 85mm. The sixth node. Theodore's fingers work with increasing confidence — he's learned the feel now, the way the alien crystalline material responds to clockwork logic. The rotation is smooth. The node comes free. Then his hand reaches deeper into the cabinet — past the extracted nodes, past the disconnected wiring, to the anchor node at the device's core. The copper-gold holographic guide highlights it — the final connection, the thing that holds the device to the telegraph infrastructure.
+**Action:** Sixth node free with learned confidence. Then Theodore reaches for the last node — the deepest one, the anchor.
+**Expression:** (His face visible at the side of frame) Calm now. No fear. Just the work. The thing his hands were made for.
 **Dialogue:**
-- THEODORE (through gritted teeth): "It kicked. I held it. Fifth node free."
-- WREN (radio): "Clean extraction. Two left."
-**Lighting:** The amber-black pulse surges through his fingers — bright for a moment, then dying. Clean morning light returns to his hands.
+- THEODORE: "Sixth. One more."
+- WREN (radio): "One more. The last node is the anchor — it holds the device to the infrastructure. When it comes free, the device powers down permanently."
+- THEODORE: "I feel it. The anchor. It's deeper than the others."
+- WREN (radio): "Same technique. Pressure, rotation, pull. Trust your hands."
+- THEODORE: "I trust them."
+**Lighting:** Amber-black almost gone — just the seventh node's faint pulse remaining, the last ember at the device's core. Copper-gold holographic guide light steady, pointing the way. Morning light dominant now, behind Theodore.
 
 ```text
-Painterly illustrated style, rich detail. Extreme close-up. A boy's fingers grip a dark crystalline node — amber-black light surging through the contact, illuminating the edges of his oil-stained fingers, the burn scar, the gear ring. The light pulses intensely for a moment — the node resisting, kicking. The fingers do not let go. The node is being rotated and extracted. The amber-black light is dying in his grip. The extraction is clean. Oil paint texture, visible brushwork, the hand that held.
+Painterly illustrated style, rich detail. Close-up. Oil-stained fingers rotate and extract a dark crystalline node from an alien device with smooth, practiced movements — the technique learned now, the rhythm found — then the same hand reaches deeper into a cast-iron telegraph exchange cabinet, past a row of extracted nodes dark and inert on the cabinet floor, toward the core of the alien device where the last amber-black pulse glows faintly: the anchor node, the final connection. A copper-gold holographic arrow points to the target. The boy's face is visible at the side of the frame — hazel eyes calm, no fear, the quiet confidence of a craftsman doing what his hands know. The amber-black is faint, the last ember. The copper-gold guide points true. Morning light is the dominant illumination now — the alien retreating, the ordinary returning. Oil paint texture, visible brushwork, the pattern mastered, reaching for the last one.
 ```
 
 ---
@@ -1126,14 +1134,14 @@ Painterly illustrated style, rich detail. Extreme close-up. A boy's fingers grip
 #### Panel 5 — Wide, right (two-thirds width)
 
 **Shot:** Medium wide — the street around Theodore, oblivious
-**Camera:** 35mm. Pull back to show the scene in context: Theodore kneeling at the open cabinet on a London street, Jink tiny on the cabinet panel maintaining the holographic relay, the copper-gold projection glowing from the cabinet's interior. Around them, the morning continues — a horse-drawn cart passes, a woman walks with a shopping basket, a constable strolls the far pavement. No one looks. No one notices the boy at the cabinet, the tiny figure on the iron, the holographic light, the alien device being disarmed. The ordinary world, indifferent to the extraordinary thing happening inside it.
-**Action:** Context. The world doesn't know. A boy is saving the timeline on a street corner and no one is watching.
+**Camera:** 35mm. Pull back to show the scene in context: Theodore kneeling at the open cabinet on a London street, Jink tiny on the cabinet panel maintaining the holographic relay, the copper-gold projection glowing from the cabinet's interior. Around them, the morning continues — a horse-drawn cart passes, a woman walks with a shopping basket, a constable strolls the far pavement. The slumped man is in this frame too, sitting against the base of the cabinet inches from Theodore's knee — equally unseen. No one looks. No one notices the boy at the cabinet, the tiny figure on the iron, the holographic light, the alien device being disarmed, or the gone-eyed man at their feet. The ordinary world, indifferent to the extraordinary thing happening inside it.
+**Action:** Context. The world doesn't know. A boy is saving the timeline on a street corner and no one is watching — and no one sees the slumped man either, the indifference made literal.
 **Expression:** (Theodore distant — focused) The contrast between the stakes and the setting.
 **Dialogue:** None.
 **Lighting:** Full morning light. The copper-gold holographic glow from the cabinet is small, lost in the daylight. The amber-black pulse from inside, fading. The ordinary world lit by ordinary sun.
 
 ```text
-Painterly illustrated style, rich detail. Medium wide shot. A Victorian London street in morning light — a boy kneels at an open cast-iron telegraph exchange cabinet on the pavement, hands inside, working. On the cabinet's access panel, barely visible, a tiny figure in emerald maintains a faint copper-gold holographic projection. Around them, the morning city continues — a horse-drawn cart passes, a woman walks with a shopping basket, a constable strolls the far pavement. No one looks. No one notices. The copper-gold glow from the cabinet is small, lost in morning daylight. A fading amber-black pulse from inside. The ordinary world, the extraordinary thing inside it, and the perfect indifference of the city. Oil paint texture, visible brushwork, the world not watching.
+Painterly illustrated style, rich detail. Medium wide shot. A Victorian London street in morning light — a boy kneels at an open cast-iron telegraph exchange cabinet on the pavement, hands inside, working. On the cabinet's access panel, barely visible, a tiny figure in emerald maintains a faint copper-gold holographic projection. At the base of the cabinet, inches from the boy's knee, a man in worn working clothes sits slumped against the iron, head lolled, eyes vacant — in frame and equally unseen. Around them, the morning city continues — a horse-drawn cart passes, a woman walks with a shopping basket, a constable strolls the far pavement. No one looks. No one notices — not the boy, not the tiny figure, not the holographic light, not the slumped man. The copper-gold glow from the cabinet is small, lost in morning daylight. A fading amber-black pulse from inside. The ordinary world, the extraordinary thing inside it, the unwitnessed man at its foot, and the perfect indifference of the city. Oil paint texture, visible brushwork, the world not watching.
 ```
 
 ---
@@ -1142,60 +1150,9 @@ Painterly illustrated style, rich detail. Medium wide shot. A Victorian London s
 
 **Layout:** 2×2 grid
 
-*Page layout: Top — two equal panels. Bottom — two equal panels. A steady, rhythmic grid for the countdown.*
+*Page layout: Top — two equal panels. Bottom — two equal panels. The disarm closes and the Cribbage reveal opens.*
 
 #### Panel 1 — Half width, top left
-
-**Shot:** Close-up — Theodore's hands on the sixth node
-**Camera:** 85mm. The sixth node. Theodore's fingers work with increasing confidence — he's learned the feel now, the way the alien crystalline material responds to clockwork logic. The rotation is smooth. The node comes free.
-**Action:** Sixth node. The rhythm is established. Theodore has found the pattern.
-**Expression:** N/A (hand detail — the increasing confidence visible in the sureness of the grip)
-**Dialogue:**
-- THEODORE: "Sixth. One more."
-- WREN (radio): "One more. The last node is the anchor — it holds the device to the infrastructure. When it comes free, the device powers down permanently."
-**Lighting:** Amber-black almost gone — just the seventh node's faint pulse remaining. Copper-gold guide light steady. Morning light dominant now.
-
-```text
-Painterly illustrated style, rich detail. Close-up. Hands working with increasing confidence — oil-stained fingers rotating and extracting a dark crystalline node from an alien device with smooth, practiced movements. The technique is learned now, the rhythm found. Six nodes extracted, visible in a row on the cabinet floor — dark, inert, harmless. One node remains, its faint amber-black pulse the last alien light in the frame. Copper-gold holographic guide light steady at the edge. Morning light is the dominant illumination now — the alien retreating, the ordinary returning. Oil paint texture, visible brushwork, the pattern mastered.
-```
-
----
-
-#### Panel 2 — Half width, top right
-
-**Shot:** Close-up — Sable's tactical display, the satellites stabilizing
-**Camera:** 85mm. Sable's tactical display. The four satellite markers are flickering less — the hub's restore signal is weakening as Theodore disconnects nodes. One more node and the hub dies. The satellites die with it. The network collapses.
-**Action:** The markers stabilize. The restore signal fades. One node remains.
-**Expression:** N/A (display detail — the markers settling IS the hope)
-**Dialogue:**
-- SABLE (radio, barely breathing): "The satellites are stabilizing. The restore signal is weakening. One more, Theodore."
-**Lighting:** Blue-white tactical display. The amber-black markers fading. The hope in the numbers.
-
-```text
-Painterly illustrated style, rich detail. Close-up of a holographic tactical display. Four satellite device markers that were flickering between grey and amber-black are settling — the amber-black fading, the grey strengthening. The central hub marker's amber-black pulse is weakening. The network is dying. One more disconnection and it collapses. Blue-white holographic light, the amber-black fading from the display like a fever breaking. Oil paint texture, visible brushwork, the tide turning.
-```
-
----
-
-#### Panel 3 — Half width, bottom left
-
-**Shot:** Medium close-up — Theodore reaching for the last node
-**Camera:** 50mm. Theodore's hand reaching deeper into the cabinet — past the extracted nodes, past the disconnected wiring, to the anchor node at the device's core. The copper-gold holographic guide highlights it — the final connection, the thing that holds the device to the telegraph infrastructure.
-**Action:** Theodore reaches for the last node. The deepest one. The anchor.
-**Expression:** (His face visible at the side of frame) Calm now. No fear. Just the work. The thing his hands were made for.
-**Dialogue:**
-- THEODORE: "I feel it. The anchor. It's deeper than the others."
-- WREN (radio): "Same technique. Pressure, rotation, pull. Trust your hands."
-- THEODORE: "I trust them."
-**Lighting:** The amber-black pulse at the device's core — faint now, the last ember. Copper-gold holographic guide pointing the way. Morning light behind Theodore.
-
-```text
-Painterly illustrated style, rich detail. Medium close-up. A boy's hand reaches deep into a cast-iron telegraph exchange cabinet, past extracted crystalline nodes and disconnected wiring, toward the core of an alien device where the last amber-black pulse glows faintly — the anchor node, the final connection. A copper-gold holographic arrow points to the target. The boy's face is visible at the side of the frame — hazel eyes calm, no fear, the quiet confidence of a craftsman doing what his hands know. The amber-black is faint — the last ember. The copper-gold guide points true. Morning light behind. Oil paint texture, visible brushwork, reaching for the last one.
-```
-
----
-
-#### Panel 4 — Half width, bottom right
 
 **Shot:** Close-up — the last node comes free
 **Camera:** 135mm. Theodore's fingers grip the anchor node and pull. The node resists for a moment — then comes free with a final pulse of amber-black light that flashes and dies. The device goes dark. The device goes dead. The amber-black light is gone from the cabinet entirely. Only morning light and the copper-gold holographic guide remain — and then the guide fades too, Wren shutting it down. Only morning light.
@@ -1211,7 +1168,132 @@ Painterly illustrated style, rich detail. Close-up. A boy's oil-stained fingers 
 
 ---
 
+#### Panel 2 — Half width, top right
+
+**Shot:** Close-up — Luma's scanner resolving the eighth contact
+**Camera:** 85mm. Luma's blue-violet holographic scanner-feed, projected through the comms relay, resolving over the dead cabinet. Seven crystalline node-signatures hang in the readout — all grey now, all dead, matching the inert nodes on the cabinet floor. But one contact still reads live. It does not look like the others. Where the seven were sharp, faceted, crystalline, the eighth signature is soft, branching, organic — and pulsing in slow, steady rhythm. A human pulse. The device's death did not free it.
+**Action:** The reveal. Luma's scan finds an eighth contact the device-death didn't kill — not crystalline, organic, a brain-plug wired into the same network, reading a living pulse.
+**Expression:** N/A (scanner detail — the seven grey signatures and the one live organic one, the wrongness of it)
+**Dialogue:**
+- LUMA (radio, sharp): "Theodore — don't move. The device is dead but the network isn't. There's an eighth contact. It's not crystalline. It's organic. Someone's plugged into this."
+**Lighting:** Blue-violet scanner light, clean and cold. Seven grey crystalline signatures, inert. One soft organic signature pulsing warm against the cold violet — a heartbeat rendered in light.
+
+```text
+Painterly illustrated style, rich detail. Close-up of a holographic scanner readout in blue-violet light, projected over the open dead telegraph cabinet. Seven crystalline node-signatures float in the display — sharp, faceted, geometric — all rendered neutral grey, dead, matching the seven inert nodes sitting on the cabinet floor. But one eighth signature still reads live, and it is wrong: not faceted but soft and branching, organic, biological — and pulsing in a slow, steady rhythm, a human heartbeat rendered in light. The blue-violet scanner light is clean and cold; the live organic signature glows warmer against it, an intrusion of flesh in a field of dead crystal. Oil paint texture, visible brushwork, the contact that didn't die.
+```
+
+---
+
+#### Panel 3 — Half width, bottom left
+
+**Shot:** Medium close-up — Theodore turns and recognizes the slumped man
+**Camera:** 50mm. Theodore has turned from the dead cabinet, following Luma's warning, looking down at the man slumped at its foot. The angle now shows the man's face for the first time — slack, gone, but unmistakable. It is CRIBBAGE. His master. The clockmaker who took him on, who dismissed him, who he has worked under for years. At the nape of his neck, the plug glints clearly now — a small clean alien thing seated in human flesh. Recognition lands across Theodore's face like a blow.
+**Action:** Recognition — not discovery. Theodore turns and sees that the unwitnessed man wired into the network is his own master.
+**Expression:** Theodore: the stomach-drop of recognition. Not the abstract horror of "a plugged human" but the specific, personal horror of *this* face, *this* man, *his* master, gone behind his eyes.
+**Dialogue:**
+- THEODORE (quiet, stunned): "That's... that's Mr. Cribbage. That's my master."
+- LUMA (radio): "The device dying won't free him. That one comes out by hand. Your hands. I'll talk you through the body the way Wren talked you through the box."
+**Lighting:** Morning light on Cribbage's slack face. The cold glint of the plug at his nape. The faint blue-violet of Luma's scanner-thread overlaying the man, marking him as the live contact.
+
+```text
+Painterly illustrated style, rich detail. Medium close-up. A Victorian boy of twelve to thirteen has turned from an open telegraph cabinet to look down at a man slumped against its iron base. The man's face is visible now for the first time — slack, vacant, gone behind his own eyes, but unmistakable: a middle-aged Victorian craftsman, the boy's master, a face the boy knows intimately. At the nape of the man's neck a small clean alien plug glints, seated in human flesh, wrong among the worn wool and stubble. The boy's face registers recognition like a physical blow — not abstract horror but specific, personal: this man, this face, his master. Morning light on the slack face, a cold geometric highlight on the plug, a faint blue-violet scanner-thread overlaying the man and marking him as a living contact. Oil paint texture, visible brushwork, the master found gone.
+```
+
+---
+
+#### Panel 4 — Half width, bottom right
+
+**Shot:** Close-up — Theodore's hands move to the nape, the guides converge
+**Camera:** 85mm. Theodore's hands rise toward the plug at Cribbage's nape — the same oil-stained, burn-scarred, gear-ring hands that disarmed the device. Wren's copper-gold holographic guide swings away from the now-dead cabinet and re-anchors as a new target overlay laid precisely over the plug — geometry, seating-angle, pressure vectors. Luma's blue-violet vitals readout floats beside it — a slow pulse line, a temperature, a warning band rendered in light. Two guides on one target. The boy's hands hover, waiting for the word.
+**Action:** Setup. The same hands, a new target. Wren swings the geometry guide from the box to the body; Luma stacks a vitals readout beside it. Mechanical, not medical — and lethal if done wrong.
+**Expression:** Theodore: the focus from the disarm, now braided with fear — because this isn't a node, it's a man, and the man is his master.
+**Dialogue:**
+- WREN (radio): "New target. Same hands. I'll guide the geometry."
+- LUMA (radio): "I'll call his vitals. This is mechanical, not medical — find the seat, ease the pressure, no torque. If you tear it, you'll kill him. Slow."
+**Lighting:** Morning light on Theodore's hands and the man's neck. Copper-gold geometry guide overlaid on the plug. Blue-violet vitals readout beside it. The two fairy-light colors converging on one small alien object in human flesh.
+
+```text
+Painterly illustrated style, rich detail. Close-up. A boy's oil-stained, burn-scarred hands, a brass gear ring on one finger, rise toward the nape of a slumped man's neck where a small clean alien plug is seated in the flesh. A copper-gold holographic guide overlay is laid precisely over the plug — geometric seating lines, an angle indicator, pressure vectors, the disarm guide repurposed from machine to man. Beside it floats a blue-violet vitals readout — a slow pulse-line, a temperature figure, a warning band, all rendered in cold light. Two colors of fairy light converge on one small object in human flesh. The boy's hands hover, steady but charged with fear, waiting. Morning light warm on the hands and the man's neck, the copper-gold and blue-violet overlays cool against it. Oil paint texture, visible brushwork, the same hands, a new and living target.
+```
+
+---
+
 ### PAGE 15 (4 panels)
+
+**Layout:** 4-row: full-width / 2-col / full-width / 2-col
+
+*Page layout: Top — one full-width panel (the continuous-motion take). Second tier — two equal panels. Third — one full-width panel. Bottom — two panels. The Cribbage take resolves: the freeing, the surfacing, the choice.*
+
+#### Panel 1 — Full width
+
+**Shot:** Wide — the single continuous-motion arc, dead node to living nape
+**Camera:** 35mm, lateral. The LOCKED unbroken hand-arc rendered across the full width of the panel: a single sweep of Theodore's hand traveling from the dead cabinet node on the left — where he still half-holds the extracted crystal — across the frame to the plug at Cribbage's nape on the right. One motion, one breath, no cut. The copper-gold geometry guide tracks the arc; Luma's blue-violet vitals readout holds steady alongside. The same hands, the same logic, carried from the machine into the man without a seam.
+**Action:** The continuous-motion take. Theodore moves from the dead device to the living man in one unbroken arc — Wren guiding the geometry, Luma calling the vitals — applying the clockwork logic he knows to flesh.
+**Expression:** Theodore: total concentrated calm, the craftsman's stillness, fear pressed down beneath the work. His lips barely moving as he narrates the motion to himself.
+**Dialogue:**
+- THEODORE (low, steady): "Pressure... rotation... the way the node did."
+- WREN (radio): "Exactly. Let it seat against your fingers. Don't force the angle."
+**Lighting:** Morning light across the whole arc, warm and even. The copper-gold geometry guide tracing the hand's path. The blue-violet vitals readout holding steady at the right edge over Cribbage's neck. The two fairy-lights bracketing one continuous human motion.
+
+```text
+Painterly illustrated style, rich detail. Wide lateral shot, full-width composition emphasizing a single unbroken motion. On the left, an open telegraph cabinet with a dark dead crystalline node; a boy's oil-stained hand half-holds it. The same hand sweeps across the full width of the frame in one continuous arc — captured as a single fluid gesture, no cut, no seam — to the right side where a slumped man's nape waits with a small alien plug seated in the flesh. A copper-gold holographic geometry guide traces the path of the arc; a blue-violet vitals readout holds steady over the man's neck. The boy's expression is concentrated, still, the craftsman's calm with fear pressed down beneath it, lips barely moving. Morning light warm and even across the whole sweep, copper-gold and blue-violet fairy-light bracketing the motion. Oil paint texture, visible brushwork, one unbroken arc from the machine to the man.
+```
+
+---
+
+#### Panel 2 — Equal, left
+
+**Shot:** Extreme close-up — the plug comes free
+**Camera:** 135mm. Theodore's fingers at the nape, easing the alien plug out of Cribbage's flesh. It moves the way the anchor node moved — pressure, a slow seat-and-release, no torque — and then it is clear, lifted free, an inert little object cupped in his fingertips. No flash, no pulse, no drama. Just a foreign thing removed from a man. Beside it, Luma's blue-violet vitals line never breaks — the pulse holds steady, then steadier.
+**Action:** The plug comes free, clean. Luma's vitals hold. He's alive.
+**Expression:** N/A (hand and vitals detail — the clean extraction, the unbroken pulse line, the quiet of it)
+**Dialogue:**
+- LUMA (radio): "It's free. Pulse holding. He's alive."
+- THEODORE (breath): "It's out."
+**Lighting:** Morning light on the nape and the fingers. The plug catches one last cold highlight as it clears the skin, then nothing — inert. The blue-violet vitals line steady at the edge of frame, holding its slow even rhythm.
+
+```text
+Painterly illustrated style, rich detail. Extreme close-up. A boy's oil-stained fingers ease a small alien plug out of the nape of a slumped man's neck — a slow clean seat-and-release, no torque, no flash, no drama. The plug lifts clear of the flesh, an inert little geometric object cupped in his fingertips, catching one last cold highlight before it goes dark. The skin of the nape, freed, is just skin. At the edge of the frame a blue-violet holographic vitals line runs steady and unbroken — a pulse holding, then steadier. Morning light warm on the neck and the fingers. Oil paint texture, visible brushwork, the foreign thing removed and the man still breathing.
+```
+
+---
+
+#### Panel 3 — Equal, right
+
+**Shot:** Close-up — Cribbage surfacing, the first simple words
+**Camera:** 85mm. Cribbage's face, the vacancy slowly draining out of it. His eyes, half-closed and gone a moment ago, drift open — unfocused, then fractionally focusing. A man surfacing from deep water, not all the way up yet. His mouth works around the first simple, lost words. Theodore's hand is at his shoulder, steadying. This is recovery, not death — the only one of the five freed in Volume 1.
+**Action:** Cribbage surfaces. The first simple words. Recovery, not death — Theodore steadies him.
+**Expression:** Cribbage: lost, disoriented, the bewilderment of a man who doesn't know where he's been or how long. Theodore: relief breaking through, gentle, holding his master upright.
+**Dialogue:**
+- CRIBBAGE (slow, disoriented): "My... my hands. Theodore. Where..."
+- THEODORE: "I've got you. Don't try to stand yet."
+**Lighting:** Morning light on Cribbage's surfacing face — warming it, returning color to it as the vacancy drains. No alien light anywhere on him now. Just ordinary sun on an ordinary, recovering man.
+
+```text
+Painterly illustrated style, rich detail. Close-up. A middle-aged Victorian craftsman's face surfacing from blankness — eyes that were half-closed and vacant now drifting open, unfocused, then fractionally focusing, a man rising from deep water but not yet all the way up. His mouth works around the first lost, simple words. Stubble, worn skin, the disorientation of someone who doesn't know where he's been. A boy's hand rests at his shoulder, steadying him. No alien light remains on the man — only warm morning sun returning color to his face as the vacancy drains. Oil paint texture, visible brushwork, the master surfacing, recovery not death.
+```
+
+---
+
+#### Panel 4 — Wide, full width (bottom)
+
+**Shot:** Medium — the choice, Theodore and Cribbage, Jink on his wrist, the oblivious street beyond
+**Camera:** 35mm. Theodore crouched beside Cribbage, getting an arm under him to lift him — the boy supporting the master. The power has inverted: the man who dismissed him now leans on him, needs him. Jink alights on Theodore's wrist, tiny, close to his ear, speaking only to him. Beyond them the morning street walks past exactly as before — the cart, the basket-woman, the far constable — having seen none of it. Theodore looks down the street, toward home, not toward the shop.
+**Action:** The choice. Theodore decides to get Cribbage *home*, not back to the shop — paying the Issue 11 "chosen back" by choosing back. Jink notes that no one saw. Theodore answers that he'll know. Unwitnessed by the indifferent street.
+**Expression:** Theodore: resolved, quiet, older than this morning — the look of someone making a private decision that costs him and choosing it anyway. Jink: gentle, conspiratorial, sitting on his wrist. Cribbage: still half-gone, leaning on the boy.
+**Dialogue:**
+- THEODORE: "I'm getting you home. Not the shop. Home."
+- JINK (small, only Theodore hears): "Nobody saw. Nobody'll ever know it was you."
+- THEODORE: "I'll know."
+**Lighting:** Full morning light, warm and golden — the same indifferent sun on the same oblivious street. Jink's emerald suit glow dim on Theodore's wrist, present but not performing. No alien light on Cribbage. The ordinary world, the private choice inside it.
+
+```text
+Painterly illustrated style, rich detail. Medium shot. A Victorian boy of twelve to thirteen crouches beside a recovering middle-aged craftsman on a London pavement, getting an arm under the man to lift him — the boy supporting his master, the power inverted, the one who dismissed him now leaning on him. On the boy's wrist stands a tiny figure in degraded emerald suit, approximately four inches tall, close to his ear, speaking only to him. Beyond them the morning street continues exactly as before — a horse-cart, a woman with a shopping basket, a constable on the far pavement — none of them having seen any of it. The boy looks down the street toward home, not toward the shop, his expression resolved and quiet and suddenly older. Full warm golden morning light, the same indifferent sun on the same oblivious street; the emerald suit glow dim on the wrist, present but not performing; no alien light anywhere on the recovering man. Oil paint texture, visible brushwork, the private choice no one will ever know he made.
+```
+
+---
+
+### PAGE 16 (4 panels)
 
 **Layout:** Full-page splash with 3 inset panels
 
@@ -1221,7 +1303,7 @@ Painterly illustrated style, rich detail. Close-up. A boy's oil-stained fingers 
 
 **Shot:** SPLASH — Theodore holding the dead anchor node, Jink beside him, the street behind them
 **Camera:** 35mm, slightly low angle. Theodore kneeling at the open cabinet, holding the dead anchor node up in front of his face, examining it. The dark crystal catches the morning light — beautiful and inert. Jink stands on the cabinet rim beside Theodore's arm, one hand resting on Theodore's wrist — a tiny figure touching a giant's arm. The scale contrast is enormous: Jink is smaller than Theodore's fist. But they're looking at each other — Theodore down, Jink up — and the looks are equal. Relief. Joy. Partnership. Behind them, the London street continues in morning light, oblivious.
-**Action:** The moment after. Theodore holds the dead device. Jink touches his wrist. They've done it together. The fairy and the boy. The tiny and the enormous. The future and the past.
+**Action:** The moment after. Theodore holds the dead device. Jink touches his wrist. They've done it together. The fairy and the boy. The tiny and the enormous. The future and the past. At the frame's edge, Cribbage now sits, tended, recovering — the freed man propped against the iron, no longer plugged, breathing on his own.
 **Expression:** Theodore: wonder, relief, quiet pride — the boy who saved the mission holding the proof. Jink: a real grin — not reckless, not performance. Genuine. Proud of their friend.
 **Dialogue:**
 - JINK: "You did it."
@@ -1229,7 +1311,7 @@ Painterly illustrated style, rich detail. Close-up. A boy's oil-stained fingers 
 **Lighting:** Full morning light, warm and golden, the best light in the issue. The dead node catches no ambient glow — it's dark crystal, nothing more. Jink's emerald suit glow is the only fairy light in the frame, and it's dim — not needed, not performing. Just present.
 
 ```text
-Painterly illustrated style, rich detail. SPLASH PANEL — slightly low angle. A Victorian boy of twelve to thirteen, lanky pre-teen NOT a young child kneels at an open cast-iron cabinet on a London street, holding up a dark crystalline node — inert, cold, catching the morning light like a strange gem. His hazel eyes examine it with wonder and quiet pride. Beside his arm, standing on the cabinet rim, a tiny figure approximately four inches tall in degraded emerald suit rests one small hand on the boy's enormous wrist. They look at each other — the boy down, the fairy up — with equal relief, equal joy, equal partnership. The scale contrast is enormous: the tiny figure is smaller than the boy's fist. But the emotional weight is identical. Behind them, a London street in full morning light — pedestrians, shop fronts, the oblivious city. The morning light is warm and golden. The dead node catches no alien glow. Jink's emerald suit glow is dim, present but not performing. Oil paint texture, visible brushwork, the fairy and the boy — the moment after.
+Painterly illustrated style, rich detail. SPLASH PANEL — slightly low angle. A Victorian boy of twelve to thirteen, lanky pre-teen NOT a young child kneels at an open cast-iron cabinet on a London street, holding up a dark crystalline node — inert, cold, catching the morning light like a strange gem. His hazel eyes examine it with wonder and quiet pride. Beside his arm, standing on the cabinet rim, a tiny figure approximately four inches tall in degraded emerald suit rests one small hand on the boy's enormous wrist. They look at each other — the boy down, the fairy up — with equal relief, equal joy, equal partnership. The scale contrast is enormous: the tiny figure is smaller than the boy's fist. But the emotional weight is identical. At the edge of the frame, propped and tended against the iron cabinet, a brain-plugged man sits recovering — the plug gone from the nape, head lolling but breathing, surfacing back into himself, unnoticed by the street. Behind them, a London street in full morning light — pedestrians, shop fronts, the oblivious city. The morning light is warm and golden. The dead node catches no alien glow. Jink's emerald suit glow is dim, present but not performing. Oil paint texture, visible brushwork, the fairy and the boy — the moment after.
 ```
 
 ---
@@ -1282,7 +1364,7 @@ Painterly illustrated style, rich detail. Medium shot. A tiny figure in maximum-
 
 ---
 
-### PAGE 16 (4 panels)
+### PAGE 17 (4 panels)
 
 **Layout:** 3-row: full-width / half + narrow / 2-col narrow
 
@@ -1355,7 +1437,7 @@ Painterly illustrated style, rich detail. Close-up. A woman's face watching — 
 
 ---
 
-## SECTION 5: THE REVELATION (Pages 17–19)
+## SECTION 5: THE REVELATION (Pages 18–19)
 
 ### Lighting Baseline
 Blue-violet holographic constellation light dominates. Luma's scanner projects a web of evidence into the air of the church steeple — a three-dimensional constellation of connections rendered in structured blue-violet light. Each node in the constellation represents a piece of the puzzle: fairy glyphs (geometric text, glowing), the church cache (wing-pack and "STAY" rendered as a miniature holographic model), newspaper clippings (the folklorist's pamphlet, "telegraph demon" headlines), Titan device locations, prior operative evidence, and — at the center — a holographic representation of a book, a pamphlet, a story being written. The connections between nodes are rendered as luminous threads. The steeple's stone walls reflect the blue-violet light. Morning light enters through the arches but is secondary — the revelation's light dominates the space. The squad stands within the constellation, surrounded by the evidence, inside the answer.
@@ -1365,197 +1447,152 @@ Luma delivers the synthesis she's been building across eight issues. This is the
 
 ---
 
-### PAGE 17 (5 panels)
+### PAGE 18 (4 panels)
 
-**Layout:** Full-page splash with 4 inset panels
+**Layout:** Splash + full-width footer
 
-*Page layout: SPLASH — one massive panel filling the top half. Four panels in a 2x2 grid across the bottom half.*
+*Page layout: SPLASH — one massive panel filling the top half. Bottom half — two equal panels in the first row, then one full-width footer panel. This is the core revelation.*
 
-#### Panel 1 — SPLASH (top half)
+#### Panel 1 — SPLASH (top half, full width)
 
 **Shot:** Wide — Luma's holographic constellation filling the steeple
-**Camera:** 28mm. The church steeple interior transformed by Luma's projection. A three-dimensional constellation of evidence fills the air — blue-violet holographic nodes connected by luminous threads, rotating slowly in the space between the bell mechanism and the stone arches. The five squad members are positioned within the constellation, surrounded by the evidence. Each node is visible: the fairy glyph from Issue 4. The church cache — a miniature holographic model of the corroded wing-pack and the carved "STAY." Newspaper headlines: "telegraph demon," "mysterious lights," "brownies." James Machen's pamphlet — "The Stories They Tell." Titan device locations. A timeline showing prior operative presence across centuries. And at the center of the constellation, glowing brightest: a holographic representation of a written page — text on paper, the intersection of all the threads.
-**Action:** Luma presents the synthesis. The evidence, visualized. The squad surrounded by the answer.
-**Expression:** (Various, at distance) Luma presenting. Wren skeptical. Jink watching. Thresh still. Sable knowing.
+**Camera:** 28mm. The church steeple interior transformed by Luma's projection. A three-dimensional constellation of evidence fills the air — blue-violet holographic nodes connected by luminous threads, rotating slowly between the bell mechanism and the stone arches. The five squad members stand within the constellation, surrounded by the evidence. Each node visible: the fairy glyph from Issue 4; the church cache (miniature holographic model of the corroded wing-pack and the carved "STAY"); newspaper headlines — "telegraph demon," "mysterious lights," "brownies"; James Machen's pamphlet "The Stories They Tell"; Titan device locations; a timeline of prior operative presence across centuries; and at the center, glowing brightest, a holographic representation of a written page — text on paper, the intersection of all threads.
+**Action:** Luma presents the synthesis. The squad surrounded by the answer. But before she traces a single thread, she pays the price of admission: she names her own bias first, up front, so the squad can weigh everything that follows against it. The self-indictment opens the case; it does not trail it.
+**Expression:** (Various, at distance) Luma presenting — and steeling herself to say the hard thing first; Wren skeptical; Jink watching; Thresh still; Sable knowing.
 **Dialogue:**
-- LUMA: "This is everything. Every glyph. Every trace. Every story. I've mapped them."
-**Lighting:** Blue-violet holographic constellation light filling the steeple, casting structured geometric patterns on the stone walls, the timber beams, the squad's degraded suits. Morning light through the arches is secondary — the constellation is the primary illumination. The five suits catch the blue-violet light differently — each department color responding to the projection with its own accent glow.
+- LUMA: "Before I show you any of this — you need to know I wanted it to be true. I'm the one who wanted to stay. So weigh everything I'm about to say against that. Account for it."
+- LUMA: "Now. This is everything. Every glyph. Every trace. Every story. I've mapped them."
+**Lighting:** Blue-violet holographic constellation light filling the steeple, casting structured geometric patterns on stone, timber, and the squad's degraded suits. Morning light through the arches is secondary. Each of the five suits catches the blue-violet light with its own department-color accent glow.
 
 ```text
-Painterly illustrated style, rich detail. SPLASH PANEL — wide shot. The interior of a Victorian church steeple transformed by a holographic projection — a three-dimensional constellation of evidence fills the air in blue-violet structured light. Luminous nodes connected by glowing threads rotate slowly between the bell mechanism above and the timber beams below. Each node is distinct: geometric fairy glyphs, a miniature holographic model of a corroded wing-pack and the carved word STAY, newspaper headline fragments — TELEGRAPH DEMON, MYSTERIOUS LIGHTS — a pamphlet titled THE STORIES THEY TELL, Titan device locations marked in fading amber-black, and a timeline of prior operative presence across centuries. At the center, glowing brightest, a holographic representation of a written page — text, the intersection of all threads. Five tiny figures in degraded metallic suits — silver, copper, emerald, crimson, sapphire-violet — stand within the constellation, surrounded by the evidence, inside the answer. Blue-violet holographic light fills the steeple, casting structured patterns on stone walls and timber. Morning light through stone arches is secondary. Oil paint texture, visible brushwork, the map of the paradox.
+Painterly illustrated style, rich detail. SPLASH PANEL — wide shot. Interior of a Victorian church steeple transformed by a holographic projection — a three-dimensional constellation of evidence in blue-violet structured light. Luminous nodes joined by glowing threads rotate between the bell mechanism above and timber beams below. Distinct nodes: geometric fairy glyphs, a miniature holographic model of a corroded wing-pack and the carved word STAY, newspaper headline fragments — TELEGRAPH DEMON, MYSTERIOUS LIGHTS — a pamphlet titled THE STORIES THEY TELL, Titan device locations in fading amber-black, a timeline of prior operative presence across centuries. At center, glowing brightest, a holographic written page, the intersection of all threads. Five tiny figures in degraded metallic suits — silver, copper, emerald, crimson, sapphire-violet — stand inside the constellation, inside the answer. Morning light through stone arches secondary. Oil paint texture, visible brushwork, the map of the paradox.
 ```
 
 ---
 
-#### Panel 2 — Half width, bottom left
+#### Panel 2 — Half width, bottom left (first row)
 
-**Shot:** Medium close-up — Luma presenting, pointing to connections
-**Camera:** 50mm. Luma in the constellation, one hand extended, tracing a thread between the glyph node and the church cache node. Her cracked lens catches the blue-violet light. Her expression is rigorous — she's presenting evidence, not making an argument. But the evidence makes the argument for her.
-**Action:** Luma traces the connections. From the glyph to the cache to the operative presence to "STAY."
-**Expression:** Scientific rigor. The precision of someone who knows the evidence must speak for itself.
+**Shot:** Medium close-up — Luma presenting, tracing the threads of the constellation
+**Camera:** 50mm. Luma within the constellation, one hand extended, tracing first the thread between the glyph node and the church-cache node, then sweeping to the newspaper nodes and Machen's pamphlet at the constellation's edge. Her cracked lens catches the blue-violet light. [MERGED WIDE ESTABLISHER: the two former separate constellation-trace panels — old P17 Panel 2 (operatives) and old P17 Panel 3 (stories) — are combined into one wider trace panel. Both Luma dialogue blocks are carried verbatim; only the redundant duplicate establishing camera/Lighting prose of the two near-identical 50mm trace shots is merged.]
+**Action:** Luma traces the connections — from glyph to cache to operative presence to "STAY," then on to the stories that followed. The rigor cracks slightly as the weight reaches her own conviction.
+**Expression:** Scientific rigor giving way to conviction — the precision of someone letting the evidence speak, then feeling it land in herself.
 **Dialogue:**
 - LUMA: "Prior operatives — at least three deployments over centuries. Each one carved glyphs. Each one left technology behind. Each one stayed. They didn't fail to leave. They chose to stay."
-**Lighting:** Blue-violet constellation light on her face and hands. The thread she traces glows brighter at her touch.
-
-```text
-Painterly illustrated style, rich detail. Medium close-up. A tiny figure in degraded sapphire-violet suit stands within a holographic constellation, one hand extended, tracing a glowing thread between two luminous nodes — fairy glyphs and a miniature model of a church cache. South Asian features, warm brown skin, dark long braided hair in one thick braid, NOT loose with luminous filament, one holographic lens cracked, the other scrolling data. Expression is scientific rigor — presenting evidence, not argument. The thread she traces brightens at her touch. Blue-violet holographic light on her face and hands. Oil paint texture, visible brushwork, the evidence speaking.
-```
-
----
-
-#### Panel 3 — Half width, bottom right
-
-**Shot:** Medium close-up — Luma tracing the second thread
-**Camera:** 50mm. Luma traces another connection — from the church cache to the newspaper nodes. The holographic newspaper fragments glow: "brownies," "mysterious lights," "dancing figures on the rooftops." The folklore. The fairy tales. Written down. Published. Made permanent by James Machen's pamphlet at the constellation's edge.
-**Action:** The second connection. The operatives weren't just here — they were seen. And the stories about them were written down. And those stories persisted.
-**Expression:** The rigor cracking slightly — the weight of what she's saying reaching her own conviction.
-**Dialogue:**
 - LUMA: "And everywhere they went, stories followed. Humans saw them. Told stories about them. Published them. The fairy tales aren't incidental. They're the record. They're what persists."
-**Lighting:** Blue-violet constellation light. The newspaper nodes glowing brighter as she indicates them.
+**Lighting:** Blue-violet constellation light on her face and hands. The threads she traces brighten at her touch — first the glyph-to-cache thread, then the newspaper nodes glowing as she sweeps to them.
 
 ```text
-Painterly illustrated style, rich detail. Medium close-up. The same figure traces a second thread in the holographic constellation — from a miniature church cache model to floating newspaper headline fragments: BROWNIES SEEN, MYSTERIOUS LIGHTS, DANCING FIGURES ON ROOFTOPS. At the edge of the constellation, a holographic pamphlet glows — THE STORIES THEY TELL. The figure's expression shifts — the scientific rigor cracking as the weight of the thesis reaches her own conviction. Blue-violet light brightens on the newspaper nodes as she indicates them. Oil paint texture, visible brushwork, the stories that persisted.
+Painterly illustrated style, rich detail. Medium close-up. A tiny figure in degraded sapphire-violet suit stands within a holographic constellation, one hand extended, tracing a glowing thread between two luminous nodes — fairy glyphs and a miniature church-cache model — then sweeping toward floating newspaper headline fragments: BROWNIES SEEN, MYSTERIOUS LIGHTS, DANCING FIGURES ON ROOFTOPS, and a glowing pamphlet THE STORIES THEY TELL at the edge. South Asian features, warm brown skin, one thick dark braid, one holographic lens cracked, the other scrolling data. Expression shifts from scientific rigor to conviction as the thesis reaches her. Threads brighten at her touch. Blue-violet light on face and hands. Oil paint texture, visible brushwork, the evidence speaking and the stories that persisted.
 ```
 
 ---
 
-#### Panel 4 — Half width, bottom left (second row)
+#### Panel 3 — Half width, bottom right (first row)
 
 **Shot:** Medium shot — Wren's pushback
-**Camera:** 50mm. Wren, arms crossed, standing in the constellation with skepticism on her face. She's the engineer — she deals in systems, not stories. The constellation's threads reflect in her copper-gold suit accents.
-**Action:** Wren pushes back. The practical mind resisting the poetic conclusion.
-**Expression:** Skepticism. "Convince me with data, not narrative."
+**Camera:** 50mm. Wren, arms crossed, standing in the constellation with skepticism on her East Asian features. The engineer who deals in systems, not stories. The constellation's threads reflect in her copper-gold suit accents — including the telegraph nodes, Titan device locations, and data-flow patterns she helped prove, all leading back to the central written-page node.
+**Action:** Wren pushes back — the practical mind resisting the poetic conclusion. Luma rebuts, tying the Titan-device plot directly to the medium-shapes-message thesis.
+**Expression:** Wren — skepticism, "convince me with data, not narrative." Luma — steady, turning Wren's own proof against her.
 **Dialogue:**
 - WREN: "Stories don't build civilizations, Luma. Technology does. Infrastructure. The telegraph doesn't care about fairy tales."
 - LUMA: "The telegraph carries information that shapes what people believe. You proved that yourself — the Titan devices were steering human development through the stories the telegraph transmitted. The medium shapes the message. The message shapes the civilization."
-**Lighting:** Blue-violet constellation reflected in Wren's copper-gold suit accents. The constellation thread between "telegraph" and "stories" brightens.
+**Lighting:** Blue-violet constellation reflected in Wren's copper-gold suit accents. The constellation thread between the "telegraph" node and the "stories" node brightens as Luma names it.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot. A tiny figure in maximum-degradation copper suit stands in a holographic constellation with arms crossed, skepticism on her East Asian features. The constellation's blue-violet threads reflect in her copper-gold suit accents. She is the engineer, unconvinced by narrative — demanding data, not poetry. The constellation around her shows the connections she helped prove — telegraph nodes, Titan device locations, data flow patterns — all leading back to the central written-page node. Oil paint texture, visible brushwork, the skeptic inside the evidence.
+Painterly illustrated style, rich detail. Medium shot. A tiny figure in maximum-degradation copper suit stands in a holographic constellation, arms crossed, skepticism on her East Asian features. Blue-violet threads reflect in copper-gold accents. The engineer, unconvinced by narrative, demanding data. Around her the connections she helped prove — telegraph nodes, Titan device locations, data-flow patterns — all leading back to the central written-page node, the thread between telegraph and stories brightening. Oil paint texture, visible brushwork, the skeptic inside the evidence.
 ```
 
 ---
 
-#### Panel 5 — Half width, bottom right (second row)
+#### Panel 4 — Full width, bottom (footer)
 
-**Shot:** Medium shot — Jink's realization
-**Camera:** 50mm. Jink in the constellation, looking at the threads connecting their own presence — the sightings, the stories, Theodore — to the mythology nodes. Jink sees it. The scout who treated the past as an adventure understanding that the adventure IS the mission.
-**Action:** Jink understands. The reckless one seeing the purpose behind the chaos.
-**Expression:** A new kind of grin — not reckless, not performed. Understanding. "So we're not stuck here."
+**Shot:** Wide — Jink's realization and the core thesis converging, the squad in the constellation
+**Camera:** 28mm. The full steeple, wide. The constellation fills the upper space; the five squad members stand within it. Jink looks at the threads connecting their own presence — the sightings, the stories, Theodore — to the mythology nodes; the scout who treated the past as an adventure understanding the adventure IS the mission. Beside the glowing written-page node, Luma delivers the core revelation, scanner trembling, the holographic word "STAY" luminous in geometric fairy script nearby.
+**Action:** Jink understands; Luma names the intervention. The convergence point made plain — not technological, narrative.
+**Expression:** Jink — a new grin, not reckless but understanding. Luma — conviction held alongside doubt, the honest scientist who knows she wants this to be true and presents it anyway.
 **Dialogue:**
 - JINK: "So we're not stuck here. We're needed here."
-**Lighting:** Emerald suit accents catching the blue-violet constellation light. The thread connecting Jink's sighting reports to Theodore's stories to the published mythology — bright.
+- LUMA: "The convergence point isn't technological. It's narrative. What humanity believes about the unknown — about fairies, about monsters, about wonder and fear — shapes the civilization they become. Those beliefs are set here, now, in these stories. Our stories. The mission isn't to change an event. The mission is to be here. To be the fairies in the fairy tales. To be what they see. That's the intervention. That's what 'STAY' means."
+**Lighting:** Blue-violet constellation centered on the written-page node, which glows brightest beside Luma. Emerald accents catch the light on Jink; the holographic "STAY" glows in geometric fairy script.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot. A tiny figure in degraded emerald suit stands in a holographic constellation, looking at the luminous threads connecting their own presence — sighting reports, a boy's stories, the published mythology — with a new expression. Not the reckless grin. Not the scared determination. Understanding. The scout who loved the adventure seeing that the adventure was always the point. Wild golden blonde curly hair catches the blue-violet light. Emerald suit accents glow. The threads around them brighten. Oil paint texture, visible brushwork, the purpose found.
+Painterly illustrated style, rich detail. Wide shot. Interior of a Victorian church steeple filled with a blue-violet holographic constellation among bell mechanism and timber beams. Five tiny figures in degraded metallic suits — silver, copper, emerald, crimson, sapphire-violet — stand within it. One in emerald, wild golden-blonde curly hair catching the light, looks up at threads joining sighting reports, a boy's stories, and published mythology, understanding. At center a sapphire-violet figure stands beside the brightest node — a holographic written page — one hand raised, a scanner trembling in the other; near her the word STAY glows in geometric fairy script, ancient and luminous. The constellation converges on the page, the stories, the belief. Oil paint texture, visible brushwork, the answer found and the purpose named.
 ```
 
 ---
 
-### PAGE 18 (4 panels)
+### PAGE 19 (4 panels)
 
-**Layout:** 2-col top + full-width footer
+**Layout:** 2-col top + 2-row footer
 
-*Page layout: Top — two equal panels. Bottom — one full-width panel spanning the page. This is the core revelation.*
+*Page layout: Top — two equal panels. Bottom — one full-width strip, then a split footer row (wide left, narrow right). Quiet transition from revelation to acknowledgment.*
 
 #### Panel 1 — Half width, top left
 
-**Shot:** Medium close-up — Luma delivers the thesis
-**Camera:** 50mm. Luma at the center of the constellation, beside the glowing written-page node. She speaks with the precision of a scientist and the shaking hands of someone who knows she might be describing her own desire as evidence. She acknowledges the bias. She presents anyway.
-**Action:** The core revelation. Luma says what the evidence demands.
-**Expression:** Conviction held alongside doubt. The honest scientist's face — "I believe this, and I know I want to believe it, and the evidence supports it regardless."
+**Shot:** Medium shot — Thresh's response
+**Camera:** 50mm. Thresh in the constellation, her battered crimson armor catching the blue-violet light, looking at the constellation, then the squad, then her own scarred hands. The soldier who was brave in the future and terrified in the past — who fought afraid. Her response is not intellectual; it's lived.
+**Action:** Thresh responds — not with analysis, with honesty.
+**Expression:** The weight of what staying means for someone afraid every day in this world, and the choice to stay anyway — the same face she wore in combat, applied to a larger decision.
 **Dialogue:**
-- LUMA: "The convergence point isn't technological. It's narrative. What humanity believes about the unknown — about fairies, about monsters, about wonder and fear — shapes the civilization they become. Those beliefs are set here, now, in these stories. Our stories. The mission isn't to change an event. The mission is to be here. To be the fairies in the fairy tales. To be what they see. That's the intervention. That's what 'STAY' means."
-**Lighting:** Blue-violet constellation light, centered. The written-page node glowing brightest beside her. The holographic word "STAY" visible in the constellation, geometric fairy script, ancient and luminous.
+- THRESH: "I don't want to stay." (A beat.) "I'll stay."
+**Lighting:** Blue-violet constellation light on her crimson armor, creating a purple-red interference pattern across the dented plates. Her face in the mixed light.
 
 ```text
-Painterly illustrated style, rich detail. Medium close-up. A tiny figure in degraded sapphire-violet suit stands at the center of a holographic constellation, beside a glowing node — a holographic representation of a written page, text visible, the brightest node in the web. One hand is raised, the other holds a scanner that trembles. Her expression is conviction held alongside doubt — the honest scientist presenting a thesis she cannot separate from her desire for it to be true. Near her, in the constellation, the holographic word STAY glows in geometric fairy script — ancient, luminous, carved into virtual brick. Blue-violet light from every direction. The constellation converges on this point — the written page, the stories, the belief. Oil paint texture, visible brushwork, the answer.
+Painterly illustrated style, rich detail. Medium shot. A tiny figure in maximum-degradation crimson armor stands in a holographic constellation, looking at her own scarred hands — dented gauntlets, gouged vambrace, the hands that shook and held the weapon anyway. Pale skin, copper-red buzz cut, the face of someone who has lived with fear and is choosing to keep living with it. Blue-violet light on the crimson armor makes a purple-red interference pattern. The hardest kind of courage — not adrenaline but the quiet decision to endure. Oil paint texture, visible brushwork, the soldier who will stay afraid.
 ```
 
 ---
 
 #### Panel 2 — Half width, top right
 
-**Shot:** Medium shot — Thresh's response
-**Camera:** 50mm. Thresh in the constellation, her battered crimson armor catching the blue-violet light. She looks at the constellation, then at the squad, then at her own scarred hands. The soldier who was brave in the future and terrified in the past. The one who fought afraid. Her response is not intellectual — it's lived.
-**Action:** Thresh responds. Not with analysis. With honesty.
-**Expression:** The weight of what staying means — for someone who is afraid every day in this world. And the choice to stay anyway. The same face she wore in combat, applied to a larger decision.
-**Dialogue:**
-- THRESH: "I don't want to stay." (A beat.) "I'll stay."
-**Lighting:** Blue-violet constellation light on her crimson armor, creating a purple-red interference pattern. Her face in the mixed light.
-
-```text
-Painterly illustrated style, rich detail. Medium shot. A tiny figure in maximum-degradation crimson armor stands in a holographic constellation, looking at her own scarred hands — dented gauntlets, gouged vambrace, the hands that shook and held the weapon anyway. Pale skin, copper-red buzz cut, the face of someone who has lived with fear for twelve issues and is choosing to keep living with it. Blue-violet constellation light on the crimson armor creates a purple-red interference pattern across the dented plates. Her expression is the hardest kind of courage — not the adrenaline of combat but the quiet decision to endure. Oil paint texture, visible brushwork, the soldier who will stay afraid.
-```
-
----
-
-#### Panel 3 — Full width, bottom
-
-**Shot:** Wide — the squad in the constellation, the city below
-**Camera:** 28mm. The full steeple, wide. The constellation fills the upper space. The five squad members are visible within it — five battered figures in five colors of degraded armor, standing in a web of luminous evidence that explains their existence. Through the stone arches of the steeple, the Victorian city is visible below — rooftops, chimneys, telegraph lines, the gaslit sprawl of a city that is already telling stories about fairies and monsters. The fairy tales are out there. The squad is in here. The constellation connects the two.
-**Action:** The full picture. The squad inside the answer. The city outside that carries the stories.
-**Expression:** (At distance) Five people understanding what they are.
+**Shot:** Medium shot — Wren's reluctant acceptance, the city beyond the arches
+**Camera:** 50mm. Wren in the constellation, looking from the luminous threads out through the stone arches to the Victorian city below — rooftops, chimneys, telegraph lines, the gaslit sprawl already telling stories about fairies and monsters. The fairy tales are out there; the squad is in here; the constellation connects the two.
+**Action:** Wren follows the logic to its end and concedes — the engineer accepting the narrative she resisted. Luma answers with exhaustion and grace.
+**Expression:** Wren — reluctant acceptance, the discomfort of a proof she cannot break. Luma — a small, exhausted smile.
 **Dialogue:**
 - WREN (quiet, looking at the constellation, then at the city): "The telegraph carries stories. Stories shape beliefs. Beliefs shape civilizations." (A pause.) "I hate that this makes sense."
 - LUMA (a small, exhausted smile): "I know."
-**Lighting:** Blue-violet constellation inside the steeple, warm amber morning light from the city outside through the arches. The two light sources — future holographic and past gaslight — coexisting. Neither dominating. The visual language of the series, summarized in one frame.
+**Lighting:** Blue-violet constellation inside the steeple; warm amber morning light from the city outside through the arches. The two light sources — future holographic and past gaslight — coexisting, neither dominating. The visual language of the series in one frame.
 
 ```text
-Painterly illustrated style, rich detail. Wide shot. The interior of a Victorian church steeple filled with a blue-violet holographic constellation — luminous nodes and threads floating among the bell mechanism and timber beams. Five tiny figures in degraded metallic suits — silver, copper, emerald, crimson, sapphire-violet — stand within the constellation, five colors of light bleeding through grime. Through the stone arches, the Victorian city stretches below — rooftops, chimneys, telegraph lines, the gaslit sprawl of London in morning light. Blue-violet holographic light inside the steeple. Warm amber morning light from the city outside through the arches. The two light sources coexist — future and past, holographic and gaslight, cool and warm — neither dominating. Five people inside the answer, the city that carries the stories outside. Oil paint texture, visible brushwork, the convergence.
+Painterly illustrated style, rich detail. Medium shot. A tiny figure in maximum-degradation copper suit stands inside a blue-violet holographic constellation, turning to look out through stone arches at a Victorian city below — rooftops, chimneys, telegraph lines, gaslit London in morning light. East Asian features, reluctant acceptance. Blue-violet holographic light inside; warm amber morning light outside through the arches; the two coexist, future and past, cool and warm, neither dominating. Beside her a sapphire-violet figure gives a small exhausted smile. Oil paint texture, visible brushwork, the convergence conceded.
 ```
 
 ---
 
-### PAGE 19 (3 panels)
+#### Panel 3 — Full width, bottom (footer, upper strip within footer)
 
-**Layout:** 2-row: full-width / 2-col narrow
-
-*Page layout: One full-width panel top. Two panels bottom (wide left, narrow right). Quiet transition from revelation to acknowledgment.*
-
-#### Panel 1 — Full width
-
-**Shot:** Medium wide — Luma closing the constellation, the evidence settling
-**Camera:** 35mm. Luma gestures and the constellation dims — the nodes and threads contracting, the blue-violet light fading. The evidence has been presented. The constellation settles into her scanner like a star field collapsing into a device. The steeple returns to morning light — stone, timber, the bell mechanism, the city below. The holographic vision is gone. But the understanding remains.
-**Action:** Luma closes the presentation. The evidence is given. The decision belongs to Sable.
-**Expression:** Luma: the exhaustion of delivery. She's said it. She believes it. She's afraid of it.
+**Shot:** Medium wide — Luma closing the constellation, then five soldiers in morning light
+**Camera:** 35mm. Luma gestures and the constellation dims — nodes and threads contracting, blue-violet light fading, the star-field collapsing into the scanner in her hand. The steeple returns to morning light — stone, timber, bell mechanism, the city below. The holographic vision is gone, but the understanding remains. The other four watch the evidence settle; the decision now belongs to Sable.
+**Action:** Luma closes the presentation. The evidence is given. She names her own bias honestly and Wren marks it.
+**Expression:** Luma — the exhaustion of delivery; she's said it, she believes it, she's afraid of it. Wren — quiet recognition of honesty.
 **Dialogue:**
 - LUMA: "I can't separate my analysis from my desire to stay. I know that. I've tried. The evidence is the evidence. The bias is the bias. Both exist."
 - WREN (quiet): "That's the most honest thing anyone's said on this mission."
-**Lighting:** Blue-violet fading. Morning light reasserting itself — warm amber through the arches. The steeple returns to its natural state.
+**Lighting:** Blue-violet fading; morning light reasserting itself — warm amber through the arches. The steeple returns to its natural state.
 
 ```text
-Painterly illustrated style, rich detail. Medium wide shot. A tiny figure in sapphire-violet suit gestures and a blue-violet holographic constellation dims — luminous nodes and threads contracting, collapsing into a small scanner device in her hand. The church steeple returns to morning light — stone walls, timber beams, the bell mechanism above, warm amber light through the arches. The other four figures watch the constellation fade — the evidence given, the vision dissolving. The steeple is just a steeple again. But the people in it are different. Blue-violet light fading. Warm morning amber returning. Oil paint texture, visible brushwork, the vision given.
+Painterly illustrated style, rich detail. Medium wide shot. A tiny figure in sapphire-violet suit gestures and a blue-violet holographic constellation dims — luminous nodes and threads contracting, collapsing into a small scanner in her hand. The church steeple returns to morning light — stone walls, timber beams, bell mechanism above, warm amber through the arches. The other four figures watch the constellation fade, the evidence given, the vision dissolving. The steeple is just a steeple again, but the people in it are different. Blue-violet fading, warm morning amber returning. Oil paint texture, visible brushwork, the vision given.
 ```
 
 ---
 
-#### Panel 2 — Wide, left (two-thirds width)
+#### Panel 4 — Half width left + narrow right (split footer row)
 
-**Shot:** Medium shot — the squad looking at each other
-**Camera:** 50mm. The five squad members, standing on the steeple beams in morning light, their degraded suits catching the warm amber. They look at each other. No constellation. No holographic evidence. Just five battered soldiers in a church bell tower, understanding what they are. The light through grime. The future consumed by the past, not extinguished.
-**Action:** The quiet moment. Five people who know.
-**Expression:** (Various) Luma: exhausted honesty. Wren: reluctant acceptance. Jink: quiet purpose. Thresh: afraid and choosing. Sable: watching all of them.
+[LEGITIMATE WIDE-MERGE of two quiet beats into one footer row: the wordless "five who know" group beat and Theodore's upward look share one row, both wordless, neither dialogue line touched.]
+
+**Shot:** LEFT (two-thirds width) — Medium shot, the squad looking at each other, no constellation. RIGHT (one-third width) — Close-up, Theodore's face through the stone window gap below the steeple, looking up.
+**Camera:** LEFT 50mm — five squad members on the steeple beams in morning light, degraded suits catching warm amber — silver, copper, emerald, crimson, sapphire-violet, light bleeding through grime. They look at each other: no holographic evidence, just five battered soldiers in a bell tower understanding what they are. The future consumed by the past, not extinguished. RIGHT 85mm — Theodore couldn't hear the revelation; he can see their faces; he sees something has changed and doesn't yet understand it. He will — when he writes it down.
+**Action:** LEFT — the squad, no projection, five people who know. RIGHT — Theodore watching, the boy who will tell the story not yet knowing that's his role.
+**Expression:** LEFT (Various) Luma — exhausted honesty; Wren — reluctant acceptance; Jink — quiet purpose; Thresh — afraid and choosing; Sable — watching all of them. RIGHT — a boy seeing his friends differently — more real, more necessary, more like the stories he grew up hearing.
 **Dialogue:** None.
-**Lighting:** Morning light through the arches. Five department colors bleeding through grime — silver, copper, emerald, crimson, sapphire-violet. The degradation arc at its peak, the beauty at its deepest.
+**Lighting:** Morning light through the arches across the five; warm amber on Theodore's face from outside with the faintest holographic glow from above, filtered through stone — the degradation arc at its peak, the beauty at its deepest.
 
 ```text
-Painterly illustrated style, rich detail. Medium shot. Five tiny figures in maximum-degradation metallic suits stand on timber beams inside a church steeple in morning light. Silver, copper, emerald, crimson, sapphire-violet — each suit heavily damaged, soot-covered, improvised repairs visible, but holographic light still bleeds through the grime at joints, seams, and nodes in five department colors. They look at each other — no holographic displays, no evidence, no projection. Just five people who know what they are now. Morning light through stone arches catches the grime and the light beneath it. The degradation arc at its peak, the beauty at its deepest. Oil paint texture, visible brushwork, the fairy tales they always were.
+Painterly illustrated style, rich detail. Left: five tiny figures in maximum-degradation metallic suits — silver, copper, emerald, crimson, sapphire-violet — stand on timber beams inside a church steeple in morning light, each suit heavily damaged and soot-covered yet holographic light still bleeds through the grime in five department colors; they look at each other, no displays, no projection, five people who know what they are now. Right: a Victorian boy's face looking upward through a stone window gap — sandy-brown hair, hazel eyes wide, freckles — seeing tiny figures in colored light too far to make out clearly, seeing his friends differently. Morning light through stone arches; the faintest holographic glow filtered through stone. Oil paint texture, visible brushwork, the fairy tales they always were and the witness who will write the story.
 ```
 
 ---
-
-#### Panel 3 — Narrow, right (one-third width)
-
-**Shot:** Close-up — Theodore's face, looking up from below
-**Camera:** 85mm. Theodore's face through the stone window gap below the steeple — looking up at the squad. He couldn't hear the revelation. He can see their faces. He sees something has changed. He doesn't understand what — not yet. He will. When he writes it down.
-**Action:** Theodore watching. The boy who will tell the story, not yet knowing that's his role.
-**Expression:** The face of a boy looking at his friends and seeing them differently — more real, more necessary, more like the stories he grew up hearing.
-**Dialogue:** None.
-**Lighting:** Morning light on Theodore's face from outside. The faintest holographic glow from above — the squad's light, filtered through stone.
-
-```text
-Painterly illustrated style, rich detail. Close-up. A Victorian boy's face looking upward through a stone window gap — sandy-brown hair, hazel eyes wide, freckles. He is looking up at something above him that he cannot fully see — tiny figures in colored light, too far and too small to make out clearly, but present. His expression is a boy seeing his friends differently — not understanding the change, but feeling it. Morning light on his face from the side. The faintest holographic glow from above, filtered through stone. Oil paint texture, visible brushwork, the witness who will write the story.
 ```
 
 ---
@@ -1566,7 +1603,7 @@ Painterly illustrated style, rich detail. Close-up. A Victorian boy's face looki
 Morning light — warm amber-gold — dominant. This is the simplest lighting in the issue. No holographic displays. No tactical projections. No constellation. Just morning light on five battered soldiers and the suits they've worn through twelve issues of soot, combat, and adaptation. The holographic elements on the suits glow through the grime — present, enduring, but secondary to the warm light. The warm light wins. But the cool light is still there, bleeding through, not extinguished.
 
 ### Scene Setup
-Sable's response to the revelation. This is not a speech. This is not a command. This is a look. The commander who held the secret, carried the file, made the decisions, sent the boy — she looks at her squad and sees what they've become. They are fairy tales. Soot-covered, light-bleeding, improvised-repair fairy tales. They always were.
+Sable's response to the revelation, in three movements. First she *comes down* — for the whole volume she has commanded from above and apart, and the last high vantage is this steeple; now she leaves it and descends to stand among the squad instead of over them. On the way down the framing rhymes the very first image of the volume — Sable at the edge of a rain gutter, four inches tall, the gaslit city sprawling to the horizon — but the meaning is inverted: the city that was an enormous trap is now the place she is choosing. The journey ends where it began, on the same threshold, crossed the other way. Then she gives her first order in the new mode — command by sharing the truth instead of guarding it: the ship is no longer the way out, it is the camp's power source; the mission is no longer extraction, it is *this*. And only then the look, the acceptance, the smallest nod. They are fairy tales. Soot-covered, light-bleeding, improvised-repair, now battle-wounded fairy tales. They always were.
 
 ---
 
@@ -1579,30 +1616,31 @@ Sable's response to the revelation. This is not a speech. This is not a command.
 #### Panel 1 — Full width, top (half page)
 
 **Shot:** Wide — Sable looking at her squad, all of them visible
-**Camera:** 28mm, from slightly behind and beside Sable. Over her shoulder, we see the squad on the steeple beams — Wren sitting, Jink perched on a higher beam with one leg dangling, Thresh standing with arms crossed, Luma leaning against the bell mechanism. They are battered. They are soot-covered. They are damaged, patched, improvised, degraded. And holographic light still bleeds through the grime in five colors — copper-gold at Wren's joints, emerald at Jink's wing-pack seams, crimson at Thresh's armor edges, blue-violet at Luma's collar. They look like fairy tales. Not the pristine, polished beings they were in Issue 1. Something better. Something that has been through the dark and still carries light.
+**Camera:** 28mm, from slightly behind and beside Sable. Over her shoulder, we see the squad on the steeple beams — Wren sitting, Jink perched on a higher beam with one leg dangling, Luma leaning against the bell mechanism. And Thresh, no longer standing tall: seated low against a beam, one arm bound across the chest in an improvised sling, the shattered wing-pack gone from their back, Luma's field-dressing visible at the shoulder. They are battered. They are soot-covered. They are damaged, patched, improvised, degraded — and one of them is freshly, permanently wounded. Holographic light still bleeds through the grime in five colors — copper-gold at Wren's joints, emerald at Jink's wing-pack seams, blue-violet at Luma's collar, crimson at Thresh's armor edges — but Thresh's wing-pack seams are dark now, two of the five lights diminished. They look like fairy tales. Not the pristine, polished beings they were in Issue 1. Something better. Something that has been through the dark, paid for it, and still carries light.
 **Action:** Sable looks at them. That's the action. That's the scene. The commander seeing her squad for what they are.
 **Expression:** (Sable from behind — posture, not face) The stillness of recognition. (Squad: unguarded, tired, real)
 **Dialogue:** None.
 **Lighting:** Morning light through the arches, warm amber. Five holographic accent colors bleeding through damaged suits. No other light sources. The simplicity IS the point.
 
 ```text
-Painterly illustrated style, rich detail. Wide shot from slightly behind and beside a tiny figure in pewter-dark degraded silver suit — over her shoulder, we see four other tiny figures on church steeple beams in morning light. One in near-brown copper sits with tools in her lap. One in soot-streaked emerald perches on a higher beam, one leg dangling. One in battered crimson stands with arms crossed. One in scuffed sapphire-violet leans against the bell mechanism. All are heavily degraded — soot, damage, improvised repairs, the cumulative ruin of twelve issues — but holographic light bleeds through the grime at joints, seams, and nodes. Copper-gold, emerald, crimson, blue-violet — four colors of light through four suits of damage. They look like fairy tales. Not pristine. Not polished. Something that has been through the dark and still carries light. Morning amber through the stone arches. The simplicity. The beauty. Oil paint texture, visible brushwork, the commander seeing what they are.
+Painterly illustrated style, rich detail. Wide shot from slightly behind and beside a tiny figure in pewter-dark degraded silver suit — over her shoulder, we see four other tiny figures on church steeple beams in morning light. One in near-brown copper sits with tools in her lap. One in soot-streaked emerald perches on a higher beam, one leg dangling. One in scuffed sapphire-violet leans against the bell mechanism. And one in battered crimson sits low against a beam, one arm bound across the chest in an improvised sling, the back where a wing-pack should mount now bare and dark, a field-dressing at the shoulder. All are heavily degraded — soot, damage, improvised repairs, the cumulative ruin of twelve issues — and one is freshly, permanently wounded. Holographic light bleeds through the grime at joints, seams, and nodes — copper-gold, emerald, blue-violet, crimson — but the crimson figure's wing-pack seams are dark, the light noticeably lessened on the wounded one. They look like fairy tales. Not pristine. Not polished. Something that has been through the dark, paid for it, and still carries light. Morning amber through the stone arches. The simplicity. The beauty. Oil paint texture, visible brushwork, the commander seeing what they are.
 ```
 
 ---
 
 #### Panel 2 — Full width, middle (one-third page)
 
-**Shot:** Medium close-up — Sable's face
-**Camera:** 50mm. Sable's face in morning light. Dark brown skin, silver-white hair, the pewter-dark suit at her collar. Her expression is not command. Not authority. Not the burden-carrier. It is recognition. Understanding. Acceptance. A nod — small, almost imperceptible. Not agreement with a plan. Agreement with a truth. They are what the stories say. They always were.
-**Action:** Sable nods. The smallest gesture. The largest acknowledgment.
-**Expression:** The face of a woman setting down the last weight she carried alone. Not relieved — resolved. The commander who learned that command doesn't mean control. It means choosing what to carry.
+**Shot:** Two-beat panel — Sable descending (rhyming Issue 1), then her command among the squad
+**Camera:** 50mm, but composed in two registers. Foreground/inset: Sable at the lip of a steeple ledge, about to climb down — and the composition deliberately rhymes the final panel of Issue 1: a small silver figure at the edge of a drop, the gaslit-turning-sunlit Victorian city sprawling to the horizon behind her. Same shot, opposite meaning — in Issue 1 the city was the enormous trap she'd fallen into; here it is the place she is choosing to stay. Then the main register: Sable down on the beam among the squad, no longer above them, giving the order. Her face is not command-as-authority — it is command-as-shared-truth. The burden-carrier setting the burden down by handing the truth around.
+**Action:** Sable comes down off the high vantage and stands among them. Before she speaks, she finds Wren's eye — Wren, the one who read her system in Issue 9 and named what she was hiding — and for a held beat she does not manage the look. She lets Wren see her: not the commander, not the burden-carrier, just Sable, unguarded. The information wall came down at Issue 9; this is the emotional wall coming down, the second half of the same surrender. Then she gives her first order in the new mode — re-tasking the squad from extraction to permanence. Then the nod. The smallest gesture, the largest acknowledgment.
+**Expression:** The face of a woman setting down the last weight she carried alone — and, in the held beat with Wren, letting herself be seen carrying nothing. Not relieved — resolved. The commander who learned that command doesn't mean control. It means choosing what to carry, and whom to carry it with — and letting them see you when you set it down.
 **Dialogue:**
+- SABLE (quiet, even — the briefing cadence from Issue 1, inverted): "New orders. The ship isn't our way out anymore — it's our power. Luma, the mythology is the mission now; map all of it. We're not getting home." (beat) "We're already there."
 - SABLE (barely above a whisper): "Then we stay."
-**Lighting:** Morning light, warm amber-gold, on her dark brown skin and silver-white hair. The blue-white holographic accent at her collar — faint, steady, enduring through the grime.
+**Lighting:** Morning light, warm amber-gold. In the inset descent, the cool gaslight-blue of the wider city behind her — the dual-lighting motif one last time. On the beam, the blue-white holographic accent at her collar, faint, steady, enduring through the grime.
 
 ```text
-Painterly illustrated style, rich detail. Medium close-up. A woman's face in morning light — dark brown skin, sharp angular features, very short military-cropped silver-white hair, almost buzz-cut length, NOT long or flowing catching the warm amber-gold. Her pewter-dark degraded silver suit is visible at the collar, blue-white holographic accent glowing faintly through the soot. Her expression is not command or authority — it is recognition, acceptance, the setting down of a weight carried alone. A nod, almost imperceptible. The face of someone who has arrived at a truth she's been circling for twelve issues. Morning amber-gold on her skin. The faintest blue-white glow at her collar. Oil paint texture, visible brushwork, then we stay.
+Painterly illustrated style, rich detail. A two-register composition. Inset (or foreground): a tiny figure in pewter-dark degraded silver suit stands at the lip of a church-steeple ledge, about to climb down, silhouetted against a vast Victorian city stretching to the horizon under morning light edged with the last of the gaslit blue — the composition deliberately echoing a lone four-inch figure at the edge of a great drop above an enormous city. Main register: the same figure now lower, among four other tiny battered figures on the steeple beams, no longer above them but level with them — and held in a direct, unguarded look with the copper-suited figure (Wren), eye to eye, her face open and unmanaged for once, letting Wren see her plainly before she speaks. One hand mid-gesture — giving an order by sharing it, not declaring it. Dark brown skin, sharp angular features, very short military-cropped silver-white hair almost buzz-cut length, NOT long or flowing, catching warm amber-gold. Blue-white holographic accent glowing faintly at her collar through the soot. Her expression is recognition and resolve — the setting down of a weight carried alone, and the rarer thing of letting herself be seen setting it down. Morning amber-gold and a thread of cool city-blue behind. Oil paint texture, visible brushwork, the captain who came down — then we stay.
 ```
 
 ---
@@ -1611,13 +1649,13 @@ Painterly illustrated style, rich detail. Medium close-up. A woman's face in mor
 
 **Shot:** Extreme wide — the steeple from outside, the city stretching below
 **Camera:** 24mm. The church steeple from the exterior — stone, brick, the bell housing, the morning sky above. At the top, through the arches, the faintest points of colored light are visible — exactly five tiny figures, no other people, too small to see, their holographic glow the only evidence they exist. Below, the Victorian city stretches in every direction — rooftops, chimneys, telegraph lines, the gaslit-turning-sunlit sprawl of London. The city that is already telling stories about them. The city that will tell those stories for centuries.
-**Action:** Pull back. The steeple. The city. The five lights too small to see. The stories already spreading through the streets below. The wide view that is both geographical and temporal — this is where the fairy tales begin, and this is the city they will echo through for centuries.
-**Expression:** N/A (architectural — the steeple and city as closing image for the revelation)
+**Action:** Pull back. The steeple. The city. The five lights too small to see. The stories already spreading through the streets below. But before the camera leaves them entirely, one small foreground beat at the arch: Luma — the scientist who has watched 1885 through a scanner and a pair of gold diagnostic lenses for twelve issues — lowers the forearm scanner to her side and lets the lenses go dark. For the first time there is nothing between her and the city. She does not raise an instrument to it. She just looks. The one who was most tempted to stay, and could never be sure her synthesis wasn't the wanting talking, chooses the world unmediated — uncertified, undefended, no readout to hide behind. Not serene arrival. A choice made while the doubt is still unresolved.
+**Expression:** Luma — the gold lenses dimming to nothing across her eyes; not triumph, not relief; the quiet of someone setting down the instrument that justified the fascination AND certified the evidence, and meeting the thing itself bare. (The other four too small to read at this distance.)
 **Dialogue:** None.
-**Lighting:** Morning light across the city. The faintest holographic glow — five colors — inside the steeple arches. The city warm. The lights small. The stories everywhere.
+**Lighting:** Morning light across the city. The faintest holographic glow — five colors — inside the steeple arches; the blue-violet of Luma's scanner winking out as she lowers it, the gold of her lenses fading. The city warm. The lights small. The stories everywhere.
 
 ```text
-Painterly illustrated style, rich detail. Extreme wide horizontal strip — a Victorian church steeple rises above the London skyline in morning light. Stone and brick, the bell housing visible. Through the arches at the top, the faintest points of colored light are visible — five holographic glows, too small to resolve into figures, five department colors. Below the steeple, the city stretches in every direction — rooftops, chimneys, telegraph lines catching the morning light, the gaslit-turning-sunlit sprawl of London. Morning amber-gold across the cityscape. The faintest fairy light in the steeple. The stories already down there, in the streets, in the pubs, in the newspapers, spreading. Oil paint texture, visible brushwork, five lights in the largest city — the fairy tales beginning.
+Painterly illustrated style, rich detail. Extreme wide horizontal strip — a Victorian church steeple rises above the London skyline in morning light. Stone and brick, the bell housing visible. In the foreground at a steeple arch, slightly larger than the others, a tiny sapphire-violet figure (Luma — South Asian, single dark braid, the gold diagnostic lenses that hover at her temples now gone dark, her forearm scanner lowered to her side and unlit) stands looking OUT at the city with nothing between her and it — no instrument raised, no readout, the blue-violet scanner-glow winking out — choosing the world unmediated and uncertified. Behind and above her through the arches, the faintest points of colored light — the other four holographic glows, too small to resolve into figures. Below the steeple, the city stretches in every direction — rooftops, chimneys, telegraph lines catching the morning light, the gaslit-turning-sunlit sprawl of London. Morning amber-gold across the cityscape. The stories already down there, in the streets, in the pubs, in the newspapers, spreading. Oil paint texture, visible brushwork, the scientist who set down her instruments to meet the world bare — five lights in the largest city, the fairy tales beginning.
 ```
 
 ---
