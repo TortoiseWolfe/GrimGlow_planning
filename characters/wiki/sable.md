@@ -218,6 +218,33 @@ This revelation belongs to a future volume. Volume 1 groundwork: the intelligenc
 
 (Source: Alt-Sable brainstorm, Origin -- LOCKED; Titan Biology & Culture brainstorm; Dark Fairy Operations brainstorm)</hidden>
 
+## Story Circle
+
+Per Dan Harmon's eight-step Story Circle — his distillation of Campbell's monomyth, as laid out in Will Schoder's *Every Story Is the Same* — each ensemble member runs a circle of their own, and Sable's is the volume's spine: she is the macro-circle protagonist, and the Story Bible's Story Circle Mapping tracks her order-to-acceptance arc as Volume 1's vertical (inner) axis (Source: Story Bible, Story Circle Mapping). Her circle marches cleanly to the descent-and-return rhythm — a near-textbook step-down "What She Loses" ladder into the Issue 9 break, then a return enacted as command-as-shared-truth.
+
+| Step | Sable Beat | Issues | Fit |
+|------|-----------|--------|-----|
+| 1 YOU | Calm, in command; the functioning command system is her comfort. Private data-module check plants the first fracture. | 1 | Partial — comfort asserted, under-dramatized as hers |
+| 2 NEED | The crash strips the chain of command; the file is "wrong" and unreadable. She encrypts it and tells no one — the want to regain control by managing what the squad knows. | 1-2 | Partial — want shown as a tell, not a pursued action |
+| 3 GO | Crosses the crash threshold; the institution above her goes silent ("no backup coming"). Her inner flaw crosses on a slower clock. | 1-2 | Partial — horizontal clean, vertical thin |
+| 4 SEARCH | The squad adapts; Sable CLAMPS — the Issue 7 radio-silence order generates the danger it meant to contain. "Orders are orders." | 5-7 | Partial — clamps rather than erodes |
+| 5 FIND | The break (Issue 9): shares the file, admits "I don't know what the mission is," "She's lost," mask off. Closes the file "for the last time" (Issue 11 Page 16): want flips to need. | 9, 11 | Partial — split and deferred |
+| 6 TAKE | Surrenders mask + isolation (Issue 9). The macro bottom — the failed strike, Thresh permanently maimed — pays the wound. | 9, 12 | Partial — Sable's personal price is front-loaded |
+| 7 RETURN | Descends from the steeple to beam-level among the squad, rhyming the Issue 1 gutter shot, "same shot, opposite meaning." | 12 | Clean (applied) |
+| 8 CHANGE | First order in the new mode — ship = power source, mythology = mission — the Issue 1 briefing inverted; "Then we stay." | 12 | Clean (applied) |
+
+**Personal vs. macro.** Sable's personal circle is correctly identical to the story's spine, not redundant: when the protagonist's inner axis is the volume's inner axis, the two share a vertical by design (Source: Story Bible, Story Circle Mapping). She proves she is a genuine personal circle and not the macro re-labeled by running anti-parallel to the squad at key steps — at SEARCH the squad adapts while she clamps; at FIND the squad meets its goddess at the church cache (Issue 8, STAY) while she is absent and meets hers off-phase at the Issue 9 break and the Issue 11 file-closing.
+
+**Inner axis.** Her crossing — command-as-control to command-as-shared-truth — is decisive and the strongest in the ensemble. The Issue 9 break is the floor (mask fully off, "She's lost"); Issue 11 Page 16 is the acceptance ("commands from acceptance, not control"); and the applied Issue 12 Page 20 staging lands it as ENACTED behavior — she descends from the high vantage she held all volume, gives the new-mode order, and "Then we stay" is coda, not the change itself (Source: Issue 12 script, Page 20). The crossing is proven most fully on the information-control axis; the emotional-control half is still carried mostly by posture.
+
+**The circle that already failed.** In the hidden layer, Sable's Volume 1 circle is a *second run* of a circle that already completed and failed — the dark-fairy commander in London is Sable herself, older, from a collapsed timeline, who "did all of it first": the break, the choice to stay, "they look like fairy tales." This makes the true meeting-with-the-goddess her own aged self, deferred to a future volume by lock; the acceptance she wins here is pre-poisoned, which is why the canon "acceptance, not relief / not resignation" must be preserved. Volume 1 seeds only the groundwork — the intelligence behind Titan operations mirrors her tactical instincts because it *is* hers (Source: Hidden Layer; Alt-Sable brainstorm — LOCKED).
+
+**Where the circle says tighten.**
+- **TAKE (high):** at the failed strike, give Sable one costly surrender of outcome-control under live fire (relinquish the final call, do not watch it land) so the seize-control reads as a price, not a coronation.
+- **CHANGE (medium):** add one unguarded held gaze with Wren at the descent so the change lands on the emotional axis, not only the information axis.
+- **YOU / NEED (medium/low):** dramatize command-as-control *working to her satisfaction* in the Issue 1 cold-open and convert the Issue 2 data-module tell into one issued information-discipline order — both rhyming the Issue 12 inverted briefing.
+- **RETURN (already applied):** the high-priority steeple-descent movement is now in the Issue 12 script (Page 20, Panel 2) — do not re-flag as open. The new-mode-order CHANGE fix is likewise applied.
+
 ## References
 
 - Story Bible (`docs/GrimGlow_Story_Bible.md`) -- Character section, arc statement, visual language, degradation arc
