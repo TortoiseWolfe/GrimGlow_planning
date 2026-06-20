@@ -1,5 +1,7 @@
 # GRIMGLOW Issue 12 — "The Stories They Tell" — Panel-by-Panel Production Script
 
+> **⚠️ Repagination pending (Section 4–5).** The plot outline's "Theodore's moment" beat and Theodore's wiki now carry the **Cribbage TAKE** — in one continuous motion Theodore disarms the hub *and* draws the brain-plug from his master Cribbage (the eighth, organic contact). This script does **not** yet stage that beat. The verified repagination — **Section 4 → Pages 13–17** (disarm + Cribbage take, every locked beat keeping its own frame) and **Section 5 → Pages 18–19** (revelation compressed, all thesis lines restored), **22 pages held** — is saved under `comic/scripts/.pending/`. Apply it (and redraw the renumbered Issue 12 wireframes) before generating art from Section 4–5. The pages below are the **pre-repagination** version.
+
 ---
 
 ## Production Notes
