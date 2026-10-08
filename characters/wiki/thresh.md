@@ -83,7 +83,7 @@ The central narrative of Thresh's Volume 1 story.
 | 9 | "Thresh withdraws further." | Trust damaged. Last infrastructure -- Sable's composure -- was built on withheld information. |
 | 10 | **The combat breakthrough.** "Fear that's been consuming them meets the thing they were trained to do, and training wins. Thresh doesn't stop being afraid. They fight afraid." | Not fearlessness. Afraid and fighting anyway. |
 | 11 | "Checking weapon. Fear joined by purpose." | After breakthrough, fear becomes purposeful. No longer paralyzing. |
-| 12 | "Holding a position against a Titan drone." Overwhelmed. Jink diverts to help. | Being overwhelmed does not equal paralysis. Action despite fear. |
+| 12 | **The price.** "Holding a position against a Titan drone." Overwhelmed and holding anyway -- the wing-pack shattered, the arm beneath it ruined, the line kept until it holds. Jink diverts, too late to spare the wound. | Bravery that finally costs. They go into the fog brave and come back diminished -- the first changeling on their own side. |
 
 (Source: Plot Outline; Script Prompts; Thresh Fear Arc brainstorm)
 
@@ -219,7 +219,7 @@ A single, very dry, very late joke -- Issue 11 or 12, after the combat breakthro
 | 9 | Withdraws further after Sable's secret is revealed. The last structure collapses. |
 | 10 | **The breakthrough.** First direct Titan encounter. "The fear that's been consuming them meets the thing they were trained to do, and training wins. Thresh doesn't stop being afraid. They fight afraid." Scale: "David and Goliath if Goliath were a nightmare." |
 | 11 | Checking weapon. "Fear joined by purpose." Quiet intensity before the final operation. The late joke. |
-| 12 | Holds position against a Titan drone. Overwhelmed -- Jink diverts to help. Being overwhelmed is not paralysis. "I don't want to stay. I'll stay." |
+| 12 | **The price paid.** Holds position against a Titan drone alone so the others can re-sync. Overwhelmed and holding anyway -- the wing-pack shattered, the arm ruined, the line kept until it holds. Jink diverts, too late to spare the wound. The bravest thing they do, and it ends their life as a frontline soldier. "I don't want to stay. I'll stay." |
 
 (Source: Plot Outline; Script Prompts)
 

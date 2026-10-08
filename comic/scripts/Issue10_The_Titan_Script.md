@@ -1187,6 +1187,7 @@ The telegraph apparatus becomes the focal point of light — Wren's copper-gold 
 **Expression:** Total engineering focus. Her hands are steady despite everything.
 **Dialogue:**
 - WREN: "The signal travels at wire speed — near-instantaneous across the network. One pulse is all I need. The interference pattern will scramble any Titan technology on the same frequency."
+- WREN (flat, a number because numbers are clean): "And it does not stop at this office. It rides every wire on the circuit. Forty-plus stations. Anywhere the line goes, my pulse goes." *(a beat, already moving on)* "Whatever the telegraph carries, it carries."
 **Lighting:** Copper-gold from her scanner fragments and the fairy-tech device core. Sparks from the live telegraph connection — warm orange-white. The brass and copper of the telegraph apparatus reflects both lights.
 
 ```text

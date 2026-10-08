@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 340" width="494" height="340">
-  <title>Issue 7 — Page 13 — Panel 1: Wren inside the Fresnel — cathedral of refracted light, target lens overhead, four retaining clips</title>
-  <desc>35mm medium wide eye level inside Fresnel lens assembly. Wren stands base of target element — surrounded concentric rings hand-ground glass prisms set brass framework. Each prism towering slab of glass at her scale precisely angled catching lamp flame splitting amber gold white. Light extraordinary — warm amber refracted prismatic spectra bands of color crossing every surface. One specific prism ring she needs extract replace. Reaches up running hand along brass framework four retaining clips each size of door to her. Holographic toolkit activates geometric shapes float to first clip. Focused but awed. Hand-ground glass craftsmanship beautiful.</desc>
+  <title>Issue 7 — Page 13 — Panel 1: Wren inside the Fresnel — measuring the hand-ground glass with a scavenged Victorian brass caliper, reaching past her own holographic tool</title>
+  <desc>35mm medium wide eye level inside Fresnel lens assembly. Wren stands base of target element — surrounded concentric rings hand-ground glass prisms set brass framework. Each prism towering slab of glass at her scale precisely angled catching lamp flame splitting amber gold white. Light extraordinary — warm amber refracted prismatic spectra bands of color crossing every surface. One specific prism ring she needs extract replace. Her right hand runs along brass framework at the first retaining clip. Holographic toolkit activates — geometric copper-gold shapes float to the clip — but her OTHER hand has drawn a small Victorian brass caliper, jury-rigged from her hip mount, and reaches PAST the fairy hologram to hold the human tool to the clip and read the tolerance. The brass caliper catches WARM AMBER lamplight, not the cool copper-gold of her holographics — a deliberate glint of the past chosen over the future. Focused but awed. Hand-ground glass craftsmanship beautiful.</desc>
 
   <defs>
     <radialGradient id="i7p13p1cathedral" cx="50%" cy="50%" r="60%">
@@ -27,6 +27,16 @@
     <radialGradient id="i7p13p1tool" cx="50%" cy="50%" r="60%">
       <stop offset="0%" stop-color="#fff8c8" stop-opacity="0.85"/>
       <stop offset="100%" stop-color="#a87838" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Scavenged Victorian brass caliper — warm amber lamplight metal, NOT holographic -->
+    <linearGradient id="i7p13p1caliper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0c0"/>
+      <stop offset="45%" stop-color="#e0a040"/>
+      <stop offset="100%" stop-color="#8a5018"/>
+    </linearGradient>
+    <radialGradient id="i7p13p1amberglint" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff4c0" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e0a040" stop-opacity="0"/>
     </radialGradient>
     <filter id="i7p13p1bloom"><feGaussianBlur stdDeviation="1.4"/></filter>
     <filter id="i7p13p1glow"><feGaussianBlur stdDeviation="3"/></filter>
@@ -80,7 +90,7 @@
 
   <!-- ===== FOUR RETAINING CLIPS (each size of door to Wren) ===== -->
   <g fill="url(#i7p13p1brass)" stroke="#5a3018" stroke-width="0.85">
-    <!-- Clip 1 (left, currently engaged) -->
+    <!-- Clip 1 (left, the one she is measuring) -->
     <rect x="120" y="120" width="22" height="60"/>
     <circle cx="131" cy="120" r="6"/>
     <!-- Clip 2 -->
@@ -94,7 +104,7 @@
     <circle cx="391" cy="120" r="6"/>
   </g>
 
-  <!-- Holographic geometric tools floating toward first clip -->
+  <!-- Holographic geometric tools floating toward first clip (the fairy tool she reaches PAST) -->
   <g transform="translate(131 180)" filter="url(#i7p13p1bloom)">
     <ellipse cx="0" cy="0" rx="32" ry="22" fill="url(#i7p13p1tool)" filter="url(#i7p13p1strongglow)"/>
     <g stroke="#ffd898" stroke-width="0.85" fill="none" opacity="0.95">
@@ -105,7 +115,7 @@
     <circle cx="0" cy="0" r="2" fill="#fff" filter="url(#i7p13p1bloom)"/>
   </g>
 
-  <!-- ===== WREN — center, base of lens, hand reaching up ===== -->
+  <!-- ===== WREN — center, base of lens, hands reaching up to the first clip ===== -->
   <g transform="translate(247 320)">
     <ellipse cx="0" cy="0" rx="14" ry="3" fill="#000" opacity="0.7"/>
 
@@ -124,6 +134,8 @@
     <line x1="0" y1="-130" x2="0" y2="-50" stroke="#f0c898" stroke-width="0.55" opacity="0.85" filter="url(#i7p13p1bloom)"/>
     <!-- Heavy oil stains -->
     <ellipse cx="-14" cy="-80" rx="6" ry="3" fill="#0a0604" opacity="0.85"/>
+    <!-- Hip mount — empty caliper holster (she has drawn the tool) -->
+    <rect x="9" y="-72" width="7" height="9" rx="1.2" fill="#3a1c0c" stroke="#5a3018" stroke-width="0.5"/>
 
     <!-- Prismatic bands crossing her body -->
     <g opacity="0.55">
@@ -133,11 +145,14 @@
       <line x1="-18" y1="-78" x2="18" y2="-74" stroke="#80f0a0" stroke-width="0.4"/>
     </g>
 
-    <!-- LEFT arm trailing along brass framework -->
-    <path d="M-18,-110 L-32,-90 L-30,-66 L-22,-90 Z" fill="url(#i7p13p1suit)"/>
-    <ellipse cx="-30" cy="-66" rx="3" ry="2" fill="url(#i7p13p1skin)"/>
+    <!-- LEFT arm REACHING UP toward the first clip — holds the brass caliper to the glass -->
+    <path d="M-18,-110 L-40,-126 L-66,-150 L-62,-156 L-38,-134 L-18,-118 Z" fill="url(#i7p13p1suit)"/>
+    <!-- Hand gripping the caliper -->
+    <ellipse cx="-66" cy="-152" rx="4" ry="3" fill="url(#i7p13p1skin)"/>
+    <!-- Machine oil on this hand too -->
+    <ellipse cx="-66" cy="-153" rx="2" ry="1" fill="#0a0604" opacity="0.7"/>
 
-    <!-- RIGHT arm REACHING UP toward first clip -->
+    <!-- RIGHT arm running up the brass framework / first clip -->
     <path d="M18,-110 L40,-130 L60,-160 L60,-152 L40,-122 L18,-100 Z" fill="url(#i7p13p1suit)"/>
     <!-- Hand on brass -->
     <ellipse cx="60" cy="-156" rx="4" ry="2" fill="url(#i7p13p1skin)"/>
@@ -162,14 +177,39 @@
     <ellipse cx="0" cy="-140" rx="1.4" ry="0.85" fill="#3a1808"/>
   </g>
 
+  <!-- ===== SCAVENGED VICTORIAN BRASS CALIPER held to the first clip ===== -->
+  <!-- positioned just past the holographic tool at clip 1 (~131,170), in her left hand from translate(247,320): hand at -66,-152 => 181,168 -->
+  <g transform="translate(165 168) rotate(-34)">
+    <!-- warm amber lamp glint behind the brass — the "past chosen over future" glow, deliberately NOT copper-gold holographic -->
+    <ellipse cx="14" cy="0" rx="22" ry="10" fill="url(#i7p13p1amberglint)" filter="url(#i7p13p1glow)"/>
+    <!-- caliper main beam / graduated scale -->
+    <rect x="-4" y="-2.4" width="40" height="4.8" rx="1.2" fill="url(#i7p13p1caliper)" stroke="#5a3018" stroke-width="0.5"/>
+    <!-- graduation ticks on the beam -->
+    <g stroke="#3a1c0c" stroke-width="0.4" opacity="0.8">
+      <line x1="2" y1="-2.4" x2="2" y2="0"/>
+      <line x1="8" y1="-2.4" x2="8" y2="0"/>
+      <line x1="14" y1="-2.4" x2="14" y2="0"/>
+      <line x1="20" y1="-2.4" x2="20" y2="0"/>
+      <line x1="26" y1="-2.4" x2="26" y2="0"/>
+      <line x1="32" y1="-2.4" x2="32" y2="0"/>
+    </g>
+    <!-- fixed jaw (touches the clip glass) -->
+    <path d="M-4,-2.4 L-4,-14 L-1,-14 L-1,2.4 Z" fill="url(#i7p13p1caliper)" stroke="#5a3018" stroke-width="0.5"/>
+    <!-- sliding jaw / vernier -->
+    <path d="M22,-2.4 L22,-12 L25,-12 L25,2.4 L31,2.4 L31,7 L19,7 L19,2.4 Z" fill="url(#i7p13p1caliper)" stroke="#5a3018" stroke-width="0.5"/>
+    <!-- bright amber specular highlight along the polished brass edge -->
+    <line x1="-3" y1="-1.6" x2="35" y2="-1.6" stroke="#fff4c0" stroke-width="0.7" opacity="0.9"/>
+    <circle cx="-2.5" cy="-12" r="1" fill="#fff4c0" opacity="0.95"/>
+  </g>
+
   <!-- WREN -->
   <g>
     <rect x="14" y="14" width="466" height="50" rx="2" fill="white" stroke="#c87a35" stroke-width="0.85" opacity="0.95" stroke-dasharray="3,1.5"/>
     <polygon points="220,64 232,64 224,76" fill="white" stroke="#c87a35" stroke-width="0.85" stroke-dasharray="3,1.5"/>
   </g>
   <text x="22" y="32" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#c87a35" font-weight="700">WREN  <tspan font-style="italic" font-size="8" font-weight="500">(comms, whispered)</tspan></text>
-  <text x="22" y="48" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">At target element. Four retaining clips. The grinding</text>
-  <text x="22" y="62" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#1a1410">on this is exceptional. Someone shaped every surface by hand.</text>
+  <text x="22" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" fill="#1a1410">The grinding on this is exceptional. Someone shaped every surface by hand.</text>
+  <text x="22" y="60" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" fill="#1a1410">...I'm using their tool to measure it. It's better for this than mine.</text>
 
   <!-- Brushwork overlay -->
   <g stroke="#3a1808" stroke-width="0.4" opacity="0.18" fill="none">

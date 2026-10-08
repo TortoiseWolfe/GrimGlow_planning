@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
-  <title>Issue 12 Page 11 Panel 1 — The failsafe, "Minutes. Maybe less."</title>
-  <desc>Wide shot. Tiny figure in pewter-dark degraded silver suit at church steeple command position, large holographic tactical display expanded — blue-white miniature city map pulsing with urgency. Four satellite device markers flicker between neutral grey and amber-black — reactivating. Central hub marker pulses brighter amber-black. Squad position markers scattered. Display shows operation unraveling in real time. Dawn light on church stone behind. Posture rigid — processing, adapting, deciding. Blue-white holographic urgency light. The crisis point.</desc>
+  <title>Issue 12 Page 11 Panel 1 — The blind surrender, "It isn't my call to make from up here."</title>
+  <desc>Wide shot. Tiny figure in pewter-dark degraded silver suit at church steeple command position. Her hand is drawn back from the large holographic tactical display, open and palm up — the gesture of letting go, having stopped trying to move the pieces. Her face shows the deliberate release of control under fire: command handed to people she cannot see. Blue-white miniature city map pulsing with urgency. Four satellite device markers flicker between neutral grey and amber-black — reactivating. Central hub marker pulses brighter amber-black. Squad position markers scattered. Dawn light on church stone behind. Posture eased into open surrender, not rigid command. Blue-white holographic urgency light. The point of trust.</desc>
   <defs>
     <linearGradient id="bgU1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#a87878"/>
@@ -43,6 +43,11 @@
       <stop offset="0.5" stop-color="#7a7a7a" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#040206" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="releaseGlowU1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a8c0e0" stop-opacity="0.72"/>
+      <stop offset="0.6" stop-color="#5a78a8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
     <filter id="bloomU1" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="2.4"/>
     </filter>
@@ -54,6 +59,9 @@
     </filter>
     <filter id="wrongnessU1" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="handGlowU1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.6"/>
     </filter>
   </defs>
 
@@ -78,13 +86,22 @@
   </g>
 
   <g>
-    <ellipse cx="70" cy="170" rx="3" ry="6" fill="#3a4858"/>
-    <circle cx="70" cy="164" r="1.4" fill="#5a3818"/>
-    <path d="M 67 162 Q 70 158 73 162 L 73 164 L 67 164 Z" fill="#a8a8a8"/>
+    <ellipse cx="68" cy="170" rx="3.2" ry="6" fill="#3a4858"/>
+    <path d="M 65 168 Q 64 174 65.6 178 L 70.4 178 Q 72 174 71 168 Z" fill="url(#suitSableU1)"/>
+    <circle cx="68" cy="164" r="1.4" fill="#5a3818"/>
+    <path d="M 65 162 Q 68 158 71 162 L 71 164 L 65 164 Z" fill="#a8a8a8"/>
+    <ellipse cx="68" cy="160.6" rx="2" ry="1.1" fill="#a8c0e0" opacity="0.42" filter="url(#handGlowU1)"/>
+    <g opacity="0.95" filter="url(#handGlowU1)">
+      <path d="M 64.6 167 Q 60 165.4 56.2 167.4 Q 59 168.8 56.6 170.6 Q 60.4 169.6 64.4 169.2 Z" fill="#a8c0e0"/>
+      <line x1="58" y1="167.2" x2="55.4" y2="166.6" stroke="#a8c0e0" stroke-width="0.5"/>
+      <line x1="57.6" y1="168.4" x2="54.8" y2="168.6" stroke="#a8c0e0" stroke-width="0.5"/>
+      <line x1="58" y1="169.6" x2="55.4" y2="170.6" stroke="#a8c0e0" stroke-width="0.5"/>
+    </g>
+    <ellipse cx="57" cy="168.4" rx="5.4" ry="3.2" fill="url(#releaseGlowU1)" opacity="0.5"/>
   </g>
 
   <g>
-    <line x1="80" y1="166" x2="160" y2="120" stroke="#a8c0e0" stroke-width="0.4" opacity="0.55" stroke-dasharray="2,2"/>
+    <line x1="60" y1="167" x2="160" y2="120" stroke="#a8c0e0" stroke-width="0.4" opacity="0.4" stroke-dasharray="2,2"/>
 
     <rect x="160" y="40" width="540" height="180" rx="4" fill="none" stroke="#5a78a8" stroke-width="1.2" opacity="0.85"/>
     <rect x="166" y="46" width="528" height="168" fill="#0a0a14" opacity="0.62"/>
@@ -162,9 +179,12 @@
     <ellipse cx="370" cy="220" rx="280" ry="3" fill="#040202" opacity="0.42"/>
   </g>
 
-  <g transform="translate(14,12)">
-    <rect x="-6" y="0" width="380" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#a85820" stroke-width="1.2"/>
-    <text x="184" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a85820" font-weight="700">WREN: "Satellites reactivating. Hub pushing restore signal."</text>
-    <text x="184" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.4" fill="#a8c0e0" font-style="italic" font-weight="700">SABLE: "How long?" WREN: "Minutes. Maybe less."</text>
+  <g transform="translate(14,8)">
+    <rect x="-6" y="0" width="392" height="50" rx="3" fill="#1a1828" opacity="0.95" stroke="#7a8898" stroke-width="1.2"/>
+    <text x="190" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.2" fill="#a85820" font-weight="700">WREN: "Satellites reactivating. Hub pushing restore signal."</text>
+    <text x="190" y="22" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.2" fill="#a8c0e0" font-style="italic" font-weight="700">SABLE: "Then it isn't my call to make from up here. Wren —</text>
+    <text x="190" y="31" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.2" fill="#a8c0e0" font-style="italic" font-weight="700">your read. Theodore — your hands. Execute on your mark,</text>
+    <text x="190" y="40" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.2" fill="#a8c0e0" font-style="italic" font-weight="700">not mine. I can't see it from here, and I'm not going to</text>
+    <text x="190" y="49" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5.2" fill="#a8c0e0" font-style="italic" font-weight="700">pretend I can."</text>
   </g>
 </svg>

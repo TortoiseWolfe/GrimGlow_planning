@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 280" width="247" height="280">
-  <title>Issue 12 Page 11 Panel 2 — Jink launches from basement, "Don't start without me!"</title>
-  <desc>Medium shot. Tiny figure in degraded emerald suit explodes from dark basement stairwell into morning light, holographic dragonfly wings deploying at full power, climbing fast. Emerald-green prismatic trails blaze behind at full intensity. Below, at stairwell mouth, second tiny figure in crimson armor emerges into light, looking up. Morning sky bright and blue. The fastest flyer racing the clock.</desc>
+  <title>Issue 12 Page 11 Panel 2 — Jink leaves the wounded Thresh, "Hold on, Thresh."</title>
+  <desc>Medium shot. Tiny figure in degraded emerald suit rockets upward from the dark basement stairwell at full holographic dragonfly-wing power, emerald-green prismatic trails blazing — but the head and posture twist half-back and down with reluctance toward the figure below. At the stairwell mouth, the second tiny figure in crimson armor is wounded: propped against the dark stairwell wall, one arm hanging useless, the wing-pack on its back shattered and dark with no crimson wing glow, only the chest and gauntlet crimson edges still lit. It lifts its good hand in a flat final wave — go. Bright climbing emerald above, wounded dark crimson below. The failsafe forces the parting.</desc>
   <defs>
     <linearGradient id="bgU2" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#5a78a8"/>
@@ -37,6 +37,11 @@
       <stop offset="0" stop-color="#a83838"/>
       <stop offset="0.4" stop-color="#7a2530"/>
       <stop offset="1" stop-color="#1a0810"/>
+    </linearGradient>
+    <linearGradient id="wreckWingU2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2030"/>
+      <stop offset="0.5" stop-color="#1a0e14"/>
+      <stop offset="1" stop-color="#080406"/>
     </linearGradient>
     <linearGradient id="hairBlondeU2" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fff088"/>
@@ -88,7 +93,7 @@
     <path d="M 120 240 Q 124 200 128 160 Q 130 120 132 80 Q 134 50 136 30" stroke="#3a8858" stroke-width="80" fill="none" stroke-linecap="round" opacity="0.32"/>
   </g>
 
-  <g transform="rotate(80 136 30)">
+  <g transform="rotate(62 136 30)">
     <ellipse cx="136" cy="30" rx="14" ry="6" fill="url(#suitJinkU2)"/>
     <path d="M 124 28 Q 110 20 102 26 Q 110 36 124 32 Z" fill="#3a8858" opacity="0.85"/>
     <path d="M 148 28 Q 162 20 170 26 Q 162 36 148 32 Z" fill="#3a8858" opacity="0.85"/>
@@ -100,8 +105,10 @@
     <ellipse cx="132" cy="22" rx="2" ry="3" fill="url(#hairBlondeU2)"/>
     <ellipse cx="140" cy="22" rx="2" ry="3" fill="url(#hairBlondeU2)"/>
 
-    <circle cx="134" cy="22" r="0.55" fill="#0a0604"/>
-    <circle cx="138" cy="22" r="0.55" fill="#0a0604"/>
+    <g transform="rotate(-26 136 22)">
+      <ellipse cx="133.4" cy="23.2" rx="0.6" ry="0.7" fill="#0a0604"/>
+      <ellipse cx="137.4" cy="23.2" rx="0.6" ry="0.7" fill="#0a0604"/>
+    </g>
   </g>
   <g opacity="0.95" filter="url(#strongGlowU2)">
     <circle cx="136" cy="30" r="22" fill="#3a8858" opacity="0.62"/>
@@ -111,22 +118,40 @@
   </g>
 
   <g>
-    <ellipse cx="120" cy="248" rx="9" ry="2" fill="#040202" opacity="0.62"/>
-    <ellipse cx="120" cy="240" rx="6" ry="9" fill="url(#suitThreshU2)"/>
-    <ellipse cx="120" cy="228" rx="3" ry="4" fill="#fff8e8"/>
-    <path d="M 117 224 Q 120 220 123 224 Q 124 228 123 230 L 117 230 Q 116 228 117 224 Z" fill="#7a3018"/>
-    <circle cx="119" cy="228" r="0.4" fill="#0a0604"/>
-    <circle cx="121" cy="228" r="0.4" fill="#0a0604"/>
+    <ellipse cx="120" cy="252" rx="11" ry="2.4" fill="#040202" opacity="0.7"/>
 
-    <line x1="120" y1="218" x2="124" y2="190" stroke="#fff088" stroke-width="0.4" opacity="0.55" stroke-dasharray="2,2"/>
+    <path d="M 110 232 Q 112 244 113 252" stroke="url(#wreckWingU2)" stroke-width="3.4" fill="none" stroke-linecap="round" opacity="0.92"/>
+    <path d="M 113 230 Q 116 240 116 250" stroke="url(#wreckWingU2)" stroke-width="2.6" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 109 234 L 106 230 L 110 233 L 107 237 Z" fill="#1a0e14" opacity="0.9"/>
+    <path d="M 113 231 L 117 228 L 114 233 Z" fill="#1a0e14" opacity="0.9"/>
+
+    <path d="M 118 234 Q 122 236 124 246 Q 124 250 122 251" fill="url(#suitThreshU2)" opacity="0.95"/>
+
+    <ellipse cx="118" cy="244" rx="6.5" ry="9.5" fill="url(#suitThreshU2)"/>
+
+    <path d="M 113 240 Q 110 248 109 256 Q 111 256 113 250 Q 115 245 116 242 Z" fill="#1a0810" opacity="0.95"/>
+
+    <path d="M 123 240 Q 129 234 134 230" stroke="#a83838" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="135" cy="229" rx="2.6" ry="1.6" fill="#a83838"/>
+    <line x1="133" y1="227.5" x2="137" y2="227.5" stroke="#d83838" stroke-width="0.7"/>
+    <line x1="133" y1="229" x2="137" y2="229" stroke="#d83838" stroke-width="0.7"/>
+    <line x1="133" y1="230.5" x2="137" y2="230.5" stroke="#d83838" stroke-width="0.7"/>
+
+    <ellipse cx="118" cy="232" rx="3" ry="4" fill="#fff8e8"/>
+    <path d="M 115 228 Q 118 224 121 228 Q 122 232 121 234 L 115 234 Q 114 232 115 228 Z" fill="#7a3018"/>
+    <circle cx="117" cy="232" r="0.4" fill="#0a0604"/>
+    <circle cx="119" cy="232" r="0.4" fill="#0a0604"/>
+
+    <ellipse cx="118" cy="247" rx="2.6" ry="4" fill="#d83838" opacity="0.5"/>
   </g>
   <g opacity="0.85" filter="url(#bloomU2)">
-    <ellipse cx="120" cy="240" rx="11" ry="14" fill="#d83838" opacity="0.42"/>
+    <ellipse cx="118" cy="246" rx="6" ry="9" fill="#d83838" opacity="0.4"/>
+    <ellipse cx="135" cy="229" rx="4" ry="3" fill="#d83838" opacity="0.42"/>
   </g>
 
   <g transform="translate(8,12)">
-    <rect x="-4" y="0" width="180" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#3a8858" stroke-width="1.2"/>
-    <text x="86" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#3a8858" font-weight="700">JINK: "Airborne! En route!"</text>
-    <text x="86" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#3a8858" font-style="italic" font-weight="700">"Theodore, don't start without me!"</text>
+    <rect x="-4" y="0" width="200" height="22" rx="3" fill="#1a1828" opacity="0.95" stroke="#3a8858" stroke-width="1.2"/>
+    <text x="96" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#a83838" font-weight="700">THRESH: "Go. Hub first. I'm not going anywhere."</text>
+    <text x="96" y="20" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="5" fill="#3a8858" font-weight="700">JINK: "Airborne. ...Hold on, Thresh."</text>
   </g>
 </svg>

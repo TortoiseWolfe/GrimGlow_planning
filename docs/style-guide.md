@@ -65,7 +65,7 @@ The squad is four inches tall. Every scene in the Victorian world must register 
 
 **Scale as threat:**
 - The Victorian world is not merely large — it is lethally large. Rain is a flood. A cat is a predator. A boot is an extinction event. A child's hand can crush. Convey the constant, grinding vulnerability of being tiny.
-- Example: "A rat moved in the middle distance, nosing through the gutter debris. It was, from where Thresh stood, functionally the size of a horse. He pressed his back harder against the drainpipe and said nothing."
+- Example: "A rat moved in the middle distance, nosing through the gutter debris. It was, from where Thresh stood, functionally the size of a horse. They pressed their back harder against the drainpipe and said nothing."
 - Avoid: Making scale whimsical or cute. Scale is survival. Treat it as the relentless environmental threat it is, even in quiet moments.
 
 **Scale as wonder:**

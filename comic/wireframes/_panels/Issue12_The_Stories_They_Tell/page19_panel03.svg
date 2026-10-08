@@ -1,130 +1,220 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 280" width="246" height="280">
-  <title>Issue 12 Page 19 Panel 3 — Theodore looking up, the witness who will write the story</title>
-  <desc>Close-up. Victorian boy's face looking upward through stone window gap — sandy-brown hair, hazel eyes wide, freckles. Looking up at something above him that he cannot fully see — tiny figures in colored light, too far and too small to make out clearly, but present. Boy seeing his friends differently — not understanding the change, but feeling it. Morning light on his face from side. Faintest holographic glow from above, filtered through stone. The witness who will write the story.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 12 Page 19 Panel 3 — Luma closes the constellation, five soldiers in morning light, "The bias is the bias. Both exist."</title>
+  <desc>Medium wide. Interior of Victorian church steeple. Luma gestures and the blue-violet holographic constellation dims — luminous nodes and threads contracting, collapsing into a small scanner in her sapphire-violet glove. The star-field fades; warm amber morning light reasserts itself through the stone arches, on stone walls, timber beams, and the bell mechanism above. The other four battered soldiers — silver, copper, emerald, crimson — watch the vision dissolve. The steeple is just a steeple again, but the people in it are different. Blue-violet fading, warm morning amber returning, neither dominating now. The vision given, the honesty spoken.</desc>
   <defs>
-    <linearGradient id="bgFF3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#5a4858"/>
-      <stop offset="0.4" stop-color="#3a2838"/>
-      <stop offset="0.8" stop-color="#1a1018"/>
+    <linearGradient id="bgDD3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2048"/>
+      <stop offset="0.5" stop-color="#1a1220"/>
       <stop offset="1" stop-color="#080404"/>
     </linearGradient>
-    <radialGradient id="filteredGlowFF3" cx="0.5" cy="0.05" r="0.45">
-      <stop offset="0" stop-color="#a878d8" stop-opacity="0.32"/>
-      <stop offset="0.4" stop-color="#fff8d8" stop-opacity="0.22"/>
+    <radialGradient id="constellFadeDD3" cx="0.62" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#a878d8" stop-opacity="0.38"/>
+      <stop offset="0.5" stop-color="#7848b8" stop-opacity="0.20"/>
       <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="morningSideFF3" cx="0.85" cy="0.5" r="0.45">
+    <radialGradient id="amberReturnDD3" cx="0.5" cy="0.88" r="0.55">
       <stop offset="0" stop-color="#fff8d8" stop-opacity="0.55"/>
       <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
       <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="stoneFF3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7a6878"/>
-      <stop offset="0.5" stop-color="#5a4858"/>
-      <stop offset="1" stop-color="#3a2838"/>
-    </linearGradient>
-    <linearGradient id="hairTheoFF3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff088"/>
-      <stop offset="0.4" stop-color="#a85020"/>
-      <stop offset="0.7" stop-color="#7a3818"/>
-      <stop offset="1" stop-color="#3a1a08"/>
-    </linearGradient>
-    <linearGradient id="faceTheoFF3" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5a4858"/>
-      <stop offset="0.3" stop-color="#a87858"/>
-      <stop offset="0.7" stop-color="#fff8d8"/>
-      <stop offset="1" stop-color="#f4b860"/>
-    </linearGradient>
-    <radialGradient id="eyeWitnessFF3" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.85"/>
-      <stop offset="0.5" stop-color="#a87838" stop-opacity="0.62"/>
-      <stop offset="1" stop-color="#a87838" stop-opacity="0"/>
+    <radialGradient id="amberArchDD3" cx="0.5" cy="0.1" r="0.5">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
     </radialGradient>
-    <filter id="bloomFF3" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2"/>
+    <linearGradient id="stoneArchDD3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a7868"/>
+      <stop offset="0.5" stop-color="#5a4838"/>
+      <stop offset="1" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="brassWindowDD3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.5" stop-color="#f4b860"/>
+      <stop offset="1" stop-color="#a85820"/>
+    </linearGradient>
+    <linearGradient id="timberDD3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a87838"/>
+      <stop offset="0.5" stop-color="#6a4820"/>
+      <stop offset="1" stop-color="#3a2410"/>
+    </linearGradient>
+    <linearGradient id="bellDD3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8a850"/>
+      <stop offset="0.5" stop-color="#a87830"/>
+      <stop offset="1" stop-color="#6a4818"/>
+    </linearGradient>
+    <radialGradient id="scannerNodeDD3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#a878d8" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#7848b8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomDD3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
     </filter>
-    <filter id="strongGlowFF3" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="3.4"/>
+    <filter id="strongGlowDD3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.4"/>
     </filter>
-    <filter id="megaGlowFF3" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="6.4"/>
+    <filter id="megaGlowDD3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
     </filter>
   </defs>
 
-  <rect width="246" height="280" fill="url(#bgFF3)"/>
-  <rect width="246" height="280" fill="url(#filteredGlowFF3)"/>
-  <rect width="246" height="280" fill="url(#morningSideFF3)"/>
+  <rect width="742" height="280" fill="url(#bgDD3)"/>
+  <rect width="742" height="280" fill="url(#amberArchDD3)"/>
+  <rect width="742" height="280" fill="url(#constellFadeDD3)"/>
+  <rect width="742" height="280" fill="url(#amberReturnDD3)"/>
 
+  <!-- Steeple stone, arches reasserting in morning light -->
   <g>
-    <rect x="0" y="0" width="246" height="80" fill="url(#stoneFF3)" opacity="0.85"/>
+    <rect x="0" y="0" width="742" height="280" fill="url(#stoneArchDD3)" opacity="0.5"/>
 
-    <path d="M 60 50 Q 60 80 90 80 L 156 80 Q 186 80 186 50 Z" fill="url(#bgFF3)" opacity="0.85"/>
+    <path d="M 60 0 Q 60 50 100 50 L 180 50 Q 220 50 220 0 Z" fill="url(#brassWindowDD3)" opacity="0.72"/>
+    <path d="M 280 0 Q 280 50 320 50 L 420 50 Q 460 50 460 0 Z" fill="url(#brassWindowDD3)" opacity="0.72"/>
+    <path d="M 520 0 Q 520 50 560 50 L 640 50 Q 680 50 680 0 Z" fill="url(#brassWindowDD3)" opacity="0.72"/>
 
-    <g opacity="0.55" stroke="#3a2838" stroke-width="0.4">
-      <line x1="0" y1="20" x2="246" y2="20"/>
-      <line x1="0" y1="40" x2="246" y2="40"/>
-      <line x1="60" y1="0" x2="60" y2="50"/>
-      <line x1="186" y1="0" x2="186" y2="50"/>
-      <line x1="120" y1="0" x2="120" y2="20"/>
-      <line x1="40" y1="40" x2="40" y2="80"/>
-      <line x1="200" y1="40" x2="200" y2="80"/>
-    </g>
+    <path d="M 60 230 Q 60 182 100 182 L 180 182 Q 220 182 220 230 Z" fill="url(#brassWindowDD3)" opacity="0.62"/>
+    <path d="M 280 230 Q 280 182 320 182 L 420 182 Q 460 182 460 230 Z" fill="url(#brassWindowDD3)" opacity="0.62"/>
+    <path d="M 520 230 Q 520 182 560 182 L 640 182 Q 680 182 680 230 Z" fill="url(#brassWindowDD3)" opacity="0.62"/>
   </g>
 
+  <!-- Bell mechanism above, timber beams, the steeple returning to itself -->
+  <g>
+    <path d="M 300 8 L 442 8 L 426 56 Q 371 72 316 56 Z" fill="url(#bellDD3)" opacity="0.72"/>
+    <ellipse cx="371" cy="56" rx="58" ry="8" fill="#6a4818" opacity="0.72"/>
+    <rect x="368" y="0" width="6" height="12" fill="#6a4818"/>
+    <line x1="371" y1="56" x2="371" y2="70" stroke="#3a2410" stroke-width="2"/>
+    <ellipse cx="371" cy="72" rx="4" ry="5" fill="#6a4818"/>
+  </g>
   <g opacity="0.62">
-    <circle cx="105" cy="62" r="0.85" fill="#a878d8"/>
-    <circle cx="115" cy="58" r="0.85" fill="#3a8858"/>
-    <circle cx="125" cy="62" r="0.85" fill="#d83838"/>
-    <circle cx="135" cy="58" r="0.85" fill="#d88838"/>
-    <circle cx="145" cy="62" r="0.85" fill="#a8c0e0"/>
-  </g>
-  <g opacity="0.42" filter="url(#bloomFF3)">
-    <ellipse cx="123" cy="60" rx="40" ry="9" fill="#fff8d8" opacity="0.42"/>
+    <rect x="0" y="120" width="742" height="7" fill="url(#timberDD3)"/>
+    <rect x="120" y="120" width="9" height="60" fill="url(#timberDD3)"/>
+    <rect x="610" y="120" width="9" height="60" fill="url(#timberDD3)"/>
+    <path d="M 129 123 L 240 178" stroke="url(#timberDD3)" stroke-width="6" opacity="0.7"/>
+    <path d="M 610 123 L 500 178" stroke="url(#timberDD3)" stroke-width="6" opacity="0.7"/>
   </g>
 
+  <!-- Constellation DIMMING — threads contracting toward Luma's scanner (right of center) -->
+  <g opacity="0.40" stroke="#a878d8" stroke-width="0.5" fill="none" stroke-dasharray="2,3">
+    <path d="M 200 90 Q 320 96 452 132"/>
+    <path d="M 560 88 Q 510 104 452 132"/>
+    <path d="M 260 70 L 452 132"/>
+    <path d="M 480 70 L 452 132"/>
+    <path d="M 330 104 Q 400 116 452 132"/>
+  </g>
+  <!-- residual nodes, faint, collapsing -->
+  <g opacity="0.40">
+    <ellipse cx="200" cy="90" rx="9" ry="6" fill="#a878d8" opacity="0.5"/>
+    <ellipse cx="560" cy="88" rx="9" ry="6" fill="#a878d8" opacity="0.5"/>
+    <ellipse cx="260" cy="70" rx="7" ry="5" fill="#a878d8" opacity="0.42"/>
+    <ellipse cx="480" cy="70" rx="7" ry="5" fill="#a878d8" opacity="0.42"/>
+    <ellipse cx="330" cy="104" rx="7" ry="5" fill="#a878d8" opacity="0.42"/>
+  </g>
+  <g opacity="0.32" filter="url(#megaGlowDD3)">
+    <ellipse cx="371" cy="96" rx="180" ry="44" fill="#a878d8" opacity="0.32"/>
+  </g>
+
+  <!-- The five soldiers on the timber beam, morning amber catching grimed suits -->
+  <!-- Sable (silver/command) -->
   <g>
-    <ellipse cx="123" cy="160" rx="100" ry="100" fill="url(#faceTheoFF3)"/>
-
-    <path d="M 30 110 Q 60 90 100 92 Q 130 94 156 92 Q 186 90 216 110 Q 220 130 216 142 L 206 138 Q 180 110 150 106 Q 120 102 100 106 Q 70 110 40 138 L 30 142 Q 26 130 30 110 Z" fill="url(#hairTheoFF3)"/>
-    <path d="M 60 100 Q 80 88 100 96" stroke="#7a3818" stroke-width="1.4" fill="none" opacity="0.7"/>
-    <path d="M 140 96 Q 160 88 180 100" stroke="#7a3818" stroke-width="1.4" fill="none" opacity="0.7"/>
-
-    <ellipse cx="92" cy="160" rx="14" ry="14" fill="#0a0604"/>
-    <circle cx="92" cy="160" r="9" fill="#3a2010"/>
-    <ellipse cx="94" cy="158" rx="4" ry="3" fill="url(#eyeWitnessFF3)"/>
-    <circle cx="92" cy="160" r="3" fill="#080404"/>
-    <circle cx="94" cy="158" r="0.85" fill="#fff8d8"/>
-
-    <ellipse cx="156" cy="160" rx="14" ry="14" fill="#0a0604"/>
-    <circle cx="156" cy="160" r="9" fill="#3a2010"/>
-    <ellipse cx="158" cy="158" rx="4" ry="3" fill="url(#eyeWitnessFF3)"/>
-    <circle cx="156" cy="160" r="3" fill="#080404"/>
-    <circle cx="158" cy="158" r="0.85" fill="#fff8d8"/>
-
-    <path d="M 70 138 Q 92 124 116 138" stroke="#0a0604" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-    <path d="M 132 138 Q 156 124 180 138" stroke="#0a0604" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-    <path d="M 70 130 Q 92 118 116 130" stroke="#5a3018" stroke-width="2" fill="none" opacity="0.7"/>
-    <path d="M 132 130 Q 156 118 180 130" stroke="#5a3018" stroke-width="2" fill="none" opacity="0.7"/>
-
-    <ellipse cx="106" cy="190" rx="9" ry="3" fill="#a85820" opacity="0.55"/>
-    <ellipse cx="142" cy="190" rx="9" ry="3" fill="#a85820" opacity="0.55"/>
-    <ellipse cx="124" cy="188" rx="3" ry="1.4" fill="#a85820" opacity="0.55"/>
-
-    <path d="M 110 222 Q 124 218 138 222" stroke="#0a0604" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-    <path d="M 110 220 L 138 220" stroke="#3a2410" stroke-width="0.7" opacity="0.55"/>
+    <ellipse cx="120" cy="170" rx="4" ry="2.4" fill="#040202" opacity="0.62"/>
+    <ellipse cx="120" cy="164" rx="3" ry="6" fill="#3a4048"/>
+    <ellipse cx="120" cy="166" rx="2" ry="4" fill="#5a606a"/>
+    <circle cx="120" cy="156" r="2" fill="#a87858"/>
+    <path d="M 118 154 Q 120 151 122 154" stroke="#e8e8e8" stroke-width="1" fill="none"/>
+    <ellipse cx="119" cy="160" rx="3.4" ry="2" fill="#5a606a" opacity="0.42"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomDD3)">
+    <circle cx="120" cy="162" r="6" fill="#a8c0e0" opacity="0.42"/>
   </g>
 
-  <g opacity="0.55">
-    <line x1="92" y1="148" x2="123" y2="80" stroke="#a878d8" stroke-width="0.4" stroke-dasharray="2,2"/>
-    <line x1="156" y1="148" x2="123" y2="80" stroke="#a878d8" stroke-width="0.4" stroke-dasharray="2,2"/>
+  <!-- Wren (copper) -->
+  <g>
+    <ellipse cx="220" cy="172" rx="4" ry="2.4" fill="#040202" opacity="0.62"/>
+    <ellipse cx="220" cy="166" rx="3" ry="6" fill="#7a4818"/>
+    <ellipse cx="220" cy="168" rx="2" ry="4" fill="#c87533"/>
+    <circle cx="220" cy="158" r="2" fill="#a87858"/>
+    <path d="M 217 156 Q 220 153 223 156" stroke="#1a1208" stroke-width="1.4" fill="none"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomDD3)">
+    <circle cx="220" cy="164" r="6" fill="#d88838" opacity="0.42"/>
   </g>
 
-  <g opacity="0.62" filter="url(#strongGlowFF3)">
-    <circle cx="94" cy="158" r="3" fill="#a878d8" opacity="0.42"/>
-    <circle cx="158" cy="158" r="3" fill="#a878d8" opacity="0.42"/>
+  <!-- Jink (emerald) -->
+  <g>
+    <ellipse cx="305" cy="172" rx="4" ry="2.4" fill="#040202" opacity="0.62"/>
+    <ellipse cx="305" cy="166" rx="3" ry="6" fill="#1a4830"/>
+    <ellipse cx="305" cy="168" rx="2" ry="4" fill="#3a8858"/>
+    <circle cx="305" cy="158" r="2" fill="#a87858"/>
+    <path d="M 302 156 Q 305 152 308 156" stroke="#fff088" stroke-width="1.4" fill="none"/>
+    <ellipse cx="303" cy="156" rx="1" ry="0.6" fill="#fff088"/>
+  </g>
+  <g opacity="0.72" filter="url(#bloomDD3)">
+    <circle cx="305" cy="164" r="6" fill="#3a8858" opacity="0.55"/>
   </g>
 
+  <!-- Thresh (crimson) -->
+  <g>
+    <ellipse cx="540" cy="172" rx="4.4" ry="2.4" fill="#040202" opacity="0.62"/>
+    <ellipse cx="540" cy="166" rx="3.6" ry="6" fill="#7a2530"/>
+    <ellipse cx="540" cy="168" rx="2.4" ry="4" fill="#d83838"/>
+    <rect x="537" y="160" width="6" height="3" fill="#a83838"/>
+    <circle cx="540" cy="158" r="2" fill="#a87858"/>
+    <path d="M 537 156 L 543 156" stroke="#7a2530" stroke-width="1.4"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomDD3)">
+    <circle cx="540" cy="164" r="6" fill="#d83838" opacity="0.42"/>
+  </g>
+
+  <!-- Luma (sapphire-violet) — gesturing, the constellation collapsing into her scanner -->
+  <g>
+    <ellipse cx="452" cy="174" rx="4" ry="2.4" fill="#040202" opacity="0.62"/>
+    <ellipse cx="452" cy="168" rx="3" ry="6" fill="#3a2868"/>
+    <ellipse cx="452" cy="170" rx="2" ry="4" fill="#6a5acd"/>
+    <circle cx="452" cy="160" r="2" fill="#a87858"/>
+    <path d="M 449 159 Q 452 156 455 159" stroke="#1a1230" stroke-width="1.2" fill="none"/>
+    <ellipse cx="450.6" cy="159" rx="1" ry="0.6" fill="#a878d8"/>
+    <!-- raised arm gesturing toward the contracting field -->
+    <path d="M 452 164 L 448 144" stroke="#6a5acd" stroke-width="1.6" stroke-linecap="round"/>
+    <!-- the scanner in her hand, the field collapsing into it -->
+    <ellipse cx="446" cy="140" rx="3.4" ry="2.4" fill="#1a1230"/>
+    <ellipse cx="446" cy="140" rx="2" ry="1.4" fill="url(#scannerNodeDD3)"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowDD3)">
+    <circle cx="446" cy="140" r="10" fill="#a878d8" opacity="0.55"/>
+  </g>
+  <g opacity="0.62" filter="url(#bloomDD3)">
+    <circle cx="452" cy="166" r="6" fill="#6a5acd" opacity="0.55"/>
+  </g>
+  <!-- bright convergence: all residual threads sucked into the scanner -->
+  <g opacity="0.55" filter="url(#megaGlowDD3)">
+    <line x1="200" y1="90" x2="446" y2="140" stroke="#a878d8" stroke-width="6" opacity="0.28"/>
+    <line x1="560" y1="88" x2="446" y2="140" stroke="#a878d8" stroke-width="6" opacity="0.28"/>
+    <line x1="330" y1="104" x2="446" y2="140" stroke="#a878d8" stroke-width="6" opacity="0.28"/>
+  </g>
+
+  <!-- floor beam line and shadow, the steeple grounded again -->
+  <g opacity="0.85" stroke="#080404" stroke-width="0.5">
+    <line x1="40" y1="178" x2="240" y2="174"/>
+    <line x1="240" y1="174" x2="460" y2="180"/>
+    <line x1="460" y1="180" x2="700" y2="174"/>
+  </g>
   <g opacity="0.65">
-    <ellipse cx="123" cy="262" rx="100" ry="3" fill="#040202" opacity="0.42"/>
+    <ellipse cx="371" cy="262" rx="300" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+
+  <!-- Dialogue: LUMA (sapphire-violet), left -->
+  <g transform="translate(14,12)">
+    <rect x="-6" y="0" width="372" height="40" rx="3" fill="#1a1828" opacity="0.95" stroke="#7848b8" stroke-width="1.2"/>
+    <text x="-2" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#a878d8" font-weight="700">LUMA:</text>
+    <text x="34" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#1a1410">"I can't separate my analysis from my desire</text>
+    <text x="-2" y="21" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#1a1410">to stay. I know that. I've tried. The evidence is</text>
+    <text x="-2" y="31" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#1a1410">the evidence. The bias is the bias. Both exist."</text>
+  </g>
+
+  <!-- Dialogue: WREN (copper), right -->
+  <g transform="translate(430,12)">
+    <rect x="-6" y="0" width="306" height="30" rx="3" fill="#1a1828" opacity="0.95" stroke="#c87533" stroke-width="1.2"/>
+    <text x="-2" y="11" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#c87533" font-weight="700">WREN <tspan fill="#a85820" font-style="italic">(quiet):</tspan></text>
+    <text x="-2" y="21" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#1a1410" font-style="italic">"That's the most honest thing anyone's</text>
+    <text x="-2" y="29" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6" fill="#1a1410" font-style="italic">said on this mission."</text>
   </g>
 </svg>

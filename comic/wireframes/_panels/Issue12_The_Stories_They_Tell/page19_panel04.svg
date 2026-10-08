@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 240" width="742" height="240">
+  <title>Issue 12 Page 19 Panel 4 — Five who know, in morning light, and the boy who will tell it</title>
+  <desc>Split footer. LEFT (two-thirds): five tiny figures in maximum-degradation metallic suits — silver, copper, emerald, crimson, sapphire-violet — stand on timber beams inside a church steeple in morning light, each suit heavily damaged and soot-covered yet holographic light still bleeds through the grime in five department colors; they look at each other, no displays, no projection, five people who know what they are now. RIGHT (one-third): a Victorian boy's face through a stone window gap below, sandy-brown hair, hazel eyes wide, freckles, looking up — seeing his friends differently. Warm amber morning light dominant; faintest cool holographic glow filtered through stone. The degradation arc at its peak, the beauty at its deepest. Wordless.</desc>
+  <defs>
+    <linearGradient id="bgEP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.45" stop-color="#f4b860"/>
+      <stop offset="0.85" stop-color="#5a4858"/>
+      <stop offset="1" stop-color="#3a2838"/>
+    </linearGradient>
+    <radialGradient id="goldenAmberEP4" cx="0.42" cy="0.4" r="0.62">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stoneEP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a6878"/>
+      <stop offset="0.5" stop-color="#5a4858"/>
+      <stop offset="1" stop-color="#3a2838"/>
+    </linearGradient>
+    <linearGradient id="archEP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8d8"/>
+      <stop offset="0.5" stop-color="#f4b860"/>
+      <stop offset="1" stop-color="#a85820"/>
+    </linearGradient>
+    <linearGradient id="beamEP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3a22"/>
+      <stop offset="0.5" stop-color="#3a2410"/>
+      <stop offset="1" stop-color="#1a0a04"/>
+    </linearGradient>
+    <linearGradient id="suitSilverEP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a8898"/>
+      <stop offset="0.5" stop-color="#3a4858"/>
+      <stop offset="1" stop-color="#1a2030"/>
+    </linearGradient>
+    <linearGradient id="suitCopperEP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a4818"/>
+      <stop offset="0.4" stop-color="#5a3018"/>
+      <stop offset="1" stop-color="#1a0804"/>
+    </linearGradient>
+    <linearGradient id="suitEmeraldEP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a8858"/>
+      <stop offset="0.4" stop-color="#1a4830"/>
+      <stop offset="1" stop-color="#0a2018"/>
+    </linearGradient>
+    <linearGradient id="suitCrimsonEP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a83838"/>
+      <stop offset="0.4" stop-color="#7a2530"/>
+      <stop offset="1" stop-color="#1a0810"/>
+    </linearGradient>
+    <linearGradient id="suitSapphireEP4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7848b8"/>
+      <stop offset="0.4" stop-color="#3a2868"/>
+      <stop offset="1" stop-color="#1a1028"/>
+    </linearGradient>
+    <radialGradient id="theoLightEP4" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#fff0c8" stop-opacity="0.85"/>
+      <stop offset="0.6" stop-color="#d89848" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#1a0e08" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bloomEP4" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="strongGlowEP4" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4.2"/>
+    </filter>
+    <filter id="megaGlowEP4" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="742" height="240" fill="url(#bgEP4)"/>
+  <rect width="742" height="240" fill="url(#goldenAmberEP4)"/>
+
+  <!-- ===================== LEFT: the five who know (two-thirds) ===================== -->
+  <g>
+    <rect x="0" y="0" width="496" height="240" fill="url(#stoneEP4)" opacity="0.4"/>
+    <path d="M 56 0 Q 56 56 94 56 L 170 56 Q 208 56 208 0 Z" fill="url(#archEP4)" opacity="0.85"/>
+    <path d="M 296 0 Q 296 56 334 56 L 410 56 Q 448 56 448 0 Z" fill="url(#archEP4)" opacity="0.85"/>
+
+    <rect x="0" y="178" width="496" height="14" fill="url(#beamEP4)"/>
+    <rect x="0" y="178" width="496" height="3" fill="#9a6028" opacity="0.62"/>
+    <rect x="0" y="106" width="496" height="9" fill="url(#beamEP4)"/>
+  </g>
+  <g opacity="0.85" filter="url(#bloomEP4)">
+    <path d="M 56 0 Q 56 56 94 56 L 170 56 Q 208 56 208 0 Z" fill="#fff8d8" opacity="0.42"/>
+    <path d="M 296 0 Q 296 56 334 56 L 410 56 Q 448 56 448 0 Z" fill="#fff8d8" opacity="0.42"/>
+  </g>
+
+  <!-- morning light shafts -->
+  <g opacity="0.55" filter="url(#megaGlowEP4)">
+    <line x1="120" y1="0" x2="120" y2="240" stroke="#fff8d8" stroke-width="22" opacity="0.3"/>
+    <line x1="250" y1="0" x2="250" y2="240" stroke="#fff8d8" stroke-width="22" opacity="0.3"/>
+    <line x1="380" y1="0" x2="380" y2="240" stroke="#fff8d8" stroke-width="22" opacity="0.3"/>
+  </g>
+
+  <!-- SABLE (silver) - watching all of them -->
+  <g>
+    <ellipse cx="70" cy="174" rx="9" ry="3" fill="#040202" opacity="0.62"/>
+    <ellipse cx="70" cy="154" rx="9" ry="14" fill="url(#suitSilverEP4)"/>
+    <path d="M 61 138 L 79 138 L 81 172 L 59 172 Z" fill="url(#suitSilverEP4)"/>
+    <path d="M 61 142 L 66 140 L 64 150 L 59 152 Z" fill="#1a1810" opacity="0.85"/>
+    <path d="M 75 152 L 80 150 L 78 158 L 73 160 Z" fill="#1a1810" opacity="0.85"/>
+    <line x1="61" y1="144" x2="79" y2="144" stroke="#a8c0e0" stroke-width="0.4" opacity="0.62"/>
+    <ellipse cx="70" cy="129" rx="6" ry="6" fill="#5a3818"/>
+    <path d="M 64 126 Q 70 120 76 126 Q 77 128 75 130 L 65 130 Q 63 128 64 126 Z" fill="#a8a8a8"/>
+    <circle cx="68" cy="129" r="0.55" fill="#0a0604"/>
+    <circle cx="72" cy="129" r="0.55" fill="#0a0604"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowEP4)">
+    <ellipse cx="70" cy="154" rx="13" ry="13" fill="#a8c0e0" opacity="0.42"/>
+  </g>
+
+  <!-- WREN (copper) - reluctant acceptance -->
+  <g>
+    <ellipse cx="158" cy="176" rx="9" ry="3" fill="#040202" opacity="0.62"/>
+    <ellipse cx="158" cy="156" rx="9" ry="14" fill="url(#suitCopperEP4)"/>
+    <path d="M 149 140 L 167 140 L 169 174 L 147 174 Z" fill="url(#suitCopperEP4)"/>
+    <path d="M 149 144 L 154 142 L 152 152 L 147 154 Z" fill="#1a0804" opacity="0.85"/>
+    <line x1="149" y1="146" x2="167" y2="146" stroke="#d88838" stroke-width="0.4" opacity="0.62"/>
+    <ellipse cx="158" cy="131" rx="6" ry="6" fill="#a87858"/>
+    <path d="M 152 128 Q 158 122 164 128 Q 165 132 163 134 Q 160 126 154 130 Q 152 132 152 132 L 152 132 Z" fill="#3a2818"/>
+    <circle cx="156" cy="131" r="0.55" fill="#0a0604"/>
+    <circle cx="160" cy="131" r="0.55" fill="#0a0604"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowEP4)">
+    <ellipse cx="158" cy="156" rx="13" ry="13" fill="#d88838" opacity="0.42"/>
+  </g>
+
+  <!-- JINK (emerald) - quiet purpose -->
+  <g>
+    <ellipse cx="244" cy="174" rx="9" ry="3" fill="#040202" opacity="0.62"/>
+    <ellipse cx="244" cy="154" rx="9" ry="14" fill="url(#suitEmeraldEP4)"/>
+    <path d="M 235 138 L 253 138 L 255 172 L 233 172 Z" fill="url(#suitEmeraldEP4)"/>
+    <path d="M 235 142 L 253 142" stroke="#fff088" stroke-width="0.4" opacity="0.85"/>
+    <ellipse cx="244" cy="129" rx="6" ry="6" fill="#a87858"/>
+    <path d="M 237 126 Q 245 118 253 126 Q 253 130 251 132 Q 247 124 243 126 Q 239 126 237 132 Q 237 128 237 126 Z" fill="#fff088"/>
+    <circle cx="242" cy="129" r="0.55" fill="#0a0604"/>
+    <circle cx="246" cy="129" r="0.55" fill="#0a0604"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowEP4)">
+    <ellipse cx="244" cy="154" rx="13" ry="13" fill="#3a8858" opacity="0.55"/>
+  </g>
+
+  <!-- THRESH (crimson) - afraid and choosing -->
+  <g>
+    <ellipse cx="332" cy="176" rx="10" ry="3" fill="#040202" opacity="0.62"/>
+    <ellipse cx="332" cy="155" rx="11" ry="14" fill="url(#suitCrimsonEP4)"/>
+    <path d="M 321 139 L 343 139 L 345 174 L 319 174 Z" fill="url(#suitCrimsonEP4)"/>
+    <path d="M 321 143 L 343 143" stroke="#d83838" stroke-width="0.55" opacity="0.85"/>
+    <ellipse cx="332" cy="130" rx="6" ry="6" fill="#a87858"/>
+    <path d="M 326 127 Q 332 121 338 127 Q 339 131 337 133 L 327 133 Q 325 131 326 127 Z" fill="#a85020"/>
+    <circle cx="330" cy="130" r="0.55" fill="#0a0604"/>
+    <circle cx="334" cy="130" r="0.55" fill="#0a0604"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowEP4)">
+    <ellipse cx="332" cy="155" rx="13" ry="13" fill="#d83838" opacity="0.42"/>
+  </g>
+
+  <!-- LUMA (sapphire-violet) - exhausted honesty -->
+  <g>
+    <ellipse cx="420" cy="174" rx="9" ry="3" fill="#040202" opacity="0.62"/>
+    <ellipse cx="420" cy="154" rx="9" ry="14" fill="url(#suitSapphireEP4)"/>
+    <path d="M 411 138 L 429 138 L 431 172 L 409 172 Z" fill="url(#suitSapphireEP4)"/>
+    <ellipse cx="420" cy="129" rx="6" ry="6" fill="#a87858"/>
+    <ellipse cx="417" cy="129" rx="2" ry="1" fill="#5a38a8"/>
+    <ellipse cx="423" cy="129" rx="2" ry="1" fill="#a878d8"/>
+    <line x1="415" y1="129" x2="425" y2="129" stroke="#d88838" stroke-width="0.4" opacity="0.62"/>
+    <circle cx="417" cy="129" r="0.55" fill="#080404"/>
+    <circle cx="423" cy="129" r="0.55" fill="#080404"/>
+    <path d="M 409 172 L 405 192 L 402 212" stroke="#3a2818" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.85" filter="url(#strongGlowEP4)">
+    <ellipse cx="420" cy="154" rx="13" ry="13" fill="#a878d8" opacity="0.55"/>
+  </g>
+
+  <!-- gazes meeting: faint sightlines between the five (not a constellation, just looks shared) -->
+  <g opacity="0.5" stroke="#3a2818" stroke-width="0.4" stroke-dasharray="2,3" fill="none">
+    <line x1="78" y1="138" x2="150" y2="142"/>
+    <line x1="166" y1="142" x2="236" y2="140"/>
+    <line x1="252" y1="140" x2="322" y2="141"/>
+    <line x1="343" y1="141" x2="412" y2="140"/>
+  </g>
+
+  <!-- ===================== divider ===================== -->
+  <rect x="494" y="0" width="6" height="240" fill="#1a1410" opacity="0.85"/>
+  <rect x="498" y="0" width="2" height="240" fill="#5a4838" opacity="0.6"/>
+
+  <!-- ===================== RIGHT: Theodore, glimpsed below (one-third) ===================== -->
+  <g>
+    <rect x="500" y="0" width="242" height="240" fill="url(#stoneEP4)" opacity="0.6"/>
+    <rect x="500" y="0" width="242" height="240" fill="#2a1e18" opacity="0.45"/>
+    <!-- stone window gap framing him -->
+    <path d="M 524 0 L 524 200 Q 524 232 560 232 L 684 232 Q 718 232 718 200 L 718 0 Z" fill="#0a0604" opacity="0.7"/>
+    <path d="M 540 0 L 540 196 Q 540 218 566 218 L 678 218 Q 702 218 702 196 L 702 0 Z" fill="url(#theoLightEP4)" opacity="0.9"/>
+  </g>
+
+  <!-- warm amber morning light on his upturned face -->
+  <g opacity="0.7" filter="url(#bloomEP4)">
+    <ellipse cx="620" cy="118" rx="60" ry="74" fill="#f4c060" opacity="0.32"/>
+  </g>
+  <!-- faintest cool holographic glow filtered down through stone from the steeple above -->
+  <g opacity="0.5" filter="url(#megaGlowEP4)">
+    <line x1="620" y1="0" x2="620" y2="120" stroke="#a8c0e0" stroke-width="18" opacity="0.22"/>
+  </g>
+
+  <!-- Theodore: close-up upturned face -->
+  <g>
+    <!-- neck/collar -->
+    <path d="M 600 188 L 640 188 L 648 232 L 592 232 Z" fill="#4a3622"/>
+    <path d="M 606 186 L 634 186 L 634 200 L 606 200 Z" fill="#3a2818"/>
+    <!-- face, tilted up -->
+    <ellipse cx="620" cy="138" rx="42" ry="50" fill="#d8a878"/>
+    <path d="M 578 130 Q 580 96 620 92 Q 660 96 662 130 Q 658 110 620 108 Q 582 110 578 130 Z" fill="#7a4818"/>
+    <!-- sandy-brown hair tufts -->
+    <path d="M 584 112 Q 600 88 620 92 Q 640 88 656 112 Q 648 100 620 100 Q 592 100 584 112 Z" fill="#a87838"/>
+    <!-- freckles -->
+    <circle cx="600" cy="150" r="1.3" fill="#a86838" opacity="0.7"/>
+    <circle cx="606" cy="156" r="1.3" fill="#a86838" opacity="0.7"/>
+    <circle cx="634" cy="150" r="1.3" fill="#a86838" opacity="0.7"/>
+    <circle cx="640" cy="156" r="1.3" fill="#a86838" opacity="0.7"/>
+    <circle cx="620" cy="160" r="1.2" fill="#a86838" opacity="0.6"/>
+    <!-- brows lifted -->
+    <path d="M 596 130 Q 606 124 616 128" stroke="#6a4820" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M 624 128 Q 634 124 644 130" stroke="#6a4820" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- hazel eyes, wide, looking up -->
+    <ellipse cx="606" cy="138" rx="6.5" ry="5.5" fill="#fff8f0"/>
+    <ellipse cx="634" cy="138" rx="6.5" ry="5.5" fill="#fff8f0"/>
+    <circle cx="606" cy="135" r="3.2" fill="#7a5a28"/>
+    <circle cx="634" cy="135" r="3.2" fill="#7a5a28"/>
+    <circle cx="606" cy="134" r="1.5" fill="#1a0e04"/>
+    <circle cx="634" cy="134" r="1.5" fill="#1a0e04"/>
+    <circle cx="607.4" cy="133" r="0.7" fill="#fff8f0"/>
+    <circle cx="635.4" cy="133" r="0.7" fill="#fff8f0"/>
+    <!-- nose -->
+    <path d="M 620 142 L 616 156 Q 620 159 624 156 Z" fill="#c89868"/>
+    <!-- mouth, slightly parted in wonder -->
+    <path d="M 610 170 Q 620 176 630 170 Q 620 173 610 170 Z" fill="#7a4838"/>
+  </g>
+
+  <!-- a single soft narration caption (the brief's optional one) -->
+  <g transform="translate(508,12)">
+    <rect x="0" y="0" width="222" height="30" rx="2" fill="#1a1828" stroke="#5a3818" stroke-width="1" opacity="0.9"/>
+    <text x="111" y="20" font-family="Georgia, serif" font-style="italic" font-size="12" fill="#f4d8a8" text-anchor="middle">The fairy tales they always were.</text>
+  </g>
+
+  <!-- floor shadow grounding the five (left) -->
+  <g opacity="0.65">
+    <ellipse cx="246" cy="196" rx="210" ry="3" fill="#040202" opacity="0.42"/>
+  </g>
+</svg>

@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 600" width="742" height="600">
-  <title>Issue 12 Page 15 Panel 1 — SPLASH — Theodore and Jink, "We did it."</title>
-  <desc>SPLASH slightly low angle. Victorian boy 12-13 kneels at open cast-iron cabinet on London street, holding up dark crystalline node — inert, cold, catching morning light like strange gem. Hazel eyes examine it with wonder and quiet pride. Beside his arm, standing on cabinet rim, tiny figure in degraded emerald suit rests one small hand on boy's enormous wrist. They look at each other — boy down, fairy up — equal relief, equal joy, equal partnership. Scale contrast enormous. Behind them, London street in full morning light — pedestrians, shop fronts, oblivious city. The dead node catches no alien glow. Jink's emerald glow dim, present but not performing. The fairy and the boy — the moment after.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 280" width="742" height="280">
+  <title>Issue 12 Page 15 Panel 1 — SPLASH continuous-motion arc, dead node to living nape — Theodore, "Pressure... rotation... the way the node did."</title>
+  <desc>Wide lateral full-width SPLASH emphasizing one unbroken motion. LEFT: an open cast-iron telegraph cabinet with a dark dead crystalline node; Theodore's oil-stained hand half-holds the extracted crystal, still trailing it. The same hand sweeps in one continuous arc across the full width of the frame — no cut, no seam — to the RIGHT where Cribbage sits slumped, his nape bearing a small alien plug, the other hand arriving over it. A dying-light thread runs cabinet-to-neck along the path of the sweep. A copper-gold holographic geometry guide (Wren) traces the arc; a blue-violet vitals readout (Luma) holds steady over Cribbage's neck. Theodore's expression is concentrated, still, the craftsman's calm with fear pressed beneath. Morning light warm and even across the whole sweep; copper-gold and blue-violet fairy-light bracket the motion.</desc>
   <defs>
     <linearGradient id="bgZ1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#a87878"/>
-      <stop offset="0.4" stop-color="#fff8d8"/>
-      <stop offset="0.7" stop-color="#5a4858"/>
-      <stop offset="1" stop-color="#3a2838"/>
+      <stop offset="0.42" stop-color="#fff8d8"/>
+      <stop offset="0.72" stop-color="#5a4858"/>
+      <stop offset="1" stop-color="#2a1c28"/>
     </linearGradient>
-    <radialGradient id="goldenMorningZ1" cx="0.5" cy="0.4" r="0.62">
-      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.62"/>
-      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.42"/>
+    <radialGradient id="goldenMorningZ1" cx="0.5" cy="0.34" r="0.78">
+      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.6"/>
+      <stop offset="0.5" stop-color="#f4b860" stop-opacity="0.38"/>
       <stop offset="1" stop-color="#0a0a14" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="cobbleZ1" x1="0" y1="0" x2="0" y2="1">
@@ -28,228 +28,234 @@
       <stop offset="0.5" stop-color="#1a1828"/>
       <stop offset="1" stop-color="#080404"/>
     </linearGradient>
-    <linearGradient id="hairTheoZ1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff088"/>
-      <stop offset="0.4" stop-color="#a85020"/>
-      <stop offset="0.8" stop-color="#7a3818"/>
-      <stop offset="1" stop-color="#3a1a08"/>
-    </linearGradient>
     <linearGradient id="faceTheoZ1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fff8d8"/>
       <stop offset="0.4" stop-color="#d8a878"/>
       <stop offset="0.8" stop-color="#a87858"/>
       <stop offset="1" stop-color="#5a3818"/>
     </linearGradient>
-    <radialGradient id="eyeWonderZ1" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#fff8d8" stop-opacity="0.95"/>
-      <stop offset="0.5" stop-color="#a87838" stop-opacity="0.85"/>
-      <stop offset="1" stop-color="#a87838" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="waistcoatZ1" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="sleeveTheoZ1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#7a4818"/>
       <stop offset="0.5" stop-color="#5a3018"/>
       <stop offset="1" stop-color="#3a1808"/>
-    </linearGradient>
-    <linearGradient id="trousersZ1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3a2818"/>
-      <stop offset="0.5" stop-color="#1a1008"/>
-      <stop offset="1" stop-color="#080404"/>
     </linearGradient>
     <linearGradient id="brassRingZ1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fff8d8"/>
       <stop offset="0.4" stop-color="#d88838"/>
       <stop offset="1" stop-color="#5a2e10"/>
     </linearGradient>
-    <linearGradient id="suitJinkZ1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3a8858"/>
-      <stop offset="0.4" stop-color="#1a4830"/>
-      <stop offset="1" stop-color="#0a2018"/>
-    </linearGradient>
-    <linearGradient id="hairBlondeZ1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff088"/>
-      <stop offset="0.5" stop-color="#d88838"/>
-      <stop offset="1" stop-color="#7a4818"/>
-    </linearGradient>
     <linearGradient id="deadCrystalZ1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#3a1810"/>
       <stop offset="0.5" stop-color="#1a0810"/>
       <stop offset="1" stop-color="#040206"/>
+    </linearGradient>
+    <linearGradient id="cribClothZ1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a4830"/>
+      <stop offset="0.5" stop-color="#3a2c18"/>
+      <stop offset="1" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="cribNeckZ1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8c098"/>
+      <stop offset="0.5" stop-color="#c89868"/>
+      <stop offset="1" stop-color="#7a4828"/>
+    </linearGradient>
+    <linearGradient id="plugZ1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3098"/>
+      <stop offset="0.5" stop-color="#3a2868"/>
+      <stop offset="1" stop-color="#1a1430"/>
     </linearGradient>
     <linearGradient id="pedestrianZ1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#3a2818"/>
       <stop offset="0.5" stop-color="#1a1008"/>
       <stop offset="1" stop-color="#080404"/>
     </linearGradient>
+    <linearGradient id="archThreadZ1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d88838" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#fff088" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#6a5acd" stop-opacity="0.9"/>
+    </linearGradient>
     <filter id="bloomZ1" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.4"/>
+      <feGaussianBlur stdDeviation="2.2"/>
     </filter>
     <filter id="strongGlowZ1" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="4.4"/>
+      <feGaussianBlur stdDeviation="4"/>
     </filter>
-    <filter id="megaGlowZ1" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="7"/>
+    <filter id="megaGlowZ1" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="6.2"/>
     </filter>
   </defs>
 
-  <rect width="742" height="600" fill="url(#bgZ1)"/>
-  <rect width="742" height="600" fill="url(#goldenMorningZ1)"/>
+  <rect width="742" height="280" fill="url(#bgZ1)"/>
+  <rect width="742" height="280" fill="url(#goldenMorningZ1)"/>
 
   <g>
-    <rect x="0" y="0" width="742" height="320" fill="url(#buildingZ1)" opacity="0.85"/>
-    <g opacity="0.55" stroke="#3a1808" stroke-width="0.4">
-      <line x1="0" y1="60" x2="742" y2="60"/>
+    <rect x="0" y="0" width="742" height="150" fill="url(#buildingZ1)" opacity="0.82"/>
+    <g opacity="0.5" stroke="#3a1808" stroke-width="0.4">
+      <line x1="0" y1="36" x2="742" y2="36"/>
+      <line x1="0" y1="78" x2="742" y2="78"/>
       <line x1="0" y1="120" x2="742" y2="120"/>
-      <line x1="0" y1="180" x2="742" y2="180"/>
-      <line x1="0" y1="240" x2="742" y2="240"/>
     </g>
-
-    <rect x="40" y="80" width="50" height="80" fill="#080404" opacity="0.85"/>
-    <rect x="120" y="80" width="50" height="80" fill="#080404" opacity="0.85"/>
-    <rect x="220" y="80" width="50" height="80" fill="#080404" opacity="0.85"/>
-    <rect x="500" y="80" width="50" height="80" fill="#080404" opacity="0.85"/>
-    <rect x="580" y="80" width="50" height="80" fill="#080404" opacity="0.85"/>
-    <rect x="660" y="80" width="50" height="80" fill="#080404" opacity="0.85"/>
-
-    <rect x="320" y="200" width="100" height="120" fill="#3a2010"/>
-    <rect x="328" y="208" width="84" height="100" fill="#080404" opacity="0.85"/>
-    <text x="370" y="260" text-anchor="middle" font-family="Times New Roman, serif" font-size="9" fill="#a87858" font-weight="700">SHOP</text>
-
-    <rect x="0" y="320" width="742" height="20" fill="#1a0a04"/>
+    <rect x="36" y="44" width="40" height="58" fill="#080404" opacity="0.82"/>
+    <rect x="110" y="44" width="40" height="58" fill="#080404" opacity="0.82"/>
+    <rect x="600" y="44" width="40" height="58" fill="#080404" opacity="0.82"/>
+    <rect x="678" y="44" width="40" height="58" fill="#080404" opacity="0.82"/>
+    <rect x="318" y="40" width="92" height="110" fill="#3a2010"/>
+    <rect x="326" y="48" width="76" height="92" fill="#080404" opacity="0.82"/>
+    <text x="364" y="98" text-anchor="middle" font-family="Times New Roman, serif" font-size="8" fill="#a87858" font-weight="700">SHOP</text>
+    <rect x="0" y="150" width="742" height="14" fill="#1a0a04"/>
   </g>
 
   <g>
-    <rect x="0" y="340" width="742" height="260" fill="url(#cobbleZ1)"/>
-    <g opacity="0.62" stroke="#1a1018" stroke-width="0.55">
-      <path d="M 0 380 Q 100 382 200 380 Q 300 378 400 380 Q 500 382 600 380 Q 680 378 742 380"/>
-      <path d="M 0 420 Q 100 422 200 420 Q 300 418 400 420 Q 500 422 600 420 Q 680 418 742 420"/>
-      <path d="M 0 470 Q 100 472 200 470 Q 300 468 400 470 Q 500 472 600 470 Q 680 468 742 470"/>
-      <path d="M 0 520 Q 100 522 200 520 Q 300 518 400 520 Q 500 522 600 520 Q 680 518 742 520"/>
-      <path d="M 0 570 Q 100 572 200 570 Q 300 568 400 570 Q 500 572 600 570 Q 680 568 742 570"/>
+    <rect x="0" y="164" width="742" height="116" fill="url(#cobbleZ1)"/>
+    <g opacity="0.58" stroke="#1a1018" stroke-width="0.5">
+      <path d="M 0 196 Q 120 198 240 196 Q 380 194 520 196 Q 640 198 742 196"/>
+      <path d="M 0 224 Q 120 226 240 224 Q 380 222 520 224 Q 640 226 742 224"/>
+      <path d="M 0 254 Q 120 256 240 254 Q 380 252 520 254 Q 640 256 742 254"/>
     </g>
   </g>
 
-  <g opacity="0.62">
-    <ellipse cx="100" cy="450" rx="14" ry="3" fill="#040202"/>
-    <ellipse cx="100" cy="430" rx="9" ry="22" fill="url(#pedestrianZ1)"/>
-    <ellipse cx="100" cy="406" rx="6" ry="9" fill="#3a2010"/>
-
-    <ellipse cx="640" cy="440" rx="11" ry="2" fill="#040202"/>
-    <ellipse cx="640" cy="420" rx="6" ry="14" fill="url(#pedestrianZ1)"/>
-    <ellipse cx="640" cy="404" rx="3" ry="4" fill="#3a2010"/>
+  <g opacity="0.55">
+    <ellipse cx="70" cy="208" rx="10" ry="2.4" fill="#040202"/>
+    <ellipse cx="70" cy="194" rx="6" ry="15" fill="url(#pedestrianZ1)"/>
+    <ellipse cx="70" cy="178" rx="4" ry="5.5" fill="#3a2010"/>
+    <ellipse cx="678" cy="200" rx="9" ry="2" fill="#040202"/>
+    <ellipse cx="678" cy="188" rx="5" ry="12" fill="url(#pedestrianZ1)"/>
+    <ellipse cx="678" cy="175" rx="3" ry="4" fill="#3a2010"/>
   </g>
 
+  <!-- LEFT: open cast-iron cabinet with dead crystalline node -->
   <g>
-    <ellipse cx="500" cy="540" rx="40" ry="9" fill="#040202" opacity="0.62"/>
-    <rect x="460" y="380" width="80" height="160" fill="url(#cabinetIronZ1)"/>
-    <rect x="460" y="380" width="80" height="11" fill="#080404"/>
-    <rect x="466" y="396" width="68" height="120" fill="#0a0a14" opacity="0.85"/>
-    <line x1="460" y1="540" x2="540" y2="540" stroke="#080404" stroke-width="0.7"/>
+    <ellipse cx="120" cy="256" rx="58" ry="8" fill="#040202" opacity="0.6"/>
+    <rect x="74" y="150" width="92" height="106" fill="url(#cabinetIronZ1)"/>
+    <rect x="74" y="150" width="92" height="9" fill="#080404"/>
+    <rect x="82" y="164" width="76" height="84" fill="#0a0a14" opacity="0.85"/>
+    <line x1="74" y1="256" x2="166" y2="256" stroke="#080404" stroke-width="0.7"/>
+    <!-- telegraph wiring inside -->
+    <path d="M 90 178 Q 110 188 130 180 Q 148 174 156 186" stroke="#7a4818" stroke-width="1.6" fill="none" opacity="0.6"/>
+    <path d="M 90 200 Q 112 210 134 202 Q 150 196 156 208" stroke="#c87533" stroke-width="1.4" fill="none" opacity="0.5"/>
+    <path d="M 90 222 Q 110 230 132 224" stroke="#7a4818" stroke-width="1.4" fill="none" opacity="0.5"/>
+    <!-- spent inert nodes set aside -->
+    <path d="M 96 240 l 8 0 l 4 5 l -4 5 l -8 0 l -4 -5 Z" fill="url(#deadCrystalZ1)" opacity="0.9"/>
+    <path d="M 116 244 l 7 0 l 3 4 l -3 4 l -7 0 l -3 -4 Z" fill="url(#deadCrystalZ1)" opacity="0.9"/>
   </g>
 
+  <!-- dead crystalline node Theodore still half-holds (left) -->
   <g>
-    <ellipse cx="220" cy="580" rx="100" ry="14" fill="#040202" opacity="0.62"/>
-
-    <path d="M 140 380 L 240 380 L 260 580 L 120 580 Z" fill="url(#waistcoatZ1)"/>
-    <line x1="190" y1="384" x2="195" y2="580" stroke="#1a0a08" stroke-width="0.85" opacity="0.55"/>
-    <circle cx="192" cy="420" r="2" fill="#3a1808"/>
-    <circle cx="194" cy="460" r="2" fill="#3a1808"/>
-    <circle cx="196" cy="500" r="2" fill="#3a1808"/>
-
-    <path d="M 156 340 L 224 340 L 230 380 L 152 380 Z" fill="#fff8d8"/>
-    <line x1="158" y1="346" x2="226" y2="346" stroke="#a87858" stroke-width="0.55"/>
-
-    <path d="M 240 380 L 280 360 L 320 350 L 360 340 L 400 320" stroke="url(#faceTheoZ1)" stroke-width="32" fill="none" stroke-linecap="round"/>
-
-    <ellipse cx="412" cy="320" rx="22" ry="14" fill="url(#faceTheoZ1)"/>
-
-    <ellipse cx="380" cy="350" rx="6" ry="4" fill="url(#brassRingZ1)"/>
-    <ellipse cx="380" cy="350" rx="3" ry="2" fill="#3a1a08"/>
-
-    <ellipse cx="220" cy="240" rx="60" ry="70" fill="url(#faceTheoZ1)"/>
-
-    <path d="M 160 200 Q 200 156 220 156 Q 240 156 280 200 Q 290 220 285 240 L 270 234 Q 240 188 220 184 Q 200 188 170 234 L 155 240 Q 150 220 160 200 Z" fill="url(#hairTheoZ1)"/>
-    <path d="M 175 192 Q 195 178 215 188" stroke="#7a3818" stroke-width="2" fill="none" opacity="0.62"/>
-    <path d="M 225 188 Q 245 178 265 192" stroke="#7a3818" stroke-width="2" fill="none" opacity="0.62"/>
-    <path d="M 200 174 Q 220 168 240 174" stroke="#7a3818" stroke-width="2" fill="none" opacity="0.62"/>
-
-    <ellipse cx="200" cy="244" rx="8" ry="10" fill="#0a0604"/>
-    <circle cx="200" cy="244" r="5" fill="#5a3018"/>
-    <circle cx="202" cy="242" r="2.4" fill="url(#eyeWonderZ1)"/>
-    <circle cx="200" cy="244" r="1" fill="#080404"/>
-
-    <ellipse cx="244" cy="244" rx="8" ry="10" fill="#0a0604"/>
-    <circle cx="244" cy="244" r="5" fill="#5a3018"/>
-    <circle cx="246" cy="242" r="2.4" fill="url(#eyeWonderZ1)"/>
-    <circle cx="244" cy="244" r="1" fill="#080404"/>
-
-    <path d="M 178 230 Q 200 220 222 230" stroke="#0a0604" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-    <path d="M 222 230 Q 244 220 266 230" stroke="#0a0604" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-
-    <ellipse cx="208" cy="266" rx="9" ry="3" fill="#a85820" opacity="0.55"/>
-    <ellipse cx="236" cy="266" rx="9" ry="3" fill="#a85820" opacity="0.55"/>
-    <ellipse cx="222" cy="262" rx="3" ry="1.4" fill="#a85820" opacity="0.55"/>
-
-    <path d="M 200 296 Q 222 304 244 296" stroke="#0a0604" stroke-width="2.4" fill="none" stroke-linecap="round"/>
-    <path d="M 200 300 L 244 300" stroke="#3a2410" stroke-width="0.85" opacity="0.55"/>
-
-    <path d="M 120 580 Q 100 600 90 600" stroke="url(#trousersZ1)" stroke-width="22" fill="none" stroke-linecap="round"/>
-    <path d="M 260 580 Q 280 600 290 600" stroke="url(#trousersZ1)" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M 150 196 L 182 196 L 188 206 L 180 222 L 150 222 L 142 208 Z" fill="url(#deadCrystalZ1)"/>
+    <path d="M 150 196 L 182 196 L 166 208 Z" fill="#5a2820" opacity="0.6"/>
+    <path d="M 150 222 L 180 222 L 166 208 Z" fill="#5a2820" opacity="0.6"/>
+    <line x1="150" y1="196" x2="180" y2="222" stroke="#3a1810" stroke-width="0.5"/>
+    <line x1="182" y1="196" x2="150" y2="222" stroke="#3a1810" stroke-width="0.5"/>
+  </g>
+  <g opacity="0.32" filter="url(#bloomZ1)">
+    <circle cx="166" cy="208" r="11" fill="#a85820" opacity="0.32"/>
   </g>
 
+  <!-- dying-light thread running cabinet-to-neck along the arc -->
+  <g opacity="0.6" filter="url(#bloomZ1)">
+    <path d="M 168 206 Q 380 96 560 168" stroke="url(#archThreadZ1)" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  </g>
+  <path d="M 168 206 Q 380 96 560 168" stroke="url(#archThreadZ1)" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-dasharray="2 6" opacity="0.85"/>
+
+  <!-- LEFT hand: trailing, still half-holding the extracted node -->
   <g>
-    <path d="M 396 308 L 428 308 L 432 318 L 426 332 L 396 332 L 388 320 Z" fill="url(#deadCrystalZ1)"/>
-    <path d="M 396 308 L 428 308 L 412 320 Z" fill="#5a2820" opacity="0.62"/>
-    <path d="M 396 332 L 426 332 L 412 320 Z" fill="#5a2820" opacity="0.62"/>
-    <line x1="396" y1="308" x2="426" y2="332" stroke="#3a1810" stroke-width="0.55"/>
-    <line x1="428" y1="308" x2="396" y2="332" stroke="#3a1810" stroke-width="0.55"/>
-    <line x1="412" y1="304" x2="412" y2="332" stroke="#3a1810" stroke-width="0.4"/>
-  </g>
-  <g opacity="0.42" filter="url(#bloomZ1)">
-    <circle cx="412" cy="320" r="14" fill="#fff8d8" opacity="0.42"/>
+    <path d="M 200 232 Q 230 224 200 200" stroke="url(#sleeveTheoZ1)" stroke-width="30" fill="none" stroke-linecap="round"/>
+    <ellipse cx="172" cy="206" rx="20" ry="13" fill="url(#faceTheoZ1)"/>
+    <path d="M 158 200 Q 150 200 146 206" stroke="url(#faceTheoZ1)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 160 210 Q 151 212 147 218" stroke="url(#faceTheoZ1)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 164 216 Q 156 220 154 226" stroke="url(#faceTheoZ1)" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="184" cy="204" rx="5" ry="3.4" fill="url(#brassRingZ1)"/>
+    <ellipse cx="184" cy="204" rx="2.6" ry="1.6" fill="#3a1a08"/>
+    <path d="M 165 198 L 178 200" stroke="#5a2e10" stroke-width="0.8" opacity="0.5"/>
   </g>
 
+  <!-- copper-gold geometry guide (Wren) tracing the arc path -->
+  <g opacity="0.7" filter="url(#bloomZ1)">
+    <path d="M 190 200 Q 360 100 540 160" stroke="#d88838" stroke-width="1.6" fill="none" stroke-dasharray="6 5" opacity="0.8"/>
+  </g>
+  <g stroke="#fff088" stroke-width="0.7" fill="none" opacity="0.7">
+    <circle cx="280" cy="138" r="6"/>
+    <path d="M 274 138 L 286 138 M 280 132 L 280 144"/>
+    <circle cx="400" cy="118" r="7"/>
+    <path d="M 393 118 L 407 118 M 400 111 L 400 125"/>
+    <path d="M 396 114 L 404 122 M 404 114 L 396 122" opacity="0.7"/>
+    <path d="M 470 134 l 10 6 l -2 -7 l 7 1 Z"/>
+  </g>
+
+  <!-- RIGHT: Cribbage slumped against cabinet base -->
   <g>
-    <ellipse cx="540" cy="378" rx="3" ry="1" fill="#040202" opacity="0.55"/>
-
-    <ellipse cx="540" cy="372" rx="6" ry="9" fill="url(#suitJinkZ1)"/>
-    <path d="M 533 366 L 547 366 L 549 380 L 531 380 Z" fill="url(#suitJinkZ1)"/>
-
-    <ellipse cx="540" cy="358" rx="4" ry="5" fill="#a87858"/>
-    <path d="M 535 354 Q 540 348 545 354 Q 547 358 545 360 Q 543 354 540 356 Q 537 354 535 360 Q 533 358 535 354 Z" fill="url(#hairBlondeZ1)"/>
-    <ellipse cx="537" cy="358" rx="2" ry="3" fill="url(#hairBlondeZ1)"/>
-    <ellipse cx="543" cy="358" rx="2" ry="3" fill="url(#hairBlondeZ1)"/>
-
-    <circle cx="538" cy="358" r="0.4" fill="#0a0604"/>
-    <circle cx="542" cy="358" r="0.4" fill="#0a0604"/>
-    <path d="M 537 363 Q 540 365 543 363" stroke="#1a0a08" stroke-width="0.4" fill="none"/>
-
-    <path d="M 533 380 L 525 388 L 522 396" stroke="url(#suitJinkZ1)" stroke-width="3" fill="none" stroke-linecap="round"/>
-    <path d="M 547 380 Q 540 376 412 322" stroke="url(#suitJinkZ1)" stroke-width="3" fill="none" stroke-linecap="round"/>
-
-    <ellipse cx="416" cy="316" rx="3" ry="2" fill="url(#hairBlondeZ1)" opacity="0.85"/>
-  </g>
-  <g opacity="0.42" filter="url(#bloomZ1)">
-    <ellipse cx="540" cy="372" rx="14" ry="14" fill="#3a8858" opacity="0.42"/>
-  </g>
-  <g opacity="0.32" filter="url(#strongGlowZ1)">
-    <ellipse cx="540" cy="372" rx="22" ry="22" fill="#3a8858" opacity="0.32"/>
+    <ellipse cx="600" cy="262" rx="86" ry="11" fill="#040202" opacity="0.6"/>
+    <!-- body slumped, head low -->
+    <path d="M 552 262 Q 548 218 566 200 Q 588 182 620 188 Q 660 196 668 230 L 672 262 Z" fill="url(#cribClothZ1)"/>
+    <path d="M 566 210 Q 580 200 598 200" stroke="#1a1208" stroke-width="1" fill="none" opacity="0.5"/>
+    <!-- collar with dark vein (plugged) -->
+    <path d="M 560 200 Q 576 192 594 196 L 590 208 Q 576 204 564 210 Z" fill="#3a2c18"/>
+    <path d="M 572 202 Q 576 198 582 200" stroke="#5a3098" stroke-width="1.2" fill="none" opacity="0.7"/>
+    <!-- exposed nape / neck, head bowed forward away from us -->
+    <path d="M 560 196 Q 564 174 584 168 Q 600 164 608 176 Q 612 186 604 196 Q 588 188 572 192 Z" fill="url(#cribNeckZ1)"/>
+    <!-- bowed head (back of skull, slack) -->
+    <ellipse cx="596" cy="164" rx="24" ry="22" fill="#3a2c18"/>
+    <path d="M 576 154 Q 596 146 616 154 Q 620 162 614 172 Q 596 162 580 170 Q 574 162 576 154 Z" fill="#2a2014"/>
+    <ellipse cx="582" cy="168" rx="6" ry="8" fill="url(#cribNeckZ1)" opacity="0.85"/>
   </g>
 
-  <g opacity="0.85" filter="url(#bloomZ1)">
-    <ellipse cx="370" cy="100" rx="280" ry="40" fill="#fff8d8" opacity="0.32"/>
+  <!-- the alien plug seated in the nape -->
+  <g>
+    <ellipse cx="576" cy="184" rx="5.4" ry="4.4" fill="url(#plugZ1)"/>
+    <ellipse cx="576" cy="184" rx="2.6" ry="2" fill="#1a1430"/>
+    <ellipse cx="575" cy="183" rx="1.2" ry="1" fill="#7a5ad8" opacity="0.6"/>
+  </g>
+  <g opacity="0.4" filter="url(#bloomZ1)">
+    <circle cx="576" cy="184" r="9" fill="#5a3098" opacity="0.4"/>
   </g>
 
-  <g opacity="0.65">
-    <ellipse cx="370" cy="580" rx="280" ry="3" fill="#040202" opacity="0.42"/>
+  <!-- RIGHT hand: arriving over the plug -->
+  <g>
+    <path d="M 520 222 Q 548 206 566 192" stroke="url(#sleeveTheoZ1)" stroke-width="30" fill="none" stroke-linecap="round"/>
+    <ellipse cx="572" cy="188" rx="18" ry="12" fill="url(#faceTheoZ1)"/>
+    <path d="M 584 180 Q 592 176 596 180" stroke="url(#faceTheoZ1)" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+    <path d="M 586 186 Q 595 184 599 188" stroke="url(#faceTheoZ1)" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+    <path d="M 584 192 Q 592 192 596 196" stroke="url(#faceTheoZ1)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M 580 196 Q 586 198 588 202" stroke="url(#faceTheoZ1)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="560" cy="190" rx="5" ry="3.4" fill="url(#brassRingZ1)"/>
+    <ellipse cx="560" cy="190" rx="2.6" ry="1.6" fill="#3a1a08"/>
+    <!-- burn scar knuckle -->
+    <ellipse cx="568" cy="184" rx="2" ry="1.2" fill="#7a3818" opacity="0.6"/>
   </g>
 
+  <!-- blue-violet vitals readout (Luma) holding steady over the neck -->
+  <g opacity="0.85">
+    <rect x="612" y="150" width="60" height="34" rx="2" fill="#0a0a14" opacity="0.55" stroke="#6a5acd" stroke-width="0.8" stroke-dasharray="3 2"/>
+    <path d="M 616 168 l 6 0 l 3 -10 l 4 18 l 4 -22 l 3 14 l 5 0 l 6 0 l 4 -6 l 4 6 l 6 0"
+          stroke="#7a5ad8" stroke-width="1" fill="none" opacity="0.9"/>
+    <text x="616" y="180" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="4.6" fill="#9a8ae8" font-weight="700">VITALS · STEADY</text>
+    <text x="616" y="158" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="4.2" fill="#6a5acd">98.4°</text>
+  </g>
+  <g opacity="0.3" filter="url(#strongGlowZ1)">
+    <rect x="612" y="150" width="60" height="34" rx="2" fill="#6a5acd" opacity="0.3"/>
+  </g>
+
+  <!-- warm even morning wash across the whole sweep -->
+  <g opacity="0.8" filter="url(#bloomZ1)">
+    <ellipse cx="370" cy="60" rx="300" ry="36" fill="#fff8d8" opacity="0.28"/>
+  </g>
+  <g opacity="0.55">
+    <ellipse cx="370" cy="272" rx="300" ry="3" fill="#040202" opacity="0.4"/>
+  </g>
+
+  <!-- CAPTION: Theodore (warm narration, near-black body) -->
   <g transform="translate(14,12)">
-    <rect x="-6" y="0" width="280" height="34" rx="3" fill="#1a1828" opacity="0.95" stroke="#3a8858" stroke-width="1.4"/>
-    <text x="130" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#3a8858" font-weight="700">JINK: "You did it."</text>
+    <rect x="-6" y="0" width="290" height="44" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a2410" stroke-width="1.4"/>
+    <text x="135" y="12" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#3a2410" font-weight="700">THEODORE (low, steady):</text>
+    <text x="135" y="26" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#1a1410" font-style="italic">"Pressure... rotation... the way the</text>
+    <text x="135" y="38" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#1a1410" font-style="italic">node did."</text>
   </g>
-  <g transform="translate(440,12)">
-    <rect x="-6" y="0" width="280" height="34" rx="3" fill="#f5ecd8" opacity="0.95" stroke="#3a2410" stroke-width="1.4"/>
-    <text x="130" y="11" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#3a2410" font-weight="700">THEODORE (looking at Jink):</text>
-    <text x="130" y="22" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="9" fill="#3a2410" font-style="italic" font-weight="700">"We did it."</text>
+
+  <!-- CAPTION: Wren (radio — comms dashed stroke, copper) -->
+  <g transform="translate(434,12)">
+    <rect x="-6" y="0" width="300" height="44" rx="3" fill="#1a1828" opacity="0.95" stroke="#c87533" stroke-width="1.4" stroke-dasharray="5 3"/>
+    <text x="141" y="12" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.6" fill="#c87533" font-weight="700">WREN (radio):</text>
+    <text x="141" y="26" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8.4" fill="#f0e4d4">"Exactly. Let it seat against your fingers.</text>
+    <text x="141" y="38" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8.4" fill="#f0e4d4">Don't force the angle."</text>
   </g>
 </svg>

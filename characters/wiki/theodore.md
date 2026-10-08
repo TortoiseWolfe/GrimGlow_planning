@@ -246,6 +246,31 @@ The hidden symmetry with Jink: Jink's unauthorized contact with Theodore in Issu
 
 (Source: Theodore Inner World brainstorm; Jink-Theodore Relationship brainstorm; temporal mechanics brainstorm)</hidden>
 
+## Story Circle
+
+Theodore's personal Story Circle (Dan Harmon's eight-step adaptation of Campbell's monomyth, per Will Schoder, "Every Story Is the Same") runs alongside, but offset from, the squad's macro-circle. Harmon's method gives each ensemble member their own circle, and Theodore's is genuinely his: his zone of comfort is Cribbage's clockshop (not the squad's ship), his threshold is a shift of FRAME and STATUS rather than geography, and his want/need inversion resolves one issue before the squad's. The horizontal axis (ordinary boy crossing into a special world) is clean throughout; the vertical axis (worth-through-being-chosen toward worth-through-choosing-back) is where the arc does its real work. (Source: Story Bible; Plot Outline, Arc Threads; Theodore Inner World brainstorm)
+
+| Step | Theodore Beat | Issues | Fit |
+|------|---------------|--------|-----|
+| 1 YOU | "Theodore's World": small, routine, lonely orbit. He fixes what Cribbage can't; Cribbage takes the credit. Eats alone, works alone, walks home alone. Flaw latent, not stated. | Issue 3 pp.1-6 (Issue 1 unnamed precursor) | Clean |
+| 2 NEED | "Theodore needs to be SEEN." Mother dead, father present-but-absent, master indifferent. Wants fairies magical because magical means "you were chosen." | Issue 3 pp.1-6 | Clean |
+| 3 GO | Pockets the shard, follows the trace; encounters Jink on the workbench. Reverse-scale contrast; Issue 4 gates entry (interrogation, near memory-wipe, charging cradle as price of admission). Fairy tale shatters: "this is not a story." | Issue 3 contact; Issue 4 meeting | Clean |
+| 4 SEARCH | Road of trials: clockmaker diversion (the "terrible liar" who pulls it off), Luma in the waistcoat pocket reading the city, ally-to-friend with Jink ("We see you"). | Issues 5-8 | Partial — touches the flaw but never makes performing cost him |
+| 5 FIND | Rooftop refusal: Jink, serious for the first time, tells him to walk away; he refuses ("It isn't yours either"). Being-chosen converts to choosing-back. Eye-level staging; the choice IS the understanding. | Issue 11 | Partial-to-full — the need is met |
+| 6 TAKE | In one continuous motion his clockwork hands disarm the last device, then draw the brain-plug from **Cribbage** — the eighth, organic contact wired into the same hub, his own master, slumped unwitnessed against the cabinet. Recovery not death; the master comes back "simpler." The price is his own and on his axis: he chooses to stay and hold the shop for a man who will never know what the boy did. | Issue 12 | Clean — the price is paid on Theodore's own need-axis (worth through loyalty, choosing-back unseen). *(Outline + Story Bible reflect this; the Issue 12 script repagination that stages it — Section 4 → Pages 13–17 — is saved under `comic/scripts/.pending/` and pending application.)* |
+| 7 RETURN | The fairies absent, their light left as residue on the bench; candlelit-workshop bookend of the Issue 3 Action Pose. Return enacted by composition, not by a traversed return-leg. | Issue 12 | Partial — return-leg skipped between relay station and workshop |
+| 8 CHANGE | The two workshops converge: clockwork hands disarm, then he writes a story about luminous people who fell from the sky. "He thinks he's writing about his friends." Pen on paper: the first words of the oldest fairy tale. | Issue 12 | Partial — interior change strong; external situation-changer half deferred to Vol 2 by lock |
+
+**Want vs. need.** The want is MAGIC (worth conferred — "you were chosen, you are special"); the need is to be SEEN, deepening into to be KNOWN and to CHOOSE BACK (worth earned). Canon stages the want as a mask on the need (Source: theodore.md, "What He Needs"). The want is shattered on schedule in Issue 4 while the need survives; it is first met when Jink answers the performed self with "We see you" (Issue 7) for who he is, not for his hands; and it transcends itself in Issue 12, where the squad is gone and the boy who needed attention becomes the one who SEES and records THEM. "Magic is given; choice is earned" is enacted, not asserted. (Source: Plot Outline, Issue 12; Jink-Theodore Relationship brainstorm)
+
+**Where the circle says tighten.**
+
+- **TAKE — Theodore's own price (APPLIED in canon).** The already-LOCKED Cribbage brain-plug removal is now seated in the Issue 12 climax as one continuous motion of his hands — disarm the device, then free the master who never saw him, knowing recovery returns Cribbage "simpler." The TAKE is choosing to stay unseen for a man who will never know what the boy did: worth through loyalty, paying for the Issue 11 FIND on the same need-axis. Reflected in the plot outline ("Theodore's moment") and Story Bible; the staged Issue 12 script repagination (Section 4 → Pages 13–17, Section 5 → Pages 18–19, 22 pages held) is verified and saved under `comic/scripts/.pending/`, pending application to the panel script + wireframes.
+- **SEARCH should test the flaw before soothing it.** In the Issue 7 scene, let Theodore reach for the performed version first (list what he can DO) and let Jink decline that frame before "We see you," so the need is tested, not just comforted.
+- **RETURN needs its enacted leg.** Add one transit panel of Theodore walking home alone from the relay station — the third use of the "walks home alone / he's different now" motif (Issues 3 and 4) — with his pocket EMPTY this time.
+- **CHANGE can carry the situation-changer register without breaking the Vol-2 press lock.** Have him write by the fading holographic emitter already on the bench — light received (Issue 3 floorboards) becomes light recorded.
+- **YOU can wire want-to-need early.** One grace note of Theodore half-telling himself a grandmother's tale of someone ordinary secretly chosen, so the wish is already self-administered before any fairy appears.
+
 ## References
 
 - Story Bible (`docs/GrimGlow_Story_Bible.md`) -- Character section, arc statement, "the tinker's boy"
