@@ -26,7 +26,7 @@ Their mission might have been reconnaissance. Or it might have been something mo
 
 ## The Crew
 
-You want a small squad, maybe four to six, each with a distinct role that maps to both a gameplay function and a story arc.
+The squad is seven — the original five below, plus the Pilot and the Watcher, the two crew added as the ship's company grew. Each has a distinct role that maps to both a gameplay function and a story arc.
 
 ### Sable — The Captain
 
@@ -52,6 +52,14 @@ Thresh's "fights afraid" arc has to cost something to land. The Volume 1 climax 
 
 Fascinated by everything. For Luma, the past isn't a prison, it's a once-in-a-lifetime research opportunity. She's the one most tempted to stay. She's also the one who starts to notice that the timeline may already be more damaged than they think, and that some of the "fairy tales" humans tell... are too accurate to be coincidence. Someone else has been here before them.
 
+### The Pilot
+
+The ship's pilot, seated forward of Sable on the bridge — the chair ahead of the captain's. The Pilot flies the ship: transit, the corridor run, the descent. Having a dedicated pilot is what frees Sable to command rather than fly. Solar-gold armour with warm yellow node light. One of the two crew added after the original five — in the ship's design and on the bridge from the start, and the scripts are still catching up. Name still to be given.
+
+### The Watcher
+
+The ship's watcher, posted at the stern. The Watcher keeps the observation watch — the long, quiet scan of everything behind and beyond the ship — and owns the link home. Pearl-white armour with violet node light. The second of the two added crew: present in the ship and the design, still being written into the scripts the way the Pilot is. Name still to be given.
+
 ### Theodore Edmund Hartley — The Steampunk Boy
 
 A tinker's apprentice, maybe twelve or thirteen, clever with his hands, overlooked by the adult world. The weight of his full name — Theodore Edmund Hartley — speaks to parents who had aspirations his station hasn't delivered on yet, a gap between the grandness of the name and the smallness of his life that does character work before a single line of dialogue. He discovers them, and his role becomes this impossible balancing act — he's their translator, their guide to the giant world, their cover story. But he's also a kid, and he wants the fairies to be what he imagines they are. The tension between what Theodore wants them to be (magical, wonderful) and what they actually are (tired soldiers trying to survive) is one of your best emotional threads.
@@ -73,6 +81,8 @@ Suits are department-coded in jewel-tone metallics, inspired by Star Trek's unif
 | Reconnaissance | Jink | Emerald metallic | Emerald/green |
 | Security | Thresh | Ruby/crimson metallic | Red/crimson |
 | Science/Medical | Luma | Sapphire/violet metallic | Blue-violet |
+| Flight (bridge) | The Pilot | Solar gold | Warm yellow |
+| Watch (stern post) | The Watcher | Pearl white | Violet |
 
 Victorian observers name the squad by their colors — "the silver fairy," "the copper fairy," "the green fairy," "the red fairy," "the blue fairy" — feeding directly into the fairy tale echo theme.
 
